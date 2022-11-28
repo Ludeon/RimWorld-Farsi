@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageInfo>
+  <friendlyNameNative>ﻼﻋﺮﺒﻳﺓ</friendlyNameNative>
+  <friendlyNameEnglish>Arabic</friendlyNameEnglish>
+  <canBeTiny>true</canBeTiny>
+  <languageWorkerClass>LanguageWorker_English</languageWorkerClass>
+  <credits>
+    <li Class="CreditRecord_Role">
+      <roleKey>Credit_Writer ﻡﺮﺤﺑﺍ</roleKey>
+      <creditee>ﺖﻴﻧﺎﻧ ﺲﻴﻠﻔﻴﺴﺗﺭ</creditee>
+      <creditee>ﺖﻴﻧﺎﻧ {0} ﺲﻴﻠﻔﻴﺴﺗﺭ</creditee>
+      <creditee>ﺖﻴﻧﺎﻧ{0} ﺲﻴﻠﻔﻴﺴﺗﺭ</creditee>
+      <creditee>{0}ﺖﻴﻧﺎﻧ ﺲﻴﻠﻔﻴﺴﺗﺭ</creditee>
+      <creditee>ﺖﻴﻧﺎﻧ {asdf!@#} ﺲﻴﻠﻔﻴﺴﺗﺭ</creditee>
+      <creditee>ﺖﻴﻧﺎﻧ{asdf!@#} ﺲﻴﻠﻔﻴﺴﺗﺭ</creditee>
+      <creditee>{asdf!@#}ﺖﻴﻧﺎﻧ ﺲﻴﻠﻔﻴﺴﺗﺭ</creditee>
+      <creditee>ﺃءﺫﺍ ﺎﺨﺿﻮﺿﺭ ﻼﻌﺸﺑ ﻮﻜﺑﺮﺗ ﻼﻤﺣﺎﻔﻃﺎﺗ ﺮﺒﻧﺍ ﻝﺍ ﺕﺅﺎﺧﺬﻧﺍ ﺐﻣﺍ ﻒﻌﻟ ﻼﺴﻔﻫﺍء ﻢﻧﺍ</creditee>
+      <creditee>ﻝﺍ ﻝﺃ ﻝﺇ ﻝﺁ</creditee>
+      <creditee>ﻻﺍ ﻻﺃ ﻻﺇ ﻻﺁ ﺐﻟﺍ ﺐﻟﺃ ﺐﻟﺇ ﺐﻟﺁ</creditee>
+      <creditee>ﻝﺍﺍ ﻝﺃﺍ ﻝﺇﺍ ﻝﺁﺍ ﻝﺎﺑ ﻝﺄﺑ ﻝﺈﺑ ﻝﺂﺑ</creditee>
+      <creditee>}ﻝﺍ }ﻝﺃ }ﻝﺇ }ﻝﺁ {ﻝﺍ {ﻝﺃ {ﻝﺇ {ﻝﺁ</creditee>
+      <creditee>ﻝﺎ{ ﻝﺄ{ ﻝﺈ{ ﻝﺂ{ ﻝﺎ} ﻝﺄ} ﻝﺈ} ﻝﺂ}</creditee>
+    </li>
+  </credits>
+</LanguageInfo>
