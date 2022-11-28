@@ -1,26 +1,47 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <!-- EN: none -->
   <WorkTagNone>none</WorkTagNone>
+  <!-- EN: intellectual -->
   <WorkTagIntellectual>intellectual</WorkTagIntellectual>
+  <!-- EN: dumb labor -->
   <WorkTagManualDumb>dumb labor</WorkTagManualDumb>
+  <!-- EN: skilled labor -->
   <WorkTagManualSkilled>skilled labor</WorkTagManualSkilled>
+  <!-- EN: violent -->
   <WorkTagViolent>violent</WorkTagViolent>
+  <!-- EN: shooting -->
   <WorkTagShooting>shooting</WorkTagShooting>
+  <!-- EN: caring -->
   <WorkTagCaring>caring</WorkTagCaring>
+  <!-- EN: social -->
   <WorkTagSocial>social</WorkTagSocial>
+  <!-- EN: animals -->
   <WorkTagAnimals>animals</WorkTagAnimals>
+  <!-- EN: artistic -->
   <WorkTagArtistic>artistic</WorkTagArtistic>
+  <!-- EN: crafting -->
   <WorkTagCrafting>crafting</WorkTagCrafting>
+  <!-- EN: cooking -->
   <WorkTagCooking>cooking</WorkTagCooking>
+  <!-- EN: firefighting -->
   <WorkTagFirefighting>firefighting</WorkTagFirefighting>
+  <!-- EN: cleaning -->
   <WorkTagCleaning>cleaning</WorkTagCleaning>
+  <!-- EN: hauling -->
   <WorkTagHauling>hauling</WorkTagHauling>
+  <!-- EN: plant work -->
   <WorkTagPlantWork>plant work</WorkTagPlantWork>
+  <!-- EN: mining -->
   <WorkTagMining>mining</WorkTagMining>
+  <!-- EN: hunting -->
   <WorkTagHunting>hunting</WorkTagHunting>
+  <!-- EN: constructing -->
   <WorkTagConstructing>constructing</WorkTagConstructing>
+  <!-- EN: commoner work -->
   <WorkTagCommoner>commoner work</WorkTagCommoner>
+  <!-- EN: all work -->
   <WorkTagAllWork>all work</WorkTagAllWork>
 
 </LanguageData>
