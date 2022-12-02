@@ -3,19 +3,19 @@
   
   <!-- Audiovisuals -->
   <!-- EN: Audiovisuals -->
-  <Audiovisuals>Audiovisuals</Audiovisuals>
+  <Audiovisuals>ﯼﺮﺼﺑ ﻭ ﯽﻌﻤﺳ</Audiovisuals>
   <!-- EN: Master volume -->
-  <MasterVolume>Master volume</MasterVolume>
+  <MasterVolume>ﯽﻠﮐ ﯼﺍﻭﺁ</MasterVolume>
   <!-- EN: Game volume -->
-  <GameVolume>Game volume</GameVolume>
+  <GameVolume>ﯼﺯﺎﺑ ﯼﺍﺪﺻ ﻥﺍﺰﯿﻣ</GameVolume>
   <!-- EN: Music volume -->
-  <MusicVolume>Music volume</MusicVolume>
+  <MusicVolume>ﯽﻘﯿﺳﻮﻣ ﯼﺍﺪﺻ ﻥﺍﺰﯿﻣ</MusicVolume>
   <!-- EN: Ambience volume -->
-  <AmbientVolume>Ambience volume</AmbientVolume>
+  <AmbientVolume>ﻂﯿﺤﻣ ﯼﺍﻭﺁ</AmbientVolume>
   <!-- EN: UI volume -->
-  <UIVolume>UI volume</UIVolume>
+  <UIVolume>ﯼﺮﺑﺭﺎﮐ ﻂﺑﺍﺭ ﯼﺍﺪﺻ</UIVolume>
   <!-- EN: Affects all sounds. -->
-  <MasterVolumeTooltip>Affects all sounds.</MasterVolumeTooltip>
+  <MasterVolumeTooltip>.ﺪﻫﺩ ﯽﻣ ﺭﺍﺮﻗ ﺮﯿﺛﺎﺗ ﺖﺤﺗ ﺍﺭ ﺎﻫﺍﻭﺁ ﻪﻤﻫ</MasterVolumeTooltip>
   <!-- EN: Affects all in world sounds, e.g. chopping trees, building walls. -->
   <GameVolumeTooltip>Affects all in world sounds, e.g. chopping trees, building walls.</GameVolumeTooltip>
   <!-- EN: Affects music. -->
@@ -41,15 +41,15 @@
   <!-- EN: Hide hats on UI -->
   <HatsShownOnlyOnMap>Hide hats on UI</HatsShownOnlyOnMap>
   <!-- EN: UI scale -->
-  <UIScale>UI scale</UIScale>
+  <UIScale>ﯼﺮﺑﺭﺎﮐ ﻂﺑﺍﺭ ﺱﺎﯿﻘﻣ</UIScale>
   <!-- EN: Keyboard configuration -->
-  <KeyboardConfig>Keyboard configuration</KeyboardConfig>
+  <KeyboardConfig>ﺪﯿﻠﮐ ﻪﺤﻔﺻ ﯼﺪﻨﺑﺮﮑﯿﭘ</KeyboardConfig>
   <!-- EN: Controller configuration -->
   <ControllerConfig>Controller configuration</ControllerConfig>
   <!-- EN: Modify -->
   <ModifyConfig>Modify</ModifyConfig>
   <!-- EN: Choose language -->
-  <ChooseLanguage>Choose language</ChooseLanguage>
+  <ChooseLanguage>ﺪﯿﻨﮐ ﺏﺎﺨﺘﻧﺍ ﺍﺭ ﻥﺎﺑﺯ</ChooseLanguage>
   <!-- EN: Reset learning helper -->
   <ResetAdaptiveTutor>Reset learning helper</ResetAdaptiveTutor>
   <!-- EN: Tutor is reset. You will be now be re-taught all lessons from scratch. -->
@@ -57,7 +57,7 @@
   <!-- EN: Keyboard mode -->
   <SteamDeckKeyboardMode>Keyboard mode</SteamDeckKeyboardMode>
   <!-- EN: Run in background -->
-  <RunInBackground>Run in background</RunInBackground>
+  <RunInBackground>ﻪﻨﯿﻣﺯ ﺲﭘ ﺭﺩ ﺍﺮﺟﺍ</RunInBackground>
   <!-- EN: Development mode -->
   <DevelopmentMode>Development mode</DevelopmentMode>
   <!-- EN: Auto-reset mods config on crash -->
@@ -93,7 +93,7 @@
   <!-- EN: This name is already on the preferred list. -->
   <MessageAlreadyPreferredName>This name is already on the preferred list.</MessageAlreadyPreferredName>
   <!-- EN: Storyteller settings -->
-  <ChangeStoryteller>Storyteller settings</ChangeStoryteller>
+  <ChangeStoryteller>ﻮﮔ ﻪﺼﻗ ﺕﺎﻤﯿﻈﻨﺗ</ChangeStoryteller>
   <!-- EN: Autosave interval -->
   <AutosaveInterval>Autosave interval</AutosaveInterval>
   <!-- EN: The number of in game days between each auto save. -->
@@ -115,7 +115,7 @@
   <!-- EN: Maximum autosave interval in permadeath mode is {0} day. -->
   <MaxPermadeathAutosaveIntervalInfo>Maximum autosave interval in permadeath mode is {0} day.</MaxPermadeathAutosaveIntervalInfo>
   <!-- EN: Mod Settings -->
-  <ModSettings>Mod Settings</ModSettings>
+  <ModSettings>ﺩﻮﻣ ﺕﺎﻤﯿﻈﻨﺗ</ModSettings>
   <!-- EN: Permanently disable development mode -->
   <PermanentlyDisableDevMode>Permanently disable development mode</PermanentlyDisableDevMode>
   <!-- EN: Texture compression -->
@@ -129,9 +129,9 @@
 
   <!-- Resolution -->
   <!-- EN: Resolution -->
-  <Resolution>Resolution</Resolution>
+  <Resolution>ﺡﻮﺿﻭ</Resolution>
   <!-- EN: Fullscreen -->
-  <Fullscreen>Fullscreen</Fullscreen>
+  <Fullscreen>ﻪﺤﻔﺻ ﻡﺎﻤﺗ</Fullscreen>
   <!-- EN: Borderless fullscreen -->
   <BorderlessFullscreen>Borderless fullscreen</BorderlessFullscreen>
   <!-- EN: To run RimWorld in borderless fullscreen mode:\n\n1) Open Steam\n2) Go to the "Library" tab at the top\n3) Find RimWorld on the list and right-click it\n4) Choose "Properties..."\n5) Add "-popupwindow" without quotes to "Launch options" in the "General" tab\n6) Restart game\n7) If done correctly, you won't see this window\n\nHint: Use Windows Key + Shift + Left/Right to move the window between your monitors. -->
@@ -157,6 +157,6 @@
   
   <!-- Background image -->
   <!-- EN: Menu background -->
-  <SetBackgroundImage>Menu background</SetBackgroundImage>
+  <SetBackgroundImage>ﻮﻨﻣ ﺭﺩ ﻪﻨﯿﻣﺯ ﺲﭘ ﺮﯾﻮﺼﺗ</SetBackgroundImage>
 
 </LanguageData>
