@@ -3,11 +3,11 @@
 
   <!-- Work tab -->
   <!-- EN: Manual priorities -->
-  <ManualPriorities>Manual priorities</ManualPriorities>
+  <ManualPriorities>اولویت های دستی</ManualPriorities>
   <!-- EN: higher priority -->
-  <HigherPriority>higher priority</HigherPriority>
+  <HigherPriority>اولویت بالاتر</HigherPriority>
   <!-- EN: lower priority -->
-  <LowerPriority>lower priority</LowerPriority>
+  <LowerPriority>اولویت پایین تر</LowerPriority>
   <!-- EN: Relevant skills: {0}\nAverage of relevant skills: {1} -->
   <RelevantSkills>Relevant skills: {0}\nAverage of relevant skills: {1}</RelevantSkills>
   <!-- EN: Click to jump to: -->
@@ -25,15 +25,15 @@
   <!-- EN: Priority 1 is done first. Priority 4 is done last. -->
   <PriorityOneDoneFirst>Priority 1 is done first. Priority 4 is done last.</PriorityOneDoneFirst>
   <!-- EN: Will not do -->
-  <Priority0>Will not do</Priority0>
+  <Priority0>انجام نخواهد داد</Priority0>
   <!-- EN: Top priority -->
   <Priority1>Top priority</Priority1>
   <!-- EN: High priority -->
-  <Priority2>High priority</Priority2>
+  <Priority2>اولویت بالا</Priority2>
   <!-- EN: Normal priority -->
-  <Priority3>Normal priority</Priority3>
+  <Priority3>اولویت عادی</Priority3>
   <!-- EN: Low priority -->
-  <Priority4>Low priority</Priority4>
+  <Priority4>اولویت کم</Priority4>
   <!-- EN: {0}\n\nThe faction {1_nameDef} currently belongs to.\n\nClick to view faction. -->
   <PawnFactionInfo>{0}\n\nThe faction {1_nameDef} currently belongs to.\n\nClick to view faction.</PawnFactionInfo>
   <!-- EN: Disabled by {0} backstory -->
@@ -45,9 +45,9 @@
   
   <!-- Assign tab -->
   <!-- EN: Manage outfits -->
-  <ManageOutfits>Manage outfits</ManageOutfits>
+  <ManageOutfits>لباس ها را مدیریت کنید</ManageOutfits>
   <!-- EN: Unchangeable -->
-  <Unchangeable>Unchangeable</Unchangeable>
+  <Unchangeable>غیر قابل تغییر</Unchangeable>
   <!-- EN: Clr. forced -->
   <ClearForcedApparel>Clr. forced</ClearForcedApparel>
   <!-- EN: forced -->
@@ -65,7 +65,7 @@
   
   <!-- Restrictions tab -->
   <!-- EN: Copy -->
-  <Copy>Copy</Copy>
+  <Copy>کپی</Copy>
   <!-- EN: Paste -->
   <Paste>Paste</Paste>
   <!-- EN: Allowed area -->
@@ -91,23 +91,23 @@
   
   <!-- Factions tab -->
   <!-- EN: Hostile -->
-  <Hostile>Hostile</Hostile>
+  <Hostile>متخاصم</Hostile>
   <!-- EN: Ally -->
-  <Ally>Ally</Ally>
+  <Ally>متحد</Ally>
   <!-- EN: hostile -->
-  <HostileLower>hostile</HostileLower>
+  <HostileLower>متخاصم</HostileLower>
   <!-- EN: ally -->
-  <AllyLower>ally</AllyLower>
+  <AllyLower>متحد</AllyLower>
   <!-- EN: defeated -->
-  <DefeatedLower>defeated</DefeatedLower>
+  <DefeatedLower>شکست خورده</DefeatedLower>
   <!-- EN: Enemy of {0} -->
   <HostileTo>Enemy of {0}</HostileTo>
   <!-- EN: Enemy of:  -->
   <EnemyOf>Enemy of: </EnemyOf>
   <!-- EN: Recent events -->
-  <RecentEvents>Recent events</RecentEvents>
+  <RecentEvents>رویدادهای اخیر</RecentEvents>
   <!-- EN: Ongoing events -->
-  <OngoingEvents>Ongoing events</OngoingEvents>
+  <OngoingEvents>رویدادهای در حال انجام</OngoingEvents>
   <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
   <CurrentGoodwillTip_PermanentEnemy>This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason.</CurrentGoodwillTip_PermanentEnemy>
   <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
@@ -119,9 +119,9 @@
 
   <!-- Social tab -->
   <!-- EN: Friend -->
-  <Friend>Friend</Friend>
+  <Friend>دوست</Friend>
   <!-- EN: Rival -->
-  <Rival>Rival</Rival>
+  <Rival>رقیب</Rival>
   <!-- EN: Acquaintance -->
   <Acquaintance>Acquaintance</Acquaintance>
   
@@ -129,9 +129,9 @@
   <!-- EN: Graph -->
   <Graph>Graph</Graph>
   <!-- EN: Messages -->
-  <Messages>Messages</Messages>
+  <Messages>پیام ها</Messages>
   <!-- EN: Statistics -->
-  <Statistics>Statistics</Statistics>
+  <Statistics>آمار</Statistics>
   
   <!-- History tab - Graphs -->
   <!-- EN: Select graph -->
@@ -143,27 +143,27 @@
   <!-- EN: Last 300 days -->
   <Last300Days>Last 300 days</Last300Days>
   <!-- EN: All -->
-  <AllDays>All</AllDays>
+  <AllDays>همه</AllDays>
   <!-- EN: Value -->
-  <Value>Value</Value>
+  <Value>ارزش</Value>
   <!-- EN: External -->
-  <External>External</External>
+  <External>خارجی</External>
 
   <!-- History tab - Messages -->
   <!-- EN: Show letters -->
-  <ShowLetters>Show letters</ShowLetters>
+  <ShowLetters>نمایش نامه ها</ShowLetters>
   <!-- EN: Show messages -->
-  <ShowMessages>Show messages</ShowMessages>
+  <ShowMessages>نمایش پیام ها</ShowMessages>
   <!-- EN: Pin or unpin this message.\n\nThe oldest unpinned messages will be removed automatically from the list after reaching the limit of {0} messages. -->
   <PinArchivableTip>Pin or unpin this message.\n\nThe oldest unpinned messages will be removed automatically from the list after reaching the limit of {0} messages.</PinArchivableTip>
   <!-- EN: no messages -->
-  <NoMessages>no messages</NoMessages>
+  <NoMessages>هیچ پیامی وجود ندارد</NoMessages>
 
   <!-- History tab - Statistics -->
   <!-- EN: Play time -->
-  <Playtime>Play time</Playtime>
+  <Playtime>زمان پخش</Playtime>
   <!-- EN: Storyteller -->
-  <Storyteller>Storyteller</Storyteller>
+  <Storyteller>قصه گو</Storyteller>
   <!-- EN: Colony wealth (this map) -->
   <ThisMapColonyWealthTotal>Colony wealth (this map)</ThisMapColonyWealthTotal>
   <!-- EN: Colony wealth (items) (this map) -->
@@ -173,7 +173,7 @@
   <!-- EN: Colony wealth (people and animals) (this map) -->
   <ThisMapColonyWealthColonistsAndTameAnimals>Colony wealth (people and animals) (this map)</ThisMapColonyWealthColonistsAndTameAnimals>
   <!-- EN: Major threats -->
-  <NumThreatBigs>Major threats</NumThreatBigs>
+  <NumThreatBigs>تهدیدات عمده</NumThreatBigs>
   <!-- EN: Enemy raids -->
   <NumEnemyRaids>Enemy raids</NumEnemyRaids>
   <!-- EN: Damage taken (this map) -->
@@ -185,19 +185,19 @@
 
   <!-- Research tab -->
   <!-- EN: Research -->
-  <Research>Research</Research>
+  <Research>پژوهش</Research>
   <!-- EN: Study -->
-  <Study>Study</Study>
+  <Study>مطالعه</Study>
   <!-- EN: Study {0} -->
   <StudyThing>Study {0}</StudyThing>
   <!-- EN: Unresearched -->
-  <Unresearched>Unresearched</Unresearched>
+  <Unresearched>تحقیق نشده</Unresearched>
   <!-- EN: Finished -->
-  <Finished>Finished</Finished>
+  <Finished>تمام شده</Finished>
   <!-- EN: In Progress -->
-  <InProgress>In Progress</InProgress>
+  <InProgress>در حال پیش رفت</InProgress>
   <!-- EN: Locked -->
-  <Locked>Locked</Locked>
+  <Locked>قفل شده است</Locked>
   <!-- EN: Research prerequisites -->
   <ResearchPrerequisites>Research prerequisites</ResearchPrerequisites>
   <!-- EN: Techprints required {0} / {1} -->
@@ -223,17 +223,17 @@
 
   <!-- Factions tab -->
   <!-- EN: Factions -->
-  <FactionsTab>Factions</FactionsTab>
+  <FactionsTab>جناح ها</FactionsTab>
   <!-- EN: No known factions -->
   <NoFactions>No known factions</NoFactions>
 
   <!-- Quests tab -->
   <!-- EN: Available -->
-  <AvailableQuests>Available</AvailableQuests>
+  <AvailableQuests>در دسترس</AvailableQuests>
   <!-- EN: Active -->
-  <ActiveQuests>Active</ActiveQuests>
+  <ActiveQuests>فعال</ActiveQuests>
   <!-- EN: Historical -->
-  <HistoricalQuests>Historical</HistoricalQuests>
+  <HistoricalQuests>تاریخی</HistoricalQuests>
   <!-- EN: no quest selected -->
   <NoQuestSelected>no quest selected</NoQuestSelected>
   <!-- EN: Appeared {0} days ago -->
@@ -351,6 +351,6 @@
 
   <!-- Misc -->
   <!-- EN: Click to edit -->
-  <ClickToEdit>Click to edit</ClickToEdit>
+  <ClickToEdit>برای ویرایش کلیک کنید</ClickToEdit>
 
 </LanguageData>
