@@ -2,7 +2,7 @@
 <LanguageData>
 
   <!-- EN: Click to jump to problem -->
-  <ClickToJumpToProblem>به محل حادثه بروید</ClickToJumpToProblem>
+  <ClickToJumpToProblem>برای رفتن به مشکل کلیک کنید</ClickToJumpToProblem>
 
   <!-- EN: Minor break risk -->
   <BreakRiskMinor>خطر شکست جزئی</BreakRiskMinor>
@@ -11,11 +11,11 @@
   <!-- EN: Extreme break risk -->
   <BreakRiskExtreme>خطر شکست شدید</BreakRiskExtreme>
   <!-- EN: These colonists are in a poor mood and may have a minor mental break at any time:\n\n{0} -->
-  <BreakRiskMinorDesc>مستعمره نشینان زیر خلق و خوی خوبی ندارند و ممکن است در هر زمانی دچار اختلال روانی خفیف شوند:\n\n{0}</BreakRiskMinorDesc>
+  <BreakRiskMinorDesc>این کلونی ها در خلق و خوی ضعیفی هستند و ممکن است هر لحظه دچار مشکل ذهنی جزئی شوند:\n\n{0}</BreakRiskMinorDesc>
   <!-- EN: These colonists are in a very poor mood and may have a major mental break at any time:\n\n{0} -->
-  <BreakRiskMajorDesc>استعمارگران زیر در خلق و خوی بدی هستند و ممکن است در هر زمانی دچار اختلال روانی متوسط ​​شوند:\n\n{0}</BreakRiskMajorDesc>
+  <BreakRiskMajorDesc>این کلونی ها در خلق و خوی بسیار ضعیفی هستند و ممکن است هر لحظه دچار مشکل ذهنی بزرگی شوند:\n\n{0}</BreakRiskMajorDesc>
   <!-- EN: These colonists are critically stressed and may have an extreme (and possibly violent) mental break at any moment:\n\n{0} -->
-  <BreakRiskExtremeDesc>استعمارگران زیر خلق و خوی وحشتناکی دارند و ممکن است دچار اختلال روانی شدید (احتمالاً خشونت آمیز) شوند:\n\n{0}</BreakRiskExtremeDesc>
+  <BreakRiskExtremeDesc>این کلونی ها به شدت تحت فشار هستند و ممکن است هر لحظه دچار مشکل ذهنی شدید (و احتمالاً خشونت آمیز) شوند.:\n\n{0}</BreakRiskExtremeDesc>
   <!-- EN: Check these colonists' Needs tab to see what's bothering them.\n\nTo make colonists feel better, you can do things like make them fancy meals, give them more recreation hours per day and nicer recreation objects, place them in beautiful environments, have them drink and smoke, and much more. -->
   <BreakRiskDescEnding>برگه «نیازهای ساکنان» را بررسی کنید تا ببینید چه چیزی آنها را آزار می‌دهد.\n\nبرای ایجاد احساس بهتر در کلونی ها، می‌توانید کارهایی مانند درست کردن غذاهای شیک برای آنها، ساعات تفریح بیشتر در روز و وسایل تفریحی زیباتر، قرار دادن آنها در محیط‌های زیبا، انجام دهید. آنها می نوشند و سیگار می کشند و خیلی چیزهای دیگر.</BreakRiskDescEnding>
 
@@ -26,32 +26,32 @@
   <!-- EN: These colonists are incapacitated on the ground:\n\n{0}\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then right click on the victim and select Rescue.) -->
   <ColonistsNeedRescueDesc>این کلونی ها روی زمین ناتوان هستند:\n\n{0}\کلونی دیگری را بفرستید تا آنها را نجات دهد و آنها را به رختخواب برگرداند.\n\n(برای نجات، کلونی دیگری را انتخاب کنید، سپس روی قربانی کلیک راست کرده و نجات دادن را انتخاب کنید.)</ColonistsNeedRescueDesc>
   <!-- EN: These colonists are incapacitated on the ground:\n\n{0}\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then press the left trigger button on the victim and select Rescue.) -->
-  <ColonistsNeedRescueDescController>این کلونیان روی زمین ناتوان هستند:\n\n{0}\nمستعمره دیگری را بفرستید تا آنها را نجات دهد و آنها را به رختخواب برگرداند.\n\n(برای نجات، مستعمره دیگری را انتخاب کنید، سپس دکمه ماشه سمت چپ قربانی را فشار داده و نجات دادن را انتخاب کنید.)</ColonistsNeedRescueDescController>
+  <ColonistsNeedRescueDescController>این کلونیان روی زمین ناتوان هستند:\n\n{0}\nکلونی دیگری را بفرستید تا آنها را نجات دهد و آنها را به رختخواب برگرداند.\n\n(برای نجات، کلونی دیگری را انتخاب کنید، سپس دکمه ماشه سمت چپ قربانی را فشار داده و نجات دادن را انتخاب کنید.)</ColonistsNeedRescueDescController>
 
   <!-- EN: Need defenses -->
   <NeedDefenses>نیاز به دفاع</NeedDefenses>
   <!-- EN: You've been here some time and have probably been seen. Pirate raids will start soon.\n\nYou should prepare defenses, like sandbags or traps. -->
-  <NeedDefensesDesc>شما برای مدتی اینجا بوده اید و ممکن است توسط شخص دیگری کشف شده باشید. دزدان دریایی ممکن است در هر زمانی برای حمله به کلنی شما بیایند. \n\nشما باید برخی از استحکامات را مستقر کنید، خواه تله، کیسه شن، یا برجک.</NeedDefensesDesc>
+  <NeedDefensesDesc>شما مدتی اینجا بوده اید و احتمالا دیده شده اید. حملات دزدان دریایی به زودی آغاز خواهد شد.\n\nYou should prepare defenses, like sandbags or traps.</NeedDefensesDesc>
 
   <!-- EN: Need doctor -->
-  <NeedDoctor>کمبود پزشک</NeedDoctor>
+  <NeedDoctor>نیاز به دکتر</NeedDoctor>
   <!-- EN: These colonists need medical care, but you have no healthy colonists assigned as doctors.\n\n{0}\nAssign a healthy colonist to the Doctor work type. If left untreated, wounds may never heal properly and may become permanent. -->
-  <NeedDoctorDesc>استعمارگران زیر نیاز به شفا دارند. اما شما استعمارگران سالمی ندارید که کار "مراقبتی" انجام دهند. \n\n{0}\nیک مستعمره‌نشین سالم را به شغل «مراقبت» در برگه «شغل‌ها» اختصاص دهید. زخم هایی که بدون درمان رها می شوند به خودی خود بهبود نمی یابند و ممکن است باعث آسیب دائمی شوند.</NeedDoctorDesc>
+  <NeedDoctorDesc>این کلونی ها به مراقبت‌های پزشکی نیاز دارند، اما شما هیچ کلونی‌ای سالمی ندارید که به‌عنوان پزشک تعیین شده باشد.\n\n{0}\nیک کلونی سالم را به نوع کار پزشک اختصاص دهید. اگر زخم ها درمان نشوند، ممکن است هرگز به درستی بهبود نیافته و دائمی شوند.</NeedDoctorDesc>
 
   <!-- EN: Need miner -->
-  <NeedMiner>کمبود معدنچی</NeedMiner>
+  <NeedMiner>نیاز به معدنچی</NeedMiner>
   <!-- EN: You have designated some rocks to be mined, but no colonist has the Mining work type.\n\nAssign a colonist the Mining work type. -->
-  <NeedMinerDesc>شما کار استخراج سنگ را راه اندازی می کنید، اما هیچ مستعمره ای کار "معدنی" انجام نمی دهد. \n\nکار "معدن" را به یک مستعمره نشین اختصاص دهید.</NeedMinerDesc>
+  <NeedMinerDesc>این کلونی به مراقبت‌های پزشکی نیاز دارند، اما شما هیچ کلونی سالمی ندارید که به‌عنوان پزشک تعیین شده باشد.\n\n{0}\nیک کلونی سالم را به نوع کار پزشک اختصاص دهید. اگر زخم ها درمان نشوند، ممکن است هرگز به درستی بهبود نیافته و دائمی شوند.</NeedMinerDesc>
 
   <!-- EN: Need warden -->
-  <NeedWarden>کمبود زندانبان</NeedWarden>
+  <NeedWarden>نیاز به نگهبان</NeedWarden>
   <!-- EN: You have a prisoner, but no colonist has the Warden work type.\n\nAssign a colonist the Warden work type. -->
-  <NeedWardenDesc>شما یک زندانی دارید، اما هیچ مستعمره‌ای در مشاغل «زندانبان» کار نمی‌کند. \n\nیک مستعمره‌نشین را با شغل "نظارت" محول کنید.</NeedWardenDesc>
+  <NeedWardenDesc>شما یک زندانی دارید، اما هیچ کلونی نوع کار Warden را ندارد.\n\nنوع کار Warden را به یک کلونی اختصاص دهید.</NeedWardenDesc>
 
   <!-- EN: Low food -->
-  <LowFood>غذای ناکافی</LowFood>
+  <LowFood>غذای کم</LowFood>
   <!-- EN: You are dangerously low on food.\n\n    Full bars worth of food in storage: {0}\n    Colonists and prisoners getting food: {1}\n    Days worth of food in storage: {2}\n\nGrow, buy, find, or kill some food. -->
-  <LowFoodDesc>شما با وضعیت غذای ناکافی مواجه هستید. \n\n مقدار غذای ذخیره شده: {0}\n تعداد مستعمره‌نشینان و زندانیانی که غذا مصرف می‌کنند: {1}\n روزهای ذخیره‌سازی مواد غذایی: {2}\n\nشما می‌توانید رشد کنید، بخرید، جستجو کنید یا برای غذا شکار کنید .</LowFoodDesc>
+  <LowFoodDesc>غذای شما به طور خطرناکی کم است.\n\n حجم کامل مواد غذایی در انبار: {0}\n کلونی و زندانیان غذا دریافت می‌کنند: {1}\n غذا به ارزش یک روز در انبار: {2}\n\nرشد، مقداری غذا بخرید، پیدا کنید یا بکشید.</LowFoodDesc>
 
   <!-- EN: Low medicine -->
   <LowMedicine>داروی کم</LowMedicine>
@@ -61,106 +61,106 @@
   <NoMedicineDesc>هیچ دارویی در انبار ندارید.\n\nداروی بیشتری از تاجران بخرید.</NoMedicineDesc>
   
   <!-- EN: Need colonist beds -->
-  <NeedColonistBeds>کمبود تخت</NeedColonistBeds>
+  <NeedColonistBeds>نیاز به تخت کلونیان</NeedColonistBeds>
   <!-- EN: You have more colonists than you have colonist beds. Someone will lack a place to sleep.\n\nEither make more beds, or change a prisoner bed to a colonist bed.\n\nIf you have no resources, sleeping spots are free and can be placed instantly. -->
-  <NeedColonistBedsDesc>تعداد مستعمره‌های شما بیشتر از تخت‌هایتان است و کسی جایی برای خواب نخواهد داشت. \n\nیا تخت‌های بیشتری بسازید، یا تخت‌های زندانیان را به تخت‌های مستعمره تبدیل کنید. \n\nاگر منابع کافی ندارید، مکان‌های خواب رایگان هستند و فورا ساخته می‌شوند.</NeedColonistBedsDesc>
+  <NeedColonistBedsDesc>تعداد کلونی شما بیشتر از تخت های کلونی است. کسی جایی برای خوابیدن ندارد.\n\nیا تخت‌های بیشتری درست کنید، یا تخت زندانی را به تخت کلونی تغییر دهید.\n\nاگر هیچ منبعی ندارید، مکان‌های خواب رایگان هستند و می‌توانند فوراً قرار بگیرند.</NeedColonistBedsDesc>
   
   <!-- EN: Colonist left unburied -->
-  <AlertColonistLeftUnburied>کلونی بدون دفن رها شده</AlertColonistLeftUnburied>
+  <AlertColonistLeftUnburied>کلونی بدون دفن رها شد</AlertColonistLeftUnburied>
   <!-- EN: A colonist is left unburied.\n\nThis may negatively affect your colonists' mood. -->
-  <AlertColonistLeftUnburiedDesc>یک مستعمره‌نشین دفن نشده رها می‌شود.\in\ این ممکن است بر روحیه مستعمره‌نشینان شما تأثیر منفی بگذارد.</AlertColonistLeftUnburiedDesc>
+  <AlertColonistLeftUnburiedDesc>A colonist is left unburied.\n\nThis may negatively affect your colonists' mood.</AlertColonistLeftUnburiedDesc>
 
   <!-- EN: Hunter lacks ranged weapon -->
   <HunterLacksWeapon>شکارچی فاقد سلاح تیراندازی است</HunterLacksWeapon>
   <!-- EN: A colonist is assigned to work as a hunter but does not have a ranged weapon.\n\nThey will not hunt until they are carrying a ranged weapon.\n\nThe following colonists are assigned as hunters and need ranged weapons -->
-  <HunterLacksWeaponDesc></HunterLacksWeaponDesc>
+  <HunterLacksWeaponDesc>A colonist is assigned to work as a hunter but does not have a ranged weapon.\n\nThey will not hunt until they are carrying a ranged weapon.\n\nThe following colonists are assigned as hunters and need ranged weapons</HunterLacksWeaponDesc>
 
   <!-- EN: Tattered apparel -->
   <AlertTatteredApparel>پوشاک پاره شده</AlertTatteredApparel>
   <!-- EN: These colonists are wearing tattered apparel, which is making them sad:\n\n{0}\nGet them some apparel that isn't so badly damaged.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
-  <AlertTatteredApparelDesc>این مستعمره‌نشین‌ها لباس‌های پاره‌شده پوشیده‌اند که باعث ناراحتی آن‌ها می‌شود:\n\n{0}\nبرای آنها لباس‌هایی تهیه کنید که آسیب چندانی ندیده باشد.\n\nمی‌توانید لباس‌هایی را در محل کاردستی یا میز خیاطی خیاطی کنید یا بخرید. آن را از معامله گران.</AlertTatteredApparelDesc>
+  <AlertTatteredApparelDesc>These colonists are wearing tattered apparel, which is making them sad:\n\n{0}\nGet them some apparel that isn't so badly damaged.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders.</AlertTatteredApparelDesc>
 
   <!-- EN: Unhappy nudity -->
   <AlertUnhappyNudity>برهنگی ناراحت کننده</AlertUnhappyNudity>
   <!-- EN: These colonists are nude and not happy about it:\n\n{0}\nGet them some clothes.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
-  <AlertUnhappyNudityDesc>این مستعمره‌نشین‌ها برهنه هستند و از این بابت خوشحال نیستند:\n\n{0}\nبرای آنها لباس بگیرید.\n\nمی‌توانید لباس‌ها را در یک مکان صنایع دستی یا میز خیاطی خیاطی کنید، یا از تاجران بخرید.</AlertUnhappyNudityDesc>
+  <AlertUnhappyNudityDesc>These colonists are nude and not happy about it:\n\n{0}\nGet them some clothes.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders.</AlertUnhappyNudityDesc>
 
   <!-- EN: Starvation -->
   <Starvation>گرسنگی</Starvation>
   <!-- EN: These colonists are starving:\n\n{0}\nGet them some food. -->
-  <StarvationDesc>این مستعمره‌نشینان از گرسنگی می‌میرند:\n\n{0}\nبرایشان غذا بیاورید.</StarvationDesc>
+  <StarvationDesc>These colonists are starving:\n\n{0}\nGet them some food.</StarvationDesc>
 
   <!-- EN: Animal starvation -->
   <StarvationAnimals>گرسنگی حیوانات</StarvationAnimals>
   <!-- EN: These colony animals are starving:\n\n{0}\nGet them some food. -->
-  <StarvationAnimalsDesc>این حیوانات مستعمره گرسنه هستند:\n\n{0}\nبرای آنها غذا بیاورید.</StarvationAnimalsDesc>
+  <StarvationAnimalsDesc>These colony animals are starving:\n\n{0}\nGet them some food.</StarvationAnimalsDesc>
 
   <!-- EN: Exhaustion -->
   <Exhaustion>فرسودگی</Exhaustion>
   <!-- EN: These colonists are exhausted and need rest:\n\n{0}\nGet them some rest. They'll need a bed marked for colonist use. Also, make sure they're not drafted. -->
-  <ExhaustionDesc>این مستعمره‌نشینان خسته شده‌اند و نیاز به استراحت دارند:\n\n{0}\nبه آنها استراحت بدهید. آنها به یک تخت علامت گذاری شده برای استفاده مستعمره نشینان نیاز دارند. همچنین، مطمئن شوید که آنها پیش نویس نشده اند.</ExhaustionDesc>
+  <ExhaustionDesc>These colonists are exhausted and need rest:\n\n{0}\nGet them some rest. They'll need a bed marked for colonist use. Also, make sure they're not drafted.</ExhaustionDesc>
 
   <!-- EN: Need food hopper -->
-  <NeedFoodHopper>نیاز به قیف غذا</NeedFoodHopper>
+  <NeedFoodHopper>Need food hopper</NeedFoodHopper>
   <!-- EN: You have a nutrient dispenser with no hopper next to it.\n\nTo work, paste dispensers must draw from an adjacent hopper filled with raw food.\n\nBuild a hopper adjacent to the dispenser. -->
-  <NeedFoodHopperDesc>شما یک دستگاه پخش کننده مواد مغذی بدون قیف در کنار آن دارید.\n\nدر غیر این صورت، دستگاه پخش رب باید از یک قیف مجاور پر از غذای خام بیرون بیاورد.\in\یک قیف در مجاورت مغذی ساز بسازید.</NeedFoodHopperDesc>
+  <NeedFoodHopperDesc>You have a nutrient dispenser with no hopper next to it.\n\nTo work, paste dispensers must draw from an adjacent hopper filled with raw food.\n\nBuild a hopper adjacent to the dispenser.</NeedFoodHopperDesc>
 
   <!-- EN: Need meal source -->
   <NeedMealSource>نیاز به منبع غذایی</NeedMealSource>
   <!-- EN: You have no way of preparing proper meals from raw food.\n\nBuild a stove, campfire, or nutrient dispenser.\n\n(It cannot be in a prison cell, otherwise colonists cannot use it.) -->
-  <NeedMealSourceDesc>شما هیچ راهی برای تهیه وعده های غذایی مناسب از غذای خام ندارید.\n\در\n\ اجاق گاز، آتش سوزی، یا توزیع کننده مواد مغذی بسازید.\n\n(این نمی تواند در یک سلول زندان باشد، در غیر این صورت استعمارگران نمی توانند از آن استفاده کنند.)</NeedMealSourceDesc>
+  <NeedMealSourceDesc>You have no way of preparing proper meals from raw food.\n\nBuild a stove, campfire, or nutrient dispenser.\n\n(It cannot be in a prison cell, otherwise colonists cannot use it.)</NeedMealSourceDesc>
 
   <!-- EN: Need recreation variety -->
   <NeedJoySource>نیاز به تنوع تفریحی</NeedJoySource>
   <!-- EN: There are only {0} different recreation types available in {1}, but at the current expectations level ({2}), colonists need {3} different kinds of recreation to remain satisfied. Provide recreation variety supplying a new, different kind of recreation.\n\n{4}\n\n{5}\n\nNote: You can check the recreation type of any item in its stats page, accessible with the 'i' button. -->
-  <NeedJoySourceDesc>فقط {0} نوع تفریح مختلف در {1} موجود است، اما در سطح انتظارات کنونی ({2})، مستعمره‌نشینان برای راضی ماندن به {3} انواع مختلف تفریح نیاز دارند. تنوع تفریحی ارائه دهید که نوع جدیدی از تفریحات را ارائه می‌کند.\n\n{4}\n\n{5}\n\nتوجه: می‌توانید نوع تفریح هر موردی را در صفحه آمار آن بررسی کنید که با «i» قابل دسترسی است. ' دکمه.</NeedJoySourceDesc>
+  <NeedJoySourceDesc>There are only {0} different recreation types available in {1}, but at the current expectations level ({2}), colonists need {3} different kinds of recreation to remain satisfied. Provide recreation variety supplying a new, different kind of recreation.\n\n{4}\n\n{5}\n\nNote: You can check the recreation type of any item in its stats page, accessible with the 'i' button.</NeedJoySourceDesc>
   <!-- EN: Available recreation types -->
-  <AvailableRecreationTypes>انواع تفریحات موجود</AvailableRecreationTypes>
+  <AvailableRecreationTypes>Available recreation types</AvailableRecreationTypes>
   <!-- EN: Missing recreation types -->
   <MissingRecreationTypes>انواع تفریحات از دست رفته</MissingRecreationTypes>
   <!-- EN: At current expectations ({0}), each tolerance falls by {1} per day awake. Having {2} recreation types is recommended. -->
-  <CurrentExpectationsAndRecreation>در انتظارات فعلی ({0})، هر تحمل به میزان {1} در هر روز بیدار کاهش می یابد. داشتن {2} نوع تفریح توصیه می شود.</CurrentExpectationsAndRecreation>
+  <CurrentExpectationsAndRecreation>At current expectations ({0}), each tolerance falls by {1} per day awake. Having {2} recreation types is recommended.</CurrentExpectationsAndRecreation>
   <!-- EN: bored -->
   <bored>خسته</bored>
 
   <!-- EN: Boredom -->
   <Boredom>کسالت</Boredom>
   <!-- EN: These people are either in need of recreation or are assigned to recreation, but are bored of every available source of recreation:\n\n{0}\n\nGet them some more recreation variety.\n\nCurrently available recreation types for {PAWN_labelShort}:\n\n{2} -->
-  <BoredomDesc>این افراد یا نیاز به تفریح دارند یا به تفریح اختصاص داده شده‌اند، اما از هر منبع تفریحی در دسترس خسته شده‌اند:\n\n{0}\n\nتنوع تفریحات بیشتری برای آنها فراهم کنید.\n\nانواع تفریحی موجود در حال حاضر برای { PAWN_labelShort}:\n\n{2}</BoredomDesc>
+  <BoredomDesc>These people are either in need of recreation or are assigned to recreation, but are bored of every available source of recreation:\n\n{0}\n\nGet them some more recreation variety.\n\nCurrently available recreation types for {PAWN_labelShort}:\n\n{2}</BoredomDesc>
 
   <!-- EN: Need batteries -->
   <NeedBatteries>نیاز به باتری</NeedBatteries>
   <!-- EN: You have a solar or wind generator, but no batteries. You'll lose power every time the sun goes down or the wind calms. -->
-  <NeedBatteriesDesc>شما یک ژنراتور خورشیدی یا بادی دارید، اما باتری ندارید. هر بار که خورشید غروب کند یا باد آرام شود، قدرت خود را از دست خواهید داد.</NeedBatteriesDesc>
+  <NeedBatteriesDesc>You have a solar or wind generator, but no batteries. You'll lose power every time the sun goes down or the wind calms.</NeedBatteriesDesc>
   <!-- EN: Build a battery or two to guarantee sustained power. -->
-  <NeedBatteriesResearchedDesc>برای تضمین قدرت پایدار، یک یا دو باتری بسازید.</NeedBatteriesResearchedDesc>
+  <NeedBatteriesResearchedDesc>Build a battery or two to guarantee sustained power.</NeedBatteriesResearchedDesc>
   <!-- EN: Research batteries and build a couple to guarantee sustained power. -->
-  <NeedBatteriesNotResearchedDesc>در مورد باتری ها تحقیق کنید و یک زوج بسازید تا برق پایدار را تضمین کنید.</NeedBatteriesNotResearchedDesc>
+  <NeedBatteriesNotResearchedDesc>Research batteries and build a couple to guarantee sustained power.</NeedBatteriesNotResearchedDesc>
 
   <!-- EN: Brawler has ranged weapon -->
-  <BrawlerHasRangedWeapon>Brawler سلاح تیراندازی دارد</BrawlerHasRangedWeapon>
+  <BrawlerHasRangedWeapon>Brawler سلاح دور دارد</BrawlerHasRangedWeapon>
   <!-- EN: One of your colonists has the Brawler personality trait, but is carrying a ranged weapon. This will make them very unhappy. -->
-  <BrawlerHasRangedWeaponDesc>یکی از مستعمره نشینان شما دارای ویژگی شخصیتی Brawler است، اما در حال حمل یک سلاح تیراندازی است. این کار آنها را بسیار ناراضی خواهد کرد.</BrawlerHasRangedWeaponDesc>
+  <BrawlerHasRangedWeaponDesc>One of your colonists has the Brawler personality trait, but is carrying a ranged weapon. This will make them very unhappy.</BrawlerHasRangedWeaponDesc>
 
   <!-- EN: Shield user has ranged weapon -->
   <ShieldUserHasRangedWeapon>کاربر سپر دارای سلاح برد است</ShieldUserHasRangedWeapon>
   <!-- EN: One of your colonists has a shield belt and is carrying a ranged weapon. They will not be able to fire their weapon through the shield (except at targets who are already touching them). -->
-  <ShieldUserHasRangedWeaponDesc>یکی از مستعمره نشینان شما یک کمربند سپر دارد و یک سلاح دوربرد حمل می کند. آنها نمی توانند سلاح خود را از طریق سپر شلیک کنند (به جز اهدافی که قبلاً آنها را لمس می کنند).</ShieldUserHasRangedWeaponDesc>
+  <ShieldUserHasRangedWeaponDesc>One of your colonists has a shield belt and is carrying a ranged weapon. They will not be able to fire their weapon through the shield (except at targets who are already touching them).</ShieldUserHasRangedWeaponDesc>
 
   <!-- EN: Need research project -->
   <NeedResearchProject>نیاز به پروژه تحقیقاتی</NeedResearchProject>
   <!-- EN: You have the equipment to do research but have not selected a project.\n\nOpen the research menu and select a project. -->
-  <NeedResearchProjectDesc>شما تجهیزات لازم برای انجام تحقیق را دارید اما پروژه ای را انتخاب نکرده اید.\n\nمنوی تحقیق را باز کنید و پروژه ای را انتخاب کنید.</NeedResearchProjectDesc>
+  <NeedResearchProjectDesc>You have the equipment to do research but have not selected a project.\n\nOpen the research menu and select a project.</NeedResearchProjectDesc>
 
   <!-- EN: {0} colonists idle -->
   <ColonistsIdle>{0} کلونیان بیکار</ColonistsIdle>
   <!-- EN: These colonists are wandering idly:\n\n{0}\nYou should probably find them something productive to do. -->
-  <ColonistsIdleDesc>این مستعمره‌نشینان بیکار سرگردانند:\n\n{0}\nشما احتمالاً باید برای آنها کار مفیدی پیدا کنید.</ColonistsIdleDesc>
+  <ColonistsIdleDesc>These colonists are wandering idly:\n\n{0}\nYou should probably find them something productive to do.</ColonistsIdleDesc>
   
   <!-- EN: Caravan idle -->
   <CaravanIdle>کاروان بیکار</CaravanIdle>
   <!-- EN: These caravans are waiting for you to set their next destination:\n\n{0} -->
-  <CaravanIdleDesc>این کاروان‌ها منتظر شما هستند تا مقصد بعدی خود را تعیین کنید:\n\n{0}</CaravanIdleDesc>
+  <CaravanIdleDesc>These caravans are waiting for you to set their next destination:\n\n{0}</CaravanIdleDesc>
 
   <!-- EN: Medical treatment needed -->
   <ColonistNeedsTreatment>درمان پزشکی مورد نیاز است</ColonistNeedsTreatment>
@@ -197,17 +197,17 @@
   <BilliardsNeedsSpaceDesc>One of your billiards table is adjacent to an obstruction that will prevent colonists from using it.\n\nA billiards table needs clear space around it on all sides to be usable.</BilliardsNeedsSpaceDesc>
 
   <!-- EN: Chess table needs chairs -->
-  <ChessTablesNeedChairs>Chess table needs chairs</ChessTablesNeedChairs>
+  <ChessTablesNeedChairs>میز شطرنج به صندلی نیاز دارد</ChessTablesNeedChairs>
   <!-- EN: One of your chess tables does not have any adjacent chairs.\n\nBuild adjacent chairs or stools to allow your colonists to use the chess table. Up to two people can use a chess table at once. -->
   <ChessTablesNeedChairsDesc>One of your chess tables does not have any adjacent chairs.\n\nBuild adjacent chairs or stools to allow your colonists to use the chess table. Up to two people can use a chess table at once.</ChessTablesNeedChairsDesc>
 
   <!-- EN: Poker table needs chairs -->
-  <PokerTablesNeedChairs>Poker table needs chairs</PokerTablesNeedChairs>
+  <PokerTablesNeedChairs>میز پوکر به صندلی نیاز دارد</PokerTablesNeedChairs>
   <!-- EN: One of your poker tables does not have any adjacent chairs.\n\nBuild adjacent chairs or stools to allow your colonists to use the poker table. Up to eight people can use a poker table at once. -->
   <PokerTablesNeedChairsDesc>One of your poker tables does not have any adjacent chairs.\n\nBuild adjacent chairs or stools to allow your colonists to use the poker table. Up to eight people can use a poker table at once.</PokerTablesNeedChairsDesc>
 
   <!-- EN: Hunter has shield and ranged weapon -->
-  <HunterHasShieldAndRangedWeapon>Hunter has shield and ranged weapon</HunterHasShieldAndRangedWeapon>
+  <HunterHasShieldAndRangedWeapon>شکارچی دارای سپر و سلاح دوربرد است</HunterHasShieldAndRangedWeapon>
   <!-- EN: One of your hunters is using a ranged weapon and wearing a shield belt which prevents shooting at range.\n\nThey won't be able to hunt unless the shield is removed. -->
   <HunterHasShieldAndRangedWeaponDesc>One of your hunters is using a ranged weapon and wearing a shield belt which prevents shooting at range.\n\nThey won't be able to hunt unless the shield is removed.</HunterHasShieldAndRangedWeaponDesc>
 
@@ -298,40 +298,40 @@
   <AlertPredatorInAnimalPenDesc>A predatory {ANIMAL_labelShort} has wandered into an animal pen.\n\nIt may decide to hunt your animals.\n\nYou can kill it, or wait and hope it leaves.</AlertPredatorInAnimalPenDesc>
 
   <!-- EN: Animal wandering away -->
-  <AlertAnimalIsRoaming>Animal wandering away</AlertAnimalIsRoaming>
+  <AlertAnimalIsRoaming>حیوان سرگردان دور</AlertAnimalIsRoaming>
   <!-- EN: Some of your tame animals are roamers and have started to wander. If they reach the edge of the map, they will eventually leave.\n\nIf you have an enclosed animal pen, your animal handlers can bring the animal back. Animals in an animal pen will not roam.\n\nThe following animals are roaming:\n\n{0} -->
-  <AlertAnimalIsRoamingDesc>Some of your tame animals are roamers and have started to wander. If they reach the edge of the map, they will eventually leave.\n\nIf you have an enclosed animal pen, your animal handlers can bring the animal back. Animals in an animal pen will not roam.\n\nThe following animals are roaming:\n\n{0}</AlertAnimalIsRoamingDesc>
+  <AlertAnimalIsRoamingDesc>برخی از حیوانات اهلی شما سرگردان هستند و شروع به سرگردانی کرده اند. اگر آنها به لبه نقشه برسند، در نهایت آنجا را ترک خواهند کرد.\n\nاگر یک قلم حیوانات محصور دارید، نگهبانان حیوانات شما می توانند حیوان را برگردانند. حیوانات در آغل حیوانات پرسه نمی‌زنند.\n\nحیوانات زیر در حال پرسه زدن هستند:\n\n{0}</AlertAnimalIsRoamingDesc>
 
   <!-- EN: Hungry pen animals -->
-  <AlertPennedAnimalHungry>Hungry pen animals</AlertPennedAnimalHungry>
+  <AlertPennedAnimalHungry>حیوانات قلم گرسنه</AlertPennedAnimalHungry>
   <!-- EN: Some of your penned animals are hungry.\n\nSelect a pen marker and use the Food tab to see more detail.\n\nGrass-eating animals may need a larger pen to provide enough grass. Other animals may need to be supplied with haygrass or similar food using a stockpile.\n\nThe following penned animals are hungry:\n\n{0} -->
-  <AlertPennedAnimalHungryDesc>Some of your penned animals are hungry.\n\nSelect a pen marker and use the Food tab to see more detail.\n\nGrass-eating animals may need a larger pen to provide enough grass. Other animals may need to be supplied with haygrass or similar food using a stockpile.\n\nThe following penned animals are hungry:\n\n{0}</AlertPennedAnimalHungryDesc>
+  <AlertPennedAnimalHungryDesc>برخی از حیوانات قلاب‌شده شما گرسنه هستند.\n\nیک نشانگر قلم انتخاب کنید و از برگه غذا برای مشاهده جزئیات بیشتر استفاده کنید.\n\nحیوانات علف‌خوار ممکن است به قلم بزرگ‌تری نیاز داشته باشند تا علف کافی داشته باشند. سایر حیوانات ممکن است نیاز به تهیه علف علف یا غذای مشابه با استفاده از انبار داشته باشند.\n\nحیوانات قلاب شده زیر گرسنه هستند:\n\n{0}</AlertPennedAnimalHungryDesc>
 
   <!-- EN: Hungry hitched animal -->
-  <AlertHitchedAnimalHungryNoFood>Hungry hitched animal</AlertHitchedAnimalHungryNoFood>
+  <AlertHitchedAnimalHungryNoFood>حیوان گرسنه خرطومی</AlertHitchedAnimalHungryNoFood>
   <!-- EN: Some animals tied to hitching spots are hungry. There may not be any suitable food within their reach.\n\nBring them food, or remove the hitching spot so they can find food on their own.\n\nThe following hitched animals are hungry:\n\n{0} -->
-  <AlertHitchedAnimalHungryNoFoodDesc>Some animals tied to hitching spots are hungry. There may not be any suitable food within their reach.\n\nBring them food, or remove the hitching spot so they can find food on their own.\n\nThe following hitched animals are hungry:\n\n{0}</AlertHitchedAnimalHungryNoFoodDesc>
+  <AlertHitchedAnimalHungryNoFoodDesc>برخی از حیواناتی که به نقاط اتصال گرسنه هستند. ممکن است غذای مناسبی در دسترس آنها نباشد.\n\nبرایشان غذا بیاورید یا محل اتصال را بردارید تا خودشان بتوانند غذا پیدا کنند.\n\nحیوانات خرطومی زیر گرسنه هستند:\n\n{0}</AlertHitchedAnimalHungryNoFoodDesc>
 
   <!-- EN: Raids arriving in {0} -->
-  <AlertTimedRaidsArrivingIn>Raids arriving in {0}</AlertTimedRaidsArrivingIn>
+  <AlertTimedRaidsArrivingIn>حملات در {0}</AlertTimedRaidsArrivingIn>
   <!-- EN: Enemies have been attracted to the following sites and will start arriving in force soon.\n\n{0} -->
-  <AlertTimedRaidsArrivingInDesc>Enemies have been attracted to the following sites and will start arriving in force soon.\n\n{0}</AlertTimedRaidsArrivingInDesc>
+  <AlertTimedRaidsArrivingInDesc>دشمنان به سایت های زیر جذب شده اند و به زودی وارد عمل خواهند شد.\n\n{0}</AlertTimedRaidsArrivingInDesc>
   <!-- EN: Arriving at {0} in {1} -->
-  <AlertTimedRaidsArrivingAt>Arriving at {0} in {1}</AlertTimedRaidsArrivingAt>
+  <AlertTimedRaidsArrivingAt>رسیدن به {0} در {1}</AlertTimedRaidsArrivingAt>
 
   <!-- EN: Faction will become hostile if you stay -->
-  <FactionWillBecomeHostileIfNotLeavingWithin>Faction will become hostile if you stay</FactionWillBecomeHostileIfNotLeavingWithin>
+  <FactionWillBecomeHostileIfNotLeavingWithin>اگر بمانید جناح متخاصم می شود</FactionWillBecomeHostileIfNotLeavingWithin>
   <!-- EN: These factions will become hostile if you stay for longer at their settlement or outpost:\n\n{0} -->
-  <FactionWillBecomeHostileIfNotLeavingWithinDesc>These factions will become hostile if you stay for longer at their settlement or outpost:\n\n{0}</FactionWillBecomeHostileIfNotLeavingWithinDesc>
+  <FactionWillBecomeHostileIfNotLeavingWithinDesc>اگر برای مدت طولانی تری در محل سکونت یا پاسگاه آنها بمانید، این جناح ها متخاصم می شوند:\n\n{0}</FactionWillBecomeHostileIfNotLeavingWithinDesc>
 
   <!-- EN: {0} trees dying -->
-  <AlertMinifiedTreeAboutToDie>{0} trees dying</AlertMinifiedTreeAboutToDie>
+  <AlertMinifiedTreeAboutToDie>{0} درخت در حال مرگ</AlertMinifiedTreeAboutToDie>
   <!-- EN: {0} extracted trees are going to die is less than a day. This will make some colonists unhappy because of their beliefs.\n\nYou can prevent this by replanting these trees. -->
-  <AlertMinifiedTreeAboutToDieDesc>{0} extracted trees are going to die is less than a day. This will make some colonists unhappy because of their beliefs.\n\nYou can prevent this by replanting these trees.</AlertMinifiedTreeAboutToDieDesc>
+  <AlertMinifiedTreeAboutToDieDesc>{0} درختان استخراج شده کمتر از یک روز می میرند. این باعث می شود برخی از کلونی به دلیل اعتقاداتشان ناراضی باشند.\n\nشما می توانید با کاشت مجدد این درختان از این امر جلوگیری کنید.</AlertMinifiedTreeAboutToDieDesc>
 
   <!-- EN: Need research bench -->
   <NeedResearchBench>نیازمند نیمکت تحقیق</NeedResearchBench>
   <!-- EN: You have an active research project '{0}'. This project requires you to build {1}. -->
-  <NeedResearchBenchDesc>You have an active research project '{0}'. This project requires you to build {1}.</NeedResearchBenchDesc>
+  <NeedResearchBenchDesc>شما یک پروژه تحقیقاتی فعال "{0}" دارید. این پروژه از شما می خواهد که {1} را بسازید.</NeedResearchBenchDesc>
   
 </LanguageData>

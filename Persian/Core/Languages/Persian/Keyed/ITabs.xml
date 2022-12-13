@@ -110,7 +110,7 @@
   <FactorForMovement>Multiplier for movement</FactorForMovement>
   <!-- EN: Slave price -->
   <SlavePrice>Slave price</SlavePrice>
-  <!-- EN: The base market value of this {0} if sold. -->
+  <!-- EN: The base market value of this slave if sold. -->
   <SlavePriceDescription>The base market value of this {0} if sold.</SlavePriceDescription>
   <!-- EN: Gets food -->
   <GetsFood>Gets food</GetsFood>
@@ -167,7 +167,7 @@
   <PainLevel>Pain</PainLevel>
   <!-- EN: Injured -->
   <Injured>Injured</Injured>
-  <!-- EN: Untended injury -->
+  <!-- EN: untended injury -->
   <UntendedInjury>Untended injury</UntendedInjury>
   <!-- EN: no health conditions -->
   <NoHealthConditions>no health conditions</NoHealthConditions>
@@ -420,7 +420,7 @@
   <!-- EN: Pen is not enclosed now, so auto-cut won't occur. -->
   <AutocutUnenclosedPenTip>Pen is not enclosed now, so auto-cut won't occur.</AutocutUnenclosedPenTip>
 
-  <!-- EN: Auto-cut plants blocking wind turbine -->
+  <!-- EN: Auto-cut blocking plants -->
   <WindTurbineAutoCut_EnabledCheckbox>Auto-cut plants blocking wind turbine</WindTurbineAutoCut_EnabledCheckbox>
 
 </LanguageData>

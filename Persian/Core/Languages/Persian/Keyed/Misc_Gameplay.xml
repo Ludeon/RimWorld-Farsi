@@ -984,6 +984,8 @@
   <PowerNeeded>Power needed</PowerNeeded>
   <!-- EN: Power output -->
   <PowerOutput>Power output</PowerOutput>
+  <!-- EN: {0} W when active -->
+  <PowerActiveNeeded>TODO</PowerActiveNeeded>
   <!-- EN: Stored -->
   <PowerBatteryStored>Stored</PowerBatteryStored>
   <!-- EN: Efficiency -->
@@ -1796,5 +1798,14 @@
 
   <!-- EN: Random -->
   <Random>Random</Random>
+
+  <!-- EN: Plant {0_label} -->
+  <PlantThing>TODO</PlantThing>
+  <!-- EN: Plant a {0_label} in a chosen area. -->
+  <PlantThingDesc>TODO</PlantThingDesc>
+  <!-- EN: Cancel planting {0_label} -->
+  <CancelPlantThing>TODO</CancelPlantThing>
+  <!-- EN: Cancel planting the {0_label}. -->
+  <CancelPlantThingDesc>TODO</CancelPlantThingDesc>
 
 </LanguageData>
