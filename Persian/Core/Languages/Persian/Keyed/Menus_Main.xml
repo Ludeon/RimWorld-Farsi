@@ -3,141 +3,141 @@
 
   <!-- Main menu -->
   <!-- EN: Tutorial -->
-  <Tutorial>Tutorial</Tutorial>
+  <Tutorial>آموزش</Tutorial>
   <!-- EN: New colony -->
-  <NewColony>New colony</NewColony>
+  <NewColony>کلونی جدید</NewColony>
   <!-- EN: Back to game -->
-  <BackToGame>Back to game</BackToGame>
+  <BackToGame>بازگشتن به بازی</BackToGame>
   <!-- EN: Review scenario -->
-  <ReviewScenario>Review scenario</ReviewScenario>
+  <ReviewScenario>بررسی سناریو</ReviewScenario>
   <!-- EN: Save -->
-  <Save>Save</Save>
+  <Save>بازی را بارگذاری کنید</Save>
   <!-- EN: Load game -->
-  <LoadGame>Load game</LoadGame>
+  <LoadGame>بازی را بارگیری کنید</LoadGame>
   <!-- EN: Options -->
-  <Options>Options</Options>
+  <Options>گزینه ها</Options>
   <!-- EN: Mod -->
-  <Mod>Mod</Mod>
+  <Mod>مد</Mod>
   <!-- EN: Mods -->
-  <Mods>Mods</Mods>
+  <Mods>مدها</Mods>
   <!-- EN: Save translation report -->
-  <SaveTranslationReport>Save translation report</SaveTranslationReport>
+  <SaveTranslationReport>ذخیره کردن گزارش ترجمه</SaveTranslationReport>
   <!-- EN: Generating translation report -->
-  <GeneratingTranslationReport>Generating translation report</GeneratingTranslationReport>
+  <GeneratingTranslationReport>ایجاد کردن گزارش ترجمه</GeneratingTranslationReport>
   <!-- EN: Cleanup translation files -->
-  <CleanupTranslationFiles>Cleanup translation files</CleanupTranslationFiles>
+  <CleanupTranslationFiles>پاک کردن فایل های ترجمه</CleanupTranslationFiles>
   <!-- EN: Update translations files (TKey's) -->
-  <TranslationFilesTKeyUpdate>Update translations files (TKey's)</TranslationFilesTKeyUpdate>
+  <TranslationFilesTKeyUpdate>به روز رسانی کردن فایل های ترجمه (TKey's)</TranslationFilesTKeyUpdate>
   <!-- EN: Cleaning translation files -->
-  <CleaningTranslationFiles>Cleaning translation files</CleaningTranslationFiles>
+  <CleaningTranslationFiles>پاک کردن فایل های ترجمه</CleaningTranslationFiles>
   <!-- EN: Dev quicktest -->
-  <DevQuickTest>Dev quicktest</DevQuickTest>
+  <DevQuickTest>تست سریع توسعه دهنده</DevQuickTest>
   <!-- EN: Credits -->
-  <Credits>Credits</Credits>
+  <Credits>سازندگان</Credits>
   <!-- EN: Quit to main menu -->
-  <QuitToMainMenu>Quit to main menu</QuitToMainMenu>
+  <QuitToMainMenu>خروج به منوی اصلی</QuitToMainMenu>
   <!-- EN: Save and quit to menu -->
-  <SaveAndQuitToMainMenu>Save and quit to menu</SaveAndQuitToMainMenu>
+  <SaveAndQuitToMainMenu>ذخیره کنید و به منو اصلی خارج شوید</SaveAndQuitToMainMenu>
   <!-- EN: Quit to OS -->
-  <QuitToOS>Quit to OS</QuitToOS>
+  <QuitToOS>خروج به سیستم عامل</QuitToOS>
   <!-- EN: Save and quit to OS -->
-  <SaveAndQuitToOS>Save and quit to OS</SaveAndQuitToOS>
+  <SaveAndQuitToOS>ذخیره کنید و به سیستم عامل خارج شوید</SaveAndQuitToOS>
   <!-- EN: Fiction primer -->
   <FictionPrimer>Fiction primer</FictionPrimer>
   <!-- EN: Ludeon blog -->
-  <LudeonBlog>Ludeon blog</LudeonBlog>
+  <LudeonBlog>Ludeon وبلاگ</LudeonBlog>
   <!-- EN: Forums -->
-  <Forums>Forums</Forums>
+  <Forums>انجمن ها</Forums>
   <!-- EN: Official wiki -->
-  <OfficialWiki>Official wiki</OfficialWiki>
+  <OfficialWiki>ویکی رسمی</OfficialWiki>
   <!-- EN: Tynan's twitter -->
-  <TynansTwitter>Tynan's twitter</TynansTwitter>
+  <TynansTwitter>Tynan توییتر</TynansTwitter>
   <!-- EN: Tynan's design book -->
-  <TynansDesignBook>Tynan's design book</TynansDesignBook>
+  <TynansDesignBook>Tynan کتاب طراحی</TynansDesignBook>
   <!-- EN: Help translate RimWorld -->
-  <HelpTranslate>Help translate RimWorld</HelpTranslate>
+  <HelpTranslate>کمک کنید RimWorld به ترجمه</HelpTranslate>
   <!-- EN: Buy soundtrack -->
-  <BuySoundtrack>Buy soundtrack</BuySoundtrack>
+  <BuySoundtrack>خرید موسیقی متن</BuySoundtrack>
   <!-- EN: Create world -->
-  <CreateWorld>Create world</CreateWorld>
+  <CreateWorld>جهان را ایجاد کنید</CreateWorld>
 
   <!-- Main menu translations info window -->
   <!-- EN: All translations of RimWorld are fan-made. This fan-made translation was created by the following excellent volunteers:\n\n{0} -->
-  <TranslationThanks>All translations of RimWorld are fan-made. This fan-made translation was created by the following excellent volunteers:\n\n{0}</TranslationThanks>
+  <TranslationThanks>All translations of RimWorld are fan-made. This fan-made translation was created by the following excellent volunteers: \n\n {0}</TranslationThanks>
   <!-- EN: You can contribute too. Click below to learn more (opens web browser). -->
-  <TranslationHowToContribute>You can contribute too. Click below to learn more (opens web browser).</TranslationHowToContribute>
+  <TranslationHowToContribute>شما هم می توانید کمک کنید. برای کسب اطلاعات بیشتر روی زیر کلیک کنید (مرورگر وب را باز می کند).</TranslationHowToContribute>
   <!-- EN: Learn more -->
-  <LearnMore>Learn more</LearnMore>
+  <LearnMore>بیشتر بدانید</LearnMore>
 
   <!-- Main menu dev build -->
   <!-- EN: Warning: This is an unstable development build. This means we are running design experiments and doing technical development.\n\nSome things will be temporarily unbalanced on purpose. This is a classic game design method where we deliberately go too far with a balance change in order to better understand balance boundaries. We can then use that information to decide on the final balance points.\n\nThere will also be bugs, including game-breaking ones. Save compatibility may break any time.\n\nIf you're okay with all of this, thanks for testing! If you don't want to be subject to our experiments, please play the latest stable version. -->
-  <DevBuildWarning>Warning: This is an unstable development build. This means we are running design experiments and doing technical development.\n\nSome things will be temporarily unbalanced on purpose. This is a classic game design method where we deliberately go too far with a balance change in order to better understand balance boundaries. We can then use that information to decide on the final balance points.\n\nThere will also be bugs, including game-breaking ones. Save compatibility may break any time.\n\nIf you're okay with all of this, thanks for testing! If you don't want to be subject to our experiments, please play the latest stable version.</DevBuildWarning>
+  <DevBuildWarning>هشدار: این یک ساخت توسعه ناپایدار است. این بدان معناست که ما در حال اجرای آزمایش‌های طراحی و توسعه فنی هستیم. \n\n Some things will be temporarily unbalanced on purpose. This is a classic game design method where we deliberately go too far with a balance change in order to better understand balance boundaries. We can then use that information to decide on the final balance points.\n\nThere will also be bugs, including game-breaking ones. Save compatibility may break any time.\n\nIf you're okay with all of this, thanks for testing! If you don't want to be subject to our experiments, please play the latest stable version.</DevBuildWarning>
 
   <!-- Create/review world -->
   <!-- EN: Review world -->
-  <ReviewWorld>Review world</ReviewWorld>
+  <ReviewWorld>جهان را مرور کنید</ReviewWorld>
   <!-- EN: Generate -->
-  <WorldGenerate>Generate</WorldGenerate>
+  <WorldGenerate>تولید می کنند</WorldGenerate>
   <!-- EN: Save and finish -->
-  <WorldSaveAndFinish>Save and finish</WorldSaveAndFinish>
+  <WorldSaveAndFinish>ذخیره و تمام کنید</WorldSaveAndFinish>
   <!-- EN: Reset factions -->
-  <ResetFactions>Reset factions</ResetFactions>
+  <ResetFactions>بازنشانی جناح ها</ResetFactions>
   <!-- EN: Globe coverage -->
-  <PlanetCoverage>Globe coverage</PlanetCoverage>
+  <PlanetCoverage>پوشش جهانی</PlanetCoverage>
   <!-- EN: Overall rainfall -->
-  <PlanetRainfall>Overall rainfall</PlanetRainfall>
+  <PlanetRainfall>بارندگی کلی</PlanetRainfall>
   <!-- EN: Overall temperature -->
-  <PlanetTemperature>Overall temperature</PlanetTemperature>
+  <PlanetTemperature>دمای کلی</PlanetTemperature>
   <!-- EN: Population -->
-  <PlanetPopulation>Population</PlanetPopulation>
+  <PlanetPopulation>جمعیت</PlanetPopulation>
   <!-- EN: Low -->
-  <PlanetRainfall_Low>Low</PlanetRainfall_Low>
+  <PlanetRainfall_Low>کم</PlanetRainfall_Low>
   <!-- EN: Normal -->
-  <PlanetRainfall_Normal>Normal</PlanetRainfall_Normal>
+  <PlanetRainfall_Normal>معمولی</PlanetRainfall_Normal>
   <!-- EN: High -->
-  <PlanetRainfall_High>High</PlanetRainfall_High>
+  <PlanetRainfall_High>زیاد</PlanetRainfall_High>
   <!-- EN: Low -->
-  <PlanetTemperature_Low>Low</PlanetTemperature_Low>
+  <PlanetTemperature_Low>کم</PlanetTemperature_Low>
   <!-- EN: Normal -->
-  <PlanetTemperature_Normal>Normal</PlanetTemperature_Normal>
+  <PlanetTemperature_Normal>معمولی</PlanetTemperature_Normal>
   <!-- EN: High -->
-  <PlanetTemperature_High>High</PlanetTemperature_High>
+  <PlanetTemperature_High>زیاد</PlanetTemperature_High>
   <!-- EN: Sparse -->
-  <PlanetPopulation_Low>Sparse</PlanetPopulation_Low>
+  <PlanetPopulation_Low>پراکنده</PlanetPopulation_Low>
   <!-- EN: Normal -->
-  <PlanetPopulation_Normal>Normal</PlanetPopulation_Normal>
+  <PlanetPopulation_Normal>معمولی</PlanetPopulation_Normal>
   <!-- EN: Crowded -->
-  <PlanetPopulation_High>Crowded</PlanetPopulation_High>
+  <PlanetPopulation_High>شلوغ</PlanetPopulation_High>
   <!-- EN: Seed -->
-  <WorldSeed>Seed</WorldSeed>
+  <WorldSeed>بذر</WorldSeed>
   <!-- EN: Randomize seed -->
-  <RandomizeSeed>Randomize seed</RandomizeSeed>
+  <RandomizeSeed>بذر را تصادفی کنید</RandomizeSeed>
   <!-- EN: The planet is always the same diameter, but since it's far larger than needed for play, we don't generate the whole surface because it can take a very long time. This is the percentage of the surface that you want generated. -->
   <PlanetCoverageTip>The planet is always the same diameter, but since it's far larger than needed for play, we don't generate the whole surface because it can take a very long time. This is the percentage of the surface that you want generated.</PlanetCoverageTip>
   <!-- EN: Factions -->
-  <WorldFactionsTab>Factions</WorldFactionsTab>
+  <WorldFactionsTab>جناح ها</WorldFactionsTab>
 
   <!-- Select world -->
   <!-- EN: Select world -->
-  <SelectWorld>Select world</SelectWorld>
+  <SelectWorld>جهان را انتخاب کنید</SelectWorld>
   <!-- EN: Select -->
-  <WorldChooseButton>Select</WorldChooseButton>
+  <WorldChooseButton>انتخاب کنید</WorldChooseButton>
   <!-- EN: No world files found. Create a world first. -->
-  <NoWorldsFilesFound>No world files found. Create a world first.</NoWorldsFilesFound>
+  <NoWorldsFilesFound>هیچ فایل جهانی یافت نشد. اول دنیایی بساز</NoWorldsFilesFound>
   
   <!-- Version info -->
   <!-- EN: Version {0} is now available. Check ludeon.com for more info. -->
   <BuildNowAvailable>Version {0} is now available. Check ludeon.com for more info.</BuildNowAvailable>
   <!-- EN: This is the latest version. -->
-  <BuildUpToDate>This is the latest version.</BuildUpToDate>
+  <BuildUpToDate>این آخرین نسخه است.</BuildUpToDate>
   <!-- EN: Error getting version info: {0} -->
   <ErrorGettingVersionInfo>Error getting version info: {0}</ErrorGettingVersionInfo>
   <!-- EN: Loading version info... -->
-  <LoadingVersionInfo>Loading version info...</LoadingVersionInfo>
+  <LoadingVersionInfo>در حال بارگیری اطلاعات نسخه...</LoadingVersionInfo>
 
   <!-- World generator -->
   <!-- EN: Generate world -->
-  <GenerateWorld>Generate world</GenerateWorld>
+  <GenerateWorld>جهان را تولید کند</GenerateWorld>
 
   <!-- Mods config -->
   <!-- EN: Open Steam Workshop -->
@@ -145,7 +145,7 @@
   <!-- EN: Get mods from forum -->
   <GetModsFromForum>Get mods from forum</GetModsFromForum>
   <!-- EN: Open mods data folder -->
-  <OpenModsDataFolder>Open mods data folder</OpenModsDataFolder>
+  <OpenModsDataFolder>پوشه داده مودها را باز کنید</OpenModsDataFolder>
   <!-- EN: Show mods data location -->
   <ShowModsDataLocation>Show mods data location</ShowModsDataLocation>
   <!-- EN: Are you sure you want to disable the core mod? The game won't work at all unless you have another mod that replaces all the core functionality.\n\nRemember, other mods can override defs in the core mod by using the same defName. -->
@@ -171,9 +171,9 @@
   <!-- EN: Are you sure you want to unsubscribe from:\n\n{0} -->
   <ConfirmUnsubscribeFromMultiple>Are you sure you want to unsubscribe from:\n\n{0}</ConfirmUnsubscribeFromMultiple>
   <!-- EN: Author -->
-  <Author>Author</Author>
+  <Author>نویسنده</Author>
   <!-- EN: Enabled -->
-  <Enabled>Enabled</Enabled>
+  <Enabled>فعال شد</Enabled>
   <!-- EN: Disabled -->
   <Disabled>Disabled</Disabled>
   <!-- EN: Enable -->
@@ -191,7 +191,7 @@
   <!-- EN: Load mod list -->
   <LoadModList>Load mod list</LoadModList>
   <!-- EN: Added mods -->
-  <AddedModsList>Added mods</AddedModsList>
+  <AddedModsList>مدهای اضافه شده</AddedModsList>
   <!-- EN: Missing mods -->
   <MissingModsList>Missing mods</MissingModsList>
   <!-- EN: Shared mods -->
@@ -205,7 +205,7 @@
   <!-- EN: Workshop -->
   <FromWorkshop>Workshop</FromWorkshop>
   <!-- EN: Forum -->
-  <FromForum>Forum</FromForum>
+  <FromForum>انجمن</FromForum>
   <!-- EN: Advanced... -->
   <MoreActions>Advanced...</MoreActions>
   <!-- EN: All selected mods -->
@@ -227,7 +227,7 @@
   <!-- EN: Successfully uploaded {0}. -->
   <WorkshopUploadSucceeded>Successfully uploaded {0}.</WorkshopUploadSucceeded>
   <!-- EN: Downloading -->
-  <Downloading>Downloading</Downloading>
+  <Downloading>در حال دانلود</Downloading>
   <!-- EN: Workshop ID -->
   <WorkshopId>Workshop ID</WorkshopId>
   <!-- EN: Display fulfilled requirements -->
@@ -237,11 +237,11 @@
   <!-- EN: Click to go to website. -->
   <ModClickToGoToWebsite>Click to go to website.</ModClickToGoToWebsite>
   <!-- EN: Source -->
-  <Source>Source</Source>
+  <Source>منبع</Source>
   <!-- EN: Game versions -->
-  <ModTargetVersion>Game versions</ModTargetVersion>
+  <ModTargetVersion>نسخه های بازی</ModTargetVersion>
   <!-- EN: Mod version -->
-  <ModVersion>Mod version</ModVersion>
+  <ModVersion>نسخه مود شده</ModVersion>
   <!-- EN: ID -->
   <ModPackageId>ID</ModPackageId>
   <!-- EN: This must be loaded before: {0}. -->
@@ -303,7 +303,7 @@
   <!-- EN: Scenario editor -->
   <ScenarioEditor>Scenario editor</ScenarioEditor>
   <!-- EN: Delete -->
-  <Delete>Delete</Delete>
+  <Delete>حذف</Delete>
   
   <!-- Scenario editor -->
   <!-- EN: seed -->
@@ -362,7 +362,7 @@
   <DifficultyReset>Set to standard playstyle...</DifficultyReset>
   
   <!-- EN: Threats -->
-  <DifficultyThreatSection>Threats</DifficultyThreatSection>
+  <DifficultyThreatSection>تهدیدات</DifficultyThreatSection>
   <!-- EN: Threat scale -->
   <Difficulty_ThreatScale_Label>Threat scale</Difficulty_ThreatScale_Label>
   <!-- EN: Adjust the size of threats like raids and infestations, and the difficulty of quests. -->
@@ -389,7 +389,7 @@
   <Difficulty_AllowExtremeWeatherIncidents_Info>Allow extreme weather incidents such as toxic fallout, volcanic winters and flashstorms.</Difficulty_AllowExtremeWeatherIncidents_Info>
 
   <!-- EN: Economy -->
-  <DifficultyEconomySection>Economy</DifficultyEconomySection>
+  <DifficultyEconomySection>اقتصاد</DifficultyEconomySection>
   <!-- EN: Trade price disadvantage -->
   <Difficulty_TradePriceFactorLoss_Label>Trade price disadvantage</Difficulty_TradePriceFactorLoss_Label>
   <!-- EN: When trading, buy prices are increased by this amount while sell prices are reduced by this amount. -->
@@ -432,7 +432,7 @@
   <Difficulty_EnemyDeathOnDownedChanceFactor_Info>Adjust the extra chance that an enemy will immediately die when downed. This affects the chances to take prisoners, and thus colony population growth rates.</Difficulty_EnemyDeathOnDownedChanceFactor_Info>
 
   <!-- EN: General -->
-  <DifficultyGeneralSection>General</DifficultyGeneralSection>
+  <DifficultyGeneralSection>عمومی</DifficultyGeneralSection>
   <!-- EN: Colonist mood -->
   <Difficulty_ColonistMoodOffset_Label>Colonist mood</Difficulty_ColonistMoodOffset_Label>
   <!-- EN: A permanent mood offset applied to every colonist and prisoner. Colonists have a base mood of 50%. -->
@@ -555,9 +555,9 @@
   <!-- EN: Terrain -->
   <Terrain>Terrain</Terrain>
   <!-- EN: Road -->
-  <Road>Road</Road>
+  <Road>جاده</Road>
   <!-- EN: River -->
-  <River>River</River>
+  <River>رودخانه</River>
   <!-- EN: Elevation -->
   <Elevation>Elevation</Elevation>
   <!-- EN: Fertility -->
@@ -593,13 +593,13 @@
   <!-- EN: Average disease frequency -->
   <AverageDiseaseFrequency>Average disease frequency</AverageDiseaseFrequency>
   <!-- EN: per year -->
-  <PerYear>per year</PerYear>
+  <PerYear>در سال</PerYear>
   <!-- EN: Forageability -->
   <Forageability>Forageability</Forageability>
   <!-- EN: None of the selected people can do the following jobs:\n\n{0}\n\nThis can make the game more difficult than usual. Are you sure you want to continue? -->
   <ConfirmRequiredWorkTypeDisabledForEveryone>None of the selected people can do the following jobs:\n\n{0}\n\nThis can make the game more difficult than usual. Are you sure you want to continue?</ConfirmRequiredWorkTypeDisabledForEveryone>
   <!-- EN: temperature -->
-  <TemperatureLower>temperature</TemperatureLower>
+  <TemperatureLower>درجه حرارت</TemperatureLower>
   <!-- EN: light -->
   <LightLower>light</LightLower>
 
@@ -647,7 +647,7 @@
   <!-- EN: Permanent mood effect -->
   <PermanentMoodEffect>Permanent mood effect</PermanentMoodEffect>
   <!-- EN: Skills -->
-  <Skills>Skills</Skills>
+  <Skills>مهارت ها</Skills>
   <!-- EN: none -->
   <NoneLower>none</NoneLower>
   <!-- EN: Adulthood -->
@@ -655,9 +655,9 @@
   <!-- EN: Childhood -->
   <Childhood>Childhood</Childhood>
   <!-- EN: male -->
-  <Male>male</Male>
+  <Male>مذکر</Male>
   <!-- EN: female -->
-  <Female>female</Female>
+  <Female>مؤنث</Female>
   <!-- EN: male and female -->
   <MaleAndFemale>male and female</MaleAndFemale>
   <!-- EN: male -->
@@ -667,7 +667,7 @@
   <!-- EN: Pain -->
   <Pain>Pain</Pain>
   <!-- EN: Health -->
-  <Health>Health</Health>
+  <Health>سلامتی</Health>
   <!-- EN: Relations -->
   <Relations>Relations</Relations>
   <!-- EN: Possessions -->
@@ -701,7 +701,7 @@
   <!-- EN: None of the selected people can do the following jobs -->
   <RequiredWorkTypeDisabledForEveryone>None of the selected people can do the following jobs</RequiredWorkTypeDisabledForEveryone>
   <!-- EN: Quit -->
-  <Quit>Quit</Quit>
+  <Quit>ترک کنید</Quit>
   <!-- EN: Ignore -->
   <Ignore>Ignore</Ignore>
   
@@ -722,7 +722,7 @@
 
   <!-- Factions -->
   <!-- EN: Factions -->
-  <Factions>Factions</Factions>
+  <Factions>جناح ها</Factions>
   <!-- EN: max {0} basic factions allowed -->
   <TotalFactionsAllowed>max {0} basic factions allowed</TotalFactionsAllowed>
   <!-- EN: max {0} -->

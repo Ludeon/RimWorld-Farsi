@@ -25,6 +25,8 @@
   <CaravanMech>TODO</CaravanMech>
   <!-- EN: {0} mechs -->
   <CaravanMechsCount>TODO</CaravanMechsCount>
+  <!-- EN: {BOSS} with {APPAREL} -->
+  <BossWithApparel>TODO</BossWithApparel>
 
   <!-- Job reports -->
   <!-- EN: removing {0}. -->
@@ -113,6 +115,8 @@
   <WaitingFor>TODO</WaitingFor>
   <!-- EN: Uncontrolled -->
   <Uncontrolled>TODO</Uncontrolled>
+  <!-- EN: incoming {0} -->
+  <BossgroupIncoming>TODO</BossgroupIncoming>
 
   <!-- Sanguophage -->
   <!-- EN: hemogen -->
@@ -165,6 +169,8 @@
   <NextDeathrestNeed>TODO</NextDeathrestNeed>
   <!-- EN: {PAWN_nameDef} should deathrest soon to avoid exhaustion. -->
   <PawnShouldDeathrestNow>TODO</PawnShouldDeathrestNow>
+  <!-- EN: This determines whether {PAWN_nameDef} will automatically ingest hemogen packs when {PAWN_possessive} hemogen is below {MIN}.\n\nAutomatic ingestion is currently {ONOFF}. -->
+  <AutoTakeHemogenDesc>TODO</AutoTakeHemogenDesc>
   <!-- EN: Consume hemogen below -->
   <ConsumeHemogenBelow>TODO</ConsumeHemogenBelow>
   <!-- EN: Never consume hemogen. -->
@@ -271,6 +277,10 @@
   <EjectAllDesc>TODO</EjectAllDesc>
   <!-- EN: Genepacks stored -->
   <GenepacksStored>TODO</GenepacksStored>
+  <!-- EN: Auto-load -->
+  <GenepackAutoLoad>TODO</GenepackAutoLoad>
+  <!-- EN: If active, haulers will automatically store this genepack in a gene bank. -->
+  <GenepackAutoLoadDesc>TODO</GenepackAutoLoadDesc>
   <!-- EN: Forced traits -->
   <ForcedTraits>TODO</ForcedTraits>
   <!-- EN: Suppressed traits -->
@@ -389,7 +399,7 @@
   <WaitingForPawn>TODO</WaitingForPawn>
   <!-- EN: Extracting genes from {PAWN_nameDef}. -->
   <ExtractingXenogermFrom>TODO</ExtractingXenogermFrom>
-  <!-- EN: Extraction paused: No power -->
+  <!-- EN: Extraction paused: No power (interrupt in {TIME}) -->
   <ExtractionPausedNoPower>TODO</ExtractionPausedNoPower>
   <!-- EN: Last ingested {CHEMICAL_label} {DURATION} ago. -->
   <LastIngestedDurationAgo>TODO</LastIngestedDurationAgo>
@@ -599,6 +609,8 @@
   <SubcoreScannerWaitingForOccupant>TODO</SubcoreScannerWaitingForOccupant>
   <!-- EN: Waiting for ingredients -->
   <SubcoreScannerWaitingForIngredients>TODO</SubcoreScannerWaitingForIngredients>
+  <!-- EN: The following ingredients must be loaded first -->
+  <SubcoreScannerWaitingForIngredientsDesc>TODO</SubcoreScannerWaitingForIngredientsDesc>
   <!-- EN: Has {0} -->
   <SubcoreScannerPawnHasSickness>TODO</SubcoreScannerPawnHasSickness>
   <!-- EN: Babies are not allowed -->
@@ -693,6 +705,8 @@
   <SurgeryDisableReasonOvumExtracted>TODO</SurgeryDisableReasonOvumExtracted>
   <!-- EN: Fertilize -->
   <Fertilize>TODO</Fertilize>
+  <!-- EN: Fertilize {0_label} -->
+  <FertilizeThing>TODO</FertilizeThing>
   <!-- EN: Cannot fertilize -->
   <FertilizeCannotFloatOption>TODO</FertilizeCannotFloatOption>
   <!-- EN: Choose a man to fertilize this ovum to create an embryo. The embryo can then be implanted in a mother to start a pregnancy, or in a growth vat. The biological parents of the resulting child will be the woman who provided the ovum and man who fertilized it. -->

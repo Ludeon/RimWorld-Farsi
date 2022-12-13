@@ -1,12 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <!-- EN: Level -->
+  <Level>سطح مهارت</Level>
   <!-- EN: Skill level -->
-  <Level>Skill level</Level>
+  <SkillLevel>TODO</SkillLevel>
   <!-- EN: Progress to next learned level -->
   <ProgressToNextLevel>Progress to next learned level</ProgressToNextLevel>
   <!-- EN: Experience -->
-  <Experience>Experience</Experience>
+  <Experience>تجربه</Experience>
   <!-- EN: Passion -->
   <Passion>Passion</Passion>
   <!-- EN: No passion -->
@@ -24,7 +26,7 @@
   <!-- EN: Effects at level {0} -->
   <EffectsAtLevel>Effects at level {0}</EffectsAtLevel>
   <!-- EN: MAX -->
-  <SkillMax>MAX</SkillMax>
+  <SkillMax>حداکثر</SkillMax>
   <!-- EN: Learned level -->
   <LearnedLevel>Learned level</LearnedLevel>
   <!-- EN: Negative level adjusted to zero. -->

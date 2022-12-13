@@ -3,160 +3,160 @@
   
   <!-- Audiovisuals -->
   <!-- EN: Audiovisuals -->
-  <Audiovisuals>Audiovisuals</Audiovisuals>
+  <Audiovisuals>شنیداری و دیداری</Audiovisuals>
   <!-- EN: Master volume -->
-  <MasterVolume>Master volume</MasterVolume>
+  <MasterVolume>آوای فراگیر</MasterVolume>
   <!-- EN: Game volume -->
-  <GameVolume>Game volume</GameVolume>
+  <GameVolume>آوای بازی</GameVolume>
   <!-- EN: Music volume -->
-  <MusicVolume>Music volume</MusicVolume>
+  <MusicVolume>آوای آهنگ</MusicVolume>
   <!-- EN: Ambience volume -->
-  <AmbientVolume>Ambience volume</AmbientVolume>
+  <AmbientVolume>آوای پیرامون</AmbientVolume>
   <!-- EN: UI volume -->
-  <UIVolume>UI volume</UIVolume>
+  <UIVolume>آوای رابط کاربری</UIVolume>
   <!-- EN: Affects all sounds. -->
-  <MasterVolumeTooltip>Affects all sounds.</MasterVolumeTooltip>
+  <MasterVolumeTooltip>همه آواها را زیر کارساز قرار می دهد.</MasterVolumeTooltip>
   <!-- EN: Affects all in world sounds, e.g. chopping trees, building walls. -->
-  <GameVolumeTooltip>Affects all in world sounds, e.g. chopping trees, building walls.</GameVolumeTooltip>
+  <GameVolumeTooltip>همه آواهای جهان را زیر کارسازی قرار می دهد، به عنوان مثال. خرد کردن درختان، ساختن دیوارها</GameVolumeTooltip>
   <!-- EN: Affects music. -->
-  <MusicVolumeTooltip>Affects music.</MusicVolumeTooltip>
+  <MusicVolumeTooltip>بر نوا کارساز می شود.</MusicVolumeTooltip>
   <!-- EN: Affects all ambient sounds, e.g. wind, insects. -->
-  <AmbientVolumeTooltip>Affects all ambient sounds, e.g. wind, insects.</AmbientVolumeTooltip>
+  <AmbientVolumeTooltip>بر همه آواهای محیط تأثیر می گذارد، به عنوان مثال. باد، حشرات</AmbientVolumeTooltip>
   <!-- EN: Affects all interface sounds, e.g. button clicks, messages. -->
-  <UIVolumeTooltip>Affects all interface sounds, e.g. button clicks, messages.</UIVolumeTooltip>
+  <UIVolumeTooltip>بر همه آواهای رابط تأثیر می گذارد، به عنوان مثال. کلیک دکمه ها، پیام ها</UIVolumeTooltip>
   <!-- EN: Anti-aliasing -->
-  <Antialiasing>Anti-aliasing</Antialiasing>
+  <Antialiasing>ضد آلیاسینگ</Antialiasing>
 
   <!-- Gameplay -->
   <!-- EN: Screen-edge mouse scroll -->
-  <EdgeScreenScroll>Screen-edge mouse scroll</EdgeScreenScroll>
+  <EdgeScreenScroll>اسکرول ماوس لبه صفحه</EdgeScreenScroll>
   <!-- EN: Pause on load -->
-  <PauseOnLoad>Pause on load</PauseOnLoad>
+  <PauseOnLoad>مکث در بارگذاری</PauseOnLoad>
   <!-- EN: Pause on urgent letter -->
-  <PauseOnUrgentLetter>Pause on urgent letter</PauseOnUrgentLetter>
+  <PauseOnUrgentLetter>مکث در نامه ضرروری</PauseOnUrgentLetter>
   <!-- EN: Pause on letter -->
-  <AutomaticPauseModeSetting>Pause on letter</AutomaticPauseModeSetting>
+  <AutomaticPauseModeSetting>مکث روی نامه</AutomaticPauseModeSetting>
   <!-- EN: Disable game-specific cursor -->
-  <CustomCursor>Disable game-specific cursor</CustomCursor>
+  <CustomCursor>مکان نما مخصوص بازی را غیرفعال کنید</CustomCursor>
   <!-- EN: Hide hats on UI -->
-  <HatsShownOnlyOnMap>Hide hats on UI</HatsShownOnlyOnMap>
+  <HatsShownOnlyOnMap>پنهان کردن کلاه ها در رابط کاربری</HatsShownOnlyOnMap>
   <!-- EN: UI scale -->
-  <UIScale>UI scale</UIScale>
+  <UIScale>مقیاس رابط کاربری</UIScale>
   <!-- EN: Keyboard configuration -->
-  <KeyboardConfig>Keyboard configuration</KeyboardConfig>
+  <KeyboardConfig>پیکربندی صفحه کلید</KeyboardConfig>
   <!-- EN: Controller configuration -->
-  <ControllerConfig>Controller configuration</ControllerConfig>
+  <ControllerConfig>پیکربندی کنترلر</ControllerConfig>
   <!-- EN: Modify -->
-  <ModifyConfig>Modify</ModifyConfig>
+  <ModifyConfig>دگرگون سازی</ModifyConfig>
   <!-- EN: Choose language -->
-  <ChooseLanguage>Choose language</ChooseLanguage>
+  <ChooseLanguage>زبان را برگزینید</ChooseLanguage>
   <!-- EN: Reset learning helper -->
-  <ResetAdaptiveTutor>Reset learning helper</ResetAdaptiveTutor>
+  <ResetAdaptiveTutor>راهنما یادگیری را بازنشانی کنید</ResetAdaptiveTutor>
   <!-- EN: Tutor is reset. You will be now be re-taught all lessons from scratch. -->
-  <AdaptiveTutorIsReset>Tutor is reset. You will be now be re-taught all lessons from scratch.</AdaptiveTutorIsReset>
+  <AdaptiveTutorIsReset>مدرس بازنشانی شده است. اکنون همه دروس از ابتدا به شما آموزش داده خواهد شد.</AdaptiveTutorIsReset>
   <!-- EN: Keyboard mode -->
-  <SteamDeckKeyboardMode>Keyboard mode</SteamDeckKeyboardMode>
+  <SteamDeckKeyboardMode>حالت صفحه کلید</SteamDeckKeyboardMode>
   <!-- EN: Run in background -->
-  <RunInBackground>Run in background</RunInBackground>
+  <RunInBackground>اجرا در پس زمینه</RunInBackground>
   <!-- EN: Development mode -->
-  <DevelopmentMode>Development mode</DevelopmentMode>
+  <DevelopmentMode>حالت توسعه</DevelopmentMode>
   <!-- EN: Auto-reset mods config on crash -->
-  <ResetModsConfigOnCrash>Auto-reset mods config on crash</ResetModsConfigOnCrash>
+  <ResetModsConfigOnCrash>تنظیم مجدد خودکار حالت‌ها در هنگام خرابی</ResetModsConfigOnCrash>
   <!-- EN: Simulate not owning Royalty -->
-  <SimulateNotOwningRoyalty>Simulate not owning Royalty</SimulateNotOwningRoyalty>
+  <SimulateNotOwningRoyalty>شبیه سازی عدم مالکیت Royalty</SimulateNotOwningRoyalty>
   <!-- EN: Simulate not owning Ideology -->
-  <SimulateNotOwningIdeology>Simulate not owning Ideology</SimulateNotOwningIdeology>
+  <SimulateNotOwningIdeology>شبیه سازی عدم مالکیت Ideology</SimulateNotOwningIdeology>
   <!-- EN: Simulate not owning Biotech -->
-  <SimulateNotOwningBiotech>Simulate not owning Biotech</SimulateNotOwningBiotech>
+  <SimulateNotOwningBiotech>شبیه سازی عدم مالکیت Biotech</SimulateNotOwningBiotech>
   <!-- EN: Verbose logging -->
-  <LogVerbose>Verbose logging</LogVerbose>
+  <LogVerbose>ثبت نام مفصل</LogVerbose>
   <!-- EN: Save data folder -->
-  <SaveGameDataFolder>Save data folder</SaveGameDataFolder>
+  <SaveGameDataFolder>پوشه داده را ذخیره کنید</SaveGameDataFolder>
   <!-- EN: Save data location -->
-  <SaveGameDataLocation>Save data location</SaveGameDataLocation>
+  <SaveGameDataLocation>ذخیره مکان داده</SaveGameDataLocation>
   <!-- EN: Log file folder -->
-  <LogFileFolder>Log file folder</LogFileFolder>
+  <LogFileFolder>پوشه فایل لاگ</LogFileFolder>
   <!-- EN: Log file location -->
-  <LogFileLocation>Log file location</LogFileLocation>
+  <LogFileLocation>محل فایل لاگ</LogFileLocation>
   <!-- EN: Open -->
-  <OpenFolder>Open</OpenFolder>
+  <OpenFolder>باز کن</OpenFolder>
   <!-- EN: Show -->
-  <ShowFolder>Show</ShowFolder>
+  <ShowFolder>نمایش دهید</ShowFolder>
   <!-- EN: Preferred "Name in Game" characters -->
-  <NamesYouWantToSee>Preferred "Name in Game" characters</NamesYouWantToSee>
+  <NamesYouWantToSee>کاراکترهای ترجیحی - نام در بازی.</NamesYouWantToSee>
   <!-- EN: These characters will be more likely to appear randomly during play. -->
-  <NamesYouWantToSeeSubText>These characters will be more likely to appear randomly during play.</NamesYouWantToSeeSubText>
+  <NamesYouWantToSeeSubText>زیاد خواهد بود \n احتمال اینکه این شخصیت ها در حین بازی بصورت تصادفی نمایش داده شوند.</NamesYouWantToSeeSubText>
   <!-- EN: Add name -->
-  <AddName>Add name</AddName>
+  <AddName>اضافه کردن نام</AddName>
   <!-- EN: Type the first name, nickname, or last name. -->
-  <TypeFirstNickOrLastName>Type the first name, nickname, or last name.</TypeFirstNickOrLastName>
+  <TypeFirstNickOrLastName>نام، نام سپنجی یا نام خانوادگی را تایپ کنید.</TypeFirstNickOrLastName>
   <!-- EN: This name is already on the preferred list. -->
-  <MessageAlreadyPreferredName>This name is already on the preferred list.</MessageAlreadyPreferredName>
+  <MessageAlreadyPreferredName>این نام در حال حاضر در لیست برتری است.</MessageAlreadyPreferredName>
   <!-- EN: Storyteller settings -->
-  <ChangeStoryteller>Storyteller settings</ChangeStoryteller>
+  <ChangeStoryteller>تنظیمات قصه گو</ChangeStoryteller>
   <!-- EN: Autosave interval -->
-  <AutosaveInterval>Autosave interval</AutosaveInterval>
+  <AutosaveInterval>فاصله ذخیره خودکار</AutosaveInterval>
   <!-- EN: The number of in game days between each auto save. -->
-  <AutosaveIntervalTooltip>The number of in game days between each auto save.</AutosaveIntervalTooltip>
+  <AutosaveIntervalTooltip>تعداد روزهای بازی بین هر ذخیره خودکار.</AutosaveIntervalTooltip>
   <!-- EN: Temperature unit -->
-  <TemperatureMode>Temperature unit</TemperatureMode>
+  <TemperatureMode>واحد دما</TemperatureMode>
   <!-- EN: Show realtime clock -->
-  <ShowRealtimeClock>Show realtime clock</ShowRealtimeClock>
+  <ShowRealtimeClock>نمایش ساعت بیدرنگ</ShowRealtimeClock>
   <!-- EN: Disable tiny font -->
-  <DisableTinyText>Disable tiny font</DisableTinyText>
+  <DisableTinyText>فونت کوچک را غیرفعال کنید</DisableTinyText>
   <!-- EN: Maximum number of colonies: {0} -->
-  <MaxNumberOfPlayerSettlements>Maximum number of colonies: {0}</MaxNumberOfPlayerSettlements>
+  <MaxNumberOfPlayerSettlements>حداکثر تعداد کلونی ها : {0}</MaxNumberOfPlayerSettlements>
   <!-- EN: Map mouse drag sensitivity -->
-  <MapDragSensitivity>Map mouse drag sensitivity</MapDragSensitivity>
+  <MapDragSensitivity>حساسیت به کشیدن ماوس نقشه</MapDragSensitivity>
   <!-- EN: Plant wind sway -->
-  <PlantWindSway>Plant wind sway</PlantWindSway>
+  <PlantWindSway>نوسان باد گیاه</PlantWindSway>
   <!-- EN: Enable test map sizes -->
-  <EnableTestMapSizes>Enable test map sizes</EnableTestMapSizes>
+  <EnableTestMapSizes>اندازه‌های نقشه آزمایشی را فعال کنید</EnableTestMapSizes>
   <!-- EN: Maximum autosave interval in permadeath mode is {0} day. -->
-  <MaxPermadeathAutosaveIntervalInfo>Maximum autosave interval in permadeath mode is {0} day.</MaxPermadeathAutosaveIntervalInfo>
+  <MaxPermadeathAutosaveIntervalInfo>حداکثر فاصله ذخیره خودکار در حالت permadeath است {0} روز.</MaxPermadeathAutosaveIntervalInfo>
   <!-- EN: Mod Settings -->
-  <ModSettings>Mod Settings</ModSettings>
+  <ModSettings>تنظیمات مود</ModSettings>
   <!-- EN: Permanently disable development mode -->
-  <PermanentlyDisableDevMode>Permanently disable development mode</PermanentlyDisableDevMode>
+  <PermanentlyDisableDevMode>حالت توسعه را برای همیشه غیرفعال کنید</PermanentlyDisableDevMode>
   <!-- EN: Texture compression -->
-  <TextureCompression>Texture compression</TextureCompression>
+  <TextureCompression>فشرده سازی بافت</TextureCompression>
   <!-- EN: Turning off texture compression will use much more video memory, but makes textures look slightly better in detailed areas. Only turn this off if you know you have lots of extra video memory.\n\nNote that using certain mods will often consume much more video memory, so you may need to turn this on if you add certain mods. -->
-  <TextureCompression_Tooltip>Turning off texture compression will use much more video memory, but makes textures look slightly better in detailed areas. Only turn this off if you know you have lots of extra video memory.\n\nNote that using certain mods will often consume much more video memory, so you may need to turn this on if you add certain mods.</TextureCompression_Tooltip>
+  <TextureCompression_Tooltip>خاموش کردن فشرده‌سازی بافت، حافظه ویدیویی بسیار بیشتری مصرف می‌کند، اما باعث می‌شود بافت‌ها در مناطق با جزئیات کمی بهتر به نظر برسند. فقط در صورتی این را خاموش کنید که بدانید حافظه ویدیویی اضافی زیادی دارید.\n\nتوجه داشته باشید که استفاده از حالت‌های خاص معمولاً حافظه ویدیویی بسیار بیشتری مصرف می‌کند، بنابراین اگر حالت‌های خاصی را اضافه کنید، ممکن است لازم باشد آن را روشن کنید.</TextureCompression_Tooltip>
   <!-- EN: Smooth camera jumps -->
-  <SmoothCameraJumps>Smooth camera jumps</SmoothCameraJumps>
+  <SmoothCameraJumps>پرش های روان دوربین</SmoothCameraJumps>
   <!-- EN: When enabled, the camera will quickly pan when focusing on a new location. When disabled, the camera will jump instantly. -->
-  <SmoothCameraJumpsDesc>When enabled, the camera will quickly pan when focusing on a new location. When disabled, the camera will jump instantly.</SmoothCameraJumpsDesc>
+  <SmoothCameraJumpsDesc>وقتی فعال باشد، دوربین هنگام فوکوس روی مکان جدید به سرعت حرکت می کند. در صورت غیرفعال شدن، دوربین فوراً پرش می کند.</SmoothCameraJumpsDesc>
 
   <!-- Resolution -->
   <!-- EN: Resolution -->
-  <Resolution>Resolution</Resolution>
+  <Resolution>وضوح</Resolution>
   <!-- EN: Fullscreen -->
-  <Fullscreen>Fullscreen</Fullscreen>
+  <Fullscreen>تمام صفحه</Fullscreen>
   <!-- EN: Borderless fullscreen -->
-  <BorderlessFullscreen>Borderless fullscreen</BorderlessFullscreen>
+  <BorderlessFullscreen>تمام صفحه بدون حاشیه</BorderlessFullscreen>
   <!-- EN: To run RimWorld in borderless fullscreen mode:\n\n1) Open Steam\n2) Go to the "Library" tab at the top\n3) Find RimWorld on the list and right-click it\n4) Choose "Properties..."\n5) Add "-popupwindow" without quotes to "Launch options" in the "General" tab\n6) Restart game\n7) If done correctly, you won't see this window\n\nHint: Use Windows Key + Shift + Left/Right to move the window between your monitors. -->
   <BorderlessFullscreenInstructions>To run RimWorld in borderless fullscreen mode:\n\n1) Open Steam\n2) Go to the "Library" tab at the top\n3) Find RimWorld on the list and right-click it\n4) Choose "Properties..."\n5) Add "-popupwindow" without quotes to "Launch options" in the "General" tab\n6) Restart game\n7) If done correctly, you won't see this window\n\nHint: Use Windows Key + Shift + Left/Right to move the window between your monitors.</BorderlessFullscreenInstructions>
 
   <!-- Mods -->
   <!-- EN: Select mod... -->
-  <SelectMod>Select mod...</SelectMod>
+  <SelectMod>انتخاب مود...</SelectMod>
   <!-- EN: No configurable mods loaded. -->
-  <NoConfigurableMods>No configurable mods loaded.</NoConfigurableMods>
+  <NoConfigurableMods>هیچ مود قابل تنظیم بارگیری نشده است.</NoConfigurableMods>
   
   <!-- Options reset -->
   <!-- EN: Restore all settings to default -->
-  <RestoreToDefaultSettingsLabel>Restore all settings to default</RestoreToDefaultSettingsLabel>
+  <RestoreToDefaultSettingsLabel>تمام تنظیمات را به حالت پیش فرض بازگردانید</RestoreToDefaultSettingsLabel>
   <!-- EN: Restore defaults -->
-  <RestoreToDefaultSettings>Restore defaults</RestoreToDefaultSettings>
+  <RestoreToDefaultSettings>بازیابی پیش فرض ها</RestoreToDefaultSettings>
   <!-- EN: All settings have been reset. The game will now restart automatically. -->
-  <ResetAndRestart>All settings have been reset. The game will now restart automatically.</ResetAndRestart>
+  <ResetAndRestart>تمام تنظیمات بازنشانی شده است. اکنون بازی به طور خودکار مجدداً راه اندازی می شود.</ResetAndRestart>
   <!-- EN: All settings will be reset to the default and the game will be restarted. Unsaved progress will be lost,\n\nContinue? -->
-  <ResetAndRestartConfirmationDialog>All settings will be reset to the default and the game will be restarted. Unsaved progress will be lost,\n\nContinue?</ResetAndRestartConfirmationDialog>
+  <ResetAndRestartConfirmationDialog>تمام تنظیمات به حالت پیش فرض بازنشانی می شود و بازی مجدداً راه اندازی می شود. پیشرفت ذخیره نشده از بین خواهد رفت،\n\nادامه می دهید؟</ResetAndRestartConfirmationDialog>
   <!-- EN: Changing texture compression settings requires a restart. Unsaved progress will be lost.\n\nContinue? -->
-  <ChangedTextureCompressionRestart>Changing texture compression settings requires a restart. Unsaved progress will be lost.\n\nContinue?</ChangedTextureCompressionRestart>
+  <ChangedTextureCompressionRestart>تغییر تنظیمات فشرده سازی بافت نیاز به راه اندازی مجدد دارد. پیشرفت ذخیره نشده از بین خواهد رفت.\in\ادامه دهید؟</ChangedTextureCompressionRestart>
   
   <!-- Background image -->
   <!-- EN: Menu background -->
-  <SetBackgroundImage>Menu background</SetBackgroundImage>
+  <SetBackgroundImage>پس زمینه منو</SetBackgroundImage>
 
 </LanguageData>
