@@ -12,13 +12,13 @@
   <!-- EN: Passion -->
   <Passion>Passion</Passion>
   <!-- EN: No passion -->
-  <PassionNone>No passion</PassionNone>
+  <PassionNone>بدون اشتیاق</PassionNone>
   <!-- EN: Passion -->
-  <PassionMinor>Passion</PassionMinor>
+  <PassionMinor>اشتیاق</PassionMinor>
   <!-- EN: Burning passion -->
   <PassionMajor>Burning passion</PassionMajor>
   <!-- EN: Learning speed -->
-  <LearningSpeed>Learning speed</LearningSpeed>
+  <LearningSpeed>سرعت یادگیری</LearningSpeed>
   <!-- EN: Learned max today ({0}/{1}, further learning multiplied by {2}) -->
   <LearnedMaxToday>Learned max today ({0}/{1}, further learning multiplied by {2})</LearnedMaxToday>
   <!-- EN: Children learn skills by watching adults work and by taking lessons at a lesson desk. -->
@@ -28,7 +28,7 @@
   <!-- EN: MAX -->
   <SkillMax>حداکثر</SkillMax>
   <!-- EN: Learned level -->
-  <LearnedLevel>Learned level</LearnedLevel>
+  <LearnedLevel>سطح آموخته شده</LearnedLevel>
   <!-- EN: Negative level adjusted to zero. -->
   <NegativeLevelAdjustedToZero>Negative level adjusted to zero.</NegativeLevelAdjustedToZero>
   <!-- EN: Level capped at {0}. -->
@@ -41,7 +41,7 @@
   <!-- EN: Utter beginner -->
   <Skill1>Utter beginner</Skill1>
   <!-- EN: Beginner -->
-  <Skill2>Beginner</Skill2>
+  <Skill2>مبتدی</Skill2>
   <!-- EN: Basic familiarity -->
   <Skill3>Basic familiarity</Skill3>
   <!-- EN: Some familiarity -->
@@ -77,6 +77,6 @@
   <!-- EN: Planet-leading master -->
   <Skill19>Planet-leading master</Skill19>
   <!-- EN: Legendary master -->
-  <Skill20>Legendary master</Skill20>
+  <Skill20>استاد افسانه ای</Skill20>
   
 </LanguageData>
