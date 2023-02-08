@@ -19,9 +19,9 @@
   <!-- EN: Medical -->
   <MedicalBed>Medical</MedicalBed>
   <!-- EN: Owner -->
-  <Owner>Owner</Owner>
+  <Owner>مالک</Owner>
   <!-- EN: Owners -->
-  <Owners>Owners</Owners>
+  <Owners>صاحبان</Owners>
   <!-- EN: Assigned colonist -->
   <AssignedColonist>Assigned colonist</AssignedColonist>
   <!-- EN: Uncomfortable room temperature -->
@@ -31,7 +31,7 @@
   <!-- EN: Died on the {0} -->
   <DiedOn>Died on the {0}</DiedOn>
   <!-- EN: Nobody -->
-  <Nobody>Nobody</Nobody>
+  <Nobody>هيچ كس</Nobody>
   <!-- EN: Unowned -->
   <Unowned>Unowned</Unowned>
   <!-- EN: Dead for {0} -->
@@ -135,11 +135,11 @@
   <!-- EN: Milk fullness -->
   <MilkFullness>Milk fullness</MilkFullness>
   <!-- EN: Wool growth -->
-  <WoolGrowth>Wool growth</WoolGrowth>
+  <WoolGrowth>رشد پشم</WoolGrowth>
   <!-- EN: Egg progress -->
   <EggProgress>Egg progress</EggProgress>
   <!-- EN: Fertilized -->
-  <Fertilized>Fertilized</Fertilized>
+  <Fertilized>بارور شده</Fertilized>
   <!-- EN: Progress stopped until fertilized -->
   <ProgressStoppedUntilFertilized>Progress stopped until fertilized</ProgressStoppedUntilFertilized>
   <!-- EN: Hatches in -->
@@ -177,7 +177,7 @@
   <!-- EN: Target fuel level: {0} -->
   <ConfiguredTargetFuelLevel>Target fuel level: {0}</ConfiguredTargetFuelLevel>
   <!-- EN: enemies -->
-  <Enemies>enemies</Enemies>
+  <Enemies>دشمنان</Enemies>
   <!-- EN: people -->
   <People>people</People>
   <!-- EN: time passed -->
@@ -339,7 +339,7 @@
   <!-- EN: Skill Requirements -->
   <SkillRequirements>Skill Requirements</SkillRequirements>
   <!-- EN: Products -->
-  <Products>Products</Products>
+  <Products>محصولات</Products>
   <!-- EN: Requires -->
   <Requires>Requires</Requires>
   <!-- EN: {0}x any of -->
@@ -425,9 +425,9 @@
   <!-- EN: mortars -->
   <Mortars>mortars</Mortars>
   <!-- EN: enemy -->
-  <Enemy>enemy</Enemy>
+  <Enemy>دشمن</Enemy>
   <!-- EN: location -->
-  <Location>location</Location>
+  <Location>محل</Location>
   <!-- EN: animals -->
   <AnimalsLower>animals</AnimalsLower>
   <!-- EN: items -->
@@ -441,7 +441,7 @@
   <!-- EN: Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction? -->
   <GiveGiftViaTransportPodsTradeRequestWarning>Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction?</GiveGiftViaTransportPodsTradeRequestWarning>
   <!-- EN: prisoner -->
-  <PrisonerLower>prisoner</PrisonerLower>
+  <PrisonerLower>زندانی</PrisonerLower>
   <!-- EN: prisoners -->
   <PrisonersLower>prisoners</PrisonersLower>
   <!-- EN: Click to view this quest in quests tab -->
@@ -1279,7 +1279,7 @@
 
   <!-- Art -->
   <!-- EN: Title -->
-  <Title>Title</Title>
+  <Title>عنوان</Title>
   <!-- EN: Untitled -->
   <Untitled>Untitled</Untitled>
 

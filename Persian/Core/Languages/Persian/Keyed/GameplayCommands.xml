@@ -3,9 +3,9 @@
 
   <!-- Forbid -->
   <!-- EN: Forbid -->
-  <CommandForbid>Forbid</CommandForbid>
+  <CommandForbid>منع</CommandForbid>
   <!-- EN: Allow -->
-  <CommandAllow>Allow</CommandAllow>
+  <CommandAllow>اجازه</CommandAllow>
   <!-- EN: Forbidden: Your colonists are not allowed to interact with this. Click to allow. -->
   <CommandForbiddenDesc>Forbidden: Your colonists are not allowed to interact with this. Click to allow.</CommandForbiddenDesc>
   <!-- EN: Allowed: Your colonists are allowed to interact with this. Click to forbid. -->
@@ -36,7 +36,7 @@
   
   <!-- Drafting -->
   <!-- EN: Draft -->
-  <CommandDraftLabel>Draft</CommandDraftLabel>
+  <CommandDraftLabel>اماده کردن</CommandDraftLabel>
   <!-- EN: Undraft -->
   <CommandUndraftLabel>Undraft</CommandUndraftLabel>
   <!-- EN: Toggle military draft.\n\nDrafted people take orders and fight. They will not work, eat, or rest. -->
@@ -62,7 +62,7 @@
   <CommandCancelConstructionDesc>Cancel this construction.</CommandCancelConstructionDesc>
 
   <!-- EN: Get out of bed -->
-  <CommandGetOutOfBedLabel>Get out of bed</CommandGetOutOfBedLabel>
+  <CommandGetOutOfBedLabel>از تخت بلند شو</CommandGetOutOfBedLabel>
   <!-- EN: Get out of current bed. -->
   <CommandGetOutOfBedDesc>Get out of current bed.</CommandGetOutOfBedDesc>
 
@@ -79,11 +79,11 @@
   <!-- EN: Assign this grave to be owned by a specific colonist. -->
   <CommandGraveAssignColonistDesc>Assign this grave to be owned by a specific colonist.</CommandGraveAssignColonistDesc>
   <!-- EN: Assign -->
-  <BuildingAssign>Assign</BuildingAssign>
+  <BuildingAssign>اختصاص دادن</BuildingAssign>
   <!-- EN: Reassign -->
-  <BuildingReassign>Reassign</BuildingReassign>
+  <BuildingReassign>تخصیص مجدد</BuildingReassign>
   <!-- EN: Unassign -->
-  <BuildingUnassign>Unassign</BuildingUnassign>
+  <BuildingUnassign>لغو تخصیص</BuildingUnassign>
   <!-- EN: For prisoners -->
   <CommandBedSetForPrisonersLabel>For prisoners</CommandBedSetForPrisonersLabel>
   <!-- EN: Whether beds in this room should be used by prisoners. -->
@@ -115,7 +115,7 @@
   <CommandRenameZoneDesc>Rename this zone.</CommandRenameZoneDesc>
 
   <!-- EN: Hide -->
-  <CommandHideZoneLabel>Hide</CommandHideZoneLabel>
+  <CommandHideZoneLabel>پنهان کردن</CommandHideZoneLabel>
   <!-- EN: Unhide -->
   <CommandUnhideZoneLabel>Unhide</CommandUnhideZoneLabel>
   <!-- EN: Hide/unhide this zone. -->

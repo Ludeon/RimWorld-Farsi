@@ -2,7 +2,7 @@
 <LanguageData>
 
   <!-- EN: Confirm -->
-  <Confirm>Confirm</Confirm>
+  <Confirm>تایید</Confirm>
   <!-- EN: Go back -->
   <GoBack>Go back</GoBack>
   <!-- EN: Do you want to continue? -->
@@ -72,7 +72,7 @@
   <!-- EN: Something went wrong while restarting the game. The game can't fully unload modified code from deactivated mods, so code from deactivated mods may still be active.\n\nIt's recommended that you quit and restart the game now to load all mods cleanly. -->
   <FailedToRestart>Something went wrong while restarting the game. The game can't fully unload modified code from deactivated mods, so code from deactivated mods may still be active.\n\nIt's recommended that you quit and restart the game now to load all mods cleanly.</FailedToRestart>
   <!-- EN: Restarting -->
-  <Restarting>Restarting</Restarting>
+  <Restarting>راه اندازی مجدد</Restarting>
   
   <!-- Missing Steam -->
   <!-- EN: Could not initialize Steam API. Possible causes:\n\n-Steam is not running.\n-Launched from outside Steam without steam_appid.txt in place.\n-Running with different privileges than Steam client (e.g. "as administrator").\n\nIn most cases, rebooting your computer will fix this problem.\n\nYou can play anyway, but no Steam stats will be recorded and Steam features won't be available. -->

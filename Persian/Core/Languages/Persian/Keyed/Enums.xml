@@ -3,21 +3,21 @@
 
   <!-- Glow -->
   <!-- EN: Dark -->
-  <Dark>Dark</Dark>
+  <Dark>تاریک</Dark>
   <!-- EN: Lit -->
-  <Lit>Lit</Lit>
+  <Lit>روشن</Lit>
   <!-- EN: Brightly lit -->
   <LitBrightly>Brightly lit</LitBrightly>
 
   <!-- Price types -->
   <!-- EN: very cheap -->
-  <PriceTypeVeryCheap>very cheap</PriceTypeVeryCheap>
+  <PriceTypeVeryCheap>خیلی ارزان</PriceTypeVeryCheap>
   <!-- EN: cheap -->
   <PriceTypeCheap>cheap</PriceTypeCheap>
   <!-- EN: normal -->
   <PriceTypeNormal>normal</PriceTypeNormal>
   <!-- EN: expensive -->
-  <PriceTypeExpensive>expensive</PriceTypeExpensive>
+  <PriceTypeExpensive>گران</PriceTypeExpensive>
   <!-- EN: exorbitant -->
   <PriceTypeExorbitant>exorbitant</PriceTypeExorbitant>
 
@@ -91,11 +91,11 @@
   
   <!-- Hunger -->
   <!-- EN: Starving -->
-  <HungerLevel_Starving>Starving</HungerLevel_Starving>
+  <HungerLevel_Starving>گرسنگی</HungerLevel_Starving>
   <!-- EN: Urgently hungry -->
   <HungerLevel_UrgentlyHungry>Urgently hungry</HungerLevel_UrgentlyHungry>
   <!-- EN: Hungry -->
-  <HungerLevel_Hungry>Hungry</HungerLevel_Hungry>
+  <HungerLevel_Hungry>گرسنه</HungerLevel_Hungry>
   <!-- EN: Fed -->
   <HungerLevel_Fed>Fed</HungerLevel_Fed>
 
@@ -105,7 +105,7 @@
   <!-- EN: Very tired -->
   <HungerLevel_VeryTired>Very tired</HungerLevel_VeryTired>
   <!-- EN: Tired -->
-  <HungerLevel_Tired>Tired</HungerLevel_Tired>
+  <HungerLevel_Tired>خسته</HungerLevel_Tired>
   <!-- EN: Rested -->
   <HungerLevel_Rested>Rested</HungerLevel_Rested>
 
@@ -163,7 +163,7 @@
   <!-- EN: Ignore -->
   <HostilityResponseMode_Ignore>Ignore</HostilityResponseMode_Ignore>
   <!-- EN: Attack -->
-  <HostilityResponseMode_Attack>Attack</HostilityResponseMode_Attack>
+  <HostilityResponseMode_Attack>حمله</HostilityResponseMode_Attack>
   <!-- EN: Flee -->
   <HostilityResponseMode_Flee>Flee</HostilityResponseMode_Flee>
   
@@ -177,7 +177,7 @@
 
   <!-- TechLevel -->
   <!-- EN: animal -->
-  <TechLevel_Animal>animal</TechLevel_Animal>
+  <TechLevel_Animal>حیوان</TechLevel_Animal>
   <!-- EN: neolithic -->
   <TechLevel_Neolithic>neolithic</TechLevel_Neolithic>
   <!-- EN: medieval -->
@@ -237,11 +237,11 @@
 
   <!-- Temperature -->
   <!-- EN: Celsius -->
-  <Celsius>Celsius</Celsius>
+  <Celsius>درجه سانتیگراد</Celsius>
   <!-- EN: Fahrenheit -->
-  <Fahrenheit>Fahrenheit</Fahrenheit>
+  <Fahrenheit>فارنهایت</Fahrenheit>
   <!-- EN: Kelvin -->
-  <Kelvin>Kelvin</Kelvin>
+  <Kelvin>کلوین</Kelvin>
   
   <!-- Direction8Way -->
   <!-- EN: N -->
@@ -299,7 +299,7 @@
 
   <!-- Psychic drone level -->
   <!-- EN: none -->
-  <PsychicDroneLevel_None>none</PsychicDroneLevel_None>
+  <PsychicDroneLevel_None>هیچ یک</PsychicDroneLevel_None>
   <!-- EN: medium -->
   <PsychicDroneLevel_GoodMedium>medium</PsychicDroneLevel_GoodMedium>
   <!-- EN: low -->
@@ -313,7 +313,7 @@
   
   <!-- Automatic pause mode -->
   <!-- EN: Never -->
-  <AutomaticPauseMode_Never>Never</AutomaticPauseMode_Never>
+  <AutomaticPauseMode_Never>هرگز</AutomaticPauseMode_Never>
   <!-- EN: Major threats -->
   <AutomaticPauseMode_MajorThreat>Major threats</AutomaticPauseMode_MajorThreat>
   <!-- EN: Any threat -->
@@ -343,7 +343,7 @@
   <!-- EN: none -->
   <DrugCategory_None>none</DrugCategory_None>
   <!-- EN: medical -->
-  <DrugCategory_Medical>medical</DrugCategory_Medical>
+  <DrugCategory_Medical>طبی</DrugCategory_Medical>
   <!-- EN: social -->
   <DrugCategory_Social>social</DrugCategory_Social>
   <!-- EN: hard -->

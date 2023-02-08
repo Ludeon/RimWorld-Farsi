@@ -27,7 +27,7 @@
   <!-- EN: Will not do -->
   <Priority0>انجام نخواهد داد</Priority0>
   <!-- EN: Top priority -->
-  <Priority1>Top priority</Priority1>
+  <Priority1>بیشترین الویت</Priority1>
   <!-- EN: High priority -->
   <Priority2>اولویت بالا</Priority2>
   <!-- EN: Normal priority -->
@@ -53,7 +53,7 @@
   <!-- EN: forced -->
   <ApparelForcedLower>forced</ApparelForcedLower>
   <!-- EN: locked -->
-  <ApparelLockedLower>locked</ApparelLockedLower>
+  <ApparelLockedLower>قفل شده است</ApparelLockedLower>
   <!-- EN: Forced apparel -->
   <ForcedApparel>Forced apparel</ForcedApparel>
   <!-- EN: Edit... -->
@@ -73,7 +73,7 @@
   
   <!-- Animals tab -->
   <!-- EN: Master -->
-  <Master>Master</Master>
+  <Master>استاد</Master>
   <!-- EN: Pregnant ({0} / {1}) -->
   <PregnantIconDesc>Pregnant ({0} / {1})</PregnantIconDesc>
   <!-- EN: Bonded to -->
