@@ -1,44 +1,44 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: clear -->
-  <Clear.label>TODO</Clear.label>
+  <Clear.label>صاف</Clear.label>
   <!-- EN: A clear day. No penalties or modifiers. -->
-  <Clear.description>TODO</Clear.description>
+  <Clear.description>یک روز صاف بدون جریمه یا تعدیل کننده</Clear.description>
   
   <!-- EN: dry thunderstorm -->
-  <DryThunderstorm.label>TODO</DryThunderstorm.label>
+  <DryThunderstorm.label>رعد و برق خشک</DryThunderstorm.label>
   <!-- EN: Dry thunderstorms are dangerous because the lightning can start fires and there is no rain to put them out. -->
-  <DryThunderstorm.description>TODO</DryThunderstorm.description>
+  <DryThunderstorm.description>رعد و برق های خشک خطرناک هستند زیرا رعد و برق می تواند آتش سوزی کند و بارانی برای خاموش کردن آنها وجود ندارد.</DryThunderstorm.description>
   
   <!-- EN: fog -->
-  <Fog.label>TODO</Fog.label>
+  <Fog.label>مه آلود</Fog.label>
   <!-- EN: Fog reduces the accuracy of ranged weapons. -->
-  <Fog.description>TODO</Fog.description>
+  <Fog.description>مه دقت سلاح های دور برد را کاهش می دهد.</Fog.description>
   
   <!-- EN: foggy rain -->
-  <FoggyRain.label>TODO</FoggyRain.label>
+  <FoggyRain.label>باران مه آلود</FoggyRain.label>
   <!-- EN: Reduces accuracy and movement speed. -->
-  <FoggyRain.description>TODO</FoggyRain.description>
+  <FoggyRain.description>دقت و سرعت حرکت را کاهش می دهد.</FoggyRain.description>
   
   <!-- EN: rain -->
-  <Rain.label>TODO</Rain.label>
+  <Rain.label>باران</Rain.label>
   <!-- EN: Rain reduces the accuracy of ranged weapons, extinguishes fire, and slows people down. -->
-  <Rain.description>TODO</Rain.description>
+  <Rain.description>باران دقت سلاح های دور برد را کاهش می دهد، آتش را خاموش می کند و سرعت افراد را کاهش می دهد.</Rain.description>
   
   <!-- EN: rainy thunderstorm -->
-  <RainyThunderstorm.label>TODO</RainyThunderstorm.label>
+  <RainyThunderstorm.label>طوفان رعد و برق و باران</RainyThunderstorm.label>
   <!-- EN: The lightning will start fires, but the rain will put it out. The rain also reduces movement speed and shooting accuracy. -->
-  <RainyThunderstorm.description>TODO</RainyThunderstorm.description>
+  <RainyThunderstorm.description>رعد و برق باعث آتش سوزی می شود، اما باران آن را خاموش می کند. همچنین باران سرعت حرکت و دقت تیراندازی را کاهش می دهد.</RainyThunderstorm.description>
   
   <!-- EN: gentle snow -->
-  <SnowGentle.label>TODO</SnowGentle.label>
+  <SnowGentle.label>برف ملایم</SnowGentle.label>
   <!-- EN: Snow reduces the accuracy of ranged weapons, extinguishes fire, and slows people down. -->
-  <SnowGentle.description>TODO</SnowGentle.description>
+  <SnowGentle.description>برف دقت سلاح های دور برد را کاهش می دهد، آتش را خاموش می کند و سرعت افراد را کاهش می دهد.</SnowGentle.description>
   
   <!-- EN: hard snow -->
-  <SnowHard.label>TODO</SnowHard.label>
+  <SnowHard.label>برف شدید</SnowHard.label>
   <!-- EN: Snow reduces the accuracy of ranged weapons, extinguishes fire, and slows people down. -->
-  <SnowHard.description>TODO</SnowHard.description>
+  <SnowHard.description>برف دقت سلاح های دور برد را کاهش می دهد، آتش را خاموش می کند و سرعت افراد را کاهش می دهد.</SnowHard.description>
   
 </LanguageData>
