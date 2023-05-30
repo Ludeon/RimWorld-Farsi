@@ -79,42 +79,42 @@
   <MessageInsectsHostileOnTaming>Warning: The {PAWN_labelShort} is hostile and will attack while your colonist tries to tame it.</MessageInsectsHostileOnTaming>
   
   <!-- EN: New recruit -->
-  <LetterLabelMessageRecruitSuccess>New recruit</LetterLabelMessageRecruitSuccess>
+  <LetterLabelMessageRecruitSuccess>نیروی جدید</LetterLabelMessageRecruitSuccess>
   <!-- EN: {RECRUITER_nameFull} successfully recruited {RECRUITEE_nameFull}. -->
-  <MessageRecruitSuccess>{RECRUITER_nameFull} successfully recruited {RECRUITEE_nameFull}.</MessageRecruitSuccess>
+  <MessageRecruitSuccess>{RECRUITER_nameFull} با موفقیت جذب شد {RECRUITEE_nameFull}.</MessageRecruitSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. -->
-  <MessageTameSuccess>{RECRUITER_labelShort} successfully tamed {1}.</MessageTameSuccess>
+  <MessageTameSuccess>{RECRUITER_labelShort} با موفقیت رام شد. {1}</MessageTameSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. It is now called {RECRUITEE_nameFull}. -->
   <MessageTameAndNameSuccess>{RECRUITER_labelShort} successfully tamed {1}. It is now called {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
   <!-- EN: There is no suitable animal pen for {ANIMAL_labelShort}. It will eventually roam away. -->
   <MessageTameNoSuitablePens>There is no suitable animal pen for {ANIMAL_labelShort}. It will eventually roam away.</MessageTameNoSuitablePens>
   <!-- EN: {RECRUITEE} has joined your colony. -->
-  <MessageRecruitJoinOfferAccepted>{RECRUITEE} has joined your colony.</MessageRecruitJoinOfferAccepted>
+  <MessageRecruitJoinOfferAccepted>{RECRUITEE} به مستعمره شما پیوسته است.</MessageRecruitJoinOfferAccepted>
 
   <!-- EN: The colony cannot afford this deal. -->
-  <MessageColonyCannotAfford>The colony cannot afford this deal.</MessageColonyCannotAfford>
+  <MessageColonyCannotAfford>مستعمره نمی تواند این معامله را بپردازد.</MessageColonyCannotAfford>
   <!-- EN: You do not have enough silver ready to trade. -->
-  <MessageColonyNotEnoughSilver>You do not have enough silver ready to trade.</MessageColonyNotEnoughSilver>
+  <MessageColonyNotEnoughSilver>شما نقره کافی برای معامله ندارید.</MessageColonyNotEnoughSilver>
 
   <!-- EN: Critical alert: {0} -->
-  <MessageCriticalAlert>Critical alert: {0}</MessageCriticalAlert>
+  <MessageCriticalAlert>هشدار بحرانی: {0}</MessageCriticalAlert>
 
   <!-- EN: Must designate harvestable sufficiently-grown plants. -->
-  <MessageMustDesignateHarvestable>Must designate harvestable sufficiently-grown plants.</MessageMustDesignateHarvestable>
+  <MessageMustDesignateHarvestable>باید گیاهان با رشد کافی قابل برداشت را تعیین کرد.</MessageMustDesignateHarvestable>
   <!-- EN: Must designate wood-yielding, sufficiently-grown plants. -->
-  <MessageMustDesignateHarvestableWood>Must designate wood-yielding, sufficiently-grown plants.</MessageMustDesignateHarvestableWood>
+  <MessageMustDesignateHarvestableWood>باید گیاهان چوب بازده و رشد کافی را تعیین کرد.</MessageMustDesignateHarvestableWood>
   <!-- EN: Must designate plants. -->
-  <MessageMustDesignatePlants>Must designate plants.</MessageMustDesignatePlants>
+  <MessageMustDesignatePlants>باید گیاهان را تعیین کرد.</MessageMustDesignatePlants>
   <!-- EN: Must designate haulable items. Some items are always haulable and can't be designated. -->
-  <MessageMustDesignateHaulable>Must designate haulable items. Some items are always haulable and can't be designated.</MessageMustDesignateHaulable>
+  <MessageMustDesignateHaulable>باید اقلام قابل حمل را مشخص کرد. برخی از اقلام همیشه قابل حمل هستند و نمی توان آنها را تعیین کرد.</MessageMustDesignateHaulable>
   <!-- EN: Must designate impassable mineable rocks. -->
-  <MessageMustDesignateMineable>Must designate impassable mineable rocks.</MessageMustDesignateMineable>
+  <MessageMustDesignateMineable>باید سنگ های غیر قابل استخراج را تعیین کرد.</MessageMustDesignateMineable>
   <!-- EN: Must designate huntable animals. -->
-  <MessageMustDesignateHuntable>Must designate huntable animals.</MessageMustDesignateHuntable>
+  <MessageMustDesignateHuntable>باید حیوانات قابل شکار را تعیین کرد.</MessageMustDesignateHuntable>
   <!-- EN: Must designate tameable animals. -->
-  <MessageMustDesignateTameable>Must designate tameable animals.</MessageMustDesignateTameable>
+  <MessageMustDesignateTameable>باید حیوانات قابل رام تعیین کرد.</MessageMustDesignateTameable>
   <!-- EN: Must designate abandoned claimable structures or items. -->
-  <MessageMustDesignateClaimable>Must designate abandoned claimable structures or items.</MessageMustDesignateClaimable>
+  <MessageMustDesignateClaimable>باید سازه ها یا اقلام قابل ادعای متروکه را تعیین کرد.</MessageMustDesignateClaimable>
   <!-- EN: Must designate paintable buildings not already painted {0_label}. -->
   <MessageMustDesignatePaintableBuildings>Must designate paintable buildings not already painted {0_label}.</MessageMustDesignatePaintableBuildings>
   <!-- EN: Must designate paintable floors which are not already painted {0_label}. -->
@@ -128,17 +128,17 @@
   <!-- EN: Nothing can remove thick roofs. -->
   <MessageNothingCanRemoveThickRoofs>Nothing can remove thick roofs.</MessageNothingCanRemoveThickRoofs>
   <!-- EN: This is already in storage and will be moved to high-priority storage as necessary. -->
-  <MessageAlreadyInStorage>This is already in storage and will be moved to high-priority storage as necessary.</MessageAlreadyInStorage>
+  <MessageAlreadyInStorage>این در حال حاضر در انبار است و در صورت لزوم به انبار با اولویت بالا منتقل می شود.</MessageAlreadyInStorage>
   <!-- EN: Must designate corpse or downed character with strippable apparel. -->
-  <MessageMustDesignateStrippable>Must designate corpse or downed character with strippable apparel.</MessageMustDesignateStrippable>
+  <MessageMustDesignateStrippable>باید جسد یا شخصیت سرنگون شده را با لباس های برهنه تعیین کنید.</MessageMustDesignateStrippable>
   <!-- EN: Must designate tame animal that belongs to the colony. -->
-  <MessageMustDesignateSlaughterable>Must designate tame animal that belongs to the colony.</MessageMustDesignateSlaughterable>
+  <MessageMustDesignateSlaughterable>باید حیوان اهلی را که متعلق به مستعمره است تعیین کند.</MessageMustDesignateSlaughterable>
   <!-- EN: Must designate full graves or containers. -->
   <MessageMustDesignateOpenable>Must designate full graves or containers.</MessageMustDesignateOpenable>
   <!-- EN: Must designate unforbidden items. -->
-  <MessageMustDesignateForbiddable>Must designate unforbidden items.</MessageMustDesignateForbiddable>
+  <MessageMustDesignateForbiddable>باید موارد غیر ممنوعه را تعیین کرد.</MessageMustDesignateForbiddable>
   <!-- EN: Must designate forbidden items. -->
-  <MessageMustDesignateUnforbiddable>Must designate forbidden items.</MessageMustDesignateUnforbiddable>
+  <MessageMustDesignateUnforbiddable>باید موارد ممنوعه را تعیین کرد.</MessageMustDesignateUnforbiddable>
   <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
   <MessageCannotClaimWhenThreatsAreNear>Cannot claim {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby.</MessageCannotClaimWhenThreatsAreNear>
   <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
@@ -148,9 +148,9 @@
   <MessageRefusedArrest>{1_labelShort} has refused to be arrested!</MessageRefusedArrest>
   
   <!-- EN: There are no medical beds available. -->
-  <MessageNoMedicalBeds>There are no medical beds available.</MessageNoMedicalBeds>
+  <MessageNoMedicalBeds>تخت پزشکی موجود نیست.</MessageNoMedicalBeds>
   <!-- EN: There are no animal beds available. -->
-  <MessageNoAnimalBeds>There are no animal beds available.</MessageNoAnimalBeds>
+  <MessageNoAnimalBeds>تخت حیوانات موجود نیست.</MessageNoAnimalBeds>
   <!-- EN: Warning: {PAWN_nameDef}'s medicine restriction ({RESTRICTIONLABEL}) prevents doing this operation. Consider changing {PAWN_possessive} medicine restriction. -->
   <MessageWarningNoMedicineForRestriction>Warning: {PAWN_nameDef}'s medicine restriction ({RESTRICTIONLABEL}) prevents doing this operation. Consider changing {PAWN_possessive} medicine restriction.</MessageWarningNoMedicineForRestriction>
   
@@ -198,7 +198,7 @@
   <MessageRoamerLeaving>{PAWN_labelShort} has started to roam away! {PAWN_pronoun} will leave the map unless an animal handler ropes {PAWN_objective} back to a pen.</MessageRoamerLeaving>
 
   <!-- EN: A bug hive has reproduced itself. -->
-  <MessageHiveReproduced>A bug hive has reproduced itself.</MessageHiveReproduced>
+  <MessageHiveReproduced>کندوی حشرات خودش را تکثیر کرده است.</MessageHiveReproduced>
   
   <!-- EN: The trade caravan from {0} is leaving. -->
   <MessageTraderCaravanLeaving>The trade caravan from {0} is leaving.</MessageTraderCaravanLeaving>
@@ -241,7 +241,7 @@
   <MessageShipChunkDrop>Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.</MessageShipChunkDrop>
 
   <!-- EN: Some items cannot be traded because of:  -->
-  <MessageCannotSellItemsReason>Some items cannot be traded because of: </MessageCannotSellItemsReason>
+  <MessageCannotSellItemsReason>برخی از اقلام قابل معامله نیستند به دلیل: </MessageCannotSellItemsReason>
 
   <!-- EN: {WORKER_labelShort} failed while constructing a {0}. Some resources have been wasted. -->
   <MessageConstructionFailed>{WORKER_labelShort} failed while constructing a {0}. Some resources have been wasted.</MessageConstructionFailed>
@@ -267,17 +267,17 @@
   <!-- EN: {0} has been removed from the caravan. -->
   <MessagePawnLostWhileFormingCaravan>{0} has been removed from the caravan.</MessagePawnLostWhileFormingCaravan>
   <!-- EN: The caravan formation process has been terminated. -->
-  <MessagePawnLostWhileFormingCaravan_AllLost>The caravan formation process has been terminated.</MessagePawnLostWhileFormingCaravan_AllLost>
+  <MessagePawnLostWhileFormingCaravan_AllLost>روند تشکیل کاروان پایان یافته است.</MessagePawnLostWhileFormingCaravan_AllLost>
   <!-- EN: The caravan formation process will continue when everyone recovers from their mental break. -->
-  <MessageCaravanFormationPaused>The caravan formation process will continue when everyone recovers from their mental break.</MessageCaravanFormationPaused>
+  <MessageCaravanFormationPaused>روند تشکیل کاروان زمانی ادامه خواهد داشت که همه از فروپاشی ذهنی خود رهایی یابند.</MessageCaravanFormationPaused>
   <!-- EN: Your colonists will now continue forming a caravan. -->
-  <MessageCaravanFormationUnpaused>Your colonists will now continue forming a caravan.</MessageCaravanFormationUnpaused>
+  <MessageCaravanFormationUnpaused>استعمارگران شما اکنون به تشکیل کاروان ادامه خواهند داد.</MessageCaravanFormationUnpaused>
   
   <!-- EN: One of the caravan members has had a mental break. -->
-  <MessageCaravanMemberHasExtremeMentalBreak>One of the caravan members has had a mental break.</MessageCaravanMemberHasExtremeMentalBreak>
+  <MessageCaravanMemberHasExtremeMentalBreak>یکی از اعضای کاروان دچار فروپاشی ذهنی شده است.</MessageCaravanMemberHasExtremeMentalBreak>
   
   <!-- EN: Warning: It can take a very long time to generate an entire planet. -->
-  <MessageMaxPlanetCoveragePerformanceWarning>Warning: It can take a very long time to generate an entire planet.</MessageMaxPlanetCoveragePerformanceWarning>
+  <MessageMaxPlanetCoveragePerformanceWarning>هشدار: تولید یک سیاره کامل ممکن است زمان زیادی طول بکشد.</MessageMaxPlanetCoveragePerformanceWarning>
 
   <!-- EN: {0} has died because of cold. -->
   <MessagePlantDiedOfCold>{0} has died because of cold.</MessagePlantDiedOfCold>
@@ -304,10 +304,10 @@
   <!-- EN: {1_labelShort} has left the area and formed a caravan. -->
   <MessagePawnLeftMapAndCreatedCaravan>{1_labelShort} has left the area and formed a caravan.</MessagePawnLeftMapAndCreatedCaravan>
   <!-- EN: Your animals are moving to join it. -->
-  <MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>Your animals are moving to join it.</MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>
+  <MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>حیوانات شما در حال حرکت هستند تا به آن بپیوندند.</MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>
   
   <!-- EN: You have successfully settled in a new area. -->
-  <MessageSettledInExistingMap>You have successfully settled in a new area.</MessageSettledInExistingMap>
+  <MessageSettledInExistingMap>شما با موفقیت در منطقه جدیدی مستقر شده اید.</MessageSettledInExistingMap>
   
   <!-- EN: {PAWN_labelShort}'s {2} has healed. Cause: {0} -->
   <MessagePermanentWoundHealed>{PAWN_labelShort}'s {2} has healed. Cause: {0}</MessagePermanentWoundHealed>
@@ -353,10 +353,10 @@
   <MessageTransportPodsDestinationIsTooFar>Each pod launcher would need at least {0}x chemfuel to send transport pods that far.</MessageTransportPodsDestinationIsTooFar>
   
   <!-- EN: The caravan has been reformed. -->
-  <MessageReformedCaravan>The caravan has been reformed.</MessageReformedCaravan>
+  <MessageReformedCaravan>کاروان بازساخت شده است.</MessageReformedCaravan>
   
   <!-- EN: You can't banish the last colonist. -->
-  <MessageCantBanishLastColonist>You can't banish the last colonist.</MessageCantBanishLastColonist>
+  <MessageCantBanishLastColonist>شما نمی توانید آخرین استعمارگر را تبعید کنید.</MessageCantBanishLastColonist>
 
   <!-- EN: Cannot equip: {0}. -->
   <MessageCantEquipCustom>Cannot equip: {0}.</MessageCantEquipCustom>
@@ -384,7 +384,7 @@
   <MessageCaravanDeathCorpseAddedToInventory>{PAWN_definite}'s corpse has been picked up by the caravan. It is heavy and may immobilize the caravan, but can be left behind in the caravan items tab.</MessageCaravanDeathCorpseAddedToInventory>
 
   <!-- EN: To form a caravan, select your own colony or a site where you have people. -->
-  <MessageSelectOwnBaseToFormCaravan>To form a caravan, select your own colony or a site where you have people.</MessageSelectOwnBaseToFormCaravan>
+  <MessageSelectOwnBaseToFormCaravan>برای تشکیل یک کاروان، مستعمره خود یا مقری را که در آن افراد دارید انتخاب کنید.</MessageSelectOwnBaseToFormCaravan>
 
   <!-- EN: At this resolution and UI scale, the game interface would not fit on-screen. Please reduce UI scale or increase resolution. -->
   <MessageScreenResTooSmallForUIScale>At this resolution and UI scale, the game interface would not fit on-screen. Please reduce UI scale or increase resolution.</MessageScreenResTooSmallForUIScale>
@@ -450,12 +450,12 @@
   <MessageRescuedRelative>You have rescued {PAWN_labelShort}. This will make {RELATIVE_labelShort} happy.</MessageRescuedRelative>
 
   <!-- EN: The tornado has left the map. -->
-  <MessageTornadoLeftMap>The tornado has left the map.</MessageTornadoLeftMap>
+  <MessageTornadoLeftMap>گردباد از نقشه خارج شده است.</MessageTornadoLeftMap>
   <!-- EN: The tornado has dissipated. -->
-  <MessageTornadoDissipated>The tornado has dissipated.</MessageTornadoDissipated>
+  <MessageTornadoDissipated>گردباد از بین رفته است.</MessageTornadoDissipated>
 
   <!-- EN: No conscious, capable diplomat. -->
-  <MessagePeaceTalksNoDiplomat>No conscious, capable diplomat.</MessagePeaceTalksNoDiplomat>
+  <MessagePeaceTalksNoDiplomat>بدون دیپلمات آگاه و توانا.</MessagePeaceTalksNoDiplomat>
 
   <!-- EN: Warning: {0} cannot live when exposed to light. -->
   <MessageWarningCavePlantsExposedToLight>Warning: {0} cannot live when exposed to light.</MessageWarningCavePlantsExposedToLight>
@@ -475,9 +475,9 @@
   <MessageRoofIncompatibleWithPlant>Cannot build a roof over {0}.</MessageRoofIncompatibleWithPlant>
 
   <!-- EN: To leave the area, use the 'reform caravan' button in the world view. -->
-  <MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>To leave the area, use the 'reform caravan' button in the world view.</MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>
+  <MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>برای ترک منطقه، از دکمه "بازساخت کاروان" در نمای جهان استفاده کنید.</MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>
   <!-- EN: You can't leave the map now. -->
-  <MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>You can't leave the map now.</MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>
+  <MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>اکنون نمی توانید نقشه را ترک کنید.</MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>
 
   <!-- EN: Relations with {0} have changed from {1} to {2}. -->
   <MessageGoodwillChanged>Relations with {0} have changed from {1} to {2}.</MessageGoodwillChanged>
@@ -514,11 +514,11 @@
   <!-- EN: tended to {1_labelShort} -->
   <GoodwillChangedReason_Tended>tended to {1_labelShort}</GoodwillChangedReason_Tended>
   <!-- EN: received a gift -->
-  <GoodwillChangedReason_ReceivedGift>received a gift</GoodwillChangedReason_ReceivedGift>
+  <GoodwillChangedReason_ReceivedGift>هدیه ای دریافت کرد</GoodwillChangedReason_ReceivedGift>
   <!-- EN: fulfilled a trade offer -->
-  <GoodwillChangedReason_FulfilledTradeRequest>fulfilled a trade offer</GoodwillChangedReason_FulfilledTradeRequest>
+  <GoodwillChangedReason_FulfilledTradeRequest>یک پیشنهاد تجاری را برآورده کرد</GoodwillChangedReason_FulfilledTradeRequest>
   <!-- EN: finished a quest -->
-  <GoodwillChangedReason_FinishedQuest>finished a quest</GoodwillChangedReason_FinishedQuest>
+  <GoodwillChangedReason_FinishedQuest>یک تلاش را به پایان رساند</GoodwillChangedReason_FinishedQuest>
   <!-- EN: {PAWN_labelShort} used {CULPRIT} -->
   <GoodwillChangedReason_UsedForbiddenThing>{PAWN_labelShort} used {CULPRIT}</GoodwillChangedReason_UsedForbiddenThing>
   <!-- EN: sold {0_labelShort} -->
@@ -526,9 +526,9 @@
   <!-- EN: euthanized {PAWN_labelShort} -->
   <GoodwillChangedReason_EuthanizedPawn>euthanized {PAWN_labelShort}</GoodwillChangedReason_EuthanizedPawn>
   <!-- EN: requested military aid -->
-  <GoodwillChangedReason_RequestedMilitaryAid>requested military aid</GoodwillChangedReason_RequestedMilitaryAid>
+  <GoodwillChangedReason_RequestedMilitaryAid>درخواست کمک نظامی کرد</GoodwillChangedReason_RequestedMilitaryAid>
   <!-- EN: requested trader caravan -->
-  <GoodwillChangedReason_RequestedTrader>requested trader caravan</GoodwillChangedReason_RequestedTrader>
+  <GoodwillChangedReason_RequestedTrader>درخواست کاروان بازرگان کرد</GoodwillChangedReason_RequestedTrader>
   <!-- EN: caused neuroquake echo -->
   <GoodwillChangedReason_CausedNeuroquakeEcho>caused neuroquake echo</GoodwillChangedReason_CausedNeuroquakeEcho>
   <!-- EN: caused berserk on {PAWN_labelShort} -->
@@ -536,7 +536,7 @@
   <!-- EN: attacked {0_name} -->
   <GoodwillChangeReason_AttackedFaction>attacked {0_name}</GoodwillChangeReason_AttackedFaction>
   <!-- EN: shuttle destroyed -->
-  <GoodwillChangeReason_ShuttleDestroyed>shuttle destroyed</GoodwillChangeReason_ShuttleDestroyed>
+  <GoodwillChangeReason_ShuttleDestroyed>شاتل نابود شد</GoodwillChangeReason_ShuttleDestroyed>
   <!-- EN: civilians lost -->
   <GoodwillChangeReason_CiviliansLost>civilians lost</GoodwillChangeReason_CiviliansLost>
   <!-- EN: commander lost -->
@@ -553,7 +553,7 @@
   <!-- EN: {0} has formed and is now traveling on the world map. -->
   <MessageFormedCaravan>{0} has formed and is now traveling on the world map.</MessageFormedCaravan>
   <!-- EN: Orders -->
-  <MessageFormedCaravan_Orders>Orders</MessageFormedCaravan_Orders>
+  <MessageFormedCaravan_Orders>دستورات</MessageFormedCaravan_Orders>
 
   <!-- EN: {1}'s "{0}" can no longer deliver to deleted stockpile {2}. -->
   <MessageBillValidationStoreZoneDeleted>{1}'s "{0}" can no longer deliver to deleted stockpile {2}.</MessageBillValidationStoreZoneDeleted>
@@ -662,7 +662,7 @@
 
   <!-- Rituals -->
   <!-- EN: spectate -->
-  <Spectate>spectate</Spectate>
+  <Spectate>تماشا کردن</Spectate>
   <!-- EN: Assign to {0} -->
   <AssignToRole>Assign to {0}</AssignToRole>
   <!-- EN: {0} has begun. -->
@@ -674,7 +674,7 @@
   <!-- EN: You need at least one participant. -->
   <MessageRitualNeedsAtLeastOnePerson>You need at least one participant.</MessageRitualNeedsAtLeastOnePerson>
   <!-- EN: You need at least one spectator. -->
-  <MessageRitualNeedsAtLeastOneSpectator>You need at least one spectator.</MessageRitualNeedsAtLeastOneSpectator>
+  <MessageRitualNeedsAtLeastOneSpectator>حداقل به یک تماشاگر نیاز دارید.</MessageRitualNeedsAtLeastOneSpectator>
   <!-- EN: You need a {0}. -->
   <MessageRitualNeedsAtLeastOneRolePawn>You need a {0}.</MessageRitualNeedsAtLeastOneRolePawn>
   <!-- EN: You need at least {1} {0}. -->
@@ -753,7 +753,7 @@
   <MessageRitualRoleCannotBeBaby>{0} cannot be a baby.</MessageRitualRoleCannotBeBaby>
 
   <!-- EN: You must select a site to continue. -->
-  <MessagePlayerMustSelectTile>You must select a site to continue.</MessagePlayerMustSelectTile>
+  <MessagePlayerMustSelectTile>برای ادامه باید مقری را انتخاب کنید.</MessagePlayerMustSelectTile>
 
   <!-- EN: Cannot plant {0_labelShort} -->
   <CannotPlantThing>Cannot plant {0_labelShort}</CannotPlantThing>
@@ -778,7 +778,7 @@
   <MessageActivationCanceled>{0_labelShort} activation canceled</MessageActivationCanceled>
 
   <!-- EN: Nothing is currently buildable in category -->
-  <NothingAvailableInCategory>Nothing is currently buildable in category</NothingAvailableInCategory>
+  <NothingAvailableInCategory>در حال حاضر هیچ چیزی در دسته بندی قابل ساخت نیست</NothingAvailableInCategory>
 
   <!-- EN: Storage settings linked for {0} buildings. -->
   <SettingsLinkedFor>Storage settings linked for {0} buildings.</SettingsLinkedFor>
