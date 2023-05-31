@@ -5,21 +5,21 @@
   <!-- EN: Tutorial -->
   <Tutorial>آموزش</Tutorial>
   <!-- EN: New colony -->
-  <NewColony>کلونی جدید</NewColony>
+  <NewColony>مستعمره جدید</NewColony>
   <!-- EN: Back to game -->
   <BackToGame>بازگشتن به بازی</BackToGame>
   <!-- EN: Review scenario -->
   <ReviewScenario>بررسی سناریو</ReviewScenario>
   <!-- EN: Save -->
-  <Save>بازی را بارگذاری کنید</Save>
+  <Save>ذخیره</Save>
   <!-- EN: Load game -->
-  <LoadGame>بازی را بارگیری کنید</LoadGame>
+  <LoadGame>بارگذاری بازی</LoadGame>
   <!-- EN: Options -->
   <Options>گزینه ها</Options>
   <!-- EN: Mod -->
-  <Mod>مد</Mod>
+  <Mod>مود</Mod>
   <!-- EN: Mods -->
-  <Mods>مدها</Mods>
+  <Mods>مود ها</Mods>
   <!-- EN: Save translation report -->
   <SaveTranslationReport>ذخیره کردن گزارش ترجمه</SaveTranslationReport>
   <!-- EN: Generating translation report -->
@@ -63,9 +63,10 @@
 
   <!-- Main menu translations info window -->
   <!-- EN: All translations of RimWorld are fan-made. This fan-made translation was created by the following excellent volunteers:\n\n{0} -->
-  <TranslationThanks>All translations of RimWorld are fan-made. This fan-made translation was created by the following excellent volunteers: \n\n {0}</TranslationThanks>
+  <TranslationThanks>تمام ترجمه های بازی لبه دنیا توسط طرفداران ساخته شده است. \n
+  این ترجمه توسط طرفداران عالی بالا ایجاد شده است: \n\n {0}</TranslationThanks>
   <!-- EN: You can contribute too. Click below to learn more (opens web browser). -->
-  <TranslationHowToContribute>شما هم می توانید کمک کنید. برای کسب اطلاعات بیشتر روی زیر کلیک کنید (مرورگر وب را باز می کند).</TranslationHowToContribute>
+  <TranslationHowToContribute>شما هم می توانید مشارکت کنید. برای کسب اطلاعات بیشتر روی زیر کلیک کنید. مرورگر وب را باز می کند.</TranslationHowToContribute>
   <!-- EN: Learn more -->
   <LearnMore>بیشتر بدانید</LearnMore>
 
@@ -75,9 +76,9 @@
 
   <!-- Create/review world -->
   <!-- EN: Review world -->
-  <ReviewWorld>جهان را مرور کنید</ReviewWorld>
+  <ReviewWorld>مرور جهان</ReviewWorld>
   <!-- EN: Generate -->
-  <WorldGenerate>تولید می کنند</WorldGenerate>
+  <WorldGenerate>تولید جهان</WorldGenerate>
   <!-- EN: Save and finish -->
   <WorldSaveAndFinish>ذخیره و تمام کنید</WorldSaveAndFinish>
   <!-- EN: Reset factions -->
@@ -111,61 +112,61 @@
   <!-- EN: Seed -->
   <WorldSeed>بذر</WorldSeed>
   <!-- EN: Randomize seed -->
-  <RandomizeSeed>بذر را تصادفی کنید</RandomizeSeed>
+  <RandomizeSeed>بذر تصادفی</RandomizeSeed>
   <!-- EN: The planet is always the same diameter, but since it's far larger than needed for play, we don't generate the whole surface because it can take a very long time. This is the percentage of the surface that you want generated. -->
-  <PlanetCoverageTip>The planet is always the same diameter, but since it's far larger than needed for play, we don't generate the whole surface because it can take a very long time. This is the percentage of the surface that you want generated.</PlanetCoverageTip>
+  <PlanetCoverageTip>قطر این سیاره همیشه یکسان است، اما از آنجایی که برای بازی بسیار بزرگتر است، ما کل سطح را تولید نمی کنیم زیرا ممکن است زمان بسیار زیادی طول بکشد. این درصدی از سطحی است که می خواهید ایجاد شود.</PlanetCoverageTip>
   <!-- EN: Factions -->
   <WorldFactionsTab>جناح ها</WorldFactionsTab>
 
   <!-- Select world -->
   <!-- EN: Select world -->
-  <SelectWorld>جهان را انتخاب کنید</SelectWorld>
+  <SelectWorld>انتخاب جهان</SelectWorld>
   <!-- EN: Select -->
-  <WorldChooseButton>انتخاب کنید</WorldChooseButton>
+  <WorldChooseButton>انتخاب</WorldChooseButton>
   <!-- EN: No world files found. Create a world first. -->
   <NoWorldsFilesFound>هیچ فایل جهانی یافت نشد. اول دنیایی بساز</NoWorldsFilesFound>
   
   <!-- Version info -->
   <!-- EN: Version {0} is now available. Check ludeon.com for more info. -->
-  <BuildNowAvailable>Version {0} is now available. Check ludeon.com for more info.</BuildNowAvailable>
+  <BuildNowAvailable>نسخه {0} هم اکنون در دسترس است. برای کسب اطلاعات بیشتر ludeon.com چک کن.</BuildNowAvailable>
   <!-- EN: This is the latest version. -->
   <BuildUpToDate>این آخرین نسخه است.</BuildUpToDate>
   <!-- EN: Error getting version info: {0} -->
-  <ErrorGettingVersionInfo>Error getting version info: {0}</ErrorGettingVersionInfo>
+  <ErrorGettingVersionInfo>خطا در دریافت اطلاعات نسخه: {0}</ErrorGettingVersionInfo>
   <!-- EN: Loading version info... -->
   <LoadingVersionInfo>در حال بارگیری اطلاعات نسخه...</LoadingVersionInfo>
 
   <!-- World generator -->
   <!-- EN: Generate world -->
-  <GenerateWorld>جهان را تولید کند</GenerateWorld>
+  <GenerateWorld>تولید جهان</GenerateWorld>
 
   <!-- Mods config -->
   <!-- EN: Open Steam Workshop -->
-  <OpenSteamWorkshop>Open Steam Workshop</OpenSteamWorkshop>
+  <OpenSteamWorkshop>باز کردن Steam Workshop</OpenSteamWorkshop>
   <!-- EN: Get mods from forum -->
-  <GetModsFromForum>Get mods from forum</GetModsFromForum>
+  <GetModsFromForum>دریافت مود ها از انجمن</GetModsFromForum>
   <!-- EN: Open mods data folder -->
-  <OpenModsDataFolder>پوشه داده مودها را باز کنید</OpenModsDataFolder>
+  <OpenModsDataFolder>پوشه مودها را باز کنید</OpenModsDataFolder>
   <!-- EN: Show mods data location -->
   <ShowModsDataLocation>Show mods data location</ShowModsDataLocation>
   <!-- EN: Are you sure you want to disable the core mod? The game won't work at all unless you have another mod that replaces all the core functionality.\n\nRemember, other mods can override defs in the core mod by using the same defName. -->
   <ConfirmDisableCoreMod>Are you sure you want to disable the core mod? The game won't work at all unless you have another mod that replaces all the core functionality.\n\nRemember, other mods can override defs in the core mod by using the same defName.</ConfirmDisableCoreMod>
   <!-- EN: Are you sure you want to delete all the content for {0}? -->
-  <ConfirmDeleteMod>Are you sure you want to delete all the content for {0}?</ConfirmDeleteMod>
+  <ConfirmDeleteMod>آیا مطمئن هستید که می خواهید همه محتوا را حذف کنید {0}?</ConfirmDeleteMod>
   <!-- EN: Auto-sort mods -->
   <ResolveModOrder>Auto-sort mods</ResolveModOrder>
   <!-- EN: Save and apply changes -->
-  <SaveModChanges>Save and apply changes</SaveModChanges>
+  <SaveModChanges>تغییرات را ذخیره و اعمال کنید</SaveModChanges>
   <!-- EN: Mod changes have not been saved. Are you sure you want to continue? -->
-  <DiscardModChanges>Mod changes have not been saved. Are you sure you want to continue?</DiscardModChanges>
+  <DiscardModChanges>تغییرات مود ذخیره نشده است. آیا مطمئن هستید که میخواهید ادامه دهید?</DiscardModChanges>
   <!-- EN: Cannot move {0}: It must be loaded after {1}. -->
   <ModReorderConflict_MustLoadAfter>Cannot move {0}: It must be loaded after {1}.</ModReorderConflict_MustLoadAfter>
   <!-- EN: Cannot move {0}: It must be loaded before {1}. -->
   <ModReorderConflict_MustLoadBefore>Cannot move {0}: It must be loaded before {1}.</ModReorderConflict_MustLoadBefore>
   <!-- EN: Unsubscribe -->
-  <Unsubscribe>Unsubscribe</Unsubscribe>
+  <Unsubscribe>لغو اشتراک</Unsubscribe>
   <!-- EN: Are you sure you want to unsubscribe? -->
-  <ConfirmUnsubscribe>Are you sure you want to unsubscribe?</ConfirmUnsubscribe>
+  <ConfirmUnsubscribe>آیا مطمئن هستید که می خواهید اشتراک خود را لغو کنید؟?</ConfirmUnsubscribe>
   <!-- EN: Are you sure you want to unsubscribe from {0}? -->
   <ConfirmUnsubscribeFrom>Are you sure you want to unsubscribe from {0}?</ConfirmUnsubscribeFrom>
   <!-- EN: Are you sure you want to unsubscribe from:\n\n{0} -->
@@ -181,17 +182,17 @@
   <!-- EN: Disable -->
   <Disable>غیر فعال کردن</Disable>
   <!-- EN: Get mods from... -->
-  <GetMods>Get mods from...</GetMods>
+  <GetMods>دریافت مود ها از...</GetMods>
   <!-- EN: Unsubscribe from... -->
   <UnsubscribeMultiple>Unsubscribe from...</UnsubscribeMultiple>
   <!-- EN: Save / load list... -->
-  <SaveLoadList>Save / load list...</SaveLoadList>
+  <SaveLoadList>ذخیره / بارگذاری لیست...</SaveLoadList>
   <!-- EN: Save mod list -->
-  <SaveModList>Save mod list</SaveModList>
+  <SaveModList>ذخیره لیست مود</SaveModList>
   <!-- EN: Load mod list -->
-  <LoadModList>Load mod list</LoadModList>
+  <LoadModList>بارگذاری لیست مود</LoadModList>
   <!-- EN: Added mods -->
-  <AddedModsList>مدهای اضافه شده</AddedModsList>
+  <AddedModsList>مود های اضافه شده</AddedModsList>
   <!-- EN: Missing mods -->
   <MissingModsList>Missing mods</MissingModsList>
   <!-- EN: Shared mods -->
@@ -207,7 +208,7 @@
   <!-- EN: Forum -->
   <FromForum>انجمن</FromForum>
   <!-- EN: Advanced... -->
-  <MoreActions>Advanced...</MoreActions>
+  <MoreActions>پیشرفته...</MoreActions>
   <!-- EN: All selected mods -->
   <AllSelectedMods>All selected mods</AllSelectedMods>
   <!-- EN: All disabled mods -->
@@ -295,25 +296,25 @@
 
   <!-- Select scenario -->
   <!-- EN: Choose scenario -->
-  <ChooseScenario>Choose scenario</ChooseScenario>
+  <ChooseScenario>انتخاب سناریو</ChooseScenario>
   <!-- EN: Custom -->
-  <ScenariosCustom>Custom</ScenariosCustom>
+  <ScenariosCustom>سفارشی</ScenariosCustom>
   <!-- EN: Steam Workshop -->
   <ScenariosSteamWorkshop>Steam Workshop</ScenariosSteamWorkshop>
   <!-- EN: Scenario editor -->
-  <ScenarioEditor>Scenario editor</ScenarioEditor>
+  <ScenarioEditor>ویرایشگر سناریو</ScenarioEditor>
   <!-- EN: Delete -->
   <Delete>حذف</Delete>
   
   <!-- Scenario editor -->
   <!-- EN: seed -->
-  <Seed>seed</Seed>
+  <Seed>بذر</Seed>
   <!-- EN: Load -->
-  <Load>Load</Load>
+  <Load>بارگذاری</Load>
   <!-- EN: edit mode -->
-  <EditMode>edit mode</EditMode>
+  <EditMode>ویرایش مود</EditMode>
   <!-- EN: Summary -->
-  <Summary>Summary</Summary>
+  <Summary>خلاصه</Summary>
   <!-- EN: Add part -->
   <AddPart>Add part</AddPart>
   <!-- EN: All text fields must be filled. -->
@@ -521,7 +522,7 @@
   <Difficulty_FixedWealthTimeFactor_Info>The number of game years until the wealth-independent mode reaches its maximum threat level.\n\nNote that the storyteller will still scale threats according to colonist count and a variety of other factors.</Difficulty_FixedWealthTimeFactor_Info>
 
   <!-- EN: Ideology -->
-  <DifficultyIdeologySection>Ideology</DifficultyIdeologySection>
+  <DifficultyIdeologySection>ایدئولوژی</DifficultyIdeologySection>
   <!-- EN: Low pop conversion boost -->
   <Difficulty_LowPopConversionBoost_Label>Low pop conversion boost</Difficulty_LowPopConversionBoost_Label>
   <!-- EN: With a single colonist of the player's starting ideoligion, conversion chance to their ideoligion is multiplied by this amount. Conversion attempts against them have their impact divided by that amount.\n\nWith two colonists of the player's starting ideoligion, the effect is halved.\n\nWith three or more colonists of the player's starting ideoligion, this has no effect. -->
@@ -529,83 +530,83 @@
 
   <!-- Site select -->
   <!-- EN: Select starting site -->
-  <SelectStartingSite>Select starting site</SelectStartingSite>
+  <SelectStartingSite>مقر شروع را انتخاب کنید</SelectStartingSite>
   <!-- EN: Select random site -->
-  <SelectRandomSite>Select random site</SelectRandomSite>
+  <SelectRandomSite>انتخاب مقر تصادفی</SelectRandomSite>
   <!-- EN: Select site -->
-  <SelectSite>Select site</SelectSite>
+  <SelectSite>انتخاب مقر</SelectSite>
   <!-- EN: Please select a site. -->
-  <MustSelectStartingSite>Please select a site.</MustSelectStartingSite>
+  <MustSelectStartingSite>لطفا یک مقر انتخاب کنید.</MustSelectStartingSite>
   <!-- EN: You cannot land on this biome: {0} -->
   <CannotLandBiome>You cannot land on this biome: {0}</CannotLandBiome>
   <!-- EN: Biome not implemented -->
   <BiomeNotImplemented>Biome not implemented</BiomeNotImplemented>
   <!-- EN: You cannot land on impassable mountains. -->
-  <CannotLandImpassableMountains>You cannot land on impassable mountains.</CannotLandImpassableMountains>
+  <CannotLandImpassableMountains>شما نمی توانید روی کوه های صعب العبور فرود بیایید.</CannotLandImpassableMountains>
   <!-- EN: {0} already have a base there. -->
-  <BaseAlreadyThere>{0} already have a base there.</BaseAlreadyThere>
+  <BaseAlreadyThere>{0} در حال حاضر یک پایگاه در آنجا وجود دارد.</BaseAlreadyThere>
   <!-- EN: You already have a base there. -->
-  <YourBaseAlreadyThere>You already have a base there.</YourBaseAlreadyThere>
+  <YourBaseAlreadyThere>در حال حاضر یک پایگاه در آنجا وجود دارد.</YourBaseAlreadyThere>
   <!-- EN: This tile is occupied. -->
   <TileOccupied>This tile is occupied.</TileOccupied>
   <!-- EN: Settlements cannot be directly adjacent to each other. -->
-  <FactionBaseAdjacent>Settlements cannot be directly adjacent to each other.</FactionBaseAdjacent>
+  <FactionBaseAdjacent>سکونتگاه ها نمی توانند مستقیماً در مجاورت یکدیگر باشند.</FactionBaseAdjacent>
   <!-- EN: Biome -->
   <Biome>Biome</Biome>
   <!-- EN: Terrain -->
-  <Terrain>Terrain</Terrain>
+  <Terrain>نوع زمین</Terrain>
   <!-- EN: Road -->
   <Road>جاده</Road>
   <!-- EN: River -->
   <River>رودخانه</River>
   <!-- EN: Elevation -->
-  <Elevation>Elevation</Elevation>
+  <Elevation>ارتفاع</Elevation>
   <!-- EN: Fertility -->
   <Fertility>Fertility</Fertility>
   <!-- EN: fertility -->
-  <FertilityLower>fertility</FertilityLower>
+  <FertilityLower>حاصلخیزی</FertilityLower>
   <!-- EN: Average temperature -->
-  <AvgTemp>Average temperature</AvgTemp>
+  <AvgTemp>دمای میانگین</AvgTemp>
   <!-- EN: Rainfall -->
-  <Rainfall>Rainfall</Rainfall>
+  <Rainfall>بارش</Rainfall>
   <!-- EN: Special features -->
-  <SpecialFeatures>Special features</SpecialFeatures>
+  <SpecialFeatures>ویژگی های خاص</SpecialFeatures>
   <!-- EN: northern coast -->
-  <HasCoast0>northern coast</HasCoast0>
+  <HasCoast0>ساحل شمالی</HasCoast0>
   <!-- EN: eastern coast -->
-  <HasCoast1>eastern coast</HasCoast1>
+  <HasCoast1>ساحل شرقی</HasCoast1>
   <!-- EN: southern coast -->
-  <HasCoast2>southern coast</HasCoast2>
+  <HasCoast2>ساحل جنوبی</HasCoast2>
   <!-- EN: western coast -->
-  <HasCoast3>western coast</HasCoast3>
+  <HasCoast3>ساحل غربی</HasCoast3>
   <!-- EN: caves -->
-  <HasCaves>caves</HasCaves>
+  <HasCaves>غارها</HasCaves>
   <!-- EN: Faction base -->
   <FactionBase>Faction base</FactionBase>
   <!-- EN: Stone types -->
-  <StoneTypesHere>Stone types</StoneTypesHere>
+  <StoneTypesHere>انواع سنگ</StoneTypesHere>
   <!-- EN: Time zone -->
-  <TimeZone>Time zone</TimeZone>
+  <TimeZone>منطقه زمانی</TimeZone>
   <!-- EN: Movement difficulty -->
-  <MovementDifficulty>Movement difficulty</MovementDifficulty>
+  <MovementDifficulty>دشواری حرکت</MovementDifficulty>
   <!-- EN: Animals can graze now -->
-  <AnimalsCanGrazeNow>Animals can graze now</AnimalsCanGrazeNow>
+  <AnimalsCanGrazeNow>هم اکنون حیوانات می توانند چرا کنند</AnimalsCanGrazeNow>
   <!-- EN: Average disease frequency -->
-  <AverageDiseaseFrequency>Average disease frequency</AverageDiseaseFrequency>
+  <AverageDiseaseFrequency>میانگین فراوانی بیماری</AverageDiseaseFrequency>
   <!-- EN: per year -->
   <PerYear>در سال</PerYear>
   <!-- EN: Forageability -->
-  <Forageability>Forageability</Forageability>
+  <Forageability>علوفه پذیری</Forageability>
   <!-- EN: None of the selected people can do the following jobs:\n\n{0}\n\nThis can make the game more difficult than usual. Are you sure you want to continue? -->
   <ConfirmRequiredWorkTypeDisabledForEveryone>None of the selected people can do the following jobs:\n\n{0}\n\nThis can make the game more difficult than usual. Are you sure you want to continue?</ConfirmRequiredWorkTypeDisabledForEveryone>
   <!-- EN: temperature -->
   <TemperatureLower>درجه حرارت</TemperatureLower>
   <!-- EN: light -->
-  <LightLower>light</LightLower>
+  <LightLower>نور</LightLower>
 
   <!-- Character chooser -->
   <!-- EN: Create characters -->
-  <CreateCharacters>Create characters</CreateCharacters>
+  <CreateCharacters>ساخت شخصیت ها</CreateCharacters>
   <!-- EN: The character's first name.\n\nThis is only displayed in certain menus. -->
   <FirstNameDesc>The character's first name.\n\nThis is only displayed in certain menus.</FirstNameDesc>
   <!-- EN: The character's short identifier.\n\nThis is displayed at all times. It can be the first or last name, or a completely separate nickname. -->
@@ -613,21 +614,21 @@
   <!-- EN: The character's last name.\n\nThis is only displayed in certain menus. -->
   <LastNameDesc>The character's last name.\n\nThis is only displayed in certain menus.</LastNameDesc>
   <!-- EN: Randomize -->
-  <Randomize>Randomize</Randomize>
+  <Randomize>تصادفی در آرودن</Randomize>
   <!-- EN: age {0} -->
-  <AgeIndicator>age {0}</AgeIndicator>
+  <AgeIndicator>سن {0}</AgeIndicator>
   <!-- EN: {PAWN_race}, age {PAWN_ageFull} -->
-  <PawnSummary>{PAWN_race}, age {PAWN_ageFull}</PawnSummary>
+  <PawnSummary>{PAWN_race}, سن {PAWN_ageFull}</PawnSummary>
   <!-- EN: {PAWN_gender} {PAWN_race}, age {PAWN_ageFull} -->
-  <PawnSummaryWithGender>{PAWN_gender} {PAWN_race}, age {PAWN_ageFull}</PawnSummaryWithGender>
+  <PawnSummaryWithGender>{PAWN_gender} {PAWN_race}, سن {PAWN_ageFull}</PawnSummaryWithGender>
   <!-- EN: Backstory -->
-  <Backstory>Backstory</Backstory>
+  <Backstory>پس زمینه</Backstory>
   <!-- EN: Incapable of -->
-  <IncapableOf>Incapable of</IncapableOf>
+  <IncapableOf>ناتوان از</IncapableOf>
   <!-- EN: Abilities -->
-  <Abilities>Abilities</Abilities>
+  <Abilities>توانایی ها</Abilities>
   <!-- EN: Caused by -->
-  <IncapableOfTooltipHediff>Caused by</IncapableOfTooltipHediff>
+  <IncapableOfTooltipHediff>ناشی از</IncapableOfTooltipHediff>
   <!-- EN: Disabled work types: -->
   <IncapableOfTooltipWorkTypes>Disabled work types:</IncapableOfTooltipWorkTypes>
   <!-- EN: Caused by backstory -->
@@ -649,31 +650,31 @@
   <!-- EN: Skills -->
   <Skills>مهارت ها</Skills>
   <!-- EN: none -->
-  <NoneLower>none</NoneLower>
+  <NoneLower>هیچ کدام</NoneLower>
   <!-- EN: Adulthood -->
-  <Adulthood>Adulthood</Adulthood>
+  <Adulthood>بزرگسالی</Adulthood>
   <!-- EN: Childhood -->
-  <Childhood>Childhood</Childhood>
+  <Childhood>کودکی</Childhood>
   <!-- EN: male -->
   <Male>مذکر</Male>
   <!-- EN: female -->
-  <Female>مؤنث</Female>
+  <Female>مونث</Female>
   <!-- EN: male and female -->
-  <MaleAndFemale>male and female</MaleAndFemale>
+  <MaleAndFemale>مذکر و مونث</MaleAndFemale>
   <!-- EN: male -->
-  <MaleAnimal>male</MaleAnimal>
+  <MaleAnimal>مذکر</MaleAnimal>
   <!-- EN: female -->
-  <FemaleAnimal>female</FemaleAnimal>
+  <FemaleAnimal>مونث</FemaleAnimal>
   <!-- EN: Pain -->
-  <Pain>Pain</Pain>
+  <Pain>درد</Pain>
   <!-- EN: Health -->
   <Health>سلامتی</Health>
   <!-- EN: Relations -->
-  <Relations>Relations</Relations>
+  <Relations>روابط</Relations>
   <!-- EN: Possessions -->
-  <Possessions>Possessions</Possessions>
+  <Possessions>اموال</Possessions>
   <!-- EN: Team skills -->
-  <TeamSkills>Team skills</TeamSkills>
+  <TeamSkills>مهارت های تیمی</TeamSkills>
   <!-- EN: Selected -->
   <StartingPawnsSelected>Selected</StartingPawnsSelected>
   <!-- EN: Left behind -->
@@ -683,42 +684,42 @@
   
   <!-- Misc -->
   <!-- EN: Start -->
-  <Start>Start</Start>
+  <Start>شروغ</Start>
   <!-- EN: Advanced -->
-  <Advanced>Advanced</Advanced>
+  <Advanced>پیشرفته</Advanced>
   <!-- EN: Next -->
-  <Next>Next</Next>
+  <Next>بعد</Next>
   <!-- EN: Back -->
-  <Back>Back</Back>
+  <Back>قبل</Back>
   <!-- EN: Change material... -->
   <ShowMaterials>Change material...</ShowMaterials>
   <!-- EN: Gameplay -->
-  <Gameplay>Gameplay</Gameplay>
+  <Gameplay>گیم پلی</Gameplay>
   <!-- EN: Really quit? You'll lose unsaved progress. -->
   <ConfirmQuit>Really quit? You'll lose unsaved progress.</ConfirmQuit>
   <!-- EN: Each person needs a valid name. -->
-  <EveryoneNeedsValidName>Each person needs a valid name.</EveryoneNeedsValidName>
+  <EveryoneNeedsValidName>هر شخص به یک نام معتبر نیاز دارد.</EveryoneNeedsValidName>
   <!-- EN: None of the selected people can do the following jobs -->
-  <RequiredWorkTypeDisabledForEveryone>None of the selected people can do the following jobs</RequiredWorkTypeDisabledForEveryone>
+  <RequiredWorkTypeDisabledForEveryone>هیچ یک از افراد انتخاب شده نمی توانند کارهای زیر را انجام دهند</RequiredWorkTypeDisabledForEveryone>
   <!-- EN: Quit -->
   <Quit>ترک کنید</Quit>
   <!-- EN: Ignore -->
-  <Ignore>Ignore</Ignore>
+  <Ignore>رد کردن</Ignore>
   
   <!-- Progress bar -->
   <!-- EN: Generating world -->
-  <GeneratingWorld>Generating world</GeneratingWorld>
+  <GeneratingWorld>ساخت جهان</GeneratingWorld>
   <!-- EN: Generating planet -->
-  <GeneratingPlanet>Generating planet</GeneratingPlanet>
+  <GeneratingPlanet>ساخت سیاره</GeneratingPlanet>
   <!-- EN: Generating map -->
-  <GeneratingMap>Generating map</GeneratingMap>
+  <GeneratingMap>ساخت نقشه</GeneratingMap>
   <!-- EN: Generating map for new encounter -->
   <GeneratingMapForNewEncounter>Generating map for new encounter</GeneratingMapForNewEncounter>
 
   <!-- EN: Click for more info. -->
-  <ClickForMoreInfo>Click for more info.</ClickForMoreInfo>
+  <ClickForMoreInfo>برای اطلاعات بیشتر کلیک کنید.</ClickForMoreInfo>
   <!-- EN: No more information is available. -->
-  <NoMoreInfoAvailable>No more information is available.</NoMoreInfoAvailable>
+  <NoMoreInfoAvailable>اطلاعات بیشتری در دسترس نیست.</NoMoreInfoAvailable>
 
   <!-- Factions -->
   <!-- EN: Factions -->
