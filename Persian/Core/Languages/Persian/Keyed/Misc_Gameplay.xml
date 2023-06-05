@@ -17,7 +17,7 @@
   <!-- EN: For colonist use -->
   <ForColonistUse>For colonist use</ForColonistUse>
   <!-- EN: Medical -->
-  <MedicalBed>Medical</MedicalBed>
+  <MedicalBed>پزشکی</MedicalBed>
   <!-- EN: Owner -->
   <Owner>مالک</Owner>
   <!-- EN: Owners -->
@@ -91,7 +91,7 @@
   <!-- EN: Inventory -->
   <Inventory>Inventory</Inventory>
   <!-- EN: Information -->
-  <ThingInfo>Information</ThingInfo>
+  <ThingInfo>اطلاعات</ThingInfo>
   <!-- EN: Drop -->
   <DropThing>Drop</DropThing>
   <!-- EN: Temporary faction members will not drop their items. -->
@@ -187,7 +187,7 @@
   <!-- EN: radius expands in -->
   <RadiusExpandsIn>radius expands in</RadiusExpandsIn>
   <!-- EN: permanent -->
-  <Permanent>permanent</Permanent>
+  <Permanent>دائمی</Permanent>
   <!-- EN: Resting -->
   <CaravanResting>Resting</CaravanResting>
   <!-- EN: using 1 bedroll -->
@@ -237,9 +237,9 @@
   <!-- EN: Visibility -->
   <Visibility>Visibility</Visibility>
   <!-- EN: Temperature -->
-  <Temperature>Temperature</Temperature>
+  <Temperature>درجه حرارت</Temperature>
   <!-- EN: bad temperature -->
-  <BadTemperature>bad temperature</BadTemperature>
+  <BadTemperature>دمای بد</BadTemperature>
   <!-- EN: Ideal fermenting temperature -->
   <IdealFermentingTemperature>Ideal fermenting temperature</IdealFermentingTemperature>
   <!-- EN: {0} effect multiplier: {1} -->
@@ -265,23 +265,23 @@
   <!-- EN: raining -->
   <DeterioratingRaining>raining</DeterioratingRaining> 
   <!-- EN: protected -->
-  <Protected>protected</Protected>
+  <Protected>حفاظت شده</Protected>
   <!-- EN: Deteriorating -->
   <DeterioratingBecauseOf>Deteriorating</DeterioratingBecauseOf>
   <!-- EN: Will deteriorate in {0}. -->
   <DeteriorateInDuration>Will deteriorate in {0}.</DeteriorateInDuration>
   <!-- EN: Map -->
-  <Map>Map</Map>
+  <Map>نقشه</Map>
   <!-- EN: {0} until enemies arrive -->
   <CaravanDetectedRaidCountdown>{0} until enemies arrive</CaravanDetectedRaidCountdown>
   <!-- EN: Enemy reinforcements will arrive in this area in {0}. -->
   <CaravanDetectedRaidCountdownTip>Enemy reinforcements will arrive in this area in {0}.</CaravanDetectedRaidCountdownTip>
   <!-- EN: Room -->
-  <Room>Room</Room>
+  <Room>اتاق</Room>
   <!-- EN: Beauty here -->
   <BeautyHere>Beauty here</BeautyHere>
   <!-- EN: no power -->
-  <NoPower>no power</NoPower>
+  <NoPower>بدون برق</NoPower>
   <!-- EN: Work speed -->
   <WorkSpeedPenalty>Work speed</WorkSpeedPenalty>
   <!-- EN: Disabled -->
@@ -293,7 +293,7 @@
   <!-- EN: no fueling port -->
   <NotAllInGroupConnectedToFuelingPort>no fueling port</NotAllInGroupConnectedToFuelingPort>
   <!-- EN: no fuel -->
-  <NotAllFuelingPortSourcesInGroupHaveAnyFuel>no fuel</NotAllFuelingPortSourcesInGroupHaveAnyFuel>
+  <NotAllFuelingPortSourcesInGroupHaveAnyFuel>بدون سوخت</NotAllFuelingPortSourcesInGroupHaveAnyFuel>
   <!-- EN: loading in progress -->
   <TransportPodInGroupHasSomethingLeftToLoad>loading in progress</TransportPodInGroupHasSomethingLeftToLoad>
   <!-- EN: Beyond maximum range -->
@@ -341,13 +341,13 @@
   <!-- EN: Products -->
   <Products>محصولات</Products>
   <!-- EN: Requires -->
-  <Requires>Requires</Requires>
+  <Requires>ملزومات</Requires>
   <!-- EN: {0}x any of -->
   <NumAnyOf>{0}x any of</NumAnyOf>
   <!-- EN: {0} of {1} -->
   <Relationship>{0} of {1}</Relationship>
   <!-- EN: Prisoner -->
-  <Prisoner>Prisoner</Prisoner>
+  <Prisoner>زندانی</Prisoner>
   <!-- EN: Refugee -->
   <Refugee>Refugee</Refugee>
   <!-- EN: Terrain movement difficulty -->
@@ -375,7 +375,7 @@
   <!-- EN: Final speed -->
   <FinalCaravanMovementSpeed>Final speed</FinalCaravanMovementSpeed>
   <!-- EN: Winter -->
-  <Winter>Winter</Winter>
+  <Winter>زمستان</Winter>
   <!-- EN: {0} in winter -->
   <MovementDifficultyOffsetInWinter>{0} in winter</MovementDifficultyOffsetInWinter>
   <!-- EN: to -->
@@ -387,7 +387,7 @@
   <!-- EN: {1_labelShort}'s caravan -->
   <CaravanLeaderCaravanName>{1_labelShort}'s caravan</CaravanLeaderCaravanName>
   <!-- EN: Reason -->
-  <Reason>Reason</Reason>
+  <Reason>دلیل</Reason>
   <!-- EN: Relations with {0} -->
   <RelationsWith>Relations with {0}</RelationsWith>
   <!-- EN: captured by {0} -->
@@ -407,7 +407,7 @@
   <!-- EN: Too dangerous to re-enter for {0}. -->
   <EnterCooldown>Too dangerous to re-enter for {0}.</EnterCooldown>
   <!-- EN: Caravan -->
-  <Caravan>Caravan</Caravan>
+  <Caravan>کاروان</Caravan>
   <!-- EN: there may be danger there. -->
   <HiddenOrNoSitePartDescription>there may be danger there.</HiddenOrNoSitePartDescription>
   <!-- EN: The scanner is picking up activity around the lump. It's likely hostile. -->
@@ -429,7 +429,7 @@
   <!-- EN: location -->
   <Location>محل</Location>
   <!-- EN: animals -->
-  <AnimalsLower>animals</AnimalsLower>
+  <AnimalsLower>حیوانات</AnimalsLower>
   <!-- EN: items -->
   <ItemsLower>items</ItemsLower>
   <!-- EN: {0} x{1} -->
@@ -473,9 +473,9 @@
   <!-- EN: Will assemble -->
   <MechAssemblyNextType>Will assemble</MechAssemblyNextType>
   <!-- EN: produced -->
-  <ThingsProduced>produced</ThingsProduced>
+  <ThingsProduced>ساخته شده</ThingsProduced>
   <!-- EN: harvested -->
-  <PlantsHarvested>harvested</PlantsHarvested>
+  <PlantsHarvested>برداشت شده است</PlantsHarvested>
   <!-- EN: {0} killed -->
   <PawnsKilled>{0} killed</PawnsKilled>
   <!-- EN: Sent {0}, will return in {1} -->
@@ -559,7 +559,7 @@
   <!-- EN: size -->
   <Size>size</Size>
   <!-- EN: cost -->
-  <Cost>cost</Cost>
+  <Cost>هزینه</Cost>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -633,9 +633,9 @@
   <!-- EN: Home -->
   <Home>Home</Home>
   <!-- EN: Build roof -->
-  <BuildRoof>Build roof</BuildRoof>
+  <BuildRoof>ساخت سقف</BuildRoof>
   <!-- EN: No roof -->
-  <NoRoof>No roof</NoRoof>
+  <NoRoof>بدون سقف</NoRoof>
   <!-- EN: Snow clear -->
   <SnowClear>Snow clear</SnowClear>
   <!-- EN: Area {0} -->
@@ -643,7 +643,7 @@
   <!-- EN: Unrestricted -->
   <NoAreaAllowed>Unrestricted</NoAreaAllowed>
   <!-- EN: New area -->
-  <NewArea>New area</NewArea>
+  <NewArea>مکان جدید</NewArea>
   <!-- EN: Invert -->
   <InvertArea>Invert</InvertArea>
 
@@ -651,7 +651,7 @@
   <!-- EN: Unenclosed -->
   <PenUnenclosedLabel>Unenclosed</PenUnenclosedLabel>
   <!-- EN: open door -->
-  <PenOpenDoorLabel>open door</PenOpenDoorLabel>
+  <PenOpenDoorLabel>بازگشایی در</PenOpenDoorLabel>
   <!-- EN: Rename pen -->
   <RenameAnimalPen>Rename pen</RenameAnimalPen>
   <!-- EN: Pen marker {0} -->
@@ -689,35 +689,35 @@
 
   <!-- Cell Inspector -->
   <!-- EN: Beauty -->
-  <Beauty_Label>Beauty</Beauty_Label>
+  <Beauty_Label>زیبایی</Beauty_Label>
   <!-- EN: Zone -->
   <Zone_Label>Zone</Zone_Label>
   <!-- EN: Roof -->
-  <Roof_Label>Roof</Roof_Label>
+  <Roof_Label>سقف</Roof_Label>
   <!-- EN: Terrain -->
   <Terrain_Label>Terrain</Terrain_Label>
   <!-- EN: Snow -->
-  <Snow_Label>Snow</Snow_Label>
+  <Snow_Label>برف</Snow_Label>
   <!-- EN: Walk speed -->
-  <WalkSpeed_Label>Walk speed</WalkSpeed_Label>
+  <WalkSpeed_Label>سرعت راه رفتن</WalkSpeed_Label>
   <!-- EN: Fertility -->
-  <Fertility_Label>Fertility</Fertility_Label>
+  <Fertility_Label>حاصلخیزی</Fertility_Label>
   <!-- EN: Temperature -->
   <Temperature_Label>Temperature</Temperature_Label>
   <!-- EN: Light level -->
-  <LightLevel_Label>Light level</LightLevel_Label>
+  <LightLevel_Label>سطح نور</LightLevel_Label>
   <!-- EN: Biome -->
   <Biome_Label>Biome</Biome_Label>
   <!-- EN: Hilliness -->
   <Hilliness_Label>Hilliness</Hilliness_Label>
   <!-- EN: Road -->
-  <Road_Label>Road</Road_Label>
+  <Road_Label>راه</Road_Label>
   <!-- EN: River -->
-  <River_Label>River</River_Label> 
+  <River_Label>رودخانه</River_Label> 
   <!-- EN: Movement difficulty -->
   <MovementDifficulty_Label>Movement difficulty</MovementDifficulty_Label>
   <!-- EN: Pollution -->
-  <Pollution_Label>Pollution</Pollution_Label>
+  <Pollution_Label>آلودگی</Pollution_Label>
   <!-- EN: Filth -->
   <Filth_Label>Filth</Filth_Label>
   
@@ -747,7 +747,7 @@
 
   <!-- Snow -->
   <!-- EN: Snow -->
-  <Snow>Snow</Snow>
+  <Snow>برف</Snow>
   <!-- EN: No snow -->
   <SnowNone>No snow</SnowNone>
   <!-- EN: dusting -->
@@ -761,7 +761,7 @@
 
   <!-- Turrets -->
   <!-- EN: Installed -->
-  <GunInstalled>Installed</GunInstalled>
+  <GunInstalled>نصب شده</GunInstalled>
   <!-- EN: Minimum range -->
   <MinimumRange>Minimum range</MinimumRange>
   <!-- EN: Can fire in -->
@@ -789,7 +789,7 @@
   <!-- EN: Choose who should activate this. -->
   <ChooseWhoShouldActivate>Choose who should activate this.</ChooseWhoShouldActivate>
   <!-- EN: No fuel -->
-  <NoFuel>No fuel</NoFuel>
+  <NoFuel>بدون سوخت</NoFuel>
 
   <!-- Job reports -->
   <!-- EN: hauling {THING_label} to {DESTINATION}. -->
@@ -869,7 +869,7 @@
   <!-- EN: Target size -->
   <TargetSize>Target size</TargetSize>
   <!-- EN: Weather -->
-  <Weather>Weather</Weather>
+  <Weather>آب و هوا</Weather>
   <!-- EN: Cover -->
   <ShootingCover>Cover</ShootingCover>
   <!-- EN: {COVER_label} stops {1} -->
@@ -981,7 +981,7 @@
   <!-- EN: Grid excess/stored: {0} W / {1} Wd -->
   <PowerConnectedRateStored>Grid excess/stored: {0} W / {1} Wd</PowerConnectedRateStored>
   <!-- EN: Power needed -->
-  <PowerNeeded>Power needed</PowerNeeded>
+  <PowerNeeded>برق مورد نیاز</PowerNeeded>
   <!-- EN: Power output -->
   <PowerOutput>Power output</PowerOutput>
   <!-- EN: {0} W when active -->
@@ -989,7 +989,7 @@
   <!-- EN: Stored -->
   <PowerBatteryStored>Stored</PowerBatteryStored>
   <!-- EN: Efficiency -->
-  <PowerBatteryEfficiency>Efficiency</PowerBatteryEfficiency>
+  <PowerBatteryEfficiency>بازده</PowerBatteryEfficiency>
   <!-- EN: Self-discharging -->
   <SelfDischarging>Self-discharging</SelfDischarging>
 
@@ -1107,7 +1107,7 @@
   <!-- EN: Dumping stockpile zone -->
   <DumpingStockpile>Dumping stockpile zone</DumpingStockpile>
   <!-- EN: Priority -->
-  <Priority>Priority</Priority>
+  <Priority>اولویت</Priority>
   <!-- EN: Clear all -->
   <ClearAll>Clear all</ClearAll>
   <!-- EN: Allow all -->
@@ -1291,9 +1291,9 @@
 
   <!-- Quality -->
   <!-- EN: Quality -->
-  <Quality>Quality</Quality>
+  <Quality>کیفیت</Quality>
   <!-- EN: quality -->
-  <quality>quality</quality>
+  <quality>کیفیت</quality>
   <!-- EN: An item's quality is how well-made it is. -->
   <QualityDescription>An item's quality is how well-made it is.</QualityDescription>
   <!-- EN: Quality: {0} -->
@@ -1333,7 +1333,7 @@
   <!-- EN: Keep playing -->
   <GameOverKeepPlaying>Keep playing</GameOverKeepPlaying>
   <!-- EN: Main menu -->
-  <GameOverMainMenu>Main menu</GameOverMainMenu>
+  <GameOverMainMenu>منو اصلی</GameOverMainMenu>
 
   <!-- Generic lifespan -->
   <!-- EN: Expires in: -->
@@ -1381,9 +1381,9 @@
   <!-- EN: Sleeping -->
   <ActivityIconSleeping>Sleeping</ActivityIconSleeping>
   <!-- EN: Fleeing -->
-  <ActivityIconFleeing>Fleeing</ActivityIconFleeing>
+  <ActivityIconFleeing>درحال فرار</ActivityIconFleeing>
   <!-- EN: Fighting -->
-  <ActivityIconAttacking>Fighting</ActivityIconAttacking>
+  <ActivityIconAttacking>درحال جنگ</ActivityIconAttacking>
   <!-- EN: Idle -->
   <ActivityIconIdle>Idle</ActivityIconIdle>
   <!-- EN: Burning -->
@@ -1471,7 +1471,7 @@
   <!-- EN: Worker -->
   <OutfitWorker>Worker</OutfitWorker>
   <!-- EN: Soldier -->
-  <OutfitSoldier>Soldier</OutfitSoldier>
+  <OutfitSoldier>سرباز</OutfitSoldier>
   <!-- EN: Nudist -->
   <OutfitNudist>Nudist</OutfitNudist>
 
@@ -1638,7 +1638,7 @@
   <!-- EN: Organizers -->
   <Organizers>Organizers</Organizers>
   <!-- EN: Quality factors -->
-  <QualityFactors>Quality factors</QualityFactors>
+  <QualityFactors>فاکتورهای کیفی</QualityFactors>
   <!-- EN: This condition may be fulfilled, depending on how things play out.\n\nIf it is fulfilled, the quality bonus will apply. -->
   <QualityFactorTooltipUncertain>This condition may be fulfilled, depending on how things play out.\n\nIf it is fulfilled, the quality bonus will apply.</QualityFactorTooltipUncertain>
   <!-- EN: This condition is not fulfilled.\n\nThe quality bonus will not apply. -->
@@ -1797,7 +1797,7 @@
   <UnrecruitableDesc>{PAWN_nameDef} is so loyal to {PAWN_possessive} home that {PAWN_pronoun} will refuse to be recruited if taken prisoner.</UnrecruitableDesc>
 
   <!-- EN: Random -->
-  <Random>Random</Random>
+  <Random>رندوم</Random>
 
   <!-- EN: Plant {0_label} -->
   <PlantThing>TODO</PlantThing>
