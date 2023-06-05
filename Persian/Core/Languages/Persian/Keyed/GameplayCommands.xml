@@ -253,11 +253,11 @@
   <!-- EN: While this is on, mastered animals are sent forth to attack distant targets. While it is off, they remain near and guard the master. -->
   <CommandReleaseAnimalsDesc>While this is on, mastered animals are sent forth to attack distant targets. While it is off, they remain near and guard the master.</CommandReleaseAnimalsDesc>
   <!-- EN: No animals available. -->
-  <CommandReleaseAnimalsFail_NoAnimals>No animals available.</CommandReleaseAnimalsFail_NoAnimals>
+  <CommandReleaseAnimalsFail_NoAnimals>هیچ حیوانی در دسترس نیست.</CommandReleaseAnimalsFail_NoAnimals>
   
   <!-- Squad attack -->
   <!-- EN: Attack -->
-  <CommandSquadAttack>Attack</CommandSquadAttack>
+  <CommandSquadAttack>یورش</CommandSquadAttack>
   <!-- EN: Order selected colonists to attack designated target. -->
   <CommandSquadAttackDesc>Order selected colonists to attack designated target.</CommandSquadAttackDesc>
   
@@ -295,7 +295,7 @@
 
   <!-- Build copy -->
   <!-- EN: Build copy -->
-  <CommandBuildCopy>Build copy</CommandBuildCopy>
+  <CommandBuildCopy>ساخت کپی</CommandBuildCopy>
   <!-- EN: Build a copy of this building. -->
   <CommandBuildCopyDesc>Build a copy of this building.</CommandBuildCopyDesc>
 
@@ -347,7 +347,7 @@
   
   <!-- Abandon home -->
   <!-- EN: Abandon -->
-  <CommandAbandonHome>Abandon</CommandAbandonHome>
+  <CommandAbandonHome>رها کردن</CommandAbandonHome>
   <!-- EN: Abandon this area. The area will become inaccessible and you will not be able to return here ever again. After abandoning your home, you will be able to order one of your caravans to settle in a new area. -->
   <CommandAbandonHomeDesc>Abandon this area. The area will become inaccessible and you will not be able to return here ever again. After abandoning your home, you will be able to order one of your caravans to settle in a new area.</CommandAbandonHomeDesc>
   <!-- EN: All of your colonists are there. -->
@@ -379,7 +379,7 @@
   
   <!-- Trade -->
   <!-- EN: Trade -->
-  <CommandTrade>Trade</CommandTrade>
+  <CommandTrade>تجارت</CommandTrade>
   <!-- EN: Trade with this faction. -->
   <CommandTradeDesc>Trade with this faction.</CommandTradeDesc>
   <!-- EN: There isn't any conscious and capable negotiator. -->
@@ -495,7 +495,7 @@
   
   <!-- Remove waypoint -->
   <!-- EN: Remove -->
-  <CommandRemoveWaypointLabel>Remove</CommandRemoveWaypointLabel>
+  <CommandRemoveWaypointLabel>برداشتن</CommandRemoveWaypointLabel>
   <!-- EN: Remove this waypoint. -->
   <CommandRemoveWaypointDesc>Remove this waypoint.</CommandRemoveWaypointDesc>
 
@@ -616,7 +616,7 @@
 
   <!-- Storage linking -->
   <!-- EN: Link settings -->
-  <LinkStorageSettings>Link settings</LinkStorageSettings>
+  <LinkStorageSettings>تنظیمات پیوند</LinkStorageSettings>
   <!-- EN: Link storage settings for multiple selected buildings so that they share storage settings.\n\nThe group will start with the settings of whatever you selected first. -->
   <LinkStorageSettingsDesc>Link storage settings for multiple selected buildings so that they share storage settings.\n\nThe group will start with the settings of whatever you selected first.</LinkStorageSettingsDesc>
   <!-- EN: You must select two or more buildings to link their storage settings. -->
@@ -634,7 +634,7 @@
   <!-- EN: Stores -->
   <StoresThings>Stores</StoresThings>
   <!-- EN: Select all linked -->
-  <SelectAllLinked>Select all linked</SelectAllLinked>
+  <SelectAllLinked>همه پیوندها را انتخاب کنید</SelectAllLinked>
   <!-- EN: Select all storage buildings linked to this. -->
   <SelectAllLinkedDesc>Select all storage buildings linked to this.</SelectAllLinkedDesc>
 
