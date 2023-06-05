@@ -41,7 +41,7 @@
   <!-- EN: fert. -->
   <FertShort>fert.</FertShort>
   <!-- EN: dying -->
-  <DyingLower>dying</DyingLower>
+  <DyingLower>در حال مرگ</DyingLower>
   <!-- EN: Filth on feet: -->
   <FilthOnFeet>Filth on feet:</FilthOnFeet>
   <!-- EN: not enough stored -->
@@ -53,7 +53,7 @@
   <!-- EN: Adapted -->
   <Adapted>Adapted</Adapted>
   <!-- EN: fresh -->
-  <FreshMissingBodyPart>fresh</FreshMissingBodyPart>
+  <FreshMissingBodyPart>تازه</FreshMissingBodyPart>
   <!-- EN: developed immunity -->
   <DevelopedImmunityLower>developed immunity</DevelopedImmunityLower>
   <!-- EN: Needs tending now -->
@@ -71,13 +71,13 @@
   <!-- EN: no {0} -->
   <MissingMedicalBillIngredient>no {0}</MissingMedicalBillIngredient>
   <!-- EN: Immunity -->
-  <Immunity>Immunity</Immunity>
+  <Immunity>ایمنی</Immunity>
   <!-- EN: {0} days to recover -->
   <DaysToRecover>{0} days to recover</DaysToRecover>
   <!-- EN: Ineffective -->
-  <Ineffective>Ineffective</Ineffective>
+  <Ineffective>بی اثر</Ineffective>
   <!-- EN: illegal -->
-  <Illegal>illegal</Illegal>
+  <Illegal>غیر قانونی</Illegal>
   <!-- EN: detection chance -->
   <DetectionChance>detection chance</DetectionChance>
   <!-- EN: Race -->
@@ -99,9 +99,9 @@
   <!-- EN: This person refuses to drop this. -->
   <DropThingLocked>This person refuses to drop this.</DropThingLocked>
   <!-- EN: Rename -->
-  <Rename>Rename</Rename>
+  <Rename>تغییرنام</Rename>
   <!-- EN: Rename animal -->
-  <RenameAnimal>Rename animal</RenameAnimal>
+  <RenameAnimal>تغییرنام حیوان</RenameAnimal>
   <!-- EN: Rename colonist -->
   <RenameColonist>Rename colonist</RenameColonist>
   <!-- EN: Renounce title -->
@@ -129,7 +129,7 @@
   <!-- EN: Off -->
   <Off>Off</Off>
   <!-- EN: Power -->
-  <PowerSwitch_Power>Power</PowerSwitch_Power>
+  <PowerSwitch_Power>قدرت</PowerSwitch_Power>
   <!-- EN: Recreation type tolerances -->
   <JoyTolerances>Recreation type tolerances</JoyTolerances>
   <!-- EN: Milk fullness -->
@@ -147,11 +147,11 @@
   <!-- EN: need {0} level {2}, have {1} -->
   <SkillTooLow>need {0} level {2}, have {1}</SkillTooLow>
   <!-- EN: Freezing -->
-  <Freezing>Freezing</Freezing>
+  <Freezing>انجماد</Freezing>
   <!-- EN: Overheating -->
   <Overheating>Overheating</Overheating>
   <!-- EN: Ruined by temperature. -->
-  <RuinedByTemperature>Ruined by temperature.</RuinedByTemperature>
+  <RuinedByTemperature>خراب شده توسط درجه حرارت.</RuinedByTemperature>
   <!-- EN: Missing body parts -->
   <CorpsePercentMissing>Missing body parts</CorpsePercentMissing>
   <!-- EN: Reproduces in -->
@@ -167,9 +167,9 @@
   <!-- EN: (bond) -->
   <BondBrackets>(bond)</BondBrackets>
   <!-- EN: Fuel -->
-  <Fuel>Fuel</Fuel>
+  <Fuel>سوخت</Fuel>
   <!-- EN: Fuel -->
-  <FuelLevelGizmoLabel>Fuel</FuelLevelGizmoLabel>
+  <FuelLevelGizmoLabel>سوخت</FuelLevelGizmoLabel>
   <!-- EN: Set target fuel level to {0} -->
   <SetTargetFuelLevel>Set target fuel level to {0}</SetTargetFuelLevel>
   <!-- EN: Set target fuel level to {0}\nMax distance: {1} tiles -->
@@ -179,7 +179,7 @@
   <!-- EN: enemies -->
   <Enemies>دشمنان</Enemies>
   <!-- EN: people -->
-  <People>people</People>
+  <People>مردم</People>
   <!-- EN: time passed -->
   <TimePassed>time passed</TimePassed>
   <!-- EN: current radius -->
@@ -189,7 +189,7 @@
   <!-- EN: permanent -->
   <Permanent>دائمی</Permanent>
   <!-- EN: Resting -->
-  <CaravanResting>Resting</CaravanResting>
+  <CaravanResting>استراحت</CaravanResting>
   <!-- EN: using 1 bedroll -->
   <UsingBedroll>using 1 bedroll</UsingBedroll>
   <!-- EN: using {0} bedrolls -->
@@ -201,7 +201,7 @@
   <!-- EN: Immobilized: Too much weight. -->
   <CaravanImmobilizedByMass>Immobilized: Too much weight.</CaravanImmobilizedByMass>
   <!-- EN: Out of food. -->
-  <CaravanOutOfFood>Out of food.</CaravanOutOfFood>
+  <CaravanOutOfFood>غذا تموم شد.</CaravanOutOfFood>
   <!-- EN: Days of food: {0} -->
   <CaravanDaysOfFood>Days of food: {0}</CaravanDaysOfFood>
   <!-- EN: Days of food: {0} (rot in {1} days) -->
@@ -225,7 +225,7 @@
   <!-- EN: {0} downed -->
   <CaravanPawnsDowned>{0} downed</CaravanPawnsDowned>
   <!-- EN: Traveling. -->
-  <CaravanTraveling>Traveling.</CaravanTraveling>
+  <CaravanTraveling>مسافرت کردن.</CaravanTraveling>
   <!-- EN: Waiting. -->
   <CaravanWaiting>Waiting.</CaravanWaiting>
   <!-- EN: Being carried due to illness -->
@@ -235,7 +235,7 @@
   <!-- EN: Current tile movement time -->
   <CurrentTileMovementTime>Current tile movement time</CurrentTileMovementTime>
   <!-- EN: Visibility -->
-  <Visibility>Visibility</Visibility>
+  <Visibility>دید</Visibility>
   <!-- EN: Temperature -->
   <Temperature>درجه حرارت</Temperature>
   <!-- EN: bad temperature -->
@@ -261,7 +261,7 @@
   <!-- EN: unroofed -->
   <DeterioratingUnroofed>unroofed</DeterioratingUnroofed>
   <!-- EN: outdoors -->
-  <DeterioratingOutdoors>outdoors</DeterioratingOutdoors>
+  <DeterioratingOutdoors>بیرون از خانه</DeterioratingOutdoors>
   <!-- EN: raining -->
   <DeterioratingRaining>raining</DeterioratingRaining> 
   <!-- EN: protected -->
@@ -283,7 +283,7 @@
   <!-- EN: no power -->
   <NoPower>بدون برق</NoPower>
   <!-- EN: Work speed -->
-  <WorkSpeedPenalty>Work speed</WorkSpeedPenalty>
+  <WorkSpeedPenalty>سرعت کار</WorkSpeedPenalty>
   <!-- EN: Disabled -->
   <DisabledCommand>Disabled</DisabledCommand>
   <!-- EN: Ready for launch. -->
@@ -359,7 +359,7 @@
   <!-- EN: downed -->
   <DownedLower>downed</DownedLower>
   <!-- EN: resting -->
-  <Carried>resting</Carried>
+  <Carried>استراحت كردن</Carried>
   <!-- EN: Rideable animals / people -->
   <RideableAnimalsPerPeople>Rideable animals / people</RideableAnimalsPerPeople>
   <!-- EN: Multiplier from ridden animals -->
@@ -383,7 +383,7 @@
   <!-- EN: No letter -->
   <NoDietCategoryLetter>No letter</NoDietCategoryLetter>
   <!-- EN: Expires in -->
-  <ExpiresIn>Expires in</ExpiresIn>
+  <ExpiresIn>منقضی می شود در</ExpiresIn>
   <!-- EN: {1_labelShort}'s caravan -->
   <CaravanLeaderCaravanName>{1_labelShort}'s caravan</CaravanLeaderCaravanName>
   <!-- EN: Reason -->
@@ -521,21 +521,21 @@
   <!-- EN: Too large -->
   <TooLargeForBed>Too large</TooLargeForBed>
   <!-- EN: Warning -->
-  <Warning>Warning</Warning>
+  <Warning>هشدار</Warning>
   <!-- EN: Has subquest -->
   <HasSubquest>Has subquest</HasSubquest>
   <!-- EN: Subquest of -->
   <SubquestOf>Subquest of</SubquestOf>
   <!-- EN: Raid -->
-  <Raid>Raid</Raid>
+  <Raid>حمله</Raid>
   <!-- EN: Disabled by -->
   <ApparelRequirementDisabledLabel>Disabled by</ApparelRequirementDisabledLabel>
   <!-- EN: Nudism -->
-  <Nudism>Nudism</Nudism>
+  <Nudism>برهنگی گرایی</Nudism>
   <!-- EN: Study progress -->
   <StudyProgress>Study progress</StudyProgress>
   <!-- EN: completed -->
-  <StudyCompleted>completed</StudyCompleted>
+  <StudyCompleted>تکمیل</StudyCompleted>
   <!-- EN: Attack this to destroy it. -->
   <AttackToDestroy>Attack this to destroy it.</AttackToDestroy>
   <!-- EN: Remove this by attacking it. -->
@@ -625,13 +625,13 @@
   <!-- EN: level {0} -->
   <TextMote_SkillUp>level {0}</TextMote_SkillUp>
   <!-- EN: low mood -->
-  <lowMood>low mood</lowMood>
+  <lowMood>خلق و خوی پایین</lowMood>
   <!-- EN: low opinion -->
   <lowOpinion>low opinion</lowOpinion>
 
   <!-- Areas -->
   <!-- EN: Home -->
-  <Home>Home</Home>
+  <Home>خانه</Home>
   <!-- EN: Build roof -->
   <BuildRoof>ساخت سقف</BuildRoof>
   <!-- EN: No roof -->
@@ -691,7 +691,7 @@
   <!-- EN: Beauty -->
   <Beauty_Label>زیبایی</Beauty_Label>
   <!-- EN: Zone -->
-  <Zone_Label>Zone</Zone_Label>
+  <Zone_Label>منطقه</Zone_Label>
   <!-- EN: Roof -->
   <Roof_Label>سقف</Roof_Label>
   <!-- EN: Terrain -->
@@ -722,13 +722,13 @@
   <Filth_Label>Filth</Filth_Label>
   
   <!-- EN: Faction -->
-  <Faction_Label>Faction</Faction_Label>
+  <Faction_Label>جناح</Faction_Label>
   <!-- EN: Relationship -->
-  <Relationship_Label>Relationship</Relationship_Label>
+  <Relationship_Label>رابطه</Relationship_Label>
   <!-- EN: Colonists -->
   <CaravanColonists_Label>Colonists</CaravanColonists_Label>
   <!-- EN: Status -->
-  <CaravanStatus_Label>Status</CaravanStatus_Label>
+  <CaravanStatus_Label>وضعیت</CaravanStatus_Label>
   <!-- EN: Time to destination -->
   <CaravanTTD_Label>Time to destination</CaravanTTD_Label>
   
@@ -749,7 +749,7 @@
   <!-- EN: Snow -->
   <Snow>برف</Snow>
   <!-- EN: No snow -->
-  <SnowNone>No snow</SnowNone>
+  <SnowNone>بدون برف</SnowNone>
   <!-- EN: dusting -->
   <SnowDusting>dusting</SnowDusting>
   <!-- EN: thin -->
@@ -801,9 +801,9 @@
   <!-- EN: hauling. -->
   <ReportHaulingUnknown>hauling.</ReportHaulingUnknown>
   <!-- EN: sleeping. -->
-  <ReportSleeping>sleeping.</ReportSleeping>
+  <ReportSleeping>خواب.</ReportSleeping>
   <!-- EN: resting. -->
-  <ReportResting>resting.</ReportResting>
+  <ReportResting>استراحت.</ReportResting>
   <!-- EN: laying down. -->
   <ReportLayingDown>laying down.</ReportLayingDown>
   <!-- EN: watching the sunrise. -->
@@ -861,9 +861,9 @@
   <!-- EN: Shooter -->
   <ShootReportShooterAbility>Shooter</ShootReportShooterAbility>
   <!-- EN: Weapon -->
-  <ShootReportWeapon>Weapon</ShootReportWeapon>
+  <ShootReportWeapon>سلاح</ShootReportWeapon>
   <!-- EN: Darkness -->
-  <Darkness>Darkness</Darkness>
+  <Darkness>تاریکی</Darkness>
   <!-- EN: Target lying down -->
   <TargetProne>Target lying down</TargetProne>
   <!-- EN: Target size -->
@@ -871,7 +871,7 @@
   <!-- EN: Weather -->
   <Weather>آب و هوا</Weather>
   <!-- EN: Cover -->
-  <ShootingCover>Cover</ShootingCover>
+  <ShootingCover>پوشش</ShootingCover>
   <!-- EN: {COVER_label} stops {1} -->
   <CoverThingBlocksPercentOfShots>{COVER_label} stops {1}</CoverThingBlocksPercentOfShots>
   <!-- EN: no cover -->
@@ -933,11 +933,11 @@
   <!-- EN: nothing -->
   <EquippedNothing>nothing</EquippedNothing>
   <!-- EN: Dead -->
-  <Dead>Dead</Dead>
+  <Dead>مرده</Dead>
   <!-- EN: Unconscious -->
-  <Unconscious>Unconscious</Unconscious>
+  <Unconscious>غش کرده</Unconscious>
   <!-- EN: In shock due to pain -->
-  <PainShock>In shock due to pain</PainShock>
+  <PainShock>در شوک ناشی از درد</PainShock>
   <!-- EN: Pain shock -->
   <PainShockShort>Pain shock</PainShockShort>
   <!-- EN: Incapacitated -->
@@ -983,7 +983,7 @@
   <!-- EN: Power needed -->
   <PowerNeeded>برق مورد نیاز</PowerNeeded>
   <!-- EN: Power output -->
-  <PowerOutput>Power output</PowerOutput>
+  <PowerOutput>توان خروجی</PowerOutput>
   <!-- EN: {0} W when active -->
   <PowerActiveNeeded>TODO</PowerActiveNeeded>
   <!-- EN: Stored -->
@@ -1007,9 +1007,9 @@
   <!-- EN: Indoors -->
   <Indoors>Indoors</Indoors>
   <!-- EN: Unroofed -->
-  <IndoorsUnroofed>Unroofed</IndoorsUnroofed>
+  <IndoorsUnroofed>بدون سقف</IndoorsUnroofed>
   <!-- EN: outdoors -->
-  <Outdoors>outdoors</Outdoors>
+  <Outdoors>بیرون از خانه</Outdoors>
 
   <!-- Rotting -->
   <!-- EN: Fresh -->
@@ -1059,7 +1059,7 @@
   <!-- EN: Needs light level -->
   <PlantNeedsLightLevel>Needs light level</PlantNeedsLightLevel>
   <!-- EN: Resting -->
-  <PlantResting>Resting</PlantResting>
+  <PlantResting>استراحت كردن</PlantResting>
   <!-- EN: Non-ideal temperature. Temperature growth multiplier: {0}% -->
   <OutOfIdealTemperatureRange>Non-ideal temperature. Temperature growth multiplier: {0}%</OutOfIdealTemperatureRange>
   <!-- EN: Non-ideal temperature. Not growing. -->
@@ -1089,7 +1089,7 @@
   <!-- EN: Cut now -->
   <AutoCutNow>Cut now</AutoCutNow>
   <!-- EN: harvesting -->
-  <HarvestGerund>harvesting</HarvestGerund>
+  <HarvestGerund>برداشت</HarvestGerund>
   <!-- EN: cutting -->
   <CutGerund>cutting</CutGerund>
   <!-- EN: Cut all blight -->
@@ -1099,7 +1099,7 @@
 
   <!-- Zones -->
   <!-- EN: Zone -->
-  <Zone>Zone</Zone>
+  <Zone>ناحیه</Zone>
   <!-- EN: Growing zone -->
   <GrowingZone>Growing zone</GrowingZone>
   <!-- EN: Stockpile zone -->
@@ -1111,7 +1111,7 @@
   <!-- EN: Clear all -->
   <ClearAll>Clear all</ClearAll>
   <!-- EN: Allow all -->
-  <AllowAll>Allow all</AllowAll>
+  <AllowAll>همه اجازه بده</AllowAll>
 
   <!-- ThingFilter -->
   <!-- EN: {0} hit points -->
@@ -1313,7 +1313,7 @@
   <!-- EN: content -->
   <Mood_Content>content</Mood_Content>
   <!-- EN: happy -->
-  <Mood_Happy>happy</Mood_Happy>
+  <Mood_Happy>خوشحال</Mood_Happy>
 
   <!-- Game over -->
   <!-- EN: Everyone is dead or gone. This story is over.\n\nPerhaps someone else will find a use for the ruins of this place. -->
@@ -1469,11 +1469,11 @@
   <!-- EN: Anything -->
   <OutfitAnything>Anything</OutfitAnything>
   <!-- EN: Worker -->
-  <OutfitWorker>Worker</OutfitWorker>
+  <OutfitWorker>کارگر</OutfitWorker>
   <!-- EN: Soldier -->
   <OutfitSoldier>سرباز</OutfitSoldier>
   <!-- EN: Nudist -->
-  <OutfitNudist>Nudist</OutfitNudist>
+  <OutfitNudist>برهنگی</OutfitNudist>
 
   <!-- Hibernatable -->
   <!-- EN: Hibernating -->
@@ -1591,7 +1591,7 @@
 
   <!-- Condition causers -->
   <!-- EN: Affected gender -->
-  <AffectedGender>Affected gender</AffectedGender>
+  <AffectedGender>جنسیت تحت تاثیر</AffectedGender>
 
   <!-- Hediff misc -->
   <!-- EN: Caused by: {0} -->
