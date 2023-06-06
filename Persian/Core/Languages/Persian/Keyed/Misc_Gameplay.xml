@@ -995,31 +995,37 @@
 
   <!-- Temperature control -->
   <!-- EN: Target temperature -->
-  <TargetTemperature>Target temperature</TargetTemperature>
+  <TargetTemperature>دمای هدف</TargetTemperature>
   <!-- EN: Current power use -->
-  <PowerConsumptionMode>Current power use</PowerConsumptionMode>
+  <PowerConsumptionMode>مصرف برق فعلی</PowerConsumptionMode>
   <!-- EN: high -->
-  <PowerConsumptionHigh>high</PowerConsumptionHigh>
+  <PowerConsumptionHigh>زیاد</PowerConsumptionHigh>
   <!-- EN: low -->
-  <PowerConsumptionLow>low</PowerConsumptionLow>
+  <PowerConsumptionLow>کم</PowerConsumptionLow>
 
   <!-- Temperature readout -->
   <!-- EN: Indoors -->
-  <Indoors>Indoors</Indoors>
+  <Indoors>فضای داخلی</Indoors>
   <!-- EN: Unroofed -->
+<<<<<<< Updated upstream
   <IndoorsUnroofed>بدون سقف</IndoorsUnroofed>
   <!-- EN: outdoors -->
   <Outdoors>بیرون از خانه</Outdoors>
+=======
+  <IndoorsUnroofed>فضای بدون سقف</IndoorsUnroofed>
+  <!-- EN: outdoors -->
+  <Outdoors>فضای باز</Outdoors>
+>>>>>>> Stashed changes
 
   <!-- Rotting -->
   <!-- EN: Fresh -->
-  <RotStateFresh>Fresh</RotStateFresh>
+  <RotStateFresh>تازه</RotStateFresh>
   <!-- EN: Rotting -->
   <RotStateRotting>Rotting</RotStateRotting>
   <!-- EN: Dessicated -->
   <RotStateDessicated>Dessicated</RotStateDessicated>
   <!-- EN: Frozen (won't spoil) -->
-  <CurrentlyFrozen>Frozen (won't spoil)</CurrentlyFrozen>
+  <CurrentlyFrozen>منجمد. فاسد نمی شود</CurrentlyFrozen>
   <!-- EN: Refrigerated (spoils in {0}) -->
   <CurrentlyRefrigerated>Refrigerated (spoils in {0})</CurrentlyRefrigerated>
   <!-- EN: Not refrigerated (spoils in {0}) -->
@@ -1027,7 +1033,7 @@
   <!-- EN: over a decade -->
   <OverADecade>over a decade</OverADecade>
   <!-- EN: less than a day -->
-  <LessThanADay>less than a day</LessThanADay>
+  <LessThanADay>کمتر از یک روز</LessThanADay>
 
   <!-- Shooting tooltip -->
   <!-- EN: Shot by {1_labelShort} -->
@@ -1053,11 +1059,11 @@
   <!-- EN: {0} grown -->
   <PercentGrowth>{0} grown</PercentGrowth>
   <!-- EN: Growth rate -->
-  <GrowthRate>Growth rate</GrowthRate>
+  <GrowthRate>میزان رشد</GrowthRate>
   <!-- EN: Fully grown in {0} of growth. -->
   <FullyGrownIn>Fully grown in {0} of growth.</FullyGrownIn>
   <!-- EN: Needs light level -->
-  <PlantNeedsLightLevel>Needs light level</PlantNeedsLightLevel>
+  <PlantNeedsLightLevel>به نور نیاز دارد</PlantNeedsLightLevel>
   <!-- EN: Resting -->
   <PlantResting>استراحت كردن</PlantResting>
   <!-- EN: Non-ideal temperature. Temperature growth multiplier: {0}% -->
@@ -1065,7 +1071,7 @@
   <!-- EN: Non-ideal temperature. Not growing. -->
   <OutOfIdealTemperatureRangeNotGrowing>Non-ideal temperature. Not growing.</OutOfIdealTemperatureRangeNotGrowing>
   <!-- EN: Ready to harvest. -->
-  <ReadyToHarvest>Ready to harvest.</ReadyToHarvest>
+  <ReadyToHarvest>آماده برداشت.</ReadyToHarvest>
   <!-- EN: Mature. -->
   <Mature>Mature.</Mature>
   <!-- EN: Average plant age -->
@@ -1073,11 +1079,11 @@
   <!-- EN: Oldest plant age -->
   <OldestPlantAge>Oldest plant age</OldestPlantAge>
   <!-- EN: Growing period -->
-  <OutdoorGrowingPeriod>Growing period</OutdoorGrowingPeriod>
+  <OutdoorGrowingPeriod>دوره رشد</OutdoorGrowingPeriod>
   <!-- EN: Never -->
-  <NoGrowingPeriod>Never</NoGrowingPeriod>
+  <NoGrowingPeriod>هرگز</NoGrowingPeriod>
   <!-- EN: Year-round -->
-  <GrowYearRound>Year-round</GrowYearRound>
+  <GrowYearRound>در تمام طول سال</GrowYearRound>
   <!-- EN: Growing season here now. -->
   <GrowSeasonHereNow>Growing season here now.</GrowSeasonHereNow>
   <!-- EN: Cannot grow (bad seasonal temperature). -->
@@ -1087,7 +1093,7 @@
   <!-- EN: Dying because exposed to light -->
   <DyingBecauseExposedToLight>Dying because exposed to light</DyingBecauseExposedToLight>
   <!-- EN: Cut now -->
-  <AutoCutNow>Cut now</AutoCutNow>
+  <AutoCutNow>الان قطع کن</AutoCutNow>
   <!-- EN: harvesting -->
   <HarvestGerund>برداشت</HarvestGerund>
   <!-- EN: cutting -->
@@ -1101,7 +1107,7 @@
   <!-- EN: Zone -->
   <Zone>ناحیه</Zone>
   <!-- EN: Growing zone -->
-  <GrowingZone>Growing zone</GrowingZone>
+  <GrowingZone>منطقه در حال رشد</GrowingZone>
   <!-- EN: Stockpile zone -->
   <Stockpile>Stockpile zone</Stockpile>
   <!-- EN: Dumping stockpile zone -->
