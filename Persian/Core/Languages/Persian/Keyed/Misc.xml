@@ -10,7 +10,7 @@
   <!-- EN: You can only change language from the options screen on the main menu. -->
   <ChangeLanguageFromMainMenu>فقط می توانید زبان را از صفحه گزینه ها در منوی اصلی تغییر دهید.</ChangeLanguageFromMainMenu>
   <!-- EN: and -->
-  <AndLower>and</AndLower>
+  <AndLower>,</AndLower>
   <!-- EN: disabled -->
   <DisabledLower>غیرفعال شد</DisabledLower>
 
@@ -59,21 +59,21 @@
   <!-- EN: radius -->
   <radius>radius</radius>
   <!-- EN: expired -->
-  <expired>expired</expired>
+  <expired>منقضی شده</expired>
   <!-- EN: duration (days) -->
   <durationDays>duration (days)</durationDays>
   <!-- EN: interval (days) -->
   <intervalDays>interval (days)</intervalDays>
   <!-- EN: repeat -->
-  <repeat>repeat</repeat>
+  <repeat>تکرار</repeat>
   <!-- EN: default -->
   <default>default</default>
   <!-- EN: distance -->
-  <distance>distance</distance>
+  <distance>فاصله</distance>
   <!-- EN: YES -->
-  <YesUppercase>YES</YesUppercase>
+  <YesUppercase>بله</YesUppercase>
   <!-- EN: NO -->
-  <NoUppercase>NO</NoUppercase>
+  <NoUppercase>نه</NoUppercase>
   <!-- EN: kg -->
   <kg>kg</kg>
   <!-- EN: Day -->
@@ -102,7 +102,7 @@
   <!-- EN: {0} meat -->
   <MeatLabel>{0} meat</MeatLabel>
   <!-- EN: Raw butchered flesh. Can be cooked into meals, or eaten raw. -->
-  <MeatDesc>Raw butchered flesh. Can be cooked into meals, or eaten raw.</MeatDesc>
+  <MeatDesc>گوشت خام قصابی. می توان آن را در وعده های غذایی پخت و یا به صورت خام مصرف کرد.</MeatDesc>
   <!-- EN: Raw butchered flesh. If necessary, can be cooked into meals, or even eaten raw. Extremely unappetizing. -->
   <MeatInsectDesc>Raw butchered flesh. If necessary, can be cooked into meals, or even eaten raw. Extremely unappetizing.</MeatInsectDesc>
   <!-- EN: Raw butchered flesh. Can be cooked into meals or eaten raw, although most humans dislike the idea. -->
