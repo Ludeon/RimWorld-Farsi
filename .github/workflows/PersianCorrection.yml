@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main  # Replace with the branch name you want to trigger the workflow on
+  workflow_dispatch:  # Add manual trigger event
 
 jobs:
   translation_job:
