@@ -17,7 +17,7 @@
   <LetterCropBlight>Blight has been discovered on the {PLANTDEF_labelPlural}!\n\nYou should cut or burn the affected plants before the blight spreads.</LetterCropBlight>
 
   <!-- EN: Miracle -->
-  <LetterLabelMiracleHeal>Miracle</LetterLabelMiracleHeal>
+  <LetterLabelMiracleHeal>معجزه</LetterLabelMiracleHeal>
   <!-- EN: {0} has experienced a miraculous recovery! -->
   <MiracleHeal>{0} has experienced a miraculous recovery!</MiracleHeal>
 
@@ -167,9 +167,9 @@
   <!-- EN: {1} contacts you on radio. They are holding former colonist {PAWN_labelShort} for ransom.\n\nThey're willing to release {PAWN_objective} back to you in exchange for {2} silver. -->
   <RansomDemand>{1} contacts you on radio. They are holding former colonist {PAWN_labelShort} for ransom.\n\nThey're willing to release {PAWN_objective} back to you in exchange for {2} silver.</RansomDemand>
   <!-- EN: Accept -->
-  <RansomDemand_Accept>Accept</RansomDemand_Accept>
+  <RansomDemand_Accept>پذیرفتن</RansomDemand_Accept>
   <!-- EN: Reject -->
-  <RansomDemand_Reject>Reject</RansomDemand_Reject>
+  <RansomDemand_Reject>رد کردن</RansomDemand_Reject>
   
   <!-- Journey-related -->
   <!-- EN: Ship found -->
@@ -185,7 +185,7 @@
   <!-- EN: {0} has met peacefully with a caravan from {1}. The other caravan is composed of:\n\n{2} -->
   <CaravanMeeting>{0} has met peacefully with a caravan from {1}. The other caravan is composed of:\n\n{2}</CaravanMeeting>
   <!-- EN: Trade -->
-  <CaravanMeeting_Trade>Trade</CaravanMeeting_Trade>
+  <CaravanMeeting_Trade>تجارت</CaravanMeeting_Trade>
   <!-- EN: Attack -->
   <CaravanMeeting_Attack>Attack</CaravanMeeting_Attack>
   <!-- EN: Move on -->

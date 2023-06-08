@@ -3,7 +3,7 @@
 
   <!-- Various -->
   <!-- EN: hit points -->
-  <HitPointsBasic>hit points</HitPointsBasic>
+  <HitPointsBasic>آسیب پذیری</HitPointsBasic>
   <!-- EN: Work left -->
   <WorkLeft>Work left</WorkLeft>
   <!-- EN: Contents -->
@@ -81,15 +81,15 @@
   <!-- EN: detection chance -->
   <DetectionChance>detection chance</DetectionChance>
   <!-- EN: Race -->
-  <Race>Race</Race>
+  <Race>نژاد</Race>
   <!-- EN: Description -->
-  <Description>Description</Description>
+  <Description>شرح</Description>
   <!-- EN: Equipment -->
-  <Equipment>Equipment</Equipment>
+  <Equipment>تجهیزات</Equipment>
   <!-- EN: Apparel -->
-  <Apparel>Apparel</Apparel>
+  <Apparel>پوشاک</Apparel>
   <!-- EN: Inventory -->
-  <Inventory>Inventory</Inventory>
+  <Inventory>فهرست اموال</Inventory>
   <!-- EN: Information -->
   <ThingInfo>اطلاعات</ThingInfo>
   <!-- EN: Drop -->
@@ -107,7 +107,7 @@
   <!-- EN: Renounce title -->
   <RenounceTitle>Renounce title</RenounceTitle>
   <!-- EN: Execute -->
-  <Execute>Execute</Execute>
+  <Execute>اعدام کردن</Execute>
   <!-- EN: Execute guilty colonist\n\nIf you toggle this on, a warden will proceed to execute this person. -->
   <ExecuteColonist>Execute guilty colonist\n\nIf you toggle this on, a warden will proceed to execute this person.</ExecuteColonist>
   <!-- EN: {0_labelShort} is now marked for execution. The next available warden will go execute {0_objective}. -->
@@ -137,7 +137,7 @@
   <!-- EN: Wool growth -->
   <WoolGrowth>رشد پشم</WoolGrowth>
   <!-- EN: Egg progress -->
-  <EggProgress>Egg progress</EggProgress>
+  <EggProgress>پیشرفت تخم</EggProgress>
   <!-- EN: Fertilized -->
   <Fertilized>بارور شده</Fertilized>
   <!-- EN: Progress stopped until fertilized -->
@@ -149,11 +149,11 @@
   <!-- EN: Freezing -->
   <Freezing>انجماد</Freezing>
   <!-- EN: Overheating -->
-  <Overheating>Overheating</Overheating>
+  <Overheating>گرم شدن بیش از حد</Overheating>
   <!-- EN: Ruined by temperature. -->
   <RuinedByTemperature>خراب شده توسط درجه حرارت.</RuinedByTemperature>
   <!-- EN: Missing body parts -->
-  <CorpsePercentMissing>Missing body parts</CorpsePercentMissing>
+  <CorpsePercentMissing>از دست رفتن اعضای بدن</CorpsePercentMissing>
   <!-- EN: Reproduces in -->
   <HiveReproducesIn>Reproduces in</HiveReproducesIn>
   <!-- EN: Dormant: Not reproducing. -->
@@ -541,7 +541,7 @@
   <!-- EN: Remove this by attacking it. -->
   <RemoveByAttackingTooltip>Remove this by attacking it.</RemoveByAttackingTooltip>
   <!-- EN: Food -->
-  <ThoughtFoodEatenFood>Food</ThoughtFoodEatenFood>
+  <ThoughtFoodEatenFood>غذا</ThoughtFoodEatenFood>
   <!-- EN: Ingredients -->
   <ThoughtFoodEatenIngredients>Ingredients</ThoughtFoodEatenIngredients>
   <!-- EN: Shield pack -->
@@ -557,7 +557,7 @@
   <!-- EN: Requires -->
   <RequiredTechprintTip>Requires</RequiredTechprintTip>
   <!-- EN: size -->
-  <Size>size</Size>
+  <Size>اندازه</Size>
   <!-- EN: cost -->
   <Cost>هزینه</Cost>
 
