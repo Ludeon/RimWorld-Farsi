@@ -2,7 +2,7 @@
 <LanguageData>
 
   <!-- Room requirements -->
-  <!-- EN: Need throneroom -->
+  <!-- EN: نیاز به اتاق تاج و تخت -->
   <NeedThroneAssigned>TODO</NeedThroneAssigned>
   <!-- EN: One of your people has a royal title that requires a throneroom, but no throneroom is assigned.\n\nEnsure the title holder is assigned a throne inside a throneroom.\n\nThe throneroom should be appropriately sized and decorated to satisfy the title's specific requirements.\n\nMultiple thrones may be placed in one throneroom. -->
   <NeedThroneAssignedDesc>TODO</NeedThroneAssignedDesc>
@@ -22,7 +22,7 @@
   <!-- EN: One of your people has a royal title and a throne, but the throne room does not satisfy the title's requirements. -->
   <UndignifiedThroneroomDesc>TODO</UndignifiedThroneroomDesc>
   
-  <!-- EN: No acceptable food -->
+  <!-- EN: غذای قابل قبولی وجود ندارد -->
   <RoyalNoAcceptableFood>TODO</RoyalNoAcceptableFood>
   <!-- EN: One of your people has a royal title with specific food requirements. But there's no food available that satisfies these requirements. -->
   <RoyalNoAcceptableFoodDesc>TODO</RoyalNoAcceptableFoodDesc>

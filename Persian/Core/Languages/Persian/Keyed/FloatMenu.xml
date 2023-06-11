@@ -20,15 +20,15 @@
   <!-- EN: leader is unavailable -->
   <LeaderUnavailableNoLeader>leader is unavailable</LeaderUnavailableNoLeader>
   <!-- EN: Not allowed -->
-  <NotAllowed>Not allowed</NotAllowed>
+  <NotAllowed>مجاز نیست</NotAllowed>
   
   <!-- EN: Fire at {1_label} -->
   <FireAt>Fire at {1_label}</FireAt>
 
   <!-- EN: out of range -->
-  <OutOfRange>out of range</OutOfRange>
+  <OutOfRange>خارج از محدوده</OutOfRange>
   <!-- EN: too close -->
-  <TooClose>too close</TooClose>
+  <TooClose>خیلی نزدیک</TooClose>
   <!-- EN: Cannot hit target -->
   <CannotHitTarget>Cannot hit target</CannotHitTarget>
   <!-- EN: {1_labelShort} is incapable of violence -->
@@ -56,14 +56,14 @@
   <!-- EN: Melee attack {1_label} to death -->
   <MeleeAttackToDeath>Melee attack {1_label} to death</MeleeAttackToDeath>
   <!-- EN: no path -->
-  <NoPath>no path</NoPath>
+  <NoPath>بدون مسیر</NoPath>
   <!-- EN: burying -->
-  <Burying>burying</Burying>
+  <Burying>دفن کردن</Burying>
   <!-- EN: designated for {0} -->
   <DesignatedFor>designated for {0}</DesignatedFor>
 
   <!-- EN: forbidden -->
-  <ForbiddenLower>forbidden</ForbiddenLower>
+  <ForbiddenLower>ممنوع</ForbiddenLower>
   <!-- EN: outside allowed area -->
   <ForbiddenOutsideAllowedAreaLower>outside allowed area</ForbiddenOutsideAllowedAreaLower>
   <!-- EN: not in home area -->
@@ -97,7 +97,7 @@
   <!-- EN: no usable food -->
   <NoUsableFood>no usable food</NoUsableFood>
   <!-- EN: no food -->
-  <NoFood>no food</NoFood>
+  <NoFood>بدون غذا</NoFood>
   <!-- EN: no food matching restrictions -->
   <NoFoodMatchingRestrictions>no food matching restrictions</NoFoodMatchingRestrictions>
   <!-- EN: No {0_label} -->
@@ -165,7 +165,7 @@
   <!-- EN: not a colonist -->
   <InstallImplantNotAllowedForNonColonists>not a colonist</InstallImplantNotAllowedForNonColonists>
   <!-- EN: already installed -->
-  <InstallImplantAlreadyInstalled>already installed</InstallImplantAlreadyInstalled>
+  <InstallImplantAlreadyInstalled>قبلا نصب شده است</InstallImplantAlreadyInstalled>
   <!-- EN: requires an existing {0} -->
   <InstallImplantHediffRequired>requires an existing {0}</InstallImplantHediffRequired>
   <!-- EN: max level -->
@@ -183,7 +183,7 @@
   <!-- EN: full -->
   <ContainerFull>full</ContainerFull>
   <!-- EN: already assigned -->
-  <AlreadyAssigned>already assigned</AlreadyAssigned>
+  <AlreadyAssigned>قبلا اختصاص داده شده است</AlreadyAssigned>
   
   <!-- EN: Consume {1_labelShort} -->
   <ConsumeThing>Consume {1_labelShort}</ConsumeThing>
@@ -198,7 +198,7 @@
   <!-- EN: Try to arrest {1_label} ({2} chance) -->
   <TryToArrest>Try to arrest {1_label} ({2} chance)</TryToArrest>
   <!-- EN: Cannot arrest -->
-  <CannotArrest>Cannot arrest</CannotArrest>
+  <CannotArrest>نمی توان دستگیر کرد</CannotArrest>
   <!-- EN: {0} chance of arrest -->
   <ArrestChance>{0} chance of arrest</ArrestChance>
 
@@ -216,7 +216,7 @@
   <!-- EN: Taking {0_labelShort} to bed. -->
   <TakingToBed>Taking {0_labelShort} to bed.</TakingToBed>
   <!-- EN: Cannot rescue -->
-  <CannotRescue>Cannot rescue</CannotRescue>
+  <CannotRescue>نمی توان نجات داد</CannotRescue>
 
   <!-- EN: Carry {1_label} to cryptosleep casket -->
   <CarryToCryptosleepCasket>Carry {1_label} to cryptosleep casket</CarryToCryptosleepCasket>
@@ -252,14 +252,14 @@
   <SameFaction>{0_labelShort} is in the same faction.</SameFaction>
 
   <!-- EN: incapable -->
-  <Incapable>incapable</Incapable>
+  <Incapable>عاجز</Incapable>
   <!-- EN: incapable of {0} -->
   <IncapableOfCapacity>incapable of {0}</IncapableOfCapacity>
   <!-- EN: Must have {0_label} -->
   <MustHaveHediff>Must have {0_label}</MustHaveHediff>
 
   <!-- EN: min skill -->
-  <MinSkill>min skill</MinSkill>
+  <MinSkill>حداقل مهارت</MinSkill>
   
   <!-- EN: Equip {0} -->
   <Equip>Equip {0}</Equip>
@@ -371,9 +371,9 @@
   <Drop>Drop {1_label}</Drop>
 
   <!-- EN: Rest until healed -->
-  <UseMedicalBed>Rest until healed</UseMedicalBed>
+  <UseMedicalBed>تا زمان بهبودی استراحت کنید</UseMedicalBed>
   <!-- EN: not injured -->
-  <NotInjured>not injured</NotInjured>
+  <NotInjured>مجروح نشده است</NotInjured>
   <!-- EN: no doctor -->
   <NoDoctor>TODO</NoDoctor>
   <!-- EN: occupied by {0} -->
@@ -382,7 +382,7 @@
   <!-- EN: Trade with {0} -->
   <TradeWith>Trade with {0}</TradeWith>
   <!-- EN: Cannot trade -->
-  <CannotTrade>Cannot trade</CannotTrade>
+  <CannotTrade>نمی توان معامله کرد</CannotTrade>
 
   <!-- EN: Open {0_label} -->
   <Open>Open {0_label}</Open>
@@ -444,7 +444,7 @@
   <!-- EN: Cannot prioritize: Not assigned to {0} -->
   <CannotPrioritizeNotAssignedToWorkType>Cannot prioritize: Not assigned to {0}</CannotPrioritizeNotAssignedToWorkType>
   <!-- EN: not assigned -->
-  <NotAssigned>not assigned</NotAssigned>
+  <NotAssigned>اختصاص داده نشده</NotAssigned>
   <!-- EN: not assigned to {0} -->
   <NotAssignedToWorkType>not assigned to {0}</NotAssignedToWorkType>
 
@@ -476,7 +476,7 @@
   <AttackAndDropInCenter>Attack {0}: Drop in center</AttackAndDropInCenter>
   
   <!-- EN: vomiting -->
-  <VomitingLower>vomiting</VomitingLower>
+  <VomitingLower>استفراغ</VomitingLower>
   <!-- EN: not interruptible -->
   <NotInterruptibleLower>not interruptible</NotInterruptibleLower>
   
@@ -514,7 +514,7 @@
   <!-- EN: Free prisoner -->
   <FreePrisoner>Free prisoner</FreePrisoner>
   <!-- EN: Offer help -->
-  <OfferHelp>Offer help</OfferHelp>
+  <OfferHelp>پیشنهاد کمک</OfferHelp>
 
   <!-- EN: apply {0} -->
   <ApplyTechprint>apply {0}</ApplyTechprint>
@@ -542,7 +542,7 @@
   <!-- EN: {0} does not require tending -->
   <TendingNotRequired>{0} does not require tending</TendingNotRequired>
   <!-- EN: without medicine -->
-  <WithoutMedicine>without medicine</WithoutMedicine>
+  <WithoutMedicine>بدون دارو</WithoutMedicine>
 
   <!-- EN: Repair {0} -->
   <RepairThing>Repair {0}</RepairThing>
@@ -550,7 +550,7 @@
   <CannotRepair>Cannot repair {0}</CannotRepair>
 
   <!-- EN: Cannot enter -->
-  <CannotEnter>Cannot enter</CannotEnter>
+  <CannotEnter>نمی تواند وارد شود</CannotEnter>
 
   <!-- Romance partner -->
   <!-- EN: Cannot romance {0} -->
@@ -560,6 +560,6 @@
 
   <!-- Feeding -->
   <!-- EN: disliked food -->
-  <WarningFoodDisliked>TODO</WarningFoodDisliked>
+  <WarningFoodDisliked>غذا را دوست نداشت</WarningFoodDisliked>
 
 </LanguageData>
