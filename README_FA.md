@@ -1,6 +1,3 @@
-[Farsi فارسی] (/README_FA.md)
-
-
 # Farsi Translation for RimWorld
 
 Welcome to the official repository for the Farsi translation of RimWorld. This project is a testament to the dedication and passion of RimWorld's fanbase, aiming to make the game accessible to Farsi-speaking players worldwide.
