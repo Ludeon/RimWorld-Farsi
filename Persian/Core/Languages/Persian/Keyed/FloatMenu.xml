@@ -1,52 +1,51 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+<!-- EN: Call {0} -->
+<CallOnRadio>تماس با {0}</CallOnRadio>
+<!-- EN: Cannot use: {0} -->
+<CannotUseReason>قابل استفاده نیست: {0}</CannotUseReason>
+<!-- EN: Cannot use: EMP -->
+<CannotUseSolarFlare>قابل استفاده نیست: EMP</CannotUseSolarFlare>
+<!-- EN: Cannot use: No power -->
+<CannotUseNoPower>قابل استفاده نیست: بدون برق</CannotUseNoPower>
+<!-- EN: Cannot use: No path -->
+<CannotUseNoPath>قابل استفاده نیست: بدون مسیر</CannotUseNoPath>
+<!-- EN: Cannot use: Reserved -->
+<CannotUseReserved>قابل استفاده نیست: رزرو شده</CannotUseReserved>
+<!-- EN: Cannot use: Full -->
+<CannotUseFull>قابل استفاده نیست: پر است</CannotUseFull>
+<!-- EN: leader {1_labelShort} is unavailable -->
+<LeaderUnavailable>رهبر {1_labelShort} در دسترس نیست</LeaderUnavailable>
+<!-- EN: leader is unavailable -->
+<LeaderUnavailableNoLeader>رهبر در دسترس نیست</LeaderUnavailableNoLeader>
+<!-- EN: Not allowed -->
+<NotAllowed>مجاز نیست</NotAllowed>
 
-  <!-- EN: Call {0} -->
-  <CallOnRadio>Call {0}</CallOnRadio>
-  <!-- EN: Cannot use: {0} -->
-  <CannotUseReason>Cannot use: {0}</CannotUseReason>
-  <!-- EN: Cannot use: EMP -->
-  <CannotUseSolarFlare>Cannot use: EMP</CannotUseSolarFlare>
-  <!-- EN: Cannot use: No power -->
-  <CannotUseNoPower>Cannot use: No power</CannotUseNoPower>
-  <!-- EN: Cannot use: No path -->
-  <CannotUseNoPath>Cannot use: No path</CannotUseNoPath>
-  <!-- EN: Cannot use: Reserved -->
-  <CannotUseReserved>Cannot use: Reserved</CannotUseReserved>
-  <!-- EN: Cannot use: Full -->
-  <CannotUseFull>Cannot use: Full</CannotUseFull>
-  <!-- EN: leader {1_labelShort} is unavailable -->
-  <LeaderUnavailable>leader {1_labelShort} is unavailable</LeaderUnavailable>
-  <!-- EN: leader is unavailable -->
-  <LeaderUnavailableNoLeader>leader is unavailable</LeaderUnavailableNoLeader>
-  <!-- EN: Not allowed -->
-  <NotAllowed>مجاز نیست</NotAllowed>
-  
-  <!-- EN: Fire at {1_labelShort} -->
-  <FireAt>Fire at {1_label}</FireAt>
+<!-- EN: Fire at {1_labelShort} -->
+<FireAt>تیراندازی به {1_labelShort}</FireAt>
 
-  <!-- EN: out of range -->
-  <OutOfRange>خارج از محدوده</OutOfRange>
-  <!-- EN: too close -->
-  <TooClose>خیلی نزدیک</TooClose>
-  <!-- EN: Cannot hit target -->
-  <CannotHitTarget>Cannot hit target</CannotHitTarget>
-  <!-- EN: {1_labelShort} is incapable of violence -->
-  <IsIncapableOfViolenceLower>{1_labelShort} is incapable of violence</IsIncapableOfViolenceLower>
-  <!-- EN: incapable of violence -->
-  <IncapableOfViolenceLower>incapable of violence</IncapableOfViolenceLower>
-  <!-- EN: {0_labelShort} is incapable of shooting -->
-  <IsIncapableOfShootingLower>{0_labelShort} is incapable of shooting</IsIncapableOfShootingLower>
-  <!-- EN: {1_labelShort} is not drafted -->
-  <IsNotDraftedLower>{1_labelShort} is not drafted</IsNotDraftedLower>
-  <!-- EN: cannot order characters you do not control -->
-  <CannotOrderNonControlledLower>cannot order characters you do not control</CannotOrderNonControlledLower>
-  <!-- EN: cannot attack self -->
-  <CannotAttackSelf>cannot attack self</CannotAttackSelf>
-  <!-- EN: cannot attack faction ally -->
-  <CannotAttackSameFactionMember>cannot attack faction ally</CannotAttackSameFactionMember>
-  <!-- EN: Incapable of firefighting. -->
-  <IncapableOfFirefighting>Incapable of firefighting.</IncapableOfFirefighting>
+<!-- EN: out of range -->
+<OutOfRange>خارج از محدوده</OutOfRange>
+<!-- EN: too close -->
+<TooClose>بسیار نزدیک</TooClose>
+<!-- EN: Cannot hit target -->
+<CannotHitTarget>نمی‌توان هدف را زد</CannotHitTarget>
+<!-- EN: {1_labelShort} is incapable of violence -->
+<IsIncapableOfViolenceLower>{1_labelShort} قادر به خشونت نیست</IsIncapableOfViolenceLower>
+<!-- EN: incapable of violence -->
+<IncapableOfViolenceLower>قادر به خشونت نیست</IncapableOfViolenceLower>
+<!-- EN: {0_labelShort} is incapable of shooting -->
+<IsIncapableOfShootingLower>{0_labelShort} قادر به تیراندازی نیست</IsIncapableOfShootingLower>
+<!-- EN: {1_labelShort} is not drafted -->
+<IsNotDraftedLower>{1_labelShort} پیش‌نویس نشده است</IsNotDraftedLower>
+<!-- EN: cannot order characters you do not control -->
+<CannotOrderNonControlledLower>نمی‌توانید شخصیت‌هایی را که کنترل نمی‌کنید دستور دهید</CannotOrderNonControlledLower>
+<!-- EN: cannot attack self -->
+<CannotAttackSelf>نمی‌توان به خود حمله کرد</CannotAttackSelf>
+<!-- EN: cannot attack faction ally -->
+<CannotAttackSameFactionMember>نمی‌توان به متحد فرقه حمله کرد</CannotAttackSameFactionMember>
+<!-- EN: Incapable of firefighting. -->
+<IncapableOfFirefighting>قادر به اطفاء حریق نیست.</IncapableOfFirefighting>
 
   <!-- EN: Man {1_labelShort} -->
   <OrderManThing>Man {1_labelShort}</OrderManThing>
@@ -522,108 +521,108 @@
   <AddWaypoint>Add a new waypoint here</AddWaypoint>
   <!-- EN: Remove this waypoint -->
   <RemoveWaypoint>Remove this waypoint</RemoveWaypoint>
+<!-- EN: Cancel all designations -->
+<RemoveAllDesignations>لغو تمام انتصاب‌ها</RemoveAllDesignations>
+<!-- EN: Designate all -->
+<DesignateAll>انتصاب همه</DesignateAll>
+<!-- EN: {0} affected -->
+<CountToDesignate>{0} تحت تأثیر قرار گرفت</CountToDesignate>
+<!-- EN: Forbid all items -->
+<ForbidAllItems>ممنوعیت همه موارد</ForbidAllItems>
+<!-- EN: Unforbid all items -->
+<UnforbidAllItems>لغو ممنوعیت همه موارد</UnforbidAllItems>
 
-  <!-- EN: Cancel all designations -->
-  <RemoveAllDesignations>Cancel all designations</RemoveAllDesignations>
-  <!-- EN: Designate all -->
-  <DesignateAll>Designate all</DesignateAll>
-  <!-- EN: {0} affected -->
-  <CountToDesignate>{0} affected</CountToDesignate>
-  <!-- EN: Forbid all items -->
-  <ForbidAllItems>Forbid all items</ForbidAllItems>
-  <!-- EN: Unforbid all items -->
-  <UnforbidAllItems>Unforbid all items</UnforbidAllItems>
+<!-- Transport pods -->
+<!-- EN: Zoom in and choose a landing spot in {0} -->
+<LandInExistingMap>بزرگنمایی و انتخاب مکان فرود در {0}</LandInExistingMap>
+<!-- EN: The contents will be lost -->
+<TransportPodsContentsWillBeLost>محتویات از دست خواهند رفت</TransportPodsContentsWillBeLost>
+<!-- EN: Form caravan here -->
+<FormCaravanHere>ایجاد کاروان در اینجا</FormCaravanHere>
+<!-- EN: Give to {0} -->
+<GiveToCaravan>اهدا به {0}</GiveToCaravan>
+<!-- EN: Give as a gift to {0} ({1}) -->
+<GiveGiftViaTransportPods>اهدا به عنوان هدیه به {0} ({1})</GiveGiftViaTransportPods>
+<!-- EN: Not part of launch group -->
+<NotPartOfLaunchGroup>بخشی از گروه پرتاب نیست</NotPartOfLaunchGroup>
 
-  <!-- Transport pods -->
-  <!-- EN: Zoom in and choose a landing spot in {0} -->
-  <LandInExistingMap>Zoom in and choose a landing spot in {0}</LandInExistingMap>
-  <!-- EN: The contents will be lost -->
-  <TransportPodsContentsWillBeLost>The contents will be lost</TransportPodsContentsWillBeLost>
-  <!-- EN: Form caravan here -->
-  <FormCaravanHere>Form caravan here</FormCaravanHere>
-  <!-- EN: Give to {0} -->
-  <GiveToCaravan>Give to {0}</GiveToCaravan>
-  <!-- EN: Give as a gift to {0} ({1}) -->
-  <GiveGiftViaTransportPods>Give as a gift to {0} ({1})</GiveGiftViaTransportPods>
-  <!-- EN: Not part of launch group -->
-  <NotPartOfLaunchGroup>Not part of launch group</NotPartOfLaunchGroup>
+<!-- Rescue quest -->
+<!-- EN: Free prisoner -->
+<FreePrisoner>آزاد کردن زندانی</FreePrisoner>
+<!-- EN: Offer help -->
+<OfferHelp>پیشنهاد کمک</OfferHelp>
 
-  <!-- Rescue quest -->
-  <!-- EN: Free prisoner -->
-  <FreePrisoner>Free prisoner</FreePrisoner>
-  <!-- EN: Offer help -->
-  <OfferHelp>پیشنهاد کمک</OfferHelp>
+<!-- EN: apply {0} -->
+<ApplyTechprint>اعمال {0}</ApplyTechprint>
 
-  <!-- EN: apply {0} -->
-  <ApplyTechprint>apply {0}</ApplyTechprint>
+<!-- EN: Too dangerous -->
+<EnterCooldownBlocksEntering>بیش از حد خطرناک</EnterCooldownBlocksEntering>
 
-  <!-- EN: Too dangerous -->
-  <EnterCooldownBlocksEntering>Too dangerous</EnterCooldownBlocksEntering>
+<!-- CommsConsole -->
+<!-- EN: Nobody to call -->
+<NoCommsTarget>کسی برای تماس گرفتن نیست</NoCommsTarget>
 
-  <!-- CommsConsole -->
-  <!-- EN: Nobody to call -->
-  <NoCommsTarget>Nobody to call</NoCommsTarget>
+<!-- EN: Invoke {0} -->
+<Invoke>به کار بردن {0}</Invoke>
+<!-- EN: Cannot invoke {0} -->
+<CannotInvoke>نمی‌توان {0} را به کار برد</CannotInvoke>
+<!-- EN: power -->
+<Power>قدرت</Power>
+<!-- EN: already invoked -->
+<AlreadyInvoked>قبلاً به کار برده شده</AlreadyInvoked>
 
-  <!-- EN: Invoke {0} -->
-  <Invoke>Invoke {0}</Invoke>
-  <!-- EN: Cannot invoke {0} -->
-  <CannotInvoke>Cannot invoke {0}</CannotInvoke>
-  <!-- EN: power -->
-  <Power>power</Power>
-  <!-- EN: already invoked -->
-  <AlreadyInvoked>already invoked</AlreadyInvoked>
+<!-- EN: Tend {0} -->
+<Tend>مراقبت از {0}</Tend>
+<!-- EN: Cannot tend {0} -->
+<CannotTend>نمی‌توان از {0} مراقبت کرد</CannotTend>
+<!-- EN: {0} does not require tending -->
+<TendingNotRequired>{0} نیاز به مراقبت ندارد</TendingNotRequired>
+<!-- EN: without medicine -->
+<WithoutMedicine>بدون دارو</WithoutMedicine>
 
-  <!-- EN: Tend {0} -->
-  <Tend>Tend {0}</Tend>
-  <!-- EN: Cannot tend {0} -->
-  <CannotTend>Cannot tend {0}</CannotTend>
-  <!-- EN: {0} does not require tending -->
-  <TendingNotRequired>{0} does not require tending</TendingNotRequired>
-  <!-- EN: without medicine -->
-  <WithoutMedicine>بدون دارو</WithoutMedicine>
+<!-- EN: Repair {0} -->
+<RepairThing>تعمیر {0}</RepairThing>
+<!-- EN: Cannot repair {0} -->
+<CannotRepair>نمی‌توان {0} را تعمیر کرد</CannotRepair>
 
-  <!-- EN: Repair {0} -->
-  <RepairThing>Repair {0}</RepairThing>
-  <!-- EN: Cannot repair {0} -->
-  <CannotRepair>Cannot repair {0}</CannotRepair>
+<!-- EN: Cannot enter -->
+<CannotEnter>نمی‌توان وارد شد</CannotEnter>
 
-  <!-- EN: Cannot enter -->
-  <CannotEnter>Cannot enter</CannotEnter>
-  
-  <!-- EN: Cannot enter {0} -->
-  <CannotEnterPortal>TODO</CannotEnterPortal>
-  <!-- EN: closed -->
-  <PortalClosed>TODO</PortalClosed>
+<!-- EN: Cannot enter {0} -->
+<CannotEnterPortal>نمی‌توان وارد {0} شد</CannotEnterPortal>
+<!-- EN: closed -->
+<PortalClosed>بسته شده</PortalClosed>
 
-  <!-- Romance partner -->
-  <!-- EN: Cannot romance {0} -->
-  <CannotRomance>Cannot romance {0}</CannotRomance>
-  <!-- EN: Romance {0} -->
-  <CanRomance>Romance {0}</CanRomance>
+<!-- Romance partner -->
+<!-- EN: Cannot romance {0} -->
+<CannotRomance>نمی‌توان با {0} رابطه عاشقانه برقرار کرد</CannotRomance>
+<!-- EN: Romance {0} -->
+<CanRomance>رابطه عاشقانه با {0}</CanRomance>
 
-  <!-- Feeding -->
-  <!-- EN: disliked food -->
-  <WarningFoodDisliked>غذا را دوست نداشت</WarningFoodDisliked>
-  <!-- EN: Unsuitable food -->
-  <FoodNotSuitable>TODO</FoodNotSuitable>
+<!-- Feeding -->
+<!-- EN: disliked food -->
+<WarningFoodDisliked>غذای ناخوشایند</WarningFoodDisliked>
+<!-- EN: Unsuitable food -->
+<FoodNotSuitable>غذای نامناسب</FoodNotSuitable>
 
-  <!-- EN: Unsuitable drug -->
-  <DrugNotSuitable>TODO</DrugNotSuitable>
-  
-  <!-- Books -->
-  <!-- EN: Assign reading... -->
-  <AssignReading>TODO</AssignReading>
-  <!-- EN: Read {0} -->
-  <AssignReadNow>TODO</AssignReadNow>
-  <!-- EN: Cannot read {0} -->
-  <AssignCannotReadNow>TODO</AssignCannotReadNow>
+<!-- EN: Unsuitable drug -->
+<DrugNotSuitable>داروی نامناسب</DrugNotSuitable>
 
-  <!-- EN: Prioritize extinguishing fires -->
-  <ExtinguishFiresNearby>TODO</ExtinguishFiresNearby>
+<!-- Books -->
+<!-- EN: Assign reading... -->
+<AssignReading>تخصیص خواندن...</AssignReading>
+<!-- EN: Read {0} -->
+<AssignReadNow>خواندن {0}</AssignReadNow>
+<!-- EN: Cannot read {0} -->
+<AssignCannotReadNow>نمی‌توان {0} را خواند</AssignCannotReadNow>
 
-  <!-- Analysis -->
-  <!-- EN: already analyzed -->
-  <AlreadyAnalyzed>TODO</AlreadyAnalyzed>
-  <!-- EN: no reachable, un-reserved research bench available -->
-  <NoResearchBench>TODO</NoResearchBench>
+<!-- EN: Prioritize extinguishing fires -->
+<ExtinguishFiresNearby>اولویت خاموش کردن آتش‌ها</ExtinguishFiresNearby>
+
+<!-- Analysis -->
+<!-- EN: already analyzed -->
+<AlreadyAnalyzed>قبلاً تجزیه و تحلیل شده</AlreadyAnalyzed>
+<!-- EN: no reachable, un-reserved research bench available -->
+<NoResearchBench>هیچ میز تحقیقاتی قابل دسترس و رزرو نشده‌ای موجود نیست</NoResearchBench>
+
 </LanguageData>

@@ -1,97 +1,96 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+<!-- EN: d -->
+<LetterDay>روز</LetterDay>
+<!-- EN: h -->
+<LetterHour>ساعت</LetterHour>
+<!-- EN: m -->
+<LetterMinute>دقیقه</LetterMinute>
+<!-- EN: s -->
+<LetterSecond>ثانیه</LetterSecond>
+<!-- EN: y -->
+<LetterYear>سال</LetterYear>
 
-  <!-- EN: d -->
-  <LetterDay>روز</LetterDay>
-  <!-- EN: h -->
-  <LetterHour>ساعت</LetterHour>
-  <!-- EN: m -->
-  <LetterMinute>دقیقه</LetterMinute>
-  <!-- EN: s -->
-  <LetterSecond>ثانیه</LetterSecond>
-  <!-- EN: y -->
-  <LetterYear>سال</LetterYear>
-  
-  <!-- EN: AM -->
-  <AM>TODO</AM>
-  <!-- EN: PM -->
-  <PM>TODO</PM>
+<!-- EN: AM -->
+<AM>ق.ظ</AM>
+<!-- EN: PM -->
+<PM>ب.ظ</PM>
 
-  <!-- EN: days -->
-  <DaysLower>روزه</DaysLower>
-  <!-- EN: hours -->
-  <HoursLower>ساعته</HoursLower>
-  <!-- EN: seconds -->
-  <SecondsLower>ثانیه ی</SecondsLower>
+<!-- EN: days -->
+<DaysLower>روزها</DaysLower>
+<!-- EN: hours -->
+<HoursLower>ساعت‌ها</HoursLower>
+<!-- EN: seconds -->
+<SecondsLower>ثانیه‌ها</SecondsLower>
 
-  <!-- EN: spring -->
-  <SeasonSpring>بهار</SeasonSpring>
-  <!-- EN: summer -->
-  <SeasonSummer>تابستان</SeasonSummer>
-  <!-- EN: fall -->
-  <SeasonFall>پاییز</SeasonFall>
-  <!-- EN: winter -->
-  <SeasonWinter>زمستان</SeasonWinter>
-  <!-- EN: permanent summer -->
-  <SeasonPermanentSummer>همیشه تابستان</SeasonPermanentSummer>
-  <!-- EN: permanent winter -->
-  <SeasonPermanentWinter>همیشه زمستان</SeasonPermanentWinter>
+<!-- EN: spring -->
+<SeasonSpring>بهار</SeasonSpring>
+<!-- EN: summer -->
+<SeasonSummer>تابستان</SeasonSummer>
+<!-- EN: fall -->
+<SeasonFall>پاییز</SeasonFall>
+<!-- EN: winter -->
+<SeasonWinter>زمستان</SeasonWinter>
+<!-- EN: permanent summer -->
+<SeasonPermanentSummer>تابستان دائمی</SeasonPermanentSummer>
+<!-- EN: permanent winter -->
+<SeasonPermanentWinter>زمستان دائمی</SeasonPermanentWinter>
 
-  <!-- EN: Aprimay -->
-  <QuadrumAprimay>Aprimay</QuadrumAprimay>
-  <!-- EN: Jugust -->
-  <QuadrumJugust>Jugust</QuadrumJugust>
-  <!-- EN: Septober -->
-  <QuadrumSeptober>Septober</QuadrumSeptober>
-  <!-- EN: Decembary -->
-  <QuadrumDecembary>Decembary</QuadrumDecembary>
+<!-- EN: Aprimay -->
+<QuadrumAprimay>آپریمی</QuadrumAprimay>
+<!-- EN: Jugust -->
+<QuadrumJugust>جوگست</QuadrumJugust>
+<!-- EN: Septober -->
+<QuadrumSeptober>سپتوبر</QuadrumSeptober>
+<!-- EN: Decembary -->
+<QuadrumDecembary>دسامبری</QuadrumDecembary>
 
-  <!-- EN: Apr -->
-  <QuadrumAprimay_Short>Apr</QuadrumAprimay_Short>
-  <!-- EN: Jug -->
-  <QuadrumJugust_Short>Jug</QuadrumJugust_Short>
-  <!-- EN: Sep -->
-  <QuadrumSeptober_Short>Sep</QuadrumSeptober_Short>
-  <!-- EN: Dec -->
-  <QuadrumDecembary_Short>Dec</QuadrumDecembary_Short>
-  
-  <!-- EN: Born: {0} -->
-  <Born>Born: {0}</Born>
-  <!-- EN: Chronological age: {0} years, {1} quadrums, {2} days -->
-  <AgeChronological>Chronological age: {0} years, {1} quadrums, {2} days</AgeChronological>
-  <!-- EN: Biological age: {0} years, {1} quadrums, {2} days -->
-  <AgeBiological>Biological age: {0} years, {1} quadrums, {2} days</AgeBiological>
+<!-- EN: Apr -->
+<QuadrumAprimay_Short>آپر</QuadrumAprimay_Short>
+<!-- EN: Jug -->
+<QuadrumJugust_Short>جوگ</QuadrumJugust_Short>
+<!-- EN: Sep -->
+<QuadrumSeptober_Short>سپت</QuadrumSeptober_Short>
+<!-- EN: Dec -->
+<QuadrumDecembary_Short>دسا</QuadrumDecembary_Short>
 
-  <!-- Date periods -->
-  <!-- EN: 1 year -->
-  <Period1Year>1 سال</Period1Year>
-  <!-- EN: {0} years -->
-  <PeriodYears>{0} years</PeriodYears>
-  <!-- EN: 1 quadrum -->
-  <Period1Quadrum>1 quadrum</Period1Quadrum>
-  <!-- EN: {0} quadrums -->
-  <PeriodQuadrums>{0} quadrums</PeriodQuadrums>
-  <!-- EN: 1 day -->
-  <Period1Day>1 day</Period1Day>
-  <!-- EN: {0} days -->
-  <PeriodDays>{0} days</PeriodDays>
-  <!-- EN: 1 hour -->
-  <Period1Hour>1 hour</Period1Hour>
-  <!-- EN: {0} hours -->
-  <PeriodHours>{0} hours</PeriodHours>
-  <!-- EN: 1 second -->
-  <Period1Second>1 second</Period1Second>
-  <!-- EN: {0} seconds -->
-  <PeriodSeconds>{0} seconds</PeriodSeconds>
+<!-- EN: Born: {0} -->
+<Born>متولد: {0}</Born>
+<!-- EN: Chronological age: {0} years, {1} quadrums, {2} days -->
+<AgeChronological>سن تقویمی: {0} سال، {1} چهارم، {2} روز</AgeChronological>
+<!-- EN: Biological age: {0} years, {1} quadrums, {2} days -->
+<AgeBiological>سن زیستی: {0} سال، {1} چهارم، {2} روز</AgeBiological>
 
-  <!-- Misc -->
-  <!-- EN: Started -->
-  <Started>آغاز شده</Started>
-  <!-- EN: Lasted -->
-  <Lasted>به طول انجامید</Lasted>
-  <!-- EN: occurred {0} ago -->
-  <OccurredTimeAgo>occurred {0} ago</OccurredTimeAgo>
-  <!-- EN: {0} ago -->
-  <TimeAgo>{0} ago</TimeAgo>
-  
+<!-- Date periods -->
+<!-- EN: 1 year -->
+<Period1Year>1 سال</Period1Year>
+<!-- EN: {0} years -->
+<PeriodYears>{0} سال</PeriodYears>
+<!-- EN: 1 quadrum -->
+<Period1Quadrum>1 چهارم</Period1Quadrum>
+<!-- EN: {0} quadrums -->
+<PeriodQuadrums>{0} چهارم</PeriodQuadrums>
+<!-- EN: 1 day -->
+<Period1Day>1 روز</Period1Day>
+<!-- EN: {0} days -->
+<PeriodDays>{0} روز</PeriodDays>
+<!-- EN: 1 hour -->
+<Period1Hour>1 ساعت</Period1Hour>
+<!-- EN: {0} hours -->
+<PeriodHours>{0} ساعت</PeriodHours>
+<!-- EN: 1 second -->
+<Period1Second>1 ثانیه</Period1Second>
+<!-- EN: {0} seconds -->
+<PeriodSeconds>{0} ثانیه</PeriodSeconds>
+
+<!-- Misc -->
+<!-- EN: Started -->
+<Started>آغاز شده</Started>
+<!-- EN: Lasted -->
+<Lasted>به طول انجامید</Lasted>
+<!-- EN: occurred {0} ago -->
+<OccurredTimeAgo>رخ داده {0} پیش</OccurredTimeAgo>
+<!-- EN: {0} ago -->
+<TimeAgo>{0} پیش</TimeAgo>
+
 </LanguageData>

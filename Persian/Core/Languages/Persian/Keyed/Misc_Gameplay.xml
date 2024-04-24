@@ -1,129 +1,125 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- Various -->
-  <!-- EN: hit points -->
-  <HitPointsBasic>TODO</HitPointsBasic>
-  <!-- EN: Work left -->
-  <WorkLeft>TODO</WorkLeft>
-  <!-- EN: Contents -->
-  <Contents>TODO</Contents>
-  <!-- EN: Contained resources -->
-  <ContainedResources>TODO</ContainedResources>
-  <!-- EN: For prisoner use -->
-  <ForPrisonerUse>TODO</ForPrisonerUse>
-  <!-- EN: In prison cell: For prisoner use -->
-  <InPrisonCell>TODO</InPrisonCell>
-  <!-- EN: For colonist use -->
-  <ForColonistUse>TODO</ForColonistUse>
-  <!-- EN: Medical -->
-  <MedicalBed>TODO</MedicalBed>
-  <!-- EN: Owner -->
-  <Owner>TODO</Owner>
-  <!-- EN: Owners -->
-  <Owners>TODO</Owners>
-  <!-- EN: Assigned colonist -->
-  <AssignedColonist>TODO</AssignedColonist>
-  <!-- EN: Uncomfortable room temperature -->
-  <BedUncomfortableTemperature>TODO</BedUncomfortableTemperature>
-  <!-- EN: Unsafe room temperature -->
-  <BedUnsafeTemperature>TODO</BedUnsafeTemperature>
-  <!-- EN: Died on the {0} -->
-  <DiedOn>TODO</DiedOn>
-  <!-- EN: Nobody -->
-  <Nobody>TODO</Nobody>
-  <!-- EN: Unowned -->
-  <Unowned>TODO</Unowned>
-  <!-- EN: Dead for {0} -->
-  <DeadTime>TODO</DeadTime>
-  <!-- EN: walk speed {0} -->
-  <WalkSpeed>TODO</WalkSpeed>
-  <!-- EN: fert. -->
-  <FertShort>TODO</FertShort>
-  <!-- EN: dying -->
-  <DyingLower>TODO</DyingLower>
-  <!-- EN: Filth on feet: -->
-  <FilthOnFeet>TODO</FilthOnFeet>
-  <!-- EN: not enough stored -->
-  <NotEnoughStoredLower>TODO</NotEnoughStoredLower>
-  <!-- EN: nothing -->
-  <NothingLower>TODO</NothingLower>
-  <!-- EN: Nothing -->
-  <Nothing>TODO</Nothing>
-  <!-- EN: Adapted -->
-  <Adapted>TODO</Adapted>
-  <!-- EN: fresh -->
-  <FreshMissingBodyPart>TODO</FreshMissingBodyPart>
-  <!-- EN: developed immunity -->
-  <DevelopedImmunityLower>TODO</DevelopedImmunityLower>
-  <!-- EN: Needs tending now -->
-  <NeedsTendingNow>TODO</NeedsTendingNow>
-  <!-- EN: Can tend now -->
-  <CanTendNow>TODO</CanTendNow>
-  <!-- EN: Tending expires in {0} -->
-  <TreatmentExpiresIn>TODO</TreatmentExpiresIn>
-  <!-- EN: Can be tended in {0} -->
-  <NextTendIn>TODO</NextTendIn>
-  <!-- EN: Tend quality -->
-  <TendQuality>TODO</TendQuality>
-  <!-- EN: Total tend quality -->
-  <DisappearsAtTotalTendQuality>TODO</DisappearsAtTotalTendQuality>
-  <!-- EN: no {0} -->
-  <MissingMedicalBillIngredient>TODO</MissingMedicalBillIngredient>
-  <!-- EN: Immunity -->
-  <Immunity>TODO</Immunity>
-  <!-- EN: {0} days to recover -->
-  <DaysToRecover>TODO</DaysToRecover>
-  <!-- EN: Ineffective -->
-  <Ineffective>TODO</Ineffective>
-  <!-- EN: illegal -->
-  <Illegal>TODO</Illegal>
-  <!-- EN: detection chance -->
-  <DetectionChance>TODO</DetectionChance>
-  <!-- EN: Race -->
-  <Race>TODO</Race>
-  <!-- EN: Description -->
-  <Description>TODO</Description>
-  <!-- EN: Equipment -->
-  <Equipment>TODO</Equipment>
-  <!-- EN: Apparel -->
-  <Apparel>TODO</Apparel>
-  <!-- EN: Inventory -->
-  <Inventory>TODO</Inventory>
-  <!-- EN: Information -->
-  <ThingInfo>TODO</ThingInfo>
-  <!-- EN: Drop -->
-  <DropThing>TODO</DropThing>
-  <!-- EN: Temporary faction members will not drop their items. -->
-  <DropThingLodger>TODO</DropThingLodger>
-  <!-- EN: This person refuses to drop this. -->
-  <DropThingLocked>TODO</DropThingLocked>
-  <!-- EN: Rename -->
-  <Rename>TODO</Rename>
-  <!-- EN: Rename animal -->
-  <RenameAnimal>TODO</RenameAnimal>
-  <!-- EN: Rename colonist -->
-  <RenameColonist>TODO</RenameColonist>
-  <!-- EN: Renounce title -->
-  <RenounceTitle>TODO</RenounceTitle>
-  <!-- EN: Execute -->
-  <Execute>TODO</Execute>
-  <!-- EN: Execute guilty colonist\n\nIf you toggle this on, a warden will proceed to execute this person. -->
-  <ExecuteColonist>TODO</ExecuteColonist>
-  <!-- EN: {0_labelShort} is now marked for execution. The next available warden will go execute {0_objective}. -->
-  <MessageColonistMarkedForExecution>TODO</MessageColonistMarkedForExecution>
-  <!-- EN: {0} of {1} -->
-  <TitleOfFaction>TODO</TitleOfFaction>
-  <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
-  <RenounceTitleDescription>TODO</RenounceTitleDescription>
-  <!-- EN: {PAWN_pronoun} will lose these permissions -->
-  <RenounceTitleWillLoosePermits>TODO</RenounceTitleWillLoosePermits>
-  <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
-  <RenounceTitleWillLosePermitPoints>TODO</RenounceTitleWillLosePermitPoints>
-  <!-- EN: {PAWN_pronoun} will keep all {PAWN_possessive} psylink levels and psycasts. -->
-  <RenounceTitleWillKeepPsylinkLevels>TODO</RenounceTitleWillKeepPsylinkLevels>
-  <!-- EN: unknown -->
-  <UnknownLower>TODO</UnknownLower>
+<!-- Various -->
+<!-- EN: hit points -->
+<HitPointsBasic>امتیاز ضربه</HitPointsBasic>
+<!-- EN: Work left -->
+<WorkLeft>کار باقی‌مانده</WorkLeft>
+<!-- EN: Contents -->
+<Contents>محتویات</Contents>
+<!-- EN: Contained resources -->
+<ContainedResources>منابع درون</ContainedResources>
+<!-- EN: For prisoner use -->
+<ForPrisonerUse>برای استفاده زندانیان</ForPrisonerUse>
+<!-- EN: In prison cell: For prisoner use -->
+<InPrisonCell>در سلول زندان: برای استفاده زندانیان</InPrisonCell>
+<!-- EN: For colonist use -->
+<ForColonistUse>برای استفاده مستعمره‌نشینان</ForColonistUse>
+<!-- EN: Medical -->
+<MedicalBed>پزشکی</MedicalBed>
+<!-- EN: Owner -->
+<Owner>صاحب</Owner>
+<!-- EN: Owners -->
+<Owners>صاحبان</Owners>
+<!-- EN: Assigned colonist -->
+<AssignedColonist>مستعمره‌نشین اختصاص‌یافته</AssignedColonist>
+<!-- EN: Uncomfortable room temperature -->
+<BedUncomfortableTemperature>دمای ناراحت‌کننده اتاق</BedUncomfortableTemperature>
+<!-- Various -->
+<!-- EN: Unsafe room temperature -->
+<BedUnsafeTemperature>دمای ناامن اتاق</BedUnsafeTemperature>
+<!-- EN: Died on the {0} -->
+<DiedOn>مرده در {0}</DiedOn>
+<!-- EN: Nobody -->
+<Nobody>هیچ‌کس</Nobody>
+<!-- EN: Unowned -->
+<Unowned>بدون صاحب</Unowned>
+<!-- EN: Dead for {0} -->
+<DeadTime>مرده برای {0}</DeadTime>
+<!-- EN: walk speed {0} -->
+<WalkSpeed>سرعت راه رفتن {0}</WalkSpeed>
+<!-- EN: fert. -->
+<FertShort>باروری.</FertShort>
+<!-- EN: dying -->
+<DyingLower>در حال مرگ</DyingLower>
+<!-- EN: Filth on feet: -->
+<FilthOnFeet>کثافت روی پاها:</FilthOnFeet>
+<!-- EN: not enough stored -->
+<NotEnoughStoredLower>ذخیره کافی نیست</NotEnoughStoredLower>
+<!-- EN: nothing -->
+<NothingLower>هیچ چیز</NothingLower>
+<!-- EN: Nothing -->
+<Nothing>هیچ چیز</Nothing>
+<!-- EN: Adapted -->
+<Adapted>سازگار</Adapted>
+<!-- EN: fresh -->
+<FreshMissingBodyPart>تازه</FreshMissingBodyPart>
+<!-- EN: developed immunity -->
+<DevelopedImmunityLower>ایمنی توسعه یافته</DevelopedImmunityLower>
+<!-- EN: Needs tending now -->
+<NeedsTendingNow>نیاز به مراقبت فوری</NeedsTendingNow>
+<!-- EN: Can tend now -->
+<CanTendNow>می‌توان الان مراقبت کرد</CanTendNow>
+<!-- EN: Tending expires in {0} -->
+<TreatmentExpiresIn>مراقبت منقضی می‌شود در {0}</TreatmentExpiresIn>
+<!-- EN: Can be tended in {0} -->
+<NextTendIn>می‌توان در {0} مراقبت کرد</NextTendIn>
+<!-- EN: Tend quality -->
+<TendQuality>کیفیت مراقبت</TendQuality>
+<!-- EN: Total tend quality -->
+<DisappearsAtTotalTendQuality>کیفیت کلی مراقبت</DisappearsAtTotalTendQuality>
+<!-- EN: no {0} -->
+<MissingMedicalBillIngredient>بدون {0}</MissingMedicalBillIngredient>
+<!-- EN: Immunity -->
+<Immunity>ایمنی</Immunity>
+<!-- EN: {0} days to recover -->
+<DaysToRecover>{0} روز برای بهبودی</DaysToRecover>
+<!-- EN: Ineffective -->
+<Ineffective>بی‌اثر</Ineffective>
+<!-- EN: illegal -->
+<Illegal>غیرقانونی</Illegal>
+<!-- EN: detection chance -->
+<DetectionChance>شانس تشخیص</DetectionChance>
+<!-- EN: Race -->
+<Race>نژاد</Race>
+<!-- EN: Description -->
+<Description>توضیحات</Description>
+<!-- EN: Equipment -->
+<Equipment>تجهیزات</Equipment>
+<!-- EN: Apparel -->
+<Apparel>پوشاک</Apparel>
+<!-- EN: Inventory -->
+<Inventory>موجودی</Inventory>
+<!-- EN: Information -->
+<ThingInfo>اطلاعات</ThingInfo>
+<!-- EN: Rename -->
+<Rename>تغییر نام</Rename>
+<!-- EN: Rename animal -->
+<RenameAnimal>تغییر نام حیوان</RenameAnimal>
+<!-- EN: Rename colonist -->
+<RenameColonist>تغییر نام ساکن</RenameColonist>
+<!-- EN: Renounce title -->
+<RenounceTitle>انصراف از عنوان</RenounceTitle>
+<!-- EN: Execute -->
+<Execute>اجرا کردن</Execute>
+<!-- EN: Execute guilty colonist\n\nIf you toggle this on, a warden will proceed to execute this person. -->
+<ExecuteColonist>اجرای حکم ساکن مجرم\n\nاگر این گزینه را فعال کنید، نگهبان اقدام به اجرای حکم این شخص خواهد کرد.</ExecuteColonist>
+<!-- EN: {0_labelShort} is now marked for execution. The next available warden will go execute {0_objective}. -->
+<MessageColonistMarkedForExecution>{0_labelShort} اکنون برای اجرای حکم علامت‌گذاری شده است. نگهبان بعدی در دسترس برای اجرای {0_objective} خواهد رفت.</MessageColonistMarkedForExecution>
+<!-- EN: {0} of {1} -->
+<TitleOfFaction>{0} از {1}</TitleOfFaction>
+<!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
+<RenounceTitleDescription>این اقدام باعث خواهد شد {PAWN_nameDef} عنوان {PAWN_possessive} {TITLE} را از دست بدهد. شما هیچ جبرانی برای انصراف از عنوان دریافت نخواهید کرد.\n\nاین اثرات زیر را خواهد داشت:\n\n{EFFECTS}</RenounceTitleDescription>
+<!-- EN: {PAWN_pronoun} will lose these permissions -->
+<RenounceTitleWillLoosePermits>{PAWN_pronoun} این مجوزها را از دست خواهد داد</RenounceTitleWillLoosePermits>
+<!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
+<RenounceTitleWillLosePermitPoints>{PAWN_nameDef} {POINTS} امتیاز مجوز استفاده نشده با {FACTION_name} را از دست خواهد داد.</RenounceTitleWillLosePermitPoints>
+<!-- EN: {PAWN_pronoun} will keep all {PAWN_possessive} psylink levels and psycasts. -->
+<RenounceTitleWillKeepPsylinkLevels>{PAWN_pronoun} تمام سطوح پیوند روانی {PAWN_possessive} و روان‌افکن‌ها را حفظ خواهد کرد.</RenounceTitleWillKeepPsylinkLevels>
+<!-- EN: unknown -->
+<UnknownLower>ناشناخته</UnknownLower>
+
   <!-- EN: On -->
   <On>TODO</On>
   <!-- EN: Off -->

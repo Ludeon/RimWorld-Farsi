@@ -1,73 +1,72 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+<!-- Main menu -->
+<!-- EN: Tutorial -->
+<Tutorial>آموزش</Tutorial>
+<!-- EN: New colony -->
+<NewColony>مستعمره جدید</NewColony>
+<!-- EN: Back to game -->
+<BackToGame>بازگشت به بازی</BackToGame>
+<!-- EN: Review scenario -->
+<ReviewScenario>بررسی سناریو</ReviewScenario>
+<!-- EN: Save -->
+<Save>ذخیره</Save>
+<!-- EN: Load game -->
+<LoadGame>بارگذاری بازی</LoadGame>
+<!-- EN: Options -->
+<Options>تنظیمات</Options>
+<!-- EN: Mod -->
+<Mod>مد</Mod>
+<!-- EN: Mods -->
+<Mods>مدها</Mods>
+<!-- EN: Save translation report -->
+<SaveTranslationReport>ذخیره گزارش ترجمه</SaveTranslationReport>
+<!-- EN: Generating translation report -->
+<GeneratingTranslationReport>در حال ایجاد گزارش ترجمه</GeneratingTranslationReport>
+<!-- EN: Cleanup translation files -->
+<CleanupTranslationFiles>پاک‌سازی فایل‌های ترجمه</CleanupTranslationFiles>
+<!-- EN: Update translations files (TKey's) -->
+<TranslationFilesTKeyUpdate>به‌روزرسانی فایل‌های ترجمه (TKey's)</TranslationFilesTKeyUpdate>
+<!-- EN: Cleaning translation files -->
+<CleaningTranslationFiles>تمیز کردن فایل‌های ترجمه</CleaningTranslationFiles>
+<!-- EN: Dev quicktest -->
+<DevQuickTest>تست سریع توسعه‌دهنده</DevQuickTest>
+<!-- EN: Credits -->
+<Credits>اعتبارات</Credits>
+<!-- EN: Quit to main menu -->
+<QuitToMainMenu>خروج به منوی اصلی</QuitToMainMenu>
+<!-- EN: Save and quit to menu -->
+<SaveAndQuitToMainMenu>ذخیره و خروج به منوی اصلی</SaveAndQuitToMainMenu>
+<!-- EN: Quit to OS -->
+<QuitToOS>خروج به سیستم‌عامل</QuitToOS>
+<!-- EN: Save and quit to OS -->
+<SaveAndQuitToOS>ذخیره و خروج به سیستم‌عامل</SaveAndQuitToOS>
+<!-- EN: Fiction primer -->
+<FictionPrimer>مقدمه داستانی</FictionPrimer>
+<!-- EN: Ludeon blog -->
+<LudeonBlog>وبلاگ لودئون</LudeonBlog>
+<!-- EN: Forums -->
+<Forums>انجمن‌ها</Forums>
+<!-- EN: Official wiki -->
+<OfficialWiki>ویکی رسمی</OfficialWiki>
+<!-- EN: Tynan's twitter -->
+<TynansTwitter>توییتر تاینان</TynansTwitter>
+<!-- EN: Tynan's design book -->
+<TynansDesignBook>کتاب طراحی تاینان</TynansDesignBook>
+<!-- EN: Help translate RimWorld -->
+<HelpTranslate>کمک به ترجمه ریم‌ورلد</HelpTranslate>
+<!-- EN: Buy soundtrack -->
+<BuySoundtrack>خرید موسیقی متن</BuySoundtrack>
+<!-- EN: Create world -->
+<CreateWorld>ایجاد جهان</CreateWorld>
 
-  <!-- Main menu -->
-  <!-- EN: Tutorial -->
-  <Tutorial>آموزش</Tutorial>
-  <!-- EN: New colony -->
-  <NewColony>مستعمره جدید</NewColony>
-  <!-- EN: Back to game -->
-  <BackToGame>بازگشتن به بازی</BackToGame>
-  <!-- EN: Review scenario -->
-  <ReviewScenario>بررسی سناریو</ReviewScenario>
-  <!-- EN: Save -->
-  <Save>ذخیره</Save>
-  <!-- EN: Load game -->
-  <LoadGame>بارگذاری بازی</LoadGame>
-  <!-- EN: Options -->
-  <Options>گزینه ها</Options>
-  <!-- EN: Mod -->
-  <Mod>مود</Mod>
-  <!-- EN: Mods -->
-  <Mods>مود ها</Mods>
-  <!-- EN: Save translation report -->
-  <SaveTranslationReport>ذخیره کردن گزارش ترجمه</SaveTranslationReport>
-  <!-- EN: Generating translation report -->
-  <GeneratingTranslationReport>ایجاد کردن گزارش ترجمه</GeneratingTranslationReport>
-  <!-- EN: Cleanup translation files -->
-  <CleanupTranslationFiles>پاک کردن فایل های ترجمه</CleanupTranslationFiles>
-  <!-- EN: Update translations files (TKey's) -->
-  <TranslationFilesTKeyUpdate>به روز رسانی کردن فایل های ترجمه (TKey's)</TranslationFilesTKeyUpdate>
-  <!-- EN: Cleaning translation files -->
-  <CleaningTranslationFiles>پاک کردن فایل های ترجمه</CleaningTranslationFiles>
-  <!-- EN: Dev quicktest -->
-  <DevQuickTest>تست سریع توسعه دهنده</DevQuickTest>
-  <!-- EN: Credits -->
-  <Credits>سازندگان</Credits>
-  <!-- EN: Quit to main menu -->
-  <QuitToMainMenu>خروج به منوی اصلی</QuitToMainMenu>
-  <!-- EN: Save and quit to menu -->
-  <SaveAndQuitToMainMenu>ذخیره کنید و به منو اصلی خارج شوید</SaveAndQuitToMainMenu>
-  <!-- EN: Quit to OS -->
-  <QuitToOS>خروج به سیستم عامل</QuitToOS>
-  <!-- EN: Save and quit to OS -->
-  <SaveAndQuitToOS>ذخیره کنید و به سیستم عامل خارج شوید</SaveAndQuitToOS>
-  <!-- EN: Fiction primer -->
-  <FictionPrimer>Fiction primer</FictionPrimer>
-  <!-- EN: Ludeon blog -->
-  <LudeonBlog>Ludeon وبلاگ</LudeonBlog>
-  <!-- EN: Forums -->
-  <Forums>انجمن ها</Forums>
-  <!-- EN: Official wiki -->
-  <OfficialWiki>ویکی رسمی</OfficialWiki>
-  <!-- EN: Tynan's twitter -->
-  <TynansTwitter>Tynan توییتر</TynansTwitter>
-  <!-- EN: Tynan's design book -->
-  <TynansDesignBook>Tynan کتاب طراحی</TynansDesignBook>
-  <!-- EN: Help translate RimWorld -->
-  <HelpTranslate>کمک کنید RimWorld به ترجمه</HelpTranslate>
-  <!-- EN: Buy soundtrack -->
-  <BuySoundtrack>خرید موسیقی متن</BuySoundtrack>
-  <!-- EN: Create world -->
-  <CreateWorld>جهان را ایجاد کنید</CreateWorld>
-
-  <!-- Main menu translations info window -->
-  <!-- EN: All translations of RimWorld are fan-made. This fan-made translation was created by the following excellent volunteers:\n\n{0} -->
-  <TranslationThanks>تمام ترجمه های بازی لبه دنیا توسط طرفداران ساخته شده است. \n\n  این ترجمه توسط طرفداران عالی بالا ایجاد شده است: \n\n {0}</TranslationThanks>
-  <!-- EN: You can contribute too. Click below to learn more (opens web browser). -->
-  <TranslationHowToContribute>شما هم می توانید مشارکت کنید. برای کسب اطلاعات بیشتر روی زیر کلیک کنید. مرورگر وب را باز می کند.</TranslationHowToContribute>
-  <!-- EN: Learn more -->
-  <LearnMore>بیشتر بدانید</LearnMore>
+<!-- Main menu translations info window -->
+<!-- EN: All translations of RimWorld are fan-made. This fan-made translation was created by the following excellent volunteers:\n\n{0} -->
+<TranslationThanks>تمام ترجمه‌های ریم‌ورلد توسط طرفداران ساخته شده‌اند. این ترجمه توسط داوطلبان عالی زیر ایجاد شده است:\n\n{0}</TranslationThanks>
+<!-- EN: You can contribute too. Click below to learn more (opens web browser). -->
+<TranslationHowToContribute>شما نیز می‌توانید مشارکت کنید. برای اطلاعات بیشتر زیر را کلیک کنید (مرورگر وب باز می‌شود).</TranslationHowToContribute>
+<!-- EN: Learn more -->
+<LearnMore>بیشتر بیاموزید</LearnMore>
 
   <!-- Main menu dev build -->
   <!-- EN: Warning: This is an unstable development build. This means we are running design experiments and doing technical development.\n\nSome things will be temporarily unbalanced on purpose. This is a classic game design method where we deliberately go too far with a balance change in order to better understand balance boundaries. We can then use that information to decide on the final balance points.\n\nThere will also be bugs, including game-breaking ones. Save compatibility may break any time.\n\nIf you're okay with all of this, thanks for testing! If you don't want to be subject to our experiments, please play the latest stable version. -->
@@ -682,62 +681,61 @@
   <StartingPawnsLeftBehind>Left behind</StartingPawnsLeftBehind>
   <!-- EN: This person is considered guilty. Others won't be bothered if you banish, execute or arrest them.\n\nGuilt expires in -->
   <GuiltyDesc>This colonist is considered guilty. You can freely banish, execute or arrest them, and others won't be bothered.\n\nGuilt expires in</GuiltyDesc>
-  
   <!-- Misc -->
-  <!-- EN: Start -->
-  <Start>شروغ</Start>
-  <!-- EN: Advanced -->
-  <Advanced>پیشرفته</Advanced>
-  <!-- EN: Next -->
-  <Next>بعد</Next>
-  <!-- EN: Back -->
-  <Back>قبل</Back>
-  <!-- EN: Change material... -->
-  <ShowMaterials>Change material...</ShowMaterials>
-  <!-- EN: Gameplay -->
-  <Gameplay>گیم پلی</Gameplay>
-  <!-- EN: Really quit? You'll lose unsaved progress. -->
-  <ConfirmQuit>Really quit? You'll lose unsaved progress.</ConfirmQuit>
-  <!-- EN: Each person needs a valid name. -->
-  <EveryoneNeedsValidName>هر شخص به یک نام معتبر نیاز دارد.</EveryoneNeedsValidName>
-  <!-- EN: None of the selected people can do the following jobs -->
-  <RequiredWorkTypeDisabledForEveryone>هیچ یک از افراد انتخاب شده نمی توانند کارهای زیر را انجام دهند</RequiredWorkTypeDisabledForEveryone>
-  <!-- EN: Quit -->
-  <Quit>ترک کنید</Quit>
-  <!-- EN: Ignore -->
-  <Ignore>رد کردن</Ignore>
-  
-  <!-- Progress bar -->
-  <!-- EN: Generating world -->
-  <GeneratingWorld>ساخت جهان</GeneratingWorld>
-  <!-- EN: Generating planet -->
-  <GeneratingPlanet>ساخت سیاره</GeneratingPlanet>
-  <!-- EN: Generating map -->
-  <GeneratingMap>ساخت نقشه</GeneratingMap>
-  <!-- EN: Generating map for new encounter -->
-  <GeneratingMapForNewEncounter>Generating map for new encounter</GeneratingMapForNewEncounter>
+<!-- EN: Start -->
+<Start>شروع</Start>
+<!-- EN: Advanced -->
+<Advanced>پیشرفته</Advanced>
+<!-- EN: Next -->
+<Next>بعدی</Next>
+<!-- EN: Back -->
+<Back>بازگشت</Back>
+<!-- EN: Change material... -->
+<ShowMaterials>تغییر مواد...</ShowMaterials>
+<!-- EN: Gameplay -->
+<Gameplay>گیم‌پلی</Gameplay>
+<!-- EN: Really quit? You'll lose unsaved progress. -->
+<ConfirmQuit>واقعاً خارج می‌شوید؟ پیشرفت ذخیره نشده از دست خواهد رفت.</ConfirmQuit>
+<!-- EN: Each person needs a valid name. -->
+<EveryoneNeedsValidName>هر فرد به یک نام معتبر نیاز دارد.</EveryoneNeedsValidName>
+<!-- EN: None of the selected people can do the following jobs -->
+<RequiredWorkTypeDisabledForEveryone>هیچ‌کدام از افراد انتخاب‌شده نمی‌توانند کارهای زیر را انجام دهند</RequiredWorkTypeDisabledForEveryone>
+<!-- EN: Quit -->
+<Quit>خروج</Quit>
+<!-- EN: Ignore -->
+<Ignore>نادیده گرفتن</Ignore>
 
-  <!-- EN: Click for more info. -->
-  <ClickForMoreInfo>برای اطلاعات بیشتر کلیک کنید.</ClickForMoreInfo>
-  <!-- EN: No more information is available. -->
-  <NoMoreInfoAvailable>اطلاعات بیشتری در دسترس نیست.</NoMoreInfoAvailable>
+<!-- Progress bar -->
+<!-- EN: Generating world -->
+<GeneratingWorld>در حال ساخت جهان</GeneratingWorld>
+<!-- EN: Generating planet -->
+<GeneratingPlanet>در حال ساخت سیاره</GeneratingPlanet>
+<!-- EN: Generating map -->
+<GeneratingMap>در حال ساخت نقشه</GeneratingMap>
+<!-- EN: Generating map for new encounter -->
+<GeneratingMapForNewEncounter>در حال ساخت نقشه برای مواجهه جدید</GeneratingMapForNewEncounter>
 
-  <!-- Factions -->
-  <!-- EN: Factions -->
-  <Factions>جناح ها</Factions>
-  <!-- EN: max {0} basic factions allowed -->
-  <TotalFactionsAllowed>max {0} basic factions allowed</TotalFactionsAllowed>
-  <!-- EN: max {0} -->
-  <MaxFactionsForType>max {0}</MaxFactionsForType>
-  <!-- EN: Select the factions in the world. You can select up to {0} factions total. -->
-  <FactionSelectionDesc>Select the factions in the world. You can select up to {0} factions total.</FactionSelectionDesc>
-  <!-- EN: Disabling {0} means less quest variety and other reduced content. -->
-  <FactionDisabledContentWarning>Disabling {0} means less quest variety and other reduced content.</FactionDisabledContentWarning>
-  <!-- EN: Disabling {0} means less spontaneous threat variety. -->
-  <InsectsDisabledContentWarning>Disabling {0} means less spontaneous threat variety.</InsectsDisabledContentWarning>
-  <!-- EN: Disabling {0} means less quest and spontaneous threat variety. -->
-  <MechanoidsDisabledContentWarning>Disabling {0} means less quest and spontaneous threat variety.</MechanoidsDisabledContentWarning>
-  <!-- EN: Without other factions, raids, trading, and quests won't occur as normal. -->
-  <FactionsDisabledWarning>Without other factions, raids, trading, and quests won't occur as normal.</FactionsDisabledWarning>
+<!-- EN: Click for more info. -->
+<ClickForMoreInfo>برای اطلاعات بیشتر کلیک کنید.</ClickForMoreInfo>
+<!-- EN: No more information is available. -->
+<NoMoreInfoAvailable>اطلاعات بیشتری در دسترس نیست.</NoMoreInfoAvailable>
+
+<!-- Factions -->
+<!-- EN: Factions -->
+<Factions>فرقه‌ها</Factions>
+<!-- EN: max {0} basic factions allowed -->
+<TotalFactionsAllowed>حداکثر {0} فرقه اصلی مجاز است</TotalFactionsAllowed>
+<!-- EN: max {0} -->
+<MaxFactionsForType>حداکثر {0}</MaxFactionsForType>
+<!-- EN: Select the factions in the world. You can select up to {0} factions total. -->
+<FactionSelectionDesc>فرقه‌های موجود در جهان را انتخاب کنید. شما می‌توانید تا {0} فرقه را به طور کلی انتخاب کنید.</FactionSelectionDesc>
+<!-- EN: Disabling {0} means less quest variety and other reduced content. -->
+<FactionDisabledContentWarning>غیرفعال کردن {0} به معنای کمتر شدن تنوع مأموریت‌ها و کاهش سایر محتواها است.</FactionDisabledContentWarning>
+<!-- EN: Disabling {0} means less spontaneous threat variety. -->
+<InsectsDisabledContentWarning>غیرفعال کردن {0} به معنای کمتر شدن تنوع تهدیدات اتفاقی است.</InsectsDisabledContentWarning>
+<!-- EN: Disabling {0} means less quest and spontaneous threat variety. -->
+<MechanoidsDisabledContentWarning>غیرفعال کردن {0} به معنای کمتر شدن تنوع مأموریت‌ها و تهدیدات اتفاقی است.</MechanoidsDisabledContentWarning>
+<!-- EN: Without other factions, raids, trading, and quests won't occur as normal. -->
+<FactionsDisabledWarning>بدون فرقه‌های دیگر، حملات، معاملات و مأموریت‌ها به طور عادی رخ نخواهند داد.</FactionsDisabledWarning>
 
 </LanguageData>
