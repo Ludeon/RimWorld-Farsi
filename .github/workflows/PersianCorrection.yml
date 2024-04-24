@@ -26,7 +26,7 @@ jobs:
 
       - name: Run translation script
         run: |
-          if  [ "${{ github.actor }}" = "danielHero307" ]; then
+          if  [ "${{ github.actor }}" = "DanialPahlavan" ]; then
             cd ${{ github.workspace }}
             echo list files :
             ls 
