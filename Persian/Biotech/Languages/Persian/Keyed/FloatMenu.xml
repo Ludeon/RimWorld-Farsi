@@ -131,6 +131,10 @@
   <BreastfeedFailReason_NoMomsAssignedToBaby>TODO</BreastfeedFailReason_NoMomsAssignedToBaby>
   <!-- EN: {MOM_labelShort} is not assigned to childcare -->
   <BreastfeedFailReason_MomNotAssignedToChildcare>TODO</BreastfeedFailReason_MomNotAssignedToChildcare>
+  <!-- EN: {MOM_labelShort} is inside a container -->
+  <BreastfeedFailReason_MomInsideContainer>TODO</BreastfeedFailReason_MomInsideContainer>
+  <!-- EN: {MOM_labelShort} is being carried -->
+  <BreastfeedFailReason_MomBeingCarried>TODO</BreastfeedFailReason_MomBeingCarried>
 
   <!-- EN: Order implantation into {PAWN_nameDef} -->
   <OrderImplantationIntoPawn>TODO</OrderImplantationIntoPawn>
@@ -144,13 +148,6 @@
   <!-- EN: No available recharger -->
   <CannotCarryToRechargerNoneAvailable>TODO</CannotCarryToRechargerNoneAvailable>
 
-  <!-- EN: Cannot study -->
-  <CannotStudy>TODO</CannotStudy>
-  <!-- EN: already studied -->
-  <AlreadyStudied>TODO</AlreadyStudied>
-  <!-- EN: no reachable, un-reserved research bench available -->
-  <NoResearchBench>TODO</NoResearchBench>
-
   <!-- EN: Hemogen packs disabled by food restriction. -->
   <NotAllowedHemogen>TODO</NotAllowedHemogen>
 
@@ -159,5 +156,13 @@
 
   <!-- EN: Resulting metabolism would be too low -->
   <ResultingMetTooLow>TODO</ResultingMetTooLow>
+
+  <!-- EN: attempted romance too recently -->
+  <RomanceOnCooldown>TODO</RomanceOnCooldown>
+
+  <!-- EN: Take to safe location -->
+  <CarryToSafePlace>TODO</CarryToSafePlace>
+  <!-- EN: Cannot take to safe location -->
+  <CannotCarryToSafePlace>TODO</CannotCarryToSafePlace>
 
 </LanguageData>

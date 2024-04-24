@@ -11,12 +11,12 @@
   <!-- EN: A warden will execute the prisoner on the spot by cutting. This can affect the mood of other prisoners and colonists. -->
   <Execution.description>TODO</Execution.description>
   
-  <!-- EN: no interaction -->
-  <NoInteraction.label>TODO</NoInteraction.label>
-  <!-- EN: Wardens will not interact with the prisoner. -->
-  <NoInteraction.description>TODO</NoInteraction.description>
+  <!-- EN: maintain only -->
+  <MaintainOnly.label>TODO</MaintainOnly.label>
+  <!-- EN: Just feed the prisoner and provide for their basic needs, without attempting any other interaction. -->
+  <MaintainOnly.description>TODO</MaintainOnly.description>
   
-  <!-- EN: reduce resistance -->
+  <!-- EN: reduce resistance only -->
   <ReduceResistance.label>TODO</ReduceResistance.label>
   <!-- EN: If the prisoner still has resistance, wardens will speak to them to reduce it. No recruit attempts will be made. -->
   <ReduceResistance.description>TODO</ReduceResistance.description>

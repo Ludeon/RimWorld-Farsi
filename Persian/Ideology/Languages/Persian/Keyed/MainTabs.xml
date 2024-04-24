@@ -46,6 +46,8 @@
   <Prohibitions>TODO</Prohibitions>
   <!-- EN: Opinions -->
   <Opinions>TODO</Opinions>
+  <!-- EN: Mental breaks -->
+  <MentalBreaks>TODO</MentalBreaks>
   <!-- EN: Randomize name -->
   <RandomizeName>TODO</RandomizeName>
   <!-- EN: Randomize precepts -->
@@ -118,6 +120,8 @@
   <IdeoCharityQuestInfo>TODO</IdeoCharityQuestInfo>
   <!-- EN: Slaves will not do this work -->
   <WorkDisabledSlave>TODO</WorkDisabledSlave>
+  <!-- EN: Disabled by health condition -->
+  <WorkDisabledHealth>TODO</WorkDisabledHealth>
   <!-- EN: Disabled by {0} role -->
   <WorkDisabledRole>TODO</WorkDisabledRole>
   <!-- EN: Affected by traits -->

@@ -63,8 +63,7 @@
 
   <!-- Main menu translations info window -->
   <!-- EN: All translations of RimWorld are fan-made. This fan-made translation was created by the following excellent volunteers:\n\n{0} -->
-  <TranslationThanks>تمام ترجمه های بازی لبه دنیا توسط طرفداران ساخته شده است. \n
-  این ترجمه توسط طرفداران عالی بالا ایجاد شده است: \n\n {0}</TranslationThanks>
+  <TranslationThanks>تمام ترجمه های بازی لبه دنیا توسط طرفداران ساخته شده است. \n\n  این ترجمه توسط طرفداران عالی بالا ایجاد شده است: \n\n {0}</TranslationThanks>
   <!-- EN: You can contribute too. Click below to learn more (opens web browser). -->
   <TranslationHowToContribute>شما هم می توانید مشارکت کنید. برای کسب اطلاعات بیشتر روی زیر کلیک کنید. مرورگر وب را باز می کند.</TranslationHowToContribute>
   <!-- EN: Learn more -->
@@ -643,6 +642,8 @@
   <IncapableOfTooltipRole>Caused by role</IncapableOfTooltipRole>
   <!-- EN: Caused by gene -->
   <IncapableOfTooltipGene>Caused by gene</IncapableOfTooltipGene>
+  <!-- EN: Caused by -->
+  <IncapableOfTooltipMutant>TODO</IncapableOfTooltipMutant>
   <!-- EN: Traits -->
   <Traits>Traits</Traits>
   <!-- EN: Permanent mood effect -->
@@ -679,7 +680,7 @@
   <StartingPawnsSelected>Selected</StartingPawnsSelected>
   <!-- EN: Left behind -->
   <StartingPawnsLeftBehind>Left behind</StartingPawnsLeftBehind>
-  <!-- EN: This colonist is considered guilty. You can freely banish, execute or arrest them, and others won't be bothered.\n\nGuilt expires in -->
+  <!-- EN: This person is considered guilty. Others won't be bothered if you banish, execute or arrest them.\n\nGuilt expires in -->
   <GuiltyDesc>This colonist is considered guilty. You can freely banish, execute or arrest them, and others won't be bothered.\n\nGuilt expires in</GuiltyDesc>
   
   <!-- Misc -->

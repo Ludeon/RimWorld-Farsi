@@ -44,8 +44,6 @@
   <WorkDisabledByQuest>Disabled by quest '{0}'</WorkDisabledByQuest>
   
   <!-- Assign tab -->
-  <!-- EN: Manage outfits -->
-  <ManageOutfits>لباس ها را مدیریت کنید</ManageOutfits>
   <!-- EN: Unchangeable -->
   <Unchangeable>غیر قابل تغییر</Unchangeable>
   <!-- EN: Clr. forced -->
@@ -56,12 +54,16 @@
   <ApparelLockedLower>قفل شده است</ApparelLockedLower>
   <!-- EN: Forced apparel -->
   <ForcedApparel>Forced apparel</ForcedApparel>
-  <!-- EN: Edit... -->
+  <!-- EN: Edit -->
   <AssignTabEdit>Edit...</AssignTabEdit>
+  <!-- EN: Manage apparel policies -->
+  <ManageApparelPolicies>TODO</ManageApparelPolicies>
   <!-- EN: Manage drug policies -->
   <ManageDrugPolicies>Manage drug policies</ManageDrugPolicies>
-  <!-- EN: Manage food restrictions -->
-  <ManageFoodRestrictions>Manage food restrictions</ManageFoodRestrictions>
+  <!-- EN: Manage food policies -->
+  <ManageFoodPolicies>TODO</ManageFoodPolicies>
+  <!-- EN: Manage reading policies -->
+  <ManageReadingPolicies>TODO</ManageReadingPolicies>
   
   <!-- Restrictions tab -->
   <!-- EN: Copy -->
@@ -198,14 +200,22 @@
   <InProgress>در حال پیش رفت</InProgress>
   <!-- EN: Locked -->
   <Locked>قفل شده است</Locked>
-  <!-- EN: Research prerequisites -->
-  <ResearchPrerequisites>Research prerequisites</ResearchPrerequisites>
+  <!-- EN: Prerequisites -->
+  <Prerequisites>TODO</Prerequisites>
   <!-- EN: Techprints required {0} / {1} -->
   <ResearchTechprintRequirement>Techprints required {0} / {1}</ResearchTechprintRequirement>
   <!-- EN: Insufficient techprints applied ({0} / {1}) -->
   <InsufficientTechprintsApplied>Insufficient techprints applied ({0} / {1})</InsufficientTechprintsApplied>
   <!-- EN: Prerequisite(s) not completed -->
   <PrerequisitesNotCompleted>Prerequisite(s) not completed</PrerequisitesNotCompleted>
+  <!-- EN: No project active. -->
+  <NoProjectSelected>TODO</NoProjectSelected>
+  <!-- EN: Active projects -->
+  <ActiveProjectPlural>TODO</ActiveProjectPlural>
+  <!-- EN: Active project -->
+  <ActiveProject>TODO</ActiveProject>
+  <!-- EN: Stop research -->
+  <StopResearch>TODO</StopResearch>
   <!-- EN: Missing required research facilities -->
   <MissingRequiredResearchFacilities>Missing required research facilities</MissingRequiredResearchFacilities>
   <!-- EN: Required research bench -->
@@ -220,6 +230,10 @@
   <TechLevelTooLow>Your faction tech level is {0}, but this project's tech level is {1}. Research speed will be multiplied by {2}.</TechLevelTooLow>
   <!-- EN: Unlocked with -->
   <UnlockedWith>Unlocked with</UnlockedWith>
+  <!-- EN: Research one or more of this project's prerequisites to discover it. -->
+  <UnknownResearchDescription>TODO</UnknownResearchDescription>
+  <!-- EN: unknown -->
+  <UnknownResearch>TODO</UnknownResearch>
 
   <!-- Factions tab -->
   <!-- EN: Factions -->
@@ -348,9 +362,27 @@
   <!-- Health tab -->
   <!-- EN: Creates need -->
   <CreatesNeed>Creates need</CreatesNeed>
+  <!-- EN: Change defaults... -->
+  <ChangeDefaults>TODO</ChangeDefaults>
 
   <!-- Misc -->
   <!-- EN: Click to edit -->
   <ClickToEdit>برای ویرایش کلیک کنید</ClickToEdit>
+  <!-- EN: Assign -->
+  <AssignButton>TODO</AssignButton>
+  <!-- EN: Unassign -->
+  <UnassignButton>TODO</UnassignButton>
+  
+  <!-- Books -->
+  <!-- EN: Mental break chance -->
+  <BookMentalBreakChance>TODO</BookMentalBreakChance>
+  
+  <!-- EN: Recreation gain multiplier -->
+  <BookJoyFactor>TODO</BookJoyFactor>
+  
+  <!-- UNUSED -->
+  <ManageOutfits>لباس ها را مدیریت کنید</ManageOutfits>
+  <ManageFoodRestrictions>Manage food restrictions</ManageFoodRestrictions>
+  <ResearchPrerequisites>Research prerequisites</ResearchPrerequisites>
 
 </LanguageData>

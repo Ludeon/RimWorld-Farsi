@@ -88,6 +88,8 @@
   <ChooseRoleHint>TODO</ChooseRoleHint>
   <!-- EN: Unlocked by -->
   <UnlockedByMeme>TODO</UnlockedByMeme>
+  <!-- EN: Origin -->
+  <Origin>TODO</Origin>
   <!-- EN: Unlocked roles -->
   <MemeUnlocksRoles>TODO</MemeUnlocksRoles>
   <!-- EN: Unlocked rituals -->
@@ -113,6 +115,8 @@
   <AbilityIdeoConvertBreakdownRole>TODO</AbilityIdeoConvertBreakdownRole>
   <!-- EN: Trait {TRAIT} -->
   <AbilityIdeoConvertBreakdownTrait>TODO</AbilityIdeoConvertBreakdownTrait>
+  <!-- EN: Precept {PRECEPT} -->
+  <AbilityIdeoConvertBreakdownPercept>TODO</AbilityIdeoConvertBreakdownPercept>
   <!-- EN: {RELICCOUNT} installed relics on map -->
   <AbilityIdeoConvertBreakdownRelic>TODO</AbilityIdeoConvertBreakdownRelic>
   <!-- EN: {PAWN_labelShort}'s social skill -->
@@ -248,8 +252,10 @@
   <ReLoadShuttle>TODO</ReLoadShuttle>
 
   <!-- Medical settings -->
-  <!-- EN: Enslaved colonist -->
-  <MedGroupEnslavedColonist>TODO</MedGroupEnslavedColonist>
+  <!-- EN: Slaves -->
+  <MedGroupSlaves>TODO</MedGroupSlaves>
+  <!-- EN: Enslaved members of your colony. -->
+  <MedGroupSlavesDesc>TODO</MedGroupSlavesDesc>
 
   <!-- Dryad upgrades -->
   <!-- EN: Choose dryad caste -->
@@ -307,7 +313,7 @@
   <!-- EN: Your colony was sold. Its purchasers are ready for you to choose where to land next. -->
   <SoldColonyDescription>TODO</SoldColonyDescription>
 
-  <!-- EN: Hacking this {0} will alert enemies and cause them to attack. Do really want to hack {0}? -->
+  <!-- EN: Hacking this {0} will alert enemies and cause them to attack. Do you really want to hack {0}? -->
   <ConfirmHackEnenyTerminal>TODO</ConfirmHackEnenyTerminal>
 
   <!-- EN: Relics -->

@@ -16,9 +16,9 @@
   <!-- EN: A reusable backpack containing canisters of reagents and a mechanism that uses them to generate tox gas. When the wearer activates the pack, it will begin spreading tox gas and continue for several seconds until it runs out of reagents.\n\nOnce used, it must be reloaded with chemfuel before it can be used again.\n\nTox gas burns the lungs and eyes, causing a temporary shortness of breath and reduction in sight. Continued exposure to tox gas results in toxic buildup which can be lethal. -->
   <Apparel_PackTox.description>TODO</Apparel_PackTox.description>
   <!-- EN: tox pack -->
-  <Apparel_PackTox.comps.CompReloadable.chargeNoun>TODO</Apparel_PackTox.comps.CompReloadable.chargeNoun>
+  <Apparel_PackTox.comps.CompApparelReloadable.chargeNoun>TODO</Apparel_PackTox.comps.CompApparelReloadable.chargeNoun>
   <!-- EN: on cooldown -->
-  <Apparel_PackTox.comps.CompReloadable.cooldownGerund>TODO</Apparel_PackTox.comps.CompReloadable.cooldownGerund>
+  <Apparel_PackTox.comps.CompApparelReloadable.cooldownGerund>TODO</Apparel_PackTox.comps.CompApparelReloadable.cooldownGerund>
   <!-- EN: deploy tox pack -->
   <Apparel_PackTox.verbs.deploy_tox_pack.label>TODO</Apparel_PackTox.verbs.deploy_tox_pack.label>
   

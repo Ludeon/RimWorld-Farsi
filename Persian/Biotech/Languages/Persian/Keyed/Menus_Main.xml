@@ -21,7 +21,7 @@
   <Difficulty_WastepackInfestationChanceFactor_Label>TODO</Difficulty_WastepackInfestationChanceFactor_Label>
   <!-- EN: Adjust the chance that a dissolved wastepack will trigger the arrival of insect cocoons. -->
   <Difficulty_WastepackInfestationChanceFactor_Info>TODO</Difficulty_WastepackInfestationChanceFactor_Info>
-  <!-- EN: Child enemies -->
+  <!-- EN: Child raiders -->
   <Difficulty_ChildRaidersAllowed_Label>TODO</Difficulty_ChildRaidersAllowed_Label>
   <!-- EN: Hostile raids will sometimes include children. -->
   <Difficulty_ChildRaidersAllowed_Info>TODO</Difficulty_ChildRaidersAllowed_Info>
@@ -29,8 +29,8 @@
   <!-- EN: Disabled because another setting prevents human birth. -->
   <BabiesAreHealthyDisableReason>TODO</BabiesAreHealthyDisableReason>
 
-  <!-- EN: Biotech -->
-  <DifficultyBiotechSection>TODO</DifficultyBiotechSection>
+  <!-- EN: Children -->
+  <DifficultyChildrenSection>TODO</DifficultyChildrenSection>
 
   <!-- Create/review world -->
   <!-- EN: Pollution -->

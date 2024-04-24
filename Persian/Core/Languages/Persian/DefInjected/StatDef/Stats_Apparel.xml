@@ -55,12 +55,12 @@
   <!-- EN: Insulation - Heat (armor stat) -->
   <Insulation_Heat.labelForFullStatList>TODO</Insulation_Heat.labelForFullStatList>
   
-  <!-- EN: Smokepop pack radius -->
-  <SmokepopBeltRadius.label>TODO</SmokepopBeltRadius.label>
-  <!-- EN: The area obscured when a smokepop pack detonates. -->
-  <SmokepopBeltRadius.description>TODO</SmokepopBeltRadius.description>
+  <!-- EN: Effect radius -->
+  <PackRadius.label>TODO</PackRadius.label>
+  <!-- EN: The area affected when this pack detonates. -->
+  <PackRadius.description>TODO</PackRadius.description>
   <!-- EN: {0} c -->
-  <SmokepopBeltRadius.formatString>TODO</SmokepopBeltRadius.formatString>
+  <PackRadius.formatString>TODO</PackRadius.formatString>
   
   <!-- EN: Armor - Material effect multiplier -->
   <StuffEffectMultiplierArmor.label>TODO</StuffEffectMultiplierArmor.label>

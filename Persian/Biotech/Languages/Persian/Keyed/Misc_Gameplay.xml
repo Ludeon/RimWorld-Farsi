@@ -77,6 +77,8 @@
   <Groups>TODO</Groups>
   <!-- EN: Loading mech gestation resources -->
   <LoadingMechGestator>TODO</LoadingMechGestator>
+  <!-- EN: Time left this cycle -->
+  <GestatingInspect>TODO</GestatingInspect>
   <!-- EN: Initiating mech gestation cycle -->
   <InitMechGestationCycle>TODO</InitMechGestationCycle>
   <!-- EN: Initiating mech birth -->
@@ -145,7 +147,7 @@
   <AutoWakeDesc>TODO</AutoWakeDesc>
   <!-- EN: {PAWN_nameDef} is deathresting. -->
   <IsDeathresting>TODO</IsDeathresting>
-  <!-- EN: Cannot deathrest -->
+  <!-- EN: cannot deathrest -->
   <CannotDeathrest>TODO</CannotDeathrest>
   <!-- EN: Start deathrest -->
   <StartDeathrest>TODO</StartDeathrest>
@@ -153,8 +155,6 @@
   <ConfirmExitDeathrestUnderMinDays>TODO</ConfirmExitDeathrestUnderMinDays>
   <!-- EN: deathresting -->
   <Deathresting>TODO</Deathresting>
-  <!-- EN: complete -->
-  <Complete>TODO</Complete>
   <!-- EN: can wake safely now. -->
   <CanWakeSafely>TODO</CanWakeSafely>
   <!-- EN: Disabled by gene -->
@@ -297,7 +297,7 @@
   <ComplexityTotal>TODO</ComplexityTotal>
   <!-- EN: The total complexity of all the genes in use. -->
   <ComplexityTotalDesc>TODO</ComplexityTotalDesc>
-  <!-- EN: Metabolic efficiency -->
+  <!-- EN: metabolic efficiency -->
   <Metabolism>TODO</Metabolism>
   <!-- EN: The total metabolic efficiency of these genes when assembled. High efficiency means a person needs less food; low efficiency means they must eat more. -->
   <MetabolismDesc>TODO</MetabolismDesc>
@@ -429,8 +429,6 @@
   <LethalInjuries>TODO</LethalInjuries>
   <!-- EN: deathrest -->
   <Deathrest>TODO</Deathrest>
-  <!-- EN: Buildings -->
-  <Buildings>TODO</Buildings>
   <!-- EN: capacity -->
   <Capacity>TODO</Capacity>
   <!-- EN: Non-{GENE} romance chance -->
@@ -446,8 +444,6 @@
 
   <!-- EN: Children want to learn from different activities at different times. -->
   <LearningDesireTooltip>TODO</LearningDesireTooltip>
-  <!-- EN: {0_nameDef}'s current learning desire: -->
-  <LearningDesireTooltip_CurrentDesire>TODO</LearningDesireTooltip_CurrentDesire>
   <!-- EN: Development health is the average of a child's learning need since their last birthday.\n\nChildren with higher development health will have more options during growth moments and will gain more passions for skills. -->
   <DevelopmentHealthGizmoTooltip>TODO</DevelopmentHealthGizmoTooltip>
 
@@ -485,6 +481,8 @@
   <GestatingMech>TODO</GestatingMech>
   <!-- EN: Gestated {0} -->
   <GestatedMech>TODO</GestatedMech>
+  <!-- EN: Requires {PAWN_nameDef} to continue gestating -->
+  <GestatingMechRequiresMechanitor>TODO</GestatingMechRequiresMechanitor>
   <!-- EN: Requires {PAWN_nameDef} to complete -->
   <GestatedMechRequiresMechanitor>TODO</GestatedMechRequiresMechanitor>
   <!-- EN: Gestation complete -->
@@ -553,7 +551,7 @@
   <BiostarvationExplanation>TODO</BiostarvationExplanation>
   <!-- EN: Insert a person into the growth vat. They will age 20 times as fast as normal. -->
   <InsertPersonGrowthVatDesc>TODO</InsertPersonGrowthVatDesc>
-  <!-- EN: Implant an embryo into the growth vat. After gestating for 18 days a fully formed baby will be produced by the vat, hopefully in good health. -->
+  <!-- EN: Implant an embryo into the growth vat. After gestating for {0} a fully formed baby will be produced by the vat, hopefully in good health. -->
   <InsertEmbryoGrowthVatDesc>TODO</InsertEmbryoGrowthVatDesc>
   <!-- EN: Insert embryo -->
   <ImplantEmbryo>TODO</ImplantEmbryo>
@@ -634,8 +632,6 @@
   <Baby>TODO</Baby>
   <!-- EN: babies -->
   <Babies>TODO</Babies>
-  <!-- EN: person -->
-  <Person>TODO</Person>
   <!-- EN: feral child -->
   <FeralChild>TODO</FeralChild>
   <!-- EN: Wearable by -->
