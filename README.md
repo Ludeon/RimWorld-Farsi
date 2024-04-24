@@ -1,4 +1,5 @@
-[Farsi فارسی] (/README_FA.md)
+
+[Farsi فارسی] (README_FA.md)
 
 
 # Farsi Translation for RimWorld
