@@ -3,7 +3,7 @@
 
 Welcome to the Farsi translation repository for RimWorld!
 
-توضیحات فارسی 🇮🇷 [ریدمی فارسی]((https://github.com/Ludeon/RimWorld-Farsi/blob/master/README_fa.md)
+توضیحات فارسی 🇮🇷 [ریدمی فارسی](https://github.com/Ludeon/RimWorld-Farsi/blob/master/README_fa.md)
 
 
 ## Installation Instructions
