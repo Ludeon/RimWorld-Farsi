@@ -7,7 +7,7 @@
 1. فایل `persian.language.zip` را از بخش **Releases** دانلود کنید.
 2. محتویات را استخراج کنید.
 3. پوشه استخراج شده را به مسیر زیر کپی کنید:
-   `<masir nasb RimWorld>\Data\`
+* ` <masir nasb RimWorld>\Data\ `
 
 
 ## مشارکت
