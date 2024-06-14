@@ -12,7 +12,7 @@ To add the Farsi language to your game:
 3. Copy the extracted folder to the following directory:  
    `<RimWorld Installation Path>\Data\`
 
-### Translation Conversion Tool
+## Translation Conversion Tool
 The game engines often do not support RTL languages like Farsi and Arabic natively. To address this, we use a conversion tool that adapts the text for proper in-game display. The `rimworld-rtl-translation-tools-PersianModded` is a variant of this tool, specifically altered to support the Persian alphabet.
 
 To test source code and build fixed RTL text for the game, utilize the `rimworld-rtl-translation-tools-PersianModded`. Just so you know, running this tool requires Ruby.
