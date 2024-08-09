@@ -144,8 +144,6 @@
   <NonRecruitable>Unwavering loyalty</NonRecruitable>
   <!-- EN: This prisoner is so unwaveringly loyal to their home that they refuse to be recruited entirely. -->
   <NonRecruitableTip>This prisoner is so unwaveringly loyal to their home that they refuse to be recruited entirely.</NonRecruitableTip>
-  <!-- EN: Their loyalty extends to their beliefs and they cannot be converted. -->
-  <NonRecruitableTipCannotConvert>Their loyalty extends to their beliefs and they cannot be converted.</NonRecruitableTipCannotConvert>
   <!-- EN: What type of medicine can be given to this prisoner. -->
   <MedicineQualityDescriptionPrisoner>TODO</MedicineQualityDescriptionPrisoner>
 
@@ -452,6 +450,7 @@
   <StudyNotesTab_NoDiscoveries>TODO</StudyNotesTab_NoDiscoveries>
 
   <!-- UNUSED -->
+  <NonRecruitableTipCannotConvert>Their loyalty extends to their beliefs and they cannot be converted.</NonRecruitableTipCannotConvert>
   <SelfTend>Self-tend</SelfTend>
   <SelfTendTip>{0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency.</SelfTendTip>
 

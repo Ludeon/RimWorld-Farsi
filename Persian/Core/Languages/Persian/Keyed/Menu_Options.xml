@@ -31,7 +31,7 @@
   <!-- EN: Screen-edge mouse scroll -->
   <EdgeScreenScroll>اسکرول ماوس لبه صفحه</EdgeScreenScroll>
   <!-- EN: Zoom to mouse -->
-  <ZoomToMouse>TODO</ZoomToMouse>
+  <ZoomToMouse>بزرگنمایی به سمت ماوس</ZoomToMouse>
   <!-- EN: Pause on load -->
   <PauseOnLoad>مکث در بارگذاری</PauseOnLoad>
   <!-- EN: Pause on urgent letter -->
@@ -72,14 +72,6 @@
   <OpenLogOnWarnings>TODO</OpenLogOnWarnings>
   <!-- EN: Close log by pressing cancel -->
   <CloseLogWindowOnEscape>TODO</CloseLogWindowOnEscape>
-  <!-- EN: Simulate not owning Royalty -->
-  <SimulateNotOwningRoyalty>شبیه سازی عدم مالکیت Royalty</SimulateNotOwningRoyalty>
-  <!-- EN: Simulate not owning Ideology -->
-  <SimulateNotOwningIdeology>شبیه سازی عدم مالکیت Ideology</SimulateNotOwningIdeology>
-  <!-- EN: Simulate not owning Biotech -->
-  <SimulateNotOwningBiotech>شبیه سازی عدم مالکیت Biotech</SimulateNotOwningBiotech>
-  <!-- EN: Simulate not owning Anomaly -->
-  <SimulateNotOwningAnomaly>TODO</SimulateNotOwningAnomaly>
   <!-- EN: Verbose logging -->
   <LogVerbose>ثبت نام مفصل</LogVerbose>
   <!-- EN: Save data folder -->
@@ -115,7 +107,7 @@
   <!-- EN: Show realtime clock -->
   <ShowRealtimeClock>نمایش ساعت بیدرنگ</ShowRealtimeClock>
   <!-- EN: Use 12 hour clock -->
-  <TwelveHourClockMode>TODO</TwelveHourClockMode>
+  <TwelveHourClockMode>استفاده از ساعت 12 ساعته</TwelveHourClockMode>
   <!-- EN: Disable tiny font -->
   <DisableTinyText>فونت کوچک را غیرفعال کنید</DisableTinyText>
   <!-- EN: Maximum number of colonies: {0} -->
@@ -174,5 +166,10 @@
   <!-- Background image -->
   <!-- EN: Menu background -->
   <SetBackgroundImage>پس زمینه منو</SetBackgroundImage>
+
+  <!-- UNUSED -->
+  <SimulateNotOwningRoyalty>شبیه سازی عدم مالکیت Royalty</SimulateNotOwningRoyalty>
+  <SimulateNotOwningIdeology>شبیه سازی عدم مالکیت Ideology</SimulateNotOwningIdeology>
+  <SimulateNotOwningBiotech>شبیه سازی عدم مالکیت Biotech</SimulateNotOwningBiotech>
 
 </LanguageData>

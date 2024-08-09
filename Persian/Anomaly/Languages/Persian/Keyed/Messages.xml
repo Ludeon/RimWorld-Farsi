@@ -44,9 +44,9 @@
   <MessageBiomutationLanceTargetTooBig>Cannot target: {0_nameDef} is too large.</MessageBiomutationLanceTargetTooBig>
 
   <!-- Containment -->
-  <!-- EN: Warning: No rooms have the minimum containment strength for {0}. It will escape soon. -->
+  <!-- EN: Warning: No rooms have the minimum containment strength for {0}. It may escape soon. -->
   <MessageNoRoomWithMinimumContainmentStrength>Warning: No rooms have the minimum containment strength for {0}. It will escape soon.</MessageNoRoomWithMinimumContainmentStrength>
-  <!-- EN: Warning: {0} is below minimum containment strength for {1}. It will escape soon. -->
+  <!-- EN: Warning: {0} is below minimum containment strength for {1}. It may escape soon. -->
   <MessageTargetBelowMinimumContainmentStrength>Warning: {0} is below minimum containment strength for {1}. It will escape soon.</MessageTargetBelowMinimumContainmentStrength>
   <!-- EN: Can't transfer to {0} reserved by someone else. -->
   <MessageHolderReserved>Can't transfer to {0} reserved by someone else.</MessageHolderReserved>

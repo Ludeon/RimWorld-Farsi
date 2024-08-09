@@ -3,21 +3,21 @@
 
   <!-- WITab titles -->
   <!-- EN: Terrain -->
-  <TabTerrain>Terrain</TabTerrain>
+  <TabTerrain>زمین</TabTerrain>
   <!-- EN: Planet -->
-  <TabPlanet>Planet</TabPlanet>
+  <TabPlanet>سیاره</TabPlanet>
   <!-- EN: Feeding -->
   <TabCaravanFeeding>تغذیه</TabCaravanFeeding>
   <!-- EN: Social -->
-  <TabCaravanSocial>Social</TabCaravanSocial>
+  <TabCaravanSocial>اجتماعی</TabCaravanSocial>
   <!-- EN: Health -->
   <TabCaravanHealth>سلامتی</TabCaravanHealth>
   <!-- EN: Needs -->
-  <TabCaravanNeeds>Needs</TabCaravanNeeds>
+  <TabCaravanNeeds>نیازها</TabCaravanNeeds>
   <!-- EN: Gear -->
-  <TabCaravanGear>Gear</TabCaravanGear>
+  <TabCaravanGear>تجهیزات</TabCaravanGear>
   <!-- EN: Items -->
-  <TabCaravanItems>Items</TabCaravanItems>
+  <TabCaravanItems>آیتم‌ها</TabCaravanItems>
   
   <!-- Misc -->
   <!-- EN: Abandon {{0}}x {0} -->
@@ -25,9 +25,9 @@
   <!-- EN: Do you really want to abandon {0}?\n\nAbandoned items vanish and can never be recovered. -->
   <ConfirmAbandonItemDialog>Do you really want to abandon {0}?\n\nAbandoned items vanish and can never be recovered.</ConfirmAbandonItemDialog>
   <!-- EN: Abandon -->
-  <AbandonTip>Abandon</AbandonTip>
+  <AbandonTip>رها کردن</AbandonTip>
   <!-- EN: Banish -->
-  <BanishTip>Banish</BanishTip>
+  <BanishTip>تبعید</BanishTip>
   <!-- EN: Abandon specific count -->
   <AbandonSpecificCountTip>Abandon specific count</AbandonSpecificCountTip>
   <!-- EN: Abandon (all) -->
@@ -47,7 +47,7 @@
   <!-- EN: Click to open a tab with more details. -->
   <OpenSpecificTabButtonTip>Click to open a tab with more details.</OpenSpecificTabButtonTip>
   <!-- EN: Prisoners -->
-  <CaravanPrisoners>Prisoners</CaravanPrisoners>
+  <CaravanPrisoners>زندانیان</CaravanPrisoners>
   <!-- EN: Equippable items -->
   <CaravanWeaponsAndApparel>Equippable items</CaravanWeaponsAndApparel>
   <!-- EN: None capable -->
@@ -57,11 +57,11 @@
   
   <!-- Caravan gear -->
   <!-- EN: Drag to rearrange. -->
-  <DragToRearrange>Drag to rearrange.</DragToRearrange>
+  <DragToRearrange>برای تغییر ترتیب بکشید.</DragToRearrange>
 
   <!-- Caravan items -->
   <!-- EN: Assign drug policies -->
-  <AssignDrugPolicies>Assign drug policies</AssignDrugPolicies>
+  <AssignDrugPolicies>تعیین سیاست‌های دارو</AssignDrugPolicies>
 
   <!-- Caravan health -->
   <!-- EN: Whether this person or animal should be carried by other caravan members when sick.\n\nCarried caravan members can rest even if the caravan is moving, but they slow it down. -->

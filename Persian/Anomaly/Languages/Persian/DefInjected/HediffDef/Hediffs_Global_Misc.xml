@@ -15,6 +15,11 @@
   <!-- EN: This person has been hypnotized by an awoken unnatural corpse. The trance is absolute, but if the awoken corpse breaks its gaze then the hypnosis will end. -->
   <AwokenHypnosis.description>TODO</AwokenHypnosis.description>
   
+  <!-- EN: bioferrite extracted -->
+  <BioferriteExtracted.label>TODO</BioferriteExtracted.label>
+  <!-- EN: Bioferrite has been surgically removed from this entity. It will regenerate, but the process takes days. -->
+  <BioferriteExtracted.description>TODO</BioferriteExtracted.description>
+  
   <!-- EN: bliss lobotomy -->
   <BlissLobotomy.label>TODO</BlissLobotomy.label>
   <!-- EN: This person has been psychically lobotomized, placing them in a state of bliss but limiting their cognitive function. -->
@@ -33,7 +38,9 @@
   <!-- EN: severe -->
   <BloodRage.stages.severe.label>TODO</BloodRage.stages.severe.label>
   <!-- EN: extreme -->
-  <BloodRage.stages.extreme.label>TODO</BloodRage.stages.extreme.label>
+  <BloodRage.stages.extreme-0.label>TODO</BloodRage.stages.extreme-0.label>
+  <!-- EN: extreme -->
+  <BloodRage.stages.extreme-1.label>TODO</BloodRage.stages.extreme-1.label>
   
   <!-- EN: brainwipe coma -->
   <BrainwipeComa.label>TODO</BrainwipeComa.label>
@@ -65,7 +72,7 @@
   
   <!-- EN: crumbling mind -->
   <CrumblingMindUndiagnosedCreepjoiner.label>TODO</CrumblingMindUndiagnosedCreepjoiner.label>
-  <!-- EN: This person is experiencing a rapidly decaying mental state. Within a few days, they will be incapable of most work. With sufficient technology, like a healer mech serum, the condition can still be reversed. However, it will soon become permanent. -->
+  <!-- EN: This person is showing early signs of a condition which will cause severe mental degradation. They will begin to display symptoms within a matter of days. -->
   <CrumblingMindUndiagnosedCreepjoiner.description>TODO</CrumblingMindUndiagnosedCreepjoiner.description>
   <!-- EN: {PAWN_nameDef} is showing early signs of a severe condition which will soon cause severe mental degradation. {SURGEON_nameDef} can't yet tell exactly what is causing this, but {PAWN_nameDef} will become very ill within the next few days. -->
   <CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>TODO</CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
@@ -78,7 +85,7 @@
   
   <!-- EN: crumbling mind -->
   <CrumblingMindUndiagnosedDuplication.label>TODO</CrumblingMindUndiagnosedDuplication.label>
-  <!-- EN: This person is experiencing a rapidly decaying mental state. Within a few days, they will be incapable of most work. With sufficient technology, like a healer mech serum, the condition can still be reversed. However, it will soon become permanent. -->
+  <!-- EN: This person is showing early signs of a condition which will cause severe mental degradation. They will begin to display symptoms within a matter of days. -->
   <CrumblingMindUndiagnosedDuplication.description>TODO</CrumblingMindUndiagnosedDuplication.description>
   <!-- EN: {PAWN_nameDef} is showing early signs of a severe condition which will soon cause severe mental degradation. {SURGEON_nameDef} can't yet tell exactly what is causing this, but {PAWN_nameDef} will become very ill within the next few days. -->
   <CrumblingMindUndiagnosedDuplication.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>TODO</CrumblingMindUndiagnosedDuplication.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
@@ -299,7 +306,7 @@
   
   <!-- EN: revenant hypnosis -->
   <RevenantHypnosis.label>TODO</RevenantHypnosis.label>
-  <!-- EN: This person has been hypnotized by a revenant and remains linked to it. They ramble about nightmarish creatures while their unblinking eyes stare at invisible horrors.\n\nAfter hypnotizing a victim, the revenant will hibernate somewhere on the same map as its victim.\n\nKilling the revenant will end the hypnosis. A hidden revenant can be revealed by disruptor flares, explosives, EMP, firefoam, or by being lit on fire. -->
+  <!-- EN: This person has been hypnotized by a revenant and remains linked to it. They ramble about nightmarish creatures while their unblinking eyes stare at invisible horrors.\n\nAfter hypnotizing a victim, the revenant will hibernate somewhere on the same map as its victim.\n\nKilling the revenant will end the hypnosis. A hidden revenant can be revealed by disruptor flares, explosives, EMP, firefoam, or fire. -->
   <RevenantHypnosis.description>TODO</RevenantHypnosis.description>
   
   <!-- EN: shard holder -->

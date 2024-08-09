@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: Cancel -->
-  <DesignatorCancel>Cancel</DesignatorCancel>
+  <DesignatorCancel>لغو</DesignatorCancel>
   <!-- EN: Cancel designated building, mining, hauling, harvesting, and all other designations. -->
   <DesignatorCancelDesc>Cancel designated building, mining, hauling, harvesting, and all other designations.</DesignatorCancelDesc>
 
@@ -12,7 +12,7 @@
   <DesignatorCutPlantsDesc>Marks plants to be cut and destroyed. The plant will be completely removed, and any food or resource yield will be harvested.</DesignatorCutPlantsDesc>
 
   <!-- EN: Deconstruct -->
-  <DesignatorDeconstruct>Deconstruct</DesignatorDeconstruct>
+  <DesignatorDeconstruct>تخریب</DesignatorDeconstruct>
   <!-- EN: Deconstruct this and reclaim part of its resources. -->
   <DesignatorDeconstructDesc>Deconstruct this and reclaim part of its resources.</DesignatorDeconstructDesc>
 
@@ -27,29 +27,29 @@
   <DesignatorExtractTreeDesc>Extract this tree while keeping it alive so it can be replanted somewhere else.</DesignatorExtractTreeDesc>
 
   <!-- EN: Harvest -->
-  <DesignatorHarvest>Harvest</DesignatorHarvest>
+  <DesignatorHarvest>برداشت</DesignatorHarvest>
   <!-- EN: Marks plants to be harvested for their food or other products. -->
   <DesignatorHarvestDesc>Marks plants to be harvested for their food or other products.</DesignatorHarvestDesc>
 
   <!-- EN: Chop wood -->
-  <DesignatorHarvestWood>Chop wood</DesignatorHarvestWood>
+  <DesignatorHarvestWood>بریدن چوب</DesignatorHarvestWood>
   <!-- EN: Marks trees to be chopped down for wood. -->
   <DesignatorHarvestWoodDesc>Marks trees to be chopped down for wood.</DesignatorHarvestWoodDesc>
 
   <!-- EN: Haul things -->
-  <DesignatorHaulThings>Haul things</DesignatorHaulThings>
+  <DesignatorHaulThings>حمل وسایل</DesignatorHaulThings>
   <!-- EN: Mark rock chunks and other items to be hauled to dumping areas. Not needed for things like food or corpses, which are always haulable. -->
   <DesignatorHaulThingsDesc>Mark rock chunks and other items to be hauled to dumping areas. Not needed for things like food or corpses, which are always haulable.</DesignatorHaulThingsDesc>
   <!-- EN: Can only designate haulable but non-always-hauled things (like rock chunks). -->
   <MustHaulHaulables>Can only designate haulable but non-always-hauled things (like rock chunks).</MustHaulHaulables>
 
   <!-- EN: Hunt -->
-  <DesignatorHunt>Hunt</DesignatorHunt>
+  <DesignatorHunt>شکار</DesignatorHunt>
   <!-- EN: Mark animals to be hunted by your hunters. -->
   <DesignatorHuntDesc>Mark animals to be hunted by your hunters.</DesignatorHuntDesc>
 
   <!-- EN: Mine -->
-  <DesignatorMine>Mine</DesignatorMine>
+  <DesignatorMine>استخراج</DesignatorMine>
   <!-- EN: Designate areas of rock to be mined out. -->
   <DesignatorMineDesc>Designate areas of rock to be mined out.</DesignatorMineDesc>
 
@@ -72,7 +72,7 @@
   <DesignatorSmoothFloorsDesc>TODO</DesignatorSmoothFloorsDesc>
 
   <!-- EN: Plan -->
-  <DesignatorPlan>Plan</DesignatorPlan>
+  <DesignatorPlan>برنامه‌ریزی</DesignatorPlan>
   <!-- EN: Place planning designations. These don't do anything except help you plan future expansions. -->
   <DesignatorPlanDesc>Place planning designations. These don't do anything except help you plan future expansions.</DesignatorPlanDesc>
 
@@ -82,12 +82,12 @@
   <DesignatorPlanRemoveDesc>Remove planning designations.</DesignatorPlanRemoveDesc>
 
   <!-- EN: Forbid -->
-  <DesignatorForbid>Forbid</DesignatorForbid>
+  <DesignatorForbid>ممنوع</DesignatorForbid>
   <!-- EN: Mark items as forbidden. Colonists will not be able to interact with the designated items. -->
   <DesignatorForbidDesc>Mark items as forbidden. Colonists will not be able to interact with the designated items.</DesignatorForbidDesc>
 
   <!-- EN: Allow -->
-  <DesignatorUnforbid>Allow</DesignatorUnforbid>
+  <DesignatorUnforbid>اجازه</DesignatorUnforbid>
   <!-- EN: Mark items as not forbidden. Colonists will be able to interact with the designated items. -->
   <DesignatorUnforbidDesc>Mark items as not forbidden. Colonists will be able to interact with the designated items.</DesignatorUnforbidDesc>
 
@@ -147,14 +147,14 @@
   <DesignatorZoneCreateStorageDumpingDesc>Create a stockpile where your colonists will store junk.\nThis tool can also expand any existing stockpile.</DesignatorZoneCreateStorageDumpingDesc>
 
   <!-- EN: Shrink zones -->
-  <DesignatorZoneDelete>Shrink zones</DesignatorZoneDelete>
+  <DesignatorZoneDelete>کوچک کردن مناطق</DesignatorZoneDelete>
   <!-- EN: Shrink zone -->
   <DesignatorZoneDeleteSingular>Shrink zone</DesignatorZoneDeleteSingular>
   <!-- EN: Remove zones, like stockpile zones or growing zones. -->
   <DesignatorZoneDeleteDesc>Remove zones, like stockpile zones or growing zones.</DesignatorZoneDeleteDesc>
 
   <!-- EN: Expand zone -->
-  <DesignatorZoneExpand>Expand zone</DesignatorZoneExpand>
+  <DesignatorZoneExpand>گسترش منطقه</DesignatorZoneExpand>
   
   <!-- EN: Claim -->
   <DesignatorClaim>Claim</DesignatorClaim>
@@ -162,32 +162,32 @@
   <DesignatorClaimDesc>Claim neutral structures for the colony, including ancient ruins and abandoned siege bases. Claimed structures can be repaired and maintained by your colonists.</DesignatorClaimDesc>
 
   <!-- EN: Remove floor -->
-  <DesignatorRemoveFloor>Remove floor</DesignatorRemoveFloor>
+  <DesignatorRemoveFloor>حذف کف</DesignatorRemoveFloor>
   <!-- EN: Remove floors to reveal the terrain underneath. -->
   <DesignatorRemoveFloorDesc>Remove floors to reveal the terrain underneath.</DesignatorRemoveFloorDesc>
 
   <!-- EN: Remove bridge -->
-  <DesignatorRemoveBridge>Remove bridge</DesignatorRemoveBridge>
+  <DesignatorRemoveBridge>حذف پل</DesignatorRemoveBridge>
   <!-- EN: Remove bridges to reveal the terrain underneath. -->
   <DesignatorRemoveBridgeDesc>Remove bridges to reveal the terrain underneath.</DesignatorRemoveBridgeDesc>
 
   <!-- EN: Strip -->
-  <DesignatorStrip>Strip</DesignatorStrip>
+  <DesignatorStrip>لخت کردن</DesignatorStrip>
   <!-- EN: Strip apparel from corpses and the wounded. -->
   <DesignatorStripDesc>Strip apparel from corpses and the wounded.</DesignatorStripDesc>
 
   <!-- EN: Open -->
-  <DesignatorOpen>Open</DesignatorOpen>
+  <DesignatorOpen>باز کردن</DesignatorOpen>
   <!-- EN: Open containers. -->
   <DesignatorOpenDesc>Open containers.</DesignatorOpenDesc>
   
   <!-- EN: Slaughter -->
-  <DesignatorSlaughter>Slaughter</DesignatorSlaughter>
+  <DesignatorSlaughter>کشتار</DesignatorSlaughter>
   <!-- EN: Slaughter a tame animal. -->
   <DesignatorSlaughterDesc>Slaughter a tame animal.</DesignatorSlaughterDesc>
 
   <!-- EN: Tame -->
-  <DesignatorTame>Tame</DesignatorTame>
+  <DesignatorTame>رام کردن</DesignatorTame>
   <!-- EN: Tame a wild animal. -->
   <DesignatorTameDesc>Tame a wild animal.</DesignatorTameDesc>
 
@@ -197,7 +197,7 @@
   <DesignatorReleaseAnimalToWildDesc>Release an animal back into the wild.</DesignatorReleaseAnimalToWildDesc>
 
   <!-- EN: Study -->
-  <DesignatorStudy>Study</DesignatorStudy>
+  <DesignatorStudy>مطالعه</DesignatorStudy>
   <!-- EN: Study this object to learn more about it. -->
   <DesignatorStudyDesc>Study this object to learn more about it.</DesignatorStudyDesc>
 
