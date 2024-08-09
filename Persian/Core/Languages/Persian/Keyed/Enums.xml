@@ -13,7 +13,7 @@
   <!-- EN: very cheap -->
   <PriceTypeVeryCheap>خیلی ارزان</PriceTypeVeryCheap>
   <!-- EN: cheap -->
-  <PriceTypeCheap>cheap</PriceTypeCheap>
+  <PriceTypeCheap>ارزان</PriceTypeCheap>
   <!-- EN: normal -->
   <PriceTypeNormal>normal</PriceTypeNormal>
   <!-- EN: expensive -->
@@ -39,11 +39,11 @@
   <!-- EN: vegetables -->
   <FoodTypeFlags_VegetableOrFruit>vegetables</FoodTypeFlags_VegetableOrFruit>
   <!-- EN: raw meat -->
-  <FoodTypeFlags_Meat>raw meat</FoodTypeFlags_Meat>
+  <FoodTypeFlags_Meat>گوشت خام</FoodTypeFlags_Meat>
   <!-- EN: corpses -->
-  <FoodTypeFlags_Corpse>corpses</FoodTypeFlags_Corpse>
+  <FoodTypeFlags_Corpse>اجساد</FoodTypeFlags_Corpse>
   <!-- EN: seeds -->
-  <FoodTypeFlags_Seed>seeds</FoodTypeFlags_Seed>
+  <FoodTypeFlags_Seed>بذرها</FoodTypeFlags_Seed>
   <!-- EN: animal products -->
   <FoodTypeFlags_AnimalProduct>animal products</FoodTypeFlags_AnimalProduct>
   <!-- EN: live plants -->
