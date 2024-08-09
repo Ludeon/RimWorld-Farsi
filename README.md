@@ -7,12 +7,15 @@ Welcome to the Farsi translation repository for RimWorld!
 
 
 ## Installation Instructions
+### Method 1
 To add the Farsi language to your game:
 1. Download the `persian.language.zip` file from the **Releases** section.
 2. Extract the contents.
 3. Copy the extracted folder to the following directory:  
    `<RimWorld Installation Path>\Data\`
-
+### Method 2
+1. copy AutoFainstall.bat to root of game folder .
+2. run it
 
 ## Contribution
 These translations are a collaborative effort by the RimWorld community. If you're a fan and wish to enhance the Farsi translation, your contributions are welcome!
@@ -30,5 +33,6 @@ For details regarding the licensing of these translations, please visit our foru
 
 ## Acknowledgments
 - mtimoustafa 
+- asidsx
 
 

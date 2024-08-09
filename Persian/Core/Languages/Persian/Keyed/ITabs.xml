@@ -19,15 +19,15 @@
   <!-- EN: Needs -->
   <TabNeeds>نیازها</TabNeeds>
   <!-- EN: Storage -->
-  <TabStorage>Storage</TabStorage>
+  <TabStorage>انبار</TabStorage>
   <!-- EN: Shells -->
-  <TabShells>Shells</TabShells>
+  <TabShells>پوسته‌ها</TabShells>
   <!-- EN: Health -->
   <TabHealth>سلامتی</TabHealth>
   <!-- EN: Race -->
   <TabRace>نژاد</TabRace>
   <!-- EN: Basics -->
-  <TabBasics>Basics</TabBasics>
+  <TabBasics>نیازها</TabBasics>
   <!-- EN: Stats -->
   <TabStats>آمار</TabStats>
   <!-- EN: Records -->
@@ -35,27 +35,27 @@
   <!-- EN: Art -->
   <TabArt>هنر</TabArt>
   <!-- EN: Social -->
-  <TabSocial>Social</TabSocial>
+  <TabSocial>اجتماعی</TabSocial>
   <!-- EN: Log -->
   <TabLog>Log</TabLog>
   <!-- EN: Animals -->
-  <TabPenAnimals>Animals</TabPenAnimals>
+  <TabPenAnimals>حیوانات</TabPenAnimals>
   <!-- EN: Food -->
   <TabPenFood>غذا</TabPenFood>
   <!-- EN: Auto-cut -->
   <TabPenAutoCut>Auto-cut</TabPenAutoCut>
   <!-- EN: Caravan -->
-  <TabFormingCaravan>Caravan</TabFormingCaravan>
+  <TabFormingCaravan>کاروان</TabFormingCaravan>
   <!-- EN: Contents -->
-  <TabTransporterContents>Contents</TabTransporterContents>
+  <TabTransporterContents>محتویات</TabTransporterContents>
   <!-- EN: Travel -->
-  <TabMapPortalContents>TODO</TabMapPortalContents>
+  <TabMapPortalContents>سفر</TabMapPortalContents>
   <!-- EN: Contents -->
-  <TabCasketContents>Contents</TabCasketContents>
+  <TabCasketContents>محتویات</TabCasketContents>
   <!-- EN: Details -->
-  <TabBookContents>TODO</TabBookContents>
+  <TabBookContents>جزئیات</TabBookContents>
   <!-- EN: Study -->
-  <TabStudyNotesContents>TODO</TabStudyNotesContents>
+  <TabStudyNotesContents>مطالعه</TabStudyNotesContents>
   <!-- EN: Auto-cut -->
   <TabWindTurbineAutoCut>Auto-cut</TabWindTurbineAutoCut>
   
@@ -71,7 +71,7 @@
   <!-- EN: Worker: {1_labelShort} -->
   <BoundWorkerIs>Worker: {1_labelShort}</BoundWorkerIs>
   <!-- EN: Plant -->
-  <PlantVerb>Plant</PlantVerb>
+  <PlantVerb>کاشتن</PlantVerb>
   <!-- EN: Copied bill cannot be pasted here -->
   <ClipboardBillNotAvailableHere>Copied bill cannot be pasted here</ClipboardBillNotAvailableHere>
   <!-- EN: Move up -->
@@ -222,13 +222,13 @@
   <!-- EN: Prevents infection -->
   <PreventsInfection>Prevents infection</PreventsInfection>
   <!-- EN: Allow self-tend -->
-  <AllowSelfTend>TODO</AllowSelfTend>
+  <AllowSelfTend>اجازه به خود درمانی</AllowSelfTend>
   <!-- EN: {0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency. -->
   <AllowSelfTendTip>TODO</AllowSelfTendTip>
   <!-- EN: death in {0} -->
   <DeathIn>death in {0}</DeathIn>
   <!-- EN: Allow medicine -->
-  <AllowMedicine>TODO</AllowMedicine>
+  <AllowMedicine>اجازه دارو</AllowMedicine>
   <!-- EN: What type of medicine can be given to this person. -->
   <MedicineQualityDescription>TODO</MedicineQualityDescription>
   <!-- EN: What type of food can be given to this person. -->
