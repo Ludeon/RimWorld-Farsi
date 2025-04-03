@@ -1,38 +1,51 @@
 
 # RimWorld Farsi Translation
 
-Welcome to the Farsi translation repository for RimWorld!
+Welcome to the official repository for the Farsi translation of RimWorld! Here, we bring the captivating universe of RimWorld to life in the Persian language, ensuring an immersive experience for our players.
 
-توضیحات فارسی 🇮🇷 [ریدمی فارسی](https://github.com/Ludeon/RimWorld-Farsi/blob/master/README_fa.md)
+🌟 **توضیحات فارسی 🇮🇷:** [ریدمی فارسی](https://github.com/Ludeon/RimWorld-Farsi/blob/master/README_fa.md)
 
+---
 
-## Installation Instructions
-### Method 1
-To add the Farsi language to your game:
+## 🚀 Installation Instructions
+
+Add the Persian language to your RimWorld adventure in just a few steps:
+
+### **Method 1: Manual Installation**
 1. Download the `persian.language.zip` file from the **Releases** section.
-2. Extract the contents.
-3. Copy the extracted folder to the following directory:  
-   `<RimWorld Installation Path>\Data\`
-### Method 2
-1. copy AutoFainstall.bat to root of game folder .
-2. run it
+2. Extract the contents of the zip file.
+3. Copy the extracted folder to the directory:
+   ```
+   <RimWorld Installation Path>\Data\
+   ```
 
-## Contribution
-These translations are a collaborative effort by the RimWorld community. If you're a fan and wish to enhance the Farsi translation, your contributions are welcome!
+### **Method 2: Simplified Batch Script**
+1. Copy `AutoFainstall.bat` to the root of your RimWorld game folder.
+2. Execute the batch file and let it handle the rest!
 
-### Translation Conversion Tool
-The game engines often do not support RTL languages like Farsi and Arabic natively. To address this, we use a conversion tool that adapts the text for proper in-game display. The `rimworld-rtl-translation-tools-PersianModded` is a variant of this tool, specifically altered to support the Persian alphabet.
+---
 
-To test source code and build fixed RTL text for the game, utilize the `rimworld-rtl-translation-tools-PersianModded`. Just so you know, running this tool requires Ruby.
+## 🤝 Contribution
 
+The Farsi translation is a community-driven project powered by passionate RimWorld fans. Want to improve the translation or fix a bug? We'd love for you to contribute and make the Persian experience even better!
 
-## License Information
-For details regarding the licensing of these translations, please visit our forum discussion.
+### **RTL Language Support**
+Since Farsi and Arabic languages utilize RTL (Right-to-Left) scripts, we've developed a specialized tool: `rimworld-rtl-translation-tools-PersianModded`. This ensures proper text display within the game by adapting the language layout.
 
-[ludeon Forum](http://ludeon.com/forums/index.php?topic=2933.0)
+💡 *Note:* You’ll need **Ruby** installed to run the conversion tool.
 
-## Acknowledgments
-- mtimoustafa 
-- asidsx
+---
 
+## 📜 License Information
+
+The translation adheres to specific licensing terms discussed in detail on the Ludeon Forum. For more information, check out:  
+🔗 [Ludeon Forum](http://ludeon.com/forums/index.php?topic=2933.0)
+
+---
+
+## 🏆 Acknowledgments
+
+Special thanks to our amazing contributors:  
+- **mtimoustafa**  
+- **asidsx**
 
