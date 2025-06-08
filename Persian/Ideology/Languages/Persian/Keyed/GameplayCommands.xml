@@ -4,31 +4,31 @@
   <!-- EN: For slaves -->
   <CommandBedSetForSlavesLabel>برای برده ها</CommandBedSetForSlavesLabel>
   <!-- EN: For colonists -->
-  <CommandBedSetForColonistsLabel>TODO</CommandBedSetForColonistsLabel>
+  <CommandBedSetForColonistsLabel>برای مستعمره‌نشینان</CommandBedSetForColonistsLabel>
   <!-- EN: Whether beds in this room should be used by colonists, prisoners or slaves. -->
-  <CommandBedSetForOwnerTypeDesc>TODO</CommandBedSetForOwnerTypeDesc>
+  <CommandBedSetForOwnerTypeDesc>اینکه تخت‌های این اتاق باید توسط مستعمره‌نشینان، زندانیان یا بردگان استفاده شوند.</CommandBedSetForOwnerTypeDesc>
 
   <!-- EN: No auto-use -->
-  <CommandNeuralSuperchargerNoAutoUse>TODO</CommandNeuralSuperchargerNoAutoUse>
+  <CommandNeuralSuperchargerNoAutoUse>استفاده خودکار ممنوع</CommandNeuralSuperchargerNoAutoUse>
   <!-- EN: None of your people will use this neural supercharger automatically. -->
-  <CommandNeuralSuperchargerNoAutoUseDescription>TODO</CommandNeuralSuperchargerNoAutoUseDescription>
+  <CommandNeuralSuperchargerNoAutoUseDescription>هیچ‌یک از افراد شما به طور خودکار از این سوپرشارژر عصبی استفاده نخواهند کرد.</CommandNeuralSuperchargerNoAutoUseDescription>
   <!-- EN: Auto-use with desire -->
-  <CommandNeuralSuperchargerAutoUseWithDesire>TODO</CommandNeuralSuperchargerAutoUseWithDesire>
+  <CommandNeuralSuperchargerAutoUseWithDesire>استفاده خودکار با خواسته</CommandNeuralSuperchargerAutoUseWithDesire>
   <!-- EN: Your people may use this neural supercharger automatically, if they want to because of their beliefs. -->
-  <CommandNeuralSuperchargerAutoUseWithDesireDescription>TODO</CommandNeuralSuperchargerAutoUseWithDesireDescription>
+  <CommandNeuralSuperchargerAutoUseWithDesireDescription>افراد شما ممکن است به طور خودکار از این سوپرشارژر عصبی استفاده کنند، اگر به دلیل باورهایشان بخواهند.</CommandNeuralSuperchargerAutoUseWithDesireDescription>
   <!-- EN: Auto-use for everyone -->
-  <CommandNeuralSuperchargerAutoForEveryone>TODO</CommandNeuralSuperchargerAutoForEveryone>
+  <CommandNeuralSuperchargerAutoForEveryone>استفاده خودکار برای همه</CommandNeuralSuperchargerAutoForEveryone>
   <!-- EN: All of your people will use this neural supercharger if they get the chance. -->
-  <CommandNeuralSuperchargerAutoForEveryoneDescription>TODO</CommandNeuralSuperchargerAutoForEveryoneDescription>
+  <CommandNeuralSuperchargerAutoForEveryoneDescription>تمام افراد شما در صورت امکان از این سوپرشارژر عصبی استفاده خواهند کرد.</CommandNeuralSuperchargerAutoForEveryoneDescription>
   <!-- EN: Allow guests -->
-  <CommandNeuralSuperchargerAllowGuests>TODO</CommandNeuralSuperchargerAllowGuests>
+  <CommandNeuralSuperchargerAllowGuests>اجازه مهمانان</CommandNeuralSuperchargerAllowGuests>
   <!-- EN: Allow this neural supercharger to be used by temporary faction members. -->
-  <CommandNeuralSuperchargerAllowGuestsDescription>TODO</CommandNeuralSuperchargerAllowGuestsDescription>
+  <CommandNeuralSuperchargerAllowGuestsDescription>اجازه دهید این سوپرشارژر عصبی توسط اعضای موقت جناح استفاده شود.</CommandNeuralSuperchargerAllowGuestsDescription>
 
   <!-- EN: Select connected tree -->
-  <CommandSelectConnectedTree>TODO</CommandSelectConnectedTree>
+  <CommandSelectConnectedTree>انتخاب درخت متصل</CommandSelectConnectedTree>
   <!-- EN: Create healing pod -->
-  <CommandHealInHealingPod>TODO</CommandHealInHealingPod>
+  <CommandHealInHealingPod>ایجاد غلاف التیام</CommandHealInHealingPod>
   <!-- EN: If this creature is injured, it will return to its connected Gauranlen tree and enter a woody healing pod. After {DAYS} days, the dryad will emerge with its wounds healed. -->
-  <CommandHealInHealingPodDesc>TODO</CommandHealInHealingPodDesc>
+  <CommandHealInHealingPodDesc>اگر این موجود زخمی باشد، به درخت گائورانلن متصل خود بازگشته و وارد یک غلاف التیام چوبی خواهد شد. پس از {DAYS} روز، دراید با زخم‌های التیام یافته بیرون خواهد آمد.</CommandHealInHealingPodDesc>
 </LanguageData>

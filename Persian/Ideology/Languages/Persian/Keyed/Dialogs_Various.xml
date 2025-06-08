@@ -3,334 +3,334 @@
 
   <!-- Misc -->
   <!-- EN: Trading animal products bonus -->
-  <TradingAnimalProduceBonus>TODO</TradingAnimalProduceBonus>
+  <TradingAnimalProduceBonus>پاداش تجارت محصولات حیوانی</TradingAnimalProduceBonus>
   <!-- EN: Slaves -->
-  <SlavesSection>TODO</SlavesSection>
+  <SlavesSection>بردگان</SlavesSection>
   <!-- EN: dominant style -->
-  <DominantStyle>TODO</DominantStyle>
+  <DominantStyle>سبک غالب</DominantStyle>
   <!-- EN: Date -->
-  <Date>TODO</Date>
+  <Date>تاریخ</Date>
   <!-- EN: The following development points will be awarded depending on the ritual outcome -->
-  <RitualDevelopmentPointRewards>TODO</RitualDevelopmentPointRewards>
+  <RitualDevelopmentPointRewards>امتیازات توسعه زیر بسته به نتیجه مراسم اعطا خواهد شد</RitualDevelopmentPointRewards>
   <!-- EN: Use global style -->
-  <UseGlobalStyle>TODO</UseGlobalStyle>
+  <UseGlobalStyle>استفاده از سبک جهانی</UseGlobalStyle>
   <!-- EN: No style variations available -->
-  <NoStylesAvailable>TODO</NoStylesAvailable>
+  <NoStylesAvailable>هیچ تنوع سبکی در دسترس نیست</NoStylesAvailable>
 
   <!-- EN: Choose the symbolic structure of your ideoligion. This only affects symbols - it does not affect gameplay. -->
-  <ChooseStructureMemesInfo>TODO</ChooseStructureMemesInfo>
+  <ChooseStructureMemesInfo>ساختار نمادین ایدئولوژی خود را انتخاب کنید. این فقط بر نمادها تأثیر می‌گذارد - بر گیم‌پلی تأثیری ندارد.</ChooseStructureMemesInfo>
   <!-- EN: Choose {0}-{1} memes to form the foundational ideas of this ideoligion. -->
-  <ChooseNormalMemesInfo>TODO</ChooseNormalMemesInfo>
+  <ChooseNormalMemesInfo>{0}-{1} میم را برای تشکیل ایده‌های بنیادی این ایدئولوژی انتخاب کنید.</ChooseNormalMemesInfo>
   <!-- EN: Choose at least {0} meme. -->
-  <NotEnoughMemes>TODO</NotEnoughMemes>
+  <NotEnoughMemes>حداقل {0} میم انتخاب کنید.</NotEnoughMemes>
   <!-- EN: Choose at most {0} memes. -->
-  <TooManyMemes>TODO</TooManyMemes>
+  <TooManyMemes>حداکثر {0} میم انتخاب کنید.</TooManyMemes>
   <!-- EN: Choose structure. -->
-  <ChooseStructureMeme>TODO</ChooseStructureMeme>
+  <ChooseStructureMeme>انتخاب ساختار.</ChooseStructureMeme>
   <!-- EN: {0_label} and {1_label} are incompatible. -->
-  <IncompatibleMemes>TODO</IncompatibleMemes>
+  <IncompatibleMemes>{0_label} و {1_label} ناسازگار هستند.</IncompatibleMemes>
   <!-- EN: Some of these have much more gameplay impact than others. -->
-  <SomeMemesHaveMoreImpact>TODO</SomeMemesHaveMoreImpact>
+  <SomeMemesHaveMoreImpact>برخی از این‌ها تأثیر گیم‌پلی بسیار بیشتری نسبت به دیگران دارند.</SomeMemesHaveMoreImpact>
   <!-- EN: Choose one meme to form the initial idea of this ideoligion. You will add more memes as the ideoligion develops over time. -->
-  <ChooseNormalMemesFluidIdeoInfo>TODO</ChooseNormalMemesFluidIdeoInfo>
+  <ChooseNormalMemesFluidIdeoInfo>یک میم را برای تشکیل ایده اولیه این ایدئولوژی انتخاب کنید. با گذشت زمان و توسعه ایدئولوژی، میم‌های بیشتری اضافه خواهید کرد.</ChooseNormalMemesFluidIdeoInfo>
   <!-- EN: Choose a meme or remove a meme. -->
-  <ChooseOrRemoveMeme>TODO</ChooseOrRemoveMeme>
+  <ChooseOrRemoveMeme>یک میم انتخاب کنید یا یک میم را حذف کنید.</ChooseOrRemoveMeme>
   <!-- EN: Reset changes -->
-  <ReformIdeoResetChanges>TODO</ReformIdeoResetChanges>
+  <ReformIdeoResetChanges>بازنشانی تغییرات</ReformIdeoResetChanges>
   <!-- EN: Choose {0} meme. -->
-  <NotEnoughMemesFluidIdeo>TODO</NotEnoughMemesFluidIdeo>
+  <NotEnoughMemesFluidIdeo>{0} میم انتخاب کنید.</NotEnoughMemesFluidIdeo>
 
   <!-- EN: {0} will re-randomize any precepts you have edited.\n\nDo you wish to continue? -->
-  <ChangesRandomizePrecepts>TODO</ChangesRandomizePrecepts>
+  <ChangesRandomizePrecepts>{0} هر اصلی را که ویرایش کرده‌اید دوباره تصادفی می‌کند.\n\nآیا می‌خواهید ادامه دهید؟</ChangesRandomizePrecepts>
   <!-- EN: The following precepts are incompatible with this new meme selection and will be removed:\n\n{0}\n\nDo you wish to continue? -->
-  <ChangesRemovePrecepts>TODO</ChangesRemovePrecepts>
-  
+  <ChangesRemovePrecepts>اصول زیر با انتخاب میم جدید ناسازگار هستند و حذف خواهند شد:\n\n{0}\n\nآیا می‌خواهید ادامه دهید؟</ChangesRemovePrecepts>
+
   <!-- EN: Room requirements -->
-  <RoomRequirements>TODO</RoomRequirements>
+  <RoomRequirements>الزامات اتاق</RoomRequirements>
   <!-- EN: The ideoligion you are loading has memes that are incompatible with a new fluid ideoligion and its memes will need to be chosen again (fluid ideoligions may only start with one low-impact meme). -->
-  <ConfirmChangeMemesForFluidIdeo>TODO</ConfirmChangeMemesForFluidIdeo>
+  <ConfirmChangeMemesForFluidIdeo>ایدئولوژی که در حال بارگذاری آن هستید دارای میم‌هایی است که با یک ایدئولوژی سیال جدید ناسازگار هستند و میم‌های آن باید دوباره انتخاب شوند (ایدئولوژی‌های سیال ممکن است فقط با یک میم کم‌تأثیر شروع شوند).</ConfirmChangeMemesForFluidIdeo>
   <!-- EN: The following memes are incompatible -->
-  <ConfirmIncompatibleMemes>TODO</ConfirmIncompatibleMemes>
+  <ConfirmIncompatibleMemes>میم‌های زیر ناسازگار هستند</ConfirmIncompatibleMemes>
   <!-- EN: Would you like to continue? -->
-  <ConfirmChangeMemesForFluidIdeoContinue>TODO</ConfirmChangeMemesForFluidIdeoContinue>
+  <ConfirmChangeMemesForFluidIdeoContinue>آیا می‌خواهید ادامه دهید؟</ConfirmChangeMemesForFluidIdeoContinue>
 
   <!-- EN: role -->
-  <Role>TODO</Role>
+  <Role>نقش</Role>
   <!-- EN: Assign role -->
-  <ChooseRole>TODO</ChooseRole>
+  <ChooseRole>اختصاص نقش</ChooseRole>
   <!-- EN: Choose new role -->
-  <ChooseNewRole>TODO</ChooseNewRole>
+  <ChooseNewRole>انتخاب نقش جدید</ChooseNewRole>
   <!-- EN: No role assigned -->
-  <NoRoleAssigned>TODO</NoRoleAssigned>
+  <NoRoleAssigned>نقشی اختصاص داده نشده است</NoRoleAssigned>
   <!-- EN: Children cannot take on roles -->
-  <ChildNoRoleAssigned>TODO</ChildNoRoleAssigned>
+  <ChildNoRoleAssigned>کودکان نمی‌توانند نقش بپذیرند</ChildNoRoleAssigned>
   <!-- EN: Remove {0} role -->
-  <RemoveRole>TODO</RemoveRole>
+  <RemoveRole>حذف نقش {0}</RemoveRole>
   <!-- EN: You're about to assign the role of {ROLE_labelDef} to {PAWN_labelShort}. -->
-  <ChooseRoleConfirmAssign>TODO</ChooseRoleConfirmAssign>
+  <ChooseRoleConfirmAssign>شما در شرف اختصاص نقش {ROLE_labelDef} به {PAWN_labelShort} هستید.</ChooseRoleConfirmAssign>
   <!-- EN: Are you sure? -->
-  <ChooseRoleConfirmAssignPostfix>TODO</ChooseRoleConfirmAssignPostfix>
+  <ChooseRoleConfirmAssignPostfix>آیا مطمئن هستید؟</ChooseRoleConfirmAssignPostfix>
   <!-- EN: {PAWN_labelShort} currently holds this role and will be unhappy to lose it. -->
-  <ChooseRoleConfirmAssignReplace>TODO</ChooseRoleConfirmAssignReplace>
+  <ChooseRoleConfirmAssignReplace>{PAWN_labelShort} در حال حاضر این نقش را بر عهده دارد و از دست دادن آن ناراضی خواهد شد.</ChooseRoleConfirmAssignReplace>
   <!-- EN: {PAWN_labelShort} currently holds the role of {ROLE_label} and will be unhappy to lose it. -->
-  <ChooseRoleConfirmAssignHasOtherRole>TODO</ChooseRoleConfirmAssignHasOtherRole>
+  <ChooseRoleConfirmAssignHasOtherRole>{PAWN_labelShort} در حال حاضر نقش {ROLE_label} را بر عهده دارد و از دست دادن آن ناراضی خواهد شد.</ChooseRoleConfirmAssignHasOtherRole>
   <!-- EN: There can be only one leader. This will dismiss {PAWN_labelShort} from their {OTHERROLE_labelDef} role, which will make {PAWN_objective} upset. -->
-  <ChooseRoleConfirmAssignReplaceLeader>TODO</ChooseRoleConfirmAssignReplaceLeader>
+  <ChooseRoleConfirmAssignReplaceLeader>فقط یک رهبر می‌تواند وجود داشته باشد. این {PAWN_labelShort} را از نقش {OTHERROLE_labelDef} او برکنار می‌کند، که {PAWN_objective} را ناراحت خواهد کرد.</ChooseRoleConfirmAssignReplaceLeader>
   <!-- EN: You're about to dismiss {PAWN_labelShort} from the role of {ROLE_labelIndef}. This will upset {PAWN_objective}. -->
-  <ChooseRoleConfirmUnassign>TODO</ChooseRoleConfirmUnassign>
+  <ChooseRoleConfirmUnassign>شما در شرف برکناری {PAWN_labelShort} از نقش {ROLE_labelIndef} هستید. این {PAWN_objective} را ناراحت خواهد کرد.</ChooseRoleConfirmUnassign>
   <!-- EN: {PAWN_labelShort} will gain the following abilities -->
-  <ChooseRoleListAbilities>TODO</ChooseRoleListAbilities>
+  <ChooseRoleListAbilities>{PAWN_labelShort} توانایی‌های زیر را کسب خواهد کرد</ChooseRoleListAbilities>
   <!-- EN: The {ROLE_label} role requires the following apparel -->
-  <ChooseRoleListApparelDemands>TODO</ChooseRoleListApparelDemands>
+  <ChooseRoleListApparelDemands>نقش {ROLE_label} نیاز به لباس‌های زیر دارد</ChooseRoleListApparelDemands>
   <!-- EN: {PAWN_labelShort} will refuse to do these work types -->
-  <ChooseRoleListWorkTypeRestrictions>TODO</ChooseRoleListWorkTypeRestrictions>
+  <ChooseRoleListWorkTypeRestrictions>{PAWN_labelShort} از انجام این انواع کار خودداری خواهد کرد</ChooseRoleListWorkTypeRestrictions>
   <!-- EN: It can sometimes be better to wait until your colony is more established before you assign roles. -->
-  <ChooseRoleHint>TODO</ChooseRoleHint>
+  <ChooseRoleHint>گاهی بهتر است قبل از اختصاص نقش‌ها، صبر کنید تا مستعمره شما مستقرتر شود.</ChooseRoleHint>
   <!-- EN: Unlocked by -->
-  <UnlockedByMeme>TODO</UnlockedByMeme>
+  <UnlockedByMeme>باز شده توسط</UnlockedByMeme>
   <!-- EN: Origin -->
-  <Origin>TODO</Origin>
+  <Origin>منشأ</Origin>
   <!-- EN: Unlocked roles -->
-  <MemeUnlocksRoles>TODO</MemeUnlocksRoles>
+  <MemeUnlocksRoles>نقش‌های باز شده</MemeUnlocksRoles>
   <!-- EN: Unlocked rituals -->
-  <MemeUnlocksRituals>TODO</MemeUnlocksRituals>
+  <MemeUnlocksRituals>مراسم باز شده</MemeUnlocksRituals>
   <!-- EN: WARNING: {PAWN_nameDef} is unable to do work that is required for the role of {ROLE_label}. If you choose to give {PAWN_objective} this role, {PAWN_pronoun} may be unable to use the abilities associated with {ROLE_label}. The missing work types are -->
-  <ChooseRoleRequiredWorkTagsDisabled>TODO</ChooseRoleRequiredWorkTagsDisabled>
+  <ChooseRoleRequiredWorkTagsDisabled>هشدار: {PAWN_nameDef} قادر به انجام کاری که برای نقش {ROLE_label} لازم است نیست. اگر انتخاب کنید این نقش را به {PAWN_objective} بدهید، {PAWN_pronoun} ممکن است نتواند از توانایی‌های مرتبط با {ROLE_label} استفاده کند. انواع کار گمشده عبارتند از</ChooseRoleRequiredWorkTagsDisabled>
   <!-- EN: Leader bonus -->
-  <YourLeaderTradeBonus>TODO</YourLeaderTradeBonus>
+  <YourLeaderTradeBonus>پاداش تجارت رهبر شما</YourLeaderTradeBonus>
   <!-- EN: The meme {MEME} prevents adding apparel requirements to roles. -->
-  <CannotNotAddRoleApparelDueToMeme>TODO</CannotNotAddRoleApparelDueToMeme>
+  <CannotNotAddRoleApparelDueToMeme>میم {MEME} از افزودن نیازهای لباس به نقش‌ها جلوگیری می‌کند.</CannotNotAddRoleApparelDueToMeme>
   <!-- EN: cannot be worn with {0_label} -->
-  <CannotBeWornWith>TODO</CannotBeWornWith>
+  <CannotBeWornWith>نمی‌توان با {0_label} پوشید</CannotBeWornWith>
 
   <!-- EN: Certainty reduction -->
-  <AbilityIdeoConvertBreakdownLabel>TODO</AbilityIdeoConvertBreakdownLabel>
+  <AbilityIdeoConvertBreakdownLabel>کاهش اطمینان</AbilityIdeoConvertBreakdownLabel>
   <!-- EN: Using {ABILITY} ability -->
-  <AbilityIdeoConvertBreakdownUsingAbility>TODO</AbilityIdeoConvertBreakdownUsingAbility>
+  <AbilityIdeoConvertBreakdownUsingAbility>با استفاده از توانایی {ABILITY}</AbilityIdeoConvertBreakdownUsingAbility>
   <!-- EN: {PAWN_labelShort}'s conversion power -->
-  <AbilityIdeoConvertBreakdownConversionPower>TODO</AbilityIdeoConvertBreakdownConversionPower>
+  <AbilityIdeoConvertBreakdownConversionPower>قدرت تبدیل {PAWN_labelShort}</AbilityIdeoConvertBreakdownConversionPower>
   <!-- EN: {PAWN_labelShort}'s certainty loss factor from {IDEO_name} -->
-  <AbilityIdeoConvertBreakdownIdeoCertaintyReduction>TODO</AbilityIdeoConvertBreakdownIdeoCertaintyReduction>
+  <AbilityIdeoConvertBreakdownIdeoCertaintyReduction>ضریب کاهش اطمینان {PAWN_labelShort} از {IDEO_name}</AbilityIdeoConvertBreakdownIdeoCertaintyReduction>
   <!-- EN: {PAWN_labelShort} is {ROLE_labelDef} -->
-  <AbilityIdeoConvertBreakdownRole>TODO</AbilityIdeoConvertBreakdownRole>
+  <AbilityIdeoConvertBreakdownRole>{PAWN_labelShort} {ROLE_labelDef} است</AbilityIdeoConvertBreakdownRole>
   <!-- EN: Trait {TRAIT} -->
-  <AbilityIdeoConvertBreakdownTrait>TODO</AbilityIdeoConvertBreakdownTrait>
+  <AbilityIdeoConvertBreakdownTrait>ویژگی {TRAIT}</AbilityIdeoConvertBreakdownTrait>
   <!-- EN: Precept {PRECEPT} -->
-  <AbilityIdeoConvertBreakdownPercept>TODO</AbilityIdeoConvertBreakdownPercept>
+  <AbilityIdeoConvertBreakdownPercept>اصل {PRECEPT}</AbilityIdeoConvertBreakdownPercept>
   <!-- EN: {RELICCOUNT} installed relics on map -->
-  <AbilityIdeoConvertBreakdownRelic>TODO</AbilityIdeoConvertBreakdownRelic>
+  <AbilityIdeoConvertBreakdownRelic>{RELICCOUNT} یادگار نصب شده روی نقشه</AbilityIdeoConvertBreakdownRelic>
   <!-- EN: {PAWN_labelShort}'s social skill -->
-  <AbilityIdeoConvertBreakdownSocialSkill>TODO</AbilityIdeoConvertBreakdownSocialSkill>
+  <AbilityIdeoConvertBreakdownSocialSkill>مهارت اجتماعی {PAWN_labelShort}</AbilityIdeoConvertBreakdownSocialSkill>
   <!-- EN: {RECIPIENT_labelShort}'s opinion of {INITIATOR_labelShort} -->
-  <AbilityIdeoConvertBreakdownOpinion>TODO</AbilityIdeoConvertBreakdownOpinion>
+  <AbilityIdeoConvertBreakdownOpinion>نظر {RECIPIENT_labelShort} در مورد {INITIATOR_labelShort}</AbilityIdeoConvertBreakdownOpinion>
   <!-- EN: {PAWN_nameDef}'s ideoligion -->
-  <AbilityIdeoConvertBreakdownPawnIdeo>TODO</AbilityIdeoConvertBreakdownPawnIdeo>
+  <AbilityIdeoConvertBreakdownPawnIdeo>ایدئولوژی {PAWN_nameDef}</AbilityIdeoConvertBreakdownPawnIdeo>
   <!-- EN: {MEME} vs {TRAIT} trait -->
-  <AbilityIdeoConvertBreakdownMemeVsTrait>TODO</AbilityIdeoConvertBreakdownMemeVsTrait>
+  <AbilityIdeoConvertBreakdownMemeVsTrait>میم {MEME} در مقابل ویژگی {TRAIT}</AbilityIdeoConvertBreakdownMemeVsTrait>
 
   <!-- EN: {PAWN_labelShort} was already counselled recently. -->
-  <AbilityCantApplyAlreadyCounselled>TODO</AbilityCantApplyAlreadyCounselled>
+  <AbilityCantApplyAlreadyCounselled>{PAWN_labelShort} اخیراً مشاوره دریافت کرده است.</AbilityCantApplyAlreadyCounselled>
 
   <!-- EN: Reform... -->
-  <ReformIdeo>TODO</ReformIdeo>
+  <ReformIdeo>اصلاح...</ReformIdeo>
   <!-- EN: Reform ideoligion -->
-  <ReformIdeoligion>TODO</ReformIdeoligion>
+  <ReformIdeoligion>اصلاح ایدئولوژی</ReformIdeoligion>
   <!-- EN: Reform your ideoligion by changing its structure, memes or style. -->
-  <ReformIdeoligionDesc>TODO</ReformIdeoligionDesc>
+  <ReformIdeoligionDesc>ایدئولوژی خود را با تغییر ساختار، میم‌ها یا سبک آن اصلاح کنید.</ReformIdeoligionDesc>
   <!-- EN: Change styles -->
-  <ReformIdeoChangeStyles>TODO</ReformIdeoChangeStyles>
+  <ReformIdeoChangeStyles>تغییر سبک‌ها</ReformIdeoChangeStyles>
   <!-- EN: Add or remove a meme -->
-  <ReformIdeoAddOrRemoveMeme>TODO</ReformIdeoAddOrRemoveMeme>
+  <ReformIdeoAddOrRemoveMeme>افزودن یا حذف یک میم</ReformIdeoAddOrRemoveMeme>
   <!-- EN: Add a meme -->
-  <ReformIdeoAddMeme>TODO</ReformIdeoAddMeme>
+  <ReformIdeoAddMeme>افزودن یک میم</ReformIdeoAddMeme>
   <!-- EN: Choose one -->
-  <ReformIdeoChooseOneChange>TODO</ReformIdeoChooseOneChange>
+  <ReformIdeoChooseOneChange>یکی را انتخاب کنید</ReformIdeoChooseOneChange>
   <!-- EN: Change structure -->
-  <ReformIdeoChangeStructure>TODO</ReformIdeoChangeStructure>
+  <ReformIdeoChangeStructure>تغییر ساختار</ReformIdeoChangeStructure>
   <!-- EN: Change any of the following -->
-  <ReformIdeoChangeAny>TODO</ReformIdeoChangeAny>
+  <ReformIdeoChangeAny>تغییر هر یک از موارد زیر</ReformIdeoChangeAny>
   <!-- EN: The relic {0} will not be venerated by your colonists after reforming this ideoligion. Since the quest '{0}' is searching for this relic, it will be deactivated. -->
-  <ReformIdeoRelicHuntQuestEnd>TODO</ReformIdeoRelicHuntQuestEnd>
+  <ReformIdeoRelicHuntQuestEnd>یادگار {0} پس از اصلاح این ایدئولوژی توسط مستعمره‌نشینان شما مورد احترام قرار نخواهد گرفت. از آنجایی که مأموریت '{0}' به دنبال این یادگار است، غیرفعال خواهد شد.</ReformIdeoRelicHuntQuestEnd>
   <!-- EN: The ritual {0} is in progress and will be cancelled. -->
-  <ReformIdeoCancelRituals>TODO</ReformIdeoCancelRituals>
+  <ReformIdeoCancelRituals>مراسم {0} در حال انجام است و لغو خواهد شد.</ReformIdeoCancelRituals>
   <!-- EN: Do you wish to continue? -->
-  <ReformIdeoContinue>TODO</ReformIdeoContinue>
+  <ReformIdeoContinue>آیا می‌خواهید ادامه دهید؟</ReformIdeoContinue>
 
   <!-- Slavery -->
   <!-- EN: Slave -->
-  <CannotAssignBedToSlave>TODO</CannotAssignBedToSlave>
+  <CannotAssignBedToSlave>برده</CannotAssignBedToSlave>
   <!-- EN: Colonist -->
-  <CannotAssignBedToColonist>TODO</CannotAssignBedToColonist>
+  <CannotAssignBedToColonist>مستعمره‌نشین</CannotAssignBedToColonist>
   <!-- EN: Any slave -->
-  <AnySlave>TODO</AnySlave>
+  <AnySlave>هر برده‌ای</AnySlave>
   <!-- EN: {0_nameDef} refuses to sell people into slavery according to {0_possessive} beliefs. -->
-  <NegotiatorWillNotTradeSlaves>TODO</NegotiatorWillNotTradeSlaves>
+  <NegotiatorWillNotTradeSlaves>{0_nameDef} طبق باورهای {0_possessive} از فروش افراد به بردگی خودداری می‌کند.</NegotiatorWillNotTradeSlaves>
   <!-- EN: The negotiator, {0_nameDef}, will not people into slavery due to {0_possessive} belief in {1}.\n\nNote that {0_nameDef} is willing to ransom someone back to {0_possessive} own faction, but isn't willing to sell someone to a different faction. -->
-  <NegotiatorWillNotTradeSlavesTip>TODO</NegotiatorWillNotTradeSlavesTip>
+  <NegotiatorWillNotTradeSlavesTip>مذاکره‌کننده، {0_nameDef}، به دلیل باور {0_possessive} به {1}، افراد را به بردگی نخواهد فروخت.\n\nتوجه داشته باشید که {0_nameDef} مایل است کسی را به جناح خودش باج دهد، اما مایل به فروش کسی به جناح دیگری نیست.</NegotiatorWillNotTradeSlavesTip>
 
   <!-- EN: Last human meat -->
-  <LastHumanMeat>TODO</LastHumanMeat>
+  <LastHumanMeat>آخرین گوشت انسان</LastHumanMeat>
   <!-- EN: Because of {PAWN_possessive} belief in {IDEO_name}, {PAWN_nameDef} will become unhappy if {PAWN_pronoun} goes more than {DURATION} days without eating human meat. -->
-  <LastHumanMeatDesc>TODO</LastHumanMeatDesc>
+  <LastHumanMeatDesc>به دلیل باور {PAWN_possessive} به {IDEO_name}، {PAWN_nameDef} اگر بیش از {DURATION} روز بدون خوردن گوشت انسان بماند، ناراضی خواهد شد.</LastHumanMeatDesc>
 
   <!-- EN: Executing {PAWN_labelShort} will negatively affect relations with {FACTION_name}. -->
-  <ExectueNeutralFactionSlave>TODO</ExectueNeutralFactionSlave>
+  <ExectueNeutralFactionSlave>اعدام {PAWN_labelShort} بر روابط با {FACTION_name} تأثیر منفی خواهد گذاشت.</ExectueNeutralFactionSlave>
 
   <!-- EN: You must assign at least one non-slave colonist who can walk. -->
-  <CaravanMustHaveAtLeastOneNonSlaveColonist>TODO</CaravanMustHaveAtLeastOneNonSlaveColonist>
+  <CaravanMustHaveAtLeastOneNonSlaveColonist>شما باید حداقل یک مستعمره‌نشین غیر برده که می‌تواند راه برود اختصاص دهید.</CaravanMustHaveAtLeastOneNonSlaveColonist>
   <!-- EN: You must leave at least non-slave colonist who can walk. -->
-  <SourceCaravanMustHaveAtLeastOneNonSlaveColonist>TODO</SourceCaravanMustHaveAtLeastOneNonSlaveColonist>
+  <SourceCaravanMustHaveAtLeastOneNonSlaveColonist>شما باید حداقل یک مستعمره‌نشین غیر برده که می‌تواند راه برود باقی بگذارید.</SourceCaravanMustHaveAtLeastOneNonSlaveColonist>
 
   <!-- Style -->
   <!-- EN: Style -->
-  <StylePawn>TODO</StylePawn>
+  <StylePawn>سبک</StylePawn>
   <!-- EN: hair -->
-  <Hair>TODO</Hair>
+  <Hair>مو</Hair>
   <!-- EN: beard -->
-  <Beard>TODO</Beard>
+  <Beard>ریش</Beard>
   <!-- EN: face tattoo -->
-  <TattooFace>TODO</TattooFace>
+  <TattooFace>خالکوبی صورت</TattooFace>
   <!-- EN: body tattoo -->
-  <TattooBody>TODO</TattooBody>
+  <TattooBody>خالکوبی بدن</TattooBody>
   <!-- EN: apparel color -->
-  <ApparelColor>TODO</ApparelColor>
+  <ApparelColor>رنگ لباس</ApparelColor>
   <!-- EN: hair color -->
-  <HairColor>TODO</HairColor>
+  <HairColor>رنگ مو</HairColor>
   <!-- EN: Show headgear -->
-  <ShowHeadgear>TODO</ShowHeadgear>
+  <ShowHeadgear>نمایش سرپوش</ShowHeadgear>
   <!-- EN: Show apparel -->
-  <ShowApparel>TODO</ShowApparel>
+  <ShowApparel>نمایش لباس</ShowApparel>
   <!-- EN: {PAWN_nameDef} will be unhappy with the following -->
-  <PawnUnhappyWithStyleItems>TODO</PawnUnhappyWithStyleItems>
+  <PawnUnhappyWithStyleItems>{PAWN_nameDef} از موارد سبک زیر ناراضی خواهد بود</PawnUnhappyWithStyleItems>
   <!-- EN: Style categories affect the appearance of some buildings, apparel and weapons made by {IDEO_memberNamePlural}. If more than one category affects the same thing, the left-most one applies. -->
-  <StyleCategoryDescription>TODO</StyleCategoryDescription>
+  <StyleCategoryDescription>دسته‌های سبک بر ظاهر برخی ساختمان‌ها، لباس‌ها و سلاح‌های ساخته شده توسط {IDEO_memberNamePlural} تأثیر می‌گذارند. اگر بیش از یک دسته بر یک چیز تأثیر بگذارد، دسته‌ سمت چپ اعمال می‌شود.</StyleCategoryDescription>
   <!-- EN: Style categories affect the appearance of some buildings, apparel and weapons made by your colony. If more than one category affects the same thing, the left-most one applies. -->
-  <StyleCategoryDescriptionAbstract>TODO</StyleCategoryDescriptionAbstract>
+  <StyleCategoryDescriptionAbstract>دسته‌های سبک بر ظاهر برخی ساختمان‌ها، لباس‌ها و سلاح‌های ساخته شده توسط مستعمره شما تأثیر می‌گذارند. اگر بیش از یک دسته بر یک چیز تأثیر بگذارد، دسته‌ سمت چپ اعمال می‌شود.</StyleCategoryDescriptionAbstract>
   <!-- EN: {IDEO_memberNamePlural} will be happy if they notice buildings, floors, and art matching this style. -->
-  <StyleCategoryDescStyleDominance>TODO</StyleCategoryDescStyleDominance>
+  <StyleCategoryDescStyleDominance>{IDEO_memberNamePlural} اگر متوجه ساختمان‌ها، کف‌ها و هنری مطابق با این سبک شوند، خوشحال خواهند شد.</StyleCategoryDescStyleDominance>
   <!-- EN: Ideoligion members will be happy if they notice buildings, floors, and art matching this style. -->
-  <StyleCategoryDescStyleDominanceAbstract>TODO</StyleCategoryDescStyleDominanceAbstract>
+  <StyleCategoryDescStyleDominanceAbstract>اعضای ایدئولوژی اگر متوجه ساختمان‌ها، کف‌ها و هنری مطابق با این سبک شوند، خوشحال خواهند شد.</StyleCategoryDescStyleDominanceAbstract>
   <!-- EN: {0} style category affects -->
-  <StyleCategoryDetails>TODO</StyleCategoryDetails>
+  <StyleCategoryDetails>دسته سبک {0} بر تأثیر می‌گذارد</StyleCategoryDetails>
   <!-- EN: Overriden by {0} -->
-  <OverriddenByStyle>TODO</OverriddenByStyle>
+  <OverriddenByStyle>نادیده گرفته شده توسط {0}</OverriddenByStyle>
   <!-- EN: New buildables -->
-  <IdeoMakesBuildingBuildable>TODO</IdeoMakesBuildingBuildable>
+  <IdeoMakesBuildingBuildable>قابل ساخت‌های جدید</IdeoMakesBuildingBuildable>
   <!-- EN: none usable for {PAWN_nameDef} -->
-  <NoneUsableForPawn>TODO</NoneUsableForPawn> 
+  <NoneUsableForPawn>هیچ‌کدام برای {PAWN_nameDef} قابل استفاده نیست</NoneUsableForPawn> 
   <!-- EN: Hair and beards -->
-  <HairAndBeards>TODO</HairAndBeards>
+  <HairAndBeards>مو و ریش</HairAndBeards>
   <!-- EN: These settings determine how frequently each style appears on members of this ideoligion. -->
-  <HairAndBeardsDesc>TODO</HairAndBeardsDesc>
+  <HairAndBeardsDesc>این تنظیمات تعیین می‌کنند که هر سبک چند وقت یکبار بر روی اعضای این ایدئولوژی ظاهر شود.</HairAndBeardsDesc>
   <!-- EN: Tattoos -->
-  <Tattoos>TODO</Tattoos>
+  <Tattoos>خالکوبی‌ها</Tattoos>
   <!-- EN: These settings determines how frequently each tattoo appears on members of this ideoligion. -->
-  <TattoosDesc>TODO</TattoosDesc>
+  <TattoosDesc>این تنظیمات تعیین می‌کنند که هر خالکوبی چند وقت یکبار بر روی اعضای این ایدئولوژی ظاهر شود.</TattoosDesc>
   <!-- EN: Never -->
-  <StyleItemFrequencyNever>TODO</StyleItemFrequencyNever>
+  <StyleItemFrequencyNever>هرگز</StyleItemFrequencyNever>
   <!-- EN: Rare -->
-  <StyleItemFrequencyRare>TODO</StyleItemFrequencyRare>
+  <StyleItemFrequencyRare>نادر</StyleItemFrequencyRare>
   <!-- EN: Uncommon -->
-  <StyleItemFrequencyUncommon>TODO</StyleItemFrequencyUncommon>
+  <StyleItemFrequencyUncommon>غیرمعمول</StyleItemFrequencyUncommon>
   <!-- EN: Normal -->
-  <StyleItemFrequencyNormal>TODO</StyleItemFrequencyNormal>
+  <StyleItemFrequencyNormal>عادی</StyleItemFrequencyNormal>
   <!-- EN: Common -->
-  <StyleItemFrequencyCommon>TODO</StyleItemFrequencyCommon>
+  <StyleItemFrequencyCommon>رایج</StyleItemFrequencyCommon>
   <!-- EN: Frequent -->
-  <StyleItemFrequencyFrequent>TODO</StyleItemFrequencyFrequent>
+  <StyleItemFrequencyFrequent>مکرر</StyleItemFrequencyFrequent>
   <!-- EN: Edit appearance -->
-  <EditAppearanceItems>TODO</EditAppearanceItems>
+  <EditAppearanceItems>ویرایش ظاهر</EditAppearanceItems>
   <!-- EN: {0} in use -->
-  <NumAvailable>TODO</NumAvailable>
+  <NumAvailable>{0} در حال استفاده</NumAvailable>
   <!-- EN: Resets all style items to their default values. -->
-  <ResetButtonDesc>TODO</ResetButtonDesc>
+  <ResetButtonDesc>تمام آیتم‌های سبک را به مقادیر پیش‌فرض خود بازنشانی می‌کند.</ResetButtonDesc>
 
   <!-- Ancient complex mission -->
   <!-- EN: Send shuttle anyway -->
-  <SendShuttleAnyway>TODO</SendShuttleAnyway>
+  <SendShuttleAnyway>به هر حال شاتل را بفرست</SendShuttleAnyway>
   <!-- EN: Re-load shuttle -->
-  <ReLoadShuttle>TODO</ReLoadShuttle>
+  <ReLoadShuttle>بارگذاری مجدد شاتل</ReLoadShuttle>
 
   <!-- Medical settings -->
   <!-- EN: Slaves -->
-  <MedGroupSlaves>TODO</MedGroupSlaves>
+  <MedGroupSlaves>بردگان</MedGroupSlaves>
   <!-- EN: Enslaved members of your colony. -->
-  <MedGroupSlavesDesc>TODO</MedGroupSlavesDesc>
+  <MedGroupSlavesDesc>اعضای برده مستعمره شما.</MedGroupSlavesDesc>
 
   <!-- Dryad upgrades -->
   <!-- EN: Choose dryad caste -->
-  <ChangeMode>TODO</ChangeMode>
+  <ChangeMode>انتخاب طبقه دراید</ChangeMode>
   <!-- EN: Required memes -->
-  <RequiredMemes>TODO</RequiredMemes>
+  <RequiredMemes>میم‌های مورد نیاز</RequiredMemes>
   <!-- EN: Required caste -->
-  <RequiredStage>TODO</RequiredStage>
+  <RequiredStage>طبقه مورد نیاز</RequiredStage>
   <!-- EN: Missing required memes -->
-  <MissingRequiredMemes>TODO</MissingRequiredMemes>
+  <MissingRequiredMemes>میم‌های مورد نیاز وجود ندارد</MissingRequiredMemes>
   <!-- EN: Missing required caste -->
-  <MissingRequiredCaste>TODO</MissingRequiredCaste>
+  <MissingRequiredCaste>طبقه مورد نیاز وجود ندارد</MissingRequiredCaste>
   <!-- EN: Already selected -->
-  <AlreadySelected>TODO</AlreadySelected>
+  <AlreadySelected>قبلاً انتخاب شده</AlreadySelected>
   <!-- EN: Here you can choose which caste of dryads this {TREE_label} will create.\n\nDryads will emerge from pods that grow at the tree's base. The maximum number of dryads is based on the connection strength between {TREE_definite} and the connected person. -->
-  <ChooseProductionModeInitialDesc>TODO</ChooseProductionModeInitialDesc>
+  <ChooseProductionModeInitialDesc>در اینجا می‌توانید انتخاب کنید که این درخت {TREE_label} کدام طبقه از درایدها را ایجاد کند.\n\nدرایدها از غلاف‌هایی که در پایه درخت رشد می‌کنند بیرون خواهند آمد. حداکثر تعداد درایدها بر اساس قدرت اتصال بین {TREE_definite} و فرد متصل است.</ChooseProductionModeInitialDesc>
 
   <!-- Archonexus -->
   <!-- EN: Choose who to convert to your ideoligion -->
-  <ChooseColonistsForIdeoTitle>TODO</ChooseColonistsForIdeoTitle>
+  <ChooseColonistsForIdeoTitle>انتخاب کنید چه کسی را به ایدئولوژی خود تبدیل کنید</ChooseColonistsForIdeoTitle>
   <!-- EN: You may convert people to your primary ideoligion when setting up a new colony. -->
-  <ChooseColonistsForIdeoDesc>TODO</ChooseColonistsForIdeoDesc>
+  <ChooseColonistsForIdeoDesc>شما می‌توانید هنگام راه‌اندازی مستعمره جدید، افراد را به ایدئولوژی اصلی خود تبدیل کنید.</ChooseColonistsForIdeoDesc>
   <!-- EN: New Colony -->
-  <ChooseThingsForNewColonyTitle>TODO</ChooseThingsForNewColonyTitle>
+  <ChooseThingsForNewColonyTitle>مستعمره جدید</ChooseThingsForNewColonyTitle>
   <!-- EN: Choose which colonists, animals and relics to bring to the new colony. -->
-  <ChooseThingsForNewColonyDesc>TODO</ChooseThingsForNewColonyDesc>
+  <ChooseThingsForNewColonyDesc>انتخاب کنید کدام مستعمره‌نشینان، حیوانات و یادگارها را به مستعمره جدید ببرید.</ChooseThingsForNewColonyDesc>
   <!-- EN: Choose up to {0} {1}. -->
-  <ChooseThingsDesc>TODO</ChooseThingsDesc>
+  <ChooseThingsDesc>حداکثر {0} {1} را انتخاب کنید.</ChooseThingsDesc>
   <!-- EN: Choose up to {0} people. -->
-  <ChoosePeopleDesc>TODO</ChoosePeopleDesc>
+  <ChoosePeopleDesc>حداکثر {0} نفر را انتخاب کنید.</ChoosePeopleDesc>
   <!-- EN: If you only select slaves, you will play them as colonists in the next colony. -->
-  <ChooseOnlySlavesInfo>TODO</ChooseOnlySlavesInfo>
+  <ChooseOnlySlavesInfo>اگر فقط بردگان را انتخاب کنید، در مستعمره بعدی آن‌ها را به عنوان مستعمره‌نشین بازی خواهید کرد.</ChooseOnlySlavesInfo>
   <!-- EN: Confirm decisions -->
-  <ConfirmDecisionsTitle>TODO</ConfirmDecisionsTitle>
+  <ConfirmDecisionsTitle>تأیید تصمیمات</ConfirmDecisionsTitle>
   <!-- EN: The hibernating starship reported by the AI (*Name)Charlon Whitestone(/Name) will fly away by the time the new colony is established. It will no longer be possible to escape the planet by traveling to this ship. -->
-  <ShipEscapeWillEndDescription>TODO</ShipEscapeWillEndDescription>
+  <ShipEscapeWillEndDescription>کشتی ستاره‌ای در حال خواب زمستانی که توسط هوش مصنوعی (*Name)Charlon Whitestone(/Name) گزارش شده است، تا زمان تأسیس مستعمره جدید پرواز خواهد کرد. دیگر امکان فرار از سیاره با سفر به این کشتی وجود نخواهد داشت.</ShipEscapeWillEndDescription>
   <!-- EN: No relic was chosen to be brought to the new colony. -->
-  <ArchonexusRelicNotChosen>TODO</ArchonexusRelicNotChosen>
+  <ArchonexusRelicNotChosen>هیچ یادگاری برای بردن به مستعمره جدید انتخاب نشد.</ArchonexusRelicNotChosen>
   <!-- EN: {0} out of a possible {1} items were selected to be brought to the new colony. -->
-  <ArchonexusItemsNotChosen>TODO</ArchonexusItemsNotChosen>
+  <ArchonexusItemsNotChosen>{0} از {1} آیتم ممکن برای بردن به مستعمره جدید انتخاب شدند.</ArchonexusItemsNotChosen>
   <!-- EN: The colony's purchasers will only allow you to take one relic. Any other relics will be left behind (even if equipped by a colonist), including: -->
-  <RemoveEquippedRelicsDescription>TODO</RemoveEquippedRelicsDescription>
+  <RemoveEquippedRelicsDescription>خریداران مستعمره فقط به شما اجازه می‌دهند یک یادگار ببرید. هر یادگار دیگری (حتی اگر توسط مستعمره‌نشین مجهز شده باشد) باقی خواهد ماند، از جمله:</RemoveEquippedRelicsDescription>
   <!-- EN: Would you like to proceed? Past this point, there's no going back. -->
-  <WantToProceed>TODO</WantToProceed>
+  <WantToProceed>آیا می‌خواهید ادامه دهید؟ از این نقطه به بعد، راه بازگشتی نیست.</WantToProceed>
   <!-- EN: Convert -->
-  <ConvertToPlayerIdeoligion>TODO</ConvertToPlayerIdeoligion>
+  <ConvertToPlayerIdeoligion>تبدیل به ایدئولوژی بازیکن</ConvertToPlayerIdeoligion>
   <!-- EN: Revert -->
-  <RevertToPreviousIdeoligion>TODO</RevertToPreviousIdeoligion>
+  <RevertToPreviousIdeoligion>بازگشت به ایدئولوژی قبلی</RevertToPreviousIdeoligion>
   <!-- EN: Existing follower -->
-  <ExistingFollowerOfPlayerIdeoligion>TODO</ExistingFollowerOfPlayerIdeoligion>
+  <ExistingFollowerOfPlayerIdeoligion>پیرو موجود ایدئولوژی بازیکن</ExistingFollowerOfPlayerIdeoligion>
   <!-- EN: You are abandoning a site that contains archotech structures which you have not yet fully studied.\n\nYou will be able to resettle here later, but your colony will be wiped away. -->
-  <AbandonArchotechStructuresWarningDialog>TODO</AbandonArchotechStructuresWarningDialog>
+  <AbandonArchotechStructuresWarningDialog>شما در حال رها کردن مکانی هستید که حاوی ساختارهای آرکوتک است که هنوز به طور کامل مطالعه نکرده‌اید.\n\nبعداً می‌توانید اینجا دوباره مستقر شوید، اما مستعمره شما پاک خواهد شد.</AbandonArchotechStructuresWarningDialog>
   <!-- EN: {0} quantity that can be brought to the new colony.\n\nThe maximum allowed quantity is: {1} -->
-  <ItemQuantityTooltip>TODO</ItemQuantityTooltip>
+  <ItemQuantityTooltip>مقدار {0} که می‌توان به مستعمره جدید برد.\n\nحداکثر مقدار مجاز: {1}</ItemQuantityTooltip>
   <!-- EN: Your colony was sold. Its purchasers are ready for you to choose where to land next. -->
-  <SoldColonyDescription>TODO</SoldColonyDescription>
+  <SoldColonyDescription>مستعمره شما فروخته شد. خریداران آن آماده‌اند تا شما انتخاب کنید کجا فرود بیایید.</SoldColonyDescription>
 
   <!-- EN: Hacking this {0} will alert enemies and cause them to attack. Do you really want to hack {0}? -->
-  <ConfirmHackEnenyTerminal>TODO</ConfirmHackEnenyTerminal>
+  <ConfirmHackEnenyTerminal>هک کردن این {0} دشمنان را هشدار داده و باعث حمله آن‌ها خواهد شد. آیا واقعاً می‌خواهید {0} را هک کنید؟</ConfirmHackEnenyTerminal>
 
   <!-- EN: Relics -->
-  <RelicsSection>TODO</RelicsSection>
+  <RelicsSection>یادگارها</RelicsSection>
 
   <!-- Food restrictions -->
   <!-- EN: Vegetarian -->
-  <FoodRestrictionVegetarian>TODO</FoodRestrictionVegetarian>
+  <FoodRestrictionVegetarian>گیاه‌خواری</FoodRestrictionVegetarian>
   <!-- EN: Carnivore -->
-  <FoodRestrictionCarnivore>TODO</FoodRestrictionCarnivore>
+  <FoodRestrictionCarnivore>گوشت‌خواری</FoodRestrictionCarnivore>
   <!-- EN: Cannibal -->
-  <FoodRestrictionCannibal>TODO</FoodRestrictionCannibal>
+  <FoodRestrictionCannibal>آدم‌خواری</FoodRestrictionCannibal>
   <!-- EN: Insect meat -->
-  <FoodRestrictionInsectMeat>TODO</FoodRestrictionInsectMeat>
+  <FoodRestrictionInsectMeat>گوشت حشره</FoodRestrictionInsectMeat>
 
   <!-- EN: Styles in use -->
-  <StylesInUse>TODO</StylesInUse>
+  <StylesInUse>سبک‌های در حال استفاده</StylesInUse>
   <!-- EN: Add a style. -->
-  <StyleCategoryAddDesc>TODO</StyleCategoryAddDesc>
+  <StyleCategoryAddDesc>افزودن یک سبک.</StyleCategoryAddDesc>
 </LanguageData>

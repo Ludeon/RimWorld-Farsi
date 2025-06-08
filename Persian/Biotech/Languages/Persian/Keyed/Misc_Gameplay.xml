@@ -2,776 +2,776 @@
 <LanguageData>
 
   <!-- EN: Dormant self-charging -->
-  <SelfShutdown>TODO</SelfShutdown>
+  <SelfShutdown>خاموشی خودکار</SelfShutdown>
   <!-- EN: Carry to recharger -->
-  <CarryToRecharger>TODO</CarryToRecharger>
+  <CarryToRecharger>حمل به شارژر</CarryToRecharger>
   <!-- EN: Must be carried to recharger. -->
-  <MustBeCarriedToRecharger>TODO</MustBeCarriedToRecharger>
+  <MustBeCarriedToRecharger>باید به شارژر حمل شود.</MustBeCarriedToRecharger>
   <!-- EN: Danger -->
-  <Danger>TODO</Danger>
+  <Danger>خطر</Danger>
   <!-- EN: {0} damage -->
-  <DamageType>TODO</DamageType>
+  <DamageType>آسیب {0}</DamageType>
   <!-- EN: Contained {0_labelPlural} -->
-  <ContainedThings>TODO</ContainedThings>
+  <ContainedThings>{0_labelPlural} موجود</ContainedThings>
   <!-- EN: Time until next atomization -->
-  <DurationUntilNextAtomization>TODO</DurationUntilNextAtomization>
+  <DurationUntilNextAtomization>زمان تا اتمیزه شدن بعدی</DurationUntilNextAtomization>
   <!-- EN: Finishes in -->
-  <FinishesIn>TODO</FinishesIn>
+  <FinishesIn>پایان در</FinishesIn>
   <!-- EN: with -->
-  <WithLower>TODO</WithLower>
+  <WithLower>با</WithLower>
   <!-- EN: tiles -->
-  <TilesLower>TODO</TilesLower>
+  <TilesLower>کاشی</TilesLower>
   <!-- EN: 1 mech -->
-  <CaravanMech>TODO</CaravanMech>
+  <CaravanMech>۱ مکانیوید</CaravanMech>
   <!-- EN: {0} mechs -->
-  <CaravanMechsCount>TODO</CaravanMechsCount>
+  <CaravanMechsCount>{0} مکانیوید</CaravanMechsCount>
   <!-- EN: {BOSS} with {APPAREL} -->
-  <BossWithApparel>TODO</BossWithApparel>
+  <BossWithApparel>{BOSS} با {APPAREL}</BossWithApparel>
 
   <!-- Job reports -->
   <!-- EN: removing {0}. -->
-  <ReportRemovingMechlink>TODO</ReportRemovingMechlink>
+  <ReportRemovingMechlink>در حال برداشتن {0}.</ReportRemovingMechlink>
 
   <!-- Areas -->
   <!-- EN: Pollution clear -->
-  <PollutionClear>TODO</PollutionClear>
+  <PollutionClear>پاکسازی آلودگی</PollutionClear>
 
   <!-- Mechanitor -->
   <!-- EN: Overseer -->
-  <Overseer>TODO</Overseer>
+  <Overseer>ناظر</Overseer>
   <!-- EN: None (not under control) -->
-  <OverseerNone>TODO</OverseerNone>
+  <OverseerNone>هیچ (تحت کنترل نیست)</OverseerNone>
   <!-- EN: May go feral at any moment -->
-  <MayGoFeral>TODO</MayGoFeral>
+  <MayGoFeral>ممکن است هر لحظه وحشی شود</MayGoFeral>
   <!-- EN: Bandwidth -->
-  <Bandwidth>TODO</Bandwidth>
+  <Bandwidth>پهنای باند</Bandwidth>
   <!-- EN: bandwidth -->
-  <BandwidthLower>TODO</BandwidthLower>
+  <BandwidthLower>پهنای باند</BandwidthLower>
   <!-- EN: A mechanitor can only oversee a mech if there is enough bandwidth to do so. Each mech consumes a different amount of bandwidth.\n\nGain more bandwidth by constructing band nodes and tuning the mechanitor to them, or by equipping special mechanitor apparel. -->
-  <BandwidthGizmoTip>TODO</BandwidthGizmoTip>
+  <BandwidthGizmoTip>یک مکانیوید فقط در صورتی می‌تواند تحت نظارت یک مکانیتور باشد که پهنای باند کافی برای این کار وجود داشته باشد. هر مکانیوید مقدار متفاوتی از پهنای باند را مصرف می‌کند.\n\nبا ساخت گره‌های باند و تنظیم مکانیتور روی آن‌ها، یا با تجهیز لباس‌های مخصوص مکانیتور، پهنای باند بیشتری به دست آورید.</BandwidthGizmoTip>
   <!-- EN: Control group -->
-  <ControlGroup>TODO</ControlGroup>
+  <ControlGroup>گروه کنترل</ControlGroup>
   <!-- EN: Current mode -->
-  <CurrentMechWorkMode>TODO</CurrentMechWorkMode>
+  <CurrentMechWorkMode>حالت فعلی</CurrentMechWorkMode>
   <!-- EN: Assigned mechs -->
-  <AssignedMechs>TODO</AssignedMechs>
+  <AssignedMechs>مکانیویدهای اختصاص داده شده</AssignedMechs>
   <!-- EN: Tuned to -->
-  <BandNodeTunedTo>TODO</BandNodeTunedTo>
+  <BandNodeTunedTo>تنظیم شده روی</BandNodeTunedTo>
   <!-- EN: Tune to -->
-  <BandNodeTuneTo>TODO</BandNodeTuneTo>
+  <BandNodeTuneTo>تنظیم روی</BandNodeTuneTo>
   <!-- EN: Tuning to -->
-  <BandNodeTuningTo>TODO</BandNodeTuningTo>
+  <BandNodeTuningTo>در حال تنظیم روی</BandNodeTuningTo>
   <!-- EN: Retune -->
-  <BandNodeRetuneTo>TODO</BandNodeRetuneTo>
+  <BandNodeRetuneTo>تنظیم مجدد</BandNodeRetuneTo>
   <!-- EN: Tune this band node to a mechanitor. Tuning will take {0} to complete. -->
-  <BandNodeTuningDesc>TODO</BandNodeTuningDesc>
+  <BandNodeTuningDesc>این گره باند را روی یک مکانیتور تنظیم کنید. تنظیم {0} طول می‌کشد تا کامل شود.</BandNodeTuningDesc>
   <!-- EN: Retune this band node to another mechanitor. Retuning will take {0} to complete. -->
-  <BandNodeRetuningDesc>TODO</BandNodeRetuningDesc>
+  <BandNodeRetuningDesc>این گره باند را روی مکانیتور دیگری تنظیم مجدد کنید. تنظیم مجدد {0} طول می‌کشد تا کامل شود.</BandNodeRetuningDesc>
   <!-- EN: Removing {0} will change {1_labelShort}'s bandwidth from {2} to {3}. This will mean the following mechs will no longer be under control -->
-  <DropThingBandwidthApparel>TODO</DropThingBandwidthApparel>
+  <DropThingBandwidthApparel>برداشتن {0} پهنای باند {1_labelShort} را از {2} به {3} تغییر می‌دهد. این به این معنی است که مکانیویدهای زیر دیگر تحت کنترل نخواهند بود</DropThingBandwidthApparel>
   <!-- EN: no mechs -->
-  <NoMechs>TODO</NoMechs>
+  <NoMechs>بدون مکانیوید</NoMechs>
   <!-- EN: Group -->
-  <Group>TODO</Group>
+  <Group>گروه</Group>
   <!-- EN: Groups -->
-  <Groups>TODO</Groups>
+  <Groups>گروه‌ها</Groups>
   <!-- EN: Loading mech gestation resources -->
-  <LoadingMechGestator>TODO</LoadingMechGestator>
+  <LoadingMechGestator>در حال بارگیری منابع رشد مکانیوید</LoadingMechGestator>
   <!-- EN: Time left this cycle -->
-  <GestatingInspect>TODO</GestatingInspect>
+  <GestatingInspect>زمان باقی‌مانده در این چرخه</GestatingInspect>
   <!-- EN: Initiating mech gestation cycle -->
-  <InitMechGestationCycle>TODO</InitMechGestationCycle>
+  <InitMechGestationCycle>در حال آغاز چرخه رشد مکانیوید</InitMechGestationCycle>
   <!-- EN: Initiating mech birth -->
-  <InitMechBirth>TODO</InitMechBirth>
+  <InitMechBirth>در حال آغاز تولد مکانیوید</InitMechBirth>
   <!-- EN: Mech energy -->
-  <MechEnergy>TODO</MechEnergy>
+  <MechEnergy>انرژی مکانیوید</MechEnergy>
   <!-- EN: Energy -->
-  <Energy>TODO</Energy>
+  <Energy>انرژی</Energy>
   <!-- EN: energy -->
-  <EnergyLower>TODO</EnergyLower>
+  <EnergyLower>انرژی</EnergyLower>
   <!-- EN: Bandwidth usage -->
-  <BandwidthUsage>TODO</BandwidthUsage>
+  <BandwidthUsage>مصرف پهنای باند</BandwidthUsage>
   <!-- EN: Mech gestation bandwidth -->
-  <MechGestationBandwidthUsed>TODO</MechGestationBandwidthUsed>
+  <MechGestationBandwidthUsed>پهنای باند رشد مکانیوید</MechGestationBandwidthUsed>
   <!-- EN: Cannot summon {0} threat -->
-  <CannotSummon>TODO</CannotSummon>
+  <CannotSummon>نمی‌توان تهدید {0} را احضار کرد</CannotSummon>
   <!-- EN: {0} threat ready to summon -->
-  <ReadyToSummonThreat>TODO</ReadyToSummonThreat>
+  <ReadyToSummonThreat>تهدید {0} آماده احضار</ReadyToSummonThreat>
   <!-- EN: Summon {0} threat -->
-  <Summon>TODO</Summon>
+  <Summon>احضار تهدید {0}</Summon>
   <!-- EN: No reachable {0} -->
-  <NoReachableBossgroupCaller>TODO</NoReachableBossgroupCaller>
+  <NoReachableBossgroupCaller>هیچ {0} قابل دسترسی نیست</NoReachableBossgroupCaller>
   <!-- EN: No reservable {0} -->
-  <NoReservableBossgroupCaller>TODO</NoReservableBossgroupCaller>
+  <NoReservableBossgroupCaller>هیچ {0} قابل رزرو نیست</NoReservableBossgroupCaller>
   <!-- EN: No powered {0} -->
-  <NoPoweredBossgroupCaller>TODO</NoPoweredBossgroupCaller>
+  <NoPoweredBossgroupCaller>هیچ {0} برق‌دار نیست</NoPoweredBossgroupCaller>
   <!-- EN: already used -->
-  <AlreadyUsed>TODO</AlreadyUsed>
+  <AlreadyUsed>قبلاً استفاده شده</AlreadyUsed>
   <!-- EN: Gestating -->
-  <Gestating>TODO</Gestating>
+  <Gestating>در حال رشد</Gestating>
   <!-- EN: Escorting {TARGET_labelShort}. -->
-  <Escorting>TODO</Escorting>
+  <Escorting>در حال اسکورت {TARGET_labelShort}.</Escorting>
   <!-- EN: Worker -->
-  <Worker>TODO</Worker>
+  <Worker>کارگر</Worker>
   <!-- EN: Waiting for -->
-  <WaitingFor>TODO</WaitingFor>
+  <WaitingFor>در انتظار</WaitingFor>
   <!-- EN: Uncontrolled -->
-  <Uncontrolled>TODO</Uncontrolled>
+  <Uncontrolled>کنترل نشده</Uncontrolled>
   <!-- EN: incoming {0} -->
-  <BossgroupIncoming>TODO</BossgroupIncoming>
+  <BossgroupIncoming>{0} در حال ورود</BossgroupIncoming>
 
   <!-- Sanguophage -->
   <!-- EN: hemogen -->
-  <Hemogen>TODO</Hemogen>
+  <Hemogen>هموژن</Hemogen>
   <!-- EN: Hemogen is a biological energy source derived from compounds in human blood. Baseliner humans produce it endogenously and consume it over time in their own internal balance. Some human xenotypes use it as a kind of fuel for specific abilities, while others must consume it to survive at all. -->
-  <HemogenDesc>TODO</HemogenDesc>
+  <HemogenDesc>هموژن یک منبع انرژی بیولوژیکی است که از ترکیبات موجود در خون انسان به دست می‌آید. انسان‌های بیس‌لاینر آن را به صورت درون‌زا تولید کرده و در تعادل داخلی خود به مرور زمان مصرف می‌کنند. برخی از زنوتایپ‌های انسانی از آن به عنوان نوعی سوخت برای توانایی‌های خاص استفاده می‌کنند، در حالی که برخی دیگر برای بقا باید آن را مصرف کنند.</HemogenDesc>
   <!-- EN: deathrest capacity -->
-  <DeathrestCapacity>TODO</DeathrestCapacity>
+  <DeathrestCapacity>ظرفیت استراحت مرگ</DeathrestCapacity>
   <!-- EN: This determines how many deathrest buildings a person can connect to while deathresting. Each deathrest building confers a specific benefit, so it's better to be able to connect to more of them.\n\nDeathrest capacity can be increased using deathrest capacity serums. These serums can be purchased from traders. -->
-  <DeathrestCapacityDesc>TODO</DeathrestCapacityDesc>
+  <DeathrestCapacityDesc>این تعیین می‌کند که یک فرد در حین استراحت مرگ می‌تواند به چند ساختمان استراحت مرگ متصل شود. هر ساختمان استراحت مرگ مزیت خاصی دارد، بنابراین بهتر است بتوان به تعداد بیشتری از آن‌ها متصل شد.\n\nظرفیت استراحت مرگ را می‌توان با استفاده از سرم‌های ظرفیت استراحت مرگ افزایش داد. این سرم‌ها را می‌توان از تاجران خریداری کرد.</DeathrestCapacityDesc>
   <!-- EN: {PAWN_nameDef} is connected to {CURRENT} / {MAX} (max) deathrest buildings. -->
-  <PawnIsConnectedToBuildings>TODO</PawnIsConnectedToBuildings>
+  <PawnIsConnectedToBuildings>{PAWN_nameDef} به {CURRENT} / {MAX} (حداکثر) ساختمان استراحت مرگ متصل است.</PawnIsConnectedToBuildings>
   <!-- EN: wake now -->
-  <Wake>TODO</Wake>
+  <Wake>اکنون بیدار شو</Wake>
   <!-- EN: Wake up from deathrest.\n\n{PAWN_nameDef} has been in deathrest for {DURATION}. -->
-  <WakeDesc>TODO</WakeDesc>
+  <WakeDesc>از استراحت مرگ بیدار شوید.\n\n{PAWN_nameDef} به مدت {DURATION} در استراحت مرگ بوده است.</WakeDesc>
   <!-- EN: {PAWN_nameDef} needs to deathrest for at least {TOTAL}. Waking {PAWN_objective} early will make {PAWN_objective} ill, and {PAWN_pronoun} will not benefit from any deathrest buildings. -->
-  <WakeExtraDesc_Exhaustion>TODO</WakeExtraDesc_Exhaustion>
+  <WakeExtraDesc_Exhaustion>{PAWN_nameDef} باید حداقل {TOTAL} استراحت مرگ داشته باشد. بیدار کردن زودهنگام {PAWN_objective} باعث بیماری {PAWN_objective} می‌شود و {PAWN_pronoun} از هیچ ساختمان استراحت مرگ بهره‌ای نخواهد برد.</WakeExtraDesc_Exhaustion>
   <!-- EN: {PAWN_nameDef} can now wake safely. -->
-  <WakeExtraDesc_Safe>TODO</WakeExtraDesc_Safe>
+  <WakeExtraDesc_Safe>{PAWN_nameDef} اکنون می‌تواند با خیال راحت بیدار شود.</WakeExtraDesc_Safe>
   <!-- EN: Cannot wake. Need at least {0} hemogen. -->
-  <CannotWakeNotEnoughHemogen>TODO</CannotWakeNotEnoughHemogen>
+  <CannotWakeNotEnoughHemogen>نمی‌توان بیدار شد. حداقل به {0} هموژن نیاز است.</CannotWakeNotEnoughHemogen>
   <!-- EN: Auto-wake -->
-  <AutoWake>TODO</AutoWake>
+  <AutoWake>بیدار شدن خودکار</AutoWake>
   <!-- EN: When on, {PAWN_nameDef} will automatically wake once {PAWN_possessive} deathrest is complete.\n\nWhile off, {PAWN_pronoun} will continue deathresting until you wake {PAWN_objective} manually. -->
-  <AutoWakeDesc>TODO</AutoWakeDesc>
+  <AutoWakeDesc>هنگامی که فعال باشد، {PAWN_nameDef} به محض اتمام استراحت مرگ {PAWN_possessive} به طور خودکار بیدار می‌شود.\n\nهنگامی که غیرفعال باشد، {PAWN_pronoun} به استراحت مرگ ادامه می‌دهد تا زمانی که شما {PAWN_objective} را به صورت دستی بیدار کنید.</AutoWakeDesc>
   <!-- EN: {PAWN_nameDef} is deathresting. -->
-  <IsDeathresting>TODO</IsDeathresting>
+  <IsDeathresting>{PAWN_nameDef} در حال استراحت مرگ است.</IsDeathresting>
   <!-- EN: cannot deathrest -->
-  <CannotDeathrest>TODO</CannotDeathrest>
+  <CannotDeathrest>نمی‌تواند استراحت مرگ داشته باشد</CannotDeathrest>
   <!-- EN: Start deathrest -->
-  <StartDeathrest>TODO</StartDeathrest>
+  <StartDeathrest>شروع استراحت مرگ</StartDeathrest>
   <!-- EN: Safely completing deathrest takes {MINDURATION}, but {PAWN_nameDef} has only been deathresting for {CURDURATION}.\n\nWaking {PAWN_nameDef} now would interrupt {PAWN_possessive} deathrest, throwing {PAWN_possessive} metabolism out of balance and making {PAWN_objective} sick for days to come.\n\nAre you sure you wish to wake {PAWN_objective}? -->
-  <ConfirmExitDeathrestUnderMinDays>TODO</ConfirmExitDeathrestUnderMinDays>
+  <ConfirmExitDeathrestUnderMinDays>تکمیل ایمن استراحت مرگ {MINDURATION} طول می‌کشد، اما {PAWN_nameDef} فقط به مدت {CURDURATION} در حال استراحت مرگ بوده است.\n\nبیدار کردن {PAWN_nameDef} اکنون استراحت مرگ {PAWN_possessive} را قطع می‌کند، متابولیسم {PAWN_possessive} را از تعادل خارج کرده و {PAWN_objective} را برای روزهای آینده بیمار می‌کند.\n\nآیا مطمئن هستید که می‌خواهید {PAWN_objective} را بیدار کنید؟</ConfirmExitDeathrestUnderMinDays>
   <!-- EN: deathresting -->
-  <Deathresting>TODO</Deathresting>
+  <Deathresting>در حال استراحت مرگ</Deathresting>
   <!-- EN: can wake safely now. -->
-  <CanWakeSafely>TODO</CanWakeSafely>
+  <CanWakeSafely>اکنون می‌تواند با خیال راحت بیدار شود.</CanWakeSafely>
   <!-- EN: Disabled by gene -->
-  <DisabledByGene>TODO</DisabledByGene>
+  <DisabledByGene>غیرفعال شده توسط ژن</DisabledByGene>
   <!-- EN: {PAWN_nameDef} is in critical condition. -->
-  <WakeDisabledCriticalCondition>TODO</WakeDisabledCriticalCondition>
+  <WakeDisabledCriticalCondition>{PAWN_nameDef} در وضعیت بحرانی است.</WakeDisabledCriticalCondition>
   <!-- EN: Drain rate -->
-  <DrainRate>TODO</DrainRate>
+  <DrainRate>نرخ تخلیه</DrainRate>
   <!-- EN: Regeneration rate -->
-  <RegenerationRate>TODO</RegenerationRate>
+  <RegenerationRate>نرخ بازسازی</RegenerationRate>
   <!-- EN: {PAWN_nameDef} should deathrest in {DURATION} to avoid exhaustion. -->
-  <NextDeathrestNeed>TODO</NextDeathrestNeed>
+  <NextDeathrestNeed>{PAWN_nameDef} باید در {DURATION} استراحت مرگ داشته باشد تا از خستگی جلوگیری کند.</NextDeathrestNeed>
   <!-- EN: {PAWN_nameDef} should deathrest soon to avoid exhaustion. -->
-  <PawnShouldDeathrestNow>TODO</PawnShouldDeathrestNow>
+  <PawnShouldDeathrestNow>{PAWN_nameDef} باید به زودی استراحت مرگ داشته باشد تا از خستگی جلوگیری کند.</PawnShouldDeathrestNow>
   <!-- EN: This determines whether {PAWN_nameDef} will automatically ingest hemogen packs when {PAWN_possessive} hemogen is below {MIN}.\n\nAutomatic ingestion is currently {ONOFF}. -->
-  <AutoTakeHemogenDesc>TODO</AutoTakeHemogenDesc>
+  <AutoTakeHemogenDesc>این تعیین می‌کند که آیا {PAWN_nameDef} به طور خودکار بسته‌های هموژن را مصرف می‌کند یا خیر، زمانی که هموژن {PAWN_possessive} زیر {MIN} باشد.\n\nمصرف خودکار در حال حاضر {ONOFF} است.</AutoTakeHemogenDesc>
   <!-- EN: Consume hemogen below -->
-  <ConsumeHemogenBelow>TODO</ConsumeHemogenBelow>
+  <ConsumeHemogenBelow>مصرف هموژن زیر</ConsumeHemogenBelow>
   <!-- EN: Never consume hemogen. -->
-  <NeverConsumeHemogen>TODO</NeverConsumeHemogen>
+  <NeverConsumeHemogen>هرگز هموژن مصرف نکن.</NeverConsumeHemogen>
   <!-- EN: Will kill -->
-  <WillKill>TODO</WillKill>
+  <WillKill>خواهد کشت</WillKill>
   <!-- EN: Will cause major blood loss -->
-  <WillCauseSeriousBloodloss>TODO</WillCauseSeriousBloodloss>
+  <WillCauseSeriousBloodloss>باعث خونریزی شدید خواهد شد</WillCauseSeriousBloodloss>
   <!-- EN: too small -->
-  <TooSmall>TODO</TooSmall>
+  <TooSmall>خیلی کوچک</TooSmall>
 
   <!-- Deathrest buildings -->
   <!-- EN: Bound to -->
-  <BoundTo>TODO</BoundTo>
+  <BoundTo>متصل به</BoundTo>
   <!-- EN: Will bind permanently on first use. -->
-  <WillBindOnFirstUse>TODO</WillBindOnFirstUse>
+  <WillBindOnFirstUse>در اولین استفاده به طور دائم متصل می‌شود.</WillBindOnFirstUse>
   <!-- EN: Time active this deathrest -->
-  <TimeActiveThisDeathrest>TODO</TimeActiveThisDeathrest>
+  <TimeActiveThisDeathrest>زمان فعال در این استراحت مرگ</TimeActiveThisDeathrest>
   <!-- EN: Minimum is {0} to apply -->
-  <MinimumNeededToApply>TODO</MinimumNeededToApply>
+  <MinimumNeededToApply>حداقل {0} برای اعمال لازم است</MinimumNeededToApply>
   <!-- EN: Cannot deathrest -->
-  <CannotAssignBedCannotDeathrest>TODO</CannotAssignBedCannotDeathrest>
+  <CannotAssignBedCannotDeathrest>نمی‌تواند استراحت مرگ داشته باشد</CannotAssignBedCannotDeathrest>
   <!-- EN: Already bound to {0_nameDef} -->
-  <CannotAssignAlreadyBound>TODO</CannotAssignAlreadyBound>
+  <CannotAssignAlreadyBound>قبلاً به {0_nameDef} متصل شده است</CannotAssignAlreadyBound>
   <!-- EN: Cannot bind to more {BUILDING_labelPlural} -->
-  <CannotAssignBedCannotBindToMoreBuildings>TODO</CannotAssignBedCannotBindToMoreBuildings>
+  <CannotAssignBedCannotBindToMoreBuildings>نمی‌توان به {BUILDING_labelPlural} بیشتری متصل شد</CannotAssignBedCannotBindToMoreBuildings>
 
   <!-- Aptitudes -->
   <!-- EN: aptitude -->
-  <Aptitude>TODO</Aptitude>
+  <Aptitude>استعداد</Aptitude>
   <!-- EN: aptitudes -->
-  <Aptitudes>TODO</Aptitudes>
+  <Aptitudes>استعدادها</Aptitudes>
   <!-- EN: aptitudes -->
-  <AptitudePlural>TODO</AptitudePlural>
+  <AptitudePlural>استعدادها</AptitudePlural>
   <!-- EN: Aptitude makes an individual perform at a higher or lower level than their learned skill.\n\nFor example, an aptitude of +1 for a skill means that a person with level 5 in that skill will perform as though they were at level 6.\n\nThe total value cannot exceed level 20 or fall below level 1. -->
-  <AptitudesDesc>TODO</AptitudesDesc>
+  <AptitudesDesc>استعداد باعث می‌شود فرد در سطحی بالاتر یا پایین‌تر از مهارت آموخته شده خود عمل کند.\n\nبه عنوان مثال، استعداد +1 برای یک مهارت به این معنی است که فردی با سطح 5 در آن مهارت، مانند سطح 6 عمل خواهد کرد.\n\nمقدار کل نمی‌تواند از سطح 20 تجاوز کند یا به زیر سطح 1 برسد.</AptitudesDesc>
   <!-- EN: total -->
-  <Total>TODO</Total>
-  
+  <Total>کل</Total>
+
   <!-- Human pregnancy -->
   <!-- EN: Father -->
-  <FatherTip>TODO</FatherTip>
+  <FatherTip>پدر</FatherTip>
   <!-- EN: Genetic mother -->
-  <MotherTip>TODO</MotherTip>
+  <MotherTip>مادر ژنتیکی</MotherTip>
   <!-- EN: an unoccupied bed -->
-  <RitualTargetChildBirth>TODO</RitualTargetChildBirth>
+  <RitualTargetChildBirth>یک تخت خالی</RitualTargetChildBirth>
   <!-- EN: No appropriate bed for giving birth. -->
-  <NoAppropriateBedChildBirth>TODO</NoAppropriateBedChildBirth>
+  <NoAppropriateBedChildBirth>تخت مناسبی برای زایمان وجود ندارد.</NoAppropriateBedChildBirth>
   <!-- EN: No doctor around. -->
-  <NoDoctorChildBirth>TODO</NoDoctorChildBirth>
+  <NoDoctorChildBirth>دکتری در اطراف نیست.</NoDoctorChildBirth>
   <!-- EN: Can't use this bed. -->
-  <CantUseThisBed>TODO</CantUseThisBed>
+  <CantUseThisBed>نمی‌توان از این تخت استفاده کرد.</CantUseThisBed>
   <!-- EN: Not in labor. -->
-  <NotInLabor>TODO</NotInLabor>
+  <NotInLabor>در حال زایمان نیست.</NotInLabor>
   <!-- EN: labor -->
-  <Labor>TODO</Labor>
+  <Labor>زایمان</Labor>
   <!-- EN: dilation -->
-  <LaborDilation>TODO</LaborDilation>
+  <LaborDilation>اتساع</LaborDilation>
   <!-- EN: normal -->
-  <PregnancyApproach_Normal>TODO</PregnancyApproach_Normal>
+  <PregnancyApproach_Normal>عادی</PregnancyApproach_Normal>
   <!-- EN: avoid pregnancy -->
-  <PregnancyApproach_AvoidPregnancy>TODO</PregnancyApproach_AvoidPregnancy>
+  <PregnancyApproach_AvoidPregnancy>اجتناب از بارداری</PregnancyApproach_AvoidPregnancy>
   <!-- EN: try for baby -->
-  <PregnancyApproach_TryForBaby>TODO</PregnancyApproach_TryForBaby>
+  <PregnancyApproach_TryForBaby>تلاش برای بچه دار شدن</PregnancyApproach_TryForBaby>
   <!-- EN: pregnancy chance -->
-  <PregnancyChance>TODO</PregnancyChance>
+  <PregnancyChance>شانس بارداری</PregnancyChance>
   <!-- EN: Pregnancy approach -->
-  <PregnancyApproach>TODO</PregnancyApproach>
+  <PregnancyApproach>رویکرد بارداری</PregnancyApproach>
   <!-- EN: Click to change pregnancy approach. -->
-  <ClickToChangePregnancyApproach>TODO</ClickToChangePregnancyApproach>
+  <ClickToChangePregnancyApproach>برای تغییر رویکرد بارداری کلیک کنید.</ClickToChangePregnancyApproach>
   <!-- EN: Pregnancy is not possible -->
-  <PregnancyNotPossible>TODO</PregnancyNotPossible>
+  <PregnancyNotPossible>بارداری امکان‌پذیر نیست</PregnancyNotPossible>
   <!-- EN: The chance of a healthy birth at this quality level was {0_percentage}. -->
-  <BirthRitualHealthyBabyChance>TODO</BirthRitualHealthyBabyChance>
+  <BirthRitualHealthyBabyChance>شانس تولد سالم در این سطح کیفیت {0_percentage} بود.</BirthRitualHealthyBabyChance>
   <!-- EN: Giving birth. -->
-  <GivingBirth>TODO</GivingBirth>
+  <GivingBirth>در حال زایمان.</GivingBirth>
 
   <!-- Shield comp -->
   <!-- EN: Shield energy -->
-  <ShieldEnergy>TODO</ShieldEnergy>
+  <ShieldEnergy>انرژی سپر</ShieldEnergy>
   <!-- EN: Time to recovery -->
-  <ShieldTimeToRecovery>TODO</ShieldTimeToRecovery>
+  <ShieldTimeToRecovery>زمان تا بازیابی</ShieldTimeToRecovery>
 
   <!-- Genes -->
   <!-- EN: genes -->
-  <Genes>TODO</Genes>
+  <Genes>ژن‌ها</Genes>
   <!-- EN: The genes associated with this xenotype. -->
-  <GenesDesc>TODO</GenesDesc>
+  <GenesDesc>ژن‌های مرتبط با این زنوتایپ.</GenesDesc>
   <!-- EN: suppressed -->
-  <Suppressed>TODO</Suppressed>
+  <Suppressed>سرکوب شده</Suppressed>
   <!-- EN: active -->
-  <Active>TODO</Active>
+  <Active>فعال</Active>
   <!-- EN: This trait has been suppressed by a conflicting forced genetic trait or gene. It will not be active until all conflicts are removed -->
-  <SuppressedDesc>TODO</SuppressedDesc>
+  <SuppressedDesc>این ویژگی توسط یک ویژگی یا ژن ژنتیکی اجباری متضاد سرکوب شده است. تا زمانی که تمام تضادها برطرف نشوند، فعال نخواهد بود</SuppressedDesc>
   <!-- EN: trait -->
-  <Trait>TODO</Trait>
+  <Trait>ویژگی</Trait>
   <!-- EN: gene -->
-  <Gene>TODO</Gene>
+  <Gene>ژن</Gene>
   <!-- EN: Added by gene -->
-  <AddedByGene>TODO</AddedByGene>
+  <AddedByGene>اضافه شده توسط ژن</AddedByGene>
   <!-- EN: Eject all -->
-  <EjectAll>TODO</EjectAll>
+  <EjectAll>خارج کردن همه</EjectAll>
   <!-- EN: Drop all contained genepacks onto the ground. -->
-  <EjectAllDesc>TODO</EjectAllDesc>
+  <EjectAllDesc>تمام بسته‌های ژنی موجود را روی زمین بیندازید.</EjectAllDesc>
   <!-- EN: Genepacks stored -->
-  <GenepacksStored>TODO</GenepacksStored>
+  <GenepacksStored>بسته‌های ژنی ذخیره شده</GenepacksStored>
   <!-- EN: Auto-load -->
-  <GenepackAutoLoad>TODO</GenepackAutoLoad>
+  <GenepackAutoLoad>بارگیری خودکار</GenepackAutoLoad>
   <!-- EN: If active, haulers will automatically store this genepack in a gene bank. -->
-  <GenepackAutoLoadDesc>TODO</GenepackAutoLoadDesc>
+  <GenepackAutoLoadDesc>اگر فعال باشد، حمل‌کنندگان به طور خودکار این بسته ژنی را در بانک ژن ذخیره می‌کنند.</GenepackAutoLoadDesc>
   <!-- EN: Forced traits -->
-  <ForcedTraits>TODO</ForcedTraits>
+  <ForcedTraits>ویژگی‌های اجباری</ForcedTraits>
   <!-- EN: Suppressed traits -->
-  <SuppressedTraits>TODO</SuppressedTraits>
+  <SuppressedTraits>ویژگی‌های سرکوب شده</SuppressedTraits>
   <!-- EN: These traits will be added. All conflicting traits will become suppressed. -->
-  <ForcedTraitsDesc>TODO</ForcedTraitsDesc>
+  <ForcedTraitsDesc>این ویژگی‌ها اضافه خواهند شد. تمام ویژگی‌های متضاد سرکوب خواهند شد.</ForcedTraitsDesc>
   <!-- EN: Complexity -->
-  <Complexity>TODO</Complexity>
+  <Complexity>پیچیدگی</Complexity>
   <!-- EN: How much complexity this adds to the process of gene assembly. -->
-  <ComplexityDesc>TODO</ComplexityDesc>
+  <ComplexityDesc>میزان پیچیدگی که این به فرآیند مونتاژ ژن اضافه می‌کند.</ComplexityDesc>
   <!-- EN: Maximum complexity can be increased by building gene processors near the gene assembler. -->
-  <MaxComplexityDesc>TODO</MaxComplexityDesc>
+  <MaxComplexityDesc>حداکثر پیچیدگی را می‌توان با ساخت پردازنده‌های ژن در نزدیکی مونتاژکننده ژن افزایش داد.</MaxComplexityDesc>
   <!-- EN: Total complexity -->
-  <ComplexityTotal>TODO</ComplexityTotal>
+  <ComplexityTotal>پیچیدگی کل</ComplexityTotal>
   <!-- EN: The total complexity of all the genes in use. -->
-  <ComplexityTotalDesc>TODO</ComplexityTotalDesc>
+  <ComplexityTotalDesc>پیچیدگی کل تمام ژن‌های در حال استفاده.</ComplexityTotalDesc>
   <!-- EN: metabolic efficiency -->
-  <Metabolism>TODO</Metabolism>
+  <Metabolism>متابولیسم</Metabolism>
   <!-- EN: The total metabolic efficiency of these genes when assembled. High efficiency means a person needs less food; low efficiency means they must eat more. -->
-  <MetabolismDesc>TODO</MetabolismDesc>
+  <MetabolismDesc>بازده متابولیکی کل این ژن‌ها هنگام مونتاژ. بازده بالا به این معنی است که فرد به غذای کمتری نیاز دارد؛ بازده پایین به این معنی است که باید بیشتر بخورد.</MetabolismDesc>
   <!-- EN: Metabolic efficiency -->
-  <MetabolismTotal>TODO</MetabolismTotal>
+  <MetabolismTotal>بازده متابولیکی</MetabolismTotal>
   <!-- EN: The total metabolic efficiency of all genes in the genome. High efficiency means a person needs less food; low efficiency means they must eat more. -->
-  <MetabolismTotalDesc>TODO</MetabolismTotalDesc>
+  <MetabolismTotalDesc>بازده متابولیکی کل تمام ژن‌های موجود در ژنوم. بازده بالا به این معنی است که فرد به غذای کمتری نیاز دارد؛ بازده پایین به این معنی است که باید بیشتر بخورد.</MetabolismTotalDesc>
   <!-- EN: Number of genes -->
-  <NumberOfGenes>TODO</NumberOfGenes>
+  <NumberOfGenes>تعداد ژن‌ها</NumberOfGenes>
   <!-- EN: Gene price factors -->
-  <GenePriceFactors>TODO</GenePriceFactors>
+  <GenePriceFactors>عوامل قیمت ژن</GenePriceFactors>
   <!-- EN: any -->
-  <AnyLower>TODO</AnyLower>
+  <AnyLower>هر</AnyLower>
   <!-- EN: Archite total -->
-  <ArchitesTotal>TODO</ArchitesTotal>
+  <ArchitesTotal>کل آرکایت</ArchitesTotal>
   <!-- EN: Archite capsules -->
-  <ArchitesRequired>TODO</ArchitesRequired>
+  <ArchitesRequired>کپسول‌های آرکایت</ArchitesRequired>
   <!-- EN: Archites are archotech mechanites - microscopic devices which can operate directly on cells and molecules, created by superintelligent archotechs. They are capable of unexplainable feats, and some genes only function when supported by the otherworldly machinery of the archotechs. Humans cannot create archites - only find them when an archotech happens to produce some for its own unknowable reason. -->
-  <ArchitesRequiredDesc>TODO</ArchitesRequiredDesc>
+  <ArchitesRequiredDesc>آرکایت‌ها مکانیت‌های آرکوتک هستند - دستگاه‌های میکروسکوپی که می‌توانند مستقیماً روی سلول‌ها و مولکول‌ها عمل کنند، که توسط آرکوتک‌های فوق‌هوشمند ایجاد شده‌اند. آن‌ها قادر به انجام کارهای غیرقابل توضیح هستند و برخی ژن‌ها فقط زمانی کار می‌کنند که توسط ماشین‌آلات ماورایی آرکوتک‌ها پشتیبانی شوند. انسان‌ها نمی‌توانند آرکایت‌ها را ایجاد کنند - فقط زمانی آن‌ها را پیدا می‌کنند که یک آرکوتک به دلایل ناشناخته خود مقداری تولید کند.</ArchitesRequiredDesc>
   <!-- EN: Cancel xenogerm -->
-  <CancelXenogerm>TODO</CancelXenogerm>
+  <CancelXenogerm>لغو ژن بیگانه</CancelXenogerm>
   <!-- EN: Stop all work on the current xenogerm. -->
-  <CancelXenogermDesc>TODO</CancelXenogermDesc>
+  <CancelXenogermDesc>تمام کارها روی ژن بیگانه فعلی را متوقف کنید.</CancelXenogermDesc>
   <!-- EN: Allow all genepacks -->
-  <AllowAllGenepacks>TODO</AllowAllGenepacks> 
+  <AllowAllGenepacks>اجازه تمام بسته‌های ژنی</AllowAllGenepacks>
   <!-- EN: Whether or not colonists are allowed to automatically store any genepack into this container. Turn this off if you want to specify which specific genepacks should be stored here. -->
-  <AllowAllGenepacksDesc>TODO</AllowAllGenepacksDesc> 
+  <AllowAllGenepacksDesc>اینکه آیا به مستعمره‌نشینان اجازه داده می‌شود به طور خودکار هر بسته ژنی را در این ظرف ذخیره کنند یا خیر. اگر می‌خواهید مشخص کنید کدام بسته‌های ژنی خاص باید در اینجا ذخیره شوند، این گزینه را خاموش کنید.</AllowAllGenepacksDesc>
   <!-- EN: The genepacks currently inside this container. -->
-  <ContainedGenepacksDesc>TODO</ContainedGenepacksDesc> 
+  <ContainedGenepacksDesc>بسته‌های ژنی که در حال حاضر داخل این ظرف هستند.</ContainedGenepacksDesc>
   <!-- EN: The genepacks designated to be loaded into this container. -->
-  <GenepacksToLoadDesc>TODO</GenepacksToLoadDesc> 
+  <GenepacksToLoadDesc>بسته‌های ژنی که برای بارگیری در این ظرف تعیین شده‌اند.</GenepacksToLoadDesc>
   <!-- EN: Unstored genepacks that are not designated to be loaded into this container. -->
-  <GenepacksIgnoredDesc>TODO</GenepacksIgnoredDesc> 
+  <GenepacksIgnoredDesc>بسته‌های ژنی ذخیره نشده که برای بارگیری در این ظرف تعیین نشده‌اند.</GenepacksIgnoredDesc>
   <!-- EN: Genepacks to load -->
-  <GenepacksToLoad>TODO</GenepacksToLoad> 
+  <GenepacksToLoad>بسته‌های ژنی برای بارگیری</GenepacksToLoad>
   <!-- EN: Genepacks to ignore -->
-  <GenepacksToIgnore>TODO</GenepacksToIgnore> 
+  <GenepacksToIgnore>بسته‌های ژنی برای نادیده گرفتن</GenepacksToIgnore>
   <!-- EN: Eject this genepack from the container. -->
-  <EjectGenepackDesc>TODO</EjectGenepackDesc> 
+  <EjectGenepackDesc>این بسته ژنی را از ظرف خارج کنید.</EjectGenepackDesc>
   <!-- EN: Do you really want to eject {0}? It will be immediately ejected onto the ground nearby. -->
-  <ConfirmRemoveGenepack>TODO</ConfirmRemoveGenepack> 
+  <ConfirmRemoveGenepack>آیا واقعاً می‌خواهید {0} را خارج کنید؟ بلافاصله در نزدیکی روی زمین پرتاب خواهد شد.</ConfirmRemoveGenepack>
   <!-- EN: Missing required research -->
-  <MissingRequiredResearch>TODO</MissingRequiredResearch>
+  <MissingRequiredResearch>تحقیق مورد نیاز گم شده است</MissingRequiredResearch>
   <!-- EN: No genepacks available in nearby gene banks. -->
-  <NoGenepacksAvailable>TODO</NoGenepacksAvailable> 
+  <NoGenepacksAvailable>هیچ بسته ژنی در بانک‌های ژن نزدیک موجود نیست.</NoGenepacksAvailable>
   <!-- EN: Allow this genepack to be loaded into this container. -->
-  <AddToLoadingListDesc>TODO</AddToLoadingListDesc> 
+  <AddToLoadingListDesc>اجازه دهید این بسته ژنی در این ظرف بارگیری شود.</AddToLoadingListDesc>
   <!-- EN: Remove this genepack from the loading list. -->
-  <RemoveFromLoadingListDesc>TODO</RemoveFromLoadingListDesc> 
+  <RemoveFromLoadingListDesc>این بسته ژنی را از لیست بارگیری حذف کنید.</RemoveFromLoadingListDesc>
   <!-- EN: Recombine -->
-  <Recombine>TODO</Recombine>
+  <Recombine>ترکیب مجدد</Recombine>
   <!-- EN: Create a new implantable xenogerm using data from genepacks in your gene library. -->
-  <RecombineDesc>TODO</RecombineDesc>
+  <RecombineDesc>یک ژن بیگانه قابل کاشت جدید با استفاده از داده‌های بسته‌های ژنی در کتابخانه ژن خود ایجاد کنید.</RecombineDesc>
   <!-- EN: Genes -->
-  <ContainedGenesDesc>TODO</ContainedGenesDesc>
+  <ContainedGenesDesc>ژن‌ها</ContainedGenesDesc>
   <!-- EN: Order implantation -->
-  <ImplantXenogerm>TODO</ImplantXenogerm>
+  <ImplantXenogerm>دستور کاشت</ImplantXenogerm>
   <!-- EN: Implant this into a person to partially override their genetic code.\n\nThis is a surgical operation, so it requires a doctor, medical bed and {MEDICINEAMOUNT} medicine. -->
-  <ImplantXenogermDesc>TODO</ImplantXenogermDesc>
+  <ImplantXenogermDesc>این را در یک فرد بکارید تا کد ژنتیکی او را تا حدی بازنویسی کند.\n\nاین یک عمل جراحی است، بنابراین به یک دکتر، تخت پزشکی و {MEDICINEAMOUNT} دارو نیاز دارد.</ImplantXenogermDesc>
   <!-- EN: Implanting a xenogerm will put {PAWN_nameDef} in a coma as the xenogerm integrates itself. On average, this lasts for {COMADURATION}. The length of the coma is dependent on the doctor's medical skill and the quality of your medical facilities. -->
-  <ImplantXenogermWarningDesc>TODO</ImplantXenogermWarningDesc>
+  <ImplantXenogermWarningDesc>کاشت ژن بیگانه {PAWN_nameDef} را در کما فرو می‌برد تا ژن بیگانه خود را ادغام کند. به طور متوسط، این کما {COMADURATION} طول می‌کشد. طول کما به مهارت پزشکی دکتر و کیفیت امکانات پزشکی شما بستگی دارد.</ImplantXenogermWarningDesc>
   <!-- EN: Additionally, implanting a xenogerm will overwrite existing xenogenes. {PAWN_nameDef}'s current xenotype is '{XENOTYPE}'. {PAWN_pronoun} has the following xenogenes:\n{XENOGENES} -->
-  <ImplantXenogermWarningOverwriteXenogenes>TODO</ImplantXenogermWarningOverwriteXenogenes>
+  <ImplantXenogermWarningOverwriteXenogenes>علاوه بر این، کاشت ژن بیگانه ژن‌های بیگانه موجود را بازنویسی می‌کند. زنوتایپ فعلی {PAWN_nameDef} '{XENOTYPE}' است. {PAWN_pronoun} دارای ژن‌های بیگانه زیر است:\n{XENOGENES}</ImplantXenogermWarningOverwriteXenogenes>
   <!-- EN: After implantation, {PAWN_nameDef} will have a metabolism value of {MET} and a food consumption multiplier of {CONSUMPTION}. -->
-  <ImplantXenogermWarningNewMetabolism>TODO</ImplantXenogermWarningNewMetabolism>
+  <ImplantXenogermWarningNewMetabolism>پس از کاشت، {PAWN_nameDef} مقدار متابولیسم {MET} و ضریب مصرف غذا {CONSUMPTION} خواهد داشت.</ImplantXenogermWarningNewMetabolism>
   <!-- EN: Would you like to continue? -->
-  <WouldYouLikeToContinue>TODO</WouldYouLikeToContinue>
+  <WouldYouLikeToContinue>آیا می‌خواهید ادامه دهید؟</WouldYouLikeToContinue>
   <!-- EN: Cancel implanting -->
-  <CancelImplanting>TODO</CancelImplanting>
+  <CancelImplanting>لغو کاشت</CancelImplanting>
   <!-- EN: Cancel implanting this xenogerm into {PAWN_nameDef}. -->
-  <CancelImplantingDesc>TODO</CancelImplantingDesc>
+  <CancelImplantingDesc>کاشت این ژن بیگانه در {PAWN_nameDef} را لغو کنید.</CancelImplantingDesc>
   <!-- EN: Xenotype -->
-  <Xenotype>TODO</Xenotype>
+  <Xenotype>زنوتایپ</Xenotype>
   <!-- EN: unique -->
-  <Unique>TODO</Unique>
+  <Unique>منحصر به فرد</Unique>
   <!-- EN: A unique human variant with a set of xenogenes that do not fall into any known xenotype. -->
-  <UniqueXenotypeDesc>TODO</UniqueXenotypeDesc>
+  <UniqueXenotypeDesc>یک گونه انسانی منحصر به فرد با مجموعه‌ای از ژن‌های بیگانه که در هیچ زنوتایپ شناخته شده‌ای قرار نمی‌گیرند.</UniqueXenotypeDesc>
   <!-- EN: Factor for genetic metabolism -->
-  <FactorForMetabolism>TODO</FactorForMetabolism>
+  <FactorForMetabolism>عامل متابولیسم ژنتیکی</FactorForMetabolism>
   <!-- EN: Progress -->
-  <Progress>TODO</Progress>
+  <Progress>پیشرفت</Progress>
   <!-- EN: In sunlight -->
-  <InSunlight>TODO</InSunlight>
+  <InSunlight>در نور خورشید</InSunlight>
   <!-- EN: {0_labelShort} is exposed to the sky. -->
-  <ThingIsSkyExposed>TODO</ThingIsSkyExposed>
+  <ThingIsSkyExposed>{0_labelShort} در معرض آسمان قرار دارد.</ThingIsSkyExposed>
   <!-- EN: Insert person -->
-  <InsertPerson>TODO</InsertPerson>
+  <InsertPerson>وارد کردن فرد</InsertPerson>
   <!-- EN: Insert a person into the gene extractor. Their genetic material will be extracted and used to create a genepack containing a random selection of their genes.\n\nGene extraction is painful and will leave the subject weak and drowsy for a number of days. The process is lethal for those whose genes are currently regrowing. -->
-  <InsertPersonGeneExtractorDesc>TODO</InsertPersonGeneExtractorDesc>
+  <InsertPersonGeneExtractorDesc>یک فرد را در استخراج‌کننده ژن وارد کنید. مواد ژنتیکی آن‌ها استخراج شده و برای ایجاد یک بسته ژنی حاوی مجموعه‌ای تصادفی از ژن‌های آن‌ها استفاده می‌شود.\n\nاستخراج ژن دردناک است و سوژه را برای چند روز ضعیف و خواب‌آلود می‌کند. این فرآیند برای کسانی که ژن‌هایشان در حال حاضر در حال بازسازی هستند، کشنده است.</InsertPersonGeneExtractorDesc>
   <!-- EN: Warning: {PAWN_nameDef}'s genes are regrowing. Extracting {PAWN_possessive} genes before they are regrown will kill {PAWN_objective}.\n\nAre you sure you wish to continue? -->
-  <ConfirmExtractXenogermWillKill>TODO</ConfirmExtractXenogermWillKill>
+  <ConfirmExtractXenogermWillKill>هشدار: ژن‌های {PAWN_nameDef} در حال بازسازی هستند. استخراج ژن‌های {PAWN_possessive} قبل از بازسازی آن‌ها، {PAWN_objective} را خواهد کشت.\n\nآیا مطمئن هستید که می‌خواهید ادامه دهید؟</ConfirmExtractXenogermWillKill>
   <!-- EN: Gene extraction complete for {PAWN_nameDef}. Extracted -->
-  <GeneExtractionComplete>TODO</GeneExtractionComplete>
+  <GeneExtractionComplete>استخراج ژن برای {PAWN_nameDef} کامل شد. استخراج شده</GeneExtractionComplete>
   <!-- EN: Insert xenogerm -->
-  <InsertXenogerm>TODO</InsertXenogerm>
+  <InsertXenogerm>وارد کردن ژن بیگانه</InsertXenogerm>
   <!-- EN: Insert a xenogerm to apply during growth. -->
-  <InsertXenogermDesc>TODO</InsertXenogermDesc>
+  <InsertXenogermDesc>یک ژن بیگانه برای اعمال در طول رشد وارد کنید.</InsertXenogermDesc>
   <!-- EN: Waiting for {PAWN_nameDef}. -->
-  <WaitingForPawn>TODO</WaitingForPawn>
+  <WaitingForPawn>در انتظار {PAWN_nameDef}.</WaitingForPawn>
   <!-- EN: Extracting genes from {PAWN_nameDef}. -->
-  <ExtractingXenogermFrom>TODO</ExtractingXenogermFrom>
+  <ExtractingXenogermFrom>در حال استخراج ژن از {PAWN_nameDef}.</ExtractingXenogermFrom>
   <!-- EN: Extraction paused: No power (interrupt in {TIME}) -->
-  <ExtractionPausedNoPower>TODO</ExtractionPausedNoPower>
+  <ExtractionPausedNoPower>استخراج متوقف شد: بدون برق (وقفه در {TIME})</ExtractionPausedNoPower>
   <!-- EN: Last ingested {CHEMICAL_label} {DURATION} ago. -->
-  <LastIngestedDurationAgo>TODO</LastIngestedDurationAgo>
+  <LastIngestedDurationAgo>آخرین مصرف {CHEMICAL_label} در {DURATION} پیش.</LastIngestedDurationAgo>
   <!-- EN: {NAME} xenogerm -->
-  <NamedXenogerm>TODO</NamedXenogerm>
+  <NamedXenogerm>ژن بیگانه {NAME}</NamedXenogerm>
   <!-- EN: Inserted {0} -->
-  <InsertedThing>TODO</InsertedThing>
+  <InsertedThing>{0} وارد شد</InsertedThing>
   <!-- EN: Assembly paused -->
-  <AssemblyPaused>TODO</AssemblyPaused>
+  <AssemblyPaused>مونتاژ متوقف شد</AssemblyPaused>
   <!-- EN: Required gene bank unpowered -->
-  <GenebankUnpowered>TODO</GenebankUnpowered>
+  <GenebankUnpowered>بانک ژن مورد نیاز بدون برق</GenebankUnpowered>
   <!-- EN: deathless -->
-  <Deathless>TODO</Deathless>
+  <Deathless>نامیرا</Deathless>
   <!-- EN: {PAWN_nameDef} needs to ingest {0} on a regular basis to survive. After {DEFICIENCYDURATION} without {0}, {PAWN_pronoun} will suffer from {0} deficiency. After {COMADURATION}, {PAWN_pronoun} will fall into a coma. After {DEATHDURATION}, {PAWN_pronoun} will die. -->
-  <GeneDefChemicalNeedDurationDesc>TODO</GeneDefChemicalNeedDurationDesc>
+  <GeneDefChemicalNeedDurationDesc>{PAWN_nameDef} برای بقا باید به طور منظم {0} مصرف کند. پس از {DEFICIENCYDURATION} بدون {0}، {PAWN_pronoun} از کمبود {0} رنج خواهد برد. پس از {COMADURATION}، {PAWN_pronoun} به کما می‌رود. پس از {DEATHDURATION}، {PAWN_pronoun} خواهد مرد.</GeneDefChemicalNeedDurationDesc>
   <!-- EN: {CHEMICAL_label} dependency -->
-  <ChemicalDependency>TODO</ChemicalDependency>
+  <ChemicalDependency>وابستگی به {CHEMICAL_label}</ChemicalDependency>
   <!-- EN: Xenogerm -->
-  <Xenogerm>TODO</Xenogerm>
+  <Xenogerm>ژن بیگانه</Xenogerm>
   <!-- EN: {PAWN_nameDef} will continue deathresting so long as {PAWN_pronoun} has lethal injuries. -->
-  <PawnWillKeepDeathrestingLethalInjuries>TODO</PawnWillKeepDeathrestingLethalInjuries>
+  <PawnWillKeepDeathrestingLethalInjuries>{PAWN_nameDef} تا زمانی که جراحات کشنده داشته باشد، به استراحت مرگ ادامه خواهد داد.</PawnWillKeepDeathrestingLethalInjuries>
   <!-- EN: {PAWN_nameDef} will remain in a regeneration coma so long as {PAWN_pronoun} has lethal injuries. -->
-  <PawnWillKeepRegeneratingLethalInjuries>TODO</PawnWillKeepRegeneratingLethalInjuries>
+  <PawnWillKeepRegeneratingLethalInjuries>{PAWN_nameDef} تا زمانی که جراحات کشنده داشته باشد، در کما بازسازی باقی خواهد ماند.</PawnWillKeepRegeneratingLethalInjuries>
   <!-- EN: Deathrest stopped -->
-  <DeathrestPaused>TODO</DeathrestPaused>
+  <DeathrestPaused>استراحت مرگ متوقف شد</DeathrestPaused>
   <!-- EN: Lethal injuries -->
-  <LethalInjuries>TODO</LethalInjuries>
+  <LethalInjuries>جراحات کشنده</LethalInjuries>
   <!-- EN: deathrest -->
-  <Deathrest>TODO</Deathrest>
+  <Deathrest>استراحت مرگ</Deathrest>
   <!-- EN: capacity -->
-  <Capacity>TODO</Capacity>
+  <Capacity>ظرفیت</Capacity>
   <!-- EN: Non-{GENE} romance chance -->
-  <MissingGeneRomanceChance>TODO</MissingGeneRomanceChance>
+  <MissingGeneRomanceChance>شانس عاشقانه با غیر-{GENE}</MissingGeneRomanceChance>
   <!-- EN: Not in gene bank -->
-  <NotInGeneBank>TODO</NotInGeneBank>
+  <NotInGeneBank>در بانک ژن نیست</NotInGeneBank>
 
   <!-- Child birth -->
   <!-- EN: Gather to help a mother give birth. A doctor can help deliver the baby. -->
-  <ChildBirthAlwaysHealthy_Desc>TODO</ChildBirthAlwaysHealthy_Desc>
+  <ChildBirthAlwaysHealthy_Desc>برای کمک به مادر در زایمان جمع شوید. یک دکتر می‌تواند به دنیا آوردن نوزاد کمک کند.</ChildBirthAlwaysHealthy_Desc>
   <!-- EN: until the baby is born -->
-  <UntilBabyIsBorn>TODO</UntilBabyIsBorn>
+  <UntilBabyIsBorn>تا زمانی که نوزاد متولد شود</UntilBabyIsBorn>
 
   <!-- EN: Children want to learn from different activities at different times. -->
-  <LearningDesireTooltip>TODO</LearningDesireTooltip>
+  <LearningDesireTooltip>کودکان می‌خواهند در زمان‌های مختلف از فعالیت‌های مختلف یاد بگیرند.</LearningDesireTooltip>
   <!-- EN: Development health is the average of a child's learning need since their last birthday.\n\nChildren with higher development health will have more options during growth moments and will gain more passions for skills. -->
-  <DevelopmentHealthGizmoTooltip>TODO</DevelopmentHealthGizmoTooltip>
+  <DevelopmentHealthGizmoTooltip>سلامت رشد میانگین نیاز یادگیری کودک از آخرین تولد اوست.\n\nکودکان با سلامت رشد بالاتر گزینه‌های بیشتری در لحظات رشد خواهند داشت و اشتیاق بیشتری برای مهارت‌ها کسب خواهند کرد.</DevelopmentHealthGizmoTooltip>
 
   <!-- EN: Must not be placed close to another {0_label} -->
-  <MustNotBePlacedCloseToAnother>TODO</MustNotBePlacedCloseToAnother>
+  <MustNotBePlacedCloseToAnother>نباید نزدیک {0_label} دیگری قرار گیرد</MustNotBePlacedCloseToAnother>
   <!-- EN: Next terrain pollution in -->
-  <PollutingTerrainProgress>TODO</PollutingTerrainProgress>
+  <PollutingTerrainProgress>آلودگی زمین بعدی در</PollutingTerrainProgress>
   <!-- EN: Poisoned {0} -->
-  <PoisonedTerrain>TODO</PoisonedTerrain>
+  <PoisonedTerrain>{0} مسموم شده</PoisonedTerrain>
   <!-- EN: Assign to control group {0} -->
-  <AssignMechToControlGroup>TODO</AssignMechToControlGroup>
+  <AssignMechToControlGroup>اختصاص به گروه کنترل {0}</AssignMechToControlGroup>
   <!-- EN: Fall per day -->
-  <CurrentMechEnergyFallPerDay>TODO</CurrentMechEnergyFallPerDay>
+  <CurrentMechEnergyFallPerDay>کاهش در روز</CurrentMechEnergyFallPerDay>
   <!-- EN: Cannot assign to control group {0} -->
-  <CannotAssignMechToControlGroup>TODO</CannotAssignMechToControlGroup>
+  <CannotAssignMechToControlGroup>نمی‌توان به گروه کنترل {0} اختصاص داد</CannotAssignMechToControlGroup>
   <!-- EN: Already assigned -->
-  <AssignMechAlreadyAssigned>TODO</AssignMechAlreadyAssigned>
+  <AssignMechAlreadyAssigned>قبلاً اختصاص داده شده</AssignMechAlreadyAssigned>
 
   <!-- Lactation -->
   <!-- EN: Consuming an extra {0} nutrition per day to produce milk (milk production speed is {1_percentage} because of the current food level). -->
-  <LactatingAddedNutritionPerDay>TODO</LactatingAddedNutritionPerDay>
+  <LactatingAddedNutritionPerDay>مصرف اضافی {0} تغذیه در روز برای تولید شیر (سرعت تولید شیر {1_percentage} است به دلیل سطح غذای فعلی).</LactatingAddedNutritionPerDay>
   <!-- EN: Lactation is paused because milk fullness is 100% -->
-  <LactatingStoppedBecauseFull>TODO</LactatingStoppedBecauseFull>
+  <LactatingStoppedBecauseFull>شیردهی متوقف شده است زیرا پر بودن شیر ۱۰۰٪ است</LactatingStoppedBecauseFull>
   <!-- EN: Lactation is paused due to starvation. -->
-  <LactatingStoppedBecauseHungry>TODO</LactatingStoppedBecauseHungry>
+  <LactatingStoppedBecauseHungry>شیردهی به دلیل گرسنگی متوقف شده است.</LactatingStoppedBecauseHungry>
 
   <!-- Mech gestating -->
   <!-- EN: Current gestation cycle -->
-  <CurrentGestationCycle>TODO</CurrentGestationCycle>
+  <CurrentGestationCycle>چرخه رشد فعلی</CurrentGestationCycle>
   <!-- EN: Gestation cycles remaining -->
-  <RemainingGestationCycles>TODO</RemainingGestationCycles>
+  <RemainingGestationCycles>چرخه‌های رشد باقی‌مانده</RemainingGestationCycles>
   <!-- EN: Gestation cycles -->
-  <GestationCycles>TODO</GestationCycles>
+  <GestationCycles>چرخه‌های رشد</GestationCycles>
   <!-- EN: Gestating {0} -->
-  <GestatingMech>TODO</GestatingMech>
+  <GestatingMech>در حال رشد {0}</GestatingMech>
   <!-- EN: Gestated {0} -->
-  <GestatedMech>TODO</GestatedMech>
+  <GestatedMech>{0} رشد یافته</GestatedMech>
   <!-- EN: Requires {PAWN_nameDef} to continue gestating -->
-  <GestatingMechRequiresMechanitor>TODO</GestatingMechRequiresMechanitor>
+  <GestatingMechRequiresMechanitor>برای ادامه رشد به {PAWN_nameDef} نیاز دارد</GestatingMechRequiresMechanitor>
   <!-- EN: Requires {PAWN_nameDef} to complete -->
-  <GestatedMechRequiresMechanitor>TODO</GestatedMechRequiresMechanitor>
+  <GestatedMechRequiresMechanitor>برای تکمیل به {PAWN_nameDef} نیاز دارد</GestatedMechRequiresMechanitor>
   <!-- EN: Gestation complete -->
-  <GestationComplete>TODO</GestationComplete>
+  <GestationComplete>رشد کامل شد</GestationComplete>
   <!-- EN: Resurrecting {0} -->
-  <ResurrectingMech>TODO</ResurrectingMech>
+  <ResurrectingMech>در حال احیای {0}</ResurrectingMech>
   <!-- EN: Resurrected {0} -->
-  <ResurrectedMech>TODO</ResurrectedMech>
+  <ResurrectedMech>{0} احیا شده</ResurrectedMech>
 
   <!-- Carrier -->
   <!-- EN: Release {0} -->
-  <MechCarrierRelease>TODO</MechCarrierRelease>
+  <MechCarrierRelease>آزاد کردن {0}</MechCarrierRelease>
   <!-- EN: Release a swarm of up to {0} {1}. Each {2} costs {3} {4} to build. If the parent is destroyed then all the linked {1} will die. {1} cannot be recharged and will die once their power source runs out. -->
-  <MechCarrierDesc>TODO</MechCarrierDesc>
+  <MechCarrierDesc>دسته‌ای از حداکثر {0} {1} را آزاد کنید. ساخت هر {2} هزینه {3} {4} دارد. اگر والد نابود شود، تمام {1}های مرتبط خواهند مرد. {1} قابل شارژ مجدد نیستند و پس از اتمام منبع تغذیه خود خواهند مرد.</MechCarrierDesc>
   <!-- EN: Not enough resources -->
-  <MechCarrierNotEnoughResources>TODO</MechCarrierNotEnoughResources>
+  <MechCarrierNotEnoughResources>منابع کافی نیست</MechCarrierNotEnoughResources>
   <!-- EN: Autofill -->
-  <MechCarrierAutofillResources>TODO</MechCarrierAutofillResources>
+  <MechCarrierAutofillResources>پر کردن خودکار</MechCarrierAutofillResources>
   <!-- EN: Click to set the desired autofill amount. -->
-  <MechCarrierClickToSetAutofillAmount>TODO</MechCarrierClickToSetAutofillAmount>
+  <MechCarrierClickToSetAutofillAmount>برای تنظیم مقدار پر کردن خودکار مورد نظر کلیک کنید.</MechCarrierClickToSetAutofillAmount>
   <!-- EN: This autofill amount determines the maximum amount of resources your colonists will automatically place in this {0}. Resources can be used to create {1}. -->
-  <MechCarrierAutofillDesc>TODO</MechCarrierAutofillDesc>
+  <MechCarrierAutofillDesc>این مقدار پر کردن خودکار حداکثر مقدار منابعی را تعیین می‌کند که مستعمره‌نشینان شما به طور خودکار در این {0} قرار می‌دهند. منابع را می‌توان برای ایجاد {1} استفاده کرد.</MechCarrierAutofillDesc>
 
   <!-- Mech power cell -->
   <!-- EN: Power cell -->
-  <MechPowerCell>TODO</MechPowerCell>
+  <MechPowerCell>سلول انرژی</MechPowerCell>
   <!-- EN: War urchins have a one-time power source. When the power cell runs out, the mechanoid dies. -->
-  <MechPowerCellTip>TODO</MechPowerCellTip>
-  
+  <MechPowerCellTip>جوجه‌تیغی‌های جنگی یک منبع انرژی یک‌بار مصرف دارند. وقتی سلول انرژی تمام شود، مکانیوید می‌میرد.</MechPowerCellTip>
+
 
   <!-- Bossgroup -->
   <!-- EN: available in {0}. -->
-  <BossgroupAvailableIn>TODO</BossgroupAvailableIn>
+  <BossgroupAvailableIn>در {0} موجود است.</BossgroupAvailableIn>
   <!-- EN: requires mechanitor -->
-  <RequiresMechanitor>TODO</RequiresMechanitor>
+  <RequiresMechanitor>نیاز به مکانیتور دارد</RequiresMechanitor>
 
   <!-- Abilities -->
   <!-- EN: {0_labelShort} is not hemogenic. -->
-  <AbilityDisabledNoHemogenGene>TODO</AbilityDisabledNoHemogenGene>
+  <AbilityDisabledNoHemogenGene>{0_labelShort} هموژنیک نیست.</AbilityDisabledNoHemogenGene>
   <!-- EN: {0_labelShort} does not have enough hemogen. -->
-  <AbilityDisabledNoHemogen>TODO</AbilityDisabledNoHemogen>
+  <AbilityDisabledNoHemogen>{0_labelShort} هموژن کافی ندارد.</AbilityDisabledNoHemogen>
   <!-- EN: children cannot do this. -->
-  <AbilityStartRitualDisabledChild>TODO</AbilityStartRitualDisabledChild>
+  <AbilityStartRitualDisabledChild>کودکان نمی‌توانند این کار را انجام دهند.</AbilityStartRitualDisabledChild>
   <!-- EN: need a {0}. -->
-  <AbilityStartRitualNoMembersOfIdeo>TODO</AbilityStartRitualNoMembersOfIdeo>
+  <AbilityStartRitualNoMembersOfIdeo>به یک {0} نیاز است.</AbilityStartRitualNoMembersOfIdeo>
   <!-- EN: Hemogen cost -->
-  <AbilityHemogenCost>TODO</AbilityHemogenCost>
+  <AbilityHemogenCost>هزینه هموژن</AbilityHemogenCost>
   <!-- EN: Base hemogen gain -->
-  <AbilityHemogenGain>TODO</AbilityHemogenGain>
+  <AbilityHemogenGain>کسب هموژن پایه</AbilityHemogenGain>
   <!-- EN: Smokepop charged -->
-  <AbilityMechSmokepopCharged>TODO</AbilityMechSmokepopCharged>
+  <AbilityMechSmokepopCharged>دودزا شارژ شده</AbilityMechSmokepopCharged>
   <!-- EN: Smokepop recharged in {0} -->
-  <AbilityMechSmokepopRecharging>TODO</AbilityMechSmokepopRecharging>
+  <AbilityMechSmokepopRecharging>دودزا در {0} شارژ مجدد می‌شود</AbilityMechSmokepopRecharging>
   <!-- EN: Firefoam pop charged -->
-  <AbilityMechFirefoampopCharged>TODO</AbilityMechFirefoampopCharged>
+  <AbilityMechFirefoampopCharged>پاشش فوم آتش‌نشانی شارژ شده</AbilityMechFirefoampopCharged>
   <!-- EN: Firefoam pop recharged in {0} -->
-  <AbilityMechFirefoampopRecharging>TODO</AbilityMechFirefoampopRecharging>
+  <AbilityMechFirefoampopRecharging>پاشش فوم آتش‌نشانی در {0} شارژ مجدد می‌شود</AbilityMechFirefoampopRecharging>
 
   <!-- EN: Polluted {0} -->
-  <PollutedTerrain>TODO</PollutedTerrain>
+  <PollutedTerrain>آلوده شده {0}</PollutedTerrain>
 
   <!-- Growth vat -->
   <!-- EN: Biostarvation -->
-  <Biostarvation>TODO</Biostarvation>
+  <Biostarvation>بیواستارواسیون</Biostarvation>
   <!-- EN: One or more growth vats are experiencing biostarvation from lack of nutrition or power.\n\nIf biostarvation reaches 100%, the contained people will die. -->
-  <BiostarvationExplanation>TODO</BiostarvationExplanation>
+  <BiostarvationExplanation>یک یا چند مخزن رشد به دلیل کمبود تغذیه یا برق دچار بیواستارواسیون شده‌اند.\n\nاگر بیواستارواسیون به ۱۰۰٪ برسد، افراد موجود در آن خواهند مرد.</BiostarvationExplanation>
   <!-- EN: Insert a person into the growth vat. They will age 20 times as fast as normal. -->
-  <InsertPersonGrowthVatDesc>TODO</InsertPersonGrowthVatDesc>
+  <InsertPersonGrowthVatDesc>یک فرد را در مخزن رشد قرار دهید. آن‌ها ۲۰ برابر سریع‌تر از حد معمول پیر می‌شوند.</InsertPersonGrowthVatDesc>
   <!-- EN: Implant an embryo into the growth vat. After gestating for {0} a fully formed baby will be produced by the vat, hopefully in good health. -->
-  <InsertEmbryoGrowthVatDesc>TODO</InsertEmbryoGrowthVatDesc>
+  <InsertEmbryoGrowthVatDesc>یک جنین را در مخزن رشد بکارید. پس از رشد به مدت {0}، یک نوزاد کاملاً شکل‌گرفته توسط مخزن تولید می‌شود، امیدوارم در سلامت کامل.</InsertEmbryoGrowthVatDesc>
   <!-- EN: Insert embryo -->
-  <ImplantEmbryo>TODO</ImplantEmbryo>
+  <ImplantEmbryo>وارد کردن جنین</ImplantEmbryo>
   <!-- EN: Cannot insert embryo -->
-  <CannotInsertEmbryo>TODO</CannotInsertEmbryo>
+  <CannotInsertEmbryo>نمی‌توان جنین را وارد کرد</CannotInsertEmbryo>
   <!-- EN: Already contains embryo. -->
-  <EmbryoAlreadyInside>TODO</EmbryoAlreadyInside>
+  <EmbryoAlreadyInside>قبلاً حاوی جنین است.</EmbryoAlreadyInside>
   <!-- EN: No embryos -->
-  <ImplantNoEmbryos>TODO</ImplantNoEmbryos>
+  <ImplantNoEmbryos>بدون جنین</ImplantNoEmbryos>
   <!-- EN: Time until birth -->
-  <EmbryoTimeUntilBirth>TODO</EmbryoTimeUntilBirth>
+  <EmbryoTimeUntilBirth>زمان تا تولد</EmbryoTimeUntilBirth>
   <!-- EN: Birth quality -->
-  <EmbryoBirthQuality>TODO</EmbryoBirthQuality>
+  <EmbryoBirthQuality>کیفیت تولد</EmbryoBirthQuality>
   <!-- EN: Embryo selected -->
-  <EmbryoSelected>TODO</EmbryoSelected>
+  <EmbryoSelected>جنین انتخاب شده</EmbryoSelected>
   <!-- EN: Person selected -->
-  <PersonSelected>TODO</PersonSelected>
+  <PersonSelected>فرد انتخاب شده</PersonSelected>
   <!-- EN: No non-biostarving people of acceptable age. To enter the growth vat, the person must be below {0} years old and not currently biostarving. -->
-  <NoPawnsCanEnterGrowthVat>TODO</NoPawnsCanEnterGrowthVat>
+  <NoPawnsCanEnterGrowthVat>هیچ فرد غیربیواستارواسیون با سن قابل قبول وجود ندارد. برای ورود به مخزن رشد، فرد باید زیر {0} سال سن داشته باشد و در حال حاضر دچار بیواستارواسیون نباشد.</NoPawnsCanEnterGrowthVat>
   <!-- EN: Aging speed -->
-  <AgingSpeed>TODO</AgingSpeed>
+  <AgingSpeed>سرعت پیری</AgingSpeed>
 
   <!-- Mech charger -->
   <!-- EN: Waste -->
-  <WasteLevel>TODO</WasteLevel>
+  <WasteLevel>سطح زباله</WasteLevel>
 
   <!-- Dissolution -->
   <!-- EN: indoors -->
-  <DissolutionRateIndoors>TODO</DissolutionRateIndoors>
+  <DissolutionRateIndoors>در داخل ساختمان</DissolutionRateIndoors>
   <!-- EN: raining -->
-  <DissolutionRain>TODO</DissolutionRain>
+  <DissolutionRain>باران می‌بارد</DissolutionRain>
   <!-- EN: One wastepack dissolves every {0} -->
-  <DissolvesEvery>TODO</DissolvesEvery>
+  <DissolvesEvery>هر {0} یک بسته زباله حل می‌شود</DissolvesEvery>
   <!-- EN: Frozen (won't dissolve). -->
-  <DissolutionFrozen>TODO</DissolutionFrozen>
+  <DissolutionFrozen>یخ زده (حل نمی‌شود).</DissolutionFrozen>
 
   <!-- EN: {0} cells / day -->
-  <CellsPerDay>TODO</CellsPerDay>
+  <CellsPerDay>{0} سلول / روز</CellsPerDay>
 
   <!-- EN: {0} cannot wear clothing for {1} -->
-  <WrongDevelopmentalStageForClothing>TODO</WrongDevelopmentalStageForClothing> 
+  <WrongDevelopmentalStageForClothing>{0} نمی‌تواند برای {1} لباس بپوشد</WrongDevelopmentalStageForClothing> 
 
   <!-- Subcore scanner -->
   <!-- EN: Start scanner -->
-  <SubcoreScannerStart>TODO</SubcoreScannerStart>
+  <SubcoreScannerStart>شروع اسکنر</SubcoreScannerStart>
   <!-- EN: Produces -->
-  <SubcoreScannerProduces>TODO</SubcoreScannerProduces>
+  <SubcoreScannerProduces>تولید می‌کند</SubcoreScannerProduces>
   <!-- EN: Once the {0} is filled with the required ingredients, {1}, select a colonist and right-click on the {0} or on a downed person to start the scanner. -->
-  <SubcoreScannerStartDesc>TODO</SubcoreScannerStartDesc>
+  <SubcoreScannerStartDesc>هنگامی که {0} با مواد لازم، {1}، پر شد، یک مستعمره‌نشین را انتخاب کرده و روی {0} یا روی یک فرد افتاده کلیک راست کنید تا اسکنر شروع شود.</SubcoreScannerStartDesc>
   <!-- EN: Completes in -->
-  <SubcoreScannerCompletesIn>TODO</SubcoreScannerCompletesIn>
+  <SubcoreScannerCompletesIn>تکمیل در</SubcoreScannerCompletesIn>
   <!-- EN: Waiting for occupant -->
-  <SubcoreScannerWaitingForOccupant>TODO</SubcoreScannerWaitingForOccupant>
+  <SubcoreScannerWaitingForOccupant>در انتظار سرنشین</SubcoreScannerWaitingForOccupant>
   <!-- EN: Waiting for ingredients -->
-  <SubcoreScannerWaitingForIngredients>TODO</SubcoreScannerWaitingForIngredients>
+  <SubcoreScannerWaitingForIngredients>در انتظار مواد لازم</SubcoreScannerWaitingForIngredients>
   <!-- EN: The following ingredients must be loaded first -->
-  <SubcoreScannerWaitingForIngredientsDesc>TODO</SubcoreScannerWaitingForIngredientsDesc>
+  <SubcoreScannerWaitingForIngredientsDesc>مواد لازم زیر باید ابتدا بارگیری شوند</SubcoreScannerWaitingForIngredientsDesc>
   <!-- EN: Has {0} -->
-  <SubcoreScannerPawnHasSickness>TODO</SubcoreScannerPawnHasSickness>
+  <SubcoreScannerPawnHasSickness>دارای {0}</SubcoreScannerPawnHasSickness>
   <!-- EN: Babies are not allowed -->
-  <SubcoreScannerBabyNotAllowed>TODO</SubcoreScannerBabyNotAllowed>
+  <SubcoreScannerBabyNotAllowed>نوزادان مجاز نیستند</SubcoreScannerBabyNotAllowed>
   <!-- EN: Insert a person into the {0}. -->
-  <InsertPersonSubcoreScannerDesc>TODO</InsertPersonSubcoreScannerDesc>
+  <InsertPersonSubcoreScannerDesc>یک فرد را در {0} وارد کنید.</InsertPersonSubcoreScannerDesc>
 
   <!-- EN: Duration (hours) -->
-  <DurationHours>TODO</DurationHours>
+  <DurationHours>مدت زمان (ساعت)</DurationHours>
 
   <!-- Age -->
   <!-- EN: adult -->
-  <Adult>TODO</Adult>
+  <Adult>بزرگسال</Adult>
   <!-- EN: adults -->
-  <Adults>TODO</Adults>
+  <Adults>بزرگسالان</Adults>
   <!-- EN: child -->
-  <Child>TODO</Child>
+  <Child>کودک</Child>
   <!-- EN: children -->
-  <Children>TODO</Children>
+  <Children>کودکان</Children>
   <!-- EN: baby -->
-  <Baby>TODO</Baby>
+  <Baby>نوزاد</Baby>
   <!-- EN: babies -->
-  <Babies>TODO</Babies>
+  <Babies>نوزادان</Babies>
   <!-- EN: feral child -->
-  <FeralChild>TODO</FeralChild>
+  <FeralChild>کودک وحشی</FeralChild>
   <!-- EN: Wearable by -->
-  <WearableBy>TODO</WearableBy>
+  <WearableBy>قابل پوشیدن توسط</WearableBy>
 
   <!-- EN: Xenogerm implantation -->
-  <Reward_ReimplantXenogerm_Label>TODO</Reward_ReimplantXenogerm_Label>
+  <Reward_ReimplantXenogerm_Label>کاشت ژن بیگانه</Reward_ReimplantXenogerm_Label>
   <!-- EN: One member of the group will reimplant their xenogerm into a colonist of your choice, thus turning your colonist into one of them. Your colonist will remain part of your faction and under your control. -->
-  <Reward_ReimplantXenogerm_Desc>TODO</Reward_ReimplantXenogerm_Desc>
+  <Reward_ReimplantXenogerm_Desc>یکی از اعضای گروه ژن بیگانه خود را در مستعمره‌نشین انتخابی شما دوباره می‌کارد و بدین ترتیب مستعمره‌نشین شما را به یکی از آن‌ها تبدیل می‌کند. مستعمره‌نشین شما بخشی از جناح شما و تحت کنترل شما باقی خواهد ماند.</Reward_ReimplantXenogerm_Desc>
 
   <!-- Mech resurrection -->
   <!-- EN: Mech resurrection charges -->
-  <MechResurrectionCharges>TODO</MechResurrectionCharges>
+  <MechResurrectionCharges>شارژهای احیای مکانیوید</MechResurrectionCharges>
 
   <!-- Mechs -->
   <!-- EN: Mech stun pulse on death -->
-  <MechStunPulseWarning>TODO</MechStunPulseWarning>
+  <MechStunPulseWarning>پالس شوک مکانیوید هنگام مرگ</MechStunPulseWarning>
   <!-- EN: {PAWN_nameDef} is in self-shutdown from low energy. -->
-  <IsLowEnergySelfShutdown>TODO</IsLowEnergySelfShutdown>
+  <IsLowEnergySelfShutdown>{PAWN_nameDef} به دلیل کمبود انرژی در حالت خاموشی خودکار است.</IsLowEnergySelfShutdown>
   
   <!-- Pollution -->
   <!-- EN: Toggle pollution overlay. This displays which areas of terrain are polluted.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most plants cannot live on polluted terrain. -->
-  <ShowPollutionOverlayToggleButton>TODO</ShowPollutionOverlayToggleButton>
+  <ShowPollutionOverlayToggleButton>نمایش پوشش آلودگی. این نشان می‌دهد کدام مناطق زمین آلوده هستند.\n\nقرار گرفتن در معرض زمین آلوده باعث تجمع سم می‌شود که می‌تواند منجر به مرگ شود. بیشتر گیاهان نمی‌توانند در زمین آلوده زندگی کنند.</ShowPollutionOverlayToggleButton>
   <!-- EN: None -->
-  <TilePollutionNone>TODO</TilePollutionNone>
+  <TilePollutionNone>هیچ</TilePollutionNone>
   <!-- EN: Light -->
-  <TilePollutionLight>TODO</TilePollutionLight>
+  <TilePollutionLight>کم</TilePollutionLight>
   <!-- EN: Moderate -->
-  <TilePollutionModerate>TODO</TilePollutionModerate>
+  <TilePollutionModerate>متوسط</TilePollutionModerate>
   <!-- EN: Extreme -->
-  <TilePollutionExtreme>TODO</TilePollutionExtreme>
+  <TilePollutionExtreme>شدید</TilePollutionExtreme>
   <!-- EN: Pollution -->
-  <TilePollution>TODO</TilePollution>
+  <TilePollution>آلودگی</TilePollution>
   <!-- EN: Nearby pollution -->
-  <TilePollutionNearby>TODO</TilePollutionNearby>
+  <TilePollutionNearby>آلودگی نزدیک</TilePollutionNearby>
   <!-- EN: The sum of pollution levels of all tiles within a {0} tile radius. As the distance from this tile increases, the pollution contribution decreases:\n\n{1}\n\nThe higher the nearby pollution the greater the chance of acidic smog occurring. -->
-  <NearbyPollutionTip>TODO</NearbyPollutionTip>
+  <NearbyPollutionTip>مجموع سطوح آلودگی تمام کاشی‌ها در شعاع {0} کاشی. با افزایش فاصله از این کاشی، سهم آلودگی کاهش می‌یابد:\n\n{1}\n\nهرچه آلودگی نزدیک بیشتر باشد، احتمال وقوع مه اسیدی بیشتر است.</NearbyPollutionTip>
   <!-- EN: This tile will have acidic smog every {0} days on average. -->
-  <NoxiousHazeInterval>TODO</NoxiousHazeInterval>
+  <NoxiousHazeInterval>این کاشی به طور متوسط هر {0} روز مه اسیدی خواهد داشت.</NoxiousHazeInterval>
   <!-- EN: This tile will never have acidic smog. -->
-  <NoxiousHazeNeverOccurring>TODO</NoxiousHazeNeverOccurring>
+  <NoxiousHazeNeverOccurring>این کاشی هرگز مه اسیدی نخواهد داشت.</NoxiousHazeNeverOccurring>
   <!-- EN: tiles away -->
-  <NearbyPollutionTilesAway>TODO</NearbyPollutionTilesAway>
+  <NearbyPollutionTilesAway>کاشی دورتر</NearbyPollutionTilesAway>
   <!-- EN: pollution -->
-  <PollutionLower>TODO</PollutionLower>
+  <PollutionLower>آلودگی</PollutionLower>
   <!-- EN: Cannot absorb pollution: Buildings too close -->
-  <CannotAbsorbPollution>TODO</CannotAbsorbPollution>
+  <CannotAbsorbPollution>نمی‌توان آلودگی را جذب کرد: ساختمان‌ها خیلی نزدیک هستند</CannotAbsorbPollution>
   <!-- EN: Can absorb pollution from nearby terrain -->
-  <CanAbsorbPollution>TODO</CanAbsorbPollution>
+  <CanAbsorbPollution>می‌تواند آلودگی را از زمین نزدیک جذب کند</CanAbsorbPollution>
   <!-- EN: Absorbing pollution: Next in {0} -->
-  <AbsorbingPollutionNext>TODO</AbsorbingPollutionNext>
+  <AbsorbingPollutionNext>در حال جذب آلودگی: بعدی در {0}</AbsorbingPollutionNext>
   <!-- EN: How polluted the terrain is on this tile.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most crops cannot live on polluted terrain. -->
-  <TerrainPollutionTip>TODO</TerrainPollutionTip>
+  <TerrainPollutionTip>میزان آلودگی زمین در این کاشی.\n\nقرار گرفتن در معرض زمین آلوده باعث تجمع سم می‌شود که می‌تواند منجر به مرگ شود. بیشتر محصولات نمی‌توانند در زمین آلوده زندگی کنند.</TerrainPollutionTip>
 
   <!-- Research -->
   <!-- EN: Requires study of -->
-  <StudyRequirementTip>TODO</StudyRequirementTip>
+  <StudyRequirementTip>نیاز به مطالعه</StudyRequirementTip>
 
   <!-- Insect -->
   <!-- EN: Trigger radius -->
-  <TriggerRadius>TODO</TriggerRadius>
+  <TriggerRadius>شعاع فعال‌سازی</TriggerRadius>
   <!-- EN: Opening -->
-  <DormantCompOpening>TODO</DormantCompOpening>
+  <DormantCompOpening>در حال باز شدن</DormantCompOpening>
   
   <!-- Fertility -->
   <!-- EN: ova extracted recently -->
-  <SurgeryDisableReasonOvumExtracted>TODO</SurgeryDisableReasonOvumExtracted>
+  <SurgeryDisableReasonOvumExtracted>تخمک اخیراً استخراج شده است</SurgeryDisableReasonOvumExtracted>
   <!-- EN: Fertilize -->
-  <Fertilize>TODO</Fertilize>
+  <Fertilize>لقاح</Fertilize>
   <!-- EN: Fertilize {0_label} -->
-  <FertilizeThing>TODO</FertilizeThing>
+  <FertilizeThing>لقاح {0_label}</FertilizeThing>
   <!-- EN: Cannot fertilize -->
-  <FertilizeCannotFloatOption>TODO</FertilizeCannotFloatOption>
+  <FertilizeCannotFloatOption>نمی‌توان لقاح کرد</FertilizeCannotFloatOption>
   <!-- EN: Choose a man to fertilize this ovum to create an embryo. The embryo can then be implanted in a mother to start a pregnancy, or in a growth vat. The biological parents of the resulting child will be the woman who provided the ovum and man who fertilized it. -->
-  <FertilizeGizmoDescription>TODO</FertilizeGizmoDescription>
+  <FertilizeGizmoDescription>مردی را برای لقاح این تخمک انتخاب کنید تا جنین ایجاد شود. سپس جنین می‌تواند در مادر کاشته شود تا بارداری شروع شود، یا در مخزن رشد. والدین بیولوژیکی کودک حاصل، زنی خواهد بود که تخمک را فراهم کرده و مردی که آن را لقاح کرده است.</FertilizeGizmoDescription>
   <!-- EN: Cancel fertilization by {0} -->
-  <FertilizeCancel>TODO</FertilizeCancel>
+  <FertilizeCancel>لغو لقاح توسط {0}</FertilizeCancel>
   <!-- EN: sterile -->
-  <CannotSterile>TODO</CannotSterile>
+  <CannotSterile>نابارور</CannotSterile>
   <!-- EN: pregnant -->
-  <CannotPregnant>TODO</CannotPregnant>
+  <CannotPregnant>باردار</CannotPregnant>
   <!-- EN: must be {0} -->
-  <CannotMustBeAge>TODO</CannotMustBeAge>
+  <CannotMustBeAge>باید {0} باشد</CannotMustBeAge>
   <!-- EN: already having embryo implanted -->
-  <CannotImplantingOtherEmbryo>TODO</CannotImplantingOtherEmbryo>
+  <CannotImplantingOtherEmbryo>قبلاً جنین کاشته شده است</CannotImplantingOtherEmbryo>
   <!-- EN: {0} ({1}) -->
-  <DisabledOption>TODO</DisabledOption>
+  <DisabledOption>{0} ({1})</DisabledOption>
   <!-- EN: No men can fertilize this ovum. -->
-  <FertilizeDisabledNoMales>TODO</FertilizeDisabledNoMales>
+  <FertilizeDisabledNoMales>هیچ مردی نمی‌تواند این تخمک را لقاح کند.</FertilizeDisabledNoMales>
   
   <!-- EN: Implant embryo -->
-  <ImplantLabel>TODO</ImplantLabel>
+  <ImplantLabel>کاشت جنین</ImplantLabel>
   <!-- EN: Implant this embryo in a surrogate mother to begin a pregnancy. -->
-  <ImplantDescription>TODO</ImplantDescription>
+  <ImplantDescription>این جنین را در یک مادر جایگزین بکارید تا بارداری شروع شود.</ImplantDescription>
   <!-- EN: Insert in growth vat -->
-  <InsertGrowthVatLabel>TODO</InsertGrowthVatLabel>
+  <InsertGrowthVatLabel>وارد کردن در مخزن رشد</InsertGrowthVatLabel>
 
   <!-- EN: Cannot implant -->
-  <ImplantCannotFloatOption>TODO</ImplantCannotFloatOption>
+  <ImplantCannotFloatOption>نمی‌توان کاشت کرد</ImplantCannotFloatOption>
   <!-- EN: No woman can be a surrogate mother. -->
-  <ImplantDisabledNoWomen>TODO</ImplantDisabledNoWomen>
+  <ImplantDisabledNoWomen>هیچ زنی نمی‌تواند مادر جایگزین باشد.</ImplantDisabledNoWomen>
   <!-- EN: No available growth vats. -->
-  <ImplantDisabledNoVats>TODO</ImplantDisabledNoVats>
+  <ImplantDisabledNoVats>هیچ مخزن رشد موجود نیست.</ImplantDisabledNoVats>
   <!-- EN: Implant {0} -->
-  <ImplantSurgeryLabel>TODO</ImplantSurgeryLabel>
+  <ImplantSurgeryLabel>کاشت {0}</ImplantSurgeryLabel>
   <!-- EN: The implantation success chance for the {0} in {1} is {2}.\n\nThe implantation success chance is dependent on the fertility of the surrogate mother. It will be lower if the mother is too old or too young. -->
-  <ImplantSurgeryConfirm>TODO</ImplantSurgeryConfirm>
+  <ImplantSurgeryConfirm>شانس موفقیت کاشت برای {0} در {1} {2} است.\n\nشانس موفقیت کاشت به باروری مادر جایگزین بستگی دارد. اگر مادر خیلی پیر یا خیلی جوان باشد، کمتر خواهد بود.</ImplantSurgeryConfirm>
   <!-- EN: Ejecting the {0} from the growth vat right now will destroy it before a baby is formed.\n\nWould you like to continue? -->
-  <ImplantEmbryoCancelVat>TODO</ImplantEmbryoCancelVat>
+  <ImplantEmbryoCancelVat>خارج کردن {0} از مخزن رشد در حال حاضر آن را قبل از تشکیل نوزاد از بین می‌برد.\n\nآیا می‌خواهید ادامه دهید؟</ImplantEmbryoCancelVat>
   <!-- EN: Implanting the {0} in {1} was unsuccessful. -->
-  <ImplantFailedMessage>TODO</ImplantFailedMessage>
+  <ImplantFailedMessage>کاشت {0} در {1} ناموفق بود.</ImplantFailedMessage>
   <!-- EN: Cancel embryo insertion -->
-  <ImplantEmbryoCancel>TODO</ImplantEmbryoCancel>
+  <ImplantEmbryoCancel>لغو وارد کردن جنین</ImplantEmbryoCancel>
   <!-- EN: The {0} was ejected from a growth vat and destroyed. -->
-  <EmbryoEjectedFromGrowthVat>TODO</EmbryoEjectedFromGrowthVat>
+  <EmbryoEjectedFromGrowthVat>{0} از مخزن رشد خارج و نابود شد.</EmbryoEjectedFromGrowthVat>
   <!-- EN: The {0} was destroyed in a growth vat due to biostarvation. -->
-  <EmbryoEjectedFromGrowthVatBiostarvation>TODO</EmbryoEjectedFromGrowthVatBiostarvation>
+  <EmbryoEjectedFromGrowthVatBiostarvation>{0} در مخزن رشد به دلیل بیواستارواسیون نابود شد.</EmbryoEjectedFromGrowthVatBiostarvation>
 
   <!-- EN: {0} has successfully become pregnant from embryo implantation! -->
-  <IvfPregnancyLetterText>TODO</IvfPregnancyLetterText>
+  <IvfPregnancyLetterText>{0} با موفقیت از کاشت جنین باردار شد!</IvfPregnancyLetterText>
   <!-- EN: The baby will have the genetic makeup of {0} and {1}. -->
-  <IvfPregnancyLetterParents>TODO</IvfPregnancyLetterParents>
+  <IvfPregnancyLetterParents>نوزاد ترکیب ژنتیکی {0} و {1} را خواهد داشت.</IvfPregnancyLetterParents>
 
   <!-- Projectile interceptor -->
   <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->
-  <ProjectileInterceptorTip>TODO</ProjectileInterceptorTip>
+  <ProjectileInterceptorTip>یک سپر پرتابی با زاویه کم که سعی می‌کند پرتابه‌ها یا ترکش‌های ورودی را متوقف کند. در صورت برخورد با EMP فوراً خاموش می‌شود.</ProjectileInterceptorTip>
 
   <!-- Remote mech shield -->
   <!-- EN: A remote shield projected by a mechanitor. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks or heat. It prevents the wearer from firing out, and shuts down instantly if hit by EMP -->
-  <RemoteMechShieldTip>TODO</RemoteMechShieldTip>
+  <RemoteMechShieldTip>یک سپر از راه دور که توسط یک مکانیتور پرتاب می‌شود. سعی می‌کند پرتابه‌ها یا ترکش‌های ورودی را متوقف کند، اما در برابر حملات تن به تن یا گرما کاری انجام نمی‌دهد. از شلیک کردن پوشنده به بیرون جلوگیری می‌کند و در صورت برخورد با EMP فوراً خاموش می‌شود.</RemoteMechShieldTip>
 
   <!-- Thoughtdef fallbacks -->
   <!-- EN: my child is happy -->
-  <MyChildIsHappy>TODO</MyChildIsHappy>
+  <MyChildIsHappy>فرزندم خوشحال است</MyChildIsHappy>
   <!-- EN: my child is sad -->
-  <MyChildIsSad>TODO</MyChildIsSad> 
+  <MyChildIsSad>فرزندم غمگین است</MyChildIsSad> 
   
   <!-- EN: Genetic {CHEMICAL_label} dependency -->
-  <GeneticChemicalDependency_Label>TODO</GeneticChemicalDependency_Label>
+  <GeneticChemicalDependency_Label>وابستگی ژنتیکی به {CHEMICAL_label}</GeneticChemicalDependency_Label>
   <!-- EN: I need {CHEMICAL_label} because of my genetic deficiency. It's been so long since I've had any. -->
-  <GeneticChemicalDependency_Desc>TODO</GeneticChemicalDependency_Desc>
+  <GeneticChemicalDependency_Desc>من به دلیل کمبود ژنتیکی‌ام به {CHEMICAL_label} نیاز دارم. خیلی وقت است که هیچ کدام را نداشته‌ام.</GeneticChemicalDependency_Desc>
 
 </LanguageData>

@@ -4,130 +4,130 @@
   <!-- EN: Need slave beds -->
   <NeedSlaveBeds>نیاز به تخت برده</NeedSlaveBeds>
   <!-- EN: You have more slaves than you have slave beds. Someone will lack a place to sleep.\n\nEither make more beds, or change a colonist or prisoner bed to a slave bed.\n\nIf you have no resources, sleeping spots are free and can be placed instantly. -->
-  <NeedSlaveBedsDesc>TODO</NeedSlaveBedsDesc>
+  <NeedSlaveBedsDesc>شما بیشتر از تعداد تخت‌های برده، برده دارید. کسی جای خواب نخواهد داشت.\n\nیا تخت‌های بیشتری بسازید، یا تخت مستعمره‌نشین یا زندانی را به تخت برده تغییر دهید.\n\nاگر منابعی ندارید، نقاط خواب رایگان هستند و می‌توانند فوراً قرار داده شوند.</NeedSlaveBedsDesc>
 
   <!-- EN: Slave unsuppressed -->
-  <SlavesUnsuppressedLabel>TODO</SlavesUnsuppressedLabel>
+  <SlavesUnsuppressedLabel>برده سرکوب نشده</SlavesUnsuppressedLabel>
   <!-- EN: {0_nameDef}'s suppression level is dangerously low. There is a good chance {0_pronoun} will rebel.\n\nMake sure there is a colonist assigned to warden work. Wardens will suppress slaves periodically to stop them from rebelling. -->
-  <SlavesUnsuppressedDesc>TODO</SlavesUnsuppressedDesc>
+  <SlavesUnsuppressedDesc>سطح سرکوب {0_nameDef} به طور خطرناکی پایین است. احتمال زیادی وجود دارد که {0_pronoun} شورش کند.\n\nمطمئن شوید که یک مستعمره‌نشین به کار نگهبانی اختصاص داده شده است. نگهبانان بردگان را به صورت دوره‌ای سرکوب خواهند کرد تا از شورش آن‌ها جلوگیری کنند.</SlavesUnsuppressedDesc>
   <!-- EN: Slave unattended -->
-  <SlaveUnattendedLabel>TODO</SlaveUnattendedLabel>
+  <SlaveUnattendedLabel>برده بدون مراقبت</SlaveUnattendedLabel>
   <!-- EN: Slaves unattended -->
-  <SlaveUnattendedMultipleLabel>TODO</SlaveUnattendedMultipleLabel>
+  <SlaveUnattendedMultipleLabel>بردگان بدون مراقبت</SlaveUnattendedMultipleLabel>
   <!-- EN: Some slaves are alone on a map with no able-bodied colonists around.\n\nSlaves left unattended like this are very likely to rebel within days or hours. -->
-  <SlavesUnattendedDesc>TODO</SlavesUnattendedDesc>
+  <SlavesUnattendedDesc>برخی بردگان در نقشه‌ای تنها هستند و هیچ مستعمره‌نشین سالم در اطراف نیست.\n\nبردگانی که اینگونه بدون مراقبت رها می‌شوند، احتمال شورش آن‌ها در عرض چند روز یا ساعت بسیار زیاد است.</SlavesUnattendedDesc>
 
   <!-- EN: {0} opportunity -->
-  <RitualOpportunity>TODO</RitualOpportunity>
+  <RitualOpportunity>فرصت {0}</RitualOpportunity>
   <!-- EN: {0} opportunity for {1} -->
-  <RitualOpportunityFor>TODO</RitualOpportunityFor>
+  <RitualOpportunityFor>فرصت {0} برای {1}</RitualOpportunityFor>
   <!-- EN: Expires in {0}, on {1}. -->
-  <RitualExpiresIn>TODO</RitualExpiresIn>
+  <RitualExpiresIn>منقضی می‌شود در {0}، در تاریخ {1}.</RitualExpiresIn>
   <!-- EN: To begin the ritual, select a {FOCUS} and click the 'Begin {RITUAL_label}' command. -->
-  <RitualSingleTargetDesc>TODO</RitualSingleTargetDesc>
+  <RitualSingleTargetDesc>برای شروع مراسم، یک {FOCUS} را انتخاب کرده و روی دستور 'شروع {RITUAL_label}' کلیک کنید.</RitualSingleTargetDesc>
   <!-- EN: To begin the ritual, select one of the following and click the 'Begin {RITUAL_label}' command -->
-  <RitualMultiTargetDesc>TODO</RitualMultiTargetDesc>
+  <RitualMultiTargetDesc>برای شروع مراسم، یکی از موارد زیر را انتخاب کرده و روی دستور 'شروع {RITUAL_label}' کلیک کنید</RitualMultiTargetDesc>
   <!-- EN: To begin the ritual, select a focus object and click the 'Begin {RITUAL_label}' command. The following are valid focus objects:\n{1} -->
-  <RitualTargetsExplanation>TODO</RitualTargetsExplanation>
+  <RitualTargetsExplanation>برای شروع مراسم، یک شیء تمرکز را انتخاب کرده و روی دستور 'شروع {RITUAL_label}' کلیک کنید. اشیاء تمرکز معتبر عبارتند از:\n{1}</RitualTargetsExplanation>
   <!-- EN: Click to jump to targets -->
-  <RitualJumpToTargets>TODO</RitualJumpToTargets>
+  <RitualJumpToTargets>برای پرش به اهداف کلیک کنید</RitualJumpToTargets>
   <!-- EN: In order to perform {0} you need to fill these roles -->
-  <RitualUnfilledRoles>TODO</RitualUnfilledRoles>
+  <RitualUnfilledRoles>برای انجام {0} باید این نقش‌ها را پر کنید</RitualUnfilledRoles>
 
   <!-- EN: {0} desired -->
-  <IdeoBuildingMissing>TODO</IdeoBuildingMissing>
+  <IdeoBuildingMissing>{0} مورد نظر</IdeoBuildingMissing>
   <!-- EN: {IDEO_name} requires that you have a {0} in your colony as long as {2} or higher.\n\n{0} is a variant of {BASEBUILDING_label}.{BUILDINGINFO}\n\nThis requirement is only active if {IDEO_name} is your faction's primary ideoligion, or there are {MINBELIEVERS} believers in your faction.{4}\n\nIf the requirement isn't met, these believers will become unhappy:\n{3} -->
-  <IdeoBuildingMissingDesc>TODO</IdeoBuildingMissingDesc>
+  <IdeoBuildingMissingDesc>{IDEO_name} نیاز دارد که شما یک {0} در مستعمره خود داشته باشید تا زمانی که {2} یا بالاتر باشد.\n\n{0} یک نوع از {BASEBUILDING_label} است.{BUILDINGINFO}\n\nاین نیاز فقط در صورتی فعال است که {IDEO_name} ایدئولوژی اصلی جناح شما باشد، یا {MINBELIEVERS} معتقد در جناح شما وجود داشته باشد.{4}\n\nاگر نیاز برآورده نشود، این معتقدان ناراضی خواهند شد:\n{3}</IdeoBuildingMissingDesc>
   <!-- EN:  You can find it by opening the '{TABNAME}' tab of the architect menu. -->
-  <IdeoBuildingArchitectTabDesc>TODO</IdeoBuildingArchitectTabDesc>
+  <IdeoBuildingArchitectTabDesc> می‌توانید آن را با باز کردن تب '{TABNAME}' از منوی معمار پیدا کنید.</IdeoBuildingArchitectTabDesc>
   <!-- EN:  It can be created at:\n{0}. -->
-  <IdeoBuildingCanBeCraftedAt>TODO</IdeoBuildingCanBeCraftedAt>
+  <IdeoBuildingCanBeCraftedAt> می‌تواند در:\n{0} ایجاد شود.</IdeoBuildingCanBeCraftedAt>
   <!-- EN: In order to dignify {0}, these room requirements must be met -->
-  <IdeoBuildingRoomRequirementsDesc>TODO</IdeoBuildingRoomRequirementsDesc>
+  <IdeoBuildingRoomRequirementsDesc>برای ارج نهادن به {0}، این الزامات اتاق باید برآورده شوند</IdeoBuildingRoomRequirementsDesc>
   <!-- EN: expectations are -->
-  <IdeoBuildingExpectations>TODO</IdeoBuildingExpectations>
+  <IdeoBuildingExpectations>انتظارات عبارتند از</IdeoBuildingExpectations>
 
   <!-- EN: {0} disrespected -->
-  <IdeoBuildingDisrespected>TODO</IdeoBuildingDisrespected>
+  <IdeoBuildingDisrespected>{0} بی‌احترامی شد</IdeoBuildingDisrespected>
   <!-- EN: {0} requires that {1} be in a dignified room. These room requirements must be met:\n{2}\n\nIf the {1}'s room requirements are not met, these believers will become unhappy:\n{3} -->
-  <IdeoBuildingDisrespectedDesc>TODO</IdeoBuildingDisrespectedDesc>
-  
+  <IdeoBuildingDisrespectedDesc>{0} نیاز دارد که {1} در اتاقی باوقار باشد. این الزامات اتاق باید برآورده شوند:\n{2}\n\nاگر الزامات اتاق {1} برآورده نشود، این معتقدان ناراضی خواهند شد:\n{3}</IdeoBuildingDisrespectedDesc>
+
   <!-- EN: Raids arriving in {0} -->
-  <QuestPartRaidsDelay>TODO</QuestPartRaidsDelay>
+  <QuestPartRaidsDelay>حملات در {0} می‌رسند</QuestPartRaidsDelay>
   <!-- EN: Raids will start arriving in {0}.\n\nThe raiders will target the spacedrone and attempt to destroy it. Protect the spacedrone so your colonists can hack its computer and retrieve the data. -->
-  <QuestPartRaidsDelayDesc>TODO</QuestPartRaidsDelayDesc>
+  <QuestPartRaidsDelayDesc>حملات در {0} شروع به رسیدن خواهند کرد.\n\nمهاجمان فضاپیمای بدون سرنشین را هدف قرار داده و سعی در نابودی آن خواهند داشت. از فضاپیمای بدون سرنشین محافظت کنید تا مستعمره‌نشینان شما بتوانند کامپیوتر آن را هک کرده و داده‌ها را بازیابی کنند.</QuestPartRaidsDelayDesc>
 
   <!-- EN: {0} role unfilled -->
-  <IdeoRoleEmpty>TODO</IdeoRoleEmpty>
+  <IdeoRoleEmpty>نقش {0} پر نشده</IdeoRoleEmpty>
   <!-- EN: {0} roles unfilled -->
-  <IdeoRolesEmpty>TODO</IdeoRolesEmpty>
+  <IdeoRolesEmpty>نقش‌های {0} پر نشده</IdeoRolesEmpty>
   <!-- EN: These roles are not filled:\n{0}\n\nYou can assign someone a role on their Social tab. You can also select a ritual spot or an altar and click 'Begin role change'. \n\nIf these roles remain empty, the following people will be unhappy -->
-  <IdeoRolesEmptyDesc>TODO</IdeoRolesEmptyDesc>
+  <IdeoRolesEmptyDesc>این نقش‌ها پر نشده‌اند:\n{0}\n\nمی‌توانید در تب اجتماعی فرد، نقشی را به او اختصاص دهید. همچنین می‌توانید یک نقطه مراسم یا یک محراب را انتخاب کرده و روی 'شروع تغییر نقش' کلیک کنید.\n\nاگر این نقش‌ها خالی بمانند، افراد زیر ناراضی خواهند شد</IdeoRolesEmptyDesc>
 
   <!-- EN: Security threats activated in {0} -->
-  <AncientAltarThreatsWaking>TODO</AncientAltarThreatsWaking>
+  <AncientAltarThreatsWaking>تهدیدات امنیتی در {0} فعال می‌شوند</AncientAltarThreatsWaking>
   <!-- EN: Security threats will activate in {0}. They will attack any who may threaten the relic. -->
-  <AncientAltarThreatsWakingDesc>TODO</AncientAltarThreatsWakingDesc>
+  <AncientAltarThreatsWakingDesc>تهدیدات امنیتی در {0} فعال خواهند شد. آن‌ها به هر کسی که ممکن است یادگار را تهدید کند حمله خواهند کرد.</AncientAltarThreatsWakingDesc>
 
   <!-- EN: Ritual opportunity soon -->
-  <AlertRitualComing>TODO</AlertRitualComing>
+  <AlertRitualComing>فرصت مراسم به زودی</AlertRitualComing>
   <!-- EN: A ritual opportunity is coming soon for following rituals -->
-  <AlertRitualComingDesc>TODO</AlertRitualComingDesc>
+  <AlertRitualComingDesc>فرصت مراسم به زودی برای مراسم‌های زیر فرا می‌رسد</AlertRitualComingDesc>
   <!-- EN: Opportunities expire after {0} days, and reoccur on the same day each year. -->
-  <AlertRitualComingExtra>TODO</AlertRitualComingExtra>
+  <AlertRitualComingExtra>فرصت‌ها پس از {0} روز منقضی می‌شوند و هر سال در همان روز دوباره رخ می‌دهند.</AlertRitualComingExtra>
   <!-- EN: {0} on {1}, {2} before opportunity arises -->
-  <AlertRitualComingEntry>TODO</AlertRitualComingEntry>
+  <AlertRitualComingEntry>{0} در تاریخ {1}، {2} قبل از فرا رسیدن فرصت</AlertRitualComingEntry>
 
   <!-- EN: Age reversal demanded -->
-  <AlertAgeReversalDemandNear>TODO</AlertAgeReversalDemandNear>
+  <AlertAgeReversalDemandNear>معکوس کردن سن مطالبه شد</AlertAgeReversalDemandNear>
   <!-- EN: Because of their beliefs, some of your colonists demand regular age reversal treatments in a biosculpter pod. If they don't get the treatments, they will be displeased.\n\nThe following people demand age reversal treatment -->
-  <AlertAgeReversalDemandDesc>TODO</AlertAgeReversalDemandDesc>
+  <AlertAgeReversalDemandDesc>به دلیل باورهایشان، برخی از مستعمره‌نشینان شما درمان‌های منظم معکوس کردن سن را در کپسول بایواسکالپتر مطالبه می‌کنند. اگر درمان‌ها را دریافت نکنند، ناراضی خواهند شد.\n\nافراد زیر درمان معکوس کردن سن را مطالبه می‌کنند</AlertAgeReversalDemandDesc>
   <!-- EN: {PAWN} joined {FACTION} recently, and wants to begin age reversal treatments in {DURATION}. -->
-  <AlertAgeReversalDemandDesc_Recruit>TODO</AlertAgeReversalDemandDesc_Recruit>
+  <AlertAgeReversalDemandDesc_Recruit>{PAWN} اخیراً به {FACTION} پیوسته است و می‌خواهد درمان معکوس کردن سن را در {DURATION} آغاز کند.</AlertAgeReversalDemandDesc_Recruit>
   <!-- EN: {PAWN} wants their next treatment in {DURATION}. -->
-  <AlertAgeReversalDemandDesc_Next>TODO</AlertAgeReversalDemandDesc_Next>
+  <AlertAgeReversalDemandDesc_Next>{PAWN} درمان بعدی {PAWN_possessive} را در {DURATION} می‌خواهد.</AlertAgeReversalDemandDesc_Next>
   <!-- EN: {PAWN} wants their first treatment in {DURATION}. -->
-  <AlertAgeReversalDemandDesc_Initial>TODO</AlertAgeReversalDemandDesc_Initial>
+  <AlertAgeReversalDemandDesc_Initial>{PAWN} اولین درمان {PAWN_possessive} را در {DURATION} می‌خواهد.</AlertAgeReversalDemandDesc_Initial>
   <!-- EN: {PAWN}'s treatment is overdue by {DURATION}. -->
-  <AlertAgeReversalDemandDesc_Overdue>TODO</AlertAgeReversalDemandDesc_Overdue>
+  <AlertAgeReversalDemandDesc_Overdue>درمان {PAWN} به مدت {DURATION} به تأخیر افتاده است.</AlertAgeReversalDemandDesc_Overdue>
 
   <!-- EN: {PAWN_nameDef}'s belief in {IDEO_name} prevents {PAWN_objective} from eating the meat of {ANIMALS}. -->
-  <AlertRoyalTitleNoVeneratedAnimalMeat>TODO</AlertRoyalTitleNoVeneratedAnimalMeat>
+  <AlertRoyalTitleNoVeneratedAnimalMeat>باور {PAWN_nameDef} به {IDEO_name} مانع از خوردن گوشت {ANIMALS} توسط {PAWN_objective} می‌شود.</AlertRoyalTitleNoVeneratedAnimalMeat>
 
   <!-- EN: Dryad caste not set -->
-  <AlertGauranlenTreeWithoutDryadTypeLabel>TODO</AlertGauranlenTreeWithoutDryadTypeLabel>
+  <AlertGauranlenTreeWithoutDryadTypeLabel>طبقه دراید تنظیم نشده</AlertGauranlenTreeWithoutDryadTypeLabel>
   <!-- EN: One or more Gauranlen trees do not have their dryad caste set.\n\nSelect the tree and click the '{0}' button to set produced dryad caste. -->
-  <AlertGauranlenTreeWithoutDryadTypeDesc>TODO</AlertGauranlenTreeWithoutDryadTypeDesc>
+  <AlertGauranlenTreeWithoutDryadTypeDesc>یک یا چند درخت گائورانلن طبقه دراید خود را تنظیم نکرده‌اند.\n\nدرخت را انتخاب کرده و روی دکمه '{0}' کلیک کنید تا طبقه دراید تولید شده را تنظیم کنید.</AlertGauranlenTreeWithoutDryadTypeDesc>
   <!-- EN: Connector not assigned to plant cutting -->
-  <AlertConnectedPawnNotAssignedToPlantCuttingLabel>TODO</AlertConnectedPawnNotAssignedToPlantCuttingLabel>
+  <AlertConnectedPawnNotAssignedToPlantCuttingLabel>متصل‌کننده به برش گیاه اختصاص داده نشده</AlertConnectedPawnNotAssignedToPlantCuttingLabel>
   <!-- EN: You have Gauranlen trees which are set to be pruned, but their connectors are not assigned to plant cutting.\n\nYou should assign plant cutting work to the following people -->
-  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>TODO</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
+  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>شما درختان گائورانلن دارید که برای هرس تنظیم شده‌اند، اما متصل‌کننده‌های آن‌ها به برش گیاه اختصاص داده نشده‌اند.\n\nشما باید کار برش گیاه را به افراد زیر اختصاص دهید</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
 
   <!-- EN: Fuel node explodes in {0} -->
-  <AlertFuelNodeIgniting>TODO</AlertFuelNodeIgniting>
+  <AlertFuelNodeIgniting>گره سوخت در {0} منفجر می‌شود</AlertFuelNodeIgniting>
   <!-- EN: A fuel node has ignited! It will melt down and explode very soon.\n\nGet away and be ready to fight or escape the fires. -->
-  <AlertFuelNodeIgnitingDesc>TODO</AlertFuelNodeIgnitingDesc>
+  <AlertFuelNodeIgnitingDesc>یک گره سوخت مشتعل شده است! خیلی زود ذوب شده و منفجر خواهد شد.\n\nدور شوید و برای مبارزه یا فرار از آتش آماده باشید.</AlertFuelNodeIgnitingDesc>
 
   <!-- EN: Insects arriving in {0} -->
-  <AlertInfestationArriving>TODO</AlertInfestationArriving>
+  <AlertInfestationArriving>حشرات در {0} می‌رسند</AlertInfestationArriving>
   <!-- EN: Giant insects have sensed your activity and are burrowing up from underground to attack. Infestations are about to begin. -->
-  <AlertInfestationArrivingDesc>TODO</AlertInfestationArrivingDesc>
+  <AlertInfestationArrivingDesc>حشرات غول‌پیکر فعالیت شما را حس کرده‌اند و از زیر زمین برای حمله بیرون می‌آیند. آلودگی‌ها در شرف آغاز هستند.</AlertInfestationArrivingDesc>
 
   <!-- EN: {0_pawnsPlural} waking in {1} -->
-  <AlertHostilesWakingUp>TODO</AlertHostilesWakingUp>
+  <AlertHostilesWakingUp>{0_pawnsPlural} در {1} بیدار می‌شوند</AlertHostilesWakingUp>
   <!-- EN: One or more {0_pawnsPlural} are waking up.\n\nThey will attack if they find you. -->
-  <AlertHostilesWakingUpDesc>TODO</AlertHostilesWakingUpDesc>
+  <AlertHostilesWakingUpDesc>یک یا چند {0_pawnsPlural} در حال بیداری هستند.\n\nاگر شما را پیدا کنند حمله خواهند کرد.</AlertHostilesWakingUpDesc>
 
   <!-- EN: Cryptosleep caskets opening in {0} -->
-  <AlertCasketOpening>TODO</AlertCasketOpening>
+  <AlertCasketOpening>کپسول‌های کریپتوسلیپ در {0} باز می‌شوند</AlertCasketOpening>
   <!-- EN: Cryptosleep caskets containing unknown threats are opening soon. -->
-  <AlertCasketOpeningDesc>TODO</AlertCasketOpeningDesc>
+  <AlertCasketOpeningDesc>کپسول‌های کریپتوسلیپ حاوی تهدیدات ناشناخته به زودی باز می‌شوند.</AlertCasketOpeningDesc>
 
   <!-- EN: Slave rebellion likely -->
-  <AlertSlaveRebellionLikely>TODO</AlertSlaveRebellionLikely>
+  <AlertSlaveRebellionLikely>شورش بردگان محتمل است</AlertSlaveRebellionLikely>
   <!-- EN: There are {REBELLIOUSCOUNT} slaves that are likely to initiate a rebellion. -->
-  <AlertSlaveRebellionLikelyRebelliousCount>TODO</AlertSlaveRebellionLikelyRebelliousCount>
+  <AlertSlaveRebellionLikelyRebelliousCount>{REBELLIOUSCOUNT} برده وجود دارد که احتمالاً شورش را آغاز خواهند کرد.</AlertSlaveRebellionLikelyRebelliousCount>
   <!-- EN: A slave rebellion is expected to happen roughly once every {COMBINEDTIME}. Note that each slave's rebellion chance is independent, so if any one of them rebels they can take others with them.\n\n{REBEL_labelShort} is the most rebellious slave and is expected to initiate a rebellion roughly once every {INDIVIDUALTIME}. The following factors are affecting how often they will rebel: -->
-  <AlertSlaveRebellionLikelyMostRebellious>TODO</AlertSlaveRebellionLikelyMostRebellious>
-  
+  <AlertSlaveRebellionLikelyMostRebellious>انتظار می‌رود شورش بردگان تقریباً هر {COMBINEDTIME} یک بار رخ دهد. توجه داشته باشید که شانس شورش هر برده مستقل است، بنابراین اگر یکی از آن‌ها شورش کند می‌تواند دیگران را نیز با خود ببرد.\n\n{REBEL_labelShort} شورشی‌ترین برده است و انتظار می‌رود تقریباً هر {INDIVIDUALTIME} یک بار شورش را آغاز کند. عوامل زیر بر میزان شورش آن‌ها تأثیر می‌گذارند:</AlertSlaveRebellionLikelyMostRebellious>
+
 </LanguageData>

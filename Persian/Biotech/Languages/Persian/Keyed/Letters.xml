@@ -3,215 +3,215 @@
 
   <!-- Mechanitor -->
   <!-- EN: Mech(s) gone feral -->
-  <LetterLabelMechsFeral>TODO</LetterLabelMechsFeral>
+  <LetterLabelMechsFeral>مکانیوید(ها) وحشی شدند</LetterLabelMechsFeral>
   <!-- EN: Some mech(s) which were wandering without an overseer have linked with ancient planet-wide mech control signals. They have joined {0} and become hostile, and appear to be trying to fight their way off the map.\n\nFeral mechanoids cannot be resurrected at a gestator when killed.\n\nThese mechs are involved:\n\n{1} -->
-  <LetterMechsFeral>TODO</LetterMechsFeral>
+  <LetterMechsFeral>برخی مکانیوید(ها) که بدون ناظر سرگردان بودند، با سیگنال‌های کنترل مکانیوید باستانی در سراسر سیاره ارتباط برقرار کرده‌اند. آن‌ها به {0} پیوسته‌اند و خصمانه شده‌اند و به نظر می‌رسد در تلاشند تا از نقشه خارج شوند.\n\nمکانیویدهای وحشی را نمی‌توان پس از کشته شدن در دستگاه رشد احیا کرد.\n\nاین مکانیویدها درگیر هستند:\n\n{1}</LetterMechsFeral>
   <!-- EN: Mechlink installed -->
-  <LetterLabelMechlinkInstalled>TODO</LetterLabelMechlinkInstalled>
+  <LetterLabelMechlinkInstalled>مکلینک نصب شد</LetterLabelMechlinkInstalled>
   <!-- EN: {PAWN_labelShort} has installed a mechlink! {PAWN_pronoun} is now a mechanitor and can create and control mechanoids.\n\nResearch basic mechtech to get started.\n\n(*SectionTitle)Creating mechs:(/SectionTitle) Your mechanitor can create mechs at a production building called a mech gestator.\n\n(*SectionTitle)About bandwidth:(/SectionTitle) Mechanitors can control as many mechs as their total bandwidth allows. Select {PAWN_labelShort} and look at {PAWN_possessive} 'Bandwidth' readout to see how much bandwidth {PAWN_pronoun} is currently using and how much {PAWN_pronoun} has available. Bandwidth can be increased with certain apparel and by building band node buildings.\n\n(*SectionTitle)About control groups:(/SectionTitle) Mechanitors control mechs in groups. Each control group can be set to one of these modes:\n\n- Work\n- Escort\n- Recharge\n- Dormant self-charge\n\nTo learn more about what each mode does, select the work mode icon on one of {PAWN_labelShort}'s control groups and hover over the different work orders. The maximum number of control groups can be increased with apparel and implants.\n\n(*SectionTitle)About threat calling:(/SectionTitle) Mechanitors can signal ancient leader mechs to attack in order to obtain rare items from them. You must do this to improve your mechanitor past certain limits, but beware the danger. -->
-  <LetterMechlinkInstalled>TODO</LetterMechlinkInstalled>
+  <LetterMechlinkInstalled>{PAWN_labelShort} یک مکلینک نصب کرده است! {PAWN_pronoun} اکنون یک مکانیتور است و می‌تواند مکانیویدها را ایجاد و کنترل کند.\n\nبرای شروع، فناوری پایه مکانیوید را تحقیق کنید.\n\n(*SectionTitle)ایجاد مکانیویدها:(/SectionTitle) مکانیتور شما می‌تواند مکانیویدها را در یک ساختمانی تولیدی به نام دستگاه رشد مکانیوید ایجاد کند.\n\n(*SectionTitle)درباره پهنای باند:(/SectionTitle) مکانیتورها می‌توانند به اندازه پهنای باند کل خود مکانیویدها را کنترل کنند. {PAWN_labelShort} را انتخاب کنید و به نمایشگر 'پهنای باند' {PAWN_possessive} نگاه کنید تا ببینید {PAWN_pronoun} در حال حاضر چقدر پهنای باند استفاده می‌کند و چقدر در دسترس دارد. پهنای باند را می‌توان با لباس‌های خاص و با ساخت ساختمان‌های گره باند افزایش داد.\n\n(*SectionTitle)درباره گروه‌های کنترل:(/SectionTitle) مکانیتورها مکانیویدها را در گروه‌ها کنترل می‌کنند. هر گروه کنترل را می‌توان روی یکی از این حالت‌ها تنظیم کرد:\n\n- کار\n- اسکورت\n- شارژ مجدد\n- خاموشی خودکار\n\nبرای کسب اطلاعات بیشتر در مورد عملکرد هر حالت، نماد حالت کار را در یکی از گروه‌های کنترل {PAWN_labelShort} انتخاب کنید و روی دستورات کار مختلف نگه دارید. حداکثر تعداد گروه‌های کنترل را می‌توان با لباس و ایمپلنت افزایش داد.\n\n(*SectionTitle)درباره احضار تهدید:(/SectionTitle) مکانیتورها می‌توانند به مکانیویدهای رهبر باستانی سیگنال دهند تا برای به دست آوردن اقلام کمیاب از آن‌ها حمله کنند. برای بهبود مکانیتور خود فراتر از محدودیت‌های خاص باید این کار را انجام دهید، اما از خطر برحذر باشید.</LetterMechlinkInstalled>
 
   <!-- EN: This happened because of -->
-  <MentalStateReason_Gene>TODO</MentalStateReason_Gene>
+  <MentalStateReason_Gene>این به دلیل</MentalStateReason_Gene>
 
   <!-- EN: {0} summoned -->
-  <LetterLabelBossgroupSummoned>TODO</LetterLabelBossgroupSummoned>
+  <LetterLabelBossgroupSummoned>{0} احضار شد</LetterLabelBossgroupSummoned>
   <!-- EN: Attracted by your mech-band signals, an ultra-heavy mech from {0} will arrive soon. Be prepared. -->
-  <LetterBossgroupSummoned>TODO</LetterBossgroupSummoned>
+  <LetterBossgroupSummoned>یک مکانیوید فوق سنگین از {0} که توسط سیگنال‌های باند مکانیوید شما جذب شده است، به زودی می‌رسد. آماده باشید.</LetterBossgroupSummoned>
 
   <!-- EN: {0} arrived -->
-  <LetterLabelBossgroupArrived>TODO</LetterLabelBossgroupArrived>
+  <LetterLabelBossgroupArrived>{0} رسید</LetterLabelBossgroupArrived>
   <!-- EN: An ultra-heavy mech from {0} has come to eradicate you, along with escorts.\n\n{1}\n\nThe assault group is composed of the following {3}:\n\n{4}\n\nThey will prepare for a while before attacking. -->
-  <LetterBossgroupArrived>TODO</LetterBossgroupArrived>
+  <LetterBossgroupArrived>یک مکانیوید فوق سنگین از {0} برای نابودی شما، همراه با اسکورت‌ها، آمده است.\n\n{1}\n\nگروه حمله از {3} زیر تشکیل شده است:\n\n{4}\n\nآن‌ها قبل از حمله مدتی آماده خواهند شد.</LetterBossgroupArrived>
 
   <!-- EN: Summon {LEADER_label} available -->
-  <LetterLabelCommsConsoleSpawned>TODO</LetterLabelCommsConsoleSpawned>
+  <LetterLabelCommsConsoleSpawned>احضار {LEADER_label} موجود است</LetterLabelCommsConsoleSpawned>
   <!-- EN: A mechanitor can use the {PARENT_label} to summon a dangerous and hostile {LEADER_label} mechanoid. Be prepared, {LEADER_label} mechanoids are extremely powerful.\n\nIf you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
-  <LetterCommsConsoleSpawned>TODO</LetterCommsConsoleSpawned>
+  <LetterCommsConsoleSpawned>یک مکانیتور می‌تواند از {PARENT_label} برای احضار یک مکانیوید {LEADER_label} خطرناک و خصمانه استفاده کند. آماده باشید، مکانیویدهای {LEADER_label} بسیار قدرتمند هستند.\n\nاگر {LEADER_label} را شکست دهید، اقلام زیر را رها خواهد کرد:\n\n{REWARDSLIST}</LetterCommsConsoleSpawned>
 
   <!-- EN: Summon {LEADER_label} possible -->
-  <LetterLabelBossgroupCallerUnlocked>TODO</LetterLabelBossgroupCallerUnlocked>
+  <LetterLabelBossgroupCallerUnlocked>احضار {LEADER_label} ممکن است</LetterLabelBossgroupCallerUnlocked>
   <!-- EN: You can now build a {PARENT_label} which a mechanitor can use to summon a {LEADER_label}. If you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
-  <LetterBossgroupCallerUnlocked>TODO</LetterBossgroupCallerUnlocked>
+  <LetterBossgroupCallerUnlocked>اکنون می‌توانید یک {PARENT_label} بسازید که یک مکانیتور می‌تواند از آن برای احضار یک {LEADER_label} استفاده کند. اگر {LEADER_label} را شکست دهید، اقلام زیر را رها خواهد کرد:\n\n{REWARDSLIST}</LetterBossgroupCallerUnlocked>
 
   <!-- EN: {PAWN_nameDef}'s mechlink available -->
-  <LetterLabelMechanitorCasketOpened>TODO</LetterLabelMechanitorCasketOpened>
+  <LetterLabelMechanitorCasketOpened>مکلینک {PAWN_nameDef} موجود است</LetterLabelMechanitorCasketOpened>
   <!-- EN: You have found the corpse of an ancient mechanitor!\n\nExtract {PAWN_possessive} mechlink by selecting a colonist and right-clicking the corpse. -->
-  <LetterMechanitorCasketOpened>TODO</LetterMechanitorCasketOpened>
+  <LetterMechanitorCasketOpened>شما جسد یک مکانیتور باستانی را پیدا کرده‌اید!\n\nمکلینک {PAWN_possessive} را با انتخاب یک مستعمره‌نشین و کلیک راست روی جسد استخراج کنید.</LetterMechanitorCasketOpened>
   <!-- EN: Mechanitor casket found -->
-  <LetterLabelMechanitorCasketFound>TODO</LetterLabelMechanitorCasketFound>
+  <LetterLabelMechanitorCasketFound>تابوت مکانیتور پیدا شد</LetterLabelMechanitorCasketFound>
   <!-- EN: You have discovered a mechanitor's cryptosleep casket!\n\nOpen it to find them inside. -->
-  <LetterMechanitorCasketFound>TODO</LetterMechanitorCasketFound>
-  
+  <LetterMechanitorCasketFound>شما تابوت کریپتوسلیپ یک مکانیتور را کشف کرده‌اید!\n\nآن را باز کنید تا آن‌ها را در داخل پیدا کنید.</LetterMechanitorCasketFound>
+
   <!-- Pawns lost because map closed (including mechs) -->
   <!-- EN: Your caravan has been lost. The following people, animals and mechanoids have been lost with it -->
-  <LetterPawnsLostIncMechsBecauseMapClosed_Caravan>TODO</LetterPawnsLostIncMechsBecauseMapClosed_Caravan>
+  <LetterPawnsLostIncMechsBecauseMapClosed_Caravan>کاروان شما گم شده است. افراد، حیوانات و مکانیویدهای زیر با آن گم شده‌اند</LetterPawnsLostIncMechsBecauseMapClosed_Caravan>
   <!-- EN: The following people, animals and mechanoids have been abandoned -->
-  <LetterPawnsLostIncMechsBecauseMapClosed_Home>TODO</LetterPawnsLostIncMechsBecauseMapClosed_Home>
-  
+  <LetterPawnsLostIncMechsBecauseMapClosed_Home>افراد، حیوانات و مکانیویدهای زیر رها شده‌اند</LetterPawnsLostIncMechsBecauseMapClosed_Home>
+
 
   <!-- Children -->
   <!-- EN: {0_nameDef} became a child -->
-  <LetterLabelBecameChild>TODO</LetterLabelBecameChild>
+  <LetterLabelBecameChild>{0_nameDef} کودک شد</LetterLabelBecameChild>
   <!-- EN: {0_nameDef} became an adult -->
-  <LetterLabelBecameAdult>TODO</LetterLabelBecameAdult>
+  <LetterLabelBecameAdult>{0_nameDef} بزرگسال شد</LetterLabelBecameAdult>
   <!-- EN: Baby {0_nameDef} has grown up and become a child! {0_pronoun} is now old enough to do the following work: -->
-  <LetterBecameChild>TODO</LetterBecameChild>
+  <LetterBecameChild>نوزاد {0_nameDef} بزرگ شده و کودک شده است! {0_pronoun} اکنون به اندازه کافی بزرگ شده است تا کارهای زیر را انجام دهد:</LetterBecameChild>
   <!-- EN: Children can do various types of work. As they get older, they become able to do more work types.\n\nThey also do various child-specific recreational activities.\n\nChildren need to wear special child-sized apparel. -->
-  <LetterBecameChildChanges>TODO</LetterBecameChildChanges>
+  <LetterBecameChildChanges>کودکان می‌توانند انواع مختلفی از کارها را انجام دهند. با بزرگتر شدن، قادر به انجام انواع بیشتری از کارها می‌شوند.\n\nآن‌ها همچنین فعالیت‌های تفریحی خاص کودکان را انجام می‌دهند.\n\nکودکان نیاز به پوشیدن لباس‌های مخصوص اندازه کودک دارند.</LetterBecameChildChanges>
   <!-- EN: By tradition {0_nameDef}, {0_parentage}, is a {0_legalStatus}, but exceptions can be made....  Should {0_nameDef} remain a {0_legalStatus}? -->
-  <LetterChildLegalStatus>TODO</LetterChildLegalStatus>
+  <LetterChildLegalStatus>طبق سنت {0_nameDef}، {0_parentage}، یک {0_legalStatus} است، اما استثنائاتی می‌توان قائل شد.... آیا {0_nameDef} باید یک {0_legalStatus} باقی بماند؟</LetterChildLegalStatus>
   <!-- EN: {0_labelShort} has decided to become a follower of the ideoligion {1_name}. -->
-  <LetterChildFollowIdeo>TODO</LetterChildFollowIdeo>
+  <LetterChildFollowIdeo>{0_labelShort} تصمیم گرفته است پیرو ایدئولوژی {1_name} شود.</LetterChildFollowIdeo>
   <!-- EN: {0_nameDef}'s slave status has already changed since {0_possessive} birthday. -->
-  <CannotChangeChildStatusReason>TODO</CannotChangeChildStatusReason>
+  <CannotChangeChildStatusReason>وضعیت برده {0_nameDef} از زمان تولد {0_possessive} تغییر کرده است.</CannotChangeChildStatusReason>
   <!-- EN: enslave -->
-  <Enslave>TODO</Enslave>
+  <Enslave>به بردگی گرفتن</Enslave>
   <!-- EN: emancipate -->
-  <Emancipate>TODO</Emancipate>
+  <Emancipate>آزاد کردن</Emancipate>
   <!-- EN: remain {0} -->
-  <RemainX>TODO</RemainX>
+  <RemainX>باقی ماندن {0}</RemainX>
   <!-- EN: {BABY_nameDef} adopted -->
-  <LetterLabelAdopted>TODO</LetterLabelAdopted>
+  <LetterLabelAdopted>{BABY_nameDef} پذیرفته شد</LetterLabelAdopted>
   <!-- EN: {BABY_nameDef}, a baby, has been adopted by your colony. You may want to assign colonists to the 'childcare' work type to take care of {BABY_objective}. -->
-  <LetterTextAdopted>TODO</LetterTextAdopted>
+  <LetterTextAdopted>{BABY_nameDef}، یک نوزاد، توسط مستعمره شما پذیرفته شده است. ممکن است بخواهید مستعمره‌نشینان را به نوع کار 'مراقبت از کودک' اختصاص دهید تا از {BABY_objective} مراقبت کنند.</LetterTextAdopted>
 
   <!-- EN: {0_nameDef}'s baby prep -->
-  <LetterLabelThirdTrimester>TODO</LetterLabelThirdTrimester>
+  <LetterLabelThirdTrimester>آماده‌سازی نوزاد {0_nameDef}</LetterLabelThirdTrimester>
   <!-- EN: {0_nameDef} is due to give birth in less than 6 days. You can prepare for the baby:\n\n- Build a birth room with a clean floor and good bed.\n- Get a skilled doctor ready.\n- In the work tab, assign at least one person to childcare\n- Prepare a food source for the baby. {0_nameDef} can breastfeed the baby, or you can feed them baby food, milk, or insect jelly.\n- Build a crib. High quality cribs will make a baby happy.\n\nYou can make baby food at a stove or campfire. -->
-  <LetterTextThirdTrimester>TODO</LetterTextThirdTrimester>
+  <LetterTextThirdTrimester>{0_nameDef} کمتر از ۶ روز دیگر زایمان می‌کند. می‌توانید برای نوزاد آماده شوید:\n\n- یک اتاق زایمان با کف تمیز و تخت خوب بسازید.\n- یک دکتر ماهر آماده کنید.\n- در تب کار، حداقل یک نفر را به مراقبت از کودک اختصاص دهید.\n- منبع غذایی برای نوزاد آماده کنید. {0_nameDef} می‌تواند به نوزاد شیر بدهد، یا می‌توانید به آن‌ها غذای کودک، شیر، یا ژله حشرات بدهید.\n- یک گهواره بسازید. گهواره‌های با کیفیت بالا نوزاد را خوشحال می‌کنند.\n\nمی‌توانید غذای کودک را در اجاق یا آتش کمپ درست کنید.</LetterTextThirdTrimester>
 
   <!-- EN: {0} vat birth -->
-  <LetterVatBirth>TODO</LetterVatBirth>
+  <LetterVatBirth>تولد در مخزن رشد {0}</LetterVatBirth>
   <!-- EN: The embryo of {0_nameDef} and {1_nameDef} has finished gestating in a growth vat and has become a healthy baby! -->
-  <LetterVatHealthyBaby>TODO</LetterVatHealthyBaby>
+  <LetterVatHealthyBaby>رشد جنین {0_nameDef} و {1_nameDef} در مخزن رشد به پایان رسیده و به یک نوزاد سالم تبدیل شده است!</LetterVatHealthyBaby>
   <!-- EN: An embryo has finished gestating in a growth vat and become a healthy baby! -->
-  <LetterVatHealthyBabyNoParents>TODO</LetterVatHealthyBabyNoParents>
+  <LetterVatHealthyBabyNoParents>رشد جنین در مخزن رشد به پایان رسیده و به یک نوزاد سالم تبدیل شده است!</LetterVatHealthyBabyNoParents>
   <!-- EN: The embryo of {0_nameDef} and {1_nameDef} has finished gestating in a growth vat and has become a baby. Unfortunately, the baby is sick. -->
-  <LetterVatInfantIllness>TODO</LetterVatInfantIllness>
+  <LetterVatInfantIllness>رشد جنین {0_nameDef} و {1_nameDef} در مخزن رشد به پایان رسیده و به یک نوزاد تبدیل شده است. متأسفانه، نوزاد بیمار است.</LetterVatInfantIllness>
   <!-- EN: An embryo has finished gestating in a growth vat and has become a baby. Unfortunately, the baby is sick. -->
-  <LetterVatInfantIllnessNoParents>TODO</LetterVatInfantIllnessNoParents>
+  <LetterVatInfantIllnessNoParents>رشد جنین در مخزن رشد به پایان رسیده و به یک نوزاد تبدیل شده است. متأسفانه، نوزاد بیمار است.</LetterVatInfantIllnessNoParents>
   <!-- EN: The baby formed in a growth vat from the embryo of {0_nameDef} and {1_nameDef} was stillborn. -->
-  <LetterVatStillborn>TODO</LetterVatStillborn>
+  <LetterVatStillborn>نوزاد تشکیل شده در مخزن رشد از جنین {0_nameDef} و {1_nameDef} مرده به دنیا آمد.</LetterVatStillborn>
   <!-- EN: The baby formed in a growth vat was stillborn. -->
-  <LetterVatSillbornNoParents>TODO</LetterVatSillbornNoParents>
+  <LetterVatSillbornNoParents>نوزاد تشکیل شده در مخزن رشد مرده به دنیا آمد.</LetterVatSillbornNoParents>
   <!-- EN: {0_labelShort} in labor! -->
-  <LetterColonistPregnancyLaborLabel>TODO</LetterColonistPregnancyLaborLabel>
+  <LetterColonistPregnancyLaborLabel>{0_labelShort} در حال زایمان!</LetterColonistPregnancyLaborLabel>
   <!-- EN: {0_labelShort} is about to give birth! She's going to have contractions for a few hours before delivering a baby. The labor may go through several stages of different levels of difficulty and danger.\n\nTo improve the baby's chances, gather a doctor and others to help with the birth. Select {0_labelShort} and press 'Gather for birth' to start the procedure. -->
-  <LetterColonistPregnancyLabor>TODO</LetterColonistPregnancyLabor>
+  <LetterColonistPregnancyLabor>{0_labelShort} در شرف زایمان است! او قبل از به دنیا آوردن نوزاد، چند ساعت انقباض خواهد داشت. زایمان ممکن است از چندین مرحله با سطوح مختلف دشواری و خطر عبور کند.\n\nبرای بهبود شانس نوزاد، یک دکتر و دیگران را برای کمک به زایمان جمع کنید. {0_labelShort} را انتخاب کنید و 'جمع شدن برای زایمان' را فشار دهید تا روند شروع شود.</LetterColonistPregnancyLabor>
   <!-- EN: {0_labelShort} has died due to complications after giving birth. -->
-  <LetterPartColonistDiedAfterChildbirth>TODO</LetterPartColonistDiedAfterChildbirth>
+  <LetterPartColonistDiedAfterChildbirth>{0_labelShort} به دلیل عوارض پس از زایمان فوت کرده است.</LetterPartColonistDiedAfterChildbirth>
   <!-- EN: The baby was created from in vitro fertilization and has the genetic makeup of {0_labelShort} and {1_labelShort}. -->
-  <LetterPartSurrogacy>TODO</LetterPartSurrogacy>
+  <LetterPartSurrogacy>نوزاد از لقاح آزمایشگاهی ایجاد شده و ترکیب ژنتیکی {0_labelShort} و {1_labelShort} را دارد.</LetterPartSurrogacy>
   <!-- EN: The baby shows signs of genetic abnormalities due to inbreeding. -->
-  <InbredBabyBorn>TODO</InbredBabyBorn>
+  <InbredBabyBorn>نوزاد به دلیل همخونی علائم ناهنجاری‌های ژنتیکی نشان می‌دهد.</InbredBabyBorn>
 
   <!-- EN: {0_nameDef} has already been named. -->
-  <BabyAlreadyNamed>TODO</BabyAlreadyNamed>
+  <BabyAlreadyNamed>{0_nameDef} قبلاً نامگذاری شده است.</BabyAlreadyNamed>
   <!-- EN: name baby -->
-  <NameBaby>TODO</NameBaby>
+  <NameBaby>نامگذاری نوزاد</NameBaby>
   <!-- EN: immediately -->
-  <Immediately>TODO</Immediately>
+  <Immediately>بلافاصله</Immediately>
   <!-- EN: within -->
-  <Within>TODO</Within>
+  <Within>در عرض</Within>
   <!-- EN: The baby has been given the temporary name {0_nameFull}. -->
-  <LetterPartTempBabyName>TODO</LetterPartTempBabyName>
+  <LetterPartTempBabyName>نوزاد نام موقت {0_nameFull} را دریافت کرده است.</LetterPartTempBabyName>
   <!-- EN: You can change it until {0} after birth. -->
-  <LetterPartLiveBirthNameDeadline>TODO</LetterPartLiveBirthNameDeadline>
+  <LetterPartLiveBirthNameDeadline>می‌توانید آن را تا {0} پس از تولد تغییر دهید.</LetterPartLiveBirthNameDeadline>
   <!-- EN: Would you like to give the baby another name? -->
-  <LetterPartStillbirthNameDeadline>TODO</LetterPartStillbirthNameDeadline>
+  <LetterPartStillbirthNameDeadline>آیا می‌خواهید نام دیگری برای نوزاد بگذارید؟</LetterPartStillbirthNameDeadline>
   <!-- EN: The baby was given the temporary name {0_nameFull}. You can change it as long as the baby is less than {1} old. -->
-  <LetterPartNameBabyAdopt>TODO</LetterPartNameBabyAdopt>
+  <LetterPartNameBabyAdopt>نوزاد نام موقت {0_nameFull} را دریافت کرده است. می‌توانید آن را تا زمانی که نوزاد کمتر از {1} سن دارد تغییر دهید.</LetterPartNameBabyAdopt>
 
   <!-- EN: Growth moment for {PAWNNAME} -->
-  <BirthdayGrowthMoment>TODO</BirthdayGrowthMoment>
+  <BirthdayGrowthMoment>لحظه رشد برای {PAWNNAME}</BirthdayGrowthMoment>
   <!-- EN: {0_nameFull} has reached the biological age of {1} and has experienced a growth moment! -->
-  <BirthdayBiologicalGrowthMoment>TODO</BirthdayBiologicalGrowthMoment>
+  <BirthdayBiologicalGrowthMoment>{0_nameFull} به سن بیولوژیکی {1} رسیده و لحظه رشد را تجربه کرده است!</BirthdayBiologicalGrowthMoment>
   <!-- EN: {0_nameDef} is now old enough to do the following work -->
-  <BirthdayBiologicalAgeWorkTypes>TODO</BirthdayBiologicalAgeWorkTypes>
+  <BirthdayBiologicalAgeWorkTypes>{0_nameDef} اکنون به اندازه کافی بزرگ شده است تا کارهای زیر را انجام دهد</BirthdayBiologicalAgeWorkTypes>
   <!-- EN: Choose 1 skill for {0_nameDef} to increase {0_possessive} passion for -->
-  <BirthdayPickPassion>TODO</BirthdayPickPassion>
+  <BirthdayPickPassion>۱ مهارت برای {0_nameDef} انتخاب کنید تا اشتیاق {0_possessive} برای آن افزایش یابد</BirthdayPickPassion>
   <!-- EN: Choose {1} skills for {0_nameDef} to increase {0_possessive} passion for -->
-  <BirthdayPickPassions>TODO</BirthdayPickPassions>
+  <BirthdayPickPassions>{1} مهارت برای {0_nameDef} انتخاب کنید تا اشتیاق {0_possessive} برای آن‌ها افزایش یابد</BirthdayPickPassions>
   <!-- EN: Choose a trait for {0_nameDef} to gain -->
-  <BirthdayPickTrait>TODO</BirthdayPickTrait>
+  <BirthdayPickTrait>یک ویژگی برای {0_nameDef} انتخاب کنید تا کسب کند</BirthdayPickTrait>
   <!-- EN: When this growth moment happened, {0_nameDef} was at growth tier {1}. Children at higher growth tiers get more trait and passion options to choose from, and more passions overall. Satisfying the learning need helps the child gain growth tiers faster. Growth tiers are reset after each growth moment. -->
-  <BirthdayGrowthTier>TODO</BirthdayGrowthTier>
+  <BirthdayGrowthTier>هنگامی که این لحظه رشد اتفاق افتاد، {0_nameDef} در سطح رشد {1} بود. کودکان در سطوح رشد بالاتر گزینه‌های ویژگی و اشتیاق بیشتری برای انتخاب دارند و در کل اشتیاق بیشتری کسب می‌کنند. برآورده کردن نیاز یادگیری به کودک کمک می‌کند تا سطوح رشد را سریع‌تر کسب کند. سطوح رشد پس از هر لحظه رشد بازنشانی می‌شوند.</BirthdayGrowthTier>
   <!-- EN: Open this letter to choose how {0_nameDef} will grow. -->
-  <BirthdayChooseHowPawnWillGrow>TODO</BirthdayChooseHowPawnWillGrow>
+  <BirthdayChooseHowPawnWillGrow>این نامه را باز کنید تا نحوه رشد {0_nameDef} را انتخاب کنید.</BirthdayChooseHowPawnWillGrow>
 
   <!-- EN: Passion was increased for {0}. -->
-  <BirthdayPassionArchive>TODO</BirthdayPassionArchive>
+  <BirthdayPassionArchive>اشتیاق برای {0} افزایش یافت.</BirthdayPassionArchive>
   <!-- EN: The trait {0} was gained. -->
-  <BirthdayTraitArchive>TODO</BirthdayTraitArchive>
+  <BirthdayTraitArchive>ویژگی {0} کسب شد.</BirthdayTraitArchive>
   <!-- EN: No trait -->
-  <BirthdayNoTraitChoice>TODO</BirthdayNoTraitChoice>
+  <BirthdayNoTraitChoice>بدون ویژگی</BirthdayNoTraitChoice>
   <!-- EN: {0} does not gain a trait. -->
-  <BirthdayNoTraitChoiceTooltip>TODO</BirthdayNoTraitChoiceTooltip>
+  <BirthdayNoTraitChoiceTooltip>{0} ویژگی کسب نمی‌کند.</BirthdayNoTraitChoiceTooltip>
 
   <!-- EN: Make choices to close -->
-  <BirthdayMakeChoices>TODO</BirthdayMakeChoices>
+  <BirthdayMakeChoices>انتخاب‌ها را انجام دهید تا بسته شود</BirthdayMakeChoices>
   <!-- EN: {0} has gained the nickname {1}. -->
-  <BirthdayNickname>TODO</BirthdayNickname>
+  <BirthdayNickname>{0} لقب {1} را کسب کرده است.</BirthdayNickname>
   <!-- EN: Select a trait. -->
-  <SelectATrait>TODO</SelectATrait>
+  <SelectATrait>یک ویژگی انتخاب کنید.</SelectATrait>
   <!-- EN: Select a passion. -->
-  <SelectPassionSingular>TODO</SelectPassionSingular>
+  <SelectPassionSingular>یک اشتیاق انتخاب کنید.</SelectPassionSingular>
   <!-- EN: Select {0} passions. -->
-  <SelectPassionsPlural>TODO</SelectPassionsPlural>
+  <SelectPassionsPlural>{0} اشتیاق انتخاب کنید.</SelectPassionsPlural>
   <!-- EN: Later -->
-  <Later>TODO</Later>
+  <Later>بعداً</Later>
   
   <!-- EN: Mechlink available -->
-  <LetterLabelMechlinkAvailable>TODO</LetterLabelMechlinkAvailable>
+  <LetterLabelMechlinkAvailable>مکلینک موجود است</LetterLabelMechlinkAvailable>
   <!-- EN: An opportunity to acquire the unique mechlink implant has become available via the quest '{0}'.\n\nInstalling a mechlink will turn a colonist into a mechanitor. Mechanitors can create, control, and manipulate mechanoids for use in work and in combat. -->
-  <LetterMechlinkAvailable>TODO</LetterMechlinkAvailable>
+  <LetterMechlinkAvailable>فرصتی برای به دست آوردن ایمپلنت منحصر به فرد مکلینک از طریق ماموریت '{0}' فراهم شده است.\n\nنصب مکلینک یک مستعمره‌نشین را به مکانیتور تبدیل می‌کند. مکانیتورها می‌توانند مکانیویدها را برای استفاده در کار و نبرد ایجاد، کنترل و دستکاری کنند.</LetterMechlinkAvailable>
 
   <!-- Genes -->
   <!-- EN: Xenogerm implantation ordered -->
-  <LetterLabelXenogermOrderedImplanted>TODO</LetterLabelXenogermOrderedImplanted>
+  <LetterLabelXenogermOrderedImplanted>کاشت ژن بیگانه دستور داده شد</LetterLabelXenogermOrderedImplanted>
   <!-- EN: You have ordered a xenogerm be implanted in {PAWN_nameDef}. This procedure requires a medical bed and {MEDICINENEEDED} medicine.{BEDINFO}{MEDICINEINFO}\n\nYou can cancel this procedure by going to {PAWN_nameDef}'s health -> operations tab. -->
-  <LetterXenogermOrderedImplanted>TODO</LetterXenogermOrderedImplanted>
+  <LetterXenogermOrderedImplanted>شما دستور کاشت ژن بیگانه در {PAWN_nameDef} را داده‌اید. این عمل به یک تخت پزشکی و {MEDICINENEEDED} دارو نیاز دارد.{BEDINFO}{MEDICINEINFO}\n\nمی‌توانید این عمل را با رفتن به تب سلامتی -> عملیات {PAWN_nameDef} لغو کنید.</LetterXenogermOrderedImplanted>
   <!-- EN: \n\nYou do not have any medical beds available for {PAWN_nameDef}. Consider marking a bed as medical. -->
-  <XenogermOrderedImplantedBedNeeded>TODO</XenogermOrderedImplantedBedNeeded>
+  <XenogermOrderedImplantedBedNeeded>\n\nشما هیچ تخت پزشکی برای {PAWN_nameDef} در دسترس ندارید. یک تخت را به عنوان پزشکی علامت‌گذاری کنید.</XenogermOrderedImplantedBedNeeded>
   <!-- EN: \n\nYou do not have enough medicine to implant the xenogerm. Implanting cannot begin until you get {MEDICINENEEDED} medicine. -->
-  <XenogermOrderedImplantedMedicineNeeded>TODO</XenogermOrderedImplantedMedicineNeeded>
+  <XenogermOrderedImplantedMedicineNeeded>\n\nشما داروی کافی برای کاشت ژن بیگانه ندارید. کاشت تا زمانی که {MEDICINENEEDED} دارو تهیه کنید، نمی‌تواند شروع شود.</XenogermOrderedImplantedMedicineNeeded>
   <!-- EN: Involuntary deathrest -->
-  <LetterLabelInvoluntaryDeathrest>TODO</LetterLabelInvoluntaryDeathrest>
+  <LetterLabelInvoluntaryDeathrest>استراحت مرگ غیرارادی</LetterLabelInvoluntaryDeathrest>
   <!-- EN: Regeneration coma -->
-  <LetterLabelRegenerationComa>TODO</LetterLabelRegenerationComa>
+  <LetterLabelRegenerationComa>کما بازسازی</LetterLabelRegenerationComa>
   <!-- EN: {PAWN_nameDef}'s deathless gene has prevented {PAWN_objective} from dying. {HEDIFFINFO} -->
-  <LetterTextInvoluntaryDeathrestOrComa>TODO</LetterTextInvoluntaryDeathrestOrComa>
+  <LetterTextInvoluntaryDeathrestOrComa>ژن نامیرایی {PAWN_nameDef} از مرگ {PAWN_objective} جلوگیری کرده است. {HEDIFFINFO}</LetterTextInvoluntaryDeathrestOrComa>
   <!-- EN: Instead, {PAWN_pronoun} has fallen into a deathrest. -->
-  <LetterTextDeathrest>TODO</LetterTextDeathrest>
+  <LetterTextDeathrest>در عوض، {PAWN_pronoun} به استراحت مرگ فرو رفته است.</LetterTextDeathrest>
   <!-- EN: Instead, {PAWN_pronoun} has fallen into a regeneration coma. -->
-  <LetterTextRegenerationComa>TODO</LetterTextRegenerationComa>
+  <LetterTextRegenerationComa>در عوض، {PAWN_pronoun} به کما بازسازی فرو رفته است.</LetterTextRegenerationComa>
   <!-- EN: Due to the neural shock of traumatic deathrest, {PAWN_nameDef} has lost {XPLOSS} XP in {PAWN_possessive} {SKILL} skill. -->
-  <DeathrestLostSkill>TODO</DeathrestLostSkill>
+  <DeathrestLostSkill>به دلیل شوک عصبی استراحت مرگ آسیب‌زا، {PAWN_nameDef} {XPLOSS} امتیاز تجربه در مهارت {SKILL} {PAWN_possessive} از دست داده است.</DeathrestLostSkill>
   <!-- EN: Lethal damage taken. -->
-  <DeathrestLethalDamage>TODO</DeathrestLethalDamage>
+  <DeathrestLethalDamage>آسیب کشنده وارد شده است.</DeathrestLethalDamage>
 
   <!-- EN: Xenogerm implantation -->
-  <LetterLabelSanguophageWaitingToReimplant>TODO</LetterLabelSanguophageWaitingToReimplant>
+  <LetterLabelSanguophageWaitingToReimplant>کاشت ژن بیگانه</LetterLabelSanguophageWaitingToReimplant>
   <!-- EN: As thanks for allowing {PAWN_objective} and {PAWN_possessive} fellow sanguophages meet here, {PAWN_nameDef} is willing to share a copy of {PAWN_possessive} xenogerm with one of your colonists. This will turn your colonist into a sanguophage.\n\nTo accept, select a colonist and right click on {PAWN_nameDef}.\n\nIf no colonists have claimed the reward in {DURATION}, the sanguophages will leave. -->
-  <LetterTextSanguophageWaitingToReimplant>TODO</LetterTextSanguophageWaitingToReimplant>
+  <LetterTextSanguophageWaitingToReimplant>به عنوان تشکر برای اجازه ملاقات {PAWN_objective} و خون‌خواران همکار {PAWN_possessive} در اینجا، {PAWN_nameDef} مایل است یک کپی از ژن بیگانه {PAWN_possessive} را با یکی از مستعمره‌نشینان شما به اشتراک بگذارد. این مستعمره‌نشین شما را به یک خون‌خوار تبدیل می‌کند.\n\nبرای پذیرش، یک مستعمره‌نشین را انتخاب کرده و روی {PAWN_nameDef} کلیک راست کنید.\n\nاگر هیچ مستعمره‌نشینی در {DURATION} پاداش را دریافت نکند، خون‌خواران ترک خواهند کرد.</LetterTextSanguophageWaitingToReimplant>
 
   <!-- EN: Genes reimplanted -->
-  <LetterLabelGenesImplanted>TODO</LetterLabelGenesImplanted>
+  <LetterLabelGenesImplanted>ژن‌ها دوباره کاشته شدند</LetterLabelGenesImplanted>
   <!-- EN: {CASTER_nameDef} has implanted a copy of {CASTER_possessive} xenogerm into {TARGET_nameDef}, passing all xenogenes onto {TARGET_objective}.\n\n{TARGET_nameDef} will be in a xenogermination coma for the next {COMADURATION} while {TARGET_possessive} body adjusts to the changes.\n\n{CASTER_nameDef} will suffer from gene loss shock for the next {SHOCKDURATION}. {CASTER_possessive} genes will also need to regrow. This process takes time. If {CASTER_nameDef} implants {CASTER_possessive} xenogerm again before {CASTER_possessive} genes have regrown, {CASTER_pronoun} will die. -->
-  <LetterTextGenesImplanted>TODO</LetterTextGenesImplanted>
+  <LetterTextGenesImplanted>{CASTER_nameDef} یک کپی از ژن بیگانه {CASTER_possessive} را در {TARGET_nameDef} کاشته و تمام ژن‌های بیگانه را به {TARGET_objective} منتقل کرده است.\n\n{TARGET_nameDef} برای {COMADURATION} آینده در کما ژن‌زایی خواهد بود در حالی که بدن {TARGET_possessive} با تغییرات سازگار می‌شود.\n\n{CASTER_nameDef} برای {SHOCKDURATION} آینده از شوک از دست دادن ژن رنج خواهد برد. ژن‌های {CASTER_possessive} نیز نیاز به بازسازی دارند. این فرآیند زمان می‌برد. اگر {CASTER_nameDef} ژن بیگانه {CASTER_possessive} را دوباره قبل از بازسازی ژن‌های {CASTER_possessive} بکارد، {CASTER_pronoun} خواهد مرد.</LetterTextGenesImplanted>
   
   <!-- EN: A baby named {PAWN_nameDef} from {PAWN_factionName} is crashing in a transport pod nearby.\n\nYou may choose to adopt {PAWN_objective} with the 'adopt' command or ignore {PAWN_objective}. -->
-  <RefugeePodCrashBaby>TODO</RefugeePodCrashBaby>
+  <RefugeePodCrashBaby>یک نوزاد به نام {PAWN_nameDef} از {PAWN_factionName} در یک غلاف حمل و نقل در نزدیکی سقوط کرده است.\n\nمی‌توانید با دستور 'پذیرش' {PAWN_objective} را بپذیرید یا {PAWN_objective} را نادیده بگیرید.</RefugeePodCrashBaby>
   <!-- EN: The body of {PAWN_nameDef}'s deceased parent is contained within the transport pod as well. -->
-  <RefugeePodCrashBabyHasParent>TODO</RefugeePodCrashBabyHasParent>
+  <RefugeePodCrashBabyHasParent>جسد والد فوت شده {PAWN_nameDef} نیز در غلاف حمل و نقل موجود است.</RefugeePodCrashBabyHasParent>
 
   <!-- EN: Instinctively seeking a mate, {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
-  <LetterPsychicBondCreated>TODO</LetterPsychicBondCreated>
+  <LetterPsychicBondCreated>به طور غریزی در جستجوی جفت، {BONDPAWN_nameDef} یک رابطه عاشقانه با پیوند روانی با {OTHERPAWN_nameDef} برقرار کرده است. {OTHERPAWN_nameDef} از نظر روانی از ارتباط با {BONDPAWN_nameDef} بهره‌مند خواهد شد، اما اگر آن‌ها در کاشی‌های جهانی مختلف از هم جدا شوند، هر دو از استرس روانی رنج خواهند برد. اگر یکی بمیرد، دیگری به جنون کشیده خواهد شد.</LetterPsychicBondCreated>
 
   <!-- EN: Psychic bond -->
-  <LetterPsychicBondCreatedLovinLabel>TODO</LetterPsychicBondCreatedLovinLabel>
+  <LetterPsychicBondCreatedLovinLabel>پیوند روانی</LetterPsychicBondCreatedLovinLabel>
   <!-- EN: {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
-  <LetterPsychicBondCreatedLovinText>TODO</LetterPsychicBondCreatedLovinText>
+  <LetterPsychicBondCreatedLovinText>به طور غریزی در جستجوی جفت، {BONDPAWN_nameDef} یک رابطه عاشقانه با پیوند روانی با {OTHERPAWN_nameDef} برقرار کرده است. {OTHERPAWN_nameDef} از نظر روانی از ارتباط با {BONDPAWN_nameDef} بهره‌مند خواهد شد، اما اگر آن‌ها در کاشی‌های جهانی مختلف از هم جدا شوند، هر دو از استرس روانی رنج خواهند برد. اگر یکی بمیرد، دیگری به جنون کشیده خواهد شد.</LetterPsychicBondCreatedLovinText>
 
 </LanguageData>

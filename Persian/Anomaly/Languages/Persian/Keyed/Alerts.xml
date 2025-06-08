@@ -2,102 +2,102 @@
 <LanguageData>
 
   <!-- EN: Dangerous activity levels -->
-  <ActivityMultipleDangerous>Dangerous activity levels</ActivityMultipleDangerous>
+  <ActivityMultipleDangerous>سطوح فعالیت خطرناک</ActivityMultipleDangerous>
   <!-- EN: These entities are at dangerously high activity levels -->
-  <ActivityDangerousDesc>These entities are at dangerously high activity levels</ActivityDangerousDesc>  
+  <ActivityDangerousDesc>این موجودات در سطوح فعالیت خطرناکی بالا هستند</ActivityDangerousDesc>
   <!-- EN: When an entity reaches 100% activity, it will become dangerous.\n\nSend your warden to suppress these entities, or enable automatic suppression using the entity's activity panel. -->
-  <ActivityDangerousDescAppended>When an entity reaches 100% activity, it will become dangerous.\n\nSend your warden to suppress these entities, or enable automatic suppression using the entity's activity panel.</ActivityDangerousDescAppended>
+  <ActivityDangerousDescAppended>هنگامی که یک موجود به ۱۰۰٪ فعالیت برسد، خطرناک خواهد شد.\n\nنگهبان خود را برای سرکوب این موجودات بفرستید، یا سرکوب خودکار را با استفاده از پنل فعالیت موجود فعال کنید.</ActivityDangerousDescAppended>
 
   <!-- EN: Need anomaly project -->
-  <NeedAnomalyProject>Need anomaly project</NeedAnomalyProject>
+  <NeedAnomalyProject>نیاز به پروژه ناهنجاری</NeedAnomalyProject>
   <!-- EN: You have an entity marked for study but don't have a matching anomaly research project selected: -->
-  <NeedAnomalyProjectDesc>You have an entity marked for study but don't have a matching anomaly research project selected:</NeedAnomalyProjectDesc>
+  <NeedAnomalyProjectDesc>شما موجودی برای مطالعه علامت‌گذاری کرده‌اید اما پروژه تحقیقاتی ناهنجاری مطابق با آن را انتخاب نکرده‌اید:</NeedAnomalyProjectDesc>
   <!-- EN: Need {NAME} anomaly research project -->
-  <NeedAnomalyProjectDescLine>Need {NAME} anomaly research project</NeedAnomalyProjectDescLine>
+  <NeedAnomalyProjectDescLine>نیاز به پروژه تحقیقاتی ناهنجاری {NAME}</NeedAnomalyProjectDescLine>
   <!-- EN: Open the research menu and select a project on the anomaly tab.\n\nYou can have a basic and an advanced research project selected at the same time.\n\n(Click to open the research menu.) -->
-  <NeedAnomalyProjectDescAppended>Open the research menu and select a project on the anomaly tab.\n\nYou can have a basic and an advanced research project selected at the same time.\n\n(Click to open the research menu.)</NeedAnomalyProjectDescAppended>
+  <NeedAnomalyProjectDescAppended>منوی تحقیق را باز کرده و پروژه‌ای را در تب ناهنجاری انتخاب کنید.\n\nمی‌توانید همزمان یک پروژه تحقیقاتی پایه و یک پروژه پیشرفته را انتخاب کنید.\n\n(برای باز کردن منوی تحقیق کلیک کنید.)</NeedAnomalyProjectDescAppended>
 
   <!-- EN: Visitor ignored -->
-  <CreepJoinerTimeout>Visitor ignored</CreepJoinerTimeout>
+  <CreepJoinerTimeout>بازدیدکننده نادیده گرفته شد</CreepJoinerTimeout>
   <!-- EN: The following visitors feel ignored and are becoming increasingly upset -->
-  <CreepJoinerTimeoutDesc>The following visitors feel ignored and are becoming increasingly upset</CreepJoinerTimeoutDesc>
+  <CreepJoinerTimeoutDesc>بازدیدکنندگان زیر احساس نادیده گرفته شدن می‌کنند و به طور فزاینده‌ای ناراحت می‌شوند</CreepJoinerTimeoutDesc>
   <!-- EN: Select a colonist and right-click on the visitor.\n\nAct quickly... they don't like being ignored. -->
-  <CreepJoinerTimeoutDescAppended>Select a colonist and right-click on the visitor.\n\nAct quickly... they don't like being ignored.</CreepJoinerTimeoutDescAppended>
+  <CreepJoinerTimeoutDescAppended>یک مستعمره‌نشین را انتخاب کرده و روی بازدیدکننده راست کلیک کنید.\n\nسریع عمل کنید... آن‌ها از نادیده گرفته شدن خوششان نمی‌آید.</CreepJoinerTimeoutDescAppended>
 
   <!-- EN: Undercave unstable -->
-  <Alert_UndercaveUnstable>Undercave unstable</Alert_UndercaveUnstable>
+  <Alert_UndercaveUnstable>غار زیرین ناپایدار</Alert_UndercaveUnstable>
   <!-- EN: The undercave has become unstable and will collapse soon.\n\nGet your colonists out before it's too late. -->
-  <Alert_UndercaveUnstableDesc>The undercave has become unstable and will collapse soon.\n\nGet your colonists out before it's too late.</Alert_UndercaveUnstableDesc>
+  <Alert_UndercaveUnstableDesc>غار زیرین ناپایدار شده و به زودی فرو خواهد ریخت.\n\nقبل از اینکه دیر شود مستعمره‌نشینان خود را بیرون ببرید.</Alert_UndercaveUnstableDesc>
 
   <!-- EN: Cultist psychic ritual -->
-  <Alert_CultistPsychicRitual>Cultist psychic ritual</Alert_CultistPsychicRitual>
+  <Alert_CultistPsychicRitual>مراسم روانی فرقه‌گرایان</Alert_CultistPsychicRitual>
   <!-- EN: {INVOKER_kindDef} {INVOKER_nameDef} has started to perform {RITUAL_definite} ritual. If you don't interrupt {INVOKER_objective}, the consequences could be dire. -->
-  <Alert_CultistPsychicRitualDesc>{INVOKER_kindDef} {INVOKER_nameDef} has started to perform {RITUAL_definite} ritual. If you don't interrupt {INVOKER_objective}, the consequences could be dire.</Alert_CultistPsychicRitualDesc>
+  <Alert_CultistPsychicRitualDesc>{INVOKER_kindDef} {INVOKER_nameDef} شروع به انجام مراسم {RITUAL_definite} کرده است. اگر {INVOKER_objective} را قطع نکنید، پیامدها می‌توانند وخیم باشند.</Alert_CultistPsychicRitualDesc>
 
   <!-- EN: Ghoul starvation -->
-  <AlertMeatHunger>Ghoul starvation</AlertMeatHunger>
+  <AlertMeatHunger>گرسنگی غول</AlertMeatHunger>
   <!-- EN: These ghouls hunger for raw meat -->
-  <AlertMeatHungerDesc>These ghouls hunger for raw meat</AlertMeatHungerDesc>
+  <AlertMeatHungerDesc>این غول‌ها گرسنه گوشت خام هستند</AlertMeatHungerDesc>
   <!-- EN: They may attack if they're not fed soon. Get them some meat. -->
-  <AlertMeatHungerDescAppended>They may attack if they're not fed soon. Get them some meat.</AlertMeatHungerDescAppended>
-  
+  <AlertMeatHungerDescAppended>ممکن است اگر به زودی تغذیه نشوند حمله کنند. برایشان گوشت تهیه کنید.</AlertMeatHungerDescAppended>
+
   <!-- EN: Pit gate opening -->
-  <AlertEmergingPitGate>Pit gate opening</AlertEmergingPitGate>
+  <AlertEmergingPitGate>دروازه گودال در حال باز شدن</AlertEmergingPitGate>
   <!-- EN: The ground is collapsing in on itself. A pit gate will soon form. -->
-  <AlertEmergingPitGateDesc>The ground is collapsing in on itself. A pit gate will soon form.</AlertEmergingPitGateDesc>
+  <AlertEmergingPitGateDesc>زمین در حال فرو ریختن است. دروازه گودال به زودی شکل خواهد گرفت.</AlertEmergingPitGateDesc>
 
   <!-- EN: Insufficient containment -->
-  <Alert_InsufficientContainment>Insufficient containment</Alert_InsufficientContainment>
+  <Alert_InsufficientContainment>مهار ناکافی</Alert_InsufficientContainment>
   <!-- EN: The following entities are being held in rooms that do not meet their minimum containment strength -->
-  <Alert_InsufficientContainmentDesc>The following entities are being held in rooms that do not meet their minimum containment strength</Alert_InsufficientContainmentDesc>
+  <Alert_InsufficientContainmentDesc>موجودات زیر در اتاق‌هایی نگهداری می‌شوند که حداقل قدرت مهار آن‌ها را برآورده نمی‌کنند</Alert_InsufficientContainmentDesc>
   <!-- EN: They will escape soon. Build stronger walls, doors, or other containment devices to hold them. -->
-  <Alert_InsufficientContainmentDescAppended>They will escape soon. Build stronger walls, doors, or other containment devices to hold them.</Alert_InsufficientContainmentDescAppended>
+  <Alert_InsufficientContainmentDescAppended>آن‌ها به زودی فرار خواهند کرد. دیوارهای قوی‌تر، درها یا دستگاه‌های مهار دیگر برای نگهداری آن‌ها بسازید.</Alert_InsufficientContainmentDescAppended>
 
   <!-- EN: Holding platforms needed -->
-  <AlertHoldingPlatform>Holding platforms needed</AlertHoldingPlatform>
+  <AlertHoldingPlatform>نیاز به سکوهای نگهداری</AlertHoldingPlatform>
   <!-- EN: Build holding platforms or place holding spots to contain and study captured entities. -->
-  <AlertHoldingPlatformDesc>Build holding platforms or place holding spots to contain and study captured entities.</AlertHoldingPlatformDesc>
+  <AlertHoldingPlatformDesc>سکوهای نگهداری بسازید یا نقاط نگهداری قرار دهید تا موجودات اسیر شده را مهار و مطالعه کنید.</AlertHoldingPlatformDesc>
 
   <!-- EN: Cube withdrawal -->
-  <AlertCubeWithdrawal>Cube withdrawal</AlertCubeWithdrawal>
+  <AlertCubeWithdrawal>ترک مکعب</AlertCubeWithdrawal>
   <!-- EN: The following people are suffering from cube withdrawal -->
-  <AlertCubeWithdrawalDesc>The following people are suffering from cube withdrawal</AlertCubeWithdrawalDesc>
+  <AlertCubeWithdrawalDesc>افراد زیر از ترک مکعب رنج می‌برند</AlertCubeWithdrawalDesc>
   <!-- EN: Their skin itches and their mind races, craving closeness to the golden cube. Their symptoms will worsen until they can play with the cube.\n\nEnsure that they have free time and can reach the golden cube. -->
-  <AlertCubeWithdrawalDescAppended>Their skin itches and their mind races, craving closeness to the golden cube. Their symptoms will worsen until they can play with the cube.\n\nEnsure that they have free time and can reach the golden cube.</AlertCubeWithdrawalDescAppended>
+  <AlertCubeWithdrawalDescAppended>پوستشان می‌خارد و ذهنشان مسابقه می‌دهد، مشتاق نزدیکی به مکعب طلایی. علائمشان بدتر خواهد شد تا زمانی که بتوانند با مکعب بازی کنند.\n\nاطمینان حاصل کنید که وقت آزاد دارند و می‌توانند به مکعب طلایی برسند.</AlertCubeWithdrawalDescAppended>
 
   <!-- EN: Devourer digestion -->
-  <AlertDigestion>Devourer digestion</AlertDigestion>
+  <AlertDigestion>هضم توسط بلعنده</AlertDigestion>
   <!-- EN: The following people or creatures are being digested by a devourer -->
-  <AlertDigestionDesc>The following people or creatures are being digested by a devourer</AlertDigestionDesc>
+  <AlertDigestionDesc>افراد یا موجودات زیر توسط یک بلعنده در حال هضم شدن هستند</AlertDigestionDesc>
   <!-- EN: Kill the devourer to release them before it's too late. -->
-  <AlertDigestionDescAppended>Kill the devourer to release them before it's too late.</AlertDigestionDescAppended>
-  
+  <AlertDigestionDescAppended>بلعنده را بکشید تا قبل از اینکه دیر شود آن‌ها را آزاد کنید.</AlertDigestionDescAppended>
+
   <!-- EN: Inhibitor blocked -->
-  <AlertInhibitorBlocked>Inhibitor blocked</AlertInhibitorBlocked>
+  <AlertInhibitorBlocked>مهارکننده مسدود شده</AlertInhibitorBlocked>
   <!-- EN: One of your electric inhibitors is not functional because it’s blocked by another building.\n\nClear the space in front of the electric inhibitor. -->
-  <AlertInhibitorBlockedDesc>One of your electric inhibitors is not functional because it’s blocked by another building.\n\nClear the space in front of the electric inhibitor.</AlertInhibitorBlockedDesc>
+  <AlertInhibitorBlockedDesc>یکی از مهارکننده‌های الکتریکی شما کار نمی‌کند زیرا توسط ساختمان دیگری مسدود شده است.\n\nفضای جلوی مهارکننده الکتریکی را پاک کنید.</AlertInhibitorBlockedDesc>
 
   <!-- EN: Entity treatment needed -->
-  <EntityNeedsTreatment>Entity treatment needed</EntityNeedsTreatment>
+  <EntityNeedsTreatment>نیاز به درمان موجود</EntityNeedsTreatment>
   <!-- EN: These entities need medical treatment. Without it, they may die in captivity.\n{0}\n\nSend a doctor to treat them. -->
-  <EntityNeedsTreatmentDesc>These entities need medical treatment. Without it, they may die in captivity.\n{0}\n\nSend a doctor to treat them.</EntityNeedsTreatmentDesc>
+  <EntityNeedsTreatmentDesc>این موجودات نیاز به درمان پزشکی دارند. بدون آن، ممکن است در اسارت بمیرند.\n{0}\n\nپزشکی را برای درمان آن‌ها بفرستید.</EntityNeedsTreatmentDesc>
 
   <!-- EN: Ghoul hypothermia -->
-  <AlertGhoulHypothermia>Ghoul hypothermia</AlertGhoulHypothermia>
+  <AlertGhoulHypothermia>هیپوترمی غول</AlertGhoulHypothermia>
   <!-- EN: These ghouls are suffering from hypothermia:\n{0}\n\nGet them to warmer temperatures. -->
-  <AlertGhoulHypothermiaDesc>These ghouls are suffering from hypothermia:\n{0}\n\nGet them to warmer temperatures.</AlertGhoulHypothermiaDesc>
-  
+  <AlertGhoulHypothermiaDesc>این غول‌ها از هیپوترمی رنج می‌برند:\n{0}\n\nآن‌ها را به دماهای گرم‌تر ببرید.</AlertGhoulHypothermiaDesc>
+
   <!-- EN: Gray flesh -->
-  <AlertGrayFleshSample>Gray flesh</AlertGrayFleshSample>
+  <AlertGrayFleshSample>گوشت خاکستری</AlertGrayFleshSample>
   <!-- EN: You’ve discovered a strip of fleshy tissue. Analyze it to learn more about the biosignature. -->
-  <AlertGrayFleshSampleDesc>You’ve discovered a strip of fleshy tissue. Analyze it to learn more about the biosignature.</AlertGrayFleshSampleDesc>
+  <AlertGrayFleshSampleDesc>شما نواری از بافت گوشتی کشف کرده‌اید. آن را تجزیه و تحلیل کنید تا در مورد امضای زیستی بیشتر بیاموزید.</AlertGrayFleshSampleDesc>
   <!-- EN: Neural lump -->
-  <AlertNeuralLump>Neural lump</AlertNeuralLump>
+  <AlertNeuralLump>توده عصبی</AlertNeuralLump>
   <!-- EN: A fleshmass nerve bundle has dropped a neural lump. Analyze it to learn how to kill the fleshmass heart. -->
-  <AlertNeuralLumpDesc>A fleshmass nerve bundle has dropped a neural lump. Analyze it to learn how to kill the fleshmass heart.</AlertNeuralLumpDesc>
+  <AlertNeuralLumpDesc>یک بسته عصبی توده گوشت یک توده عصبی انداخته است. آن را تجزیه و تحلیل کنید تا یاد بگیرید چگونه قلب توده گوشت را بکشید.</AlertNeuralLumpDesc>
   <!-- EN: Revenant flesh -->
-  <AlertRevenantFlesh>Revenant flesh</AlertRevenantFlesh>
+  <AlertRevenantFlesh>گوشت رِوِنِنت</AlertRevenantFlesh>
   <!-- EN: The wounded revenant left behind a piece of itself. Analyze it to learn how to track the revenant. -->
-  <AlertRevenantFleshDesc>The wounded revenant left behind a piece of itself. Analyze it to learn how to track the revenant.</AlertRevenantFleshDesc>
+  <AlertRevenantFleshDesc>رِوِنِنت زخمی تکه‌ای از خود را به جا گذاشت. آن را تجزیه و تحلیل کنید تا یاد بگیرید چگونه رِوِنِنت را ردیابی کنید.</AlertRevenantFleshDesc>
 
 </LanguageData>

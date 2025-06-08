@@ -3,63 +3,63 @@
 
   <!-- ITab_Entity -->
   <!-- EN: Escape interval -->
-  <HoldingPlatformEscapeMTBDays>Escape interval</HoldingPlatformEscapeMTBDays>
+  <HoldingPlatformEscapeMTBDays>فاصله فرار</HoldingPlatformEscapeMTBDays>
   <!-- EN: The average time between escapes. This is affected by containment strength, the type of entity, the entity’s movement capability, and the duration of the entity's imprisonment. Some entities are also suppressed by cold. -->
-  <HoldingPlatformEscapeMTBDaysDesc>The average time between escapes. This is affected by containment strength, the type of entity, the entity’s movement capability, and the duration of the entity's imprisonment. Some entities are also suppressed by cold.</HoldingPlatformEscapeMTBDaysDesc>
+  <HoldingPlatformEscapeMTBDaysDesc>میانگین زمان بین فرارها. این تحت تأثیر قدرت مهار، نوع موجود، قابلیت حرکت موجود و مدت زمان زندانی بودن موجود است. برخی موجودات نیز توسط سرما سرکوب می‌شوند.</HoldingPlatformEscapeMTBDaysDesc>
   <!-- EN: Entity -->
-  <TabEntity>Entity</TabEntity>
+  <TabEntity>موجود</TabEntity>
   <!-- EN: Study interval -->
-  <StudyInterval>Study interval</StudyInterval>
+  <StudyInterval>فاصله مطالعه</StudyInterval>
   <!-- EN: How often this entity can be studied. -->
-  <StudyIntervalDesc>How often this entity can be studied.</StudyIntervalDesc>
+  <StudyIntervalDesc>هر چند وقت یکبار می‌توان این موجود را مطالعه کرد.</StudyIntervalDesc>
   <!-- EN: Maintain only -->
-  <EntityStudyMode_MaintainOnly>Maintain only</EntityStudyMode_MaintainOnly>
+  <EntityStudyMode_MaintainOnly>فقط نگهداری</EntityStudyMode_MaintainOnly>
   <!-- EN: Wardens will not perform special actions on this entity, but other interactions are still available. -->
-  <EntityStudyMode_MaintainOnlyDesc>Wardens will not perform special actions on this entity, but other interactions are still available.</EntityStudyMode_MaintainOnlyDesc>
+  <EntityStudyMode_MaintainOnlyDesc>نگهبانان اقدامات ویژه‌ای روی این موجود انجام نخواهند داد، اما تعاملات دیگر هنوز در دسترس هستند.</EntityStudyMode_MaintainOnlyDesc>
   <!-- EN: Study -->
-  <EntityStudyMode_Study>Study</EntityStudyMode_Study>
+  <EntityStudyMode_Study>مطالعه</EntityStudyMode_Study>
   <!-- EN: Researchers will study the entity. -->
-  <EntityStudyMode_StudyDesc>Researchers will study the entity.</EntityStudyMode_StudyDesc>
+  <EntityStudyMode_StudyDesc>محققان موجود را مطالعه خواهند کرد.</EntityStudyMode_StudyDesc>
   <!-- EN: Release -->
-  <EntityStudyMode_Release>Release</EntityStudyMode_Release>
+  <EntityStudyMode_Release>آزاد کردن</EntityStudyMode_Release>
   <!-- EN: A warden will release the entity from the holding platform. Entities may be hostile when released. -->
-  <EntityStudyMode_ReleaseDesc>A warden will release the entity from the holding platform. Entities may be hostile when released.</EntityStudyMode_ReleaseDesc>
+  <EntityStudyMode_ReleaseDesc>یک نگهبان موجود را از سکوی نگهداری آزاد خواهد کرد. موجودات ممکن است هنگام آزاد شدن خصمانه باشند.</EntityStudyMode_ReleaseDesc>
   <!-- EN: Execute -->
-  <EntityStudyMode_Execute>Execute</EntityStudyMode_Execute>
+  <EntityStudyMode_Execute>اعدام</EntityStudyMode_Execute>
   <!-- EN: A warden will execute the restrained entity. -->
-  <EntityStudyMode_ExecuteDesc>A warden will execute the restrained entity.</EntityStudyMode_ExecuteDesc>
+  <EntityStudyMode_ExecuteDesc>یک نگهبان موجود مهار شده را اعدام خواهد کرد.</EntityStudyMode_ExecuteDesc>
   <!-- EN: Extract bioferrite -->
-  <EntityStudyMode_Extract>TODO</EntityStudyMode_Extract>
+  <EntityStudyMode_Extract>استخراج بیوفریت</EntityStudyMode_Extract>
   <!-- EN: Doctors will extract bioferrite from the captured entity whenever possible. This extraction method is simple, but inefficient. Can’t be done if the entity is attached to a bioferrite harvester. -->
-  <EntityStudyMode_ExtractDesc>TODO</EntityStudyMode_ExtractDesc>
+  <EntityStudyMode_ExtractDesc>پزشکان در صورت امکان بیوفریت را از موجود اسیر شده استخراج خواهند کرد. این روش استخراج ساده است، اما ناکارآمد. اگر موجود به برداشت‌کننده بیوفریت متصل باشد نمی‌توان انجام داد.</EntityStudyMode_ExtractDesc>
   <!-- EN: Requires bioferrite extraction. -->
-  <RequiresBioferriteExtraction>TODO</RequiresBioferriteExtraction>
+  <RequiresBioferriteExtraction>نیاز به استخراج بیوفریت دارد.</RequiresBioferriteExtraction>
   <!-- EN: Blocked by bioferrite harvester. -->
-  <BioferriteHarvesterAttached>TODO</BioferriteHarvesterAttached>
+  <BioferriteHarvesterAttached>توسط برداشت‌کننده بیوفریت مسدود شده است.</BioferriteHarvesterAttached>
   <!-- EN: Can't be executed. -->
-  <CantBeExecuted>Can't be executed.</CantBeExecuted>
+  <CantBeExecuted>نمی‌توان اعدام کرد.</CantBeExecuted>
   <!-- EN: Knowledge gain -->
-  <StudyKnowledgeGain>Knowledge gain</StudyKnowledgeGain>
+  <StudyKnowledgeGain>کسب دانش</StudyKnowledgeGain>
   <!-- EN: Amount of knowledge gained per study interval. Better containment helps the researcher focus on study instead of safety, yielding more knowledge. -->
-  <StudyKnowledgeGainDesc>Amount of knowledge gained per study interval. Better containment helps the researcher focus on study instead of safety, yielding more knowledge.</StudyKnowledgeGainDesc>
+  <StudyKnowledgeGainDesc>میزان دانش کسب شده در هر فاصله مطالعه. مهار بهتر به محقق کمک می‌کند به جای ایمنی بر مطالعه تمرکز کند و دانش بیشتری به دست آورد.</StudyKnowledgeGainDesc>
   <!-- EN: What type of medicine can be given to this entity. -->
-  <MedicineQualityDescriptionEntity>What type of medicine can be given to this entity.</MedicineQualityDescriptionEntity>
+  <MedicineQualityDescriptionEntity>چه نوع دارویی می‌توان به این موجود داد.</MedicineQualityDescriptionEntity>
 
   <!-- EN: Electroharvester -->
-  <FactorForElectroharvester>Electroharvester</FactorForElectroharvester>
+  <FactorForElectroharvester>الکتروبرداشت‌کننده</FactorForElectroharvester>
   <!-- EN: Long captivity -->
-  <FactorForDaysInCaptivity>Long captivity</FactorForDaysInCaptivity>
+  <FactorForDaysInCaptivity>اسارت طولانی</FactorForDaysInCaptivity>
   <!-- EN: Cold containment bonus -->
-  <FactorForColdCaptivity>Cold containment bonus</FactorForColdCaptivity>
+  <FactorForColdCaptivity>پاداش مهار سرد</FactorForColdCaptivity>
   <!-- EN: Incapable of escaping -->
-  <IncapableOfEscaping>Incapable of escaping</IncapableOfEscaping>
+  <IncapableOfEscaping>ناتوان از فرار</IncapableOfEscaping>
   <!-- EN: Entity downed -->
-  <EntityDowned>Entity downed</EntityDowned>
+  <EntityDowned>موجود افتاده</EntityDowned>
   <!-- EN: Containment strength -->
-  <FactorContainmentStrength>Containment strength</FactorContainmentStrength>
+  <FactorContainmentStrength>قدرت مهار</FactorContainmentStrength>
   <!-- EN: Electroharvester -->
-  <FactorElectroharvester>Electroharvester</FactorElectroharvester>
+  <FactorElectroharvester>الکتروبرداشت‌کننده</FactorElectroharvester>
   <!-- EN: Activity -->
-  <FactorActivity>Activity</FactorActivity>
+  <FactorActivity>فعالیت</FactorActivity>
 
 </LanguageData>

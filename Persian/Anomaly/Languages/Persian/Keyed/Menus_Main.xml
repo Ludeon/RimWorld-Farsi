@@ -2,36 +2,36 @@
 <LanguageData>
 
   <!-- EN: Anomaly -->
-  <DifficultyAnomalySection>TODO</DifficultyAnomalySection>
+  <DifficultyAnomalySection>ناهنجاری</DifficultyAnomalySection>
   <!-- EN: Anomaly threats -->
-  <Difficulty_AnomalyThreats_Label>TODO</Difficulty_AnomalyThreats_Label>
+  <Difficulty_AnomalyThreats_Label>تهدیدات ناهنجاری</Difficulty_AnomalyThreats_Label>
   <!-- EN: Adjust the percentage of major threats that will be Anomaly-related. -->
-  <Difficulty_AnomalyThreats_Info>TODO</Difficulty_AnomalyThreats_Info>
+  <Difficulty_AnomalyThreats_Info>درصد تهدیدات اصلی که مربوط به ناهنجاری خواهند بود را تنظیم کنید.</Difficulty_AnomalyThreats_Info>
   <!-- EN: Anomaly threats (inactive) -->
-  <Difficulty_AnomalyThreatsInactive_Label>TODO</Difficulty_AnomalyThreatsInactive_Label>
+  <Difficulty_AnomalyThreatsInactive_Label>تهدیدات ناهنجاری (غیرفعال)</Difficulty_AnomalyThreatsInactive_Label>
   <!-- EN: Adjust the percentage of major threats that will be Anomaly-related when the monolith is not active. Only certain minor Anomaly incidents can occur when the monolith is inactive. -->
-  <Difficulty_AnomalyThreatsInactive_Info>TODO</Difficulty_AnomalyThreatsInactive_Info>
+  <Difficulty_AnomalyThreatsInactive_Info>درصد تهدیدات اصلی که مربوط به ناهنجاری خواهند بود را زمانی که مونولیت فعال نیست تنظیم کنید. تنها برخی حوادث جزئی ناهنجاری می‌توانند زمانی که مونولیت غیرفعال است رخ دهند.</Difficulty_AnomalyThreatsInactive_Info>
   <!-- EN: Anomaly threats (active) -->
-  <Difficulty_AnomalyThreatsActive_Label>TODO</Difficulty_AnomalyThreatsActive_Label>
+  <Difficulty_AnomalyThreatsActive_Label>تهدیدات ناهنجاری (فعال)</Difficulty_AnomalyThreatsActive_Label>
   <!-- EN: Adjust the percentage of major threats that will be Anomaly-related when the monolith is active. With the current settings:\n  - {0} of major threats will be Anomaly-related at monolith level 1 and 5\n  - {1} of major threats will be Anomaly-related at monolith levels 2-4 -->
-  <Difficulty_AnomalyThreatsActive_Info>TODO</Difficulty_AnomalyThreatsActive_Info>
+  <Difficulty_AnomalyThreatsActive_Info>درصد تهدیدات اصلی که مربوط به ناهنجاری خواهند بود را زمانی که مونولیت فعال است تنظیم کنید. با تنظیمات فعلی:\n - {0} از تهدیدات اصلی در سطح مونولیت ۱ و ۵ مربوط به ناهنجاری خواهند بود\n - {1} از تهدیدات اصلی در سطح مونولیت ۲-۴ مربوط به ناهنجاری خواهند بود</Difficulty_AnomalyThreatsActive_Info>
   <!-- EN: Study efficiency -->
-  <Difficulty_StudyEfficiency_Label>TODO</Difficulty_StudyEfficiency_Label>
+  <Difficulty_StudyEfficiency_Label>کارایی مطالعه</Difficulty_StudyEfficiency_Label>
   <!-- EN: Add a multiplier to how much research is gained when studying unnatural entities. -->
-  <Difficulty_StudyEfficiency_Info>TODO</Difficulty_StudyEfficiency_Info>
+  <Difficulty_StudyEfficiency_Info>یک ضریب برای میزان تحقیقاتی که هنگام مطالعه موجودات غیرطبیعی به دست می‌آید اضافه کنید.</Difficulty_StudyEfficiency_Info>
 
   <!-- EN: Child shamblers -->
-  <Difficulty_ChildShamblersAllowed_Label>Child shamblers</Difficulty_ChildShamblersAllowed_Label>
+  <Difficulty_ChildShamblersAllowed_Label>شَمبلرهای کودک</Difficulty_ChildShamblersAllowed_Label>
   <!-- EN: Reanimated child shamblers will sometimes appear. -->
-  <Difficulty_ChildShamblersAllowed_Info>Reanimated child shamblers will sometimes appear.</Difficulty_ChildShamblersAllowed_Info>
-  
+  <Difficulty_ChildShamblersAllowed_Info>شَمبلرهای کودک احیا شده گاهی ظاهر خواهند شد.</Difficulty_ChildShamblersAllowed_Info>
+
   <!-- EN: Anomaly settings -->
-  <AnomalySettings>TODO</AnomalySettings>
+  <AnomalySettings>تنظیمات ناهنجاری</AnomalySettings>
   <!-- EN: Choose how you'd like to integrate Anomaly horror into your game: -->
-  <ChooseAnomalyPlaystyle>TODO</ChooseAnomalyPlaystyle>
+  <ChooseAnomalyPlaystyle>انتخاب کنید چگونه می‌خواهید وحشت ناهنجاری را در بازی خود ادغام کنید:</ChooseAnomalyPlaystyle>
   <!-- EN: Update Anomaly storyteller settings. These can be modified during the game -->
-  <CanBeEditedInStorytellerSettings>TODO</CanBeEditedInStorytellerSettings>
+  <CanBeEditedInStorytellerSettings>تنظیمات داستان‌گو ناهنجاری را به‌روزرسانی کنید. این‌ها می‌توانند در طول بازی تغییر داده شوند</CanBeEditedInStorytellerSettings>
   <!-- EN: Set to standard playstyle -->
-  <SetToStandardPlaystyle>TODO</SetToStandardPlaystyle>
+  <SetToStandardPlaystyle>تنظیم به سبک بازی استاندارد</SetToStandardPlaystyle>
 
 </LanguageData>

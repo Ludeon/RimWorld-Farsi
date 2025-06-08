@@ -3,76 +3,76 @@
 
   <!-- Royal Titles -->
   <!-- EN: The amount of {FACTION_royalFavorLabel} that your negotiator will personally receive as a result of this deal. -->
-  <RoyalFavorDescription>TODO</RoyalFavorDescription>
+  <RoyalFavorDescription>میزان {FACTION_royalFavorLabel} که مذاکره‌کننده شما شخصاً در نتیجه این معامله دریافت خواهد کرد.</RoyalFavorDescription>
   <!-- EN: Required apparel -->
-  <RoyalTitleTooltipRequiredApparel>TODO</RoyalTitleTooltipRequiredApparel>
+  <RoyalTitleTooltipRequiredApparel>لباس مورد نیاز</RoyalTitleTooltipRequiredApparel>
   <!-- EN: Minimum apparel quality -->
-  <RoyalTitleTooltipRequiredApparelQuality>TODO</RoyalTitleTooltipRequiredApparelQuality>
+  <RoyalTitleTooltipRequiredApparelQuality>حداقل کیفیت لباس</RoyalTitleTooltipRequiredApparelQuality>
   <!-- EN: Bedroom requirements -->
-  <RoyalTitleTooltipBedroomRequirements>TODO</RoyalTitleTooltipBedroomRequirements>
+  <RoyalTitleTooltipBedroomRequirements>الزامات اتاق خواب</RoyalTitleTooltipBedroomRequirements>
   <!-- EN: Throneroom requirements -->
-  <RoyalTitleTooltipThroneroomRequirements>TODO</RoyalTitleTooltipThroneroomRequirements>
+  <RoyalTitleTooltipThroneroomRequirements>الزامات اتاق تخت سلطنت</RoyalTitleTooltipThroneroomRequirements>
   <!-- EN: Title privileges -->
-  <RoyalTitleTooltipPermits>TODO</RoyalTitleTooltipPermits>
+  <RoyalTitleTooltipPermits>امتیازات عنوان</RoyalTitleTooltipPermits>
   <!-- EN: Holders of this title must be covered in some combination of -->
-  <RoyalTitleRequiredApparelStatDescription>TODO</RoyalTitleRequiredApparelStatDescription>
+  <RoyalTitleRequiredApparelStatDescription>دارندگان این عنوان باید در ترکیبی از موارد زیر پوشیده شوند</RoyalTitleRequiredApparelStatDescription>
   <!-- EN: Any prestige armor -->
-  <ApparelRequirementAnyPrestigeArmor>TODO</ApparelRequirementAnyPrestigeArmor>
+  <ApparelRequirementAnyPrestigeArmor>هر زره پرستیژ</ApparelRequirementAnyPrestigeArmor>
   <!-- EN: Any psycaster apparel -->
-  <ApparelRequirementAnyPsycasterApparel>TODO</ApparelRequirementAnyPsycasterApparel>
+  <ApparelRequirementAnyPsycasterApparel>هر لباس پساکستر</ApparelRequirementAnyPsycasterApparel>
   <!-- EN: or any psycaster or prestige apparel -->
-  <ApparelRequirementOrAnyPsycasterOrPrestigeApparel>TODO</ApparelRequirementOrAnyPsycasterOrPrestigeApparel>
+  <ApparelRequirementOrAnyPsycasterOrPrestigeApparel>یا هر لباس پساکستر یا پرستیژ</ApparelRequirementOrAnyPsycasterOrPrestigeApparel>
   <!-- EN: Disallowed work types -->
-  <DisabledWorkTypes>TODO</DisabledWorkTypes>
+  <DisabledWorkTypes>انواع کار ممنوع</DisabledWorkTypes>
   <!-- EN: Allowed foods -->
-  <RoyalTitleRequiredMeals>TODO</RoyalTitleRequiredMeals>
+  <RoyalTitleRequiredMeals>غذاهای مجاز</RoyalTitleRequiredMeals>
   <!-- EN: A holder of this title will only eat these foods, unless they are starving or on a caravan. -->
-  <RoyalTitleRequiredMealsDesc>TODO</RoyalTitleRequiredMealsDesc>
+  <RoyalTitleRequiredMealsDesc>دارنده این عنوان فقط این غذاها را خواهد خورد، مگر اینکه گرسنه باشد یا در کاروان.</RoyalTitleRequiredMealsDesc>
 
   <!-- Royal implants -->
   <!-- EN: According to laws of {FACTION_name}, one must have the title of {TITLE} to legally use a {IMPLANT}.\n\n{VIOLATIONTRIGGER}, there is a chance {FACTION_name} will detect its psychic signature. This will lead to diplomatic consequences. -->
-  <RoyalImplantIllegalUseWarning>TODO</RoyalImplantIllegalUseWarning>
+  <RoyalImplantIllegalUseWarning>طبق قوانین {FACTION_name}، برای استفاده قانونی از {IMPLANT} باید عنوان {TITLE} را داشت.\n\n{VIOLATIONTRIGGER}، احتمال دارد {FACTION_name} امضای روانی آن را شناسایی کند. این منجر به پیامدهای دیپلماتیک خواهد شد.</RoyalImplantIllegalUseWarning>
   <!-- EN: Install this implant anyway? -->
-  <RoyalImplantInstallConfirmation>TODO</RoyalImplantInstallConfirmation>
+  <RoyalImplantInstallConfirmation>به هر حال این ایمپلنت را نصب کنید؟</RoyalImplantInstallConfirmation>
   <!-- EN: Upgrade this implant anyway? -->
-  <RoyalImplantUpgradeConfirmation>TODO</RoyalImplantUpgradeConfirmation>
+  <RoyalImplantUpgradeConfirmation>به هر حال این ایمپلنت را ارتقا دهید؟</RoyalImplantUpgradeConfirmation>
 
   <!-- Royal weapons -->
   <!-- EN: Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else. -->
-  <BladelinkEquipWarning>TODO</BladelinkEquipWarning>
+  <BladelinkEquipWarning>پس از پیوند با یک حمل‌کننده، شخصیت سلاح از حمل شدن توسط شخص دیگری خودداری خواهد کرد.</BladelinkEquipWarning>
   <!-- EN: The weapon has the following traits -->
-  <BladelinkEquipWarningTraits>TODO</BladelinkEquipWarningTraits>
+  <BladelinkEquipWarningTraits>سلاح دارای ویژگی‌های زیر است</BladelinkEquipWarningTraits>
   <!-- EN: Are you sure you want to equip this item? -->
-  <RoyalWeaponEquipConfirmation>TODO</RoyalWeaponEquipConfirmation>
-  
+  <RoyalWeaponEquipConfirmation>آیا مطمئن هستید که می‌خواهید این آیتم را مجهز کنید؟</RoyalWeaponEquipConfirmation>
+
   <!-- Psycasts -->
   <!-- EN: Target is psychically deaf. -->
-  <AbilityTargetPsychicallyDeaf>TODO</AbilityTargetPsychicallyDeaf>
+  <AbilityTargetPsychicallyDeaf>هدف از نظر روانی ناشنوا است.</AbilityTargetPsychicallyDeaf>
   <!-- EN: This is illegal for {PAWN_labelShort}. Requires {TITLE} title. -->
-  <PsycastIsIllegal>TODO</PsycastIsIllegal>
+  <PsycastIsIllegal>این برای {PAWN_labelShort} غیرقانونی است. نیاز به عنوان {TITLE} دارد.</PsycastIsIllegal>
 
   <!-- Skip -->
   <!-- EN: Cannot skip {PAWN_labelShort} -->
-  <CannotSkipTarget>TODO</CannotSkipTarget>
+  <CannotSkipTarget>نمی‌توان از {PAWN_labelShort} رد شد</CannotSkipTarget>
   <!-- EN: Too large -->
-  <CannotSkipTargetTooLarge>TODO</CannotSkipTargetTooLarge>
+  <CannotSkipTargetTooLarge>خیلی بزرگ</CannotSkipTargetTooLarge>
   <!-- EN: Psychic resistance -->
-  <CannotSkipTargetPsychicResistant>TODO</CannotSkipTargetPsychicResistant>
+  <CannotSkipTargetPsychicResistant>مقاومت روانی</CannotSkipTargetPsychicResistant>
 
   <!-- Warning -->
   <!-- EN: This quest will reward {FACTION_royalFavorLabel} and thus royal titles for {PAWN_labelShort}. -->
-  <QuestGivesRoyalFavor>TODO</QuestGivesRoyalFavor>
+  <QuestGivesRoyalFavor>این مأموریت {FACTION_royalFavorLabel} و در نتیجه عناوین سلطنتی برای {PAWN_labelShort} پاداش خواهد داد.</QuestGivesRoyalFavor>
   <!-- EN: {PAWN_labelShort} is incapable of social tasks. Those with royal titles have great need of social skills, so if {PAWN_labelShort} gains a title, {PAWN_pronoun} may have a difficult time. Another colonist might be more socially-adept. -->
-  <RoyalIncapableOfSocial>TODO</RoyalIncapableOfSocial>
+  <RoyalIncapableOfSocial>{PAWN_labelShort} قادر به انجام کارهای اجتماعی نیست. کسانی که عناوین سلطنتی دارند نیاز زیادی به مهارت‌های اجتماعی دارند، بنابراین اگر {PAWN_labelShort} عنوانی کسب کند، {PAWN_pronoun} ممکن است زمان سختی داشته باشد. مستعمره‌نشین دیگری ممکن است از نظر اجتماعی ماهرتر باشد.</RoyalIncapableOfSocial>
   <!-- EN: Since {PAWN_labelShort} is {2}, {PAWN_pronoun} will demand that the title's privileges be fully respected. {PAWN_labelShort} may refuse to do certain work types or eat low-class food, and will issue decrees. Another colonist would probably be more flexible. -->
-  <RoyalWithConceitedTrait>TODO</RoyalWithConceitedTrait>
+  <RoyalWithConceitedTrait>از آنجایی که {PAWN_labelShort} {2} است، {PAWN_pronoun} مطالبه خواهد کرد که امتیازات عنوان کاملاً رعایت شود. {PAWN_labelShort} ممکن است از انجام برخی انواع کار یا خوردن غذای سطح پایین خودداری کند و فرمان صادر خواهد کرد. مستعمره‌نشین دیگری احتمالاً انعطاف‌پذیرتر خواهد بود.</RoyalWithConceitedTrait>
   <!-- EN: Since {PAWN_labelShort} is {2}, the psylink might not be useful for {PAWN_objective}. -->
-  <RoyalWithTraitAffectingPsylinkNegatively>TODO</RoyalWithTraitAffectingPsylinkNegatively>
+  <RoyalWithTraitAffectingPsylinkNegatively>از آنجایی که {PAWN_labelShort} {2} است، پسالینک ممکن است برای {PAWN_objective} مفید نباشد.</RoyalWithTraitAffectingPsylinkNegatively>
   <!-- EN: {PAWN_labelShort}'s psylink is not at a high enough level to use {ABILITY}.\n\nGain this power anyways? -->
-  <PsylinkTooLowForGainAbility>TODO</PsylinkTooLowForGainAbility>
+  <PsylinkTooLowForGainAbility>پسالینک {PAWN_labelShort} در سطح کافی برای استفاده از {ABILITY} نیست.\n\nبه هر حال این قدرت را کسب کنید؟</PsylinkTooLowForGainAbility>
   <!-- EN: This shuttle is empty. If you send it away, you won't be able to use it again.\n\nSend it anyways? -->
-  <SendShuttleWithNoContents>TODO</SendShuttleWithNoContents>
+  <SendShuttleWithNoContents>این شاتل خالی است. اگر آن را بفرستید، دیگر نمی‌توانید از آن استفاده کنید.\n\nبه هر حال بفرستید؟</SendShuttleWithNoContents>
   <!-- EN: These resources would weigh the caravan down and make it unable to move.\n\nCall for them anyways? -->
-  <DropResourcesOverweightConfirm>TODO</DropResourcesOverweightConfirm>
+  <DropResourcesOverweightConfirm>این منابع کاروان را سنگین کرده و آن را قادر به حرکت نخواهند کرد.\n\nبه هر حال آن‌ها را فراخوانید؟</DropResourcesOverweightConfirm>
 
 </LanguageData>

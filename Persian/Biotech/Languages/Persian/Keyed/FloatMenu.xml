@@ -2,167 +2,167 @@
 <LanguageData>
 
   <!-- EN: Not a mechanitor -->
-  <NotAMechanitor>TODO</NotAMechanitor>
+  <NotAMechanitor>مکانیتور نیست</NotAMechanitor>
   <!-- EN: Not enough bandwidth -->
-  <NotEnoughBandwidth>TODO</NotEnoughBandwidth>
+  <NotEnoughBandwidth>پهنای باند کافی نیست</NotEnoughBandwidth>
   <!-- EN: Take control of {0} -->
-  <ControlMech>TODO</ControlMech>
+  <ControlMech>کنترل {0}</ControlMech>
   <!-- EN: Cannot control {0} -->
-  <CannotControlMech>TODO</CannotControlMech>
+  <CannotControlMech>نمی‌توان {0} را کنترل کرد</CannotControlMech>
   <!-- EN: Already controlled by {0} -->
-  <CannotControlMechAlreadyControlled>TODO</CannotControlMechAlreadyControlled>
+  <CannotControlMechAlreadyControlledقبلاً توسط {0} کنترل می‌شود</CannotControlMechAlreadyControlled>
   <!-- EN: Not enough bandwidth -->
-  <CannotControlMechNotEnoughBandwidth>TODO</CannotControlMechNotEnoughBandwidth>
+  <CannotControlMechNotEnoughBandwidth>پهنای باند کافی نیست</CannotControlMechNotEnoughBandwidth>
   <!-- EN: Never controllable -->
-  <CannotControlMechNeverControllable>TODO</CannotControlMechNeverControllable>
+  <CannotControlMechNeverControllable>هرگز قابل کنترل نیست</CannotControlMechNeverControllable>
   <!-- EN: Cannot disconnect from {0} -->
-  <CannotDisconnectMech>TODO</CannotDisconnectMech>
+  <CannotDisconnectMech>نمی‌توان از {0} قطع شد</CannotDisconnectMech>
   <!-- EN: Disconnect from {0} -->
-  <DisconnectMech>TODO</DisconnectMech>
+  <DisconnectMech>قطع ارتباط از {0}</DisconnectMech>
   <!-- EN: Permanently disassemble {0} -->
-  <DisassembleMech>TODO</DisassembleMech>
+  <DisassembleMech>دائماً {0} را جدا کنید</DisassembleMech>
   <!-- EN: Cannot permanently disassemble {0} -->
-  <CannotDisassembleMech>TODO</CannotDisassembleMech>
+  <CannotDisassembleMech>نمی‌توان دائماً {0} را جدا کرد</CannotDisassembleMech>
   <!-- EN: Must be overseer -->
-  <MustBeOverseer>TODO</MustBeOverseer>
+  <MustBeOverseer>باید ناظر باشد</MustBeOverseer>
   <!-- EN: Extract -->
-  <Extract>TODO</Extract>
+  <Extract>استخراج</Extract>
   <!-- EN: Out of command range -->
-  <OutOfCommandRange>TODO</OutOfCommandRange>
+  <OutOfCommandRange>خارج از محدوده فرمان</OutOfCommandRange>
   <!-- EN: Cannot go here -->
-  <CannotGoOutOfRange>TODO</CannotGoOutOfRange>
+  <CannotGoOutOfRange>نمی‌توان به اینجا رفت</CannotGoOutOfRange>
   <!-- EN: Must be emptied -->
-  <WasteContainerFull>TODO</WasteContainerFull>
+  <WasteContainerFull>باید خالی شود</WasteContainerFull>
   <!-- EN: Cannot repair mech {0} -->
-  <CannotRepairMech>TODO</CannotRepairMech>
+  <CannotRepairMech>نمی‌توان مکانیوید {0} را تعمیر کرد</CannotRepairMech>
 
   <!-- EN: Extract xenogerm from {PAWN_nameDef} -->
-  <ExtractXenogermFrom>TODO</ExtractXenogermFrom>
+  <ExtractXenogermFrom>استخراج ژن بیگانه از {PAWN_nameDef}</ExtractXenogermFrom>
   <!-- EN: Enter {0_labelShort} -->
-  <EnterBuilding>TODO</EnterBuilding>
+  <EnterBuilding>وارد شدن به {0_labelShort}</EnterBuilding>
   <!-- EN: {PAWN_nameDef} has no genes -->
-  <PawnHasNoGenes>TODO</PawnHasNoGenes>
+  <PawnHasNoGenes>{PAWN_nameDef} ژنی ندارد</PawnHasNoGenes>
   <!-- EN: {PAWN_nameDef} has no extractable genes. -->
-  <PawnHasNoNonArchiteGenes>TODO</PawnHasNoNonArchiteGenes>
+  <PawnHasNoNonArchiteGenes>{PAWN_nameDef} ژن قابل استخراجی ندارد.</PawnHasNoNonArchiteGenes>
   <!-- EN: In xenogermination coma -->
-  <InXenogerminationComa>TODO</InXenogerminationComa>
+  <InXenogerminationComa>در کما ژن‌زایی</InXenogerminationComa>
   <!-- EN: Occupied -->
-  <Occupied>TODO</Occupied>
+  <Occupied>اشغال شده</Occupied>
   <!-- EN: {PAWN_nameDef} was ejected from a growth vat -->
-  <OccupantEjectedFromGrowthVat>TODO</OccupantEjectedFromGrowthVat>
+  <OccupantEjectedFromGrowthVat>{PAWN_nameDef} از مخزن رشد خارج شد</OccupantEjectedFromGrowthVat>
   <!-- EN: {PAWN_nameDef} must be younger than {AGEYEARS} years old. -->
-  <TooOld>TODO</TooOld>
+  <TooOld>{PAWN_nameDef} باید جوان‌تر از {AGEYEARS} سال باشد.</TooOld>
   <!-- EN: {PAWN_nameDef} is too old. -->
-  <PawnIsTooOld>TODO</PawnIsTooOld>
+  <PawnIsTooOld>{PAWN_nameDef} خیلی پیر است.</PawnIsTooOld>
   <!-- EN: {PAWN_nameDef} is suffering from biostarvation. -->
-  <PawnBiostarving>TODO</PawnBiostarving>
+  <PawnBiostarving>{PAWN_nameDef} از بیواستارواسیون رنج می‌برد.</PawnBiostarving>
   <!-- EN: No available people -->
-  <NoViablePawns>TODO</NoViablePawns>
+  <NoViablePawns>هیچ فرد قابل استفاده‌ای موجود نیست</NoViablePawns>
   <!-- EN: No extractable people -->
-  <NoExtractablePawns>TODO</NoExtractablePawns>
+  <NoExtractablePawns>هیچ فرد قابل استخراجی موجود نیست</NoExtractablePawns>
   <!-- EN: No implantable people -->
-  <NoImplantablePawns>TODO</NoImplantablePawns>
+  <NoImplantablePawns>هیچ فرد قابل کاشتی موجود نیست</NoImplantablePawns>
   <!-- EN: Cannot enter {0_labelShort} -->
-  <CannotEnterBuilding>TODO</CannotEnterBuilding>
+  <CannotEnterBuilding>نمی‌توان وارد {0_labelShort} شد</CannotEnterBuilding>
   <!-- EN: {0_labelShort} is assigned to another person. -->
-  <AssignedToOtherPawn>TODO</AssignedToOtherPawn>
+  <AssignedToOtherPawn>{0_labelShort} به فرد دیگری اختصاص داده شده است.</AssignedToOtherPawn>
 
   <!-- EN: Absorb xenogerm of {PAWN_nameDef} -->
-  <AbsorbXenogerm>TODO</AbsorbXenogerm>
+  <AbsorbXenogerm>جذب ژن بیگانه {PAWN_nameDef}</AbsorbXenogerm>
   <!-- EN: Cannot absorb {PAWN_nameDef}'s xenogerm -->
-  <CannotAbsorbXenogerm>TODO</CannotAbsorbXenogerm>
+  <CannotAbsorbXenogerm>نمی‌توان ژن بیگانه {PAWN_nameDef} را جذب کرد</CannotAbsorbXenogerm>
   <!-- EN: {PAWN_nameDef} is already {PAWN_xenotype} -->
-  <SameXenotype>TODO</SameXenotype>
+  <SameXenotype>{PAWN_nameDef} قبلاً {PAWN_xenotype} است</SameXenotype>
   <!-- EN: {PAWN_nameDef} suffering from xenogerm loss shock -->
-  <XenogermLossShockPresent>TODO</XenogermLossShockPresent>
+  <XenogermLossShockPresent>{PAWN_nameDef} از شوک از دست دادن ژن بیگانه رنج می‌برد</XenogermLossShockPresent>
   <!-- EN: Carry to {0_labelShort} -->
-  <CarryToSpecificThing>TODO</CarryToSpecificThing>
+  <CarryToSpecificThing>حمل به {0_labelShort}</CarryToSpecificThing>
   <!-- EN: No reachable, un-reserved bed or deathrest casket in safe temperature. -->
-  <NoCasketOrBed>TODO</NoCasketOrBed>
+  <NoCasketOrBed>هیچ تخت یا تابوت استراحت مرگ قابل دسترسی و رزرو نشده در دمای امن وجود ندارد.</NoCasketOrBed>
   <!-- EN: {PAWN_nameDef} is a temporary faction member. -->
-  <TemporaryFactionMember>TODO</TemporaryFactionMember>
+  <TemporaryFactionMember>{PAWN_nameDef} عضو موقت جناح است.</TemporaryFactionMember>
 
   <!-- EN: Scanner not initiated -->
-  <SubcoreScannerNotInit>TODO</SubcoreScannerNotInit>
+  <SubcoreScannerNotInit>اسکنر شروع نشده است</SubcoreScannerNotInit>
   <!-- EN: Waiting for ingredients -->
-  <SubcoreScannerRequiresIngredients>TODO</SubcoreScannerRequiresIngredients>
+  <SubcoreScannerRequiresIngredients>در انتظار مواد لازم</SubcoreScannerRequiresIngredients>
   <!-- EN: Occupied -->
-  <SubcoreScannerOccupied>TODO</SubcoreScannerOccupied>
+  <SubcoreScannerOccupied>اشغال شده</SubcoreScannerOccupied>
   <!-- EN: Enter {0} -->
-  <EnterSubcoreScanner>TODO</EnterSubcoreScanner>
+  <EnterSubcoreScanner>وارد شدن به {0}</EnterSubcoreScanner>
 
   <!-- EN: Breastfeed {BABY_labelShort} -->
-  <BabyCareBreastfeed>TODO</BabyCareBreastfeed>
+  <BabyCareBreastfeed>شیر دادن به {BABY_labelShort}</BabyCareBreastfeed>
   <!-- EN: Cannot breastfeed {BABY_labelShort} -->
-  <BabyCareBreastfeedUnable>TODO</BabyCareBreastfeedUnable>
+  <BabyCareBreastfeedUnable>نمی‌توان به {BABY_labelShort} شیر داد</BabyCareBreastfeedUnable>
   <!-- EN: No baby-edible food -->
-  <NoBabyFood>TODO</NoBabyFood>
+  <NoBabyFood>بدون غذای قابل خوردن برای نوزاد</NoBabyFood>
 
   <!-- EN: play need full -->
-  <CannotInteractBabyPlayFull>TODO</CannotInteractBabyPlayFull>
+  <CannotInteractBabyPlayFull>نیاز به بازی کامل است</CannotInteractBabyPlayFull>
 
   <!-- EN: Feed on {PAWN_nameDef} -->
-  <BloodfeedOn>TODO</BloodfeedOn>
+  <BloodfeedOn>تغذیه از {PAWN_nameDef}</BloodfeedOn>
   <!-- EN: Cannot feed on {PAWN_nameDef} -->
-  <CannotBloodfeedOn>TODO</CannotBloodfeedOn>
+  <CannotBloodfeedOn>نمی‌توان از {PAWN_nameDef} تغذیه کرد</CannotBloodfeedOn>
   <!-- EN: Not enough blood. -->
-  <CannotFeedOnWouldKill>TODO</CannotFeedOnWouldKill>
+  <CannotFeedOnWouldKill>خون کافی نیست.</CannotFeedOnWouldKill>
 
   <!-- BreastfeedFailReason strings-->
   <!-- EN: {MOM_labelShort} does not have enough milk -->
-  <BreastfeedFailReason_MomNotEnoughMilk>TODO</BreastfeedFailReason_MomNotEnoughMilk>
+  <BreastfeedFailReason_MomNotEnoughMilk>{MOM_labelShort} شیر کافی ندارد</BreastfeedFailReason_MomNotEnoughMilk>
   <!-- EN: {MOM_labelShort} cannot breastfeed right now -->
-  <BreastfeedFailReason_MomInMentalState>TODO</BreastfeedFailReason_MomInMentalState>
+  <BreastfeedFailReason_MomInMentalState>{MOM_labelShort} در حال حاضر نمی‌تواند شیر بدهد</BreastfeedFailReason_MomInMentalState>
   <!-- EN: {BABY_labelShort} is too full to suckle -->
-  <BreastfeedFailReason_BabyTooFull>TODO</BreastfeedFailReason_BabyTooFull>
+  <BreastfeedFailReason_BabyTooFull>{BABY_labelShort} برای شیر خوردن خیلی سیر است</BreastfeedFailReason_BabyTooFull>
   <!-- EN: {BABY_labelShort} is forbidden to {MOM_labelShort} -->
-  <BreastfeedFailReason_BabyForbiddenToMom>TODO</BreastfeedFailReason_BabyForbiddenToMom>
+  <BreastfeedFailReason_BabyForbiddenToMom>{BABY_labelShort} برای {MOM_labelShort} ممنوع است</BreastfeedFailReason_BabyForbiddenToMom>
   <!-- EN: {BABY_labelShort} is forbidden to {HAULER_labelShort} -->
-  <BreastfeedFailReason_BabyForbiddenToHauler>TODO</BreastfeedFailReason_BabyForbiddenToHauler>
+  <BreastfeedFailReason_BabyForbiddenToHauler>{BABY_labelShort} برای {HAULER_labelShort} ممنوع است</BreastfeedFailReason_BabyForbiddenToHauler>
   <!-- EN: {MOM_labelShort} is forbidden to {HAULER_labelShort} -->
-  <BreastfeedFailReason_MomForbiddenToHauler>TODO</BreastfeedFailReason_MomForbiddenToHauler>
+  <BreastfeedFailReason_MomForbiddenToHauler>{MOM_labelShort} برای {HAULER_labelShort} ممنوع است</BreastfeedFailReason_MomForbiddenToHauler>
   <!-- EN: {MOM_labelShort} can breastfeed {BABY_labelShort} without help -->
-  <BreastfeedFailReason_MomIsMobile>TODO</BreastfeedFailReason_MomIsMobile>
+  <BreastfeedFailReason_MomIsMobile>{MOM_labelShort} می‌تواند بدون کمک به {BABY_labelShort} شیر بدهد</BreastfeedFailReason_MomIsMobile>
   <!-- EN: {HAULER_labelShort} cannot go from {BABY_labelShort} to {MOM_labelShort} -->
-  <BreastfeedFailReason_HaulerCannotReachMom>TODO</BreastfeedFailReason_HaulerCannotReachMom>
+  <BreastfeedFailReason_HaulerCannotReachMom>{HAULER_labelShort} نمی‌تواند از {BABY_labelShort} به {MOM_labelShort} برود</BreastfeedFailReason_HaulerCannotReachMom>
   <!-- EN: {HAULER_labelShort} cannot reach {BABY_labelShort} -->
-  <BreastfeedFailReason_HaulerCannotReachBaby>TODO</BreastfeedFailReason_HaulerCannotReachBaby>
+  <BreastfeedFailReason_HaulerCannotReachBaby>{HAULER_labelShort} نمی‌تواند به {BABY_labelShort} برسد</BreastfeedFailReason_HaulerCannotReachBaby>
   <!-- EN: No lactating {BABY_factionPawnsPlural} are assigned to {BABY_labelShort} -->
-  <BreastfeedFailReason_NoMomsAssignedToBaby>TODO</BreastfeedFailReason_NoMomsAssignedToBaby>
+  <BreastfeedFailReason_NoMomsAssignedToBaby>هیچ {BABY_factionPawnsPlural} شیردهی به {BABY_labelShort} اختصاص داده نشده است</BreastfeedFailReason_NoMomsAssignedToBaby>
   <!-- EN: {MOM_labelShort} is not assigned to childcare -->
-  <BreastfeedFailReason_MomNotAssignedToChildcare>TODO</BreastfeedFailReason_MomNotAssignedToChildcare>
+  <BreastfeedFailReason_MomNotAssignedToChildcare>{MOM_labelShort} به مراقبت از کودک اختصاص داده نشده است</BreastfeedFailReason_MomNotAssignedToChildcare>
   <!-- EN: {MOM_labelShort} is inside a container -->
-  <BreastfeedFailReason_MomInsideContainer>TODO</BreastfeedFailReason_MomInsideContainer>
+  <BreastfeedFailReason_MomInsideContainer>{MOM_labelShort} داخل یک ظرف است</BreastfeedFailReason_MomInsideContainer>
   <!-- EN: {MOM_labelShort} is being carried -->
-  <BreastfeedFailReason_MomBeingCarried>TODO</BreastfeedFailReason_MomBeingCarried>
+  <BreastfeedFailReason_MomBeingCarried>{MOM_labelShort} در حال حمل شدن است</BreastfeedFailReason_MomBeingCarried>
 
   <!-- EN: Order implantation into {PAWN_nameDef} -->
-  <OrderImplantationIntoPawn>TODO</OrderImplantationIntoPawn>
+  <OrderImplantationIntoPawn>دستور کاشت در {PAWN_nameDef}</OrderImplantationIntoPawn>
   <!-- EN: Accept {0_xenotype} xenogerm -->
-  <AcceptXenogerm>TODO</AcceptXenogerm>
+  <AcceptXenogerm>پذیرش ژن بیگانه {0_xenotype}</AcceptXenogerm>
 
   <!-- EN: Carry {PAWN_labelShort} to recharger -->
-  <CarryToRechargerOrdered>TODO</CarryToRechargerOrdered>
+  <CarryToRechargerOrdered>دستور حمل {PAWN_labelShort} به شارژر</CarryToRechargerOrdered>
   <!-- EN: Cannot carry {PAWN_labelShort} to recharger -->
-  <CannotCarryToRecharger>TODO</CannotCarryToRecharger>
+  <CannotCarryToRecharger>نمی‌توان {PAWN_labelShort} را به شارژر حمل کرد</CannotCarryToRecharger>
   <!-- EN: No available recharger -->
-  <CannotCarryToRechargerNoneAvailable>TODO</CannotCarryToRechargerNoneAvailable>
+  <CannotCarryToRechargerNoneAvailable>هیچ شارژر موجود نیست</CannotCarryToRechargerNoneAvailable>
 
   <!-- EN: Hemogen packs disabled by food restriction. -->
-  <NotAllowedHemogen>TODO</NotAllowedHemogen>
+  <NotAllowedHemogen>بسته‌های هموژن توسط محدودیت غذایی غیرفعال شده‌اند.</NotAllowedHemogen>
 
   <!-- EN: Eject genepack from gene bank -->
-  <EjectGenepackFromGeneBank>TODO</EjectGenepackFromGeneBank>
+  <EjectGenepackFromGeneBank>خارج کردن بسته ژنی از بانک ژن</EjectGenepackFromGeneBank>
 
   <!-- EN: Resulting metabolism would be too low -->
-  <ResultingMetTooLow>TODO</ResultingMetTooLow>
+  <ResultingMetTooLow>متابولیسم حاصل خیلی پایین خواهد بود</ResultingMetTooLow>
 
   <!-- EN: attempted romance too recently -->
-  <RomanceOnCooldown>TODO</RomanceOnCooldown>
+  <RomanceOnCooldown>تلاش برای عاشقانه اخیراً انجام شده است</RomanceOnCooldown>
 
   <!-- EN: Take to safe location -->
-  <CarryToSafePlace>TODO</CarryToSafePlace>
+  <CarryToSafePlace>بردن به مکان امن</CarryToSafePlace>
   <!-- EN: Cannot take to safe location -->
-  <CannotCarryToSafePlace>TODO</CannotCarryToSafePlace>
+  <CannotCarryToSafePlace>نمی‌توان به مکان امن برد</CannotCarryToSafePlace>
 
 </LanguageData>

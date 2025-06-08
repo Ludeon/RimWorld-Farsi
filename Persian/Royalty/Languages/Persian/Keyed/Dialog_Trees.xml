@@ -3,10 +3,10 @@
 
   <!-- Royalty -->
   <!-- EN: Change heir of {HOLDER_labelShort}'s {TITLE} title from {HEIR_labelShort} -->
-  <RequestChangeRoyalHeir>TODO</RequestChangeRoyalHeir>
+  <RequestChangeRoyalHeir>تغییر وارث عنوان {TITLE} {HOLDER_labelShort} از {HEIR_labelShort}</RequestChangeRoyalHeir>
   <!-- EN: Designate heir of {HOLDER_labelShort}'s {TITLE} title -->
-  <RequestSetRoyalHeir>TODO</RequestSetRoyalHeir>
+  <RequestSetRoyalHeir>تعیین وارث عنوان {TITLE} {HOLDER_labelShort}</RequestSetRoyalHeir>
   <!-- EN: already in progress for {PAWN_labelShort} -->
-  <RequestChangeRoyalHeirAlreadyInProgress>TODO</RequestChangeRoyalHeirAlreadyInProgress>
-  
+  <RequestChangeRoyalHeirAlreadyInProgress>در حال حاضر برای {PAWN_labelShort} در حال انجام است</RequestChangeRoyalHeirAlreadyInProgress>
+
 </LanguageData>

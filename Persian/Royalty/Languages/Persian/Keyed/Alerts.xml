@@ -3,73 +3,73 @@
 
   <!-- Room requirements -->
   <!-- EN: Need throneroom -->
-  <NeedThroneAssigned>TODO</NeedThroneAssigned>
+  <NeedThroneAssigned>نیاز به اتاق تخت سلطنت</NeedThroneAssigned>
   <!-- EN: One of your people has a royal title that requires a throneroom, but no throneroom is assigned.\n\nEnsure the title holder is assigned a throne inside a throneroom.\n\nThe throneroom should be appropriately sized and decorated to satisfy the title's specific requirements.\n\nMultiple thrones may be placed in one throneroom. -->
-  <NeedThroneAssignedDesc>TODO</NeedThroneAssignedDesc>
+  <NeedThroneAssignedDesc>یکی از افراد شما عنوان سلطنتی دارد که نیاز به اتاق تخت سلطنت دارد، اما هیچ اتاق تخت سلطنتی اختصاص داده نشده است.\n\nاطمینان حاصل کنید که دارنده عنوان یک تخت سلطنت در داخل یک اتاق تخت سلطنت اختصاص داده شده است.\n\nاتاق تخت سلطنت باید اندازه و تزئینات مناسبی داشته باشد تا الزامات خاص عنوان را برآورده کند.\n\nچندین تخت سلطنت ممکن است در یک اتاق تخت سلطنت قرار داده شوند.</NeedThroneAssignedDesc>
 
   <!-- EN: Undignified bedroom -->
-  <UndignifiedBedroom>TODO</UndignifiedBedroom>
+  <UndignifiedBedroom>اتاق خواب بی‌وقار</UndignifiedBedroom>
   <!-- EN: One of your people has a royal title that requires a bedroom with specific features. Either no bedroom is assigned, or the assigned bedroom doesn't satisfy the requirements. -->
-  <UndignifiedBedroomDesc>TODO</UndignifiedBedroomDesc>
+  <UndignifiedBedroomDesc>یکی از افراد شما عنوان سلطنتی دارد که نیاز به اتاق خواب با ویژگی‌های خاص دارد. یا هیچ اتاق خوابی اختصاص داده نشده است، یا اتاق خواب اختصاص داده شده الزامات را برآورده نمی‌کند.</UndignifiedBedroomDesc>
 
   <!-- EN: Title requires bedroom -->
-  <NeedBedroomAssigned>TODO</NeedBedroomAssigned>
+  <NeedBedroomAssigned>عنوان نیاز به اتاق خواب دارد</NeedBedroomAssigned>
   <!-- EN: One of your people has a royal title that requires a personal bedroom, but no bedroom is assigned.\n\nAssign them a personal bedroom. The bedroom should be appropriately sized and decorated to satisfy the title's specific requirements. -->
-  <NeedBedroomAssignedDesc>TODO</NeedBedroomAssignedDesc>
+  <NeedBedroomAssignedDesc>یکی از افراد شما عنوان سلطنتی دارد که نیاز به اتاق خواب شخصی دارد، اما هیچ اتاق خوابی اختصاص داده نشده است.\n\nیک اتاق خواب شخصی به آن‌ها اختصاص دهید. اتاق خواب باید اندازه و تزئینات مناسبی داشته باشد تا الزامات خاص عنوان را برآورده کند.</NeedBedroomAssignedDesc>
 
   <!-- EN: Undignified throneroom -->
-  <UndignifiedThroneroom>TODO</UndignifiedThroneroom>
+  <UndignifiedThroneroom>اتاق تخت سلطنت بی‌وقار</UndignifiedThroneroom>
   <!-- EN: One of your people has a royal title and a throne, but the throne room does not satisfy the title's requirements. -->
-  <UndignifiedThroneroomDesc>TODO</UndignifiedThroneroomDesc>
-  
+  <UndignifiedThroneroomDesc>یکی از افراد شما عنوان سلطنتی و یک تخت سلطنت دارد، اما اتاق تخت سلطنت الزامات عنوان را برآورده نمی‌کند.</UndignifiedThroneroomDesc>
+
   <!-- EN: No acceptable food -->
-  <RoyalNoAcceptableFood>TODO</RoyalNoAcceptableFood>
+  <RoyalNoAcceptableFood>غذای قابل قبول وجود ندارد</RoyalNoAcceptableFood>
   <!-- EN: One of your people has a royal title with specific food requirements. But there's no food available that satisfies these requirements. -->
-  <RoyalNoAcceptableFoodDesc>TODO</RoyalNoAcceptableFoodDesc>
+  <RoyalNoAcceptableFoodDesc>یکی از افراد شما عنوان سلطنتی با الزامات غذایی خاص دارد. اما هیچ غذای موجودی وجود ندارد که این الزامات را برآورده کند.</RoyalNoAcceptableFoodDesc>
 
   <!-- EN: {0} days until requirement begins -->
-  <RoomRequirementGracePeriodDesc>TODO</RoomRequirementGracePeriodDesc>
+  <RoomRequirementGracePeriodDesc>{0} روز تا شروع نیاز</RoomRequirementGracePeriodDesc>
 
   <!-- EN: Throne not usable -->
-  <ThroneroomInvalidConfiguration>TODO</ThroneroomInvalidConfiguration>
+  <ThroneroomInvalidConfiguration>تخت سلطنت قابل استفاده نیست</ThroneroomInvalidConfiguration>
   <!-- EN: A throne is not usable because of how it is set up: -->
-  <ThroneroomInvalidConfigurationDesc>TODO</ThroneroomInvalidConfigurationDesc>
-  
+  <ThroneroomInvalidConfigurationDesc>یک تخت سلطنت به دلیل نحوه تنظیم آن قابل استفاده نیست:</ThroneroomInvalidConfigurationDesc>
+
   <!-- EN: Monument missing blueprints -->
-  <MonumentMarkerMissingBlueprints>TODO</MonumentMarkerMissingBlueprints>
+  <MonumentMarkerMissingBlueprints>نقشه‌های بنای یادبود گم شده‌اند</MonumentMarkerMissingBlueprints>
   <!-- EN: The monument won't be completed because blueprints have not been placed for all its parts.\n\nSelect the monument marker and click "Place blueprints", or place the blueprints manually. -->
-  <MonumentMarkerMissingBlueprintsDesc>TODO</MonumentMarkerMissingBlueprintsDesc>
+  <MonumentMarkerMissingBlueprintsDesc>بنای یادبود تکمیل نخواهد شد زیرا نقشه‌ها برای تمام قسمت‌های آن قرار داده نشده‌اند.\n\nنشانگر بنای یادبود را انتخاب کرده و روی "قرار دادن نقشه‌ها" کلیک کنید، یا نقشه‌ها را به صورت دستی قرار دهید.</MonumentMarkerMissingBlueprintsDesc>
 
   <!-- EN: Beacon unusable -->
-  <ShipLandingBeaconUnusable>TODO</ShipLandingBeaconUnusable>
+  <ShipLandingBeaconUnusable>فانوس فرود کشتی قابل استفاده نیست</ShipLandingBeaconUnusable>
   <!-- EN: A ship landing beacon is powered but can't be used. To be usable, four of these must be placed on the corners of a square at least 9 tiles wide, and the entire square area must be clear of obstructions including buildings, people, and animals. -->
-  <ShipLandingBeaconUnusableDesc>TODO</ShipLandingBeaconUnusableDesc>
+  <ShipLandingBeaconUnusableDesc>فانوس فرود کشتی برق دارد اما قابل استفاده نیست. برای قابل استفاده بودن، چهار عدد از این‌ها باید در گوشه‌های مربعی به عرض حداقل ۹ کاشی قرار داده شوند، و کل منطقه مربع باید از موانع از جمله ساختمان‌ها، افراد و حیوانات پاک باشد.</ShipLandingBeaconUnusableDesc>
 
   <!-- EN: Need meditation spot -->
-  <NeedMeditationSpotAlert>TODO</NeedMeditationSpotAlert>
+  <NeedMeditationSpotAlert>نیاز به نقطه مدیتیشن</NeedMeditationSpotAlert>
   <!-- EN: These colonists have a psyfocus need or are scheduled to meditate, but don't have any meditation spots available for them.\n{0}\n\nPlace a meditation spot and ensure it is reachable and usable. Colonists will prefer the meditation spot near the best focus object they can use. -->
-  <NeedMeditationSpotAlertDesc>TODO</NeedMeditationSpotAlertDesc>
+  <NeedMeditationSpotAlertDesc>این مستعمره‌نشینان نیاز به پسافوکوس دارند یا برای مدیتیشن برنامه‌ریزی شده‌اند، اما هیچ نقطه مدیتیشن در دسترس برای آن‌ها وجود ندارد.\n{0}\n\nیک نقطه مدیتیشن قرار دهید و اطمینان حاصل کنید که قابل دسترسی و قابل استفاده است. مستعمره‌نشینان نقطه مدیتیشن نزدیک بهترین شیء تمرکزی که می‌توانند استفاده کنند را ترجیح خواهند داد.</NeedMeditationSpotAlertDesc>
 
   <!-- EN: Unusable meditation focus -->
-  <UnusableMeditationFocusAlert>TODO</UnusableMeditationFocusAlert>
+  <UnusableMeditationFocusAlert>تمرکز مدیتیشن غیرقابل استفاده</UnusableMeditationFocusAlert>
   <!-- EN: These colonists are meditating near a focus object they can't use.\n{0}\n\nEach person can meditate to different objects, depending on their meditation focus types. A person's focus types depend on their backstories, traits, and titles. To see a person's meditation focus types, look at their details window by selecting them and clicking the 'i' button. -->
-  <UnusableMeditationFocusAlertDesc>TODO</UnusableMeditationFocusAlertDesc>
+  <UnusableMeditationFocusAlertDesc>این مستعمره‌نشینان نزدیک شیء تمرکزی مدیتیشن می‌کنند که نمی‌توانند از آن استفاده کنند.\n{0}\n\nهر فرد می‌تواند به اشیاء مختلفی مدیتیشن کند، بسته به انواع تمرکز مدیتیشن آن‌ها. انواع تمرکز فرد بستگی به پیش‌زمینه‌ها، ویژگی‌ها و عناوین او دارد. برای دیدن انواع تمرکز مدیتیشن فرد، با انتخاب او و کلیک روی دکمه 'i' به پنجره جزئیات او نگاه کنید.</NeedMeditationFocusAlertDesc>
 
   <!-- EN: Permit choice ready -->
-  <PermitChoiceReadyAlert>TODO</PermitChoiceReadyAlert>
+  <PermitChoiceReadyAlert>انتخاب مجوز آماده</PermitChoiceReadyAlert>
   <!-- EN: {PAWN_nameDef} can choose a new permit. -->
-  <PermitChoiceReadyAlertDesc>TODO</PermitChoiceReadyAlertDesc>
-  
+  <PermitChoiceReadyAlertDesc>{PAWN_nameDef} می‌تواند مجوز جدیدی انتخاب کند.</PermitChoiceReadyAlertDesc>
+
   <!-- EN: Bestower waiting -->
-  <BestowerWaitingAlert>TODO</BestowerWaitingAlert>
+  <BestowerWaitingAlert>اعطا کننده در انتظار</BestowerWaitingAlert>
   <!-- EN: A bestower is waiting to begin the bestowing ceremony. -->
-  <BestowerWaitingAlertDesc>TODO</BestowerWaitingAlertDesc>
-  
+  <BestowerWaitingAlertDesc>یک اعطا کننده منتظر شروع مراسم اعطا است.</BestowerWaitingAlertDesc>
+
   <!-- EN: Anima linking ceremony ready -->
-  <AnimaLinkingReadyLabel>TODO</AnimaLinkingReadyLabel>
+  <AnimaLinkingReadyLabel>مراسم پیوند آنیما آماده</AnimaLinkingReadyLabel>
   <!-- EN: An anima tree has enough anima grass to carry out the linking ceremony and level up psylink for these colonists -->
-  <AnimaLinkingReadyDesc>TODO</AnimaLinkingReadyDesc>
+  <AnimaLinkingReadyDesc>یک درخت آنیما به اندازه کافی چمن آنیما برای انجام مراسم پیوند و ارتقا سطح پسالینک برای این مستعمره‌نشینان دارد</AnimaLinkingReadyDesc>
   <!-- EN: In order to start the ceremony, select a colonist, click the 'begin anima tree linking' button and select the anima tree you want to use. -->
-  <AnimaLinkingReadyDescExtra>TODO</AnimaLinkingReadyDescExtra>
-  
+  <AnimaLinkingReadyDescExtra>برای شروع مراسم، یک مستعمره‌نشین را انتخاب کرده، روی دکمه 'شروع پیوند درخت آنیما' کلیک کنید و درخت آنیمایی که می‌خواهید استفاده کنید را انتخاب کنید.</AnimaLinkingReadyDescExtra>
+
 </LanguageData>

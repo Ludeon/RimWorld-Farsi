@@ -3,67 +3,67 @@
 
   <!-- Character tab -->
   <!-- EN: {PAWN_labelShort} currently has the title {TITLE}, awarded by {FACTION_name}. -->
-  <RoyalTitleTooltipHasTitle>TODO</RoyalTitleTooltipHasTitle>
+  <RoyalTitleTooltipHasTitle>{PAWN_labelShort} در حال حاضر عنوان {TITLE} را دارد که توسط {FACTION_name} اعطا شده است.</RoyalTitleTooltipHasTitle>
   <!-- EN: {PAWN_labelShort} will demand that this title's privileges be fully respected. -->
-  <RoyalTitleTooltipConceited>TODO</RoyalTitleTooltipConceited>
+  <RoyalTitleTooltipConceited>{PAWN_labelShort} مطالبه خواهد کرد که امتیازات این عنوان کاملاً رعایت شود.</RoyalTitleTooltipConceited>
   <!-- EN: {PAWN_labelShort} is flexible about this title's privileges. -->
-  <RoyalTitleTooltipNonConceited>TODO</RoyalTitleTooltipNonConceited>
+  <RoyalTitleTooltipNonConceited>{PAWN_labelShort} در مورد امتیازات این عنوان انعطاف‌پذیر است.</RoyalTitleTooltipNonConceited>
   <!-- EN: Next title -->
-  <RoyalTitleTooltipNextTitle>TODO</RoyalTitleTooltipNextTitle>
+  <RoyalTitleTooltipNextTitle>عنوان بعدی</RoyalTitleTooltipNextTitle>
   <!-- EN: costs {0} {FACTION_royalFavorLabel} -->
-  <RoyalTitleTooltipNextTitleFavorCost>TODO</RoyalTitleTooltipNextTitleFavorCost>
+  <RoyalTitleTooltipNextTitleFavorCost>هزینه {0} {FACTION_royalFavorLabel}</RoyalTitleTooltipNextTitleFavorCost>
   <!-- EN: No more earnable titles on this planet. -->
-  <RoyalTitleTooltipFinalTitle>TODO</RoyalTitleTooltipFinalTitle>
+  <RoyalTitleTooltipFinalTitle>دیگر عنوان قابل کسب در این سیاره وجود ندارد.</RoyalTitleTooltipFinalTitle>
   <!-- EN: If {PAWN_nameDef} dies, {HEIR_nameFull} is designated to inherit {PAWN_possessive} title. -->
-  <RoyalTitleTooltipInheritance>TODO</RoyalTitleTooltipInheritance>
+  <RoyalTitleTooltipInheritance>اگر {PAWN_nameDef} بمیرد، {HEIR_nameFull} برای وراثت عنوان {PAWN_possessive} تعیین شده است.</RoyalTitleTooltipInheritance>
   <!-- EN: {HEIR_nameFull} is not a member of any faction. -->
-  <RoyalTitleTooltipHeirNoFaction>TODO</RoyalTitleTooltipHeirNoFaction>
+  <RoyalTitleTooltipHeirNoFaction>{HEIR_nameFull} عضو هیچ جناحی نیست.</RoyalTitleTooltipHeirNoFaction>
   <!-- EN: {HEIR_nameFull} is a member of {FACTION_name}. -->
-  <RoyalTitleTooltipHeirDifferentFaction>TODO</RoyalTitleTooltipHeirDifferentFaction>
+  <RoyalTitleTooltipHeirDifferentFaction>{HEIR_nameFull} عضو {FACTION_name} است.</RoyalTitleTooltipHeirDifferentFaction>
   <!-- EN: No one is designated to inherit {PAWN_nameDef}'s title. If {PAWN_pronoun} dies, the title will be lost. -->
-  <RoyalTitleTooltipNoHeir>TODO</RoyalTitleTooltipNoHeir>
+  <RoyalTitleTooltipNoHeir>هیچ‌کس برای وراثت عنوان {PAWN_nameDef} تعیین نشده است. اگر {PAWN_pronoun} بمیرد، عنوان از دست خواهد رفت.</RoyalTitleTooltipNoHeir>
   <!-- EN: Earnable titles of {FACTION_name} -->
-  <RoyalTitleTooltipTitlesEarnable>TODO</RoyalTitleTooltipTitlesEarnable>
+  <RoyalTitleTooltipTitlesEarnable>عناوین قابل کسب {FACTION_name}</RoyalTitleTooltipTitlesEarnable>
   <!-- EN: Other titles of {FACTION_name} -->
-  <RoyalTitleTooltipTitlesNonEarnable>TODO</RoyalTitleTooltipTitlesNonEarnable>
+  <RoyalTitleTooltipTitlesNonEarnable>عناوین دیگر {FACTION_name}</RoyalTitleTooltipTitlesNonEarnable>
   <!-- EN: {0} {1} -->
-  <RoyalTitleTooltipRoyalFavorAmount>TODO</RoyalTitleTooltipRoyalFavorAmount>
+  <RoyalTitleTooltipRoyalFavorAmount>{0} {1}</RoyalTitleTooltipRoyalFavorAmount>
   <!-- EN: {0} total -->
-  <RoyalTitleTooltipRoyalFavorTotal>TODO</RoyalTitleTooltipRoyalFavorTotal>
+  <RoyalTitleTooltipRoyalFavorTotal>{0} در مجموع</RoyalTitleTooltipRoyalFavorTotal>
 
   <!-- EN: {0} title -->
-  <RecruitmentResistanceRoyalTitleOffset>TODO</RecruitmentResistanceRoyalTitleOffset>
-  
+  <RecruitmentResistanceRoyalTitleOffset>افست عنوان {0}</RecruitmentResistanceRoyalTitleOffset>
+
   <!-- Permits tab -->
   <!-- EN: Permits -->
-  <TabPermits>TODO</TabPermits>
+  <TabPermits>مجوزها</TabPermits>
   <!-- EN: Permits from {FACTION_name} -->
-  <PermitsFromFaction>TODO</PermitsFromFaction>
+  <PermitsFromFaction>مجوزها از {FACTION_name}</PermitsFromFaction>
   <!-- EN: Current title -->
-  <CurrentTitle>TODO</CurrentTitle>
+  <CurrentTitle>عنوان فعلی</CurrentTitle>
   <!-- EN: Unused permit points -->
-  <UnusedPermits>TODO</UnusedPermits>
+  <UnusedPermits>امتیازات مجوز استفاده نشده</UnusedPermits>
   <!-- EN: Return all permits -->
-  <ReturnAllPermits>TODO</ReturnAllPermits>
+  <ReturnAllPermits>بازگرداندن تمام مجوزها</ReturnAllPermits>
   <!-- EN: {PAWN_nameDef} has no permits to return. -->
-  <NoPermitsToReturn>TODO</NoPermitsToReturn>
+  <NoPermitsToReturn>{PAWN_nameDef} مجوزی برای بازگرداندن ندارد.</NoPermitsToReturn>
   <!-- EN: Returning permits requires {FAVORCOST} {FAVOR} but {PAWN_nameDef} only has {CURFAVOR}. -->
-  <NotEnoughFavor>TODO</NotEnoughFavor>
+  <NotEnoughFavor>بازگرداندن مجوزها نیاز به {FAVORCOST} {FAVOR} دارد اما {PAWN_nameDef} فقط {CURFAVOR} دارد.</NotEnoughFavor>
   <!-- EN: Return all previously-chosen permits for this faction. You will regain all the spent permit points and be able to spend them again.\n\nThis action costs {BASEFAVORCOST} {FAVOR}, plus the reset cost of any permits currently on cooldown. The total cost now is {FAVORCOST}. -->
-  <ReturnAllPermits_Desc>TODO</ReturnAllPermits_Desc>
+  <ReturnAllPermits_Desc>تمام مجوزهای قبلاً انتخاب شده برای این جناح را بازگردانید. تمام امتیازات مجوز صرف شده را دوباره به دست خواهید آورد و می‌توانید دوباره آن‌ها را خرج کنید.\n\nاین عمل {BASEFAVORCOST} {FAVOR} هزینه دارد، به علاوه هزینه بازنشانی هر مجوزی که در حال حاضر در زمان بازیابی است. هزینه کل اکنون {FAVORCOST} است.</ReturnAllPermits_Desc>
   <!-- EN: Return all previously-chosen permits for {FACTION_name}?\n\nYou will regain all the spent permit points and be able to spend them again.\n\nThis action costs {BASEFAVORCOST} {FAVOR}, plus the reset cost of any permits currently on cooldown. The total cost now is {FAVORCOST}. -->
-  <ReturnAllPermits_Confirm>TODO</ReturnAllPermits_Confirm>
+  <ReturnAllPermits_Confirm>تمام مجوزهای قبلاً انتخاب شده برای {FACTION_name} را بازگردانید؟\n\nتمام امتیازات مجوز صرف شده را دوباره به دست خواهید آورد و می‌توانید دوباره آن‌ها را خرج کنید.\n\nاین عمل {BASEFAVORCOST} {FAVOR} هزینه دارد، به علاوه هزینه بازنشانی هر مجوزی که در حال حاضر در زمان بازیابی است. هزینه کل اکنون {FAVORCOST} است.</ReturnAllPermits_Confirm>
   <!-- EN: Switch faction -->
-  <SwitchFaction_Desc>TODO</SwitchFaction_Desc>
+  <SwitchFaction_Desc>تغییر جناح</SwitchFaction_Desc>
   <!-- EN: Accept permit -->
-  <AcceptPermit>TODO</AcceptPermit>
+  <AcceptPermit>پذیرش مجوز</AcceptPermit>
   <!-- EN: Requires title: {0} -->
-  <RequiresTitle>TODO</RequiresTitle>
+  <RequiresTitle>نیاز به عنوان: {0}</RequiresTitle>
   <!-- EN: Upgrade from: {0} -->
-  <UpgradeFrom>TODO</UpgradeFrom>
+  <UpgradeFrom>ارتقا از: {0}</UpgradeFrom>
   <!-- EN: Cooldown -->
-  <Cooldown>TODO</Cooldown>
+  <Cooldown>زمان بازیابی</Cooldown>
   <!-- EN: {HONOR} cost if used during cooldown -->
-  <CooldownUseFavorCost>TODO</CooldownUseFavorCost>
-  
+  <CooldownUseFavorCost>هزینه {HONOR} در صورت استفاده در زمان بازیابی</CooldownUseFavorCost>
+
 </LanguageData>

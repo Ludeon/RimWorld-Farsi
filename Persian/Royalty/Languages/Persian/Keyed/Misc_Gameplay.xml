@@ -3,170 +3,170 @@
 
   <!-- Royalty and throne -->
   <!-- EN: Satisfies title -->
-  <ThroneMaxSatisfiedTitle>TODO</ThroneMaxSatisfiedTitle>
+  <ThroneMaxSatisfiedTitle>عنوان را راضی می‌کند</ThroneMaxSatisfiedTitle>
   <!-- EN: ({0} impressiveness) -->
-  <ThroneRoomImpressivenessInfo>TODO</ThroneRoomImpressivenessInfo>
+  <ThroneRoomImpressivenessInfo>({0} تأثیرگذاری)</ThroneRoomImpressivenessInfo>
   <!-- EN: Throne must be placed indoors. -->
-  <ThroneMustBePlacedInside>TODO</ThroneMustBePlacedInside>
+  <ThroneMustBePlacedInside>تخت سلطنت باید در داخل ساختمان قرار گیرد.</ThroneMustBePlacedInside>
   <!-- EN: Minimum title ({FACTION_name}): {TITLE} -->
-  <MinimumRoyalTitleInspectString>TODO</MinimumRoyalTitleInspectString>
+  <MinimumRoyalTitleInspectString>حداقل عنوان ({FACTION_name}): {TITLE}</MinimumRoyalTitleInspectString>
   <!-- EN: Trading here requires title: {0} -->
-  <RequiresTradePermission>TODO</RequiresTradePermission>
+  <RequiresTradePermission>تجارت در اینجا نیاز به عنوان دارد: {0}</RequiresTradePermission>
   <!-- EN: Personal bedroom (partner allowed) -->
-  <RequirementPersonalBedroom>TODO</RequirementPersonalBedroom>
+  <RequirementPersonalBedroom>اتاق خواب شخصی (شریک مجاز)</RequirementPersonalBedroom>
   
   <!-- Generated neurotrainers -->
   <!-- EN: psytrainer ({0}) -->
-  <PsycastNeurotrainerLabel>TODO</PsycastNeurotrainerLabel>
+  <PsycastNeurotrainerLabel>پسای‌ترینر ({0})</PsycastNeurotrainerLabel>
   <!-- EN: Use psytrainer to learn {0} psycast -->
-  <PsycastNeurotrainerUseLabel>TODO</PsycastNeurotrainerUseLabel>
+  <PsycastNeurotrainerUseLabel>استفاده از پسای‌ترینر برای یادگیری پساکست {0}</PsycastNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific psychic power.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific ability, transmuting themselves into neural tissue as needed.\n\n{PSYCAST_label}\n\n{PSYCASTDESCRIPTION} -->
-  <PsycastNeurotrainerDescription>TODO</PsycastNeurotrainerDescription>
+  <PsycastNeurotrainerDescription>یک دوز فوق‌العاده یک‌بار مصرف از مکانایت‌ها که یک قدرت روانی خاص را آموزش می‌دهد.\n\nدوز از طریق حدقه چشم تجویز می‌شود. پس از رها شدن در مغز، مکانایت‌ها دانش یک توانایی خاص را تشکیل می‌دهند و در صورت نیاز خود را به بافت عصبی تبدیل می‌کنند.\n\n{PSYCAST_label}\n\n{PSYCASTDESCRIPTION}</PsycastNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} power. -->
-  <AbilityNeurotrainerUsed>TODO</AbilityNeurotrainerUsed>
+  <AbilityNeurotrainerUsed>{USER_labelShort} از نورال‌ترینر برای یادگیری قدرت {1} استفاده کرد.</AbilityNeurotrainerUsed>
   <!-- EN: requires psylink -->
-  <PsycastNeurotrainerNoPsylink>TODO</PsycastNeurotrainerNoPsylink>
+  <PsycastNeurotrainerNoPsylink>نیاز به پسالینک دارد</PsycastNeurotrainerNoPsylink>
   <!-- EN: {USER_labelShort} already knows {1}. -->
-  <PsycastNeurotrainerAbilityAlreadyLearned>TODO</PsycastNeurotrainerAbilityAlreadyLearned>
+  <PsycastNeurotrainerAbilityAlreadyLearned>{USER_labelShort} قبلاً {1} را می‌داند.</PsycastNeurotrainerAbilityAlreadyLearned>
 
   <!-- EN: whoever accepted the quest will receive {1} {0_royalFavorLabel} from {0_name} -->
-  <Reward_RoyalFavor>TODO</Reward_RoyalFavor>
+  <Reward_RoyalFavor>هر کسی که مأموریت را پذیرفت، {1} {0_royalFavorLabel} از {0_name} دریافت خواهد کرد</Reward_RoyalFavor>
   <!-- EN: you may choose one of the participating {2} to receive {1} {0_royalFavorLabel} from {0_name} -->
-  <Reward_RoyalFavor_ChoosePawn>TODO</Reward_RoyalFavor_ChoosePawn>
+  <Reward_RoyalFavor_ChoosePawn>می‌توانید یکی از {2} شرکت‌کننده را انتخاب کنید تا {1} {0_royalFavorLabel} از {0_name} دریافت کند</Reward_RoyalFavor_ChoosePawn>
   
   <!-- Ship landing beacons -->
   <!-- EN: Not usable -->
-  <NotUsable>TODO</NotUsable>
+  <NotUsable>قابل استفاده نیست</NotUsable>
   <!-- EN: unpowered -->
-  <Unpowered>TODO</Unpowered>
+  <Unpowered>بدون برق</Unpowered>
   <!-- EN: Too close to other beacon -->
-  <TooCloseToOtherBeacon>TODO</TooCloseToOtherBeacon>
+  <TooCloseToOtherBeacon>خیلی نزدیک به فانوس دیگر</TooCloseToOtherBeacon>
   
   <!-- Meditation -->
   <!-- EN: Psyfocus -->
-  <Psyfocus>TODO</Psyfocus>
+  <Psyfocus>پسافوکوس</Psyfocus>
   <!-- EN: Psyfocus -->
-  <PsyfocusLabelGizmo>TODO</PsyfocusLabelGizmo>
+  <PsyfocusLabelGizmo>پسافوکوس</PsyfocusLabelGizmo>
   <!-- EN: Psyfocus is a special type of mental structuring which is necessary to use psychic powers. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to use psychic powers, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level powers, but also increase the rate of psyfocus dissipation -->
-  <PsyfocusDesc>TODO</PsyfocusDesc>
+  <PsyfocusDesc>پسافوکوس نوع خاصی از ساختاردهی ذهنی است که برای استفاده از قدرت‌های روانی ضروری است. پسافوکوس با گذشت زمان از بین می‌رود و باید با مدیتیشن منظم ساخته شود. از دست دادن تمام پسافوکوس باعث می‌شود فرد نتواند از قدرت‌های روانی استفاده کند، اما پیامدهای دیگری ندارد.\n\nسطوح بالاتر پسافوکوس امکان استفاده از قدرت‌های سطح بالاتر را می‌دهد، اما همچنین نرخ از بین رفتن پسافوکوس را افزایش می‌دهد</PsyfocusDesc>
   <!-- EN: {0}-{1}% -->
-  <PsyfocusLevelInfoRange>TODO</PsyfocusLevelInfoRange>
+  <PsyfocusLevelInfoRange>{0}-{1}٪</PsyfocusLevelInfoRange>
   <!-- EN: Up to level {0} powers. -->
-  <PsyfocusLevelInfoPsycasts>TODO</PsyfocusLevelInfoPsycasts>
+  <PsyfocusLevelInfoPsycasts>قدرت‌های تا سطح {0}.</PsyfocusLevelInfoPsycasts>
   <!-- EN: Psyfocus falls at {0} per day. -->
-  <PsyfocusLevelInfoFallRate>TODO</PsyfocusLevelInfoFallRate>
+  <PsyfocusLevelInfoFallRate>پسافوکوس با نرخ {0} در روز کاهش می‌یابد.</PsyfocusLevelInfoFallRate>
   <!-- EN: Meditation focus strength for {LASTUSER_labelShort} -->
-  <UserMeditationFocusStrength>TODO</UserMeditationFocusStrength>
+  <UserMeditationFocusStrength>قدرت تمرکز مدیتیشن برای {LASTUSER_labelShort}</UserMeditationFocusStrength>
   <!-- EN: Focus effect impacted by -->
-  <MeditationFocusImpacted>TODO</MeditationFocusImpacted>
+  <MeditationFocusImpacted>اثر تمرکز تحت تأثیر</MeditationFocusImpacted>
   <!-- EN: {1} per nearby animus stone (max {0}) -->
-  <MeditationFocusPerAnimusStoneAbstract>TODO</MeditationFocusPerAnimusStoneAbstract>
+  <MeditationFocusPerAnimusStoneAbstract>{1} به ازای هر سنگ آنیموس نزدیک (حداکثر {0})</MeditationFocusPerAnimusStoneAbstract>
   <!-- EN: {2} per nearby animus stone ({0} / {1}) -->
-  <MeditationFocusPerAnimusStone>TODO</MeditationFocusPerAnimusStone>
+  <MeditationFocusPerAnimusStone>{2} به ازای هر سنگ آنیموس نزدیک ({0} / {1})</MeditationFocusPerAnimusStone>
   <!-- EN: Per nearby animus stone {2}, nature shrine {1} (max {0}) -->
-  <MeditationFocusPerAnimusStoneAndShrineAbstract>TODO</MeditationFocusPerAnimusStoneAndShrineAbstract>
+  <MeditationFocusPerAnimusStoneAndShrineAbstract>به ازای هر سنگ آنیموس نزدیک {2}، زیارتگاه طبیعت {1} (حداکثر {0})</MeditationFocusPerAnimusStoneAndShrineAbstract>
   <!-- EN: Per nearby animus stone {3}, nature shrine {2} ({0} / {1}) -->
-  <MeditationFocusPerAnimusStoneAndShrine>TODO</MeditationFocusPerAnimusStoneAndShrine>
+  <MeditationFocusPerAnimusStoneAndShrine>به ازای هر سنگ آنیموس نزدیک {3}، زیارتگاه طبیعت {2} ({0} / {1})</MeditationFocusPerAnimusStoneAndShrine>
   <!-- EN: Max {1} per nearby sculpture depending on quality (max {0}) -->
-  <MeditationFocusPerSculptureAbstract>TODO</MeditationFocusPerSculptureAbstract>
+  <MeditationFocusPerSculptureAbstract>حداکثر {1} به ازای هر مجسمه نزدیک بسته به کیفیت (حداکثر {0})</MeditationFocusPerSculptureAbstract>
   <!-- EN: Max {2} per nearby sculpture depending on quality ({0} / {1}) -->
-  <MeditationFocusPerSculpture>TODO</MeditationFocusPerSculpture>
+  <MeditationFocusPerSculpture>حداکثر {2} به ازای هر مجسمه نزدیک بسته به کیفیت ({0} / {1})</MeditationFocusPerSculpture>
   <!-- EN: Per nearby grave {1} if empty, {2} for human corpse (up to {0}) -->
-  <MeditationFocusPerGraveAbstract>TODO</MeditationFocusPerGraveAbstract>
+  <MeditationFocusPerGraveAbstract>به ازای هر قبر نزدیک {1} اگر خالی باشد، {2} برای جسد انسان (تا {0})</MeditationFocusPerGraveAbstract>
   <!-- EN: Per nearby grave {2} if empty, {3} for human corpse ({0} / {1}) -->
-  <MeditationFocusPerGrave>TODO</MeditationFocusPerGrave>
+  <MeditationFocusPerGrave>به ازای هر قبر نزدیک {2} اگر خالی باشد، {3} برای جسد انسان ({0} / {1})</MeditationFocusPerGrave>
   <!-- EN: {1} per nearby lit flame source (up to {0}) -->
-  <MeditationFocusPerFlameAbstract>TODO</MeditationFocusPerFlameAbstract>
+  <MeditationFocusPerFlameAbstract>{1} به ازای هر منبع شعله روشن نزدیک (تا {0})</MeditationFocusPerFlameAbstract>
   <!-- EN: {2} per nearby lit flame source ({0} / {1}) -->
-  <MeditationFocusPerFlame>TODO</MeditationFocusPerFlame>
+  <MeditationFocusPerFlame>{2} به ازای هر منبع شعله روشن نزدیک ({0} / {1})</MeditationFocusPerFlame>
   <!-- EN: Psyfocus gain rate: {0}/d -->
-  <PsyfocusPerDayOfMeditation>TODO</PsyfocusPerDayOfMeditation>
+  <PsyfocusPerDayOfMeditation>نرخ کسب پسافوکوس: {0}/روز</PsyfocusPerDayOfMeditation>
   <!-- EN: Desired psyfocus -->
-  <DesiredPsyfocus>TODO</DesiredPsyfocus>
+  <DesiredPsyfocus>پسافوکوس مورد نظر</DesiredPsyfocus>
   <!-- EN: Click to set desired psyfocus. -->
-  <DesiredPsyfocusDesc>TODO</DesiredPsyfocusDesc>
+  <DesiredPsyfocusDesc>برای تنظیم پسافوکوس مورد نظر کلیک کنید.</DesiredPsyfocusDesc>
 
   <!-- EN: no throne assigned. -->
-  <AbilitySpeechDisabledNoThroneAssigned>TODO</AbilitySpeechDisabledNoThroneAssigned>
+  <AbilitySpeechDisabledNoThroneAssigned>تخت سلطنت اختصاص داده نشده است.</AbilitySpeechDisabledNoThroneAssigned>
   <!-- EN: throne is not accessible. -->
-  <AbilitySpeechDisabledNoThroneIsNotAccessible>TODO</AbilitySpeechDisabledNoThroneIsNotAccessible>
+  <AbilitySpeechDisabledNoThroneIsNotAccessible>تخت سلطنت قابل دسترسی نیست.</AbilitySpeechDisabledNoThroneIsNotAccessible>
   <!-- EN: throne not usable because it is undignified. -->
-  <AbilitySpeechDisabledNoThroneUndignified>TODO</AbilitySpeechDisabledNoThroneUndignified>
+  <AbilitySpeechDisabledNoThroneUndignified>تخت سلطنت قابل استفاده نیست زیرا بی‌وقار است.</AbilitySpeechDisabledNoThroneUndignified>
   <!-- EN: already giving a speech. -->
-  <AbilitySpeechDisabledAlreadyGivingSpeech>TODO</AbilitySpeechDisabledAlreadyGivingSpeech>
+  <AbilitySpeechDisabledAlreadyGivingSpeech>در حال حاضر در حال سخنرانی است.</AbilitySpeechDisabledAlreadyGivingSpeech>
   <!-- EN: Outcome chances -->
-  <AbilitySpeechPossibleOutcomes>TODO</AbilitySpeechPossibleOutcomes>
+  <AbilitySpeechPossibleOutcomes>شانس نتایج</AbilitySpeechPossibleOutcomes>
   <!-- EN: {ORGANIZER_labelShort}'s {1} stat -->
-  <AbilitySpeechStatInfo>TODO</AbilitySpeechStatInfo>
+  <AbilitySpeechStatInfo>آمار {1} {ORGANIZER_labelShort}</AbilitySpeechStatInfo>
   <!-- EN: Dignified throne -->
-  <AbilitySpeechTargetDescThrone>TODO</AbilitySpeechTargetDescThrone>
+  <AbilitySpeechTargetDescThrone>تخت سلطنت باوقار</AbilitySpeechTargetDescThrone>
   
   <!-- EN: no accessible altar. -->
-  <RitualDisabledNoAltar>TODO</RitualDisabledNoAltar>
+  <RitualDisabledNoAltar>محراب قابل دسترسی وجود ندارد.</RitualDisabledNoAltar>
   <!-- EN: Bestowing Ceremony -->
-  <RitualBestowingCeremony>TODO</RitualBestowingCeremony>
+  <RitualBestowingCeremony>مراسم اعطا</RitualBestowingCeremony>
 
   <!-- EN: Total meditation today: {0} (progress multiplier {1}) -->
-  <TotalMeditationToday>TODO</TotalMeditationToday>
+  <TotalMeditationToday>کل مدیتیشن امروز: {0} (ضریب پیشرفت {1})</TotalMeditationToday>
   <!-- EN: progress {0} -->
-  <ProgressToNextSubplant>TODO</ProgressToNextSubplant>
+  <ProgressToNextSubplant>پیشرفت {0}</ProgressToNextSubplant>
   <!-- EN: Begin linking ritual -->
-  <BeginLinkingRitualFloatMenu>TODO</BeginLinkingRitualFloatMenu>
+  <BeginLinkingRitualFloatMenu>شروع مراسم پیوند</BeginLinkingRitualFloatMenu>
   <!-- EN: Need {0} {1} here (have {2}) -->
-  <BeginLinkingRitualNeedSubplants>TODO</BeginLinkingRitualNeedSubplants>
+  <BeginLinkingRitualNeedSubplants>نیاز به {0} {1} در اینجا (دارید {2})</BeginLinkingRitualNeedSubplants>
   <!-- EN: Need {0} psylink focus type -->
-  <BeginLinkingRitualNeedFocus>TODO</BeginLinkingRitualNeedFocus>
+  <BeginLinkingRitualNeedFocus>نیاز به نوع تمرکز پسالینک {0}</BeginLinkingRitualNeedFocus>
   <!-- EN: Max psylink level -->
-  <BeginLinkingRitualMaxPsylinkLevel>TODO</BeginLinkingRitualMaxPsylinkLevel>
+  <BeginLinkingRitualMaxPsylinkLevel>حداکثر سطح پسالینک</BeginLinkingRitualMaxPsylinkLevel>
   <!-- EN: Need a free, reachable spot within 3 cells for linking -->
-  <BeginLinkingRitualNeedLinkSpot>TODO</BeginLinkingRitualNeedLinkSpot>
+  <BeginLinkingRitualNeedLinkSpot>نیاز به نقطه آزاد و قابل دسترسی در فاصله ۳ سلول برای پیوند</BeginLinkingRitualNeedLinkSpot>
   <!-- EN: Linking ritual completed -->
-  <LetterLabelLinkingRitualCompleted>TODO</LetterLabelLinkingRitualCompleted>
+  <LetterLabelLinkingRitualCompleted>مراسم پیوند کامل شد</LetterLabelLinkingRitualCompleted>
   <!-- EN: {PAWN_labelShort} has completed the linking ritual with {LINKABLE_labelShort}.\n\n{PAWN_pronoun} now has an upgraded psylink, permitting the use of new psychic powers. -->
-  <LetterTextLinkingRitualCompleted>TODO</LetterTextLinkingRitualCompleted>
+  <LetterTextLinkingRitualCompleted>{PAWN_labelShort} مراسم پیوند با {LINKABLE_labelShort} را به پایان رساند.\n\n{PAWN_pronoun} اکنون یک پسالینک ارتقا یافته دارد که امکان استفاده از قدرت‌های روانی جدید را می‌دهد.</LetterTextLinkingRitualCompleted>
   <!-- EN: Additionally, {0} anima grass has been restored. -->
-  <LetterTextLinkingRitualCompletedAnimaGrass>TODO</LetterTextLinkingRitualCompletedAnimaGrass>
+  <LetterTextLinkingRitualCompletedAnimaGrass>علاوه بر این، {0} چمن آنیما بازسازی شده است.</LetterTextLinkingRitualCompletedAnimaGrass>
 
   <!-- EN: Land shuttle here -->
-  <LandHere>TODO</LandHere>
+  <LandHere>فرود شاتل در اینجا</LandHere>
   <!-- EN: Destination is out of range. -->
-  <MessageShuttleDestinationIsTooFar>TODO</MessageShuttleDestinationIsTooFar>
+  <MessageShuttleDestinationIsTooFar>مقصد خارج از محدوده است.</MessageShuttleDestinationIsTooFar>
 
   <!-- EN: Start bestowing ceremony for {0_labelShort} -->
-  <BeginCeremony>TODO</BeginCeremony>
+  <BeginCeremony>شروع مراسم اعطا برای {0_labelShort}</BeginCeremony>
   <!-- EN: {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. -->
-  <BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>TODO</BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>
+  <BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>اتاق تخت سلطنت {PAWN_definite} الزامات عنوان {TITLE} را برآورده نمی‌کند.</BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>
   <!-- EN: The bestower is offended that {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. The bestowing ceremony has been cancelled. -->
-  <BestowingCeremonyThroneroomRequirementsNotSatisfied>TODO</BestowingCeremonyThroneroomRequirementsNotSatisfied>
+  <BestowingCeremonyThroneroomRequirementsNotSatisfied>اعطا کننده از اینکه اتاق تخت سلطنت {PAWN_definite} الزامات عنوان {TITLE} را برآورده نمی‌کند، رنجیده است. مراسم اعطا لغو شده است.</BestowingCeremonyThroneroomRequirementsNotSatisfied>
   <!-- EN: bestowing ceremony -->
-  <BestowingCeremonyLabel>TODO</BestowingCeremonyLabel>
+  <BestowingCeremonyLabel>مراسم اعطا</BestowingCeremonyLabel>
   <!-- EN: Bestowing ceremony total quality was {0}, determined by these factors -->
-  <BestowingOutcomeQualitySpecific>TODO</BestowingOutcomeQualitySpecific>
+  <BestowingOutcomeQualitySpecific>کیفیت کلی مراسم اعطا {0} بود که توسط این عوامل تعیین شد</BestowingOutcomeQualitySpecific>
   
   <!-- EN: No colonists that can link with anima tree right now. -->
-  <RitualTargetAnimaTreeNoPawnsToLink>TODO</RitualTargetAnimaTreeNoPawnsToLink>
+  <RitualTargetAnimaTreeNoPawnsToLink>در حال حاضر هیچ مستعمره‌نشینی که بتواند با درخت آنیما پیوند برقرار کند وجود ندارد.</RitualTargetAnimaTreeNoPawnsToLink>
   <!-- EN: No colonists with the natural meditation focus type. -->
-  <RitualTargetAnimaTreeNoPawnsWithNatureFocus>TODO</RitualTargetAnimaTreeNoPawnsWithNatureFocus>
+  <RitualTargetAnimaTreeNoPawnsWithNatureFocus>هیچ مستعمره‌نشینی با نوع تمرکز مدیتیشن طبیعی وجود ندارد.</RitualTargetAnimaTreeNoPawnsWithNatureFocus>
   <!-- EN: Need at least {0} anima grass. -->
-  <RitualTargetAnimaTreeNotEnoughAnimaGrass>TODO</RitualTargetAnimaTreeNotEnoughAnimaGrass>
+  <RitualTargetAnimaTreeNotEnoughAnimaGrass>نیاز به حداقل {0} چمن آنیما.</RitualTargetAnimaTreeNotEnoughAnimaGrass>
   <!-- EN: an anima tree -->
-  <RitualTargetAnimaTreeInfo>TODO</RitualTargetAnimaTreeInfo>
+  <RitualTargetAnimaTreeInfo>یک درخت آنیما</RitualTargetAnimaTreeInfo>
   <!-- EN: Must be a colonist with the natural meditation focus type who is below maximum psylink level. -->
-  <RitualTargetAnimaTreeMustBeCapableOfNature>TODO</RitualTargetAnimaTreeMustBeCapableOfNature>
+  <RitualTargetAnimaTreeMustBeCapableOfNature>باید مستعمره‌نشینی با نوع تمرکز مدیتیشن طبیعی باشد که زیر حداکثر سطح پسالینک است.</RitualTargetAnimaTreeMustBeCapableOfNature>
   <!-- EN: Must not be psychically deaf. -->
-  <RitualTargetAnimaTreeMustBePsychicallySensitive>TODO</RitualTargetAnimaTreeMustBePsychicallySensitive>
+  <RitualTargetAnimaTreeMustBePsychicallySensitive>نباید از نظر روانی ناشنوا باشد.</RitualTargetAnimaTreeMustBePsychicallySensitive>
 
   <!-- EN: The anima linking ceremony is more powerful with more participants. The more people participate, the less time the ceremony takes, and the more anima grass will grow.\n\nWith {0} additional participants, {1} anima grass will be restored at the end of the ceremony. -->
-  <AnimaLinkingExplanationBase>TODO</AnimaLinkingExplanationBase>
+  <AnimaLinkingExplanationBase>مراسم پیوند آنیما با شرکت‌کنندگان بیشتر قدرتمندتر است. هرچه افراد بیشتری شرکت کنند، مراسم زمان کمتری می‌برد و چمن آنیما بیشتری رشد خواهد کرد.\n\nبا {0} شرکت‌کننده اضافی، {1} چمن آنیما در پایان مراسم بازسازی خواهد شد.</AnimaLinkingExplanationBase>
   <!-- EN: Not all required cargo is loaded yet! -->
-  <ShuttleRequiredItemsNotSatisfied>TODO</ShuttleRequiredItemsNotSatisfied>
+  <ShuttleRequiredItemsNotSatisfied>تمام محموله مورد نیاز هنوز بارگذاری نشده است!</ShuttleRequiredItemsNotSatisfied>
   <!-- EN: Cannot load {0_labelShort} -->
-  <CannotLoadIntoShuttle>TODO</CannotLoadIntoShuttle>
+  <CannotLoadIntoShuttle>نمی‌توان {0_labelShort} را بارگذاری کرد</CannotLoadIntoShuttle>
 
   <!-- EN: no heat to dump. -->
-  <AbilityNoEntropyToDump>TODO</AbilityNoEntropyToDump>
+  <AbilityNoEntropyToDump>حرارتی برای تخلیه وجود ندارد.</AbilityNoEntropyToDump>
 
   <!-- EN: level {0} -->
-  <LevelNum>TODO</LevelNum> <!-- Psylink level as reported in health tab-->
+  <LevelNum>سطح {0}</LevelNum> <!-- Psylink level as reported in health tab-->
 
 </LanguageData>

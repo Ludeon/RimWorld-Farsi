@@ -2,28 +2,28 @@
 <LanguageData>
 
   <!-- EN: No empty containment destination -->
-  <NoEmptyEntityHolders>No empty containment destination</NoEmptyEntityHolders>
+  <NoEmptyEntityHolders>مقصد مهار خالی وجود ندارد</NoEmptyEntityHolders>
   <!-- EN: choose containment destination -->
-  <ChooseEntityHolder>choose containment destination</ChooseEntityHolder>
+  <ChooseEntityHolder>انتخاب مقصد مهار</ChooseEntityHolder>
   <!-- EN: Containment strength -->
-  <FloatMenuContainmentStrength>Containment strength</FloatMenuContainmentStrength>
+  <FloatMenuContainmentStrength>قدرت مهار</FloatMenuContainmentStrength>
   <!-- EN: {0_label} requires -->
-  <FloatMenuContainmentRequires>{0_label} requires</FloatMenuContainmentRequires>
+  <FloatMenuContainmentRequires>{0_label} نیاز دارد</FloatMenuContainmentRequires>
   <!-- EN: Reserved by -->
-  <EntityHolderReservedBy>Reserved by</EntityHolderReservedBy>
+  <EntityHolderReservedBy>رزرو شده توسط</EntityHolderReservedBy>
 
   <!-- EN: Talk to {0_nameDef} -->
-  <TalkTo>Talk to {0_nameDef}</TalkTo>
+  <TalkTo>صحبت با {0_nameDef}</TalkTo>
   <!-- EN: Cannot talk to {0_nameDef} -->
-  <CannotTalkTo>Cannot talk to {0_nameDef}</CannotTalkTo>
+  <CannotTalkTo>نمی‌توان با {0_nameDef} صحبت کرد</CannotTalkTo>
   <!-- EN: incapable of suppression -->
-  <ZeroSuppressionRate>incapable of suppression</ZeroSuppressionRate>
+  <ZeroSuppressionRate>ناتوان از سرکوب</ZeroSuppressionRate>
   <!-- EN: cannot stand next to -->
-  <CannotStandNear>TODO</CannotStandNear>
+  <CannotStandNear>نمی‌توان کنار ایستاد</CannotStandNear>
 
   <!-- EN: extract from {0} -->
-  <ExtractBioferrite>TODO</ExtractBioferrite>
+  <ExtractBioferrite>استخراج از {0}</ExtractBioferrite>
   <!-- EN: bioferrite regenerating -->
-  <BioferriteAlreadyExtracted>TODO</BioferriteAlreadyExtracted>
+  <BioferriteAlreadyExtracted>بیوفریت در حال بازسازی</BioferriteAlreadyExtracted>
 
 </LanguageData>

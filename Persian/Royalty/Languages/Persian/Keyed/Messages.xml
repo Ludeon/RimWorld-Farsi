@@ -3,47 +3,47 @@
 
   <!-- Shuttle landing zones -->
   <!-- EN: Shuttle could not land on pad: {0} -->
-  <ShuttleBlocked>TODO</ShuttleBlocked>
+  <ShuttleBlocked>شاتل نتوانست روی پد فرود بیاید: {0}</ShuttleBlocked>
   <!-- EN: The shuttle has arrived. -->
-  <MessageShuttleArrived>TODO</MessageShuttleArrived>
+  <MessageShuttleArrived>شاتل رسید.</MessageShuttleArrived>
   <!-- EN: The shuttle arrived, but since there were no colonists inside, the contents were lost. -->
-  <MessageShuttleArrivedContentsLost>TODO</MessageShuttleArrivedContentsLost>
+  <MessageShuttleArrivedContentsLost>شاتل رسید، اما از آنجایی که هیچ مستعمره‌نشینی در داخل نبود، محتویات از دست رفت.</MessageShuttleArrivedContentsLost>
   <!-- EN: Cannot call shuttle -->
-  <CannotCallShuttle>TODO</CannotCallShuttle>
+  <CannotCallShuttle>نمی‌توان شاتل را فراخواند</CannotCallShuttle>
 
   <!-- EN: Cannot land in undiscovered area. -->
-  <ShuttleCannotLand_Fogged>TODO</ShuttleCannotLand_Fogged>
+  <ShuttleCannotLand_Fogged>نمی‌توان در منطقه کشف نشده فرود آمد.</ShuttleCannotLand_Fogged>
   <!-- EN: Area must be walkable. -->
-  <ShuttleCannotLand_Unwalkable>TODO</ShuttleCannotLand_Unwalkable>
+  <ShuttleCannotLand_Unwalkable>منطقه باید قابل راه رفتن باشد.</ShuttleCannotLand_Unwalkable>
 
   <!-- EN: Select {BESTOWER_definite} and click 'Begin bestowing ceremony' to commence the ceremony. -->
-  <MessageBestowerWaiting>TODO</MessageBestowerWaiting>
+  <MessageBestowerWaiting>{BESTOWER_definite} را انتخاب کرده و روی 'شروع مراسم اعطا' کلیک کنید تا مراسم آغاز شود.</MessageBestowerWaiting>
   <!-- EN: Cannot reach bestower! -->
-  <MessageBestowerUnreachable>TODO</MessageBestowerUnreachable>
+  <MessageBestowerUnreachable>نمی‌توان به اعطا کننده رسید!</MessageBestowerUnreachable>
   <!-- EN: {0} is busy. -->
-  <MessageBestowingTargetIsBusy>TODO</MessageBestowingTargetIsBusy>
+  <MessageBestowingTargetIsBusy>{0} مشغول است.</MessageBestowingTargetIsBusy>
   <!-- EN: The bestower is annoyed with the interference and has decided to leave. -->
-  <MessageBestowingSpotUnreachable>TODO</MessageBestowingSpotUnreachable>
+  <MessageBestowingSpotUnreachable>اعطا کننده از تداخل ناراحت شده و تصمیم به رفتن گرفته است.</MessageBestowingSpotUnreachable>
   <!-- EN: The bestower is leaving due to life-threatening danger. -->
-  <MessageBestowingDanger>TODO</MessageBestowingDanger>
+  <MessageBestowingDanger>اعطا کننده به دلیل خطر تهدید کننده زندگی در حال رفتن است.</MessageBestowingDanger>
   <!-- EN: The bestower is leaving due to life-threatening temperature. -->
-  <MessageBestowingDangerTemperature>TODO</MessageBestowingDangerTemperature>
+  <MessageBestowingDangerTemperature>اعطا کننده به دلیل دمای تهدید کننده زندگی در حال رفتن است.</MessageBestowingDangerTemperature>
   <!-- EN: The bestower is leaving due to dangerous gases in the area. -->
-  <MessageBestowingDangerGas>TODO</MessageBestowingDangerGas>
+  <MessageBestowingDangerGas>اعطا کننده به دلیل گازهای خطرناک در منطقه در حال رفتن است.</MessageBestowingDangerGas>
   <!-- EN: The bestowing ceremony has been interrupted. -->
-  <MessageBestowingInterrupted>TODO</MessageBestowingInterrupted>
+  <MessageBestowingInterrupted>مراسم اعطا قطع شده است.</MessageBestowingInterrupted>
 
   <!-- EN: {PAWN_definite}'s bestowing ceremony has begun. -->
-  <MessageBestowingCeremonyStarted>TODO</MessageBestowingCeremonyStarted>
+  <MessageBestowingCeremonyStarted>مراسم اعطا {PAWN_definite} آغاز شده است.</MessageBestowingCeremonyStarted>
   <!-- EN: You defeated the {FACTION_pawnsPlural}! Get back on the shuttle to launch it. -->
-  <MessageMissionGetBackToShuttle>TODO</MessageMissionGetBackToShuttle>
+  <MessageMissionGetBackToShuttle>شما {FACTION_pawnsPlural} را شکست دادید! به شاتل برگردید تا آن را پرتاب کنید.</MessageMissionGetBackToShuttle>
 
   <!-- EN: {FACTION_name} has dropped resources nearby. -->
-  <MessagePermitTransportDrop>TODO</MessagePermitTransportDrop>
+  <MessagePermitTransportDrop>{FACTION_name} منابعی را در نزدیکی رها کرده است.</MessagePermitTransportDrop>
   <!-- EN: {FACTION_name} has sent resources to {PAWN_nameDef}'s caravan. -->
-  <MessagePermitTransportDropCaravan>TODO</MessagePermitTransportDropCaravan>
+  <MessagePermitTransportDropCaravan>{FACTION_name} منابعی را به کاروان {PAWN_nameDef} ارسال کرده است.</MessagePermitTransportDropCaravan>
 
   <!-- EN: No orbiting mechanoids found. -->
-  <MessageNoFactionForVerbMechCluster>TODO</MessageNoFactionForVerbMechCluster>
+  <MessageNoFactionForVerbMechCluster>هیچ مکانوئید در مدار یافت نشد.</MessageNoFactionForVerbMechCluster>
 
 </LanguageData>

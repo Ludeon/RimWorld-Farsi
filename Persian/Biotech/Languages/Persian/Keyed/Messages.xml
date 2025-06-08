@@ -1,166 +1,166 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
   <!-- EN: {PAWN_labelShort}'s pregnancy progressed from 1st to 2nd trimester. -->
-  <MessageColonistReaching2ndTrimesterPregnancy>TODO</MessageColonistReaching2ndTrimesterPregnancy>
+  <MessageColonistReaching2ndTrimesterPregnancy>بارداری {PAWN_labelShort} از سه ماهه اول به سه ماهه دوم پیشرفت کرد.</MessageColonistReaching2ndTrimesterPregnancy>
   <!-- EN: {PAWN_labelShort}'s pregnancy progressed from 2nd to 3rd trimester. -->
-  <MessageColonistReaching3rdTrimesterPregnancy>TODO</MessageColonistReaching3rdTrimesterPregnancy>
+  <MessageColonistReaching3rdTrimesterPregnancy>بارداری {PAWN_labelShort} از سه ماهه دوم به سه ماهه سوم پیشرفت کرد.</MessageColonistReaching3rdTrimesterPregnancy>
   <!-- EN: {PAWN_labelShort}'s labor has begun the final stages. -->
-  <MessageColonistInFinalStagesOfLabor>TODO</MessageColonistInFinalStagesOfLabor>
+  <MessageColonistInFinalStagesOfLabor>زایمان {PAWN_labelShort} وارد مراحل نهایی شده است.</MessageColonistInFinalStagesOfLabor>
 
   <!-- EN: A mech charger was destroyed while {PAWN_nameDef} was charging! The power disruption has scrambled its brain, and it is going berserk. -->
-  <MessageMechChargerDestroyedMechGoesBerserk>TODO</MessageMechChargerDestroyedMechGoesBerserk>
+  <MessageMechChargerDestroyedMechGoesBerserk>یک شارژر مکانیوید در حالی که {PAWN_nameDef} در حال شارژ بود، نابود شد! اختلال برق مغز آن را مختل کرده و وحشی شده است.</MessageMechChargerDestroyedMechGoesBerserk>
 
   <!-- EN: Cannot use {ABILITY_label} on anyone who would actively resist. -->
-  <MessageCantUseOnResistingPerson>TODO</MessageCantUseOnResistingPerson>
+  <MessageCantUseOnResistingPerson>نمی‌توان از {ABILITY_label} روی کسی که فعالانه مقاومت می‌کند استفاده کرد.</MessageCantUseOnResistingPerson>
   <!-- EN: {0_labelShort} already has the {0_xenotype} xenotype. -->
-  <MessageCannotUseOnSameXenotype>TODO</MessageCannotUseOnSameXenotype>
+  <MessageCannotUseOnSameXenotype>{0_labelShort} قبلاً زنوتایپ {0_xenotype} را دارد.</MessageCannotUseOnSameXenotype>
   <!-- EN: {0_labelShort} has no available xenogenes to implant. -->
-  <MessagePawnHasNoXenogenes>TODO</MessagePawnHasNoXenogenes>
+  <MessagePawnHasNoXenogenes>{0_labelShort} هیچ ژن بیگانه قابل کاشتی ندارد.</MessagePawnHasNoXenogenes>
   <!-- EN: Xenogerms can only be implanted into colonists, prisoners, and slaves. -->
-  <MessageCanOnlyTargetColonistsPrisonersAndSlaves>TODO</MessageCanOnlyTargetColonistsPrisonersAndSlaves>
+  <MessageCanOnlyTargetColonistsPrisonersAndSlaves>ژن‌های بیگانه فقط می‌توانند در مستعمره‌نشینان، زندانیان و بردگان کاشته شوند.</MessageCanOnlyTargetColonistsPrisonersAndSlaves>
   <!-- EN: Cannot implant in temporary faction members. -->
-  <MessageCannotImplantInTempFactionMembers>TODO</MessageCannotImplantInTempFactionMembers>
+  <MessageCannotImplantInTempFactionMembers>نمی‌توان در اعضای موقت جناح کاشت کرد.</MessageCannotImplantInTempFactionMembers>
   <!-- EN: A xenogerm has been completed. -->
-  <MessageXenogermCompleted>TODO</MessageXenogermCompleted>
+  <MessageXenogermCompleted>یک ژن بیگانه تکمیل شده است.</MessageXenogermCompleted>
   <!-- EN: Work on the xenogerm at {0_labelShort} was cancelled: Missing required genepack. -->
-  <MessageXenogermCancelledMissingPack>TODO</MessageXenogermCancelledMissingPack>
+  <MessageXenogermCancelledMissingPack>کار روی ژن بیگانه در {0_labelShort} لغو شد: بسته ژنی مورد نیاز گم شده است.</MessageXenogermCancelledMissingPack>
   <!-- EN: Absorbing {PAWN_nameDef}'s xenogerm will anger {0}. -->
-  <MessageAbsorbingXenogermWillAngerFaction>TODO</MessageAbsorbingXenogermWillAngerFaction>
+  <MessageAbsorbingXenogermWillAngerFaction>جذب ژن بیگانه {PAWN_nameDef}، {0} را عصبانی خواهد کرد.</MessageAbsorbingXenogermWillAngerFaction>
   <!-- EN: {ABILITY_label} can only be used on colonists, prisoners, and slaves. -->
-  <MessageCannotUseOnOtherFactions>TODO</MessageCannotUseOnOtherFactions>
+  <MessageCannotUseOnOtherFactions>{ABILITY_label} فقط می‌تواند روی مستعمره‌نشینان، زندانیان و بردگان استفاده شود.</MessageCannotUseOnOtherFactions>
   <!-- EN: {0_labelShort} refuses to become a disliked xenotype. -->
-  <MessageCannotBecomeNonPreferredXenotype>TODO</MessageCannotBecomeNonPreferredXenotype>
+  <MessageCannotBecomeNonPreferredXenotype>{0_labelShort} از تبدیل شدن به یک زنوتایپ ناپسند خودداری می‌کند.</MessageCannotBecomeNonPreferredXenotype>
 
   <!-- EN: Auto-adding {MECH_nameDef} to the caravan, since it is escorting {OVERSEER_nameDef} -->
-  <MessageCaravanAddingEscortingMech>TODO</MessageCaravanAddingEscortingMech> 
+  <MessageCaravanAddingEscortingMech>در حال افزودن خودکار {MECH_nameDef} به کاروان، زیرا در حال اسکورت {OVERSEER_nameDef} است</MessageCaravanAddingEscortingMech>
   <!-- EN: Auto-removing {MECH_nameDef} from the caravan, since it is escorting {OVERSEER_nameDef} -->
-  <MessageCaravanRemovingEscortingMech>TODO</MessageCaravanRemovingEscortingMech>
+  <MessageCaravanRemovingEscortingMech>در حال حذف خودکار {MECH_nameDef} از کاروان، زیرا در حال اسکورت {OVERSEER_nameDef} است</MessageCaravanRemovingEscortingMech>
 
   <!-- EN: {0} was a mechanitor. You can remove {0_possessive} {1_label} and use it on a colonist. -->
-  <MessageMechanitorCasketOpened>TODO</MessageMechanitorCasketOpened>
-  
+  <MessageMechanitorCasketOpened>{0} یک مکانیتور بود. می‌توانید {0_possessive} {1_label} را بردارید و روی یک مستعمره‌نشین استفاده کنید.</MessageMechanitorCasketOpened>
+
   <!-- EN: Some prisoners' interaction mode required a bloodfeeder. Since the last bloodfeeder is gone, their interaction modes have reset to "No interaction". -->
-  <MessageNoBloodfeedersPrisonerInteractionReset>TODO</MessageNoBloodfeedersPrisonerInteractionReset>
+  <MessageNoBloodfeedersPrisonerInteractionReset>حالت تعامل برخی زندانیان به یک خون‌خوار نیاز داشت. از آنجایی که آخرین خون‌خوار رفته است، حالت‌های تعامل آن‌ها به "بدون تعامل" بازنشانی شده است.</MessageNoBloodfeedersPrisonerInteractionReset>
 
   <!-- EN: {PAWN_nameDef}'s pregnancy was successfully terminated. -->
-  <MessagePregnancyTerminated>TODO</MessagePregnancyTerminated>
-  
+  <MessagePregnancyTerminated>بارداری {PAWN_nameDef} با موفقیت خاتمه یافت.</MessagePregnancyTerminated>
+
   <!-- Pollution -->
   <!-- EN: {0} has been angered ({1}) -->
-  <MessageAngeredPollutedCell>TODO</MessageAngeredPollutedCell>
+  <MessageAngeredPollutedCell>{0} عصبانی شده است ({1})</MessageAngeredPollutedCell>
   <!-- EN: Need unpolluted terrain. -->
-  <MessageWarningPollutedCell>TODO</MessageWarningPollutedCell>
+  <MessageWarningPollutedCell>نیاز به زمین غیرآلوده.</MessageWarningPollutedCell>
   <!-- EN: Need polluted terrain. -->
-  <MessageWarningNotPollutedCell>TODO</MessageWarningNotPollutedCell>
+  <MessageWarningNotPollutedCell>نیاز به زمین آلوده.</MessageWarningNotPollutedCell>
   <!-- EN: {0} has died because of pollution. -->
-  <MessagePlantDiedOfPollution>TODO</MessagePlantDiedOfPollution>
+  <MessagePlantDiedOfPollution>{0} به دلیل آلودگی مرده است.</MessagePlantDiedOfPollution>
   <!-- EN: {0} has died because of a lack of pollution. -->
-  <MessagePlantDiedOfNoPollution>TODO</MessagePlantDiedOfNoPollution>
+  <MessagePlantDiedOfNoPollution>{0} به دلیل کمبود آلودگی مرده است.</MessagePlantDiedOfNoPollution>
   <!-- EN: Pollution has increased by {0} at {1}. -->
-  <MessageWorldTilePollutionChanged>TODO</MessageWorldTilePollutionChanged>
+  <MessageWorldTilePollutionChanged>آلودگی در {1} به میزان {0} افزایش یافته است.</MessageWorldTilePollutionChanged>
   <!-- EN: A cocoon has been disturbed and is opening! -->
-  <MessageCocoonDisturbed>TODO</MessageCocoonDisturbed>
+  <MessageCocoonDisturbed>یک پیله مزاحم شده و در حال باز شدن است!</MessageCocoonDisturbed>
   <!-- EN: Cocoons have been disturbed and are opening! -->
-  <MessageCocoonDisturbedPlural>TODO</MessageCocoonDisturbedPlural>
+  <MessageCocoonDisturbedPlural>پیله‌ها مزاحم شده و در حال باز شدن هستند!</MessageCocoonDisturbedPlural>
   <!-- EN: {0} has rotted due to polluted terrain. -->
-  <MessagePlantDiedOfRot_PollutedTerrain>TODO</MessagePlantDiedOfRot_PollutedTerrain>
+  <MessagePlantDiedOfRot_PollutedTerrain>{0} به دلیل زمین آلوده پوسیده است.</MessagePlantDiedOfRot_PollutedTerrain>
 
   <!-- EN: {PAWN_nameDef} must be downed before you can force {PAWN_objective} to reimplant {PAWN_possessive} xenogerm. -->
-  <MessageTargetMustBeDownedToForceReimplant>TODO</MessageTargetMustBeDownedToForceReimplant>
+  <MessageTargetMustBeDownedToForceReimplant>{PAWN_nameDef} باید افتاده باشد تا بتوانید {PAWN_objective} را مجبور به کاشت مجدد ژن بیگانه {PAWN_possessive} کنید.</MessageTargetMustBeDownedToForceReimplant>
 
   <!-- EN: {0_nameDef} is only {1} years old. {2} work can only be done from age {3}. -->
-  <MessageWorkTypeDisabledAge>TODO</MessageWorkTypeDisabledAge>
+  <MessageWorkTypeDisabledAge>{0_nameDef} فقط {1} سال دارد. کار {2} فقط از سن {3} قابل انجام است.</MessageWorkTypeDisabledAge>
 
   <!-- EN: {PAWN_nameDef} can now wake from deathrest safely. -->
-  <MessageDeathrestingPawnCanWakeSafely>TODO</MessageDeathrestingPawnCanWakeSafely>
+  <MessageDeathrestingPawnCanWakeSafely>{PAWN_nameDef} اکنون می‌تواند با خیال راحت از استراحت مرگ بیدار شود.</MessageDeathrestingPawnCanWakeSafely>
 
   <!-- EN: {0_nameDef} has lost control of a {1_kindBase} mech -->
-  <MessageMechanitorLostControlOfMech>TODO</MessageMechanitorLostControlOfMech>
+  <MessageMechanitorLostControlOfMech>{0_nameDef} کنترل یک مکانیوید {1_kindBase} را از دست داده است</MessageMechanitorLostControlOfMech>
   <!-- EN: {0_nameDef} has disconnected from {1_nameDef} mech. -->
-  <MessageMechanitorDisconnectedFromMech>TODO</MessageMechanitorDisconnectedFromMech>
+  <MessageMechanitorDisconnectedFromMech>{0_nameDef} از مکانیوید {1_nameDef} قطع شده است.</MessageMechanitorDisconnectedFromMech>
 
   <!-- Xenogerm -->
   <!-- EN: The total metabolism of the selected genes must be {MIN} or higher to continue, but currently it is only {AMOUNT}. -->
-  <MetabolismTooLowToCreateXenogerm>TODO</MetabolismTooLowToCreateXenogerm>
+  <MetabolismTooLowToCreateXenogerm>متابولیسم کل ژن‌های انتخاب شده برای ادامه باید {MIN} یا بیشتر باشد، اما در حال حاضر فقط {AMOUNT} است.</MetabolismTooLowToCreateXenogerm>
   <!-- EN: The total complexity of the selected genes must be {MAX} or less to create a xenogerm, but currently it is {AMOUNT}. -->
-  <ComplexityTooHighToCreateXenogerm>TODO</ComplexityTooHighToCreateXenogerm>
+  <ComplexityTooHighToCreateXenogerm>پیچیدگی کل ژن‌های انتخاب شده برای ایجاد یک ژن بیگانه باید {MAX} یا کمتر باشد، اما در حال حاضر {AMOUNT} است.</ComplexityTooHighToCreateXenogerm>
   <!-- EN: Cannot create a xenogerm with no genes. -->
-  <MessageNoSelectedGenepacks>TODO</MessageNoSelectedGenepacks>
+  <MessageNoSelectedGenepacks>نمی‌توان ژن بیگانه بدون ژن ایجاد کرد.</MessageNoSelectedGenepacks>
   <!-- EN: Cannot create a xenotype with no genes. -->
-  <MessageNoSelectedGenes>TODO</MessageNoSelectedGenes>
+  <MessageNoSelectedGenes>نمی‌توان زنوتایپ بدون ژن ایجاد کرد.</MessageNoSelectedGenes>
   <!-- EN: {0_label} can only store {1} genepacks. -->
-  <CanOnlyStoreNumGenepacks>TODO</CanOnlyStoreNumGenepacks>
+  <CanOnlyStoreNumGenepacks>{0_label} فقط می‌تواند {1} بسته ژنی را ذخیره کند.</CanOnlyStoreNumGenepacks>
   <!-- EN: Xenotype name cannot be empty. -->
-  <XenotypeNameCannotBeEmpty>TODO</XenotypeNameCannotBeEmpty>
+  <XenotypeNameCannotBeEmpty>نام زنوتایپ نمی‌تواند خالی باشد.</XenotypeNameCannotBeEmpty>
   <!-- EN: {0} lacks a prerequisite gene -->
-  <MessageGeneMissingPrerequisite>TODO</MessageGeneMissingPrerequisite>
+  <MessageGeneMissingPrerequisite>{0} فاقد ژن پیش‌نیاز است</MessageGeneMissingPrerequisite>
 
   <!-- EN: {PAWN_nameDef}'s deathrest capacity has increased from {OLD} to {NEW}. -->
-  <MessageDeathrestCapacityChanged>TODO</MessageDeathrestCapacityChanged>
+  <MessageDeathrestCapacityChanged>ظرفیت استراحت مرگ {PAWN_nameDef} از {OLD} به {NEW} افزایش یافته است.</MessageDeathrestCapacityChanged>
 
   <!-- EN: The sanguophages will arrive in a few hours for their meeting. -->
-  <SanguophagesArrivingSoon>TODO</SanguophagesArrivingSoon>
+  <SanguophagesArrivingSoon>خون‌خواران تا چند ساعت دیگر برای ملاقات خود می‌رسند.</SanguophagesArrivingSoon>
   <!-- EN: The sanguophages have begun their meeting. -->
-  <SanguophagesBegunMeeting>TODO</SanguophagesBegunMeeting>
+  <SanguophagesBegunMeeting>خون‌خواران ملاقات خود را آغاز کرده‌اند.</SanguophagesBegunMeeting>
   <!-- EN: The sanguophages are leaving due to life-threatening temperature. -->
-  <SanguophagesLeavingTemperature>TODO</SanguophagesLeavingTemperature>
+  <SanguophagesLeavingTemperature>خون‌خواران به دلیل دمای تهدیدکننده زندگی در حال ترک هستند.</SanguophagesLeavingTemperature>
 
   <!-- EN: {PAWN_nameDef} was woken from {PAWN_possessive} deathrest due to sunlight exposure. -->
-  <MessagePawnWokenFromSunlight>TODO</MessagePawnWokenFromSunlight>
+  <MessagePawnWokenFromSunlight>{PAWN_nameDef} به دلیل قرار گرفتن در معرض نور خورشید از استراحت مرگ {PAWN_possessive} بیدار شد.</MessagePawnWokenFromSunlight>
   <!-- EN: The {BED_labelShort} {PAWN_nameDef} is assigned to use for deathrest has been exposed to sunlight. {PAWN_nameDef} cannot deathrest there. -->
-  <MessageBedExposedToSunlight>TODO</MessageBedExposedToSunlight>
+  <MessageBedExposedToSunlight>تخت {BED_labelShort} که {PAWN_nameDef} برای استراحت مرگ به آن اختصاص داده شده، در معرض نور خورشید قرار گرفته است. {PAWN_nameDef} نمی‌تواند در آنجا استراحت مرگ داشته باشد.</MessageBedExposedToSunlight>
 
   <!-- EN: {PAWN_labelShort} was ejected from a gene extractor due to lack of power. -->
-  <GeneExtractorNoPowerEjectedMessage>TODO</GeneExtractorNoPowerEjectedMessage>
+  <GeneExtractorNoPowerEjectedMessage>{PAWN_labelShort} به دلیل کمبود برق از استخراج‌کننده ژن خارج شد.</GeneExtractorNoPowerEjectedMessage>
 
   <!-- Mechanitor -->
   <!-- EN: {PAWN_nameDef}'s brain has been destroyed by the subcore ripscanner. -->
-  <MessagePawnKilledRipscanner>TODO</MessagePawnKilledRipscanner>
+  <MessagePawnKilledRipscanner>مغز {PAWN_nameDef} توسط زیرهسته ریپ‌اسکنر نابود شده است.</MessagePawnKilledRipscanner>
   <!-- EN: Subcore softscanner completed for {PAWN_nameDef}. -->
-  <MessageSubcoreSoftscannerCompleted>TODO</MessageSubcoreSoftscannerCompleted>
+  <MessageSubcoreSoftscannerCompleted>زیرهسته سافت‌اسکنر برای {PAWN_nameDef} تکمیل شد.</MessageSubcoreSoftscannerCompleted>
 
   <!-- EN: Cannot resurrect dessicated corpses. -->
-  <MessageCannotResurrectDessicatedCorpse>TODO</MessageCannotResurrectDessicatedCorpse>
+  <MessageCannotResurrectDessicatedCorpse>نمی‌توان اجساد خشک شده را احیا کرد.</MessageCannotResurrectDessicatedCorpse>
 
   <!-- EN: {0} is about to explode! -->
-  <MessageAboutToExplode>TODO</MessageAboutToExplode>
+  <MessageAboutToExplode>{0} در شرف انفجار است!</MessageAboutToExplode>
 
   <!-- Childcare -->
   <!-- EN: {FEEDER_labelShort} cannot perform childcare tasks. -->
-  <MessageChildcareDisabled>TODO</MessageChildcareDisabled>
+  <MessageChildcareDisabled>{FEEDER_labelShort} نمی‌تواند وظایف مراقبت از کودک را انجام دهد.</MessageChildcareDisabled>
   <!-- EN: {FEEDER_labelShort} is not assigned to do childcare tasks. -->
-  <MessageChildcareNotAssigned>TODO</MessageChildcareNotAssigned>
+  <MessageChildcareNotAssigned>{FEEDER_labelShort} برای انجام وظایف مراقبت از کودک اختصاص داده نشده است.</MessageChildcareNotAssigned>
 
   <!-- EN: You already have the maximum number of custom xenotypes. You must delete some if you wish to create more. -->
-  <MessageTooManyCustomXenotypes>TODO</MessageTooManyCustomXenotypes>
+  <MessageTooManyCustomXenotypes>شما قبلاً حداکثر تعداد زنوتایپ‌های سفارشی را دارید. اگر می‌خواهید بیشتر ایجاد کنید، باید برخی را حذف کنید.</MessageTooManyCustomXenotypes>
   <!-- EN: Cannot save xenotype with multiple conflicting genes. -->
-  <MessageConflictingGenesPresent>TODO</MessageConflictingGenesPresent>
+  <MessageConflictingGenesPresent>نمی‌توان زنوتایپ با چندین ژن متضاد را ذخیره کرد.</MessageConflictingGenesPresent>
 
   <!-- EN: {BUILDING_labelShort} has been bound to {PAWN_nameDef} ({CUR}/{MAX} deathrest capacity). -->
-  <MessageDeathrestBuildingBound>TODO</MessageDeathrestBuildingBound>
+  <MessageDeathrestBuildingBound>{BUILDING_labelShort} به {PAWN_nameDef} متصل شده است ({CUR}/{MAX} ظرفیت استراحت مرگ).</MessageDeathrestBuildingBound>
 
   <!-- EN: Developmental stage selection disabled by scenario. -->
-  <MessageDevelopmentalStageSelectionDisabledByScenario>TODO</MessageDevelopmentalStageSelectionDisabledByScenario>
+  <MessageDevelopmentalStageSelectionDisabledByScenario>انتخاب مرحله رشد توسط سناریو غیرفعال شده است.</MessageDevelopmentalStageSelectionDisabledByScenario>
 
   <!-- EN: {PAWN_nameDef} did not have enough blood to produce a hemogen pack.  -->
-  <MessagePawnHadNotEnoughBloodToProduceHemogenPack>TODO</MessagePawnHadNotEnoughBloodToProduceHemogenPack>
+  <MessagePawnHadNotEnoughBloodToProduceHemogenPack>{PAWN_nameDef} خون کافی برای تولید بسته هموژن نداشت.</MessagePawnHadNotEnoughBloodToProduceHemogenPack>
   <!-- EN: {PAWN_nameDef} doesn't have enough blood to produce a hemogen pack. -->
-  <MessageCannotStartHemogenExtraction>TODO</MessageCannotStartHemogenExtraction>
+  <MessageCannotStartHemogenExtraction>{PAWN_nameDef} خون کافی برای تولید بسته هموژن ندارد.</MessageCannotStartHemogenExtraction>
 
   <!-- EN: You must choose how {PAWN_nameDef} will grow now. -->
-  <MessageCannotPostponeGrowthMoment>TODO</MessageCannotPostponeGrowthMoment>
+  <MessageCannotPostponeGrowthMoment>اکنون باید انتخاب کنید که {PAWN_nameDef} چگونه رشد خواهد کرد.</MessageCannotPostponeGrowthMoment>
 
   <!-- EN: Warning: {0_labelShort} is carrying a baby while drafted. -->
-  <MessageDraftedPawnCarryingBaby>TODO</MessageDraftedPawnCarryingBaby>
+  <MessageDraftedPawnCarryingBaby>هشدار: {0_labelShort} در حالی که سرباز شده است، نوزادی را حمل می‌کند.</MessageDraftedPawnCarryingBaby>
   <!-- EN: {ADULT_nameDef} is moving {BABY_nameDef} somewhere with a safer temperature. -->
-  <MessageTakingBabyToSafeTemperature>TODO</MessageTakingBabyToSafeTemperature>
+  <MessageTakingBabyToSafeTemperature>{ADULT_nameDef} در حال انتقال {BABY_nameDef} به مکانی با دمای امن‌تر است.</MessageTakingBabyToSafeTemperature>
 
   <!-- EN: Pregnancy failed between {MOTHER_nameDef} and {FATHER_nameDef} -->
-  <MessagePregnancyFailed>TODO</MessagePregnancyFailed>
+  <MessagePregnancyFailed>بارداری بین {MOTHER_nameDef} و {FATHER_nameDef} ناموفق بود</MessagePregnancyFailed>
   <!-- EN: {PAWN_nameDef} failed to fertilize ovum -->
-  <MessageFerilizeFailed>TODO</MessageFerilizeFailed>
+  <MessageFerilizeFailed>{PAWN_nameDef} در لقاح تخمک ناموفق بود</MessageFerilizeFailed>
   <!-- EN: Combined genes exceeded metabolism limits. -->
-  <CombinedGenesExceedMetabolismLimits>TODO</CombinedGenesExceedMetabolismLimits>
+  <CombinedGenesExceedMetabolismLimits>ژن‌های ترکیب شده از محدودیت‌های متابولیسم فراتر رفتند.</CombinedGenesExceedMetabolismLimits>
 
 </LanguageData>

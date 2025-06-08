@@ -3,90 +3,90 @@
 
   <!-- Entities -->
   <!-- EN: {0_definite}'s activity is rising due to taking damage. -->
-  <MessageActivityRisingDamage>{0_definite}'s activity is rising due to taking damage.</MessageActivityRisingDamage>
+  <MessageActivityRisingDamage>فعالیت {0_definite} به دلیل آسیب دیدن در حال افزایش است.</MessageActivityRisingDamage>
   <!-- EN: {0_definite} has died on a holding platform. -->
-  <EntityDiedOnHoldingPlatform>{0_definite} has died on a holding platform.</EntityDiedOnHoldingPlatform>
+  <EntityDiedOnHoldingPlatform>{0_definite} روی سکوی نگهداری مرده است.</EntityDiedOnHoldingPlatform>
   <!-- EN: New entity discovered -->
-  <MessageEntityDiscovered>New entity discovered</MessageEntityDiscovered>
+  <MessageEntityDiscovered>موجود جدید کشف شد</MessageEntityDiscovered>
 
   <!-- Hate chanters -->
   <!-- EN: The cultists are in a trance and don't respond when attacked. -->
-  <MessageHateChantersAbsorbed>The cultists are in a trance and don't respond when attacked.</MessageHateChantersAbsorbed>
+  <MessageHateChantersAbsorbed>فرقه‌گرایان در خلسه هستند و هنگام حمله پاسخ نمی‌دهند.</MessageHateChantersAbsorbed>
   <!-- EN: The hate chanting has increased in volume. -->
-  <MessageHateChantIncreased>The hate chanting has increased in volume.</MessageHateChantIncreased>
+  <MessageHateChantIncreased>صدای شعار نفرت افزایش یافته است.</MessageHateChantIncreased>
 
   <!-- Self-resurrection -->
   <!-- EN: {0_nameDef} can self-resurrect on command using death refusal. -->
-  <SelfResurrectText>{0_nameDef} can self-resurrect on command using death refusal.</SelfResurrectText>
+  <SelfResurrectText>{0_nameDef} می‌تواند با استفاده از رد مرگ، به دستور خود را احیا کند.</SelfResurrectText>
   <!-- EN: {0_nameDef} is using death refusal to self-resurrect. -->
-  <MessageUsingSelfResurrection>{0_nameDef} is using death refusal to self-resurrect.</MessageUsingSelfResurrection>
+  <MessageUsingSelfResurrection>{0_nameDef} در حال استفاده از رد مرگ برای خود احیایی است.</MessageUsingSelfResurrection>
 
   <!-- Pit Gate -->
   <!-- EN: The pit gate has collapsed. -->
-  <MessagePitGateCollapsed>The pit gate has collapsed.</MessagePitGateCollapsed>
+  <MessagePitGateCollapsed>دروازه گودال فرو ریخته است.</MessagePitGateCollapsed>
   <!-- EN: A pit burrow has collapsed. -->
-  <MessagePitBurrowCollapsed>A pit burrow has collapsed.</MessagePitBurrowCollapsed>
+  <MessagePitBurrowCollapsed>یک گودال فرو ریخته است.</MessagePitBurrowCollapsed>
 
   <!-- Fleshsack -->
   <!-- EN: The flesh sack contained something -->
-  <FleshmassContainedMessage>The flesh sack contained something</FleshmassContainedMessage>
+  <FleshmassContainedMessage>کیسه گوشت حاوی چیزی بود</FleshmassContainedMessage>
 
   <!-- Psychic rituals -->
   <!-- EN: {0_pawnsPluralDef} are attacking! -->
-  <MessagePsychicRitualAssault>{0_pawnsPluralDef} are attacking!</MessagePsychicRitualAssault>
+  <MessagePsychicRitualAssault>{0_pawnsPluralDef} در حال حمله هستند!</MessagePsychicRitualAssault>
   <!-- EN: {FACTION_pawnsPluralDef} are beginning the psychic ritual -->
-  <MessageAIPsychicRitualBegan>{FACTION_pawnsPluralDef} are beginning the psychic ritual</MessageAIPsychicRitualBegan>
-  
+  <MessageAIPsychicRitualBegan>{FACTION_pawnsPluralDef} در حال شروع مراسم روانی هستند</MessageAIPPsychicRitualBegan>
+
   <!-- Biomutation lance -->
   <!-- EN: Cannot target: {0_nameDef} is not an animal or human. -->
-  <MessageBiomutationLanceInvalidTargetRace>Cannot target: {0_nameDef} is not an animal or human.</MessageBiomutationLanceInvalidTargetRace>
+  <MessageBiomutationLanceInvalidTargetRace>نمی‌توان هدف قرار داد: {0_nameDef} حیوان یا انسان نیست.</MessageBiomutationLanceInvalidTargetRace>
   <!-- EN: Cannot target: {0_nameDef} is too large. -->
-  <MessageBiomutationLanceTargetTooBig>Cannot target: {0_nameDef} is too large.</MessageBiomutationLanceTargetTooBig>
+  <MessageBiomutationLanceTargetTooBig>نمی‌توان هدف قرار داد: {0_nameDef} خیلی بزرگ است.</MessageBiomutationLanceTargetTooBig>
 
   <!-- Containment -->
   <!-- EN: Warning: No rooms have the minimum containment strength for {0}. It may escape soon. -->
-  <MessageNoRoomWithMinimumContainmentStrength>Warning: No rooms have the minimum containment strength for {0}. It will escape soon.</MessageNoRoomWithMinimumContainmentStrength>
+  <MessageNoRoomWithMinimumContainmentStrength>هشدار: هیچ اتاقی حداقل قدرت مهار برای {0} را ندارد. ممکن است به زودی فرار کند.</MessageNoRoomWithMinimumContainmentStrength>
   <!-- EN: Warning: {0} is below minimum containment strength for {1}. It may escape soon. -->
-  <MessageTargetBelowMinimumContainmentStrength>Warning: {0} is below minimum containment strength for {1}. It will escape soon.</MessageTargetBelowMinimumContainmentStrength>
+  <MessageTargetBelowMinimumContainmentStrength>هشدار: {0} زیر حداقل قدرت مهار برای {1} است. ممکن است به زودی فرار کند.</MessageTargetBelowMinimumContainmentStrength>
   <!-- EN: Can't transfer to {0} reserved by someone else. -->
-  <MessageHolderReserved>Can't transfer to {0} reserved by someone else.</MessageHolderReserved>
+  <MessageHolderReserved>نمی‌توان به {0} که توسط شخص دیگری رزرو شده منتقل کرد.</MessageHolderReserved>
   <!-- EN: {EXECUTIONER_labelShort} has executed {VICTIM_kindIndef}. -->
-  <MessageEntityExecuted>{EXECUTIONER_labelShort} has executed {VICTIM_kindIndef}.</MessageEntityExecuted>
+  <MessageEntityExecuted>{EXECUTIONER_labelShort} {VICTIM_kindIndef} را اعدام کرده است.</MessageEntityExecuted>
   <!-- EN: Warning: Reinstalling an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
-  <MessageOccupiedHoldingPlatformReinstalled>Warning: Reinstalling an occupied holding platform will release the entity. Transfer the entity to another platform first.</MessageOccupiedHoldingPlatformReinstalled>
+  <MessageOccupiedHoldingPlatformReinstalled>هشدار: نصب مجدد سکوی نگهداری اشغال شده، موجود را آزاد خواهد کرد. ابتدا موجود را به سکوی دیگری منتقل کنید.</MessageOccupiedHoldingPlatformReinstalled>
   <!-- EN: Warning: Uninstalling an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
-  <MessageOccupiedHoldingPlatformUninstalled>Warning: Uninstalling an occupied holding platform will release the entity. Transfer the entity to another platform first.</MessageOccupiedHoldingPlatformUninstalled>
+  <MessageOccupiedHoldingPlatformUninstalled>هشدار: حذف نصب سکوی نگهداری اشغال شده، موجود را آزاد خواهد کرد. ابتدا موجود را به سکوی دیگری منتقل کنید.</MessageOccupiedHoldingPlatformUninstalled>
   <!-- EN: Warning: Deconstructing an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
-  <MessageOccupiedHoldingPlatformDeconstructed>Warning: Deconstructing an occupied holding platform will release the entity. Transfer the entity to another platform first.</MessageOccupiedHoldingPlatformDeconstructed>
-  
+  <MessageOccupiedHoldingPlatformDeconstructed>هشدار: تخریب سکوی نگهداری اشغال شده، موجود را آزاد خواهد کرد. ابتدا موجود را به سکوی دیگری منتقل کنید.</MessageOccupiedHoldingPlatformDeconstructed>
+
   <!-- Duplicator obelisk -->
   <!-- EN: A hostile duplicate of {0_nameDef} has appeared. -->
-  <MessageHostileDuplicate>A hostile duplicate of {0_nameDef} has appeared.</MessageHostileDuplicate>
-  
+  <MessageHostileDuplicate>یک کپی متخاصم از {0_nameDef} ظاهر شده است.</MessageHostileDuplicate>
+
   <!-- Proximity detector -->
   <!-- EN: A proximity detector has detected an invisible creature. -->
-  <MessageProximityDetectorTriggered>A proximity detector has detected an invisible creature.</MessageProximityDetectorTriggered>
-  
-  <!-- Unnatural darkness --> 
+  <MessageProximityDetectorTriggered>یک ردیاب نزدیکی موجود نامرئی را شناسایی کرده است.</MessageProximityDetectorTriggered>
+
+  <!-- Unnatural darkness -->
   <!-- EN: Something in the darkness has attacked {0_nameDef}. -->
-  <MessagePawnAttackedInDarkness>Something in the darkness has attacked {0_nameDef}.</MessagePawnAttackedInDarkness>
-  
+  <MessagePawnAttackedInDarkness>چیزی در تاریکی به {0_nameDef} حمله کرده است.</MessagePawnAttackedInDarkness>
+
   <!-- Revenant -->
   <!-- EN: A hidden revenant has been revealed! -->
-  <MessageRevenantForcedVisibility>A hidden revenant has been revealed!</MessageRevenantForcedVisibility>
+  <MessageRevenantForcedVisibility>یک رِوِنِنت پنهان آشکار شده است!</MessageRevenantForcedVisibility>
   <!-- EN: {PAWN_nameDef} can hear the revenant {1} nearby! -->
-  <MessageRevenantHeard>{PAWN_nameDef} can hear the revenant {1} nearby!</MessageRevenantHeard>
-  
+  <MessageRevenantHeard>{PAWN_nameDef} می‌تواند صدای رِوِنِنت {1} را در نزدیکی بشنود!</MessageRevenantHeard>
+
   <!-- Abilities -->
   <!-- EN: {ABILITY_label} cannot be used on non-bleeding creatures. -->
-  <MessageCannotUseOnNonBleeder>{ABILITY_label} cannot be used on non-bleeding creatures.</MessageCannotUseOnNonBleeder>
-  
+  <MessageCannotUseOnNonBleeder>{ABILITY_label} نمی‌تواند روی موجودات غیرخونریزی‌کننده استفاده شود.</MessageCannotUseOnNonBleeder>
+
   <!-- EN: {WAKER_nameDef} has disturbed a fingerspike. -->
-  <MessageFingerspikeDisturbed>{WAKER_nameDef} has disturbed a fingerspike.</MessageFingerspikeDisturbed>
+  <MessageFingerspikeDisturbed>{WAKER_nameDef} یک انگشت‌تیغ را مزاحم کرده است.</MessageFingerspikeDisturbed>
   <!-- EN: {WAKER_nameDef} has disturbed several fingerspikes. -->
-  <MessageFingerspikeDisturbedPlural>{WAKER_nameDef} has disturbed several fingerspikes.</MessageFingerspikeDisturbedPlural>
+  <MessageFingerspikeDisturbedPlural>{WAKER_nameDef} چندین انگشت‌تیغ را مزاحم کرده است.</MessageFingerspikeDisturbedPlural>
 
   <!-- EN: The death pall has resurrected {0_indefinite}. -->
-  <DeathPallResurrectedMessage>The death pall has resurrected {0_indefinite}.</DeathPallResurrectedMessage>
+  <DeathPallResurrectedMessage>پرده مرگ {0_indefinite} را احیا کرده است.</DeathPallResurrectedMessage>
   
 </LanguageData>

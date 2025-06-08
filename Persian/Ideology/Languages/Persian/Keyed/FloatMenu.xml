@@ -2,174 +2,174 @@
 <LanguageData>
 
   <!-- EN: Ideoligion forbids -->
-  <IdeoligionForbids>TODO</IdeoligionForbids>
+  <IdeoligionForbids>ایدئولوژی ممنوع می‌کند</IdeoligionForbids>
   <!-- EN: Only {0}s can build -->
-  <OnlyMembersCanBuild>TODO</OnlyMembersCanBuild>
+  <OnlyMembersCanBuild>فقط {0}ها می‌توانند بسازند</OnlyMembersCanBuild>
   <!-- EN: {0} is already in progress. -->
-  <CantStartRitualAlreadyInProgress>TODO</CantStartRitualAlreadyInProgress>
+  <CantStartRitualAlreadyInProgress>{0} در حال حاضر در حال انجام است.</CantStartRitualAlreadyInProgress>
   <!-- EN: One or more participants can't join due to extreme temperature. -->
-  <CantJoinRitualInExtremeWeather>TODO</CantJoinRitualInExtremeWeather>
+  <CantJoinRitualInExtremeWeather>یک یا چند شرکت‌کننده به دلیل دمای شدید نمی‌توانند بپیوندند.</CantJoinRitualInExtremeWeather>
   <!-- EN: {0} is already participating in a ritual. -->
-  <CantStartRitualTargetIsAlreadyInRitual>TODO</CantStartRitualTargetIsAlreadyInRitual>
+  <CantStartRitualTargetIsAlreadyInRitual>{0} در حال حاضر در یک مراسم شرکت می‌کند.</CantStartRitualTargetIsAlreadyInRitual>
   <!-- EN: You must assign the role of {0} in order to start this ritual. -->
-  <CantStartRitualRoleNotAssigned>TODO</CantStartRitualRoleNotAssigned>
+  <CantStartRitualRoleNotAssigned>برای شروع این مراسم باید نقش {0} را اختصاص دهید.</CantStartRitualRoleNotAssigned>
   <!-- EN: There is nobody to convert to {0}. You need a colonist, prisoner, or slave of a different ideoligion. -->
-  <CantStartRitualNoConvertee>TODO</CantStartRitualNoConvertee>
+  <CantStartRitualNoConvertee>کسی برای تبدیل به {0} وجود ندارد. شما به یک مستعمره‌نشین، زندانی یا برده با ایدئولوژی متفاوت نیاز دارید.</CantStartRitualNoConvertee>
   <!-- EN: {PAWN_nameDef} cannot be {ROLE}. -->
-  <CantStartRitualSelectedPawnCannotBeRole>TODO</CantStartRitualSelectedPawnCannotBeRole>
+  <CantStartRitualSelectedPawnCannotBeRole>{PAWN_nameDef} نمی‌تواند {ROLE} باشد.</CantStartRitualSelectedPawnCannotBeRole>
   <!-- EN: {PAWN_nameDef} must be a {IDEO_memberName}. -->
-  <CantStartRitualSelectedPawnMustBeMember>TODO</CantStartRitualSelectedPawnMustBeMember>
+  <CantStartRitualSelectedPawnMustBeMember>{PAWN_nameDef} باید یک {IDEO_memberName} باشد.</CantStartRitualSelectedPawnMustBeMember>
   <!-- EN: {PAWN_nameDef} is psychically deaf. -->
-  <CantStartRitualSelectedPawnPsychicallyDeaf>TODO</CantStartRitualSelectedPawnPsychicallyDeaf>
+  <CantStartRitualSelectedPawnPsychicallyDeaf>{PAWN_nameDef} از نظر روانی ناشنوا است.</CantStartRitualSelectedPawnPsychicallyDeaf>
   <!-- EN: Not enough space for spectators. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
-  <CantStartNotEnoughSpaceDuelSpectators>TODO</CantStartNotEnoughSpaceDuelSpectators>
+  <CantStartNotEnoughSpaceDuelSpectators>فضای کافی برای تماشاگران وجود ندارد. باید یک دایره شفاف با شعاع {MINRADIUS} وجود داشته باشد. حداقل {1} نقطه قابل ایستادن در آن شعاع لازم است.</CantStartNotEnoughSpaceDuelSpectators>
   <!-- EN: Not enough space for duelists. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
-  <CantStartNotEnoughSpaceDuelDuelists>TODO</CantStartNotEnoughSpaceDuelDuelists>
+  <CantStartNotEnoughSpaceDuelDuelists>فضای کافی برای دوئل‌کنندگان وجود ندارد. باید یک دایره شفاف با شعاع {MINRADIUS} وجود داشته باشد. حداقل {1} نقطه قابل ایستادن در آن شعاع لازم است.</CantStartNotEnoughSpaceDuelDuelists>
   <!-- EN: Not enough space for speaker. There must be a clear circle of radius {MINRADIUS}. -->
-  <CantStartNotEnoughSpaceDuelSpeaker>TODO</CantStartNotEnoughSpaceDuelSpeaker>
+  <CantStartNotEnoughSpaceDuelSpeaker>فضای کافی برای سخنران وجود ندارد. باید یک دایره شفاف با شعاع {MINRADIUS} وجود داشته باشد.</CantStartNotEnoughSpaceDuelSpeaker>
   <!-- EN: {0_labelShort} is a slave. Slaves don't get funerals. -->
-  <CantStartFuneralForSlave>TODO</CantStartFuneralForSlave>
+  <CantStartFuneralForSlave>{0_labelShort} برده است. بردگان مراسم خاکسپاری ندارند.</CantStartFuneralForSlave>
   <!-- EN: Need a slave bed that is reachable, not reserved, and in safe temperature. -->
-  <NoSlaveBed>TODO</NoSlaveBed>
+  <NoSlaveBed>نیاز به تخت برده‌ای که قابل دسترسی، رزرو نشده و در دمای ایمن باشد.</NoSlaveBed>
   <!-- EN: Return to slave bed -->
-  <ReturnToSlaveBed>TODO</ReturnToSlaveBed>
+  <ReturnToSlaveBed>بازگشت به تخت برده</ReturnToSlaveBed>
   <!-- EN: not allowed for faction -->
-  <NotAllowedForFaction>TODO</NotAllowedForFaction>
+  <NotAllowedForFaction>برای جناح مجاز نیست</NotAllowedForFaction>
 
   <!-- EN: Remove -->
   <Remove>زدودن</Remove>
   <!-- EN: Remove precept -->
-  <RemovePrecept>TODO</RemovePrecept>
+  <RemovePrecept>حذف اصل</RemovePrecept>
   <!-- EN: Regenerate -->
-  <Regenerate>TODO</Regenerate>
+  <Regenerate>بازسازی</Regenerate>
   <!-- EN: Cannot edit -->
-  <CannotEdit>TODO</CannotEdit>
+  <CannotEdit>نمی‌توان ویرایش کرد</CannotEdit>
   <!-- EN: No choices available -->
-  <NoChoicesAvailable>TODO</NoChoicesAvailable>
+  <NoChoicesAvailable>هیچ گزینه‌ای در دسترس نیست</NoChoicesAvailable>
   <!-- EN: Required by meme {0} -->
-  <RequiredByMeme>TODO</RequiredByMeme>
+  <RequiredByMeme>مورد نیاز توسط میم {0}</RequiredByMeme>
   <!-- EN: Required -->
-  <Required>Required</Required>
+  <Required>مورد نیاز</Required>
   <!-- EN: Style category -->
-  <StyleCategory>TODO</StyleCategory>
+  <StyleCategory>دسته سبک</StyleCategory>
   <!-- EN: Add style category -->
-  <AddStyleCategory>TODO</AddStyleCategory>
+  <AddStyleCategory>افزودن دسته سبک</AddStyleCategory>
   <!-- EN: Can't add more than {0} rituals. -->
-  <MaxRitualCount>TODO</MaxRitualCount>
+  <MaxRitualCount>نمی‌توان بیش از {0} مراسم اضافه کرد.</MaxRitualCount>
   <!-- EN: Can't add more than {0} relics. -->
-  <MaxRelicCount>TODO</MaxRelicCount>
+  <MaxRelicCount>نمی‌توان بیش از {0} یادگار اضافه کرد.</MaxRelicCount>
   <!-- EN: can't have more than {0} specialists. -->
-  <MaxMultiRolesCount>TODO</MaxMultiRolesCount>
+  <MaxMultiRolesCount>نمی‌توان بیش از {0} متخصص داشت.</MaxMultiRolesCount>
   <!-- EN: max {0} -->
-  <MaxPreceptCount>TODO</MaxPreceptCount>
+  <MaxPreceptCount>حداکثر {0}</MaxPreceptCount>
   <!-- EN: Set gender -->
-  <SetTargetGender>TODO</SetTargetGender>
+  <SetTargetGender>تنظیم جنسیت</SetTargetGender>
   <!-- EN: must be {0} faction -->
-  <RoleApparelRequirementIncompatibleFaction>TODO</RoleApparelRequirementIncompatibleFaction>
+  <RoleApparelRequirementIncompatibleFaction>باید جناح {0} باشد</RoleApparelRequirementIncompatibleFaction>
   <!-- EN: tribal -->
-  <RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>TODO</RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>
+  <RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>قبیله‌ای</RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>
   <!-- EN: non-tribal -->
-  <RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>TODO</RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>
+  <RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>غیر قبیله‌ای</RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>
   <!-- EN: requires any of these memes -->
-  <RoleApparelRequirementIncompatibleAnyMemeRequired>TODO</RoleApparelRequirementIncompatibleAnyMemeRequired>
+  <RoleApparelRequirementIncompatibleAnyMemeRequired>نیاز به هر یک از این میم‌ها</RoleApparelRequirementIncompatibleAnyMemeRequired>
   <!-- EN: cannot be worn with assigned apparel -->
-  <BodyPartAlreadyCovered>TODO</BodyPartAlreadyCovered>
+  <BodyPartAlreadyCovered>نمی‌توان با لباس اختصاص داده شده پوشید</BodyPartAlreadyCovered>
   <!-- EN: People are pleased when their apparel requirements are fulfilled, and unhappy when they are violated. -->
-  <NoteRoleApparelRequirementEffects>TODO</NoteRoleApparelRequirementEffects>
+  <NoteRoleApparelRequirementEffects>افراد زمانی که نیازهای لباسشان برآورده می‌شود خوشحال و زمانی که نقض می‌شوند ناراضی هستند.</NoteRoleApparelRequirementEffects>
   <!-- EN: supercharge not ready -->
-  <NeuralSuperchargeNotReady>TODO</NeuralSuperchargeNotReady>
+  <NeuralSuperchargeNotReady>سوپرشارژ آماده نیست</NeuralSuperchargeNotReady>
   <!-- EN: already getting -->
-  <NeuralSuperchargeAlreadyGetting>TODO</NeuralSuperchargeAlreadyGetting>
+  <NeuralSuperchargeAlreadyGetting>در حال حاضر در حال دریافت</NeuralSuperchargeAlreadyGetting>
   <!-- EN: Set type -->
-  <SetApparelType>TODO</SetApparelType>
+  <SetApparelType>تنظیم نوع</SetApparelType>
 
   <!-- EN: change style -->
   <ChangeStyle>تغییر سبک</ChangeStyle>
   <!-- EN: {0} {DEITYNOUN} required -->
-  <DeitiesRequired>TODO</DeitiesRequired>
+  <DeitiesRequired>{0} {DEITYNOUN} مورد نیاز است</DeitiesRequired>
   <!-- EN: deity -->
-  <Deity>TODO</Deity>
+  <Deity>خدا</Deity>
   <!-- EN: requires meme -->
-  <RequiresMeme>TODO</RequiresMeme>
+  <RequiresMeme>نیاز به میم دارد</RequiresMeme>
   <!-- EN: requires one of -->
-  <RequiresOneOfMemes>TODO</RequiresOneOfMemes>
+  <RequiresOneOfMemes>نیاز به یکی از</RequiresOneOfMemes>
   <!-- EN: conflicts with meme -->
-  <ConflictsWithMeme>TODO</ConflictsWithMeme>
+  <ConflictsWithMeme>با میم در تضاد است</ConflictsWithMeme>
   <!-- EN: conflicts with memes -->
-  <ConflictsWithMemes>TODO</ConflictsWithMemes>
+  <ConflictsWithMemes>با میم‌ها در تضاد است</ConflictsWithMemes>
   <!-- EN: can only have one altar/ideogram -->
-  <IdeoAlreadyHasAltar>TODO</IdeoAlreadyHasAltar>
+  <IdeoAlreadyHasAltar>فقط می‌تواند یک محراب/ایدئوگرام داشته باشد</IdeoAlreadyHasAltar>
   <!-- EN: recolor apparel -->
-  <RecolorApparel>TODO</RecolorApparel>
+  <RecolorApparel>تغییر رنگ لباس</RecolorApparel>
 
   <!-- EN: Hack {0} -->
-  <Hack>TODO</Hack>
+  <Hack>هک {0}</Hack>
   <!-- EN: Cannot hack {0} -->
-  <CannotHack>TODO</CannotHack>
+  <CannotHack>نمی‌توان {0} را هک کرد</CannotHack>
   <!-- EN: Already hacked -->
-  <AlreadyHacked>TODO</AlreadyHacked>
+  <AlreadyHacked>قبلاً هک شده</AlreadyHacked>
   <!-- EN: Incapable of hacking -->
-  <IncapableOfHacking>TODO</IncapableOfHacking>
+  <IncapableOfHacking>ناتوان از هک</IncapableOfHacking>
   <!-- EN: to drop supplies -->
-  <ToDropSupplies>TODO</ToDropSupplies>
+  <ToDropSupplies>برای انداختن تدارکات</ToDropSupplies>
 
   <!-- EN: Install {0} -->
-  <InstallRelic>TODO</InstallRelic>
+  <InstallRelic>نصب {0}</InstallRelic>
   <!-- EN: Extract {0} -->
-  <ExtractRelic>TODO</ExtractRelic>
+  <ExtractRelic>استخراج {0}</ExtractRelic>
   <!-- EN: Extract {0} to inventory ({1}) -->
-  <ExtractRelicToInventory>TODO</ExtractRelicToInventory>
+  <ExtractRelicToInventory>استخراج {0} به موجودی ({1})</ExtractRelicToInventory>
   <!-- EN: No relic to install -->
-  <NoRelicToInstall>TODO</NoRelicToInstall>
+  <NoRelicToInstall>یادگاری برای نصب وجود ندارد</NoRelicToInstall>
   <!-- EN: Install in reliquary -->
-  <InstallInReliquary>TODO</InstallInReliquary>
+  <InstallInReliquary>نصب در یادگارخانه</InstallInReliquary>
   <!-- EN: no empty accessible reliquary -->
-  <NoEmptyReliquary>TODO</NoEmptyReliquary>
+  <NoEmptyReliquary>یادگارخانه خالی قابل دسترسی وجود ندارد</NoEmptyReliquary>
 
   <!-- EN: No {MEMBERNAME} warden -->
-  <NoWardenOfIdeo>TODO</NoWardenOfIdeo>
+  <NoWardenOfIdeo>هیچ نگهبان {MEMBERNAME} وجود ندارد</NoWardenOfIdeo>
 
   <!-- EN: Remove current role -->
-  <RemoveCurrentRole>TODO</RemoveCurrentRole>
+  <RemoveCurrentRole>حذف نقش فعلی</RemoveCurrentRole>
 
   <!-- EN: Enter biosculpter pod for {0} cycle ({1}) -->
-  <EnterBiosculpterPod>TODO</EnterBiosculpterPod>
+  <EnterBiosculpterPod>ورود به کپسول بایواسکالپتر برای چرخه {0} ({1})</EnterBiosculpterPod>
   <!-- EN: Biotuned to someone else. -->
-  <BiosculpterBiotunedToAnother>TODO</BiosculpterBiotunedToAnother>
+  <BiosculpterBiotunedToAnother>تنظیم زیستی شده برای شخص دیگری.</BiosculpterBiotunedToAnother>
   <!-- EN: Must be {0} years old for age reversal. -->
-  <UnderMinBiosculpterAgeReversalAge>TODO</UnderMinBiosculpterAgeReversalAge>
+  <UnderMinBiosculpterAgeReversalAge>برای معکوس کردن سن باید حداقل {0} سال داشته باشد.</UnderMinBiosculpterAgeReversalAge>
   <!-- EN: Carry {PAWN_labelShort} to biosculpter ({CYCLE} cycle) -->
-  <CarryToBiosculpterPod>TODO</CarryToBiosculpterPod>
+  <CarryToBiosculpterPod>حمل {PAWN_labelShort} به بایواسکالپتر (چرخه {CYCLE})</CarryToBiosculpterPod>
   <!-- EN: Cannot carry to biosculpter pod -->
-  <CannotCarryToBiosculpterPod>TODO</CannotCarryToBiosculpterPod>
+  <CannotCarryToBiosculpterPod>نمی‌توان به کپسول بایواسکالپتر حمل کرد</CannotCarryToBiosculpterPod>
   <!-- EN: No available biosculpter pod. -->
-  <NoBiosculpterPod>TODO</NoBiosculpterPod>
+  <NoBiosculpterPod>هیچ کپسول بایواسکالپتر در دسترس نیست.</NoBiosculpterPod>
   <!-- EN: Nutrition not loaded -->
-  <BiosculpterNutritionNotLoaded>TODO</BiosculpterNutritionNotLoaded>
+  <BiosculpterNutritionNotLoaded>تغذیه بارگذاری نشده است</BiosculpterNutritionNotLoaded>
   <!-- EN: Occupied -->
-  <BiosculpterOccupied>TODO</BiosculpterOccupied>
+  <BiosculpterOccupied>اشغال شده</BiosculpterOccupied>
   <!-- EN: Cannot enter -->
-  <CannotEnter>Cannot enter</CannotEnter>
+  <CannotEnter>نمی‌توان وارد شد</CannotEnter>
   <!-- EN: Cannot start {0} cycle -->
-  <BiosculpterCannotStartCycle>TODO</BiosculpterCannotStartCycle>
+  <BiosculpterCannotStartCycle>نمی‌توان چرخه {0} را شروع کرد</BiosculpterCannotStartCycle>
   <!-- EN: Cannot find cycle ingredients ({INGREDIENTS}) -->
-  <BiosculpterMissingIngredients>TODO</BiosculpterMissingIngredients>
+  <BiosculpterMissingIngredients>نمی‌توان مواد چرخه را پیدا کرد ({INGREDIENTS})</BiosculpterMissingIngredients>
   <!-- EN: Nobody around can use this -->
-  <BiosculpterNoEligiblePawns>TODO</BiosculpterNoEligiblePawns>
+  <BiosculpterNoEligiblePawns>هیچ‌کس در اطراف نمی‌تواند از این استفاده کند</BiosculpterNoEligiblePawns>
   <!-- EN: Biotuned to {PAWN_labelShort} and {PAWN_pronoun} isn't around -->
-  <BiosculpterNoEligiblePawnsBiotuned>TODO</BiosculpterNoEligiblePawnsBiotuned>
+  <BiosculpterNoEligiblePawnsBiotuned>تنظیم زیستی شده برای {PAWN_labelShort} و {PAWN_pronoun} در اطراف نیست</BiosculpterNoEligiblePawnsBiotuned>
   <!-- EN: Auto load nutrition -->
-  <BiosculpterAutoLoadNutritionLabel>TODO</BiosculpterAutoLoadNutritionLabel>
+  <BiosculpterAutoLoadNutritionLabel>بارگذاری خودکار تغذیه</BiosculpterAutoLoadNutritionLabel>
   <!-- EN: Automatically load the nutrition required to run a cycle -->
-  <BiosculpterAutoLoadNutritionDescription>TODO</BiosculpterAutoLoadNutritionDescription>
+  <BiosculpterAutoLoadNutritionDescription>به طور خودکار تغذیه مورد نیاز برای اجرای یک چرخه را بارگذاری کنید</BiosculpterAutoLoadNutritionDescription>
   <!-- EN: Auto age reversal for {PAWN_labelShort} -->
-  <BiosculpterAutoAgeReversalLabel>TODO</BiosculpterAutoAgeReversalLabel>
+  <BiosculpterAutoAgeReversalLabel>معکوس کردن خودکار سن برای {PAWN_labelShort}</BiosculpterAutoAgeReversalLabel>
   <!-- EN: Automatically satisfy {PAWN_labelShort}'s desire to run a yearly age reversal treatment in this pod, in accordance with {PAWN_possessive} beliefs. {NEXTTREATMENT} -->
-  <BiosculpterAutoAgeReversalDescription>TODO</BiosculpterAutoAgeReversalDescription>
+  <BiosculpterAutoAgeReversalDescription>به طور خودکار خواسته {PAWN_labelShort} برای انجام درمان سالانه معکوس کردن سن در این کپسول را، مطابق با باورهای {PAWN_possessive}، برآورده کنید. {NEXTTREATMENT}</BiosculpterAutoAgeReversalDescription>
   <!-- EN: If enabled, {PAWN_labelShort} will automatically take {PAWN_possessive} next treament in {TIME} if the pod is ready. -->
-  <BiosculpterAutoAgeReversalDescriptionFuture>TODO</BiosculpterAutoAgeReversalDescriptionFuture>
+  <BiosculpterAutoAgeReversalDescriptionFuture>اگر فعال باشد، {PAWN_labelShort} به طور خودکار درمان بعدی {PAWN_possessive} را در {TIME} انجام خواهد داد اگر کپسول آماده باشد.</BiosculpterAutoAgeReversalDescriptionFuture>
   <!-- EN: {PAWN_labelShort} already wants {PAWN_possessive} next treatment and will automatically begin one if this is enabled. -->
-  <BiosculpterAutoAgeReversalDescriptionNow>TODO</BiosculpterAutoAgeReversalDescriptionNow>
+  <BiosculpterAutoAgeReversalDescriptionNow>{PAWN_labelShort} در حال حاضر درمان بعدی {PAWN_possessive} را می‌خواهد و در صورت فعال بودن این گزینه، به طور خودکار یکی را شروع خواهد کرد.</BiosculpterAutoAgeReversalDescriptionNow>
   <!-- EN: Collecting ingredients for biosculpter cycle -->
-  <BiosculpterJobReportCollectIngredients>TODO</BiosculpterJobReportCollectIngredients>
+  <BiosculpterJobReportCollectIngredients>در حال جمع‌آوری مواد برای چرخه بایواسکالپتر</BiosculpterJobReportCollectIngredients>
 </LanguageData>

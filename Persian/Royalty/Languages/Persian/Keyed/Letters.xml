@@ -3,167 +3,169 @@
 
   <!-- Royal titles -->
   <!-- EN: {TITLE} title lost: {PAWN_labelShort} -->
-  <LetterLabelLostRoyalTitle>TODO</LetterLabelLostRoyalTitle>
+  <LetterLabelLostRoyalTitle>عنوان {TITLE} از دست رفت: {PAWN_labelShort}</LetterLabelLostRoyalTitle>
   <!-- EN: {TITLE} title gained: {PAWN_labelShort} -->
-  <LetterLabelGainedRoyalTitle>TODO</LetterLabelGainedRoyalTitle>
+  <LetterLabelGainedRoyalTitle>عنوان {TITLE} کسب شد: {PAWN_labelShort}</LetterLabelGainedRoyalTitle>
 
   <!-- EN: Permit points awarded: {0}. -->
-  <PermitPointsAwarded>TODO</PermitPointsAwarded>
+  <PermitPointsAwarded>امتیازات مجوز اعطا شد: {0}.</PermitPointsAwarded>
 
   <!-- EN: This title requires apparel of {1} quality or better. -->
-  <LetterRoyalTitleApparelQualityRequirement>TODO</LetterRoyalTitleApparelQualityRequirement>
+  <LetterRoyalTitleApparelQualityRequirement>این عنوان نیاز به لباس با کیفیت {1} یا بهتر دارد.</LetterRoyalTitleApparelQualityRequirement>
   <!-- EN: This title requires apparel appropriate to {PAWN_possessive} title: -->
-  <LetterRoyalTitleApparelRequirement>TODO</LetterRoyalTitleApparelRequirement>
+  <LetterRoyalTitleApparelRequirement>این عنوان نیاز به لباس مناسب عنوان {PAWN_possessive} دارد:</LetterRoyalTitleApparelRequirement>
   <!-- EN: {PAWN_possessive} expectations will never be less than {1}. -->
-  <LetterRoyalTitleExpectation>TODO</LetterRoyalTitleExpectation>
+  <LetterRoyalTitleExpectation>انتظارات {PAWN_possessive} هرگز کمتر از {1} نخواهد بود.</LetterRoyalTitleExpectation>
   
   <!-- EN: Because {PAWN_labelShort} is {1}, {PAWN_pronoun} will demand that this title's privileges be fully respected. {PAWN_pronoun} may refuse to do certain work types, eat low-class food and will issue decrees. -->
-  <LetterRoyalTitleConceitedTrait>TODO</LetterRoyalTitleConceitedTrait>
+  <LetterRoyalTitleConceitedTrait>از آنجایی که {PAWN_labelShort} {1} است، {PAWN_pronoun} مطالبه خواهد کرد که امتیازات این عنوان کاملاً رعایت شود. {PAWN_pronoun} ممکن است از انجام برخی انواع کار، خوردن غذای سطح پایین خودداری کند و فرمان صادر خواهد کرد.</LetterRoyalTitleConceitedTrait>
 
   <!-- EN: {PAWN_labelShort} received the title of {TITLE} from {FACTION_name}! -->
-  <LetterGainedRoyalTitle>TODO</LetterGainedRoyalTitle>
+  <LetterGainedRoyalTitle>{PAWN_labelShort} عنوان {TITLE} را از {FACTION_name} دریافت کرد!</LetterGainedRoyalTitle>
   <!-- EN: {PAWN_labelShort} no longer holds the title of {TITLE} with {FACTION_name}. -->
-  <LetterLostRoyalTitle>TODO</LetterLostRoyalTitle>
+  <LetterLostRoyalTitle>{PAWN_labelShort} دیگر عنوان {TITLE} را با {FACTION_name} ندارد.</LetterLostRoyalTitle>
   <!-- EN: Title rewards -->
-  <LetterLabelRewardsForNewTitle>TODO</LetterLabelRewardsForNewTitle>
+  <LetterLabelRewardsForNewTitle>پاداش‌های عنوان</LetterLabelRewardsForNewTitle>
   <!-- EN: To honor {PAWN_labelShort} advancing to the title of {TITLE}, {FACTION_name} has sent {PAWN_objective} the following reward(s): -->
-  <LetterRewardsForNewTitle>TODO</LetterRewardsForNewTitle>
+  <LetterRewardsForNewTitle>برای ارج نهادن به پیشرفت {PAWN_labelShort} به عنوان {TITLE}، {FACTION_name} پاداش(های) زیر را برای {PAWN_objective} ارسال کرده است:</LetterRewardsForNewTitle>
   <!-- EN: Rewards have arrived to your colony via transport pods. -->
-  <LetterRewardsForNewTitleDeliveryBase>TODO</LetterRewardsForNewTitleDeliveryBase>
+  <LetterRewardsForNewTitleDeliveryBase>پاداش‌ها از طریق کپسول‌های حمل و نقل به مستعمره شما رسیده‌اند.</LetterRewardsForNewTitleDeliveryBase>
   <!-- EN: Rewards were delivered directly to {PAWN_labelShort}'s inventory. -->
-  <LetterRewardsForNewTitleDeliveryDirect>TODO</LetterRewardsForNewTitleDeliveryDirect>
+  <LetterRewardsForNewTitleDeliveryDirect>پاداش‌ها مستقیماً به موجودی {PAWN_labelShort} تحویل داده شدند.</LetterRewardsForNewTitleDeliveryDirect>
 
   <!-- EN: {PAWN_pronoun} has these permissions: -->
-  <LetterRoyalTitlePermits>TODO</LetterRoyalTitlePermits>
+  <LetterRoyalTitlePermits>{PAWN_pronoun} این مجوزها را دارد:</LetterRoyalTitlePermits>
   <!-- EN: {PAWN_pronoun} lost these permissions: -->
-  <LetterRoyalTitleLostPermits>TODO</LetterRoyalTitleLostPermits>
+  <LetterRoyalTitleLostPermits>{PAWN_pronoun} این مجوزها را از دست داد:</LetterRoyalTitleLostPermits>
 
   <!-- EN: {PAWN_pronoun} is not willing to do these work types:\n{1} -->
-  <LetterRoyalTitleDisabledWorkTag>TODO</LetterRoyalTitleDisabledWorkTag>
+  <LetterRoyalTitleDisabledWorkTag>{PAWN_pronoun} مایل به انجام این انواع کار نیست:\n{1}</LetterRoyalTitleDisabledWorkTag>
 
   <!-- EN: {PAWN_pronoun} can now use this recreation: -->
-  <LetterRoyalTitleEnabledJoyKind>TODO</LetterRoyalTitleEnabledJoyKind>
+  <LetterRoyalTitleEnabledJoyKind>{PAWN_pronoun} اکنون می‌تواند از این تفریح استفاده کند:</LetterRoyalTitleEnabledJoyKind>
   <!-- EN: This title forbids using this recreation: -->
-  <LetterRoyalTitleDisabledJoyKind>TODO</LetterRoyalTitleDisabledJoyKind>
+  <LetterRoyalTitleDisabledJoyKind>این عنوان استفاده از این تفریح را ممنوع می‌کند:</LetterRoyalTitleDisabledJoyKind>
 
   <!-- EN: {PAWN_pronoun} is allowed to use these implants:{1} -->
-  <LetterRoyalTitleAllowedImplants>TODO</LetterRoyalTitleAllowedImplants>
+  <LetterRoyalTitleAllowedImplants>{PAWN_pronoun} مجاز به استفاده از این ایمپلنت‌ها است:{1}</LetterRoyalTitleAllowedImplants>
   <!-- EN: {PAWN_pronoun} is no longer allowed to use these implants:{1} -->
-  <LetterRoyalTitleImplantsMustBeRemoved>TODO</LetterRoyalTitleImplantsMustBeRemoved>
+  <LetterRoyalTitleImplantsMustBeRemoved>{PAWN_pronoun} دیگر مجاز به استفاده از این ایمپلنت‌ها نیست:{1}</LetterRoyalTitleImplantsMustBeRemoved>
   <!-- EN: The implants must be extracted within a five-day grace period to avoid diplomatic consequences. -->
-  <LetterRoyalTitleImplantGracePeriod>TODO</LetterRoyalTitleImplantGracePeriod>
+  <LetterRoyalTitleImplantGracePeriod>ایمپلنت‌ها باید ظرف پنج روز مهلت برای جلوگیری از پیامدهای دیپلماتیک خارج شوند.</LetterRoyalTitleImplantGracePeriod>
   <!-- EN: {PAWN_pronoun} can now give speeches from the throne. If it goes well, listeners will feel inspired. If it goes poorly, the speech will do social damage. The outcome depends on {PAWN_labelShort}'s social abilities. -->
-  <LetterRoyalTitleSpeechAbilityGained>TODO</LetterRoyalTitleSpeechAbilityGained>
+  <LetterRoyalTitleSpeechAbilityGained>{PAWN_pronoun} اکنون می‌تواند از تخت سلطنت سخنرانی کند. اگر خوب پیش برود، شنوندگان الهام خواهند گرفت. اگر بد پیش برود، سخنرانی آسیب اجتماعی وارد خواهد کرد. نتیجه به توانایی‌های اجتماعی {PAWN_labelShort} بستگی دارد.</LetterRoyalTitleSpeechAbilityGained>
   <!-- EN: This title requires a throneroom that meets these requirements:{1} -->
-  <LetterRoyalTitleThroneroomRequirements>TODO</LetterRoyalTitleThroneroomRequirements>
+  <LetterRoyalTitleThroneroomRequirements>این عنوان نیاز به اتاق تخت سلطنت دارد که این الزامات را برآورده کند:{1}</LetterRoyalTitleThroneroomRequirements>
   <!-- EN: This title requires a bedroom that meets these requirements:{1} -->
-  <LetterRoyalTitleBedroomRequirements>TODO</LetterRoyalTitleBedroomRequirements>
+  <LetterRoyalTitleBedroomRequirements>این عنوان نیاز به اتاق خواب دارد که این الزامات را برآورده کند:{1}</LetterRoyalTitleBedroomRequirements>
   <!-- EN: This title says that {PAWN_pronoun} should only eat these foods:{1} -->
-  <LetterRoyalTitleFoodRequirements>TODO</LetterRoyalTitleFoodRequirements>
+  <LetterRoyalTitleFoodRequirements>این عنوان می‌گوید که {PAWN_pronoun} فقط باید این غذاها را بخورد:{1}</LetterRoyalTitleFoodRequirements>
 
   <!-- EN: {PAWN_pronoun} will receive the following items via transport pod:{1} -->
-  <LetterRoyalTitleRewardGranted>TODO</LetterRoyalTitleRewardGranted>
+  <LetterRoyalTitleRewardGranted>{PAWN_pronoun} آیتم‌های زیر را از طریق کپسول حمل و نقل دریافت خواهد کرد:{1}</LetterRoyalTitleRewardGranted>
   <!-- EN: {PAWN_labelShort} has gained {1} {FACTION_royalFavorLabel} from {FACTION_name}. -->
-  <PeaceTalksRoyalFavorGain>TODO</PeaceTalksRoyalFavorGain>
+  <PeaceTalksRoyalFavorGain>{PAWN_labelShort} {1} {FACTION_royalFavorLabel} از {FACTION_name} کسب کرده است.</PeaceTalksRoyalFavorGain>
 
   <!-- Royal heritage-->
   <!-- EN: If {PAWN_pronoun} dies, this title will be inherited by {HEIR_nameFull}. -->
-  <LetterRoyalTitleHeir>TODO</LetterRoyalTitleHeir>
+  <LetterRoyalTitleHeir>اگر {PAWN_pronoun} بمیرد، این عنوان توسط {HEIR_nameFull} به ارث برده خواهد شد.</LetterRoyalTitleHeir>
   <!-- EN: If {PAWN_pronoun} dies, no one will inherit this title. -->
-  <LetterRoyalTitleNoHeir>TODO</LetterRoyalTitleNoHeir>
+  <LetterRoyalTitleNoHeir>اگر {PAWN_pronoun} بمیرد، هیچ‌کس این عنوان را به ارث نخواهد برد.</LetterRoyalTitleNoHeir>
   <!-- EN: {PAWN_nameFull} is a member of {FACTION_name}. -->
-  <LetterRoyalTitleHeirFactionWarning>TODO</LetterRoyalTitleHeirFactionWarning>
+  <LetterRoyalTitleHeirFactionWarning>{PAWN_nameFull} عضو {FACTION_name} است.</LetterRoyalTitleHeirFactionWarning>
   <!-- EN: A new heir can be chosen by contacting {FACTION_name} through a comms console. -->
-  <LetterRoyalTitleChangingHeir>TODO</LetterRoyalTitleChangingHeir>
+  <LetterRoyalTitleChangingHeir>وارث جدید را می‌توان با تماس با {FACTION_name} از طریق کنسول ارتباطات انتخاب کرد.</LetterRoyalTitleChangingHeir>
   <!-- EN: Heir lost -->
-  <LetterTitleHeirLostLabel>TODO</LetterTitleHeirLostLabel>
+  <LetterTitleHeirLostLabel>وارث از دست رفت</LetterTitleHeirLostLabel>
   <!-- EN: {HEIR_nameFull} has died, leaving {HOLDER_labelShort} with no heir for the title received from {FACTION_name}. You can contact {FACTION_name} through a comms console to designate a new heir. -->
-  <LetterTitleHeirLost>TODO</LetterTitleHeirLost>
+  <LetterTitleHeirLost>{HEIR_nameFull} درگذشت و {HOLDER_labelShort} را بدون وارث برای عنوانی که از {FACTION_name} دریافت کرده بود، گذاشت. می‌توانید با {FACTION_name} از طریق کنسول ارتباطات تماس بگیرید تا وارث جدیدی تعیین کنید.</LetterTitleHeirLost>
   <!-- EN: The title of {TITLE} cannot be inherited. -->
-  <LetterRoyalTitleCantBeInherited>TODO</LetterRoyalTitleCantBeInherited>
+  <LetterRoyalTitleCantBeInherited>عنوان {TITLE} قابل وراثت نیست.</LetterRoyalTitleCantBeInherited>
 
 
   <!-- EN: Title inheritance -->
-  <LetterTitleInheritance>TODO</LetterTitleInheritance>
+  <LetterTitleInheritance>وراثت عنوان</LetterTitleInheritance>
   <!-- EN: Since {PAWN_nameFull} died, {PAWN_possessive} titles will be transferred to {PAWN_possessive} heirs. -->
-  <LetterTitleInheritance_Base>TODO</LetterTitleInheritance_Base>
+  <LetterTitleInheritance_Base>از آنجایی که {PAWN_nameFull} درگذشت، عناوین {PAWN_possessive} به وارثان {PAWN_possessive} منتقل خواهد شد.</LetterTitleInheritance_Base>
   <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull}, according to the succession laws of {FACTION_name}. It will replace {HEIR_possessive} {REPLACEDTITLE} title upon completion of a bestowing ceremony. -->
-  <LetterTitleInheritance_AsReplacement>TODO</LetterTitleInheritance_AsReplacement>
+  <LetterTitleInheritance_AsReplacement>عنوان {TITLE} {PAWN_possessive} توسط {HEIR_nameFull} به ارث برده شد، طبق قوانین وراثت {FACTION_name}. پس از تکمیل مراسم اعطا، جایگزین عنوان {REPLACEDTITLE} {HEIR_possessive} خواهد شد.</LetterTitleInheritance_AsReplacement>
   <!-- EN: {PAWN_possessive} {TITLE} title would have been inherited by {HEIR_nameFull} according to the succession laws of {FACTION_name}, but {HEIR_pronoun} already had a {HIGHERTITLE} title. -->
-  <LetterTitleInheritance_NoEffectHigherTitle>TODO</LetterTitleInheritance_NoEffectHigherTitle>
+  <LetterTitleInheritance_NoEffectHigherTitle>عنوان {TITLE} {PAWN_possessive} طبق قوانین وراثت {FACTION_name} توسط {HEIR_nameFull} به ارث برده می‌شد، اما {HEIR_pronoun} قبلاً عنوان {HIGHERTITLE} را داشت.</LetterTitleInheritance_NoEffectHigherTitle>
   <!-- EN: {PAWN_possessive} {TITLE} title will be inherited by {HEIR_nameFull} upon completion of a bestowing ceremony, according to the succession laws of {FACTION_name}. -->
-  <LetterTitleInheritance_WasInherited>TODO</LetterTitleInheritance_WasInherited>
+  <LetterTitleInheritance_WasInherited>عنوان {TITLE} {PAWN_possessive} پس از تکمیل مراسم اعطا، طبق قوانین وراثت {FACTION_name} توسط {HEIR_nameFull} به ارث برده خواهد شد.</LetterTitleInheritance_WasInherited>
   <!-- EN: {PAWN_possessive} {TITLE} title was not inherited by anyone, since {PAWN_pronoun} had no designated heir for this title. -->
-  <LetterTitleInheritance_NoHeirFound>TODO</LetterTitleInheritance_NoHeirFound>
+  <LetterTitleInheritance_NoHeirFound>عنوان {TITLE} {PAWN_possessive} توسط هیچ‌کس به ارث برده نشد، زیرا {PAWN_pronoun} وارث تعیین شده‌ای برای این عنوان نداشت.</LetterTitleInheritance_NoHeirFound>
 
   <!-- Royal implant violations -->
   <!-- EN: Lawbreaker: {PAWN_labelShort} -->
-  <LetterLawViolationDetectedLabel>TODO</LetterLawViolationDetectedLabel>
+  <LetterLawViolationDetectedLabel>قانون‌شکن: {PAWN_labelShort}</LetterLawViolationDetectedLabel>
   <!-- EN: {FACTION_name} has detected {PAWN_labelShort}'s illegal use of: {CULPRIT} (detection chance {CHANCE}).\n\nAccording to the laws of {FACTION_name}, only those who hold the title of {TITLE} are allowed to use {CULPRIT}.\n\nAs a penalty, your faction relations have fallen by {GOODWILL}. -->
-  <LetterLawViolationDetectedForbiddenThingUse>TODO</LetterLawViolationDetectedForbiddenThingUse>
+  <LetterLawViolationDetectedForbiddenThingUse>{FACTION_name} استفاده غیرقانونی {PAWN_labelShort} از: {CULPRIT} را شناسایی کرده است (شانس شناسایی {CHANCE}).\n\nطبق قوانین {FACTION_name}، فقط کسانی که عنوان {TITLE} را دارند مجاز به استفاده از {CULPRIT} هستند.\n\nبه عنوان جریمه، روابط جناح شما به میزان {GOODWILL} کاهش یافته است.</LetterLawViolationDetectedForbiddenThingUse>
 
   <!-- Wild decree mental break -->
   <!-- EN: Wild decree -->
-  <WildDecree>TODO</WildDecree>
+  <WildDecree>فرمان وحشی</WildDecree>
   <!-- EN: {0_nameIndef} issues decree -->
-  <LetterLabelRandomDecree>TODO</LetterLabelRandomDecree>
+  <LetterLabelRandomDecree>{0_nameIndef} فرمان صادر می‌کند</LetterLabelRandomDecree>
   <!-- EN: {0_nameIndef}, in an attempt to release {0_possessive} stress, has issued a wild royal decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
-  <LetterDecreeMentalBreak>TODO</LetterDecreeMentalBreak>
+  <LetterDecreeMentalBreak>{0_nameIndef}، در تلاشی برای رهایی از استرس {0_possessive}، یک فرمان سلطنتی وحشی صادر کرده و اکنون مطالبه می‌کند که اجرا شود.
+    \nاگر به موقع اجرا نشود، {0_nameIndef} بسیار ناراضی خواهد شد.</LetterDecreeMentalBreak>
   <!-- EN: {0_nameIndef}, in order to affirm {0_possessive} title of {0_bestRoyalTitleIndef}, has issued a decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
-  <LetterRandomDecree>TODO</LetterRandomDecree>
+  <LetterRandomDecree>{0_nameIndef}، برای تأیید عنوان {0_bestRoyalTitleIndef} {0_possessive}، فرمانی صادر کرده و اکنون مطالبه می‌کند که اجرا شود.
+    \nاگر به موقع اجرا نشود، {0_nameIndef} بسیار ناراضی خواهد شد.</LetterRandomDecree>
   <!-- EN: The decree is titled "{0}". -->
-  <LetterDecree_Quest>TODO</LetterDecree_Quest>
+  <LetterDecree_Quest>عنوان فرمان "{0}" است.</LetterDecree_Quest>
   
   <!-- Lent colonist died -->
   <!-- EN: {PAWN_nameDef} was lent to {FACTION}. They will return the body of {PAWN_nameDef} shortly. -->
-  <LentColonistDied>TODO</LentColonistDied>  
+  <LentColonistDied>{PAWN_nameDef} به {FACTION} قرض داده شد. آن‌ها به زودی بدن {PAWN_nameDef} را باز خواهند گرداند.</LentColonistDied>  
 
   <!-- Psylink -->
   <!-- EN: Psylink gained -->
-  <LetterLabelPsylinkLevelGained>TODO</LetterLabelPsylinkLevelGained>
+  <LetterLabelPsylinkLevelGained>پسالینک کسب شد</LetterLabelPsylinkLevelGained>
   <!-- EN: {USER_labelShort} has gained {USER_possessive} first level of psylink! {USER_pronoun} is now a psycaster.\n\nTo use psychic powers, {USER_labelShort} must build up psyfocus through meditation. The effectiveness of this meditation is increased if the person can focus on a specific object while meditating.\n\nDifferent people are able to focus on different objects. This depend on the person's backstories, traits, and titles. For example:\n\n- Psycasters with royal titles meditate on their thrones.\n- Psycasters with tribal childhoods meditate to anima trees and nature shrines.\n- Ascetic psycasters meditate to blank walls.\n- Psychopathic psycasters meditate to graves, ideally with a loved one inside.\n\nYou can see someone's meditation focus types by looking at their info card with the 'i' button. -->
-  <LetterPsylinkLevelGained_First>TODO</LetterPsylinkLevelGained_First>
+  <LetterPsylinkLevelGained_First>{USER_labelShort} اولین سطح پسالینک {USER_possessive} را کسب کرده است! {USER_pronoun} اکنون یک پساکستر است.\n\nبرای استفاده از قدرت‌های روانی، {USER_labelShort} باید از طریق مدیتیشن پسافوکوس جمع کند. اثربخشی این مدیتیشن افزایش می‌یابد اگر فرد بتواند هنگام مدیتیشن روی یک شیء خاص تمرکز کند.\n\nافراد مختلف قادر به تمرکز بر اشیاء مختلف هستند. این بستگی به پیش‌زمینه‌ها، ویژگی‌ها و عناوین فرد دارد. به عنوان مثال:\n\n- پساکسترها با عناوین سلطنتی روی تخت‌های خود مدیتیشن می‌کنند.\n- پساکسترها با دوران کودکی قبیله‌ای به درختان آنیما و زیارتگاه‌های طبیعت مدیتیشن می‌کنند.\n- پساکسترهای زاهد به دیوارهای خالی مدیتیشن می‌کنند.\n- پساکسترهای روان‌پریش به قبرها مدیتیشن می‌کنند، ایده‌آل با یک عزیز در داخل.\n\nمی‌توانید انواع تمرکز مدیتیشن فرد را با نگاه کردن به کارت اطلاعات او با دکمه 'i' ببینید.</LetterPsylinkLevelGained_First>
   <!-- EN: {USER_labelShort} has gained a new level of psylink! {USER_pronoun} can now use psychic powers of that higher level, but {USER_pronoun} needs to learn them first. -->
-  <LetterPsylinkLevelGained_NotFirst>TODO</LetterPsylinkLevelGained_NotFirst>
+  <LetterPsylinkLevelGained_NotFirst>{USER_labelShort} سطح جدیدی از پسالینک کسب کرده است! {USER_pronoun} اکنون می‌تواند از قدرت‌های روانی آن سطح بالاتر استفاده کند، اما {USER_pronoun} ابتدا باید آن‌ها را یاد بگیرد.</LetterPsylinkLevelGained_NotFirst>
   <!-- EN: Upon gaining the new psylink level, {USER_labelShort} automatically learned these psychic powers: {2} -->
-  <LetterPsylinkLevelGained_PsycastLearned>TODO</LetterPsylinkLevelGained_PsycastLearned>
+  <LetterPsylinkLevelGained_PsycastLearned>پس از کسب سطح جدید پسالینک، {USER_labelShort} به طور خودکار این قدرت‌های روانی را یاد گرفت: {2}</LetterPsylinkLevelGained_PsycastLearned>
   
   <!-- Abilities -->
   <!-- EN: Thanks to {CASTER_nameIndef}'s psychic suggestion, {PAWN_nameIndef} has experienced an inspiration! -->
-  <LetterPsychicInspiration>TODO</LetterPsychicInspiration>
+  <LetterPsychicInspiration>به لطف پیشنهاد روانی {CASTER_nameIndef}، {PAWN_nameIndef} الهام گرفته است!</LetterPsychicInspiration>
 
   <!-- EN: Bestowing ceremony expired -->
-  <LetterLabelBestowingCeremonyExpired>TODO</LetterLabelBestowingCeremonyExpired>
+  <LetterLabelBestowingCeremonyExpired>مراسم اعطا منقضی شد</LetterLabelBestowingCeremonyExpired>
   <!-- EN: {TARGET_definite} did not show up to the bestowing ceremony. The ceremony has been cancelled. -->
-  <LetterTextBestowingCeremonyExpired>TODO</LetterTextBestowingCeremonyExpired>
+  <LetterTextBestowingCeremonyExpired>{TARGET_definite} در مراسم اعطا حاضر نشد. مراسم لغو شده است.</LetterTextBestowingCeremonyExpired>
 
   <!-- EN: {TARGET_definite}'s title changed -->
-  <LetterLabelBestowingCeremonyTitleUpdated>TODO</LetterLabelBestowingCeremonyTitleUpdated>
+  <LetterLabelBestowingCeremonyTitleUpdated>عنوان {TARGET_definite} تغییر کرد</LetterLabelBestowingCeremonyTitleUpdated>
   <!-- EN: {TARGET_definite} has gained new title since the bestowing ceremony was scheduled. In order for bestowing to match the new title, another ceremony will be scheduled soon.\n\nThe new bestowing ceremony will include the psylink rewards for all titles which were not yet awarded. -->
-  <LetterTextBestowingCeremonyTitleUpdated>TODO</LetterTextBestowingCeremonyTitleUpdated>
+  <LetterTextBestowingCeremonyTitleUpdated>{TARGET_definite} از زمان برنامه‌ریزی مراسم اعطا، عنوان جدیدی کسب کرده است. برای اینکه اعطا با عنوان جدید مطابقت داشته باشد، مراسم دیگری به زودی برنامه‌ریزی خواهد شد.\n\nمراسم اعطا جدید شامل پاداش‌های پسالینک برای تمام عناوینی خواهد بود که هنوز اعطا نشده‌اند.</LetterTextBestowingCeremonyTitleUpdated>
   
   <!-- EN: {PAWN_labelShort} received {1} honor as a sign of respect from {FACTION_name}, for gathering {3} spectators. -->
-  <LetterPartBestowingExtraHonor>TODO</LetterPartBestowingExtraHonor>
+  <LetterPartBestowingExtraHonor>{PAWN_labelShort} {1} افتخار به عنوان نشانه احترام از {FACTION_name}، برای جمع‌آوری {3} تماشاگر دریافت کرد.</LetterPartBestowingExtraHonor>
   <!-- EN: {PAWN_labelShort} received no extra honor since there weren't many spectators. -->
-  <LetterPartNoExtraHonor>TODO</LetterPartNoExtraHonor>
+  <LetterPartNoExtraHonor>{PAWN_labelShort} افتخار اضافی دریافت نکرد زیرا تماشاگران زیادی نبودند.</LetterPartNoExtraHonor>
   <!-- EN: All viewers of the ceremony received a mood bonus. -->
-  <LetterPartMoodBonus>TODO</LetterPartMoodBonus>
+  <LetterPartMoodBonus>تمام بینندگان مراسم پاداش خلق و خو دریافت کردند.</LetterPartMoodBonus>
 
   <!-- EN: Who should be credited with {0} for defeating the bandit camp? -->
-  <LetterTextHonorAward_BanditCamp>TODO</LetterTextHonorAward_BanditCamp>
+  <LetterTextHonorAward_BanditCamp>چه کسی باید برای شکست دادن اردوگاه راهزنان با {0} اعتبار داده شود؟</LetterTextHonorAward_BanditCamp>
 
   <!-- Shuttle crash -->
   <!-- EN: Shuttle crashed -->
-  <LetterLabelShuttleCrashed>TODO</LetterLabelShuttleCrashed>
+  <LetterLabelShuttleCrashed>شاتل سقوط کرد</LetterLabelShuttleCrashed>
   <!-- EN: A shuttle has crashed nearby -->
-  <LetterTextShuttleCrashed>TODO</LetterTextShuttleCrashed>
+  <LetterTextShuttleCrashed>یک شاتل در نزدیکی سقوط کرده است</LetterTextShuttleCrashed>
 
   <!-- Wanderer joins -->
   <!-- EN: Transport pod crash: {0_nameDef} -->
-  <LetterLabelWandererJoinsAbasia>TODO</LetterLabelWandererJoinsAbasia>
+  <LetterLabelWandererJoinsAbasia>سقوط کپسول حمل و نقل: {0_nameDef}</LetterLabelWandererJoinsAbasia>
   <!-- EN: A {0_title} named {0_nameDef} is crashing in a transport pod nearby.\n\n{0_nameDef} is suffering from {1_label} and will be unable to walk.\n\n{0_pronoun} will recover naturally after many days. There is also a chance of a lucky quick recovery. {1_label} can also be cured by a special operation which requires a large amount of glitterworld medicine.\n\n{0_pronoun} is willing to contribute once {0_pronoun} has recovered, but will not leave voluntarily. If you don't want {0_nameDef}, you can banish {0_objective}, sell {0_objective} into slavery or leave {0_objective} to die. However, your other colonists may find this disturbing. -->
-  <LetterTextWandererJoinsAbasia>TODO</LetterTextWandererJoinsAbasia>
+  <LetterTextWandererJoinsAbasia>یک {0_title} به نام {0_nameDef} در یک کپسول حمل و نقل در نزدیکی سقوط می‌کند.\n\n{0_nameDef} از {1_label} رنج می‌برد و قادر به راه رفتن نخواهد بود.\n\n{0_pronoun} پس از چندین روز به طور طبیعی بهبود خواهد یافت. همچنین شانس بهبودی سریع و خوش‌شانس وجود دارد. {1_label} همچنین می‌تواند با یک عمل جراحی ویژه که نیاز به مقدار زیادی داروی دنیای درخشان دارد، درمان شود.\n\n{0_pronoun} مایل به کمک است پس از بهبودی {0_pronoun}، اما به طور داوطلبانه ترک نخواهد کرد. اگر {0_nameDef} را نمی‌خواهید، می‌توانید {0_objective} را تبعید کنید، {0_objective} را به بردگی بفروشید یا {0_objective} را رها کنید تا بمیرد. با این حال، سایر مستعمره‌نشینان شما ممکن است این را آزاردهنده بدانند.</LetterTextWandererJoinsAbasia>
 
 </LanguageData>

@@ -3,363 +3,363 @@
 
   <!-- Mechanitors -->
   <!-- EN: Any mechanitor -->
-  <AnyMechanitor>TODO</AnyMechanitor>
+  <AnyMechanitor>هر مکانیتوری</AnyMechanitor>
   <!-- EN: Summoning the {LEADERKIND_label} threat will summon the following hostile mechanoids:\n\n{PAWNS}\n\nThe mechanoids will arrive in the next few hours or days. Are you ready to fight? -->
-  <BossgroupWarningDialog>TODO</BossgroupWarningDialog>
+  <BossgroupWarningDialog>احضار تهدید {LEADERKIND_label} مکانیویدهای خصمانه زیر را احضار خواهد کرد:\n\n{PAWNS}\n\nمکانیویدها در چند ساعت یا روز آینده خواهند رسید. آیا برای مبارزه آماده‌اید؟</BossgroupWarningDialog>
   <!-- EN: {PAWN_labelShort} is downed. -->
-  <MechControllerDowned>TODO</MechControllerDowned>
+  <MechControllerDowned>{PAWN_labelShort} افتاده است.</MechControllerDowned>
   <!-- EN: {PAWN_labelShort} is a prisoner. -->
-  <MechControllerImprisoned>TODO</MechControllerImprisoned>
+  <MechControllerImprisoned>{PAWN_labelShort} زندانی است.</MechControllerImprisoned>
   <!-- EN: {PAWN_labelShort} is inside {CONTAINER} -->
-  <MechControllerInsideContainer>TODO</MechControllerInsideContainer>
+  <MechControllerInsideContainer>{PAWN_labelShort} داخل {CONTAINER} است</MechControllerInsideContainer>
   <!-- EN: {PAWN_labelShort} has insufficient bandwidth -->
-  <MechControllerInsufficientBandwidth>TODO</MechControllerInsufficientBandwidth>
+  <MechControllerInsufficientBandwidth>{PAWN_labelShort} پهنای باند کافی ندارد</MechControllerInsufficientBandwidth>
   <!-- EN: {PAWN_labelShort} is in a '{MENTALSTATE_label}' mental state. -->
-  <MechControllerMentalState>TODO</MechControllerMentalState>
+  <MechControllerMentalState>{PAWN_labelShort} در وضعیت روانی '{MENTALSTATE_label}' است.</MechControllerMentalState>
   <!-- EN: Do you really want to permanently disassemble {0}?\n\nPermanently disassembling {0} will recover -->
-  <ConfirmDisassemblingMech>TODO</ConfirmDisassemblingMech>
+  <ConfirmDisassemblingMech>آیا واقعاً می‌خواهید {0} را برای همیشه جدا کنید؟\n\nجدا کردن دائمی {0} بازیابی خواهد کرد</ConfirmDisassemblingMech>
   <!-- EN: A mechanitor must be capable of smithing to create mechanoids.\n\nAre you sure you want to continue? -->
-  <ConfirmInstallMechlink_Smithing>TODO</ConfirmInstallMechlink_Smithing>
+  <ConfirmInstallMechlink_Smithing>یک مکانیتور برای ایجاد مکانیویدها باید قادر به آهنگری باشد.\n\nآیا مطمئن هستید که می‌خواهید ادامه دهید؟</ConfirmInstallMechlink_Smithing>
   <!-- EN: A mechanitor must be capable of intellectual tasks to unlock mechanitor research.\n\nAre you sure you want to continue? -->
-  <ConfirmInstallMechlink_Intellectual>TODO</ConfirmInstallMechlink_Intellectual>
+  <ConfirmInstallMechlink_Intellectual>یک مکانیتور برای باز کردن تحقیقات مکانیتور باید قادر به انجام کارهای فکری باشد.\n\nآیا مطمئن هستید که می‌خواهید ادامه دهید؟</ConfirmInstallMechlink_Intellectual>
   <!-- EN: insufficient bandwidth -->
-  <InsufficientBandwidth>TODO</InsufficientBandwidth>
+  <InsufficientBandwidth>پهنای باند ناکافی</InsufficientBandwidth>
   <!-- EN: The following mechs have been left behind by {PAWN_labelShort}:\n\n{MECHS}\n\nThe mechs will stay here until they are picked up.\n\nWould you like to set their work mode to escort so they follow {PAWN_labelShort} off the map? -->
-  <MechanitorLeftMapWithoutMechs>TODO</MechanitorLeftMapWithoutMechs>
+  <MechanitorLeftMapWithoutMechs>مکانیویدهای زیر توسط {PAWN_labelShort} جا مانده‌اند:\n\n{MECHS}\n\nمکانیویدها تا زمانی که برداشته شوند اینجا می‌مانند.\n\nآیا می‌خواهید حالت کار آن‌ها را روی اسکورت تنظیم کنید تا {PAWN_labelShort} را از نقشه دنبال کنند؟</MechanitorLeftMapWithoutMechs>
 
   <!-- Apparel -->
   <!-- EN: Any mechlord apparel -->
-  <ApparelRequirementAnyMechlordApparel>TODO</ApparelRequirementAnyMechlordApparel>
+  <ApparelRequirementAnyMechlordApparel>هر لباس مک‌لردی</ApparelRequirementAnyMechlordApparel>
   <!-- EN: or any psycaster, prestige, or mechlord apparel -->
-  <ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>TODO</ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>
+  <ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>یا هر لباس سایکستر، پرستیژ یا مک‌لردی</ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>
 
   <!-- Mech gestator -->
   <!-- EN: Gestation cycles completed -->
-  <GestationCyclesCompleted>TODO</GestationCyclesCompleted>
+  <GestationCyclesCompleted>چرخه‌های رشد تکمیل شده</GestationCyclesCompleted>
   <!-- EN: Gathered ingredients -->
-  <FormerIngredients>TODO</FormerIngredients>
+  <FormerIngredients>مواد جمع‌آوری شده</FormerIngredients>
 
   <!-- Subcore scanner -->
   <!-- EN: Ripscanning {PAWN_nameDef} will kill {PAWN_objective}. Are you sure you want to continue? -->
-  <ConfirmRipscanPawn>TODO</ConfirmRipscanPawn>
+  <ConfirmRipscanPawn>ریپ‌اسکن {PAWN_nameDef}، {PAWN_objective} را خواهد کشت. آیا مطمئن هستید که می‌خواهید ادامه دهید؟</ConfirmRipscanPawn>
   <!-- EN: Cancelling a ripscan will still kill {PAWN_nameDef}. Are you sure you want to continue? -->
-  <ConfirmCancelRipscan>TODO</ConfirmCancelRipscan>
+  <ConfirmCancelRipscan>لغو ریپ‌اسکن همچنان {PAWN_nameDef} را خواهد کشت. آیا مطمئن هستید که می‌خواهید ادامه دهید؟</ConfirmCancelRipscan>
 
   <!-- Xenogerm -->
   <!-- EN: Assemble genes -->
-  <AssembleGenes>TODO</AssembleGenes>
+  <AssembleGenes>مونتاژ ژن‌ها</AssembleGenes>
   <!-- EN: Create xenotype -->
-  <CreateXenotype>TODO</CreateXenotype>
+  <CreateXenotype>ایجاد زنوتایپ</CreateXenotype>
   <!-- EN: Select icon -->
-  <SelectIcon>TODO</SelectIcon>
+  <SelectIcon>انتخاب نماد</SelectIcon>
   <!-- EN: The icon of this xenotype. -->
-  <SelectIconDesc>TODO</SelectIconDesc>
+  <SelectIconDesc>نماد این زنوتایپ.</SelectIconDesc>
   <!-- EN: Inspect the genes inside the {0_labelShort}. -->
-  <InspectGenesDesc>TODO</InspectGenesDesc>
+  <InspectGenesDesc>ژن‌های داخل {0_labelShort} را بررسی کنید.</InspectGenesDesc>
   <!-- EN: Inspect the unborn baby's genes. -->
-  <InspectGenesHediffDesc>TODO</InspectGenesHediffDesc>
+  <InspectGenesHediffDesc>ژن‌های نوزاد متولد نشده را بررسی کنید.</InspectGenesHediffDesc>
   <!-- EN: Inspect the embryo's genes. -->
-  <InspectGenesEmbryoDesc>TODO</InspectGenesEmbryoDesc>
+  <InspectGenesEmbryoDesc>ژن‌های جنین را بررسی کنید.</InspectGenesEmbryoDesc>
   <!-- EN: No genepacks -->
-  <NoGenePacks>TODO</NoGenePacks>
+  <NoGenePacks>بدون بسته ژنی</NoGenePacks>
   <!-- EN: Start combining -->
-  <StartCombining>TODO</StartCombining>
+  <StartCombining>شروع ترکیب</StartCombining>
   <!-- EN: Selected genepacks -->
-  <SelectedGenepacks>TODO</SelectedGenepacks>
+  <SelectedGenepacks>بسته‌های ژنی انتخاب شده</SelectedGenepacks>
   <!-- EN: Genepack library -->
-  <GenepackLibrary>TODO</GenepackLibrary>
+  <GenepackLibrary>کتابخانه بسته‌های ژنی</GenepackLibrary>
   <!-- EN: Click to add or remove -->
-  <ClickToAddOrRemove>TODO</ClickToAddOrRemove>
+  <ClickToAddOrRemove>برای افزودن یا حذف کلیک کنید</ClickToAddOrRemove>
   <!-- EN: Click to add -->
-  <ClickToAdd>TODO</ClickToAdd>
+  <ClickToAdd>برای افزودن کلیک کنید</ClickToAdd>
   <!-- EN: Click to remove -->
-  <ClickToRemove>TODO</ClickToRemove>
+  <ClickToRemove>برای حذف کلیک کنید</ClickToRemove>
   <!-- EN: Select xenogerm -->
-  <SelectXenogerm>TODO</SelectXenogerm>
+  <SelectXenogerm>انتخاب ژن بیگانه</SelectXenogerm>
   <!-- EN: Warning: {PAWN_nameDef}'s genes are currently regrowing. If {PAWN_pronoun} implants {PAWN_possessive} xenogerm before {PAWN_possessive} genes are fully regrown, it will kill {PAWN_objective}.\n\nAre you sure you wish to continue? -->
-  <WarningPawnWillDieFromReimplanting>TODO</WarningPawnWillDieFromReimplanting>
+  <WarningPawnWillDieFromReimplanting>هشدار: ژن‌های {PAWN_nameDef} در حال حاضر در حال بازسازی هستند. اگر {PAWN_pronoun} ژن بیگانه {PAWN_possessive} را قبل از بازسازی کامل ژن‌های {PAWN_possessive} بکارد، {PAWN_objective} را خواهد کشت.\n\nآیا مطمئن هستید که می‌خواهید ادامه دهید؟</WarningPawnWillDieFromReimplanting>
   <!-- EN: Not enough archite capsules. -->
-  <NotEnoughArchites>TODO</NotEnoughArchites>
+  <NotEnoughArchites>کپسول‌های آرکایت کافی نیست.</NotEnoughArchites>
   <!-- EN: Xenogenes are genes derived from an implanted xenogerm. If the xenogerm is removed or replaced, the xenogenes go with it. Since xenogenes are not part of the organism's own germline DNA, they are not passed to children. -->
-  <XenogenesDesc>TODO</XenogenesDesc>
+  <XenogenesDesc>ژن‌های بیگانه ژن‌هایی هستند که از یک ژن بیگانه کاشته شده به دست می‌آیند. اگر ژن بیگانه برداشته یا جایگزین شود، ژن‌های بیگانه نیز با آن می‌روند. از آنجایی که ژن‌های بیگانه بخشی از DNA خط ژرم خود ارگانیسم نیستند، به فرزندان منتقل نمی‌شوند.</XenogenesDesc>
   <!-- EN: Germline genes are naturally-inherited genes which are in every cell in an organism's body and don't require any external support. They are passed from parent to child. -->
-  <EndogenesDesc>TODO</EndogenesDesc>
+  <EndogenesDesc>ژن‌های خط ژرم ژن‌های طبیعی به ارث رسیده هستند که در هر سلول بدن یک ارگانیسم وجود دارند و به هیچ پشتیبانی خارجی نیاز ندارند. آن‌ها از والدین به فرزند منتقل می‌شوند.</EndogenesDesc>
   <!-- EN: Member xenotypes -->
-  <MemberXenotypeChances>TODO</MemberXenotypeChances>
+  <MemberXenotypeChances>شانس زنوتایپ اعضا</MemberXenotypeChances>
   <!-- EN: xenotype name -->
-  <XenotypeName>TODO</XenotypeName>
+  <XenotypeName>نام زنوتایپ</XenotypeName>
   <!-- EN: Lock or unlock the xenotype's name. When locked, the xenotype name will not auto-regenerate when genepacks are added or removed. -->
-  <LockNameButtonDesc>TODO</LockNameButtonDesc>
+  <LockNameButtonDesc>نام زنوتایپ را قفل یا باز کنید. هنگامی که قفل باشد، نام زنوتایپ هنگام افزودن یا حذف بسته‌های ژنی به طور خودکار بازسازی نمی‌شود.</LockNameButtonDesc>
   <!-- EN: Xenotype name lock is on. Xenotype name will not regenerate when adding or removing genepacks. -->
-  <LockNameOn>TODO</LockNameOn>
+  <LockNameOn>قفل نام زنوتایپ روشن است. نام زنوتایپ هنگام افزودن یا حذف بسته‌های ژنی بازسازی نمی‌شود.</LockNameOn>
   <!-- EN: Xenotype name lock is off. Xenotype name will regenerate when adding or removing genepacks. -->
-  <LockNameOff>TODO</LockNameOff>
+  <LockNameOff>قفل نام زنوتایپ خاموش است. نام زنوتایپ هنگام افزودن یا حذف بسته‌های ژنی بازسازی می‌شود.</LockNameOff>
   <!-- EN: Creating xenogerm -->
-  <CreatingXenogerm>TODO</CreatingXenogerm>
+  <CreatingXenogerm>در حال ایجاد ژن بیگانه</CreatingXenogerm>
   <!-- EN: This genepack is contained in an unpowered genebank. If added, production on the xenogerm will be suspended until power is restored. -->
-  <GenepackUnusableGenebankUnpowered>TODO</GenepackUnusableGenebankUnpowered>
+  <GenepackUnusableGenebankUnpowered>این بسته ژنی در یک بانک ژن بدون برق قرار دارد. اگر اضافه شود، تولید ژن بیگانه تا زمان بازگشت برق متوقف خواهد شد.</GenepackUnusableGenebankUnpowered>
   <!-- EN: This xenogerm requires more genetic complexity than the gene assembler and nearby powered gene processors can support. -->
-  <GeneProcessorUnpowered>TODO</GeneProcessorUnpowered>
+  <GeneProcessorUnpowered>این ژن بیگانه به پیچیدگی ژنتیکی بیشتری نسبت به آنچه مونتاژکننده ژن و پردازنده‌های ژن برق‌دار نزدیک می‌توانند پشتیبانی کنند، نیاز دارد.</GeneProcessorUnpowered>
   <!-- EN: Estimated recombination time -->
-  <RecombineDuration>TODO</RecombineDuration>
+  <RecombineDuration>زمان تخمینی ترکیب مجدد</RecombineDuration>
   <!-- EN: How long it would take for an average worker to combine the selected genes into a xenogerm. Recombination time increases with the total complexity of the genes in the xenogerm. -->
-  <RecombineDurationDesc>TODO</RecombineDurationDesc>
+  <RecombineDurationDesc>مدت زمانی که طول می‌کشد تا یک کارگر متوسط ژن‌های انتخاب شده را در یک ژن بیگانه ترکیب کند. زمان ترکیب مجدد با پیچیدگی کل ژن‌ها در ژن بیگانه افزایش می‌یابد.</RecombineDurationDesc>
   <!-- EN: You must research {0_label} before you can assemble a xenogerm that requires archite capsules. -->
-  <MustResearchProject>TODO</MustResearchProject>
+  <MustResearchProject>شما باید {0_label} را تحقیق کنید قبل از اینکه بتوانید یک ژن بیگانه که به کپسول‌های آرکایت نیاز دارد مونتاژ کنید.</MustResearchProject>
   <!-- EN: Assembling xenogerms with archite genes requires {0_label} research. -->
-  <AssemblingRequiresResearch>TODO</AssemblingRequiresResearch>
+  <AssemblingRequiresResearch>مونتاژ ژن‌های بیگانه با ژن‌های آرکایت نیاز به تحقیق {0_label} دارد.</AssemblingRequiresResearch>
   <!-- EN: You are currently combining a {XENOGERMNAME} xenogerm. If you start combining a new xenogerm, it will cancel your current xenogerm.\n\nAre you sure you want to continue? -->
-  <ConfirmStartNewXenogerm>TODO</ConfirmStartNewXenogerm>
+  <ConfirmStartNewXenogerm>شما در حال حاضر در حال ترکیب یک ژن بیگانه {XENOGERMNAME} هستید. اگر شروع به ترکیب یک ژن بیگانه جدید کنید، ژن بیگانه فعلی شما لغو خواهد شد.\n\nآیا مطمئن هستید که می‌خواهید ادامه دهید؟</ConfirmStartNewXenogerm>
   <!-- EN: Select at least one gene to randomize a name for this xenotype. -->
-  <SelectAGeneToRandomizeName>TODO</SelectAGeneToRandomizeName>
+  <SelectAGeneToRandomizeName>حداقل یک ژن را انتخاب کنید تا نامی برای این زنوتایپ به صورت تصادفی ایجاد شود.</SelectAGeneToRandomizeName>
   <!-- EN: Select at least one gene to choose a name for this xenotype. -->
-  <SelectAGeneToChooseAName>TODO</SelectAGeneToChooseAName>
+  <SelectAGeneToChooseAName>حداقل یک ژن را انتخاب کنید تا نامی برای این زنوتایپ انتخاب کنید.</SelectAGeneToChooseAName>
 
   <!-- View genes -->
   <!-- EN: Inspect genes -->
-  <InspectGenes>TODO</InspectGenes>
+  <InspectGenes>بررسی ژن‌ها</InspectGenes>
   <!-- EN: Inspect baby genes -->
-  <InspectBabyGenes>TODO</InspectBabyGenes>
+  <InspectBabyGenes>بررسی ژن‌های نوزاد</InspectBabyGenes>
   <!-- EN: no xenogerm implanted -->
-  <NoXenogermImplanted>TODO</NoXenogermImplanted>
+  <NoXenogermImplanted>هیچ ژن بیگانه کاشته نشده است</NoXenogermImplanted>
   <!-- EN: germline genes -->
-  <Endogenes>TODO</Endogenes>
+  <Endogenes>ژن‌های خط ژرم</Endogenes>
   <!-- EN: xenogenes -->
-  <Xenogenes>TODO</Xenogenes>
+  <Xenogenes>ژن‌های بیگانه</Xenogenes>
   <!-- EN: overridden -->
-  <Overridden>TODO</Overridden>
+  <Overridden>بازنویسی شده</Overridden>
   <!-- EN: Overridden by gene -->
-  <OverriddenByGene>TODO</OverriddenByGene>
+  <OverriddenByGene>بازنویسی شده توسط ژن</OverriddenByGene>
   <!-- EN: Overridden by identical gene -->
-  <OverriddenByIdenticalGene>TODO</OverriddenByIdenticalGene>
+  <OverriddenByIdenticalGene>بازنویسی شده توسط ژن یکسان</OverriddenByIdenticalGene>
   <!-- EN: More information is available on this xenotype's information screen. -->
-  <MoreInfoInInfoScreen>TODO</MoreInfoInInfoScreen>
+  <MoreInfoInInfoScreen>اطلاعات بیشتر در صفحه اطلاعات این زنوتایپ موجود است.</MoreInfoInInfoScreen>
   <!-- EN: Takes effect after age -->
-  <TakesEffectAfterAge>TODO</TakesEffectAfterAge>
+  <TakesEffectAfterAge>پس از سن اثر می‌گذارد</TakesEffectAfterAge>
 
   <!-- Xenotype editor -->
   <!-- EN: Xenotype editor -->
-  <XenotypeEditor>TODO</XenotypeEditor>
+  <XenotypeEditor>ویرایشگر زنوتایپ</XenotypeEditor>
   <!-- EN: Any (non-archite) -->
-  <AnyNonArchite>TODO</AnyNonArchite>
+  <AnyNonArchite>هر (غیر آرکایت)</AnyNonArchite>
   <!-- EN: Selected genes -->
-  <SelectedGenes>TODO</SelectedGenes>
+  <SelectedGenes>ژن‌های انتخاب شده</SelectedGenes>
   <!-- EN: custom -->
-  <Custom>TODO</Custom>
+  <Custom>سفارشی</Custom>
   <!-- EN: hybrid -->
-  <Hybrid>TODO</Hybrid>
+  <Hybrid>هیبرید</Hybrid>
   <!-- EN: Genes are heritable -->
-  <GenesAreInheritable>TODO</GenesAreInheritable>
+  <GenesAreInheritable>ژن‌ها قابل وراثت هستند</GenesAreInheritable>
   <!-- EN: Whether or not this xenotype can be passed on to children. -->
-  <GenesAreInheritableXenotypeDef>TODO</GenesAreInheritableXenotypeDef>
+  <GenesAreInheritableXenotypeDef>اینکه آیا این زنوتایپ می‌تواند به فرزندان منتقل شود یا خیر.</GenesAreInheritableXenotypeDef>
   <!-- EN: All genes in this xenotype can be passed on to children. -->
-  <GenesAreInheritableDesc>TODO</GenesAreInheritableDesc>
+  <GenesAreInheritableDesc>تمام ژن‌های این زنوتایپ می‌توانند به فرزندان منتقل شوند.</GenesAreInheritableDesc>
   <!-- EN: For each individual, one of the following genes will be randomly selected to be active -->
-  <GeneWillBeRandomChosen>TODO</GeneWillBeRandomChosen>
+  <GeneWillBeRandomChosen>برای هر فرد، یکی از ژن‌های زیر به صورت تصادفی برای فعال شدن انتخاب می‌شود</GeneWillBeRandomChosen>
   <!-- EN: This gene is incompatible with other genes in this xenotype. Only one of these genes will be active -->
-  <GeneIncompatibleDesc>TODO</GeneIncompatibleDesc>
+  <GeneIncompatibleDesc>این ژن با ژن‌های دیگر در این زنوتایپ ناسازگار است. فقط یکی از این ژن‌ها فعال خواهد بود</GeneIncompatibleDesc>
   <!-- EN: Of the following genes, the left-most one will always apply and the others are suppressed -->
-  <GeneLeftmostActive>TODO</GeneLeftmostActive>
+  <GeneLeftmostActive>از ژن‌های زیر، ژن سمت چپ همیشه اعمال می‌شود و بقیه سرکوب می‌شوند</GeneLeftmostActive>
   <!-- EN: Of the following genes, only one will apply and the others will be suppressed -->
-  <GeneOneActive>TODO</GeneOneActive>
+  <GeneOneActive>از ژن‌های زیر، فقط یکی اعمال می‌شود و بقیه سرکوب می‌شوند</GeneOneActive>
   <!-- EN: Changing xenotype will randomize this colonist.\n\nContinue anyway? -->
-  <WarnChangingXenotypeWillRandomizePawn>TODO</WarnChangingXenotypeWillRandomizePawn>
+  <WarnChangingXenotypeWillRandomizePawn>تغییر زنوتایپ این مستعمره‌نشین را تصادفی می‌کند.\n\nبا این حال ادامه می‌دهید؟</WarnChangingXenotypeWillRandomizePawn>
   <!-- EN: Delete this xenotype. -->
-  <DeleteThisXenotype>TODO</DeleteThisXenotype>
+  <DeleteThisXenotype>حذف این زنوتایپ.</DeleteThisXenotype>
   <!-- EN: Ignore restrictions -->
-  <IgnoreRestrictions>TODO</IgnoreRestrictions>
+  <IgnoreRestrictions>نادیده گرفتن محدودیت‌ها</IgnoreRestrictions>
   <!-- EN: Created xenotypes have no biostat limits. Genes requiring archite capsules can be added. -->
-  <IgnoreRestrictionsDesc>TODO</IgnoreRestrictionsDesc>
+  <IgnoreRestrictionsDesc>زنوتایپ‌های ایجاد شده محدودیت بیواستات ندارند. ژن‌هایی که به کپسول‌های آرکایت نیاز دارند می‌توانند اضافه شوند.</IgnoreRestrictionsDesc>
   <!-- EN: This xenotype breaks normal gameplay limits -->
-  <XenotypeBreaksLimits>TODO</XenotypeBreaksLimits>
+  <XenotypeBreaksLimits>این زنوتایپ محدودیت‌های عادی گیم‌پلی را می‌شکند</XenotypeBreaksLimits>
   <!-- EN: It contains archite genes and is inheritable, but archite genes are usually never inheritable. -->
-  <XenotypeBreaksLimits_Archites>TODO</XenotypeBreaksLimits_Archites>
+  <XenotypeBreaksLimits_Archites>این شامل ژن‌های آرکایت است و قابل وراثت است، اما ژن‌های آرکایت معمولاً هرگز قابل وراثت نیستند.</XenotypeBreaksLimits_Archites>
   <!-- EN: {STAT} is {VALUE}, which exceeds the normal limit of {MAX}. -->
-  <XenotypeBreaksLimits_Exceeds>TODO</XenotypeBreaksLimits_Exceeds>
+  <XenotypeBreaksLimits_Exceeds>{STAT} برابر با {VALUE} است که از حد عادی {MAX} فراتر می‌رود.</XenotypeBreaksLimits_Exceeds>
   <!-- EN: {STAT} is {VALUE}, which is below the normal limit of {MIN}. -->
-  <XenotypeBreaksLimits_Below>TODO</XenotypeBreaksLimits_Below>
+  <XenotypeBreaksLimits_Below>{STAT} برابر با {VALUE} است که کمتر از حد عادی {MIN} است.</XenotypeBreaksLimits_Below>
   <!-- EN: Save anyway? -->
-  <SaveAnyway>TODO</SaveAnyway>
+  <SaveAnyway>با این حال ذخیره شود؟</SaveAnyway>
   <!-- EN: Ignoring restrictions allows you to create impossible gene combinations by exceeding biostat limits. It also gives you access to powerful archite genes, which can make the game very easy.\n\nAre you sure you want to ignore restrictions? -->
-  <IgnoreRestrictionsConfirmation>TODO</IgnoreRestrictionsConfirmation>
+  <IgnoreRestrictionsConfirmation>نادیده گرفتن محدودیت‌ها به شما امکان می‌دهد با تجاوز از محدودیت‌های بیواستات، ترکیب‌های ژنی غیرممکن ایجاد کنید. همچنین به شما دسترسی به ژن‌های قدرتمند آرکایت می‌دهد که می‌تواند بازی را بسیار آسان کند.\n\nآیا مطمئن هستید که می‌خواهید محدودیت‌ها را نادیده بگیرید؟</IgnoreRestrictionsConfirmation>
   <!-- EN: Colonists will always be within this developmental stage's age range when generated. -->
-  <DevelopmentalAgeSelectionDesc>TODO</DevelopmentalAgeSelectionDesc>
+  <DevelopmentalAgeSelectionDesc>مستعمره‌نشینان هنگام تولید همیشه در محدوده سنی این مرحله رشد خواهند بود.</DevelopmentalAgeSelectionDesc>
   <!-- EN: Colonists will always carry the genes defined by this xenotype. -->
-  <XenotypeSelectionDesc>TODO</XenotypeSelectionDesc>
+  <XenotypeSelectionDesc>مستعمره‌نشینان همیشه ژن‌های تعریف شده توسط این زنوتایپ را حمل خواهند کرد.</XenotypeSelectionDesc>
   <!-- EN: Save and apply -->
-  <SaveAndApply>TODO</SaveAndApply>
+  <SaveAndApply>ذخیره و اعمال</SaveAndApply>
   <!-- EN: Load custom -->
-  <LoadCustom>TODO</LoadCustom>
+  <LoadCustom>بارگیری سفارشی</LoadCustom>
   <!-- EN: Load premade -->
-  <LoadPremade>TODO</LoadPremade>
+  <LoadPremade>بارگیری پیش‌ساخته</LoadPremade>
   <!-- EN: Genes conflict -->
-  <GenesConflict>TODO</GenesConflict>
+  <GenesConflict>ژن‌ها متضاد هستند</GenesConflict>
   <!-- EN: {FIRST_label}, {SECOND_label} -->
-  <GenesConflictDesc>TODO</GenesConflictDesc>
+  <GenesConflictDesc>{FIRST_label}، {SECOND_label}</GenesConflictDesc>
 
   <!-- Xenogerm editor -->
   <!-- EN: Load template -->
-  <LoadXenogermTemplate>TODO</LoadXenogermTemplate>
+  <LoadXenogermTemplate>بارگیری الگو</LoadXenogermTemplate>
   <!-- EN: Save template -->
-  <SaveXenogermTemplate>TODO</SaveXenogermTemplate>
+  <SaveXenogermTemplate>ذخیره الگو</SaveXenogermTemplate>
   <!-- EN: Cannot save a template with no {0}. -->
-  <CannotSaveXenogermTemplate>TODO</CannotSaveXenogermTemplate>
+  <CannotSaveXenogermTemplate>نمی‌توان الگویی بدون {0} ذخیره کرد.</CannotSaveXenogermTemplate>
   <!-- EN: {NAME} template saved -->
-  <XenogermTemplateSaved>TODO</XenogermTemplateSaved>
+  <XenogermTemplateSaved>الگوی {NAME} ذخیره شد</XenogermTemplateSaved>
   <!-- EN: Missing {COUNT} genepacks for {NAME} template. -->
-  <MissingGenepacksForXenogerm>TODO</MissingGenepacksForXenogerm>
+  <MissingGenepacksForXenogerm>{COUNT} بسته ژنی برای الگوی {NAME} گم شده است.</MissingGeningsForXenogerm>
   <!-- EN: Missing genepack for {NAME} template -->
-  <MissingGenepackForXenogerm>TODO</MissingGenepackForXenogerm>
+  <MissingGenepackForXenogerm>بسته ژنی برای الگوی {NAME} گم شده است</MissingGenepackForXenogerm>
   <!-- EN: Delete this xenogerm. -->
-  <DeleteThisXenogerm>TODO</DeleteThisXenogerm>
+  <DeleteThisXenogerm>حذف این ژن بیگانه.</DeleteThisXenogerm>
 
   <!-- Babies -->
   <!-- EN: Select at least one child or adult. -->
-  <ChooseChildOrAdult>TODO</ChooseChildOrAdult>
+  <ChooseChildOrAdult>حداقل یک کودک یا بزرگسال را انتخاب کنید.</ChooseChildOrAdult>
 
   <!-- Deathrest -->
   <!-- EN: Waking {PAWN_nameDef} before {MINDURATION} has passed will interrupt {PAWN_possessive} deathrest, leaving {PAWN_objective} sick for days while {PAWN_pronoun} recovers. Waking early means {PAWN_nameDef} will not benefit from any deathrest buildings. {PAWN_pronoun} has been deathresting for {CURDURATION}.\n\nAre you sure you wish to wake {PAWN_nameDef}? -->
-  <WarningWakingInterruptsDeathrest>TODO</WarningWakingInterruptsDeathrest>
+  <WarningWakingInterruptsDeathrest>بیدار کردن {PAWN_nameDef} قبل از گذشت {MINDURATION} استراحت مرگ {PAWN_possessive} را قطع می‌کند و {PAWN_objective} را برای روزها بیمار می‌کند در حالی که {PAWN_pronoun} بهبود می‌یابد. بیدار شدن زودهنگام به این معنی است که {PAWN_nameDef} از هیچ ساختمان استراحت مرگ بهره‌ای نخواهد برد. {PAWN_pronoun} به مدت {CURDURATION} در حال استراحت مرگ بوده است.\n\nآیا مطمئن هستید که می‌خواهید {PAWN_nameDef} را بیدار کنید؟</WarningWakingInterruptsDeathrest>
 
   <!-- Text motes -->
   <!-- EN: {0} wounds tended -->
-  <NumWoundsTended>TODO</NumWoundsTended>
+  <NumWoundsTended>{0} زخم درمان شد</NumWoundsTended>
 
   <!-- Mechs -->
   <!-- EN: Weight class -->
-  <MechWeightClass>TODO</MechWeightClass>
+  <MechWeightClass>رده وزنی</MechWeightClass>
   <!-- EN: The weight class of this mech. -->
-  <MechWeightClassExplanation>TODO</MechWeightClassExplanation>
+  <MechWeightClassExplanation>رده وزنی این مکانیوید.</MechWeightClassExplanation>
   <!-- EN: This mech's overseer is {0}. -->
-  <MechOverseer>TODO</MechOverseer>
+  <MechOverseer>ناظر این مکانیوید {0} است.</MechOverseer>
   <!-- EN: Work activities -->
-  <MechWorkActivities>TODO</MechWorkActivities>
+  <MechWorkActivities>فعالیت‌های کاری</MechWorkActivities>
   <!-- EN: The work activities that can be performed by this mechanoid.\n\nThe following list details which work activities can be done within each work type -->
-  <MechWorkActivitiesExplanation>TODO</MechWorkActivitiesExplanation>
+  <MechWorkActivitiesExplanation>فعالیت‌های کاری که این مکانیوید می‌تواند انجام دهد.\n\nلیست زیر جزئیات فعالیت‌های کاری را که می‌توان در هر نوع کار انجام داد، نشان می‌دهد</MechWorkActivitiesExplanation>
   <!-- EN: Recharge settings -->
-  <MechRechargeSettingsTitle>TODO</MechRechargeSettingsTitle>
+  <MechRechargeSettingsTitle>تنظیمات شارژ مجدد</MechRechargeSettingsTitle>
   <!-- EN: Change when mechanoids will start and stop charging.\n\nMechanoids with energy below this range will automatically seek out a recharger. They will stop charging once they reach the top of this range. These settings only apply in work mode. -->
-  <MechRechargeSettingsExplanation>TODO</MechRechargeSettingsExplanation>
+  <MechRechargeSettingsExplanation>زمان شروع و توقف شارژ مکانیویدها را تغییر دهید.\n\nمکانیویدهایی که انرژی آن‌ها زیر این محدوده باشد، به طور خودکار به دنبال شارژر می‌گردند. آن‌ها پس از رسیدن به بالای این محدوده، شارژ را متوقف می‌کنند. این تنظیمات فقط در حالت کار اعمال می‌شوند.</MechRechargeSettingsExplanation>
   <!-- EN: Work skill -->
-  <MechWorkSkill>TODO</MechWorkSkill>
+  <MechWorkSkill>مهارت کار</MechWorkSkill>
   <!-- EN: The skill level that this mechanoid acts with. -->
-  <MechWorkSkillDesc>TODO</MechWorkSkillDesc>
+  <MechWorkSkillDesc>سطح مهارتی که این مکانیوید با آن عمل می‌کند.</MechWorkSkillDesc>
   <!-- EN: Any mech -->
-  <AnyMech>TODO</AnyMech>
+  <AnyMech>هر مکانیوید</AnyMech>
   <!-- EN: Any human -->
-  <AnyNonMech>TODO</AnyNonMech>
+  <AnyNonMech>هر انسانی</AnyNonMech>
   <!-- EN: Your caravan contains a mechanoid but not their overseer. You will have limited control over the mechanoid when you reach your destination. -->
-  <CaravanLacksMechMechanitorWarning>TODO</CaravanLacksMechMechanitorWarning>
+  <CaravanLacksMechMechanitorWarning>کاروان شما حاوی یک مکانیوید است اما ناظر آن نیست. هنگام رسیدن به مقصد، کنترل محدودی بر مکانیوید خواهید داشت.</CaravanLacksMechMechanitorWarning>
   <!-- EN: Mechanoids -->
-  <MechsSection>TODO</MechsSection>
+  <MechsSection>مکانیویدها</MechsSection>
 
   <!-- Pawn naming -->
   <!-- EN: Rename mech -->
-  <RenameMech>TODO</RenameMech>
+  <RenameMech>تغییر نام مکانیوید</RenameMech>
   <!-- EN: The mech's name is now {0}. -->
-  <MechGainsName>TODO</MechGainsName>
+  <MechGainsName>نام مکانیوید اکنون {0} است.</MechGainsName>
 
   <!-- EN: {FATHER_nameDef} is {MOTHER_nameDef}'s {RELATION}. There's a {CHANCE} chance that the resulting baby will have genetic abnormalities due to inbreeding.\n\nAre you sure you want to continue? -->
-  <FertilizeOvumInbredChance>TODO</FertilizeOvumInbredChance>
+  <FertilizeOvumInbredChance>{FATHER_nameDef} {RELATION} {MOTHER_nameDef} است. {CHANCE} شانس وجود دارد که نوزاد حاصل به دلیل همخونی ناهنجاری‌های ژنتیکی داشته باشد.\n\nآیا مطمئن هستید که می‌خواهید ادامه دهید؟</FertilizeOvumInbredChance>
 
   <!-- EN: {PAWN_nameDef} is pregnant. Implanting an IUD while {PAWN_pronoun} is in {PAWN_possessive} first trimester of pregnancy will terminate the pregnancy.\n\nAre you sure you want to continue? -->
-  <ConfirmationPawnPregnancyTerminated>TODO</ConfirmationPawnPregnancyTerminated>
+  <ConfirmationPawnPregnancyTerminated>{PAWN_nameDef} باردار است. کاشت IUD در حالی که {PAWN_pronoun} در سه ماهه اول بارداری {PAWN_possessive} است، بارداری را خاتمه می‌دهد.\n\nآیا مطمئن هستید که می‌خواهید ادامه دهید؟</ConfirmationPawnPregnancyTerminated>
 
   <!-- Pollution -->
   <!-- EN: This tile is near polluted tiles, so there will be an acidic smog here roughly every {0} days. Acidic smog slows plant growth, deteriorates exposed items, and makes people unhappy. -->
-  <ConfirmSettleNearPollution>TODO</ConfirmSettleNearPollution>
+  <ConfirmSettleNearPollution>این کاشی نزدیک کاشی‌های آلوده است، بنابراین تقریباً هر {0} روز یک مه اسیدی در اینجا وجود خواهد داشت. مه اسیدی رشد گیاهان را کند می‌کند، اقلام در معرض را خراب می‌کند و مردم را ناراضی می‌کند.</ConfirmSettleNearPollution>
 
   <!-- Pregnancy -->
   <!-- EN: {PAWN_nameDef} is away. -->
-  <PawnIsAway>TODO</PawnIsAway>
+  <PawnIsAway>{PAWN_nameDef} دور است.</PawnIsAway>
   <!-- EN: {PAWN1_nameDef} and {PAWN2_nameDef} are the same gender. -->
-  <PawnsHaveSameGender>TODO</PawnsHaveSameGender>
+  <PawnsHaveSameGender>{PAWN1_nameDef} و {PAWN2_nameDef} همجنس هستند.</PawnsHaveSameGender>
   <!-- EN: {PAWN1_nameDef} and {PAWN2_nameDef} are sterile. -->
-  <PawnsAreSterile>TODO</PawnsAreSterile>
+  <PawnsAreSterile>{PAWN1_nameDef} و {PAWN2_nameDef} نابارور هستند.</PawnsAreSterile>
   <!-- EN: {PAWN_nameDef} is sterile. -->
-  <PawnIsSterile>TODO</PawnIsSterile>
+  <PawnIsSterile>{PAWN_nameDef} نابارور است.</PawnIsSterile>
   <!-- EN: {PAWN1_nameDef} and {PAWN2_nameDef} are infertile. -->
-  <PawnsAreInfertile>TODO</PawnsAreInfertile>
+  <PawnsAreInfertile>{PAWN1_nameDef} و {PAWN2_nameDef} نازا هستند.</PawnsAreInfertile>
   <!-- EN: {PAWN_nameDef} is infertile. -->
-  <PawnIsInfertile>TODO</PawnIsInfertile>
+  <PawnIsInfertile>{PAWN_nameDef} نازا است.</PawnIsInfertile>
   <!-- EN: {PAWN1_nameDef} and {PAWN2_nameDef} are too young to have children. -->
-  <PawnsAreTooYoung>TODO</PawnsAreTooYoung>
+  <PawnsAreTooYoung>{PAWN1_nameDef} و {PAWN2_nameDef} برای داشتن فرزند خیلی جوان هستند.</PawnsAreTooYoung>
   <!-- EN: {PAWN_nameDef} is too young to have children. -->
-  <PawnIsTooYoung>TODO</PawnIsTooYoung>
+  <PawnIsTooYoung>{PAWN_nameDef} برای داشتن فرزند خیلی جوان است.</PawnIsTooYoung>
   <!-- EN: {PAWN_nameDef} is dead. -->
-  <PawnIsDead>TODO</PawnIsDead>
+  <PawnIsDead>{PAWN_nameDef} مرده است.</PawnIsDead>
 
   <!-- EN: Placing {PAWN_nameDef} into cryptosleep will strain {PAWN_possessive} psychic bond with {BOND_nameDef}, causing stress to both partners.\n\nAre you sure you want to continue? -->
-  <PsychicBondDistanceWillBeActive_Cryptosleep>TODO</PsychicBondDistanceWillBeActive_Cryptosleep>
+  <PsychicBondDistanceWillBeActive_Cryptosleep>قرار دادن {PAWN_nameDef} در کریپتوسلیپ به پیوند روانی {PAWN_possessive} با {BOND_nameDef} فشار وارد می‌کند و باعث استرس برای هر دو شریک می‌شود.\n\nآیا مطمئن هستید که می‌خواهید ادامه دهید؟</PsychicBondDistanceWillBeActive_Cryptosleep>
   <!-- EN: Someone in this caravan is psychically bonded by their partner is not coming with them. These people will be stressed if separated from their bond-partners -->
-  <PsychicBondDistanceWillBeActive_Caravan>TODO</PsychicBondDistanceWillBeActive_Caravan>
+  <PsychicBondDistanceWillBeActive_Caravan>شخصی در این کاروان توسط شریک خود پیوند روانی دارد اما شریکش با آن‌ها نمی‌آید. این افراد در صورت جدا شدن از شرکای پیوند خود دچار استرس خواهند شد</PsychicBondDistanceWillBeActive_Caravan>
   <!-- EN: partner {0_nameFull} -->
-  <Partner>TODO</Partner>
+  <Partner>شریک {0_nameFull}</Partner>
 
 
   <!-- EN: Choose mech accent color -->
-  <ChooseMechAccentColor>TODO</ChooseMechAccentColor>
+  <ChooseMechAccentColor>انتخاب رنگ برجسته مکانیوید</ChooseMechAccentColor>
 
   <!-- Faction specific comms overrides -->
   <!-- EN: {0} squeals a string of curses into the microphone and disconnects. -->
-  <PigFactionGreetingHostile>TODO</PigFactionGreetingHostile>
+  <PigFactionGreetingHostile>{0} رشته‌ای از ناسزاها را در میکروفون جیغ می‌کشد و قطع می‌کند.</PigFactionGreetingHostile>
   <!-- EN: Oinking angrily, {0} demands that you make a gesture of unity, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed. Until then, {0_pronoun} is unwilling to talk.\n\nSnorting an insult, {0_pronoun} disconnects. -->
-  <PigFactionGreetingHostileAppreciative>TODO</PigFactionGreetingHostileAppreciative>
+  <PigFactionGreetingHostileAppreciative>با عصبانیت خوک‌خوک‌کنان، {0} از شما می‌خواهد که حرکتی از وحدت انجام دهید، مانند آوردن هدایا به یکی از سکونتگاه‌های {0_possessive} یا آزاد کردن زندانیان جناح {0_possessive} بدون آسیب. تا آن زمان، {0_pronoun} مایل به صحبت نیست.\n\nبا پوزخند توهین‌آمیز، {0_pronoun} قطع می‌کند.</PigFactionGreetingHostileAppreciative>
   <!-- EN: {0} oinks a greeting and asks what business you need done. -->
-  <PigFactionGreetingWary>TODO</PigFactionGreetingWary>
+  <PigFactionGreetingWary>{0} با خوک‌خوک سلام می‌کند و می‌پرسد چه کاری دارید.</PigFactionGreetingWary>
   <!-- EN: Oinking enthusiastically, {0} greets {NEGOTIATOR_labelShort} and asks what {LEADER_pronoun} can do to help you. -->
-  <PigFactionGreetingWarm>TODO</PigFactionGreetingWarm>
+  <PigFactionGreetingWarm>با اشتیاق خوک‌خوک‌کنان، {0} به {NEGOTIATOR_labelShort} سلام می‌کند و می‌پرسد {LEADER_pronoun} چه کاری می‌تواند برای کمک به شما انجام دهد.</PigFactionGreetingWarm>
   <!-- EN: {0} agrees to send pigskin fighters to help you. -->
-  <PigMilitaryAidSent>TODO</PigMilitaryAidSent>
+  <PigMilitaryAidSent>{0} موافقت می‌کند جنگجویان پوست خوک را برای کمک به شما بفرستد.</PigMilitaryAidSent>
 
   <!-- EN: {0} roars into the microphone and disconnects. -->
-  <YttakinFactionGreetingHostile>TODO</YttakinFactionGreetingHostile>
+  <YttakinFactionGreetingHostile>{0} در میکروفون غرش می‌کند و قطع می‌کند.</YttakinFactionGreetingHostile>
   <!-- EN: Growling under {0_possessive} breath, {0} demands that you make a gesture of friendship, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed. Until then, {0_pronoun} is unwilling to talk.\n\nSnarling an insult, {0_pronoun} disconnects. -->
-  <YttakinFactionGreetingHostileAppreciative>TODO</YttakinFactionGreetingHostileAppreciative>
+  <YttakinFactionGreetingHostileAppreciative>با غرغر زیر لب {0_possessive}، {0} از شما می‌خواهد که حرکتی از دوستی انجام دهید، مانند آوردن هدایا به یکی از سکونتگاه‌های {0_possessive} یا آزاد کردن زندانیان جناح {0_possessive} بدون آسیب. تا آن زمان، {0_pronoun} مایل به صحبت نیست.\n\nبا پوزخند توهین‌آمیز، {0_pronoun} قطع می‌کند.</YttakinFactionGreetingHostileAppreciative>
   <!-- EN: {0} grumbles a greeting to {NEGOTIATOR_labelShort} and asks why you are calling. -->
-  <YttakinFactionGreetingWary>TODO</YttakinFactionGreetingWary>
+  <YttakinFactionGreetingWary>{0} با غرغر به {NEGOTIATOR_labelShort} سلام می‌کند و می‌پرسد چرا تماس می‌گیرید.</YttakinFactionGreetingWary>
   <!-- EN: {0} bellows a friendly greeting and asks what {LEADER_pronoun} can do to help you. -->
-  <YttakinFactionGreetingWarm>TODO</YttakinFactionGreetingWarm>
+  <YttakinFactionGreetingWarm>{0} با نعره‌ای دوستانه سلام می‌کند و می‌پرسد {LEADER_pronoun} چه کاری می‌تواند برای کمک به شما انجام دهد.</YttakinFactionGreetingWarm>
 
   <!-- EN: {0} grunts angrily and disconnects. -->
-  <NeanderthalFactionGreetingHostile>TODO</NeanderthalFactionGreetingHostile>
+  <NeanderthalFactionGreetingHostile>{0} با عصبانیت غرغر می‌کند و قطع می‌کند.</NeanderthalFactionGreetingHostile>
   <!-- EN: {0} grunts aggressively. Until you make a gesture of goodwill, {0_pronoun} will not do business with you. You can improve relations through a number of activities, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed.\n\n{0_pronoun} disconnects abruptly. -->
-  <NeanderthalFactionGreetingHostileAppreciative>TODO</NeanderthalFactionGreetingHostileAppreciative>
+  <NeanderthalFactionGreetingHostileAppreciative>{0} با پرخاشگری غرغر می‌کند. تا زمانی که حرکتی از حسن نیت انجام ندهید، {0_pronoun} با شما معامله نخواهد کرد. می‌توانید روابط را از طریق تعدادی فعالیت بهبود بخشید، مانند آوردن هدایا به یکی از سکونتگاه‌های {0_possessive} یا آزاد کردن زندانیان جناح {0_possessive} بدون آسیب.\n\n{0_pronoun} ناگهان قطع می‌کند.</NeanderthalFactionGreetingHostileAppreciative>
   <!-- EN: {0} grunts a greeting. -->
-  <NeanderthalFactionGreetingWary>TODO</NeanderthalFactionGreetingWary>
+  <NeanderthalFactionGreetingWary>{0} با غرغر سلام می‌کند.</NeanderthalFactionGreetingWary>
   <!-- EN: {0} grunts a warm greeting to {NEGOTIATOR_labelShort}. -->
-  <NeanderthalFactionGreetingWarm>TODO</NeanderthalFactionGreetingWarm>
+  <NeanderthalFactionGreetingWarm>{0} با غرغر گرم به {NEGOTIATOR_labelShort} سلام می‌کند.</NeanderthalFactionGreetingWarm>
 
   <!-- EN: Max tier -->
-  <MaxTier>TODO</MaxTier>
+  <MaxTier>حداکثر سطح</MaxTier>
   <!-- EN: {PAWN_nameDef} has accumulated the maximum number of growth points. -->
-  <MaxTierDesc>TODO</MaxTierDesc>
+  <MaxTierDesc>{PAWN_nameDef} حداکثر تعداد امتیازات رشد را جمع‌آوری کرده است.</MaxTierDesc>
   <!-- EN: Progress to next growth tier -->
-  <ProgressToNextGrowthTier>TODO</ProgressToNextGrowthTier>
+  <ProgressToNextGrowthTier>پیشرفت به سطح رشد بعدی</ProgressToNextGrowthTier>
   <!-- EN: This growth tier -->
-  <ThisGrowthTier>TODO</ThisGrowthTier>
+  <ThisGrowthTier>این سطح رشد</ThisGrowthTier>
   <!-- EN: Next growth tier -->
-  <NextGrowthTier>TODO</NextGrowthTier>
+  <NextGrowthTier>سطح رشد بعدی</NextGrowthTier>
   <!-- EN: Choose {0} passions from {1} options. -->
-  <NumPassionsFromOptions>TODO</NumPassionsFromOptions>
+  <NumPassionsFromOptions>{0} اشتیاق از {1} گزینه انتخاب کنید.</NumPassionsFromOptions>
   <!-- EN: Choose {0} trait from {1} options. -->
-  <NumTraitsFromOptions>TODO</NumTraitsFromOptions>
+  <NumTraitsFromOptions>{0} ویژگی از {1} گزینه انتخاب کنید.</NumTraitsFromOptions>
   <!-- EN: Next growth moment at age -->
-  <NextGrowthMomentAt>TODO</NextGrowthMomentAt>
+  <NextGrowthMomentAt>لحظه رشد بعدی در سن</NextGrowthMomentAt>
 
   <!-- EN: no biotech buildings allowed -->
-  <RoomRequirementNoBiotechBuildings>TODO</RoomRequirementNoBiotechBuildings>
+  <RoomRequirementNoBiotechBuildings>ساختمان‌های بیوتک مجاز نیستند</RoomRequirementNoBiotechBuildings>
 
   <!-- EN: Bloodfeeding on {PAWN_nameDef} will result in serious blood loss, leaving {PAWN_objective} unconscious.\n\nAre you sure? -->
-  <WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>TODO</WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>
+  <WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>تغذیه خون از {PAWN_nameDef} منجر به خونریزی شدید می‌شود و {PAWN_objective} را بیهوش می‌کند.\n\nآیا مطمئن هستید؟</WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>
   <!-- EN: Bloodfeeding on {PAWN_nameDef} will kill {PAWN_objective}.\n\nAre you sure? -->
-  <WarningPawnWillDieFromBloodfeeding>TODO</WarningPawnWillDieFromBloodfeeding>
+  <WarningPawnWillDieFromBloodfeeding>تغذیه خون از {PAWN_nameDef}، {PAWN_objective} را خواهد کشت.\n\nآیا مطمئن هستید؟</WarningPawnWillDieFromBloodfeeding>
 
   <!-- EN: {0_labelShort} must have a tendable wound. -->
-  <AbilityMustHaveTendableWound>TODO</AbilityMustHaveTendableWound>
+  <AbilityMustHaveTendableWound>{0_labelShort} باید زخم قابل درمان داشته باشد.</AbilityMustHaveTendableWound>
 
   <!-- Abandon home (including mechs) -->
   <!-- EN: Some of your colonists, animals or mechanoids are in this area. Are you sure you want to abandon it?\n\nThe following people, animals and mechs will be left behind:\n\n{0} -->
-  <ConfirmAbandonHomeWithColonyPawnsIncMechs>TODO</ConfirmAbandonHomeWithColonyPawnsIncMechs>
+  <ConfirmAbandonHomeWithColonyPawnsIncMechs>برخی از مستعمره‌نشینان، حیوانات یا مکانیویدهای شما در این منطقه هستند. آیا مطمئن هستید که می‌خواهید آن را رها کنید؟\n\nافراد، حیوانات و مکانیویدهای زیر جا خواهند ماند:\n\n{0}</ConfirmAbandonHomeWithColonyPawnsIncMechs>
 
 </LanguageData>

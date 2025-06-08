@@ -2,122 +2,122 @@
 <LanguageData>
 
   <!-- EN: Uncontrolled mechs -->
-  <AlertMechLacksOverseer>TODO</AlertMechLacksOverseer>
+  <AlertMechLacksOverseer>مکانیویدهای کنترل نشده</AlertMechLacksOverseer>
   <!-- EN: One or more of your mechanoids is not controlled. Connect your mechanoids to a mechanitor with sufficient bandwidth to control them.\n\nIf left uncontrolled for more than a day, a mechanoid could go feral. When this happens they will join {0} and become hostile to you. If one mechanoid goes feral, it will bring other nearby mechanoids with it.\n\nFeral mechanoids cannot be resurrected at a gestator when killed. -->
-  <AlertMechLacksOverseerDesc>TODO</AlertMechLacksOverseerDesc>
+  <AlertMechLacksOverseerDesc>یک یا چند مکانیوید شما کنترل نشده‌اند. مکانیویدهای خود را به یک مکانیتور با پهنای باند کافی برای کنترل آن‌ها متصل کنید.\n\nاگر بیش از یک روز کنترل نشده بمانند، یک مکانیوید می‌تواند وحشی شود. هنگامی که این اتفاق می‌افتد، آن‌ها به {0} می‌پیوندند و نسبت به شما خصمانه می‌شوند. اگر یک مکانیوید وحشی شود، مکانیویدهای نزدیک دیگر را نیز با خود می‌آورد.\n\nمکانیویدهای وحشی را نمی‌توان پس از کشته شدن در دستگاه رشد احیا کرد.</AlertMechLacksOverseerDesc>
   <!-- EN: The following mechanoids are uncontrolled -->
-  <AlertMechLacksOverseerUncontrolled>TODO</AlertMechLacksOverseerUncontrolled>
+  <AlertMechLacksOverseerUncontrolled>مکانیویدهای زیر کنترل نشده‌اند</AlertMechLacksOverseerUncontrolled>
   <!-- EN: The following mechanoids are uncontrolled and could go feral at any moment -->
-  <AlertMechLacksOverseerMayGoFeral>TODO</AlertMechLacksOverseerMayGoFeral>
+  <AlertMechLacksOverseerMayGoFeral>مکانیویدهای زیر کنترل نشده‌اند و ممکن است هر لحظه وحشی شوند</AlertMechLacksOverseerMayGoFeral>
 
   <!-- EN: {0} is low on resources -->
-  <AlertWarqueenHasLowResources>TODO</AlertWarqueenHasLowResources>
+  <AlertWarqueenHasLowResources>{0} منابع کمی دارد</AlertWarqueenHasLowResources>
   <!-- EN: One or more {0} are low on resoures. They will be unable to produce mechs on command if they run out of resources. -->
-  <AlertWarqueenHasLowResourcesDesc>TODO</AlertWarqueenHasLowResourcesDesc>
+  <AlertWarqueenHasLowResourcesDesc>یک یا چند {0} منابع کمی دارند. اگر منابعشان تمام شود، قادر به تولید مکانیوید به دستور نخواهند بود.</AlertWarqueenHasLowResourcesDesc>
 
   <!-- EN: {PAWN} needs deathrest -->
-  <AlertLowDeathrestPawn>TODO</AlertLowDeathrestPawn>
+  <AlertLowDeathrestPawn>{PAWN} نیاز به استراحت مرگ دارد</AlertLowDeathrestPawn>
   <!-- EN: {NUMCULPRITS} colonists need deathrest -->
-  <AlertLowDeathrestPawns>TODO</AlertLowDeathrestPawns>
+  <AlertLowDeathrestPawns>{NUMCULPRITS} مستعمره‌نشین نیاز به استراحت مرگ دارند</AlertLowDeathrestPawns>
   <!-- EN: A colonist has not deathrested for a long time. If they go too long without deathrest, they will suffer from deathrest exhaustion.\n\nTo deathrest, select the colonist then right-click on their assigned bed or deathrest casket.\n\nThese people need deathrest:\n{CULPRITS} -->
-  <AlertLowDeathrestDesc>TODO</AlertLowDeathrestDesc>
+  <AlertLowDeathrestDesc>یک مستعمره‌نشین مدت زیادی استراحت مرگ نداشته است. اگر مدت زیادی بدون استراحت مرگ بمانند، دچار خستگی استراحت مرگ می‌شوند.\n\nبرای استراحت مرگ، مستعمره‌نشین را انتخاب کرده و سپس روی تخت یا تابوت استراحت مرگ اختصاص داده شده به او کلیک راست کنید.\n\nاین افراد نیاز به استراحت مرگ دارند:\n{CULPRITS}</AlertLowDeathrestDesc>
 
   <!-- EN: Low hemogen -->
-  <AlertLowHemogen>TODO</AlertLowHemogen>
+  <AlertLowHemogen>هموژن کم</AlertLowHemogen>
   <!-- EN: A colonist has low hemogen. At zero hemogen, they will develop a painful hemogen craving.\n\nFeed them hemogen packs to prevent this. You can obtain hemogen packs using the 'extract hemogen pack' medical operation on a non-hemogenic human.\n\nThe following colonists have low hemogen -->
-  <AlertLowHemogenDesc>TODO</AlertLowHemogenDesc>
+  <AlertLowHemogenDesc>یک مستعمره‌نشین هموژن کمی دارد. در صفر هموژن، آن‌ها دچار هوس دردناک هموژن می‌شوند.\n\nبرای جلوگیری از این، به آن‌ها بسته‌های هموژن بدهید. می‌توانید بسته‌های هموژن را با استفاده از عمل پزشکی 'استخراج بسته هموژن' روی یک انسان غیرهموژنیک به دست آورید.\n\nمستعمره‌نشینان زیر هموژن کمی دارند</AlertLowHemogenDesc>
 
   <!-- EN: Recharger full -->
-  <AlertRechargerFull>TODO</AlertRechargerFull>
+  <AlertRechargerFull>شارژر پر است</AlertRechargerFull>
   <!-- EN: Some mech recharger(s) are storing their maximum number of toxic wastepacks. Mechs can't use these chargers until the toxic wastepacks are hauled away.\n\nSelect a colonist and right-click a recharger to unload it. -->
-  <AlertRechargerFullDesc>TODO</AlertRechargerFullDesc>
+  <AlertRechargerFullDesc>یک یا چند شارژر مکانیوید حداکثر تعداد بسته‌های زباله سمی خود را ذخیره کرده‌اند. مکانیویدها نمی‌توانند از این شارژرها استفاده کنند تا زمانی که بسته‌های زباله سمی حمل شوند.\n\nیک مستعمره‌نشین را انتخاب کرده و روی یک شارژر کلیک راست کنید تا آن را تخلیه کند.</AlertRechargerFullDesc>
 
   <!-- EN: Need mech rechargers -->
-  <AlertNeedMechChargers>TODO</AlertNeedMechChargers>
+  <AlertNeedMechChargers>نیاز به شارژرهای مکانیوید</AlertNeedMechChargers>
   <!-- EN: You don't have rechargers for all your mechanoids. If a mech runs out of energy, it will fall into a dormant self-charging state and will recharge very slowly.\n\nBuild more of the following chargers:\n{0}\n\nNote: Only light mechanoids can use regular mech rechargers. Medium or heavier mechanoids require large mech rechargers. -->
-  <AlertNeedMechChargersDesc>TODO</AlertNeedMechChargersDesc>
+  <AlertNeedMechChargersDesc>شما برای تمام مکانیویدهای خود شارژر ندارید. اگر انرژی یک مکانیوید تمام شود، به حالت خاموشی خودکار فرو می‌رود و بسیار آهسته شارژ می‌شود.\n\nشارژرهای زیر را بیشتر بسازید:\n{0}\n\nتوجه: فقط مکانیویدهای سبک می‌توانند از شارژرهای مکانیوید معمولی استفاده کنند. مکانیویدهای متوسط یا سنگین‌تر نیاز به شارژرهای مکانیوید بزرگ دارند.</AlertNeedMechChargersDesc>
   <!-- EN: Research basic mechtech or higher to build rechargers. -->
-  <AlertNeedMechChargerBasicMechtech>TODO</AlertNeedMechChargerBasicMechtech>
+  <AlertNeedMechChargerBasicMechtech>برای ساخت شارژرها، فناوری پایه مکانیوید یا بالاتر را تحقیق کنید.</AlertNeedMechChargerBasicMechtech>
 
   <!-- EN: Reimplantation available -->
-  <AlertReimplantationAvailable>TODO</AlertReimplantationAvailable>
+  <AlertReimplantationAvailable>کاشت مجدد موجود است</AlertReimplantationAvailable>
   <!-- EN: {0_nameDef} is waiting to reimplant {0_possessive} xenogerm into one of your colonists. -->
-  <AlertReimplantationAvailableDesc>TODO</AlertReimplantationAvailableDesc>
+  <AlertReimplantationAvailableDesc>{0_nameDef} منتظر است تا ژن بیگانه {0_possessive} را در یکی از مستعمره‌نشینان شما دوباره بکارد.</AlertReimplantationAvailableDesc>
 
   <!-- EN: Low baby food -->
-  <AlertLowBabyFood>TODO</AlertLowBabyFood>
+  <AlertLowBabyFood>غذای کودک کم</AlertLowBabyFood>
   <!-- EN: You are dangerously low on baby food.\n\n    Babies needing food: {0}\n    Days worth of baby food in storage: {1}\n\nBuy, find or make some baby-edible food. This includes {2}. -->
-  <AlertLowBabyFoodDesc>TODO</AlertLowBabyFoodDesc>
+  <AlertLowBabyFoodDesc>شما به شدت کمبود غذای کودک دارید.\n\n    نوزادان نیازمند غذا: {0}\n    میزان غذای کودک در انبار برای چند روز: {1}\n\nغذای قابل خوردن برای نوزاد بخرید، پیدا کنید یا درست کنید. این شامل {2} است.</AlertLowBabyFoodDesc>
   <!-- EN: No baby feeders -->
-  <AlertNoBabyFeeder>TODO</AlertNoBabyFeeder>
+  <AlertNoBabyFeeder>بدون تغذیه‌کننده نوزاد</AlertNoBabyFeeder>
   <!-- EN: No {FACTION_pawnsPlural} are assigned to feed these babies, or they're all downed.\n\nAssign one of your {FACTION_pawnsPlural} to childcare or assign a lactating {FACTION_pawnSingular} to feed these babies with Urgent priority in the babies' feeding tab, and ensure at least one of them is not downed. -->
-  <AlertNoBabyFeederDesc>TODO</AlertNoBabyFeederDesc>
+  <AlertNoBabyFeederDesc>هیچ {FACTION_pawnsPlural} برای تغذیه این نوزادان اختصاص داده نشده است، یا همه آن‌ها افتاده‌اند.\n\nیکی از {FACTION_pawnsPlural} خود را به مراقبت از کودک اختصاص دهید یا یک {FACTION_pawnSingular} شیرده را با اولویت فوری در تب تغذیه نوزادان برای تغذیه این نوزادان اختصاص دهید، و اطمینان حاصل کنید که حداقل یکی از آن‌ها افتاده نیست.</AlertNoBabyFeederDesc>
   <!-- EN: Abandoned baby -->
-  <AlertAbandonedBaby>TODO</AlertAbandonedBaby>
+  <AlertAbandonedBaby>نوزاد رها شده</AlertAbandonedBaby>
   <!-- EN: There are abandoned babies nearby with no closeby caregivers.  If you don't adopt the babies, they'll probably starve to death.\n\nTo adopt a baby, select it and then select "{0}". -->
-  <AlertAbandonedBabyDesc>TODO</AlertAbandonedBabyDesc>
+  <AlertAbandonedBabyDesc>نوزادان رها شده‌ای در نزدیکی وجود دارند که هیچ مراقب نزدیکی ندارند. اگر نوزادان را نپذیرید، احتمالاً از گرسنگی خواهند مرد.\n\nبرای پذیرش نوزاد، آن را انتخاب کرده و سپس "{0}" را انتخاب کنید.</AlertAbandonedBabyDesc>
 
   <!-- EN: No baby food in caravan -->
-  <AlertNoBabyFoodCaravan>TODO</AlertNoBabyFoodCaravan>
+  <AlertNoBabyFoodCaravan>بدون غذای کودک در کاروان</AlertNoBabyFoodCaravan>
   <!-- EN: Babies on this caravan have no baby food and no lactating {FACTION_pawnsPlural} are set to feed them. -->
-  <AlertNoBabyFoodCaravanDesc>TODO</AlertNoBabyFoodCaravanDesc>
+  <AlertNoBabyFoodCaravanDesc>نوزادان در این کاروان غذای کودک ندارند و هیچ {FACTION_pawnsPlural} شیردهی برای تغذیه آن‌ها تعیین نشده است.</AlertNoBabyFoodCaravanDesc>
 
   <!-- EN: Toxic buildup -->
-  <AlertToxicBuildup>TODO</AlertToxicBuildup>
+  <AlertToxicBuildup>تجمع سم</AlertToxicBuildup>
   <!-- EN: These colonists have serious toxic buildup:\n\n{0}\n\nMove them away from toxic sources.\n\nToxic buildup can be caused by many things including toxic fallout, tox gas, and polluted terrain. -->
-  <AlertToxicBuildupDesc>TODO</AlertToxicBuildupDesc>
+  <AlertToxicBuildupDesc>این مستعمره‌نشینان تجمع سم جدی دارند:\n\n{0}\n\nآن‌ها را از منابع سمی دور کنید.\n\nتجمع سم می‌تواند ناشی از عوامل زیادی از جمله بارش سمی، گاز سمی و زمین آلوده باشد.</AlertToxicBuildupDesc>
 
   <!-- EN: Need baby cribs -->
-  <AlertNeedBabyCribs>TODO</AlertNeedBabyCribs>
+  <AlertNeedBabyCribs>نیاز به گهواره نوزاد</AlertNeedBabyCribs>
   <!-- EN: You have more babies than cribs.\n\nMake more cribs or, if you have no resources to spare, place some baby sleeping spots for free. -->
-  <AlertNeedBabyCribsDesc>TODO</AlertNeedBabyCribsDesc>
+  <AlertNeedBabyCribsDesc>شما نوزادان بیشتری نسبت به گهواره دارید.\n\nگهواره‌های بیشتری بسازید یا اگر منابع اضافی ندارید، چند جای خواب نوزاد را به صورت رایگان قرار دهید.</AlertNeedBabyCribsDesc>
   <!-- EN: Need slave cribs -->
-  <AlertNeedSlaveCribs>TODO</AlertNeedSlaveCribs>
+  <AlertNeedSlaveCribs>نیاز به گهواره برده</AlertNeedSlaveCribs>
   <!-- EN: You have more slave babies than you have cribs marked for slave use.\n\nEither make more cribs or change a colonist crib to a slave crib.\n\nIf you have no resources, baby sleeping spots are free and can be placed instantly. -->
-  <AlertNeedSlaveCribsDesc>TODO</AlertNeedSlaveCribsDesc>
+  <AlertNeedSlaveCribsDesc>شما نوزادان برده بیشتری نسبت به گهواره‌های مشخص شده برای استفاده بردگان دارید.\n\nیا گهواره‌های بیشتری بسازید یا یک گهواره مستعمره‌نشین را به گهواره برده تغییر دهید.\n\nاگر منابعی ندارید، جای خواب نوزاد رایگان است و می‌توان فوراً آن‌ها را قرار داد.</AlertNeedSlaveC SlaveCribsDesc>
 
   <!-- EN: Polluted terrain -->
-  <AlertPollutedTerrain>TODO</AlertPollutedTerrain>
+  <AlertPollutedTerrain>زمین آلوده</AlertPollutedTerrain>
   <!-- EN: A person or animal is suffering toxic buildup and is on polluted terrain. Any time someone is on polluted terrain, their toxic buildup will increase over time until they die.\n\nThese people or animals are affected:\n\n{0}\n\nKeep people off polluted terrain, or find a way to protect them from its effects. Certain apparel, implants and gene modifications can protect from toxic buildup. Polluted terrain cannot be covered using a floor, but it can be cleaned by hand and other methods. -->
-  <AlertPollutedTerrainDesc>TODO</AlertPollutedTerrainDesc>
+  <AlertPollutedTerrainDesc>یک فرد یا حیوان دچار تجمع سم شده و روی زمین آلوده قرار دارد. هر زمان که کسی روی زمین آلوده باشد، تجمع سم در بدن او به مرور زمان افزایش می‌یابد تا زمانی که بمیرد.\n\nاین افراد یا حیوانات تحت تأثیر قرار گرفته‌اند:\n\n{0}\n\nافراد را از زمین آلوده دور نگه دارید، یا راهی برای محافظت از آن‌ها در برابر اثرات آن پیدا کنید. برخی لباس‌ها، ایمپلنت‌ها و تغییرات ژنی می‌توانند از تجمع سم محافظت کنند. زمین آلوده را نمی‌توان با کفپوش پوشاند، اما می‌توان آن را با دست و روش‌های دیگر تمیز کرد.</AlertPollutedTerrainDesc>
 
   <!-- EN: Mechanoid missing part -->
-  <AlertMechMissingBodyPart>TODO</AlertMechMissingBodyPart>
+  <AlertMechMissingBodyPart>مکانیوید قطعه‌ای گم کرده است</AlertMechMissingBodyPart>
   <!-- EN: Mechanoids missing parts -->
-  <AlertMechsMissingBodyPart>TODO</AlertMechsMissingBodyPart>
+  <AlertMechsMissingBodyPart>مکانیویدها قطعاتی گم کرده‌اند</AlertMechsMissingBodyPart>
   <!-- EN: One or more of your mechanoids are missing a body part. A mechanitor can repair lost parts.\n\nThe mechanoids with lost body parts are -->
-  <AlertMechMissingBodyPartDesc>TODO</AlertMechMissingBodyPartDesc>
+  <AlertMechMissingBodyPartDesc>یک یا چند مکانیوید شما قطعه‌ای از بدن خود را گم کرده‌اند. یک مکانیتور می‌تواند قطعات گم شده را تعمیر کند.\n\nمکانیویدهایی که قطعات بدن خود را گم کرده‌اند عبارتند از</AlertMechMissingBodyPartDesc>
 
   <!-- EN: Mechanoid repair needed -->
-  <AlertMechNeedsRepair>TODO</AlertMechNeedsRepair>
+  <AlertMechNeedsRepair>نیاز به تعمیر مکانیوید</AlertMechNeedsRepair>
   <!-- EN: These mechanoids are damaged and need repair -->
-  <AlertMechNeedsRepairDescPrefix>TODO</AlertMechNeedsRepairDescPrefix>
+  <AlertMechNeedsRepairDescPrefix>این مکانیویدها آسیب دیده‌اند و نیاز به تعمیر دارند</AlertMechNeedsRepairDescPrefix>
   <!-- EN: Order a mechanitor to repair them, or select the mech and turn on auto-repair. Repairing a mechanoid requires energy. If a mechanoid's energy is so low it can't move, someone must carry it to a recharger. -->
-  <AlertMechNeedsRepairDesc>TODO</AlertMechNeedsRepairDesc>
-  
+  <AlertMechNeedsRepairDesc>به یک مکانیتور دستور دهید آن‌ها را تعمیر کند، یا مکانیوید را انتخاب کرده و تعمیر خودکار را روشن کنید. تعمیر مکانیوید نیاز به انرژی دارد. اگر انرژی یک مکانیوید آنقدر کم باشد که نتواند حرکت کند، کسی باید آن را به شارژر حمل کند.</AlertMechMechNeedsRepairDesc>
+
   <!-- EN: {0} stopped -->
-  <AlertToxifierGeneratorStopped>TODO</AlertToxifierGeneratorStopped>
+  <AlertToxifierGeneratorStopped>{0} متوقف شد</AlertToxifierGeneratorStopped>
   <!-- EN: Your {0} is not producing power because it has no nearby fertile terrain to convert.\n\nClean polluted terrain with pollution pumps, or by assigning a pollution removal area. -->
-  <AlertToxifierGeneratorStoppedDesc>TODO</AlertToxifierGeneratorStoppedDesc>
+  <AlertToxifierGeneratorStoppedDesc>{0} شما برق تولید نمی‌کند زیرا زمین حاصلخیز نزدیکی برای تبدیل ندارد.\n\nزمین آلوده را با پمپ‌های آلودگی یا با اختصاص منطقه حذف آلودگی تمیز کنید.</AlertToxifierGeneratorStoppedDesc>
 
   <!-- EN: Psychic bond distance -->
-  <AlertPsychicBondedPawnsSeparated>TODO</AlertPsychicBondedPawnsSeparated>
+  <AlertPsychicBondedPawnsSeparated>فاصله پیوند روانی</AlertPsychicBondedPawnsSeparated>
   <!-- EN: Some colonists with psychic bonds have been separated and are feeling negative effects from the distance. To avoid this, people with a psychic bond must be in the same world tile, caravan, or vehicle. Additionally, they must not be in cryptosleep or similar suspended animation.\n\nThe following people are affected -->
-  <AlertPsychicBondedPawnsSeparatedDesc>TODO</AlertPsychicBondedPawnsSeparatedDesc>
+  <AlertPsychicBondedPawnsSeparatedDesc>برخی از مستعمره‌نشینان با پیوندهای روانی از هم جدا شده‌اند و از فاصله اثرات منفی احساس می‌کنند. برای جلوگیری از این، افراد با پیوند روانی باید در یک کاشی جهانی، کاروان یا وسیله نقلیه باشند. علاوه بر این، آن‌ها نباید در کریپتوسلیپ یا انیمیشن معلق مشابه باشند.\n\nافراد زیر تحت تأثیر قرار گرفته‌اند</AlertPsychicBondedPawnsSeparatedDesc>
 
   <!-- EN: Gene bank needs power -->
-  <AlertGenebankUnpowered>TODO</AlertGenebankUnpowered>
+  <AlertGenebankUnpowered>بانک ژن نیاز به برق دارد</AlertGenebankUnpowered>
   <!-- EN: A gene bank is unpowered, so the genepacks inside it are slowly deteriorating. Restore power to the gene bank to prevent the genepacks from deteriorating.\n\nOnce the gene bank is powered, it will slowly reverse the deterioration of the genepacks inside it. -->
-  <AlertGenebankUnpoweredDesc>TODO</AlertGenebankUnpoweredDesc>
+  <AlertGenebankUnpoweredDesc>یک بانک ژن بدون برق است، بنابراین بسته‌های ژنی داخل آن به آرامی در حال خراب شدن هستند. برق بانک ژن را وصل کنید تا از خراب شدن بسته‌های ژنی جلوگیری شود.\n\nهنگامی که بانک ژن برق‌دار شود، به آرامی خراب شدن بسته‌های ژنی داخل آن را معکوس می‌کند.</AlertGenebankUnpoweredDesc>
 
   <!-- EN: {0} incoming -->
-  <AlertBossgroupIncoming>TODO</AlertBossgroupIncoming>
+  <AlertBossgroupIncoming>{0} در حال ورود</AlertBossgroupIncoming>
   <!-- EN: Signaled by your mechanitor, a hostile {0} is approaching with its combat escort. Be prepared, this won't be an easy fight. The hostile mechanoids will arrive in a few hours or days. -->
-  <AlertBossgroupIncomingDesc>TODO</AlertBossgroupIncomingDesc>
+  <AlertBossgroupIncomingDesc>با سیگنال مکانیتور شما، یک {0} خصمانه با اسکورت رزمی خود نزدیک می‌شود. آماده باشید، این نبرد آسانی نخواهد بود. مکانیویدهای خصمانه در چند ساعت یا روز آینده خواهند رسید.</AlertBossgroupIncomingDesc>
 
   <!-- EN: Deathrest complete -->
-  <AlertDeathrestComplete>TODO</AlertDeathrestComplete>
+  <AlertDeathrestComplete>استراحت مرگ کامل شد</AlertDeathrestComplete>
   <!-- EN: The following people have completed their deathrest and can wake up safely -->
-  <AlertDeathrestCompleteDesc>TODO</AlertDeathrestCompleteDesc>
+  <AlertDeathrestCompleteDesc>افراد زیر استراحت مرگ خود را کامل کرده‌اند و می‌توانند با خیال راحت بیدار شوند</AlertDeathrestCompleteDesc>
 
 </LanguageData>

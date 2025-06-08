@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <!-- EN: Assign to group -->
-  <DesignatorMechControlGroup>TODO</DesignatorMechControlGroup>
+  <DesignatorMechControlGroup>اختصاص به گروه</DesignatorMechControlGroup>
   <!-- EN: Assign the selected mech(s) to another control group under their current mechanitor overseer. -->
-  <DesignatorMechControlGroupDesc>TODO</DesignatorMechControlGroupDesc>
+  <DesignatorMechControlGroupDesc>مکانیوید(های) انتخاب شده را به گروه کنترل دیگری تحت ناظر مکانیتور فعلی آن‌ها اختصاص دهید.</DesignatorMechControlGroupDesc>
   <!-- EN: However, a {0} can build this. -->
-  <MechCanBuildThis>TODO</MechCanBuildThis>
+  <MechCanBuildThis>با این حال، یک {0} می‌تواند این را بسازد.</MechCanBuildThis>
 
   <!-- EN: Adopt -->
-  <DesignatorAdopt>TODO</DesignatorAdopt>
+  <DesignatorAdopt>پذیرش</DesignatorAdopt>
   <!-- EN: Adopt this baby as a colonist. The baby will instantly become one of yours. -->
-  <DesignatorAdoptDesc>TODO</DesignatorAdoptDesc>
+  <DesignatorAdoptDesc>این نوزاد را به عنوان مستعمره‌نشین بپذیرید. نوزاد فوراً یکی از شما خواهد شد.</DesignatorAdoptDesc>
   <!-- EN: Choose mech color... -->
-  <ChooseMechColor>TODO</ChooseMechColor>
+  <ChooseMechColor>انتخاب رنگ مکانیوید...</ChooseMechColor>
 
   <!-- EN: Pollution removal area -->
-  <DesignatorAreaPollutionClearExpand>TODO</DesignatorAreaPollutionClearExpand>
+  <DesignatorAreaPollutionClearExpand>منطقه حذف آلودگی</DesignatorAreaPollutionClearExpand>
   <!-- EN: Designate an area where colonists will manually clean polluted terrain. Cleaning the terrain removes pollution from the ground and packages it into toxic wastepacks which can be carried away. -->
-  <DesignatorAreaPollutionClearExpandDesc>TODO</DesignatorAreaPollutionClearExpandDesc>
+  <DesignatorAreaPollutionClearExpandDesc>منطقه‌ای را تعیین کنید که مستعمره‌نشینان به صورت دستی زمین آلوده را تمیز کنند. تمیز کردن زمین آلودگی را از زمین حذف کرده و آن را در بسته‌های زباله سمی بسته‌بندی می‌کند که می‌توان آن‌ها را حمل کرد.</DesignatorAreaPollutionClearExpandDesc>
   <!-- EN: Clear pollution removal area -->
-  <DesignatorAreaPollutionClearClear>TODO</DesignatorAreaPollutionClearClear>
+  <DesignatorAreaPollutionClearClear>پاک کردن منطقه حذف آلودگی</DesignatorAreaPollutionClearClear>
   <!-- EN: Removes the pollution removal area. Colonists will no longer manually extract pollution from the terrain in this area. -->
-  <DesignatorAreaPollutionClearClearDesc>TODO</DesignatorAreaPollutionClearClearDesc>
+  <DesignatorAreaPollutionClearClearDesc>منطقه حذف آلودگی را حذف می‌کند. مستعمره‌نشینان دیگر به صورت دستی آلودگی را از زمین در این منطقه استخراج نخواهند کرد.</DesignatorAreaPollutionClearClearDesc>
 
 
 </LanguageData>

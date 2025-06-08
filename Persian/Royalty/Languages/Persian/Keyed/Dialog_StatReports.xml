@@ -2,28 +2,28 @@
 <LanguageData>
   
   <!-- EN: Minimum title ({FACTION_name}) -->
-  <Stat_Thing_MinimumRoyalTitle_Name>TODO</Stat_Thing_MinimumRoyalTitle_Name>
-  <!-- EN: {FACTION_name} has laws which limit the use of this implant to those with specific titles. Simply having the implant installed is undetectable, but if you use it, there is a chance they will detect the psychic emissions. This will cause diplomatic consequences. -->
-  <Stat_Thing_MinimumRoyalTitle_Desc>TODO</Stat_Thing_MinimumRoyalTitle_Desc>
+  <Stat_Thing_MinimumRoyalTitle_Name>حداقل عنوان ({FACTION_name})</Stat_Thing_MinimumRoyalTitle_Name>
+  <!-- EN: {FACTION_name} has laws which limit the use of this implant to those with specific titles. Simply having the implant installed is undetectable, but if you use it, there is a chance they will detect its psychic signature. This will cause diplomatic consequences. -->
+  <Stat_Thing_MinimumRoyalTitle_Desc>{FACTION_name} قوانینی دارد که استفاده از این ایمپلنت را به دارندگان عناوین خاص محدود می‌کند. صرف نصب ایمپلنت قابل شناسایی نیست، اما اگر از آن استفاده کنید، احتمال دارد امضای روانی آن را شناسایی کنند. این باعث پیامدهای دیپلماتیک خواهد شد.</Stat_Thing_MinimumRoyalTitle_Desc>
   <!-- EN: {FACTION_name} has laws which limit the use of this weapon to those with specific titles. Each time you attack with the weapon, there is a chance they will detect the psychic emissions. This will cause diplomatic consequences. -->
-  <Stat_Thing_Weapon_MinimumRoyalTitle_Desc>TODO</Stat_Thing_Weapon_MinimumRoyalTitle_Desc>
+  <Stat_Thing_Weapon_MinimumRoyalTitle_Desc>{FACTION_name} قوانینی دارد که استفاده از این سلاح را به دارندگان عناوین خاص محدود می‌کند. هر بار که با سلاح حمله می‌کنید، احتمال دارد انتشار روانی آن را شناسایی کنند. این باعث پیامدهای دیپلماتیک خواهد شد.</Stat_Thing_Weapon_MinimumRoyalTitle_Desc>
   <!-- EN: Each upgrade level of this implant requires a specific title in {FACTION_name} to be used legally. -->
-  <Stat_Thing_MinimumRoyalTitle_Level_Desc>TODO</Stat_Thing_MinimumRoyalTitle_Level_Desc>
+  <Stat_Thing_MinimumRoyalTitle_Level_Desc>هر سطح ارتقا این ایمپلنت نیاز به عنوان خاصی در {FACTION_name} برای استفاده قانونی دارد.</Stat_Thing_MinimumRoyalTitle_Level_Desc>
   <!-- EN: Max satisfied title -->
-  <Stat_Thing_Apparel_MaxSatisfiedTitle>TODO</Stat_Thing_Apparel_MaxSatisfiedTitle>
+  <Stat_Thing_Apparel_MaxSatisfiedTitle>حداکثر عنوان راضی شده</Stat_Thing_Apparel_MaxSatisfiedTitle>
   <!-- EN: Highest royal title whose apparel requirements are satisfied by this. -->
-  <Stat_Thing_Apparel_MaxSatisfiedTitle_Desc>TODO</Stat_Thing_Apparel_MaxSatisfiedTitle_Desc>
+  <Stat_Thing_Apparel_MaxSatisfiedTitle_Desc>بالاترین عنوان سلطنتی که نیازهای لباس آن توسط این برآورده می‌شود.</Stat_Thing_Apparel_MaxSatisfiedTitle_Desc>
   <!-- EN: Max satisfied title -->
-  <Stat_Thing_Ingestible_MaxSatisfiedTitle>TODO</Stat_Thing_Ingestible_MaxSatisfiedTitle>
+  <Stat_Thing_Ingestible_MaxSatisfiedTitle>حداکثر عنوان راضی شده</Stat_Thing_Ingestible_MaxSatisfiedTitle>
   <!-- EN: The highest royal title whose food requirements are satisfied by this. -->
-  <Stat_Thing_Ingestible_MaxSatisfiedTitle_Desc>TODO</Stat_Thing_Ingestible_MaxSatisfiedTitle_Desc>
+  <Stat_Thing_Ingestible_MaxSatisfiedTitle_Desc>بالاترین عنوان سلطنتی که نیازهای غذایی آن توسط این برآورده می‌شود.</Stat_Thing_Ingestible_MaxSatisfiedTitle_Desc>
 
   <!-- EN: Traits -->
-  <Stat_Thing_PersonaWeaponTrait_Label>TODO</Stat_Thing_PersonaWeaponTrait_Label>
+  <Stat_Thing_PersonaWeaponTrait_Label>ویژگی‌ها</Stat_Thing_PersonaWeaponTrait_Label>
   <!-- EN: This weapon's individual traits. -->
-  <Stat_Thing_PersonaWeaponTrait_Desc>TODO</Stat_Thing_PersonaWeaponTrait_Desc>
+  <Stat_Thing_PersonaWeaponTrait_Desc>ویژگی‌های فردی این سلاح.</Stat_Thing_PersonaWeaponTrait_Desc>
 
   <!-- EN: Multiplier for pain -->
-  <StatsReport_Pain>TODO</StatsReport_Pain>
+  <StatsReport_Pain>ضریب برای درد</StatsReport_Pain>
   
 </LanguageData>

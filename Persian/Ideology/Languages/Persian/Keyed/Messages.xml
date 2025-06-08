@@ -2,156 +2,156 @@
 <LanguageData>
 
   <!-- EN: Create or select an ideoligion for your faction. -->
-  <MessageMustChooseIdeo>TODO</MessageMustChooseIdeo>
+  <MessageMustChooseIdeo>یک ایدئولوژی برای جناح خود ایجاد یا انتخاب کنید.</MessageMustChooseIdeo>
   <!-- EN: The ideoligion name can't be empty. -->
-  <MessageIdeoNameCantBeEmpty>TODO</MessageIdeoNameCantBeEmpty>
+  <MessageIdeoNameCantBeEmpty>نام ایدئولوژی نمی‌تواند خالی باشد.</MessageIdeoNameCantBeEmpty>
   <!-- EN: {PRECEPT1} and {PRECEPT2} are incompatible. -->
-  <MessageIdeoIncompatiblePrecepts>TODO</MessageIdeoIncompatiblePrecepts>
+  <MessageIdeoIncompatiblePrecepts>{PRECEPT1} و {PRECEPT2} ناسازگار هستند.</MessageIdeoIncompatiblePrecepts>
   <!-- EN: {DESIREDAPPAREL} apparel desire overlaps with {ROLE} apparel requirement. -->
-  <MessageIdeoWarnRoleApparelOverlapsDesiredApparel>TODO</MessageIdeoWarnRoleApparelOverlapsDesiredApparel>
+  <MessageIdeoWarnRoleApparelOverlapsDesiredApparel>خواسته لباس {DESIREDAPPAREL} با نیاز لباس {ROLE} همپوشانی دارد.</MessageIdeoWarnRoleApparelOverlapsDesiredApparel>
   <!-- EN: {DESIREDAPPAREL} overlaps with {ROLE} apparel requirement ({ROLEAPPAREL}). This will make it impossible for {ROLE}s to wear the required and desired apparel together. -->
-  <DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>TODO</DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>
+  <DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>{DESIREDAPPAREL} با نیاز لباس {ROLE} ({ROLEAPPAREL}) همپوشانی دارد. این باعث می‌شود {ROLE} نتوانند لباس‌های مورد نیاز و مورد نظر را با هم بپوشند.</DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>
   <!-- EN: {PRECEPT} needs one of these buildings -->
-  <MessageRitualMissingTarget>TODO</MessageRitualMissingTarget>
+  <MessageRitualMissingTarget>{PRECEPT} به یکی از این ساختمان‌ها نیاز دارد</MessageRitualMissingTarget>
   <!-- EN: {PRECEPT} needs an associated ritual. -->
-  <MessageBuildingMissingRitual>TODO</MessageBuildingMissingRitual>
+  <MessageBuildingMissingRitual>{PRECEPT} به یک مراسم مرتبط نیاز دارد.</MessageBuildingMissingRitual>
   <!-- EN: {0_labelShort} refuses to do this because of {0_possessive} ideoligion. -->
-  <MessagePawnUnwillingToDoDueToIdeo>TODO</MessagePawnUnwillingToDoDueToIdeo>
+  <MessagePawnUnwillingToDoDueToIdeo>{0_labelShort} به دلیل ایدئولوژی {0_possessive} از انجام این کار خودداری می‌کند.</MessagePawnUnwillingToDoDueToIdeo>
   <!-- EN: {INITIATOR_nameDef} tried to convert {RECIPIENT_nameDef} to {INITIATOR_possessive} ideoligion. {RECIPIENT_nameDef}'s certainty has fallen from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. {RECIPIENT_pronoun} resents the conversion attempt. -->
-  <MessageFailedConvertIdeoAttempt>TODO</MessageFailedConvertIdeoAttempt>
+  <MessageFailedConvertIdeoAttempt>{INITIATOR_nameDef} سعی کرد {RECIPIENT_nameDef} را به ایدئولوژی {INITIATOR_possessive} تبدیل کند. اطمینان {RECIPIENT_nameDef} از {CERTAINTYBEFORE} به {CERTAINTYAFTER} کاهش یافته است. {RECIPIENT_pronoun} از تلاش برای تبدیل ناراضی است.</MessageFailedConvertIdeoAttempt>
   <!-- EN: {PAWN1_nameDef} tried to convert {PAWN2_nameDef} to {PAWN1_possessive} ideoligion. This led to a social fight! -->
-  <MessageFailedConvertIdeoAttemptSocialFight>TODO</MessageFailedConvertIdeoAttemptSocialFight>
+  <MessageFailedConvertIdeoAttemptSocialFight>{PAWN1_nameDef} سعی کرد {PAWN2_nameDef} را به ایدئولوژی {PAWN1_possessive} تبدیل کند. این منجر به درگیری اجتماعی شد!</MessageFailedConvertIdeoAttemptSocialFight>
   <!-- EN: You must choose at least {0} memes. -->
-  <MessageNotEnoughMemes>TODO</MessageNotEnoughMemes>
+  <MessageNotEnoughMemes>شما باید حداقل {0} میم انتخاب کنید.</MessageNotEnoughMemes>
   <!-- EN: You can't choose more than {0} memes. -->
-  <MessageTooManyMemes>TODO</MessageTooManyMemes>
+  <MessageTooManyMemes>شما نمی‌توانید بیش از {0} میم انتخاب کنید.</MessageTooManyMemes>
   <!-- EN: You must choose a structure meme. -->
-  <MessageNotEnoughStructureMemes>TODO</MessageNotEnoughStructureMemes>
+  <MessageNotEnoughStructureMemes>شما باید یک میم ساختار انتخاب کنید.</MessageNotEnoughStructureMemes>
   <!-- EN: {0_label} and {1_label} are incompatible with each other. -->
-  <MessageIncompatibleMemes>TODO</MessageIncompatibleMemes>
+  <MessageIncompatibleMemes>{0_label} و {1_label} با یکدیگر ناسازگار هستند.</MessageIncompatibleMemes>
   <!-- EN: You need {0} to start the {1}. -->
-  <MessageNoRequiredRolePawnToBeginRitual>TODO</MessageNoRequiredRolePawnToBeginRitual>
+  <MessageNoRequiredRolePawnToBeginRitual>شما برای شروع {1} به {0} نیاز دارید.</MessageNoRequiredRolePawnToBeginRitual>
   <!-- EN: At least {0} spectator(s) are required to start the {1}. -->
-  <MessageNotEnoughSpectators>TODO</MessageNotEnoughSpectators>
+  <MessageNotEnoughSpectators>برای شروع {1} حداقل {0} تماشاگر لازم است.</MessageNotEnoughSpectators>
   <!-- EN: You must choose a role. -->
-  <MessageRoleChangeChooseDifferentRole>TODO</MessageRoleChangeChooseDifferentRole>
+  <MessageRoleChangeChooseDifferentRole>شما باید یک نقش انتخاب کنید.</MessageRoleChangeChooseDifferentRole>
   <!-- EN: Before starting the {1}, you must assign someone to the role of {0}. -->
-  <MessageNeedAssignedRoleToBeginRitual>TODO</MessageNeedAssignedRoleToBeginRitual>
+  <MessageNeedAssignedRoleToBeginRitual>قبل از شروع {1}، باید کسی را به نقش {0} اختصاص دهید.</MessageNeedAssignedRoleToBeginRitual>
   <!-- EN: Need at least one {0} participating. -->
-  <MessageNeedAtLeastOneParticipantOfIdeo>TODO</MessageNeedAtLeastOneParticipantOfIdeo>
-  
+  <MessageNeedAtLeastOneParticipantOfIdeo>نیاز به حداقل یک {0} شرکت‌کننده.</MessageNeedAtLeastOneParticipantOfIdeo>
+
   <!-- EN: {0_labelShort} now holds the role of {1}. -->
-  <MessageRoleAssigned>TODO</MessageRoleAssigned>
+  <MessageRoleAssigned>{0_labelShort} اکنون نقش {1} را بر عهده دارد.</MessageRoleAssigned>
   <!-- EN: Since {0_labelShort} became a prisoner, {0_pronoun} no longer can hold the role of {1}. -->
-  <MessageRoleUnassignedPrisoner>TODO</MessageRoleUnassignedPrisoner>
+  <MessageRoleUnassignedPrisoner>از آنجایی که {0_labelShort} زندانی شد، {0_pronoun} دیگر نمی‌تواند نقش {1} را بر عهده داشته باشد.</MessageRoleUnassignedPrisoner>
   <!-- EN: Warning: {0} will be upset if a tree is cut. -->
-  <MessageWarningPlayerDesignatedTreeChopped>TODO</MessageWarningPlayerDesignatedTreeChopped>
+  <MessageWarningPlayerDesignatedTreeChopped>هشدار: اگر درختی قطع شود، {0} ناراحت خواهد شد.</MessageWarningPlayerDesignatedTreeChopped>
   <!-- EN: Warning: {0} will be upset if mining occurs. -->
-  <MessageWarningPlayerDesignatedMining>TODO</MessageWarningPlayerDesignatedMining>
+  <MessageWarningPlayerDesignatedMining>هشدار: اگر استخراج معدن رخ دهد، {0} ناراحت خواهد شد.</MessageWarningPlayerDesignatedMining>
   <!-- EN: The {TREE_label} has had its connection with {PAWN_nameDef} torn. It must recover for {DURATION} before it can reconnect again. -->
-  <MessageConnectedPawnDied>TODO</MessageConnectedPawnDied>
+  <MessageConnectedPawnDied>اتصال {TREE_label} با {PAWN_nameDef} قطع شده است. باید برای {DURATION} بهبود یابد تا بتواند دوباره متصل شود.</MessageConnectedPawnDied>
 
   <!-- Slave interactions -->
   <!-- EN: {0_nameDef} has been emancipated by {1_nameDef}. -->
-  <MessageSlaveEmancipated>TODO</MessageSlaveEmancipated>
+  <MessageSlaveEmancipated>{0_nameDef} توسط {1_nameDef} آزاد شده است.</MessageSlaveEmancipated>
   <!-- EN: {0_nameDef} has been enslaved by {1_nameDef}. -->
-  <MessagePrisonerEnslaved>TODO</MessagePrisonerEnslaved>
+  <MessagePrisonerEnslaved>{0_nameDef} توسط {1_nameDef} به بردگی گرفته شده است.</MessagePrisonerEnslaved>
   <!-- EN: Prisoner {1_nameDef}'s will has been broken by {0_nameDef}. -->
-  <MessagePrisonerWillBroken>TODO</MessagePrisonerWillBroken>
+  <MessagePrisonerWillBroken>اراده زندانی {1_nameDef} توسط {0_nameDef} شکسته شده است.</MessagePrisonerWillBroken>
   <!-- EN: Enslavement will follow. -->
-  <MessagePrisonerWillBroken_RecruitAttempsWillBegin>TODO</MessagePrisonerWillBroken_RecruitAttempsWillBegin>
+  <MessagePrisonerWillBroken_RecruitAttempsWillBegin>بردگی در پی خواهد آمد.</MessagePrisonerWillBroken_RecruitAttempsWillBegin>
 
   <!-- Prisoner interactions -->
   <!-- EN: No warden is capable of this enslavement. -->
-  <MessageNoWardenCapableOfEnslavement>TODO</MessageNoWardenCapableOfEnslavement>
+  <MessageNoWardenCapableOfEnslavement>هیچ نگهبانی قادر به این بردگی نیست.</MessageNoWardenCapableOfEnslavement>
   <!-- EN: You have no {MEMBERNAME} wardens to convert {PRISONER_nameDef}. {PRISONER_possessive} interaction mode has reverted to "No interaction". -->
-  <MessageNoWardenOfIdeo>TODO</MessageNoWardenOfIdeo>
+  <MessageNoWardenOfIdeo>شما هیچ نگهبان {MEMBERNAME} برای تبدیل {PRISONER_nameDef} ندارید. حالت تعامل {PRISONER_possessive} به "بدون تعامل" بازگشته است.</MessageNoWardenOfIdeo>
 
   <!-- Camps -->
   <!-- EN: You've detected a {CAMP_label} nearby controlled by {FACTION_name}. -->
-  <MessageCampDetected>TODO</MessageCampDetected>
+  <MessageCampDetected>شما یک {CAMP_label} در نزدیکی که توسط {FACTION_name} کنترل می‌شود، شناسایی کرده‌اید.</MessageCampDetected>
 
   <!-- Charity -->
   <!-- EN: Charity refused -->
-  <MessageCharityEventRefused>TODO</MessageCharityEventRefused>
+  <MessageCharityEventRefused>خیریه رد شد</MessageCharityEventRefused>
   <!-- EN: Charity fulfilled -->
-  <MessageCharityEventFulfilled>TODO</MessageCharityEventFulfilled>
+  <MessageCharityEventFulfilled>خیریه انجام شد</MessageCharityEventFulfilled>
   <!-- EN: {0} are leaving empty-handed. -->
-  <MessageBeggarsLeavingWithNoItems>TODO</MessageBeggarsLeavingWithNoItems>
+  <MessageBeggarsLeavingWithNoItems>{0} دست خالی می‌روند.</MessageBeggarsLeavingWithNoItems>
   <!-- EN: The {0} has accepted the requested items and is leaving. -->
-  <MessageBeggarsLeavingWithItemsSingular>TODO</MessageBeggarsLeavingWithItemsSingular>
+  <MessageBeggarsLeavingWithItemsSingular>{0} آیتم‌های درخواست شده را پذیرفته و در حال رفتن است.</MessageBeggarsLeavingWithItemsSingular>
   <!-- EN: {0} have accepted the requested items and are leaving. -->
-  <MessageBeggarsLeavingWithItemsPlural>TODO</MessageBeggarsLeavingWithItemsPlural>
+  <MessageBeggarsLeavingWithItemsPlural>{0} آیتم‌های درخواست شده را پذیرفته و در حال رفتن هستند.</MessageBeggarsLeavingWithItemsPlural>
   <!-- EN: {0_nameDef} died without any treatment. -->
-  <MessageWandererLeftToDie>TODO</MessageWandererLeftToDie>
+  <MessageWandererLeftToDie>{0_nameDef} بدون هیچ درمانی درگذشت.</MessageWandererLeftToDie>
   <!-- EN: {0_nameDef} was recruited. -->
-  <MessageWandererRecruited>TODO</MessageWandererRecruited>
+  <MessageWandererRecruited>{0_nameDef} استخدام شد.</MessageWandererRecruited>
   <!-- EN: {0_nameDef} left healthy. -->
-  <MessageWandererLeftHealthy>TODO</MessageWandererLeftHealthy>
+  <MessageWandererLeftHealthy>{0_nameDef} سالم رفت.</MessageWandererLeftHealthy>
   <!-- EN: {0} has been failed. -->
-  <MessageCharityQuestEndedFailed>TODO</MessageCharityQuestEndedFailed>
+  <MessageCharityQuestEndedFailed>{0} ناموفق بود.</MessageCharityQuestEndedFailed>
   <!-- EN: {0} has been successfully completed. -->
-  <MessageCharityQuestEndedSuccess>TODO</MessageCharityQuestEndedSuccess>
+  <MessageCharityQuestEndedSuccess>{0} با موفقیت تکمیل شد.</MessageCharityQuestEndedSuccess>
 
   <!-- Ideo UI -->
   <!-- EN: Cannot remove -->
-  <CannotRemove>TODO</CannotRemove>
+  <CannotRemove>نمی‌توان حذف کرد</CannotRemove>
   <!-- EN: Cannot remove {MEME} -->
-  <CannotRemoveMemeRequired>TODO</CannotRemoveMemeRequired>
+  <CannotRemoveMemeRequired>نمی‌توان {MEME} را حذف کرد</CannotRemoveMemeRequired>
   <!-- EN: Cannot remove {MEME}: Required by player faction. -->
-  <CannotRemoveMemeRequiredPlayer>TODO</CannotRemoveMemeRequiredPlayer>
+  <CannotRemoveMemeRequiredPlayer>نمی‌توان {MEME} را حذف کرد: توسط جناح بازیکن مورد نیاز است.</CannotRemoveMemeRequiredPlayer>
   <!-- EN: Required by {FACTION_name}. -->
-  <RequiredByFaction>TODO</RequiredByFaction>
+  <RequiredByFaction>مورد نیاز توسط {FACTION_name}.</RequiredByFaction>
   <!-- EN: Roles cannot have overlapping apparel requirements. -->
-  <OverlappingRoleApparel>TODO</OverlappingRoleApparel>
-  
+  <OverlappingRoleApparel>نقش‌ها نمی‌توانند نیازهای لباس همپوشان داشته باشند.</OverlappingRoleApparel>
+
   <!-- EN: {0} will self-destruct in {1}. -->
-  <SelfDestructCountdown>TODO</SelfDestructCountdown>
+  <SelfDestructCountdown>{0} در {1} خود تخریب خواهد شد.</SelfDestructCountdown>
   <!-- EN: Precept name is too long (maximum {0} letters) -->
-  <PreceptNameTooLong>TODO</PreceptNameTooLong>
+  <PreceptNameTooLong>نام اصل خیلی طولانی است (حداکثر {0} حرف)</PreceptNameTooLong>
 
   <!-- Ancient complex -->
   <!-- EN: You've discovered an ancient terminal with info about the {0}! -->
-  <MessageAncientTerminalDiscovered>TODO</MessageAncientTerminalDiscovered>
+  <MessageAncientTerminalDiscovered>شما یک ترمینال باستانی با اطلاعات در مورد {0} کشف کرده‌اید!</MessageAncientTerminalDiscovered>
   <!-- EN: You've discovered secret information about {0}! Get back on the shuttle to launch it. -->
-  <MessageAncientComplexBackToShuttle>TODO</MessageAncientComplexBackToShuttle>
+  <MessageAncientComplexBackToShuttle>شما اطلاعات محرمانه در مورد {0} کشف کرده‌اید! به شاتل برگردید تا آن را پرتاب کنید.</MessageAncientComplexBackToShuttle>
   <!-- EN: An ancient supply satellite has been activated. Supplies will drop nearby. -->
-  <MessageAncientSignalActivated>TODO</MessageAncientSignalActivated>
+  <MessageAncientSignalActivated>یک ماهواره تأمین باستانی فعال شده است. تدارکات در نزدیکی فرود خواهند آمد.</MessageAncientSignalActivated>
   <!-- EN: {0} from the {1} have detected the supply signal and are attacking. -->
-  <MessageAncientSignalHostileDetected>TODO</MessageAncientSignalHostileDetected>
+  <MessageAncientSignalHostileDetected>{0} از {1} سیگنال تأمین را شناسایی کرده و در حال حمله هستند.</MessageAncientSignalHostileDetected>
 
   <!-- Ancient altar -->
   <!-- EN: All security systems are waking up! -->
-  <MessageAncientAltarThreatsWokenUp>TODO</MessageAncientAltarThreatsWokenUp>
+  <MessageAncientAltarThreatsWokenUp>تمام سیستم‌های امنیتی در حال بیداری هستند!</MessageAncientAltarThreatsWokenUp>
   <!-- EN: All security systems are alerted to your presence. -->
-  <MessageAncientAltarThreatsAlerted>TODO</MessageAncientAltarThreatsAlerted>
+  <MessageAncientAltarThreatsAlerted>تمام سیستم‌های امنیتی از حضور شما مطلع شده‌اند.</MessageAncientAltarThreatsAlerted>
 
   <!-- Animals -->
   <!-- EN: Warning: {PAWNKINDLABELPLURAL} are venerated by all {PAWNS}, and will not be harmed. -->
-  <MessageAnimalIsVeneratedForAllColonists>TODO</MessageAnimalIsVeneratedForAllColonists>
+  <MessageAnimalIsVeneratedForAllColonists>هشدار: {PAWNKINDLABELPLURAL} توسط همه {PAWNS} مورد احترام هستند و آسیب نخواهند دید.</MessageAnimalIsVeneratedForAllColonists>
 
   <!-- Archonexus -->
   <!-- EN: Select at most {0} {1} to bring to the new colony. -->
-  <MessageNewColonyMax>TODO</MessageNewColonyMax>
+  <MessageNewColonyMax>حداکثر {0} {1} را برای بردن به مستعمره جدید انتخاب کنید.</MessageNewColonyMax>
   <!-- EN: You must select at least 1 colonist. -->
-  <MessageNewColoyRequiresOneColonist>TODO</MessageNewColoyRequiresOneColonist>
+  <MessageNewColoyRequiresOneColonist>شما باید حداقل ۱ مستعمره‌نشین انتخاب کنید.</MessageNewColoyRequiresOneColonist>
 
   <!-- Fuel node -->
   <!-- EN: A {0} has been ignited and is going to explode! -->
-  <MessageFuelNodeTriggered>TODO</MessageFuelNodeTriggered>
+  <MessageFuelNodeTriggered>یک {0} مشتعل شده و در شرف انفجار است!</MessageFuelNodeTriggered>
 
   <!-- Ancient complex -->
   <!-- EN: {0_pawnsPlural} will wake up in {1}. -->
-  <MessageSleepingThreatDelayActivated>TODO</MessageSleepingThreatDelayActivated>
+  <MessageSleepingThreatDelayActivated>{0_pawnsPlural} در {1} بیدار خواهند شد.</MessageSleepingThreatDelayActivated>
   <!-- EN: Infestation arriving. -->
-  <MessageInfestationDelayActivated>TODO</MessageInfestationDelayActivated>
+  <MessageInfestationDelayActivated>آلودگی در حال رسیدن.</MessageInfestationDelayActivated>
   <!-- EN: {0} was disturbed and might explode soon! -->
-  <MessageFuelNodeDelayActivated>TODO</MessageFuelNodeDelayActivated><!-- this message fires when a fuel node has been disturbed and there is a random delay before it starts to explode. -->
+  <MessageFuelNodeDelayActivated>{0} مزاحم شد و ممکن است به زودی منفجر شود!</MessageFuelNodeDelayActivated><!-- this message fires when a fuel node has been disturbed and there is a random delay before it starts to explode. -->
 
   <!-- Fluid ideo messages -->
   <!-- EN: Development points changed from {0} to {1} ({2}). -->
-  <MessageDevelopmentPointsEarned>TODO</MessageDevelopmentPointsEarned>
+  <MessageDevelopmentPointsEarned>امتیازات توسعه از {0} به {1} ({2}) تغییر یافت.</MessageDevelopmentPointsEarned>
   <!-- EN: Only one change to structures, memes and styles is allowed. -->
-  <MessageFluidIdeoOneChangeAllowed>TODO</MessageFluidIdeoOneChangeAllowed>
+  <MessageFluidIdeoOneChangeAllowed>فقط یک تغییر در ساختارها، میم‌ها و سبک‌ها مجاز است.</MessageFluidIdeoOneChangeAllowed>
 
 </LanguageData>

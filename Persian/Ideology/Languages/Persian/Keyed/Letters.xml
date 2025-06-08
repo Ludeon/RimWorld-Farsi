@@ -3,213 +3,213 @@
 
   <!-- Convert ideo attempt -->
   <!-- EN: Conversion -->
-  <LetterLabelConvertIdeoAttempt_Success>TODO</LetterLabelConvertIdeoAttempt_Success>
+  <LetterLabelConvertIdeoAttempt_Success>تبدیل</LetterLabelConvertIdeoAttempt_Success>
   <!-- EN: {INITIATOR_nameDef} has successfully turned {RECIPIENT_nameDef} away from {OLDIDEO_name} and towards {IDEO_name}. -->
-  <LetterConvertIdeoAttempt_Success>TODO</LetterConvertIdeoAttempt_Success>
+  <LetterConvertIdeoAttempt_Success>{INITIATOR_nameDef} با موفقیت {RECIPIENT_nameDef} را از {OLDIDEO_name} به سمت {IDEO_name} برگردانده است.</LetterConvertIdeoAttempt_Success>
 
   <!-- Slave rebellion -->
   <!-- EN: Grand slave rebellion -->
-  <LetterLabelGrandSlaveRebellion>TODO</LetterLabelGrandSlaveRebellion>
+  <LetterLabelGrandSlaveRebellion>شورش بزرگ بردگان</LetterLabelGrandSlaveRebellion>
   <!-- EN: A grand slave rebellion has begun! All of your slaves are rising up to fight back against you. They will seek weapons and try to eliminate your colonists.\n\nThese slaves are involved:\n\n{0} -->
-  <LetterGrandSlaveRebellion>TODO</LetterGrandSlaveRebellion>
+  <LetterGrandSlaveRebellion>شورش بزرگ بردگان آغاز شده است! تمام بردگان شما برای مبارزه با شما قیام کرده‌اند. آن‌ها به دنبال سلاح خواهند بود و سعی خواهند کرد مستعمره‌نشینان شما را از بین ببرند.\n\nاین بردگان درگیر هستند:\n\n{0}</LetterGrandSlaveRebellion>
   <!-- EN: Local slave rebellion -->
-  <LetterLabelLocalSlaveRebellion>TODO</LetterLabelLocalSlaveRebellion>
+  <LetterLabelLocalSlaveRebellion>شورش محلی بردگان</LetterLabelLocalSlaveRebellion>
   <!-- EN: A local slave rebellion has begun! {0_nameDef} and some nearby slaves are rising up to fight back against you. They will seek weapons and try to eliminate your colonists.\n\nThese slaves are involved:\n\n{1} -->
-  <LetterLocalSlaveRebellion>TODO</LetterLocalSlaveRebellion> 
+  <LetterLocalSlaveRebellion>شورش محلی بردگان آغاز شده است! {0_nameDef} و برخی بردگان نزدیک برای مبارزه با شما قیام کرده‌اند. آن‌ها به دنبال سلاح خواهند بود و سعی خواهند کرد مستعمره‌نشینان شما را از بین ببرند.\n\nاین بردگان درگیر هستند:\n\n{1}</LetterLocalSlaveRebellion>
   <!-- EN: Slave rebellion -->
-  <LetterLabelSingleSlaveRebellion>TODO</LetterLabelSingleSlaveRebellion>
+  <LetterLabelSingleSlaveRebellion>شورش برده</LetterLabelSingleSlaveRebellion>
   <!-- EN: {0_nameDef} is rebelling! {0_pronoun} will seek weapons and try to eliminate your colonists. -->
-  <LetterSingleSlaveRebellion>TODO</LetterSingleSlaveRebellion>
+  <LetterSingleSlaveRebellion>{0_nameDef} در حال شورش است! {0_pronoun} به دنبال سلاح خواهد بود و سعی خواهد کرد مستعمره‌نشینان شما را از بین ببرد.</LetterSingleSlaveRebellion>
 
   <!-- Slave escape -->
   <!-- EN: Grand slave escape -->
-  <LetterLabelGrandSlaveEscape>TODO</LetterLabelGrandSlaveEscape>
+  <LetterLabelGrandSlaveEscape>فرار بزرگ بردگان</LetterLabelGrandSlaveEscape>
   <!-- EN: A grand slave escape has begun! All of your slaves are making a break for it.\n\nThese slaves are involved:\n\n{0} -->
-  <LetterGrandSlaveEscape>TODO</LetterGrandSlaveEscape>
+  <LetterGrandSlaveEscape>فرار بزرگ بردگان آغاز شده است! تمام بردگان شما در حال فرار هستند.\n\nاین بردگان درگیر هستند:\n\n{0}</LetterGrandSlaveEscape>
   <!-- EN: Local slave escape -->
-  <LetterLabelLocalSlaveEscape>TODO</LetterLabelLocalSlaveEscape>
+  <LetterLabelLocalSlaveEscape>فرار محلی بردگان</LetterLabelLocalSlaveEscape>
   <!-- EN: A local slave escape has begun! {0_nameDef} and some nearby slaves are making a break for it.\n\nThese slaves are involved:\n\n{1} -->
-  <LetterLocalSlaveEscape>TODO</LetterLocalSlaveEscape>
+  <LetterLocalSlaveEscape>فرار محلی بردگان آغاز شده است! {0_nameDef} و برخی بردگان نزدیک در حال فرار هستند.\n\nاین بردگان درگیر هستند:\n\n{1}</LetterLocalSlaveEscape>
   <!-- EN: Slave escape -->
-  <LetterLabelSingleSlaveEscape>TODO</LetterLabelSingleSlaveEscape>
+  <LetterLabelSingleSlaveEscape>فرار برده</LetterLabelSingleSlaveEscape>
   <!-- EN: {0_nameDef} is attempting to escape! -->
-  <LetterSingleSlaveEscape>TODO</LetterSingleSlaveEscape>
+  <LetterSingleSlaveEscape>{0_nameDef} در حال تلاش برای فرار است!</LetterSingleSlaveEscape>
 
   <!-- EN: Slaves are more likely to rebel when their suppression level is low. -->
-  <SlaveRebellionSuppressionExplanation>TODO</SlaveRebellionSuppressionExplanation>
-  
+  <SlaveRebellionSuppressionExplanation>بردگان زمانی که سطح سرکوبشان پایین است، بیشتر احتمال دارد شورش کنند.</SlaveRebellionSuppressionExplanation>
+
   <!-- Ideo role -->
   <!-- EN: {0} role activated -->
-  <LetterLabelRoleActive>TODO</LetterLabelRoleActive>
+  <LetterLabelRoleActive>نقش {0} فعال شد</LetterLabelRoleActive>
   <!-- EN: The number of {0}s in your colony has reached {1}. You can now assign the role of {ROLE_labelDef} to one of your colonists.\n\nTo assign a role, use the person's Social tab, or select a ritual spot or altar and press the 'Begin role change' button. -->
-  <LetterLabelRoleActiveDesc>TODO</LetterLabelRoleActiveDesc>
+  <LetterLabelRoleActiveDesc>تعداد {0} در مستعمره شما به {1} رسیده است. اکنون می‌توانید نقش {ROLE_labelDef} را به یکی از مستعمره‌نشینان خود اختصاص دهید.\n\nبرای اختصاص نقش، از تب اجتماعی فرد استفاده کنید، یا یک نقطه مراسم یا محراب را انتخاب کرده و دکمه 'شروع تغییر نقش' را فشار دهید.</LetterLabelRoleActiveDesc>
 
   <!-- EN: {0} role deactivated -->
-  <LetterLabelRoleInactive>TODO</LetterLabelRoleInactive>
+  <LetterLabelRoleInactive>نقش {0} غیرفعال شد</LetterLabelRoleInactive>
   <!-- EN: Number of {0}s in your colony fell to {1}. {ROLE_labelDef} role is no longer active. This role will become available once again when the number of {0}s reaches {2}. -->
-  <LetterLabelRoleInactiveDesc>TODO</LetterLabelRoleInactiveDesc>
+  <LetterLabelRoleInactiveDesc>تعداد {0} در مستعمره شما به {1} کاهش یافت. نقش {ROLE_labelDef} دیگر فعال نیست. این نقش زمانی دوباره در دسترس قرار خواهد گرفت که تعداد {0} به {2} برسد.</LetterLabelRoleInactiveDesc>
 
   <!-- EN: {PAWN_labelShort}'s {ROLE_labelIndef} role lost -->
-  <LetterLabelRoleLost>TODO</LetterLabelRoleLost>
+  <LetterLabelRoleLost>نقش {ROLE_labelIndef} {PAWN_labelShort} از دست رفت</LetterLabelRoleLost>
   <!-- EN: {PAWN_labelShort} no longer holds the role of {ROLE_labelIndef}. Reason: -->
-  <LetterRoleLostDesc>TODO</LetterRoleLostDesc>
+  <LetterRoleLostDesc>{PAWN_labelShort} دیگر نقش {ROLE_labelIndef} را بر عهده ندارد. دلیل:</LetterRoleLostDesc>
   <!-- EN: {PAWN_pronoun} was unassigned. -->
-  <LetterRoleLostReasonUnassignedDesc>TODO</LetterRoleLostReasonUnassignedDesc>
+  <LetterRoleLostReasonUnassignedDesc>{PAWN_pronoun} از نقش خود برداشته شد.</LetterRoleLostReasonUnassignedDesc>
   <!-- EN: Role became inactive due to low {0} count. -->
-  <LetterRoleLostReasonLowBelieversDesc>TODO</LetterRoleLostReasonLowBelieversDesc>
+  <LetterRoleLostReasonLowBelieversDesc>نقش به دلیل تعداد کم {0} غیرفعال شد.</LetterRoleLostReasonLowBelieversDesc>
   <!-- EN: {PAWN_labelShort} has lost {PAWN_possessive} position as {ROLE_labelDef} because {PAWN_pronoun} abandoned the {OLDIDEO_name}. -->
-  <LetterRoleLostLetterIdeoChangedPostfix>TODO</LetterRoleLostLetterIdeoChangedPostfix>
+  <LetterRoleLostLetterIdeoChangedPostfix>{PAWN_labelShort} موقعیت {PAWN_possessive} به عنوان {ROLE_labelDef} را از دست داده است زیرا {PAWN_pronoun} {OLDIDEO_name} را رها کرد.</LetterRoleLostLetterIdeoChangedPostfix>
   <!-- EN: {0} skipped. -->
-  <LetterObligationRoleInactive>TODO</LetterObligationRoleInactive>
+  <LetterObligationRoleInactive>{0} رد شد.</LetterObligationRoleInactive>
   <!-- EN: {0} is the date of the {1}, but since {ROLE_labelDef} role is inactive, the {2}s will skip the {1}. -->
-  <LetterObligationRoleInactiveDateDesc>TODO</LetterObligationRoleInactiveDateDesc>
-  
+  <LetterObligationRoleInactiveDateDesc>{0} تاریخ {1} است، اما از آنجایی که نقش {ROLE_labelDef} غیرفعال است، {2}ها {1} را رد خواهند کرد.</LetterObligationRoleInactiveDateDesc>
+
   <!-- Ideo misc -->
   <!-- EN: {PAWN_pronoun}'s speech converted following people to {IDEO} -->
-  <LetterSpeechConvertedListeners>TODO</LetterSpeechConvertedListeners>
+  <LetterSpeechConvertedListeners>سخنرانی {PAWN_pronoun} افراد زیر را به {IDEO} تبدیل کرد</LetterSpeechConvertedListeners>
 
   <!-- EN: {0} rituals activated -->
-  <LetterTitleObligationsActivated>TODO</LetterTitleObligationsActivated>
+  <LetterTitleObligationsActivated>{0} مراسم فعال شد</LetterTitleObligationsActivated>
   <!-- EN: {0} rituals deactivated -->
-  <LetterTitleObligationsDeactivated>TODO</LetterTitleObligationsDeactivated>
+  <LetterTitleObligationsDeactivated>{0} مراسم غیرفعال شد</LetterTitleObligationsDeactivated>
   <!-- EN: There are now less than {1} {IDEO_memberNamePlural} in your faction. Therefore, the {IDEO_memberNamePlural} will not demand that the rituals of {IDEO} be carried out until there are at least {1} of them in your faction. -->
-  <LetterTitleObligationsDeactivatedTooFewBelievers>TODO</LetterTitleObligationsDeactivatedTooFewBelievers>
+  <LetterTitleObligationsDeactivatedTooFewBelievers>اکنون کمتر از {1} {IDEO_memberNamePlural} در جناح شما وجود دارد. بنابراین، {IDEO_memberNamePlural} تا زمانی که حداقل {1} نفر از آن‌ها در جناح شما باشند، انجام مراسم {IDEO} را مطالبه نخواهند کرد.</LetterTitleObligationsDeactivatedTooFewBelievers>
   <!-- EN: Since there are now {1} {IDEO_memberNamePlural} in your faction, they will demand that the rituals of {IDEO} be carried out. -->
-  <LetterTitleObligationsActivatedEnoughBelievers>TODO</LetterTitleObligationsActivatedEnoughBelievers>
+  <LetterTitleObligationsActivatedEnoughBelievers>از آنجایی که اکنون {1} {IDEO_memberNamePlural} در جناح شما وجود دارد، آن‌ها انجام مراسم {IDEO} را مطالبه خواهند کرد.</LetterTitleObligationsActivatedEnoughBelievers>
   <!-- EN: Since {IDEO} is now the primary ideoligion of your faction, {IDEO_memberNamePlural} will demand that the rituals of {IDEO} be carried out. -->
-  <LetterTitleObligationsActivatedIdeoBecameMajor>TODO</LetterTitleObligationsActivatedIdeoBecameMajor>
+  <LetterTitleObligationsActivatedIdeoBecameMajor>از آنجایی که {IDEO} اکنون ایدئولوژی اصلی جناح شماست، {IDEO_memberNamePlural} انجام مراسم {IDEO} را مطالبه خواهند کرد.</LetterTitleObligationsActivatedIdeoBecameMajor>
 
   <!-- EN: Bond(s) removed -->
-  <LetterBondRemoved>TODO</LetterBondRemoved>
+  <LetterBondRemoved>پیوند(ها) برداشته شد</LetterBondRemoved>
   <!-- EN: {PAWN_nameDef} has converted to {IDEO}. Since {IDEO} disapproves of bonding with animals, {PAWN_pronoun} has renounced {PAWN_possessive} bonds with the following animals:\n\n{BONDS} -->
-  <LetterBondRemovedDesc>TODO</LetterBondRemovedDesc>
+  <LetterBondRemovedDesc>{PAWN_nameDef} به {IDEO} تبدیل شده است. از آنجایی که {IDEO} پیوند با حیوانات را تأیید نمی‌کند، {PAWN_pronoun} پیوندهای {PAWN_possessive} با حیوانات زیر را رد کرده است:\n\n{BONDS}</LetterBondRemovedDesc>
 
   <!-- Slave will -->
   <!-- EN: Enslaved -->
-  <LetterLabelEnslavementSuccess>TODO</LetterLabelEnslavementSuccess>
+  <LetterLabelEnslavementSuccess>به بردگی گرفته شد</LetterLabelEnslavementSuccess>
   <!-- EN: {0_nameDef} successfully enslaved {1_nameDef}. -->
-  <LetterEnslavementSuccess>TODO</LetterEnslavementSuccess>
+  <LetterEnslavementSuccess>{0_nameDef} با موفقیت {1_nameDef} را به بردگی گرفت.</LetterEnslavementSuccess>
 
   <!-- Primary ideo changed -->
   <!-- EN: Primary ideoligion changed -->
-  <LetterLabelNewPrimaryIdeo>TODO</LetterLabelNewPrimaryIdeo>
+  <LetterLabelNewPrimaryIdeo>ایدئولوژی اصلی تغییر کرد</LetterLabelNewPrimaryIdeo>
   <!-- EN: Your faction's primary ideoligion has changed from {OLDIDEO_name} to {NEWIDEO_name}.\n\nThis happened because {NEWIDEO_name} is now more common among your {FACTION_pawnsPlural} than any other ideoligion.\n\nYour primary ideoligion affects relationships with other factions, based on how closely your beliefs align with theirs. -->
-  <LetterNewPrimaryIdeo>TODO</LetterNewPrimaryIdeo>
+  <LetterNewPrimaryIdeo>ایدئولوژی اصلی جناح شما از {OLDIDEO_name} به {NEWIDEO_name} تغییر کرده است.\n\nاین اتفاق افتاد زیرا {NEWIDEO_name} اکنون در میان {FACTION_pawnsPlural} شما رایج‌تر از هر ایدئولوژی دیگری است.\n\nایدئولوژی اصلی شما بر روابط با جناح‌های دیگر تأثیر می‌گذارد، بر اساس میزان همسویی باورهای شما با آن‌ها.</LetterNewPrimaryIdeo>
 
   <!-- Charity incidents -->
   <!-- EN: This is a charity incident. If you turn {0} away, believers with charitable beliefs will be unhappy. -->
-  <JoinerCharityInfo>TODO</JoinerCharityInfo>
+  <JoinerCharityInfo>این یک حادثه خیریه است. اگر {0} را رد کنید، معتقدان با باورهای خیرخواهانه ناراضی خواهند شد.</JoinerCharityInfo>
   <!-- EN: This is a charity incident. If {0} dies without being tended (and after {1}), believers with charitable beliefs will be unhappy. If {0} is tended or recruited, believers will be happy. -->
-  <AfflictedJoinerChartityInfo>TODO</AfflictedJoinerChartityInfo>
+  <AfflictedJoinerChartityInfo>این یک حادثه خیریه است. اگر {0} بدون درمان بمیرد (و بعد از {1})، معتقدان با باورهای خیرخواهانه ناراضی خواهند شد. اگر {0} درمان یا استخدام شود، معتقدان خوشحال خواهند شد.</AfflictedJoinerChartityInfo>
   <!-- EN: The following believers have charitable beliefs -->
-  <PawnsHaveCharitableBeliefs>TODO</PawnsHaveCharitableBeliefs>
+  <PawnsHaveCharitableBeliefs>معتقدان زیر باورهای خیرخواهانه دارند</PawnsHaveCharitableBeliefs>
 
   <!-- Change ideo mental state -->
   <!-- EN: {PAWN_pronoun} decided that {PAWN_possessive} belief in {OLDIDEO_name} no longer made any sense.\n\n{PAWN_pronoun} now believes in {NEWIDEO_name}. -->
-  <LetterIdeoChangeConverted>TODO</LetterIdeoChangeConverted>
+  <LetterIdeoChangeConverted>{PAWN_pronoun} تصمیم گرفت که باور {PAWN_possessive} به {OLDIDEO_name} دیگر هیچ معنایی ندارد.\n\n{PAWN_pronoun} اکنون به {NEWIDEO_name} اعتقاد دارد.</LetterIdeoChangeConverted>
   <!-- EN: {PAWN_nameDef}'s certainty with {PAWN_possessive} belief in {OLDIDEO_name} has been reduced to {NEWCERTAINTY}. -->
-  <LetterIdeoChangeNotConverted>TODO</LetterIdeoChangeNotConverted>
+  <LetterIdeoChangeNotConverted>اطمینان {PAWN_nameDef} به باور {PAWN_possessive} به {OLDIDEO_name} به {NEWCERTAINTY} کاهش یافته است.</LetterIdeoChangeNotConverted>
   <!-- EN: To come to terms with {PAWN_possessive} beliefs, {PAWN_nameDef} is now hiding in {PAWN_possessive} room. -->
-  <LetterIdeoChangedWanderOwnRoom>TODO</LetterIdeoChangedWanderOwnRoom>
+  <LetterIdeoChangedWanderOwnRoom>برای کنار آمدن با باورهای {PAWN_possessive}، {PAWN_nameDef} اکنون در اتاق {PAWN_possessive} پنهان شده است.</LetterIdeoChangedWanderOwnRoom>
   <!-- EN: {PAWN_nameDef} is now wandering in shock while grappling with {PAWN_possessive} beliefs. -->
-  <LetterIdeoChangedSadWander>TODO</LetterIdeoChangedSadWander>
+  <LetterIdeoChangedSadWander>{PAWN_nameDef} اکنون در شوک سرگردان است در حالی که با باورهای {PAWN_possessive} دست و پنجه نرم می‌کند.</LetterIdeoChangedSadWander>
 
   <!-- Change ideo divorces -->
   <!-- EN: Divorce -->
-  <LetterIdeoChangedDivorce>TODO</LetterIdeoChangedDivorce>
+  <LetterIdeoChangedDivorce>طلاق</LetterIdeoChangedDivorce>
   <!-- EN: {PAWN_nameDef}'s new beliefs forbid {PAWN_possessive} current number of spouses.\n\n{PAWN_nameDef} has decided to divorce these people:\n{1} -->
-  <LetterIdeoChangedDivorcedPawns>TODO</LetterIdeoChangedDivorcedPawns>
+  <LetterIdeoChangedDivorcedPawns>باورهای جدید {PAWN_nameDef} تعداد فعلی همسران {PAWN_possessive} را ممنوع می‌کند.\n\n{PAWN_nameDef} تصمیم گرفته است از این افراد طلاق بگیرد:\n{1}</LetterIdeoChangedDivorcedPawns>
 
   <!-- Surprise reinforcement -->
   <!-- EN: Surprise reinforcements! -->
-  <LetterLabelSurpriseReinforcements>TODO</LetterLabelSurpriseReinforcements>
+  <LetterLabelSurpriseReinforcements>نیروهای کمکی غافلگیرکننده!</LetterLabelSurpriseReinforcements>
   <!-- EN: Surprise reinforcements from {1} have arrived! They are moving to help {0} from {1}. -->
-  <LetterSurpriseReinforcements>TODO</LetterSurpriseReinforcements>
+  <LetterSurpriseReinforcements>نیروهای کمکی غافلگیرکننده از {1} رسیده‌اند! آن‌ها در حال حرکت برای کمک به {0} از {1} هستند.</LetterSurpriseReinforcements>
 
   <!-- Style change -->
   <!-- EN: Look change desired -->
-  <LetterWantLookChange>TODO</LetterWantLookChange>
+  <LetterWantLookChange>تغییر ظاهر مورد نظر</LetterWantLookChange>
   <!-- EN: {PAWN_nameDef} wishes to change {PAWN_possessive} look, as it no longer matches what {PAWN_pronoun} believes.\n\n{PAWN_pronoun} will automatically use an available styling station and choose a look. If you want to customize {PAWN_possessive} look, select {PAWN_objective} and right-click the styling station. -->
-  <LetterWantLookChangeDesc>TODO</LetterWantLookChangeDesc>
+  <LetterWantLookChangeDesc>{PAWN_nameDef} مایل است ظاهر {PAWN_possessive} را تغییر دهد، زیرا دیگر با آنچه {PAWN_pronoun} اعتقاد دارد مطابقت ندارد.\n\n{PAWN_pronoun} به طور خودکار از یک ایستگاه استایل موجود استفاده کرده و ظاهری را انتخاب خواهد کرد. اگر می‌خواهید ظاهر {PAWN_possessive} را سفارشی کنید، {PAWN_objective} را انتخاب کرده و روی ایستگاه استایل راست کلیک کنید.</LetterWantLookChangeDesc>
 
   <!-- Spacedrone incoming -->
   <!-- EN: Spacedrone incoming -->
-  <LetterLabelSpacedroneIncoming>TODO</LetterLabelSpacedroneIncoming>
+  <LetterLabelSpacedroneIncoming>فضاپیمای بدون سرنشین در حال ورود</LetterLabelSpacedroneIncoming>
   <!-- EN: A spacedrone is landing nearby. -->
-  <LetterTextSpacedroneIncoming>TODO</LetterTextSpacedroneIncoming>
+  <LetterTextSpacedroneIncoming>یک فضاپیمای بدون سرنشین در نزدیکی فرود می‌آید.</LetterTextSpacedroneIncoming>
   <!-- EN: A raid from {0} has arrived to destroy the {1} that was forced to land nearby. -->
-  <LetterTextRaidSpacedrone>TODO</LetterTextRaidSpacedrone>
+  <LetterTextRaidSpacedrone>حمله‌ای از {0} برای نابودی {1} که مجبور به فرود در نزدیکی شد، رسیده است.</LetterTextRaidSpacedrone>
 
   <!-- Hacked -->
   <!-- EN: You've finished hacking the {0} and learned more about the ancient {1} relic. -->
-  <LetterTextSpacedroneHacked>TODO</LetterTextSpacedroneHacked>
+  <LetterTextSpacedroneHacked>شما هک {0} را به پایان رساندید و در مورد یادگار باستانی {1} بیشتر آموختید.</LetterTextSpacedroneHacked>
 
   <!-- Relic destroyed -->
   <!-- EN: Relic destroyed -->
-  <LetterLabelRelicDestroyed>TODO</LetterLabelRelicDestroyed>
+  <LetterLabelRelicDestroyed>یادگار نابود شد</LetterLabelRelicDestroyed>
   <!-- EN: {0} has been destroyed!\n\nThe following people will suffer a mood reduction:\n{1} -->
-  <LetterTextRelicDestroyed>TODO</LetterTextRelicDestroyed>
-  
+  <LetterTextRelicDestroyed>{0} نابود شده است!\n\nافراد زیر کاهش خلق و خو خواهند داشت:\n{1}</LetterTextRelicDestroyed>
+
   <!-- Relic lost -->
   <!-- EN: Relic lost -->
-  <LetterLabelRelicLost>TODO</LetterLabelRelicLost>
+  <LetterLabelRelicLost>یادگار از دست رفت</LetterLabelRelicLost>
   <!-- EN: {0} has been lost!\n\nThe following people will suffer a mood reduction:\n{1} -->
-  <LetterTextRelicLost>TODO</LetterTextRelicLost>
+  <LetterTextRelicLost>{0} از دست رفته است!\n\nافراد زیر کاهش خلق و خو خواهند داشت:\n{1}</LetterTextRelicLost>
 
   <!-- Caravan destroyed -->
   <!-- EN: All non-slave members of {0} have died. The remaining slaves have walked away. The caravan has disabanded. -->
-  <LetterOnlySlaveCaravanColonistsLeft>TODO</LetterOnlySlaveCaravanColonistsLeft>
+  <LetterOnlySlaveCaravanColonistsLeft>تمام اعضای غیر برده {0} مرده‌اند. بردگان باقی‌مانده دور شده‌اند. کاروان منحل شده است.</LetterOnlySlaveCaravanColonistsLeft>
 
   <!-- Hacker lost -->
   <!-- EN: Last hacker lost -->
-  <LetterLabelLastHackerLost>TODO</LetterLabelLastHackerLost>
+  <LetterLabelLastHackerLost>آخرین هکر از دست رفت</LetterLabelLastHackerLost>
   <!-- EN: The last hacker capable of unlocking the secrets of the ancient complex has been lost. Call reinforcements capable of hacking, or abandon the quest. -->
-  <LetterTextLastHackerLost>TODO</LetterTextLastHackerLost>
+  <LetterTextLastHackerLost>آخرین هکر قادر به باز کردن اسرار مجموعه باستانی از دست رفته است. نیروهای کمکی قادر به هک را فرا بخوانید، یا مأموریت را رها کنید.</LetterTextLastHackerLost>
 
   <!-- Relic hunt -->
   <!-- EN: Relic found -->
-  <LetterLabelRelicFound>TODO</LetterLabelRelicFound>
+  <LetterLabelRelicFound>یادگار یافت شد</LetterLabelRelicFound>
   <!-- EN: You've finally learned the location of the relic {0}! -->
-  <LetterTextRelicFoundLocation>TODO</LetterTextRelicFoundLocation>
+  <LetterTextRelicFoundLocation>شما سرانجام مکان یادگار {0} را یاد گرفتید!</LetterTextRelicFoundLocation>
   <!-- EN: The relic is housed in an ancient structure. It is protected by a security system with multiple independent units. You may choose to defeat the security forces one unit at a time before taking the relic, or try to grab it and flee before they can harm you.\n\nAfter {0}, all security systems will be alerted. -->
-  <LetterTextRelicFoundSecurityThreats>TODO</LetterTextRelicFoundSecurityThreats>
+  <LetterTextRelicFoundSecurityThreats>یادگار در ساختاری باستانی قرار دارد. توسط سیستم امنیتی با چندین واحد مستقل محافظت می‌شود. می‌توانید انتخاب کنید که نیروهای امنیتی را یک واحد در یک زمان قبل از برداشتن یادگار شکست دهید، یا سعی کنید آن را برداشته و قبل از اینکه به شما آسیب برسانند فرار کنید.\n\nبعد از {0}، تمام سیستم‌های امنیتی هشدار داده خواهند شد.</LetterTextRelicFoundSecurityThreats>
 
   <!-- Relics collection -->
   <!-- EN: Relics collected -->
-  <LetterLabelRelicsCollected>TODO</LetterLabelRelicsCollected>
+  <LetterLabelRelicsCollected>یادگارها جمع‌آوری شدند</LetterLabelRelicsCollected>
   <!-- EN: All relics belonging to {0} have been collected. The following people will be delighted -->
-  <LetterTextRelicsCollected>TODO</LetterTextRelicsCollected>
+  <LetterTextRelicsCollected>تمام یادگارهای متعلق به {0} جمع‌آوری شده‌اند. افراد زیر خوشحال خواهند شد</LetterTextRelicsCollected>
   <!-- EN: You have collected all the known relics of this world. The following people will be delighted -->
-  <LetterTextRelicsCollectedClassic>TODO</LetterTextRelicsCollectedClassic>
+  <LetterTextRelicsCollectedClassic>شما تمام یادگارهای شناخته شده این جهان را جمع‌آوری کرده‌اید. افراد زیر خوشحال خواهند شد</LetterTextRelicsCollectedClassic>
 
   <!-- Gauranlen tree connection -->
   <!-- EN: {TREE_label} connection -->
-  <LetterLabelPawnConnected>TODO</LetterLabelPawnConnected>
+  <LetterLabelPawnConnected>اتصال {TREE_label}</LetterLabelPawnConnected>
   <!-- EN: {CONNECTOR_nameDef} has connected with {TREE_definite}.\n\n{TREE_definite} will produce small animals called dryads by growing them in pods at its base. These dryads can specialize into different castes. You can choose which caste of dryads you want the tree to produce.\n\nThe stronger the connection between tree and human, the more dryads {TREE_definite} can sustain. {CONNECTOR_nameDef} can strengthen the connection by pruning {TREE_definite}. Maintaining a higher connection strength requires more frequent pruning. -->
-  <LetterTextPawnConnected>TODO</LetterTextPawnConnected>
+  <LetterTextPawnConnected>{CONNECTOR_nameDef} با {TREE_definite} متصل شده است.\n\n{TREE_definite} حیوانات کوچکی به نام دراید تولید خواهد کرد که آن‌ها را در غلاف‌هایی در پایه خود رشد می‌دهد. این درایدها می‌توانند به طبقات مختلفی تخصص یابند. می‌توانید انتخاب کنید که {TREE_definite} کدام طبقه از درایدها را تولید کند.\n\nهرچه اتصال بین درخت و انسان قوی‌تر باشد، {TREE_definite} می‌تواند درایدهای بیشتری را پشتیبانی کند. {CONNECTOR_nameDef} می‌تواند با هرس {TREE_definite} اتصال را تقویت کند. حفظ قدرت اتصال بالاتر نیاز به هرس مکررتر دارد.</LetterTextPawnConnected>
   <!-- EN: Connected {TREE_label} destroyed -->
-  <LetterLabelConnectedTreeDestroyed>TODO</LetterLabelConnectedTreeDestroyed>
+  <LetterLabelConnectedTreeDestroyed>درخت {TREE_label} متصل نابود شد</LetterLabelConnectedTreeDestroyed>
   <!-- EN: A {TREE_label} connected to {CONNECTEDPAWN_nameDef} has been destroyed, killing the dryad queen housed inside.\n\nWithout a queen, the dryad brood-mind has collapsed. All dryads from that tree have died. -->
-  <LetterTextConnectedTreeDestroyed>TODO</LetterTextConnectedTreeDestroyed>
+  <LetterTextConnectedTreeDestroyed>یک درخت {TREE_label} متصل به {CONNECTEDPAWN_nameDef} نابود شده و ملکه دراید که در داخل آن قرار داشت کشته شده است.\n\nبدون ملکه، ذهن گروهی درایدها فرو ریخته است. تمام درایدهای آن درخت مرده‌اند.</LetterTextConnectedTreeDestroyed>
 
   <!-- Archonexus victory -->
   <!-- EN: Quest '{0}' available -->
-  <LetterLabelArchonexusWealthReached>TODO</LetterLabelArchonexusWealthReached>
+  <LetterLabelArchonexusWealthReached>مأموریت '{0}' در دسترس است</LetterLabelArchonexusWealthReached>
   <!-- EN: You have reached the wealth requirement for the quest '{0}'. You can now accept the quest. -->
-  <LetterTextArchonexusWealthReached>TODO</LetterTextArchonexusWealthReached>
+  <LetterTextArchonexusWealthReached>شما به نیاز ثروت برای مأموریت '{0}' رسیده‌اید. اکنون می‌توانید مأموریت را بپذیرید.</LetterTextArchonexusWealthReached>
   <!-- EN: {0_labelShort} studied -->
-  <LetterLabelArchonexusStructureResearched>TODO</LetterLabelArchonexusStructureResearched>
+  <LetterLabelArchonexusStructureResearched>{0_labelShort} مطالعه شد</LetterLabelArchonexusStructureResearched>
   <!-- EN: You have completed your study of the {0_labelShort}.\n\nYou can't say that you understand it in any complete way, but you have detected patterns in its behavior and the way it seems to express information.\n\nWith this knowledge, you will be able to interpret the next piece of the archonexus map. -->
-  <LetterTextArchonexusStructureResearched>TODO</LetterTextArchonexusStructureResearched>
+  <LetterTextArchonexusStructureResearched>شما مطالعه {0_labelShort} را به پایان رساندید.\n\nنمی‌توانید بگویید که آن را به طور کامل درک کرده‌اید، اما الگوهایی در رفتار آن و نحوه بیان اطلاعات آن تشخیص داده‌اید.\n\nبا این دانش، قادر خواهید بود قطعه بعدی نقشه آرکونکسوس را تفسیر کنید.</LetterTextArchonexusStructureResearched>
   <!-- EN: Archotech structures abandoned -->
-  <LetterLabelArchotechStructuresAbandoned>TODO</LetterLabelArchotechStructuresAbandoned>
+  <LetterLabelArchotechStructuresAbandoned>ساختارهای آرکوتک رها شدند</LetterLabelArchotechStructuresAbandoned>
   <!-- EN: You have abandoned the archotech structures at {0_definite}.\n\nDistant observers say they saw a great flash emanating from this location not long after you left. -->
-  <LetterTextArchotechStructuresAbandoned>TODO</LetterTextArchotechStructuresAbandoned>
+  <LetterTextArchotechStructuresAbandoned>شما ساختارهای آرکوتک را در {0_definite} رها کرده‌اید.\n\nناظران دوردست می‌گویند کمی پس از رفتن شما، فلش بزرگی را دیدند که از این مکان ساطع می‌شد.</LetterTextArchotechStructuresAbandoned>
 
   <!-- Reforming ideo -->
   <!-- EN: Reform ideoligion -->
-  <LetterLabelReformIdeo>TODO</LetterLabelReformIdeo>
+  <LetterLabelReformIdeo>اصلاح ایدئولوژی</LetterLabelReformIdeo>
   <!-- EN: You have enough development points to reform {0}!\n\nReforming allows you to do one of the following:\n\n- Add a meme\n- Remove a meme\n- Change structure\n- Change style\n\nYou can also make unlimited changes to precepts, deities, narrative text, and other symbols.\n\nTo reform the ideoligion, open it in the ideoligions tab. -->
-  <LetterTextReformIdeo>TODO</LetterTextReformIdeo>
+  <LetterTextReformIdeo>شما امتیازات توسعه کافی برای اصلاح {0} دارید!\n\nاصلاح به شما امکان می‌دهد یکی از کارهای زیر را انجام دهید:\n\n- افزودن یک میم\n- حذف یک میم\n- تغییر ساختار\n- تغییر سبک\n\nهمچنین می‌توانید تغییرات نامحدودی در اصول، خدایان، متن روایت و سایر نمادها ایجاد کنید.\n\nبرای اصلاح ایدئولوژی، آن را در تب ایدئولوژی‌ها باز کنید.</LetterTextReformIdeo>
 
 </LanguageData>
