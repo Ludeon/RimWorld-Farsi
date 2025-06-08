@@ -57,9 +57,9 @@ jobs:
         id: create_release
         uses: actions/create-release@v1
         with:
-          tag_name: v0.2.1
-          release_name: Version v0.2.1
-          body: Release v0.2.1
+          tag_name: v0.3.0
+          release_name: Version v0.3.0
+          body: Release v0.3.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
