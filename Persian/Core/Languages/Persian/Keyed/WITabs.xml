@@ -21,39 +21,39 @@
   
   <!-- Misc -->
   <!-- EN: Abandon {{0}}x {0} -->
-  <AbandonSliderText>Abandon {{0}}x {0}</AbandonSliderText>
+  <AbandonSliderText>رها کردن {{0}}x {0}</AbandonSliderText>
   <!-- EN: Do you really want to abandon {0}?\n\nAbandoned items vanish and can never be recovered. -->
-  <ConfirmAbandonItemDialog>Do you really want to abandon {0}?\n\nAbandoned items vanish and can never be recovered.</ConfirmAbandonItemDialog>
+  <ConfirmAbandonItemDialog>آیا واقعاً می‌خواهید {0} را رها کنید؟\n\nآیتم‌های رها شده ناپدید می‌شوند و هرگز قابل بازیابی نیستند.</ConfirmAbandonItemDialog>
   <!-- EN: Abandon -->
   <AbandonTip>رها کردن</AbandonTip>
   <!-- EN: Banish -->
   <BanishTip>تبعید</BanishTip>
   <!-- EN: Abandon specific count -->
-  <AbandonSpecificCountTip>Abandon specific count</AbandonSpecificCountTip>
+  <AbandonSpecificCountTip>رها کردن تعداد مشخص</AbandonSpecificCountTip>
   <!-- EN: Abandon (all) -->
-  <AbandonAllTip>Abandon (all)</AbandonAllTip>
+  <AbandonAllTip>رها کردن (همه)</AbandonAllTip>
   <!-- EN: Abandoned items vanish and can never be recovered. -->
-  <AbandonItemTipExtraText>Abandoned items vanish and can never be recovered.</AbandonItemTipExtraText>
+  <AbandonItemTipExtraText>آیتم‌های رها شده ناپدید می‌شوند و هرگز قابل بازیابی نیستند.</AbandonItemTipExtraText>
   <!-- EN: {1_labelShort} will most likely die. -->
-  <BanishTipWillDie>{1_labelShort} will most likely die.</BanishTipWillDie>
+  <BanishTipWillDie>{1_labelShort} به احتمال زیاد خواهد مرد.</BanishTipWillDie>
   
   <!-- Caravan inspect -->
   <!-- EN: Colonists -->
-  <CaravanColonists>Colonists</CaravanColonists>
+  <CaravanColonists>مهاجران</CaravanColonists>
   <!-- EN: Prisoners and animals -->
-  <CaravanPrisonersAndAnimals>Prisoners and animals</CaravanPrisonersAndAnimals>
+  <CaravanPrisonersAndAnimals>زندانیان و حیوانات</CaravanPrisonersAndAnimals>
   <!-- EN: Inventory -->
-  <CaravanItems>Inventory</CaravanItems>
+  <CaravanItems>موجودی</CaravanItems>
   <!-- EN: Click to open a tab with more details. -->
-  <OpenSpecificTabButtonTip>Click to open a tab with more details.</OpenSpecificTabButtonTip>
+  <OpenSpecificTabButtonTip>برای باز کردن تب با جزئیات بیشتر کلیک کنید.</OpenSpecificTabButtonTip>
   <!-- EN: Prisoners -->
   <CaravanPrisoners>زندانیان</CaravanPrisoners>
   <!-- EN: Equippable items -->
-  <CaravanWeaponsAndApparel>Equippable items</CaravanWeaponsAndApparel>
+  <CaravanWeaponsAndApparel>سلاح‌ها و پوشاک</CaravanWeaponsAndApparel>
   <!-- EN: None capable -->
-  <NoneCapable>None capable</NoneCapable>
+  <NoneCapable>هیچ‌کس قادر نیست</NoneCapable>
   <!-- EN: Caravan not moving -->
-  <GainingJoyBecauseCaravanNotMoving>Caravan not moving</GainingJoyBecauseCaravanNotMoving>
+  <GainingJoyBecauseCaravanNotMoving>کاروان در حال حرکت نیست</GainingJoyBecauseCaravanNotMoving>
   
   <!-- Caravan gear -->
   <!-- EN: Drag to rearrange. -->
@@ -65,7 +65,7 @@
 
   <!-- Caravan health -->
   <!-- EN: Whether this person or animal should be carried by other caravan members when sick.\n\nCarried caravan members can rest even if the caravan is moving, but they slow it down. -->
-  <BeCarriedIfSickTip>Whether this person or animal should be carried by other caravan members when sick.\n\nCarried caravan members can rest even if the caravan is moving, but they slow it down.</BeCarriedIfSickTip>
+  <BeCarriedIfSickTip>اینکه آیا این فرد یا حیوان باید توسط سایر اعضای کاروان در هنگام بیماری حمل شود.\n\nاعضای کاروان که حمل می‌شوند می‌توانند حتی اگر کاروان در حال حرکت باشد استراحت کنند، اما سرعت آن را کاهش می‌دهند.</BeCarriedIfSickTip>
   
   <!-- Planet -->
   <!-- EN: Seed -->

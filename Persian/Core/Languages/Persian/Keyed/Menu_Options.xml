@@ -65,13 +65,13 @@
   <!-- EN: Auto-reset mods config on crash -->
   <ResetModsConfigOnCrash>تنظیم مجدد خودکار حالت‌ها در هنگام خرابی</ResetModsConfigOnCrash>
   <!-- EN: Quick start has no cryptosleep sickness -->
-  <DisableQuickStartCryptoSickness>TODO</DisableQuickStartCryptoSickness>
+  <DisableQuickStartCryptoSickness>شروع سریع بیماری کریپتوسلیپ ندارد</DisableQuickStartCryptoSickness>
   <!-- EN: Start game with dev palette on -->
-  <StartDevPaletteOn>TODO</StartDevPaletteOn>
+  <StartDevPaletteOn>شروع بازی با پالت توسعه دهنده روشن</StartDevPaletteOn>
   <!-- EN: Open log on warnings -->
-  <OpenLogOnWarnings>TODO</OpenLogOnWarnings>
+  <OpenLogOnWarnings>باز کردن گزارش در هشدارها</OpenLogOnWarnings>
   <!-- EN: Close log by pressing cancel -->
-  <CloseLogWindowOnEscape>TODO</CloseLogWindowOnEscape>
+  <CloseLogWindowOnEscape>بستن پنجره گزارش با فشردن لغو</CloseLogWindowOnEscape>
   <!-- EN: Verbose logging -->
   <LogVerbose>ثبت نام مفصل</LogVerbose>
   <!-- EN: Save data folder -->
@@ -113,7 +113,7 @@
   <!-- EN: Maximum number of colonies: {0} -->
   <MaxNumberOfPlayerSettlements>حداکثر تعداد کلونی ها : {0}</MaxNumberOfPlayerSettlements>
   <!-- EN: Autosaves count: {0} -->
-  <AutosavesCount>TODO</AutosavesCount>
+  <AutosavesCount>تعداد ذخیره‌های خودکار: {0}</AutosavesCount>
   <!-- EN: Map mouse drag sensitivity -->
   <MapDragSensitivity>حساسیت به کشیدن ماوس نقشه</MapDragSensitivity>
   <!-- EN: Plant wind sway -->
@@ -161,7 +161,7 @@
   <!-- EN: All settings will be reset to the default and the game will be restarted. Unsaved progress will be lost,\n\nContinue? -->
   <ResetAndRestartConfirmationDialog>تمام تنظیمات به حالت پیش فرض بازنشانی می شود و بازی مجدداً راه اندازی می شود. پیشرفت ذخیره نشده از بین خواهد رفت،\n\nادامه می دهید؟</ResetAndRestartConfirmationDialog>
   <!-- EN: Changing texture compression settings requires a restart. Unsaved progress will be lost.\n\nContinue? -->
-  <ChangedTextureCompressionRestart>تغییر تنظیمات فشرده سازی بافت نیاز به راه اندازی مجدد دارد. پیشرفت ذخیره نشده از بین خواهد رفت.\in\ادامه دهید؟</ChangedTextureCompressionRestart>
+  <ChangedTextureCompressionRestart>تغییر تنظیمات فشرده سازی بافت نیاز به راه اندازی مجدد دارد. پیشرفت ذخیره نشده از بین خواهد رفت.\n\nادامه دهید؟</ChangedTextureCompressionRestart>
   
   <!-- Background image -->
   <!-- EN: Menu background -->

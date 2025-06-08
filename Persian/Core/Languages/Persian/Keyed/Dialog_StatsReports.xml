@@ -6,549 +6,549 @@
   <!-- EN: damage -->
   <DamageLower>خسارت</DamageLower>
   <!-- EN: seconds per attack -->
-  <SecondsPerAttackLower>seconds per attack</SecondsPerAttackLower>
+  <SecondsPerAttackLower>ثانیه در هر حمله</SecondsPerAttackLower>
 
   <!-- EN: Base value -->
-  <StatsReport_BaseValue>Base value</StatsReport_BaseValue>
+  <StatsReport_BaseValue>مقدار پایه</StatsReport_BaseValue>
   <!-- EN: Relevant traits -->
-  <StatsReport_RelevantTraits>Relevant traits</StatsReport_RelevantTraits>
+  <StatsReport_RelevantTraits>ویژگی‌های مرتبط</StatsReport_RelevantTraits>
   <!-- EN: Relevant gear -->
-  <StatsReport_RelevantGear>Relevant gear</StatsReport_RelevantGear>
+  <StatsReport_RelevantGear>تجهیزات مرتبط</StatsReport_RelevantGear>
   <!-- EN: Relevant health conditions -->
-  <StatsReport_RelevantHediffs>Relevant health conditions</StatsReport_RelevantHediffs>
+  <StatsReport_RelevantHediffs>وضعیت‌های سلامتی مرتبط</StatsReport_RelevantHediffs>
   <!-- EN: Life stage -->
-  <StatsReport_LifeStage>Life stage</StatsReport_LifeStage>
+  <StatsReport_LifeStage>مرحله زندگی</StatsReport_LifeStage>
   <!-- EN: Shambler crawling -->
-  <StatsReport_ShamblerCrawling>TODO</StatsReport_ShamblerCrawling>
+  <StatsReport_ShamblerCrawling>خزیدن شَمبلر</StatsReport_ShamblerCrawling>
   <!-- EN: Material -->
-  <StatsReport_Material>Material</StatsReport_Material>
+  <StatsReport_Material>ماده</StatsReport_Material>
   <!-- EN: Character quality -->
-  <StatsReport_CharacterQuality>Character quality</StatsReport_CharacterQuality>
+  <StatsReport_CharacterQuality>کیفیت شخصیت</StatsReport_CharacterQuality>
   <!-- EN: Skills -->
-  <StatsReport_Skills>Skills</StatsReport_Skills>
+  <StatsReport_Skills>مهارت‌ها</StatsReport_Skills>
   <!-- EN: Post-process - other stats -->
-  <StatsReport_OtherStats>Post-process - other stats</StatsReport_OtherStats>
+  <StatsReport_OtherStats>پس‌پردازش - سایر آمار</StatsReport_OtherStats>
   <!-- EN: Health -->
-  <StatsReport_Health>Health</StatsReport_Health>
+  <StatsReport_Health>سلامتی</StatsReport_Health>
   <!-- EN: {0} importance -->
-  <HealthFactorPercentImpact>{0} importance</HealthFactorPercentImpact>
+  <HealthFactorPercentImpact>اهمیت {0}</HealthFactorPercentImpact>
   <!-- EN: {0} impact -->
-  <HealthOffsetScale>{0} impact</HealthOffsetScale>
+  <HealthOffsetScale>تأثیر {0}</HealthOffsetScale>
   <!-- EN: {0} max -->
-  <HealthFactorMaxImpact>{0} max</HealthFactorMaxImpact>
+  <HealthFactorMaxImpact>حداکثر {0}</HealthFactorMaxImpact>
   <!-- EN: if below {0} -->
-  <HealthFactorAllowedDefect>if below {0}</HealthFactorAllowedDefect>
+  <HealthFactorAllowedDefect>اگر کمتر از {0}</HealthFactorAllowedDefect>
   <!-- EN: Post-process curve -->
-  <StatsReport_PostProcessed>Post-process curve</StatsReport_PostProcessed>
+  <StatsReport_PostProcessed>منحنی پس‌پردازش</StatsReport_PostProcessed>
   <!-- EN: The chances to hit at increasing distances are -->
-  <StatsReport_ShootingExampleDistances>The chances to hit at increasing distances are</StatsReport_ShootingExampleDistances>
+  <StatsReport_ShootingExampleDistances>شانس برخورد در فواصل افزایشی عبارتند از</StatsReport_ShootingExampleDistances>
   <!-- EN: Final value -->
-  <StatsReport_FinalValue>Final value</StatsReport_FinalValue>
+  <StatsReport_FinalValue>مقدار نهایی</StatsReport_FinalValue>
   <!-- EN: Max value -->
-  <StatsReport_MaxValue>TODO</StatsReport_MaxValue>
+  <StatsReport_MaxValue>حداکثر مقدار</StatsReport_MaxValue>
   <!-- EN: Multiplier for {0} -->
-  <StatsReport_MultiplierFor>Multiplier for {0}</StatsReport_MultiplierFor>
+  <StatsReport_MultiplierFor>ضریب برای {0}</StatsReport_MultiplierFor>
   <!-- EN: Materials and labor -->
-  <StatsReport_MarketValueFromStuffsAndWork>Materials and labor</StatsReport_MarketValueFromStuffsAndWork>
+  <StatsReport_MarketValueFromStuffsAndWork>مواد و کار</StatsReport_MarketValueFromStuffsAndWork>
   <!-- EN: Quality multiplier -->
-  <StatsReport_QualityMultiplier>Quality multiplier</StatsReport_QualityMultiplier>
+  <StatsReport_QualityMultiplier>ضریب کیفیت</StatsReport_QualityMultiplier>
   <!-- EN: Quality offset -->
-  <StatsReport_QualityOffset>Quality offset</StatsReport_QualityOffset>
+  <StatsReport_QualityOffset>افست کیفیت</StatsReport_QualityOffset>
   <!-- EN: Max gain -->
-  <StatsReport_MaxGain>Max gain</StatsReport_MaxGain>
+  <StatsReport_MaxGain>حداکثر افزایش</StatsReport_MaxGain>
   <!-- EN: Multiplier for age {0} -->
-  <StatsReport_AgeMultiplier>Multiplier for age {0}</StatsReport_AgeMultiplier>
+  <StatsReport_AgeMultiplier>ضریب برای سن {0}</StatsReport_AgeMultiplier>
   <!-- EN: Offset for age {0} -->
-  <StatsReport_AgeOffset>TODO</StatsReport_AgeOffset>
+  <StatsReport_AgeOffset>افست برای سن {0}</StatsReport_AgeOffset>
   <!-- EN: Multiplier for health {0} -->
-  <StatsReport_HealthMultiplier>Multiplier for health {0}</StatsReport_HealthMultiplier>
+  <StatsReport_HealthMultiplier>ضریب برای سلامتی {0}</StatsReport_HealthMultiplier>
   <!-- EN: Cost to reload ({COUNT} {AMMO_label}) -->
-  <StatsReport_ReloadMarketValue>Cost to reload ({COUNT} {AMMO_label})</StatsReport_ReloadMarketValue>
+  <StatsReport_ReloadMarketValue>هزینه بارگیری مجدد ({COUNT} {AMMO_label})</StatsReport_ReloadMarketValue>
   <!-- EN: Multiplier for remaining {CHARGENOUN_plural} ({0}) -->
-  <StatsReport_ReloadRemainingChargesMultipler>Multiplier for remaining {CHARGENOUN_plural} ({0})</StatsReport_ReloadRemainingChargesMultipler>
+  <StatsReport_ReloadRemainingChargesMultipler>ضریب برای {CHARGENOUN_plural} باقی‌مانده ({0})</StatsReport_ReloadRemainingChargesMultipler>
   <!-- EN: Multiplier for mood {0} -->
-  <StatsReport_MoodMultiplier>Multiplier for mood {0}</StatsReport_MoodMultiplier>
+  <StatsReport_MoodMultiplier>ضریب برای حالت روحی {0}</StatsReport_MoodMultiplier>
   <!-- EN: Multiplier for light {0} -->
-  <StatsReport_LightMultiplier>Multiplier for light {0}</StatsReport_LightMultiplier>
+  <StatsReport_LightMultiplier>ضریب برای نور {0}</StatsReport_LightMultiplier>
   <!-- EN: Multiplier for difficulty {0} -->
-  <StatsReport_DifficultyMultiplier>Multiplier for difficulty {0}</StatsReport_DifficultyMultiplier>
+  <StatsReport_DifficultyMultiplier>ضریب برای سختی {0}</StatsReport_DifficultyMultiplier>
   <!-- EN: In bed -->
-  <StatsReport_InBed>In bed</StatsReport_InBed>
+  <StatsReport_InBed>در تخت</StatsReport_InBed>
   <!-- EN: Facilities -->
   <StatsReport_Facilities>امکانات</StatsReport_Facilities>
   <!-- EN: Multiplier for body size {0} -->
-  <StatsReport_BodySize>Multiplier for body size {0}</StatsReport_BodySize>
+  <StatsReport_BodySize>ضریب برای اندازه بدن {0}</StatsReport_BodySize>
   <!-- EN: Damaged -->
-  <StatsReport_HasHediffExplanation>Damaged</StatsReport_HasHediffExplanation>
+  <StatsReport_HasHediffExplanation>آسیب دیده</StatsReport_HasHediffExplanation>
   <!-- EN: DPS = Melee damage * Melee hit chance / Cooldown in seconds -->
-  <StatsReport_MeleeDPSExplanation>DPS = Melee damage * Melee hit chance / Cooldown in seconds</StatsReport_MeleeDPSExplanation>
+  <StatsReport_MeleeDPSExplanation>DPS = آسیب تن به تن * شانس برخورد تن به تن / زمان خنک شدن بر حسب ثانیه</StatsReport_MeleeDPSExplanation>
   <!-- EN: Melee damage -->
-  <StatsReport_MeleeDamage>Melee damage</StatsReport_MeleeDamage>
+  <StatsReport_MeleeDamage>آسیب تن به تن</StatsReport_MeleeDamage>
   <!-- EN: Cooldown -->
-  <StatsReport_Cooldown>Cooldown</StatsReport_Cooldown>
+  <StatsReport_Cooldown>زمان خنک شدن</StatsReport_Cooldown>
   <!-- EN: Melee hit chance -->
-  <StatsReport_MeleeHitChance>Melee hit chance</StatsReport_MeleeHitChance>
+  <StatsReport_MeleeHitChance>شانس برخورد تن به تن</StatsReport_MeleeHitChance>
   <!-- EN: {0} s -->
-  <StatsReport_CooldownFormat>{0} s</StatsReport_CooldownFormat>
+  <StatsReport_CooldownFormat>{0} ثانیه</StatsReport_CooldownFormat>
   <!-- EN: Blocked by fences -->
-  <StatsReport_BlockedByFences>Blocked by fences</StatsReport_BlockedByFences>
+  <StatsReport_BlockedByFences>مسدود شده توسط حصارها</StatsReport_BlockedByFences>
   <!-- EN: Roam interval -->
-  <StatsReport_RoamInterval>Roam interval</StatsReport_RoamInterval>
+  <StatsReport_RoamInterval>فاصله زمانی پرسه زدن</StatsReport_RoamInterval>
   <!-- EN: Caravan rideable age -->
-  <StatsReport_CaravanRideableAge>Caravan rideable age</StatsReport_CaravanRideableAge>
+  <StatsReport_CaravanRideableAge>سن قابل سواری در کاروان</StatsReport_CaravanRideableAge>
   <!-- EN: Life expectancy -->
-  <StatsReport_LifeExpectancy>Life expectancy</StatsReport_LifeExpectancy>
+  <StatsReport_LifeExpectancy>امید به زندگی</StatsReport_LifeExpectancy>
   <!-- EN: Multiplier for missing body parts -->
-  <StatsReport_MissingBodyParts>Multiplier for missing body parts</StatsReport_MissingBodyParts>
+  <StatsReport_MissingBodyParts>ضریب برای اعضای بدن از دست رفته</StatsReport_MissingBodyParts>
   <!-- EN: Gear and inventory -->
-  <StatsReport_GearAndInventoryMass>Gear and inventory</StatsReport_GearAndInventoryMass>
+  <StatsReport_GearAndInventoryMass>جرم تجهیزات و موجودی</StatsReport_GearAndInventoryMass>
   <!-- EN: Multiplier for worn by corpse -->
-  <StatsReport_WornByCorpse>Multiplier for worn by corpse</StatsReport_WornByCorpse>
+  <StatsReport_WornByCorpse>ضریب برای پوشیده شده توسط جسد</StatsReport_WornByCorpse>
   <!-- EN: average of all attacks -->
-  <AverageOfAllAttacks>average of all attacks</AverageOfAllAttacks>
+  <AverageOfAllAttacks>میانگین تمام حملات</AverageOfAllAttacks>
   <!-- EN: Scenario -->
-  <StatsReport_ScenarioFactor>Scenario</StatsReport_ScenarioFactor>
+  <StatsReport_ScenarioFactor>سناریو</StatsReport_ScenarioFactor>
   <!-- EN: Ingredients -->
-  <StatsReport_IngredientsMass>Ingredients</StatsReport_IngredientsMass>
+  <StatsReport_IngredientsMass>جرم مواد</StatsReport_IngredientsMass>
   <!-- EN: Permanently disabled. -->
-  <StatsReport_PermanentlyDisabled>Permanently disabled.</StatsReport_PermanentlyDisabled>
+  <StatsReport_PermanentlyDisabled>به طور دائم غیرفعال شده است.</StatsReport_PermanentlyDisabled>
   <!-- EN: {0} -->
   <StatsReport_Inspiration>{0}</StatsReport_Inspiration>
   <!-- EN: Added body parts -->
-  <StatsReport_AddedBodyPartsMass>Added body parts</StatsReport_AddedBodyPartsMass>
+  <StatsReport_AddedBodyPartsMass>جرم اعضای بدن اضافه شده</StatsReport_AddedBodyPartsMass>
   <!-- EN: Material effect multiplier -->
-  <StatsReport_StuffEffectMultiplier>Material effect multiplier</StatsReport_StuffEffectMultiplier>
+  <StatsReport_StuffEffectMultiplier>ضریب اثر ماده</StatsReport_StuffEffectMultiplier>
   <!-- EN: Resting -->
-  <StatsReport_Resting>Resting</StatsReport_Resting>
+  <StatsReport_Resting>در حال استراحت</StatsReport_Resting>
   <!-- EN: recreation type -->
-  <StatsReport_JoyKind>recreation type</StatsReport_JoyKind>
+  <StatsReport_JoyKind>نوع تفریح</StatsReport_JoyKind>
   <!-- EN: work to uninstall -->
-  <StatsReport_WorkToUninstall>work to uninstall</StatsReport_WorkToUninstall>
+  <StatsReport_WorkToUninstall>کار برای حذف نصب</StatsReport_WorkToUninstall>
   <!-- EN: Fence -->
-  <StatsReport_Fence>Fence</StatsReport_Fence>
+  <StatsReport_Fence>حصار</StatsReport_Fence>
   <!-- EN: Multiplier for growth {0} -->
-  <StatsReport_PlantGrowth>Multiplier for growth {0}</StatsReport_PlantGrowth>
+  <StatsReport_PlantGrowth>ضریب برای رشد {0}</StatsReport_PlantGrowth>
   <!-- EN: scaled because wild -->
-  <StatsReport_PlantGrowth_Wild>scaled because wild</StatsReport_PlantGrowth_Wild>
+  <StatsReport_PlantGrowth_Wild>مقیاس‌بندی شده به دلیل وحشی بودن</StatsReport_PlantGrowth_Wild>
   <!-- EN: Not flesh -->
-  <StatsReport_NotFlesh>Not flesh</StatsReport_NotFlesh>
+  <StatsReport_NotFlesh>گوشت نیست</StatsReport_NotFlesh>
   <!-- EN: Not fresh -->
-  <StatsReport_NotFresh>Not fresh</StatsReport_NotFresh>
+  <StatsReport_NotFresh>تازه نیست</StatsReport_NotFresh>
   <!-- EN: Wild man -->
-  <StatsReport_WildMan>Wild man</StatsReport_WildMan>
+  <StatsReport_WildMan>مرد وحشی</StatsReport_WildMan>
   <!-- EN: Attack -->
-  <StatsReport_NonToolAttack>Attack</StatsReport_NonToolAttack>
+  <StatsReport_NonToolAttack>حمله</StatsReport_NonToolAttack>
   <!-- EN: Ideoligion -->
-  <StatsReport_Ideoligion>Ideoligion</StatsReport_Ideoligion>
+  <StatsReport_Ideoligion>ایدئولوژی</StatsReport_Ideoligion>
   <!-- EN: Multiplier for malnutrition {0} -->
-  <StatsReport_Malnutrition>Multiplier for malnutrition {0}</StatsReport_Malnutrition>
+  <StatsReport_Malnutrition>ضریب برای سوءتغذیه {0}</StatsReport_Malnutrition>
 
   <!-- EN: Possible offsets -->
-  <StatReport_PossibleOffsets>Possible offsets</StatReport_PossibleOffsets>
+  <StatReport_PossibleOffsets>افست‌های ممکن</StatReport_PossibleOffsets>
   <!-- EN: Room impressiveness -->
-  <StatsReport_RoomImpressiveness>Room impressiveness</StatsReport_RoomImpressiveness>
+  <StatsReport_RoomImpressiveness>تاثیرگذاری اتاق</StatsReport_RoomImpressiveness>
   <!-- EN: Lit -->
-  <StatsReport_Lit>Lit</StatsReport_Lit>
+  <StatsReport_Lit>روشن</StatsReport_Lit>
   <!-- EN: Contains {0} -->
-  <StatsReport_GraveFull>Contains {0}</StatsReport_GraveFull>
+  <StatsReport_GraveFull>حاوی {0}</StatsReport_GraveFull>
   <!-- EN: Contains a human corpse -->
-  <StatsReport_GraveFullAbstract>Contains a human corpse</StatsReport_GraveFullAbstract>
+  <StatsReport_GraveFullAbstract>حاوی یک جسد انسان</StatsReport_GraveFullAbstract>
   <!-- EN: Meditator is related to the corpse inside -->
-  <StatsReport_GraveCorpseRelatedAbstract>Meditator is related to the corpse inside</StatsReport_GraveCorpseRelatedAbstract>
+  <StatsReport_GraveCorpseRelatedAbstract>مدیتیشن‌کننده با جسد داخل مرتبط است</StatsReport_GraveCorpseRelatedAbstract>
   <!-- EN: From quality -->
-  <StatsReport_FromQuality>From quality</StatsReport_FromQuality>
+  <StatsReport_FromQuality>از کیفیت</StatsReport_FromQuality>
   <!-- EN: Nearby artificial structures -->
-  <StatsReport_NearbyArtificialStructures>Nearby artificial structures</StatsReport_NearbyArtificialStructures>
+  <StatsReport_NearbyArtificialStructures>سازه‌های مصنوعی نزدیک</StatsReport_NearbyArtificialStructures>
   <!-- EN: Satisfies user's title requirements -->
-  <StatsReport_SatisfiesTitle>Satisfies user's title requirements</StatsReport_SatisfiesTitle>
+  <StatsReport_SatisfiesTitle>نیازهای عنوان کاربر را برآورده می‌کند</StatsReport_SatisfiesTitle>
 
   <!-- EN: Age -->
-  <Stat_Age_Label>TODO</Stat_Age_Label>
+  <Stat_Age_Label>سن</Stat_Age_Label>
   <!-- EN: Different sources of recreation satisfy different recreation types. Colonists become bored of doing the same recreation type repeatedly, so it is important to provide a variety of recreation sources with different recreation types. -->
-  <Stat_RecreationType_Desc>Different sources of recreation satisfy different recreation types. Colonists become bored of doing the same recreation type repeatedly, so it is important to provide a variety of recreation sources with different recreation types.</Stat_RecreationType_Desc>
+  <Stat_RecreationType_Desc>منابع مختلف تفریح انواع مختلفی از تفریح را برآورده می‌کنند. مهاجران از انجام مکرر یک نوع تفریح خسته می‌شوند، بنابراین مهم است که منابع تفریحی متنوعی با انواع تفریح مختلف فراهم کنید.</Stat_RecreationType_Desc>
   <!-- EN: All recreation types -->
-  <Stat_JoyKind_AllTypes>All recreation types</Stat_JoyKind_AllTypes>
+  <Stat_JoyKind_AllTypes>تمام انواع تفریح</Stat_JoyKind_AllTypes>
   <!-- EN: Mined item -->
-  <Stat_MineableThing_Name>Mined item</Stat_MineableThing_Name>
+  <Stat_MineableThing_Name>آیتم استخراج شده</Stat_MineableThing_Name>
   <!-- EN: The item that will be yielded when mining this. -->
-  <Stat_MineableThing_Desc>The item that will be yielded when mining this.</Stat_MineableThing_Desc>
+  <Stat_MineableThing_Desc>آیتمی که هنگام استخراج این به دست می‌آید.</Stat_MineableThing_Desc>
   <!-- EN: Mining yield -->
-  <Stat_MiningYield_Name>Mining yield</Stat_MiningYield_Name>
+  <Stat_MiningYield_Name>بازده استخراج</Stat_MiningYield_Name>
   <!-- EN: The maximum amount of items yielded when mining this. The actual yield will be adjusted by the mining skill of the miner. -->
-  <Stat_MiningYield_Desc>The maximum amount of items yielded when mining this. The actual yield will be adjusted by the mining skill of the miner.</Stat_MiningYield_Desc>
+  <Stat_MiningYield_Desc>حداکثر مقدار آیتم‌هایی که هنگام استخراج این به دست می‌آید. بازده واقعی با مهارت استخراج کننده تنظیم خواهد شد.</Stat_MiningYield_Desc>
   <!-- EN: Source species -->
-  <Stat_SourceSpecies_Name>Source species</Stat_SourceSpecies_Name>
+  <Stat_SourceSpecies_Name>گونه منبع</Stat_SourceSpecies_Name>
   <!-- EN: The species of creature from which this was taken. -->
-  <Stat_SourceSpecies_Desc>The species of creature from which this was taken.</Stat_SourceSpecies_Desc>
+  <Stat_SourceSpecies_Desc>گونه موجودی که این از آن گرفته شده است.</Stat_SourceSpecies_Desc>
   <!-- EN: Stuff -->
-  <Stat_Stuff_Name>Stuff</Stat_Stuff_Name>
+  <Stat_Stuff_Name>ماده</Stat_Stuff_Name>
   <!-- EN: The stuff this thing is made of. This affects many other stats, including weapon damage, apparel armor and insulation, item and building hit points, beauty, market value, and much more. -->
-  <Stat_Stuff_Desc>The stuff this thing is made of. This affects many other stats, including weapon damage, apparel armor and insulation, item and building hit points, beauty, market value, and much more.</Stat_Stuff_Desc>
+  <Stat_Stuff_Desc>ماده‌ای که این چیز از آن ساخته شده است. این بر بسیاری از آمار دیگر تأثیر می‌گذارد، از جمله آسیب سلاح، زره و عایق لباس، نقاط ضربه آیتم و ساختمان، زیبایی، ارزش بازار و موارد دیگر.</Stat_Stuff_Desc>
   <!-- EN: Weapon -->
-  <Stat_Weapon_Name>Weapon</Stat_Weapon_Name>
+  <Stat_Weapon_Name>سلاح</Stat_Weapon_Name>
   <!-- EN: The weapon used by this turret. -->
-  <Stat_Weapon_Desc>The weapon used by this turret.</Stat_Weapon_Desc>
+  <Stat_Weapon_Desc>سلاح مورد استفاده این برجک.</Stat_Weapon_Desc>
   <!-- EN: How much damage an object can take before being destroyed. -->
-  <Stat_HitPoints_Desc>How much damage an object can take before being destroyed.</Stat_HitPoints_Desc>
+  <Stat_HitPoints_Desc>مقدار آسیبی که یک شیء می‌تواند قبل از تخریب تحمل کند.</Stat_HitPoints_Desc>
   <!-- EN: The amount of work it takes to uninstall this. -->
-  <Stat_Thing_WorkToUninstall_Desc>The amount of work it takes to uninstall this.</Stat_Thing_WorkToUninstall_Desc>
+  <Stat_Thing_WorkToUninstall_Desc>مقدار کاری که برای حذف نصب این لازم است.</Stat_Thing_WorkToUninstall_Desc>
   <!-- EN: Whether this building is a type of fence. Fences block these animals -->
-  <Stat_Thing_Fence_Desc>Whether this building is a type of fence. Fences block these animals</Stat_Thing_Fence_Desc>
+  <Stat_Thing_Fence_Desc>آیا این ساختمان نوعی حصار است یا خیر. حصارها این حیوانات را مسدود می‌کنند</Stat_Thing_Fence_Desc>
   <!-- EN: Which facilities can be used to produce this. -->
-  <Stat_Thing_CreatedAt_Desc>Which facilities can be used to produce this.</Stat_Thing_CreatedAt_Desc>
+  <Stat_Thing_CreatedAt_Desc>کدام امکانات می‌توانند برای تولید این استفاده شوند.</Stat_Thing_CreatedAt_Desc>
   <!-- EN: The amount of damage this weapon deals.\n\nThis may be deflected or mitigated by the target's armor. -->
-  <Stat_Thing_Damage_Desc>The amount of damage this weapon deals.\n\nThis may be deflected or mitigated by the target's armor.</Stat_Thing_Damage_Desc>
+  <Stat_Thing_Damage_Desc>مقدار آسیبی که این سلاح وارد می‌کند.\n\nاین ممکن است توسط زره هدف منحرف یا کاهش یابد.</Stat_Thing_Damage_Desc>
   <!-- EN: A multiplier on the amount of experience doctors gain when using this to tend a patient. -->
-  <Stat_Thing_Drug_MedicineXpGainFactor_Desc>A multiplier on the amount of experience doctors gain when using this to tend a patient.</Stat_Thing_Drug_MedicineXpGainFactor_Desc>
+  <Stat_Thing_Drug_MedicineXpGainFactor_Desc>ضریبی بر مقدار تجربه‌ای که پزشکان هنگام استفاده از این برای درمان بیمار کسب می‌کنند.</Stat_Thing_Drug_MedicineXpGainFactor_Desc>
   <!-- EN: The attributes of this plant. -->
-  <Stat_Thing_Plant_Attributes_Desc>The attributes of this plant.</Stat_Thing_Plant_Attributes_Desc>
+  <Stat_Thing_Plant_Attributes_Desc>ویژگی‌های این گیاه.</Stat_Thing_Plant_Attributes_Desc>
   <!-- EN: Clothing (for nudity) -->
-  <Stat_Thing_Apparel_CountsAsClothingNudity_Name>Clothing (for nudity)</Stat_Thing_Apparel_CountsAsClothingNudity_Name>
+  <Stat_Thing_Apparel_CountsAsClothingNudity_Name>لباس (برای برهنگی)</Stat_Thing_Apparel_CountsAsClothingNudity_Name>
   <!-- EN: Whether nudists will consider this item to be a piece of clothing. If not, nudists will never be bothered by wearing this. -->
-  <Stat_Thing_Apparel_CountsAsClothingNudity_Desc>Whether nudists will consider this item to be a piece of clothing. If not, nudists will never be bothered by wearing this.</Stat_Thing_Apparel_CountsAsClothingNudity_Desc>
+  <Stat_Thing_Apparel_CountsAsClothingNudity_Desc>آیا برهنه‌گرایان این آیتم را یک قطعه لباس محسوب می‌کنند یا خیر. اگر نه، برهنه‌گرایان هرگز از پوشیدن این اذیت نخواهند شد.</Stat_Thing_Apparel_CountsAsClothingNudity_Desc>
   <!-- EN: Gender -->
-  <Stat_Thing_Apparel_Gender>TODO</Stat_Thing_Apparel_Gender>
+  <Stat_Thing_Apparel_Gender>جنسیت</Stat_Thing_Apparel_Gender>
   <!-- EN: Certain apparel is generally preferred by one gender. Anyone else may be unhappy wearing it. -->
-  <Stat_Thing_Apparel_Gender_Desc>TODO</Stat_Thing_Apparel_Gender_Desc>
+  <Stat_Thing_Apparel_Gender_Desc>برخی لباس‌ها عموماً توسط یک جنسیت ترجیح داده می‌شوند. هر کس دیگری ممکن است از پوشیدن آن ناراضی باشد.</Stat_Thing_Apparel_Gender_Desc>
   <!-- EN: Which body parts this covers.\n\nArmor does not protect body parts that it does not cover. -->
-  <Stat_Thing_Apparel_Covers_Desc>Which body parts this covers.\n\nArmor does not protect body parts that it does not cover.</Stat_Thing_Apparel_Covers_Desc>
+  <Stat_Thing_Apparel_Covers_Desc>کدام اعضای بدن را این پوشش می‌دهد.\n\nزره از اعضای بدنی که پوشش نمی‌دهد محافظت نمی‌کند.</Stat_Thing_Apparel_Covers_Desc>
   <!-- EN: Which apparel layers this fills.\n\nFor a given body part, only one piece of apparel can be worn in each layer. -->
-  <Stat_Thing_Apparel_Layer_Desc>Which apparel layers this fills.\n\nFor a given body part, only one piece of apparel can be worn in each layer.</Stat_Thing_Apparel_Layer_Desc>
+  <Stat_Thing_Apparel_Layer_Desc>کدام لایه‌های لباس را این پر می‌کند.\n\nبرای یک عضو بدن مشخص، فقط یک قطعه لباس می‌تواند در هر لایه پوشیده شود.</Stat_Thing_Apparel_Layer_Desc>
   <!-- EN: The minimum soil fertility that this plant requires to grow. -->
-  <Stat_Thing_Plant_FertilityRequirement_Desc>The minimum soil fertility that this plant requires to grow.</Stat_Thing_Plant_FertilityRequirement_Desc>
+  <Stat_Thing_Plant_FertilityRequirement_Desc>حداقل باروری خاک که این گیاه برای رشد نیاز دارد.</Stat_Thing_Plant_FertilityRequirement_Desc>
   <!-- EN: How sensitive this plant is to soil fertility.\n\nLow sensitivity means the plant will grow about the same speed in rich or poor soil. High sensitivity means the plant grows slow in poor soil, but faster in rich soil. -->
-  <Stat_Thing_Plant_FertilitySensitivity_Desc>How sensitive this plant is to soil fertility.\n\nLow sensitivity means the plant will grow about the same speed in rich or poor soil. High sensitivity means the plant grows slow in poor soil, but faster in rich soil.</Stat_Thing_Plant_FertilitySensitivity_Desc>
+  <Stat_Thing_Plant_FertilitySensitivity_Desc>این گیاه چقدر به باروری خاک حساس است.\n\nحساسیت کم به این معنی است که گیاه در خاک غنی یا فقیر با سرعت تقریباً یکسانی رشد خواهد کرد. حساسیت بالا به این معنی است که گیاه در خاک فقیر کند رشد می‌کند، اما در خاک غنی سریع‌تر.</Stat_Thing_Plant_FertilitySensitivity_Desc>
   <!-- EN: The amount of light this plant requires to grow. -->
-  <Stat_Thing_Plant_LightRequirement_Desc>The amount of light this plant requires to grow.</Stat_Thing_Plant_LightRequirement_Desc>
+  <Stat_Thing_Plant_LightRequirement_Desc>مقدار نوری که این گیاه برای رشد نیاز دارد.</Stat_Thing_Plant_LightRequirement_Desc>
   <!-- EN: The lifespan of the plant.\n\nPlants naturally die after they reach a certain age, even if not harvested. -->
-  <Stat_Thing_Plant_LifeSpan_Desc>The lifespan of the plant.\n\nPlants naturally die after they reach a certain age, even if not harvested.</Stat_Thing_Plant_LifeSpan_Desc>
+  <Stat_Thing_Plant_LifeSpan_Desc>طول عمر گیاه.\n\nگیاهان به طور طبیعی پس از رسیدن به سن معینی می‌میرند، حتی اگر برداشت نشوند.</Stat_Thing_Plant_LifeSpan_Desc>
   <!-- EN: The amount of product this plant will yield when harvested. -->
-  <Stat_Thing_Plant_HarvestYield_Desc>The amount of product this plant will yield when harvested.</Stat_Thing_Plant_HarvestYield_Desc>
+  <Stat_Thing_Plant_HarvestYield_Desc>مقدار محصولی که این گیاه هنگام برداشت به دست می‌آید.</Stat_Thing_Plant_HarvestYield_Desc>
   <!-- EN: The minimum temperature this plant can survive.\n\nTemperatures below this will cause damage over time. -->
-  <Stat_Thing_Plant_MinGrowthTemperature_Desc>The minimum temperature this plant can survive.\n\nTemperatures below this will cause damage over time.</Stat_Thing_Plant_MinGrowthTemperature_Desc>
+  <Stat_Thing_Plant_MinGrowthTemperature_Desc>حداقل دمایی که این گیاه می‌تواند در آن زنده بماند.\n\nدماهای پایین‌تر از این باعث آسیب در طول زمان خواهد شد.</Stat_Thing_Plant_MinGrowthTemperature_Desc>
   <!-- EN: The maximum temperature this plant can survive.\n\nTemperatures above this will cause damage over time. -->
-  <Stat_Thing_Plant_MaxGrowthTemperature_Desc>The maximum temperature this plant can survive.\n\nTemperatures above this will cause damage over time.</Stat_Thing_Plant_MaxGrowthTemperature_Desc>
+  <Stat_Thing_Plant_MaxGrowthTemperature_Desc>حداکثر دمایی که این گیاه می‌تواند در آن زنده بماند.\n\nدماهای بالاتر از این باعث آسیب در طول زمان خواهد شد.</Stat_Thing_Plant_MaxGrowthTemperature_Desc>
   <!-- EN: The minimum skill needed for a farmer to to sow this plant. -->
-  <Stat_Thing_Plant_MinGrowingSkillToSow_Desc>The minimum skill needed for a farmer to to sow this plant.</Stat_Thing_Plant_MinGrowingSkillToSow_Desc>
+  <Stat_Thing_Plant_MinGrowingSkillToSow_Desc>حداقل مهارت مورد نیاز برای یک کشاورز برای کاشت این گیاه.</Stat_Thing_Plant_MinGrowingSkillToSow_Desc>
   <!-- EN: The kinds of food this creature is capable of eating.\n\nCan eat: {0} -->
-  <Stat_Race_Diet_Desc>The kinds of food this creature is capable of eating.\n\nCan eat: {0}</Stat_Race_Diet_Desc>
+  <Stat_Race_Diet_Desc>انواع غذاهایی که این موجود قادر به خوردن آنهاست.\n\nمی‌تواند بخورد: {0}</Stat_Race_Diet_Desc>
   <!-- EN: The type of leather this creature will yield when butchered. -->
-  <Stat_Race_LeatherType_Desc>The type of leather this creature will yield when butchered.</Stat_Race_LeatherType_Desc>
+  <Stat_Race_LeatherType_Desc>نوع چرمی که این موجود هنگام قصابی به دست می‌آید.</Stat_Race_LeatherType_Desc>
   <!-- EN: The chance that this creature will attack when a tamer tries to tame it and fails. -->
-  <Stat_Race_Animal_TameFailedRevengeChance_Desc>The chance that this creature will attack when a tamer tries to tame it and fails.</Stat_Race_Animal_TameFailedRevengeChance_Desc>
+  <Stat_Race_Animal_TameFailedRevengeChance_Desc>شانسی که این موجود هنگام تلاش یک اهلی‌کننده برای اهلی کردن آن و شکست، حمله خواهد کرد.</Stat_Race_Animal_TameFailedRevengeChance_Desc>
   <!-- EN: This creature's general mental aptitude for training. This is a combination of intelligence and attentiveness. It determines which kinds of tasks this creature can be trained to perform. -->
-  <Stat_Race_Trainability_Desc>This creature's general mental aptitude for training. This is a combination of intelligence and attentiveness. It determines which kinds of tasks this creature can be trained to perform.</Stat_Race_Trainability_Desc>
+  <Stat_Race_Trainability_Desc>استعداد ذهنی کلی این موجود برای آموزش. این ترکیبی از هوش و توجه است. این تعیین می‌کند که این موجود برای انجام چه نوع کارهایی می‌تواند آموزش داده شود.</Stat_Race_Trainability_Desc>
   <!-- EN: The average life expectancy of this creature. -->
-  <Stat_Race_LifeExpectancy_Desc>The average life expectancy of this creature.</Stat_Race_LifeExpectancy_Desc>
+  <Stat_Race_LifeExpectancy_Desc>میانگین امید به زندگی این موجود.</Stat_Race_LifeExpectancy_Desc>
   <!-- EN: Whether this creature is blocked by fences and barricades. -->
-  <Stat_Race_BlockedByFences_Desc>Whether this creature is blocked by fences and barricades.</Stat_Race_BlockedByFences_Desc>
+  <Stat_Race_BlockedByFences_Desc>آیا این موجود توسط حصارها و موانع مسدود می‌شود یا خیر.</Stat_Race_BlockedByFences_Desc>
   <!-- EN: How often a tame animal will attempt to roam away and exit the map.\n\nAnimals will only roam if they have a direct path to the map edge. You can use fences, barricades, walls, and doors to prevent this.\n\nAnimal handlers can rope roaming animals and bring them back to a pen. -->
-  <Stat_Race_RoamInterval_Desc>How often a tame animal will attempt to roam away and exit the map.\n\nAnimals will only roam if they have a direct path to the map edge. You can use fences, barricades, walls, and doors to prevent this.\n\nAnimal handlers can rope roaming animals and bring them back to a pen.</Stat_Race_RoamInterval_Desc>
+  <Stat_Race_RoamInterval_Desc>هر چند وقت یک بار یک حیوان اهلی تلاش می‌کند پرسه بزند و از نقشه خارج شود.\n\nحیوانات فقط در صورتی پرسه می‌زنند که مسیر مستقیمی به لبه نقشه داشته باشند. می‌توانید از حصارها، موانع، دیوارها و درها برای جلوگیری از این کار استفاده کنید.\n\nکارگران حیوانات می‌توانند حیوانات پرسه زن را طناب‌کشی کرده و به آغل بازگردانند.</Stat_Race_RoamInterval_Desc>
   <!-- EN: The recreational value of ingesting this. Higher numbers will fulfill the recreation need more. -->
-  <Stat_Thing_Ingestible_Joy_Desc>The recreational value of ingesting this. Higher numbers will fulfill the recreation need more.</Stat_Thing_Ingestible_Joy_Desc>
+  <Stat_Thing_Ingestible_Joy_Desc>ارزش تفریحی مصرف این. اعداد بالاتر نیاز به تفریح را بیشتر برآورده می‌کنند.</Stat_Thing_Ingestible_Joy_Desc>
   <!-- EN: The size of this creature's body, compared to an average adult human. -->
-  <Stat_Race_BodySize_Desc>The size of this creature's body, compared to an average adult human.</Stat_Race_BodySize_Desc>
+  <Stat_Race_BodySize_Desc>اندازه بدن این موجود، در مقایسه با یک انسان بالغ متوسط.</Stat_Race_BodySize_Desc>
   <!-- EN: How close this creature is to adulthood.\n\nGrowth requires nourishment. A hungry animal will grow at a slower rate compared to a well-fed one. -->
-  <Stat_Race_Growth_Desc>How close this creature is to adulthood.\n\nGrowth requires nourishment. A hungry animal will grow at a slower rate compared to a well-fed one.</Stat_Race_Growth_Desc>
+  <Stat_Race_Growth_Desc>این موجود چقدر به بلوغ نزدیک است.\n\nرشد نیاز به تغذیه دارد. یک حیوان گرسنه با سرعت کمتری نسبت به یک حیوان خوب تغذیه شده رشد خواهد کرد.</Stat_Race_Growth_Desc>
   <!-- EN: How much time passes between when a melee attack with this weapon begins and when it hits. -->
-  <Stat_Thing_Weapon_MeleeWarmupTime_Desc>How much time passes between when a melee attack with this weapon begins and when it hits.</Stat_Thing_Weapon_MeleeWarmupTime_Desc>
+  <Stat_Thing_Weapon_MeleeWarmupTime_Desc>چه مقدار زمان بین شروع حمله تن به تن با این سلاح و برخورد آن می‌گذرد.</Stat_Thing_Weapon_MeleeWarmupTime_Desc>
   <!-- EN: How much time passes between when a ranged attack begins aiming and when it fires. -->
-  <Stat_Thing_Weapon_RangedWarmupTime_Desc>How much time passes between when a ranged attack begins aiming and when it fires.</Stat_Thing_Weapon_RangedWarmupTime_Desc>
+  <Stat_Thing_Weapon_RangedWarmupTime_Desc>چه مقدار زمان بین شروع هدف‌گیری حمله دوربرد و شلیک آن می‌گذرد.</Stat_Thing_Weapon_RangedWarmupTime_Desc>
   <!-- EN: The amount of shots this weapon fires in each burst. -->
-  <Stat_Thing_Weapon_BurstShotCount_Desc>The amount of shots this weapon fires in each burst.</Stat_Thing_Weapon_BurstShotCount_Desc>
+  <Stat_Thing_Weapon_BurstShotCount_Desc>تعداد شلیک‌هایی که این سلاح در هر رگبار شلیک می‌کند.</Stat_Thing_Weapon_BurstShotCount_Desc>
   <!-- EN: The fire rate of this weapon during each burst. -->
-  <Stat_Thing_Weapon_BurstShotFireRate_Desc>The fire rate of this weapon during each burst.</Stat_Thing_Weapon_BurstShotFireRate_Desc>
+  <Stat_Thing_Weapon_BurstShotFireRate_Desc>نرخ آتش این سلاح در طول هر رگبار.</Stat_Thing_Weapon_BurstShotFireRate_Desc>
   <!-- EN: The maximum range of this weapon. -->
-  <Stat_Thing_Weapon_Range_Desc>The maximum range of this weapon.</Stat_Thing_Weapon_Range_Desc>
+  <Stat_Thing_Weapon_Range_Desc>حداکثر برد این سلاح.</Stat_Thing_Weapon_Range_Desc>
   <!-- EN: The radius of random spread on shots fired by this weapon.\n\nHigh values make projectiles disperse randomly around the target. -->
-  <Stat_Thing_Weapon_MissRadius_Desc>The radius of random spread on shots fired by this weapon.\n\nHigh values make projectiles disperse randomly around the target.</Stat_Thing_Weapon_MissRadius_Desc>
+  <Stat_Thing_Weapon_MissRadius_Desc>شعاع پراکندگی تصادفی شلیک‌های این سلاح.\n\nمقادیر بالا باعث پراکندگی تصادفی پرتابه‌ها در اطراف هدف می‌شود.</Stat_Thing_Weapon_MissRadius_Desc>
   <!-- EN: The chance that a shot will directly hit its target if not intercepted, dodged or stopped. -->
-  <Stat_Thing_Weapon_DirectHitChance_Desc>The chance that a shot will directly hit its target if not intercepted, dodged or stopped.</Stat_Thing_Weapon_DirectHitChance_Desc>
+  <Stat_Thing_Weapon_DirectHitChance_Desc>شانسی که یک شلیک مستقیماً به هدف برخورد می‌کند اگر رهگیری، جاخالی داده یا متوقف نشود.</Stat_Thing_Weapon_DirectHitChance_Desc>
   <!-- EN: This body part's effect on the mood of the owner. -->
-  <Stat_Thing_MoodChange_Desc>This body part's effect on the mood of the owner.</Stat_Thing_MoodChange_Desc>
+  <Stat_Thing_MoodChange_Desc>تأثیر این عضو بدن بر حالت روحی صاحب آن.</Stat_Thing_MoodChange_Desc>
   <!-- EN: The main skill used while performing this recipe.\n\nIt determines the quality of the result, and is learned while performing this recipe. -->
-  <Stat_Recipe_Skill_Desc>The main skill used while performing this recipe.\n\nIt determines the quality of the result, and is learned while performing this recipe.</Stat_Recipe_Skill_Desc>
+  <Stat_Recipe_Skill_Desc>مهارت اصلی مورد استفاده هنگام انجام این دستور پخت.\n\nاین کیفیت نتیجه را تعیین می‌کند و هنگام انجام این دستور پخت یاد گرفته می‌شود.</Stat_Recipe_Skill_Desc>
   <!-- EN: The ingredients required to perform this recipe. -->
-  <Stat_Recipe_Ingredients_Desc>The ingredients required to perform this recipe.</Stat_Recipe_Ingredients_Desc>
+  <Stat_Recipe_Ingredients_Desc>مواد لازم برای انجام این دستور پخت.</Stat_Recipe_Ingredients_Desc>
   <!-- EN: The skills required to perform this recipe. -->
-  <Stat_Recipe_SkillRequirements_Desc>The skills required to perform this recipe.</Stat_Recipe_SkillRequirements_Desc>
+  <Stat_Recipe_SkillRequirements_Desc>مهارت‌های مورد نیاز برای انجام این دستور پخت.</Stat_Recipe_SkillRequirements_Desc>
   <!-- EN: The products produced by this recipe. -->
-  <Stat_Recipe_Products_Desc>The products produced by this recipe.</Stat_Recipe_Products_Desc>
+  <Stat_Recipe_Products_Desc>محصولات تولید شده توسط این دستور پخت.</Stat_Recipe_Products_Desc>
   <!-- EN: Which character stat governs the workspeed of this recipe.\n\nThe higher the stat of the worker is, the faster work will be done. -->
-  <Stat_Recipe_WorkSpeedStat_Desc>Which character stat governs the workspeed of this recipe.\n\nThe higher the stat of the worker is, the faster work will be done.</Stat_Recipe_WorkSpeedStat_Desc>
+  <Stat_Recipe_WorkSpeedStat_Desc>کدام آمار شخصیت سرعت کار این دستور پخت را کنترل می‌کند.\n\nهرچه آمار کارگر بالاتر باشد، کار سریع‌تر انجام خواهد شد.</Stat_Recipe_WorkSpeedStat_Desc>
   <!-- EN: Which stat governs the quality or amount of output.\n\nThe higher the stat of the worker is, the higher the quality or yield will be. -->
-  <Stat_Recipe_EfficiencyStat_Desc>Which stat governs the quality or amount of output.\n\nThe higher the stat of the worker is, the higher the quality or yield will be.</Stat_Recipe_EfficiencyStat_Desc>
+  <Stat_Recipe_EfficiencyStat_Desc>کدام آمار کیفیت یا مقدار خروجی را کنترل می‌کند.\n\nهرچه آمار کارگر بالاتر باشد، کیفیت یا بازده بالاتر خواهد بود.</Stat_Recipe_EfficiencyStat_Desc>
   <!-- EN: A multiplier on the chance this operation will be a success. More difficult operations have lower multipliers.\n\nThe actual chance of success of a surgery is also affected by the doctor, facilities, and medicine used. -->
-  <Stat_Thing_Surgery_SuccessChanceFactor_Desc>A multiplier on the chance this operation will be a success. More difficult operations have lower multipliers.\n\nThe actual chance of success of a surgery is also affected by the doctor, facilities, and medicine used.</Stat_Thing_Surgery_SuccessChanceFactor_Desc>
+  <Stat_Thing_Surgery_SuccessChanceFactor_Desc>ضریبی بر شانس موفقیت این عمل. عملیات دشوارتر ضرایب کمتری دارند.\n\nشانس واقعی موفقیت یک جراحی نیز تحت تأثیر پزشک، امکانات و داروی مورد استفاده قرار می‌گیرد.</Stat_Thing_Surgery_SuccessChanceFactor_Desc>
   <!-- EN: Can't fail -->
-  <Stat_Thing_Surgery_SuccessChanceFactor_CantFail>Can't fail</Stat_Thing_Surgery_SuccessChanceFactor_CantFail>
+  <Stat_Thing_Surgery_SuccessChanceFactor_CantFail>نمی‌تواند شکست بخورد</Stat_Thing_Surgery_SuccessChanceFactor_CantFail>
   <!-- EN: Performing this operation is safe for the patient. -->
-  <Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>Performing this operation is safe for the patient.</Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>
+  <Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>انجام این عمل برای بیمار ایمن است.</Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>
   <!-- EN: The chance the patient will die upon failure of this surgery. -->
-  <Stat_Thing_Surgery_DeathOnFailChance_Desc>The chance the patient will die upon failure of this surgery.</Stat_Thing_Surgery_DeathOnFailChance_Desc>
+  <Stat_Thing_Surgery_DeathOnFailChance_Desc>شانس مرگ بیمار در صورت شکست این جراحی.</Stat_Thing_Surgery_DeathOnFailChance_Desc>
   <!-- EN: Total bleed factor -->
-  <Stat_Hediff_TotalBleedFactor_Name>Total bleed factor</Stat_Hediff_TotalBleedFactor_Name>
+  <Stat_Hediff_TotalBleedFactor_Name>ضریب خونریزی کلی</Stat_Hediff_TotalBleedFactor_Name>
   <!-- EN: A multiplier applied to the overall rate of blood loss. -->
-  <Stat_Hediff_TotalBleedFactor_Desc>A multiplier applied to the overall rate of blood loss.</Stat_Hediff_TotalBleedFactor_Desc>
+  <Stat_Hediff_TotalBleedFactor_Desc>ضریبی که بر نرخ کلی از دست دادن خون اعمال می‌شود.</Stat_Hediff_TotalBleedFactor_Desc>
   <!-- EN: Natural healing factor -->
-  <Stat_Hediff_NaturalHealingFactor_Name>Natural healing factor</Stat_Hediff_NaturalHealingFactor_Name>
+  <Stat_Hediff_NaturalHealingFactor_Name>ضریب بهبود طبیعی</Stat_Hediff_NaturalHealingFactor_Name>
   <!-- EN: A multiplier applied to the overall rate of natural wound healing. -->
-  <Stat_Hediff_NaturalHealingFactor_Desc>A multiplier applied to the overall rate of natural wound healing.</Stat_Hediff_NaturalHealingFactor_Desc>
+  <Stat_Hediff_NaturalHealingFactor_Desc>ضریبی که بر نرخ کلی بهبود طبیعی زخم اعمال می‌شود.</Stat_Hediff_NaturalHealingFactor_Desc>
   <!-- EN: Food poisoning chance factor -->
-  <Stat_Hediff_FoodPoisoningChanceFactor_Name>Food poisoning chance factor</Stat_Hediff_FoodPoisoningChanceFactor_Name>
+  <Stat_Hediff_FoodPoisoningChanceFactor_Name>ضریب شانس مسمومیت غذایی</Stat_Hediff_FoodPoisoningChanceFactor_Name>
   <!-- EN: A multiplier applied to the chance of getting food poisoning. -->
-  <Stat_Hediff_FoodPoisoningChanceFactor_Desc>A multiplier applied to the chance of getting food poisoning.</Stat_Hediff_FoodPoisoningChanceFactor_Desc>
+  <Stat_Hediff_FoodPoisoningChanceFactor_Desc>ضریبی که بر شانس ابتلا به مسمومیت غذایی اعمال می‌شود.</Stat_Hediff_FoodPoisoningChanceFactor_Desc>
   <!-- EN: The rate at which this condition causes blood loss. -->
-  <Stat_Hediff_BleedingRate_Desc>The rate at which this condition causes blood loss.</Stat_Hediff_BleedingRate_Desc>
+  <Stat_Hediff_BleedingRate_Desc>نرخی که این وضعیت باعث از دست دادن خون می‌شود.</Stat_Hediff_BleedingRate_Desc>
   <!-- EN: The amount of pain caused by this condition. -->
-  <Stat_Hediff_Pain_Desc>The amount of pain caused by this condition.</Stat_Hediff_Pain_Desc>
+  <Stat_Hediff_Pain_Desc>مقدار دردی که این وضعیت ایجاد می‌کند.</Stat_Hediff_Pain_Desc>
   <!-- EN: The offset in efficiency applied to body parts affected by this. -->
-  <Stat_Hediff_PartEfficiency_Desc>The offset in efficiency applied to body parts affected by this.</Stat_Hediff_PartEfficiency_Desc>
+  <Stat_Hediff_PartEfficiency_Desc>افست در کارایی اعمال شده بر اعضای بدن تحت تأثیر این.</Stat_Hediff_PartEfficiency_Desc>
   <!-- EN: How efficiently this functions compared to a natural body part. -->
-  <Stat_Hediff_PartEfficiencyAbsolute_Desc>TODO</Stat_Hediff_PartEfficiencyAbsolute_Desc>
+  <Stat_Hediff_PartEfficiencyAbsolute_Desc>این چقدر در مقایسه با یک عضو بدن طبیعی کارآمد عمل می‌کند.</Stat_Hediff_PartEfficiencyAbsolute_Desc>
   <!-- EN: The mental abilities this affects. -->
-  <Stat_Hediff_Affects_Desc>The mental abilities this affects.</Stat_Hediff_Affects_Desc>
+  <Stat_Hediff_Affects_Desc>توانایی‌های ذهنی که این تحت تأثیر قرار می‌دهد.</Stat_Hediff_Affects_Desc>
   <!-- EN: Hunger rate offset -->
-  <Stat_Hediff_HungerRateOffset_Name>Hunger rate offset</Stat_Hediff_HungerRateOffset_Name>
+  <Stat_Hediff_HungerRateOffset_Name>افست نرخ گرسنگی</Stat_Hediff_HungerRateOffset_Name>
   <!-- EN: A multiplier on the rate at which the food need depletes. -->
-  <Stat_Hediff_HungerRateFactor_Desc>A multiplier on the rate at which the food need depletes.</Stat_Hediff_HungerRateFactor_Desc>
+  <Stat_Hediff_HungerRateFactor_Desc>ضریبی بر نرخی که نیاز به غذا کاهش می‌یابد.</Stat_Hediff_HungerRateFactor_Desc>
   <!-- EN: An offset on the rate at which the food need depletes. -->
-  <Stat_Hediff_HungerRateOffset_Desc>An offset on the rate at which the food need depletes.</Stat_Hediff_HungerRateOffset_Desc>
+  <Stat_Hediff_HungerRateOffset_Desc>افستی بر نرخی که نیاز به غذا کاهش می‌یابد.</Stat_Hediff_HungerRateOffset_Desc>
   <!-- EN: Sleep fall rate -->
-  <Stat_Hediff_TirednessOffset_Name>Rest fall rate</Stat_Hediff_TirednessOffset_Name>
+  <Stat_Hediff_TirednessOffset_Name>نرخ کاهش استراحت</Stat_Hediff_TirednessOffset_Name>
   <!-- EN: An offset applied to the rate at which the creature's sleep need falls. -->
-  <Stat_Hediff_TirednessOffset_Desc>An offset applied to the rate at which the creature's sleep need falls.</Stat_Hediff_TirednessOffset_Desc>
+  <Stat_Hediff_TirednessOffset_Desc>افستی که بر نرخی که نیاز به خواب موجود کاهش می‌یابد اعمال می‌شود.</Stat_Hediff_TirednessOffset_Desc>
   <!-- EN: A multiplier applied to the rate at which the creature's sleep need falls. -->
-  <Stat_Hediff_TirednessFactor_Desc>A multiplier applied to the rate at which the creature's sleep need falls.</Stat_Hediff_TirednessFactor_Desc>
+  <Stat_Hediff_TirednessFactor_Desc>ضریبی که بر نرخی که نیاز به خواب موجود کاهش می‌یابد اعمال می‌شود.</Stat_Hediff_TirednessFactor_Desc>
   <!-- EN: Whether or not this will prevent infections. -->
-  <Stat_Hediff_PreventsInfection_Desc>Whether or not this will prevent infections.</Stat_Hediff_PreventsInfection_Desc>
+  <Stat_Hediff_PreventsInfection_Desc>آیا این از عفونت جلوگیری می‌کند یا خیر.</Stat_Hediff_PreventsInfection_Desc>
   <!-- EN: The things this terrain supports. -->
-  <Stat_Thing_Terrain_Supports_Desc>The things this terrain supports.</Stat_Thing_Terrain_Supports_Desc>
+  <Stat_Thing_Terrain_Supports_Desc>چیزهایی که این زمین پشتیبانی می‌کند.</Stat_Thing_Terrain_Supports_Desc>
   <!-- EN: This can only be placed on terrain of these types. -->
-  <Stat_Thing_TerrainRequirement_Desc>This can only be placed on terrain of these types.</Stat_Thing_TerrainRequirement_Desc>
+  <Stat_Thing_TerrainRequirement_Desc>این فقط می‌تواند روی زمین‌هایی از این نوع قرار گیرد.</Stat_Thing_TerrainRequirement_Desc>
   <!-- EN: Considered -->
-  <Stat_Thing_Terrain_Fine_Name>Considered</Stat_Thing_Terrain_Fine_Name>
+  <Stat_Thing_Terrain_Fine_Name>محسوب می‌شود</Stat_Thing_Terrain_Fine_Name>
   <!-- EN: Fine -->
-  <Stat_Thing_Terrain_Fine_Value>Fine</Stat_Thing_Terrain_Fine_Value>
+  <Stat_Thing_Terrain_Fine_Value>خوب</Stat_Thing_Terrain_Fine_Value>
   <!-- EN: This floor is considered fine and suitable for royalty. -->
-  <Stat_Thing_Terrain_Fine_Desc>This floor is considered fine and suitable for royalty.</Stat_Thing_Terrain_Fine_Desc>
+  <Stat_Thing_Terrain_Fine_Desc>این کفپوش خوب محسوب می‌شود و برای سلطنت مناسب است.</Stat_Thing_Terrain_Fine_Desc>
   <!-- EN: The amount of power this building will draw from the power grid. -->
-  <Stat_Thing_PowerConsumption_Desc>The amount of power this building will draw from the power grid.</Stat_Thing_PowerConsumption_Desc>
+  <Stat_Thing_PowerConsumption_Desc>مقدار برقی که این ساختمان از شبکه برق خواهد کشید.</Stat_Thing_PowerConsumption_Desc>
   <!-- EN: {CHARGENOUN_plural} remaining -->
-  <Stat_Thing_ReloadChargesRemaining_Name>{CHARGENOUN_plural} remaining</Stat_Thing_ReloadChargesRemaining_Name>
+  <Stat_Thing_ReloadChargesRemaining_Name>{CHARGENOUN_plural} باقی‌مانده</Stat_Thing_ReloadChargesRemaining_Name>
   <!-- EN: The number of {CHARGENOUN_plural} remaining on this object. If these run out, the special ability can no longer be used. -->
-  <Stat_Thing_ReloadChargesRemaining_Desc>The number of {CHARGENOUN_plural} remaining on this object. If these run out, the special ability can no longer be used.</Stat_Thing_ReloadChargesRemaining_Desc>
+  <Stat_Thing_ReloadChargesRemaining_Desc>تعداد {CHARGENOUN_plural} باقی‌مانده روی این شیء. اگر اینها تمام شوند، توانایی ویژه دیگر قابل استفاده نخواهد بود.</Stat_Thing_ReloadChargesRemaining_Desc>
   <!-- EN: {CHARGENOUN_plural} -->
   <Stat_Thing_ReloadMaxCharges_Name>{CHARGENOUN_plural}</Stat_Thing_ReloadMaxCharges_Name>
   <!-- EN: The maximum number of {CHARGENOUN_plural} this object has. -->
-  <Stat_Thing_ReloadMaxCharges_Desc>The maximum number of {CHARGENOUN_plural} this object has.</Stat_Thing_ReloadMaxCharges_Desc>
+  <Stat_Thing_ReloadMaxCharges_Desc>حداکثر تعداد {CHARGENOUN_plural} که این شیء دارد.</Stat_Thing_ReloadMaxCharges_Desc>
   <!-- EN: {CHARGENOUN} reload cost -->
-  <Stat_Thing_ReloadRefill_Name>{CHARGENOUN} reload cost</Stat_Thing_ReloadRefill_Name>
+  <Stat_Thing_ReloadRefill_Name>هزینه بارگیری مجدد {CHARGENOUN}</Stat_Thing_ReloadRefill_Name>
   <!-- EN: The amount of items required to fully reload this object.\n\nThis object can be reloaded before it is empty, but the cost is the same as if it was empty. -->
-  <Stat_Thing_ReloadRefill_Desc>The amount of items required to fully reload this object.\n\nThis object can be reloaded before it is empty, but the cost is the same as if it was empty.</Stat_Thing_ReloadRefill_Desc>
+  <Stat_Thing_ReloadRefill_Desc>مقدار آیتم‌های مورد نیاز برای بارگیری مجدد کامل این شیء.\n\nاین شیء می‌تواند قبل از خالی شدن بارگیری مجدد شود، اما هزینه همانند زمانی است که خالی بود.</Stat_Thing_ReloadRefill_Desc>
   <!-- EN: Reload cost per {CHARGENOUN} -->
-  <Stat_Thing_ReloadPerCharge_Name>Reload cost per {CHARGENOUN}</Stat_Thing_ReloadPerCharge_Name>
+  <Stat_Thing_ReloadPerCharge_Name>هزینه بارگیری مجدد در هر {CHARGENOUN}</Stat_Thing_ReloadPerCharge_Name>
   <!-- EN: The amount of items required to reload one {CHARGENOUN}. Multiple {CHARGENOUN_plural} can be reloaded at once. -->
-  <Stat_Thing_ReloadPerCharge_Desc>The amount of items required to reload one {CHARGENOUN}. Multiple {CHARGENOUN_plural} can be reloaded at once.</Stat_Thing_ReloadPerCharge_Desc>
+  <Stat_Thing_ReloadPerCharge_Desc>مقدار آیتم‌های مورد نیاز برای بارگیری مجدد یک {CHARGENOUN}. چندین {CHARGENOUN_plural} می‌توانند همزمان بارگیری مجدد شوند.</Stat_Thing_ReloadPerCharge_Desc>
   <!-- EN: Vanish on exhaust -->
-  <Stat_Thing_ReloadDestroyOnEmpty_Name>Vanish on exhaust</Stat_Thing_ReloadDestroyOnEmpty_Name>
+  <Stat_Thing_ReloadDestroyOnEmpty_Name>ناپدید شدن هنگام اتمام</Stat_Thing_ReloadDestroyOnEmpty_Name>
   <!-- EN: This item will vanish when its last {CHARGENOUN} is used. -->
-  <Stat_Thing_ReloadDestroyOnEmpty_Desc>This item will vanish when its last {CHARGENOUN} is used.</Stat_Thing_ReloadDestroyOnEmpty_Desc>
+  <Stat_Thing_ReloadDestroyOnEmpty_Desc>این آیتم هنگامی که آخرین {CHARGENOUN} آن استفاده شود ناپدید خواهد شد.</Stat_Thing_ReloadDestroyOnEmpty_Desc>
   <!-- EN: The overall efficiency of this body part. -->
-  <Stat_Thing_BodyPartEfficiency_Desc>The overall efficiency of this body part.</Stat_Thing_BodyPartEfficiency_Desc>
+  <Stat_Thing_BodyPartEfficiency_Desc>کارایی کلی این عضو بدن.</Stat_Thing_BodyPartEfficiency_Desc>
   <!-- EN: Install sites -->
-  <Stat_Thing_InstallSites>Install sites</Stat_Thing_InstallSites>
+  <Stat_Thing_InstallSites>مکان‌های نصب</Stat_Thing_InstallSites>
   <!-- EN: Areas on the body where this can be installed. -->
-  <Stat_Thing_InstallSites_Desc>Areas on the body where this can be installed.</Stat_Thing_InstallSites_Desc>
+  <Stat_Thing_InstallSites_Desc>مناطقی از بدن که این می‌تواند در آن نصب شود.</Stat_Thing_InstallSites_Desc>
   <!-- EN: Replaces parts -->
-  <Stat_Thing_ReplacesParts>Replaces parts</Stat_Thing_ReplacesParts>
+  <Stat_Thing_ReplacesParts>جایگزین قطعات می‌شود</Stat_Thing_ReplacesParts>
   <!-- EN: Body parts which are replaced by this when installed. -->
-  <Stat_Thing_ReplacesParts_Desc>Body parts which are replaced by this when installed.</Stat_Thing_ReplacesParts_Desc>
+  <Stat_Thing_ReplacesParts_Desc>اعضای بدنی که هنگام نصب توسط این جایگزین می‌شوند.</Stat_Thing_ReplacesParts_Desc>
   <!-- EN: Biocoding -->
-  <Stat_Thing_Biocoded_Name>Biocoding</Stat_Thing_Biocoded_Name>
+  <Stat_Thing_Biocoded_Name>بیوکدینگ</Stat_Thing_Biocoded_Name>
   <!-- EN: This item has been coded to only accept a particular individual's bio-signature. -->
-  <Stat_Thing_Biocoded_Desc>This item has been coded to only accept a particular individual's bio-signature.</Stat_Thing_Biocoded_Desc>
+  <Stat_Thing_Biocoded_Desc>این آیتم کدگذاری شده است تا فقط امضای بیولوژیکی یک فرد خاص را بپذیرد.</Stat_Thing_Biocoded_Desc>
   <!-- EN: Required apparel -->
-  <Stat_Pawn_RequiredApparel_Name>Required apparel</Stat_Pawn_RequiredApparel_Name>
+  <Stat_Pawn_RequiredApparel_Name>لباس مورد نیاز</Stat_Pawn_RequiredApparel_Name>
   <!-- EN: Growth rate -->
-  <Stat_Thing_Plant_GrowthRate>Growth rate</Stat_Thing_Plant_GrowthRate>
+  <Stat_Thing_Plant_GrowthRate>نرخ رشد</Stat_Thing_Plant_GrowthRate>
   <!-- EN: The rate at which a plant is growing.\n\nGrowth rate is affected by things like soil fertility, temperature, light, and environmental conditions. -->
-  <Stat_Thing_Plant_GrowthRate_Desc>The rate at which a plant is growing.\n\nGrowth rate is affected by things like soil fertility, temperature, light, and environmental conditions.</Stat_Thing_Plant_GrowthRate_Desc>
+  <Stat_Thing_Plant_GrowthRate_Desc>نرخی که یک گیاه در حال رشد است.\n\nنرخ رشد تحت تأثیر عواملی مانند باروری خاک، دما، نور و شرایط محیطی قرار می‌گیرد.</Stat_Thing_Plant_GrowthRate_Desc>
   <!-- EN: Age -->
-  <Stat_Thing_Plant_Age>Age</Stat_Thing_Plant_Age>
+  <Stat_Thing_Plant_Age>سن</Stat_Thing_Plant_Age>
   <!-- EN: How long this has been alive. -->
-  <Stat_Thing_Plant_AgeDesc>How long this has been alive.</Stat_Thing_Plant_AgeDesc>
+  <Stat_Thing_Plant_AgeDesc>این چقدر زنده بوده است.</Stat_Thing_Plant_AgeDesc>
   <!-- EN: Lifespan -->
-  <Stat_Thing_Plant_Lifespan>Lifespan</Stat_Thing_Plant_Lifespan>
+  <Stat_Thing_Plant_Lifespan>طول عمر</Stat_Thing_Plant_Lifespan>
   <!-- EN: Paintable -->
-  <Stat_Building_Paintable>Paintable</Stat_Building_Paintable>
+  <Stat_Building_Paintable>قابل رنگ‌آمیزی</Stat_Building_Paintable>
   <!-- EN: Whether this can be painted using dye. -->
-  <Stat_Building_PaintableDesc>Whether this can be painted using dye.</Stat_Building_PaintableDesc>
+  <Stat_Building_PaintableDesc>آیا این می‌تواند با استفاده از رنگ رنگ‌آمیزی شود یا خیر.</Stat_Building_PaintableDesc>
   <!-- EN: Paint color -->
-  <Stat_Building_PaintColor>Paint color</Stat_Building_PaintColor>
+  <Stat_Building_PaintColor>رنگ رنگ‌آمیزی</Stat_Building_PaintColor>
   <!-- EN: The color this building was painted. -->
-  <Stat_Building_PaintColorDesc>The color this building was painted.</Stat_Building_PaintColorDesc>
+  <Stat_Building_PaintColorDesc>رنگی که این ساختمان با آن رنگ‌آمیزی شده است.</Stat_Building_PaintColorDesc>
   <!-- EN: Resources to make -->
-  <Stat_Building_ResourcesToMake>TODO</Stat_Building_ResourcesToMake>
+  <Stat_Building_ResourcesToMake>منابع لازم برای ساخت</Stat_Building_ResourcesToMake>
   <!-- EN: The resources required to construct this. -->
-  <Stat_Building_ResourcesToMakeDesc>TODO</Stat_Building_ResourcesToMakeDesc>
+  <Stat_Building_ResourcesToMakeDesc>منابع مورد نیاز برای ساخت این.</Stat_Building_ResourcesToMakeDesc>
   <!-- EN: The weapon mounted on this creature. -->
-  <Stat_Thing_TurretDesc>TODO</Stat_Thing_TurretDesc>
+  <Stat_Thing_TurretDesc>سلاح نصب شده روی این موجود.</Stat_Thing_TurretDesc>
   <!-- EN: The ingredients needed to make this. -->
-  <Stat_Thing_Ingredients>TODO</Stat_Thing_Ingredients>
+  <Stat_Thing_Ingredients>مواد لازم برای ساخت این.</Stat_Thing_Ingredients>
 
   <!-- Drugs -->
   <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
-  <Stat_Thing_Drug_Chemical_Desc>The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways.</Stat_Thing_Drug_Chemical_Desc>
+  <Stat_Thing_Drug_Chemical_Desc>ماده شیمیایی فعال در این.\n\nدر برخی موارد، همان ماده شیمیایی در چندین داروی مختلف وجود دارد. این داروهای مختلف اعتیاد مشابه را به روش‌های مختلفی برطرف می‌کنند.</Stat_Thing_Drug_Chemical_Desc>
   <!-- EN: The category this drug belongs to. -->
-  <Stat_Thing_Drug_Category_Desc>The category this drug belongs to.</Stat_Thing_Drug_Category_Desc>
+  <Stat_Thing_Drug_Category_Desc>دسته‌بندی که این دارو به آن تعلق دارد.</Stat_Thing_Drug_Category_Desc>
   <!-- EN: The intensity of high gained per dose of this drug. -->
-  <Stat_Thing_Drug_HighGainPerDose_Desc>The intensity of high gained per dose of this drug.</Stat_Thing_Drug_HighGainPerDose_Desc>
+  <Stat_Thing_Drug_HighGainPerDose_Desc>شدت سرخوشی به دست آمده در هر دوز از این دارو.</Stat_Thing_Drug_HighGainPerDose_Desc>
   <!-- EN: How much this drug's high will decay each day. -->
-  <Stat_Thing_Drug_HighFallPerDay_Desc>How much this drug's high will decay each day.</Stat_Thing_Drug_HighFallPerDay_Desc>
+  <Stat_Thing_Drug_HighFallPerDay_Desc>هر روز چقدر سرخوشی این دارو کاهش می‌یابد.</Stat_Thing_Drug_HighFallPerDay_Desc>
   <!-- EN: How long this drug's high will last per dose.\n\nThis is calculated from the high gained per dose and the high fall rate. -->
-  <Stat_Thing_Drug_HighDurationPerDose_Desc>How long this drug's high will last per dose.\n\nThis is calculated from the high gained per dose and the high fall rate.</Stat_Thing_Drug_HighDurationPerDose_Desc>
+  <Stat_Thing_Drug_HighDurationPerDose_Desc>هر دوز از این دارو چقدر سرخوشی خواهد داشت.\n\nاین از سرخوشی به دست آمده در هر دوز و نرخ کاهش سرخوشی محاسبه می‌شود.</Stat_Thing_Drug_HighDurationPerDose_Desc>
   <!-- EN: How much a user's tolerance to the chemical will increase for each dose of this drug.\n\nThis can be different for different forms of the same chemical. -->
-  <Stat_Thing_Drug_ToleranceGainPerDose_Desc>How much a user's tolerance to the chemical will increase for each dose of this drug.\n\nThis can be different for different forms of the same chemical.</Stat_Thing_Drug_ToleranceGainPerDose_Desc>
+  <Stat_Thing_Drug_ToleranceGainPerDose_Desc>تحمل کاربر نسبت به ماده شیمیایی برای هر دوز از این دارو چقدر افزایش می‌یابد.\n\nاین می‌تواند برای اشکال مختلف همان ماده شیمیایی متفاوت باشد.</Stat_Thing_Drug_ToleranceGainPerDose_Desc>
   <!-- EN: How much a user's tolerance to the chemical will fall per day. -->
-  <Stat_Thing_Drug_ToleranceFallPerDay_Desc>How much a user's tolerance to the chemical will fall per day.</Stat_Thing_Drug_ToleranceFallPerDay_Desc>
+  <Stat_Thing_Drug_ToleranceFallPerDay_Desc>هر روز چقدر تحمل کاربر نسبت به ماده شیمیایی کاهش می‌یابد.</Stat_Thing_Drug_ToleranceFallPerDay_Desc>
   <!-- EN: The minimum tolerance required to become newly addicted to this drug.\n\nIf a user is below this tolerance level, they can't become newly addicted from taking a dose. -->
-  <Stat_Thing_Drug_MinToleranceForAddiction_Desc>The minimum tolerance required to become newly addicted to this drug.\n\nIf a user is below this tolerance level, they can't become newly addicted from taking a dose.</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
+  <Stat_Thing_Drug_MinToleranceForAddiction_Desc>حداقل تحمل مورد نیاز برای اعتیاد جدید به این دارو.\n\nاگر تحمل کاربر پایین‌تر از این سطح باشد، نمی‌تواند با مصرف یک دوز جدیداً معتاد شود.</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
   <!-- EN: An adult will only become addicted if they take the drug more often than this.\n\nThis is calculated from the drug's minimum tolerance to addict, the tolerance gain per dose, and the rate of tolerance decay. Some drugs don't have a safe interval. Such drugs can addict on any dose, even the first one.\n\nNote that the safe dose interval depends on a person's body size. -->
-  <Stat_Thing_Drug_SafeDoseInterval_Desc>An adult will only become addicted if they take the drug more often than this.\n\nThis is calculated from the drug's minimum tolerance to addict, the tolerance gain per dose, and the rate of tolerance decay. Some drugs don't have a safe interval. Such drugs can addict on any dose, even the first one.\n\nNote that the safe dose interval depends on a person's body size.</Stat_Thing_Drug_SafeDoseInterval_Desc>
+  <Stat_Thing_Drug_SafeDoseInterval_Desc>یک فرد بالغ تنها در صورتی معتاد می‌شود که دارو را بیشتر از این مصرف کند.\n\nاین از حداقل تحمل دارو برای اعتیاد، افزایش تحمل در هر دوز و نرخ کاهش تحمل محاسبه می‌شود. برخی داروها فاصله ایمن ندارند. چنین داروهایی می‌توانند در هر دوز، حتی اولین دوز، اعتیاد ایجاد کنند.\n\nتوجه داشته باشید که فاصله دوز ایمن به اندازه بدن فرد بستگی دارد.</Stat_Thing_Drug_SafeDoseInterval_Desc>
   <!-- EN: The chance of a random overdose when taking this drug. Random overdoses can happen on any dose, whether it's a new user's first try or an experienced addict's hundredth hit. -->
-  <Stat_Thing_Drug_RandomODChance_Desc>The chance of a random overdose when taking this drug. Random overdoses can happen on any dose, whether it's a new user's first try or an experienced addict's hundredth hit.</Stat_Thing_Drug_RandomODChance_Desc>
+  <Stat_Thing_Drug_RandomODChance_Desc>شانس اوردوز تصادفی هنگام مصرف این دارو. اوردوزهای تصادفی می‌توانند در هر دوز رخ دهند، چه اولین تلاش کاربر جدید باشد و چه صدمین مصرف معتاد باتجربه.</Stat_Thing_Drug_RandomODChance_Desc>
   <!-- EN: The chance of addiction per dose of this drug.\n\nIf the drug has a minimum tolerance to addict, the tolerance must be above that level for this to apply. If there is no minimum tolerance, any dose can cause an addiction. -->
-  <Stat_Thing_Drug_Addictiveness_Desc>The chance of addiction per dose of this drug.\n\nIf the drug has a minimum tolerance to addict, the tolerance must be above that level for this to apply. If there is no minimum tolerance, any dose can cause an addiction.</Stat_Thing_Drug_Addictiveness_Desc>
+  <Stat_Thing_Drug_Addictiveness_Desc>شانس اعتیاد در هر دوز از این دارو.\n\nاگر دارو حداقل تحمل برای اعتیاد را داشته باشد، تحمل باید بالاتر از آن سطح باشد تا این اعمال شود. اگر حداقل تحمل وجود نداشته باشد، هر دوز می‌تواند باعث اعتیاد شود.</Stat_Thing_Drug_Addictiveness_Desc>
   <!-- EN: New addictions caused by this drug begin at this severity level.\n\nTaking more of the drug will increase addiction severity, while time will reduce it. -->
-  <Stat_Thing_Drug_AddictionSeverityInitial_Desc>New addictions caused by this drug begin at this severity level.\n\nTaking more of the drug will increase addiction severity, while time will reduce it.</Stat_Thing_Drug_AddictionSeverityInitial_Desc>
+  <Stat_Thing_Drug_AddictionSeverityInitial_Desc>اعتیادهای جدید ناشی از این دارو در این سطح شدت آغاز می‌شوند.\n\nمصرف بیشتر دارو شدت اعتیاد را افزایش می‌دهد، در حالی که زمان آن را کاهش می‌دهد.</Stat_Thing_Drug_AddictionSeverityInitial_Desc>
   <!-- EN: How long it takes to recover from an initial addiction to this drug.\n\nThis is be calculated from the new addiction severity divided by the rate of addiction recovery. An addiction which has been fed will take longer. -->
-  <Stat_Thing_Drug_AddictionRecoveryTime_Desc>How long it takes to recover from an initial addiction to this drug.\n\nThis is be calculated from the new addiction severity divided by the rate of addiction recovery. An addiction which has been fed will take longer.</Stat_Thing_Drug_AddictionRecoveryTime_Desc>
+  <Stat_Thing_Drug_AddictionRecoveryTime_Desc>مدت زمان لازم برای بهبودی از اعتیاد اولیه به این دارو.\n\nاین از شدت اعتیاد جدید تقسیم بر نرخ بهبودی اعتیاد محاسبه می‌شود. اعتیادی که تغذیه شده باشد بیشتر طول می‌کشد.</Stat_Thing_Drug_AddictionRecoveryTime_Desc>
   <!-- EN: How much severity is added to an existing addiction for each dose of this drug.\n\nAddiction severity cannot go above 100%. -->
-  <Stat_Thing_Drug_AddictionSeverityPerDose_Desc>How much severity is added to an existing addiction for each dose of this drug.\n\nAddiction severity cannot go above 100%.</Stat_Thing_Drug_AddictionSeverityPerDose_Desc>
+  <Stat_Thing_Drug_AddictionSeverityPerDose_Desc>چه مقدار شدت به اعتیاد موجود برای هر دوز از این دارو اضافه می‌شود.\n\nشدت اعتیاد نمی‌تواند بالاتر از 100% برود.</Stat_Thing_Drug_AddictionSeverityPerDose_Desc>
   <!-- EN: How often an addict needs to take a dose of this drug to feed the addiction and prevent withdrawal.\n\nThis is calculated from the addiction need fall rate and the need fill per dose. -->
-  <Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>How often an addict needs to take a dose of this drug to feed the addiction and prevent withdrawal.\n\nThis is calculated from the addiction need fall rate and the need fill per dose.</Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>
+  <Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>هر چند وقت یک بار یک معتاد نیاز به مصرف دوز از این دارو دارد تا اعتیاد را تغذیه کند و از ترک جلوگیری کند.\n\nاین از نرخ کاهش نیاز اعتیاد و پر کردن نیاز در هر دوز محاسبه می‌شود.</Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>
   <!-- EN: How much each dose of this drug fills an addict's need for the chemical. -->
-  <Stat_Thing_Drug_AddictionNeedOffset_Desc>How much each dose of this drug fills an addict's need for the chemical.</Stat_Thing_Drug_AddictionNeedOffset_Desc>
+  <Stat_Thing_Drug_AddictionNeedOffset_Desc>هر دوز از این دارو چقدر نیاز معتاد به ماده شیمیایی را برطرف می‌کند.</Stat_Thing_Drug_AddictionNeedOffset_Desc>
   <!-- EN: How quickly an addict's need for the chemical will fall. -->
-  <Stat_Thing_Drug_AddictionNeedFallRate_Desc>How quickly an addict's need for the chemical will fall.</Stat_Thing_Drug_AddictionNeedFallRate_Desc>
+  <Stat_Thing_Drug_AddictionNeedFallRate_Desc>نیاز معتاد به ماده شیمیایی چقدر سریع کاهش می‌یابد.</Stat_Thing_Drug_AddictionNeedFallRate_Desc>
   <!-- EN: The market value of drugs that must be consumed per day to support an addiction to this drug without going into withdrawal.\n\nThis value is calculated from the addict's chemical need per dose, the need fall rate, and the market value of this drug.\n\nNote that there may be other ways to get the same chemical with different costs. -->
-  <Stat_Thing_Drug_AddictionCost_Desc>The market value of drugs that must be consumed per day to support an addiction to this drug without going into withdrawal.\n\nThis value is calculated from the addict's chemical need per dose, the need fall rate, and the market value of this drug.\n\nNote that there may be other ways to get the same chemical with different costs.</Stat_Thing_Drug_AddictionCost_Desc>
+  <Stat_Thing_Drug_AddictionCost_Desc>ارزش بازار داروهایی که باید روزانه مصرف شوند تا اعتیاد به این دارو بدون رفتن به ترک حمایت شود.\n\nاین مقدار از نیاز شیمیایی معتاد در هر دوز، نرخ کاهش نیاز و ارزش بازار این دارو محاسبه می‌شود.\n\nتوجه داشته باشید که ممکن است راه‌های دیگری برای به دست آوردن همان ماده شیمیایی با هزینه‌های متفاوت وجود داشته باشد.</Stat_Thing_Drug_AddictionCost_Desc>
 
   <!-- EN: Style -->
-  <Stat_Thing_StyleLabel>Style</Stat_Thing_StyleLabel>
+  <Stat_Thing_StyleLabel>سبک</Stat_Thing_StyleLabel>
   <!-- EN: An object's style determines its appearance. This has no gameplay effect. Styles often form the differing methods of construction used by people of different beliefs and cultures. -->
-  <Stat_Thing_StyleDesc>An object's style determines its appearance. This has no gameplay effect. Styles often form the differing methods of construction used by people of different beliefs and cultures.</Stat_Thing_StyleDesc>
+  <Stat_Thing_StyleDesc>سبک یک شیء ظاهر آن را تعیین می‌کند. این هیچ تأثیر گیم‌پلی ندارد. سبک‌ها اغلب روش‌های ساخت متفاوتی را تشکیل می‌دهند که توسط افراد با باورها و فرهنگ‌های مختلف استفاده می‌شود.</Stat_Thing_StyleDesc>
 
   <!-- EN: Gestation time -->
-  <Stat_Animal_GestationTime>Gestation time</Stat_Animal_GestationTime>
+  <Stat_Animal_GestationTime>زمان بارداری</Stat_Animal_GestationTime>
   <!-- EN: The time this species takes to gestate its offspring or eggs. -->
-  <Stat_Animal_GestationTimeDesc>The time this species takes to gestate its offspring or eggs.</Stat_Animal_GestationTimeDesc>
+  <Stat_Animal_GestationTimeDesc>زمانی که این گونه برای بارداری فرزندان یا تخم‌های خود نیاز دارد.</Stat_Animal_GestationTimeDesc>
   <!-- EN: Litter size -->
-  <Stat_Animal_LitterSize>Litter size</Stat_Animal_LitterSize>
+  <Stat_Animal_LitterSize>اندازه زایمان</Stat_Animal_LitterSize>
   <!-- EN: The number of offspring this creature creates per litter. If this is a range, any specific litter will have a random number of offspring in this range. -->
-  <Stat_Animal_LitterSizeDesc>The number of offspring this creature creates per litter. If this is a range, any specific litter will have a random number of offspring in this range.</Stat_Animal_LitterSizeDesc>
+  <Stat_Animal_LitterSizeDesc>تعداد فرزندانی که این موجود در هر زایمان ایجاد می‌کند. اگر این یک محدوده باشد، هر زایمان خاصی تعداد تصادفی از فرزندان در این محدوده خواهد داشت.</Stat_Animal_LitterSizeDesc>
   <!-- EN: Adult meat amount -->
-  <Stat_Animal_AdultMeatAmount>Adult meat amount</Stat_Animal_AdultMeatAmount>
+  <Stat_Animal_AdultMeatAmount>مقدار گوشت بالغ</Stat_Animal_AdultMeatAmount>
   <!-- EN: The base amount of meat yielded by butchering an adult member of this species. The actual yield is affected by other factors such as damage to the body and butcher skill. -->
-  <Stat_Animal_AdultMeatAmountDesc>The base amount of meat yielded by butchering an adult member of this species. The actual yield is affected by other factors such as damage to the body and butcher skill.</Stat_Animal_AdultMeatAmountDesc>
+  <Stat_Animal_AdultMeatAmountDesc>مقدار پایه گوشت به دست آمده از قصابی یک عضو بالغ از این گونه. بازده واقعی تحت تأثیر عوامل دیگری مانند آسیب به بدن و مهارت قصابی قرار می‌گیرد.</Stat_Animal_AdultMeatAmountDesc>
   <!-- EN: Growth time -->
-  <Stat_Animal_GrowthTime>Growth time</Stat_Animal_GrowthTime>
+  <Stat_Animal_GrowthTime>زمان رشد</Stat_Animal_GrowthTime>
   <!-- EN: How long it normally takes for this creature to reach adulthood. This time will be longer if the creature starves. -->
-  <Stat_Animal_GrowthTimeDesc>How long it normally takes for this creature to reach adulthood. This time will be longer if the creature starves.</Stat_Animal_GrowthTimeDesc>
+  <Stat_Animal_GrowthTimeDesc>مدت زمانی که معمولاً طول می‌کشد تا این موجود به بلوغ برسد. اگر موجود گرسنه بماند این زمان طولانی‌تر خواهد بود.</Stat_Animal_GrowthTimeDesc>
   <!-- EN: Meat per day during growth -->
-  <Stat_Animal_MeatPerDayDuringGrowth>Meat per day during growth</Stat_Animal_MeatPerDayDuringGrowth>
+  <Stat_Animal_MeatPerDayDuringGrowth>گوشت در روز در طول رشد</Stat_Animal_MeatPerDayDuringGrowth>
   <!-- EN: This creature gains this amount of meat for each day it grows, up until it reaches adulthood.\n\nThis value is calculated from the meat amount and growth time. -->
-  <Stat_Animal_MeatPerDayDuringGrowthDesc>This creature gains this amount of meat for each day it grows, up until it reaches adulthood.\n\nThis value is calculated from the meat amount and growth time.</Stat_Animal_MeatPerDayDuringGrowthDesc>
+  <Stat_Animal_MeatPerDayDuringGrowthDesc>این موجود به ازای هر روزی که رشد می‌کند، تا زمانی که به بلوغ برسد، این مقدار گوشت را به دست می‌آورد.\n\nاین مقدار از مقدار گوشت و زمان رشد محاسبه می‌شود.</Stat_Animal_MeatPerDayDuringGrowthDesc>
   <!-- EN: Grass to maintain -->
-  <Stat_Animal_GrassToMaintain>Grass to maintain</Stat_Animal_GrassToMaintain>
+  <Stat_Animal_GrassToMaintain>چمن برای نگهداری</Stat_Animal_GrassToMaintain>
   <!-- EN: The typical number of grass plants that this creature needs in order to fulfill its dietary needs. This is based on normal grass at typical growth rates and ignores winter. -->
-  <Stat_Animal_GrassToMaintainDesc>The typical number of grass plants that this creature needs in order to fulfill its dietary needs. This is based on normal grass at typical growth rates and ignores winter.</Stat_Animal_GrassToMaintainDesc>
+  <Stat_Animal_GrassToMaintainDesc>تعداد معمولی گیاهان چمن که این موجود برای برآورده کردن نیازهای غذایی خود نیاز دارد. این بر اساس چمن معمولی با نرخ رشد معمولی است و زمستان را نادیده می‌گیرد.</Stat_Animal_GrassToMaintainDesc>
   <!-- EN: Egg type -->
-  <Stat_Animal_EggType>Egg type</Stat_Animal_EggType>
+  <Stat_Animal_EggType>نوع تخم</Stat_Animal_EggType>
   <!-- EN: The type of egg this creature lays. -->
-  <Stat_Animal_EggTypeDesc>The type of egg this creature lays.</Stat_Animal_EggTypeDesc>
+  <Stat_Animal_EggTypeDesc>نوع تخمی که این موجود می‌گذارد.</Stat_Animal_EggTypeDesc>
   <!-- EN: Eggs per year -->
-  <Stat_Animal_EggsPerYear>Eggs per year</Stat_Animal_EggsPerYear>
+  <Stat_Animal_EggsPerYear>تخم در سال</Stat_Animal_EggsPerYear>
   <!-- EN: The number of eggs this creature will lay per year. Some creatures need to be fertilized to lay eggs. Egg laying will be slower if the creature starves. -->
-  <Stat_Animal_EggsPerYearDesc>The number of eggs this creature will lay per year. Some creatures need to be fertilized to lay eggs. Egg laying will be slower if the creature starves.</Stat_Animal_EggsPerYearDesc>
+  <Stat_Animal_EggsPerYearDesc>تعداد تخم‌هایی که این موجود در سال خواهد گذاشت. برخی موجودات برای تخم‌گذاری نیاز به لقاح دارند. اگر موجود گرسنه بماند تخم‌گذاری کندتر خواهد بود.</Stat_Animal_EggsPerYearDesc>
   <!-- EN: Egg nutrition -->
-  <Stat_Animal_EggNutrition>Egg nutrition</Stat_Animal_EggNutrition>
+  <Stat_Animal_EggNutrition>تغذیه تخم</Stat_Animal_EggNutrition>
   <!-- EN: The amount of nutrition in a single egg laid by this creature. -->
-  <Stat_Animal_EggNutritionDesc>The amount of nutrition in a single egg laid by this creature.</Stat_Animal_EggNutritionDesc>
+  <Stat_Animal_EggNutritionDesc>مقدار تغذیه در یک تخم واحد که توسط این موجود گذاشته شده است.</Stat_Animal_EggNutritionDesc>
   <!-- EN: Egg nutrition per year -->
-  <Stat_Animal_EggNutritionYearly>Egg nutrition per year</Stat_Animal_EggNutritionYearly>
+  <Stat_Animal_EggNutritionYearly>تغذیه تخم در سال</Stat_Animal_EggNutritionYearly>
   <!-- EN: The amount of yearly nutrition generated by eggs laid by this creature each year.\n\nThis value is calculated from eggs per year and egg nutrition. -->
-  <Stat_Animal_EggNutritionYearlyDesc>The amount of yearly nutrition generated by eggs laid by this creature each year.\n\nThis value is calculated from eggs per year and egg nutrition.</Stat_Animal_EggNutritionYearlyDesc>
+  <Stat_Animal_EggNutritionYearlyDesc>مقدار تغذیه سالانه تولید شده توسط تخم‌هایی که این موجود هر سال می‌گذارد.\n\nاین مقدار از تخم در سال و تغذیه تخم محاسبه می‌شود.</Stat_Animal_EggNutritionYearlyDesc>
   <!-- EN: Egg market value -->
-  <Stat_Animal_EggMarketValue>Egg market value</Stat_Animal_EggMarketValue>
+  <Stat_Animal_EggMarketValue>ارزش بازار تخم</Stat_Animal_EggMarketValue>
   <!-- EN: The market value of a single laid egg. -->
-  <Stat_Animal_EggMarketValueDesc>The market value of a single laid egg.</Stat_Animal_EggMarketValueDesc>
+  <Stat_Animal_EggMarketValueDesc>ارزش بازار یک تخم گذاشته شده.</Stat_Animal_EggMarketValueDesc>
   <!-- EN: Egg value per year -->
-  <Stat_Animal_EggMarketValueYearly>Egg value per year</Stat_Animal_EggMarketValueYearly>
+  <Stat_Animal_EggMarketValueYearly>ارزش تخم در سال</Stat_Animal_EggMarketValueYearly>
   <!-- EN: The total value of eggs normally laid over the course of a year.\n\nThis is calculated from eggs per year and egg market value. -->
-  <Stat_Animal_EggMarketValueYearlyDesc>The total value of eggs normally laid over the course of a year.\n\nThis is calculated from eggs per year and egg market value.</Stat_Animal_EggMarketValueYearlyDesc>
+  <Stat_Animal_EggMarketValueYearlyDesc>ارزش کلی تخم‌هایی که به طور معمول در طول یک سال گذاشته می‌شوند.\n\nاین از تخم در سال و ارزش بازار تخم محاسبه می‌شود.</Stat_Animal_EggMarketValueYearlyDesc>
   <!-- EN: Milk type -->
-  <Stat_Animal_MilkType>Milk type</Stat_Animal_MilkType>
+  <Stat_Animal_MilkType>نوع شیر</Stat_Animal_MilkType>
   <!-- EN: The type of milk this creature produces. -->
-  <Stat_Animal_MilkTypeDesc>The type of milk this creature produces.</Stat_Animal_MilkTypeDesc>
+  <Stat_Animal_MilkTypeDesc>نوع شیری که این موجود تولید می‌کند.</Stat_Animal_MilkTypeDesc>
   <!-- EN: Milk amount -->
-  <Stat_Animal_MilkAmount>Milk amount</Stat_Animal_MilkAmount>
+  <Stat_Animal_MilkAmount>مقدار شیر</Stat_Animal_MilkAmount>
   <!-- EN: The amount of milk this creature produces each time it is milked. -->
-  <Stat_Animal_MilkAmountDesc>The amount of milk this creature produces each time it is milked.</Stat_Animal_MilkAmountDesc>
+  <Stat_Animal_MilkAmountDesc>مقدار شیری که این موجود هر بار که دوشیده می‌شود تولید می‌کند.</Stat_Animal_MilkAmountDesc>
   <!-- EN: Milking interval -->
-  <Stat_Animal_MilkGrowthTime>Milking interval</Stat_Animal_MilkGrowthTime>
+  <Stat_Animal_MilkGrowthTime>فاصله زمانی دوشیدن</Stat_Animal_MilkGrowthTime>
   <!-- EN: The amount of time this creature needs between milkings. -->
-  <Stat_Animal_MilkGrowthTimeDesc>The amount of time this creature needs between milkings.</Stat_Animal_MilkGrowthTimeDesc>
+  <Stat_Animal_MilkGrowthTimeDesc>مدت زمانی که این موجود بین دوشیدن‌ها نیاز دارد.</Stat_Animal_MilkGrowthTimeDesc>
   <!-- EN: Milk per year -->
-  <Stat_Animal_MilkPerYear>Milk per year</Stat_Animal_MilkPerYear>
+  <Stat_Animal_MilkPerYear>شیر در سال</Stat_Animal_MilkPerYear>
   <!-- EN: The amount of milk produced by this animal over the course of a year.\n\nThis is calculated from milk amount and milking interval. -->
-  <Stat_Animal_MilkPerYearDesc>The amount of milk produced by this animal over the course of a year.\n\nThis is calculated from milk amount and milking interval.</Stat_Animal_MilkPerYearDesc>
+  <Stat_Animal_MilkPerYearDesc>مقدار شیری که این حیوان در طول یک سال تولید می‌کند.\n\nاین از مقدار شیر و فاصله زمانی دوشیدن محاسبه می‌شود.</Stat_Animal_MilkPerYearDesc>
   <!-- EN: Milk market value -->
-  <Stat_Animal_MilkValue>Milk market value</Stat_Animal_MilkValue>
+  <Stat_Animal_MilkValue>ارزش بازار شیر</Stat_Animal_MilkValue>
   <!-- EN: The value of one unit of this creature's milk. -->
-  <Stat_Animal_MilkValueDesc>The value of one unit of this creature's milk.</Stat_Animal_MilkValueDesc>
+  <Stat_Animal_MilkValueDesc>ارزش یک واحد از شیر این موجود.</Stat_Animal_MilkValueDesc>
   <!-- EN: Milk value per year -->
-  <Stat_Animal_MilkValuePerYear>Milk value per year</Stat_Animal_MilkValuePerYear>
+  <Stat_Animal_MilkValuePerYear>ارزش شیر در سال</Stat_Animal_MilkValuePerYear>
   <!-- EN: The market value of one year's worth of milk from this creature, assuming it never goes hungry and is milked instantly at the end of each milk interval.\n\nThis is calculated from milk per year and milk market value. -->
-  <Stat_Animal_MilkValuePerYearDesc>The market value of one year's worth of milk from this creature, assuming it never goes hungry and is milked instantly at the end of each milk interval.\n\nThis is calculated from milk per year and milk market value.</Stat_Animal_MilkValuePerYearDesc>
+  <Stat_Animal_MilkValuePerYearDesc>ارزش بازار شیر یک سال از این موجود، با فرض اینکه هرگز گرسنه نمی‌ماند و بلافاصله در پایان هر فاصله زمانی دوشیدن دوشیده می‌شود.\n\nاین از شیر در سال و ارزش بازار شیر محاسبه می‌شود.</Stat_Animal_MilkValuePerYearDesc>
   <!-- EN: Wool type -->
-  <Stat_Animal_WoolType>Wool type</Stat_Animal_WoolType>
+  <Stat_Animal_WoolType>نوع پشم</Stat_Animal_WoolType>
   <!-- EN: The type of wool produced by this creature. -->
-  <Stat_Animal_WoolTypeDesc>The type of wool produced by this creature.</Stat_Animal_WoolTypeDesc>
+  <Stat_Animal_WoolTypeDesc>نوع پشمی که این موجود تولید می‌کند.</Stat_Animal_WoolTypeDesc>
   <!-- EN: Wool amount -->
-  <Stat_Animal_WoolAmount>Wool amount</Stat_Animal_WoolAmount>
+  <Stat_Animal_WoolAmount>مقدار پشم</Stat_Animal_WoolAmount>
   <!-- EN: The amount of wool yielded by this creature each time it is shorn. -->
-  <Stat_Animal_WoolAmountDesc>The amount of wool yielded by this creature each time it is shorn.</Stat_Animal_WoolAmountDesc>
+  <Stat_Animal_WoolAmountDesc>مقدار پشمی که این موجود هر بار که چیده می‌شود به دست می‌آید.</Stat_Animal_WoolAmountDesc>
   <!-- EN: Wool shearing interval -->
-  <Stat_Animal_WoolGrowthTime>Wool shearing interval</Stat_Animal_WoolGrowthTime>
+  <Stat_Animal_WoolGrowthTime>فاصله زمانی چیدن پشم</Stat_Animal_WoolGrowthTime>
   <!-- EN: The time after shearing before this creature can be shorn again. -->
-  <Stat_Animal_WoolGrowthTimeDesc>The time after shearing before this creature can be shorn again.</Stat_Animal_WoolGrowthTimeDesc>
+  <Stat_Animal_WoolGrowthTimeDesc>زمانی پس از چیدن پشم که این موجود می‌تواند دوباره چیده شود.</Stat_Animal_WoolGrowthTimeDesc>
   <!-- EN: Wool amount per year -->
-  <Stat_Animal_WoolPerYear>Wool amount per year</Stat_Animal_WoolPerYear>
+  <Stat_Animal_WoolPerYear>مقدار پشم در سال</Stat_Animal_WoolPerYear>
   <!-- EN: The amount of wool produced by this creature per year.\n\nThis is calculated from wool amount and wool shearing interval. -->
-  <Stat_Animal_WoolPerYearDesc>The amount of wool produced by this creature per year.\n\nThis is calculated from wool amount and wool shearing interval.</Stat_Animal_WoolPerYearDesc>
+  <Stat_Animal_WoolPerYearDesc>مقدار پشمی که این موجود در سال تولید می‌کند.\n\nاین از مقدار پشم و فاصله زمانی چیدن پشم محاسبه می‌شود.</Stat_Animal_WoolPerYearDesc>
   <!-- EN: Wool market value -->
-  <Stat_Animal_WoolValue>Wool market value</Stat_Animal_WoolValue>
+  <Stat_Animal_WoolValue>ارزش بازار پشم</Stat_Animal_WoolValue>
   <!-- EN: The market value of one unit of this creature's wool. -->
-  <Stat_Animal_WoolValueDesc>The market value of one unit of this creature's wool.</Stat_Animal_WoolValueDesc>
+  <Stat_Animal_WoolValueDesc>ارزش بازار یک واحد از پشم این موجود.</Stat_Animal_WoolValueDesc>
   <!-- EN: Wool value per year -->
-  <Stat_Animal_WoolValuePerYear>Wool value per year</Stat_Animal_WoolValuePerYear>
+  <Stat_Animal_WoolValuePerYear>ارزش پشم در سال</Stat_Animal_WoolValuePerYear>
   <!-- EN: The market value of one year's worth of wool from this creature.\n\nThis is calculated from wool amount per year and wool market value. -->
-  <Stat_Animal_WoolValuePerYearDesc>The market value of one year's worth of wool from this creature.\n\nThis is calculated from wool amount per year and wool market value.</Stat_Animal_WoolValuePerYearDesc>
+  <Stat_Animal_WoolValuePerYearDesc>ارزش بازار پشم یک سال از این موجود.\n\nاین از مقدار پشم در سال و ارزش بازار پشم محاسبه می‌شود.</Stat_Animal_WoolValuePerYearDesc>
 
   <!-- EN: How much of the total possible study you have performed on this object. -->
-  <Stat_Studiable_Desc>How much of the total possible study you have performed on this object.</Stat_Studiable_Desc>
+  <Stat_Studiable_Desc>چه مقدار از کل مطالعه ممکن را روی این شیء انجام داده‌اید.</Stat_Studiable_Desc>
 
   <!-- EN: Source -->
-  <Stat_Source_Label>Source</Stat_Source_Label>
+  <Stat_Source_Label>منبع</Stat_Source_Label>
   <!-- EN: This content came from the official expansion -->
-  <Stat_Source_OfficialExpansionReport>This content came from the official expansion</Stat_Source_OfficialExpansionReport>
+  <Stat_Source_OfficialExpansionReport>این محتوا از بسته الحاقی رسمی آمده است</Stat_Source_OfficialExpansionReport>
   <!-- EN: This content came from the mod -->
-  <Stat_Source_ModReport>This content came from the mod</Stat_Source_ModReport>
+  <Stat_Source_ModReport>این محتوا از مود آمده است</Stat_Source_ModReport>
 
   <!-- EN: Contained book beauty -->
-  <ContainedBookBeauty>TODO</ContainedBookBeauty>
+  <ContainedBookBeauty>زیبایی کتاب موجود</ContainedBookBeauty>
   <!-- EN: {0} hits -->
-  <Stat_TrapDamageHitCount>TODO</Stat_TrapDamageHitCount>
+  <Stat_TrapDamageHitCount>{0} ضربه</Stat_TrapDamageHitCount>
 </LanguageData>

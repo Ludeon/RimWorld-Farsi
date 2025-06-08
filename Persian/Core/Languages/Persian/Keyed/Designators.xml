@@ -4,319 +4,319 @@
   <!-- EN: Cancel -->
   <DesignatorCancel>لغو</DesignatorCancel>
   <!-- EN: Cancel designated building, mining, hauling, harvesting, and all other designations. -->
-  <DesignatorCancelDesc>Cancel designated building, mining, hauling, harvesting, and all other designations.</DesignatorCancelDesc>
+  <DesignatorCancelDesc>لغو ساخت و ساز، استخراج، حمل و نقل، برداشت و سایر دستورات.</DesignatorCancelDesc>
 
   <!-- EN: Cut plants -->
   <DesignatorCutPlants>قطع گیاهان</DesignatorCutPlants>
   <!-- EN: Marks plants to be cut and destroyed. The plant will be completely removed, and any food or resource yield will be harvested. -->
-  <DesignatorCutPlantsDesc>Marks plants to be cut and destroyed. The plant will be completely removed, and any food or resource yield will be harvested.</DesignatorCutPlantsDesc>
+  <DesignatorCutPlantsDesc>گیاهان را برای قطع و نابودی علامت‌گذاری می‌کند. گیاه به طور کامل حذف می‌شود و هرگونه محصول غذایی یا منبع برداشت خواهد شد.</DesignatorCutPlantsDesc>
 
   <!-- EN: Deconstruct -->
   <DesignatorDeconstruct>تخریب</DesignatorDeconstruct>
   <!-- EN: Deconstruct this and reclaim part of its resources. -->
-  <DesignatorDeconstructDesc>Deconstruct this and reclaim part of its resources.</DesignatorDeconstructDesc>
+  <DesignatorDeconstructDesc>این را تخریب کرده و بخشی از منابع آن را بازیابی کنید.</DesignatorDeconstructDesc>
 
   <!-- EN: Uninstall -->
-  <DesignatorUninstall>Uninstall</DesignatorUninstall>
+  <DesignatorUninstall>حذف نصب</DesignatorUninstall>
   <!-- EN: Uninstall this so it can be moved, sold, or installed somewhere else. -->
-  <DesignatorUninstallDesc>Uninstall this so it can be moved, sold, or installed somewhere else.</DesignatorUninstallDesc>
+  <DesignatorUninstallDesc>این را حذف نصب کنید تا بتوان آن را جابجا کرد، فروخت یا در جای دیگری نصب کرد.</DesignatorUninstallDesc>
 
   <!-- EN: Extract tree -->
-  <DesignatorExtractTree>Extract tree</DesignatorExtractTree>
+  <DesignatorExtractTree>استخراج درخت</DesignatorExtractTree>
   <!-- EN: Extract this tree while keeping it alive so it can be replanted somewhere else. -->
-  <DesignatorExtractTreeDesc>Extract this tree while keeping it alive so it can be replanted somewhere else.</DesignatorExtractTreeDesc>
+  <DesignatorExtractTreeDesc>این درخت را در حالی که زنده است استخراج کنید تا بتوان آن را در جای دیگری دوباره کاشت.</DesignatorExtractTreeDesc>
 
   <!-- EN: Harvest -->
   <DesignatorHarvest>برداشت</DesignatorHarvest>
   <!-- EN: Marks plants to be harvested for their food or other products. -->
-  <DesignatorHarvestDesc>Marks plants to be harvested for their food or other products.</DesignatorHarvestDesc>
+  <DesignatorHarvestDesc>گیاهان را برای برداشت غذا یا سایر محصولاتشان علامت‌گذاری می‌کند.</DesignatorHarvestDesc>
 
   <!-- EN: Chop wood -->
   <DesignatorHarvestWood>بریدن چوب</DesignatorHarvestWood>
   <!-- EN: Marks trees to be chopped down for wood. -->
-  <DesignatorHarvestWoodDesc>Marks trees to be chopped down for wood.</DesignatorHarvestWoodDesc>
+  <DesignatorHarvestWoodDesc>درختان را برای بریدن چوب علامت‌گذاری می‌کند.</DesignatorHarvestWoodDesc>
 
   <!-- EN: Haul things -->
   <DesignatorHaulThings>حمل وسایل</DesignatorHaulThings>
   <!-- EN: Mark rock chunks and other items to be hauled to dumping areas. Not needed for things like food or corpses, which are always haulable. -->
-  <DesignatorHaulThingsDesc>Mark rock chunks and other items to be hauled to dumping areas. Not needed for things like food or corpses, which are always haulable.</DesignatorHaulThingsDesc>
+  <DesignatorHaulThingsDesc>تکه‌های سنگ و سایر آیتم‌ها را برای حمل به مناطق تخلیه علامت‌گذاری کنید. برای چیزهایی مانند غذا یا اجساد که همیشه قابل حمل هستند، نیازی نیست.</DesignatorHaulThingsDesc>
   <!-- EN: Can only designate haulable but non-always-hauled things (like rock chunks). -->
-  <MustHaulHaulables>Can only designate haulable but non-always-hauled things (like rock chunks).</MustHaulHaulables>
+  <MustHaulHaulables>فقط می‌توان چیزهای قابل حمل اما نه همیشه حمل شده (مانند تکه‌های سنگ) را علامت‌گذاری کرد.</MustHaulHaulables>
 
   <!-- EN: Hunt -->
   <DesignatorHunt>شکار</DesignatorHunt>
   <!-- EN: Mark animals to be hunted by your hunters. -->
-  <DesignatorHuntDesc>Mark animals to be hunted by your hunters.</DesignatorHuntDesc>
+  <DesignatorHuntDesc>حیوانات را برای شکار توسط شکارچیان شما علامت‌گذاری می‌کند.</DesignatorHuntDesc>
 
   <!-- EN: Mine -->
   <DesignatorMine>استخراج</DesignatorMine>
   <!-- EN: Designate areas of rock to be mined out. -->
-  <DesignatorMineDesc>Designate areas of rock to be mined out.</DesignatorMineDesc>
+  <DesignatorMineDesc>مناطق سنگی را برای استخراج علامت‌گذاری کنید.</DesignatorMineDesc>
 
   <!-- EN: Mine vein -->
-  <DesignatorMineVein>TODO</DesignatorMineVein>
+  <DesignatorMineVein>استخراج رگه</DesignatorMineVein>
   <!-- EN: Designate an area of rock to be mined. Colonists will continue to mine until all connected rock of the same type has been mined. -->
-  <DesignatorMineVeinDesc>TODO</DesignatorMineVeinDesc>
+  <DesignatorMineVeinDesc>منطقه‌ای از سنگ را برای استخراج علامت‌گذاری کنید. مهاجران تا زمانی که تمام سنگ‌های متصل از همان نوع استخراج شوند، به استخراج ادامه خواهند داد.</DesignatorMineVeinDesc>
 
   <!-- EN: Smooth surface -->
-  <DesignatorSmoothSurface>Smooth surface</DesignatorSmoothSurface>
+  <DesignatorSmoothSurface>هموار کردن سطح</DesignatorSmoothSurface>
   <!-- EN: Designate rough stone terrain and walls to be smoothed. -->
-  <DesignatorSmoothSurfaceDesc>Designate rough stone terrain and walls to be smoothed.</DesignatorSmoothSurfaceDesc>
+  <DesignatorSmoothSurfaceDesc>زمین و دیوارهای سنگی ناهموار را برای هموار شدن علامت‌گذاری کنید.</DesignatorSmoothSurfaceDesc>
   <!-- EN: Smooth walls -->
-  <DesignatorSmoothWalls>TODO</DesignatorSmoothWalls>
+  <DesignatorSmoothWalls>هموار کردن دیوارها</DesignatorSmoothWalls>
   <!-- EN: Designate rough stone walls to be smoothed. -->
-  <DesignatorSmoothWallsDesc>TODO</DesignatorSmoothWallsDesc>
+  <DesignatorSmoothWallsDesc>دیوارهای سنگی ناهموار را برای هموار شدن علامت‌گذاری کنید.</DesignatorSmoothWallsDesc>
   <!-- EN: Smooth terrain -->
-  <DesignatorSmoothFloors>TODO</DesignatorSmoothFloors>
+  <DesignatorSmoothFloors>هموار کردن زمین</DesignatorSmoothFloors>
   <!-- EN: Designate rough stone terrain to be smoothed. -->
-  <DesignatorSmoothFloorsDesc>TODO</DesignatorSmoothFloorsDesc>
+  <DesignatorSmoothFloorsDesc>زمین سنگی ناهموار را برای هموار شدن علامت‌گذاری کنید.</DesignatorSmoothFloorsDesc>
 
   <!-- EN: Plan -->
   <DesignatorPlan>برنامه‌ریزی</DesignatorPlan>
   <!-- EN: Place planning designations. These don't do anything except help you plan future expansions. -->
-  <DesignatorPlanDesc>Place planning designations. These don't do anything except help you plan future expansions.</DesignatorPlanDesc>
+  <DesignatorPlanDesc>دستورات برنامه‌ریزی را قرار دهید. اینها کاری جز کمک به شما در برنامه‌ریزی توسعه‌های آینده انجام نمی‌دهند.</DesignatorPlanDesc>
 
   <!-- EN: Remove plans -->
-  <DesignatorPlanRemove>Remove plans</DesignatorPlanRemove>
+  <DesignatorPlanRemove>حذف برنامه‌ها</DesignatorPlanRemove>
   <!-- EN: Remove planning designations. -->
-  <DesignatorPlanRemoveDesc>Remove planning designations.</DesignatorPlanRemoveDesc>
+  <DesignatorPlanRemoveDesc>دستورات برنامه‌ریزی را حذف کنید.</DesignatorPlanRemoveDesc>
 
   <!-- EN: Forbid -->
-  <DesignatorForbid>ممنوع</DesignatorForbid>
+  <DesignatorForbid>ممنوع کردن</DesignatorForbid>
   <!-- EN: Mark items as forbidden. Colonists will not be able to interact with the designated items. -->
-  <DesignatorForbidDesc>Mark items as forbidden. Colonists will not be able to interact with the designated items.</DesignatorForbidDesc>
+  <DesignatorForbidDesc>آیتم‌ها را به عنوان ممنوع علامت‌گذاری کنید. مهاجران قادر به تعامل با آیتم‌های علامت‌گذاری شده نخواهند بود.</DesignatorForbidDesc>
 
   <!-- EN: Allow -->
-  <DesignatorUnforbid>اجازه</DesignatorUnforbid>
+  <DesignatorUnforbid>مجاز کردن</DesignatorUnforbid>
   <!-- EN: Mark items as not forbidden. Colonists will be able to interact with the designated items. -->
-  <DesignatorUnforbidDesc>Mark items as not forbidden. Colonists will be able to interact with the designated items.</DesignatorUnforbidDesc>
+  <DesignatorUnforbidDesc>آیتم‌ها را به عنوان غیر ممنوع علامت‌گذاری کنید. مهاجران قادر به تعامل با آیتم‌های علامت‌گذاری شده خواهند بود.</DesignatorUnforbidDesc>
 
   <!-- EN: Expand home area -->
-  <DesignatorAreaHomeExpand>Expand home area</DesignatorAreaHomeExpand>
+  <DesignatorAreaHomeExpand>گسترش منطقه خانه</DesignatorAreaHomeExpand>
   <!-- EN: Colonists will repair buildings, clean floors, and extinguish fires only in the home area. -->
-  <DesignatorAreaHomeExpandDesc>Colonists will repair buildings, clean floors, and extinguish fires only in the home area.</DesignatorAreaHomeExpandDesc>
+  <DesignatorAreaHomeExpandDesc>مهاجران ساختمان‌ها را تعمیر می‌کنند، کف‌ها را تمیز می‌کنند و آتش‌ها را فقط در منطقه خانه خاموش می‌کنند.</DesignatorAreaHomeExpandDesc>
   <!-- EN: Clear home area -->
-  <DesignatorAreaHomeClear>Clear home area</DesignatorAreaHomeClear>
+  <DesignatorAreaHomeClear>پاک کردن منطقه خانه</DesignatorAreaHomeClear>
   <!-- EN: Removes a home area. Colonists will no longer clean, repair, or extinguish fires here. -->
-  <DesignatorAreaHomeClearDesc>Removes a home area. Colonists will no longer clean, repair, or extinguish fires here.</DesignatorAreaHomeClearDesc>
+  <DesignatorAreaHomeClearDesc>یک منطقه خانه را حذف می‌کند. مهاجران دیگر در اینجا تمیزکاری، تعمیر یا خاموش کردن آتش انجام نخواهند داد.</DesignatorAreaHomeClearDesc>
 
   <!-- EN: Build roof area -->
-  <DesignatorAreaBuildRoofExpand>Build roof area</DesignatorAreaBuildRoofExpand>
+  <DesignatorAreaBuildRoofExpand>ساخت منطقه سقف</DesignatorAreaBuildRoofExpand>
   <!-- EN: Colonists will build roofs in this area. -->
-  <DesignatorAreaBuildRoofExpandDesc>Colonists will build roofs in this area.</DesignatorAreaBuildRoofExpandDesc>
+  <DesignatorAreaBuildRoofExpandDesc>مهاجران در این منطقه سقف خواهند ساخت.</DesignatorAreaBuildRoofExpandDesc>
 
   <!-- EN: Remove roof area -->
-  <DesignatorAreaNoRoofExpand>Remove roof area</DesignatorAreaNoRoofExpand>
+  <DesignatorAreaNoRoofExpand>حذف منطقه سقف</DesignatorAreaNoRoofExpand>
   <!-- EN: Colonists will remove roofs in this area (except overhead mountain, which cannot be removed). -->
-  <DesignatorAreaNoRoofExpandDesc>Colonists will remove roofs in this area (except overhead mountain, which cannot be removed).</DesignatorAreaNoRoofExpandDesc>
+  <DesignatorAreaNoRoofExpandDesc>مهاجران در این منطقه سقف‌ها را حذف خواهند کرد (به جز کوه بالای سر، که قابل حذف نیست).</DesignatorAreaNoRoofExpandDesc>
 
   <!-- EN: Ignore roof area -->
-  <DesignatorAreaIgnoreRoofExpand>Ignore roof area</DesignatorAreaIgnoreRoofExpand>
+  <DesignatorAreaIgnoreRoofExpand>نادیده گرفتن منطقه سقف</DesignatorAreaIgnoreRoofExpand>
   <!-- EN: Colonists will ignore roofs in this area. -->
-  <DesignatorAreaIgnoreRoofExpandDesc>Colonists will ignore roofs in this area.</DesignatorAreaIgnoreRoofExpandDesc>
+  <DesignatorAreaIgnoreRoofExpandDesc>مهاجران در این منطقه سقف‌ها را نادیده خواهند گرفت.</DesignatorAreaIgnoreRoofExpandDesc>
 
   <!-- EN: Snow removal area -->
-  <DesignatorAreaSnowClearExpand>Snow removal area</DesignatorAreaSnowClearExpand>
+  <DesignatorAreaSnowClearExpand>منطقه برف‌روبی</DesignatorAreaSnowClearExpand>
   <!-- EN: Create an area which colonists will try to keep clear of snow. -->
-  <DesignatorAreaSnowClearExpandDesc>Create an area which colonists will try to keep clear of snow.</DesignatorAreaSnowClearExpandDesc>
+  <DesignatorAreaSnowClearExpandDesc>منطقه‌ای ایجاد کنید که مهاجران سعی کنند آن را از برف پاک نگه دارند.</DesignatorAreaSnowClearExpandDesc>
   <!-- EN: Clear snow removal area -->
-  <DesignatorAreaSnowClearClear>Clear snow removal area</DesignatorAreaSnowClearClear>
+  <DesignatorAreaSnowClearClear>پاک کردن منطقه برف‌روبی</DesignatorAreaSnowClearClear>
   <!-- EN: Removes a snow removal area. Colonists will no longer try to keep this area clear of snow. -->
-  <DesignatorAreaSnowClearClearDesc>Removes a snow removal area. Colonists will no longer try to keep this area clear of snow.</DesignatorAreaSnowClearClearDesc>
+  <DesignatorAreaSnowClearClearDesc>یک منطقه برف‌روبی را حذف می‌کند. مهاجران دیگر سعی نخواهند کرد این منطقه را از برف پاک نگه دارند.</DesignatorAreaSnowClearClearDesc>
 
   <!-- EN: Expand allowed area -->
-  <DesignatorExpandAreaAllowed>Expand allowed area</DesignatorExpandAreaAllowed>
+  <DesignatorExpandAreaAllowed>گسترش منطقه مجاز</DesignatorExpandAreaAllowed>
   <!-- EN: Expand an allowed area.\n\nAllowed areas are defined areas you can assign to colonists. Colonists will not accept work or fulfill their needs outside their allowed area. -->
-  <DesignatorExpandAreaAllowedDesc>Expand an allowed area.\n\nAllowed areas are defined areas you can assign to colonists. Colonists will not accept work or fulfill their needs outside their allowed area.</DesignatorExpandAreaAllowedDesc>
+  <DesignatorExpandAreaAllowedDesc>یک منطقه مجاز را گسترش دهید.\n\nمناطق مجاز مناطق تعریف شده‌ای هستند که می‌توانید به مهاجران اختصاص دهید. مهاجران کار را قبول نمی‌کنند یا نیازهای خود را خارج از منطقه مجاز خود برآورده نمی‌کنند.</DesignatorExpandAreaAllowedDesc>
   <!-- EN: Clear allowed area -->
-  <DesignatorClearAreaAllowed>Clear allowed area</DesignatorClearAreaAllowed>
+  <DesignatorClearAreaAllowed>پاک کردن منطقه مجاز</DesignatorClearAreaAllowed>
   <!-- EN: Clear cells from an allowed area.\n\nAllowed area are defined areas you can assign to colonists. Colonists will not accept work or fulfill their needs outside their allowed area. -->
-  <DesignatorClearAreaAllowedDesc>Clear cells from an allowed area.\n\nAllowed area are defined areas you can assign to colonists. Colonists will not accept work or fulfill their needs outside their allowed area.</DesignatorClearAreaAllowedDesc>
+  <DesignatorClearAreaAllowedDesc>سلول‌ها را از یک منطقه مجاز پاک کنید.\n\nمناطق مجاز مناطق تعریف شده‌ای هستند که می‌توانید به مهاجران اختصاص دهید. مهاجران کار را قبول نمی‌کنند یا نیازهای خود را خارج از منطقه مجاز خود برآورده نمی‌کنند.</DesignatorClearAreaAllowedDesc>
   <!-- EN: Manage areas... -->
-  <ManageAreas>Manage areas...</ManageAreas>
+  <ManageAreas>مدیریت مناطق...</ManageAreas>
   <!-- EN: Manage auto-slaughter... -->
-  <ManageAutoSlaughter>Manage auto-slaughter...</ManageAutoSlaughter>
+  <ManageAutoSlaughter>مدیریت کشتار خودکار...</ManageAutoSlaughter>
 
   <!-- EN: Create a zone where your colonists will try to grow a certain kind of plant. -->
-  <DesignatorGrowingZoneDesc>Create a zone where your colonists will try to grow a certain kind of plant.</DesignatorGrowingZoneDesc>
+  <DesignatorGrowingZoneDesc>منطقه‌ای ایجاد کنید که مهاجران شما سعی کنند نوع خاصی از گیاه را در آن پرورش دهند.</DesignatorGrowingZoneDesc>
 
   <!-- EN: Create a stockpile where your colonists will store resources.\nThis tool can also expand any existing stockpile. -->
-  <DesignatorZoneCreateStorageResourcesDesc>Create a stockpile where your colonists will store resources.\nThis tool can also expand any existing stockpile.</DesignatorZoneCreateStorageResourcesDesc>
+  <DesignatorZoneCreateStorageResourcesDesc>یک انبار ایجاد کنید که مهاجران شما منابع را در آن ذخیره کنند.\nاین ابزار همچنین می‌تواند هر انبار موجود را گسترش دهد.</DesignatorZoneCreateStorageResourcesDesc>
 
   <!-- EN: Create a stockpile where your colonists will store junk.\nThis tool can also expand any existing stockpile. -->
-  <DesignatorZoneCreateStorageDumpingDesc>Create a stockpile where your colonists will store junk.\nThis tool can also expand any existing stockpile.</DesignatorZoneCreateStorageDumpingDesc>
+  <DesignatorZoneCreateStorageDumpingDesc>یک انبار ایجاد کنید که مهاجران شما زباله‌ها را در آن ذخیره کنند.\nاین ابزار همچنین می‌تواند هر انبار موجود را گسترش دهد.</DesignatorZoneCreateStorageDumpingDesc>
 
   <!-- EN: Shrink zones -->
   <DesignatorZoneDelete>کوچک کردن مناطق</DesignatorZoneDelete>
   <!-- EN: Shrink zone -->
-  <DesignatorZoneDeleteSingular>Shrink zone</DesignatorZoneDeleteSingular>
+  <DesignatorZoneDeleteSingular>کوچک کردن منطقه</DesignatorZoneDeleteSingular>
   <!-- EN: Remove zones, like stockpile zones or growing zones. -->
-  <DesignatorZoneDeleteDesc>Remove zones, like stockpile zones or growing zones.</DesignatorZoneDeleteDesc>
+  <DesignatorZoneDeleteDesc>مناطق را حذف کنید، مانند مناطق انبار یا مناطق کشت.</DesignatorZoneDeleteDesc>
 
   <!-- EN: Expand zone -->
   <DesignatorZoneExpand>گسترش منطقه</DesignatorZoneExpand>
   
   <!-- EN: Claim -->
-  <DesignatorClaim>Claim</DesignatorClaim>
+  <DesignatorClaim>ادعا کردن</DesignatorClaim>
   <!-- EN: Claim neutral structures for the colony, including ancient ruins and abandoned siege bases. Claimed structures can be repaired and maintained by your colonists. -->
-  <DesignatorClaimDesc>Claim neutral structures for the colony, including ancient ruins and abandoned siege bases. Claimed structures can be repaired and maintained by your colonists.</DesignatorClaimDesc>
+  <DesignatorClaimDesc>سازه‌های خنثی را برای کلنی ادعا کنید، از جمله ویرانه‌های باستانی و پایگاه‌های محاصره رها شده. سازه‌های ادعا شده می‌توانند توسط مهاجران شما تعمیر و نگهداری شوند.</DesignatorClaimDesc>
 
   <!-- EN: Remove floor -->
   <DesignatorRemoveFloor>حذف کف</DesignatorRemoveFloor>
   <!-- EN: Remove floors to reveal the terrain underneath. -->
-  <DesignatorRemoveFloorDesc>Remove floors to reveal the terrain underneath.</DesignatorRemoveFloorDesc>
+  <DesignatorRemoveFloorDesc>کف‌ها را حذف کنید تا زمین زیر آن نمایان شود.</DesignatorRemoveFloorDesc>
 
   <!-- EN: Remove bridge -->
   <DesignatorRemoveBridge>حذف پل</DesignatorRemoveBridge>
   <!-- EN: Remove bridges to reveal the terrain underneath. -->
-  <DesignatorRemoveBridgeDesc>Remove bridges to reveal the terrain underneath.</DesignatorRemoveBridgeDesc>
+  <DesignatorRemoveBridgeDesc>پل‌ها را حذف کنید تا زمین زیر آن نمایان شود.</DesignatorRemoveBridgeDesc>
 
   <!-- EN: Strip -->
   <DesignatorStrip>لخت کردن</DesignatorStrip>
   <!-- EN: Strip apparel from corpses and the wounded. -->
-  <DesignatorStripDesc>Strip apparel from corpses and the wounded.</DesignatorStripDesc>
+  <DesignatorStripDesc>لباس‌ها را از اجساد و مجروحان جدا کنید.</DesignatorStripDesc>
 
   <!-- EN: Open -->
   <DesignatorOpen>باز کردن</DesignatorOpen>
   <!-- EN: Open containers. -->
-  <DesignatorOpenDesc>Open containers.</DesignatorOpenDesc>
+  <DesignatorOpenDesc>باز کردن ظروف.</DesignatorOpenDesc>
   
   <!-- EN: Slaughter -->
   <DesignatorSlaughter>کشتار</DesignatorSlaughter>
   <!-- EN: Slaughter a tame animal. -->
-  <DesignatorSlaughterDesc>Slaughter a tame animal.</DesignatorSlaughterDesc>
+  <DesignatorSlaughterDesc>یک حیوان اهلی را کشتار کنید.</DesignatorSlaughterDesc>
 
   <!-- EN: Tame -->
   <DesignatorTame>رام کردن</DesignatorTame>
   <!-- EN: Tame a wild animal. -->
-  <DesignatorTameDesc>Tame a wild animal.</DesignatorTameDesc>
+  <DesignatorTameDesc>یک حیوان وحشی را رام کنید.</DesignatorTameDesc>
 
   <!-- EN: Release to wild -->
-  <DesignatorReleaseAnimalToWild>Release to wild</DesignatorReleaseAnimalToWild>
+  <DesignatorReleaseAnimalToWild>رها کردن در طبیعت</DesignatorReleaseAnimalToWild>
   <!-- EN: Release an animal back into the wild. -->
-  <DesignatorReleaseAnimalToWildDesc>Release an animal back into the wild.</DesignatorReleaseAnimalToWildDesc>
+  <DesignatorReleaseAnimalToWildDesc>یک حیوان را به طبیعت بازگردانید.</DesignatorReleaseAnimalToWildDesc>
 
   <!-- EN: Study -->
   <DesignatorStudy>مطالعه</DesignatorStudy>
   <!-- EN: Study this object to learn more about it. -->
-  <DesignatorStudyDesc>Study this object to learn more about it.</DesignatorStudyDesc>
+  <DesignatorStudyDesc>این شیء را مطالعه کنید تا اطلاعات بیشتری در مورد آن کسب کنید.</DesignatorStudyDesc>
 
   <!-- EN: Paint building... -->
-  <DesignatorPaintBuilding>Paint building...</DesignatorPaintBuilding>
+  <DesignatorPaintBuilding>رنگ‌آمیزی ساختمان...</DesignatorPaintBuilding>
   <!-- EN: Designate walls and buildings to be painted using dye from tinctoria plants, which you can grow. Only certain buildings can be painted. -->
-  <DesignatorPaintBuildingDesc>Designate walls and buildings to be painted using dye from tinctoria plants, which you can grow. Only certain buildings can be painted.</DesignatorPaintBuildingDesc>
+  <DesignatorPaintBuildingDesc>دیوارها و ساختمان‌ها را برای رنگ‌آمیزی با استفاده از رنگ گیاهان تینکتوریا که می‌توانید پرورش دهید، علامت‌گذاری کنید. فقط ساختمان‌های خاصی قابل رنگ‌آمیزی هستند.</DesignatorPaintBuildingDesc>
   <!-- EN: Paint floor... -->
-  <DesignatorPaintFloor>Paint floor...</DesignatorPaintFloor>
+  <DesignatorPaintFloor>رنگ‌آمیزی کف...</DesignatorPaintFloor>
   <!-- EN: Designate floors to be painted using dye from tinctoria plants, which you can grow. Only certain floors can be painted. -->
-  <DesignatorPaintFloorDesc>Designate floors to be painted using dye from tinctoria plants, which you can grow. Only certain floors can be painted.</DesignatorPaintFloorDesc>
+  <DesignatorPaintFloorDesc>کف‌ها را برای رنگ‌آمیزی با استفاده از رنگ گیاهان تینکتوریا که می‌توانید پرورش دهید، علامت‌گذاری کنید. فقط کف‌های خاصی قابل رنگ‌آمیزی هستند.</DesignatorPaintFloorDesc>
 
   <!-- EN: Remove paint -->
-  <DesignatorRemovePaint>Remove paint</DesignatorRemovePaint>
+  <DesignatorRemovePaint>حذف رنگ</DesignatorRemovePaint>
   <!-- EN: Remove paint from walls, buildings, and floors. -->
-  <DesignatorRemovePaintDesc>Remove paint from walls, buildings, and floors.</DesignatorRemovePaintDesc>
+  <DesignatorRemovePaintDesc>رنگ را از دیوارها، ساختمان‌ها و کف‌ها حذف کنید.</DesignatorRemovePaintDesc>
   <!-- EN: Remove floor paint -->
-  <DesignatorRemoveFloorPaint>Remove floor paint</DesignatorRemoveFloorPaint> 
+  <DesignatorRemoveFloorPaint>حذف رنگ کف</DesignatorRemoveFloorPaint> 
   <!-- EN: Remove paint from floors. -->
-  <DesignatorRemoveFloorPaintDesc>Remove paint from floors.</DesignatorRemoveFloorPaintDesc> 
+  <DesignatorRemoveFloorPaintDesc>رنگ را از کف‌ها حذف کنید.</DesignatorRemoveFloorPaintDesc> 
   <!-- EN: Paint -->
-  <Paint>Paint</Paint>
+  <Paint>رنگ</Paint>
   <!-- EN: Color -->
-  <Color>Color</Color>
+  <Color>رنگ</Color>
 
   <!-- EN: Color picker -->
-  <DesignatorEyedropper>Color picker</DesignatorEyedropper>
+  <DesignatorEyedropper>انتخابگر رنگ</DesignatorEyedropper>
   <!-- EN: Grab existing color -->
-  <GrabExistingColor>Grab existing color</GrabExistingColor>
+  <GrabExistingColor>گرفتن رنگ موجود</GrabExistingColor>
   <!-- EN: Grab a color from an existing building. -->
-  <DesignatorEyeDropperDesc_Paint>Grab a color from an existing building.</DesignatorEyeDropperDesc_Paint>
+  <DesignatorEyeDropperDesc_Paint>رنگی را از یک ساختمان موجود بگیرید.</DesignatorEyeDropperDesc_Paint>
   <!-- EN: Grab a color from an existing carpet. -->
-  <DesignatorEyeDropperDesc_Carpet>Grab a color from an existing carpet.</DesignatorEyeDropperDesc_Carpet>
+  <DesignatorEyeDropperDesc_Carpet>رنگی را از یک فرش موجود بگیرید.</DesignatorEyeDropperDesc_Carpet>
   <!-- EN: Select a painted building. -->
-  <SelectAPaintedBuilding>Select a painted building.</SelectAPaintedBuilding>
+  <SelectAPaintedBuilding>یک ساختمان رنگ‌آمیزی شده را انتخاب کنید.</SelectAPaintedBuilding>
   <!-- EN: Select colored carpet. -->
-  <SelectColoredFloor>Select colored carpet.</SelectColoredFloor>
+  <SelectColoredFloor>فرش رنگی را انتخاب کنید.</SelectColoredFloor>
   <!-- EN: Grab -->
-  <Grab>Grab</Grab>
+  <Grab>گرفتن</Grab>
   <!-- EN: Grabbed color -->
-  <GrabbedColor>Grabbed color</GrabbedColor>
+  <GrabbedColor>رنگ گرفته شده</GrabbedColor>
 
   <!-- Failure messages -->
   <!-- EN: Unchosen material -->
-  <UnchosenStuff>Unchosen material</UnchosenStuff>
+  <UnchosenStuff>ماده انتخاب نشده</UnchosenStuff>
   <!-- EN: Too close to map edge. -->
-  <TooCloseToMapEdge>Too close to map edge.</TooCloseToMapEdge>
+  <TooCloseToMapEdge>خیلی نزدیک به لبه نقشه.</TooCloseToMapEdge>
   <!-- EN: Out of bounds. -->
-  <OutOfBounds>Out of bounds.</OutOfBounds>
+  <OutOfBounds>خارج از محدوده.</OutOfBounds>
   <!-- EN: Cannot place in undiscovered areas. -->
-  <CannotPlaceInUndiscovered>Cannot place in undiscovered areas.</CannotPlaceInUndiscovered>
+  <CannotPlaceInUndiscovered>نمی‌توان در مناطق کشف نشده قرار داد.</CannotPlaceInUndiscovered>
   <!-- EN: Interaction spot is blocked by {1_labelShort}. -->
-  <InteractionSpotBlocked>Interaction spot is blocked by {1_labelShort}.</InteractionSpotBlocked>
+  <InteractionSpotBlocked>نقطه تعامل توسط {1_labelShort} مسدود شده است.</InteractionSpotBlocked>
   <!-- EN: Interaction spot is out of bounds. -->
-  <InteractionSpotOutOfBounds>Interaction spot is out of bounds.</InteractionSpotOutOfBounds>
+  <InteractionSpotOutOfBounds>نقطه تعامل خارج از محدوده است.</InteractionSpotOutOfBounds>
   <!-- EN: Interaction spot will be blocked by {1_labelShort}. -->
-  <InteractionSpotWillBeBlocked>Interaction spot will be blocked by {1_labelShort}.</InteractionSpotWillBeBlocked>
+  <InteractionSpotWillBeBlocked>نقطه تعامل توسط {1_labelShort} مسدود خواهد شد.</InteractionSpotWillBeBlocked>
   <!-- EN: {0} would block {1}'s interaction spot. -->
-  <WouldBlockInteractionSpot>{0} would block {1}'s interaction spot.</WouldBlockInteractionSpot>
+  <WouldBlockInteractionSpot>{0} نقطه تعامل {1} را مسدود می‌کند.</WouldBlockInteractionSpot>
   <!-- EN: The terrain here is already {0}. -->
-  <TerrainIsAlready>The terrain here is already {0}.</TerrainIsAlready>
+  <TerrainIsAlready>زمین اینجا قبلاً {0} است.</TerrainIsAlready>
   <!-- EN: The surface is already marked for smoothing. -->
-  <SurfaceBeingSmoothed>The surface is already marked for smoothing.</SurfaceBeingSmoothed>
+  <SurfaceBeingSmoothed>سطح قبلاً برای هموار شدن علامت‌گذاری شده است.</SurfaceBeingSmoothed>
   <!-- EN: Identical thing already exists here. -->
-  <IdenticalThingExists>Identical thing already exists here.</IdenticalThingExists>
+  <IdenticalThingExists>شیء مشابه قبلاً اینجا وجود دارد.</IdenticalThingExists>
   <!-- EN: Identical blueprint already exists here. -->
-  <IdenticalBlueprintExists>Identical blueprint already exists here.</IdenticalBlueprintExists>
+  <IdenticalBlueprintExists>طرح مشابه قبلاً اینجا وجود دارد.</IdenticalBlueprintExists>
   <!-- EN: {0_label} cannot be built on this terrain. -->
-  <TerrainCannotSupport>{0_label} cannot be built on this terrain.</TerrainCannotSupport>
+  <TerrainCannotSupport>{0_label} نمی‌تواند روی این زمین ساخته شود.</TerrainCannotSupport>
   <!-- EN: {0_label} requires terrain that supports: {1_label} -->
-  <TerrainCannotSupport_TerrainAffordance>{0_label} requires terrain that supports: {1_label}</TerrainCannotSupport_TerrainAffordance>
+  <TerrainCannotSupport_TerrainAffordance>{0_label} به زمینی نیاز دارد که پشتیبانی کند: {1_label}</TerrainCannotSupport_TerrainAffordance>
   <!-- EN: {0_label} (when made of {2_label}) requires terrain that supports: {1_label} -->
-  <TerrainCannotSupport_TerrainAffordanceFromStuff>{0_label} (when made of {2_label}) requires terrain that supports: {1_label}</TerrainCannotSupport_TerrainAffordanceFromStuff>
+  <TerrainCannotSupport_TerrainAffordanceFromStuff>{0_label} (هنگامی که از {2_label} ساخته شده است) به زمینی نیاز دارد که پشتیبانی کند: {1_label}</TerrainCannotSupport_TerrainAffordanceFromStuff>
   <!-- EN: Space already occupied. -->
-  <SpaceAlreadyOccupied>Space already occupied.</SpaceAlreadyOccupied>
+  <SpaceAlreadyOccupied>فضا قبلاً اشغال شده است.</SpaceAlreadyOccupied>
   <!-- EN: Space being smoothed. -->
-  <SpaceBeingSmoothed>Space being smoothed.</SpaceBeingSmoothed>
+  <SpaceBeingSmoothed>فضا در حال هموار شدن است.</SpaceBeingSmoothed>
   <!-- EN: Must target a removable floor. -->
-  <TerrainMustBeRemovable>Must target a removable floor.</TerrainMustBeRemovable>
+  <TerrainMustBeRemovable>باید یک کف قابل حذف را هدف قرار دهد.</TerrainMustBeRemovable>
   <!-- EN: The waterwheel must be on moving water. -->
-  <MustBeOnMovingWater>The waterwheel must be on moving water.</MustBeOnMovingWater>
+  <MustBeOnMovingWater>چرخ آبی باید روی آب متحرک باشد.</MustBeOnMovingWater>
   <!-- EN: Interaction spot will overlap with the interaction spot of {1_labelShort}. -->
-  <InteractionSpotWillOverlap>Interaction spot will overlap with the interaction spot of {1_labelShort}.</InteractionSpotWillOverlap>
+  <InteractionSpotWillOverlap>نقطه تعامل با نقطه تعامل {1_labelShort} همپوشانی خواهد داشت.</InteractionSpotWillOverlap>
   <!-- EN: Interaction spot overlaps with the interaction spot of {1_labelShort}. -->
-  <InteractionSpotOverlaps>Interaction spot overlaps with the interaction spot of {1_labelShort}.</InteractionSpotOverlaps>
+  <InteractionSpotOverlaps>نقطه تعامل با نقطه تعامل {1_labelShort} همپوشانی دارد.</InteractionSpotOverlaps>
   <!-- EN: Cannot place monument over: {0}. -->
-  <CannotPlaceMonumentOver>Cannot place monument over: {0}.</CannotPlaceMonumentOver>
+  <CannotPlaceMonumentOver>نمی‌توان بنای یادبود را روی: {0} قرار داد.</CannotPlaceMonumentOver>
   <!-- EN: Cannot build on: {0}. -->
-  <CannotPlaceMonumentOnTerrain>Cannot build on: {0}.</CannotPlaceMonumentOnTerrain>
+  <CannotPlaceMonumentOnTerrain>نمی‌توان روی: {0} ساخت.</CannotPlaceMonumentOnTerrain>
   <!-- EN: Cannot place monument over: {0}. -->
-  <MonumentOverlapsBuilding>Cannot place monument over: {0}.</MonumentOverlapsBuilding>
+  <MonumentOverlapsBuilding>نمی‌توان بنای یادبود را روی: {0} قرار داد.</MonumentOverlapsBuilding>
   <!-- EN: Monument cannot be placed adjacent to: {0}. -->
-  <MonumentAdjacentToBuilding>Monument cannot be placed adjacent to: {0}.</MonumentAdjacentToBuilding>
+  <MonumentAdjacentToBuilding>بنای یادبود نمی‌تواند در مجاورت: {0} قرار گیرد.</MonumentAdjacentToBuilding>
   <!-- EN: Cannot be planted here -->
-  <CannotBePlantedHere>Cannot be planted here</CannotBePlantedHere>
+  <CannotBePlantedHere>نمی‌توان اینجا کاشت.</CannotBePlantedHere>
   
   <!-- Mouse attachments -->
   <!-- EN: Expand {0} or\nCreate new {1} -->
-  <ExpandOrCreateZone>Expand {0} or\nCreate new {1}</ExpandOrCreateZone>
+  <ExpandOrCreateZone>گسترش {0} یا\nایجاد منطقه جدید {1}</ExpandOrCreateZone>
   <!-- EN: Create new {0} -->
-  <CreateNewZone>Create new {0}</CreateNewZone>
+  <CreateNewZone>ایجاد منطقه جدید {0}</CreateNewZone>
   
   <!-- Desc helpers -->
   <!-- EN: Transmits power -->
-  <TransmitsPower>Transmits power</TransmitsPower>
+  <TransmitsPower>انتقال برق</TransmitsPower>
   <!-- EN: Construction needed -->
-  <ConstructionNeeded>Construction needed</ConstructionNeeded>
+  <ConstructionNeeded>نیاز به ساخت و ساز</ConstructionNeeded>
   <!-- EN: None of your {0} have this skill. -->
-  <NoColonistWithSkillTip>None of your {0} have this skill.</NoColonistWithSkillTip>
+  <NoColonistWithSkillTip>هیچ یک از {0} شما این مهارت را ندارند.</NoColonistWithSkillTip>
   <!-- EN: {0} needed -->
-  <SkillNeededForConstructing>{0} needed</SkillNeededForConstructing>
+  <SkillNeededForConstructing>نیاز به {0}</SkillNeededForConstructing>
   <!-- EN: None of your {0} have all skills required. -->
-  <NoColonistWithAllSkillsForConstructing>None of your {0} have all skills required.</NoColonistWithAllSkillsForConstructing>
+  <NoColonistWithAllSkillsForConstructing>هیچ یک از {0} شما تمام مهارت‌های مورد نیاز را ندارند.</NoColonistWithAllSkillsForConstructing>
   <!-- EN: All of your {0} who have this skill are not assigned to {1}. -->
-  <AllColonistsWithSkillHaveDisabledConstructingTip>All of your {0} who have this skill are not assigned to {1}.</AllColonistsWithSkillHaveDisabledConstructingTip>
+  <AllColonistsWithSkillHaveDisabledConstructingTip>تمام {0} شما که این مهارت را دارند، به {1} اختصاص داده نشده‌اند.</AllColonistsWithSkillHaveDisabledConstructingTip>
 
   <!-- EN: Extract skull -->
-  <DesignatorExtractSkull>TODO</DesignatorExtractSkull>
+  <DesignatorExtractSkull>استخراج جمجمه</DesignatorExtractSkull>
   <!-- EN: Extract the skull from a corpse. -->
-  <DesignatorExtractSkullDesc>TODO</DesignatorExtractSkullDesc>
+  <DesignatorExtractSkullDesc>جمجمه را از یک جسد استخراج کنید.</DesignatorExtractSkullDesc>
 
 </LanguageData>

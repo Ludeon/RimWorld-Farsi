@@ -7,77 +7,77 @@
   <!-- EN: Allow -->
   <CommandAllow>اجازه</CommandAllow>
   <!-- EN: Forbidden: Your colonists are not allowed to interact with this. Click to allow. -->
-  <CommandForbiddenDesc>Forbidden: Your colonists are not allowed to interact with this. Click to allow.</CommandForbiddenDesc>
+  <CommandForbiddenDesc>ممنوع: مهاجران شما اجازه تعامل با این را ندارند. برای اجازه دادن کلیک کنید.</CommandForbiddenDesc>
   <!-- EN: Allowed: Your colonists are allowed to interact with this. Click to forbid. -->
-  <CommandNotForbiddenDesc>Allowed: Your colonists are allowed to interact with this. Click to forbid.</CommandNotForbiddenDesc>
+  <CommandNotForbiddenDesc>مجاز: مهاجران شما اجازه تعامل با این را دارند. برای منع کردن کلیک کنید.</CommandNotForbiddenDesc>
 
   <!-- Power -->
   <!-- EN: Toggle power -->
-  <CommandTogglePowerLabel>Toggle power</CommandTogglePowerLabel>
+  <CommandTogglePowerLabel>تغییر وضعیت برق</CommandTogglePowerLabel>
   <!-- EN: Toggle power. -->
-  <CommandTogglePowerDesc>Toggle power.</CommandTogglePowerDesc>
+  <CommandTogglePowerDesc>تغییر وضعیت برق.</CommandTogglePowerDesc>
   
   <!-- EN: Designate toggle power -->
-  <CommandDesignateTogglePowerLabel>Designate toggle power</CommandDesignateTogglePowerLabel>
+  <CommandDesignateTogglePowerLabel>تعیین تغییر وضعیت برق</CommandDesignateTogglePowerLabel>
   <!-- EN: Designate this thing to have power toggled. A colonist will come soon to flick the switch. -->
-  <CommandDesignateTogglePowerDesc>Designate this thing to have power toggled. A colonist will come soon to flick the switch.</CommandDesignateTogglePowerDesc>
+  <CommandDesignateTogglePowerDesc>این شیء را برای تغییر وضعیت برق تعیین کنید. یک مهاجر به زودی برای زدن کلید خواهد آمد.</CommandDesignateTogglePowerDesc>
   
   <!-- EN: Reconnect -->
-  <CommandTryReconnectLabel>Reconnect</CommandTryReconnectLabel>
+  <CommandTryReconnectLabel>اتصال مجدد</CommandTryReconnectLabel>
   <!-- EN: Try to connect to a different power net within my connection radius. This is useful if I'm connected to an unpowered net but there is a powered net nearby. -->
-  <CommandTryReconnectDesc>Try to connect to a different power net within my connection radius. This is useful if I'm connected to an unpowered net but there is a powered net nearby.</CommandTryReconnectDesc>
+  <CommandTryReconnectDesc>تلاش برای اتصال به شبکه برق دیگری در شعاع اتصال من. این مفید است اگر به یک شبکه بدون برق متصل هستم اما یک شبکه برق‌دار در نزدیکی وجود دارد.</CommandTryReconnectDesc>
 
   <!-- EN: Gather spot -->
-  <CommandGatherSpotToggleLabel>Gather spot</CommandGatherSpotToggleLabel>
+  <CommandGatherSpotToggleLabel>نقطه تجمع</CommandGatherSpotToggleLabel>
   <!-- EN: Active - colonists will gather around this object. -->
-  <CommandGatherSpotToggleDescActive>Active - colonists will gather around this object.</CommandGatherSpotToggleDescActive>
+  <CommandGatherSpotToggleDescActive>فعال - مهاجران در اطراف این شیء جمع خواهند شد.</CommandGatherSpotToggleDescActive>
   <!-- EN: Inactive - colonists will not gather around this object. -->
-  <CommandGatherSpotToggleDescInactive>Inactive - colonists will not gather around this object.</CommandGatherSpotToggleDescInactive>
+  <CommandGatherSpotToggleDescInactive>غیرفعال - مهاجران در اطراف این شیء جمع نخواهند شد.</CommandGatherSpotToggleDescInactive>
   
   <!-- Drafting -->
   <!-- EN: Draft -->
   <CommandDraftLabel>اماده کردن</CommandDraftLabel>
   <!-- EN: Undraft -->
-  <CommandUndraftLabel>Undraft</CommandUndraftLabel>
+  <CommandUndraftLabel>لغو آماده‌سازی</CommandUndraftLabel>
   <!-- EN: Toggle military draft.\n\nDrafted people take orders and fight. They will not work, eat, or rest. -->
-  <CommandToggleDraftDesc>Toggle military draft.\n\nDrafted people take orders and fight. They will not work, eat, or rest.</CommandToggleDraftDesc>
+  <CommandToggleDraftDesc>تغییر وضعیت آماده‌سازی نظامی.\n\nافراد آماده‌شده دستور می‌گیرند و می‌جنگند. آنها کار، غذا خوردن یا استراحت نخواهند کرد.</CommandToggleDraftDesc>
   <!-- EN: {1_labelShort} cannot walk. -->
-  <IsIncapped>{1_labelShort} cannot walk.</IsIncapped>
+  <IsIncapped>{1_labelShort} نمی‌تواند راه برود.</IsIncapped>
   <!-- EN: {0_labelShort} is participating in {1}. -->
-  <ParticipatingInRitual>{0_labelShort} is participating in {1}.</ParticipatingInRitual>
+  <ParticipatingInRitual>{0_labelShort} در {1} شرکت می‌کند.</ParticipatingInRitual>
 
   <!-- EN: Fire at will -->
-  <CommandFireAtWillLabel>Fire at will</CommandFireAtWillLabel>
+  <CommandFireAtWillLabel>آتش به اختیار</CommandFireAtWillLabel>
   <!-- EN: Toggle fire at will.\n\nWhen disabled, this character will not automatically shoot at ranged targets. Does not affect melee combat. -->
-  <CommandFireAtWillDesc>Toggle fire at will.\n\nWhen disabled, this character will not automatically shoot at ranged targets. Does not affect melee combat.</CommandFireAtWillDesc>
+  <CommandFireAtWillDesc>تغییر وضعیت آتش به اختیار.\n\nهنگامی که غیرفعال باشد، این شخصیت به طور خودکار به اهداف دوربرد شلیک نخواهد کرد. بر نبرد تن به تن تأثیر نمی‌گذارد.</CommandFireAtWillDesc>
   
   <!-- EN: Clear prioritized work -->
-  <CommandClearPrioritizedWork>Clear prioritized work</CommandClearPrioritizedWork>
+  <CommandClearPrioritizedWork>پاک کردن کار اولویت‌بندی‌شده</CommandClearPrioritizedWork>
   <!-- EN: Clear any prioritized work you assigned. The character will go back to their usual self-directed activities. -->
-  <CommandClearPrioritizedWorkDesc>Clear any prioritized work you assigned. The character will go back to their usual self-directed activities.</CommandClearPrioritizedWorkDesc>
+  <CommandClearPrioritizedWorkDesc>هر کار اولویت‌بندی‌شده‌ای که تعیین کرده‌اید را پاک کنید. شخصیت به فعالیت‌های معمول خود باز خواهد گشت.</CommandClearPrioritizedWorkDesc>
   
   <!-- EN: Cancel -->
-  <CommandCancelConstructionLabel>Cancel</CommandCancelConstructionLabel>
+  <CommandCancelConstructionLabel>لغو</CommandCancelConstructionLabel>
   <!-- EN: Cancel this construction. -->
-  <CommandCancelConstructionDesc>Cancel this construction.</CommandCancelConstructionDesc>
+  <CommandCancelConstructionDesc>این ساخت و ساز را لغو کنید.</CommandCancelConstructionDesc>
 
   <!-- EN: Get out of bed -->
   <CommandGetOutOfBedLabel>از تخت بلند شو</CommandGetOutOfBedLabel>
   <!-- EN: Get out of current bed. -->
-  <CommandGetOutOfBedDesc>Get out of current bed.</CommandGetOutOfBedDesc>
+  <CommandGetOutOfBedDesc>از تخت فعلی بلند شوید.</CommandGetOutOfBedDesc>
 
   <!-- EN: Set owner -->
-  <CommandThingSetOwnerLabel>Set owner</CommandThingSetOwnerLabel>
+  <CommandThingSetOwnerLabel>تعیین مالک</CommandThingSetOwnerLabel>
   <!-- EN: Assign this bed to be owned by a specific {0}. -->
-  <CommandBedSetOwnerDesc>Assign this bed to be owned by a specific {0}.</CommandBedSetOwnerDesc>
+  <CommandBedSetOwnerDesc>این تخت را به مالکیت یک {0} خاص اختصاص دهید.</CommandBedSetOwnerDesc>
   <!-- EN: Assign this throne to be owned by a specific colonist. -->
-  <CommandThroneSetOwnerDesc>Assign this throne to be owned by a specific colonist.</CommandThroneSetOwnerDesc>
+  <CommandThroneSetOwnerDesc>این تخت سلطنت را به مالکیت یک مهاجر خاص اختصاص دهید.</CommandThroneSetOwnerDesc>
   <!-- EN: Assign this meditation spot to be owned by a specific colonist. -->
-  <CommandMeditationSpotSetOwnerDesc>Assign this meditation spot to be owned by a specific colonist.</CommandMeditationSpotSetOwnerDesc>
+  <CommandMeditationSpotSetOwnerDesc>این نقطه مدیتیشن را به مالکیت یک مهاجر خاص اختصاص دهید.</CommandMeditationSpotSetOwnerDesc>
   <!-- EN: Assign colonist -->
-  <CommandGraveAssignColonistLabel>Assign colonist</CommandGraveAssignColonistLabel>
+  <CommandGraveAssignColonistLabel>اختصاص مهاجر</CommandGraveAssignColonistLabel>
   <!-- EN: Assign this grave to be owned by a specific colonist. -->
-  <CommandGraveAssignColonistDesc>Assign this grave to be owned by a specific colonist.</CommandGraveAssignColonistDesc>
+  <CommandGraveAssignColonistDesc>این قبر را به مالکیت یک مهاجر خاص اختصاص دهید.</CommandGraveAssignColonistDesc>
   <!-- EN: Assign -->
   <BuildingAssign>اختصاص دادن</BuildingAssign>
   <!-- EN: Reassign -->
@@ -85,174 +85,174 @@
   <!-- EN: Unassign -->
   <BuildingUnassign>لغو تخصیص</BuildingUnassign>
   <!-- EN: For prisoners -->
-  <CommandBedSetForPrisonersLabel>For prisoners</CommandBedSetForPrisonersLabel>
+  <CommandBedSetForPrisonersLabel>برای زندانیان</CommandBedSetForPrisonersLabel>
   <!-- EN: Whether beds in this room should be used by prisoners. -->
-  <CommandBedSetForPrisonersDesc>Whether beds in this room should be used by prisoners.</CommandBedSetForPrisonersDesc>
+  <CommandBedSetForPrisonersDesc>آیا تخت‌های این اتاق باید توسط زندانیان استفاده شوند.</CommandBedSetForPrisonersDesc>
   <!-- EN: Only beds in enclosed spaces can be set for prisoners. -->
-  <CommandBedSetForPrisonersFailOutdoors>Only beds in enclosed spaces can be set for prisoners.</CommandBedSetForPrisonersFailOutdoors>
+  <CommandBedSetForPrisonersFailOutdoors>فقط تخت‌های در فضاهای محصور را می‌توان برای زندانیان تنظیم کرد.</CommandBedSetForPrisonersFailOutdoors>
   <!-- EN: Medical -->
-  <CommandBedSetAsMedicalLabel>Medical</CommandBedSetAsMedicalLabel>
+  <CommandBedSetAsMedicalLabel>پزشکی</CommandBedSetAsMedicalLabel>
   <!-- EN: Whether this bed is for medical use. -->
-  <CommandBedSetAsMedicalDesc>Whether this bed is for medical use.</CommandBedSetAsMedicalDesc>
+  <CommandBedSetAsMedicalDesc>آیا این تخت برای استفاده پزشکی است.</CommandBedSetAsMedicalDesc>
   <!-- EN: Turning on prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
-  <TurningOnPrisonerBedWarning>Turning on prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds:</TurningOnPrisonerBedWarning>
+  <TurningOnPrisonerBedWarning>روشن کردن حالت زندانی بر کل اتاق تأثیر می‌گذارد (زیرا زندانیان و مهاجران نمی‌توانند در یک اتاق بخوابند).\n\nاین افراد مالکیت تخت‌های خود را از دست خواهند داد:</TurningOnPrisonerBedWarning>
   <!-- EN: Turning off prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
-  <TurningOffPrisonerBedWarning>Turning off prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds:</TurningOffPrisonerBedWarning>
+  <TurningOffPrisonerBedWarning>خاموش کردن حالت زندانی بر کل اتاق تأثیر می‌گذارد (زیرا زندانیان و مهاجران نمی‌توانند در یک اتاق بخوابند).\n\nاین افراد مالکیت تخت‌های خود را از دست خواهند داد:</TurningOffPrisonerBedWarning>
   <!-- EN: Are you sure you want to do this? -->
-  <AreYouSure>Are you sure you want to do this?</AreYouSure>
+  <AreYouSure>آیا مطمئن هستید که می‌خواهید این کار را انجام دهید؟</AreYouSure>
   <!-- EN: Changing bed use affects the whole room (since prisoners, slaves and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
-  <ChangingOwnerTypeBedWarning>Changing bed use affects the whole room (since prisoners, slaves and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds:</ChangingOwnerTypeBedWarning>
+  <ChangingOwnerTypeBedWarning>تغییر استفاده از تخت بر کل اتاق تأثیر می‌گذارد (زیرا زندانیان، بردگان و مهاجران نمی‌توانند در یک اتاق بخوابند).\n\nاین افراد مالکیت تخت‌های خود را از دست خواهند داد:</ChangingOwnerTypeBedWarning>
 
 
   <!-- EN: Detonate -->
-  <CommandDetonateLabel>Detonate</CommandDetonateLabel>
+  <CommandDetonateLabel>انفجار</CommandDetonateLabel>
   <!-- EN: Start the countdown to detonation. -->
-  <CommandDetonateDesc>Start the countdown to detonation.</CommandDetonateDesc>
+  <CommandDetonateDesc>شمارش معکوس برای انفجار را آغاز کنید.</CommandDetonateDesc>
 
   <!-- EN: Hide -->
   <CommandHideZoneLabel>پنهان کردن</CommandHideZoneLabel>
   <!-- EN: Unhide -->
-  <CommandUnhideZoneLabel>Unhide</CommandUnhideZoneLabel>
+  <CommandUnhideZoneLabel>نمایش</CommandUnhideZoneLabel>
   <!-- EN: Hide/unhide this zone. -->
-  <CommandHideZoneDesc>Hide/unhide this zone.</CommandHideZoneDesc>
+  <CommandHideZoneDesc>پنهان کردن/نمایش این منطقه.</CommandHideZoneDesc>
 
   <!-- EN: Delete -->
-  <CommandDeleteZoneLabel>Delete</CommandDeleteZoneLabel>
+  <CommandDeleteZoneLabel>حذف</CommandDeleteZoneLabel>
   <!-- EN: Delete this zone. -->
-  <CommandDeleteZoneDesc>Delete this zone.</CommandDeleteZoneDesc>
+  <CommandDeleteZoneDesc>این منطقه را حذف کنید.</CommandDeleteZoneDesc>
 
   <!-- EN: Copy settings -->
-  <CommandCopyZoneSettingsLabel>Copy settings</CommandCopyZoneSettingsLabel>
+  <CommandCopyZoneSettingsLabel>کپی تنظیمات</CommandCopyZoneSettingsLabel>
   <!-- EN: Copy this storage's settings to the clipboard so you can paste them onto another zone. -->
-  <CommandCopyZoneSettingsDesc>Copy this storage's settings to the clipboard so you can paste them onto another zone.</CommandCopyZoneSettingsDesc>
+  <CommandCopyZoneSettingsDesc>تنظیمات این انبار را در کلیپ‌بورد کپی کنید تا بتوانید آنها را در منطقه دیگری جایگذاری کنید.</CommandCopyZoneSettingsDesc>
 
   <!-- EN: Paste settings -->
-  <CommandPasteZoneSettingsLabel>Paste settings</CommandPasteZoneSettingsLabel>
+  <CommandPasteZoneSettingsLabel>جایگذاری تنظیمات</CommandPasteZoneSettingsLabel>
   <!-- EN: Overwrite this storage's settings with those previously copied to the clipboard. -->
-  <CommandPasteZoneSettingsDesc>Overwrite this storage's settings with those previously copied to the clipboard.</CommandPasteZoneSettingsDesc>
+  <CommandPasteZoneSettingsDesc>تنظیمات این انبار را با تنظیماتی که قبلاً در کلیپ‌بورد کپی شده‌اند، بازنویسی کنید.</CommandPasteZoneSettingsDesc>
 
   <!-- EN: Allow sowing -->
-  <CommandAllowSow>Allow sowing</CommandAllowSow>
+  <CommandAllowSow>اجازه کاشت</CommandAllowSow>
   <!-- EN: When disabled, colonists will never sow new plants in this zone. They will still harvest. -->
-  <CommandAllowSowDesc>When disabled, colonists will never sow new plants in this zone. They will still harvest.</CommandAllowSowDesc>
+  <CommandAllowSowDesc>هنگامی که غیرفعال باشد، مهاجران هرگز گیاهان جدیدی در این منطقه نخواهند کاشت. آنها همچنان برداشت خواهند کرد.</CommandAllowSowDesc>
 
   <!-- EN: Allow cutting -->
-  <CommandAllowCut>Allow cutting</CommandAllowCut>
+  <CommandAllowCut>اجازه برش</CommandAllowCut>
   <!-- EN: When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest plants matching the growing zone plant type. -->
-  <CommandAllowCutDesc>When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest plants matching the growing zone plant type.</CommandAllowCutDesc>
+  <CommandAllowCutDesc>هنگامی که غیرفعال باشد، مهاجران هرگز گیاهان را در این منطقه برش نخواهند داد. آنها همچنان گیاهان جدیدی در فضاهایی که از قبل خالی هستند، خواهند کاشت و گیاهانی را که با نوع گیاه منطقه رشد مطابقت دارند، برداشت خواهند کرد.</CommandAllowCutDesc>
   
   <!-- EN: Select {0_label} -->
-  <CommandSelectStoredThing>Select {0_label}</CommandSelectStoredThing>
+  <CommandSelectStoredThing>انتخاب {0_label}</CommandSelectStoredThing>
   <!-- EN: Select the item stored in here. -->
-  <CommandSelectStoredThingDesc>Select the item stored in here.</CommandSelectStoredThingDesc>
+  <CommandSelectStoredThingDesc>اقلام ذخیره شده در اینجا را انتخاب کنید.</CommandSelectStoredThingDesc>
 
   <!-- Artillery -->
   <!-- EN: Set forced target -->
-  <CommandSetForceAttackTarget>Set forced target</CommandSetForceAttackTarget>
+  <CommandSetForceAttackTarget>تعیین هدف اجباری</CommandSetForceAttackTarget>
   <!-- EN: Sets a target that this turret must attack continuously as long as it can. -->
-  <CommandSetForceAttackTargetDesc>Sets a target that this turret must attack continuously as long as it can.</CommandSetForceAttackTargetDesc>
+  <CommandSetForceAttackTargetDesc>هدفی را تعیین می‌کند که این برجک باید تا زمانی که می‌تواند به طور مداوم به آن حمله کند.</CommandSetForceAttackTargetDesc>
   <!-- EN: Stop forced attack -->
-  <CommandStopForceAttack>Stop forced attack</CommandStopForceAttack>
+  <CommandStopForceAttack>توقف حمله اجباری</CommandStopForceAttack>
   <!-- EN: Stops force-attacking and allows the turret to fire as it wishes. -->
-  <CommandStopForceAttackDesc>Stops force-attacking and allows the turret to fire as it wishes.</CommandStopForceAttackDesc>
+  <CommandStopForceAttackDesc>حمله اجباری را متوقف می‌کند و به برجک اجازه می‌دهد هر طور که می‌خواهد شلیک کند.</CommandStopForceAttackDesc>
   <!-- EN: Not currently force-attacking. -->
-  <CommandStopAttackFailNotForceAttacking>Not currently force-attacking.</CommandStopAttackFailNotForceAttacking>
+  <CommandStopAttackFailNotForceAttacking>در حال حاضر حمله اجباری انجام نمی‌شود.</CommandStopAttackFailNotForceAttacking>
   <!-- EN: Extract shell -->
-  <CommandExtractShell>Extract shell</CommandExtractShell>
+  <CommandExtractShell>استخراج گلوله</CommandExtractShell>
   <!-- EN: Unloads the current shell so it can be replaced with different ammunition. -->
-  <CommandExtractShellDesc>Unloads the current shell so it can be replaced with different ammunition.</CommandExtractShellDesc>
+  <CommandExtractShellDesc>گلوله فعلی را تخلیه می‌کند تا بتوان آن را با مهمات دیگری جایگزین کرد.</CommandExtractShellDesc>
   <!-- EN: Target beyond maximum range. -->
-  <MessageTargetBeyondMaximumRange>Target beyond maximum range.</MessageTargetBeyondMaximumRange>
+  <MessageTargetBeyondMaximumRange>هدف فراتر از حداکثر برد است.</MessageTargetBeyondMaximumRange>
   <!-- EN: Target below minimum range. -->
-  <MessageTargetBelowMinimumRange>Target below minimum range.</MessageTargetBelowMinimumRange>
+  <MessageTargetBelowMinimumRange>هدف کمتر از حداقل برد است.</MessageTargetBelowMinimumRange>
   <!-- EN: Warning: The mortar won't fire because it's set to "Hold fire". -->
-  <MessageTurretWontFireBecauseHoldFire>Warning: The mortar won't fire because it's set to "Hold fire".</MessageTurretWontFireBecauseHoldFire>
+  <MessageTurretWontFireBecauseHoldFire>هشدار: خمپاره‌انداز شلیک نخواهد کرد زیرا روی "توقف آتش" تنظیم شده است.</MessageTurretWontFireBecauseHoldFire>
   
   <!-- Ship computer core -->
   <!-- EN: Launch ship -->
-  <CommandShipLaunch>Launch ship</CommandShipLaunch>
+  <CommandShipLaunch>پرتاب کشتی</CommandShipLaunch>
   <!-- EN: Start the ship launch sequence with the current configuration. -->
-  <CommandShipLaunchDesc>Start the ship launch sequence with the current configuration.</CommandShipLaunchDesc>
+  <CommandShipLaunchDesc>دنباله پرتاب کشتی را با پیکربندی فعلی آغاز کنید.</CommandShipLaunchDesc>
   <!-- EN: Show launch report -->
-  <CommandShipLaunchReport>Show launch report</CommandShipLaunchReport>
+  <CommandShipLaunchReport>نمایش گزارش پرتاب</CommandShipLaunchReport>
   <!-- EN: Show a readiness report about the ship's launch capability. -->
-  <CommandShipLaunchReportDesc>Show a readiness report about the ship's launch capability.</CommandShipLaunchReportDesc>
+  <CommandShipLaunchReportDesc>گزارش آمادگی درباره قابلیت پرتاب کشتی را نمایش دهید.</CommandShipLaunchReportDesc>
   <!-- EN: Start ship -->
-  <CommandShipStartup>Start ship</CommandShipStartup>
+  <CommandShipStartup>راه‌اندازی کشتی</CommandShipStartup>
   <!-- EN: Wake up hibernating ship components. -->
-  <CommandShipStartupDesc>Wake up hibernating ship components.</CommandShipStartupDesc>
+  <CommandShipStartupDesc>اجزای کشتی در حال خواب زمستانی را بیدار کنید.</CommandShipStartupDesc>
 
   <!-- Pod -->
   <!-- EN: Eject sleeper -->
-  <CommandPodEject>Eject sleeper</CommandPodEject>
+  <CommandPodEject>خروج خوابیده</CommandPodEject>
   <!-- EN: Wake up the cryptosleeper and eject them. -->
-  <CommandPodEjectDesc>Wake up the cryptosleeper and eject them.</CommandPodEjectDesc>
+  <CommandPodEjectDesc>خوابیده در کریپتو را بیدار کرده و خارج کنید.</CommandPodEjectDesc>
   <!-- EN: Contains nobody. -->
-  <CommandPodEjectFailEmpty>Contains nobody.</CommandPodEjectFailEmpty>
+  <CommandPodEjectFailEmpty>حاوی کسی نیست.</CommandPodEjectFailEmpty>
 
   <!-- Door -->
   <!-- EN: Passage forbidden -->
-  <CommandToggleDoorForbid>Passage forbidden</CommandToggleDoorForbid>
+  <CommandToggleDoorForbid>عبور ممنوع</CommandToggleDoorForbid>
   <!-- EN: When a door is forbidden, colonists and allies will not go through it. This doesn't affect how enemies or animals interact with the door. -->
-  <CommandToggleDoorForbidDesc>When a door is forbidden, colonists and allies will not go through it. This doesn't affect how enemies or animals interact with the door.</CommandToggleDoorForbidDesc>
+  <CommandToggleDoorForbidDesc>هنگامی که یک در ممنوع است، مهاجران و متحدان از آن عبور نخواهند کرد. این بر نحوه تعامل دشمنان یا حیوانات با در تأثیر نمی‌گذارد.</CommandToggleDoorForbidDesc>
   <!-- EN: Hold open -->
-  <CommandToggleDoorHoldOpen>Hold open</CommandToggleDoorHoldOpen>
+  <CommandToggleDoorHoldOpen>باز نگه داشتن</CommandToggleDoorHoldOpen>
   <!-- EN: When active, your colonists will not close the door after passing through. -->
-  <CommandToggleDoorHoldOpenDesc>When active, your colonists will not close the door after passing through.</CommandToggleDoorHoldOpenDesc>
+  <CommandToggleDoorHoldOpenDesc>هنگامی که فعال باشد، مهاجران شما پس از عبور در را نخواهند بست.</CommandToggleDoorHoldOpenDesc>
 
   <!-- Temperature control -->
   <!-- EN: Reset -->
-  <CommandResetTemp>Reset</CommandResetTemp>
+  <CommandResetTemp>بازنشانی</CommandResetTemp>
   <!-- EN: Reset the target temperature to room temperature. -->
-  <CommandResetTempDesc>Reset the target temperature to room temperature.</CommandResetTempDesc>
+  <CommandResetTempDesc>دمای هدف را به دمای اتاق بازنشانی کنید.</CommandResetTempDesc>
   <!-- EN: Raise the target temperature. -->
-  <CommandRaiseTempDesc>Raise the target temperature.</CommandRaiseTempDesc>
+  <CommandRaiseTempDesc>دمای هدف را افزایش دهید.</CommandRaiseTempDesc>
   <!-- EN: Lower the target temperature. -->
-  <CommandLowerTempDesc>Lower the target temperature.</CommandLowerTempDesc>
+  <CommandLowerTempDesc>دمای هدف را کاهش دهید.</CommandLowerTempDesc>
 
   <!-- Install/reinstall -->
   <!-- EN: Install -->
-  <CommandInstall>Install</CommandInstall>
+  <CommandInstall>نصب</CommandInstall>
   <!-- EN: This item is currently packaged up for storage and transport. Use this command to install this item in a final location. -->
-  <CommandInstallDesc>This item is currently packaged up for storage and transport. Use this command to install this item in a final location.</CommandInstallDesc>
+  <CommandInstallDesc>این آیتم در حال حاضر برای ذخیره‌سازی و حمل و نقل بسته‌بندی شده است. از این دستور برای نصب این آیتم در مکان نهایی استفاده کنید.</CommandInstallDesc>
   <!-- EN: Reinstall at... -->
-  <CommandReinstall>Reinstall at...</CommandReinstall>
+  <CommandReinstall>نصب مجدد در...</CommandReinstall>
   <!-- EN: Designate this item to be uninstalled and reinstalled somewhere else. -->
-  <CommandReinstallDesc>Designate this item to be uninstalled and reinstalled somewhere else.</CommandReinstallDesc>
+  <CommandReinstallDesc>این آیتم را برای حذف نصب و نصب مجدد در جای دیگر تعیین کنید.</CommandReinstallDesc>
   <!-- EN: Replant -->
-  <CommandReplant>Replant</CommandReplant>
+  <CommandReplant>کاشت مجدد</CommandReplant>
   <!-- EN: This tree is currently packaged up for storage and transport. Use this command to replant it in a new location. -->
-  <CommandReplantDesc>This tree is currently packaged up for storage and transport. Use this command to replant it in a new location.</CommandReplantDesc>
+  <CommandReplantDesc>این درخت در حال حاضر برای ذخیره‌سازی و حمل و نقل بسته‌بندی شده است. از این دستور برای کاشت مجدد آن در مکان جدید استفاده کنید.</CommandReplantDesc>
   
   <!-- Trade beacon -->
   <!-- EN: Create a stockpile around this building exactly matching the shape of the beacon's launch radius. -->
-  <CommandMakeBeaconStockpileDesc>Create a stockpile around this building exactly matching the shape of the beacon's launch radius.</CommandMakeBeaconStockpileDesc>
+  <CommandMakeBeaconStockpileDesc>یک انبار در اطراف این ساختمان ایجاد کنید که دقیقاً با شکل شعاع پرتاب فانوس مطابقت داشته باشد.</CommandMakeBeaconStockpileDesc>
   <!-- EN: Create stockpile -->
-  <CommandMakeBeaconStockpileLabel>Create stockpile</CommandMakeBeaconStockpileLabel>
+  <CommandMakeBeaconStockpileLabel>ایجاد انبار</CommandMakeBeaconStockpileLabel>
 
   <!-- Sun lamp -->
   <!-- EN: Create a growing zone around this building exactly matching the shape of the lamp's light radius. -->
-  <CommandSunLampMakeGrowingZoneDesc>Create a growing zone around this building exactly matching the shape of the lamp's light radius.</CommandSunLampMakeGrowingZoneDesc>
+  <CommandSunLampMakeGrowingZoneDesc>یک منطقه رشد در اطراف این ساختمان ایجاد کنید که دقیقاً با شکل شعاع نور لامپ مطابقت داشته باشد.</CommandSunLampMakeGrowingZoneDesc>
   <!-- EN: Create growing zone -->
-  <CommandSunLampMakeGrowingZoneLabel>Create growing zone</CommandSunLampMakeGrowingZoneLabel>
+  <CommandSunLampMakeGrowingZoneLabel>ایجاد منطقه رشد</CommandSunLampMakeGrowingZoneLabel>
 
   <!-- Trap -->
   <!-- EN: Auto rearm -->
-  <CommandAutoRearm>Auto Rearm</CommandAutoRearm>
+  <CommandAutoRearm>مسلح کردن خودکار</CommandAutoRearm>
   <!-- EN: If this is on, this trap will automatically be replaced after it springs. -->
-  <CommandAutoRearmDesc>If this is on, this trap will automatically be replaced after it springs.</CommandAutoRearmDesc>
+  <CommandAutoRearmDesc>اگر این روشن باشد، این تله پس از فعال شدن به طور خودکار جایگزین خواهد شد.</CommandAutoRearmDesc>
   
   <!-- Firefoam popper -->
   <!-- EN: Auto rebuild -->
-  <CommandAutoRebuild_Building>TODO</CommandAutoRebuild_Building>
+  <CommandAutoRebuild_Building>بازسازی خودکار</CommandAutoRebuild_Building>
   <!-- EN: If this is on, {BUILDING_definite} will automatically be replaced after it detonates. -->
-  <CommandAutoRebuild_BuildingDesc>TODO</CommandAutoRebuild_BuildingDesc>
+  <CommandAutoRebuild_BuildingDesc>اگر این روشن باشد، {BUILDING_definite} پس از انفجار به طور خودکار جایگزین خواهد شد.</CommandAutoRebuild_BuildingDesc>
   
   <!-- Animal control -->
   <!-- EN: Animals attack -->
-  <CommandReleaseAnimalsLabel>Animals attack</CommandReleaseAnimalsLabel>
+  <CommandReleaseAnimalsLabel>حمله حیوانات</CommandReleaseAnimalsLabel>
   <!-- EN: While this is on, mastered animals are sent forth to attack distant targets. While it is off, they remain near and guard the master. -->
-  <CommandReleaseAnimalsDesc>While this is on, mastered animals are sent forth to attack distant targets. While it is off, they remain near and guard the master.</CommandReleaseAnimalsDesc>
+  <CommandReleaseAnimalsDesc>هنگامی که این روشن است، حیوانات اهلی شده برای حمله به اهداف دور فرستاده می‌شوند. هنگامی که خاموش است، نزدیک می‌مانند و از ارباب محافظت می‌کنند.</CommandReleaseAnimalsDesc>
   <!-- EN: No animals available. -->
   <CommandReleaseAnimalsFail_NoAnimals>هیچ حیوانی در دسترس نیست.</CommandReleaseAnimalsFail_NoAnimals>
   
@@ -260,414 +260,414 @@
   <!-- EN: Attack -->
   <CommandSquadAttack>یورش</CommandSquadAttack>
   <!-- EN: Order selected colonists to attack designated target. -->
-  <CommandSquadAttackDesc>Order selected colonists to attack designated target.</CommandSquadAttackDesc>
+  <CommandSquadAttackDesc>به مهاجران انتخاب شده دستور دهید به هدف تعیین شده حمله کنند.</CommandSquadAttackDesc>
   
   <!-- Melee attack -->
   <!-- EN: Melee attack -->
-  <CommandMeleeAttack>Melee attack</CommandMeleeAttack>
+  <CommandMeleeAttack>حمله تن به تن</CommandMeleeAttack>
   <!-- EN: Order selected colonists to attack designated target using only fists and melee weapons. -->
-  <CommandMeleeAttackDesc>Order selected colonists to attack designated target using only fists and melee weapons.</CommandMeleeAttackDesc>
+  <CommandMeleeAttackDesc>به مهاجران انتخاب شده دستور دهید با استفاده از مشت و سلاح‌های تن به تن به هدف تعیین شده حمله کنند.</CommandMeleeAttackDesc>
 
   <!-- Hold fire -->
   <!-- EN: Hold fire -->
-  <CommandHoldFire>Hold fire</CommandHoldFire>
+  <CommandHoldFire>توقف آتش</CommandHoldFire>
   <!-- EN: End any ongoing attacks. -->
-  <CommandHoldFireDesc>End any ongoing attacks.</CommandHoldFireDesc>
+  <CommandHoldFireDesc>به هر حمله در حال انجام پایان دهید.</CommandHoldFireDesc>
   
   <!-- reload -->
   <!-- EN: No {CHARGENOUN_plural} left. -->
-  <CommandReload_NoCharges>No {CHARGENOUN_plural} left.</CommandReload_NoCharges>
+  <CommandReload_NoCharges>هیچ {CHARGENOUN_plural} باقی نمانده است.</CommandReload_NoCharges>
   <!-- EN: {COOLDOWNGERUND} for {TIME}. -->
-  <CommandReload_Cooldown>{COOLDOWNGERUND} for {TIME}.</CommandReload_Cooldown>
+  <CommandReload_Cooldown>{COOLDOWNGERUND} برای {TIME}.</CommandReload_Cooldown>
   <!-- EN: Needs to be reloaded with {COUNT} {AMMO_label}. -->
-  <CommandReload_NoAmmo>Needs to be reloaded with {COUNT} {AMMO_label}.</CommandReload_NoAmmo>
+  <CommandReload_NoAmmo>نیاز به بارگیری مجدد با {COUNT} {AMMO_label} دارد.</CommandReload_NoAmmo>
   
   <!-- Select plant to grow -->
   <!-- EN: Select plant to grow -->
-  <CommandSelectPlantToGrowMulti>Select plant to grow</CommandSelectPlantToGrowMulti>
+  <CommandSelectPlantToGrowMulti>انتخاب گیاه برای رشد</CommandSelectPlantToGrowMulti>
   <!-- EN: Plant: {0} -->
-  <CommandSelectPlantToGrow>Plant: {0}</CommandSelectPlantToGrow>
+  <CommandSelectPlantToGrow>گیاه: {0}</CommandSelectPlantToGrow>
   <!-- EN: Determine which plant should be sown here. -->
-  <CommandSelectPlantToGrowDesc>Determine which plant should be sown here.</CommandSelectPlantToGrowDesc>
+  <CommandSelectPlantToGrowDesc>تعیین کنید کدام گیاه باید در اینجا کاشته شود.</CommandSelectPlantToGrowDesc>
   
   <!-- Select mineral to scan for (long-range mineral scanner) -->
   <!-- EN: Tuned to -->
-  <CommandSelectMineralToScanFor>Tuned to</CommandSelectMineralToScanFor>
+  <CommandSelectMineralToScanFor>تنظیم شده روی</CommandSelectMineralToScanFor>
   <!-- EN: Select the mineral type to scan for. -->
-  <CommandSelectMineralToScanForDesc>TODO</CommandSelectMineralToScanForDesc>
+  <CommandSelectMineralToScanForDesc>نوع ماده معدنی برای اسکن را انتخاب کنید.</CommandSelectMineralToScanForDesc>
 
   <!-- Build copy -->
   <!-- EN: Build copy -->
   <CommandBuildCopy>ساخت کپی</CommandBuildCopy>
   <!-- EN: Build a copy of this building. -->
-  <CommandBuildCopyDesc>Build a copy of this building.</CommandBuildCopyDesc>
+  <CommandBuildCopyDesc>یک کپی از این ساختمان بسازید.</CommandBuildCopyDesc>
 
   <!-- Form caravan -->
   <!-- EN: Form caravan -->
-  <CommandFormCaravan>Form caravan</CommandFormCaravan>
+  <CommandFormCaravan>تشکیل کاروان</CommandFormCaravan>
   <!-- EN: Form a group of colonists able to travel to new areas. The colonists will gather all the assigned supplies and accompanying animals, leave their current area, and await further orders. -->
-  <CommandFormCaravanDesc>Form a group of colonists able to travel to new areas. The colonists will gather all the assigned supplies and accompanying animals, leave their current area, and await further orders.</CommandFormCaravanDesc>
+  <CommandFormCaravanDesc>گروهی از مهاجران را تشکیل دهید که قادر به سفر به مناطق جدید باشند. مهاجران تمام تدارکات اختصاص داده شده و حیوانات همراه را جمع‌آوری کرده، منطقه فعلی خود را ترک کرده و منتظر دستورات بعدی خواهند بود.</CommandFormCaravanDesc>
   <!-- EN: This spot will be used as a meeting point for the caravan. All goods and animals will be brought here before leaving. -->
-  <CommandFormCaravanDescAtSpot>This spot will be used as a meeting point for the caravan. All goods and animals will be brought here before leaving.</CommandFormCaravanDescAtSpot>
+  <CommandFormCaravanDescAtSpot>این نقطه به عنوان محل ملاقات کاروان استفاده خواهد شد. تمام کالاها و حیوانات قبل از ترک به اینجا آورده خواهند شد.</CommandFormCaravanDescAtSpot>
   
   <!-- Reform caravan -->
   <!-- EN: Reform caravan -->
-  <CommandReformCaravan>Reform caravan</CommandReformCaravan>
+  <CommandReformCaravan>تشکیل مجدد کاروان</CommandReformCaravan>
   <!-- EN: Reform a group of colonists. The colonists will leave their current area and await further orders. -->
-  <CommandReformCaravanDesc>Reform a group of colonists. The colonists will leave their current area and await further orders.</CommandReformCaravanDesc>
+  <CommandReformCaravanDesc>گروهی از مهاجران را تشکیل مجدد دهید. مهاجران منطقه فعلی خود را ترک کرده و منتظر دستورات بعدی خواهند بود.</CommandReformCaravanDesc>
   <!-- EN: There are still some enemies in this area. -->
-  <CommandReformCaravanFailHostilePawns>There are still some enemies in this area.</CommandReformCaravanFailHostilePawns>
+  <CommandReformCaravanFailHostilePawns>هنوز تعدادی دشمن در این منطقه وجود دارد.</CommandReformCaravanFailHostilePawns>
 
   <!-- Send caravan -->
   <!-- EN: Send caravan -->
-  <CommandSendCaravan>TODO</CommandSendCaravan>
+  <CommandSendCaravan>ارسال کاروان</CommandSendCaravan>
   <!-- EN: Send caravan... -->
-  <CommandSendCaravanMultiple>TODO</CommandSendCaravanMultiple>
+  <CommandSendCaravanMultiple>ارسال کاروان...</CommandSendCaravanMultiple>
   <!-- EN: Send a caravan to this destination from a selected colony which can reach this location. -->
-  <CommandSendCaravanDesc>TODO</CommandSendCaravanDesc>
+  <CommandSendCaravanDesc>یک کاروان از یک کلونی انتخاب شده که می‌تواند به این مکان برسد، به این مقصد بفرستید.</CommandSendCaravanDesc>
   <!-- EN: Your settlements have no path to this location. -->
-  <CommandSendCaravanCantReach>TODO</CommandSendCaravanCantReach>
+  <CommandSendCaravanCantReach>سکونتگاه‌های شما مسیری به این مکان ندارند.</CommandSendCaravanCantReach>
 
   <!-- Split caravan -->
   <!-- EN: Split -->
-  <CommandSplitCaravan>Split</CommandSplitCaravan>
+  <CommandSplitCaravan>تقسیم</CommandSplitCaravan>
   <!-- EN: Split this caravan into two. The caravans can be later merged back into one as long as they are close to each other. -->
-  <CommandSplitCaravanDesc>Split this caravan into two. The caravans can be later merged back into one as long as they are close to each other.</CommandSplitCaravanDesc>
+  <CommandSplitCaravanDesc>این کاروان را به دو قسمت تقسیم کنید. کاروان‌ها می‌توانند بعداً به یکدیگر ملحق شوند به شرطی که نزدیک هم باشند.</CommandSplitCaravanDesc>
   
   <!-- Merge caravan -->
   <!-- EN: Merge -->
-  <CommandMergeCaravans>Merge</CommandMergeCaravans>
+  <CommandMergeCaravans>ادغام</CommandMergeCaravans>
   <!-- EN: Merge selected caravans. -->
-  <CommandMergeCaravansDesc>Merge selected caravans.</CommandMergeCaravansDesc>
+  <CommandMergeCaravansDesc>کاروان‌های انتخاب شده را ادغام کنید.</CommandMergeCaravansDesc>
   <!-- EN: Select all caravans which should be merged. The caravans must be close to each other. -->
-  <CommandMergeCaravansFailCaravansNotSelected>Select all caravans which should be merged. The caravans must be close to each other.</CommandMergeCaravansFailCaravansNotSelected>
+  <CommandMergeCaravansFailCaravansNotSelected>تمام کاروان‌هایی که باید ادغام شوند را انتخاب کنید. کاروان‌ها باید نزدیک هم باشند.</CommandMergeCaravansFailCaravansNotSelected>
   <!-- EN: Join -->
-  <CommandJoinCaravan>Join</CommandJoinCaravan>
+  <CommandJoinCaravan>پیوستن</CommandJoinCaravan>
   
   <!-- Settle -->
   <!-- EN: Settle -->
-  <CommandSettle>Settle</CommandSettle>
+  <CommandSettle>سکونت</CommandSettle>
   <!-- EN: Settle in this area. Your colonists will enter this area and you will be able to start building a new home. -->
-  <CommandSettleDesc>Settle in this area. Your colonists will enter this area and you will be able to start building a new home.</CommandSettleDesc>
+  <CommandSettleDesc>در این منطقه سکونت کنید. مهاجران شما وارد این منطقه خواهند شد و شما قادر خواهید بود ساختن خانه جدیدی را آغاز کنید.</CommandSettleDesc>
   <!-- EN: Your faction can only have one base. -->
-  <CommandSettleFailAlreadyHaveBase>Your faction can only have one base.</CommandSettleFailAlreadyHaveBase>
+  <CommandSettleFailAlreadyHaveBase>جناح شما فقط می‌تواند یک پایگاه داشته باشد.</CommandSettleFailAlreadyHaveBase>
   <!-- EN: Reached maximum number of colonies. -->
-  <CommandSettleFailReachedMaximumNumberOfBases>Reached maximum number of colonies.</CommandSettleFailReachedMaximumNumberOfBases>
+  <CommandSettleFailReachedMaximumNumberOfBases>به حداکثر تعداد کلونی‌ها رسیده‌اید.</CommandSettleFailReachedMaximumNumberOfBases>
   <!-- EN: There isn't anybody there to claim the area. -->
-  <CommandSettleFailNoColonists>There isn't anybody there to claim the area.</CommandSettleFailNoColonists>
+  <CommandSettleFailNoColonists>کسی برای ادعای منطقه در آنجا نیست.</CommandSettleFailNoColonists>
   <!-- EN: There are enemies in this area. -->
-  <CommandSettleFailEnemies>There are enemies in this area.</CommandSettleFailEnemies>
+  <CommandSettleFailEnemies>دشمنانی در این منطقه وجود دارند.</CommandSettleFailEnemies>
   
   <!-- Abandon home -->
   <!-- EN: Abandon -->
   <CommandAbandonHome>رها کردن</CommandAbandonHome>
   <!-- EN: Abandon this area. The area will become inaccessible and you will not be able to return here ever again. After abandoning your home, you will be able to order one of your caravans to settle in a new area. -->
-  <CommandAbandonHomeDesc>Abandon this area. The area will become inaccessible and you will not be able to return here ever again. After abandoning your home, you will be able to order one of your caravans to settle in a new area.</CommandAbandonHomeDesc>
+  <CommandAbandonHomeDesc>این منطقه را رها کنید. منطقه غیرقابل دسترسی خواهد شد و هرگز نمی‌توانید به اینجا بازگردید. پس از رها کردن خانه خود، قادر خواهید بود به یکی از کاروان‌های خود دستور دهید در منطقه جدیدی سکونت کنند.</CommandAbandonHomeDesc>
   <!-- EN: All of your colonists are there. -->
-  <CommandAbandonHomeFailAllColonistsThere>All of your colonists are there.</CommandAbandonHomeFailAllColonistsThere>
+  <CommandAbandonHomeFailAllColonistsThere>تمام مهاجران شما در آنجا هستند.</CommandAbandonHomeFailAllColonistsThere>
   
   <!-- Cancel forming caravan -->
   <!-- EN: Cancel forming caravan -->
-  <CommandCancelFormingCaravan>Cancel forming caravan</CommandCancelFormingCaravan>
+  <CommandCancelFormingCaravan>لغو تشکیل کاروان</CommandCancelFormingCaravan>
   <!-- EN: Terminate the caravan formation process. -->
-  <CommandCancelFormingCaravanDesc>Terminate the caravan formation process.</CommandCancelFormingCaravanDesc>
+  <CommandCancelFormingCaravanDesc>فرآیند تشکیل کاروان را خاتمه دهید.</CommandCancelFormingCaravanDesc>
 
   <!-- Remove from caravan -->
   <!-- EN: Remove from caravan -->
-  <CommandRemoveFromCaravan>Remove from caravan</CommandRemoveFromCaravan>
+  <CommandRemoveFromCaravan>حذف از کاروان</CommandRemoveFromCaravan>
   <!-- EN: Remove this person or animal from the caravan. -->
-  <CommandRemoveFromCaravanDesc>Remove this person or animal from the caravan.</CommandRemoveFromCaravanDesc>
+  <CommandRemoveFromCaravanDesc>این شخص یا حیوان را از کاروان حذف کنید.</CommandRemoveFromCaravanDesc>
   
   <!-- Add to caravan -->
   <!-- EN: Add to caravan -->
-  <CommandAddToCaravan>Add to caravan</CommandAddToCaravan>
+  <CommandAddToCaravan>افزودن به کاروان</CommandAddToCaravan>
   <!-- EN: Add this person or animal to the forming caravan. -->
-  <CommandAddToCaravanDesc>Add this person or animal to the forming caravan.</CommandAddToCaravanDesc>
+  <CommandAddToCaravanDesc>این شخص یا حیوان را به کاروان در حال تشکیل اضافه کنید.</CommandAddToCaravanDesc>
   
   <!-- Show map -->
   <!-- EN: Zoom in -->
-  <CommandShowMap>Zoom in</CommandShowMap>
+  <CommandShowMap>بزرگنمایی</CommandShowMap>
   <!-- EN: Zoom in on this area. -->
-  <CommandShowMapDesc>Zoom in on this area.</CommandShowMapDesc>
+  <CommandShowMapDesc>در این منطقه بزرگنمایی کنید.</CommandShowMapDesc>
   
   <!-- Trade -->
   <!-- EN: Trade -->
   <CommandTrade>تجارت</CommandTrade>
   <!-- EN: Trade with this faction. -->
-  <CommandTradeDesc>Trade with this faction.</CommandTradeDesc>
+  <CommandTradeDesc>با این جناح تجارت کنید.</CommandTradeDesc>
   <!-- EN: There isn't any conscious and capable negotiator. -->
-  <CommandTradeFailNoNegotiator>There isn't any conscious and capable negotiator.</CommandTradeFailNoNegotiator>
+  <CommandTradeFailNoNegotiator>هیچ مذاکره‌کننده هوشیار و توانمندی وجود ندارد.</CommandTradeFailNoNegotiator>
   <!-- EN: None of your people have the required faction permission: {0} -->
-  <CommandTradeFailNeedPermit>None of your people have the required faction permission: {0}</CommandTradeFailNeedPermit>
+  <CommandTradeFailNeedPermit>هیچ‌کدام از افراد شما مجوز جناح مورد نیاز را ندارند: {0}</CommandTradeFailNeedPermit>
 
   <!-- Offer gifts -->
   <!-- EN: Offer gifts -->
-  <CommandOfferGifts>Offer gifts</CommandOfferGifts>
+  <CommandOfferGifts>پیشنهاد هدایا</CommandOfferGifts>
   <!-- EN: Offer gifts to this faction. -->
-  <CommandOfferGiftsDesc>Offer gifts to this faction.</CommandOfferGiftsDesc>
+  <CommandOfferGiftsDesc>به این جناح هدایا پیشنهاد دهید.</CommandOfferGiftsDesc>
 
   <!-- Fulfill request -->
   <!-- EN: Fulfill trade offer -->
-  <CommandFulfillTradeOffer>Fulfill trade offer</CommandFulfillTradeOffer>
+  <CommandFulfillTradeOffer>انجام پیشنهاد تجاری</CommandFulfillTradeOffer>
   <!-- EN: Fulfill the settlement's request for goods and claim your reward. -->
-  <CommandFulfillTradeOfferDesc>Fulfill the settlement's request for goods and claim your reward.</CommandFulfillTradeOfferDesc>
+  <CommandFulfillTradeOfferDesc>درخواست سکونتگاه برای کالاها را انجام دهید و پاداش خود را دریافت کنید.</CommandFulfillTradeOfferDesc>
   <!-- EN: Your caravan must have {0} to fulfill this trade offer. -->
-  <CommandFulfillTradeOfferFailInsufficient>Your caravan must have {0} to fulfill this trade offer.</CommandFulfillTradeOfferFailInsufficient>
+  <CommandFulfillTradeOfferFailInsufficient>کاروان شما باید {0} داشته باشد تا این پیشنهاد تجاری را انجام دهد.</CommandFulfillTradeOfferFailInsufficient>
   <!-- EN: Give {0}? -->
-  <CommandFulfillTradeOfferConfirm>Give {0}?</CommandFulfillTradeOfferConfirm>
+  <CommandFulfillTradeOfferConfirm>بدهید {0}؟</CommandFulfillTradeOfferConfirm>
   
   <!-- Take off -->
   <!-- EN: Take off -->
-  <CommandTakeOff>Take off</CommandTakeOff>
+  <CommandTakeOff>برخاستن</CommandTakeOff>
   <!-- EN: Get on board the ship and escape the planet. -->
-  <CommandTakeOffDesc>Get on board the ship and escape the planet.</CommandTakeOffDesc>
+  <CommandTakeOffDesc>سوار کشتی شوید و از سیاره فرار کنید.</CommandTakeOffDesc>
   <!-- EN: Are you sure you want to launch the ship?\n\nEveryone in this area will escape the planet. Everyone else will be left behind. -->
-  <CommandTakeOffConfirmation>Are you sure you want to launch the ship?\n\nEveryone in this area will escape the planet. Everyone else will be left behind.</CommandTakeOffConfirmation>
+  <CommandTakeOffConfirmation>آیا مطمئن هستید که می‌خواهید کشتی را پرتاب کنید؟\n\nهمه در این منطقه از سیاره فرار خواهند کرد. بقیه پشت سر گذاشته خواهند شد.</CommandTakeOffConfirmation>
 
   <!-- Set target fuel level -->
   <!-- EN: Set target fuel level -->
-  <CommandSetTargetFuelLevel>Set target fuel level</CommandSetTargetFuelLevel>
+  <CommandSetTargetFuelLevel>تنظیم سطح سوخت هدف</CommandSetTargetFuelLevel>
   <!-- EN: Set the target fuel level. Colonists will attempt to fill this up to the target fuel level. -->
-  <CommandSetTargetFuelLevelDesc>Set the target fuel level. Colonists will attempt to fill this up to the target fuel level.</CommandSetTargetFuelLevelDesc>
+  <CommandSetTargetFuelLevelDesc>سطح سوخت هدف را تنظیم کنید. مهاجران تلاش خواهند کرد این را تا سطح سوخت هدف پر کنند.</CommandSetTargetFuelLevelDesc>
 
   <!-- Refueling -->
   <!-- EN: Toggle automatic refuel -->
-  <CommandToggleAllowAutoRefuel>Toggle automatic refuel</CommandToggleAllowAutoRefuel>
+  <CommandToggleAllowAutoRefuel>تغییر وضعیت سوخت‌گیری خودکار</CommandToggleAllowAutoRefuel>
   <!-- EN: Sets whether or not automatic refueling is allowed. -->
-  <CommandToggleAllowAutoRefuelDesc>Sets whether or not automatic refueling is allowed.</CommandToggleAllowAutoRefuelDesc>
+  <CommandToggleAllowAutoRefuelDesc>تنظیم می‌کند که آیا سوخت‌گیری خودکار مجاز است یا خیر.</CommandToggleAllowAutoRefuelDesc>
   
   <!-- Cancel load -->
   <!-- EN: Cancel load -->
-  <CommandCancelLoad>Cancel load</CommandCancelLoad>
+  <CommandCancelLoad>لغو بارگیری</CommandCancelLoad>
   <!-- EN: Cancel loading this with people or items and eject everything already loaded. -->
-  <CommandCancelLoadDesc>Cancel loading this with people or items and eject everything already loaded.</CommandCancelLoadDesc>
+  <CommandCancelLoadDesc>بارگیری این با افراد یا اقلام را لغو کنید و هر چیزی که قبلاً بارگیری شده است را خارج کنید.</CommandCancelLoadDesc>
   
   <!-- Launch group -->
   <!-- EN: Launch -->
-  <CommandLaunchGroup>Launch</CommandLaunchGroup>
+  <CommandLaunchGroup>پرتاب</CommandLaunchGroup>
   <!-- EN: Take off and fly to a destination. -->
-  <CommandLaunchGroupDesc>Take off and fly to a destination.</CommandLaunchGroupDesc>
+  <CommandLaunchGroupDesc>برخاسته و به مقصد پرواز کنید.</CommandLaunchGroupDesc>
   <!-- EN: Some transport pods in this loading group are not connected to a fueling port. -->
-  <CommandLaunchGroupFailNotConnectedToFuelingPort>Some transport pods in this loading group are not connected to a fueling port.</CommandLaunchGroupFailNotConnectedToFuelingPort>
+  <CommandLaunchGroupFailNotConnectedToFuelingPort>برخی از کپسول‌های حمل و نقل در این گروه بارگیری به پورت سوخت‌گیری متصل نیستند.</CommandLaunchGroupFailNotConnectedToFuelingPort>
   <!-- EN: Some pod launchers in this group have no fuel. -->
-  <CommandLaunchGroupFailNoFuel>Some pod launchers in this group have no fuel.</CommandLaunchGroupFailNoFuel>
+  <CommandLaunchGroupFailNoFuel>برخی از پرتاب‌کننده‌های کپسول در این گروه سوخت ندارند.</CommandLaunchGroupFailNoFuel>
   <!-- EN: Some pod launchers are under a roof. -->
-  <CommandLaunchGroupFailUnderRoof>Some pod launchers are under a roof.</CommandLaunchGroupFailUnderRoof>
+  <CommandLaunchGroupFailUnderRoof>برخی از پرتاب‌کننده‌های کپسول زیر سقف هستند.</CommandLaunchGroupFailUnderRoof>
   
   <!-- Load transporter -->
   <!-- EN: Load launch group of {0} -->
-  <CommandLoadTransporter>Load launch group of {0}</CommandLoadTransporter>
+  <CommandLoadTransporter>بارگیری گروه پرتاب {0}</CommandLoadTransporter>
   <!-- EN: Defines the selected transporter(s) as a launch group. Opens the loading dialog so you can decide who and what should be loaded inside. -->
-  <CommandLoadTransporterDesc>Defines the selected transporter(s) as a launch group. Opens the loading dialog so you can decide who and what should be loaded inside.</CommandLoadTransporterDesc>
+  <CommandLoadTransporterDesc>حمل‌کننده‌های انتخاب شده را به عنوان یک گروه پرتاب تعریف می‌کند. پنجره بارگیری را باز می‌کند تا بتوانید تصمیم بگیرید چه کسی و چه چیزی باید در داخل بارگیری شود.</CommandLoadTransporterDesc>
   <!-- EN: The transport pod is not connected to a fueling port. -->
-  <CommandLoadTransporterFailNotConnectedToFuelingPort>The transport pod is not connected to a fueling port.</CommandLoadTransporterFailNotConnectedToFuelingPort>
+  <CommandLoadTransporterFailNotConnectedToFuelingPort>کپسول حمل و نقل به پورت سوخت‌گیری متصل نیست.</CommandLoadTransporterFailNotConnectedToFuelingPort>
   <!-- EN: The pod launcher has no fuel. -->
-  <CommandLoadTransporterFailNoFuel>The pod launcher has no fuel.</CommandLoadTransporterFailNoFuel>
+  <CommandLoadTransporterFailNoFuel>پرتاب‌کننده کپسول سوخت ندارد.</CommandLoadTransporterFailNoFuel>
   
   <!-- Load transporter (single) -->
   <!-- EN: Load -->
-  <CommandLoadTransporterSingle>Load</CommandLoadTransporterSingle>
+  <CommandLoadTransporterSingle>بارگیری</CommandLoadTransporterSingle>
   <!-- EN: Opens the loading dialog so you can decide who and what should be loaded inside. -->
-  <CommandLoadTransporterSingleDesc>Opens the loading dialog so you can decide who and what should be loaded inside.</CommandLoadTransporterSingleDesc>
+  <CommandLoadTransporterSingleDesc>پنجره بارگیری را باز می‌کند تا بتوانید تصمیم بگیرید چه کسی و چه چیزی باید در داخل بارگیری شود.</CommandLoadTransporterSingleDesc>
   
   <!-- Transporters set to load -->
   <!-- EN: Set to load -->
-  <CommandSetToLoadTransporter>Set to load</CommandSetToLoadTransporter>
+  <CommandSetToLoadTransporter>تنظیم برای بارگیری</CommandSetToLoadTransporter>
   <!-- EN: Opens the loading dialog so you can decide who and what should be loaded inside. -->
-  <CommandSetToLoadTransporterDesc>Opens the loading dialog so you can decide who and what should be loaded inside.</CommandSetToLoadTransporterDesc>
+  <CommandSetToLoadTransporterDesc>پنجره بارگیری را باز می‌کند تا بتوانید تصمیم بگیرید چه کسی و چه چیزی باید در داخل بارگیری شود.</CommandSetToLoadTransporterDesc>
   
   <!-- Autoload transporters -->
   <!-- EN: Autoload -->
-  <CommandAutoloadTransporters>Autoload</CommandAutoloadTransporters>
+  <CommandAutoloadTransporters>بارگیری خودکار</CommandAutoloadTransporters>
   <!-- EN: Toggle loading all required cargo automatically as soon as they become available. -->
-  <CommandAutoloadTransportersDesc>Toggle loading all required cargo automatically as soon as they become available.</CommandAutoloadTransportersDesc>
+  <CommandAutoloadTransportersDesc>تغییر وضعیت بارگیری خودکار تمام محموله‌های مورد نیاز به محض در دسترس قرار گرفتن.</CommandAutoloadTransportersDesc>
   
   <!-- Select previous transporter -->
   <!-- EN: Select previous in launch group -->
-  <CommandSelectPreviousTransporter>Select previous in launch group</CommandSelectPreviousTransporter>
+  <CommandSelectPreviousTransporter>انتخاب قبلی در گروه پرتاب</CommandSelectPreviousTransporter>
   <!-- EN: Select previous transport pod in this launch group. -->
-  <CommandSelectPreviousTransporterDesc>Select previous transport pod in this launch group.</CommandSelectPreviousTransporterDesc>
+  <CommandSelectPreviousTransporterDesc>کپسول حمل و نقل قبلی را در این گروه پرتاب انتخاب کنید.</CommandSelectPreviousTransporterDesc>
   
   <!-- Select all transporters -->
   <!-- EN: Select launch group -->
-  <CommandSelectAllTransporters>Select launch group</CommandSelectAllTransporters>
+  <CommandSelectAllTransporters>انتخاب گروه پرتاب</CommandSelectAllTransporters>
   <!-- EN: Select all transport pods in this launch group. -->
-  <CommandSelectAllTransportersDesc>Select all transport pods in this launch group.</CommandSelectAllTransportersDesc>
+  <CommandSelectAllTransportersDesc>تمام کپسول‌های حمل و نقل در این گروه پرتاب را انتخاب کنید.</CommandSelectAllTransportersDesc>
   
   <!-- Select next transporter -->
   <!-- EN: Select next in launch group -->
-  <CommandSelectNextTransporter>Select next in launch group</CommandSelectNextTransporter>
+  <CommandSelectNextTransporter>انتخاب بعدی در گروه پرتاب</CommandSelectNextTransporter>
   <!-- EN: Select next transport pod in this launch group. -->
-  <CommandSelectNextTransporterDesc>Select next transport pod in this launch group.</CommandSelectNextTransporterDesc>
+  <CommandSelectNextTransporterDesc>کپسول حمل و نقل بعدی را در این گروه پرتاب انتخاب کنید.</CommandSelectNextTransporterDesc>
   
   <!-- Vent -->
   <!-- EN: Designate open/close -->
-  <CommandDesignateOpenCloseVentLabel>Designate open/close</CommandDesignateOpenCloseVentLabel>
+  <CommandDesignateOpenCloseVentLabel>تعیین باز/بسته کردن</CommandDesignateOpenCloseVentLabel>
   <!-- EN: Designate this vent to be opened or closed. A colonist will come soon to perform the task. -->
-  <CommandDesignateOpenCloseVentDesc>Designate this vent to be opened or closed. A colonist will come soon to perform the task.</CommandDesignateOpenCloseVentDesc>
+  <CommandDesignateOpenCloseVentDesc>این دریچه را برای باز یا بسته شدن تعیین کنید. یک مهاجر به زودی برای انجام کار خواهد آمد.</CommandDesignateOpenCloseVentDesc>
   
   <!-- Remove waypoint -->
   <!-- EN: Remove -->
   <CommandRemoveWaypointLabel>برداشتن</CommandRemoveWaypointLabel>
   <!-- EN: Remove this waypoint. -->
-  <CommandRemoveWaypointDesc>Remove this waypoint.</CommandRemoveWaypointDesc>
+  <CommandRemoveWaypointDesc>این نقطه مسیر را حذف کنید.</CommandRemoveWaypointDesc>
 
   <!-- Pause caravan -->
   <!-- EN: Rest -->
-  <CommandPauseCaravan>Rest</CommandPauseCaravan>
+  <CommandPauseCaravan>استراحت</CommandPauseCaravan>
   <!-- EN: Start resting. This has the following benefits:\n\n  - People can interact socially\n  - Forage for food {0} times faster\n  - Visibility multiplied by {1} -->
-  <CommandToggleCaravanPauseDesc>Start resting. This has the following benefits:\n\n  - People can interact socially\n  - Forage for food {0} times faster\n  - Visibility multiplied by {1}</CommandToggleCaravanPauseDesc>
+  <CommandToggleCaravanPauseDesc>شروع استراحت. این مزایای زیر را دارد:\n\n  - افراد می‌توانند به صورت اجتماعی تعامل داشته باشند\n  - جستجوی غذا {0} برابر سریع‌تر\n  - دید در {1} ضرب می‌شود</CommandToggleCaravanPauseDesc>
   
   <!-- Show sellable items -->
   <!-- EN: Show what will buy -->
-  <CommandShowSellableItems>Show what will buy</CommandShowSellableItems>
+  <CommandShowSellableItems>نمایش آنچه خریداری خواهد شد</CommandShowSellableItems>
   <!-- EN: Show everything this trader wants to buy. -->
-  <CommandShowSellableItemsDesc>Show everything this trader wants to buy.</CommandShowSellableItemsDesc>
+  <CommandShowSellableItemsDesc>تمام چیزهایی که این تاجر می‌خواهد بخرد را نمایش دهید.</CommandShowSellableItemsDesc>
 
   <!-- Attack settlement -->
   <!-- EN: Attack -->
-  <CommandAttackSettlement>Attack</CommandAttackSettlement>
+  <CommandAttackSettlement>حمله</CommandAttackSettlement>
   <!-- EN: Attack this settlement. -->
-  <CommandAttackSettlementDesc>Attack this settlement.</CommandAttackSettlementDesc>
+  <CommandAttackSettlementDesc>به این سکونتگاه حمله کنید.</CommandAttackSettlementDesc>
 
   <!-- Send shuttle -->
   <!-- EN: Send -->
-  <CommandSendShuttle>Send</CommandSendShuttle>
+  <CommandSendShuttle>ارسال</CommandSendShuttle>
   <!-- EN: Initiate takeoff and have the shuttle fly to its destination. -->
-  <CommandSendShuttleDesc>Initiate takeoff and have the shuttle fly to its destination.</CommandSendShuttleDesc>
+  <CommandSendShuttleDesc>برخاستن را آغاز کنید و شاتل را به مقصد خود بفرستید.</CommandSendShuttleDesc>
   <!-- EN: The shuttle is under a roof. -->
-  <CommandSendShuttleFailUnderRoof>The shuttle is under a roof.</CommandSendShuttleFailUnderRoof>
+  <CommandSendShuttleFailUnderRoof>شاتل زیر سقف است.</CommandSendShuttleFailUnderRoof>
   <!-- EN: Some of the required items or people are missing. -->
-  <CommandSendShuttleFailMissingRequiredThing>Some of the required items or people are missing.</CommandSendShuttleFailMissingRequiredThing>
+  <CommandSendShuttleFailMissingRequiredThing>برخی از اقلام یا افراد مورد نیاز گم شده‌اند.</CommandSendShuttleFailMissingRequiredThing>
   
   <!-- Dismiss shuttle -->
   <!-- EN: Dismiss -->
-  <CommandShuttleDismiss>Dismiss</CommandShuttleDismiss>
+  <CommandShuttleDismiss>مرخص کردن</CommandShuttleDismiss>
   <!-- EN: Unload all contents and send the shuttle away. -->
-  <CommandShuttleDismissDesc>Unload all contents and send the shuttle away.</CommandShuttleDismissDesc>
+  <CommandShuttleDismissDesc>تمام محتویات را تخلیه کرده و شاتل را بفرستید.</CommandShuttleDismissDesc>
 
   <!-- Place blueprints -->
   <!-- EN: Place blueprints -->
-  <CommandPlaceBlueprints>Place blueprints</CommandPlaceBlueprints>
+  <CommandPlaceBlueprints>قرار دادن نقشه‌ها</CommandPlaceBlueprints>
   <!-- EN: Place all required blueprints where possible. -->
-  <CommandPlaceBlueprintsDesc>Place all required blueprints where possible.</CommandPlaceBlueprintsDesc>
+  <CommandPlaceBlueprintsDesc>تمام نقشه‌های مورد نیاز را در صورت امکان قرار دهید.</CommandPlaceBlueprintsDesc>
   <!-- EN: Place {0} blueprints -->
-  <CommandPlaceBlueprintsSpecific>Place {0} blueprints</CommandPlaceBlueprintsSpecific>
+  <CommandPlaceBlueprintsSpecific>قرار دادن {0} نقشه</CommandPlaceBlueprintsSpecific>
   <!-- EN: Place all {0} blueprints where possible. -->
-  <CommandPlaceBlueprintsSpecificDesc>Place all {0} blueprints where possible.</CommandPlaceBlueprintsSpecificDesc>
+  <CommandPlaceBlueprintsSpecificDesc>تمام {0} نقشه را در صورت امکان قرار دهید.</CommandPlaceBlueprintsSpecificDesc>
 
   <!-- Cancel monument marker -->
   <!-- EN: Cancel -->
-  <CommandCancelMonumentMarker>Cancel</CommandCancelMonumentMarker>
+  <CommandCancelMonumentMarker>لغو</CommandCancelMonumentMarker>
   <!-- EN: Permanently remove this monument marker. -->
-  <CommandCancelMonumentMarkerDesc>Permanently remove this monument marker.</CommandCancelMonumentMarkerDesc>
+  <CommandCancelMonumentMarkerDesc>این نشانگر بنای یادبود را برای همیشه حذف کنید.</CommandCancelMonumentMarkerDesc>
 
   <!-- View quest -->
   <!-- EN: View quest: {0} -->
-  <CommandViewQuest>View quest: {0}</CommandViewQuest>
+  <CommandViewQuest>مشاهده ماموریت: {0}</CommandViewQuest>
   <!-- EN: View this quest in quests tab. -->
-  <CommandViewQuestDesc>View this quest in quests tab.</CommandViewQuestDesc>
+  <CommandViewQuestDesc>این ماموریت را در زبانه ماموریت‌ها مشاهده کنید.</CommandViewQuestDesc>
   <!-- EN: Open linked quest -->
-  <CommandOpenLinkedQuest>Open linked quest</CommandOpenLinkedQuest>
+  <CommandOpenLinkedQuest>باز کردن ماموریت مرتبط</CommandOpenLinkedQuest>
   <!-- EN: Open linked quest in the quests tab. -->
-  <CommandOpenLinkedQuestDesc>Open linked quest in the quests tab.</CommandOpenLinkedQuestDesc>
+  <CommandOpenLinkedQuestDesc>ماموریت مرتبط را در زبانه ماموریت‌ها باز کنید.</CommandOpenLinkedQuestDesc>
 
   <!-- Carry -->
   <!-- EN: Drop {0_nameDef} -->
-  <CommandDropPawn>Drop {0_nameDef}</CommandDropPawn>
+  <CommandDropPawn>رها کردن {0_nameDef}</CommandDropPawn>
   <!-- EN: Drop the person being carried. -->
-  <CommandDropPawnDesc>Drop the person being carried.</CommandDropPawnDesc>
+  <CommandDropPawnDesc>شخصی که حمل می‌شود را رها کنید.</CommandDropPawnDesc>
   <!-- EN: Select {0_nameDef} -->
-  <CommandSelectCarriedPawn>Select {0_nameDef}</CommandSelectCarriedPawn>
+  <CommandSelectCarriedPawn>انتخاب {0_nameDef}</CommandSelectCarriedPawn>
   <!-- EN: Select the creature being carried. -->
-  <CommandSelectCarriedPawnDesc>Select the creature being carried.</CommandSelectCarriedPawnDesc>
+  <CommandSelectCarriedPawnDesc>موجودی که حمل می‌شود را انتخاب کنید.</CommandSelectCarriedPawnDesc>
   <!-- EN: Select {0_label} -->
-  <CommandSelectCarriedThing>Select {0_label}</CommandSelectCarriedThing>
+  <CommandSelectCarriedThing>انتخاب {0_label}</CommandSelectCarriedThing>
   <!-- EN: Select the carried item. -->
-  <CommandSelectCarriedThingDesc>Select the carried item.</CommandSelectCarriedThingDesc>
+  <CommandSelectCarriedThingDesc>آیتم حمل شده را انتخاب کنید.</CommandSelectCarriedThingDesc>
   <!-- EN: Select {0_label} -->
-  <CommandSelectContainerThing>Select {0_label}</CommandSelectContainerThing>
+  <CommandSelectContainerThing>انتخاب {0_label}</CommandSelectContainerThing>
   <!-- EN: Select the containing item. -->
-  <CommandSelectContainerThingDesc>Select the containing item.</CommandSelectContainerThingDesc>
+  <CommandSelectContainerThingDesc>آیتم حاوی را انتخاب کنید.</CommandSelectContainerThingDesc>
   <!-- EN: Select {0_nameDef} -->
-  <CommandSelectCarryingPawn>Select {0_nameDef}</CommandSelectCarryingPawn>
+  <CommandSelectCarryingPawn>انتخاب {0_nameDef}</CommandSelectCarryingPawn>
   <!-- EN: Select the carrying creature. -->
-  <CommandSelectCarryingPawnDesc>Select the carrying creature.</CommandSelectCarryingPawnDesc>
+  <CommandSelectCarryingPawnDesc>موجود حمل‌کننده را انتخاب کنید.</CommandSelectCarryingPawnDesc>
   <!-- EN: Select {0_nameDef} -->
-  <CommandSelectContainedPawn>Select {0_nameDef}</CommandSelectContainedPawn>
+  <CommandSelectContainedPawn>انتخاب {0_nameDef}</CommandSelectContainedPawn>
   <!-- EN: Select the contained creature. -->
-  <CommandSelectContainedPawnDesc>Select the contained creature.</CommandSelectContainedPawnDesc>
+  <CommandSelectContainedPawnDesc>موجود محتوی را انتخاب کنید.</CommandSelectContainedPawnDesc>
   <!-- EN: Select {0_label} -->
-  <CommandSelectContainedThing>Select {0_label}</CommandSelectContainedThing>
+  <CommandSelectContainedThing>انتخاب {0_label}</CommandSelectContainedThing>
   <!-- EN: Select the contained item. -->
-  <CommandSelectContainedThingDesc>Select the contained item.</CommandSelectContainedThingDesc>
+  <CommandSelectContainedThingDesc>آیتم محتوی را انتخاب کنید.</CommandSelectContainedThingDesc>
 
   <!-- Take a drug -->
   <!-- EN: Take drug... -->
-  <TakeDrug>Take drug...</TakeDrug>
+  <TakeDrug>مصرف دارو...</TakeDrug>
   <!-- EN: Choose a drug from inventory to ingest immediately. -->
-  <TakeDrugDesc>Choose a drug from inventory to ingest immediately.</TakeDrugDesc>
+  <TakeDrugDesc>دارویی را از موجودی برای مصرف فوری انتخاب کنید.</TakeDrugDesc>
 
   <!-- Build X -->
   <!-- EN: Build {0} -->
-  <BuildThing>Build {0}</BuildThing>
+  <BuildThing>ساخت {0}</BuildThing>
 
   <!-- Rituals -->
   <!-- EN: Leave {RITUAL_label} -->
-  <CommandLeaveRitual>Leave {RITUAL_label}</CommandLeaveRitual>
+  <CommandLeaveRitual>ترک {RITUAL_label}</CommandLeaveRitual>
   <!-- EN: Stop participating in the {RITUAL_labelDef}. The ritual will continue as long as it has at least one participant. -->
-  <CommandLeaveRitualDesc>Stop participating in the {RITUAL_labelDef}. The ritual will continue as long as it has at least one participant.</CommandLeaveRitualDesc>
+  <CommandLeaveRitualDesc>توقف شرکت در {RITUAL_labelDef}. مراسم تا زمانی که حداقل یک شرکت‌کننده داشته باشد ادامه خواهد یافت.</CommandLeaveRitualDesc>
   <!-- EN: This is the last participant in the {RITUAL_labelDef}. -->
-  <CommandLeaveLastParticipant>This is the last participant in the {RITUAL_labelDef}.</CommandLeaveLastParticipant>
+  <CommandLeaveLastParticipant>این آخرین شرکت‌کننده در {RITUAL_labelDef} است.</CommandLeaveLastParticipant>
 
   <!-- EN: Cancel {RITUAL_label} -->
-  <CommandCancelRitual>Cancel {RITUAL_label}</CommandCancelRitual>
+  <CommandCancelRitual>لغو {RITUAL_label}</CommandCancelRitual>
   <!-- EN: End the {RITUAL_labelDef} immediately. Ritual obligation will remain. You can restart the ritual later. -->
-  <CommandCancelRitualDesc>End the {RITUAL_labelDef} immediately. Ritual obligation will remain. You can restart the ritual later.</CommandCancelRitualDesc>
+  <CommandCancelRitualDesc>فورا به {RITUAL_labelDef} پایان دهید. تعهد مراسم باقی خواهد ماند. می‌توانید مراسم را بعداً دوباره شروع کنید.</CommandCancelRitualDesc>
   <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
-  <CommandCancelRitualConfirm>Are you sure you want to cancel {RITUAL_labelDef}?</CommandCancelRitualConfirm>
+  <CommandCancelRitualConfirm>آیا مطمئن هستید که می‌خواهید {RITUAL_labelDef} را لغو کنید؟</CommandCancelRitualConfirm>
 
   <!-- Storage linking -->
   <!-- EN: Link settings -->
   <LinkStorageSettings>تنظیمات پیوند</LinkStorageSettings>
   <!-- EN: Link storage settings for multiple selected buildings so that they share storage settings.\n\nThe group will start with the settings of whatever you selected first. -->
-  <LinkStorageSettingsDesc>Link storage settings for multiple selected buildings so that they share storage settings.\n\nThe group will start with the settings of whatever you selected first.</LinkStorageSettingsDesc>
+  <LinkStorageSettingsDesc>تنظیمات انبار را برای چندین ساختمان انتخاب شده پیوند دهید تا تنظیمات انبار را به اشتراک بگذارند.\n\nگروه با تنظیمات آنچه ابتدا انتخاب کرده‌اید شروع خواهد شد.</LinkStorageSettingsDesc>
   <!-- EN: You must select two or more buildings to link their storage settings. -->
-  <LinkStorageDisabledSelectTwo>You must select two or more buildings to link their storage settings.</LinkStorageDisabledSelectTwo>
+  <LinkStorageDisabledSelectTwo>برای پیوند دادن تنظیمات انبار آنها باید دو یا چند ساختمان را انتخاب کنید.</LinkStorageDisabledSelectTwo>
   <!-- EN: Already linked. -->
-  <AlreadyLinked>Already linked.</AlreadyLinked>
+  <AlreadyLinked>قبلاً پیوند داده شده است.</AlreadyLinked>
   <!-- EN: Unlink settings -->
-  <UnlinkStorageSettings>Unlink settings</UnlinkStorageSettings>
+  <UnlinkStorageSettings>لغو پیوند تنظیمات</UnlinkStorageSettings>
   <!-- EN: Unlink this from other buildings' storage settings so its settings can be set independently. -->
-  <UnlinkStorageSettingsDesc>Unlink this from other buildings' storage settings so its settings can be set independently.</UnlinkStorageSettingsDesc>
+  <UnlinkStorageSettingsDesc>این را از تنظیمات انبار ساختمان‌های دیگر لغو پیوند دهید تا تنظیمات آن به طور مستقل قابل تنظیم باشد.</UnlinkStorageSettingsDesc>
   <!-- EN: Linked storage settings -->
-  <LinkedStorageSettings>Linked storage settings</LinkedStorageSettings>
+  <LinkedStorageSettings>تنظیمات انبار پیوند داده شده</LinkedStorageSettings>
   <!-- EN: 1 building -->
-  <OneBuilding>TODO</OneBuilding>
+  <OneBuilding>1 ساختمان</OneBuilding>
   <!-- EN: {0} buildings -->
-  <NumBuildings>{0} buildings</NumBuildings>
+  <NumBuildings>{0} ساختمان</NumBuildings>
   <!-- EN: Stores -->
-  <StoresThings>Stores</StoresThings>
+  <StoresThings>ذخیره می‌کند</StoresThings>
   <!-- EN: Select all linked -->
   <SelectAllLinked>همه پیوندها را انتخاب کنید</SelectAllLinked>
   <!-- EN: Select all storage buildings linked to this. -->
-  <SelectAllLinkedDesc>Select all storage buildings linked to this.</SelectAllLinkedDesc>
+  <SelectAllLinkedDesc>تمام ساختمان‌های انبار پیوند داده شده به این را انتخاب کنید.</SelectAllLinkedDesc>
 
   <!-- EN: {0_labelShort} is unconscious. -->
-  <CommandDisabledUnconscious>TODO</CommandDisabledUnconscious>
+  <CommandDisabledUnconscious>{0_labelShort} بیهوش است.</CommandDisabledUnconscious>
 
   <!-- Study -->
   <!-- EN: Toggle study -->
-  <CommandToggleStudy>TODO</CommandToggleStudy>
+  <CommandToggleStudy>تغییر وضعیت مطالعه</CommandToggleStudy>
   <!-- EN: Determines whether or not wardens will automatically study this. Forbidden things will never be studied. -->
-  <CommandToggleStudyDesc>TODO</CommandToggleStudyDesc>
+  <CommandToggleStudyDesc>تعیین می‌کند که آیا نگهبانان به طور خودکار این را مطالعه خواهند کرد یا خیر. چیزهای ممنوع هرگز مطالعه نخواهند شد.</CommandToggleStudyDesc>
 
   <!-- Limited use count action -->
   <!-- EN: No uses left. -->
-  <CommandNoUsesLeft>TODO</CommandNoUsesLeft>
+  <CommandNoUsesLeft>هیچ استفاده‌ای باقی نمانده است.</CommandNoUsesLeft>
   
   <!-- UNUSED -->
-  <CommandRenameZoneLabel>Rename</CommandRenameZoneLabel>
-  <CommandRenameZoneDesc>Rename this zone.</CommandRenameZoneDesc>
+  <CommandRenameZoneLabel>تغییر نام</CommandRenameZoneLabel>
+  <CommandRenameZoneDesc>این منطقه را تغییر نام دهید.</CommandRenameZoneDesc>
 
 </LanguageData>

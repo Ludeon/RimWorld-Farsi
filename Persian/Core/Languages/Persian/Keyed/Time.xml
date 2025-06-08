@@ -13,16 +13,16 @@
   <LetterYear>سال</LetterYear>
   
   <!-- EN: AM -->
-  <AM>TODO</AM>
+  <AM>صبح</AM>
   <!-- EN: PM -->
-  <PM>TODO</PM>
+  <PM>عصر</PM>
 
   <!-- EN: days -->
-  <DaysLower>روزه</DaysLower>
+  <DaysLower>روز</DaysLower>
   <!-- EN: hours -->
-  <HoursLower>ساعته</HoursLower>
+  <HoursLower>ساعت</HoursLower>
   <!-- EN: seconds -->
-  <SecondsLower>ثانیه ی</SecondsLower>
+  <SecondsLower>ثانیه</SecondsLower>
 
   <!-- EN: spring -->
   <SeasonSpring>بهار</SeasonSpring>
@@ -56,33 +56,33 @@
   <QuadrumDecembary_Short>Dec</QuadrumDecembary_Short>
   
   <!-- EN: Born: {0} -->
-  <Born>Born: {0}</Born>
+  <Born>تولد: {0}</Born>
   <!-- EN: Chronological age: {0} years, {1} quadrums, {2} days -->
-  <AgeChronological>Chronological age: {0} years, {1} quadrums, {2} days</AgeChronological>
+  <AgeChronological>سن تقویمی: {0} سال، {1} کوادروم، {2} روز</AgeChronological>
   <!-- EN: Biological age: {0} years, {1} quadrums, {2} days -->
-  <AgeBiological>Biological age: {0} years, {1} quadrums, {2} days</AgeBiological>
+  <AgeBiological>سن بیولوژیکی: {0} سال، {1} کوادروم، {2} روز</AgeBiological>
 
   <!-- Date periods -->
   <!-- EN: 1 year -->
-  <Period1Year>1 سال</Period1Year>
+  <Period1Year>۱ سال</Period1Year>
   <!-- EN: {0} years -->
-  <PeriodYears>{0} years</PeriodYears>
+  <PeriodYears>{0} سال</PeriodYears>
   <!-- EN: 1 quadrum -->
-  <Period1Quadrum>1 quadrum</Period1Quadrum>
+  <Period1Quadrum>۱ کوادروم</Period1Quadrum>
   <!-- EN: {0} quadrums -->
-  <PeriodQuadrums>{0} quadrums</PeriodQuadrums>
+  <PeriodQuadrums>{0} کوادروم</PeriodQuadrums>
   <!-- EN: 1 day -->
-  <Period1Day>1 day</Period1Day>
+  <Period1Day>۱ روز</Period1Day>
   <!-- EN: {0} days -->
-  <PeriodDays>{0} days</PeriodDays>
+  <PeriodDays>{0} روز</PeriodDays>
   <!-- EN: 1 hour -->
-  <Period1Hour>1 hour</Period1Hour>
+  <Period1Hour>۱ ساعت</Period1Hour>
   <!-- EN: {0} hours -->
-  <PeriodHours>{0} hours</PeriodHours>
+  <PeriodHours>{0} ساعت</PeriodHours>
   <!-- EN: 1 second -->
-  <Period1Second>1 second</Period1Second>
+  <Period1Second>۱ ثانیه</Period1Second>
   <!-- EN: {0} seconds -->
-  <PeriodSeconds>{0} seconds</PeriodSeconds>
+  <PeriodSeconds>{0} ثانیه</PeriodSeconds>
 
   <!-- Misc -->
   <!-- EN: Started -->
@@ -90,8 +90,8 @@
   <!-- EN: Lasted -->
   <Lasted>به طول انجامید</Lasted>
   <!-- EN: occurred {0} ago -->
-  <OccurredTimeAgo>occurred {0} ago</OccurredTimeAgo>
+  <OccurredTimeAgo>{0} پیش رخ داد</OccurredTimeAgo>
   <!-- EN: {0} ago -->
-  <TimeAgo>{0} ago</TimeAgo>
+  <TimeAgo>{0} پیش</TimeAgo>
   
 </LanguageData>

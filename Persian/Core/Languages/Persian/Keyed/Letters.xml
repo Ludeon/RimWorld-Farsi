@@ -3,589 +3,589 @@
 
   <!-- Misc -->
   <!-- EN: Jump to location -->
-  <JumpToLocation>Jump to location</JumpToLocation>
+  <JumpToLocation>پرش به مکان</JumpToLocation>
   <!-- EN: Postpone -->
-  <PostponeLetter>Postpone</PostponeLetter>
+  <PostponeLetter>به تعویق انداختن</PostponeLetter>
   <!-- EN: Reject -->
-  <RejectLetter>Reject</RejectLetter>
+  <RejectLetter>رد کردن</RejectLetter>
   <!-- EN: Read more -->
-  <ReadMore>Read more</ReadMore>
+  <ReadMore>بیشتر بخوانید</ReadMore>
   <!-- EN: You have {0} more letters -->
-  <MoreLetters>You have {0} more letters</MoreLetters>
+  <MoreLetters>شما {0} نامه دیگر دارید</MoreLetters>
 
   <!-- EN: Summer -->
-  <LetterLabelFirstSummerWarning>Summer</LetterLabelFirstSummerWarning>
+  <LetterLabelFirstSummerWarning>تابستان</LetterLabelFirstSummerWarning>
   <!-- EN: Summer has begun! But winter is coming.\n\nYour food crops won't grow in the winter cold. Be sure to store enough food to survive. You can build a walk-in refrigerator to prevent food from spoiling.\n\nTo prepare for winter, buy, steal, or make some parkas, or you'll freeze when you step outside. -->
-  <FirstSummerWarning>Summer has begun! But winter is coming.\n\nYour food crops won't grow in the winter cold. Be sure to store enough food to survive. You can build a walk-in refrigerator to prevent food from spoiling.\n\nTo prepare for winter, buy, steal, or make some parkas, or you'll freeze when you step outside.</FirstSummerWarning>
+  <FirstSummerWarning>تابستان آغاز شده است! اما زمستان در راه است.\n\nمحصولات غذایی شما در سرمای زمستان رشد نخواهند کرد. مطمئن شوید که غذای کافی برای زنده ماندن ذخیره کرده‌اید. می‌توانید یک یخچال بزرگ بسازید تا از فاسد شدن غذا جلوگیری کنید.\n\nبرای آماده شدن برای زمستان، چند پارکا بخرید، بدزدید یا بسازید، وگرنه وقتی بیرون می‌روید یخ خواهید زد.</FirstSummerWarning>
 
   <!-- EN: Relations with {0} have broken down completely. They are now hostile to you. -->
-  <LetterRelationsChange_Hostile>Relations with {0} have broken down completely. They are now hostile to you.</LetterRelationsChange_Hostile>  
+  <LetterRelationsChange_Hostile>روابط با {0} کاملاً از بین رفته است. آنها اکنون با شما متخاصم هستند.</LetterRelationsChange_Hostile>  
   <!-- EN: They will conduct periodic raids on your colony and caravans, and refuse to trade with you. If you want to improve relations, you can still offer them gifts using caravans or transport pods.\n\nThis happened because goodwill ({0}) has fallen below {1}. In order to restore neutral relations, goodwill must reach {2} again. -->
-  <LetterRelationsChange_HostileGoodwillDescription>They will conduct periodic raids on your colony and caravans, and refuse to trade with you. If you want to improve relations, you can still offer them gifts using caravans or transport pods.\n\nThis happened because goodwill ({0}) has fallen below {1}. In order to restore neutral relations, goodwill must reach {2} again.</LetterRelationsChange_HostileGoodwillDescription>  
+  <LetterRelationsChange_HostileGoodwillDescription>آنها به صورت دوره‌ای به کلونی و کاروان‌های شما حمله خواهند کرد و از تجارت با شما خودداری می‌کنند. اگر می‌خواهید روابط را بهبود بخشید، همچنان می‌توانید با استفاده از کاروان‌ها یا کپسول‌های حمل و نقل به آنها هدیه دهید.\n\nاین اتفاق به این دلیل افتاد که حسن نیت ({0}) به زیر {1} کاهش یافته است. برای بازگرداندن روابط خنثی، حسن نیت باید دوباره به {2} برسد.</LetterRelationsChange_HostileGoodwillDescription>  
 
   <!-- EN: Relations with {0} have warmed. They now consider you neutral and will no longer attack you. -->
-  <LetterRelationsChange_NeutralFromHostile>Relations with {0} have warmed. They now consider you neutral and will no longer attack you.</LetterRelationsChange_NeutralFromHostile>
+  <LetterRelationsChange_NeutralFromHostile>روابط با {0} گرم شده است. آنها اکنون شما را خنثی می‌دانند و دیگر به شما حمله نخواهند کرد.</LetterRelationsChange_NeutralFromHostile>
   <!-- EN: This happened because goodwill ({1}) has risen past {2}. If goodwill falls below {3}, {0} will become hostile again. If goodwill rises above {4}, they will become your ally and fight for you. -->
-  <LetterRelationsChange_NeutralFromHostileGoodwillDescription>This happened because goodwill ({1}) has risen past {2}. If goodwill falls below {3}, {0} will become hostile again. If goodwill rises above {4}, they will become your ally and fight for you.</LetterRelationsChange_NeutralFromHostileGoodwillDescription>
+  <LetterRelationsChange_NeutralFromHostileGoodwillDescription>این اتفاق به این دلیل افتاد که حسن نیت ({1}) از {2} فراتر رفته است. اگر حسن نیت به زیر {3} کاهش یابد، {0} دوباره متخاصم خواهد شد. اگر حسن نیت به بالای {4} افزایش یابد، آنها متحد شما خواهند شد و برای شما خواهند جنگید.</LetterRelationsChange_NeutralFromHostileGoodwillDescription>
   
   <!-- EN: Relations with {0} have cooled. They now consider you neutral instead of allied. -->
-  <LetterRelationsChange_NeutralFromAlly>Relations with {0} have cooled. They now consider you neutral instead of allied.</LetterRelationsChange_NeutralFromAlly>
+  <LetterRelationsChange_NeutralFromAlly>روابط با {0} سرد شده است. آنها اکنون شما را به جای متحد، خنثی می‌دانند.</LetterRelationsChange_NeutralFromAlly>
   <!-- EN: While they will still interact peacefully with you, they will no longer send fighters to help you when you are under threat.\n\nThis happened because goodwill ({1}) has fallen below {2}. If goodwill falls below {3}, {0} will become hostile. If goodwill rises above {4}, they will become allied once again. -->
-  <LetterRelationsChange_NeutralFromAllyGoodwillDescription>While they will still interact peacefully with you, they will no longer send fighters to help you when you are under threat.\n\nThis happened because goodwill ({1}) has fallen below {2}. If goodwill falls below {3}, {0} will become hostile. If goodwill rises above {4}, they will become allied once again.</LetterRelationsChange_NeutralFromAllyGoodwillDescription>
+  <LetterRelationsChange_NeutralFromAllyGoodwillDescription>در حالی که آنها همچنان با شما به صورت مسالمت‌آمیز تعامل خواهند داشت، دیگر جنگجو برای کمک به شما در هنگام تهدید نخواهند فرستاد.\n\nاین اتفاق به این دلیل افتاد که حسن نیت ({1}) به زیر {2} کاهش یافته است. اگر حسن نیت به زیر {3} کاهش یابد، {0} متخاصم خواهد شد. اگر حسن نیت به بالای {4} افزایش یابد، دوباره متحد خواهند شد.</LetterRelationsChange_NeutralFromAllyGoodwillDescription>
   
   <!-- EN: Relations with {0} have become very close. They now consider you an ally. -->
-  <LetterRelationsChange_Ally>Relations with {0} have become very close. They now consider you an ally.</LetterRelationsChange_Ally>
+  <LetterRelationsChange_Ally>روابط با {0} بسیار نزدیک شده است. آنها اکنون شما را متحد می‌دانند.</LetterRelationsChange_Ally>
   <!-- EN: Allies will sometimes arrive to help fight your enemies when you are under attack. You can also call them for help at any time, at a cost of goodwill.\n\nYou've become allies because your goodwill ({0}) has risen past {1}. If goodwill falls below {2}, relations will return to neutral. -->
-  <LetterRelationsChange_AllyGoodwillDescription>Allies will sometimes arrive to help fight your enemies when you are under attack. You can also call them for help at any time, at a cost of goodwill.\n\nYou've become allies because your goodwill ({0}) has risen past {1}. If goodwill falls below {2}, relations will return to neutral.</LetterRelationsChange_AllyGoodwillDescription>
+  <LetterRelationsChange_AllyGoodwillDescription>متحدان گاهی اوقات برای کمک به مبارزه با دشمنان شما در هنگام حمله می‌رسند. همچنین می‌توانید در هر زمان با هزینه حسن نیت از آنها کمک بخواهید.\n\nشما به این دلیل متحد شده‌اید که حسن نیت شما ({0}) از {1} فراتر رفته است. اگر حسن نیت به زیر {2} کاهش یابد، روابط به حالت خنثی باز خواهد گشت.</LetterRelationsChange_AllyGoodwillDescription>
 
   <!-- EN: goodwill -->
-  <goodwill>goodwill</goodwill>
+  <goodwill>حسن نیت</goodwill>
   <!-- EN: Neutral -->
-  <Neutral>Neutral</Neutral>
+  <Neutral>خنثی</Neutral>
   <!-- EN: neutral -->
-  <NeutralLower>neutral</NeutralLower>
+  <NeutralLower>خنثی</NeutralLower>
   <!-- EN: Death -->
-  <Death>Death</Death>
+  <Death>مرگ</Death>
 
   <!-- EN: A {1_label} has short-circuited due to precipitation and started a fire. -->
-  <ShortCircuitRain>A {1_label} has short-circuited due to precipitation and started a fire.</ShortCircuitRain>
+  <ShortCircuitRain>یک {1_label} به دلیل بارش اتصال کوتاه کرده و آتش گرفته است.</ShortCircuitRain>
 
   <!-- EN: Area revealed -->
-  <LetterLabelAreaRevealed>Area revealed</LetterLabelAreaRevealed>
+  <LetterLabelAreaRevealed>منطقه کشف شد</LetterLabelAreaRevealed>
   <!-- EN: A new area has been revealed. -->
-  <AreaRevealed>A new area has been revealed.</AreaRevealed>
+  <AreaRevealed>منطقه جدیدی کشف شده است.</AreaRevealed>
   <!-- EN: A new area has been revealed. It contains ancient, hostile mechanoids. -->
-  <AreaRevealedWithMechanoids>A new area has been revealed. It contains ancient, hostile mechanoids.</AreaRevealedWithMechanoids>
+  <AreaRevealedWithMechanoids>منطقه جدیدی کشف شده است. حاوی مکانویدهای باستانی و متخاصم است.</AreaRevealedWithMechanoids>
 
   <!-- EN: A roof has collapsed because it was too far from any support. -->
-  <RoofCollapsed>A roof has collapsed because it was too far from any support.</RoofCollapsed>
+  <RoofCollapsed>سقفی به دلیل فاصله زیاد از هرگونه پشتیبانی فرو ریخته است.</RoofCollapsed>
   <!-- EN: These things were crushed: -->
-  <TheseThingsCrushed>These things were crushed:</TheseThingsCrushed>
+  <TheseThingsCrushed>این چیزها له شدند:</TheseThingsCrushed>
   <!-- EN: Nothing was crushed. -->
-  <NothingCrushed>Nothing was crushed.</NothingCrushed>
+  <NothingCrushed>چیزی له نشد.</NothingCrushed>
   <!-- EN: Roof collapse -->
-  <LetterLabelRoofCollapsed>Roof collapse</LetterLabelRoofCollapsed>
+  <LetterLabelRoofCollapsed>فرو ریختن سقف</LetterLabelRoofCollapsed>
 
   <!-- EN: {0} successfully recruited {1} ({2} chance). -->
-  <RecruitSuccess>{0} successfully recruited {1} ({2} chance).</RecruitSuccess>
+  <RecruitSuccess>{0} با موفقیت {1} را استخدام کرد (شانس {2}).</RecruitSuccess>
   <!-- EN: {0} failed to recruit {1} ({2} chance). -->
-  <RecruitFail>{0} failed to recruit {1} ({2} chance).</RecruitFail>
+  <RecruitFail>{0} در استخدام {1} شکست خورد (شانس {2}).</RecruitFail>
 
   <!-- EN: {PAWN_nameDef} is {RELATIVE_labelShort}'s {1}. If {PAWN_nameDef} dies, {RELATIVE_labelShort} will suffer from long-lasting grief. However, if you manage to rescue {PAWN_nameDef}, {RELATIVE_labelShort} will be very happy for a long time. -->
-  <RelatedPawnInvolvedInQuest>{PAWN_nameDef} is {RELATIVE_labelShort}'s {1}. If {PAWN_nameDef} dies, {RELATIVE_labelShort} will suffer from long-lasting grief. However, if you manage to rescue {PAWN_nameDef}, {RELATIVE_labelShort} will be very happy for a long time.</RelatedPawnInvolvedInQuest>
+  <RelatedPawnInvolvedInQuest>{PAWN_nameDef} {1} {RELATIVE_labelShort} است. اگر {PAWN_nameDef} بمیرد، {RELATIVE_labelShort} از غم طولانی مدت رنج خواهد برد. با این حال، اگر موفق به نجات {PAWN_nameDef} شوید، {RELATIVE_labelShort} برای مدت طولانی بسیار خوشحال خواهد بود.</RelatedPawnInvolvedInQuest>
 
   <!-- EN: Birthday -->
-  <LetterLabelBirthday>Birthday</LetterLabelBirthday>
+  <LetterLabelBirthday>تولد</LetterLabelBirthday>
   <!-- EN: It's {0}'s chronological birthday today! Biologically, {1} is {3} years old.\n\nChronologically, {1} just turned {2}.\n\nNote that since people don't age while in cryptosleep, chronological birthday is separate from biological birthday. -->
-  <BirthdayChronological>It's {0}'s chronological birthday today! Biologically, {1} is {3} years old.\n\nChronologically, {1} just turned {2}.\n\nNote that since people don't age while in cryptosleep, chronological birthday is separate from biological birthday.</BirthdayChronological>
+  <BirthdayChronological>امروز تولد تقویمی {0} است! از نظر بیولوژیکی، {1} {3} سال دارد.\n\nاز نظر تقویمی، {1} به تازگی {2} ساله شده است.\n\nتوجه داشته باشید که از آنجایی که افراد در حین کریپتوسلیپ پیر نمی‌شوند، تولد تقویمی از تولد بیولوژیکی جدا است.</BirthdayChronological>
   <!-- EN: {0_nameFull} has reached the biological age of {1}. -->
-  <LetterBirthdayBiological>{0_nameFull} has reached the biological age of {1}.</LetterBirthdayBiological>
+  <LetterBirthdayBiological>{0_nameFull} به سن بیولوژیکی {1} رسیده است.</LetterBirthdayBiological>
   <!-- EN: Unfortunately, {0_nameFull} has gained the following diseases due to aging -->
-  <BirthdayBiologicalAgeInjuries>Unfortunately, {0_nameFull} has gained the following diseases due to aging</BirthdayBiologicalAgeInjuries>
+  <BirthdayBiologicalAgeInjuries>متأسفانه، {0_nameFull} به دلیل پیری بیماری‌های زیر را گرفته است</BirthdayBiologicalAgeInjuries>
 
   <!-- EN: Disease -->
-  <LetterLabelNewDisease>Disease</LetterLabelNewDisease>
+  <LetterLabelNewDisease>بیماری</LetterLabelNewDisease>
   <!-- EN: {PAWN} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment and spends as much time in bed as possible. -->
-  <NewDisease>{PAWN} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment and spends as much time in bed as possible.</NewDisease>
+  <NewDisease>{PAWN} از {1} بیمار شده است.\n\nاطمینان حاصل کنید که یک تخت پزشکی و یک پزشک دارید. مطمئن شوید که {PAWN_definite} درمان مناسب دریافت می‌کند و تا حد امکان در بستر می‌ماند.</NewDisease>
   <!-- EN: {PAWN} has gotten sick from {3}. The infection is in {PAWN_possessive} {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment and spends as much time in bed as possible. -->
-  <NewPartDisease>{PAWN} has gotten sick from {3}. The infection is in {PAWN_possessive} {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment and spends as much time in bed as possible.</NewPartDisease>
+  <NewPartDisease>{PAWN} از {3} بیمار شده است. عفونت در {1} {PAWN_possessive} است.\n\nاطمینان حاصل کنید که یک تخت پزشکی و یک پزشک دارید. مطمئن شوید که {PAWN_definite} درمان مناسب دریافت می‌کند و تا حد امکان در بستر می‌ماند.</NewPartDisease>
   <!-- EN: {PAWN_labelShort} has developed an illness: {1} -->
-  <NewDiseaseAnimal>{PAWN_labelShort} has developed an illness: {1}</NewDiseaseAnimal>
+  <NewDiseaseAnimal>{PAWN_labelShort} به بیماری مبتلا شده است: {1}</NewDiseaseAnimal>
   <!-- EN: {PAWN_labelShort} has developed an illness: {3} in {PAWN_possessive} {1} -->
-  <NewPartDiseaseAnimal>{PAWN_labelShort} has developed an illness: {3} in {PAWN_possessive} {1}</NewPartDiseaseAnimal>
+  <NewPartDiseaseAnimal>{PAWN_labelShort} به بیماری مبتلا شده است: {3} در {1} {PAWN_possessive}</NewPartDiseaseAnimal>
 
   <!-- EN: {0} was formerly part of your faction. -->
-  <PawnWasFormerlyColonist>{0} was formerly part of your faction.</PawnWasFormerlyColonist>
+  <PawnWasFormerlyColonist>{0} قبلاً بخشی از جناح شما بود.</PawnWasFormerlyColonist>
   <!-- EN: You previously hosted {0}. -->
-  <PawnWasFormerlyLodger>You previously hosted {0}.</PawnWasFormerlyLodger>
+  <PawnWasFormerlyLodger>شما قبلاً میزبان {0} بودید.</PawnWasFormerlyLodger>
   <!-- EN: {1_labelShort} has these relationships with your colonists: -->
-  <PawnHasTheseRelationshipsWithColonists>{1_labelShort} has these relationships with your colonists:</PawnHasTheseRelationshipsWithColonists>
+  <PawnHasTheseRelationshipsWithColonists>{1_labelShort} این روابط را با مهاجران شما دارد:</PawnHasTheseRelationshipsWithColonists>
 
   <!-- EN: Ancient danger -->
-  <LetterLabelAncientShrineWarning>Ancient danger</LetterLabelAncientShrineWarning>
+  <LetterLabelAncientShrineWarning>خطر باستانی</LetterLabelAncientShrineWarning>
   <!-- EN: As {PAWN_nameDef} draws near the ancient wall, a sense of foreboding overcomes {PAWN_objective}. {PAWN_pronoun} isn't sure why, but {PAWN_pronoun} feels that this dusty structure may contain great danger. -->
-  <AncientShrineWarning>As {PAWN_nameDef} draws near the ancient wall, a sense of foreboding overcomes {PAWN_objective}. {PAWN_pronoun} isn't sure why, but {PAWN_pronoun} feels that this dusty structure may contain great danger.</AncientShrineWarning>
+  <AncientShrineWarning>همانطور که {PAWN_nameDef} به دیوار باستانی نزدیک می‌شود، حس پیشگویی بر {PAWN_objective} غلبه می‌کند. {PAWN_pronoun} مطمئن نیست چرا، اما {PAWN_pronoun} احساس می‌کند که این سازه غبارآلود ممکن است حاوی خطر بزرگی باشد.</AncientShrineWarning>
 
   <!-- EN: We have struck {0}! -->
-  <StruckMineable>We have struck {0}!</StruckMineable>
+  <StruckMineable>ما به {0} برخورد کردیم!</StruckMineable>
 
   <!-- EN: {0} revenge -->
-  <LetterLabelAnimalManhunterRevenge>{0} revenge</LetterLabelAnimalManhunterRevenge>
+  <LetterLabelAnimalManhunterRevenge>انتقام {0}</LetterLabelAnimalManhunterRevenge>
   <!-- EN: {1_indefinite} is attacking after being harmed!\n\nIt will hunt any humanoid it can reach. It will calm down when it goes to sleep. -->
-  <AnimalManhunterFromDamage>{1_indefinite} is attacking after being harmed!\n\nIt will hunt any humanoid it can reach. It will calm down when it goes to sleep.</AnimalManhunterFromDamage>
+  <AnimalManhunterFromDamage>{1_indefinite} پس از آسیب دیدن حمله می‌کند!\n\nهر انسان‌نمایی را که بتواند به آن برسد شکار خواهد کرد. وقتی به خواب برود آرام خواهد شد.</AnimalManhunterFromDamage>
   <!-- EN: {1_indefinite} is attacking due to a botched taming attempt! -->
-  <AnimalManhunterFromTaming>{1_indefinite} is attacking due to a botched taming attempt!</AnimalManhunterFromTaming>
+  <AnimalManhunterFromTaming>{1_indefinite} به دلیل تلاش ناموفق برای اهلی کردن حمله می‌کند!</AnimalManhunterFromTaming>
   <!-- EN: Other {1_kindBasePlural} nearby have also become enraged! -->
-  <AnimalManhunterOthers>Other {1_kindBasePlural} nearby have also become enraged!</AnimalManhunterOthers>
+  <AnimalManhunterOthers>سایر {1_kindBasePlural} نزدیک نیز خشمگین شده‌اند!</AnimalManhunterOthers>
 
   <!-- EN: {1_labelShort} hit trap -->
-  <LetterFriendlyTrapSprungLabel>{1_labelShort} hit trap</LetterFriendlyTrapSprungLabel>
+  <LetterFriendlyTrapSprungLabel>{1_labelShort} به تله برخورد کرد</LetterFriendlyTrapSprungLabel>
   <!-- EN: {1_labelShort} has accidentally sprung a trap and taken damage from it. -->
-  <LetterFriendlyTrapSprung>{1_labelShort} has accidentally sprung a trap and taken damage from it.</LetterFriendlyTrapSprung>
+  <LetterFriendlyTrapSprung>{1_labelShort} به طور تصادفی یک تله را فعال کرده و از آن آسیب دیده است.</LetterFriendlyTrapSprung>
 
   <!-- EN: {PAWN_labelShort} has developed a health condition:\n\n  {1}\n\nThis was caused by:\n\n  {2} -->
-  <LetterHealthComplications>{PAWN_labelShort} has developed a health condition:\n\n  {1}\n\nThis was caused by:\n\n  {2}</LetterHealthComplications>
+  <LetterHealthComplications>{PAWN_labelShort} به یک وضعیت سلامتی مبتلا شده است:\n\n  {1}\n\nاین ناشی از:\n\n  {2} بود.</LetterHealthComplications>
   <!-- EN: {PAWN_labelShort}: {1} -->
   <LetterHealthComplicationsLabel>{PAWN_labelShort}: {1}</LetterHealthComplicationsLabel>
   
   <!-- EN: {PAWN_labelShort} has developed a health condition: {1}. -->
-  <LetterHediffFromRandomHediffGiver>{PAWN_labelShort} has developed a health condition: {1}.</LetterHediffFromRandomHediffGiver>
+  <LetterHediffFromRandomHediffGiver>{PAWN_labelShort} به یک وضعیت سلامتی مبتلا شده است: {1}.</LetterHediffFromRandomHediffGiver>
   <!-- EN: {PAWN_labelShort}: {1} -->
   <LetterHediffFromRandomHediffGiverLabel>{PAWN_labelShort}: {1}</LetterHediffFromRandomHediffGiverLabel>
 
   <!-- EN: {1} died: {0} -->
-  <LetterLeadersDeathLabel>{1} died: {0}</LetterLeadersDeathLabel>
+  <LetterLeadersDeathLabel>{1} درگذشت: {0}</LetterLeadersDeathLabel>
   <!-- EN: {OLDLEADER_nameFull}, {1} of {0}, has died. -->
-  <LetterLeadersDeath>{OLDLEADER_nameFull}, {1} of {0}, has died.</LetterLeadersDeath>
+  <LetterLeadersDeath>{OLDLEADER_nameFull}، {1} از {0}، درگذشت.</LetterLeadersDeath>
 
   <!-- EN: New {1}: {0} -->
-  <LetterLeaderChangedLabel>New {1}: {0}</LetterLeaderChangedLabel>
+  <LetterLeaderChangedLabel>{1} جدید: {0}</LetterLeaderChangedLabel>
   <!-- EN: {OLDLEADER_nameFull} is no longer {1} of {0}. -->
-  <LetterLeaderChanged>{OLDLEADER_nameFull} is no longer {1} of {0}.</LetterLeaderChanged>
+  <LetterLeaderChanged>{OLDLEADER_nameFull} دیگر {1} از {0} نیست.</LetterLeaderChanged>
 
   <!-- EN: The new {0} is {NEWLEADER_nameFull}. -->
-  <LetterNewLeader>The new {0} is {NEWLEADER_nameFull}.</LetterNewLeader>
+  <LetterNewLeader>{0} جدید {NEWLEADER_nameFull} است.</LetterNewLeader>
 
   <!-- EN: The final straw was: {0} -->
-  <FinalStraw>The final straw was: {0}</FinalStraw>
+  <FinalStraw>آخرین ضربه: {0} بود.</FinalStraw>
   <!-- EN: This happened because of poor mood. -->
-  <MentalStateReason_Mood>This happened because of poor mood.</MentalStateReason_Mood>
+  <MentalStateReason_Mood>این به دلیل روحیه ضعیف اتفاق افتاد.</MentalStateReason_Mood>
   <!-- EN: This happened because of the trait: {0}. -->
-  <MentalStateReason_Trait>This happened because of the trait: {0}.</MentalStateReason_Trait>
+  <MentalStateReason_Trait>این به دلیل ویژگی: {0} اتفاق افتاد.</MentalStateReason_Trait>
   <!-- EN: This happened because of: {0}. -->
-  <MentalStateReason_Hediff>This happened because of: {0}.</MentalStateReason_Hediff>
+  <MentalStateReason_Hediff>این به دلیل: {0} اتفاق افتاد.</MentalStateReason_Hediff>
   <!-- EN: This happened because of {0_definite}'s death. -->
-  <MentalStateReason_BondedHumanDeath>This happened because of {0_definite}'s death.</MentalStateReason_BondedHumanDeath>
+  <MentalStateReason_BondedHumanDeath>این به دلیل مرگ {0_definite} اتفاق افتاد.</MentalStateReason_BondedHumanDeath>
   <!-- EN: The last event was -->
-  <LastFactionRelationsEvent>The last event was</LastFactionRelationsEvent>
+  <LastFactionRelationsEvent>آخرین رویداد بود</LastFactionRelationsEvent>
 
   <!-- EN: View related quest -->
-  <ViewRelatedQuest>View related quest</ViewRelatedQuest>
+  <ViewRelatedQuest>مشاهده ماموریت مرتبط</ViewRelatedQuest>
   <!-- EN: View quest -->
-  <ViewQuest>View quest</ViewQuest>
+  <ViewQuest>مشاهده ماموریت</ViewQuest>
   <!-- EN: The last events in {PAWN_definite}'s life -->
-  <LastEventsInLife>The last events in {PAWN_definite}'s life</LastEventsInLife>
+  <LastEventsInLife>آخرین رویدادها در زندگی {PAWN_definite}</LastEventsInLife>
 
   <!-- EN: Thanks to high mood, [PAWN_nameIndef] has experienced an inspiration! -->
-  <LetterInspirationBeginThanksToHighMoodPart>Thanks to high mood, [PAWN_nameIndef] has experienced an inspiration!</LetterInspirationBeginThanksToHighMoodPart>
+  <LetterInspirationBeginThanksToHighMoodPart>به لطف روحیه بالا، [PAWN_nameIndef] الهام گرفته است!</LetterInspirationBeginThanksToHighMoodPart>
 
   <!-- Related pawns -->
   <!-- EN: Relationship -->
-  <LetterLabelNoticedRelatedPawns>Relationship</LetterLabelNoticedRelatedPawns>
+  <LetterLabelNoticedRelatedPawns>رابطه</LetterLabelNoticedRelatedPawns>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group of {1}.\n\nKeep in mind that even though they are related, they will still attack each other because of their bad factions relations.\n\nThese people are: -->
-  <LetterRelatedPawnsRaidEnemy>There are people who have relationships with your {0} or prisoners in the arriving group of {1}.\n\nKeep in mind that even though they are related, they will still attack each other because of their bad factions relations.\n\nThese people are:</LetterRelatedPawnsRaidEnemy>
+  <LetterRelatedPawnsRaidEnemy>افرادی در گروه {1} که در حال رسیدن هستند، با {0} یا زندانیان شما رابطه دارند.\n\nبه خاطر داشته باشید که حتی اگر با هم نسبت داشته باشند، به دلیل روابط بد جناح‌هایشان همچنان به یکدیگر حمله خواهند کرد.\n\nاین افراد عبارتند از:</LetterRelatedPawnsRaidEnemy>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group of friendly {1}: -->
-  <LetterRelatedPawnsRaidFriendly>There are people who have relationships with your {0} or prisoners in the arriving group of friendly {1}:</LetterRelatedPawnsRaidFriendly>
+  <LetterRelatedPawnsRaidFriendly>افرادی در گروه {1} دوستانه که در حال رسیدن هستند، با {0} یا زندانیان شما رابطه دارند:</LetterRelatedPawnsRaidFriendly>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group: -->
-  <LetterRelatedPawnsNeutralGroup>There are people who have relationships with your {0} or prisoners in the arriving group:</LetterRelatedPawnsNeutralGroup>
+  <LetterRelatedPawnsNeutralGroup>افرادی در گروهی که در حال رسیدن هستند، با {0} یا زندانیان شما رابطه دارند:</LetterRelatedPawnsNeutralGroup>
   <!-- EN: The orbital trader is selling people who have relationships with your {0} or prisoners: -->
-  <LetterRelatedPawnsTradeShip>The orbital trader is selling people who have relationships with your {0} or prisoners:</LetterRelatedPawnsTradeShip>
+  <LetterRelatedPawnsTradeShip>تاجر مداری افرادی را می‌فروشد که با {0} یا زندانیان شما رابطه دارند:</LetterRelatedPawnsTradeShip>
   <!-- EN: The settlement is selling people who have relationships with your {0} or prisoners: -->
-  <LetterRelatedPawnsTradingWithSettlement>The settlement is selling people who have relationships with your {0} or prisoners:</LetterRelatedPawnsTradingWithSettlement>
+  <LetterRelatedPawnsTradingWithSettlement>سکونتگاه افرادی را می‌فروشد که با {0} یا زندانیان شما رابطه دارند:</LetterRelatedPawnsTradingWithSettlement>
   <!-- EN: The caravan is selling people who have relationships with your {0} or prisoners: -->
-  <LetterRelatedPawnsTradingWithOtherCaravan>The caravan is selling people who have relationships with your {0} or prisoners:</LetterRelatedPawnsTradingWithOtherCaravan>
+  <LetterRelatedPawnsTradingWithOtherCaravan>کاروان افرادی را می‌فروشد که با {0} یا زندانیان شما رابطه دارند:</LetterRelatedPawnsTradingWithOtherCaravan>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the group: -->
-  <LetterRelatedPawnsGroupGeneric>There are people who have relationships with your {0} or prisoners in the group:</LetterRelatedPawnsGroupGeneric>
+  <LetterRelatedPawnsGroupGeneric>افرادی در گروهی که با {0} یا زندانیان شما رابطه دارند:</LetterRelatedPawnsGroupGeneric>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the area where your {0} have landed. -->
-  <LetterRelatedPawnsInMapWherePlayerLanded>There are people who have relationships with your {0} or prisoners in the area where your {0} have landed.</LetterRelatedPawnsInMapWherePlayerLanded>
+  <LetterRelatedPawnsInMapWherePlayerLanded>افرادی در منطقه‌ای که {0} شما در آن فرود آمده‌اند، با {0} یا زندانیان شما رابطه دارند.</LetterRelatedPawnsInMapWherePlayerLanded>
   <!-- EN: There are people who have relationships with your {0} or prisoners in this settlement: -->
-  <LetterRelatedPawnsSettlement>There are people who have relationships with your {0} or prisoners in this settlement:</LetterRelatedPawnsSettlement>
+  <LetterRelatedPawnsSettlement>افرادی در این سکونتگاه که با {0} یا زندانیان شما رابطه دارند:</LetterRelatedPawnsSettlement>
   <!-- EN: There are people who have relationships with your {0} or prisoners in this area: -->
-  <LetterRelatedPawnsSite>There are people who have relationships with your {0} or prisoners in this area:</LetterRelatedPawnsSite>
+  <LetterRelatedPawnsSite>افرادی در این منطقه که با {0} یا زندانیان شما رابطه دارند:</LetterRelatedPawnsSite>
 
   <!-- EN: relationship -->
-  <RelationshipAppendedLetterSuffix>relationship</RelationshipAppendedLetterSuffix>
+  <RelationshipAppendedLetterSuffix>رابطه</RelationshipAppendedLetterSuffix>
   <!-- EN: {PAWN_nameDef} has a relationship with a colonist. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
-  <RelationshipAppendedLetterTextColonist>{PAWN_nameDef} has a relationship with a colonist. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}.</RelationshipAppendedLetterTextColonist>
+  <RelationshipAppendedLetterTextColonist>{PAWN_nameDef} با یک مهاجر رابطه دارد. {PAWN_pronoun} {1} {RELATIVE_labelShort} است.</RelationshipAppendedLetterTextColonist>
   <!-- EN: {PAWN_nameDef} has a relationship with one of your prisoners. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
-  <RelationshipAppendedLetterTextPrisoner>{PAWN_nameDef} has a relationship with one of your prisoners. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}.</RelationshipAppendedLetterTextPrisoner>
+  <RelationshipAppendedLetterTextPrisoner>{PAWN_nameDef} با یکی از زندانیان شما رابطه دارد. {PAWN_pronoun} {1} {RELATIVE_labelShort} است.</RelationshipAppendedLetterTextPrisoner>
 
   <!-- Attempt romance / propose interaction -->
   <!-- EN: Affair -->
-  <LetterLabelAffair>Affair</LetterLabelAffair>
+  <LetterLabelAffair>رابطه نامشروع</LetterLabelAffair>
   <!-- EN: {PAWN1_labelShort}, married to {SPOUSE_labelShort}, has begun an affair with {PAWN2_labelShort}. -->
-  <LetterAffair>{PAWN1_labelShort}, married to {SPOUSE_labelShort}, has begun an affair with {PAWN2_labelShort}.</LetterAffair>
+  <LetterAffair>{PAWN1_labelShort}، همسر {SPOUSE_labelShort}، با {PAWN2_labelShort} رابطه نامشروع آغاز کرده است.</LetterAffair>
   <!-- EN: New lovers -->
-  <LetterLabelNewLovers>New lovers</LetterLabelNewLovers>
+  <LetterLabelNewLovers>عشاق جدید</LetterLabelNewLovers>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} now want to sleep together. Consider assigning them a double bed. -->
-  <LetterNewLovers>{PAWN1_labelShort} and {PAWN2_labelShort} now want to sleep together. Consider assigning them a double bed.</LetterNewLovers>
+  <LetterNewLovers>{PAWN1_labelShort} و {PAWN2_labelShort} اکنون می‌خواهند با هم بخوابند. اختصاص یک تخت دو نفره به آنها را در نظر بگیرید.</LetterNewLovers>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are no longer in a relationship. -->
-  <LetterNoLongerLovers>{PAWN1_labelShort} and {PAWN2_labelShort} are no longer in a relationship.</LetterNoLongerLovers>
+  <LetterNoLongerLovers>{PAWN1_labelShort} و {PAWN2_labelShort} دیگر با هم رابطه ندارند.</LetterNoLongerLovers>
   <!-- EN: {PAWN_labelShort} will change {PAWN_possessive} last name back to {PAWN_possessive} birth name. -->
-  <LetterNoLongerLovers_BackToBirthName>{PAWN_labelShort} will change {PAWN_possessive} last name back to {PAWN_possessive} birth name.</LetterNoLongerLovers_BackToBirthName>
+  <LetterNoLongerLovers_BackToBirthName>{PAWN_labelShort} نام خانوادگی {PAWN_possessive} را به نام خانوادگی اصلی {PAWN_possessive} تغییر خواهد داد.</LetterNoLongerLovers_BackToBirthName>
   <!-- EN: Breakup -->
-  <LetterLabelBreakup>Breakup</LetterLabelBreakup>
+  <LetterLabelBreakup>جدایی</LetterLabelBreakup>
   <!-- EN: Marriage is on! -->
-  <LetterLabelAcceptedProposal>Marriage is on!</LetterLabelAcceptedProposal>
+  <LetterLabelAcceptedProposal>ازدواج در راه است!</LetterLabelAcceptedProposal>
   <!-- EN: Rejected proposal -->
-  <LetterLabelRejectedProposal>Rejected proposal</LetterLabelRejectedProposal>
+  <LetterLabelRejectedProposal>پیشنهاد رد شده</LetterLabelRejectedProposal>
   <!-- EN: At some point in the coming days or quadrums, they will have their marriage ceremony and invite all the colonists. Consider placing a marriage spot if you want to control where the ceremony occurs. -->
-  <LetterAcceptedProposal>At some point in the coming days or quadrums, they will have their marriage ceremony and invite all the colonists. Consider placing a marriage spot if you want to control where the ceremony occurs.</LetterAcceptedProposal>
+  <LetterAcceptedProposal>در مقطعی در روزها یا چهارماه‌های آینده، آنها مراسم ازدواج خود را برگزار کرده و تمام مهاجران را دعوت خواهند کرد. اگر می‌خواهید محل برگزاری مراسم را کنترل کنید، قرار دادن یک محل ازدواج را در نظر بگیرید.</LetterAcceptedProposal>
   <!-- EN: {PAWN_label} will change {PAWN_possessive} last name to {1}. -->
-  <LetterAcceptedProposal_NameChange>{PAWN_label} will change {PAWN_possessive} last name to {1}.</LetterAcceptedProposal_NameChange>
+  <LetterAcceptedProposal_NameChange>{PAWN_label} نام خانوادگی {PAWN_possessive} را به {1} تغییر خواهد داد.</LetterAcceptedProposal_NameChange>
   <!-- EN: {INITIATOR_nameFull} is going to be unhappy about this. -->
-  <LetterRejectedProposal>{INITIATOR_nameFull} is going to be unhappy about this.</LetterRejectedProposal>
+  <LetterRejectedProposal>{INITIATOR_nameFull} از این موضوع ناراحت خواهد شد.</LetterRejectedProposal>
 
   <!-- Generalized letter labels -->
   <!-- EN: Hostile: {0} -->
-  <LetterLabelRelationsChange_Hostile>Hostile: {0}</LetterLabelRelationsChange_Hostile>
+  <LetterLabelRelationsChange_Hostile>متخاصم: {0}</LetterLabelRelationsChange_Hostile>
   <!-- EN: Allied: {0} -->
-  <LetterLabelRelationsChange_Ally>Allied: {0}</LetterLabelRelationsChange_Ally>
+  <LetterLabelRelationsChange_Ally>متحد: {0}</LetterLabelRelationsChange_Ally>
   <!-- EN: Enemy now neutral: {0} -->
-  <LetterLabelRelationsChange_NeutralFromHostile>Enemy now neutral: {0}</LetterLabelRelationsChange_NeutralFromHostile>
+  <LetterLabelRelationsChange_NeutralFromHostile>دشمن اکنون خنثی: {0}</LetterLabelRelationsChange_NeutralFromHostile>
   <!-- EN: Ally now neutral: {0} -->
-  <LetterLabelRelationsChange_NeutralFromAlly>Ally now neutral: {0}</LetterLabelRelationsChange_NeutralFromAlly>
+  <LetterLabelRelationsChange_NeutralFromAlly>متحد اکنون خنثی: {0}</LetterLabelRelationsChange_NeutralFromAlly>
   <!-- EN: Zzztt... -->
-  <LetterLabelShortCircuit>Zzztt...</LetterLabelShortCircuit>
+  <LetterLabelShortCircuit>زززت...</LetterLabelShortCircuit>
 
   <!-- Bonded animals -->
   <!-- EN: bonded -->
-  <LetterLabelSuffixBondedAnimalDied>bonded</LetterLabelSuffixBondedAnimalDied>
+  <LetterLabelSuffixBondedAnimalDied>پیوند خورده</LetterLabelSuffixBondedAnimalDied>
   <!-- EN: {ANIMAL_definite} was bonded to {HUMAN_labelShort}. It will affect {HUMAN_labelShort}'s mood. -->
-  <LetterPartBondedAnimalDied>{ANIMAL_definite} was bonded to {HUMAN_labelShort}. It will affect {HUMAN_labelShort}'s mood.</LetterPartBondedAnimalDied>
+  <LetterPartBondedAnimalDied>{ANIMAL_definite} با {HUMAN_labelShort} پیوند خورده بود. این بر روحیه {HUMAN_labelShort} تأثیر خواهد گذاشت.</LetterPartBondedAnimalDied>
   <!-- EN: It will affect mood of the following people:\n\n{0} -->
-  <LetterPartBondedAnimalDiedMulti>It will affect mood of the following people:\n\n{0}</LetterPartBondedAnimalDiedMulti>
+  <LetterPartBondedAnimalDiedMulti>بر روحیه افراد زیر تأثیر خواهد گذاشت:\n\n{0}</LetterPartBondedAnimalDiedMulti>
 
   <!-- Prison break -->
   <!-- EN: Prison break -->
-  <LetterLabelPrisonBreak>Prison break</LetterLabelPrisonBreak>
+  <LetterLabelPrisonBreak>فرار از زندان</LetterLabelPrisonBreak>
   <!-- EN: Prisoners have staged a breakout! They've somehow defeated the door locks and are making their way out. They may seek weapons, fight, or try to escape. These prisoners are involved:\n\n{0}\n\nPrisoners are more likely to attempt breakout when they are numerous and healthy. -->
-  <LetterPrisonBreak>Prisoners have staged a breakout! They've somehow defeated the door locks and are making their way out. They may seek weapons, fight, or try to escape. These prisoners are involved:\n\n{0}\n\nPrisoners are more likely to attempt breakout when they are numerous and healthy.</LetterPrisonBreak>
+  <LetterPrisonBreak>زندانیان دست به فرار زده‌اند! آنها به نحوی قفل درها را شکسته‌اند و در حال خروج هستند. ممکن است به دنبال سلاح باشند، بجنگند یا سعی در فرار داشته باشند. این زندانیان درگیر هستند:\n\n{0}\n\nزندانیان زمانی که تعدادشان زیاد و سالم هستند، بیشتر احتمال دارد که اقدام به فرار کنند.</LetterPrisonBreak>
 
   <!-- Newly addicted -->
   <!-- EN: {0} addiction -->
-  <LetterLabelNewlyAddicted>{0} addiction</LetterLabelNewlyAddicted>
+  <LetterLabelNewlyAddicted>اعتیاد به {0}</LetterLabelNewlyAddicted>
   <!-- EN: {PAWN_labelShort} has developed an addiction to {1}.\n\n{PAWN_pronoun} now has a need for {1}, visible on {PAWN_possessive} Needs tab. {PAWN_pronoun} will automatically consume the drug to fulfil {PAWN_possessive} need. If {PAWN_pronoun} cannot get any {1}, {PAWN_pronoun} will go into withdrawal. -->
-  <LetterNewlyAddicted>{PAWN_labelShort} has developed an addiction to {1}.\n\n{PAWN_pronoun} now has a need for {1}, visible on {PAWN_possessive} Needs tab. {PAWN_pronoun} will automatically consume the drug to fulfil {PAWN_possessive} need. If {PAWN_pronoun} cannot get any {1}, {PAWN_pronoun} will go into withdrawal.</LetterNewlyAddicted>
+  <LetterNewlyAddicted>{PAWN_labelShort} به {1} معتاد شده است.\n\n{PAWN_pronoun} اکنون به {1} نیاز دارد که در تب نیازهای {PAWN_possessive} قابل مشاهده است. {PAWN_pronoun} به طور خودکار دارو را برای برآورده کردن نیاز {PAWN_possessive} مصرف خواهد کرد. اگر {PAWN_pronoun} نتواند {1} را به دست آورد، {PAWN_pronoun} دچار علائم ترک خواهد شد.</LetterNewlyAddicted>
 
   <!-- Drug binge -->
   <!-- EN: {0} binge -->
-  <LetterLabelDrugBinge>{0} binge</LetterLabelDrugBinge>
+  <LetterLabelDrugBinge>زیاده‌روی در مصرف {0}</LetterLabelDrugBinge>
   <!-- EN: {2_label} is binging on {1}. -->
-  <LetterDrugBinge>{2_label} is binging on {1}.</LetterDrugBinge>
+  <LetterDrugBinge>{2_label} در مصرف {1} زیاده‌روی می‌کند.</LetterDrugBinge>
 
   <!-- Caravan destroyed -->
   <!-- EN: Caravan destroyed -->
-  <LetterLabelAllCaravanColonistsDied>Caravan destroyed</LetterLabelAllCaravanColonistsDied>
+  <LetterLabelAllCaravanColonistsDied>کاروان نابود شد</LetterLabelAllCaravanColonistsDied>
   <!-- EN: All members of {0} have died. -->
-  <LetterAllCaravanColonistsDied>All members of {0} have died.</LetterAllCaravanColonistsDied>
+  <LetterAllCaravanColonistsDied>تمام اعضای {0} مرده‌اند.</LetterAllCaravanColonistsDied>
 
   <!-- Caravan entered map -->
   <!-- EN: Caravan arrived at {0_label} -->
-  <LetterLabelCaravanEnteredMap>Caravan arrived at {0_label}</LetterLabelCaravanEnteredMap>
+  <LetterLabelCaravanEnteredMap>کاروان به {0_label} رسید</LetterLabelCaravanEnteredMap>
   <!-- EN: {0} has arrived at {1_definite}. -->
-  <LetterCaravanEnteredMap>{0} has arrived at {1_definite}.</LetterCaravanEnteredMap>
+  <LetterCaravanEnteredMap>{0} به {1_definite} رسیده است.</LetterCaravanEnteredMap>
 
   <!-- Caravan entered enemy base -->
   <!-- EN: Attack begun -->
-  <LetterLabelCaravanEnteredEnemyBase>Attack begun</LetterLabelCaravanEnteredEnemyBase>
+  <LetterLabelCaravanEnteredEnemyBase>حمله آغاز شد</LetterLabelCaravanEnteredEnemyBase>
   <!-- EN: {0} has arrived at {1} and is ready to begin the attack. -->
-  <LetterCaravanEnteredEnemyBase>{0} has arrived at {1} and is ready to begin the attack.</LetterCaravanEnteredEnemyBase>
+  <LetterCaravanEnteredEnemyBase>{0} به {1} رسیده و آماده آغاز حمله است.</LetterCaravanEnteredEnemyBase>
 
   <!-- Transport pods landed in enemy base -->
   <!-- EN: Attack begun -->
-  <LetterLabelTransportPodsLandedInEnemyBase>Attack begun</LetterLabelTransportPodsLandedInEnemyBase>
+  <LetterLabelTransportPodsLandedInEnemyBase>حمله آغاز شد</LetterLabelTransportPodsLandedInEnemyBase>
   <!-- EN: Your transport pods have arrived at {0}. -->
-  <LetterTransportPodsLandedInEnemyBase>Your transport pods have arrived at {0}.</LetterTransportPodsLandedInEnemyBase>
+  <LetterTransportPodsLandedInEnemyBase>کپسول‌های حمل و نقل شما به {0} رسیده‌اند.</LetterTransportPodsLandedInEnemyBase>
   <!-- EN: The shuttle has arrived at {0}. -->
-  <LetterShuttleLandedInEnemyBase>The shuttle has arrived at {0}.</LetterShuttleLandedInEnemyBase>
+  <LetterShuttleLandedInEnemyBase>شاتل به {0} رسیده است.</LetterShuttleLandedInEnemyBase>
 
   <!-- Faction base defeated -->
   <!-- EN: Base destroyed -->
-  <LetterLabelFactionBaseDefeated>Base destroyed</LetterLabelFactionBaseDefeated>
+  <LetterLabelFactionBaseDefeated>پایگاه نابود شد</LetterLabelFactionBaseDefeated>
   <!-- EN: The enemy settlement {0} has been destroyed.\n\nIn {1}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves. -->
-  <LetterFactionBaseDefeated>The enemy settlement {0} has been destroyed.\n\nIn {1}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves.</LetterFactionBaseDefeated>
+  <LetterFactionBaseDefeated>سکونتگاه دشمن {0} نابود شده است.\n\nدر {1}، کاروان شما توسط دشمنان مورد حمله قرار خواهد گرفت. آنها شروع به ارسال نیرو برای حمله به کاروان خواهند کرد، مگر اینکه کاروان دوباره تشکیل شده و منطقه را ترک کند.</LetterFactionBaseDefeated>
   <!-- EN: Since this was their last settlement, {0} has been defeated. -->
-  <LetterFactionBaseDefeated_FactionDestroyed>Since this was their last settlement, {0} has been defeated.</LetterFactionBaseDefeated_FactionDestroyed>
+  <LetterFactionBaseDefeated_FactionDestroyed>از آنجایی که این آخرین سکونتگاه آنها بود، {0} شکست خورده است.</LetterFactionBaseDefeated_FactionDestroyed>
 
   <!-- Quest completed -->
   <!-- EN: Quest completed -->
-  <LetterLabelDefeatAllEnemiesQuestCompleted>Quest completed</LetterLabelDefeatAllEnemiesQuestCompleted>
+  <LetterLabelDefeatAllEnemiesQuestCompleted>ماموریت تکمیل شد</LetterLabelDefeatAllEnemiesQuestCompleted>
   <!-- EN: You have defeated the enemy outpost!\n\nThe payment from {0} has arrived, and faction relations have improved by {1}. -->
-  <LetterDefeatAllEnemiesQuestCompleted>You have defeated the enemy outpost!\n\nThe payment from {0} has arrived, and faction relations have improved by {1}.</LetterDefeatAllEnemiesQuestCompleted>
+  <LetterDefeatAllEnemiesQuestCompleted>شما پایگاه دشمن را شکست دادید!\n\nپرداخت از {0} رسیده است و روابط جناح به میزان {1} بهبود یافته است.</LetterDefeatAllEnemiesQuestCompleted>
 
   <!-- Long-range mineral scanner -->
   <!-- EN: Distant resource scanned -->
-  <LetterLabelFoundPreciousLump>Distant resource scanned</LetterLabelFoundPreciousLump>
+  <LetterLabelFoundPreciousLump>منبع دور اسکن شد</LetterLabelFoundPreciousLump>
   <!-- EN: Using your long-range mineral scanner, {WORKER_labelShort} has found a lump of {0} some distance away.\n\nUnfortunately, it won't last - others will mine it first in {1} days if we don't.\n\n{2}. -->
-  <LetterFoundPreciousLump>Using your long-range mineral scanner, {WORKER_labelShort} has found a lump of {0} some distance away.\n\nUnfortunately, it won't last - others will mine it first in {1} days if we don't.\n\n{2}.</LetterFoundPreciousLump>
+  <LetterFoundPreciousLump>با استفاده از اسکنر معدنی دوربرد شما، {WORKER_labelShort} یک توده {0} را در فاصله‌ای پیدا کرده است.\n\nمتأسفانه، دوام نخواهد داشت - اگر ما استخراج نکنیم، دیگران آن را در {1} روز اول استخراج خواهند کرد.\n\n{2}.</LetterFoundPreciousLump>
 
   <!-- Ground penetrating scanner -->
   <!-- EN: Scanned underground -->
-  <LetterLabelDeepScannerFoundLump>Scanned underground</LetterLabelDeepScannerFoundLump>
+  <LetterLabelDeepScannerFoundLump>زیر زمین اسکن شد</LetterLabelDeepScannerFoundLump>
   <!-- EN: {FINDER_nameDef} has found a lump of buried {0} using the ground-penetrating scanner! -->
-  <LetterDeepScannerFoundLump>{FINDER_nameDef} has found a lump of buried {0} using the ground-penetrating scanner!</LetterDeepScannerFoundLump>
+  <LetterDeepScannerFoundLump>{FINDER_nameDef} با استفاده از اسکنر نفوذکننده زمین، یک توده {0} دفن شده را پیدا کرده است!</LetterDeepScannerFoundLump>
 
   <!-- Ambush -->
   <!-- EN: Ambush -->
-  <LetterLabelAmbushInExistingMap>Ambush</LetterLabelAmbushInExistingMap>
+  <LetterLabelAmbushInExistingMap>کمین</LetterLabelAmbushInExistingMap>
   <!-- EN: Your {0} have been ambushed! -->
-  <LetterAmbushInExistingMap>Your {0} have been ambushed!</LetterAmbushInExistingMap>
+  <LetterAmbushInExistingMap>{0} شما مورد کمین قرار گرفته‌اند!</LetterAmbushInExistingMap>
 
   <!-- Peace talks -->
   <!-- EN: Peace talks disaster -->
-  <LetterLabelPeaceTalks_Disaster>Peace talks disaster</LetterLabelPeaceTalks_Disaster>
+  <LetterLabelPeaceTalks_Disaster>فاجعه مذاکرات صلح</LetterLabelPeaceTalks_Disaster>
   <!-- EN: The talks were a disaster. The delegates barely got past their initial greetings before the discussion broke down into insults and recriminations.\n\nAfter your caravan departed early, {0} from {1} caught up with it and attacked!\n\nRelations with {1}: {2}. -->
-  <LetterPeaceTalks_Disaster>The talks were a disaster. The delegates barely got past their initial greetings before the discussion broke down into insults and recriminations.\n\nAfter your caravan departed early, {0} from {1} caught up with it and attacked!\n\nRelations with {1}: {2}.</LetterPeaceTalks_Disaster>
+  <LetterPeaceTalks_Disaster>مذاکرات فاجعه‌بار بود. نمایندگان به سختی از سلام و احوالپرسی اولیه گذشتند قبل از اینکه بحث به توهین و اتهام متقابل کشیده شود.\n\nپس از اینکه کاروان شما زودتر حرکت کرد، {0} از {1} به آن رسید و حمله کرد!\n\nروابط با {1}: {2}.</LetterPeaceTalks_Disaster>
   <!-- EN: Peace talks backfire -->
-  <LetterLabelPeaceTalks_Backfire>Peace talks backfire</LetterLabelPeaceTalks_Backfire>
+  <LetterLabelPeaceTalks_Backfire>نتیجه معکوس مذاکرات صلح</LetterLabelPeaceTalks_Backfire>
   <!-- EN: The talks have backfired. Despite trading some pleasantries, the delegates made no progress on substantive issues, and multiple statements were interpreted as insults.\n\nRelations with {0}: {1}. -->
-  <LetterPeaceTalks_Backfire>The talks have backfired. Despite trading some pleasantries, the delegates made no progress on substantive issues, and multiple statements were interpreted as insults.\n\nRelations with {0}: {1}.</LetterPeaceTalks_Backfire>
+  <LetterPeaceTalks_Backfire>مذاکرات نتیجه معکوس داد. با وجود تبادل برخی خوش و بش‌ها، نمایندگان در مسائل اساسی پیشرفتی نکردند و چندین اظهارنظر به عنوان توهین تفسیر شد.\n\nروابط با {0}: {1}.</LetterPeaceTalks_Backfire>
   <!-- EN: Peace talks flounder -->
-  <LetterLabelPeaceTalks_TalksFlounder>Peace talks flounder</LetterLabelPeaceTalks_TalksFlounder>
+  <LetterLabelPeaceTalks_TalksFlounder>مذاکرات صلح به بن‌بست رسید</LetterLabelPeaceTalks_TalksFlounder>
   <!-- EN: The talks floundered. Delegates managed to communicate clearly and with basic respect, but were not able to make progress on any genuine issues.\n\nRelations with {0} remain unchanged. -->
-  <LetterPeaceTalks_TalksFlounder>The talks floundered. Delegates managed to communicate clearly and with basic respect, but were not able to make progress on any genuine issues.\n\nRelations with {0} remain unchanged.</LetterPeaceTalks_TalksFlounder>
+  <LetterPeaceTalks_TalksFlounder>مذاکرات به بن‌بست رسید. نمایندگان موفق شدند به وضوح و با احترام اولیه ارتباط برقرار کنند، اما نتوانستند در هیچ مسئله واقعی پیشرفتی داشته باشند.\n\nروابط با {0} بدون تغییر باقی می‌ماند.</LetterPeaceTalks_TalksFlounder>
   <!-- EN: Peace talks success -->
-  <LetterLabelPeaceTalks_Success>Peace talks success</LetterLabelPeaceTalks_Success>
+  <LetterLabelPeaceTalks_Success>موفقیت مذاکرات صلح</LetterLabelPeaceTalks_Success>
   <!-- EN: The talks were a success. The delegates reached new mutual understanding on several substantial issues.\n\nRelations with {0} have improved by {1}. -->
-  <LetterPeaceTalks_Success>The talks were a success. The delegates reached new mutual understanding on several substantial issues.\n\nRelations with {0} have improved by {1}.</LetterPeaceTalks_Success>
+  <LetterPeaceTalks_Success>مذاکرات موفقیت‌آمیز بود. نمایندگان در چندین مسئله اساسی به تفاهم متقابل جدیدی دست یافتند.\n\nروابط با {0} به میزان {1} بهبود یافته است.</LetterPeaceTalks_Success>
   <!-- EN: Peace talks triumph -->
-  <LetterLabelPeaceTalks_Triumph>Peace talks triumph</LetterLabelPeaceTalks_Triumph>
+  <LetterLabelPeaceTalks_Triumph>پیروزی مذاکرات صلح</LetterLabelPeaceTalks_Triumph>
   <!-- EN: The talks were a great triumph! Delegates connected quickly on a personal level and came to truly see each others' perspective on the most difficult issues of the day.\n\nRelations with {0} have improved by {1}.\n\nAs your caravan departed, {0} offered you a gift:\n\n{2} -->
-  <LetterPeaceTalks_Triumph>The talks were a great triumph! Delegates connected quickly on a personal level and came to truly see each others' perspective on the most difficult issues of the day.\n\nRelations with {0} have improved by {1}.\n\nAs your caravan departed, {0} offered you a gift:\n\n{2}</LetterPeaceTalks_Triumph>
+  <LetterPeaceTalks_Triumph>مذاکرات یک پیروزی بزرگ بود! نمایندگان به سرعت در سطح شخصی ارتباط برقرار کردند و واقعاً دیدگاه یکدیگر را در مورد دشوارترین مسائل روز درک کردند.\n\nروابط با {0} به میزان {1} بهبود یافته است.\n\nهنگام حرکت کاروان شما، {0} هدیه‌ای به شما پیشنهاد داد:\n\n{2}</LetterPeaceTalks_Triumph>
   <!-- EN: {PAWN_labelShort}, your negotiator, has gained {1} social experience. -->
-  <PeaceTalksSocialXPGain>{PAWN_labelShort}, your negotiator, has gained {1} social experience.</PeaceTalksSocialXPGain>
+  <PeaceTalksSocialXPGain>{PAWN_labelShort}، مذاکره‌کننده شما، {1} تجربه اجتماعی کسب کرده است.</PeaceTalksSocialXPGain>
 
   <!-- Run wild mental break -->
   <!-- EN: {0} is fed up with civilization.\n\n{PAWN_pronoun} realized that wild creatures are always free. So, {PAWN_pronoun} has decided to leave your faction and live with the animals.\n\nYou can attempt to tame or arrest {PAWN_objective} to get {PAWN_objective} back. -->
-  <LetterRunWildMentalBreak>{0} is fed up with civilization.\n\n{PAWN_pronoun} realized that wild creatures are always free. So, {PAWN_pronoun} has decided to leave your faction and live with the animals.\n\nYou can attempt to tame or arrest {PAWN_objective} to get {PAWN_objective} back.</LetterRunWildMentalBreak>
+  <LetterRunWildMentalBreak>{0} از تمدن خسته شده است.\n\n{PAWN_pronoun} متوجه شد که موجودات وحشی همیشه آزاد هستند. بنابراین، {PAWN_pronoun} تصمیم گرفته است جناح شما را ترک کرده و با حیوانات زندگی کند.\n\nمی‌توانید برای بازگرداندن {PAWN_objective}، سعی در اهلی کردن یا دستگیری {PAWN_objective} کنید.</LetterRunWildMentalBreak>
 
   <!-- Catatonic mental break -->
   <!-- EN: {0} has suffered a total mental breakdown and entered a catatonic state. {PAWN_pronoun} will recover in several days. -->
-  <LetterCatatonicMentalBreak>{0} has suffered a total mental breakdown and entered a catatonic state. {PAWN_pronoun} will recover in several days.</LetterCatatonicMentalBreak>
+  <LetterCatatonicMentalBreak>{0} دچار فروپاشی روانی کامل شده و وارد حالت کاتاتونیک شده است. {PAWN_pronoun} در چند روز بهبود خواهد یافت.</LetterCatatonicMentalBreak>
 
   <!-- EN: Persona Core Offer -->
-  <LetterLabelAICoreOffer>Persona Core Offer</LetterLabelAICoreOffer>
+  <LetterLabelAICoreOffer>پیشنهاد هسته پرسونا</LetterLabelAICoreOffer>
   <!-- EN: {PAWN_definite} of {1} contacts you with an offer of information: the location of a persona core, which you'll need in order to build a spaceship. They inform you that this item is quite rare and usually its owners have it under heavy guard.\n\nCall them with your comms console if you're interested. -->
-  <LetterAICoreOffer>{PAWN_definite} of {1} contacts you with an offer of information: the location of a persona core, which you'll need in order to build a spaceship. They inform you that this item is quite rare and usually its owners have it under heavy guard.\n\nCall them with your comms console if you're interested.</LetterAICoreOffer>
+  <LetterAICoreOffer>{PAWN_definite} از {1} با پیشنهادی برای اطلاعات با شما تماس می‌گیرد: مکان یک هسته پرسونا، که برای ساخت یک سفینه فضایی به آن نیاز خواهید داشت. آنها به شما اطلاع می‌دهند که این مورد بسیار نادر است و معمولاً صاحبان آن را تحت حفاظت شدید دارند.\n\nاگر علاقه‌مند هستید، با کنسول ارتباطی خود با آنها تماس بگیرید.</LetterAICoreOffer>
 
   <!-- Crafting letters -->
   <!-- EN: Legendary Work -->
-  <LetterCraftedLegendaryLabel>Legendary Work</LetterCraftedLegendaryLabel>
+  <LetterCraftedLegendaryLabel>کار افسانه‌ای</LetterCraftedLegendaryLabel>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\nNews of this valuable artifact will spread across the world. -->
-  <LetterCraftedLegendaryMessage>{WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\nNews of this valuable artifact will spread across the world.</LetterCraftedLegendaryMessage>
+  <LetterCraftedLegendaryMessage>{WORKER_labelShort} یک {CRAFTED_labelShort} ایجاد کرده است.\n\nاخبار این اثر با ارزش در سراسر جهان پخش خواهد شد.</LetterCraftedLegendaryMessage>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\n{0}\n\nNews of this valuable artifact will spread across the world. -->
-  <LetterCraftedLegendaryMessageArt>{WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\n{0}\n\nNews of this valuable artifact will spread across the world.</LetterCraftedLegendaryMessageArt>
+  <LetterCraftedLegendaryMessageArt>{WORKER_labelShort} یک {CRAFTED_labelShort} ایجاد کرده است.\n\n{0}\n\nاخبار این اثر با ارزش در سراسر جهان پخش خواهد شد.</LetterCraftedLegendaryMessageArt>
 
   <!-- EN: Masterwork -->
-  <LetterCraftedMasterworkLabel>Masterwork</LetterCraftedMasterworkLabel>
+  <LetterCraftedMasterworkLabel>شاهکار</LetterCraftedMasterworkLabel>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}. -->
-  <LetterCraftedMasterworkMessage>{WORKER_labelShort} has created a {CRAFTED_labelShort}.</LetterCraftedMasterworkMessage>
+  <LetterCraftedMasterworkMessage>{WORKER_labelShort} یک {CRAFTED_labelShort} ایجاد کرده است.</LetterCraftedMasterworkMessage>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\n{0} -->
-  <LetterCraftedMasterworkMessageArt>{WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\n{0}</LetterCraftedMasterworkMessageArt>
+  <LetterCraftedMasterworkMessageArt>{WORKER_labelShort} یک {CRAFTED_labelShort} ایجاد کرده است.\n\n{0}</LetterCraftedMasterworkMessageArt>
 
   <!-- Pawns lost because map closed -->
   <!-- EN: Caravan lost -->
-  <LetterLabelPawnsLostBecauseMapClosed_Caravan>Caravan lost</LetterLabelPawnsLostBecauseMapClosed_Caravan>
+  <LetterLabelPawnsLostBecauseMapClosed_Caravan>کاروان از دست رفت</LetterLabelPawnsLostBecauseMapClosed_Caravan>
   <!-- EN: Your caravan has been lost. The following people and animals have been lost with it -->
-  <LetterPawnsLostBecauseMapClosed_Caravan>Your caravan has been lost. The following people and animals have been lost with it</LetterPawnsLostBecauseMapClosed_Caravan>
+  <LetterPawnsLostBecauseMapClosed_Caravan>کاروان شما از دست رفته است. افراد و حیوانات زیر با آن از دست رفته‌اند</LetterPawnsLostBecauseMapClosed_Caravan>
   <!-- EN: Inhabitants abandoned -->
-  <LetterLabelPawnsLostBecauseMapClosed_Home>Inhabitants abandoned</LetterLabelPawnsLostBecauseMapClosed_Home>
+  <LetterLabelPawnsLostBecauseMapClosed_Home>ساکنان رها شدند</LetterLabelPawnsLostBecauseMapClosed_Home>
   <!-- EN: The following people and animals have been abandoned -->
-  <LetterPawnsLostBecauseMapClosed_Home>The following people and animals have been abandoned</LetterPawnsLostBecauseMapClosed_Home>
+  <LetterPawnsLostBecauseMapClosed_Home>افراد و حیوانات زیر رها شده‌اند</LetterPawnsLostBecauseMapClosed_Home>
 
   <!-- Hibernate complete -->
   <!-- EN: Reactor ready -->
-  <LetterLabelHibernateComplete>Reactor ready</LetterLabelHibernateComplete>
+  <LetterLabelHibernateComplete>راکتور آماده است</LetterLabelHibernateComplete>
   <!-- EN: (*Name)Charlon Whitestone(/Name) has finished the reactor's hibernation recovery sequence. The reactor is now ready to power a liftoff. -->
-  <LetterHibernateComplete>(*Name)Charlon Whitestone(/Name) has finished the reactor's hibernation recovery sequence. The reactor is now ready to power a liftoff.</LetterHibernateComplete>
+  <LetterHibernateComplete>(*Name)شارلون وایت‌استون(/Name) توالی بازیابی خواب زمستانی راکتور را به پایان رسانده است. راکتور اکنون آماده تأمین انرژی برای پرتاب است.</LetterHibernateComplete>
   <!-- EN: The reactor's power up sequence is complete. It is now ready to power a liftoff. -->
-  <LetterHibernateCompleteStandalone>The reactor's power up sequence is complete. It is now ready to power a liftoff.</LetterHibernateCompleteStandalone>
+  <LetterHibernateCompleteStandalone>توالی روشن شدن راکتور کامل شده است. اکنون آماده تأمین انرژی برای پرتاب است.</LetterHibernateCompleteStandalone>
 
   <!-- Visitors gave gift -->
   <!-- EN: Gift from {0} -->
-  <LetterLabelVisitorsGaveGift>Gift from {0}</LetterLabelVisitorsGaveGift>
+  <LetterLabelVisitorsGaveGift>هدیه از {0}</LetterLabelVisitorsGaveGift>
   <!-- EN: {0} from {PAWN_factionName} have left a gift:\n\n{1} -->
-  <LetterVisitorsGaveGift>{0} from {PAWN_factionName} have left a gift:\n\n{1}</LetterVisitorsGaveGift>
+  <LetterVisitorsGaveGift>{0} از {PAWN_factionName} هدیه‌ای گذاشته‌اند:\n\n{1}</LetterVisitorsGaveGift>
 
   <!-- Faction base proximity -->
   <!-- EN: Faction base proximity -->
-  <LetterLabelFactionBaseProximity>Faction base proximity</LetterLabelFactionBaseProximity>
+  <LetterLabelFactionBaseProximity>نزدیکی پایگاه جناح</LetterLabelFactionBaseProximity>
   <!-- EN: Because you are so close to other factions, they feel you're encroaching on their territory.\n\nFor the last quadrum, faction relations have been reduced by: -->
-  <LetterFactionBaseProximity>Because you are so close to other factions, they feel you're encroaching on their territory.\n\nFor the last quadrum, faction relations have been reduced by:</LetterFactionBaseProximity>
+  <LetterFactionBaseProximity>از آنجایی که شما به جناح‌های دیگر بسیار نزدیک هستید، آنها احساس می‌کنند که به قلمرو آنها تجاوز می‌کنید.\n\nدر چهارماه گذشته، روابط جناح به میزان زیر کاهش یافته است:</LetterFactionBaseProximity>
 
   <!-- Caravans battlefield victory -->
   <!-- EN: Caravan battle won -->
-  <LetterLabelCaravansBattlefieldVictory>Caravan battle won</LetterLabelCaravansBattlefieldVictory>
+  <LetterLabelCaravansBattlefieldVictory>نبرد کاروان برنده شد</LetterLabelCaravansBattlefieldVictory>
   <!-- EN: Your caravan has won the battle.\n\nYou can reform the caravan now in the World screen by selecting the battlefield and choosing the "Reform caravan" option.\n\nThere's no need to collect items manually, the reform caravan tool can do it instantly.\n\nIn {0}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves. -->
-  <LetterCaravansBattlefieldVictory>Your caravan has won the battle.\n\nYou can reform the caravan now in the World screen by selecting the battlefield and choosing the "Reform caravan" option.\n\nThere's no need to collect items manually, the reform caravan tool can do it instantly.\n\nIn {0}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves.</LetterCaravansBattlefieldVictory>
+  <LetterCaravansBattlefieldVictory>کاروان شما در نبرد پیروز شده است.\n\nاکنون می‌توانید کاروان را در صفحه جهان با انتخاب میدان نبرد و انتخاب گزینه "تشکیل مجدد کاروان" دوباره تشکیل دهید.\n\nنیازی به جمع‌آوری دستی اقلام نیست، ابزار تشکیل مجدد کاروان می‌تواند این کار را فوراً انجام دهد.\n\nدر {0}، کاروان شما توسط دشمنان مورد حمله قرار خواهد گرفت. آنها شروع به ارسال نیرو برای حمله به کاروان خواهند کرد، مگر اینکه کاروان دوباره تشکیل شده و منطقه را ترک کند.</LetterCaravansBattlefieldVictory>
 
   <!-- Rescue quest -->
   <!-- EN: Rescuee joins -->
-  <LetterLabelRescueQuestFinished>Rescuee joins</LetterLabelRescueQuestFinished>
+  <LetterLabelRescueQuestFinished>نجات‌یافته می‌پیوندد</LetterLabelRescueQuestFinished>
   <!-- EN: You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group.\n\nYou can take {PAWN_objective} with you by reforming the caravan in the World screen by selecting this area and choosing the "Reform caravan" option. -->
-  <LetterRescueQuestFinished>You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group.\n\nYou can take {PAWN_objective} with you by reforming the caravan in the World screen by selecting this area and choosing the "Reform caravan" option.</LetterRescueQuestFinished>
+  <LetterRescueQuestFinished>شما {PAWN_nameDef} را نجات داده‌اید و {PAWN_pronoun} به گروه شما پیوسته است.\n\nمی‌توانید با تشکیل مجدد کاروان در صفحه جهان با انتخاب این منطقه و انتخاب گزینه "تشکیل مجدد کاروان"، {PAWN_objective} را با خود ببرید.</LetterRescueQuestFinished>
 
   <!-- Predator hunting colonist -->
   <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->
-  <LetterLabelPredatorHuntingColonist>{PREDATOR_labelShort} hunting {PREY_definite}</LetterLabelPredatorHuntingColonist>
+  <LetterLabelPredatorHuntingColonist>{PREDATOR_labelShort} در حال شکار {PREY_definite}</LetterLabelPredatorHuntingColonist>
   <!-- EN: {PREDATOR} is hunting {PREY_definite} for food! -->
-  <LetterPredatorHuntingColonist>{PREDATOR} is hunting {PREY_definite} for food!</LetterPredatorHuntingColonist>
+  <LetterPredatorHuntingColonist>{PREDATOR} در حال شکار {PREY_definite} برای غذا است!</LetterPredatorHuntingColonist>
 
   <!-- Disease -->
   <!-- EN: {0} blocked {1} on -->
-  <LetterDisease_Blocked>{0} blocked {1} on</LetterDisease_Blocked>
+  <LetterDisease_Blocked>{0} {1} را در</LetterDisease_Blocked>
   <!-- EN: Disease: {0} -->
-  <LetterLabelTraitDisease>Disease: {0}</LetterLabelTraitDisease>
+  <LetterLabelTraitDisease>بیماری: {0}</LetterLabelTraitDisease>
   <!-- EN: {PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible. -->
-  <LetterTraitDisease>{PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible.</LetterTraitDisease>
+  <LetterTraitDisease>{PAWN_label} از {1} بیمار شده است.\n\nاطمینان حاصل کنید که یک تخت پزشکی و یک پزشک دارید. مطمئن شوید که {PAWN_pronoun} درمان مناسب دریافت می‌کند و تا حد امکان در بستر می‌ماند.</LetterTraitDisease>
 
   <!-- Quests -->
   <!-- EN: A new quest has become available. It is called '{0}'. -->
-  <LetterQuestBecameAvailable>A new quest has become available. It is called '{0}'.</LetterQuestBecameAvailable>
+  <LetterQuestBecameAvailable>یک ماموریت جدید در دسترس قرار گرفته است. نام آن '{0}' است.</LetterQuestBecameAvailable>
   <!-- EN: If you don't accept the quest within {0}, it will expire. -->
-  <LetterQuestRequiresAcceptance>If you don't accept the quest within {0}, it will expire.</LetterQuestRequiresAcceptance>
+  <LetterQuestRequiresAcceptance>اگر ماموریت را ظرف {0} نپذیرید، منقضی خواهد شد.</LetterQuestRequiresAcceptance>
   <!-- EN: A new quest has become active. It is called '{0}'. -->
-  <LetterQuestBecameActive>A new quest has become active. It is called '{0}'.</LetterQuestBecameActive>
+  <LetterQuestBecameActive>یک ماموریت جدید فعال شده است. نام آن '{0}' است.</LetterQuestBecameActive>
   <!-- EN: Quest active: {0} -->
-  <LetterQuestAutomaticallyAcceptedTitle>Quest active: {0}</LetterQuestAutomaticallyAcceptedTitle>
+  <LetterQuestAutomaticallyAcceptedTitle>ماموریت فعال: {0}</LetterQuestAutomaticallyAcceptedTitle>
   <!-- EN: It will expire in {0}. -->
-  <LetterQuestActiveNowTime>It will expire in {0}.</LetterQuestActiveNowTime>
+  <LetterQuestActiveNowTime>در {0} منقضی خواهد شد.</LetterQuestActiveNowTime>
 
   <!-- Quest drop pods arrived -->
   <!-- EN: Pods arrived -->
-  <LetterLabelQuestDropPodsArrived>Pods arrived</LetterLabelQuestDropPodsArrived>
+  <LetterLabelQuestDropPodsArrived>کپسول‌ها رسیدند</LetterLabelQuestDropPodsArrived>
   <!-- EN: Transport pods with the following contents have arrived:\n\n{0} -->
-  <LetterQuestDropPodsArrived>Transport pods with the following contents have arrived:\n\n{0}</LetterQuestDropPodsArrived>
+  <LetterQuestDropPodsArrived>کپسول‌های حمل و نقل با محتویات زیر رسیده‌اند:\n\n{0}</LetterQuestDropPodsArrived>
 
   <!-- Quest items added to caravan inventory -->
   <!-- EN: {CARAVAN_label} received items -->
-  <LetterLabelQuestItemsAddedToCaravanInventory>{CARAVAN_label} received items</LetterLabelQuestItemsAddedToCaravanInventory>
+  <LetterLabelQuestItemsAddedToCaravanInventory>{CARAVAN_label} اقلام دریافت کرد</LetterLabelQuestItemsAddedToCaravanInventory>
   <!-- EN: {CARAVAN_label} has received the following items:\n\n{THINGS} -->
-  <LetterQuestItemsAddedToCaravanInventory>{CARAVAN_label} has received the following items:\n\n{THINGS}</LetterQuestItemsAddedToCaravanInventory>
+  <LetterQuestItemsAddedToCaravanInventory>{CARAVAN_label} اقلام زیر را دریافت کرده است:\n\n{THINGS}</LetterQuestItemsAddedToCaravanInventory>
 
   <!-- Refugee joins -->
   <!-- EN: {PAWN_nameDef} joins -->
-  <LetterLabelRefugeeJoins>{PAWN_nameDef} joins</LetterLabelRefugeeJoins>
+  <LetterLabelRefugeeJoins>{PAWN_nameDef} می‌پیوندد</LetterLabelRefugeeJoins>
   <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and is joining the colony. -->
-  <LetterRefugeeJoins>A {PAWN_title} named {PAWN_nameDef} has arrived and is joining the colony.</LetterRefugeeJoins>
+  <LetterRefugeeJoins>یک {PAWN_title} به نام {PAWN_nameDef} رسیده و به کلونی می‌پیوندد.</LetterRefugeeJoins>
   
   <!-- Rescuee joins -->
   <!-- EN: {PAWN_nameDef} joins -->
-  <LetterLabelRescueeJoins>{PAWN_nameDef} joins</LetterLabelRescueeJoins>
+  <LetterLabelRescueeJoins>{PAWN_nameDef} می‌پیوندد</LetterLabelRescueeJoins>
   <!-- EN: {PAWN_nameDef} is thankful that you rescued {PAWN_objective}. {PAWN_pronoun} has decided that {PAWN_pronoun} would rather stay than leave, and is joining your colony. -->
-  <LetterRescueeJoins>{PAWN_nameDef} is thankful that you rescued {PAWN_objective}. {PAWN_pronoun} has decided that {PAWN_pronoun} would rather stay than leave, and is joining your colony.</LetterRescueeJoins>
+  <LetterRescueeJoins>{PAWN_nameDef} از اینکه او را نجات دادید سپاسگزار است. {PAWN_pronoun} تصمیم گرفته است که ترجیح می‌دهد بماند تا برود و به کلونی شما می‌پیوندد.</LetterRescueeJoins>
 
   <!-- Pawns arrive and join -->
   <!-- EN: People join -->
-  <LetterLabelPawnsArriveAndJoin>People join</LetterLabelPawnsArriveAndJoin>
+  <LetterLabelPawnsArriveAndJoin>افراد می‌پیوندند</LetterLabelPawnsArriveAndJoin>
   <!-- EN: The following people have arrived and joined the colony:\n\n{0} -->
-  <LetterPawnsArriveAndJoin>The following people have arrived and joined the colony:\n\n{0}</LetterPawnsArriveAndJoin>
+  <LetterPawnsArriveAndJoin>افراد زیر رسیده‌اند و به کلونی پیوسته‌اند:\n\n{0}</LetterPawnsArriveAndJoin>
 
   <!-- Pawns arrive -->
   <!-- EN: People arrived -->
-  <LetterLabelPawnsArrive>People arrived</LetterLabelPawnsArrive>
+  <LetterLabelPawnsArrive>افراد رسیدند</LetterLabelPawnsArrive>
   <!-- EN: The following people have arrived:\n\n{0} -->
-  <LetterPawnsArrive>The following people have arrived:\n\n{0}</LetterPawnsArrive>
+  <LetterPawnsArrive>افراد زیر رسیده‌اند:\n\n{0}</LetterPawnsArrive>
 
   <!-- Pawn leaving -->
   <!-- EN: {0} leaving -->
-  <LetterLabelPawnLeaving>{0} leaving</LetterLabelPawnLeaving>
+  <LetterLabelPawnLeaving>{0} در حال ترک</LetterLabelPawnLeaving>
   <!-- EN: {0} is leaving. -->
-  <LetterPawnLeaving>{0} is leaving.</LetterPawnLeaving>
+  <LetterPawnLeaving>{0} در حال ترک است.</LetterPawnLeaving>
 
   <!-- Pawns leaving -->
   <!-- EN: {0} leaving -->
-  <LetterLabelPawnsLeaving>{0} leaving</LetterLabelPawnsLeaving>
+  <LetterLabelPawnsLeaving>{0} در حال ترک</LetterLabelPawnsLeaving>
   <!-- EN: {0} are leaving. -->
-  <LetterPawnsLeaving>{0} are leaving.</LetterPawnsLeaving>
+  <LetterPawnsLeaving>{0} در حال ترک هستند.</LetterPawnsLeaving>
   
   <!-- Colonist kidnapped -->
   <!-- EN: {PAWN_nameDef} kidnapped -->
-  <LetterLabelPawnsKidnapped>{PAWN_nameDef} kidnapped</LetterLabelPawnsKidnapped>
+  <LetterLabelPawnsKidnapped>{PAWN_nameDef} ربوده شد</LetterLabelPawnsKidnapped>
   <!-- EN: {PAWN_nameDef} has been kidnapped by {FACTION_name}!
 \nHowever, {PAWN_pronoun} is not lost forever. An opportunity to rescue {PAWN_objective} may present itself in the coming days or years. -->
-  <LetterPawnsKidnapped>{PAWN_nameDef} has been kidnapped by {FACTION_name}!\n\nHowever, {PAWN_pronoun} is not lost forever. An opportunity to rescue {PAWN_objective} may present itself in the coming days or years.</LetterPawnsKidnapped>
+  <LetterPawnsKidnapped>{PAWN_nameDef} توسط {FACTION_name} ربوده شده است!\n\nبا این حال، {PAWN_pronoun} برای همیشه از دست نرفته است. فرصتی برای نجات {PAWN_objective} ممکن است در روزها یا سال‌های آینده پیش بیاید.</LetterPawnsKidnapped>
   
   <!-- Techprints -->
   <!-- EN: Techprint applied: {PROJECT_label} -->
-  <LetterTechprintAppliedLabel>Techprint applied: {PROJECT_label}</LetterTechprintAppliedLabel>
+  <LetterTechprintAppliedLabel>طرح فنی اعمال شد: {PROJECT_label}</LetterTechprintAppliedLabel>
   <!-- EN: A techprint has been applied to the research project: {PROJECT_label}. -->
-  <LetterTechprintAppliedPartIntro>A techprint has been applied to the research project: {PROJECT_label}.</LetterTechprintAppliedPartIntro>
+  <LetterTechprintAppliedPartIntro>یک طرح فنی برای پروژه تحقیقاتی: {PROJECT_label} اعمال شده است.</LetterTechprintAppliedPartIntro>
   <!-- EN: You've completed the project's techprint requirements! Your researchers can now begin researching how to actually use the technology at your research benches. -->
-  <LetterTechprintAppliedPartJustUnlocked>You've completed the project's techprint requirements! Your researchers can now begin researching how to actually use the technology at your research benches.</LetterTechprintAppliedPartJustUnlocked>
+  <LetterTechprintAppliedPartJustUnlocked>شما نیازمندی‌های طرح فنی پروژه را تکمیل کرده‌اید! محققان شما اکنون می‌توانند تحقیق در مورد نحوه استفاده واقعی از فناوری را در میزهای تحقیقاتی شما آغاز کنند.</LetterTechprintAppliedPartJustUnlocked>
   <!-- EN: This project's techprint requirements are not yet satisfied. {0} techprints have been applied so far. The project requires {1} in total. -->
-  <LetterTechprintAppliedPartNotUnlockedYet>This project's techprint requirements are not yet satisfied. {0} techprints have been applied so far. The project requires {1} in total.</LetterTechprintAppliedPartNotUnlockedYet>
+  <LetterTechprintAppliedPartNotUnlockedYet>نیازمندی‌های طرح فنی این پروژه هنوز برآورده نشده است. تاکنون {0} طرح فنی اعمال شده است. پروژه در مجموع به {1} نیاز دارد.</LetterTechprintAppliedPartNotUnlockedYet>
   <!-- EN: This project's techprint requirements were already satisfied. The extra techprint advanced your research efforts on {PROJECT_label}. Half the remaining research work, {0} points, has been completed. -->
-  <LetterTechprintAppliedPartAlreadyUnlocked>This project's techprint requirements were already satisfied. The extra techprint advanced your research efforts on {PROJECT_label}. Half the remaining research work, {0} points, has been completed.</LetterTechprintAppliedPartAlreadyUnlocked>
+  <LetterTechprintAppliedPartAlreadyUnlocked>نیازمندی‌های طرح فنی این پروژه قبلاً برآورده شده بود. طرح فنی اضافی تلاش‌های تحقیقاتی شما را در مورد {PROJECT_label} پیش برد. نیمی از کار تحقیقاتی باقی‌مانده، {0} امتیاز، تکمیل شده است.</LetterTechprintAppliedPartAlreadyUnlocked>
   <!-- EN: This project is already fully researched, so the techprint didn't advance your knowledge at all. -->
-  <LetterTechprintAppliedPartAlreadyResearched>This project is already fully researched, so the techprint didn't advance your knowledge at all.</LetterTechprintAppliedPartAlreadyResearched>
+  <LetterTechprintAppliedPartAlreadyResearched>این پروژه از قبل به طور کامل تحقیق شده است، بنابراین طرح فنی دانش شما را اصلاً پیش نبرد.</LetterTechprintAppliedPartAlreadyResearched>
   <!-- EN: By applying the techprint, {PAWN_labelShort} gained {0} experience in the {1} skill. -->
-  <LetterTechprintAppliedPartExpAwarded>By applying the techprint, {PAWN_labelShort} gained {0} experience in the {1} skill.</LetterTechprintAppliedPartExpAwarded>
+  <LetterTechprintAppliedPartExpAwarded>با اعمال طرح فنی، {PAWN_labelShort} {0} تجربه در مهارت {1} کسب کرد.</LetterTechprintAppliedPartExpAwarded>
   
   <!-- Quest Completed -->
   <!-- EN: Quest completed -->
-  <LetterQuestCompletedLabel>Quest completed</LetterQuestCompletedLabel>
+  <LetterQuestCompletedLabel>ماموریت تکمیل شد</LetterQuestCompletedLabel>
   <!-- EN: Quest failed -->
-  <LetterQuestFailedLabel>Quest failed</LetterQuestFailedLabel>
+  <LetterQuestFailedLabel>ماموریت شکست خورد</LetterQuestFailedLabel>
   <!-- EN: Quest concluded -->
-  <LetterQuestConcludedLabel>Quest concluded</LetterQuestConcludedLabel>
+  <LetterQuestConcludedLabel>ماموریت به پایان رسید</LetterQuestConcludedLabel>
   <!-- EN: You have successfully completed the quest '{0}'! -->
-  <LetterQuestCompletedSuccess>You have successfully completed the quest '{0}'!</LetterQuestCompletedSuccess>
+  <LetterQuestCompletedSuccess>شما با موفقیت ماموریت '{0}' را تکمیل کرده‌اید!</LetterQuestCompletedSuccess>
   <!-- EN: You have failed the quest '{0}'. -->
-  <LetterQuestCompletedFail>You have failed the quest '{0}'.</LetterQuestCompletedFail>
+  <LetterQuestCompletedFail>شما در ماموریت '{0}' شکست خورده‌اید.</LetterQuestCompletedFail>
   <!-- EN: You have concluded the quest '{0}'. -->
-  <LetterQuestCompletedConcluded>You have concluded the quest '{0}'.</LetterQuestCompletedConcluded>
+  <LetterQuestCompletedConcluded>شما ماموریت '{0}' را به پایان رسانده‌اید.</LetterQuestCompletedConcluded>
 
   <!-- Bladelink -->
   <!-- EN: Persona bond: {PAWN_labelShort} -->
-  <LetterBladelinkWeaponBondedLabel>Persona bond: {PAWN_labelShort}</LetterBladelinkWeaponBondedLabel>
+  <LetterBladelinkWeaponBondedLabel>پیوند پرسونا: {PAWN_labelShort}</LetterBladelinkWeaponBondedLabel>
   <!-- EN: {PAWN_labelShort} has established a bond with the persona of {WEAPON_labelShort}.
 \nFrom now on, {WEAPON_labelShort} will refuse to be wielded by anyone except {PAWN_labelShort}. -->
-  <LetterBladelinkWeaponBonded>{PAWN_labelShort} has established a bond with the persona of {WEAPON_labelShort}.\n\nFrom now on, {WEAPON_labelShort} will refuse to be wielded by anyone except {PAWN_labelShort}.</LetterBladelinkWeaponBonded>
+  <LetterBladelinkWeaponBonded>{PAWN_labelShort} با پرسونا {WEAPON_labelShort} پیوند برقرار کرده است.\n\nاز این پس، {WEAPON_labelShort} از استفاده توسط هر کسی جز {PAWN_labelShort} خودداری خواهد کرد.</LetterBladelinkWeaponBonded>
   
   <!-- Mech cluster -->
   <!-- EN: Mechanoids arrived -->
-  <LetterLabelMechClusterArrived>Mechanoids arrived</LetterLabelMechClusterArrived>
+  <LetterLabelMechClusterArrived>مکانویدها رسیدند</LetterLabelMechClusterArrived>
   <!-- EN: Mechanoids have arrived. -->
-  <LetterMechClusterArrived>Mechanoids have arrived.</LetterMechClusterArrived>
+  <LetterMechClusterArrived>مکانویدها رسیده‌اند.</LetterMechClusterArrived>
 
   <!-- EN: Caravan detected -->
-  <LetterLabelSiteCountdownStarted>Caravan detected</LetterLabelSiteCountdownStarted>
+  <LetterLabelSiteCountdownStarted>کاروان شناسایی شد</LetterLabelSiteCountdownStarted>
   <!-- EN: Your caravan has been detected. In {0}, reinforcing {1} from {2} will begin arriving in the area.\n\nReform your caravan and begin moving to avoid the {1}. A timer counting down to their arrival is now visible. -->
-  <LetterTextSiteCountdownStarted>Your caravan has been detected. In {0}, reinforcing {1} from {2} will begin arriving in the area.\n\nReform your caravan and begin moving to avoid the {1}. A timer counting down to their arrival is now visible.</LetterTextSiteCountdownStarted>
+  <LetterTextSiteCountdownStarted>کاروان شما شناسایی شده است. در {0}، نیروهای کمکی {1} از {2} شروع به رسیدن به منطقه خواهند کرد.\n\nکاروان خود را دوباره تشکیل دهید و برای جلوگیری از {1} حرکت کنید. یک تایمر شمارش معکوس تا رسیدن آنها اکنون قابل مشاهده است.</LetterTextSiteCountdownStarted>
 
   <!-- EN: Unwavering prisoner -->
-  <LetterLabelUnrecruitablePawnCaptured>Unwavering prisoner</LetterLabelUnrecruitablePawnCaptured>
+  <LetterLabelUnrecruitablePawnCaptured>زندانی ثابت‌قدم</LetterLabelUnrecruitablePawnCaptured>
   <!-- EN: {PAWN_nameDef} is unwaveringly loyal to their home and will refuse to be recruited entirely.\n\nYou can see whether someone is unwaveringly loyal by selecting them. -->
-  <LetterTextUnrecruitablePawnCaptured>{PAWN_nameDef} is unwaveringly loyal to their home and will refuse to be recruited entirely.\n\nYou can see whether someone is unwaveringly loyal by selecting them.</LetterTextUnrecruitablePawnCaptured>
+  <LetterTextUnrecruitablePawnCaptured>{PAWN_nameDef} به خانه خود وفاداری ثابت‌قدم دارد و کاملاً از استخدام شدن خودداری خواهد کرد.\n\nمی‌توانید با انتخاب یک نفر ببینید که آیا او وفاداری ثابت‌قدم دارد یا خیر.</LetterTextUnrecruitablePawnCaptured>
   <!-- EN: enslave {PAWN_objective} -->
-  <OptionalEnslaveDesc>enslave {PAWN_objective}</OptionalEnslaveDesc>
+  <OptionalEnslaveDesc>به بردگی گرفتن {PAWN_objective}</OptionalEnslaveDesc>
 
   <!-- Lung rot -->
   <!-- EN: {PAWN} has gotten sick from {1} due to long-term exposure to rot stink gas (which is given off by rotting corpses).\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment. -->
-  <LetterTextLungRot>{PAWN} has gotten sick from {1} due to long-term exposure to rot stink gas (which is given off by rotting corpses).\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment.</LetterTextLungRot>
+  <LetterTextLungRot>{PAWN} به دلیل قرار گرفتن طولانی مدت در معرض گاز بوی تعفن (که از اجساد در حال پوسیدگی متصاعد می‌شود) از {1} بیمار شده است.\n\nاطمینان حاصل کنید که یک تخت پزشکی و یک پزشک دارید. مطمئن شوید که {PAWN_definite} درمان مناسب دریافت می‌کند.</LetterTextLungRot>
 
   <!-- Join Offer -->
   <!-- EN: Join offer: {PAWN_nameDef} -->
-  <LetterJoinOfferLabel>Join offer: {PAWN_nameDef}</LetterJoinOfferLabel>
+  <LetterJoinOfferLabel>پیشنهاد پیوستن: {PAWN_nameDef}</LetterJoinOfferLabel>
   <!-- EN: {PAWN_nameDef} wishes to join your faction. -->
-  <LetterJoinOfferTitle>{PAWN_nameDef} wishes to join your faction.</LetterJoinOfferTitle>
+  <LetterJoinOfferTitle>{PAWN_nameDef} مایل است به جناح شما بپیوندد.</LetterJoinOfferTitle>
   <!-- EN: {PAWN_nameDef} believes that {PAWN_pronoun} is happy at {MAP_definite}. {PAWN_pronoun} wishes to join you permanently. -->
-  <LetterJoinOfferText>{PAWN_nameDef} believes that {PAWN_pronoun} is happy at {MAP_definite}. {PAWN_pronoun} wishes to join you permanently.</LetterJoinOfferText>
+  <LetterJoinOfferText>{PAWN_nameDef} معتقد است که {PAWN_pronoun} در {MAP_definite} خوشحال است. {PAWN_pronoun} مایل است به طور دائم به شما بپیوندد.</LetterJoinOfferText>
   <!-- EN: Accept -->
-  <LetterJoinOfferAccept>Accept</LetterJoinOfferAccept>
+  <LetterJoinOfferAccept>پذیرش</LetterJoinOfferAccept>
 
   <!-- Speeches -->
   <!-- EN: {ORGANIZER_labelShort} has finished {ORGANIZER_possessive} speech. -->
-  <LetterFinishedSpeech>TODO</LetterFinishedSpeech>
+  <LetterFinishedSpeech>{ORGANIZER_labelShort} سخنرانی {ORGANIZER_possessive} را به پایان رسانده است.</LetterFinishedSpeech>
   <!-- EN: It was truly atrocious - halting, full of awkward jokes and depressing stories. -->
-  <LetterTerribleSpeech>TODO</LetterTerribleSpeech>
+  <LetterTerribleSpeech>واقعاً وحشتناک بود - متوقف، پر از شوخی‌های ناجور و داستان‌های افسرده‌کننده.</LetterTerribleSpeech>
   <!-- EN: It was uninspiring - unoriginal, droning and lacking any sense of passion. -->
-  <LetterUninspiringSpeech>TODO</LetterUninspiringSpeech>
+  <LetterUninspiringSpeech>الهام‌بخش نبود - غیر اصیل، کسل‌کننده و فاقد هرگونه حس اشتیاق.</LetterUninspiringSpeech>
   <!-- EN: It was encouraging and well-delivered. -->
-  <LetterEncouragingSpeech>TODO</LetterEncouragingSpeech>
+  <LetterEncouragingSpeech>تشویق‌کننده و خوب ارائه شد.</LetterEncouragingSpeech>
   <!-- EN: It was remarkably inspiring, full of intensity and purpose. -->
-  <LetterInspirationalSpeech>TODO</LetterInspirationalSpeech>
+  <LetterInspirationalSpeech>به طرز قابل توجهی الهام‌بخش بود، پر از شدت و هدف.</LetterInspirationalSpeech>
   <!-- EN: The following people were particularly moved by the speech and are now inspired: -->
-  <LetterSpeechInspiredListeners>TODO</LetterSpeechInspiredListeners>
+  <LetterSpeechInspiredListeners>افراد زیر به طور خاص تحت تأثیر سخنرانی قرار گرفتند و اکنون الهام گرفته‌اند:</LetterSpeechInspiredListeners>
   <!-- EN: Thanks to {SPEAKER_nameIndef}'s remarkable speech, {PAWN_nameIndef} has experienced an inspiration! -->
-  <LetterSpeechInspiration>TODO</LetterSpeechInspiration>
+  <LetterSpeechInspiration>به لطف سخنرانی قابل توجه {SPEAKER_nameIndef}، {PAWN_nameIndef} الهام گرفته است!</LetterSpeechInspiration>
   <!-- EN: Because the speech was interrupted after only {0} completed, it wasn't as effective. -->
-  <LetterSpeechInterrupted>TODO</LetterSpeechInterrupted>
+  <LetterSpeechInterrupted>چون سخنرانی پس از تکمیل تنها {0} قطع شد، به اندازه کافی مؤثر نبود.</LetterSpeechInterrupted>
   <!-- EN: {0}'s speech was cancelled before reaching 50% completion. It had no effect. -->
-  <LetterSpeechCancelled>TODO</LetterSpeechCancelled>
+  <LetterSpeechCancelled>سخنرانی {0} قبل از رسیدن به 50% تکمیل لغو شد. هیچ تأثیری نداشت.</LetterSpeechCancelled>
   <!-- EN: Speech cancelled -->
-  <LetterLabelSpeechCancelled>TODO</LetterLabelSpeechCancelled>
+  <LetterLabelSpeechCancelled>سخنرانی لغو شد</LetterLabelSpeechCancelled>
 
 </LanguageData>

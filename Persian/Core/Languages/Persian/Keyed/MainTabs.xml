@@ -9,21 +9,21 @@
   <!-- EN: lower priority -->
   <LowerPriority>اولویت پایین تر</LowerPriority>
   <!-- EN: Relevant skills: {0}\nAverage of relevant skills: {1} -->
-  <RelevantSkills>Relevant skills: {0}\nAverage of relevant skills: {1}</RelevantSkills>
+  <RelevantSkills>مهارت‌های مرتبط: {0}\nمیانگین مهارت‌های مرتبط: {1}</RelevantSkills>
   <!-- EN: Click to jump to: -->
-  <ClickToJumpTo>Click to jump to:</ClickToJumpTo>
+  <ClickToJumpTo>برای پرش به: کلیک کنید</ClickToJumpTo>
   <!-- EN: {1_labelShort} cannot do this kind of work. -->
-  <CannotDoThisWork>{1_labelShort} cannot do this kind of work.</CannotDoThisWork>
+  <CannotDoThisWork>{1_labelShort} نمی‌تواند این نوع کار را انجام دهد.</CannotDoThisWork>
   <!-- EN: (none) -->
-  <NoneBrackets>(none)</NoneBrackets>
+  <NoneBrackets>(هیچ کدام)</NoneBrackets>
   <!-- EN: This colonist is not able to do any work of this type because of their health condition. -->
-  <IncapableOfWorkTypeBecauseOfCapacities>This colonist is not able to do any work of this type because of their health condition.</IncapableOfWorkTypeBecauseOfCapacities>
+  <IncapableOfWorkTypeBecauseOfCapacities>این مهاجر به دلیل وضعیت سلامتی خود قادر به انجام هیچ کاری از این نوع نیست.</IncapableOfWorkTypeBecauseOfCapacities>
   <!-- EN: E -->
-  <EmergencyWorkMarker>E</EmergencyWorkMarker>
+  <EmergencyWorkMarker>ف</EmergencyWorkMarker>
   <!-- EN: Warning: The average of relevant skills is very low. -->
-  <SelectedWorkTypeWithVeryBadSkill>Warning: The average of relevant skills is very low.</SelectedWorkTypeWithVeryBadSkill>
+  <SelectedWorkTypeWithVeryBadSkill>هشدار: میانگین مهارت‌های مرتبط بسیار پایین است.</SelectedWorkTypeWithVeryBadSkill>
   <!-- EN: Priority 1 is done first. Priority 4 is done last. -->
-  <PriorityOneDoneFirst>Priority 1 is done first. Priority 4 is done last.</PriorityOneDoneFirst>
+  <PriorityOneDoneFirst>اولویت 1 ابتدا انجام می‌شود. اولویت 4 آخر انجام می‌شود.</PriorityOneDoneFirst>
   <!-- EN: Will not do -->
   <Priority0>انجام نخواهد داد</Priority0>
   <!-- EN: Top priority -->
@@ -35,61 +35,61 @@
   <!-- EN: Low priority -->
   <Priority4>اولویت کم</Priority4>
   <!-- EN: {0}\n\nThe faction {1_nameDef} currently belongs to.\n\nClick to view faction. -->
-  <PawnFactionInfo>{0}\n\nThe faction {1_nameDef} currently belongs to.\n\nClick to view faction.</PawnFactionInfo>
+  <PawnFactionInfo>{0}\n\nجناحی که {1_nameDef} در حال حاضر به آن تعلق دارد.\n\nبرای مشاهده جناح کلیک کنید.</PawnFactionInfo>
   <!-- EN: Disabled by {0} backstory -->
-  <WorkDisabledByBackstory>Disabled by {0} backstory</WorkDisabledByBackstory>
+  <WorkDisabledByBackstory>غیرفعال شده توسط پیشینه {0}</WorkDisabledByBackstory>
   <!-- EN: Disabled by {0} trait -->
-  <WorkDisabledByTrait>Disabled by {0} trait</WorkDisabledByTrait>
+  <WorkDisabledByTrait>غیرفعال شده توسط ویژگی {0}</WorkDisabledByTrait>
   <!-- EN: Disabled by quest '{0}' -->
-  <WorkDisabledByQuest>Disabled by quest '{0}'</WorkDisabledByQuest>
+  <WorkDisabledByQuest>غیرفعال شده توسط ماموریت '{0}'</WorkDisabledByQuest>
   
   <!-- Assign tab -->
   <!-- EN: Unchangeable -->
   <Unchangeable>غیر قابل تغییر</Unchangeable>
   <!-- EN: Clr. forced -->
-  <ClearForcedApparel>Clr. forced</ClearForcedApparel>
+  <ClearForcedApparel>پاک کردن اجباری</ClearForcedApparel>
   <!-- EN: forced -->
-  <ApparelForcedLower>forced</ApparelForcedLower>
+  <ApparelForcedLower>اجباری</ApparelForcedLower>
   <!-- EN: locked -->
   <ApparelLockedLower>قفل شده است</ApparelLockedLower>
   <!-- EN: Forced apparel -->
-  <ForcedApparel>Forced apparel</ForcedApparel>
+  <ForcedApparel>لباس اجباری</ForcedApparel>
   <!-- EN: Edit -->
-  <AssignTabEdit>Edit...</AssignTabEdit>
+  <AssignTabEdit>ویرایش...</AssignTabEdit>
   <!-- EN: Manage apparel policies -->
-  <ManageApparelPolicies>TODO</ManageApparelPolicies>
+  <ManageApparelPolicies>مدیریت سیاست‌های لباس</ManageApparelPolicies>
   <!-- EN: Manage drug policies -->
-  <ManageDrugPolicies>Manage drug policies</ManageDrugPolicies>
+  <ManageDrugPolicies>مدیریت سیاست‌های دارو</ManageDrugPolicies>
   <!-- EN: Manage food policies -->
-  <ManageFoodPolicies>TODO</ManageFoodPolicies>
+  <ManageFoodPolicies>مدیریت سیاست‌های غذا</ManageFoodPolicies>
   <!-- EN: Manage reading policies -->
-  <ManageReadingPolicies>TODO</ManageReadingPolicies>
+  <ManageReadingPolicies>مدیریت سیاست‌های مطالعه</ManageReadingPolicies>
   
   <!-- Restrictions tab -->
   <!-- EN: Copy -->
   <Copy>کپی</Copy>
   <!-- EN: Paste -->
-  <Paste>Paste</Paste>
+  <Paste>چسباندن</Paste>
   <!-- EN: Allowed area -->
-  <AllowedArea>Allowed area</AllowedArea>
+  <AllowedArea>منطقه مجاز</AllowedArea>
   
   <!-- Animals tab -->
   <!-- EN: Master -->
   <Master>استاد</Master>
   <!-- EN: Pregnant ({0} / {1}) -->
-  <PregnantIconDesc>Pregnant ({0} / {1})</PregnantIconDesc>
+  <PregnantIconDesc>باردار ({0} / {1})</PregnantIconDesc>
   <!-- EN: Bonded to -->
-  <BondedTo>Bonded to</BondedTo>
+  <BondedTo>پیوند خورده با</BondedTo>
   <!-- EN: Sterilize animal. -->
-  <SterilizeAnimal>Sterilize animal.</SterilizeAnimal>
+  <SterilizeAnimal>عقیم کردن حیوان.</SterilizeAnimal>
   <!-- EN: Animal sterile. -->
-  <AnimalAlreadySterile>Animal sterile.</AnimalAlreadySterile>
+  <AnimalAlreadySterile>حیوان عقیم است.</AnimalAlreadySterile>
   
   <!-- Wildlife tab -->
   <!-- EN: This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people. -->
-  <IsPredator>This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people.</IsPredator>
+  <IsPredator>این موجود یک شکارچی است. وقتی گرسنه باشد، موجودات کوچکتر - احتمالاً از جمله انسان‌ها - را شکار خواهد کرد.</IsPredator>
   <!-- EN: This creature is currently in mental state: {0} -->
-  <IsInMentalState>This creature is currently in mental state: {0}</IsInMentalState>
+  <IsInMentalState>این موجود در حال حاضر در وضعیت روانی: {0} قرار دارد.</IsInMentalState>
   
   <!-- Factions tab -->
   <!-- EN: Hostile -->
@@ -103,21 +103,21 @@
   <!-- EN: defeated -->
   <DefeatedLower>شکست خورده</DefeatedLower>
   <!-- EN: Enemy of {0} -->
-  <HostileTo>Enemy of {0}</HostileTo>
+  <HostileTo>دشمن {0}</HostileTo>
   <!-- EN: Enemy of:  -->
-  <EnemyOf>Enemy of: </EnemyOf>
+  <EnemyOf>دشمن:</EnemyOf>
   <!-- EN: Recent events -->
   <RecentEvents>رویدادهای اخیر</RecentEvents>
   <!-- EN: Ongoing events -->
   <OngoingEvents>رویدادهای در حال انجام</OngoingEvents>
   <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
-  <CurrentGoodwillTip_PermanentEnemy>This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason.</CurrentGoodwillTip_PermanentEnemy>
+  <CurrentGoodwillTip_PermanentEnemy>این جناح به طور دائم متخاصم است. آنها به سکونتگاه‌ها و کاروان‌های شما حمله خواهند کرد. روابط با آنها هرگز به هیچ دلیلی بهبود نخواهد یافت.</CurrentGoodwillTip_PermanentEnemy>
   <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
-  <CurrentGoodwillTip_Ally>This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral.</CurrentGoodwillTip_Ally>
+  <CurrentGoodwillTip_Ally>این جناح متحد است. آنها در صورت امکان برای کمک به شما جنگجو خواهند فرستاد. اگر روابط به زیر {0} برسد، خنثی خواهند شد.</CurrentGoodwillTip_Ally>
   <!-- EN: This faction is neutral. They will trade and talk with you freely. If relations fall below {0}, they will become hostile. If relations rise above {1}, they will become allied and start actively working to help you. -->
-  <CurrentGoodwillTip_Neutral>This faction is neutral. They will trade and talk with you freely. If relations fall below {0}, they will become hostile. If relations rise above {1}, they will become allied and start actively working to help you.</CurrentGoodwillTip_Neutral>
+  <CurrentGoodwillTip_Neutral>این جناح خنثی است. آنها آزادانه با شما تجارت و صحبت خواهند کرد. اگر روابط به زیر {0} برسد، متخاصم خواهند شد. اگر روابط به بالای {1} برسد، متحد شما خواهند شد و فعالانه برای کمک به شما تلاش خواهند کرد.</CurrentGoodwillTip_Neutral>
   <!-- EN: This faction is hostile. They will raid your settlements and caravans. If relations rise above {0}, they will become neutral. -->
-  <CurrentGoodwillTip_Hostile>This faction is hostile. They will raid your settlements and caravans. If relations rise above {0}, they will become neutral.</CurrentGoodwillTip_Hostile>
+  <CurrentGoodwillTip_Hostile>این جناح متخاصم است. آنها به سکونتگاه‌ها و کاروان‌های شما حمله خواهند کرد. اگر روابط به بالای {0} برسد، خنثی خواهند شد.</CurrentGoodwillTip_Hostile>
 
   <!-- Social tab -->
   <!-- EN: Friend -->
@@ -125,11 +125,11 @@
   <!-- EN: Rival -->
   <Rival>رقیب</Rival>
   <!-- EN: Acquaintance -->
-  <Acquaintance>Acquaintance</Acquaintance>
+  <Acquaintance>آشنا</Acquaintance>
   
   <!-- History tab - subtabs -->
   <!-- EN: Graph -->
-  <Graph>Graph</Graph>
+  <Graph>نمودار</Graph>
   <!-- EN: Messages -->
   <Messages>پیام ها</Messages>
   <!-- EN: Statistics -->
@@ -137,13 +137,13 @@
   
   <!-- History tab - Graphs -->
   <!-- EN: Select graph -->
-  <SelectGraph>Select graph</SelectGraph>
+  <SelectGraph>انتخاب نمودار</SelectGraph>
   <!-- EN: Last 30 days -->
-  <Last30Days>Last 30 days</Last30Days>
+  <Last30Days>30 روز گذشته</Last30Days>
   <!-- EN: Last 100 days -->
-  <Last100Days>Last 100 days</Last100Days>
+  <Last100Days>100 روز گذشته</Last100Days>
   <!-- EN: Last 300 days -->
-  <Last300Days>Last 300 days</Last300Days>
+  <Last300Days>300 روز گذشته</Last300Days>
   <!-- EN: All -->
   <AllDays>همه</AllDays>
   <!-- EN: Value -->
@@ -157,7 +157,7 @@
   <!-- EN: Show messages -->
   <ShowMessages>نمایش پیام ها</ShowMessages>
   <!-- EN: Pin or unpin this message.\n\nThe oldest unpinned messages will be removed automatically from the list after reaching the limit of {0} messages. -->
-  <PinArchivableTip>Pin or unpin this message.\n\nThe oldest unpinned messages will be removed automatically from the list after reaching the limit of {0} messages.</PinArchivableTip>
+  <PinArchivableTip>این پیام را پین یا از پین خارج کنید.\n\nقدیمی‌ترین پیام‌های پین نشده پس از رسیدن به حد مجاز {0} پیام، به طور خودکار از لیست حذف خواهند شد.</PinArchivableTip>
   <!-- EN: no messages -->
   <NoMessages>هیچ پیامی وجود ندارد</NoMessages>
 
@@ -167,23 +167,23 @@
   <!-- EN: Storyteller -->
   <Storyteller>قصه گو</Storyteller>
   <!-- EN: Colony wealth (this map) -->
-  <ThisMapColonyWealthTotal>Colony wealth (this map)</ThisMapColonyWealthTotal>
+  <ThisMapColonyWealthTotal>ثروت کلونی (این نقشه)</ThisMapColonyWealthTotal>
   <!-- EN: Colony wealth (items) (this map) -->
-  <ThisMapColonyWealthItems>Colony wealth (items) (this map)</ThisMapColonyWealthItems>
+  <ThisMapColonyWealthItems>ثروت کلونی (اقلام) (این نقشه)</ThisMapColonyWealthItems>
   <!-- EN: Colony wealth (buildings) (this map) -->
-  <ThisMapColonyWealthBuildings>Colony wealth (buildings) (this map)</ThisMapColonyWealthBuildings>
+  <ThisMapColonyWealthBuildings>ثروت کلونی (ساختمان‌ها) (این نقشه)</ThisMapColonyWealthBuildings>
   <!-- EN: Colony wealth (people and animals) (this map) -->
-  <ThisMapColonyWealthColonistsAndTameAnimals>Colony wealth (people and animals) (this map)</ThisMapColonyWealthColonistsAndTameAnimals>
+  <ThisMapColonyWealthColonistsAndTameAnimals>ثروت کلونی (افراد و حیوانات) (این نقشه)</ThisMapColonyWealthColonistsAndTameAnimals>
   <!-- EN: Major threats -->
   <NumThreatBigs>تهدیدات عمده</NumThreatBigs>
   <!-- EN: Enemy raids -->
-  <NumEnemyRaids>Enemy raids</NumEnemyRaids>
+  <NumEnemyRaids>حملات دشمن</NumEnemyRaids>
   <!-- EN: Damage taken (this map) -->
-  <ThisMapDamageTaken>Damage taken (this map)</ThisMapDamageTaken>
+  <ThisMapDamageTaken>آسیب وارده (این نقشه)</ThisMapDamageTaken>
   <!-- EN: Colonists killed -->
-  <ColonistsKilled>Colonists killed</ColonistsKilled>
+  <ColonistsKilled>مهاجران کشته شده</ColonistsKilled>
   <!-- EN: Colonists launched into space -->
-  <ColonistsLaunched>Colonists launched into space</ColonistsLaunched>
+  <ColonistsLaunched>مهاجران پرتاب شده به فضا</ColonistsLaunched>
 
   <!-- Research tab -->
   <!-- EN: Research -->
@@ -191,7 +191,7 @@
   <!-- EN: Study -->
   <Study>مطالعه</Study>
   <!-- EN: Study {0} -->
-  <StudyThing>Study {0}</StudyThing>
+  <StudyThing>مطالعه {0}</StudyThing>
   <!-- EN: Unresearched -->
   <Unresearched>تحقیق نشده</Unresearched>
   <!-- EN: Finished -->
@@ -201,45 +201,45 @@
   <!-- EN: Locked -->
   <Locked>قفل شده است</Locked>
   <!-- EN: Prerequisites -->
-  <Prerequisites>TODO</Prerequisites>
+  <Prerequisites>پیش‌نیازها</Prerequisites>
   <!-- EN: Techprints required {0} / {1} -->
-  <ResearchTechprintRequirement>Techprints required {0} / {1}</ResearchTechprintRequirement>
+  <ResearchTechprintRequirement>طرح‌های فنی مورد نیاز {0} / {1}</ResearchTechprintRequirement>
   <!-- EN: Insufficient techprints applied ({0} / {1}) -->
-  <InsufficientTechprintsApplied>Insufficient techprints applied ({0} / {1})</InsufficientTechprintsApplied>
+  <InsufficientTechprintsApplied>طرح‌های فنی کافی اعمال نشده است ({0} / {1})</InsufficientTechprintsApplied>
   <!-- EN: Prerequisite(s) not completed -->
-  <PrerequisitesNotCompleted>Prerequisite(s) not completed</PrerequisitesNotCompleted>
+  <PrerequisitesNotCompleted>پیش‌نیاز(ها) تکمیل نشده است</PrerequisitesNotCompleted>
   <!-- EN: No project active. -->
-  <NoProjectSelected>TODO</NoProjectSelected>
+  <NoProjectSelected>هیچ پروژه فعالی وجود ندارد.</NoProjectSelected>
   <!-- EN: Active projects -->
-  <ActiveProjectPlural>TODO</ActiveProjectPlural>
+  <ActiveProjectPlural>پروژه‌های فعال</ActiveProjectPlural>
   <!-- EN: Active project -->
-  <ActiveProject>TODO</ActiveProject>
+  <ActiveProject>پروژه فعال</ActiveProject>
   <!-- EN: Stop research -->
-  <StopResearch>TODO</StopResearch>
+  <StopResearch>توقف تحقیق</StopResearch>
   <!-- EN: Missing required research facilities -->
-  <MissingRequiredResearchFacilities>Missing required research facilities</MissingRequiredResearchFacilities>
+  <MissingRequiredResearchFacilities>امکانات تحقیقاتی مورد نیاز گم شده است</MissingRequiredResearchFacilities>
   <!-- EN: Required research bench -->
-  <RequiredResearchBench>Required research bench</RequiredResearchBench>
+  <RequiredResearchBench>میز تحقیق مورد نیاز</RequiredResearchBench>
   <!-- EN: Required research bench facilities -->
-  <RequiredResearchBenchFacilities>Required research bench facilities</RequiredResearchBenchFacilities>
+  <RequiredResearchBenchFacilities>امکانات میز تحقیق مورد نیاز</RequiredResearchBenchFacilities>
   <!-- EN: Project base cost {0} becomes {1} for you because of your tech level. -->
-  <ResearchCostComparison>Project base cost {0} becomes {1} for you because of your tech level.</ResearchCostComparison>
+  <ResearchCostComparison>هزینه پایه پروژه {0} به دلیل سطح فناوری شما برای شما {1} می‌شود.</ResearchCostComparison>
   <!-- EN: Techprints are available from these factions via trade and quests: -->
-  <ResearchTechprintsFromFactions>Techprints are available from these factions via trade and quests:</ResearchTechprintsFromFactions>
+  <ResearchTechprintsFromFactions>طرح‌های فنی از این جناح‌ها از طریق تجارت و ماموریت‌ها در دسترس هستند:</ResearchTechprintsFromFactions>
   <!-- EN: Your faction tech level is {0}, but this project's tech level is {1}. Research speed will be multiplied by {2}. -->
-  <TechLevelTooLow>Your faction tech level is {0}, but this project's tech level is {1}. Research speed will be multiplied by {2}.</TechLevelTooLow>
+  <TechLevelTooLow>سطح فناوری جناح شما {0} است، اما سطح فناوری این پروژه {1} است. سرعت تحقیق در {2} ضرب خواهد شد.</TechLevelTooLow>
   <!-- EN: Unlocked with -->
-  <UnlockedWith>Unlocked with</UnlockedWith>
+  <UnlockedWith>باز شده با</UnlockedWith>
   <!-- EN: Research one or more of this project's prerequisites to discover it. -->
-  <UnknownResearchDescription>TODO</UnknownResearchDescription>
+  <UnknownResearchDescription>برای کشف آن، یک یا چند پیش‌نیاز این پروژه را تحقیق کنید.</UnknownResearchDescription>
   <!-- EN: unknown -->
-  <UnknownResearch>TODO</UnknownResearch>
+  <UnknownResearch>ناشناخته</UnknownResearch>
 
   <!-- Factions tab -->
   <!-- EN: Factions -->
   <FactionsTab>جناح ها</FactionsTab>
   <!-- EN: No known factions -->
-  <NoFactions>No known factions</NoFactions>
+  <NoFactions>هیچ جناح شناخته شده‌ای وجود ندارد</NoFactions>
 
   <!-- Quests tab -->
   <!-- EN: Available -->
@@ -249,140 +249,140 @@
   <!-- EN: Historical -->
   <HistoricalQuests>تاریخی</HistoricalQuests>
   <!-- EN: no quest selected -->
-  <NoQuestSelected>no quest selected</NoQuestSelected>
+  <NoQuestSelected>هیچ ماموریتی انتخاب نشده است</NoQuestSelected>
   <!-- EN: Appeared {0} days ago -->
-  <AppearedDaysAgo>Appeared {0} days ago</AppearedDaysAgo>
+  <AppearedDaysAgo>{0} روز پیش ظاهر شد</AppearedDaysAgo>
   <!-- EN: Appeared on {0} -->
-  <AppearedOn>Appeared on {0}</AppearedOn>
+  <AppearedOn>در {0} ظاهر شد</AppearedOn>
   <!-- EN: Accepted {0} ago -->
-  <AcceptedAgo>Accepted {0} ago</AcceptedAgo>
+  <AcceptedAgo>{0} پیش پذیرفته شد</AcceptedAgo>
   <!-- EN: Accepted on {0} -->
-  <AcceptedOn>Accepted on {0}</AcceptedOn>
+  <AcceptedOn>در {0} پذیرفته شد</AcceptedOn>
   <!-- EN: Accepted {0} ago by {1} -->
-  <AcceptedAgoBy>Accepted {0} ago by {1}</AcceptedAgoBy>
+  <AcceptedAgoBy>{0} پیش توسط {1} پذیرفته شد</AcceptedAgoBy>
   <!-- EN: Accepted on {0} by {1} -->
-  <AcceptedOnBy>Accepted on {0} by {1}</AcceptedOnBy>
+  <AcceptedOnBy>در {0} توسط {1} پذیرفته شد</AcceptedOnBy>
   <!-- EN: Expires in {0} -->
-  <QuestExpiresIn>Expires in {0}</QuestExpiresIn>
+  <QuestExpiresIn>در {0} منقضی می‌شود</QuestExpiresIn>
   <!-- EN: Expires on {0} -->
-  <QuestExpiresOn>Expires on {0}</QuestExpiresOn>
+  <QuestExpiresOn>در {0} منقضی می‌شود</QuestExpiresOn>
   <!-- EN: Average guest mood (previous {0}): {1} -->
-  <QuestAveragePawnMood>Average guest mood (previous {0}): {1}</QuestAveragePawnMood>
+  <QuestAveragePawnMood>میانگین روحیه مهمان ( {0} گذشته): {1}</QuestAveragePawnMood>
   <!-- EN: The average mood of {0} over the previous {1} -->
-  <QuestAveragePawnMoodTargets>The average mood of {0} over the previous {1}</QuestAveragePawnMoodTargets>
+  <QuestAveragePawnMoodTargets>میانگین روحیه {0} در طول {1} گذشته</QuestAveragePawnMoodTargets>
   <!-- EN: Shuttle arrives in {0} -->
-  <ShuttleArrivesIn>Shuttle arrives in {0}</ShuttleArrivesIn>
+  <ShuttleArrivesIn>شاتل در {0} می‌رسد</ShuttleArrivesIn>
   <!-- EN: Shuttle arrives on {0} -->
-  <ShuttleArrivesOn>Shuttle arrives on {0}</ShuttleArrivesOn>
+  <ShuttleArrivesOn>شاتل در {0} می‌رسد</ShuttleArrivesOn>
   <!-- EN: Shuttle departs in {0} -->
-  <ShuttleDepartsIn>Shuttle departs in {0}</ShuttleDepartsIn>
+  <ShuttleDepartsIn>شاتل در {0} حرکت می‌کند</ShuttleDepartsIn>
   <!-- EN: Shuttle departs on {0} -->
-  <ShuttleDepartsOn>Shuttle departs on {0}</ShuttleDepartsOn>
+  <ShuttleDepartsOn>شاتل در {0} حرکت می‌کند</ShuttleDepartsOn>
   <!-- EN: Guests depart in {0} -->
-  <GuestsDepartsIn>Guests depart in {0}</GuestsDepartsIn>
+  <GuestsDepartsIn>مهمانان در {0} حرکت می‌کنند</GuestsDepartsIn>
   <!-- EN: Guests depart on {0} -->
-  <GuestsDepartsOn>Guests depart on {0}</GuestsDepartsOn>
+  <GuestsDepartsOn>مهمانان در {0} حرکت می‌کنند</GuestsDepartsOn>
   <!-- EN: Finished {0} ago -->
-  <QuestFinishedAgo>Finished {0} ago</QuestFinishedAgo>
+  <QuestFinishedAgo>{0} پیش به پایان رسید</QuestFinishedAgo>
   <!-- EN: Accept quest -->
-  <AcceptQuest>Accept quest</AcceptQuest>
+  <AcceptQuest>پذیرش ماموریت</AcceptQuest>
   <!-- EN: Accept with {0_labelShort} -->
-  <AcceptWith>Accept with {0_labelShort}</AcceptWith>
+  <AcceptWith>پذیرش با {0_labelShort}</AcceptWith>
   <!-- EN: Accept for -->
-  <AcceptQuestFor>Accept for</AcceptQuestFor>
+  <AcceptQuestFor>پذیرش برای</AcceptQuestFor>
   <!-- EN: Click to accept this quest for this reward. -->
-  <AcceptQuestForTip>Click to accept this quest for this reward.</AcceptQuestForTip>
+  <AcceptQuestForTip>برای پذیرش این ماموریت برای این پاداش کلیک کنید.</AcceptQuestForTip>
   <!-- EN: The offer expired. -->
-  <QuestOutcomeInfo_OfferExpired>The offer expired.</QuestOutcomeInfo_OfferExpired>
+  <QuestOutcomeInfo_OfferExpired>پیشنهاد منقضی شد.</QuestOutcomeInfo_OfferExpired>
   <!-- EN: You completed this quest. -->
-  <QuestOutcomeInfo_UnknownOrSuccess>You completed this quest.</QuestOutcomeInfo_UnknownOrSuccess>
+  <QuestOutcomeInfo_UnknownOrSuccess>شما این ماموریت را تکمیل کردید.</QuestOutcomeInfo_UnknownOrSuccess>
   <!-- EN: You failed this quest. -->
-  <QuestOutcomeInfo_Failed>You failed this quest.</QuestOutcomeInfo_Failed>
+  <QuestOutcomeInfo_Failed>شما این ماموریت را شکست دادید.</QuestOutcomeInfo_Failed>
   <!-- EN: This quest became invalid before it was accepted. -->
-  <QuestOutcomeInfo_Invalid>This quest became invalid before it was accepted.</QuestOutcomeInfo_Invalid>
+  <QuestOutcomeInfo_Invalid>این ماموریت قبل از پذیرش نامعتبر شد.</QuestOutcomeInfo_Invalid>
   <!-- EN: Jump to {0} -->
-  <JumpToTargetCustom>Jump to {0}</JumpToTargetCustom>
+  <JumpToTargetCustom>پرش به {0}</JumpToTargetCustom>
   <!-- EN: Select hives -->
-  <SelectHiveTargets>Select hives</SelectHiveTargets>
+  <SelectHiveTargets>انتخاب کندوها</SelectHiveTargets>
   <!-- EN: Challenge rating. This is a general rating for how difficult the quest will be relative to your current strength. More challenging quests give greater rewards.\n\n1: Normal\n2: Hard\n3: Extreme\n4: Ultimate -->
-  <QuestChallengeRatingTip>Challenge rating. This is a general rating for how difficult the quest will be relative to your current strength. More challenging quests give greater rewards.\n\n1: Normal\n2: Hard\n3: Extreme\n4: Ultimate</QuestChallengeRatingTip>
+  <QuestChallengeRatingTip>رتبه چالش. این یک رتبه کلی برای میزان دشواری ماموریت نسبت به قدرت فعلی شما است. ماموریت‌های چالش‌برانگیزتر پاداش‌های بیشتری می‌دهند.\n\n1: عادی\n2: سخت\n3: شدید\n4: نهایی</QuestChallengeRatingTip>
   <!-- EN: To accept this quest, you need -->
-  <QuestAcceptanceRequirementsDescription>To accept this quest, you need</QuestAcceptanceRequirementsDescription>
+  <QuestAcceptanceRequirementsDescription>برای پذیرش این ماموریت، شما نیاز دارید</QuestAcceptanceRequirementsDescription>
   <!-- EN: free bedrooms that satisfy the title requirements of -->
-  <QuestBedroomRequirementsUnsatisfied>free bedrooms that satisfy the title requirements of</QuestBedroomRequirementsUnsatisfied>
+  <QuestBedroomRequirementsUnsatisfied>اتاق خواب‌های خالی که شرایط عنوان را برآورده می‌کنند</QuestBedroomRequirementsUnsatisfied>
   <!-- EN: a free bedroom that satisfies the title requirements of -->
-  <QuestBedroomRequirementsUnsatisfiedSingle>a free bedroom that satisfies the title requirements of</QuestBedroomRequirementsUnsatisfiedSingle>
+  <QuestBedroomRequirementsUnsatisfiedSingle>یک اتاق خواب خالی که شرایط عنوان را برآورده می‌کند</QuestBedroomRequirementsUnsatisfiedSingle>
   <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
-  <QuestThroneRoomRequirementsUnsatisfied>a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title</QuestThroneRoomRequirementsUnsatisfied>
+  <QuestThroneRoomRequirementsUnsatisfied>یک اتاق تاج و تخت که شرایط عنوان {TITLE} {PAWN_definite} را برآورده می‌کند</QuestThroneRoomRequirementsUnsatisfied>
   <!-- EN: assign a throne for {PAWN_definite} -->
-  <QuestNoThroneRoom>assign a throne for {PAWN_definite}</QuestNoThroneRoom>
+  <QuestNoThroneRoom>اختصاص یک تاج و تخت برای {PAWN_definite}</QuestNoThroneRoom>
   <!-- EN: a colonist with the title of {0} -->
-  <QuestNoColonistWithTitle>a colonist with the title of {0}</QuestNoColonistWithTitle>
+  <QuestNoColonistWithTitle>یک مهاجر با عنوان {0}</QuestNoColonistWithTitle>
   <!-- EN: {PAWN_definite} to be in your home colony -->
-  <QuestPawnNotOnColonyMap>{PAWN_definite} to be in your home colony</QuestPawnNotOnColonyMap>
+  <QuestPawnNotOnColonyMap>{PAWN_definite} در کلونی خانگی شما باشد</QuestPawnNotOnColonyMap>
   <!-- EN: the map clear of enemies of the bestower's faction -->
-  <QuestRequiresNoDangerOnMap>the map clear of enemies of the bestower's faction</QuestRequiresNoDangerOnMap>
+  <QuestRequiresNoDangerOnMap>نقشه عاری از دشمنان جناح اهداکننده باشد</QuestRequiresNoDangerOnMap>
   <!-- EN: to finish the ongoing bestowing ceremony quest -->
-  <QuestCanNotStartUntilBestowingCeremonyFinished>to finish the ongoing bestowing ceremony quest</QuestCanNotStartUntilBestowingCeremonyFinished>
+  <QuestCanNotStartUntilBestowingCeremonyFinished>ماموریت مراسم اعطا در حال انجام را به پایان برسانید</QuestCanNotStartUntilBestowingCeremonyFinished>
   <!-- EN: Reward preferences -->
-  <ChooseRewards>Reward preferences</ChooseRewards>
+  <ChooseRewards>اولویت‌های پاداش</ChooseRewards>
   <!-- EN: Tell other factions what kinds of rewards you want in future quests. This doesn't affect quests that were already offered. -->
-  <ChooseRewardsDesc>Tell other factions what kinds of rewards you want in future quests. This doesn't affect quests that were already offered.</ChooseRewardsDesc>
+  <ChooseRewardsDesc>به جناح‌های دیگر بگویید چه نوع پاداش‌هایی را در ماموریت‌های آینده می‌خواهید. این بر ماموریت‌هایی که قبلاً ارائه شده‌اند تأثیر نمی‌گذارد.</ChooseRewardsDesc>
   <!-- EN: Accept {FACTION_royalFavorLabel} -->
-  <AcceptRoyalFavor>Accept {FACTION_royalFavorLabel}</AcceptRoyalFavor>
+  <AcceptRoyalFavor>پذیرش {FACTION_royalFavorLabel}</AcceptRoyalFavor>
   <!-- EN: Whether you wish to be rewarded with {FACTION_royalFavorLabel} from {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-arriving quests. -->
-  <AcceptRoyalFavorDesc>Whether you wish to be rewarded with {FACTION_royalFavorLabel} from {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-arriving quests.</AcceptRoyalFavorDesc>
+  <AcceptRoyalFavorDesc>آیا مایلید با {FACTION_royalFavorLabel} از {FACTION_name} پاداش بگیرید.\n\nاگر این گزینه غیرفعال باشد، {FACTION_name} به جای آن انواع دیگری از پاداش‌ها را ارائه خواهد داد.\n\nاین تنظیم فقط بر ماموریت‌های تازه وارد تأثیر می‌گذارد.</AcceptRoyalFavorDesc>
   <!-- EN: Accept goodwill -->
-  <AcceptGoodwill>Accept goodwill</AcceptGoodwill>
+  <AcceptGoodwill>پذیرش حسن نیت</AcceptGoodwill>
   <!-- EN: Whether you wish to be rewarded via improved faction relations with {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-generated quests. -->
-  <AcceptGoodwillDesc>Whether you wish to be rewarded via improved faction relations with {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-generated quests.</AcceptGoodwillDesc>
+  <AcceptGoodwillDesc>آیا مایلید از طریق بهبود روابط جناح با {FACTION_name} پاداش بگیرید.\n\nاگر این گزینه غیرفعال باشد، {FACTION_name} به جای آن انواع دیگری از پاداش‌ها را ارائه خواهد داد.\n\nاین تنظیم فقط بر ماموریت‌های تازه تولید شده تأثیر می‌گذارد.</AcceptGoodwillDesc>
   <!-- EN: You are currently opting in to receive {FACTION_royalFavorLabel}. -->
-  <RoyalFavorOn>You are currently opting in to receive {FACTION_royalFavorLabel}.</RoyalFavorOn>
+  <RoyalFavorOn>شما در حال حاضر برای دریافت {FACTION_royalFavorLabel} انتخاب کرده‌اید.</RoyalFavorOn>
   <!-- EN: You are currently opting out of receiving {FACTION_royalFavorLabel}. -->
-  <RoyalFavorOff>You are currently opting out of receiving {FACTION_royalFavorLabel}.</RoyalFavorOff>
+  <RoyalFavorOff>شما در حال حاضر از دریافت {FACTION_royalFavorLabel} انصراف داده‌اید.</RoyalFavorOff>
   <!-- EN: Your goodwill with {0_name} will improve by {1}.\n\nCurrent goodwill: {4} ({5}).\n\nGoodwill measures the general relationship between factions. If it falls below {2}, the faction becomes hostile and will raid your settlements and caravans. If it rises above {3}, the faction will become your ally and send fighters to help you when they can. Otherwise, the faction remains neutral and will trade and talk with you freely. -->
-  <GoodwillTip>Your goodwill with {0_name} will improve by {1}.\n\nCurrent goodwill: {4} ({5}).\n\nGoodwill measures the general relationship between factions. If it falls below {2}, the faction becomes hostile and will raid your settlements and caravans. If it rises above {3}, the faction will become your ally and send fighters to help you when they can. Otherwise, the faction remains neutral and will trade and talk with you freely.</GoodwillTip>
+  <GoodwillTip>حسن نیت شما با {0_name} به میزان {1} بهبود خواهد یافت.\n\nحسن نیت فعلی: {4} ({5}).\n\nحسن نیت رابطه کلی بین جناح‌ها را اندازه‌گیری می‌کند. اگر به زیر {2} برسد، جناح متخاصم می‌شود و به سکونتگاه‌ها و کاروان‌های شما حمله خواهد کرد. اگر به بالای {3} برسد، جناح متحد شما خواهد شد و در صورت امکان برای کمک به شما جنگجو خواهد فرستاد. در غیر این صورت، جناح خنثی باقی می‌ماند و آزادانه با شما تجارت و صحبت خواهد کرد.</GoodwillTip>
   <!-- EN: {0_labelShort} joins -->
-  <PawnQuestReward>{0_labelShort} joins</PawnQuestReward>
+  <PawnQuestReward>{0_labelShort} می‌پیوندد</PawnQuestReward>
   <!-- EN: Betrayal offer: {0} targets remain -->
-  <QuestBetrayalOffer>Betrayal offer: {0} targets remain</QuestBetrayalOffer>
+  <QuestBetrayalOffer>پیشنهاد خیانت: {0} هدف باقی مانده است</QuestBetrayalOffer>
   <!-- EN: {0} will grant you a reward for killing all members of the {1}. -->
-  <QuestBetrayalOfferTip>{0} will grant you a reward for killing all members of the {1}.</QuestBetrayalOfferTip>
+  <QuestBetrayalOfferTip>{0} برای کشتن تمام اعضای {1} به شما پاداش خواهد داد.</QuestBetrayalOfferTip>
   <!-- EN: a colony wealth of at least {0} -->
-  <QuestRequiredPlayerWealth>a colony wealth of at least {0}</QuestRequiredPlayerWealth>
+  <QuestRequiredPlayerWealth>ثروت کلونی حداقل {0}</QuestRequiredPlayerWealth>
   <!-- EN: alliance with {0} -->
-  <QuestAlliedTo>alliance with {0}</QuestAlliedTo>
+  <QuestAlliedTo>اتحاد با {0}</QuestAlliedTo>
   <!-- EN: hostile to {0} -->
-  <QuestHostileTo>hostile to {0}</QuestHostileTo>
+  <QuestHostileTo>متخاصم با {0}</QuestHostileTo>
   <!-- EN: neutral to {0} -->
-  <QuestNeutralTo>neutral to {0}</QuestNeutralTo>
+  <QuestNeutralTo>خنثی نسبت به {0}</QuestNeutralTo>
   <!-- EN: studied {0_labelShort} -->
-  <QuestRequiredThingStudied>studied {0_labelShort}</QuestRequiredThingStudied>
+  <QuestRequiredThingStudied>{0_labelShort} مطالعه شده است</QuestRequiredThingStudied>
 
   <!-- Health tab -->
   <!-- EN: Creates need -->
-  <CreatesNeed>Creates need</CreatesNeed>
+  <CreatesNeed>نیاز ایجاد می‌کند</CreatesNeed>
   <!-- EN: Change defaults... -->
-  <ChangeDefaults>TODO</ChangeDefaults>
+  <ChangeDefaults>تغییر پیش‌فرض‌ها...</ChangeDefaults>
 
   <!-- Misc -->
   <!-- EN: Click to edit -->
   <ClickToEdit>برای ویرایش کلیک کنید</ClickToEdit>
   <!-- EN: Assign -->
-  <AssignButton>TODO</AssignButton>
+  <AssignButton>اختصاص دادن</AssignButton>
   <!-- EN: Unassign -->
-  <UnassignButton>TODO</UnassignButton>
+  <UnassignButton>لغو اختصاص</UnassignButton>
   
   <!-- Books -->
   <!-- EN: Mental break chance -->
-  <BookMentalBreakChance>TODO</BookMentalBreakChance>
+  <BookMentalBreakChance>شانس فروپاشی روانی</BookMentalBreakChance>
   
   <!-- EN: Recreation gain multiplier -->
-  <BookJoyFactor>TODO</BookJoyFactor>
+  <BookJoyFactor>ضریب افزایش تفریح</BookJoyFactor>
   
   <!-- UNUSED -->
   <ManageOutfits>لباس ها را مدیریت کنید</ManageOutfits>
-  <ManageFoodRestrictions>Manage food restrictions</ManageFoodRestrictions>
-  <ResearchPrerequisites>Research prerequisites</ResearchPrerequisites>
+  <ManageFoodRestrictions>مدیریت محدودیت‌های غذایی</ManageFoodRestrictions>
+  <ResearchPrerequisites>پیش‌نیازهای تحقیق</ResearchPrerequisites>
 
 </LanguageData>

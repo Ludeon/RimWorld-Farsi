@@ -8,18 +8,18 @@
   <!-- EN: Year -->
   <ClockYear>سال</ClockYear>
   <!-- EN: Days passed since your arrival: {0}\nCurrent quadrum: {4}\nLocal season: {2}\n\nThe year is divided into 4 quadrums of {3} days each. Quadrums are the same everywhere, while seasons are different in different places.\n\nLocal seasons for each quadrum:\n{5} -->
-  <DateReadoutTip>Days passed since your arrival: {0}\nCurrent quadrum: {4}\nLocal season: {2}\n\nThe year is divided into 4 quadrums of {3} days each. Quadrums are the same everywhere, while seasons are different in different places.\n\nLocal seasons for each quadrum:\n{5}</DateReadoutTip>
+  <DateReadoutTip>روزهای سپری شده از زمان ورود شما: {0}\nچهارم فعلی: {4}\nفصل محلی: {2}\n\nسال به ۴ چهارم {3} روزه تقسیم می‌شود. چهارم‌ها در همه جا یکسان هستند، در حالی که فصل‌ها در مکان‌های مختلف متفاوتند.\n\nفصل‌های محلی برای هر چهارم:\n{5}</DateReadoutTip>
 
   <!-- EN: {0} of {1}, {2} -->
-  <FullDate>{0} of {1}, {2}</FullDate>
+  <FullDate>{0} از {1}, {2}</FullDate>
   <!-- EN: {0} {1} {2} -->
   <ShortDate>{0} {1} {2}</ShortDate>
   <!-- EN: {0}, {1} -->
   <MonthYearDate>TODO</MonthYearDate>
   <!-- EN: {0} of {1}, {2} -->
-  <DateReadout>{0} of {1}, {2}</DateReadout>
+  <DateReadout>{0} از {1}, {2}</DateReadout>
   <!-- EN: {0} of {1} -->
-  <SeasonFullDate>{0} of {1}</SeasonFullDate>
+  <SeasonFullDate>{0} از {1}</SeasonFullDate>
   <!-- EN: Whole year -->
   <WholeYear>تمام سال</WholeYear>
   

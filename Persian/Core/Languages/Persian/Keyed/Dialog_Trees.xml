@@ -2,67 +2,67 @@
 <LanguageData>
 
   <!-- EN: {0} hurls some epithets into the microphone and disconnects. -->
-  <FactionGreetingHostile>{0} hurls some epithets into the microphone and disconnects.</FactionGreetingHostile>
+  <FactionGreetingHostile>{0} چند ناسزا به میکروفون پرتاب می‌کند و قطع می‌کند.</FactionGreetingHostile>
   <!-- EN: {0} demands that you make a gesture of goodwill, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed. Until then, {0_pronoun} is unwilling to talk.\n\nMuttering an insult, {0_pronoun} disconnects. -->
-  <FactionGreetingHostileAppreciative>{0} demands that you make a gesture of goodwill, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed. Until then, {0_pronoun} is unwilling to talk.\n\nMuttering an insult, {0_pronoun} disconnects.</FactionGreetingHostileAppreciative>
+  <FactionGreetingHostileAppreciative>{0} از شما می‌خواهد که یک حرکت حسن نیت انجام دهید، مانند آوردن هدایا به یکی از سکونتگاه‌های {0_possessive} یا آزاد کردن زندانیان جناح {0_possessive} بدون آسیب. تا آن زمان، {0_pronoun} مایل به صحبت نیست.\n\nبا زمزمه یک توهین، {0_pronoun} قطع می‌کند.</FactionGreetingHostileAppreciative>
   <!-- EN: {0} greets {NEGOTIATOR_labelShort} and asks what business you want to handle. -->
-  <FactionGreetingWary>{0} greets {NEGOTIATOR_labelShort} and asks what business you want to handle.</FactionGreetingWary>
+  <FactionGreetingWary>{0} به {NEGOTIATOR_labelShort} سلام می‌کند و می‌پرسد چه کاری می‌خواهید انجام دهید.</FactionGreetingWary>
   <!-- EN: {0} greets {NEGOTIATOR_labelShort} warmly and asks what {LEADER_pronoun} can do to help you. -->
-  <FactionGreetingWarm>{0} greets {NEGOTIATOR_labelShort} warmly and asks what {LEADER_pronoun} can do to help you.</FactionGreetingWarm>
+  <FactionGreetingWarm>{0} به گرمی به {NEGOTIATOR_labelShort} سلام می‌کند و می‌پرسد {LEADER_pronoun} چگونه می‌تواند به شما کمک کند.</FactionGreetingWarm>
 
   <!-- EN: won't do {0} -->
-  <WorkTypeDisablesOption>won't do {0}</WorkTypeDisablesOption>
+  <WorkTypeDisablesOption>{0} را انجام نخواهد داد</WorkTypeDisablesOption>
   <!-- EN: Disconnect -->
-  <Disconnect>Disconnect</Disconnect>
+  <Disconnect>قطع اتصال</Disconnect>
 
   <!-- Gift offer -->
   <!-- EN: Offer gift -->
   <OfferGift>پیشنهاد هدیه</OfferGift>
   <!-- EN: must be ally -->
-  <MustBeAlly>must be ally</MustBeAlly>
+  <MustBeAlly>باید متحد باشد</MustBeAlly>
   <!-- EN: need {0} goodwill -->
-  <NeedGoodwill>need {0} goodwill</NeedGoodwill>
+  <NeedGoodwill>نیاز به {0} حسن نیت</NeedGoodwill>
   <!-- EN: need {0} silver near trade beacons -->
-  <NeedSilverLaunchable>need {0} silver near trade beacons</NeedSilverLaunchable>
+  <NeedSilverLaunchable>نیاز به {0} نقره نزدیک فانوس‌های تجاری</NeedSilverLaunchable>
   <!-- EN: not enough silver -->
-  <NotEnoughSilver>not enough silver</NotEnoughSilver>
+  <NotEnoughSilver>نقره کافی نیست</NotEnoughSilver>
   <!-- EN: {0} silver for {1} goodwill -->
-  <SilverForGoodwill>{0} silver for {1} goodwill</SilverForGoodwill>
+  <SilverForGoodwill>{0} نقره برای {1} حسن نیت</SilverForGoodwill>
   <!-- EN: {0} thanks you.\n\n(Goodwill improved by {1}) -->
-  <SilverGiftSent>{0} thanks you.\n\n(Goodwill improved by {1})</SilverGiftSent>
+  <SilverGiftSent>{0} از شما تشکر می‌کند.\n\n(حسن نیت {1} بهبود یافت)</SilverGiftSent>
 
   <!-- Trade caravan request -->
   <!-- EN: Request a trade caravan (cost: {0} goodwill) -->
-  <RequestTrader>Request a trade caravan (cost: {0} goodwill)</RequestTrader>
+  <RequestTrader>درخواست کاروان تجاری (هزینه: {0} حسن نیت)</RequestTrader>
   <!-- EN: {0} asks what kind of trade caravan you want. -->
-  <ChooseTraderKind>{0} asks what kind of trade caravan you want.</ChooseTraderKind>
+  <ChooseTraderKind>{0} می‌پرسد چه نوع کاروان تجاری می‌خواهید.</ChooseTraderKind>
   <!-- EN: {0} agrees to send you a trade caravan. It will arrive within a few days. -->
-  <TraderSent>{0} agrees to send you a trade caravan. It will arrive within a few days.</TraderSent>
+  <TraderSent>{0} موافقت می‌کند که یک کاروان تجاری برای شما بفرستد. ظرف چند روز خواهد رسید.</TraderSent>
   <!-- EN: wait {0} -->
-  <WaitTime>wait {0}</WaitTime>
+  <WaitTime>منتظر بمانید {0}</WaitTime>
   
   <!-- AI core request -->
   <!-- EN: Request the location of a {0} (cost: {1} silver) -->
-  <RequestAICoreInformation>Request the location of a {0} (cost: {1} silver)</RequestAICoreInformation>
+  <RequestAICoreInformation>درخواست مکان یک {0} (هزینه: {1} نقره)</RequestAICoreInformation>
   <!-- EN: {0} sends the requested information and wishes you good luck. -->
-  <RequestAICoreInformationResult>{0} sends the requested information and wishes you good luck.</RequestAICoreInformationResult>
+  <RequestAICoreInformationResult>{0} اطلاعات درخواستی را ارسال می‌کند و برای شما آرزوی موفقیت دارد.</RequestAICoreInformationResult>
   <!-- EN: no more locations known -->
-  <NoKnownAICore>no more locations known</NoKnownAICore>  
+  <NoKnownAICore>مکان‌های شناخته شده دیگری وجود ندارد</NoKnownAICore>  
   
   <!-- Military aid request -->
   <!-- EN: Request immediate military aid (cost: {0} goodwill) -->
-  <RequestMilitaryAid>Request immediate military aid (cost: {0} goodwill)</RequestMilitaryAid>
+  <RequestMilitaryAid>درخواست کمک نظامی فوری (هزینه: {0} حسن نیت)</RequestMilitaryAid>
   <!-- EN: {0} will not help you fight other factions who are not their enemies. This includes some who are currently threatening you, {1}. Do you still want to call for aid? -->
-  <MilitaryAidConfirmMutualEnemy>{0} will not help you fight other factions who are not their enemies. This includes some who are currently threatening you, {1}. Do you still want to call for aid?</MilitaryAidConfirmMutualEnemy>
+  <MilitaryAidConfirmMutualEnemy>{0} به شما در مبارزه با جناح‌های دیگری که دشمن آنها نیستند کمک نخواهد کرد. این شامل برخی از کسانی است که در حال حاضر شما را تهدید می‌کنند، {1}. آیا همچنان می‌خواهید درخواست کمک کنید؟</MilitaryAidConfirmMutualEnemy>
   <!-- EN: Yes, call them anyway. -->
-  <CallConfirm>Yes, call them anyway.</CallConfirm>
+  <CallConfirm>بله، به هر حال تماس بگیرید.</CallConfirm>
   <!-- EN: No, never mind. -->
-  <CallCancel>No, never mind.</CallCancel>
+  <CallCancel>نه، مهم نیست.</CallCancel>
   <!-- EN: {0} agrees to send fighters to help you. -->
-  <MilitaryAidSent>{0} agrees to send fighters to help you.</MilitaryAidSent>
+  <MilitaryAidSent>{0} موافقت می‌کند که جنگندگانی برای کمک به شما بفرستد.</MilitaryAidSent>
   <!-- EN: {0} apologizes and says they won't be able to arrive in time.\n\n(This faction's technology level is too low for transport pods) -->
-  <CantSendMilitaryAidInTime>{0} apologizes and says they won't be able to arrive in time.\n\n(This faction's technology level is too low for transport pods)</CantSendMilitaryAidInTime>
+  <CantSendMilitaryAidInTime>{0} عذرخواهی می‌کند و می‌گوید که نمی‌توانند به موقع برسند.\n\n(سطح فناوری این جناح برای کپسول‌های حمل و نقل خیلی پایین است)</CantSendMilitaryAidInTime>
   <!-- EN: hostile visitors present -->
-  <HostileVisitorsPresent>hostile visitors present</HostileVisitorsPresent>
+  <HostileVisitorsPresent>بازدیدکنندگان متخاصم حضور دارند</HostileVisitorsPresent>
 
 </LanguageData>

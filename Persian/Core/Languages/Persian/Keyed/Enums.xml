@@ -7,7 +7,7 @@
   <!-- EN: Lit -->
   <Lit>روشن</Lit>
   <!-- EN: Brightly lit -->
-  <LitBrightly>Brightly lit</LitBrightly>
+  <LitBrightly>پرنور</LitBrightly>
 
   <!-- Price types -->
   <!-- EN: very cheap -->
@@ -15,29 +15,29 @@
   <!-- EN: cheap -->
   <PriceTypeCheap>ارزان</PriceTypeCheap>
   <!-- EN: normal -->
-  <PriceTypeNormal>normal</PriceTypeNormal>
+  <PriceTypeNormal>عادی</PriceTypeNormal>
   <!-- EN: expensive -->
   <PriceTypeExpensive>گران</PriceTypeExpensive>
   <!-- EN: exorbitant -->
-  <PriceTypeExorbitant>exorbitant</PriceTypeExorbitant>
+  <PriceTypeExorbitant>گزاف</PriceTypeExorbitant>
 
   <!-- Storage priority labels -->
   <!-- EN: unstored -->
-  <StoragePriorityUnstored>unstored</StoragePriorityUnstored>
+  <StoragePriorityUnstored>ذخیره نشده</StoragePriorityUnstored>
   <!-- EN: low -->
-  <StoragePriorityLow>low</StoragePriorityLow>
+  <StoragePriorityLow>پایین</StoragePriorityLow>
   <!-- EN: normal -->
-  <StoragePriorityNormal>normal</StoragePriorityNormal>
+  <StoragePriorityNormal>عادی</StoragePriorityNormal>
   <!-- EN: preferred -->
-  <StoragePriorityPreferred>preferred</StoragePriorityPreferred>
+  <StoragePriorityPreferred>ترجیحی</StoragePriorityPreferred>
   <!-- EN: important -->
-  <StoragePriorityImportant>important</StoragePriorityImportant>
+  <StoragePriorityImportant>مهم</StoragePriorityImportant>
   <!-- EN: critical -->
-  <StoragePriorityCritical>critical</StoragePriorityCritical>
+  <StoragePriorityCritical>بحرانی</StoragePriorityCritical>
 
   <!-- Food type flags -->
   <!-- EN: vegetables -->
-  <FoodTypeFlags_VegetableOrFruit>vegetables</FoodTypeFlags_VegetableOrFruit>
+  <FoodTypeFlags_VegetableOrFruit>سبزیجات</FoodTypeFlags_VegetableOrFruit>
   <!-- EN: raw meat -->
   <FoodTypeFlags_Meat>گوشت خام</FoodTypeFlags_Meat>
   <!-- EN: corpses -->
@@ -45,217 +45,217 @@
   <!-- EN: seeds -->
   <FoodTypeFlags_Seed>بذرها</FoodTypeFlags_Seed>
   <!-- EN: animal products -->
-  <FoodTypeFlags_AnimalProduct>animal products</FoodTypeFlags_AnimalProduct>
+  <FoodTypeFlags_AnimalProduct>محصولات حیوانی</FoodTypeFlags_AnimalProduct>
   <!-- EN: live plants -->
-  <FoodTypeFlags_Plant>live plants</FoodTypeFlags_Plant>
+  <FoodTypeFlags_Plant>گیاهان زنده</FoodTypeFlags_Plant>
   <!-- EN: live trees -->
-  <FoodTypeFlags_Tree>live trees</FoodTypeFlags_Tree>
+  <FoodTypeFlags_Tree>درختان زنده</FoodTypeFlags_Tree>
   <!-- EN: meals -->
-  <FoodTypeFlags_Meal>meals</FoodTypeFlags_Meal>
+  <FoodTypeFlags_Meal>غذاها</FoodTypeFlags_Meal>
   <!-- EN: processed foods -->
-  <FoodTypeFlags_Processed>processed foods</FoodTypeFlags_Processed>
+  <FoodTypeFlags_Processed>غذاهای فرآوری شده</FoodTypeFlags_Processed>
   <!-- EN: liquor -->
-  <FoodTypeFlags_Liquor>liquor</FoodTypeFlags_Liquor>
+  <FoodTypeFlags_Liquor>مشروب</FoodTypeFlags_Liquor>
   <!-- EN: kibble -->
-  <FoodTypeFlags_Kibble>kibble</FoodTypeFlags_Kibble>
+  <FoodTypeFlags_Kibble>کیبل</FoodTypeFlags_Kibble>
 
   <!-- Quality category -->
   <!-- EN: awful -->
-  <QualityCategory_Awful>awful</QualityCategory_Awful>
+  <QualityCategory_Awful>افتضاح</QualityCategory_Awful>
   <!-- EN: poor -->
-  <QualityCategory_Poor>poor</QualityCategory_Poor>
+  <QualityCategory_Poor>ضعیف</QualityCategory_Poor>
   <!-- EN: normal -->
-  <QualityCategory_Normal>normal</QualityCategory_Normal>
+  <QualityCategory_Normal>عادی</QualityCategory_Normal>
   <!-- EN: good -->
-  <QualityCategory_Good>good</QualityCategory_Good>
+  <QualityCategory_Good>خوب</QualityCategory_Good>
   <!-- EN: excellent -->
-  <QualityCategory_Excellent>excellent</QualityCategory_Excellent>
+  <QualityCategory_Excellent>عالی</QualityCategory_Excellent>
   <!-- EN: masterwork -->
-  <QualityCategory_Masterwork>masterwork</QualityCategory_Masterwork>
+  <QualityCategory_Masterwork>شاهکار</QualityCategory_Masterwork>
   <!-- EN: legendary -->
-  <QualityCategory_Legendary>legendary</QualityCategory_Legendary>
+  <QualityCategory_Legendary>افسانه‌ای</QualityCategory_Legendary>
   <!-- EN: awfl -->
-  <QualityCategoryShort_Awful>awfl</QualityCategoryShort_Awful>
+  <QualityCategoryShort_Awful>افتضاح</QualityCategoryShort_Awful>
   <!-- EN: poor -->
-  <QualityCategoryShort_Poor>poor</QualityCategoryShort_Poor>
+  <QualityCategoryShort_Poor>ضعیف</QualityCategoryShort_Poor>
   <!-- EN: norm -->
-  <QualityCategoryShort_Normal>norm</QualityCategoryShort_Normal>
+  <QualityCategoryShort_Normal>عادی</QualityCategoryShort_Normal>
   <!-- EN: good -->
-  <QualityCategoryShort_Good>good</QualityCategoryShort_Good>
+  <QualityCategoryShort_Good>خوب</QualityCategoryShort_Good>
   <!-- EN: exc -->
-  <QualityCategoryShort_Excellent>exc</QualityCategoryShort_Excellent>
+  <QualityCategoryShort_Excellent>عالی</QualityCategoryShort_Excellent>
   <!-- EN: mast -->
-  <QualityCategoryShort_Masterwork>mast</QualityCategoryShort_Masterwork>
+  <QualityCategoryShort_Masterwork>شاهکار</QualityCategoryShort_Masterwork>
   <!-- EN: legd -->
-  <QualityCategoryShort_Legendary>legd</QualityCategoryShort_Legendary>
+  <QualityCategoryShort_Legendary>افسانه‌ای</QualityCategoryShort_Legendary>
   
   <!-- Hunger -->
   <!-- EN: Starving -->
-  <HungerLevel_Starving>گرسنگی</HungerLevel_Starving>
+  <HungerLevel_Starving>گرسنگی شدید</HungerLevel_Starving>
   <!-- EN: Urgently hungry -->
-  <HungerLevel_UrgentlyHungry>Urgently hungry</HungerLevel_UrgentlyHungry>
+  <HungerLevel_UrgentlyHungry>گرسنه فوری</HungerLevel_UrgentlyHungry>
   <!-- EN: Hungry -->
   <HungerLevel_Hungry>گرسنه</HungerLevel_Hungry>
   <!-- EN: Fed -->
-  <HungerLevel_Fed>Fed</HungerLevel_Fed>
+  <HungerLevel_Fed>سیر</HungerLevel_Fed>
 
   <!-- -Fatigue -->
   <!-- EN: Exhausted -->
-  <HungerLevel_Exhausted>Exhausted</HungerLevel_Exhausted>
+  <HungerLevel_Exhausted>خسته شدید</HungerLevel_Exhausted>
   <!-- EN: Very tired -->
-  <HungerLevel_VeryTired>Very tired</HungerLevel_VeryTired>
+  <HungerLevel_VeryTired>خیلی خسته</HungerLevel_VeryTired>
   <!-- EN: Tired -->
   <HungerLevel_Tired>خسته</HungerLevel_Tired>
   <!-- EN: Rested -->
-  <HungerLevel_Rested>Rested</HungerLevel_Rested>
+  <HungerLevel_Rested>استراحت کرده</HungerLevel_Rested>
 
   <!-- Hilliness -->
   <!-- EN: flat -->
-  <Hilliness_Flat>flat</Hilliness_Flat>
+  <Hilliness_Flat>مسطح</Hilliness_Flat>
   <!-- EN: small hills -->
-  <Hilliness_SmallHills>small hills</Hilliness_SmallHills>
+  <Hilliness_SmallHills>تپه‌های کوچک</Hilliness_SmallHills>
   <!-- EN: large hills -->
-  <Hilliness_LargeHills>large hills</Hilliness_LargeHills>
+  <Hilliness_LargeHills>تپه‌های بزرگ</Hilliness_LargeHills>
   <!-- EN: mountainous -->
-  <Hilliness_Mountainous>mountainous</Hilliness_Mountainous>
+  <Hilliness_Mountainous>کوهستانی</Hilliness_Mountainous>
   <!-- EN: impassable -->
-  <Hilliness_Impassable>impassable</Hilliness_Impassable>
+  <Hilliness_Impassable>غیرقابل عبور</Hilliness_Impassable>
   
   <!-- Steam workshop interaction -->
   <!-- EN: Creating -->
-  <WorkshopInteractStage_CreatingItem>Creating</WorkshopInteractStage_CreatingItem>
+  <WorkshopInteractStage_CreatingItem>در حال ایجاد</WorkshopInteractStage_CreatingItem>
   <!-- EN: Submitting -->
-  <WorkshopInteractStage_SubmittingItem>Submitting</WorkshopInteractStage_SubmittingItem>
+  <WorkshopInteractStage_SubmittingItem>در حال ارسال</WorkshopInteractStage_SubmittingItem>
   <!-- EN: Invalid -->
-  <EItemUpdateStatus_k_EItemUpdateStatusInvalid>Invalid</EItemUpdateStatus_k_EItemUpdateStatusInvalid>
+  <EItemUpdateStatus_k_EItemUpdateStatusInvalid>نامعتبر</EItemUpdateStatus_k_EItemUpdateStatusInvalid>
   <!-- EN: Preparing config data -->
-  <EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>Preparing config data</EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>
+  <EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>در حال آماده‌سازی داده‌های پیکربندی</EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>
   <!-- EN: Preparing content files -->
-  <EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>Preparing content files</EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>
+  <EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>در حال آماده‌سازی فایل‌های محتوا</EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>
   <!-- EN: Uploading content -->
-  <EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>Uploading content</EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>
+  <EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>در حال آپلود محتوا</EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>
   <!-- EN: Uploading preview file -->
-  <EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>Uploading preview file</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
+  <EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>در حال آپلود فایل پیش‌نمایش</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
   <!-- EN: Committing changes -->
-  <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>Committing changes</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
+  <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>در حال اعمال تغییرات</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
 
   <!-- Mod sources -->
   <!-- EN: Official content -->
-  <ContentSource_OfficialModsFolder>Official content</ContentSource_OfficialModsFolder>
+  <ContentSource_OfficialModsFolder>محتوای رسمی</ContentSource_OfficialModsFolder>
   <!-- EN: Local folder -->
-  <ContentSource_ModsFolder>Local folder</ContentSource_ModsFolder>
+  <ContentSource_ModsFolder>پوشه محلی</ContentSource_ModsFolder>
   <!-- EN: Steam Workshop -->
-  <ContentSource_SteamWorkshop>Steam Workshop</ContentSource_SteamWorkshop>
+  <ContentSource_SteamWorkshop>کارگاه استیم</ContentSource_SteamWorkshop>
   
   <!-- Medical care category -->
   <!-- EN: no medical care -->
-  <MedicalCareCategory_NoCare>no medical care</MedicalCareCategory_NoCare>
+  <MedicalCareCategory_NoCare>بدون مراقبت پزشکی</MedicalCareCategory_NoCare>
   <!-- EN: doctor care, but no medicine -->
-  <MedicalCareCategory_NoMeds>doctor care, but no medicine</MedicalCareCategory_NoMeds>
+  <MedicalCareCategory_NoMeds>مراقبت پزشک، اما بدون دارو</MedicalCareCategory_NoMeds>
   <!-- EN: herbal medicine or worse -->
-  <MedicalCareCategory_HerbalOrWorse>herbal medicine or worse</MedicalCareCategory_HerbalOrWorse>
+  <MedicalCareCategory_HerbalOrWorse>داروی گیاهی یا بدتر</MedicalCareCategory_HerbalOrWorse>
   <!-- EN: industrial-tech medicine or worse -->
-  <MedicalCareCategory_NormalOrWorse>industrial-tech medicine or worse</MedicalCareCategory_NormalOrWorse>
+  <MedicalCareCategory_NormalOrWorse>داروی صنعتی یا بدتر</MedicalCareCategory_NormalOrWorse>
   <!-- EN: best quality medicine -->
-  <MedicalCareCategory_Best>best quality medicine</MedicalCareCategory_Best>
+  <MedicalCareCategory_Best>بهترین کیفیت دارو</MedicalCareCategory_Best>
 
   <!-- Hostility response mode -->
   <!-- EN: Ignore -->
-  <HostilityResponseMode_Ignore>Ignore</HostilityResponseMode_Ignore>
+  <HostilityResponseMode_Ignore>نادیده گرفتن</HostilityResponseMode_Ignore>
   <!-- EN: Attack -->
   <HostilityResponseMode_Attack>حمله</HostilityResponseMode_Attack>
   <!-- EN: Flee -->
-  <HostilityResponseMode_Flee>Flee</HostilityResponseMode_Flee>
+  <HostilityResponseMode_Flee>فرار</HostilityResponseMode_Flee>
   
   <!-- HediffGrowthMode -->
   <!-- EN: growing -->
-  <HediffGrowthMode_Growing>growing</HediffGrowthMode_Growing>
+  <HediffGrowthMode_Growing>در حال رشد</HediffGrowthMode_Growing>
   <!-- EN: stable -->
-  <HediffGrowthMode_Stable>stable</HediffGrowthMode_Stable>
+  <HediffGrowthMode_Stable>پایدار</HediffGrowthMode_Stable>
   <!-- EN: remission -->
-  <HediffGrowthMode_Remission>remission</HediffGrowthMode_Remission>
+  <HediffGrowthMode_Remission>بهبودی</HediffGrowthMode_Remission>
 
   <!-- TechLevel -->
   <!-- EN: animal -->
   <TechLevel_Animal>حیوان</TechLevel_Animal>
   <!-- EN: neolithic -->
-  <TechLevel_Neolithic>neolithic</TechLevel_Neolithic>
+  <TechLevel_Neolithic>نوسنگی</TechLevel_Neolithic>
   <!-- EN: medieval -->
-  <TechLevel_Medieval>medieval</TechLevel_Medieval>
+  <TechLevel_Medieval>قرون وسطی</TechLevel_Medieval>
   <!-- EN: industrial -->
-  <TechLevel_Industrial>industrial</TechLevel_Industrial>
+  <TechLevel_Industrial>صنعتی</TechLevel_Industrial>
   <!-- EN: spacer -->
-  <TechLevel_Spacer>spacer</TechLevel_Spacer>
+  <TechLevel_Spacer>فضایی</TechLevel_Spacer>
   <!-- EN: ultra -->
-  <TechLevel_Ultra>ultra</TechLevel_Ultra>
+  <TechLevel_Ultra>فوق پیشرفته</TechLevel_Ultra>
   <!-- EN: archotech -->
-  <TechLevel_Archotech>archotech</TechLevel_Archotech>
+  <TechLevel_Archotech>آرکوتک</TechLevel_Archotech>
 
   <!-- Player pawns arrive method -->
   <!-- EN: Standing -->
-  <PlayerPawnsArriveMethod_Standing>Standing</PlayerPawnsArriveMethod_Standing>
+  <PlayerPawnsArriveMethod_Standing>ایستاده</PlayerPawnsArriveMethod_Standing>
   <!-- EN: Drop pods -->
-  <PlayerPawnsArriveMethod_DropPods>Drop pods</PlayerPawnsArriveMethod_DropPods>
+  <PlayerPawnsArriveMethod_DropPods>کپسول‌های سقوط</PlayerPawnsArriveMethod_DropPods>
 
   <!-- Pawn generation context -->
   <!-- EN: all characters -->
-  <PawnGenerationContext_All>all characters</PawnGenerationContext_All>
+  <PawnGenerationContext_All>همه شخصیت‌ها</PawnGenerationContext_All>
   <!-- EN: player starting characters -->
-  <PawnGenerationContext_PlayerStarter>player starting characters</PawnGenerationContext_PlayerStarter>
+  <PawnGenerationContext_PlayerStarter>شخصیت‌های شروع بازیکن</PawnGenerationContext_PlayerStarter>
   <!-- EN: non-player characters -->
-  <PawnGenerationContext_NonPlayer>non-player characters</PawnGenerationContext_NonPlayer>
+  <PawnGenerationContext_NonPlayer>شخصیت‌های غیربازیکن</PawnGenerationContext_NonPlayer>
 
   <!-- Screen shake mode -->
   <!-- EN: Screen shake intensity -->
-  <ScreenShakeIntensity>Screen shake intensity</ScreenShakeIntensity>
+  <ScreenShakeIntensity>شدت لرزش صفحه</ScreenShakeIntensity>
   
   <!-- Animal name display mode -->
   <!-- EN: Show animal names -->
-  <ShowAnimalNames>Show animal names</ShowAnimalNames>
+  <ShowAnimalNames>نمایش نام حیوانات</ShowAnimalNames>
   <!-- EN: Tame (named only) -->
-  <AnimalNameDisplayMode_TameNamed>Tame (named only)</AnimalNameDisplayMode_TameNamed>
+  <AnimalNameDisplayMode_TameNamed>اهلی (فقط نام‌گذاری شده)</AnimalNameDisplayMode_TameNamed>
   <!-- EN: Tame (all) -->
-  <AnimalNameDisplayMode_TameAll>Tame (all)</AnimalNameDisplayMode_TameAll>
+  <AnimalNameDisplayMode_TameAll>اهلی (همه)</AnimalNameDisplayMode_TameAll>
 
   <!-- Highlight display mode -->
   <!-- EN: Character highlighting -->
-  <DotHighlightDisplayMode>TODO</DotHighlightDisplayMode>
+  <DotHighlightDisplayMode>برجسته کردن شخصیت</DotHighlightDisplayMode>
   <!-- EN: Highlight hostiles -->
-  <DotHighlightDisplayMode_HighlightHostiles>TODO</DotHighlightDisplayMode_HighlightHostiles>
+  <DotHighlightDisplayMode_HighlightHostiles>برجسته کردن متخاصمان</DotHighlightDisplayMode_HighlightHostiles>
   <!-- EN: Highlight all -->
-  <DotHighlightDisplayMode_HighlightAll>TODO</DotHighlightDisplayMode_HighlightAll> 
+  <DotHighlightDisplayMode_HighlightAll>برجسته کردن همه</DotHighlightDisplayMode_HighlightAll> 
   
   <!-- Highlight style -->
   <!-- EN: Highlight mode -->
-  <HighlightStyleMode>TODO</HighlightStyleMode>
+  <HighlightStyleMode>حالت برجسته کردن</HighlightStyleMode>
   <!-- EN: Dots -->
-  <HighlightStyleMode_Dots>TODO</HighlightStyleMode_Dots>
+  <HighlightStyleMode_Dots>نقطه‌ها</HighlightStyleMode_Dots>
   <!-- EN: Silhouettes -->
-  <HighlightStyleMode_Silhouettes>TODO</HighlightStyleMode_Silhouettes> 
+  <HighlightStyleMode_Silhouettes>سایه‌ها</HighlightStyleMode_Silhouettes> 
 
   <!-- Mood gradient display strength-->
   <!-- EN: Visible mood -->
-  <VisibleMood>TODO</VisibleMood>
+  <VisibleMood>حالت روحی قابل مشاهده</VisibleMood>
   <!-- EN: When on, displays a visual indicator on a character's portrait when they are at risk of a mental break. -->
-  <VisibleMoodDesc>TODO</VisibleMoodDesc>
+  <VisibleMoodDesc>هنگامی که روشن است، یک نشانگر بصری روی پرتره شخصیت نمایش می‌دهد زمانی که در معرض خطر فروپاشی روانی قرار دارند.</VisibleMoodDesc>
   
   <!-- Mech name display mode -->
   <!-- EN: Show player mech names -->
-  <ShowMechNames>Show player mech names</ShowMechNames>
+  <ShowMechNames>نمایش نام مک‌های بازیکن</ShowMechNames>
   <!-- EN: While drafted -->
-  <MechNameDisplayMode_WhileDrafted>While drafted</MechNameDisplayMode_WhileDrafted>
+  <MechNameDisplayMode_WhileDrafted>هنگام آماده‌سازی</MechNameDisplayMode_WhileDrafted>
   <!-- EN: always -->
-  <MechNameDisplayMode_Always>always</MechNameDisplayMode_Always>
+  <MechNameDisplayMode_Always>همیشه</MechNameDisplayMode_Always>
 
   <!-- Show weapons under portrait mode -->
   <!-- EN: Weapons below portrait -->
-  <ShowWeaponsUnderPortrait>Weapons below portrait</ShowWeaponsUnderPortrait>
+  <ShowWeaponsUnderPortrait>سلاح‌ها زیر پرتره</ShowWeaponsUnderPortrait>
   <!-- EN: Show weapons below each person's portrait on the colonist bar at the top of the screen -->
-  <ShowWeaponsUnderPortraitTooltip>Show weapons below each person's portrait on the colonist bar at the top of the screen</ShowWeaponsUnderPortraitTooltip>
+  <ShowWeaponsUnderPortraitTooltip>نمایش سلاح‌ها زیر پرتره هر شخص در نوار مهاجران در بالای صفحه</ShowWeaponsUnderPortraitTooltip>
   <!-- EN: always -->
-  <ShowWeapons_Always>always</ShowWeapons_Always>
+  <ShowWeapons_Always>همیشه</ShowWeapons_Always>
   <!-- EN: while drafted -->
-  <ShowWeapons_WhileDrafted>while drafted</ShowWeapons_WhileDrafted>
+  <ShowWeapons_WhileDrafted>هنگام آماده‌سازی</ShowWeapons_WhileDrafted>
 
   <!-- Temperature -->
   <!-- EN: Celsius -->
@@ -267,110 +267,110 @@
   
   <!-- Direction8Way -->
   <!-- EN: N -->
-  <Direction8Way_North_Short>N</Direction8Way_North_Short>
+  <Direction8Way_North_Short>ش</Direction8Way_North_Short>
   <!-- EN: NE -->
-  <Direction8Way_NorthEast_Short>NE</Direction8Way_NorthEast_Short>
+  <Direction8Way_NorthEast_Short>ش‌ش</Direction8Way_NorthEast_Short>
   <!-- EN: E -->
-  <Direction8Way_East_Short>E</Direction8Way_East_Short>
+  <Direction8Way_East_Short>ش</Direction8Way_East_Short>
   <!-- EN: SE -->
-  <Direction8Way_SouthEast_Short>SE</Direction8Way_SouthEast_Short>
+  <Direction8Way_SouthEast_Short>ج‌ش</Direction8Way_SouthEast_Short>
   <!-- EN: S -->
-  <Direction8Way_South_Short>S</Direction8Way_South_Short>
+  <Direction8Way_South_Short>ج</Direction8Way_South_Short>
   <!-- EN: SW -->
-  <Direction8Way_SouthWest_Short>SW</Direction8Way_SouthWest_Short>
+  <Direction8Way_SouthWest_Short>ج‌غ</Direction8Way_SouthWest_Short>
   <!-- EN: W -->
-  <Direction8Way_West_Short>W</Direction8Way_West_Short>
+  <Direction8Way_West_Short>غ</Direction8Way_West_Short>
   <!-- EN: NW -->
-  <Direction8Way_NorthWest_Short>NW</Direction8Way_NorthWest_Short>
+  <Direction8Way_NorthWest_Short>ش‌غ</Direction8Way_NorthWest_Short>
   
   <!-- Diet category -->
   <!-- EN: Never eats -->
-  <DietCategory_NeverEats>Never eats</DietCategory_NeverEats>
+  <DietCategory_NeverEats>هرگز نمی‌خورد</DietCategory_NeverEats>
   <!-- EN: Herbivorous -->
-  <DietCategory_Herbivorous>Herbivorous</DietCategory_Herbivorous>
+  <DietCategory_Herbivorous>گیاه‌خوار</DietCategory_Herbivorous>
   <!-- EN: Dendrovorous -->
-  <DietCategory_Dendrovorous>Dendrovorous</DietCategory_Dendrovorous>
+  <DietCategory_Dendrovorous>درخت‌خوار</DietCategory_Dendrovorous>
   <!-- EN: Ovivorous -->
-  <DietCategory_Ovivorous>Ovivorous</DietCategory_Ovivorous>
+  <DietCategory_Ovivorous>تخم‌خوار</DietCategory_Ovivorous>
   <!-- EN: Omnivorous -->
-  <DietCategory_Omnivorous>Omnivorous</DietCategory_Omnivorous>
+  <DietCategory_Omnivorous>همه‌چیزخوار</DietCategory_Omnivorous>
   <!-- EN: Carnivorous -->
-  <DietCategory_Carnivorous>Carnivorous</DietCategory_Carnivorous>
+  <DietCategory_Carnivorous>گوشت‌خوار</DietCategory_Carnivorous>
   <!-- EN: - -->
   <DietCategory_NeverEats_Short>-</DietCategory_NeverEats_Short>
   <!-- EN: H -->
-  <DietCategory_Herbivorous_Short>H</DietCategory_Herbivorous_Short>
+  <DietCategory_Herbivorous_Short>گ</DietCategory_Herbivorous_Short>
   <!-- EN: D -->
-  <DietCategory_Dendrovorous_Short>D</DietCategory_Dendrovorous_Short>
+  <DietCategory_Dendrovorous_Short>د</DietCategory_Dendrovorous_Short>
   <!-- EN: Ov -->
-  <DietCategory_Ovivorous_Short>Ov</DietCategory_Ovivorous_Short>
+  <DietCategory_Ovivorous_Short>ت</DietCategory_Ovivorous_Short>
   <!-- EN: O -->
-  <DietCategory_Omnivorous_Short>O</DietCategory_Omnivorous_Short>
+  <DietCategory_Omnivorous_Short>ه</DietCategory_Omnivorous_Short>
   <!-- EN: C -->
-  <DietCategory_Carnivorous_Short>C</DietCategory_Carnivorous_Short>
+  <DietCategory_Carnivorous_Short>گ</DietCategory_Carnivorous_Short>
 
   <!-- Food poison cause -->
   <!-- EN: incompetent cook -->
-  <FoodPoisonCause_IncompetentCook>incompetent cook</FoodPoisonCause_IncompetentCook>
+  <FoodPoisonCause_IncompetentCook>آشپز بی‌کفایت</FoodPoisonCause_IncompetentCook>
   <!-- EN: dirty cooking area -->
-  <FoodPoisonCause_FilthyKitchen>dirty cooking area</FoodPoisonCause_FilthyKitchen>
+  <FoodPoisonCause_FilthyKitchen>منطقه پخت و پز کثیف</FoodPoisonCause_FilthyKitchen>
   <!-- EN: rotten food -->
-  <FoodPoisonCause_Rotten>rotten food</FoodPoisonCause_Rotten>
+  <FoodPoisonCause_Rotten>غذای فاسد</FoodPoisonCause_Rotten>
   <!-- EN: dangerous food type -->
-  <FoodPoisonCause_DangerousFoodType>dangerous food type</FoodPoisonCause_DangerousFoodType>
+  <FoodPoisonCause_DangerousFoodType>نوع غذای خطرناک</FoodPoisonCause_DangerousFoodType>
 
   <!-- Psychic drone level -->
   <!-- EN: none -->
   <PsychicDroneLevel_None>هیچ یک</PsychicDroneLevel_None>
   <!-- EN: medium -->
-  <PsychicDroneLevel_GoodMedium>medium</PsychicDroneLevel_GoodMedium>
+  <PsychicDroneLevel_GoodMedium>متوسط</PsychicDroneLevel_GoodMedium>
   <!-- EN: low -->
-  <PsychicDroneLevel_BadLow>low</PsychicDroneLevel_BadLow>
+  <PsychicDroneLevel_BadLow>پایین</PsychicDroneLevel_BadLow>
   <!-- EN: medium -->
-  <PsychicDroneLevel_BadMedium>medium</PsychicDroneLevel_BadMedium>
+  <PsychicDroneLevel_BadMedium>متوسط</PsychicDroneLevel_BadMedium>
   <!-- EN: high -->
-  <PsychicDroneLevel_BadHigh>high</PsychicDroneLevel_BadHigh>
+  <PsychicDroneLevel_BadHigh>بالا</PsychicDroneLevel_BadHigh>
   <!-- EN: extreme -->
-  <PsychicDroneLevel_BadExtreme>extreme</PsychicDroneLevel_BadExtreme>
+  <PsychicDroneLevel_BadExtreme>شدید</PsychicDroneLevel_BadExtreme>
   
   <!-- Automatic pause mode -->
   <!-- EN: Never -->
   <AutomaticPauseMode_Never>هرگز</AutomaticPauseMode_Never>
   <!-- EN: Major threats -->
-  <AutomaticPauseMode_MajorThreat>Major threats</AutomaticPauseMode_MajorThreat>
+  <AutomaticPauseMode_MajorThreat>تهدیدات بزرگ</AutomaticPauseMode_MajorThreat>
   <!-- EN: Any threat -->
-  <AutomaticPauseMode_AnyThreat>Any threat</AutomaticPauseMode_AnyThreat>
+  <AutomaticPauseMode_AnyThreat>هر تهدیدی</AutomaticPauseMode_AnyThreat>
   <!-- EN: Any letter -->
-  <AutomaticPauseMode_AnyLetter>Any letter</AutomaticPauseMode_AnyLetter>
+  <AutomaticPauseMode_AnyLetter>هر نامه‌ای</AutomaticPauseMode_AnyLetter>
 
   <!-- Pain category -->
   <!-- EN: itchy -->
-  <PainCategory_LowPain>itchy</PainCategory_LowPain>
+  <PainCategory_LowPain>خارش‌دار</PainCategory_LowPain>
   <!-- EN: aching -->
-  <PainCategory_MediumPain>aching</PainCategory_MediumPain>
+  <PainCategory_MediumPain>دردناک</PainCategory_MediumPain>
   <!-- EN: painful -->
-  <PainCategory_HighPain>painful</PainCategory_HighPain>
+  <PainCategory_HighPain>درد شدید</PainCategory_HighPain>
   
   <!-- ExtraFactionType -->
   <!-- EN: home faction -->
-  <ExtraFactionType_HomeFaction>home faction</ExtraFactionType_HomeFaction>
+  <ExtraFactionType_HomeFaction>جناح خانه</ExtraFactionType_HomeFaction>
   <!-- EN: remote host faction -->
-  <ExtraFactionType_HostFaction>remote host faction</ExtraFactionType_HostFaction>
+  <ExtraFactionType_HostFaction>جناح میزبان از راه دور</ExtraFactionType_HostFaction>
   <!-- EN: group -->
-  <ExtraFactionType_MiniFaction>group</ExtraFactionType_MiniFaction>
+  <ExtraFactionType_MiniFaction>گروه</ExtraFactionType_MiniFaction>
 
   <!-- DrugCategory -->
   <!-- EN: drug category -->
-  <DrugCategory>drug category</DrugCategory>
+  <DrugCategory>دسته دارو</DrugCategory>
   <!-- EN: none -->
-  <DrugCategory_None>none</DrugCategory_None>
+  <DrugCategory_None>هیچ یک</DrugCategory_None>
   <!-- EN: medical -->
   <DrugCategory_Medical>طبی</DrugCategory_Medical>
   <!-- EN: social -->
-  <DrugCategory_Social>social</DrugCategory_Social>
+  <DrugCategory_Social>اجتماعی</DrugCategory_Social>
   <!-- EN: hard -->
-  <DrugCategory_Hard>hard</DrugCategory_Hard>
+  <DrugCategory_Hard>سخت</DrugCategory_Hard>
   <!-- EN: any -->
-  <DrugCategory_Any>any</DrugCategory_Any>
+  <DrugCategory_Any>هر کدام</DrugCategory_Any>
   
 </LanguageData>

@@ -51,15 +51,15 @@
   <!-- EN: Official wiki -->
   <OfficialWiki>ویکی رسمی</OfficialWiki>
   <!-- EN: Tynan's twitter -->
-  <TynansTwitter>Tynan توییتر</TynansTwitter>
+  <TynansTwitter>توییتر Tynan</TynansTwitter>
   <!-- EN: Tynan's design book -->
-  <TynansDesignBook>Tynan کتاب طراحی</TynansDesignBook>
+  <TynansDesignBook>کتاب طراحی Tynan</TynansDesignBook>
   <!-- EN: Help translate RimWorld -->
-  <HelpTranslate>کمک کنید RimWorld به ترجمه</HelpTranslate>
+  <HelpTranslate>کمک به ترجمه RimWorld</HelpTranslate>
   <!-- EN: Buy soundtrack -->
   <BuySoundtrack>خرید موسیقی متن</BuySoundtrack>
   <!-- EN: Create world -->
-  <CreateWorld>جهان را ایجاد کنید</CreateWorld>
+  <CreateWorld>ایجاد جهان</CreateWorld>
 
   <!-- Main menu translations info window -->
   <!-- EN: All translations of RimWorld are fan-made. This fan-made translation was created by the following excellent volunteers:\n\n{0} -->
@@ -71,19 +71,19 @@
 
   <!-- Main menu dev build -->
   <!-- EN: Warning: This is an unstable development build. This means we are running design experiments and doing technical development.\n\nSome things will be temporarily unbalanced on purpose. This is a classic game design method where we deliberately go too far with a balance change in order to better understand balance boundaries. We can then use that information to decide on the final balance points.\n\nThere will also be bugs, including game-breaking ones. Save compatibility may break any time.\n\nIf you're okay with all of this, thanks for testing! If you don't want to be subject to our experiments, please play the latest stable version. -->
-  <DevBuildWarning>هشدار: این یک ساخت توسعه ناپایدار است. این بدان معناست که ما در حال اجرای آزمایش‌های طراحی و توسعه فنی هستیم. \n\n Some things will be temporarily unbalanced on purpose. This is a classic game design method where we deliberately go too far with a balance change in order to better understand balance boundaries. We can then use that information to decide on the final balance points.\n\nThere will also be bugs, including game-breaking ones. Save compatibility may break any time.\n\nIf you're okay with all of this, thanks for testing! If you don't want to be subject to our experiments, please play the latest stable version.</DevBuildWarning>
+  <DevBuildWarning>هشدار: این یک ساخت توسعه ناپایدار است. این بدان معناست که ما در حال اجرای آزمایش‌های طراحی و توسعه فنی هستیم. \n\nبرخی چیزها عمداً به طور موقت نامتعادل خواهند بود. این یک روش کلاسیک طراحی بازی است که در آن عمداً در تغییر تعادل زیاده‌روی می‌کنیم تا مرزهای تعادل را بهتر درک کنیم. سپس می‌توانیم از آن اطلاعات برای تصمیم‌گیری در مورد نقاط تعادل نهایی استفاده کنیم.\n\nهمچنین باگ‌هایی وجود خواهد داشت، از جمله باگ‌هایی که بازی را خراب می‌کنند. سازگاری ذخیره ممکن است در هر زمان از بین برود.\n\nاگر با همه اینها مشکلی ندارید، از آزمایش شما سپاسگزاریم! اگر نمی‌خواهید تحت آزمایش‌های ما قرار بگیرید، لطفاً آخرین نسخه پایدار را بازی کنید.</DevBuildWarning>
 
   <!-- Create/review world -->
   <!-- EN: Review world -->
   <ReviewWorld>مرور جهان</ReviewWorld>
   <!-- EN: Generate -->
-  <WorldGenerate>تولید جهان</WorldGenerate>
+  <WorldGenerate>تولید</WorldGenerate>
   <!-- EN: Save and finish -->
-  <WorldSaveAndFinish>ذخیره و تمام کنید</WorldSaveAndFinish>
+  <WorldSaveAndFinish>ذخیره و پایان</WorldSaveAndFinish>
   <!-- EN: Reset factions -->
   <ResetFactions>بازنشانی جناح ها</ResetFactions>
   <!-- EN: Globe coverage -->
-  <PlanetCoverage>پوشش جهانی</PlanetCoverage>
+  <PlanetCoverage>پوشش کره زمین</PlanetCoverage>
   <!-- EN: Overall rainfall -->
   <PlanetRainfall>بارندگی کلی</PlanetRainfall>
   <!-- EN: Overall temperature -->
@@ -111,7 +111,7 @@
   <!-- EN: Seed -->
   <WorldSeed>بذر</WorldSeed>
   <!-- EN: Randomize seed -->
-  <RandomizeSeed>بذر تصادفی</RandomizeSeed>
+  <RandomizeSeed>تصادفی کردن بذر</RandomizeSeed>
   <!-- EN: The planet is always the same diameter, but since it's far larger than needed for play, we don't generate the whole surface because it can take a very long time. This is the percentage of the surface that you want generated. -->
   <PlanetCoverageTip>قطر این سیاره همیشه یکسان است، اما از آنجایی که برای بازی بسیار بزرگتر است، ما کل سطح را تولید نمی کنیم زیرا ممکن است زمان بسیار زیادی طول بکشد. این درصدی از سطحی است که می خواهید ایجاد شود.</PlanetCoverageTip>
   <!-- EN: Factions -->
@@ -123,11 +123,11 @@
   <!-- EN: Select -->
   <WorldChooseButton>انتخاب</WorldChooseButton>
   <!-- EN: No world files found. Create a world first. -->
-  <NoWorldsFilesFound>هیچ فایل جهانی یافت نشد. اول دنیایی بساز</NoWorldsFilesFound>
+  <NoWorldsFilesFound>هیچ فایل جهانی یافت نشد. ابتدا یک جهان ایجاد کنید.</NoWorldsFilesFound>
   
   <!-- Version info -->
   <!-- EN: Version {0} is now available. Check ludeon.com for more info. -->
-  <BuildNowAvailable>نسخه {0} هم اکنون در دسترس است. برای کسب اطلاعات بیشتر ludeon.com چک کن.</BuildNowAvailable>
+  <BuildNowAvailable>نسخه {0} هم اکنون در دسترس است. برای اطلاعات بیشتر ludeon.com را بررسی کنید.</BuildNowAvailable>
   <!-- EN: This is the latest version. -->
   <BuildUpToDate>این آخرین نسخه است.</BuildUpToDate>
   <!-- EN: Error getting version info: {0} -->
@@ -145,45 +145,45 @@
   <!-- EN: Get mods from forum -->
   <GetModsFromForum>دریافت مود ها از انجمن</GetModsFromForum>
   <!-- EN: Open mods data folder -->
-  <OpenModsDataFolder>پوشه مودها را باز کنید</OpenModsDataFolder>
+  <OpenModsDataFolder>باز کردن پوشه داده مودها</OpenModsDataFolder>
   <!-- EN: Show mods data location -->
-  <ShowModsDataLocation>Show mods data location</ShowModsDataLocation>
+  <ShowModsDataLocation>نمایش محل داده مودها</ShowModsDataLocation>
   <!-- EN: Are you sure you want to disable the core mod? The game won't work at all unless you have another mod that replaces all the core functionality.\n\nRemember, other mods can override defs in the core mod by using the same defName. -->
-  <ConfirmDisableCoreMod>Are you sure you want to disable the core mod? The game won't work at all unless you have another mod that replaces all the core functionality.\n\nRemember, other mods can override defs in the core mod by using the same defName.</ConfirmDisableCoreMod>
+  <ConfirmDisableCoreMod>آیا مطمئن هستید که می‌خواهید مود اصلی را غیرفعال کنید؟ بازی اصلاً کار نخواهد کرد مگر اینکه مود دیگری داشته باشید که تمام عملکردهای اصلی را جایگزین کند.\n\nبه یاد داشته باشید، مودهای دیگر می‌توانند defها را در مود اصلی با استفاده از همان defName بازنویسی کنند.</ConfirmDisableCoreMod>
   <!-- EN: Are you sure you want to delete all the content for {0}? -->
-  <ConfirmDeleteMod>آیا مطمئن هستید که می خواهید همه محتوا را حذف کنید {0}?</ConfirmDeleteMod>
+  <ConfirmDeleteMod>آیا مطمئن هستید که می‌خواهید تمام محتوای {0} را حذف کنید؟</ConfirmDeleteMod>
   <!-- EN: Auto-sort mods -->
-  <ResolveModOrder>Auto-sort mods</ResolveModOrder>
+  <ResolveModOrder>مرتب‌سازی خودکار مودها</ResolveModOrder>
   <!-- EN: Save and apply changes -->
-  <SaveModChanges>تغییرات را ذخیره و اعمال کنید</SaveModChanges>
+  <SaveModChanges>ذخیره و اعمال تغییرات</SaveModChanges>
   <!-- EN: Mod changes have not been saved. Are you sure you want to continue? -->
-  <DiscardModChanges>تغییرات مود ذخیره نشده است. آیا مطمئن هستید که میخواهید ادامه دهید?</DiscardModChanges>
+  <DiscardModChanges>تغییرات مود ذخیره نشده است. آیا مطمئن هستید که می‌خواهید ادامه دهید؟</DiscardModChanges>
   <!-- EN: Cannot move {0}: It must be loaded after {1}. -->
-  <ModReorderConflict_MustLoadAfter>Cannot move {0}: It must be loaded after {1}.</ModReorderConflict_MustLoadAfter>
+  <ModReorderConflict_MustLoadAfter>نمی‌توان {0} را جابجا کرد: باید بعد از {1} بارگیری شود.</ModReorderConflict_MustLoadAfter>
   <!-- EN: Cannot move {0}: It must be loaded before {1}. -->
-  <ModReorderConflict_MustLoadBefore>Cannot move {0}: It must be loaded before {1}.</ModReorderConflict_MustLoadBefore>
+  <ModReorderConflict_MustLoadBefore>نمی‌توان {0} را جابجا کرد: باید قبل از {1} بارگیری شود.</ModReorderConflict_MustLoadBefore>
   <!-- EN: Unsubscribe -->
   <Unsubscribe>لغو اشتراک</Unsubscribe>
   <!-- EN: Are you sure you want to unsubscribe? -->
-  <ConfirmUnsubscribe>آیا مطمئن هستید که می خواهید اشتراک خود را لغو کنید؟?</ConfirmUnsubscribe>
+  <ConfirmUnsubscribe>آیا مطمئن هستید که می‌خواهید لغو اشتراک کنید؟</ConfirmUnsubscribe>
   <!-- EN: Are you sure you want to unsubscribe from {0}? -->
-  <ConfirmUnsubscribeFrom>Are you sure you want to unsubscribe from {0}?</ConfirmUnsubscribeFrom>
+  <ConfirmUnsubscribeFrom>آیا مطمئن هستید که می‌خواهید از {0} لغو اشتراک کنید؟</ConfirmUnsubscribeFrom>
   <!-- EN: Are you sure you want to unsubscribe from:\n\n{0} -->
-  <ConfirmUnsubscribeFromMultiple>Are you sure you want to unsubscribe from:\n\n{0}</ConfirmUnsubscribeFromMultiple>
+  <ConfirmUnsubscribeFromMultiple>آیا مطمئن هستید که می‌خواهید از:\n\n{0} لغو اشتراک کنید؟</ConfirmUnsubscribeFromMultiple>
   <!-- EN: Author -->
   <Author>نویسنده</Author>
   <!-- EN: Enabled -->
-  <Enabled>فعال شد</Enabled>
+  <Enabled>فعال</Enabled>
   <!-- EN: Disabled -->
-  <Disabled>غیر فعال شده</Disabled>
+  <Disabled>غیرفعال</Disabled>
   <!-- EN: Enable -->
   <Enable>فعال کردن</Enable>
   <!-- EN: Disable -->
-  <Disable>غیر فعال کردن</Disable>
+  <Disable>غیرفعال کردن</Disable>
   <!-- EN: Get mods from... -->
-  <GetMods>دریافت مود ها از...</GetMods>
+  <GetMods>دریافت مودها از...</GetMods>
   <!-- EN: Unsubscribe from... -->
-  <UnsubscribeMultiple>Unsubscribe from...</UnsubscribeMultiple>
+  <UnsubscribeMultiple>لغو اشتراک از...</UnsubscribeMultiple>
   <!-- EN: Save / load list... -->
   <SaveLoadList>ذخیره / بارگذاری لیست...</SaveLoadList>
   <!-- EN: Save mod list -->
@@ -191,17 +191,17 @@
   <!-- EN: Load mod list -->
   <LoadModList>بارگذاری لیست مود</LoadModList>
   <!-- EN: Added mods -->
-  <AddedModsList>مود های اضافه شده</AddedModsList>
+  <AddedModsList>مودهای اضافه شده</AddedModsList>
   <!-- EN: Missing mods -->
-  <MissingModsList>Missing mods</MissingModsList>
+  <MissingModsList>مودهای گمشده</MissingModsList>
   <!-- EN: Shared mods -->
-  <SharedModsList>Shared mods</SharedModsList>
+  <SharedModsList>مودهای مشترک</SharedModsList>
   <!-- EN: Website -->
-  <ModWebsite>وب سایت</ModWebsite>
+  <ModWebsite>وب‌سایت</ModWebsite>
   <!-- EN: Open folder -->
-  <ModFolder>Open folder</ModFolder>
+  <ModFolder>باز کردن پوشه</ModFolder>
   <!-- EN: Mod options -->
-  <ModOptions>تنظیمات مود</ModOptions>
+  <ModOptions>گزینه‌های مود</ModOptions>
   <!-- EN: Workshop -->
   <FromWorkshop>ورکشاپ</FromWorkshop>
   <!-- EN: Forum -->
@@ -209,89 +209,89 @@
   <!-- EN: Advanced... -->
   <MoreActions>پیشرفته...</MoreActions>
   <!-- EN: All selected mods -->
-  <AllSelectedMods>All selected mods</AllSelectedMods>
+  <AllSelectedMods>تمام مودهای انتخاب شده</AllSelectedMods>
   <!-- EN: All disabled mods -->
-  <AllDisabledMods>All disabled mods</AllDisabledMods>
+  <AllDisabledMods>تمام مودهای غیرفعال شده</AllDisabledMods>
   <!-- EN: All incompatible mods -->
-  <AllIncompatibleMods>All incompatible mods</AllIncompatibleMods>
+  <AllIncompatibleMods>تمام مودهای ناسازگار</AllIncompatibleMods>
   <!-- EN: Workshop page -->
-  <WorkshopPage>Workshop page</WorkshopPage>
+  <WorkshopPage>صفحه ورکشاپ</WorkshopPage>
   <!-- EN: Upload to Steam Workshop -->
-  <UploadToSteamWorkshop>Upload to Steam Workshop</UploadToSteamWorkshop>
+  <UploadToSteamWorkshop>آپلود در Steam Workshop</UploadToSteamWorkshop>
   <!-- EN: Update on Steam Workshop -->
-  <UpdateOnSteamWorkshop>Update on Steam Workshop</UpdateOnSteamWorkshop>
+  <UpdateOnSteamWorkshop>به‌روزرسانی در Steam Workshop</UpdateOnSteamWorkshop>
   <!-- EN: Upload already in progress. -->
-  <UploadAlreadyInProgress>Upload already in progress.</UploadAlreadyInProgress>
+  <UploadAlreadyInProgress>آپلود از قبل در حال انجام است.</UploadAlreadyInProgress>
   <!-- EN: Workshop submission failed.\n\nReason: {0} -->
-  <WorkshopSubmissionFailed>Workshop submission failed.\n\nReason: {0}</WorkshopSubmissionFailed>
+  <WorkshopSubmissionFailed>ارسال به ورکشاپ ناموفق بود.\n\nعلت: {0}</WorkshopSubmissionFailed>
   <!-- EN: Successfully uploaded {0}. -->
-  <WorkshopUploadSucceeded>Successfully uploaded {0}.</WorkshopUploadSucceeded>
+  <WorkshopUploadSucceeded>{0} با موفقیت آپلود شد.</WorkshopUploadSucceeded>
   <!-- EN: Downloading -->
   <Downloading>در حال دانلود</Downloading>
   <!-- EN: Workshop ID -->
-  <WorkshopId>Workshop ID</WorkshopId>
+  <WorkshopId>شناسه ورکشاپ</WorkshopId>
   <!-- EN: Display fulfilled requirements -->
-  <ModDisplayFulfilledRequirements>Display fulfilled requirements</ModDisplayFulfilledRequirements>
+  <ModDisplayFulfilledRequirements>نمایش نیازمندی‌های برآورده شده</ModDisplayFulfilledRequirements>
   <!-- EN: Click to select. -->
-  <ModClickToSelect>Click to select.</ModClickToSelect>
+  <ModClickToSelect>برای انتخاب کلیک کنید.</ModClickToSelect>
   <!-- EN: Click to go to website. -->
-  <ModClickToGoToWebsite>Click to go to website.</ModClickToGoToWebsite>
+  <ModClickToGoToWebsite>برای رفتن به وب‌سایت کلیک کنید.</ModClickToGoToWebsite>
   <!-- EN: Source -->
   <Source>منبع</Source>
   <!-- EN: Game versions -->
-  <ModTargetVersion>نسخه های بازی</ModTargetVersion>
+  <ModTargetVersion>نسخه‌های بازی</ModTargetVersion>
   <!-- EN: Mod version -->
-  <ModVersion>نسخه مود شده</ModVersion>
+  <ModVersion>نسخه مود</ModVersion>
   <!-- EN: ID -->
-  <ModPackageId>ID</ModPackageId>
+  <ModPackageId>شناسه</ModPackageId>
   <!-- EN: This must be loaded before: {0}. -->
-  <ModMustLoadBefore>This must be loaded before: {0}.</ModMustLoadBefore>
+  <ModMustLoadBefore>این باید قبل از: {0} بارگیری شود.</ModMustLoadBefore>
   <!-- EN: This must be loaded after: {0}. -->
-  <ModMustLoadAfter>This must be loaded after: {0}.</ModMustLoadAfter>
+  <ModMustLoadAfter>این باید بعد از: {0} بارگیری شود.</ModMustLoadAfter>
   <!-- EN: Depends on: {0} -->
-  <ModDependsOn>Depends on: {0}</ModDependsOn>
+  <ModDependsOn>وابسته به: {0}</ModDependsOn>
   <!-- EN: Incompatible with: {0} -->
-  <ModIncompatibleWith>Incompatible with: {0}</ModIncompatibleWith>
+  <ModIncompatibleWith>ناسازگار با: {0}</ModIncompatibleWith>
   <!-- EN: This mod is incompatible with: {0}. -->
-  <ModIncompatibleWithTip>This mod is incompatible with: {0}.</ModIncompatibleWithTip>
+  <ModIncompatibleWithTip>این مود با: {0} ناسازگار است.</ModIncompatibleWithTip>
   <!-- EN: This mod is loading in the wrong order relative to another mod. Use the 'auto-sort' button, or re-order the mods manually. -->
-  <ModOrderingWarning>This mod is loading in the wrong order relative to another mod. Use the 'auto-sort' button, or re-order the mods manually.</ModOrderingWarning>
+  <ModOrderingWarning>این مود نسبت به مود دیگری در ترتیب بارگیری اشتباهی قرار دارد. از دکمه 'مرتب‌سازی خودکار' استفاده کنید یا مودها را به صورت دستی مرتب کنید.</ModOrderingWarning>
   <!-- EN: Another active mod uses the same ID: {0}. -->
-  <ModWithSameIdAlreadyActive>Another active mod uses the same ID: {0}.</ModWithSameIdAlreadyActive>
+  <ModWithSameIdAlreadyActive>یک مود فعال دیگر از همان شناسه استفاده می‌کند: {0}.</ModWithSameIdAlreadyActive>
   <!-- EN: There is a cyclic mod dependency starting with {0}. -->
-  <ModCyclicDependency>There is a cyclic mod dependency starting with {0}.</ModCyclicDependency>
+  <ModCyclicDependency>یک وابستگی چرخه‌ای مود وجود دارد که با {0} شروع می‌شود.</ModCyclicDependency>
   <!-- EN: This requires the following mods to work: {0}. -->
-  <ModUnsatisfiedDependency>This requires the following mods to work: {0}.</ModUnsatisfiedDependency>
+  <ModUnsatisfiedDependency>این برای کار کردن به مودهای زیر نیاز دارد: {0}.</ModUnsatisfiedDependency>
   <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
-  <ModNotMadeForThisVersion>This mod was not made for this version of RimWorld, and will probably not work correctly.</ModNotMadeForThisVersion>
+  <ModNotMadeForThisVersion>این مود برای این نسخه از RimWorld ساخته نشده است و احتمالاً به درستی کار نخواهد کرد.</ModNotMadeForThisVersion>
   <!-- EN: This mod is not made for this version of RimWorld. -->
-  <ModNotMadeForThisVersionShort>This mod is not made for this version of RimWorld.</ModNotMadeForThisVersionShort>
+  <ModNotMadeForThisVersionShort>این مود برای این نسخه از RimWorld ساخته نشده است.</ModNotMadeForThisVersionShort>
   <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
-  <ModNotMadeForThisVersion_Newer>This mod was made for a newer version of RimWorld than this, and will probably not work correctly.</ModNotMadeForThisVersion_Newer>
+  <ModNotMadeForThisVersion_Newer>این مود برای نسخه جدیدتری از RimWorld نسبت به این نسخه ساخته شده است و احتمالاً به درستی کار نخواهد کرد.</ModNotMadeForThisVersion_Newer>
   <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
-  <MessageModNeedsWellFormattedTargetVersion>Mod needs properly formatted supported version information in About.xml. Like this: &lt;supportedVersions>&lt;li>{0}&lt;/li>&lt;/supportedVersions> - &lt;targetVersion> is deprecated. Check log for further information.</MessageModNeedsWellFormattedTargetVersion>
+  <MessageModNeedsWellFormattedTargetVersion>مود نیاز به اطلاعات نسخه پشتیبانی شده با فرمت صحیح در About.xml دارد. مانند این: &lt;supportedVersions>&lt;li>{0}&lt;/li>&lt;/supportedVersions> - &lt;targetVersion> منسوخ شده است. برای اطلاعات بیشتر گزارش را بررسی کنید.</MessageModNeedsWellFormattedTargetVersion>
   <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
-  <MessageModNeedsWellFormattedPackageId>Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n&lt;packageId>AuthorName.ModName&lt;/packageId>\n&lt;packageId>AuthorName.ModName.Specific&lt;/packageId></MessageModNeedsWellFormattedPackageId>
+  <MessageModNeedsWellFormattedPackageId>مود نیاز به یک packageId منحصر به فرد و با فرمت صحیح در About.xml دارد. باید شرایط زیر را داشته باشد:\n\n  - فقط حروف و اعداد و نقطه.\n  - بدون فاصله.\n  - حداقل یک نقطه.\n  - بدون نقاط تکراری پشت سر هم، یا شروع یا پایان با نقطه.\n  - 60 کاراکتر یا کمتر.\n  - نمی‌تواند شامل کلمه "Ludeon" باشد.\n\nمثال:\n&lt;packageId>AuthorName.ModName&lt;/packageId>\n&lt;packageId>AuthorName.ModName.Specific&lt;/packageId></MessageModNeedsWellFormattedPackageId>
   <!-- EN: This mod has issues in LoadFolders.xml, that you need to resolve before uploading: -->
-  <ModHadLoadFolderIssues>This mod has issues in LoadFolders.xml, that you need to resolve before uploading:</ModHadLoadFolderIssues>
+  <ModHadLoadFolderIssues>این مود در LoadFolders.xml مشکلاتی دارد که باید قبل از آپلود حل کنید:</ModHadLoadFolderIssues>
   <!-- EN: Folder {0} specified for version {1} doesn't exist. -->
-  <ModLoadFolderDoesntExist>Folder {0} specified for version {1} doesn't exist.</ModLoadFolderDoesntExist>
+  <ModLoadFolderDoesntExist>پوشه {0} مشخص شده برای نسخه {1} وجود ندارد.</ModLoadFolderDoesntExist>
   <!-- EN: Malformed version string '{0}'. Correct format is Major.Minor (e.g. 1.1) -->
-  <ModLoadFolderMalformedVersion>Malformed version string '{0}'. Correct format is Major.Minor (e.g. 1.1)</ModLoadFolderMalformedVersion>
+  <ModLoadFolderMalformedVersion>رشته نسخه '{0}' بدشکل است. فرمت صحیح Major.Minor است (مثلاً 1.1)</ModLoadFolderMalformedVersion>
   <!-- EN: The list of load folders for version {0} is empty. -->
-  <ModLoadFolderListEmpty>The list of load folders for version {0} is empty.</ModLoadFolderListEmpty>
+  <ModLoadFolderListEmpty>لیست پوشه‌های بارگیری برای نسخه {0} خالی است.</ModLoadFolderListEmpty>
   <!-- EN: Version {0} lists the same folder more than once: {1}. -->
-  <ModLoadFolderRepeatingFolder>Version {0} lists the same folder more than once: {1}.</ModLoadFolderRepeatingFolder>
+  <ModLoadFolderRepeatingFolder>نسخه {0} یک پوشه را بیش از یک بار لیست کرده است: {1}.</ModLoadFolderRepeatingFolder>
   <!-- EN: Invalid version order: {0} should come before {1}. -->
-  <ModLoadFolderOutOfOrder>Invalid version order: {0} should come before {1}.</ModLoadFolderOutOfOrder>
+  <ModLoadFolderOutOfOrder>ترتیب نسخه نامعتبر: {0} باید قبل از {1} بیاید.</ModLoadFolderOutOfOrder>
   <!-- EN: Invalid version order: 'default' should be defined first. -->
-  <ModLoadFolderOutOfOrderDefault>Invalid version order: 'default' should be defined first.</ModLoadFolderOutOfOrderDefault>
+  <ModLoadFolderOutOfOrderDefault>ترتیب نسخه نامعتبر: 'default' باید ابتدا تعریف شود.</ModLoadFolderOutOfOrderDefault>
   <!-- EN: Using 'default' in load folders is deprecated. Please define folders for each version using the <v...> tags. -->
-  <ModLoadFolderDefaultDeprecated>Using 'default' in load folders is deprecated. Please define folders for each version using the &lt;v...> tags.</ModLoadFolderDefaultDeprecated>
+  <ModLoadFolderDefaultDeprecated>استفاده از 'default' در پوشه‌های بارگیری منسوخ شده است. لطفاً پوشه‌ها را برای هر نسخه با استفاده از تگ‌های &lt;v...> تعریف کنید.</ModLoadFolderDefaultDeprecated>
   <!-- EN: Version {0} is defined in load folders, but is not listed in 'supportedVersions' of mod's About.xml. -->
-  <ModLoadFolderDefinesUnsupportedGameVersion>Version {0} is defined in load folders, but is not listed in 'supportedVersions' of mod's About.xml.</ModLoadFolderDefinesUnsupportedGameVersion>
+  <ModLoadFolderDefinesUnsupportedGameVersion>نسخه {0} در پوشه‌های بارگیری تعریف شده است، اما در 'supportedVersions' فایل About.xml مود لیست نشده است.</ModLoadFolderDefinesUnsupportedGameVersion>
   <!-- EN: Drag to reorder -->
-  <DragToReorder>Drag to reorder</DragToReorder>
+  <DragToReorder>برای مرتب‌سازی مجدد بکشید</DragToReorder>
 
   <!-- Select scenario -->
   <!-- EN: Choose scenario -->
@@ -311,247 +311,247 @@
   <!-- EN: Load -->
   <Load>بارگذاری</Load>
   <!-- EN: edit mode -->
-  <EditMode>ویرایش مود</EditMode>
+  <EditMode>حالت ویرایش</EditMode>
   <!-- EN: Summary -->
   <Summary>خلاصه</Summary>
   <!-- EN: Add part -->
-  <AddPart>Add part</AddPart>
+  <AddPart>افزودن بخش</AddPart>
   <!-- EN: All text fields must be filled. -->
-  <TextFieldsMustBeFilled>All text fields must be filled.</TextFieldsMustBeFilled>
+  <TextFieldsMustBeFilled>تمام فیلدهای متنی باید پر شوند.</TextFieldsMustBeFilled>
   <!-- EN: Are you sure you want to upload this to the Steam Workshop?\n\nYou must agree to the Steam Workshop terms of service. Find the full terms here:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement -->
-  <ConfirmSteamWorkshopUpload>Are you sure you want to upload this to the Steam Workshop?\n\nYou must agree to the Steam Workshop terms of service. Find the full terms here:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
+  <ConfirmSteamWorkshopUpload>آیا مطمئن هستید که می‌خواهید این را در Steam Workshop آپلود کنید؟\n\nشما باید با شرایط خدمات Steam Workshop موافقت کنید. شرایط کامل را در اینجا بیابید:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
   <!-- EN: Obviously you should only upload content that you created yourself.\n\nDid you create this content yourself? -->
-  <ConfirmContentAuthor>Obviously you should only upload content that you created yourself.\n\nDid you create this content yourself?</ConfirmContentAuthor>
+  <ConfirmContentAuthor>بدیهی است که شما فقط باید محتوایی را که خودتان ایجاد کرده‌اید آپلود کنید.\n\nآیا این محتوا را خودتان ایجاد کرده‌اید؟</ConfirmContentAuthor>
   <!-- EN: Incompatible -->
-  <Incompatible>Incompatible</Incompatible>
+  <Incompatible>ناسازگار</Incompatible>
   <!-- EN: Tag as translation -->
-  <TagAsTranslation>Tag as translation</TagAsTranslation>
+  <TagAsTranslation>برچسب‌گذاری به عنوان ترجمه</TagAsTranslation>
   <!-- EN: Too many (max {0}):  -->
-  <TooMany>Too many (max {0}): </TooMany>
+  <TooMany>بیش از حد (حداکثر {0}): </TooMany>
   <!-- EN: Can be updated on Workshop, since you are the author. -->
-  <CanBeUpdatedOnWorkshop>Can be updated on Workshop, since you are the author.</CanBeUpdatedOnWorkshop>
+  <CanBeUpdatedOnWorkshop>می‌تواند در ورکشاپ به‌روزرسانی شود، چون شما نویسنده هستید.</CanBeUpdatedOnWorkshop>
   <!-- EN: This scenario has been edited.\n\nDo you want to save it before proceeding? -->
-  <ScenarioChangedSavePrompt>This scenario has been edited.\n\nDo you want to save it before proceeding?</ScenarioChangedSavePrompt>
+  <ScenarioChangedSavePrompt>این سناریو ویرایش شده است.\n\nآیا می‌خواهید قبل از ادامه آن را ذخیره کنید؟</ScenarioChangedSavePrompt>
   
   <!-- Select storyteller -->
   <!-- EN: Choose AI Storyteller -->
-  <ChooseAIStoryteller>Choose AI Storyteller</ChooseAIStoryteller>
+  <ChooseAIStoryteller>انتخاب داستان‌گوی هوش مصنوعی</ChooseAIStoryteller>
   <!-- EN: The AI Storyteller creates events like pirate raids, resource drops, or animal attacks. Their choices will affect the story of your colony. You can change these settings at any time. -->
-  <HowStorytellersWork>The AI Storyteller creates events like pirate raids, resource drops, or animal attacks. Their choices will affect the story of your colony. You can change these settings at any time.</HowStorytellersWork>
+  <HowStorytellersWork>داستان‌گوی هوش مصنوعی رویدادهایی مانند حملات دزدان دریایی، رهاسازی منابع یا حملات حیوانات را ایجاد می‌کند. انتخاب‌های آنها بر داستان کلونی شما تأثیر می‌گذارد. می‌توانید این تنظیمات را در هر زمان تغییر دهید.</HowStorytellersWork>
   <!-- EN: Please choose a difficulty setting. -->
-  <MustChooseDifficulty>Please choose a difficulty setting.</MustChooseDifficulty>
+  <MustChooseDifficulty>لطفاً یک تنظیم دشواری را انتخاب کنید.</MustChooseDifficulty>
   <!-- EN: Difficulty -->
-  <Difficulty>Difficulty</Difficulty>
+  <Difficulty>دشواری</Difficulty>
   <!-- EN: Commitment mode -->
-  <CommitmentMode>Commitment mode</CommitmentMode>
+  <CommitmentMode>حالت تعهد</CommitmentMode>
   <!-- EN: Reload anytime mode -->
-  <ReloadAnytimeMode>Reload anytime mode</ReloadAnytimeMode>
+  <ReloadAnytimeMode>حالت بارگذاری در هر زمان</ReloadAnytimeMode>
   <!-- EN: Please choose commitment mode or reload anytime mode. -->
-  <MustChoosePermadeath>Please choose commitment mode or reload anytime mode.</MustChoosePermadeath>
+  <MustChoosePermadeath>لطفاً حالت تعهد یا حالت بارگذاری در هر زمان را انتخاب کنید.</MustChoosePermadeath>
   <!-- EN: You can save and load the game at any time.\n\nThis is a good choice if you're still learning the game, if it fits your personal playstyle, if you're using mods that may break your game, or if you intend to self-enforce commitment mode. -->
-  <ReloadAnytimeModeInfo>You can save and load the game at any time.\n\nThis is a good choice if you're still learning the game, if it fits your personal playstyle, if you're using mods that may break your game, or if you intend to self-enforce commitment mode.</ReloadAnytimeModeInfo>
+  <ReloadAnytimeModeInfo>می‌توانید بازی را در هر زمان ذخیره و بارگذاری کنید.\n\nاین یک انتخاب خوب است اگر هنوز در حال یادگیری بازی هستید، اگر با سبک بازی شخصی شما سازگار است، اگر از مودهایی استفاده می‌کنید که ممکن است بازی شما را خراب کنند، یا اگر قصد دارید حالت تعهد را خودتان اعمال کنید.</ReloadAnytimeModeInfo>
   <!-- EN: You can only save when quitting the game.\n\nSince RimWorld is a story generator, even losing all but one person is not the end of the game - it's part of the story. The game is designed to allow recovery after losses.\n\nPlaying out these terrible situations makes a story with both tragedy and triumph. It's the way RimWorld was designed to be played.\n\nThere's a reason Luke Skywalker didn't quit and reload when his family got killed - loss and recovery is dramatic. -->
-  <PermadeathModeInfo>You can only save when quitting the game.\n\nSince RimWorld is a story generator, even losing all but one person is not the end of the game - it's part of the story. The game is designed to allow recovery after losses.\n\nPlaying out these terrible situations makes a story with both tragedy and triumph. It's the way RimWorld was designed to be played.\n\nThere's a reason Luke Skywalker didn't quit and reload when his family got killed - loss and recovery is dramatic.</PermadeathModeInfo>
+  <PermadeathModeInfo>شما فقط هنگام خروج از بازی می‌توانید ذخیره کنید.\n\nاز آنجایی که RimWorld یک داستان‌ساز است، حتی از دست دادن همه به جز یک نفر پایان بازی نیست - بخشی از داستان است. بازی طوری طراحی شده است که امکان بازیابی پس از تلفات را فراهم کند.\n\nبازی کردن در این موقعیت‌های وحشتناک داستانی با تراژدی و پیروزی می‌سازد. این روشی است که RimWorld برای بازی طراحی شده است.\n\nدلیلی وجود دارد که لوک اسکای‌واکر وقتی خانواده‌اش کشته شدند، بازی را ترک نکرد و دوباره بارگذاری نکرد - از دست دادن و بازیابی دراماتیک است.</PermadeathModeInfo>
   <!-- EN: Storyteller and playstyle can be changed any time. -->
-  <CanChangeStorytellerSettingsDuringPlay>Storyteller and playstyle can be changed any time.</CanChangeStorytellerSettingsDuringPlay>
+  <CanChangeStorytellerSettingsDuringPlay>داستان‌گو و سبک بازی را می‌توان در هر زمان تغییر داد.</CanChangeStorytellerSettingsDuringPlay>
 
   <!-- custom difficulty settings -->
   <!-- EN: Custom playstyle settings -->
-  <DifficultyCustomSectionLabel>Custom playstyle settings</DifficultyCustomSectionLabel>
+  <DifficultyCustomSectionLabel>تنظیمات سبک بازی سفارشی</DifficultyCustomSectionLabel>
   <!-- EN: Set to standard playstyle... -->
-  <DifficultyReset>Set to standard playstyle...</DifficultyReset>
+  <DifficultyReset>تنظیم به سبک بازی استاندارد...</DifficultyReset>
   
   <!-- EN: Threats -->
   <DifficultyThreatSection>تهدیدات</DifficultyThreatSection>
   <!-- EN: Threat scale -->
-  <Difficulty_ThreatScale_Label>Threat scale</Difficulty_ThreatScale_Label>
+  <Difficulty_ThreatScale_Label>مقیاس تهدید</Difficulty_ThreatScale_Label>
   <!-- EN: Adjust the size of threats like raids and infestations, and the difficulty of quests. -->
-  <Difficulty_ThreatScale_Info>Adjust the size of threats like raids and infestations, and the difficulty of quests.</Difficulty_ThreatScale_Info>
+  <Difficulty_ThreatScale_Info>اندازه تهدیداتی مانند حملات و هجوم حشرات و دشواری ماموریت‌ها را تنظیم کنید.</Difficulty_ThreatScale_Info>
   <!-- EN: Major threats -->
-  <Difficulty_AllowBigThreats_Label>Major threats</Difficulty_AllowBigThreats_Label>
+  <Difficulty_AllowBigThreats_Label>تهدیدات بزرگ</Difficulty_AllowBigThreats_Label>
   <!-- EN: Allow major threats such as raids, infestations, manhunter packs, crashed mechanoid ships and more. -->
-  <Difficulty_AllowBigThreats_Info>Allow major threats such as raids, infestations, manhunter packs, crashed mechanoid ships and more.</Difficulty_AllowBigThreats_Info>
+  <Difficulty_AllowBigThreats_Info>اجازه دادن به تهدیدات بزرگ مانند حملات، هجوم حشرات، دسته‌های شکارچی انسان، کشتی‌های مکانوید سقوط کرده و موارد دیگر.</Difficulty_AllowBigThreats_Info>
   <!-- EN: Quest threats -->
-  <Difficulty_AllowViolentQuests_Label>Quest threats</Difficulty_AllowViolentQuests_Label>
+  <Difficulty_AllowViolentQuests_Label>تهدیدات ماموریت</Difficulty_AllowViolentQuests_Label>
   <!-- EN: Allow quests to present with violent threats and challenges. If this is disabled, quests will be modified to be non-violent. -->
-  <Difficulty_AllowViolentQuests_Info>Allow quests to present with violent threats and challenges. If this is disabled, quests will be modified to be non-violent.</Difficulty_AllowViolentQuests_Info>
+  <Difficulty_AllowViolentQuests_Info>اجازه دادن به ماموریت‌ها برای ارائه تهدیدات و چالش‌های خشونت‌آمیز. اگر این گزینه غیرفعال باشد، ماموریت‌ها به صورت غیرخشونت‌آمیز تغییر خواهند یافت.</Difficulty_AllowViolentQuests_Info>
   <!-- EN: Intro threats -->
-  <Difficulty_AllowIntroThreats_Label>Intro threats</Difficulty_AllowIntroThreats_Label>
+  <Difficulty_AllowIntroThreats_Label>تهدیدات مقدماتی</Difficulty_AllowIntroThreats_Label>
   <!-- EN: Enable the fixed intro threats that appear near game start. -->
-  <Difficulty_AllowIntroThreats_Info>Enable the fixed intro threats that appear near game start.</Difficulty_AllowIntroThreats_Info>
+  <Difficulty_AllowIntroThreats_Info>فعال کردن تهدیدات مقدماتی ثابت که نزدیک شروع بازی ظاهر می‌شوند.</Difficulty_AllowIntroThreats_Info>
   <!-- EN: Predators hunt humans -->
-  <Difficulty_PredatorsHuntHumanlikes_Label>Predators hunt humans</Difficulty_PredatorsHuntHumanlikes_Label>
+  <Difficulty_PredatorsHuntHumanlikes_Label>شکارچیان انسان شکار می‌کنند</Difficulty_PredatorsHuntHumanlikes_Label>
   <!-- EN: Allow wild predators to hunt humans. -->
-  <Difficulty_PredatorsHuntHumanlikes_Info>Allow wild predators to hunt humans.</Difficulty_PredatorsHuntHumanlikes_Info>
+  <Difficulty_PredatorsHuntHumanlikes_Info>اجازه دادن به شکارچیان وحشی برای شکار انسان‌ها.</Difficulty_PredatorsHuntHumanlikes_Info>
   <!-- EN: Extreme weather -->
-  <Difficulty_AllowExtremeWeatherIncidents_Label>Extreme weather</Difficulty_AllowExtremeWeatherIncidents_Label>
+  <Difficulty_AllowExtremeWeatherIncidents_Label>آب و هوای شدید</Difficulty_AllowExtremeWeatherIncidents_Label>
   <!-- EN: Allow extreme weather incidents such as toxic fallout, volcanic winters and flashstorms. -->
-  <Difficulty_AllowExtremeWeatherIncidents_Info>Allow extreme weather incidents such as toxic fallout, volcanic winters and flashstorms.</Difficulty_AllowExtremeWeatherIncidents_Info>
+  <Difficulty_AllowExtremeWeatherIncidents_Info>اجازه دادن به حوادث آب و هوایی شدید مانند بارش سمی، زمستان‌های آتشفشانی و طوفان‌های ناگهانی.</Difficulty_AllowExtremeWeatherIncidents_Info>
 
   <!-- EN: Economy -->
   <DifficultyEconomySection>اقتصاد</DifficultyEconomySection>
   <!-- EN: Trade price disadvantage -->
-  <Difficulty_TradePriceFactorLoss_Label>Trade price disadvantage</Difficulty_TradePriceFactorLoss_Label>
+  <Difficulty_TradePriceFactorLoss_Label>نقص قیمت تجارت</Difficulty_TradePriceFactorLoss_Label>
   <!-- EN: When trading, buy prices are increased by this amount while sell prices are reduced by this amount. -->
-  <Difficulty_TradePriceFactorLoss_Info>When trading, buy prices are increased by this amount while sell prices are reduced by this amount.</Difficulty_TradePriceFactorLoss_Info>
+  <Difficulty_TradePriceFactorLoss_Info>هنگام تجارت، قیمت خرید به این میزان افزایش می‌یابد در حالی که قیمت فروش به این میزان کاهش می‌یابد.</Difficulty_TradePriceFactorLoss_Info>
   <!-- EN: Harvest yield -->
-  <Difficulty_CropYieldFactor_Label>Harvest yield</Difficulty_CropYieldFactor_Label>
+  <Difficulty_CropYieldFactor_Label>بازده برداشت</Difficulty_CropYieldFactor_Label>
   <!-- EN: Adjust the amount of materials produced when harvesting plants and crops. This includes harvesting plants and cutting trees. -->
-  <Difficulty_CropYieldFactor_Info>Adjust the amount of materials produced when harvesting plants and crops. This includes harvesting plants and cutting trees.</Difficulty_CropYieldFactor_Info>
+  <Difficulty_CropYieldFactor_Info>مقدار مواد تولید شده هنگام برداشت گیاهان و محصولات را تنظیم کنید. این شامل برداشت گیاهان و قطع درختان است.</Difficulty_CropYieldFactor_Info>
   <!-- EN: Mining yield -->
-  <Difficulty_MineYieldFactor_Label>Mining yield</Difficulty_MineYieldFactor_Label>
+  <Difficulty_MineYieldFactor_Label>بازده معدن</Difficulty_MineYieldFactor_Label>
   <!-- EN: Adjust the amount of materials produced when mining. -->
-  <Difficulty_MineYieldFactor_Info>Adjust the amount of materials produced when mining.</Difficulty_MineYieldFactor_Info>
+  <Difficulty_MineYieldFactor_Info>مقدار مواد تولید شده هنگام استخراج را تنظیم کنید.</Difficulty_MineYieldFactor_Info>
   <!-- EN: Butchering yield -->
-  <Difficulty_ButcherYieldFactor_Label>Butchering yield</Difficulty_ButcherYieldFactor_Label>
+  <Difficulty_ButcherYieldFactor_Label>بازده قصابی</Difficulty_ButcherYieldFactor_Label>
   <!-- EN: Adjust the amount of materials produced when butchering. This includes meat, leather, and yield from shredding mechanoids. -->
-  <Difficulty_ButcherYieldFactor_Info>Adjust the amount of materials produced when butchering. This includes meat, leather, and yield from shredding mechanoids.</Difficulty_ButcherYieldFactor_Info>
+  <Difficulty_ButcherYieldFactor_Info>مقدار مواد تولید شده هنگام قصابی را تنظیم کنید. این شامل گوشت، چرم و بازده حاصل از خرد کردن مکانویدها است.</Difficulty_ButcherYieldFactor_Info>
   <!-- EN: Research speed -->
-  <Difficulty_ResearchSpeedFactor_Label>Research speed</Difficulty_ResearchSpeedFactor_Label>
+  <Difficulty_ResearchSpeedFactor_Label>سرعت تحقیق</Difficulty_ResearchSpeedFactor_Label>
   <!-- EN: Adjust the speed of research. -->
-  <Difficulty_ResearchSpeedFactor_Info>Adjust the speed of research.</Difficulty_ResearchSpeedFactor_Info>
+  <Difficulty_ResearchSpeedFactor_Info>سرعت تحقیق را تنظیم کنید.</Difficulty_ResearchSpeedFactor_Info>
   <!-- EN: Quest rewards -->
-  <Difficulty_QuestRewardValueFactor_Label>Quest rewards</Difficulty_QuestRewardValueFactor_Label>
+  <Difficulty_QuestRewardValueFactor_Label>پاداش‌های ماموریت</Difficulty_QuestRewardValueFactor_Label>
   <!-- EN: Adjust the value of rewards given for quests.\n\nNote: Quest reward value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
-  <Difficulty_QuestRewardValueFactor_Info>Adjust the value of rewards given for quests.\n\nNote: Quest reward value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier.</Difficulty_QuestRewardValueFactor_Info>
+  <Difficulty_QuestRewardValueFactor_Info>مقدار پاداش‌های داده شده برای ماموریت‌ها را تنظیم کنید.\n\nتوجه: مقدار پاداش ماموریت نیز به طور خودکار برای جبران مقیاس تهدید تنظیم می‌شود. اگر این تنظیم را تغییر دهید، یک ضریب اضافی اضافه خواهید کرد.</Difficulty_QuestRewardValueFactor_Info>
   <!-- EN: Raid loot -->
-  <Difficulty_RaidLootPointsFactor_Label>Raid loot</Difficulty_RaidLootPointsFactor_Label>
+  <Difficulty_RaidLootPointsFactor_Label>غارت حمله</Difficulty_RaidLootPointsFactor_Label>
   <!-- EN: Adjust the value of loot carried by raiders.\n\nNote: Raid loot value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
-  <Difficulty_RaidLootPointsFactor_Info>Adjust the value of loot carried by raiders.\n\nNote: Raid loot value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier.</Difficulty_RaidLootPointsFactor_Info>
+  <Difficulty_RaidLootPointsFactor_Info>مقدار غارت حمل شده توسط مهاجمان را تنظیم کنید.\n\nتوجه: مقدار غارت حمله نیز به طور خودکار برای جبران مقیاس تهدید تنظیم می‌شود. اگر این تنظیم را تغییر دهید، یک ضریب اضافی اضافه خواهید کرد.</Difficulty_RaidLootPointsFactor_Info>
   <!-- EN: Turret rearm cost -->
-  <Difficulty_MaintenanceCostFactor_Label>Turret rearm cost</Difficulty_MaintenanceCostFactor_Label>
+  <Difficulty_MaintenanceCostFactor_Label>هزینه مسلح کردن مجدد برجک</Difficulty_MaintenanceCostFactor_Label>
   <!-- EN: Adjust the cost of rearming turrets. -->
-  <Difficulty_MaintenanceCostFactor_Info>Adjust the cost of rearming turrets.</Difficulty_MaintenanceCostFactor_Info>
+  <Difficulty_MaintenanceCostFactor_Info>هزینه مسلح کردن مجدد برجک‌ها را تنظیم کنید.</Difficulty_MaintenanceCostFactor_Info>
   <!-- EN: Scaria rot chance -->
-  <Difficulty_ScariaRotChance_Label>Scaria rot chance</Difficulty_ScariaRotChance_Label>
+  <Difficulty_ScariaRotChance_Label>شانس پوسیدگی اسکاریا</Difficulty_ScariaRotChance_Label>
   <!-- EN: The probability that a corpse will immediately rot upon death, if the creature has the scaria disease.\n\nNote: The default settings are designed to exactly balance out the increase in animal count at higher difficulties, so all players get the same meat rewards. -->
-  <Difficulty_ScariaRotChance_Info>The probability that a corpse will immediately rot upon death, if the creature has the scaria disease.\n\nNote: The default settings are designed to exactly balance out the increase in animal count at higher difficulties, so all players get the same meat rewards.</Difficulty_ScariaRotChance_Info>
+  <Difficulty_ScariaRotChance_Info>احتمال اینکه یک جسد بلافاصله پس از مرگ بپوسد، اگر موجود دارای بیماری اسکاریا باشد.\n\nتوجه: تنظیمات پیش‌فرض برای تعادل دقیق افزایش تعداد حیوانات در دشواری‌های بالاتر طراحی شده‌اند، بنابراین همه بازیکنان پاداش گوشت یکسانی دریافت می‌کنند.</Difficulty_ScariaRotChance_Info>
   <!-- EN: Enemy death on downed -->
-  <Difficulty_EnemyDeathOnDownedChanceFactor_Label>Enemy death on downed</Difficulty_EnemyDeathOnDownedChanceFactor_Label>
+  <Difficulty_EnemyDeathOnDownedChanceFactor_Label>مرگ دشمن هنگام سرنگونی</Difficulty_EnemyDeathOnDownedChanceFactor_Label>
   <!-- EN: Adjust the extra chance that an enemy will immediately die when downed. This affects the chances to take prisoners, and thus colony population growth rates. -->
-  <Difficulty_EnemyDeathOnDownedChanceFactor_Info>Adjust the extra chance that an enemy will immediately die when downed. This affects the chances to take prisoners, and thus colony population growth rates.</Difficulty_EnemyDeathOnDownedChanceFactor_Info>
+  <Difficulty_EnemyDeathOnDownedChanceFactor_Info>شانس اضافی اینکه یک دشمن بلافاصله هنگام سرنگونی بمیرد را تنظیم کنید. این بر شانس گرفتن زندانی و در نتیجه نرخ رشد جمعیت کلونی تأثیر می‌گذارد.</Difficulty_EnemyDeathOnDownedChanceFactor_Info>
 
   <!-- EN: General -->
   <DifficultyGeneralSection>عمومی</DifficultyGeneralSection>
   <!-- EN: Colonist mood -->
-  <Difficulty_ColonistMoodOffset_Label>Colonist mood</Difficulty_ColonistMoodOffset_Label>
+  <Difficulty_ColonistMoodOffset_Label>روحیه مهاجر</Difficulty_ColonistMoodOffset_Label>
   <!-- EN: A permanent mood offset applied to every colonist and prisoner. Colonists have a base mood of 50%. -->
-  <Difficulty_ColonistMoodOffset_Info>A permanent mood offset applied to every colonist and prisoner. Colonists have a base mood of 50%.</Difficulty_ColonistMoodOffset_Info>
+  <Difficulty_ColonistMoodOffset_Info>یک انحراف دائمی روحیه که برای هر مهاجر و زندانی اعمال می‌شود. مهاجران روحیه پایه 50% دارند.</Difficulty_ColonistMoodOffset_Info>
   <!-- EN: Food poison chance -->
-  <Difficulty_FoodPoisonChanceFactor_Label>Food poison chance</Difficulty_FoodPoisonChanceFactor_Label>
+  <Difficulty_FoodPoisonChanceFactor_Label>شانس مسمومیت غذایی</Difficulty_FoodPoisonChanceFactor_Label>
   <!-- EN: Adjust the chance that a person will get food poisoning from eating a potentially-poisoned meal. -->
-  <Difficulty_FoodPoisonChanceFactor_Info>Adjust the chance that a person will get food poisoning from eating a potentially-poisoned meal.</Difficulty_FoodPoisonChanceFactor_Info>
+  <Difficulty_FoodPoisonChanceFactor_Info>شانس اینکه یک نفر از خوردن یک وعده غذایی بالقوه مسموم، مسمومیت غذایی بگیرد را تنظیم کنید.</Difficulty_FoodPoisonChanceFactor_Info>
   <!-- EN: Animal revenge chance -->
-  <Difficulty_ManhunterChanceOnDamageFactor_Label>Animal revenge chance</Difficulty_ManhunterChanceOnDamageFactor_Label>
+  <Difficulty_ManhunterChanceOnDamageFactor_Label>شانس انتقام حیوان</Difficulty_ManhunterChanceOnDamageFactor_Label>
   <!-- EN: Adjust the chance that injuring a wild animal will cause it to attack. -->
-  <Difficulty_ManhunterChanceOnDamageFactor_Info>Adjust the chance that injuring a wild animal will cause it to attack.</Difficulty_ManhunterChanceOnDamageFactor_Info>
+  <Difficulty_ManhunterChanceOnDamageFactor_Info>شانس اینکه آسیب رساندن به یک حیوان وحشی باعث حمله آن شود را تنظیم کنید.</Difficulty_ManhunterChanceOnDamageFactor_Info>
   <!-- EN: Friendly fire -->
-  <Difficulty_FriendlyFireChanceFactor_Label>Friendly fire</Difficulty_FriendlyFireChanceFactor_Label>
+  <Difficulty_FriendlyFireChanceFactor_Label>آتش دوستانه</Difficulty_FriendlyFireChanceFactor_Label>
   <!-- EN: Adjust the chance of friendly fire.\n\nNote: This setting only affects direct shots which were going to hit their target. It does not prevent damage from explosions, or from shots which were going to miss their target. -->
-  <Difficulty_FriendlyFireChanceFactor_Info>Adjust the chance of friendly fire.\n\nNote: This setting only affects direct shots which were going to hit their target. It does not prevent damage from explosions, or from shots which were going to miss their target.</Difficulty_FriendlyFireChanceFactor_Info>
+  <Difficulty_FriendlyFireChanceFactor_Info>شانس آتش دوستانه را تنظیم کنید.\n\nتوجه: این تنظیم فقط بر شلیک‌های مستقیمی که قرار بود به هدف برخورد کنند تأثیر می‌گذارد. از آسیب ناشی از انفجارها یا شلیک‌هایی که قرار بود به هدف برخورد نکنند، جلوگیری نمی‌کند.</Difficulty_FriendlyFireChanceFactor_Info>
   <!-- EN: Colonist instant kills -->
-  <Difficulty_AllowInstantKillChance_Label>Colonist instant kills</Difficulty_AllowInstantKillChance_Label>
+  <Difficulty_AllowInstantKillChance_Label>کشتن فوری مهاجر</Difficulty_AllowInstantKillChance_Label>
   <!-- EN: Adjust the chance that a colonist can die instantly due to an attack. The incoming damage is adjusted so it will down the colonist instead.\n\nThis only prevents some kinds of instant kills - colonists can still be downed and bleed to death, die from fire, explosions, disease, and so on. -->
-  <Difficulty_AllowInstantKillChance_Info>Adjust the chance that a colonist can die instantly due to an attack. The incoming damage is adjusted so it will down the colonist instead.\n\nThis only prevents some kinds of instant kills - colonists can still be downed and bleed to death, die from fire, explosions, disease, and so on.</Difficulty_AllowInstantKillChance_Info>
+  <Difficulty_AllowInstantKillChance_Info>شانس اینکه یک مهاجر می‌تواند فوراً به دلیل حمله بمیرد را تنظیم کنید. آسیب ورودی طوری تنظیم می‌شود که به جای آن مهاجر را سرنگون کند.\n\nاین فقط از برخی انواع کشتن فوری جلوگیری می‌کند - مهاجران همچنان می‌توانند سرنگون شده و از خونریزی بمیرند، از آتش، انفجار، بیماری و غیره بمیرند.</Difficulty_AllowInstantKillChance_Info>
   <!-- EN: Infection chance -->
-  <Difficulty_PlayerPawnInfectionChanceFactor_Label>Infection chance</Difficulty_PlayerPawnInfectionChanceFactor_Label>
+  <Difficulty_PlayerPawnInfectionChanceFactor_Label>شانس عفونت</Difficulty_PlayerPawnInfectionChanceFactor_Label>
   <!-- EN: Adjust the chance that a wound will become infected. -->
-  <Difficulty_PlayerPawnInfectionChanceFactor_Info>Adjust the chance that a wound will become infected.</Difficulty_PlayerPawnInfectionChanceFactor_Info>
+  <Difficulty_PlayerPawnInfectionChanceFactor_Info>شانس اینکه یک زخم عفونی شود را تنظیم کنید.</Difficulty_PlayerPawnInfectionChanceFactor_Info>
   <!-- EN: Disease frequency -->
-  <Difficulty_DiseaseIntervalFactor_Inverted_Label>Disease frequency</Difficulty_DiseaseIntervalFactor_Inverted_Label>
+  <Difficulty_DiseaseIntervalFactor_Inverted_Label>فراوانی بیماری</Difficulty_DiseaseIntervalFactor_Inverted_Label>
   <!-- EN: Adjust the frequency of random disease events. -->
-  <Difficulty_DiseaseIntervalFactor_Inverted_Info>Adjust the frequency of random disease events.</Difficulty_DiseaseIntervalFactor_Inverted_Info>
+  <Difficulty_DiseaseIntervalFactor_Inverted_Info>فراوانی رویدادهای بیماری تصادفی را تنظیم کنید.</Difficulty_DiseaseIntervalFactor_Inverted_Info>
   <!-- EN: Insect spawning rate -->
-  <Difficulty_EnemyReproductionRateFactor_Label>Insect spawning rate</Difficulty_EnemyReproductionRateFactor_Label>
+  <Difficulty_EnemyReproductionRateFactor_Label>نرخ تولید حشرات</Difficulty_EnemyReproductionRateFactor_Label>
   <!-- EN: Adjust the rate at which existing insect hives spawn new insects. Lower values means more time between spawn events.\n\nThis does not affect whether infestations can occur - only the speed at which active hives produce insects. -->
-  <Difficulty_EnemyReproductionRateFactor_Info>Adjust the rate at which existing insect hives spawn new insects. Lower values means more time between spawn events.\n\nThis does not affect whether infestations can occur - only the speed at which active hives produce insects.</Difficulty_EnemyReproductionRateFactor_Info>
+  <Difficulty_EnemyReproductionRateFactor_Info>نرخ تولید حشرات جدید توسط کندوهای حشرات موجود را تنظیم کنید. مقادیر کمتر به معنای زمان بیشتر بین رویدادهای تولید است.\n\nاین بر اینکه آیا هجوم حشرات می‌تواند رخ دهد تأثیر نمی‌گذارد - فقط بر سرعت تولید حشرات توسط کندوهای فعال تأثیر می‌گذارد.</Difficulty_EnemyReproductionRateFactor_Info>
   <!-- EN: Deep drilling infestations -->
-  <Difficulty_DeepDrillInfestationChanceFactor_Label>Deep drilling infestations</Difficulty_DeepDrillInfestationChanceFactor_Label>
+  <Difficulty_DeepDrillInfestationChanceFactor_Label>هجوم حشرات در حفاری عمیق</Difficulty_DeepDrillInfestationChanceFactor_Label>
   <!-- EN: Adjust the chance that deep drilling will trigger an infestation. -->
-  <Difficulty_DeepDrillInfestationChanceFactor_Info>Adjust the chance that deep drilling will trigger an infestation.</Difficulty_DeepDrillInfestationChanceFactor_Info>
+  <Difficulty_DeepDrillInfestationChanceFactor_Info>شانس اینکه حفاری عمیق باعث هجوم حشرات شود را تنظیم کنید.</Difficulty_DeepDrillInfestationChanceFactor_Info>
   <!-- EN: Map generation ancient threats -->
-  <Difficulty_PeacefulTemples_Inverted_Label>Map generation ancient threats</Difficulty_PeacefulTemples_Inverted_Label>
+  <Difficulty_PeacefulTemples_Inverted_Label>تهدیدات باستانی در تولید نقشه</Difficulty_PeacefulTemples_Inverted_Label>
   <!-- EN: Ancient structures may contain dangerous threats. -->
-  <Difficulty_PeacefulTemples_Inverted_Info>Ancient structures may contain dangerous threats.</Difficulty_PeacefulTemples_Inverted_Info>
+  <Difficulty_PeacefulTemples_Inverted_Info>سازه‌های باستانی ممکن است حاوی تهدیدات خطرناکی باشند.</Difficulty_PeacefulTemples_Inverted_Info>
   <!-- EN: Map generation natural hives -->
-  <Difficulty_AllowCaveHives_Label>Map generation natural hives</Difficulty_AllowCaveHives_Label>
+  <Difficulty_AllowCaveHives_Label>کندوهای طبیعی در تولید نقشه</Difficulty_AllowCaveHives_Label>
   <!-- EN: Dormant insect hives may spawn in natural caves.\n\nThis setting only applies to map generation and does not affect active insects that may tunnel in during play. -->
-  <Difficulty_AllowCaveHives_Info>Dormant insect hives may spawn in natural caves.\n\nThis setting only applies to map generation and does not affect active insects that may tunnel in during play.</Difficulty_AllowCaveHives_Info>
+  <Difficulty_AllowCaveHives_Info>کندوهای حشرات خفته ممکن است در غارهای طبیعی تولید شوند.\n\nاین تنظیم فقط برای تولید نقشه اعمال می‌شود و بر حشرات فعالی که ممکن است در طول بازی تونل بزنند تأثیر نمی‌گذارد.</Difficulty_AllowCaveHives_Info>
   <!-- EN: Add unwavering prisoners -->
-  <Difficulty_UnwaveringPrisoners_Label>Add unwavering prisoners</Difficulty_UnwaveringPrisoners_Label>
+  <Difficulty_UnwaveringPrisoners_Label>افزودن زندانیان ثابت‌قدم</Difficulty_UnwaveringPrisoners_Label>
   <!-- EN: This option adds additional capturable prisoners to the game who cannot be recruited due to unwavering loyalty.\n\nUnwavering prisoners are added on top of normal prisoners, so turning this off won't give more recruitable prisoners - it simply removes the unwavering ones.\n\nUnwavering prisoners can still be released for diplomatic gains, sold, enslaved, harvested for organs, or otherwise made use of. In general, they offer more options and resources, and make the game a bit richer and easier. -->
-  <Difficulty_UnwaveringPrisoners_Info>This option adds additional capturable prisoners to the game who cannot be recruited due to unwavering loyalty.\n\nUnwavering prisoners are added on top of normal prisoners, so turning this off won't give more recruitable prisoners - it simply removes the unwavering ones.\n\nUnwavering prisoners can still be released for diplomatic gains, sold, enslaved, harvested for organs, or otherwise made use of. In general, they offer more options and resources, and make the game a bit richer and easier.</Difficulty_UnwaveringPrisoners_Info>
+  <Difficulty_UnwaveringPrisoners_Info>این گزینه زندانیان قابل اسیر اضافی را به بازی اضافه می‌کند که به دلیل وفاداری ثابت‌قدم نمی‌توانند استخدام شوند.\n\nزندانیان ثابت‌قدم علاوه بر زندانیان عادی اضافه می‌شوند، بنابراین خاموش کردن این گزینه زندانیان قابل استخدام بیشتری به شما نمی‌دهد - فقط زندانیان ثابت‌قدم را حذف می‌کند.\n\nزندانیان ثابت‌قدم همچنان می‌توانند برای منافع دیپلماتیک آزاد شوند، فروخته شوند، برده شوند، برای اعضا برداشت شوند یا به هر نحو دیگری مورد استفاده قرار گیرند. به طور کلی، آنها گزینه‌ها و منابع بیشتری ارائه می‌دهند و بازی را کمی غنی‌تر و آسان‌تر می‌کنند.</Difficulty_UnwaveringPrisoners_Info>
 
   <!-- EN: Player tools -->
-  <DifficultyPlayerToolsSection>Player tools</DifficultyPlayerToolsSection>
+  <DifficultyPlayerToolsSection>ابزارهای بازیکن</DifficultyPlayerToolsSection>
   <!-- EN: Player can build traps -->
-  <Difficulty_AllowTraps_Label>Player can build traps</Difficulty_AllowTraps_Label>
+  <Difficulty_AllowTraps_Label>بازیکن می‌تواند تله بسازد</Difficulty_AllowTraps_Label>
   <!-- EN: Player can build traps like spike traps and IED traps. -->
-  <Difficulty_AllowTraps_Info>Player can build traps like spike traps and IED traps.</Difficulty_AllowTraps_Info>
+  <Difficulty_AllowTraps_Info>بازیکن می‌تواند تله‌هایی مانند تله‌های میخ‌دار و تله‌های IED بسازد.</Difficulty_AllowTraps_Info>
   <!-- EN: Player can build turrets -->
-  <Difficulty_AllowTurrets_Label>Player can build turrets</Difficulty_AllowTurrets_Label>
+  <Difficulty_AllowTurrets_Label>بازیکن می‌تواند برجک بسازد</Difficulty_AllowTurrets_Label>
   <!-- EN: Player can build static turrets like mini-turrets, autocannon turrets, and uranium slug turrets.\n\nYou can still use captured turrets even if this is disabled. -->
-  <Difficulty_AllowTurrets_Info>Player can build static turrets like mini-turrets, autocannon turrets, and uranium slug turrets.\n\nYou can still use captured turrets even if this is disabled.</Difficulty_AllowTurrets_Info>
+  <Difficulty_AllowTurrets_Info>بازیکن می‌تواند برجک‌های ثابت مانند مینی‌برجک‌ها، برجک‌های اتوکانن و برجک‌های اورانیوم بسازد.\n\nحتی اگر این گزینه غیرفعال باشد، همچنان می‌توانید از برجک‌های اسیر شده استفاده کنید.</Difficulty_AllowTurrets_Info>
   <!-- EN: Player can build mortars -->
-  <Difficulty_AllowMortars_Label>Player can build mortars</Difficulty_AllowMortars_Label>
+  <Difficulty_AllowMortars_Label>بازیکن می‌تواند خمپاره‌انداز بسازد</Difficulty_AllowMortars_Label>
   <!-- EN: Player can build mortars.\n\nYou can still use captured mortars even if this is disabled. -->
-  <Difficulty_AllowMortars_Info>Player can build mortars.\n\nYou can still use captured mortars even if this is disabled.</Difficulty_AllowMortars_Info>
+  <Difficulty_AllowMortars_Info>بازیکن می‌تواند خمپاره‌انداز بسازد.\n\nحتی اگر این گزینه غیرفعال باشد، همچنان می‌توانید از خمپاره‌اندازهای اسیر شده استفاده کنید.</Difficulty_AllowMortars_Info>
   <!-- EN: Classic mortars -->
-  <Difficulty_ClassicMortars_Label>Classic mortars</Difficulty_ClassicMortars_Label>
+  <Difficulty_ClassicMortars_Label>خمپاره‌اندازهای کلاسیک</Difficulty_ClassicMortars_Label>
   <!-- EN: Mortars will not require reinforced barrels to construct or reload, and are balanced for this ease of access. -->
-  <Difficulty_ClassicMortars_Info>Mortars will not require reinforced barrels to construct or reload, and are balanced for this ease of access.</Difficulty_ClassicMortars_Info>
+  <Difficulty_ClassicMortars_Info>خمپاره‌اندازها برای ساخت یا بارگیری مجدد به لوله‌های تقویت شده نیاز نخواهند داشت و برای این سهولت دسترسی متعادل شده‌اند.</Difficulty_ClassicMortars_Info>
   
   <!-- EN: Adaptation -->
-  <DifficultyAdaptationSection>Adaptation</DifficultyAdaptationSection>
+  <DifficultyAdaptationSection>سازگاری</DifficultyAdaptationSection>
   <!-- EN: Adaptation growth rate -->
-  <Difficulty_AdaptationGrowthRateFactorOverZero_Label>Adaptation growth rate</Difficulty_AdaptationGrowthRateFactorOverZero_Label>
+  <Difficulty_AdaptationGrowthRateFactorOverZero_Label>نرخ رشد سازگاری</Difficulty_AdaptationGrowthRateFactorOverZero_Label>
   <!-- EN: Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage.\n\nThis setting adjusts how fast the adaptation score grows over time. -->
-  <Difficulty_AdaptationGrowthRateFactorOverZero_Info>Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage.\n\nThis setting adjusts how fast the adaptation score grows over time.</Difficulty_AdaptationGrowthRateFactorOverZero_Info>
+  <Difficulty_AdaptationGrowthRateFactorOverZero_Info>سازگاری به این معنی است که داستان‌گو بازی را زمانی که شما خوب عمل می‌کنید، چالش‌برانگیزتر می‌کند. امتیاز سازگاری با گذشت زمان رشد می‌کند و زمانی که آسیب می‌بینید کاهش می‌یابد.\n\nاین تنظیم سرعت رشد امتیاز سازگاری را در طول زمان تنظیم می‌کند.</Difficulty_AdaptationGrowthRateFactorOverZero_Info>
   <!-- EN: Adaptation impact -->
-  <Difficulty_AdaptationEffectFactor_Label>Adaptation impact</Difficulty_AdaptationEffectFactor_Label>
+  <Difficulty_AdaptationEffectFactor_Label>تأثیر سازگاری</Difficulty_AdaptationEffectFactor_Label>
   <!-- EN: Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage.\n\nThis setting adjusts how much the adaptation score affects the difficulty. -->
-  <Difficulty_AdaptationEffectFactor_Info>Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage.\n\nThis setting adjusts how much the adaptation score affects the difficulty.</Difficulty_AdaptationEffectFactor_Info>
+  <Difficulty_AdaptationEffectFactor_Info>سازگاری به این معنی است که داستان‌گو بازی را زمانی که شما خوب عمل می‌کنید، چالش‌برانگیزتر می‌کند. امتیاز سازگاری با گذشت زمان رشد می‌کند و زمانی که آسیب می‌بینید کاهش می‌یابد.\n\nاین تنظیم میزان تأثیر امتیاز سازگاری بر دشواری را تنظیم می‌کند.</Difficulty_AdaptationEffectFactor_Info>
   <!-- EN: Wealth-independent progress mode -->
-  <Difficulty_FixedWealthMode_Label>Wealth-independent progress mode</Difficulty_FixedWealthMode_Label>
+  <Difficulty_FixedWealthMode_Label>حالت پیشرفت مستقل از ثروت</Difficulty_FixedWealthMode_Label>
   <!-- EN: Play in a wealth-independent progress mode.\n\nIn normal mode, the storyteller scales threats according to colonist count, player wealth, and a variety of other factors. Wealth-independent mode removes the wealth factor and replaces it with a fixed progress curve based on time. The time is counted from the founding of each colony.\n\nThis is only recommended for those looking for a strict skill challenge. In wealth-independent mode, it may be nearly impossible to recover from serious losses unless you found a new settlement. It's also possible to get too far ahead of the curve and find the game too easy. -->
-  <Difficulty_FixedWealthMode_Info>Play in a wealth-independent progress mode.\n\nIn normal mode, the storyteller scales threats according to colonist count, player wealth, and a variety of other factors. Wealth-independent mode removes the wealth factor and replaces it with a fixed progress curve based on time. The time is counted from the founding of each colony.\n\nThis is only recommended for those looking for a strict skill challenge. In wealth-independent mode, it may be nearly impossible to recover from serious losses unless you found a new settlement. It's also possible to get too far ahead of the curve and find the game too easy.</Difficulty_FixedWealthMode_Info>
+  <Difficulty_FixedWealthMode_Info>در حالت پیشرفت مستقل از ثروت بازی کنید.\n\nدر حالت عادی، داستان‌گو تهدیدات را بر اساس تعداد مهاجران، ثروت بازیکن و عوامل مختلف دیگر تنظیم می‌کند. حالت مستقل از ثروت عامل ثروت را حذف کرده و آن را با یک منحنی پیشرفت ثابت بر اساس زمان جایگزین می‌کند. زمان از زمان تأسیس هر کلونی محاسبه می‌شود.\n\nاین فقط برای کسانی که به دنبال یک چالش مهارتی سخت هستند توصیه می‌شود. در حالت مستقل از ثروت، بازیابی از تلفات جدی ممکن است تقریباً غیرممکن باشد مگر اینکه یک سکونتگاه جدید تأسیس کنید. همچنین ممکن است بیش از حد از منحنی جلو بیفتید و بازی را خیلی آسان بیابید.</Difficulty_FixedWealthMode_Info>
   <!-- EN: Years until maximum threat -->
-  <Difficulty_FixedWealthTimeFactor_Label>Years until maximum threat</Difficulty_FixedWealthTimeFactor_Label>
+  <Difficulty_FixedWealthTimeFactor_Label>سال‌ها تا حداکثر تهدید</Difficulty_FixedWealthTimeFactor_Label>
   <!-- EN: The number of game years until the wealth-independent mode reaches its maximum threat level.\n\nNote that the storyteller will still scale threats according to colonist count and a variety of other factors. -->
-  <Difficulty_FixedWealthTimeFactor_Info>The number of game years until the wealth-independent mode reaches its maximum threat level.\n\nNote that the storyteller will still scale threats according to colonist count and a variety of other factors.</Difficulty_FixedWealthTimeFactor_Info>
+  <Difficulty_FixedWealthTimeFactor_Info>تعداد سال‌های بازی تا زمانی که حالت مستقل از ثروت به حداکثر سطح تهدید خود برسد.\n\nتوجه داشته باشید که داستان‌گو همچنان تهدیدات را بر اساس تعداد مهاجران و عوامل مختلف دیگر تنظیم خواهد کرد.</Difficulty_FixedWealthTimeFactor_Info>
 
   <!-- EN: Ideology -->
   <DifficultyIdeologySection>ایدئولوژی</DifficultyIdeologySection>
   <!-- EN: Low pop conversion boost -->
-  <Difficulty_LowPopConversionBoost_Label>Low pop conversion boost</Difficulty_LowPopConversionBoost_Label>
+  <Difficulty_LowPopConversionBoost_Label>تقویت تبدیل جمعیت کم</Difficulty_LowPopConversionBoost_Label>
   <!-- EN: With a single colonist of the player's starting ideoligion, conversion chance to their ideoligion is multiplied by this amount. Conversion attempts against them have their impact divided by that amount.\n\nWith two colonists of the player's starting ideoligion, the effect is halved.\n\nWith three or more colonists of the player's starting ideoligion, this has no effect. -->
-  <Difficulty_LowPopConversionBoost_Info>With a single colonist of the player's starting ideoligion, conversion chance to their ideoligion is multiplied by this amount. Conversion attempts against them have their impact divided by that amount.\n\nWith two colonists of the player's starting ideoligion, the effect is halved.\n\nWith three or more colonists of the player's starting ideoligion, this has no effect.</Difficulty_LowPopConversionBoost_Info>
+  <Difficulty_LowPopConversionBoost_Info>با یک مهاجر از ایدئولوژی شروع بازیکن، شانس تبدیل به ایدئولوژی آنها در این مقدار ضرب می‌شود. تلاش‌های تبدیل علیه آنها تأثیرشان بر آن مقدار تقسیم می‌شود.\n\nبا دو مهاجر از ایدئولوژی شروع بازیکن، تأثیر نصف می‌شود.\n\nبا سه یا بیشتر مهاجر از ایدئولوژی شروع بازیکن، این هیچ تأثیری ندارد.</Difficulty_LowPopConversionBoost_Info>
 
   <!-- Site select -->
   <!-- EN: Select starting site -->
-  <SelectStartingSite>مقر شروع را انتخاب کنید</SelectStartingSite>
+  <SelectStartingSite>انتخاب مقر شروع</SelectStartingSite>
   <!-- EN: Select random site -->
   <SelectRandomSite>انتخاب مقر تصادفی</SelectRandomSite>
   <!-- EN: Select site -->
   <SelectSite>انتخاب مقر</SelectSite>
   <!-- EN: Please select a site. -->
-  <MustSelectStartingSite>لطفا یک مقر انتخاب کنید.</MustSelectStartingSite>
+  <MustSelectStartingSite>لطفاً یک مقر انتخاب کنید.</MustSelectStartingSite>
   <!-- EN: You cannot land on this biome: {0} -->
-  <CannotLandBiome>You cannot land on this biome: {0}</CannotLandBiome>
+  <CannotLandBiome>شما نمی‌توانید در این زیست‌بوم فرود بیایید: {0}</CannotLandBiome>
   <!-- EN: Biome not implemented -->
-  <BiomeNotImplemented>Biome not implemented</BiomeNotImplemented>
+  <BiomeNotImplemented>زیست‌بوم پیاده‌سازی نشده است</BiomeNotImplemented>
   <!-- EN: You cannot land on impassable mountains. -->
-  <CannotLandImpassableMountains>شما نمی توانید روی کوه های صعب العبور فرود بیایید.</CannotLandImpassableMountains>
+  <CannotLandImpassableMountains>شما نمی‌توانید روی کوه‌های غیرقابل عبور فرود بیایید.</CannotLandImpassableMountains>
   <!-- EN: {0} already have a base there. -->
-  <BaseAlreadyThere>{0} در حال حاضر یک پایگاه در آنجا وجود دارد.</BaseAlreadyThere>
+  <BaseAlreadyThere>{0} از قبل یک پایگاه در آنجا دارند.</BaseAlreadyThere>
   <!-- EN: You already have a base there. -->
-  <YourBaseAlreadyThere>در حال حاضر یک پایگاه در آنجا وجود دارد.</YourBaseAlreadyThere>
+  <YourBaseAlreadyThere>شما از قبل یک پایگاه در آنجا دارید.</YourBaseAlreadyThere>
   <!-- EN: This tile is occupied. -->
-  <TileOccupied>This tile is occupied.</TileOccupied>
+  <TileOccupied>این کاشی اشغال شده است.</TileOccupied>
   <!-- EN: Settlements cannot be directly adjacent to each other. -->
-  <FactionBaseAdjacent>سکونتگاه ها نمی توانند مستقیماً در مجاورت یکدیگر باشند.</FactionBaseAdjacent>
+  <FactionBaseAdjacent>سکونتگاه‌ها نمی‌توانند مستقیماً در مجاورت یکدیگر باشند.</FactionBaseAdjacent>
   <!-- EN: Biome -->
-  <Biome>Biome</Biome>
+  <Biome>زیست‌بوم</Biome>
   <!-- EN: Terrain -->
   <Terrain>نوع زمین</Terrain>
   <!-- EN: Road -->
@@ -561,7 +561,7 @@
   <!-- EN: Elevation -->
   <Elevation>ارتفاع</Elevation>
   <!-- EN: Fertility -->
-  <Fertility>Fertility</Fertility>
+  <Fertility>حاصلخیزی</Fertility>
   <!-- EN: fertility -->
   <FertilityLower>حاصلخیزی</FertilityLower>
   <!-- EN: Average temperature -->
@@ -569,7 +569,7 @@
   <!-- EN: Rainfall -->
   <Rainfall>بارش</Rainfall>
   <!-- EN: Special features -->
-  <SpecialFeatures>ویژگی های خاص</SpecialFeatures>
+  <SpecialFeatures>ویژگی‌های خاص</SpecialFeatures>
   <!-- EN: northern coast -->
   <HasCoast0>ساحل شمالی</HasCoast0>
   <!-- EN: eastern coast -->
@@ -581,75 +581,75 @@
   <!-- EN: caves -->
   <HasCaves>غارها</HasCaves>
   <!-- EN: Faction base -->
-  <FactionBase>Faction base</FactionBase>
+  <FactionBase>پایگاه جناح</FactionBase>
   <!-- EN: Stone types -->
-  <StoneTypesHere>انواع سنگ</StoneTypesHere>
+  <StoneTypesHere>انواع سنگ در اینجا</StoneTypesHere>
   <!-- EN: Time zone -->
   <TimeZone>منطقه زمانی</TimeZone>
   <!-- EN: Movement difficulty -->
   <MovementDifficulty>دشواری حرکت</MovementDifficulty>
   <!-- EN: Animals can graze now -->
-  <AnimalsCanGrazeNow>هم اکنون حیوانات می توانند چرا کنند</AnimalsCanGrazeNow>
+  <AnimalsCanGrazeNow>حیوانات اکنون می‌توانند چرا کنند</AnimalsCanGrazeNow>
   <!-- EN: Average disease frequency -->
   <AverageDiseaseFrequency>میانگین فراوانی بیماری</AverageDiseaseFrequency>
   <!-- EN: per year -->
   <PerYear>در سال</PerYear>
   <!-- EN: Forageability -->
-  <Forageability>علوفه پذیری</Forageability>
+  <Forageability>قابلیت علوفه‌گیری</Forageability>
   <!-- EN: None of the selected people can do the following jobs:\n\n{0}\n\nThis can make the game more difficult than usual. Are you sure you want to continue? -->
-  <ConfirmRequiredWorkTypeDisabledForEveryone>None of the selected people can do the following jobs:\n\n{0}\n\nThis can make the game more difficult than usual. Are you sure you want to continue?</ConfirmRequiredWorkTypeDisabledForEveryone>
+  <ConfirmRequiredWorkTypeDisabledForEveryone>هیچ یک از افراد انتخاب شده نمی‌توانند کارهای زیر را انجام دهند:\n\n{0}\n\nاین می‌تواند بازی را دشوارتر از حد معمول کند. آیا مطمئن هستید که می‌خواهید ادامه دهید؟</ConfirmRequiredWorkTypeDisabledForEveryone>
   <!-- EN: temperature -->
-  <TemperatureLower>درجه حرارت</TemperatureLower>
+  <TemperatureLower>دما</TemperatureLower>
   <!-- EN: light -->
   <LightLower>نور</LightLower>
 
   <!-- Character chooser -->
   <!-- EN: Create characters -->
-  <CreateCharacters>ساخت شخصیت ها</CreateCharacters>
+  <CreateCharacters>ایجاد شخصیت‌ها</CreateCharacters>
   <!-- EN: The character's first name.\n\nThis is only displayed in certain menus. -->
-  <FirstNameDesc>The character's first name.\n\nThis is only displayed in certain menus.</FirstNameDesc>
+  <FirstNameDesc>نام کوچک شخصیت.\n\nاین فقط در منوهای خاصی نمایش داده می‌شود.</FirstNameDesc>
   <!-- EN: The character's short identifier.\n\nThis is displayed at all times. It can be the first or last name, or a completely separate nickname. -->
-  <ShortIdentifierDesc>The character's short identifier.\n\nThis is displayed at all times. It can be the first or last name, or a completely separate nickname.</ShortIdentifierDesc>
+  <ShortIdentifierDesc>شناسه کوتاه شخصیت.\n\nاین همیشه نمایش داده می‌شود. می‌تواند نام کوچک یا نام خانوادگی باشد، یا یک نام مستعار کاملاً جداگانه.</ShortIdentifierDesc>
   <!-- EN: The character's last name.\n\nThis is only displayed in certain menus. -->
-  <LastNameDesc>The character's last name.\n\nThis is only displayed in certain menus.</LastNameDesc>
+  <LastNameDesc>نام خانوادگی شخصیت.\n\nاین فقط در منوهای خاصی نمایش داده می‌شود.</LastNameDesc>
   <!-- EN: Randomize -->
-  <Randomize>تصادفی در آرودن</Randomize>
+  <Randomize>تصادفی</Randomize>
   <!-- EN: age {0} -->
   <AgeIndicator>سن {0}</AgeIndicator>
   <!-- EN: {PAWN_race}, age {PAWN_ageFull} -->
-  <PawnSummary>{PAWN_race}, سن {PAWN_ageFull}</PawnSummary>
+  <PawnSummary>{PAWN_race}، سن {PAWN_ageFull}</PawnSummary>
   <!-- EN: {PAWN_gender} {PAWN_race}, age {PAWN_ageFull} -->
-  <PawnSummaryWithGender>{PAWN_gender} {PAWN_race}, سن {PAWN_ageFull}</PawnSummaryWithGender>
+  <PawnSummaryWithGender>{PAWN_gender} {PAWN_race}، سن {PAWN_ageFull}</PawnSummaryWithGender>
   <!-- EN: Backstory -->
-  <Backstory>پس زمینه</Backstory>
+  <Backstory>پیشینه</Backstory>
   <!-- EN: Incapable of -->
   <IncapableOf>ناتوان از</IncapableOf>
   <!-- EN: Abilities -->
-  <Abilities>توانایی ها</Abilities>
+  <Abilities>توانایی‌ها</Abilities>
   <!-- EN: Caused by -->
   <IncapableOfTooltipHediff>ناشی از</IncapableOfTooltipHediff>
   <!-- EN: Disabled work types: -->
-  <IncapableOfTooltipWorkTypes>Disabled work types:</IncapableOfTooltipWorkTypes>
+  <IncapableOfTooltipWorkTypes>انواع کار غیرفعال شده:</IncapableOfTooltipWorkTypes>
   <!-- EN: Caused by backstory -->
-  <IncapableOfTooltipBackstory>Caused by backstory</IncapableOfTooltipBackstory>
+  <IncapableOfTooltipBackstory>ناشی از پیشینه</IncapableOfTooltipBackstory>
   <!-- EN: Caused by title -->
-  <IncapableOfTooltipTitle>Caused by title</IncapableOfTooltipTitle>
+  <IncapableOfTooltipTitle>ناشی از عنوان</IncapableOfTooltipTitle>
   <!-- EN: Caused by trait -->
-  <IncapableOfTooltipTrait>Caused by trait</IncapableOfTooltipTrait>
+  <IncapableOfTooltipTrait>ناشی از ویژگی</IncapableOfTooltipTrait>
   <!-- EN: Caused by quest status -->
-  <IncapableOfTooltipQuest>Caused by quest status</IncapableOfTooltipQuest>
+  <IncapableOfTooltipQuest>ناشی از وضعیت ماموریت</IncapableOfTooltipQuest>
   <!-- EN: Caused by role -->
-  <IncapableOfTooltipRole>Caused by role</IncapableOfTooltipRole>
+  <IncapableOfTooltipRole>ناشی از نقش</IncapableOfTooltipRole>
   <!-- EN: Caused by gene -->
-  <IncapableOfTooltipGene>Caused by gene</IncapableOfTooltipGene>
+  <IncapableOfTooltipGene>ناشی از ژن</IncapableOfTooltipGene>
   <!-- EN: Caused by -->
-  <IncapableOfTooltipMutant>TODO</IncapableOfTooltipMutant>
+  <IncapableOfTooltipMutant>ناشی از</IncapableOfTooltipMutant>
   <!-- EN: Traits -->
-  <Traits>Traits</Traits>
+  <Traits>ویژگی‌ها</Traits>
   <!-- EN: Permanent mood effect -->
-  <PermanentMoodEffect>Permanent mood effect</PermanentMoodEffect>
+  <PermanentMoodEffect>تأثیر دائمی روحیه</PermanentMoodEffect>
   <!-- EN: Skills -->
-  <Skills>مهارت ها</Skills>
+  <Skills>مهارت‌ها</Skills>
   <!-- EN: none -->
   <NoneLower>هیچ کدام</NoneLower>
   <!-- EN: Adulthood -->
@@ -675,47 +675,47 @@
   <!-- EN: Possessions -->
   <Possessions>اموال</Possessions>
   <!-- EN: Team skills -->
-  <TeamSkills>مهارت های تیمی</TeamSkills>
+  <TeamSkills>مهارت‌های تیمی</TeamSkills>
   <!-- EN: Selected -->
-  <StartingPawnsSelected>Selected</StartingPawnsSelected>
+  <StartingPawnsSelected>انتخاب شده</StartingPawnsSelected>
   <!-- EN: Left behind -->
-  <StartingPawnsLeftBehind>Left behind</StartingPawnsLeftBehind>
+  <StartingPawnsLeftBehind>جا مانده</StartingPawnsLeftBehind>
   <!-- EN: This person is considered guilty. Others won't be bothered if you banish, execute or arrest them.\n\nGuilt expires in -->
-  <GuiltyDesc>This colonist is considered guilty. You can freely banish, execute or arrest them, and others won't be bothered.\n\nGuilt expires in</GuiltyDesc>
+  <GuiltyDesc>این مهاجر گناهکار محسوب می‌شود. می‌توانید آزادانه او را تبعید، اعدام یا دستگیر کنید و دیگران ناراحت نخواهند شد.\n\nگناه منقضی می‌شود در</GuiltyDesc>
   
   <!-- Misc -->
   <!-- EN: Start -->
-  <Start>شروغ</Start>
+  <Start>شروع</Start>
   <!-- EN: Advanced -->
   <Advanced>پیشرفته</Advanced>
   <!-- EN: Next -->
-  <Next>بعد</Next>
+  <Next>بعدی</Next>
   <!-- EN: Back -->
-  <Back>قبل</Back>
+  <Back>قبلی</Back>
   <!-- EN: Change material... -->
-  <ShowMaterials>Change material...</ShowMaterials>
+  <ShowMaterials>تغییر ماده...</ShowMaterials>
   <!-- EN: Gameplay -->
-  <Gameplay>گیم پلی</Gameplay>
+  <Gameplay>گیم‌پلی</Gameplay>
   <!-- EN: Really quit? You'll lose unsaved progress. -->
-  <ConfirmQuit>Really quit? You'll lose unsaved progress.</ConfirmQuit>
+  <ConfirmQuit>واقعاً خارج می‌شوید؟ پیشرفت ذخیره نشده را از دست خواهید داد.</ConfirmQuit>
   <!-- EN: Each person needs a valid name. -->
   <EveryoneNeedsValidName>هر شخص به یک نام معتبر نیاز دارد.</EveryoneNeedsValidName>
   <!-- EN: None of the selected people can do the following jobs -->
-  <RequiredWorkTypeDisabledForEveryone>هیچ یک از افراد انتخاب شده نمی توانند کارهای زیر را انجام دهند</RequiredWorkTypeDisabledForEveryone>
+  <RequiredWorkTypeDisabledForEveryone>هیچ یک از افراد انتخاب شده نمی‌توانند کارهای زیر را انجام دهند</RequiredWorkTypeDisabledForEveryone>
   <!-- EN: Quit -->
-  <Quit>ترک کنید</Quit>
+  <Quit>خروج</Quit>
   <!-- EN: Ignore -->
-  <Ignore>رد کردن</Ignore>
+  <Ignore>نادیده گرفتن</Ignore>
   
   <!-- Progress bar -->
   <!-- EN: Generating world -->
-  <GeneratingWorld>ساخت جهان</GeneratingWorld>
+  <GeneratingWorld>در حال تولید جهان</GeneratingWorld>
   <!-- EN: Generating planet -->
-  <GeneratingPlanet>ساخت سیاره</GeneratingPlanet>
+  <GeneratingPlanet>در حال تولید سیاره</GeneratingPlanet>
   <!-- EN: Generating map -->
-  <GeneratingMap>ساخت نقشه</GeneratingMap>
+  <GeneratingMap>در حال تولید نقشه</GeneratingMap>
   <!-- EN: Generating map for new encounter -->
-  <GeneratingMapForNewEncounter>Generating map for new encounter</GeneratingMapForNewEncounter>
+  <GeneratingMapForNewEncounter>در حال تولید نقشه برای رویارویی جدید</GeneratingMapForNewEncounter>
 
   <!-- EN: Click for more info. -->
   <ClickForMoreInfo>برای اطلاعات بیشتر کلیک کنید.</ClickForMoreInfo>
@@ -724,20 +724,20 @@
 
   <!-- Factions -->
   <!-- EN: Factions -->
-  <Factions>جناح ها</Factions>
+  <Factions>جناح‌ها</Factions>
   <!-- EN: max {0} basic factions allowed -->
-  <TotalFactionsAllowed>max {0} basic factions allowed</TotalFactionsAllowed>
+  <TotalFactionsAllowed>حداکثر {0} جناح پایه مجاز است</TotalFactionsAllowed>
   <!-- EN: max {0} -->
-  <MaxFactionsForType>max {0}</MaxFactionsForType>
+  <MaxFactionsForType>حداکثر {0}</MaxFactionsForType>
   <!-- EN: Select the factions in the world. You can select up to {0} factions total. -->
-  <FactionSelectionDesc>Select the factions in the world. You can select up to {0} factions total.</FactionSelectionDesc>
+  <FactionSelectionDesc>جناح‌ها را در جهان انتخاب کنید. می‌توانید حداکثر {0} جناح در مجموع انتخاب کنید.</FactionSelectionDesc>
   <!-- EN: Disabling {0} means less quest variety and other reduced content. -->
-  <FactionDisabledContentWarning>Disabling {0} means less quest variety and other reduced content.</FactionDisabledContentWarning>
+  <FactionDisabledContentWarning>غیرفعال کردن {0} به معنای تنوع کمتر ماموریت و سایر محتوای کاهش یافته است.</FactionDisabledContentWarning>
   <!-- EN: Disabling {0} means less spontaneous threat variety. -->
-  <InsectsDisabledContentWarning>Disabling {0} means less spontaneous threat variety.</InsectsDisabledContentWarning>
+  <InsectsDisabledContentWarning>غیرفعال کردن {0} به معنای تنوع کمتر تهدیدات خودجوش است.</InsectsDisabledContentWarning>
   <!-- EN: Disabling {0} means less quest and spontaneous threat variety. -->
-  <MechanoidsDisabledContentWarning>Disabling {0} means less quest and spontaneous threat variety.</MechanoidsDisabledContentWarning>
+  <MechanoidsDisabledContentWarning>غیرفعال کردن {0} به معنای تنوع کمتر ماموریت و تهدیدات خودجوش است.</MechanoidsDisabledContentWarning>
   <!-- EN: Without other factions, raids, trading, and quests won't occur as normal. -->
-  <FactionsDisabledWarning>Without other factions, raids, trading, and quests won't occur as normal.</FactionsDisabledWarning>
+  <FactionsDisabledWarning>بدون جناح‌های دیگر، حملات، تجارت و ماموریت‌ها به طور عادی رخ نخواهند داد.</FactionsDisabledWarning>
 
 </LanguageData>
