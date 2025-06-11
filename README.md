@@ -25,6 +25,15 @@ Add the Persian language to your RimWorld adventure in just a few steps:
 
 ---
 
+
+
+## Screenshot
+
+![Screenshot (43)](https://github.com/user-attachments/assets/87633f91-a012-4567-8f07-15aec21a4be2)
+
+
+---
+
 ## 🤝 Contribution
 
 The Farsi translation is a community-driven project powered by passionate RimWorld fans. Want to improve the translation or fix a bug? We'd love for you to contribute and make the Persian experience even better!
