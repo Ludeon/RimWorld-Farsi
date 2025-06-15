@@ -22,6 +22,26 @@
     <li>destroyed_present->crippling</li>
     <li>destroyed_present->severing</li>
   -->
-  <DamageEvent_UnnaturalDarkness.rulePack.rulesStrings>TODO</DamageEvent_UnnaturalDarkness.rulePack.rulesStrings>
+  <DamageEvent_UnnaturalDarkness.rulePack.rulesStrings>
+    <li>damage_source->[source] [attacked]</li>
+    <li>source->چیزی از درون [dark]</li>
+    <li>source->چیزی در [dark]</li>
+    <li>source->موجودی در [dark]</li>
+    <li>source->موجودی نامرئی</li>
+    <li>source->موجودی سایه‌دار</li>
+    <li>source->دشمنی نامرئی در [dark]</li>
+    <li>dark->تاریکی</li>
+    <li>dark->تاریکی غیرطبیعی</li>
+    <li>dark->سیاهی جوهری</li>
+    <li>dark->سایه‌ها</li>
+    <li>attacked->حمله کرد</li>
+    <li>attacked->ضربه زد</li>
+    <li>attacked->زد</li>
+    <li>damaged_present->زخمی کردن</li>
+    <li>damaged_present->آسیب رساندن</li>
+    <li>destroyed_present->برداشتن</li>
+    <li>destroyed_present->فلج کردن</li>
+    <li>destroyed_present->قطع کردن</li>
+  </DamageEvent_UnnaturalDarkness.rulePack.rulesStrings>
   
 </LanguageData>

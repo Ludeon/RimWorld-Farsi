@@ -4,7 +4,7 @@
   <!-- EN: Dangerous activity levels -->
   <ActivityMultipleDangerous>سطوح فعالیت خطرناک</ActivityMultipleDangerous>
   <!-- EN: These entities are at dangerously high activity levels -->
-  <ActivityDangerousDesc>این موجودات در سطوح فعالیت خطرناکی بالا هستند</ActivityDangerousDesc>
+  <ActivityDangerousDesc>این موجودات در سطوح فعالیت خطرناکی بالا هستند</ActivityDangerousDesc>  
   <!-- EN: When an entity reaches 100% activity, it will become dangerous.\n\nSend your warden to suppress these entities, or enable automatic suppression using the entity's activity panel. -->
   <ActivityDangerousDescAppended>هنگامی که یک موجود به ۱۰۰٪ فعالیت برسد، خطرناک خواهد شد.\n\nنگهبان خود را برای سرکوب این موجودات بفرستید، یا سرکوب خودکار را با استفاده از پنل فعالیت موجود فعال کنید.</ActivityDangerousDescAppended>
 
@@ -40,7 +40,7 @@
   <AlertMeatHungerDesc>این غول‌ها گرسنه گوشت خام هستند</AlertMeatHungerDesc>
   <!-- EN: They may attack if they're not fed soon. Get them some meat. -->
   <AlertMeatHungerDescAppended>ممکن است اگر به زودی تغذیه نشوند حمله کنند. برایشان گوشت تهیه کنید.</AlertMeatHungerDescAppended>
-
+  
   <!-- EN: Pit gate opening -->
   <AlertEmergingPitGate>دروازه گودال در حال باز شدن</AlertEmergingPitGate>
   <!-- EN: The ground is collapsing in on itself. A pit gate will soon form. -->
@@ -71,7 +71,7 @@
   <AlertDigestionDesc>افراد یا موجودات زیر توسط یک بلعنده در حال هضم شدن هستند</AlertDigestionDesc>
   <!-- EN: Kill the devourer to release them before it's too late. -->
   <AlertDigestionDescAppended>بلعنده را بکشید تا قبل از اینکه دیر شود آن‌ها را آزاد کنید.</AlertDigestionDescAppended>
-
+  
   <!-- EN: Inhibitor blocked -->
   <AlertInhibitorBlocked>مهارکننده مسدود شده</AlertInhibitorBlocked>
   <!-- EN: One of your electric inhibitors is not functional because it’s blocked by another building.\n\nClear the space in front of the electric inhibitor. -->
@@ -86,7 +86,7 @@
   <AlertGhoulHypothermia>هیپوترمی غول</AlertGhoulHypothermia>
   <!-- EN: These ghouls are suffering from hypothermia:\n{0}\n\nGet them to warmer temperatures. -->
   <AlertGhoulHypothermiaDesc>این غول‌ها از هیپوترمی رنج می‌برند:\n{0}\n\nآن‌ها را به دماهای گرم‌تر ببرید.</AlertGhoulHypothermiaDesc>
-
+  
   <!-- EN: Gray flesh -->
   <AlertGrayFleshSample>گوشت خاکستری</AlertGrayFleshSample>
   <!-- EN: You’ve discovered a strip of fleshy tissue. Analyze it to learn more about the biosignature. -->

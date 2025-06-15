@@ -2,127 +2,127 @@
 <LanguageData>
   
   <!-- EN: blood rain -->
-  <BloodRain.label>TODO</BloodRain.label>
+  <BloodRain.label>باران خون</BloodRain.label>
   <!-- EN: Cast a ritual which causes blood-like psychofluid to fall from the sky. The fluid will slowly drive exposed humans and animals into a berserk frenzy. Traits and psychic sensitivity modulate the effect. -->
-  <BloodRain.description>TODO</BloodRain.description>
+  <BloodRain.description>اجرای آیینی که باعث می‌شود مایعی روان‌گردان شبیه خون از آسمان ببارد. این مایع به آرامی انسان‌ها و حیوانات در معرض را به جنون می‌کشاند. ویژگی‌ها و حساسیت روانی بر این اثر تأثیر می‌گذارند.</BloodRain.description>
   <!-- EN: At the current ritual quality, the blood rain will last for {0}. -->
-  <BloodRain.outcomeDescription>TODO</BloodRain.outcomeDescription>
+  <BloodRain.outcomeDescription>با کیفیت فعلی آیین، باران خون برای {0} طول خواهد کشید.</BloodRain.outcomeDescription>
   
   <!-- EN: brainwipe -->
-  <Brainwipe.label>TODO</Brainwipe.label>
+  <Brainwipe.label>پاکسازی ذهن</Brainwipe.label>
   <!-- EN: Erase a person's memories. Traumatic events will be forgotten. Prisoners will forget their allegiance and become easier to recruit, even if they were unwavering before. Inhumanized individuals will forget their connection to the void. Unfortunately, the disruptive effect of the ritual will induce a coma that could last a long time, especially if the ritual is of poor quality. -->
-  <Brainwipe.description>TODO</Brainwipe.description>
+  <Brainwipe.description>پاک کردن خاطرات یک فرد. رویدادهای آسیب‌زا فراموش خواهند شد. زندانیان وفاداری خود را فراموش کرده و استخدام آن‌ها آسان‌تر می‌شود، حتی اگر قبلاً سرسخت بودند. افراد غیرانسانی شده ارتباط خود با خلأ را فراموش خواهند کرد. متأسفانه، اثر مخرب این آیین باعث کما می‌شود که ممکن است طولانی باشد، به خصوص اگر کیفیت آیین پایین باشد.</Brainwipe.description>
   <!-- EN: The target will be brainwiped.\n\nWith the current ritual quality, the target will also enter a coma for {0}. -->
-  <Brainwipe.outcomeDescription>TODO</Brainwipe.outcomeDescription>
+  <Brainwipe.outcomeDescription>هدف پاکسازی ذهن خواهد شد.\n\nبا کیفیت فعلی آیین، هدف همچنین برای {0} به کما خواهد رفت.</Brainwipe.outcomeDescription>
   
   <!-- EN: chronophagy -->
-  <Chronophagy.label>TODO</Chronophagy.label>
+  <Chronophagy.label>زمان‌خواری</Chronophagy.label>
   <!-- EN: Induce a distant archotech to transfer entropy from one person to another. This causes the target to age rapidly while the invoker becomes younger, potentially healing scarring or age-related illnesses. The target will suffer brain damage, causing them to fall into a coma for several days. -->
-  <Chronophagy.description>TODO</Chronophagy.description>
+  <Chronophagy.description>القای یک آرکوتک دوردست برای انتقال آنتروپی از یک فرد به فرد دیگر. این باعث می‌شود هدف به سرعت پیر شود در حالی که احضارکننده جوان‌تر می‌شود، که به طور بالقوه زخم‌ها یا بیماری‌های مرتبط با سن را درمان می‌کند. هدف دچار آسیب مغزی شده و برای چندین روز به کما می‌رود.</Chronophagy.description>
   <!-- EN: At the current ritual quality, the invoker will become {0} years younger and the target will become {1} years older.\n\nThe target will suffer brain damage and fall into a coma. -->
-  <Chronophagy.outcomeDescription>TODO</Chronophagy.outcomeDescription>
+  <Chronophagy.outcomeDescription>با کیفیت فعلی آیین، احضارکننده {0} سال جوان‌تر و هدف {1} سال پیرتر خواهد شد.\n\nهدف دچار آسیب مغزی شده و به کما خواهد رفت.</Chronophagy.outcomeDescription>
   
   <!-- EN: imbue death refusal -->
-  <ImbueDeathRefusal.label>TODO</ImbueDeathRefusal.label>
+  <ImbueDeathRefusal.label>اعطای مقاومت در برابر مرگ</ImbueDeathRefusal.label>
   <!-- EN: Link a target with a distant archotechnological engine that can bring them back from the dead in seconds. This process is not without side-effects. -->
-  <ImbueDeathRefusal.description>TODO</ImbueDeathRefusal.description>
+  <ImbueDeathRefusal.description>پیوند دادن یک هدف با یک موتور آرکوتکنولوژیکی دوردست که می‌تواند آن‌ها را در عرض چند ثانیه از مرگ بازگرداند. این فرآیند بدون عوارض جانبی نیست.</ImbueDeathRefusal.description>
   <!-- EN: The target will gain death refusal.\n\nWith the current quality, all the target's skills will also be reduced by {0}. -->
-  <ImbueDeathRefusal.outcomeDescription>TODO</ImbueDeathRefusal.outcomeDescription>
+  <ImbueDeathRefusal.outcomeDescription>هدف مقاومت در برابر مرگ را به دست خواهد آورد.\n\nبا کیفیت فعلی، تمام مهارت‌های هدف نیز به میزان {0} کاهش می‌یابد.</ImbueDeathRefusal.outcomeDescription>
   
   <!-- EN: neurosis pulse -->
-  <NeurosisPulse.label>TODO</NeurosisPulse.label>
+  <NeurosisPulse.label>پالس روان‌رنجوری</NeurosisPulse.label>
   <!-- EN: Emit an intense psychic pulse that makes any psychically sensitive individual in the region work faster but become more irritable. Those affected will feel less need for recreation but will be unhappier and more likely to have a mental break. This will replace the effect of other active pulses. -->
-  <NeurosisPulse.description>TODO</NeurosisPulse.description>
+  <NeurosisPulse.description>انتشار یک پالس روانی شدید که باعث می‌شود هر فرد حساس به روان در منطقه سریع‌تر کار کند اما تحریک‌پذیرتر شود. افراد تحت تأثیر نیاز کمتری به تفریح خواهند داشت اما ناراضی‌تر بوده و احتمال بیشتری برای دچار شدن به فروپاشی روانی دارند. این اثر پالس‌های فعال دیگر را جایگزین خواهد کرد.</NeurosisPulse.description>
   <!-- EN: At the current ritual quality, the effect will last for {0}. -->
-  <NeurosisPulse.outcomeDescription>TODO</NeurosisPulse.outcomeDescription>
+  <NeurosisPulse.outcomeDescription>با کیفیت فعلی آیین، این اثر برای {0} طول خواهد کشید.</NeurosisPulse.outcomeDescription>
   
   <!-- EN: philophagy -->
-  <Philophagy.label>TODO</Philophagy.label>
+  <Philophagy.label>تجربه‌خواری</Philophagy.label>
   <!-- EN: Psychically draw experiences from the victim's mind and transfer them to the invoker, targeting the victim's highest skill. The target will suffer brain damage, causing them to fall into a coma for several days. -->
-  <Philophagy.description>TODO</Philophagy.description>
+  <Philophagy.description>به صورت روانی تجربیات را از ذهن قربانی جذب کرده و به احضارکننده منتقل می‌کند، با هدف قرار دادن بالاترین مهارت قربانی. هدف دچار آسیب مغزی شده و برای چندین روز به کما می‌رود.</Philophagy.description>
   <!-- EN: With the current ritual quality, the invoker will steal {0} of the target's XP in their best skill.\n\nThe target will suffer brain damage and fall into a coma. -->
-  <Philophagy.outcomeDescription>TODO</Philophagy.outcomeDescription>
+  <Philophagy.outcomeDescription>با کیفیت فعلی آیین، احضارکننده {0} از XP هدف را در بهترین مهارت او خواهد دزدید.\n\nهدف دچار آسیب مغزی شده و به کما خواهد رفت.</Philophagy.outcomeDescription>
   
   <!-- EN: pleasure pulse -->
-  <PleasurePulse.label>TODO</PleasurePulse.label>
+  <PleasurePulse.label>پالس لذت</PleasurePulse.label>
   <!-- EN: Emit an intense psychic pulse that makes any psychically sensitive individual in the region happier but reduces their desire to work. This will replace the effect of other active pulses. -->
-  <PleasurePulse.description>TODO</PleasurePulse.description>
+  <PleasurePulse.description>انتشار یک پالس روانی شدید که باعث می‌شود هر فرد حساس به روان در منطقه شادتر شود اما تمایل آن‌ها به کار را کاهش می‌دهد. این اثر پالس‌های فعال دیگر را جایگزین خواهد کرد.</PleasurePulse.description>
   <!-- EN: At the current ritual quality, the effect will last for {0}. -->
-  <PleasurePulse.outcomeDescription>TODO</PleasurePulse.outcomeDescription>
+  <PleasurePulse.outcomeDescription>با کیفیت فعلی آیین، این اثر برای {0} طول خواهد کشید.</PleasurePulse.outcomeDescription>
   
   <!-- EN: psychophagy -->
-  <Psychophagy.label>TODO</Psychophagy.label>
+  <Psychophagy.label>روان‌خواری</Psychophagy.label>
   <!-- EN: Consume the psychic sensitivity of a target. The invoker will increase their psychic sensitivity for a period of time. The effect does not stack. The target will suffer brain damage, causing them to fall into a coma for several days. -->
-  <Psychophagy.description>TODO</Psychophagy.description>
+  <Psychophagy.description>مصرف حساسیت روانی یک هدف. احضارکننده حساسیت روانی خود را برای مدتی افزایش می‌دهد. این اثر انباشته نمی‌شود. هدف دچار آسیب مغزی شده و برای چندین روز به کما می‌رود.</Psychophagy.description>
   <!-- EN: At the current ritual quality, the invoker will increase their psychic sensitivity for {0}.\n\nThe target will suffer brain damage and fall into a coma. -->
-  <Psychophagy.outcomeDescription>TODO</Psychophagy.outcomeDescription>
+  <Psychophagy.outcomeDescription>با کیفیت فعلی آیین، احضارکننده حساسیت روانی خود را برای {0} افزایش خواهد داد.\n\nهدف دچار آسیب مغزی شده و به کما خواهد رفت.</Psychophagy.outcomeDescription>
   
   <!-- EN: skip abduction -->
-  <SkipAbduction.label>TODO</SkipAbduction.label>
+  <SkipAbduction.label>ربایش با پرش</SkipAbduction.label>
   <!-- EN: Teleport a random hostile person to the ritual location and place them in a coma. -->
-  <SkipAbduction.description>TODO</SkipAbduction.description>
+  <SkipAbduction.description>تله‌پورت کردن یک فرد متخاصم تصادفی به محل آیین و قرار دادن او در کما.</SkipAbduction.description>
   <!-- EN: They intend to use a psychic ritual to abduct a colonist via teleportation. -->
-  <SkipAbduction.letterAIArrivedText>TODO</SkipAbduction.letterAIArrivedText>
+  <SkipAbduction.letterAIArrivedText>آن‌ها قصد دارند با استفاده از یک آیین روانی، یک مستعمره‌نشین را از طریق تله‌پورت بربایند.</SkipAbduction.letterAIArrivedText>
   <!-- EN: Skip abduction -->
-  <SkipAbduction.letterAICompleteLabel>TODO</SkipAbduction.letterAICompleteLabel>
+  <SkipAbduction.letterAICompleteLabel>ربایش با پرش</SkipAbduction.letterAICompleteLabel>
   <!-- EN: {PAWN_nameDef} has been abducted by the cultists! -->
-  <SkipAbduction.letterAICompleteText>TODO</SkipAbduction.letterAICompleteText>
+  <SkipAbduction.letterAICompleteText>{PAWN_nameDef} توسط فرقه‌گرایان ربوده شده است!</SkipAbduction.letterAICompleteText>
   <!-- EN: The target will be teleported to the invoker's location and fall into a coma. -->
-  <SkipAbduction.outcomeDescription>TODO</SkipAbduction.outcomeDescription>
+  <SkipAbduction.outcomeDescription>هدف به محل احضارکننده تله‌پورت شده و به کما خواهد رفت.</SkipAbduction.outcomeDescription>
   
   <!-- EN: skip abduction -->
-  <SkipAbductionPlayer.label>TODO</SkipAbductionPlayer.label>
+  <SkipAbductionPlayer.label>ربایش با پرش</SkipAbductionPlayer.label>
   <!-- EN: Abduct a random hostile person from anywhere in the world, prioritizing those nearby. The ritual induces a dark archotech to warp space, teleporting a distant person to the center of the ritual circle. The process causes the target to fall into a short coma. -->
-  <SkipAbductionPlayer.description>TODO</SkipAbductionPlayer.description>
+  <SkipAbductionPlayer.description>ربودن یک فرد متخاصم تصادفی از هر کجای جهان، با اولویت دادن به افراد نزدیک. این آیین یک آرکوتک تاریک را القا می‌کند تا فضا را منحرف کرده و یک فرد دوردست را به مرکز دایره آیین تله‌پورت کند. این فرآیند باعث می‌شود هدف برای مدت کوتاهی به کما برود.</SkipAbductionPlayer.description>
   <!-- EN: At the current ritual quality, the target will remain in a coma for {0}. -->
-  <SkipAbductionPlayer.outcomeDescription>TODO</SkipAbductionPlayer.outcomeDescription>
+  <SkipAbductionPlayer.outcomeDescription>با کیفیت فعلی آیین، هدف برای {0} در کما باقی خواهد ماند.</SkipAbductionPlayer.outcomeDescription>
   
   <!-- EN: draw animals -->
-  <SummonAnimals.label>TODO</SummonAnimals.label>
+  <SummonAnimals.label>احضار حیوانات</SummonAnimals.label>
   <!-- EN: Create a psychic pulse which will draw a distant herd of animals into the local area. You can then hunt or make use of them as you choose. If not done correctly, this may attract scaria-infected manhunters. -->
-  <SummonAnimals.description>TODO</SummonAnimals.description>
+  <SummonAnimals.description>ایجاد یک پالس روانی که یک گله حیوانات دوردست را به منطقه محلی جذب می‌کند. سپس می‌توانید آن‌ها را شکار کرده یا به هر نحو که می‌خواهید از آن‌ها استفاده کنید. اگر به درستی انجام نشود، ممکن است شکارچیان انسان آلوده به اسکاریا را جذب کند.</SummonAnimals.description>
   <!-- EN: With the current ritual quality, there is a {0} chance that the animals will arrive as manhunters. -->
-  <SummonAnimals.outcomeDescription>TODO</SummonAnimals.outcomeDescription>
+  <SummonAnimals.outcomeDescription>با کیفیت فعلی آیین، {0} احتمال وجود دارد که حیوانات به عنوان شکارچیان انسان وارد شوند.</SummonAnimals.outcomeDescription>
   
   <!-- EN: draw fleshbeasts -->
-  <SummonFleshbeasts.label>TODO</SummonFleshbeasts.label>
+  <SummonFleshbeasts.label>احضار هیولاهای گوشتی</SummonFleshbeasts.label>
   <!-- EN: Create a psychic pulse which will draw fleshbeasts to dig upwards and emerge near your enemies. They will attack anyone they find, including your enemies and allies. The fleshbeasts can be captured and studied, or butchered for twisted meat. -->
-  <SummonFleshbeasts.description>TODO</SummonFleshbeasts.description>
+  <SummonFleshbeasts.description>ایجاد یک پالس روانی که هیولاهای گوشتی را جذب می‌کند تا از زیر زمین بیرون بیایند و نزدیک دشمنان شما ظاهر شوند. آن‌ها به هر کسی که پیدا کنند حمله خواهند کرد، از جمله دشمنان و متحدان شما. هیولاهای گوشتی را می‌توان دستگیر و مطالعه کرد، یا برای گوشت پیچیده قصابی کرد.</SummonFleshbeasts.description>
   <!-- EN: They intend to use a psychic ritual to summon hideous fleshbeasts to attack you. -->
-  <SummonFleshbeasts.letterAIArrivedText>TODO</SummonFleshbeasts.letterAIArrivedText>
+  <SummonFleshbeasts.letterAIArrivedText>آن‌ها قصد دارند با استفاده از یک آیین روانی، هیولاهای گوشتی وحشتناک را برای حمله به شما احضار کنند.</SummonFleshbeasts.letterAIArrivedText>
   <!-- EN: Fleshbeasts emerging -->
-  <SummonFleshbeasts.letterAICompleteLabel>TODO</SummonFleshbeasts.letterAICompleteLabel>
+  <SummonFleshbeasts.letterAICompleteLabel>ظهور هیولاهای گوشتی</SummonFleshbeasts.letterAICompleteLabel>
   <!-- EN: Fleshbeasts are clawing their way out of the ground. Prepare for their attack! -->
-  <SummonFleshbeasts.letterAICompleteText>TODO</SummonFleshbeasts.letterAICompleteText>
+  <SummonFleshbeasts.letterAICompleteText>هیولاهای گوشتی در حال بیرون آمدن از زمین هستند. برای حمله آن‌ها آماده شوید!</SummonFleshbeasts.letterAICompleteText>
   <!-- EN: Create a psychic pulse which will draw a horde of fleshbeasts. -->
-  <SummonFleshbeasts.outcomeDescription>TODO</SummonFleshbeasts.outcomeDescription>
+  <SummonFleshbeasts.outcomeDescription>ایجاد یک پالس روانی که یک گله هیولاهای گوشتی را جذب می‌کند.</SummonFleshbeasts.outcomeDescription>
   
   <!-- EN: draw fleshbeasts -->
-  <SummonFleshbeastsPlayer.label>TODO</SummonFleshbeastsPlayer.label>
+  <SummonFleshbeastsPlayer.label>احضار هیولاهای گوشتی</SummonFleshbeastsPlayer.label>
   <!-- EN: Create a psychic pulse which will draw fleshbeasts to dig upwards and emerge near your enemies. They will attack anyone they find, including your enemies and allies. The fleshbeasts can be captured and studied, or butchered for twisted meat. -->
-  <SummonFleshbeastsPlayer.description>TODO</SummonFleshbeastsPlayer.description>
+  <SummonFleshbeastsPlayer.description>ایجاد یک پالس روانی که هیولاهای گوشتی را جذب می‌کند تا از زیر زمین بیرون بیایند و نزدیک دشمنان شما ظاهر شوند. آن‌ها به هر کسی که پیدا کنند حمله خواهند کرد، از جمله دشمنان و متحدان شما. هیولاهای گوشتی را می‌توان دستگیر و مطالعه کرد، یا برای گوشت پیچیده قصابی کرد.</SummonFleshbeastsPlayer.description>
   <!-- EN: A higher quality ritual will attract more fleshbeasts. -->
-  <SummonFleshbeastsPlayer.outcomeDescription>TODO</SummonFleshbeastsPlayer.outcomeDescription>
+  <SummonFleshbeastsPlayer.outcomeDescription>آیینی با کیفیت بالاتر هیولاهای گوشتی بیشتری را جذب خواهد کرد.</SummonFleshbeastsPlayer.outcomeDescription>
   
   <!-- EN: provoke pit gate -->
-  <SummonPitGate.label>TODO</SummonPitGate.label>
+  <SummonPitGate.label>تحریک دروازه گودال</SummonPitGate.label>
   <!-- EN: Use a psychic pulse to provoke underground fleshbeasts into opening a massive pit gate in the ground somewhere in the local area. The massive sinkhole will lead down to a fleshbeast-infested cavern which can be explored for resources. -->
-  <SummonPitGate.description>TODO</SummonPitGate.description>
+  <SummonPitGate.description>استفاده از یک پالس روانی برای تحریک هیولاهای گوشتی زیرزمینی به باز کردن یک دروازه گودال عظیم در زمین در جایی از منطقه محلی. گودال بزرگ به یک غار پر از هیولاهای گوشتی منتهی می‌شود که می‌توان برای منابع آن را کاوش کرد.</SummonPitGate.description>
   <!-- EN: A higher-quality ritual will attract more fleshbeasts. The fleshbeasts can be captured and studied, or butchered for twisted meat. -->
-  <SummonPitGate.outcomeDescription>TODO</SummonPitGate.outcomeDescription>
+  <SummonPitGate.outcomeDescription>آیینی با کیفیت بالاتر هیولاهای گوشتی بیشتری را جذب خواهد کرد. هیولاهای گوشتی را می‌توان دستگیر و مطالعه کرد، یا برای گوشت پیچیده قصابی کرد.</SummonPitGate.outcomeDescription>
   
   <!-- EN: draw shamblers -->
-  <SummonShamblers.label>TODO</SummonShamblers.label>
+  <SummonShamblers.label>احضار مردگان متحرک</SummonShamblers.label>
   <!-- EN: Create a psychic pulse which will draw a distant horde of animated corpses towards your local area. While they attack any humans that they see, they won't attack your colony directly. You can capture them for study. -->
-  <SummonShamblers.description>TODO</SummonShamblers.description>
+  <SummonShamblers.description>ایجاد یک پالس روانی که یک گله دوردست از اجساد متحرک را به سمت منطقه محلی شما جذب می‌کند. در حالی که آن‌ها به هر انسانی که می‌بینند حمله می‌کنند، مستقیماً به مستعمره شما حمله نخواهند کرد. می‌توانید آن‌ها را برای مطالعه دستگیر کنید.</SummonShamblers.description>
   <!-- EN: The higher the ritual quality, the more shamblers that will be summoned. -->
-  <SummonShamblers.outcomeDescription>TODO</SummonShamblers.outcomeDescription>
+  <SummonShamblers.outcomeDescription>هرچه کیفیت آیین بالاتر باشد، مردگان متحرک بیشتری احضار خواهند شد.</SummonShamblers.outcomeDescription>
   
   <!-- EN: void provocation -->
-  <VoidProvocation.label>TODO</VoidProvocation.label>
+  <VoidProvocation.label>تحریک خلأ</VoidProvocation.label>
   <!-- EN: Psychically commune with the void, attracting an entity which can be captured and studied. There’s a chance that the invoker will fall into a coma for several hours. -->
-  <VoidProvocation.description>TODO</VoidProvocation.description>
+  <VoidProvocation.description>ارتباط روانی با خلأ، جذب یک موجودیت که می‌تواند دستگیر و مطالعه شود. احتمال دارد که احضارکننده برای چندین ساعت به کما برود.</VoidProvocation.description>
   <!-- EN: With the current quality, there's a {0} chance the invoker will receive dark psychic shock. -->
-  <VoidProvocation.outcomeDescription>TODO</VoidProvocation.outcomeDescription>
+  <VoidProvocation.outcomeDescription>با کیفیت فعلی، {0} احتمال وجود دارد که احضارکننده شوک روانی تاریک دریافت کند.</VoidProvocation.outcomeDescription>
   
 </LanguageData>

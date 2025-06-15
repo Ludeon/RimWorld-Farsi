@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
   <!-- EN: {PAWN_labelShort}'s pregnancy progressed from 1st to 2nd trimester. -->
   <MessageColonistReaching2ndTrimesterPregnancy>بارداری {PAWN_labelShort} از سه ماهه اول به سه ماهه دوم پیشرفت کرد.</MessageColonistReaching2ndTrimesterPregnancy>
   <!-- EN: {PAWN_labelShort}'s pregnancy progressed from 2nd to 3rd trimester. -->
@@ -33,19 +33,19 @@
   <MessageCannotBecomeNonPreferredXenotype>{0_labelShort} از تبدیل شدن به یک زنوتایپ ناپسند خودداری می‌کند.</MessageCannotBecomeNonPreferredXenotype>
 
   <!-- EN: Auto-adding {MECH_nameDef} to the caravan, since it is escorting {OVERSEER_nameDef} -->
-  <MessageCaravanAddingEscortingMech>در حال افزودن خودکار {MECH_nameDef} به کاروان، زیرا در حال اسکورت {OVERSEER_nameDef} است</MessageCaravanAddingEscortingMech>
+  <MessageCaravanAddingEscortingMech>در حال افزودن خودکار {MECH_nameDef} به کاروان، زیرا در حال اسکورت {OVERSEER_nameDef} است</MessageCaravanAddingEscortingMech> 
   <!-- EN: Auto-removing {MECH_nameDef} from the caravan, since it is escorting {OVERSEER_nameDef} -->
   <MessageCaravanRemovingEscortingMech>در حال حذف خودکار {MECH_nameDef} از کاروان، زیرا در حال اسکورت {OVERSEER_nameDef} است</MessageCaravanRemovingEscortingMech>
 
   <!-- EN: {0} was a mechanitor. You can remove {0_possessive} {1_label} and use it on a colonist. -->
   <MessageMechanitorCasketOpened>{0} یک مکانیتور بود. می‌توانید {0_possessive} {1_label} را بردارید و روی یک مستعمره‌نشین استفاده کنید.</MessageMechanitorCasketOpened>
-
+  
   <!-- EN: Some prisoners' interaction mode required a bloodfeeder. Since the last bloodfeeder is gone, their interaction modes have reset to "No interaction". -->
   <MessageNoBloodfeedersPrisonerInteractionReset>حالت تعامل برخی زندانیان به یک خون‌خوار نیاز داشت. از آنجایی که آخرین خون‌خوار رفته است، حالت‌های تعامل آن‌ها به "بدون تعامل" بازنشانی شده است.</MessageNoBloodfeedersPrisonerInteractionReset>
 
   <!-- EN: {PAWN_nameDef}'s pregnancy was successfully terminated. -->
   <MessagePregnancyTerminated>بارداری {PAWN_nameDef} با موفقیت خاتمه یافت.</MessagePregnancyTerminated>
-
+  
   <!-- Pollution -->
   <!-- EN: {0} has been angered ({1}) -->
   <MessageAngeredPollutedCell>{0} عصبانی شده است ({1})</MessageAngeredPollutedCell>

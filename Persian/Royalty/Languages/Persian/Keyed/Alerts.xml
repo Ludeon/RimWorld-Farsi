@@ -21,7 +21,7 @@
   <UndignifiedThroneroom>اتاق تخت سلطنت بی‌وقار</UndignifiedThroneroom>
   <!-- EN: One of your people has a royal title and a throne, but the throne room does not satisfy the title's requirements. -->
   <UndignifiedThroneroomDesc>یکی از افراد شما عنوان سلطنتی و یک تخت سلطنت دارد، اما اتاق تخت سلطنت الزامات عنوان را برآورده نمی‌کند.</UndignifiedThroneroomDesc>
-
+  
   <!-- EN: No acceptable food -->
   <RoyalNoAcceptableFood>غذای قابل قبول وجود ندارد</RoyalNoAcceptableFood>
   <!-- EN: One of your people has a royal title with specific food requirements. But there's no food available that satisfies these requirements. -->
@@ -34,7 +34,7 @@
   <ThroneroomInvalidConfiguration>تخت سلطنت قابل استفاده نیست</ThroneroomInvalidConfiguration>
   <!-- EN: A throne is not usable because of how it is set up: -->
   <ThroneroomInvalidConfigurationDesc>یک تخت سلطنت به دلیل نحوه تنظیم آن قابل استفاده نیست:</ThroneroomInvalidConfigurationDesc>
-
+  
   <!-- EN: Monument missing blueprints -->
   <MonumentMarkerMissingBlueprints>نقشه‌های بنای یادبود گم شده‌اند</MonumentMarkerMissingBlueprints>
   <!-- EN: The monument won't be completed because blueprints have not been placed for all its parts.\n\nSelect the monument marker and click "Place blueprints", or place the blueprints manually. -->
@@ -53,23 +53,23 @@
   <!-- EN: Unusable meditation focus -->
   <UnusableMeditationFocusAlert>تمرکز مدیتیشن غیرقابل استفاده</UnusableMeditationFocusAlert>
   <!-- EN: These colonists are meditating near a focus object they can't use.\n{0}\n\nEach person can meditate to different objects, depending on their meditation focus types. A person's focus types depend on their backstories, traits, and titles. To see a person's meditation focus types, look at their details window by selecting them and clicking the 'i' button. -->
-  <UnusableMeditationFocusAlertDesc>این مستعمره‌نشینان نزدیک شیء تمرکزی مدیتیشن می‌کنند که نمی‌توانند از آن استفاده کنند.\n{0}\n\nهر فرد می‌تواند به اشیاء مختلفی مدیتیشن کند، بسته به انواع تمرکز مدیتیشن آن‌ها. انواع تمرکز فرد بستگی به پیش‌زمینه‌ها، ویژگی‌ها و عناوین او دارد. برای دیدن انواع تمرکز مدیتیشن فرد، با انتخاب او و کلیک روی دکمه 'i' به پنجره جزئیات او نگاه کنید.</NeedMeditationFocusAlertDesc>
+  <UnusableMeditationFocusAlertDesc>این مستعمره‌نشینان نزدیک شیء تمرکزی مدیتیشن می‌کنند که نمی‌توانند از آن استفاده کنند.\n{0}\n\nهر فرد می‌تواند به اشیاء مختلفی مدیتیشن کند، بسته به انواع تمرکز مدیتیشن آن‌ها. انواع تمرکز فرد بستگی به پیش‌زمینه‌ها، ویژگی‌ها و عناوین او دارد. برای دیدن انواع تمرکز مدیتیشن فرد، با انتخاب او و کلیک روی دکمه 'i' به پنجره جزئیات او نگاه کنید.</UnusableMeditationFocusAlertDesc>
 
   <!-- EN: Permit choice ready -->
   <PermitChoiceReadyAlert>انتخاب مجوز آماده</PermitChoiceReadyAlert>
   <!-- EN: {PAWN_nameDef} can choose a new permit. -->
   <PermitChoiceReadyAlertDesc>{PAWN_nameDef} می‌تواند مجوز جدیدی انتخاب کند.</PermitChoiceReadyAlertDesc>
-
+  
   <!-- EN: Bestower waiting -->
   <BestowerWaitingAlert>اعطا کننده در انتظار</BestowerWaitingAlert>
   <!-- EN: A bestower is waiting to begin the bestowing ceremony. -->
   <BestowerWaitingAlertDesc>یک اعطا کننده منتظر شروع مراسم اعطا است.</BestowerWaitingAlertDesc>
-
+  
   <!-- EN: Anima linking ceremony ready -->
   <AnimaLinkingReadyLabel>مراسم پیوند آنیما آماده</AnimaLinkingReadyLabel>
   <!-- EN: An anima tree has enough anima grass to carry out the linking ceremony and level up psylink for these colonists -->
   <AnimaLinkingReadyDesc>یک درخت آنیما به اندازه کافی چمن آنیما برای انجام مراسم پیوند و ارتقا سطح پسالینک برای این مستعمره‌نشینان دارد</AnimaLinkingReadyDesc>
   <!-- EN: In order to start the ceremony, select a colonist, click the 'begin anima tree linking' button and select the anima tree you want to use. -->
   <AnimaLinkingReadyDescExtra>برای شروع مراسم، یک مستعمره‌نشین را انتخاب کرده، روی دکمه 'شروع پیوند درخت آنیما' کلیک کنید و درخت آنیمایی که می‌خواهید استفاده کنید را انتخاب کنید.</AnimaLinkingReadyDescExtra>
-
+  
 </LanguageData>

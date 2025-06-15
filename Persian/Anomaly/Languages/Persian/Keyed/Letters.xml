@@ -53,12 +53,12 @@
   <SummonAnimalsSuccessText>{0_nameDef} مراسم {RITUAL_definite} را به پایان رساند. به زودی انتظار یک گله حیوان را داشته باشید.</SummonAnimalsSuccessText>
   <!-- EN: {0_nameDef} has completed {RITUAL_definite} ritual but something has gone terribly wrong! The ritual has attracted scaria-infected manhunting animals. Prepare for their arrival! -->
   <SummonAnimalsFailureText>{0_nameDef} مراسم {RITUAL_definite} را به پایان رساند اما چیزی به طرز وحشتناکی اشتباه پیش رفت! این مراسم حیوانات شکارچی انسان آلوده به اسکاریا را جذب کرده است. برای ورود آن‌ها آماده شوید!</SummonAnimalsFailureText>
-
+  
   <!-- EN: {0_nameDef} has successfully completed {RITUAL_definite} ritual. Prepare for their arrival. -->
   <SummonShamblersCompleteText>{0_nameDef} با موفقیت مراسم {RITUAL_definite} را به پایان رساند. برای ورود آن‌ها آماده شوید.</SummonShamblersCompleteText>
 
   <!-- EN: They are attacking from multiple directions. -->
-  <AttackingFromMultipleDirections>آن‌ها از چندین جهت حمله می‌کنند.</AttackingFromMultipleDirections>
+  <AttackingFromMultipleDirections>آن‌ها از چندین جهت حمله می‌کنند.</AttackingFromMultipleDirections> 
 
   <!-- EN: {0_nameDef} has successfully completed {RITUAL_definite} ritual. The ritual had the following effects: -->
   <ChronophagyCompleteText>{0_nameDef} با موفقیت مراسم {RITUAL_definite} را به پایان رساند. این مراسم اثرات زیر را داشت:</ChronophagyCompleteText>
@@ -97,7 +97,7 @@
   <PsychophagyCompleteText>{INVOKER_nameDef} انجام مراسم {RITUAL_definite} را به پایان رساند و حضور روانی {TARGET_nameDef} را مصرف کرد.</PsychophagyCompleteText>
   <!-- EN: {TARGET_nameDef} is now psychically deaf. The process has damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma. -->
   <PsychophagyTargetSurvived>{TARGET_nameDef} اکنون از نظر روانی ناشنوا است. این فرآیند به مغز {TARGET_nameDef} آسیب رسانده و {TARGET_objective} را به کما برده است.</PsychophagyTargetSurvived>
-
+  
   <!-- EN: The process has liquified {TARGET_nameDef}'s brain, killing {TARGET_objective}. -->
   <PsychicRitualTargetBrainLiquified>این فرآیند مغز {TARGET_nameDef} را مایع کرده و {TARGET_objective} را کشته است.</PsychicRitualTargetBrainLiquified>
 
@@ -106,7 +106,7 @@
 
   <!-- EN: {INVOKER_nameDef} has finished infusing {TARGET_nameDef} with bioferrite. The ritual has twisted {TARGET_nameDef}'s mind and mutated {TARGET_possessive} body, creating a terrifying creature known as a ghoul. {INVOKER_nameDef} shares a psychic link with {TARGET_nameDef}, allowing {INVOKER_objective} to control {TARGET_nameDef}.\n\nGhouls eat raw meat to survive. If they go hungry, they can turn hostile. -->
   <GhoulInfusionCompleteText>{INVOKER_nameDef} تزریق بیوفریت به {TARGET_nameDef} را به پایان رساند. این مراسم ذهن {TARGET_nameDef} را پیچانده و بدن {TARGET_possessive} را جهش داده و موجودی وحشتناک به نام غول ایجاد کرده است. {INVOKER_nameDef} پیوند روانی با {TARGET_nameDef} دارد و به {INVOKER_objective} اجازه می‌دهد {TARGET_nameDef} را کنترل کند.\n\nغول‌ها برای زنده ماندن گوشت خام می‌خورند. اگر گرسنه بمانند، می‌توانند خصمانه شوند.</GhoulInfusionCompleteText>
-
+  
   <!-- EN: They might perform the ritual multiple times. You need to go stop them. -->
   <AttackersMayCastRitualMultipleTimes>آن‌ها ممکن است مراسم را چندین بار انجام دهند. شما باید بروید و آن‌ها را متوقف کنید.</AttackersMayCastRitualMultipleTimes>
 
@@ -114,9 +114,9 @@
   <SkipAbductionPlayerCompleteText>{INVOKER_nameDef} انجام مراسم {RITUAL_definite} را به پایان رساند. با دستکاری فضا و زمان، {INVOKER_nameDef} {TARGET_nameDef} از جناح {FACTION_name} را ربوده است. ماهیت وحشتناک مراسم {TARGET_nameDef} را به کمای کوتاه‌مدت برده است.</SkipAbductionPlayerCompleteText>
 
   <!-- EN: Fleshmass response -->
-  <FleshmassResponseLabel>واکنش توده گوشت</FleshmassResponseLabel>
+  <FleshmassResponseLabel>واکنش توده گوشت</FleshmassResponseLabel> 
   <!-- EN: The death of fleshmass has triggered a violent response! The fleshmass shudders as it births new fleshbeasts to defend itself. -->
-  <FleshmassResponseText>مرگ توده گوشت واکنش خشونت‌آمیزی را برانگیخته است! توده گوشت می‌لرزد در حالی که هیولاهای گوشتی جدیدی را برای دفاع از خود به دنیا می‌آورد.</FleshmassResponseText>
+  <FleshmassResponseText>مرگ توده گوشت واکنش خشونت‌آمیزی را برانگیخته است! توده گوشت می‌لرزد در حالی که هیولاهای گوشتی جدیدی را برای دفاع از خود به دنیا می‌آورد.</FleshmassResponseText> 
 
   <!-- Void awakening -->
   <!-- EN: Dimming sky -->
@@ -126,11 +126,11 @@
   <!-- EN: As the second structure is activated, the darkness begins to intensify. An unnatural darkness will soon descend. Make sure your colony is prepared. Stockpile resources, build lights, craft disruptor flares, and reinforce defenses. Only those in the light will be safe.\n\nMore twisted structures will appear soon. -->
   <VoidAwakeningStageOneStructuresActivatedText>با فعال شدن ساختار دوم، تاریکی شروع به شدت گرفتن می‌کند. تاریکی غیرطبیعی به زودی فرود خواهد آمد. مطمئن شوید مستعمره شما آماده است. منابع را ذخیره کنید، چراغ بسازید، فلرهای مختل‌کننده بسازید و دفاع‌ها را تقویت کنید. فقط کسانی که در نور هستند در امان خواهند بود.\n\nساختارهای پیچیده‌تر به زودی ظاهر خواهند شد.</VoidAwakeningStageOneStructuresActivatedText>
   <!-- EN: All void structures have been activated. The space around the void monolith has begun to shimmer. Get ready. -->
-  <VoidAwakeningStageTwoStructuresActivatedText>تمام ساختارهای خلاء فعال شده‌اند. فضای اطراف مونولیت خلاء شروع به درخشش کرده است. آماده شوید.</VoidAwakeningStageTwoStructuresActivatedText>
+  <VoidAwakeningStageTwoStructuresActivatedText>تمام ساختارهای خلاء فعال شده‌اند. فضای اطراف مونولیت خلاء شروع به درخشش کرده است. آماده شوید.</VoidAwakeningStageTwoStructuresActivatedText> 
   <!-- EN: {STUDIER_nameDef} teleported -->
-  <VoidAwakeningFinalStructuresActivatedLabel>{STUDIER_nameDef} تله‌پورت شد</VoidAwakeningFinalStructuresActivatedLabel>
+  <VoidAwakeningFinalStructuresActivatedLabel>{STUDIER_nameDef} تله‌پورت شد</VoidAwakeningFinalStructuresActivatedLabel> 
   <!-- EN: {STUDIER_nameDef} has activated the monolith and been ripped from our spacetime into another place.\n\n{STUDIER_pronoun} finds {STUDIER_objective}self in a room of jagged metallic spikes. Every surface is slick with dark fluid and the air vibrates with power.\n\nThis metal hell is a connecting channel to an inhuman hyperintelligence. -->
-  <VoidAwakeningFinalStructuresActivatedText>{STUDIER_nameDef} مونولیت را فعال کرده و از فضای-زمان ما به مکان دیگری پاره شده است.\n\n{STUDIER_pronoun} خود را در اتاقی از میخ‌های فلزی دندانه‌دار می‌یابد. هر سطحی با مایع تیره لغزنده است و هوا با قدرت می‌لرزد.\n\nاین جهنم فلزی کانال ارتباطی با یک ابرهوش غیرانسانی است.</VoidAwakeningFinalStructuresActivatedText>
+  <VoidAwakeningFinalStructuresActivatedText>{STUDIER_nameDef} مونولیت را فعال کرده و از فضای-زمان ما به مکان دیگری پاره شده است.\n\n{STUDIER_pronoun} خود را در اتاقی از میخ‌های فلزی دندانه‌دار می‌یابد. هر سطحی با مایع تیره لغزنده است و هوا با قدرت می‌لرزد.\n\nاین جهنم فلزی کانال ارتباطی با یک ابرهوش غیرانسانی است.</VoidAwakeningFinalStructuresActivatedText> 
   <!-- EN: Shambler assault -->
   <VoidAwakeningShamblerArrivalLabel>حمله شَمبلرها</VoidAwakeningShamblerArrivalLabel>
   <!-- EN: A horde of shamblers have been attracted by the void structures. Get ready! -->
@@ -144,7 +144,7 @@
   <!-- EN: Metalhorrors are appearing near the void monolith. Get ready! -->
   <VoidAwakeningMetalhorrorArrivalText>متال‌هارورها نزدیک مونولیت خلاء ظاهر می‌شوند. آماده شوید!</VoidAwakeningMetalhorrorArrivalText>
   <!-- EN: Entity attack -->
-  <VoidAwakeningEntityArrivalLabel>حمله موجود</VoidAwakeningEntityArrivalLabel>
+  <VoidAwakeningEntityArrivalLabel>حمله موجود</VoidAwakeningEntityArrivalLabel> 
   <!-- EN: The activated void structure has generated a twisted psychic pulse, attracting nearby entities. Get ready! -->
   <VoidAwakeningEntityArrivalText>ساختار خلاء فعال شده یک پالس روانی پیچیده ایجاد کرده و موجودات نزدیک را جذب کرده است. آماده شوید!</VoidAwakeningEntityArrivalText>
   <!-- EN: Embrace the void -->
@@ -185,7 +185,7 @@
   <GhoulBetrayalLabel>خیانت غول</GhoulBetrayalLabel>
   <!-- EN: {PAWN_nameDef} has been driven mad by {PAWN_possessive} ravenous hunger for raw meat! -->
   <GhoulBetrayalText>{PAWN_nameDef} از گرسنگی سیری‌ناپذیر {PAWN_possessive} برای گوشت خام دیوانه شده است!</GhoulBetrayalText>
-
+  
   <!-- Distress signal -->
   <!-- EN: Distress signal -->
   <DistressSignalLabel>سیگنال اضطراری</DistressSignalLabel>
@@ -258,9 +258,9 @@
   <!-- EN: The nociosphere has been destroyed, leaving behind a number of valuable resources. -->
   <NociosphereDefeatedText>نوسیوسفر نابود شده و تعدادی منبع ارزشمند به جا گذاشته است.</NociosphereDefeatedText>
   <!-- EN: Nociosphere destabilising -->
-  <NociosphereBecomingUnstableLabel>نوسیوسفر در حال ناپایدار شدن</NociosphereBecomingUnstableLabel>
+  <NociosphereBecomingUnstableLabel>نوسیوسفر در حال ناپایدار شدن</NociosphereBecomingUnstableLabel> 
   <!-- EN: The nociosphere’s energy pattern has begun to shift and adapt. Within 10 days, it will no longer respond to suppression.\n\nThe nociosphere will activate if not suppressed. -->
-  <NociosphereBecomingUnstableText>الگوی انرژی نوسیوسفر شروع به تغییر و تطبیق کرده است. ظرف ۱۰ روز، دیگر به سرکوب پاسخ نخواهد داد.\n\nنوسیوسفر در صورت عدم سرکوب فعال خواهد شد.</NociosphereBecomingUnstableText>
+  <NociosphereBecomingUnstableText>الگوی انرژی نوسیوسفر شروع به تغییر و تطبیق کرده است. ظرف ۱۰ روز، دیگر به سرکوب پاسخ نخواهد داد.\n\nنوسیوسفر در صورت عدم سرکوب فعال خواهد شد.</NociosphereBecomingUnstableText> 
   <!-- EN: Dispose of the nociosphere by sending it to attack a large hostile force. Once its onslaught is complete, it will permanently depart. -->
   <NociosphereBecomingUnstableTextExtraSendable>نوسیوسفر را با فرستادن آن برای حمله به نیروی متخاصم بزرگ دفع کنید. پس از اتمام حمله، برای همیشه از بین خواهد رفت.</NociosphereBecomingUnstableTextExtraSendable>
   <!-- EN: Study the nociosphere to find a way to dispose of it. -->
@@ -270,7 +270,7 @@
   <!-- EN: The nociosphere has become unstable and is no longer responding to suppression. When its activity reaches 100%, it will awaken. -->
   <NociosphereUnstableText>نوسیوسفر ناپایدار شده و دیگر به سرکوب پاسخ نمی‌دهد. وقتی فعالیت آن به ۱۰۰٪ برسد، بیدار خواهد شد.</NociosphereUnstableText>
   <!-- EN: Dispose of the nociosphere by sending it to attack a large hostile force. Once its onslaught is complete, it will permanently depart. -->
-  <NociosphereUnstableTextExtraSendable>نوسیوسفر را با فرستادن آن برای حمله به نیروی متخاصم بزرگ دفع کنید. پس از اتمام حمله، برای همیشه از بین خواهد رفت.</NociosphereUnstableTextExtraSendable>
+  <NociosphereUnstableTextExtraSendable>نوسیوسفر را با فرستادن آن برای حمله به نیروی متخاصم بزرگ دفع کنید. پس از اتمام حمله، برای همیشه از بین خواهد رفت.</NociosphereUnstableTextExtraSendable> 
   <!-- EN: Prepare for the nociosphere’s onslaught. -->
   <NociosphereUnstableTextExtraNotSendable>برای حمله نوسیوسفر آماده شوید.</NociosphereUnstableTextExtraNotSendable>
 

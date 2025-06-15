@@ -1,25 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN: [PAWN_nameDef] was fortunate enough to attend one of the best private schools on [PAWN_possessive] homeworld.\n\n[PAWN_nameDef] was also unfortuante enough to see [PAWN_possessive] parents separate at a young age. -->
-  <DivorceKid95.baseDesc>TODO</DivorceKid95.baseDesc>
-  <!-- EN: divorce kid -->
-  <DivorceKid95.title>TODO</DivorceKid95.title>
-  <!-- EN: divorce -->
-  <DivorceKid95.titleShort>TODO</DivorceKid95.titleShort>
+  <!-- UNUSED -->
+  <DivorceKid95.baseDesc>[PAWN_nameDef] به اندازه کافی خوش‌شانس بود که در یکی از بهترین مدارس خصوصی سیاره مادری [PAWN_possessive] تحصیل کند.\n\n[PAWN_nameDef] همچنین به اندازه کافی بدشانس بود که جدایی والدین [PAWN_possessive] را در سنین پایین ببیند.</DivorceKid95.baseDesc>
+  <DivorceKid95.title>بچه طلاق</DivorceKid95.title>
+  <DivorceKid95.titleShort>طلاق</DivorceKid95.titleShort>
   
-  <!-- EN: [PAWN_nameDef]'s affluent family helped conceal [PAWN_possessive] habit of torturing animals.\n\nDespite years of therapy, [PAWN_pronoun] could never bring [PAWN_objective]self to interact with the little beasts in any normal way. [PAWN_pronoun] did learn a few things about how bodies live and die. -->
-  <PetTorturer60.baseDesc>TODO</PetTorturer60.baseDesc>
-  <!-- EN: pet torturer -->
-  <PetTorturer60.title>TODO</PetTorturer60.title>
-  <!-- EN: pet torturer -->
-  <PetTorturer60.titleShort>TODO</PetTorturer60.titleShort>
+  <!-- UNUSED -->
+  <PetTorturer60.baseDesc>خانواده ثروتمند [PAWN_nameDef] به پنهان کردن عادت [PAWN_possessive] به شکنجه حیوانات کمک کرد.\n\nبا وجود سال‌ها درمان، [PAWN_pronoun] هرگز نتوانست خود [PAWN_objective] را وادار به تعامل عادی با حیوانات کوچک کند. [PAWN_pronoun] چیزهایی در مورد نحوه زندگی و مرگ بدن‌ها یاد گرفت.</PetTorturer60.baseDesc>
+  <PetTorturer60.title>شکنجه‌گر حیوانات</PetTorturer60.title>
+  <PetTorturer60.titleShort>شکنجه‌گر حیوانات</PetTorturer60.titleShort>
   
-  <!-- EN: [PAWN_nameDef] was a smart kid, so everyone encouraged [PAWN_possessive] ambition to become a politician.\n\n[PAWN_pronoun] would use any tactic to win, including direct psychological attacks.\n\nDuring one school election, the other candidate hung himself. [PAWN_nameDef] won by default. -->
-  <PoliticalClimber28.baseDesc>TODO</PoliticalClimber28.baseDesc>
-  <!-- EN: political climber -->
-  <PoliticalClimber28.title>TODO</PoliticalClimber28.title>
-  <!-- EN: political climber -->
-  <PoliticalClimber28.titleShort>TODO</PoliticalClimber28.titleShort>
+  <!-- UNUSED -->
+  <PoliticalClimber28.baseDesc>[PAWN_nameDef] بچه باهوشی بود، بنابراین همه جاه‌طلبی [PAWN_possessive] برای تبدیل شدن به یک سیاستمدار را تشویق می‌کردند.\n\n[PAWN_pronoun] از هر تاکتیکی برای پیروزی استفاده می‌کرد، از جمله حملات روانی مستقیم.\n\nدر طول یکی از انتخابات مدرسه، نامزد دیگر خودکشی کرد. [PAWN_nameDef] به طور پیش‌فرض برنده شد.</PoliticalClimber28.baseDesc>
+  <PoliticalClimber28.title>جاه‌طلب سیاسی</PoliticalClimber28.title>
+  <PoliticalClimber28.titleShort>جاه‌طلب سیاسی</PoliticalClimber28.titleShort>
   
 </LanguageData>

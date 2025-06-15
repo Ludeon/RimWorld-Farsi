@@ -2,170 +2,170 @@
 <LanguageData>
 
   <!-- EN: Mad {ANIMAL_labelShort} -->
-  <LetterLabelAnimalInsanitySingle>Mad {ANIMAL_labelShort}</LetterLabelAnimalInsanitySingle>
+  <LetterLabelAnimalInsanitySingle>دیوانگی {ANIMAL_labelShort}</LetterLabelAnimalInsanitySingle>
   <!-- EN: A local {ANIMAL_label} has gone mad. It will attack everyone it sees. -->
-  <AnimalInsanitySingle>A local {ANIMAL_label} has gone mad. It will attack everyone it sees.</AnimalInsanitySingle>
+  <AnimalInsanitySingle>یک {ANIMAL_label} محلی دیوانه شده است. به هر کسی که ببیند حمله خواهد کرد.</AnimalInsanitySingle>
   <!-- EN: Mad {0} -->
-  <LetterLabelAnimalInsanityMultiple>Mad {0}</LetterLabelAnimalInsanityMultiple>
+  <LetterLabelAnimalInsanityMultiple>دیوانگی {0}</LetterLabelAnimalInsanityMultiple>
   <!-- EN: Some sort of psychic wave has swept over the landscape. Your colonists are okay, but...\n\nIt seems many of the {0} in the area have been driven insane. -->
-  <AnimalInsanityMultiple>Some sort of psychic wave has swept over the landscape. Your colonists are okay, but...\n\nIt seems many of the {0} in the area have been driven insane.</AnimalInsanityMultiple>
+  <AnimalInsanityMultiple>نوعی موج روانی در سراسر منطقه گسترش یافته است. مستعمره‌نشینان شما خوب هستند، اما...\n\nبه نظر می‌رسد بسیاری از {0} در منطقه دیوانه شده‌اند.</AnimalInsanityMultiple>
 
   <!-- EN: Blight: {PLANTDEF_labelPlural} -->
-  <LetterLabelCropBlight>Blight: {PLANTDEF_labelPlural}</LetterLabelCropBlight>
+  <LetterLabelCropBlight>آفت: {PLANTDEF_labelPlural}</LetterLabelCropBlight>
   <!-- EN: Blight has been discovered on the {PLANTDEF_labelPlural}!
 \nYou should cut or burn the affected plants before the blight spreads. -->
-  <LetterCropBlight>Blight has been discovered on the {PLANTDEF_labelPlural}!\n\nYou should cut or burn the affected plants before the blight spreads.</LetterCropBlight>
+  <LetterCropBlight>آفت روی {PLANTDEF_labelPlural} کشف شده است!\n\nباید گیاهان آلوده را قبل از گسترش آفت قطع یا بسوزانید.</LetterCropBlight>
 
   <!-- EN: Miracle -->
   <LetterLabelMiracleHeal>معجزه</LetterLabelMiracleHeal>
   <!-- EN: {0} has experienced a miraculous recovery! -->
-  <MiracleHeal>{0} has experienced a miraculous recovery!</MiracleHeal>
+  <MiracleHeal>{0} به طرز معجزه‌آسایی بهبود یافته است!</MiracleHeal>
 
   <!-- Enemy raids -->
   <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
-  <EnemyRaidLeaderPresent>One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction.</EnemyRaidLeaderPresent>
+  <EnemyRaidLeaderPresent>یکی از {LEADER_factionPawnsPlural} - {LEADER_labelShort}، رهبر جناح است.</EnemyRaidLeaderPresent>
 
   <!-- Friendly raids -->
   <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
-  <FriendlyRaidLeaderPresent>One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction.</FriendlyRaidLeaderPresent>
+  <FriendlyRaidLeaderPresent>یکی از {LEADER_factionPawnsPlural} - {LEADER_labelShort}، رهبر جناح است.</FriendlyRaidLeaderPresent>
 
   <!-- EN: Transport pod crash -->
-  <LetterLabelRefugeePodCrash>Transport pod crash</LetterLabelRefugeePodCrash>
+  <LetterLabelRefugeePodCrash>سقوط کپسول حمل و نقل</LetterLabelRefugeePodCrash>
   <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} is crashing in a transport pod nearby. If {PAWN_pronoun} survives the impact, {PAWN_pronoun} will be badly wounded. -->
-  <RefugeePodCrash>{PAWN_titleIndef} named {PAWN_nameDef} is crashing in a transport pod nearby. If {PAWN_pronoun} survives the impact, {PAWN_pronoun} will be badly wounded.</RefugeePodCrash>
+  <RefugeePodCrash>{PAWN_titleIndef} به نام {PAWN_nameDef} در یک کپسول حمل و نقل در نزدیکی سقوط می‌کند. اگر {PAWN_pronoun} از برخورد جان سالم به در ببرد، {PAWN_pronoun} به شدت زخمی خواهد شد.</RefugeePodCrash>
   <!-- EN: {PAWN_nameDef} is a child of {AGE}. -->
-  <RefugeePodCrash_Child>{PAWN_nameDef} is a child of {AGE}.</RefugeePodCrash_Child>
+  <RefugeePodCrash_Child>{PAWN_nameDef} کودکی {AGE} ساله است.</RefugeePodCrash_Child>
   <!-- EN: {PAWN_nameDef} is not affiliated with any faction. You can rescue {PAWN_objective} and hope {PAWN_pronoun} joins freely, or capture {PAWN_objective} for recruitment or slavery purposes. -->
-  <RefugeePodCrash_Factionless>{PAWN_nameDef} is not affiliated with any faction. You can rescue {PAWN_objective} and hope {PAWN_pronoun} joins freely, or capture {PAWN_objective} for recruitment or slavery purposes.</RefugeePodCrash_Factionless>
+  <RefugeePodCrash_Factionless>{PAWN_nameDef} به هیچ جناحی وابسته نیست. می‌توانید {PAWN_objective} را نجات دهید و امیدوار باشید که {PAWN_pronoun} آزادانه بپیوندد، یا {PAWN_objective} را برای استخدام یا بردگی بگیرید.</RefugeePodCrash_Factionless>
   <!-- EN: {PAWN_nameDef} is from your enemy {PAWN_factionName}. You can capture {PAWN_objective} for recruitment or slavery purposes. -->
-  <RefugeePodCrash_Hostile>{PAWN_nameDef} is from your enemy {PAWN_factionName}. You can capture {PAWN_objective} for recruitment or slavery purposes.</RefugeePodCrash_Hostile>
+  <RefugeePodCrash_Hostile>{PAWN_nameDef} از دشمن شما {PAWN_factionName} است. می‌توانید {PAWN_objective} را برای استخدام یا بردگی بگیرید.</RefugeePodCrash_Hostile>
   <!-- EN: {PAWN_nameDef} is from {PAWN_factionName}. If {PAWN_pronoun} returns home safely, {PAWN_pronoun} will spread goodwill between your factions.\n\nYou can also capture {PAWN_objective} for recruitment or slavery purposes, but this will anger {PAWN_possessive} faction. -->
-  <RefugeePodCrash_NonHostile>{PAWN_nameDef} is from {PAWN_factionName}. If you rescue {PAWN_objective}, {PAWN_pronoun} may join freely. Otherwise, {PAWN_pronoun} will return home and spread goodwill between your factions.\n\nYou can also capture {PAWN_objective} for recruitment or slavery purposes, but this will anger {PAWN_possessive} faction.</RefugeePodCrash_NonHostile>
+  <RefugeePodCrash_NonHostile>{PAWN_nameDef} از {PAWN_factionName} است. اگر {PAWN_objective} را نجات دهید، {PAWN_pronoun} ممکن است آزادانه بپیوندد. در غیر این صورت، {PAWN_pronoun} به خانه باز خواهد گشت و حسن نیت را بین جناح‌های شما گسترش خواهد داد.\n\nهمچنین می‌توانید {PAWN_objective} را برای استخدام یا بردگی بگیرید، اما این کار جناح {PAWN_possessive} را عصبانی خواهد کرد.</RefugeePodCrash_NonHostile>
 
   <!-- EN: Wanderer joins: {PAWN_nameDef} -->
-  <LetterLabelWandererJoins>Wanderer joins: {PAWN_nameDef}</LetterLabelWandererJoins>
+  <LetterLabelWandererJoins>سرگردان می‌پیوندد: {PAWN_nameDef}</LetterLabelWandererJoins>
   <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and wants to join the colony.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily, claiming to have nowhere else to go. You can choose to turn {PAWN_objective} down and send {PAWN_objective} away. However, your colonists will be disturbed at sending someone away in need. -->
-  <LetterWandererJoins>A {PAWN_title} named {PAWN_nameDef} has arrived and wants to join the colony.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily, claiming to have nowhere else to go. You can choose to turn {PAWN_objective} down and send {PAWN_objective} away. However, your colonists will be disturbed at sending someone away in need.</LetterWandererJoins>
+  <LetterWandererJoins>یک {PAWN_title} به نام {PAWN_nameDef} وارد شده و می‌خواهد به مستعمره بپیوندد.\n\n[PAWN_pronoun] مایل به کمک است، اما داوطلبانه ترک نخواهد کرد و ادعا می‌کند جای دیگری برای رفتن ندارد. می‌توانید {PAWN_objective} را رد کرده و {PAWN_objective} را بفرستید. با این حال، مستعمره‌نشینان شما از فرستادن کسی که نیاز دارد ناراحت خواهند شد.</LetterWandererJoins>
 
   <!-- EN: Cargo pods -->
-  <LetterLabelCargoPodCrash>Cargo pods</LetterLabelCargoPodCrash>
+  <LetterLabelCargoPodCrash>کپسول‌های بار</LetterLabelCargoPodCrash>
   <!-- EN: You have detected a cluster of cargo pods crashing nearby.\n\nPerhaps you'll find something useful in the wreckage. -->
-  <CargoPodCrash>You have detected a cluster of cargo pods crashing nearby.\n\nPerhaps you'll find something useful in the wreckage.</CargoPodCrash>
+  <CargoPodCrash>شما خوشه‌ای از کپسول‌های بار را که در نزدیکی سقوط می‌کنند، شناسایی کرده‌اید.\n\nشاید چیز مفیدی در لاشه پیدا کنید.</CargoPodCrash>
 
   <!-- EN: an electrical conduit -->
-  <AnElectricalConduit>an electrical conduit</AnElectricalConduit>
+  <AnElectricalConduit>یک سیم برق</AnElectricalConduit>
   <!-- EN: A fault in {0} has caused a short circuit. -->
-  <ShortCircuit>A fault in {0} has caused a short circuit.</ShortCircuit>
+  <ShortCircuit>ایرادی در {0} باعث اتصال کوتاه شده است.</ShortCircuit>
   <!-- EN: A fault in {0} has caused a short circuit which started a fire. -->
-  <ShortCircuitStartedFire>A fault in {0} has caused a short circuit which started a fire.</ShortCircuitStartedFire>
+  <ShortCircuitStartedFire>ایرادی در {0} باعث اتصال کوتاه شده که آتش‌سوزی را آغاز کرده است.</ShortCircuitStartedFire>
   <!-- EN: All {0} Wd of energy in the connected batteries has been discharged in an electrical explosion. -->
-  <ShortCircuitDischargedEnergy>All {0} Wd of energy in the connected batteries has been discharged in an electrical explosion.</ShortCircuitDischargedEnergy>
+  <ShortCircuitDischargedEnergy>تمام {0} وات انرژی در باتری‌های متصل در یک انفجار الکتریکی تخلیه شده است.</ShortCircuitDischargedEnergy>
   <!-- EN: This large amount of power has created an explosion of considerable size. -->
-  <ShortCircuitWasLarge>This large amount of power has created an explosion of considerable size.</ShortCircuitWasLarge>
+  <ShortCircuitWasLarge>این مقدار زیاد انرژی انفجاری با اندازه قابل توجه ایجاد کرده است.</ShortCircuitWasLarge>
   <!-- EN: That really is a huge explosion. Wow. -->
-  <ShortCircuitWasHuge>That really is a huge explosion. Wow.</ShortCircuitWasHuge>
+  <ShortCircuitWasHuge>این واقعا یک انفجار عظیم است. وای.</ShortCircuitWasHuge>
 
   <!-- EN: A trade ship is passing nearby.\n\nThey are known as {0}. They are a {1}.\n\n{2} -->
-  <TraderArrival>A trade ship is passing nearby.\n\nThey are known as {0}. They are a {1}.\n\n{2}</TraderArrival>
+  <TraderArrival>یک کشتی تجاری در نزدیکی در حال عبور است.\n\nآنها به نام {0} شناخته می‌شوند. آنها یک {1} هستند.\n\n{2}</TraderArrival>
   <!-- EN: They're affiliated with {FACTION_name}. -->
-  <TraderArrivalFromFaction>They're affiliated with {FACTION_name}.</TraderArrivalFromFaction>
+  <TraderArrivalFromFaction>آنها وابسته به {FACTION_name} هستند.</TraderArrivalFromFaction>
   <!-- EN: They are not affiliated with any faction. -->
-  <TraderArrivalNoFaction>They are not affiliated with any faction.</TraderArrivalNoFaction>
+  <TraderArrivalNoFaction>آنها به هیچ جناحی وابسته نیستند.</TraderArrivalNoFaction>
 
   <!-- EN: A {PAWN_title} from {1} is passing by. {PAWN_pronoun} is named {PAWN_nameFull}. -->
-  <SingleTravelerPassing>A {PAWN_title} from {1} is passing by. {PAWN_pronoun} is named {PAWN_nameFull}.</SingleTravelerPassing>
+  <SingleTravelerPassing>یک {PAWN_title} از {1} در حال عبور است. {PAWN_pronoun} به نام {PAWN_nameFull} است.</SingleTravelerPassing>
   <!-- EN: A group of travelers from {0} are passing by. -->
-  <GroupTravelersPassing>A group of travelers from {0} are passing by.</GroupTravelersPassing>
+  <GroupTravelersPassing>گروهی از مسافران از {0} در حال عبور هستند.</GroupTravelersPassing>
 
   <!-- EN: Visitor -->
-  <LetterLabelSingleVisitorArrives>Visitor</LetterLabelSingleVisitorArrives>
+  <LetterLabelSingleVisitorArrives>بازدیدکننده</LetterLabelSingleVisitorArrives>
   <!-- EN: {PAWN_titleIndef} from {1} is visiting the colony.\n\n{PAWN_pronoun} is named {PAWN_nameFull}.{3}{4} -->
-  <SingleVisitorArrives>{PAWN_titleIndef} from {1} is visiting the colony.\n\n{PAWN_pronoun} is named {PAWN_nameFull}.{3}{4}</SingleVisitorArrives>
+  <SingleVisitorArrives>{PAWN_titleIndef} از {1} در حال بازدید از مستعمره است.\n\n{PAWN_pronoun} به نام {PAWN_nameFull} است.{3}{4}</SingleVisitorArrives>
   <!-- EN: {PAWN_pronoun} seems to have a few items to trade. -->
-  <SingleVisitorArrivesTraderInfo>{PAWN_pronoun} seems to have a few items to trade.</SingleVisitorArrivesTraderInfo>
+  <SingleVisitorArrivesTraderInfo>{PAWN_pronoun} به نظر می‌رسد چند قلم کالا برای تجارت دارد.</SingleVisitorArrivesTraderInfo>
   <!-- EN: {PAWN_pronoun} is the leader of the faction. -->
-  <SingleVisitorArrivesLeaderInfo>{PAWN_pronoun} is the leader of the faction.</SingleVisitorArrivesLeaderInfo>
+  <SingleVisitorArrivesLeaderInfo>{PAWN_pronoun} رهبر جناح است.</SingleVisitorArrivesLeaderInfo>
   <!-- EN: Visitors -->
-  <LetterLabelGroupVisitorsArrive>Visitors</LetterLabelGroupVisitorsArrive>
+  <LetterLabelGroupVisitorsArrive>بازدیدکنندگان</LetterLabelGroupVisitorsArrive>
   <!-- EN: A group from {0} are visiting the colony.{1}{2} -->
-  <GroupVisitorsArrive>A group from {0} are visiting the colony.{1}{2}</GroupVisitorsArrive>
+  <GroupVisitorsArrive>گروهی از {0} در حال بازدید از مستعمره هستند.{1}{2}</GroupVisitorsArrive>
   <!-- EN: They seem to have a few items to trade. -->
-  <GroupVisitorsArriveTraderInfo>They seem to have a few items to trade.</GroupVisitorsArriveTraderInfo>
+  <GroupVisitorsArriveTraderInfo>به نظر می‌رسد چند قلم کالا برای تجارت دارند.</GroupVisitorsArriveTraderInfo>
   <!-- EN: One of the visitors - {1_labelShort}, is the leader of the faction. -->
-  <GroupVisitorsArriveLeaderInfo>One of the visitors - {1_labelShort}, is the leader of the faction.</GroupVisitorsArriveLeaderInfo>
+  <GroupVisitorsArriveLeaderInfo>یکی از بازدیدکنندگان - {1_labelShort}، رهبر جناح است.</GroupVisitorsArriveLeaderInfo>
   <!-- EN: Visitors from {0} are leaving. -->
-  <VisitorsLeaving>Visitors from {0} are leaving.</VisitorsLeaving>
+  <VisitorsLeaving>بازدیدکنندگان از {0} در حال ترک هستند.</VisitorsLeaving>
 
   <!-- EN: Manhunter pack -->
-  <LetterLabelManhunterPackArrived>Manhunter pack</LetterLabelManhunterPackArrived>
+  <LetterLabelManhunterPackArrived>گله شکارچی انسان</LetterLabelManhunterPackArrived>
   <!-- EN: A pack of man-hunting {0} have entered the area! Driven insane by the disease known as scaria, they will roam the region, hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack powered-off turrets, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out, or fight them. -->
-  <ManhunterPackArrived>A pack of man-hunting {0} have entered the area! Driven insane by the disease known as scaria, they will roam the region, hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack powered-off turrets, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out, or fight them.</ManhunterPackArrived>
+  <ManhunterPackArrived>گله‌ای از {0} شکارچی انسان وارد منطقه شده‌اند! آنها که توسط بیماری معروف به اسکاریا دیوانه شده‌اند، در منطقه پرسه خواهند زد و به دنبال گوشت انسان خواهند بود.\n\nآنها به درها حمله نمی‌کنند مگر اینکه کسی را ببینند که از در عبور می‌کند. در داخل پنهان شوید و در امان خواهید بود. آنها همچنین به برجک‌های خاموش حمله نمی‌کنند، بنابراین برجک‌های خود را خاموش کنید تا آنها را نجات دهید.\n\n{0} در یک یا دو روز منطقه را ترک خواهند کرد. می‌توانید پنهان شوید و منتظر بمانید تا بروند، یا با آنها بجنگید.</ManhunterPackArrived>
   
   <!-- Crashed ship part-->
   <!-- EN: The {SOURCE_label} has emitted a psychic pulse that has driven nearby animals mad. -->
-  <MessageAnimalInsanityPulse>The {SOURCE_label} has emitted a psychic pulse that has driven nearby animals mad.</MessageAnimalInsanityPulse>
+  <MessageAnimalInsanityPulse>{SOURCE_label} یک پالس روانی منتشر کرده که حیوانات اطراف را دیوانه کرده است.</MessageAnimalInsanityPulse>
   <!-- EN: The crashed ship part has emitted a focused psychic pulse that has driven colonist {0} insane. -->
-  <LetterShipPartDroveColonistInsane>The crashed ship part has emitted a focused psychic pulse that has driven colonist {0} insane.</LetterShipPartDroveColonistInsane>
+  <LetterShipPartDroveColonistInsane>قطعه کشتی سقوط کرده یک پالس روانی متمرکز منتشر کرده که مستعمره‌نشین {0} را دیوانه کرده است.</LetterShipPartDroveColonistInsane>
   <!-- EN: Awoke {0} days ago -->
-  <AwokeDaysAgo>Awoke {0} days ago</AwokeDaysAgo>
+  <AwokeDaysAgo>{0} روز پیش بیدار شد</AwokeDaysAgo>
   <!-- EN: Activated {0} days ago -->
-  <ActivatedDaysAgo>Activated {0} days ago</ActivatedDaysAgo>
+  <ActivatedDaysAgo>{0} روز پیش فعال شد</ActivatedDaysAgo>
   <!-- EN: Opened {0} days ago -->
-  <OpenedDaysAgo>Opened {0} days ago</OpenedDaysAgo>
+  <OpenedDaysAgo>{0} روز پیش باز شد</OpenedDaysAgo>
   <!-- EN: Psychic drone level: {0} -->
-  <PsychicDroneLevel>Psychic drone level: {0}</PsychicDroneLevel>
+  <PsychicDroneLevel>سطح صدای روانی: {0}</PsychicDroneLevel>
   <!-- EN: Drone intensifies -->
-  <LetterLabelPsychicDroneLevelIncreased>Drone intensifies</LetterLabelPsychicDroneLevelIncreased>
+  <LetterLabelPsychicDroneLevelIncreased>صدا شدیدتر می‌شود</LetterLabelPsychicDroneLevelIncreased>
   <!-- EN: The crashed ship part is now emanating a more powerful kind of psychic drone. Every {0} humanlike in the area now feels more disturbed, terrified, and paranoid. -->
-  <LetterPsychicDroneLevelIncreased>The crashed ship part is now emanating a more powerful kind of psychic drone. Every {0} humanlike in the area now feels more disturbed, terrified, and paranoid.</LetterPsychicDroneLevelIncreased>
+  <LetterPsychicDroneLevelIncreased>قطعه کشتی سقوط کرده اکنون نوع قدرتمندتری از صدای روانی را منتشر می‌کند. هر {0} انسان‌نما در منطقه اکنون احساس ناراحتی، وحشت و پارانویا بیشتری می‌کند.</LetterPsychicDroneLevelIncreased>
   
   <!-- Agent revealed -->
   <!-- EN: Agent -->
-  <LetterLabelAgentRevealed>Agent</LetterLabelAgentRevealed>
+  <LetterLabelAgentRevealed>مامور</LetterLabelAgentRevealed>
   <!-- EN: {0} has been revealed as an agent of your enemy {1}.\n\nThey are attempting to escape now. -->
-  <LetterAgentRevealed>{0} has been revealed as an agent of your enemy {1}.\n\nThey are attempting to escape now.</LetterAgentRevealed>
+  <LetterAgentRevealed>{0} به عنوان مامور دشمن شما {1} فاش شده است.\n\nآنها اکنون در تلاش برای فرار هستند.</LetterAgentRevealed>
 
   <!-- Beavers -->
   <!-- EN: Beavers! -->
-  <LetterLabelBeaversArrived>Beavers!</LetterLabelBeaversArrived>
+  <LetterLabelBeaversArrived>سگ‌های آبی!</LetterLabelBeaversArrived>
   <!-- EN: A group of hungry alphabeavers has just arrived.\n\nTry to eliminate them before they decimate every last source of wood in the region. -->
-  <BeaversArrived>A group of hungry alphabeavers has just arrived.\n\nTry to eliminate them before they decimate every last source of wood in the region.</BeaversArrived>
+  <BeaversArrived>گروهی از آلفا-سگ‌های آبی گرسنه تازه وارد شده‌اند.\n\nسعی کنید آنها را قبل از اینکه آخرین منبع چوب در منطقه را از بین ببرند، نابود کنید.</BeaversArrived>
   
   <!-- Self-tame -->
   <!-- EN: {1_kind} self-tamed -->
-  <LetterLabelAnimalSelfTame>{1_kind} self-tamed</LetterLabelAnimalSelfTame>
+  <LetterLabelAnimalSelfTame>{1_kind} خود اهلی شد</LetterLabelAnimalSelfTame>
   <!-- EN: {0} has become tame. -->
-  <LetterAnimalSelfTame>{0} has become tame.</LetterAnimalSelfTame>
+  <LetterAnimalSelfTame>{0} اهلی شده است.</LetterAnimalSelfTame>
   <!-- EN: {0} has become tame. It is now designated {ANIMAL_nameFull}. -->
-  <LetterAnimalSelfTameAndNameNumerical>{0} has become tame. It is now designated {ANIMAL_nameFull}.</LetterAnimalSelfTameAndNameNumerical>
+  <LetterAnimalSelfTameAndNameNumerical>{0} اهلی شده است. اکنون به عنوان {ANIMAL_nameFull} نامگذاری شده است.</LetterAnimalSelfTameAndNameNumerical>
   <!-- EN: {0} has become tame. Colonists have decided to name it {ANIMAL_nameFull}. -->
-  <LetterAnimalSelfTameAndName>{0} has become tame. Colonists have decided to name it {ANIMAL_nameFull}.</LetterAnimalSelfTameAndName>
+  <LetterAnimalSelfTameAndName>{0} اهلی شده است. مستعمره‌نشینان تصمیم گرفته‌اند آن را {ANIMAL_nameFull} نامگذاری کنند.</LetterAnimalSelfTameAndName>
 
   <!-- Farm animals wander in -->
   <!-- EN: {0} join -->
-  <LetterLabelFarmAnimalsWanderIn>{0} join</LetterLabelFarmAnimalsWanderIn>
+  <LetterLabelFarmAnimalsWanderIn>{0} می‌پیوندند</LetterLabelFarmAnimalsWanderIn>
   <!-- EN: A group of {0}, abandoned or lost, have wandered into the area.\n\nThey seem accustomed to human contact and are joining the colony. -->
-  <LetterFarmAnimalsWanderIn>A group of {0}, abandoned or lost, have wandered into the area.\n\nThey seem accustomed to human contact and are joining the colony.</LetterFarmAnimalsWanderIn>
+  <LetterFarmAnimalsWanderIn>گروهی از {0}، رها شده یا گم شده، وارد منطقه شده‌اند.\n\nبه نظر می‌رسد به تماس با انسان عادت دارند و به مستعمره می‌پیوندد.</LetterFarmAnimalsWanderIn>
   
   <!-- Thrumbo passes -->
   <!-- EN: Rare thrumbos -->
-  <LetterLabelThrumboPasses>Rare thrumbos</LetterLabelThrumboPasses>
+  <LetterLabelThrumboPasses>ترامبوهای کمیاب</LetterLabelThrumboPasses>
   <!-- EN: A small herd of thrumbos have wandered into the area.\n\nPeaceful by nature, these rare creatures are extremely dangerous when confronted. Some traders are willing to pay a lot of money for their precious leather and horn.\n\nThrumbos will leave the area in a few days. -->
-  <LetterThrumboPasses>A small herd of thrumbos have wandered into the area.\n\nPeaceful by nature, these rare creatures are extremely dangerous when confronted. Some traders are willing to pay a lot of money for their precious leather and horn.\n\nThrumbos will leave the area in a few days.</LetterThrumboPasses>
+  <LetterThrumboPasses>گله کوچکی از ترامبوها وارد منطقه شده‌اند.\n\nاین موجودات کمیاب که ذاتاً صلح‌جو هستند، در صورت مواجهه بسیار خطرناک می‌شوند. برخی از تاجران حاضرند پول زیادی برای چرم و شاخ گرانبهای آنها بپردازند.\n\nترامبوها در چند روز آینده منطقه را ترک خواهند کرد.</LetterThrumboPasses>
   
   <!-- Trader caravan -->
   <!-- EN: {1} from {0} -->
-  <LetterLabelTraderCaravanArrival>{1} from {0}</LetterLabelTraderCaravanArrival>
+  <LetterLabelTraderCaravanArrival>{1} از {0}</LetterLabelTraderCaravanArrival>
   <!-- EN: A caravan from {0} is approaching. They are a {1}. -->
-  <LetterTraderCaravanArrival>A caravan from {0} is approaching. They are a {1}.</LetterTraderCaravanArrival>
+  <LetterTraderCaravanArrival>کاروانی از {0} در حال نزدیک شدن است. آنها یک {1} هستند.</LetterTraderCaravanArrival>
   <!-- EN: They will hang around the colony for some time before leaving. You can attack them - but this will anger their faction! -->
-  <LetterCaravanArrivalCommonWarning>They will hang around the colony for some time before leaving. You can attack them - but this will anger their faction!</LetterCaravanArrivalCommonWarning>
+  <LetterCaravanArrivalCommonWarning>آنها مدتی در اطراف مستعمره خواهند ماند و سپس ترک خواهند کرد. می‌توانید به آنها حمله کنید - اما این کار جناح آنها را عصبانی خواهد کرد!</LetterCaravanArrivalCommonWarning>
     
   <!-- Ransom demand -->
   <!-- EN: Ransom demand at {0} -->
-  <RansomDemandTitle>Ransom demand at {0}</RansomDemandTitle>
+  <RansomDemandTitle>درخواست باج در {0}</RansomDemandTitle>
   <!-- EN: {1} contacts you on radio. They are holding former colonist {PAWN_labelShort} for ransom.\n\nThey're willing to release {PAWN_objective} back to you in exchange for {2} silver. -->
-  <RansomDemand>{1} contacts you on radio. They are holding former colonist {PAWN_labelShort} for ransom.\n\nThey're willing to release {PAWN_objective} back to you in exchange for {2} silver.</RansomDemand>
+  <RansomDemand>{1} از طریق رادیو با شما تماس می‌گیرد. آنها مستعمره‌نشین سابق {PAWN_labelShort} را برای باج نگه داشته‌اند.\n\nآنها حاضرند {PAWN_objective} را در ازای {2} نقره به شما بازگردانند.</RansomDemand>
   <!-- EN: Accept -->
   <RansomDemand_Accept>پذیرفتن</RansomDemand_Accept>
   <!-- EN: Reject -->
@@ -173,76 +173,76 @@
   
   <!-- Journey-related -->
   <!-- EN: Ship found -->
-  <EscapeShipFoundLabel>Ship found</EscapeShipFoundLabel>
+  <EscapeShipFoundLabel>کشتی پیدا شد</EscapeShipFoundLabel>
   <!-- EN: You've reached the coordinates sent by (*Name)Charlon Whitestone(/Name) and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n(*Name)Charlon Whitestone(/Name) warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <EscapeShipFound>You've reached the coordinates sent by (*Name)Charlon Whitestone(/Name) and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n(*Name)Charlon Whitestone(/Name) warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first.</EscapeShipFound>
+  <EscapeShipFound>شما به مختصات ارسال شده توسط (*Name)Charlon Whitestone(/Name) رسیده‌اید و ستاره‌پیما پنهان را کشف کرده‌اید.\n\nراکتور کشتی هنوز در حالت خواب عمیق است، بنابراین هنوز نمی‌تواند پرواز کند. می‌توانید با تعامل با هسته کامپیوتر آن را راه‌اندازی کنید.\n\n(*Name)Charlon Whitestone(/Name) به شما هشدار می‌دهد که فرآیند راه‌اندازی حدود ۱۵ روز طول می‌کشد و امضای انرژی از فاصله دور قابل تشخیص خواهد بود. این نوع امضای انرژی نشان‌دهنده قابلیت پرواز بین ستاره‌ای است و دسته‌هایی از مهاجمان ناامید و انبوهی از مکانویدهای مرگبار را جذب خواهد کرد.\n\nبا شدتی که هرگز ندیده‌اید مورد حمله قرار خواهید گرفت. ابتدا مطمئن شوید که دفاعیات شما آماده است.</EscapeShipFound>
   <!-- EN: You've reached the coordinates sent by (*Name)Charlon Whitestone(/Name) and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n(*Name)Charlon Whitestone(/Name) warns you that the startup process will take about 15 days. -->
-  <EscapeShipFoundPeaceful>You've reached the coordinates sent by (*Name)Charlon Whitestone(/Name) and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n(*Name)Charlon Whitestone(/Name) warns you that the startup process will take about 15 days.</EscapeShipFoundPeaceful>
+  <EscapeShipFoundPeaceful>شما به مختصات ارسال شده توسط (*Name)Charlon Whitestone(/Name) رسیده‌اید و ستاره‌پیما پنهان را کشف کرده‌اید.\n\nراکتور کشتی هنوز در حالت خواب عمیق است، بنابراین هنوز نمی‌تواند پرواز کند. می‌توانید با تعامل با هسته کامپیوتر آن را راه‌اندازی کنید.\n\n(*Name)Charlon Whitestone(/Name) به شما هشدار می‌دهد که فرآیند راه‌اندازی حدود ۱۵ روز طول می‌کشد.</EscapeShipFoundPeaceful>
 
   <!-- Caravan meeting -->
   <!-- EN: Caravan meeting by {0} -->
-  <CaravanMeetingTitle>Caravan meeting by {0}</CaravanMeetingTitle>
+  <CaravanMeetingTitle>ملاقات کاروان توسط {0}</CaravanMeetingTitle>
   <!-- EN: {0} has met peacefully with a caravan from {1}. The other caravan is composed of:\n\n{2} -->
-  <CaravanMeeting>{0} has met peacefully with a caravan from {1}. The other caravan is composed of:\n\n{2}</CaravanMeeting>
+  <CaravanMeeting>{0} به صورت مسالمت‌آمیز با کاروانی از {1} ملاقات کرده است. کاروان دیگر متشکل از:\n\n{2}</CaravanMeeting>
   <!-- EN: Trade -->
   <CaravanMeeting_Trade>تجارت</CaravanMeeting_Trade>
   <!-- EN: Attack -->
-  <CaravanMeeting_Attack>Attack</CaravanMeeting_Attack>
+  <CaravanMeeting_Attack>حمله</CaravanMeeting_Attack>
   <!-- EN: Move on -->
-  <CaravanMeeting_MoveOn>Move on</CaravanMeeting_MoveOn>
+  <CaravanMeeting_MoveOn>ادامه مسیر</CaravanMeeting_MoveOn>
   <!-- EN: no caravan members capable of trading -->
-  <CaravanMeeting_TradeIncapable>no caravan members capable of trading</CaravanMeeting_TradeIncapable>
+  <CaravanMeeting_TradeIncapable>هیچ عضو کاروانی قادر به تجارت نیست</CaravanMeeting_TradeIncapable>
   <!-- EN: need a trader with the title of {0} from {1_name} -->
-  <CaravanMeeting_NoPermit>need a trader with the title of {0} from {1_name}</CaravanMeeting_NoPermit>
+  <CaravanMeeting_NoPermit>نیاز به تاجری با عنوان {0} از {1_name} دارید</CaravanMeeting_NoPermit>
   
   <!-- Caravan request -->
   <!-- EN: Caravan request -->
-  <LetterLabelCaravanRequest>Caravan request</LetterLabelCaravanRequest>
+  <LetterLabelCaravanRequest>درخواست کاروان</LetterLabelCaravanRequest>
   <!-- EN: A nearby settlement, {0}, contacts you with a special trade request. They would like to purchase:\n\n  {1} (worth {2})\n\nIn return, they offer:\n\n  {3} (worth {4})\n\nThis request expires after: {5}\n\nIf you want to make the trade, send a caravan with the requested supplies. The estimated travel time is {6}. You can review this offer by selecting {0} on the world map. -->
-  <LetterCaravanRequest>A nearby settlement, {0}, contacts you with a special trade request. They would like to purchase:\n\n  {1} (worth {2})\n\nIn return, they offer:\n\n  {3} (worth {4})\n\nThis request expires after: {5}\n\nIf you want to make the trade, send a caravan with the requested supplies. The estimated travel time is {6}. You can review this offer by selecting {0} on the world map.</LetterCaravanRequest>
+  <LetterCaravanRequest>یک سکونتگاه نزدیک، {0}، با یک درخواست تجاری ویژه با شما تماس می‌گیرد. آنها مایلند خریداری کنند:\n\n  {1} (به ارزش {2})\n\nدر ازای آن، پیشنهاد می‌دهند:\n\n  {3} (به ارزش {4})\n\nاین درخواست پس از: {5} منقضی می‌شود.\n\nاگر می‌خواهید تجارت را انجام دهید، کاروانی با تدارکات درخواستی ارسال کنید. زمان تخمینی سفر {6} است. می‌توانید این پیشنهاد را با انتخاب {0} روی نقشه جهان بررسی کنید.</LetterCaravanRequest>
   <!-- EN: Requesting: {0} ({2}) ({1} left) -->
-  <CaravanRequestInfo>Requesting: {0} ({2}) ({1} left)</CaravanRequestInfo>
+  <CaravanRequestInfo>درخواست: {0} ({2}) ({1} باقی مانده)</CaravanRequestInfo>
   <!-- EN: normal quality or better -->
-  <NormalQualityOrBetter>normal quality or better</NormalQualityOrBetter>
+  <NormalQualityOrBetter>کیفیت عادی یا بهتر</NormalQualityOrBetter>
   <!-- EN: not tainted -->
-  <NotTainted>not tainted</NotTainted>
+  <NotTainted>آلوده نشده</NotTainted>
 
   <!-- Caravan demand -->
   <!-- EN: Caravan demand by {0} -->
-  <CaravanDemandTitle>Caravan demand by {0}</CaravanDemandTitle>
+  <CaravanDemandTitle>درخواست کاروان توسط {0}</CaravanDemandTitle>
   <!-- EN: {0} has been ambushed by a group of {2} {4} from {1}. They will attack unless you give them:\n\n{3} -->
-  <CaravanDemand>{0} has been ambushed by a group of {2} {4} from {1}. They will attack unless you give them:\n\n{3}</CaravanDemand>
+  <CaravanDemand>{0} توسط گروهی از {2} {4} از {1} کمین شده است. آنها حمله خواهند کرد مگر اینکه به آنها بدهید:\n\n{3}</CaravanDemand>
   <!-- EN: Give and pass -->
-  <CaravanDemand_Give>Give and pass</CaravanDemand_Give>
+  <CaravanDemand_Give>بده و عبور کن</CaravanDemand_Give>
   <!-- EN: Refuse and fight -->
-  <CaravanDemand_Fight>Refuse and fight</CaravanDemand_Fight>
+  <CaravanDemand_Fight>رد کن و بجنگ</CaravanDemand_Fight>
 
   <!-- Site no longer hostile -->
   <!-- EN: Quest no longer available -->
-  <LetterLabelSiteNoLongerHostile>Quest no longer available</LetterLabelSiteNoLongerHostile>
+  <LetterLabelSiteNoLongerHostile>ماموریت شکست خورد</LetterLabelSiteNoLongerHostile>
   <!-- EN: Quests no longer available -->
-  <LetterLabelSiteNoLongerHostileMulti>Quests no longer available</LetterLabelSiteNoLongerHostileMulti>
+  <LetterLabelSiteNoLongerHostileMulti>ماموریت‌ها دیگر در دسترس نیستند</LetterLabelSiteNoLongerHostileMulti>
   <!-- EN: Because you are no longer hostile with {0}, the {1} site is no longer available. -->
-  <LetterSiteNoLongerHostile>Because you are no longer hostile with {0}, the {1} site is no longer available.</LetterSiteNoLongerHostile>
+  <LetterSiteNoLongerHostile>چون دیگر با {0} دشمن نیستید، سایت {1} دیگر در دسترس نیست.</LetterSiteNoLongerHostile>
   <!-- EN: Because you are no longer hostile with {0}, the following sites are no longer available -->
-  <LetterSiteNoLongerHostileMulti>Because you are no longer hostile with {0}, the following sites are no longer available</LetterSiteNoLongerHostileMulti>
+  <LetterSiteNoLongerHostileMulti>چون دیگر با {0} دشمن نیستید، سایت‌های زیر دیگر در دسترس نیستند</LetterSiteNoLongerHostileMulti>
 
   <!-- Quest asker faction hostile -->
   <!-- EN: Quest failed -->
-  <LetterLabelQuestAskerFactionHostile>Quest failed</LetterLabelQuestAskerFactionHostile>
+  <LetterLabelQuestAskerFactionHostile>ماموریت شکست خورد</LetterLabelQuestAskerFactionHostile>
   <!-- EN: The quest is now incompletable because {FACTION_name} is hostile. -->
-  <LetterQuestAskerFactionHostile>The quest is now incompletable because {FACTION_name} is hostile.</LetterQuestAskerFactionHostile>
+  <LetterQuestAskerFactionHostile>ماموریت اکنون قابل تکمیل نیست زیرا {FACTION_name} دشمن است.</LetterQuestAskerFactionHostile>
 
   <!-- Quest asker captured -->
   <!-- EN: Quest failed -->
-  <LetterLabelQuestAskerCaptured>Quest failed</LetterLabelQuestAskerCaptured>
+  <LetterLabelQuestAskerCaptured>ماموریت شکست خورد</LetterLabelQuestAskerCaptured>
   <!-- EN: The quest is now incompletable because {SUBJECT_definite} has been captured. -->
-  <LetterQuestAskerCaptured>The quest is now incompletable because {SUBJECT_definite} has been captured.</LetterQuestAskerCaptured>
+  <LetterQuestAskerCaptured>ماموریت اکنون قابل تکمیل نیست زیرا {SUBJECT_definite} دستگیر شده است.</LetterQuestAskerCaptured>
 
   <!-- Quest asker died -->
   <!-- EN: Quest failed -->
-  <LetterLabelQuestAskerDied>Quest failed</LetterLabelQuestAskerDied>
+  <LetterLabelQuestAskerDied>ماموریت شکست خورد</LetterLabelQuestAskerDied>
   <!-- EN: The quest is now incompletable because {SUBJECT_definite} has died. -->
-  <LetterQuestAskerDied>The quest is now incompletable because {SUBJECT_definite} has died.</LetterQuestAskerDied>
+  <LetterQuestAskerDied>ماموریت اکنون قابل تکمیل نیست زیرا {SUBJECT_definite} مرده است.</LetterQuestAskerDied>
 
 </LanguageData>

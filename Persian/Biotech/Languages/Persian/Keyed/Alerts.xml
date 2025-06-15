@@ -74,7 +74,7 @@
   <!-- EN: Need slave cribs -->
   <AlertNeedSlaveCribs>نیاز به گهواره برده</AlertNeedSlaveCribs>
   <!-- EN: You have more slave babies than you have cribs marked for slave use.\n\nEither make more cribs or change a colonist crib to a slave crib.\n\nIf you have no resources, baby sleeping spots are free and can be placed instantly. -->
-  <AlertNeedSlaveCribsDesc>شما نوزادان برده بیشتری نسبت به گهواره‌های مشخص شده برای استفاده بردگان دارید.\n\nیا گهواره‌های بیشتری بسازید یا یک گهواره مستعمره‌نشین را به گهواره برده تغییر دهید.\n\nاگر منابعی ندارید، جای خواب نوزاد رایگان است و می‌توان فوراً آن‌ها را قرار داد.</AlertNeedSlaveC SlaveCribsDesc>
+  <AlertNeedSlaveCribsDesc>شما نوزادان برده بیشتری نسبت به گهواره‌های مشخص شده برای استفاده بردگان دارید.\n\nیا گهواره‌های بیشتری بسازید یا یک گهواره مستعمره‌نشین را به گهواره برده تغییر دهید.\n\nاگر منابعی ندارید، جای خواب نوزاد رایگان است و می‌توان فوراً آن‌ها را قرار داد.</AlertNeedSlaveCribsDesc>
 
   <!-- EN: Polluted terrain -->
   <AlertPollutedTerrain>زمین آلوده</AlertPollutedTerrain>
@@ -93,8 +93,8 @@
   <!-- EN: These mechanoids are damaged and need repair -->
   <AlertMechNeedsRepairDescPrefix>این مکانیویدها آسیب دیده‌اند و نیاز به تعمیر دارند</AlertMechNeedsRepairDescPrefix>
   <!-- EN: Order a mechanitor to repair them, or select the mech and turn on auto-repair. Repairing a mechanoid requires energy. If a mechanoid's energy is so low it can't move, someone must carry it to a recharger. -->
-  <AlertMechNeedsRepairDesc>به یک مکانیتور دستور دهید آن‌ها را تعمیر کند، یا مکانیوید را انتخاب کرده و تعمیر خودکار را روشن کنید. تعمیر مکانیوید نیاز به انرژی دارد. اگر انرژی یک مکانیوید آنقدر کم باشد که نتواند حرکت کند، کسی باید آن را به شارژر حمل کند.</AlertMechMechNeedsRepairDesc>
-
+  <AlertMechNeedsRepairDesc>به یک مکانیتور دستور دهید آن‌ها را تعمیر کند، یا مکانیوید را انتخاب کرده و تعمیر خودکار را روشن کنید. تعمیر مکانیوید نیاز به انرژی دارد. اگر انرژی یک مکانیوید آنقدر کم باشد که نتواند حرکت کند، کسی باید آن را به شارژر حمل کند.</AlertMechNeedsRepairDesc>
+  
   <!-- EN: {0} stopped -->
   <AlertToxifierGeneratorStopped>{0} متوقف شد</AlertToxifierGeneratorStopped>
   <!-- EN: Your {0} is not producing power because it has no nearby fertile terrain to convert.\n\nClean polluted terrain with pollution pumps, or by assigning a pollution removal area. -->

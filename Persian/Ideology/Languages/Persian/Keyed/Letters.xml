@@ -15,7 +15,7 @@
   <!-- EN: Local slave rebellion -->
   <LetterLabelLocalSlaveRebellion>شورش محلی بردگان</LetterLabelLocalSlaveRebellion>
   <!-- EN: A local slave rebellion has begun! {0_nameDef} and some nearby slaves are rising up to fight back against you. They will seek weapons and try to eliminate your colonists.\n\nThese slaves are involved:\n\n{1} -->
-  <LetterLocalSlaveRebellion>شورش محلی بردگان آغاز شده است! {0_nameDef} و برخی بردگان نزدیک برای مبارزه با شما قیام کرده‌اند. آن‌ها به دنبال سلاح خواهند بود و سعی خواهند کرد مستعمره‌نشینان شما را از بین ببرند.\n\nاین بردگان درگیر هستند:\n\n{1}</LetterLocalSlaveRebellion>
+  <LetterLocalSlaveRebellion>شورش محلی بردگان آغاز شده است! {0_nameDef} و برخی بردگان نزدیک برای مبارزه با شما قیام کرده‌اند. آن‌ها به دنبال سلاح خواهند بود و سعی خواهند کرد مستعمره‌نشینان شما را از بین ببرند.\n\nاین بردگان درگیر هستند:\n\n{1}</LetterLocalSlaveRebellion> 
   <!-- EN: Slave rebellion -->
   <LetterLabelSingleSlaveRebellion>شورش برده</LetterLabelSingleSlaveRebellion>
   <!-- EN: {0_nameDef} is rebelling! {0_pronoun} will seek weapons and try to eliminate your colonists. -->
@@ -37,7 +37,7 @@
 
   <!-- EN: Slaves are more likely to rebel when their suppression level is low. -->
   <SlaveRebellionSuppressionExplanation>بردگان زمانی که سطح سرکوبشان پایین است، بیشتر احتمال دارد شورش کنند.</SlaveRebellionSuppressionExplanation>
-
+  
   <!-- Ideo role -->
   <!-- EN: {0} role activated -->
   <LetterLabelRoleActive>نقش {0} فعال شد</LetterLabelRoleActive>
@@ -63,7 +63,7 @@
   <LetterObligationRoleInactive>{0} رد شد.</LetterObligationRoleInactive>
   <!-- EN: {0} is the date of the {1}, but since {ROLE_labelDef} role is inactive, the {2}s will skip the {1}. -->
   <LetterObligationRoleInactiveDateDesc>{0} تاریخ {1} است، اما از آنجایی که نقش {ROLE_labelDef} غیرفعال است، {2}ها {1} را رد خواهند کرد.</LetterObligationRoleInactiveDateDesc>
-
+  
   <!-- Ideo misc -->
   <!-- EN: {PAWN_pronoun}'s speech converted following people to {IDEO} -->
   <LetterSpeechConvertedListeners>سخنرانی {PAWN_pronoun} افراد زیر را به {IDEO} تبدیل کرد</LetterSpeechConvertedListeners>
@@ -149,7 +149,7 @@
   <LetterLabelRelicDestroyed>یادگار نابود شد</LetterLabelRelicDestroyed>
   <!-- EN: {0} has been destroyed!\n\nThe following people will suffer a mood reduction:\n{1} -->
   <LetterTextRelicDestroyed>{0} نابود شده است!\n\nافراد زیر کاهش خلق و خو خواهند داشت:\n{1}</LetterTextRelicDestroyed>
-
+  
   <!-- Relic lost -->
   <!-- EN: Relic lost -->
   <LetterLabelRelicLost>یادگار از دست رفت</LetterLabelRelicLost>

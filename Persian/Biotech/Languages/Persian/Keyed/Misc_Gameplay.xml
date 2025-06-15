@@ -209,7 +209,7 @@
   <AptitudesDesc>استعداد باعث می‌شود فرد در سطحی بالاتر یا پایین‌تر از مهارت آموخته شده خود عمل کند.\n\nبه عنوان مثال، استعداد +1 برای یک مهارت به این معنی است که فردی با سطح 5 در آن مهارت، مانند سطح 6 عمل خواهد کرد.\n\nمقدار کل نمی‌تواند از سطح 20 تجاوز کند یا به زیر سطح 1 برسد.</AptitudesDesc>
   <!-- EN: total -->
   <Total>کل</Total>
-
+  
   <!-- Human pregnancy -->
   <!-- EN: Father -->
   <FatherTip>پدر</FatherTip>
@@ -322,31 +322,31 @@
   <!-- EN: Stop all work on the current xenogerm. -->
   <CancelXenogermDesc>تمام کارها روی ژن بیگانه فعلی را متوقف کنید.</CancelXenogermDesc>
   <!-- EN: Allow all genepacks -->
-  <AllowAllGenepacks>اجازه تمام بسته‌های ژنی</AllowAllGenepacks>
+  <AllowAllGenepacks>اجازه تمام بسته‌های ژنی</AllowAllGenepacks> 
   <!-- EN: Whether or not colonists are allowed to automatically store any genepack into this container. Turn this off if you want to specify which specific genepacks should be stored here. -->
-  <AllowAllGenepacksDesc>اینکه آیا به مستعمره‌نشینان اجازه داده می‌شود به طور خودکار هر بسته ژنی را در این ظرف ذخیره کنند یا خیر. اگر می‌خواهید مشخص کنید کدام بسته‌های ژنی خاص باید در اینجا ذخیره شوند، این گزینه را خاموش کنید.</AllowAllGenepacksDesc>
+  <AllowAllGenepacksDesc>اینکه آیا به مستعمره‌نشینان اجازه داده می‌شود به طور خودکار هر بسته ژنی را در این ظرف ذخیره کنند یا خیر. اگر می‌خواهید مشخص کنید کدام بسته‌های ژنی خاص باید در اینجا ذخیره شوند، این گزینه را خاموش کنید.</AllowAllGenepacksDesc> 
   <!-- EN: The genepacks currently inside this container. -->
-  <ContainedGenepacksDesc>بسته‌های ژنی که در حال حاضر داخل این ظرف هستند.</ContainedGenepacksDesc>
+  <ContainedGenepacksDesc>بسته‌های ژنی که در حال حاضر داخل این ظرف هستند.</ContainedGenepacksDesc> 
   <!-- EN: The genepacks designated to be loaded into this container. -->
-  <GenepacksToLoadDesc>بسته‌های ژنی که برای بارگیری در این ظرف تعیین شده‌اند.</GenepacksToLoadDesc>
+  <GenepacksToLoadDesc>بسته‌های ژنی که برای بارگیری در این ظرف تعیین شده‌اند.</GenepacksToLoadDesc> 
   <!-- EN: Unstored genepacks that are not designated to be loaded into this container. -->
-  <GenepacksIgnoredDesc>بسته‌های ژنی ذخیره نشده که برای بارگیری در این ظرف تعیین نشده‌اند.</GenepacksIgnoredDesc>
+  <GenepacksIgnoredDesc>بسته‌های ژنی ذخیره نشده که برای بارگیری در این ظرف تعیین نشده‌اند.</GenepacksIgnoredDesc> 
   <!-- EN: Genepacks to load -->
-  <GenepacksToLoad>بسته‌های ژنی برای بارگیری</GenepacksToLoad>
+  <GenepacksToLoad>بسته‌های ژنی برای بارگیری</GenepacksToLoad> 
   <!-- EN: Genepacks to ignore -->
-  <GenepacksToIgnore>بسته‌های ژنی برای نادیده گرفتن</GenepacksToIgnore>
+  <GenepacksToIgnore>بسته‌های ژنی برای نادیده گرفتن</GenepacksToIgnore> 
   <!-- EN: Eject this genepack from the container. -->
-  <EjectGenepackDesc>این بسته ژنی را از ظرف خارج کنید.</EjectGenepackDesc>
+  <EjectGenepackDesc>این بسته ژنی را از ظرف خارج کنید.</EjectGenepackDesc> 
   <!-- EN: Do you really want to eject {0}? It will be immediately ejected onto the ground nearby. -->
-  <ConfirmRemoveGenepack>آیا واقعاً می‌خواهید {0} را خارج کنید؟ بلافاصله در نزدیکی روی زمین پرتاب خواهد شد.</ConfirmRemoveGenepack>
+  <ConfirmRemoveGenepack>آیا واقعاً می‌خواهید {0} را خارج کنید؟ بلافاصله در نزدیکی روی زمین پرتاب خواهد شد.</ConfirmRemoveGenepack> 
   <!-- EN: Missing required research -->
   <MissingRequiredResearch>تحقیق مورد نیاز گم شده است</MissingRequiredResearch>
   <!-- EN: No genepacks available in nearby gene banks. -->
-  <NoGenepacksAvailable>هیچ بسته ژنی در بانک‌های ژن نزدیک موجود نیست.</NoGenepacksAvailable>
+  <NoGenepacksAvailable>هیچ بسته ژنی در بانک‌های ژن نزدیک موجود نیست.</NoGenepacksAvailable> 
   <!-- EN: Allow this genepack to be loaded into this container. -->
-  <AddToLoadingListDesc>اجازه دهید این بسته ژنی در این ظرف بارگیری شود.</AddToLoadingListDesc>
+  <AddToLoadingListDesc>اجازه دهید این بسته ژنی در این ظرف بارگیری شود.</AddToLoadingListDesc> 
   <!-- EN: Remove this genepack from the loading list. -->
-  <RemoveFromLoadingListDesc>این بسته ژنی را از لیست بارگیری حذف کنید.</RemoveFromLoadingListDesc>
+  <RemoveFromLoadingListDesc>این بسته ژنی را از لیست بارگیری حذف کنید.</RemoveFromLoadingListDesc> 
   <!-- EN: Recombine -->
   <Recombine>ترکیب مجدد</Recombine>
   <!-- EN: Create a new implantable xenogerm using data from genepacks in your gene library. -->
@@ -511,7 +511,7 @@
   <MechPowerCell>سلول انرژی</MechPowerCell>
   <!-- EN: War urchins have a one-time power source. When the power cell runs out, the mechanoid dies. -->
   <MechPowerCellTip>جوجه‌تیغی‌های جنگی یک منبع انرژی یک‌بار مصرف دارند. وقتی سلول انرژی تمام شود، مکانیوید می‌میرد.</MechPowerCellTip>
-
+  
 
   <!-- Bossgroup -->
   <!-- EN: available in {0}. -->

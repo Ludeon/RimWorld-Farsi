@@ -126,7 +126,7 @@
   <!-- EN: {PAWN_labelShort} is not a human -->
   <PsychicRitualLeaveReason_Mutant>{PAWN_labelShort} انسان نیست</PsychicRitualLeaveReason_Mutant>
   <!-- EN: {PAWN_labelShort}'s belief in {IDEO_name} prevents participation -->
-  <PsychicRitualLeaveReason_IdeoUnwilling>اعتقاد {PAWN_labelShort} به {IDEO_name} از شرکت جلوگیری می‌کند</PsychicRitualLeaveReason_IdeoUnwilling>
+  <PsychicRitualLeaveReason_IdeoUnwilling>اعتقاد {PAWN_labelShort} به {IDEO_name} از شرکت جلوگیری می‌کند</PsychicRitualLeaveReason_IdeoUnwilling> 
   <!-- EN: {PAWN_labelShort} is not psychically sensitive -->
   <PsychicRitualLeaveReason_NoPsychicSensitivity>{PAWN_labelShort} از نظر روانی حساس نیست</PsychicRitualLeaveReason_NoPsychicSensitivity>
   <!-- EN: {PAWN_labelShort} is a temporary faction member -->
@@ -158,7 +158,7 @@
   <!-- EN: {PAWN_labelShort} is out of position -->
   <PsychicRitualToil_InvokeHorax_PawnIsOutOfPosition>{PAWN_labelShort} خارج از موقعیت است</PsychicRitualToil_InvokeHorax_PawnIsOutOfPosition>
   <!-- EN: defending psychic ritual -->
-  <PsychicRitualToil_InvokeHorax_JobReport_Defender>در حال دفاع از آیین روانی</PsychicRitualToil_InvokeHorax_JobReport_Defender>
+  <PsychicRitualToil_InvokeHorax_JobReport_Defender>در حال دفاع از آیین روانی</PsychicRitualToil_InvokeHorax_JobReport_Defender> 
 
   <!-- EN: waiting on -->
   <PsychicRitualToil_GatherForInvocation_Report>در انتظار</PsychicRitualToil_GatherForInvocation_Report>

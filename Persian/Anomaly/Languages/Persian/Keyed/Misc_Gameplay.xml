@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
   <!-- Shamblers -->
   <!-- EN: Regenerating to rise again. -->
   <ShamblerRegenerating>در حال بازسازی برای برخاستن دوباره.</ShamblerRegenerating>
@@ -28,7 +28,7 @@
   <!-- EN: A revenant has revealed itself! -->
   <LetterRevenantRevealed>یک رِوِنِنت خود را آشکار کرد!</LetterRevenantRevealed>
   <!-- EN: A revenant has revealed itself and is hunting one of your colonists! -->
-  <LetterRevenantRevealedFirst>یک رِوِنِنت خود را آشکار کرده و در حال شکار یکی از مستعمره‌نشینان شماست!</LetterRevenantRevealedFirst>
+  <LetterRevenantRevealedFirst>یک رِوِنِنت خود را آشکار کرده و در حال شکار یکی از مستعمره‌نشینان شماست!</LetterRevenantRevealedFirst> 
   <!-- EN: Revenant smear discovered -->
   <LetterLabelRevenantSmearDiscovered>لکه رِوِنِنت کشف شد</LetterLabelRevenantSmearDiscovered>
   <!-- EN: {0} has noticed a black slick on the ground. It looks unnatural and gives off a foul, acrid smell. It is still fresh and wet. An eldritch entity passed by recently. -->
@@ -74,10 +74,10 @@
 
   <!-- Death Pall -->
   <!-- EN: Death pall clearing -->
-  <LetterLabelDeathPallEnded>پاک شدن پرده مرگ</LetterLabelDeathPallEnded>
+  <LetterLabelDeathPallEnded>پاک شدن پرده مرگ</LetterLabelDeathPallEnded> 
   <!-- EN: The pall of death is lifting. The corpses reanimated by it will soon return to their natural state. -->
   <LetterDeathPallEnded>پرده مرگ در حال کنار رفتن است. اجسادی که توسط آن احیا شده‌اند به زودی به حالت طبیعی خود باز خواهند گشت.</LetterDeathPallEnded>
-
+  
   <!-- Pit Gate -->
   <!-- EN: Pit gate closing -->
   <LetterLabelGateClosing>دروازه گودال در حال بسته شدن</LetterLabelGateClosing>
@@ -88,11 +88,11 @@
   <!-- EN: Pit gate closed -->
   <PitGateClosedHumanityNote>دروازه گودال بسته شد</PitGateClosedHumanityNote>
   <!-- EN: Pit gate collapsing -->
-  <PitGateCollapsing>دروازه گودال در حال فرو ریختن</PitGateCollapsing>
+  <PitGateCollapsing>دروازه گودال در حال فرو ریختن</PitGateCollapsing> 
   <!-- EN: Pit gate settling -->
-  <PitGateSettling>دروازه گودال در حال تثبیت</PitGateSettling>
+  <PitGateSettling>دروازه گودال در حال تثبیت</PitGateSettling> 
   <!-- EN: View undercave -->
-  <ViewUndercave>مشاهده غار زیرین</ViewUndercave>
+  <ViewUndercave>مشاهده غار زیرین</ViewUndercave> 
   <!-- EN: View the connected undercave map. -->
   <ViewUndercaveDesc>مشاهده نقشه غار زیرین متصل.</ViewUndercaveDesc>
   <!-- EN: View surface -->
@@ -112,19 +112,19 @@
 
     <!-- Undercave -->
   <!-- EN: Enter pit gate -->
-  <EnterPitGate>ورود به دروازه گودال</EnterPitGate>
+  <EnterPitGate>ورود به دروازه گودال</EnterPitGate> 
   <!-- EN: Climb to surface -->
   <ExitPitGate>صعود به سطح</ExitPitGate>
   <!-- EN: Fleshbeast lair -->
-  <LetterLabelGateEntered>لانه هیولای گوشتی</LetterLabelGateEntered>
+  <LetterLabelGateEntered>لانه هیولای گوشتی</LetterLabelGateEntered> 
   <!-- EN: In the depths of the pit gate, you have discovered a massive cavern system infested with fleshbeasts.\n\nThe cavern system is clogged with masses of living flesh that block your progress. Attack the fleshmass to destroy it.\n\nThe entire cavern system seems unstable. If you find what lies behind the fleshmass, you may be able to collapse the tunnels and close the pit gate. -->
-  <LetterGateEntered>در اعماق دروازه گودال، یک سیستم غار عظیم را کشف کرده‌اید که پر از هیولاهای گوشتی است.\n\nسیستم غار با توده‌های گوشت زنده مسدود شده که پیشروی شما را متوقف می‌کند. به توده گوشت حمله کنید تا آن را نابود کنید.\n\nکل سیستم غار ناپایدار به نظر می‌رسد. اگر آنچه را که پشت توده گوشت قرار دارد پیدا کنید، ممکن است بتوانید تونل‌ها را فرو بریزید و دروازه گودال را ببندید.</LetterGateEntered>
+  <LetterGateEntered>در اعماق دروازه گودال، یک سیستم غار عظیم را کشف کرده‌اید که پر از هیولاهای گوشتی است.\n\nسیستم غار با توده‌های گوشت زنده مسدود شده که پیشروی شما را متوقف می‌کند. به توده گوشت حمله کنید تا آن را نابود کنید.\n\nکل سیستم غار ناپایدار به نظر می‌رسد. اگر آنچه را که پشت توده گوشت قرار دارد پیدا کنید، ممکن است بتوانید تونل‌ها را فرو بریزید و دروازه گودال را ببندید.</LetterGateEntered> 
   <!-- EN: Squirming sounds -->
-  <LetterLabelDreadmeldWarning>صداهای وول خوردن</LetterLabelDreadmeldWarning>
+  <LetterLabelDreadmeldWarning>صداهای وول خوردن</LetterLabelDreadmeldWarning> 
   <!-- EN: As {PAWN_nameDef} draws near the fleshmass here, {PAWN_pronoun} senses a heavy writhing and throbbing from under its warm surface. Some huge living entity is hidden behind the wall of flesh. -->
-  <LetterDreadmeldWarning>همانطور که {PAWN_nameDef} به توده گوشت نزدیک می‌شود، {PAWN_pronoun} احساس وول خوردن و ضربان سنگینی را از زیر سطح گرم آن حس می‌کند. موجود زنده‌ی عظیمی پشت دیوار گوشت پنهان شده است.</LetterDreadmeldWarning>
+  <LetterDreadmeldWarning>همانطور که {PAWN_nameDef} به توده گوشت نزدیک می‌شود، {PAWN_pronoun} احساس وول خوردن و ضربان سنگینی را از زیر سطح گرم آن حس می‌کند. موجود زنده‌ی عظیمی پشت دیوار گوشت پنهان شده است.</LetterDreadmeldWarning> 
   <!-- EN: Undercave unstable -->
-  <LetterLabelUndercaveCollapsing>غار زیرین ناپایدار</LetterLabelUndercaveCollapsing>
+  <LetterLabelUndercaveCollapsing>غار زیرین ناپایدار</LetterLabelUndercaveCollapsing> 
   <!-- EN: The dreadmeld's death has shocked the fleshmass and caused the cave system to destabilize. The fleshmass that supported the cavern is already beginning to deteriorate. Within half a day, the entire cavern will collapse.\n\nGet out of the undercave before it's too late! -->
   <LetterUndercaveCollapsing>مرگ دردمِلد توده گوشت را شوکه کرده و باعث ناپایداری سیستم غار شده است. توده گوشتی که غار را پشتیبانی می‌کرد، در حال حاضر شروع به تخریب کرده است. ظرف نیم روز، کل غار فرو خواهد ریخت.\n\nقبل از اینکه دیر شود از غار زیرین خارج شوید!</LetterUndercaveCollapsing>
 
@@ -142,15 +142,15 @@
   <!-- EN: Select holding platform -->
   <SelectHoldingPlatform>انتخاب سکوی نگهداری</SelectHoldingPlatform>
   <!-- EN: Entity escape -->
-  <LetterLabelEscapingFromHoldingPlatform>فرار موجود</LetterLabelEscapingFromHoldingPlatform>
+  <LetterLabelEscapingFromHoldingPlatform>فرار موجود</LetterLabelEscapingFromHoldingPlatform> 
   <!-- EN: The following entities have escaped their restraints:\n\n{0}\n\nBuild stronger containment rooms to stop entities escaping. Entities are less likely to escape from holding platforms with high containment strength, which comes from strong walls and doors, good lighting, and special containment devices. -->
-  <LetterEscapingFromHoldingPlatform>موجودات زیر از محدودیت‌های خود فرار کرده‌اند:\n\n{0}\n\nاتاق‌های نگهداری قوی‌تری بسازید تا از فرار موجودات جلوگیری کنید. موجودات کمتر احتمال دارد از سکوهای نگهداری با قدرت مهار بالا فرار کنند، که از دیوارهای و درهای قوی، نورپردازی خوب و دستگاه‌های مهار ویژه ناشی می‌شود.</LetterEscapingFromHoldingPlatform>
+  <LetterEscapingFromHoldingPlatform>موجودات زیر از محدودیت‌های خود فرار کرده‌اند:\n\n{0}\n\nاتاق‌های نگهداری قوی‌تری بسازید تا از فرار موجودات جلوگیری کنید. موجودات کمتر احتمال دارد از سکوهای نگهداری با قدرت مهار بالا فرار کنند، که از دیوارهای و درهای قوی، نورپردازی خوب و دستگاه‌های مهار ویژه ناشی می‌شود.</LetterEscapingFromHoldingPlatform> 
   <!-- EN: requires {0} -->
   <HoldingPlatformRequiresStrength>نیاز به {0} دارد</HoldingPlatformRequiresStrength>
   <!-- EN: No holding platforms available. -->
   <NoHoldingPlatformsAvailable>هیچ سکوی نگهداری در دسترس نیست.</NoHoldingPlatformsAvailable>
-
-
+  
+  
   <!-- Obelisks -->
   <!-- EN: Obelisk activation -->
   <MutatorObeliskLetterLabel>فعال‌سازی ابلیسک</MutatorObeliskLetterLabel>
@@ -211,7 +211,7 @@
   <ObeliskDuplicationFailedLetterLabel>شکست ابلیسک</ObeliskDuplicationFailedLetterLabel>
   <!-- EN: {PAWN_nameDef} attempted to trigger the obelisk but nothing occurred. Something about {PAWN_nameDef} is preventing the obelisk from duplicating {PAWN_objective}. -->
   <ObeliskDuplicationFailedLetter>{PAWN_nameDef} سعی کرد ابلیسک را فعال کند اما اتفاقی نیفتاد. چیزی در مورد {PAWN_nameDef} مانع از کپی کردن {PAWN_objective} توسط ابلیسک می‌شود.</ObeliskDuplicationFailedLetter>
-
+  
   <!-- EN: {PAWN_nameDef} has successfully triggered obelisk duplication. -->
   <ObeliskDuplicationSuccessMessage>{PAWN_nameDef} با موفقیت کپی ابلیسک را فعال کرد.</ObeliskDuplicationSuccessMessage>
 
@@ -229,12 +229,12 @@
   <ObeliskAbductorLetterLabel>ناپدید شدن مستعمره‌نشینان</ObeliskAbductorLetterLabel>
   <!-- EN: The warped obelisk crackles with energy as it warps space around itself. All manner of creatures are beginning to disappear and will soon vanish entirely.\n\nBe careful - unstable energy is coursing through the obelisk and it could explode at any moment. -->
   <ObeliskAbductorLetter>ابلیسک تاب‌خورده با انرژی جرقه می‌زند در حالی که فضا را در اطراف خود تاب می‌دهد. انواع موجودات در حال ناپدید شدن هستند و به زودی کاملاً محو خواهند شد.\n\nمراقب باشید - انرژی ناپایدار در ابلیسک جریان دارد و ممکن است هر لحظه منفجر شود.</ObeliskAbductorLetter>
-
+  
   <!-- EN: {PAWN_nameDef} is disappearing -->
   <ObeliskAbductedDisappearingLetterLabel>{PAWN_nameDef} در حال ناپدید شدن است</ObeliskAbductedDisappearingLetterLabel>
   <!-- EN: {PAWN_nameDef} noticed activity in the warped obelisk. Some mysterious internal mechanism has come to life, causing {PAWN_nameDef} to begin to disappear. {PAWN_pronoun} will soon vanish entirely. -->
   <ObeliskAbductedDisappearingLetter>{PAWN_nameDef} متوجه فعالیت در ابلیسک تاب‌خورده شد. مکانیسم داخلی مرموزی زنده شده و باعث شده {PAWN_nameDef} شروع به ناپدید شدن کند. {PAWN_pronoun} به زودی کاملاً محو خواهد شد.</ObeliskAbductedDisappearingLetter>
-
+  
   <!-- EN: {PAWN_nameDef} reappeared -->
   <ObeliskAbductedLetterLabel>{PAWN_nameDef} دوباره ظاهر شد</ObeliskAbductedLetterLabel>
   <!-- EN: {PAWN_nameDef} has been teleported to a strange room. The walls are an unidentifiable gray material and the air is dead still. {PAWN_pronoun} doesn't know where {PAWN_pronoun} is - or how to get home.\n\nA nearby door is jammed but looks like it can be forced open with some effort. Right-click jammed doors to open them.\n\nBy studying the obelisk, other colonists may be able to understand what happened to {PAWN_nameDef} and find a way to help {PAWN_objective}. Alternatively, attacking the obelisk may provoke it to abduct more colonists. -->
@@ -252,7 +252,7 @@
 
   <!-- EN: Requires {0} shards to disable -->
   <ObeliskDeactivateMissingShards>نیاز به {0} قطعه برای غیرفعال کردن</ObeliskDeactivateMissingShards>
-
+  
   <!-- Activity / Supression -->
   <!-- EN: Activity level -->
   <ActivityLevel>سطح فعالیت</ActivityLevel>
@@ -283,7 +283,7 @@
   <CannotActivateEntity>نمی‌توان موجود را فعال کرد</CannotActivateEntity>
   <!-- EN: Entity must be on platform -->
   <CannotActivateEntityPlatform>موجود باید روی سکو باشد</CannotActivateEntityPlatform>
-
+  
   <!-- EN: Activity -->
   <ActivityGizmo>فعالیت</ActivityGizmo>
   <!-- EN: Automatic suppression -->
@@ -328,13 +328,13 @@
   <CancelTransfer>لغو انتقال</CancelTransfer>
   <!-- EN: Cancel transferring this entity to another holding platform. -->
   <CancelTransferDesc>لغو انتقال این موجود به سکوی نگهداری دیگر.</CancelTransferDesc>
-
+  
   <!-- Metalhorrors -->
   <!-- EN: Emerged from -->
   <EmergedFrom>ظاهر شده از</EmergedFrom>
   <!-- EN: Metalhorror emerging -->
   <Emerging>متال‌هارور در حال ظهور</Emerging>
-
+  
   <!-- EN: Implanted before arrival at your colony -->
   <ImplantSourceUnknown>قبل از رسیدن به مستعمره شما کاشته شده است</ImplantSourceUnknown>
   <!-- EN: Implanter insectoid -->
@@ -358,10 +358,10 @@
   <MetalhorrorEmergingPluralDesc>متال‌هارورها در حال ظهور هستند! این موجودات تیغ‌دار کابوس‌وار، با بریدن گوشت و پوست، راه خود را از بدن میزبانانشان باز می‌کنند. متال‌هارورها در حال ظهور از:</MetalhorrorEmergingPluralDesc>
   <!-- EN: These horrifying metallic parasites live inside the victim, taking control of higher reasoning via a network of hair-thin metallic filaments that they spread throughout the body and brain. They control the victim's mind and compel them to infect others with new metalhorrors. -->
   <MetalhorrorEmergingDescAppended>این انگل‌های فلزی وحشتناک در داخل قربانی زندگی می‌کنند و از طریق شبکه‌ای از رشته‌های فلزی نازک مانند مو که در سراسر بدن و مغز پخش می‌کنند، کنترل تفکر عالی را به دست می‌گیرند. آن‌ها ذهن قربانی را کنترل کرده و او را مجبور به آلوده کردن دیگران با متال‌هارورهای جدید می‌کنند.</MetalhorrorEmergingDescAppended>
-
+  
   <!-- EN: These doctors were infested and controlled by metalhorrors, so they lied about the results of a surgical inspection -->
   <MetalhorrorSurgicalInspectionDetails>این پزشکان توسط متال‌هارورها آلوده و کنترل شده بودند، بنابراین در مورد نتایج معاینه جراحی دروغ گفتند</MetalhorrorSurgicalInspectionDetails>
-
+  
   <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because it was discovered by {PAWN_nameDef} during a social interaction. -->
   <MetalhorrorReasonInteraction>متال‌هارور {INFECTED_nameDef} ظاهر شد زیرا توسط {PAWN_nameDef} در طول یک تعامل اجتماعی کشف شد.</MetalhorrorReasonInteraction>
   <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because it was discovered by {PAWN_nameDef} during an interrogation. -->
@@ -374,32 +374,32 @@
   <MetalhorrorReasonRandom>متال‌هارور {INFECTED_nameDef} به دلایل نامعلومی ظاهر شد.</MetalhorrorReasonRandom>
   <!-- EN: {INFECTED_nameDef}'s metalhorror emerged upon sensing it was being taken away from the colony. -->
   <MetalhorrorReasonTriedToLeaveMap>متال‌هارور {INFECTED_nameDef} پس از حس کردن اینکه از مستعمره دور می‌شود، ظاهر شد.</MetalhorrorReasonTriedToLeaveMap>
-
+  
   <!-- EN: Metalhorror detected -->
   <MetalhorrorDetected>متال‌هارور شناسایی شد</MetalhorrorDetected>
   <!-- EN: {PAWN_nameDef} noticed something wrong with {INFECTED_nameDef} while chatting. {INFECTED_nameDef} exhibited some combination of unnatural behavior, strange vocal sounds, or barely visible metallic worms in the eyes. {PAWN_nameDef} suspects that {INFECTED_nameDef} is infected with a metalhorror. -->
   <InteractionDetectedDesc>{PAWN_nameDef} هنگام گفتگو متوجه چیزی غیرعادی در {INFECTED_nameDef} شد. {INFECTED_nameDef} ترکیبی از رفتارهای غیرطبیعی، صداهای عجیب و غریب، یا کرم‌های فلزی به سختی قابل مشاهده در چشم‌ها را نشان داد. {PAWN_nameDef} مشکوک است که {INFECTED_nameDef} به متال‌هارور آلوده شده است.</InteractionDetectedDesc>
   <!-- EN: {PAWN_nameDef} has found something unusual while interrogating {INFECTED_nameDef}. {INFECTED_nameDef} exhibited some combination of unnatural behavior, strange vocal sounds, or barely visible metallic worms in the eyes. {PAWN_nameDef} suspects that {INFECTED_nameDef} is infected with a metalhorror. -->
   <InterrogationDetectedDesc>{PAWN_nameDef} هنگام بازجویی از {INFECTED_nameDef} چیز غیرعادی پیدا کرد. {INFECTED_nameDef} ترکیبی از رفتارهای غیرطبیعی، صداهای عجیب و غریب، یا کرم‌های فلزی به سختی قابل مشاهده در چشم‌ها را نشان داد. {PAWN_nameDef} مشکوک است که {INFECTED_nameDef} به متال‌هارور آلوده شده است.</InterrogationDetectedDesc>
-
+  
   <!-- EN: Metalhorrors are parasites that control the host and use them to infect others.\n\nMetalhorrors grow stronger inside the host as time passes. A metalhorror will cut its way out of the host's body if it knows it's been detected. The process is horrifying, but the host generally survives.\n\nThe only way to confirm a person is infected with a metalhorror is to study the metalhorror's fleshy leavings to identify its biosignature, then use the surgical inspection operation with a trusted doctor.\n\nOnce discovered, you can use the surgical inspection operation to cause a metalhorror to emerge from its host. Be prepared for a fight. -->
   <MetalhorrorNoticedDetailsAppended>متال‌هارورها انگل‌هایی هستند که میزبان را کنترل کرده و از {INFECTED_objective} برای آلوده کردن دیگران استفاده می‌کنند.\n\nمتال‌هارورها با گذشت زمان در داخل میزبان قوی‌تر می‌شوند. اگر متال‌هارور بفهمد که شناسایی شده است، راه خود را از بدن میزبان باز می‌کند. این فرآیند وحشتناک است، اما میزبان معمولاً زنده می‌ماند.\n\nتنها راه تأیید آلودگی یک فرد به متال‌هارور، مطالعه بقایای گوشتی متال‌هارور برای شناسایی امضای زیستی آن، و سپس استفاده از عملیات معاینه جراحی با یک پزشک مورد اعتماد است.\n\nپس از کشف، می‌توانید از عملیات معاینه جراحی برای بیرون آوردن متال‌هارور از میزبانش استفاده کنید. برای مبارزه آماده باشید.</MetalhorrorNoticedDetailsAppended>
-
+  
   <!-- EN: Gray flesh -->
   <LetterGrayFleshDiscoveredLabel>گوشت خاکستری</LetterGrayFleshDiscoveredLabel>
   <!-- EN: {PAWN_nameDef} has discovered a strip of fleshy tissue. It resembles human skin stained gray by tiny metallic particles. It must have sloughed off someone during flesh liquification.\n\nSomeone here may not be what they seem.\n\nThere are several ways to detect imposters:\n\n{METHODS}\n\nWarning: Some parasites can control the mind and even be transmitted to others. -->
   <LetterGrayFleshDiscovered>{PAWN_nameDef} نواری از بافت گوشتی کشف کرده است. شبیه پوست انسان است که توسط ذرات فلزی ریز خاکستری شده است. باید در طول مایع شدن گوشت از کسی جدا شده باشد.\n\nشاید کسی اینجا آنطور که به نظر می‌رسد نباشد.\n\nچندین راه برای شناسایی فریبکاران وجود دارد:\n\n{METHODS}\n\nهشدار: برخی انگل‌ها می‌توانند ذهن را کنترل کرده و حتی به دیگران منتقل شوند.</LetterGrayFleshDiscovered>
-
+  
   <!-- EN: The “interrogate” prisoner interaction mode is now unlocked. -->
   <LetterInterrogationUnlocked>حالت تعامل با زندانی "بازجویی" اکنون باز شده است.</LetterInterrogationUnlocked>
-
+  
   <!-- EN: Imprison someone and send a warden to interrogate them about their true identity. This can take many days. -->
   <LetterGrayFleshMethodOne>کسی را زندانی کنید و یک نگهبان بفرستید تا او را در مورد هویت واقعی‌اش بازجویی کند. این ممکن است چندین روز طول بکشد.</LetterGrayFleshMethodOne>
   <!-- EN: Collect more gray flesh and analyze it to determine the biosignature of the threat. Then, use the surgical inspection operation to search for that biosignature. It could take a long time to collect enough samples, and the surgery is invasive. -->
   <LetterGrayFleshMethodTwo>گوشت خاکستری بیشتری جمع‌آوری کرده و آن را تجزیه و تحلیل کنید تا امضای زیستی تهدید را تعیین کنید. سپس، از عملیات معاینه جراحی برای جستجوی آن امضای زیستی استفاده کنید. جمع‌آوری نمونه‌های کافی ممکن است زمان زیادی ببرد و جراحی تهاجمی است.</LetterGrayFleshMethodTwo>
   <!-- EN: Execute or banish whoever you suspect. -->
   <LetterGrayFleshMethodThree>هر کسی را که مشکوک هستید اعدام یا تبعید کنید.</LetterGrayFleshMethodThree>
-
+  
   <!-- EN: Metalhorrors awakening -->
   <LetterMetalhorrorReawakeningLabel>متال‌هارورها در حال بیداری</LetterMetalhorrorReawakeningLabel>
   <!-- EN: The metalhorrors have been disturbed and are awakening again! -->
@@ -407,10 +407,10 @@
 
   <!-- EN: The metalhorrors are beginning to hibernate. They will awaken again if disturbed. -->
   <MessageMetalHorrorDormant>متال‌هارورها در حال شروع به خواب زمستانی هستند. اگر مزاحم شوند دوباره بیدار خواهند شد.</MessageMetalHorrorDormant>
-
+  
   <!-- EN: Hibernating. Will awaken if disturbed. -->
   <MetalhorrorDormant>در حال خواب زمستانی. در صورت مزاحمت بیدار خواهد شد.</MetalhorrorDormant>
-
+  
   <!-- Surgical inspection -->
   <!-- EN: Surgical inspection results -->
   <LetterSurgicallyInspectedLabel>نتایج معاینه جراحی</LetterSurgicallyInspectedLabel>
@@ -418,7 +418,7 @@
   <LetterSurgicallyInspectedHeader>{DOCTOR_nameDef} یک معاینه جراحی گسترده روی {PATIENT_nameDef} انجام داد.</LetterSurgicallyInspectedHeader>
   <!-- EN: {DOCTOR_pronoun} says that {DOCTOR_pronoun} found no anomalies. However, a doctor may lie if it is in their own self-interest. -->
   <LetterSurgicallyInspectedNothing>{DOCTOR_pronoun} می‌گوید که هیچ ناهنجاری پیدا نکرد. با این حال، یک پزشک ممکن است دروغ بگوید اگر به نفع خودش باشد.</LetterSurgicallyInspectedNothing>
-
+  
   <!-- Death refusal -->
   <!-- EN: use -->
   <DeathRefusalUseSingular>استفاده</DeathRefusalUseSingular>
@@ -455,14 +455,14 @@
   <LetterCreeperInviteJoins>{PAWN_nameDef} می‌خواهد بپیوندد</LetterCreeperInviteJoins>
   <!-- EN: {PAWN_pronoun} may be very useful, but you also sense there is something {PAWN_nameDef} is not telling you. -->
   <LetterCreeperInviteAppend>{PAWN_pronoun} ممکن است بسیار مفید باشد، اما شما همچنین حس می‌کنید چیزی هست که {PAWN_nameDef} به شما نمی‌گوید.</LetterCreeperInviteAppend>
-
+  
   <!-- EN: Allow {PAWN_nameDef} to join -->
   <AcceptCreeper>اجازه پیوستن به {PAWN_nameDef} را بدهید</AcceptCreeper>
   <!-- EN: Send {SPEAKER_nameDef} to capture {PAWN_nameDef} -->
   <CaptureCreeper>فرستادن {SPEAKER_nameDef} برای اسیر کردن {PAWN_nameDef}</CaptureCreeper>
   <!-- EN: Send {PAWN_nameDef} away -->
   <RejectCreeper>فرستادن {PAWN_nameDef} دور</RejectCreeper>
-
+  
   <!-- Unnatural healing ability -->
   <!-- EN: Unnatural healing -->
   <LetterUnnaturalHealingLabel>شفای غیرطبیعی</LetterUnnaturalHealingLabel>
@@ -470,7 +470,7 @@
   <LetterUnnaturalHealing>{CASTER_nameDef} شفای روانی {CASTER_possessive} را روی {PAWN_nameDef} به پایان رساند.</LetterUnnaturalHealing>
   <!-- EN: However, something went terribly wrong.\n\n{PAWN_nameDef}'s arm split open as a violent growth emerged from {PAWN_possessive} body. {PAWN_possessive} arm has been replaced by a fleshy tentacle! -->
   <LetterUnnaturalHealingTentacle>با این حال، چیزی به طرز وحشتناکی اشتباه پیش رفت.\n\nبازوی {PAWN_nameDef} شکافته شد و یک رشد خشونت‌آمیز از بدن {PAWN_possessive} بیرون زد. بازوی {PAWN_possessive} با یک شاخک گوشتی جایگزین شده است!</LetterUnnaturalHealingTentacle>
-
+  
   <!-- Transmutation ability -->
   <!-- EN: {PAWN_nameDef} has transmuted {ORIGINAL} into {TRANSMUTED}. -->
   <MessageTransmutedItem>{PAWN_nameDef} {ORIGINAL} را به {TRANSMUTED} تبدیل کرده است.</MessageTransmutedItem>
@@ -478,13 +478,13 @@
   <MessageTransmutedStuff>{PAWN_nameDef} {1} را به {TRANSMUTED_labelShortIndef} تبدیل کرده است.</MessageTransmutedStuff>
   <!-- EN: {PAWN_nameDef} has transmuted {1} into {TRANSMUTED_labelPluralIndef}. -->
   <MessageTransmutedStuffPlural>{PAWN_nameDef} {1} را به {TRANSMUTED_labelPluralIndef} تبدیل کرده است.</MessageTransmutedStuffPlural>
-
+  
   <!-- Electroharvester -->
   <!-- EN: No restrained entity. -->
   <ElectroharvesterNoEntity>هیچ موجود مهار شده‌ای وجود ندارد.</ElectroharvesterNoEntity>
   <!-- EN: Not connected to a holding platform. -->
   <ElectroharvesterNoPlatform>به سکوی نگهداری متصل نیست.</ElectroharvesterNoPlatform>
-
+  
   <!-- Fleshmass Heart -->
   <!-- EN: Invulnerable. Analyze fleshmass neural lumps to destroy this. -->
   <FleshmassHeartInvulnerable>آسیب‌ناپذیر. برای نابودی این، توده‌های عصبی گوشت را تجزیه و تحلیل کنید.</FleshmassHeartInvulnerable>
@@ -529,10 +529,10 @@
   <Analyzed>تجزیه و تحلیل شده</Analyzed>
   <!-- EN: Highest skill -->
   <HighestSkill>بالاترین مهارت</HighestSkill>
-
+  
   <!-- EN: {0} dropped a shard of dark archotechnology. You can collect and make use of it. -->
   <MessageShardDropped>{0} یک قطعه از آرکوتکنولوژی تاریک انداخته است. می‌توانید آن را جمع‌آوری کرده و استفاده کنید.</MessageShardDropped>
-
+  
   <!-- Blood rain -->
   <!-- EN: The blood rain has driven {0_nameIndef} into a berserk rage! -->
   <Berserk_BloodRain>باران خون {0} را به خشم دیوانه‌وار کشانده است!</Berserk_BloodRain>
@@ -540,7 +540,7 @@
   <Manhunter_BloodRain>باران خون {0} را به خشم شکار انسان کشانده است!</Manhunter_BloodRain>
   <!-- EN: This happened because of blood rage buildup. -->
   <MentalBreakReason_BloodRage>این به دلیل تجمع خشم خون اتفاق افتاد.</MentalBreakReason_BloodRage>
-
+  
   <!-- Unnatural corpses -->
   <!-- EN: Corpse disappearance -->
   <LetterLabelCorpseDisappeared>ناپدید شدن جسد</LetterLabelCorpseDisappeared>
@@ -553,7 +553,7 @@
   <LetterLabelCorpseReappeared>ظاهر شدن جسد</LetterLabelCorpseReappeared>
   <!-- EN: The corpse resembling {PAWN_nameDef} has appeared again, as if out of thin air. -->
   <LetterCorpseReappeared>جسد شبیه به {PAWN_nameDef} دوباره ظاهر شده است، گویی از ناکجاآباد.</LetterCorpseReappeared>
-
+  
   <!-- EN: The corpse resembling {PAWN_nameDef} has somehow gotten out of its {CONTAINER_labelShort}. -->
   <MessageCorpseEscaped>جسد شبیه به {PAWN_nameDef} به نحوی از {CONTAINER_labelShort} خود خارج شده است.</MessageCorpseEscaped>
   <!-- EN: Failed to resurrect {PAWN_nameDef}. It simply does not respond. -->
@@ -587,10 +587,10 @@
   <!-- EN: Corpse shard -->
   <UnnaturalCorpseDeactivatedLetter>قطعه جسد</UnnaturalCorpseDeactivatedLetter>
   <!-- EN: {PAWN_nameDef} extracted an archotech shard from the unnatural corpse, the corpse then began to violently bloat and exploded into gore. -->
-   <UnnaturalCorpseDeactivatedLetterDesc>{PAWN_nameDef} یک قطعه آرکوتک از جسد غیرطبیعی استخراج کرد، سپس جسد به شدت متورم شد و به تکه‌های خونین منفجر شد.</UnnaturalCorpseDeactivatedLetterDesc>
+  <UnnaturalCorpseDeactivatedLetterDesc>{PAWN_nameDef} یک قطعه آرکوتک از جسد غیرطبیعی استخراج کرد، سپس جسد به شدت متورم شد و به تکه‌های خونین منفجر شد.</UnnaturalCorpseDeactivatedLetterDesc>
   <!-- EN: {PAWN_nameDef} is feeling better already. -->
   <UnnaturalCorpseDeactivatedLetterDescAppended>{PAWN_nameDef} در حال حاضر احساس بهتری دارد.</UnnaturalCorpseDeactivatedLetterDescAppended>
-
+  
   <!-- EN: Destroy unnatural corpse -->
   <UnnaturalCorpseDeactivate>نابودی جسد غیرطبیعی</UnnaturalCorpseDeactivate>
   <!-- EN: Permanently destroy the unnatural corpse. -->
@@ -603,7 +603,7 @@
   <UnnaturalCorpseActivatingEnroute>در حال نابودی {0}</UnnaturalCorpseActivatingEnroute>
   <!-- EN: destroying {0}: {1}s -->
   <UnnaturalCorpseActivating>در حال نابودی {0}: {1} ثانیه</UnnaturalCorpseActivating>
-
+  
   <!-- EN: Unnatural corpse -->
   <UnnaturalCorpseAwakeningLetter>جسد غیرطبیعی</UnnaturalCorpseAwakeningLetter>
   <!-- EN: {PAWN_nameDef} feels the unnatural corpse growing rapidly stronger. Some horrible consciousness is flickering within it.\n\nSomething awful will happen in the next few days. -->
@@ -637,7 +637,7 @@
 
   <!-- EN: {PAWN_labelShort} refuses to deactivate the golden cube. -->
   <CannotDisableCube>{PAWN_labelShort} از غیرفعال کردن مکعب طلایی خودداری می‌کند.</CannotDisableCube>
-
+  
   <!-- EN: Cube coma: {PAWN_labelShort} -->
   <LetterLabelGoldenCubeComa>کومای مکعب: {PAWN_labelShort}</LetterLabelGoldenCubeComa>
   <!-- EN: {PAWN_labelShort}'s cube withdrawal has sent {PAWN_objective} into a coma. {PAWN_pronoun} will remain in a coma until the golden cube's psychic link has completely dissipated. -->
@@ -662,7 +662,7 @@
 
   <!-- EN: This happened because of {PAWN_possessive} obsession with the cube. -->
   <MentalBreakReason_CubeSculpting>این به دلیل وسواس {PAWN_possessive} به مکعب اتفاق افتاد.</MentalBreakReason_CubeSculpting>
-
+  
   <!-- EN: dirt -->
   <CubeMaterialDirt>خاک</CubeMaterialDirt>
   <!-- EN: stone -->
@@ -671,16 +671,16 @@
   <CubeMaterialSand>ماسه</CubeMaterialSand>
   <!-- EN: scrap -->
   <CubeMaterialScrap>ضایعات</CubeMaterialScrap>
-
+  
   <!-- EN: building a sculpture. -->
   <ReportBuildingCubeEnroute>در حال ساخت مجسمه.</ReportBuildingCubeEnroute>
-
+  
   <!-- Slaughter ability -->
   <!-- EN: Cannot slaughter: {PAWN_labelShort} does not have flesh. -->
   <MessageSlaughterNoFlesh>نمی‌توان سلاخی کرد: {PAWN_labelShort} گوشت ندارد.</MessageSlaughterNoFlesh>
   <!-- EN: Cannot slaughter: {PAWN_labelShort} is too large. -->
   <MessageSlaughterTooBig>نمی‌توان سلاخی کرد: {PAWN_labelShort} خیلی بزرگ است.</MessageSlaughterTooBig>
-
+  
   <!-- Labyrinth -->
   <!-- EN: Entering the labyrinth -->
   <GeneratingLabyrinth>ورود به هزارتو</GeneratingLabyrinth>
@@ -688,15 +688,15 @@
   <MessagePawnVanished>{PAWN_nameDef} ناپدید شده است.</MessagePawnVanished>
   <!-- EN: {PAWN_nameDef} has reappeared. -->
   <MessagePawnReappeared>{PAWN_nameDef} دوباره ظاهر شده است.</MessagePawnReappeared>
-
+  
   <!-- EN: Exit direction -->
   <FloorEtchingsInspectorExit>جهت خروج</FloorEtchingsInspectorExit>
-
+  
   <!-- EN: Warped obelisk -->
   <LetterLabelObeliskDiscovered>ابلیسک تاب‌خورده</LetterLabelObeliskDiscovered>
   <!-- EN: {PAWN_nameDef} has discovered a large obelisk. It looks nearly identical to the one that originally brought {PAWN_objective} here. Perhaps it can be activated to return {PAWN_objective} home.\n\nSelect {PAWN_nameDef} and right-click the obelisk to activate it. -->
   <LetterObeliskDiscovered>{PAWN_nameDef} یک ابلیسک بزرگ کشف کرده است. تقریباً شبیه به ابلیسکی است که در ابتدا {PAWN_objective} را به اینجا آورد. شاید بتوان آن را فعال کرد تا {PAWN_objective} به خانه بازگردد.\n\n{PAWN_nameDef} را انتخاب کرده و روی ابلیسک راست کلیک کنید تا آن را فعال کنید.</LetterObeliskDiscovered>
-
+  
   <!-- EN: Floor etchings -->
   <LetterLabelFloorEtchings>نقوش کف</LetterLabelFloorEtchings>
   <!-- EN: {PAWN_nameDef} has managed to decipher the floor etchings.\n\n{RAMBLINGS}\n\nThey seem to indicate that an exit is somewhere {DIRECTION} of here. -->
@@ -800,7 +800,7 @@
   <VoidNodePostpone>به تعویق انداختن</VoidNodePostpone>
   <!-- EN: The psychic flows destabilize and the twisted machinery screams. The swirling void flickers. {PAWN_nameDef} feels it shuddering and collapsing into itself.\n\nThe metallic cavern begins to twist, reshaping like the chamber of a massive heart. Before {PAWN_nameDef} has a chance to scream, {PAWN_pronoun} blinks out of existence.\n\n{PAWN_nameDef} has rejected the void.\n\n{PAWN_possessive} story continues... -->
   <DisruptTheLinkCredits>جریان‌های روانی ناپایدار می‌شوند و ماشین‌آلات پیچ خورده فریاد می‌زنند. خلاء چرخان سوسو می‌زند. {PAWN_nameDef} احساس می‌کند که می‌لرزد و در خود فرو می‌ریزد.\n\nغار فلزی شروع به پیچ خوردن می‌کند و مانند حفره یک قلب عظیم تغییر شکل می‌دهد. قبل از اینکه {PAWN_nameDef} فرصت فریاد زدن داشته باشد، {PAWN_pronoun} از وجود محو می‌شود.\n\n{PAWN_nameDef} خلاء را رد کرده است.\n\nداستان {PAWN_possessive} ادامه دارد...</DisruptTheLinkCredits>
-  <!-- EN: {PAWN_nameDef} steps into the void and the black ocean floods into {PAWN_objective}, overwhelming every sense, suffusing every cell in {PAWN_possessive} body and every thought in {PAWN_possessive} mind.\n\nThe void node has been refocused away from the world, towards one single person. The void structures scream, torn from their otherworldly foundation, then blink out of existence.\n\n{PAWN_nameDef} has embraced the void.\n\n{PAWN_possessive} story continues... -->
+  <!-- EN: {PAWN_nameDef} steps into the void and the black ocean floods into {PAWN_objective}, overwhelming every sense, suffusing every thought in {PAWN_possessive} mind.\n\nThe void node has been refocused away from the world, towards one single person. The void structures scream, then blink out of existence.\n\n{PAWN_nameDef} has embraced the void.\n\n{PAWN_possessive} story continues... -->
   <EmbraceTheVoidCredits>{PAWN_nameDef} وارد خلاء می‌شود و اقیانوس سیاه به درون {PAWN_objective} سرازیر می‌شود، هر حسی را غرق می‌کند، هر سلول در بدن {PAWN_possessive} و هر فکر در ذهن {PAWN_possessive} را پر می‌کند.\n\nگره خلاء از جهان دور شده و به سمت یک فرد واحد متمرکز شده است. ساختارهای خلاء فریاد می‌زنند، از بنیاد فراجهانی خود پاره می‌شوند، سپس از وجود محو می‌شوند.\n\n{PAWN_nameDef} خلاء را پذیرفته است.\n\nداستان {PAWN_possessive} ادامه دارد...</EmbraceTheVoidCredits>
   <!-- EN: {PAWN_nameDef} has finished activating {STRUCTURE_definite} -->
   <StructureActivatedMessage>{PAWN_nameDef} فعال‌سازی {STRUCTURE_definite} را به پایان رساند</StructureActivatedMessage>
@@ -827,7 +827,7 @@
   <EmergenceIn>ظهور در {0}</EmergenceIn>
   <!-- EN: Something will emerge from the ground in {0}. -->
   <EmergenceInDesc>چیزی در {0} از زمین بیرون خواهد آمد.</EmergenceInDesc>
-
+  
   <!-- Bioferrite harvester -->
   <!-- EN: Bioferrite contained -->
   <BioferriteHarvesterContained>بیوفریت مهار شده</BioferriteHarvesterContained>
@@ -841,21 +841,21 @@
   <BioferriteHarvesterToggleUnloading>تغییر وضعیت تخلیه بیوفریت</BioferriteHarvesterToggleUnloading>
   <!-- EN: When active, colonists will automatically unload bioferrite from the harvester as it is filling up. -->
   <BioferriteHarvesterToggleUnloadingDesc>هنگامی که فعال باشد، مستعمره‌نشینان به طور خودکار بیوفریت را از برداشت‌کننده در حین پر شدن تخلیه خواهند کرد.</BioferriteHarvesterToggleUnloadingDesc>
-
+  
   <!-- Proximity detector -->
   <!-- EN: Invisible creature detected. -->
   <ProximityDetectorCreatureDetected>موجود نامرئی شناسایی شد.</ProximityDetectorCreatureDetected>
-
+  
   <!-- Frenzy inducer -->
   <!-- EN: Generating frenzy field. -->
   <FrenzyInducerEffectDescription>در حال تولید میدان خشم.</FrenzyInducerEffectDescription>
   <!-- EN: This happened due to the influence of a frenzy inducer. -->
   <MentalBreakReason_FrenzyInducer>این به دلیل تأثیر یک القاکننده خشم اتفاق افتاد.</MentalBreakReason_FrenzyInducer>
-
+  
   <!-- Sleep suppressor -->
   <!-- EN: sleepless psychic pulsation. -->
   <SleepSuppressorEffectDescription>ضربان روانی بی‌خوابی.</SleepSuppressorEffectDescription>
-
+  
   <!-- Devourer -->
   <!-- EN: Being digested by {0_labelShort}. -->
   <DigestedBy>در حال هضم شدن توسط {0_labelShort}.</DigestedBy>
@@ -872,7 +872,7 @@
   <LetterChimerasAttackingLabel>کیمراها در حال حمله</LetterChimerasAttackingLabel>
   <!-- EN: The chimeras have begun their attack! -->
   <LetterChimerasAttacking>کیمراها حمله خود را آغاز کرده‌اند!</LetterChimerasAttacking>
-
+  
   <!-- Anomaly event frequency -->
   <!-- EN: No major threats -->
   <AnomalyFrequency_None>تهدید بزرگ ندارد</AnomalyFrequency_None>
@@ -886,8 +886,8 @@
   <AnomalyFrequency_Intense>شدید</AnomalyFrequency_Intense>
   <!-- EN: Overwhelming -->
   <AnomalyFrequency_Overwhelming>طاقت‌فرسا</AnomalyFrequency_Overwhelming>
-
+  
   <!-- EN: Security doors only -->
   <SecurityDoorsOnly>فقط درهای امنیتی</SecurityDoorsOnly>
-
+  
 </LanguageData>

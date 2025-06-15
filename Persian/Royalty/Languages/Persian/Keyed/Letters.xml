@@ -109,12 +109,10 @@
   <LetterLabelRandomDecree>{0_nameIndef} فرمان صادر می‌کند</LetterLabelRandomDecree>
   <!-- EN: {0_nameIndef}, in an attempt to release {0_possessive} stress, has issued a wild royal decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
-  <LetterDecreeMentalBreak>{0_nameIndef}، در تلاشی برای رهایی از استرس {0_possessive}، یک فرمان سلطنتی وحشی صادر کرده و اکنون مطالبه می‌کند که اجرا شود.
-    \nاگر به موقع اجرا نشود، {0_nameIndef} بسیار ناراضی خواهد شد.</LetterDecreeMentalBreak>
+  <LetterDecreeMentalBreak>{0_nameIndef}، در تلاشی برای رهایی از استرس {0_possessive}، یک فرمان سلطنتی وحشی صادر کرده و اکنون مطالبه می‌کند که اجرا شود.\n    \nاگر به موقع اجرا نشود، {0_nameIndef} بسیار ناراضی خواهد شد.</LetterDecreeMentalBreak>
   <!-- EN: {0_nameIndef}, in order to affirm {0_possessive} title of {0_bestRoyalTitleIndef}, has issued a decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
-  <LetterRandomDecree>{0_nameIndef}، برای تأیید عنوان {0_bestRoyalTitleIndef} {0_possessive}، فرمانی صادر کرده و اکنون مطالبه می‌کند که اجرا شود.
-    \nاگر به موقع اجرا نشود، {0_nameIndef} بسیار ناراضی خواهد شد.</LetterRandomDecree>
+  <LetterRandomDecree>{0_nameIndef}، برای تأیید عنوان {0_bestRoyalTitleIndef} {0_possessive}، فرمانی صادر کرده و اکنون مطالبه می‌کند که اجرا شود.\n    \nاگر به موقع اجرا نشود، {0_nameIndef} بسیار ناراضی خواهد شد.</LetterRandomDecree>
   <!-- EN: The decree is titled "{0}". -->
   <LetterDecree_Quest>عنوان فرمان "{0}" است.</LetterDecree_Quest>
   

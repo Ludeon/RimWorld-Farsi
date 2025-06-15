@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
   <!-- Heritage -->
   <!-- EN: Choose a new heir for {HOLDER_nameIndef}: -->
   <ChooseHeir>انتخاب وارث جدید برای {HOLDER_nameIndef}:</ChooseHeir>
@@ -32,7 +32,7 @@
   <CommandCallRoyalAidMapUnreachable>{FACTION_name} نمی‌تواند به این منطقه برسد.</CommandCallRoyalAidMapUnreachable>
   <!-- EN: Cannot call aid here. -->
   <CommandCallRoyalAidInvalidMap>نمی‌توان در اینجا کمک فراخواند.</CommandCallRoyalAidInvalidMap>
-
+  
   <!-- Call laborers -->
   <!-- EN: Call laborers -->
   <CommandCallLaborers>فراخوانی کارگران</CommandCallLaborers>
@@ -78,7 +78,7 @@
   <CommandWarnInBuildingRadius>هشدار شعاع ساخت</CommandWarnInBuildingRadius>
   <!-- EN: If enabled, this object will draw a red line to buildings you are placing using the architect menu, if they would interfere with meditation due to being too close.\n\nYou can turn this off if you don't intend to use this for meditation. -->
   <CommandWarnInBuildingRadiusDesc>اگر فعال باشد، این شیء خط قرمزی به ساختمان‌هایی که با استفاده از منوی معمار قرار می‌دهید، رسم خواهد کرد، اگر به دلیل نزدیکی بیش از حد با مدیتیشن تداخل داشته باشند.\n\nاگر قصد استفاده از این برای مدیتیشن را ندارید، می‌توانید این را خاموش کنید.</CommandWarnInBuildingRadiusDesc>
-
+  
   <!-- Permits -->
   <!-- EN: Choose permit -->
   <ChooseRoyalPermit>انتخاب مجوز</ChooseRoyalPermit>

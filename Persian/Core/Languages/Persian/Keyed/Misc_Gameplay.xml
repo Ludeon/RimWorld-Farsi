@@ -31,7 +31,7 @@
   <!-- EN: Died on the {0} -->
   <DiedOn>TODO</DiedOn>
   <!-- EN: Nobody -->
-  <Nobody>TODO</Nobody>
+  <Nobody>هیچ‌کس</Nobody>
   <!-- EN: Unowned -->
   <Unowned>TODO</Unowned>
   <!-- EN: Dead for {0} -->
@@ -447,7 +447,7 @@
   <!-- EN: {0} of {1} x{2} -->
   <FilthLabelWithSource>TODO</FilthLabelWithSource>
   <!-- EN: Required -->
-  <Required>Required</Required>
+  <Required>مورد نیاز</Required>
   <!-- EN: Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction? -->
   <GiveGiftViaTransportPodsTradeRequestWarning>TODO</GiveGiftViaTransportPodsTradeRequestWarning>
   <!-- EN: prisoner -->
@@ -1822,13 +1822,13 @@
   <DateRitualNoObligation>TODO</DateRitualNoObligation>
 
   <!-- EN: Replace with -->
-  <PreceptReplaceWith>TODO</PreceptReplaceWith>
+  <PreceptReplaceWith>جایگزینی با</PreceptReplaceWith>
   <!-- EN: Ritual seat of {IDEOS} -->
-  <RitualSeatOf>TODO</RitualSeatOf>
+  <RitualSeatOf>صندلی مراسم {IDEOS}</RitualSeatOf>
   <!-- EN: Expected quality -->
   <ExpectedLordJobQuality>TODO</ExpectedLordJobQuality>
   <!-- EN: Starting quality -->
-  <StartingQuality>TODO</StartingQuality>
+  <StartingQuality>کیفیت شروع</StartingQuality>
   <!-- EN: {PAWN_labelShort}'s {1} -->
   <RitualPredictedOutcomeDescPawnStat>TODO</RitualPredictedOutcomeDescPawnStat>
   <!-- EN: Room beauty -->
@@ -1843,7 +1843,7 @@
   <RitualOutcomeLovedOnePresentTip>TODO</RitualOutcomeLovedOnePresentTip>
 
   <!-- EN: Any of these -->
-  <RitualOutcomeLabelAnyOfThese>TODO</RitualOutcomeLabelAnyOfThese>
+  <RitualOutcomeLabelAnyOfThese>هر یک از این‌ها</RitualOutcomeLabelAnyOfThese>
   <!-- EN: Replaces {PAWN_labelShort} -->
   <RitualRoleReplaces>TODO</RitualRoleReplaces>
 

@@ -51,7 +51,7 @@
   <IdeoBuildingDisrespected>{0} بی‌احترامی شد</IdeoBuildingDisrespected>
   <!-- EN: {0} requires that {1} be in a dignified room. These room requirements must be met:\n{2}\n\nIf the {1}'s room requirements are not met, these believers will become unhappy:\n{3} -->
   <IdeoBuildingDisrespectedDesc>{0} نیاز دارد که {1} در اتاقی باوقار باشد. این الزامات اتاق باید برآورده شوند:\n{2}\n\nاگر الزامات اتاق {1} برآورده نشود، این معتقدان ناراضی خواهند شد:\n{3}</IdeoBuildingDisrespectedDesc>
-
+  
   <!-- EN: Raids arriving in {0} -->
   <QuestPartRaidsDelay>حملات در {0} می‌رسند</QuestPartRaidsDelay>
   <!-- EN: Raids will start arriving in {0}.\n\nThe raiders will target the spacedrone and attempt to destroy it. Protect the spacedrone so your colonists can hack its computer and retrieve the data. -->
@@ -129,5 +129,5 @@
   <AlertSlaveRebellionLikelyRebelliousCount>{REBELLIOUSCOUNT} برده وجود دارد که احتمالاً شورش را آغاز خواهند کرد.</AlertSlaveRebellionLikelyRebelliousCount>
   <!-- EN: A slave rebellion is expected to happen roughly once every {COMBINEDTIME}. Note that each slave's rebellion chance is independent, so if any one of them rebels they can take others with them.\n\n{REBEL_labelShort} is the most rebellious slave and is expected to initiate a rebellion roughly once every {INDIVIDUALTIME}. The following factors are affecting how often they will rebel: -->
   <AlertSlaveRebellionLikelyMostRebellious>انتظار می‌رود شورش بردگان تقریباً هر {COMBINEDTIME} یک بار رخ دهد. توجه داشته باشید که شانس شورش هر برده مستقل است، بنابراین اگر یکی از آن‌ها شورش کند می‌تواند دیگران را نیز با خود ببرد.\n\n{REBEL_labelShort} شورشی‌ترین برده است و انتظار می‌رود تقریباً هر {INDIVIDUALTIME} یک بار شورش را آغاز کند. عوامل زیر بر میزان شورش آن‌ها تأثیر می‌گذارند:</AlertSlaveRebellionLikelyMostRebellious>
-
+  
 </LanguageData>
