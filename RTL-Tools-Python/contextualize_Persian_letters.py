@@ -82,24 +82,27 @@ def parse_file(file_path):
 
 def contextualize_letters(node):
     content = node.text
-    if content and re.search(r'[\u0600-\u06FF\u0590-\u05FF]', content):
+    if content and re.search(r'[\u0600-\u06FF]', content):
         words = content.split()
         new_words = []
         for word in words:
             new_word = ''
             word_chars = list(word)
-            for idx in range(len(word_chars)):
+            idx = 0
+            while idx < len(word_chars):
                 letter = word_chars[idx]
-                prev_letter = word_chars[idx - 1] if idx > 0 else None
-                next_letter = word_chars[idx + 1] if idx < len(word_chars) - 1 else None
+                prev_letter = word_chars[idx + 1] if idx < len(word_chars) - 1 else None
+                next_letter = word_chars[idx - 1] if idx > 0 else None
                 # Lam-Alef combo handling
                 if hasattr(contextualize_letters, 'letter_was_combined') and contextualize_letters.letter_was_combined:
                     contextualize_letters.letter_was_combined = False
                     new_word += create_lam_alef_combo(prev_letter, contextualize_letters.combining_alef)
+                    idx += 1
                     continue
                 if is_alef(letter) and prev_letter and is_lam(prev_letter):
                     contextualize_letters.letter_was_combined = True
                     contextualize_letters.combining_alef = letter
+                    idx += 1
                     continue
                 # Isolated
                 if is_isolated_letter(letter):
@@ -110,6 +113,7 @@ def contextualize_letters(node):
                     new_word += contextual_non_connecting_letter(letter, prev_letter)
                 else:
                     new_word += letter
+                idx += 1
             new_words.append(new_word)
         node.text = ' '.join(new_words)
 
