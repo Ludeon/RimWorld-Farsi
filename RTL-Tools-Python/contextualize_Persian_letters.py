@@ -87,33 +87,33 @@ def contextualize_letters(node):
         new_words = []
         for word in words:
             new_word = ''
-            idx = 0
             word_chars = list(word)
-            while idx < len(word_chars):
+            idx = len(word_chars) - 1
+            while idx >= 0:
                 letter = word_chars[idx]
-                prev_letter = word_chars[idx + 1] if idx < len(word_chars) - 1 else None
-                next_letter = word_chars[idx - 1] if idx > 0 else None
+                prev_letter = word_chars[idx - 1] if idx > 0 else None
+                next_letter = word_chars[idx + 1] if idx < len(word_chars) - 1 else None
                 # Lam-Alef combo handling
                 if hasattr(contextualize_letters, 'letter_was_combined') and contextualize_letters.letter_was_combined:
                     contextualize_letters.letter_was_combined = False
-                    new_word += create_lam_alef_combo(prev_letter, contextualize_letters.combining_alef)
-                    idx += 1
+                    new_word = create_lam_alef_combo(prev_letter, contextualize_letters.combining_alef) + new_word
+                    idx -= 1
                     continue
                 if is_alef(letter) and prev_letter and is_lam(prev_letter):
                     contextualize_letters.letter_was_combined = True
                     contextualize_letters.combining_alef = letter
-                    idx += 1
+                    idx -= 1
                     continue
                 # Isolated
                 if is_isolated_letter(letter):
-                    new_word += letter
+                    new_word = letter + new_word
                 elif is_connecting_letter(letter):
-                    new_word += contextual_connecting_letter(letter, prev_letter, next_letter)
+                    new_word = contextual_connecting_letter(letter, prev_letter, next_letter) + new_word
                 elif is_non_connecting_letter(letter):
-                    new_word += contextual_non_connecting_letter(letter, prev_letter)
+                    new_word = contextual_non_connecting_letter(letter, prev_letter) + new_word
                 else:
-                    new_word += letter
-                idx += 1
+                    new_word = letter + new_word
+                idx -= 1
             new_words.append(new_word)
         node.text = ' '.join(new_words)
 
