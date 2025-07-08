@@ -24,7 +24,7 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
@@ -33,7 +33,6 @@ jobs:
 
       - name: Install dependencies
         run: gem install nokogiri
-        working-directory: ${{ github.workspace }}
 
       - name: Run translation script
         run: |
@@ -53,13 +52,11 @@ jobs:
           fi
         env:
           ERRCODE: 1
-        working-directory: ${{ github.workspace }}
 
       - name: Create ZIP archive
         run: |
           cd ${{ github.workspace }}
           zip -r persian.language.zip ./Persian
-        working-directory: ${{ github.workspace }}
 
       - name: Upload ZIP as workflow artifact
         uses: actions/upload-artifact@v4
