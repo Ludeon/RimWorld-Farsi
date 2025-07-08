@@ -2,8 +2,19 @@ name: Translation Workflow
 on:
   push:
     branches:
-      - main  # Replace with the branch name you want to trigger the workflow on
-  workflow_dispatch:  # Add manual trigger event
+      - main
+  workflow_dispatch:
+    inputs:
+      release_version:
+        description: 'Release version (e.g. v0.3.2)'
+        required: true
+        default: 'v0.3.1'
+      publish_release:
+        description: 'Publish release?'
+        required: true
+        default: 'true'
+        type: boolean
+
 env:
   ACTIONS_RUNNER_DEBUG: true
 
@@ -18,10 +29,10 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.1  # Replace with the version of Ruby you need
+          ruby-version: 3.1
 
       - name: Install dependencies
-        run: gem install nokogiri  # Add installation of 'nokogiri' gem
+        run: gem install nokogiri
         working-directory: ${{ github.workspace }}
 
       - name: Run translation script
@@ -32,9 +43,6 @@ jobs:
             ls 
             trans_dir=${{ github.workspace }}/Persian/
             dest_dir=${{ github.workspace }}/Persian/
-
-            #cp  -r ./Persian ./PersianConverted
-            
             cd rimworld-rtl-translation-tools-PersianModded
             ruby -r nokogiri ./reverse_rtl_text.rb "$dest_dir" || { echo ""; exit $ERRCODE; }
             echo "done!"
@@ -55,15 +63,17 @@ jobs:
 
       - name: Create Release
         id: create_release
+        if: ${{ github.event.inputs.publish_release == 'true' }}
         uses: actions/create-release@v1
         with:
-          tag_name: v0.3.1
-          release_name: Version v0.3.1
-          body: Release v0.3.1
+          tag_name: ${{ github.event.inputs.release_version }}
+          release_name: Version ${{ github.event.inputs.release_version }}
+          body: Release ${{ github.event.inputs.release_version }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Upload ZIP archive to Release
+        if: ${{ github.event.inputs.publish_release == 'true' }}
         uses: actions/upload-release-asset@v1
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
