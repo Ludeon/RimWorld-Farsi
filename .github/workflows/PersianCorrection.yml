@@ -61,6 +61,12 @@ jobs:
           zip -r persian.language.zip ./Persian
         working-directory: ${{ github.workspace }}
 
+      - name: Upload ZIP as workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: persian.language.zip
+          path: ./persian.language.zip
+
       - name: Create Release
         id: create_release
         if: ${{ github.event.inputs.publish_release == 'true' }}
