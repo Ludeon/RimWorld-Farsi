@@ -12,7 +12,12 @@ on:
       publish_release:
         description: 'Publish release?'
         required: true
-        default: 'true'
+        default: true
+        type: boolean
+      publish_as_beta:
+        description: 'Publish as beta release?'
+        required: true
+        default: false
         type: boolean
 
 env:
@@ -59,24 +64,14 @@ jobs:
           name: persian.language.zip
           path: ./persian.language.zip
 
-      - name: Create Release
-        id: create_release
+      - name: Create and Upload Release
         if: ${{ github.event.inputs.publish_release == 'true' }}
-        uses: actions/create-release@v1
-        with:
-          tag_name: ${{ github.event.inputs.release_version }}
-          release_name: Version ${{ github.event.inputs.release_version }}
-          body: Release ${{ github.event.inputs.release_version }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Upload ZIP archive to Release
-        if: ${{ github.event.inputs.publish_release == 'true' }}
-        uses: actions/upload-release-asset@v1
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./persian.language.zip
-          asset_name: persian.language.zip
-          asset_content_type: application/zip
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create ${{ github.event.inputs.release_version }} \
+            --title "Version ${{ github.event.inputs.release_version }}" \
+            --notes-start-tag ${{ github.event.inputs.release_version }} \
+            --generate-notes \
+            ${{ github.event.inputs.publish_as_beta == 'true' && '--prerelease' || '' }} \
+            ./persian.language.zip
