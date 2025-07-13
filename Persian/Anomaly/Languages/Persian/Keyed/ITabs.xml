@@ -4,7 +4,7 @@
   <!-- ITab_Entity -->
   <!-- EN: Escape interval -->
   <HoldingPlatformEscapeMTBDays>فاصله فرار</HoldingPlatformEscapeMTBDays>
-  <!-- EN: The average time between escapes. This is affected by containment strength, the type of entity, the entity’s movement capability, and the duration of the entity's imprisonment. Some entities are also suppressed by cold. -->
+  <!-- EN: The average time between escapes. This is affected by containment strength, the type of entity, the entity's movement capability, and the duration of the entity's imprisonment. Some entities are also suppressed by cold. -->
   <HoldingPlatformEscapeMTBDaysDesc>میانگین زمان بین فرارها. این تحت تأثیر قدرت مهار، نوع موجود، قابلیت حرکت موجود و مدت زمان زندانی بودن موجود است. برخی موجودات نیز توسط سرما سرکوب می‌شوند.</HoldingPlatformEscapeMTBDaysDesc>
   <!-- EN: Entity -->
   <TabEntity>موجود</TabEntity>
@@ -30,7 +30,7 @@
   <EntityStudyMode_ExecuteDesc>یک نگهبان موجود مهار شده را اعدام خواهد کرد.</EntityStudyMode_ExecuteDesc>
   <!-- EN: Extract bioferrite -->
   <EntityStudyMode_Extract>استخراج بیوفریت</EntityStudyMode_Extract>
-  <!-- EN: Doctors will extract bioferrite from the captured entity whenever possible. This extraction method is simple, but inefficient. Can’t be done if the entity is attached to a bioferrite harvester. -->
+  <!-- EN: Doctors will extract bioferrite from the captured entity whenever possible. This extraction method is simple, but inefficient. Can't be done if the entity is attached to a bioferrite harvester. -->
   <EntityStudyMode_ExtractDesc>پزشکان در صورت امکان بیوفریت را از موجود اسیر شده استخراج خواهند کرد. این روش استخراج ساده است، اما ناکارآمد. اگر موجود به برداشت‌کننده بیوفریت متصل باشد نمی‌توان انجام داد.</EntityStudyMode_ExtractDesc>
   <!-- EN: Requires bioferrite extraction. -->
   <RequiresBioferriteExtraction>نیاز به استخراج بیوفریت دارد.</RequiresBioferriteExtraction>

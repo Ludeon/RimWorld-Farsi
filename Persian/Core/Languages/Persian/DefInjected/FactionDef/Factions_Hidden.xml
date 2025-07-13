@@ -7,6 +7,8 @@
   <Ancients.fixedName>TODO</Ancients.fixedName>
   <!-- EN: leader -->
   <Ancients.leaderTitle>TODO</Ancients.leaderTitle>
+  <!-- EN: Ancient soldiers are attacking. -->
+  <Ancients.messageDefendersAttacking>TODO</Ancients.messageDefendersAttacking>
   <!-- EN: ancient -->
   <Ancients.pawnSingular>TODO</Ancients.pawnSingular>
   <!-- EN: ancients -->
@@ -18,6 +20,8 @@
   <AncientsHostile.fixedName>TODO</AncientsHostile.fixedName>
   <!-- EN: leader -->
   <AncientsHostile.leaderTitle>TODO</AncientsHostile.leaderTitle>
+  <!-- EN: Ancient soldiers are attacking. -->
+  <AncientsHostile.messageDefendersAttacking>TODO</AncientsHostile.messageDefendersAttacking>
   <!-- EN: ancient -->
   <AncientsHostile.pawnSingular>TODO</AncientsHostile.pawnSingular>
   <!-- EN: ancients -->
@@ -31,6 +35,8 @@
   <Insect.fixedName>TODO</Insect.fixedName>
   <!-- EN: leader -->
   <Insect.leaderTitle>TODO</Insect.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <Insect.messageDefendersAttacking>TODO</Insect.messageDefendersAttacking>
   <!-- EN: insect -->
   <Insect.pawnSingular>TODO</Insect.pawnSingular>
   <!-- EN: insects -->
@@ -42,6 +48,8 @@
   <Mechanoid.description>TODO</Mechanoid.description>
   <!-- EN: leader -->
   <Mechanoid.leaderTitle>TODO</Mechanoid.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <Mechanoid.messageDefendersAttacking>TODO</Mechanoid.messageDefendersAttacking>
   <!-- EN: mechanoid -->
   <Mechanoid.pawnSingular>TODO</Mechanoid.pawnSingular>
   <!-- EN: mechanoids -->

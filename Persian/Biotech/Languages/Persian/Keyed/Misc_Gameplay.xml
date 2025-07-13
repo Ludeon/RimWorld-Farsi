@@ -27,10 +27,14 @@
   <CaravanMechsCount>{0} مکانیوید</CaravanMechsCount>
   <!-- EN: {BOSS} with {APPAREL} -->
   <BossWithApparel>{BOSS} با {APPAREL}</BossWithApparel>
+  <!-- EN: Resulting from gene -->
+  <ComesFromGene>TODO</ComesFromGene>
 
   <!-- Job reports -->
   <!-- EN: removing {0}. -->
   <ReportRemovingMechlink>در حال برداشتن {0}.</ReportRemovingMechlink>
+  <!-- EN: from {TEACHER_labelShort} -->
+  <ReportTakingLessonFrom>TODO</ReportTakingLessonFrom>
 
   <!-- Areas -->
   <!-- EN: Pollution clear -->
@@ -99,6 +103,8 @@
   <ReadyToSummonThreat>تهدید {0} آماده احضار</ReadyToSummonThreat>
   <!-- EN: Summon {0} threat -->
   <Summon>احضار تهدید {0}</Summon>
+  <!-- EN: Mechanoids disabled -->
+  <MechsDisabled>TODO</MechsDisabled>
   <!-- EN: No reachable {0} -->
   <NoReachableBossgroupCaller>هیچ {0} قابل دسترسی نیست</NoReachableBossgroupCaller>
   <!-- EN: No reservable {0} -->
@@ -247,12 +253,6 @@
   <BirthRitualHealthyBabyChance>شانس تولد سالم در این سطح کیفیت {0_percentage} بود.</BirthRitualHealthyBabyChance>
   <!-- EN: Giving birth. -->
   <GivingBirth>در حال زایمان.</GivingBirth>
-
-  <!-- Shield comp -->
-  <!-- EN: Shield energy -->
-  <ShieldEnergy>انرژی سپر</ShieldEnergy>
-  <!-- EN: Time to recovery -->
-  <ShieldTimeToRecovery>زمان تا بازیابی</ShieldTimeToRecovery>
 
   <!-- Genes -->
   <!-- EN: genes -->
@@ -754,10 +754,6 @@
   <IvfPregnancyLetterText>{0} با موفقیت از کاشت جنین باردار شد!</IvfPregnancyLetterText>
   <!-- EN: The baby will have the genetic makeup of {0} and {1}. -->
   <IvfPregnancyLetterParents>نوزاد ترکیب ژنتیکی {0} و {1} را خواهد داشت.</IvfPregnancyLetterParents>
-
-  <!-- Projectile interceptor -->
-  <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->
-  <ProjectileInterceptorTip>یک سپر پرتابی با زاویه کم که سعی می‌کند پرتابه‌ها یا ترکش‌های ورودی را متوقف کند. در صورت برخورد با EMP فوراً خاموش می‌شود.</ProjectileInterceptorTip>
 
   <!-- Remote mech shield -->
   <!-- EN: A remote shield projected by a mechanitor. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks or heat. It prevents the wearer from firing out, and shuts down instantly if hit by EMP -->

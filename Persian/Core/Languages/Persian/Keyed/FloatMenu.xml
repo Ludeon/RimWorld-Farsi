@@ -22,8 +22,12 @@
   <!-- EN: Not allowed -->
   <NotAllowed>مجاز نیست</NotAllowed>
   
+  <!-- EN: Attack {1_labelShort} -->
+  <Attack>TODO</Attack>
   <!-- EN: Fire at {1_labelShort} -->
   <FireAt>شلیک به {1_label}</FireAt>
+  <!-- EN: Remove -->
+  <Remove>زدودن</Remove>
 
   <!-- EN: out of range -->
   <OutOfRange>خارج از محدوده</OutOfRange>
@@ -41,6 +45,8 @@
   <IsNotDraftedLower>{1_labelShort} آماده نیست</IsNotDraftedLower>
   <!-- EN: cannot order characters you do not control -->
   <CannotOrderNonControlledLower>نمی‌توان به شخصیت‌هایی که کنترل نمی‌کنید دستور داد</CannotOrderNonControlledLower>
+  <!-- EN: cannot attack -->
+  <CannotAttack>TODO</CannotAttack>
   <!-- EN: cannot attack self -->
   <CannotAttackSelf>نمی‌توان به خود حمله کرد</CannotAttackSelf>
   <!-- EN: cannot attack faction ally -->
@@ -88,6 +94,8 @@
   <AboveAllowedSkill>بالاتر از مهارت مجاز {0}</AboveAllowedSkill>
   <!-- EN: no reachable outside cell -->
   <NoReachableOutsideCell>هیچ سلول بیرونی قابل دسترسی وجود ندارد</NoReachableOutsideCell>
+  <!-- EN: cannot exit map -->
+  <CannotExitMap>TODO</CannotExitMap>
   <!-- EN: missing required skill level -->
   <MissingRequiredSkillLevel>سطح مهارت مورد نیاز کم است</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
@@ -228,6 +236,8 @@
   <TakingToBed>بردن {0_labelShort} به تخت.</TakingToBed>
   <!-- EN: Cannot rescue -->
   <CannotRescue>نمی توان نجات داد</CannotRescue>
+  <!-- EN: Cannot rescue {PAWN_labelShort} -->
+  <CannotRescuePawn>TODO</CannotRescuePawn>
 
   <!-- EN: Carry {1_labelShort} to cryptosleep casket -->
   <CarryToCryptosleepCasket>حمل {1_label} به کپسول کریپتوخواب</CarryToCryptosleepCasket>
@@ -289,12 +299,20 @@
   
   <!-- EN: Force wear {1_labelShort} -->
   <ForceWear>اجبار به پوشیدن {1_labelShort}</ForceWear>
+  <!-- EN: Force target to wear {1_labelShort}... -->
+  <ForceTargetToWear>TODO</ForceTargetToWear>
   <!-- EN: Cannot wear {1_label} -->
   <CannotWear>نمی‌توان {1_label} را پوشید</CannotWear>
+  <!-- EN: Cannot force target to wear {1_label} -->
+  <CannotForceTargetToWear>TODO</CannotForceTargetToWear>
   <!-- EN: Force equip {1_labelShort} -->
   <ForceEquipApparel>اجبار به تجهیز {1_labelShort}</ForceEquipApparel>
+  <!-- EN: Force target to equip {1_labelShort}... -->
+  <ForceTargetToEquipApparel>TODO</ForceTargetToEquipApparel>
   <!-- EN: Cannot equip {1_label} -->
   <CannotEquipApparel>نمی‌توان {1_label} را تجهیز کرد</CannotEquipApparel>
+  <!-- EN: Cannot force target to equip {1_label} -->
+  <CannotForceTargetToEquipApparel>TODO</CannotForceTargetToEquipApparel>
   <!-- EN: missing body parts -->
   <CannotWearBecauseOfMissingBodyParts>اندام‌های بدن کم است</CannotWearBecauseOfMissingBodyParts>
   
@@ -397,6 +415,8 @@
   <NoDoctor>بدون پزشک</NoDoctor>
   <!-- EN: medical bed not for slaves -->
   <NotForSlaves>تخت پزشکی برای بردگان نیست</NotForSlaves>
+  <!-- EN: Medical care disabled -->
+  <MedicalCareDisabled>TODO</MedicalCareDisabled>
   <!-- EN: occupied by {0} -->
   <SomeoneElseSleeping>توسط {0} اشغال شده است</SomeoneElseSleeping>
   
@@ -426,25 +446,12 @@
   <AttackSettlement>حمله به {0}</AttackSettlement>
   <!-- EN: Approach {0} -->
   <ApproachSite>نزدیک شدن به {0}</ApproachSite>
-  <!-- EN: Approaching {0} -->
+  <!-- EN: Approaching {0}. -->
   <ApproachingSite>در حال نزدیک شدن به {0}</ApproachingSite>
   <!-- EN: Offer gifts -->
   <OfferGifts>پیشنهاد هدایا</OfferGifts>
   <!-- EN: Trade with {0} -->
   <TradeWithSettlement>تجارت با {0}</TradeWithSettlement>
-  
-  <!-- EN: Enter {0} -->
-  <EnterPortal>ورود به {0}</EnterPortal>
-  <!-- EN: Entering {0} -->
-  <EnteringPortal>در حال ورود به {0}</EnteringPortal>
-  <!-- EN: Enter {0} -->
-  <CommandEnterPortal>ورود به {0}</CommandEnterPortal>
-  <!-- EN: Select people and items to enter the {0}. -->
-  <CommandEnterPortalDesc>افراد و اقلام را برای ورود به {0} انتخاب کنید.</CommandEnterPortalDesc>
-  <!-- EN: Cancel entering -->
-  <CommandCancelEnterPortal>لغو ورود</CommandCancelEnterPortal>
-  <!-- EN: Cancel loading people or items into this. -->
-  <CommandCancelEnterPortalDesc>بارگیری افراد یا اقلام در این را لغو کنید.</CommandCancelEnterPortalDesc>
 
   <!-- Specific thing interactions -->
   <!-- EN: Enter cryptosleep casket -->
@@ -460,7 +467,7 @@
   <!-- EN: Cannot {0} -->
   <CannotGenericWorkCustom>نمی‌توان {0}</CannotGenericWorkCustom>
 
-  <!-- EN: Cannot prioritize: Incapable of {0} -->
+  <!-- EN: Incapable of {0} -->
   <CannotMissingHealthActivities>نمی‌توان اولویت‌بندی کرد: قادر به {0} نیست</CannotMissingHealthActivities>
 
   <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
@@ -469,27 +476,27 @@
   <!-- EN: Already {0} -->
   <CannotGenericAlreadyAmCustom>از قبل در حال {0}</CannotGenericAlreadyAmCustom>
 
-  <!-- EN: Cannot prioritize: Will never do {0} -->
+  <!-- EN: Will never do {0} -->
   <CannotPrioritizeWorkTypeDisabled>نمی‌توان اولویت‌بندی کرد: هرگز {0} را انجام نخواهد داد</CannotPrioritizeWorkTypeDisabled>
   <!-- EN: lacking necessary title -->
   <MissingTitleAbility>فاقد عنوان لازم</MissingTitleAbility>
 
-  <!-- EN: Cannot prioritize: Will never {0} -->
+  <!-- EN: Will never {0} -->
   <CannotPrioritizeWorkGiverDisabled>نمی‌توان اولویت‌بندی کرد: هرگز {0} را انجام نخواهد داد</CannotPrioritizeWorkGiverDisabled>
   <!-- EN: will never {0} -->
   <WillNever>هرگز {0} را انجام نخواهد داد</WillNever>
 
-  <!-- EN: Cannot prioritize: Not assigned to {0} -->
+  <!-- EN: Not assigned to {0} -->
   <CannotPrioritizeNotAssignedToWorkType>نمی‌توان اولویت‌بندی کرد: به {0} اختصاص داده نشده است</CannotPrioritizeNotAssignedToWorkType>
   <!-- EN: not assigned -->
   <NotAssigned>اختصاص داده نشده</NotAssigned>
   <!-- EN: not assigned to {0} -->
   <NotAssignedToWorkType>به {0} اختصاص داده نشده است</NotAssignedToWorkType>
 
-  <!-- EN: Cannot prioritize: Research is a long-term task -->
+  <!-- EN: Research is a long-term task -->
   <CannotPrioritizeResearch>نمی‌توان اولویت‌بندی کرد: تحقیق یک کار بلندمدت است</CannotPrioritizeResearch>
 
-  <!-- EN: Cannot prioritize: {1_label} is forbidden -->
+  <!-- EN: {1_label} is forbidden -->
   <CannotPrioritizeForbidden>نمی‌توان اولویت‌بندی کرد: {1_label} ممنوع است</CannotPrioritizeForbidden>
   <!-- EN: Cannot prioritize: Forbidden -->
   <CannotPrioritizeCellForbidden>نمی‌توان اولویت‌بندی کرد: ممنوع</CannotPrioritizeCellForbidden>
@@ -501,7 +508,13 @@
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc -->
   <!-- EN: Prioritize {0} {1} -->
   <PrioritizeGeneric>اولویت‌بندی {0} {1}</PrioritizeGeneric>
-  
+  <!-- EN: Prioritize {0} -->
+  <PrioritizeGenericSimple>TODO</PrioritizeGenericSimple>
+
+  <!-- EN: Launch to {LOCATION_label} -->
+  <LaunchTo>TODO</LaunchTo>
+  <!-- EN: Are you sure you want to launch? -->
+  <LaunchToConfirmation>TODO</LaunchToConfirmation>
   <!-- EN: Drop at edge -->
   <DropAtEdge>رها کردن در لبه</DropAtEdge>
   <!-- EN: Drop in center -->
@@ -626,4 +639,24 @@
   <AlreadyAnalyzed>از قبل تحلیل شده است</AlreadyAnalyzed>
   <!-- EN: no reachable, un-reserved research bench available -->
   <NoResearchBench>هیچ میز تحقیق قابل دسترسی، رزرو نشده وجود ندارد</NoResearchBench>
+
+  <!-- Hacking -->
+  <!-- EN: Hack {0} -->
+  <Hack>هک {0}</Hack>
+  <!-- EN: Choose a colonist to hack this. -->
+  <HackDesc>TODO</HackDesc>
+  <!-- EN: Cannot hack {0} -->
+  <CannotHack>نمی‌توان {0} را هک کرد</CannotHack>
+  <!-- EN: Locked out -->
+  <LockedOut>TODO</LockedOut>
+  <!-- EN: Already hacked -->
+  <AlreadyHacked>قبلاً هک شده</AlreadyHacked>
+  <!-- EN: Incapable of hacking -->
+  <IncapableOfHacking>ناتوان از هک</IncapableOfHacking>
+  <!-- EN: to drop supplies -->
+  <ToDropSupplies>برای انداختن تدارکات</ToDropSupplies>
+
+  <!-- UNUSED -->
+  <CommandEnterPortal>ورود به {0}</CommandEnterPortal>
+
 </LanguageData>

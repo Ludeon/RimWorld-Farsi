@@ -53,7 +53,7 @@
   <!-- EN: They will escape soon. Build stronger walls, doors, or other containment devices to hold them. -->
   <Alert_InsufficientContainmentDescAppended>آن‌ها به زودی فرار خواهند کرد. دیوارهای قوی‌تر، درها یا دستگاه‌های مهار دیگر برای نگهداری آن‌ها بسازید.</Alert_InsufficientContainmentDescAppended>
 
-  <!-- EN: Holding platforms needed -->
+  <!-- EN: Need holding platforms -->
   <AlertHoldingPlatform>نیاز به سکوهای نگهداری</AlertHoldingPlatform>
   <!-- EN: Build holding platforms or place holding spots to contain and study captured entities. -->
   <AlertHoldingPlatformDesc>سکوهای نگهداری بسازید یا نقاط نگهداری قرار دهید تا موجودات اسیر شده را مهار و مطالعه کنید.</AlertHoldingPlatformDesc>
@@ -74,7 +74,7 @@
   
   <!-- EN: Inhibitor blocked -->
   <AlertInhibitorBlocked>مهارکننده مسدود شده</AlertInhibitorBlocked>
-  <!-- EN: One of your electric inhibitors is not functional because it’s blocked by another building.\n\nClear the space in front of the electric inhibitor. -->
+  <!-- EN: One of your electric inhibitors is not functional because it's blocked by another building.\n\nClear the space in front of the electric inhibitor. -->
   <AlertInhibitorBlockedDesc>یکی از مهارکننده‌های الکتریکی شما کار نمی‌کند زیرا توسط ساختمان دیگری مسدود شده است.\n\nفضای جلوی مهارکننده الکتریکی را پاک کنید.</AlertInhibitorBlockedDesc>
 
   <!-- EN: Entity treatment needed -->
@@ -89,7 +89,7 @@
   
   <!-- EN: Gray flesh -->
   <AlertGrayFleshSample>گوشت خاکستری</AlertGrayFleshSample>
-  <!-- EN: You’ve discovered a strip of fleshy tissue. Analyze it to learn more about the biosignature. -->
+  <!-- EN: You've discovered a strip of fleshy tissue. Analyze it to learn more about the biosignature. -->
   <AlertGrayFleshSampleDesc>شما نواری از بافت گوشتی کشف کرده‌اید. آن را تجزیه و تحلیل کنید تا در مورد امضای زیستی بیشتر بیاموزید.</AlertGrayFleshSampleDesc>
   <!-- EN: Neural lump -->
   <AlertNeuralLump>توده عصبی</AlertNeuralLump>

@@ -90,37 +90,15 @@
   <!-- EN: Pit gate collapsing -->
   <PitGateCollapsing>دروازه گودال در حال فرو ریختن</PitGateCollapsing> 
   <!-- EN: Pit gate settling -->
-  <PitGateSettling>دروازه گودال در حال تثبیت</PitGateSettling> 
-  <!-- EN: View undercave -->
-  <ViewUndercave>مشاهده غار زیرین</ViewUndercave> 
-  <!-- EN: View the connected undercave map. -->
-  <ViewUndercaveDesc>مشاهده نقشه غار زیرین متصل.</ViewUndercaveDesc>
-  <!-- EN: View surface -->
-  <ViewSurface>مشاهده سطح</ViewSurface>
-  <!-- EN: View the connected surface map. -->
-  <ViewSurfaceDesc>مشاهده نقشه سطح متصل.</ViewSurfaceDesc>
+  <PitGateSettling>دروازه گودال در حال تثبیت</PitGateSettling>
   <!-- EN: Pit rumbles -->
   <EmergenceWarningLabel>غرش گودال</EmergenceWarningLabel>
   <!-- EN: The ground shakes under your feet and the inhuman screams echoing from the pit seem to get closer. Something will emerge soon. -->
   <EmergenceWarningText>زمین زیر پاهایتان می‌لرزد و فریادهای غیرانسانی که از گودال پژواک می‌شوند، نزدیک‌تر به نظر می‌رسند. چیزی به زودی ظاهر خواهد شد.</EmergenceWarningText>
 
-  <!-- Pit Burrow -->
-  <!-- EN: Fill in -->
-  <DesignatorFillIn>پر کردن</DesignatorFillIn>
-  <!-- EN: Fill in this pit burrow. -->
-  <DesignatorFillInDesc>این گودال را پر کنید.</DesignatorFillInDesc>
-
     <!-- Undercave -->
-  <!-- EN: Enter pit gate -->
-  <EnterPitGate>ورود به دروازه گودال</EnterPitGate> 
-  <!-- EN: Climb to surface -->
-  <ExitPitGate>صعود به سطح</ExitPitGate>
-  <!-- EN: Fleshbeast lair -->
-  <LetterLabelGateEntered>لانه هیولای گوشتی</LetterLabelGateEntered> 
-  <!-- EN: In the depths of the pit gate, you have discovered a massive cavern system infested with fleshbeasts.\n\nThe cavern system is clogged with masses of living flesh that block your progress. Attack the fleshmass to destroy it.\n\nThe entire cavern system seems unstable. If you find what lies behind the fleshmass, you may be able to collapse the tunnels and close the pit gate. -->
-  <LetterGateEntered>در اعماق دروازه گودال، یک سیستم غار عظیم را کشف کرده‌اید که پر از هیولاهای گوشتی است.\n\nسیستم غار با توده‌های گوشت زنده مسدود شده که پیشروی شما را متوقف می‌کند. به توده گوشت حمله کنید تا آن را نابود کنید.\n\nکل سیستم غار ناپایدار به نظر می‌رسد. اگر آنچه را که پشت توده گوشت قرار دارد پیدا کنید، ممکن است بتوانید تونل‌ها را فرو بریزید و دروازه گودال را ببندید.</LetterGateEntered> 
   <!-- EN: Squirming sounds -->
-  <LetterLabelDreadmeldWarning>صداهای وول خوردن</LetterLabelDreadmeldWarning> 
+  <LetterLabelDreadmeldWarning>صداهای وول خوردن</LetterLabelDreadmeldWarning>
   <!-- EN: As {PAWN_nameDef} draws near the fleshmass here, {PAWN_pronoun} senses a heavy writhing and throbbing from under its warm surface. Some huge living entity is hidden behind the wall of flesh. -->
   <LetterDreadmeldWarning>همانطور که {PAWN_nameDef} به توده گوشت نزدیک می‌شود، {PAWN_pronoun} احساس وول خوردن و ضربان سنگینی را از زیر سطح گرم آن حس می‌کند. موجود زنده‌ی عظیمی پشت دیوار گوشت پنهان شده است.</LetterDreadmeldWarning> 
   <!-- EN: Undercave unstable -->
@@ -274,8 +252,6 @@
   <Resisted>مقاومت</Resisted>
   <!-- EN: Damaged -->
   <HealthFactor>آسیب دیده</HealthFactor>
-  <!-- EN: Deactivated. -->
-  <Deactivated>غیرفعال شد.</Deactivated> <!-- -->
 
   <!-- EN: {PAWN_labelShort} was sent. -->
   <CommandSent>{PAWN_labelShort} فرستاده شد.</CommandSent>
@@ -732,7 +708,7 @@
   <VoidMonolithViewResearch>مشاهده تحقیقات ناهنجاری</VoidMonolithViewResearch>
   <!-- EN: Current monolith level -->
   <CurrentMonolithLevel>سطح فعلی مونولیت</CurrentMonolithLevel>
-  <!-- EN: Investigate to learn more. -->
+  <!-- EN: Send a colonist to investigate this. -->
   <VoidMonolithUndiscovered>برای یادگیری بیشتر تحقیق کنید.</VoidMonolithUndiscovered>
   <!-- EN: In order to advance the monolith to the next step, you need to discover {0} {1} tier entities. -->
   <VoidMonolithRequiredEntityCategory>برای پیشبرد مونولیت به مرحله بعدی، باید {0} موجود رده {1} را کشف کنید.</VoidMonolithRequiredEntityCategory>
@@ -779,7 +755,7 @@
   <MonolithAutoActivatingText>موجی از وحشت بر مستعمره‌نشینان شما می‌گذرد. مونولیت افتاده شروع به تکان خوردن کرده است. به آرامی، شروع به پیچ خوردن و بازآرایی خود می‌کند و به چیزی جدید تبدیل می‌شود.\n\nظرف چند روز، این فرآیند کامل خواهد شد. برای هر آنچه در ادامه می‌آید آماده باشید.</MonolithAutoActivatingText>
   <!-- EN: Void monolith -->
   <MonolithAutoActivatedLabel>مونولیت خلاء</MonolithAutoActivatedLabel>
-  <!-- EN: The monolith’s transformation is almost complete... -->
+  <!-- EN: The monolith's transformation is almost complete... -->
   <MonolithAutoActivatedText>دگرگونی مونولیت تقریباً کامل شده است...</MonolithAutoActivatedText>
 
   <!-- EN: Gray pall -->
@@ -890,4 +866,14 @@
   <!-- EN: Security doors only -->
   <SecurityDoorsOnly>فقط درهای امنیتی</SecurityDoorsOnly>
   
+  <!-- UNUSED -->
+  <ViewUndercave>مشاهده غار زیرین</ViewUndercave>
+  <ViewUndercaveDesc>مشاهده نقشه غار زیرین متصل.</ViewUndercaveDesc>
+  <ViewSurface>مشاهده سطح</ViewSurface>
+  <ViewSurfaceDesc>مشاهده نقشه سطح متصل.</ViewSurfaceDesc>
+  <EnterPitGate>ورود به دروازه گودال</EnterPitGate>
+  <ExitPitGate>صعود به سطح</ExitPitGate>
+  <LetterLabelGateEntered>لانه هیولای گوشتی</LetterLabelGateEntered>
+  <LetterGateEntered>در اعماق دروازه گودال، یک سیستم غار عظیم را کشف کرده‌اید که پر از هیولاهای گوشتی است.\n\nسیستم غار با توده‌های گوشت زنده مسدود شده که پیشروی شما را متوقف می‌کند. به توده گوشت حمله کنید تا آن را نابود کنید.\n\nکل سیستم غار ناپایدار به نظر می‌رسد. اگر آنچه را که پشت توده گوشت قرار دارد پیدا کنید، ممکن است بتوانید تونل‌ها را فرو بریزید و دروازه گودال را ببندید.</LetterGateEntered>
+
 </LanguageData>

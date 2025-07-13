@@ -59,7 +59,7 @@
   <LetterRoleLostReasonLowBelieversDesc>نقش به دلیل تعداد کم {0} غیرفعال شد.</LetterRoleLostReasonLowBelieversDesc>
   <!-- EN: {PAWN_labelShort} has lost {PAWN_possessive} position as {ROLE_labelDef} because {PAWN_pronoun} abandoned the {OLDIDEO_name}. -->
   <LetterRoleLostLetterIdeoChangedPostfix>{PAWN_labelShort} موقعیت {PAWN_possessive} به عنوان {ROLE_labelDef} را از دست داده است زیرا {PAWN_pronoun} {OLDIDEO_name} را رها کرد.</LetterRoleLostLetterIdeoChangedPostfix>
-  <!-- EN: {0} skipped. -->
+  <!-- EN: {0} skipped -->
   <LetterObligationRoleInactive>{0} رد شد.</LetterObligationRoleInactive>
   <!-- EN: {0} is the date of the {1}, but since {ROLE_labelDef} role is inactive, the {2}s will skip the {1}. -->
   <LetterObligationRoleInactiveDateDesc>{0} تاریخ {1} است، اما از آنجایی که نقش {ROLE_labelDef} غیرفعال است، {2}ها {1} را رد خواهند کرد.</LetterObligationRoleInactiveDateDesc>

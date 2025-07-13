@@ -4,17 +4,15 @@
   <!-- Shuttle landing zones -->
   <!-- EN: Shuttle could not land on pad: {0} -->
   <ShuttleBlocked>شاتل نتوانست روی پد فرود بیاید: {0}</ShuttleBlocked>
-  <!-- EN: The shuttle has arrived. -->
-  <MessageShuttleArrived>شاتل رسید.</MessageShuttleArrived>
   <!-- EN: The shuttle arrived, but since there were no colonists inside, the contents were lost. -->
   <MessageShuttleArrivedContentsLost>شاتل رسید، اما از آنجایی که هیچ مستعمره‌نشینی در داخل نبود، محتویات از دست رفت.</MessageShuttleArrivedContentsLost>
-  <!-- EN: Cannot call shuttle -->
-  <CannotCallShuttle>نمی‌توان شاتل را فراخواند</CannotCallShuttle>
 
   <!-- EN: Cannot land in undiscovered area. -->
   <ShuttleCannotLand_Fogged>نمی‌توان در منطقه کشف نشده فرود آمد.</ShuttleCannotLand_Fogged>
   <!-- EN: Area must be walkable. -->
   <ShuttleCannotLand_Unwalkable>منطقه باید قابل راه رفتن باشد.</ShuttleCannotLand_Unwalkable>
+  <!-- EN: Terrain does not support {0}. -->
+  <ShuttleCannotLand_Unaffordable>TODO</ShuttleCannotLand_Unaffordable>
 
   <!-- EN: Select {BESTOWER_definite} and click 'Begin bestowing ceremony' to commence the ceremony. -->
   <MessageBestowerWaiting>{BESTOWER_definite} را انتخاب کرده و روی 'شروع مراسم اعطا' کلیک کنید تا مراسم آغاز شود.</MessageBestowerWaiting>

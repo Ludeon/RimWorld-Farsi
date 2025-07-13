@@ -15,11 +15,15 @@
   <IceSheet.label>TODO</IceSheet.label>
   <!-- EN: Sheets of ice which can be kilometers thick. There is no soil for plants to grow in. The only animals here are migrating to somewhere else - or badly lost. -->
   <IceSheet.description>TODO</IceSheet.description>
+  <!-- EN: Ice sheet is extremely inhospitable. There is no soil for plants and almost no animal life. Long-term survival is a challenge. -->
+  <IceSheet.settleWarning>TODO</IceSheet.settleWarning>
   
   <!-- EN: sea ice -->
   <SeaIce.label>TODO</SeaIce.label>
   <!-- EN: Permanent ice sheets floating on water. There is no soil for plants to grow, no minerals to mine, and almost no animal life. -->
   <SeaIce.description>TODO</SeaIce.description>
+  <!-- EN: Sea ice is extremely inhospitable. There is no soil for plants and almost no animal life. Long-term survival is a challenge. -->
+  <SeaIce.settleWarning>TODO</SeaIce.settleWarning>
   
   <!-- EN: tundra -->
   <Tundra.label>TODO</Tundra.label>

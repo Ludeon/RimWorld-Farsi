@@ -23,7 +23,7 @@
   <Disable>غیرفعال کردن</Disable>
   <!-- EN: Modify -->
   <Modify>اصلاح</Modify>
-  <!-- EN: Settle here anyways? -->
+  <!-- EN: Settle here anyway? -->
   <ConfirmSettle>به هر حال اینجا سکونت کنید؟</ConfirmSettle>
   <!-- EN: add -->
   <Add>افزودن</Add>
@@ -249,8 +249,8 @@
   <SelectedCharactersMustInclude>باید دقیقاً شامل {SUMMARY} باشد</SelectedCharactersMustInclude>
 
   <!-- Advanced game start options -->
-  <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
-  <MapTemperatureDangerWarning>هشدار: شما در محیطی یخ‌زده فرود خواهید آمد. بقا ممکن است سخت یا تقریباً غیرممکن باشد. اگر قصد رویارویی با چالش شدید را ندارید، مکان یا فصل دیگری را انتخاب کنید.</MapTemperatureDangerWarning>
+  <!-- EN: Warning: You will be landing in winter. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different season. -->
+  <MapWinterWarning>TODO</MapWinterWarning>
   <!-- EN: The game is designed to play on medium map sizes. These sizes provide plenty of space!\n\nLarge map sizes don't just degrade performance - they actually break the game design. The AI will make stupid decisions, and game balance will be badly affected in various ways. These sizes are included for tradition and testing reasons only, please do not use them without a specific reason. -->
   <MapSizePerformanceWarning>بازی برای اجرا در اندازه‌های نقشه متوسط طراحی شده است. این اندازه‌ها فضای زیادی را فراهم می‌کنند!\n\nاندازه‌های نقشه بزرگ فقط عملکرد را کاهش نمی‌دهند - آنها در واقع طراحی بازی را خراب می‌کنند. هوش مصنوعی تصمیمات احمقانه خواهد گرفت و تعادل بازی به طرق مختلف به شدت تحت تأثیر قرار خواهد گرفت. این اندازه‌ها فقط به دلایل سنتی و آزمایشی گنجانده شده‌اند، لطفاً بدون دلیل خاص از آنها استفاده نکنید.</MapSizePerformanceWarning>
   <!-- EN: Map size -->
@@ -700,6 +700,8 @@
   <TradeModeTip>بازگشت به حالت تجارت.</TradeModeTip>
   <!-- EN: {FACTION_name} is not willing to send a caravan because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
   <TradeCaravanRequestDeniedDueTitle>{FACTION_name} مایل به ارسال کاروان نیست زیرا {NEGOTIATOR_nameDef} فاقد عنوان مورد نیاز {TITLE} است.</TradeCaravanRequestDeniedDueTitle>
+  <!-- EN: {FACTION_name} is not willing to send an orbital trader because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
+  <OrbitalTradeRequestDeniedDueTitle>TODO</OrbitalTradeRequestDeniedDueTitle>
 
   <!-- Sellable items -->
   <!-- EN: Things this trader will buy -->
@@ -728,6 +730,10 @@
   <Send>ارسال</Send>
   <!-- EN: Number available to send with the caravan. -->
   <FormCaravanColonyThingCountTip>تعداد موجود برای ارسال با کاروان.</FormCaravanColonyThingCountTip>
+  <!-- EN: Number available to transport. -->
+  <TransporterColonyThingCountTip>TODO</TransporterColonyThingCountTip>
+  <!-- EN: Number available to transfer. -->
+  <TransferMapPortalColonyThingCountTip>TODO</TransferMapPortalColonyThingCountTip>
   <!-- EN: People and animals -->
   <PawnsTab>افراد و حیوانات</PawnsTab>
   <!-- EN: Items -->
@@ -948,6 +954,8 @@
   <DuplicatePolicyTip>یک کپی از سیاست انتخاب شده ایجاد کنید.</DuplicatePolicyTip>
   <!-- EN: Rename this policy. -->
   <RenamePolicyTip>این سیاست را تغییر نام دهید.</RenamePolicyTip>
+  <!-- EN: Make this policy the default policy given to new colonists. -->
+  <DefaultPolicyTip>TODO</DefaultPolicyTip>
   <!-- EN: Are you sure you want to delete the policy: {0}? -->
   <DeletePolicyConfirm>آیا مطمئن هستید که می‌خواهید سیاست: {0} را حذف کنید؟</DeletePolicyConfirm>
   <!-- EN: Delete -->
@@ -1059,6 +1067,8 @@
   <SchematicPolicy>شماتیک‌ها</SchematicPolicy>
   <!-- EN: Novels -->
   <NovelPolicy>رمان‌ها</NovelPolicy>
+  <!-- EN: Maps -->
+  <MapPolicy>TODO</MapPolicy>
 
   <!-- Medical settings -->
   <!-- EN: Default medicine settings -->
@@ -1138,8 +1148,10 @@
   <ConfirmBanishPawnDialog_IndividualThoughts>Banishing {1_labelShort} will cause the following people to get the following thoughts:</ConfirmBanishPawnDialog_IndividualThoughts>
 
   <!-- Send transport pods which are not completely loaded -->
-  <!-- EN: Pod group isn't completely loaded. {1_labelShort} is missing. Launch anyway? -->
-  <ConfirmSendNotCompletelyLoadedPods>Pod group isn't completely loaded. {1_labelShort} is missing. Launch anyway?</ConfirmSendNotCompletelyLoadedPods>
+  <!-- EN: The following still need to be loaded -->
+  <ConfirmSendNotCompletelyLoadedLaunchable>TODO</ConfirmSendNotCompletelyLoadedLaunchable>
+  <!-- EN: Launch anyway? -->
+  <ConfirmSendLaunchAnyway>TODO</ConfirmSendLaunchAnyway>
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days. -->
@@ -1205,7 +1217,7 @@
   <!-- EN: Cannot use: {0} is asexual. -->
   <AbilityCantApplyOnAsexual>Cannot use: {0} is asexual.</AbilityCantApplyOnAsexual>
   <!-- EN: {PAWN_labelShort} has no healable injuries. -->
-  <AbilityCannotCastNoHealableInjury>TODO</AbilityCannotCastNoHealableInjury>
+  <AbilityCannotCastNoHealableInjury>{PAWN_labelShort} هیچ آسیب قابل درمانی ندارد.</AbilityCannotCastNoHealableInjury>
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
   <AbilityCantApplyWrongAttractionGender>{1_labelShort} is the wrong gender for {0_labelShort}.</AbilityCantApplyWrongAttractionGender>
   <!-- EN: {0_labelShort} is too young. -->
@@ -1413,6 +1425,10 @@
   <SearchTheMap>جستجو در نقشه فعلی.</SearchTheMap>
   <!-- EN: Search the current map for items, buildings, people, animals, plants, and more. -->
   <SearchTheMapDesc>جستجو در نقشه فعلی برای اقلام، ساختمان‌ها، افراد، حیوانات، گیاهان و موارد دیگر.</SearchTheMapDesc>
+  <!-- EN: Search the world -->
+  <SearchTheWorld>TODO</SearchTheWorld>
+  <!-- EN: Search the world for specific features, landmarks, quests, or settlements. -->
+  <SearchTheWorldDesc>TODO</SearchTheWorldDesc>
   <!-- EN: {0} results found -->
   <MapSearchResults>{0} نتیجه یافت شد</MapSearchResults>
   <!-- EN: 1 result found -->
@@ -1421,6 +1437,8 @@
   <Searching>در حال جستجو</Searching>
 
   <!-- UNUSED -->
+  <MapTemperatureDangerWarning>هشدار: شما در محیطی یخ‌زده فرود خواهید آمد. بقا ممکن است سخت یا تقریباً غیرممکن باشد. اگر قصد رویارویی با چالش شدید را ندارید، مکان یا فصل دیگری را انتخاب کنید.</MapTemperatureDangerWarning>
+  <ConfirmSendNotCompletelyLoadedPods>Pod group isn't completely loaded. {1_labelShort} is missing. Launch anyway?</ConfirmSendNotCompletelyLoadedPods>
   <AutoSlaughterHeaderTooltipCurrentFemalesYoung>تعداد فعلی ماده‌های نوزاد و جوان در کلونی.</AutoSlaughterHeaderTooltipCurrentFemalesYoung>
   <Outfit>لباس</Outfit>
   <SelectOutfit>انتخاب لباس...</SelectOutfit>

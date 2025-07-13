@@ -70,11 +70,6 @@
   <!-- EN: A colonist is left unburied.\n\nThis may negatively affect your colonists' mood. -->
   <AlertColonistLeftUnburiedDesc>یک مهاجر بدون دفن رها شده است.\n\nاین ممکن است بر خلق و خوی مهاجران شما تأثیر منفی بگذارد.</AlertColonistLeftUnburiedDesc>
 
-  <!-- EN: Hunter lacks suitable weapon -->
-  <HunterLacksWeapon>شکارچی فاقد سلاح مناسب است</HunterLacksWeapon>
-  <!-- EN: A colonist is assigned to work as a hunter but does not have a ranged weapon appropriate for hunting.\n\nThey will not hunt until they are carrying an appropriate weapon.\n\nThe following colonists are assigned as hunters and need suitable ranged weapons -->
-  <HunterLacksWeaponDesc>یک مهاجر به عنوان شکارچی تعیین شده است اما سلاح دوربردی مناسب برای شکار ندارد.\n\nآنها تا زمانی که سلاح مناسبی حمل نکنند، شکار نخواهند کرد.\n\nمهاجران زیر به عنوان شکارچی تعیین شده‌اند و به سلاح‌های دوربرد مناسب نیاز دارند</HunterLacksWeaponDesc>
-
   <!-- EN: Tattered apparel -->
   <AlertTatteredApparel>پوشاک پاره</AlertTatteredApparel>
   <!-- EN: These colonists are wearing tattered apparel, which is making them sad:\n{0}\n\nGet them some apparel that isn't so badly damaged.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
@@ -152,6 +147,8 @@
   <!-- EN: You have the equipment to do research but have not selected a project.\n\n(Click to open the research menu.) -->
   <NeedResearchProjectDesc>شما تجهیزات لازم برای تحقیق را دارید اما پروژه‌ای را انتخاب نکرده‌اید.\n\n(برای باز کردن منوی تحقیق کلیک کنید.)</NeedResearchProjectDesc>
 
+  <!-- EN: 1 colonist idle -->
+  <ColonistIdle>TODO</ColonistIdle>
   <!-- EN: {0} colonists idle -->
   <ColonistsIdle>{0} مهاجر بیکار</ColonistsIdle>
   <!-- EN: These colonists are wandering idly:\n{0}\n\nYou should probably find them something productive to do. -->
@@ -243,40 +240,40 @@
   <!-- EN: Shuttle leaving in {0} -->
   <QuestPartShuttleLeaveDelay>شاتل در {0} ترک می‌کند</QuestPartShuttleLeaveDelay>
   <!-- EN: The shuttle will leave in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n{2} -->
-  <QuestPartShuttleLeaveDelayDesc>شاتل در {1} ترک خواهد کرد. ماموریت {0} از شما می‌خواهد افراد یا آیتم‌های زیر را قبل از ترک شاتل بارگیری کنید:\n\n{2}</QuestPartShuttleLeaveDelayDesc>
+  <QuestPartShuttleLeaveDelayDesc>شاتل تا {1} دیگر ترک می‌کند. مأموریت {0} از شما می‌خواهد افراد یا آیتم‌های زیر را پیش از رفتن شاتل سوار کنید:\n\n{2}</QuestPartShuttleLeaveDelayDesc>
   <!-- EN: The shuttle will leave in {0}. -->
-  <QuestPartShuttleLeaveDelayDescHidden>شاتل در {0} ترک خواهد کرد.</QuestPartShuttleLeaveDelayDescHidden>
+  <QuestPartShuttleLeaveDelayDescHidden>شاتل در {0} ترک می‌کند.</QuestPartShuttleLeaveDelayDescHidden>
 
   <!-- EN: Shuttle arriving in {0} -->
   <QuestPartShuttleArriveDelay>شاتل در {0} می‌رسد</QuestPartShuttleArriveDelay>
   <!-- EN: A shuttle will arrive in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n{2} -->
-  <QuestPartShuttleArriveDelayDesc>یک شاتل در {1} خواهد رسید. ماموریت {0} از شما می‌خواهد افراد یا آیتم‌های زیر را قبل از ترک شاتل بارگیری کنید:\n\n{2}</QuestPartShuttleArriveDelayDesc>
+  <QuestPartShuttleArriveDelayDesc>یک شاتل تا {1} دیگر می‌رسد. مأموریت {0} از شما می‌خواهد افراد یا آیتم‌های زیر را پیش از رفتن شاتل سوار کنید:\n\n{2}</QuestPartShuttleArriveDelayDesc>
   <!-- EN: A shuttle will arrive in {0}. -->
-  <QuestPartShuttleArriveDelayDescHidden>یک شاتل در {0} خواهد رسید.</QuestPartShuttleArriveDelayDescHidden>
+  <QuestPartShuttleArriveDelayDescHidden>یک شاتل در {0} می‌رسد.</QuestPartShuttleArriveDelayDescHidden>
 
   <!-- EN: Monument will be destroyed -->
   <DisallowedBuildingInsideMonument>بنای یادبود تخریب خواهد شد</DisallowedBuildingInsideMonument>
   <!-- EN: You've built a disallowed building inside one of your monuments. The monument will be considered destroyed in {0}. -->
-  <DisallowedBuildingInsideMonumentDesc>شما یک ساختمان غیرمجاز در داخل یکی از بناهای یادبود خود ساخته‌اید. بنای یادبود در {0} تخریب شده محسوب خواهد شد.</DisallowedBuildingInsideMonumentDesc>
+  <DisallowedBuildingInsideMonumentDesc>شما یک ساختمان غیرمجاز در یکی از بناهای یادبود خود ساخته‌اید. این بنا در {0} تخریب‌شده محسوب می‌شود.</DisallowedBuildingInsideMonumentDesc>
 
   <!-- EN: Countdown activator {0} -->
   <ActivatorCountdown>فعال کننده شمارش معکوس {0}</ActivatorCountdown>
   <!-- EN: There is a countdown activator ticking down, preparing to awaken nearby mechanoids. -->
-  <ActivatorCountdownDesc>یک فعال کننده شمارش معکوس در حال شمارش معکوس است و برای بیدار کردن مکانویدهای نزدیک آماده می‌شود.</ActivatorCountdownDesc>
+  <ActivatorCountdownDesc>یک فعال‌کننده شمارش معکوس در حال فعال شدن است و برای بیدار کردن مکانویدهای نزدیک آماده می‌شود.</ActivatorCountdownDesc>
   <!-- EN: {0} countdown activators -->
-  <ActivatorCountdownMultiple>{0} فعال کننده شمارش معکوس</ActivatorCountdownMultiple>
+  <ActivatorCountdownMultiple>{0} فعال‌کننده شمارش معکوس</ActivatorCountdownMultiple>
   <!-- EN: There are {0} countdown activators ticking down, preparing to awaken nearby mechanoids. -->
-  <ActivatorCountdownDescMultiple>{0} فعال کننده شمارش معکوس در حال شمارش معکوس هستند و برای بیدار کردن مکانویدهای نزدیک آماده می‌شوند.</ActivatorCountdownDescMultiple>
+  <ActivatorCountdownDescMultiple>{0} فعال‌کننده شمارش معکوس در حال فعال شدن هستند و برای بیدار کردن مکانویدهای نزدیک آماده می‌شوند.</ActivatorCountdownDescMultiple>
 
   <!-- EN: Quest expires in {0} -->
   <QuestExpiresSoon>ماموریت در {0} منقضی می‌شود</QuestExpiresSoon>
   <!-- EN: The quest '{0}' will expire in {1}. -->
-  <QuestExpiresSoonDesc>ماموریت '{0}' در {1} منقضی خواهد شد.</QuestExpiresSoonDesc>
+  <QuestExpiresSoonDesc>ماموریت «{0}» در {1} منقضی می‌شود.</QuestExpiresSoonDesc>
 
   <!-- EN: Animal filth -->
   <AlertAnimalFilth>کثیفی حیوانات</AlertAnimalFilth>
   <!-- EN: A filth-producing animal is indoors on a clean floor.\n\nAnimals produce a very large amount of filth when moving around on normal floors. Keep filth-producing animals outdoors, or on straw matting where they will produce far less filth.\n\nYou can check an animal's filth production rate in its stats by clicking the 'i' button.\n\nThese animals are the problem:\n{0} -->
-  <AlertAnimalFilthDesc>یک حیوان تولید کننده کثیفی در داخل خانه روی کف تمیز قرار دارد.\n\nحیوانات هنگام حرکت روی کف‌های معمولی مقدار بسیار زیادی کثیفی تولید می‌کنند. حیوانات تولید کننده کثیفی را در فضای باز نگه دارید، یا روی حصیر کاهی که در آن کثیفی بسیار کمتری تولید می‌کنند.\n\nمی‌توانید نرخ تولید کثیفی یک حیوان را در آمار آن با کلیک روی دکمه 'i' بررسی کنید.\n\nاین حیوانات مشکل ساز هستند:\n{0}</AlertAnimalFilthDesc>
+  <AlertAnimalFilthDesc>یک حیوان تولیدکننده کثیفی در فضای داخلی و روی کف تمیز قرار دارد.\n\nحیوانات هنگام حرکت روی کف‌های معمولی مقدار زیادی کثیفی تولید می‌کنند. حیوانات تولیدکننده کثیفی را در فضای باز یا روی حصیر کاهی نگه دارید تا کثیفی کمتری ایجاد کنند.\n\nمی‌توانید نرخ تولید کثیفی هر حیوان را در بخش آمار با کلیک روی دکمه 'i' مشاهده کنید.\n\nاین حیوانات مشکل‌ساز هستند:\n{0}</AlertAnimalFilthDesc>
 
   <!-- EN: Pen needed -->
   <AlertAnimalPenNeeded>نیاز به آغل</AlertAnimalPenNeeded>
@@ -334,4 +331,8 @@
   <!-- EN: You have an active research project '{0}'. This project requires you to build {1}. -->
   <NeedResearchBenchDesc>شما یک پروژه تحقیقاتی فعال '{0}' دارید. این پروژه از شما می‌خواهد که {1} را بسازید.</NeedResearchBenchDesc>
   
+  <!-- UNUSED -->
+  <HunterLacksWeapon>شکارچی فاقد سلاح مناسب است</HunterLacksWeapon>
+  <HunterLacksWeaponDesc>یک مهاجر به عنوان شکارچی تعیین شده است اما سلاح دوربردی مناسب برای شکار ندارد.\n\nآنها تا زمانی که سلاح مناسبی حمل نکنند، شکار نخواهند کرد.\n\nمهاجران زیر به عنوان شکارچی تعیین شده‌اند و به سلاح‌های دوربرد مناسب نیاز دارند</HunterLacksWeaponDesc>
+
 </LanguageData>

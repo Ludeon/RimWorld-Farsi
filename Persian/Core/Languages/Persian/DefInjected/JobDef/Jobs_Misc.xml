@@ -49,6 +49,9 @@
   <!-- EN: dropping TargetA. -->
   <DropEquipment.reportString>TODO</DropEquipment.reportString>
   
+  <!-- EN: Ejecting fuel from TargetA. -->
+  <EjectFuel.reportString>TODO</EjectFuel.reportString>
+  
   <!-- EN: emptying TargetA. -->
   <EmptyThingContainer.reportString>TODO</EmptyThingContainer.reportString>
   
@@ -91,6 +94,9 @@
   <!-- EN: following TargetA. -->
   <FollowRoper.reportString>TODO</FollowRoper.reportString>
   
+  <!-- EN: making TargetA wear TargetB. -->
+  <ForceTargetWear.reportString>TODO</ForceTargetWear.reportString>
+  
   <!-- EN: taking TargetA. -->
   <GiveToPackAnimal.reportString>TODO</GiveToPackAnimal.reportString>
   
@@ -126,6 +132,9 @@
   
   <!-- EN: consuming TargetA. -->
   <Ingest.reportString>TODO</Ingest.reportString>
+  
+  <!-- EN: installing TargetB in TargetA. -->
+  <InstallImplant.reportString>TODO</InstallImplant.reportString>
   
   <!-- EN: insulting TargetA. -->
   <Insult.reportString>TODO</Insult.reportString>

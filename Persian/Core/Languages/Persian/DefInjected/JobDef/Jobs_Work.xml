@@ -43,6 +43,9 @@
   <!-- EN: deconstructing TargetA. -->
   <Deconstruct.reportString>TODO</Deconstruct.reportString>
   
+  <!-- EN: deconstructing TargetA. -->
+  <DeconstructForBlueprint.reportString>TODO</DeconstructForBlueprint.reportString>
+  
   <!-- EN: feeding TargetA to TargetB. -->
   <DeliverFood.reportString>TODO</DeliverFood.reportString>
   
@@ -69,6 +72,9 @@
   
   <!-- EN: executing TargetA. -->
   <GuiltyColonistExecution.reportString>TODO</GuiltyColonistExecution.reportString>
+  
+  <!-- EN: hacking TargetA. -->
+  <Hack.reportString>TODO</Hack.reportString>
   
   <!-- EN: harvesting TargetA. -->
   <Harvest.reportString>TODO</Harvest.reportString>
@@ -126,6 +132,9 @@
   
   <!-- EN: removing floor. -->
   <RemoveFloor.reportString>TODO</RemoveFloor.reportString>
+  
+  <!-- EN: removing foundation. -->
+  <RemoveFoundation.reportString>TODO</RemoveFoundation.reportString>
   
   <!-- EN: removing paint from TargetA. -->
   <RemovePaintBuilding.reportString>TODO</RemovePaintBuilding.reportString>

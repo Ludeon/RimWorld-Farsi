@@ -7,6 +7,8 @@
   <OnlyMembersCanBuild>فقط {0}ها می‌توانند بسازند</OnlyMembersCanBuild>
   <!-- EN: {0} is already in progress. -->
   <CantStartRitualAlreadyInProgress>{0} در حال حاضر در حال انجام است.</CantStartRitualAlreadyInProgress>
+  <!-- EN: {RITUAL} cannot be performed {GERUND} {LAYER}. -->
+  <CantStartRitualLayer>TODO</CantStartRitualLayer>
   <!-- EN: One or more participants can't join due to extreme temperature. -->
   <CantJoinRitualInExtremeWeather>یک یا چند شرکت‌کننده به دلیل دمای شدید نمی‌توانند بپیوندند.</CantJoinRitualInExtremeWeather>
   <!-- EN: {0} is already participating in a ritual. -->
@@ -36,8 +38,6 @@
   <!-- EN: not allowed for faction -->
   <NotAllowedForFaction>برای جناح مجاز نیست</NotAllowedForFaction>
 
-  <!-- EN: Remove -->
-  <Remove>زدودن</Remove>
   <!-- EN: Remove precept -->
   <RemovePrecept>حذف اصل</RemovePrecept>
   <!-- EN: Regenerate -->
@@ -101,17 +101,6 @@
   <IdeoAlreadyHasAltar>فقط می‌تواند یک محراب/ایدئوگرام داشته باشد</IdeoAlreadyHasAltar>
   <!-- EN: recolor apparel -->
   <RecolorApparel>تغییر رنگ لباس</RecolorApparel>
-
-  <!-- EN: Hack {0} -->
-  <Hack>هک {0}</Hack>
-  <!-- EN: Cannot hack {0} -->
-  <CannotHack>نمی‌توان {0} را هک کرد</CannotHack>
-  <!-- EN: Already hacked -->
-  <AlreadyHacked>قبلاً هک شده</AlreadyHacked>
-  <!-- EN: Incapable of hacking -->
-  <IncapableOfHacking>ناتوان از هک</IncapableOfHacking>
-  <!-- EN: to drop supplies -->
-  <ToDropSupplies>برای انداختن تدارکات</ToDropSupplies>
 
   <!-- EN: Install {0} -->
   <InstallRelic>نصب {0}</InstallRelic>

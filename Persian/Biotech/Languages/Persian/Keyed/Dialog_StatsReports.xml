@@ -107,8 +107,6 @@
   <PassionModAdd>یک سطح اشتیاق در {0_label} اضافه می‌کند.</PassionModAdd>
   <!-- EN: Removes all passion in {0_label}. -->
   <PassionModDrop>تمام اشتیاق در {0_label} را حذف می‌کند.</PassionModDrop>
-  <!-- EN: Causes need -->
-  <CausesNeed>باعث نیاز می‌شود</CausesNeed>
   <!-- EN: Gives ability -->
   <GivesAbility>توانایی می‌دهد</GivesAbility>
   <!-- EN: Gives abilities -->
@@ -117,10 +115,6 @@
   <ResourceLossPerDay>{RESOURCE}: {OFFSET} در روز.</ResourceLossPerDay>
   <!-- EN: Removes -->
   <Removes>حذف می‌کند</Removes>
-  <!-- EN: Disables need -->
-  <DisablesNeed>نیاز را غیرفعال می‌کند</DisablesNeed>
-  <!-- EN: Disables needs -->
-  <DisablesNeeds>نیازها را غیرفعال می‌کند</DisablesNeeds>
   <!-- EN: Baby -->
   <DevelopmentStage_Baby>نوزاد</DevelopmentStage_Baby>
   <!-- EN: Child -->
@@ -139,5 +133,8 @@
   <GeneOverdoseImmune>حامل‌ها نمی‌توانند روی {0_label} اوردوز کنند.</GeneOverdoseImmune>
   <!-- EN: Carriers are {1} as likely to overdose on {0_label}. -->
   <GeneOverdoseFactor>حامل‌ها {1} برابر بیشتر احتمال دارد روی {0_label} اوردوز کنند.</GeneOverdoseFactor>
+
+  <!-- UNUSED -->
+  <CausesNeed>باعث نیاز می‌شود</CausesNeed>
 
 </LanguageData>
