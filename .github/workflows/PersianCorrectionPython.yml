@@ -9,16 +9,15 @@ on:
         description: 'Release version (e.g. v0.3.2)'
         required: true
         default: 'v0.3.1'
-      publish_release:
-        description: 'Publish release?'
+      release_type:
+        description: 'Type of release to create'
         required: true
-        default: true
-        type: boolean
-      publish_as_beta:
-        description: 'Publish as beta release?'
-        required: true
-        default: false
-        type: boolean
+        default: 'stable'
+        type: choice
+        options:
+          - none
+          - stable
+          - prerelease
 
 env:
   ACTIONS_RUNNER_DEBUG: true
@@ -65,13 +64,12 @@ jobs:
           path: ./persian.language.zip
 
       - name: Create and Upload Release
-        if: ${{ github.event.inputs.publish_release == 'true' }}
+        if: ${{ github.event.inputs.release_type != 'none' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh release create ${{ github.event.inputs.release_version }} \
             --title "Version ${{ github.event.inputs.release_version }}" \
-            --notes-start-tag ${{ github.event.inputs.release_version }} \
             --generate-notes \
-            ${{ github.event.inputs.publish_as_beta == 'true' && '--prerelease' || '' }} \
+            ${{ github.event.inputs.release_type == 'prerelease' && '--prerelease' || '' }} \
             ./persian.language.zip
