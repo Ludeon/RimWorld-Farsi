@@ -8,6 +8,17 @@ powershell -Command "& {Write-Host '============================================
 echo === RimWorld Persian Translation Installer ===
 echo.
 
+:: Get Game Version
+set "GAMENAME=RimWorldWin64.exe"
+set "GAMEVER=N/A"
+if exist "%GAMENAME%" (
+    for /f "delims=" %%v in ('powershell -Command "(Get-Item '%CD%\%GAMENAME%').VersionInfo.ProductVersion"') do (
+        set "GAMEVER=%%v"
+    )
+)
+echo Game Version: %GAMEVER%
+echo.
+
 :: Check if in correct RimWorld folder (Data folder must exist)
 IF NOT EXIST "%~dp0Data" (
     echo [Error] Data folder not found. Please run this BAT in the RimWorld root folder.
@@ -22,13 +33,22 @@ set EXTRACT_PATH=%~dp0Temp
 set LANG_PATH=%~dp0Data
 
 :: Notify user
-powershell -command "Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.MessageBox]::Show('Downloading the latest Persian translation...')"
+echo Downloading the latest Persian translation...
 
 :: Download translation ZIP from GitHub
 powershell.exe -Command "Invoke-WebRequest -OutFile '%ZIP_PATH%' '%DOWNLOAD_URL%'" >nul
+if errorlevel 1 (
+    powershell -command "Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.MessageBox]::Show('Download failed. Please check your internet connection.', 'Error', 'OK', 'Error')"
+    exit /b
+)
 
 :: Extract ZIP to temporary folder
-powershell.exe -Command "Add-Type -A 'System.IO.Compression.FileSystem'; [IO.Compression.ZipFile]::ExtractToDirectory('%ZIP_PATH%', '%EXTRACT_PATH%')" >nul
+powershell.exe -Command "Add-Type -A 'System.IO.Compression.FileSystem'; try { [IO.Compression.ZipFile]::ExtractToDirectory('%ZIP_PATH%', '%EXTRACT_PATH%') } catch { exit 1 }" >nul
+if errorlevel 1 (
+    powershell -command "Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.MessageBox]::Show('Extraction failed. The downloaded file may be corrupt.', 'Error', 'OK', 'Error')"
+    del "%ZIP_PATH%" >nul
+    exit /b
+)
 
 :: Copy contents to appropriate DLC folders
 (for /d %%D in ("%EXTRACT_PATH%\Persian\*") do (
@@ -51,9 +71,10 @@ del "%TEMP%\copy_log.txt"
 
 :: Show credits
 echo.
-echo [✓] Persian translation installed!
 echo If you like this project:
 echo GitHub: https://github.com/Ludeon/RimWorld-Farsi
 echo Donate: ETH 0x526968dF2AB74d7B4132F8D68Cf1BE6D126c6f82
 echo        https://reymit.ir/danialpahlavan
+
+powershell -command "Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.MessageBox]::Show('[✓] Persian translation installed!', 'Success', 'OK', 'Information')"
 pause
