@@ -1,54 +1,59 @@
 @echo off
 chcp 65001 > nul
+color 0a
+title RimWorld Persian Translation Installer
 
-IF "%TEMP%"=="" (
-    set TEMP=Temp
-)
+powershell -Command "& {Write-Host '==============================================' -BackgroundColor Green -ForegroundColor Green; Write-Host '==============================================' -BackgroundColor White -ForegroundColor White; Write-Host '==============================================' -BackgroundColor Red -ForegroundColor Red;}"
 
-REM بررسی وجود پوشه Data
+echo === RimWorld Persian Translation Installer ===
+echo.
+
+:: Check if in correct RimWorld folder (Data folder must exist)
 IF NOT EXIST "%~dp0Data" (
-    echo پوشه Data وجود ندارد. لطفاً اسکریپت را در مسیر صحیح اجرا کنید.
+    echo [Error] Data folder not found. Please run this BAT in the RimWorld root folder.
     pause
     exit /b
 )
 
-REM دریافت آخرین نسخه از صفحه انتشار GitHub
+:: Set paths
 set DOWNLOAD_URL=https://github.com/Ludeon/RimWorld-Farsi/releases/latest/download/persian.language.zip
 set ZIP_PATH=%TEMP%\persian.language.zip
 set EXTRACT_PATH=%~dp0Temp
 set LANG_PATH=%~dp0Data
 
-powershell -command "Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.MessageBox]::Show('در حال دانلود آخرین بومی سازی...')"
+:: Notify user
+powershell -command "Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.MessageBox]::Show('Downloading the latest Persian translation...')"
 
-powershell.exe -Command "Invoke-WebRequest -OutFile %ZIP_PATH% %DOWNLOAD_URL%" >> nul
-powershell.exe "Add-Type -A 'System.IO.Compression.FileSystem';[IO.Compression.ZipFile]::ExtractToDirectory('%ZIP_PATH%', '%EXTRACT_PATH%');" > nul
+:: Download translation ZIP from GitHub
+powershell.exe -Command "Invoke-WebRequest -OutFile '%ZIP_PATH%' '%DOWNLOAD_URL%'" >nul
 
-REM کپی کردن محتوای استخراج شده به پوشه data
+:: Extract ZIP to temporary folder
+powershell.exe -Command "Add-Type -A 'System.IO.Compression.FileSystem'; [IO.Compression.ZipFile]::ExtractToDirectory('%ZIP_PATH%', '%EXTRACT_PATH%')" >nul
+
+:: Copy contents to appropriate DLC folders
 (for /d %%D in ("%EXTRACT_PATH%\Persian\*") do (
     if exist "%LANG_PATH%\%%~nxD" (
-        xcopy /E /I /Y "%%D" "%LANG_PATH%\%%~nxD" > nul
+        xcopy /E /I /Y "%%D" "%LANG_PATH%\%%~nxD" >nul
         echo %%~nxD copied.
     ) else (
-        echo %%~nxD skipped[dlc not found].
+        echo %%~nxD skipped [DLC not found].
     )
 )) > "%TEMP%\copy_log.txt"
 
-REM حذف پوشه Temp
+:: Clean up
 rmdir /S /Q "%EXTRACT_PATH%"
+del "%ZIP_PATH%" >nul
 
-REM نمایش نتیجه کپی
-
+:: Show summary
 cls
-
-for /f "tokens=*" %%i in (%TEMP%\copy_log.txt) do (
-    echo %%i
-)
-
-
-echo if you like this project , star project , donate me .
-echo project link : https://github.com/Ludeon/RimWorld-Farsi
-echo donation : Ethereum (ETH) 0x526968dF2AB74d7B4132F8D68Cf1BE6D126c6f82
-echo  reymit : https://reymit.ir/danialpahlavan
+type "%TEMP%\copy_log.txt"
 del "%TEMP%\copy_log.txt"
 
+:: Show credits
+echo.
+echo [✓] Persian translation installed!
+echo If you like this project:
+echo GitHub: https://github.com/Ludeon/RimWorld-Farsi
+echo Donate: ETH 0x526968dF2AB74d7B4132F8D68Cf1BE6D126c6f82
+echo        https://reymit.ir/danialpahlavan
 pause
