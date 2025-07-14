@@ -4,7 +4,7 @@ This project is the official Farsi language pack for RimWorld, created by Ludeon
 
 Because the in-game version may not always be up-to-date, players can download and install the latest translation from this repository.
 
-🌟 **Persian README 🇮🇷:** [README_fa.md](https://github.com/Ludeon/RimWorld-Farsi/blob/master/README_fa.md)
+🌟 **Persian README 🇮🇷 توضیحات فارسی:** [README_fa.md](https://github.com/Ludeon/RimWorld-Farsi/blob/master/README_fa.md)
 
 ---
 
@@ -12,7 +12,12 @@ Because the in-game version may not always be up-to-date, players can download a
 
 Follow these steps to add the Persian language to your RimWorld adventure:
 
-### **Standard Method**
+### **A. Automated Method in Windows (Recommended)**
+
+1.  Copy the `AutoFaInstall.bat` file to your main game folder.
+2.  Run the file to automatically download and install the latest translation.
+
+### **B. Standard Method**
 
 1.  Download the latest translation from the [Releases page](https://github.com/Ludeon/RimWorld-Farsi/releases).
 2.  Replace the language folders for your game version in the following paths:
@@ -33,12 +38,9 @@ Follow these steps to add the Persian language to your RimWorld adventure:
 *   **Linux:** `~/.steam/steam/steamapps/common/Rimworld`
 *   **Mac:** `~/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app` (Right-click and select "Show Package Contents" to access).
 
-### **Automated Method (Windows Only)**
 
-1.  Copy the `AutoFaInstall.bat` file to your main game folder.
-2.  Run the file to automatically download and install the latest translation.
 
-### **Advanced Method (for Developers)**
+### **C. Advanced Method (for Developers)**
 
 If you have cloned this repository to your computer, you can use **Symbolic Links** to automatically keep your local translation files in sync with the latest changes.
 
