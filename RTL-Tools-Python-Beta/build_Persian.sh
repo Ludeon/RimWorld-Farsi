@@ -29,12 +29,8 @@ if [ -d "$dest_dir" ]; then rm -rf "$dest_dir"; fi
 cp -r "$trans_dir" "$dest_dir"
 printf "done!\n"
 
-printf "\nRunning reverse_rtl_text.py...\n"
-python3 reverse_rtl_text.py "$dest_dir" || { printf "\n"; exit 1; }
-printf "done!\n"
-
-printf "\nRunning contextualize_Persian_letters.py...\n"
-python3 contextualize_Persian_letters.py "$dest_dir" || { printf "\n"; exit 1; }
+printf "\nRunning PersianFixer.py...\n"
+python3 PersianFixer.py "$dest_dir" || { printf "\n"; exit 1; }
 printf "done!\n"
 
 printf "Correction complete. Press any key to continue..."

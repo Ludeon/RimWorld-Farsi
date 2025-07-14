@@ -26,13 +26,9 @@ jobs:
           cd ${{ github.workspace }}
           echo "Listing files:"
           ls
-          trans_dir="${{ github.workspace }}/Persian/"
           dest_dir="${{ github.workspace }}/Persian/"
           cd RTL-Tools-Python-Beta
-          python3 reverse_rtl_text.py "$dest_dir" || { echo "reverse_rtl_text.py failed"; exit 1; }
-          echo "reverse_rtl_text.py done!"
-          python3 contextualize_Persian_letters.py "$dest_dir" || { echo "contextualize_Persian_letters.py failed"; exit 1; }
-          echo "contextualize_Persian_letters.py done!"
+          python3 PersianFixer.py "$dest_dir" || { echo "PersianFixer.py failed"; exit 1; }
           echo "Correction complete."
 
       - name: Create ZIP archive
