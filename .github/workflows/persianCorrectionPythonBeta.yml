@@ -1,0 +1,47 @@
+name: Translation Workflow (Beta)
+on:
+  workflow_dispatch:
+
+env:
+  ACTIONS_RUNNER_DEBUG: true
+
+jobs:
+  translation_job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install lxml
+
+      - name: Run translation script (Python)
+        run: |
+          cd ${{ github.workspace }}
+          echo "Listing files:"
+          ls
+          trans_dir="${{ github.workspace }}/Persian/"
+          dest_dir="${{ github.workspace }}/Persian/"
+          cd RTL-Tools-Python-Beta
+          python3 reverse_rtl_text.py "$dest_dir" || { echo "reverse_rtl_text.py failed"; exit 1; }
+          echo "reverse_rtl_text.py done!"
+          python3 contextualize_Persian_letters.py "$dest_dir" || { echo "contextualize_Persian_letters.py failed"; exit 1; }
+          echo "contextualize_Persian_letters.py done!"
+          echo "Correction complete."
+
+      - name: Create ZIP archive
+        run: |
+          cd ${{ github.workspace }}
+          zip -r persian.language.zip ./Persian
+
+      - name: Upload ZIP as workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: persian.language.zip
+          path: ./persian.language.zip
