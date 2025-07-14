@@ -74,15 +74,21 @@ def reverse_text(text):
     # Reverse each part that is not a placeholder
     reversed_parts = [part[::-1] if not re.match(r'{.*?}', part) else part for part in parts]
     
-    # Join the parts back together in reverse order
-    return "".join(reversed_parts[::-1])
+    # Join the parts back together
+    return "".join(reversed_parts)
 
 def process_node_text(text):
-    # Step 1: Contextualize the letters
-    contextualized_text = contextualize(text)
-    # Step 2: Reverse the contextualized text
-    reversed_text = reverse_text(contextualized_text)
-    return reversed_text
+    if not text or not re.search(r'[\u0600-\u06FF]', text):
+        return text
+
+    words = text.split(' ')
+    processed_words = []
+    for word in words:
+        contextualized_word = contextualize(word)
+        reversed_word = reverse_text(contextualized_word)
+        processed_words.append(reversed_word)
+    
+    return " ".join(processed_words[::-1])
 
 def parse_file(file_path):
     if not file_path.endswith('.xml'):
