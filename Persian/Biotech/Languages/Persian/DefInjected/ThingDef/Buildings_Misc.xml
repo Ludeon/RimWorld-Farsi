@@ -42,7 +42,7 @@
   
   <!-- EN: mechband dish -->
   <MechbandDish.label>TODO</MechbandDish.label>
-  <!-- EN: A mech-band signaling device more powerful than the normal mechlink antenna. When activated, it puts out an ultra-powerful mech signal pulse, which will attract a mechanoid commander to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the dish, so this building can only be used once. -->
+  <!-- EN: A mech-band signaling device more powerful than the normal mechband antenna. When activated, it puts out an ultra-powerful mech signal pulse, which will attract a mechanoid commander to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the dish, so this building can only be used once. -->
   <MechbandDish.description>TODO</MechbandDish.description>
   <!-- EN: Summon apocriton threat -->
   <MechbandDish.comps.CompUsable.useLabel>TODO</MechbandDish.comps.CompUsable.useLabel>
@@ -64,7 +64,7 @@
   
   <!-- EN: crashed shuttle -->
   <ShuttleCrashed_Exitable.label>TODO</ShuttleCrashed_Exitable.label>
-  <!-- EN: A spacer-tech shuttle designed for transit between surface and orbit, or between moons of a planetary system. -->
+  <!-- EN: A spacer-tech uranium-powered shuttle designed for transit between surface and orbit, or between moons of a planetary system. To prevent unsanctioned use, the shuttle is locked to the pilot's bio-signature. Destroying the shuttle will yield a shuttle engine and other valuable resources. -->
   <ShuttleCrashed_Exitable.description>TODO</ShuttleCrashed_Exitable.description>
   
   <!-- EN: crashed mechanitor ship -->

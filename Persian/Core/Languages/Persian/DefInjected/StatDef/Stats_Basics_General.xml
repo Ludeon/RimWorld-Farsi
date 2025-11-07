@@ -11,6 +11,11 @@
   <!-- EN: How enjoyable something is to look at if it's outside.\n\nBeautiful objects fulfill peoples' need for beauty. -->
   <BeautyOutdoors.description>TODO</BeautyOutdoors.description>
   
+  <!-- EN: caravan speed factor -->
+  <CaravanBonusSpeedFactor.label>TODO</CaravanBonusSpeedFactor.label>
+  <!-- EN: A multiplier applied to a caravan's speed when this person is part of a caravan. -->
+  <CaravanBonusSpeedFactor.description>TODO</CaravanBonusSpeedFactor.description>
+  
   <!-- EN: cleanliness -->
   <Cleanliness.label>TODO</Cleanliness.label>
   <!-- EN: How much an object contributes to an area's cleanliness score. -->
@@ -50,7 +55,7 @@
   
   <!-- EN: mass -->
   <Mass.label>TODO</Mass.label>
-  <!-- EN: The physical mass of an object. -->
+  <!-- EN: The physical mass of an object or creature. -->
   <Mass.description>TODO</Mass.description>
   <!-- EN: {0} kg -->
   <Mass.formatString>TODO</Mass.formatString>

@@ -2,34 +2,34 @@
 <LanguageData>
   
   <!-- EN: beautiful -->
-  <Beauty.degreeDatas.beautiful.label>TODO</Beauty.degreeDatas.beautiful.label>
+  <Beauty.degreeDatas.beautiful.label>زیبا</Beauty.degreeDatas.beautiful.label>
   <!-- EN: [PAWN_nameDef] is exceptionally beautiful, with an exotic-yet-familiar facial structure and an arresting gaze. People are attracted to [PAWN_objective] before [PAWN_pronoun] even opens [PAWN_possessive] mouth. -->
-  <Beauty.degreeDatas.beautiful.description>TODO</Beauty.degreeDatas.beautiful.description>
+  <Beauty.degreeDatas.beautiful.description>[PAWN_nameDef] فوق‌العاده زیباست، با چهره‌ای خاص و نگاه گیرا. مردم پیش از آنکه [PAWN_pronoun] دهان باز کند، جذب [PAWN_objective] می‌شوند.</Beauty.degreeDatas.beautiful.description>
   <!-- EN: pretty -->
-  <Beauty.degreeDatas.pretty.label>TODO</Beauty.degreeDatas.pretty.label>
+  <Beauty.degreeDatas.pretty.label>خوش‌چهره</Beauty.degreeDatas.pretty.label>
   <!-- EN: [PAWN_nameDef] has a pretty face, which predisposes people to like [PAWN_objective]. -->
-  <Beauty.degreeDatas.pretty.description>TODO</Beauty.degreeDatas.pretty.description>
+  <Beauty.degreeDatas.pretty.description>[PAWN_nameDef] چهره‌ای خوشایند دارد که باعث می‌شود دیگران به [PAWN_objective] علاقه‌مند شوند.</Beauty.degreeDatas.pretty.description>
   <!-- EN: ugly -->
-  <Beauty.degreeDatas.ugly.label>TODO</Beauty.degreeDatas.ugly.label>
+  <Beauty.degreeDatas.ugly.label>زشت</Beauty.degreeDatas.ugly.label>
   <!-- EN: [PAWN_nameDef] is somewhat ugly. This subtly repels others during social interactions. -->
-  <Beauty.degreeDatas.ugly.description>TODO</Beauty.degreeDatas.ugly.description>
+  <Beauty.degreeDatas.ugly.description>[PAWN_nameDef] تا حدی زشت است و این موضوع در تعاملات اجتماعی دیگران را دور می‌کند.</Beauty.degreeDatas.ugly.description>
   <!-- EN: staggeringly ugly -->
-  <Beauty.degreeDatas.staggeringly_ugly.label>TODO</Beauty.degreeDatas.staggeringly_ugly.label>
+  <Beauty.degreeDatas.staggeringly_ugly.label>بسیار زشت</Beauty.degreeDatas.staggeringly_ugly.label>
   <!-- EN: [PAWN_nameDef] is staggeringly ugly. [PAWN_possessive] face looks like a cross between a drawing by an untalented child, a malformed fetus in a jar of formaldehyde, and a piece of modern art. Others must exert conscious effort to look at [PAWN_objective] while conversing. -->
-  <Beauty.degreeDatas.staggeringly_ugly.description>TODO</Beauty.degreeDatas.staggeringly_ugly.description>
+  <Beauty.degreeDatas.staggeringly_ugly.description>[PAWN_nameDef] به شدت زشت است؛ چهره‌اش ترکیبی از نقاشی کودکانه، جنین ناقص و هنر مدرن است. دیگران باید تلاش کنند هنگام صحبت به [PAWN_objective] نگاه کنند.</Beauty.degreeDatas.staggeringly_ugly.description>
   
   <!-- EN: chemical fascination -->
-  <DrugDesire.degreeDatas.chemical_fascination.label>TODO</DrugDesire.degreeDatas.chemical_fascination.label>
+  <DrugDesire.degreeDatas.chemical_fascination.label>شیفته مواد</DrugDesire.degreeDatas.chemical_fascination.label>
   <!-- EN: [PAWN_nameDef] is utterly fascinated with chemical sources of enjoyment. Consuming recreational drugs will create a good mood, while abstaining will lead to increasing frustration over time and possibly drug binges. [PAWN_pronoun] will ignore directives to not use recreational drugs, and will consume more than a normal person. -->
-  <DrugDesire.degreeDatas.chemical_fascination.description>TODO</DrugDesire.degreeDatas.chemical_fascination.description>
+  <DrugDesire.degreeDatas.chemical_fascination.description>[PAWN_nameDef] کاملاً شیفته لذت‌های شیمیایی است. مصرف مواد تفریحی حالش را خوب می‌کند و پرهیز باعث کلافگی و احتمال مصرف بیش از حد می‌شود. [PAWN_pronoun] دستورات عدم مصرف را نادیده می‌گیرد و بیشتر از افراد عادی مصرف می‌کند.</DrugDesire.degreeDatas.chemical_fascination.description>
   <!-- EN: chemical interest -->
-  <DrugDesire.degreeDatas.chemical_interest.label>TODO</DrugDesire.degreeDatas.chemical_interest.label>
+  <DrugDesire.degreeDatas.chemical_interest.label>علاقه‌مند به مواد</DrugDesire.degreeDatas.chemical_interest.label>
   <!-- EN: [PAWN_nameDef] has an unusual interest in chemical sources of enjoyment. Consuming recreational drugs will create a good mood, while abstaining will lead to increasing frustration over time and possible drug binges. [PAWN_pronoun] will ignore directives to not use recreational drugs, and will consume more than a normal person. -->
-  <DrugDesire.degreeDatas.chemical_interest.description>TODO</DrugDesire.degreeDatas.chemical_interest.description>
+  <DrugDesire.degreeDatas.chemical_interest.description>[PAWN_nameDef] علاقه خاصی به لذت‌های شیمیایی دارد. مصرف مواد تفریحی حالش را خوب می‌کند و پرهیز باعث کلافگی و احتمال مصرف بیش از حد می‌شود. [PAWN_pronoun] دستورات عدم مصرف را نادیده می‌گیرد و بیشتر از افراد عادی مصرف می‌کند.</DrugDesire.degreeDatas.chemical_interest.description>
   <!-- EN: teetotaler -->
-  <DrugDesire.degreeDatas.teetotaler.label>TODO</DrugDesire.degreeDatas.teetotaler.label>
+  <DrugDesire.degreeDatas.teetotaler.label>پرهیزکار</DrugDesire.degreeDatas.teetotaler.label>
   <!-- EN: [PAWN_nameDef] abhors the idea of gaining pleasure from chemicals. [PAWN_pronoun] strictly avoids alcohol and recreational drugs. -->
-  <DrugDesire.degreeDatas.teetotaler.description>TODO</DrugDesire.degreeDatas.teetotaler.description>
+  <DrugDesire.degreeDatas.teetotaler.description>[PAWN_nameDef] از لذت بردن با مواد شیمیایی متنفر است و به شدت از الکل و مواد مخدر دوری می‌کند.</DrugDesire.degreeDatas.teetotaler.description>
   
   <!-- EN: super-immune -->
   <Immunity.degreeDatas.superimmune.label>TODO</Immunity.degreeDatas.superimmune.label>

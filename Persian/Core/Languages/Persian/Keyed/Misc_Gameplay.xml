@@ -1,129 +1,135 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-<!-- Various -->
-<!-- EN: hit points -->
-<HitPointsBasic>امتیاز ضربه</HitPointsBasic>
-<!-- EN: Work left -->
-<WorkLeft>کار باقی‌مانده</WorkLeft>
-<!-- EN: Contents -->
-<Contents>محتویات</Contents>
-<!-- EN: Contained resources -->
-<ContainedResources>منابع درون</ContainedResources>
-<!-- EN: For prisoner use -->
-<ForPrisonerUse>برای استفاده زندانیان</ForPrisonerUse>
-<!-- EN: In prison cell: For prisoner use -->
-<InPrisonCell>در سلول زندان: برای استفاده زندانیان</InPrisonCell>
-<!-- EN: For colonist use -->
-<ForColonistUse>برای استفاده مستعمره‌نشینان</ForColonistUse>
-<!-- EN: Medical -->
-<MedicalBed>پزشکی</MedicalBed>
-<!-- EN: Owner -->
-<Owner>صاحب</Owner>
-<!-- EN: Owners -->
-<Owners>صاحبان</Owners>
-<!-- EN: Assigned colonist -->
-<AssignedColonist>مستعمره‌نشین اختصاص‌یافته</AssignedColonist>
-<!-- EN: Uncomfortable room temperature -->
-<BedUncomfortableTemperature>دمای ناراحت‌کننده اتاق</BedUncomfortableTemperature>
-<!-- Various -->
-<!-- EN: Unsafe room temperature -->
-<BedUnsafeTemperature>دمای ناامن اتاق</BedUnsafeTemperature>
-<!-- EN: Died on the {0} -->
-<DiedOn>مرده در {0}</DiedOn>
-<!-- EN: Nobody -->
-<Nobody>هیچ‌کس</Nobody>
-<!-- EN: Unowned -->
-<Unowned>بدون صاحب</Unowned>
-<!-- EN: Dead for {0} -->
-<DeadTime>مرده برای {0}</DeadTime>
-<!-- EN: walk speed {0} -->
-<WalkSpeed>سرعت راه رفتن {0}</WalkSpeed>
-<!-- EN: fert. -->
-<FertShort>باروری.</FertShort>
-<!-- EN: dying -->
-<DyingLower>در حال مرگ</DyingLower>
-<!-- EN: Filth on feet: -->
-<FilthOnFeet>کثافت روی پاها:</FilthOnFeet>
-<!-- EN: not enough stored -->
-<NotEnoughStoredLower>ذخیره کافی نیست</NotEnoughStoredLower>
-<!-- EN: nothing -->
-<NothingLower>هیچ چیز</NothingLower>
-<!-- EN: Nothing -->
-<Nothing>هیچ چیز</Nothing>
-<!-- EN: Adapted -->
-<Adapted>سازگار</Adapted>
-<!-- EN: fresh -->
-<FreshMissingBodyPart>تازه</FreshMissingBodyPart>
-<!-- EN: developed immunity -->
-<DevelopedImmunityLower>ایمنی توسعه یافته</DevelopedImmunityLower>
-<!-- EN: Needs tending now -->
-<NeedsTendingNow>نیاز به مراقبت فوری</NeedsTendingNow>
-<!-- EN: Can tend now -->
-<CanTendNow>می‌توان الان مراقبت کرد</CanTendNow>
-<!-- EN: Tending expires in {0} -->
-<TreatmentExpiresIn>مراقبت منقضی می‌شود در {0}</TreatmentExpiresIn>
-<!-- EN: Can be tended in {0} -->
-<NextTendIn>می‌توان در {0} مراقبت کرد</NextTendIn>
-<!-- EN: Tend quality -->
-<TendQuality>کیفیت مراقبت</TendQuality>
-<!-- EN: Total tend quality -->
-<DisappearsAtTotalTendQuality>کیفیت کلی مراقبت</DisappearsAtTotalTendQuality>
-<!-- EN: no {0} -->
-<MissingMedicalBillIngredient>بدون {0}</MissingMedicalBillIngredient>
-<!-- EN: Immunity -->
-<Immunity>ایمنی</Immunity>
-<!-- EN: {0} days to recover -->
-<DaysToRecover>{0} روز برای بهبودی</DaysToRecover>
-<!-- EN: Ineffective -->
-<Ineffective>بی‌اثر</Ineffective>
-<!-- EN: illegal -->
-<Illegal>غیرقانونی</Illegal>
-<!-- EN: detection chance -->
-<DetectionChance>شانس تشخیص</DetectionChance>
-<!-- EN: Race -->
-<Race>نژاد</Race>
-<!-- EN: Description -->
-<Description>توضیحات</Description>
-<!-- EN: Equipment -->
-<Equipment>تجهیزات</Equipment>
-<!-- EN: Apparel -->
-<Apparel>پوشاک</Apparel>
-<!-- EN: Inventory -->
-<Inventory>موجودی</Inventory>
-<!-- EN: Information -->
-<ThingInfo>اطلاعات</ThingInfo>
-<!-- EN: Rename -->
-<Rename>تغییر نام</Rename>
-<!-- EN: Rename animal -->
-<RenameAnimal>تغییر نام حیوان</RenameAnimal>
-<!-- EN: Rename colonist -->
-<RenameColonist>تغییر نام ساکن</RenameColonist>
-<!-- EN: Renounce title -->
-<RenounceTitle>انصراف از عنوان</RenounceTitle>
-<!-- EN: Execute -->
-<Execute>اجرا کردن</Execute>
-<!-- EN: Execute guilty colonist\n\nIf you toggle this on, a warden will proceed to execute this person. -->
-<ExecuteColonist>اجرای حکم ساکن مجرم\n\nاگر این گزینه را فعال کنید، نگهبان اقدام به اجرای حکم این شخص خواهد کرد.</ExecuteColonist>
-<!-- EN: {0_labelShort} is now marked for execution. The next available warden will go execute {0_objective}. -->
-<MessageColonistMarkedForExecution>{0_labelShort} اکنون برای اجرای حکم علامت‌گذاری شده است. نگهبان بعدی در دسترس برای اجرای {0_objective} خواهد رفت.</MessageColonistMarkedForExecution>
-<!-- EN: {0} of {1} -->
-<TitleOfFaction>{0} از {1}</TitleOfFaction>
-<!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
-<RenounceTitleDescription>این اقدام باعث خواهد شد {PAWN_nameDef} عنوان {PAWN_possessive} {TITLE} را از دست بدهد. شما هیچ جبرانی برای انصراف از عنوان دریافت نخواهید کرد.\n\nاین اثرات زیر را خواهد داشت:\n\n{EFFECTS}</RenounceTitleDescription>
-<!-- EN: {PAWN_pronoun} will lose these permissions -->
-<RenounceTitleWillLoosePermits>{PAWN_pronoun} این مجوزها را از دست خواهد داد</RenounceTitleWillLoosePermits>
-<!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
-<RenounceTitleWillLosePermitPoints>{PAWN_nameDef} {POINTS} امتیاز مجوز استفاده نشده با {FACTION_name} را از دست خواهد داد.</RenounceTitleWillLosePermitPoints>
-<!-- EN: {PAWN_pronoun} will keep all {PAWN_possessive} psylink levels and psycasts. -->
-<RenounceTitleWillKeepPsylinkLevels>{PAWN_pronoun} تمام سطوح پیوند روانی {PAWN_possessive} و روان‌افکن‌ها را حفظ خواهد کرد.</RenounceTitleWillKeepPsylinkLevels>
-<!-- EN: unknown -->
-<UnknownLower>ناشناخته</UnknownLower>
-
+  <!-- Various -->
+  <!-- EN: hit points -->
+  <HitPointsBasic>TODO</HitPointsBasic>
+  <!-- EN: Work left -->
+  <WorkLeft>TODO</WorkLeft>
+  <!-- EN: Contents -->
+  <Contents>TODO</Contents>
+  <!-- EN: Contained resources -->
+  <ContainedResources>TODO</ContainedResources>
+  <!-- EN: For prisoner use -->
+  <ForPrisonerUse>TODO</ForPrisonerUse>
+  <!-- EN: In prison cell: For prisoner use -->
+  <InPrisonCell>TODO</InPrisonCell>
+  <!-- EN: For colonist use -->
+  <ForColonistUse>TODO</ForColonistUse>
+  <!-- EN: Medical -->
+  <MedicalBed>TODO</MedicalBed>
+  <!-- EN: Owner -->
+  <Owner>مالک</Owner>
+  <!-- EN: Owners -->
+  <Owners>TODO</Owners>
+  <!-- EN: Assigned colonist -->
+  <AssignedColonist>TODO</AssignedColonist>
+  <!-- EN: Uncomfortable room temperature -->
+  <BedUncomfortableTemperature>TODO</BedUncomfortableTemperature>
+  <!-- EN: Unsafe room temperature -->
+  <BedUnsafeTemperature>TODO</BedUnsafeTemperature>
+  <!-- EN: Died on the {0} -->
+  <DiedOn>TODO</DiedOn>
+  <!-- EN: Nobody -->
+  <Nobody>هیچ‌کس</Nobody>
+  <!-- EN: Unowned -->
+  <Unowned>TODO</Unowned>
+  <!-- EN: Dead for {0} -->
+  <DeadTime>TODO</DeadTime>
+  <!-- EN: walk speed {0} -->
+  <WalkSpeed>TODO</WalkSpeed>
+  <!-- EN: fert. -->
+  <FertShort>TODO</FertShort>
+  <!-- EN: dying -->
+  <DyingLower>TODO</DyingLower>
+  <!-- EN: Filth on feet: -->
+  <FilthOnFeet>TODO</FilthOnFeet>
+  <!-- EN: not enough stored -->
+  <NotEnoughStoredLower>TODO</NotEnoughStoredLower>
+  <!-- EN: nothing -->
+  <NothingLower>TODO</NothingLower>
+  <!-- EN: Nothing -->
+  <Nothing>TODO</Nothing>
+  <!-- EN: Adapted -->
+  <Adapted>TODO</Adapted>
+  <!-- EN: fresh -->
+  <FreshMissingBodyPart>TODO</FreshMissingBodyPart>
+  <!-- EN: developed immunity -->
+  <DevelopedImmunityLower>TODO</DevelopedImmunityLower>
+  <!-- EN: Needs tending now -->
+  <NeedsTendingNow>TODO</NeedsTendingNow>
+  <!-- EN: Can tend now -->
+  <CanTendNow>TODO</CanTendNow>
+  <!-- EN: Tending expires in {0} -->
+  <TreatmentExpiresIn>TODO</TreatmentExpiresIn>
+  <!-- EN: Can be tended in {0} -->
+  <NextTendIn>TODO</NextTendIn>
+  <!-- EN: Tend quality -->
+  <TendQuality>TODO</TendQuality>
+  <!-- EN: Total tend quality -->
+  <DisappearsAtTotalTendQuality>TODO</DisappearsAtTotalTendQuality>
+  <!-- EN: no {0} -->
+  <MissingMedicalBillIngredient>TODO</MissingMedicalBillIngredient>
+  <!-- EN: Immunity -->
+  <Immunity>TODO</Immunity>
+  <!-- EN: {0} days to recover -->
+  <DaysToRecover>TODO</DaysToRecover>
+  <!-- EN: Ineffective -->
+  <Ineffective>TODO</Ineffective>
+  <!-- EN: illegal -->
+  <Illegal>TODO</Illegal>
+  <!-- EN: detection chance -->
+  <DetectionChance>TODO</DetectionChance>
+  <!-- EN: Race -->
+  <Race>نژاد</Race>
+  <!-- EN: Description -->
+  <Description>TODO</Description>
+  <!-- EN: Equipment -->
+  <Equipment>TODO</Equipment>
+  <!-- EN: Apparel -->
+  <Apparel>TODO</Apparel>
+  <!-- EN: Inventory -->
+  <Inventory>TODO</Inventory>
+  <!-- EN: Information -->
+  <ThingInfo>TODO</ThingInfo>
+  <!-- EN: Drop -->
+  <DropThing>TODO</DropThing>
+  <!-- EN: Temporary faction members will not drop their items. -->
+  <DropThingLodger>TODO</DropThingLodger>
+  <!-- EN: This person refuses to drop this. -->
+  <DropThingLocked>TODO</DropThingLocked>
+  <!-- EN: Rename -->
+  <Rename>TODO</Rename>
+  <!-- EN: Rename animal -->
+  <RenameAnimal>TODO</RenameAnimal>
+  <!-- EN: Rename colonist -->
+  <RenameColonist>TODO</RenameColonist>
+  <!-- EN: Renounce title -->
+  <RenounceTitle>TODO</RenounceTitle>
+  <!-- EN: Execute -->
+  <Execute>TODO</Execute>
+  <!-- EN: Execute guilty colonist\n\nIf you toggle this on, a warden will proceed to execute this person. -->
+  <ExecuteColonist>TODO</ExecuteColonist>
+  <!-- EN: {0_labelShort} is now marked for execution. The next available warden will go execute {0_objective}. -->
+  <MessageColonistMarkedForExecution>TODO</MessageColonistMarkedForExecution>
+  <!-- EN: {0} of {1} -->
+  <TitleOfFaction>TODO</TitleOfFaction>
+  <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
+  <RenounceTitleDescription>TODO</RenounceTitleDescription>
+  <!-- EN: {PAWN_pronoun} will lose these permissions -->
+  <RenounceTitleWillLoosePermits>TODO</RenounceTitleWillLoosePermits>
+  <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
+  <RenounceTitleWillLosePermitPoints>TODO</RenounceTitleWillLosePermitPoints>
+  <!-- EN: {PAWN_pronoun} will keep all {PAWN_possessive} psylink levels and psycasts. -->
+  <RenounceTitleWillKeepPsylinkLevels>TODO</RenounceTitleWillKeepPsylinkLevels>
+  <!-- EN: unknown -->
+  <UnknownLower>TODO</UnknownLower>
   <!-- EN: On -->
   <On>TODO</On>
   <!-- EN: Off -->
   <Off>TODO</Off>
+  <!-- EN: {0} {1} -->
+  <SourceToolLabel>TODO</SourceToolLabel>
   <!-- EN: Power -->
   <PowerSwitch_Power>TODO</PowerSwitch_Power>
   <!-- EN: Recreation type tolerances -->
@@ -270,7 +276,7 @@
   <Map>TODO</Map>
   <!-- EN: {0} until enemies arrive -->
   <CaravanDetectedRaidCountdown>TODO</CaravanDetectedRaidCountdown>
-  <!-- EN: Enemy reinforcements will arrive in this area in {0}. -->
+  <!-- EN: Enemies have learned of your location. They will arrive in {0}. -->
   <CaravanDetectedRaidCountdownTip>TODO</CaravanDetectedRaidCountdownTip>
   <!-- EN: Room -->
   <Room>TODO</Room>
@@ -278,10 +284,14 @@
   <BeautyHere>TODO</BeautyHere>
   <!-- EN: no power -->
   <NoPower>TODO</NoPower>
+  <!-- EN: not in {0} -->
+  <NotInRoomRole>TODO</NotInRoomRole>
   <!-- EN: Work speed -->
   <WorkSpeedPenalty>TODO</WorkSpeedPenalty>
   <!-- EN: Disabled -->
   <DisabledCommand>TODO</DisabledCommand>
+  <!-- EN: Deactivated -->
+  <Deactivated>غیرفعال شد.</Deactivated>
   <!-- EN: Ready for launch. -->
   <ReadyForLaunch>TODO</ReadyForLaunch>
   <!-- EN: Not ready for launch -->
@@ -289,11 +299,13 @@
   <!-- EN: no fueling port -->
   <NotAllInGroupConnectedToFuelingPort>TODO</NotAllInGroupConnectedToFuelingPort>
   <!-- EN: no fuel -->
-  <NotAllFuelingPortSourcesInGroupHaveAnyFuel>TODO</NotAllFuelingPortSourcesInGroupHaveAnyFuel>
+  <NotAllLaunchablesInGroupHaveAnyFuel>TODO</NotAllLaunchablesInGroupHaveAnyFuel>
   <!-- EN: loading in progress -->
-  <TransportPodInGroupHasSomethingLeftToLoad>TODO</TransportPodInGroupHasSomethingLeftToLoad>
+  <LaunchableInGroupHasSomethingLeftToLoad>TODO</LaunchableInGroupHasSomethingLeftToLoad>
   <!-- EN: Beyond maximum range -->
   <TransportPodDestinationBeyondMaximumRange>TODO</TransportPodDestinationBeyondMaximumRange>
+  <!-- EN: No path to {LAYER_label} -->
+  <TransportPodDestinationNoPath>TODO</TransportPodDestinationNoPath>
   <!-- EN: Not enough fuel -->
   <TransportPodNotEnoughFuel>TODO</TransportPodNotEnoughFuel>
   <!-- EN: {0} of {1} -->
@@ -338,6 +350,10 @@
   <Products>TODO</Products>
   <!-- EN: Requires -->
   <Requires>TODO</Requires>
+  <!-- EN: Replaces -->
+  <Replaces>TODO</Replaces>
+  <!-- EN: missing {0} -->
+  <MissingPartWithLabel>TODO</MissingPartWithLabel>
   <!-- EN: {0}x any of -->
   <NumAnyOf>TODO</NumAnyOf>
   <!-- EN: {0} of {1} -->
@@ -360,10 +376,14 @@
   <RideableAnimalsPerPeople>TODO</RideableAnimalsPerPeople>
   <!-- EN: Multiplier from ridden animals -->
   <MultiplierFromRiddenAnimals>TODO</MultiplierFromRiddenAnimals>
+  <!-- EN: Multiplier from bonuses -->
+  <MultiplierFromMoveSpeedBonus>TODO</MultiplierFromMoveSpeedBonus>
   <!-- EN: Multiplier for carried mass: {0} -->
   <MultiplierForCarriedMass>TODO</MultiplierForCarriedMass>
   <!-- EN: This animal is rideable. People in a caravan will ride the fastest available animals, improving the speed of the caravan as a whole. -->
   <RideableAnimalTip>TODO</RideableAnimalTip>
+  <!-- EN: This person provides a bonus to the caravan's speed. The speed increase is the average bonus of all of the caravan's members. -->
+  <CaravanBonusTip>TODO</CaravanBonusTip>
   <!-- EN: This caravan can't move because it carries too much. -->
   <EncumberedCaravanTilesPerDayTip>TODO</EncumberedCaravanTilesPerDayTip>
   <!-- EN: Caravan members speed -->
@@ -376,6 +396,8 @@
   <MovementDifficultyOffsetInWinter>TODO</MovementDifficultyOffsetInWinter>
   <!-- EN: to -->
   <RangeTo>TODO</RangeTo>
+  <!-- EN: Caused by -->
+  <CausedBy>TODO</CausedBy>
   <!-- EN: No letter -->
   <NoDietCategoryLetter>TODO</NoDietCategoryLetter>
   <!-- EN: expires in -->
@@ -439,7 +461,7 @@
   <!-- EN: {0} of {1} x{2} -->
   <FilthLabelWithSource>TODO</FilthLabelWithSource>
   <!-- EN: Required -->
-  <Required>Required</Required>
+  <Required>مورد نیاز</Required>
   <!-- EN: Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction? -->
   <GiveGiftViaTransportPodsTradeRequestWarning>TODO</GiveGiftViaTransportPodsTradeRequestWarning>
   <!-- EN: prisoner -->
@@ -462,15 +484,15 @@
   <ViewHyperlink>TODO</ViewHyperlink>
   <!-- EN: Detonates in {0} days -->
   <DetonationCountdown>TODO</DetonationCountdown>
-  <!-- EN: Large fire explosion if damaged. -->
+  <!-- EN: Large explosion if damaged. -->
   <ExplosionOnDamageWarning>TODO</ExplosionOnDamageWarning>
   <!-- EN: Mech cluster -->
   <MechCluster>TODO</MechCluster>
   <!-- EN: Spawning in {0} -->
   <SpawningNextPawnIn>TODO</SpawningNextPawnIn>
-  <!-- EN: {0} assembly completes in {1}. -->
+  <!-- EN: {0} gestation completes in {1}. -->
   <MechAssemblyCompleteIn>TODO</MechAssemblyCompleteIn>
-  <!-- EN: Will assemble -->
+  <!-- EN: Will gestate -->
   <MechAssemblyNextType>TODO</MechAssemblyNextType>
   <!-- EN: produced -->
   <ThingsProduced>TODO</ThingsProduced>
@@ -558,6 +580,8 @@
   <RequiredTechprintTip>TODO</RequiredTechprintTip>
   <!-- EN: size -->
   <Size>TODO</Size>
+  <!-- EN: Total planning area -->
+  <TotalPlanningArea>TODO</TotalPlanningArea>
   <!-- EN: cost -->
   <Cost>TODO</Cost>
   <!-- EN: Stunned by EMP -->
@@ -576,8 +600,10 @@
   <Investigate>TODO</Investigate> 
   <!-- EN: Activate -->
   <Activate>TODO</Activate> 
+  <!-- EN: Deactivate -->
+  <Deactivate>TODO</Deactivate>
   <!-- EN: Activation -->
-  <Activation>TODO</Activation> 
+  <Activation>TODO</Activation>
   <!-- EN: complete -->
   <Complete>TODO</Complete>
   <!-- EN: Must be imprisoned. -->
@@ -602,6 +628,25 @@
   <ReportStringCrawlingToSafety>TODO</ReportStringCrawlingToSafety>
   <!-- EN: Crawling to bed. -->
   <ReportStringCrawlingToBed>TODO</ReportStringCrawlingToBed>
+  <!-- EN: flying -->
+  <Flying>TODO</Flying>
+  <!-- EN: Prevent cutting -->
+  <PreventCutting>TODO</PreventCutting>
+  <!-- EN: When on, colonists won't cut this plant. -->
+  <PreventCuttingDesc>TODO</PreventCuttingDesc>
+
+  <!-- EN: Resulting from trait -->
+  <ComesFromTrait>TODO</ComesFromTrait>
+  <!-- EN: Resulting from condition -->
+  <ComesFromHediff>TODO</ComesFromHediff>
+  <!-- EN: Adds need -->
+  <AddsNeed>TODO</AddsNeed>
+  <!-- EN: Adds needs -->
+  <AddsNeeds>TODO</AddsNeeds>
+  <!-- EN: Disables need -->
+  <DisablesNeed>نیاز را غیرفعال می‌کند</DisablesNeed>
+  <!-- EN: Disables needs -->
+  <DisablesNeeds>نیازها را غیرفعال می‌کند</DisablesNeeds>
   
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -770,6 +815,8 @@
   <!-- EN: Filth -->
   <Filth_Label>TODO</Filth_Label>
   
+  <!-- EN: Features -->
+  <Features_Label>TODO</Features_Label>
   <!-- EN: Faction -->
   <Faction_Label>TODO</Faction_Label>
   <!-- EN: Relationship -->
@@ -795,6 +842,8 @@
   <ApparelPreventsShooting>TODO</ApparelPreventsShooting>
   <!-- EN: Cannot use in {0} -->
   <CannotUseReason_PocketMap>TODO</CannotUseReason_PocketMap>
+  <!-- EN: Range reduced -->
+  <WeatherMaxRangeCap>TODO</WeatherMaxRangeCap>
 
   <!-- Snow -->
   <!-- EN: Snow -->
@@ -1057,6 +1106,8 @@
   <PowerConsumptionHigh>TODO</PowerConsumptionHigh>
   <!-- EN: low -->
   <PowerConsumptionLow>TODO</PowerConsumptionLow>
+  <!-- EN: off -->
+  <PowerConsumptionOff>TODO</PowerConsumptionOff>
 
   <!-- Temperature readout -->
   <!-- EN: Indoors -->
@@ -1111,13 +1162,13 @@
   <GrowthRate>TODO</GrowthRate>
   <!-- EN: Fully grown in {0} of growth. -->
   <FullyGrownIn>TODO</FullyGrownIn>
-  <!-- EN: Needs light level -->
+  <!-- EN: needs light level -->
   <PlantNeedsLightLevel>TODO</PlantNeedsLightLevel>
-  <!-- EN: Resting -->
+  <!-- EN: resting -->
   <PlantResting>TODO</PlantResting>
-  <!-- EN: Non-ideal temperature. Temperature growth multiplier: {0}% -->
+  <!-- EN: temperature growth multiplier {0}% -->
   <OutOfIdealTemperatureRange>TODO</OutOfIdealTemperatureRange>
-  <!-- EN: Non-ideal temperature. Not growing. -->
+  <!-- EN: out of temperature growth range -->
   <OutOfIdealTemperatureRangeNotGrowing>TODO</OutOfIdealTemperatureRangeNotGrowing>
   <!-- EN: Ready to harvest. -->
   <ReadyToHarvest>TODO</ReadyToHarvest>
@@ -1141,6 +1192,8 @@
   <Blighted>TODO</Blighted>
   <!-- EN: Dying because exposed to light -->
   <DyingBecauseExposedToLight>TODO</DyingBecauseExposedToLight>
+  <!-- EN: Dying from non-ideal terrain -->
+  <DyingBecauseOfTerrain>TODO</DyingBecauseOfTerrain>
   <!-- EN: Cut now -->
   <AutoCutNow>TODO</AutoCutNow>
   <!-- EN: harvesting -->
@@ -1157,8 +1210,12 @@
   <Zone>TODO</Zone>
   <!-- EN: Growing zone -->
   <GrowingZone>TODO</GrowingZone>
+  <!-- EN: growing -->
+  <GrowingGroup>TODO</GrowingGroup>
   <!-- EN: Stockpile zone -->
   <Stockpile>TODO</Stockpile>
+  <!-- EN: stockpile -->
+  <StockpileGroup>TODO</StockpileGroup>
   <!-- EN: Dumping stockpile zone -->
   <DumpingStockpile>TODO</DumpingStockpile>
   <!-- EN: Corpse stockpile zone -->
@@ -1229,8 +1286,10 @@
   <LockNorthUpToggleButton>TODO</LockNorthUpToggleButton>
   <!-- EN: Toggle day/night lighting on the planet view. -->
   <UsePlanetDayNightSystemToggleButton>TODO</UsePlanetDayNightSystemToggleButton>
-  <!-- EN: Toggle displaying expanding icons instead of the regular icons for distant objects. -->
-  <ShowExpandingIconsToggleButton>TODO</ShowExpandingIconsToggleButton>
+  <!-- EN: Toggle displaying expanding icons for settlements belonging to other factions. -->
+  <ShowBasesExpandingIconsToggleButton>TODO</ShowBasesExpandingIconsToggleButton>
+  <!-- EN: Toggle displaying expanding icons for important locations, such as your colony, quest locations, and active maps. -->
+  <ShowImportantExpandingIconsToggleButton>TODO</ShowImportantExpandingIconsToggleButton>
   <!-- EN: Toggle visibility of names of landforms. -->
   <ShowWorldFeaturesToggleButton>TODO</ShowWorldFeaturesToggleButton>
   <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
@@ -1423,14 +1482,16 @@
   <GameOverKeepWatchingForNow>TODO</GameOverKeepWatchingForNow>
   <!-- EN: Create new wanderers -->
   <GameOverCreateNewWanderers>TODO</GameOverCreateNewWanderers>
-  <!-- EN: Create new wanderers (must wait {0}h) -->
-  <GameOverCreateNewWanderersWait>TODO</GameOverCreateNewWanderersWait>
   <!-- EN: Everyone is dead or gone. Perhaps someone will find a use for the ruins of this place.\n\nChoose new wanderers arrive at your colony and continue the story. -->
   <GameOverCreateNewWanderersText>TODO</GameOverCreateNewWanderersText>
   <!-- EN: Main menu -->
   <GameOverMainMenu>TODO</GameOverMainMenu>
   <!-- EN: No colony -->
   <NoColony>TODO</NoColony>
+  <!-- EN: cannot reach any destination -->
+  <NoWandererDestination>TODO</NoWandererDestination>
+  <!-- EN: must wait {0}h -->
+  <GameOverCreateNewWanderersWait>TODO</GameOverCreateNewWanderersWait>
 
   <!-- Generic lifespan -->
   <!-- EN: Expires in: -->
@@ -1575,6 +1636,8 @@
   <OutfitSoldier>TODO</OutfitSoldier>
   <!-- EN: Nudist -->
   <OutfitNudist>TODO</OutfitNudist>
+  <!-- EN: Spacefarer -->
+  <OutfitSpacefarer>TODO</OutfitSpacefarer>
 
   <!-- Hibernatable -->
   <!-- EN: Hibernating -->
@@ -1619,11 +1682,9 @@
   <Reward_Pawn_WalkIn>TODO</Reward_Pawn_WalkIn>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
   <Reward_Pawn_Caravan>TODO</Reward_Pawn_Caravan>
-  <!-- EN: transport pods with the following resources will arrive (total value {1}):
-\n{0} -->
+  <!-- EN: transport pods with the following resources will arrive (total value {1}):\n\n{0} -->
   <Reward_Items>TODO</Reward_Items>
-  <!-- EN: you will receive (total value {1}):
-\n{0} -->
+  <!-- EN: you will receive (total value {1}):\n\n{0} -->
   <Reward_Items_Caravan>TODO</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>TODO</Reward_Goodwill>
@@ -1636,9 +1697,9 @@
   <!-- EN: Camp loot -->
   <Reward_CampLoot_Label>TODO</Reward_CampLoot_Label>
   <!-- EN: It is unclear what will happen if you accept this quest -->
-  <Reward_Unknown>TODO</Reward_Unknown> 
+  <Reward_Unknown>TODO</Reward_Unknown>
   <!-- EN: Unknown -->
-  <Reward_Unknown_Label>TODO</Reward_Unknown_Label> 
+  <Reward_Unknown_Label>TODO</Reward_Unknown_Label>
   <!-- EN: the visitors will work and fight for you -->
   <Reward_VisitorsHelp>TODO</Reward_VisitorsHelp>
   <!-- EN: Visitors' help -->
@@ -1685,10 +1746,12 @@
   <BiocodedCodedForSomeoneElse>TODO</BiocodedCodedForSomeoneElse>
 
   <!-- Projectile interceptor -->
-  <!-- EN: Intercepts {0} every {1} -->
+  <!-- EN: Intercepts {0} every {1}. -->
   <InterceptsProjectilesEvery>TODO</InterceptsProjectilesEvery>
-  <!-- EN: Intercepts {0} -->
+  <!-- EN: Intercepts {0}. -->
   <InterceptsProjectiles>TODO</InterceptsProjectiles>
+  <!-- EN: ground and aerial projectiles -->
+  <InterceptsProjectiles_BothProjectiles>TODO</InterceptsProjectiles_BothProjectiles>
   <!-- EN: ground projectiles -->
   <InterceptsProjectiles_GroundProjectiles>TODO</InterceptsProjectiles_GroundProjectiles>
   <!-- EN: aerial projectiles -->
@@ -1814,19 +1877,17 @@
   <DateRitualNoObligation>TODO</DateRitualNoObligation>
 
   <!-- EN: Replace with -->
-  <PreceptReplaceWith>TODO</PreceptReplaceWith>
+  <PreceptReplaceWith>جایگزینی با</PreceptReplaceWith>
   <!-- EN: Ritual seat of {IDEOS} -->
-  <RitualSeatOf>TODO</RitualSeatOf>
+  <RitualSeatOf>صندلی مراسم {IDEOS}</RitualSeatOf>
   <!-- EN: Expected quality -->
   <ExpectedLordJobQuality>TODO</ExpectedLordJobQuality>
   <!-- EN: Starting quality -->
-  <StartingQuality>TODO</StartingQuality>
+  <StartingQuality>کیفیت شروع</StartingQuality>
   <!-- EN: {PAWN_labelShort}'s {1} -->
   <RitualPredictedOutcomeDescPawnStat>TODO</RitualPredictedOutcomeDescPawnStat>
   <!-- EN: Room beauty -->
   <RitualPredictedOutcomeDescRoomBeauty>TODO</RitualPredictedOutcomeDescRoomBeauty>
-  <!-- EN: Participants -->
-  <RitualPredictedOutcomeDescParticipantCount>TODO</RitualPredictedOutcomeDescParticipantCount>
   <!-- EN: {PAWN_labelShort}'s expectations -->
   <RitualPredictedOutcomeDescPawnExpectations>TODO</RitualPredictedOutcomeDescPawnExpectations>
   <!-- EN: Loved one present -->
@@ -1835,7 +1896,7 @@
   <RitualOutcomeLovedOnePresentTip>TODO</RitualOutcomeLovedOnePresentTip>
 
   <!-- EN: Any of these -->
-  <RitualOutcomeLabelAnyOfThese>TODO</RitualOutcomeLabelAnyOfThese>
+  <RitualOutcomeLabelAnyOfThese>هر یک از این‌ها</RitualOutcomeLabelAnyOfThese>
   <!-- EN: Replaces {PAWN_labelShort} -->
   <RitualRoleReplaces>TODO</RitualRoleReplaces>
 
@@ -1995,7 +2056,8 @@
   <CommandPushTo>TODO</CommandPushTo>
   <!-- EN: requires {0} -->
   <RequiredCapacity>TODO</RequiredCapacity>
-  
+
+  <!-- Pocket Maps -->
   <!-- EN: Unable to enter {0}, destination is blocked -->
   <UnableToEnterPortal>TODO</UnableToEnterPortal>
 
@@ -2015,8 +2077,112 @@
   
   <!-- EN: About to explode -->
   <AboutToExplode>TODO</AboutToExplode>
+  <!-- EN: No fuel to eject -->
+  <RefuelableNoFuelToEject>TODO</RefuelableNoFuelToEject>
   
   <!-- EN: New Anomaly expansion available now! -->
   <MainScreen_AnomalyAvailableNow>TODO</MainScreen_AnomalyAvailableNow>
+
+  <!-- EN: Disabled by scenario -->
+  <DisabledByScenario>TODO</DisabledByScenario>
+
+  <!-- EN: blocked by roof -->
+  <BlockedByRoof>TODO</BlockedByRoof>
+  <!-- EN: Blocked by terrain (requires {0_label} terrain support) -->
+  <BlockedByTerrain>TODO</BlockedByTerrain>
+
+  <!-- Craters -->
+  <!-- EN: Fill in -->
+  <DesignatorFillIn>پر کردن</DesignatorFillIn>
+  <!-- EN: Designate this crater to be filled in. A colonist assigned to construction will fill it in. -->
+  <DesignatorFillInDesc>این گودال را پر کنید.</DesignatorFillInDesc>
+
+  <!-- Hacking -->
+  <!-- EN: Hack progress -->
+  <HackProgress>پیشرفت هک</HackProgress>
+  <!-- EN: hacking speed -->
+  <HackingSpeed>سرعت هک</HackingSpeed>
+  <!-- EN: {0}'s -->
+  <HackingLastUser>{0} از</HackingLastUser>
+  <!-- EN: hacked -->
+  <Hacked>هک شده</Hacked>
+  <!-- EN: Terminals hacked -->
+  <TerminalsHacked>ترمینال‌های هک شده</TerminalsHacked>
+  <!-- EN: Intellectual needed -->
+  <IntellectualSkillPrerequisite>TODO</IntellectualSkillPrerequisite>
+  <!-- EN: Auto hack -->
+  <AutoHack>TODO</AutoHack>
+  <!-- EN: When enabled, researchers will automatically hack this. -->
+  <AutoHackDesc>TODO</AutoHackDesc>
+
+  <!-- World -->
+  <!-- EN: View {LAYER_label} -->
+  <WorldSelectLayer>TODO</WorldSelectLayer>
+  <!-- EN: Jump to location -->
+  <WorldJumpTo>TODO</WorldJumpTo>
+  <!-- EN: Find a colony, caravan, or quest location on the world map. -->
+  <WorldJumpToDesc>TODO</WorldJumpToDesc>
+  <!-- EN: Nothing to jump to. -->
+  <NothingToJumpTo>TODO</NothingToJumpTo>
+  <!-- EN: cannot function in {0} -->
+  <CannotFunctionOnLayer>TODO</CannotFunctionOnLayer>
+  <!-- EN: New settlement -->
+  <NewSettlement>TODO</NewSettlement>
+  <!-- EN: Settled -->
+  <Settled>TODO</Settled>
+  <!-- EN: Abandoned -->
+  <Abandoned>TODO</Abandoned>
+  <!-- EN: Cannot perform {GERUND} {LAYER} -->
+  <CannotPerformPlanetLayer>TODO</CannotPerformPlanetLayer>
+  <!-- EN: This will not affect you {GERUND} {LAYER}. -->
+  <ThisWillNotAffectLayer>TODO</ThisWillNotAffectLayer>
+
+  <!-- Pocket maps -->
+  <!-- EN: Enter {0} -->
+  <EnterPortal>ورود به {0}</EnterPortal>
+  <!-- EN: Entering {0} -->
+  <EnteringPortal>در حال ورود به {0}</EnteringPortal>
+  <!-- EN: Select people and items to enter the {0}. -->
+  <CommandEnterPortalDesc>افراد و اقلام را برای ورود به {0} انتخاب کنید.</CommandEnterPortalDesc>
+  <!-- EN: Cancel entering -->
+  <CommandCancelEnterPortal>لغو ورود</CommandCancelEnterPortal>
+  <!-- EN: Cancel exiting -->
+  <CommandCancelExitPortal>TODO</CommandCancelExitPortal>
+  <!-- EN: Cancel loading people or items into this. -->
+  <CommandCancelEnterPortalDesc>بارگیری افراد یا اقلام در این را لغو کنید.</CommandCancelEnterPortalDesc>
+  <!-- EN: Exit {0} -->
+  <ExitPortal>TODO</ExitPortal>
+
+  <!-- CompProjectileInterceptor -->
+  <!-- EN: Shield energy -->
+  <ShieldEnergy>انرژی سپر</ShieldEnergy>
+  <!-- EN: Shield cooldown -->
+  <ShieldTimeToRecovery>زمان تا بازیابی</ShieldTimeToRecovery>
+  <!-- EN: Shield duration -->
+  <ShieldDuration>TODO</ShieldDuration>
+  <!-- EN: On cooldown -->
+  <ShieldOnCooldown>TODO</ShieldOnCooldown>
+  <!-- EN: Below minimum energy -->
+  <ShieldBelowMinHitpoints>TODO</ShieldBelowMinHitpoints>
+  <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->
+  <ProjectileInterceptorTip>یک سپر پرتابی با زاویه کم که سعی می‌کند پرتابه‌ها یا ترکش‌های ورودی را متوقف کند. در صورت برخورد با EMP فوراً خاموش می‌شود.</ProjectileInterceptorTip>
+
+  <!-- EN: max {0} -->
+  <MaxOf>TODO</MaxOf>
+
+  <!-- EN: Cannot use {TARGETABLE_label}: {TARGET_nameDef} already has {2}. -->
+  <CannotUseDueToHediff>TODO</CannotUseDueToHediff>
+
+  <!-- Scanner -->
+  <!-- EN: Blocked by roof -->
+  <CannotUseScannerRoofed>TODO</CannotUseScannerRoofed>
+  <!-- EN: Biome does not contain drillable resources -->
+  <CannotUseScannerNoBedrock>TODO</CannotUseScannerNoBedrock>
+  
+  <!-- Quests -->
+  <!-- EN: Cannot accept this quest {GERUND} {LAYER}. -->
+  <CannotAcceptQuestFromLayer>TODO</CannotAcceptQuestFromLayer>
+  <!-- EN: Cannot accept this quest without a permanent colony. -->
+  <CannotAcceptQuestNoMap>TODO</CannotAcceptQuestNoMap>
   
 </LanguageData>

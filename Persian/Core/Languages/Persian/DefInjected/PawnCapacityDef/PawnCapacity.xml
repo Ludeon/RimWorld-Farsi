@@ -3,11 +3,15 @@
   
   <!-- EN: blood filtration -->
   <BloodFiltration.label>TODO</BloodFiltration.label>
+  <!-- EN: pneumatics -->
+  <BloodFiltration.labelDrones>TODO</BloodFiltration.labelDrones>
   <!-- EN: fluid reprocessing -->
   <BloodFiltration.labelMechanoids>TODO</BloodFiltration.labelMechanoids>
   
   <!-- EN: blood pumping -->
   <BloodPumping.label>TODO</BloodPumping.label>
+  <!-- EN: battery integrity -->
+  <BloodPumping.labelDrones>TODO</BloodPumping.labelDrones>
   <!-- EN: power generation -->
   <BloodPumping.labelMechanoids>TODO</BloodPumping.labelMechanoids>
   
@@ -18,6 +22,8 @@
   <Consciousness.label>TODO</Consciousness.label>
   <!-- EN: Sentience -->
   <Consciousness.labelAnomalyEntity>TODO</Consciousness.labelAnomalyEntity>
+  <!-- EN: Performance -->
+  <Consciousness.labelDrones>TODO</Consciousness.labelDrones>
   <!-- EN: Data processing -->
   <Consciousness.labelMechanoids>TODO</Consciousness.labelMechanoids>
   

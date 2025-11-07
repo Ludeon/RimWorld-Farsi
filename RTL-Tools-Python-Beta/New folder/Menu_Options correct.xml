@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  
+  <!-- Audiovisuals -->
+  <!-- EN: Audiovisuals -->
+  <Audiovisuals>ﯼﺭﺍﺪﯾﺩ ﻭ ﯼﺭﺍﺪﯿﻨﺷ</Audiovisuals>
+  <!-- EN: Master volume -->
+  <MasterVolume>ﺮﯿﮔﺍﺮﻓ ﯼﺍﻭﺁ</MasterVolume>
+  <!-- EN: Game volume -->
+  <GameVolume>ﯼﺯﺎﺑ ﯼﺍﻭﺁ</GameVolume>
+  <!-- EN: Music volume -->
+  <MusicVolume>ﮓﻨﻫﺁ ﯼﺍﻭﺁ</MusicVolume>
+  <!-- EN: Ambience volume -->
+  <AmbientVolume>ﻥﻮﻣﺍﺮﯿﭘ ﯼﺍﻭﺁ</AmbientVolume>
+  <!-- EN: UI volume -->
+  <UIVolume>ﯼﺮﺑﺭﺎﮐ ﻂﺑﺍﺭ ﯼﺍﻭﺁ</UIVolume>
+  <!-- EN: Affects all sounds. -->
+  <MasterVolumeTooltip>.ﺪﻫﺩ ﯽﻣ ﺭﺍﺮﻗ ﺯﺎﺳﺭﺎﮐ ﺮﯾﺯ ﺍﺭ ﺎﻫﺍﻭﺁ ﻪﻤﻫ</MasterVolumeTooltip>
+  <!-- EN: Affects all in world sounds, e.g. chopping trees, building walls. -->
+  <GameVolumeTooltip>ﺎﻫﺭﺍﻮﯾﺩ ﻦﺘﺧﺎﺳ ،ﻧﺎﺘﺧﺭﺩ ﻥﺩﺮﮐ ﺩﺮﺧ .ﻟﺎﺜﻣ ﻥﺍﻮﻨﻋ ﻪﺑ ،ﺪﻫﺩ ﯽﻣ ﺭﺍﺮﻗ ﯼﺯﺎﺳﺭﺎﮐ ﺮﯾﺯ ﺍﺭ ﻥﺎﻬﺟ ﯼﺎﻫﺍﻭﺁ ﻪﻤﻫ</GameVolumeTooltip>
+  <!-- EN: Affects music. -->
+  <MusicVolumeTooltip>.ﺩﻮﺷ ﯽﻣ ﺯﺎﺳﺭﺎﮐ ﺍﻮﻧ ﺮﺑ</MusicVolumeTooltip>
+  <!-- EN: Affects all ambient sounds, e.g. wind, insects. -->
+  <AmbientVolumeTooltip>ﺕﺍﺮﺸﺣ ،ﺩﺎﺑ .ﻟﺎﺜﻣ ﻥﺍﻮﻨﻋ ﻪﺑ ،ﺩﺭﺍﺬﮔ ﯽﻣ ﺮﯿﺛﺄﺗ ﻂﯿﺤﻣ ﯼﺎﻫﺍﻭﺁ ﻪﻤﻫ ﺮﺑ</AmbientVolumeTooltip>
+  <!-- EN: Affects all interface sounds, e.g. button clicks, messages. -->
+  <UIVolumeTooltip>ﺎﻫ ﻡﺎﯿﭘ ،ﺎﻫ ﻪﻤﮐﺩ ﮏﯿﻠﮐ .ﻟﺎﺜﻣ ﻥﺍﻮﻨﻋ ﻪﺑ ،ﺩﺭﺍﺬﮔ ﯽﻣ ﺮﯿﺛﺄﺗ ﻂﺑﺍﺭ ﯼﺎﻫﺍﻭﺁ ﻪﻤﻫ ﺮﺑ</UIVolumeTooltip>
+  <!-- EN: Anti-aliasing -->
+  <Antialiasing>ﮓﻨﯿﺳﺎﯿﻟﺁ ﺪﺿ</Antialiasing>
+
+  <!-- Gameplay -->
+  <!-- EN: Remember draw styles -->
+  <RememberDrawStyle>TODO</RememberDrawStyle>
+  <!-- EN: When enabled, draw styles won't reset to the default draw style when placing new buildings or zones. -->
+  <RememberDrawStyle_Tooltip>TODO</RememberDrawStyle_Tooltip>
+  <!-- EN: Zoom switches world map layers -->
+  <ZoomSwitchLayer>TODO</ZoomSwitchLayer>
+  <!-- EN: When enabled, zooming out on the world map will switch to an orbital view. Zooming in will show the planet again. -->
+  <ZoomSwitchLayer_Tooltip>TODO</ZoomSwitchLayer_Tooltip>
+  <!-- EN: Screen-edge mouse scroll -->
+  <EdgeScreenScroll>ﻪﺤﻔﺻ ﻪﺒﻟ ﺱﻭﺎﻣ ﻝﻭﺮﮑﺳﺍ</EdgeScreenScroll>
+  <!-- EN: Zoom to mouse -->
+  <ZoomToMouse>ﺱﻭﺎﻣ ﺖﻤﺳ ﻪﺑ ﯽﯾﺎﻤﻨﮔﺭﺰﺑ</ZoomToMouse>
+  <!-- EN: Pause on load -->
+  <PauseOnLoad>ﯼﺭﺍﺬﮔﺭﺎﺑ ﺭﺩ ﺚﮑﻣ</PauseOnLoad>
+  <!-- EN: Pause on urgent letter -->
+  <PauseOnUrgentLetter>ﯼﺭﻭﺭﺮﺿ ﻪﻣﺎﻧ ﺭﺩ ﺚﮑﻣ</PauseOnUrgentLetter>
+  <!-- EN: Pause on letter -->
+  <AutomaticPauseModeSetting>ﻪﻣﺎﻧ ﯼﻭﺭ ﺚﮑﻣ</AutomaticPauseModeSetting>
+  <!-- EN: Disable game-specific cursor -->
+  <CustomCursor>ﺪﯿﻨﮐ ﻝﺎﻌﻓﺮﯿﻏ ﺍﺭ ﯼﺯﺎﺑ ﺹﻮﺼﺨﻣ ﺎﻤﻧ ﻥﺎﮑﻣ</CustomCursor>
+  <!-- EN: Hide hats on UI -->
+  <HatsShownOnlyOnMap>ﯼﺮﺑﺭﺎﮐ ﻂﺑﺍﺭ ﺭﺩ ﺎﻫ ﻩﻼﮐ ﻥﺩﺮﮐ ﻥﺎﻬﻨﭘ</HatsShownOnlyOnMap>
+  <!-- EN: UI scale -->
+  <UIScale>ﯼﺮﺑﺭﺎﮐ ﻂﺑﺍﺭ ﺱﺎﯿﻘﻣ</UIScale>
+  <!-- EN: Keyboard configuration -->
+  <KeyboardConfig>ﺪﯿﻠﮐ ﻪﺤﻔﺻ ﯼﺪﻨﺑﺮﮑﯿﭘ</KeyboardConfig>
+  <!-- EN: Controller configuration -->
+  <ControllerConfig>ﺮﻟﺮﺘﻨﮐ ﯼﺪﻨﺑﺮﮑﯿﭘ</ControllerConfig>
+  <!-- EN: Modify -->
+  <ModifyConfig>ﯼﺯﺎﺳ ﻥﻮﮔﺮﮔﺩ</ModifyConfig>
+  <!-- EN: Choose language -->
+  <ChooseLanguage>ﺪﯿﻨﯾﺰﮔﺮﺑ ﺍﺭ ﻥﺎﺑﺯ</ChooseLanguage>
+  <!-- EN: Reset learning helper -->
+  <ResetAdaptiveTutor>ﺪﯿﻨﮐ ﯽﻧﺎﺸﻧﺯﺎﺑ ﺍﺭ ﯼﺮﯿﮔﺩﺎﯾ ﺎﻤﻨﻫﺍﺭ</ResetAdaptiveTutor>
+  <!-- EN: Tutor is reset. You will be now be re-taught all lessons from scratch. -->
+  <AdaptiveTutorIsReset>.ﺪﺷ ﺪﻫﺍﻮﺧ ﻩﺩﺍﺩ ﺵﺯﻮﻣﺁ ﺎﻤﺷ ﻪﺑ ﺍﺪﺘﺑﺍ ﺯﺍ ﺱﻭﺭﺩ ﻪﻤﻫ ﻥﻮﻨﮐﺍ .ﺘﺳﺍ ﻩﺪﺷ ﯽﻧﺎﺸﻧﺯﺎﺑ ﺱﺭﺪﻣ</AdaptiveTutorIsReset>
+  <!-- EN: Keyboard mode -->
+  <SteamDeckKeyboardMode>ﺪﯿﻠﮐ ﻪﺤﻔﺻ ﺖﻟﺎﺣ</SteamDeckKeyboardMode>
+  <!-- EN: Run in background -->
+  <RunInBackground>ﻪﻨﯿﻣﺯ ﺲﭘ ﺭﺩ ﺍﺮﺟﺍ</RunInBackground>
+  <!-- EN: Development mode -->
+  <DevelopmentMode>ﻪﻌﺳﻮﺗ ﺖﻟﺎﺣ</DevelopmentMode>
+  <!-- EN: Auto-reset mods config on crash -->
+  <ResetModsConfigOnCrash>ﯽﺑﺍﺮﺧ ﻡﺎﮕﻨﻫ ﺭﺩ ﺎﻬ‌ﺘﻟﺎﺣ ﺭﺎﮐﺩﻮﺧ ﺩﺪﺠﻣ ﻢﯿﻈﻨﺗ</ResetModsConfigOnCrash>
+  <!-- EN: Quick start has no cryptosleep sickness -->
+  <DisableQuickStartCryptoSickness>ﺩﺭﺍﺪﻧ ﭗﯿﻠﺳﻮﺘﭙﯾﺮﮐ ﯼﺭﺎﻤﯿﺑ ﻊﯾﺮﺳ ﻉﻭﺮﺷ</DisableQuickStartCryptoSickness>
+  <!-- EN: Start game with dev palette on -->
+  <StartDevPaletteOn>ﻦﺷﻭﺭ ﻩﺪﻨﻫﺩ ﻪﻌﺳﻮﺗ ﺖﻟﺎﭘ ﺎﺑ ﯼﺯﺎﺑ ﻉﻭﺮﺷ</StartDevPaletteOn>
+  <!-- EN: Open log on warnings -->
+  <OpenLogOnWarnings>ﺎﻫﺭﺍﺪﺸﻫ ﺭﺩ ﺵﺭﺍﺰﮔ ﻥﺩﺮﮐ ﺯﺎﺑ</OpenLogOnWarnings>
+  <!-- EN: Close log by pressing cancel -->
+  <CloseLogWindowOnEscape>ﻮﻐﻟ ﻥﺩﺮﺸﻓ ﺎﺑ ﺵﺭﺍﺰﮔ ﻩﺮﺠﻨﭘ ﻦﺘﺴﺑ</CloseLogWindowOnEscape>
+  <!-- EN: Verbose logging -->
+  <LogVerbose>ﻞﺼﻔﻣ ﻡﺎﻧ ﺖﺒﺛ</LogVerbose>
+  <!-- EN: Save data folder -->
+  <SaveGameDataFolder>ﺪﯿﻨﮐ ﻩﺮﯿﺧﺫ ﺍﺭ ﻩﺩﺍﺩ ﻪﺷﻮﭘ</SaveGameDataFolder>
+  <!-- EN: Save data location -->
+  <SaveGameDataLocation>ﻩﺩﺍﺩ ﻥﺎﮑﻣ ﻩﺮﯿﺧﺫ</SaveGameDataLocation>
+  <!-- EN: Log file folder -->
+  <LogFileFolder>ﮒﻻ ﻞﯾﺎﻓ ﻪﺷﻮﭘ</LogFileFolder>
+  <!-- EN: Log file location -->
+  <LogFileLocation>ﮒﻻ ﻞﯾﺎﻓ ﻞﺤﻣ</LogFileLocation>
+  <!-- EN: Open -->
+  <OpenFolder>ﻦﮐ ﺯﺎﺑ</OpenFolder>
+  <!-- EN: Show -->
+  <ShowFolder>ﺪﯿﻫﺩ ﺶﯾﺎﻤﻧ</ShowFolder>
+  <!-- EN: Preferred "Name in Game" characters -->
+  <NamesYouWantToSee>.ﯾﺯﺎﺑ ﺭﺩ ﻡﺎﻧ - ﯽﺤﯿﺟﺮﺗ ﯼﺎﻫﺮﺘﮐﺍﺭﺎﮐ</NamesYouWantToSee>
+  <!-- EN: These characters will be more likely to appear randomly during play. -->
+  <NamesYouWantToSeeSubText>.ﺪﻧﻮﺷ ﻩﺩﺍﺩ ﺶﯾﺎﻤﻧ ﯽﻓﺩﺎﺼﺗ ﺕﺭﻮﺼﺑ ﯼﺯﺎﺑ ﻦﯿﺣ ﺭﺩ ﺎﻫ ﺖﯿﺼﺨﺷ ﻦﯾﺍ ﻪﮑﻨﯾﺍ ﻝﺎﻤﺘﺣﺍ \n ﺩﻮﺑ ﺪﻫﺍﻮﺧ ﺩﺎﯾﺯ</NamesYouWantToSeeSubText>
+  <!-- EN: Add name -->
+  <AddName>ﻡﺎﻧ ﻥﺩﺮﮐ ﻪﻓﺎﺿﺍ</AddName>
+  <!-- EN: Type the first name, nickname, or last name. -->
+  <TypeFirstNickOrLastName>.ﺪﯿﻨﮐ ﭗﯾﺎﺗ ﺍﺭ ﯽﮔﺩﺍﻮﻧﺎﺧ ﻡﺎﻧ ﺎﯾ ﯽﺠﻨﭙﺳ ﻡﺎﻧ ،ﻣﺎﻧ</TypeFirstNickOrLastName>
+  <!-- EN: This name is already on the preferred list. -->
+  <MessageAlreadyPreferredName>.ﺘﺳﺍ ﯼﺮﺗﺮﺑ ﺖﺴﯿﻟ ﺭﺩ ﺮﺿﺎﺣ ﻝﺎﺣ ﺭﺩ ﻡﺎﻧ ﻦﯾﺍ</MessageAlreadyPreferredName>
+  <!-- EN: Storyteller settings -->
+  <ChangeStoryteller>ﻮﮔ ﻪﺼﻗ ﺕﺎﻤﯿﻈﻨﺗ</ChangeStoryteller>
+  <!-- EN: Autosave interval -->
+  <AutosaveInterval>ﺭﺎﮐﺩﻮﺧ ﻩﺮﯿﺧﺫ ﻪﻠﺻﺎﻓ</AutosaveInterval>
+  <!-- EN: The number of in game days between each auto save. -->
+  <AutosaveIntervalTooltip>.ﺭﺎﮐﺩﻮﺧ ﻩﺮﯿﺧﺫ ﺮﻫ ﻦﯿﺑ ﯼﺯﺎﺑ ﯼﺎﻫﺯﻭﺭ ﺩﺍﺪﻌﺗ</AutosaveIntervalTooltip>
+  <!-- EN: Temperature unit -->
+  <TemperatureMode>ﺎﻣﺩ ﺪﺣﺍﻭ</TemperatureMode>
+  <!-- EN: Show realtime clock -->
+  <ShowRealtimeClock>ﮓﻧﺭﺪﯿﺑ ﺖﻋﺎﺳ ﺶﯾﺎﻤﻧ</ShowRealtimeClock>
+  <!-- EN: Use 12 hour clock -->
+  <TwelveHourClockMode>ﻪﺘﻋﺎﺳ 12 ﺖﻋﺎﺳ ﺯﺍ ﻩﺩﺎﻔﺘﺳﺍ</TwelveHourClockMode>
+  <!-- EN: Disable tiny font -->
+  <DisableTinyText>ﺪﯿﻨﮐ ﻝﺎﻌﻓﺮﯿﻏ ﺍﺭ ﮏﭼﻮﮐ ﺖﻧﻮﻓ</DisableTinyText>
+  <!-- EN: Maximum number of colonies: {0} -->
+  <MaxNumberOfPlayerSettlements>{0} : ﺎﻫ ﯽﻧﻮﻠﮐ ﺩﺍﺪﻌﺗ ﺮﺜﮐﺍﺪﺣ</MaxNumberOfPlayerSettlements>
+  <!-- EN: Autosaves count: {0} -->
+  <AutosavesCount>{0} :ﺭﺎﮐﺩﻮﺧ ﯼﺎﻬ‌ﻫﺮﯿﺧﺫ ﺩﺍﺪﻌﺗ</AutosavesCount>
+  <!-- EN: Map mouse drag sensitivity -->
+  <MapDragSensitivity>ﻪﺸﻘﻧ ﺱﻭﺎﻣ ﻥﺪﯿﺸﮐ ﻪﺑ ﺖﯿﺳﺎﺴﺣ</MapDragSensitivity>
+  <!-- EN: Plant wind sway -->
+  <PlantWindSway>ﻩﺎﯿﮔ ﺩﺎﺑ ﻥﺎﺳﻮﻧ</PlantWindSway>
+  <!-- EN: Enable test map sizes -->
+  <EnableTestMapSizes>ﺪﯿﻨﮐ ﻝﺎﻌﻓ ﺍﺭ ﯽﺸﯾﺎﻣﺯﺁ ﻪﺸﻘﻧ ﯼﺎﻬ‌ﻫﺯﺍﺪﻧﺍ</EnableTestMapSizes>
+  <!-- EN: Maximum autosave interval in permadeath mode is {0} day. -->
+  <MaxPermadeathAutosaveIntervalInfo>.ﺯﻭﺭ {0} ﺖﺳﺍ permadeath ﺖﻟﺎﺣ ﺭﺩ ﺭﺎﮐﺩﻮﺧ ﻩﺮﯿﺧﺫ ﻪﻠﺻﺎﻓ ﺮﺜﮐﺍﺪﺣ</MaxPermadeathAutosaveIntervalInfo>
+  <!-- EN: Mod Settings -->
+  <ModSettings>ﺩﻮﻣ ﺕﺎﻤﯿﻈﻨﺗ</ModSettings>
+  <!-- EN: Permanently disable development mode -->
+  <PermanentlyDisableDevMode>ﺪﯿﻨﮐ ﻝﺎﻌﻓﺮﯿﻏ ﻪﺸﯿﻤﻫ ﯼﺍﺮﺑ ﺍﺭ ﻪﻌﺳﻮﺗ ﺖﻟﺎﺣ</PermanentlyDisableDevMode>
+  <!-- EN: Texture compression -->
+  <TextureCompression>ﺖﻓﺎﺑ ﯼﺯﺎﺳ ﻩﺩﺮﺸﻓ</TextureCompression>
+  <!-- EN: Turning off texture compression will use much more video memory, but makes textures look slightly better in detailed areas. Only turn this off if you know you have lots of extra video memory.\n\nNote that using certain mods will often consume much more video memory, so you may need to turn this on if you add certain mods. -->
+  <TextureCompression_Tooltip>.ﺪﯿﻨﮐ ﻦﺷﻭﺭ ﺍﺭ ﻥﺁ ﺪﺷﺎﺑ ﻡﺯﻻ ﺖﺳﺍ ﻦﮑﻤﻣ ،ﺪﯿﻨﮐ ﻪﻓﺎﺿﺍ ﺍﺭ ﯽﺻﺎﺧ ﯼﺎﻬ‌ﺘﻟﺎﺣ ﺮﮔﺍ ﻦﯾﺍﺮﺑﺎﻨﺑ ،ﺪﻨﮑ‌ﯿﻣ ﻑﺮﺼﻣ ﯼﺮﺘﺸﯿﺑ ﺭﺎﯿﺴﺑ ﯽﯾﻮﯾﺪﯾﻭ ﻪﻈﻓﺎﺣ ًﻻﻮﻤﻌﻣ ﺹﺎﺧ ﯼﺎﻬ‌ﺘﻟﺎﺣ ﺯﺍ ﻩﺩﺎﻔﺘﺳﺍ ﻪﮐ ﺪﯿﺷﺎﺑ ﻪﺘﺷﺍﺩ ﻪﺟﻮﺘn\n\.ﺪﯾﺭﺍﺩ ﯼﺩﺎﯾﺯ ﯽﻓﺎﺿﺍ ﯽﯾﻮﯾﺪﯾﻭ ﻪﻈﻓﺎﺣ ﺪﯿﻧﺍﺪﺑ ﻪﮐ ﺪﯿﻨﮐ ﺵﻮﻣﺎﺧ ﺍﺭ ﻦﯾﺍ ﯽﺗﺭﻮﺻ ﺭﺩ ﻂﻘﻓ .ﺪﻨﺳﺮﺑ ﺮﻈﻧ ﻪﺑ ﺮﺘﻬﺑ ﯽﻤﮐ ﺕﺎﯿئﺰﺟ ﺎﺑ ﻖﻃﺎﻨﻣ ﺭﺩ ﺎﻬ‌ﺘﻓﺎﺑ ﺩﻮﺸ‌ﯿﻣ ﺚﻋﺎﺑ ﺎﻣﺍ ،ﺪﻨﮑ‌ﯿﻣ ﻑﺮﺼﻣ ﯼﺮﺘﺸﯿﺑ ﺭﺎﯿﺴﺑ ﯽﯾﻮﯾﺪﯾﻭ ﻪﻈﻓﺎﺣ ،ﺘﻓﺎﺑ ﯼﺯﺎﺴ‌ﻫﺩﺮﺸﻓ ﻥﺩﺮﮐ ﺵﻮﻣﺎﺧ</TextureCompression_Tooltip>
+  <!-- EN: Smooth camera jumps -->
+  <SmoothCameraJumps>ﻦﯿﺑﺭﻭﺩ ﻥﺍﻭﺭ ﯼﺎﻫ ﺵﺮﭘ</SmoothCameraJumps>
+  <!-- EN: When enabled, the camera will quickly pan when focusing on a new location. When disabled, the camera will jump instantly. -->
+  <SmoothCameraJumpsDesc>.ﺪﻨﮐ ﯽﻣ ﺵﺮﭘ ًﺍﺭﻮﻓ ﻦﯿﺑﺭﻭﺩ ،ﻧﺪﺷ ﻝﺎﻌﻓﺮﯿﻏ ﺕﺭﻮﺻ ﺭﺩ .ﺪﻨﮐ ﯽﻣ ﺖﮐﺮﺣ ﺖﻋﺮﺳ ﻪﺑ ﺪﯾﺪﺟ ﻥﺎﮑﻣ ﯼﻭﺭ ﺱﻮﮐﻮﻓ ﻡﺎﮕﻨﻫ ﻦﯿﺑﺭﻭﺩ ،ﺪﺷﺎﺑ ﻝﺎﻌﻓ ﯽﺘﻗﻭ</SmoothCameraJumpsDesc>
+
+  <!-- Resolution -->
+  <!-- EN: Resolution -->
+  <Resolution>ﺡﻮﺿﻭ</Resolution>
+  <!-- EN: Fullscreen -->
+  <Fullscreen>ﻪﺤﻔﺻ ﻡﺎﻤﺗ</Fullscreen>
+  <!-- EN: Borderless fullscreen -->
+  <BorderlessFullscreen>ﻪﯿﺷﺎﺣ ﻥﻭﺪﺑ ﻪﺤﻔﺻ ﻡﺎﻤﺗ</BorderlessFullscreen>
+  <!-- EN: To run RimWorld in borderless fullscreen mode:\n\n1) Open Steam\n2) Go to the "Library" tab at the top\n3) Find RimWorld on the list and right-click it\n4) Choose "Properties..."\n5) Add "-popupwindow" without quotes to "Launch options" in the "General" tab\n6) Restart game\n7) If done correctly, you won't see this window\n\nHint: Use Windows Key + Shift + Left/Right to move the window between your monitors. -->
+  <BorderlessFullscreenInstructions>To run RimWorld in borderless fullscreen mode:\n\n1) Open Steam\n2) Go to the "Library" tab at the top\n3) Find RimWorld on the list and right-click it\n4) Choose "Properties..."\n5) Add "-popupwindow" without quotes to "Launch options" in the "General" tab\n6) Restart game\n7) If done correctly, you won't see this window\n\nHint: Use Windows Key + Shift + Left/Right to move the window between your monitors.</BorderlessFullscreenInstructions>
+
+  <!-- Mods -->
+  <!-- EN: Select mod... -->
+  <SelectMod>...ﺩﻮﻣ ﺏﺎﺨﺘﻧﺍ</SelectMod>
+  <!-- EN: No configurable mods loaded. -->
+  <NoConfigurableMods>.ﺘﺳﺍ ﻩﺪﺸﻧ ﯼﺮﯿﮔﺭﺎﺑ ﻢﯿﻈﻨﺗ ﻞﺑﺎﻗ ﺩﻮﻣ ﭻﯿﻫ</NoConfigurableMods>
+  
+  <!-- Options reset -->
+  <!-- EN: Restore all settings to default -->
+  <RestoreToDefaultSettingsLabel>ﺪﯿﻧﺍﺩﺮﮔﺯﺎﺑ ﺽﺮﻓ ﺶﯿﭘ ﺖﻟﺎﺣ ﻪﺑ ﺍﺭ ﺕﺎﻤﯿﻈﻨﺗ ﻡﺎﻤﺗ</RestoreToDefaultSettingsLabel>
+  <!-- EN: Restore defaults -->
+  <RestoreToDefaultSettings>ﺎﻫ ﺽﺮﻓ ﺶﯿﭘ ﯽﺑﺎﯾﺯﺎﺑ</RestoreToDefaultSettings>
+  <!-- EN: All settings have been reset. The game will now restart automatically. -->
+  <ResetAndRestart>.ﺩﻮﺷ ﯽﻣ ﯼﺯﺍﺪﻧﺍ ﻩﺍﺭ ًﺍﺩﺪﺠﻣ ﺭﺎﮐﺩﻮﺧ ﺭﻮﻃ ﻪﺑ ﯼﺯﺎﺑ ﻥﻮﻨﮐﺍ .ﺘﺳﺍ ﻩﺪﺷ ﯽﻧﺎﺸﻧﺯﺎﺑ ﺕﺎﻤﯿﻈﻨﺗ ﻡﺎﻤﺗ</ResetAndRestart>
+  <!-- EN: All settings will be reset to the default and the game will be restarted. Unsaved progress will be lost,\n\nContinue? -->
+  <ResetAndRestartConfirmationDialog>؟ﺪﯿﻫﺩ ﯽﻣ ﻪﻣﺍﺩﺎn\n\،ﺘﻓﺭ ﺪﻫﺍﻮﺧ ﻦﯿﺑ ﺯﺍ ﻩﺪﺸﻧ ﻩﺮﯿﺧﺫ ﺖﻓﺮﺸﯿﭘ .ﺩﻮﺷ ﯽﻣ ﯼﺯﺍﺪﻧﺍ ﻩﺍﺭ ًﺍﺩﺪﺠﻣ ﯼﺯﺎﺑ ﻭ ﺩﻮﺷ ﯽﻣ ﯽﻧﺎﺸﻧﺯﺎﺑ ﺽﺮﻓ ﺶﯿﭘ ﺖﻟﺎﺣ ﻪﺑ ﺕﺎﻤﯿﻈﻨﺗ ﻡﺎﻤﺗ</ResetAndRestartConfirmationDialog>
+  <!-- EN: Changing texture compression settings requires a restart. Unsaved progress will be lost.\n\nContinue? -->
+  <ChangedTextureCompressionRestart>؟ﺪﯿﻫﺩ ﻪﻣﺍﺩﺎn\n\.ﺘﻓﺭ ﺪﻫﺍﻮﺧ ﻦﯿﺑ ﺯﺍ ﻩﺪﺸﻧ ﻩﺮﯿﺧﺫ ﺖﻓﺮﺸﯿﭘ .ﺩﺭﺍﺩ ﺩﺪﺠﻣ ﯼﺯﺍﺪﻧﺍ ﻩﺍﺭ ﻪﺑ ﺯﺎﯿﻧ ﺖﻓﺎﺑ ﯼﺯﺎﺳ ﻩﺩﺮﺸﻓ ﺕﺎﻤﯿﻈﻨﺗ ﺮﯿﯿﻐﺗ</ChangedTextureCompressionRestart>
+  
+  <!-- Background image -->
+  <!-- EN: Menu background -->
+  <SetBackgroundImage>ﻮﻨﻣ ﻪﻨﯿﻣﺯ ﺲﭘ</SetBackgroundImage>
+
+  <!-- UNUSED -->
+  <SimulateNotOwningRoyalty>Royalty ﺖﯿﮑﻟﺎﻣ ﻡﺪﻋ ﯼﺯﺎﺳ ﻪﯿﺒﺷ</SimulateNotOwningRoyalty>
+  <SimulateNotOwningIdeology>Ideology ﺖﯿﮑﻟﺎﻣ ﻡﺪﻋ ﯼﺯﺎﺳ ﻪﯿﺒﺷ</SimulateNotOwningIdeology>
+  <SimulateNotOwningBiotech>Biotech ﺖﯿﮑﻟﺎﻣ ﻡﺪﻋ ﯼﺯﺎﺳ ﻪﯿﺒﺷ</SimulateNotOwningBiotech>
+
+</LanguageData>

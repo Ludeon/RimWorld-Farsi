@@ -1,52 +1,69 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: abandoned camp -->
+  <AbandonedCamp.label>TODO</AbandonedCamp.label>
+  <!-- EN: An abandoned camp. -->
+  <AbandonedCamp.description>TODO</AbandonedCamp.description>
+  
   <!-- EN: abandoned settlement -->
-  <AbandonedSettlement.label>TODO</AbandonedSettlement.label>
+  <AbandonedSettlement.label>سکونتگاه متروکه</AbandonedSettlement.label>
   <!-- EN: An abandoned settlement. -->
-  <AbandonedSettlement.description>TODO</AbandonedSettlement.description>
+  <AbandonedSettlement.description>یک سکونتگاه متروکه.</AbandonedSettlement.description>
   
   <!-- EN: attacked caravan -->
-  <AttackedNonPlayerCaravan.label>TODO</AttackedNonPlayerCaravan.label>
+  <AttackedNonPlayerCaravan.label>کاروان مورد حمله</AttackedNonPlayerCaravan.label>
   <!-- EN: A caravan under attack. -->
-  <AttackedNonPlayerCaravan.description>TODO</AttackedNonPlayerCaravan.description>
+  <AttackedNonPlayerCaravan.description>یک کاروان که مورد حمله قرار گرفته است.</AttackedNonPlayerCaravan.description>
+  
+  <!-- EN: camp -->
+  <Camp.label>TODO</Camp.label>
+  <!-- EN: A caravan has set up camp here temporarily. -->
+  <Camp.description>TODO</Camp.description>
   
   <!-- EN: caravan -->
-  <Caravan.label>TODO</Caravan.label>
+  <Caravan.label>کاروان</Caravan.label>
   <!-- EN: A group of traveling people. -->
-  <Caravan.description>TODO</Caravan.description>
+  <Caravan.description>گروهی از افراد در حال سفر.</Caravan.description>
   
   <!-- EN: destroyed settlement -->
-  <DestroyedSettlement.label>TODO</DestroyedSettlement.label>
+  <DestroyedSettlement.label>سکونتگاه ویران‌شده</DestroyedSettlement.label>
   <!-- EN: A destroyed settlement. -->
-  <DestroyedSettlement.description>TODO</DestroyedSettlement.description>
+  <DestroyedSettlement.description>یک سکونتگاه ویران‌شده.</DestroyedSettlement.description>
   
   <!-- EN: landed ship -->
-  <EscapeShip.label>TODO</EscapeShip.label>
+  <EscapeShip.label>سفینه فرودآمده</EscapeShip.label>
   <!-- EN: The location of a hidden ship which can help you escape the planet. -->
-  <EscapeShip.description>TODO</EscapeShip.description>
+  <EscapeShip.description>مکان یک سفینه مخفی که می‌تواند به شما برای فرار از سیاره کمک کند.</EscapeShip.description>
   
   <!-- EN: peace talks -->
-  <PeaceTalks.label>TODO</PeaceTalks.label>
+  <PeaceTalks.label>مذاکرات صلح</PeaceTalks.label>
   <!-- EN: A site designated for peace talks. -->
-  <PeaceTalks.description>TODO</PeaceTalks.description>
+  <PeaceTalks.description>محل تعیین‌شده برای مذاکرات صلح.</PeaceTalks.description>
   
   <!-- EN: pocket map -->
-  <PocketMap.label>TODO</PocketMap.label>
+  <PocketMap.label>نقشه جیبی</PocketMap.label>
   
   <!-- EN: waypoint -->
-  <RoutePlannerWaypoint.label>TODO</RoutePlannerWaypoint.label>
+  <RoutePlannerWaypoint.label>نقطه مسیر موقت</RoutePlannerWaypoint.label>
   <!-- EN: A temporary waypoint. -->
-  <RoutePlannerWaypoint.description>TODO</RoutePlannerWaypoint.description>
+  <RoutePlannerWaypoint.description>یک نقطه مسیر موقت.</RoutePlannerWaypoint.description>
   
   <!-- EN: settlement -->
-  <Settlement.label>TODO</Settlement.label>
+  <Settlement.label>سکونتگاه</Settlement.label>
   <!-- EN: A base of one of the factions. -->
-  <Settlement.description>TODO</Settlement.description>
+  <Settlement.description>پایگاه یکی از جناح‌ها.</Settlement.description>
+  
+  <!-- EN: site -->
+  <Site.label>TODO</Site.label>
+  
+  <!-- UNUSED -->
+  <TravelingTransportPods.label>کپسول‌های حمل‌ونقل</TravelingTransportPods.label>
+  <TravelingTransportPods.description>کپسول‌های حمل‌ونقل در حال پرواز.</TravelingTransportPods.description>
   
   <!-- EN: transport pods -->
-  <TravelingTransportPods.label>TODO</TravelingTransportPods.label>
+  <TravellingTransporters.label>TODO</TravellingTransporters.label>
   <!-- EN: Transport pods in flight. -->
-  <TravelingTransportPods.description>TODO</TravelingTransportPods.description>
+  <TravellingTransporters.description>TODO</TravellingTransporters.description>
   
 </LanguageData>

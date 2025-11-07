@@ -82,7 +82,7 @@
   
   <!-- EN: transmute steel -->
   <TransmuteSteel.label>TODO</TransmuteSteel.label>
-  <!-- EN: Reconfigure steel at the atomic level, turning it into a random valuable material. Can target a stack of steel or a steel slag chunk. -->
+  <!-- EN: Reconfigure steel at the atomic level, turning it into a random valuable material. Can target steel, steel slag chunks, steel buildings, or steel items. -->
   <TransmuteSteel.description>TODO</TransmuteSteel.description>
   <!-- EN: Must target steel, steel slag chunks, steel buildings, or steel items. -->
   <TransmuteSteel.comps.CompAbilityEffect_Transmute.failedMessage>TODO</TransmuteSteel.comps.CompAbilityEffect_Transmute.failedMessage>

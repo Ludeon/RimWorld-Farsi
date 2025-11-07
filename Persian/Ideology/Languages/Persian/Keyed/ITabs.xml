@@ -3,97 +3,97 @@
 
   <!-- Character -->
   <!-- EN: Overrides some precepts related to -->
-  <OverridesSomePrecepts>TODO</OverridesSomePrecepts>
+  <OverridesSomePrecepts>برخی اصول مربوط به را نادیده می‌گیرد</OverridesSomePrecepts>
   <!-- EN: Agrees with memes -->
-  <AgreeableMemes>TODO</AgreeableMemes>
+  <AgreeableMemes>با میم‌ها موافق است</AgreeableMemes>
   <!-- EN: Conflicts with memes -->
-  <DisagreeableMemes>TODO</DisagreeableMemes>
+  <DisagreeableMemes>با میم‌ها در تضاد است</DisagreeableMemes>
 
   <!-- ITab titles -->
   <!-- EN: Slave -->
-  <TabSlave>TODO</TabSlave>
+  <TabSlave>برده</TabSlave>
   <!-- EN: The faction goodwill you will gain if you release a slave. This is affected by the slaves's physical and mental health. -->
-  <SlaveReleaseRelationGainsDesc>TODO</SlaveReleaseRelationGainsDesc>
+  <SlaveReleaseRelationGainsDesc>حسن نیت جناحی که در صورت آزاد کردن برده به دست خواهید آورد. این تحت تأثیر سلامت جسمی و روانی برده است.</SlaveReleaseRelationGainsDesc>
   <!-- EN: Relations gain on release -->
-  <SlaveReleasePotentialRelationGains>TODO</SlaveReleasePotentialRelationGains>
+  <SlaveReleasePotentialRelationGains>کسب رابطه در زمان آزادی</SlaveReleasePotentialRelationGains>
   <!-- EN: Slave rebellion interval -->
-  <SlaveRebellionMTBDays>TODO</SlaveRebellionMTBDays>
+  <SlaveRebellionMTBDays>فاصله شورش بردگان</SlaveRebellionMTBDays>
   <!-- EN: The average number of days between slave rebellion attempts. Only time awake is counted. This is affected by suppression, mood, health, proximity to weapons, the number of slaves on the map, and the presence of colonists on the map. -->
-  <SlaveRebellionMTBDaysDescription>TODO</SlaveRebellionMTBDaysDescription>
+  <SlaveRebellionMTBDaysDescription>میانگین تعداد روزها بین تلاش‌های شورش بردگان. فقط زمان بیداری محاسبه می‌شود. این تحت تأثیر سرکوب، خلق و خو، سلامتی، نزدیکی به سلاح‌ها، تعداد بردگان روی نقشه و حضور مستعمره‌نشینان روی نقشه است.</SlaveRebellionMTBDaysDescription>
 
   <!-- Slave tab -->
   <!-- EN: Suppression -->
-  <Suppression>TODO</Suppression>
+  <Suppression>سرکوب</Suppression>
   <!-- EN: Suppression is the psychological effect of fear and control on a slave. If suppression is low, slaves are more likely to rebel. -->
-  <SuppressionDesc>TODO</SuppressionDesc>
+  <SuppressionDesc>سرکوب اثر روانی ترس و کنترل بر برده است. اگر سرکوب پایین باشد، بردگان بیشتر احتمال دارد شورش کنند.</SuppressionDesc>
   <!-- EN: Suppression fall rate -->
-  <SuppressionFallRate>TODO</SuppressionFallRate>
+  <SuppressionFallRate>نرخ کاهش سرکوب</SuppressionFallRate>
   <!-- EN: Suppression falls over time depending on its current level:\n\n- {1}+ suppression: {0} per day\n- {4}-{3} suppression: {2} per day\n- {6}- suppression: {5} per day\n\nApparel and terror can also affect the suppression fall rate. This slave's fall rate calculation is -->
-  <SuppressionFallRateDesc>TODO</SuppressionFallRateDesc>
+  <SuppressionFallRateDesc>سرکوب با گذشت زمان بسته به سطح فعلی آن کاهش می‌یابد:\n\n- سرکوب {1}+: {0} در روز\n- سرکوب {4}-{3}: {2} در روز\n- سرکوب {6}-: {5} در روز\n\nلباس و وحشت نیز می‌توانند بر نرخ کاهش سرکوب تأثیر بگذارند. محاسبه نرخ کاهش این برده عبارت است از</SuppressionFallRateDesc>
   <!-- EN: Cannot emancipate -->
-  <CannotEmancipate>TODO</CannotEmancipate>
+  <CannotEmancipate>نمی‌توان آزاد کرد</CannotEmancipate>
   <!-- EN: Cannot imprison -->
-  <CannotImprison>TODO</CannotImprison>
+  <CannotImprison>نمی‌توان زندانی کرد</CannotImprison>
   <!-- EN: Current suppression -->
-  <CurrentSuppression>TODO</CurrentSuppression>
+  <CurrentSuppression>سرکوب فعلی</CurrentSuppression>
   <!-- EN: Terror -->
-  <Terror>TODO</Terror>
+  <Terror>وحشت</Terror>
   <!-- EN: Terror is a way to keep slaves suppressed. It rises when the slave spends time near terrifying things like terror sculptures. A slave can only be affected by three terror sources at a time.\n\nWhile terror is high, suppression falls slower as follows -->
-  <TerrorDescription>TODO</TerrorDescription>
+  <TerrorDescription>وحشت راهی برای سرکوب بردگان است. زمانی که برده نزدیک چیزهای وحشتناک مانند مجسمه‌های وحشت وقت می‌گذراند، افزایش می‌یابد. یک برده فقط می‌تواند در یک زمان تحت تأثیر سه منبع وحشت قرار گیرد.\n\nدر حالی که وحشت زیاد است، سرکوب به شرح زیر کندتر کاهش می‌یابد</TerrorDescription>
   <!-- EN: Recent terrifying observations -->
-  <TerrorCurrentThoughts>TODO</TerrorCurrentThoughts>
+  <TerrorCurrentThoughts>مشاهدات وحشتناک اخیر</TerrorCurrentThoughts>
 
   <!-- EN: Base interval -->
-  <SuppressionBaseInterval>TODO</SuppressionBaseInterval>
+  <SuppressionBaseInterval>فاصله پایه</SuppressionBaseInterval>
   <!-- EN: Moving capacity -->
-  <SuppressionMovingCapacityFactor>TODO</SuppressionMovingCapacityFactor>
+  <SuppressionMovingCapacityFactor>ضریب قابلیت حرکت</SuppressionMovingCapacityFactor>
   <!-- EN: Suppression -->
-  <SuppressionFactor>TODO</SuppressionFactor>
+  <SuppressionFactor>ضریب سرکوب</SuppressionFactor>
   <!-- EN: Mood -->
-  <SuppressionMoodFactor>TODO</SuppressionMoodFactor>
+  <SuppressionMoodFactor>ضریب خلق و خو</SuppressionMoodFactor>
   <!-- EN: Slave count -->
-  <SuppressionSlaveCountFactor>TODO</SuppressionSlaveCountFactor>
+  <SuppressionSlaveCountFactor>ضریب تعداد برده</SuppressionSlaveCountFactor>
   <!-- EN: Escape route -->
-  <SuppressionEscapeFactor>TODO</SuppressionEscapeFactor>
+  <SuppressionEscapeFactor>ضریب مسیر فرار</SuppressionEscapeFactor>
   <!-- EN: Weapon proximity -->
-  <SuppressionWeaponProximityFactor>TODO</SuppressionWeaponProximityFactor>
+  <SuppressionWeaponProximityFactor>ضریب نزدیکی سلاح</SuppressionWeaponProximityFactor>
   <!-- EN: Final interval -->
-  <SuppressionFinalInterval>TODO</SuppressionFinalInterval>
+  <SuppressionFinalInterval>فاصله نهایی</SuppressionFinalInterval>
   <!-- EN: Unattended -->
-  <SuppressionUnattendedByColonists>TODO</SuppressionUnattendedByColonists>
+  <SuppressionUnattendedByColonists>بدون مراقبت</SuppressionUnattendedByColonists>
   <!-- EN: At least one of the {0} slaves on this map is expected rebel on average every {1}. -->
-  <SuppressionRebellionAnySlave>TODO</SuppressionRebellionAnySlave>
+  <SuppressionRebellionAnySlave>انتظار می‌رود حداقل یکی از {0} برده روی این نقشه به طور متوسط هر {1} شورش کند.</SuppressionRebellionAnySlave>
 
   <!-- EN: Will -->
-  <WillLevel>TODO</WillLevel>
+  <WillLevel>اراده</WillLevel>
   <!-- EN: How much the prisoner is determined not to submit. When this reaches zero, they can be enslaved. -->
-  <WillLevelDesc>TODO</WillLevelDesc>
+  <WillLevelDesc>میزان عزم زندانی برای تسلیم نشدن. وقتی این به صفر برسد، می‌توانند به بردگی گرفته شوند.</WillLevelDesc>
   <!-- EN: {0} base will -->
-  <WillFromPawnKind>TODO</WillFromPawnKind>
+  <WillFromPawnKind>اراده پایه {0}</WillFromPawnKind>
   <!-- EN: Target ideoligion -->
-  <IdeoConversionTarget>TODO</IdeoConversionTarget>
+  <IdeoConversionTarget>ایدئولوژی هدف</IdeoConversionTarget>
   <!-- EN: The ideoligion your wardens will attempt to convert this prisoner to. -->
-  <IdeoConversionTargetDesc>TODO</IdeoConversionTargetDesc>
+  <IdeoConversionTargetDesc>ایدئولوژی که نگهبانان شما سعی خواهند کرد این زندانی را به آن تبدیل کنند.</IdeoConversionTargetDesc>
 
   <!-- Social -->
   <!-- EN: Change per day due to mood -->
-  <CertaintyChangePerDay>TODO</CertaintyChangePerDay>
+  <CertaintyChangePerDay>تغییر در روز به دلیل خلق و خو</CertaintyChangePerDay>
   <!-- EN: Change rate based on mood -->
-  <MoodChangeRate>TODO</MoodChangeRate>
+  <MoodChangeRate>نرخ تغییر بر اساس خلق و خو</MoodChangeRate>
   <!-- EN: {PAWN_nameDef}'s certainty in {IDEO_name} -->
-  <CertaintyInIdeo>TODO</CertaintyInIdeo>
+  <CertaintyInIdeo>اطمینان {PAWN_nameDef} به {IDEO_name}</CertaintyInIdeo>
   <!-- EN: A special status this person holds in their ideoligion. If you change or take away this role, they will become unhappy. -->
-  <RoleDesc>TODO</RoleDesc>
+  <RoleDesc>وضعیت ویژه‌ای که این فرد در ایدئولوژی خود دارد. اگر این نقش را تغییر دهید یا از او بگیرید، ناراضی خواهد شد.</RoleDesc>
   <!-- EN: Changing roles requires a role change ritual. Select any ritual spot or altar and press 'Begin role change'. -->
-  <RoleAssignmentTip>TODO</RoleAssignmentTip>
+  <RoleAssignmentTip>تغییر نقش‌ها نیاز به مراسم تغییر نقش دارد. هر نقطه مراسم یا محرابی را انتخاب کرده و 'شروع تغییر نقش' را فشار دهید.</RoleAssignmentTip>
   <!-- EN: Conversion attempts will be weaker because of trait/meme agreement -->
-  <ConversionWeakerDueToTraitAgreements>TODO</ConversionWeakerDueToTraitAgreements>
+  <ConversionWeakerDueToTraitAgreements>تلاش‌های تبدیل به دلیل توافق ویژگی/میم ضعیف‌تر خواهد بود</ConversionWeakerDueToTraitAgreements>
   <!-- EN: Conversion attempts will be stronger because of trait/meme conflict -->
-  <ConversionStrongerDueToTraitAgreements>TODO</ConversionStrongerDueToTraitAgreements>
+  <ConversionStrongerDueToTraitAgreements>تلاش‌های تبدیل به دلیل تضاد ویژگی/میم قوی‌تر خواهد بود</ConversionStrongerDueToTraitAgreements>
 
   <!-- EN: Cut -->
-  <Cut>TODO</Cut>
+  <Cut>بریدن</Cut>
   <!-- EN: Cut both eyes -->
-  <CutBothEyes>TODO</CutBothEyes>
+  <CutBothEyes>بریدن هر دو چشم</CutBothEyes>
 
 </LanguageData>

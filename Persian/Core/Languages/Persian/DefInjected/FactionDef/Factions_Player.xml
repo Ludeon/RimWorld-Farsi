@@ -7,6 +7,8 @@
   <PlayerColony.description>TODO</PlayerColony.description>
   <!-- EN: leader -->
   <PlayerColony.leaderTitle>TODO</PlayerColony.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <PlayerColony.messageDefendersAttacking>TODO</PlayerColony.messageDefendersAttacking>
   <!-- EN: colonist -->
   <PlayerColony.pawnSingular>TODO</PlayerColony.pawnSingular>
   <!-- EN: colonists -->
@@ -18,6 +20,8 @@
   <PlayerTribe.description>TODO</PlayerTribe.description>
   <!-- EN: leader -->
   <PlayerTribe.leaderTitle>TODO</PlayerTribe.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <PlayerTribe.messageDefendersAttacking>TODO</PlayerTribe.messageDefendersAttacking>
   <!-- EN: tribesman -->
   <PlayerTribe.pawnSingular>TODO</PlayerTribe.pawnSingular>
   <!-- EN: tribespeople -->

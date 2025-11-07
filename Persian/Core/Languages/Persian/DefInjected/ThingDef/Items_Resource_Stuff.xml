@@ -15,6 +15,8 @@
   <Gold.label>TODO</Gold.label>
   <!-- EN: The most seductive metal of them all. While it is too soft to be of much practical use, it is strikingly beautiful and never tarnishes. Millions have died in attempting to feed the endless human thirst for gold. -->
   <Gold.description>TODO</Gold.description>
+  <!-- EN: golden -->
+  <Gold.stuffProps.stuffAdjective>TODO</Gold.stuffProps.stuffAdjective>
   
   <!-- EN: hyperweave -->
   <Hyperweave.label>TODO</Hyperweave.label>
@@ -55,6 +57,8 @@
   <WoodLog.label>TODO</WoodLog.label>
   <!-- EN: Wood from trees or other fibrous plants. Useful for building structures and weapons. It is a good fuel for campfires and generators, and can be refined into chemfuel. In a pinch, a piece of wood can be used as a weapon or a leg. -->
   <WoodLog.description>TODO</WoodLog.description>
+  <!-- EN: wooden -->
+  <WoodLog.stuffProps.stuffAdjective>TODO</WoodLog.stuffProps.stuffAdjective>
   <!-- EN: log -->
   <WoodLog.tools.log.label>TODO</WoodLog.tools.log.label>
   

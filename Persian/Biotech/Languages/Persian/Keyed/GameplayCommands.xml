@@ -1,62 +1,62 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <!-- EN: Auto-repair -->
-  <CommandAutoRepair>TODO</CommandAutoRepair>
+  <CommandAutoRepair>تعمیر خودکار</CommandAutoRepair>
   <!-- EN: If active, a mechanitor will automatically repair this mechanoid. Repairing a mechanoid drains its energy. -->
-  <CommandAutoRepairDesc>TODO</CommandAutoRepairDesc>
+  <CommandAutoRepairDesc>اگر فعال باشد، یک مکانیتور به طور خودکار این مکانیوید را تعمیر می‌کند. تعمیر مکانیوید انرژی آن را تخلیه می‌کند.</CommandAutoRepairDesc>
 
   <!-- EN: {0_labelShort} is deathresting. -->
-  <CommandDisabledDeathresting>TODO</CommandDisabledDeathresting>
+  <CommandDisabledDeathresting>{0_labelShort} در حال استراحت مرگ است.</CommandDisabledDeathresting>
 
   <!-- EN: Cancel vatgrowth -->
-  <CommandCancelGrowth>TODO</CommandCancelGrowth>
+  <CommandCancelGrowth>لغو رشد در مخزن</CommandCancelGrowth>
   <!-- EN: Cancel vatgrowth for the current occupant. The occupant will be ejected. -->
-  <CommandCancelGrowthDesc>TODO</CommandCancelGrowthDesc>
+  <CommandCancelGrowthDesc>رشد در مخزن برای سرنشین فعلی را لغو کنید. سرنشین خارج خواهد شد.</CommandCancelGrowthDesc>
 
   <!-- EN: Select overseer -->
-  <CommandSelectOverseer>TODO</CommandSelectOverseer>
+  <CommandSelectOverseer>انتخاب ناظر</CommandSelectOverseer>
   <!-- EN: Select the mechanitor who is the overseer of this mech. -->
-  <CommandSelectOverseerDesc>TODO</CommandSelectOverseerDesc>
+  <CommandSelectOverseerDesc>مکانیتوری را که ناظر این مکانیوید است انتخاب کنید.</CommandSelectOverseerDesc>
   <!-- EN: No overseer. -->
-  <CommandSelectOverseerDisabledDesc>TODO</CommandSelectOverseerDisabledDesc>
+  <CommandSelectOverseerDisabledDesc>بدون ناظر.</CommandSelectOverseerDisabledDesc>
 
   <!-- EN: Cancel extraction -->
-  <CommandCancelExtraction>TODO</CommandCancelExtraction>
+  <CommandCancelExtraction>لغو استخراج</CommandCancelExtraction>
   <!-- EN: Cancel the extraction process. The contained person will be ejected. -->
-  <CommandCancelExtractionDesc>TODO</CommandCancelExtractionDesc>
+  <CommandCancelExtractionDesc>فرآیند استخراج را لغو کنید. فرد موجود خارج خواهد شد.</CommandCancelExtractionDesc>
 
   <!-- EN: Summon mech threat... -->
-  <CommandCallBossgroup>TODO</CommandCallBossgroup>
+  <CommandCallBossgroup>احضار تهدید مکانیوید...</CommandCallBossgroup>
   <!-- EN: Summon an enemy leader mechanoid along with escorts.\n\nIf you defeat the leader mechanoid, it will drop a special chip which you can use to advance your own mechanoid technology.\n\nThere are three leader mechanoid types, each summoned a different way, each dropping a different type of chip. -->
-  <CommandCallBossgroupDesc>TODO</CommandCallBossgroupDesc>
+  <CommandCallBossgroupDesc>یک مکانیوید رهبر دشمن را همراه با اسکورت‌ها احضار کنید.\n\nاگر مکانیوید رهبر را شکست دهید، یک تراشه ویژه رها خواهد کرد که می‌توانید از آن برای پیشرفت فناوری مکانیوید خود استفاده کنید.\n\nسه نوع مکانیوید رهبر وجود دارد که هر کدام به روشی متفاوت احضار می‌شوند و هر کدام نوع متفاوتی از تراشه را رها می‌کنند.</CommandCallBossgroupDesc>
 
   <!-- EN: Toggle auto load {0} -->
-  <CommandAutoLoad>TODO</CommandAutoLoad>
+  <CommandAutoLoad>تغییر وضعیت بارگیری خودکار {0}</CommandAutoLoad>
   <!-- EN: If active, colonists will automatically load this with {0}. -->
-  <CommandAutoLoadDesc>TODO</CommandAutoLoadDesc>
+  <CommandAutoLoadDesc>اگر فعال باشد، مستعمره‌نشینان به طور خودکار این را با {0} بارگیری می‌کنند.</CommandAutoLoadDesc>
 
   <!-- EN: Eject contents -->
-  <CommandEjectContents>TODO</CommandEjectContents>
+  <CommandEjectContents>خارج کردن محتویات</CommandEjectContents>
   <!-- EN: Eject all contained {0} onto the ground. -->
-  <CommandEjectContentsDesc>TODO</CommandEjectContentsDesc>
+  <CommandEjectContentsDesc>تمام {0} موجود را روی زمین خارج کنید.</CommandEjectContentsDesc>
 
   <!-- EN: Select all mechs -->
-  <CommandSelectAllMechs>TODO</CommandSelectAllMechs>
+  <CommandSelectAllMechs>انتخاب تمام مکانیویدها</CommandSelectAllMechs>
   <!-- EN: Select all mechanoids controlled by this mechanitor. -->
-  <CommandSelectAllMechsDesc>TODO</CommandSelectAllMechsDesc>
+  <CommandSelectAllMechsDesc>تمام مکانیویدهای تحت کنترل این مکانیتور را انتخاب کنید.</CommandSelectAllMechsDesc>
 
   <!-- EN: Turret enabled -->
-  <CommandToggleTurret>TODO</CommandToggleTurret>
+  <CommandToggleTurret>برجک فعال شد</CommandToggleTurret>
   <!-- EN: Toggle turret being able to fire at will.\n\nWhen disabled, the turret will not automatically fire. This is useful while sneaking up on enemies. -->
-  <CommandToggleTurretDesc>TODO</CommandToggleTurretDesc>
+  <CommandToggleTurretDesc>تغییر وضعیت توانایی برجک برای شلیک به دلخواه.\n\nهنگامی که غیرفعال باشد، برجک به طور خودکار شلیک نمی‌کند. این در هنگام پنهان شدن از دشمنان مفید است.</CommandToggleTurretDesc>
 
   <!-- EN: Cancel scan -->
-  <CommandCancelSubcoreScan>TODO</CommandCancelSubcoreScan>
+  <CommandCancelSubcoreScan>لغو اسکن</CommandCancelSubcoreScan>
   <!-- EN: Cancel the scan process. The contained person will be ejected. -->
-  <CommandCancelSubcoreScanDesc>TODO</CommandCancelSubcoreScanDesc>
+  <CommandCancelSubcoreScanDesc>فرآیند اسکن را لغو کنید. فرد موجود خارج خواهد شد.</CommandCancelSubcoreScanDesc>
 
   <!-- EN: Force xenogerm implantation -->
-  <ForceXenogermImplantation>TODO</ForceXenogermImplantation>
+  <ForceXenogermImplantation>اجبار به کاشت ژن بیگانه</ForceXenogermImplantation>
   <!-- EN: Force this person to implant their xenogenes into another individual using a special injector organ. If this person's genes are currently regrowing, they will die in the process.\n\nWhen implanted, a xenogerm will overwrite the target's xenogenes. Germline genes will be unaffected. -->
-  <ForceXenogermImplantationDesc>TODO</ForceXenogermImplantationDesc>
+  <ForceXenogermImplantationDesc>این فرد را مجبور کنید ژن‌های بیگانه خود را با استفاده از یک اندام تزریق‌کننده خاص در فرد دیگری بکارد. اگر ژن‌های این فرد در حال حاضر در حال بازسازی باشند، در این فرآیند خواهند مرد.\n\nهنگام کاشت، یک ژن بیگانه ژن‌های بیگانه هدف را بازنویسی می‌کند. ژن‌های خط ژرم تحت تأثیر قرار نمی‌گیرند.</ForceXenogermImplantationDesc>
 </LanguageData>

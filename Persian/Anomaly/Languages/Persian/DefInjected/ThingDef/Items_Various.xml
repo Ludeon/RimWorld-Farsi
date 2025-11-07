@@ -30,7 +30,7 @@
   
   <!-- EN: golden cube -->
   <GoldenCube.label>TODO</GoldenCube.label>
-  <!-- EN: A cube that fits snugly in the hand. Golden in color, it is always invitingly warm to the touch, like a trusted pet or a hug from a good friend. Those that look closely are rewarded for their attention, by the delightful way light plays across its welcoming surface.\n\nThe cube seems impervious to most damage. -->
+  <!-- EN: A cube that fits snugly in the hand. Golden in color, it is always invitingly warm to the touch, like a trusted pet or a hug from a good friend. Those that look closely are rewarded for their attention by the delightful way light plays across its welcoming surface.\n\nThe cube seems impervious to most damage. -->
   <GoldenCube.description>TODO</GoldenCube.description>
   <!-- EN: Golden cube study progress -->
   <GoldenCube.comps.CompStudyUnlocks.studyNotes.0.label>TODO</GoldenCube.comps.CompStudyUnlocks.studyNotes.0.label>
@@ -38,9 +38,9 @@
   <GoldenCube.comps.CompStudyUnlocks.studyNotes.0.text>TODO</GoldenCube.comps.CompStudyUnlocks.studyNotes.0.text>
   <!-- EN: Golden cube study complete -->
   <GoldenCube.comps.CompStudyUnlocks.studyNotes.1.label>TODO</GoldenCube.comps.CompStudyUnlocks.studyNotes.1.label>
-  <!-- EN: {PAWN_nameDef}'s investigation of the golden cube has revealed that it can be deactivated using an archotech shard. Doing so will destroy the cube, breaking its psychic hold over your colonists.\n\nHowever, the psychic whiplash from the cube’s destruction will send any cube-interested people into a berserk rage. Those in caravans will abandon your colony entirely.\n\nSelect the golden cube to deactivate it. -->
+  <!-- EN: {PAWN_nameDef}'s investigation of the golden cube has revealed that it can be deactivated using an archotech shard. Doing so will destroy the cube, breaking its psychic hold over your colonists.\n\nHowever, the psychic whiplash from the cube's destruction will send any cube-interested people into a berserk rage. Those in caravans will abandon your colony entirely.\n\nSelect the golden cube to deactivate it. -->
   <GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>TODO</GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>
-  <!-- EN: Destroy the golden cube, breaking its psychic hold. This will cause any cube-interested people to enter a temporary berserk rage. If they’re in a caravan, they will be permanently lost.\n\nRequires 1 shard. -->
+  <!-- EN: Destroy the golden cube, breaking its psychic hold. This will cause any cube-interested people to enter a temporary berserk rage. If they're in a caravan, they will be permanently lost.\n\nRequires 1 shard. -->
   <GoldenCube.comps.CompGoldenCube.activateDescString>TODO</GoldenCube.comps.CompGoldenCube.activateDescString>
   <!-- EN: Deactivate golden cube -->
   <GoldenCube.comps.CompGoldenCube.activateLabelString>TODO</GoldenCube.comps.CompGoldenCube.activateLabelString>
@@ -110,9 +110,9 @@
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.jobString>TODO</RevenantFleshChunk.comps.CompAnalyzableBiosignature.jobString>
   <!-- EN: Analysis progress -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetterLabel>TODO</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetterLabel>
-  <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with biosignature {BIOSIGNATURE}.\n\n{PAWN_pronoun} learned more about this particular revenant's biology and how to identify fluids it leaves behind.\n\nThis revenant will now leave a much longer trail of visible smudges when it flees.\n\nPerhaps you'll be able to find it and kill it while it sleeps. You can track it by smears it leaves behind, and reveal it with disruptor flares, explosions, EMPs, or fire. -->
+  <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with biosignature {BIOSIGNATURE}.\n\n{PAWN_pronoun} learned more about this particular revenant's biology and how to identify fluids it leaves behind.\n\nThis revenant will now leave a much longer trail of visible smudges when it flees.\n\nPerhaps you'll be able to find it and kill it while it sleeps. You can track it by smears it leaves behind, and reveal it with disruptor flares, explosives, EMP, firefoam, or fire. -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>TODO</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>
-  <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with biosignature {BIOSIGNATURE}.\n\n{PAWN_pronoun} has learned more about this specific revenant's biology and the vocalizations it makes. Your colonists can now hear this revenant when it is nearby. If you go hunting the revenant and get close, you'll be notified which colonists can hear it.\n\nPerhaps you'll be able to find it and kill it while it sleeps. You can track it by smears it leaves behind, and reveal it with disruptor flares, explosions, EMPs, or fire. -->
+  <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with biosignature {BIOSIGNATURE}.\n\n{PAWN_pronoun} has learned more about this specific revenant's biology and the vocalizations it makes. Your colonists can now hear this revenant when it is nearby. If you go hunting the revenant and get close, you'll be notified which colonists can hear it.\n\nPerhaps you'll be able to find it and kill it while it sleeps. You can track it by smears it leaves behind, and reveal it with disruptor flares, explosives, EMP, firefoam, or fire. -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>TODO</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>
   <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with the previously studied biosignature {BIOSIGNATURE}.\n\nYour colonists can now see this revenant when it is nearby. Perhaps you'll be able to find it and kill it while it's sleeping. -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetter>TODO</RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetter>

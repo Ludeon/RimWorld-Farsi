@@ -2,134 +2,134 @@
 <LanguageData>
 
   <!-- EN: The recipe {0} requires a mechanitor to work on it. None of your colonists are mechanitors, so nobody will do this bill. -->
-  <RecipeRequiresMechanitor>TODO</RecipeRequiresMechanitor>
+  <RecipeRequiresMechanitor>دستور پخت {0} نیاز به مکانیتور برای کار روی آن دارد. هیچ یک از مستعمره‌نشینان شما مکانیتور نیستند، بنابراین کسی این دستور را انجام نخواهد داد.</RecipeRequiresMechanitor>
 
   <!-- EN: genepacks -->
-  <GenepackPlural>TODO</GenepackPlural>
+  <GenepackPlural>بسته‌های ژنی</GenepackPlural>
   <!-- EN: Traits develop later during childhood -->
-  <TraitsDevelopLaterBaby>TODO</TraitsDevelopLaterBaby>
+  <TraitsDevelopLaterBaby>ویژگی‌ها در دوران کودکی دیرتر رشد می‌کنند</TraitsDevelopLaterBaby>
   <!-- EN: Skills develop later during childhood -->
-  <SkillsDevelopLaterBaby>TODO</SkillsDevelopLaterBaby>
+  <SkillsDevelopLaterBaby>مهارت‌ها در دوران کودکی دیرتر رشد می‌کنند</SkillsDevelopLaterBaby>
   <!-- EN: Genes -->
-  <TabGenes>TODO</TabGenes>
+  <TabGenes>ژن‌ها</TabGenes>
 
   <!-- EN: View genes -->
-  <ViewGenes>TODO</ViewGenes>
+  <ViewGenes>مشاهده ژن‌ها</ViewGenes>
   <!-- EN: Click to view {PAWN_nameDef}'s genes. -->
-  <ViewGenesDesc>TODO</ViewGenesDesc>
+  <ViewGenesDesc>برای مشاهده ژن‌های {PAWN_nameDef} کلیک کنید.</ViewGenesDesc>
 
   <!-- Feeding tab (human babies) -->
   <!-- EN: Feeding -->
-  <TabFeeding>TODO</TabFeeding>
+  <TabFeeding>تغذیه</TabFeeding>
   <!-- EN: Auto feed settings -->
-  <AutofeedSectionHeader>TODO</AutofeedSectionHeader>
+  <AutofeedSectionHeader>تنظیمات تغذیه خودکار</AutofeedSectionHeader>
   <!-- EN: never -->
-  <AutofeedModeNever>TODO</AutofeedModeNever>
+  <AutofeedModeNever>هرگز</AutofeedModeNever>
   <!-- EN: childcare -->
-  <AutofeedModeChildcare>TODO</AutofeedModeChildcare>
+  <AutofeedModeChildcare>مراقبت از کودک</AutofeedModeChildcare>
   <!-- EN: urgent -->
-  <AutofeedModeUrgent>TODO</AutofeedModeUrgent>
+  <AutofeedModeUrgent>فوری</AutofeedModeUrgent>
   <!-- EN: Nobody can feed this baby. -->
-  <AutofeedNone>TODO</AutofeedNone>
+  <AutofeedNone>کسی نمی‌تواند این نوزاد را تغذیه کند.</AutofeedNone>
   <!-- EN: {FEEDER_nameDef} will not automatically feed {BABY_nameDef}. -->
-  <AutofeedModeTooltipNever>TODO</AutofeedModeTooltipNever>
+  <AutofeedModeTooltipNever>{FEEDER_nameDef} به طور خودکار {BABY_nameDef} را تغذیه نخواهد کرد.</AutofeedModeTooltipNever>
   <!-- EN: {FEEDER_nameDef} will feed {BABY_nameDef} as childcare work. -->
-  <AutofeedModeTooltipChildcare>TODO</AutofeedModeTooltipChildcare>
+  <AutofeedModeTooltipChildcare>{FEEDER_nameDef} به عنوان کار مراقبت از کودک، {BABY_nameDef} را تغذیه خواهد کرد.</AutofeedModeTooltipChildcare>
   <!-- EN: {FEEDER_nameDef} will feed {BABY_nameDef} day or night, even if {FEEDER_nameDef} is not assigned to childcare or is incapable of childcare. -->
-  <AutofeedModeTooltipUrgent>TODO</AutofeedModeTooltipUrgent>
+  <AutofeedModeTooltipUrgent>{FEEDER_nameDef} شبانه‌روز {BABY_nameDef} را تغذیه خواهد کرد، حتی اگر {FEEDER_nameDef} به مراقبت از کودک اختصاص داده نشده باشد یا قادر به مراقبت از کودک نباشد.</AutofeedModeTooltipUrgent>
   <!-- EN: Consumable foods -->
-  <BabyFoodConsumables>TODO</BabyFoodConsumables>
+  <BabyFoodConsumables>غذاهای قابل مصرف</BabyFoodConsumables>
 
   <!-- Social tab (human babies) -->
   <!-- EN: ideoligion exposure -->
-  <IdeoExposureSectionHeader>TODO</IdeoExposureSectionHeader>
+  <IdeoExposureSectionHeader>قرار گرفتن در معرض ایدئولوژی</IdeoExposureSectionHeader>
   <!-- EN: {BABY_labelShort} has not been exposed to any ideoligions yet. -->
-  <IdeoExposureNoExposure>TODO</IdeoExposureNoExposure>
+  <IdeoExposureNoExposure>{BABY_labelShort} هنوز در معرض هیچ ایدئولوژی قرار نگرفته است.</IdeoExposureNoExposure>
   <!-- EN: {BABY_pronoun} can be exposed to ideoligions by interacting with followers of an ideoligion. These interactions include being breastfed, carried, played with, and more. At the age of {CHILDAGE} {BABY_labelShort} will join one of the ideoligions {BABY_pronoun} has been exposed to. -->
-  <IdeoExposureNoExposureDetail>TODO</IdeoExposureNoExposureDetail>
+  <IdeoExposureNoExposureDetail>{BABY_pronoun} می‌تواند با تعامل با پیروان یک ایدئولوژی در معرض ایدئولوژی قرار گیرد. این تعاملات شامل شیر خوردن، حمل شدن، بازی کردن و موارد دیگر است. در سن {CHILDAGE}، {BABY_labelShort} به یکی از ایدئولوژی‌هایی که {BABY_pronoun} در معرض آن قرار گرفته است، خواهد پیوست.</IdeoExposureNoExposureDetail>
   <!-- EN: {BABY_labelShort} is {PERCENT} likely to join the ideoligion {IDEO_name}. -->
-  <IdeoExposurePointsTooltipJoinLikelihood>TODO</IdeoExposurePointsTooltipJoinLikelihood>
+  <IdeoExposurePointsTooltipJoinLikelihood>{BABY_labelShort} به احتمال {PERCENT} به ایدئولوژی {IDEO_name} خواهد پیوست.</IdeoExposurePointsTooltipJoinLikelihood>
   <!-- EN: As {BABY_labelShort} interacts with followers of an ideoligion {BABY_pronoun} becomes more likely to join that ideoligion. {BABY_labelShort} will join one of the ideoligions {BABY_pronoun} has been exposed to at the age of {CHILDAGE}. -->
-  <IdeoExposurePointsTooltipJoinDescription>TODO</IdeoExposurePointsTooltipJoinDescription>
+  <IdeoExposurePointsTooltipJoinDescription>همانطور که {BABY_labelShort} با پیروان یک ایدئولوژی تعامل می‌کند، {BABY_pronoun} احتمال بیشتری برای پیوستن به آن ایدئولوژی پیدا می‌کند. {BABY_labelShort} در سن {CHILDAGE} به یکی از ایدئولوژی‌هایی که {BABY_pronoun} در معرض آن قرار گرفته است، خواهد پیوست.</IdeoExposurePointsTooltipJoinDescription>
   <!-- EN: Ideoligion exposure is measured by exposure points. Interactions like being breastfed, carried, or played with will cause {BABY_labelShort} to gain exposure points for the ideoligions followed by those {BABY_pronoun} interacts with. -->
-  <IdeoExposurePointsTooltipExposureDescription>TODO</IdeoExposurePointsTooltipExposureDescription>
+  <IdeoExposurePointsTooltipExposureDescription>قرار گرفتن در معرض ایدئولوژی با امتیازات قرار گرفتن در معرض اندازه‌گیری می‌شود. تعاملاتی مانند شیر خوردن، حمل شدن یا بازی کردن باعث می‌شود {BABY_labelShort} برای ایدئولوژی‌هایی که توسط کسانی که {BABY_pronoun} با آن‌ها تعامل می‌کند، دنبال می‌شوند، امتیاز قرار گرفتن در معرض کسب کند.</IdeoExposurePointsTooltipExposureDescription>
   <!-- EN: {IDEO_name} exposure points -->
-  <IdeoExposurePointsTooltipIdeoExposure>TODO</IdeoExposurePointsTooltipIdeoExposure>
+  <IdeoExposurePointsTooltipIdeoExposure>امتیازات قرار گرفتن در معرض {IDEO_name}</IdeoExposurePointsTooltipIdeoExposure>
   <!-- EN: Total exposure points -->
-  <IdeoExposurePointsTooltipTotalExposure>TODO</IdeoExposurePointsTooltipTotalExposure>
+  <IdeoExposurePointsTooltipTotalExposure>امتیازات کل قرار گرفتن در معرض</IdeoExposurePointsTooltipTotalExposure>
 
   <!-- Social tab (romance) -->
   <!-- EN: Romance -->
-  <TryRomanceButtonLabel>TODO</TryRomanceButtonLabel>
+  <TryRomanceButtonLabel>عاشقانه</TryRomanceButtonLabel>
   <!-- EN: Nobody for {0_labelShort} to romance. -->
-  <TryRomanceNoOptsMessage>TODO</TryRomanceNoOptsMessage>
+  <TryRomanceNoOptsMessage>کسی برای {0_labelShort} برای عاشقانه وجود ندارد.</TryRomanceNoOptsMessage>
   <!-- EN: unreachable -->
-  <CantRomanceTargetUnreachable>TODO</CantRomanceTargetUnreachable>
+  <CantRomanceTargetUnreachable>غیرقابل دسترسی</CantRomanceTargetUnreachable>
   <!-- EN: sleeping -->
-  <CantRomanceTargetSleeping>TODO</CantRomanceTargetSleeping>
+  <CantRomanceTargetSleeping>خوابیده</CantRomanceTargetSleeping>
   <!-- EN: incapacitated -->
-  <CantRomanceTargetDowned>TODO</CantRomanceTargetDowned>
+  <CantRomanceTargetDowned>ناتوان</CantRomanceTargetDowned>
   <!-- EN: drafted -->
-  <CantRomanceTargetDrafted>TODO</CantRomanceTargetDrafted>
+  <CantRomanceTargetDrafted>سرباز شده</CantRomanceTargetDrafted>
   <!-- EN: mental break -->
-  <CantRomanceTargetMentalState>TODO</CantRomanceTargetMentalState>
+  <CantRomanceTargetMentalState>فروپاشی روانی</CantRomanceTargetMentalState>
   <!-- EN: incestuous -->
-  <CantRomanceTargetIncest>TODO</CantRomanceTargetIncest>
+  <CantRomanceTargetIncest>زنای با محارم</CantRomanceTargetIncest>
   <!-- EN: low opinion -->
-  <CantRomanceTargetOpinion>TODO</CantRomanceTargetOpinion>
+  <CantRomanceTargetOpinion>نظر پایین</CantRomanceTargetOpinion>
   <!-- EN: incompatible orientation -->
-  <CantRomanceTargetSexuality>TODO</CantRomanceTargetSexuality>
+  <CantRomanceTargetSexuality>گرایش ناسازگار</CantRomanceTargetSexuality>
   <!-- EN: prisoner -->
-  <CantRomanceTargetPrisoner>TODO</CantRomanceTargetPrisoner>
+  <CantRomanceTargetPrisoner>زندانی</CantRomanceTargetPrisoner>
   <!-- EN: too young -->
-  <CantRomanceTargetYoung>TODO</CantRomanceTargetYoung>
+  <CantRomanceTargetYoung>خیلی جوان</CantRomanceTargetYoung>
   <!-- EN: zero chance -->
-  <CantRomanceTargetZeroChance>TODO</CantRomanceTargetZeroChance>
+  <CantRomanceTargetZeroChance>شانس صفر</CantRomanceTargetZeroChance>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is a prisoner. -->
-  <CantRomanceInitiateMessagePrisoner>TODO</CantRomanceInitiateMessagePrisoner>
+  <CantRomanceInitiateMessagePrisoner>{0_labelShort} نمی‌تواند تلاش برای عاشقانه کند زیرا {0_pronoun} زندانی است.</CantRomanceInitiateMessagePrisoner>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is a slave. -->
-  <CantRomanceInitiateMessageSlave>TODO</CantRomanceInitiateMessageSlave>
+  <CantRomanceInitiateMessageSlave>{0_labelShort} نمی‌تواند تلاش برای عاشقانه کند زیرا {0_pronoun} برده است.</CantRomanceInitiateMessageSlave>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} has the asexual trait. -->
-  <CantRomanceInitiateMessageAsexual>TODO</CantRomanceInitiateMessageAsexual>
+  <CantRomanceInitiateMessageAsexual>{0_labelShort} نمی‌تواند تلاش برای عاشقانه کند زیرا {0_pronoun} ویژگی بی‌جنسی دارد.</CantRomanceInitiateMessageAsexual>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is incapacitated. -->
-  <CantRomanceInitiateMessageDowned>TODO</CantRomanceInitiateMessageDowned>
+  <CantRomanceInitiateMessageDowned>{0_labelShort} نمی‌تواند تلاش برای عاشقانه کند زیرا {0_pronoun} ناتوان است.</CantRomanceInitiateMessageDowned>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is drafted. -->
-  <CantRomanceInitiateMessageDrafted>TODO</CantRomanceInitiateMessageDrafted>
+  <CantRomanceInitiateMessageDrafted>{0_labelShort} نمی‌تواند تلاش برای عاشقانه کند زیرا {0_pronoun} سرباز شده است.</CantRomanceInitiateMessageDrafted>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is in an unfit mental state. -->
-  <CantRomanceInitiateMessageMentalState>TODO</CantRomanceInitiateMessageMentalState>
+  <CantRomanceInitiateMessageMentalState>{0_labelShort} نمی‌تواند تلاش برای عاشقانه کند زیرا {0_pronoun} در وضعیت روانی نامناسبی است.</CantRomanceInitiateMessageMentalState>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is unable to speak. -->
-  <CantRomanceInitiateMessageTalk>TODO</CantRomanceInitiateMessageTalk>
+  <CantRomanceInitiateMessageTalk>{0_labelShort} نمی‌تواند تلاش برای عاشقانه کند زیرا {0_pronoun} قادر به صحبت نیست.</CantRomanceInitiateMessageTalk>
   <!-- EN: {0_labelShort} tried romancing recently and must wait {1} until trying again. -->
-  <CantRomanceInitiateMessageCooldown>TODO</CantRomanceInitiateMessageCooldown>
+  <CantRomanceInitiateMessageCooldown>{0_labelShort} اخیراً تلاش برای عاشقانه کرده و باید {1} صبر کند تا دوباره تلاش کند.</CantRomanceInitiateMessageCooldown>
   <!-- EN: {0_labelShort}'s attempt to romance {1_labelShort} was unsuccessful. -->
-  <TryRomanceFailedMessage>TODO</TryRomanceFailedMessage>
+  <TryRomanceFailedMessage>تلاش {0_labelShort} برای عاشقانه با {1_labelShort} ناموفق بود.</TryRomanceFailedMessage>
   <!-- EN: Having {INITIATOR_nameDef} romance {TARGET_nameDef} could sow resentment among existing partners, lead to breakups, and cause altercations. -->
-  <RomanceExistingRelationshipWarning>TODO</RomanceExistingRelationshipWarning>
+  <RomanceExistingRelationshipWarning>عاشقانه {INITIATOR_nameDef} با {TARGET_nameDef} می‌تواند باعث نارضایتی در میان شرکای موجود، منجر به جدایی و ایجاد درگیری شود.</RomanceExistingRelationshipWarning>
   <!-- EN: Romance chance -->
-  <RomanceChance>TODO</RomanceChance>
+  <RomanceChance>شانس عاشقانه</RomanceChance>
   <!-- EN: already {PAWN_nameDef}'s {RELATION} -->
-  <RomanceChanceExistingRelation>TODO</RomanceChanceExistingRelation>
+  <RomanceChanceExistingRelation>قبلاً {RELATION} {PAWN_nameDef} است</RomanceChanceExistingRelation>
   <!-- EN: Cannot romance -->
-  <RomanceChanceCant>TODO</RomanceChanceCant>
+  <RomanceChanceCant>نمی‌توان عاشقانه کرد</RomanceChanceCant>
   <!-- EN: Relative age -->
-  <RomanceChanceAgeFactor>TODO</RomanceChanceAgeFactor>
+  <RomanceChanceAgeFactor>سن نسبی</RomanceChanceAgeFactor>
   <!-- EN: Beauty -->
-  <RomanceChanceBeautyFactor>TODO</RomanceChanceBeautyFactor>
+  <RomanceChanceBeautyFactor>زیبایی</RomanceChanceBeautyFactor>
   <!-- EN: Opinion -->
-  <RomanceChanceOpinionFactor>TODO</RomanceChanceOpinionFactor>
+  <RomanceChanceOpinionFactor>نظر</RomanceChanceOpinionFactor>
   <!-- EN: Opinion of partner -->
-  <RomanceChancePartnerFactor>TODO</RomanceChancePartnerFactor>
+  <RomanceChancePartnerFactor>نظر شریک</RomanceChancePartnerFactor>
   <!-- EN: {0_labelShort} was unable to romance {1_labelShort} -->
-  <RomanceFailedUnexpected>TODO</RomanceFailedUnexpected>
+  <RomanceFailedUnexpected>{0_labelShort} نتوانست با {1_labelShort} عاشقانه کند</RomanceFailedUnexpected>
   <!-- EN: {0_nameDef} is already in a relationship. -->
-  <RomanceWarningMonogamous>TODO</RomanceWarningMonogamous>
+  <RomanceWarningMonogamous>{0_nameDef} قبلاً در یک رابطه است.</RomanceWarningMonogamous>
   <!-- EN: {0_nameDef} already has {1} partners. -->
-  <RomanceWarningPolygamous>TODO</RomanceWarningPolygamous>
+  <RomanceWarningPolygamous>{0_nameDef} قبلاً {1} شریک دارد.</RomanceWarningPolygamous>
 
   <!-- Guest tab (prisoners) -->
   <!-- EN: Genes -->
-  <FactorForGenes>TODO</FactorForGenes>
+  <FactorForGenes>ژن‌ها</FactorForGenes>
   <!-- EN: Prison breaking is disabled by {GENE_label} gene. -->
-  <PrisonBreakingDisabledDueToGene>TODO</PrisonBreakingDisabledDueToGene>
+  <PrisonBreakingDisabledDueToGene>فرار از زندان توسط ژن {GENE_label} غیرفعال شده است.</PrisonBreakingDisabledDueToGene>
 
 </LanguageData>

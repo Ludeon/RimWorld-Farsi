@@ -2,32 +2,32 @@
 <LanguageData>
   
   <!-- EN: release prisoners -->
-  <BasicReleasePrisoner.label>TODO</BasicReleasePrisoner.label>
+  <BasicReleasePrisoner.label>آزادسازی زندانیان</BasicReleasePrisoner.label>
   <!-- EN: releasing -->
-  <BasicReleasePrisoner.gerund>TODO</BasicReleasePrisoner.gerund>
+  <BasicReleasePrisoner.gerund>در حال آزادسازی</BasicReleasePrisoner.gerund>
   <!-- EN: release -->
-  <BasicReleasePrisoner.verb>TODO</BasicReleasePrisoner.verb>
+  <BasicReleasePrisoner.verb>آزاد کن</BasicReleasePrisoner.verb>
   
   <!-- EN: build roofs -->
-  <BuildRoofs.label>TODO</BuildRoofs.label>
+  <BuildRoofs.label>ساخت سقف</BuildRoofs.label>
   <!-- EN: building roof -->
-  <BuildRoofs.gerund>TODO</BuildRoofs.gerund>
+  <BuildRoofs.gerund>در حال ساخت سقف</BuildRoofs.gerund>
   <!-- EN: build roof -->
-  <BuildRoofs.verb>TODO</BuildRoofs.verb>
+  <BuildRoofs.verb>بساز</BuildRoofs.verb>
   
   <!-- EN: chat with prisoners -->
-  <ChatWithPrisoner.label>TODO</ChatWithPrisoner.label>
+  <ChatWithPrisoner.label>گفت‌وگو با زندانیان</ChatWithPrisoner.label>
   <!-- EN: chatting with -->
-  <ChatWithPrisoner.gerund>TODO</ChatWithPrisoner.gerund>
+  <ChatWithPrisoner.gerund>در حال گفت‌وگو</ChatWithPrisoner.gerund>
   <!-- EN: chat with -->
-  <ChatWithPrisoner.verb>TODO</ChatWithPrisoner.verb>
+  <ChatWithPrisoner.verb>گفت‌وگو کن</ChatWithPrisoner.verb>
   
   <!-- EN: clear snow -->
-  <CleanClearSnow.label>TODO</CleanClearSnow.label>
+  <CleanClearSnow.label>پاک‌سازی برف</CleanClearSnow.label>
   <!-- EN: clearing snow -->
-  <CleanClearSnow.gerund>TODO</CleanClearSnow.gerund>
+  <CleanClearSnow.gerund>در حال پاک‌سازی برف</CleanClearSnow.gerund>
   <!-- EN: clear snow -->
-  <CleanClearSnow.verb>TODO</CleanClearSnow.verb>
+  <CleanClearSnow.verb>پاک کن</CleanClearSnow.verb>
   
   <!-- EN: clean filth -->
   <CleanFilth.label>TODO</CleanFilth.label>
@@ -64,6 +64,13 @@
   <!-- EN: remove floor -->
   <ConstructRemoveFloors.verb>TODO</ConstructRemoveFloors.verb>
   
+  <!-- EN: remove foundation -->
+  <ConstructRemoveFoundations.label>TODO</ConstructRemoveFoundations.label>
+  <!-- EN: removing foundation -->
+  <ConstructRemoveFoundations.gerund>TODO</ConstructRemoveFoundations.gerund>
+  <!-- EN: remove foundation -->
+  <ConstructRemoveFoundations.verb>TODO</ConstructRemoveFoundations.verb>
+  
   <!-- EN: smooth floors -->
   <ConstructSmoothFloors.label>TODO</ConstructSmoothFloors.label>
   <!-- EN: smoothing -->
@@ -92,6 +99,13 @@
   <!-- EN: deconstruct -->
   <Deconstruct.verb>TODO</Deconstruct.verb>
   
+  <!-- EN: deconstruct structures for blueprints -->
+  <DeconstructForBlueprint.label>TODO</DeconstructForBlueprint.label>
+  <!-- EN: deconstructing -->
+  <DeconstructForBlueprint.gerund>TODO</DeconstructForBlueprint.gerund>
+  <!-- EN: deconstruct -->
+  <DeconstructForBlueprint.verb>TODO</DeconstructForBlueprint.verb>
+  
   <!-- EN: deliver food to prisoners -->
   <DeliverFoodToPrisoner.label>TODO</DeliverFoodToPrisoner.label>
   <!-- EN: delivering food for -->
@@ -117,42 +131,42 @@
   <DoBillsBrew.label>TODO</DoBillsBrew.label>
   <!-- EN: brewing at -->
   <DoBillsBrew.gerund>TODO</DoBillsBrew.gerund>
-  <!-- EN: brew -->
+  <!-- EN: brew at -->
   <DoBillsBrew.verb>TODO</DoBillsBrew.verb>
   
   <!-- EN: butcher creatures -->
   <DoBillsButcherFlesh.label>TODO</DoBillsButcherFlesh.label>
   <!-- EN: butchering at -->
   <DoBillsButcherFlesh.gerund>TODO</DoBillsButcherFlesh.gerund>
-  <!-- EN: butcher -->
+  <!-- EN: butcher at -->
   <DoBillsButcherFlesh.verb>TODO</DoBillsButcherFlesh.verb>
   
   <!-- EN: cook meals at stove -->
   <DoBillsCook.label>TODO</DoBillsCook.label>
   <!-- EN: cooking at -->
   <DoBillsCook.gerund>TODO</DoBillsCook.gerund>
-  <!-- EN: cook -->
+  <!-- EN: cook at -->
   <DoBillsCook.verb>TODO</DoBillsCook.verb>
   
   <!-- EN: cook meals at campfire -->
   <DoBillsCookCampfire.label>TODO</DoBillsCookCampfire.label>
   <!-- EN: cooking at -->
   <DoBillsCookCampfire.gerund>TODO</DoBillsCookCampfire.gerund>
-  <!-- EN: cook -->
+  <!-- EN: cook at -->
   <DoBillsCookCampfire.verb>TODO</DoBillsCookCampfire.verb>
   
   <!-- EN: do cremation bills -->
   <DoBillsCremate.label>TODO</DoBillsCremate.label>
   <!-- EN: cremating at -->
   <DoBillsCremate.gerund>TODO</DoBillsCremate.gerund>
-  <!-- EN: cremate -->
+  <!-- EN: cremate at -->
   <DoBillsCremate.verb>TODO</DoBillsCremate.verb>
   
   <!-- EN: fabricate things -->
   <DoBillsFabricationBench.label>TODO</DoBillsFabricationBench.label>
   <!-- EN: fabricating things at -->
   <DoBillsFabricationBench.gerund>TODO</DoBillsFabricationBench.gerund>
-  <!-- EN: fabricate -->
+  <!-- EN: fabricate things at -->
   <DoBillsFabricationBench.verb>TODO</DoBillsFabricationBench.verb>
   
   <!-- EN: do bills at campfire -->
@@ -166,21 +180,21 @@
   <DoBillsMachiningTable.label>TODO</DoBillsMachiningTable.label>
   <!-- EN: working at -->
   <DoBillsMachiningTable.gerund>TODO</DoBillsMachiningTable.gerund>
-  <!-- EN: work -->
+  <!-- EN: work at -->
   <DoBillsMachiningTable.verb>TODO</DoBillsMachiningTable.verb>
   
   <!-- EN: make apparel -->
   <DoBillsMakeApparel.label>TODO</DoBillsMakeApparel.label>
   <!-- EN: tailoring at -->
   <DoBillsMakeApparel.gerund>TODO</DoBillsMakeApparel.gerund>
-  <!-- EN: tailor -->
+  <!-- EN: tailor at -->
   <DoBillsMakeApparel.verb>TODO</DoBillsMakeApparel.verb>
   
   <!-- EN: make weapons -->
   <DoBillsMakeWeapons.label>TODO</DoBillsMakeWeapons.label>
   <!-- EN: smithing at -->
   <DoBillsMakeWeapons.gerund>TODO</DoBillsMakeWeapons.gerund>
-  <!-- EN: smith -->
+  <!-- EN: smith at -->
   <DoBillsMakeWeapons.verb>TODO</DoBillsMakeWeapons.verb>
   
   <!-- EN: operate on animals -->
@@ -201,42 +215,42 @@
   <DoBillsProduceDrugs.label>TODO</DoBillsProduceDrugs.label>
   <!-- EN: producing drugs at -->
   <DoBillsProduceDrugs.gerund>TODO</DoBillsProduceDrugs.gerund>
-  <!-- EN: produce drugs -->
+  <!-- EN: produce drugs at -->
   <DoBillsProduceDrugs.verb>TODO</DoBillsProduceDrugs.verb>
   
   <!-- EN: work at refinery -->
   <DoBillsRefinery.label>TODO</DoBillsRefinery.label>
   <!-- EN: refining chemicals at -->
   <DoBillsRefinery.gerund>TODO</DoBillsRefinery.gerund>
-  <!-- EN: refine chemicals -->
+  <!-- EN: refine chemicals at -->
   <DoBillsRefinery.verb>TODO</DoBillsRefinery.verb>
   
   <!-- EN: make things at art bench -->
   <DoBillsSculpt.label>TODO</DoBillsSculpt.label>
   <!-- EN: sculpting at -->
   <DoBillsSculpt.gerund>TODO</DoBillsSculpt.gerund>
-  <!-- EN: sculpt -->
+  <!-- EN: sculpt at -->
   <DoBillsSculpt.verb>TODO</DoBillsSculpt.verb>
   
   <!-- EN: smelt items -->
   <DoBillsSmelter.label>TODO</DoBillsSmelter.label>
   <!-- EN: refining at -->
   <DoBillsSmelter.gerund>TODO</DoBillsSmelter.gerund>
-  <!-- EN: refine -->
+  <!-- EN: refine at -->
   <DoBillsSmelter.verb>TODO</DoBillsSmelter.verb>
   
   <!-- EN: make stone blocks -->
   <DoBillsStonecut.label>TODO</DoBillsStonecut.label>
   <!-- EN: cutting stone blocks at -->
   <DoBillsStonecut.gerund>TODO</DoBillsStonecut.gerund>
-  <!-- EN: stonecut -->
+  <!-- EN: cut stone blocks at -->
   <DoBillsStonecut.verb>TODO</DoBillsStonecut.verb>
   
   <!-- EN: make things at crafting spot -->
   <DoBillsUseCraftingSpot.label>TODO</DoBillsUseCraftingSpot.label>
   <!-- EN: crafting at -->
   <DoBillsUseCraftingSpot.gerund>TODO</DoBillsUseCraftingSpot.gerund>
-  <!-- EN: craft -->
+  <!-- EN: craft at -->
   <DoBillsUseCraftingSpot.verb>TODO</DoBillsUseCraftingSpot.verb>
   
   <!-- EN: feed animals -->
@@ -309,6 +323,13 @@
   <!-- EN: drill -->
   <Drill.verb>TODO</Drill.verb>
   
+  <!-- EN: eject fuel -->
+  <EjectFuel.label>TODO</EjectFuel.label>
+  <!-- EN: ejecting fuel from -->
+  <EjectFuel.gerund>TODO</EjectFuel.gerund>
+  <!-- EN: eject fuel -->
+  <EjectFuel.verb>TODO</EjectFuel.verb>
+  
   <!-- EN: empty egg box -->
   <EmptyEggBox.label>TODO</EmptyEggBox.label>
   <!-- EN: emptying -->
@@ -376,7 +397,7 @@
   <GroundPenetratingScan.label>TODO</GroundPenetratingScan.label>
   <!-- EN: scanning at -->
   <GroundPenetratingScan.gerund>TODO</GroundPenetratingScan.gerund>
-  <!-- EN: scan -->
+  <!-- EN: scan at -->
   <GroundPenetratingScan.verb>TODO</GroundPenetratingScan.verb>
   
   <!-- EN: harvest crops -->
@@ -392,6 +413,13 @@
   <GrowerSow.gerund>TODO</GrowerSow.gerund>
   <!-- EN: sow -->
   <GrowerSow.verb>TODO</GrowerSow.verb>
+  
+  <!-- EN: hack buildings -->
+  <Hack.label>TODO</Hack.label>
+  <!-- EN: hacking -->
+  <Hack.gerund>TODO</Hack.gerund>
+  <!-- EN: hack -->
+  <Hack.verb>TODO</Hack.verb>
   
   <!-- EN: feed animals -->
   <HandlingFeedPatientAnimals.label>TODO</HandlingFeedPatientAnimals.label>
@@ -453,7 +481,7 @@
   <LongRangeScan.label>TODO</LongRangeScan.label>
   <!-- EN: scanning at -->
   <LongRangeScan.gerund>TODO</LongRangeScan.gerund>
-  <!-- EN: scan -->
+  <!-- EN: scan at -->
   <LongRangeScan.verb>TODO</LongRangeScan.verb>
   
   <!-- EN: milk animals -->
@@ -540,7 +568,7 @@
   <!-- EN: rope -->
   <RebalanceAnimalsInPens.verb>TODO</RebalanceAnimalsInPens.verb>
   
-  <!-- EN: refuel fuelable buildings -->
+  <!-- EN: refuel buildings -->
   <Refuel.label>TODO</Refuel.label>
   <!-- EN: refueling -->
   <Refuel.gerund>TODO</Refuel.gerund>
@@ -600,7 +628,7 @@
   <Research.label>TODO</Research.label>
   <!-- EN: researching at -->
   <Research.gerund>TODO</Research.gerund>
-  <!-- EN: research -->
+  <!-- EN: research at -->
   <Research.verb>TODO</Research.verb>
   
   <!-- EN: shear animals -->
