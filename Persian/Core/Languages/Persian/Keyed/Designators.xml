@@ -17,9 +17,9 @@
   <DesignatorDeconstructDesc>این را تخریب کرده و بخشی از منابع آن را بازیابی کنید.</DesignatorDeconstructDesc>
 
   <!-- EN: Deconstruct conduit -->
-  <DesignatorDeconstructConduit>TODO</DesignatorDeconstructConduit>
+  <DesignatorDeconstructConduit>تخریب کانال</DesignatorDeconstructConduit>
   <!-- EN: Deconstruct power conduits and reclaim part of their resources. -->
-  <DesignatorDeconstructConduitDesc>TODO</DesignatorDeconstructConduitDesc>
+  <DesignatorDeconstructConduitDesc>کانال‌های برق را تخریب کرده و بخشی از منابع آنها را بازیابی کنید.</DesignatorDeconstructConduitDesc>
 
   <!-- EN: Uninstall -->
   <DesignatorUninstall>حذف نصب</DesignatorUninstall>
@@ -187,9 +187,9 @@
   <DesignatorOpenDesc>باز کردن ظروف.</DesignatorOpenDesc>
   
   <!-- EN: Eject fuel -->
-  <DesignatorEjectFuel>TODO</DesignatorEjectFuel>
+  <DesignatorEjectFuel>بیرون ریختن سوخت</DesignatorEjectFuel>
   <!-- EN: Eject all contained fuel onto the ground. -->
-  <DesignatorEjectFuelDesc>TODO</DesignatorEjectFuelDesc>
+  <DesignatorEjectFuelDesc>تمام سوخت موجود را روی زمین بیرون بریزید.</DesignatorEjectFuelDesc>
 
   <!-- EN: Slaughter -->
   <DesignatorSlaughter>کشتار</DesignatorSlaughter>
@@ -201,7 +201,7 @@
   <!-- EN: Tame a wild animal. -->
   <DesignatorTameDesc>یک حیوان وحشی را رام کنید.</DesignatorTameDesc>
   <!-- EN: Scaria infected animals can't be tamed. -->
-  <CantTameScaria>TODO</CantTameScaria>
+  <CantTameScaria>حیوانات آلوده به اسکاریا نمی‌توانند رام شوند.</CantTameScaria>
 
   <!-- EN: Release to wild -->
   <DesignatorReleaseAnimalToWild>رها کردن در طبیعت</DesignatorReleaseAnimalToWild>
@@ -253,14 +253,14 @@
   <GrabbedColor>رنگ گرفته شده</GrabbedColor>
 
   <!-- EN: Expand plan -->
-  <DesignatorExpandPlan>TODO</DesignatorExpandPlan>
+  <DesignatorExpandPlan>گسترش برنامه</DesignatorExpandPlan>
   <!-- EN: New plan -->
-  <NewPlan>TODO</NewPlan>
-  
+  <NewPlan>برنامه جدید</NewPlan>
+
   <!-- EN: Shrink plan -->
-  <DesignatorPlanShrinkSingular>TODO</DesignatorPlanShrinkSingular>
+  <DesignatorPlanShrinkSingular>کوچک کردن برنامه</DesignatorPlanShrinkSingular>
   <!-- EN: Remove plans. -->
-  <DesignatorPlanShrinkDesc>TODO</DesignatorPlanShrinkDesc>
+  <DesignatorPlanShrinkDesc>برنامه‌ها را حذف کنید.</DesignatorPlanShrinkDesc>
 
   <!-- Failure messages -->
   <!-- EN: Unchosen material -->
@@ -282,9 +282,9 @@
   <!-- EN: The terrain here is already {0}. -->
   <TerrainIsAlready>زمین اینجا قبلاً {0} است.</TerrainIsAlready>
   <!-- EN: There is already foundation here. -->
-  <FoundationAlreadyExists>TODO</FoundationAlreadyExists>
+  <FoundationAlreadyExists>اینجا قبلاً پایه وجود دارد.</FoundationAlreadyExists>
   <!-- EN: The existing terrain here cannot be removed. -->
-  <TerrainUnremovable>TODO</TerrainUnremovable>
+  <TerrainUnremovable>زمین موجود اینجا قابل حذف نیست.</TerrainUnremovable>
   <!-- EN: The surface is already marked for smoothing. -->
   <SurfaceBeingSmoothed>سطح قبلاً برای هموار شدن علامت‌گذاری شده است.</SurfaceBeingSmoothed>
   <!-- EN: Identical thing already exists here. -->
@@ -327,9 +327,9 @@
   <CreateNewZone>ایجاد منطقه جدید {0}</CreateNewZone>
   
   <!-- EN: Expand {0} or\nCreate new plan -->
-  <ExpandOrCreatePlan>TODO</ExpandOrCreatePlan>
+  <ExpandOrCreatePlan>گسترش {0} یا\nایجاد برنامه جدید</ExpandOrCreatePlan>
   <!-- EN: Create new plan -->
-  <CreateNewPlan>TODO</CreateNewPlan>
+  <CreateNewPlan>ایجاد برنامه جدید</CreateNewPlan>
   
   <!-- Desc helpers -->
   <!-- EN: Transmits power -->
