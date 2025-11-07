@@ -15,8 +15,13 @@ preserved to ensure identical output.
 import sys
 import os
 import re
+import logging
 from lxml import etree
 from typing import List, Optional, Tuple
+
+# Configure logging
+logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+logger = logging.getLogger(__name__)
 
 # --- Constants: Letter Maps and Character Sets ---
 
@@ -171,12 +176,32 @@ def _get_contextual_non_connecting(letter: str, prev_letter: Optional[str]) -> s
         return chr(base_code + 1)  # Final
     return chr(base_code)      # Isolated
 
+# --- String Processing for Testing ---
+
+def reverse_text_and_contextualize(text: str) -> str:
+    """
+    Applies the full reversal and contextualization logic to a text string.
+    This is a testable wrapper around the core processing logic.
+    """
+    if not text or not re.search(RTL_CHAR_REGEX, text):
+        return text
+
+    # 1. Split text into words.
+    words = text.split()
+
+    # 2. Process each word: first reverse letters (if RTL), then contextualize.
+    processed_words = [_process_word(word) for word in words]
+
+    # 3. Reverse the order of the fully processed words and join them back.
+    processed_words.reverse()
+    return ' '.join(processed_words)
+
 # --- File and Directory Parsing ---
 
 def process_xml_file(file_path: str) -> None:
     """Parses a single XML file and applies processing to all leaf nodes."""
     if not file_path.endswith('.xml'):
-        print(f"[WARN] Skipping non-XML file: {file_path}")
+        logger.warning(f"Skipping non-XML file: {file_path}")
         return
 
     parser = etree.XMLParser(remove_blank_text=False)
@@ -184,11 +209,11 @@ def process_xml_file(file_path: str) -> None:
         with open(file_path, 'rb') as f:
             doc = etree.parse(f, parser)
     except etree.XMLSyntaxError as e:
-        print(f"[EROR] Failed to parse {file_path}: {e}")
+        logger.error(f"Failed to parse {file_path}: {e}")
         return
 
     if not doc.xpath('//LanguageInfo | //LanguageData'):
-        print(f"[WARN] No expected root nodes in {file_path}; skipping.")
+        logger.warning(f"No expected root nodes in {file_path}; skipping.")
         return
 
     for node in doc.xpath('//*[not(*)]'):
@@ -196,16 +221,16 @@ def process_xml_file(file_path: str) -> None:
 
     with open(file_path, 'wb') as f:
         f.write(etree.tostring(doc, pretty_print=True, encoding='utf-8', xml_declaration=True))
-    print(f"[INFO] Successfully processed: {file_path}")
+    logger.info(f"Successfully processed: {file_path}")
 
 def process_directory(directory_path: str) -> None:
     """Walks a directory and processes all found .xml files."""
-    print("\n--- Starting RTL text processing ---")
+    logger.info("Starting RTL text processing")
     for root, _, files in os.walk(directory_path):
         for file in files:
             if file.endswith('.xml'):
                 process_xml_file(os.path.join(root, file))
-    print("--- Processing complete! ---")
+    logger.info("Processing complete!")
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
@@ -218,5 +243,5 @@ if __name__ == "__main__":
     elif os.path.isfile(path):
         process_xml_file(path)
     else:
-        print(f"[EROR] Path not found: {path}")
+        logger.error(f"Path not found: {path}")
         sys.exit(1)

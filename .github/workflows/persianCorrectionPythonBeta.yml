@@ -1,5 +1,11 @@
 name: Translation Workflow (Beta)
 on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
   workflow_dispatch:
 
 env:
@@ -19,7 +25,12 @@ jobs:
           python-version: '3.11'
 
       - name: Install Python dependencies
-        run: pip install lxml
+        run: pip install lxml pytest
+
+      - name: Run unit tests
+        run: |
+          cd ${{ github.workspace }}/RTL-Tools-Python-Beta
+          python -m pytest tests/ -v
 
       - name: Run translation script (Python)
         run: |
@@ -30,6 +41,11 @@ jobs:
           cd RTL-Tools-Python-Beta
           python3 PersianFixer.py "$dest_dir" || { echo "PersianFixer.py failed"; exit 1; }
           echo "Correction complete."
+
+      - name: Validate XML files
+        run: |
+          cd ${{ github.workspace }}/RTL-Tools-Python-Beta
+          python3 validate_xml.py "${{ github.workspace }}/Persian/"
 
       - name: Create ZIP archive
         run: |
