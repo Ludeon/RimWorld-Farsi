@@ -40,7 +40,7 @@
   <!-- EN: {0} from {1} are leaving the map because of dangerous weather. -->
   <MessageVisitorsAnomalousWeather>{0} از {1} به دلیل آب و هوای خطرناک در حال ترک نقشه هستند.</MessageVisitorsAnomalousWeather>
   <!-- EN: {0} from {1} are leaving the map because of dangerous conditions. -->
-  <MessageVisitorsDangerousConditions>TODO</MessageVisitorsDangerousConditions>
+  <MessageVisitorsDangerousConditions>{0} از {1} به دلیل شرایط خطرناک در حال ترک نقشه هستند.</MessageVisitorsDangerousConditions>
 
   <!-- EN: {0} worn by {1_nameFull} deteriorated away to nothing. -->
   <MessageWornApparelDeterioratedAway>{0} که توسط {1_nameFull} پوشیده شده بود، کاملاً فرسوده شد.</MessageWornApparelDeterioratedAway>
@@ -82,9 +82,9 @@
   <!-- EN: Only those with the insect sympathy trait can tame {INSECT_indefinite}. -->
   <MessageInsectTameDesignated>فقط کسانی که ویژگی همدردی با حشرات را دارند می‌توانند {INSECT_indefinite} را اهلی کنند.</MessageInsectTameDesignated>
   <!-- EN: No colonists are assigned to hunt. -->
-  <MessageNoHuntersAvailable>TODO</MessageNoHuntersAvailable>
+  <MessageNoHuntersAvailable>هیچ مهاجری به شکار اختصاص داده نشده است.</MessageNoHuntersAvailable>
   <!-- EN: No hunter has a valid hunting weapon. Equip a hunter with a suitable ranged weapon. -->
-  <MessageNoHuntersWithProperWeapon>TODO</MessageNoHuntersWithProperWeapon>
+  <MessageNoHuntersWithProperWeapon>هیچ شکارچی سلاح شکار معتبر ندارد. یک شکارچی را با سلاح دوربرد مناسب تجهیز کنید.</MessageNoHuntersWithProperWeapon>
 
   <!-- EN: Warning: The {PAWN_labelShort} is hostile and will attack while your colonist tries to tame it. -->
   <MessageInsectsHostileOnTaming>هشدار: {PAWN_labelShort} خصمانه است و در حالی که مهاجر شما سعی در اهلی کردن آن دارد، حمله خواهد کرد.</MessageInsectsHostileOnTaming>
@@ -115,7 +115,7 @@
   <!-- EN: Must designate wood-yielding, sufficiently-grown plants. -->
   <MessageMustDesignateHarvestableWood>باید گیاهان چوب‌دهنده و با رشد کافی را تعیین کرد.</MessageMustDesignateHarvestableWood>
   <!-- EN: Prevent cutting is enabled for this plant. -->
-  <MessageMustPlantCuttingForbidden>TODO</MessageMustPlantCuttingForbidden>
+  <MessageMustPlantCuttingForbidden>جلوگیری از قطع برای این گیاه فعال است.</MessageMustPlantCuttingForbidden>
   <!-- EN: Must designate plants. -->
   <MessageMustDesignatePlants>باید گیاهان را تعیین کرد.</MessageMustDesignatePlants>
   <!-- EN: Must designate haulable items. Some items are always haulable and can't be designated. -->
@@ -157,15 +157,15 @@
   <!-- EN: Must designate forbidden items. -->
   <MessageMustDesignateUnforbiddable>باید اقلام ممنوعه را تعیین کرد.</MessageMustDesignateUnforbiddable>
   <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
-  <MessageCannotClaimWhenPawnThreatsAreNear>TODO</MessageCannotClaimWhenPawnThreatsAreNear>
+  <MessageCannotClaimWhenPawnThreatsAreNear>نمی‌توان {CLAIMABLE_labelShort} را ادعا کرد در حالی که {THREAT_factionPawnsPlural} رزمی در نزدیکی هستند.</MessageCannotClaimWhenPawnThreatsAreNear>
   <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
-  <MessageCannotAdoptWhilePawnThreatsAreNear>TODO</MessageCannotAdoptWhilePawnThreatsAreNear>
+  <MessageCannotAdoptWhilePawnThreatsAreNear>نمی‌توان {CLAIMABLE_labelShort} را پذیرفت در حالی که {THREAT_factionPawnsPlural} رزمی در نزدیکی هستند.</MessageCannotAdoptWhilePawnThreatsAreNear>
   <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there is {THREAT} nearby. -->
   <MessageCannotClaimWhenThreatsAreNear>نمی‌توان {CLAIMABLE_labelShort} را ادعا کرد در حالی که {THREAT_factionPawnsPlural} رزمی در نزدیکی هستند.</MessageCannotClaimWhenThreatsAreNear>
   <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there is {THREAT} nearby. -->
   <MessageCannotAdoptWhileThreatsAreNear>نمی‌توان {CLAIMABLE_labelShort} را پذیرفت در حالی که {THREAT_factionPawnsPlural} رزمی در نزدیکی هستند.</MessageCannotAdoptWhileThreatsAreNear>
   <!-- EN: Cannot remove foundation that supports a building. -->
-  <MessageCannotRemoveSupportingFoundation>TODO</MessageCannotRemoveSupportingFoundation>
+  <MessageCannotRemoveSupportingFoundation>نمی‌توان پایه‌ای را که از یک ساختمان پشتیبانی می‌کند حذف کرد.</MessageCannotRemoveSupportingFoundation>
 
   <!-- EN: {1_labelShort} has refused to be arrested! -->
   <MessageRefusedArrest>{1_labelShort} از دستگیری خودداری کرده است!</MessageRefusedArrest>
@@ -294,7 +294,7 @@
   <!-- EN: The caravan formation process has been terminated. -->
   <MessagePawnLostWhileFormingCaravan_AllLost>روند تشکیل کاروان پایان یافته است.</MessagePawnLostWhileFormingCaravan_AllLost>
   <!-- EN: No colonist capable of forming caravan. The caravan formation process has been terminated. -->
-  <MessageForceSendingCaravan_AllLost>TODO</MessageForceSendingCaravan_AllLost>
+  <MessageForceSendingCaravan_AllLost>هیچ مهاجری قادر به تشکیل کاروان نیست. روند تشکیل کاروان پایان یافته است.</MessageForceSendingCaravan_AllLost>
   <!-- EN: The caravan formation process will continue when everyone recovers from their mental break. -->
   <MessageCaravanFormationPaused>روند تشکیل کاروان زمانی ادامه خواهد داشت که همه از فروپاشی ذهنی خود رهایی یابند.</MessageCaravanFormationPaused>
   <!-- EN: Your colonists will now continue forming a caravan. -->
@@ -359,7 +359,7 @@
   <!-- EN: Assigned items and people will now be loaded into the transport pod. -->
   <MessageTransporterSingleLoadingProcessStarted>اقلام و افراد اختصاص داده شده اکنون در شاتل بارگیری خواهند شد.</MessageTransporterSingleLoadingProcessStarted>
   <!-- EN: Assigned items and people will now be loaded into the shuttle. -->
-  <MessageShuttleLoadingProcessStarted>TODO</MessageShuttleLoadingProcessStarted>
+  <MessageShuttleLoadingProcessStarted>اقلام و افراد اختصاص داده شده اکنون در شاتل بارگیری خواهند شد.</MessageShuttleLoadingProcessStarted>
 
   <!-- EN: Your transport pods have arrived. -->
   <MessageTransportPodsArrived>کپسول‌های حمل‌ونقل شما رسیده‌اند.</MessageTransportPodsArrived>
@@ -371,19 +371,19 @@
   <!-- EN: Transport pod loading complete. Launch when ready. -->
   <MessageFinishedLoadingTransporters>بارگیری کپسول حمل‌ونقل کامل شد. زمانی که آماده بودید پرتاب کنید.</MessageFinishedLoadingTransporters>
   <!-- EN: {SHUTTLE_label} is loaded with required cargo and can launch when ready. -->
-  <MessageFinishedLoadingShuttle>TODO</MessageFinishedLoadingShuttle>
+  <MessageFinishedLoadingShuttle>{SHUTTLE_label} با محموله مورد نیاز بارگیری شده و زمانی که آماده بودید می‌تواند پرتاب شود.</MessageFinishedLoadingShuttle>
 
   <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoTransporters>{1} شما نمی‌تواند بارگیری کپسول‌های حمل‌ونقل را به پایان برساند زیرا برخی اقلام یا افراد غیرقابل دسترس شدند ({2_labelShort}).</MessageCantLoadMoreIntoTransporters>
   <!-- EN: Your {1} can't finish loading the shuttle because some items or people became unavailable ({2_labelShort}). -->
-  <MessageCantLoadMoreIntoShuttle>TODO</MessageCantLoadMoreIntoShuttle>
+  <MessageCantLoadMoreIntoShuttle>{1} شما نمی‌تواند بارگیری شاتل را به پایان برساند زیرا برخی اقلام یا افراد غیرقابل دسترس شدند ({2_labelShort}).</MessageCantLoadMoreIntoShuttle>
   <!-- EN: Your {1} can't finish entering the {0} because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoPortal>{1} شما نمی‌تواند ورود به {0} را به پایان برساند زیرا برخی اقلام یا افراد غیرقابل دسترس شدند ({2_labelShort}).</MessageCantLoadMoreIntoPortal>
   
   <!-- EN: Selected destination is invalid. -->
   <MessageTransportPodsDestinationIsInvalid>مقصد انتخاب شده نامعتبر است.</MessageTransportPodsDestinationIsInvalid>
   <!-- EN: {OBJECT_labelCap} is not a valid destination. -->
-  <MessageWorldObjectIsInvalid>TODO</MessageWorldObjectIsInvalid>
+  <MessageWorldObjectIsInvalid>{OBJECT_labelCap} مقصد معتبری نیست.</MessageWorldObjectIsInvalid>
   <!-- EN: Each pod launcher would need at least {0}x chemfuel to send transport pods that far. -->
   <MessageTransportPodsDestinationIsTooFar>هر پرتاب‌کننده کپسول برای ارسال کپسول‌های حمل‌ونقل تا آن فاصله حداقل به {0}x سوخت شیمیایی نیاز دارد.</MessageTransportPodsDestinationIsTooFar>
   
@@ -807,9 +807,9 @@
   <!-- EN: Need more fertile terrain. -->
   <MessageWarningNotEnoughFertility>نیاز به زمین حاصلخیزتر.</MessageWarningNotEnoughFertility>
   <!-- EN: Temperature too extreme. -->
-  <CannotPlantExtremeTemp>TODO</CannotPlantExtremeTemp>
+  <CannotPlantExtremeTemp>دما بیش از حد شدید است.</CannotPlantExtremeTemp>
   <!-- EN: Plants cannot grow on this terrain. -->
-  <CannotPlantMissingTerrainTag>TODO</CannotPlantMissingTerrainTag>
+  <CannotPlantMissingTerrainTag>گیاهان نمی‌توانند روی این زمین رشد کنند.</CannotPlantMissingTerrainTag>
   <!-- EN: blocked by {0_label}. -->
   <BlockedBy>مسدود شده توسط {0_label}.</BlockedBy>
   <!-- EN: Cannot be planted next to {0_label}. -->
@@ -819,7 +819,7 @@
   <!-- EN: Too close to {0}'s planting location. -->
   <TooCloseToOtherSeedPlantCell>بیش از حد نزدیک به محل کاشت {0}.</TooCloseToOtherSeedPlantCell>
   <!-- EN: Cannot be placed on {0}. -->
-  <MessageCannotBePlacedOn>TODO</MessageCannotBePlacedOn>
+  <MessageCannotBePlacedOn>نمی‌توان روی {0} قرار داد.</MessageCannotBePlacedOn>
 
   <!-- EN: Warning: {0} has been marked for cutting. -->
   <MessageWarningCutImportantPlant>هشدار: {0} برای قطع علامت‌گذاری شده است.</MessageWarningCutImportantPlant>
@@ -853,11 +853,11 @@
   <MessageLodgersCantFarskip>نمی‌توان پرش کرد: پناهنده</MessageLodgersCantFarskip>
   
   <!-- EN: {HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out for {DURATION}. -->
-  <MessageHackerLockedOut>TODO</MessageHackerLockedOut>
+  <MessageHackerLockedOut>هک کردن {HACKER_nameDef} شناسایی شده است. {HACKER_pronoun} برای {DURATION} قفل شده است.</MessageHackerLockedOut>
   <!-- EN: {HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out permanently. -->
-  <MessageHackerLockedOutPermanently>TODO</MessageHackerLockedOutPermanently>
+  <MessageHackerLockedOutPermanently>هک کردن {HACKER_nameDef} شناسایی شده است. {HACKER_pronoun} برای همیشه قفل شده است.</MessageHackerLockedOutPermanently>
   <!-- EN: {0_labelShort} can be hacked again. -->
-  <MessageHackableUnlocked>TODO</MessageHackableUnlocked>
+  <MessageHackableUnlocked>{0_labelShort} می‌تواند دوباره هک شود.</MessageHackableUnlocked>
 
   <!-- EN: Cannot call shuttle -->
   <CannotCallShuttle>نمی‌توان شاتل را فراخواند</CannotCallShuttle>
@@ -865,7 +865,7 @@
   <MessageShuttleArrived>شاتل رسید.</MessageShuttleArrived>
 
   <!-- EN: Warning: {THING_labelCap} will not function in this biome -->
-  <MessageGroundPenetratingScannerNoBedrock>TODO</MessageGroundPenetratingScannerNoBedrock>
+  <MessageGroundPenetratingScannerNoBedrock>هشدار: {THING_labelCap} در این زیست‌بوم کار نخواهد کرد</MessageGroundPenetratingScannerNoBedrock>
 
   <!-- UNUSED -->
   <MessageFinishedLoadingTransporterSingle>شاتل با محموله مورد نیاز بارگیری شده و زمانی که آماده بودید می‌تواند پرتاب شود.</MessageFinishedLoadingTransporterSingle>

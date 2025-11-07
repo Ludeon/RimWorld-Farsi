@@ -1834,9 +1834,9 @@
   <DragPawnsToRolesInfoController>TODO</DragPawnsToRolesInfoController>
   <!-- EN: A slave. The human property of others. -->
   <RitualBeginSlaveDesc>TODO</RitualBeginSlaveDesc>
-  <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->
+  <!-- EN: {0_labelShort} is sleeping. If included in the event, {0_pronoun} will wake up to participate. -->
   <RitualBeginSleepingDesc>TODO</RitualBeginSleepingDesc>
-  <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the ritual. -->
+  <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the event. -->
   <RitualBeginSleepingWarning>TODO</RitualBeginSleepingWarning>
   <!-- EN: This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es) -->
   <RitualRoleRequiresSocialRole>TODO</RitualRoleRequiresSocialRole>
