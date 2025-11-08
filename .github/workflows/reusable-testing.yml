@@ -12,8 +12,6 @@ on:
         type: boolean
         default: false
     secrets:
-      GITHUB_TOKEN:
-        required: true
       CODECOV_TOKEN:
         required: false
 

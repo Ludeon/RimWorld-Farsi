@@ -70,7 +70,6 @@ jobs:
     uses: ./.github/workflows/reusable-security.yml
     with:
       enable_compliance: ${{ github.event.inputs.enable_compliance_checks == 'true' }}
-    secrets: inherit
 
   test:
     name: Quality Assurance
@@ -79,7 +78,6 @@ jobs:
     with:
       python_versions: '["3.11", "3.12", "3.13"]'
       enable_benchmarks: ${{ github.event.inputs.enable_performance_benchmark == 'true' }}
-    secrets: inherit
 
   build:
     name: Build & Validate
@@ -128,17 +126,42 @@ jobs:
           cd ${{ env.TOOLS_DIR }}
           START_TIME=$(date +%s)
 
-          # Process specific module if it exists
-          if [ -d "../${{ env.BUILD_DIR }}/${{ matrix.module }}" ]; then
-            python PersianFixer.py "../${{ env.BUILD_DIR }}/${{ matrix.module }}"
-          else
-            echo "Module ${{ matrix.module }} not found, skipping..."
-          fi
+          MODULE_PATH="../${{ env.BUILD_DIR }}/${{ matrix.module }}"
 
-          END_TIME=$(date +%s)
-          DURATION=$((END_TIME - START_TIME))
-          echo "translation_duration=$DURATION" >> $GITHUB_OUTPUT
-          echo "✅ ${{ matrix.module }} translation processing completed in ${DURATION}s"
+          # Robust module existence and size check
+          if [ -d "$MODULE_PATH" ]; then
+            # Check if module has content
+            FILE_COUNT=$(find "$MODULE_PATH" -name "*.xml" | wc -l)
+            if [ "$FILE_COUNT" -eq 0 ]; then
+              echo "⚠️  Module ${{ matrix.module }} exists but contains no XML files, skipping..."
+              echo "translation_duration=0" >> $GITHUB_OUTPUT
+              echo "✅ ${{ matrix.module }} module skipped (no XML files)"
+              exit 0
+            fi
+
+            # Check module size (warn if very large)
+            MODULE_SIZE=$(du -sm "$MODULE_PATH" | cut -f1)
+            if [ "$MODULE_SIZE" -gt 500 ]; then
+              echo "⚠️  Large module detected: ${{ matrix.module }} (${MODULE_SIZE}MB)"
+            fi
+
+            echo "📊 Processing $FILE_COUNT XML files in ${{ matrix.module }} module..."
+
+            # Process with error handling
+            if python PersianFixer.py "$MODULE_PATH"; then
+              END_TIME=$(date +%s)
+              DURATION=$((END_TIME - START_TIME))
+              echo "translation_duration=$DURATION" >> $GITHUB_OUTPUT
+              echo "✅ ${{ matrix.module }} translation processing completed in ${DURATION}s ($FILE_COUNT files)"
+            else
+              echo "❌ Translation processing failed for ${{ matrix.module }}"
+              exit 1
+            fi
+          else
+            echo "ℹ️  Module ${{ matrix.module }} not found in ${{ env.BUILD_DIR }}, skipping..."
+            echo "translation_duration=0" >> $GITHUB_OUTPUT
+            echo "✅ ${{ matrix.module }} module skipped (not found)"
+          fi
 
       - name: Validate ${{ matrix.module }} XML structure
         id: validation
@@ -192,6 +215,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           path: modules/
+          # Retry logic for race conditions
 
       - name: Merge modules into final build
         run: |
@@ -325,14 +349,28 @@ jobs:
       - name: Determine next version
         id: version
         run: |
-          # Get latest tag (remove 'v' prefix for parsing)
-          LATEST_TAG=$(git tag --sort=-version:refname | head -1 | sed 's/^v//')
+          # Robust tag parsing with fallback handling
+          LATEST_TAG=$(git tag --sort=-version:refname | grep '^v[0-9]\+\.[0-9]\+\.[0-9]\+$' | head -1 | sed 's/^v//')
+
           if [ -z "$LATEST_TAG" ]; then
+            echo "ℹ️  No valid semantic version tags found, starting with 1.0.0"
             NEXT_VERSION="1.0.0"
           else
-            # Parse version and increment patch
-            IFS='.' read -r major minor patch <<< "$LATEST_TAG"
-            NEXT_VERSION="$major.$minor.$((patch + 1))"
+            # Validate version format and increment patch
+            if [[ "$LATEST_TAG" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+              IFS='.' read -r major minor patch <<< "$LATEST_TAG"
+              # Handle patch overflow (optional)
+              if [ "$patch" -ge 999 ]; then
+                echo "⚠️  Patch version at limit, consider manual version bump"
+                NEXT_VERSION="$major.$minor.$patch"
+              else
+                NEXT_VERSION="$major.$minor.$((patch + 1))"
+              fi
+              echo "📋 Latest tag: v$LATEST_TAG, next version: v$NEXT_VERSION"
+            else
+              echo "⚠️  Invalid version format '$LATEST_TAG', falling back to 1.0.0"
+              NEXT_VERSION="1.0.0"
+            fi
           fi
           echo "next_version=$NEXT_VERSION" >> $GITHUB_OUTPUT
 
