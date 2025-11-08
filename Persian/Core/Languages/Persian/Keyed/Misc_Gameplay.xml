@@ -3,83 +3,83 @@
 
   <!-- Various -->
   <!-- EN: hit points -->
-  <HitPointsBasic>TODO</HitPointsBasic>
+  <HitPointsBasic>امتیازات حیات</HitPointsBasic>
   <!-- EN: Work left -->
-  <WorkLeft>TODO</WorkLeft>
+  <WorkLeft>کار باقی‌مانده</WorkLeft>
   <!-- EN: Contents -->
-  <Contents>TODO</Contents>
+  <Contents>محتویات</Contents>
   <!-- EN: Contained resources -->
-  <ContainedResources>TODO</ContainedResources>
+  <ContainedResources>منابع موجود</ContainedResources>
   <!-- EN: For prisoner use -->
-  <ForPrisonerUse>TODO</ForPrisonerUse>
+  <ForPrisonerUse>برای استفاده زندانی</ForPrisonerUse>
   <!-- EN: In prison cell: For prisoner use -->
-  <InPrisonCell>TODO</InPrisonCell>
+  <InPrisonCell>در سلول زندان: برای استفاده زندانی</InPrisonCell>
   <!-- EN: For colonist use -->
-  <ForColonistUse>TODO</ForColonistUse>
+  <ForColonistUse>برای استفاده مهاجر</ForColonistUse>
   <!-- EN: Medical -->
-  <MedicalBed>TODO</MedicalBed>
+  <MedicalBed>پزشکی</MedicalBed>
   <!-- EN: Owner -->
   <Owner>مالک</Owner>
   <!-- EN: Owners -->
-  <Owners>TODO</Owners>
+  <Owners>صاحبان</Owners>
   <!-- EN: Assigned colonist -->
-  <AssignedColonist>TODO</AssignedColonist>
+  <AssignedColonist>مهاجر اختصاص‌یافته</AssignedColonist>
   <!-- EN: Uncomfortable room temperature -->
-  <BedUncomfortableTemperature>TODO</BedUncomfortableTemperature>
+  <BedUncomfortableTemperature>دمای اتاق ناراحت‌کننده</BedUncomfortableTemperature>
   <!-- EN: Unsafe room temperature -->
-  <BedUnsafeTemperature>TODO</BedUnsafeTemperature>
+  <BedUnsafeTemperature>دمای اتاق ناامن</BedUnsafeTemperature>
   <!-- EN: Died on the {0} -->
-  <DiedOn>TODO</DiedOn>
+  <DiedOn>درگذشت در {0}</DiedOn>
   <!-- EN: Nobody -->
   <Nobody>هیچ‌کس</Nobody>
   <!-- EN: Unowned -->
-  <Unowned>TODO</Unowned>
+  <Unowned>بدون صاحب</Unowned>
   <!-- EN: Dead for {0} -->
-  <DeadTime>TODO</DeadTime>
+  <DeadTime>مرده به مدت {0}</DeadTime>
   <!-- EN: walk speed {0} -->
-  <WalkSpeed>TODO</WalkSpeed>
+  <WalkSpeed>سرعت راه رفتن {0}</WalkSpeed>
   <!-- EN: fert. -->
-  <FertShort>TODO</FertShort>
+  <FertShort>باروری.</FertShort>
   <!-- EN: dying -->
-  <DyingLower>TODO</DyingLower>
+  <DyingLower>در حال مرگ</DyingLower>
   <!-- EN: Filth on feet: -->
-  <FilthOnFeet>TODO</FilthOnFeet>
+  <FilthOnFeet>کثیفی روی پا:</FilthOnFeet>
   <!-- EN: not enough stored -->
-  <NotEnoughStoredLower>TODO</NotEnoughStoredLower>
+  <NotEnoughStoredLower>ذخیره کافی نیست</NotEnoughStoredLower>
   <!-- EN: nothing -->
-  <NothingLower>TODO</NothingLower>
+  <NothingLower>هیچ</NothingLower>
   <!-- EN: Nothing -->
-  <Nothing>TODO</Nothing>
+  <Nothing>هیچ</Nothing>
   <!-- EN: Adapted -->
-  <Adapted>TODO</Adapted>
+  <Adapted>سازگار شده</Adapted>
   <!-- EN: fresh -->
-  <FreshMissingBodyPart>TODO</FreshMissingBodyPart>
+  <FreshMissingBodyPart>تازه</FreshMissingBodyPart>
   <!-- EN: developed immunity -->
-  <DevelopedImmunityLower>TODO</DevelopedImmunityLower>
+  <DevelopedImmunityLower>ایمنی توسعه یافته</DevelopedImmunityLower>
   <!-- EN: Needs tending now -->
-  <NeedsTendingNow>TODO</NeedsTendingNow>
+  <NeedsTendingNow>نیاز به مراقبت فوری دارد</NeedsTendingNow>
   <!-- EN: Can tend now -->
-  <CanTendNow>TODO</CanTendNow>
+  <CanTendNow>می‌توان اکنون مراقبت کرد</CanTendNow>
   <!-- EN: Tending expires in {0} -->
-  <TreatmentExpiresIn>TODO</TreatmentExpiresIn>
+  <TreatmentExpiresIn>مراقبت در {0} منقضی می‌شود</TreatmentExpiresIn>
   <!-- EN: Can be tended in {0} -->
-  <NextTendIn>TODO</NextTendIn>
+  <NextTendIn>می‌توان در {0} مراقبت کرد</NextTendIn>
   <!-- EN: Tend quality -->
-  <TendQuality>TODO</TendQuality>
+  <TendQuality>کیفیت مراقبت</TendQuality>
   <!-- EN: Total tend quality -->
-  <DisappearsAtTotalTendQuality>TODO</DisappearsAtTotalTendQuality>
+  <DisappearsAtTotalTendQuality>کیفیت مراقبت کل</DisappearsAtTotalTendQuality>
   <!-- EN: no {0} -->
-  <MissingMedicalBillIngredient>TODO</MissingMedicalBillIngredient>
+  <MissingMedicalBillIngredient>بدون {0}</MissingMedicalBillIngredient>
   <!-- EN: Immunity -->
-  <Immunity>TODO</Immunity>
+  <Immunity>ایمنی</Immunity>
   <!-- EN: {0} days to recover -->
-  <DaysToRecover>TODO</DaysToRecover>
+  <DaysToRecover>{0} روز تا بهبود</DaysToRecover>
   <!-- EN: Ineffective -->
-  <Ineffective>TODO</Ineffective>
+  <Ineffective>غیرموثر</Ineffective>
   <!-- EN: illegal -->
-  <Illegal>TODO</Illegal>
+  <Illegal>غیرقانونی</Illegal>
   <!-- EN: detection chance -->
-  <DetectionChance>TODO</DetectionChance>
+  <DetectionChance>شانس شناسایی</DetectionChance>
   <!-- EN: Race -->
   <Race>نژاد</Race>
   <!-- EN: Description -->

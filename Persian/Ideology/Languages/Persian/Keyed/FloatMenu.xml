@@ -8,7 +8,7 @@
   <!-- EN: {0} is already in progress. -->
   <CantStartRitualAlreadyInProgress>{0} در حال حاضر در حال انجام است.</CantStartRitualAlreadyInProgress>
   <!-- EN: {RITUAL} cannot be performed {GERUND} {LAYER}. -->
-  <CantStartRitualLayer>TODO</CantStartRitualLayer>
+  <CantStartRitualLayer>{RITUAL} نمی‌تواند {GERUND} {LAYER} انجام شود.</CantStartRitualLayer>
   <!-- EN: One or more participants can't join due to extreme temperature. -->
   <CantJoinRitualInExtremeWeather>یک یا چند شرکت‌کننده به دلیل دمای شدید نمی‌توانند بپیوندند.</CantJoinRitualInExtremeWeather>
   <!-- EN: {0} is already participating in a ritual. -->

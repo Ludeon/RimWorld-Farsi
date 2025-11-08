@@ -3,65 +3,65 @@
 
   <!-- Grav engine/substructrues -->
   <!-- EN: Are you sure you want to launch?\n\nYour current map, as well as anything not on gravship substructure, will be permanently lost. The launch process is destructive, meaning you won't be able to return. -->
-  <ConfirmGravEngineLaunch>TODO</ConfirmGravEngineLaunch>
+  <ConfirmGravEngineLaunch>آیا مطمئن هستید که می‌خواهید پرتاب کنید؟\n\nنقشه فعلی شما و همچنین هر چیزی که روی زیرساخت کشتی گرانشی نیست، برای همیشه از دست خواهد رفت. فرآیند پرتاب مخرب است، به این معنی که نمی‌توانید برگردید.</ConfirmGravEngineLaunch>
   <!-- EN: Warning -->
-  <GravEngineWarning>TODO</GravEngineWarning>
+  <GravEngineWarning>هشدار</GravEngineWarning>
   <!-- EN: The following people will be left behind -->
-  <PeopleWillBeLeftBehind>TODO</PeopleWillBeLeftBehind>
+  <PeopleWillBeLeftBehind>افراد زیر پشت سر گذاشته خواهند شد</PeopleWillBeLeftBehind>
   <!-- EN: The following will be left behind -->
-  <AnimalsWillBeLeftBehind>TODO</AnimalsWillBeLeftBehind>
+  <AnimalsWillBeLeftBehind>موارد زیر پشت سر گذاشته خواهند شد</AnimalsWillBeLeftBehind>
   <!-- EN: The following people and animals from another faction will be taken with you. This will upset their faction, potentially turning them hostile -->
-  <PawnsKidnappedOnGravship>TODO</PawnsKidnappedOnGravship>
+  <PawnsKidnappedOnGravship>افراد و حیوانات زیر از یک فراکسیون دیگر با شما برده خواهند شد. این کار فراکسیون آنها را ناراحت خواهد کرد و ممکن است آنها را خصمانه کند</PawnsKidnappedOnGravship>
   <!-- EN: The following buildings are not fully on the gravship and will be left behind -->
-  <BuildingsWillBeLeftBehind>TODO</BuildingsWillBeLeftBehind>
+  <BuildingsWillBeLeftBehind>ساختمان‌های زیر کاملاً روی کشتی گرانشی نیستند و پشت سر گذاشته خواهند شد</BuildingsWillBeLeftBehind>
   <!-- EN: Some substructure has invalid placement and will be left behind -->
-  <SubstructureWillBeLeftBehind>TODO</SubstructureWillBeLeftBehind>
+  <SubstructureWillBeLeftBehind>برخی زیرساخت‌ها دارای قرارگیری نامعتبر هستند و پشت سر گذاشته خواهند شد</SubstructureWillBeLeftBehind>
   <!-- EN: Disconnected from grav engine -->
-  <DisconnectedSubstructure>TODO</DisconnectedSubstructure>
+  <DisconnectedSubstructure>از موتور گرانشی جدا شده</DisconnectedSubstructure>
   <!-- EN: Under rock roof -->
-  <SubstructureUnderRockRoof>TODO</SubstructureUnderRockRoof>
+  <SubstructureUnderRockRoof>زیر سقف سنگی</SubstructureUnderRockRoof>
   <!-- EN: Out of range -->
-  <SubstructureOutsideFootprint>TODO</SubstructureOutsideFootprint>
+  <SubstructureOutsideFootprint>خارج از محدوده</SubstructureOutsideFootprint>
 
   <!-- EN: {0} has high hopes for your new gravship and wants to christen it with a good name. What should your gravship be called? -->
-  <NamePlayerGravshipMessage>TODO</NamePlayerGravshipMessage>
+  <NamePlayerGravshipMessage>{0} امید زیادی به کشتی گرانشی جدید شما دارد و می‌خواهد آن را با یک نام خوب نام‌گذاری کند. کشتی گرانشی شما باید چه نامیده شود؟</NamePlayerGravshipMessage>
   <!-- EN: The gravship is now known as {0}. -->
-  <PlayerGravshipGainsName>TODO</PlayerGravshipGainsName>
+  <PlayerGravshipGainsName>کشتی گرانشی اکنون به نام {0} شناخته می‌شود.</PlayerGravshipGainsName>
   <!-- EN: That name isn't valid. -->
-  <PlayerGravshipNameIsInvalid>TODO</PlayerGravshipNameIsInvalid>
+  <PlayerGravshipNameIsInvalid>آن نام معتبر نیست.</PlayerGravshipNameIsInvalid>
 
   <!-- EN: {0} are hostile. If you land here they will attack you. -->
-  <ConfirmLandOnHostileFactionBase>TODO</ConfirmLandOnHostileFactionBase>
+  <ConfirmLandOnHostileFactionBase>{0} خصمانه هستند. اگر اینجا فرود بیایید، به شما حمله خواهند کرد.</ConfirmLandOnHostileFactionBase>
   <!-- EN: Landing here will be seen as an aggressive act by {0}. They will become hostile and attack. -->
-  <ConfirmLandOnNeutralFactionBase>TODO</ConfirmLandOnNeutralFactionBase>
+  <ConfirmLandOnNeutralFactionBase>فرود اینجا توسط {0} به عنوان یک عمل خصمانه دیده خواهد شد. آنها خصمانه خواهند شد و حمله خواهند کرد.</ConfirmLandOnNeutralFactionBase>
 
   <!-- EN: Land here anyway? -->
-  <ConfirmLand>TODO</ConfirmLand>
+  <ConfirmLand>در هر صورت اینجا فرود بیایید؟</ConfirmLand>
 
   <!-- EN: Orbital locations are dangerous. Make sure you're prepared:\n - Equip your colonists with vacsuits or other advanced armors.\n - Plan your return trip. Living in orbit for extended periods is extremely challenging. -->
-  <OrbitalWarning>TODO</OrbitalWarning>
+  <OrbitalWarning>مکان‌های مداری خطرناک هستند. مطمئن شوید آماده هستید:\n - مهاجران خود را با لباس‌های خلأ یا زره‌های پیشرفته دیگر مجهز کنید.\n - سفر بازگشت خود را برنامه‌ریزی کنید. زندگی در مدار برای مدت طولانی بسیار چالش‌برانگیز است.</OrbitalWarning>
   <!-- EN: Prepare your gravship for orbit:\n- Use airtight walls and doors.\n- Ensure rooms are well heated and fully roofed.\n- Construct oxygen pumps. -->
-  <OrbitalWarning_Gravship>TODO</OrbitalWarning_Gravship>
+  <OrbitalWarning_Gravship>کشتی گرانشی خود را برای مدار آماده کنید:\n- از دیوارها و درهای هواگیر استفاده کنید.\n- اطمینان حاصل کنید اتاق‌ها به خوبی گرم شده و کاملاً سقف دارند.\n- پمپ‌های اکسیژن بسازید.</OrbitalWarning_Gravship>
   <!-- EN: Warning -->
-  <OrbitalWarning_Warning>TODO</OrbitalWarning_Warning>
+  <OrbitalWarning_Warning>هشدار</OrbitalWarning_Warning>
   <!-- EN: Some exterior walls or doors are not airtight. -->
-  <OrbitalWarning_Vacuum>TODO</OrbitalWarning_Vacuum>
+  <OrbitalWarning_Vacuum>برخی دیوارها یا درهای خارجی هواگیر نیستند.</OrbitalWarning_Vacuum>
   <!-- EN: No functional heat sources. -->
-  <OrbitalWarning_NoHeatSources>TODO</OrbitalWarning_NoHeatSources>
+  <OrbitalWarning_NoHeatSources>منابع گرمایشی عملکردی وجود ندارد.</OrbitalWarning_NoHeatSources>
   <!-- EN: Few functional heat sources -->
-  <OrbitalWarning_FewHeatSources>TODO</OrbitalWarning_FewHeatSources>
+  <OrbitalWarning_FewHeatSources>منابع گرمایشی عملکردی کمی وجود دارد</OrbitalWarning_FewHeatSources>
   <!-- EN: No functional oxygen pumps. -->
-  <OrbitalWarning_NoOxygenPumps>TODO</OrbitalWarning_NoOxygenPumps>
+  <OrbitalWarning_NoOxygenPumps>پمپ‌های اکسیژن عملکردی وجود ندارد.</OrbitalWarning_NoOxygenPumps>
   <!-- EN: Few functional oxygen pumps -->
-  <OrbitalWarning_FewOxygenPumps>TODO</OrbitalWarning_FewOxygenPumps>
+  <OrbitalWarning_FewOxygenPumps>پمپ‌های اکسیژن عملکردی کمی وجود دارد</OrbitalWarning_FewOxygenPumps>
 
   <!-- EN: The shuttle does not have enough fuel to return from this destination. It may be stranded.\n\nYou currently have {0} fuel but need {1} fuel for a return flight.\n\nAre you sure you want to continue? -->
-  <ConfirmShuttleNotEnoughFuelToReturn>TODO</ConfirmShuttleNotEnoughFuelToReturn>
+  <ConfirmShuttleNotEnoughFuelToReturn>شاتل سوخت کافی برای بازگشت از این مقصد ندارد. ممکن است گیر کند.\n\nشما در حال حاضر {0} سوخت دارید اما برای پرواز بازگشت به {1} سوخت نیاز دارید.\n\nآیا مطمئن هستید که می‌خواهید ادامه دهید؟</ConfirmShuttleNotEnoughFuelToReturn>
   <!-- EN: Caravan is immobile due to shuttle -->
-  <CaravanMovementSpeedShuttle>TODO</CaravanMovementSpeedShuttle>
+  <CaravanMovementSpeedShuttle>کاروان به دلیل شاتل غیرقابل حرکت است</CaravanMovementSpeedShuttle>
   <!-- EN: Refuel {0}x chemfuel -->
-  <RefuelShuttleCount>TODO</RefuelShuttleCount>
+  <RefuelShuttleCount>سوخت‌گیری {0}x سوخت شیمیایی</RefuelShuttleCount>
   <!-- EN: Zoom range (gravship) {0} -->
-  <ZoomRangeGravshipCutscene>TODO</ZoomRangeGravshipCutscene>
+  <ZoomRangeGravshipCutscene>محدوده زوم (کشتی گرانشی) {0}</ZoomRangeGravshipCutscene>
 
 </LanguageData>

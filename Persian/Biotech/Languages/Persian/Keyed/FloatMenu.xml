@@ -96,7 +96,7 @@
   <!-- EN: Cannot breastfeed {BABY_labelShort} -->
   <BabyCareBreastfeedUnable>نمی‌توان به {BABY_labelShort} شیر داد</BabyCareBreastfeedUnable>
   <!-- EN: Already breastfeeding {BABY_labelShort} -->
-  <AlreadyBreastfeeding>TODO</AlreadyBreastfeeding>
+  <AlreadyBreastfeeding>در حال شیردهی به {BABY_labelShort}</AlreadyBreastfeeding>
   <!-- EN: No baby-edible food -->
   <NoBabyFood>بدون غذای قابل خوردن برای نوزاد</NoBabyFood>
 
@@ -167,8 +167,8 @@
   <!-- EN: Cannot take to safe location -->
   <CannotCarryToSafePlace>نمی‌توان به مکان امن برد</CannotCarryToSafePlace>
   <!-- EN: No safer location than current location -->
-  <NoBetterSafePlace>TODO</NoBetterSafePlace>
+  <NoBetterSafePlace>مکانی امن‌تر از مکان فعلی وجود ندارد</NoBetterSafePlace>
   <!-- EN: Already taking to safe location -->
-  <AlreadyCarryingToSafePlace>TODO</AlreadyCarryingToSafePlace>
+  <AlreadyCarryingToSafePlace>در حال بردن به مکان امن</AlreadyCarryingToSafePlace>
 
 </LanguageData>

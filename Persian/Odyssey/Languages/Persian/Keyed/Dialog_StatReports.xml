@@ -3,41 +3,41 @@
 
   <!-- Gravship -->
   <!-- EN: Gravship range offset -->
-  <StatsReport_GravshipRangeOffset>TODO</StatsReport_GravshipRangeOffset>
+  <StatsReport_GravshipRangeOffset>جابجایی برد کشتی گرانشی</StatsReport_GravshipRangeOffset>
   <!-- EN: How much further this building lets a gravship travel on the world map. -->
-  <StatsReport_GravshipRangeOffset_Desc>TODO</StatsReport_GravshipRangeOffset_Desc>
+  <StatsReport_GravshipRangeOffset_Desc>این ساختمان چقدر اجازه می‌دهد کشتی گرانشی روی نقشه جهان بیشتر سفر کند.</StatsReport_GravshipRangeOffset_Desc>
   <!-- EN: Fuel savings -->
-  <StatsReport_GravshipFuelSavings>TODO</StatsReport_GravshipFuelSavings>
+  <StatsReport_GravshipFuelSavings>صرفه‌جویی سوخت</StatsReport_GravshipFuelSavings>
   <!-- EN: How much this building reduces fuel needed for gravship travel. -->
-  <StatsReport_GravshipFuelSavings_Desc>TODO</StatsReport_GravshipFuelSavings_Desc>
+  <StatsReport_GravshipFuelSavings_Desc>این ساختمان چقدر سوخت مورد نیاز برای سفر کشتی گرانشی را کاهش می‌دهد.</StatsReport_GravshipFuelSavings_Desc>
   <!-- EN: Fuel consumption -->
-  <StatsReport_GravEngineFuelConsumption>TODO</StatsReport_GravEngineFuelConsumption>
+  <StatsReport_GravEngineFuelConsumption>مصرف سوخت</StatsReport_GravEngineFuelConsumption>
   <!-- EN: A multiplier on how much fuel is needed during gravship travel. -->
-  <StatsReport_GravEngineFuelConsumption_Desc>TODO</StatsReport_GravEngineFuelConsumption_Desc>
+  <StatsReport_GravEngineFuelConsumption_Desc>ضریبی بر میزان سوخت مورد نیاز در طول سفر کشتی گرانشی.</StatsReport_GravEngineFuelConsumption_Desc>
 
   <!-- EN: Traits -->
-  <Stat_ThingUniqueWeaponTrait_Label>TODO</Stat_ThingUniqueWeaponTrait_Label>
+  <Stat_ThingUniqueWeaponTrait_Label>ویژگی‌ها</Stat_ThingUniqueWeaponTrait_Label>
   <!-- EN: This weapon's individual traits. -->
-  <Stat_ThingUniqueWeaponTrait_Desc>TODO</Stat_ThingUniqueWeaponTrait_Desc>
+  <Stat_ThingUniqueWeaponTrait_Desc>ویژگی‌های فردی این سلاح.</Stat_ThingUniqueWeaponTrait_Desc>
 
   <!-- EN: Weapon traits -->
-  <StatsReport_WeaponTraits>TODO</StatsReport_WeaponTraits>
+  <StatsReport_WeaponTraits>ویژگی‌های سلاح</StatsReport_WeaponTraits>
   <!-- EN: Burst shot count multiplier -->
-  <StatsReport_BurstShotCountMultiplier>TODO</StatsReport_BurstShotCountMultiplier>
+  <StatsReport_BurstShotCountMultiplier>ضریب تعداد شلیک انفجاری</StatsReport_BurstShotCountMultiplier>
   <!-- EN: Fire rate multiplier -->
-  <StatsReport_BurstShotSpeedMultiplier>TODO</StatsReport_BurstShotSpeedMultiplier>
+  <StatsReport_BurstShotSpeedMultiplier>ضریب نرخ آتش</StatsReport_BurstShotSpeedMultiplier>
   <!-- EN: Stopping power offset -->
-  <StatsReport_AdditionalStoppingPower>TODO</StatsReport_AdditionalStoppingPower>
+  <StatsReport_AdditionalStoppingPower>جابجایی قدرت توقف</StatsReport_AdditionalStoppingPower>
 
   <!-- EN: Airtight -->
-  <Stat_Airtight>TODO</Stat_Airtight>
+  <Stat_Airtight>هواگر</Stat_Airtight>
   <!-- EN: Airtight walls prevent a room from depressurizing in the vacuum of space. -->
-  <Stat_Airtight_Desc>TODO</Stat_Airtight_Desc>
+  <Stat_Airtight_Desc>دیوارهای هواگر از کاهش فشار اتاق در خلأ فضا جلوگیری می‌کنند.</Stat_Airtight_Desc>
 
   <!-- EN: Contained apparel beauty -->
-  <ContainedApparelBeauty>TODO</ContainedApparelBeauty>
+  <ContainedApparelBeauty>زیبایی لباس‌های محصور</ContainedApparelBeauty>
 
   <!-- EN: Sentience catalyst installed. -->
-  <StatsReport_SentienceCatalystInstalled>TODO</StatsReport_SentienceCatalystInstalled>
+  <StatsReport_SentienceCatalystInstalled>کاتالیزور احساس نصب شده است.</StatsReport_SentienceCatalystInstalled>
 
 </LanguageData>

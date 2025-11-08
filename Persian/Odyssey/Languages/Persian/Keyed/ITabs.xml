@@ -3,22 +3,22 @@
 
   <!-- Fishing -->
   <!-- EN: do X times -->
-  <FishRepeatMode_RepeatCount>TODO</FishRepeatMode_RepeatCount>
+  <FishRepeatMode_RepeatCount>X بار انجام دهید</FishRepeatMode_RepeatCount>
   <!-- EN: do until you have X -->
-  <FishRepeatMode_TargetCount>TODO</FishRepeatMode_TargetCount>
+  <FishRepeatMode_TargetCount>تا زمانی که X داشته باشید انجام دهید</FishRepeatMode_TargetCount>
   <!-- EN: do forever -->
-  <FishRepeatMode_Forever>TODO</FishRepeatMode_Forever>
+  <FishRepeatMode_Forever>برای همیشه انجام دهید</FishRepeatMode_Forever>
   <!-- EN: Fish population -->
-  <FishPopulation>TODO</FishPopulation>
+  <FishPopulation>جمعیت ماهی</FishPopulation>
   <!-- EN: How many fish are in this body of water. Larger bodies of water have more fish and will recover fish populations faster. -->
-  <FishPopulationDesc>TODO</FishPopulationDesc>
+  <FishPopulationDesc>چند ماهی در این توده آب وجود دارد. توده‌های آب بزرگ‌تر ماهی بیشتری دارند و جمعیت ماهی را سریع‌تر بازیابی خواهند کرد.</FishPopulationDesc>
   <!-- EN: Minimum population -->
-  <MinimumPopulation>TODO</MinimumPopulation>
+  <MinimumPopulation>جمعیت حداقل</MinimumPopulation>
   <!-- EN: Colonists won't fish if the fish population is under this limit. Fishing yields are lower if there are less than 300 fish. -->
-  <MinimumPopulationDesc>TODO</MinimumPopulationDesc>
+  <MinimumPopulationDesc>مهاجران ماهیگیری نخواهند کرد اگر جمعیت ماهی زیر این حد باشد. بازدهی ماهیگیری کمتر است اگر کمتر از 300 ماهی وجود داشته باشد.</MinimumPopulationDesc>
   <!-- EN: uncommon -->
-  <Uncommon>TODO</Uncommon>
+  <Uncommon>نادر</Uncommon>
   <!-- EN: When toggled off, colonists will avoid catching this fish. -->
-  <ToggleFishAvoid>TODO</ToggleFishAvoid>
+  <ToggleFishAvoid>وقتی خاموش است، مهاجران از گرفتن این ماهی اجتناب خواهند کرد.</ToggleFishAvoid>
   
 </LanguageData>

@@ -2,156 +2,156 @@
 <LanguageData>
 
   <!-- EN: {FACTION_pawnsPlural} from {FACTION_name} are attacking! They've used the gravcore to lure you into an ambush. -->
-  <GravcoreAbandonedSettlementRaid>TODO</GravcoreAbandonedSettlementRaid>
+  <GravcoreAbandonedSettlementRaid>{FACTION_pawnsPlural} از {FACTION_name} در حال حمله هستند! آنها از gravcore استفاده کرده‌اند تا شما را به کمین بکشانند.</GravcoreAbandonedSettlementRaid>
   <!-- EN: More reinforcements are on their way, and will arrive in the next few days. Prepare for their attack, or escape before they arrive. -->
-  <GravcoreAbandonedSettlementRaid_Reinforcements>TODO</GravcoreAbandonedSettlementRaid_Reinforcements>
+  <GravcoreAbandonedSettlementRaid_Reinforcements>تقویت‌های بیشتری در راه هستند و در چند روز آینده خواهند رسید. برای حمله آنها آماده شوید یا قبل از رسیدن فرار کنید.</GravcoreAbandonedSettlementRaid_Reinforcements>
   
   <!-- EN: Relay defense response -->
-  <GravcoreMechRelayRaidLetterLabel>TODO</GravcoreMechRelayRaidLetterLabel>
+  <GravcoreMechRelayRaidLetterLabel>پاسخ دفاع رله</GravcoreMechRelayRaidLetterLabel>
   <!-- EN: Mechanoids are arriving to defend the relay!\n\nThey are arriving by transport pod and will attack immediately. -->
-  <GravcoreMechRelayRaidLetterText>TODO</GravcoreMechRelayRaidLetterText>
+  <GravcoreMechRelayRaidLetterText>مکانیوئیدها برای دفاع از رله در حال آمدن هستند!\n\nآنها با غلاف حمل و نقل در حال آمدن هستند و فوراً حمله خواهند کرد.</GravcoreMechRelayRaidLetterText>
   
   <!-- EN: Amongst the remnants of the crashed mechanoid platform, a still-intact grav engine hums with energy.\n\nYou can build gravship substructure around the engine to create a new gravship. The engine pushes against gravity, levitating the ship and allowing long-distance travel.\n\nLaunch a gravship by researching basic gravtech, then building fuel tanks, thrusters, and a pilot console.\n\nLaunching a gravship will abandon your current map unless you build a grav anchor first.\n\n  - Research unlocked: Basic gravtech\n  - Flooring unlocked: Gravship substructure -->
-  <GravEngineInspectedLetterContents>TODO</GravEngineInspectedLetterContents>
+  <GravEngineInspectedLetterContents>در میان بقایای پلتفرم مکانیوئید سقوط کرده، یک موتور گرانشی هنوز سالم با انرژی زوزه می‌کشد.\n\nمی‌توانید زیرساخت کشتی گرانشی را حول موتور بسازید تا یک کشتی گرانشی جدید ایجاد کنید. موتور در برابر گرانش فشار می‌دهد، کشتی را شناور می‌کند و اجازه سفر طولانی‌مدت می‌دهد.\n\nیک کشتی گرانشی را با تحقیق فناوری گرانشی پایه، سپس ساخت مخازن سوخت، پیشرانه‌ها و کنسول خلبان پرتاب کنید.\n\nپرتاب کشتی گرانشی نقشه فعلی شما را رها خواهد کرد مگر اینکه ابتدا لنگر گرانشی بسازید.\n\n  - تحقیق باز شده: فناوری گرانشی پایه\n  - کفپوش باز شده: زیرساخت کشتی گرانشی</GravEngineInspectedLetterContents>
   <!-- EN: View quest -->
   <ViewQuest>مشاهده ماموریت</ViewQuest>
   
   <!-- Asteroid -->
   <!-- EN: {RESOURCE} asteroid -->
-  <AsteroidLetter>TODO</AsteroidLetter> 
+  <AsteroidLetter>سیارک {RESOURCE}</AsteroidLetter>
   <!-- EN: You've discovered the location of an asteroid orbiting the planet. It contains significant amounts of {RESOURCE}, and potentially other resources.\n\nOrbital miners steer valuable asteroids into planetary orbit so that they can be easily mined and sold to orbital traders. You do not detect any signs of life from this asteroid.\n\nYou can reach the asteroid with transport pods, shuttles, or a gravship. -->
-  <AsteroidLetterText>TODO</AsteroidLetterText>
+  <AsteroidLetterText>شما مکان یک سیارک در حال گردش حول سیاره را کشف کرده‌اید. آن حاوی مقادیر قابل توجهی {RESOURCE} است و احتمالاً منابع دیگر.\n\nمعدنچیان مداری سیارک‌های ارزشمند را به مدار سیاره هدایت می‌کنند تا به راحتی استخراج و به بازرگانان مداری فروخته شوند. شما هیچ نشانه‌ای از حیات از این سیارک تشخیص نمی‌دهید.\n\nمی‌توانید با غلاف‌های حمل و نقل، شاتل‌ها یا کشتی گرانشی به سیارک برسید.</AsteroidLetterText>
 
   <!-- EN: {RESOURCE} asteroid -->
-  <AsteroidName>TODO</AsteroidName>
+  <AsteroidName>سیارک {RESOURCE}</AsteroidName>
 
   <!-- Ancient Reactor -->
   <!-- EN: Ancient reactor -->
-  <AncientReactorArrivedLetter>TODO</AncientReactorArrivedLetter>
+  <AncientReactorArrivedLetter>راکتور باستانی</AncientReactorArrivedLetter>
   <!-- EN: An ancient reactor is hidden within nearby ruins. The reactor is damaged and leaking, covering the region in toxic fallout. Locate and disable the reactor to obtain a gravcore and stop the fallout. -->
-  <AncientReactorArrivedLetterText>TODO</AncientReactorArrivedLetterText>
+  <AncientReactorArrivedLetterText>یک راکتور باستانی در خرابه‌های نزدیک پنهان است. راکتور آسیب دیده و نشت دارد و منطقه را در بارش سمی پوشش داده است. راکتور را پیدا و غیرفعال کنید تا gravcore را به دست آورید و بارش را متوقف کنید.</AncientReactorArrivedLetterText>
 
   <!-- Frozen Terraformer -->
   <!-- EN: Ancient terraformer -->
-  <FrozenTerraformerArrivedLetter>TODO</FrozenTerraformerArrivedLetter>
+  <FrozenTerraformerArrivedLetter>زمین‌ساز باستانی</FrozenTerraformerArrivedLetter>
   <!-- EN: The malfunctioning terraformer has encased itself in solid ice. The gravcore energy signal is coming from somewhere within. Find and destroy the terraformer to obtain the gravcore. -->
-  <FrozenTerraformerArrivedLetterText>TODO</FrozenTerraformerArrivedLetterText>
+  <FrozenTerraformerArrivedLetterText>زمین‌ساز معیوب خود را در یخ جامد محصور کرده است. سیگنال انرژی gravcore از جایی در داخل می‌آید. زمین‌ساز را پیدا و نابود کنید تا gravcore را به دست آورید.</FrozenTerraformerArrivedLetterText>
 
   <!-- Ancient Stockpile -->
   <!-- EN: Ancient stockpile -->
-  <AncientStockpileArrivedLetter>TODO</AncientStockpileArrivedLetter>
+  <AncientStockpileArrivedLetter>انبار باستانی</AncientStockpileArrivedLetter>
   <!-- EN: The gravcore energy signal is coming from one of the nearby underground stockpiles. Hack the entrances and search the stockpiles to find the gravcore.\n\nBe careful, some of the defense systems may still be active. -->
-  <AncientStockpileArrivedLetterText>TODO</AncientStockpileArrivedLetterText>
+  <AncientStockpileArrivedLetterText>سیگنال انرژی gravcore از یکی از انبارهای زیرزمینی نزدیک می‌آید. ورودی‌ها را هک کنید و انبارها را جستجو کنید تا gravcore را پیدا کنید.\n\nمواظب باشید، برخی از سیستم‌های دفاعی ممکن است هنوز فعال باشند.</AncientStockpileArrivedLetterText>
 
   <!-- Orbital Mechanoid Platform -->
   <!-- EN: Mechanoid platform -->
-  <OrbitalMechanoidPlatformLetterArrived>TODO</OrbitalMechanoidPlatformLetterArrived>
+  <OrbitalMechanoidPlatformLetterArrived>پلتفرم مکانیوئید</OrbitalMechanoidPlatformLetterArrived>
   <!-- EN: This orbital platform is built to service and deploy combat mechanoids, likely as part of some ancient planet-spanning war machine.\n\nThe gravcore signal is coming from somewhere within. -->
-  <OrbitalMechanoidPlatformLetterArrivedText>TODO</OrbitalMechanoidPlatformLetterArrivedText>
+  <OrbitalMechanoidPlatformLetterArrivedText>این پلتفرم مداری برای سرویس و استقرار مکانیوئیدهای جنگی ساخته شده است، احتمالاً به عنوان بخشی از یک ماشین جنگ باستانی فراگیر سیاره.\n\nسیگنال gravcore از جایی در داخل می‌آید.</OrbitalMechanoidPlatformLetterArrivedText>
 
   <!-- Orbital Ancient Platform -->
   <!-- EN: Ancient platform -->
-  <OrbitalAncientPlatformLetterArrived>TODO</OrbitalAncientPlatformLetterArrived>
+  <OrbitalAncientPlatformLetterArrived>پلتفرم باستانی</OrbitalAncientPlatformLetterArrived>
   <!-- EN: The people who once inhabited this orbital platform are long gone and its original purpose has long been forgotten.\n\nThe gravcore signal is coming from somewhere within. -->
-  <OrbitalAncientPlatformLetterArrivedText>TODO</OrbitalAncientPlatformLetterArrivedText>
+  <OrbitalAncientPlatformLetterArrivedText>مردم که زمانی این پلتفرم مداری را سکونت داشتند مدت‌ها پیش رفته‌اند و هدف اصلی آن مدت‌ها فراموش شده است.\n\nسیگنال gravcore از جایی در داخل می‌آید.</OrbitalAncientPlatformLetterArrivedText>
   
   <!-- Ancient Reactor -->
   <!-- EN: Crashed mechanoid platform -->
-  <CrashedPlatformArrivedLetter>TODO</CrashedPlatformArrivedLetter>
+  <CrashedPlatformArrivedLetter>پلتفرم مکانیوئید سقوط کرده</CrashedPlatformArrivedLetter>
   <!-- EN: The remains of an orbital platform are strewn nearby. Be careful, the wreckage contains hostile mechanoids.\n\nThe gravcore signal is coming from somewhere within the crash site. -->
-  <CrashedPlatformArrivedLetterText>TODO</CrashedPlatformArrivedLetterText>
+  <CrashedPlatformArrivedLetterText>بقایای یک پلتفرم مداری نزدیک پراکنده شده است. مراقب باشید، wreckage حاوی مکانیوئیدهای خصمانه است.\n\nسیگنال gravcore از جایی در سایت تصادف می‌آید.</CrashedPlatformArrivedLetterText>
 
   <!-- Lava Incidents-->
   <!-- EN: Lava emergence -->
-  <LetterLabelLavaEmergence>TODO</LetterLabelLavaEmergence>
+  <LetterLabelLavaEmergence>ظهور گدازه</LetterLabelLavaEmergence>
   <!-- EN: Lava is emerging from cracks in the ground! It'll continue to pool until it creates a small lake. It will then take several days to cool, after which it can be removed. -->
-  <LetterLavaEmergence>TODO</LetterLavaEmergence>
+  <LetterLavaEmergence>گدازه از ترک‌های زمین در حال ظهور است! تا زمانی که یک دریاچه کوچک ایجاد کند، ادامه خواهد داد. سپس چند روز طول می‌کشد تا خنک شود، پس از آن می‌توان آن را حذف کرد.</LetterLavaEmergence>
   <!-- EN: Lava flow -->
-  <LetterLabelLavaFlow>TODO</LetterLabelLavaFlow>
+  <LetterLabelLavaFlow>جریان گدازه</LetterLabelLavaFlow>
   <!-- EN: Lava has begun to pour into the region, flooding the low-lying volcanic rock. Keep your colonists out of harm's way! -->
-  <LetterLavaFlow>TODO</LetterLavaFlow>
+  <LetterLavaFlow>گدازه شروع به ریختن در منطقه کرده است و سنگ‌های آتشفشانی پست را سیلابی کرده است. مهاجران خود را از آسیب دور نگه دارید!</LetterLavaFlow>
 
   <!-- Seasonal Flooding -->
   <!-- EN: Seasonal flooding -->
-  <LetterLabelSeasonalFlooding>TODO</LetterLabelSeasonalFlooding>
+  <LetterLabelSeasonalFlooding>سیل فصلی</LetterLabelSeasonalFlooding>
   <!-- EN: Rainfall upriver is causing the river to swell. The flooding will subside after several days. -->
-  <LetterSeasonalFlooding>TODO</LetterSeasonalFlooding>
+  <LetterSeasonalFlooding>بارندگی بالادست باعث تورم رودخانه شده است. سیل پس از چند روز فروکش خواهد کرد.</LetterSeasonalFlooding>
   <!-- EN: Low temperatures have begun to freeze the river. Flooding is subsiding. -->
-  <MessageSeasonalFloodingFrozen>TODO</MessageSeasonalFloodingFrozen>
+  <MessageSeasonalFloodingFrozen>دماهای پایین شروع به یخ زدن رودخانه کرده‌اند. سیل در حال فروکش است.</MessageSeasonalFloodingFrozen>
   <!-- EN: Flooding is subsiding. -->
-  <MessageFloodingSubsiding>TODO</MessageFloodingSubsiding>
+  <MessageFloodingSubsiding>سیل در حال فروکش است.</MessageFloodingSubsiding>
 
   <!-- Fishing -->
   <!-- EN: Rare catch -->
-  <LetterLabelRareCatch>TODO</LetterLabelRareCatch>
+  <LetterLabelRareCatch>صید نادر</LetterLabelRareCatch>
   <!-- EN: While fishing, {PAWN_nameDef} made an unusual catch -->
-  <LetterTextRareCatch>TODO</LetterTextRareCatch>
+  <LetterTextRareCatch>در حین ماهیگیری، {PAWN_nameDef} یک صید غیرمعمول کرد</LetterTextRareCatch>
 
   <!-- Pursuing Mechanoids -->
   <!-- EN: Incoming mechanoids -->
-  <LetterLabelMechanoidThreat>TODO</LetterLabelMechanoidThreat>
+  <LetterLabelMechanoidThreat>مکانیوئیدهای در حال آمدن</LetterLabelMechanoidThreat>
   <!-- EN: The mechhive's scanning process is close to determining your location. When it locates your gravship, it will send a massive mechanoid force to kill you.\n\nGather your supplies, then flee the map by selecting the pilot console, and selecting launch. -->
-  <LetterTextMechanoidThreat>TODO</LetterTextMechanoidThreat>
+  <LetterTextMechanoidThreat>فرآیند اسکن کندوی مکانیوئید نزدیک به تعیین موقعیت شما است. هنگامی که کشتی گرانشی شما را پیدا کند، یک نیروی مکانیوئیدی عظیم برای کشتن شما خواهد فرستاد.\n\nتدارکات خود را جمع کنید، سپس با انتخاب کنسول خلبان و انتخاب پرتاب از نقشه فرار کنید.</LetterTextMechanoidThreat>
 
   <!-- Mechhive -->
   <!-- EN: Mechhive signal -->
-  <LetterLabelMechhiveWarning>TODO</LetterLabelMechhiveWarning>
+  <LetterLabelMechhiveWarning>سیگنال کندوی مکانیوئید</LetterLabelMechhiveWarning>
   <!-- EN: You have detected a massive gravtech energy reading indicating that the mechhive is hidden somewhere in orbit. If you could find it, you could shut it down - or make use of its power.\n\nMechhives are production-and-control platforms that birth mechanoids and coordinate their actions around the planet. They're powered by a persona core.\n\nCollect more gravship technology to track down the mechhive's location. -->
-  <LetterTextMechhiveWarning>TODO</LetterTextMechhiveWarning>
+  <LetterTextMechhiveWarning>شما یک خوانش انرژی گرانشی عظیم را تشخیص داده‌اید که نشان می‌دهد کندوی مکانیوئید جایی در مدار پنهان است. اگر بتوانید آن را پیدا کنید، می‌توانید آن را خاموش کنید - یا از قدرت آن استفاده کنید.\n\nکندوهای مکانیوئید پلتفرم‌های تولید و کنترل هستند که مکانیوئیدها را به دنیا می‌آورند و اقدامات آنها را در سراسر سیاره هماهنگ می‌کنند. آنها توسط هسته پرسونا تغذیه می‌شوند.\n\nفناوری کشتی گرانشی بیشتری جمع کنید تا مکان کندوی مکانیوئید را ردیابی کنید.</LetterTextMechhiveWarning>
 
   <!-- EN: Cerebrex core -->
-  <OrbitalMechhiveLetterArrived>TODO</OrbitalMechhiveLetterArrived>
+  <OrbitalMechhiveLetterArrived>هسته serebrex</OrbitalMechhiveLetterArrived>
   <!-- EN: At the center of the orbital platform sits a massive mechanoid structure made of hair-fine ultratech filaments supporting an AI persona core. This is the intelligence core of the mechhive that directs mechanoids all over the planet.\n\nThe structure is protected by nearby stabilizers, making it nearly invulnerable. Find and destroy the cerebrex stabilizers to lower the core's defenses. -->
-  <OrbitalMechhiveLetterArrivedText>TODO</OrbitalMechhiveLetterArrivedText>
+  <OrbitalMechhiveLetterArrivedText>در مرکز پلتفرم مداری یک ساختار مکانیوئیدی عظیم قرار دارد که از رشته‌های فوق فناوری ریز مانند مو ساخته شده و هسته پرسونا AI را پشتیبانی می‌کند. این هسته هوشمندی کندوی مکانیوئید است که مکانیوئیدها را در سراسر سیاره هدایت می‌کند.\n\nساختار توسط تثبیت‌کننده‌های نزدیک محافظت می‌شود و آن را تقریباً آسیب‌ناپذیر می‌کند. تثبیت‌کننده‌های serebrex را پیدا و نابود کنید تا دفاع هسته را پایین آورید.</OrbitalMechhiveLetterArrivedText>
 
   <!-- EN: Mechanoid assault -->
-  <MechhiveRaidLetterLabel>TODO</MechhiveRaidLetterLabel>
+  <MechhiveRaidLetterLabel>حمله مکانیوئید</MechhiveRaidLetterLabel>
   <!-- EN: The cerebrex core is sending mechanoids to attack you. Get ready! -->
-  <MechhiveRaidLetterText>TODO</MechhiveRaidLetterText>
+  <MechhiveRaidLetterText>هسته serebrex مکانیوئیدها را برای حمله به شما می‌فرستد. آماده شوید!</MechhiveRaidLetterText>
 
   <!-- EN: Defense response -->
-  <MechhiveDefenseResponseLetterLabel>TODO</MechhiveDefenseResponseLetterLabel>
+  <MechhiveDefenseResponseLetterLabel>پاسخ دفاع</MechhiveDefenseResponseLetterLabel>
   <!-- EN: The mechanoid hive has summoned mechanoid reinforcements to defend itself. They are arriving by transport pod and will attack immediately! -->
-  <MechhiveDefenseResponseLetterText>TODO</MechhiveDefenseResponseLetterText>
+  <MechhiveDefenseResponseLetterText>کندوی مکانیوئید تقویت‌های مکانیوئیدی را برای دفاع از خود احضار کرده است. آنها با غلاف حمل و نقل در حال آمدن هستند و فوراً حمله خواهند کرد!</MechhiveDefenseResponseLetterText>
 
   <!-- EN: Cerebrex core -->
-  <CerebrexCoreLoweredLetterLabel>TODO</CerebrexCoreLoweredLetterLabel>
+  <CerebrexCoreLoweredLetterLabel>هسته serebrex</CerebrexCoreLoweredLetterLabel>
   <!-- EN: By destroying the stabilizers, you've lowered the cerebrex core's defenses. Send a colonist to inspect the core. -->
-  <CerebrexCoreLoweredLetterText>TODO</CerebrexCoreLoweredLetterText>
+  <CerebrexCoreLoweredLetterText>با نابود کردن تثبیت‌کننده‌ها، دفاع هسته serebrex را پایین آورده‌اید. یک مهاجر را برای بازرسی هسته بفرستید.</CerebrexCoreLoweredLetterText>
 
   <!-- EN: Mechanoids deactivated -->
-  <CerebrexCoreDestroyedLetterLabel>TODO</CerebrexCoreDestroyedLetterLabel>
+  <CerebrexCoreDestroyedLetterLabel>مکانیوئیدها غیرفعال شدند</CerebrexCoreDestroyedLetterLabel>
   <!-- EN: By destroying the cerebrex core, {PAWN_nameDef} has deactivated mechanoids across the planet.\n\nThe mechanoid threat is over. -->
-  <CerebrexCoreDestroyedLetterText>TODO</CerebrexCoreDestroyedLetterText>
+  <CerebrexCoreDestroyedLetterText>با نابود کردن هسته serebrex، {PAWN_nameDef} مکانیوئیدها را در سراسر سیاره غیرفعال کرده است.\n\nتهدید مکانیوئید پایان یافته است.</CerebrexCoreDestroyedLetterText>
 
   <!-- EN: Cerebrex node -->
-  <CerebrexCoreScavengedLetterLabel>TODO</CerebrexCoreScavengedLetterLabel>
+  <CerebrexCoreScavengedLetterLabel>گره serebrex</CerebrexCoreScavengedLetterLabel>
   <!-- EN: The scavenged node from the cerebrex core lies nearby. It responds strongly to the core, clearly still linked to it.\n\nEquip the node to a colonist to make use of it. -->
-  <CerebrexCoreScavengedLetterText>TODO</CerebrexCoreScavengedLetterText>
+  <CerebrexCoreScavengedLetterText>گره غارت شده از هسته serebrex نزدیک قرار دارد. آن به شدت به هسته پاسخ می‌دهد و به وضوح هنوز به آن مرتبط است.\n\nگره را به یک مهاجر مجهز کنید تا از آن استفاده کنید.</CerebrexCoreScavengedLetterText>
 
   <!-- Caravan entered enemy base -->
   <!-- EN: Attack begun -->
-  <LetterLabelGravshipEnteredEnemyBase>TODO</LetterLabelGravshipEnteredEnemyBase>
+  <LetterLabelGravshipEnteredEnemyBase>حمله آغاز شد</LetterLabelGravshipEnteredEnemyBase>
   <!-- EN: Your gravship has landed at {0} and is ready to begin the attack. -->
-  <LetterGravshipEnteredEnemyBase>TODO</LetterGravshipEnteredEnemyBase>
+  <LetterGravshipEnteredEnemyBase>کشتی گرانشی شما در {0} فرود آمده و آماده شروع حمله است.</LetterGravshipEnteredEnemyBase>
   
   <!-- Survey Scanner -->
   <!-- EN: Surveying scanner -->
-  <LetterLabelSurveyScannerArrived>TODO</LetterLabelSurveyScannerArrived>
+  <LetterLabelSurveyScannerArrived>اسکنر نقشه‌برداری</LetterLabelSurveyScannerArrived>
   <!-- EN: Protect the scanner until it's finished surveying the area. This will take {DURATION}. -->
-  <LetterSurveyScannerArrived>TODO</LetterSurveyScannerArrived>
+  <LetterSurveyScannerArrived>تا زمانی که اسکنر نقشه‌برداری منطقه را تمام کند، آن را محافظت کنید. این کار {DURATION} طول خواهد کشید.</LetterSurveyScannerArrived>
   
   <!-- Psilocaps -->
   <!-- EN: Due to ingesting psilocaps, [PAWN_nameIndef] has experienced an inspiration! -->
-  <LetterInspirationBeginPsilocap>TODO</LetterInspirationBeginPsilocap> <!-- text_todo -->
+  <LetterInspirationBeginPsilocap>به دلیل مصرف psilocaps، [PAWN_nameIndef] الهام گرفته است!</LetterInspirationBeginPsilocap> <!-- text_todo -->
   <!-- EN: This happened due to ingesting psilocaps. -->
-  <MentalBreakReason_Psilocap>TODO</MentalBreakReason_Psilocap> <!-- text_todo -->
+  <MentalBreakReason_Psilocap>این به دلیل مصرف psilocaps اتفاق افتاد.</MentalBreakReason_Psilocap> <!-- text_todo -->
 
   <!-- EN: Insect lair -->
-  <EnteredMegahiveLabel>TODO</EnteredMegahiveLabel>
+  <EnteredMegahiveLabel>لانه حشرات</EnteredMegahiveLabel>
   <!-- EN: {PAWN_nameDef} has arrived in the depths of a massive underground insect lair. The air is heavy with the stench of insect secretions. -->
-  <EnteredMegahiveText>TODO</EnteredMegahiveText>
+  <EnteredMegahiveText>{PAWN_nameDef} به اعماق یک لانه حشرات زیرزمینی عظیم رسیده است. هوا سنگین از بوی ترشحات حشرات است.</EnteredMegahiveText>
   <!-- EN: The gravcore signal is coming from somewhere behind the burrow walls. Attack the burrow walls to explore further. -->
-  <EnteredMegahiveGravcoreExtra>TODO</EnteredMegahiveGravcoreExtra>
+  <EnteredMegahiveGravcoreExtra>سیگنال gravcore از جایی پشت دیوارهای حفره می‌آید. دیوارهای حفره را حمله کنید تا بیشتر کاوش کنید.</EnteredMegahiveGravcoreExtra>
 
 </LanguageData>

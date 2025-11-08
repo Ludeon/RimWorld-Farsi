@@ -83,7 +83,7 @@ def main():
     Main function to find missing translations.
     """
     script_dir = Path(__file__).parent
-    project_root = script_dir.parent
+    project_root = script_dir.parent.parent
 
     english_dir = project_root / 'english'
     persian_dir = project_root / 'Persian'
@@ -122,8 +122,9 @@ def main():
             # Consider it missing if:
             # 1. Key doesn't exist in Persian
             # 2. Persian value is empty or None
-            if not persian_value:
-                missing_translations[key] = english_value
+            # 3. Persian value is the same as English (untranslated)
+            if not persian_value or persian_value == english_value:
+                missing_translations[key] = (english_value, persian_file)
 
     print(f"\nFound {len(missing_translations)} missing translations")
 

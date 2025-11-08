@@ -3,27 +3,27 @@
 
   <!-- Create/review world -->
   <!-- EN: Landmarks -->
-  <PlanetLandmarkDensity>TODO</PlanetLandmarkDensity>
+  <PlanetLandmarkDensity>نقاط دیدنی</PlanetLandmarkDensity>
   <!-- EN: Sparse -->
-  <PlanetLandmarkDensity_Low>TODO</PlanetLandmarkDensity_Low>
+  <PlanetLandmarkDensity_Low>پراکنده</PlanetLandmarkDensity_Low>
   <!-- EN: Normal -->
-  <PlanetLandmarkDensity_Normal>TODO</PlanetLandmarkDensity_Normal>
+  <PlanetLandmarkDensity_Normal>عادی</PlanetLandmarkDensity_Normal>
   <!-- EN: Crowded -->
-  <PlanetLandmarkDensity_High>TODO</PlanetLandmarkDensity_High>
+  <PlanetLandmarkDensity_High>شلوغ</PlanetLandmarkDensity_High>
   
   <!-- EN: Preparing for takeoff -->
-  <GeneratingGravship>TODO</GeneratingGravship>
+  <GeneratingGravship>آماده شدن برای برخاستن</GeneratingGravship>
   <!-- EN: Preparing for landing -->
-  <PreparingForLanding>TODO</PreparingForLanding>
+  <PreparingForLanding>آماده شدن برای فرود</PreparingForLanding>
 
   <!-- EN: Subject -->
-  <Subject>TODO</Subject>
+  <Subject>موضوع</Subject>
 
   <!-- EN: Fishing yield -->
-  <Difficulty_FishingYieldFactor_Label>TODO</Difficulty_FishingYieldFactor_Label>
+  <Difficulty_FishingYieldFactor_Label>بازدهی ماهیگیری</Difficulty_FishingYieldFactor_Label>
   <!-- EN: Adjust how many fish are caught when fishing. -->
-  <Difficulty_FishingYieldFactor_Info>TODO</Difficulty_FishingYieldFactor_Info>
+  <Difficulty_FishingYieldFactor_Info>تنظیم کنید چند ماهی هنگام ماهیگیری گرفته شود.</Difficulty_FishingYieldFactor_Info>
 
   <!-- EN: Disabling {0} will make it impossible to complete major Odyssey quests. -->
-  <OdysseyFactionDisabledContentWarning>TODO</OdysseyFactionDisabledContentWarning>
+  <OdysseyFactionDisabledContentWarning>غیرفعال کردن {0} تکمیل ماموریت‌های اصلی ادیسه را غیرممکن خواهد کرد.</OdysseyFactionDisabledContentWarning>
 </LanguageData>
