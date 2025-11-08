@@ -196,7 +196,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.module }}-processed-${{ github.run_id }}
-          path: ${{ env.BUILD_DIR }}/${{ matrix.module }}/
+          path: ${{ env.BUILD_DIR }}/${{ matrix.module }}/**
           retention-days: 1
           if-no-files-found: warn
 
@@ -236,9 +236,9 @@ jobs:
           mkdir -p ${{ env.BUILD_DIR }}
 
           # Copy all processed modules
-          for module_dir in modules/*-processed-${{ github.run_id }}/*/; do
-            if [ -d "$module_dir" ]; then
-              cp -r "$module_dir" ${{ env.BUILD_DIR }}/
+          for module in Core Biotech Ideology Royalty Anomaly Odyssey; do
+            if [ -d "modules/${module}-processed-${{ github.run_id }}" ]; then
+              cp -r "modules/${module}-processed-${{ github.run_id }}"/* "${{ env.BUILD_DIR }}/${module}/"
             fi
           done
 
