@@ -1,91 +1,330 @@
-name: Translation Workflow (Beta)
+name: Persian Translation CI/CD
+
 on:
   push:
-    branches:
-      - main
+    branches: [main]
+    paths:
+      - 'RTL-Tools-Python-Beta/**'
+      - 'Persian/**'
+      - '.github/workflows/persianCorrectionPythonBeta.yml'
   pull_request:
-    branches:
-      - main
+    branches: [main]
+    paths:
+      - 'RTL-Tools-Python-Beta/**'
+      - 'Persian/**'
+      - '.github/workflows/persianCorrectionPythonBeta.yml'
   workflow_dispatch:
+    inputs:
+      python_version:
+        description: 'Python version to use'
+        required: false
+        default: '3.12'
+        type: choice
+        options:
+          - '3.11'
+          - '3.12'
+          - '3.13'
+      enable_security_scan:
+        description: 'Enable advanced security scanning'
+        required: false
+        default: true
+        type: boolean
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 env:
-  ACTIONS_RUNNER_DEBUG: ${{ secrets.ACTIONS_RUNNER_DEBUG || false }}
+  PYTHON_VERSION: ${{ github.event.inputs.python_version || '3.12' }}
+  UV_CACHE_DIR: ~/.cache/uv
+  BUILD_DIR: Persian
+  TOOLS_DIR: RTL-Tools-Python-Beta
 
 permissions:
   contents: read
   actions: read
+  security-events: write
+  pull-requests: write
+  checks: write
+  id-token: write
 
 jobs:
-  translation_job:
+  security:
+    name: Security & Dependency Analysis
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 10
+    if: github.event_name == 'pull_request' || github.event.inputs.enable_security_scan != 'false'
 
     steps:
-      - name: Checkout Repository
-        id: checkout
-        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332
-
-      - name: Set up Python
-        id: setup-python
-        uses: actions/setup-python@39cd14951b08e74b54015e9e001cdefcf80e669f
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
-          python-version: '3.11'
+          fetch-depth: 0
 
-      - name: Cache pip dependencies
-        id: cache-pip
+      - name: Run CodeQL Analysis
+        uses: github/codeql-action/init@v3
+        with:
+          languages: python
+
+      - name: Autobuild
+        uses: github/codeql-action/autobuild@v3
+
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v3
+
+      - name: Dependency Review
+        uses: actions/dependency-review-action@v4
+        if: github.event_name == 'pull_request'
+
+  test:
+    name: Quality Assurance
+    runs-on: ubuntu-latest-8-cores
+    timeout-minutes: 15
+    needs: security
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.12', '3.13']
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          version: "latest"
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Cache uv dependencies
         uses: actions/cache@v4
         with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('RTL-Tools-Python-Beta/requirements.txt') }}
+          path: ${{ env.UV_CACHE_DIR }}
+          key: ${{ runner.os }}-uv-${{ matrix.python-version }}-${{ hashFiles('RTL-Tools-Python-Beta/requirements.txt', 'RTL-Tools-Python-Beta/pyproject.toml') }}
           restore-keys: |
-            ${{ runner.os }}-pip-
+            ${{ runner.os }}-uv-${{ matrix.python-version }}-
 
-      - name: Install Python dependencies
-        id: install-deps
-        run: pip install -r RTL-Tools-Python-Beta/requirements.txt
-
-      - name: Run unit tests
-        id: run-tests
+      - name: Install dependencies with uv
         run: |
-          cd RTL-Tools-Python-Beta
-          python -m pytest tests/ -v --tb=short
-        continue-on-error: false
+          cd ${{ env.TOOLS_DIR }}
+          uv pip install --system -r requirements.txt
+          uv pip install --system flake8 black isort mypy pytest-cov pip-audit
 
-      - name: Run translation script (Python)
-        id: run-translation
+      - name: Run security audit
         run: |
-          echo "Listing files:"
-          ls
-          dest_dir="../Persian/"
-          cd RTL-Tools-Python-Beta
-          python3 PersianFixer.py "$dest_dir" || { echo "PersianFixer.py failed"; exit 1; }
-          echo "Correction complete."
-        working-directory: ${{ github.workspace }}
+          cd ${{ env.TOOLS_DIR }}
+          pip-audit --format json | tee audit-results.json
 
-      - name: Validate XML files
-        id: validate-xml
+      - name: Code quality checks
         run: |
-          python3 validate_xml.py "../Persian/"
-        working-directory: RTL-Tools-Python-Beta
+          cd ${{ env.TOOLS_DIR }}
+          flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+          flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+          black --check --diff --color .
+          isort --check-only --diff --color .
+          mypy . --ignore-missing-imports --show-error-codes
 
-      - name: Create ZIP archive with metadata
-        id: create-zip
+      - name: Run tests with coverage
         run: |
-          cd ${{ github.workspace }}
-          # Add build metadata
-          echo "Build: ${{ github.run_id }}-${{ github.run_attempt }}" > Persian/build_info.txt
-          echo "Commit: ${{ github.sha }}" >> Persian/build_info.txt
-          echo "Timestamp: $(date -u +'%Y-%m-%dT%H:%M:%SZ')" >> Persian/build_info.txt
-          zip -r persian.language.zip ./Persian
-          # Generate checksum
-          sha256sum persian.language.zip > persian.language.zip.sha256
+          cd ${{ env.TOOLS_DIR }}
+          python -m pytest tests/ -v --tb=short --cov=. --cov-report=xml --cov-report=term-missing
 
-      - name: Upload ZIP as workflow artifact
-        id: upload-artifact
-        uses: actions/upload-artifact@834a144ee995460fba8ed112a2fc961b36a5ec5a
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v4
+        if: matrix.python-version == '3.12'
         with:
-          name: persian.language.zip
+          file: ${{ env.TOOLS_DIR }}/coverage.xml
+          flags: unittests
+          name: codecov-umbrella
+          fail_ci_if_error: false
+
+  build:
+    name: Build & Validate
+    runs-on: ubuntu-latest-8-cores
+    timeout-minutes: 20
+    needs: test
+    permissions:
+      contents: read
+      actions: read
+      id-token: write
+
+    outputs:
+      artifact-name: ${{ steps.artifact.outputs.name }}
+      build-id: ${{ steps.metadata.outputs.build-id }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          version: "latest"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Cache uv dependencies
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.UV_CACHE_DIR }}
+          key: ${{ runner.os }}-uv-${{ env.PYTHON_VERSION }}-${{ hashFiles('RTL-Tools-Python-Beta/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-uv-${{ env.PYTHON_VERSION }}-
+
+      - name: Install dependencies
+        run: |
+          cd ${{ env.TOOLS_DIR }}
+          uv pip install --system -r requirements.txt
+
+      - name: Process translations
+        id: translation
+        run: |
+          echo "🔄 Processing Persian translations..."
+          cd ${{ env.TOOLS_DIR }}
+          python PersianFixer.py "../${{ env.BUILD_DIR }}/"
+          echo "✅ Translation processing completed"
+
+      - name: Validate XML structure
+        id: validation
+        run: |
+          echo "🔍 Validating XML files..."
+          cd ${{ env.TOOLS_DIR }}
+          python validate_xml.py "../${{ env.BUILD_DIR }}/"
+          echo "✅ XML validation completed"
+
+      - name: Generate build metadata
+        id: metadata
+        run: |
+          BUILD_ID="${{ github.run_id }}-${{ github.run_attempt }}"
+          TIMESTAMP="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          echo "build-id=$BUILD_ID" >> $GITHUB_OUTPUT
+          echo "timestamp=$TIMESTAMP" >> $GITHUB_OUTPUT
+
+          # Create comprehensive build info
+          cat > ${{ env.BUILD_DIR }}/build_info.json << EOF
+          {
+            "build_id": "$BUILD_ID",
+            "commit": "${{ github.sha }}",
+            "timestamp": "$TIMESTAMP",
+            "repository": "${{ github.repository }}",
+            "workflow": "${{ github.workflow }}",
+            "trigger": "${{ github.event_name }}",
+            "branch": "${{ github.ref_name }}",
+            "actor": "${{ github.actor }}",
+            "python_version": "${{ env.PYTHON_VERSION }}",
+            "run_id": "${{ github.run_id }}",
+            "run_attempt": "${{ github.run_attempt }}"
+          }
+          EOF
+
+      - name: Create distribution package
+        id: artifact
+        run: |
+          ARTIFACT_NAME="persian-language-${{ steps.metadata.outputs.build-id }}"
+          echo "name=$ARTIFACT_NAME" >> $GITHUB_OUTPUT
+
+          # Create optimized ZIP
+          cd ${{ env.BUILD_DIR }}
+          zip -r "../$ARTIFACT_NAME.zip" . --compression-method deflate
+
+          # Generate cryptographic hashes
+          sha256sum "../$ARTIFACT_NAME.zip" > "../$ARTIFACT_NAME.zip.sha256"
+          md5sum "../$ARTIFACT_NAME.zip" > "../$ARTIFACT_NAME.zip.md5"
+
+      - name: Attest build provenance
+        uses: actions/attest-build-provenance@v1
+        with:
+          subject-path: ${{ steps.artifact.outputs.name }}.zip
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.artifact.outputs.name }}
           path: |
-            ./persian.language.zip
-            ./persian.language.zip.sha256
+            ${{ steps.artifact.outputs.name }}.zip
+            ${{ steps.artifact.outputs.name }}.zip.sha256
+            ${{ steps.artifact.outputs.name }}.zip.md5
           retention-days: 30
+          if-no-files-found: error
+
+      - name: Generate enhanced job summary
+        if: always()
+        run: |
+          echo "# 🚀 Persian Translation Build Summary" >> $GITHUB_STEP_SUMMARY
+          echo "| Property | Value |" >> $GITHUB_STEP_SUMMARY
+          echo "|----------|-------|" >> $GITHUB_STEP_SUMMARY
+          echo "| Status | ${{ job.status == 'success' && '✅ Success' || '❌ Failed' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Build ID | ${{ steps.metadata.outputs.build-id }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Commit | \`${{ github.sha }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| Timestamp | ${{ steps.metadata.outputs.timestamp }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Python Version | ${{ env.PYTHON_VERSION }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Trigger | ${{ github.event_name }} |" >> $GITHUB_STEP_SUMMARY
+
+          if [ "${{ job.status }}" = "success" ]; then
+            echo "| Artifact | [\`${{ steps.artifact.outputs.name }}.zip\`](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts/${{ steps.artifact.outputs.name }}) |" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "## 📋 Build Results" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ job.status }}" = "success" ]; then
+            echo "- ✅ Security checks passed" >> $GITHUB_STEP_SUMMARY
+            echo "- ✅ Quality assurance completed" >> $GITHUB_STEP_SUMMARY
+            echo "- ✅ Translation processing successful" >> $GITHUB_STEP_SUMMARY
+            echo "- ✅ XML validation passed" >> $GITHUB_STEP_SUMMARY
+            echo "- ✅ Build artifacts created and attested" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "- ❌ Build failed - review job logs for details" >> $GITHUB_STEP_SUMMARY
+          fi
+
+  release:
+    name: Automated Release
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    needs: build
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+
+    permissions:
+      contents: write
+      id-token: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download build artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ needs.build.outputs.artifact-name }}
+          path: artifacts/
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: build-${{ needs.build.outputs.build-id }}
+          name: Persian Language Pack ${{ needs.build.outputs.build-id }}
+          body: |
+            Automated build of Persian language pack for RimWorld.
+
+            **Build Details:**
+            - Commit: ${{ github.sha }}
+            - Build ID: ${{ needs.build.outputs.build-id }}
+            - Timestamp: ${{ github.event.head_commit.timestamp }}
+
+            **Files:**
+            - `persian-language-${{ needs.build.outputs.build-id }}.zip` - Main language pack
+            - SHA256 and MD5 checksums included
+          files: artifacts/*
+          draft: false
+          prerelease: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
