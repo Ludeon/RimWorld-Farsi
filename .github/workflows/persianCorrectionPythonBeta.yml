@@ -56,7 +56,7 @@ jobs:
         run: |
           echo "Listing files:"
           ls
-          dest_dir="./Persian/"
+          dest_dir="../Persian/"
           cd RTL-Tools-Python-Beta
           python3 PersianFixer.py "$dest_dir" || { echo "PersianFixer.py failed"; exit 1; }
           echo "Correction complete."
