@@ -244,11 +244,6 @@ jobs:
           sha256sum "../$ARTIFACT_NAME.zip" > "../$ARTIFACT_NAME.zip.sha256"
           md5sum "../$ARTIFACT_NAME.zip" > "../$ARTIFACT_NAME.zip.md5"
 
-      - name: Attest build provenance
-        uses: actions/attest-build-provenance@v1
-        with:
-          subject-path: ${{ steps.artifact.outputs.name }}.zip
-
       - name: Upload build artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -284,7 +279,7 @@ jobs:
             echo "- ✅ Quality assurance completed" >> $GITHUB_STEP_SUMMARY
             echo "- ✅ Translation processing successful" >> $GITHUB_STEP_SUMMARY
             echo "- ✅ XML validation passed" >> $GITHUB_STEP_SUMMARY
-            echo "- ✅ Build artifacts created and attested" >> $GITHUB_STEP_SUMMARY
+            echo "- ✅ Build artifacts created" >> $GITHUB_STEP_SUMMARY
           else
             echo "- ❌ Build failed - review job logs for details" >> $GITHUB_STEP_SUMMARY
           fi
