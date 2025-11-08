@@ -84,11 +84,11 @@ jobs:
 
   test:
     name: Quality Assurance
-    if: github.event_name != 'workflow_dispatch' || github.event.inputs.enable_qa != 'false'
     uses: ./.github/workflows/reusable-testing.yml
     with:
       python_versions: '["3.11", "3.12", "3.13"]'
       enable_benchmarks: ${{ github.event.inputs.enable_performance_benchmark == 'true' }}
+      skip_qa: ${{ github.event.inputs.enable_qa == 'false' }}
 
   build:
     name: Build & Validate

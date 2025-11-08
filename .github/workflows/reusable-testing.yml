@@ -11,6 +11,10 @@ on:
         description: 'Enable performance benchmarking'
         type: boolean
         default: false
+      skip_qa:
+        description: 'Skip quality assurance checks'
+        type: boolean
+        default: false
     secrets:
       CODECOV_TOKEN:
         required: false
@@ -40,16 +44,19 @@ jobs:
           python-version: ${{ matrix.python-version }}
 
       - name: Install test dependencies
+        if: inputs.skip_qa != true
         run: |
           cd ${{ env.TOOLS_DIR }}
           uv pip install --system flake8 black isort mypy pytest-cov pip-audit ruff pytest-benchmark
 
       - name: Run security audit
+        if: inputs.skip_qa != true
         run: |
           cd ${{ env.TOOLS_DIR }}
           pip-audit --format json | tee audit-results.json
 
       - name: Code quality checks
+        if: inputs.skip_qa != true
         run: |
           cd ${{ env.TOOLS_DIR }}
           ruff check . --output-format=github
@@ -58,6 +65,7 @@ jobs:
           mypy . --ignore-missing-imports --show-error-codes
 
       - name: Run tests with coverage
+        if: inputs.skip_qa != true
         run: |
           cd ${{ env.TOOLS_DIR }}
           python -m pytest tests/ -v --tb=short --cov=. --cov-report=xml --cov-report=term-missing --durations=10
