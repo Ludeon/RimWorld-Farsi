@@ -9,51 +9,83 @@ on:
   workflow_dispatch:
 
 env:
-  ACTIONS_RUNNER_DEBUG: true
+  ACTIONS_RUNNER_DEBUG: ${{ secrets.ACTIONS_RUNNER_DEBUG || false }}
+
+permissions:
+  contents: read
+  actions: read
 
 jobs:
   translation_job:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        id: checkout
+        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        id: setup-python
+        uses: actions/setup-python@39cd14951b08e74b54015e9e001cdefcf80e669f
         with:
           python-version: '3.11'
 
+      - name: Cache pip dependencies
+        id: cache-pip
+        uses: actions/cache@6849a6489940f00c2f30c0fb92c6274307ccb58a
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('RTL-Tools-Python-Beta/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
       - name: Install Python dependencies
-        run: pip install lxml pytest
+        id: install-deps
+        run: pip install -r RTL-Tools-Python-Beta/requirements.txt
 
       - name: Run unit tests
+        id: run-tests
         run: |
-          cd ${{ github.workspace }}/RTL-Tools-Python-Beta
-          python -m pytest tests/ -v
+          cd RTL-Tools-Python-Beta
+          python -m pytest tests/ -v --tb=short
+        continue-on-error: false
 
       - name: Run translation script (Python)
+        id: run-translation
         run: |
-          cd ${{ github.workspace }}
           echo "Listing files:"
           ls
-          dest_dir="${{ github.workspace }}/Persian/"
+          dest_dir="./Persian/"
           cd RTL-Tools-Python-Beta
           python3 PersianFixer.py "$dest_dir" || { echo "PersianFixer.py failed"; exit 1; }
           echo "Correction complete."
+        working-directory: ${{ github.workspace }}
 
       - name: Validate XML files
+        id: validate-xml
         run: |
-          cd ${{ github.workspace }}/RTL-Tools-Python-Beta
-          python3 validate_xml.py "${{ github.workspace }}/Persian/"
+          python3 validate_xml.py "../Persian/"
+        working-directory: RTL-Tools-Python-Beta
 
-      - name: Create ZIP archive
+      - name: Create ZIP archive with metadata
+        id: create-zip
         run: |
           cd ${{ github.workspace }}
+          # Add build metadata
+          echo "Build: ${{ github.run_id }}-${{ github.run_attempt }}" > Persian/build_info.txt
+          echo "Commit: ${{ github.sha }}" >> Persian/build_info.txt
+          echo "Timestamp: $(date -u +'%Y-%m-%dT%H:%M:%SZ')" >> Persian/build_info.txt
           zip -r persian.language.zip ./Persian
+          # Generate checksum
+          sha256sum persian.language.zip > persian.language.zip.sha256
 
       - name: Upload ZIP as workflow artifact
-        uses: actions/upload-artifact@v4
+        id: upload-artifact
+        uses: actions/upload-artifact@834a144ee995460fba8ed112a2fc961b36a5ec5a
         with:
           name: persian.language.zip
-          path: ./persian.language.zip
+          path: |
+            ./persian.language.zip
+            ./persian.language.zip.sha256
+          retention-days: 30
