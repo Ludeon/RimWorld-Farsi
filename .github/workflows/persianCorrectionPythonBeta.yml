@@ -242,7 +242,7 @@ jobs:
 
           echo "✅ Module merging completed"
 
-      - name: Generate build metadata
+      - name: Generate comprehensive build report
         id: metadata
         run: |
           BUILD_ID="${{ github.run_id }}-${{ github.run_attempt }}"
@@ -254,7 +254,111 @@ jobs:
           TOTAL_TRANSLATION=0
           TOTAL_VALIDATION=0
 
-          # Create comprehensive build info
+          # Create comprehensive reports.txt
+          cat > ${{ env.BUILD_DIR }}/reports.txt << 'EOF'
+          ========================================
+          PERSIAN LANGUAGE PACK BUILD REPORT
+          ========================================
+
+          BUILD INFORMATION
+          -----------------
+          Build ID: ${{ github.run_id }}-${{ github.run_attempt }}
+          Commit: ${{ github.sha }}
+          Timestamp: $TIMESTAMP
+          Repository: ${{ github.repository }}
+          Workflow: ${{ github.workflow }}
+          Trigger: ${{ github.event_name }}
+          Branch: ${{ github.ref_name }}
+          Actor: ${{ github.actor }}
+          Run ID: ${{ github.run_id }}
+          Run Attempt: ${{ github.run_attempt }}
+
+          CONFIGURATION
+          -------------
+          Python Version: ${{ env.PYTHON_VERSION }}
+          Enable Security Scan: ${{ github.event.inputs.enable_security_scan || 'true' }}
+          Enable QA: ${{ github.event.inputs.enable_qa || 'true' }}
+          Enable Performance Benchmark: ${{ github.event.inputs.enable_performance_benchmark || 'false' }}
+          Enable Compliance Checks: ${{ github.event.inputs.enable_compliance_checks || 'false' }}
+          Create Release: ${{ github.event.inputs.create_release || 'false' }}
+          Is Pre-release: ${{ github.event.inputs.is_prerelease || 'true' }}
+
+          DEPENDENCIES & TOOLS
+          -------------------
+          Python Packages (from requirements.txt):
+          EOF
+
+          # Add Python dependencies
+          if [ -f "${{ env.TOOLS_DIR }}/requirements.txt" ]; then
+            echo "Contents of requirements.txt:" >> ${{ env.BUILD_DIR }}/reports.txt
+            cat ${{ env.TOOLS_DIR }}/requirements.txt >> ${{ env.BUILD_DIR }}/reports.txt
+            echo "" >> ${{ env.BUILD_DIR }}/reports.txt
+          fi
+
+          cat >> ${{ env.BUILD_DIR }}/reports.txt << 'EOF'
+
+          GitHub Actions Used:
+          - actions/checkout@v4
+          - actions/setup-python (custom action)
+          - github/codeql-action/init@v3
+          - github/codeql-action/autobuild@v3
+          - github/codeql-action/analyze@v3
+          - actions/dependency-review-action@v4
+          - aquasecurity/trivy (via apt)
+          - actions/upload-artifact@v4
+          - actions/download-artifact@v4
+          - actions/attest-build-provenance@v1
+          - sigstore/cosign-installer@v3
+          - softprops/action-gh-release@v2
+          - codecov/codecov-action@v5
+
+          System Tools:
+          - Python ${{ env.PYTHON_VERSION }}
+          - pip, uv (package manager)
+          - lxml (XML processing)
+          - pytest (testing)
+          - mypy (type checking)
+          - ruff (linting)
+          - black (code formatting)
+          - isort (import sorting)
+          - pip-audit (security audit)
+          - pip-licenses (license checking)
+
+          PROCESSING STATISTICS
+          --------------------
+          Parallel Processing: Enabled
+          Modules Processed: Core, Biotech, Ideology, Royalty, Anomaly, Odyssey
+          Total Modules: 6
+
+          WORKFLOW EXECUTION SUMMARY
+          --------------------------
+          Security Job: ${{ needs.security.result || 'not_run' }}
+          QA Job: ${{ needs.test.result || 'not_run' }}
+          Build Jobs: Parallel execution across 6 modules
+          Merge & Package: ${{ job.status }}
+
+          KEY OUTPUTS
+          -----------
+          - Persian language pack ZIP archive
+          - SHA256 and MD5 checksums
+          - SLSA Level 3 provenance attestation
+          - Sigstore cryptographic signatures
+          - Comprehensive build report (this file)
+
+          NOTES FOR FUTURE IMPROVEMENTS
+          -----------------------------
+          - Review any warnings in job logs
+          - Check code quality metrics in test results
+          - Monitor performance benchmarks if enabled
+          - Verify security scan results in Security tab
+          - Test language pack in RimWorld for any issues
+
+          ========================================
+          END OF REPORT
+          ========================================
+          EOF
+
+          # Also create the JSON for backward compatibility
           cat > ${{ env.BUILD_DIR }}/build_info.json << EOF
           {
             "build_id": "$BUILD_ID",
@@ -300,6 +404,7 @@ jobs:
             ${{ steps.artifact.outputs.name }}.zip
             ${{ steps.artifact.outputs.name }}.zip.sha256
             ${{ steps.artifact.outputs.name }}.zip.md5
+            ${{ env.BUILD_DIR }}/reports.txt
           retention-days: 30
           if-no-files-found: error
 
