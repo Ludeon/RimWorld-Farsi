@@ -29,6 +29,11 @@ on:
         required: false
         default: true
         type: boolean
+      enable_qa:
+        description: 'Enable quality assurance (testing and code quality checks)'
+        required: false
+        default: true
+        type: boolean
       create_release:
         description: 'Create a GitHub release after successful build'
         required: false
@@ -43,6 +48,11 @@ on:
         description: 'Run compliance and license scanning'
         required: false
         default: false
+        type: boolean
+      is_prerelease:
+        description: 'Mark release as pre-release (beta)'
+        required: false
+        default: true
         type: boolean
 
 concurrency:
@@ -67,14 +77,15 @@ permissions:
 jobs:
   security:
     name: Security & Dependency Analysis
+    if: github.event_name != 'workflow_dispatch' || github.event.inputs.enable_security_scan != 'false'
     uses: ./.github/workflows/reusable-security.yml
     with:
       enable_compliance: ${{ github.event.inputs.enable_compliance_checks == 'true' }}
 
   test:
     name: Quality Assurance
+    if: github.event_name != 'workflow_dispatch' || github.event.inputs.enable_qa != 'false'
     uses: ./.github/workflows/reusable-testing.yml
-    needs: security
     with:
       python_versions: '["3.11", "3.12", "3.13"]'
       enable_benchmarks: ${{ github.event.inputs.enable_performance_benchmark == 'true' }}
@@ -423,6 +434,6 @@ jobs:
             - SHA256 and MD5 checksums included
           files: artifacts/*
           draft: false
-          prerelease: true
+          prerelease: ${{ github.event.inputs.is_prerelease == 'true' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
