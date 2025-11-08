@@ -9,9 +9,10 @@ to find missing or empty translations, outputting them in key==value format.
 import os
 import xml.etree.ElementTree as ET
 from pathlib import Path
+from typing import Dict, List
 import sys
 
-def parse_xml_file(filepath):
+def parse_xml_file(filepath: str) -> Dict[str, str]:
     """
     Parse an XML file and return a dictionary of key-value pairs.
 
@@ -47,7 +48,7 @@ def parse_xml_file(filepath):
         print(f"Warning: File not found: {filepath}")
         return {}
 
-def find_xml_files(directory):
+def find_xml_files(directory: str) -> List[str]:
     """
     Recursively find all XML files in a directory.
 
@@ -64,7 +65,7 @@ def find_xml_files(directory):
                 xml_files.append(os.path.join(root, file))
     return xml_files
 
-def get_corresponding_persian_path(english_path):
+def get_corresponding_persian_path(english_path: str) -> str:
     """
     Convert an English file path to its corresponding Persian path.
 

@@ -17,7 +17,7 @@ import logging
 import os
 import re
 import sys
-from typing import Optional
+from typing import Optional, Dict, List, Union
 
 from lxml import etree
 
@@ -28,7 +28,7 @@ logger = logging.getLogger(__name__)
 # --- Constants: Letter Maps and Character Sets ---
 
 # Maps standard letters to their Unicode presentation form start codes.
-LETTER_MAP = {
+LETTER_MAP: Dict[str, int] = {
     "ء": 0xFE80,
     "آ": 0xFE81,
     "أ": 0xFE83,
@@ -72,7 +72,7 @@ LETTER_MAP = {
 }
 
 # Maps 'Alef' variants to their combined 'Lam-Alef' ligature codes.
-LAM_ALEF_MAP = {"آ": 0xFEF5, "أ": 0xFEF7, "إ": 0xFEF9, "ا": 0xFEFB}
+LAM_ALEF_MAP: Dict[str, int] = {"آ": 0xFEF5, "أ": 0xFEF7, "إ": 0xFEF9, "ا": 0xFEFB}
 
 CONNECTING_LETTERS = "بپتثجچحخسشصضطظعغفقکگلمنهيی"
 NON_CONNECTING_LETTERS = "اأإآدذرزژوؤةى"

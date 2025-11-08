@@ -1,0 +1,56 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-added-large-files
+      - id: check-merge-conflict
+      - id: check-case-conflict
+      - id: check-executables-have-shebangs
+
+  - repo: https://github.com/psf/black
+    rev: 25.1.0
+    hooks:
+      - id: black
+        language_version: python3
+        files: ^tools/.*\.py$
+
+  - repo: https://github.com/pycqa/isort
+    rev: 6.0.0
+    hooks:
+      - id: isort
+        files: ^tools/.*\.py$
+
+  - repo: https://github.com/pycqa/flake8
+    rev: 7.1.1
+    hooks:
+      - id: flake8
+        files: ^tools/.*\.py$
+
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.14.1
+    hooks:
+      - id: mypy
+        additional_dependencies: [types-all]
+        files: ^tools/.*\.py$
+
+  - repo: local
+    hooks:
+      - id: run-persian-tests
+        name: Run Persian RTL tests
+        entry: python -m pytest tools/rtl-processor/tests/ -v
+        language: system
+        pass_filenames: false
+        files: ^(tools/rtl-processor/.*\.py|tools/rtl-processor/tests/.*\.py)$
+
+  - repo: local
+    hooks:
+      - id: validate-xml
+        name: Validate XML files
+        entry: python tools/rtl-processor/validate_xml.py
+        language: system
+        pass_filenames: false
+        files: \.xml$
+        exclude: ^(english/|archive/)

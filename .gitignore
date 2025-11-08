@@ -1,8 +1,51 @@
+# Translation and documentation files
 TranslationReport.txt
+to_translate.txt
+
+# Documentation and planning
 TODO.md
-*.bak
-tools/rtl-processor/__pycache__/PersianFixer.cpython-312.pyc
-tools/rtl-processor/tests/__pycache__/test_persianfixer.cpython-312-pytest-8.4.2.pyc
 issues.md
-tools/rtl-processor/tests/__pycache__/test_persianfixer.cpython-313-pytest-8.4.2.pyc
-tools/rtl-processor/__pycache__/PersianFixer.cpython-313.pyc
+
+# Backup files
+*.bak
+*.backup
+
+# Python cache and bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Test coverage and output files
+coverage.xml
+.coverage
+*.cover
+.coverage.*
+htmlcov/
+.pytest_cache/
+
+# Development and testing artifacts
+test_output.py
+*.log
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+tools/rtl-processor/.flake8
