@@ -62,7 +62,7 @@ jobs:
           ruff check . --output-format=github
           black --check --diff --color .
           isort --check-only --diff .
-          mypy . --ignore-missing-imports --show-error-codes
+          mypy . --show-error-codes
 
       - name: Run tests with coverage
         if: inputs.skip_qa != true

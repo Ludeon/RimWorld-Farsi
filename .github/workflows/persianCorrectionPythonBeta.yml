@@ -84,6 +84,7 @@ jobs:
 
   test:
     name: Quality Assurance
+    if: github.event_name != 'workflow_dispatch' || github.event.inputs.enable_qa != 'false'
     uses: ./.github/workflows/reusable-testing.yml
     with:
       python_versions: '["3.11", "3.12", "3.13"]'
@@ -95,6 +96,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 25
     needs: test
+    if: needs.test.result != 'skipped'
     permissions:
       contents: read
       actions: read
@@ -137,7 +139,7 @@ jobs:
           cd ${{ env.TOOLS_DIR }}
           START_TIME=$(date +%s)
 
-          MODULE_PATH="../${{ env.BUILD_DIR }}/${{ matrix.module }}"
+          MODULE_PATH="${{ github.workspace }}/${{ env.BUILD_DIR }}/${{ matrix.module }}"
 
           # Robust module existence and size check
           if [ -d "$MODULE_PATH" ]; then
@@ -181,8 +183,8 @@ jobs:
           cd ${{ env.TOOLS_DIR }}
           START_TIME=$(date +%s)
 
-          if [ -d "../${{ env.BUILD_DIR }}/${{ matrix.module }}" ]; then
-            python validate_xml.py "../${{ env.BUILD_DIR }}/${{ matrix.module }}"
+          if [ -d "${{ github.workspace }}/${{ env.BUILD_DIR }}/${{ matrix.module }}" ]; then
+            python validate_xml.py "${{ github.workspace }}/${{ env.BUILD_DIR }}/${{ matrix.module }}"
           fi
 
           END_TIME=$(date +%s)
