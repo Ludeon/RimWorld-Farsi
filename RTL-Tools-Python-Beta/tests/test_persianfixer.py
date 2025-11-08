@@ -4,7 +4,7 @@ import sys
 # Add the parent directory to the path so we can import PersianFixer
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from PersianFixer import reverse_text_and_contextualize
+from PersianFixer import reverse_text_and_contextualize  # noqa: E402
 
 
 class TestReverseTextAndContextualize:
