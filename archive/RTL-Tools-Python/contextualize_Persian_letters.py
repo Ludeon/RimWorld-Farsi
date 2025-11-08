@@ -54,6 +54,10 @@ LAM_ALEF_MAP = {
     'ا': 0xFEFB
 }
 
+# State for lam-alef combo
+letter_was_combined = False
+combining_alef = ''
+
 def parse_directory(directory_path):
     for root, _, files in os.walk(directory_path):
         for file in files:
@@ -81,6 +85,7 @@ def parse_file(file_path):
     print(f"[INFO] {file_path} parsed and letters contextualized!")
 
 def contextualize_letters(node):
+    global letter_was_combined, combining_alef
     content = node.text
     if content and re.search(r'[\u0600-\u06FF]', content):
         words = content.split()
@@ -94,14 +99,14 @@ def contextualize_letters(node):
                 prev_letter = word_chars[idx + 1] if idx < len(word_chars) - 1 else None
                 next_letter = word_chars[idx - 1] if idx > 0 else None
                 # Lam-Alef combo handling
-                if hasattr(contextualize_letters, 'letter_was_combined') and contextualize_letters.letter_was_combined:
-                    contextualize_letters.letter_was_combined = False
-                    new_word += create_lam_alef_combo(prev_letter, contextualize_letters.combining_alef)
+                if letter_was_combined:
+                    letter_was_combined = False
+                    new_word += create_lam_alef_combo(prev_letter, combining_alef)
                     idx += 1
                     continue
                 if is_alef(letter) and prev_letter and is_lam(prev_letter):
-                    contextualize_letters.letter_was_combined = True
-                    contextualize_letters.combining_alef = letter
+                    letter_was_combined = True
+                    combining_alef = letter
                     idx += 1
                     continue
                 # Isolated
@@ -116,10 +121,6 @@ def contextualize_letters(node):
                 idx += 1
             new_words.append(new_word)
         node.text = ' '.join(new_words)
-
-# State for lam-alef combo
-contextualize_letters.letter_was_combined = False
-contextualize_letters.combining_alef = ''
 
 def is_connecting_letter(letter):
     return letter in 'بپتثجچحخسشصضطظعغفقکگلمنهيی'

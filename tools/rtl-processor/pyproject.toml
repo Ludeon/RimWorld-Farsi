@@ -50,6 +50,10 @@ module = "lxml.*"
 ignore_missing_imports = true
 
 [[tool.mypy.overrides]]
+module = "_pytest.*"
+ignore_errors = true
+
+[[tool.mypy.overrides]]
 module = "test_persianfixer"
 disallow_untyped_defs = false
 
