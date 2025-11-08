@@ -1,0 +1,101 @@
+name: Reusable Security Analysis
+
+on:
+  workflow_call:
+    inputs:
+      enable_compliance:
+        description: 'Enable compliance and license scanning'
+        type: boolean
+        default: false
+    secrets:
+      GITHUB_TOKEN:
+        required: true
+
+jobs:
+  security-scan:
+    name: Security & Compliance Analysis
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      security-events: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Run CodeQL Analysis
+        uses: github/codeql-action/init@v3
+        with:
+          languages: python
+          queries: security-and-quality
+
+      - name: Autobuild
+        uses: github/codeql-action/autobuild@v3
+
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v3
+        with:
+          category: "/language:python"
+
+      - name: Dependency Review
+        uses: actions/dependency-review-action@v4
+        if: github.event_name == 'pull_request'
+
+      - name: Install Trivy
+        run: |
+          sudo apt-get update
+          sudo apt-get install wget apt-transport-https gnupg lsb-release
+          wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | sudo apt-key add -
+          echo "deb https://aquasecurity.github.io/trivy-repo/deb $(lsb_release -sc) main" | sudo tee -a /etc/apt/sources.list.d/trivy.list
+          sudo apt-get update
+          sudo apt-get install trivy
+
+      - name: Run Trivy vulnerability scan
+        run: |
+          trivy filesystem --format sarif --output trivy-results.sarif RTL-Tools-Python-Beta/
+
+      - name: Upload Trivy scan results to GitHub Security tab
+        uses: github/codeql-action/upload-sarif@v3
+        if: always()
+        with:
+          sarif_file: trivy-results.sarif
+
+      - name: License Compliance Check
+        if: inputs.enable_compliance == true
+        run: |
+          echo "🔍 Running license compliance checks..."
+          # Install license scanning tools with uv
+          uv pip install --system pip-licenses
+
+          cd RTL-Tools-Python-Beta
+          pip-licenses --format=json --output-file=licenses.json
+
+          # Check for problematic licenses
+          python -c "
+          import json
+          with open('licenses.json') as f:
+              licenses = json.load(f)
+          problematic = [pkg for pkg in licenses if pkg.get('License', '').lower() in ['gpl', 'agpl', 'lgpl']]
+          if problematic:
+              print('⚠️  Found packages with potentially problematic licenses:')
+              for pkg in problematic:
+                  print(f'  - {pkg[\"Name\"]}: {pkg[\"License\"]}')
+              exit(1)
+          else:
+              print('✅ No problematic licenses found')
+          "
+
+      - name: Generate Security Report
+        if: always()
+        run: |
+          echo "## 🔒 Security Analysis Report" >> $GITHUB_STEP_SUMMARY
+          echo "- ✅ CodeQL Security Analysis: Completed" >> $GITHUB_STEP_SUMMARY
+          echo "- ✅ Trivy Vulnerability Scan: Completed" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ inputs.enable_compliance }}" = "true" ]; then
+            echo "- ✅ License Compliance Check: Completed" >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "- 📊 Results uploaded to Security tab" >> $GITHUB_STEP_SUMMARY

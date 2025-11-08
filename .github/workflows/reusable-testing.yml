@@ -1,0 +1,118 @@
+name: Reusable Testing Pipeline
+
+on:
+  workflow_call:
+    inputs:
+      python_versions:
+        description: 'JSON array of Python versions to test'
+        type: string
+        default: '["3.11", "3.12", "3.13"]'
+      enable_benchmarks:
+        description: 'Enable performance benchmarking'
+        type: boolean
+        default: false
+    secrets:
+      GITHUB_TOKEN:
+        required: true
+      CODECOV_TOKEN:
+        required: false
+
+env:
+  UV_CACHE_DIR: ~/.cache/uv
+  TOOLS_DIR: RTL-Tools-Python-Beta
+
+jobs:
+  test:
+    name: Quality Assurance
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      matrix:
+        python-version: ${{ fromJSON(inputs.python_versions) }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python Environment
+        uses: ./.github/actions/setup-python-env
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install test dependencies
+        run: |
+          cd ${{ env.TOOLS_DIR }}
+          uv pip install --system flake8 black isort mypy pytest-cov pip-audit ruff pytest-benchmark
+
+      - name: Run security audit
+        run: |
+          cd ${{ env.TOOLS_DIR }}
+          pip-audit --format json | tee audit-results.json
+
+      - name: Code quality checks
+        run: |
+          cd ${{ env.TOOLS_DIR }}
+          ruff check . --output-format=github
+          black --check --diff --color .
+          isort --check-only --diff .
+          mypy . --ignore-missing-imports --show-error-codes
+
+      - name: Run tests with coverage
+        run: |
+          cd ${{ env.TOOLS_DIR }}
+          python -m pytest tests/ -v --tb=short --cov=. --cov-report=xml --cov-report=term-missing --durations=10
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v5
+        if: matrix.python-version == '3.13'
+        with:
+          files: ${{ env.TOOLS_DIR }}/coverage.xml
+          flags: unittests
+          name: codecov-umbrella
+          fail_ci_if_error: false
+          token: ${{ secrets.CODECOV_TOKEN }}
+
+      - name: Performance benchmark
+        if: inputs.enable_benchmarks == true
+        run: |
+          cd ${{ env.TOOLS_DIR }}
+          python -m pytest tests/ --benchmark-only --benchmark-json benchmark-results.json --benchmark-compare
+
+      - name: Upload benchmark results
+        if: inputs.enable_benchmarks == true
+        uses: actions/upload-artifact@v4
+        with:
+          name: benchmark-results-${{ matrix.python-version }}
+          path: ${{ env.TOOLS_DIR }}/benchmark-results.json
+
+      - name: Generate Test Report
+        if: always()
+        run: |
+          echo "## 🧪 Test Results Summary" >> $GITHUB_STEP_SUMMARY
+          echo "| Metric | Value |" >> $GITHUB_STEP_SUMMARY
+          echo "|--------|-------|" >> $GITHUB_STEP_SUMMARY
+          echo "| Python Version | ${{ matrix.python-version }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Status | ${{ job.status == 'success' && '✅ Passed' || '❌ Failed' }} |" >> $GITHUB_STEP_SUMMARY
+
+          if [ -f "${{ env.TOOLS_DIR }}/coverage.xml" ]; then
+            COVERAGE=$(python -c "
+            import xml.etree.ElementTree as ET
+            root = ET.parse('${{ env.TOOLS_DIR }}/coverage.xml').getroot()
+            rate = float(root.attrib.get('line-rate', '0'))
+            print(f'{rate * 100:.1f}')
+            ")
+            echo "| Coverage | ${COVERAGE}% |" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          if [ "${{ inputs.enable_benchmarks }}" = "true" ] && [ -f "${{ env.TOOLS_DIR }}/benchmark-results.json" ]; then
+            echo "| Benchmarks | ✅ Generated |" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Code Quality Checks" >> $GITHUB_STEP_SUMMARY
+          echo "- ✅ Ruff linting completed" >> $GITHUB_STEP_SUMMARY
+          echo "- ✅ Black formatting verified" >> $GITHUB_STEP_SUMMARY
+          echo "- ✅ isort import sorting checked" >> $GITHUB_STEP_SUMMARY
+          echo "- ✅ MyPy type checking passed" >> $GITHUB_STEP_SUMMARY

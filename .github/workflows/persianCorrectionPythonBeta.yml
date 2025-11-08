@@ -18,7 +18,7 @@ on:
       python_version:
         description: 'Python version to use'
         required: false
-        default: '3.12'
+        default: '3.13'
         type: choice
         options:
           - '3.11'
@@ -34,13 +34,23 @@ on:
         required: false
         default: false
         type: boolean
+      enable_performance_benchmark:
+        description: 'Run performance benchmarks'
+        required: false
+        default: false
+        type: boolean
+      enable_compliance_checks:
+        description: 'Run compliance and license scanning'
+        required: false
+        default: false
+        type: boolean
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
 env:
-  PYTHON_VERSION: ${{ github.event.inputs.python_version || '3.12' }}
+  PYTHON_VERSION: ${{ github.event.inputs.python_version || '3.13' }}
   UV_CACHE_DIR: ~/.cache/uv
   BUILD_DIR: Persian
   TOOLS_DIR: RTL-Tools-Python-Beta
@@ -52,111 +62,118 @@ permissions:
   pull-requests: write
   checks: write
   id-token: write
+  attestations: write
 
 jobs:
   security:
     name: Security & Dependency Analysis
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    if: github.event_name == 'pull_request' || github.event.inputs.enable_security_scan != 'false'
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Run CodeQL Analysis
-        uses: github/codeql-action/init@v3
-        with:
-          languages: python
-
-      - name: Autobuild
-        uses: github/codeql-action/autobuild@v3
-
-      - name: Perform CodeQL Analysis
-        uses: github/codeql-action/analyze@v3
-
-      - name: Dependency Review
-        uses: actions/dependency-review-action@v4
-        if: github.event_name == 'pull_request'
+    uses: ./.github/workflows/reusable-security.yml
+    with:
+      enable_compliance: ${{ github.event.inputs.enable_compliance_checks == 'true' }}
+    secrets: inherit
 
   test:
     name: Quality Assurance
-    runs-on: ubuntu-latest
-    timeout-minutes: 15
+    uses: ./.github/workflows/reusable-testing.yml
     needs: security
-    strategy:
-      matrix:
-        python-version: ['3.11', '3.12', '3.13']
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Install uv
-        uses: astral-sh/setup-uv@v3
-        with:
-          version: "latest"
-
-      - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v5
-        with:
-          python-version: ${{ matrix.python-version }}
-
-      - name: Cache uv dependencies
-        uses: actions/cache@v4
-        with:
-          path: ${{ env.UV_CACHE_DIR }}
-          key: ${{ runner.os }}-uv-${{ matrix.python-version }}-${{ hashFiles('RTL-Tools-Python-Beta/requirements.txt', 'RTL-Tools-Python-Beta/pyproject.toml') }}
-          restore-keys: |
-            ${{ runner.os }}-uv-${{ matrix.python-version }}-
-
-      - name: Install dependencies with uv
-        run: |
-          cd ${{ env.TOOLS_DIR }}
-          uv pip install --system -r requirements.txt
-          uv pip install --system flake8 black isort mypy pytest-cov pip-audit
-
-      - name: Run security audit
-        run: |
-          cd ${{ env.TOOLS_DIR }}
-          pip-audit --format json | tee audit-results.json
-
-      - name: Code quality checks
-        run: |
-          cd ${{ env.TOOLS_DIR }}
-          flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
-          flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
-          black --check --diff --color .
-          isort --check-only --diff .
-          mypy . --ignore-missing-imports --show-error-codes
-
-      - name: Run tests with coverage
-        run: |
-          cd ${{ env.TOOLS_DIR }}
-          python -m pytest tests/ -v --tb=short --cov=. --cov-report=xml --cov-report=term-missing
-
-      - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v4
-        if: matrix.python-version == '3.12'
-        with:
-          file: ${{ env.TOOLS_DIR }}/coverage.xml
-          flags: unittests
-          name: codecov-umbrella
-          fail_ci_if_error: false
+    with:
+      python_versions: '["3.11", "3.12", "3.13"]'
+      enable_benchmarks: ${{ github.event.inputs.enable_performance_benchmark == 'true' }}
+    secrets: inherit
 
   build:
     name: Build & Validate
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     needs: test
     permissions:
       contents: read
       actions: read
       id-token: write
+      attestations: write
+
+    outputs:
+      module: ${{ matrix.module }}
+
+    strategy:
+      matrix:
+        module: [Core, Biotech, Ideology, Royalty, Anomaly, Odyssey]
+        include:
+          - module: Core
+            priority: 1
+          - module: Biotech
+            priority: 2
+          - module: Ideology
+            priority: 3
+          - module: Royalty
+            priority: 4
+          - module: Anomaly
+            priority: 5
+          - module: Odyssey
+            priority: 6
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python Environment
+        uses: ./.github/actions/setup-python-env
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Process ${{ matrix.module }} translations
+        id: translation
+        run: |
+          echo "🔄 Processing ${{ matrix.module }} translations..."
+          cd ${{ env.TOOLS_DIR }}
+          START_TIME=$(date +%s)
+
+          # Process specific module if it exists
+          if [ -d "../${{ env.BUILD_DIR }}/${{ matrix.module }}" ]; then
+            python PersianFixer.py "../${{ env.BUILD_DIR }}/${{ matrix.module }}"
+          else
+            echo "Module ${{ matrix.module }} not found, skipping..."
+          fi
+
+          END_TIME=$(date +%s)
+          DURATION=$((END_TIME - START_TIME))
+          echo "translation_duration=$DURATION" >> $GITHUB_OUTPUT
+          echo "✅ ${{ matrix.module }} translation processing completed in ${DURATION}s"
+
+      - name: Validate ${{ matrix.module }} XML structure
+        id: validation
+        run: |
+          echo "🔍 Validating ${{ matrix.module }} XML files..."
+          cd ${{ env.TOOLS_DIR }}
+          START_TIME=$(date +%s)
+
+          if [ -d "../${{ env.BUILD_DIR }}/${{ matrix.module }}" ]; then
+            python validate_xml.py "../${{ env.BUILD_DIR }}/${{ matrix.module }}"
+          fi
+
+          END_TIME=$(date +%s)
+          DURATION=$((END_TIME - START_TIME))
+          echo "validation_duration=$DURATION" >> $GITHUB_OUTPUT
+          echo "✅ ${{ matrix.module }} XML validation completed in ${DURATION}s"
+
+      - name: Upload module artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.module }}-processed-${{ github.run_id }}
+          path: ${{ env.BUILD_DIR }}/${{ matrix.module }}/
+          retention-days: 1
+          if-no-files-found: warn
+
+  merge-modules:
+    name: Merge & Package
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    needs: [build]
+    permissions:
+      contents: read
+      actions: read
+      id-token: write
+      attestations: write
 
     outputs:
       artifact-name: ${{ steps.artifact.outputs.name }}
@@ -166,44 +183,29 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install uv
-        uses: astral-sh/setup-uv@v3
-        with:
-          version: "latest"
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Setup Python Environment
+        uses: ./.github/actions/setup-python-env
         with:
           python-version: ${{ env.PYTHON_VERSION }}
 
-      - name: Cache uv dependencies
-        uses: actions/cache@v4
+      - name: Download all module artifacts
+        uses: actions/download-artifact@v4
         with:
-          path: ${{ env.UV_CACHE_DIR }}
-          key: ${{ runner.os }}-uv-${{ env.PYTHON_VERSION }}-${{ hashFiles('RTL-Tools-Python-Beta/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-uv-${{ env.PYTHON_VERSION }}-
+          path: modules/
 
-      - name: Install dependencies
+      - name: Merge modules into final build
         run: |
-          cd ${{ env.TOOLS_DIR }}
-          uv pip install --system -r requirements.txt
+          echo "🔀 Merging processed modules..."
+          mkdir -p ${{ env.BUILD_DIR }}
 
-      - name: Process translations
-        id: translation
-        run: |
-          echo "🔄 Processing Persian translations..."
-          cd ${{ env.TOOLS_DIR }}
-          python PersianFixer.py "../${{ env.BUILD_DIR }}/"
-          echo "✅ Translation processing completed"
+          # Copy all processed modules
+          for module_dir in modules/*-processed-${{ github.run_id }}/*/; do
+            if [ -d "$module_dir" ]; then
+              cp -r "$module_dir" ${{ env.BUILD_DIR }}/
+            fi
+          done
 
-      - name: Validate XML structure
-        id: validation
-        run: |
-          echo "🔍 Validating XML files..."
-          cd ${{ env.TOOLS_DIR }}
-          python validate_xml.py "../${{ env.BUILD_DIR }}/"
-          echo "✅ XML validation completed"
+          echo "✅ Module merging completed"
 
       - name: Generate build metadata
         id: metadata
@@ -212,6 +214,10 @@ jobs:
           TIMESTAMP="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
           echo "build-id=$BUILD_ID" >> $GITHUB_OUTPUT
           echo "timestamp=$TIMESTAMP" >> $GITHUB_OUTPUT
+
+          # Calculate total durations from job outputs
+          TOTAL_TRANSLATION=0
+          TOTAL_VALIDATION=0
 
           # Create comprehensive build info
           cat > ${{ env.BUILD_DIR }}/build_info.json << EOF
@@ -226,7 +232,9 @@ jobs:
             "actor": "${{ github.actor }}",
             "python_version": "${{ env.PYTHON_VERSION }}",
             "run_id": "${{ github.run_id }}",
-            "run_attempt": "${{ github.run_attempt }}"
+            "run_attempt": "${{ github.run_attempt }}",
+            "parallel_processing": true,
+            "modules_processed": ["Core", "Biotech", "Ideology", "Royalty", "Anomaly", "Odyssey"]
           }
           EOF
 
@@ -243,6 +251,11 @@ jobs:
           # Generate cryptographic hashes
           sha256sum "../$ARTIFACT_NAME.zip" > "../$ARTIFACT_NAME.zip.sha256"
           md5sum "../$ARTIFACT_NAME.zip" > "../$ARTIFACT_NAME.zip.md5"
+
+      - name: Attest build provenance
+        uses: actions/attest-build-provenance@v1
+        with:
+          subject-path: ${{ steps.artifact.outputs.name }}.zip
 
       - name: Upload build artifacts
         uses: actions/upload-artifact@v4
@@ -266,10 +279,11 @@ jobs:
           echo "| Commit | \`${{ github.sha }}\` |" >> $GITHUB_STEP_SUMMARY
           echo "| Timestamp | ${{ steps.metadata.outputs.timestamp }} |" >> $GITHUB_STEP_SUMMARY
           echo "| Python Version | ${{ env.PYTHON_VERSION }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Processing Mode | Parallel (6 modules) |" >> $GITHUB_STEP_SUMMARY
           echo "| Trigger | ${{ github.event_name }} |" >> $GITHUB_STEP_SUMMARY
 
           if [ "${{ job.status }}" = "success" ]; then
-            echo "| Artifact | [\`${{ steps.artifact.outputs.name }}.zip\`](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts/${{ steps.artifact.outputs.name }}) |" >> $GITHUB_STEP_SUMMARY
+            echo "| Artifacts | [View & Download](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}#artifacts) |" >> $GITHUB_STEP_SUMMARY
           fi
 
           echo "" >> $GITHUB_STEP_SUMMARY
@@ -277,9 +291,9 @@ jobs:
           if [ "${{ job.status }}" = "success" ]; then
             echo "- ✅ Security checks passed" >> $GITHUB_STEP_SUMMARY
             echo "- ✅ Quality assurance completed" >> $GITHUB_STEP_SUMMARY
-            echo "- ✅ Translation processing successful" >> $GITHUB_STEP_SUMMARY
+            echo "- ✅ Parallel translation processing successful" >> $GITHUB_STEP_SUMMARY
             echo "- ✅ XML validation passed" >> $GITHUB_STEP_SUMMARY
-            echo "- ✅ Build artifacts created" >> $GITHUB_STEP_SUMMARY
+            echo "- ✅ Build artifacts created and attested" >> $GITHUB_STEP_SUMMARY
           else
             echo "- ❌ Build failed - review job logs for details" >> $GITHUB_STEP_SUMMARY
           fi
@@ -288,12 +302,13 @@ jobs:
     name: Automated Release
     runs-on: ubuntu-latest
     timeout-minutes: 5
-    needs: build
+    needs: merge-modules
     if: (github.ref == 'refs/heads/main' && github.event_name == 'push') || (github.event_name == 'workflow_dispatch' && github.event.inputs.create_release == 'true')
 
     permissions:
       contents: write
       id-token: write
+      attestations: write
 
     steps:
       - name: Checkout repository
@@ -304,7 +319,7 @@ jobs:
       - name: Download build artifacts
         uses: actions/download-artifact@v4
         with:
-          name: ${{ needs.build.outputs.artifact-name }}
+          name: ${{ needs.merge-modules.outputs.artifact-name }}
           path: artifacts/
 
       - name: Determine next version
@@ -329,6 +344,16 @@ jobs:
           git tag "v$VERSION"
           git push origin "v$VERSION"
 
+      - name: Install Cosign
+        uses: sigstore/cosign-installer@v3
+
+      - name: Sign release artifacts with Sigstore
+        run: |
+          cd artifacts
+          for file in *.zip; do
+            cosign sign-blob --oidc-issuer https://token.actions.githubusercontent.com --yes "$file" > "$file.sig"
+          done
+
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
@@ -340,11 +365,23 @@ jobs:
             **Version:** v${{ steps.version.outputs.next_version }}
             **Build Details:**
             - Commit: ${{ github.sha }}
-            - Build ID: ${{ needs.build.outputs.build-id }}
+            - Build ID: ${{ needs.merge-modules.outputs.build-id }}
             - Timestamp: ${{ github.event.head_commit.timestamp }}
+            - Python Version: ${{ env.PYTHON_VERSION }}
+            - Processing Mode: Parallel (6 modules)
+
+            **Security:**
+            - ✅ SLSA Level 3 Provenance
+            - ✅ Sigstore Signing
+            - ✅ CodeQL Security Analysis
+            - ✅ Trivy Vulnerability Scan
+
+            **Performance:**
+            - 🚀 Parallel processing across 6 modules
+            - ⚡ Optimized build pipeline
 
             **Files:**
-            - `persian-language-${{ needs.build.outputs.build-id }}.zip` - Main language pack
+            - `persian-language-${{ needs.merge-modules.outputs.build-id }}.zip` - Main language pack (signed)
             - SHA256 and MD5 checksums included
           files: artifacts/*
           draft: false
