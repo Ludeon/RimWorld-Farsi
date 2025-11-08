@@ -95,12 +95,7 @@ jobs:
           echo "| Status | ${{ job.status == 'success' && '✅ Passed' || '❌ Failed' }} |" >> $GITHUB_STEP_SUMMARY
 
           if [ -f "${{ env.TOOLS_DIR }}/coverage.xml" ]; then
-            COVERAGE=$(python -c "
-            import xml.etree.ElementTree as ET
-            root = ET.parse('${{ env.TOOLS_DIR }}/coverage.xml').getroot()
-            rate = float(root.attrib.get('line-rate', '0'))
-            print(f'{rate * 100:.1f}')
-            ")
+            COVERAGE=$(python -c "import xml.etree.ElementTree as ET; root = ET.parse('${{ env.TOOLS_DIR }}/coverage.xml').getroot(); rate = float(root.attrib.get('line-rate', '0')); print(f'{rate * 100:.1f}')")
             echo "| Coverage | ${COVERAGE}% |" >> $GITHUB_STEP_SUMMARY
           fi
 
