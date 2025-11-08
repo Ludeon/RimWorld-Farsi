@@ -62,7 +62,7 @@ jobs:
       - name: Run Trivy vulnerability scan
         if: env.TRIVY_INSTALLED != 'false'
         run: |
-          if trivy filesystem --format sarif --output trivy-results.sarif --timeout 5m RTL-Tools-Python-Beta/; then
+          if trivy filesystem --format sarif --output trivy-results.sarif --timeout 5m tools/rtl-processor/; then
             echo "✅ Trivy scan completed successfully"
           else
             echo "⚠️  Trivy scan failed, continuing without vulnerability results"
@@ -82,7 +82,7 @@ jobs:
           # Install license scanning tools with pip
           pip install pip-licenses
 
-          cd RTL-Tools-Python-Beta
+          cd tools/rtl-processor
           pip-licenses --format=json --output-file=licenses.json
 
           # Check for problematic licenses

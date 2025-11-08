@@ -17,7 +17,7 @@ on:
 
 env:
   UV_CACHE_DIR: ~/.cache/uv
-  TOOLS_DIR: RTL-Tools-Python-Beta
+  TOOLS_DIR: tools/rtl-processor
 
 jobs:
   test:

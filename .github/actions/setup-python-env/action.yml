@@ -25,14 +25,14 @@ runs:
         path: |
           ~/.cache/uv
           ~/.cache/pip
-        key: ${{ runner.os }}-uv-${{ inputs.python-version }}-${{ hashFiles('RTL-Tools-Python-Beta/requirements.txt') }}-${{ hashFiles('RTL-Tools-Python-Beta/pyproject.toml') || 'no-pyproject' }}
+        key: ${{ runner.os }}-uv-${{ inputs.python-version }}-${{ hashFiles('tools/rtl-processor/requirements.txt') }}-${{ hashFiles('tools/rtl-processor/pyproject.toml') || 'no-pyproject' }}
         restore-keys: |
           ${{ runner.os }}-uv-${{ inputs.python-version }}-
 
     - name: Install base dependencies
       shell: bash
       run: |
-        cd RTL-Tools-Python-Beta
+        cd tools/rtl-processor
         uv pip install --system -r requirements.txt
 
     - name: Verify setup
