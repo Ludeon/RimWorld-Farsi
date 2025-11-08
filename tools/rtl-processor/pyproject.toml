@@ -30,7 +30,7 @@ known_first_party = ["PersianFixer"]
 known_third_party = ["lxml", "pytest"]
 
 [tool.mypy]
-python_version = "3.8"
+python_version = "3.9"
 warn_return_any = true
 warn_unused_configs = true
 disallow_untyped_defs = true
@@ -48,6 +48,10 @@ show_error_codes = true
 [[tool.mypy.overrides]]
 module = "lxml.*"
 ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "test_persianfixer"
+disallow_untyped_defs = false
 
 [tool.pytest.ini_options]
 minversion = "6.0"
