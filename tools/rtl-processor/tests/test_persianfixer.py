@@ -5,36 +5,39 @@ This module provides extensive test coverage for the Persian text processing
 functions, ensuring robust handling of RTL text, placeholders, and edge cases.
 """
 
-import pytest
 import os
-import sys
 import re
-from pathlib import Path
+import sys
+
+import pytest
 
 # Add the parent directory to the path so we can import PersianFixer
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from PersianFixer import (
-    reverse_text_and_contextualize,
-    _reverse_rtl_word_letters,
+from PersianFixer import (  # noqa: E402
+    LETTER_MAP,
+    PLACEHOLDER_REGEX,
+    RTL_CHAR_REGEX,
     _contextualize_word,
     _process_word,
-    LETTER_MAP,
-    RTL_CHAR_REGEX,
-    PLACEHOLDER_REGEX
-)  # noqa: E402
+    _reverse_rtl_word_letters,
+    reverse_text_and_contextualize,
+)
 
 
 class TestReverseTextAndContextualize:
     """Test cases for the main reverse_text_and_contextualize function."""
 
-    @pytest.mark.parametrize("input_text,expected", [
-        ("", ""),
-        ("Hello world", "Hello world"),
-        ("Hello 123 {0}", "Hello 123 {0}"),
-        ("سلام دنیا", None),  # Should be different from input
-        ("Hello سلام world دنیا", None),  # Should be different from input
-    ])
+    @pytest.mark.parametrize(
+        "input_text,expected",
+        [
+            ("", ""),
+            ("Hello world", "Hello world"),
+            ("Hello 123 {0}", "Hello 123 {0}"),
+            ("سلام دنیا", None),  # Should be different from input
+            ("Hello سلام world دنیا", None),  # Should be different from input
+        ],
+    )
     def test_basic_cases(self, input_text, expected):
         """Test basic input cases."""
         result = reverse_text_and_contextualize(input_text)
@@ -42,7 +45,7 @@ class TestReverseTextAndContextualize:
             assert result == expected
         else:
             # For Persian text, just ensure it's different and contains expected elements
-            if any('\u0600' <= c <= '\u06FF' for c in input_text):
+            if any("\u0600" <= c <= "\u06ff" for c in input_text):
                 assert result != input_text
                 assert len(result) > 0
 
@@ -54,7 +57,7 @@ class TestReverseTextAndContextualize:
         # Should be different from input
         assert result != input_text
         # Should contain presentation form characters (contextualized Persian)
-        assert any('\uFB00' <= c <= '\uFEFF' for c in result)
+        assert any("\ufb00" <= c <= "\ufeff" for c in result)
         # Should maintain word count
         assert len(result.split()) == len(input_text.split())
 
@@ -122,13 +125,23 @@ class TestReverseTextAndContextualize:
         assert result != input_text
         assert len(result) > 0
         # Should contain Persian characters
-        assert any('\u0600' <= c <= '\u06FF' for c in result)
+        assert any("\u0600" <= c <= "\u06ff" for c in result)
 
-    @pytest.mark.parametrize("placeholder", [
-        "{0}", "{1}", "{PAWN_nameDef}", "{PAWN_label}",
-        "{PAWN_pronoun}", "{PAWN_objective}", "{PAWN_possessive}",
-        "{asdf!@#}", "{param_123}", "{TEST}"
-    ])
+    @pytest.mark.parametrize(
+        "placeholder",
+        [
+            "{0}",
+            "{1}",
+            "{PAWN_nameDef}",
+            "{PAWN_label}",
+            "{PAWN_pronoun}",
+            "{PAWN_objective}",
+            "{PAWN_possessive}",
+            "{asdf!@#}",
+            "{param_123}",
+            "{TEST}",
+        ],
+    )
     def test_various_placeholders(self, placeholder):
         """Test various placeholder formats."""
         input_text = f"سلام {placeholder} دنیا"
@@ -231,7 +244,7 @@ class TestEdgeCases:
         assert isinstance(result, str)
         assert len(result) > 0
         # Should contain presentation form characters (contextualized Persian)
-        assert any('\uFB00' <= c <= '\uFEFF' for c in result)
+        assert any("\ufb00" <= c <= "\ufeff" for c in result)
 
     def test_special_characters(self):
         """Test handling of special Unicode characters."""
@@ -244,15 +257,15 @@ class TestEdgeCases:
 
     def test_xml_like_content(self):
         """Test processing of XML-like content."""
-        xml_content = '<tag>سلام دنیا</tag>'
+        xml_content = "<tag>سلام دنیا</tag>"
         result = reverse_text_and_contextualize(xml_content)
 
         # Should process the Persian text inside and reverse everything
         assert result != xml_content
         # Tags get reversed too: '<tag>' becomes '>gat<'
-        assert '>gat<' in result
+        assert ">gat<" in result
         # Persian content should be contextualized
-        assert any('\uFB00' <= c <= '\uFEFF' for c in result)
+        assert any("\ufb00" <= c <= "\ufeff" for c in result)
 
 
 class TestIdempotency:

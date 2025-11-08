@@ -17,7 +17,7 @@ import logging
 import os
 import re
 import sys
-from typing import Optional, Dict, List, Union
+from typing import Dict, Optional
 
 from lxml import etree
 
