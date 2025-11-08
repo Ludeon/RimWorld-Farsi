@@ -79,8 +79,8 @@ jobs:
         if: inputs.enable_compliance == true
         run: |
           echo "🔍 Running license compliance checks..."
-          # Install license scanning tools with uv
-          uv pip install --system pip-licenses
+          # Install license scanning tools with pip
+          pip install pip-licenses
 
           cd RTL-Tools-Python-Beta
           pip-licenses --format=json --output-file=licenses.json
