@@ -29,6 +29,11 @@ on:
         required: false
         default: true
         type: boolean
+      create_release:
+        description: 'Create a GitHub release after successful build'
+        required: false
+        default: false
+        type: boolean
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -78,7 +83,7 @@ jobs:
 
   test:
     name: Quality Assurance
-    runs-on: ubuntu-latest-8-cores
+    runs-on: ubuntu-latest
     timeout-minutes: 15
     needs: security
     strategy:
@@ -145,7 +150,7 @@ jobs:
 
   build:
     name: Build & Validate
-    runs-on: ubuntu-latest-8-cores
+    runs-on: ubuntu-latest
     timeout-minutes: 20
     needs: test
     permissions:
@@ -289,7 +294,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     needs: build
-    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    if: (github.ref == 'refs/heads/main' && github.event_name == 'push') || (github.event_name == 'workflow_dispatch' && github.event.inputs.create_release == 'true')
 
     permissions:
       contents: write
@@ -307,14 +312,37 @@ jobs:
           name: ${{ needs.build.outputs.artifact-name }}
           path: artifacts/
 
+      - name: Determine next version
+        id: version
+        run: |
+          # Get latest tag (remove 'v' prefix for parsing)
+          LATEST_TAG=$(git tag --sort=-version:refname | head -1 | sed 's/^v//')
+          if [ -z "$LATEST_TAG" ]; then
+            NEXT_VERSION="1.0.0"
+          else
+            # Parse version and increment patch
+            IFS='.' read -r major minor patch <<< "$LATEST_TAG"
+            NEXT_VERSION="$major.$minor.$((patch + 1))"
+          fi
+          echo "next_version=$NEXT_VERSION" >> $GITHUB_OUTPUT
+
+      - name: Create and push tag
+        run: |
+          VERSION=${{ steps.version.outputs.next_version }}
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git tag "v$VERSION"
+          git push origin "v$VERSION"
+
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: build-${{ needs.build.outputs.build-id }}
-          name: Persian Language Pack ${{ needs.build.outputs.build-id }}
+          tag_name: v${{ steps.version.outputs.next_version }}
+          name: Persian Language Pack v${{ steps.version.outputs.next_version }}
           body: |
             Automated build of Persian language pack for RimWorld.
 
+            **Version:** v${{ steps.version.outputs.next_version }}
             **Build Details:**
             - Commit: ${{ github.sha }}
             - Build ID: ${{ needs.build.outputs.build-id }}
