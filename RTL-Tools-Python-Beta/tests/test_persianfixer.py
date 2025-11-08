@@ -1,6 +1,5 @@
-import pytest
-import sys
 import os
+import sys
 
 # Add the parent directory to the path so we can import PersianFixer
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -32,7 +31,6 @@ class TestReverseTextAndContextualize:
         # "سلام" -> reversed "مالس" -> contextualized
         # "دنیا" -> reversed "ایند" -> contextualized
         # Then word order reversed: contextualized("ایند") + " " + contextualized("مالس")
-        expected = "ﺪﻨﻴﺍ ﻡﺎﻠﺳ"  # Approximate, may need adjustment
         result = reverse_text_and_contextualize(input_text)
         # For now, assert it's different and contains RTL chars
         assert result != input_text
