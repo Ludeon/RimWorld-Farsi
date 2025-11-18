@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Grav engine/substructrues -->
+  <!-- EN: Must be placed on gravship substructure. -->
+  <MessageMustBePlacedOnSubstructure>باید روی زیرساخت کشتی گرانشی قرار گیرد.</MessageMustBePlacedOnSubstructure>
+  <!-- EN: Must be placed within the radius of a grav engine or grav field extender. -->
+  <MessageMustBePlacedInRangeOfGravEngineOrExtender>باید در شعاع موتور گرانشی یا توسعه‌دهنده میدان گرانشی قرار گیرد.</MessageMustBePlacedInRangeOfGravEngineOrExtender>
+  <!-- EN: Cannot be placed under rock or mountain roofs. -->
+  <MessageCannotPlaceUnderRockRoof>نمی‌توان زیر سقف‌های سنگی یا کوهی قرار داد.</MessageCannotPlaceUnderRockRoof>
+  <!-- EN: {ACTIVATOR_labelShort} has finished hacking {SUBJECT_definite}. -->
+  <MessageStabilizerDeactivated>{ACTIVATOR_labelShort} هک کردن {SUBJECT_definite} را تمام کرده است.</MessageStabilizerDeactivated>
+  <!-- EN: Can't be placed on gravship substructure. -->
+  <MessageCannotPlaceOverSubstructure>نمی‌توان روی زیرساخت کشتی گرانشی قرار داد.</MessageCannotPlaceOverSubstructure>
+  <!-- EN: Gravship substructure is blocked. -->
+  <MessageSubstructureBlocked>زیرساخت کشتی گرانشی مسدود است.</MessageSubstructureBlocked>
+  <!-- EN: Must be placed within range of a grav engine. -->
+  <MessageMustBePlacedInRangeOfGravEngine>باید در محدوده موتور گرانشی قرار گیرد.</MessageMustBePlacedInRangeOfGravEngine>
+
+  <!-- Alerts -->
+  <!-- EN: {0} has died from vacuum exposure. -->
+  <MessagePlantDiedOfRot_ExposedToVacuum>{0} از قرار گرفتن در خلأ مرده است.</MessagePlantDiedOfRot_ExposedToVacuum>
+
+  <!-- Ancient Vents -->
+  <!-- EN: The ancient smoke vents have become active, darkening the sky. -->
+  <AncientSmokeVentStartUp>دریچه‌های دود باستانی فعال شده‌اند و آسمان را تاریک کرده‌اند.</AncientSmokeVentStartUp>
+  <!-- EN: The ancient smoke vents are stopping. -->
+  <AncientSmokeVentShutdown>دریچه‌های دود باستانی در حال توقف هستند.</AncientSmokeVentShutdown>
+  <!-- EN: The ancient toxic vents have become active, causing toxic fallout. -->
+  <AncientToxVentStartUp>دریچه‌های سمی باستانی فعال شده‌اند و بارش سمی ایجاد کرده‌اند.</AncientToxVentStartUp>
+  <!-- EN: The ancient toxic vents are stopping. -->
+  <AncientToxVentShutdown>دریچه‌های سمی باستانی در حال توقف هستند.</AncientToxVentShutdown>
+  <!-- EN: The ancient heat vents have become active, raising temperatures. -->
+  <AncientHeatVentStartUp>دریچه‌های گرمایی باستانی فعال شده‌اند و دما را بالا برده‌اند.</AncientHeatVentStartUp>
+  <!-- EN: The ancient heat vents are stopping. -->
+  <AncientHeatVentShutdown>دریچه‌های گرمایی باستانی در حال توقف هستند.</AncientHeatVentShutdown>
+  
+  <!-- EN: Must be placed over shallow water containing fish. -->
+  <CannotPlaceFishingZone>باید روی آب کم‌عمق حاوی ماهی قرار گیرد.</CannotPlaceFishingZone>
+  
+  <!-- EN: {TRAP_indefinite} was triggered. -->
+  <MessageTrapSprung>{TRAP_indefinite} فعال شد.</MessageTrapSprung>
+
+  <!-- EN: {0} is ready to launch again. -->
+  <GravshipReadyToLaunch>{0} آماده پرتاب مجدد است.</GravshipReadyToLaunch>
+
+  <!-- EN: An orbital scanner has found a signal and is locating its origin -->
+  <MessageOrbitalSignalDetected>اسکنر مداری سیگنالی پیدا کرده و در حال تعیین مبدا آن است</MessageOrbitalSignalDetected>
+  <!-- EN: completes in {0} -->
+  <OrbitalScannerCompletesIn>در {0} تکمیل می‌شود</OrbitalScannerCompletesIn>
+
+  <!-- EN: While talking with {TRADER_nameDef}, {NEGOTIATOR_nameDef} learned of a new quest: {0} -->
+  <MessageTraderGaveQuest>در حین صحبت با {TRADER_nameDef}, {NEGOTIATOR_nameDef} از ماموریت جدیدی مطلع شد: {0}</MessageTraderGaveQuest>
+  <!-- EN: While reading {BOOK_labelNoParenthesis}, {READER_nameDef} discovered a quest: {0} -->
+  <MessageBookGaveQuest>در حین خواندن {BOOK_labelNoParenthesis}, {READER_nameDef} ماموریتی کشف کرد: {0}</MessageBookGaveQuest>
+
+  <!-- EN: Confirm gravship landing zone to continue. -->
+  <MessageConfirmLandingAreaFirst>منطقه فرود کشتی گرانشی را برای ادامه تأیید کنید.</MessageConfirmLandingAreaFirst>
+  <!-- EN: Choose a landing site first. -->
+  <MessageNoLandingSiteSelected>ابتدا سایت فرود را انتخاب کنید.</MessageNoLandingSiteSelected>
+  
+  <!-- EN: Cannot store {THING_labelShort} on {TARGET_indefinite} -->
+  <CannotStoreThingOnTarget>نمی‌توان {THING_labelShort} را روی {TARGET_indefinite} ذخیره کرد.</CannotStoreThingOnTarget>
+
+</LanguageData>

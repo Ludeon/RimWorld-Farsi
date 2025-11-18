@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: chemical damage -->
+  <ChemicalDamageModerate.label>TODO</ChemicalDamageModerate.label>
+  <!-- EN: Chemical damage at the cellular level. -->
+  <ChemicalDamageModerate.description>TODO</ChemicalDamageModerate.description>
+  
+  <!-- EN: chemical damage -->
+  <ChemicalDamageSevere.label>TODO</ChemicalDamageSevere.label>
+  <!-- EN: Chemical damage at the cellular level. -->
+  <ChemicalDamageSevere.description>TODO</ChemicalDamageSevere.description>
+  
+  <!-- EN: cirrhosis -->
+  <Cirrhosis.label>TODO</Cirrhosis.label>
+  <!-- EN: A degenerative liver disease caused by excessive alcohol consumption. -->
+  <Cirrhosis.description>TODO</Cirrhosis.description>
+  
+  <!-- EN: resurrection psychosis -->
+  <ResurrectionPsychosis.label>TODO</ResurrectionPsychosis.label>
+  <!-- EN: Chaotic thought patterns caused by the decoherence of resurrection mechanites. Resurrection psychosis progresses and eventually causes total psychosis and death.\n\nResurrected people require mechanites to rebuild their bodily functions at the cellular level. Mechanites always have a chance to lose coherence, and if they do, they wreak havoc in the central nervous system. The older the corpse, the more mechanite action is required to resurrect it, and the greater the chance of eventual decoherence. -->
+  <ResurrectionPsychosis.description>TODO</ResurrectionPsychosis.description>
+  <!-- EN: {PAWN_nameDef} is suffering from a terminal case of resurrection psychosis, a condition caused by the decoherence of resurrection mechanites. The condition will slowly worsen, eventually resulting in death. -->
+  <ResurrectionPsychosis.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>TODO</ResurrectionPsychosis.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <!-- EN: Chaotic thought patterns caused by after-effects of resurrection. Resurrection psychosis is progressive and eventually causes psychosis and death. -->
+  <ResurrectionPsychosis.descriptionShort>TODO</ResurrectionPsychosis.descriptionShort>
+  <!-- EN: early -->
+  <ResurrectionPsychosis.stages.early-0.label>TODO</ResurrectionPsychosis.stages.early-0.label>
+  <!-- EN: early -->
+  <ResurrectionPsychosis.stages.early-1.label>TODO</ResurrectionPsychosis.stages.early-1.label>
+  <!-- EN: moderate -->
+  <ResurrectionPsychosis.stages.moderate.label>TODO</ResurrectionPsychosis.stages.moderate.label>
+  <!-- EN: advanced -->
+  <ResurrectionPsychosis.stages.advanced.label>TODO</ResurrectionPsychosis.stages.advanced.label>
+  <!-- EN: severe -->
+  <ResurrectionPsychosis.stages.severe.label>TODO</ResurrectionPsychosis.stages.severe.label>
+  <!-- EN: total -->
+  <ResurrectionPsychosis.stages.total.label>TODO</ResurrectionPsychosis.stages.total.label>
+  <!-- EN: catatonic -->
+  <ResurrectionPsychosis.stages.catatonic.label>TODO</ResurrectionPsychosis.stages.catatonic.label>
+  
+  <!-- EN: scaria -->
+  <Scaria.label>TODO</Scaria.label>
+  <!-- EN: An infectious disease which can drive humans and animals into a berserk rage. Scaria can be cured through a special medical operation, but the creature must first be downed in order to make it possible to operate. The disease poisons the flesh, so creatures killed with scaria often appear rotten after death and cannot be butchered for meat or leather. After scaria rage has begun, the creature will last several days before dying from exhaustion. Scaria-infected animals can't be tamed. -->
+  <Scaria.description>TODO</Scaria.description>
+  <!-- EN: An infectious disease which can drive humans and animals into a berserk rage. Scaria-infected animals can't be tamed. -->
+  <Scaria.descriptionShort>TODO</Scaria.descriptionShort>
+  <!-- EN: Scaria infected. -->
+  <Scaria.inspectString>TODO</Scaria.inspectString>
+  <!-- EN: Scaria sores -->
+  <Scaria.renderNodeProperties.0.debugLabel>TODO</Scaria.renderNodeProperties.0.debugLabel>
+  <!-- EN: Scaria sores -->
+  <Scaria.renderNodeProperties.1.debugLabel>TODO</Scaria.renderNodeProperties.1.debugLabel>
+  
+  <!-- EN: sterilized -->
+  <Sterilized.label>TODO</Sterilized.label>
+  <!-- EN: This creature's reproductive system has been permanently shut down. -->
+  <Sterilized.description>TODO</Sterilized.description>
+  
+  <!-- EN: trauma savant -->
+  <TraumaSavant.label>TODO</TraumaSavant.label>
+  <!-- EN: An exceptional condition caused by trauma to the brain. The brain, in the face of injury, has developed extreme abilities in some areas, while losing the ability to speak. -->
+  <TraumaSavant.description>TODO</TraumaSavant.description>
+  <!-- EN: trauma -->
+  <TraumaSavant.labelNoun>TODO</TraumaSavant.labelNoun>
+  
+</LanguageData>

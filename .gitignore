@@ -49,3 +49,27 @@ Thumbs.db
 *.tmp
 *.temp
 tools/rtl-processor/.flake8
+*.msg
+
+# Game files (RimWorld installation files)
+*.exe
+*.dll
+*.lnk
+*.bat
+*.zip
+*.ico
+*.jpg
+goggame*
+unins*
+How*
+EULA.txt
+Licenses.txt
+ModUpdating.txt
+Readme.txt
+Version.txt
+MonoBleedingEdge/
+RimWorldWin64_Data/
+Source/
+mods/
+Data/*
+!Data/*/Languages/Persian/

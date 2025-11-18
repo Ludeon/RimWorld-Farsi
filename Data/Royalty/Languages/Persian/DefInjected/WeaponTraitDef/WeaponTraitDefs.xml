@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: hunger pangs -->
+  <HungerMaker.label>گرسنگی شدید</HungerMaker.label>
+  <!-- EN: This weapon's persona loves food, and transmits that onto whoever bonds with it. The bonded person's hunger rate will be 50% higher. -->
+  <HungerMaker.description>پرسونا این سلاح عاشق غذا است و آن را به هر کسی که با آن پیوند می‌خورد منتقل می‌کند. نرخ گرسنگی فرد پیوند خورده 50% بالاتر خواهد بود.</HungerMaker.description>
+  
+  <!-- EN: jealous -->
+  <Jealous.label>حسود</Jealous.label>
+  <!-- EN: This weapon's persona becomes angry when the bonded individual uses another weapon, thus reducing their mood. -->
+  <Jealous.description>پرسونا این سلاح وقتی فرد پیوند خورده از سلاح دیگری استفاده می‌کند عصبانی می‌شود و بنابراین خلق و خوی آنها را کاهش می‌دهد.</Jealous.description>
+  
+  <!-- EN: kill thirst -->
+  <NeedKill.label>تشنگی کشتن</NeedKill.label>
+  <!-- EN: This weapon's persona finds purpose in bloodshed. If it does not kill for 20 days, it will become angry and psychically complain to whoever is bonded to it. -->
+  <NeedKill.description>پرسونا این سلاح هدف را در خونریزی می‌یابد. اگر برای 20 روز نکشد، عصبانی می‌شود و به طور روانی به هر کسی که با آن پیوند خورده شکایت می‌کند.</NeedKill.description>
+  
+  <!-- EN: neural cooling -->
+  <NeuralHeatRecoveryGain.label>خنک کردن عصبی</NeuralHeatRecoveryGain.label>
+  <!-- EN: This weapon's persona has the ability to help dissipate the wielder's neural heat. The wielder's neural heat dissipation is improved by 0.15 per second. -->
+  <NeuralHeatRecoveryGain.description>پرسونا این سلاح توانایی کمک به پراکندگی گرمای عصبی نگهدارنده را دارد. پراکندگی گرمای عصبی نگهدارنده به میزان 0.15 در ثانیه بهبود می‌یابد.</NeuralHeatRecoveryGain.description>
+  
+  <!-- EN: freewielder -->
+  <NeverBond.label>نگهدارنده آزاد</NeverBond.label>
+  <!-- EN: This weapon's persona does not form bonds in the normal way. Anyone can pick it up and use it. -->
+  <NeverBond.description>پرسونا این سلاح پیوند را به شیوه عادی تشکیل نمی‌دهد. هر کسی می‌تواند آن را بردارد و استفاده کند.</NeverBond.description>
+  
+  <!-- EN: painless -->
+  <NoPain.label>بدون درد</NoPain.label>
+  <!-- EN: This weapon's persona has some method of psychically disabling pain. The one holding the weapon will feel no pain of any kind. -->
+  <NoPain.description>پرسونا این سلاح روشی برای غیرفعال کردن درد به طور روانی دارد. کسی که سلاح را نگه می‌دارد هیچ دردی احساس نخواهد کرد.</NoPain.description>
+  
+  <!-- EN: kill-focused -->
+  <OnKill_PsyfocusGain.label>متمرکز بر کشتن</OnKill_PsyfocusGain.label>
+  <!-- EN: This weapon's persona focuses on deaths. If the weapon kills someone, the wielder will instantly gain 20% psyfocus. -->
+  <OnKill_PsyfocusGain.description>پرسونا این سلاح بر مرگ‌ها تمرکز می‌کند. اگر سلاح کسی را بکشد، نگهدارنده فوراً 20% psyfocus کسب خواهد کرد.</OnKill_PsyfocusGain.description>
+  
+  <!-- EN: kill sorrow -->
+  <OnKill_ThoughtBad.label>غم کشتن</OnKill_ThoughtBad.label>
+  <!-- EN: This weapon's persona hates killing. If this weapon kills someone, its sorrow will transmit psychically to the wielder, reducing their mood for a few days. -->
+  <OnKill_ThoughtBad.description>پرسونا این سلاح از کشتن متنفر است. اگر این سلاح کسی را بکشد، غم آن به طور روانی به نگهدارنده منتقل می‌شود و خلق و خوی آنها را برای چند روز کاهش می‌دهد.</OnKill_ThoughtBad.description>
+  
+  <!-- EN: kill-happy -->
+  <OnKill_ThoughtGood.label>خوشحال از کشتن</OnKill_ThoughtGood.label>
+  <!-- EN: This weapon's persona loves to kill. If this weapon kills someone, its joy will transmit psychically to the wielder, making them happier for a few days. -->
+  <OnKill_ThoughtGood.description>پرسونا این سلاح عاشق کشتن است. اگر این سلاح کسی را بکشد، شادی آن به طور روانی به نگهدارنده منتقل می‌شود و آنها را برای چند روز خوشحال‌تر می‌کند.</OnKill_ThoughtGood.description>
+  
+  <!-- EN: psychic fog -->
+  <PsychicSensitivityDownMajor.label>مه روانی</PsychicSensitivityDownMajor.label>
+  <!-- EN: This weapon suppresses the wielder's psychic sensitivity by 30%. This only applies while the weapon is held. -->
+  <PsychicSensitivityDownMajor.description>این سلاح حساسیت روانی نگهدارنده را به میزان 30% سرکوب می‌کند. این فقط در حالی که سلاح نگه داشته می‌شود اعمال می‌شود.</PsychicSensitivityDownMajor.description>
+  
+  <!-- EN: psychic quiet -->
+  <PsychicSensitivityDownMinor.label>سکوت روانی</PsychicSensitivityDownMinor.label>
+  <!-- EN: This weapon suppresses the wielder's psychic sensitivity by 15%. This only applies while the weapon is held. -->
+  <PsychicSensitivityDownMinor.description>این سلاح حساسیت روانی نگهدارنده را به میزان 15% سرکوب می‌کند. این فقط در حالی که سلاح نگه داشته می‌شود اعمال می‌شود.</PsychicSensitivityDownMinor.description>
+  
+  <!-- EN: psychic hypersensitizer -->
+  <PsychicSensitivityUpMajor.label>فوق حساس‌کننده روانی</PsychicSensitivityUpMajor.label>
+  <!-- EN: This weapon amplifies the wielder's psychic sensitivity by 40%. This only applies while the weapon is held. -->
+  <PsychicSensitivityUpMajor.description>این سلاح حساسیت روانی نگهدارنده را به میزان 40% تقویت می‌کند. این فقط در حالی که سلاح نگه داشته می‌شود اعمال می‌شود.</PsychicSensitivityUpMajor.description>
+  
+  <!-- EN: psychic sensitizer -->
+  <PsychicSensitivityUpMinor.label>حساس‌کننده روانی</PsychicSensitivityUpMinor.label>
+  <!-- EN: This weapon amplifies the wielder's psychic sensitivity by 20%. This only applies while the weapon is held. -->
+  <PsychicSensitivityUpMinor.description>این سلاح حساسیت روانی نگهدارنده را به میزان 20% تقویت می‌کند. این فقط در حالی که سلاح نگه داشته می‌شود اعمال می‌شود.</PsychicSensitivityUpMinor.description>
+  
+  <!-- EN: psy-meditative -->
+  <PsyfocusMeditationBonus.label>روانی-تأملی</PsyfocusMeditationBonus.label>
+  <!-- EN: This weapon's persona is naturally meditative and helps its wielder focus in psychic meditation. The wielder gains an extra 10% psyfocus per day of meditation, as long as the weapon is held. -->
+  <PsyfocusMeditationBonus.description>پرسونا این سلاح به طور طبیعی تأملی است و به نگهدارنده کمک می‌کند در مدیتیشن روانی تمرکز کند. نگهدارنده 10% psyfocus اضافی در روز مدیتیشن کسب می‌کند، تا زمانی که سلاح نگه داشته شود.</PsyfocusMeditationBonus.description>
+  
+  <!-- EN: fast mover -->
+  <SpeedBoost.label>حرکت سریع</SpeedBoost.label>
+  <!-- EN: This weapon's persona has a sense of motion. It confers this onto the wielder, making them move 15% faster as long as the weapon is held. -->
+  <SpeedBoost.description>پرسونا این سلاح حس حرکت دارد. آن این را به نگهدارنده منتقل می‌کند و آنها را تا زمانی که سلاح نگه داشته شود 15% سریع‌تر حرکت می‌دهد.</SpeedBoost.description>
+  
+  <!-- EN: calm thoughts -->
+  <ThoughtCalm.label>افکار آرام</ThoughtCalm.label>
+  <!-- EN: This weapon's persona is relaxed and steady. It whispers calming thoughts to whoever it is bonded with, increasing their mood. -->
+  <ThoughtCalm.description>پرسونا این سلاح آرام و ثابت است. افکار آرام را به هر کسی که با آن پیوند خورده زمزمه می‌کند و خلق و خوی آنها را افزایش می‌دهد.</ThoughtCalm.description>
+  
+  <!-- EN: kind thoughts -->
+  <ThoughtKind.label>افکار مهربان</ThoughtKind.label>
+  <!-- EN: This weapon's persona is kind and supportive. It whispers kind thoughts to whoever it is bonded with, increasing their mood. -->
+  <ThoughtKind.description>پرسونا این سلاح مهربان و حمایتی است. افکار مهربان را به هر کسی که با آن پیوند خورده زمزمه می‌کند و خلق و خوی آنها را افزایش می‌دهد.</ThoughtKind.description>
+  
+  <!-- EN: mad muttering -->
+  <ThoughtMuttering.label>زوزه دیوانه</ThoughtMuttering.label>
+  <!-- EN: This weapon's persona is neurotic and unstable. It mutters mad thoughts to whoever it is bonded with, reducing their mood. -->
+  <ThoughtMuttering.description>پرسونا این سلاح عصبی و ناپایدار است. افکار دیوانه را به هر کسی که با آن پیوند خورده زوزه می‌کند و خلق و خوی آنها را کاهش می‌دهد.</ThoughtMuttering.description>
+  
+  <!-- EN: mad wailing -->
+  <ThoughtWailing.label>شیون دیوانه</ThoughtWailing.label>
+  <!-- EN: This weapon's persona is highly disturbed and won't shut up about it. It wails mad notions to whoever it is bonded with, suppressing their mood. -->
+  <ThoughtWailing.description>پرسونا این سلاح بسیار آشفته است و در مورد آن ساکت نمی‌شود. مفاهیم دیوانه را به هر کسی که با آن پیوند خورده شیون می‌کند و خلق و خوی آنها را سرکوب می‌کند.</ThoughtWailing.description>
+  
+</LanguageData>

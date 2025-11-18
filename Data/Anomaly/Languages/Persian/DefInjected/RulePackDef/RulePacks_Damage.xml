@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>damage_source->[source] [attacked]</li>
+    <li>source->something from within the [dark]</li>
+    <li>source->something in the [dark]</li>
+    <li>source->a creature in the [dark]</li>
+    <li>source->an invisible creature</li>
+    <li>source->a shadowy creature</li>
+    <li>source->an invisible foe within the [dark]</li>
+    <li>dark->darkness</li>
+    <li>dark->unnatural darkness</li>
+    <li>dark->inky blackness</li>
+    <li>dark->shadows</li>
+    <li>attacked->attacked</li>
+    <li>attacked->struck</li>
+    <li>attacked->hit</li>
+    <li>damaged_present->wounding</li>
+    <li>damaged_present->injuring</li>
+    <li>destroyed_present->removing</li>
+    <li>destroyed_present->crippling</li>
+    <li>destroyed_present->severing</li>
+  -->
+  <DamageEvent_UnnaturalDarkness.rulePack.rulesStrings>
+    <li>damage_source->[source] [attacked]</li>
+    <li>source->چیزی از درون [dark]</li>
+    <li>source->چیزی در [dark]</li>
+    <li>source->موجودی در [dark]</li>
+    <li>source->موجودی نامرئی</li>
+    <li>source->موجودی سایه‌دار</li>
+    <li>source->دشمنی نامرئی در [dark]</li>
+    <li>dark->تاریکی</li>
+    <li>dark->تاریکی غیرطبیعی</li>
+    <li>dark->سیاهی جوهری</li>
+    <li>dark->سایه‌ها</li>
+    <li>attacked->حمله کرد</li>
+    <li>attacked->ضربه زد</li>
+    <li>attacked->زد</li>
+    <li>damaged_present->زخمی کردن</li>
+    <li>damaged_present->آسیب رساندن</li>
+    <li>destroyed_present->برداشتن</li>
+    <li>destroyed_present->فلج کردن</li>
+    <li>destroyed_present->قطع کردن</li>
+  </DamageEvent_UnnaturalDarkness.rulePack.rulesStrings>
+  
+</LanguageData>

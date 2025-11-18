@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Ideoligions -->
+  <!-- EN: Deities -->
+  <Deities>خدایان</Deities>
+  <!-- EN: Show all ideoligions -->
+  <ButtonShowAllIdeoligions>نشان دادن همه ایدئولوژی ها</ButtonShowAllIdeoligions>
+  <!-- EN: Ideoligion of -->
+  <IdeoligionOf>ایدئولوژی از</IdeoligionOf>
+  <!-- EN: Memes -->
+  <Memes>میم‌ها</Memes>
+  <!-- EN: Narrative -->
+  <CoreNarrative>روایت</CoreNarrative>
+  <!-- EN: The core narrative of your ideoligion. This has no gameplay impact. -->
+  <CoreNarrativeDesc>روایت اصلی ایدئولیژی شما. این هیچ تاثیری در گیم پلی ندارد.</CoreNarrativeDesc>
+  <!-- EN: Edit narrative -->
+  <EditNarrative>ویرایش روایت</EditNarrative>
+  <!-- EN: Lock or unlock the ideoligion's narrative. When locked, the narrative text will not auto-regenerate if the ideoligion is changed. -->
+  <LockButtonDesc>قفل یا باز کردن روایت ایدئولوژی. وقتی قفل باشد، متن روایت در صورت تغییر ایدئولوژی به طور خودکار بازسازی نمی‌شود.</LockButtonDesc>
+  <!-- EN: {0} lock is currently on. The {1} will not auto-regenerate. -->
+  <LockInOn>قفل {0} در حال حاضر روشن است. {1} به طور خودکار بازسازی نمی‌شود.</LockInOn>
+  <!-- EN: {0} lock is currently off. The {1} text can auto-regenerate. -->
+  <LockInOff>قفل {0} در حال حاضر خاموش است. متن {1} می‌تواند به طور خودکار بازسازی شود.</LockInOff>
+  <!-- EN: Lock or unlock the name of this precept. When locked, the precept name will not auto-regenerate if the ideoligion is changed. -->
+  <LockPreceptNameButtonDesc>قفل یا باز کردن نام این اصل. وقتی قفل باشد، نام اصل در صورت تغییر ایدئولوژی به طور خودکار بازسازی نمی‌شود.</LockPreceptNameButtonDesc>
+  <!-- EN: Precepts -->
+  <Precepts>اصول</Precepts>
+  <!-- EN: Rituals -->
+  <Rituals>مراسم</Rituals>
+  <!-- EN: Roles -->
+  <IdeoRoles>نقش‌ها</IdeoRoles>
+  <!-- EN: Buildings -->
+  <IdeoBuildings>ساختمان‌ها</IdeoBuildings>
+  <!-- EN: Relics -->
+  <IdeoRelics>یادگارها</IdeoRelics>
+  <!-- EN: Preferred apparel -->
+  <IdeoApparel>لباس ترجیحی</IdeoApparel>
+  <!-- EN: apparel desire -->
+  <IdeoApparelDesire>خواسته لباس</IdeoApparelDesire>
+  <!-- EN: Won't do -->
+  <UnwillingToDoIdeoAction>انجام نخواهد داد</UnwillingToDoIdeoAction>
+  <!-- EN: Stats -->
+  <PreceptStats>آمار</PreceptStats>
+  <!-- EN: Prohibitions -->
+  <Prohibitions>ممنوعیت‌ها</Prohibitions>
+  <!-- EN: Opinions -->
+  <Opinions>نظرات</Opinions>
+  <!-- EN: Mental breaks -->
+  <MentalBreaks>فروپاشی‌های روانی</MentalBreaks>
+  <!-- EN: Randomize name -->
+  <RandomizeName>تصادفی کردن نام</RandomizeName>
+  <!-- EN: Randomize precepts -->
+  <RandomizePrecepts>تصادفی کردن اصول</RandomizePrecepts>
+  <!-- EN: Randomize deities -->
+  <RandomizeDeities>تصادفی کردن خدایان</RandomizeDeities>
+  <!-- EN: Add deity -->
+  <AddDeity>افزودن خدا</AddDeity>
+  <!-- EN: Choose memes -->
+  <ChooseMemes>انتخاب میم‌ها</ChooseMemes>
+  <!-- EN: Choose starting meme -->
+  <ChooseStartingMeme>انتخاب میم آغازین</ChooseStartingMeme>
+  <!-- EN: Choose structure -->
+  <ChooseStructure>انتخاب ساختار</ChooseStructure>
+  <!-- EN: Choose culture -->
+  <ChooseCulture>انتخاب فرهنگ</ChooseCulture>
+  <!-- EN: Culture -->
+  <Culture>فرهنگ</Culture>
+  <!-- EN: Culture affects names, appearances, and symbols. -->
+  <CultureTip>فرهنگ بر نام‌ها، ظاهر و نمادها تأثیر می‌گذارد.</CultureTip>
+  <!-- EN: Structure -->
+  <StructureMeme>ساختار</StructureMeme>
+  <!-- EN: An ideoligion's structure determines the kind of entities and forces it sees as important to the moral structure of the universe. It has no direct gameplay effects. -->
+  <StructureMemeTip>ساختار یک ایدئولوژی نوع موجودات و نیروهایی را که برای ساختار اخلاقی جهان مهم می‌داند، تعیین می‌کند. هیچ تأثیر مستقیمی بر گیم‌پلی ندارد.</StructureMemeTip>
+  <!-- EN: Adjective -->
+  <Adjective>صفت</Adjective>
+  <!-- EN: Ritual room -->
+  <WorshipRoom>اتاق مراسم</WorshipRoom>
+  <!-- EN: Member noun -->
+  <IdeoMembers>عضو</IdeoMembers>
+  <!-- EN: Member plural -->
+  <IdeoMembersPlural>اعضا</IdeoMembersPlural>
+  <!-- EN: Edit symbols -->
+  <EditSymbols>ویرایش نمادها</EditSymbols>
+  <!-- EN: Edit deity -->
+  <EditDeity>ویرایش خدا</EditDeity>
+  <!-- EN: Edit required apparel -->
+  <EditApparelRequirement>ویرایش نیاز لباس</EditApparelRequirement>
+  <!-- EN: Edit name -->
+  <EditName>ویرایش نام</EditName>
+  <!-- EN: Any time -->
+  <StartingCondition_Anytime>هر زمان</StartingCondition_Anytime>
+  <!-- EN: Date -->
+  <StartingCondition_Date>تاریخ</StartingCondition_Date>
+  <!-- EN: Starting condition -->
+  <StartingCondition>شرایط شروع</StartingCondition>
+  <!-- EN: Randomize symbols -->
+  <RandomizeSymbols>نمادها را تصادفی کنید</RandomizeSymbols>
+  <!-- EN: Randomize ideoligion name, icon, narrative, leader title and any other texts like ritual names or role names. This does not affect gameplay elements like memes or precepts. -->
+  <RandomizeSymbolsTooltip>نام، نماد، روایت، عنوان رهبر و هر متن دیگری مانند نام مراسم یا نام نقش‌ها را تصادفی کنید. این بر عناصر گیم‌پلی مانند میم‌ها یا اصول تأثیر نمی‌گذارد.</RandomizeSymbolsTooltip>
+  <!-- EN: Click any element to edit it -->
+  <ClickAnyElementToEditIt>برای ویرایش هر عنصری کلیک کنید</ClickAnyElementToEditIt>
+  <!-- EN: Leader title -->
+  <LeaderTitle>عنوان رهبر</LeaderTitle>
+  <!-- EN: Deity name -->
+  <DeityName>نام خدا</DeityName>
+  <!-- EN: Deity title -->
+  <DeityTitle>عنوان خدا</DeityTitle>
+  <!-- EN: Deity gender -->
+  <DeityGender>جنسیت خدا</DeityGender>
+  <!-- EN: Name -->
+  <Name>نام</Name>
+  <!-- EN: Icon -->
+  <Icon>نماد</Icon>
+  <!-- EN: Related to meme -->
+  <RelatedToMeme>مربوط به میم</RelatedToMeme>
+  <!-- EN: This is a charity quest. If you don't fulfill it, believers in {0} will be unhappy due to their charitable beliefs. If you do, believers in {0} will be happy ({1}). -->
+  <IdeoCharityQuestInfo>این یک مأموریت خیریه است. اگر آن را انجام ندهید، معتقدان به {0} به دلیل باورهای خیرخواهانه خود ناراضی خواهند شد. اگر انجام دهید، معتقدان به {0} خوشحال خواهند شد ({1}).</IdeoCharityQuestInfo>
+  <!-- EN: Slaves will not do this work -->
+  <WorkDisabledSlave>بردگان این کار را انجام نخواهند داد</WorkDisabledSlave>
+  <!-- EN: Disabled by health condition -->
+  <WorkDisabledHealth>غیرفعال شده توسط وضعیت سلامتی</WorkDisabledHealth>
+  <!-- EN: Disabled by {0} role -->
+  <WorkDisabledRole>غیرفعال شده توسط نقش {0}</WorkDisabledRole>
+  <!-- EN: Affected by traits -->
+  <AffectedByTraits>تحت تأثیر ویژگی‌ها</AffectedByTraits>
+  <!-- EN: This is a charity quest. People with charitable beliefs will be affected by its outcome. -->
+  <CharityQuestTip>این یک مأموریت خیریه است. افراد با باورهای خیرخواهانه تحت تأثیر نتیجه آن قرار خواهند گرفت.</CharityQuestTip>
+  <!-- EN: formerly -->
+  <Formerly>قبلاً</Formerly>
+  <!-- EN: all -->
+  <All>همه</All>
+  <!-- EN: Relics are objects of spiritual or ideological significance. They can be discovered by completing long and dangerous quests. A relic can be installed in a reliquary to attract pilgrims, enhance rituals, and strengthen an ideoligion's ability to convert outsiders. -->
+  <RelicTip>یادگارها اشیایی با اهمیت معنوی یا ایدئولوژیکی هستند. می‌توان آن‌ها را با تکمیل مأموریت‌های طولانی و خطرناک کشف کرد. یک یادگار می‌تواند در یک یادگارخانه نصب شود تا زائران را جذب کند، مراسم را بهبود بخشد و توانایی یک ایدئولوژی را برای تبدیل افراد خارجی تقویت کند.</RelicTip>
+  <!-- EN: Relics are objects of spiritual or ideological significance. They can be discovered by completing long and dangerous quests. A relic can be installed in a reliquary to attract pilgrims and enhance rituals. -->
+  <RelicTipClassic>یادگارها اشیایی با اهمیت معنوی یا ایدئولوژیکی هستند. می‌توان آن‌ها را با تکمیل مأموریت‌های طولانی و خطرناک کشف کرد. یک یادگار می‌تواند در یک یادگارخانه نصب شود تا زائران را جذب کند و مراسم را بهبود بخشد.</RelicTipClassic>
+  <!-- EN: animal -->
+  <Animal>حیوان</Animal>
+  <!-- EN: Venerated animals -->
+  <VeneratedAnimals>حیوانات مورد احترام</VeneratedAnimals>
+  <!-- EN: weapon pair -->
+  <IdeoWeapon>جفت سلاح</IdeoWeapon>
+  <!-- EN: Weapons -->
+  <IdeoWeapons>سلاح‌ها</IdeoWeapons>
+  <!-- EN: Swap noble and despised -->
+  <SwapNobleAndDespised>جابجایی نجیب و منفور</SwapNobleAndDespised>
+  <!-- EN: noble -->
+  <Noble>نجیب</Noble>
+  <!-- EN: despised -->
+  <Despised>منفور</Despised>
+  <!-- EN: Unlocked craftables -->
+  <UnlockedRecipes>قابل ساخت‌های باز شده</UnlockedRecipes>
+  <!-- EN: Start with research -->
+  <IdeoStartWithResearch>با تحقیق شروع کنید</IdeoStartWithResearch>
+  <!-- EN: Agreeing traits -->
+  <AgreeableTraits>ویژگی‌های موافق</AgreeableTraits>
+  <!-- EN: Conflicting traits -->
+  <DisagreeableTraits>ویژگی‌های متضاد</DisagreeableTraits>
+  <!-- EN: Shooting -->
+  <Shooting>تیراندازی</Shooting>
+  <!-- EN: Impact -->
+  <IdeoImpact>تأثیر</IdeoImpact>
+  <!-- EN: Overall impact -->
+  <IdeoImpactOverall>تأثیر کلی</IdeoImpactOverall>
+  <!-- EN: Some memes impact gameplay more than others. The meme's impact score gives a sense of how big of a gameplay impact it has. -->
+  <IdeoImpactOverallDesc>برخی میم‌ها بیشتر از دیگران بر گیم‌پلی تأثیر می‌گذارند. امتیاز تأثیر میم نشان‌دهنده میزان تأثیر آن بر گیم‌پلی است.</IdeoImpactOverallDesc>
+  <!-- EN: low -->
+  <IdeoMemeImpactLabel_1>کم</IdeoMemeImpactLabel_1>
+  <!-- EN: medium -->
+  <IdeoMemeImpactLabel_2>متوسط</IdeoMemeImpactLabel_2>
+  <!-- EN: high -->
+  <IdeoMemeImpactLabel_3>زیاد</IdeoMemeImpactLabel_3>
+  <!-- EN: low -->
+  <IdeoImpactLabel_1>کم</IdeoImpactLabel_1>
+  <!-- EN: low -->
+  <IdeoImpactLabel_2>کم</IdeoImpactLabel_2>
+  <!-- EN: moderate -->
+  <IdeoImpactLabel_3>متعادل</IdeoImpactLabel_3>
+  <!-- EN: moderate -->
+  <IdeoImpactLabel_4>متعادل</IdeoImpactLabel_4>
+  <!-- EN: strong -->
+  <IdeoImpactLabel_5>قوی</IdeoImpactLabel_5>
+  <!-- EN: strong -->
+  <IdeoImpactLabel_6>قوی</IdeoImpactLabel_6>
+  <!-- EN: very strong -->
+  <IdeoImpactLabel_7>بسیار قوی</IdeoImpactLabel_7>
+  <!-- EN: very strong -->
+  <IdeoImpactLabel_8>بسیار قوی</IdeoImpactLabel_8>
+  <!-- EN: extreme -->
+  <IdeoImpactLabel_9>شدید</IdeoImpactLabel_9>
+  <!-- EN: This was your colony's starting ideoligion. -->
+  <InitialPlayerIdeo>این ایدئولیژی آغازین مستعمره شما بود.</InitialPlayerIdeo>
+  
+  
+  <!-- EN: Since this ideoligion is so new and has so few followers on this planet, it is fluid. This means that it can develop over time.\n\nDeveloping the ideoligion costs development points. You can earn development points by completing rituals and quests related to this ideoligion.\n\nWith enough development points, you can reform the ideoligion with new memes, precepts, styles, and more. -->
+  <FluidIdeoTip>از آنجایی که این ایدئولوژی بسیار جدید است و پیروان کمی در این سیاره دارد، سیال است. این بدان معناست که می‌تواند با گذشت زمان توسعه یابد.\n\nتوسعه ایدئولوژی هزینه امتیازات توسعه دارد. می‌توانید با تکمیل مراسم و مأموریت‌های مربوط به این ایدئولوژی، امتیازات توسعه کسب کنید.\n\nبا امتیازات توسعه کافی، می‌توانید ایدئولوژی را با میم‌ها، اصول، سبک‌ها و موارد دیگر اصلاح کنید.</FluidIdeoTip>
+  <!-- EN: How to get development points -->
+  <FluidIdeoTipGetPoints>چگونه امتیازات توسعه کسب کنیم</FluidIdeoTipGetPoints>
+  <!-- EN: Convert someone to your ideoligion -->
+  <FluidIdeoTipGetPoinsByConversion>تبدیل کسی به ایدئولوژی شما</FluidIdeoTipGetPoinsByConversion>
+
+  <!-- EN: {0} unlocks things which you cannot build because they require memes that none of your people believe -->
+  <ResearchProjectHasDefsWithMissingMemes>{0} چیزهایی را باز می‌کند که نمی‌توانید بسازید زیرا به میم‌هایی نیاز دارند که هیچ‌یک از افراد شما به آن‌ها اعتقاد ندارند</ResearchProjectHasDefsWithMissingMemes>
+  <!-- EN: Warning: This kind of work is opposed by {0_possessive} ideoligion, so it may make this person unhappy. -->
+  <SelectedWorkTypeOpposedByIdeo>هشدار: این نوع کار با ایدئولوژی {0_possessive} مخالف است، بنابراین ممکن است این فرد را ناراضی کند.</SelectedWorkTypeOpposedByIdeo>
+
+  <!-- EN: Development points -->
+  <DevelopmentPoints>امتیازات توسعه</DevelopmentPoints>
+
+</LanguageData>

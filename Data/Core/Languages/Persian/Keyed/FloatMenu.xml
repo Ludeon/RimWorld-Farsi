@@ -1,0 +1,662 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Call {0} -->
+  <CallOnRadio>تماس با {0}</CallOnRadio>
+  <!-- EN: Cannot use: {0} -->
+  <CannotUseReason>نمی‌توان استفاده کرد: {0}</CannotUseReason>
+  <!-- EN: Cannot use: EMP -->
+  <CannotUseSolarFlare>نمی‌توان استفاده کرد: EMP</CannotUseSolarFlare>
+  <!-- EN: Cannot use: No power -->
+  <CannotUseNoPower>نمی‌توان استفاده کرد: بدون برق</CannotUseNoPower>
+  <!-- EN: Cannot use: No path -->
+  <CannotUseNoPath>نمی‌توان استفاده کرد: بدون مسیر</CannotUseNoPath>
+  <!-- EN: Cannot use: Reserved -->
+  <CannotUseReserved>نمی‌توان استفاده کرد: رزرو شده</CannotUseReserved>
+  <!-- EN: Cannot use: Full -->
+  <CannotUseFull>نمی‌توان استفاده کرد: پر</CannotUseFull>
+  <!-- EN: leader {1_labelShort} is unavailable -->
+  <LeaderUnavailable>رهبر {1_labelShort} در دسترس نیست</LeaderUnavailable>
+  <!-- EN: leader is unavailable -->
+  <LeaderUnavailableNoLeader>رهبر در دسترس نیست</LeaderUnavailableNoLeader>
+  <!-- EN: Not allowed -->
+  <NotAllowed>مجاز نیست</NotAllowed>
+  
+  <!-- EN: Attack {1_labelShort} -->
+  <Attack>TODO</Attack>
+  <!-- EN: Fire at {1_labelShort} -->
+  <FireAt>شلیک به {1_label}</FireAt>
+  <!-- EN: Remove -->
+  <Remove>زدودن</Remove>
+
+  <!-- EN: out of range -->
+  <OutOfRange>خارج از محدوده</OutOfRange>
+  <!-- EN: too close -->
+  <TooClose>خیلی نزدیک</TooClose>
+  <!-- EN: Cannot hit target -->
+  <CannotHitTarget>نمی‌توان به هدف زد</CannotHitTarget>
+  <!-- EN: {1_labelShort} is incapable of violence -->
+  <IsIncapableOfViolenceLower>{1_labelShort} قادر به خشونت نیست</IsIncapableOfViolenceLower>
+  <!-- EN: incapable of violence -->
+  <IncapableOfViolenceLower>قادر به خشونت نیست</IncapableOfViolenceLower>
+  <!-- EN: {0_labelShort} is incapable of shooting -->
+  <IsIncapableOfShootingLower>{0_labelShort} قادر به تیراندازی نیست</IsIncapableOfShootingLower>
+  <!-- EN: {1_labelShort} is not drafted -->
+  <IsNotDraftedLower>{1_labelShort} آماده نیست</IsNotDraftedLower>
+  <!-- EN: cannot order characters you do not control -->
+  <CannotOrderNonControlledLower>نمی‌توان به شخصیت‌هایی که کنترل نمی‌کنید دستور داد</CannotOrderNonControlledLower>
+  <!-- EN: cannot attack -->
+  <CannotAttack>TODO</CannotAttack>
+  <!-- EN: cannot attack self -->
+  <CannotAttackSelf>نمی‌توان به خود حمله کرد</CannotAttackSelf>
+  <!-- EN: cannot attack faction ally -->
+  <CannotAttackSameFactionMember>نمی‌توان به متحد جناح حمله کرد</CannotAttackSameFactionMember>
+  <!-- EN: Incapable of firefighting. -->
+  <IncapableOfFirefighting>قادر به اطفاء حریق نیست.</IncapableOfFirefighting>
+
+  <!-- EN: Man {1_labelShort} -->
+  <OrderManThing>استفاده از {1_labelShort}</OrderManThing>
+  
+  <!-- EN: Melee attack {1_labelShort} -->
+  <MeleeAttack>حمله تن به تن به {1_label}</MeleeAttack>
+  <!-- EN: Melee attack {1_labelShort} to death -->
+  <MeleeAttackToDeath>حمله تن به تن به {1_label} تا مرگ</MeleeAttackToDeath>
+  <!-- EN: no path -->
+  <NoPath>بدون مسیر</NoPath>
+  <!-- EN: burying -->
+  <Burying>دفن کردن</Burying>
+  <!-- EN: designated for {0} -->
+  <DesignatedFor>برای {0} تعیین شده است</DesignatedFor>
+
+  <!-- EN: forbidden -->
+  <ForbiddenLower>ممنوع</ForbiddenLower>
+  <!-- EN: outside allowed area -->
+  <ForbiddenOutsideAllowedAreaLower>خارج از منطقه مجاز</ForbiddenOutsideAllowedAreaLower>
+  <!-- EN: not in home area -->
+  <NotInHomeArea>در منطقه خانه نیست</NotInHomeArea>
+  <!-- EN: burning -->
+  <BurningLower>در حال سوختن</BurningLower>
+  <!-- EN: no empty, accessible spot configured to store it -->
+  <NoEmptyPlaceLower>هیچ جای خالی و قابل دسترسی برای ذخیره آن پیکربندی نشده است</NoEmptyPlaceLower>
+  <!-- EN: no stack available to merge into -->
+  <NoMergeTarget>هیچ پشته‌ای برای ادغام در دسترس نیست</NoMergeTarget>
+  <!-- EN: already filled enough -->
+  <AlreadyFilledLower>به اندازه کافی پر شده است</AlreadyFilledLower>
+  <!-- EN: missing {0} -->
+  <MissingMaterials>نقصان {0}</MissingMaterials>
+  <!-- EN: No medicine for restriction '{CATEGORY}'. -->
+  <NoMedicineMatchingCategory>هیچ دارویی برای محدودیت '{CATEGORY}' وجود ندارد.</NoMedicineMatchingCategory>
+  <!-- EN: under required skill {0} -->
+  <UnderRequiredSkill>زیر مهارت مورد نیاز {0}</UnderRequiredSkill>
+  <!-- EN: under allowed skill {0} -->
+  <UnderAllowedSkill>زیر مهارت مجاز {0}</UnderAllowedSkill>
+  <!-- EN: above allowed skill {0} -->
+  <AboveAllowedSkill>بالاتر از مهارت مجاز {0}</AboveAllowedSkill>
+  <!-- EN: no reachable outside cell -->
+  <NoReachableOutsideCell>هیچ سلول بیرونی قابل دسترسی وجود ندارد</NoReachableOutsideCell>
+  <!-- EN: cannot exit map -->
+  <CannotExitMap>TODO</CannotExitMap>
+  <!-- EN: missing required skill level -->
+  <MissingRequiredSkillLevel>سطح مهارت مورد نیاز کم است</MissingRequiredSkillLevel>
+  <!-- EN: animal interacted too recently -->
+  <AnimalInteractedTooRecently>حیوان اخیراً بیش از حد تعامل داشته است</AnimalInteractedTooRecently>
+  <!-- EN: interacted with too recently -->
+  <PrisonerInteractedTooRecently>اخیراً بیش از حد تعامل داشته است</PrisonerInteractedTooRecently>
+  <!-- EN: no usable food -->
+  <NoUsableFood>هیچ غذای قابل استفاده‌ای وجود ندارد</NoUsableFood>
+  <!-- EN: not enough food -->
+  <NoFood>بدون غذا</NoFood>
+  <!-- EN: no food matching restrictions -->
+  <NoFoodMatchingRestrictions>هیچ غذایی مطابق با محدودیت‌ها وجود ندارد</NoFoodMatchingRestrictions>
+  <!-- EN: No {0_label} -->
+  <NoIngredient>هیچ {0_label} وجود ندارد</NoIngredient>
+  <!-- EN: below requirements of {0} -->
+  <FoodBelowTitleRequirements>زیر الزامات {0}</FoodBelowTitleRequirements>
+  <!-- EN: animals skill too low - need {0} -->
+  <AnimalsSkillTooLow>مهارت حیوانات خیلی پایین است - نیاز به {0}</AnimalsSkillTooLow>
+  <!-- EN: animal downed -->
+  <CantInteractAnimalDowned>حیوان زخمی شده است</CantInteractAnimalDowned>
+  <!-- EN: animal sleeping -->
+  <CantInteractAnimalAsleep>حیوان خواب است</CantInteractAnimalAsleep>
+  <!-- EN: animal busy -->
+  <CantInteractAnimalBusy>حیوان مشغول است</CantInteractAnimalBusy>
+  <!-- EN: no allowed reachable pens -->
+  <CantRopeAnimalNoUsableReachablePens>هیچ جایگاه مجاز قابل دسترسی وجود ندارد</CantRopeAnimalNoUsableReachablePens>
+  <!-- EN: no enclosed pens -->
+  <CantRopeAnimalNoEnclosedPens>هیچ جایگاه محصوری وجود ندارد</CantRopeAnimalNoEnclosedPens>
+  <!-- EN: no allowed pens -->
+  <CantRopeAnimalNoAllowedPens>هیچ جایگاه مجازی وجود ندارد</CantRopeAnimalNoAllowedPens>
+  <!-- EN: no reachable pens -->
+  <CantRopeAnimalNoReachablePens>هیچ جایگاه قابل دسترسی وجود ندارد</CantRopeAnimalNoReachablePens>
+  <!-- EN: can't touch -->
+  <CantRopeAnimalCantTouch>نمی‌توان لمس کرد</CantRopeAnimalCantTouch>
+  <!-- EN: no space in pen -->
+  <CantRopeAnimalNoSpace>فضایی در جایگاه نیست</CantRopeAnimalNoSpace>
+  <!-- EN: {0_labelShort} is in {1} state -->
+  <CantRopeAnimalMentalState>{0_labelShort} در وضعیت {1} است</CantRopeAnimalMentalState>
+  <!-- EN: already in best pen -->
+  <CantRopeAnimalAlreadyInBestPen>از قبل در بهترین جایگاه است</CantRopeAnimalAlreadyInBestPen>
+  <!-- EN: {0} skill too low -->
+  <SkillTooLowForConstruction>مهارت {0} خیلی پایین است</SkillTooLowForConstruction>
+  <!-- EN: need components -->
+  <NoComponentsToRepair>نیاز به قطعات</NoComponentsToRepair>
+  <!-- EN: need {0} -->
+  <NoFuelToRefuel>نیاز به {0}</NoFuelToRefuel>
+  <!-- EN: need wort -->
+  <NoWort>نیاز به مالت</NoWort>
+  <!-- EN: available food is in storage of higher priority -->
+  <TheOnlyAvailableFoodIsInStorageOfHigherPriority>غذای موجود در انباری با اولویت بالاتر است</TheOnlyAvailableFoodIsInStorageOfHigherPriority>
+  <!-- EN: no suitable food -->
+  <NoFoodToFillHopper>هیچ غذای مناسبی وجود ندارد</NoFoodToFillHopper>
+  <!-- EN: self-tend disabled -->
+  <SelfTendDisabled>خوددرمانی غیرفعال است</SelfTendDisabled>
+  <!-- EN: reserved for prisoners -->
+  <ReservedForPrisoners>برای زندانیان رزرو شده است</ReservedForPrisoners>
+  <!-- EN: cannot reach -->
+  <CannotReach>نمی‌توان رسید</CannotReach>
+  <!-- EN: not ready for surgery -->
+  <NotSurgeryReady>برای جراحی آماده نیست</NotSurgeryReady>
+  <!-- EN: skill incapable -->
+  <SkillDisabled>مهارت غیرفعال است</SkillDisabled>
+  <!-- EN: too bright -->
+  <CantSowCavePlantBecauseOfLight>خیلی روشن است</CantSowCavePlantBecauseOfLight>
+  <!-- EN: unroofed -->
+  <CantSowCavePlantBecauseUnroofed>بدون سقف</CantSowCavePlantBecauseUnroofed>
+  <!-- EN: incapable of deconstruction -->
+  <IncapableOfDeconstruction>قادر به تخریب نیست</IncapableOfDeconstruction>
+  <!-- EN: incapable of mining -->
+  <IncapableOfMining>قادر به معدن‌کاری نیست</IncapableOfMining>
+  <!-- EN: tree marked for extraction -->
+  <TreeMarkedForExtraction>درخت برای استخراج علامت‌گذاری شده است</TreeMarkedForExtraction>
+  <!-- EN: angers faction -->
+  <AngersFaction>جناح را عصبانی می‌کند</AngersFaction>
+  <!-- EN: no body part -->
+  <InstallImplantNoBodyPart>بدون اندام</InstallImplantNoBodyPart>
+  <!-- EN: not a colonist -->
+  <InstallImplantNotAllowedForNonColonists>مهاجر نیست</InstallImplantNotAllowedForNonColonists>
+  <!-- EN: already installed -->
+  <InstallImplantAlreadyInstalled>قبلا نصب شده است</InstallImplantAlreadyInstalled>
+  <!-- EN: requires an existing {0} -->
+  <InstallImplantHediffRequired>نیازمند یک {0} موجود است</InstallImplantHediffRequired>
+  <!-- EN: max level -->
+  <InstallImplantAlreadyMaxLevel>حداکثر سطح</InstallImplantAlreadyMaxLevel>
+  <!-- EN: requires min level {0} -->
+  <InstallImplantMinLevel>نیازمند حداقل سطح {0}</InstallImplantMinLevel>
+  <!-- EN: psychically deaf -->
+  <InstallImplantPsychicallyDeaf>از نظر روانی ناشنوا</InstallImplantPsychicallyDeaf>
+  <!-- EN: Upgrade {0} to level {1} -->
+  <UpgradeImplant>ارتقاء {0} به سطح {1}</UpgradeImplant>
+  <!-- EN: violation of faction ally -->
+  <SurgeryViolationFellowFactionMember>نقض متحد جناح</SurgeryViolationFellowFactionMember>
+  <!-- EN: being carried by {0_labelShort} -->
+  <BeingCarriedBy>توسط {0_labelShort} حمل می‌شود</BeingCarriedBy>
+  <!-- EN: full -->
+  <ContainerFull>پر</ContainerFull>
+  <!-- EN: already assigned -->
+  <AlreadyAssigned>قبلا اختصاص داده شده است</AlreadyAssigned>
+  
+  <!-- EN: Consume {1_labelShort} -->
+  <ConsumeThing>مصرف {1_labelShort}</ConsumeThing>
+  
+  <!-- EN: Cannot go here: No path -->
+  <CannotGoNoPath>نمی‌توان به اینجا رفت: بدون مسیر</CannotGoNoPath>
+  <!-- EN: Go here -->
+  <GoHere>به اینجا برو</GoHere>
+
+  <!-- EN: Clean {0} -->
+  <CleanRoom>تمیز کردن {0}</CleanRoom>
+  
+  <!-- EN: Arrest {0} -->
+  <Arrest>دستگیری {0}</Arrest>
+  <!-- EN: Try to arrest {1_labelShort} ({2} chance) -->
+  <TryToArrest>تلاش برای دستگیری {1_label} ({2} شانس)</TryToArrest>
+  <!-- EN: Cannot arrest -->
+  <CannotArrest>نمی توان دستگیر کرد</CannotArrest>
+  <!-- EN: {0} chance of arrest -->
+  <ArrestChance>{0} شانس دستگیری</ArrestChance>
+
+  <!-- EN: Capture {1_labelShort} -->
+  <Capture>دستگیری {1_label}</Capture>
+  <!-- EN: capture {0_labelShort} -->
+  <CaptureLower>دستگیری {0_labelShort}</CaptureLower>
+  <!-- EN: Cannot capture -->
+  <CannotCapture>نمی‌توان دستگیر کرد</CannotCapture>
+  <!-- EN: unwaveringly loyal -->
+  <Unrecruitable>وفاداری تزلزل‌ناپذیر</Unrecruitable>
+  <!-- EN: not recruitable -->
+  <UnrecruitableNoFaction>قابل استخدام نیست</UnrecruitableNoFaction> 
+  <!-- EN: Transfer {0_label} -->
+  <TransferEntity>انتقال {0_definite}</TransferEntity> 
+
+  <!-- EN: Rescue {1_labelShort} -->
+  <Rescue>نجات {1_label}</Rescue>
+  <!-- EN: Put {1_labelShort} somewhere safe -->
+  <PutSomewhereSafe>گذاشتن {1_label} در جایی امن</PutSomewhereSafe>
+  <!-- EN: Taking {0_labelShort} to bed. -->
+  <TakingToBed>بردن {0_labelShort} به تخت.</TakingToBed>
+  <!-- EN: Cannot rescue -->
+  <CannotRescue>نمی توان نجات داد</CannotRescue>
+  <!-- EN: Cannot rescue {PAWN_labelShort} -->
+  <CannotRescuePawn>TODO</CannotRescuePawn>
+
+  <!-- EN: Carry {1_labelShort} to cryptosleep casket -->
+  <CarryToCryptosleepCasket>حمل {1_label} به کپسول کریپتوخواب</CarryToCryptosleepCasket>
+  <!-- EN: Cannot carry to cryptosleep casket -->
+  <CannotCarryToCryptosleepCasket>نمی‌توان به کپسول کریپتوخواب حمل کرد</CannotCarryToCryptosleepCasket>
+
+  <!-- EN: Carry {0_labelShort} to shuttle -->
+  <CarryToShuttle>حمل {0_label} به شاتل</CarryToShuttle>
+
+  <!-- EN: No available cryptosleep casket. -->
+  <NoCryptosleepCasket>هیچ کپسول کریپتوخواب در دسترس نیست.</NoCryptosleepCasket>
+  <!-- EN: Temporary faction members not allowed. -->
+  <CryptosleepCasketGuestsNotAllowed>اعضای موقت جناح مجاز نیستند.</CryptosleepCasketGuestsNotAllowed>
+  <!-- EN: Hosted prisoners not allowed. -->
+  <CryptosleepCasketGuestPrisonersNotAllowed>زندانیان مهمان مجاز نیستند.</CryptosleepCasketGuestPrisonersNotAllowed>
+  <!-- EN: Already occupied -->
+  <CryptosleepCasketOccupied>از قبل اشغال شده است</CryptosleepCasketOccupied>
+  <!-- EN: No reachable, un-reserved, enclosed prisoner-marked bed in safe temperature. -->
+  <NoPrisonerBed>هیچ تخت زندانی قابل دسترسی، رزرو نشده، محصور و علامت‌گذاری شده در دمای امن وجود ندارد.</NoPrisonerBed>
+  <!-- EN: No prisoner bed available. -->
+  <NoPrisonerBedShort>هیچ تخت زندانی در دسترس نیست.</NoPrisonerBedShort>
+  <!-- EN: No reachable, un-reserved non-prisoner bed in safe temperature. -->
+  <NoNonPrisonerBed>هیچ تخت غیرزندانی قابل دسترسی، رزرو نشده در دمای امن وجود ندارد.</NoNonPrisonerBed>
+  <!-- EN: No reachable, un-reserved animal bed in safe temperature. -->
+  <NoAnimalBed>هیچ تخت حیوان قابل دسترسی، رزرو نشده در دمای امن وجود ندارد.</NoAnimalBed>
+  <!-- EN: No reachable, unforbidden, un-reserved {0} -->
+  <NoItemReservedOrReachable>هیچ {0} قابل دسترسی، ممنوع نشده، رزرو نشده وجود ندارد</NoItemReservedOrReachable>
+  <!-- EN: No unforbidden, un-reserved {0} -->
+  <NoItemReserved>هیچ {0} ممنوع نشده، رزرو نشده وجود ندارد</NoItemReserved>
+  <!-- EN: Reserved by someone else. -->
+  <Reserved>توسط شخص دیگری رزرو شده است.</Reserved>
+  <!-- EN: Reserved by {1_labelShort} -->
+  <ReservedBy>توسط {1_labelShort} رزرو شده است</ReservedBy>
+  <!-- EN: {0} is reserved by {1}. -->
+  <IsReservedBy>{0} توسط {1} رزرو شده است.</IsReservedBy>
+  <!-- EN: Too heavy -->
+  <TooHeavy>خیلی سنگین</TooHeavy>
+  <!-- EN: {0_labelShort} is in the same faction. -->
+  <SameFaction>{0_labelShort} در همان جناح است.</SameFaction>
+
+  <!-- EN: incapable -->
+  <Incapable>عاجز</Incapable>
+  <!-- EN: incapable of {0} -->
+  <IncapableOfCapacity>قادر به {0} نیست</IncapableOfCapacity>
+  <!-- EN: Must have {0_label} -->
+  <MustHaveHediff>باید {0_label} داشته باشد</MustHaveHediff>
+
+  <!-- EN: min skill -->
+  <MinSkill>حداقل مهارت</MinSkill>
+  
+  <!-- EN: Equip {0} -->
+  <Equip>تجهیز {0}</Equip>
+  <!-- EN: (brawler will be unhappy) -->
+  <EquipWarningBrawler>(مبارز ناراضی خواهد شد)</EquipWarningBrawler>
+  <!-- EN: Cannot equip {0} -->
+  <CannotEquip>نمی‌توان {0} را تجهیز کرد</CannotEquip>
+  <!-- EN: Cannot man {1_labelShort} -->
+  <CannotManThing>نمی‌توان از {1_labelShort} استفاده کرد</CannotManThing>
+  
+  <!-- EN: Force wear {1_labelShort} -->
+  <ForceWear>اجبار به پوشیدن {1_labelShort}</ForceWear>
+  <!-- EN: Force target to wear {1_labelShort}... -->
+  <ForceTargetToWear>TODO</ForceTargetToWear>
+  <!-- EN: Cannot wear {1_label} -->
+  <CannotWear>نمی‌توان {1_label} را پوشید</CannotWear>
+  <!-- EN: Cannot force target to wear {1_label} -->
+  <CannotForceTargetToWear>TODO</CannotForceTargetToWear>
+  <!-- EN: Force equip {1_labelShort} -->
+  <ForceEquipApparel>اجبار به تجهیز {1_labelShort}</ForceEquipApparel>
+  <!-- EN: Force target to equip {1_labelShort}... -->
+  <ForceTargetToEquipApparel>TODO</ForceTargetToEquipApparel>
+  <!-- EN: Cannot equip {1_label} -->
+  <CannotEquipApparel>نمی‌توان {1_label} را تجهیز کرد</CannotEquipApparel>
+  <!-- EN: Cannot force target to equip {1_label} -->
+  <CannotForceTargetToEquipApparel>TODO</CannotForceTargetToEquipApparel>
+  <!-- EN: missing body parts -->
+  <CannotWearBecauseOfMissingBodyParts>اندام‌های بدن کم است</CannotWearBecauseOfMissingBodyParts>
+  
+  <!-- EN: Reload {GEAR_labelShort} with {AMMO_label} -->
+  <Reload>بارگیری مجدد {GEAR_labelShort} با {AMMO_label}</Reload>
+  <!-- EN: Full -->
+  <ReloadFull>پر</ReloadFull>
+  <!-- EN: Too few -->
+  <ReloadNotEnough>خیلی کم</ReloadNotEnough>
+  <!-- EN: Cannot carry enough {AMMO_label} to reload 1 charge. -->
+  <ReloadCannotCarryEnough>نمی‌توان به اندازه کافی {AMMO_label} برای بارگیری مجدد 1 شارژ حمل کرد.</ReloadCannotCarryEnough>
+  
+  <!-- EN: Cannot pick up {1_labelShort} -->
+  <CannotPickUp>نمی‌توان {1_labelShort} را برداشت</CannotPickUp>
+  <!-- EN: Cannot pick up {1_label} (all) -->
+  <CannotPickUpAll>نمی‌توان {1_label} (همه) را برداشت</CannotPickUpAll>
+  <!-- EN: Pick up {1_labelShort} x1 -->
+  <PickUpOne>برداشتن {1_labelShort} x1</PickUpOne>
+  <!-- EN: Pick up {1_label} (all) -->
+  <PickUpAll>برداشتن {1_label} (همه)</PickUpAll>
+  <!-- EN: Pick up {1_labelShort}... -->
+  <PickUpSome>برداشتن {1_labelShort}...</PickUpSome>
+  <!-- EN: Pick up {1_labelShort} x{{0}} -->
+  <PickUpCount>برداشتن {1_labelShort} x{{0}}</PickUpCount>
+  <!-- EN: Cannot pick up {1_labelShort} -->
+  <CannotPickUpSome>نمی‌توان {1_labelShort} را برداشت</CannotPickUpSome>
+  <!-- EN: {0} {1} allowed -->
+  <MaxPickUpAllowed>{0} {1} مجاز است</MaxPickUpAllowed>
+  
+  <!-- EN: Cannot load {1_label} onto pack animal -->
+  <CannotGiveToPackAnimal>نمی‌توان {1_label} را روی حیوان بارکش بارگیری کرد</CannotGiveToPackAnimal>
+  <!-- EN: Cannot load {1_label} (all) onto pack animal -->
+  <CannotGiveToPackAnimalAll>نمی‌توان {1_label} (همه) را روی حیوان بارکش بارگیری کرد</CannotGiveToPackAnimalAll>
+  <!-- EN: Load {1_label} onto pack animal -->
+  <GiveToPackAnimal>بارگیری {1_label} روی حیوان بارکش</GiveToPackAnimal>
+  <!-- EN: Load {1_label} (all) onto pack animal -->
+  <GiveToPackAnimalAll>بارگیری {1_label} (همه) روی حیوان بارکش</GiveToPackAnimalAll>
+  <!-- EN: Load {1_labelShort} onto pack animal... -->
+  <GiveToPackAnimalSome>بارگیری {1_labelShort} روی حیوان بارکش...</GiveToPackAnimalSome>
+  <!-- EN: Load {1_labelShort} x{{0}} onto pack animal -->
+  <GiveToPackAnimalCount>بارگیری {1_labelShort} x{{0}} روی حیوان بارکش</GiveToPackAnimalCount>
+  
+  <!-- EN: Cannot load {1_label} into caravan -->
+  <CannotLoadIntoCaravan>نمی‌توان {1_label} را در کاروان بارگیری کرد</CannotLoadIntoCaravan>
+  <!-- EN: Cannot load {1_label} (all) into caravan -->
+  <CannotLoadIntoCaravanAll>نمی‌توان {1_label} (همه) را در کاروان بارگیری کرد</CannotLoadIntoCaravanAll>
+  <!-- EN: Load {1_label} into caravan -->
+  <LoadIntoCaravan>بارگیری {1_label} در کاروان</LoadIntoCaravan>
+  <!-- EN: Load {1_label} (all) into caravan -->
+  <LoadIntoCaravanAll>بارگیری {1_label} (همه) در کاروان</LoadIntoCaravanAll>
+  <!-- EN: Load {1_labelShort} into caravan... -->
+  <LoadIntoCaravanSome>بارگیری {1_labelShort} در کاروان...</LoadIntoCaravanSome>
+  <!-- EN: Load {1_labelShort} x{{0}} -->
+  <LoadIntoCaravanCount>بارگیری {1_labelShort} x{{0}}</LoadIntoCaravanCount>
+  <!-- EN: overweight -->
+  <OverweightLower>اضافه وزن</OverweightLower>
+
+  <!-- EN: Cannot carry {1_labelShort} and leave the area -->
+  <CannotCarryToExit>نمی‌توان {1_label} را حمل کرد و منطقه را ترک کرد</CannotCarryToExit>
+  <!-- EN: Carry {1_labelShort} and leave the area -->
+  <CarryToExit>حمل {1_label} و ترک منطقه</CarryToExit>
+  <!-- EN: Capture {1_labelShort} and leave the area -->
+  <CarryToExitAndCapture>دستگیری {1_label} و ترک منطقه</CarryToExitAndCapture>
+  
+  <!-- EN: Strip {1_labelShort} -->
+  <Strip>برهنه کردن {1_label}</Strip>
+  <!-- EN: Cannot strip {1_labelShort} -->
+  <CannotStrip>نمی‌توان {1_label} را برهنه کرد</CannotStrip>
+  <!-- EN: Cannot drop {1_labelShort} -->
+  <CannotDrop>نمی‌توان {1_label} را رها کرد</CannotDrop>
+  <!-- EN: Carry {0_labelShort} -->
+  <Carry>حمل {0_label}</Carry>
+  <!-- EN: Cannot carry {0_labelShort} -->
+  <CannotCarry>نمی‌توان {0_label} را حمل کرد</CannotCarry>
+  <!-- EN: hostile -->
+  <CarriedPawnHostile>متخاصم</CarriedPawnHostile>
+  <!-- EN: temporary faction member -->
+  <QuestRelated>عضو موقت جناح</QuestRelated>
+  <!-- EN: Cannot change outfits on temporary faction members -->
+  <QuestRelated_Outfit>نمی‌توان لباس اعضای موقت جناح را تغییر داد</QuestRelated_Outfit>
+  <!-- EN: would replace locked apparel -->
+  <WouldReplaceLockedApparel>لباس قفل شده را جایگزین می‌کند</WouldReplaceLockedApparel>
+
+  <!-- EN: Cannot place {0_label} in {1_label} -->
+  <CannotPlaceIn>نمی‌توان {0_label} را در {1_label} قرار داد</CannotPlaceIn>
+  <!-- EN: Place {0_label} in {1_label} -->
+  <PlaceIn>قرار دادن {0_label} در {1_label}</PlaceIn>
+
+  <!-- EN: Self-destruct here -->
+  <SelfDestructHere>خودتخریبی در اینجا</SelfDestructHere>
+  
+  <!-- EN: Drop {1_labelShort} -->
+  <Drop>رها کردن {1_label}</Drop>
+
+  <!-- EN: Rest until healed -->
+  <UseMedicalBed>تا زمان بهبودی استراحت کنید</UseMedicalBed>
+  <!-- EN: not injured -->
+  <NotInjured>مجروح نشده است</NotInjured>
+  <!-- EN: no doctor -->
+  <NoDoctor>بدون پزشک</NoDoctor>
+  <!-- EN: medical bed not for slaves -->
+  <NotForSlaves>تخت پزشکی برای بردگان نیست</NotForSlaves>
+  <!-- EN: Medical care disabled -->
+  <MedicalCareDisabled>TODO</MedicalCareDisabled>
+  <!-- EN: occupied by {0} -->
+  <SomeoneElseSleeping>توسط {0} اشغال شده است</SomeoneElseSleeping>
+  
+  <!-- EN: Trade with {0} -->
+  <TradeWith>تجارت با {0}</TradeWith>
+  <!-- EN: Dismiss trader -->
+  <DismissTrader>مرخص کردن تاجر</DismissTrader>
+  <!-- EN: Cannot trade -->
+  <CannotTrade>نمی توان معامله کرد</CannotTrade>
+  <!-- EN: Trader dismissed -->
+  <TraderDismissed>تاجر مرخص شد</TraderDismissed>
+
+  <!-- EN: Open {0_label} -->
+  <Open>باز کردن {0_label}</Open>
+  <!-- EN: Cannot open {0_label} -->
+  <CannotOpen>نمی‌توان {0_label} را باز کرد</CannotOpen>
+  
+  <!-- EN: Enter {0} -->
+  <EnterMap>ورود به {0}</EnterMap>
+  <!-- EN: Visit {0} -->
+  <VisitSettlement>بازدید از {0}</VisitSettlement>
+  <!-- EN: Visit {0} -->
+  <VisitPeaceTalks>بازدید از {0}</VisitPeaceTalks>
+  <!-- EN: Visit {0} -->
+  <VisitEscapeShip>بازدید از {0}</VisitEscapeShip>
+  <!-- EN: Attack {0} -->
+  <AttackSettlement>حمله به {0}</AttackSettlement>
+  <!-- EN: Approach {0} -->
+  <ApproachSite>نزدیک شدن به {0}</ApproachSite>
+  <!-- EN: Approaching {0}. -->
+  <ApproachingSite>در حال نزدیک شدن به {0}</ApproachingSite>
+  <!-- EN: Offer gifts -->
+  <OfferGifts>پیشنهاد هدایا</OfferGifts>
+  <!-- EN: Trade with {0} -->
+  <TradeWithSettlement>تجارت با {0}</TradeWithSettlement>
+
+  <!-- Specific thing interactions -->
+  <!-- EN: Enter cryptosleep casket -->
+  <EnterCryptosleepCasket>ورود به کپسول کریپتوخواب</EnterCryptosleepCasket>
+  <!-- EN: Open cryptosleep casket -->
+  <OpenCryptosleepCasket>باز کردن کپسول کریپتوخواب</OpenCryptosleepCasket>
+  <!-- EN: Get in shuttle -->
+  <EnterShuttle>سوار شاتل شوید</EnterShuttle>
+
+  <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc. -->
+  <!-- EN: Cannot {0} {1} -->
+  <CannotGenericWork>نمی‌توان {0} {1}</CannotGenericWork>
+  <!-- EN: Cannot {0} -->
+  <CannotGenericWorkCustom>نمی‌توان {0}</CannotGenericWorkCustom>
+
+  <!-- EN: Incapable of {0} -->
+  <CannotMissingHealthActivities>نمی‌توان اولویت‌بندی کرد: قادر به {0} نیست</CannotMissingHealthActivities>
+
+  <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
+  <!-- EN: Already {0} {2_labelShort} -->
+  <CannotGenericAlreadyAm>از قبل در حال {0} {2_labelShort}</CannotGenericAlreadyAm>
+  <!-- EN: Already {0} -->
+  <CannotGenericAlreadyAmCustom>از قبل در حال {0}</CannotGenericAlreadyAmCustom>
+
+  <!-- EN: Will never do {0} -->
+  <CannotPrioritizeWorkTypeDisabled>نمی‌توان اولویت‌بندی کرد: هرگز {0} را انجام نخواهد داد</CannotPrioritizeWorkTypeDisabled>
+  <!-- EN: lacking necessary title -->
+  <MissingTitleAbility>فاقد عنوان لازم</MissingTitleAbility>
+
+  <!-- EN: Will never {0} -->
+  <CannotPrioritizeWorkGiverDisabled>نمی‌توان اولویت‌بندی کرد: هرگز {0} را انجام نخواهد داد</CannotPrioritizeWorkGiverDisabled>
+  <!-- EN: will never {0} -->
+  <WillNever>هرگز {0} را انجام نخواهد داد</WillNever>
+
+  <!-- EN: Not assigned to {0} -->
+  <CannotPrioritizeNotAssignedToWorkType>نمی‌توان اولویت‌بندی کرد: به {0} اختصاص داده نشده است</CannotPrioritizeNotAssignedToWorkType>
+  <!-- EN: not assigned -->
+  <NotAssigned>اختصاص داده نشده</NotAssigned>
+  <!-- EN: not assigned to {0} -->
+  <NotAssignedToWorkType>به {0} اختصاص داده نشده است</NotAssignedToWorkType>
+
+  <!-- EN: Research is a long-term task -->
+  <CannotPrioritizeResearch>نمی‌توان اولویت‌بندی کرد: تحقیق یک کار بلندمدت است</CannotPrioritizeResearch>
+
+  <!-- EN: {1_label} is forbidden -->
+  <CannotPrioritizeForbidden>نمی‌توان اولویت‌بندی کرد: {1_label} ممنوع است</CannotPrioritizeForbidden>
+  <!-- EN: Cannot prioritize: Forbidden -->
+  <CannotPrioritizeCellForbidden>نمی‌توان اولویت‌بندی کرد: ممنوع</CannotPrioritizeCellForbidden>
+  <!-- EN: Outside allowed area -->
+  <CannotPrioritizeForbiddenOutsideAllowedArea>خارج از منطقه مجاز</CannotPrioritizeForbiddenOutsideAllowedArea>
+  <!-- EN: Cannot prioritize burying -->
+  <CannotPrioritizeBurying>نمی‌توان اولویت‌بندی کرد: دفن کردن</CannotPrioritizeBurying>
+
+  <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc -->
+  <!-- EN: Prioritize {0} {1} -->
+  <PrioritizeGeneric>اولویت‌بندی {0} {1}</PrioritizeGeneric>
+  <!-- EN: Prioritize {0} -->
+  <PrioritizeGenericSimple>TODO</PrioritizeGenericSimple>
+
+  <!-- EN: Launch to {LOCATION_label} -->
+  <LaunchTo>TODO</LaunchTo>
+  <!-- EN: Are you sure you want to launch? -->
+  <LaunchToConfirmation>TODO</LaunchToConfirmation>
+  <!-- EN: Drop at edge -->
+  <DropAtEdge>رها کردن در لبه</DropAtEdge>
+  <!-- EN: Drop in center -->
+  <DropInCenter>رها کردن در مرکز</DropInCenter>
+  <!-- EN: Attack {0} -->
+  <AttackShuttle>حمله به {0}</AttackShuttle>
+  <!-- EN: Attack {0}: Drop at edge -->
+  <AttackAndDropAtEdge>حمله به {0}: رها کردن در لبه</AttackAndDropAtEdge>
+  <!-- EN: Attack {0}: Drop in center -->
+  <AttackAndDropInCenter>حمله به {0}: رها کردن در مرکز</AttackAndDropInCenter>
+  
+  <!-- EN: vomiting -->
+  <VomitingLower>استفراغ</VomitingLower>
+  <!-- EN: not interruptible -->
+  <NotInterruptibleLower>قابل قطع شدن نیست</NotInterruptibleLower>
+  
+  <!-- EN: Add a new waypoint here -->
+  <AddWaypoint>افزودن نقطه مسیر جدید در اینجا</AddWaypoint>
+  <!-- EN: Remove this waypoint -->
+  <RemoveWaypoint>حذف این نقطه مسیر</RemoveWaypoint>
+
+  <!-- EN: Cancel all designations -->
+  <RemoveAllDesignations>لغو تمام تعیین‌ها</RemoveAllDesignations>
+  <!-- EN: Designate all -->
+  <DesignateAll>تعیین همه</DesignateAll>
+  <!-- EN: {0} affected -->
+  <CountToDesignate>{0} تحت تأثیر قرار گرفت</CountToDesignate>
+  <!-- EN: Forbid all items -->
+  <ForbidAllItems>ممنوع کردن تمام اقلام</ForbidAllItems>
+  <!-- EN: Unforbid all items -->
+  <UnforbidAllItems>مجاز کردن تمام اقلام</UnforbidAllItems>
+
+  <!-- Transport pods -->
+  <!-- EN: Zoom in and choose a landing spot in {0} -->
+  <LandInExistingMap>بزرگنمایی کنید و نقطه فرود را در {0} انتخاب کنید</LandInExistingMap>
+  <!-- EN: The contents will be lost -->
+  <TransportPodsContentsWillBeLost>محتویات از دست خواهد رفت</TransportPodsContentsWillBeLost>
+  <!-- EN: Form caravan here -->
+  <FormCaravanHere>تشکیل کاروان در اینجا</FormCaravanHere>
+  <!-- EN: Give to {0} -->
+  <GiveToCaravan>دادن به {0}</GiveToCaravan>
+  <!-- EN: Give as a gift to {0} ({1}) -->
+  <GiveGiftViaTransportPods>دادن به عنوان هدیه به {0} ({1})</GiveGiftViaTransportPods>
+  <!-- EN: Not part of launch group -->
+  <NotPartOfLaunchGroup>بخشی از گروه پرتاب نیست</NotPartOfLaunchGroup>
+
+  <!-- Rescue quest -->
+  <!-- EN: Free prisoner -->
+  <FreePrisoner>آزادی زندانی</FreePrisoner>
+  <!-- EN: Offer help -->
+  <OfferHelp>پیشنهاد کمک</OfferHelp>
+
+  <!-- EN: apply {0} -->
+  <ApplyTechprint>اعمال {0}</ApplyTechprint>
+
+  <!-- EN: Too dangerous -->
+  <EnterCooldownBlocksEntering>خیلی خطرناک است</EnterCooldownBlocksEntering>
+
+  <!-- CommsConsole -->
+  <!-- EN: Nobody to call -->
+  <NoCommsTarget>کسی برای تماس نیست</NoCommsTarget>
+
+  <!-- EN: Invoke {0} -->
+  <Invoke>فراخوانی {0}</Invoke>
+  <!-- EN: Cannot invoke {0} -->
+  <CannotInvoke>نمی‌توان {0} را فراخوانی کرد</CannotInvoke>
+  <!-- EN: power -->
+  <Power>قدرت</Power>
+  <!-- EN: already invoked -->
+  <AlreadyInvoked>از قبل فراخوانی شده است</AlreadyInvoked>
+
+  <!-- EN: Tend {0} -->
+  <Tend>درمان {0}</Tend>
+  <!-- EN: Cannot tend {0} -->
+  <CannotTend>نمی‌توان {0} را درمان کرد</CannotTend>
+  <!-- EN: {0} does not require tending -->
+  <TendingNotRequired>{0} نیازی به درمان ندارد</TendingNotRequired>
+  <!-- EN: without medicine -->
+  <WithoutMedicine>بدون دارو</WithoutMedicine>
+
+  <!-- EN: Repair {0} -->
+  <RepairThing>تعمیر {0}</RepairThing>
+  <!-- EN: Cannot repair {0} -->
+  <CannotRepair>نمی‌توان {0} را تعمیر کرد</CannotRepair>
+
+  <!-- EN: Cannot enter -->
+  <CannotEnter>نمی‌توان وارد شد</CannotEnter>
+  
+  <!-- EN: Cannot enter {0} -->
+  <CannotEnterPortal>نمی‌توان وارد {0} شد</CannotEnterPortal>
+  <!-- EN: closed -->
+  <PortalClosed>بسته</PortalClosed>
+
+  <!-- Romance partner -->
+  <!-- EN: Cannot romance {0} -->
+  <CannotRomance>نمی‌توان با {0} رابطه عاشقانه برقرار کرد</CannotRomance>
+  <!-- EN: Romance {0} -->
+  <CanRomance>رابطه عاشقانه با {0}</CanRomance>
+
+  <!-- Feeding -->
+  <!-- EN: disliked food -->
+  <WarningFoodDisliked>غذا را دوست نداشت</WarningFoodDisliked>
+  <!-- EN: Unsuitable food -->
+  <FoodNotSuitable>غذای نامناسب</FoodNotSuitable>
+
+  <!-- EN: Unsuitable drug -->
+  <DrugNotSuitable>داروی نامناسب</DrugNotSuitable>
+  
+  <!-- Books -->
+  <!-- EN: Assign reading... -->
+  <AssignReading>اختصاص خواندن...</AssignReading>
+  <!-- EN: Read {0} -->
+  <AssignReadNow>خواندن {0}</AssignReadNow>
+  <!-- EN: Cannot read {0} -->
+  <AssignCannotReadNow>نمی‌توان {0} را خواند</AssignCannotReadNow>
+
+  <!-- EN: Prioritize extinguishing fires -->
+  <ExtinguishFiresNearby>اولویت‌بندی خاموش کردن آتش‌های نزدیک</ExtinguishFiresNearby>
+
+  <!-- Analysis -->
+  <!-- EN: already analyzed -->
+  <AlreadyAnalyzed>از قبل تحلیل شده است</AlreadyAnalyzed>
+  <!-- EN: no reachable, un-reserved research bench available -->
+  <NoResearchBench>هیچ میز تحقیق قابل دسترسی، رزرو نشده وجود ندارد</NoResearchBench>
+
+  <!-- Hacking -->
+  <!-- EN: Hack {0} -->
+  <Hack>هک {0}</Hack>
+  <!-- EN: Choose a colonist to hack this. -->
+  <HackDesc>TODO</HackDesc>
+  <!-- EN: Cannot hack {0} -->
+  <CannotHack>نمی‌توان {0} را هک کرد</CannotHack>
+  <!-- EN: Locked out -->
+  <LockedOut>TODO</LockedOut>
+  <!-- EN: Already hacked -->
+  <AlreadyHacked>قبلاً هک شده</AlreadyHacked>
+  <!-- EN: Incapable of hacking -->
+  <IncapableOfHacking>ناتوان از هک</IncapableOfHacking>
+  <!-- EN: to drop supplies -->
+  <ToDropSupplies>برای انداختن تدارکات</ToDropSupplies>
+
+  <!-- UNUSED -->
+  <CommandEnterPortal>ورود به {0}</CommandEnterPortal>
+
+</LanguageData>

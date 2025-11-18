@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Vacuum exposure -->
+  <AlertVacuumExposure>قرار گرفتن در خلأ</AlertVacuumExposure>
+  <!-- EN: These people and animals are suffering from exposure to the vacuum of space:\n{0}\n\nGet them to a pressurized area before they die. -->
+  <AlertVacuumExposureDesc>این افراد و حیوانات در حال رنج کشیدن از قرار گرفتن در خلأ فضا هستند:\n{0}\n\nآنها را قبل از مرگ به منطقه‌ای با فشار هوا ببرید.</AlertVacuumExposureDesc>
+
+  <!-- EN: Mechanoid threat -->
+  <AlertMechanoidThreat>تهدید مکانیوئید</AlertMechanoidThreat>
+  <!-- EN: A mechhive is conducting scans to determine your location. It will send a massive raid of hostile mechanoids when it locates you.\n\nFlee the map before mechanoids arrive! -->
+  <AlertMechanoidThreatDesc>یک کندوی مکانیوئید در حال اسکن برای تعیین موقعیت شما است. هنگامی که موقعیت شما را پیدا کند، یک حمله بزرگ از مکانیوئیدهای خصمانه خواهد فرستاد.\n\nقبل از رسیدن مکانیوئیدها از نقشه فرار کنید!</AlertMechanoidThreatDesc>
+  <!-- EN: Incoming mechanoids -->
+  <AlertMechanoidThreatCritical>مکانیوئیدهای در حال آمدن</AlertMechanoidThreatCritical>
+  <!-- EN: A mechhive has discovered your location. It will continue to send hostile mechanoids until you flee this location. -->
+  <AlertMechanoidThreatCriticalDesc>یک کندوی مکانیوئید موقعیت شما را کشف کرده است. تا زمانی که از این مکان فرار نکنید، مکانیوئیدهای خصمانه را ادامه خواهد داد.</AlertMechanoidThreatCriticalDesc>
+
+  <!-- Mechhive -->
+  <!-- EN: Stabilizers remaining -->
+  <StabilizersRemainingAlertLabel>تثبیت‌کننده‌های باقی‌مانده</StabilizersRemainingAlertLabel>
+  <!-- EN: The cerebrex core is currently invulnerable. Find and destroy its stabilizers to gain access to the core. -->
+  <StabilizersRemainingAlertDescription>هسته serebrex در حال حاضر آسیب‌ناپذیر است. تثبیت‌کننده‌های آن را پیدا و نابود کنید تا به هسته دسترسی پیدا کنید.</StabilizersRemainingAlertDescription>
+
+  <!-- Relay -->
+  <!-- EN: Stabilizers remaining -->
+  <RelayStabilizersRemainingAlertLabel>تثبیت‌کننده‌های باقی‌مانده</RelayStabilizersRemainingAlertLabel>
+  <!-- EN: The relay is currently protected by nearby stabilizers. Destroy or hack them to destabilize it. -->
+  <RelayStabilizersRemainingAlertDescription>رله در حال حاضر توسط تثبیت‌کننده‌های نزدیک محافظت می‌شود. آنها را نابود یا هک کنید تا آن را ناپایدار کنید.</RelayStabilizersRemainingAlertDescription>
+
+  <!-- Scanner -->
+  <!-- EN: Protect the scanner -->
+  <SurveyScannerAlertLabel>اسکنر را محافظت کنید</SurveyScannerAlertLabel>
+  <!-- EN: Protect the scanner until the surveying operation is complete. -->
+  <SurveyScannerAlertDescription>تا تکمیل عملیات نقشه‌برداری، اسکنر را محافظت کنید.</SurveyScannerAlertDescription>
+  
+</LanguageData>

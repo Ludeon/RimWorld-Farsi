@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Autosaving -->
+  <Autosaving>ذخیره خودکار</Autosaving>
+  <!-- EN: The three of you awake in your cryptosleep sarcophagi to the sound of sirens and ripping metal. You barely get to the escape pods before the ship is torn apart.\n\nSome time later, you land on this unknown rimworld.\n\nAs pieces of the shredded starship fall around you, you start making plans to survive. -->
+  <GameStartDialog>شما سه نفر در تابوت‌های کریپتوسلیپ خود با صدای آژیر و پاره شدن فلز بیدار می‌شوید. به سختی قبل از پاره شدن کشتی به کپسول‌های فرار می‌رسید.\n\nمدتی بعد، در این ریم‌ورلد ناشناخته فرود می‌آیید.\n\nدر حالی که قطعات کشتی ستاره‌ای پاره شده در اطراف شما سقوط می‌کنند، شروع به برنامه‌ریزی برای بقا می‌کنید.</GameStartDialog>
+  <!-- EN: Colony -->
+  <Colony>کلونی</Colony>
+  <!-- EN: You can only change language from the options screen on the main menu. -->
+  <ChangeLanguageFromMainMenu>فقط می توانید زبان را از صفحه گزینه ها در منوی اصلی تغییر دهید.</ChangeLanguageFromMainMenu>
+  <!-- EN: and -->
+  <AndLower>و</AndLower>
+  <!-- EN: disabled -->
+  <DisabledLower>غیرفعال شد</DisabledLower>
+
+  <!-- EN: Version {0} -->
+  <VersionIndicator>نسخه {0}</VersionIndicator>
+  <!-- EN: Game version -->
+  <GameVersionIndicator>نسخه بازی</GameVersionIndicator>
+  <!-- EN: development build -->
+  <DevelopmentBuildLower>ساخت توسعه</DevelopmentBuildLower>
+  <!-- EN: Compiled {0} -->
+  <CompiledOn>کامپایل شده در {0}</CompiledOn>
+  <!-- EN: Logged into Steam as {0} -->
+  <LoggedIntoSteamAs>وارد شده به استیم به عنوان {0}</LoggedIntoSteamAs>
+  
+  <!-- ToCommaList() -->
+  <!-- EN: {0} and {1} -->
+  <ToCommaListAnd>{0} و {1}</ToCommaListAnd>
+  <!-- EN: {0} or {1} -->
+  <ToCommaListOr>{0} یا {1}</ToCommaListOr>
+  
+  <!-- General-use words -->
+  <!-- EN: Yes -->
+  <Yes>بله</Yes>
+  <!-- EN: No -->
+  <No>خیر</No>
+  <!-- EN: No {0} -->
+  <NoSubject>بدون {0}</NoSubject>
+  <!-- EN: new -->
+  <New>جدید</New>
+  <!-- EN: Gender -->
+  <Gender>جنسیت</Gender>
+  <!-- EN: Sex -->
+  <Sex>جنس</Sex>
+  <!-- EN: min -->
+  <min>حداقل</min>
+  <!-- EN: max -->
+  <max>حداکثر</max>
+  <!-- EN: chance -->
+  <chance>شانس</chance>
+  <!-- EN: context -->
+  <context>زمینه</context>
+  <!-- EN: multiplier -->
+  <multiplier>ضریب</multiplier>
+  <!-- EN: damage -->
+  <damage>خسارت</damage>
+  <!-- EN: radius -->
+  <radius>شعاع</radius>
+  <!-- EN: expired -->
+  <expired>منقضی شده</expired>
+  <!-- EN: duration (days) -->
+  <durationDays>مدت (روز)</durationDays>
+  <!-- EN: interval (days) -->
+  <intervalDays>فاصله (روز)</intervalDays>
+  <!-- EN: delay (days) -->
+  <delayDays>تاخیر (روز)</delayDays>
+  <!-- EN: repeat -->
+  <repeat>تکرار</repeat>
+  <!-- EN: default -->
+  <default>پیش‌فرض</default>
+  <!-- EN: distance -->
+  <distance>فاصله</distance>
+  <!-- EN: YES -->
+  <YesUppercase>بله</YesUppercase>
+  <!-- EN: NO -->
+  <NoUppercase>نه</NoUppercase>
+  <!-- EN: kg -->
+  <kg>kg</kg>
+  <!-- EN: Day -->
+  <Day>روز</Day>
+  <!-- EN: day -->
+  <day>روز</day>
+  <!-- EN: Default -->
+  <Default>پیش‌فرض</Default>
+  <!-- EN: Average -->
+  <Average>میانگین</Average>
+  <!-- EN: Cause -->
+  <Cause>علت</Cause>
+  <!-- EN: etc -->
+  <Etc>غیره</Etc>
+  <!-- EN: ${0} -->
+  <MoneyFormat>${0}</MoneyFormat>
+  <!-- EN: Factors -->
+  <Factors>عوامل</Factors>
+  <!-- EN: Uses -->
+  <Uses>استفاده‌ها</Uses>
+  <!-- EN: Translation -->
+  <Translation>ترجمه</Translation>
+  <!-- EN: min(days) -->
+  <minDays>حداقل (روز)</minDays>
+  <!-- EN: max(days) -->
+  <maxDays>حداکثر (روز)</maxDays>
+  <!-- EN: Processing -->
+  <Processing>در حال پردازش</Processing>
+  <!-- EN: Inspect -->
+  <Inspect>بازرسی</Inspect>
+  <!-- EN: Edit -->
+  <Edit>ویرایش</Edit>
+
+  <!-- Content generation-->
+  
+  <!-- EN: {0} meat -->
+  <MeatLabel>گوشت {0}</MeatLabel>
+  <!-- EN: Raw butchered flesh. Can be cooked into meals, or eaten raw. -->
+  <MeatDesc>گوشت خام قصابی. می توان آن را در وعده های غذایی پخت، یا به صورت خام مصرف کرد.</MeatDesc>
+  <!-- EN: Raw butchered flesh. If necessary, can be cooked into meals, or even eaten raw. Extremely unappetizing. -->
+  <MeatInsectDesc>گوشت خام قصابی. در صورت لزوم، می‌توان آن را در وعده‌های غذایی پخت یا حتی خام خورد. بسیار ناخوشایند است.</MeatInsectDesc>
+  <!-- EN: Raw butchered flesh. Can be cooked into meals or eaten raw, although most humans dislike the idea. -->
+  <MeatHumanDesc>گوشت خام قصابی. می‌توان آن را در وعده‌های غذایی پخت یا خام خورد، اگرچه بیشتر انسان‌ها این ایده را دوست ندارند.</MeatHumanDesc>
+
+  <!-- EN: techprint ({PROJECT_label}) -->
+  <TechprintLabel>طرح فناوری ({PROJECT_label})</TechprintLabel>
+  <!-- EN: This is a techprint for the research project '{PROJECT_label}'.
+\nThe physical form of techprints can range from scraps of paper with diagrams, all the way to advanced self-contained teaching machines. Regardless of form, they play the same role. They give your researchers the confidence that an idea is possible, and a rough idea of the designs used in more established societies.
+\nYour researchers need the foundational knowledge offered by techprints to know where to start on a given technology. Only after enough techprints have been applied can your researchers work out the fine details of how to make use of the technology in your particular situation.
+\nApplying techprints to a satisfied project fulfills half the remaining research progress. In addition, researchers always gain a boost to their intellectual skills when applying techprints, even on already-completed technologies. -->
+  <TechprintDesc>این یک طرح فناوری برای پروژه تحقیقاتی '{PROJECT_label}' است.\n\nشکل فیزیکی طرح‌های فناوری می‌تواند از تکه‌های کاغذ با نمودارها گرفته تا ماشین‌های آموزشی پیشرفته و مستقل متغیر باشد. صرف نظر از شکل، آنها نقش یکسانی دارند. آنها به محققان شما اطمینان می‌دهند که یک ایده ممکن است، و یک ایده کلی از طرح‌های مورد استفاده در جوامع پیشرفته‌تر ارائه می‌دهند.\n\nمحققان شما برای دانستن اینکه از کجا باید روی یک فناوری خاص شروع کنند، به دانش پایه‌ای که طرح‌های فناوری ارائه می‌دهند نیاز دارند. تنها پس از اعمال تعداد کافی طرح فناوری، محققان شما می‌توانند جزئیات دقیق نحوه استفاده از فناوری را در شرایط خاص شما مشخص کنند.\n\nاعمال طرح‌های فناوری به یک پروژه تکمیل شده، نیمی از پیشرفت تحقیقات باقی‌مانده را برآورده می‌کند. علاوه بر این، محققان همیشه هنگام اعمال طرح‌های فناوری، حتی در فناوری‌های از قبل تکمیل شده، به مهارت‌های فکری خود تقویت می‌شوند.</TechprintDesc>
+  <!-- EN: Unlocks -->
+  <Unlocks>باز می‌کند</Unlocks>
+
+  <!-- EN: {0} corpse -->
+  <CorpseLabel>جسد {0}</CorpseLabel>
+  <!-- EN: Dead body of a {0}. -->
+  <CorpseDesc>جسد مرده یک {0}.</CorpseDesc>
+  <!-- EN: {1_label} (dead) -->
+  <DeadLabel>{1_label} (مرده)</DeadLabel>
+
+  <!-- EN: rough {0} -->
+  <RoughStoneTerrainLabel>{0} سنگی ناهموار</RoughStoneTerrainLabel>
+  <!-- EN: Rough, natural {0} ground. -->
+  <RoughStoneTerrainDesc>زمین سنگی طبیعی ناهموار {0}.</RoughStoneTerrainDesc>
+  <!-- EN: rough-hewn {0} -->
+  <RoughHewnStoneTerrainLabel>{0} سنگی خشن تراشیده شده</RoughHewnStoneTerrainLabel>
+  <!-- EN: Roughly cut natural {0} floor. -->
+  <RoughHewnStoneTerrainDesc>کف سنگی طبیعی خشن تراشیده شده {0}.</RoughHewnStoneTerrainDesc>
+  <!-- EN: smooth {0} -->
+  <SmoothStoneTerrainLabel>{0} سنگی صاف</SmoothStoneTerrainLabel>
+  <!-- EN: Smoothed natural {0} floor. -->
+  <SmoothStoneTerrainDesc>کف سنگی طبیعی صاف شده {0}.</SmoothStoneTerrainDesc>
+
+  <!-- EN:  (blueprint) -->
+  <BlueprintLabelExtra> (نقشه)</BlueprintLabelExtra>
+  <!-- EN:  (building) -->
+  <FrameLabelExtra> (ساختمان)</FrameLabelExtra>
+
+  <!-- EN: Unaffiliated -->
+  <FactionUnaffiliated>غیر وابسته</FactionUnaffiliated>
+
+  <!-- EN: Continue anyway? -->
+  <StillWishContinue>با این حال ادامه می‌دهید؟</StillWishContinue>
+  
+  <!-- EN: ba,bah,boo,buh,ga,gah,goo,nyah,na,nah,noo,woo,wah,wuh,ma,mah -->
+  <BabyTalk>ba,bah,boo,buh,ga,gah,goo,nyah,na,nah,noo,woo,wah,wuh,ma,mah</BabyTalk>
+
+  <!-- For things made of stuff, e.g. "Stone bed" -->
+  <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
+  <!-- EN: {0} {1} -->
+  <ThingMadeOfStuffLabel>{0} {1}</ThingMadeOfStuffLabel>
+
+  <!-- EN: {PAWN_labelShort}'s {1} -->
+  <SomeonesRoom>{1} {PAWN_labelShort}</SomeonesRoom>
+  <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort}'s {2} -->
+  <CouplesRoom>{2} {PAWN1_labelShort} و {PAWN2_labelShort}</CouplesRoom>
+  
+  <!-- EN: Important for this type of room. -->
+  <StatRelatesToCurrentRoom>برای این نوع اتاق مهم است.</StatRelatesToCurrentRoom>
+  
+  <!-- EN: {COUNT} {RESOURCE_label} underground here. -->
+  <DeepResourceRemaining>{COUNT} {RESOURCE_label} در زیر زمین اینجا باقی مانده است.</DeepResourceRemaining>
+  
+  <!-- EN: (various) -->
+  <VariousLabel>(متنوع)</VariousLabel>
+
+  <!-- History events -->
+  <!-- EN: Colonist died -->
+  <ColonistDied>مهاجر مرد</ColonistDied>
+  
+  <!-- Rotation -->
+  <!-- EN: North -->
+  <North>شمال</North>
+  <!-- EN: South -->
+  <South>جنوب</South>
+  <!-- EN: West -->
+  <West>غرب</West>
+  <!-- EN: East -->
+  <East>شرق</East>
+
+  <!-- EN: applying techprint ({0}) -->
+  <ApplyingTechprint>در حال اعمال طرح فناوری ({0})</ApplyingTechprint>
+
+  <!-- Apparel Looks -->
+  <!-- EN: variant of -->
+  <VariantOf>گونه‌ای از</VariantOf>
+  
+  <!-- Familial relationships -->
+  <!-- EN: born to {0} -->
+  <BornOfParents>متولد شده از {0}</BornOfParents>
+  <!-- EN: unknown parents -->
+  <ParentsUnknown>پدر و مادر ناشناس</ParentsUnknown>
+  
+  <!-- Legal status -->
+  <!-- EN: colonist -->
+  <Colonist>مهاجر</Colonist>
+
+</LanguageData>

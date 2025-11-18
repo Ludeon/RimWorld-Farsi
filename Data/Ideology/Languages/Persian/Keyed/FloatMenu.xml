@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Ideoligion forbids -->
+  <IdeoligionForbids>ایدئولوژی ممنوع می‌کند</IdeoligionForbids>
+  <!-- EN: Only {0}s can build -->
+  <OnlyMembersCanBuild>فقط {0}ها می‌توانند بسازند</OnlyMembersCanBuild>
+  <!-- EN: {0} is already in progress. -->
+  <CantStartRitualAlreadyInProgress>{0} در حال حاضر در حال انجام است.</CantStartRitualAlreadyInProgress>
+  <!-- EN: {RITUAL} cannot be performed {GERUND} {LAYER}. -->
+  <CantStartRitualLayer>{RITUAL} نمی‌تواند {GERUND} {LAYER} انجام شود.</CantStartRitualLayer>
+  <!-- EN: One or more participants can't join due to extreme temperature. -->
+  <CantJoinRitualInExtremeWeather>یک یا چند شرکت‌کننده به دلیل دمای شدید نمی‌توانند بپیوندند.</CantJoinRitualInExtremeWeather>
+  <!-- EN: {0} is already participating in a ritual. -->
+  <CantStartRitualTargetIsAlreadyInRitual>{0} در حال حاضر در یک مراسم شرکت می‌کند.</CantStartRitualTargetIsAlreadyInRitual>
+  <!-- EN: You must assign the role of {0} in order to start this ritual. -->
+  <CantStartRitualRoleNotAssigned>برای شروع این مراسم باید نقش {0} را اختصاص دهید.</CantStartRitualRoleNotAssigned>
+  <!-- EN: There is nobody to convert to {0}. You need a colonist, prisoner, or slave of a different ideoligion. -->
+  <CantStartRitualNoConvertee>کسی برای تبدیل به {0} وجود ندارد. شما به یک مستعمره‌نشین، زندانی یا برده با ایدئولوژی متفاوت نیاز دارید.</CantStartRitualNoConvertee>
+  <!-- EN: {PAWN_nameDef} cannot be {ROLE}. -->
+  <CantStartRitualSelectedPawnCannotBeRole>{PAWN_nameDef} نمی‌تواند {ROLE} باشد.</CantStartRitualSelectedPawnCannotBeRole>
+  <!-- EN: {PAWN_nameDef} must be a {IDEO_memberName}. -->
+  <CantStartRitualSelectedPawnMustBeMember>{PAWN_nameDef} باید یک {IDEO_memberName} باشد.</CantStartRitualSelectedPawnMustBeMember>
+  <!-- EN: {PAWN_nameDef} is psychically deaf. -->
+  <CantStartRitualSelectedPawnPsychicallyDeaf>{PAWN_nameDef} از نظر روانی ناشنوا است.</CantStartRitualSelectedPawnPsychicallyDeaf>
+  <!-- EN: Not enough space for spectators. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
+  <CantStartNotEnoughSpaceDuelSpectators>فضای کافی برای تماشاگران وجود ندارد. باید یک دایره شفاف با شعاع {MINRADIUS} وجود داشته باشد. حداقل {1} نقطه قابل ایستادن در آن شعاع لازم است.</CantStartNotEnoughSpaceDuelSpectators>
+  <!-- EN: Not enough space for duelists. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
+  <CantStartNotEnoughSpaceDuelDuelists>فضای کافی برای دوئل‌کنندگان وجود ندارد. باید یک دایره شفاف با شعاع {MINRADIUS} وجود داشته باشد. حداقل {1} نقطه قابل ایستادن در آن شعاع لازم است.</CantStartNotEnoughSpaceDuelDuelists>
+  <!-- EN: Not enough space for speaker. There must be a clear circle of radius {MINRADIUS}. -->
+  <CantStartNotEnoughSpaceDuelSpeaker>فضای کافی برای سخنران وجود ندارد. باید یک دایره شفاف با شعاع {MINRADIUS} وجود داشته باشد.</CantStartNotEnoughSpaceDuelSpeaker>
+  <!-- EN: {0_labelShort} is a slave. Slaves don't get funerals. -->
+  <CantStartFuneralForSlave>{0_labelShort} برده است. بردگان مراسم خاکسپاری ندارند.</CantStartFuneralForSlave>
+  <!-- EN: Need a slave bed that is reachable, not reserved, and in safe temperature. -->
+  <NoSlaveBed>نیاز به تخت برده‌ای که قابل دسترسی، رزرو نشده و در دمای ایمن باشد.</NoSlaveBed>
+  <!-- EN: Return to slave bed -->
+  <ReturnToSlaveBed>بازگشت به تخت برده</ReturnToSlaveBed>
+  <!-- EN: not allowed for faction -->
+  <NotAllowedForFaction>برای جناح مجاز نیست</NotAllowedForFaction>
+
+  <!-- EN: Remove precept -->
+  <RemovePrecept>حذف اصل</RemovePrecept>
+  <!-- EN: Regenerate -->
+  <Regenerate>بازسازی</Regenerate>
+  <!-- EN: Cannot edit -->
+  <CannotEdit>نمی‌توان ویرایش کرد</CannotEdit>
+  <!-- EN: No choices available -->
+  <NoChoicesAvailable>هیچ گزینه‌ای در دسترس نیست</NoChoicesAvailable>
+  <!-- EN: Required by meme {0} -->
+  <RequiredByMeme>مورد نیاز توسط میم {0}</RequiredByMeme>
+  <!-- EN: Required -->
+  <Required>مورد نیاز</Required>
+  <!-- EN: Style category -->
+  <StyleCategory>دسته سبک</StyleCategory>
+  <!-- EN: Add style category -->
+  <AddStyleCategory>افزودن دسته سبک</AddStyleCategory>
+  <!-- EN: Can't add more than {0} rituals. -->
+  <MaxRitualCount>نمی‌توان بیش از {0} مراسم اضافه کرد.</MaxRitualCount>
+  <!-- EN: Can't add more than {0} relics. -->
+  <MaxRelicCount>نمی‌توان بیش از {0} یادگار اضافه کرد.</MaxRelicCount>
+  <!-- EN: can't have more than {0} specialists. -->
+  <MaxMultiRolesCount>نمی‌توان بیش از {0} متخصص داشت.</MaxMultiRolesCount>
+  <!-- EN: max {0} -->
+  <MaxPreceptCount>حداکثر {0}</MaxPreceptCount>
+  <!-- EN: Set gender -->
+  <SetTargetGender>تنظیم جنسیت</SetTargetGender>
+  <!-- EN: must be {0} faction -->
+  <RoleApparelRequirementIncompatibleFaction>باید جناح {0} باشد</RoleApparelRequirementIncompatibleFaction>
+  <!-- EN: tribal -->
+  <RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>قبیله‌ای</RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>
+  <!-- EN: non-tribal -->
+  <RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>غیر قبیله‌ای</RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>
+  <!-- EN: requires any of these memes -->
+  <RoleApparelRequirementIncompatibleAnyMemeRequired>نیاز به هر یک از این میم‌ها</RoleApparelRequirementIncompatibleAnyMemeRequired>
+  <!-- EN: cannot be worn with assigned apparel -->
+  <BodyPartAlreadyCovered>نمی‌توان با لباس اختصاص داده شده پوشید</BodyPartAlreadyCovered>
+  <!-- EN: People are pleased when their apparel requirements are fulfilled, and unhappy when they are violated. -->
+  <NoteRoleApparelRequirementEffects>افراد زمانی که نیازهای لباسشان برآورده می‌شود خوشحال و زمانی که نقض می‌شوند ناراضی هستند.</NoteRoleApparelRequirementEffects>
+  <!-- EN: supercharge not ready -->
+  <NeuralSuperchargeNotReady>سوپرشارژ آماده نیست</NeuralSuperchargeNotReady>
+  <!-- EN: already getting -->
+  <NeuralSuperchargeAlreadyGetting>در حال حاضر در حال دریافت</NeuralSuperchargeAlreadyGetting>
+  <!-- EN: Set type -->
+  <SetApparelType>تنظیم نوع</SetApparelType>
+
+  <!-- EN: change style -->
+  <ChangeStyle>تغییر سبک</ChangeStyle>
+  <!-- EN: {0} {DEITYNOUN} required -->
+  <DeitiesRequired>{0} {DEITYNOUN} مورد نیاز است</DeitiesRequired>
+  <!-- EN: deity -->
+  <Deity>خدا</Deity>
+  <!-- EN: requires meme -->
+  <RequiresMeme>نیاز به میم دارد</RequiresMeme>
+  <!-- EN: requires one of -->
+  <RequiresOneOfMemes>نیاز به یکی از</RequiresOneOfMemes>
+  <!-- EN: conflicts with meme -->
+  <ConflictsWithMeme>با میم در تضاد است</ConflictsWithMeme>
+  <!-- EN: conflicts with memes -->
+  <ConflictsWithMemes>با میم‌ها در تضاد است</ConflictsWithMemes>
+  <!-- EN: can only have one altar/ideogram -->
+  <IdeoAlreadyHasAltar>فقط می‌تواند یک محراب/ایدئوگرام داشته باشد</IdeoAlreadyHasAltar>
+  <!-- EN: recolor apparel -->
+  <RecolorApparel>تغییر رنگ لباس</RecolorApparel>
+
+  <!-- EN: Install {0} -->
+  <InstallRelic>نصب {0}</InstallRelic>
+  <!-- EN: Extract {0} -->
+  <ExtractRelic>استخراج {0}</ExtractRelic>
+  <!-- EN: Extract {0} to inventory ({1}) -->
+  <ExtractRelicToInventory>استخراج {0} به موجودی ({1})</ExtractRelicToInventory>
+  <!-- EN: No relic to install -->
+  <NoRelicToInstall>یادگاری برای نصب وجود ندارد</NoRelicToInstall>
+  <!-- EN: Install in reliquary -->
+  <InstallInReliquary>نصب در یادگارخانه</InstallInReliquary>
+  <!-- EN: no empty accessible reliquary -->
+  <NoEmptyReliquary>یادگارخانه خالی قابل دسترسی وجود ندارد</NoEmptyReliquary>
+
+  <!-- EN: No {MEMBERNAME} warden -->
+  <NoWardenOfIdeo>هیچ نگهبان {MEMBERNAME} وجود ندارد</NoWardenOfIdeo>
+
+  <!-- EN: Remove current role -->
+  <RemoveCurrentRole>حذف نقش فعلی</RemoveCurrentRole>
+
+  <!-- EN: Enter biosculpter pod for {0} cycle ({1}) -->
+  <EnterBiosculpterPod>ورود به کپسول بایواسکالپتر برای چرخه {0} ({1})</EnterBiosculpterPod>
+  <!-- EN: Biotuned to someone else. -->
+  <BiosculpterBiotunedToAnother>تنظیم زیستی شده برای شخص دیگری.</BiosculpterBiotunedToAnother>
+  <!-- EN: Must be {0} years old for age reversal. -->
+  <UnderMinBiosculpterAgeReversalAge>برای معکوس کردن سن باید حداقل {0} سال داشته باشد.</UnderMinBiosculpterAgeReversalAge>
+  <!-- EN: Carry {PAWN_labelShort} to biosculpter ({CYCLE} cycle) -->
+  <CarryToBiosculpterPod>حمل {PAWN_labelShort} به بایواسکالپتر (چرخه {CYCLE})</CarryToBiosculpterPod>
+  <!-- EN: Cannot carry to biosculpter pod -->
+  <CannotCarryToBiosculpterPod>نمی‌توان به کپسول بایواسکالپتر حمل کرد</CannotCarryToBiosculpterPod>
+  <!-- EN: No available biosculpter pod. -->
+  <NoBiosculpterPod>هیچ کپسول بایواسکالپتر در دسترس نیست.</NoBiosculpterPod>
+  <!-- EN: Nutrition not loaded -->
+  <BiosculpterNutritionNotLoaded>تغذیه بارگذاری نشده است</BiosculpterNutritionNotLoaded>
+  <!-- EN: Occupied -->
+  <BiosculpterOccupied>اشغال شده</BiosculpterOccupied>
+  <!-- EN: Cannot enter -->
+  <CannotEnter>نمی‌توان وارد شد</CannotEnter>
+  <!-- EN: Cannot start {0} cycle -->
+  <BiosculpterCannotStartCycle>نمی‌توان چرخه {0} را شروع کرد</BiosculpterCannotStartCycle>
+  <!-- EN: Cannot find cycle ingredients ({INGREDIENTS}) -->
+  <BiosculpterMissingIngredients>نمی‌توان مواد چرخه را پیدا کرد ({INGREDIENTS})</BiosculpterMissingIngredients>
+  <!-- EN: Nobody around can use this -->
+  <BiosculpterNoEligiblePawns>هیچ‌کس در اطراف نمی‌تواند از این استفاده کند</BiosculpterNoEligiblePawns>
+  <!-- EN: Biotuned to {PAWN_labelShort} and {PAWN_pronoun} isn't around -->
+  <BiosculpterNoEligiblePawnsBiotuned>تنظیم زیستی شده برای {PAWN_labelShort} و {PAWN_pronoun} در اطراف نیست</BiosculpterNoEligiblePawnsBiotuned>
+  <!-- EN: Auto load nutrition -->
+  <BiosculpterAutoLoadNutritionLabel>بارگذاری خودکار تغذیه</BiosculpterAutoLoadNutritionLabel>
+  <!-- EN: Automatically load the nutrition required to run a cycle -->
+  <BiosculpterAutoLoadNutritionDescription>به طور خودکار تغذیه مورد نیاز برای اجرای یک چرخه را بارگذاری کنید</BiosculpterAutoLoadNutritionDescription>
+  <!-- EN: Auto age reversal for {PAWN_labelShort} -->
+  <BiosculpterAutoAgeReversalLabel>معکوس کردن خودکار سن برای {PAWN_labelShort}</BiosculpterAutoAgeReversalLabel>
+  <!-- EN: Automatically satisfy {PAWN_labelShort}'s desire to run a yearly age reversal treatment in this pod, in accordance with {PAWN_possessive} beliefs. {NEXTTREATMENT} -->
+  <BiosculpterAutoAgeReversalDescription>به طور خودکار خواسته {PAWN_labelShort} برای انجام درمان سالانه معکوس کردن سن در این کپسول را، مطابق با باورهای {PAWN_possessive}، برآورده کنید. {NEXTTREATMENT}</BiosculpterAutoAgeReversalDescription>
+  <!-- EN: If enabled, {PAWN_labelShort} will automatically take {PAWN_possessive} next treament in {TIME} if the pod is ready. -->
+  <BiosculpterAutoAgeReversalDescriptionFuture>اگر فعال باشد، {PAWN_labelShort} به طور خودکار درمان بعدی {PAWN_possessive} را در {TIME} انجام خواهد داد اگر کپسول آماده باشد.</BiosculpterAutoAgeReversalDescriptionFuture>
+  <!-- EN: {PAWN_labelShort} already wants {PAWN_possessive} next treatment and will automatically begin one if this is enabled. -->
+  <BiosculpterAutoAgeReversalDescriptionNow>{PAWN_labelShort} در حال حاضر درمان بعدی {PAWN_possessive} را می‌خواهد و در صورت فعال بودن این گزینه، به طور خودکار یکی را شروع خواهد کرد.</BiosculpterAutoAgeReversalDescriptionNow>
+  <!-- EN: Collecting ingredients for biosculpter cycle -->
+  <BiosculpterJobReportCollectIngredients>در حال جمع‌آوری مواد برای چرخه بایواسکالپتر</BiosculpterJobReportCollectIngredients>
+</LanguageData>

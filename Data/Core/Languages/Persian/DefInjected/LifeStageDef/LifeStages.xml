@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: adult -->
+  <AnimalAdult.label>بالغ</AnimalAdult.label>
+  
+  <!-- EN: baby -->
+  <AnimalBaby.label>بچه</AnimalBaby.label>
+  
+  <!-- EN: baby -->
+  <AnimalBabyTiny.label>بچه</AnimalBabyTiny.label>
+  
+  <!-- EN: juvenile -->
+  <AnimalJuvenile.label>نوجوان</AnimalJuvenile.label>
+  
+  <!-- EN: adult -->
+  <EusocialInsectAdult.label>بالغ</EusocialInsectAdult.label>
+  
+  <!-- EN: immature -->
+  <EusocialInsectJuvenile.label>نابالغ</EusocialInsectJuvenile.label>
+  
+  <!-- EN: larva -->
+  <EusocialInsectLarva.label>لارو</EusocialInsectLarva.label>
+  
+  <!-- EN: adult -->
+  <HumanlikeAdult.label>بالغ</HumanlikeAdult.label>
+  
+  <!-- EN: baby -->
+  <HumanlikeBaby.label>نوزاد</HumanlikeBaby.label>
+  <!-- EN: Mood represents how happy or stressed someone is. Babies with low mood are more likely to cry, while babies with a high mood are more likely to giggle. -->
+  <HumanlikeBaby.customMoodTipString>TODO</HumanlikeBaby.customMoodTipString>
+  
+  <!-- EN: child -->
+  <HumanlikeChild.label>کودک</HumanlikeChild.label>
+  
+  <!-- EN: teenager -->
+  <HumanlikeTeenager.label>نوجوان</HumanlikeTeenager.label>
+  <!-- EN: teenage -->
+  <HumanlikeTeenager.adjective>نوجوان</HumanlikeTeenager.adjective>
+  
+  <!-- EN: fully-formed -->
+  <MechanoidFullyFormed.label>به طور کامل تشکیل شده است</MechanoidFullyFormed.label>
+  
+</LanguageData>

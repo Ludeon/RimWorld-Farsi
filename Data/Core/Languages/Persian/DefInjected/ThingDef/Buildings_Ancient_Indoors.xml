@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ancient barrel -->
+  <AncientBarrel.label>TODO</AncientBarrel.label>
+  <!-- EN: An ancient, broken barrel that looks like it once contained waste of some sort. The only thing it contains now is a smear of dried sludge. -->
+  <AncientBarrel.description>TODO</AncientBarrel.description>
+  
+  <!-- EN: ancient basic recharger -->
+  <AncientBasicRecharger.label>TODO</AncientBasicRecharger.label>
+  <!-- EN: An ancient basic recharger. Valuable parts are missing, and everything else is degraded to uselessness. -->
+  <AncientBasicRecharger.description>TODO</AncientBasicRecharger.description>
+  
+  <!-- EN: ancient bed -->
+  <AncientBed.label>TODO</AncientBed.label>
+  <!-- EN: An old, rotted mattress on a rusty frame. Though uncomfortable, it can still be used, but it's too dilapidated to restore. -->
+  <AncientBed.description>TODO</AncientBed.description>
+  
+  <!-- EN: ancient crate -->
+  <AncientCrate.label>TODO</AncientCrate.label>
+  <!-- EN: An ancient, broken crate. Any valuables it once contained have degraded to uselessness. -->
+  <AncientCrate.description>TODO</AncientCrate.description>
+  
+  <!-- EN: ancient display bank -->
+  <AncientDisplayBank.label>TODO</AncientDisplayBank.label>
+  <!-- EN: An ancient computer interface. Valuable parts are missing, and everything else is degraded to uselessness. -->
+  <AncientDisplayBank.description>TODO</AncientDisplayBank.description>
+  
+  <!-- EN: ancient equipment blocks -->
+  <AncientEquipmentBlocks.label>TODO</AncientEquipmentBlocks.label>
+  <!-- EN: A collection of ancient equipment blocks of unknown function. Valuable parts are missing, and everything else is degraded to uselessness. -->
+  <AncientEquipmentBlocks.description>TODO</AncientEquipmentBlocks.description>
+  
+  <!-- EN: ancient generator -->
+  <AncientGenerator.label>TODO</AncientGenerator.label>
+  <!-- EN: An ancient electrical generator. Its usable parts were smashed or looted long ago, and the rest has rusted into uselessness. -->
+  <AncientGenerator.description>TODO</AncientGenerator.description>
+  
+  <!-- EN: ancient kitchen sink -->
+  <AncientKitchenSink.label>TODO</AncientKitchenSink.label>
+  <!-- EN: An ancient kitchen sink made of some non-metallic fiber-sheet material. It is badly deteriorated and there's no way to salvage anything from it.\n\nHow it got here must be a long story. -->
+  <AncientKitchenSink.description>TODO</AncientKitchenSink.description>
+  
+  <!-- EN: ancient lamp -->
+  <AncientLamp.label>TODO</AncientLamp.label>
+  <!-- EN: An ancient self-powered lamp. Its internal power supply is badly depleted, but it still emits a weak glow. -->
+  <AncientLamp.description>TODO</AncientLamp.description>
+  
+  <!-- EN: ancient large mech gestator -->
+  <AncientLargeMechGestator.label>TODO</AncientLargeMechGestator.label>
+  <!-- EN: An ancient large mech gestator. Valuable parts are missing, and everything else is degraded to uselessness. -->
+  <AncientLargeMechGestator.description>TODO</AncientLargeMechGestator.description>
+  
+  <!-- EN: ancient locker bank -->
+  <AncientLockerBank.label>TODO</AncientLockerBank.label>
+  <!-- EN: An ancient, rusted bank of lockers. All of the lockers have been forced open with nothing valuable left behind. -->
+  <AncientLockerBank.description>TODO</AncientLockerBank.description>
+  
+  <!-- EN: ancient machine -->
+  <AncientMachine.label>TODO</AncientMachine.label>
+  <!-- EN: A large ancient machine case filled with unknown machinery. Valuable parts are missing, and everything else is degraded to uselessness. -->
+  <AncientMachine.description>TODO</AncientMachine.description>
+  
+  <!-- EN: ancient mech drop beacon -->
+  <AncientMechDropBeacon.label>TODO</AncientMechDropBeacon.label>
+  <!-- EN: The broken shell of a mech drop beacon. Its useful components are missing and the shell has deteriorated after many years. -->
+  <AncientMechDropBeacon.description>TODO</AncientMechDropBeacon.description>
+  
+  <!-- EN: ancient mech gestator -->
+  <AncientMechGestator.label>TODO</AncientMechGestator.label>
+  <!-- EN: An ancient mech gestator. Valuable parts are missing, and everything else is degraded to uselessness. -->
+  <AncientMechGestator.description>TODO</AncientMechGestator.description>
+  
+  <!-- EN: ancient mech vat -->
+  <AncientMechGestatorTank.label>TODO</AncientMechGestatorTank.label>
+  <!-- EN: An ancient device capable of forming new mechanoids, and sustaining injured mechanoids while they rejuvenate. -->
+  <AncientMechGestatorTank.description>TODO</AncientMechGestatorTank.description>
+  <!-- EN: A {0_labelShort} has emerged from a mech vat. -->
+  <AncientMechGestatorTank.comps.CompMechGestatorTank.triggeredMessage>TODO</AncientMechGestatorTank.comps.CompMechGestatorTank.triggeredMessage>
+  
+  <!-- EN: ancient microwave -->
+  <AncientMicrowave.label>TODO</AncientMicrowave.label>
+  <!-- EN: An ancient device for heating food. Smashed and rusted, it is completely useless now.\n\nHow it got here is hard to say. -->
+  <AncientMicrowave.description>TODO</AncientMicrowave.description>
+  
+  <!-- EN: ancient military crate -->
+  <AncientMilitaryCrate.label>TODO</AncientMilitaryCrate.label>
+  <!-- EN: An ancient, military-looking crate. It was broken long ago and any valuables it once contained were looted. -->
+  <AncientMilitaryCrate.description>TODO</AncientMilitaryCrate.description>
+  
+  <!-- EN: ancient operating table -->
+  <AncientOperatingTable.label>TODO</AncientOperatingTable.label>
+  <!-- EN: A table once used for surgical operations. It has long since deteriorated into uselessness. -->
+  <AncientOperatingTable.description>TODO</AncientOperatingTable.description>
+  
+  <!-- EN: ancient oven -->
+  <AncientOven.label>TODO</AncientOven.label>
+  <!-- EN: An ancient oven. Smashed and rusted, it is completely useless now.\n\nHow it got here is hard to say. -->
+  <AncientOven.description>TODO</AncientOven.description>
+  
+  <!-- EN: ancient refrigerator -->
+  <AncientRefrigerator.label>TODO</AncientRefrigerator.label>
+  <!-- EN: An ancient refrigerator. It was stripped of interesting parts long ago. -->
+  <AncientRefrigerator.description>TODO</AncientRefrigerator.description>
+  
+  <!-- EN: ancient security turret -->
+  <AncientSecurityTurret.label>TODO</AncientSecurityTurret.label>
+  <!-- EN: An ancient, broken security turret. The valuable parts have all been looted or smashed. -->
+  <AncientSecurityTurret.description>TODO</AncientSecurityTurret.description>
+  
+  <!-- EN: ancient spacer crate -->
+  <AncientSpacerCrate.label>TODO</AncientSpacerCrate.label>
+  <!-- EN: An ancient, broken crate. Any valuables it once contained were taken long ago. -->
+  <AncientSpacerCrate.description>TODO</AncientSpacerCrate.description>
+  
+  <!-- EN: ancient standard recharger -->
+  <AncientStandardRecharger.label>TODO</AncientStandardRecharger.label>
+  <!-- EN: An ancient standard recharger. Valuable parts are missing, and everything else is degraded to uselessness. -->
+  <AncientStandardRecharger.description>TODO</AncientStandardRecharger.description>
+  
+  <!-- EN: ancient storage cylinder -->
+  <AncientStorageCylinder.label>TODO</AncientStorageCylinder.label>
+  <!-- EN: An ancient device that looks like it once stored some kind of fluid. Valuable parts are missing, and everything else is degraded to uselessness. -->
+  <AncientStorageCylinder.description>TODO</AncientStorageCylinder.description>
+  
+  <!-- EN: ancient stove -->
+  <AncientStove.label>TODO</AncientStove.label>
+  <!-- EN: An old stove. Smashed and rusted, it is now completely useless. -->
+  <AncientStove.description>TODO</AncientStove.description>
+  
+  <!-- EN: ancient system rack -->
+  <AncientSystemRack.label>TODO</AncientSystemRack.label>
+  <!-- EN: An ancient rack unit packed with unidentifiable devices. Valuable parts are missing, and everything else is degraded to uselessness. -->
+  <AncientSystemRack.description>TODO</AncientSystemRack.description>
+  
+</LanguageData>

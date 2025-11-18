@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- Audiovisuals -->
+  <!-- EN: Audiovisuals -->
+  <Audiovisuals>شنیداری و دیداری</Audiovisuals>
+  <!-- EN: Master volume -->
+  <MasterVolume>آوای فراگیر</MasterVolume>
+  <!-- EN: Game volume -->
+  <GameVolume>آوای بازی</GameVolume>
+  <!-- EN: Music volume -->
+  <MusicVolume>آوای آهنگ</MusicVolume>
+  <!-- EN: Ambience volume -->
+  <AmbientVolume>آوای پیرامون</AmbientVolume>
+  <!-- EN: UI volume -->
+  <UIVolume>آوای رابط کاربری</UIVolume>
+  <!-- EN: Affects all sounds. -->
+  <MasterVolumeTooltip>همه آواها را زیر کارساز قرار می دهد.</MasterVolumeTooltip>
+  <!-- EN: Affects all in world sounds, e.g. chopping trees, building walls. -->
+  <GameVolumeTooltip>همه آواهای جهان را زیر کارسازی قرار می دهد، به عنوان مثال. خرد کردن درختان، ساختن دیوارها</GameVolumeTooltip>
+  <!-- EN: Affects music. -->
+  <MusicVolumeTooltip>بر نوا کارساز می شود.</MusicVolumeTooltip>
+  <!-- EN: Affects all ambient sounds, e.g. wind, insects. -->
+  <AmbientVolumeTooltip>بر همه آواهای محیط تأثیر می گذارد، به عنوان مثال. باد، حشرات</AmbientVolumeTooltip>
+  <!-- EN: Affects all interface sounds, e.g. button clicks, messages. -->
+  <UIVolumeTooltip>بر همه آواهای رابط تأثیر می گذارد، به عنوان مثال. کلیک دکمه ها، پیام ها</UIVolumeTooltip>
+  <!-- EN: Anti-aliasing -->
+  <Antialiasing>ضد آلیاسینگ</Antialiasing>
+
+  <!-- Gameplay -->
+  <!-- EN: Remember draw styles -->
+  <RememberDrawStyle>TODO</RememberDrawStyle>
+  <!-- EN: When enabled, draw styles won't reset to the default draw style when placing new buildings or zones. -->
+  <RememberDrawStyle_Tooltip>TODO</RememberDrawStyle_Tooltip>
+  <!-- EN: Zoom switches world map layers -->
+  <ZoomSwitchLayer>TODO</ZoomSwitchLayer>
+  <!-- EN: When enabled, zooming out on the world map will switch to an orbital view. Zooming in will show the planet again. -->
+  <ZoomSwitchLayer_Tooltip>TODO</ZoomSwitchLayer_Tooltip>
+  <!-- EN: Screen-edge mouse scroll -->
+  <EdgeScreenScroll>اسکرول ماوس لبه صفحه</EdgeScreenScroll>
+  <!-- EN: Zoom to mouse -->
+  <ZoomToMouse>بزرگنمایی به سمت ماوس</ZoomToMouse>
+  <!-- EN: Pause on load -->
+  <PauseOnLoad>مکث در بارگذاری</PauseOnLoad>
+  <!-- EN: Pause on urgent letter -->
+  <PauseOnUrgentLetter>مکث در نامه ضرروری</PauseOnUrgentLetter>
+  <!-- EN: Pause on letter -->
+  <AutomaticPauseModeSetting>مکث روی نامه</AutomaticPauseModeSetting>
+  <!-- EN: Disable game-specific cursor -->
+  <CustomCursor>مکان نما مخصوص بازی را غیرفعال کنید</CustomCursor>
+  <!-- EN: Hide hats on UI -->
+  <HatsShownOnlyOnMap>پنهان کردن کلاه ها در رابط کاربری</HatsShownOnlyOnMap>
+  <!-- EN: UI scale -->
+  <UIScale>مقیاس رابط کاربری</UIScale>
+  <!-- EN: Keyboard configuration -->
+  <KeyboardConfig>پیکربندی صفحه کلید</KeyboardConfig>
+  <!-- EN: Controller configuration -->
+  <ControllerConfig>پیکربندی کنترلر</ControllerConfig>
+  <!-- EN: Modify -->
+  <ModifyConfig>دگرگون سازی</ModifyConfig>
+  <!-- EN: Choose language -->
+  <ChooseLanguage>زبان را برگزینید</ChooseLanguage>
+  <!-- EN: Reset learning helper -->
+  <ResetAdaptiveTutor>راهنما یادگیری را بازنشانی کنید</ResetAdaptiveTutor>
+  <!-- EN: Tutor is reset. You will be now be re-taught all lessons from scratch. -->
+  <AdaptiveTutorIsReset>مدرس بازنشانی شده است. اکنون همه دروس از ابتدا به شما آموزش داده خواهد شد.</AdaptiveTutorIsReset>
+  <!-- EN: Keyboard mode -->
+  <SteamDeckKeyboardMode>حالت صفحه کلید</SteamDeckKeyboardMode>
+  <!-- EN: Run in background -->
+  <RunInBackground>اجرا در پس زمینه</RunInBackground>
+  <!-- EN: Development mode -->
+  <DevelopmentMode>حالت توسعه</DevelopmentMode>
+  <!-- EN: Auto-reset mods config on crash -->
+  <ResetModsConfigOnCrash>تنظیم مجدد خودکار حالت‌ها در هنگام خرابی</ResetModsConfigOnCrash>
+  <!-- EN: Quick start has no cryptosleep sickness -->
+  <DisableQuickStartCryptoSickness>شروع سریع بیماری کریپتوسلیپ ندارد</DisableQuickStartCryptoSickness>
+  <!-- EN: Start game with dev palette on -->
+  <StartDevPaletteOn>شروع بازی با پالت توسعه دهنده روشن</StartDevPaletteOn>
+  <!-- EN: Open log on warnings -->
+  <OpenLogOnWarnings>باز کردن گزارش در هشدارها</OpenLogOnWarnings>
+  <!-- EN: Close log by pressing cancel -->
+  <CloseLogWindowOnEscape>بستن پنجره گزارش با فشردن لغو</CloseLogWindowOnEscape>
+  <!-- EN: Verbose logging -->
+  <LogVerbose>ثبت نام مفصل</LogVerbose>
+  <!-- EN: Save data folder -->
+  <SaveGameDataFolder>پوشه داده را ذخیره کنید</SaveGameDataFolder>
+  <!-- EN: Save data location -->
+  <SaveGameDataLocation>ذخیره مکان داده</SaveGameDataLocation>
+  <!-- EN: Log file folder -->
+  <LogFileFolder>پوشه فایل لاگ</LogFileFolder>
+  <!-- EN: Log file location -->
+  <LogFileLocation>محل فایل لاگ</LogFileLocation>
+  <!-- EN: Open -->
+  <OpenFolder>باز کن</OpenFolder>
+  <!-- EN: Show -->
+  <ShowFolder>نمایش دهید</ShowFolder>
+  <!-- EN: Preferred "Name in Game" characters -->
+  <NamesYouWantToSee>کاراکترهای ترجیحی - نام در بازی.</NamesYouWantToSee>
+  <!-- EN: These characters will be more likely to appear randomly during play. -->
+  <NamesYouWantToSeeSubText>زیاد خواهد بود \n احتمال اینکه این شخصیت ها در حین بازی بصورت تصادفی نمایش داده شوند.</NamesYouWantToSeeSubText>
+  <!-- EN: Add name -->
+  <AddName>اضافه کردن نام</AddName>
+  <!-- EN: Type the first name, nickname, or last name. -->
+  <TypeFirstNickOrLastName>نام، نام سپنجی یا نام خانوادگی را تایپ کنید.</TypeFirstNickOrLastName>
+  <!-- EN: This name is already on the preferred list. -->
+  <MessageAlreadyPreferredName>این نام در حال حاضر در لیست برتری است.</MessageAlreadyPreferredName>
+  <!-- EN: Storyteller settings -->
+  <ChangeStoryteller>تنظیمات قصه گو</ChangeStoryteller>
+  <!-- EN: Autosave interval -->
+  <AutosaveInterval>فاصله ذخیره خودکار</AutosaveInterval>
+  <!-- EN: The number of in game days between each auto save. -->
+  <AutosaveIntervalTooltip>تعداد روزهای بازی بین هر ذخیره خودکار.</AutosaveIntervalTooltip>
+  <!-- EN: Temperature unit -->
+  <TemperatureMode>واحد دما</TemperatureMode>
+  <!-- EN: Show realtime clock -->
+  <ShowRealtimeClock>نمایش ساعت بیدرنگ</ShowRealtimeClock>
+  <!-- EN: Use 12 hour clock -->
+  <TwelveHourClockMode>استفاده از ساعت 12 ساعته</TwelveHourClockMode>
+  <!-- EN: Disable tiny font -->
+  <DisableTinyText>فونت کوچک را غیرفعال کنید</DisableTinyText>
+  <!-- EN: Maximum number of colonies: {0} -->
+  <MaxNumberOfPlayerSettlements>حداکثر تعداد کلونی ها : {0}</MaxNumberOfPlayerSettlements>
+  <!-- EN: Autosaves count: {0} -->
+  <AutosavesCount>تعداد ذخیره‌های خودکار: {0}</AutosavesCount>
+  <!-- EN: Map mouse drag sensitivity -->
+  <MapDragSensitivity>حساسیت به کشیدن ماوس نقشه</MapDragSensitivity>
+  <!-- EN: Plant wind sway -->
+  <PlantWindSway>نوسان باد گیاه</PlantWindSway>
+  <!-- EN: Enable test map sizes -->
+  <EnableTestMapSizes>اندازه‌های نقشه آزمایشی را فعال کنید</EnableTestMapSizes>
+  <!-- EN: Maximum autosave interval in permadeath mode is {0} day. -->
+  <MaxPermadeathAutosaveIntervalInfo>حداکثر فاصله ذخیره خودکار در حالت permadeath است {0} روز.</MaxPermadeathAutosaveIntervalInfo>
+  <!-- EN: Mod Settings -->
+  <ModSettings>تنظیمات مود</ModSettings>
+  <!-- EN: Permanently disable development mode -->
+  <PermanentlyDisableDevMode>حالت توسعه را برای همیشه غیرفعال کنید</PermanentlyDisableDevMode>
+  <!-- EN: Texture compression -->
+  <TextureCompression>فشرده سازی بافت</TextureCompression>
+  <!-- EN: Turning off texture compression will use much more video memory, but makes textures look slightly better in detailed areas. Only turn this off if you know you have lots of extra video memory.\n\nNote that using certain mods will often consume much more video memory, so you may need to turn this on if you add certain mods. -->
+  <TextureCompression_Tooltip>خاموش کردن فشرده‌سازی بافت، حافظه ویدیویی بسیار بیشتری مصرف می‌کند، اما باعث می‌شود بافت‌ها در مناطق با جزئیات کمی بهتر به نظر برسند. فقط در صورتی این را خاموش کنید که بدانید حافظه ویدیویی اضافی زیادی دارید.\n\nتوجه داشته باشید که استفاده از حالت‌های خاص معمولاً حافظه ویدیویی بسیار بیشتری مصرف می‌کند، بنابراین اگر حالت‌های خاصی را اضافه کنید، ممکن است لازم باشد آن را روشن کنید.</TextureCompression_Tooltip>
+  <!-- EN: Smooth camera jumps -->
+  <SmoothCameraJumps>پرش های روان دوربین</SmoothCameraJumps>
+  <!-- EN: When enabled, the camera will quickly pan when focusing on a new location. When disabled, the camera will jump instantly. -->
+  <SmoothCameraJumpsDesc>وقتی فعال باشد، دوربین هنگام فوکوس روی مکان جدید به سرعت حرکت می کند. در صورت غیرفعال شدن، دوربین فوراً پرش می کند.</SmoothCameraJumpsDesc>
+
+  <!-- Resolution -->
+  <!-- EN: Resolution -->
+  <Resolution>وضوح</Resolution>
+  <!-- EN: Fullscreen -->
+  <Fullscreen>تمام صفحه</Fullscreen>
+  <!-- EN: Borderless fullscreen -->
+  <BorderlessFullscreen>تمام صفحه بدون حاشیه</BorderlessFullscreen>
+  <!-- EN: To run RimWorld in borderless fullscreen mode:\n\n1) Open Steam\n2) Go to the "Library" tab at the top\n3) Find RimWorld on the list and right-click it\n4) Choose "Properties..."\n5) Add "-popupwindow" without quotes to "Launch options" in the "General" tab\n6) Restart game\n7) If done correctly, you won't see this window\n\nHint: Use Windows Key + Shift + Left/Right to move the window between your monitors. -->
+  <BorderlessFullscreenInstructions>To run RimWorld in borderless fullscreen mode:\n\n1) Open Steam\n2) Go to the "Library" tab at the top\n3) Find RimWorld on the list and right-click it\n4) Choose "Properties..."\n5) Add "-popupwindow" without quotes to "Launch options" in the "General" tab\n6) Restart game\n7) If done correctly, you won't see this window\n\nHint: Use Windows Key + Shift + Left/Right to move the window between your monitors.</BorderlessFullscreenInstructions>
+
+  <!-- Mods -->
+  <!-- EN: Select mod... -->
+  <SelectMod>انتخاب مود...</SelectMod>
+  <!-- EN: No configurable mods loaded. -->
+  <NoConfigurableMods>هیچ مود قابل تنظیم بارگیری نشده است.</NoConfigurableMods>
+  
+  <!-- Options reset -->
+  <!-- EN: Restore all settings to default -->
+  <RestoreToDefaultSettingsLabel>تمام تنظیمات را به حالت پیش فرض بازگردانید</RestoreToDefaultSettingsLabel>
+  <!-- EN: Restore defaults -->
+  <RestoreToDefaultSettings>بازیابی پیش فرض ها</RestoreToDefaultSettings>
+  <!-- EN: All settings have been reset. The game will now restart automatically. -->
+  <ResetAndRestart>تمام تنظیمات بازنشانی شده است. اکنون بازی به طور خودکار مجدداً راه اندازی می شود.</ResetAndRestart>
+  <!-- EN: All settings will be reset to the default and the game will be restarted. Unsaved progress will be lost,\n\nContinue? -->
+  <ResetAndRestartConfirmationDialog>تمام تنظیمات به حالت پیش فرض بازنشانی می شود و بازی مجدداً راه اندازی می شود. پیشرفت ذخیره نشده از بین خواهد رفت،\n\nادامه می دهید؟</ResetAndRestartConfirmationDialog>
+  <!-- EN: Changing texture compression settings requires a restart. Unsaved progress will be lost.\n\nContinue? -->
+  <ChangedTextureCompressionRestart>تغییر تنظیمات فشرده سازی بافت نیاز به راه اندازی مجدد دارد. پیشرفت ذخیره نشده از بین خواهد رفت.\n\nادامه دهید؟</ChangedTextureCompressionRestart>
+  
+  <!-- Background image -->
+  <!-- EN: Menu background -->
+  <SetBackgroundImage>پس زمینه منو</SetBackgroundImage>
+
+  <!-- UNUSED -->
+  <SimulateNotOwningRoyalty>شبیه سازی عدم مالکیت Royalty</SimulateNotOwningRoyalty>
+  <SimulateNotOwningIdeology>شبیه سازی عدم مالکیت Ideology</SimulateNotOwningIdeology>
+  <SimulateNotOwningBiotech>شبیه سازی عدم مالکیت Biotech</SimulateNotOwningBiotech>
+
+</LanguageData>

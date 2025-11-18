@@ -1,0 +1,1467 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Confirm -->
+  <Confirm>تایید</Confirm>
+  <!-- EN: Go back -->
+  <GoBack>بازگشت</GoBack>
+  <!-- EN: Do you want to continue? -->
+  <WantToContinue>آیا می‌خواهید ادامه دهید؟</WantToContinue>
+  <!-- EN: OK -->
+  <OK>تایید</OK>
+  <!-- EN: Close -->
+  <Close>بستن</Close>
+  <!-- EN: Accept -->
+  <Accept>پذیرش</Accept>
+  <!-- EN: Cancel -->
+  <Cancel>لغو</Cancel>
+  <!-- EN: Reset -->
+  <Reset>بازنشانی</Reset>
+  <!-- EN: Reset all -->
+  <ResetAll>بازنشانی همه</ResetAll>
+  <!-- EN: Disable -->
+  <Disable>غیرفعال کردن</Disable>
+  <!-- EN: Modify -->
+  <Modify>اصلاح</Modify>
+  <!-- EN: Settle here anyway? -->
+  <ConfirmSettle>به هر حال اینجا سکونت کنید؟</ConfirmSettle>
+  <!-- EN: add -->
+  <Add>افزودن</Add>
+  <!-- EN: Cannot shoot -->
+  <CannotShoot>نمی‌توان شلیک کرد</CannotShoot>
+  
+  <!-- Game updated to new version -->
+  <!-- EN: RimWorld has been updated from version {0} to version {1}. -->
+  <GameUpdatedToNewVersionInitial>RimWorld از نسخه {0} به نسخه {1} به‌روزرسانی شده است.</GameUpdatedToNewVersionInitial>
+  <!-- EN: This may cause saved games and mods from the old version to stop working. -->
+  <GameUpdatedToNewVersionSavesIncompatible>این ممکن است باعث شود بازی‌های ذخیره شده و مودها از نسخه قدیمی کار نکنند.</GameUpdatedToNewVersionSavesIncompatible>
+  <!-- EN: Saved games from the old version should be compatible, however some mods may stop working. -->
+  <GameUpdatedToNewVersionSavesCompatible>بازی‌های ذخیره شده از نسخه قدیمی باید سازگار باشند، با این حال برخی از مودها ممکن است کار نکنند.</GameUpdatedToNewVersionSavesCompatible>
+  <!-- EN: Since this is a DRM-free copy, you can install the game twice in two different folders, to be able to play both old and new versions. -->
+  <GameUpdatedToNewVersionNonSteam>از آنجایی که این یک نسخه بدون DRM است، می‌توانید بازی را دو بار در دو پوشه مختلف نصب کنید تا بتوانید هم نسخه‌های قدیمی و هم نسخه‌های جدید را بازی کنید.</GameUpdatedToNewVersionNonSteam>
+  <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature.\n\n  1. In the Steam library, right-click RimWorld.\n  2. Click Properties.\n  3. Click the Betas tab.\n  4. Select the version you want from the drop-down menu. -->
+  <GameUpdatedToNewVersionSteam>اگر می‌خواهید با نسخه قدیمی ادامه دهید، می‌توانید با استفاده از ویژگی "Betas" استیم این کار را انجام دهید.\n\n  1. در کتابخانه استیم، روی RimWorld کلیک راست کنید.\n  2. روی Properties کلیک کنید.\n  3. روی تب Betas کلیک کنید.\n  4. نسخه مورد نظر خود را از منوی کشویی انتخاب کنید.</GameUpdatedToNewVersionSteam>
+  <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature. -->
+  <GameUpdatedToNewVersionSteamController>اگر می‌خواهید با نسخه قدیمی ادامه دهید، می‌توانید با استفاده از ویژگی "Betas" استیم این کار را انجام دهید.</GameUpdatedToNewVersionSteamController>
+  
+  <!-- Recovered from errors caused by mods -->
+  <!-- EN: Recovered from incompatible or corrupted mods errors -->
+  <RecoveredFromErrorsDialogTitle>بازیابی از خطاهای مودهای ناسازگار یا خراب</RecoveredFromErrorsDialogTitle>
+  <!-- EN: It seems that some of the active mods were causing errors.\n\nThey were incompatible with each other, designed for a different version of RimWorld, or corrupted.\n\nAll mods have been disabled and can be activated again in the mods dialog. -->
+  <RecoveredFromErrorsText>به نظر می‌رسد برخی از مودهای فعال باعث خطا شده‌اند.\n\nآنها با یکدیگر ناسازگار بودند، برای نسخه دیگری از RimWorld طراحی شده بودند یا خراب بودند.\n\nتمام مودها غیرفعال شده‌اند و می‌توانند دوباره در پنجره مودها فعال شوند.</RecoveredFromErrorsText>
+  
+  <!-- Errors during loading -->
+  <!-- EN: Error while loading assets -->
+  <ErrorWhileLoadingAssetsTitle>خطا هنگام بارگیری دارایی‌ها</ErrorWhileLoadingAssetsTitle>
+  <!-- EN: An error occurred while loading game assets. See error log for more information. -->
+  <ErrorWhileLoadingAssets>هنگام بارگیری دارایی‌های بازی خطایی رخ داد. برای اطلاعات بیشتر به گزارش خطا مراجعه کنید.</ErrorWhileLoadingAssets>
+  <!-- EN: The game is currently running with custom mods - they may or may not cause these problems. -->
+  <ErrorWhileLoadingAssets_ModsInfo>بازی در حال حاضر با مودهای سفارشی اجرا می‌شود - ممکن است این مشکلات را ایجاد کنند یا نکنند.</ErrorWhileLoadingAssets_ModsInfo>
+  <!-- EN: Error while generating a map -->
+  <ErrorWhileGeneratingMapTitle>خطا هنگام تولید نقشه</ErrorWhileGeneratingMapTitle>
+  <!-- EN: An error occurred while generating a new map. See error log for more information. -->
+  <ErrorWhileGeneratingMap>هنگام تولید نقشه جدید خطایی رخ داد. برای اطلاعات بیشتر به گزارش خطا مراجعه کنید.</ErrorWhileGeneratingMap>
+  <!-- EN: Error while loading a map -->
+  <ErrorWhileLoadingMapTitle>خطا هنگام بارگیری نقشه</ErrorWhileLoadingMapTitle>
+  <!-- EN: An error occurred while loading a map. See error log for more information. -->
+  <ErrorWhileLoadingMap>هنگام بارگیری نقشه خطایی رخ داد. برای اطلاعات بیشتر به گزارش خطا مراجعه کنید.</ErrorWhileLoadingMap>
+  
+  <!-- Unloaded mod with an assembly -->
+  <!-- EN: The mod list has changed. The game will now restart automatically. -->
+  <ModsChanged>لیست مودها تغییر کرده است. بازی اکنون به طور خودکار راه‌اندازی مجدد خواهد شد.</ModsChanged>
+  <!-- EN: Something went wrong while restarting the game. The game can't fully unload modified code from deactivated mods, so code from deactivated mods may still be active.\n\nIt's recommended that you quit and restart the game now to load all mods cleanly. -->
+  <FailedToRestart>هنگام راه‌اندازی مجدد بازی مشکلی پیش آمد. بازی نمی‌تواند کد اصلاح شده از مودهای غیرفعال شده را به طور کامل تخلیه کند، بنابراین کد از مودهای غیرفعال شده ممکن است همچنان فعال باشد.\n\nتوصیه می‌شود اکنون بازی را ترک کرده و دوباره راه‌اندازی کنید تا همه مودها به طور تمیز بارگیری شوند.</FailedToRestart>
+  <!-- EN: Restarting -->
+  <Restarting>راه اندازی مجدد</Restarting>
+  
+  <!-- Missing Steam -->
+  <!-- EN: Could not initialize Steam API. Possible causes:\n\n-Steam is not running.\n-Launched from outside Steam without steam_appid.txt in place.\n-Running with different privileges than Steam client (e.g. "as administrator").\n\nIn most cases, rebooting your computer will fix this problem.\n\nYou can play anyway, but no Steam stats will be recorded and Steam features won't be available. -->
+  <SteamClientMissing>API استیم قابل راه‌اندازی نبود. دلایل احتمالی:\n\n-استیم در حال اجرا نیست.\n-از خارج از استیم بدون فایل steam_appid.txt در محل اجرا شده است.\n-با امتیازات متفاوتی نسبت به کلاینت استیم اجرا می‌شود (مثلاً "به عنوان مدیر").\n\nدر بیشتر موارد، راه‌اندازی مجدد کامپیوتر شما این مشکل را حل خواهد کرد.\n\nمی‌توانید به هر حال بازی کنید، اما آمار استیم ثبت نخواهد شد و ویژگی‌های استیم در دسترس نخواهند بود.</SteamClientMissing>
+  
+  <!-- Long events -->
+  <!-- EN: Initializing interface -->
+  <InitializingInterface>در حال راه‌اندازی رابط کاربری</InitializingInterface>
+  <!-- EN: Unloading unused assets -->
+  <UnloadingUnusedAssets>در حال تخلیه دارایی‌های استفاده نشده</UnloadingUnusedAssets>
+  <!-- EN: Loading all active mods -->
+  <LoadingAllActiveMods>در حال بارگیری تمام مودهای فعال</LoadingAllActiveMods>
+  <!-- EN: Loading defs -->
+  <LoadingDefs>در حال بارگیری تعاریف</LoadingDefs>
+  <!-- EN: Loading assets -->
+  <LoadingAssets>در حال بارگیری دارایی‌ها</LoadingAssets>
+  <!-- EN: Initializing -->
+  <Initializing>در حال راه‌اندازی</Initializing>
+  <!-- EN: Loading world -->
+  <LoadingWorld>در حال بارگیری جهان</LoadingWorld>
+  <!-- EN: Loading map -->
+  <LoadingMap>در حال بارگیری نقشه</LoadingMap>
+  <!-- EN: Initializing game -->
+  <InitializingGame>در حال راه‌اندازی بازی</InitializingGame>
+  <!-- EN: Spawning things -->
+  <SpawningAllThings>در حال تولید اشیاء</SpawningAllThings>
+  <!-- EN: Spawning colonists -->
+  <SpawningColonists>در حال تولید مهاجران</SpawningColonists>
+  
+  <!-- Save/load -->
+  <!-- EN: Save -->
+  <SaveGameButton>ذخیره</SaveGameButton>
+  <!-- EN: Load -->
+  <LoadGameButton>بارگیری</LoadGameButton>
+  <!-- EN: Overwrite -->
+  <OverwriteButton>بازنویسی</OverwriteButton>
+  <!-- EN: Really delete {0}? -->
+  <ConfirmDelete>واقعاً {0} را حذف می‌کنید؟</ConfirmDelete>
+  <!-- EN: Delete this savegame. -->
+  <DeleteThisSavegame>این بازی ذخیره شده را حذف کنید.</DeleteThisSavegame>
+  <!-- EN: Saved as {0}. -->
+  <SavedAs>به عنوان {0} ذخیره شد.</SavedAs>
+  <!-- EN: Please enter a name. -->
+  <NeedAName>لطفاً یک نام وارد کنید.</NeedAName>
+  <!-- EN: Loading -->
+  <LoadingLongEvent>در حال بارگیری</LoadingLongEvent>
+  <!-- EN: Saving -->
+  <SavingLongEvent>در حال ذخیره</SavingLongEvent>
+  <!-- EN: (Permadeath) -->
+  <PermadeathModeSaveSuffix>(مرگ دائمی)</PermadeathModeSaveSuffix>
+  <!-- EN: We are running version {0} but the save data is from {1}, which is a different version entirely.\n\nTrying to load this data will probably not work. -->
+  <SaveIsFromDifferentGameVersion>ما در حال اجرای نسخه {0} هستیم اما داده‌های ذخیره شده از {1} است که نسخه کاملاً متفاوتی است.\n\nتلاش برای بارگیری این داده‌ها احتمالاً کار نخواهد کرد.</SaveIsFromDifferentGameVersion>
+  <!-- EN: We are running version {0} but the save data is from {1}, which is a different build.\n\nTrying to load this data should still work. -->
+  <SaveIsFromDifferentGameBuild>ما در حال اجرای نسخه {0} هستیم اما داده‌های ذخیره شده از {1} است که یک بیلد متفاوت است.\n\nتلاش برای بارگیری این داده‌ها باید همچنان کار کند.</SaveIsFromDifferentGameBuild>
+  <!-- EN: Save data was saved with our game version and should work without issue. -->
+  <SaveIsFromThisGameBuild>داده‌های ذخیره شده با نسخه بازی ما ذخیره شده‌اند و باید بدون مشکل کار کنند.</SaveIsFromThisGameBuild>
+  <!-- EN: Save data is in an unknown format and almost certainly will not load properly. -->
+  <SaveIsUnknownFormat>داده‌های ذخیره شده در فرمت ناشناخته‌ای هستند و تقریباً مطمئناً به درستی بارگیری نخواهند شد.</SaveIsUnknownFormat>
+  <!-- EN: There was a problem saving the file {0}:\n\n{1}\n\nSee error log for more information. -->
+  <ProblemSavingFile>مشکلی در ذخیره فایل {0} وجود داشت:\n\n{1}\n\nبرای اطلاعات بیشتر به گزارش خطا مراجعه کنید.</ProblemSavingFile>
+  <!-- EN: Load anyway -->
+  <LoadAnyway>به هر حال بارگیری کن</LoadAnyway>
+  <!-- EN: Load mod list from save -->
+  <ChangeLoadedMods>بارگیری لیست مودها از ذخیره</ChangeLoadedMods>
+  <!-- EN: Some mods are unavailable, and need to be installed -->
+  <MissingMods>برخی از مودها در دسترس نیستند و باید نصب شوند</MissingMods>
+  <!-- EN: Official content -->
+  <OfficialContent>محتوای رسمی</OfficialContent>
+  <!-- EN: Active -->
+  <ContentActive>فعال</ContentActive>
+  <!-- EN: Installed, but not active -->
+  <ContentInstalledButNotActive>نصب شده، اما فعال نیست</ContentInstalledButNotActive>
+  <!-- EN: Not installed -->
+  <ContentNotInstalled>نصب نشده</ContentNotInstalled>
+  
+  <!-- Player faction naming -->
+  <!-- EN: Since it looks like you'll be here for a while, {0} thinks that you should give your faction a name. What should your faction be called? -->
+  <NamePlayerFactionMessage>از آنجایی که به نظر می‌رسد مدتی اینجا خواهید بود، {0} فکر می‌کند که باید به جناح خود نامی بدهید. جناح شما چه نامی داشته باشد؟</NamePlayerFactionMessage>
+  <!-- EN: Your faction is now known as {0}. -->
+  <PlayerFactionGainsName>جناح شما اکنون با نام {0} شناخته می‌شود.</PlayerFactionGainsName>
+  <!-- EN: That name isn't valid. -->
+  <PlayerFactionNameIsInvalid>این نام معتبر نیست.</PlayerFactionNameIsInvalid>
+
+  <!-- Player faction base naming -->
+  <!-- EN: {0} thinks that you should give this settlement a name. What should the local settlement be called? -->
+  <NamePlayerFactionBaseMessage>{0} فکر می‌کند که باید به این سکونتگاه نامی بدهید. سکونتگاه محلی چه نامی داشته باشد؟</NamePlayerFactionBaseMessage>
+  <!-- EN: This community is now known as {0}. -->
+  <PlayerFactionBaseGainsName>این جامعه اکنون با نام {0} شناخته می‌شود.</PlayerFactionBaseGainsName>
+  <!-- EN: That name isn't valid. -->
+  <PlayerFactionBaseNameIsInvalid>این نام معتبر نیست.</PlayerFactionBaseNameIsInvalid>
+  
+  <!-- Player faction and faction base naming -->
+  <!-- EN: {0} also thinks that you should give this settlement a name. What should this local settlement be called? -->
+  <NamePlayerFactionBaseMessage_NameFactionContinuation>{0} همچنین فکر می‌کند که باید به این سکونتگاه نامی بدهید. این سکونتگاه محلی چه نامی داشته باشد؟</NamePlayerFactionBaseMessage_NameFactionContinuation>
+  <!-- EN: Your faction is now known as {0}, and this community is now known as {1}. -->
+  <PlayerFactionAndBaseGainsName>جناح شما اکنون با نام {0} و این جامعه با نام {1} شناخته می‌شود.</PlayerFactionAndBaseGainsName>
+  
+  <!-- Renaming -->
+  <!-- EN: Please enter a valid name. -->
+  <NameIsInvalid>لطفاً یک نام معتبر وارد کنید.</NameIsInvalid>
+  <!-- EN: Name is already in use. -->
+  <NameIsInUse>نام از قبل در حال استفاده است.</NameIsInUse>
+  <!-- EN: The zone is now called {0}. -->
+  <ZoneGainsName>منطقه اکنون {0} نامیده می‌شود.</ZoneGainsName>
+  
+  <!-- Pawn naming -->
+  <!-- EN: Chosen name is invalid. -->
+  <NameInvalid>نام انتخاب شده نامعتبر است.</NameInvalid>
+  <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
+  <PawnGainsName>نام مستعار این شخص اکنون {0} است. عنوان {PAWN_possessive} او {PAWN_title} است.</PawnGainsName>
+  <!-- EN: The animal's name is now {0}. -->
+  <AnimalGainsName>نام حیوان اکنون {0} است.</AnimalGainsName>
+  <!-- EN: rename person -->
+  <RenamePerson>تغییر نام شخص</RenamePerson>
+  <!-- EN: mother -->
+  <Mother>مادر</Mother>
+  <!-- EN: father -->
+  <Father>پدر</Father>
+  <!-- EN: unknown -->
+  <Unknown>ناشناخته</Unknown>
+  <!-- EN: first name -->
+  <FirstName>نام کوچک</FirstName>
+  <!-- EN: nickname -->
+  <NickName>نام مستعار</NickName>
+  <!-- EN: last name -->
+  <LastName>نام خانوادگی</LastName>
+  <!-- EN: suggested -->
+  <Suggested>پیشنهادی</Suggested>
+  
+  <!-- Choose new wanderers -->
+  <!-- EN: Choose new wanderers -->
+  <ChooseNewWanderers>انتخاب سرگردان‌های جدید</ChooseNewWanderers>
+
+  <!-- Save game incompatible warning -->
+  <!-- EN: Version mismatch -->
+  <VersionMismatch>عدم تطابق نسخه</VersionMismatch>
+  <!-- EN: This game was saved with game version {0}\nWe are running game version {1}\n\nLoading this save may cause bugs and crashes. -->
+  <SaveGameIncompatibleWarningText>این بازی با نسخه {0} ذخیره شده است.\nما در حال اجرای نسخه {1} هستیم.\n\nبارگیری این ذخیره ممکن است باعث باگ و کرش شود.</SaveGameIncompatibleWarningText>
+  <!-- EN: World file was generated with game version {0}\nWe are running game version {1}\n\nLoading this world may cause bugs and crashes. You should probably generate a new world from scratch. -->
+  <WorldFileVersionMismatch>فایل جهان با نسخه {0} بازی تولید شده است.\nما در حال اجرای نسخه {1} بازی هستیم.\n\nبارگیری این جهان ممکن است باعث باگ و کرش شود. احتمالاً باید یک جهان جدید از ابتدا تولید کنید.</WorldFileVersionMismatch>
+  <!-- EN: This file was saved with game version {0}\nWe are running game version {1}\n\nLoading this file may cause bugs and crashes. -->
+  <FileIncompatibleWarning>این فایل با نسخه {0} بازی ذخیره شده است.\nما در حال اجرای نسخه {1} بازی هستیم.\n\nبارگیری این فایل ممکن است باعث باگ و کرش شود.</FileIncompatibleWarning>
+  <!-- EN: Mods mismatch -->
+  <ModsMismatchWarningTitle>عدم تطابق مودها</ModsMismatchWarningTitle>
+  <!-- EN: This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do. -->
+  <ModsMismatchWarningText>این فایل با مجموعه‌ای متفاوت از مودهای فعال نسبت به آنچه در حال حاضر اجرا می‌کنیم ذخیره شده است. این ممکن است باعث مشکل شود یا نشود، بسته به اینکه این مودها دقیقاً چه کاری انجام می‌دهند.</ModsMismatchWarningText>
+  <!-- EN: No mods have been added or removed, but the order of your mod list has changed. -->
+  <ModsMismatchOrderChanged>هیچ مودی اضافه یا حذف نشده است، اما ترتیب لیست مودهای شما تغییر کرده است.</ModsMismatchOrderChanged>
+  <!-- EN: Are you sure you want to load the mod list from this save file? -->
+  <ConfirmLoadSaveList>آیا مطمئن هستید که می‌خواهید لیست مودها را از این فایل ذخیره بارگیری کنید؟</ConfirmLoadSaveList>
+
+  <!-- Resolution change dialog -->
+  <!-- EN: You've changed your screen settings. Do the new ones work okay?\n\nAuto-reverting in {0}... -->
+  <ConfirmResolutionChange>تنظیمات صفحه نمایش خود را تغییر داده‌اید. آیا تنظیمات جدید به درستی کار می‌کنند؟\n\nبازگشت خودکار در {0}...</ConfirmResolutionChange>
+  <!-- EN: Keep -->
+  <ResolutionKeep>نگه داشتن</ResolutionKeep>
+  <!-- EN: Revert -->
+  <ResolutionRevert>بازگشت</ResolutionRevert>
+
+  <!-- Confirm permanently disable dev mode -->
+  <!-- EN: Do you really want to permanently disable development mode on this computer?\n\nThis option is for people who want a pure play experience without the temptation to use development tools to gain advantage in normal play.\n\nDevelopment mode can be re-enabled, but doing so requires manually editing configuration files. You'll need to search the Internet to find out how. -->
+  <ConfirmPermanentlyDisableDevMode>آیا واقعاً می‌خواهید حالت توسعه را در این کامپیوتر برای همیشه غیرفعال کنید؟\n\nاین گزینه برای افرادی است که می‌خواهند تجربه بازی خالص داشته باشند بدون وسوسه استفاده از ابزارهای توسعه برای کسب مزیت در بازی عادی.\n\nحالت توسعه را می‌توان دوباره فعال کرد، اما انجام این کار نیازمند ویرایش دستی فایل‌های پیکربندی است. برای پیدا کردن نحوه انجام این کار باید در اینترنت جستجو کنید.</ConfirmPermanentlyDisableDevMode>
+
+  <!-- Confirm reset learning helper -->
+  <!-- EN: Are you sure you want to reset the learning helper?\n\nAll records of which concepts have been learned will be erased and the system will teach everything from scratch. -->
+  <ConfirmResetLearningHelper>آیا مطمئن هستید که می‌خواهید کمک‌کننده یادگیری را بازنشانی کنید؟\n\nتمام سوابق مفاهیم یاد گرفته شده پاک خواهند شد و سیستم همه چیز را از ابتدا آموزش خواهد داد.</ConfirmResetLearningHelper>
+
+  <!-- Backstory translation restart dialog -->
+  <!-- EN: Backstories are now implemented as a def and all legacy backstory translations have been imported into def translations. The file {0} has been imported and moved to {1}. It can now be deleted.\n\nRestart the game for changes to take effect. -->
+  <RestartAfterImportingLegacyBackstoryTanslations>پیش‌زمینه‌ها اکنون به عنوان یک تعریف پیاده‌سازی شده‌اند و تمام ترجمه‌های پیش‌زمینه قدیمی به ترجمه‌های تعریف وارد شده‌اند. فایل {0} وارد شده و به {1} منتقل شده است. اکنون می‌توان آن را حذف کرد.\n\nبرای اعمال تغییرات بازی را دوباره راه‌اندازی کنید.</RestartAfterImportingLegacyBackstoryTanslations>
+
+  <!-- Game start -->
+  <!-- EN: Must include exactly {SUMMARY} -->
+  <SelectedCharactersMustInclude>باید دقیقاً شامل {SUMMARY} باشد</SelectedCharactersMustInclude>
+  <!-- EN: All colonists must be {0} -->
+  <SelectedCharactersMustBeOfAllowedDevelopmentalStages>TODO</SelectedCharactersMustBeOfAllowedDevelopmentalStages> <!-- text_todo -->
+
+  <!-- Advanced game start options -->
+  <!-- EN: Warning: You will be landing in winter. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different season. -->
+  <MapWinterWarning>TODO</MapWinterWarning>
+  <!-- EN: The game is designed to play on medium map sizes. These sizes provide plenty of space!\n\nLarge map sizes don't just degrade performance - they actually break the game design. The AI will make stupid decisions, and game balance will be badly affected in various ways. These sizes are included for tradition and testing reasons only, please do not use them without a specific reason. -->
+  <MapSizePerformanceWarning>بازی برای اجرا در اندازه‌های نقشه متوسط طراحی شده است. این اندازه‌ها فضای زیادی را فراهم می‌کنند!\n\nاندازه‌های نقشه بزرگ فقط عملکرد را کاهش نمی‌دهند - آنها در واقع طراحی بازی را خراب می‌کنند. هوش مصنوعی تصمیمات احمقانه خواهد گرفت و تعادل بازی به طرق مختلف به شدت تحت تأثیر قرار خواهد گرفت. این اندازه‌ها فقط به دلایل سنتی و آزمایشی گنجانده شده‌اند، لطفاً بدون دلیل خاص از آنها استفاده نکنید.</MapSizePerformanceWarning>
+  <!-- EN: Map size -->
+  <MapSize>اندازه نقشه</MapSize>
+  <!-- EN: {0}x{0} ({1} cells) -->
+  <MapSizeDesc>{0}x{0} ({1} سلول)</MapSizeDesc>
+  <!-- EN: Small -->
+  <MapSizeSmall>کوچک</MapSizeSmall>
+  <!-- EN: Medium -->
+  <MapSizeMedium>متوسط</MapSizeMedium>
+  <!-- EN: Large -->
+  <MapSizeLarge>بزرگ</MapSizeLarge>
+  <!-- EN: Extreme (test) -->
+  <MapSizeExtreme>شدید (آزمایشی)</MapSizeExtreme>
+  <!-- EN: Starting season -->
+  <MapStartSeason>فصل شروع</MapStartSeason>
+  <!-- EN: Auto -->
+  <MapStartSeasonDefault>خودکار</MapStartSeasonDefault>
+  <!-- EN: Notice -->
+  <Notice>توجه</Notice>
+
+  <!-- Bill config -->
+  <!-- EN: Suspended -->
+  <Suspended>معلق</Suspended>
+  <!-- EN: Not suspended -->
+  <NotSuspended>معلق نیست</NotSuspended>
+  <!-- EN: SUSPENDED -->
+  <SuspendedAllCaps>معلق</SuspendedAllCaps>
+  <!-- EN: Repeat: -->
+  <RepeatCount>تکرار:</RepeatCount>
+  <!-- EN: Forever -->
+  <Forever>برای همیشه</Forever>
+  <!-- EN: Details -->
+  <Details>جزئیات</Details>
+  <!-- EN: Ingredient radius -->
+  <IngredientSearchRadius>شعاع جستجوی مواد</IngredientSearchRadius>
+  <!-- EN: Currently have -->
+  <CurrentlyHave>در حال حاضر دارید</CurrentlyHave>
+  <!-- EN: Counting -->
+  <CountingProducts>در حال شمارش</CountingProducts>
+  <!-- EN: Infinite -->
+  <Infinite>بی‌نهایت</Infinite>
+  <!-- EN: Allowed {0} skill -->
+  <AllowedSkillRange>مهارت مجاز {0}:</AllowedSkillRange>
+  <!-- EN: incompatible -->
+  <IncompatibleLower>ناسازگار</IncompatibleLower>
+  <!-- EN: Any worker -->
+  <AnyWorker>هر کارگری</AnyWorker>
+  <!-- EN: Unlimited -->
+  <Unlimited>نامحدود</Unlimited>
+  
+  <!-- EN: (This recipe cannot have a target count because it has multiple or unpredictable products.) -->
+  <RecipeCannotHaveTargetCount>(این دستور پخت نمی‌تواند تعداد هدف داشته باشد زیرا محصولات متعدد یا غیرقابل پیش‌بینی دارد.)</RecipeCannotHaveTargetCount>
+  <!-- EN: Work amount -->
+  <WorkAmount>مقدار کار</WorkAmount>
+  <!-- EN: Minimum skills: -->
+  <MinimumSkills>حداقل مهارت‌ها:</MinimumSkills>
+  <!-- EN: Requires -->
+  <BillRequires>نیاز دارد</BillRequires>
+  <!-- EN: nutrition -->
+  <BillNutrition>تغذیه</BillNutrition>
+  <!-- EN: Note: Small-volume ingredients like gold require {0}x as much. -->
+  <BillRequiresMayVary>توجه: مواد با حجم کم مانند طلا به {0} برابر بیشتر نیاز دارند.</BillRequiresMayVary>
+  <!-- EN: This is a small-volume ingredient. This means that each 'unit' is only 1/{0} as much as a normal-volume ingredient. So, to fill the same ingredient requirement, you'll need {0}x as much as usual. -->
+  <ThisIsSmallVolume>این یک ماده با حجم کم است. این بدان معناست که هر 'واحد' فقط 1/{0} برابر یک ماده با حجم عادی است. بنابراین، برای برآورده کردن همان نیاز به ماده، به {0} برابر بیشتر از حد معمول نیاز خواهید داشت.</ThisIsSmallVolume>
+  <!-- EN: ingredients -->
+  <UsableIngredients>مواد قابل استفاده</UsableIngredients>
+  <!-- EN: To {0} -->
+  <BillRepeatTargetCountShort>به {0}</BillRepeatTargetCountShort>
+
+  <!-- EN: Pause when satisfied -->
+  <PauseWhenSatisfied>هنگام رضایت متوقف شود</PauseWhenSatisfied>
+  <!-- EN: Unpause at -->
+  <UnpauseWhenYouHave>از سرگیری در</UnpauseWhenYouHave>
+  <!-- EN: paused -->
+  <Paused>متوقف شده</Paused>
+  <!-- EN: Unpause -->
+  <Unpause>از سرگیری</Unpause>
+
+  <!-- EN: Count equipped -->
+  <IncludeEquipped>شمارش تجهیز شده</IncludeEquipped>
+  <!-- EN: Count tainted -->
+  <IncludeTainted>شمارش آلوده</IncludeTainted>
+  <!-- EN: Only allowed ingredients -->
+  <LimitToAllowedStuff>فقط مواد مجاز</LimitToAllowedStuff>
+  <!-- EN: Look everywhere -->
+  <IncludeFromAll>همه جا را جستجو کن</IncludeFromAll>
+  <!-- EN: Look in {0} -->
+  <IncludeSpecific>جستجو در {0}</IncludeSpecific>
+  <!-- EN: Stockpiles -->
+  <StockpilePlural>انبارها</StockpilePlural>
+  <!-- EN: Shelves -->
+  <ShelfPlural>قفسه‌ها</ShelfPlural>
+  <!-- EN: Groups -->
+  <GroupPlural>گروه‌ها</GroupPlural>
+  
+  <!-- Info card -->
+  <!-- EN: Damage -->
+  <Damage>آسیب</Damage>
+  <!-- EN: Armor penetration -->
+  <ArmorPenetration>نفوذ زره</ArmorPenetration>
+  <!-- EN: Armor penetration is the amount of armor this weapon will ignore each time it hits the target.\n\nIf armor penetration is greater than the target's armor, it is as though the target is unarmored. Otherwise, the armor penetration is subtracted from the target's armor. -->
+  <ArmorPenetrationExplanation>نفوذ زره مقداری از زره است که این سلاح هر بار که به هدف برخورد می‌کند نادیده می‌گیرد.\n\nاگر نفوذ زره بیشتر از زره هدف باشد، مانند این است که هدف بدون زره است. در غیر این صورت، نفوذ زره از زره هدف کم می‌شود.</ArmorPenetrationExplanation>
+  <!-- EN: Building damage factor -->
+  <BuildingDamageFactor>ضریب آسیب ساختمان</BuildingDamageFactor>
+  <!-- EN: Damage to all buildings is multiplied by this value. -->
+  <BuildingDamageFactorExplanation>آسیب به تمام ساختمان‌ها در این مقدار ضرب می‌شود.</BuildingDamageFactorExplanation>
+  <!-- EN: Building damage factor (impassable) -->
+  <BuildingDamageFactorImpassable>ضریب آسیب ساختمان (غیرقابل عبور)</BuildingDamageFactorImpassable>
+  <!-- EN: Damage to all impassable buildings is multiplied by this value. -->
+  <BuildingDamageFactorImpassableExplanation>آسیب به تمام ساختمان‌های غیرقابل عبور در این مقدار ضرب می‌شود.</BuildingDamageFactorImpassableExplanation>
+  <!-- EN: Building damage factor (passable) -->
+  <BuildingDamageFactorPassable>ضریب آسیب ساختمان (قابل عبور)</BuildingDamageFactorPassable>
+  <!-- EN: Damage to all passable buildings is multiplied by this value. -->
+  <BuildingDamageFactorPassableExplanation>آسیب به تمام ساختمان‌های قابل عبور در این مقدار ضرب می‌شود.</BuildingDamageFactorPassableExplanation>
+  <!-- EN: Accuracy -->
+  <Accuracy>دقت</Accuracy>
+  <!-- EN: Burst shot count -->
+  <BurstShotCount>تعداد شلیک در رگبار</BurstShotCount>
+  <!-- EN: Warmup -->
+  <WarmupTime>زمان آماده‌سازی</WarmupTime>
+  <!-- EN: Melee warmup -->
+  <MeleeWarmupTime>زمان آماده‌سازی تن به تن</MeleeWarmupTime>
+  <!-- EN: Aiming time -->
+  <RangedWarmupTime>زمان هدف‌گیری</RangedWarmupTime>
+  <!-- EN: Cooldown -->
+  <CooldownTime>زمان خنک شدن</CooldownTime>
+  <!-- EN: Disarmed -->
+  <DisarmedTime>خلع سلاح شده</DisarmedTime>
+  <!-- EN: Charging -->
+  <ChargingTime>در حال شارژ</ChargingTime>
+  <!-- EN: Next recharge (for {1}) in: {0}\nCharge cycle: {2} -->
+  <ChargingNext>شارژ بعدی (برای {1}) در: {0}\nچرخه شارژ: {2}</ChargingNext>
+  <!-- EN: Shut down -->
+  <ShutDown>خاموش کردن</ShutDown>
+  <!-- EN: Fire rate -->
+  <BurstShotFireRate>نرخ آتش</BurstShotFireRate>
+  <!-- EN: Range -->
+  <Range>برد</Range>
+  <!-- EN: Stopping power -->
+  <StoppingPower>قدرت توقف</StoppingPower>
+  <!-- EN: Hits from this weapon will stagger targets, slowing their movement for several seconds.\n\nTargets with a body size larger than the stopping power will be unaffected. -->
+  <StoppingPowerExplanation>برخورد از این سلاح اهداف را متوقف می‌کند و حرکت آنها را برای چند ثانیه کند می‌کند.\n\nاهدافی با اندازه بدن بزرگتر از قدرت توقف تحت تأثیر قرار نخواهند گرفت.</StoppingPowerExplanation>
+  <!-- EN: Direct hit chance -->
+  <DirectHitChance>شانس برخورد مستقیم</DirectHitChance>
+  <!-- EN: Miss radius -->
+  <MissRadius>شعاع خطا</MissRadius>
+  <!-- EN: Grows wild -->
+  <GrowsWild>وحشی رشد می‌کند</GrowsWild>
+  <!-- EN: Harvestable -->
+  <Harvestable>قابل برداشت</Harvestable>
+  <!-- EN: Limited lifespan -->
+  <LimitedLifespan>عمر محدود</LimitedLifespan>
+  <!-- EN: Growing time -->
+  <GrowingTime>زمان رشد</GrowingTime>
+  <!-- EN: Harvest yield -->
+  <HarvestYield>بازده برداشت</HarvestYield>
+  <!-- EN: Min growth temperature -->
+  <MinGrowthTemperature>حداقل دمای رشد</MinGrowthTemperature>
+  <!-- EN: Max growth temperature -->
+  <MaxGrowthTemperature>حداکثر دمای رشد</MaxGrowthTemperature>
+  <!-- EN: Plants only grow for part of the day, and only when lit.\n\nThis statistic measures the time the plant needs to spend actually growing to reach full size.\n\nThe actual real growing time will generally be about twice as long.\nLow temperatures also slow plant growth. -->
+  <GrowingTimeDesc>گیاهان فقط بخشی از روز و فقط زمانی که روشن هستند رشد می‌کنند.\n\nاین آمار زمان لازم برای رشد واقعی گیاه برای رسیدن به اندازه کامل را اندازه‌گیری می‌کند.\nزمان واقعی رشد معمولاً حدود دو برابر طولانی‌تر خواهد بود.\nدمای پایین نیز رشد گیاه را کند می‌کند.</GrowingTimeDesc>
+  <!-- EN: days -->
+  <Days>روز</Days>
+  <!-- EN: Minimum growing skill to sow -->
+  <MinGrowingSkillToSow>حداقل مهارت رشد برای کاشت</MinGrowingSkillToSow>
+  <!-- EN: Fertility requirement -->
+  <FertilityRequirement>نیاز به باروری</FertilityRequirement>
+  <!-- EN: Fertility sensitivity -->
+  <FertilitySensitivity>حساسیت به باروری</FertilitySensitivity>
+  <!-- EN: Light requirement -->
+  <LightRequirement>نیاز به نور</LightRequirement>
+  <!-- EN: Attributes -->
+  <Attributes>ویژگی‌ها</Attributes>
+  <!-- EN: Lifespan -->
+  <LifeSpan>طول عمر</LifeSpan>
+  <!-- EN: Nutrition -->
+  <Nutrition>تغذیه</Nutrition>
+  <!-- EN: Recreation -->
+  <Joy>تفریح</Joy>
+  <!-- EN: Food quality -->
+  <FoodQuality>کیفیت غذا</FoodQuality>
+  <!-- EN: Walk speed -->
+  <WalkSpeedProperty>سرعت راه رفتن</WalkSpeedProperty>
+  <!-- EN: Min. food quality -->
+  <MinFoodQuality>حداقل کیفیت غذا</MinFoodQuality>
+  <!-- EN: Diet -->
+  <Diet>رژیم غذایی</Diet>
+  <!-- EN: Nutrition need per day -->
+  <NutritationEatenPerDay>نیاز به تغذیه در روز</NutritationEatenPerDay>
+  <!-- EN: Leather type -->
+  <LeatherType>نوع چرم</LeatherType>
+  <!-- EN: Body size -->
+  <BodySize>اندازه بدن</BodySize>
+  <!-- EN: Growth -->
+  <Growth>رشد</Growth>
+  <!-- EN: Recruit difficulty -->
+  <RecruitDifficulty>سختی استخدام</RecruitDifficulty>
+  <!-- EN: Base price -->
+  <MarketValue>قیمت پایه</MarketValue>
+  <!-- EN: Covers -->
+  <Covers>پوشش می‌دهد</Covers>
+  <!-- EN: Created at -->
+  <CreatedAt>ساخته شده در</CreatedAt>
+  <!-- EN: Layer -->
+  <Layer>لایه</Layer>
+  <!-- EN: Cover effectiveness -->
+  <CoverEffectiveness>اثربخشی پوشش</CoverEffectiveness>
+  <!-- EN: How effective this is when used as cover in a gunfight.\n\nHigher percentages will block more shots. -->
+  <CoverEffectivenessExplanation>این چقدر در هنگام استفاده به عنوان پوشش در تیراندازی مؤثر است.\n\nدرصدهای بالاتر شلیک‌های بیشتری را مسدود می‌کنند.</CoverEffectivenessExplanation>
+  <!-- EN: Experience gain factor -->
+  <MedicineXpGainFactor>ضریب کسب تجربه</MedicineXpGainFactor>
+  <!-- EN: Mood change -->
+  <MoodChange>تغییر حالت روحی</MoodChange>
+  <!-- EN: Wildness -->
+  <Wildness>وحشی بودن</Wildness>
+  <!-- EN: Wilder creatures are naturally more difficult to tame, train, and handle. -->
+  <WildnessExplanation>موجودات وحشی‌تر به طور طبیعی برای اهلی کردن، آموزش و کنترل سخت‌تر هستند.</WildnessExplanation>
+  <!-- EN: Training decay interval -->
+  <TrainingDecayInterval>فاصله زمانی کاهش آموزش</TrainingDecayInterval>
+  <!-- EN: Tameness will never decay for animals of very low wildness. -->
+  <TamenessWillNotDecay>اهلی بودن هرگز برای حیوانات با وحشی بودن بسیار کم کاهش نمی‌یابد.</TamenessWillNotDecay>
+  <!-- EN: Tameness will never decay for animals that can be kept behind fences. -->
+  <TamenessWillNotDecayFenceBlocked>اهلی بودن هرگز برای حیواناتی که می‌توان پشت حصار نگه داشت کاهش نمی‌یابد.</TamenessWillNotDecayFenceBlocked>
+  <!-- EN: Time -->
+  <TimeRecordsCategory>زمان</TimeRecordsCategory>
+  <!-- EN: Misc -->
+  <MiscRecordsCategory>متفرقه</MiscRecordsCategory>
+  <!-- EN: Chemical -->
+  <Chemical>شیمیایی</Chemical>
+  <!-- EN: High gain per dose -->
+  <HighGain>افزایش زیاد در هر دوز</HighGain>
+  <!-- EN: High fall rate -->
+  <HighFallRate>نرخ کاهش زیاد</HighFallRate>
+  <!-- EN: High duration per dose -->
+  <HighDuration>مدت زمان زیاد در هر دوز</HighDuration>
+  <!-- EN: Tolerance gain per dose -->
+  <ToleranceGain>افزایش تحمل در هر دوز</ToleranceGain>
+  <!-- EN: Tolerance fall rate -->
+  <ToleranceFallRate>نرخ کاهش تحمل</ToleranceFallRate>
+  <!-- EN: New addiction min tolerance -->
+  <MinimumToleranceForAddiction>حداقل تحمل برای اعتیاد جدید</MinimumToleranceForAddiction>
+  <!-- EN: Safe dose interval for adults -->
+  <SafeDoseInterval>فاصله دوز ایمن برای بزرگسالان</SafeDoseInterval>
+  <!-- EN: age {0}-{1} -->
+  <AgeXToY>سن {0}-{1}</AgeXToY>
+  <!-- EN: age {0}+ -->
+  <AgePlus>سن {0}+</AgePlus>
+  <!-- EN: New addiction chance -->
+  <Addictiveness>شانس اعتیاد جدید</Addictiveness>
+  <!-- EN: Addiction initial severity -->
+  <AddictionSeverityInitial>شدت اولیه اعتیاد</AddictionSeverityInitial>
+  <!-- EN: Addiction severity per dose -->
+  <AddictionSeverityPerDose>شدت اعتیاد در هر دوز</AddictionSeverityPerDose>
+  <!-- EN: Addiction need fill per dose -->
+  <AddictionNeedOffset>پر کردن نیاز اعتیاد در هر دوز</AddictionNeedOffset>
+  <!-- EN: Addiction need fall rate -->
+  <AddictionNeedFallRate>نرخ کاهش نیاز اعتیاد</AddictionNeedFallRate>
+  <!-- EN: Addiction need dose interval -->
+  <AddictionNeedDoseInterval>فاصله دوز نیاز اعتیاد</AddictionNeedDoseInterval>
+  <!-- EN: Addiction recovery time -->
+  <AddictionRecoveryTime>زمان بهبودی اعتیاد</AddictionRecoveryTime>
+  <!-- EN: Addiction cost -->
+  <AddictionCost>هزینه اعتیاد</AddictionCost>
+  <!-- EN: Random overdose chance -->
+  <RandomODChance>شانس اوردوز تصادفی</RandomODChance>
+  <!-- EN: Always safe -->
+  <AlwaysSafe>همیشه ایمن</AlwaysSafe>
+  <!-- EN: Never safe -->
+  <NeverSafe>هرگز ایمن نیست</NeverSafe>
+  <!-- EN: {0} / day -->
+  <PerDay>{0} / روز</PerDay>
+  <!-- EN: {0} / hour -->
+  <PerHour>{0} / ساعت</PerHour>
+  <!-- EN: {0} XP / hour -->
+  <XpPerHour>{0} XP / ساعت</XpPerHour>
+  <!-- EN: Pack animal -->
+  <PackAnimal>حیوان بارکش</PackAnimal>
+  <!-- EN: Whether this animal is appropriate to use to carry items in a caravan over long distances. -->
+  <PackAnimalExplanation>آیا این حیوان برای حمل اقلام در کاروان در مسافت‌های طولانی مناسب است یا خیر.</PackAnimalExplanation>
+  <!-- EN: Skill -->
+  <Skill>مهارت</Skill>
+  <!-- EN: Success rate multiplier -->
+  <SurgerySuccessChanceFactor>ضریب نرخ موفقیت</SurgerySuccessChanceFactor>
+  <!-- EN: Death chance on fail -->
+  <SurgeryDeathOnFailChance>شانس مرگ در صورت شکست</SurgeryDeathOnFailChance>
+  <!-- EN: Work speed governed by -->
+  <WorkSpeedStat>سرعت کار توسط</WorkSpeedStat>
+  <!-- EN: Output quantity governed by -->
+  <EfficiencyStat>مقدار خروجی توسط</EfficiencyStat>
+  <!-- EN: {0} skill required -->
+  <SkillRequiredToBuild>مهارت {0} مورد نیاز</SkillRequiredToBuild>
+  <!-- EN: Requires this level of {0} in order to build. -->
+  <SkillRequiredToBuildExplanation>برای ساختن به این سطح از {0} نیاز دارد.</SkillRequiredToBuildExplanation>
+  <!-- EN: Nuzzle interval -->
+  <NuzzleInterval>فاصله زمانی نوازش</NuzzleInterval>
+  <!-- EN: How often an animal will nuzzle friendly colonists, on average.\n\nNuzzling is a behavior shared by many animal species, where the animal presses its nose or muzzle against a friend as a sign of affection.\nMost humans find this cute and it will leave them in a good mood for a period of time. -->
+  <NuzzleIntervalExplanation>به طور متوسط هر چند وقت یک بار حیوان مهاجران دوستانه را نوازش می‌کند.\n\nنوازش رفتاری است که بسیاری از گونه‌های حیوانی در آن بینی یا پوزه خود را به دوست فشار می‌دهند به نشانه محبت.\nبیشتر انسان‌ها این را بامزه می‌دانند و برای مدتی آنها را در حالت روحی خوبی قرار می‌دهد.</NuzzleIntervalExplanation>
+  <!-- EN: Revenge chance on harm -->
+  <HarmedRevengeChance>شانس انتقام در صورت آسیب</HarmedRevengeChance>
+  <!-- EN: The chance this creature will attack when harmed.\n\nThis chance increases up to three times if the attacker is closer.\n\nThis chance is applied each time damage is taken. This means that slower-firing, higher-damage weapons are less likely to trigger it while hunting. -->
+  <HarmedRevengeChanceExplanation>شانس حمله این موجود در صورت آسیب دیدن.\n\nاین شانس تا سه برابر افزایش می‌یابد اگر مهاجم نزدیکتر باشد.\n\nاین شانس هر بار که آسیب وارد می‌شود اعمال می‌شود. این بدان معناست که سلاح‌های با نرخ آتش کمتر و آسیب بیشتر در هنگام شکار کمتر احتمال دارد آن را فعال کنند.</HarmedRevengeChanceExplanation>
+  <!-- EN: Revenge chance on tame fail -->
+  <TameFailedRevengeChance>شانس انتقام در صورت شکست اهلی کردن</TameFailedRevengeChance>
+  <!-- EN: Terrain requirement -->
+  <TerrainRequirement>نیاز به زمین</TerrainRequirement>
+  <!-- EN: Supports -->
+  <Supports>پشتیبانی می‌کند</Supports>
+  <!-- EN: Trap armor penetration -->
+  <TrapArmorPenetration>نفوذ زره تله</TrapArmorPenetration>
+  <!-- EN: Rearm cost -->
+  <RearmCost>هزینه مسلح کردن مجدد</RearmCost>
+  <!-- EN: Resources needed to rearm this turret -->
+  <RearmCostExplanation>منابع مورد نیاز برای مسلح کردن مجدد این برجک</RearmCostExplanation>
+  <!-- EN: affected by difficulty -->
+  <RearmCostExplanationDifficulty>تحت تأثیر سختی</RearmCostExplanationDifficulty>
+  <!-- EN: Shots before rearm -->
+  <ShotsBeforeRearm>شلیک قبل از مسلح کردن مجدد</ShotsBeforeRearm>
+  <!-- EN: How many shots this turret can fire before it has to be rearmed. -->
+  <ShotsBeforeRearmExplanation>تعداد شلیک‌هایی که این برجک می‌تواند قبل از نیاز به مسلح کردن مجدد انجام دهد.</ShotsBeforeRearmExplanation>
+  <!-- EN: Power consumption -->
+  <PowerConsumption>مصرف برق</PowerConsumption>
+  <!-- EN: Target -->
+  <Target>هدف</Target>
+  <!-- EN: The types of targets on which this ability can be used. -->
+  <AbilityTargetDesc>انواع اهدافی که این توانایی می‌تواند روی آنها استفاده شود.</AbilityTargetDesc>
+  <!-- EN: human -->
+  <TargetHuman>انسان</TargetHuman>
+  <!-- EN: animal -->
+  <TargetAnimal>حیوان</TargetAnimal>
+  <!-- EN: self -->
+  <TargetSelf>خود</TargetSelf>
+  <!-- EN: ground -->
+  <TargetGround>زمین</TargetGround>
+  <!-- EN: Click to learn more. -->
+  <ClickToLearnMore>برای یادگیری بیشتر کلیک کنید.</ClickToLearnMore>
+  <!-- EN: Click to view factions. -->
+  <ClickToViewFactions>برای مشاهده جناح‌ها کلیک کنید.</ClickToViewFactions>
+  <!-- EN: meditation focus types -->
+  <MeditationFocuses>انواع تمرکز مدیتیشن</MeditationFocuses>
+  <!-- EN: Unlocks meditation focus types -->
+  <MeditationFocusesUnlocked>انواع تمرکز مدیتیشن را باز می‌کند</MeditationFocusesUnlocked>
+  <!-- EN: The types of meditation focus this person can use. When meditating, a person can focus on an object to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on. -->
+  <MeditationFocusesPawnDesc>انواع تمرکز مدیتیشن که این شخص می‌تواند استفاده کند. هنگام مدیتیشن، یک شخص می‌تواند روی یک شیء تمرکز کند تا افزایش سای‌فوکوس خود را افزایش دهد - اما فقط اگر آن شیء نوع تمرکزی را ارائه دهد که آنها می‌توانند استفاده کنند. انواع مدیتیشن هر شخص توسط پیشینه، ویژگی‌ها، موقعیت اجتماعی و غیره تعیین می‌شود.</MeditationFocusesPawnDesc>
+  <!-- EN: The types of meditation focus this object offers. A meditating person can focus on this object to boost their psyfocus gain, but only if they are able to use one of its meditation types. Each person can use different meditation types depending on their background, traits, social position, and so on. -->
+  <MeditationFocusesDesc>انواع تمرکز مدیتیشن که این شیء ارائه می‌دهد. یک شخص در حال مدیتیشن می‌تواند روی این شیء تمرکز کند تا افزایش سای‌فوکوس خود را افزایش دهد، اما فقط اگر بتواند از یکی از انواع مدیتیشن آن استفاده کند. هر شخص می‌تواند بسته به پیشینه، ویژگی‌ها، موقعیت اجتماعی و غیره از انواع مختلف مدیتیشن استفاده کند.</MeditationFocusesDesc>
+  <!-- EN: Can use {0} focus type because -->
+  <MeditationFocusCanUse>می‌تواند از نوع تمرکز {0} استفاده کند زیرا</MeditationFocusCanUse>
+  <!-- EN: {0} focus objects -->
+  <MeditationFocusObjects>اشیاء تمرکز {0}</MeditationFocusObjects>
+  <!-- EN: holds title: {TITLE} ({FACTION_name}). -->
+  <MeditationFocusEnabledByTitle>دارای عنوان: {TITLE} ({FACTION_name}).</MeditationFocusEnabledByTitle>
+  <!-- EN: has childhood -->
+  <MeditationFocusEnabledByChildhood>دارای پیشینه کودکی</MeditationFocusEnabledByChildhood>
+  <!-- EN: has adulthood -->
+  <MeditationFocusEnabledByAdulthood>دارای پیشینه بزرگسالی</MeditationFocusEnabledByAdulthood>
+  <!-- EN: has trait -->
+  <MeditationFocusEnabledByTrait>دارای ویژگی</MeditationFocusEnabledByTrait>
+  <!-- EN: has health condition -->
+  <MeditationFocusEnabledByHediff>دارای وضعیت سلامتی</MeditationFocusEnabledByHediff> 
+  <!-- EN: does not have trait -->
+  <MeditationFocusDisabledByTrait>فاقد ویژگی</MeditationFocusDisabledByTrait>
+  <!-- EN: Enables meditation focus types -->
+  <EnablesMeditationFocusType>انواع تمرکز مدیتیشن را فعال می‌کند</EnablesMeditationFocusType>
+  
+  <!-- Trade -->
+  <!-- EN: Positive numbers buy.\nNegative numbers sell. -->
+  <PositiveBuysNegativeSells>اعداد مثبت خرید هستند.\nاعداد منفی فروش هستند.</PositiveBuysNegativeSells>
+  <!-- EN: Price you pay to buy this. -->
+  <BuyPriceDesc>قیمتی که برای خرید این می‌پردازید.</BuyPriceDesc>
+  <!-- EN: Price you receive for selling this. -->
+  <SellPriceDesc>قیمتی که برای فروش این دریافت می‌کنید.</SellPriceDesc>
+  <!-- EN: For this item, this price is {0}. -->
+  <PriceTypeDesc>برای این آیتم، این قیمت {0} است.</PriceTypeDesc>
+  <!-- EN: How many of this item the colony has ready to trade.\n\nYou can only sell items to orbital traders if they are near an orbital trade beacon. -->
+  <ColonyCount>تعداد این آیتم که کلونی برای تجارت آماده دارد.\n\nشما فقط می‌توانید اقلام را به تاجران مداری بفروشید اگر نزدیک یک فانوس تجاری مداری باشند.</ColonyCount>
+  <!-- EN: How many of this item the trader has to trade. -->
+  <TraderCount>تعداد این آیتم که تاجر برای تجارت دارد.</TraderCount>
+  <!-- EN: Accept -->
+  <AcceptButton>پذیرش</AcceptButton>
+  <!-- EN: Load selected -->
+  <LoadSelected>بارگیری انتخاب شده</LoadSelected>
+  <!-- EN: Reset -->
+  <ResetButton>بازنشانی</ResetButton>
+  <!-- EN: Cancel -->
+  <CancelButton>لغو</CancelButton>
+  <!-- EN: Close -->
+  <CloseButton>بستن</CloseButton>
+  <!-- EN: Your tradeable silver: {0} -->
+  <YourTradeableSilver>نقره قابل تجارت شما: {0}</YourTradeableSilver>
+  <!-- EN: You can only trade with silver that is near an orbital trade beacon and not under a roof. -->
+  <YourTradeableSilverTip>شما فقط می‌توانید با نقره‌ای تجارت کنید که نزدیک یک فانوس تجاری مداری باشد و زیر سقف نباشد.</YourTradeableSilverTip>
+  <!-- EN: Trader has no more. -->
+  <TraderHasNoMore>تاجر بیشتر ندارد.</TraderHasNoMore>
+  <!-- EN: No more to sell. -->
+  <ColonyHasNoMore>بیشتر برای فروش نیست.</ColonyHasNoMore>
+  <!-- EN: Trader is not willing to buy this. -->
+  <TraderWillNotTrade>تاجر مایل به خرید این نیست.</TraderWillNotTrade>
+  <!-- EN: Negotiator -->
+  <Negotiator>مذاکره‌کننده</Negotiator>
+  <!-- EN: Negotiator: {0} (+{1}) -->
+  <NegotiatorTradeDialogInfo>مذاکره‌کننده: {0} (+{1})</NegotiatorTradeDialogInfo>
+  <!-- EN: Your negotiator {1_labelShort} cannot talk properly because of poor health. -->
+  <NegotiatorTalkingImpaired>مذاکره‌کننده شما {1_labelShort} به دلیل سلامتی ضعیف نمی‌تواند به درستی صحبت کند.</NegotiatorTalkingImpaired>
+  <!-- EN: Your negotiator {1_labelShort} cannot hear properly because of poor health. -->
+  <NegotiatorHearingImpaired>مذاکره‌کننده شما {1_labelShort} به دلیل سلامتی ضعیف نمی‌تواند به درستی بشنود.</NegotiatorHearingImpaired>
+  <!-- EN: This will affect trade prices.\n\nConsider using a healthier negotiator. -->
+  <NegotiatorCapacityImpaired>این بر قیمت‌های تجارت تأثیر خواهد گذاشت.\n\nاستفاده از یک مذاکره‌کننده سالم‌تر را در نظر بگیرید.</NegotiatorCapacityImpaired>
+  <!-- EN: Trader has insufficient silver to fully cover this transaction.  Proceed anyways? -->
+  <ConfirmTraderShortFunds>تاجر نقره کافی برای پوشش کامل این معامله ندارد. به هر حال ادامه می‌دهید؟</ConfirmTraderShortFunds>
+  <!-- EN: Sort by -->
+  <SortBy>مرتب‌سازی بر اساس</SortBy>
+  <!-- EN: trader type -->
+  <TraderTypePrice>نوع تاجر</TraderTypePrice>
+  <!-- EN: selling -->
+  <Selling>فروش</Selling>
+  <!-- EN: buying -->
+  <Buying>خرید</Buying>
+  <!-- EN: item sell price multiplier -->
+  <ItemSellPriceFactor>ضریب قیمت فروش آیتم</ItemSellPriceFactor>
+  <!-- EN: difficulty level -->
+  <DifficultyLevel>سطح سختی</DifficultyLevel>
+  <!-- EN: global post-process curve -->
+  <PostCurve>منحنی پس‌پردازش جهانی</PostCurve>
+  <!-- EN: Your negotiator bonus -->
+  <YourNegotiatorBonus>پاداش مذاکره‌کننده شما</YourNegotiatorBonus>
+  <!-- EN: Trading with faction base bonus -->
+  <TradeWithFactionBaseBonus>پاداش تجارت با پایگاه جناح</TradeWithFactionBaseBonus>
+  <!-- EN: Joins as slave -->
+  <JoinsAsSlave>به عنوان برده می‌پیوندد</JoinsAsSlave>
+  <!-- EN: Joins as colonist -->
+  <JoinsAsColonist>به عنوان مهاجر می‌پیوندد</JoinsAsColonist>
+  <!-- EN: If purchased, this person will join your colony as a slave. -->
+  <JoinsAsSlaveDesc>در صورت خرید، این شخص به عنوان برده به کلونی شما خواهد پیوست.</JoinsAsSlaveDesc> <!--  -->
+  <!-- EN: If purchased, this person will join your colony as a colonist. -->
+  <JoinsAsColonistDesc>در صورت خرید، این شخص به عنوان مهاجر به کلونی شما خواهد پیوست.</JoinsAsColonistDesc>
+  <!-- EN: Trading drugs bonus -->
+  <TradingDrugsBonus>پاداش تجارت مواد مخدر</TradingDrugsBonus>
+  <!-- EN: minimum -->
+  <minimum>حداقل</minimum>
+  <!-- EN: Final price -->
+  <FinalPrice>قیمت نهایی</FinalPrice>
+  <!-- EN: Gift mode - offer gifts to {0}. -->
+  <GiftModeTip>حالت هدیه - پیشنهاد هدایا به {0}.</GiftModeTip>
+  <!-- EN: Return to trade mode. -->
+  <TradeModeTip>بازگشت به حالت تجارت.</TradeModeTip>
+  <!-- EN: {FACTION_name} is not willing to send a caravan because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
+  <TradeCaravanRequestDeniedDueTitle>{FACTION_name} مایل به ارسال کاروان نیست زیرا {NEGOTIATOR_nameDef} فاقد عنوان مورد نیاز {TITLE} است.</TradeCaravanRequestDeniedDueTitle>
+  <!-- EN: {FACTION_name} is not willing to send an orbital trader because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
+  <OrbitalTradeRequestDeniedDueTitle>TODO</OrbitalTradeRequestDeniedDueTitle>
+
+  <!-- Sellable items -->
+  <!-- EN: Things this trader will buy -->
+  <SellableItemsTitle>چیزهایی که این تاجر خواهد خرید</SellableItemsTitle>
+  <!-- EN: Never visited - stock unknown -->
+  <TraderNotVisitedYet>هرگز بازدید نشده - موجودی نامعلوم</TraderNotVisitedYet>
+  <!-- EN: Restocked since your last visit -->
+  <TraderRestockedSinceLastVisit>موجودی از آخرین بازدید شما دوباره پر شده است</TraderRestockedSinceLastVisit>
+  <!-- EN: Next restock: {0} days -->
+  <NextTraderRestock>بازپروری بعدی: {0} روز</NextTraderRestock>
+  <!-- EN: Creatures -->
+  <PawnsTabShort>موجودات</PawnsTabShort>
+  
+  <!-- Select caravan settlement -->
+  <!-- EN: Select colony to send caravan -->
+  <SelectCaravanOrigin>انتخاب کلونی برای ارسال کاروان</SelectCaravanOrigin> 
+  <!-- EN: Send a caravan from {0}. -->
+  <SelectCaravanDesc>ارسال کاروان از {0}.</SelectCaravanDesc> 
+  <!-- EN: Colonists -->
+  <SelectCaravanColonists>مهاجران</SelectCaravanColonists>
+  
+  <!-- Form caravan -->
+  <!-- EN: Form caravan -->
+  <FormCaravan>تشکیل کاروان</FormCaravan>
+  <!-- EN: Send -->
+  <Send>ارسال</Send>
+  <!-- EN: Number available to send with the caravan. -->
+  <FormCaravanColonyThingCountTip>تعداد موجود برای ارسال با کاروان.</FormCaravanColonyThingCountTip>
+  <!-- EN: Number available to transport. -->
+  <TransporterColonyThingCountTip>TODO</TransporterColonyThingCountTip>
+  <!-- EN: Number available to transfer. -->
+  <TransferMapPortalColonyThingCountTip>TODO</TransferMapPortalColonyThingCountTip>
+  <!-- EN: People and animals -->
+  <PawnsTab>افراد و حیوانات</PawnsTab>
+  <!-- EN: Items -->
+  <ItemsTab>اقلام</ItemsTab>
+  <!-- EN: Travel supplies -->
+  <TravelSupplies>تدارکات سفر</TravelSupplies>
+  <!-- EN: You must assign at least one non-downed colonist. -->
+  <CaravanMustHaveAtLeastOneColonist>شما باید حداقل یک مهاجر غیر زخمی را اختصاص دهید.</CaravanMustHaveAtLeastOneColonist>
+  <!-- EN: The chosen exit location ({0}) is inaccessible. -->
+  <CaravanCouldNotFindExitSpot>مکان خروج انتخاب شده ({0}) غیرقابل دسترسی است.</CaravanCouldNotFindExitSpot>
+  <!-- EN: Could not find any valid packing spot. Make sure that the chosen exit location ({0}) is accessible. -->
+  <CaravanCouldNotFindPackingSpot>هیچ نقطه بسته‌بندی معتبری یافت نشد. اطمینان حاصل کنید که مکان خروج انتخاب شده ({0}) قابل دسترسی است.</CaravanCouldNotFindPackingSpot>
+  <!-- EN: Warning: Some of the assigned colonists are unable to reach the exit location ({0}). -->
+  <CaravanCouldNotFindReachableExitSpot>هشدار: برخی از مهاجران اختصاص داده شده قادر به رسیدن به مکان خروج ({0}) نیستند.</CaravanCouldNotFindReachableExitSpot>
+  <!-- EN: {1_labelShort} is unable to reach the packing spot or the exit location when led by any of the assigned colonists. -->
+  <CaravanRoamerCannotReachSpots>{1_labelShort} قادر به رسیدن به نقطه بسته‌بندی یا مکان خروج نیست زمانی که توسط هر یک از مهاجران اختصاص داده شده هدایت می‌شود.</CaravanRoamerCannotReachSpots>
+  <!-- EN: None of the assigned colonists are able to reach the {0}. -->
+  <CaravanItemIsUnreachableSingle>هیچ یک از مهاجران اختصاص داده شده قادر به رسیدن به {0} نیستند.</CaravanItemIsUnreachableSingle>
+  <!-- EN: None of the assigned colonists are able to reach {0}x {1}. -->
+  <CaravanItemIsUnreachableMulti>هیچ یک از مهاجران اختصاص داده شده قادر به رسیدن به {0}x {1} نیستند.</CaravanItemIsUnreachableMulti>
+  <!-- EN: The caravan can't carry that much. -->
+  <TooBigCaravanMassUsage>کاروان نمی‌تواند این مقدار را حمل کند.</TooBigCaravanMassUsage>
+  <!-- EN: Includes carried items and equipped items. Carrying less than the maximum gives a speed bonus. -->
+  <CaravanMassUsageTooltip>شامل اقلام حمل شده و اقلام تجهیز شده است. حمل کمتر از حداکثر سرعت را افزایش می‌دهد.</CaravanMassUsageTooltip>
+  <!-- EN: Visibility is how easy your caravan is to notice.\n\nIt multiplies the chance that your caravan will be waylaid by enemies.\n\nVisibility does not affect your ability to find things you want.\n\nVisibility is based on the total body size of all people and animals in the caravan. -->
+  <CaravanVisibilityTip>دید به این معنی است که کاروان شما چقدر آسان قابل توجه است.\n\nاین شانس کمین کردن دشمنان را برای کاروان شما چند برابر می‌کند.\n\nدید بر توانایی شما در یافتن چیزهایی که می‌خواهید تأثیر نمی‌گذارد.\n\nدید بر اساس اندازه کلی بدن تمام افراد و حیوانات در کاروان است.</CaravanVisibilityTip>
+  <!-- EN: Days of food -->
+  <DaysWorthOfFood>روزهای غذا</DaysWorthOfFood>
+  <!-- EN: rot in {0} -->
+  <DaysWorthOfFoodInfoRot>فاسد شدن در {0}</DaysWorthOfFoodInfoRot>
+  <!-- EN: Unlimited -->
+  <InfiniteDaysWorthOfFoodInfo>نامحدود</InfiniteDaysWorthOfFoodInfo>
+  <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Current pawn inventory\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
+  <DaysWorthOfFoodTooltip>تعداد تقریبی روزهایی که قبل از اتمام غذای حداقل یک نفر یا حیوان باقی مانده است. گونه‌های مختلف رژیم‌های غذایی متفاوتی دارند، بنابراین ممکن است یکی قبل از دیگری غذا تمام کند. این مقدار پس از انتخاب مسیر دقیق‌تر محاسبه می‌شود.\n\nتحت تأثیر:\n  - موجودی فعلی شخصیت\n  - نوع و مقدار غذای حمل شده\n  - اعضای کاروان و رژیم‌های غذایی آنها\n  - نرخ جستجوی غذا\n  - آیا حیوانات می‌توانند چرا کنند\n  - زمان تا فاسد شدن غذا\n  - هوای گرم غذا را سریع‌تر فاسد می‌کند</DaysWorthOfFoodTooltip>
+  <!-- EN: (only the first waypoint is taken into account) -->
+  <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>(فقط اولین نقطه مسیر در نظر گرفته می‌شود)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
+  <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
+  <DaysWorthOfFoodWarningDialog>کاروان شما فقط به اندازه {0} روز غذا دارد و به سرعت گرسنه خواهد شد.</DaysWorthOfFoodWarningDialog>
+  <!-- EN: Some peoples' diets don't allow most of the food in your caravan. If they're forced to eat it due to hunger, they will become unhappy. -->
+  <DaysWorthOfFoodDietWarningDialog>رژیم غذایی برخی افراد اجازه نمی‌دهد بیشتر غذای موجود در کاروان شما را بخورند. اگر به دلیل گرسنگی مجبور به خوردن آن شوند، ناراضی خواهند شد.</DaysWorthOfFoodDietWarningDialog>
+  <!-- EN: Your caravan has no food and will become hungry very quickly. -->
+  <DaysWorthOfFoodWarningDialog_NoFood>کاروان شما غذا ندارد و خیلی سریع گرسنه خواهد شد.</DaysWorthOfFoodWarningDialog_NoFood>
+  <!-- EN: The average amount of food per day your people will forage. This value will change as you travel across biomes with different forage yield rates. -->
+  <ForagedFoodPerDayTip>مقدار متوسط غذای روزانه که افراد شما جستجو خواهند کرد. این مقدار با سفر در بیوم‌های مختلف با نرخ بازده جستجوی متفاوت تغییر خواهد کرد.</ForagedFoodPerDayTip>
+  <!-- EN: Forage per day -->
+  <ForagedFoodPerDay>جستجو در روز</ForagedFoodPerDay>
+  <!-- EN: A large part of the caravan's food will rot soon. -->
+  <CaravanFoodWillRotSoonWarningDialog>بخش بزرگی از غذای کاروان به زودی فاسد خواهد شد.</CaravanFoodWillRotSoonWarningDialog>
+  <!-- EN: You have no caravan members capable of diplomacy or trading. -->
+  <CaravanIncapableOfSocial>شما هیچ عضو کاروانی ندارید که قادر به دیپلماسی یا تجارت باشد.</CaravanIncapableOfSocial>
+  <!-- EN: Are you sure you want to form this caravan? -->
+  <CaravanAreYouSure>آیا مطمئن هستید که می‌خواهید این کاروان را تشکیل دهید؟</CaravanAreYouSure>
+  <!-- EN: You must choose a route for the caravan first. -->
+  <MessageMustChooseRouteFirst>ابتدا باید مسیری برای کاروان انتخاب کنید.</MessageMustChooseRouteFirst>
+  <!-- EN: Your caravan is unable to leave the area. Make sure that at least one side is reachable. -->
+  <MessageNoValidExitTile>کاروان شما قادر به ترک منطقه نیست. اطمینان حاصل کنید که حداقل یک طرف قابل دسترسی است.</MessageNoValidExitTile>
+  <!-- EN: Weight of this item. -->
+  <ItemWeightTip>وزن این آیتم.</ItemWeightTip>
+  <!-- EN: Market value -->
+  <MarketValueTip>ارزش بازار</MarketValueTip>
+  <!-- EN: The number of days until this item starts to rot based on the average temperature in this area. -->
+  <DaysUntilRotTip>تعداد روزهایی که تا شروع فاسد شدن این آیتم بر اساس میانگین دمای این منطقه باقی مانده است.</DaysUntilRotTip>
+  <!-- EN: How much nutrition this food provides.\n\nFor reference: adult person needs {0} nutrition per day. -->
+  <ItemNutritionTip>این غذا چقدر تغذیه فراهم می‌کند.\n\nبرای مرجع: یک فرد بالغ در روز به {0} تغذیه نیاز دارد.</ItemNutritionTip>
+  <!-- EN: This animal can graze food from the environment instead of eating carried food. Grazing is only possible in some biomes and temperature ranges. -->
+  <AnimalCanGrazeTip>این حیوان می‌تواند به جای خوردن غذای حمل شده، از محیط غذا چرا کند. چرا فقط در برخی بیوم‌ها و محدوده‌های دمایی امکان‌پذیر است.</AnimalCanGrazeTip>
+  <!-- EN: Nutrition foraged per day. The actual amount foraged is also affected by biome forageability.\n\n{0} -->
+  <NutritionForagedPerDayTip>تغذیه جستجو شده در روز. مقدار واقعی جستجو شده نیز تحت تأثیر قابلیت جستجوی بیوم قرار می‌گیرد.\n\n{0}</NutritionForagedPerDayTip>
+  <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition. -->
+  <NutritionEatenPerDayTip>تغذیه خورده شده در روز. برای مرجع، غذاهای ساده {0} تغذیه دارند.</NutritionEatenPerDayTip>
+  <!-- EN: Can eat -->
+  <CanEat>می‌تواند بخورد</CanEat>
+  <!-- EN: Legend -->
+  <Legend>راهنما</Legend>
+  <!-- EN: Mass carried -->
+  <MassCarriedSimple>جرم حمل شده</MassCarriedSimple>
+  <!-- EN: Mass capacity -->
+  <MassCapacity>ظرفیت جرم</MassCapacity>
+  <!-- EN: Mass -->
+  <Mass>جرم</Mass>
+  <!-- EN: Caravan mass -->
+  <CaravanMass>جرم کاروان</CaravanMass>
+  <!-- EN: Equipment and apparel mass -->
+  <EquipmentAndApparelMass>جرم تجهیزات و لباس</EquipmentAndApparelMass>
+  <!-- EN: Inventory mass -->
+  <InventoryMass>جرم موجودی</InventoryMass>
+  <!-- EN: Your colonists will now gather the items and leave the area. -->
+  <CaravanFormationProcessStarted>مهاجران شما اکنون اقلام را جمع‌آوری کرده و منطقه را ترک خواهند کرد.</CaravanFormationProcessStarted>
+  <!-- EN: Reform caravan -->
+  <ReformCaravan>تشکیل مجدد کاروان</ReformCaravan>
+  <!-- EN: Colonists -->
+  <ColonistsSection>مهاجران</ColonistsSection>
+  <!-- EN: Prisoners -->
+  <PrisonersSection>زندانیان</PrisonersSection>
+  <!-- EN: Capture -->
+  <CaptureSection>دستگیری</CaptureSection>
+  <!-- EN: Animals -->
+  <AnimalsSection>حیوانات</AnimalsSection>
+  <!-- EN: Choose route -->
+  <ChooseRouteButton>انتخاب مسیر</ChooseRouteButton>
+  <!-- EN: Change route -->
+  <ChangeRouteButton>تغییر مسیر</ChangeRouteButton>
+  <!-- EN: Abandon -->
+  <AbandonButton>رها کردن</AbandonButton>
+  <!-- EN: Movement speed -->
+  <CaravanMovementSpeed>سرعت حرکت</CaravanMovementSpeed>
+  <!-- EN: tiles/day -->
+  <TilesPerDay>کاشی/روز</TilesPerDay>
+  <!-- EN: None - too heavy -->
+  <TilesPerDayImmobile>هیچ - خیلی سنگین</TilesPerDayImmobile>
+  <!-- EN: None -->
+  <TilesPerDayImmobileShort>هیچ</TilesPerDayImmobileShort>
+  <!-- EN: Movement speed depends on carried mass, ridden animals, and terrain movement difficulty. -->
+  <CaravanMovementSpeedTip>سرعت حرکت به جرم حمل شده، حیوانات سواری و سختی حرکت در زمین بستگی دارد.</CaravanMovementSpeedTip>
+  <!-- EN: Animals will be able to graze -->
+  <AnimalsWillBeAbleToGraze>حیوانات قادر به چرا خواهند بود</AnimalsWillBeAbleToGraze>
+  <!-- EN: Animals can graze -->
+  <AnimalsCanGraze>حیوانات می‌توانند چرا کنند</AnimalsCanGraze>
+  <!-- EN: (for {0} more days) -->
+  <PossibleToGrazeFor>(برای {0} روز دیگر)</PossibleToGrazeFor>
+  <!-- EN: (forever) -->
+  <PossibleToGrazeForever>(برای همیشه)</PossibleToGrazeForever>
+  <!-- EN: ({0}) -->
+  <CantGrazeBecauseOfBiome>({0})</CantGrazeBecauseOfBiome>
+  <!-- EN: (too cold for {0} more days) -->
+  <CantGrazeBecauseOfTemp>(خیلی سرد برای {0} روز دیگر)</CantGrazeBecauseOfTemp>
+  <!-- EN: Total nutrition -->
+  <TotalNutrition>کل تغذیه</TotalNutrition>
+  <!-- EN: Not moving -->
+  <CaravanNotMoving>در حال حرکت نیست</CaravanNotMoving>
+  <!-- EN: Foraged nutrition per day -->
+  <ForagedNutritionPerDay>تغذیه جستجو شده در روز</ForagedNutritionPerDay>
+  <!-- EN: Faction type -->
+  <FactionType>نوع جناح</FactionType>
+  <!-- EN: Total body size -->
+  <TotalBodySize>اندازه کلی بدن</TotalBodySize>
+  <!-- EN: Automatically select travel supplies -->
+  <AutomaticallySelectTravelSupplies>انتخاب خودکار تدارکات سفر</AutomaticallySelectTravelSupplies>
+  <!-- EN: This animal is sick. It is suffering from the following illnesses -->
+  <CaravanAnimalSick>این حیوان بیمار است. از بیماری‌های زیر رنج می‌برد</CaravanAnimalSick>
+
+  <!-- Split caravan -->
+  <!-- EN: Split caravan -->
+  <SplitCaravan>تقسیم کاروان</SplitCaravan>
+  <!-- EN: You must leave at least one non-downed colonist. -->
+  <SourceCaravanMustHaveAtLeastOneColonist>شما باید حداقل یک مهاجر غیر زخمی را ترک کنید.</SourceCaravanMustHaveAtLeastOneColonist>
+  <!-- EN: How many of this item the caravan has ready to give to the new caravan. -->
+  <SplitCaravanThingCountTip>تعداد این آیتم که کاروان برای دادن به کاروان جدید آماده دارد.</SplitCaravanThingCountTip>
+  
+  <!-- Caravan misc -->
+  <!-- EN: Are you sure you want to attack {0}?\n\nThis will make {1} hostile to you, and they will eventually start raiding your colony! -->
+  <ConfirmAttackFriendlyFaction>آیا مطمئن هستید که می‌خواهید به {0} حمله کنید؟\n\nاین باعث می‌شود {1} با شما دشمن شوند و در نهایت شروع به حمله به کلونی شما خواهند کرد!</ConfirmAttackFriendlyFaction>
+  
+  <!-- Load transporters -->
+  <!-- EN: Load {0} -->
+  <LoadTransporters>بارگیری {0}</LoadTransporters>
+  <!-- EN: The assigned people and items are too heavy for the transport pods. -->
+  <TooBigTransportersMassUsage>افراد و اقلام اختصاص داده شده برای کپسول‌های حمل و نقل خیلی سنگین هستند.</TooBigTransportersMassUsage>
+  <!-- EN: The assigned people and items are too heavy for the shuttle. -->
+  <TooBigTransporterSingleMassUsage>افراد و اقلام اختصاص داده شده برای شاتل خیلی سنگین هستند.</TooBigTransporterSingleMassUsage>
+  <!-- EN: You can't send empty transport pods. -->
+  <CantSendEmptyTransportPods>نمی‌توانید کپسول‌های حمل و نقل خالی را ارسال کنید.</CantSendEmptyTransportPods>
+  <!-- EN: You can't send empty shuttle. -->
+  <CantSendEmptyTransporterSingle>نمی‌توانید شاتل خالی را ارسال کنید.</CantSendEmptyTransporterSingle>
+  <!-- EN: {1_labelShort} can't reach the transport pods. -->
+  <PawnCantReachTransporters>{1_labelShort} نمی‌تواند به کپسول‌های حمل و نقل برسد.</PawnCantReachTransporters>
+  <!-- EN: {1_labelShort} can't reach the shuttle. -->
+  <PawnCantReachTransporterSingle>{1_labelShort} نمی‌تواند به شاتل برسد.</PawnCantReachTransporterSingle>
+  <!-- EN: There is no path between the transport pods and the {0}. -->
+  <TransporterItemIsUnreachableSingle>هیچ مسیری بین کپسول‌های حمل و نقل و {0} وجود ندارد.</TransporterItemIsUnreachableSingle>
+  <!-- EN: There is no path between the shuttle and the {0}. -->
+  <TransporterSingleItemIsUnreachableSingle>هیچ مسیری بین شاتل و {0} وجود ندارد.</TransporterSingleItemIsUnreachableSingle>
+  <!-- EN: There is no path between the transport pods and {0}x {1}. -->
+  <TransporterItemIsUnreachableMulti>هیچ مسیری بین کپسول‌های حمل و نقل و {0}x {1} وجود ندارد.</TransporterItemIsUnreachableMulti>
+  <!-- EN: There is no path between the shuttle and {0}x {1}. -->
+  <TransporterSingleItemIsUnreachableMulti>هیچ مسیری بین شاتل و {0}x {1} وجود ندارد.</TransporterSingleItemIsUnreachableMulti>
+  <!-- EN: Only {0} colonists maximum allowed. -->
+  <TransporterSingleTooManyColonists>حداکثر فقط {0} مهاجر مجاز است.</TransporterSingleTooManyColonists>
+  
+  <!-- Comms -->
+  <!-- EN: Social skill: {0} -->
+  <SocialSkillIs>مهارت اجتماعی: {0}</SocialSkillIs>
+  
+  <!--Research-->
+  <!-- EN: Research finished: {0} -->
+  <ResearchFinished>تحقیق به پایان رسید: {0}</ResearchFinished>
+  <!-- EN: Research Screen -->
+  <ResearchScreen>صفحه تحقیق</ResearchScreen>
+  <!-- EN: By researching {0} you have discovered the {1} research project. -->
+  <ResearchUnknownProjectRevealed>با تحقیق در مورد {0} پروژه تحقیقاتی {1} را کشف کرده‌اید.</ResearchUnknownProjectRevealed>
+  
+  <!--HistoryUpload-->
+  <!-- EN: Do you want to upload your gameplay data records to RimWorld server in order to help developers balance the game? If you agree, your data will be uploaded every {0} days (and in some other rare cases like the end of the game). Privacy preferences can be changed later in the options menu. -->
+  <HistoryUploadMessage>آیا می‌خواهید سوابق داده‌های گیم‌پلی خود را به سرور RimWorld آپلود کنید تا به توسعه‌دهندگان در تعادل بازی کمک کنید؟ اگر موافقت کنید، داده‌های شما هر {0} روز (و در برخی موارد نادر دیگر مانند پایان بازی) آپلود خواهد شد. تنظیمات حریم خصوصی را می‌توان بعداً در منوی گزینه‌ها تغییر داد.</HistoryUploadMessage>
+  <!-- EN: Even though history is sent anonymously, you can attach your name. -->
+  <HistoryUploadMessagePlayerName>حتی اگر تاریخچه به صورت ناشناس ارسال می‌شود، می‌توانید نام خود را ضمیمه کنید.</HistoryUploadMessagePlayerName>
+  <!-- EN: Allow uploading gameplay data -->
+  <HistoryUploadYes>اجازه آپلود داده‌های گیم‌پلی</HistoryUploadYes>
+  <!-- EN: Do not allow uploading gameplay data -->
+  <HistoryUploadNo>اجازه آپلود داده‌های گیم‌پلی را ندهید</HistoryUploadNo>
+  <!-- EN: Upload only this time -->
+  <HistoryUploadYesOnce>فقط این بار آپلود کن</HistoryUploadYesOnce>
+  <!-- EN: Do not upload this time, ask me later -->
+  <HistoryUploadNoOnce>این بار آپلود نکن، بعداً از من بپرس</HistoryUploadNoOnce>
+  
+  <!-- Policies -->
+  <!-- EN: Available policies -->
+  <AvailablePolicies>سیاست‌های موجود</AvailablePolicies>
+  <!-- EN: Unnamed -->
+  <UnnamedPolicy>بدون نام</UnnamedPolicy>
+  <!-- EN: New... -->
+  <NewPolicy>جدید...</NewPolicy>
+  <!-- EN: Invalid policy name -->
+  <InvalidName>نام سیاست نامعتبر است</InvalidName>
+  <!-- EN: Delete the selected policy. -->
+  <DeletePolicyTip>سیاست انتخاب شده را حذف کنید.</DeletePolicyTip>
+  <!-- EN: Create a duplicate of the selected policy. -->
+  <DuplicatePolicyTip>یک کپی از سیاست انتخاب شده ایجاد کنید.</DuplicatePolicyTip>
+  <!-- EN: Rename this policy. -->
+  <RenamePolicyTip>این سیاست را تغییر نام دهید.</RenamePolicyTip>
+  <!-- EN: Make this policy the default policy given to new colonists. -->
+  <DefaultPolicyTip>TODO</DefaultPolicyTip>
+  <!-- EN: Are you sure you want to delete the policy: {0}? -->
+  <DeletePolicyConfirm>آیا مطمئن هستید که می‌خواهید سیاست: {0} را حذف کنید؟</DeletePolicyConfirm>
+  <!-- EN: Delete -->
+  <DeletePolicyConfirmButton>حذف</DeletePolicyConfirmButton>
+  <!-- EN: No policy selected -->
+  <NoPolicySelected>هیچ سیاستی انتخاب نشده است</NoPolicySelected>
+  
+  <!-- Outfit management -->
+  <!-- EN: Apparel policies -->
+  <ApparelPolicyTitle>سیاست‌های لباس</ApparelPolicyTitle>
+  <!-- EN: Create and manage templates for controlling what apparel items colony members can wear. -->
+  <ApparelPolicyTip>قالب‌هایی برای کنترل اینکه اعضای کلونی چه اقلام لباسی می‌توانند بپوشند ایجاد و مدیریت کنید.</ApparelPolicyTip>
+  <!-- EN: Apparel policy -->
+  <ApparelPolicy>سیاست لباس</ApparelPolicy>
+  <!-- EN: Apparel policy is in use by {0}. -->
+  <OutfitInUse>سیاست لباس توسط {0} در حال استفاده است.</OutfitInUse>
+  
+  <!-- Drug policy management -->
+  <!-- EN: Drug policies -->
+  <DrugPolicyTitle>سیاست‌های دارو</DrugPolicyTitle>
+  <!-- EN: Create and manage templates for controlling which drugs your colonists are allowed to consume. -->
+  <DrugPolicyTip>قالب‌هایی برای کنترل اینکه مهاجران شما مجاز به مصرف چه داروهایی هستند ایجاد و مدیریت کنید.</DrugPolicyTip>
+  <!-- EN: Drug policy -->
+  <DrugPolicy>سیاست دارو</DrugPolicy>
+  <!-- EN: Drugs policy is in use by {0}. -->
+  <DrugPolicyInUse>سیاست دارو توسط {0} در حال استفاده است.</DrugPolicyInUse>
+  <!-- EN: Food restriction is in use by {0}. -->
+  <FoodRestrictionInUse>محدودیت غذا توسط {0} در حال استفاده است.</FoodRestrictionInUse>
+  <!-- EN: Add drug... -->
+  <AddDrug>افزودن دارو...</AddDrug>
+  <!-- EN: Drug -->
+  <DrugColumnLabel>دارو</DrugColumnLabel>
+  <!-- EN: Frequency -->
+  <FrequencyColumnLabel>تعداد دفعات</FrequencyColumnLabel>
+  <!-- EN: Only if mood below -->
+  <MoodThresholdColumnLabel>فقط اگر حالت روحی پایین‌تر از</MoodThresholdColumnLabel>
+  <!-- EN: Only if recreation below -->
+  <JoyThresholdColumnLabel>فقط اگر تفریح پایین‌تر از</JoyThresholdColumnLabel>
+  <!-- EN: Keep in inventory -->
+  <TakeToInventoryColumnLabel>در موجودی نگه دارید</TakeToInventoryColumnLabel>
+  <!-- EN: (no drugs) -->
+  <NoDrugsBrackets>(بدون دارو)</NoDrugsBrackets>
+  <!-- EN: Every day -->
+  <EveryDay>هر روز</EveryDay>
+  <!-- EN: {0} times per day -->
+  <TimesPerDay>{0} بار در روز</TimesPerDay>
+  <!-- EN: Every {0} days -->
+  <EveryDays>هر {0} روز</EveryDays>
+  <!-- EN: Any -->
+  <NoDrugUseRequirement>هر کدام</NoDrugUseRequirement>
+  <!-- EN: Delete this drug. -->
+  <DeleteDrugTooltip>این دارو را حذف کنید.</DeleteDrugTooltip>
+  <!-- EN: The name of a drug. -->
+  <DrugNameColumnDesc>نام یک دارو.</DrugNameColumnDesc>
+  <!-- EN: How often the colonists should try to take this drug. -->
+  <FrequencyColumnDesc>هر چند وقت یک بار مهاجران باید سعی کنند این دارو را مصرف کنند.</FrequencyColumnDesc>
+  <!-- EN: The colonists will take this drug only if their mood level is below this threshold. -->
+  <MoodThresholdColumnDesc>مهاجران این دارو را فقط در صورتی مصرف خواهند کرد که سطح حالت روحی آنها پایین‌تر از این آستانه باشد.</MoodThresholdColumnDesc>
+  <!-- EN: The colonists will take this drug only if their recreation level is below this threshold. -->
+  <JoyThresholdColumnDesc>مهاجران این دارو را فقط در صورتی مصرف خواهند کرد که سطح تفریح آنها پایین‌تر از این آستانه باشد.</JoyThresholdColumnDesc>
+  <!-- EN: An amount of the drug to pick up extra when gathering it for consumption, in order to avoid having to visit the drug stockpile every time. -->
+  <TakeToInventoryColumnDesc>مقداری از دارو را برای برداشتن اضافی هنگام جمع‌آوری برای مصرف، به منظور جلوگیری از نیاز به مراجعه به انبار دارو هر بار.</TakeToInventoryColumnDesc>
+  <!-- EN: For addictions\n\nUse this drug to feed already-established addiction needs.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
+  <DrugUsageTipForAddiction>برای اعتیادها\n\nاز این دارو برای تغذیه نیازهای اعتیاد از قبل ایجاد شده استفاده کنید.\n\nحتی اگر غیرفعال باشد، برخی شخصیت‌ها با ویژگی‌های خاص، یا در هنگام فروپاشی روانی، ممکن است به هر حال از دارو استفاده کنند.</DrugUsageTipForAddiction>
+  <!-- EN: For recreation\n\nUse this drug for recreation and social purposes.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
+  <DrugUsageTipForJoy>برای تفریح\n\nاز این دارو برای تفریح و اهداف اجتماعی استفاده کنید.\n\nحتی اگر غیرفعال باشد، برخی شخصیت‌ها با ویژگی‌های خاص، یا در هنگام فروپاشی روانی، ممکن است به هر حال از دارو استفاده کنند.</DrugUsageTipForJoy>
+  <!-- EN: Scheduled\n\nUse this drug on a defined schedule, when specific conditions are met. -->
+  <DrugUsageTipScheduled>برنامه‌ریزی شده\n\nاز این دارو بر اساس یک برنامه مشخص، زمانی که شرایط خاصی برآورده می‌شود، استفاده کنید.</DrugUsageTipScheduled>
+
+  <!-- Food restriction management -->
+  <!-- EN: Food policies -->
+  <FoodPolicyTitle>سیاست‌های غذا</FoodPolicyTitle>
+  <!-- EN: Create and manage templates for controlling what food items colony members can eat. -->
+  <FoodPolicyTip>قالب‌هایی برای کنترل اینکه اعضای کلونی چه اقلام غذایی می‌توانند بخورند ایجاد و مدیریت کنید.</FoodPolicyTip>
+  <!-- EN: Food policy -->
+  <FoodPolicy>سیاست غذا</FoodPolicy>
+  <!-- EN: Allow food -->
+  <AllowFood>اجازه غذا</AllowFood>
+  <!-- EN: Lavish -->
+  <FoodRestrictionLavish>مجلل</FoodRestrictionLavish>
+  <!-- EN: Fine -->
+  <FoodRestrictionFine>خوب</FoodRestrictionFine>
+  <!-- EN: Simple -->
+  <FoodRestrictionSimple>ساده</FoodRestrictionSimple>
+  <!-- EN: Paste -->
+  <FoodRestrictionPaste>خمیر</FoodRestrictionPaste>
+  <!-- EN: Raw -->
+  <FoodRestrictionRaw>خام</FoodRestrictionRaw>
+  <!-- EN: Nothing -->
+  <FoodRestrictionNothing>هیچ چیز</FoodRestrictionNothing>
+  
+  <!-- Reading management -->
+  <!-- EN: Reading policies -->
+  <ReadingPolicyTitle>سیاست‌های خواندن</ReadingPolicyTitle>
+  <!-- EN: Create and manage templates for controlling which books colony members are allowed to read. -->
+  <ReadingPolicyTip>قالب‌هایی برای کنترل اینکه اعضای کلونی مجاز به خواندن چه کتاب‌هایی هستند ایجاد و مدیریت کنید.</ReadingPolicyTip>
+  <!-- EN: Reading policy -->
+  <ReadingPolicy>سیاست خواندن</ReadingPolicy>
+  <!-- EN: Reading policy is in use. -->
+  <ReadingPolicyInUse>سیاست خواندن در حال استفاده است.</ReadingPolicyInUse>
+
+  <!-- EN: Anything -->
+  <AllReadingPolicy>هر چیزی</AllReadingPolicy>
+  <!-- EN: None -->
+  <NoneReadingPolicy>هیچ کدام</NoneReadingPolicy>
+  <!-- EN: Textbooks -->
+  <TextbookPolicy>کتاب‌های درسی</TextbookPolicy>
+  <!-- EN: Schematics -->
+  <SchematicPolicy>شماتیک‌ها</SchematicPolicy>
+  <!-- EN: Novels -->
+  <NovelPolicy>رمان‌ها</NovelPolicy>
+  <!-- EN: Maps -->
+  <MapPolicy>TODO</MapPolicy>
+
+  <!-- Medical settings -->
+  <!-- EN: Default medicine settings -->
+  <DefaultMedicineSettings>تنظیمات پیش‌فرض دارو</DefaultMedicineSettings>
+  <!-- EN: These medical settings are assigned to creatures when they first join a given group. You can manually assign a setting to an individual in their health tab.\n\nNote: If the creature joins a new group, they will always take the settings of that group, even if you previously assigned them a setting. -->
+  <DefaultMedicineSettingsDesc>این تنظیمات پزشکی به موجودات هنگام پیوستن به یک گروه مشخص اختصاص داده می‌شود. می‌توانید به صورت دستی یک تنظیم را در تب سلامتی آنها به یک فرد اختصاص دهید.\n\nتوجه: اگر موجود به گروه جدیدی بپیوندد، همیشه تنظیمات آن گروه را خواهد گرفت، حتی اگر قبلاً به آنها تنظیمی اختصاص داده باشید.</DefaultMedicineSettingsDesc>
+  
+  <!-- EN: Defaults -->
+  <MedGroupDefaults>پیش‌فرض‌ها</MedGroupDefaults>
+  
+  <!-- EN: Colonists -->
+  <MedGroupColonists>مهاجران</MedGroupColonists>
+  <!-- EN: Free members of your colony -->
+  <MedGroupColonistsDesc>اعضای آزاد کلونی شما</MedGroupColonistsDesc>
+  
+  <!-- EN: Prisoners -->
+  <MedGroupPrisoners>زندانیان</MedGroupPrisoners>
+  <!-- EN: Prisoners in your colony, regardless of faction. -->
+  <MedGroupPrisonersDesc>زندانیان در کلونی شما، صرف نظر از جناح.</MedGroupPrisonersDesc>
+
+  <!-- EN: Tamed animals -->
+  <MedGroupTamedAnimals>حیوانات اهلی شده</MedGroupTamedAnimals>
+  <!-- EN: Animals which have been tamed by your colony. -->
+  <MedGroupTamedAnimalsDesc>حیواناتی که توسط کلونی شما اهلی شده‌اند.</MedGroupTamedAnimalsDesc>
+
+  <!-- EN: Friendly faction members -->
+  <MedGroupFriendlyFaction>اعضای جناح دوستانه</MedGroupFriendlyFaction>
+  <!-- EN: Humans or animals who are part of a faction which is friendly with your faction (goodwill above 75). -->
+  <MedGroupFriendlyFactionDesc>انسان‌ها یا حیواناتی که بخشی از جناحی هستند که با جناح شما دوستانه است (حسن نیت بالای 75).</MedGroupFriendlyFactionDesc>
+  
+  <!-- EN: Neutral faction members -->
+  <MedGroupNeutralFaction>جناح بی‌طرف</MedGroupNeutralFaction>
+  <!-- EN: Humans or animals who are part of a faction which is neutral with your faction (between -75 and 75 goodwill). -->
+  <MedGroupNeutralFactionDesc>انسان‌ها یا حیواناتی که بخشی از جناحی هستند که با جناح شما بی‌طرف است (بین -75 و 75 حسن نیت).</MedGroupNeutralFactionDesc>
+
+  <!-- EN: Hostile faction members -->
+  <MedGroupHostileFaction>جناح متخاصم</MedGroupHostileFaction>
+  <!-- EN: Humans or animals who are part of a faction which is hostile with your faction (goodwill below -75). -->
+  <MedGroupHostileFactionDesc>انسان‌ها یا حیواناتی که بخشی از جناحی هستند که با جناح شما متخاصم است (حسن نیت زیر -75).</MedGroupHostileFactionDesc>
+
+  <!-- EN: Other humans -->
+  <MedGroupNoFaction>سایر انسان‌ها</MedGroupNoFaction>
+  <!-- EN: Humans who are not members of any faction. -->
+  <MedGroupNoFactionDesc>انسان‌هایی که عضو هیچ جناحی نیستند.</MedGroupNoFactionDesc>
+  
+  <!-- EN: Wildlife -->
+  <MedGroupWildlife>حیات وحش</MedGroupWildlife>
+  <!-- EN: Animals and other creatures which are not members of any faction. -->
+  <MedGroupWildlifeDesc>حیوانات و سایر موجوداتی که عضو هیچ جناحی نیستند.</MedGroupWildlifeDesc>
+
+  <!-- Growing -->
+  <!-- EN: {0} requires {1} skill in Growing to sow.\n\nNone of your non-downed growers have this skill, so this plant will not be sown. -->
+  <NoGrowerCanPlant>{0} requires {1} skill in Growing to sow.\n\nNone of your non-downed growers have this skill, so this plant will not be sown.</NoGrowerCanPlant>
+
+  <!-- Abandon home -->
+  <!-- EN: Some of your colonists or animals are in this area. Are you sure you want to abandon it?\n\nThe following people and animals will be left behind:\n\n{0} -->
+  <ConfirmAbandonHomeWithColonyPawns>Some of your colonists or animals are in this area. Are you sure you want to abandon it?\n\nThe following people and animals will be left behind:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+  <!-- EN: Abandoning {0} will cause the following people to get the following thoughts: -->
+  <ConfirmAbandonHomeNegativeThoughts>Abandoning {0} will cause the following people to get the following thoughts:</ConfirmAbandonHomeNegativeThoughts>
+  <!-- EN: Everyone: -->
+  <ConfirmAbandonHomeNegativeThoughts_Everyone>Everyone:</ConfirmAbandonHomeNegativeThoughts_Everyone>
+  
+  <!-- Move caravan and leave prisoners and animals behind -->
+  <!-- EN: Some animals or prisoners are trying to join this caravan. If you move it, they won't be able to anymore.\n\nAnimals, prisoners, and downed colonists left behind in a map without any non-downed colonists are considered abandoned and can be captured by the enemies.\n\nAre you sure you want to move your caravan? -->
+  <ConfirmMoveAutoJoinableCaravan>Some animals or prisoners are trying to join this caravan. If you move it, they won't be able to anymore.\n\nAnimals, prisoners, and downed colonists left behind in a map without any non-downed colonists are considered abandoned and can be captured by the enemies.\n\nAre you sure you want to move your caravan?</ConfirmMoveAutoJoinableCaravan>
+  
+  <!-- Abandon pawn -->
+  <!-- EN: Do you really want to banish {1_label}? -->
+  <ConfirmBanishPawnDialog>Do you really want to banish {1_label}?</ConfirmBanishPawnDialog>
+  <!-- EN: {1_labelShort} will most likely die. -->
+  <ConfirmBanishPawnDialog_LeftToDie>{1_labelShort} will most likely die.</ConfirmBanishPawnDialog_LeftToDie>
+  <!-- EN: {1_labelShort} will take the following items with {1_objective}: -->
+  <ConfirmBanishPawnDialog_Items>{1_labelShort} will take the following items with {1_objective}:</ConfirmBanishPawnDialog_Items>
+  <!-- EN: All colonists will get the following thoughts: -->
+  <ConfirmBanishPawnDialog_AllColonistsThoughts>All colonists will get the following thoughts:</ConfirmBanishPawnDialog_AllColonistsThoughts>
+  <!-- EN: Banishing {1_labelShort} will cause the following people to get the following thoughts: -->
+  <ConfirmBanishPawnDialog_IndividualThoughts>Banishing {1_labelShort} will cause the following people to get the following thoughts:</ConfirmBanishPawnDialog_IndividualThoughts>
+
+  <!-- Send transport pods which are not completely loaded -->
+  <!-- EN: The following still need to be loaded -->
+  <ConfirmSendNotCompletelyLoadedLaunchable>TODO</ConfirmSendNotCompletelyLoadedLaunchable>
+  <!-- EN: Launch anyway? -->
+  <ConfirmSendLaunchAnyway>TODO</ConfirmSendLaunchAnyway>
+
+  <!-- Settle near a faction base -->
+  <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days. -->
+  <ConfirmSettleNearFactionBase>Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.</ConfirmSettleNearFactionBase>
+  
+  <!-- Cleanup translation files -->
+  <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
+  <ConfirmCleanupTranslationFiles>Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool.</ConfirmCleanupTranslationFiles>
+  <!-- EN: Yes, I have a backup -->
+  <ConfirmCleanupTranslationFiles_Confirm>Yes, I have a backup</ConfirmCleanupTranslationFiles_Confirm>
+
+  <!-- Load transporters -->
+  <!-- EN: The caravan will be immobile if you launch to an empty tile. Continue anyway? -->
+  <TransportersCaravanWillBeImmobile>The caravan will be immobile if you launch to an empty tile. Continue anyway?</TransportersCaravanWillBeImmobile>
+
+  <!-- Confirm cancel monument marker -->
+  <!-- EN: Do you really want to remove this monument marker? -->
+  <ConfirmCancelMonumentMarker>Do you really want to remove this monument marker?</ConfirmCancelMonumentMarker>
+
+  <!-- Abilities -->
+  <!-- EN: Cannot use {0} -->
+  <CannotUseAbility>Cannot use {0}</CannotUseAbility>
+  <!-- EN: Line of sight required -->
+  <AbilityRequiresLOS>Line of sight required</AbilityRequiresLOS>
+  <!-- EN: Neural heat gain -->
+  <AbilityEntropyGain>Neural heat gain</AbilityEntropyGain>
+  <!-- EN: Psyfocus cost -->
+  <AbilityPsyfocusCost>Psyfocus cost</AbilityPsyfocusCost>
+  <!-- EN: Effect duration -->
+  <AbilityDuration>Effect duration</AbilityDuration>
+  <!-- EN: Effect radius -->
+  <AbilityEffectRadius>Effect radius</AbilityEffectRadius>
+  <!-- EN: Casting time -->
+  <AbilityCastingTime>Casting time</AbilityCastingTime>
+  <!-- EN: No line of sight to target. -->
+  <AbilityCannotHitTarget>No line of sight to target.</AbilityCannotHitTarget>
+  <!-- EN: Target is out of range. -->
+  <AbilityOutOfRange>Target is out of range.</AbilityOutOfRange>
+  <!-- EN: Can't reach the target. -->
+  <AbilityCannotReachTarget>Can't reach the target.</AbilityCannotReachTarget>
+  <!-- EN: Not enough free space. -->
+  <AbilityNotEnoughFreeSpace>Not enough free space.</AbilityNotEnoughFreeSpace>
+  <!-- EN: Must target an empty area. -->
+  <AbilityOccupiedCells>Must target an empty area.</AbilityOccupiedCells>
+  <!-- EN: Must target a walkable area. -->
+  <AbilityUnwalkable>Must target a walkable area.</AbilityUnwalkable>
+  <!-- EN: Must target an unroofed area. -->
+  <AbilityRoofed>Must target an unroofed area.</AbilityRoofed>
+  <!-- EN: {0_labelShort} is mentally broken. -->
+  <AbilityCantApplyToMentallyBroken>{0_labelShort} is mentally broken.</AbilityCantApplyToMentallyBroken>
+  <!-- EN: {0_labelShort} is not mentally broken. -->
+  <AbilityCanOnlyApplyToMentallyBroken>{0_labelShort} is not mentally broken.</AbilityCanOnlyApplyToMentallyBroken>
+  <!-- EN: {0_labelShort} is not maddened. -->
+  <AbilityCanOnlyApplyToManhunter>{0_labelShort} is not maddened.</AbilityCanOnlyApplyToManhunter>
+  <!-- EN: {0_labelShort} has scaria, which can only be treated medically. -->
+  <AbilityCantApplyToScaria>{0_labelShort} has scaria, which can only be treated medically.</AbilityCantApplyToScaria>
+  <!-- EN: {0} doesn't work on the '{1}' mental state. -->
+  <AbilityDoesntWorkOnMentalState>{0} doesn't work on the '{1}' mental state.</AbilityDoesntWorkOnMentalState>
+  <!-- EN: {0_labelShort} has zero resistance. -->
+  <AbilityCantApplyNoResistance>{0_labelShort} has zero resistance.</AbilityCantApplyNoResistance>
+  <!-- EN: {0_labelShort} is downed. -->
+  <AbilityCantApplyDowned>{0_labelShort} is downed.</AbilityCantApplyDowned>
+  <!-- EN: Cannot use: {0} is asexual. -->
+  <AbilityCantApplyOnAsexual>Cannot use: {0} is asexual.</AbilityCantApplyOnAsexual>
+  <!-- EN: {PAWN_labelShort} has no healable injuries. -->
+  <AbilityCannotCastNoHealableInjury>{PAWN_labelShort} هیچ آسیب قابل درمانی ندارد.</AbilityCannotCastNoHealableInjury>
+  <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
+  <AbilityCantApplyWrongAttractionGender>{1_labelShort} is the wrong gender for {0_labelShort}.</AbilityCantApplyWrongAttractionGender>
+  <!-- EN: {0_labelShort} is too young. -->
+  <AbilityCantApplyTooYoung>{0_labelShort} is too young.</AbilityCantApplyTooYoung>
+  <!-- EN: Cannot target a baby. -->
+  <AbilityCantApplyOnBaby>Cannot target a baby.</AbilityCantApplyOnBaby>
+  <!-- EN: Psyfocus cost per mental break intensity -->
+  <PsyfocusCostPerMentalBreakIntensity>Psyfocus cost per mental break intensity</PsyfocusCostPerMentalBreakIntensity>
+  <!-- EN: {0_labelShort} is already inspired. -->
+  <AbilityAlreadyInspired>{0_labelShort} is already inspired.</AbilityAlreadyInspired>
+  <!-- EN: {0_labelShort} can't get an inspiration right now. -->
+  <AbilityCantGetInspiredNow>{0_labelShort} can't get an inspiration right now.</AbilityCantGetInspiredNow>
+  <!-- EN: {0_labelShort} must be of a different ideoligion than {1_labelShort}. -->
+  <AbilityMustBeNotSameIdeo>{0_labelShort} must be of a different ideoligion than {1_labelShort}.</AbilityMustBeNotSameIdeo>
+  <!-- EN: {0_labelShort} must be of same ideoligion as {1_labelShort}. -->
+  <AbilityMustBeSameIdeo>{0_labelShort} must be of same ideoligion as {1_labelShort}.</AbilityMustBeSameIdeo>
+  <!-- EN: {0_labelShort} must be sick or injured. -->
+  <AbilityMustBeSickOrInjured>{0_labelShort} must be sick or injured.</AbilityMustBeSickOrInjured>
+  <!-- EN: {0} can only counsel {1}s. -->
+  <AbilityMustBeSameIdeoCounsel>{0} can only counsel {1}s.</AbilityMustBeSameIdeoCounsel>
+  <!-- EN: {0_labelShort} is already considered guilty. -->
+  <AbilityMustBeNotGuilty>{0_labelShort} is already considered guilty.</AbilityMustBeNotGuilty>
+  <!-- EN: Must target a human. -->
+  <AbilityMustBeHuman>Must target a human.</AbilityMustBeHuman>
+  <!-- EN: Must target a non-wild human. -->
+  <AbilityMustBeHumanNonWild>Must target a non-wild human.</AbilityMustBeHumanNonWild>
+  <!-- EN: Must target an animal. -->
+  <AbilityMustBeAnimal>Must target an animal.</AbilityMustBeAnimal>
+  <!-- EN: {0_labelShort} is unconscious. -->
+  <AbilityCantApplyUnconscious>{0_labelShort} is unconscious.</AbilityCantApplyUnconscious>
+  <!-- EN: {0_labelShort} is asleep. -->
+  <AbilityCantApplyAsleep>{0_labelShort} is asleep.</AbilityCantApplyAsleep>
+  <!-- EN: This tile is impassable. -->
+  <AbilityWorldTileImpassable>This tile is impassable.</AbilityWorldTileImpassable>
+  <!-- EN: Skip to random ally -->
+  <AbilitySkipToRandomAlly>Skip to random ally</AbilitySkipToRandomAlly>
+  <!-- EN: Skip to join caravan -->
+  <AbilitySkipToJoinCaravan>Skip to join caravan</AbilitySkipToJoinCaravan>
+  <!-- EN: Need ally at target for navigation -->
+  <AbilityNeedAllyToSkip>Need ally at target for navigation</AbilityNeedAllyToSkip>
+  <!-- EN: No chunks to skip. -->
+  <AbilityNoChunkToSkip>No chunks to skip.</AbilityNoChunkToSkip>
+  <!-- EN: Induce psychic love in -->
+  <PsychicLoveInduceIn>Induce psychic love in</PsychicLoveInduceIn>
+  <!-- EN: Psychic love for -->
+  <PsychicLoveFor>Psychic love for</PsychicLoveFor>
+  <!-- EN: If you skip {PAWN_labelShort} to another map or a caravan, the associated quest will fail and {PAWN_pronoun} will leave immediately.\n\nDo you really want to farskip {PAWN_labelShort}? -->
+  <FarskipConfirmTeleportingLodger>If you skip {PAWN_labelShort} to another map or a caravan, the associated quest will fail and {PAWN_pronoun} will leave immediately.\n\nDo you really want to farskip {PAWN_labelShort}?</FarskipConfirmTeleportingLodger>
+  
+  <!-- EN: minor -->
+  <MentalBreakIntensityMinor>جزئی</MentalBreakIntensityMinor>
+  <!-- EN: major -->
+  <MentalBreakIntensityMajor>عمده</MentalBreakIntensityMajor>
+  <!-- EN: extreme -->
+  <MentalBreakIntensityExtreme>شدید</MentalBreakIntensityExtreme>
+
+  <!-- Auto slaughter -->
+  <!-- EN: Animal -->
+  <AutoSlaugtherHeaderColLabel>حیوان</AutoSlaugtherHeaderColLabel>
+  <!-- EN: Current -->
+  <AutoSlaugtherHeaderColCurrent>فعلی</AutoSlaugtherHeaderColCurrent>
+  <!-- EN: Max -->
+  <AutoSlaugtherHeaderColMax>حداکثر</AutoSlaugtherHeaderColMax>
+  <!-- EN: Total -->
+  <AutoSlaugtherHeaderColTotal>کل</AutoSlaugtherHeaderColTotal>
+  <!-- EN: Other -->
+  <AutoSlaugtherHeaderColOther>دیگر</AutoSlaugtherHeaderColOther> <!-- this is the count of the "cannot-auto-slaughter" animals -->
+  <!-- EN: Colonists first slaughter non-pregnant animals in order from oldest to youngest, then pregnant animals from most recent to least recent pregnancy. -->
+  <AutoSlaugtherTip>مهاجران ابتدا حیوانات غیر باردار را به ترتیب از پیرترین به جوان‌ترین ذبح می‌کنند، سپس حیوانات باردار را از جدیدترین بارداری به کمترین بارداری.</AutoSlaugtherTip>
+  <!-- EN: Male adult -->
+  <AnimalMaleAdult>نر بالغ</AnimalMaleAdult>
+  <!-- EN: Male young -->
+  <AnimalMaleYoung>نر جوان</AnimalMaleYoung>
+  <!-- EN: Female adult -->
+  <AnimalFemaleAdult>ماده بالغ</AnimalFemaleAdult>
+  <!-- EN: Female young -->
+  <AnimalFemaleYoung>ماده جوان</AnimalFemaleYoung>
+  <!-- EN: Pregnant -->
+  <AnimalPregnant>باردار</AnimalPregnant>
+  <!-- EN: Bonded -->
+  <AnimalBonded>پیوند خورده</AnimalBonded>
+  <!-- EN: Slaughter -->
+  <AllowSlaughter>ذبح</AllowSlaughter>
+
+  <!-- EN: The animal to be automatically slaughtered. -->
+  <AutoSlaugtherHeaderTooltipLabel>حیوانی که به طور خودکار ذبح خواهد شد.</AutoSlaugtherHeaderTooltipLabel>
+  <!-- EN: The current number of animals in the colony, both male and female. -->
+  <AutoSlaugtherHeaderTooltipCurrentTotal>تعداد فعلی حیوانات در کلونی، هم نر و هم ماده.</AutoSlaugtherHeaderTooltipCurrentTotal>
+  <!-- EN: The maximum number of animals in the colony, both male and female.\n\nHandlers will automatically slaughter any extras. -->
+  <AutoSlaugtherHeaderTooltipMaxTotal>حداکثر تعداد حیوانات در کلونی، هم نر و هم ماده.\n\nکارگران به طور خودکار هر حیوان اضافی را ذبح خواهند کرد.</AutoSlaugtherHeaderTooltipMaxTotal>
+  <!-- EN: The current number of males of breeding age in the colony. -->
+  <AutoSlaugtherHeaderTooltipCurrentMales>تعداد فعلی نرهای در سن تولید مثل در کلونی.</AutoSlaugtherHeaderTooltipCurrentMales>
+  <!-- EN: The current number of baby and juvenile males in the colony. -->
+  <AutoSlaughterHeaderTooltipCurrentMalesYoung>تعداد فعلی نرهای نوزاد و جوان در کلونی.</AutoSlaughterHeaderTooltipCurrentMalesYoung>
+  <!-- EN: The maximum number of males of breeding age in the colony.\n\nHandlers will automatically slaughter any extras. -->
+  <AutoSlaugtherHeaderTooltipMaxMales>حداکثر تعداد نرهای در سن تولید مثل در کلونی.\n\nکارگران به طور خودکار هر حیوان اضافی را ذبح خواهند کرد.</AutoSlaugtherHeaderTooltipMaxMales>
+  <!-- EN: The maximum number of baby and juvenile males in the colony.\n\nHandlers will automatically slaughter any extras. -->
+  <AutoSlaughterHeaderTooltipMaxMalesYoung>حداکثر تعداد نرهای نوزاد و جوان در کلونی.\n\nکارگران به طور خودکار هر حیوان اضافی را ذبح خواهند کرد.</AutoSlaughterHeaderTooltipMaxMalesYoung>
+  <!-- EN: The current number of females of breeding age in the colony. -->
+  <AutoSlaugtherHeaderTooltipCurrentFemales>تعداد فعلی ماده‌های در سن تولید مثل در کلونی.</AutoSlaugtherHeaderTooltipCurrentFemales>
+  <!-- EN: The current number of baby and juvenile females in the colony. -->
+  <AutoSlaugtherHeaderTooltipCurrentFemalesYoung>TODO</AutoSlaugtherHeaderTooltipCurrentFemalesYoung>
+  <!-- EN: The maximum number of females in the colony.\n\nHandlers will automatically slaughter any extras. -->
+  <AutoSlaugtherHeaderTooltipMaxFemales>حداکثر تعداد ماده‌ها در کلونی.\n\nکارگران به طور خودکار هر حیوان اضافی را ذبح خواهند کرد.</AutoSlaugtherHeaderTooltipMaxFemales>
+  <!-- EN: The maximum number of baby and juvenile females in the colony.\n\nHandlers will automatically slaughter any extras. -->
+  <AutoSlaughterHeaderTooltipMaxFemalesYoung>حداکثر تعداد ماده‌های نوزاد و جوان در کلونی.\n\nکارگران به طور خودکار هر حیوان اضافی را ذبح خواهند کرد.</AutoSlaughterHeaderTooltipMaxFemalesYoung>
+  <!-- EN: The current number of pregnant animals in the colony. -->
+  <AutoSlaughterHeaderTooltipCurrentPregnant>تعداد فعلی حیوانات باردار در کلونی.</AutoSlaughterHeaderTooltipCurrentPregnant>
+  <!-- EN: Allow pregnant animals to be slaughtered along with other females of the same species. -->
+  <AutoSlaughterHeaderTooltipAllowSlaughterPregnant>اجازه ذبح حیوانات باردار همراه با سایر ماده‌های همان گونه.</AutoSlaughterHeaderTooltipAllowSlaughterPregnant>
+  <!-- EN: The current number of bonded animals in the colony. -->
+  <AutoSlaughterHeaderTooltipCurrentBonded>تعداد فعلی حیوانات پیوند خورده در کلونی.</AutoSlaughterHeaderTooltipCurrentBonded>
+  <!-- EN: Allow bonded animals to be slaughtered. -->
+  <AutoSlaughterHeaderTooltipAllowSlaughterBonded>اجازه ذبح حیوانات پیوند خورده.</AutoSlaughterHeaderTooltipAllowSlaughterBonded>
+
+  <!-- EN: Click to set an animal count limit. -->
+  <AutoSlaughterTooltipSetLimit>برای تعیین محدودیت تعداد حیوانات کلیک کنید.</AutoSlaughterTooltipSetLimit>
+
+  <!-- Room requirements -->
+  <!-- EN: no beds allowed -->
+  <RoomRequirementNoBeds>هیچ تختی مجاز نیست</RoomRequirementNoBeds>
+  <!-- EN: room area: {0} tiles -->
+  <RoomRequirementArea>مساحت اتاق: {0} کاشی</RoomRequirementArea>
+  <!-- EN: room impressiveness -->
+  <RoomRequirementImpressiveness>تاثیرگذاری اتاق</RoomRequirementImpressiveness>
+  <!-- EN: all floored -->
+  <RoomRequirementAllFloored>همه کفپوش شده</RoomRequirementAllFloored>
+  <!-- EN: all braziers must be lit -->
+  <RoomRequirementAllBraziersMustBeLit>تمام آتشدان‌ها باید روشن باشند</RoomRequirementAllBraziersMustBeLit>
+  <!-- EN: all fine floored -->
+  <RoomRequirementAllFineFloored>همه با کفپوش خوب</RoomRequirementAllFineFloored>
+  <!-- EN: no work facilities allowed -->
+  <RoomRequirementNoProductionFacilities>هیچ امکانات کاری مجاز نیست</RoomRequirementNoProductionFacilities>
+  <!-- EN: no altars allowed -->
+  <RoomRequirementNoAltars>هیچ محرابی مجاز نیست</RoomRequirementNoAltars>
+
+  <!-- EN: Lifestage max food factor -->
+  <LifeStageMaxFood>ضریب حداکثر غذای مرحله زندگی</LifeStageMaxFood>
+
+  <!-- EN: Expand all -->
+  <ExpandAllCategories>گسترش همه دسته‌ها</ExpandAllCategories>
+  <!-- EN: Collapse all -->
+  <CollapseAllCategories>جمع کردن همه دسته‌ها</CollapseAllCategories>
+
+  <!-- EN: Dye can be farmed from tinctoria or purchased from traders. -->
+  <TooltipDyeExplanation>رنگ را می‌توان از تینکتوریا کشت کرد یا از تاجران خریداری کرد.</TooltipDyeExplanation>
+
+  <!-- EN: Zoom range {0} -->
+  <ZoomRange>محدوده بزرگنمایی {0}</ZoomRange>
+
+  <!-- Color picker -->
+  <!-- EN: color temperature -->
+  <ColorTemperature>دمای رنگ</ColorTemperature>
+  <!-- EN: choose a color -->
+  <ChooseAColor>انتخاب یک رنگ</ChooseAColor>
+  <!-- EN: red -->
+  <Red>قرمز</Red>
+  <!-- EN: green -->
+  <Green>سبز</Green>
+  <!-- EN: blue -->
+  <Blue>آبی</Blue>
+  <!-- EN: hue -->
+  <Hue>فام</Hue>
+  <!-- EN: sat -->
+  <Saturation>اشباع</Saturation>
+  <!-- EN: value -->
+  <ColorValue>مقدار</ColorValue>
+  <!-- EN: darklight -->
+  <Darklight>نور تاریک</Darklight>
+  <!-- EN: not darklight -->
+  <NotDarklight>نور تاریک نیست</NotDarklight>
+  <!-- EN: current color -->
+  <CurrentColor>رنگ فعلی</CurrentColor>
+  <!-- EN: old color -->
+  <OldColor>رنگ قدیمی</OldColor>
+  <!-- EN: Copy color -->
+  <CommandCopyColorLabel>کپی رنگ</CommandCopyColorLabel>
+  <!-- EN: Copy the current color to the clipboard. -->
+  <CommandCopyColorDesc>رنگ فعلی را در کلیپ‌بورد کپی کنید.</CommandCopyColorDesc>
+  <!-- EN: Paste color -->
+  <CommandPasteColorLabel>جایگذاری رنگ</CommandPasteColorLabel>
+  <!-- EN: Overwrite the color with the color in the clipboard. -->
+  <CommandPasteColorDesc>رنگ را با رنگ موجود در کلیپ‌بورد بازنویسی کنید.</CommandPasteColorDesc>
+  <!-- EN: The clipboard does not contain a valid color. -->
+  <ClipboardInvalidColor>کلیپ‌بورد حاوی رنگ معتبری نیست.</ClipboardInvalidColor>
+  <!-- EN: Color copied to clipboard. -->
+  <ColorCopiedSuccessfully>رنگ با موفقیت در کلیپ‌بورد کپی شد.</ColorCopiedSuccessfully>
+  <!-- EN: Updated color from the clipboard. -->
+  <ColorPastedSuccessfully>رنگ از کلیپ‌بورد به‌روزرسانی شد.</ColorPastedSuccessfully>
+  <!-- EN: Change to normal light -->
+  <ToggleDarklightOff>تغییر به نور عادی</ToggleDarklightOff>
+  <!-- EN: Change the light color to its normal color. -->
+  <ToggleDarklightOffDesc>رنگ نور را به رنگ عادی آن تغییر دهید.</ToggleDarklightOffDesc>
+  <!-- EN: Change to darklight -->
+  <ToggleDarklightOn>تغییر به نور تاریک</ToggleDarklightOn>
+  <!-- EN: Change the light color to darklight. -->
+  <ToggleDarklightOnDesc>رنگ نور را به نور تاریک تغییر دهید.</ToggleDarklightOnDesc>
+  <!-- EN: Choose a color by setting the color temperature. Note: This only affects visual color, not heat output. -->
+  <ColorTemperatureTooltip>با تنظیم دمای رنگ، یک رنگ را انتخاب کنید. توجه: این فقط بر رنگ بصری تأثیر می‌گذارد، نه بر خروجی گرما.</ColorTemperatureTooltip>
+
+  <!-- EN: {0_labelShort} is psychically deaf. -->
+  <CannotShootPawnIsPsychicallyDeaf>{0_labelShort} از نظر روانی ناشنوا است.</CannotShootPawnIsPsychicallyDeaf>
+
+  <!-- EN: Search the current map. -->
+  <SearchTheMap>جستجو در نقشه فعلی.</SearchTheMap>
+  <!-- EN: Search the current map for items, buildings, people, animals, plants, and more. -->
+  <SearchTheMapDesc>جستجو در نقشه فعلی برای اقلام، ساختمان‌ها، افراد، حیوانات، گیاهان و موارد دیگر.</SearchTheMapDesc>
+  <!-- EN: Search the world -->
+  <SearchTheWorld>TODO</SearchTheWorld>
+  <!-- EN: Search the world for specific features, landmarks, quests, or settlements. -->
+  <SearchTheWorldDesc>TODO</SearchTheWorldDesc>
+  <!-- EN: {0} results found -->
+  <MapSearchResults>{0} نتیجه یافت شد</MapSearchResults>
+  <!-- EN: 1 result found -->
+  <MapSearchResultSingular>1 نتیجه یافت شد</MapSearchResultSingular>
+  <!-- EN: Searching -->
+  <Searching>در حال جستجو</Searching>
+
+  <!-- UNUSED -->
+  <MapTemperatureDangerWarning>هشدار: شما در محیطی یخ‌زده فرود خواهید آمد. بقا ممکن است سخت یا تقریباً غیرممکن باشد. اگر قصد رویارویی با چالش شدید را ندارید، مکان یا فصل دیگری را انتخاب کنید.</MapTemperatureDangerWarning>
+  <ConfirmSendNotCompletelyLoadedPods>Pod group isn't completely loaded. {1_labelShort} is missing. Launch anyway?</ConfirmSendNotCompletelyLoadedPods>
+  <AutoSlaughterHeaderTooltipCurrentFemalesYoung>تعداد فعلی ماده‌های نوزاد و جوان در کلونی.</AutoSlaughterHeaderTooltipCurrentFemalesYoung>
+  <Outfit>لباس</Outfit>
+  <SelectOutfit>انتخاب لباس...</SelectOutfit>
+  <NewOutfit>لباس جدید</NewOutfit>
+  <DeleteOutfit>حذف لباس...</DeleteOutfit>
+  <NoOutfitSelected>هیچ لباسی انتخاب نشده است</NoOutfitSelected>
+  <SelectDrugPolicy>انتخاب سیاست...</SelectDrugPolicy>
+  <NewDrugPolicy>سیاست جدید</NewDrugPolicy>
+  <DeleteDrugPolicy>حذف سیاست...</DeleteDrugPolicy>
+  <NoDrugPolicySelected>هیچ سیاست دارویی انتخاب نشده است</NoDrugPolicySelected>
+  <DrugUsageColumnLabel>استفاده</DrugUsageColumnLabel>
+  <DrugUsageColumnDesc>نحوه مجاز استفاده از دارو.</DrugUsageColumnDesc>
+  <FoodRestriction>محدودیت غذا</FoodRestriction>
+  <FoodRestrictionShort>غذا</FoodRestrictionShort>
+  <SelectFoodRestriction>انتخاب محدودیت غذا</SelectFoodRestriction>
+  <NewFoodRestriction>محدودیت غذای جدید</NewFoodRestriction>
+  <DeleteFoodRestriction>حذف محدودیت غذا</DeleteFoodRestriction>
+  <NoFoodRestrictionSelected>هیچ محدودیت غذایی انتخاب نشده است</NoFoodRestrictionSelected>
+  <MedGroupColonist>مهاجر</MedGroupColonist>
+  <MedGroupImprisonedColonist>مهاجر زندانی</MedGroupImprisonedColonist>
+  <MedGroupColonyAnimal>حیوان کلونی</MedGroupColonyAnimal>
+  <MedGroupNeutralAnimal>حیوان بی‌طرف</MedGroupNeutralAnimal>
+
+</LanguageData>
