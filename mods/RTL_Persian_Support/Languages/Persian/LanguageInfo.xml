@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageInfo>
+  <friendlyNameNative>پارسی</friendlyNameNative>
+  <friendlyNameEnglish>Persian</friendlyNameEnglish>
+  <canBeTiny>true</canBeTiny>
+  <languageWorkerClass>LanguageWorker_English</languageWorkerClass>
+  <isRTL>true</isRTL>
+  <credits>
+   <li Class="CreditRecord_Role">
+      <roleKey>Credit_Translator</roleKey>
+      <creditee>Danial pahlavan mosavari \nReza seyed abdollahi</creditee>
+    </li>
+  </credits>
+</LanguageInfo>
