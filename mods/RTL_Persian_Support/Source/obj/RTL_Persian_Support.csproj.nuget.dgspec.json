@@ -1,0 +1,56 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\dany\\Documents\\Github\\RimWorld-Farsi\\mods\\RTL_Persian_Support\\Source\\RTL_Persian_Support.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\dany\\Documents\\Github\\RimWorld-Farsi\\mods\\RTL_Persian_Support\\Source\\RTL_Persian_Support.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\dany\\Documents\\Github\\RimWorld-Farsi\\mods\\RTL_Persian_Support\\Source\\RTL_Persian_Support.csproj",
+        "projectName": "RTL_Persian_Support",
+        "projectPath": "c:\\Users\\dany\\Documents\\Github\\RimWorld-Farsi\\mods\\RTL_Persian_Support\\Source\\RTL_Persian_Support.csproj",
+        "packagesPath": "C:\\Users\\dany\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\dany\\Documents\\Github\\RimWorld-Farsi\\mods\\RTL_Persian_Support\\Source\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dany\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Lib.Harmony.Ref": {
+              "target": "Package",
+              "version": "[2.2.2-rimworld, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.311\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
