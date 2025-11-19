@@ -5,13 +5,13 @@ on:
     branches: [main]
     paths:
       - 'tools/rtl-processor/**'
-      - 'Persian/**'
+      - 'Data/**'
       - '.github/workflows/persianCorrectionPythonBeta.yml'
   pull_request:
     branches: [main]
     paths:
       - 'tools/rtl-processor/**'
-      - 'Persian/**'
+      - 'Data/**'
       - '.github/workflows/persianCorrectionPythonBeta.yml'
   workflow_dispatch:
     inputs:
@@ -62,7 +62,7 @@ concurrency:
 env:
   PYTHON_VERSION: ${{ github.event.inputs.python_version || '3.13' }}
   UV_CACHE_DIR: ~/.cache/uv
-  BUILD_DIR: Persian
+  BUILD_DIR: Data
   TOOLS_DIR: tools/rtl-processor
 
 permissions:
