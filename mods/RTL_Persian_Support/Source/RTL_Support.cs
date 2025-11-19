@@ -14,13 +14,17 @@ namespace RTL_Persian
         public static Font PersianFont;
         public static Font OriginalFont;
         private static ModContentPack _contentPack;
-        
+
         // Flags to manage updates and safety
         public static bool dirty = true;
-        public static bool suppressAnchorPatch = false; // PREVENTS CRASH DURING RESET
+        public static bool suppressAnchorPatch = false;
+
+        // Debug Log Path
+        private static string _logFilePath;
 
         static RTL_Support()
         {
+            // 1. Identify the Mod Pack
             _contentPack = LoadedModManager.RunningMods.FirstOrDefault(m => m.PackageId.ToLower() == "danial.rtlpersiansupport");
 
             if (_contentPack == null)
@@ -29,10 +33,28 @@ namespace RTL_Persian
                 return;
             }
 
+            // 2. Initialize Logging (Try Mod Folder, Fallback to Desktop)
+            InitDebugLog();
+            LogFile("RTL_Persian_Support initialized.");
+
+            // 3. Log Active Mods
+            LogLoadedMods();
+
+            // 4. Load Font
             LoadPersianFont();
 
-            var harmony = new Harmony("danial.rtlpersiansupport");
-            harmony.PatchAll(Assembly.GetExecutingAssembly());
+            // 5. Apply Harmony Patches
+            try
+            {
+                var harmony = new Harmony("danial.rtlpersiansupport");
+                harmony.PatchAll(Assembly.GetExecutingAssembly());
+                LogFile("Harmony patches applied successfully.");
+            }
+            catch (Exception ex)
+            {
+                LogFile($"CRITICAL ERROR: Harmony patching failed: {ex}");
+                Log.Error($"RTL Harmony Error: {ex}");
+            }
         }
 
         public static void LoadPersianFont()
@@ -40,8 +62,10 @@ namespace RTL_Persian
             try
             {
                 // Ensure the file is named 'persianfont' with NO extension in the Resources folder
-                string bundlePath = Path.Combine(_contentPack.RootDir, "Resources", "persianfont"); 
-                
+                string bundlePath = Path.Combine(_contentPack.RootDir, "Resources", "persianfont");
+
+                LogFile($"Attempting to load font from: {bundlePath}");
+
                 if (File.Exists(bundlePath))
                 {
                     AssetBundle bundle = AssetBundle.LoadFromFile(bundlePath);
@@ -49,30 +73,34 @@ namespace RTL_Persian
                     {
                         PersianFont = bundle.LoadAllAssets<Font>().FirstOrDefault();
                         bundle.Unload(false);
+                        LogFile("Persian font loaded successfully.");
+                    }
+                    else
+                    {
+                        LogFile("ERROR: AssetBundle found but failed to load.");
                     }
                 }
                 else
                 {
-                    // Non-critical warning
-                    Log.Warning($"RTL_Persian_Support: Font bundle not found at {bundlePath}");
+                    LogFile($"WARNING: Font bundle not found at {bundlePath}");
                 }
             }
             catch (Exception e)
             {
                 Log.Error($"RTL_Persian_Support: Error loading font: {e.Message}");
+                LogFile($"EXCEPTION while loading font: {e.Message}");
             }
         }
 
         public static void ApplyChanges()
         {
-            // Safety check: If GUI.skin isn't ready, don't crash
             if (GUI.skin == null) return;
 
             bool isPersian = LanguageDatabase.activeLanguage?.folderName == "Persian";
+            LogFile($"Applying GUI changes. IsPersian: {isPersian}");
 
             if (isPersian)
             {
-                // Apply RTL Alignments
                 GUI.skin.label.alignment = TextAnchor.UpperRight;
                 GUI.skin.button.alignment = TextAnchor.UpperRight;
                 GUI.skin.textField.alignment = TextAnchor.UpperRight;
@@ -80,22 +108,18 @@ namespace RTL_Persian
 
                 if (PersianFont != null)
                 {
-                    if (OriginalFont == null) OriginalFont = Text.fontStyles[0].font; 
+                    if (OriginalFont == null) OriginalFont = Text.fontStyles[0].font;
                     SetGameFont(PersianFont);
                 }
             }
             else
             {
-                // Reset to LTR
                 GUI.skin.label.alignment = TextAnchor.UpperLeft;
                 GUI.skin.button.alignment = TextAnchor.UpperLeft;
                 GUI.skin.textField.alignment = TextAnchor.UpperLeft;
                 GUI.skin.textArea.alignment = TextAnchor.UpperLeft;
 
-                if (OriginalFont != null)
-                {
-                    SetGameFont(OriginalFont);
-                }
+                if (OriginalFont != null) SetGameFont(OriginalFont);
             }
         }
 
@@ -108,6 +132,64 @@ namespace RTL_Persian
                 if (Text.textAreaStyles[i] != null) Text.textAreaStyles[i].font = font;
             }
         }
+
+        private static void InitDebugLog()
+        {
+            try
+            {
+                // Try creating log in the Mod's root directory
+                _logFilePath = Path.Combine(_contentPack.RootDir, "debug.log");
+                File.WriteAllText(_logFilePath, $"--- RTL Persian Support Debug Log ---\nTime: {DateTime.Now}\nVersion: RimWorld Mod\n\n");
+                Log.Message($"[RTL Support] Logging to: {_logFilePath}");
+            }
+            catch (UnauthorizedAccessException)
+            {
+                // Fallback: If Mod folder is read-only (Program Files), write to Desktop
+                string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+                _logFilePath = Path.Combine(desktopPath, "RTL_Persian_Debug.log");
+
+                try
+                {
+                    File.WriteAllText(_logFilePath, $"--- RTL Persian Support Debug Log (Fallback) ---\nTime: {DateTime.Now}\n\n");
+                    Log.Warning($"[RTL Support] Could not write to mod folder. Logging to Desktop instead: {_logFilePath}");
+                }
+                catch { _logFilePath = null; } // Give up if even Desktop fails
+            }
+            catch (Exception e)
+            {
+                Log.Warning($"[RTL Support] Logging initialization failed: {e.Message}");
+            }
+        }
+
+        /// <summary>
+        /// Writes a line to the debug.log file.
+        /// </summary>
+        public static void LogFile(string message)
+        {
+            if (string.IsNullOrEmpty(_logFilePath)) return;
+
+            try
+            {
+                using (StreamWriter writer = new StreamWriter(_logFilePath, true))
+                {
+                    writer.WriteLine($"[{DateTime.Now:HH:mm:ss}] {message}");
+                }
+            }
+            catch
+            {
+                // Ignore errors to prevent loops
+            }
+        }
+
+        private static void LogLoadedMods()
+        {
+            LogFile("--- Active Mod List ---");
+            foreach (var mod in LoadedModManager.RunningMods)
+            {
+                LogFile($"- {mod.Name} [{mod.PackageId}]");
+            }
+            LogFile("-----------------------");
+        }
     }
 
     // Patch 1: Trigger update when language changes
@@ -117,6 +199,7 @@ namespace RTL_Persian
         [HarmonyPostfix]
         public static void Postfix()
         {
+            RTL_Support.LogFile("Language changed.");
             RTL_Support.dirty = true;
         }
     }
