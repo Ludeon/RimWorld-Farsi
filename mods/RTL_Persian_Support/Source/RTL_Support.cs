@@ -99,37 +99,62 @@ namespace RTL_Persian
             bool isPersian = LanguageDatabase.activeLanguage?.folderName == "Persian";
             LogFile($"Applying GUI changes. IsPersian: {isPersian}");
 
+            Mod_RTL_Persian_Support mod = LoadedModManager.GetMod<Mod_RTL_Persian_Support>();
+
             if (isPersian)
             {
-                GUI.skin.label.alignment = TextAnchor.UpperRight;
-                GUI.skin.button.alignment = TextAnchor.UpperRight;
-                GUI.skin.textField.alignment = TextAnchor.UpperRight;
-                GUI.skin.textArea.alignment = TextAnchor.UpperRight;
+                if (mod != null && mod.settings.enableRTLAlignment)
+                {
+                    GUI.skin.label.alignment = TextAnchor.UpperRight;
+                    GUI.skin.button.alignment = TextAnchor.UpperRight;
+                    GUI.skin.textField.alignment = TextAnchor.UpperRight;
+                    GUI.skin.textArea.alignment = TextAnchor.UpperRight;
+                }
 
-                if (PersianFont != null)
+                if (mod != null && mod.settings.enablePersianFont && PersianFont != null)
                 {
                     if (OriginalFont == null) OriginalFont = Text.fontStyles[0].font;
-                    SetGameFont(PersianFont);
+                    SetGameFont(PersianFont, TextAnchor.UpperRight);
                 }
             }
             else
             {
-                GUI.skin.label.alignment = TextAnchor.UpperLeft;
-                GUI.skin.button.alignment = TextAnchor.UpperLeft;
-                GUI.skin.textField.alignment = TextAnchor.UpperLeft;
-                GUI.skin.textArea.alignment = TextAnchor.UpperLeft;
+                // Reset to English defaults
+                if (mod != null && !mod.settings.enableRTLAlignment)
+                {
+                    GUI.skin.label.alignment = TextAnchor.UpperLeft;
+                    GUI.skin.button.alignment = TextAnchor.UpperLeft;
+                    GUI.skin.textField.alignment = TextAnchor.UpperLeft;
+                    GUI.skin.textArea.alignment = TextAnchor.UpperLeft;
+                }
 
-                if (OriginalFont != null) SetGameFont(OriginalFont);
+                if (mod != null && !mod.settings.enablePersianFont && OriginalFont != null)
+                {
+                    SetGameFont(OriginalFont, TextAnchor.UpperLeft);
+                }
             }
         }
 
-        private static void SetGameFont(Font font)
+        private static void SetGameFont(Font font, TextAnchor align)
         {
-            for (int i = 0; i < Text.fontStyles.Length; i++)
+            // Force Update ALL RimWorld styles
+            SetStyle(Text.fontStyles, font, align);
+            SetStyle(Text.textFieldStyles, font, align);
+            SetStyle(Text.textAreaStyles, font, align);
+        }
+
+        private static void SetStyle(GUIStyle[] styles, Font font, TextAnchor align)
+        {
+            if (styles == null) return;
+            for (int i = 0; i < styles.Length; i++)
             {
-                if (Text.fontStyles[i] != null) Text.fontStyles[i].font = font;
-                if (Text.textFieldStyles[i] != null) Text.textFieldStyles[i].font = font;
-                if (Text.textAreaStyles[i] != null) Text.textAreaStyles[i].font = font;
+                if (styles[i] != null)
+                {
+                    styles[i].font = font;
+                    // Only force alignment if we are in Persian mode
+                    if (align == TextAnchor.UpperRight)
+                        styles[i].alignment = align;
+                }
             }
         }
 
@@ -244,14 +269,28 @@ namespace RTL_Persian
 
             if (LanguageDatabase.activeLanguage?.folderName == "Persian")
             {
-                switch (value)
+                Mod_RTL_Persian_Support mod = LoadedModManager.GetMod<Mod_RTL_Persian_Support>();
+                if (mod != null && mod.settings.enableRTLAlignment)
                 {
-                    case TextAnchor.UpperLeft: value = TextAnchor.UpperRight; break;
-                    case TextAnchor.MiddleLeft: value = TextAnchor.MiddleRight; break;
-                    case TextAnchor.LowerLeft: value = TextAnchor.LowerRight; break;
-                    case TextAnchor.UpperRight: value = TextAnchor.UpperLeft; break;
-                    case TextAnchor.MiddleRight: value = TextAnchor.MiddleLeft; break;
-                    case TextAnchor.LowerRight: value = TextAnchor.LowerLeft; break;
+                    switch (value)
+                    {
+                        // Force Left-Aligned text to be Right-Aligned (RTL style)
+                        case TextAnchor.UpperLeft: value = TextAnchor.UpperRight; break;
+                        case TextAnchor.MiddleLeft: value = TextAnchor.MiddleRight; break;
+                        case TextAnchor.LowerLeft: value = TextAnchor.LowerRight; break;
+
+                        // FIX: Do NOT swap Right-Aligned text to Left.
+                        // Keep it Right-Aligned so it anchors correctly at the screen edge.
+                        case TextAnchor.UpperRight:
+                            // value = TextAnchor.UpperLeft; // REMOVED THIS LINE
+                            break;
+                        case TextAnchor.MiddleRight:
+                            // value = TextAnchor.MiddleLeft; // REMOVED THIS LINE
+                            break;
+                        case TextAnchor.LowerRight:
+                            // value = TextAnchor.LowerLeft; // REMOVED THIS LINE
+                            break;
+                    }
                 }
             }
         }
@@ -266,7 +305,11 @@ namespace RTL_Persian
         {
             if (LanguageDatabase.activeLanguage?.folderName == "Persian")
             {
-                label = PersianFixer.Fix(label);
+                Mod_RTL_Persian_Support mod = LoadedModManager.GetMod<Mod_RTL_Persian_Support>();
+                if (mod != null && mod.settings.enablePersianFixer && !label.Contains('{'))
+                {
+                    label = PersianFixer.Fix(label);
+                }
             }
         }
     }
@@ -280,8 +323,50 @@ namespace RTL_Persian
         {
              if (LanguageDatabase.activeLanguage?.folderName == "Persian")
              {
-                 label = PersianFixer.Fix(label);
+                 Mod_RTL_Persian_Support mod = LoadedModManager.GetMod<Mod_RTL_Persian_Support>();
+                 if (mod != null && mod.settings.enablePersianFixer && !label.Contains('{'))
+                 {
+                     label = PersianFixer.Fix(label);
+                 }
              }
         }
+    }
+
+    // Mod Settings
+    public class ModSettings_RTL_Persian_Support : ModSettings
+    {
+        public bool enablePersianFont = true;
+        public bool enableRTLAlignment = false;
+        public bool enablePersianFixer = false;
+
+        public override void ExposeData()
+        {
+            Scribe_Values.Look(ref enablePersianFont, "enablePersianFont", true);
+            Scribe_Values.Look(ref enableRTLAlignment, "enableRTLAlignment", false);
+            Scribe_Values.Look(ref enablePersianFixer, "enablePersianFixer", false);
+        }
+    }
+
+    // Mod Main Class
+    public class Mod_RTL_Persian_Support : Verse.Mod
+    {
+        public ModSettings_RTL_Persian_Support settings;
+
+        public Mod_RTL_Persian_Support(ModContentPack content) : base(content)
+        {
+            settings = GetSettings<ModSettings_RTL_Persian_Support>();
+        }
+
+        public override void DoSettingsWindowContents(Rect inRect)
+        {
+            Listing_Standard listing = new Listing_Standard();
+            listing.Begin(inRect);
+            listing.CheckboxLabeled("Enable Persian font (default: Enabled)", ref settings.enablePersianFont);
+            listing.CheckboxLabeled("Enable RTL text alignments (default: Disabled)", ref settings.enableRTLAlignment);
+            listing.CheckboxLabeled("Enable Persian text fixing (letter shaping, default: Disabled)", ref settings.enablePersianFixer);
+            listing.End();
+        }
+
+        public override string SettingsCategory() => "RTL Persian Support";
     }
 }
