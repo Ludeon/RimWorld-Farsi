@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
     <name>Persian RTL Support</name>
-    <author>Danial</author>
+    <author>Danial Pahlavan Mosavari</author>
     <packageId>danial.rtlpersiansupport</packageId>
     <url></url>
     <description>Enables proper right-to-left text rendering for Persian (Farsi) language in RimWorld.</description>
@@ -17,8 +17,6 @@
         <li>brrainz.harmony</li>
     </loadAfter>
     <supportedVersions>
-        <li>1.4</li>
-        <li>1.5</li>
         <li>1.6</li>
     </supportedVersions>
 </ModMetaData>

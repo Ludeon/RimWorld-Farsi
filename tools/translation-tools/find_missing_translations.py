@@ -75,8 +75,8 @@ def get_corresponding_persian_path(english_path: str) -> str:
     Returns:
         str: Corresponding Persian XML file path
     """
-    # Replace 'english/' with 'Persian/' in the path
-    return english_path.replace('english/', 'Persian/', 1)
+    # Replace 'english\' with 'Data\' in the path (Windows compatibility)
+    return english_path.replace('english\\', 'Data\\', 1)
 
 def main():
     """
@@ -86,8 +86,8 @@ def main():
     project_root = script_dir.parent.parent
 
     english_dir = project_root / 'english'
-    persian_dir = project_root / 'Persian'
-    output_file = project_root / 'to_translate.txt'
+    persian_dir = project_root / 'Data'
+    output_file = project_root / 'TranslationReport.txt'
 
     if not english_dir.exists():
         print(f"Error: English directory not found: {english_dir}")
