@@ -142,6 +142,10 @@
   <SmoothCameraJumps>پرش های روان دوربین</SmoothCameraJumps>
   <!-- EN: When enabled, the camera will quickly pan when focusing on a new location. When disabled, the camera will jump instantly. -->
   <SmoothCameraJumpsDesc>وقتی فعال باشد، دوربین هنگام فوکوس روی مکان جدید به سرعت حرکت می کند. در صورت غیرفعال شدن، دوربین فوراً پرش می کند.</SmoothCameraJumpsDesc>
+  <!-- EN: Gravship cutscenes -->
+  <GravshipCutscenes>TODO</GravshipCutscenes>
+  <!-- EN: When disabled, gravships will take off and land instantly. -->
+  <GravshipCutscenesDesc>TODO</GravshipCutscenesDesc>
 
   <!-- Resolution -->
   <!-- EN: Resolution -->

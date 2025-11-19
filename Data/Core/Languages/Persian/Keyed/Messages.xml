@@ -859,8 +859,8 @@
   <!-- EN: {0_labelShort} can be hacked again. -->
   <MessageHackableUnlocked>{0_labelShort} می‌تواند دوباره هک شود.</MessageHackableUnlocked>
 
-  <!-- EN: Cannot call shuttle -->
-  <CannotCallShuttle>نمی‌توان شاتل را فراخواند</CannotCallShuttle>
+  <!-- EN: Shuttle cannot land here -->
+  <ShuttleCannotLand>TODO</ShuttleCannotLand>
   <!-- EN: The shuttle has arrived. -->
   <MessageShuttleArrived>شاتل رسید.</MessageShuttleArrived>
 
@@ -868,6 +868,7 @@
   <MessageGroundPenetratingScannerNoBedrock>هشدار: {THING_labelCap} در این زیست‌بوم کار نخواهد کرد</MessageGroundPenetratingScannerNoBedrock>
 
   <!-- UNUSED -->
+  <CannotCallShuttle>نمی‌توان شاتل را فراخواند</CannotCallShuttle>
   <MessageFinishedLoadingTransporterSingle>شاتل با محموله مورد نیاز بارگیری شده و زمانی که آماده بودید می‌تواند پرتاب شود.</MessageFinishedLoadingTransporterSingle>
   <MessageRitualNeedsAtLeastOneRolePawn>شما به یک {0} نیاز دارید.</MessageRitualNeedsAtLeastOneRolePawn>
   <MessageRitualNeedsAtLeastNumRolePawn>شما حداقل به {1} {0} نیاز دارید.</MessageRitualNeedsAtLeastNumRolePawn>

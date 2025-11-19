@@ -12,7 +12,7 @@
   <AlertMechanoidThreatDesc>یک کندوی مکانیوئید در حال اسکن برای تعیین موقعیت شما است. هنگامی که موقعیت شما را پیدا کند، یک حمله بزرگ از مکانیوئیدهای خصمانه خواهد فرستاد.\n\nقبل از رسیدن مکانیوئیدها از نقشه فرار کنید!</AlertMechanoidThreatDesc>
   <!-- EN: Incoming mechanoids -->
   <AlertMechanoidThreatCritical>مکانیوئیدهای در حال آمدن</AlertMechanoidThreatCritical>
-  <!-- EN: A mechhive has discovered your location. It will continue to send hostile mechanoids until you flee this location. -->
+  <!-- EN: A mechhive has discovered your location. It will send multiple waves of hostile mechanoids.\n\nFlee the map before mechanoids arrive! -->
   <AlertMechanoidThreatCriticalDesc>یک کندوی مکانیوئید موقعیت شما را کشف کرده است. تا زمانی که از این مکان فرار نکنید، مکانیوئیدهای خصمانه را ادامه خواهد داد.</AlertMechanoidThreatCriticalDesc>
 
   <!-- Mechhive -->

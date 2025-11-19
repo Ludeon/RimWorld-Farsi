@@ -21,7 +21,9 @@
   <!-- EN: Relations with {0} have broken down completely. They are now hostile to you. -->
   <LetterRelationsChange_Hostile>روابط با {0} کاملاً از بین رفته است. آنها اکنون با شما متخاصم هستند.</LetterRelationsChange_Hostile>  
   <!-- EN: They will conduct periodic raids on your colony and caravans, and refuse to trade with you. If you want to improve relations, you can still offer them gifts using caravans or transport pods.\n\nThis happened because goodwill ({0}) has fallen below {1}. In order to restore neutral relations, goodwill must reach {2} again. -->
-  <LetterRelationsChange_HostileGoodwillDescription>آنها به صورت دوره‌ای به کلونی و کاروان‌های شما حمله خواهند کرد و از تجارت با شما خودداری می‌کنند. اگر می‌خواهید روابط را بهبود بخشید، همچنان می‌توانید با استفاده از کاروان‌ها یا کپسول‌های حمل و نقل به آنها هدیه دهید.\n\nاین اتفاق به این دلیل افتاد که حسن نیت ({0}) به زیر {1} کاهش یافته است. برای بازگرداندن روابط خنثی، حسن نیت باید دوباره به {2} برسد.</LetterRelationsChange_HostileGoodwillDescription>  
+  <LetterRelationsChange_HostileGoodwillDescription>آنها به صورت دوره‌ای به کلونی و کاروان‌های شما حمله خواهند کرد و از تجارت با شما خودداری می‌کنند. اگر می‌خواهید روابط را بهبود بخشید، همچنان می‌توانید با استفاده از کاروان‌ها یا کپسول‌های حمل و نقل به آنها هدیه دهید.\n\nاین اتفاق به این دلیل افتاد که حسن نیت ({0}) به زیر {1} کاهش یافته است. برای بازگرداندن روابط خنثی، حسن نیت باید دوباره به {2} برسد.</LetterRelationsChange_HostileGoodwillDescription>
+  <!-- EN: They will conduct periodic raids on your colony and caravans, and refuse to trade with you.\n\nThis happened because goodwill ({0}) has fallen below {1}. In order to restore neutral relations, goodwill must reach {2} again. -->
+  <LetterRelationsChange_HostileGoodwillDescription_NoGifting>TODO</LetterRelationsChange_HostileGoodwillDescription_NoGifting>
 
   <!-- EN: Relations with {0} have warmed. They now consider you neutral and will no longer attack you. -->
   <LetterRelationsChange_NeutralFromHostile>روابط با {0} گرم شده است. آنها اکنون شما را خنثی می‌دانند و دیگر به شما حمله نخواهند کرد.</LetterRelationsChange_NeutralFromHostile>

@@ -108,6 +108,14 @@
   <MustBeOutside>باید بیرون باشد</MustBeOutside>
   <!-- EN: blocked by substructure -->
   <BlockedBySubstructure>توسط زیرساخت مسدود شده</BlockedBySubstructure>
+  <!-- EN: {PAWN_nameDef} cannot board {1} -->
+  <FailedToBoardGravship>TODO</FailedToBoardGravship>
+  <!-- EN: {PAWN_nameDef} cannot exit {1} -->
+  <FailedToLeaveGravship>TODO</FailedToLeaveGravship>
+  <!-- EN: View range -->
+  <ViewRange>TODO</ViewRange>
+  <!-- EN: View the gravship’s current range on the world map. -->
+  <ViewRangeDesc>TODO</ViewRangeDesc>
 
   <!-- Map generation -->
   <!-- EN: Landmark -->
@@ -287,6 +295,8 @@
   <!-- EN: Unique weapon -->
   <UniqueWeapon>سلاح منحصر به فرد</UniqueWeapon>
 
+  <!-- EN: Reforming a caravan will abandon your gravship. Are you sure you want to continue?\n\nTo leave with your gravship, select the gravship's pilot console, then select 'launch'. -->
+  <ConfirmLoseGravship>TODO</ConfirmLoseGravship>
   <!-- EN: Reforming a caravan will abandon your shuttle. Are you sure you want to continue?\n\nTo leave with your shuttle, select the shuttle, then select 'launch'. -->
   <ConfirmLoseShuttle>بازسازی کاروان شاتل شما را رها خواهد کرد. آیا مطمئن هستید که می‌خواهید ادامه دهید؟\n\nبرای رفتن با شاتل، شاتل را انتخاب کنید، سپس 'پرتاب' را انتخاب کنید.</ConfirmLoseShuttle>
 
@@ -303,7 +313,7 @@
   <!-- Special Trainables -->
   <!-- EN: Attack -->
   <AnimalAttackTarget>حمله</AnimalAttackTarget>
-  <!-- EN: Command this animal to attack a specific target that its master can see. -->
+  <!-- EN: Command this animal to attack a specific target. -->
   <AnimalAttackTargetDesc>به این حیوان دستور دهید به یک هدف خاص که اربابش می‌بیند حمله کند.</AnimalAttackTargetDesc>
   <!-- EN: Animals attack target -->
   <AnimalsAttackTarget>حیوانات به هدف حمله می‌کنند</AnimalsAttackTarget>
@@ -328,18 +338,16 @@
   <!-- EN: Allow digging -->
   <DigEnabled>اجازه کندن</DigEnabled>
 
-  <!-- EN: Sealing the ancient stockpile entrance is permanent. Anything or anyone left below will be lost forever.{0}\n\nAre you sure you want to continue? -->
-  <ConfirmSealHatch>مهر کردن ورودی انبار باستانی دائمی است. هر چیزی یا کسی که زیر باقی بماند برای همیشه از دست خواهد رفت.{0}\n\nآیا مطمئن هستید که می‌خواهید ادامه دهید؟</ConfirmSealHatch>
-  <!-- EN: Cannot seal -->
-  <CannotChooseSealer>نمی‌توان مهر کرد</CannotChooseSealer>
-  <!-- EN: Sealed -->
-  <Sealed>مهر شده</Sealed>
-  <!-- EN: Permanently sealed. -->
-  <HatchSealed>دائماً مهر شده.</HatchSealed>
   <!-- EN: Unlocked. -->
   <HatchUnlocked>باز شده.</HatchUnlocked>
 
   <!-- EN: A short-lived momentum repulsor surface that blocks projectiles. It works against normal shots and mortars. It shuts down instantly if hit by an EMP. -->
   <GravshipShieldTip>سطح دافع تکانه کوتاه‌مدت که پرتابه‌ها را مسدود می‌کند. در برابر شلیک‌های عادی و خمپاره‌ها کار می‌کند. اگر توسط EMP ضربه بخورد، فوراً خاموش می‌شود.</GravshipShieldTip>
+
+  <!-- UNUSED -->
+  <ConfirmSealHatch>مهر کردن ورودی انبار باستانی دائمی است. هر چیزی یا کسی که زیر باقی بماند برای همیشه از دست خواهد رفت.{0}\n\nآیا مطمئن هستید که می‌خواهید ادامه دهید؟</ConfirmSealHatch>
+  <CannotChooseSealer>نمی‌توان مهر کرد</CannotChooseSealer>
+  <Sealed>مهر شده</Sealed>
+  <HatchSealed>دائماً مهر شده.</HatchSealed>
 
 </LanguageData>

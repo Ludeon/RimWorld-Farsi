@@ -46,21 +46,29 @@
   <FictionPrimer>Fiction primer</FictionPrimer>
   <!-- EN: Ludeon blog -->
   <LudeonBlog>Ludeon وبلاگ</LudeonBlog>
-  <!-- EN: Forums -->
-  <Forums>انجمن ها</Forums>
+  <!-- EN: Subreddit -->
+  <Subreddit>TODO</Subreddit>
   <!-- EN: Official wiki -->
   <OfficialWiki>ویکی رسمی</OfficialWiki>
-  <!-- EN: Tynan's twitter -->
-  <TynansTwitter>توییتر Tynan</TynansTwitter>
+  <!-- EN: Tynan's X -->
+  <TynansX>TODO</TynansX>
   <!-- EN: Tynan's design book -->
   <TynansDesignBook>کتاب طراحی Tynan</TynansDesignBook>
   <!-- EN: Help translate RimWorld -->
   <HelpTranslate>کمک به ترجمه RimWorld</HelpTranslate>
-  <!-- EN: Buy soundtrack -->
-  <BuySoundtrack>خرید موسیقی متن</BuySoundtrack>
   <!-- EN: Create world -->
   <CreateWorld>ایجاد جهان</CreateWorld>
-
+  <!-- EN: Buy soundtrack -->
+  <BuySoundtrack>خرید موسیقی متن</BuySoundtrack>
+  <!-- EN: RimWorld Soundtrack -->
+  <BuySoundtrack_Classic>TODO</BuySoundtrack_Classic>
+  <!-- EN: RimWorld - Royalty Soundtrack -->
+  <BuySoundtrack_Royalty>TODO</BuySoundtrack_Royalty>
+  <!-- EN: RimWorld - Anomaly Soundtrack -->
+  <BuySoundtrack_Anomaly>TODO</BuySoundtrack_Anomaly>
+  <!-- EN: RimWorld - Odyssey Soundtrack -->
+  <BuySoundtrack_Odyssey>TODO</BuySoundtrack_Odyssey>
+  
   <!-- Main menu translations info window -->
   <!-- EN: All translations of RimWorld are fan-made. This fan-made translation was created by the following excellent volunteers:\n\n{0} -->
   <TranslationThanks>تمام ترجمه های بازی لبه دنیا توسط طرفداران ساخته شده است. \n\n  این ترجمه توسط طرفداران عالی بالا ایجاد شده است: \n\n {0}</TranslationThanks>
@@ -755,5 +763,9 @@
   <FactionsDisabledWarning>بدون جناح‌های دیگر، حملات، تجارت و ماموریت‌ها به طور عادی رخ نخواهند داد.</FactionsDisabledWarning>
   <!-- EN: Cannot be removed for this scenario. -->
   <FactionRemovalDisabled>TODO</FactionRemovalDisabled>
+
+  <!-- UNUSED -->
+  <Forums>انجمن ها</Forums>
+  <TynansTwitter>توییتر Tynan</TynansTwitter>
 
 </LanguageData>
