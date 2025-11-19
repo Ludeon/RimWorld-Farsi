@@ -35,7 +35,7 @@
   <!-- EN: The scanner has gone offline. The quest [resolvedQuestName] has expired. -->
   <SurveySite.LetterTextQuestExpired.slateRef>TODO</SurveySite.LetterTextQuestExpired.slateRef>
   <!-- EN: {BASETEXT}\n\nThe [enemyFaction_pawnsPlural] [attackReason]. -->
-  <SurveySite.LetterTextSurveySiteRaid>TODO</SurveySite.LetterTextSurveySiteRaid>
+  <SurveySite.root.nodes.Root_SurveyScanner.raidLetterText>TODO</SurveySite.root.nodes.Root_SurveyScanner.raidLetterText>
   <!-- EN: Quest completed -->
   <SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.label.slateRef>TODO</SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.label.slateRef>
   <!-- EN: You have successfully completed the quest '[resolvedQuestName]'! -->

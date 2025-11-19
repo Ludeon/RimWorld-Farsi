@@ -7,7 +7,8 @@ namespace RTL_Persian
 {
     public static class PersianFixer
     {
-        // Maps raw character to [Isolated, Final, Initial, Medial] forms
+        // --- 1. Mappings ---
+        // Maps: [Isolated, Final, Initial, Medial]
         private static readonly Dictionary<char, char[]> Maps = new Dictionary<char, char[]>
         {
             { 'آ', new[] { 'آ', 'ﺂ', 'آ', 'ﺂ' } },
@@ -49,34 +50,43 @@ namespace RTL_Persian
             { 'ؤ', new[] { 'ؤ', 'ﺆ', 'ؤ', 'ﺆ' } },
             { 'إ', new[] { 'إ', 'ﺈ', 'إ', 'ﺈ' } },
             { 'أ', new[] { 'أ', 'ﺄ', 'أ', 'ﺄ' } },
-            { 'ﻻ', new[] { 'ﻻ', 'ﻼ', 'ﻻ', 'ﻼ' } }
+            // Lam-Alef Special Chars (0xFEFB is standard for La Isolated)
+            { (char)0xFEFB, new[] { 'ﻻ', 'ﻼ', 'ﻻ', 'ﻼ' } }
+        };
+
+        // Characters that do NOT connect to the left (Next character)
+        private static readonly HashSet<char> NonConnectors = new HashSet<char>
+        {
+            'آ', 'ا', 'د', 'ذ', 'ر', 'ز', 'ژ', 'و', 'ؤ', 'إ', 'أ',
+            (char)0xFEFB // Lam-Alef cannot connect to the next char
         };
 
         public static string Fix(string text)
         {
             if (string.IsNullOrEmpty(text)) return text;
 
-            // Quick check: does the string contain any Persian/Arabic characters?
-            // 0600-06FF is the main Arabic Unicode block
+            // 1. Check if processing is needed
             bool hasPersian = false;
             foreach (char c in text) { if (c >= 0x0600 && c <= 0x06FF) { hasPersian = true; break; } }
             if (!hasPersian) return text;
 
-            char[] chars = text.ToCharArray();
-            char[] fixedChars = new char[chars.Length];
+            // 2. Pre-process: Normalize & Handle Ligatures (Lam + Alef)
+            List<char> processed = PrepareText(text);
 
-            for (int i = 0; i < chars.Length; i++)
+            // 3. Reshape (Contextual Forms)
+            char[] fixedChars = new char[processed.Count];
+            for (int i = 0; i < processed.Count; i++)
             {
-                char c = chars[i];
+                char c = processed[i];
                 if (!Maps.ContainsKey(c))
                 {
                     fixedChars[i] = c;
                     continue;
                 }
 
-                // Logic to determine connectivity based on neighbors
-                bool prevConnects = (i > 0) && IsConnectable(chars[i - 1]) && CanConnectToNext(chars[i - 1]);
-                bool nextConnects = (i < chars.Length - 1) && IsConnectable(chars[i + 1]) && CanConnectToPrev(chars[i + 1]);
+                // Connectivity Logic
+                bool prevConnects = (i > 0) && Maps.ContainsKey(processed[i - 1]) && CanConnectToNext(processed[i - 1]);
+                bool nextConnects = (i < processed.Count - 1) && Maps.ContainsKey(processed[i + 1]) && true; // Right-to-left, "next" means left.
 
                 if (prevConnects && nextConnects)
                     fixedChars[i] = Maps[c][3]; // Medial
@@ -88,18 +98,43 @@ namespace RTL_Persian
                     fixedChars[i] = Maps[c][0]; // Isolated
             }
 
-            // Finally, reverse the string because Unity draws LTR
+            // 4. Reverse for Unity Rendering
             Array.Reverse(fixedChars);
             return new string(fixedChars);
         }
 
-        private static bool IsConnectable(char c) => Maps.ContainsKey(c);
+        private static List<char> PrepareText(string text)
+        {
+            List<char> result = new List<char>();
+            char[] chars = text.ToCharArray();
 
-        // Letters that cannot connect to the NEXT letter (Left side in RTL)
-        private static readonly HashSet<char> NonConnectors = new HashSet<char>
-        { 'آ', 'ا', 'د', 'ذ', 'ر', 'ز', 'ژ', 'و', 'ؤ', 'إ', 'أ' };
+            for (int i = 0; i < chars.Length; i++)
+            {
+                char c = chars[i];
+
+                // A. Normalization (Arabic -> Persian)
+                if (c == 'ي') c = 'ی';
+                if (c == 'ك') c = 'ک';
+
+                // B. Ligature Check: Lam (ل) + Alef (ا)
+                if (c == 'ل' && i + 1 < chars.Length)
+                {
+                    char next = chars[i + 1];
+                    // Check various forms of Alef
+                    if (next == 'ا' || next == 'آ' || next == 'أ' || next == 'إ')
+                    {
+                        // Replace 'Lam' + 'Alef' with single special char 0xFEFB
+                        result.Add((char)0xFEFB);
+                        i++; // Skip the Alef
+                        continue;
+                    }
+                }
+
+                result.Add(c);
+            }
+            return result;
+        }
 
         private static bool CanConnectToNext(char c) => !NonConnectors.Contains(c);
-        private static bool CanConnectToPrev(char c) => true;
     }
 }
