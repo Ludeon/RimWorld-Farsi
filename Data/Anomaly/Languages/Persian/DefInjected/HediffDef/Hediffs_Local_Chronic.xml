@@ -2,44 +2,54 @@
 <LanguageData>
   
   <!-- EN: organ decay -->
-  <OrganDecayCreepjoiner.label>TODO</OrganDecayCreepjoiner.label>
+  <OrganDecayCreepjoiner.label>پوسیدگی عضو</OrganDecayCreepjoiner.label>
   <!-- EN: An untreatable degenerative disease affecting a single organ. The cause may be bacterial or viral. The illness seems to strike randomly from an unknown natural reservoir; it is not directly contagious between people.\n\nThis organ will slowly lose function before dying completely. Replace it with a bionic or natural organ. -->
-  <OrganDecayCreepjoiner.description>TODO</OrganDecayCreepjoiner.description>
+  <OrganDecayCreepjoiner.description>بیماری تخریبی غیرقابل درمان که یک عضو منفرد را تحت تأثیر قرار می‌دهد. علت ممکن است باکتریایی یا ویروسی باشد. این بیماری به نظر می‌رسد به طور تصادفی از مخزن طبیعی ناشناخته‌ای حمله می‌کند؛ مستقیماً بین افراد مسری نیست.
+
+این عضو به آرامی عملکردش را از دست می‌دهد قبل از اینکه کاملاً بمیرد. آن را با یک عضو بایونیک یا طبیعی جایگزین کنید.</OrganDecayCreepjoiner.description>
   <!-- EN: {PAWN_labelShort}'s {1} was destroyed by organ decay. -->
-  <OrganDecayCreepjoiner.comps.HediffComp_DestroyOrgan.messageText>TODO</OrganDecayCreepjoiner.comps.HediffComp_DestroyOrgan.messageText>
+  <OrganDecayCreepjoiner.comps.HediffComp_DestroyOrgan.messageText>{1} {PAWN_labelShort} توسط پوسیدگی عضو نابود شد.</OrganDecayCreepjoiner.comps.HediffComp_DestroyOrgan.messageText>
   <!-- EN: minor -->
-  <OrganDecayCreepjoiner.stages.minor.label>TODO</OrganDecayCreepjoiner.stages.minor.label>
+  <OrganDecayCreepjoiner.stages.minor.label>جزئی</OrganDecayCreepjoiner.stages.minor.label>
   <!-- EN: moderate -->
-  <OrganDecayCreepjoiner.stages.moderate.label>TODO</OrganDecayCreepjoiner.stages.moderate.label>
+  <OrganDecayCreepjoiner.stages.moderate.label>متوسط</OrganDecayCreepjoiner.stages.moderate.label>
   <!-- EN: severe -->
-  <OrganDecayCreepjoiner.stages.severe.label>TODO</OrganDecayCreepjoiner.stages.severe.label>
+  <OrganDecayCreepjoiner.stages.severe.label>شدید</OrganDecayCreepjoiner.stages.severe.label>
   <!-- EN: extreme -->
-  <OrganDecayCreepjoiner.stages.extreme.label>TODO</OrganDecayCreepjoiner.stages.extreme.label>
+  <OrganDecayCreepjoiner.stages.extreme.label>خیلی شدید</OrganDecayCreepjoiner.stages.extreme.label>
   
   <!-- EN: organ decay -->
-  <OrganDecayUndiagnosedCreepjoiner.label>TODO</OrganDecayUndiagnosedCreepjoiner.label>
+  <OrganDecayUndiagnosedCreepjoiner.label>پوسیدگی عضو</OrganDecayUndiagnosedCreepjoiner.label>
   <!-- EN: This person is showing early signs of a severe condition which will cause their organs to rapidly deteriorate. They will begin to display symptoms within a matter of days. -->
-  <OrganDecayUndiagnosedCreepjoiner.description>TODO</OrganDecayUndiagnosedCreepjoiner.description>
+  <OrganDecayUndiagnosedCreepjoiner.description>این شخص نشانه‌های اولیه وضعیت شدیدی را نشان می‌دهد که باعث پوسیدگی سریع اعضایش خواهد شد. طی چند روز شروع به نشان دادن علائم خواهد کرد.</OrganDecayUndiagnosedCreepjoiner.description>
   <!-- EN: {PAWN_nameDef} is showing early signs of a severe condition which will cause their organs to rapidly deteriorate. {SURGEON_nameDef} can't yet tell exactly what is causing this, but {PAWN_nameDef} will become very ill within the next few days. -->
-  <OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>TODO</OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef} نشانه‌های اولیه وضعیت شدیدی را نشان می‌دهد که به زودی باعث پوسیدگی سریع اعضایش خواهد شد. {SURGEON_nameDef} هنوز نمی‌تواند دقیقاً بگوید چه چیزی باعث این موضوع می‌شود، اما {PAWN_nameDef} طی چند روز آینده بسیار بیمار خواهد شد.</OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
   <!-- EN: {PAWN_nameDef} can no longer hide {PAWN_possessive} crippling condition. {PAWN_possessive} body is riddled with rotting organs - {PAWN_pronoun} is little more than a walking corpse. {PAWN_nameDef} has organ decay affecting the following body parts:\n\n{ORGANS}\n\nReplace the organs soon to keep {PAWN_nameDef} healthy. You can use bionic organs or natural ones taken from donors. -->
-  <OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>TODO</OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>
+  <OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>{PAWN_nameDef} دیگر نمی‌تواند وضعیت فلج‌کننده‌اش را مخفی کند. بدن {PAWN_possessive} پر از اعضای در حال پوسیدن است - {PAWN_pronoun} چیزی بیشتر از جسد متحرک نیست. {PAWN_nameDef} پوسیدگی عضو دارد که قسمت‌های بدنی زیر را تحت تأثیر قرار می‌دهد:
+
+{ORGANS}
+
+به زودی اعضا را جایگزین کنید تا {PAWN_nameDef} سالم بماند. می‌توانید از اعضای بایونیک یا طبیعی اهداکنندگان استفاده کنید.</OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>
   <!-- EN: Organ decay: {PAWN_nameDef} -->
-  <OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterLabel>TODO</OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterLabel>
+  <OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterLabel>پوسیدگی عضو: {PAWN_nameDef}</OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterLabel>
   <!-- EN: diagnosed -->
-  <OrganDecayUndiagnosedCreepjoiner.stages.diagnosed.label>TODO</OrganDecayUndiagnosedCreepjoiner.stages.diagnosed.label>
+  <OrganDecayUndiagnosedCreepjoiner.stages.diagnosed.label>تشخیص داده شده</OrganDecayUndiagnosedCreepjoiner.stages.diagnosed.label>
   
   <!-- EN: organ decay -->
-  <OrganDecayUndiagnosedDuplicaton.label>TODO</OrganDecayUndiagnosedDuplicaton.label>
+  <OrganDecayUndiagnosedDuplicaton.label>پوسیدگی عضو</OrganDecayUndiagnosedDuplicaton.label>
   <!-- EN: This person is showing early signs of a severe condition which will cause their organs to rapidly deteriorate. They will begin to display symptoms within a matter of days. -->
-  <OrganDecayUndiagnosedDuplicaton.description>TODO</OrganDecayUndiagnosedDuplicaton.description>
+  <OrganDecayUndiagnosedDuplicaton.description>این شخص نشانه‌های اولیه وضعیت شدیدی را نشان می‌دهد که باعث پوسیدگی سریع اعضایش خواهد شد. طی چند روز شروع به نشان دادن علائم خواهد کرد.</OrganDecayUndiagnosedDuplicaton.description>
   <!-- EN: {PAWN_nameDef} is showing early signs of a severe condition which will cause their organs to rapidly deteriorate. {SURGEON_nameDef} can't yet tell exactly what is causing this, but {PAWN_nameDef} will become very ill within the next few days. -->
-  <OrganDecayUndiagnosedDuplicaton.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>TODO</OrganDecayUndiagnosedDuplicaton.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <OrganDecayUndiagnosedDuplicaton.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef} نشانه‌های اولیه وضعیت شدیدی را نشان می‌دهد که به زودی باعث پوسیدگی سریع اعضایش خواهد شد. {SURGEON_nameDef} هنوز نمی‌تواند دقیقاً بگوید چه چیزی باعث این موضوع می‌شود، اما {PAWN_nameDef} طی چند روز آینده بسیار بیمار خواهد شد.</OrganDecayUndiagnosedDuplicaton.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
   <!-- EN: {PAWN_nameDef} can no longer hide {PAWN_possessive} crippling condition. The duplication process has left {PAWN_possessive} body riddled with rotting organs. {PAWN_nameDef} has organ decay affecting the following body parts:\n\n{ORGANS}\n\nReplace the organs soon to keep {PAWN_nameDef} healthy. You can use bionic organs or natural ones taken from donors. -->
-  <OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterDesc>TODO</OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterDesc>
+  <OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterDesc>{PAWN_nameDef} دیگر نمی‌تواند وضعیت فلج‌کننده‌اش را مخفی کند. فرآیند تکثیر بدن {PAWN_possessive} را پر از اعضای در حال پوسیدن کرده است. {PAWN_nameDef} پوسیدگی عضو دارد که قسمت‌های بدنی زیر را تحت تأثیر قرار می‌دهد:
+
+{ORGANS}
+
+به زودی اعضا را جایگزین کنید تا {PAWN_nameDef} سالم بماند. می‌توانید از اعضای بایونیک یا طبیعی اهداکنندگان استفاده کنید.</OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterDesc>
   <!-- EN: Organ decay: {PAWN_nameDef} -->
-  <OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterLabel>TODO</OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterLabel>
+  <OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterLabel>پوسیدگی عضو: {PAWN_nameDef}</OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterLabel>
   <!-- EN: diagnosed -->
-  <OrganDecayUndiagnosedDuplicaton.stages.diagnosed.label>TODO</OrganDecayUndiagnosedDuplicaton.stages.diagnosed.label>
+  <OrganDecayUndiagnosedDuplicaton.stages.diagnosed.label>تشخیص داده شده</OrganDecayUndiagnosedDuplicaton.stages.diagnosed.label>
   
 </LanguageData>

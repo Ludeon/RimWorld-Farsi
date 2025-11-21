@@ -2,41 +2,49 @@
 <LanguageData>
   
   <!-- EN: blood rain frenzy -->
-  <BloodRain.label>TODO</BloodRain.label>
+  <BloodRain.label>جنون باران خونی</BloodRain.label>
   <!-- EN: Blood-like fluid falls from the sky. Anyone outside will be driven into a berserk frenzy. -->
-  <BloodRain.description>TODO</BloodRain.description>
+  <BloodRain.description>مایع خونی از آسمان می‌بارد. هر کسی در فضای باز باشد به جنون وحشیانه کشیده خواهد شد.</BloodRain.description>
   <!-- EN: The blood rain is ending. -->
-  <BloodRain.endMessage>TODO</BloodRain.endMessage>
+  <BloodRain.endMessage>باران خونی در حال پایان یافتن است.</BloodRain.endMessage>
   <!-- EN: Drops of thick blood-like fluid have begun falling from the sky.\n\nAnyone exposed feels a growing anger which strengthens melee attacks but will eventually become a berserk rage. Exposed animals will eventually become manhunters. The intensity of the effect varies between individuals depending on their traits, psychic sensitivity, and random individual factors. -->
-  <BloodRain.letterText>TODO</BloodRain.letterText>
+  <BloodRain.letterText>قطرات مایع غلیظ خونی از آسمان شروع به باریدن کرده‌اند.
+
+هر کسی که در معرض قرار گیرد خشم فزاینده‌ای احساس می‌کند که حملات نزدیک را تقویت می‌کند اما در نهایت به جنون وحشیانه تبدیل می‌شود. حیوانات در معرض نهایتاً شکارچی انسان خواهند شد. شدت اثر بین افراد بر اساس ویژگی‌هایشان، حساسیت روانی و عوامل فردی تصادفی متفاوت است.</BloodRain.letterText>
   
   <!-- EN: death pall resurrection -->
-  <DeathPall.label>TODO</DeathPall.label>
+  <DeathPall.label>احیای پرده مرگ</DeathPall.label>
   <!-- EN: The dead will rise! Burn, bury, destroy, or move corpses indoors to prevent them from resurrecting. -->
-  <DeathPall.description>TODO</DeathPall.description>
+  <DeathPall.description>مردگان برخواهند خاست! اجساد را بسوزانید، دفن کنید، نابود کنید یا داخل خانه ببرید تا از احیای آن‌ها جلوگیری کنید.</DeathPall.description>
   <!-- EN: A death-gray cloud has descended on the area.\n\nThe cloud is made of microscopic self-powered archites created by some unknown superintelligence. Where they land on dead flesh, they will enter the body and reanimate it to create a twisted imitation of life.\n\nThe dead will rise! Burn, bury, destroy, or move corpses indoors to prevent them from resurrecting. -->
-  <DeathPall.letterText>TODO</DeathPall.letterText>
+  <DeathPall.letterText>ابری خاکستری جسدی بر منطقه فرود آمده است.
+
+این ابر متشکل از آرکایت‌های میکروسکوپی خودکار است که توسط هوش сверх ناشناخته‌ای ایجاد شده‌اند. آن‌ها روی گوشت مرده فرود می‌آیند و وارد بدن می‌شوند و آن را دوباره زنده می‌کنند تا تقلیدی پیچ‌خورده از زندگی ایجاد کنند.
+
+مردگان برخواهند خاست! اجساد را بسوزانید، دفن کنید، نابود کنید یا داخل خانه ببرید تا از احیای آن‌ها جلوگیری کنید.</DeathPall.letterText>
   
   <!-- EN: gray pall stench -->
-  <GrayPall.label>TODO</GrayPall.label>
+  <GrayPall.label>بوی بد پرده خاکستری</GrayPall.label>
   <!-- EN: A putrid stench fills the air, making people unhappy. The smell is worse outside. -->
-  <GrayPall.description>TODO</GrayPall.description>
+  <GrayPall.description>بوی تعفن فضا را پر کرده و مردم را ناراحت می‌کند. بوی آن در فضای باز بدتر است.</GrayPall.description>
   <!-- EN: A blanket of gritty fog has descended on this area. It smells somehow ancient and stings the skin. The unnatural grayness of it invokes a sense of dread. -->
-  <GrayPall.letterText>TODO</GrayPall.letterText>
+  <GrayPall.letterText>پتویی از مه ماسه‌ای بر این منطقه فرود آمده است. به نظر می‌رسد باستانی بو می‌کشد و پوست را می‌سوزاند. خاکستری غیرطبیعی آن حسی از هراس ایجاد می‌کند.</GrayPall.letterText>
   
   <!-- EN: hate chanting -->
-  <HateChantDrone.label>TODO</HateChantDrone.label>
+  <HateChantDrone.label>سرود نفرت</HateChantDrone.label>
   <!-- EN: Cultists of Horax are performing a psychically tuned chant. The ominous chanting conveys a dark and dreamlike hatred. It makes your head pound and your skin crawl. So long as the drone continues, colonists will be unhappy.\n\nThe chant will continue to grow more powerful as long as the cultists are not stopped. -->
-  <HateChantDrone.description>TODO</HateChantDrone.description>
+  <HateChantDrone.description>کلی‌های هواراکس در حال اجرای سرودی روانی هستند. سرود شوم نفرت تاریک و رویاگونه‌ای را منتقل می‌کند. سرتان را می‌فشارد و پوستتان را می‌خارد. تا زمانی که این نغمه ادامه یابد، شهروندان ناراحت خواهند بود.
+
+سرود تا زمانی که کلی‌ها متوقف نشوند به رشد قدرت ادامه خواهد داد.</HateChantDrone.description>
   
   <!-- EN: unnatural darkness -->
-  <UnnaturalDarkness.label>TODO</UnnaturalDarkness.label>
+  <UnnaturalDarkness.label>تاریکی غیرطبیعی</UnnaturalDarkness.label>
   <!-- EN: The world is blanketed by a layer of unnatural darkness. From the inky blackness, one can hear the inhuman groaning of deadly creatures. Stay in the light. -->
-  <UnnaturalDarkness.description>TODO</UnnaturalDarkness.description>
+  <UnnaturalDarkness.description>جهان با لایه‌ای از تاریکی غیرطبیعی پوشیده شده است. از سیاهی جوهری می‌توان ناله غیرانسانی موجودات مرگبار را شنید. در نور بمانید.</UnnaturalDarkness.description>
   
   <!-- EN: unnatural heat -->
-  <UnnaturalHeat.label>TODO</UnnaturalHeat.label>
+  <UnnaturalHeat.label>گرمای غیرطبیعی</UnnaturalHeat.label>
   <!-- EN: A thermal projection device is agitating gas molecules in the atmosphere, raising outdoor temperatures. -->
-  <UnnaturalHeat.description>TODO</UnnaturalHeat.description>
+  <UnnaturalHeat.description>دستگاه پروجکشن حرارتی مولکول‌های گاز در اتمسفر را به هم می‌زند و دمای فضای باز را افزایش می‌دهد.</UnnaturalHeat.description>
   
 </LanguageData>

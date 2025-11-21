@@ -2,53 +2,53 @@
 <LanguageData>
   
   <!-- EN: alchemist -->
-  <Alchemist.label>TODO</Alchemist.label>
+  <Alchemist.label>کیمیاگر</Alchemist.label>
   <!-- EN: {PAWN_nameDef} claims an extensive knowledge of alchemical practice. {PAWN_pronoun} can, using unknown archotechnological influence, transmute steel into various valuable resources. -->
-  <Alchemist.letterExtra>TODO</Alchemist.letterExtra>
+  <Alchemist.letterExtra>{PAWN_nameDef} ادعا می‌کند دانش گسترده‌ای از عمل کیمیا دارد. {PAWN_pronoun} می‌تواند با استفاده از تأثیر آرکوتکنولوژی ناشناخته، فولاد را به منابع باارزش مختلف دگرگون کند.</Alchemist.letterExtra>
   
   <!-- EN: body mastery -->
-  <BodyMastery.label>TODO</BodyMastery.label>
+  <BodyMastery.label>تسلط بدنی</BodyMastery.label>
   <!-- EN: {PAWN_nameDef}'s eyes are pure white. Using local folk knowledge, {PAWN_pronoun} has mastered {PAWN_possessive} metabolic and circadian rhythms. At least, that's what {PAWN_pronoun} claims. {PAWN_nameDef} never sleeps and doesn't need to eat, though in {PAWN_possessive} eyes you see a primal hunger. -->
-  <BodyMastery.letterExtra>TODO</BodyMastery.letterExtra>
+  <BodyMastery.letterExtra>چشمان {PAWN_nameDef} سفید خالص است. با استفاده از دانش عامیانه محلی، {PAWN_pronoun} بر ریتم‌های متابولیک و شبانه‌روزی {PAWN_possessive} تسلط یافته است. حداقل، این چیزی است که {PAWN_pronoun} ادعا می‌کند. {PAWN_nameDef} هرگز نمی‌خوابد و نیازی به غذا خوردن ندارد، هرچند در چشمان {PAWN_possessive} گرسنگی اولیه‌ای می‌بینید.</BodyMastery.letterExtra>
   
   <!-- EN: death refusal -->
-  <DeathRefusal.label>TODO</DeathRefusal.label>
+  <DeathRefusal.label>امتناع از مرگ</DeathRefusal.label>
   <!-- EN: As the former subject of a cultist ritual, {PAWN_nameDef} has the ability to defy death. Black archotechnology courses throughout {PAWN_possessive} body, allowing {PAWN_objective} to self-resurrect. When {PAWN_pronoun} does, {PAWN_possessive} flesh rapidly reforms, replacing missing organs and healing wounds. The process is, however, imperfect. -->
-  <DeathRefusal.letterExtra>TODO</DeathRefusal.letterExtra>
+  <DeathRefusal.letterExtra>به عنوان موضوع سابق یک آیین کلی، {PAWN_nameDef} توانایی نافرمانی از مرگ را دارد. آرکوتکنولوژی سیاه در سراسر بدن {PAWN_possessive} جریان دارد و به {PAWN_objective} اجازه می‌دهد خود را دوباره زنده کند. وقتی {PAWN_pronoun} این کار را می‌کند، گوشت {PAWN_possessive} به سرعت دوباره شکل می‌گیرد و اندام‌های مفقود را جایگزین می‌کند و زخم‌ها را التیام می‌بخشد. با این حال، این فرآیند ناقص است.</DeathRefusal.letterExtra>
   
   <!-- EN: fleshcrafter -->
-  <Fleshcrafter.label>TODO</Fleshcrafter.label>
+  <Fleshcrafter.label>سازنده گوشت</Fleshcrafter.label>
   <!-- EN: {PAWN_nameDef} claims to be gifted with the dark art of animating dead flesh. {PAWN_pronoun} can turn corpses into hideous fleshbeasts. -->
-  <Fleshcrafter.letterExtra>TODO</Fleshcrafter.letterExtra>
+  <Fleshcrafter.letterExtra>{PAWN_nameDef} ادعا می‌کند با هنر تاریک احیای گوشت مرده هدیه شده است. {PAWN_pronoun} می‌تواند اجساد را به موجودات گوشتی زشت تبدیل کند.</Fleshcrafter.letterExtra>
   
   <!-- EN: joybringer -->
-  <Joybringer.label>TODO</Joybringer.label>
+  <Joybringer.label>آورنده شادی</Joybringer.label>
   <!-- EN: {PAWN_nameDef} is a bringer of joy and serenity whose abilities go beyond mere charisma. {PAWN_pronoun} lifts spirits and inspires others by telling jokes and spreading blissful thoughts. -->
-  <Joybringer.letterExtra>TODO</Joybringer.letterExtra>
+  <Joybringer.letterExtra>{PAWN_nameDef} آورنده شادی و آرامشی است که توانایی‌هایش فراتر از جذابیت ساده می‌رود. {PAWN_pronoun} با تعریف جوک و انتشار افکار پر блажен روحیه را بالا می‌برد و دیگران را الهام می‌بخشد.</Joybringer.letterExtra>
   
   <!-- EN: occultist -->
-  <Occultist.label>TODO</Occultist.label>
+  <Occultist.label>متافیزیک‌دان</Occultist.label>
   <!-- EN: {PAWN_pronoun} is deeply knowledgeable of all things related to the void. {PAWN_pronoun} can study unnatural phenomena faster than others and will also teach others when {PAWN_pronoun} gets the chance. -->
-  <Occultist.letterExtra>TODO</Occultist.letterExtra>
+  <Occultist.letterExtra>{PAWN_pronoun} در عمق نسبت به تمام چیزهای مرتبط با خلأ دانشمند است. {PAWN_pronoun} می‌تواند پدیده‌های غیرطبیعی را سریع‌تر از دیگران مطالعه کند و همچنین هنگامی که {PAWN_pronoun} فرصت می‌یابد، به دیگران آموزش خواهد داد.</Occultist.letterExtra>
   
   <!-- EN: perfect human -->
-  <PerfectHuman.label>TODO</PerfectHuman.label>
+  <PerfectHuman.label>انسان کامل</PerfectHuman.label>
   <!-- EN: {PAWN_nameDef} is skilled in everything to an unnatural degree. Regardless of the subject, {PAWN_pronoun} has mastered it. In addition, {PAWN_possessive} work ethic is remarkable. {PAWN_pronoun} appears to be the perfect worker. -->
-  <PerfectHuman.letterExtra>TODO</PerfectHuman.letterExtra>
+  <PerfectHuman.letterExtra>{PAWN_nameDef} در همه چیز به درجه غیرطبیعی ماهر است. بدون توجه به موضوع، {PAWN_pronoun} بر آن تسلط یافته است. علاوه بر این، اخلاق کاری {PAWN_possessive} قابل توجه است. {PAWN_pronoun} به نظر می‌رسد کارگر کاملی باشد.</PerfectHuman.letterExtra>
   
   <!-- EN: psychic butcher -->
-  <PsychicButcher.label>TODO</PsychicButcher.label>
+  <PsychicButcher.label>قصاب روانی</PsychicButcher.label>
   <!-- EN: Animals are skittish around {PAWN_nameDef}. {PAWN_pronoun} has the unnatural power to deform the flesh of living creatures, causing them to erupt into piles of twisted meat. {PAWN_nameDef} claims to use {PAWN_possessive} gift only to butcher animals - but it's clear {PAWN_pronoun} could just as easily butcher a person. -->
-  <PsychicButcher.letterExtra>TODO</PsychicButcher.letterExtra>
+  <PsychicButcher.letterExtra>حیوانات در اطراف {PAWN_nameDef} مضطرب هستند. {PAWN_pronoun} قدرت غیرطبیعی برای تغییر شکل گوشت موجودات زنده دارد که باعث می‌شود آن‌ها به توده‌های گوشت پیچ‌خورده منفجر شوند. {PAWN_nameDef} ادعا می‌کند که هدیه {PAWN_possessive} را فقط برای قصابی حیوانات استفاده می‌کند - اما واضح است که {PAWN_pronoun} به همان اندازه آسان می‌تواند یک شخص را هم قصابی کند.</PsychicButcher.letterExtra>
   
   <!-- EN: shambler overlord -->
-  <ShamblerOverlord.label>TODO</ShamblerOverlord.label>
+  <ShamblerOverlord.label>فرمانروای شامبلر</ShamblerOverlord.label>
   <!-- EN: {PAWN_nameDef}'s body is riddled with corrupt archites. {PAWN_pronoun} can release them at will, creating a cloud of deadlife dust which can reanimate nearby corpses. -->
-  <ShamblerOverlord.letterExtra>TODO</ShamblerOverlord.letterExtra>
+  <ShamblerOverlord.letterExtra>بدن {PAWN_nameDef} پر از آرکایت‌های فاسد است. {PAWN_pronoun} می‌تواند آن‌ها را به میل خود آزاد کند و ابری از گرد زنده‌مرده ایجاد کند که می‌تواند اجساد نزدیک را دوباره زنده کند.</ShamblerOverlord.letterExtra>
   
   <!-- EN: unnatural healing -->
-  <UnnaturalHealing.label>TODO</UnnaturalHealing.label>
+  <UnnaturalHealing.label>درمان غیرطبیعی</UnnaturalHealing.label>
   <!-- EN: {PAWN_pronoun} offers to use {PAWN_possessive} healing power to help you. -->
-  <UnnaturalHealing.letterExtra>TODO</UnnaturalHealing.letterExtra>
+  <UnnaturalHealing.letterExtra>{PAWN_pronoun} پیشنهاد می‌کند از قدرت التیام {PAWN_possessive} برای کمک به شما استفاده کند.</UnnaturalHealing.letterExtra>
   
 </LanguageData>

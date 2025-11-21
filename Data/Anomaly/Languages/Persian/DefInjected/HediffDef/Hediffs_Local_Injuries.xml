@@ -2,68 +2,68 @@
 <LanguageData>
   
   <!-- EN: digestion -->
-  <Digested.label>TODO</Digested.label>
+  <Digested.label>هضم شده</Digested.label>
   <!-- EN: This part has been digested. -->
-  <Digested.description>TODO</Digested.description>
+  <Digested.description>این قسمت هضم شده است.</Digested.description>
   <!-- EN: a digested part -->
-  <Digested.labelNoun>TODO</Digested.labelNoun>
+  <Digested.labelNoun>قسمت هضم شده</Digested.labelNoun>
   <!-- EN: digested {1} -->
-  <Digested.labelNounPretty>TODO</Digested.labelNounPretty>
+  <Digested.labelNounPretty>{1} هضم شده</Digested.labelNounPretty>
   
   <!-- EN: energy bolt -->
-  <EnergyBolt.label>TODO</EnergyBolt.label>
+  <EnergyBolt.label>گلوله انرژی</EnergyBolt.label>
   <!-- EN: A wound from an energy bolt. -->
-  <EnergyBolt.description>TODO</EnergyBolt.description>
+  <EnergyBolt.description>زخمی از گلوله انرژی.</EnergyBolt.description>
   <!-- EN: permanent energy bolt wound -->
-  <EnergyBolt.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>TODO</EnergyBolt.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>
+  <EnergyBolt.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>زخم دائمی گلوله انرژی</EnergyBolt.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>
   <!-- EN: old energy bolt wound -->
-  <EnergyBolt.comps.HediffComp_GetsPermanent.permanentLabel>TODO</EnergyBolt.comps.HediffComp_GetsPermanent.permanentLabel>
+  <EnergyBolt.comps.HediffComp_GetsPermanent.permanentLabel>زخم کهنه گلوله انرژی</EnergyBolt.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Blasted off -->
-  <EnergyBolt.injuryProps.destroyedLabel>TODO</EnergyBolt.injuryProps.destroyedLabel>
+  <EnergyBolt.injuryProps.destroyedLabel> منفجر شده</EnergyBolt.injuryProps.destroyedLabel>
   <!-- EN: Blasted out -->
-  <EnergyBolt.injuryProps.destroyedOutLabel>TODO</EnergyBolt.injuryProps.destroyedOutLabel>
+  <EnergyBolt.injuryProps.destroyedOutLabel> منفجر شده بیرون</EnergyBolt.injuryProps.destroyedOutLabel>
   <!-- EN: an energy bolt wound -->
-  <EnergyBolt.labelNoun>TODO</EnergyBolt.labelNoun>
+  <EnergyBolt.labelNoun>زخم گلوله انرژی</EnergyBolt.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <EnergyBolt.labelNounPretty>TODO</EnergyBolt.labelNounPretty>
+  <EnergyBolt.labelNounPretty>{0} در {1}</EnergyBolt.labelNounPretty>
   
   <!-- EN: psychic burn -->
-  <PsychicInjury.label>TODO</PsychicInjury.label>
+  <PsychicInjury.label>سوختگی روانی</PsychicInjury.label>
   <!-- EN: A psychic burn. -->
-  <PsychicInjury.description>TODO</PsychicInjury.description>
+  <PsychicInjury.description>سوختگی روانی.</PsychicInjury.description>
   <!-- EN: psychic scarring -->
-  <PsychicInjury.comps.HediffComp_GetsPermanent.permanentLabel>TODO</PsychicInjury.comps.HediffComp_GetsPermanent.permanentLabel>
+  <PsychicInjury.comps.HediffComp_GetsPermanent.permanentLabel>جای زخم روانی</PsychicInjury.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Psychically incinerated -->
-  <PsychicInjury.injuryProps.destroyedLabel>TODO</PsychicInjury.injuryProps.destroyedLabel>
+  <PsychicInjury.injuryProps.destroyedLabel>سوزانده شده به صورت روانی</PsychicInjury.injuryProps.destroyedLabel>
   <!-- EN: a psychic burn -->
-  <PsychicInjury.labelNoun>TODO</PsychicInjury.labelNoun>
+  <PsychicInjury.labelNoun>سوختگی روانی</PsychicInjury.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <PsychicInjury.labelNounPretty>TODO</PsychicInjury.labelNounPretty>
+  <PsychicInjury.labelNounPretty>{0} در {1}</PsychicInjury.labelNounPretty>
   
   <!-- EN: psychic burn -->
-  <PsychicInjurySkin.label>TODO</PsychicInjurySkin.label>
+  <PsychicInjurySkin.label>سوختگی روانی پوست</PsychicInjurySkin.label>
   <!-- EN: A psychic burn. -->
-  <PsychicInjurySkin.description>TODO</PsychicInjurySkin.description>
+  <PsychicInjurySkin.description>سوختگی روانی.</PsychicInjurySkin.description>
   <!-- EN: psychic scarring -->
-  <PsychicInjurySkin.comps.HediffComp_GetsPermanent.permanentLabel>TODO</PsychicInjurySkin.comps.HediffComp_GetsPermanent.permanentLabel>
+  <PsychicInjurySkin.comps.HediffComp_GetsPermanent.permanentLabel>جای زخم روانی</PsychicInjurySkin.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Psychically incinerated -->
-  <PsychicInjurySkin.injuryProps.destroyedLabel>TODO</PsychicInjurySkin.injuryProps.destroyedLabel>
+  <PsychicInjurySkin.injuryProps.destroyedLabel>سوزانده شده به صورت روانی</PsychicInjurySkin.injuryProps.destroyedLabel>
   <!-- EN: a psychic burn -->
-  <PsychicInjurySkin.labelNoun>TODO</PsychicInjurySkin.labelNoun>
+  <PsychicInjurySkin.labelNoun>سوختگی روانی</PsychicInjurySkin.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <PsychicInjurySkin.labelNounPretty>TODO</PsychicInjurySkin.labelNounPretty>
+  <PsychicInjurySkin.labelNounPretty>{0} در {1}</PsychicInjurySkin.labelNounPretty>
   
   <!-- EN: psychic burn -->
-  <PsychicInjurySolid.label>TODO</PsychicInjurySolid.label>
+  <PsychicInjurySolid.label>سوختگی روانی جامد</PsychicInjurySolid.label>
   <!-- EN: A psychic burn. -->
-  <PsychicInjurySolid.description>TODO</PsychicInjurySolid.description>
+  <PsychicInjurySolid.description>سوختگی روانی.</PsychicInjurySolid.description>
   <!-- EN: permanent psychic scarring -->
-  <PsychicInjurySolid.comps.HediffComp_GetsPermanent.permanentLabel>TODO</PsychicInjurySolid.comps.HediffComp_GetsPermanent.permanentLabel>
+  <PsychicInjurySolid.comps.HediffComp_GetsPermanent.permanentLabel>جای زخم روانی دائمی</PsychicInjurySolid.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Psychically incinerated -->
-  <PsychicInjurySolid.injuryProps.destroyedLabel>TODO</PsychicInjurySolid.injuryProps.destroyedLabel>
+  <PsychicInjurySolid.injuryProps.destroyedLabel>سوزانده شده به صورت روانی</PsychicInjurySolid.injuryProps.destroyedLabel>
   <!-- EN: a psychic burn -->
-  <PsychicInjurySolid.labelNoun>TODO</PsychicInjurySolid.labelNoun>
+  <PsychicInjurySolid.labelNoun>سوختگی روانی</PsychicInjurySolid.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <PsychicInjurySolid.labelNounPretty>TODO</PsychicInjurySolid.labelNounPretty>
+  <PsychicInjurySolid.labelNounPretty>{0} در {1}</PsychicInjurySolid.labelNounPretty>
   
 </LanguageData>

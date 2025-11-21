@@ -2,43 +2,74 @@
 <LanguageData>
   
   <!-- EN: anomaly research -->
-  <AnomalyResearch.label>TODO</AnomalyResearch.label>
+  <AnomalyResearch.label>پژوهش ناهنجاری</AnomalyResearch.label>
   <!-- EN: You must advance Anomaly research by studying unnatural entities.\n\nThere are two types of Anomaly research: BASIC and ADVANCED. Basic research projects progress when you study any entity; advanced projects only progress when you study advanced entities.\n\nYou can have a basic and an advanced project active at the same time. If no advanced project is active, advanced research will contribute to a basic project instead. -->
-  <AnomalyResearch.helpText>TODO</AnomalyResearch.helpText>
+  <AnomalyResearch.helpText>شما باید پژوهش ناهنجاری را با مطالعه موجودات غیرطبیعی پیش ببرید.
+
+دو نوع پژوهش ناهنجاری وجود دارد: پایه و پیشرفته. پروژه‌های پژوهشی پایه زمانی پیشرفت می‌کنند که شما هر موجودی را مطالعه کنید؛ پروژه‌های پیشرفته تنها زمانی پیشرفت می‌کنند که شما موجودات پیشرفته را مطالعه کنید.
+
+شما می‌توانید یک پروژه پایه و یک پروژه پیشرفته را به طور همزمان فعال داشته باشید. اگر هیچ پروژه پیشرفته‌ای فعال نباشد، پژوهش پیشرفته به جای آن به یک پروژه پایه کمک خواهد کرد.</AnomalyResearch.helpText>
   
   <!-- EN: capturing entities -->
-  <CapturingEntities.label>TODO</CapturingEntities.label>
+  <CapturingEntities.label>اسیر کردن موجودات</CapturingEntities.label>
   <!-- EN: When an entity is downed but alive, you can CAPTURE it. To capture, select a colonist, right-click on the entity, and select 'Capture'. You'll need an empty holding platform or spot.\n\nOnce the entity has been brought to the holding platform, you can study it to gain Anomaly research.\n\nTend an injured entity's wounds to make sure it survives. -->
-  <CapturingEntities.helpText>TODO</CapturingEntities.helpText>
+  <CapturingEntities.helpText>وقتی یک موجود ناتوان اما زنده است، می‌توانید آن را اسیر کنید. برای اسیر کردن، یک شهروند را انتخاب کنید، روی موجود راست‌کلیک کنید و 'اسیر کردن' را انتخاب کنید. شما به یک سکوی نگهداری خالی یا مکان نیاز خواهید داشت.
+
+هنگامی که موجود به سکوی نگهداری منتقل شد، می‌توانید آن را مطالعه کنید تا پژوهش ناهنجاری کسب کنید.
+
+زخم‌های یک موجود آسیب‌دیده را مراقبت کنید تا اطمینان حاصل کنید که زنده می‌ماند.</CapturingEntities.helpText>
   
   <!-- EN: ghouls -->
-  <ColonyGhouls.label>TODO</ColonyGhouls.label>
+  <ColonyGhouls.label>غول‌ها</ColonyGhouls.label>
   <!-- EN: Ghouls are humans twisted by bioferrite. They can quickly regenerate injuries, making them useful as melee fighters. However, they are incapable of work.\n\nGhouls only eat corpses and raw meat. If they go hungry, they can turn hostile. -->
-  <ColonyGhouls.helpText>TODO</ColonyGhouls.helpText>
+  <ColonyGhouls.helpText>غول‌ها انسان‌هایی هستند که توسط بیوفریت تابیده شده‌اند. آن‌ها می‌توانند به سرعت جراحات را بازسازی کنند، که این باعث می‌شود به عنوان رزمندگان نزدیک مفید باشند. با این حال، آن‌ها قادر به کار نیستند.
+
+غول‌ها فقط لاشه و گوشت خام می‌خورند. اگر گرسنه شوند، می‌توانند دشمن شوند.</ColonyGhouls.helpText>
   
   <!-- EN: containing entities -->
-  <ContainingEntities.label>TODO</ContainingEntities.label>
+  <ContainingEntities.label>مهار کردن موجودات</ContainingEntities.label>
   <!-- EN: It's best to hold entities in secure chambers with high CONTAINMENT STRENGTH or they'll soon escape. Containment strength is increased by:\n\n - Strong walls and doors\n - Good lighting\n - Electric inhibitors (needs research)\n - Bioferrite plate floors (needs research)\n\nOpen the entity's 'Entity' tab to configure how your colonists will interact with it. -->
-  <ContainingEntities.helpText>TODO</ContainingEntities.helpText>
+  <ContainingEntities.helpText>بهتر است موجودات را در اتاق‌های امن با قدرت مهار بالا نگه دارید، وگرنه به زودی فرار خواهند کرد. قدرت مهار توسط موارد زیر افزایش می‌یابد:
+
+ - دیوارها و درهای محکم
+ - نورپردازی خوب
+ - مهارکننده‌های الکتریکی (نیازمند پژوهش)
+ - کف‌های صفحه بیوفریت (نیازمند پژوهش)
+
+زبانه 'موجود' موجود را باز کنید تا تنظیم کنید که شهروندان شما چگونه با آن تعامل داشته باشند.</ContainingEntities.helpText>
   
   <!-- EN: entity codex -->
-  <EntityCodex.label>TODO</EntityCodex.label>
+  <EntityCodex.label>کدکس موجودات</EntityCodex.label>
   <!-- EN: Use the entity codex to track which entities you've discovered.\n\nDiscovering new entities will reveal hidden Anomaly research projects. Once enough entities have been discovered, you can increase the void monolith's level.\n\nOpen the entity codex using the entity codex icon in the lower right of the screen. -->
-  <EntityCodex.helpText>TODO</EntityCodex.helpText>
+  <EntityCodex.helpText>از کدکس موجودات برای پیگیری موجوداتی که کشف کرده‌اید استفاده کنید.
+
+کشف موجودات جدید پروژه‌های پژوهشی پنهان ناهنجاری را آشکار خواهد کرد. زمانی که به اندازه کافی موجود کشف شوند، می‌توانید سطح مونولیت خلأ را افزایش دهید.
+
+کدکس موجودات را با استفاده از آیکون کدکس موجودات در پایین سمت راست صفحه باز کنید.</EntityCodex.helpText>
   
   <!-- EN: studying entities -->
-  <StudyingEntities.label>TODO</StudyingEntities.label>
+  <StudyingEntities.label>مطالعه موجودات</StudyingEntities.label>
   <!-- EN: Colonists assigned to 'Dark study' work will STUDY diverse entities including creatures and structures.\n\nStudy structures like the void monolith by selecting it and toggling the 'Study' option. Some entities must be captured to a holding platform or spot before they can be studied.\n\nStudying advances Anomaly research projects. Open the 'Research' tab, then select the 'Anomaly' sub-tab to view Anomaly research projects. -->
-  <StudyingEntities.helpText>TODO</StudyingEntities.helpText>
+  <StudyingEntities.helpText>شهروندانی که به کار 'مطالعه تاریک' اختصاص داده شده‌اند، موجودات متنوع از جمله موجودات و ساختارها را مطالعه خواهند کرد.
+
+ساختارهایی مثل مونولیت خلأ را با انتخاب آن و تغییر گزینه 'مطالعه' مطالعه کنید. برخی موجودات باید برای مطالعه به سکوی نگهداری یا مکان منتقل شوند.
+
+مطالعه پروژه‌های پژوهشی ناهنجاری را پیش می‌برد. زبانه 'پژوهش' را باز کنید، سپس زیربخش 'ناهنجاری' را برای مشاهده پروژه‌های پژوهشی ناهنجاری انتخاب کنید.</StudyingEntities.helpText>
   
   <!-- EN: suppressing entities -->
-  <SuppressingEntities.label>TODO</SuppressingEntities.label>
+  <SuppressingEntities.label>سرکوب موجودات</SuppressingEntities.label>
   <!-- EN: Some entities become more active over time, even in captivity. If an entity's activity bar fills completely, it will do something extremely dangerous.\n\nTo prevent full activation, you must periodically SUPPRESS it. Wardens will suppress entities. -->
-  <SuppressingEntities.helpText>TODO</SuppressingEntities.helpText>
+  <SuppressingEntities.helpText>برخی موجودات با گذشت زمان فعال‌تر می‌شوند، حتی در اسارت. اگر نوار فعالیت یک موجود کاملاً پر شود، کاری فوق‌العاده خطرناک انجام خواهد داد.
+
+برای جلوگیری از فعال‌سازی کامل، شما باید به طور دوره‌ای آن را سرکوب کنید. نگهبانان موجودات را سرکوب خواهند کرد.</SuppressingEntities.helpText>
   
   <!-- EN: void provocation -->
-  <VoidProvocation.label>TODO</VoidProvocation.label>
+  <VoidProvocation.label>تحریک خلأ</VoidProvocation.label>
   <!-- EN: Use the void provocation psychic ritual to discover and capture new entities.\n\nDiscovering entities will let you advance the void monolith to higher levels, and unlock new research projects. Capturing more entities will let you complete Anomaly research projects faster.\n\nPlace a psychic ritual spot in order to perform the void provocation ritual. -->
-  <VoidProvocation.helpText>TODO</VoidProvocation.helpText>
+  <VoidProvocation.helpText>از آیین روانی تحریک خلأ برای کشف و اسیر کردن موجودات جدید استفاده کنید.
+
+کشف موجودات به شما اجازه می‌دهد مونولیت خلأ را به سطوح بالاتر ارتقا دهید و پروژه‌های پژوهشی جدید را باز کنید. اسیر کردن موجودات بیشتر به شما اجازه می‌دهد پروژه‌های پژوهشی ناهنجاری را سریع‌تر تکمیل کنید.
+
+یک مکان آیین روانی قرار دهید تا آیین تحریک خلأ را انجام دهید.</VoidProvocation.helpText>
   
 </LanguageData>
