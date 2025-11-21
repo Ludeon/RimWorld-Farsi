@@ -2,39 +2,46 @@
 <LanguageData>
   
   <!-- EN: charge blaster shot -->
-  <Bullet_ChargeBlasterHeavy.label>TODO</Bullet_ChargeBlasterHeavy.label>
+  <Bullet_ChargeBlasterHeavy.label>شلیک بلاستر شارژی</Bullet_ChargeBlasterHeavy.label>
   
   <!-- EN: inferno cannon shell -->
-  <Bullet_InfernoCannon.label>TODO</Bullet_InfernoCannon.label>
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: charge blaster shot -->
+  <Bullet_ChargeBlasterHeavy.label>شلیک بلاستر شارژی</Bullet_ChargeBlasterHeavy.label>
+  
+  <!-- EN: inferno cannon shell -->
+  <Bullet_InfernoCannon.label>گلوله توپ جهنمی</Bullet_InfernoCannon.label>
   
   <!-- EN: needle shot -->
-  <Bullet_NeedleGun.label>TODO</Bullet_NeedleGun.label>
+  <Bullet_NeedleGun.label>شلیک سوزنی</Bullet_NeedleGun.label>
   
   <!-- EN: heavy charge blaster -->
-  <Gun_ChargeBlasterHeavy.label>TODO</Gun_ChargeBlasterHeavy.label>
+  <Gun_ChargeBlasterHeavy.label>بلاستر شارژی سنگین</Gun_ChargeBlasterHeavy.label>
   <!-- EN: A pulse-charged rapid-fire blaster for area suppressive fire. Heavy cooling allows long, deadly bursts. -->
-  <Gun_ChargeBlasterHeavy.description>TODO</Gun_ChargeBlasterHeavy.description>
+  <Gun_ChargeBlasterHeavy.description>یک بلاستر تیر سریع با شارژ پالسی برای آتش سرکوبگر منطقه‌ای. خنک کننده سنگین اجازه شلیک‌های بلند و کشنده را می‌دهد.</Gun_ChargeBlasterHeavy.description>
   <!-- EN: barrel -->
-  <Gun_ChargeBlasterHeavy.tools.barrel.label>TODO</Gun_ChargeBlasterHeavy.tools.barrel.label>
+  <Gun_ChargeBlasterHeavy.tools.barrel.label>لوله</Gun_ChargeBlasterHeavy.tools.barrel.label>
   <!-- EN: heavy charge blaster -->
-  <Gun_ChargeBlasterHeavy.verbs.Verb_Shoot.label>TODO</Gun_ChargeBlasterHeavy.verbs.Verb_Shoot.label>
+  <Gun_ChargeBlasterHeavy.verbs.Verb_Shoot.label>بلاستر شارژی سنگین</Gun_ChargeBlasterHeavy.verbs.Verb_Shoot.label>
   
   <!-- EN: inferno cannon -->
-  <Gun_InfernoCannon.label>TODO</Gun_InfernoCannon.label>
+  <Gun_InfernoCannon.label>توپ جهنمی</Gun_InfernoCannon.label>
   <!-- EN: An incendiary-shot mini-artillery device. It fires a large incendiary warhead. -->
-  <Gun_InfernoCannon.description>TODO</Gun_InfernoCannon.description>
+  <Gun_InfernoCannon.description>یک دستگاه توپخانه مینی با شلیک آتش‌زا. یک کلاهک آتش‌زای بزرگ شلیک می‌کند.</Gun_InfernoCannon.description>
   <!-- EN: barrel -->
-  <Gun_InfernoCannon.tools.barrel.label>TODO</Gun_InfernoCannon.tools.barrel.label>
+  <Gun_InfernoCannon.tools.barrel.label>لوله</Gun_InfernoCannon.tools.barrel.label>
   <!-- EN: inferno cannon -->
-  <Gun_InfernoCannon.verbs.Verb_Shoot.label>TODO</Gun_InfernoCannon.verbs.Verb_Shoot.label>
+  <Gun_InfernoCannon.verbs.Verb_Shoot.label>توپ جهنمی</Gun_InfernoCannon.verbs.Verb_Shoot.label>
   
   <!-- EN: needle gun -->
-  <Gun_Needle.label>TODO</Gun_Needle.label>
+  <Gun_Needle.label>تفنگ سوزنی</Gun_Needle.label>
   <!-- EN: A long-range weapon used by mechanoids. Named after its needle-like projectiles, it fires single shots with great accuracy. While it does less damage than charge weapons, it can reach over very long distances. -->
-  <Gun_Needle.description>TODO</Gun_Needle.description>
+  <Gun_Needle.description>یک سلاح برد بلند استفاده شده توسط مکانوئیدها. به نام پرتابه‌های سوزنی مانندش نامیده شده، با دقت عالی تک تیر شلیک می‌کند. اگرچه آسیب کمتری نسبت به سلاح‌های شارژی وارد می‌کند، می‌تواند به فاصله‌های بسیار بلند برسد.</Gun_Needle.description>
   <!-- EN: barrel -->
-  <Gun_Needle.tools.barrel.label>TODO</Gun_Needle.tools.barrel.label>
+  <Gun_Needle.tools.barrel.label>لوله</Gun_Needle.tools.barrel.label>
   <!-- EN: needle gun -->
-  <Gun_Needle.verbs.Verb_Shoot.label>TODO</Gun_Needle.verbs.Verb_Shoot.label>
+  <Gun_Needle.verbs.Verb_Shoot.label>تفنگ سوزنی</Gun_Needle.verbs.Verb_Shoot.label>
   
 </LanguageData>
