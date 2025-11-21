@@ -2,94 +2,94 @@
 <LanguageData>
   
   <!-- EN: bulbfreak -->
-  <Bulbfreak.label>TODO</Bulbfreak.label>
+  <Bulbfreak.label>پیچک‌پیچ</Bulbfreak.label>
   <!-- EN: A horrid oozing amalgamation of many smaller fleshbeasts, all controlled by a linked nervous system. It has two large claws which it uses to tear through its victims. Bulbfreaks are often smelled before they are seen, giving off an overwhelming odor of rancid meat. They are relatively slow and easy to kill, but once they die, they explode into a horde of smaller fleshbeasts. -->
-  <Bulbfreak.description>TODO</Bulbfreak.description>
+  <Bulbfreak.description>آمیزه‌ای چرکین و نشت‌کننده از چندین موجود کوچک گوشتی، همه تحت کنترل سیستم عصبی مرتبط. دو پنجه بزرگ دارد که برای دریدن قربانیانش استفاده می‌کند. پیچک‌پیچ‌ها معمولاً قبل از دیده شدن بوییده می‌شوند و بوی طاقت‌فرسای گوشت فاسد از خود ساطع می‌کنند. نسبتاً کند هستند و کشتنشان آسان است، اما وقتی می‌میرند، به جمعیتی از موجودات کوچک‌تر منفجر می‌شوند.</Bulbfreak.description>
   <!-- EN: Emerged from {SOURCEPAWN_labelShort}. -->
-  <Bulbfreak.comps.CompInspectStringEmergence.inspectString>TODO</Bulbfreak.comps.CompInspectStringEmergence.inspectString>
+  <Bulbfreak.comps.CompInspectStringEmergence.inspectString>از {SOURCEPAWN_labelShort} ظهور کرد.</Bulbfreak.comps.CompInspectStringEmergence.inspectString>
   <!-- EN: tentacle -->
-  <Bulbfreak.tools.tentacle-0.label>TODO</Bulbfreak.tools.tentacle-0.label>
+  <Bulbfreak.tools.tentacle-0.label>چنگال</Bulbfreak.tools.tentacle-0.label>
   <!-- EN: tentacle -->
-  <Bulbfreak.tools.tentacle-1.label>TODO</Bulbfreak.tools.tentacle-1.label>
+  <Bulbfreak.tools.tentacle-1.label>چنگال</Bulbfreak.tools.tentacle-1.label>
   <!-- EN: tentacle -->
-  <Bulbfreak.tools.tentacle-2.label>TODO</Bulbfreak.tools.tentacle-2.label>
+  <Bulbfreak.tools.tentacle-2.label>چنگال</Bulbfreak.tools.tentacle-2.label>
   <!-- EN: tentacle -->
-  <Bulbfreak.tools.tentacle-3.label>TODO</Bulbfreak.tools.tentacle-3.label>
+  <Bulbfreak.tools.tentacle-3.label>چنگال</Bulbfreak.tools.tentacle-3.label>
   <!-- EN: tentacle -->
-  <Bulbfreak.tools.tentacle-4.label>TODO</Bulbfreak.tools.tentacle-4.label>
+  <Bulbfreak.tools.tentacle-4.label>چنگال</Bulbfreak.tools.tentacle-4.label>
   <!-- EN: head -->
-  <Bulbfreak.tools.head.label>TODO</Bulbfreak.tools.head.label>
+  <Bulbfreak.tools.head.label>سر</Bulbfreak.tools.head.label>
   
   <!-- EN: dreadmeld -->
-  <Dreadmeld.label>TODO</Dreadmeld.label>
+  <Dreadmeld.label>دردآمیز</Dreadmeld.label>
   <!-- EN: A gargantuan amalgamation of dozens of smaller fleshbeasts linked together by a loosely shared central nervous system. It uses its massive claws to dig tunnels through solid rock. Fleshbeast dreadmelds are rarely seen above ground, instead sheltering in caverns built from living flesh. They share a psychic connection with the flesh used to create their burrow. -->
-  <Dreadmeld.description>TODO</Dreadmeld.description>
+  <Dreadmeld.description>آمیزه‌ای عظیم از چندین موجود کوچک گوشتی متصل شده توسط سیستم عصبی مرکزی مشترک. از پنجه‌های عظیمش برای حفر تونل در سنگ جامد استفاده می‌کند. دردآمیزها به ندرت در بالای زمین دیده می‌شوند، در عوض در غارهای ساخته شده از گوشت زنده پناه می‌گیرند. اتصال روانی با گوشت مورد استفاده برای ایجاد لانه‌شان دارند.</Dreadmeld.description>
   <!-- EN: Emerged from {SOURCEPAWN_labelShort}. -->
-  <Dreadmeld.comps.CompInspectStringEmergence.inspectString>TODO</Dreadmeld.comps.CompInspectStringEmergence.inspectString>
+  <Dreadmeld.comps.CompInspectStringEmergence.inspectString>از {SOURCEPAWN_labelShort} ظهور کرد.</Dreadmeld.comps.CompInspectStringEmergence.inspectString>
   <!-- EN: Dreadmeld released -->
-  <Dreadmeld.comps.CompLetterOnRevealed.label>TODO</Dreadmeld.comps.CompLetterOnRevealed.label>
+  <Dreadmeld.comps.CompLetterOnRevealed.label>دردآمیز آزاد شده</Dreadmeld.comps.CompLetterOnRevealed.label>
   <!-- EN: You've discovered a fleshbeast dreadmeld! This mammoth creature seems to be made up of dozens of smaller fleshbeasts.\n\nIt appears to have some psychic connection to the fleshmass that supports this cavern. Killing it may destabilize the entire cave system. -->
-  <Dreadmeld.comps.CompLetterOnRevealed.text>TODO</Dreadmeld.comps.CompLetterOnRevealed.text>
+  <Dreadmeld.comps.CompLetterOnRevealed.text>شما یک دردآمیز موجودات گوشتی کشف کردید! این موجود غول‌پیکر به نظر می‌رسد از چندین موجود کوچک‌تر ساخته شده.\n\nبه نظر می‌رسد اتصال روانی با توده گوشتی که از این غار پشتیبانی می‌کند دارد. کشتنش می‌تواند کل سیستم غار را بی‌ثبات کند.</Dreadmeld.comps.CompLetterOnRevealed.text>
   <!-- EN: left spike -->
-  <Dreadmeld.tools.left_spike.label>TODO</Dreadmeld.tools.left_spike.label>
+  <Dreadmeld.tools.left_spike.label>خار چپ</Dreadmeld.tools.left_spike.label>
   <!-- EN: spike -->
-  <Dreadmeld.tools.left_spike.labelNoLocation>TODO</Dreadmeld.tools.left_spike.labelNoLocation>
+  <Dreadmeld.tools.left_spike.labelNoLocation>خار</Dreadmeld.tools.left_spike.labelNoLocation>
   <!-- EN: right spike -->
-  <Dreadmeld.tools.right_spike.label>TODO</Dreadmeld.tools.right_spike.label>
+  <Dreadmeld.tools.right_spike.label>خار راست</Dreadmeld.tools.right_spike.label>
   <!-- EN: spike -->
-  <Dreadmeld.tools.right_spike.labelNoLocation>TODO</Dreadmeld.tools.right_spike.labelNoLocation>
+  <Dreadmeld.tools.right_spike.labelNoLocation>خار</Dreadmeld.tools.right_spike.labelNoLocation>
   <!-- EN: head -->
-  <Dreadmeld.tools.head.label>TODO</Dreadmeld.tools.head.label>
+  <Dreadmeld.tools.head.label>سر</Dreadmeld.tools.head.label>
   
   <!-- EN: fingerspike -->
-  <Fingerspike.label>TODO</Fingerspike.label>
+  <Fingerspike.label>نیش‌انگشت</Fingerspike.label>
   <!-- EN: A fleshy dog-sized creature with a single spiked limb. Despite their short legs, fingerspikes can move remarkably fast. -->
-  <Fingerspike.description>TODO</Fingerspike.description>
+  <Fingerspike.description>موجودی گوشتی به اندازه سگ با یک عضو خاردار. با وجود پاهای کوتاهشان، نیش‌انگشت‌ها می‌توانند فوق‌العاده سریع حرکت کنند.</Fingerspike.description>
   <!-- EN: Emerged from {SOURCEPAWN_labelShort}. -->
-  <Fingerspike.comps.CompInspectStringEmergence.inspectString>TODO</Fingerspike.comps.CompInspectStringEmergence.inspectString>
+  <Fingerspike.comps.CompInspectStringEmergence.inspectString>از {SOURCEPAWN_labelShort} ظهور کرد.</Fingerspike.comps.CompInspectStringEmergence.inspectString>
   <!-- EN: spike -->
-  <Fingerspike.tools.spike.label>TODO</Fingerspike.tools.spike.label>
+  <Fingerspike.tools.spike.label>خار</Fingerspike.tools.spike.label>
   <!-- EN: spike -->
-  <Fingerspike.tools.spike.labelNoLocation>TODO</Fingerspike.tools.spike.labelNoLocation>
+  <Fingerspike.tools.spike.labelNoLocation>خار</Fingerspike.tools.spike.labelNoLocation>
   <!-- EN: head -->
-  <Fingerspike.tools.head.label>TODO</Fingerspike.tools.head.label>
+  <Fingerspike.tools.head.label>سر</Fingerspike.tools.head.label>
   
   <!-- EN: toughspike -->
-  <Toughspike.label>TODO</Toughspike.label>
+  <Toughspike.label>سخت‌خار</Toughspike.label>
   <!-- EN: A fleshy man-sized creature with two spiked limbs and an armored carapace. Toughspikes throw hardened keratin spikes to take down victims from a distance.\n\nToughspike corpses will dissolve into puddles of liquefied flesh if they're not butchered quickly. -->
-  <Toughspike.description>TODO</Toughspike.description>
+  <Toughspike.description>موجودی گوشتی به اندازه انسان با دو عضو خاردار و زره پوش. سخت‌خارها خارهای سخت شده کراتین برای پایین آوردن قربانیان از فاصله دور پرتاب می‌کنند.\n\nلاشه‌های سخت‌خار اگر سریع تکه‌تکه نشوند، در گودال‌هایی از گوشت مایع حل می‌شوند.</Toughspike.description>
   <!-- EN: Emerged from {SOURCEPAWN_labelShort}. -->
-  <Toughspike.comps.CompInspectStringEmergence.inspectString>TODO</Toughspike.comps.CompInspectStringEmergence.inspectString>
+  <Toughspike.comps.CompInspectStringEmergence.inspectString>از {SOURCEPAWN_labelShort} ظهور کرد.</Toughspike.comps.CompInspectStringEmergence.inspectString>
   <!-- EN: left spike -->
-  <Toughspike.tools.left_spike.label>TODO</Toughspike.tools.left_spike.label>
+  <Toughspike.tools.left_spike.label>خار چپ</Toughspike.tools.left_spike.label>
   <!-- EN: spike -->
-  <Toughspike.tools.left_spike.labelNoLocation>TODO</Toughspike.tools.left_spike.labelNoLocation>
+  <Toughspike.tools.left_spike.labelNoLocation>خار</Toughspike.tools.left_spike.labelNoLocation>
   <!-- EN: right spike -->
-  <Toughspike.tools.right_spike.label>TODO</Toughspike.tools.right_spike.label>
+  <Toughspike.tools.right_spike.label>خار راست</Toughspike.tools.right_spike.label>
   <!-- EN: spike -->
-  <Toughspike.tools.right_spike.labelNoLocation>TODO</Toughspike.tools.right_spike.labelNoLocation>
+  <Toughspike.tools.right_spike.labelNoLocation>خار</Toughspike.tools.right_spike.labelNoLocation>
   <!-- EN: head -->
-  <Toughspike.tools.head.label>TODO</Toughspike.tools.head.label>
+  <Toughspike.tools.head.label>سر</Toughspike.tools.head.label>
   
   <!-- EN: trispike -->
-  <Trispike.label>TODO</Trispike.label>
+  <Trispike.label>سه‌خار</Trispike.label>
   <!-- EN: A man-sized amalgamation of several smaller fleshbeasts. Each of the creature's limbs is capable of surviving independently. On death, trispikes may split into separate fingerspikes as each limb rips free and attacks. -->
-  <Trispike.description>TODO</Trispike.description>
+  <Trispike.description>آمیزه‌ای به اندازه انسان از چندین موجود کوچک گوشتی. هر یک از اعضای موجود می‌تواند مستقل زنده بماند. هنگام مرگ، سه‌خارها می‌توانند به نیش‌انگشت‌های جداگانه تقسیم شوند زیرا هر عضو آزاد شده و حمله می‌کند.</Trispike.description>
   <!-- EN: Emerged from {SOURCEPAWN_labelShort}. -->
-  <Trispike.comps.CompInspectStringEmergence.inspectString>TODO</Trispike.comps.CompInspectStringEmergence.inspectString>
+  <Trispike.comps.CompInspectStringEmergence.inspectString>از {SOURCEPAWN_labelShort} ظهور کرد.</Trispike.comps.CompInspectStringEmergence.inspectString>
   <!-- EN: left spike -->
-  <Trispike.tools.left_spike.label>TODO</Trispike.tools.left_spike.label>
+  <Trispike.tools.left_spike.label>خار چپ</Trispike.tools.left_spike.label>
   <!-- EN: spike -->
-  <Trispike.tools.left_spike.labelNoLocation>TODO</Trispike.tools.left_spike.labelNoLocation>
+  <Trispike.tools.left_spike.labelNoLocation>خار</Trispike.tools.left_spike.labelNoLocation>
   <!-- EN: right spike -->
-  <Trispike.tools.right_spike.label>TODO</Trispike.tools.right_spike.label>
+  <Trispike.tools.right_spike.label>خار راست</Trispike.tools.right_spike.label>
   <!-- EN: spike -->
-  <Trispike.tools.right_spike.labelNoLocation>TODO</Trispike.tools.right_spike.labelNoLocation>
+  <Trispike.tools.right_spike.labelNoLocation>خار</Trispike.tools.right_spike.labelNoLocation>
   <!-- EN: top spike -->
-  <Trispike.tools.top_spike.label>TODO</Trispike.tools.top_spike.label>
+  <Trispike.tools.top_spike.label>خار بالا</Trispike.tools.top_spike.label>
   <!-- EN: spike -->
-  <Trispike.tools.top_spike.labelNoLocation>TODO</Trispike.tools.top_spike.labelNoLocation>
+  <Trispike.tools.top_spike.labelNoLocation>خار</Trispike.tools.top_spike.labelNoLocation>
   <!-- EN: head -->
-  <Trispike.tools.head.label>TODO</Trispike.tools.head.label>
+  <Trispike.tools.head.label>سر</Trispike.tools.head.label>
   
 </LanguageData>

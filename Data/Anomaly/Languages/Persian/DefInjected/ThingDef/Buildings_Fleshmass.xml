@@ -2,22 +2,77 @@
 <LanguageData>
   
   <!-- EN: acid spit -->
-  <Bullet_Shell_AcidSpit.label>TODO</Bullet_Shell_AcidSpit.label>
+  <Bullet_Shell_AcidSpit.label>تف اسید</Bullet_Shell_AcidSpit.label>
   
   <!-- EN: fleshbulb -->
-  <Fleshbulb.label>TODO</Fleshbulb.label>
+  <Fleshbulb.label>پیاز گوشتی</Fleshbulb.label>
   <!-- EN: A bulbous mass of flesh. These fleshbeast organs store and refine nutrients for surrounding fleshmass. The chemical process generates a soft bioluminescent glow. -->
-  <Fleshbulb.description>TODO</Fleshbulb.description>
+  <Fleshmass.description>توده‌ای پیازی شکل از گوشت. این ارگان‌های موجودات گوشتی، مواد مغذی برای توده گوشتی اطراف ذخیره و تصفیه می‌کنند. فرآیند شیمیایی یک نور زیست‌تاب نرم تولید می‌کند.</Fleshmass.description>
   
   <!-- EN: fleshmass -->
-  <Fleshmass.label>TODO</Fleshmass.label>
+  <Fleshmass.label>توده گوشتی</Fleshmass.label>
   <!-- EN: A solid mass of twisted flesh. It throbs and shivers with horrible life. -->
-  <Fleshmass.description>TODO</Fleshmass.description>
+  <Fleshmass.description>توده‌ای محکم از گوشت پیچ خورده. با زندگی وحشتناکی می‌تپد و می‌لرزد.</Fleshmass.description>
   
   <!-- EN: fleshmass -->
-  <Fleshmass_Active.label>TODO</Fleshmass_Active.label>
+  <Fleshmass_Active.label>توده گوشتی فعال</Fleshmass_Active.label>
   <!-- EN: A solid mass of twisted flesh. It throbs and shivers with horrible life. -->
-  <Fleshmass_Active.description>TODO</Fleshmass_Active.description>
+  <Fleshmass_Active.description>توده‌ای محکم از گوشت پیچ خورده. با زندگی وحشتناکی می‌تپد و می‌لرزد.</Fleshmass_Active.description>
+  
+  <!-- EN: fleshmass heart -->
+  <FleshmassHeart.label>قلب توده گوشتی</FleshmassHeart.label>
+  <!-- EN: The primary organ of a fleshmass infestation. The heart gathers material through roots extended into the ground. Once it has collected enough, it spreads fleshmass around itself in a spurt of cancer-like growth. It will keep growing until it consumes everything.\n\nThe heart grows fleshmass spitters. These defensive organs can spit acid long distances. The heart will also generate fleshbeast defenders to protect itself.\n\nUltra-rapid regeneration makes the heart nearly invulnerable. It can only be killed by analyzing samples taken from the nerve bundles that form within its growing mass. -->
+  <FleshmassHeart.description>ارگان اصلی یک حمله توده گوشتی. قلب از طریق ریشه‌های امتداد یافته در زمین، مواد جمع‌آوری می‌کند. بعد از اینکه به اندازه کافی جمع‌آوری کرد، توده گوشتی را در اطراف خود در یک فوران رشد سرطانی پخش می‌کند. به رشد ادامه می‌دهد تا همه چیز را مصرف کند.\n\nقلب اسپیترهای توده گوشتی را رشد می‌دهد. این ارگان‌های دفاعی می‌توانند اسید را به فواصل دور تف کنند. قلب همچنین دفاع‌گران موجودات گوشتی برای محافظت از خود ایجاد می‌کند.\n\nبازسازی فوق‌سریع قلب را تقریباً ضدزخم می‌کند. فقط با تجزیه نمونه‌های گرفته شده از دسته‌های عصبی که در جرم در حال رشدش شکل می‌گیرند، می‌توان آن را کشت.</FleshmassHeart.description>
+  
+  <!-- EN: Use electrical pulses to induce a tachycardiac overload and kill the fleshmass heart. -->
+  <FleshmassHeart.comps.CompDestroyHeart.activateDescString>از پالس‌های الکتریکی برای القای اضافه‌بار تاکی‌کاردیاک و کشتن قلب توده گوشتی استفاده کنید.</FleshmassHeart.comps.CompDestroyHeart.activateDescString>
+  
+  <!-- EN: Induce tachycardiac death... -->
+  <FleshmassHeart.comps.CompDestroyHeart.activateLabelString>القای مرگ تاکی‌کاردیاک...</FleshmassHeart.comps.CompDestroyHeart.activateLabelString>
+  
+  <!-- EN: Inducing tachycardiac death: {1}s -->
+  <FleshmassHeart.comps.CompDestroyHeart.activatingString>القای مرگ تاکی‌کاردیاک: {1}ثانیه</FleshmassHeart.comps.CompDestroyHeart.activatingString>
+  
+  <!-- EN: Inducing tachycardiac death -->
+  <FleshmassHeart.comps.CompDestroyHeart.activatingStringPending>القای مرگ تاکی‌کاردیاک</FleshmassHeart.comps.CompDestroyHeart.activatingStringPending>
+  
+  <!-- EN: Choose who should do this -->
+  <FleshmassHeart.comps.CompDestroyHeart.guiLabelString>انتخاب کنید که چه کسی این کار را انجام دهد</FleshmassHeart.comps.CompDestroyHeart.guiLabelString>
+  
+  <!-- EN: Induce tachycardiac death -->
+  <FleshmassHeart.comps.CompDestroyHeart.jobString>القای مرگ تاکی‌کاردیاک</FleshmassHeart.comps.CompDestroyHeart.jobString>
+  
+  <!-- EN: underground emergence -->
+  <FleshmassHeartSpawner.label>ظهور زیرزمینی</FleshmassHeartSpawner.label>
+  <!-- EN: Something is emerging from the ground here. -->
+  <FleshmassHeartSpawner.description>چیزی از زمین بیرون می‌آید.</FleshmassHeartSpawner.description>
+  
+  <!-- EN: Fleshmass heart -->
+  <FleshmassHeartSpawner.building.groundSpawnerLetterLabel>قلب توده گوشتی</FleshmassHeartSpawner.building.groundSpawnerLetterLabel>
+  
+  <!-- EN: A fleshmass heart has emerged! This cancer-like creature will expand its living mass across the surface.\n\nThe heart itself is invulnerable to normal weapons. Fleshmass nerve bundles will soon appear - attack them to gather samples and find a way to kill the heart. -->
+  <FleshmassHeartSpawner.building.groundSpawnerLetterText>یک قلب توده گوشتی ظهور کرده! این موجود سرطانی جرم زنده خود را در سطح گسترش خواهد داد.\n\nخود قلب در برابر سلاح‌های عادی مصون است. به زودی دسته‌های عصبی توده گوشتی ظاهر می‌شوند - به آن‌ها حمله کنید تا نمونه‌ها جمع‌آوری کنید و راهی برای کشتن قلب پیدا کنید.</FleshmassHeartSpawner.building.groundSpawnerLetterText>
+  
+  <!-- EN: fleshmass spitter -->
+  <FleshmassSpitter.label>تف‌کننده توده گوشتی</FleshmassSpitter.label>
+  <!-- EN: A defensive fleshmass organ that can spit acid long distances. The acid is a natural byproduct of toxins filtered from the surrounding biomass. -->
+  <FleshmassSpitter.description>ارگان دفاعی توده گوشتی که می‌تواند اسید را به فواصل دور تف کند. اسید یک محصول جانبی طبیعی سموم فیلتر شده از زی‌توده اطراف است.</FleshmassSpitter.description>
+  
+  <!-- EN: fleshmass spitter -->
+  <FleshmassSpitter.verbs.Verb_Shoot.label>تف‌کننده توده گوشتی</FleshmassSpitter.verbs.Verb_Shoot.label>
+  
+  <!-- EN: flesh sack -->
+  <FleshSack.label>کیسه گوشت</FleshSack.label>
+  <!-- EN: A swollen lump of flesh with something inside. These stationary fleshbeasts act as digestive organs, supplying the surrounding fleshmass with nutrients. However, they're unable to break down non-organic matter, meaning that valuable items can occasionally be found within. -->
+  <FleshSack.description>توده‌ای متورم از گوشت با چیزی داخل. این موجودات گوشتی ثابت به عنوان ارگان‌های گوارشی عمل می‌کنند و توده گوشتی اطراف را با مواد مغذی تأمین می‌کنند. با این حال، نمی‌توانند ماده غیرآلی را تجزیه کنند، به این معنی که گاهی اوقات اقلام ارزشمندی در داخل آن‌ها یافت می‌شود.</FleshSack.description>
+  
+  <!-- EN: nerve bundle -->
+  <NerveBundle.label>دسته عصبی</NerveBundle.label>
+  <!-- EN: A junction point in the fleshmass nervous system. When destroyed, it leaves behind a lump of neural tissue that you can study. Study enough different neural lumps and you can unlock a way to kill the fleshmass heart itself. -->
+  <NerveBundle.description>نقطه اتصال در سیستم عصبی توده گوشتی. وقتی نابود می‌شود، توده‌ای از بافت عصبی بر جای می‌گذارد که می‌توانید مطالعه کنید. توده‌های عصبی مختلف کافی را مطالعه کنید و می‌توانید راهی برای کشتن قلب توده گوشتی خودش باز کنید.</NerveBundle.description>
+  
+  <!-- EN: Kill to collect: Neural lump -->
+  <NerveBundle.comps.CompInspectString.inspectString>برای جمع‌آوری بکشید: توده عصبی</NerveBundle.comps.CompInspectString.inspectString>
   
   <!-- EN: fleshmass heart -->
   <FleshmassHeart.label>قلب توده گوشتی</FleshmassHeart.label>

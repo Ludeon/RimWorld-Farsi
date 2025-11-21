@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: advanced psychic rituals -->
-  <AdvancedPsychicRituals.label>TODO</AdvancedPsychicRituals.label>
+  <AdvancedPsychicRituals.label>مراسم روانی پیشرفته</AdvancedPsychicRituals.label>
   <!-- EN: Perform advanced psychic rituals. -->
-  <AdvancedPsychicRituals.description>TODO</AdvancedPsychicRituals.description>
+  <AdvancedPsychicRituals.description>اجرای مراسم روانی پیشرفته.</AdvancedPsychicRituals.description>
   <!-- EN:
     <li>subject->advanced psychic rituals</li>
     <li>subject_story->was brought into a cult circle</li>
@@ -13,12 +13,12 @@
     <li>subject_story->was appointed professor of psychic history at the University of Ix</li>
     <li>subject_gerund->performing advanced psychic rituals</li>
   -->
-  <AdvancedPsychicRituals.generalRules.rulesStrings>TODO</AdvancedPsychicRituals.generalRules.rulesStrings>
+  <AdvancedPsychicRituals.generalRules.rulesStrings>موضوع->مراسم روانی پیشرفته داستان_موضوع->به یک حلقه کالت دعوت شد داستان_موضوع->با یک استاد تبعیدی ملاقات کرد که با خوشحالی از اسرارش می‌گفت داستان_موضوع->درک [ANYPAWN_possessive] از فداکاری مراسم را عمیق‌تر کرد داستان_موضوع->به عنوان استاد تاریخ روان در دانشگاه ایکس منصوب شد فعل_موضوع->اجرای مراسم روانی پیشرفته</AdvancedPsychicRituals.generalRules.rulesStrings>
   
   <!-- EN: atmospheric heater -->
-  <AtmosphericHeater.label>TODO</AtmosphericHeater.label>
+  <AtmosphericHeater.label>گرم‌کن جوی</AtmosphericHeater.label>
   <!-- EN: Build bioferrite-powered heaters that produce enough heat to warm an entire region. -->
-  <AtmosphericHeater.description>TODO</AtmosphericHeater.description>
+  <AtmosphericHeater.description>ساخت گرم‌کن‌های بیوفریتی که گرمای کافی برای گرم کردن یک منطقه کامل تولید می‌کنند.</AtmosphericHeater.description>
   <!-- EN:
     <li>subject->bioferrite heating</li>
     <li>subject_story->upgraded archaic geothermal plants</li>
@@ -28,12 +28,12 @@
     <li>subject_gerund->heating with bioferrite</li>
     <li>subject_gerund->constructing bioferrite-fueled heaters</li>
   -->
-  <AtmosphericHeater.generalRules.rulesStrings>TODO</AtmosphericHeater.generalRules.rulesStrings>
+  <AtmosphericHeater.generalRules.rulesStrings>موضوع->گرمایش بیوفریت داستان_موضوع->نیروگاه‌های زمین‌گرمایی کهن را ارتقا داد داستان_موضوع->خروجی گرمای بیومتال‌ها را مطالعه کرد داستان_موضوع->ظرفیت غیرقابل تصور ذخیره انرژی معمارتک را تحقیق کرد داستان_موضوع->سیستم‌های هیپوکاست در دنیاهای یخ پرجمعیت را بررسی کرد فعل_موضوع->گرمایش با بیوفریت فعل_موضوع->ساخت گرم‌کن‌های بیوفریتی</AtmosphericHeater.generalRules.rulesStrings>
   
   <!-- EN: void provocation -->
-  <BasicPsychicRituals.label>TODO</BasicPsychicRituals.label>
+  <BasicPsychicRituals.label>مراسم روانی اولیه</BasicPsychicRituals.label>
   <!-- EN: Build a psychic ritual spot and perform psychic rituals. Use the void provocation ritual to discover new entities. -->
-  <BasicPsychicRituals.description>TODO</BasicPsychicRituals.description>
+  <BasicPsychicRituals.description>ساخت نقطه مراسم روانی و اجرای مراسم روانی. از مراسم تحریک خلأ برای کشف موجودات جدید استفاده کنید.</BasicPsychicRituals.description>
   <!-- EN:
     <li>subject->psychic rituals</li>
     <li>subject_story->studied the rituals of Horax cultists</li>
@@ -45,12 +45,12 @@
     <li>subject_gerund->establishing ritual spots</li>
     <li>subject_gerund->provoking void entities</li>
   -->
-  <BasicPsychicRituals.generalRules.rulesStrings>TODO</BasicPsychicRituals.generalRules.rulesStrings>
+  <BasicPsychicRituals.generalRules.rulesStrings>موضوع->مراسم روانی داستان_موضوع->مراسم کالتیست‌های هوراکس را مطالعه کرد داستان_موضوع->آلتارهای اولیه را بازسازی کرد داستان_موضوع->اصول ارتباط روانی را بنیان‌گذاری کرد داستان_موضوع->یک مراسم تحریک خلأ ناموفق را در دنیای مرگ تماشا کرد داستان_موضوع->با تکه معمارتکی در بالای ستون صحرایی معاشقه کرد فعل_موضوع->اجرای مراسم روانی فعل_موضوع->برقراری نقاط مراسم فعل_موضوع->تحریک موجودات خلأ</BasicPsychicRituals.generalRules.rulesStrings>
   
   <!-- EN: bioferrite extraction -->
-  <BioferriteExtraction.label>TODO</BioferriteExtraction.label>
+  <BioferriteExtraction.label>استخراج بیوفریت</BioferriteExtraction.label>
   <!-- EN: Extract bioferrite directly from captured entities. Use it to craft weapons and apparel at a crafting spot or bioferrite shaper. -->
-  <BioferriteExtraction.description>TODO</BioferriteExtraction.description>
+  <BioferriteExtraction.description>استخراج بیوفریت مستقیم از موجودات دستگیر شده. از آن برای ساخت سلاح‌ها و پوشاک در نقطه ساخت یا شکل‌دهنده بیوفریت استفاده کنید.</BioferriteExtraction.description>
   <!-- EN:
     <li>subject->bioferrite extraction</li>
     <li>subject_story->extracted an organic compound from a rapidly mutating flesh sample</li>
@@ -59,12 +59,12 @@
     <li>subject_story->discovered a novel organic metal</li>
     <li>subject_gerund->extracting bioferrite</li>
   -->
-  <BioferriteExtraction.generalRules.rulesStrings>TODO</BioferriteExtraction.generalRules.rulesStrings>
+  <BioferriteExtraction.generalRules.rulesStrings>موضوع->استخراج بیوفریت داستان_موضوع->ترکیب آلی از نمونه گوشتی به سرعت جهش‌یافته استخراج کرد داستان_موضوع->گوشت درخت اعلان‌کننده را پوست کند و جوشاند داستان_موضوع->گزارش‌های پدیده معمارتکی را تحقیق کرد داستان_موضوع->فلز آلی جدیدی کشف کرد فعل_موضوع->استخراج بیوفریت</BioferriteExtraction.generalRules.rulesStrings>
   
   <!-- EN: bioferrite generator -->
-  <BioferriteGenerator.label>TODO</BioferriteGenerator.label>
+  <BioferriteGenerator.label>مولد بیوفریت</BioferriteGenerator.label>
   <!-- EN: Build power generators that burn bioferrite as a fuel. -->
-  <BioferriteGenerator.description>TODO</BioferriteGenerator.description>
+  <BioferriteGenerator.description>ساخت مولدهای برقی که بیوفریت را به عنوان سوخت می‌سوزانند.</BioferriteGenerator.description>
   <!-- EN:
     <li>subject->bioferrite power generation</li>
     <li>subject_story->was trained in the use of innovative power sources</li>
@@ -75,12 +75,12 @@
     <li>subject_gerund->constructing bioferrite-powered generators</li>
     <li>subject_gerund->powering generators using bioferrite</li>
   -->
-  <BioferriteGenerator.generalRules.rulesStrings>TODO</BioferriteGenerator.generalRules.rulesStrings>
+  <BioferriteGenerator.generalRules.rulesStrings>موضوع->تولید برق بیوفریت داستان_موضوع->در استفاده از منابع برقی نوآورانه آموزش دید داستان_موضوع->استفاده از سوخت‌های فلزی و فیبری را بررسی کرد داستان_موضوع->عشق به آتش و چیزهایی که می‌سوزند کشف کرد داستان_موضوع->به عنوان تکنسین کار کرد و سیستم‌های انرژی مدوری را نگهداری کرد داستان_موضوع->حیات وحش یک سیستم را برای سوخت فرآوری کرد فعل_موضوع->ساخت مولدهای بیوفریتی فعل_موضوع->تغذیه مولدها با بیوفریت</BioferriteGenerator.generalRules.rulesStrings>
   
   <!-- EN: bioferrite harvester -->
-  <BioferriteHarvesting.label>TODO</BioferriteHarvesting.label>
+  <BioferriteHarvesting.label>برداشت بیوفریت</BioferriteHarvesting.label>
   <!-- EN: Build bioferrite harvesters that automatically extract bioferrite from captured entities. Produces more bioferrite than manual extraction. -->
-  <BioferriteHarvesting.description>TODO</BioferriteHarvesting.description>
+  <BioferriteHarvesting.description>ساخت برداشت‌کننده‌های بیوفریت که به طور خودکار بیوفریت از موجودات دستگیر شده استخراج می‌کنند. بیوفریت بیشتری نسبت به استخراج دستی تولید می‌کند.</BioferriteHarvesting.description>
   <!-- EN:
     <li>subject->bioferrite</li>
     <li>subject_story->investigated an exotic metal-like fibrous substance</li>
@@ -89,12 +89,12 @@
     <li>subject_story->observed strange metal-infested wildlife</li>
     <li>subject_gerund->harvesting bioferrite</li>
   -->
-  <BioferriteHarvesting.generalRules.rulesStrings>TODO</BioferriteHarvesting.generalRules.rulesStrings>
+  <BioferriteHarvesting.generalRules.rulesStrings>موضوع->بیوفریت داستان_موضوع->ماده فیبری فلزی عجیب را تحقیق کرد داستان_موضوع->جسد مردگان متحرک را تشریح کرد داستان_موضوع->انباری از فلزات آلی کشف کرد داستان_موضوع->حیات وحش عجیب آلوده به فلز را مشاهده کرد فعل_موضوع->برداشت بیوفریت</BioferriteHarvesting.generalRules.rulesStrings>
   
   <!-- EN: bioferrite weaponry -->
-  <BioferriteIgnition.label>TODO</BioferriteIgnition.label>
+  <BioferriteIgnition.label>سلاح‌های بیوفریت</BioferriteIgnition.label>
   <!-- EN: Create advanced weapons that use bioferrite as a fuel source. -->
-  <BioferriteIgnition.description>TODO</BioferriteIgnition.description>
+  <BioferriteIgnition.description>ساخت تسلیحات پیشرفته که از بیوفریت به عنوان منبع سوخت استفاده می‌کنند.</BioferriteIgnition.description>
   <!-- EN:
     <li>subject->bioferrite combustion</li>
     <li>subject->bioferrite weaponry</li>
@@ -104,12 +104,12 @@
     <li>subject_story->cleared biomines in an archotech desert</li>
     <li>subject_gerund->building bioferrite-based weapons</li>
   -->
-  <BioferriteIgnition.generalRules.rulesStrings>TODO</BioferriteIgnition.generalRules.rulesStrings>
+  <BioferriteIgnition.generalRules.rulesStrings>موضوع->احتراق بیوفریت موضوع->سلاح‌های بیوفریت داستان_موضوع->در سکوی استخراج در سیارک معمارتک کار کرد داستان_موضوع->نقطه‌های احتراق مواد عجیب را تحقیق کرد داستان_موضوع->به بازوی تحقیق شرکت تسلیحاتی میلورلد پیوست داستان_موضوع->معادن بیوی در صحرای معمارتک پاک کرد فعل_موضوع->ساخت تسلیحات بیوفریتی</BioferriteIgnition.generalRules.rulesStrings>
   
   <!-- EN: bioferrite shaping -->
-  <BioferriteShaping.label>TODO</BioferriteShaping.label>
+  <BioferriteShaping.label>شکل‌دهی بیوفریت</BioferriteShaping.label>
   <!-- EN: Shape and re-form bioferrite into useful tools, weapons, flooring, and more. -->
-  <BioferriteShaping.description>TODO</BioferriteShaping.description>
+  <BioferriteShaping.description>شکل دادن و بازشکل دادن بیوفریت به ابزارهای مفید، تسلیحات، کف‌پوش و موارد دیگر.</BioferriteShaping.description>
   <!-- EN:
     <li>subject->bioferrite shaping</li>
     <li>subject_story->learned unique techniques for molding and sculpting</li>
@@ -119,12 +119,12 @@
     <li>subject_story->studied the formation of archotech artefacts</li>
     <li>subject_gerund->shaping bioferrite</li>
   -->
-  <BioferriteShaping.generalRules.rulesStrings>TODO</BioferriteShaping.generalRules.rulesStrings>
+  <BioferriteShaping.generalRules.rulesStrings>موضوع->شکل‌دهی بیوفریت داستان_موضوع->تکنیک‌های منحصربه‌فرد قالب‌گیری و مجسمه‌سازی یاد گرفت داستان_موضوع->در شکل‌دهی گرمایی آموزش دید داستان_موضوع->در کوره مواد عجیب کار کرد داستان_موضوع->دانشمند مواد معمارتک را یاری کرد داستان_موضوع->شکل‌گیری آثار معمارتکی را مطالعه کرد فعل_موضوع->شکل‌دهی بیوفریت</BioferriteShaping.generalRules.rulesStrings>
   
   <!-- EN: bliss lobotomy -->
-  <BlissLobotomy.label>TODO</BlissLobotomy.label>
+  <BlissLobotomy.label>لوبوتومی خوشحال</BlissLobotomy.label>
   <!-- EN: Perform a surgery that lobotomizes a person, making them happier while rendering them incapable of intellectual and skilled labor. -->
-  <BlissLobotomy.description>TODO</BlissLobotomy.description>
+  <BlissLobotomy.description>اجرای جراحی که فردی را لوبوتومی می‌کند و خوشحال‌ترش می‌کند در حالی که او را غیرقادر به کار فکری و ماهر می‌سازد.</BlissLobotomy.description>
   <!-- EN:
     <li>subject->lobotomy</li>
     <li>subject_story->was eventually lobotomized for thought-crimes against the state</li>
@@ -133,12 +133,12 @@
     <li>subject_gerund->performing lobotomies</li>
     <li>subject_gerund->excising brain tissue</li>
   -->
-  <BlissLobotomy.generalRules.rulesStrings>TODO</BlissLobotomy.generalRules.rulesStrings>
+  <BlissLobotomy.generalRules.rulesStrings>موضوع->لوبوتومی داستان_موضوع->در نهایت به دلیل جرایم فکری علیه دولت لوبوتومی شد داستان_موضوع->بازماندگان کمی از آزمایش الدوف را توانبخشی کرد داستان_موضوع->به عنوان دستیار جراح مغز و آرایشگر کار کرد فعل_موضوع->اجرای لوبوتومی‌ها فعل_موضوع->برداشت بافت مغزی</BlissLobotomy.generalRules.rulesStrings>
   
   <!-- EN: blood rain -->
-  <BloodRain.label>TODO</BloodRain.label>
+  <BloodRain.label>باران خون</BloodRain.label>
   <!-- EN: Perform a psychic ritual which causes blood-like psychofluid to fall from the sky. Anyone caught outside will soon be driven into a berserk rage. -->
-  <BloodRain.description>TODO</BloodRain.description>
+  <BloodRain.description>اجرای مراسم روانی که باعث می‌شود مایع روانی شبیه خون از آسمان ببارد. هر کسی که بیرون گرفتار شود به زودی به خشم جنون‌آمیز سوق داده می‌شود.</BloodRain.description>
   <!-- EN:
     <li>subject->blood rain</li>
     <li>subject_story->investigated ancient deist myths about organic precipitation</li>
@@ -147,12 +147,12 @@
     <li>subject_story->was exposed to a psychofluid shower and filled with unmanageable rage</li>
     <li>subject_gerund->causing it to rain blood</li>
   -->
-  <BloodRain.generalRules.rulesStrings>TODO</BloodRain.generalRules.rulesStrings>
+  <BloodRain.generalRules.rulesStrings>موضوع->باران خون داستان_موضوع->اساطیر باستانی دیست درباره رسوب آلی را تحقیق کرد داستان_موضوع->مسیرهای عصبی بیماران خشم را مطالعه کرد داستان_موضوع->جریان‌های مایع روانی در دنیای متعالی ایکس را نمونه‌برداری کرد داستان_موضوع->در معرض دوش مایع روانی قرار گرفت و از خشم غیرقابل کنترل پر شد فعل_موضوع->باراندن خون</BloodRain.generalRules.rulesStrings>
   
   <!-- EN: brainwipe -->
-  <Brainwipe.label>TODO</Brainwipe.label>
+  <Brainwipe.label>پاکسازی مغز</Brainwipe.label>
   <!-- EN: Perform a psychic ritual which erases much of a person's episodic memories. Traumatic events will be forgotten. Resistant prisoners will become easier to recruit. Allows recruiting unwaveringly loyal prisoners. -->
-  <Brainwipe.description>TODO</Brainwipe.description>
+  <Brainwipe.description>اجرای مراسم روانی که بخش زیادی از خاطرات دوره‌ای فرد را پاک می‌کند. رویدادهای تروماتیک فراموش خواهند شد. زندانیان مقاوم راحت‌تر جذب می‌شوند. امکان جذب زندانیان وفادار بی‌دریغ را فراهم می‌کند.</Brainwipe.description>
   <!-- EN:
     <li>subject->mind erasure</li>
     <li>subject_story->studied stories of episodic amnesia</li>
@@ -162,12 +162,12 @@
     <li>subject_gerund->wiping a subject's mind</li>
     <li>subject_gerund->performing a ritual to erase a subject's mind</li>
   -->
-  <Brainwipe.generalRules.rulesStrings>TODO</Brainwipe.generalRules.rulesStrings>
+  <Brainwipe.generalRules.rulesStrings>موضوع->پاکسازی ذهن داستان_موضوع->داستان‌های فراموشی دوره‌ای را مطالعه کرد داستان_موضوع->در کلینیک با بازماندگان ضایعات مغزی کار کرد داستان_موضوع->مسیرهای عصبی فراموش‌کاران را تحقیق کرد داستان_موضوع->بعد از جنگ‌های فراموش شده یک تسهیلات شستشوی مغزی را اداره کرد فعل_موضوع->پاک کردن ذهن موضوع فعل_موضوع->اجرای مراسم پاک کردن ذهن موضوع</Brainwipe.generalRules.rulesStrings>
   
   <!-- EN: chronophagy -->
-  <Chronophagy.label>TODO</Chronophagy.label>
+  <Chronophagy.label>زمان‌خواری</Chronophagy.label>
   <!-- EN: Perform a psychic ritual that causes a target to age rapidly. The ritual invoker will become younger in the process. The target will suffer brain damage as a result, which may be lethal for elderly targets. -->
-  <Chronophagy.description>TODO</Chronophagy.description>
+  <Chronophagy.description>اجرای مراسم روانی که باعث پیری سریع هدف می‌شود. اجراکننده مراسم در این فرآیند جوان‌تر می‌شود. هدف به دنبال آن آسیب مغزی خواهد دید که ممکن است برای اهداف مسن کشنده باشد.</Chronophagy.description>
   <!-- EN:
     <li>subject->chronophagy</li>
     <li>subject_story->studied age-related degeneration</li>
@@ -178,12 +178,12 @@
     <li>subject_gerund->invoking chronophagy</li>
     <li>subject_gerund->performing a chronophagy ritual</li>
   -->
-  <Chronophagy.generalRules.rulesStrings>TODO</Chronophagy.generalRules.rulesStrings>
+  <Chronophagy.generalRules.rulesStrings>موضوع->زمان‌خواری داستان_موضوع->تباهی مرتبط با سن را مطالعه کرد داستان_موضوع->ساختارهای سالم را به صورت مخرب از یک ارگانیسم به دیگری تکثیر کرد داستان_موضوع->درباره مراسم مختلفی که معمارتک غنی شده می‌تواند ممکن کند تئوری‌ریزی کرد داستان_موضوع->درمان‌های طول عمر ثروتمندانه در کلینیک‌های گلیترورلد را مشاهده کرد فعل_موضوع->دزدیدن جوانی فعل_موضوع->دعوت از زمان‌خواری فعل_موضوع->اجرای مراسم زمان‌خواری</Chronophagy.generalRules.rulesStrings>
   
   <!-- EN: deadlife dust -->
-  <DeadlifeDust.label>TODO</DeadlifeDust.label>
+  <DeadlifeDust.label>گرد و غبار زندگی مرده</DeadlifeDust.label>
   <!-- EN: Craft devices that produce clouds of microscopic archites. The archites can reanimate corpses to produce deadly shamblers that will only attack your enemies. -->
-  <DeadlifeDust.description>TODO</DeadlifeDust.description>
+  <DeadlifeDust.description>ساخت دستگاه‌هایی که ابرهایی از معماری‌های میکروسکوپی تولید می‌کنند. معماری‌ها می‌توانند اجساد را زنده کنند تا مرگ‌روهای کشنده تولید کنند که فقط به دشمنان شما حمله می‌کنند.</DeadlifeDust.description>
   <!-- EN:
     <li>subject->deadlife dust</li>
     <li>subject_story->synthesized an aerosol-dispersal system for nanobots</li>
@@ -193,12 +193,12 @@
     <li>subject_gerund->crafting deadlife dust</li>
     <li>subject_gerund->distributing archites to create shamblers</li>
   -->
-  <DeadlifeDust.generalRules.rulesStrings>TODO</DeadlifeDust.generalRules.rulesStrings>
+  <DeadlifeDust.generalRules.rulesStrings>موضوع->گرد و غبار زندگی مرده داستان_موضوع->سیستم پراکنده‌سازی آیروسل برای نانوبات را سنتز کرد داستان_موضوع->از سانتریفیوژهای اتمی برای جدا کردن درجه‌های مختلف معماری استفاده کرد داستان_موضوع->یک حمله مرگ‌رو کشنده را در یک کلیپ اورب‌ورلد تماشا کرد داستان_موضوع->دستگاه کنترل معمارتک با سیستم‌های IFF خودتنظیم شده توسعه داد فعل_موضوع->ساخت گرد و غبار زندگی مرده فعل_موضوع->توزیع معماری‌ها برای ایجاد مرگ‌روها</DeadlifeDust.generalRules.rulesStrings>
   
   <!-- EN: death refusal -->
-  <DeathRefusal.label>TODO</DeathRefusal.label>
+  <DeathRefusal.label>امتناع از مرگ</DeathRefusal.label>
   <!-- EN: Perform a psychic ritual which grants death refusal to an individual, allowing them to self-resurrect once after dying. -->
-  <DeathRefusal.description>TODO</DeathRefusal.description>
+  <DeathRefusal.description>اجرای مراسم روانی که امتناع از مرگ به فردی اعطا می‌کند و به آن‌ها اجازه می‌دهد پس از مرگ یک بار خود را زنده کنند.</DeathRefusal.description>
   <!-- EN:
     <li>subject->death refusal invocation</li>
     <li>subject_story->investigated tales of impossible survival</li>
@@ -208,7 +208,7 @@
     <li>subject_gerund->fending off death</li>
     <li>subject_gerund->performing a ritual to rebuke death</li>
   -->
-  <DeathRefusal.generalRules.rulesStrings>TODO</DeathRefusal.generalRules.rulesStrings>
+  <DeathRefusal.generalRules.rulesStrings>موضوع->دعوت از امتناع مرگ داستان_موضوع->داستان‌های بقای غیرممکن را تحقیق کرد داستان_موضوع->آخرین لحظات تلفات زیاد نبرد هفتم آخر را مشاهده کرد داستان_موضوع->در تلاش زنده کردن پیامبر اول آخور شرکت کرد داستان_موضوع->شواهد امتناع از مرگ را در کتابخانه‌های یک دنیای مرکزی گردآوری کرد فعل_موضوع->دور کردن مرگ فعل_موضوع->اجرای مراسم سرزنش مرگ</DeathRefusal.generalRules.rulesStrings>
   
   <!-- EN: disruptor flares -->
   <DisruptorFlares.label>TODO</DisruptorFlares.label>
