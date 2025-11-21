@@ -2,47 +2,49 @@
 <LanguageData>
   
   <!-- EN: persona core -->
-  <AIPersonaCore.label>TODO</AIPersonaCore.label>
+  <AIPersonaCore.label>هسته شخصیت هوش مصنوعی</AIPersonaCore.label>
   <!-- EN: A hyper-advanced computer core that houses a peak-human-equivalent machine persona. In its isolated state, the core is dormant. Installed in a proper support structure, however, it can become a mind of great power. -->
-  <AIPersonaCore.description>TODO</AIPersonaCore.description>
+  <AIPersonaCore.description>هسته کامپیوتری فوق‌پیشرفته که شخصیت ماشینی معادل انسان اوج را در خود جای داده است. در حالت جداافتاده، هسته غیرفعال است. اما نصب شده در یک ساختار پشتیبانی مناسب، می‌تواند به ذهنی با قدرت عظیم تبدیل شود.</AIPersonaCore.description>
   
   <!-- EN: elephant tusk -->
-  <ElephantTusk.label>TODO</ElephantTusk.label>
+  <ElephantTusk.label>عاج فیل</ElephantTusk.label>
   <!-- EN: An elephant's tusk. It is very durable and valuable. While somewhat unwieldy as a melee weapon, it can still be deadly. -->
-  <ElephantTusk.description>TODO</ElephantTusk.description>
+  <ElephantTusk.description>عاج یک فیل. بسیار بادوام و ارزشمند است. اگرچه به عنوان سلاح نزدیک تا حدی دست و پا گیر است، اما همچنان می‌تواند کشنده باشد.</ElephantTusk.description>
   <!-- EN: point -->
-  <ElephantTusk.tools.point.label>TODO</ElephantTusk.tools.point.label>
+  <ElephantTusk.tools.point.label>نوک</ElephantTusk.tools.point.label>
   <!-- EN: base -->
-  <ElephantTusk.tools.base.label>TODO</ElephantTusk.tools.base.label>
+  <ElephantTusk.tools.base.label>قاعده</ElephantTusk.tools.base.label>
   
   <!-- EN: healer mech serum -->
-  <MechSerumHealer.label>TODO</MechSerumHealer.label>
+  <MechSerumHealer.label>سرم مکانایت درمانگر</MechSerumHealer.label>
   <!-- EN: A one-use super-dose of mechanites tuned to heal health conditions. The mechanites will target and heal the single worst health condition affecting someone at any given time. Works even on health conditions that would otherwise be incurable. The mechanites can even transmute themselves into organic matter, forming new limbs or organs as needed. -->
-  <MechSerumHealer.description>TODO</MechSerumHealer.description>
+  <MechSerumHealer.description>یک ابردوز یکبار مصرف از مکانایت‌های تنظیم شده برای درمان شرایط سلامتی. مکانایت‌ها بدترین وضعیت سلامتی را که در هر زمان بر کسی تأثیر می‌گذارد هدف قرار می‌دهند و درمان می‌کنند. حتی بر شرایط سلامتی که در غیر این صورت غیرقابل درمان هستند کار می‌کند. مکانایت‌ها حتی می‌توانند خود را به ماده آلی تبدیل کنند و در صورت نیاز اندام‌ها یا اعضای جدید بسازند.</MechSerumHealer.description>
   <!-- EN: Use {0_label} -->
-  <MechSerumHealer.comps.CompUsable.useLabel>TODO</MechSerumHealer.comps.CompUsable.useLabel>
+  <MechSerumHealer.comps.CompUsable.useLabel>استفاده از {0_label}</MechSerumHealer.comps.CompUsable.useLabel>
   
   <!-- EN: resurrector mech serum -->
-  <MechSerumResurrector.label>TODO</MechSerumResurrector.label>
+  <MechSerumResurrector.label>سرم مکانایت احیاکننده</MechSerumResurrector.label>
   <!-- EN: A one-use super-dose of mechanites tuned to resurrect the dead. Administered to a corpse, mechanites repair broken-down tissues and kickstart the body back to life. Unfortunately, the resurrected sometimes come back with brain damage, blindness, or progressive psychosis. Outcomes are better when the mechanites are administered to a fresher body. If a body is preserved, it can even be resurrected long after death.\n\nThe resurrected also experience limited retrograde amnesia, forgetting some recent memories and social interactions. -->
-  <MechSerumResurrector.description>TODO</MechSerumResurrector.description>
+  <MechSerumResurrector.description>یک ابردوز یکبار مصرف از مکانایت‌های تنظیم شده برای احیای مردگان. با تزریق به جسد، مکانایت‌ها بافت‌های خراب را ترمیم کرده و بدن را دوباره به زندگی برمی‌گردانند. متأسفانه، احیا شدگان گاهی با آسیب مغزی، نابینایی یا روان‌پریشی پیشرونده برمی‌گردند. نتایج زمانی بهتر است که مکانایت‌ها به بدن تازه‌تری تزریق شوند. اگر جسد حفظ شود، حتی می‌توان آن را مدت‌ها پس از مرگ احیا کرد.
+
+احیا شدگان همچنین فراموشی پسرو محدودی را تجربه می‌کنند و برخی خاطرات اخیر و تعاملات اجتماعی را فراموش می‌کنند.</MechSerumResurrector.description>
   <!-- EN: Use {0_label} -->
-  <MechSerumResurrector.comps.CompUsable.useLabel>TODO</MechSerumResurrector.comps.CompUsable.useLabel>
+  <MechSerumResurrector.comps.CompUsable.useLabel>استفاده از {0_label}</MechSerumResurrector.comps.CompUsable.useLabel>
   
   <!-- EN: techprof subpersona core -->
-  <TechprofSubpersonaCore.label>TODO</TechprofSubpersonaCore.label>
+  <TechprofSubpersonaCore.label>هسته زیرشخصیت تکنولوژی</TechprofSubpersonaCore.label>
   <!-- EN: A small AI core housing a low-grade subpersona specialized in teaching technology. When used, the AI will teach you the technology you're currently researching, instantly and for free. Can only be used once. -->
-  <TechprofSubpersonaCore.description>TODO</TechprofSubpersonaCore.description>
+  <TechprofSubpersonaCore.description>یک هسته کوچک هوش مصنوعی که زیرشخصیتی درجه پایین متخصص در آموزش تکنولوژی را در خود جای داده است. هنگام استفاده، هوش مصنوعی تکنولوژی که در حال حاضر در حال تحقیق آن هستید را فوراً و رایگان به شما آموزش می‌دهد. فقط یک بار قابل استفاده است.</TechprofSubpersonaCore.description>
   <!-- EN: Use {0_label} -->
-  <TechprofSubpersonaCore.comps.CompUsable.useLabel>TODO</TechprofSubpersonaCore.comps.CompUsable.useLabel>
+  <TechprofSubpersonaCore.comps.CompUsable.useLabel>استفاده از {0_label}</TechprofSubpersonaCore.comps.CompUsable.useLabel>
   
   <!-- EN: thrumbo horn -->
-  <ThrumboHorn.label>TODO</ThrumboHorn.label>
+  <ThrumboHorn.label>شاخ ترامبو</ThrumboHorn.label>
   <!-- EN: A thrumbo's horn. It's razor-sharp, rock-hard, and priceless in most markets. This is a true trophy, as well as a deadly melee weapon. -->
-  <ThrumboHorn.description>TODO</ThrumboHorn.description>
+  <ThrumboHorn.description>شاخ یک ترامبو. تیغ‌تیز، سخت‌سنگ، و در بیشتر بازارها بی‌قیمت است. این یک جایزه واقعی و همچنین یک سلاح نزدیک کشنده است.</ThrumboHorn.description>
   <!-- EN: point -->
-  <ThrumboHorn.tools.point.label>TODO</ThrumboHorn.tools.point.label>
+  <ThrumboHorn.tools.point.label>نوک</ThrumboHorn.tools.point.label>
   <!-- EN: base -->
-  <ThrumboHorn.tools.base.label>TODO</ThrumboHorn.tools.base.label>
+  <ThrumboHorn.tools.base.label>قاعده</ThrumboHorn.tools.base.label>
   
 </LanguageData>
