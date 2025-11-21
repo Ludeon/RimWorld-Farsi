@@ -2,54 +2,54 @@
 <LanguageData>
   
   <!-- EN: dark visions -->
-  <DarkVisions.label>TODO</DarkVisions.label>
+  <DarkVisions.label>دیدگان تاریک</DarkVisions.label>
   <!-- EN: Mental state: Dark visions -->
-  <DarkVisions.baseInspectLine>TODO</DarkVisions.baseInspectLine>
+  <DarkVisions.baseInspectLine>وضعیت ذهنی: دیدگان تاریک</DarkVisions.baseInspectLine>
   <!-- EN: {PAWN_nameDef} has become overwhelmed with horrible visions, rambling about things that only {PAWN_pronoun} can see. {PAWN_pronoun} will snap out of it in a few hours. -->
-  <DarkVisions.beginLetter>TODO</DarkVisions.beginLetter>
+  <DarkVisions.beginLetter>{PAWN_nameDef} با دیدگان وحشتناک غلبه شده، درباره چیزهایی که فقط {PAWN_pronoun} می‌تواند ببیند سخن می‌گوید. {PAWN_pronoun} در چند ساعت آینده به حالت عادی بازخواهد گشت.</DarkVisions.beginLetter>
   <!-- EN: dark visions -->
-  <DarkVisions.beginLetterLabel>TODO</DarkVisions.beginLetterLabel>
+  <DarkVisions.beginLetterLabel>دیدگان تاریک</DarkVisions.beginLetterLabel>
   <!-- EN: {PAWN_nameDef}'s dark visions have stopped. -->
-  <DarkVisions.recoveryMessage>TODO</DarkVisions.recoveryMessage>
+  <DarkVisions.recoveryMessage>دیدگان تاریک {PAWN_nameDef} متوقف شده است.</DarkVisions.recoveryMessage>
   
   <!-- EN: entity slayer -->
-  <EntityKiller.label>TODO</EntityKiller.label>
+  <EntityKiller.label>قاتل موجودات</EntityKiller.label>
   <!-- EN: Mental state: Entity slayer -->
-  <EntityKiller.baseInspectLine>TODO</EntityKiller.baseInspectLine>
+  <EntityKiller.baseInspectLine>وضعیت ذهنی: قاتل موجودات</EntityKiller.baseInspectLine>
   <!-- EN: {0} has snapped. {PAWN_pronoun} can no longer tolerate holding such dangerous entities in captivity and intends to destroy as many as {PAWN_pronoun} can. -->
-  <EntityKiller.beginLetter>TODO</EntityKiller.beginLetter>
+  <EntityKiller.beginLetter>{0} از کوره دررفته است. {PAWN_pronoun} نمی‌تواند تحمل کند که موجودات خطرناک را در اسارت نگه دارد و قصد دارد تا حد امکان آنها را نابود کند.</EntityKiller.beginLetter>
   <!-- EN: {0} is no longer slaughtering random entities. -->
-  <EntityKiller.recoveryMessage>TODO</EntityKiller.recoveryMessage>
+  <EntityKiller.recoveryMessage>{0} دیگر موجودات تصادفی را نمی‌کشد.</EntityKiller.recoveryMessage>
   
   <!-- EN: entity liberator -->
-  <EntityLiberator.label>TODO</EntityLiberator.label>
+  <EntityLiberator.label>آزادی‌بخش موجودات</EntityLiberator.label>
   <!-- EN: Mental state: Entity liberator -->
-  <EntityLiberator.baseInspectLine>TODO</EntityLiberator.baseInspectLine>
+  <EntityLiberator.baseInspectLine>وضعیت ذهنی: آزادی‌بخش موجودات</EntityLiberator.baseInspectLine>
   <!-- EN: {0} has become suddenly allured by a captive entity and is convinced it must be freed. -->
-  <EntityLiberator.beginLetter>TODO</EntityLiberator.beginLetter>
+  <EntityLiberator.beginLetter>{0} ناگهان مجذوب یک موجود اسیر شده و متقاعد شده است که باید آزاد شود.</EntityLiberator.beginLetter>
   <!-- EN: {0} is no longer freeing entities. -->
-  <EntityLiberator.recoveryMessage>TODO</EntityLiberator.recoveryMessage>
+  <EntityLiberator.recoveryMessage>{0} دیگر موجودات را آزاد نمی‌کند.</EntityLiberator.recoveryMessage>
   
   <!-- EN: insane ramblings -->
-  <InsaneRamblings.label>TODO</InsaneRamblings.label>
+  <InsaneRamblings.label>ناله‌های جنون‌آمیز</InsaneRamblings.label>
   <!-- EN: Mental state: Insane ramblings -->
-  <InsaneRamblings.baseInspectLine>TODO</InsaneRamblings.baseInspectLine>
+  <InsaneRamblings.baseInspectLine>وضعیت ذهنی: ناله‌های جنون‌آمیز</InsaneRamblings.baseInspectLine>
   <!-- EN: {PAWN_nameDef} has become completely untethered from reality, ranting about impossible subjects. {PAWN_pronoun} will snap out of it in a few hours. -->
-  <InsaneRamblings.beginLetter>TODO</InsaneRamblings.beginLetter>
+  <InsaneRamblings.beginLetter>{PAWN_nameDef} کاملاً از واقعیت دور شده، درباره موضوعات غیرممکن ناله می‌کند. {PAWN_pronoun} در چند ساعت آینده به حالت عادی بازخواهد گشت.</InsaneRamblings.beginLetter>
   <!-- EN: insane ramblings -->
-  <InsaneRamblings.beginLetterLabel>TODO</InsaneRamblings.beginLetterLabel>
+  <InsaneRamblings.beginLetterLabel>ناله‌های جنون‌آمیز</InsaneRamblings.beginLetterLabel>
   <!-- EN: {PAWN_nameDef} has stopped rambling. -->
-  <InsaneRamblings.recoveryMessage>TODO</InsaneRamblings.recoveryMessage>
+  <InsaneRamblings.recoveryMessage>{PAWN_nameDef} از ناله کردن باز ایستاده است.</InsaneRamblings.recoveryMessage>
   
   <!-- EN: terrifying hallucinations -->
-  <TerrifyingHallucinations.label>TODO</TerrifyingHallucinations.label>
+  <TerrifyingHallucinations.label>توهمات ترسناک</TerrifyingHallucinations.label>
   <!-- EN: Mental state: Terrifying hallucinations -->
-  <TerrifyingHallucinations.baseInspectLine>TODO</TerrifyingHallucinations.baseInspectLine>
+  <TerrifyingHallucinations.baseInspectLine>وضعیت ذهنی: توهمات ترسناک</TerrifyingHallucinations.baseInspectLine>
   <!-- EN: Vivid  hallucinations swirl around {0}, twisting and distorting allies into horrifying abominations. {PAWN_pronoun} will flee from anyone {PAWN_pronoun} perceives as a threat. -->
-  <TerrifyingHallucinations.beginLetter>TODO</TerrifyingHallucinations.beginLetter>
+  <TerrifyingHallucinations.beginLetter>توهمات زنده دور {0} می‌چرخند، متحدان را به منفورهای وحشتناک تبدیل می‌کنند. {PAWN_pronoun} از هر کسی که به عنوان تهدید می‌بیند فرار خواهد کرد.</TerrifyingHallucinations.beginLetter>
   <!-- EN: terrifying hallucinations -->
-  <TerrifyingHallucinations.beginLetterLabel>TODO</TerrifyingHallucinations.beginLetterLabel>
+  <TerrifyingHallucinations.beginLetterLabel>توهمات ترسناک</TerrifyingHallucinations.beginLetterLabel>
   <!-- EN: {0} is no longer hallucinating. -->
-  <TerrifyingHallucinations.recoveryMessage>TODO</TerrifyingHallucinations.recoveryMessage>
+  <TerrifyingHallucinations.recoveryMessage>{0} دیگر دچار توهم نیست.</TerrifyingHallucinations.recoveryMessage>
   
 </LanguageData>

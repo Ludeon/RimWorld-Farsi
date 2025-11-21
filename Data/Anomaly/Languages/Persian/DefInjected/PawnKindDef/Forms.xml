@@ -2,18 +2,18 @@
 <LanguageData>
   
   <!-- EN: blind healer -->
-  <Blindhealer.label>TODO</Blindhealer.label>
+  <Blindhealer.label>شفادهنده کور</Blindhealer.label>
   <!-- EN: A blind healer is approaching the colony. -->
-  <Blindhealer.letterLabel>TODO</Blindhealer.letterLabel>
+  <Blindhealer.letterLabel>شفادهنده کوری در حال نزدیک شدن به مستعمره است.</Blindhealer.letterLabel>
   <!-- EN: A small, withered {PAWN_genderNoun} stands in front of you. Where {PAWN_possessive} eyes should be, there are only scar-crusted holes in {PAWN_possessive} flesh. Yet, even without eyes, {PAWN_pronoun} somehow looks at you with kindness. {PAWN_pronoun} says that {PAWN_pronoun} knows that {PAWN_possessive} skills are needed here and wants to stay for a while. -->
-  <Blindhealer.letterPrompt>TODO</Blindhealer.letterPrompt>
+  <Blindhealer.letterPrompt>{PAWN_genderNoun} کوچک و خشکیده‌ای جلوی شما ایستاده است. جایی که باید چشمان {PAWN_possessive} باشد، فقط سوراخ‌های پوسته‌دار زخم در گوشت {PAWN_possessive} وجود دارد. با این حال، حتی بدون چشمان، {PAWN_pronoun} به نحوی با مهربانی به شما نگاه می‌کند. {PAWN_pronoun} می‌گوید که می‌داند مهارت‌های {PAWN_possessive} اینجا مورد نیاز است و می‌خواهد مدتی بماند.</Blindhealer.letterPrompt>
   
   <!-- EN: drifter -->
-  <CreepDrifter.label>TODO</CreepDrifter.label>
+  <CreepDrifter.label>سرگردان</CreepDrifter.label>
   <!-- EN: A visitor is approaching the colony. -->
-  <CreepDrifter.letterLabel>TODO</CreepDrifter.letterLabel>
-  <!-- EN: The weary-looking drifter stretches {PAWN_possessive} legs. {PAWN_pronoun} seems very tired.\n\n{PAWN_pronoun} asks to stay in your colony for a while - at least until {PAWN_pronoun} has recovered {PAWN_possessive} strength. -->
-  <CreepDrifter.letterPrompt>TODO</CreepDrifter.letterPrompt>
+  <CreepDrifter.letterLabel>یک بازدیدکننده در حال نزدیک شدن به مستعمره است.</CreepDrifter.letterLabel>
+  <!-- EN: The weary-looking drifter stretches {PAWN_possessive} legs. {PAWN_pronoun} seems very tired.\n\n{PAWN_pronoun} asks to stay in your colony for a while - at least until {PAWN_pronoun} has recovered {PAWN_pronoun} strength. -->
+  <CreepDrifter.letterPrompt>سرگردان خسته‌نما پاهای {PAWN_possessive} را می‌کشد. {PAWN_pronoun} به نظر بسیار خسته است.\n\n{PAWN_pronoun} می‌خواهد مدتی در مستعمره شما بماند - حداقل تا زمانی که {PAWN_pronoun} قدرت {PAWN_possessive} را بازیابی کند.</CreepDrifter.letterPrompt>
   
   <!-- EN: cult escapee -->
   <CultEscapee.label>TODO</CultEscapee.label>

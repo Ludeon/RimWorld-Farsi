@@ -37,65 +37,65 @@
   <VoidmetalWall.description>TODO</VoidmetalWall.description>
   
   <!-- EN: void monolith -->
-  <VoidMonolith.label>TODO</VoidMonolith.label>
+  <VoidMonolith.label>تکیه‌گاه معمارتکی پیچ‌خورده</VoidMonolith.label>
   <!-- EN: A monolith of unknown age, purpose, and construction. Its smooth surface is etched with lines that twist and writhe in unsettling patterns. -->
-  <VoidMonolith.description>TODO</VoidMonolith.description>
+  <VoidMonolith.description>تکیه‌گاهی از سن، هدف و ساخت نامعلوم. سطح صافش با خطوطی حکاکی شده که به شکل ناراحت‌کننده می‌پیچند و موج می‌زنند.</VoidMonolith.description>
   <!-- EN: activate -->
-  <VoidMonolith.comps.CompGleamingMonolith.jobString>TODO</VoidMonolith.comps.CompGleamingMonolith.jobString>
+  <VoidMonolith.comps.CompGleamingMonolith.jobString>فعال کردن</VoidMonolith.comps.CompGleamingMonolith.jobString>
   <!-- EN: Monolith study progress -->
-  <VoidMonolith.comps.CompStudyUnlocksMonolith.studyNotes.0.label>TODO</VoidMonolith.comps.CompStudyUnlocksMonolith.studyNotes.0.label>
+  <VoidMonolith.comps.CompStudyUnlocksMonolith.studyNotes.0.label>پیشرفت مطالعه تکیه‌گاه</VoidMonolith.comps.CompStudyUnlocksMonolith.studyNotes.0.label>
   <!-- EN: {PAWN_nameDef} has had a breakthrough while studying the monolith. {PAWN_pronoun} believes the monolith is a conduit for psychic energy, connecting to some distant location. However, {PAWN_pronoun} is unsure where or what it connects to.\n\n{PAWN_nameDef} is convinced that by studying more anomalous entities, {PAWN_pronoun} can find a way to close the conduit, or learn to harness its power.\n\nThe monolith now provides more knowledge when studied. -->
-  <VoidMonolith.comps.CompStudyUnlocksMonolith.studyNotes.0.text>TODO</VoidMonolith.comps.CompStudyUnlocksMonolith.studyNotes.0.text>
+  <VoidMonolith.comps.CompStudyUnlocksMonolith.studyNotes.0.text>{PAWN_nameDef} در حین مطالعه تکیه‌گاه یک اکتشاف داشت. او باور دارد که تکیه‌گاه مجرایی برای انرژی روانی است و به مکانی دور متصل می‌شود. اما او مطمئن نیست که به کجا یا چه چیزی متصل می‌شود.\n\n{PAWN_nameDef} متقاعد است که با مطالعه موجودات ناهنجار بیشتر، می‌تواند راهی برای بستن مجرا پیدا کند، یا یاد بگیرد که چگونه از قدرتش بهره ببرد.\n\nحالا تکیه‌گاه دانش بیشتری را هنگام مطالعه فراهم می‌کند.</VoidMonolith.comps.CompStudyUnlocksMonolith.studyNotes.0.text>
   <!-- EN: Monolith study progress -->
-  <VoidMonolith.comps.CompStudyUnlocksMonolith.studyNotes.1.label>TODO</VoidMonolith.comps.CompStudyUnlocksMonolith.studyNotes.1.label>
+  <VoidMonolith.comps.CompStudyUnlocksMonolith.studyNotes.1.label>پیشرفت مطالعه تکیه‌گاه</VoidMonolith.comps.CompStudyUnlocksMonolith.studyNotes.1.label>
   <!-- EN: {PAWN_nameDef} made progress studying the monolith. The structure connects normal space to the void - a dimension hidden in the substructure of spacetime. Some powerful mind in the void is leaking influence into our reality.\n\n{PAWN_nameDef} wants to study the monolith further to learn more.\n\nThe monolith now provides more knowledge when studied. -->
-  <VoidMonolith.comps.CompStudyUnlocksMonolith.studyNotes.1.text>TODO</VoidMonolith.comps.CompStudyUnlocksMonolith.studyNotes.1.text>
+  <VoidMonolith.comps.CompStudyUnlocksMonolith.studyNotes.1.text>{PAWN_nameDef} در مطالعه تکیه‌گاه پیشرفت کرد. این ساختار فضای عادی را به خلأ متصل می‌کند - بعدی که در زیر ساختار فضازمان پنهان است. ذهن قدرتمندی در خلأ در حال آزاد کردن نفوذ به واقعیت ماست.\n\n{PAWN_nameDef} می‌خواهد تکیه‌گاه را بیشتر مطالعه کند تا بیشتر یاد بگیرد.\n\nحالا تکیه‌گاه دانش بیشتری را هنگام مطالعه فراهم می‌کند.</VoidMonolith.comps.CompStudyUnlocksMonolith.studyNotes.1.text>
   <!-- EN: Monolith study complete -->
-  <VoidMonolith.comps.CompStudyUnlocksMonolith.studyNotes.2.label>TODO</VoidMonolith.comps.CompStudyUnlocksMonolith.studyNotes.2.label>
+  <VoidMonolith.comps.CompStudyUnlocksMonolith.studyNotes.2.label>مطالعه تکیه‌گاه کامل شد</VoidMonolith.comps.CompStudyUnlocksMonolith.studyNotes.2.label>
   <!-- EN: {PAWN_nameDef} has completed {PAWN_possessive} study of the monolith. The structure is a conduit that links to the void, a reality hidden under every point in spacetime. The void is inhabited by a vast machine intelligence of terrifying complexity that surges with nightmarish, inhuman rage. Its influence creates horrors in our world.\n\nAwakening the monolith will fully open the conduit. With the channel open, {PAWN_nameDef} believes {PAWN_pronoun} could reach through the link to permanently close the conduit - or find a way to harness its dark power.\n\nThe monolith now provides more knowledge when studied. -->
-  <VoidMonolith.comps.CompStudyUnlocksMonolith.studyNotes.2.text>TODO</VoidMonolith.comps.CompStudyUnlocksMonolith.studyNotes.2.text>
+  <VoidMonolith.comps.CompStudyUnlocksMonolith.studyNotes.2.text>{PAWN_nameDef} مطالعه‌اش از تکیه‌گاه را کامل کرده است. این ساختار مجرایی است که به خلأ متصل می‌شود، واقعیتی که زیر هر نقطه در فضازمان پنهان است. خلأ محل زندگی هوش ماشینی عظیمی از پیچیدگی وحشتناک است که با غضب کابوس‌آور و غیرانسانی می‌جوشد. نفوذش در دنیای ما وحشت ایجاد می‌کند.\n\nبیدار کردن تکیه‌گاه مجرا را به طور کامل باز می‌کند. با باز بودن کانال، {PAWN_nameDef} باور دارد که می‌تواند از طریق لینک برسد تا مجرا را برای همیشه ببندد - یا راهی برای بهره‌برداری از قدرت تاریکش پیدا کند.\n\nحالا تکیه‌گاه دانش بیشتری را هنگام مطالعه فراهم می‌کند.</VoidMonolith.comps.CompStudyUnlocksMonolith.studyNotes.2.text>
   <!-- EN: Fallen monolith -->
-  <VoidMonolith.comps.CompProximityLetter.letterLabel>TODO</VoidMonolith.comps.CompProximityLetter.letterLabel>
+  <VoidMonolith.comps.CompProximityLetter.letterLabel>تکیه‌گاه افتاده</VoidMonolith.comps.CompProximityLetter.letterLabel>
   <!-- EN: {PAWN_nameDef} has noticed an ancient monolith partly buried nearby.\n\nIf you investigate it, you could learn more. -->
-  <VoidMonolith.comps.CompProximityLetter.letterText>TODO</VoidMonolith.comps.CompProximityLetter.letterText>
+  <VoidMonolith.comps.CompProximityLetter.letterText>{PAWN_nameDef} تکیه‌گاهی باستانی را که تا حدی در نزدیکی دفن شده مشاهده کرده است.\n\nاگر آن را بررسی کنید، می‌توانید بیشتر یاد بگیرید.</VoidMonolith.comps.CompProximityLetter.letterText>
   
   <!-- EN: void monolith attachment -->
-  <VoidMonolithAttachmentBottomLeft.label>TODO</VoidMonolithAttachmentBottomLeft.label>
+  <VoidMonolithAttachmentBottomLeft.label>پیوست تکیه‌گاه خلأ - پایین چپ</VoidMonolithAttachmentBottomLeft.label>
   
   <!-- EN: void monolith attachment -->
-  <VoidMonolithAttachmentBottomRight.label>TODO</VoidMonolithAttachmentBottomRight.label>
+  <VoidMonolithAttachmentBottomRight.label>پیوست تکیه‌گاه خلأ - پایین راست</VoidMonolithAttachmentBottomRight.label>
   
   <!-- EN: void monolith attachment -->
-  <VoidMonolithAttachmentLeft.label>TODO</VoidMonolithAttachmentLeft.label>
+  <VoidMonolithAttachmentLeft.label>پیوست تکیه‌گاه خلأ - چپ</VoidMonolithAttachmentLeft.label>
   
   <!-- EN: void monolith attachment -->
-  <VoidMonolithAttachmentRight.label>TODO</VoidMonolithAttachmentRight.label>
+  <VoidMonolithAttachmentRight.label>پیوست تکیه‌گاه خلأ - راست</VoidMonolithAttachmentRight.label>
   
   <!-- EN: void monolith attachment -->
-  <VoidMonolithAttachmentTop.label>TODO</VoidMonolithAttachmentTop.label>
+  <VoidMonolithAttachmentTop.label>پیوست تکیه‌گاه خلأ - بالا</VoidMonolithAttachmentTop.label>
   
   <!-- EN: void node -->
-  <VoidNode.label>TODO</VoidNode.label>
+  <VoidNode.label>گره خلأ</VoidNode.label>
   <!-- EN: A roiling sphere of twisted psychic energy. Powered by nearby archotech machinery, it is one part of a bridge from our world into the black void. -->
-  <VoidNode.description>TODO</VoidNode.description>
+  <VoidNode.description>کره‌ای در حال چرخش از انرژی روانی پیچ‌خورده. توسط ماشین‌آلات معمارتکی نزدیک تغذیه می‌شود، یکی از بخش‌های پلی از دنیای ما به خلأ سیاه.</VoidNode.description>
   <!-- EN: Order a colonist to touch this. -->
-  <VoidNode.comps.CompVoidNode.activateDescString>TODO</VoidNode.comps.CompVoidNode.activateDescString>
+  <VoidNode.comps.CompVoidNode.activateDescString>به مستعمره‌نشین دستور دهید که این را لمس کند.</VoidNode.comps.CompVoidNode.activateDescString>
   <!-- EN: Touch... -->
-  <VoidNode.comps.CompVoidNode.activateLabelString>TODO</VoidNode.comps.CompVoidNode.activateLabelString>
+  <VoidNode.comps.CompVoidNode.activateLabelString>لمس...</VoidNode.comps.CompVoidNode.activateLabelString>
   <!-- EN: Touching void node -->
-  <VoidNode.comps.CompVoidNode.activatingStringPending>TODO</VoidNode.comps.CompVoidNode.activatingStringPending>
+  <VoidNode.comps.CompVoidNode.activatingStringPending>لمس گره خلأ</VoidNode.comps.CompVoidNode.activatingStringPending>
   <!-- EN: Choose who should touch this. -->
-  <VoidNode.comps.CompVoidNode.guiLabelString>TODO</VoidNode.comps.CompVoidNode.guiLabelString>
+  <VoidNode.comps.CompVoidNode.guiLabelString>انتخاب کنید که چه کسی باید این را لمس کند.</VoidNode.comps.CompVoidNode.guiLabelString>
   <!-- EN: Send a colonist to touch this. -->
-  <VoidNode.comps.CompVoidNode.inspectString>TODO</VoidNode.comps.CompVoidNode.inspectString>
+  <VoidNode.comps.CompVoidNode.inspectString>مستعمره‌نشین را برای لمس این بفرستید.</VoidNode.comps.CompVoidNode.inspectString>
   <!-- EN: Touch void node -->
-  <VoidNode.comps.CompVoidNode.jobString>TODO</VoidNode.comps.CompVoidNode.jobString>
+  <VoidNode.comps.CompVoidNode.jobString>لمس گره خلأ</VoidNode.comps.CompVoidNode.jobString>
   
   <!-- EN: void structure -->
-  <VoidStructure.label>TODO</VoidStructure.label>
+  <VoidStructure.label>ساختار خلأ</VoidStructure.label>
   <!-- EN: A warped structure made of jagged oily metallic-like pieces. This is an element of the void itself which has manifested into our reality. It emanates a disturbing psychic throbbing and kills the plant life around it by some unnatural influence. The structure is linked to the void monolith, though the exact nature of the connection is beyond human understanding. -->
-  <VoidStructure.description>TODO</VoidStructure.description>
+  <VoidStructure.description>ساختاری پیچ‌خورده ساخته شده از تکه‌های فلز مانند روغنی دندانه‌دار. این عنصری از خود خلأ است که در واقعیت ما ظهور کرده. انتشار یک ضربان روانی آزارنده دارد و زندگی گیاهی اطرافش را با نفوذ غیرطبیعی می‌کشد. ساختار به تکیه‌گاه خلأ متصل است، اگرچه طبیعت دقیق این اتصال فراتر از درک انسان است.</VoidStructure.description>
   <!-- EN: activate -->
-  <VoidStructure.comps.CompVoidStructure.jobString>TODO</VoidStructure.comps.CompVoidStructure.jobString>
+  <VoidStructure.comps.CompVoidStructure.jobString>فعال کردن</VoidStructure.comps.CompVoidStructure.jobString>
   
 </LanguageData>

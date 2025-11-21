@@ -2,65 +2,65 @@
 <LanguageData>
   
   <!-- EN: deadlife capsule -->
-  <Bullet_Shell_Deadlife.label>TODO</Bullet_Shell_Deadlife.label>
+  <Bullet_Shell_Deadlife.label>کپسول زندگی مرده</Bullet_Shell_Deadlife.label>
   
   <!-- EN: ghoul resurrection serum -->
-  <GhoulResurrectionSerum.label>TODO</GhoulResurrectionSerum.label>
+  <GhoulResurrectionSerum.label>سرم احیای مردارخوار</GhoulResurrectionSerum.label>
   <!-- EN: A capsule of thick grey fluid containing a mixture of deadlife dust and advanced biochemicals. Inject it into the corpse of a ghoul to return them to life. The resurrection process takes several hours. -->
-  <GhoulResurrectionSerum.description>TODO</GhoulResurrectionSerum.description>
+  <GhoulResurrectionSerum.description>کپسولی از مایع غلیظ خاکستری که حاوی مخلوطی از غبار زندگی مرده و بیوشیمی‌های پیشرفته است. آن را به جسد مردارخوار تزریق کنید تا به زندگی بازگردد. فرایند احیا چندین ساعت طول می‌کشد.</GhoulResurrectionSerum.description>
   <!-- EN: Use {0_label} -->
-  <GhoulResurrectionSerum.comps.CompUsable.useLabel>TODO</GhoulResurrectionSerum.comps.CompUsable.useLabel>
+  <GhoulResurrectionSerum.comps.CompUsable.useLabel>استفاده از {0_label}</GhoulResurrectionSerum.comps.CompUsable.useLabel>
   
   <!-- EN: juggernaut serum -->
-  <JuggernautSerum.label>TODO</JuggernautSerum.label>
+  <JuggernautSerum.label>سرم غول‌آسا</JuggernautSerum.label>
   <!-- EN: A syringe of opaque milky-yellow liquid that increases the user's strength and speed, and allows them to recover from injuries faster. The serum is injected into the user's musculature, where it adds energy to various metabolic processes. However, the unstable substance also psychically influences the mind, provoking unsettling thoughts and severely reducing the user's mood. -->
-  <JuggernautSerum.description>TODO</JuggernautSerum.description>
+  <JuggernautSerum.description>سرنگی از مایع کدر زرد-شیری که قدرت و سرعت کاربر را افزایش می‌دهد و به آنها اجازه می‌دهد از صدمات سریع‌تر بهبود یابند. سرم به عضله کاربر تزریق می‌شود، جایی که انرژی به فرآیندهای متابولیکی مختلف می‌افزاید. با این حال، ماده ناپایدار همچنین روانی ذهن را تحت تأثیر قرار می‌دهد، افکار ناراحت‌کننده‌ای را تحریک می‌کند و به شدت روحیه کاربر را کاهش می‌دهد.</JuggernautSerum.description>
   <!-- EN: Use {0_label} -->
-  <JuggernautSerum.comps.CompUsable.useLabel>TODO</JuggernautSerum.comps.CompUsable.useLabel>
+  <JuggernautSerum.comps.CompUsable.useLabel>استفاده از {0_label}</JuggernautSerum.comps.CompUsable.useLabel>
   <!-- EN: Ingest {0} -->
-  <JuggernautSerum.ingestible.ingestCommandString>TODO</JuggernautSerum.ingestible.ingestCommandString>
+  <JuggernautSerum.ingestible.ingestCommandString>مصرف {0}</JuggernautSerum.ingestible.ingestCommandString>
   <!-- EN: Ingesting {0}. -->
-  <JuggernautSerum.ingestible.ingestReportString>TODO</JuggernautSerum.ingestible.ingestReportString>
+  <JuggernautSerum.ingestible.ingestReportString>مصرف {0}.</JuggernautSerum.ingestible.ingestReportString>
   
   <!-- EN: metalblood serum -->
-  <MetalbloodSerum.label>TODO</MetalbloodSerum.label>
+  <MetalbloodSerum.label>سرم خون فلزی</MetalbloodSerum.label>
   <!-- EN: A syringe full of rust-colored liquid that constantly hardens and liquifies. When injected into the bloodstream, the metalblood substance can harden the flesh when it anticipates a blow, making the user more resistant to damage. However, the bioferrite-based chemistry of this serum also makes the user particularly vulnerable to fire. -->
-  <MetalbloodSerum.description>TODO</MetalbloodSerum.description>
+  <MetalbloodSerum.description>سرنگی پر از مایع رنگ زنگ که دائماً سفت و مایع می‌شود. هنگامی که به جریان خون تزریق می‌شود، ماده خون فلزی می‌تواند گوشت را زمانی که ضربه‌ای را پیش‌بینی می‌کند سفت کند، که کاربر را نسبت به آسیب مقاوم‌تر می‌کند. با این حال، شیمی مبتنی بر بیوفریت این سرم همچنین کاربر را به طور خاص نسبت به آتش آسیب‌پذیر می‌کند.</MetalbloodSerum.description>
   <!-- EN: Use {0_label} -->
-  <MetalbloodSerum.comps.CompUsable.useLabel>TODO</MetalbloodSerum.comps.CompUsable.useLabel>
+  <MetalbloodSerum.comps.CompUsable.useLabel>استفاده از {0_label}</MetalbloodSerum.comps.CompUsable.useLabel>
   <!-- EN: Ingest {0} -->
-  <MetalbloodSerum.ingestible.ingestCommandString>TODO</MetalbloodSerum.ingestible.ingestCommandString>
+  <MetalbloodSerum.ingestible.ingestCommandString>مصرف {0}</MetalbloodSerum.ingestible.ingestCommandString>
   <!-- EN: Ingesting {0}. -->
-  <MetalbloodSerum.ingestible.ingestReportString>TODO</MetalbloodSerum.ingestible.ingestReportString>
+  <MetalbloodSerum.ingestible.ingestReportString>مصرف {0}.</MetalbloodSerum.ingestible.ingestReportString>
   
   <!-- EN: mind-numb serum -->
-  <MindNumbSerum.label>TODO</MindNumbSerum.label>
+  <MindNumbSerum.label>سرم بی‌حس کننده ذهن</MindNumbSerum.label>
   <!-- EN: A syringe of clear, viscous fluid. Injected near the brainstem, it deadens the mind, rendering the user unable to feel the highs and lows of human emotion. This temporarily prevents them from having mental breaks and inspirations. -->
-  <MindNumbSerum.description>TODO</MindNumbSerum.description>
+  <MindNumbSerum.description>سرنگی از مایع شفاف و چسبنده. نزدیک ساقه مغز تزریق می‌شود، ذهن را بی‌حس می‌کند و کاربر را قادر می‌سازد تا احساس اوج و فرود عواطف انسانی را نداشته باشد. این کار به طور موقت آنها را از داشتن شکست‌های ذهنی و الهام‌ها باز می‌دارد.</MindNumbSerum.description>
   <!-- EN: Use {0_label} -->
-  <MindNumbSerum.comps.CompUsable.useLabel>TODO</MindNumbSerum.comps.CompUsable.useLabel>
+  <MindNumbSerum.comps.CompUsable.useLabel>استفاده از {0_label}</MindNumbSerum.comps.CompUsable.useLabel>
   <!-- EN: Ingest {0} -->
-  <MindNumbSerum.ingestible.ingestCommandString>TODO</MindNumbSerum.ingestible.ingestCommandString>
+  <MindNumbSerum.ingestible.ingestCommandString>مصرف {0}</MindNumbSerum.ingestible.ingestCommandString>
   <!-- EN: Ingesting {0}. -->
-  <MindNumbSerum.ingestible.ingestReportString>TODO</MindNumbSerum.ingestible.ingestReportString>
+  <MindNumbSerum.ingestible.ingestReportString>مصرف {0}.</MindNumbSerum.ingestible.ingestReportString>
   
   <!-- EN: deadlife shell -->
-  <Shell_Deadlife.label>TODO</Shell_Deadlife.label>
+  <Shell_Deadlife.label>پوسته زندگی مرده</Shell_Deadlife.label>
   <!-- EN: An artillery shell packed with a dust-like substance that, after exploding into a cloud, will settle on nearby human and animal corpses and raise them as shamblers. The shamblers will only attack your enemies.\n\nThis can be fired from mortars or installed as a trap. Explodes when damaged. -->
-  <Shell_Deadlife.description>TODO</Shell_Deadlife.description>
+  <Shell_Deadlife.description>پوسته توپخانه‌ای پر از ماده‌ای شبیه گرد که پس از منفجر شدن به ابر، بر روی جسدهای انسان و حیوان اطراف می‌نشیند و آنها را به عنوان شکننده زنده می‌کند. شکننده‌ها فقط دشمنان شما را مورد حمله قرار می‌دهند.\n\nاین را می‌توان از خمپاره‌اندازها شلیک کرد یا به عنوان تله نصب کرد. در هنگام آسیب دیدن منفجر می‌شود.</Shell_Deadlife.description>
   
   <!-- EN: deadlife capsule -->
-  <Shell_Deadlife_Releasing.label>TODO</Shell_Deadlife_Releasing.label>
+  <Shell_Deadlife_Releasing.label>کپسول آزادسازی زندگی مرده</Shell_Deadlife_Releasing.label>
   
   <!-- EN: voidsight serum -->
-  <VoidsightSerum.label>TODO</VoidsightSerum.label>
+  <VoidsightSerum.label>سرم بینش خلأ</VoidsightSerum.label>
   <!-- EN: A capsule of oily black fluid that squirms endlessly inside the glass. When injected into the eye, it suppresses the inhibitory neurons that keep perception focused on the real world, thus lifting dark psychic phenomena into conscious perception. This increases the amount of knowledge gained when studying unnatural entities, as well as psychic sensitivity, but also impacts mood.\n\nThe effect is temporary and does not stack. -->
-  <VoidsightSerum.description>TODO</VoidsightSerum.description>
+  <VoidsightSerum.description>کپسولی از مایع سیاه روغنی که بی‌پایان در داخل شیشه می‌جنبند. هنگامی که به چشم تزریق می‌شود، نورون‌های بازدارنده‌ای را که ادراک را روی دنیای واقعی متمرکز نگه می‌دارند، سرکوب می‌کند، بدین ترتیب پدیده‌های روانی تاریک را به ادراک آگاهانه می‌رساند. این کار مقدار دانش به دست آمده هنگام مطالعه موجودات غیرطبیعی و همچنین حساسیت روانی را افزایش می‌دهد، اما بر روحیه نیز تأثیر می‌گذارد.\n\nاثر موقت است و جمع نمی‌شود.</VoidsightSerum.description>
   <!-- EN: Use {0_label} -->
-  <VoidsightSerum.comps.CompUsable.useLabel>TODO</VoidsightSerum.comps.CompUsable.useLabel>
+  <VoidsightSerum.comps.CompUsable.useLabel>استفاده از {0_label}</VoidsightSerum.comps.CompUsable.useLabel>
   <!-- EN: Ingest {0} -->
-  <VoidsightSerum.ingestible.ingestCommandString>TODO</VoidsightSerum.ingestible.ingestCommandString>
+  <VoidsightSerum.ingestible.ingestCommandString>مصرف {0}</VoidsightSerum.ingestible.ingestCommandString>
   <!-- EN: Ingesting {0}. -->
-  <VoidsightSerum.ingestible.ingestReportString>TODO</VoidsightSerum.ingestible.ingestReportString>
+  <VoidsightSerum.ingestible.ingestReportString>مصرف {0}.</VoidsightSerum.ingestible.ingestReportString>
   
 </LanguageData>
