@@ -2,30 +2,30 @@
 <LanguageData>
   
   <!-- EN: ship part (defoliator) -->
-  <DefoliatorShipPart.label>TODO</DefoliatorShipPart.label>
+  <DefoliatorShipPart.label>قطعه کشتی (برگ‌زدا)</DefoliatorShipPart.label>
   <!-- EN: An ancient ship part, torn off of a craft of unknown origin. It might be thousands of years old.\n\nThis one contains a device which annihilates plant life near itself without directly affecting flesh creatures. These kinds of weapons are sometimes scattered across farmlands or forests to remove the enemy's food supply and hiding places without permanently ruining the territory. They're usually associated with orbital-drop mechanoid armies. -->
-  <DefoliatorShipPart.description>TODO</DefoliatorShipPart.description>
+  <DefoliatorShipPart.description>یک قطعه کشتی باستانی، که از یک سفینه با منشأ ناشناخته جدا شده است. ممکن است هزاران سال قدمت داشته باشد.\n\nاین قطعه حاوی دستگاهی است که حیات گیاهی را در نزدیکی خود نابود می‌کند بدون اینکه مستقیماً بر موجودات گوشتی تأثیر بگذارد. این نوع سلاح‌ها گاهی در مزارع یا جنگل‌ها پراکنده می‌شوند تا منبع غذایی و مخفیگاه‌های دشمن را بدون خراب کردن دائمی قلمرو از بین ببرند. آنها معمولاً با ارتش‌های مکانیزه فرود مداری مرتبط هستند.</DefoliatorShipPart.description>
   
   <!-- EN: ship part (psychic droner) -->
-  <PsychicDronerShipPart.label>TODO</PsychicDronerShipPart.label>
+  <PsychicDronerShipPart.label>قطعه کشتی (مولد وزوز روانی)</PsychicDronerShipPart.label>
   <!-- EN: An ancient ship part, torn off of a craft of unknown origin. It might be thousands of years old.\n\nThis one contains a psychic disturbance device. Using incomprehensible archotechnologies, it generates a psychic signal that drives people and animals mad within a wide radius around itself. -->
-  <PsychicDronerShipPart.description>TODO</PsychicDronerShipPart.description>
+  <PsychicDronerShipPart.description>یک قطعه کشتی باستانی، که از یک سفینه با منشأ ناشناخته جدا شده است. ممکن است هزاران سال قدمت داشته باشد.\n\nاین قطعه حاوی یک دستگاه اختلال روانی است. با استفاده از فناوری‌های باستانی غیرقابل درک، سیگنالی روانی تولید می‌کند که مردم و حیوانات را در شعاع وسیعی در اطراف خود دیوانه می‌کند.</PsychicDronerShipPart.description>
   
   <!-- EN: ship chunk -->
-  <ShipChunk.label>TODO</ShipChunk.label>
+  <ShipChunk.label>تکه کشتی</ShipChunk.label>
   <!-- EN: A chunk of a spacecraft. It seems to have been torn off either by uncontrolled re-entry forces or some kind of weapon.\n\nHaving landed not long ago, it still contains useful resources which you can acquire by deconstructing it. -->
-  <ShipChunk.description>TODO</ShipChunk.description>
+  <ShipChunk.description>تکه‌ای از یک فضاپیما. به نظر می‌رسد یا بر اثر نیروهای ورود مجدد کنترل نشده یا نوعی سلاح جدا شده است.\n\nاز آنجا که مدت زیادی از فرود آن نگذشته است، هنوز حاوی منابع مفیدی است که می‌توانید با اوراق کردن آن به دست آورید.</ShipChunk.description>
   <!-- EN: Deconstruct for valuable resources. -->
-  <ShipChunk.comps.CompInspectString.inspectString>TODO</ShipChunk.comps.CompInspectString.inspectString>
+  <ShipChunk.comps.CompInspectString.inspectString>اوراق کردن برای منابع با ارزش.</ShipChunk.comps.CompInspectString.inspectString>
   
   <!-- EN: imperial shuttle -->
-  <Shuttle.label>TODO</Shuttle.label>
+  <Shuttle.label>شاتل امپراتوری</Shuttle.label>
   <!-- EN: A spacer-tech uranium-powered shuttle designed for transit between surface and orbit, or between moons of a planetary system. To prevent unsanctioned use, the shuttle is locked to the pilot's bio-signature. Destroying the shuttle will yield a shuttle engine and other valuable resources. -->
-  <Shuttle.description>TODO</Shuttle.description>
+  <Shuttle.description>یک شاتل با فناوری فضایی و سوخت اورانیوم که برای ترانزیت بین سطح و مدار، یا بین قمرهای یک منظومه سیاره‌ای طراحی شده است. برای جلوگیری از استفاده غیرمجاز، شاتل روی امضای زیستی خلبان قفل شده است. نابود کردن شاتل یک موتور شاتل و سایر منابع با ارزش را به دست می‌دهد.</Shuttle.description>
   
   <!-- EN: crashed shuttle -->
-  <ShuttleCrashed.label>TODO</ShuttleCrashed.label>
+  <ShuttleCrashed.label>شاتل سقوط کرده</ShuttleCrashed.label>
   <!-- EN: A spacer-tech uranium-powered shuttle designed for transit between surface and orbit, or between moons of a planetary system. To prevent unsanctioned use, the shuttle is locked to the pilot's bio-signature. Destroying the shuttle will yield a shuttle engine and other valuable resources. -->
-  <ShuttleCrashed.description>TODO</ShuttleCrashed.description>
+  <ShuttleCrashed.description>یک شاتل با فناوری فضایی و سوخت اورانیوم که برای ترانزیت بین سطح و مدار، یا بین قمرهای یک منظومه سیاره‌ای طراحی شده است. برای جلوگیری از استفاده غیرمجاز، شاتل روی امضای زیستی خلبان قفل شده است. نابود کردن شاتل یک موتور شاتل و سایر منابع با ارزش را به دست می‌دهد.</ShuttleCrashed.description>
   
 </LanguageData>

@@ -2,58 +2,58 @@
 <LanguageData>
   
   <!-- EN: battery -->
-  <Battery.label>TODO</Battery.label>
+  <Battery.label>باتری</Battery.label>
   <!-- EN: Stores electricity for later use. Charged batteries explode when exposed to rain or fire. -->
-  <Battery.description>TODO</Battery.description>
+  <Battery.description>برق را برای استفاده‌های بعدی ذخیره می‌کند. باتری‌های شارژ شده در معرض باران یا آتش منفجر می‌شوند.</Battery.description>
   
   <!-- EN: chemfuel powered generator -->
-  <ChemfuelPoweredGenerator.label>TODO</ChemfuelPoweredGenerator.label>
+  <ChemfuelPoweredGenerator.label>ژنراتور سوخت شیمیایی</ChemfuelPoweredGenerator.label>
   <!-- EN: Produces power by consuming chemfuel. Must be periodically refueled by hand. -->
-  <ChemfuelPoweredGenerator.description>TODO</ChemfuelPoweredGenerator.description>
+  <ChemfuelPoweredGenerator.description>با مصرف سوخت شیمیایی برق تولید می‌کند. باید به طور دوره‌ای به صورت دستی سوخت‌گیری شود.</ChemfuelPoweredGenerator.description>
   
   <!-- EN: geothermal generator -->
-  <GeothermalGenerator.label>TODO</GeothermalGenerator.label>
+  <GeothermalGenerator.label>ژنراتور زمین‌گرمایی</GeothermalGenerator.label>
   <!-- EN: Produces electricity from geothermal steam geysers. Must be placed on a steam geyser. -->
-  <GeothermalGenerator.description>TODO</GeothermalGenerator.description>
+  <GeothermalGenerator.description>از آبفشان‌های بخار زمین‌گرمایی برق تولید می‌کند. باید روی یک آبفشان بخار قرار گیرد.</GeothermalGenerator.description>
   
   <!-- EN: hidden conduit -->
-  <HiddenConduit.label>TODO</HiddenConduit.label>
+  <HiddenConduit.label>کابل پنهان</HiddenConduit.label>
   <!-- EN: Hidden electrical cables for moving power around. They're tougher than regular conduits, but also slower to build and more expensive. -->
-  <HiddenConduit.description>TODO</HiddenConduit.description>
+  <HiddenConduit.description>کابل‌های الکتریکی پنهان برای انتقال برق. سخت‌تر از کابل‌های معمولی هستند، اما ساخت آنها کندتر و گران‌تر است.</HiddenConduit.description>
   
   <!-- EN: power conduit -->
-  <PowerConduit.label>TODO</PowerConduit.label>
+  <PowerConduit.label>کابل برق</PowerConduit.label>
   <!-- EN: A bundle of electrical cables for moving power around. Can be placed under walls and other buildings. -->
-  <PowerConduit.description>TODO</PowerConduit.description>
+  <PowerConduit.description>یک دسته کابل الکتریکی برای انتقال برق. می‌تواند زیر دیوارها و سایر ساختمان‌ها قرار گیرد.</PowerConduit.description>
   
   <!-- EN: power switch -->
-  <PowerSwitch.label>TODO</PowerSwitch.label>
+  <PowerSwitch.label>کلید برق</PowerSwitch.label>
   <!-- EN: Switches power on/off. -->
-  <PowerSwitch.description>TODO</PowerSwitch.description>
+  <PowerSwitch.description>برق را روشن/خاموش می‌کند.</PowerSwitch.description>
   
   <!-- EN: solar generator -->
-  <SolarGenerator.label>TODO</SolarGenerator.label>
+  <SolarGenerator.label>ژنراتور خورشیدی</SolarGenerator.label>
   <!-- EN: Produces electricity from sunlight. Does not work in the dark or under artificial light. -->
-  <SolarGenerator.description>TODO</SolarGenerator.description>
+  <SolarGenerator.description>از نور خورشید برق تولید می‌کند. در تاریکی یا زیر نور مصنوعی کار نمی‌کند.</SolarGenerator.description>
   
   <!-- EN: watermill generator -->
-  <WatermillGenerator.label>TODO</WatermillGenerator.label>
+  <WatermillGenerator.label>ژنراتور آسیاب آبی</WatermillGenerator.label>
   <!-- EN: Produces electricity from a river. Must be placed with its wheel in moving water. If watermills are placed too close together, the turbulence they generate will interfere and reduce power generation. -->
-  <WatermillGenerator.description>TODO</WatermillGenerator.description>
+  <WatermillGenerator.description>از رودخانه برق تولید می‌کند. باید به گونه‌ای قرار گیرد که چرخ آن در آب در حال حرکت باشد. اگر آسیاب‌های آبی خیلی به هم نزدیک قرار گیرند، تلاطمی که ایجاد می‌کنند تداخل ایجاد کرده و تولید برق را کاهش می‌دهد.</WatermillGenerator.description>
   
   <!-- EN: waterproof conduit -->
-  <WaterproofConduit.label>TODO</WaterproofConduit.label>
+  <WaterproofConduit.label>کابل ضد آب</WaterproofConduit.label>
   <!-- EN: Insulated electrical cables for transmitting power through shallow water or mud. -->
-  <WaterproofConduit.description>TODO</WaterproofConduit.description>
+  <WaterproofConduit.description>کابل‌های الکتریکی عایق شده برای انتقال برق از طریق آب کم‌عمق یا گل.</WaterproofConduit.description>
   
   <!-- EN: wind turbine -->
-  <WindTurbine.label>TODO</WindTurbine.label>
+  <WindTurbine.label>توربین بادی</WindTurbine.label>
   <!-- EN: A wind-powered electrical generator. Requires a large clear space in front and behind for optimal air flow. -->
-  <WindTurbine.description>TODO</WindTurbine.description>
+  <WindTurbine.description>یک ژنراتور الکتریکی بادی. برای جریان هوای بهینه به فضای خالی بزرگ در جلو و پشت نیاز دارد.</WindTurbine.description>
   
   <!-- EN: wood-fired generator -->
-  <WoodFiredGenerator.label>TODO</WoodFiredGenerator.label>
+  <WoodFiredGenerator.label>ژنراتور چوب‌سوز</WoodFiredGenerator.label>
   <!-- EN: Produces power by consuming wood. Must be periodically loaded with wood fuel by hand. -->
-  <WoodFiredGenerator.description>TODO</WoodFiredGenerator.description>
+  <WoodFiredGenerator.description>با مصرف چوب برق تولید می‌کند. باید به طور دوره‌ای به صورت دستی با سوخت چوب پر شود.</WoodFiredGenerator.description>
   
 </LanguageData>

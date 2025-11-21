@@ -2,28 +2,28 @@
 <LanguageData>
   
   <!-- EN: campfire -->
-  <Campfire.label>TODO</Campfire.label>
+  <Campfire.label>آتش کمپ</Campfire.label>
   <!-- EN: Cooks meals and produces heat, and burns out after a few days. As with all heat sources, it must be placed indoors so it has a closed space to heat. Refuelable. -->
-  <Campfire.description>TODO</Campfire.description>
+  <Campfire.description>غذا می‌پزد و گرما تولید می‌کند، و پس از چند روز می‌سوزد. مانند همه منابع گرما، باید در داخل قرار گیرد تا فضای بسته‌ای برای گرم کردن داشته باشد. قابل سوخت‌گیری مجدد.</Campfire.description>
   
   <!-- EN: cooler -->
-  <Cooler.label>TODO</Cooler.label>
+  <Cooler.label>کولر</Cooler.label>
   <!-- EN: An air-cooling machine that fits into a wall. Cool air comes out one side, while hot exhaust comes out the other. Can be used to cool down rooms during summer, or to create a walk-in freezer. -->
-  <Cooler.description>TODO</Cooler.description>
+  <Cooler.description>دستگاه سردکننده هوا که در دیوار جا می‌گیرد. هوای سرد از یک طرف بیرون می‌آید، در حالی که هوای گرم از طرف دیگر خارج می‌شود. می‌تواند برای خنک کردن اتاق‌ها در تابستان یا ایجاد فریزر قابل ورود استفاده شود.</Cooler.description>
   
   <!-- EN: heater -->
-  <Heater.label>TODO</Heater.label>
+  <Heater.label>بخاری</Heater.label>
   <!-- EN: A device that converts electricity into heat. It can automatically turn itself on or off to reach a specific target temperature. -->
-  <Heater.description>TODO</Heater.description>
+  <Heater.description>دستگاهی که برق را به گرما تبدیل می‌کند. می‌تواند به طور خودکار خود را روشن یا خاموش کند تا به دمای هدف مشخصی برسد.</Heater.description>
   
   <!-- EN: passive cooler -->
-  <PassiveCooler.label>TODO</PassiveCooler.label>
+  <PassiveCooler.label>کولر غیرفعال</PassiveCooler.label>
   <!-- EN: A traditional unpowered cooler that works by water evaporation. Must be regularly replenished with wood. Not efficient enough to refrigerate food. -->
-  <PassiveCooler.description>TODO</PassiveCooler.description>
+  <PassiveCooler.description>یک کولر سنتی بدون برق که با تبخیر آب کار می‌کند. باید به طور منظم با چوب پر شود. برای یخچالی کردن غذا کافی کارآمد نیست.</PassiveCooler.description>
   
   <!-- EN: vent -->
-  <Vent.label>TODO</Vent.label>
+  <Vent.label>دریچه هوا</Vent.label>
   <!-- EN: A vent for equalizing the temperature between two rooms without allowing people to walk between them. -->
-  <Vent.description>TODO</Vent.description>
+  <Vent.description>دریچه‌ای برای یکسان کردن دما بین دو اتاق بدون اینکه به مردم اجازه رفت و آمد بین آنها را بدهد.</Vent.description>
   
 </LanguageData>

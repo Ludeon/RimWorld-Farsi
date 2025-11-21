@@ -2,48 +2,48 @@
 <LanguageData>
   
   <!-- EN: barricade -->
-  <Barricade.label>TODO</Barricade.label>
+  <Barricade.label>سنگر</Barricade.label>
   <!-- EN: A waist-high barrier for use as cover from incoming shots. Barricades are ugly, but provide better cover than other low objects. Barricades will block certain kinds of animals the same way that fences do. -->
-  <Barricade.description>TODO</Barricade.description>
+  <Barricade.description>سدی به ارتفاع کمر برای استفاده به عنوان پوشش در برابر شلیک‌های ورودی. سنگرها زشت هستند، اما پوشش بهتری نسبت به سایر اشیاء کوتاه فراهم می‌کنند. سنگرها برخی از حیوانات را همانند حصارها مسدود می‌کنند.</Barricade.description>
   
   <!-- EN: sandbags -->
-  <Sandbags.label>TODO</Sandbags.label>
+  <Sandbags.label>کیسه‌های شنی</Sandbags.label>
   <!-- EN: Bags of locally-sourced dirt or sand, stacked for use as cover. Sandbags are ugly, but provide better cover than other low objects. -->
-  <Sandbags.description>TODO</Sandbags.description>
+  <Sandbags.description>کیسه‌هایی از خاک یا شن محلی، چیده شده برای استفاده به عنوان پوشش. کیسه‌های شنی زشت هستند، اما پوشش بهتری نسبت به سایر اشیاء کوتاه فراهم می‌کنند.</Sandbags.description>
   
   <!-- EN: IED antigrain warhead trap -->
-  <TrapIED_AntigrainWarhead.label>TODO</TrapIED_AntigrainWarhead.label>
+  <TrapIED_AntigrainWarhead.label>تله بمب انتی‌گرین</TrapIED_AntigrainWarhead.label>
   <!-- EN: An antimatter-powered antigrain warhead connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
-  <TrapIED_AntigrainWarhead.description>TODO</TrapIED_AntigrainWarhead.description>
+  <TrapIED_AntigrainWarhead.description>یک کلاهک انتی‌گرین با نیروی پاد‌ماده متصل به یک ماشه که با لمس یا اصابت گلوله منفجر می‌شود. از آنجا که در منطقه اطراف پنهان است، نمی‌توان آن را در کنار تله‌های دیگر قرار داد. حیوانات وقتی آرام هستند می‌توانند اینها را حس کنند.</TrapIED_AntigrainWarhead.description>
   
   <!-- EN: IED EMP trap -->
-  <TrapIED_EMP.label>TODO</TrapIED_EMP.label>
+  <TrapIED_EMP.label>تله بمب EMP</TrapIED_EMP.label>
   <!-- EN: A pair of EMP shells connected to a trigger which detonates on touch or bullet impact. The explosion can paralyze mechanoids for a few seconds. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
-  <TrapIED_EMP.description>TODO</TrapIED_EMP.description>
+  <TrapIED_EMP.description>یک جفت گلوله EMP متصل به یک ماشه که با لمس یا اصابت گلوله منفجر می‌شود. انفجار می‌تواند مکانیزه‌ها را برای چند ثانیه فلج کند. از آنجا که در منطقه اطراف پنهان است، نمی‌توان آن را در کنار تله‌های دیگر قرار داد. حیوانات وقتی آرام هستند می‌توانند اینها را حس کنند.</TrapIED_EMP.description>
   
   <!-- EN: IED firefoam trap -->
-  <TrapIED_Firefoam.label>TODO</TrapIED_Firefoam.label>
+  <TrapIED_Firefoam.label>تله بمب فوم آتش‌نشانی</TrapIED_Firefoam.label>
   <!-- EN: A pair of firefoam shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
-  <TrapIED_Firefoam.description>TODO</TrapIED_Firefoam.description>
+  <TrapIED_Firefoam.description>یک جفت گلوله فوم آتش‌نشانی متصل به یک ماشه که با لمس یا اصابت گلوله منفجر می‌شود. از آنجا که در منطقه اطراف پنهان است، نمی‌توان آن را در کنار تله‌های دیگر قرار داد. حیوانات وقتی آرام هستند می‌توانند اینها را حس کنند.</TrapIED_Firefoam.description>
   
   <!-- EN: IED trap -->
-  <TrapIED_HighExplosive.label>TODO</TrapIED_HighExplosive.label>
+  <TrapIED_HighExplosive.label>تله بمب انفجاری</TrapIED_HighExplosive.label>
   <!-- EN: A pair of high-explosive shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
-  <TrapIED_HighExplosive.description>TODO</TrapIED_HighExplosive.description>
+  <TrapIED_HighExplosive.description>یک جفت گلوله با قدرت انفجار بالا متصل به یک ماشه که با لمس یا اصابت گلوله منفجر می‌شود. از آنجا که در منطقه اطراف پنهان است، نمی‌توان آن را در کنار تله‌های دیگر قرار داد. حیوانات وقتی آرام هستند می‌توانند اینها را حس کنند.</TrapIED_HighExplosive.description>
   
   <!-- EN: IED incendiary trap -->
-  <TrapIED_Incendiary.label>TODO</TrapIED_Incendiary.label>
+  <TrapIED_Incendiary.label>تله بمب آتش‌زا</TrapIED_Incendiary.label>
   <!-- EN: A pair of incendiary shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
-  <TrapIED_Incendiary.description>TODO</TrapIED_Incendiary.description>
+  <TrapIED_Incendiary.description>یک جفت گلوله آتش‌زا متصل به یک ماشه که با لمس یا اصابت گلوله منفجر می‌شود. از آنجا که در منطقه اطراف پنهان است، نمی‌توان آن را در کنار تله‌های دیگر قرار داد. حیوانات وقتی آرام هستند می‌توانند اینها را حس کنند.</TrapIED_Incendiary.description>
   
   <!-- EN: IED smoke trap -->
-  <TrapIED_Smoke.label>TODO</TrapIED_Smoke.label>
+  <TrapIED_Smoke.label>تله بمب دودزا</TrapIED_Smoke.label>
   <!-- EN: A pair of smoke shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
-  <TrapIED_Smoke.description>TODO</TrapIED_Smoke.description>
+  <TrapIED_Smoke.description>یک جفت گلوله دودزا متصل به یک ماشه که با لمس یا اصابت گلوله منفجر می‌شود. از آنجا که در منطقه اطراف پنهان است، نمی‌توان آن را در کنار تله‌های دیگر قرار داد. حیوانات وقتی آرام هستند می‌توانند اینها را حس کنند.</TrapIED_Smoke.description>
   
   <!-- EN: spike trap -->
-  <TrapSpike.label>TODO</TrapSpike.label>
+  <TrapSpike.label>تله میخی</TrapSpike.label>
   <!-- EN: Five spikes under tension, connected to a touch-activated trigger. When the victim disturbs the trigger, the spikes spring forth and strike the victim. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
-  <TrapSpike.description>TODO</TrapSpike.description>
+  <TrapSpike.description>پنج میخ تحت کشش، متصل به یک ماشه فعال شونده با لمس. وقتی قربانی ماشه را مختل می‌کند، میخ‌ها به سمت جلو پرتاب شده و به قربانی اصابت می‌کنند. از آنجا که در منطقه اطراف پنهان است، نمی‌توان آن را در کنار تله‌های دیگر قرار داد. حیوانات وقتی آرام هستند می‌توانند اینها را حس کنند.</TrapSpike.description>
   
 </LanguageData>

@@ -2,59 +2,46 @@
 <LanguageData>
   
   <!-- EN: mortar -->
-  <Artillery_Mortar.label>TODO</Artillery_Mortar.label>
+  <Artillery_Mortar.label>خمپاره‌انداز</Artillery_Mortar.label>
   <!-- EN: Mortar launcher. Lobs bombs over walls. Very inaccurate but long-ranged. -->
-  <Artillery_Mortar.description>TODO</Artillery_Mortar.description>
+  <Artillery_Mortar.description>پرتابگر خمپاره. بمب‌ها را از روی دیوارها پرتاب می‌کند. بسیار نادقیق اما بُرد بلند.</Artillery_Mortar.description>
   <!-- EN: mortar -->
-  <Artillery_Mortar.verbs.Verb_Shoot.label>TODO</Artillery_Mortar.verbs.Verb_Shoot.label>
+  <Artillery_Mortar.verbs.Verb_Shoot.label>خمپاره‌انداز</Artillery_Mortar.verbs.Verb_Shoot.label>
   
   <!-- EN: autocannon shell -->
-  <Bullet_AutocannonTurret.label>TODO</Bullet_AutocannonTurret.label>
+  <Bullet_AutocannonTurret.label>گلوله توپ خودکار</Bullet_AutocannonTurret.label>
   
   <!-- EN: mini-turret bullet -->
-  <Bullet_MiniTurret.label>TODO</Bullet_MiniTurret.label>
+  <Bullet_MiniTurret.label>گلوله برجک کوچک</Bullet_MiniTurret.label>
   
   <!-- EN: uranium slug -->
-  <Bullet_TurretSniper.label>TODO</Bullet_TurretSniper.label>
+  <Bullet_TurretSniper.label>فشنگ اورانیوم</Bullet_TurretSniper.label>
   
   <!-- EN: autocannon -->
-  <Gun_AutocannonTurret.label>TODO</Gun_AutocannonTurret.label>
+  <Gun_AutocannonTurret.label>توپ خودکار</Gun_AutocannonTurret.label>
   <!-- EN: A self-loading large-bore cannon designed to attach to a turret. -->
-  <Gun_AutocannonTurret.description>TODO</Gun_AutocannonTurret.description>
+  <Gun_AutocannonTurret.description>یک توپ خودبارگذار با لوله بزرگ طراحی شده برای نصب بر روی برجک.</Gun_AutocannonTurret.description>
   <!-- EN: autocannon -->
-  <Gun_AutocannonTurret.verbs.Verb_Shoot.label>TODO</Gun_AutocannonTurret.verbs.Verb_Shoot.label>
+  <Gun_AutocannonTurret.verbs.Verb_Shoot.label>توپ خودکار</Gun_AutocannonTurret.verbs.Verb_Shoot.label>
   
   <!-- EN: mini-turret gun -->
-  <Gun_MiniTurret.label>TODO</Gun_MiniTurret.label>
+  <Gun_MiniTurret.label>اسلحه برجک کوچک</Gun_MiniTurret.label>
   <!-- EN: A simple automatic gun made to be mounted on a turret. -->
-  <Gun_MiniTurret.description>TODO</Gun_MiniTurret.description>
+  <Gun_MiniTurret.description>یک اسلحه خودکار ساده ساخته شده برای نصب بر روی برجک.</Gun_MiniTurret.description>
   <!-- EN: mini-turret gun -->
-  <Gun_MiniTurret.verbs.Verb_Shoot.label>TODO</Gun_MiniTurret.verbs.Verb_Shoot.label>
+  <Gun_MiniTurret.verbs.Verb_Shoot.label>اسلحه برجک کوچک</Gun_MiniTurret.verbs.Verb_Shoot.label>
   
   <!-- EN: rocketswarm tube -->
-  <Gun_RocketswarmLauncher.label>TODO</Gun_RocketswarmLauncher.label>
+  <Gun_RocketswarmLauncher.label>لوله موشک‌باران</Gun_RocketswarmLauncher.label>
   <!-- EN: A rocketswarm tube of the type usually mounted on a rocketswarm launcher turret. -->
-  <Gun_RocketswarmLauncher.description>TODO</Gun_RocketswarmLauncher.description>
+  <Gun_RocketswarmLauncher.description>یک لوله موشک‌باران از نوعی که معمولاً بر روی برجک پرتابگر موشک‌باران نصب می‌شود.</Gun_RocketswarmLauncher.description>
   <!-- EN: rocketswarm tube -->
-  <Gun_RocketswarmLauncher.verbs.Verb_Shoot.label>TODO</Gun_RocketswarmLauncher.verbs.Verb_Shoot.label>
+  <Gun_RocketswarmLauncher.verbs.Verb_Shoot.label>لوله موشک‌باران</Gun_RocketswarmLauncher.verbs.Verb_Shoot.label>
   
   <!-- EN: foam sprayer -->
-  <Gun_TurretFoam.label>TODO</Gun_TurretFoam.label>
+  <Gun_TurretFoam.label>پاشش‌کننده فوم</Gun_TurretFoam.label>
   <!-- EN: A high-pressure firefoam sprayer usually mounted on a turret. -->
-  <Gun_TurretFoam.description>TODO</Gun_TurretFoam.description>
-  <!-- EN: foam sprayer -->
-  <Gun_TurretFoam.verbs.Verb_ArcSprayProjectile.label>TODO</Gun_TurretFoam.verbs.Verb_ArcSprayProjectile.label>
-  
-  <!-- EN: uranium slug cannon -->
-  <Gun_TurretSniper.label>TODO</Gun_TurretSniper.label>
-  <!-- EN: A self-loading uranium slug cannon designed to attach to a turret. -->
-  <Gun_TurretSniper.description>TODO</Gun_TurretSniper.description>
-  <!-- EN: uranium slug cannon -->
-  <Gun_TurretSniper.verbs.Verb_Shoot.label>TODO</Gun_TurretSniper.verbs.Verb_Shoot.label>
-  
-  <!-- EN: foam -->
-  <Proj_Foam.label>TODO</Proj_Foam.label>
-  
+  <Gun_TurretFoam.description>یک پاشش‌کننده فوم آتش‌نشانی پرفشار که معمولاً بر روی برجک نصب می‌شود.</Gun_TurretFoam.description>
   <!-- EN: rocket -->
   <Proj_Rocket.label>TODO</Proj_Rocket.label>
   

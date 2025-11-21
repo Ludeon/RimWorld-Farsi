@@ -2,128 +2,128 @@
 <LanguageData>
   
   <!-- EN: biofuel refinery -->
-  <BiofuelRefinery.label>TODO</BiofuelRefinery.label>
+  <BiofuelRefinery.label>پالایشگاه سوخت زیستی</BiofuelRefinery.label>
   <!-- EN: Refines biological matter like wood or plant matter into chemfuel. -->
-  <BiofuelRefinery.description>TODO</BiofuelRefinery.description>
+  <BiofuelRefinery.description>مواد بیولوژیکی مانند چوب یا مواد گیاهی را به سوخت شیمیایی پالایش می‌کند.</BiofuelRefinery.description>
   
   <!-- EN: brewery -->
-  <Brewery.label>TODO</Brewery.label>
+  <Brewery.label>آبجوسازی</Brewery.label>
   <!-- EN: A work station with all the equipment needed to mix wort for beer production. Wort must be fermented to finally become beer. -->
-  <Brewery.description>TODO</Brewery.description>
+  <Brewery.description>یک ایستگاه کار با تمام تجهیزات مورد نیاز برای مخلوط کردن ورت (مایع اولیه) برای تولید آبجو. ورت باید تخمیر شود تا در نهایت به آبجو تبدیل شود.</Brewery.description>
   
   <!-- EN: butcher spot -->
-  <ButcherSpot.label>TODO</ButcherSpot.label>
+  <ButcherSpot.label>محل قصابی</ButcherSpot.label>
   <!-- EN: A place for butchering animals. Due to the lack of equipment, butchering here yields only 70% of the meat and leather of each creature. -->
-  <ButcherSpot.description>TODO</ButcherSpot.description>
+  <ButcherSpot.description>محلی برای قصابی حیوانات. به دلیل کمبود تجهیزات، قصابی در اینجا تنها ۷۰٪ از گوشت و چرم هر موجود را به دست می‌دهد.</ButcherSpot.description>
   
   <!-- EN: crafting spot -->
-  <CraftingSpot.label>TODO</CraftingSpot.label>
+  <CraftingSpot.label>محل صنایع دستی</CraftingSpot.label>
   <!-- EN: A place for crafting simple items like knives or bows. Production here is slow because of the lack of tools. -->
-  <CraftingSpot.description>TODO</CraftingSpot.description>
+  <CraftingSpot.description>محلی برای ساخت اقلام ساده مانند چاقو یا کمان. تولید در اینجا کند است زیرا ابزار کافی نیست.</CraftingSpot.description>
   
   <!-- EN: deep drill -->
-  <DeepDrill.label>TODO</DeepDrill.label>
+  <DeepDrill.label>مته عمیق</DeepDrill.label>
   <!-- EN: A deep-crust drilling rig for extracting minerals from deep under the surface. Use a ground-penetrating scanner to detect the resources. This drill will yield stone chunks if no resources are present. Can be repositioned freely. -->
-  <DeepDrill.description>TODO</DeepDrill.description>
+  <DeepDrill.description>یک دکل حفاری عمیق برای استخراج مواد معدنی از عمق زیر سطح. از اسکنر نفوذ در زمین برای تشخیص منابع استفاده کنید. این مته در صورت عدم وجود منابع، تکه‌های سنگ تولید می‌کند. می‌توان آزادانه جابجا کرد.</DeepDrill.description>
   
   <!-- EN: drug lab -->
-  <DrugLab.label>TODO</DrugLab.label>
+  <DrugLab.label>آزمایشگاه دارو</DrugLab.label>
   <!-- EN: A work bench equipped with containers, heaters, and measurement devices for producing various drugs. -->
-  <DrugLab.description>TODO</DrugLab.description>
+  <DrugLab.description>یک میز کار مجهز به ظروف، بخاری و دستگاه‌های اندازه‌گیری برای تولید داروهای مختلف.</DrugLab.description>
   
   <!-- EN: electric crematorium -->
-  <ElectricCrematorium.label>TODO</ElectricCrematorium.label>
+  <ElectricCrematorium.label>کوره سوزاندن اجساد برقی</ElectricCrematorium.label>
   <!-- EN: A huge stone crematorium which vaporizes corpses with extremely high temperatures. -->
-  <ElectricCrematorium.description>TODO</ElectricCrematorium.description>
+  <ElectricCrematorium.description>یک کوره سوزاندن اجساد سنگی عظیم که اجساد را با دماهای بسیار بالا تبخیر می‌کند.</ElectricCrematorium.description>
   
   <!-- EN: electric smelter -->
-  <ElectricSmelter.label>TODO</ElectricSmelter.label>
+  <ElectricSmelter.label>ذوب‌کننده برقی</ElectricSmelter.label>
   <!-- EN: Extracts usable metal from slag chunks and other mixed metal items. Consumes a lot of power. -->
-  <ElectricSmelter.description>TODO</ElectricSmelter.description>
+  <ElectricSmelter.description>فلز قابل استفاده را از تکه‌های سرباره و سایر اقلام فلزی مخلوط استخراج می‌کند. برق زیادی مصرف می‌کند.</ElectricSmelter.description>
   
   <!-- EN: electric smithy -->
-  <ElectricSmithy.label>TODO</ElectricSmithy.label>
+  <ElectricSmithy.label>آهنگری برقی</ElectricSmithy.label>
   <!-- EN: An electric-powered station for smithing non-mechanical weapons and tools. -->
-  <ElectricSmithy.description>TODO</ElectricSmithy.description>
+  <ElectricSmithy.description>ایستگاهی با نیروی برق برای آهنگری سلاح‌ها و ابزارهای غیرمکانیکی.</ElectricSmithy.description>
   
   <!-- EN: electric stove -->
-  <ElectricStove.label>TODO</ElectricStove.label>
+  <ElectricStove.label>اجاق برقی</ElectricStove.label>
   <!-- EN: An electrically-powered stove with an attached countertop for preparing meals. -->
-  <ElectricStove.description>TODO</ElectricStove.description>
+  <ElectricStove.description>یک اجاق برقی با یک پیشخوان متصل برای آماده کردن غذا.</ElectricStove.description>
   
   <!-- EN: electric tailor bench -->
-  <ElectricTailoringBench.label>TODO</ElectricTailoringBench.label>
+  <ElectricTailoringBench.label>میز خیاطی برقی</ElectricTailoringBench.label>
   <!-- EN: A workbench with a sewing machine for rapid tailoring of clothes. Can work without electricity at 50% of normal speed. -->
-  <ElectricTailoringBench.description>TODO</ElectricTailoringBench.description>
+  <ElectricTailoringBench.description>یک میز کار با چرخ خیاطی برای دوخت سریع لباس. می‌تواند بدون برق با ۵۰٪ سرعت عادی کار کند.</ElectricTailoringBench.description>
   
   <!-- EN: fabrication bench -->
-  <FabricationBench.label>TODO</FabricationBench.label>
+  <FabricationBench.label>میز ساخت</FabricationBench.label>
   <!-- EN: A workbench equipped with advanced tools for producing technological marvels from simpler materials. -->
-  <FabricationBench.description>TODO</FabricationBench.description>
+  <FabricationBench.description>یک میز کار مجهز به ابزارهای پیشرفته برای تولید شگفتی‌های تکنولوژیکی از مواد ساده‌تر.</FabricationBench.description>
   
   <!-- EN: fermenting barrel -->
-  <FermentingBarrel.label>TODO</FermentingBarrel.label>
+  <FermentingBarrel.label>بشکه تخمیر</FermentingBarrel.label>
   <!-- EN: A barrel for fermenting raw wort into beer. -->
-  <FermentingBarrel.description>TODO</FermentingBarrel.description>
+  <FermentingBarrel.description>بشکه‌ای برای تخمیر ورت خام به آبجو.</FermentingBarrel.description>
   
   <!-- EN: fueled smithy -->
-  <FueledSmithy.label>TODO</FueledSmithy.label>
+  <FueledSmithy.label>آهنگری سوختی</FueledSmithy.label>
   <!-- EN: A wood-fueled station for smithing non-mechanical weapons and tools. -->
-  <FueledSmithy.description>TODO</FueledSmithy.description>
+  <FueledSmithy.description>ایستگاهی با سوخت چوب برای آهنگری سلاح‌ها و ابزارهای غیرمکانیکی.</FueledSmithy.description>
   
   <!-- EN: fueled stove -->
-  <FueledStove.label>TODO</FueledStove.label>
+  <FueledStove.label>اجاق سوختی</FueledStove.label>
   <!-- EN: A wood-fueled stove with an attached countertop for preparing meals. -->
-  <FueledStove.description>TODO</FueledStove.description>
+  <FueledStove.description>یک اجاق چوب‌سوز با یک پیشخوان متصل برای آماده کردن غذا.</FueledStove.description>
   
   <!-- EN: hand tailor bench -->
-  <HandTailoringBench.label>TODO</HandTailoringBench.label>
+  <HandTailoringBench.label>میز خیاطی دستی</HandTailoringBench.label>
   <!-- EN: A workbench for tailoring clothes by hand. Works at 50% of the speed of an electric tailoring bench. -->
-  <HandTailoringBench.description>TODO</HandTailoringBench.description>
+  <HandTailoringBench.description>یک میز کار برای دوخت دستی لباس. با ۵۰٪ سرعت میز خیاطی برقی کار می‌کند.</HandTailoringBench.description>
   
   <!-- EN: hi-tech research bench -->
-  <HiTechResearchBench.label>TODO</HiTechResearchBench.label>
+  <HiTechResearchBench.label>میز تحقیق پیشرفته</HiTechResearchBench.label>
   <!-- EN: A high-tech bench with computers and electronic measurement equipment. Allows more rapid research, and unlocks advanced research projects. -->
-  <HiTechResearchBench.description>TODO</HiTechResearchBench.description>
+  <HiTechResearchBench.description>یک میز با فناوری پیشرفته با کامپیوتر و تجهیزات اندازه‌گیری الکترونیکی. تحقیق سریع‌تر را امکان‌پذیر می‌سازد و پروژه‌های تحقیقاتی پیشرفته را باز می‌کند.</HiTechResearchBench.description>
   
   <!-- EN: hopper -->
-  <Hopper.label>TODO</Hopper.label>
+  <Hopper.label>قیف</Hopper.label>
   <!-- EN: Holds resources for use by machines like nutrient paste dispensers. -->
-  <Hopper.description>TODO</Hopper.description>
+  <Hopper.description>منابع را برای استفاده توسط ماشین‌هایی مانند دستگاه‌های توزیع خمیر مواد مغذی نگه می‌دارد.</Hopper.description>
   
   <!-- EN: hydroponics basin -->
-  <HydroponicsBasin.label>TODO</HydroponicsBasin.label>
+  <HydroponicsBasin.label>حوض هیدروپونیک</HydroponicsBasin.label>
   <!-- EN: An artificial nutrient bath for growing plants. The nutrients pumps must work continuously; the plants will die if power is cut. -->
-  <HydroponicsBasin.description>TODO</HydroponicsBasin.description>
+  <HydroponicsBasin.description>یک حمام مواد مغذی مصنوعی برای رشد گیاهان. پمپ‌های مواد مغذی باید به طور مداوم کار کنند؛ اگر برق قطع شود گیاهان می‌میرند.</HydroponicsBasin.description>
   
   <!-- EN: nutrient paste dispenser -->
-  <NutrientPasteDispenser.label>TODO</NutrientPasteDispenser.label>
+  <NutrientPasteDispenser.label>دستگاه توزیع خمیر مواد مغذی</NutrientPasteDispenser.label>
   <!-- EN: A machine that synthesizes edible nutrient paste from organic feedstocks placed in adjacent hoppers. It consumes less ingredients and time than any other meal production method - but nobody likes eating nutrient paste. Accepts raw food, but not rough plant matter like hay. -->
-  <NutrientPasteDispenser.description>TODO</NutrientPasteDispenser.description>
+  <NutrientPasteDispenser.description>ماشینی که خمیر مواد مغذی خوراکی را از مواد ارگانیک قرار داده شده در قیف‌های مجاور سنتز می‌کند. کمتر از هر روش تولید غذای دیگری مواد اولیه و زمان مصرف می‌کند - اما هیچ کس دوست ندارد خمیر مواد مغذی بخورد. غذای خام را می‌پذیرد، اما مواد گیاهی خشن مانند یونجه را نه.</NutrientPasteDispenser.description>
   
   <!-- EN: simple research bench -->
-  <SimpleResearchBench.label>TODO</SimpleResearchBench.label>
+  <SimpleResearchBench.label>میز تحقیق ساده</SimpleResearchBench.label>
   <!-- EN: A simple bench with writing implements and simple measurement devices. Researchers work here to discover new things. -->
-  <SimpleResearchBench.description>TODO</SimpleResearchBench.description>
+  <SimpleResearchBench.description>یک میز ساده با ابزار نوشتن و دستگاه‌های اندازه‌گیری ساده. محققان در اینجا کار می‌کنند تا چیزهای جدید کشف کنند.</SimpleResearchBench.description>
   
   <!-- EN: butcher table -->
-  <TableButcher.label>TODO</TableButcher.label>
+  <TableButcher.label>میز قصابی</TableButcher.label>
   <!-- EN: A heavy table for butchering dead creatures into pieces of raw meat. Rotting or dessicated corpses cannot be butchered. -->
-  <TableButcher.description>TODO</TableButcher.description>
+  <TableButcher.description>یک میز سنگین برای قصابی موجودات مرده به تکه‌های گوشت خام. اجساد پوسیده یا خشک شده قابل قصابی نیستند.</TableButcher.description>
   
   <!-- EN: machining table -->
-  <TableMachining.label>TODO</TableMachining.label>
+  <TableMachining.label>میز ماشین‌کاری</TableMachining.label>
   <!-- EN: A work station for assembling machinery like guns and ammunition, or breaking down dead mechanoids. -->
-  <TableMachining.description>TODO</TableMachining.description>
+  <TableMachining.description>ایستگاه کاری برای سرهم کردن ماشین‌آلاتی مانند اسلحه و مهمات، یا تجزیه مکانیزه‌های مرده.</TableMachining.description>
   
   <!-- EN: art bench -->
-  <TableSculpting.label>TODO</TableSculpting.label>
+  <TableSculpting.label>میز هنری</TableSculpting.label>
   <!-- EN: A workbench equipped for creating art. -->
-  <TableSculpting.description>TODO</TableSculpting.description>
+  <TableSculpting.description>یک میز کار مجهز برای خلق هنر.</TableSculpting.description>
   
   <!-- EN: stonecutter's table -->
-  <TableStonecutter.label>TODO</TableStonecutter.label>
+  <TableStonecutter.label>میز سنگ‌تراشی</TableStonecutter.label>
   <!-- EN: A work table with saws and chisels for cutting stone chunks into usable blocks. -->
-  <TableStonecutter.description>TODO</TableStonecutter.description>
+  <TableStonecutter.description>یک میز کار با اره و اسکنه برای برش تکه‌های سنگ به بلوک‌های قابل استفاده.</TableStonecutter.description>
   
 </LanguageData>

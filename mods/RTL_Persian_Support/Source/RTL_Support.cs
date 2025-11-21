@@ -21,6 +21,7 @@ namespace RTL_Persian
 
         // Debug Log Path
         private static string _logFilePath;
+        private static readonly object _logLock = new object();
 
         static RTL_Support()
         {
@@ -57,125 +58,31 @@ namespace RTL_Persian
             }
         }
 
-        public static void LoadPersianFont()
-        {
-            try
-            {
-                // Ensure the file is named 'persianfont' with NO extension in the Resources folder
-                string bundlePath = Path.Combine(_contentPack.RootDir, "Resources", "persianfont");
-
-                LogFile($"Attempting to load font from: {bundlePath}");
-
-                if (File.Exists(bundlePath))
-                {
-                    AssetBundle bundle = AssetBundle.LoadFromFile(bundlePath);
-                    if (bundle != null)
-                    {
-                        PersianFont = bundle.LoadAllAssets<Font>().FirstOrDefault();
-                        bundle.Unload(false);
-                        LogFile("Persian font loaded successfully.");
-                    }
-                    else
-                    {
-                        LogFile("ERROR: AssetBundle found but failed to load.");
-                    }
-                }
-                else
-                {
-                    LogFile($"WARNING: Font bundle not found at {bundlePath}");
-                }
-            }
-            catch (Exception e)
-            {
-                Log.Error($"RTL_Persian_Support: Error loading font: {e.Message}");
-                LogFile($"EXCEPTION while loading font: {e.Message}");
-            }
-        }
-
-        public static void ApplyChanges()
-        {
-            if (GUI.skin == null) return;
-
-            bool isPersian = LanguageDatabase.activeLanguage?.folderName == "Persian";
-            LogFile($"Applying GUI changes. IsPersian: {isPersian}");
-
-            Mod_RTL_Persian_Support mod = LoadedModManager.GetMod<Mod_RTL_Persian_Support>();
-
-            if (isPersian)
-            {
-                if (mod != null && mod.settings.enableRTLAlignment)
-                {
-                    GUI.skin.label.alignment = TextAnchor.UpperRight;
-                    GUI.skin.button.alignment = TextAnchor.UpperRight;
-                    GUI.skin.textField.alignment = TextAnchor.UpperRight;
-                    GUI.skin.textArea.alignment = TextAnchor.UpperRight;
-                }
-
-                if (mod != null && mod.settings.enablePersianFont && PersianFont != null)
-                {
-                    if (OriginalFont == null) OriginalFont = Text.fontStyles[0].font;
-                    SetGameFont(PersianFont, TextAnchor.UpperRight);
-                }
-            }
-            else
-            {
-                // Reset to English defaults
-                if (mod != null && !mod.settings.enableRTLAlignment)
-                {
-                    GUI.skin.label.alignment = TextAnchor.UpperLeft;
-                    GUI.skin.button.alignment = TextAnchor.UpperLeft;
-                    GUI.skin.textField.alignment = TextAnchor.UpperLeft;
-                    GUI.skin.textArea.alignment = TextAnchor.UpperLeft;
-                }
-
-                if (mod != null && !mod.settings.enablePersianFont && OriginalFont != null)
-                {
-                    SetGameFont(OriginalFont, TextAnchor.UpperLeft);
-                }
-            }
-        }
-
-        private static void SetGameFont(Font font, TextAnchor align)
-        {
-            // Force Update ALL RimWorld styles
-            SetStyle(Text.fontStyles, font, align);
-            SetStyle(Text.textFieldStyles, font, align);
-            SetStyle(Text.textAreaStyles, font, align);
-        }
-
-        private static void SetStyle(GUIStyle[] styles, Font font, TextAnchor align)
-        {
-            if (styles == null) return;
-            for (int i = 0; i < styles.Length; i++)
-            {
-                if (styles[i] != null)
-                {
-                    styles[i].font = font;
-                    // Only force alignment if we are in Persian mode
-                    if (align == TextAnchor.UpperRight)
-                        styles[i].alignment = align;
-                }
-            }
-        }
-
         private static void InitDebugLog()
         {
             try
             {
                 // Try creating log in the Mod's root directory
-                _logFilePath = Path.Combine(_contentPack.RootDir, "debug.log");
-                File.WriteAllText(_logFilePath, $"--- RTL Persian Support Debug Log ---\nTime: {DateTime.Now}\nVersion: RimWorld Mod\n\n");
+                _logFilePath = Path.Combine(_contentPack.RootDir, "error.log");
+                
+                // Reset the log file on startup
+                File.WriteAllText(_logFilePath, $"--- RTL Persian Support Error Log ---\nTime: {DateTime.Now}\nVersion: RimWorld 1.6\n\n");
+                
+                // Subscribe to Unity's log event to capture ALL game logs
+                Application.logMessageReceived += HandleLog;
+                
                 Log.Message($"[RTL Support] Logging to: {_logFilePath}");
             }
             catch (UnauthorizedAccessException)
             {
                 // Fallback: If Mod folder is read-only (Program Files), write to Desktop
                 string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-                _logFilePath = Path.Combine(desktopPath, "RTL_Persian_Debug.log");
+                _logFilePath = Path.Combine(desktopPath, "RTL_Persian_Error.log");
 
                 try
                 {
-                    File.WriteAllText(_logFilePath, $"--- RTL Persian Support Debug Log (Fallback) ---\nTime: {DateTime.Now}\n\n");
+                    File.WriteAllText(_logFilePath, $"--- RTL Persian Support Error Log (Fallback) ---\nTime: {DateTime.Now}\n\n");
+                    Application.logMessageReceived += HandleLog;
                     Log.Warning($"[RTL Support] Could not write to mod folder. Logging to Desktop instead: {_logFilePath}");
                 }
                 catch { _logFilePath = null; } // Give up if even Desktop fails
@@ -186,23 +93,53 @@ namespace RTL_Persian
             }
         }
 
-        /// <summary>
-        /// Writes a line to the debug.log file.
-        /// </summary>
-        public static void LogFile(string message)
+        private static void HandleLog(string logString, string stackTrace, LogType type)
         {
             if (string.IsNullOrEmpty(_logFilePath)) return;
 
-            try
+            // Filter out our own log messages to avoid duplication if we use Log.Message inside LogFile (we don't, but good practice)
+            // Also, we might want to filter out spammy logs if needed, but user asked for "this log", implying the full log.
+
+            lock (_logLock)
             {
-                using (StreamWriter writer = new StreamWriter(_logFilePath, true))
+                try
                 {
-                    writer.WriteLine($"[{DateTime.Now:HH:mm:ss}] {message}");
+                    using (StreamWriter writer = new StreamWriter(_logFilePath, true))
+                    {
+                        writer.WriteLine($"[{DateTime.Now:HH:mm:ss}] [{type}] {logString}");
+                        if (type == LogType.Exception || type == LogType.Error || type == LogType.Assert)
+                        {
+                            writer.WriteLine(stackTrace);
+                        }
+                    }
+                }
+                catch
+                {
+                    // Ignore file access errors during logging to prevent crashes
                 }
             }
-            catch
+        }
+
+        /// <summary>
+        /// Writes a line to the error.log file.
+        /// </summary>
+        public static void LogFile(string message)
+        {
+            // We can just use the HandleLog mechanism by calling Log.Message, 
+            // BUT if we want to write internal debug info without spamming the in-game console, we write directly.
+            
+            if (string.IsNullOrEmpty(_logFilePath)) return;
+
+            lock (_logLock)
             {
-                // Ignore errors to prevent loops
+                try
+                {
+                    using (StreamWriter writer = new StreamWriter(_logFilePath, true))
+                    {
+                        writer.WriteLine($"[{DateTime.Now:HH:mm:ss}] [Info] {message}");
+                    }
+                }
+                catch { }
             }
         }
 
@@ -226,6 +163,7 @@ namespace RTL_Persian
         {
             RTL_Support.LogFile("Language changed.");
             RTL_Support.dirty = true;
+            PersianFixer.ClearCache();
         }
     }
 

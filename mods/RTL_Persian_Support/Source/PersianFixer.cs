@@ -2,11 +2,21 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace RTL_Persian
 {
     public static class PersianFixer
     {
+        // --- Cache ---
+        private static readonly Dictionary<string, string> Cache = new Dictionary<string, string>();
+        private const int MaxCacheSize = 5000;
+
+        public static void ClearCache()
+        {
+            Cache.Clear();
+        }
+
         // --- 1. Mappings ---
         // Maps: [Isolated, Final, Initial, Medial]
         private static readonly Dictionary<char, char[]> Maps = new Dictionary<char, char[]>
@@ -65,10 +75,34 @@ namespace RTL_Persian
         {
             if (string.IsNullOrEmpty(text)) return text;
 
+            // Check Cache
+            if (Cache.TryGetValue(text, out string cached))
+                return cached;
+
+            // Handle Rich Text
+            if (text.IndexOf('<') != -1 && text.IndexOf('>') != -1)
+            {
+                string result = FixRichText(text);
+                AddToCache(text, result);
+                return result;
+            }
+
             // 1. Check if processing is needed
             bool hasPersian = false;
-            foreach (char c in text) { if (c >= 0x0600 && c <= 0x06FF) { hasPersian = true; break; } }
-            if (!hasPersian) return text;
+            for (int i = 0; i < text.Length; i++)
+            {
+                if (text[i] >= 0x0600 && text[i] <= 0x06FF)
+                {
+                    hasPersian = true;
+                    break;
+                }
+            }
+            
+            if (!hasPersian) 
+            {
+                AddToCache(text, text);
+                return text;
+            }
 
             // 2. Pre-process: Normalize & Handle Ligatures (Lam + Alef)
             List<char> processed = PrepareText(text);
@@ -86,7 +120,9 @@ namespace RTL_Persian
 
                 // Connectivity Logic
                 bool prevConnects = (i > 0) && Maps.ContainsKey(processed[i - 1]) && CanConnectToNext(processed[i - 1]);
-                bool nextConnects = (i < processed.Count - 1) && Maps.ContainsKey(processed[i + 1]) && true; // Right-to-left, "next" means left.
+                
+                // Fix: Check if current char can connect to next
+                bool nextConnects = (i < processed.Count - 1) && Maps.ContainsKey(processed[i + 1]) && CanConnectToNext(c);
 
                 if (prevConnects && nextConnects)
                     fixedChars[i] = Maps[c][3]; // Medial
@@ -100,26 +136,73 @@ namespace RTL_Persian
 
             // 4. Reverse for Unity Rendering
             Array.Reverse(fixedChars);
-            return new string(fixedChars);
+            string finalResult = new string(fixedChars);
+            
+            AddToCache(text, finalResult);
+            return finalResult;
+        }
+
+        // Regex for matching Rich Text tags
+        private static readonly Regex RichTextTagRegex = new Regex("<[^>]+>", RegexOptions.Compiled);
+
+        private static string FixRichText(string text)
+        {
+            var tags = new List<string>();
+            // Regex to find tags. Matches <tag> or <tag=value> or </tag>
+            string masked = RichTextTagRegex.Replace(text, match =>
+            {
+                tags.Add(match.Value);
+                return "\uF8FF";
+            });
+
+            // Recursively fix the masked string (which has no tags now)
+            string fixedMasked = Fix(masked);
+
+            // Replace markers back with tags
+            StringBuilder sb = new StringBuilder();
+            int tagIndex = 0;
+            foreach (char c in fixedMasked)
+            {
+                if (c == '\uF8FF')
+                {
+                    if (tagIndex < tags.Count)
+                    {
+                        sb.Append(tags[tagIndex++]);
+                    }
+                }
+                else
+                {
+                    sb.Append(c);
+                }
+            }
+            return sb.ToString();
+        }
+
+        private static void AddToCache(string key, string value)
+        {
+            if (Cache.Count >= MaxCacheSize)
+            {
+                Cache.Clear();
+            }
+            Cache[key] = value;
         }
 
         private static List<char> PrepareText(string text)
         {
-            List<char> result = new List<char>();
-            char[] chars = text.ToCharArray();
-
-            for (int i = 0; i < chars.Length; i++)
+            List<char> result = new List<char>(text.Length);
+            
+            for (int i = 0; i < text.Length; i++)
             {
-                char c = chars[i];
+                char c = text[i];
 
                 // A. Normalization (Arabic -> Persian)
                 if (c == 'ي') c = 'ی';
                 if (c == 'ك') c = 'ک';
 
                 // B. Ligature Check: Lam (ل) + Alef (ا)
-                if (c == 'ل' && i + 1 < chars.Length)
+                if (c == 'ل' && i + 1 < text.Length)
                 {
-                    char next = chars[i + 1];
+                    char next = text[i + 1];
                     // Check various forms of Alef
                     if (next == 'ا' || next == 'آ' || next == 'أ' || next == 'إ')
                     {
