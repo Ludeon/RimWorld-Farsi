@@ -26,320 +26,326 @@
   <BlissLobotomy.description>این شخص به صورت روانی لوبوتومی شده و در حالت خوشی قرار گرفته است، اما عملکرد شناختی‌اش محدود شده است.</BlissLobotomy.description>
   
   <!-- EN: blood rage -->
-  <BloodRage.label>TODO</BloodRage.label>
+  <BloodRage.label>خشم خونین</BloodRage.label>
   <!-- EN: This creature has been exposed to blood rain, a psychofluid that induces rage. This rage will continue to grow as long as they're exposed to the blood rain, eventually resulting in a violent mental break. The effect grows quicker in some individuals, depending on their traits, psychic sensitivity, and random individual differences. -->
-  <BloodRage.description>TODO</BloodRage.description>
+  <BloodRage.description>این موجود در معرض باران خون، حالتی روان‌افزاری که خشم را القا می‌کند، قرار گرفته است. این خشم به محض قرار گرفتن در معرض باران خون رشد خواهد کرد و در نهایت منجر به شکست روانی خشونت‌آمیز می‌شود. تاثیر در برخی افراد سریع‌تر رشد می‌کند، بسته به ویژگی‌ها، حساسیت روانی، و تفاوت‌های فردی تصادفی.</BloodRage.description>
   <!-- EN: very mild -->
-  <BloodRage.stages.very_mild.label>TODO</BloodRage.stages.very_mild.label>
+  <BloodRage.stages.very_mild.label>خیلی ملایم</BloodRage.stages.very_mild.label>
   <!-- EN: mild -->
-  <BloodRage.stages.mild.label>TODO</BloodRage.stages.mild.label>
+  <BloodRage.stages.mild.label>ملایم</BloodRage.stages.mild.label>
   <!-- EN: moderate -->
-  <BloodRage.stages.moderate.label>TODO</BloodRage.stages.moderate.label>
+  <BloodRage.stages.moderate.label>متوسط</BloodRage.stages.moderate.label>
   <!-- EN: severe -->
-  <BloodRage.stages.severe.label>TODO</BloodRage.stages.severe.label>
+  <BloodRage.stages.severe.label>شدید</BloodRage.stages.severe.label>
   <!-- EN: extreme -->
-  <BloodRage.stages.extreme-0.label>TODO</BloodRage.stages.extreme-0.label>
+  <BloodRage.stages.extreme-0.label>شدید</BloodRage.stages.extreme-0.label>
   <!-- EN: extreme -->
-  <BloodRage.stages.extreme-1.label>TODO</BloodRage.stages.extreme-1.label>
+  <BloodRage.stages.extreme-1.label>شدید</BloodRage.stages.extreme-1.label>
   
   <!-- EN: brainwipe coma -->
-  <BrainwipeComa.label>TODO</BrainwipeComa.label>
+  <BrainwipeComa.label>کومای پاکسازی مغز</BrainwipeComa.label>
   <!-- EN: This person has had their memories erased. The violent nature of the process has put them into a coma. -->
-  <BrainwipeComa.description>TODO</BrainwipeComa.description>
-  
+  <BrainwipeComa.description>این شخص خاطراتش پاک شده است. طبیعت خشونت‌آمیز فرآیند او را در کوما قرار داده است.</BrainwipeComa.description>
+
   <!-- EN: corpse torment -->
-  <CorpseTorment.label>TODO</CorpseTorment.label>
+  <CorpseTorment.label>عذاب جسد</CorpseTorment.label>
   <!-- EN: This person shares a psychic link with a corpse that appears to be their exact duplicate. They have done something to anger it, causing them to fall unconscious. -->
-  <CorpseTorment.description>TODO</CorpseTorment.description>
-  
+  <CorpseTorment.description>این شخص پیوند روانی با جسدی دارد که دقیقاً همانند خودش به نظر می‌رسد. او کاری کرده که جسد را عصبانی کند و باعث بی‌حسی او شده است.</CorpseTorment.description>
+
   <!-- EN: crumbled mind -->
-  <CrumbledMind.label>TODO</CrumbledMind.label>
+  <CrumbledMind.label>ذهن فروپاشیده</CrumbledMind.label>
   <!-- EN: This person has lost most of their cognitive ability, preventing them from doing complex tasks. They are a husk of their former self.\n\nThe condition is incurable. -->
-  <CrumbledMind.description>TODO</CrumbledMind.description>
+  <CrumbledMind.description>این شخص بیشتر قابلیت شناختی‌اش را از دست داده است که کارهای پیچیده را برای او غیرممکن می‌کند. او پوسته‌ای از خود قدیم‌اش است.\n\nوضعیت غیرقابل درمان است.</CrumbledMind.description>
   
   <!-- EN: crumbling mind -->
-  <CrumblingMind.label>TODO</CrumblingMind.label>
+  <CrumblingMind.label>ذهن در حال فروپاشی</CrumblingMind.label>
   <!-- EN: This person is experiencing a rapidly decaying mental state. Within a few days, they will be incapable of most work. With sufficient technology, like a healer mech serum, the condition can still be reversed. However, it will soon become permanent. -->
-  <CrumblingMind.description>TODO</CrumblingMind.description>
+  <CrumblingMind.description>این شخص وضعیت روانی در حال فروپاشی سریع را تجربه می‌کند. ظرف چند روز، قادر به بیشتر کارها نخواهد بود. با تکنولوژی کافی، مانند سرم درمانگر mech، وضعیت هنوز قابل معکوس شدن است. با اینحال، به زودی دائمی خواهد شد.</CrumblingMind.description>
   <!-- EN: {PAWN_nameDef}'s cognitive condition has become permanent. -->
-  <CrumblingMind.comps.HediffComp_ReplaceHediff.message>TODO</CrumblingMind.comps.HediffComp_ReplaceHediff.message>
+  <CrumblingMind.comps.HediffComp_ReplaceHediff.message>وضعیت شناختی {PAWN_nameDef} دائمی شده است.</CrumblingMind.comps.HediffComp_ReplaceHediff.message>
   <!-- EN: mild -->
-  <CrumblingMind.stages.mild.label>TODO</CrumblingMind.stages.mild.label>
+  <CrumblingMind.stages.mild.label>ملایم</CrumblingMind.stages.mild.label>
   <!-- EN: moderate -->
-  <CrumblingMind.stages.moderate.label>TODO</CrumblingMind.stages.moderate.label>
+  <CrumblingMind.stages.moderate.label>متوسط</CrumblingMind.stages.moderate.label>
   <!-- EN: extreme -->
-  <CrumblingMind.stages.extreme.label>TODO</CrumblingMind.stages.extreme.label>
+  <CrumblingMind.stages.extreme.label>شدید</CrumblingMind.stages.extreme.label>
   
   <!-- EN: crumbling mind -->
-  <CrumblingMindUndiagnosedCreepjoiner.label>TODO</CrumblingMindUndiagnosedCreepjoiner.label>
+  <CrumblingMindUndiagnosedCreepjoiner.label>ذهن در حال فروپاشی</CrumblingMindUndiagnosedCreepjoiner.label>
   <!-- EN: This person is showing early signs of a condition which will cause severe mental degradation. They will begin to display symptoms within a matter of days. -->
-  <CrumblingMindUndiagnosedCreepjoiner.description>TODO</CrumblingMindUndiagnosedCreepjoiner.description>
+  <CrumblingMindUndiagnosedCreepjoiner.description>این شخص نشان‌های اولیه وضعیتی را نشان می‌دهد که منجر به کاهش روانی شدید می‌شود. او ظرف چند روز علائم را نشان خواهد داد.</CrumblingMindUndiagnosedCreepjoiner.description>
   <!-- EN: {PAWN_nameDef} is showing early signs of a severe condition which will soon cause severe mental degradation. {SURGEON_nameDef} can't yet tell exactly what is causing this, but {PAWN_nameDef} will become very ill within the next few days. -->
-  <CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>TODO</CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef} نشان‌های اولیه وضعیت جدی را نشان می‌دهد که به زودی کاهش روانی شدید ایجاد خواهد کرد. {SURGEON_nameDef} هنوز نمی‌تواند با دقیق آن را تشخیص دهد، اما {PAWN_nameDef} طی چند روز آینده بسیار بیمار خواهد شد.</CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
   <!-- EN: {PAWN_nameDef} has begun experiencing pounding headaches and begs for help. {PAWN_pronoun} can't think straight and is losing {PAWN_possessive} cognitive function. {PAWN_nameDef} claims that {PAWN_pronoun} has seen a vision of the future. Within a matter of days, {PAWN_possessive} mind will crumble and {PAWN_pronoun} will become incapable of most tasks.\n\nThe condition is currently reversible with sufficient technology, like a healer mech serum, but will soon become permanent. -->
-  <CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>TODO</CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>
+  <CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>{PAWN_nameDef} شروع به تجربه سردردهای شدید کرده و التماس کمک می‌کند. {PAWN_pronoun} نمی‌تواند صحیح فکر کند و عملکرد شناختی‌اش کاهش می‌یابد. {PAWN_nameDef} ادعا می‌کند که {PAWN_pronoun} تصویری از آینده دیده است. ظرف چند روز، ذهن {PAWN_possessive} فرو می‌پاشد و {PAWN_pronoun} قادر به بیشتر کارها نخواهد بود.\n\nوضعیت در حال حاضر با تکنولوژی کافی مانند سرم درمانگر mech قابل معکوس شدن است، اما به زودی دائمی خواهد شد.</CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>
   <!-- EN: Crumbling mind: {PAWN_nameDef} -->
-  <CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterLabel>TODO</CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterLabel>
+  <CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterLabel>فروپاشی ذهن: {PAWN_nameDef}</CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterLabel>
   <!-- EN: diagnosed -->
-  <CrumblingMindUndiagnosedCreepjoiner.stages.diagnosed.label>TODO</CrumblingMindUndiagnosedCreepjoiner.stages.diagnosed.label>
+  <CrumblingMindUndiagnosedCreepjoiner.stages.diagnosed.label>تشخیص داده شده</CrumblingMindUndiagnosedCreepjoiner.stages.diagnosed.label>
   
   <!-- EN: crumbling mind -->
-  <CrumblingMindUndiagnosedDuplication.label>TODO</CrumblingMindUndiagnosedDuplication.label>
+  <CrumblingMindUndiagnosedDuplication.label>ذهن در حال فروپاشی</CrumblingMindUndiagnosedDuplication.label>
   <!-- EN: This person is showing early signs of a condition which will cause severe mental degradation. They will begin to display symptoms within a matter of days. -->
-  <CrumblingMindUndiagnosedDuplication.description>TODO</CrumblingMindUndiagnosedDuplication.description>
+  <CrumblingMindUndiagnosedDuplication.description>این شخص نشان‌های اولیه وضعیتی را نشان می‌دهد که منجر به کاهش روانی شدید می‌شود. او ظرف چند روز علائم را نشان خواهد داد.</CrumblingMindUndiagnosedDuplication.description>
   <!-- EN: {PAWN_nameDef} is showing early signs of a severe condition which will soon cause severe mental degradation. {SURGEON_nameDef} can't yet tell exactly what is causing this, but {PAWN_nameDef} will become very ill within the next few days. -->
-  <CrumblingMindUndiagnosedDuplication.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>TODO</CrumblingMindUndiagnosedDuplication.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <CrumblingMindUndiagnosedDuplication.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef} نشان‌های اولیه وضعیت جدی را نشان می‌دهد که به زودی کاهش روانی شدید ایجاد خواهد کرد. {SURGEON_nameDef} هنوز نمی‌تواند با دقیق آن را تشخیص دهد، اما {PAWN_nameDef} طی چند روز آینده بسیار بیمار خواهد شد.</CrumblingMindUndiagnosedDuplication.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
   <!-- EN: {PAWN_nameDef} has begun experiencing pounding headaches. {PAWN_pronoun} can't seem to think straight and is quickly losing {PAWN_possessive} cognitive function. Something has gone wrong in the duplication process.\n\nWith sufficient technology, like a healer mech serum, the condition can still be reversed. However, if not treated, it will soon become permanent. -->
-  <CrumblingMindUndiagnosedDuplication.comps.HediffComp_ReplaceHediff.letterDesc>TODO</CrumblingMindUndiagnosedDuplication.comps.HediffComp_ReplaceHediff.letterDesc>
+  <CrumblingMindUndiagnosedDuplication.comps.HediffComp_ReplaceHediff.letterDesc>{PAWN_nameDef} شروع به تجربه سردردهای شدید کرده است. {PAWN_pronoun} نمی‌تواند به نظر صحیح فکر کند و سریع عملکرد شناختی‌اش کاهش دارد. چیزی در فرآیند نسخه‌برداری اشتباه رفته است.
+
+با تکنولوژی کافی، وضعیت هنوز قابل معکوس شدن است. با اینحال، اگر درمان نشود، به زودی دائمی خواهد شد.</CrumblingMindUndiagnosedDuplication.comps.HediffComp_ReplaceHediff.letterDesc>
   <!-- EN: Crumbling mind: {PAWN_nameDef} -->
-  <CrumblingMindUndiagnosedDuplication.comps.HediffComp_ReplaceHediff.letterLabel>TODO</CrumblingMindUndiagnosedDuplication.comps.HediffComp_ReplaceHediff.letterLabel>
+  <CrumblingMindUndiagnosedDuplication.comps.HediffComp_ReplaceHediff.letterLabel>فروپاشی ذهن: {PAWN_nameDef}</CrumblingMindUndiagnosedDuplication.comps.HediffComp_ReplaceHediff.letterLabel>
   <!-- EN: diagnosed -->
-  <CrumblingMindUndiagnosedDuplication.stages.diagnosed.label>TODO</CrumblingMindUndiagnosedDuplication.stages.diagnosed.label>
+  <CrumblingMindUndiagnosedDuplication.stages.diagnosed.label>تشخیص داده شده</CrumblingMindUndiagnosedDuplication.stages.diagnosed.label>
   
   <!-- EN: cube coma -->
-  <CubeComa.label>TODO</CubeComa.label>
+  <CubeComa.label>کومای مکعب</CubeComa.label>
   <!-- EN: This person was connected to a golden cube and then separated from it. Severing the link this way has put them in a coma. -->
-  <CubeComa.description>TODO</CubeComa.description>
-  
+  <CubeComa.description>این شخص به مکعب طلایی متصل شد و سپس از آن جدا گردید. قطع کردن اتصال این گونه او را در کوما قرار داده است.</CubeComa.description>
+
   <!-- EN: cube interest -->
-  <CubeInterest.label>TODO</CubeInterest.label>
+  <CubeInterest.label>جذبیت مکعب</CubeInterest.label>
   <!-- EN: This person is drawn to the golden cube. If separated from the cube for too long, they'll start to experience negative effects. -->
-  <CubeInterest.description>TODO</CubeInterest.description>
+  <CubeInterest.description>این شخص به مکعب طلایی جذب شده است. اگر برای مدت طولانی از مکعب جدا باشد, شروع به تجربه افکت های منفی خواهد کرد.</CubeInterest.description>
   <!-- EN: Wandering and thinking about the cube. -->
-  <CubeInterest.reportStringOverrides.0.reportString>TODO</CubeInterest.reportStringOverrides.0.reportString>
+  <CubeInterest.reportStringOverrides.0.reportString>سرگردان و فکر کردن درباره مکعب.</CubeInterest.reportStringOverrides.0.reportString>
   <!-- EN: Wandering and thinking about the cube. -->
-  <CubeInterest.reportStringOverrides.1.reportString>TODO</CubeInterest.reportStringOverrides.1.reportString>
+  <CubeInterest.reportStringOverrides.1.reportString>سرگردان و فکر کردن درباره مکعب.</CubeInterest.reportStringOverrides.1.reportString>
   <!-- EN: Asleep, dreaming about the cube. -->
-  <CubeInterest.reportStringOverrides.2.reportString>TODO</CubeInterest.reportStringOverrides.2.reportString>
+  <CubeInterest.reportStringOverrides.2.reportString>خواب, رویا درباره مکعب.</CubeInterest.reportStringOverrides.2.reportString>
   <!-- EN: Meditating on the cube. -->
-  <CubeInterest.reportStringOverrides.3.reportString>TODO</CubeInterest.reportStringOverrides.3.reportString>
+  <CubeInterest.reportStringOverrides.3.reportString>مدیتیشن درباره مکعب.</CubeInterest.reportStringOverrides.3.reportString>
   <!-- EN: Praying for the cube. -->
-  <CubeInterest.reportStringOverrides.4.reportString>TODO</CubeInterest.reportStringOverrides.4.reportString>
+  <CubeInterest.reportStringOverrides.4.reportString>عبادت برای مکعب.</CubeInterest.reportStringOverrides.4.reportString>
   <!-- EN: Praying for the cube. -->
-  <CubeInterest.reportStringOverrides.5.reportString>TODO</CubeInterest.reportStringOverrides.5.reportString>
+  <CubeInterest.reportStringOverrides.5.reportString>عبادت برای مکعب.</CubeInterest.reportStringOverrides.5.reportString>
   <!-- EN: curious -->
-  <CubeInterest.stages.curious.label>TODO</CubeInterest.stages.curious.label>
+  <CubeInterest.stages.curious.label>کنجکاو</CubeInterest.stages.curious.label>
   <!-- EN: fascinated -->
-  <CubeInterest.stages.fascinated.label>TODO</CubeInterest.stages.fascinated.label>
+  <CubeInterest.stages.fascinated.label>مجذوب</CubeInterest.stages.fascinated.label>
   <!-- EN: obsessed -->
-  <CubeInterest.stages.obsessed.label>TODO</CubeInterest.stages.obsessed.label>
-  
+  <CubeInterest.stages.obsessed.label>وسواسی</CubeInterest.stages.obsessed.label>
+
   <!-- EN: cube anger -->
-  <CubeRage.label>TODO</CubeRage.label>
+  <CubeRage.label>خشم مکعب</CubeRage.label>
   <!-- EN: This person is upset that their cube sculptures have been destroyed. Continuing to destroy their sculptures may cause them to become violent. -->
-  <CubeRage.description>TODO</CubeRage.description>
+  <CubeRage.description>این شخص نسبت به تخریب مجسمه‌های مکعب‌یش ناراحت است. ادامه تخریب مجسمه‌ها ممکن است او را خشنونت‌آمیز کند.</CubeRage.description>
   <!-- EN: {PAWN_nameDef} can no longer control {PAWN_possessive} anger. Too many of {PAWN_possessive} precious cube sculptures have been destroyed.\n\n{PAWN_nameDef} has flown into a berserk rage! -->
-  <CubeRage.comps.HediffComp_CauseMentalState.overrideLetterDesc>TODO</CubeRage.comps.HediffComp_CauseMentalState.overrideLetterDesc>
+  <CubeRage.comps.HediffComp_CauseMentalState.overrideLetterDesc>{PAWN_nameDef} نمی‌تواند خشمش را کنترل کند. تعداد زیادی از مجسمه‌های گرانبها مکعب‌یش تخریب شده‌اند.\n\n{Cube_nameDef} وارد خشم خشمگینانه شده است!</CubeRage.comps.HediffComp_CauseMentalState.overrideLetterDesc>
   <!-- EN: Cube rage: {PAWN_nameDef} -->
-  <CubeRage.comps.HediffComp_CauseMentalState.overrideLetterLabel>TODO</CubeRage.comps.HediffComp_CauseMentalState.overrideLetterLabel>
-  
+  <CubeRage.comps.HediffComp_CauseMentalState.overrideLetterLabel>خشم مکعب: {PAWN_nameDef}</CubeRage.comps.HediffComp_CauseMentalState.overrideLetterLabel>
+
   <!-- EN: cube withdrawal -->
-  <CubeWithdrawal.label>TODO</CubeWithdrawal.label>
+  <CubeWithdrawal.label>ترک مکعب</CubeWithdrawal.label>
   <!-- EN: This person obsessively wants to find their golden cube. Their skin itches and their mind races, thinking of ways to get closer to the cube. Their symptoms will get worse until they play with the cube. -->
-  <CubeWithdrawal.description>TODO</CubeWithdrawal.description>
+  <CubeWithdrawal.description>این شخص محبت به مکعب طلایی‌اش می‌خواهد. پوستش خارش دارد و ذهنش می‌چرخد، فکر کردن درباره روش‌هایی برای نزدیک شدن به مکعب. علائمش بدتر خواهد شد تا با مکعب بازی کند.</CubeWithdrawal.description>
   <!-- EN: inital -->
-  <CubeWithdrawal.stages.inital.label>TODO</CubeWithdrawal.stages.inital.label>
+  <CubeWithdrawal.stages.inital.label>اولیه</CubeWithdrawal.stages.inital.label>
   <!-- EN: moderate -->
-  <CubeWithdrawal.stages.moderate.label>TODO</CubeWithdrawal.stages.moderate.label>
+  <CubeWithdrawal.stages.moderate.label>متوسط</CubeWithdrawal.stages.moderate.label>
   <!-- EN: extreme -->
-  <CubeWithdrawal.stages.extreme.label>TODO</CubeWithdrawal.stages.extreme.label>
+  <CubeWithdrawal.stages.extreme.label>شدید</CubeWithdrawal.stages.extreme.label>
   
   <!-- EN: darkness exposure -->
-  <DarknessExposure.label>TODO</DarknessExposure.label>
+  <DarknessExposure.label>قرار گرفتن در تاریکی</DarknessExposure.label>
   <!-- EN: This person is immersed in the unnatural darkness. Creatures or influences in the darkness will harm them if they stay too long. -->
-  <DarknessExposure.description>TODO</DarknessExposure.description>
-  
+  <DarknessExposure.description>این شخص در تاریکی غیرطبیعی غوطهور است. موجودات یا تاثیرات در تاریکی اگر برای مدت طولانی بمانند او را آسیب می‌رسانند.</DarknessExposure.description>
+
   <!-- EN: dark psychic shock -->
-  <DarkPsychicShock.label>TODO</DarkPsychicShock.label>
+  <DarkPsychicShock.label>شوک روانی تاریکی</DarkPsychicShock.label>
   <!-- EN: Part of this person's neural pattern has been disrupted by a dark psychic power. The shock from this process has left them in a temporary coma. -->
-  <DarkPsychicShock.description>TODO</DarkPsychicShock.description>
-  
+  <DarkPsychicShock.description>بخشی از الگوی عصبی این شخص توسط نیروی روانی تاریکی مختل شده است. شوک از این فرآیند او را در کومای موقت قرار داده است.</DarkPsychicShock.description>
+
   <!-- EN: death refusal -->
-  <DeathRefusal.label>TODO</DeathRefusal.label>
+  <DeathRefusal.label>امتناع مرگ</DeathRefusal.label>
   <!-- EN: This person is infused with a seed of nanoscale archotech machines that can recreate life. After they die, the archites will sustain their mind and, when they choose, rebuild their body. The flesh will rapidly reform, replacing missing organs and healing wounds. The process is not perfect and may cause scarring or other health complications. This can only be done a certain number of times. -->
-  <DeathRefusal.description>TODO</DeathRefusal.description>
-  
+  <DeathRefusal.description>این شخص با هسته‌ای از ماشین‌های معمارتکی نانومتری تزریق شده است که می‌توانند زندگی را بازسازی کنند. پس از مرگشان، معمارتک‌ها ذهن را حفظ خواهند کرد و، هنگامی که انتخاب کنند، بدن را بازسازی خواهند کرد. گوشت به کندی بازسازی خواهد شد، اندام گم شده را جایگزین می‌کند و زخم‌ها را cure می‌کند. فرآیند کامل نیست و ممکن است scarring یا مشکلات سلامت دیگر ایجاد کند. این فقط برای تعداد خاصی می‌تواند انجام شود.</DeathRefusal.description>
+
   <!-- EN: death refusal -->
-  <DeathRefusalCreepJoiner.label>TODO</DeathRefusalCreepJoiner.label>
+  <DeathRefusalCreepJoiner.label>امتناع مرگ</DeathRefusalCreepJoiner.label>
   <!-- EN: This person is infused with a seed of nanoscale archotech machines that can recreate life. After they die, the archites will sustain their mind and, when they choose, rebuild their body. The flesh will rapidly reform, replacing missing organs and healing wounds. The process is not perfect and may cause scarring or other health complications. This can only be done a certain number of times. -->
-  <DeathRefusalCreepJoiner.description>TODO</DeathRefusalCreepJoiner.description>
-  
+  <DeathRefusalCreepJoiner.description>این شخص با هسته‌ای از ماشین‌های معمارتکی نانومتری تزریق شده است که می‌توانند زندگی را بازسازی کنند. پس از مرگشان، معمارتک‌ها ذهن را حفظ خواهند کرد و، هنگامی که انتخاب کنند، بدن را بازسازی خواهند کرد. گوشت به کندی بازسازی خواهد شد، اندام گم شده را جایگزین می‌کند و زخم‌ها را cure می‌کند. فرآیند کامل نیست و ممکن است scarring یا مشکلات سلامت دیگر ایجاد کند. این فقط برای تعداد خاصی می‌تواند انجام شود.</DeathRefusalCreepJoiner.description>
+
   <!-- EN: death refusal sickness -->
-  <DeathRefusalSickness.label>TODO</DeathRefusalSickness.label>
+  <DeathRefusalSickness.label>عوارض جانبی امتناع مرگ</DeathRefusalSickness.label>
   <!-- EN: After-effects of death refusal. This person has returned from the dead. -->
-  <DeathRefusalSickness.description>TODO</DeathRefusalSickness.description>
+  <DeathRefusalSickness.description>عوارض جانبی امتناع مرگ. این شخص از مرگ برگشته است.</DeathRefusalSickness.description>
   
   <!-- EN: disruptor flash -->
-  <DisruptorFlash.label>TODO</DisruptorFlash.label>
+  <DisruptorFlash.label>فلاش مختل‌کننده</DisruptorFlash.label>
   <!-- EN: The initial psychic burst from a disruptor flare has left this creature dazed. -->
-  <DisruptorFlash.description>TODO</DisruptorFlash.description>
-  
+  <DisruptorFlash.description>انفجار روانی اولیه نورافکن مختل‌کننده این موجود را گیج کرده است.</DisruptorFlash.description>
+
   <!-- EN: duplicate sickness -->
-  <DuplicateSickness.label>TODO</DuplicateSickness.label>
+  <DuplicateSickness.label>بیماری کپی</DuplicateSickness.label>
   <!-- EN: Psychic interference between this person and their duplicate is causing slow mental deterioration. As long as multiple copies of this person are alive, the condition will keep getting worse. However, the condition will not be lethal. -->
-  <DuplicateSickness.description>TODO</DuplicateSickness.description>
+  <DuplicateSickness.description>تداخل روانی بین این شخص و کپی‌شان منجر به کاهش روانی کند می‌شود. تا زمانی که کپی‌های متعددی از این شخص زنده باشند، وضعیت بدتر خواهد شد. با این حال، وضعیت کشنده نخواهد بود.</DuplicateSickness.description>
   <!-- EN: {0_nameDef} is now suffering from duplicate sickness. -->
-  <DuplicateSickness.comps.HediffComp_MessageAboveSeverity.message>TODO</DuplicateSickness.comps.HediffComp_MessageAboveSeverity.message>
+  <DuplicateSickness.comps.HediffComp_MessageAboveSeverity.message>{0_nameDef} اکنون از بیماری کپی رنج می‌برد.</DuplicateSickness.comps.HediffComp_MessageAboveSeverity.message>
   <!-- EN: {PAWN_nameDef} is suffering from duplicate sickness. Psychic interference between this person and their duplicate is causing slow mental deterioration. As long as multiple copies of this person are alive, the condition will keep getting worse. -->
-  <DuplicateSickness.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>TODO</DuplicateSickness.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <DuplicateSickness.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef} از بیماری کپی رنج می‌برد. تداخل روانی بین این شخص و کپی‌شان منجر به کاهش روانی کند می‌شود. تا زمانی که کپی‌های متعددی از این شخص زنده باشند، وضعیت بدتر خواهد شد.</DuplicateSickness.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
   <!-- EN: initial -->
-  <DuplicateSickness.stages.initial-0.label>TODO</DuplicateSickness.stages.initial-0.label>
+  <DuplicateSickness.stages.initial-0.label>اولیه</DuplicateSickness.stages.initial-0.label>
   <!-- EN: initial -->
-  <DuplicateSickness.stages.initial-1.label>TODO</DuplicateSickness.stages.initial-1.label>
+  <DuplicateSickness.stages.initial-1.label>اولیه</DuplicateSickness.stages.initial-1.label>
   <!-- EN: moderate -->
-  <DuplicateSickness.stages.moderate.label>TODO</DuplicateSickness.stages.moderate.label>
+  <DuplicateSickness.stages.moderate.label>متوسط</DuplicateSickness.stages.moderate.label>
   <!-- EN: extreme -->
-  <DuplicateSickness.stages.extreme.label>TODO</DuplicateSickness.stages.extreme.label>
+  <DuplicateSickness.stages.extreme.label>شدید</DuplicateSickness.stages.extreme.label>
   <!-- EN: debilitating -->
-  <DuplicateSickness.stages.debilitating.label>TODO</DuplicateSickness.stages.debilitating.label>
+  <DuplicateSickness.stages.debilitating.label>فلج‌کننده</DuplicateSickness.stages.debilitating.label>
   
   <!-- EN: frenzy field -->
-  <FrenzyField.label>TODO</FrenzyField.label>
+  <FrenzyField.label>میدان جنون</FrenzyField.label>
   <!-- EN: This person is under the influence of a psychic field which sharpens their mental energy. They're channeling the nervous anger to move and work faster. However, any mental breaks will be violent. -->
-  <FrenzyField.description>TODO</FrenzyField.description>
+  <FrenzyField.description>این شخص تحت تاثیر میدان روانی است که انرژی روانی‌اش را تیز می‌کند. آنها خشم عصبی را مجرا می‌کنند تا سریعتر حرکت کنند و کار کنند. با این حال، هر شکست روانی خشونت‌آمیز خواهد بود.</FrenzyField.description>
   <!-- EN: very mild -->
-  <FrenzyField.stages.very_mild.label>TODO</FrenzyField.stages.very_mild.label>
+  <FrenzyField.stages.very_mild.label>خیلی ملایم</FrenzyField.stages.very_mild.label>
   <!-- EN: mild -->
-  <FrenzyField.stages.mild.label>TODO</FrenzyField.stages.mild.label>
+  <FrenzyField.stages.mild.label>ملایم</FrenzyField.stages.mild.label>
   <!-- EN: moderate -->
-  <FrenzyField.stages.moderate.label>TODO</FrenzyField.stages.moderate.label>
+  <FrenzyField.stages.moderate.label>متوسط</FrenzyField.stages.moderate.label>
   <!-- EN: extreme -->
-  <FrenzyField.stages.extreme.label>TODO</FrenzyField.stages.extreme.label>
-  
+  <FrenzyField.stages.extreme.label>شدید</FrenzyField.stages.extreme.label>
+
   <!-- EN: dark psychic invisibility -->
-  <HoraxianInvisibility.label>TODO</HoraxianInvisibility.label>
+  <HoraxianInvisibility.label>نامرئی بودن هوراکسیان</HoraxianInvisibility.label>
   <!-- EN: This creature is psychically twisting the perceptions of humans, animals, and machines in the vicinity in such a way as to seem invisible. The eye receives their image as normal but the mind cannot perceive it. -->
-  <HoraxianInvisibility.description>TODO</HoraxianInvisibility.description>
-  
+  <HoraxianInvisibility.description>این موجود به صورت روانی ادراکات انسان‌ها، حیوانات و ماشین‌ها را در نزدیکی به گونه‌ای تاب می‌دهد تا به نظر برسد نامرئی. چشم تصویر را عادی دریافت می‌کند اما ذهن نمی‌تواند آن را درک کند.</HoraxianInvisibility.description>
+
   <!-- EN: inhumanization -->
-  <Inhumanized.label>TODO</Inhumanized.label>
+  <Inhumanized.label>غیرانسانی شدن</Inhumanized.label>
   <!-- EN: This person's mind is dominated by the psychic patterns of the void. They are completely disconnected from human concerns of family, friendship, and love. Their experience of reality is distant and muted, guided by the psychic rhythm of a dark hyperintelligence. -->
-  <Inhumanized.description>TODO</Inhumanized.description>
-  
+  <Inhumanized.description>ذهن این شخص تحت الگوی روانی خلاء تسخیر شده است. آنان کاملاً از نگرانی‌های انسانی خانواده، دوستی و عشق منقطع شده‌اند. تجربیات واقعیت‌شان دور و بی‌صدا است، راهنمایی شده توسط ریتم روانی ابرذریاره تاریکی.</Inhumanized.description>
+
   <!-- EN: juggernaut serum -->
-  <JuggernautSerum.label>TODO</JuggernautSerum.label>
+  <JuggernautSerum.label>سرم جوگرنوت</JuggernautSerum.label>
   <!-- EN: A serum is super-powering this person's musculature, making them stronger and faster, but reducing their mood due to discomfort. -->
-  <JuggernautSerum.description>TODO</JuggernautSerum.description>
-  
+  <JuggernautSerum.description>سرمی عضلات این شخص را فوق‌العاده قدرت می‌بخشد، او را قوی‌تر و سریع‌تر می‌کند، اما خلقش را به دلیل ناراحتی کاهش می‌دهد.</JuggernautSerum.description>
+
   <!-- EN: light exposure -->
-  <LightExposure.label>TODO</LightExposure.label>
+  <LightExposure.label>قرار گرفتن در نور</LightExposure.label>
   <!-- EN: Even the slightest exposure to light causes great discomfort to this creature, slowing it and weakening its attacks. -->
-  <LightExposure.description>TODO</LightExposure.description>
+  <LightExposure.description>حتی کوچکترین قرار گرفتن در نور باعث ناراحتی شدید او می‌شود، که این موجود را کند می‌کند و حمله‌هایش را ضعف می‌بخشد.</LightExposure.description>
   <!-- EN: initial -->
-  <LightExposure.stages.initial.label>TODO</LightExposure.stages.initial.label>
+  <LightExposure.stages.initial.label>اولیه</LightExposure.stages.initial.label>
   <!-- EN: moderate -->
-  <LightExposure.stages.moderate.label>TODO</LightExposure.stages.moderate.label>
+  <LightExposure.stages.moderate.label>متوسط</LightExposure.stages.moderate.label>
   <!-- EN: serious -->
-  <LightExposure.stages.serious.label>TODO</LightExposure.stages.serious.label>
+  <LightExposure.stages.serious.label>جدی</LightExposure.stages.serious.label>
   <!-- EN: extreme -->
-  <LightExposure.stages.extreme.label>TODO</LightExposure.stages.extreme.label>
+  <LightExposure.stages.extreme.label>شدید</LightExposure.stages.extreme.label>
   
   <!-- EN: metalblood -->
-  <Metalblood.label>TODO</Metalblood.label>
+  <Metalblood.label>خون فلزی</Metalblood.label>
   <!-- EN: This creature has the metalblood compound in their bloodstream. This substance can rapidly harden the flesh when it anticipates a blow, making the user more resistant to damage. However, the bioferrite-based chemistry of this serum also makes the user particularly vulnerable to fire. -->
-  <Metalblood.description>TODO</Metalblood.description>
-  
+  <Metalblood.description>این موجود ترکیب خون فلزی در جریان خون دارد. این ماده می‌تواند سریع گوشت را زمانی که ضربه‌ای پیش‌بینی کند سخت کند، که کاربر را نسبت به آسیب مقاوم‌تر کند. با این حال، شیمی مبتنی بر بیوفریت این سرم کاربر را نسبت به آتش به طور خاص آسیب‌پذیر می‌کند.</Metalblood.description>
+
   <!-- EN: metalhorror implantation -->
-  <MetalhorrorImplant.label>TODO</MetalhorrorImplant.label>
+  <MetalhorrorImplant.label>کاشت مانفلزی ترس فلزی</MetalhorrorImplant.label>
   <!-- EN: A gestating creature of metallic horror. Starting from a tiny archometallic seed, it will quickly take control of the nervous system, grow, and extend throughout the host's body until it is ready to reveal itself. Once discovered, you can use the surgical inspection operation to cause a metalhorror to emerge from its host. Be prepared for a fight. -->
-  <MetalhorrorImplant.description>TODO</MetalhorrorImplant.description>
+  <MetalhorrorImplant.description>موجود سیالی فلزی شتوس. از هستهتیف کر دولتی معمارتکی شروع می‌کند، به سرعت کنترل سیستم عصبی را به دست می‌گیرد، رشد می‌کند و در بدن میزبان گسترش می‌یابد تا آماده ظاهر شدن شود. هنگامی که کشف شود، می‌توانید عملیات جراحی بازرسی را انجام دهید تا مترسان فلزی از میزبان‌اش بیرون بیاید. برای مبارزه آماده باشید.</MetalhorrorImplant.description>
   <!-- EN: Implanted before arrival at your colony -->
-  <MetalhorrorImplant.possiblePathways.0.explanation>TODO</MetalhorrorImplant.possiblePathways.0.explanation>
+  <MetalhorrorImplant.possiblePathways.0.explanation>قبل از ورود به مستعمره شما کاشته شد.</MetalhorrorImplant.possiblePathways.0.explanation>
   <!-- EN: Implanted through {SOURCEKIND_label} attack -->
-  <MetalhorrorImplant.possiblePathways.1.explanation>TODO</MetalhorrorImplant.possiblePathways.1.explanation>
+  <MetalhorrorImplant.possiblePathways.1.explanation>از طریق حمله {SOURCEKIND_label} کاشته شد.</MetalhorrorImplant.possiblePathways.1.explanation>
   <!-- EN: Implanted by revenant during hypnosis -->
-  <MetalhorrorImplant.possiblePathways.2.explanation>TODO</MetalhorrorImplant.possiblePathways.2.explanation>
-  
+  <MetalhorrorImplant.possiblePathways.2.explanation>توسط روانگو در حین هیپنوتیزم کاشته شد.</MetalhorrorImplant.possiblePathways.2.explanation>
+
   <!-- EN: machine speed -->
-  <MetalhorrorSpeedBoost.label>TODO</MetalhorrorSpeedBoost.label>
+  <MetalhorrorSpeedBoost.label>تقویت سرعت مترسان فلزی</MetalhorrorSpeedBoost.label>
   <!-- EN: Rapid movement driven by a surge of unnatural archotechnological strength. This burst of speed cannot last long. -->
-  <MetalhorrorSpeedBoost.description>TODO</MetalhorrorSpeedBoost.description>
-  
+  <MetalhorrorSpeedBoost.description>حرکت سریع توسط سورژی قدرت معمارتکی غیرطبیعی. این انفجار سرعت نمی‌تواند مدت طولانی دوام بیاورد.</MetalhorrorSpeedBoost.description>
+
   <!-- EN: mind-numb serum -->
-  <MindNumbSerum.label>TODO</MindNumbSerum.label>
+  <MindNumbSerum.label>سرم بی‌حسی ذهن</MindNumbSerum.label>
   <!-- EN: This person's neural patterns are being moderated by an exotic serum. They're unaffected by the highs and lows of human emotion. They will never have a mental break but they will also never feel inspired. -->
-  <MindNumbSerum.description>TODO</MindNumbSerum.description>
-  
+  <MindNumbSerum.description>الگوی عصبی این شخص توسط سرمی غیرمعمول تنظیم می‌شود. آنها تحت تاثیر بالا و پایین‌های احساسات انسانی نیستند. هرگز شکست روانی نخواهند داشت اما هرگز الهام نخواهد گرفتند.</MindNumbSerum.description>
+
   <!-- EN: neurosis pulse -->
-  <NeurosisPulse.label>TODO</NeurosisPulse.label>
+  <NeurosisPulse.label>پالس نوروزیس</NeurosisPulse.label>
   <!-- EN: This person has been affected by a psychic pulse of motivated, neurotic emotions. This makes them irritable, but also motivates them to work faster. -->
-  <NeurosisPulse.description>TODO</NeurosisPulse.description>
-  
+  <NeurosisPulse.description>این شخص تحت تاثیر پالس روانی احساسات انگیزشی نوروزیس قرار گرفته است. این کار او را عصبی‌تر می‌کند، اما انگیزه کار سریعتر را به او می‌دهد.</NeurosisPulse.description>
+
   <!-- EN: pain field -->
-  <PainField.label>TODO</PainField.label>
+  <PainField.label>میدان درد</PainField.label>
   <!-- EN: A searing pain caused by the presence of a psychically active entity nearby. The effect intensifies when the entity is more active. -->
-  <PainField.description>TODO</PainField.description>
-  
+  <PainField.description>دردی خریشان باعث حضور نزدیک نهاد روانی فعال می‌شود. تاثیر هنگامی که نهاد پر فعالیت تر است تشدید می‌شود.</PainField.description>
+
   <!-- EN: pleasure pulse -->
-  <PleasurePulse.label>TODO</PleasurePulse.label>
+  <PleasurePulse.label>پالس لذت</PleasurePulse.label>
   <!-- EN: This person has been impacted by a psychic pulse of pleasurable sensations and emotions. They feel unnaturally happy, distracting them from their work. -->
-  <PleasurePulse.description>TODO</PleasurePulse.description>
-  
+  <PleasurePulse.description>این شخص تحت تاثیر پالس روانی احساسات لذت‌بخش قرار گرفته است. احساس خوشی غیرطبیعی می‌کنند، که از کارشان دلاور می‌شود.</PleasurePulse.description>
+
   <!-- EN: psychically dead -->
-  <PsychicallyDead.label>TODO</PsychicallyDead.label>
+  <PsychicallyDead.label>روانی مرده</PsychicallyDead.label>
   <!-- EN: This person's psychic presence has been consumed and burned away, leaving them cut off from psychic phenomena. -->
-  <PsychicallyDead.description>TODO</PsychicallyDead.description>
-  
+  <PsychicallyDead.description>حضور روانی این شخص مصرف و سوختن گردیده است، او را از پدیده‌های روانی منقطع ساخته است.</PsychicallyDead.description>
+
   <!-- EN: psychic trance -->
-  <PsychicTrance.label>TODO</PsychicTrance.label>
+  <PsychicTrance.label>خلسه روانی</PsychicTrance.label>
   <!-- EN: This person's mind is linked with an ambient psychic field from a distant archotech. They have been placed in a trance-like state. The unnatural influence sustains them - they have almost no need for food or rest. -->
-  <PsychicTrance.description>TODO</PsychicTrance.description>
-  
+  <PsychicTrance.description>ذهن این شخص با میدان روانی ambientes از معمارتک دور لینک شده است. نیروی غیرطبیعی او را حفظ می‌کند - او تقریباً نیاز به غذا یا استراحت ندارد.</PsychicTrance.description>
+
   <!-- EN: psychophage -->
-  <Psychophage.label>TODO</Psychophage.label>
+  <Psychophage.label>روانخوار</Psychophage.label>
   <!-- EN: This person has devoured the psychic presence of another, making them more psychically sensitive for a period of time. -->
-  <Psychophage.description>TODO</Psychophage.description>
-  
+  <Psychophage.description>این شخص حضور روانی دیگری را خورده است، که میزان حساسیت روانی‌اش را برای مدت زمانی افزایش می‌دهد.</Psychophage.description>
+
   <!-- EN: rage speed -->
-  <RageSpeed.label>TODO</RageSpeed.label>
+  <RageSpeed.label>سرعت خشم</RageSpeed.label>
   <!-- EN: This creature has been enraged by its wounds and is moving faster. -->
-  <RageSpeed.description>TODO</RageSpeed.description>
-  
+  <RageSpeed.description>این موجود توسط زخمش خشمگین شده و سریعتر حرکت می‌کند.</RageSpeed.description>
+
   <!-- EN: regeneration -->
-  <Regeneration.label>TODO</Regeneration.label>
+  <Regeneration.label>بازسازی</Regeneration.label>
   <!-- EN: This creature is experiencing an impossibly fast rate of regeneration supported by a distant archotechnological engine. They will heal nearly any wound in a short time. -->
-  <Regeneration.description>TODO</Regeneration.description>
+  <Regeneration.description>این موجود دچار نرخ بازسازی سریع غیرممکن پشتیبانی از موتور معمارتکی دور می‌شود. او هر زخمی را در زمان کوتاه بهبود خواهد بخشید.</Regeneration.description>
   <!-- EN: unnatural -->
-  <Regeneration.stages.unnatural.label>TODO</Regeneration.stages.unnatural.label>
+  <Regeneration.stages.unnatural.label>غیرطبیعی</Regeneration.stages.unnatural.label>
   <!-- EN: impossible -->
-  <Regeneration.stages.impossible.label>TODO</Regeneration.stages.impossible.label>
-  
+  <Regeneration.stages.impossible.label>غیرممکن</Regeneration.stages.impossible.label>
+
   <!-- EN: revenant hypnosis -->
-  <RevenantHypnosis.label>TODO</RevenantHypnosis.label>
+  <RevenantHypnosis.label>هیپنوتیزم روانگو</RevenantHypnosis.label>
   <!-- EN: This person has been hypnotized by a revenant and remains linked to it. They ramble about nightmarish creatures while their unblinking eyes stare at invisible horrors.\n\nAfter hypnotizing a victim, the revenant will hibernate somewhere on the same map as its victim.\n\nKilling the revenant will end the hypnosis. A hidden revenant can be revealed by disruptor flares, explosives, EMP, firefoam, or fire. -->
-  <RevenantHypnosis.description>TODO</RevenantHypnosis.description>
-  
+  <RevenantHypnosis.description>این شخص توسط روانگو هیپنوتیزم شده و به آن متصل باقی مانده است. آنها درباره موجودات جهنمی وراجی می‌کنند در حالی که چشمانشان به وحشته‌های نامرئی خیره شده‌اند.
+
+پس از هیپنوتیزم victime، روانگو در جایی در همان نقشه hibergen می‌کند.
+
+کشتن روانگو هیپنوتیزم را پایان می‌دهد. روانگو پنهان قابل کشف توسط نورافکن‌های مختل‌کننده، مواد انفجاری، EMP، firefoam، یا آتش است.</RevenantHypnosis.description>
+
   <!-- EN: shard holder -->
-  <ShardHolder.label>TODO</ShardHolder.label>
+  <ShardHolder.label>نگهدار خرده</ShardHolder.label>
   <!-- EN: This creature will drop a shard when defeated. This text is visible in dev mode only. -->
-  <ShardHolder.description>TODO</ShardHolder.description>
-  
+  <ShardHolder.description>این موجود هنگامی که شکست خورد خرده‌ای خواهد انداخت. این متن فقط در حالت توسعه visible است.</ShardHolder.description>
+
   <!-- EN: sleep suppression -->
-  <SleepSuppression.label>TODO</SleepSuppression.label>
+  <SleepSuppression.label>سرکوب خواب</SleepSuppression.label>
   <!-- EN: This person's brain chemistry is being affected by a psychic pulsation, preventing the buildup of fatigue toxins. This reduces their need for sleep. -->
-  <SleepSuppression.description>TODO</SleepSuppression.description>
+  <SleepSuppression.description>شیمی مغزی این شخص تحت تاثیر پالس‌ییون روانی قرار گرفته است، که تجمع توکسین‌های خستگی را جلوگیری می‌کند. این نیاز او به خواب را کاهش می‌دهد.</SleepSuppression.description>
   <!-- EN: very mild -->
-  <SleepSuppression.stages.very_mild.label>TODO</SleepSuppression.stages.very_mild.label>
+  <SleepSuppression.stages.very_mild.label>خیلی ملایم</SleepSuppression.stages.very_mild.label>
   <!-- EN: mild -->
-  <SleepSuppression.stages.mild.label>TODO</SleepSuppression.stages.mild.label>
+  <SleepSuppression.stages.mild.label>ملایم</SleepSuppression.stages.mild.label>
   <!-- EN: moderate -->
-  <SleepSuppression.stages.moderate.label>TODO</SleepSuppression.stages.moderate.label>
+  <SleepSuppression.stages.moderate.label>متوسط</SleepSuppression.stages.moderate.label>
   <!-- EN: extreme -->
-  <SleepSuppression.stages.extreme.label>TODO</SleepSuppression.stages.extreme.label>
-  
+  <SleepSuppression.stages.extreme.label>شدید</SleepSuppression.stages.extreme.label>
+
   <!-- EN: void shock -->
-  <VoidShock.label>TODO</VoidShock.label>
+  <VoidShock.label>شوک خلاء</VoidShock.label>
   <!-- EN: This individual has witnessed the void. Their mind reels from the shock, overflowing with visions of infinite roiling, squirming, searing darkness stretching into the bottomless abyss from every surface and every screaming face. -->
-  <VoidShock.description>TODO</VoidShock.description>
-  
+  <VoidShock.description>این فرد خلاء را مشاهده کرده است. ذهنش از شوک reeling می‌شود، سرشار از visions of infinite roiling، creeping، searing تاریکی stretching into the bottomless abyss از هر سطح and هر چهره screaming.</VoidShock.description>
+
   <!-- EN: voidsight -->
-  <Voidsight.label>TODO</Voidsight.label>
+  <Voidsight.label>بینش خلاء</Voidsight.label>
   <!-- EN: This person has ingested a drug which enhanced their perception of dark psychic phenomena. They will gain more knowledge when studying dark psychic phenomena and entities. Their psychic sensitivity is also increased. -->
-  <Voidsight.description>TODO</Voidsight.description>
-  
+  <Voidsight.description>این شخص داروئی را مصرف کرده است که ادراک پدیده‌های روانی تاریکی‌اش را افزایش داده است. هنگامی که پدیده‌های روانی تاریکی و موجودات را مطالعه می‌کنند، دانش بیشتری کسب خواهند کرد. حساسیت روانی‌شان هم افزایش یافته است.</Voidsight.description>
+
   <!-- EN: void touched -->
-  <VoidTouched.label>TODO</VoidTouched.label>
+  <VoidTouched.label>لمس شده توسط خلاء</VoidTouched.label>
   <!-- EN: This person has seen the depths of the void and drank from its essence. It lives inside them still, guiding their actions and twisting their flesh. It has turned their hair brittle and white. They no longer need sleep or comfort. The void provides for them. -->
-  <VoidTouched.description>TODO</VoidTouched.description>
+  <VoidTouched.description>این شخص عمق خلاء را دیده و از essence‌اش نوشیده است. هنوز در او زندگی می‌کند، اعمالش را هدایت می‌کند و گوشتش را می‌پیچاند. موهایش را شکننده و سفید کرده است. دیگر نیازی به خواب یا راحتی ندارند. خلاء برایشان تامین کننده است.</VoidTouched.description>
   
 </LanguageData>
