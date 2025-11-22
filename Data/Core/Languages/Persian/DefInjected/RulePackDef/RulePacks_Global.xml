@@ -50,7 +50,55 @@
     <li>PersonalCharacteristic(p=0.15)->sexual preferences</li>
     <li>PersonalCharacteristic(p=0.15)->sexual experience</li>
   -->
-  <GlobalUtility.rulePack.rulesStrings>TODO</GlobalUtility.rulePack.rulesStrings>
+  <GlobalUtility.rulePack.rulesStrings>
+    <li>Trans->از</li>
+    <li>Trans->برای</li>
+    <li>Trans->توسط</li>
+    <li>Trans->با</li>
+    <li>Character(p=6)->[PersonJob]</li>
+    <li>Character(p=4)->[Animal]</li>
+    <li>Character(p=3)->[Enemy]</li>
+    <li>Character->[Mechanoid]</li>
+    <li>Quantity_adjphrase->دو</li>
+    <li>Quantity_adjphrase->سه</li>
+    <li>Quantity_adjphrase->چهار</li>
+    <li>Quantity_adjphrase->پنج</li>
+    <li>Quantity_adjphrase->شش</li>
+    <li>Quantity_adjphrase->هفت</li>
+    <li>Quantity_adjphrase->هشت</li>
+    <li>Quantity_adjphrase->نه</li>
+    <li>Quantity_adjphrase->ده</li>
+    <li>Quantity_adjphrase->چندین</li>
+    <li>Quantity_adjphrase->گروهی از</li>
+    <li>Quantity_adjphrase->گروه بزرگی از</li>
+    <li>Quantity_adjphrase->ده‌ها</li>
+    <li>Quantity_adjphrase->صدها</li>
+    <li>Quantity_adjphrase->یک هزار</li>
+    <li>Quantity_adjphrase->هزاران</li>
+    <li>Shape->مثلث</li>
+    <li>Shape->مربع</li>
+    <li>Shape->مستطیل</li>
+    <li>Shape->مخروط</li>
+    <li>Shape->خط</li>
+    <li>Shape->قلب</li>
+    <li>Shape->ستاره</li>
+    <li>Shape->دایره</li>
+    <li>Shape->بیضی</li>
+    <li>AdjectiveAny->[AdjectiveBadass]</li>
+    <li>AdjectiveAny->[AdjectiveAngsty]</li>
+    <li>AdjectiveAny->[AdjectiveFriendly]</li>
+    <li>AdjectiveAny->[AdjectiveNatural]</li>
+    <li>ConceptAny->[ConceptPositive]</li>
+    <li>ConceptAny->[ConceptBadass]</li>
+    <li>ConceptAny->[ConceptAngsty]</li>
+    <li>PersonalCharacteristic(p=0.15)->اندام تناسلی</li>
+    <li>PersonalCharacteristic(p=0.15)->موهای زائد</li>
+    <li>PersonalCharacteristic(p=0.15)->موهای بدن</li>
+    <li>PersonalCharacteristic(p=0.15)->عادات توالت</li>
+    <li>PersonalCharacteristic(p=0.15)->قدرت جنسی</li>
+    <li>PersonalCharacteristic(p=0.15)->ترجیحات جنسی</li>
+    <li>PersonalCharacteristic(p=0.15)->تجربه جنسی</li>
+  </GlobalUtility.rulePack.rulesStrings>
   
   <!-- EN:
     <li>TalkTopicAny->[TalkTopicLight]</li>
@@ -91,6 +139,44 @@
     <li>talktopicheavyfile(p=0.15)->animal sexuality</li>
     <li>talktopicheavyfile(p=0.15)->sexual fetishes</li>
   -->
-  <TalkTopicsUtility.rulePack.rulesStrings>TODO</TalkTopicsUtility.rulePack.rulesStrings>
+  <TalkTopicsUtility.rulePack.rulesStrings>
+    <li>TalkTopicAny->[TalkTopicLight]</li>
+    <li>TalkTopicAny->[TalkTopicHeavy]</li>
+    <li>TalkTopicHeavy->[talktopicheavyfile]</li>
+    <li>TalkTopicHeavy(p=0.08)->ارتباط بین [talktopicheavyfile] و [talktopicheavyfile]</li>
+    <li>TalkTopicHeavy(p=0.08)->پیوند بین [talktopicheavyfile] و [talktopicheavyfile]</li>
+    <li>TalkTopicHeavy(p=0.08)->رابطه بین [talktopicheavyfile] و [talktopicheavyfile]</li>
+    <li>TalkTopicLight(p=25)->[talktopiclightfile]</li>
+    <li>TalkTopicLight->[Vegetable]ها</li>
+    <li>TalkTopicLight->خوردن [Vegetable]ها</li>
+    <li>TalkTopicLight->پختن با [Vegetable]ها</li>
+    <li>TalkTopicLight->[Game]</li>
+    <li>TalkTopicLight->بازی کردن [Game]</li>
+    <li>TalkTopicLight->تمرین [Game]</li>
+    <li>TalkTopicLight->یادگیری [Game]</li>
+    <li>TalkTopicLight->[Animal]ها</li>
+    <li>TalkTopicLight->آموزش [Animal]ها</li>
+    <li>TalkTopicLight->اهلی کردن [Animal]ها</li>
+    <li>TalkTopicLight->جنگیدن با [Animal]ها</li>
+    <li>TalkTopicLight->[Animal]های دیوانه</li>
+    <li>TalkTopicLight->[Weapon]ها</li>
+    <li>TalkTopicLight->استفاده از [Weapon]ها</li>
+    <li>TalkTopicLight->تمرین با [Weapon]ها</li>
+    <li>TalkTopicLight->[TerrainFeature]ها</li>
+    <li>TalkTopicLight->[NaturalObject]ها</li>
+    <li>TalkTopicLight->درختان [TreeType]</li>
+    <li>TalkTopicLight->[PersonJob]ها</li>
+    <li>TalkTopicLight->[PersonJob]های دوستانه</li>
+    <li>TalkTopicLight->[PersonJob]های خصمانه</li>
+    <li>TalkTopicLight->[Enemy]ها</li>
+    <li>TalkTopicLight->جنگیدن با [Enemy]ها</li>
+    <li>TalkTopicLight->[Apparel]ها</li>
+    <li>TalkTopicLight->پوشیدن [Apparel]ها</li>
+    <li>TalkTopicLight->ساختن [Apparel]ها</li>
+    <li>talktopicheavyfile(p=0.15)->جنسیت</li>
+    <li>talktopicheavyfile(p=0.15)->اغوا</li>
+    <li>talktopicheavyfile(p=0.15)->تمایلات جنسی حیوانات</li>
+    <li>talktopicheavyfile(p=0.15)->فتیش‌های جنسی</li>
+  </TalkTopicsUtility.rulePack.rulesStrings>
   
 </LanguageData>

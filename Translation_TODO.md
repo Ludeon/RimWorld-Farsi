@@ -1,106 +1,117 @@
-# RimWorld Farsi Translation – Comprehensive TODO
+Based on the `TranslationReport.txt` you uploaded, I have generated an updated `Translation_TODO.md`. This list categorizes files by priority and type, separating those with active errors (which break the game or translation loading) from those that are simply missing translations.
 
-**Status:** Active Development
-**Source:** `TranslationReport.txt` (In-game translation tool report)
-**Missing Keyed Translations:** ~1,093 items
-**Missing Def-Injected Translations:** ~34,379 items
-
----
-
-## ⚠️ PRIORITY 1: KEYED TRANSLATIONS (UI & Gameplay)
-*These files control the interface, menus, and common messages. They are critical for the game to be playable in Persian.*
-
-### **General UI & Dialogs**
-- [ ] `Dialogs_Various.xml` (Large number of missing keys)
-- [ ] `Dialog_StatsReports.xml`
-- [ ] `Dialog_Trees.xml`
-- [ ] `FloatMenu.xml` (Right-click menu options)
-- [ ] `GameplayCommands.xml` (Buttons and gizmos)
-- [ ] `MainTabs.xml`
-- [ ] `Menus_Main.xml`
-- [ ] `Menu_Options.xml`
-- [ ] `Credits.xml` (Check for argument mismatches)
-
-### **Messages & Letters**
-- [ ] `Letters.xml` (Quest notifications, threats)
-- [ ] `Messages.xml` (Top-left notifications)
-- [ ] `Misc_Gameplay.xml` (Huge file, contains many gameplay strings)
-
-### **World & Scenario**
-- [ ] `ScenParts.xml`
-- [ ] `TerrainTags.xml`
+### **Files with Translation Errors**
+**⚠️ CRITICAL FIXES REQUIRED**
+These files contain syntax errors (usually incorrect types like `List<String>` vs `String`) that prevent the translation from loading correctly.
+* `Abilities.xml`
+* `ResearchProjects_Anomaly.xml`
+* `Script_CreepjoinerJoins.xml`
+* `Script_DistressCall.xml`
+* `Script_EndGame_VoidAwakening.xml`
+* `Script_MonolithMigration.xml`
+* `Script_MysteriousCargo.xml`
+* `Script_SightstealerArrival.xml`
+* `Script_TransportPodCrash_Ghoul.xml`
+* `Script_UnnaturalDarkness.xml`
 
 ---
 
-## ⚠️ PRIORITY 2: DEF-INJECTED TRANSLATIONS (Content)
-*These define the names and descriptions of items, backstories, animals, and quests. There is a massive amount of missing content here.*
+### **Files Needing Translation**
+These files have missing keys or def-injections but no syntax errors.
 
-### **Backstories (Character History)**
-*There are thousands of untranslated backstories. These are low priority for mechanics but high priority for "flavor".*
-- [ ] `Offworld_Medieval_Adult.xml`
-- [ ] `Offworld_Nonspecific_Adult.xml` & `Child.xml`
-- [ ] `Offworld_Specific_Adult.xml`
-- [ ] `Solid_Adult.xml` & `Child.xml`
-- [ ] `ImperialCommon_Adult.xml` & `Child.xml` (Royalty)
-- [ ] `ImperialFighter_Adult.xml` & `Child.xml` (Royalty)
-- [ ] `ImperialRoyal_Adult.xml` & `Child.xml` (Royalty)
+#### **Priority 1: Keyed Translations (UI & Gameplay)**
+*These are high priority as they appear in menus and common gameplay notifications.*
+* `Dialog_StatsReports.xml`
+* `Dialog_Trees.xml`
+* `Dialogs_Various.xml`
+* `FloatMenu.xml`
+* `GameplayCommands.xml`
+* `Letters.xml`
+* `MainTabs.xml`
+* `Menu_Options.xml`
+* `Menus_Main.xml`
+* `Messages.xml`
+* `Misc_Gameplay.xml`
+* `ScenParts.xml`
+* `TerrainTags.xml`
 
-### **Quests (Scripts)**
-*Quest descriptions and names are largely missing.*
-- [ ] `Script_TradeRequest.xml`
-- [ ] `Script_TransportPodCrash.xml`
-- [ ] `Script_WandererJoins.xml`
-- [ ] `Scripts_Missions.xml`
-- [ ] `Script_Hospitality_Refugee.xml`
-- [ ] `Script_PawnLend.xml`
-- [ ] `Script_RelicHunt.xml` (Ideology)
-- [ ] `Script_WorkSite.xml` (Ideology)
-- [ ] `Script_MechanitorShip.xml` (Biotech)
-- [ ] `Script_SanguophageShip.xml` (Biotech)
+#### **Priority 2: Def-Injected Translations (Content)**
 
-### **Interactions & Tales**
-*Social interactions and art descriptions.*
-- [ ] `Interactions_Social.xml`
-- [ ] `Interactions_Romance.xml`
-- [ ] `Interactions_Prisoner.xml`
-- [ ] `Interactions_Animal.xml`
-- [ ] `Tales_Job.xml`
-- [ ] `Tales_Incident.xml`
-- [ ] `Tales_Health.xml`
-- [ ] `RulePacks_Global.xml`
-- [ ] `RulePacks_Namers_*.xml` (All Namer files)
+**Backstories & Factions**
+* `Offworld_Medieval_Adult.xml`, `Offworld_Medieval_Child.xml`
+* `Offworld_Nonspecific_Adult.xml`, `Offworld_Nonspecific_Child.xml`
+* `Offworld_Specific_Adult.xml`
+* `Solid_Adult.xml`, `Solid_Child.xml`
+* `ImperialCommon_Adult.xml`, `ImperialCommon_Child.xml`
+* `ImperialFighter_Adult.xml`, `ImperialFighter_Child.xml`
+* `ImperialRoyal_Adult.xml`, `ImperialRoyal_Child.xml`
+* `Factions_Hidden.xml`, `Factions_Misc.xml`, `Factions_Player.xml`, `Faction_Empire.xml`
+* `PawnKinds_*.xml` (All PawnKind files: Empire, Refugee, NeutralCamps, Special, Impid, Pigskin, Waster, Yttakin, Entities, Fleshbeasts, Horaxian, Mutants, Player, Drones, Mechanoids, Salvagers, Spacer, TradersGuild)
 
-### **Game Concepts & Tutorial**
-- [ ] `Concepts_Entry.xml`
-- [ ] `Concepts_NotedOpportunistic.xml`
-- [ ] `Instructions.xml` (Tutorial steps)
-- [ ] `Tutor.xml`
+**Gameplay & World**
+* `BillRepeatModeDefs.xml`, `BillStoreModeDefs.xml`
+* `Biomes_Cold.xml`, `Biomes_Misc.xml`, `Biomes_Temperate.xml`, `Biomes_Warm.xml`, `Biomes_WarmArid.xml`, `Biomes_Water.xml`
+* `GlacialPlain.xml`, `Glowforest.xml`, `Grasslands.xml`, `LavaField.xml`, `Scarlands.xml`, `Space.xml`
+* `Difficulties.xml`
+* `Expectations.xml`
+* `GameConditions_Misc.xml`
+* `Incidents_*.xml` (All incident files: Caravan, Map, World)
+* `Inspirations.xml`
+* `Instructions.xml`
+* `Tutor.xml`
+* `WorkSites.xml`
 
-### **Biotech & Genetics (Expansion)**
-- [ ] `GeneDefs_*.xml` (All gene files: Endogenes, Abilities, Cosmetic, Health)
-- [ ] `Hediffs_Mechanitor.xml`
-- [ ] `Hediffs_Mechs.xml`
+**Items, Buildings, & Research**
+* `Buildings_Exotic.xml`, `Buildings_ConditionCausers.xml`, `Buildings_Deathrest.xml`, `Buildings_Misc.xml`
+* `Items_Resource_*.xml` (Alcohol, Ambrosia, GoJuice, Luciferium, Psychite, Smokeleaf, WakeUp, Psilocap)
+* `ResearchProjects_1.xml` through `ResearchProjects_5_Ship.xml`
+* `ResearchProjects_Mechanitor.xml`, `ResearchProjects_Misc.xml`
+* `MeleeBladelink.xml`, `WeaponTraitDefs.xml`
+* `ColorDefs.xml`, `IdeoColorDefs.xml`
+* `Terrain_Floors.xml`
+* `DesignatorDropdownGroupDef.xml`
+* `DrawStyles.xml`
 
-### **Royalty (Expansion)**
-- [ ] `RoyalPermits_Empire.xml`
-- [ ] `HairsRoyal.xml`
-- [ ] `Hediffs_BodyParts_*_Empire.xml`
+**Bodies & Health**
+* `Bodies_*.xml` (All body files: Animal, Drones, Mechanoids, Entities, Humanlike)
+* `BodyParts_*.xml` (All body part files)
+* `Damages_*.xml` (All damage defs)
+* `Hediffs_*.xml` (All hediff files: Global, Local, Psycasts, BodyParts, Implants, Mechs)
+* `HediffGiverSets.xml`
+* `InfectionPathwayDefs.xml`
+* `LifeStages.xml`
+* `PawnCapacity.xml`
 
-### **Health & Body**
-- [ ] `Hediffs_Global_Misc.xml`
-- [ ] `Hediffs_Local_Injuries.xml`
-- [ ] `BodyParts_General.xml`
-- [ ] `Bodies_Animal_*.xml` (All animal body definitions)
+**Social & Ideology**
+* `Concepts_*.xml` (Entry, NotedOpportunistic, NotedSelfshow, TriggeredModal)
+* `Cultures.xml`
+* `Duties_Gatherings.xml`, `Gatherings.xml`
+* `GoodwillSituations_Misc.xml`, `GoodwillSituations_MemeCompatibility.xml`
+* `GoodwillEvents_*.xml` (Diplomatic, Misc, Pawns, Quests, World)
+* `HistoryEventDefs.xml`
+* `Interactions_*.xml` (Animal, Prisoner, Romance, Social, Misc, Speech)
+* `Memes_Structures_OriginsReligious.xml`
+* `Precepts_*.xml` (All precept files: Rituals, Roles, Apparels, Diet, etc.)
+* `PawnRelations_Misc.xml`
+* `RulePacks_*.xml` (Global, Namers, Transitions, Book Descriptions, Leader Titles, Ideo Roles, etc.)
+* `TaleDefs.xml` (Tales_Caravan, Tales_Health, Tales_Job, Tales_SinglePawn)
 
-### **World Environment**
-- [ ] `Biomes_*.xml` (All biome files)
-- [ ] `GameConditions_*.xml` (Events like Toxic Fallout, Eclipse)
-
----
-
-## 🛠️ INSTRUCTIONS FOR TRANSLATORS
-
-1.  **Don't assume a file is done just because it exists.**
-2.  Use the **Translation Report** tool in-game (Dev Mode -> Translation -> Report) to see the specific lines missing in each file.
-3.  **Prioritize `Keyed` files first**, as these appear in the UI buttons and menus.
-4.  **Backstories** are the largest chunk of work; do them last or divide them among multiple translators.
+**Misc**
+* `DebugTabMenuDefs.xml`
+* `DesignationCategories.xml`
+* `ExpansionDefs.xml`
+* `GeneDefs_*.xml` (All gene files)
+* `GeneCategoryDefs.xml`
+* `HairsGeneral.xml`, `HairsRoyal.xml`
+* `HistoryAutoRecorders.xml`, `HistoryAutoRecorderGroups.xml`
+* `JoyKinds.xml`
+* `KeyBindings.xml`, `KeyBindingCategories.xml`
+* `MainButtons.xml`
+* `MechWeightClassDefs.xml`
+* `MeditationFocuses.xml`, `MeditationFocusDefs.xml`
+* `MentalStates_*.xml` (Mood, Special, BabyFits)
+* `Needs.xml`
+* `OptionCategories.xml`
+* `PawnColumns_*.xml` (Checkbox, Icon, Misc, Text, Mechs)
+* `Jobs_*.xml` (Animal, Caravan, Gatherings, Joy, Misc, Work, Combat, Childcare, Learning, Play)
+* `Scripts_*.xml` (All Quest Scripts except those with errors)

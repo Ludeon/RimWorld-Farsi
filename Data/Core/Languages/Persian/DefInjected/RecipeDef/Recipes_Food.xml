@@ -2,28 +2,28 @@
 <LanguageData>
   
   <!-- EN: make kibble -->
-  <Make_Kibble.label>TODO</Make_Kibble.label>
+  <Make_Kibble.label>ساخت غذای خشک</Make_Kibble.label>
   <!-- EN: Make animal kibble by combining raw meat and plants. -->
-  <Make_Kibble.description>TODO</Make_Kibble.description>
+  <Make_Kibble.description>ساخت غذای خشک حیوانات با ترکیب گوشت خام و گیاهان.</Make_Kibble.description>
   <!-- EN: protein -->
-  <Make_Kibble.ingredients.0.filter.customSummary>TODO</Make_Kibble.ingredients.0.filter.customSummary>
+  <Make_Kibble.ingredients.0.filter.customSummary>پروتئین</Make_Kibble.ingredients.0.filter.customSummary>
   <!-- EN: greens -->
-  <Make_Kibble.ingredients.1.filter.customSummary>TODO</Make_Kibble.ingredients.1.filter.customSummary>
+  <Make_Kibble.ingredients.1.filter.customSummary>سبزیجات</Make_Kibble.ingredients.1.filter.customSummary>
   <!-- EN: Making kibble. -->
-  <Make_Kibble.jobString>TODO</Make_Kibble.jobString>
+  <Make_Kibble.jobString>در حال ساخت غذای خشک.</Make_Kibble.jobString>
   
   <!-- EN: make pemmican -->
-  <Make_Pemmican.label>TODO</Make_Pemmican.label>
+  <Make_Pemmican.label>ساخت پمیکان</Make_Pemmican.label>
   <!-- EN: Make pemmican, a preserved combination of meat and plant food. It doesn't taste amazing, but lasts a long time without refrigeration. -->
-  <Make_Pemmican.description>TODO</Make_Pemmican.description>
+  <Make_Pemmican.description>ساخت پمیکان، ترکیبی از گوشت و غذای گیاهی که نگهداری شده است. طعم فوق‌العاده‌ای ندارد، اما بدون یخچال مدت زیادی دوام می‌آورد.</Make_Pemmican.description>
   <!-- EN: Making pemmican. -->
-  <Make_Pemmican.jobString>TODO</Make_Pemmican.jobString>
+  <Make_Pemmican.jobString>در حال ساخت پمیکان.</Make_Pemmican.jobString>
   
   <!-- EN: make pemmican x4 -->
-  <Make_PemmicanBulk.label>TODO</Make_PemmicanBulk.label>
+  <Make_PemmicanBulk.label>ساخت پمیکان انبوه</Make_PemmicanBulk.label>
   <!-- EN: Make bulk pemmican, a preserved combination of meat and plant food. It doesn't taste amazing, but lasts a long time without refrigeration. -->
-  <Make_PemmicanBulk.description>TODO</Make_PemmicanBulk.description>
+  <Make_PemmicanBulk.description>ساخت پمیکان انبوه، ترکیبی از گوشت و غذای گیاهی که نگهداری شده است. طعم فوق‌العاده‌ای ندارد، اما بدون یخچال مدت زیادی دوام می‌آورد.</Make_PemmicanBulk.description>
   <!-- EN: Making bulk pemmican. -->
-  <Make_PemmicanBulk.jobString>TODO</Make_PemmicanBulk.jobString>
+  <Make_PemmicanBulk.jobString>در حال ساخت پمیکان انبوه.</Make_PemmicanBulk.jobString>
   
 </LanguageData>

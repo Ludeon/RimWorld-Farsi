@@ -15,7 +15,20 @@
     <li>died(SUBJECT_flesh==Mechanoid)->stopped functioning</li>
     <li>died(SUBJECT_flesh==Mechanoid)->lost power</li>
   -->
-  <Transition_Died.rulePack.rulesStrings>TODO</Transition_Died.rulePack.rulesStrings>
+  <Transition_Died.rulePack.rulesStrings>
+    <li>die(SUBJECT_flesh!=Mechanoid,p=2)->می‌میرد</li>
+    <li>die(SUBJECT_flesh!=Mechanoid)->از بین می‌رود</li>
+    <li>die(SUBJECT_flesh!=Mechanoid)->جان می‌دهد</li>
+    <li>die(SUBJECT_flesh==Mechanoid)->خاموش می‌شود</li>
+    <li>die(SUBJECT_flesh==Mechanoid)->از کار می‌افتد</li>
+    <li>die(SUBJECT_flesh==Mechanoid)->قدرت خود را از دست می‌دهد</li>
+    <li>died(SUBJECT_flesh!=Mechanoid,p=2)->مرد</li>
+    <li>died(SUBJECT_flesh!=Mechanoid)->از بین رفت</li>
+    <li>died(SUBJECT_flesh!=Mechanoid)->جان داد</li>
+    <li>died(SUBJECT_flesh==Mechanoid)->خاموش شد</li>
+    <li>died(SUBJECT_flesh==Mechanoid)->از کار افتاد</li>
+    <li>died(SUBJECT_flesh==Mechanoid)->قدرت خود را از دست داد</li>
+  </Transition_Died.rulePack.rulesStrings>
   
   <!-- EN:
     <li>die(p=3)->explode [flavor]</li>
@@ -46,7 +59,35 @@
     <li>everywhere->everywhere</li>
     <li>everywhere->far and wide</li>
   -->
-  <Transition_DiedExplosive.rulePack.rulesStrings>TODO</Transition_DiedExplosive.rulePack.rulesStrings>
+  <Transition_DiedExplosive.rulePack.rulesStrings>
+    <li>die(p=3)->منفجر می‌شود [flavor]</li>
+    <li>die(p=3)->منفجر می‌شود [flavorsuffix]</li>
+    <li>die->دچار انفجار می‌شود [flavor]</li>
+    <li>die->دچار انفجار می‌شود [flavorsuffix]</li>
+    <li>die->می‌ترکد [flavor]</li>
+    <li>die->می‌ترکد [flavorsuffix]</li>
+    <li>died(p=3)->منفجر شد [flavor]</li>
+    <li>died->دچار انفجار شد [flavor]</li>
+    <li>died->ترکید [flavor]</li>
+    <li>flavor(p=0.2)->در یک [fireball] شیمیایی</li>
+    <li>flavor->در یک [fireball] [Color]</li>
+    <li>flavor->در یک [fireball] [AdjectiveLarge]</li>
+    <li>flavor(p=4)->در یک [fireball]</li>
+    <li>flavor(p=4)-></li>
+    <li>flavorsuffix->، و [pieces] را [everywhere] پراکنده کرد</li>
+    <li>flavorsuffix(SUBJECT_flesh!=Mechanoid,p=2)->، و [Gore] را [everywhere] پراکنده کرد</li>
+    <li>flavorsuffix(SUBJECT_flesh!=Mechanoid)->، و یک توده کوچک از [Gore] باقی گذاشت</li>
+    <li>flavorsuffix->، و یک دهانه کوچک باقی گذاشت</li>
+    <li>flavorsuffix(p=4)-></li>
+    <li>fireball(p=3)->گلوله آتش</li>
+    <li>fireball->توپ شعله</li>
+    <li>fireball->موج ضربه‌ای</li>
+    <li>fireball->آتش‌سوزی</li>
+    <li>pieces->تکه‌ها</li>
+    <li>pieces->قطعات</li>
+    <li>everywhere->همه جا</li>
+    <li>everywhere->به دور و نزدیک</li>
+  </Transition_DiedExplosive.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNoun] caused [SUBJECT_definite] to [die].</li>
@@ -56,7 +97,14 @@
     <li>r_logentry->[SUBJECT_definite] [died].</li>
     <li>r_logentry->[SUBJECT_definite] [died] [flavorsuffix].</li>
   -->
-  <Transition_DiedInclude.rulePack.rulesStrings>TODO</Transition_DiedInclude.rulePack.rulesStrings>
+  <Transition_DiedInclude.rulePack.rulesStrings>
+    <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNoun] باعث شد [SUBJECT_definite] [die].</li>
+    <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNounPretty] باعث شد [SUBJECT_definite] [die].</li>
+    <li>r_logentry->[SUBJECT_definite] [duetoa] [CULPRITHEDIFF_labelNoun] [died] [flavorsuffix].</li>
+    <li>r_logentry->[SUBJECT_definite] [duetoa] [CULPRITHEDIFF_labelNounPretty] [died] [flavorsuffix].</li>
+    <li>r_logentry->[SUBJECT_definite] [died].</li>
+    <li>r_logentry->[SUBJECT_definite] [died] [flavorsuffix].</li>
+  </Transition_DiedInclude.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[CULPRITHEDIFF_labelNoun] caused [SUBJECT_definite] to [collapsemeta].</li>
@@ -88,13 +136,46 @@
     <li>collapsedmeta->[collapsed]</li>
     <li>collapsedmeta(p=0.5)->[collapsed] [helplessly]</li>
   -->
-  <Transition_Downed.rulePack.rulesStrings>TODO</Transition_Downed.rulePack.rulesStrings>
+  <Transition_Downed.rulePack.rulesStrings>
+    <li>r_logentry->[CULPRITHEDIFF_labelNoun] باعث شد [SUBJECT_definite] [collapsemeta].</li>
+    <li>r_logentry->[CULPRITHEDIFF_labelNounPretty] باعث شد [SUBJECT_definite] [collapsemeta].</li>
+    <li>r_logentry->[CULPRITHEDIFF_labelNoun] [SUBJECT_definite] را وادار کرد [collapsemeta].</li>
+    <li>r_logentry->[CULPRITHEDIFF_labelNounPretty] [SUBJECT_definite] را وادار کرد [collapsemeta].</li>
+    <li>r_logentry->[SUBJECT_definite] [duetoa] [CULPRITHEDIFF_labelNoun] [collapsedmeta].</li>
+    <li>r_logentry->[SUBJECT_definite] [duetoa] [CULPRITHEDIFF_labelNounPretty] [collapsedmeta].</li>
+    <li>r_logentry(p=0.1)->[SUBJECT_definite] [collapsedmeta].</li>
+    <li>collapse->سقوط کند</li>
+    <li>collapse->بیفتد</li>
+    <li>collapse(SUBJECT_flesh!=Mechanoid)->از پا بیفتد</li>
+    <li>collapse(SUBJECT_flesh==Mechanoid)->خراب شود</li>
+    <li>collapse(SUBJECT_flesh==Mechanoid)->قفل شود</li>
+    <li>collapse(SUBJECT_flesh==Mechanoid)->قدرت اصلی خود را از دست بدهد</li>
+    <li>collapsed->سقوط کرد</li>
+    <li>collapsed->افتاد</li>
+    <li>collapsed(SUBJECT_flesh!=Mechanoid)->از پا افتاد</li>
+    <li>collapsed(SUBJECT_flesh==Mechanoid)->خراب شد</li>
+    <li>collapsed(SUBJECT_flesh==Mechanoid)->قفل شد</li>
+    <li>collapsed(SUBJECT_flesh==Mechanoid)->قدرت اصلی خود را از دست داد</li>
+    <li>helplessly->بی‌پناه</li>
+    <li>helplessly(SUBJECT_flesh!=Mechanoid)->بیهوش</li>
+    <li>helplessly(SUBJECT_flesh!=Mechanoid)->ضعیف</li>
+    <li>helplessly(SUBJECT_flesh!=Mechanoid)->سست</li>
+    <li>helplessly(SUBJECT_flesh==Mechanoid)->بدون کنترل</li>
+    <li>collapsemeta->[collapse]</li>
+    <li>collapsemeta(p=0.5)->[collapse] [helplessly]</li>
+    <li>collapsedmeta->[collapsed]</li>
+    <li>collapsedmeta(p=0.5)->[collapsed] [helplessly]</li>
+  </Transition_Downed.rulePack.rulesStrings>
   
   <!-- EN:
     <li>duetoa->due to</li>
     <li>duetoa(p=0.5)->because of</li>
     <li>duetoa(p=0.5)->thanks to</li>
   -->
-  <Transition_Include.rulePack.rulesStrings>TODO</Transition_Include.rulePack.rulesStrings>
+  <Transition_Include.rulePack.rulesStrings>
+    <li>duetoa->به دلیل</li>
+    <li>duetoa(p=0.5)->به خاطر</li>
+    <li>duetoa(p=0.5)->به واسطه</li>
+  </Transition_Include.rulePack.rulesStrings>
   
 </LanguageData>

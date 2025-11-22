@@ -37,6 +37,41 @@
     <li>desc_pawn->looking [AdjectiveAny]</li>
     <li>desc_pawn->covered in [Gore]</li>
   -->
-  <TalelessImages.rulePack.rulesStrings>TODO</TalelessImages.rulePack.rulesStrings>
+  <TalelessImages.rulePack.rulesStrings>
+    <li>image->یک [Character] تنها [desc_pawn]</li>
+    <li>image->یک [Character] تنها [desc_pawn] نزدیک یک [TerrainFeature]</li>
+    <li>image->یک [Character] تنها [desc_pawn] نزدیک یک [Community]</li>
+    <li>image->یک [Character] [desc_pawn] محاصره شده توسط [Character]ها</li>
+    <li>image->[Character]ها در حال بازی [Game]</li>
+    <li>image->یک [Character] [desc_pawn] در حال بازی [Game] با [Quantity_adjphrase] [Character]</li>
+    <li>image->یک [Character] [desc_pawn] در حال نگه داشتن یک [Weapon]</li>
+    <li>image->یک [Character] [desc_pawn] در حال خوردن یک [Vegetable]</li>
+    <li>image->[Quantity_adjphrase] [PersonJob] و [PersonJob] در حال خوردن [Vegetable] با هم</li>
+    <li>image->سلبریتی کوچک [NamePerson] [desc_pawn]</li>
+    <li>image->یک [Character] با پوشش [Apparel] [desc_pawn]</li>
+    <li>image->یک [Community]</li>
+    <li>image->یک [TerrainFeature]</li>
+    <li>image->یک [Weapon]</li>
+    <li>image->یک درخت [TreeType]</li>
+    <li>image->یک [NaturalObject]</li>
+    <li>image->[Quantity_adjphrase] [Weapon]</li>
+    <li>image->[Quantity_adjphrase] [Vegetable]</li>
+    <li>image->یک [Apparel] خالی</li>
+    <li>image->یک [Shape]</li>
+    <li>image->یک [Shape] محاصره شده توسط [Shape]ها</li>
+    <li>image->یک نمایش انتزاعی از [ConceptAny]</li>
+    <li>image->یک شکل انتزاعی [AdjectiveAny]</li>
+    <li>desc_pawn(p=12)-></li>
+    <li>desc_pawn->در حال پرواز در هوا</li>
+    <li>desc_pawn->معلق در هوا</li>
+    <li>desc_pawn->در حال حرکت به چپ</li>
+    <li>desc_pawn->در حال حرکت به راست</li>
+    <li>desc_pawn->نشسته روی میز</li>
+    <li>desc_pawn->دیده شده از طریق یک ذره‌بین</li>
+    <li>desc_pawn->به صورت سایه‌نما</li>
+    <li>desc_pawn->سوار بر یک [Animal] با پوشش [Apparel]</li>
+    <li>desc_pawn->با ظاهر [AdjectiveAny]</li>
+    <li>desc_pawn->پوشیده در [Gore]</li>
+  </TalelessImages.rulePack.rulesStrings>
   
 </LanguageData>

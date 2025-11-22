@@ -4,24 +4,34 @@
   <!-- EN:
     <li>sent->[RECIPIENT_nameDef] agreed and the two are now engaged.</li>
   -->
-  <Sentence_MarriageProposalAccepted.rulePack.rulesStrings>TODO</Sentence_MarriageProposalAccepted.rulePack.rulesStrings>
+  <Sentence_MarriageProposalAccepted.rulePack.rulesStrings>
+    <li>sent->[RECIPIENT_nameDef] موافقت کرد و آن دو اکنون نامزد شده‌اند.</li>
+  </Sentence_MarriageProposalAccepted.rulePack.rulesStrings>
   
   <!-- EN:
     <li>sent->[RECIPIENT_nameDef] rejected the proposal.</li>
   -->
-  <Sentence_MarriageProposalRejected.rulePack.rulesStrings>TODO</Sentence_MarriageProposalRejected.rulePack.rulesStrings>
+  <Sentence_MarriageProposalRejected.rulePack.rulesStrings>
+    <li>sent->[RECIPIENT_nameDef] پیشنهاد را رد کرد.</li>
+  </Sentence_MarriageProposalRejected.rulePack.rulesStrings>
   
   <!-- EN:
     <li>sent->It was too much for the relationship to continue, and the two have now broken up.</li>
   -->
-  <Sentence_MarriageProposalRejectedBrokeUp.rulePack.rulesStrings>TODO</Sentence_MarriageProposalRejectedBrokeUp.rulePack.rulesStrings>
+  <Sentence_MarriageProposalRejectedBrokeUp.rulePack.rulesStrings>
+    <li>sent->برای ادامه رابطه خیلی زیاد بود و آن دو اکنون از هم جدا شده‌اند.</li>
+  </Sentence_MarriageProposalRejectedBrokeUp.rulePack.rulesStrings>
   
   <!-- EN:
     <li>sent->[RECIPIENT_nameDef] was attracted and is now [INITIATOR_nameDef]'s lover.</li>
     <li>sent->[RECIPIENT_nameDef] responded well and is now [INITIATOR_nameDef]'s lover.</li>
     <li>sent->[RECIPIENT_nameDef] became aroused and agreed to become [INITIATOR_nameDef]'s lover.</li>
   -->
-  <Sentence_RomanceAttemptAccepted.rulePack.rulesStrings>TODO</Sentence_RomanceAttemptAccepted.rulePack.rulesStrings>
+  <Sentence_RomanceAttemptAccepted.rulePack.rulesStrings>
+    <li>sent->[RECIPIENT_nameDef] جذب شد و اکنون معشوق [INITIATOR_nameDef] است.</li>
+    <li>sent->[RECIPIENT_nameDef] به خوبی پاسخ داد و اکنون معشوق [INITIATOR_nameDef] است.</li>
+    <li>sent->[RECIPIENT_nameDef] تحریک شد و موافقت کرد که معشوق [INITIATOR_nameDef] شود.</li>
+  </Sentence_RomanceAttemptAccepted.rulePack.rulesStrings>
   
   <!-- EN:
     <li>sent->[RECIPIENT_nameDef] rejected the advance.</li>
@@ -32,6 +42,14 @@
     <li>sent->[RECIPIENT_nameDef] did not respond.</li>
     <li>sent->[RECIPIENT_nameDef] turned [INITIATOR_objective] down.</li>
   -->
-  <Sentence_RomanceAttemptRejected.rulePack.rulesStrings>TODO</Sentence_RomanceAttemptRejected.rulePack.rulesStrings>
+  <Sentence_RomanceAttemptRejected.rulePack.rulesStrings>
+    <li>sent->[RECIPIENT_nameDef] پیشروی را رد کرد.</li>
+    <li>sent->[RECIPIENT_nameDef] پیشروی را نادیده گرفت.</li>
+    <li>sent->[RECIPIENT_nameDef] پشتش را کرد.</li>
+    <li>sent->[RECIPIENT_nameDef] روی برگرداند.</li>
+    <li>sent->[RECIPIENT_nameDef] پاسخ حداقلی داد.</li>
+    <li>sent->[RECIPIENT_nameDef] پاسخ نداد.</li>
+    <li>sent->[RECIPIENT_nameDef] [INITIATOR_objective] را رد کرد.</li>
+  </Sentence_RomanceAttemptRejected.rulePack.rulesStrings>
   
 </LanguageData>

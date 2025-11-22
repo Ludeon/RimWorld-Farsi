@@ -1,22 +1,22 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml "1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: cure scaria -->
-  <CureScaria.label>TODO</CureScaria.label>
+  <CureScaria.label>درمان اسکاریا</CureScaria.label>
   <!-- EN: This special medical operation cures scaria. -->
-  <CureScaria.description>TODO</CureScaria.description>
+  <CureScaria.description>این عمل پزشکی خاص اسکاریا را درمان می‌کند.</CureScaria.description>
   <!-- EN: Curing scaria. -->
-  <CureScaria.jobString>TODO</CureScaria.jobString>
+  <CureScaria.jobString>در حال درمان اسکاریا.</CureScaria.jobString>
   <!-- EN: {0} has successfully cured {1}'s scaria. -->
-  <CureScaria.successfullyRemovedHediffMessage>TODO</CureScaria.successfullyRemovedHediffMessage>
+  <CureScaria.successfullyRemovedHediffMessage>{0} با موفقیت اسکازیای {1} را درمان کرد.</CureScaria.successfullyRemovedHediffMessage>
   
   <!-- EN: sterilize -->
-  <Sterilize.label>TODO</Sterilize.label>
+  <Sterilize.label>عقیم‌سازی</Sterilize.label>
   <!-- EN: Sterilize a creature so it can no longer reproduce. -->
-  <Sterilize.description>TODO</Sterilize.description>
+  <Sterilize.description>عقیم کردن یک موجود تا دیگر نتواند تولید مثل کند.</Sterilize.description>
   <!-- EN: sterilizing TargetA. -->
-  <Sterilize.jobString>TODO</Sterilize.jobString>
+  <Sterilize.jobString>در حال عقیم‌سازی TargetA.</Sterilize.jobString>
   <!-- EN: {0} has successfully sterilized {1}. -->
-  <Sterilize.successfullyRemovedHediffMessage>TODO</Sterilize.successfullyRemovedHediffMessage>
+  <Sterilize.successfullyRemovedHediffMessage>{0} با موفقیت {1} را عقیم کرد.</Sterilize.successfullyRemovedHediffMessage>
   
 </LanguageData>

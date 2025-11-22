@@ -6,7 +6,11 @@
     <li>physical_description_root->This furniture bears a [depiction] of [image]. [desc_sentence_group]</li>
     <li>physical_description_root->An engraving on this furniture [depicts] [image]. [desc_sentence_group]</li>
   -->
-  <ArtDescription_Furniture.rulePack.rulesStrings>TODO</ArtDescription_Furniture.rulePack.rulesStrings>
+  <ArtDescription_Furniture.rulePack.rulesStrings>
+    <li>physical_description_root->این مبلمان با [depiction] از [image] حکاکی شده است. [desc_sentence_group]</li>
+    <li>physical_description_root->این مبلمان دارای [depiction] از [image] است. [desc_sentence_group]</li>
+    <li>physical_description_root->یک حکاکی روی این مبلمان [image] را [depicts]. [desc_sentence_group]</li>
+  </ArtDescription_Furniture.rulePack.rulesStrings>
   
   <!-- EN:
     <li>physical_description_root->The sarcophagus is engraved with a [depiction] of [image]. [desc_sentence_group]</li>
@@ -14,7 +18,12 @@
     <li>physical_description_root->The sarcophagus is engraved with a [depiction] of [image]. [desc_sentence_group]</li>
     <li>physical_description_root->An engraving on this sarcophagus [depicts] [image]. [desc_sentence_group]</li>
   -->
-  <ArtDescription_SarcophagusPlate.rulePack.rulesStrings>TODO</ArtDescription_SarcophagusPlate.rulePack.rulesStrings>
+  <ArtDescription_SarcophagusPlate.rulePack.rulesStrings>
+    <li>physical_description_root->سارکوفاگوس با [depiction] از [image] حکاکی شده است. [desc_sentence_group]</li>
+    <li>physical_description_root->سارکوفاگوس دارای [depiction] از [image] است. [desc_sentence_group]</li>
+    <li>physical_description_root->سارکوفاگوس با [depiction] از [image] حکاکی شده است. [desc_sentence_group]</li>
+    <li>physical_description_root->یک حکاکی روی این سارکوفاگوس [image] را [depicts]. [desc_sentence_group]</li>
+  </ArtDescription_SarcophagusPlate.rulePack.rulesStrings>
   
   <!-- EN:
     <li>physical_description_root->This [sculpture] [depicts] [image]. [desc_sentence_group]</li>
@@ -25,20 +34,36 @@
     <li>sculpture->piece</li>
     <li>sculpture->carving</li>
   -->
-  <ArtDescription_Sculpture.rulePack.rulesStrings>TODO</ArtDescription_Sculpture.rulePack.rulesStrings>
+  <ArtDescription_Sculpture.rulePack.rulesStrings>
+    <li>physical_description_root->این [sculpture] [image] را [depicts]. [desc_sentence_group]</li>
+    <li>physical_description_root->این [sculpture] دارای [depiction] از [image] است. [desc_sentence_group]</li>
+    <li>physical_description_root->روی این [sculpture] یک [depiction] از [image] وجود دارد. [desc_sentence_group]</li>
+    <li>sculpture->مجسمه</li>
+    <li>sculpture->اثر</li>
+    <li>sculpture->قطعه</li>
+    <li>sculpture->کنده کاری</li>
+  </ArtDescription_Sculpture.rulePack.rulesStrings>
   
   <!-- EN:
     <li>physical_description_root->This weapon is engraved with a [depiction] of [image]. [desc_sentence_group]</li>
     <li>physical_description_root->This weapon bears a [depiction] of [image]. [desc_sentence_group]</li>
     <li>physical_description_root->An engraving on this weapon [depicts] [image]. [desc_sentence_group]</li>
   -->
-  <ArtDescription_WeaponGun.rulePack.rulesStrings>TODO</ArtDescription_WeaponGun.rulePack.rulesStrings>
+  <ArtDescription_WeaponGun.rulePack.rulesStrings>
+    <li>physical_description_root->این سلاح با [depiction] از [image] حکاکی شده است. [desc_sentence_group]</li>
+    <li>physical_description_root->این سلاح دارای [depiction] از [image] است. [desc_sentence_group]</li>
+    <li>physical_description_root->یک حکاکی روی این سلاح [image] را [depicts]. [desc_sentence_group]</li>
+  </ArtDescription_WeaponGun.rulePack.rulesStrings>
   
   <!-- EN:
     <li>physical_description_root->This weapon is engraved with a [depiction] of [image]. [desc_sentence_group]</li>
     <li>physical_description_root->This weapon bears a [depiction] of [image]. [desc_sentence_group]</li>
     <li>physical_description_root->An engraving on this weapon [depicts] [image]. [desc_sentence_group]</li>
   -->
-  <ArtDescription_WeaponMelee.rulePack.rulesStrings>TODO</ArtDescription_WeaponMelee.rulePack.rulesStrings>
+  <ArtDescription_WeaponMelee.rulePack.rulesStrings>
+    <li>physical_description_root->این سلاح با [depiction] از [image] حکاکی شده است. [desc_sentence_group]</li>
+    <li>physical_description_root->این سلاح دارای [depiction] از [image] است. [desc_sentence_group]</li>
+    <li>physical_description_root->یک حکاکی روی این سلاح [image] را [depicts]. [desc_sentence_group]</li>
+  </ArtDescription_WeaponMelee.rulePack.rulesStrings>
   
 </LanguageData>
