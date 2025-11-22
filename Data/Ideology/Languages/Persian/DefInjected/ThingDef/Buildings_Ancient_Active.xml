@@ -2,34 +2,34 @@
 <LanguageData>
   
   <!-- EN: ancient comms console -->
-  <AncientCommsConsole.label>TODO</AncientCommsConsole.label>
+  <AncientCommsConsole.label>کنسول ارتباطی باستانی</AncientCommsConsole.label>
   <!-- EN: An ancient console with an attached communications dish. Valuable parts are missing, and everything else is degraded to uselessness. -->
-  <AncientCommsConsole.description>TODO</AncientCommsConsole.description>
+  <AncientCommsConsole.description>یک کنسول باستانی با یک دیش ارتباطی متصل. قطعات ارزشمند گم شده‌اند و هر چیز دیگری تا حد بی‌استفاده بودن فرسوده شده است.</AncientCommsConsole.description>
   <!-- EN: Hack to access ancient supply satellite. -->
-  <AncientCommsConsole.comps.CompHackable.notHackedInspectString>TODO</AncientCommsConsole.comps.CompHackable.notHackedInspectString>
+  <AncientCommsConsole.comps.CompHackable.notHackedInspectString>هک برای دسترسی به ماهواره تدارکات باستانی.</AncientCommsConsole.comps.CompHackable.notHackedInspectString>
   
   <!-- EN: ancient enemy terminal -->
-  <AncientEnemyTerminal.label>TODO</AncientEnemyTerminal.label>
+  <AncientEnemyTerminal.label>ترمینال دشمن باستانی</AncientEnemyTerminal.label>
   <!-- EN: An ancient computer terminal. It can be hacked to call nearby enemies. -->
-  <AncientEnemyTerminal.description>TODO</AncientEnemyTerminal.description>
+  <AncientEnemyTerminal.description>یک ترمینال کامپیوتری باستانی. می‌توان آن را هک کرد تا دشمنان نزدیک را فراخواند.</AncientEnemyTerminal.description>
   <!-- EN: Hacking this {0} will alert enemies and cause them to attack. -->
-  <AncientEnemyTerminal.comps.CompHackable.autohackWarningString>TODO</AncientEnemyTerminal.comps.CompHackable.autohackWarningString>
+  <AncientEnemyTerminal.comps.CompHackable.autohackWarningString>هک کردن این {0} به دشمنان هشدار می‌دهد و باعث حمله آن‌ها می‌شود.</AncientEnemyTerminal.comps.CompHackable.autohackWarningString>
   <!-- EN: Hack to call nearby enemies. -->
-  <AncientEnemyTerminal.comps.CompHackable.notHackedInspectString>TODO</AncientEnemyTerminal.comps.CompHackable.notHackedInspectString>
+  <AncientEnemyTerminal.comps.CompHackable.notHackedInspectString>هک برای فراخوانی دشمنان نزدیک.</AncientEnemyTerminal.comps.CompHackable.notHackedInspectString>
   
   <!-- EN: security crate -->
-  <AncientSecurityCrate.label>TODO</AncientSecurityCrate.label>
+  <AncientSecurityCrate.label>جعبه امنیتی</AncientSecurityCrate.label>
   <!-- EN: A large self-powered hermetically-sealed crate with built-in security alarms. These can preserve their contents for a long time. If it is opened without the proper code, it will probably activate some nearby security system. -->
-  <AncientSecurityCrate.description>TODO</AncientSecurityCrate.description>
+  <AncientSecurityCrate.description>یک جعبه بزرگ خودکار و مهر و موم شده با هشدارهای امنیتی داخلی. این‌ها می‌توانند محتویات خود را برای مدت طولانی حفظ کنند. اگر بدون کد مناسب باز شود، احتمالاً برخی از سیستم‌های امنیتی نزدیک را فعال می‌کند.</AncientSecurityCrate.description>
   
   <!-- EN: ancient terminal -->
-  <AncientTerminal.label>TODO</AncientTerminal.label>
+  <AncientTerminal.label>ترمینال باستانی</AncientTerminal.label>
   <!-- EN: An ancient computer terminal. It can be hacked to reveal long-forgotten information. -->
-  <AncientTerminal.description>TODO</AncientTerminal.description>
+  <AncientTerminal.description>یک ترمینال کامپیوتری باستانی. می‌توان آن را هک کرد تا اطلاعات فراموش شده را آشکار کند.</AncientTerminal.description>
   
   <!-- EN: ancient terminal -->
-  <AncientTerminal_Worshipful.label>TODO</AncientTerminal_Worshipful.label>
+  <AncientTerminal_Worshipful.label>ترمینال باستانی</AncientTerminal_Worshipful.label>
   <!-- EN: An ancient computer terminal. It can be hacked to reveal long-forgotten information. -->
-  <AncientTerminal_Worshipful.description>TODO</AncientTerminal_Worshipful.description>
+  <AncientTerminal_Worshipful.description>یک ترمینال کامپیوتری باستانی. می‌توان آن را هک کرد تا اطلاعات فراموش شده را آشکار کند.</AncientTerminal_Worshipful.description>
   
 </LanguageData>

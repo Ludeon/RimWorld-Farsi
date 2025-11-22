@@ -2,83 +2,83 @@
 <LanguageData>
   
   <!-- EN: biosculpter occupant speed -->
-  <BiosculpterOccupantSpeed.label>TODO</BiosculpterOccupantSpeed.label>
+  <BiosculpterOccupantSpeed.label>سرعت ساکن زیست‌تراش</BiosculpterOccupantSpeed.label>
   <!-- EN: A multiplier on how quickly this person will complete a biosculpter pod cycle. -->
-  <BiosculpterOccupantSpeed.description>TODO</BiosculpterOccupantSpeed.description>
+  <BiosculpterOccupantSpeed.description>ضریبی برای سرعت تکمیل چرخه غلاف زیست‌تراش توسط این شخص.</BiosculpterOccupantSpeed.description>
   
   <!-- EN: global certainty loss factor -->
-  <CertaintyLossFactor.label>TODO</CertaintyLossFactor.label>
+  <CertaintyLossFactor.label>ضریب از دست دادن یقین جهانی</CertaintyLossFactor.label>
   <!-- EN: A multiplier on how much certainty this person loses when someone else tries to convert them away from their ideoligion. -->
-  <CertaintyLossFactor.description>TODO</CertaintyLossFactor.description>
+  <CertaintyLossFactor.description>ضریبی برای میزان یقینی که این شخص وقتی کس دیگری سعی می‌کند او را از ایدئولوژی‌اش تبدیل کند از دست می‌دهد.</CertaintyLossFactor.description>
   
   <!-- EN: conversion power -->
-  <ConversionPower.label>TODO</ConversionPower.label>
+  <ConversionPower.label>قدرت تبدیل</ConversionPower.label>
   <!-- EN: How effective this person is at converting others to their own ideoligion. When this person attempts to convert someone else, this value multiplies the amount of certainty the other person loses. -->
-  <ConversionPower.description>TODO</ConversionPower.description>
+  <ConversionPower.description>میزان مؤثر بودن این شخص در تبدیل دیگران به ایدئولوژی خودش. وقتی این شخص سعی می‌کند کس دیگری را تبدیل کند، این مقدار در میزان یقینی که شخص دیگر از دست می‌دهد ضرب می‌شود.</ConversionPower.description>
   
   <!-- EN: melee dodge chance indoors dark -->
-  <MeleeDodgeChanceIndoorsDarkOffset.label>TODO</MeleeDodgeChanceIndoorsDarkOffset.label>
+  <MeleeDodgeChanceIndoorsDarkOffset.label>شانس طفره نزدیک درون تاریک</MeleeDodgeChanceIndoorsDarkOffset.label>
   <!-- EN: An offset on melee dodge chance if the target is indoors in the dark. -->
-  <MeleeDodgeChanceIndoorsDarkOffset.description>TODO</MeleeDodgeChanceIndoorsDarkOffset.description>
+  <MeleeDodgeChanceIndoorsDarkOffset.description>افزایش شانس طفره نزدیک اگر هدف در داخل و در تاریکی باشد.</MeleeDodgeChanceIndoorsDarkOffset.description>
   
   <!-- EN: melee dodge chance indoors lit -->
-  <MeleeDodgeChanceIndoorsLitOffset.label>TODO</MeleeDodgeChanceIndoorsLitOffset.label>
+  <MeleeDodgeChanceIndoorsLitOffset.label>شانس طفره نزدیک درون روشن</MeleeDodgeChanceIndoorsLitOffset.label>
   <!-- EN: An offset on melee dodge chance if the target is indoors and lit. -->
-  <MeleeDodgeChanceIndoorsLitOffset.description>TODO</MeleeDodgeChanceIndoorsLitOffset.description>
+  <MeleeDodgeChanceIndoorsLitOffset.description>افزایش شانس طفره نزدیک اگر هدف در داخل و روشن باشد.</MeleeDodgeChanceIndoorsLitOffset.description>
   
   <!-- EN: melee dodge chance outdoors night -->
-  <MeleeDodgeChanceOutdoorsDarkOffset.label>TODO</MeleeDodgeChanceOutdoorsDarkOffset.label>
+  <MeleeDodgeChanceOutdoorsDarkOffset.label>شانس طفره نزدیک بیرون شب</MeleeDodgeChanceOutdoorsDarkOffset.label>
   <!-- EN: An offset on melee dodge chance if the target is outdoors at night. -->
-  <MeleeDodgeChanceOutdoorsDarkOffset.description>TODO</MeleeDodgeChanceOutdoorsDarkOffset.description>
+  <MeleeDodgeChanceOutdoorsDarkOffset.description>افزایش شانس طفره نزدیک اگر هدف در بیرون در شب باشد.</MeleeDodgeChanceOutdoorsDarkOffset.description>
   
   <!-- EN: melee dodge chance outdoors day -->
-  <MeleeDodgeChanceOutdoorsLitOffset.label>TODO</MeleeDodgeChanceOutdoorsLitOffset.label>
+  <MeleeDodgeChanceOutdoorsLitOffset.label>شانس طفره نزدیک بیرون روز</MeleeDodgeChanceOutdoorsLitOffset.label>
   <!-- EN: An offset on melee dodge chance if the target is outdoors during the day. -->
-  <MeleeDodgeChanceOutdoorsLitOffset.description>TODO</MeleeDodgeChanceOutdoorsLitOffset.description>
+  <MeleeDodgeChanceOutdoorsLitOffset.description>افزایش شانس طفره نزدیک اگر هدف در بیرون در روز باشد.</MeleeDodgeChanceOutdoorsLitOffset.description>
   
   <!-- EN: melee hit chance indoors dark -->
-  <MeleeHitChanceIndoorsDarkOffset.label>TODO</MeleeHitChanceIndoorsDarkOffset.label>
+  <MeleeHitChanceIndoorsDarkOffset.label>شانس اصابت نزدیک درون تاریک</MeleeHitChanceIndoorsDarkOffset.label>
   <!-- EN: An offset on melee hit chance if the target is indoors in the dark. -->
-  <MeleeHitChanceIndoorsDarkOffset.description>TODO</MeleeHitChanceIndoorsDarkOffset.description>
+  <MeleeHitChanceIndoorsDarkOffset.description>افزایش شانس اصابت نزدیک اگر هدف در داخل و در تاریکی باشد.</MeleeHitChanceIndoorsDarkOffset.description>
   
   <!-- EN: melee hit chance indoors lit -->
-  <MeleeHitChanceIndoorsLitOffset.label>TODO</MeleeHitChanceIndoorsLitOffset.label>
+  <MeleeHitChanceIndoorsLitOffset.label>شانس اصابت نزدیک درون روشن</MeleeHitChanceIndoorsLitOffset.label>
   <!-- EN: An offset on melee hit chance if the target is indoors and lit. -->
-  <MeleeHitChanceIndoorsLitOffset.description>TODO</MeleeHitChanceIndoorsLitOffset.description>
+  <MeleeHitChanceIndoorsLitOffset.description>افزایش شانس اصابت نزدیک اگر هدف در داخل و روشن باشد.</MeleeHitChanceIndoorsLitOffset.description>
   
   <!-- EN: melee hit chance outdoors dark -->
-  <MeleeHitChanceOutdoorsDarkOffset.label>TODO</MeleeHitChanceOutdoorsDarkOffset.label>
+  <MeleeHitChanceOutdoorsDarkOffset.label>شانس اصابت نزدیک بیرون تاریک</MeleeHitChanceOutdoorsDarkOffset.label>
   <!-- EN: An offset on melee hit chance if the target is outdoors at night. -->
-  <MeleeHitChanceOutdoorsDarkOffset.description>TODO</MeleeHitChanceOutdoorsDarkOffset.description>
+  <MeleeHitChanceOutdoorsDarkOffset.description>افزایش شانس اصابت نزدیک اگر هدف در بیرون در شب باشد.</MeleeHitChanceOutdoorsDarkOffset.description>
   
   <!-- EN: melee hit chance outdoors lit -->
-  <MeleeHitChanceOutdoorsLitOffset.label>TODO</MeleeHitChanceOutdoorsLitOffset.label>
+  <MeleeHitChanceOutdoorsLitOffset.label>شانس اصابت نزدیک بیرون روشن</MeleeHitChanceOutdoorsLitOffset.label>
   <!-- EN: An offset on melee hit chance if the target is outdoors during the day. -->
-  <MeleeHitChanceOutdoorsLitOffset.description>TODO</MeleeHitChanceOutdoorsLitOffset.description>
+  <MeleeHitChanceOutdoorsLitOffset.description>افزایش شانس اصابت نزدیک اگر هدف در بیرون در روز باشد.</MeleeHitChanceOutdoorsLitOffset.description>
   
   <!-- EN: shooting accuracy indoors dark -->
-  <ShootingAccuracyIndoorsDarkOffset.label>TODO</ShootingAccuracyIndoorsDarkOffset.label>
+  <ShootingAccuracyIndoorsDarkOffset.label>دقت تیراندازی درون تاریک</ShootingAccuracyIndoorsDarkOffset.label>
   <!-- EN: An offset on shooting accuracy if the target is indoors in the dark. -->
-  <ShootingAccuracyIndoorsDarkOffset.description>TODO</ShootingAccuracyIndoorsDarkOffset.description>
+  <ShootingAccuracyIndoorsDarkOffset.description>افزایش دقت تیراندازی اگر هدف در داخل و در تاریکی باشد.</ShootingAccuracyIndoorsDarkOffset.description>
   
   <!-- EN: shooting accuracy indoors lit -->
-  <ShootingAccuracyIndoorsLitOffset.label>TODO</ShootingAccuracyIndoorsLitOffset.label>
+  <ShootingAccuracyIndoorsLitOffset.label>دقت تیراندازی درون روشن</ShootingAccuracyIndoorsLitOffset.label>
   <!-- EN: An offset on shooting accuracy if the target is indoors and lit. -->
-  <ShootingAccuracyIndoorsLitOffset.description>TODO</ShootingAccuracyIndoorsLitOffset.description>
+  <ShootingAccuracyIndoorsLitOffset.description>افزایش دقت تیراندازی اگر هدف در داخل و روشن باشد.</ShootingAccuracyIndoorsLitOffset.description>
   
   <!-- EN: shooting accuracy outdoors dark -->
-  <ShootingAccuracyOutdoorsDarkOffset.label>TODO</ShootingAccuracyOutdoorsDarkOffset.label>
+  <ShootingAccuracyOutdoorsDarkOffset.label>دقت تیراندازی بیرون تاریک</ShootingAccuracyOutdoorsDarkOffset.label>
   <!-- EN: An offset on shooting accuracy if the target is outdoors at night. -->
-  <ShootingAccuracyOutdoorsDarkOffset.description>TODO</ShootingAccuracyOutdoorsDarkOffset.description>
+  <ShootingAccuracyOutdoorsDarkOffset.description>افزایش دقت تیراندازی اگر هدف در بیرون در شب باشد.</ShootingAccuracyOutdoorsDarkOffset.description>
   
   <!-- EN: shooting accuracy outdoors lit -->
-  <ShootingAccuracyOutdoorsLitOffset.label>TODO</ShootingAccuracyOutdoorsLitOffset.label>
+  <ShootingAccuracyOutdoorsLitOffset.label>دقت تیراندازی بیرون روشن</ShootingAccuracyOutdoorsLitOffset.label>
   <!-- EN: An offset on shooting accuracy if the target is outdoors during the day. -->
-  <ShootingAccuracyOutdoorsLitOffset.description>TODO</ShootingAccuracyOutdoorsLitOffset.description>
+  <ShootingAccuracyOutdoorsLitOffset.description>افزایش دقت تیراندازی اگر هدف در بیرون در روز باشد.</ShootingAccuracyOutdoorsLitOffset.description>
   
   <!-- EN: ideoligion spread chance -->
-  <SocialIdeoSpreadFrequencyFactor.label>TODO</SocialIdeoSpreadFrequencyFactor.label>
+  <SocialIdeoSpreadFrequencyFactor.label>شانس گسترش ایدئولوژی</SocialIdeoSpreadFrequencyFactor.label>
   <!-- EN: A multiplier on the chance that this person will try to convert other people to their own ideoligion. -->
-  <SocialIdeoSpreadFrequencyFactor.description>TODO</SocialIdeoSpreadFrequencyFactor.description>
+  <SocialIdeoSpreadFrequencyFactor.description>ضریبی برای شانسی که این شخص سعی کند دیگران را به ایدئولوژی خودش تبدیل کند.</SocialIdeoSpreadFrequencyFactor.description>
   
 </LanguageData>

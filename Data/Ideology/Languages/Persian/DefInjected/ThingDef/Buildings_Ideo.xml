@@ -2,111 +2,111 @@
 <LanguageData>
   
   <!-- EN: grand altar -->
-  <Altar_Grand.label>TODO</Altar_Grand.label>
+  <Altar_Grand.label>محراب بزرگ</Altar_Grand.label>
   <!-- EN: A grand platform that plays a role in ideoligious rituals. -->
-  <Altar_Grand.description>TODO</Altar_Grand.description>
+  <Altar_Grand.description>یک سکوی بزرگ که در مراسم ایدئولوژیک نقش دارد.</Altar_Grand.description>
   
   <!-- EN: large altar -->
-  <Altar_Large.label>TODO</Altar_Large.label>
+  <Altar_Large.label>محراب بزرگ</Altar_Large.label>
   <!-- EN: A large platform that plays a role in ideoligious rituals. -->
-  <Altar_Large.description>TODO</Altar_Large.description>
+  <Altar_Large.description>یک سکوی بزرگ که در مراسم ایدئولوژیک نقش دارد.</Altar_Large.description>
   
   <!-- EN: medium altar -->
-  <Altar_Medium.label>TODO</Altar_Medium.label>
+  <Altar_Medium.label>محراب متوسط</Altar_Medium.label>
   <!-- EN: A medium platform that plays a role in ideoligious rituals. -->
-  <Altar_Medium.description>TODO</Altar_Medium.description>
+  <Altar_Medium.description>یک سکوی متوسط که در مراسم ایدئولوژیک نقش دارد.</Altar_Medium.description>
   
   <!-- EN: small altar -->
-  <Altar_Small.label>TODO</Altar_Small.label>
+  <Altar_Small.label>محراب کوچک</Altar_Small.label>
   <!-- EN: A small platform that plays a role in ideoligious rituals. -->
-  <Altar_Small.description>TODO</Altar_Small.description>
+  <Altar_Small.description>یک سکوی کوچک که در مراسم ایدئولوژیک نقش دارد.</Altar_Small.description>
   
   <!-- EN: biosculpter pod -->
-  <BiosculpterPod.label>TODO</BiosculpterPod.label>
+  <BiosculpterPod.label>کپسول زیست‌تراش</BiosculpterPod.label>
   <!-- EN: An immersion pod full of bioactive gel. It can perform a variety of biological alterations including age reversal and pleasure-giving.\n\nThe pod biotunes to its user at the end of a cycle. While biotuned, it cannot be used by anyone else, but cycles will complete 25% more quickly. Biotuning resets if the pod is unused for 80 days.\n\nThe pod consumes 200W of power while working, but only 50W on standby. -->
-  <BiosculpterPod.description>TODO</BiosculpterPod.description>
+  <BiosculpterPod.description>یک کپسول غوطه‌وری پر از ژل زیست‌فعال. می‌تواند انواع تغییرات بیولوژیکی از جمله معکوس کردن سن و لذت‌بخشی را انجام دهد.\n\nکپسول در پایان یک چرخه با کاربر خود تنظیم زیستی می‌شود. در حالی که تنظیم زیستی شده است، توسط کس دیگری قابل استفاده نیست، اما چرخه‌ها 25٪ سریع‌تر تکمیل می‌شوند. اگر کپسول به مدت 80 روز استفاده نشود، تنظیم زیستی بازنشانی می‌شود.\n\nکپسول در حین کار 200 وات برق مصرف می‌کند، اما در حالت آماده‌باش فقط 50 وات.</BiosculpterPod.description>
   <!-- EN: medic -->
-  <BiosculpterPod.comps.CompBiosculpterPod_MedicCycle.label>TODO</BiosculpterPod.comps.CompBiosculpterPod_MedicCycle.label>
+  <BiosculpterPod.comps.CompBiosculpterPod_MedicCycle.label>پزشکی</BiosculpterPod.comps.CompBiosculpterPod_MedicCycle.label>
   <!-- EN: Heal all fresh wounds, blood loss, and one random infectious disease. -->
-  <BiosculpterPod.comps.CompBiosculpterPod_MedicCycle.description>TODO</BiosculpterPod.comps.CompBiosculpterPod_MedicCycle.description>
+  <BiosculpterPod.comps.CompBiosculpterPod_MedicCycle.description>تمام زخم‌های تازه، از دست دادن خون و یک بیماری عفونی تصادفی را درمان می‌کند.</BiosculpterPod.comps.CompBiosculpterPod_MedicCycle.description>
   <!-- EN: bioregeneration -->
-  <BiosculpterPod.comps.CompBiosculpterPod_RegenerationCycle.label>TODO</BiosculpterPod.comps.CompBiosculpterPod_RegenerationCycle.label>
+  <BiosculpterPod.comps.CompBiosculpterPod_RegenerationCycle.label>بازسازی زیستی</BiosculpterPod.comps.CompBiosculpterPod_RegenerationCycle.label>
   <!-- EN: Heal all fresh wounds, heal one random permanent injury, and restore small missing body parts like fingers and toes. -->
-  <BiosculpterPod.comps.CompBiosculpterPod_RegenerationCycle.description>TODO</BiosculpterPod.comps.CompBiosculpterPod_RegenerationCycle.description>
+  <BiosculpterPod.comps.CompBiosculpterPod_RegenerationCycle.description>تمام زخم‌های تازه را درمان می‌کند، یک آسیب دائمی تصادفی را درمان می‌کند و اعضای کوچک بدن از دست رفته مانند انگشتان دست و پا را بازیابی می‌کند.</BiosculpterPod.comps.CompBiosculpterPod_RegenerationCycle.description>
   <!-- EN: age reversal -->
-  <BiosculpterPod.comps.CompBiosculpterPod_AgeReversalCycle.label>TODO</BiosculpterPod.comps.CompBiosculpterPod_AgeReversalCycle.label>
+  <BiosculpterPod.comps.CompBiosculpterPod_AgeReversalCycle.label>معکوس کردن سن</BiosculpterPod.comps.CompBiosculpterPod_AgeReversalCycle.label>
   <!-- EN: Reverse {DURATION} of aging. -->
-  <BiosculpterPod.comps.CompBiosculpterPod_AgeReversalCycle.description>TODO</BiosculpterPod.comps.CompBiosculpterPod_AgeReversalCycle.description>
+  <BiosculpterPod.comps.CompBiosculpterPod_AgeReversalCycle.description>معکوس کردن {DURATION} از پیری.</BiosculpterPod.comps.CompBiosculpterPod_AgeReversalCycle.description>
   <!-- EN: pleasure -->
-  <BiosculpterPod.comps.CompBiosculpterPod_PleasureCycle.label>TODO</BiosculpterPod.comps.CompBiosculpterPod_PleasureCycle.label>
+  <BiosculpterPod.comps.CompBiosculpterPod_PleasureCycle.label>لذت</BiosculpterPod.comps.CompBiosculpterPod_PleasureCycle.label>
   <!-- EN: Temporarily reshape the nervous system to deliver elevated levels of happiness for a time. -->
-  <BiosculpterPod.comps.CompBiosculpterPod_PleasureCycle.description>TODO</BiosculpterPod.comps.CompBiosculpterPod_PleasureCycle.description>
+  <BiosculpterPod.comps.CompBiosculpterPod_PleasureCycle.description>به طور موقت سیستم عصبی را تغییر شکل می‌دهد تا سطوح بالایی از شادی را برای مدتی ارائه دهد.</BiosculpterPod.comps.CompBiosculpterPod_PleasureCycle.description>
   
   <!-- EN: burnbong -->
-  <Burnbong.label>TODO</Burnbong.label>
+  <Burnbong.label>برن‌بانگ</Burnbong.label>
   <!-- EN: A wood structure packed with smokeleaf. It can be ignited during a ritual and produce a huge amount of smokeleaf smoke for a few hours, after which it is destroyed. -->
-  <Burnbong.description>TODO</Burnbong.description>
+  <Burnbong.description>یک سازه چوبی پر از اسموک‌لیف. می‌توان آن را در طول یک مراسم آتش زد و مقدار زیادی دود اسموک‌لیف برای چند ساعت تولید کرد، که پس از آن از بین می‌رود.</Burnbong.description>
   
   <!-- EN: cannibal platter -->
-  <CannibalPlatter.label>TODO</CannibalPlatter.label>
+  <CannibalPlatter.label>دیس آدم‌خوار</CannibalPlatter.label>
   <!-- EN: An area of floor covered with pre-chopped and arranged human meat ready for a cannibal feast. -->
-  <CannibalPlatter.description>TODO</CannibalPlatter.description>
+  <CannibalPlatter.description>منطقه‌ای از زمین پوشیده از گوشت انسان خرد شده و چیده شده آماده برای جشن آدم‌خواری.</CannibalPlatter.description>
   
   <!-- EN: christmas tree -->
-  <ChristmasTree.label>TODO</ChristmasTree.label>
+  <ChristmasTree.label>درخت کریسمس</ChristmasTree.label>
   <!-- EN: A celebratory tree decorated with ornaments and lights traditionally made as part of Christmas celebrations. -->
-  <ChristmasTree.description>TODO</ChristmasTree.description>
+  <ChristmasTree.description>یک درخت جشن تزئین شده با زیورآلات و چراغ‌ها که به طور سنتی به عنوان بخشی از جشن‌های کریسمس ساخته می‌شود.</ChristmasTree.description>
   
   <!-- EN: darktorch -->
-  <Darktorch.label>TODO</Darktorch.label>
+  <Darktorch.label>مشعل تاریک</Darktorch.label>
   <!-- EN: A specially-treated wooden torch that produces a dim light over a large area. People who prefer darklight work best with this light source. Can be automatically refueled with wood. Produces a small amount of heat. -->
-  <Darktorch.description>TODO</Darktorch.description>
+  <Darktorch.description>یک مشعل چوبی با پردازش ویژه که نور کم‌سویی را در یک منطقه بزرگ تولید می‌کند. افرادی که نور تاریک را ترجیح می‌دهند با این منبع نور بهتر کار می‌کنند. می‌تواند به طور خودکار با چوب سوخت‌گیری شود. مقدار کمی گرما تولید می‌کند.</Darktorch.description>
   
   <!-- EN: fungus darktorch -->
-  <DarktorchFungus.label>TODO</DarktorchFungus.label>
+  <DarktorchFungus.label>مشعل قارچی تاریک</DarktorchFungus.label>
   <!-- EN: A specially-treated fungus torch that produces a dim light over a large area. People who prefer darklight work best with this light source. Can be automatically refueled with raw fungus. Produces a small amount of heat. -->
-  <DarktorchFungus.description>TODO</DarktorchFungus.description>
+  <DarktorchFungus.description>یک مشعل قارچی با پردازش ویژه که نور کم‌سویی را در یک منطقه بزرگ تولید می‌کند. افرادی که نور تاریک را ترجیح می‌دهند با این منبع نور بهتر کار می‌کنند. می‌تواند به طور خودکار با قارچ خام سوخت‌گیری شود. مقدار کمی گرما تولید می‌کند.</DarktorchFungus.description>
   
   <!-- EN: effigy -->
-  <Effigy.label>TODO</Effigy.label>
+  <Effigy.label>آدمک</Effigy.label>
   <!-- EN: A rough wooden frame in the shape of a human, ready to be burned as part of a ritual. -->
-  <Effigy.description>TODO</Effigy.description>
+  <Effigy.description>یک قاب چوبی خشن به شکل انسان، آماده برای سوزاندن به عنوان بخشی از یک مراسم.</Effigy.description>
   
   <!-- EN: ideogram -->
-  <Ideogram.label>TODO</Ideogram.label>
+  <Ideogram.label>ایده‌نگار</Ideogram.label>
   <!-- EN: A large image drawn on the ground and reinforced with metal edges. It is used as a focus for rituals. -->
-  <Ideogram.description>TODO</Ideogram.description>
+  <Ideogram.description>یک تصویر بزرگ که روی زمین کشیده شده و با لبه‌های فلزی تقویت شده است. به عنوان کانون مراسم استفاده می‌شود.</Ideogram.description>
   
   <!-- EN: incense shrine -->
-  <IncenseShrine.label>TODO</IncenseShrine.label>
+  <IncenseShrine.label>زیارتگاه عود</IncenseShrine.label>
   <!-- EN: A collection of packed incense containers. It can be ignited and produce a powerful incense effect as a focus for rituals. It is destroyed after it burns down. -->
-  <IncenseShrine.description>TODO</IncenseShrine.description>
+  <IncenseShrine.description>مجموعه‌ای از ظروف عود فشرده. می‌توان آن را آتش زد و یک اثر عود قدرتمند به عنوان کانون مراسم تولید کرد. پس از سوختن از بین می‌رود.</IncenseShrine.description>
   
   <!-- EN: neural supercharger -->
-  <NeuralSupercharger.label>TODO</NeuralSupercharger.label>
+  <NeuralSupercharger.label>سوپرشارژر عصبی</NeuralSupercharger.label>
   <!-- EN: A neuron-sensitizing device that can deliver one neural supercharge each day. A person with a neural supercharge will think and learn faster, but will also consume more food. The effect wears off in one day. Neural superchargers consume a lot of electricity. -->
-  <NeuralSupercharger.description>TODO</NeuralSupercharger.description>
+  <NeuralSupercharger.description>یک دستگاه حساس‌کننده نورون که می‌تواند هر روز یک سوپرشارژ عصبی ارائه دهد. فردی با سوپرشارژ عصبی سریع‌تر فکر می‌کند و یاد می‌گیرد، اما غذای بیشتری نیز مصرف می‌کند. اثر آن در یک روز از بین می‌رود. سوپرشارژرهای عصبی برق زیادی مصرف می‌کنند.</NeuralSupercharger.description>
   <!-- EN: Get neural supercharge -->
-  <NeuralSupercharger.comps.CompNeuralSupercharger.jobString>TODO</NeuralSupercharger.comps.CompNeuralSupercharger.jobString>
+  <NeuralSupercharger.comps.CompNeuralSupercharger.jobString>دریافت سوپرشارژ عصبی</NeuralSupercharger.comps.CompNeuralSupercharger.jobString>
   
   <!-- EN: pyre -->
-  <Pyre.label>TODO</Pyre.label>
+  <Pyre.label>هیزم مراسم</Pyre.label>
   <!-- EN: A wooden tower for ritual burning. -->
-  <Pyre.description>TODO</Pyre.description>
+  <Pyre.description>یک برج چوبی برای سوزاندن آیینی.</Pyre.description>
   
   <!-- EN: ritual spot -->
-  <RitualSpot.label>TODO</RitualSpot.label>
+  <RitualSpot.label>نقطه مراسم</RitualSpot.label>
   <!-- EN: A spot for carrying out certain kinds of rituals. -->
-  <RitualSpot.description>TODO</RitualSpot.description>
+  <RitualSpot.description>نقطه‌ای برای انجام انواع خاصی از مراسم.</RitualSpot.description>
   
   <!-- EN: sacrificial flag -->
-  <SacrificialFlag.label>TODO</SacrificialFlag.label>
+  <SacrificialFlag.label>پرچم قربانی</SacrificialFlag.label>
   <!-- EN: A flag representing enemies, ready to be burned as part of a ritual. -->
-  <SacrificialFlag.description>TODO</SacrificialFlag.description>
+  <SacrificialFlag.description>پرچمی که نشان‌دهنده دشمنان است، آماده برای سوزاندن به عنوان بخشی از یک مراسم.</SacrificialFlag.description>
   
   <!-- EN: sleep accelerator -->
-  <SleepAccelerator.label>TODO</SleepAccelerator.label>
+  <SleepAccelerator.label>شتاب‌دهنده خواب</SleepAccelerator.label>
   <!-- EN: A bedside device that accelerates the sleeper's circadian rhythm. This speeds up sleep, but consumes a lot of electricity and also causes increased hunger. It must be placed directly adjacent to and facing the head of the bed. Placing more than one sleep accelerator near the same bed has no effect. -->
-  <SleepAccelerator.description>TODO</SleepAccelerator.description>
+  <SleepAccelerator.description>یک دستگاه کنار تخت که ریتم شبانه‌روزی خوابنده را تسریع می‌کند. این کار خواب را سرعت می‌بخشد، اما برق زیادی مصرف می‌کند و همچنین باعث افزایش گرسنگی می‌شود. باید مستقیماً در مجاورت و رو به سر تخت قرار گیرد. قرار دادن بیش از یک شتاب‌دهنده خواب در نزدیکی یک تخت تأثیری ندارد.</SleepAccelerator.description>
   
 </LanguageData>

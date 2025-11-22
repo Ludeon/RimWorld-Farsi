@@ -2,15 +2,15 @@
 <LanguageData>
   
   <!-- EN: slave suppression offset -->
-  <SlaveSuppressionOffset.label>TODO</SlaveSuppressionOffset.label>
+  <SlaveSuppressionOffset.label>انحراف سرکوب برده</SlaveSuppressionOffset.label>
   <!-- EN: An offset applied to the wearer's slave suppression. Higher values suppress slaves longer, while lower values make slaves rebel more often. -->
-  <SlaveSuppressionOffset.description>TODO</SlaveSuppressionOffset.description>
+  <SlaveSuppressionOffset.description>انحرافی که به سرکوب برده پوشنده اعمال می‌شود. مقادیر بالاتر بردگان را طولانی‌تر سرکوب می‌کنند، در حالی که مقادیر پایین‌تر باعث می‌شوند بردگان بیشتر شورش کنند.</SlaveSuppressionOffset.description>
   
   <!-- EN: terror -->
-  <TerrorSource.label>TODO</TerrorSource.label>
+  <TerrorSource.label>وحشت</TerrorSource.label>
   <!-- EN: The intensity of terror this object induces when viewed. -->
-  <TerrorSource.description>TODO</TerrorSource.description>
+  <TerrorSource.description>شدت وحشتی که این شیء هنگام مشاهده ایجاد می‌کند.</TerrorSource.description>
   <!-- EN: {0}% -->
-  <TerrorSource.formatString>TODO</TerrorSource.formatString>
+  <TerrorSource.formatString>{0}%</TerrorSource.formatString>
   
 </LanguageData>
