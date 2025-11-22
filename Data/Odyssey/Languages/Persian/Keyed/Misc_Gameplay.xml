@@ -102,25 +102,6 @@
   <ThrusterNotFunctional>عملکردی نیست</ThrusterNotFunctional>
   <!-- EN: not connected to grav engine -->
   <ThrusterNotConnected>به موتور گرانشی متصل نیست</ThrusterNotConnected>
-  <!-- EN: blocked by {0_label} -->
-  <ThrusterBlockedBy>توسط {0_label} مسدود شده</ThrusterBlockedBy>
-  <!-- EN: must be outside -->
-  <MustBeOutside>باید بیرون باشد</MustBeOutside>
-  <!-- EN: blocked by substructure -->
-  <BlockedBySubstructure>توسط زیرساخت مسدود شده</BlockedBySubstructure>
-  <!-- EN: {PAWN_nameDef} cannot board {1} -->
-  <FailedToBoardGravship>TODO</FailedToBoardGravship>
-  <!-- EN: {PAWN_nameDef} cannot exit {1} -->
-  <FailedToLeaveGravship>TODO</FailedToLeaveGravship>
-  <!-- EN: View range -->
-  <ViewRange>TODO</ViewRange>
-  <!-- EN: View the gravship’s current range on the world map. -->
-  <ViewRangeDesc>TODO</ViewRangeDesc>
-
-  <!-- Map generation -->
-  <!-- EN: Landmark -->
-  <Landmark>نقطه دیدنی</Landmark>
-  <!-- EN: {ANIMALKIND_label} habitat -->
   <AnimalHabitat>زیستگاه {ANIMALKIND_label}</AnimalHabitat>
   <!-- EN: {0} grove -->
   <PlantGrove>بوستان {0}</PlantGrove>

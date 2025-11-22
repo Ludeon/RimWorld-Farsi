@@ -2,155 +2,155 @@
 <LanguageData>
   
   <!-- EN: beckon -->
-  <Beckon.label>TODO</Beckon.label>
+  <Beckon.label>فراخوان</Beckon.label>
   <!-- EN: Psychically command the target to approach the caster. -->
-  <Beckon.description>TODO</Beckon.description>
+  <Beckon.description>به هدف فرمان می‌دهد که به سمت جادوگر بیاید.</Beckon.description>
   
   <!-- EN: berserk -->
-  <Berserk.label>TODO</Berserk.label>
+  <Berserk.label>خشم‌ورزی</Berserk.label>
   <!-- EN: Induce an angry psychosis in the target's mind, causing them to attack anyone nearby. -->
-  <Berserk.description>TODO</Berserk.description>
+  <Berserk.description>یک پریشانی روانی خشم‌انگیز در ذهن هدف ایجاد می‌کند که باعث می‌شود به هر کسی نزدیک حمله کند.</Berserk.description>
   
   <!-- EN: berserk pulse -->
-  <BerserkPulse.label>TODO</BerserkPulse.label>
+  <BerserkPulse.label>پالس خشم‌ورزی</BerserkPulse.label>
   <!-- EN: Generate an overwhelming rush of undirected rage in everyone near the target point. -->
-  <BerserkPulse.description>TODO</BerserkPulse.description>
+  <BerserkPulse.description>یک موج خشم بی‌هدف در اطراف نقطه هدف ایجاد می‌کند.</BerserkPulse.description>
   
   <!-- EN: blinding pulse -->
-  <BlindingPulse.label>TODO</BlindingPulse.label>
+  <BlindingPulse.label>پالس کورکن</BlindingPulse.label>
   <!-- EN: Induce noise in the visual centers of the brain, obscuring vision of everyone near the target point. -->
-  <BlindingPulse.description>TODO</BlindingPulse.description>
+  <BlindingPulse.description>اختلالی در مراکز بصری مغز ایجاد می‌کند که دید همه نزدیک به نقطه هدف را تار می‌کند.</BlindingPulse.description>
   
   <!-- EN: skipshield -->
-  <BulletShield.label>TODO</BulletShield.label>
+  <BulletShield.label>سپر پرتابی</BulletShield.label>
   <!-- EN: Generate a spherical skipgate that sends all incoming and outgoing ground-level projectiles to some distant place. The process is forceful enough to detonate explosive projectiles. People and items are not affected. -->
-  <BulletShield.description>TODO</BulletShield.description>
+  <BulletShield.description>یک دروازه اسکیپ‌گیت ایجاد می‌کند که تمام پرتاب‌های سطح زمین را به مکان دوری می‌فرستد؛ افراد و اشیاء تحت تأثیر نیستند.</BulletShield.description>
   
   <!-- EN: burden -->
-  <Burden.label>TODO</Burden.label>
+  <Burden.label>بار</Burden.label>
   <!-- EN: Slow the target for a short time by suppressing motor activity in the brain. -->
-  <Burden.description>TODO</Burden.description>
+  <Burden.description>سرعت هدف را به‌مدت کوتاهی با سرکوب فعالیت‌های حرکتی مغز کاهش می‌دهد.</Burden.description>
   
   <!-- EN: chaos skip -->
-  <ChaosSkip.label>TODO</ChaosSkip.label>
+  <ChaosSkip.label>پرش آشوب</ChaosSkip.label>
   <!-- EN: Teleport the target to a random position near where it started. Objects above a certain size cannot be teleported. -->
-  <ChaosSkip.description>TODO</ChaosSkip.description>
+  <ChaosSkip.description>هدف را به موقعیت تصادفی نزدیک به نقطه شروعش تلپورت می‌کند؛ اشیاء بزرگتر نمی‌توانند تلپورت شوند.</ChaosSkip.description>
   
   <!-- EN: chunk skip -->
-  <Chunkskip.label>TODO</Chunkskip.label>
+  <Chunkskip.label>پرش بلوک</Chunkskip.label>
   <!-- EN: Skip the closest 5 chunks of rock or slag to scatter them near the target point. This is useful for producing cover during offensive operations. -->
-  <Chunkskip.description>TODO</Chunkskip.description>
+  <Chunkskip.description>۵ بلوک نزدیک‌ترین سنگ یا خاک را به اطراف نقطه هدف می‌پراکند تا پوشش ایجاد کند.</Chunkskip.description>
   
   <!-- EN: neural heat dump -->
-  <EntropyDump.label>TODO</EntropyDump.label>
+  <EntropyDump.label>دست‌برداری حرارت عصبی</EntropyDump.label>
   <!-- EN: Instantly dump all your neural heat into someone else. As a side-effect, the target will fall into a debilitating but non-damaging coma for about a day. The target must actively accept the psychic invasion, so only conscious allies can be targeted. -->
-  <EntropyDump.description>TODO</EntropyDump.description>
+  <EntropyDump.description>تمام حرارت عصبی خود را به هدف دیگر می‌ریزید؛ هدف به‌مدت یک روز در کما می‌ماند.</EntropyDump.description>
   
   <!-- EN: farskip -->
-  <Farskip.label>TODO</Farskip.label>
+  <Farskip.label>پرش دور</Farskip.label>
   <!-- EN: Skip the caster, along with anyone standing near them, to an ally at a distant location. This can send people far across the planet, but only works if there is a willing ally on the other side to use as a navigation beacon. The skipped people will always appear near a random ally on the target map. -->
-  <Farskip.description>TODO</Farskip.description>
+  <Farskip.description>جادوگر و اطرافیانش را به متحد دوردست می‌فرستد؛ بازگشت نزدیک به یک متحد تصادفی در نقشه هدف.</Farskip.description>
   
   <!-- EN: flashstorm -->
-  <Flashstorm.label>TODO</Flashstorm.label>
+  <Flashstorm.label>طوفان نورانی</Flashstorm.label>
   <!-- EN: Use differential-pressure skipgates in the atmosphere to generate a localized flashstorm. The storm will strike the area with lightning for some time before dissipating. -->
-  <Flashstorm.description>TODO</Flashstorm.description>
+  <Flashstorm.description>دروازه‌های فشار‑تفاوتی در جو ایجاد می‌کند که طوفان نوری را برای مدتی می‌فرستد.</Flashstorm.description>
   
   <!-- EN: focus -->
-  <Focus.label>TODO</Focus.label>
+  <Focus.label>تمرکز</Focus.label>
   <!-- EN: Psychically focus the target's mind, boosting their sight, hearing and moving capacities. -->
-  <Focus.description>TODO</Focus.description>
+  <Focus.description>ذهن هدف را به‌صورت ذهنی متمرکز می‌کند؛ دید، شنوایی و حرکت او را تقویت می‌کند.</Focus.description>
   
   <!-- EN: invisibility -->
-  <Invisibility.label>TODO</Invisibility.label>
+  <Invisibility.label>نامرئی‌سازی</Invisibility.label>
   <!-- EN: Psychically manipulate the visual centers of everyone nearby, rendering them unable to perceive a particular individual for a short time. -->
-  <Invisibility.description>TODO</Invisibility.description>
+  <Invisibility.description>مرکزهای بصری همه نزدیک را دستکاری می‌کند تا فرد خاصی را برای مدت کوتاهی نادیده بگیرد.</Invisibility.description>
   
   <!-- EN: manhunter pulse -->
-  <ManhunterPulse.label>TODO</ManhunterPulse.label>
+  <ManhunterPulse.label>پالس شکارچی</ManhunterPulse.label>
   <!-- EN: Drive nearby animals into a manhunting rage using a psychic pulse. -->
-  <ManhunterPulse.description>TODO</ManhunterPulse.description>
+  <ManhunterPulse.description>حیوانات نزدیک را به خشم شکارچی تبدیل می‌کند.</ManhunterPulse.description>
   
   <!-- EN: mass chaos skip -->
-  <MassChaosSkip.label>TODO</MassChaosSkip.label>
+  <MassChaosSkip.label>پرش آشوب جمعی</MassChaosSkip.label>
   <!-- EN: Skip everyone in an area to random positions nearby. Objects which are too large cannot be teleported. -->
-  <MassChaosSkip.description>TODO</MassChaosSkip.description>
+  <MassChaosSkip.description>همه افراد در ناحیه را به موقعیت‌های تصادفی نزدیک می‌پرت.</MassChaosSkip.description>
   
   <!-- EN: neuroquake -->
-  <Neuroquake.label>TODO</Neuroquake.label>
+  <Neuroquake.label>زلزله عصبی</Neuroquake.label>
   <!-- EN: Find a discontinuity in the psychic field and unfold it, releasing a massive amount of psychic energy. Every creature in range but outside of the safe, inner, circle will be driven violently insane. Casting this takes 12 seconds of meditation, and afterwards, the caster will go into a five-day psychic coma. The disturbing neuroquake echoes will inflict pain on everyone for many kilometers around, causing diplomatic consequences with all factions. -->
-  <Neuroquake.description>TODO</Neuroquake.description>
+  <Neuroquake.description>یک ناپیوستگی در میدان روانی ایجاد می‌کند که انرژی عظیم روانی آزاد می‌کند؛ همه خارج از دایره امن دیوانه می‌شوند. بعد از کست ۱۲ ثانیه، جمجمهٔ روانی ۵ روز.</Neuroquake.description>
   <!-- EN: If you use neuroquake, everyone in this region will feel the neuroquake echo, you will lose goodwill with every non-hostile faction.\n\nNeuroquake takes 12 seconds to cast, and cannot be interrupted. When complete, the caster will fall into a psychic coma for 5 days.\n\nEveryone in range except those in a small circle around the caster will be affected.\n\nDo you really want to cast neuroquake? -->
-  <Neuroquake.confirmationDialogText>TODO</Neuroquake.confirmationDialogText>
+  <Neuroquake.confirmationDialogText>آیا مطمئنید که می‌خواهید زلزله عصبی را اجرا کنید؟ این کار تمام روابط مثبت با فکش‌های غیر‌دشمن را کاهش می‌دهد و ۵ روز کما روانی برای شما به‌هم می‌انجامد.</Neuroquake.confirmationDialogText>
   
   <!-- EN: painblock -->
-  <Painblock.label>TODO</Painblock.label>
+  <Painblock.label>مسدودکننده درد</Painblock.label>
   <!-- EN: Block pain pathways in the target's brain for a short time. This can allow a person to move and act even with grievous injuries which would normally incapacitate them. -->
-  <Painblock.description>TODO</Painblock.description>
+  <Painblock.description>مسیرهای درد در مغز هدف را برای مدت کوتاهی مسدود می‌کند؛ امکان حرکت با جراحات جدی.</Painblock.description>
   
   <!-- EN: skip -->
-  <Skip.label>TODO</Skip.label>
+  <Skip.label>پرش</Skip.label>
   <!-- EN: Teleport the target to a desired position not too far from its starting point. Objects which are too large cannot be teleported. -->
-  <Skip.description>TODO</Skip.description>
+  <Skip.description>هدف را به موقعیت دلخواه نزدیک به نقطه شروع تلپورت می‌کند؛ اشیاء بزرگ نمی‌توانند.</Skip.description>
   
   <!-- EN: smokepop -->
-  <Smokepop.label>TODO</Smokepop.label>
+  <Smokepop.label>دودکوب</Smokepop.label>
   <!-- EN: Skip dust particles up from under the ground surface to form a thick cloud. This reduces the accuracy of any shot fired through it, and prevents turrets from locking on entirely. -->
-  <Smokepop.description>TODO</Smokepop.description>
+  <Smokepop.description>ذرات گرد و غبار را از زیر سطح به بالا می‌برد تا ابر غلیظی ایجاد کند که دقت شلیک را کاهش می‌دهد و توپخانه‌ها را از هدف‌گیری باز می‌دارد.</Smokepop.description>
   
   <!-- EN: solar pinhole -->
-  <SolarPinhole.label>TODO</SolarPinhole.label>
+  <SolarPinhole.label>سوراخ خورشیدی</SolarPinhole.label>
   <!-- EN: Generate a microscopic skipgate linked to the core of a nearby star. Solar material leaks through the pinprick in spacetime, illuminating and warming the surrounding area until it closes. The light is enough to work by, but not enough to grow plants. -->
-  <SolarPinhole.description>TODO</SolarPinhole.description>
+  <SolarPinhole.description>دروازه میکروسکوپی به هستهٔ ستارهٔ نزدیک ایجاد می‌کند؛ نور کافی برای روشنایی اما نه برای رشد گیاهان.</SolarPinhole.description>
   
   <!-- EN: throne speech -->
-  <Speech.label>TODO</Speech.label>
+  <Speech.label>سخنرانی</Speech.label>
   <!-- EN: Initiate a speech from the throne. All colonists will come and listen. If it goes well, listeners will feel inspired, and gain respect for the speaker. If it goes poorly, the speech will do social damage. The outcome depends on the speaker's social abilities. -->
-  <Speech.description>TODO</Speech.description>
+  <Speech.description>سخنرانی از تخت؛ تمام مستعمره‌نشینان می‌آیند و گوش می‌دهند؛ موفقیت به توانایی‌های اجتماعی سخنران بستگی دارد.</Speech.description>
   
   <!-- EN: stun -->
-  <Stun.label>TODO</Stun.label>
+  <Stun.label>غیرفعال‌سازی</Stun.label>
   <!-- EN: Momentarily disrupt motor function in the target's brain, preventing any movement. -->
-  <Stun.description>TODO</Stun.description>
+  <Stun.description>به‌موقعی عملکرد حرکتی مغز هدف را مختل می‌کند؛ حرکت را متوقف می‌کند.</Stun.description>
   
   <!-- EN: vertigo pulse -->
-  <VertigoPulse.label>TODO</VertigoPulse.label>
+  <VertigoPulse.label>پالس سرگیجه</VertigoPulse.label>
   <!-- EN: Interfere with the spatial orientation sense of everyone near the target point, causing intermittent loss of balance. Flesh creatures will become extremely nauseous as well. -->
-  <VertigoPulse.description>TODO</VertigoPulse.description>
+  <VertigoPulse.description>حس تعادل فضایی همه نزدیک را مختل می‌کند؛ موجودات گوشتین به شدت تهوع می‌گیرند.</VertigoPulse.description>
   
   <!-- EN: wallraise -->
-  <Wallraise.label>TODO</Wallraise.label>
+  <Wallraise.label>ساخت دیوار</Wallraise.label>
   <!-- EN: Form a temporary wall by skipping rubble and soil up from deep under the ground. -->
-  <Wallraise.description>TODO</Wallraise.description>
+  <Wallraise.description>دیوار موقت با پرش خاک و سنگ از عمق زیر زمین می‌سازد.</Wallraise.description>
   
   <!-- EN: waterskip -->
-  <Waterskip.label>TODO</Waterskip.label>
+  <Waterskip.label>پرش آب</Waterskip.label>
   <!-- EN: Douse a target area in water, extinguishing fires. The water is archotechnologically skipped from distant bodies of water or underground aquifers. -->
-  <Waterskip.description>TODO</Waterskip.description>
+  <Waterskip.description>منطقه هدف را با آب پوشانده و آتش‌ها را خاموش می‌کند؛ آب از منابع دور یا آبخوان‌های زیرزمینی اسکیپ می‌شود.</Waterskip.description>
   
   <!-- EN: word of inspiration -->
-  <WordOfInspiration.label>TODO</WordOfInspiration.label>
+  <WordOfInspiration.label>کلام الهام</WordOfInspiration.label>
   <!-- EN: Speak words encouraging creativity while psychically hypercharging the target's mind with new ideas. The target will experience a random inspiration appropriate to them. -->
-  <WordOfInspiration.description>TODO</WordOfInspiration.description>
+  <WordOfInspiration.description>کلمات تشویقی که ذهن هدف را به‌صورت ذهنی با ایده‌های جدید شارژ می‌کند؛ الهام تصادفی ایجاد می‌کند.</WordOfInspiration.description>
   
   <!-- EN: word of joy -->
-  <WordOfJoy.label>TODO</WordOfJoy.label>
+  <WordOfJoy.label>کلام شادی</WordOfJoy.label>
   <!-- EN: Speak happy, calming words to someone while using psychic suggestion to implant a joyfuzz loop in their mind. The joyfuzz will suppress uncomfortable thoughts and sensations in the target to improve mood. This has the side-effect of dulling sensation and decision-making, which reduces consciousness. -->
-  <WordOfJoy.description>TODO</WordOfJoy.description>
+  <WordOfJoy.description>کلمات خوشایند که حلقهٔ خوشی را در ذهن هدف می‌کارد؛ اضطراب را کاهش می‌دهد اما حس شنوایی و تصمیم‌گیری را کمی کُند می‌کند.</WordOfJoy.description>
   
   <!-- EN: word of love -->
-  <WordOfLove.label>TODO</WordOfLove.label>
+  <WordOfLove.label>کلام عشق</WordOfLove.label>
   <!-- EN: Speak about someone's romantic virtues while using psychic suggestion to implant romantic desire in the listener. For days afterward, the listener will feel psychically-induced romantic attraction towards the other person. This greatly increases opinion and makes them much more likely to attempt romantic advances and marriage proposals if they get the chance. This power can be used to connect two other people, induce love for the caster, or force oneself to love another. -->
-  <WordOfLove.description>TODO</WordOfLove.description>
+  <WordOfLove.description>کلمات دربارهٔ فضیلت‌های رمانتیک؛ عشق روانی به شخص دیگر القا می‌کند؛ نظرات را بالا می‌برد و احتمال ازدواج را افزایش می‌دهد.</WordOfLove.description>
   
   <!-- EN: word of serenity -->
-  <WordOfSerenity.label>TODO</WordOfSerenity.label>
+  <WordOfSerenity.label>کلام آرامش</WordOfSerenity.label>
   <!-- EN: Use calming words and psychic suggestion to end a mental break on a person. The target will fall into a short psychic sleep. The psyfocus cost depends on the intensity of the target's mental break. -->
-  <WordOfSerenity.description>TODO</WordOfSerenity.description>
+  <WordOfSerenity.description>کلمات آرام‌بخش که شکست ذهنی را پایان می‌دهد؛ هدف به‌مدت کوتاهی به خواب روانی می‌رود؛ هزینهٔ روانی به شدت شکستن بستگی دارد.</WordOfSerenity.description>
   
   <!-- EN: word of trust -->
-  <WordOfTrust.label>TODO</WordOfTrust.label>
+  <WordOfTrust.label>کلام اعتماد</WordOfTrust.label>
   <!-- EN: Speak to the prisoner while using psychic suggestion to reduce their resistance to recruitment. This can only reduce a prisoner's resistance, but cannot recruit them. -->
-  <WordOfTrust.description>TODO</WordOfTrust.description>
+  <WordOfTrust.description>به زندانی می‌گوید تا مقاومتش در برابر جذب کاهش یابد؛ فقط مقاومت را کم می‌کند، جذب نمی‌کند.</WordOfTrust.description>
   
 </LanguageData>

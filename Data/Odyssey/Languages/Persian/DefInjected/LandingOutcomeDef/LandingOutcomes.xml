@@ -2,23 +2,23 @@
 <LanguageData>
   
   <!-- EN: grav nausea -->
-  <GravNausea.letterLabel>TODO</GravNausea.letterLabel>
+  <GravNausea.letterLabel>حالت تهوع گرانشی</GravNausea.letterLabel>
   <!-- EN: While landing {GRAVSHIP}, {PILOT_nameDef} was forced to do an emergency maneuver, resulting in an intense and prolonged deceleration. The experience has left your colonists feeling extremely nauseous. The effects will quickly fade. -->
-  <GravNausea.letterText>TODO</GravNausea.letterText>
+  <GravNausea.letterText>هنگام فرود {GRAVSHIP}، {PILOT_nameDef} مجبور به انجام یک مانور اضطراری شد که منجر به کاهش سرعت شدید و طولانی شد. این تجربه مهاجران شما را با احساس تهوع شدید رها کرده است. اثرات به سرعت محو خواهند شد.</GravNausea.letterText>
   
   <!-- EN: minor gravship crash -->
-  <MinorGravshipCrash.letterLabel>TODO</MinorGravshipCrash.letterLabel>
+  <MinorGravshipCrash.letterLabel>سقوط جزئی کشتی گرانشی</MinorGravshipCrash.letterLabel>
   <!-- EN: While landing {GRAVSHIP}, {PILOT_nameDef} accidentally disengaged the grav engine too early, causing the gravship to free-fall for several feet. Some buildings on the gravship have sustained light damage from the crash. -->
-  <MinorGravshipCrash.letterText>TODO</MinorGravshipCrash.letterText>
+  <MinorGravshipCrash.letterText>هنگام فرود {GRAVSHIP}، {PILOT_nameDef} به طور تصادفی موتور گرانشی را خیلی زود قطع کرد و باعث شد کشتی گرانشی برای چند فوت سقوط آزاد کند. برخی ساختمان‌های روی کشتی گرانشی از سقوط آسیب سبک دیده‌اند.</MinorGravshipCrash.letterText>
   
   <!-- EN: overheated grav engine -->
-  <OverheatedGravEngine.letterLabel>TODO</OverheatedGravEngine.letterLabel>
+  <OverheatedGravEngine.letterLabel>موتور گرانشی بیش از حد گرم شده</OverheatedGravEngine.letterLabel>
   <!-- EN: While landing {GRAVSHIP}, {PILOT_nameDef} over-engaged the grav engine, causing it to overheat. The grav engine will take longer than normal to cool down. In the meantime, the gravship can't be launched. -->
-  <OverheatedGravEngine.letterText>TODO</OverheatedGravEngine.letterText>
+  <OverheatedGravEngine.letterText>هنگام فرود {GRAVSHIP}، {PILOT_nameDef} موتور گرانشی را بیش از حد درگیر کرد و باعث گرم شدن بیش از حد آن شد. موتور گرانشی بیشتر از حد معمول طول می‌کشد تا خنک شود. در این بین، کشتی گرانشی نمی‌تواند پرتاب شود.</OverheatedGravEngine.letterText>
   
   <!-- EN: thruster breakdown -->
-  <ThrusterBreakdown.letterLabel>TODO</ThrusterBreakdown.letterLabel>
+  <ThrusterBreakdown.letterLabel>خرابی پیشرانه</ThrusterBreakdown.letterLabel>
   <!-- EN: While landing {GRAVSHIP}, {PILOT_nameDef} overheated the ship's thrusters, frying valuable components. The thrusters will need to be repaired before they can be used again. -->
-  <ThrusterBreakdown.letterText>TODO</ThrusterBreakdown.letterText>
+  <ThrusterBreakdown.letterText>هنگام فرود {GRAVSHIP}، {PILOT_nameDef} پیشرانه‌های کشتی را بیش از حد گرم کرد و اجزای ارزشمند را سوزاند. پیشرانه‌ها باید قبل از استفاده مجدد تعمیر شوند.</ThrusterBreakdown.letterText>
   
 </LanguageData>

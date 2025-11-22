@@ -99,20 +99,6 @@
   <!-- EN: {ORGANIZER_labelShort}'s {1} stat -->
   <AbilitySpeechStatInfo>آمار {1} {ORGANIZER_labelShort}</AbilitySpeechStatInfo>
   <!-- EN: Dignified throne -->
-  <AbilitySpeechTargetDescThrone>تخت سلطنت باوقار</AbilitySpeechTargetDescThrone>
-  
-  <!-- EN: no accessible altar. -->
-  <RitualDisabledNoAltar>محراب قابل دسترسی وجود ندارد.</RitualDisabledNoAltar>
-  <!-- EN: Bestowing Ceremony -->
-  <RitualBestowingCeremony>مراسم اعطا</RitualBestowingCeremony>
-  <!-- EN: No suitable location near bestower -->
-  <BestowingSpotUnavailable>TODO</BestowingSpotUnavailable>
-
-  <!-- EN: Total meditation today: {0} (progress multiplier {1}) -->
-  <TotalMeditationToday>کل مدیتیشن امروز: {0} (ضریب پیشرفت {1})</TotalMeditationToday>
-  <!-- EN: progress {0} -->
-  <ProgressToNextSubplant>پیشرفت {0}</ProgressToNextSubplant>
-  <!-- EN: Begin linking ritual -->
   <BeginLinkingRitualFloatMenu>شروع مراسم پیوند</BeginLinkingRitualFloatMenu>
   <!-- EN: Need {0} {1} here (have {2}) -->
   <BeginLinkingRitualNeedSubplants>نیاز به {0} {1} در اینجا (دارید {2})</BeginLinkingRitualNeedSubplants>
