@@ -17,6 +17,21 @@
     <li>ritNoun->gashing</li>
     <li>ritNoun->rend</li>
   -->
-  <NamerRitualMutilation.rulePack.rulesStrings>TODO</NamerRitualMutilation.rulePack.rulesStrings>
+  <NamerRitualMutilation.rulePack.rulesStrings>
+    <li>r_ritualName->[ritNoun] [keyDeity]</li>
+    <li>r_ritualName->[ritNoun] [chosenTheme]</li>
+    <li>r_ritualName->[ritNoun] [memeConcept]</li>
+    <li>r_ritualName->[ritNoun] [memeAdjective]</li>
+    <li>ritNoun->مثله کردن</li>
+    <li>ritNoun->برش</li>
+    <li>ritNoun->تکه تکه کردن</li>
+    <li>ritNoun->پوست کندن</li>
+    <li>ritNoun->تیغه دریدن</li>
+    <li>ritNoun->دریدن</li>
+    <li>ritNoun->له کردن</li>
+    <li>ritNoun->حکاکی گوشت</li>
+    <li>ritNoun->شکافتن</li>
+    <li>ritNoun->پاره کردن</li>
+  </NamerRitualMutilation.rulePack.rulesStrings>
   
 </LanguageData>

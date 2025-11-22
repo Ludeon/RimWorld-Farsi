@@ -17,6 +17,21 @@
     <li>funeral->interment</li>
     <li>funeral->requiem</li>
   -->
-  <NamerRitualFuneral.rulePack.rulesStrings>TODO</NamerRitualFuneral.rulePack.rulesStrings>
+  <NamerRitualFuneral.rulePack.rulesStrings>
+    <li>r_ritualName(p=2)->[funeral] [memeAdjective]</li>
+    <li>r_ritualName->[funeral] [chosenTheme]</li>
+    <li>r_ritualName->[funeral] [chosenAdjective]</li>
+    <li>r_ritualName->[funeral] [keyDeity]</li>
+    <li>r_ritualName->[funeral] [keyDeity]</li>
+    <li>r_ritualName->[funeral] [memeConcept]</li>
+    <li>r_ritualName->[funeral] [chosenIdeoName]</li>
+    <li>r_ritualName(p=0.01)->تشییع جنازه</li>
+    <li>funeral->تشییع جنازه</li>
+    <li>funeral->سوگواری</li>
+    <li>funeral->مدیحه‌سرایی</li>
+    <li>funeral->تدفین</li>
+    <li>funeral->خاکسپاری</li>
+    <li>funeral->مرثیه</li>
+  </NamerRitualFuneral.rulePack.rulesStrings>
   
 </LanguageData>

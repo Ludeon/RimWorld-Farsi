@@ -10,6 +10,14 @@
     <li>god->Creator</li>
     <li>god->Master</li>
   -->
-  <DeityTypeMakerGlobal.rulePack.rulesStrings>TODO</DeityTypeMakerGlobal.rulePack.rulesStrings>
+  <DeityTypeMakerGlobal.rulePack.rulesStrings>
+    <li>r_deityType->[god] [memeConcept]</li>
+    <li>god(p=7, gender!=Female)->خدای</li>
+    <li>god(p=7, gender==Female)->الهه</li>
+    <li>god(p=4)->[memeGod]</li>
+    <li>god(p=3)->روح</li>
+    <li>god->خالق</li>
+    <li>god->ارباب</li>
+  </DeityTypeMakerGlobal.rulePack.rulesStrings>
   
 </LanguageData>

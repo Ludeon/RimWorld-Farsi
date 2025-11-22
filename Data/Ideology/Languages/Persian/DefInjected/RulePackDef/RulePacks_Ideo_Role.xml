@@ -15,7 +15,20 @@
     <li>secondPart(p=4)->kin</li>
     <li>secondPart(p=4)->touch</li>
   -->
-  <NamerRoleAnimalsSpecialist.rulePack.rulesStrings>TODO</NamerRoleAnimalsSpecialist.rulePack.rulesStrings>
+  <NamerRoleAnimalsSpecialist.rulePack.rulesStrings>
+    <li>r_roleName->جانورگر</li>
+    <li>r_roleName->حیوان‌بان</li>
+    <li>firstPart->خز</li>
+    <li>firstPart->پنجه</li>
+    <li>firstPart->سم</li>
+    <li>firstPart->دم</li>
+    <li>firstPart->سبیل</li>
+    <li>firstPart->نیش</li>
+    <li>firstPart->وحشی</li>
+    <li>firstPart->پوزه</li>
+    <li>secondPart(p=4)->زاده</li>
+    <li>secondPart(p=4)->لمس</li>
+  </NamerRoleAnimalsSpecialist.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_roleName->berserker</li>
@@ -33,7 +46,22 @@
     <li>firstPart->smash</li>
     <li>firstPart->crush</li>
   -->
-  <NamerRoleBrawler.rulePack.rulesStrings>TODO</NamerRoleBrawler.rulePack.rulesStrings>
+  <NamerRoleBrawler.rulePack.rulesStrings>
+    <li>r_roleName->برزرکر</li>
+    <li>firstPart->برش</li>
+    <li>firstPart->مشت</li>
+    <li>firstPart->کبودی</li>
+    <li>firstPart->تیغه</li>
+    <li>firstPart->نزاع</li>
+    <li>firstPart->مفصل</li>
+    <li>firstPart->نیزه</li>
+    <li>firstPart->شمشیر</li>
+    <li>firstPart->چماق</li>
+    <li>firstPart->لبه</li>
+    <li>firstPart->قطع</li>
+    <li>firstPart->کوبش</li>
+    <li>firstPart->خرد</li>
+  </NamerRoleBrawler.rulePack.rulesStrings>
   
   <!-- EN:
     <li>firstPart->health</li>
@@ -45,7 +73,16 @@
     <li>firstPart->surgo</li>
     <li>firstPart->clinic</li>
   -->
-  <NamerRoleMedicalSpecialist.rulePack.rulesStrings>TODO</NamerRoleMedicalSpecialist.rulePack.rulesStrings>
+  <NamerRoleMedicalSpecialist.rulePack.rulesStrings>
+    <li>firstPart->سلامت</li>
+    <li>firstPart->درمان</li>
+    <li>firstPart->قلب</li>
+    <li>firstPart->مدیک</li>
+    <li>firstPart->تیغ</li>
+    <li>firstPart->بهداشت</li>
+    <li>firstPart->جراح</li>
+    <li>firstPart->بالین</li>
+  </NamerRoleMedicalSpecialist.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_roleName->spelunker</li>
@@ -63,7 +100,22 @@
     <li>firstPart->tunnel</li>
     <li>firstPart->crack</li>
   -->
-  <NamerRoleMiner.rulePack.rulesStrings>TODO</NamerRoleMiner.rulePack.rulesStrings>
+  <NamerRoleMiner.rulePack.rulesStrings>
+    <li>r_roleName->غارنورد</li>
+    <li>firstPart->معدن</li>
+    <li>firstPart->عمیق</li>
+    <li>firstPart->عمق</li>
+    <li>firstPart->سنگ</li>
+    <li>firstPart->غار</li>
+    <li>firstPart->کلنگ</li>
+    <li>firstPart->مته</li>
+    <li>firstPart->زیر</li>
+    <li>firstPart->سنگ</li>
+    <li>firstPart->تپه</li>
+    <li>firstPart->حفره</li>
+    <li>firstPart->تونل</li>
+    <li>firstPart->شکاف</li>
+  </NamerRoleMiner.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_roleName(p=4)->[memeMoralist]</li>
@@ -75,7 +127,16 @@
     <li>r_roleName->[chosenAdjective] [memeMoralist]</li>
     <li>r_roleName->[keyDeity]'s [memeMoralist]</li>
   -->
-  <NamerRoleMoralist.rulePack.rulesStrings>TODO</NamerRoleMoralist.rulePack.rulesStrings>
+  <NamerRoleMoralist.rulePack.rulesStrings>
+    <li>r_roleName(p=4)->[memeMoralist]</li>
+    <li>r_roleName(p=2)->[memeMoralist] [memeAdjective]</li>
+    <li>r_roleName->[memeMoralist] [chosenTheme]</li>
+    <li>r_roleName->[memeMoralist] [keyDeity]</li>
+    <li>r_roleName->[memeMoralist] [memeConcept]</li>
+    <li>r_roleName->[memeMoralist] [chosenIdeoName]</li>
+    <li>r_roleName->[memeMoralist] [chosenAdjective]</li>
+    <li>r_roleName->[memeMoralist] [keyDeity]</li>
+  </NamerRoleMoralist.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_roleName->manufactor</li>
@@ -87,7 +148,16 @@
     <li>firstPart->manu</li>
     <li>firstPart->make</li>
   -->
-  <NamerRoleProductionSpecialist.rulePack.rulesStrings>TODO</NamerRoleProductionSpecialist.rulePack.rulesStrings>
+  <NamerRoleProductionSpecialist.rulePack.rulesStrings>
+    <li>r_roleName->تولیدگر</li>
+    <li>r_roleName->دست‌آچار</li>
+    <li>r_roleName->سازنده</li>
+    <li>firstPart->ساخت</li>
+    <li>firstPart->صنعت</li>
+    <li>firstPart->ساخت</li>
+    <li>firstPart->دست</li>
+    <li>firstPart->ساخت</li>
+  </NamerRoleProductionSpecialist.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_roleName->highmind</li>
@@ -101,7 +171,18 @@
     <li>firstPart->cogito</li>
     <li>firstPart->idea</li>
   -->
-  <NamerRoleResearcher.rulePack.rulesStrings>TODO</NamerRoleResearcher.rulePack.rulesStrings>
+  <NamerRoleResearcher.rulePack.rulesStrings>
+    <li>r_roleName->ذهن برتر</li>
+    <li>r_roleName->متفکر</li>
+    <li>r_roleName->اندیشمند</li>
+    <li>r_roleName->آموزنده</li>
+    <li>firstPart->ذهن</li>
+    <li>firstPart->فکر</li>
+    <li>firstPart->تمرکز</li>
+    <li>firstPart->عصب</li>
+    <li>firstPart->کوگیتو</li>
+    <li>firstPart->ایده</li>
+  </NamerRoleResearcher.rulePack.rulesStrings>
   
   <!-- EN:
     <li>firstPart->gun</li>
@@ -115,7 +196,18 @@
     <li>firstPart->shoot</li>
     <li>secondPart(p=4)->slinger</li>
   -->
-  <NamerRoleShooter.rulePack.rulesStrings>TODO</NamerRoleShooter.rulePack.rulesStrings>
+  <NamerRoleShooter.rulePack.rulesStrings>
+    <li>firstPart->تفنگ</li>
+    <li>firstPart->شلیک</li>
+    <li>firstPart->ماشه</li>
+    <li>firstPart->گلوله</li>
+    <li>firstPart->پوکه</li>
+    <li>firstPart->هدف</li>
+    <li>firstPart->تک‌تیر</li>
+    <li>firstPart->نقطه</li>
+    <li>firstPart->تیر</li>
+    <li>secondPart(p=4)->انداز</li>
+  </NamerRoleShooter.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_roleName->fertilizer</li>
@@ -134,7 +226,23 @@
     <li>firstPart->soil</li>
     <li>firstPart->root</li>
   -->
-  <NamerRoleSower.rulePack.rulesStrings>TODO</NamerRoleSower.rulePack.rulesStrings>
+  <NamerRoleSower.rulePack.rulesStrings>
+    <li>r_roleName->کودده</li>
+    <li>firstPart->برگ</li>
+    <li>firstPart->گیاه</li>
+    <li>firstPart->سبز</li>
+    <li>firstPart->جوانه</li>
+    <li>firstPart->باغ</li>
+    <li>firstPart->فلورا</li>
+    <li>firstPart->علف</li>
+    <li>firstPart->محصول</li>
+    <li>firstPart->مزرعه</li>
+    <li>firstPart->زمین</li>
+    <li>firstPart->خاک</li>
+    <li>firstPart->دانه</li>
+    <li>firstPart->خاک</li>
+    <li>firstPart->ریشه</li>
+  </NamerRoleSower.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_roleName(p=7)->[firstPart][secondPart]</li>
@@ -163,6 +271,32 @@
     <li>secondPart->izer</li>
     <li>secondPart->iner</li>
   -->
-  <NamerRoleSpecialistUtility.rulePack.rulesStrings>TODO</NamerRoleSpecialistUtility.rulePack.rulesStrings>
+  <NamerRoleSpecialistUtility.rulePack.rulesStrings>
+    <li>r_roleName(p=7)->[firstPart][secondPart]</li>
+    <li>secondPart->استاد</li>
+    <li>secondPart->سالار</li>
+    <li>secondPart->شعله</li>
+    <li>secondPart->ذهن</li>
+    <li>secondPart->سر</li>
+    <li>secondPart->چشم</li>
+    <li>secondPart->دست</li>
+    <li>secondPart->کار</li>
+    <li>secondPart->مغز</li>
+    <li>secondPart->دار</li>
+    <li>secondPart->آور</li>
+    <li>secondPart->گو</li>
+    <li>secondPart->گوینده</li>
+    <li>secondPart->دان</li>
+    <li>secondPart->دوست</li>
+    <li>secondPart->کار</li>
+    <li>secondPart->وان</li>
+    <li>secondPart->پرت</li>
+    <li>secondPart->گر</li>
+    <li>secondPart->گر</li>
+    <li>secondPart->گر</li>
+    <li>secondPart->گر</li>
+    <li>secondPart->ساز</li>
+    <li>secondPart->گر</li>
+  </NamerRoleSpecialistUtility.rulePack.rulesStrings>
   
 </LanguageData>

@@ -11,7 +11,16 @@
     <li>adj->omnipotent</li>
     <li>adj->universal</li>
   -->
-  <DietyTypeMakerAbrahamic.rulePack.rulesStrings>TODO</DietyTypeMakerAbrahamic.rulePack.rulesStrings>
+  <DietyTypeMakerAbrahamic.rulePack.rulesStrings>
+    <li>r_deityType->خالق [all]</li>
+    <li>r_deityType->خدای [adj]</li>
+    <li>all->همه چیز</li>
+    <li>all->همه</li>
+    <li>all->جهان</li>
+    <li>adj->قادر مطلق</li>
+    <li>adj->قادر متعال</li>
+    <li>adj->جهانی</li>
+  </DietyTypeMakerAbrahamic.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_deityName(p=3)->God</li>
@@ -20,7 +29,13 @@
     <li>r_deityName->[color] Jesus</li>
     <li>r_deityName->[color] Christ</li>
   -->
-  <NamerDeityChristian.rulePack.rulesStrings>TODO</NamerDeityChristian.rulePack.rulesStrings>
+  <NamerDeityChristian.rulePack.rulesStrings>
+    <li>r_deityName(p=3)->خدا</li>
+    <li>r_deityName->مسیح خداوند</li>
+    <li>r_deityName->مسیح</li>
+    <li>r_deityName->عیسی [color]</li>
+    <li>r_deityName->مسیح [color]</li>
+  </NamerDeityChristian.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_deityName(p=8)->Allah</li>
@@ -40,6 +55,23 @@
     <li>r_deityName->Al-Alim</li>
     <li>r_deityName->Al-Hakam</li>
   -->
-  <NamerDeityIslamic.rulePack.rulesStrings>TODO</NamerDeityIslamic.rulePack.rulesStrings>
+  <NamerDeityIslamic.rulePack.rulesStrings>
+    <li>r_deityName(p=8)->الله</li>
+    <li>r_deityName->اله</li>
+    <li>r_deityName->الرحمن</li>
+    <li>r_deityName->الملک</li>
+    <li>r_deityName->القدوس</li>
+    <li>r_deityName->السلام</li>
+    <li>r_deityName->المومن</li>
+    <li>r_deityName->العزیز</li>
+    <li>r_deityName->الجبار</li>
+    <li>r_deityName->الخالق</li>
+    <li>r_deityName->الغفار</li>
+    <li>r_deityName->القهار</li>
+    <li>r_deityName->الوهاب</li>
+    <li>r_deityName->الفتاح</li>
+    <li>r_deityName->العلیم</li>
+    <li>r_deityName->الحکم</li>
+  </NamerDeityIslamic.rulePack.rulesStrings>
   
 </LanguageData>

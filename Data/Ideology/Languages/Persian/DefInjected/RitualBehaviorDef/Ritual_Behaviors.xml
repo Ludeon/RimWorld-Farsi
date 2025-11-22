@@ -1,73 +1,28 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageData>
-  
-  <!-- EN: target -->
-  <BlindingCeremony.roles.0.label>TODO</BlindingCeremony.roles.0.label>
-  <!-- EN: the person to blind -->
-  <BlindingCeremony.roles.0.missingDesc>TODO</BlindingCeremony.roles.0.missingDesc>
-  <!-- EN: cutter -->
-  <BlindingCeremony.roles.1.label>TODO</BlindingCeremony.roles.1.label>
-  <!-- EN: the person who performs the blinding -->
-  <BlindingCeremony.roles.1.missingDesc>TODO</BlindingCeremony.roles.1.missingDesc>
-  <!-- EN: Target is not reachable. -->
-  <BlindingCeremony.stages.0.failTriggers.0.desc>TODO</BlindingCeremony.stages.0.failTriggers.0.desc>
+﻿  <Conversion.roles.0.label>سخنران</Conversion.roles.0.label>
+  <Conversion.roles.1.label>تغییر کیش دهنده</Conversion.roles.1.label>
+  <Conversion.stages.0.failTriggers.0.desc>زندانی قابل دسترسی نیست.</Conversion.stages.0.failTriggers.0.desc>
   <!-- EN: escort asleep -->
-  <BlindingCeremony.stages.0.failTriggers.1.desc>TODO</BlindingCeremony.stages.0.failTriggers.1.desc>
+  <Conversion.stages.0.failTriggers.1.desc>اسکورت خواب است</Conversion.stages.0.failTriggers.1.desc>
   
   <!-- EN: participate -->
-  <BurnCircle.spectatorGerund>TODO</BurnCircle.spectatorGerund>
+  <DancePartyTech.spectatorGerund>شرکت کردن</DancePartyTech.spectatorGerund>
   <!-- EN: Participants -->
-  <BurnCircle.spectatorsLabel>TODO</BurnCircle.spectatorsLabel>
-  
-  <!-- EN: participate -->
-  <CelebrationPartyDanceDrum.spectatorGerund>TODO</CelebrationPartyDanceDrum.spectatorGerund>
-  <!-- EN: Participants -->
-  <CelebrationPartyDanceDrum.spectatorsLabel>TODO</CelebrationPartyDanceDrum.spectatorsLabel>
-  <!-- EN: Campfire is missing. -->
-  <CelebrationPartyDanceDrum.stages.0.failTriggers.0.desc>TODO</CelebrationPartyDanceDrum.stages.0.failTriggers.0.desc>
-  <!-- EN: Campfire is not lit. -->
-  <CelebrationPartyDanceDrum.stages.0.failTriggers.1.desc>TODO</CelebrationPartyDanceDrum.stages.0.failTriggers.1.desc>
-  <!-- EN: No drums. -->
-  <CelebrationPartyDanceDrum.stages.0.failTriggers.2.desc>TODO</CelebrationPartyDanceDrum.stages.0.failTriggers.2.desc>
-  
-  <!-- EN: participate -->
-  <CelebrationSkyLanterns.spectatorGerund>TODO</CelebrationSkyLanterns.spectatorGerund>
-  <!-- EN: Participants -->
-  <CelebrationSkyLanterns.spectatorsLabel>TODO</CelebrationSkyLanterns.spectatorsLabel>
-  
-  <!-- EN: participate -->
-  <CelebrationTree.spectatorGerund>TODO</CelebrationTree.spectatorGerund>
-  <!-- EN: Participants -->
-  <CelebrationTree.spectatorsLabel>TODO</CelebrationTree.spectatorsLabel>
-  
-  <!-- EN: speaker -->
-  <Conversion.roles.0.label>TODO</Conversion.roles.0.label>
-  <!-- EN: convertee -->
-  <Conversion.roles.1.label>TODO</Conversion.roles.1.label>
-  <!-- EN: Prisoner is not reachable. -->
-  <Conversion.stages.0.failTriggers.0.desc>TODO</Conversion.stages.0.failTriggers.0.desc>
-  <!-- EN: escort asleep -->
-  <Conversion.stages.0.failTriggers.1.desc>TODO</Conversion.stages.0.failTriggers.1.desc>
-  
-  <!-- EN: participate -->
-  <DancePartyTech.spectatorGerund>TODO</DancePartyTech.spectatorGerund>
-  <!-- EN: Participants -->
-  <DancePartyTech.spectatorsLabel>TODO</DancePartyTech.spectatorsLabel>
+  <DancePartyTech.spectatorsLabel>شرکت‌کنندگان</DancePartyTech.spectatorsLabel>
   <!-- EN: Lightball is missing. -->
-  <DancePartyTech.stages.0.failTriggers.0.desc>TODO</DancePartyTech.stages.0.failTriggers.0.desc>
+  <DancePartyTech.stages.0.failTriggers.0.desc>توپ نورانی وجود ندارد.</DancePartyTech.stages.0.failTriggers.0.desc>
   <!-- EN: Lightball is not powered. -->
-  <DancePartyTech.stages.0.failTriggers.1.desc>TODO</DancePartyTech.stages.0.failTriggers.1.desc>
+  <DancePartyTech.stages.0.failTriggers.1.desc>توپ نورانی روشن نیست.</DancePartyTech.stages.0.failTriggers.1.desc>
   <!-- EN: No powered loudspeakers. -->
-  <DancePartyTech.stages.0.failTriggers.2.desc>TODO</DancePartyTech.stages.0.failTriggers.2.desc>
+  <DancePartyTech.stages.0.failTriggers.2.desc>بلندگوهای روشن وجود ندارد.</DancePartyTech.stages.0.failTriggers.2.desc>
   
   <!-- EN: speaker -->
-  <DateRitual.roles.0.label>TODO</DateRitual.roles.0.label>
+  <DateRitual.roles.0.label>سخنران</DateRitual.roles.0.label>
   <!-- EN: participate -->
-  <DateRitual.spectatorGerund>TODO</DateRitual.spectatorGerund>
+  <DateRitual.spectatorGerund>شرکت کردن</DateRitual.spectatorGerund>
   <!-- EN: Participants -->
-  <DateRitual.spectatorsLabel>TODO</DateRitual.spectatorsLabel>
+  <DateRitual.spectatorsLabel>شرکت‌کنندگان</DateRitual.spectatorsLabel>
   <!-- EN: {0}: The speech is over, and the party is beginning. -->
-  <DateRitual.stages.0.postAction.text>TODO</DateRitual.stages.0.postAction.text>
+  <DateRitual.stages.0.postAction.text>{0}: سخنرانی تمام شد و مهمانی شروع می‌شود.</DateRitual.stages.0.postAction.text>
   
   <!-- EN: executioner -->
   <Execution.roles.0.label>TODO</Execution.roles.0.label>
@@ -113,116 +68,116 @@
   <!-- EN: non-downed colonists capable of hauling -->
   <GladiatorDuel.roles.3.missingDesc>TODO</GladiatorDuel.roles.3.missingDesc>
   <!-- EN: duelist escort -->
-  <GladiatorDuel.roles.4.label>TODO</GladiatorDuel.roles.4.label>
+  <GladiatorDuel.roles.4.label>اسکورت دوئل‌کننده</GladiatorDuel.roles.4.label>
   <!-- EN: duelist escorts -->
-  <GladiatorDuel.roles.4.categoryLabel>TODO</GladiatorDuel.roles.4.categoryLabel>
+  <GladiatorDuel.roles.4.categoryLabel>اسکورت‌های دوئل‌کننده</GladiatorDuel.roles.4.categoryLabel>
   <!-- EN: non-downed colonists capable of hauling -->
-  <GladiatorDuel.roles.4.missingDesc>TODO</GladiatorDuel.roles.4.missingDesc>
+  <GladiatorDuel.roles.4.missingDesc>مستعمره‌نشینان سرپا که قادر به حمل هستند</GladiatorDuel.roles.4.missingDesc>
   <!-- EN: participate -->
-  <GladiatorDuel.spectatorGerund>TODO</GladiatorDuel.spectatorGerund>
+  <GladiatorDuel.spectatorGerund>شرکت کردن</GladiatorDuel.spectatorGerund>
   <!-- EN: Spectators -->
-  <GladiatorDuel.spectatorsLabel>TODO</GladiatorDuel.spectatorsLabel>
+  <GladiatorDuel.spectatorsLabel>تماشاگران</GladiatorDuel.spectatorsLabel>
   <!-- EN: Duelist is not reachable. -->
-  <GladiatorDuel.stages.2.failTriggers.0.desc>TODO</GladiatorDuel.stages.2.failTriggers.0.desc>
+  <GladiatorDuel.stages.2.failTriggers.0.desc>دوئل‌کننده در دسترس نیست.</GladiatorDuel.stages.2.failTriggers.0.desc>
   <!-- EN: escort asleep -->
-  <GladiatorDuel.stages.2.failTriggers.1.desc>TODO</GladiatorDuel.stages.2.failTriggers.1.desc>
+  <GladiatorDuel.stages.2.failTriggers.1.desc>اسکورت خواب است</GladiatorDuel.stages.2.failTriggers.1.desc>
   <!-- EN: escort asleep -->
-  <GladiatorDuel.stages.2.failTriggers.2.desc>TODO</GladiatorDuel.stages.2.failTriggers.2.desc>
+  <GladiatorDuel.stages.2.failTriggers.2.desc>اسکورت خواب است</GladiatorDuel.stages.2.failTriggers.2.desc>
   
   <!-- EN: {SPEAKER_labelShort} is giving {RITUAL_labelIndef}.\n      \nIf all goes well, listeners will feel inspired, and gain respect for {SPEAKER_labelShort}. If it goes poorly, the speech will do social damage. Positive effects are reduced for non-{IDEOMEMBERS}. -->
-  <LeaderSpeech.letterText>TODO</LeaderSpeech.letterText>
+  <LeaderSpeech.letterText>{SPEAKER_labelShort} در حال برگزاری {RITUAL_labelIndef} است.\n      \nاگر همه چیز خوب پیش برود، شنوندگان احساس الهام‌بخشی خواهند کرد و احترام بیشتری برای {SPEAKER_labelShort} قائل خواهند شد. اگر بد پیش برود، سخنرانی آسیب اجتماعی خواهد زد. اثرات مثبت برای غیر {IDEOMEMBERS} کاهش می‌یابد.</LeaderSpeech.letterText>
   <!-- EN: {RITUAL_labelCap} -->
-  <LeaderSpeech.letterTitle>TODO</LeaderSpeech.letterTitle>
+  <LeaderSpeech.letterTitle>{RITUAL_labelCap}</LeaderSpeech.letterTitle>
   <!-- EN: speaker -->
-  <LeaderSpeech.roles.0.label>TODO</LeaderSpeech.roles.0.label>
+  <LeaderSpeech.roles.0.label>سخنران</LeaderSpeech.roles.0.label>
   
   <!-- EN: role changer -->
-  <RoleChange.roles.0.label>TODO</RoleChange.roles.0.label>
+  <RoleChange.roles.0.label>تغییر دهنده نقش</RoleChange.roles.0.label>
   <!-- EN: a role changer -->
-  <RoleChange.roles.0.missingDesc>TODO</RoleChange.roles.0.missingDesc>
+  <RoleChange.roles.0.missingDesc>یک تغییر دهنده نقش</RoleChange.roles.0.missingDesc>
   <!-- EN: spectate -->
-  <RoleChange.spectatorGerund>TODO</RoleChange.spectatorGerund>
+  <RoleChange.spectatorGerund>تماشا کردن</RoleChange.spectatorGerund>
   <!-- EN: Spectators -->
-  <RoleChange.spectatorsLabel>TODO</RoleChange.spectatorsLabel>
+  <RoleChange.spectatorsLabel>تماشاگران</RoleChange.spectatorsLabel>
   
   <!-- EN: cutter -->
-  <SacrificeAnimal.roles.0.label>TODO</SacrificeAnimal.roles.0.label>
+  <SacrificeAnimal.roles.0.label>برش‌دهنده</SacrificeAnimal.roles.0.label>
   <!-- EN: sacrifice -->
-  <SacrificeAnimal.roles.1.label>TODO</SacrificeAnimal.roles.1.label>
+  <SacrificeAnimal.roles.1.label>قربانی</SacrificeAnimal.roles.1.label>
   <!-- EN: an animal with body size of at least 0.8 -->
-  <SacrificeAnimal.roles.1.missingDesc>TODO</SacrificeAnimal.roles.1.missingDesc>
+  <SacrificeAnimal.roles.1.missingDesc>حیوانی با اندازه بدن حداقل 0.8</SacrificeAnimal.roles.1.missingDesc>
   <!-- EN: participate -->
-  <SacrificeAnimal.spectatorGerund>TODO</SacrificeAnimal.spectatorGerund>
+  <SacrificeAnimal.spectatorGerund>شرکت کردن</SacrificeAnimal.spectatorGerund>
   <!-- EN: Participants -->
-  <SacrificeAnimal.spectatorsLabel>TODO</SacrificeAnimal.spectatorsLabel>
+  <SacrificeAnimal.spectatorsLabel>شرکت‌کنندگان</SacrificeAnimal.spectatorsLabel>
   <!-- EN: Animal is not reachable. -->
-  <SacrificeAnimal.stages.0.failTriggers.0.desc>TODO</SacrificeAnimal.stages.0.failTriggers.0.desc>
+  <SacrificeAnimal.stages.0.failTriggers.0.desc>حیوان در دسترس نیست.</SacrificeAnimal.stages.0.failTriggers.0.desc>
   <!-- EN: escort asleep -->
-  <SacrificeAnimal.stages.0.failTriggers.1.desc>TODO</SacrificeAnimal.stages.0.failTriggers.1.desc>
+  <SacrificeAnimal.stages.0.failTriggers.1.desc>اسکورت خواب است</SacrificeAnimal.stages.0.failTriggers.1.desc>
   <!-- EN: sacrifice no longer dead -->
-  <SacrificeAnimal.stages.3.failTriggers.0.desc>TODO</SacrificeAnimal.stages.3.failTriggers.0.desc>
+  <SacrificeAnimal.stages.3.failTriggers.0.desc>قربانی دیگر مرده نیست</SacrificeAnimal.stages.3.failTriggers.0.desc>
   
   <!-- EN: cutter -->
-  <SacrificePrisoner.roles.0.label>TODO</SacrificePrisoner.roles.0.label>
+  <SacrificePrisoner.roles.0.label>برش‌دهنده</SacrificePrisoner.roles.0.label>
   <!-- EN: sacrifice -->
-  <SacrificePrisoner.roles.1.label>TODO</SacrificePrisoner.roles.1.label>
+  <SacrificePrisoner.roles.1.label>قربانی</SacrificePrisoner.roles.1.label>
   <!-- EN: a prisoner -->
-  <SacrificePrisoner.roles.1.missingDesc>TODO</SacrificePrisoner.roles.1.missingDesc>
+  <SacrificePrisoner.roles.1.missingDesc>یک زندانی</SacrificePrisoner.roles.1.missingDesc>
   <!-- EN: participate -->
-  <SacrificePrisoner.spectatorGerund>TODO</SacrificePrisoner.spectatorGerund>
+  <SacrificePrisoner.spectatorGerund>شرکت کردن</SacrificePrisoner.spectatorGerund>
   <!-- EN: Participants -->
-  <SacrificePrisoner.spectatorsLabel>TODO</SacrificePrisoner.spectatorsLabel>
+  <SacrificePrisoner.spectatorsLabel>شرکت‌کنندگان</SacrificePrisoner.spectatorsLabel>
   <!-- EN: Prisoner is not reachable. -->
-  <SacrificePrisoner.stages.0.failTriggers.0.desc>TODO</SacrificePrisoner.stages.0.failTriggers.0.desc>
+  <SacrificePrisoner.stages.0.failTriggers.0.desc>زندانی در دسترس نیست.</SacrificePrisoner.stages.0.failTriggers.0.desc>
   <!-- EN: escort asleep -->
-  <SacrificePrisoner.stages.0.failTriggers.1.desc>TODO</SacrificePrisoner.stages.0.failTriggers.1.desc>
+  <SacrificePrisoner.stages.0.failTriggers.1.desc>اسکورت خواب است</SacrificePrisoner.stages.0.failTriggers.1.desc>
   <!-- EN: sacrifice no longer dead -->
-  <SacrificePrisoner.stages.3.failTriggers.0.desc>TODO</SacrificePrisoner.stages.3.failTriggers.0.desc>
+  <SacrificePrisoner.stages.3.failTriggers.0.desc>قربانی دیگر مرده نیست</SacrificePrisoner.stages.3.failTriggers.0.desc>
   
   <!-- EN: target -->
-  <ScarificationCeremony.roles.0.label>TODO</ScarificationCeremony.roles.0.label>
+  <ScarificationCeremony.roles.0.label>هدف</ScarificationCeremony.roles.0.label>
   <!-- EN: the person to scarify -->
-  <ScarificationCeremony.roles.0.missingDesc>TODO</ScarificationCeremony.roles.0.missingDesc>
+  <ScarificationCeremony.roles.0.missingDesc>شخصی که باید زخم‌زنی شود</ScarificationCeremony.roles.0.missingDesc>
   <!-- EN: cutter -->
-  <ScarificationCeremony.roles.1.label>TODO</ScarificationCeremony.roles.1.label>
+  <ScarificationCeremony.roles.1.label>برش‌دهنده</ScarificationCeremony.roles.1.label>
   <!-- EN: the person who performs the scarification -->
-  <ScarificationCeremony.roles.1.missingDesc>TODO</ScarificationCeremony.roles.1.missingDesc>
+  <ScarificationCeremony.roles.1.missingDesc>شخصی که زخم‌زنی را انجام می‌دهد</ScarificationCeremony.roles.1.missingDesc>
   <!-- EN: Target is not reachable. -->
-  <ScarificationCeremony.stages.0.failTriggers.0.desc>TODO</ScarificationCeremony.stages.0.failTriggers.0.desc>
+  <ScarificationCeremony.stages.0.failTriggers.0.desc>هدف در دسترس نیست.</ScarificationCeremony.stages.0.failTriggers.0.desc>
   <!-- EN: escort asleep -->
-  <ScarificationCeremony.stages.0.failTriggers.1.desc>TODO</ScarificationCeremony.stages.0.failTriggers.1.desc>
+  <ScarificationCeremony.stages.0.failTriggers.1.desc>اسکورت خواب است</ScarificationCeremony.stages.0.failTriggers.1.desc>
   
   <!-- EN: participate -->
-  <SmokeCircle.spectatorGerund>TODO</SmokeCircle.spectatorGerund>
+  <SmokeCircle.spectatorGerund>شرکت کردن</SmokeCircle.spectatorGerund>
   <!-- EN: Participants -->
-  <SmokeCircle.spectatorsLabel>TODO</SmokeCircle.spectatorsLabel>
+  <SmokeCircle.spectatorsLabel>شرکت‌کنندگان</SmokeCircle.spectatorsLabel>
   
   <!-- EN: connector -->
-  <TreeConnection.roles.0.label>TODO</TreeConnection.roles.0.label>
+  <TreeConnection.roles.0.label>متصل‌کننده</TreeConnection.roles.0.label>
   <!-- EN: Only adults can connect to the Gauranlen tree. -->
-  <TreeConnection.roles.0.customChildDisallowMessage>TODO</TreeConnection.roles.0.customChildDisallowMessage>
+  <TreeConnection.roles.0.customChildDisallowMessage>فقط بزرگسالان می‌توانند به درخت گاورانلن متصل شوند.</TreeConnection.roles.0.customChildDisallowMessage>
   <!-- EN: spectate -->
-  <TreeConnection.spectatorGerund>TODO</TreeConnection.spectatorGerund>
+  <TreeConnection.spectatorGerund>تماشا کردن</TreeConnection.spectatorGerund>
   <!-- EN: Spectators -->
-  <TreeConnection.spectatorsLabel>TODO</TreeConnection.spectatorsLabel>
+  <TreeConnection.spectatorsLabel>تماشاگران</TreeConnection.spectatorsLabel>
   
   <!-- EN: judge -->
-  <Trial.roles.0.label>TODO</Trial.roles.0.label>
+  <Trial.roles.0.label>قاضی</Trial.roles.0.label>
   <!-- EN: convict -->
-  <Trial.roles.1.label>TODO</Trial.roles.1.label>
+  <Trial.roles.1.label>متهم</Trial.roles.1.label>
   
   <!-- EN: judge -->
-  <TrialMentalState.roles.0.label>TODO</TrialMentalState.roles.0.label>
+  <TrialMentalState.roles.0.label>قاضی</TrialMentalState.roles.0.label>
   <!-- EN: convict -->
-  <TrialMentalState.roles.1.label>TODO</TrialMentalState.roles.1.label>
+  <TrialMentalState.roles.1.label>متهم</TrialMentalState.roles.1.label>
   
   <!-- EN: judge -->
-  <TrialPrisoner.roles.0.label>TODO</TrialPrisoner.roles.0.label>
+  <TrialPrisoner.roles.0.label>قاضی</TrialPrisoner.roles.0.label>
   <!-- EN: convict -->
-  <TrialPrisoner.roles.1.label>TODO</TrialPrisoner.roles.1.label>
+  <TrialPrisoner.roles.1.label>متهم</TrialPrisoner.roles.1.label>
   <!-- EN: Convicted prisoner is not reachable. -->
-  <TrialPrisoner.stages.0.failTriggers.0.desc>TODO</TrialPrisoner.stages.0.failTriggers.0.desc>
+  <TrialPrisoner.stages.0.failTriggers.0.desc>زندانی متهم در دسترس نیست.</TrialPrisoner.stages.0.failTriggers.0.desc>
   <!-- EN: escort asleep -->
-  <TrialPrisoner.stages.0.failTriggers.1.desc>TODO</TrialPrisoner.stages.0.failTriggers.1.desc>
+  <TrialPrisoner.stages.0.failTriggers.1.desc>اسکورت خواب است</TrialPrisoner.stages.0.failTriggers.1.desc>
   
 </LanguageData>

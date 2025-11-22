@@ -65,6 +65,69 @@
     <li>second->lash</li>
     <li>second->krome</li>
   -->
-  <NamerIdeoRelic.rulePack.rulesStrings>TODO</NamerIdeoRelic.rulePack.rulesStrings>
+  <NamerIdeoRelic.rulePack.rulesStrings>
+    <li>r_ideoRelicName(p=2)->[first][second]</li>
+    <li>r_ideoRelicName->[thingLabel] [memeConcept]</li>
+    <li>r_ideoRelicName->[thingLabel] [memeAdjective]</li>
+    <li>r_ideoRelicName->[memeHyphenPrefix]-[thingLabel]</li>
+    <li>r_ideoRelicName->[relic] [memeAdjective]</li>
+    <li>r_ideoRelicName->[relic] [memeConcept]</li>
+    <li>r_ideoRelicName->[memeHyphenPrefix]-[relic]</li>
+    <li>relic->عتیقه</li>
+    <li>relic->اثر باستانی</li>
+    <li>relic->یادگاری</li>
+    <li>relic->یادبود</li>
+    <li>relic->بقایا</li>
+    <li>relic->میراث</li>
+    <li>relic->یادآوری</li>
+    <li>first(p=5)->[memeHyphenPrefix]</li>
+    <li>first->دراز</li>
+    <li>first->آسمان</li>
+    <li>first->ستاره</li>
+    <li>first->عمیق</li>
+    <li>first->دور</li>
+    <li>first->مرده</li>
+    <li>first->زندگی</li>
+    <li>first->نور</li>
+    <li>first->تاریک</li>
+    <li>first->پایان</li>
+    <li>first->هور</li>
+    <li>first->آن</li>
+    <li>first->اکس</li>
+    <li>first->تون</li>
+    <li>first->داو</li>
+    <li>first->بور</li>
+    <li>first->ون</li>
+    <li>first->زان</li>
+    <li>first->آرل</li>
+    <li>first->هکس</li>
+    <li>first->بکس</li>
+    <li>first->سل</li>
+    <li>first->لوک</li>
+    <li>first->قطب</li>
+    <li>first->رگه</li>
+    <li>second->خوان</li>
+    <li>second->آور</li>
+    <li>second->گو</li>
+    <li>second->دروغ</li>
+    <li>second->پیوند</li>
+    <li>second->پیوند</li>
+    <li>second->حلقه</li>
+    <li>second->نکسوس</li>
+    <li>second->هسته</li>
+    <li>second->اصل</li>
+    <li>second->توده</li>
+    <li>second->پیکره</li>
+    <li>second->کانون</li>
+    <li>second->لنز</li>
+    <li>second->نور</li>
+    <li>second->سایه</li>
+    <li>second->شور</li>
+    <li>second->مکان</li>
+    <li>second->فرم</li>
+    <li>second->انگشت</li>
+    <li>second->شلاق</li>
+    <li>second->کروم</li>
+  </NamerIdeoRelic.rulePack.rulesStrings>
   
 </LanguageData>

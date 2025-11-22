@@ -1,50 +1,48 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: bioregeneration -->
-  <Bioregeneration.label>TODO</Bioregeneration.label>
+  <Bioregeneration.label>باززایی زیستی</Bioregeneration.label>
   <!-- EN: Unlock the biosculpter pod's bioregeneration cycle. This cycle heals old scars, regenerates small lost body parts like fingers and toes, and cures many of the physical maladies that come with old age. -->
-  <Bioregeneration.description>TODO</Bioregeneration.description>
-  <!-- EN:
-    <li>subject->bioregeneration</li>
-    <li>subject_story->studied Boomalope antler regrowth for parallels with human regeneration</li>
-    <li>subject_story->spliced salamander genetic data into [ANYPAWN_possessive] own body</li>
-    <li>subject_story->trained in a Glitterworld hospital</li>
-    <li>subject_story->completed a correspondence course in Glitterworld aesthetics</li>
-    <li>subject_gerund->regenerating the human form</li>
-    <li>subject_gerund->activating regeneration with biosculpters</li>
-  -->
-  <Bioregeneration.generalRules.rulesStrings>TODO</Bioregeneration.generalRules.rulesStrings>
+  <Bioregeneration.description>چرخه باززایی زیستی غلاف زیست‌تراش را باز کنید. این چرخه زخم‌های قدیمی را ترمیم می‌کند، اعضای کوچک از دست رفته مثل انگشتان دست و پا را بازسازی می‌کند، و بسیاری از بیماری‌های جسمی ناشی از پیری را درمان می‌کند.</Bioregeneration.description>
+  <Bioregeneration.generalRules.rulesStrings>
+    <li>subject->باززایی زیستی</li>
+    <li>subject_story->برای یافتن شباهت با بازسازی انسانی، رشد مجدد شاخ بومالوپ را مطالعه کرد</li>
+    <li>subject_story->داده‌های ژنتیکی سمندر را در بدن [ANYPAWN_possessive] پیوند زد</li>
+    <li>subject_story->در یک بیمارستان گلیترورلد آموزش دید</li>
+    <li>subject_story->یک دوره مکاتبه‌ای در زیبایی‌شناسی گلیترورلد را تکمیل کرد</li>
+    <li>subject_gerund->بازسازی فرم انسانی</li>
+    <li>subject_gerund->فعال‌سازی بازسازی با زیست‌تراش‌ها</li>
+  </Bioregeneration.generalRules.rulesStrings>
   
   <!-- EN: biosculpting -->
-  <Biosculpting.label>TODO</Biosculpting.label>
+  <Biosculpting.label>زیست‌تراشی</Biosculpting.label>
   <!-- EN: Construct biosculpter pods which can perform various biological alterations to colonists. These are especially important to believers in transhumanism. -->
-  <Biosculpting.description>TODO</Biosculpting.description>
-  <!-- EN:
-    <li>subject->biosculpting</li>
-    <li>subject_story->constructed biosculpter pods on contract for various colonies</li>
-    <li>subject_story->studied transhumanist precepts, including the necessity of biosculpture</li>
-    <li>subject_story->researched which biological alterations could be made safely</li>
-    <li>subject_story->escaped a glitterworld support farm with these plans</li>
-    <li>subject_story->was welcomed into a transhumanist colony</li>
-    <li>subject_gerund->constructing biosculpter pods</li>
-    <li>subject_gerund->sculpting the human form</li>
-  -->
-  <Biosculpting.generalRules.rulesStrings>TODO</Biosculpting.generalRules.rulesStrings>
+  <Biosculpting.description>غلاف‌های زیست‌تراش بسازید که می‌توانند تغییرات زیستی مختلفی روی مستعمره‌نشینان انجام دهند. اینها به ویژه برای معتقدان به ترانس‌هیومانیسم مهم هستند.</Biosculpting.description>
+  <Biosculpting.generalRules.rulesStrings>
+    <li>subject->زیست‌تراشی</li>
+    <li>subject_story->غلاف‌های زیست‌تراش را بر اساس قرارداد برای مستعمرات مختلف ساخت</li>
+    <li>subject_story->اصول ترانس‌هیومانیستی را مطالعه کرد، از جمله ضرورت زیست‌تراشی</li>
+    <li>subject_story->تحقیق کرد که کدام تغییرات زیستی می‌تواند به طور ایمن انجام شود</li>
+    <li>subject_story->با این نقشه‌ها از یک مزرعه پشتیبانی گلیترورلد فرار کرد</li>
+    <li>subject_story->در یک مستعمره ترانس‌هیومانیستی پذیرفته شد</li>
+    <li>subject_gerund->ساخت غلاف‌های زیست‌تراش</li>
+    <li>subject_gerund->تراشیدن فرم انسانی</li>
+  </Biosculpting.generalRules.rulesStrings>
   
   <!-- EN: neural supercharger -->
-  <NeuralSupercharger.label>TODO</NeuralSupercharger.label>
+  <NeuralSupercharger.label>سوپرشارژر عصبی</NeuralSupercharger.label>
   <!-- EN: Construct neural supercharger devices. Neural superchargers improve consciousness and learning rate, but they also increase hunger and the effect must be refreshed daily. Transhumanists often hold neural supercharging as an important practice. -->
-  <NeuralSupercharger.description>TODO</NeuralSupercharger.description>
-  <!-- EN:
-    <li>subject->neural superchargers</li>
-    <li>subject_story->implemented neural superchargers in [ANYPAWN_possessive] boarding school</li>
-    <li>subject_story->supercharged the neurons of farmed clones to massively accelerate their development</li>
-    <li>subject_story->attempted to ban neural supercharging in the university course [ANYPAWN_pronoun] taught</li>
-    <li>subject_story->joined a transhumanist sect where neural supercharging was mandatory</li>
-    <li>subject_gerund->supercharging a human's intellect</li>
-    <li>subject_gerund->constructing neural superchargers</li>
-  -->
-  <NeuralSupercharger.generalRules.rulesStrings>TODO</NeuralSupercharger.generalRules.rulesStrings>
+  <NeuralSupercharger.description>دستگاه‌های سوپرشارژر عصبی بسازید. سوپرشارژرهای عصبی هوشیاری و نرخ یادگیری را بهبود می‌بخشند، اما گرسنگی را نیز افزایش می‌دهند و اثر باید هر روز تازه شود. ترانس‌هیومانیست‌ها اغلب سوپرشارژ عصبی را یک عمل مهم می‌دانند.</NeuralSupercharger.description>
+  <NeuralSupercharger.generalRules.rulesStrings>
+    <li>subject->سوپرشارژرهای عصبی</li>
+    <li>subject_story->سوپرشارژرهای عصبی را در مدرسه شبانه‌روزی [ANYPAWN_possessive] پیاده کرد</li>
+    <li>subject_story->نورون‌های کلون‌های پرورشی را سوپرشارژ کرد تا رشدشان را به طور عظیمی تسریع کند</li>
+    <li>subject_story->سعی کرد سوپرشارژ عصبی را در دوره دانشگاهی که [ANYPAWN_pronoun] تدریس می‌کرد ممنوع کند</li>
+    <li>subject_story->به یک فرقه ترانس‌هیومانیستی پیوست که سوپرشارژ عصبی اجباری بود</li>
+    <li>subject_gerund->سوپرشارژ کردن هوش انسان</li>
+    <li>subject_gerund->ساخت سوپرشارژرهای عصبی</li>
+  </NeuralSupercharger.generalRules.rulesStrings>
   
 </LanguageData>

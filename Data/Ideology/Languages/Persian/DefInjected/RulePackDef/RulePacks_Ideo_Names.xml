@@ -9,12 +9,21 @@
     <li>globalHyphenPrefix->astro</li>
     <li>globalHyphenPrefix->stello</li>
   -->
-  <CultureSpacer.rulePack.rulesStrings>TODO</CultureSpacer.rulePack.rulesStrings>
+  <CultureSpacer.rulePack.rulesStrings>
+    <li>globalAdjective->فضایی</li>
+    <li>globalAdjective->ستاره</li>
+    <li>globalAdjective->اختری</li>
+    <li>globalAdjective->میان‌ستاره‌ای</li>
+    <li>globalHyphenPrefix->آسترو</li>
+    <li>globalHyphenPrefix->استلو</li>
+  </CultureSpacer.rulePack.rulesStrings>
   
   <!-- EN:
     <li>globalAdjective(p=15)->Tribal</li>
   -->
-  <NamerIdeoCorunan.rulePack.rulesStrings>TODO</NamerIdeoCorunan.rulePack.rulesStrings>
+  <NamerIdeoCorunan.rulePack.rulesStrings>
+    <li>globalAdjective(p=15)->قبیله‌ای</li>
+  </NamerIdeoCorunan.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_ideoName->[keyDeity]ism</li>
@@ -47,6 +56,36 @@
     <li>globalHyphenPrefix->archaeo</li>
     <li>globalHyphenPrefix->hyper</li>
   -->
-  <NamerIdeoGlobal.rulePack.rulesStrings>TODO</NamerIdeoGlobal.rulePack.rulesStrings>
+  <NamerIdeoGlobal.rulePack.rulesStrings>
+    <li>r_ideoName->[keyDeity]گرایی</li>
+    <li>r_ideoName->[hyphenPrefix]-[keyDeity]گرایی</li>
+    <li>r_ideoName->[creed] [keyDeity]</li>
+    <li>r_ideoName->[creed] [keyDeity]</li>
+    <li>r_ideoAdjective->[keyDeity]یک</li>
+    <li>r_memberName->[keyDeity]یست</li>
+    <li>r_memberName->[keyDeity]یت</li>
+    <li>r_ideoName(p=6)->[packIdeoName]</li>
+    <li>r_ideoName(p=2,forcePrefix==False)->[hyphenPrefix]-[packIdeoName]</li>
+    <li>r_ideoName(p=2,forcePrefix==False)->[hyphenPrefix]-[packIdeoNameStructure]</li>
+    <li>r_ideoName(p=2)->[creed] [memeAdjective]</li>
+    <li>r_ideoName(p=1)->[creed] [packTheme]</li>
+    <li>r_ideoName(p=1)->[creed] [place_adjective]</li>
+    <li>r_ideoName(p=0.25)->[memeCreed]</li>
+    <li>r_ideoAdjective(priority=1)->[packAdjective]</li>
+    <li>r_memberName->[packMember]</li>
+    <li>creed(priority=1)->[memeCreed]</li>
+    <li>creed->[genericCreed]</li>
+    <li>genericCreed->کیش</li>
+    <li>genericCreed->مکتب</li>
+    <li>genericCreed->راه</li>
+    <li>genericCreed->مسیر</li>
+    <li>hyphenPrefix->[globalHyphenPrefix]</li>
+    <li>hyphenPrefix->[memeHyphenPrefix]</li>
+    <li>globalHyphenPrefix(p=4)->نئو</li>
+    <li>globalHyphenPrefix(p=2)->پست</li>
+    <li>globalHyphenPrefix->نوا</li>
+    <li>globalHyphenPrefix->آرکئو</li>
+    <li>globalHyphenPrefix->هایپر</li>
+  </NamerIdeoGlobal.rulePack.rulesStrings>
   
 </LanguageData>

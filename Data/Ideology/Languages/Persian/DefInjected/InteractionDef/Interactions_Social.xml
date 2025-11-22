@@ -2,35 +2,43 @@
 <LanguageData>
   
   <!-- EN: failed conversion -->
-  <Convert_Failure.label>TODO</Convert_Failure.label>
+  <Convert_Failure.label>تغییر کیش ناموفق</Convert_Failure.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef], but failed.</li>
   -->
-  <Convert_Failure.logRulesInitiator.rulesStrings>TODO</Convert_Failure.logRulesInitiator.rulesStrings>
-  
+  <Convert_Failure.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] سعی کرد [RECIPIENT_nameDef] را تغییر کیش دهد، اما شکست خورد.</li>
+  </Convert_Failure.logRulesInitiator.rulesStrings>
+
   <!-- EN: successful conversion -->
-  <Convert_Success.label>TODO</Convert_Success.label>
+  <Convert_Success.label>تغییر کیش موفق</Convert_Success.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef] and succeeded.</li>
   -->
-  <Convert_Success.logRulesInitiator.rulesStrings>TODO</Convert_Success.logRulesInitiator.rulesStrings>
-  
+  <Convert_Success.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] سعی کرد [RECIPIENT_nameDef] را تغییر کیش دهد و موفق شد.</li>
+  </Convert_Success.logRulesInitiator.rulesStrings>
+
   <!-- EN: convert ideoligion attempt -->
-  <ConvertIdeoAttempt.label>TODO</ConvertIdeoAttempt.label>
+  <ConvertIdeoAttempt.label>تلاش برای تغییر ایدئولوژی</ConvertIdeoAttempt.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef] to [INITIATOR_possessive] own ideoligion.</li>
   -->
-  <ConvertIdeoAttempt.logRulesInitiator.rulesStrings>TODO</ConvertIdeoAttempt.logRulesInitiator.rulesStrings>
-  
+  <ConvertIdeoAttempt.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] سعی کرد [RECIPIENT_nameDef] را به ایدئولوژی خودش تبدیل کند.</li>
+  </ConvertIdeoAttempt.logRulesInitiator.rulesStrings>
+
   <!-- EN: failed counsel -->
-  <Counsel_Failure.label>TODO</Counsel_Failure.label>
+  <Counsel_Failure.label>مشاوره ناموفق</Counsel_Failure.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] tried to counsel [RECIPIENT_nameDef], but botched the attempt and made things worse.</li>
   -->
-  <Counsel_Failure.logRulesInitiator.rulesStrings>TODO</Counsel_Failure.logRulesInitiator.rulesStrings>
-  
+  <Counsel_Failure.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] سعی کرد به [RECIPIENT_nameDef] مشاوره دهد، اما تلاش را خراب کرد و اوضاع را بدتر کرد.</li>
+  </Counsel_Failure.logRulesInitiator.rulesStrings>
+
   <!-- EN: successful counsel -->
-  <Counsel_Success.label>TODO</Counsel_Success.label>
+  <Counsel_Success.label>مشاوره موفق</Counsel_Success.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] counseled [RECIPIENT_nameDef] on [problems].</li>
     <li>r_logentry->[INITIATOR_nameDef] helped [RECIPIENT_nameDef] think through [problems].</li>
@@ -40,27 +48,42 @@
     <li>problems->[RECIPIENT_possessive] painful feelings</li>
     <li>problems->recent difficulties</li>
   -->
-  <Counsel_Success.logRulesInitiator.rulesStrings>TODO</Counsel_Success.logRulesInitiator.rulesStrings>
-  
+  <Counsel_Success.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] به [RECIPIENT_nameDef] در مورد [problems] مشاوره داد.</li>
+    <li>r_logentry->[INITIATOR_nameDef] به [RECIPIENT_nameDef] کمک کرد تا در مورد [problems] فکر کند.</li>
+    <li>r_logentry->[INITIATOR_nameDef] به [RECIPIENT_nameDef] در مورد غلبه بر منفی‌گرایی مشاوره داد.</li>
+    <li>problems->مشکلاتش</li>
+    <li>problems->دردسرهایش</li>
+    <li>problems->احساسات دردناکش</li>
+    <li>problems->مشکلات اخیر</li>
+  </Counsel_Success.logRulesInitiator.rulesStrings>
+
   <!-- EN: preached health -->
-  <PreachHealth.label>TODO</PreachHealth.label>
+  <PreachHealth.label>موعظه سلامت</PreachHealth.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] strengthened [RECIPIENT_nameDef]'s health by preaching about [preaching_topic].</li>
     <li>preaching_topic->reasons to live</li>
     <li>preaching_topic->higher ideoligious goals</li>
     <li>preaching_topic->[RECIPIENT_possessive] purpose of existence</li>
   -->
-  <PreachHealth.logRulesInitiator.rulesStrings>TODO</PreachHealth.logRulesInitiator.rulesStrings>
-  
+  <PreachHealth.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] با موعظه در مورد [preaching_topic] سلامت [RECIPIENT_nameDef] را تقویت کرد.</li>
+    <li>preaching_topic->دلایل زندگی</li>
+    <li>preaching_topic->اهداف ایدئولوژیک عالی‌تر</li>
+    <li>preaching_topic->هدف وجودی‌اش</li>
+  </PreachHealth.logRulesInitiator.rulesStrings>
+
   <!-- EN: reassurance -->
-  <Reassure.label>TODO</Reassure.label>
+  <Reassure.label>اطمینان‌بخشی</Reassure.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] reinforced [RECIPIENT_nameDef]'s beliefs.</li>
   -->
-  <Reassure.logRulesInitiator.rulesStrings>TODO</Reassure.logRulesInitiator.rulesStrings>
-  
+  <Reassure.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] باورهای [RECIPIENT_nameDef] را تقویت کرد.</li>
+  </Reassure.logRulesInitiator.rulesStrings>
+
   <!-- EN: accuse -->
-  <Trial_Accuse.label>TODO</Trial_Accuse.label>
+  <Trial_Accuse.label>اتهام</Trial_Accuse.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] presented some evidence.</li>
     <li>r_logentry->[INITIATOR_nameDef] appealed to the emotions of the spectators.</li>
@@ -79,10 +102,27 @@
     <li>wrongdoing->hateful thinking</li>
     <li>wrongdoing->disloyalty</li>
   -->
-  <Trial_Accuse.logRulesInitiator.rulesStrings>TODO</Trial_Accuse.logRulesInitiator.rulesStrings>
-  
+  <Trial_Accuse.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] مقداری شواهد ارائه داد.</li>
+    <li>r_logentry->[INITIATOR_nameDef] به احساسات تماشاگران متوسل شد.</li>
+    <li>r_logentry->[INITIATOR_nameDef] به [RECIPIENT_nameDef] اتهام [wrongdoing] زد.</li>
+    <li>wrongdoing->خرابکاری در کلونی</li>
+    <li>wrongdoing->تنبلی</li>
+    <li>wrongdoing->زیاد خوردن</li>
+    <li>wrongdoing->دزدی</li>
+    <li>wrongdoing->انسان وحشتناک بودن</li>
+    <li>wrongdoing->بی‌احترامی به ایده‌های مقدس</li>
+    <li>wrongdoing->بی‌احترامی به شخصیت‌های محترم</li>
+    <li>wrongdoing->بدعت</li>
+    <li>wrongdoing->قتل</li>
+    <li>wrongdoing->کفرگویی</li>
+    <li>wrongdoing->خیانت</li>
+    <li>wrongdoing->تفکر نفرت‌آمیز</li>
+    <li>wrongdoing->بی‌وفایی</li>
+  </Trial_Accuse.logRulesInitiator.rulesStrings>
+
   <!-- EN: defend -->
-  <Trial_Defend.label>TODO</Trial_Defend.label>
+  <Trial_Defend.label>دفاع</Trial_Defend.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] deflected the accusation.</li>
     <li>r_logentry->[INITIATOR_nameDef] presented another interpretation.</li>
@@ -92,13 +132,23 @@
     <li>r_logentry->[INITIATOR_nameDef] dismissed the allegations.</li>
     <li>r_logentry->[INITIATOR_nameDef] called the trial a sham.</li>
   -->
-  <Trial_Defend.logRulesInitiator.rulesStrings>TODO</Trial_Defend.logRulesInitiator.rulesStrings>
-  
+  <Trial_Defend.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] اتهام را رد کرد.</li>
+    <li>r_logentry->[INITIATOR_nameDef] تفسیر دیگری ارائه داد.</li>
+    <li>r_logentry->[INITIATOR_nameDef] به هیئت منصفه التماس کرد.</li>
+    <li>r_logentry->[INITIATOR_nameDef] درخواست رحم کرد.</li>
+    <li>r_logentry->[INITIATOR_nameDef] روند را به تاخیر انداخت.</li>
+    <li>r_logentry->[INITIATOR_nameDef] اتهامات را رد کرد.</li>
+    <li>r_logentry->[INITIATOR_nameDef] محاکمه را دروغین خواند.</li>
+  </Trial_Defend.logRulesInitiator.rulesStrings>
+
   <!-- EN: work drive -->
-  <WorkDrive.label>TODO</WorkDrive.label>
+  <WorkDrive.label>انگیزه کاری</WorkDrive.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] called upon [RECIPIENT_nameDef] to work extra hard for the good of the colony.</li>
   -->
-  <WorkDrive.logRulesInitiator.rulesStrings>TODO</WorkDrive.logRulesInitiator.rulesStrings>
-  
+  <WorkDrive.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] از [RECIPIENT_nameDef] خواست برای خیر کلونی بیشتر کار کند.</li>
+  </WorkDrive.logRulesInitiator.rulesStrings>
+
 </LanguageData>

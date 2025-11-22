@@ -2,17 +2,22 @@
 <LanguageData>
   
   <!-- EN: enslave attempt -->
-  <EnslaveAttempt.label>TODO</EnslaveAttempt.label>
+  <EnslaveAttempt.label>تلاش برای برده کردن</EnslaveAttempt.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that [RECIPIENT_pronoun] must work for the colony.</li>
     <li>r_logentry->[INITIATOR_nameDef] informed [RECIPIENT_nameDef] that [RECIPIENT_pronoun] must obey orders and work.</li>
     <li>r_logentry->[INITIATOR_nameDef] ordered [RECIPIENT_nameDef] to prepare for a life of forced labour.</li>
     <li>r_logentry->[INITIATOR_nameDef] explained to [RECIPIENT_nameDef] that [RECIPIENT_pronoun] must work or face punishment.</li>
   -->
-  <EnslaveAttempt.logRulesInitiator.rulesStrings>TODO</EnslaveAttempt.logRulesInitiator.rulesStrings>
-  
+  <EnslaveAttempt.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] به [RECIPIENT_nameDef] گفت که باید برای کلونی کار کند.</li>
+    <li>r_logentry->[INITIATOR_nameDef] به [RECIPIENT_nameDef] اطلاع داد که باید از دستورات اطاعت کند و کار کند.</li>
+    <li>r_logentry->[INITIATOR_nameDef] به [RECIPIENT_nameDef] دستور داد که برای زندگی کار اجباری آماده شود.</li>
+    <li>r_logentry->[INITIATOR_nameDef] به [RECIPIENT_nameDef] توضیح داد که باید کار کند یا با مجازات روبرو شود.</li>
+  </EnslaveAttempt.logRulesInitiator.rulesStrings>
+
   <!-- EN: try to reduce will -->
-  <ReduceWill.label>TODO</ReduceWill.label>
+  <ReduceWill.label>تلاش برای کاهش اراده</ReduceWill.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] [RECIPIENT_pronoun] [negative].</li>
     <li>r_logentry->[INITIATOR_nameDef] explained that [RECIPIENT_nameDef] [negative].</li>
@@ -56,6 +61,48 @@
     <li>givein->surrender [RECIPIENT_objective]self</li>
     <li>givein->yield [RECIPIENT_objective]self</li>
   -->
-  <ReduceWill.logRulesInitiator.rulesStrings>TODO</ReduceWill.logRulesInitiator.rulesStrings>
-  
+  <ReduceWill.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] به [RECIPIENT_nameDef] گفت که [negative].</li>
+    <li>r_logentry->[INITIATOR_nameDef] توضیح داد که [RECIPIENT_nameDef] [negative].</li>
+    <li>r_logentry->[INITIATOR_nameDef] به [RECIPIENT_nameDef] با [threat] تهدید کرد اگر [refused].</li>
+    <li>r_logentry->[INITIATOR_nameDef] به [RECIPIENT_nameDef] اطلاع داد که [disillusionment].</li>
+    <li>r_logentry->[INITIATOR_nameDef] از [RECIPIENT_nameDef] خواست که به کلونی [givein].</li>
+    <li>negative->آینده‌ای ندارد</li>
+    <li>negative->راهی برای فرار ندارد</li>
+    <li>negative->خارج از کلونی آینده‌ای ندارد</li>
+    <li>negative->امکانات فرار ندارد</li>
+    <li>negative->باید فوراً تسلیم شود</li>
+    <li>negative->باید آرزوهایش را فراموش کند</li>
+    <li>negative->باید به کلونی تسلیم شود</li>
+    <li>threat->شکنجه</li>
+    <li>threat->مجازات</li>
+    <li>threat->مثله کردن</li>
+    <li>threat->گرسنگی</li>
+    <li>threat->حبس ابد</li>
+    <li>threat->مرگ</li>
+    <li>threat->انزوا</li>
+    <li>threat->قطع عضو</li>
+    <li>threat->ضربه کند</li>
+    <li>threat->بریدگی</li>
+    <li>threat->آدم‌خواری</li>
+    <li>threat->برداشت اعضا</li>
+    <li>threat->حبس طولانی</li>
+    <li>refused->سعی کرد فرار کند</li>
+    <li>refused->به کلونی توهین کرد</li>
+    <li>refused->کار نکرد</li>
+    <li>refused->از دستور سرپیچی کرد</li>
+    <li>refused->در برابر تسلیم مقاومت کرد</li>
+    <li>refused->از اطاعت سرباز زد</li>
+    <li>refused->گستاخانه رفتار کرد</li>
+    <li>disillusionment->باید وضعیتش را بپذیرد</li>
+    <li>disillusionment->امیدی به آینده دیگری ندارد</li>
+    <li>disillusionment->بهتر است تسلیم شود</li>
+    <li>disillusionment->به تنهایی زنده نخواهد ماند</li>
+    <li>disillusionment->چاره‌ای جز تسلیم ندارد</li>
+    <li>givein->تسلیم شود</li>
+    <li>givein->خود را تسلیم کند</li>
+    <li>givein->خود را تحویل دهد</li>
+    <li>givein->خود را واگذار کند</li>
+  </ReduceWill.logRulesInitiator.rulesStrings>
+
 </LanguageData>

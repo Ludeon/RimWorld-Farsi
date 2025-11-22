@@ -10,7 +10,15 @@
     <li>cultureLeaderAdjective->grand</li>
     <li>cultureLeaderNoun->chief</li>
   -->
-  <LeaderTitleMaker_Corunan.rulePack.rulesStrings>TODO</LeaderTitleMaker_Corunan.rulePack.rulesStrings>
+  <LeaderTitleMaker_Corunan.rulePack.rulesStrings>
+    <li>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</li>
+    <li>cultureLeaderTitle->[cultureLeaderNoun] [cultureLeaderAdjective]</li>
+    <li>cultureLeaderAdjective->بزرگ</li>
+    <li>cultureLeaderAdjective->عالی</li>
+    <li>cultureLeaderAdjective->نخست</li>
+    <li>cultureLeaderAdjective->اعظم</li>
+    <li>cultureLeaderNoun->رئیس</li>
+  </LeaderTitleMaker_Corunan.rulePack.rulesStrings>
   
   <!-- EN:
     <li>cultureLeaderAdjective->high</li>
@@ -22,7 +30,16 @@
     <li>cultureLeaderNoun->governor</li>
     <li>cultureLeaderNoun->leader</li>
   -->
-  <LeaderTitleMaker_GenericContent.rulePack.rulesStrings>TODO</LeaderTitleMaker_GenericContent.rulePack.rulesStrings>
+  <LeaderTitleMaker_GenericContent.rulePack.rulesStrings>
+    <li>cultureLeaderAdjective->عالی</li>
+    <li>cultureLeaderAdjective->بزرگ</li>
+    <li>cultureLeaderAdjective->نخست</li>
+    <li>cultureLeaderAdjective->ارشد</li>
+    <li>cultureLeaderNoun->رئیس جمهور</li>
+    <li>cultureLeaderNoun->مدیر</li>
+    <li>cultureLeaderNoun->فرماندار</li>
+    <li>cultureLeaderNoun->رهبر</li>
+  </LeaderTitleMaker_GenericContent.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_leaderTitle(p=6)->[memeLeaderAdjective] [memeLeaderNoun]</li>
@@ -30,7 +47,12 @@
     <li>r_leaderTitle(p=1)->[memeLeaderAdjective] [cultureLeaderNoun]</li>
     <li>r_leaderTitle(p=1)->[cultureLeaderTitle]</li>
   -->
-  <LeaderTitleMaker_GlobalStructure.rulePack.rulesStrings>TODO</LeaderTitleMaker_GlobalStructure.rulePack.rulesStrings>
+  <LeaderTitleMaker_GlobalStructure.rulePack.rulesStrings>
+    <li>r_leaderTitle(p=6)->[memeLeaderNoun] [memeLeaderAdjective]</li>
+    <li>r_leaderTitle(p=3)->[memeLeaderNoun] [cultureLeaderAdjective]</li>
+    <li>r_leaderTitle(p=1)->[cultureLeaderNoun] [memeLeaderAdjective]</li>
+    <li>r_leaderTitle(p=1)->[cultureLeaderTitle]</li>
+  </LeaderTitleMaker_GlobalStructure.rulePack.rulesStrings>
   
   <!-- EN:
     <li>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</li>
@@ -44,7 +66,18 @@
     <li>cultureLeaderNoun->gun</li>
     <li>cultureLeaderNoun->dog</li>
   -->
-  <LeaderTitleMaker_Kriminul.rulePack.rulesStrings>TODO</LeaderTitleMaker_Kriminul.rulePack.rulesStrings>
+  <LeaderTitleMaker_Kriminul.rulePack.rulesStrings>
+    <li>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</li>
+    <li>cultureLeaderTitle->[cultureLeaderNoun] [cultureLeaderAdjective]</li>
+    <li>cultureLeaderAdjective->گنده</li>
+    <li>cultureLeaderAdjective->برتر</li>
+    <li>cultureLeaderAdjective->تمام</li>
+    <li>cultureLeaderNoun->رئیس</li>
+    <li>cultureLeaderNoun->اوباش</li>
+    <li>cultureLeaderNoun->کله گنده</li>
+    <li>cultureLeaderNoun->هفت‌تیرکش</li>
+    <li>cultureLeaderNoun->سگ</li>
+  </LeaderTitleMaker_Kriminul.rulePack.rulesStrings>
   
   <!-- EN:
     <li>cultureLeaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]</li>
@@ -56,11 +89,22 @@
     <li>cultureLeaderNoun->guide</li>
     <li>cultureLeaderNoun->steersman</li>
   -->
-  <LeaderTitleMaker_Rustican.rulePack.rulesStrings>TODO</LeaderTitleMaker_Rustican.rulePack.rulesStrings>
+  <LeaderTitleMaker_Rustican.rulePack.rulesStrings>
+    <li>cultureLeaderTitle->[cultureLeaderNoun] [cultureLeaderAdjective]</li>
+    <li>cultureLeaderAdjective->ارشد</li>
+    <li>cultureLeaderAdjective->نخست</li>
+    <li>cultureLeaderNoun->مشاور</li>
+    <li>cultureLeaderNoun->رهبر</li>
+    <li>cultureLeaderNoun->وزیر</li>
+    <li>cultureLeaderNoun->راهنما</li>
+    <li>cultureLeaderNoun->سکاندار</li>
+  </LeaderTitleMaker_Rustican.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_leaderTitle->high stellarch</li>
   -->
-  <LeaderTitleMaker_Sophian.rulePack.rulesStrings>TODO</LeaderTitleMaker_Sophian.rulePack.rulesStrings>
+  <LeaderTitleMaker_Sophian.rulePack.rulesStrings>
+    <li>r_leaderTitle->استلارک عالی</li>
+  </LeaderTitleMaker_Sophian.rulePack.rulesStrings>
   
 </LanguageData>

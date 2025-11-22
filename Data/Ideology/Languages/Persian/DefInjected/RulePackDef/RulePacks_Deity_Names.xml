@@ -13,7 +13,18 @@
     <li>end->teas</li>
     <li>end->dio</li>
   -->
-  <GodContent_Byzantine.rulePack.rulesStrings>TODO</GodContent_Byzantine.rulePack.rulesStrings>
+  <GodContent_Byzantine.rulePack.rulesStrings>
+    <li>name->[syl][end]</li>
+    <li>name->[syl][syl][end]</li>
+    <li>name->[syl]-[syl][end]</li>
+    <li>syl->[SylB]</li>
+    <li>end->کوس</li>
+    <li>end->پوس</li>
+    <li>end->پون</li>
+    <li>end->تئو</li>
+    <li>end->تیاس</li>
+    <li>end->دیو</li>
+  </GodContent_Byzantine.rulePack.rulesStrings>
   
   <!-- EN:
     <li>name->[start][middle][end]</li>
@@ -123,7 +134,114 @@
     <li>end->ton</li>
     <li>end->tar</li>
   -->
-  <GodContent_English.rulePack.rulesStrings>TODO</GodContent_English.rulePack.rulesStrings>
+  <GodContent_English.rulePack.rulesStrings>
+    <li>name->[start][middle][end]</li>
+    <li>start->آ</li>
+    <li>start->ال</li>
+    <li>start->آن</li>
+    <li>start->آر</li>
+    <li>start->آس</li>
+    <li>start->آت</li>
+    <li>start->ب</li>
+    <li>start->بات</li>
+    <li>start->بان</li>
+    <li>start->بین</li>
+    <li>start->بون</li>
+    <li>start->ک</li>
+    <li>start->کا</li>
+    <li>start->کو</li>
+    <li>start->د</li>
+    <li>start->دو</li>
+    <li>start->دین</li>
+    <li>start->دل</li>
+    <li>start->اد</li>
+    <li>start->ان</li>
+    <li>start->انت</li>
+    <li>start->ار</li>
+    <li>start->اس</li>
+    <li>start->ف</li>
+    <li>start->فور</li>
+    <li>start->فار</li>
+    <li>start->فین</li>
+    <li>start->فان</li>
+    <li>start->فن</li>
+    <li>start->گ</li>
+    <li>start->ه</li>
+    <li>start->هاد</li>
+    <li>start->هات</li>
+    <li>start->هن</li>
+    <li>start->هر</li>
+    <li>start->هین</li>
+    <li>start->هیس</li>
+    <li>start->این</li>
+    <li>start->ایس</li>
+    <li>start->ایت</li>
+    <li>start->ایث</li>
+    <li>start->ج</li>
+    <li>start->ک</li>
+    <li>start->ل</li>
+    <li>start->لون</li>
+    <li>start->لن</li>
+    <li>start->لان</li>
+    <li>start->م</li>
+    <li>start->مین</li>
+    <li>start->مون</li>
+    <li>start->من</li>
+    <li>start->ن</li>
+    <li>start->اون</li>
+    <li>start->اور</li>
+    <li>start->اول</li>
+    <li>start->اور</li>
+    <li>start->پ</li>
+    <li>start->کو</li>
+    <li>start->ر</li>
+    <li>start->س</li>
+    <li>start->ش</li>
+    <li>start->ست</li>
+    <li>start->ت</li>
+    <li>start->تد</li>
+    <li>start->تر</li>
+    <li>start->آن</li>
+    <li>start->و</li>
+    <li>start->ور</li>
+    <li>start->و</li>
+    <li>start->ی</li>
+    <li>middle->ا</li>
+    <li>middle->ه</li>
+    <li>middle->ی</li>
+    <li>middle->و</li>
+    <li>middle->و</li>
+    <li>middle->ای</li>
+    <li>middle->یو</li>
+    <li>middle->ای</li>
+    <li>middle->او</li>
+    <li>end(p=4)-></li>
+    <li>end->کوس</li>
+    <li>end->لاس</li>
+    <li>end->لاس</li>
+    <li>end->لوکس</li>
+    <li>end->لوکس</li>
+    <li>end->م</li>
+    <li>end->ن</li>
+    <li>end->نوس</li>
+    <li>end->پیوس</li>
+    <li>end->ر</li>
+    <li>end->را</li>
+    <li>end->روس</li>
+    <li>end->راث</li>
+    <li>end->راث</li>
+    <li>end->روم</li>
+    <li>end->روس</li>
+    <li>end->رون</li>
+    <li>end->س</li>
+    <li>end->ستوس</li>
+    <li>end->ستور</li>
+    <li>end->تئوس</li>
+    <li>end->ث</li>
+    <li>end->تور</li>
+    <li>end->تون</li>
+    <li>end->تار</li>
+  </GodContent_English.rulePack.rulesStrings>
   
   <!-- EN:
     <li>name->[syl][end]</li>
@@ -137,11 +255,24 @@
     <li>end->bai</li>
     <li>end->bust</li>
   -->
-  <NamerDeityCorunan.rulePack.rulesStrings>TODO</NamerDeityCorunan.rulePack.rulesStrings>
+  <NamerDeityCorunan.rulePack.rulesStrings>
+    <li>name->[syl][end]</li>
+    <li>name->[syl][syl][end]</li>
+    <li>name->[syl]'[syl][end]</li>
+    <li>syl->[SylG]</li>
+    <li>end->آبرئی</li>
+    <li>end->ترو</li>
+    <li>end->اوکس</li>
+    <li>end->برین</li>
+    <li>end->بای</li>
+    <li>end->بوست</li>
+  </NamerDeityCorunan.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_deityName->[name]</li>
   -->
-  <NamerDeityGlobal.rulePack.rulesStrings>TODO</NamerDeityGlobal.rulePack.rulesStrings>
+  <NamerDeityGlobal.rulePack.rulesStrings>
+    <li>r_deityName->[name]</li>
+  </NamerDeityGlobal.rulePack.rulesStrings>
   
 </LanguageData>

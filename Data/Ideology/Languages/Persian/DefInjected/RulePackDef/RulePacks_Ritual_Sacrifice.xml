@@ -15,6 +15,19 @@
     <li>sacrifice->oblation</li>
     <li>sacrifice->slaughtering</li>
   -->
-  <NamerRitualSacrifice.rulePack.rulesStrings>TODO</NamerRitualSacrifice.rulePack.rulesStrings>
+  <NamerRitualSacrifice.rulePack.rulesStrings>
+    <li>r_ritualName(p=2)->[sacrifice] [memeAdjective]</li>
+    <li>r_ritualName->[sacrifice] [chosenTheme]</li>
+    <li>r_ritualName->[sacrifice] [chosenAdjective]</li>
+    <li>r_ritualName->[sacrifice] [keyDeity]</li>
+    <li>r_ritualName->[sacrifice] [keyDeity]</li>
+    <li>r_ritualName->[sacrifice] [memeConcept]</li>
+    <li>r_ritualName->[sacrifice] [chosenIdeoName]</li>
+    <li>sacrifice->قربانی</li>
+    <li>sacrifice->پیشکش</li>
+    <li>sacrifice->قربانی سوختنی</li>
+    <li>sacrifice->نذر</li>
+    <li>sacrifice->کشتار</li>
+  </NamerRitualSacrifice.rulePack.rulesStrings>
   
 </LanguageData>
