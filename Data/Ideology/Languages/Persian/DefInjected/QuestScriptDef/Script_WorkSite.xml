@@ -6,7 +6,11 @@
     <li>raidConsequences(faction_temporary==false)->If you do, [faction_name] will become hostile if they are not already.</li>
     <li>raidConsequences(faction_temporary==true)->Since [faction_name] is just a small, independent group, you can attack them without any broader diplomatic consequences.</li>
   -->
-  <OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>TODO</OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
+  <OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
+    <li>questDescription->شما یک [siteLabel] را در نزدیکی شناسایی کرده‌اید که توسط [faction_name] کنترل می‌شود.\n\nاگر مایل باشید، می‌توانید برای جمع‌آوری غنایم ([loot]) به اردوگاه حمله کنید. [raidConsequences]\n\nاردوگاه در [timeout_duration] جمع می‌شود و حرکت می‌کند.</li>
+    <li>raidConsequences(faction_temporary==false)->اگر این کار را انجام دهید، [faction_name] اگر قبلاً دشمن نبوده باشند، دشمن خواهند شد.</li>
+    <li>raidConsequences(faction_temporary==true)->از آنجا که [faction_name] فقط یک گروه کوچک و مستقل است، می‌توانید بدون هیچ عواقب دیپلماتیک گسترده‌تری به آنها حمله کنید.</li>
+  </OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[site_label] [detected]</li>
     <li>detected->detected</li>
@@ -19,6 +23,17 @@
     <li>detected->revealed</li>
     <li>detected->uncovered</li>
   -->
-  <OpportunitySite_WorkSite.questNameRules.rulesStrings>TODO</OpportunitySite_WorkSite.questNameRules.rulesStrings>
+  <OpportunitySite_WorkSite.questNameRules.rulesStrings>
+    <li>questName->[site_label] [detected]</li>
+    <li>detected->شناسایی شد</li>
+    <li>detected->کشف شد</li>
+    <li>detected->در نزدیکی</li>
+    <li>detected->پیدا شد</li>
+    <li>detected->شناسایی شد</li>
+    <li>detected->مشاهده شد</li>
+    <li>detected->رصد شد</li>
+    <li>detected->آشکار شد</li>
+    <li>detected->کشف شد</li>
+  </OpportunitySite_WorkSite.questNameRules.rulesStrings>
   
 </LanguageData>

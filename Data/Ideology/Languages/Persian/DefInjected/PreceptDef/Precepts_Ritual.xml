@@ -2,94 +2,94 @@
 <LanguageData>
   
   <!-- EN: blinding -->
-  <BlindingCeremony.label>TODO</BlindingCeremony.label>
+  <BlindingCeremony.label>کور کردن</BlindingCeremony.label>
   <!-- EN: A cutter will ritualistically blind a target. The audience will watch as the cutter gives a speech, cuts out both of the target's eyes, and says some closing words. The target will be left bleeding and need immediate medical care. -->
-  <BlindingCeremony.description>TODO</BlindingCeremony.description>
+  <BlindingCeremony.description>یک برش‌دهنده به طور آیینی یک هدف را کور می‌کند. تماشاگران تماشا خواهند کرد که برش‌دهنده سخنرانی می‌کند، هر دو چشم هدف را بیرون می‌آورد و کلمات پایانی را می‌گوید. هدف خونریزی می‌کند و نیاز به مراقبت فوری پزشکی دارد.</BlindingCeremony.description>
   
   <!-- EN: dance party -->
-  <Classic_DanceParty.label>TODO</Classic_DanceParty.label>
+  <Classic_DanceParty.label>جشن رقص</Classic_DanceParty.label>
   <!-- EN: A celebratory gathering for your colonists to have fun. A leader will give an encouraging speech, then everyone will socialize for a while. -->
-  <Classic_DanceParty.description>TODO</Classic_DanceParty.description>
+  <Classic_DanceParty.description>یک گردهمایی جشن برای تفریح مهاجران شما. یک رهبر سخنرانی تشویق‌کننده‌ای ایراد می‌کند، سپس همه برای مدتی معاشرت می‌کنند.</Classic_DanceParty.description>
   
   <!-- EN: drum party -->
-  <Classic_DrumParty.label>TODO</Classic_DrumParty.label>
+  <Classic_DrumParty.label>جشن طبل</Classic_DrumParty.label>
   <!-- EN: A celebratory gathering for your colonists to have fun. A leader will give an encouraging speech, then everyone will socialize for a while. -->
-  <Classic_DrumParty.description>TODO</Classic_DrumParty.description>
+  <Classic_DrumParty.description>یک گردهمایی جشن برای تفریح مهاجران شما. یک رهبر سخنرانی تشویق‌کننده‌ای ایراد می‌کند، سپس همه برای مدتی معاشرت می‌کنند.</Classic_DrumParty.description>
   
   <!-- EN: conversion ritual -->
-  <Conversion.label>TODO</Conversion.label>
+  <Conversion.label>مراسم تغییر کیش</Conversion.label>
   <!-- EN: Try to persuade someone into joining your ideoligion. -->
-  <Conversion.description>TODO</Conversion.description>
+  <Conversion.description>سعی کنید کسی را متقاعد کنید که به ایدئولوژی شما بپیوندد.</Conversion.description>
   
   <!-- EN: christmas tree party -->
-  <DateRitualConsumable.label>TODO</DateRitualConsumable.label>
+  <DateRitualConsumable.label>جشن درخت کریسمس</DateRitualConsumable.label>
   <!-- EN: A celebratory gathering for your colonists to have fun. A leader will give an encouraging speech, then everyone will socialize for a while. -->
-  <DateRitualConsumable.description>TODO</DateRitualConsumable.description>
+  <DateRitualConsumable.description>یک گردهمایی جشن برای تفریح مهاجران شما. یک رهبر سخنرانی تشویق‌کننده‌ای ایراد می‌کند، سپس همه برای مدتی معاشرت می‌کنند.</DateRitualConsumable.description>
   
   <!-- EN: public execution -->
-  <Execution.label>TODO</Execution.label>
+  <Execution.label>اعدام در ملاء عام</Execution.label>
   <!-- EN: An executioner will publicly execute a prisoner. The executioner will give a short speech, execute the prisoner by cutting, and say some closing words. Spectating slaves will become afraid and intimidated, and colonists will feel exhilarated or disgusted depending on their beliefs. -->
-  <Execution.description>TODO</Execution.description>
+  <Execution.description>یک جلاد یک زندانی را در ملاء عام اعدام می‌کند. جلاد سخنرانی کوتاهی ایراد می‌کند، زندانی را با بریدن اعدام می‌کند و کلمات پایانی را می‌گوید. بردگان تماشاگر خواهند ترسید و مرعوب خواهند شد و مهاجران بسته به باورهایشان احساس هیجان یا انزجار خواهند کرد.</Execution.description>
   <!-- EN: Public execution -->
-  <Execution.tipLabelOverride>TODO</Execution.tipLabelOverride>
+  <Execution.tipLabelOverride>اعدام در ملاء عام</Execution.tipLabelOverride>
   
   <!-- EN: social festival -->
-  <Festival.label>TODO</Festival.label>
+  <Festival.label>جشنواره اجتماعی</Festival.label>
   <!-- EN: A celebratory gathering for your colonists to have fun. A leader will give an encouraging speech, then everyone will socialize for a while. -->
-  <Festival.description>TODO</Festival.description>
+  <Festival.description>یک گردهمایی جشن برای تفریح مهاجران شما. یک رهبر سخنرانی تشویق‌کننده‌ای ایراد می‌کند، سپس همه برای مدتی معاشرت می‌کنند.</Festival.description>
   
   <!-- EN: funeral -->
-  <Funeral.label>TODO</Funeral.label>
+  <Funeral.label>مراسم تشییع جنازه</Funeral.label>
   <!-- EN: A gathering that occurs around a believer's grave after they die and are buried. If the body is destroyed, an empty grave can be used. Slaves don't get funerals. -->
-  <Funeral.description>TODO</Funeral.description>
+  <Funeral.description>گردهمایی که در اطراف قبر یک مؤمن پس از مرگ و دفن او برگزار می‌شود. اگر جسد نابود شده باشد، می‌توان از یک قبر خالی استفاده کرد. بردگان مراسم تشییع جنازه ندارند.</Funeral.description>
   <!-- EN: {PAWN_nameDef} should be buried and given a funeral so {PAWN_possessive} friends and family can say farewell. -->
-  <Funeral.extraTextPawnDeathLetter>TODO</Funeral.extraTextPawnDeathLetter>
+  <Funeral.extraTextPawnDeathLetter>{PAWN_nameDef} باید دفن شود و مراسم تشییع جنازه برای او برگزار شود تا دوستان و خانواده {PAWN_possessive} بتوانند خداحافظی کنند.</Funeral.extraTextPawnDeathLetter>
   
   <!-- EN: funeral (no corpse) -->
-  <FuneralNoCorpse.label>TODO</FuneralNoCorpse.label>
+  <FuneralNoCorpse.label>مراسم تشییع جنازه (بدون جسد)</FuneralNoCorpse.label>
   <!-- EN: A gathering that occurs around a believer's grave after they die and are buried. If the body is destroyed, an empty grave can be used. Slaves don't get funerals. -->
-  <FuneralNoCorpse.description>TODO</FuneralNoCorpse.description>
+  <FuneralNoCorpse.description>گردهمایی که در اطراف قبر یک مؤمن پس از مرگ و دفن او برگزار می‌شود. اگر جسد نابود شده باشد، می‌توان از یک قبر خالی استفاده کرد. بردگان مراسم تشییع جنازه ندارند.</FuneralNoCorpse.description>
   
   <!-- EN: gladiator duel -->
-  <GladiatorDuel.label>TODO</GladiatorDuel.label>
+  <GladiatorDuel.label>دوئل گلادیاتور</GladiatorDuel.label>
   <!-- EN: A duel between prisoners or slaves. The organizer will give a speech to excite the crowd, then the duelists will fight until one of them falls or time runs out. If weapons are in the arena, the duelists will pick up and use them. -->
-  <GladiatorDuel.description>TODO</GladiatorDuel.description>
+  <GladiatorDuel.description>دوئلی بین زندانیان یا بردگان. سازمان‌دهنده برای هیجان‌زده کردن جمعیت سخنرانی می‌کند، سپس دوئل‌کنندگان تا زمانی که یکی از آنها بیفتد یا زمان تمام شود می‌جنگند. اگر سلاح در میدان باشد، دوئل‌کنندگان آنها را برمی‌دارند و استفاده می‌کنند.</GladiatorDuel.description>
   <!-- EN: Prisoner/slave gladiator duel -->
-  <GladiatorDuel.tipLabelOverride>TODO</GladiatorDuel.tipLabelOverride>
+  <GladiatorDuel.tipLabelOverride>دوئل گلادیاتور زندانی/برده</GladiatorDuel.tipLabelOverride>
   
   <!-- EN: leader speech -->
-  <LeaderSpeech.label>TODO</LeaderSpeech.label>
+  <LeaderSpeech.label>سخنرانی رهبر</LeaderSpeech.label>
   <!-- EN: A rousing speech intended to improve morale. Colonists will gather, and the leader will speak for a few hours. If all goes well, listeners will feel inspired, and gain respect for the leader. If it goes poorly, the speech will do social damage. -->
-  <LeaderSpeech.description>TODO</LeaderSpeech.description>
+  <LeaderSpeech.description>سخنرانی پرشوری که برای بهبود روحیه در نظر گرفته شده است. مهاجران جمع می‌شوند و رهبر برای چند ساعت صحبت می‌کند. اگر همه چیز خوب پیش برود، شنوندگان احساس الهام می‌کنند و به رهبر احترام می‌گذارند. اگر بد پیش برود، سخنرانی آسیب اجتماعی وارد می‌کند.</LeaderSpeech.description>
   
   <!-- EN: role change -->
-  <RoleChange.label>TODO</RoleChange.label>
+  <RoleChange.label>تغییر نقش</RoleChange.label>
   <!-- EN: A ceremony for changing social roles. The person changing roles will give a speech while others gather around. The required number of spectators must attend. -->
-  <RoleChange.description>TODO</RoleChange.description>
+  <RoleChange.description>مراسمی برای تغییر نقش‌های اجتماعی. فردی که نقش خود را تغییر می‌دهد در حالی که دیگران در اطراف جمع می‌شوند سخنرانی می‌کند. تعداد مورد نیاز تماشاگران باید حضور داشته باشند.</RoleChange.description>
   
   <!-- EN: scarification -->
-  <ScarificationCeremony.label>TODO</ScarificationCeremony.label>
+  <ScarificationCeremony.label>زخم‌زنی</ScarificationCeremony.label>
   <!-- EN: A ritualistic scarring where a cutter carves ideoligious symbols into a target. The audience will watch as the cutter gives a speech, performs the cutting, then says some finishing words. -->
-  <ScarificationCeremony.description>TODO</ScarificationCeremony.description>
+  <ScarificationCeremony.description>یک زخم‌زنی آیینی که در آن یک برش‌دهنده نمادهای ایدئولوژیک را روی یک هدف حک می‌کند. تماشاگران تماشا خواهند کرد که برش‌دهنده سخنرانی می‌کند، برش را انجام می‌دهد و سپس کلمات پایانی را می‌گوید.</ScarificationCeremony.description>
   
   <!-- EN: tree connection ritual -->
-  <TreeConnection.label>TODO</TreeConnection.label>
+  <TreeConnection.label>مراسم ارتباط با درخت</TreeConnection.label>
   <!-- EN: A connector will connect with a Gauranlen tree. The connector will touch the Gauranlen tree and speak to it, forming a permanent link. Others gather in a circle to watch and add force to the ritual. -->
-  <TreeConnection.description>TODO</TreeConnection.description>
+  <TreeConnection.description>یک متصل‌کننده با یک درخت گاورانلن ارتباط برقرار می‌کند. متصل‌کننده درخت گاورانلن را لمس می‌کند و با آن صحبت می‌کند و پیوندی دائمی ایجاد می‌کند. دیگران در یک دایره جمع می‌شوند تا تماشا کنند و به مراسم نیرو ببخشند.</TreeConnection.description>
   
   <!-- EN: trial -->
-  <Trial.label>TODO</Trial.label>
+  <Trial.label>محاکمه</Trial.label>
   <!-- EN: A trial over some heinous accusation. The initiator will accuse someone of terrible wrongdoing and gather people for a trial. Spectators will listen as the accuser and accused argue back and forth, then decide if the accusation is true. If the accused is convicted, you can freely banish, arrest or execute them and nobody will mind. The chance of a conviction depends on the social abilities of the accused and accuser, and the number of spectators. -->
-  <Trial.description>TODO</Trial.description>
+  <Trial.description>محاکمه‌ای بر سر اتهامی شنیع. آغازگر کسی را به انجام کار اشتباه وحشتناکی متهم می‌کند و مردم را برای محاکمه جمع می‌کند. تماشاگران گوش می‌دهند که متهم‌کننده و متهم با هم بحث می‌کنند، سپس تصمیم می‌گیرند که آیا اتهام درست است یا خیر. اگر متهم محکوم شود، می‌توانید آزادانه او را تبعید، دستگیر یا اعدام کنید و هیچ کس اهمیت نخواهد داد. شانس محکومیت به توانایی‌های اجتماعی متهم و متهم‌کننده و تعداد تماشاگران بستگی دارد.</Trial.description>
   
   <!-- EN: trial -->
-  <TrialMentalState.label>TODO</TrialMentalState.label>
+  <TrialMentalState.label>محاکمه</TrialMentalState.label>
   <!-- EN: A trial over some heinous accusation. The initiator will accuse someone of terrible wrongdoing and gather people for a trial. Spectators will listen as the accuser and accused argue back and forth, then decide if the accusation is true. If the accused is convicted, you can freely banish, arrest or execute them and nobody will mind. The chance of a conviction depends on the social abilities of the accused and accuser, and the number of spectators. -->
-  <TrialMentalState.description>TODO</TrialMentalState.description>
+  <TrialMentalState.description>محاکمه‌ای بر سر اتهامی شنیع. آغازگر کسی را به انجام کار اشتباه وحشتناکی متهم می‌کند و مردم را برای محاکمه جمع می‌کند. تماشاگران گوش می‌دهند که متهم‌کننده و متهم با هم بحث می‌کنند، سپس تصمیم می‌گیرند که آیا اتهام درست است یا خیر. اگر متهم محکوم شود، می‌توانید آزادانه او را تبعید، دستگیر یا اعدام کنید و هیچ کس اهمیت نخواهد داد. شانس محکومیت به توانایی‌های اجتماعی متهم و متهم‌کننده و تعداد تماشاگران بستگی دارد.</TrialMentalState.description>
   
   <!-- EN: trial -->
-  <TrialPrisoner.label>TODO</TrialPrisoner.label>
+  <TrialPrisoner.label>محاکمه</TrialPrisoner.label>
   <!-- EN: A trial over some heinous accusation. The initiator will accuse someone of terrible wrongdoing and gather people for a trial. Spectators will listen as the accuser and accused argue back and forth, then decide if the accusation is true. If the accused is convicted, you can freely banish, arrest or execute them and nobody will mind. The chance of a conviction depends on the social abilities of the accused and accuser, and the number of spectators. -->
-  <TrialPrisoner.description>TODO</TrialPrisoner.description>
+  <TrialPrisoner.description>محاکمه‌ای بر سر اتهامی شنیع. آغازگر کسی را به انجام کار اشتباه وحشتناکی متهم می‌کند و مردم را برای محاکمه جمع می‌کند. تماشاگران گوش می‌دهند که متهم‌کننده و متهم با هم بحث می‌کنند، سپس تصمیم می‌گیرند که آیا اتهام درست است یا خیر. اگر متهم محکوم شود، می‌توانید آزادانه او را تبعید، دستگیر یا اعدام کنید و هیچ کس اهمیت نخواهد داد. شانس محکومیت به توانایی‌های اجتماعی متهم و متهم‌کننده و تعداد تماشاگران بستگی دارد.</TrialPrisoner.description>
   
 </LanguageData>

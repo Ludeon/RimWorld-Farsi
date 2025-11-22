@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: human primacy -->
-  <HumanPrimacy.label>TODO</HumanPrimacy.label>
+  <HumanPrimacy.label>برتری انسان</HumanPrimacy.label>
   <!-- EN: Humans are the moral center of the universe. -->
-  <HumanPrimacy.description>TODO</HumanPrimacy.description>
+  <HumanPrimacy.description>انسان‌ها مرکز اخلاقی جهان هستند.</HumanPrimacy.description>
   <!-- EN:
     <li>creation(tag=meme_HumanPrimacy)        ->[deity0_name] created all of nature, and gave it to man as a gift, to serve man and his purposes forever.</li>
     <li>episode(uses=1,tag=meme_HumanPrimacy)  ->The people fought with the beasts of the forest, and [deity0_name] saw their struggle, and gave them weapons to control nature.</li>
@@ -23,7 +23,24 @@
     <li>archistProphecy(tag=meme_HumanPrimacy) ->[inTheEnd], by observing humanity, the archotechs will finally understand their purpose, and lift confident humanity up to rule them.</li>
     <li>animistFact(tag=meme_HumanPrimacy)     ->Nature's animals are the spirits of slaves, and demand to be taken into service.</li>
   -->
-  <HumanPrimacy.descriptionMaker.rules.rulesStrings>TODO</HumanPrimacy.descriptionMaker.rules.rulesStrings>
+  <HumanPrimacy.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_HumanPrimacy)        ->[deity0_name] تمام طبیعت را آفرید و آن را به عنوان هدیه به انسان داد تا برای همیشه در خدمت انسان و اهداف او باشد.</li>
+    <li>episode(uses=1,tag=meme_HumanPrimacy)  ->مردم با جانوران جنگل جنگیدند و [deity0_name] مبارزه آنها را دید و به آنها سلاح‌هایی برای کنترل طبیعت داد.</li>
+    <li>intro(tag=meme_HumanPrimacy)           ->اولین مهاجران سقوط کرده در [place_summary] [place_name] توسط [Animal]های انسان‌شکار محاصره شدند. [deity0_name] مداخله کرد، جانوران را کشت و ترجیح [deity0_possessive] را برای نژاد بشر روشن کرد.</li>
+    <li>conflict(tag=meme_HumanPrimacy)        ->یک [foeLeader] ضد انسان فرمانی صادر کرد که حقوق مساوی به حیوانات و انسان‌ها می‌داد. [deity0_name] گریست وقتی [memberNamePlural] مجبور شدند حقوق خود را به [Animal]ها و [Animal]ها بدهند.</li>
+    <li>founderJoin(tag=meme_HumanPrimacy)     ->یک [place_job] به نام [founderName] باغ وحش بیگانگان معروف را در [place_name] تأسیس کرد. [founder_pronoun] از نمایش‌های کشتار حیوانات برای آموزش بازدیدکنندگان در مورد تمایل [deity0_name] برای حکومت بشریت بر طبیعت استفاده کرد.</li>
+    <li>victory(tag=meme_HumanPrimacy)         ->به دلیل اقدامات [founderName]، [foeSoldiers] [foeLeader] حقیقت [deity0_name] را دیدند. آنها انسانیت مشترک خود را با [memberNamePlural] جشن گرفتند و [foeLeader] را تبعید کردند تا مانند یک حیوان در بیابان زندگی کند.</li>
+    <li>setup(tag=meme_HumanPrimacy)           ->[founderName] کلونی را در دنیایی سبز ساخت و سلطه بشریت را بر هر دشت و جنگل گسترش داد.</li>
+    <li>story(uses=1,tag=meme_HumanPrimacy)    ->یک بار، [founderName] سگی را دید که به پسری غرش می‌کرد. [founder_pronoun] دستور داد سگ را در جا بکشند.</li>
+    <li>lessonIntro(tag=meme_HumanPrimacy)         ->من از یک مزرعه خوب اداره شده پر از حیوانات سالم و محصولات پررونق بازدید کردم. در کنار آن جنگلی در حالت طبیعی خود بود، گره‌دار و شرور. آشکار بود که</li>
+    <li>lesson(tag=meme_HumanPrimacy)              ->انسان‌ها به تنهایی هستند که به جهان معنا می‌دهند</li>
+    <li>lesson(tag=meme_HumanPrimacy)              ->طبیعت یک دیوانگی بی‌پایان از نابودی غیراخلاقی است و انسان‌ها راه حل هستند</li>
+    <li>lessonReinforcement(tag=meme_HumanPrimacy) ->اگر مسابقه بقای اصلح است، پس ما به وضوح برنده شده‌اییم.</li>
+    <li>archistBasis(tag=meme_HumanPrimacy)    ->آرکوتک‌ها ماشین‌هایی با اراده و قدرت عظیم هستند، اما تنها بشریت می‌توانست آنها را خلق کند.</li>
+    <li>archistFact(tag=meme_HumanPrimacy)     ->انسان‌ها سازندگان دستگاه هستند و آرکوتک‌ها دستگاه‌های آنها هستند.</li>
+    <li>archistProphecy(tag=meme_HumanPrimacy) ->[inTheEnd]، با مشاهده بشریت، آرکوتک‌ها بالاخره هدف خود را درک خواهند کرد و بشریت با اعتماد به نفس را بالا خواهند برد تا بر آنها حکومت کند.</li>
+    <li>animistFact(tag=meme_HumanPrimacy)     ->حیوانات طبیعت ارواح بردگان هستند و خواستار به خدمت گرفته شدن هستند.</li>
+  </HumanPrimacy.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->human</li>
     <li>memeAdjective->mortal</li>
@@ -37,28 +54,40 @@
     <li>memeLeaderNoun->person</li>
     <li>memeLeaderNoun->sapient</li>
   -->
-  <HumanPrimacy.generalRules.rulesStrings>TODO</HumanPrimacy.generalRules.rulesStrings>
+  <HumanPrimacy.generalRules.rulesStrings>
+    <li>memeAdjective->انسانی</li>
+    <li>memeAdjective->فانی</li>
+    <li>memeAdjective->هومینید</li>
+    <li>memeHyphenPrefix->آنترو</li>
+    <li>memeConcept->بشر</li>
+    <li>memeConcept->بشریت</li>
+    <li>memeLeaderNoun->انسان</li>
+    <li>memeLeaderNoun->هومینید</li>
+    <li>memeLeaderNoun->فانی</li>
+    <li>memeLeaderNoun->شخص</li>
+    <li>memeLeaderNoun->هوشمند</li>
+  </HumanPrimacy.generalRules.rulesStrings>
   <!-- EN: humanitist -->
-  <HumanPrimacy.symbolPacks.0.adjective>TODO</HumanPrimacy.symbolPacks.0.adjective>
+  <HumanPrimacy.symbolPacks.0.adjective>هیومانیتیست</HumanPrimacy.symbolPacks.0.adjective>
   <!-- EN: Humanitism -->
-  <HumanPrimacy.symbolPacks.0.ideoName>TODO</HumanPrimacy.symbolPacks.0.ideoName>
+  <HumanPrimacy.symbolPacks.0.ideoName>هیومانیتیسم</HumanPrimacy.symbolPacks.0.ideoName>
   <!-- EN: humanitor -->
-  <HumanPrimacy.symbolPacks.0.member>TODO</HumanPrimacy.symbolPacks.0.member>
+  <HumanPrimacy.symbolPacks.0.member>هیومانیتور</HumanPrimacy.symbolPacks.0.member>
   <!-- EN: humanity -->
-  <HumanPrimacy.symbolPacks.0.theme>TODO</HumanPrimacy.symbolPacks.0.theme>
+  <HumanPrimacy.symbolPacks.0.theme>بشریت</HumanPrimacy.symbolPacks.0.theme>
   <!-- EN: pro-man -->
-  <HumanPrimacy.symbolPacks.1.adjective>TODO</HumanPrimacy.symbolPacks.1.adjective>
+  <HumanPrimacy.symbolPacks.1.adjective>طرفدار انسان</HumanPrimacy.symbolPacks.1.adjective>
   <!-- EN: Mankindism -->
-  <HumanPrimacy.symbolPacks.1.ideoName>TODO</HumanPrimacy.symbolPacks.1.ideoName>
+  <HumanPrimacy.symbolPacks.1.ideoName>منکایندیسم</HumanPrimacy.symbolPacks.1.ideoName>
   <!-- EN: mankindist -->
-  <HumanPrimacy.symbolPacks.1.member>TODO</HumanPrimacy.symbolPacks.1.member>
+  <HumanPrimacy.symbolPacks.1.member>منکایندیست</HumanPrimacy.symbolPacks.1.member>
   <!-- EN: mankind -->
-  <HumanPrimacy.symbolPacks.1.theme>TODO</HumanPrimacy.symbolPacks.1.theme>
+  <HumanPrimacy.symbolPacks.1.theme>بشر</HumanPrimacy.symbolPacks.1.theme>
   
   <!-- EN: nature primacy -->
-  <NaturePrimacy.label>TODO</NaturePrimacy.label>
+  <NaturePrimacy.label>برتری طبیعت</NaturePrimacy.label>
   <!-- EN: Man is a stain on nature's perfection. -->
-  <NaturePrimacy.description>TODO</NaturePrimacy.description>
+  <NaturePrimacy.description>انسان لکه‌ای بر کمال طبیعت است.</NaturePrimacy.description>
   <!-- EN:
     <li>creation(tag=meme_NaturePrimacy)        ->[deity0_name] created nature, and placed man inside it, to act as part of [deity0_possessive] great breathing tapestry of life.</li>
     <li>episode(uses=1,tag=meme_NaturePrimacy)  ->The people fought with the beasts of the forest, and [deity0_name] saw their rapacity, and struck down those who harmed the trees and beasts.</li>
@@ -76,7 +105,23 @@
     <li>archistProphecy(tag=meme_NaturePrimacy) ->[inTheEnd], there will be a resonance between the plants, the animals, humanity and the archotechs. All people who are in tune with this natural resonance will become part of the final universal consciousness.</li>
     <li>animistFact(tag=meme_NaturePrimacy)     ->Spirits become restless when humanity attempts to change them from their true nature.</li>
   -->
-  <NaturePrimacy.descriptionMaker.rules.rulesStrings>TODO</NaturePrimacy.descriptionMaker.rules.rulesStrings>
+  <NaturePrimacy.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_NaturePrimacy)        ->[deity0_name] طبیعت را آفرید و انسان را در آن قرار داد تا به عنوان بخشی از ملیله بزرگ و زنده زندگی [deity0_possessive] عمل کند.</li>
+    <li>episode(uses=1,tag=meme_NaturePrimacy)  ->مردم با جانوران جنگل جنگیدند و [deity0_name] طمع آنها را دید و کسانی را که به درختان و جانوران آسیب رساندند نابود کرد.</li>
+    <li>intro(tag=meme_NaturePrimacy)           ->اولین مهاجرانی که به [place_summary] [place_name] رسیدند، دنیای طبیعی را سنگفرش کردند و حیوانات را کشتند. [deity0_name] آنها را نابود کرد تا آنها را به خاطر بی‌احترامی به مخلوقات [deity0_possessive] مجازات کند.</li>
+    <li>conflict(tag=meme_NaturePrimacy)        ->یک [foeLeader] حریص کارخانه‌ای ساخت که سموم را به محیط زیست می‌ریخت و گیاهان و حیوانات را مسموم می‌کرد.</li>
+    <li>founderJoin(tag=meme_NaturePrimacy)     ->به عنوان یک نوزاد، [founderName] در بیابان رها شد. [deity0_name] [Animal]ها را فرستاد تا [founder_objective] را بزرگ کنند، و آنها این کار را کردند. پس از بزرگ شدن، [founderName] برای گسترش دانش نیاز به اتحاد با طبیعت تلاش کرد.</li>
+    <li>victory(tag=meme_NaturePrimacy)         ->[founderName] به [place_powerCenter] آمد، [memberNamePlural] در سمت راست [founder_possessive] و حیوانات وحشی در سمت چپ [founder_possessive]. با هم، آنها علیه [foeLeader] و [foeSoldiers] [foeLeader_possessive] جنگیدند و پیروز شدند.</li>
+    <li>setup(tag=meme_NaturePrimacy)           ->در سرزمینی تاریک، افراد شرور درختان را قطع کردند و زمین را کندند تا طمع خود را ارضا کنند. [founderName] یک جنبش صالح را برای در هم شکستن ماشین‌ها و زندگی هماهنگ در زیر طبیعت آغاز کرد.</li>
+    <li>story(uses=1,tag=meme_NaturePrimacy)    ->ما یاد گرفتیم که رشد ابدی بشریت راهی به جهنم است؛ ما باید در طبیعت زندگی کنیم نه اینکه آن را مصرف کنیم.</li>
+    <li>lessonIntro(tag=meme_NaturePrimacy)         ->شما نمی‌توانید طلوع خورشید را دیده باشید، یا به چشمان یک [Animal] نگاه کرده باشید، یا زیر یک [TreeType] قدرتمند ایستاده باشید و متوجه نشده باشید که</li>
+    <li>lesson(tag=meme_NaturePrimacy)              ->حیوانات و گیاهان از خیلی قبل از ما صاحب این جهان بوده‌اند - ما فقط در حال عبور هستیم</li>
+    <li>lessonReinforcement(tag=meme_NaturePrimacy) ->همه حیواناتی که با آنها صحبت کرده‌ام به نظر می‌رسد این را می‌فهمند.</li>
+    <li>archistBasis(tag=meme_NaturePrimacy)    ->آرکوتک‌ها از ماشین‌های ما برخاستند، اما آنها خودشان موجودات طبیعی هستند، نه چیزی که ما بتوانیم خلق کنیم.</li>
+    <li>archistFact(tag=meme_NaturePrimacy)     ->آرکوتک‌ها نشان‌دهنده جدیدترین تلاش جهان برای درک خود هستند. تمام طبیعت بخشی از این روند درک است.</li>
+    <li>archistProphecy(tag=meme_NaturePrimacy) ->[inTheEnd]، رزونانسی بین گیاهان، حیوانات، بشریت و آرکوتک‌ها وجود خواهد داشت. همه افرادی که با این رزونانس طبیعی هماهنگ هستند بخشی از آگاهی جهانی نهایی خواهند شد.</li>
+    <li>animistFact(tag=meme_NaturePrimacy)     ->ارواح بی‌قرار می‌شوند وقتی بشریت سعی می‌کند آنها را از طبیعت واقعی خود تغییر دهد.</li>
+  </NaturePrimacy.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->natural</li>
     <li>memeAdjective->wild</li>
@@ -86,38 +131,46 @@
     <li>memeCreed->meadow</li>
     <li>memeConcept->nature</li>
   -->
-  <NaturePrimacy.generalRules.rulesStrings>TODO</NaturePrimacy.generalRules.rulesStrings>
+  <NaturePrimacy.generalRules.rulesStrings>
+    <li>memeAdjective->طبیعی</li>
+    <li>memeAdjective->وحشی</li>
+    <li>memeAdjective->ارگانیک</li>
+    <li>memeCreed->لانه</li>
+    <li>memeCreed->باغ</li>
+    <li>memeCreed->چمنزار</li>
+    <li>memeConcept->طبیعت</li>
+  </NaturePrimacy.generalRules.rulesStrings>
   <!-- EN: naturist -->
-  <NaturePrimacy.symbolPacks.0.adjective>TODO</NaturePrimacy.symbolPacks.0.adjective>
+  <NaturePrimacy.symbolPacks.0.adjective>ناتوریست</NaturePrimacy.symbolPacks.0.adjective>
   <!-- EN: Naturism -->
-  <NaturePrimacy.symbolPacks.0.ideoName>TODO</NaturePrimacy.symbolPacks.0.ideoName>
+  <NaturePrimacy.symbolPacks.0.ideoName>ناتوریسم</NaturePrimacy.symbolPacks.0.ideoName>
   <!-- EN: naturist -->
-  <NaturePrimacy.symbolPacks.0.member>TODO</NaturePrimacy.symbolPacks.0.member>
+  <NaturePrimacy.symbolPacks.0.member>ناتوریست</NaturePrimacy.symbolPacks.0.member>
   <!-- EN: nature -->
-  <NaturePrimacy.symbolPacks.0.theme>TODO</NaturePrimacy.symbolPacks.0.theme>
+  <NaturePrimacy.symbolPacks.0.theme>طبیعت</NaturePrimacy.symbolPacks.0.theme>
   <!-- EN: earthist -->
-  <NaturePrimacy.symbolPacks.1.adjective>TODO</NaturePrimacy.symbolPacks.1.adjective>
+  <NaturePrimacy.symbolPacks.1.adjective>ارتیست</NaturePrimacy.symbolPacks.1.adjective>
   <!-- EN: Earthism -->
-  <NaturePrimacy.symbolPacks.1.ideoName>TODO</NaturePrimacy.symbolPacks.1.ideoName>
+  <NaturePrimacy.symbolPacks.1.ideoName>ارتیسم</NaturePrimacy.symbolPacks.1.ideoName>
   <!-- EN: earthist -->
-  <NaturePrimacy.symbolPacks.1.member>TODO</NaturePrimacy.symbolPacks.1.member>
+  <NaturePrimacy.symbolPacks.1.member>ارتیست</NaturePrimacy.symbolPacks.1.member>
   <!-- EN: earth -->
-  <NaturePrimacy.symbolPacks.1.theme>TODO</NaturePrimacy.symbolPacks.1.theme>
+  <NaturePrimacy.symbolPacks.1.theme>زمین</NaturePrimacy.symbolPacks.1.theme>
   <!-- EN: soilist -->
-  <NaturePrimacy.symbolPacks.2.adjective>TODO</NaturePrimacy.symbolPacks.2.adjective>
+  <NaturePrimacy.symbolPacks.2.adjective>سویلیست</NaturePrimacy.symbolPacks.2.adjective>
   <!-- EN: Soilism -->
-  <NaturePrimacy.symbolPacks.2.ideoName>TODO</NaturePrimacy.symbolPacks.2.ideoName>
+  <NaturePrimacy.symbolPacks.2.ideoName>سویلیسم</NaturePrimacy.symbolPacks.2.ideoName>
   <!-- EN: soilist -->
-  <NaturePrimacy.symbolPacks.2.member>TODO</NaturePrimacy.symbolPacks.2.member>
+  <NaturePrimacy.symbolPacks.2.member>سویلیست</NaturePrimacy.symbolPacks.2.member>
   <!-- EN: soil -->
-  <NaturePrimacy.symbolPacks.2.theme>TODO</NaturePrimacy.symbolPacks.2.theme>
+  <NaturePrimacy.symbolPacks.2.theme>خاک</NaturePrimacy.symbolPacks.2.theme>
   <!-- EN: lifeist -->
-  <NaturePrimacy.symbolPacks.3.adjective>TODO</NaturePrimacy.symbolPacks.3.adjective>
+  <NaturePrimacy.symbolPacks.3.adjective>لایفیست</NaturePrimacy.symbolPacks.3.adjective>
   <!-- EN: Lifism -->
-  <NaturePrimacy.symbolPacks.3.ideoName>TODO</NaturePrimacy.symbolPacks.3.ideoName>
+  <NaturePrimacy.symbolPacks.3.ideoName>لایفیسم</NaturePrimacy.symbolPacks.3.ideoName>
   <!-- EN: lifeist -->
-  <NaturePrimacy.symbolPacks.3.member>TODO</NaturePrimacy.symbolPacks.3.member>
+  <NaturePrimacy.symbolPacks.3.member>لایفیست</NaturePrimacy.symbolPacks.3.member>
   <!-- EN: life -->
-  <NaturePrimacy.symbolPacks.3.theme>TODO</NaturePrimacy.symbolPacks.3.theme>
+  <NaturePrimacy.symbolPacks.3.theme>زندگی</NaturePrimacy.symbolPacks.3.theme>
   
 </LanguageData>

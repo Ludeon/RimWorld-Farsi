@@ -5,11 +5,16 @@
     <li>terminalHackedMessage->Terminal hacked. {COUNT} / [terminalCount] complete.</li>
     <li>allTerminalsHackedMessage->You've hacked all of the terminals and discovered secret information about [relic_name]! You can now leave.</li>
   -->
-  <AncientComplex_Standard.questContentRules.rulesStrings>TODO</AncientComplex_Standard.questContentRules.rulesStrings>
+  <AncientComplex_Standard.questContentRules.rulesStrings>
+    <li>terminalHackedMessage->ترمینال هک شد. {COUNT} / [terminalCount] کامل شد.</li>
+    <li>allTerminalsHackedMessage->شما تمام ترمینال‌ها را هک کرده‌اید و اطلاعات مخفی در مورد [relic_name] را کشف کرده‌اید! اکنون می‌توانید خارج شوید.</li>
+  </AncientComplex_Standard.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->You've learned of an ancient complex nearby. It is said to contain information about [relic_name].\n\nIf you can break into the structure and hack the computers inside, you can collect the information.\n\nWatch out - there may be all manner of dangers inside, and other enemies may also be attracted by activity at the structure.</li>
   -->
-  <AncientComplex_Standard.questDescriptionRules.rulesStrings>TODO</AncientComplex_Standard.questDescriptionRules.rulesStrings>
+  <AncientComplex_Standard.questDescriptionRules.rulesStrings>
+    <li>questDescription->شما از یک مجتمع باستانی در نزدیکی مطلع شده‌اید. گفته می‌شود حاوی اطلاعاتی در مورد [relic_name] است.\n\nاگر بتوانید به داخل سازه نفوذ کنید و کامپیوترهای داخل آن را هک کنید، می‌توانید اطلاعات را جمع‌آوری کنید.\n\nمراقب باشید - ممکن است انواع خطرات در داخل وجود داشته باشد و دشمنان دیگر نیز ممکن است با فعالیت در سازه جذب شوند.</li>
+  </AncientComplex_Standard.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(p=6)->The [complexAdj] [complex]</li>
     <li>questName->The [dig]</li>
@@ -23,6 +28,18 @@
     <li>dig->dig</li>
     <li>dig->excavation</li>
   -->
-  <AncientComplex_Standard.questNameRules.rulesStrings>TODO</AncientComplex_Standard.questNameRules.rulesStrings>
+  <AncientComplex_Standard.questNameRules.rulesStrings>
+    <li>questName(p=6)->[complex] [complexAdj]</li>
+    <li>questName->[dig]</li>
+    <li>complexAdj->باستانی</li>
+    <li>complexAdj->قدیمی</li>
+    <li>complexAdj->گرد و خاکی</li>
+    <li>complexAdj->مخفی</li>
+    <li>complex->مجتمع</li>
+    <li>complex->محوطه</li>
+    <li>complex->تأسیسات</li>
+    <li>dig->حفاری</li>
+    <li>dig->کاوش</li>
+  </AncientComplex_Standard.questNameRules.rulesStrings>
   
 </LanguageData>

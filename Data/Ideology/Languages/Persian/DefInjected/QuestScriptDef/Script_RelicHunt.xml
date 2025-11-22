@@ -6,7 +6,11 @@
     <li>questDescription(classicMode==False)->You've learned that a relic of [ideo_name] is nearby.\n\nThe [relic_name] is an ancient object venerated by all [ideo_memberNamePlural]. If you could collect it, you could build a great reliquary to make [ideo_memberNamePlural] happy, attract wealthy pilgrims, and bring more people to [ideo_name].</li>
     <li>questDescriptionPartBeforeDiscovery->First, you need to find the [relic_name]. Watch for opportunities to gather information about it.</li>
   -->
-  <RelicHunt.questDescriptionRules.rulesStrings>TODO</RelicHunt.questDescriptionRules.rulesStrings>
+  <RelicHunt.questDescriptionRules.rulesStrings>
+    <li>questDescription(classicMode==True)->شما متوجه شده‌اید که یک یادگار ارزشمند در نزدیکی است.\n\n[relic_name] یکی از [relicGlobalCount] اشیاء باستانی است که توسط بسیاری از مردم مورد احترام است. اگر بتوانید آن را جمع‌آوری کنید، می‌توانید یک ضریح بسازید تا مهاجران خود را خوشحال کنید و زائران ثروتمند را جذب کنید.</li>
+    <li>questDescription(classicMode==False)->شما متوجه شده‌اید که یادگاری از [ideo_name] در نزدیکی است.\n\n[relic_name] یک شیء باستانی است که توسط همه [ideo_memberNamePlural] مورد احترام است. اگر بتوانید آن را جمع‌آوری کنید، می‌توانید یک ضریح بزرگ بسازید تا [ideo_memberNamePlural] را خوشحال کنید، زائران ثروتمند را جذب کنید و افراد بیشتری را به [ideo_name] بیاورید.</li>
+    <li>questDescriptionPartBeforeDiscovery->ابتدا باید [relic_name] را پیدا کنید. مراقب فرصت‌هایی برای جمع‌آوری اطلاعات در مورد آن باشید.</li>
+  </RelicHunt.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [hunt] for the [item]</li>
     <li>questName->The [itemAdj] [item]</li>
@@ -21,6 +25,19 @@
     <li>itemAdj->revered</li>
     <li>itemAdj->venerated</li>
   -->
-  <RelicHunt.questNameRules.rulesStrings>TODO</RelicHunt.questNameRules.rulesStrings>
+  <RelicHunt.questNameRules.rulesStrings>
+    <li>questName->[hunt] برای [item]</li>
+    <li>questName->[item] [itemAdj]</li>
+    <li>questName(classicMode==False)->[item] [ideo_name]</li>
+    <li>hunt->شکار</li>
+    <li>hunt->جستجو</li>
+    <li>hunt->مأموریت</li>
+    <li>item(p=4)->[relic_name]</li>
+    <li>item->یادگار</li>
+    <li>item->مصنوع</li>
+    <li>itemAdj->باستانی</li>
+    <li>itemAdj->مورد احترام</li>
+    <li>itemAdj->مقدس</li>
+  </RelicHunt.questNameRules.rulesStrings>
   
 </LanguageData>

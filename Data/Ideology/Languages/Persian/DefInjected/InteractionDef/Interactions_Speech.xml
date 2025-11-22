@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: role acceptance speech -->
-  <Speech_AcceptRole.label>TODO</Speech_AcceptRole.label>
+  <Speech_AcceptRole.label>سخنرانی پذیرش نقش</Speech_AcceptRole.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>speechtopic->[INITIATOR_possessive] new role in the community</li>
@@ -29,10 +29,35 @@
     <li>speechtopic->taking responsibility</li>
     <li>speechtopic->putting a role above [INITIATOR_possessive] personal desires</li>
   -->
-  <Speech_AcceptRole.logRulesInitiator.rulesStrings>TODO</Speech_AcceptRole.logRulesInitiator.rulesStrings>
+  <Speech_AcceptRole.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+    <li>speechtopic->نقش جدید [INITIATOR_possessive] در جامعه</li>
+    <li>speechtopic->مسئولیت نقش جدید [INITIATOR_possessive]</li>
+    <li>speechtopic->اهمیت نقش جدید [INITIATOR_possessive]</li>
+    <li>speechtopic->ویژگی‌های خوب [INITIATOR_possessive]</li>
+    <li>speechtopic->نقاط قوت [INITIATOR_possessive] و چگونگی بهره‌برداری از آنها</li>
+    <li>speechtopic->کاستی‌های [INITIATOR_possessive]</li>
+    <li>speechtopic->نقاط ضعف [INITIATOR_possessive] و چگونگی غلبه بر آنها</li>
+    <li>speechtopic->تمایل [INITIATOR_possessive] به خدمت به جامعه</li>
+    <li>speechtopic->تعهد [INITIATOR_possessive] به باورهای [INITIATOR_possessive]</li>
+    <li>speechtopic->باورهای [INITIATOR_possessive] در مورد آینده</li>
+    <li>speechtopic->آرزوی [INITIATOR_possessive] برای خدمت به هدفی بزرگتر</li>
+    <li>speechtopic->[PersonalCharacteristic] [INITIATOR_possessive] و ارتباط آن با نقش</li>
+    <li>speechtopic->چگونه [PersonalCharacteristic] [INITIATOR_possessive] [INITIATOR_objective] را برای نقش مناسب می‌کند</li>
+    <li>speechtopic->چگونه [INITIATOR_pronoun] از [PersonalCharacteristic] [INITIATOR_possessive] برای غلبه بر موانع استفاده خواهد کرد</li>
+    <li>speechtopic->سپاسگزاری</li>
+    <li>speechtopic->نشان دادن قدردانی</li>
+    <li>speechtopic->هدف زندگی</li>
+    <li>speechtopic->آینده کلونی</li>
+    <li>speechtopic->بهبود کلونی</li>
+    <li>speechtopic->تصمیم‌گیری تحت فشار</li>
+    <li>speechtopic->ساختار اجتماعی جامعه</li>
+    <li>speechtopic->پذیرش مسئولیت</li>
+    <li>speechtopic->قرار دادن نقش بالاتر از خواسته های شخصی [INITIATOR_possessive]</li>
+  </Speech_AcceptRole.logRulesInitiator.rulesStrings>
   
   <!-- EN: blinding speech -->
-  <Speech_Blinding.label>TODO</Speech_Blinding.label>
+  <Speech_Blinding.label>سخنرانی کورسازی</Speech_Blinding.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>speechtopic->blindness</li>
@@ -49,10 +74,25 @@
     <li>speechtopic->the true layers of reality under the visual</li>
     <li>speechtopic->psychic connections</li>
   -->
-  <Speech_Blinding.logRulesInitiator.rulesStrings>TODO</Speech_Blinding.logRulesInitiator.rulesStrings>
+  <Speech_Blinding.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+    <li>speechtopic->کوری</li>
+    <li>speechtopic->خلوص کوری</li>
+    <li>speechtopic->معنای معنوی نابینایان</li>
+    <li>speechtopic->جهان‌های پنهان فراتر از دید</li>
+    <li>speechtopic->دروغین بودن واقعیت بصری ما</li>
+    <li>speechtopic->تکنیک کورسازی</li>
+    <li>speechtopic->نفرین بینایی</li>
+    <li>speechtopic->ژله داخل کره چشم</li>
+    <li>speechtopic->بزرگ شدن با بینایی</li>
+    <li>speechtopic->بزرگ شدن در کوری</li>
+    <li>speechtopic->کاوش بدون دیدن یا حرکت کردن</li>
+    <li>speechtopic->لایه‌های واقعی واقعیت در زیر لایه بصری</li>
+    <li>speechtopic->ارتباطات روانی</li>
+  </Speech_Blinding.logRulesInitiator.rulesStrings>
   
   <!-- EN: conversion speech -->
-  <Speech_Conversion.label>TODO</Speech_Conversion.label>
+  <Speech_Conversion.label>سخنرانی تغییر کیش</Speech_Conversion.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>speechtopic->uniting for the greater good</li>
@@ -71,10 +111,27 @@
     <li>speechtopic->false other beliefs</li>
     <li>speechtopic->progress towards the future</li>
   -->
-  <Speech_Conversion.logRulesInitiator.rulesStrings>TODO</Speech_Conversion.logRulesInitiator.rulesStrings>
+  <Speech_Conversion.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+    <li>speechtopic->اتحاد برای خیر بزرگتر</li>
+    <li>speechtopic->اشتباه بودن ارتداد</li>
+    <li>speechtopic->انتخاب باورهای درست</li>
+    <li>speechtopic->ساختار اخلاقی جهان</li>
+    <li>speechtopic->درست و غلط</li>
+    <li>speechtopic->هدف زندگی</li>
+    <li>speechtopic->معنای زندگی</li>
+    <li>speechtopic->تاریخ بشر</li>
+    <li>speechtopic->آینده بشر</li>
+    <li>speechtopic->عشق و نفرت</li>
+    <li>speechtopic->ترس و امنیت</li>
+    <li>speechtopic->درستی تعلق داشتن</li>
+    <li>speechtopic->پیوستن و تعلق داشتن</li>
+    <li>speechtopic->باورهای غلط دیگر</li>
+    <li>speechtopic->پیشرفت به سوی آینده</li>
+  </Speech_Conversion.logRulesInitiator.rulesStrings>
   
   <!-- EN: celebration speech -->
-  <Speech_DateRitual.label>TODO</Speech_DateRitual.label>
+  <Speech_DateRitual.label>سخنرانی جشن</Speech_DateRitual.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [praised] [praisetopic].</li>
     <li>praisetopic->the joy of ideological celebrations</li>
@@ -86,10 +143,20 @@
     <li>praisetopic->sharing ideas</li>
     <li>praisetopic->[INITIATOR_possessive] own group</li>
   -->
-  <Speech_DateRitual.logRulesInitiator.rulesStrings>TODO</Speech_DateRitual.logRulesInitiator.rulesStrings>
+  <Speech_DateRitual.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [praised] [praisetopic].</li>
+    <li>praisetopic->لذت جشن‌های ایدئولوژیک</li>
+    <li>praisetopic->تفکر صحیح</li>
+    <li>praisetopic->ساختار اخلاقی جهان</li>
+    <li>praisetopic->باورهای [INITIATOR_possessive]</li>
+    <li>praisetopic->با هم بودن</li>
+    <li>praisetopic->در کنار هم بودن</li>
+    <li>praisetopic->به اشتراک گذاشتن ایده‌ها</li>
+    <li>praisetopic->گروه خود [INITIATOR_possessive]</li>
+  </Speech_DateRitual.logRulesInitiator.rulesStrings>
   
   <!-- EN: duel speech -->
-  <Speech_Duel.label>TODO</Speech_Duel.label>
+  <Speech_Duel.label>سخنرانی دوئل</Speech_Duel.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [praised] [praisetopic].</li>
     <li>praisetopic->death by blade</li>
@@ -108,10 +175,27 @@
     <li>praisetopic->anger and hope</li>
     <li>praisetopic->rage and strength</li>
   -->
-  <Speech_Duel.logRulesInitiator.rulesStrings>TODO</Speech_Duel.logRulesInitiator.rulesStrings>
+  <Speech_Duel.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [praised] [praisetopic].</li>
+    <li>praisetopic->مرگ با شمشیر</li>
+    <li>praisetopic->مرگ دردناک</li>
+    <li>praisetopic->مرگ شرافتمندانه</li>
+    <li>praisetopic->نبرد شرافتمندانه</li>
+    <li>praisetopic->سرسختی و مبارزه</li>
+    <li>praisetopic->سلاح‌ها و جنگجویان [AdjectiveBadass]</li>
+    <li>praisetopic->خلوص درگیری فیزیکی</li>
+    <li>praisetopic->عشق از طریق مرگ</li>
+    <li>praisetopic->بیرون راندن نفرت برای سلامتی</li>
+    <li>praisetopic->قدرت بر دیگران</li>
+    <li>praisetopic->درگیری ذاتی در جهان</li>
+    <li>praisetopic->خون و خاک</li>
+    <li>praisetopic->زندگی و درام</li>
+    <li>praisetopic->خشم و امید</li>
+    <li>praisetopic->خشم و قدرت</li>
+  </Speech_Duel.logRulesInitiator.rulesStrings>
   
   <!-- EN: execution speech -->
-  <Speech_Execution.label>TODO</Speech_Execution.label>
+  <Speech_Execution.label>سخنرانی اعدام</Speech_Execution.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>speechtopic->life and death</li>
@@ -124,10 +208,21 @@
     <li>speechtopic->capital punishment and its history</li>
     <li>speechtopic->the reasons for the execution</li>
   -->
-  <Speech_Execution.logRulesInitiator.rulesStrings>TODO</Speech_Execution.logRulesInitiator.rulesStrings>
+  <Speech_Execution.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+    <li>speechtopic->زندگی و مرگ</li>
+    <li>speechtopic->ضرورت عدالت</li>
+    <li>speechtopic->روش‌های اعدام</li>
+    <li>speechtopic->مرگ و بی‌رحمی</li>
+    <li>speechtopic->کشتن از روی ترحم</li>
+    <li>speechtopic->رحم یک کشتن صحیح</li>
+    <li>speechtopic->نمادین بودن مرگ</li>
+    <li>speechtopic->مجازات اعدام و تاریخچه آن</li>
+    <li>speechtopic->دلایل اعدام</li>
+  </Speech_Execution.logRulesInitiator.rulesStrings>
   
   <!-- EN: funeral speech -->
-  <Speech_Funeral.label>TODO</Speech_Funeral.label>
+  <Speech_Funeral.label>سخنرانی تشییع جنازه</Speech_Funeral.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>speechtopic->the nobility of sacrifice</li>
@@ -143,10 +238,24 @@
     <li>speechtopic->life and joy</li>
     <li>speechtopic->carrying forward unfinished work</li>
   -->
-  <Speech_Funeral.logRulesInitiator.rulesStrings>TODO</Speech_Funeral.logRulesInitiator.rulesStrings>
+  <Speech_Funeral.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+    <li>speechtopic->شرافت فداکاری</li>
+    <li>speechtopic->مرگ</li>
+    <li>speechtopic->زندگی پس از مرگ</li>
+    <li>speechtopic->مرگ و خانواده</li>
+    <li>speechtopic->مفهوم یک زندگی خوب</li>
+    <li>speechtopic->مرگ به عنوان راهی به سوی کرامت</li>
+    <li>speechtopic->آغازها و پایان‌ها</li>
+    <li>speechtopic->آنچه پس از مرگ اتفاق می‌افتد</li>
+    <li>speechtopic->جشن گرفتن مرحله بعدی</li>
+    <li>speechtopic->دوستان غایب</li>
+    <li>speechtopic->زندگی و شادی</li>
+    <li>speechtopic->ادامه دادن کارهای ناتمام</li>
+  </Speech_Funeral.logRulesInitiator.rulesStrings>
   
   <!-- EN: leader speech -->
-  <Speech_Leader.label>TODO</Speech_Leader.label>
+  <Speech_Leader.label>سخنرانی رهبر</Speech_Leader.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>speechtopic->searching for [Vegetable]s</li>
@@ -183,10 +292,45 @@
     <li>speechtopic(p=0.25)->strong hands and hearts</li>
     <li>speechtopic(p=0.25)->the right to survive</li>
   -->
-  <Speech_Leader.logRulesInitiator.rulesStrings>TODO</Speech_Leader.logRulesInitiator.rulesStrings>
+  <Speech_Leader.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+    <li>speechtopic->جستجو برای [Vegetable]ها</li>
+    <li>speechtopic->چگونه [AdjectiveFriendly] باشیم</li>
+    <li>speechtopic->اجتناب از [AnimalBadass]ها</li>
+    <li>speechtopic->چگونه زندگی مانند [Game] است</li>
+    <li>speechtopic->ذهن به عنوان یک [Weapon]</li>
+    <li>speechtopic->کاوش از طریق [TerrainFeature]ها و [TerrainFeature]ها</li>
+    <li>speechtopic->وعده‌ها به [Direction]</li>
+    <li>speechtopic->چگونه بیشتر شبیه [Animal]ها باشیم</li>
+    <li>speechtopic->نمادین بودن [NaturalObject] و [NaturalObject]</li>
+    <li>speechtopic->چگونه همه [PersonFamily] و [PersonFamily] هستند</li>
+    <li>speechtopic->چگونه یک [PersonAlly] خوب باشیم</li>
+    <li>speechtopic->نیاز به [PersonJob]ها</li>
+    <li>speechtopic->اجتناب از [PersonBadass]ها</li>
+    <li>speechtopic->شکست دادن [Enemy]ها از طریق [ConceptPositive]</li>
+    <li>speechtopic->دیدن [Gore] در طول نبرد</li>
+    <li>speechtopic->تاریخچه [Mechanoid]ها</li>
+    <li>speechtopic->معنای [ConceptPositive]</li>
+    <li>speechtopic->[ConceptPositive] کلونی</li>
+    <li>speechtopic->چگونه [AdjectiveBadass] باشیم بدون اینکه [AdjectiveBadass] باشیم</li>
+    <li>speechtopic->چقدر کلونی [AdjectiveBadass] است</li>
+    <li>speechtopic->[TerrainFeature]های [AdjectiveNatural]</li>
+    <li>speechtopic->پتانسیل [AdjectiveLarge] کلونی</li>
+    <li>speechtopic->[PersonalCharacteristic] هر کلونیست</li>
+    <li>speechtopic->[PersonalCharacteristic] وحشتناک دشمنان کلونی</li>
+    <li>speechtopic(p=0.25)->با هم ماندن به عنوان گروه</li>
+    <li>speechtopic(p=0.25)->مسیر پیش رو از طریق تراژدی</li>
+    <li>speechtopic(p=0.25)->جامعه و اهمیت آن</li>
+    <li>speechtopic(p=0.25)->بقا در برابر تجمل</li>
+    <li>speechtopic(p=0.25)->شادی از طریق سختی</li>
+    <li>speechtopic(p=0.25)->رضایت از طریق رنج</li>
+    <li>speechtopic(p=0.25)->مرگ به عنوان انگیزه</li>
+    <li>speechtopic(p=0.25)->دستان و قلب‌های قوی</li>
+    <li>speechtopic(p=0.25)->حق زنده ماندن</li>
+  </Speech_Leader.logRulesInitiator.rulesStrings>
   
   <!-- EN: role removal speech -->
-  <Speech_RemoveRole.label>TODO</Speech_RemoveRole.label>
+  <Speech_RemoveRole.label>سخنرانی حذف نقش</Speech_RemoveRole.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>speechtopic->[INITIATOR_possessive] past role in the community</li>
@@ -208,10 +352,30 @@
     <li>speechtopic->better candidates</li>
     <li>speechtopic->putting community goals above [INITIATOR_possessive] personal ambitions</li>
   -->
-  <Speech_RemoveRole.logRulesInitiator.rulesStrings>TODO</Speech_RemoveRole.logRulesInitiator.rulesStrings>
+  <Speech_RemoveRole.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+    <li>speechtopic->نقش گذشته [INITIATOR_possessive] در جامعه</li>
+    <li>speechtopic->مسئولیت نقش قدیمی [INITIATOR_possessive]</li>
+    <li>speechtopic->دشواری نقش قدیمی [INITIATOR_possessive]</li>
+    <li>speechtopic->کاستی‌های [INITIATOR_possessive]</li>
+    <li>speechtopic->نقاط ضعف [INITIATOR_possessive] و چگونگی غلبه بر آنها</li>
+    <li>speechtopic->ناامیدی [INITIATOR_possessive] از جامعه</li>
+    <li>speechtopic->تعهد [INITIATOR_possessive] به باورهای [INITIATOR_possessive]</li>
+    <li>speechtopic->باورهای [INITIATOR_possessive] در مورد آینده</li>
+    <li>speechtopic->آرزوی [INITIATOR_possessive] برای دنبال کردن اهداف شخصی [INITIATOR_possessive]</li>
+    <li>speechtopic->کمبود [PersonalCharacteristic] در [INITIATOR_possessive]</li>
+    <li>speechtopic->گذشته [INITIATOR_possessive]</li>
+    <li>speechtopic->نشان دادن فروتنی</li>
+    <li>speechtopic->هدف زندگی</li>
+    <li>speechtopic->آینده کلونی</li>
+    <li>speechtopic->بهبود کلونی</li>
+    <li>speechtopic->ساختار اجتماعی جامعه</li>
+    <li>speechtopic->نامزدهای بهتر</li>
+    <li>speechtopic->قرار دادن اهداف جامعه بالاتر از جاه‌طلبی‌های شخصی [INITIATOR_possessive]</li>
+  </Speech_RemoveRole.logRulesInitiator.rulesStrings>
   
   <!-- EN: sacrifice speech -->
-  <Speech_Sacrifice.label>TODO</Speech_Sacrifice.label>
+  <Speech_Sacrifice.label>سخنرانی قربانی</Speech_Sacrifice.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_nameDef] [crazy].</li>
@@ -235,10 +399,32 @@
     <li>crazy->brandished a blade</li>
     <li>crazy->muttered repetitively</li>
   -->
-  <Speech_Sacrifice.logRulesInitiator.rulesStrings>TODO</Speech_Sacrifice.logRulesInitiator.rulesStrings>
+  <Speech_Sacrifice.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_nameDef] [crazy].</li>
+    <li>speechtopic->معنا و ارزش واقعی مرگ</li>
+    <li>speechtopic->ابراز درد</li>
+    <li>speechtopic->بی‌رحمی کنترل شده</li>
+    <li>speechtopic->گرمای خون</li>
+    <li>speechtopic->معنای مرگ</li>
+    <li>speechtopic->عشق و مرگ</li>
+    <li>speechtopic->نمادین کردن درد</li>
+    <li>speechtopic->تیغه‌ها و گوشت</li>
+    <li>speechtopic->هنر بریدن</li>
+    <li>speechtopic->وسوسه خون</li>
+    <li>speechtopic->موسیقی فریادها</li>
+    <li>speechtopic->دل و روده روی زمین</li>
+    <li>crazy->دیوانه‌وار فریاد زد</li>
+    <li>crazy->شروع به خواندن ورد کرد</li>
+    <li>crazy->به سوی آسمان‌ها ورد خواند</li>
+    <li>crazy->در چشم قربانی تف کرد</li>
+    <li>crazy->قهقهه زد</li>
+    <li>crazy->تیغه‌ای را تکان داد</li>
+    <li>crazy->مکرراً زمزمه کرد</li>
+  </Speech_Sacrifice.logRulesInitiator.rulesStrings>
   
   <!-- EN: scarification speech -->
-  <Speech_Scarification.label>TODO</Speech_Scarification.label>
+  <Speech_Scarification.label>سخنرانی زخم‌زنی</Speech_Scarification.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_nameDef] [crazy].</li>
@@ -260,10 +446,30 @@
     <li>crazy->brandished a blade</li>
     <li>crazy->muttered repetitively</li>
   -->
-  <Speech_Scarification.logRulesInitiator.rulesStrings>TODO</Speech_Scarification.logRulesInitiator.rulesStrings>
+  <Speech_Scarification.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_nameDef] [crazy].</li>
+    <li>speechtopic->ثبت درد بر روی بدن</li>
+    <li>speechtopic->ابراز درد</li>
+    <li>speechtopic->بی‌رحمی کنترل شده</li>
+    <li>speechtopic->گرمای خون</li>
+    <li>speechtopic->معنای زخم</li>
+    <li>speechtopic->عشق و درد</li>
+    <li>speechtopic->نمادین کردن درد</li>
+    <li>speechtopic->تیغه‌ها و گوشت</li>
+    <li>speechtopic->هنر بریدن</li>
+    <li>speechtopic->وسوسه خون</li>
+    <li>speechtopic->موسیقی فریادها</li>
+    <li>crazy->دیوانه‌وار فریاد زد</li>
+    <li>crazy->شروع به خواندن ورد کرد</li>
+    <li>crazy->به سوی آسمان‌ها ورد خواند</li>
+    <li>crazy->قهقهه زد</li>
+    <li>crazy->تیغه‌ای را تکان داد</li>
+    <li>crazy->مکرراً زمزمه کرد</li>
+  </Speech_Scarification.logRulesInitiator.rulesStrings>
   
   <!-- EN: tree connection speech -->
-  <Speech_TreeConnection.label>TODO</Speech_TreeConnection.label>
+  <Speech_TreeConnection.label>سخنرانی ارتباط با درخت</Speech_TreeConnection.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>speechtopic->the trees and the people</li>
@@ -279,6 +485,20 @@
     <li>speechtopic->plant life and eternity</li>
     <li>speechtopic->connecting with nature</li>
   -->
-  <Speech_TreeConnection.logRulesInitiator.rulesStrings>TODO</Speech_TreeConnection.logRulesInitiator.rulesStrings>
+  <Speech_TreeConnection.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+    <li>speechtopic->درختان و مردم</li>
+    <li>speechtopic->درختان و قدرت‌های روانی</li>
+    <li>speechtopic->درایادها</li>
+    <li>speechtopic->چرخه زندگی گاورانلن</li>
+    <li>speechtopic->حضور معنوی درختان گاورانلن</li>
+    <li>speechtopic->دندروپاتی روانی</li>
+    <li>speechtopic->چقدر درایادها بامزه هستند</li>
+    <li>speechtopic->شرافت درایادها</li>
+    <li>speechtopic->سن درختان</li>
+    <li>speechtopic->نقش بشریت در زیر درختان</li>
+    <li>speechtopic->زندگی گیاهی و ابدیت</li>
+    <li>speechtopic->ارتباط با طبیعت</li>
+  </Speech_TreeConnection.logRulesInitiator.rulesStrings>
   
 </LanguageData>

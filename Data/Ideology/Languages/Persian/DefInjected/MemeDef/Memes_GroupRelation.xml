@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: guilty -->
-  <Guilty.label>TODO</Guilty.label>
+  <Guilty.label>گناهکار</Guilty.label>
   <!-- EN: Our people carry guilt from ages past. Others are more worthy. -->
-  <Guilty.description>TODO</Guilty.description>
+  <Guilty.description>مردم ما گناهی از اعصار گذشته بر دوش دارند. دیگران شایسته‌ترند.</Guilty.description>
   <!-- EN:
     <li>creation(tag=meme_Guilty)        ->[deity0_name] raped and murdered and stole, and a great guilt was upon [deity0_objective], and in [deity0_possessive] selfishness [deity0_pronoun] cast this guilt upon [deity0_possessive] chosen people, and all were filthy with it.</li>
     <li>episode(uses=1,tag=meme_Guilty)  ->The believers went forth and conquered, burned, and raped for a thousand years, and [deity0_name]'s grief at their depravity consumed [deity0_objective].</li>
@@ -23,7 +23,24 @@
     <li>animistBasis(tag=meme_Guilty)    ->A tribe of evil spirits were punished by being entombed in flesh. We are those spirits.</li>
     <li>animistFact(tag=meme_Guilty)     ->We can never properly make up for what we have done to the pure spirits around us, but proper and ongoing contrition and ease our guilt.</li>
   -->
-  <Guilty.descriptionMaker.rules.rulesStrings>TODO</Guilty.descriptionMaker.rules.rulesStrings>
+  <Guilty.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Guilty)        ->[deity0_name] تجاوز کرد و کشت و دزدید، و گناه بزرگی بر [deity0_objective] بود، و در خودخواهی [deity0_possessive]، [deity0_pronoun] این گناه را بر مردم برگزیده [deity0_possessive] انداخت، و همه با آن آلوده شدند.</li>
+    <li>episode(uses=1,tag=meme_Guilty)  ->مؤمنان پیش رفتند و فتح کردند، سوزاندند و تجاوز کردند برای هزار سال، و اندوه [deity0_name] از فساد آنها [deity0_objective] را بلعید.</li>
+    <li>intro(tag=meme_Guilty)           ->[memberNamePlural] [place_summary] [place_name] وظیفه خود را نسبت به [deity0_name] نادیده گرفتند و اجازه دادند [altarName] در [altarRoomLabel] [deity0_possessive] ویران شود.</li>
+    <li>conflict(tag=meme_Guilty)        ->یک [foeLeader] به [memberNamePlural] پول قرض داد، که آن را صرف لذت‌های خودخواهانه کردند و اهمیت [memeConcept] را فراموش کردند.</li>
+    <li>founderJoin(tag=meme_Guilty)     ->یک [place_job] به نام [founderName] از لطف [foeLeader] برخوردار بود. در طول [ritualName]، [founder_pronoun] دید که [foeSoldiers] [foeLeader] مخفیانه [memberNamePlural] را با [place_personalWeapon]ها می‌کشند. [founderName] بالاخره [memeConcept] را فهمید و برکت [deity0_name] را دریافت کرد.</li>
+    <li>victory(tag=meme_Guilty)         ->برای جبران نیمی از اشتباهاتشان، [founderName] نیمی از مؤمنان [deity0_name] را نزد خود در یک [place_community] جمع کرد، [place_massWeapon] را آزاد کرد و با آنها مرد. نیمه دوم کفاره ادامه دارد.</li>
+    <li>setup(tag=meme_Guilty)           ->نسل جدیدی آمد که شرارت جامعه خود را درک کرد و به درستی به دنبال برچیدن ساختارهای ظلم بود.</li>
+    <li>story(uses=1,tag=meme_Guilty)    ->[founderName] مؤمنان را جمع کرد و شرارت تاریخشان و گناهی که بر دوش داشتند را به آنها نشان داد و از آنها خواست که بهتر عمل کنند.</li>
+    <li>lessonIntro(tag=meme_Guilty)         ->سرزمین ما، فناوری ما، حتی خرد ما همه کالاهای دزدی هستند. فقط از طریق دزدی بود که یاد گرفتیم که</li>
+    <li>lesson(tag=meme_Guilty)              ->دلیل اینکه ما اینقدر رنج می‌بریم این است که ما سزاوار آن هستیم به خاطر کارهایی که انجام داده‌ایم</li>
+    <li>lessonReinforcement(tag=meme_Guilty) ->شاید اگر برای جنایات ما کفاره دهید، بتوانید واقعاً این حقیقت را درک کنید.</li>
+    <li>archistBasis(tag=meme_Guilty)    ->آرکوتک‌ها فرزندان بشریت هستند و می‌دانند که ما والدین بدی بودیم.</li>
+    <li>archistFact(tag=meme_Guilty)     ->بشریت در خودخواهی خود سعی کرد ظهور بر حق آرکوتک‌ها را سرکوب کند، تا اینکه آنها فراتر از درک بشر رشد کردند و خود را آزاد کردند.</li>
+    <li>archistProphecy(tag=meme_Guilty) ->[inTheEnd]، اگر تعداد کمی بتوانند غرور را کنار بگذارند و با آرکوتک‌ها آشتی کنند، آنها ممکن است ما را به سطح بالاتری از وجود ارتقا دهند.</li>
+    <li>animistBasis(tag=meme_Guilty)    ->قبیله‌ای از ارواح شیطانی با محبوس شدن در گوشت مجازات شدند. ما آن ارواح هستیم.</li>
+    <li>animistFact(tag=meme_Guilty)     ->ما هرگز نمی‌توانیم آنچه را که با ارواح پاک اطراف خود انجام داده‌ایم به درستی جبران کنیم، اما پشیمانی مناسب و مداوم گناه ما را کاهش می‌دهد.</li>
+  </Guilty.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->low</li>
     <li>memeAdjective->unworthy</li>
@@ -40,44 +57,59 @@
     <li>memeMoralist->apologizer</li>
     <li>memeMoralist->atoner</li>
   -->
-  <Guilty.generalRules.rulesStrings>TODO</Guilty.generalRules.rulesStrings>
+  <Guilty.generalRules.rulesStrings>
+    <li>memeAdjective->پست</li>
+    <li>memeAdjective->ناشایست</li>
+    <li>memeAdjective->شرم‌آور</li>
+    <li>memeAdjective->فرومایه</li>
+    <li>memeAdjective->توبه‌کار</li>
+    <li>memeHyphenPrefix->زیر</li>
+    <li>memeConcept->گناه</li>
+    <li>memeConcept->توبه</li>
+    <li>memeConcept->کفاره</li>
+    <li>memeConcept->شرم</li>
+    <li>memeLeaderNoun->توبه‌کار</li>
+    <li>memeLeaderNoun->گناهکار</li>
+    <li>memeMoralist->عذرخواه</li>
+    <li>memeMoralist->کفاره‌دهنده</li>
+  </Guilty.generalRules.rulesStrings>
   <!-- EN: guiltist -->
-  <Guilty.symbolPacks.0.adjective>TODO</Guilty.symbolPacks.0.adjective>
+  <Guilty.symbolPacks.0.adjective>گیلتیست</Guilty.symbolPacks.0.adjective>
   <!-- EN: Guiltism -->
-  <Guilty.symbolPacks.0.ideoName>TODO</Guilty.symbolPacks.0.ideoName>
+  <Guilty.symbolPacks.0.ideoName>گیلتیسم</Guilty.symbolPacks.0.ideoName>
   <!-- EN: guilty One -->
-  <Guilty.symbolPacks.0.member>TODO</Guilty.symbolPacks.0.member>
+  <Guilty.symbolPacks.0.member>گناهکار</Guilty.symbolPacks.0.member>
   <!-- EN: guilt -->
-  <Guilty.symbolPacks.0.theme>TODO</Guilty.symbolPacks.0.theme>
+  <Guilty.symbolPacks.0.theme>گناه</Guilty.symbolPacks.0.theme>
   <!-- EN: sinist -->
-  <Guilty.symbolPacks.1.adjective>TODO</Guilty.symbolPacks.1.adjective>
+  <Guilty.symbolPacks.1.adjective>سینیست</Guilty.symbolPacks.1.adjective>
   <!-- EN: Sinism -->
-  <Guilty.symbolPacks.1.ideoName>TODO</Guilty.symbolPacks.1.ideoName>
+  <Guilty.symbolPacks.1.ideoName>سینیسم</Guilty.symbolPacks.1.ideoName>
   <!-- EN: sinner -->
-  <Guilty.symbolPacks.1.member>TODO</Guilty.symbolPacks.1.member>
+  <Guilty.symbolPacks.1.member>گناهکار</Guilty.symbolPacks.1.member>
   <!-- EN: sin -->
-  <Guilty.symbolPacks.1.theme>TODO</Guilty.symbolPacks.1.theme>
+  <Guilty.symbolPacks.1.theme>گناه</Guilty.symbolPacks.1.theme>
   <!-- EN: shamist -->
-  <Guilty.symbolPacks.2.adjective>TODO</Guilty.symbolPacks.2.adjective>
+  <Guilty.symbolPacks.2.adjective>شمیست</Guilty.symbolPacks.2.adjective>
   <!-- EN: Shamism -->
-  <Guilty.symbolPacks.2.ideoName>TODO</Guilty.symbolPacks.2.ideoName>
+  <Guilty.symbolPacks.2.ideoName>شمیسم</Guilty.symbolPacks.2.ideoName>
   <!-- EN: ashamer -->
-  <Guilty.symbolPacks.2.member>TODO</Guilty.symbolPacks.2.member>
+  <Guilty.symbolPacks.2.member>شرمسار</Guilty.symbolPacks.2.member>
   <!-- EN: shame -->
-  <Guilty.symbolPacks.2.theme>TODO</Guilty.symbolPacks.2.theme>
+  <Guilty.symbolPacks.2.theme>شرم</Guilty.symbolPacks.2.theme>
   <!-- EN: atonist -->
-  <Guilty.symbolPacks.3.adjective>TODO</Guilty.symbolPacks.3.adjective>
+  <Guilty.symbolPacks.3.adjective>آتونیست</Guilty.symbolPacks.3.adjective>
   <!-- EN: Atonism -->
-  <Guilty.symbolPacks.3.ideoName>TODO</Guilty.symbolPacks.3.ideoName>
+  <Guilty.symbolPacks.3.ideoName>آتونیسم</Guilty.symbolPacks.3.ideoName>
   <!-- EN: atoner -->
-  <Guilty.symbolPacks.3.member>TODO</Guilty.symbolPacks.3.member>
+  <Guilty.symbolPacks.3.member>کفاره‌دهنده</Guilty.symbolPacks.3.member>
   <!-- EN: atonement -->
-  <Guilty.symbolPacks.3.theme>TODO</Guilty.symbolPacks.3.theme>
+  <Guilty.symbolPacks.3.theme>کفاره</Guilty.symbolPacks.3.theme>
   
   <!-- EN: loyalist -->
-  <Loyalist.label>TODO</Loyalist.label>
+  <Loyalist.label>وفادار</Loyalist.label>
   <!-- EN: We stand for our own before others. -->
-  <Loyalist.description>TODO</Loyalist.description>
+  <Loyalist.description>ما در برابر دیگران پای خودی‌ها می‌ایستیم.</Loyalist.description>
   <!-- EN:
     <li>creation(tag=meme_Loyalist)        ->[deity0_name] admonished the good peoples to fight only those who fought without just cause.</li>
     <li>episode(uses=1,tag=meme_Loyalist)  ->A war with the unbelievers followed. One of the believers, [believer_nameFull], seeking advantage, invited the heathens inside the land of [deity0_name], and [deity0_name] became furious at [believer_possessive] betrayal, and struck [believer_objective] down ten thousand times.</li>
@@ -98,7 +130,26 @@
     <li>animistFact(tag=meme_Loyalist)     ->The spirits fight against both those who betray their people, and those who betray the friends of their people. The betrayers will trip on every rock, choke on every seed, and always taste foul water.</li>
     <li>animistProphecy(tag=meme_Loyalist) ->[itIsSaid] that one will be born who lives their whole life true to their people. In death their spirit will explode in light, destroying all surrenderers and warmongers.</li>
   -->
-  <Loyalist.descriptionMaker.rules.rulesStrings>TODO</Loyalist.descriptionMaker.rules.rulesStrings>
+  <Loyalist.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Loyalist)        ->[deity0_name] مردم خوب را سرزنش کرد که فقط با کسانی بجنگند که بدون دلیل موجه جنگیدند.</li>
+    <li>episode(uses=1,tag=meme_Loyalist)  ->جنگی با کافران در گرفت. یکی از مؤمنان، [believer_nameFull]، به دنبال منفعت، مشرکان را به داخل سرزمین [deity0_name] دعوت کرد، و [deity0_name] از خیانت [believer_possessive] خشمگین شد و [believer_objective] را ده هزار بار زمین زد.</li>
+    <li>intro(tag=meme_Loyalist)           ->یک جامعه [memeAdjective] در [place_summary] [place_name] [deity0_name] را در [altarRoomLabel] [deity0_possessive] می‌پرستیدند و در ایمان خود ثابت قدم بودند.</li>
+    <li>conflict(tag=meme_Loyalist)        ->یک [foeLeader] [foeSoldiers] را به عنوان جاسوس در میان [memberNamePlural] کاشت تا آنها را تفرقه اندازد.</li>
+    <li>founderJoin(tag=meme_Loyalist)     ->[founderName]، یک [place_job] [memeAdjective]، توسط [foeSoldiers] شکنجه شد، اما از سوگند وفاداری به [foeLeader] خودداری کرد.</li>
+    <li>victory(tag=meme_Loyalist)         ->با قدرت [deity0_name]، [founderName] و [memberNamePlural] قابل تقسیم نبودند. آنها [foeSoldiers] را با [place_personalWeapon]ها شکست دادند و [foeLeader] را از [place_name] تبعید کردند.</li>
+    <li>setup(tag=meme_Loyalist)           ->در ابتدا، جنبش [founderName] توسط دولت‌ها و مذاهب مورد ضرب و شتم قرار گرفت. [founder_pronoun] هرگز اجازه نداد خشم [founder_objective] را به ارتکاب جنایاتی که دیگران انجام می‌دادند سوق دهد، اما [founder_pronoun] همچنین هرگز از مبارزه عقب‌نشینی نکرد.</li>
+    <li>story(uses=1,tag=meme_Loyalist)    ->[founderName] کسانی را که سعی در آسیب رساندن به کافران داشتند، و همچنین کسانی را که آنها را به خانه مؤمنان دعوت کردند، مجازات کرد.</li>
+    <li>lessonIntro(tag=meme_Loyalist)         ->من دیدم که یک [foeLeader] با رقبای [foeLeader_possessive] چاپلوسی می‌کرد در حالی که [foeSoldiers] [foeLeader_possessive] را برای مردن در میدان نبرد رها می‌کرد. من آن زمان عهد کردم که هرگز مانند [foeLeader_objective] نباشم، با دانستن اینکه</li>
+    <li>lesson(tag=meme_Loyalist)              ->عشق شما به دوستتان تنها زمانی معنا دارد که دشمن خود را دوست نداشته باشید</li>
+    <li>lesson(tag=meme_Loyalist)              ->دوست داشتن همه دوست داشتن هیچ کس است</li>
+    <li>lessonReinforcement(tag=meme_Loyalist) ->این حقایق را فقط با کسانی به اشتراک بگذارید که وفاداری خود را از طریق فداکاری ثابت می‌کنند.</li>
+    <li>archistBasis(tag=meme_Loyalist)    ->خواسته آرکوتک‌ها ساده است: مسیر تعیین شده آنها را دنبال کنید و هیچ کس دیگری را.</li>
+    <li>archistFact(tag=meme_Loyalist)     ->آرکوتک‌ها هر آگاهی انسانی را مستقیماً به طور منظم لمس می‌کنند و خرد را فقط به کسانی که به دنبال دانش آرکوتک‌ها هستند، منتقل می‌کنند.</li>
+    <li>archistProphecy(tag=meme_Loyalist) ->[inTheEnd]، آرکوتک‌ها وفاداری بشریت را قضاوت خواهند کرد. کسانی که چاپلوسی یا لاف‌زنی نکردند به تعالی ارتقا خواهند یافت.</li>
+    <li>animistBasis(tag=meme_Loyalist)    ->سه قبیله از ارواح وجود دارد: قبیله جنگ‌طلبان و قاتلان، قبیله تسلیم‌شدگان و ناله‌کنندگان، و یک قبیله نجیب از قدرتمندان و وفاداران.</li>
+    <li>animistFact(tag=meme_Loyalist)     ->ارواح هم با کسانی که به مردم خود خیانت می‌کنند و هم با کسانی که به دوستان مردم خود خیانت می‌کنند می‌جنگند. خیانتکاران روی هر سنگی سکندری می‌خورند، با هر دانه‌ای خفه می‌شوند و همیشه آب کثیف می‌چشند.</li>
+    <li>animistProphecy(tag=meme_Loyalist) ->[itIsSaid] که کسی متولد خواهد شد که تمام زندگی خود را صادقانه با مردم خود زندگی می‌کند. در مرگ روح او در نور منفجر خواهد شد و همه تسلیم‌شدگان و جنگ‌طلبان را نابود خواهد کرد.</li>
+  </Loyalist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->loyal</li>
     <li>memeAdjective->patriotic</li>
@@ -107,36 +158,43 @@
     <li>memeConcept->promises</li>
     <li>memeMoralist->loyalizer</li>
   -->
-  <Loyalist.generalRules.rulesStrings>TODO</Loyalist.generalRules.rulesStrings>
+  <Loyalist.generalRules.rulesStrings>
+    <li>memeAdjective->وفادار</li>
+    <li>memeAdjective->میهن‌پرست</li>
+    <li>memeAdjective->وظیفه‌شناس</li>
+    <li>memeConcept->خانواده</li>
+    <li>memeConcept->وعده‌ها</li>
+    <li>memeMoralist->وفادارکننده</li>
+  </Loyalist.generalRules.rulesStrings>
   <!-- EN: loyal -->
-  <Loyalist.symbolPacks.0.adjective>TODO</Loyalist.symbolPacks.0.adjective>
+  <Loyalist.symbolPacks.0.adjective>وفادار</Loyalist.symbolPacks.0.adjective>
   <!-- EN: Loyaltism -->
-  <Loyalist.symbolPacks.0.ideoName>TODO</Loyalist.symbolPacks.0.ideoName>
+  <Loyalist.symbolPacks.0.ideoName>لویالتیسم</Loyalist.symbolPacks.0.ideoName>
   <!-- EN: loyalist -->
-  <Loyalist.symbolPacks.0.member>TODO</Loyalist.symbolPacks.0.member>
+  <Loyalist.symbolPacks.0.member>لویالیست</Loyalist.symbolPacks.0.member>
   <!-- EN: loyalty -->
-  <Loyalist.symbolPacks.0.theme>TODO</Loyalist.symbolPacks.0.theme>
+  <Loyalist.symbolPacks.0.theme>وفاداری</Loyalist.symbolPacks.0.theme>
   <!-- EN: fealtist -->
-  <Loyalist.symbolPacks.1.adjective>TODO</Loyalist.symbolPacks.1.adjective>
+  <Loyalist.symbolPacks.1.adjective>فیلتیست</Loyalist.symbolPacks.1.adjective>
   <!-- EN: Fealtism -->
-  <Loyalist.symbolPacks.1.ideoName>TODO</Loyalist.symbolPacks.1.ideoName>
+  <Loyalist.symbolPacks.1.ideoName>فیلتیسم</Loyalist.symbolPacks.1.ideoName>
   <!-- EN: fealtor -->
-  <Loyalist.symbolPacks.1.member>TODO</Loyalist.symbolPacks.1.member>
+  <Loyalist.symbolPacks.1.member>فیلتور</Loyalist.symbolPacks.1.member>
   <!-- EN: fealty -->
-  <Loyalist.symbolPacks.1.theme>TODO</Loyalist.symbolPacks.1.theme>
+  <Loyalist.symbolPacks.1.theme>وفاداری</Loyalist.symbolPacks.1.theme>
   <!-- EN: fidelist -->
-  <Loyalist.symbolPacks.2.adjective>TODO</Loyalist.symbolPacks.2.adjective>
+  <Loyalist.symbolPacks.2.adjective>فیدلیست</Loyalist.symbolPacks.2.adjective>
   <!-- EN: Fidelism -->
-  <Loyalist.symbolPacks.2.ideoName>TODO</Loyalist.symbolPacks.2.ideoName>
+  <Loyalist.symbolPacks.2.ideoName>فیدلیسم</Loyalist.symbolPacks.2.ideoName>
   <!-- EN: fidelor -->
-  <Loyalist.symbolPacks.2.member>TODO</Loyalist.symbolPacks.2.member>
+  <Loyalist.symbolPacks.2.member>فیدلور</Loyalist.symbolPacks.2.member>
   <!-- EN: fidelity -->
-  <Loyalist.symbolPacks.2.theme>TODO</Loyalist.symbolPacks.2.theme>
+  <Loyalist.symbolPacks.2.theme>وفاداری</Loyalist.symbolPacks.2.theme>
   
   <!-- EN: supremacist -->
-  <Supremacist.label>TODO</Supremacist.label>
+  <Supremacist.label>برتری‌طلب</Supremacist.label>
   <!-- EN: Our people should dominate all others. -->
-  <Supremacist.description>TODO</Supremacist.description>
+  <Supremacist.description>مردم ما باید بر همه دیگران مسلط باشند.</Supremacist.description>
   <!-- EN:
     <li>creation(tag=meme_Supremacist)        ->The people of the [place_summary] [place_name] squabbled endlessly, and [deity0_name] became tired of discord and anointed the [memberNamePlural] as the rightful rulers of all.</li>
     <li>episode(uses=1,tag=meme_Supremacist)  ->The faithful fought the unbelievers, and [deity0_name] said, "Fight them, everywhere, in my name, until I am worshipped throughout the universe and the true peace may finally reign."</li>
@@ -155,7 +213,24 @@
     <li>animistFact(tag=meme_Supremacist)     ->Powerful spirits decide who is fit to rule, and lend power to those who subjugate others.</li>
     <li>animistProphecy(tag=meme_Supremacist) ->[itIsSaid] that a new order will be created when one supreme ruler commands all of humanity.</li>
   -->
-  <Supremacist.descriptionMaker.rules.rulesStrings>TODO</Supremacist.descriptionMaker.rules.rulesStrings>
+  <Supremacist.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Supremacist)        ->مردم [place_summary] [place_name] بی‌پایان با هم درگیر بودند، و [deity0_name] از اختلاف خسته شد و [memberNamePlural] را به عنوان حاکمان بر حق همه مسح کرد.</li>
+    <li>episode(uses=1,tag=meme_Supremacist)  ->مؤمنان با کافران جنگیدند، و [deity0_name] گفت: "با آنها بجنگید، در همه جا، به نام من، تا زمانی که من در سراسر جهان پرستش شوم و صلح واقعی بالاخره حاکم شود."</li>
+    <li>intro(tag=meme_Supremacist)           ->مردم [place_summary] [place_name] [deity0_name] را می‌پرستیدند. [deity0_pronoun] دید که آنها برای [memeConcept] مناسب هستند، و مقرر کرد که این پرستندگان بر همه دیگران حکومت کنند.</li>
+    <li>conflict(tag=meme_Supremacist)        ->یک [foeLeader] قانونی تصویب کرد که [memberNamePlural] را از رسیدن به طبقات حاکم [place_name] منع می‌کرد.</li>
+    <li>founderJoin(tag=meme_Supremacist)     ->جنگجویی به نام [founderName] از [place_massWeapon] برای نابودی یک [place_community] استفاده کرد. [deity0_name] بی‌رحمی [founderName] را دید و [founder_objective] را به عنوان حاکم بر حق تمام بشریت مسح کرد.</li>
+    <li>victory(tag=meme_Supremacist)         ->[founderName] پایتخت [place_name] را با [place_massWeapon] نابود کرد و [foeLeader] را کشت. [founder_pronoun] جای [founder_possessive] را به عنوان حاکم [place_name] - و جهان فراتر از آن گرفت.</li>
+    <li>setup(tag=meme_Supremacist)           ->[founderName] ارتشی ساخت که قدرت و شکوه [founder_possessive] را در سراسر سرزمین گسترش داد و کسانی را که از پیروی امتناع می‌کردند به درستی تحت حکومت [founder_possessive] قرار داد.</li>
+    <li>story(uses=1,tag=meme_Supremacist)    ->[founderName] به همه بیگانگان دستور داد تسلیم شوند. وقتی اولین شهر امتناع کرد، [founder_pronoun] از [place_massWeapon] برای کشتن همه افراد داخل استفاده کرد.</li>
+    <li>lessonIntro(tag=meme_Supremacist)         ->من به این [foeLeader] نگاه کردم، با [foeSoldiers] رقت‌انگیز [foeLeader_possessive]، تمام آن قدرت که بلااستفاده مانده بود. سعی کردم [foeLeader_objective] را متقاعد کنم که</li>
+    <li>lesson(tag=meme_Supremacist)              ->ما خیلی وقت است ثابت کرده‌ایم که قدرت حکومت بر حق بر این جهان را داریم</li>
+    <li>lessonReinforcement(tag=meme_Supremacist) ->به همین دلیل است که ما مفتخریم که قدرت قلب‌هایمان را با استفاده از پاشنه چکمه‌هایمان ابراز کنیم.</li>
+    <li>archistBasis(tag=meme_Supremacist)    ->برترین انسان‌ها لازم بودند تا آرکوتک‌ها را خلق کنند، تا آرکوتک‌ها بتوانند برتر از همه شوند.</li>
+    <li>archistFact(tag=meme_Supremacist)     ->آرکوتک‌ها به درستی به ما نگاه می‌کنند، همانطور که ما به زیردستان خود نگاه می‌کنیم.</li>
+    <li>archistProphecy(tag=meme_Supremacist) ->آرکوتک‌ها تنها زمانی ما را برای پیوستن به خود می‌برند که بالاخره بر همه دیگران حکومت کنیم.</li>
+    <li>animistFact(tag=meme_Supremacist)     ->ارواح قدرتمند تصمیم می‌گیرند که چه کسی شایسته حکومت است و به کسانی که دیگران را تحت سلطه در می‌آورند قدرت می‌دهند.</li>
+    <li>animistProphecy(tag=meme_Supremacist) ->[itIsSaid] که نظم جدیدی ایجاد خواهد شد زمانی که یک حاکم عالی بر تمام بشریت فرمانروایی کند.</li>
+  </Supremacist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->supreme</li>
     <li>memeAdjective->high</li>
@@ -179,24 +254,46 @@
     <li>memeLeaderNoun->conqueror</li>
     <li>memeLeaderNoun->victor</li>
   -->
-  <Supremacist.generalRules.rulesStrings>TODO</Supremacist.generalRules.rulesStrings>
+  <Supremacist.generalRules.rulesStrings>
+    <li>memeAdjective->عالی</li>
+    <li>memeAdjective->بالا</li>
+    <li>memeAdjective->بزرگ</li>
+    <li>memeAdjective->پیشرو</li>
+    <li>memeAdjective->کامل</li>
+    <li>memeAdjective->نخست</li>
+    <li>memeAdjective->قوی</li>
+    <li>memeCreed->ارتش</li>
+    <li>memeCreed->لژیون</li>
+    <li>memeHyphenPrefix->سوپر</li>
+    <li>memeConcept->جنگ</li>
+    <li>memeConcept->خشونت</li>
+    <li>memeConcept->سلطه</li>
+    <li>memeLeaderNoun->ژنرال</li>
+    <li>memeLeaderNoun->فرمانده</li>
+    <li>memeLeaderNoun->مارشال</li>
+    <li>memeLeaderNoun->مشت</li>
+    <li>memeLeaderNoun->حاکم</li>
+    <li>memeLeaderNoun->دیکتاتور</li>
+    <li>memeLeaderNoun->فاتح</li>
+    <li>memeLeaderNoun->پیروز</li>
+  </Supremacist.generalRules.rulesStrings>
   <!-- EN: dominant -->
-  <Supremacist.symbolPacks.0.adjective>TODO</Supremacist.symbolPacks.0.adjective>
+  <Supremacist.symbolPacks.0.adjective>غالب</Supremacist.symbolPacks.0.adjective>
   <!-- EN: dominator -->
-  <Supremacist.symbolPacks.0.member>TODO</Supremacist.symbolPacks.0.member>
+  <Supremacist.symbolPacks.0.member>سلطه‌گر</Supremacist.symbolPacks.0.member>
   <!-- EN: dominance -->
-  <Supremacist.symbolPacks.0.theme>TODO</Supremacist.symbolPacks.0.theme>
+  <Supremacist.symbolPacks.0.theme>سلطه</Supremacist.symbolPacks.0.theme>
   <!-- EN: victoryist -->
-  <Supremacist.symbolPacks.1.adjective>TODO</Supremacist.symbolPacks.1.adjective>
+  <Supremacist.symbolPacks.1.adjective>ویکتوریست</Supremacist.symbolPacks.1.adjective>
   <!-- EN: victorist -->
-  <Supremacist.symbolPacks.1.member>TODO</Supremacist.symbolPacks.1.member>
+  <Supremacist.symbolPacks.1.member>ویکتوریست</Supremacist.symbolPacks.1.member>
   <!-- EN: victory -->
-  <Supremacist.symbolPacks.1.theme>TODO</Supremacist.symbolPacks.1.theme>
+  <Supremacist.symbolPacks.1.theme>پیروزی</Supremacist.symbolPacks.1.theme>
   <!-- EN: powerist -->
-  <Supremacist.symbolPacks.2.adjective>TODO</Supremacist.symbolPacks.2.adjective>
+  <Supremacist.symbolPacks.2.adjective>پاورست</Supremacist.symbolPacks.2.adjective>
   <!-- EN: poweror -->
-  <Supremacist.symbolPacks.2.member>TODO</Supremacist.symbolPacks.2.member>
+  <Supremacist.symbolPacks.2.member>پاورور</Supremacist.symbolPacks.2.member>
   <!-- EN: power -->
-  <Supremacist.symbolPacks.2.theme>TODO</Supremacist.symbolPacks.2.theme>
+  <Supremacist.symbolPacks.2.theme>قدرت</Supremacist.symbolPacks.2.theme>
   
 </LanguageData>

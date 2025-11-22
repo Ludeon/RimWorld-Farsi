@@ -21,7 +21,26 @@
     <li>place_foeLeader->crime boss</li>
     <li>place_foeSoldiers->thugs</li>
   -->
-  <AturaStation.placeRules.rulesStrings>TODO</AturaStation.placeRules.rulesStrings>
+  <AturaStation.placeRules.rulesStrings>
+    <li>place_name->ایستگاه آتورا</li>
+    <li>place_adjective->آتورایی</li>
+    <li>place_summary->کارخانه کشتی‌سازی مداری</li>
+    <li>place_community->اسکله شاتل</li>
+    <li>place_community->حلقه تولید</li>
+    <li>place_community->حلقه مسکونی</li>
+    <li>place_powerCenter->اتاق کنترل مرکزی</li>
+    <li>place_job->اپراتور پهپاد ساخت و ساز</li>
+    <li>place_job->مدیر</li>
+    <li>place_job->خلبان آزمایشی</li>
+    <li>place_job->نماینده فروش</li>
+    <li>place_job->تکنسین چاپگر سه بعدی</li>
+    <li>place_personalWeapon->تایزر</li>
+    <li>place_personalWeapon->جوشکار قوس الکتریکی</li>
+    <li>place_massWeapon->[anEMPAttack]</li>
+    <li>place_massWeapon->پهپادهای جوشکاری کنترل از راه دور</li>
+    <li>place_foeLeader->رئیس جنایتکاران</li>
+    <li>place_foeSoldiers->اراذل و اوباش</li>
+  </AturaStation.placeRules.rulesStrings>
   
   <!-- EN:
     <li>place_name->Bagua 5</li>
@@ -43,7 +62,26 @@
     <li>place_foeLeader->junk lord</li>
     <li>place_foeSoldiers->metal-heads</li>
   -->
-  <Bagua5.placeRules.rulesStrings>TODO</Bagua5.placeRules.rulesStrings>
+  <Bagua5.placeRules.rulesStrings>
+    <li>place_name->باگوا ۵</li>
+    <li>place_adjective->باگوسینکوان</li>
+    <li>place_summary->سیاره زباله‌دانی</li>
+    <li>place_community->انبار ضایعات مستحکم</li>
+    <li>place_community->تصفیه‌خانه آب باران</li>
+    <li>place_community->شهر قراضه</li>
+    <li>place_powerCenter->فرودگاه فضایی تجاری</li>
+    <li>place_job->زباله‌گرد</li>
+    <li>place_job->تاجر</li>
+    <li>place_job->تعمیرکار</li>
+    <li>place_job->نگهبان</li>
+    <li>place_job->اوراقچی</li>
+    <li>place_personalWeapon->تفنگ لوله‌ای</li>
+    <li>place_personalWeapon->شمشیر قراضه</li>
+    <li>place_massWeapon->یک بمب هسته‌ای بازیافتی</li>
+    <li>place_massWeapon->یک ویروس زنگ‌زدگی</li>
+    <li>place_foeLeader->ارباب زباله</li>
+    <li>place_foeSoldiers->کله‌فلزی‌ها</li>
+  </Bagua5.placeRules.rulesStrings>
   
   <!-- EN:
     <li>place_name->Boccocarro</li>
@@ -65,7 +103,26 @@
     <li>place_foeLeader->mine hypervisor</li>
     <li>place_foeSoldiers->abyssal marines</li>
   -->
-  <Boccocarro.placeRules.rulesStrings>TODO</Boccocarro.placeRules.rulesStrings>
+  <Boccocarro.placeRules.rulesStrings>
+    <li>place_name->بوکوکارو</li>
+    <li>place_adjective->بوچین</li>
+    <li>place_summary->دنیای پوسته‌ای غارمانند</li>
+    <li>place_community->تونل سطحی</li>
+    <li>place_community->غار قارچ</li>
+    <li>place_community->چاه قطره‌ای</li>
+    <li>place_powerCenter->تالار سخنرانی</li>
+    <li>place_job->معدنچی</li>
+    <li>place_job->پرورش‌دهنده قارچ</li>
+    <li>place_job->زباله‌گرد سطحی</li>
+    <li>place_job->آشپز جامعه</li>
+    <li>place_job->شکارچی قورباغه</li>
+    <li>place_personalWeapon->کلنگ</li>
+    <li>place_personalWeapon->تیرکمان هیدرولیک</li>
+    <li>place_massWeapon->[seismicDevice]</li>
+    <li>place_massWeapon->یک بمب باروتی</li>
+    <li>place_foeLeader->سرپرست معدن</li>
+    <li>place_foeSoldiers->تفنگداران دریایی پرتگاه</li>
+  </Boccocarro.placeRules.rulesStrings>
   
   <!-- EN:
     <li>place_name->Chelis</li>
@@ -87,7 +144,26 @@
     <li>place_foeLeader->chief</li>
     <li>place_foeSoldiers->sand-warriors</li>
   -->
-  <Chelis.placeRules.rulesStrings>TODO</Chelis.placeRules.rulesStrings>
+  <Chelis.placeRules.rulesStrings>
+    <li>place_name->چلیس</li>
+    <li>place_adjective->چلیسی</li>
+    <li>place_summary->دنیای خشک</li>
+    <li>place_community->مزرعه رطوبت</li>
+    <li>place_community->شهر خشک</li>
+    <li>place_community->مرکز آب</li>
+    <li>place_powerCenter->تالار زندگی اعیانی</li>
+    <li>place_job->جمع‌کننده آب</li>
+    <li>place_job->پوست‌کن مارمولک</li>
+    <li>place_job->جستجوگر واحه</li>
+    <li>place_job->جمع‌کننده کاکتوس</li>
+    <li>place_job->چوپان زباله‌گرد</li>
+    <li>place_personalWeapon->تیر شنی</li>
+    <li>place_personalWeapon->چماق کاکتوسی</li>
+    <li>place_massWeapon->یک طوفان شن ایجاد شده توسط آرکوتک</li>
+    <li>place_massWeapon->یک هجوم مارمولک‌های تیغ‌دار</li>
+    <li>place_foeLeader->رئیس</li>
+    <li>place_foeSoldiers->جنگجویان شن</li>
+  </Chelis.placeRules.rulesStrings>
   
   <!-- EN:
     <li>place_name->Creticon</li>
@@ -112,7 +188,29 @@
     <li>place_foeLeader->warlord</li>
     <li>place_foeSoldiers->mercenaries</li>
   -->
-  <Creticon.placeRules.rulesStrings>TODO</Creticon.placeRules.rulesStrings>
+  <Creticon.placeRules.rulesStrings>
+    <li>place_name->کرتیکون</li>
+    <li>place_adjective->کرتیکونی</li>
+    <li>place_summary->دنیای مرگبار ویران شده</li>
+    <li>place_community->پناهگاه</li>
+    <li>place_community->غار</li>
+    <li>place_community->پناهگاه یخی</li>
+    <li>place_powerCenter->پناهگاه مدیر</li>
+    <li>place_job->تعمیرکار بازیافت آب</li>
+    <li>place_job->پرورش‌دهنده جلبک</li>
+    <li>place_job->پزشک</li>
+    <li>place_job->معلم</li>
+    <li>place_job->فرمانده شبه‌نظامی</li>
+    <li>place_job->خلبان شاتل</li>
+    <li>place_personalWeapon->تپانچه خودکار</li>
+    <li>place_personalWeapon->تیربار سبک</li>
+    <li>place_massWeapon->یک موشک هسته‌ای دوش‌پرتاب</li>
+    <li>place_massWeapon->یک بمباران مداری</li>
+    <li>place_massWeapon->بمب‌های شیمیایی</li>
+    <li>place_massWeapon->مکانویدهای هک شده</li>
+    <li>place_foeLeader->جنگ‌سالار</li>
+    <li>place_foeSoldiers->مزدوران</li>
+  </Creticon.placeRules.rulesStrings>
   
   <!-- EN:
     <li>place_name->Filson</li>
@@ -136,7 +234,28 @@
     <li>place_foeLeader->landowner</li>
     <li>place_foeSoldiers->militia</li>
   -->
-  <Filson.placeRules.rulesStrings>TODO</Filson.placeRules.rulesStrings>
+  <Filson.placeRules.rulesStrings>
+    <li>place_name->فلسون</li>
+    <li>place_adjective->فلسونی</li>
+    <li>place_summary->دنیای کشاورزی روستایی</li>
+    <li>place_community->شهرداری</li>
+    <li>place_community->کارخانه فرآوری کود</li>
+    <li>place_community->انبار غله بزرگ</li>
+    <li>place_community->محل حفاری آب</li>
+    <li>place_powerCenter->شهرداری</li>
+    <li>place_job->کارگر مزرعه</li>
+    <li>place_job->میوه‌چین</li>
+    <li>place_job->راننده حمل و نقل</li>
+    <li>place_job->معلم مدرسه</li>
+    <li>place_job->مهندس خاک</li>
+    <li>place_personalWeapon->تفنگ</li>
+    <li>place_personalWeapon->داس</li>
+    <li>place_massWeapon->بمب‌های کودی</li>
+    <li>place_massWeapon->اسپری آفت‌کش تسلیحاتی</li>
+    <li>place_massWeapon->لنز فضایی</li>
+    <li>place_foeLeader->زمین‌دار</li>
+    <li>place_foeSoldiers->شبه‌نظامیان</li>
+  </Filson.placeRules.rulesStrings>
   
   <!-- EN:
     <li>place_name->Ilwaba</li>
@@ -158,7 +277,26 @@
     <li>place_foeLeader->crypto-leader</li>
     <li>place_foeSoldiers->crypto-soldiers</li>
   -->
-  <Ilwaba.placeRules.rulesStrings>TODO</Ilwaba.placeRules.rulesStrings>
+  <Ilwaba.placeRules.rulesStrings>
+    <li>place_name->ایلوابا</li>
+    <li>place_adjective->ایلوابایی</li>
+    <li>place_summary->دنیای ویرانه بازسازی شده</li>
+    <li>place_community->روستای آسمان‌خراش</li>
+    <li>place_community->پست تجاری بزرگراه</li>
+    <li>place_community->واحه سرزمین انفجار</li>
+    <li>place_powerCenter->خانه بازسازی</li>
+    <li>place_job->کشاورز بتن</li>
+    <li>place_job->راه‌ساز</li>
+    <li>place_job->شکارچی عتیقه</li>
+    <li>place_job->تونل‌رو</li>
+    <li>place_job->مرمت‌کار عتیقه</li>
+    <li>place_personalWeapon->شمشیر قراضه</li>
+    <li>place_personalWeapon->خنجر دندانه‌دار</li>
+    <li>place_massWeapon->یک بمب هسته‌ای از زیر خاک درآمده</li>
+    <li>place_massWeapon->یک بمب سمی باستانی</li>
+    <li>place_foeLeader->رهبر کریپتو</li>
+    <li>place_foeSoldiers->سربازان کریپتو</li>
+  </Ilwaba.placeRules.rulesStrings>
   
   <!-- EN:
     <li>place_name->Iwamura</li>
@@ -181,7 +319,27 @@
     <li>place_foeLeader->mega-corp CEO</li>
     <li>place_foeSoldiers->rent-a-cops</li>
   -->
-  <Iwamura.placeRules.rulesStrings>TODO</Iwamura.placeRules.rulesStrings>
+  <Iwamura.placeRules.rulesStrings>
+    <li>place_name->ایوامورا</li>
+    <li>place_adjective->ایوامورایی</li>
+    <li>place_summary->سیارک سنگی</li>
+    <li>place_community->کپسول بازار</li>
+    <li>place_community->کپسول انبار</li>
+    <li>place_community->اسکله اتصال</li>
+    <li>place_powerCenter->پل فرماندهی ایستگاه</li>
+    <li>place_job->مهندس پشتیبانی حیات</li>
+    <li>place_job->بازرگان</li>
+    <li>place_job->کنترل‌کننده پرواز</li>
+    <li>place_job->ورزشکار جاذبه صفر</li>
+    <li>place_job->مجری رادیو</li>
+    <li>place_personalWeapon->تفنگ شارژی</li>
+    <li>place_personalWeapon->مشعل جوشکاری</li>
+    <li>place_massWeapon->یک سم آئروسل</li>
+    <li>place_massWeapon->[anEMPAttack]</li>
+    <li>place_massWeapon->یک ویروس خرابکاری پشتیبانی حیات</li>
+    <li>place_foeLeader->مدیرعامل مگا-کورپ</li>
+    <li>place_foeSoldiers->پلیس‌های اجاره‌ای</li>
+  </Iwamura.placeRules.rulesStrings>
   
   <!-- EN:
     <li>place_name->Kemia</li>
@@ -204,7 +362,27 @@
     <li>place_foeLeader->poison lord</li>
     <li>place_foeSoldiers->venom-soldiers</li>
   -->
-  <Kemia.placeRules.rulesStrings>TODO</Kemia.placeRules.rulesStrings>
+  <Kemia.placeRules.rulesStrings>
+    <li>place_name->کمیا</li>
+    <li>place_adjective->کمیایی</li>
+    <li>place_summary->دنیای جنگ سمی</li>
+    <li>place_community->محله فقیرنشین</li>
+    <li>place_community->کلونی تونلی</li>
+    <li>place_community->شهر زیرزمینی</li>
+    <li>place_powerCenter->خانه ارباب شهر</li>
+    <li>place_job->رفتگر خیابان</li>
+    <li>place_job->مهندس پاکسازی</li>
+    <li>place_job->پرورش‌دهنده پروتئین</li>
+    <li>place_job->راننده تاکسی</li>
+    <li>place_job->سازنده سلاح</li>
+    <li>place_personalWeapon->بمب گازی</li>
+    <li>place_personalWeapon->شعله‌افکن سمی</li>
+    <li>place_massWeapon->بمب‌های کثیف هسته‌ای</li>
+    <li>place_massWeapon->یک طاعون مهندسی زیستی</li>
+    <li>place_massWeapon->بمب‌های سمی نفوذکننده</li>
+    <li>place_foeLeader->ارباب سم</li>
+    <li>place_foeSoldiers->سربازان سمی</li>
+  </Kemia.placeRules.rulesStrings>
   
   <!-- EN:
     <li>place_name->Lutuni</li>
@@ -226,7 +404,26 @@
     <li>place_foeLeader->entertainment mogul</li>
     <li>place_foeSoldiers->enforcers</li>
   -->
-  <Lutuni.placeRules.rulesStrings>TODO</Lutuni.placeRules.rulesStrings>
+  <Lutuni.placeRules.rulesStrings>
+    <li>place_name->لوتونی</li>
+    <li>place_adjective->لوتونی</li>
+    <li>place_summary->بهشت جنگل‌های بارانی</li>
+    <li>place_community->کلینیک ارتقاء</li>
+    <li>place_community->هایپر-یات</li>
+    <li>place_community->استادیوم جاذبه صفر</li>
+    <li>place_powerCenter->مجتمع آسانسور فضایی</li>
+    <li>place_job->راهنمای توریست</li>
+    <li>place_job->اجراکننده جاذبه صفر</li>
+    <li>place_job->توزیع‌کننده لوسیفریوم</li>
+    <li>place_job->سلبریتی مجازی</li>
+    <li>place_job->خلبان شاتل</li>
+    <li>place_personalWeapon->چاقوی لرزشی</li>
+    <li>place_personalWeapon->تپانچه شارژی</li>
+    <li>place_massWeapon->یک باکتری تجزیه‌کننده ساختار</li>
+    <li>place_massWeapon->یک هدف‌گیر بمباران مداری قاچاق شده</li>
+    <li>place_foeLeader->غول سرگرمی</li>
+    <li>place_foeSoldiers->مجریان</li>
+  </Lutuni.placeRules.rulesStrings>
   
   <!-- EN:
     <li>place_name->Novaroma</li>
@@ -250,7 +447,28 @@
     <li>place_foeLeader->high-underlord</li>
     <li>place_foeSoldiers->undertroops</li>
   -->
-  <Novaroma.placeRules.rulesStrings>TODO</Novaroma.placeRules.rulesStrings>
+  <Novaroma.placeRules.rulesStrings>
+    <li>place_name->نواروما</li>
+    <li>place_adjective->نوارومایی</li>
+    <li>place_summary->سیارک</li>
+    <li>place_community->وزارت مجوزها</li>
+    <li>place_community->حومه محصور</li>
+    <li>place_community->شهر بالایی</li>
+    <li>place_community->شهر پایینی</li>
+    <li>place_powerCenter->تالار بزرگ کلان‌شهر</li>
+    <li>place_job->منشی</li>
+    <li>place_job->مقام رسمی</li>
+    <li>place_job->پیک غذا</li>
+    <li>place_job->راننده تاکسی</li>
+    <li>place_job->کارگر خرده‌فروشی</li>
+    <li>place_personalWeapon->رولور</li>
+    <li>place_personalWeapon->چاقو</li>
+    <li>place_massWeapon->[seismicDevice]</li>
+    <li>place_massWeapon->بمب‌های خوشه‌ای</li>
+    <li>place_massWeapon->یک بمب هسته‌ای کیفی</li>
+    <li>place_foeLeader->ارباب زیرزمینی عالی‌رتبه</li>
+    <li>place_foeSoldiers->سربازان زیرزمینی</li>
+  </Novaroma.placeRules.rulesStrings>
   
   <!-- EN:
     <li>place_name->Nuchadus</li>
@@ -271,7 +489,25 @@
     <li>place_foeLeader->lava lord</li>
     <li>place_foeSoldiers->stygian soldiers</li>
   -->
-  <Nuchadus.placeRules.rulesStrings>TODO</Nuchadus.placeRules.rulesStrings>
+  <Nuchadus.placeRules.rulesStrings>
+    <li>place_name->نوچادوس</li>
+    <li>place_adjective->نوچادوسی</li>
+    <li>place_summary->دنیای آتشفشانی تاریک</li>
+    <li>place_community->جزیره بازالتی</li>
+    <li>place_community->شهر دریاچه دهانه آتشفشان</li>
+    <li>place_community->روستای کشتی هوایی</li>
+    <li>place_powerCenter->قلعه حرارتی</li>
+    <li>place_job->زلزله‌شناس</li>
+    <li>place_job->پرورش‌دهنده حلزون گدازه</li>
+    <li>place_job->تعمیرکار شنی تانک</li>
+    <li>place_job->دیده‌بان هوابرد</li>
+    <li>place_personalWeapon->خنجر ابسیدین</li>
+    <li>place_personalWeapon->تفنگ هارپون</li>
+    <li>place_massWeapon->یک فوران آتشفشانی ایجاد شده توسط آرکوتک</li>
+    <li>place_massWeapon->یک بمب جنگ شیمیایی</li>
+    <li>place_foeLeader->ارباب گدازه</li>
+    <li>place_foeSoldiers->سربازان استیگیایی</li>
+  </Nuchadus.placeRules.rulesStrings>
   
   <!-- EN:
     <li>place_name->Oubanyen</li>
@@ -293,7 +529,26 @@
     <li>place_foeLeader->tree-harvester</li>
     <li>place_foeSoldiers->henchmen</li>
   -->
-  <Oubanyen.placeRules.rulesStrings>TODO</Oubanyen.placeRules.rulesStrings>
+  <Oubanyen.placeRules.rulesStrings>
+    <li>place_name->اوبانین</li>
+    <li>place_adjective->اوبانینی</li>
+    <li>place_summary->دنیای جنگلی بخارآلود</li>
+    <li>place_community->روستای بالای درخت</li>
+    <li>place_community->غار شمن</li>
+    <li>place_community->زیگورات بالای تپه</li>
+    <li>place_powerCenter->معبد شهر</li>
+    <li>place_job->شمن</li>
+    <li>place_job->شکارچی</li>
+    <li>place_job->ماهیگیر</li>
+    <li>place_job->جمع‌کننده</li>
+    <li>place_job->چوپان بز</li>
+    <li>place_personalWeapon->پیلا</li>
+    <li>place_personalWeapon->ایکوا</li>
+    <li>place_massWeapon->یک پهپاد روانی کشنده</li>
+    <li>place_massWeapon->یک بمب نوروتوکسین</li>
+    <li>place_foeLeader->برداشت‌کننده درخت</li>
+    <li>place_foeSoldiers->نوچه‌ها</li>
+  </Oubanyen.placeRules.rulesStrings>
   
   <!-- EN:
     <li>place_name->Rhydell</li>
@@ -315,7 +570,26 @@
     <li>place_foeLeader->deepcorp executive</li>
     <li>place_foeSoldiers->deepcorp enforcers</li>
   -->
-  <Rhydell.placeRules.rulesStrings>TODO</Rhydell.placeRules.rulesStrings>
+  <Rhydell.placeRules.rulesStrings>
+    <li>place_name->رایدل</li>
+    <li>place_adjective->رایدلی</li>
+    <li>place_summary->ماه جنگلی وحشی</li>
+    <li>place_community->دراپ‌شیپ تغییر یافته</li>
+    <li>place_community->اردوگاه با سپر ضعیف</li>
+    <li>place_community->مرکز ارتباطات</li>
+    <li>place_powerCenter->زیستگاه زرهی</li>
+    <li>place_job->گیاه‌شناس مرزی</li>
+    <li>place_job->شکارچی تروفی</li>
+    <li>place_job->پزشک</li>
+    <li>place_job->آشپز اردوگاه</li>
+    <li>place_job->مهندس آزمایشگاه زیستی</li>
+    <li>place_personalWeapon->تفنگ تک‌تیرانداز</li>
+    <li>place_personalWeapon->قمه</li>
+    <li>place_massWeapon->یک گاز نوروتوکسین گیاهی</li>
+    <li>place_massWeapon->یک حمله لیزری مداری</li>
+    <li>place_foeLeader->مدیر دیپ‌کورپ</li>
+    <li>place_foeSoldiers->مجریان دیپ‌کورپ</li>
+  </Rhydell.placeRules.rulesStrings>
   
   <!-- EN:
     <li>place_name->Rogia</li>
@@ -338,7 +612,27 @@
     <li>place_foeLeader->corrupt bureaucrat</li>
     <li>place_foeSoldiers->bionic guards</li>
   -->
-  <Rogia.placeRules.rulesStrings>TODO</Rogia.placeRules.rulesStrings>
+  <Rogia.placeRules.rulesStrings>
+    <li>place_name->روگیا</li>
+    <li>place_adjective->روگیایی</li>
+    <li>place_summary->دنیای گلیتر-تک</li>
+    <li>place_community->موسسه پزشکی</li>
+    <li>place_community->آسانسور فضایی</li>
+    <li>place_community->کارخانه رباتیک</li>
+    <li>place_powerCenter->پایتخت سیاره‌ای</li>
+    <li>place_job->کادت استارفورس</li>
+    <li>place_job->کشاورز هنرمند</li>
+    <li>place_job->نابغه رسانه‌های اجتماعی</li>
+    <li>place_job->ورزشکار جاذبه صفر</li>
+    <li>place_job->قاچاقچی گلیتر-تک</li>
+    <li>place_personalWeapon->لنس شارژی</li>
+    <li>place_personalWeapon->شمشیر پرسونا</li>
+    <li>place_massWeapon->کلاهک‌های پادماده</li>
+    <li>place_massWeapon->یک ویروس کامپیوتری تسلیحاتی</li>
+    <li>place_massWeapon->کارگران مکانوید کنترل از راه دور</li>
+    <li>place_foeLeader->بوروکرات فاسد</li>
+    <li>place_foeSoldiers->نگهبانان بیونیک</li>
+  </Rogia.placeRules.rulesStrings>
   
   <!-- EN:
     <li>place_name->Wavia</li>
@@ -362,7 +656,28 @@
     <li>seaBeast->deep-kraken</li>
     <li>seaBeast->Wavian leviathan</li>
   -->
-  <Wavia.placeRules.rulesStrings>TODO</Wavia.placeRules.rulesStrings>
+  <Wavia.placeRules.rulesStrings>
+    <li>place_name->واویا</li>
+    <li>place_adjective->واویایی</li>
+    <li>place_summary->سیاره اقیانوسی</li>
+    <li>place_community->آتول تجاری</li>
+    <li>place_community->روستای شناور</li>
+    <li>place_community->تصفیه‌خانه جلبک دریایی</li>
+    <li>place_powerCenter->پل پایتخت</li>
+    <li>place_job->ماهیگیر</li>
+    <li>place_job->غواص مروارید</li>
+    <li>place_job->بادبان‌ساز</li>
+    <li>place_job->کاپیتان</li>
+    <li>place_job->جمع‌کننده علف دریایی</li>
+    <li>place_personalWeapon->هارپون</li>
+    <li>place_personalWeapon->تور خاردار</li>
+    <li>place_massWeapon->یک اژدر با بازده بالا</li>
+    <li>place_massWeapon->یک [seaBeast] طعمه‌گذاری شده</li>
+    <li>place_foeLeader->دریاسالار نهنگ‌گیر</li>
+    <li>place_foeSoldiers->تفنگداران نهنگ‌گیر</li>
+    <li>seaBeast->کراکن عمیق</li>
+    <li>seaBeast->لویاتان واویایی</li>
+  </Wavia.placeRules.rulesStrings>
   
   <!-- EN:
     <li>place_name->Xanides</li>
@@ -384,7 +699,26 @@
     <li>place_foeLeader->mine-corp boss</li>
     <li>place_foeSoldiers->mine-corp troops</li>
   -->
-  <Xanides.placeRules.rulesStrings>TODO</Xanides.placeRules.rulesStrings>
+  <Xanides.placeRules.rulesStrings>
+    <li>place_name->زانیدس</li>
+    <li>place_adjective->زانیدسی</li>
+    <li>place_summary->سیاره معدنی استثمار شده</li>
+    <li>place_community->معدن روباز</li>
+    <li>place_community->تصفیه‌خانه سنگ معدن</li>
+    <li>place_community->کافه خمیر مغذی</li>
+    <li>place_powerCenter->انبار اکسیژن</li>
+    <li>place_job->معدنچی</li>
+    <li>place_job->سرپرست</li>
+    <li>place_job->تکنسین</li>
+    <li>place_job->مکانیک</li>
+    <li>place_job->مهندس پشتیبانی حیات</li>
+    <li>place_personalWeapon->باتوم برقی</li>
+    <li>place_personalWeapon->تپانچه خودکار</li>
+    <li>place_massWeapon->بمب‌های انفجاری</li>
+    <li>place_massWeapon->[anEMPAttack]</li>
+    <li>place_foeLeader->رئیس شرکت معدن</li>
+    <li>place_foeSoldiers->سربازان شرکت معدن</li>
+  </Xanides.placeRules.rulesStrings>
   
   <!-- EN:
     <li>place_name->Yttak</li>
@@ -406,7 +740,26 @@
     <li>place_foeLeader->prison warden</li>
     <li>place_foeSoldiers->corrupt guards</li>
   -->
-  <Yttak.placeRules.rulesStrings>TODO</Yttak.placeRules.rulesStrings>
+  <Yttak.placeRules.rulesStrings>
+    <li>place_name->ایتاک</li>
+    <li>place_adjective->ایتاکی</li>
+    <li>place_summary->زندان ماه یخی</li>
+    <li>place_community->سالن غذاخوری</li>
+    <li>place_community->پادگان نگهبانان</li>
+    <li>place_community->بازداشتگاه</li>
+    <li>place_powerCenter->مجتمع دفتر رئیس زندان</li>
+    <li>place_job->بازداشتی</li>
+    <li>place_job->نگهبان</li>
+    <li>place_job->فراری</li>
+    <li>place_job->کارگر تعمیر و نگهداری</li>
+    <li>place_job->راننده حمل و نقل</li>
+    <li>place_personalWeapon->چاقوی دست‌ساز</li>
+    <li>place_personalWeapon->مسلسل دستی</li>
+    <li>place_massWeapon->یک بمب شیمیایی دست‌ساز</li>
+    <li>place_massWeapon->یک حمله لیزری مداری</li>
+    <li>place_foeLeader->رئیس زندان</li>
+    <li>place_foeSoldiers->نگهبانان فاسد</li>
+  </Yttak.placeRules.rulesStrings>
   
   <!-- EN:
     <li>place_name->Zoutera</li>
@@ -430,6 +783,27 @@
     <li>megaFauna->blue mammoths</li>
     <li>megaFauna->novoraptors</li>
   -->
-  <Zoutera.placeRules.rulesStrings>TODO</Zoutera.placeRules.rulesStrings>
+  <Zoutera.placeRules.rulesStrings>
+    <li>place_name->زوترا</li>
+    <li>place_adjective->زوتین</li>
+    <li>place_summary->دنیای دایناسوری سرسبز</li>
+    <li>place_community->پست تجاری</li>
+    <li>place_community->روستای چادری</li>
+    <li>place_community->قبرستان ماموت‌ها</li>
+    <li>place_powerCenter->قلعه بالای تپه</li>
+    <li>place_job->دایناسورسوار</li>
+    <li>place_job->چوپان مافالو</li>
+    <li>place_job->شکارچی</li>
+    <li>place_job->سازنده چرم سخت</li>
+    <li>place_personalWeapon->عصای بامبو</li>
+    <li>place_personalWeapon->تیرهای بمب‌شکار</li>
+    <li>place_massWeapon->یک گله رم‌کرده از [megaFauna]</li>
+    <li>place_massWeapon->یک بمب کودی</li>
+    <li>place_foeLeader->شاه عاج</li>
+    <li>place_foeSoldiers->جنگجویان عاج</li>
+    <li>megaFauna->آنکیلوسورها</li>
+    <li>megaFauna->ماموت‌های آبی</li>
+    <li>megaFauna->نووراپتورها</li>
+  </Zoutera.placeRules.rulesStrings>
   
 </LanguageData>

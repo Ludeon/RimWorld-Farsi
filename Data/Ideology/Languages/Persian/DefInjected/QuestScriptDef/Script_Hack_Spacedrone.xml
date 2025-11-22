@@ -8,7 +8,13 @@
     <li>droneDetectionMethod(enemyFactionNeolithic==true)->spot the drone during its decent</li>
     <li>droneDetectionMethod(enemyFactionNeolithic==false)->detect the drone's energy signature</li>
   -->
-  <Hack_Spacedrone.questDescriptionRules.rulesStrings>TODO</Hack_Spacedrone.questDescriptionRules.rulesStrings>
+  <Hack_Spacedrone.questDescriptionRules.rulesStrings>
+    <li>questDescription->شما یک پهپاد فضایی در حال گردش را شناسایی کرده‌اید که ممکن است حاوی اطلاعاتی در مورد [relic_name] باشد. شما کدی دارید که آن را مجبور به فرود در [map_definite] می‌کند.\n\nبرای به دست آوردن اطلاعات، کامپیوتر پهپاد را هک کنید. هک کردن زمان می‌برد، اما کسانی که در مهارت هوشی قوی هستند می‌توانند روند را سرعت بخشند.[raidsDescription]\n\nپس از فرود، پهپاد فضایی در [destroyDelayTicks_duration] خود را نابود خواهد کرد.</li>
+    <li>raidsDescription(allowViolence==true)->\n\n[enemyFaction_pawnsPlural] از [enemyFaction_name] [droneDetectionMethod]. تا زمانی که وجود دارد، آنها مهاجمان را تقریباً هر [raidIntervalAvg_duration] برای نابودی آن و سرقت ثروتی که فکر می‌کنند حاوی آن است، می‌فرستند. شما مدتی فرصت خواهید داشت تا قبل از رسیدن آنها دفاعیات را در اطراف آن آماده کنید.</li>
+    <li>raidsDescription(allowViolence==false)-></li>
+    <li>droneDetectionMethod(enemyFactionNeolithic==true)->پهپاد را در حین فرود مشاهده خواهند کرد</li>
+    <li>droneDetectionMethod(enemyFactionNeolithic==false)->امضای انرژی پهپاد را شناسایی خواهند کرد</li>
+  </Hack_Spacedrone.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[droneAdj] [drone] hack</li>
     <li>questName->[drone] [data] hack</li>
@@ -23,6 +29,19 @@
     <li>data->intel</li>
     <li>data->info</li>
   -->
-  <Hack_Spacedrone.questNameRules.rulesStrings>TODO</Hack_Spacedrone.questNameRules.rulesStrings>
+  <Hack_Spacedrone.questNameRules.rulesStrings>
+    <li>questName->هک [drone] [droneAdj]</li>
+    <li>questName->هک [data] [drone]</li>
+    <li>droneAdj->مداری</li>
+    <li>droneAdj->داده</li>
+    <li>droneAdj->باستانی</li>
+    <li>drone->پهپاد</li>
+    <li>drone->فضاپیما</li>
+    <li>drone->پهپاد فضایی</li>
+    <li>drone->کریپتوپهپاد</li>
+    <li>data->داده</li>
+    <li>data->اطلاعات</li>
+    <li>data->اطلاعات</li>
+  </Hack_Spacedrone.questNameRules.rulesStrings>
   
 </LanguageData>

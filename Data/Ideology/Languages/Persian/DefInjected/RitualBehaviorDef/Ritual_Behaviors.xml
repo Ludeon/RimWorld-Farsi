@@ -25,48 +25,48 @@
   <DateRitual.stages.0.postAction.text>{0}: سخنرانی تمام شد و مهمانی شروع می‌شود.</DateRitual.stages.0.postAction.text>
   
   <!-- EN: executioner -->
-  <Execution.roles.0.label>TODO</Execution.roles.0.label>
+  <Execution.roles.0.label>جلاد</Execution.roles.0.label>
   <!-- EN: an executioner -->
-  <Execution.roles.0.missingDesc>TODO</Execution.roles.0.missingDesc>
+  <Execution.roles.0.missingDesc>یک جلاد</Execution.roles.0.missingDesc>
   <!-- EN: prisoner -->
-  <Execution.roles.1.label>TODO</Execution.roles.1.label>
+  <Execution.roles.1.label>زندانی</Execution.roles.1.label>
   <!-- EN: a prisoner -->
-  <Execution.roles.1.missingDesc>TODO</Execution.roles.1.missingDesc>
+  <Execution.roles.1.missingDesc>یک زندانی</Execution.roles.1.missingDesc>
   <!-- EN: Spectators must be willing to watch the execution. -->
-  <Execution.spectatorFilter.description>TODO</Execution.spectatorFilter.description>
+  <Execution.spectatorFilter.description>تماشاگران باید مایل به تماشای اعدام باشند.</Execution.spectatorFilter.description>
   <!-- EN: Prisoner is not reachable. -->
-  <Execution.stages.0.failTriggers.0.desc>TODO</Execution.stages.0.failTriggers.0.desc>
+  <Execution.stages.0.failTriggers.0.desc>زندانی در دسترس نیست.</Execution.stages.0.failTriggers.0.desc>
   <!-- EN: escort asleep -->
-  <Execution.stages.0.failTriggers.1.desc>TODO</Execution.stages.0.failTriggers.1.desc>
+  <Execution.stages.0.failTriggers.1.desc>اسکورت خواب است</Execution.stages.0.failTriggers.1.desc>
   
   <!-- EN: participate -->
-  <FeastCannibal.spectatorGerund>TODO</FeastCannibal.spectatorGerund>
+  <FeastCannibal.spectatorGerund>شرکت کردن</FeastCannibal.spectatorGerund>
   <!-- EN: Participants -->
-  <FeastCannibal.spectatorsLabel>TODO</FeastCannibal.spectatorsLabel>
+  <FeastCannibal.spectatorsLabel>شرکت‌کنندگان</FeastCannibal.spectatorsLabel>
   
   <!-- EN: speaker -->
-  <Funeral.roles.0.label>TODO</Funeral.roles.0.label>
+  <Funeral.roles.0.label>سخنران</Funeral.roles.0.label>
   
   <!-- EN: speaker -->
-  <GladiatorDuel.roles.0.label>TODO</GladiatorDuel.roles.0.label>
+  <GladiatorDuel.roles.0.label>سخنران</GladiatorDuel.roles.0.label>
   <!-- EN: duelist -->
-  <GladiatorDuel.roles.1.label>TODO</GladiatorDuel.roles.1.label>
+  <GladiatorDuel.roles.1.label>دوئل‌کننده</GladiatorDuel.roles.1.label>
   <!-- EN: duelists -->
-  <GladiatorDuel.roles.1.categoryLabel>TODO</GladiatorDuel.roles.1.categoryLabel>
+  <GladiatorDuel.roles.1.categoryLabel>دوئل‌کنندگان</GladiatorDuel.roles.1.categoryLabel>
   <!-- EN: prisoners / slaves (duelists) -->
-  <GladiatorDuel.roles.1.missingDesc>TODO</GladiatorDuel.roles.1.missingDesc>
+  <GladiatorDuel.roles.1.missingDesc>زندانیان / بردگان (دوئل‌کنندگان)</GladiatorDuel.roles.1.missingDesc>
   <!-- EN: duelist -->
-  <GladiatorDuel.roles.2.label>TODO</GladiatorDuel.roles.2.label>
+  <GladiatorDuel.roles.2.label>دوئل‌کننده</GladiatorDuel.roles.2.label>
   <!-- EN: duelists -->
-  <GladiatorDuel.roles.2.categoryLabel>TODO</GladiatorDuel.roles.2.categoryLabel>
+  <GladiatorDuel.roles.2.categoryLabel>دوئل‌کنندگان</GladiatorDuel.roles.2.categoryLabel>
   <!-- EN: prisoners / slaves (duelists) -->
-  <GladiatorDuel.roles.2.missingDesc>TODO</GladiatorDuel.roles.2.missingDesc>
+  <GladiatorDuel.roles.2.missingDesc>زندانیان / بردگان (دوئل‌کنندگان)</GladiatorDuel.roles.2.missingDesc>
   <!-- EN: duelist escort -->
-  <GladiatorDuel.roles.3.label>TODO</GladiatorDuel.roles.3.label>
+  <GladiatorDuel.roles.3.label>اسکورت دوئل‌کننده</GladiatorDuel.roles.3.label>
   <!-- EN: duelist escorts -->
-  <GladiatorDuel.roles.3.categoryLabel>TODO</GladiatorDuel.roles.3.categoryLabel>
+  <GladiatorDuel.roles.3.categoryLabel>اسکورت‌های دوئل‌کننده</GladiatorDuel.roles.3.categoryLabel>
   <!-- EN: non-downed colonists capable of hauling -->
-  <GladiatorDuel.roles.3.missingDesc>TODO</GladiatorDuel.roles.3.missingDesc>
+  <GladiatorDuel.roles.3.missingDesc>مستعمره‌نشینان سرپا که قادر به حمل هستند</GladiatorDuel.roles.3.missingDesc>
   <!-- EN: duelist escort -->
   <GladiatorDuel.roles.4.label>اسکورت دوئل‌کننده</GladiatorDuel.roles.4.label>
   <!-- EN: duelist escorts -->

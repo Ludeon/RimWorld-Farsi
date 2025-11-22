@@ -17,7 +17,22 @@
     <li>factionAdj(pilgrimFaction==true)-></li>
     <li>factionAdj(pilgrimFaction==false)->[faction_pawnSingular]</li>
   -->
-  <ReliquaryPilgrims.questContentRules.rulesStrings>TODO</ReliquaryPilgrims.questContentRules.rulesStrings>
+  <ReliquaryPilgrims.questContentRules.rulesStrings>
+    <li>pilgrimsArrivedLetterLabel->[pilgrimSingularOrPlural] [factionAdj] رسیدند</li>
+    <li>pilgrimsArrivedLetterText->[questDescription]</li>
+    <li>delayedRewardLetterText->[pawns0_nameDef] از شما تشکر می‌کند که اجازه دادید [pawns0_objective] [andFollowers] [relic_name] را در [venerateDate] زیارت کنند. به عنوان پاداش، [pawns0_nameDef] موارد زیر را از طریق پاد فرود برای شما می‌فرستد (ارزش کل [rewardsMarketValue_money]):\n\n[rewards].</li>
+    <li>pilgrimsLeavingMessage->[pilgrimsLabelSingularOrPlural] زیارت [relic_name] را تمام کرده‌اند و اکنون در حال ترک هستند.</li>
+    <li>pilgrimsLeftMessage->[pilgrimsLabelSingularOrPlural] نقشه را ترک کردند.</li>
+    <li>areIs(pilgrimCount==1)->است</li>
+    <li>areIs(pilgrimCount>=2)->هستند</li>
+    <li>andFollowers(pilgrimCount==1)-></li>
+    <li>andFollowers(pilgrimCount==2)->و دیگر [faction_pawnSingular]</li>
+    <li>andFollowers(pilgrimCount>=3)->و دیگر [faction_pawnsPlural]</li>
+    <li>pilgrimSingularOrPlural(pilgrimCount==1)->زائر</li>
+    <li>pilgrimSingularOrPlural(pilgrimCount>=2)->زائران</li>
+    <li>factionAdj(pilgrimFaction==true)-></li>
+    <li>factionAdj(pilgrimFaction==false)->[faction_pawnSingular]</li>
+  </ReliquaryPilgrims.questContentRules.rulesStrings>
   <!-- EN:
     <li>pilgrimsLabel->[pawns0_nameDef]</li>
     <li>pilgrimsLabelPlural->[faction_pawnsPlural]</li>
@@ -26,7 +41,14 @@
     <li>hasHave(pilgrimCount==1)->has</li>
     <li>hasHave(pilgrimCount>=2)->have</li>
   -->
-  <ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings>TODO</ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings>
+  <ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings>
+    <li>pilgrimsLabel->[pawns0_nameDef]</li>
+    <li>pilgrimsLabelPlural->[faction_pawnsPlural]</li>
+    <li>pilgrimsLabelSingularOrPlural(pilgrimCount==1)->[pilgrimsLabel]</li>
+    <li>pilgrimsLabelSingularOrPlural(pilgrimCount>=2)->[pilgrimsLabelPlural]</li>
+    <li>hasHave(pilgrimCount==1)->است</li>
+    <li>hasHave(pilgrimCount>=2)->اند</li>
+  </ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>questDescription->[pilgrimsLabelSingularOrPlural] [hasHave] arrived to venerate the [relic_name].\n\nIf you ensure [pronounSingularOrPlural] [isAre] safe and respected while [pronounSingularOrPlural] [visitSingularOrPlural] the ancient relic, [pronounSingularOrPlural] may offer you a reward.</li>
     <li>questDescription(pilgrimCount==1,childCount==1,priority=1)->[pilgrimsLabelSingularOrPlural], a child, [hasHave] arrived to venerate the [relic_name].\n\nIf you ensure [pronounSingularOrPlural] [isAre] safe and respected while [pronounSingularOrPlural] [visitSingularOrPlural] the ancient relic, [pronounSingularOrPlural] may offer you a reward.</li>
@@ -40,7 +62,19 @@
     <li>visitSingularOrPlural(pilgrimCount==1)->visits</li>
     <li>visitSingularOrPlural(pilgrimCount>=2)->visit</li>
   -->
-  <ReliquaryPilgrims.questDescriptionRules.rulesStrings>TODO</ReliquaryPilgrims.questDescriptionRules.rulesStrings>
+  <ReliquaryPilgrims.questDescriptionRules.rulesStrings>
+    <li>questDescription->[pilgrimsLabelSingularOrPlural] برای زیارت [relic_name] رسیده‌[hasHave].\n\nاگر اطمینان حاصل کنید که [pronounSingularOrPlural] در حالی که [pronounSingularOrPlural] از یادگار باستانی [visitSingularOrPlural]، ایمن و مورد احترام [isAre]، [pronounSingularOrPlural] ممکن است به شما پاداش بدهند.</li>
+    <li>questDescription(pilgrimCount==1,childCount==1,priority=1)->[pilgrimsLabelSingularOrPlural]، یک کودک، برای زیارت [relic_name] رسیده‌[hasHave].\n\nاگر اطمینان حاصل کنید که [pronounSingularOrPlural] در حالی که [pronounSingularOrPlural] از یادگار باستانی [visitSingularOrPlural]، ایمن و مورد احترام [isAre]، [pronounSingularOrPlural] ممکن است به شما پاداش بدهند.</li>
+    <li>questDescription(pilgrimCount>=2,childCount==1,priority=1)->گروهی از [pilgrimsLabelSingularOrPlural] شامل یک کودک برای زیارت [relic_name] رسیده‌اند.\n\nاگر اطمینان حاصل کنید که [pronounSingularOrPlural] در حالی که [pronounSingularOrPlural] از یادگار باستانی [visitSingularOrPlural]، ایمن و مورد احترام [isAre]، [pronounSingularOrPlural] ممکن است به شما پاداش بدهند.</li>
+    <li>questDescription(pilgrimCount>=2,childCount>=2,allChildren==false,priority=1)->گروهی از [pilgrimsLabelSingularOrPlural] شامل تعدادی کودک برای زیارت [relic_name] رسیده‌اند.\n\nاگر اطمینان حاصل کنید که [pronounSingularOrPlural] در حالی که [pronounSingularOrPlural] از یادگار باستانی [visitSingularOrPlural]، ایمن و مورد احترام [isAre]، [pronounSingularOrPlural] ممکن است به شما پاداش بدهند.</li>
+    <li>questDescription(pilgrimCount>=2,allChildren==true,priority=1)->گروهی از [pilgrimsLabelSingularOrPlural] کودک برای زیارت [relic_name] رسیده‌اند.\n\nاگر اطمینان حاصل کنید که [pronounSingularOrPlural] در حالی که [pronounSingularOrPlural] از یادگار باستانی [visitSingularOrPlural]، ایمن و مورد احترام [isAre]، [pronounSingularOrPlural] ممکن است به شما پاداش بدهند.</li>
+    <li>isAre(pilgrimCount==1)->است</li>
+    <li>isAre(pilgrimCount>=2)->هستند</li>
+    <li>pronounSingularOrPlural(pilgrimCount==1)->او</li>
+    <li>pronounSingularOrPlural(pilgrimCount>=2)->آنها</li>
+    <li>visitSingularOrPlural(pilgrimCount==1)->بازدید می‌کند</li>
+    <li>visitSingularOrPlural(pilgrimCount>=2)->بازدید می‌کنند</li>
+  </ReliquaryPilgrims.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(pilgrimCount==1)->[pilgrimsLabelSingularOrPlural]'s [visitAdj] [visit]</li>
     <li>questName(pilgrimCount>=2)->[pilgrimsLabelSingularOrPlural] [visitAdj] [visit]</li>
@@ -61,6 +95,25 @@
     <li>visit->tour</li>
     <li>visit->veneration</li>
   -->
-  <ReliquaryPilgrims.questNameRules.rulesStrings>TODO</ReliquaryPilgrims.questNameRules.rulesStrings>
+  <ReliquaryPilgrims.questNameRules.rulesStrings>
+    <li>questName(pilgrimCount==1)->[visit] [visitAdj] [pilgrimsLabelSingularOrPlural]</li>
+    <li>questName(pilgrimCount>=2)->[visit] [visitAdj] [pilgrimsLabelSingularOrPlural]</li>
+    <li>visitAdj(p=6)-></li>
+    <li>visitAdj->مقدس</li>
+    <li>visitAdj->محترم</li>
+    <li>visitAdj->معنوی</li>
+    <li>visitAdj->الهی</li>
+    <li>visitAdj->متبرک</li>
+    <li>visitAdj->رسمی</li>
+    <li>visitAdj->مقدس</li>
+    <li>visitAdj->تقدیس شده</li>
+    <li>visit->بازدید</li>
+    <li>visit->زیارت</li>
+    <li>visit->مأموریت</li>
+    <li>visit->سفر</li>
+    <li>visit->گردش</li>
+    <li>visit->تور</li>
+    <li>visit->تکریم</li>
+  </ReliquaryPilgrims.questNameRules.rulesStrings>
   
 </LanguageData>

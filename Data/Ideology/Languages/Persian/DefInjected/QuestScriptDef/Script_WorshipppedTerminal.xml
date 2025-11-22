@@ -4,13 +4,19 @@
   <!-- EN:
     <li>terminalHackedMessage->Terminal hacked. You've collected the information and can now leave.</li>
   -->
-  <Hack_WorshippedTerminal.questContentRules.rulesStrings>TODO</Hack_WorshippedTerminal.questContentRules.rulesStrings>
+  <Hack_WorshippedTerminal.questContentRules.rulesStrings>
+    <li>terminalHackedMessage->ترمینال هک شد. شما اطلاعات را جمع‌آوری کرده‌اید و اکنون می‌توانید خارج شوید.</li>
+  </Hack_WorshippedTerminal.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->You've learned of an ancient terminal that contains information about the [relic_name]. However, the terminal is surrounded by a tribal village, and the locals venerate it. They aren't part of any major faction.\n\n[visitInfo]</li>
     <li>visitInfo(allowViolentQuests==true)->They are willing to let you visit on the pretense of worshiping it, but they will attack when you touch it.\n\nYou can attack the village from the outside, or enter peacefully and try to quickly escape with the data from the terminal.\n\nBeware - If you spend over [timer_duration] in the village or build anything near it, the locals will attack, and call reinforcements.</li>
     <li>visitInfo(allowViolentQuests==false)->They are willing to let you visit.</li>
   -->
-  <Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>TODO</Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>
+  <Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>
+    <li>questDescription->شما از یک ترمینال باستانی مطلع شده‌اید که حاوی اطلاعاتی در مورد [relic_name] است. با این حال، ترمینال توسط یک روستای قبیله‌ای احاطه شده است و محلی‌ها آن را می‌پرستند. آنها بخشی از هیچ جناح بزرگی نیستند.\n\n[visitInfo]</li>
+    <li>visitInfo(allowViolentQuests==true)->آنها مایلند به بهانه پرستش آن به شما اجازه بازدید بدهند، اما وقتی آن را لمس کنید حمله خواهند کرد.\n\nمی‌توانید از بیرون به روستا حمله کنید، یا مسالمت‌آمیز وارد شوید و سعی کنید به سرعت با داده‌های ترمینال فرار کنید.\n\nمراقب باشید - اگر بیش از [timer_duration] در روستا بمانید یا هر چیزی در نزدیکی آن بسازید، محلی‌ها حمله خواهند کرد و نیروهای کمکی را فرا می‌خوانند.</li>
+    <li>visitInfo(allowViolentQuests==false)->آنها مایلند به شما اجازه بازدید بدهند.</li>
+  </Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [adj] [terminalName]</li>
     <li>adj->worshipped</li>
@@ -29,6 +35,23 @@
     <li>terminalName->database</li>
     <li>terminalName->silicon</li>
   -->
-  <Hack_WorshippedTerminal.questNameRules.rulesStrings>TODO</Hack_WorshippedTerminal.questNameRules.rulesStrings>
+  <Hack_WorshippedTerminal.questNameRules.rulesStrings>
+    <li>questName->[terminalName] [adj]</li>
+    <li>adj->مورد پرستش</li>
+    <li>adj->مقدس</li>
+    <li>adj->باستانی</li>
+    <li>adj->روستایی</li>
+    <li>adj->روستا</li>
+    <li>adj->قبیله‌ای</li>
+    <li>adj->مخفی</li>
+    <li>terminalName(p=4)->ترمینال</li>
+    <li>terminalName->ماشین</li>
+    <li>terminalName->دستگاه</li>
+    <li>terminalName->صفحه نمایش</li>
+    <li>terminalName->کامپیوتر</li>
+    <li>terminalName->بانک اطلاعات</li>
+    <li>terminalName->پایگاه داده</li>
+    <li>terminalName->سیلیکون</li>
+  </Hack_WorshippedTerminal.questNameRules.rulesStrings>
   
 </LanguageData>

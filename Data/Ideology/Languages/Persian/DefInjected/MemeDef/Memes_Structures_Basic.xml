@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: animist -->
-  <Structure_Animist.label>TODO</Structure_Animist.label>
+  <Structure_Animist.label>آنیمیست</Structure_Animist.label>
   <!-- EN: Spirits live in everything around us. In the plants and animals, rivers and trees, sky and stars. The moral structure of the universe springs from the necessity of respecting them. -->
-  <Structure_Animist.description>TODO</Structure_Animist.description>
+  <Structure_Animist.description>ارواح در همه چیز اطراف ما زندگی می‌کنند. در گیاهان و حیوانات، رودخانه‌ها و درختان، آسمان و ستارگان. ساختار اخلاقی جهان از ضرورت احترام به آنها سرچشمه می‌گیرد.</Structure_Animist.description>
   <!-- EN:
     <li>memeLeaderNoun->curate</li>
     <li>memeLeaderNoun->speaker</li>
@@ -16,26 +16,36 @@
     <li>memeMoralist->priest</li>
     <li>memeMoralist->elder</li>
   -->
-  <Structure_Animist.generalRules.rulesStrings>TODO</Structure_Animist.generalRules.rulesStrings>
+  <Structure_Animist.generalRules.rulesStrings>
+    <li>memeLeaderNoun->متولی</li>
+    <li>memeLeaderNoun->سخنران</li>
+    <li>memeLeaderAdjective->جهان</li>
+    <li>memeLeaderAdjective->روح</li>
+    <li>memeLeaderAdjective->آنیما</li>
+    <li>memeHyphenPrefix->آنی</li>
+    <li>memeMoralist->شمن</li>
+    <li>memeMoralist->کاهن</li>
+    <li>memeMoralist->ریش‌سفید</li>
+  </Structure_Animist.generalRules.rulesStrings>
   <!-- EN: animist -->
-  <Structure_Animist.symbolPacks.0.adjective>TODO</Structure_Animist.symbolPacks.0.adjective>
+  <Structure_Animist.symbolPacks.0.adjective>آنیمیست</Structure_Animist.symbolPacks.0.adjective>
   <!-- EN: animist -->
-  <Structure_Animist.symbolPacks.0.member>TODO</Structure_Animist.symbolPacks.0.member>
+  <Structure_Animist.symbolPacks.0.member>آنیمیست</Structure_Animist.symbolPacks.0.member>
   <!-- EN: animism -->
-  <Structure_Animist.symbolPacks.0.theme>TODO</Structure_Animist.symbolPacks.0.theme>
+  <Structure_Animist.symbolPacks.0.theme>آنیمیسم</Structure_Animist.symbolPacks.0.theme>
   <!-- EN: spiritist -->
-  <Structure_Animist.symbolPacks.1.adjective>TODO</Structure_Animist.symbolPacks.1.adjective>
+  <Structure_Animist.symbolPacks.1.adjective>اسپیریتیست</Structure_Animist.symbolPacks.1.adjective>
   <!-- EN: spiritist -->
-  <Structure_Animist.symbolPacks.1.member>TODO</Structure_Animist.symbolPacks.1.member>
+  <Structure_Animist.symbolPacks.1.member>اسپیریتیست</Structure_Animist.symbolPacks.1.member>
   <!-- EN: spiritism -->
-  <Structure_Animist.symbolPacks.1.theme>TODO</Structure_Animist.symbolPacks.1.theme>
+  <Structure_Animist.symbolPacks.1.theme>اسپیریتیسم</Structure_Animist.symbolPacks.1.theme>
   <!-- EN: temple -->
-  <Structure_Animist.worshipRoomLabel>TODO</Structure_Animist.worshipRoomLabel>
+  <Structure_Animist.worshipRoomLabel>معبد</Structure_Animist.worshipRoomLabel>
   
   <!-- EN: archist -->
-  <Structure_Archist.label>TODO</Structure_Archist.label>
+  <Structure_Archist.label>آرکیست</Structure_Archist.label>
   <!-- EN: Archotechs are the true gods. They know the moral structure of the universe, and serving them is how we will connect with it. -->
-  <Structure_Archist.description>TODO</Structure_Archist.description>
+  <Structure_Archist.description>آرکوتک‌ها خدایان واقعی هستند. آنها ساختار اخلاقی جهان را می‌دانند و خدمت به آنها راهی است که ما با آن ارتباط برقرار خواهیم کرد.</Structure_Archist.description>
   <!-- EN:
     <li>memeAdjective->archic</li>
     <li>memeAdjective->archotechnic</li>
@@ -51,30 +61,44 @@
     <li>memeMoralist->rector</li>
     <li>memeMoralist->abbot</li>
   -->
-  <Structure_Archist.generalRules.rulesStrings>TODO</Structure_Archist.generalRules.rulesStrings>
+  <Structure_Archist.generalRules.rulesStrings>
+    <li>memeAdjective->آرکیک</li>
+    <li>memeAdjective->آرکوتکنیک</li>
+    <li>memeAdjective->آرکونیک</li>
+    <li>memeHyphenPrefix->آرکو</li>
+    <li>memeHyphenPrefix->آرک</li>
+    <li>memeLeaderNoun->آرکیست</li>
+    <li>memeLeaderNoun->آرکوتکنیست</li>
+    <li>memeLeaderAdjective->آرکیک</li>
+    <li>memeLeaderAdjective->اکسوکروم</li>
+    <li>memeMoralist->کاهن</li>
+    <li>memeMoralist->روحانی</li>
+    <li>memeMoralist->رئیس</li>
+    <li>memeMoralist->راهب</li>
+  </Structure_Archist.generalRules.rulesStrings>
   <!-- EN: archotechnic -->
-  <Structure_Archist.symbolPacks.0.adjective>TODO</Structure_Archist.symbolPacks.0.adjective>
+  <Structure_Archist.symbolPacks.0.adjective>آرکوتکنیک</Structure_Archist.symbolPacks.0.adjective>
   <!-- EN: Archotechnics -->
-  <Structure_Archist.symbolPacks.0.ideoName>TODO</Structure_Archist.symbolPacks.0.ideoName>
+  <Structure_Archist.symbolPacks.0.ideoName>آرکوتکنیک</Structure_Archist.symbolPacks.0.ideoName>
   <!-- EN: archotechnist -->
-  <Structure_Archist.symbolPacks.0.member>TODO</Structure_Archist.symbolPacks.0.member>
+  <Structure_Archist.symbolPacks.0.member>آرکوتکنیست</Structure_Archist.symbolPacks.0.member>
   <!-- EN: archotechnology -->
-  <Structure_Archist.symbolPacks.0.theme>TODO</Structure_Archist.symbolPacks.0.theme>
+  <Structure_Archist.symbolPacks.0.theme>آرکوتکنولوژی</Structure_Archist.symbolPacks.0.theme>
   <!-- EN: archist -->
-  <Structure_Archist.symbolPacks.1.adjective>TODO</Structure_Archist.symbolPacks.1.adjective>
+  <Structure_Archist.symbolPacks.1.adjective>آرکیست</Structure_Archist.symbolPacks.1.adjective>
   <!-- EN: Archism -->
-  <Structure_Archist.symbolPacks.1.ideoName>TODO</Structure_Archist.symbolPacks.1.ideoName>
+  <Structure_Archist.symbolPacks.1.ideoName>آرکیسم</Structure_Archist.symbolPacks.1.ideoName>
   <!-- EN: archist -->
-  <Structure_Archist.symbolPacks.1.member>TODO</Structure_Archist.symbolPacks.1.member>
+  <Structure_Archist.symbolPacks.1.member>آرکیست</Structure_Archist.symbolPacks.1.member>
   <!-- EN: archism -->
-  <Structure_Archist.symbolPacks.1.theme>TODO</Structure_Archist.symbolPacks.1.theme>
+  <Structure_Archist.symbolPacks.1.theme>آرکیسم</Structure_Archist.symbolPacks.1.theme>
   <!-- EN: shrine -->
-  <Structure_Archist.worshipRoomLabel>TODO</Structure_Archist.worshipRoomLabel>
+  <Structure_Archist.worshipRoomLabel>زیارتگاه</Structure_Archist.worshipRoomLabel>
   
   <!-- EN: ideological -->
-  <Structure_Ideological.label>TODO</Structure_Ideological.label>
+  <Structure_Ideological.label>ایدئولوژیک</Structure_Ideological.label>
   <!-- EN: There are no gods. The moral structure of the universe is found in our grand narrative of social forces. -->
-  <Structure_Ideological.description>TODO</Structure_Ideological.description>
+  <Structure_Ideological.description>هیچ خدایی وجود ندارد. ساختار اخلاقی جهان در روایت بزرگ ما از نیروهای اجتماعی یافت می‌شود.</Structure_Ideological.description>
   <!-- EN:
     <li>memeHyphenPrefix->ideo</li>
     <li>memeLeaderNoun->mind</li>
@@ -91,38 +115,53 @@
     <li>memeMoralist->academic</li>
     <li>memeMoralist->sophist</li>
   -->
-  <Structure_Ideological.generalRules.rulesStrings>TODO</Structure_Ideological.generalRules.rulesStrings>
+  <Structure_Ideological.generalRules.rulesStrings>
+    <li>memeHyphenPrefix->ایدئو</li>
+    <li>memeLeaderNoun->ذهن</li>
+    <li>memeLeaderNoun->تصمیم‌گیرنده</li>
+    <li>memeLeaderNoun->رهبر</li>
+    <li>memeLeaderAdjective->اخلاقی</li>
+    <li>memeLeaderAdjective->اخلاقی</li>
+    <li>memeLeaderAdjective->بیدار</li>
+    <li>memeMoralist->مشاور</li>
+    <li>memeMoralist->اخلاق‌گرا</li>
+    <li>memeMoralist->اخلاق‌گرا</li>
+    <li>memeMoralist->فیلسوف</li>
+    <li>memeMoralist->متفکر</li>
+    <li>memeMoralist->آکادمیک</li>
+    <li>memeMoralist->سوفیست</li>
+  </Structure_Ideological.generalRules.rulesStrings>
   <!-- EN: ethical -->
-  <Structure_Ideological.symbolPacks.0.adjective>TODO</Structure_Ideological.symbolPacks.0.adjective>
+  <Structure_Ideological.symbolPacks.0.adjective>اخلاقی</Structure_Ideological.symbolPacks.0.adjective>
   <!-- EN: Ethics -->
-  <Structure_Ideological.symbolPacks.0.ideoName>TODO</Structure_Ideological.symbolPacks.0.ideoName>
+  <Structure_Ideological.symbolPacks.0.ideoName>اخلاق</Structure_Ideological.symbolPacks.0.ideoName>
   <!-- EN: ethicist -->
-  <Structure_Ideological.symbolPacks.0.member>TODO</Structure_Ideological.symbolPacks.0.member>
+  <Structure_Ideological.symbolPacks.0.member>اخلاق‌گرا</Structure_Ideological.symbolPacks.0.member>
   <!-- EN: ethics -->
-  <Structure_Ideological.symbolPacks.0.theme>TODO</Structure_Ideological.symbolPacks.0.theme>
+  <Structure_Ideological.symbolPacks.0.theme>اخلاق</Structure_Ideological.symbolPacks.0.theme>
   <!-- EN: ideological -->
-  <Structure_Ideological.symbolPacks.1.adjective>TODO</Structure_Ideological.symbolPacks.1.adjective>
+  <Structure_Ideological.symbolPacks.1.adjective>ایدئولوژیک</Structure_Ideological.symbolPacks.1.adjective>
   <!-- EN: Ideology -->
-  <Structure_Ideological.symbolPacks.1.ideoName>TODO</Structure_Ideological.symbolPacks.1.ideoName>
+  <Structure_Ideological.symbolPacks.1.ideoName>ایدئولوژی</Structure_Ideological.symbolPacks.1.ideoName>
   <!-- EN: ideologist -->
-  <Structure_Ideological.symbolPacks.1.member>TODO</Structure_Ideological.symbolPacks.1.member>
+  <Structure_Ideological.symbolPacks.1.member>ایدئولوژیست</Structure_Ideological.symbolPacks.1.member>
   <!-- EN: ideology -->
-  <Structure_Ideological.symbolPacks.1.theme>TODO</Structure_Ideological.symbolPacks.1.theme>
+  <Structure_Ideological.symbolPacks.1.theme>ایدئولوژی</Structure_Ideological.symbolPacks.1.theme>
   <!-- EN: just -->
-  <Structure_Ideological.symbolPacks.2.adjective>TODO</Structure_Ideological.symbolPacks.2.adjective>
+  <Structure_Ideological.symbolPacks.2.adjective>عادل</Structure_Ideological.symbolPacks.2.adjective>
   <!-- EN: Justice -->
-  <Structure_Ideological.symbolPacks.2.ideoName>TODO</Structure_Ideological.symbolPacks.2.ideoName>
+  <Structure_Ideological.symbolPacks.2.ideoName>عدالت</Structure_Ideological.symbolPacks.2.ideoName>
   <!-- EN: justicar -->
-  <Structure_Ideological.symbolPacks.2.member>TODO</Structure_Ideological.symbolPacks.2.member>
+  <Structure_Ideological.symbolPacks.2.member>دادگر</Structure_Ideological.symbolPacks.2.member>
   <!-- EN: justice -->
-  <Structure_Ideological.symbolPacks.2.theme>TODO</Structure_Ideological.symbolPacks.2.theme>
+  <Structure_Ideological.symbolPacks.2.theme>عدالت</Structure_Ideological.symbolPacks.2.theme>
   <!-- EN: sanctuary -->
-  <Structure_Ideological.worshipRoomLabel>TODO</Structure_Ideological.worshipRoomLabel>
+  <Structure_Ideological.worshipRoomLabel>پناهگاه</Structure_Ideological.worshipRoomLabel>
   
   <!-- EN: abstract theist -->
-  <Structure_TheistAbstract.label>TODO</Structure_TheistAbstract.label>
+  <Structure_TheistAbstract.label>تئیست انتزاعی</Structure_TheistAbstract.label>
   <!-- EN: The god(s) do not have physical form, but are everywhere at once. They know all, and can do anything. Their will defines the moral structure of the universe. -->
-  <Structure_TheistAbstract.description>TODO</Structure_TheistAbstract.description>
+  <Structure_TheistAbstract.description>خدا(یان) شکل فیزیکی ندارند، اما در همه جا حضور دارند. آنها همه چیز را می‌دانند و می‌توانند هر کاری انجام دهند. اراده آنها ساختار اخلاقی جهان را تعریف می‌کند.</Structure_TheistAbstract.description>
   <!-- EN:
     <li>memeCreed->temple</li>
     <li>memeCreed->sect</li>
@@ -144,46 +183,66 @@
     <li>memeMoralist->rector</li>
     <li>memeMoralist->abbot</li>
   -->
-  <Structure_TheistAbstract.generalRules.rulesStrings>TODO</Structure_TheistAbstract.generalRules.rulesStrings>
+  <Structure_TheistAbstract.generalRules.rulesStrings>
+    <li>memeCreed->معبد</li>
+    <li>memeCreed->فرقه</li>
+    <li>memeCreed->کیش</li>
+    <li>memeCreed->ایمان</li>
+    <li>memeHyphenPrefix->تئو</li>
+    <li>memeConcept->آفرینش</li>
+    <li>memeConcept->زندگی</li>
+    <li>memeLeaderNoun->اسقف</li>
+    <li>memeLeaderNoun->کاردینال</li>
+    <li>memeLeaderNoun->پاپ</li>
+    <li>memeLeaderNoun->دیووس</li>
+    <li>memeLeaderAdjective->مقدس</li>
+    <li>memeLeaderAdjective->الهی</li>
+    <li>memeMoralist->کاهن</li>
+    <li>memeMoralist->کشیش</li>
+    <li>memeMoralist->روحانی</li>
+    <li>memeMoralist->واعظ</li>
+    <li>memeMoralist->رئیس</li>
+    <li>memeMoralist->راهب</li>
+  </Structure_TheistAbstract.generalRules.rulesStrings>
   <!-- EN: spiritual -->
-  <Structure_TheistAbstract.symbolPacks.0.adjective>TODO</Structure_TheistAbstract.symbolPacks.0.adjective>
+  <Structure_TheistAbstract.symbolPacks.0.adjective>معنوی</Structure_TheistAbstract.symbolPacks.0.adjective>
   <!-- EN: Spiritism -->
-  <Structure_TheistAbstract.symbolPacks.0.ideoName>TODO</Structure_TheistAbstract.symbolPacks.0.ideoName>
+  <Structure_TheistAbstract.symbolPacks.0.ideoName>اسپیریتیسم</Structure_TheistAbstract.symbolPacks.0.ideoName>
   <!-- EN: spiritist -->
-  <Structure_TheistAbstract.symbolPacks.0.member>TODO</Structure_TheistAbstract.symbolPacks.0.member>
+  <Structure_TheistAbstract.symbolPacks.0.member>اسپیریتیست</Structure_TheistAbstract.symbolPacks.0.member>
   <!-- EN: spiritualism -->
-  <Structure_TheistAbstract.symbolPacks.0.theme>TODO</Structure_TheistAbstract.symbolPacks.0.theme>
+  <Structure_TheistAbstract.symbolPacks.0.theme>اسپیریچوالیسم</Structure_TheistAbstract.symbolPacks.0.theme>
   <!-- EN: faithful -->
-  <Structure_TheistAbstract.symbolPacks.1.adjective>TODO</Structure_TheistAbstract.symbolPacks.1.adjective>
+  <Structure_TheistAbstract.symbolPacks.1.adjective>مؤمن</Structure_TheistAbstract.symbolPacks.1.adjective>
   <!-- EN: Faith -->
-  <Structure_TheistAbstract.symbolPacks.1.ideoName>TODO</Structure_TheistAbstract.symbolPacks.1.ideoName>
+  <Structure_TheistAbstract.symbolPacks.1.ideoName>ایمان</Structure_TheistAbstract.symbolPacks.1.ideoName>
   <!-- EN: faithholder -->
-  <Structure_TheistAbstract.symbolPacks.1.member>TODO</Structure_TheistAbstract.symbolPacks.1.member>
+  <Structure_TheistAbstract.symbolPacks.1.member>ایمان‌دار</Structure_TheistAbstract.symbolPacks.1.member>
   <!-- EN: faith -->
-  <Structure_TheistAbstract.symbolPacks.1.theme>TODO</Structure_TheistAbstract.symbolPacks.1.theme>
+  <Structure_TheistAbstract.symbolPacks.1.theme>ایمان</Structure_TheistAbstract.symbolPacks.1.theme>
   <!-- EN: divinist -->
-  <Structure_TheistAbstract.symbolPacks.2.adjective>TODO</Structure_TheistAbstract.symbolPacks.2.adjective>
+  <Structure_TheistAbstract.symbolPacks.2.adjective>دیوینیست</Structure_TheistAbstract.symbolPacks.2.adjective>
   <!-- EN: Divinism -->
-  <Structure_TheistAbstract.symbolPacks.2.ideoName>TODO</Structure_TheistAbstract.symbolPacks.2.ideoName>
+  <Structure_TheistAbstract.symbolPacks.2.ideoName>دیوینیسم</Structure_TheistAbstract.symbolPacks.2.ideoName>
   <!-- EN: divinist -->
-  <Structure_TheistAbstract.symbolPacks.2.member>TODO</Structure_TheistAbstract.symbolPacks.2.member>
+  <Structure_TheistAbstract.symbolPacks.2.member>دیوینیست</Structure_TheistAbstract.symbolPacks.2.member>
   <!-- EN: divinity -->
-  <Structure_TheistAbstract.symbolPacks.2.theme>TODO</Structure_TheistAbstract.symbolPacks.2.theme>
+  <Structure_TheistAbstract.symbolPacks.2.theme>الوهیت</Structure_TheistAbstract.symbolPacks.2.theme>
   <!-- EN: holyist -->
-  <Structure_TheistAbstract.symbolPacks.3.adjective>TODO</Structure_TheistAbstract.symbolPacks.3.adjective>
+  <Structure_TheistAbstract.symbolPacks.3.adjective>هولیست</Structure_TheistAbstract.symbolPacks.3.adjective>
   <!-- EN: Holyism -->
-  <Structure_TheistAbstract.symbolPacks.3.ideoName>TODO</Structure_TheistAbstract.symbolPacks.3.ideoName>
+  <Structure_TheistAbstract.symbolPacks.3.ideoName>هولیسم</Structure_TheistAbstract.symbolPacks.3.ideoName>
   <!-- EN: holyist -->
-  <Structure_TheistAbstract.symbolPacks.3.member>TODO</Structure_TheistAbstract.symbolPacks.3.member>
+  <Structure_TheistAbstract.symbolPacks.3.member>هولیست</Structure_TheistAbstract.symbolPacks.3.member>
   <!-- EN: holiness -->
-  <Structure_TheistAbstract.symbolPacks.3.theme>TODO</Structure_TheistAbstract.symbolPacks.3.theme>
+  <Structure_TheistAbstract.symbolPacks.3.theme>قداست</Structure_TheistAbstract.symbolPacks.3.theme>
   <!-- EN: temple -->
-  <Structure_TheistAbstract.worshipRoomLabel>TODO</Structure_TheistAbstract.worshipRoomLabel>
+  <Structure_TheistAbstract.worshipRoomLabel>معبد</Structure_TheistAbstract.worshipRoomLabel>
   
   <!-- EN: embodied theist -->
-  <Structure_TheistEmbodied.label>TODO</Structure_TheistEmbodied.label>
+  <Structure_TheistEmbodied.label>تئیست مجسم</Structure_TheistEmbodied.label>
   <!-- EN: The god(s) walk the planets like us, yet they are powerful and immortal as we are not. They decide the moral structure of the universe. -->
-  <Structure_TheistEmbodied.description>TODO</Structure_TheistEmbodied.description>
+  <Structure_TheistEmbodied.description>خدا(یان) مانند ما در سیارات قدم می‌زنند، اما قدرتمند و جاودانه هستند در حالی که ما نیستیم. آنها در مورد ساختار اخلاقی جهان تصمیم می‌گیرند.</Structure_TheistEmbodied.description>
   <!-- EN:
     <li>memeCreed->sect</li>
     <li>memeCreed->cult</li>
@@ -197,24 +256,36 @@
     <li>memeMoralist->priest</li>
     <li>memeMoralist->cleric</li>
   -->
-  <Structure_TheistEmbodied.generalRules.rulesStrings>TODO</Structure_TheistEmbodied.generalRules.rulesStrings>
+  <Structure_TheistEmbodied.generalRules.rulesStrings>
+    <li>memeCreed->فرقه</li>
+    <li>memeCreed->کیش</li>
+    <li>memeCreed->معبد</li>
+    <li>memeCreed->ایمان</li>
+    <li>memeHyphenPrefix->تئو</li>
+    <li>memeConcept->آفرینش</li>
+    <li>memeConcept->زندگی</li>
+    <li>memeLeaderNoun->تمپلار</li>
+    <li>memeLeaderAdjective->الهی</li>
+    <li>memeMoralist->کاهن</li>
+    <li>memeMoralist->روحانی</li>
+  </Structure_TheistEmbodied.generalRules.rulesStrings>
   <!-- EN: spiritual -->
-  <Structure_TheistEmbodied.symbolPacks.0.adjective>TODO</Structure_TheistEmbodied.symbolPacks.0.adjective>
+  <Structure_TheistEmbodied.symbolPacks.0.adjective>معنوی</Structure_TheistEmbodied.symbolPacks.0.adjective>
   <!-- EN: Spiritism -->
-  <Structure_TheistEmbodied.symbolPacks.0.ideoName>TODO</Structure_TheistEmbodied.symbolPacks.0.ideoName>
+  <Structure_TheistEmbodied.symbolPacks.0.ideoName>اسپیریتیسم</Structure_TheistEmbodied.symbolPacks.0.ideoName>
   <!-- EN: spiritist -->
-  <Structure_TheistEmbodied.symbolPacks.0.member>TODO</Structure_TheistEmbodied.symbolPacks.0.member>
+  <Structure_TheistEmbodied.symbolPacks.0.member>اسپیریتیست</Structure_TheistEmbodied.symbolPacks.0.member>
   <!-- EN: spiritualism -->
-  <Structure_TheistEmbodied.symbolPacks.0.theme>TODO</Structure_TheistEmbodied.symbolPacks.0.theme>
+  <Structure_TheistEmbodied.symbolPacks.0.theme>اسپیریچوالیسم</Structure_TheistEmbodied.symbolPacks.0.theme>
   <!-- EN: faithful -->
-  <Structure_TheistEmbodied.symbolPacks.1.adjective>TODO</Structure_TheistEmbodied.symbolPacks.1.adjective>
+  <Structure_TheistEmbodied.symbolPacks.1.adjective>مؤمن</Structure_TheistEmbodied.symbolPacks.1.adjective>
   <!-- EN: Faith -->
-  <Structure_TheistEmbodied.symbolPacks.1.ideoName>TODO</Structure_TheistEmbodied.symbolPacks.1.ideoName>
+  <Structure_TheistEmbodied.symbolPacks.1.ideoName>ایمان</Structure_TheistEmbodied.symbolPacks.1.ideoName>
   <!-- EN: faithholder -->
-  <Structure_TheistEmbodied.symbolPacks.1.member>TODO</Structure_TheistEmbodied.symbolPacks.1.member>
+  <Structure_TheistEmbodied.symbolPacks.1.member>ایمان‌دار</Structure_TheistEmbodied.symbolPacks.1.member>
   <!-- EN: faith -->
-  <Structure_TheistEmbodied.symbolPacks.1.theme>TODO</Structure_TheistEmbodied.symbolPacks.1.theme>
+  <Structure_TheistEmbodied.symbolPacks.1.theme>ایمان</Structure_TheistEmbodied.symbolPacks.1.theme>
   <!-- EN: pantheon -->
-  <Structure_TheistEmbodied.worshipRoomLabel>TODO</Structure_TheistEmbodied.worshipRoomLabel>
+  <Structure_TheistEmbodied.worshipRoomLabel>پانتئون</Structure_TheistEmbodied.worshipRoomLabel>
   
 </LanguageData>

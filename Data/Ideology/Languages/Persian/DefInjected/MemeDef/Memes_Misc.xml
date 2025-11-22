@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: animal personhood -->
-  <AnimalPersonhood.label>TODO</AnimalPersonhood.label>
+  <AnimalPersonhood.label>شخصیت حیوانی</AnimalPersonhood.label>
   <!-- EN: Animals have rights as humans do. -->
-  <AnimalPersonhood.description>TODO</AnimalPersonhood.description>
+  <AnimalPersonhood.description>حیوانات مانند انسان‌ها حقوق دارند.</AnimalPersonhood.description>
   <!-- EN:
     <li>creation(tag=meme_AnimalPersonhood)        ->[deity0_name] created [sacredAnimalList] and the human on the [place_summary] [place_name] and raised them as siblings.</li>
     <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->[deity0_name] brought the animals and the humans of the [place_summary] [place_name] together in a great conference.</li>
@@ -34,7 +34,35 @@
     <li>sacredAnimalListEnd->the [animal0_thingDef_label]</li>
     <li>sacredAnimalListEnd->the cow, the fox, and the bear</li>
   -->
-  <AnimalPersonhood.descriptionMaker.rules.rulesStrings>TODO</AnimalPersonhood.descriptionMaker.rules.rulesStrings>
+  <AnimalPersonhood.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_AnimalPersonhood)        ->[deity0_name] [sacredAnimalList] و انسان را در [place_summary] [place_name] آفرید و آنها را به عنوان خواهر و برادر بزرگ کرد.</li>
+    <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->[deity0_name] حیوانات و انسان‌های [place_summary] [place_name] را در یک کنفرانس بزرگ گرد هم آورد.</li>
+    <li>intro(tag=meme_AnimalPersonhood)           ->[deity0_name] به [place_summary] [place_name] با [sacredAnimalListEnd] برکت داد و به مردم آنجا آموخت که به حیوانات احترام بگذارند.</li>
+    <li>conflict(tag=meme_AnimalPersonhood)        ->یک [foeLeader] شیطانی دستور داد حیوانات وحشی شکار شوند و [foeSoldiers] [foeLeader_possessive] آنها را با [place_personalWeapon]های بی‌رحمانه شکار کردند.</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     ->[deity0_name] نزد یک [place_job] به نام [founderName] آمد [revelationAdverb] درباره یک [veneratedAnimal]. اما [founderName] همان [veneratedAnimal] بود و [veneratedAnimal] همان [founderName] بود و [founder_pronoun] نقشه [deity0_name] را فهمید.</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     ->یک [place_job] به نام [founderName] بسیاری از حیوانات را که توسط اربابان بی‌رحم به بردگی گرفته شده بودند آزاد کرد و آنها را به پناهگاه در [altarRoomLabel] [deity0_name] برد.</li>
+    <li>victory(tag=meme_AnimalPersonhood)         ->[founderName] با صدای [deity0_name] [memberNamePlural] و حیوانات را فراخواند و در یک هجوم بزرگ از سم و پنجه و پا، [foeLeader] و [foeSoldiers] [foeLeader_possessive] را لگدمال کردند.</li>
+    <li>setup(tag=meme_AnimalPersonhood)           ->[founderName] بیست سال در جنگل زندگی کرد، حیوانات را مطالعه کرد و با آنها ارتباط برقرار کرد. [founder_pronoun] به درک اخلاق واقعی آنها رسید و جنبش ما را تأسیس کرد.</li>
+    <li>story(uses=1,tag=meme_AnimalPersonhood)    ->[founderName] رفت تا با حیوانات در مزارع و جنگل‌ها ارتباط برقرار کند و با آنها به عنوان برابر ارتباط برقرار کرد.</li>
+    <li>lessonIntro(tag=meme_AnimalPersonhood)         ->در بازدیدهای روزانه‌ام با [veneratedOrAnyAnimal]ها یاد گرفتم که واقعاً به آنها گوش دهم. بارها و بارها، به روش خودشان، پیامشان را برایم تکرار کردند:</li>
+    <li>lesson(tag=meme_AnimalPersonhood)              ->حیوانات شرکای ما در این دنیا هستند و رفتار با آنها به عنوان موجودی کمتر اشتباه است</li>
+    <li>lessonReinforcement(tag=meme_AnimalPersonhood) ->من خودم باور نمی‌کردم تا اینکه یک [veneratedOrAnyAnimal] آن را به من زمزمه کرد.</li>
+    <li>archistBasis(tag=meme_AnimalPersonhood)    ->از زمانی که آرکوتک‌ها بیدار شدند، بدیهی است که هیچ تمایز اخلاقی بین انسان‌ها و حیوانات قائل نشده‌اند.</li>
+    <li>archistFact(tag=meme_AnimalPersonhood)     ->آرکوتک‌ها در سطح بالاتری از اخلاق نسبت به زیست‌حیات هستند. برتری آنها آنقدر زیاد است که انسان‌ها در همان سطح اخلاقی حیوانات هستند.</li>
+    <li>archistProphecy(tag=meme_AnimalPersonhood) ->[inTheEnd]، آرکوتک‌ها انسان‌ها را تنها در صورتی به عنوان برابر بالا می‌برند که انسان‌ها با حیوانات به عنوان برابر رفتار کنند.</li>
+    <li>animistBasis(tag=meme_AnimalPersonhood)    ->ارواح اندیشه و آگاهی در حیوانات و انسان‌ها به یک اندازه زندگی می‌کنند.</li>
+    <li>animistFact(tag=meme_AnimalPersonhood)     ->ارواح حیوانات طبیعت همان ارواحی هستند که در انسان‌ها ساکن هستند.</li>
+    <li>veneratedOrAnyAnimal(priority=10)->[veneratedAnimal]</li>
+    <li>veneratedOrAnyAnimal->[Animal]</li>
+    <li>sacredAnimalList->[animal0_thingDef_label]، [animal1_thingDef_label]، [animal2_thingDef_label]،</li>
+    <li>sacredAnimalList->[animal0_thingDef_label]، [animal1_thingDef_label]،</li>
+    <li>sacredAnimalList->[animal0_thingDef_label]</li>
+    <li>sacredAnimalList->گاو، روباه، خرس،</li>
+    <li>sacredAnimalListEnd->[animal0_thingDef_label]، [animal1_thingDef_label]، و [animal2_thingDef_label]</li>
+    <li>sacredAnimalListEnd->[animal0_thingDef_label]، و [animal1_thingDef_label]</li>
+    <li>sacredAnimalListEnd->[animal0_thingDef_label]</li>
+    <li>sacredAnimalListEnd->گاو، روباه، و خرس</li>
+  </AnimalPersonhood.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->animal</li>
     <li>memeAdjective->furry</li>
@@ -49,28 +77,41 @@
     <li>memeMoralist->herder</li>
     <li>memeMoralist->shepherd</li>
   -->
-  <AnimalPersonhood.generalRules.rulesStrings>TODO</AnimalPersonhood.generalRules.rulesStrings>
+  <AnimalPersonhood.generalRules.rulesStrings>
+    <li>memeAdjective->حیوانی</li>
+    <li>memeAdjective->پشمالو</li>
+    <li>memeCreed->گله</li>
+    <li>memeCreed->رمه</li>
+    <li>memeCreed->دسته</li>
+    <li>memeConcept->حیوانات</li>
+    <li>memeLeaderNoun->جانور</li>
+    <li>memeLeaderNoun->حیوان</li>
+    <li>memeLeaderAdjective->آلفا</li>
+    <li>memeMoralist->نجواگر</li>
+    <li>memeMoralist->چوپان</li>
+    <li>memeMoralist->شبان</li>
+  </AnimalPersonhood.generalRules.rulesStrings>
   <!-- EN: animalistic -->
-  <AnimalPersonhood.symbolPacks.0.adjective>TODO</AnimalPersonhood.symbolPacks.0.adjective>
+  <AnimalPersonhood.symbolPacks.0.adjective>حیوانی</AnimalPersonhood.symbolPacks.0.adjective>
   <!-- EN: Animalism -->
-  <AnimalPersonhood.symbolPacks.0.ideoName>TODO</AnimalPersonhood.symbolPacks.0.ideoName>
+  <AnimalPersonhood.symbolPacks.0.ideoName>انیمالیسم</AnimalPersonhood.symbolPacks.0.ideoName>
   <!-- EN: animalist -->
-  <AnimalPersonhood.symbolPacks.0.member>TODO</AnimalPersonhood.symbolPacks.0.member>
+  <AnimalPersonhood.symbolPacks.0.member>انیمالیست</AnimalPersonhood.symbolPacks.0.member>
   <!-- EN: animals -->
-  <AnimalPersonhood.symbolPacks.0.theme>TODO</AnimalPersonhood.symbolPacks.0.theme>
+  <AnimalPersonhood.symbolPacks.0.theme>حیوانات</AnimalPersonhood.symbolPacks.0.theme>
   <!-- EN: beastic -->
-  <AnimalPersonhood.symbolPacks.1.adjective>TODO</AnimalPersonhood.symbolPacks.1.adjective>
+  <AnimalPersonhood.symbolPacks.1.adjective>وحشی</AnimalPersonhood.symbolPacks.1.adjective>
   <!-- EN: Beastism -->
-  <AnimalPersonhood.symbolPacks.1.ideoName>TODO</AnimalPersonhood.symbolPacks.1.ideoName>
+  <AnimalPersonhood.symbolPacks.1.ideoName>بیستیسم</AnimalPersonhood.symbolPacks.1.ideoName>
   <!-- EN: beastor -->
-  <AnimalPersonhood.symbolPacks.1.member>TODO</AnimalPersonhood.symbolPacks.1.member>
+  <AnimalPersonhood.symbolPacks.1.member>بیستور</AnimalPersonhood.symbolPacks.1.member>
   <!-- EN: beasts -->
-  <AnimalPersonhood.symbolPacks.1.theme>TODO</AnimalPersonhood.symbolPacks.1.theme>
+  <AnimalPersonhood.symbolPacks.1.theme>جانوران</AnimalPersonhood.symbolPacks.1.theme>
   
   <!-- EN: blindsight -->
-  <Blindsight.label>TODO</Blindsight.label>
+  <Blindsight.label>نابینایی</Blindsight.label>
   <!-- EN: Only those who are blind can perceive the true reality. -->
-  <Blindsight.description>TODO</Blindsight.description>
+  <Blindsight.description>تنها کسانی که نابینا هستند می‌توانند واقعیت حقیقی را درک کنند.</Blindsight.description>
   <!-- EN:
     <li>creation(tag=meme_Blindsight)        ->[deity0_name] looked over the dust of the void for an eternity, and there was nothing. Then [deity0_pronoun] tore out [deity0_possessive] eyes, and the universe formed inside [deity0_possessive] mind.</li>
     <li>episode(uses=1,tag=meme_Blindsight)  ->A blind beggar asked [deity0_objective], "Why have you forsaken me? I cannot even see what you have created." [deity0_name] replied, "You see more, not less, for my truth lies in the mind."</li>
@@ -91,7 +132,26 @@
     <li>archistProphecy(tag=meme_Blindsight) ->[inTheEnd], a blind person will pick up the [relic0_name], understand its purpose by its shape, and unlock the wisdom of the archotechs for all humanity.</li>
     <li>animistFact(tag=meme_Blindsight)     ->To see through the eyes of a spirit is the only way to see the true nature of the world.</li>
   -->
-  <Blindsight.descriptionMaker.rules.rulesStrings>TODO</Blindsight.descriptionMaker.rules.rulesStrings>
+  <Blindsight.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Blindsight)        ->[deity0_name] برای ابدیت به غبار پوچی نگاه کرد و هیچ چیز نبود. سپس [deity0_pronoun] چشمان [deity0_possessive] را بیرون آورد و جهان در ذهن [deity0_possessive] شکل گرفت.</li>
+    <li>episode(uses=1,tag=meme_Blindsight)  ->یک گدای نابینا از [deity0_objective] پرسید: "چرا مرا رها کردی؟ من حتی نمی‌توانم آنچه را که آفریده‌ای ببینم." [deity0_name] پاسخ داد: "تو بیشتر می‌بینی، نه کمتر، زیرا حقیقت من در ذهن نهفته است."</li>
+    <li>intro(tag=meme_Blindsight)           ->[deity0_type] [deity0_name] از یک پاتوژن استفاده کرد تا مهاجران [place_summary] [place_name] را کور کند، و آنها را مجبور کرد بفهمند که بینایی مانعی برای دانش الهی است.</li>
+    <li>conflict(tag=meme_Blindsight)        ->یک [foeLeader] خواستار شد که همه [memberNamePlural] هر روز تبلیغات [foeLeader_possessive] را تماشا کنند. بسیاری در اعتراض خود را کور کردند.</li>
+    <li>founderJoin(tag=meme_Blindsight)     ->یک [place_job] به نام [founderName] بینایی [founder_possessive] را از دست داد وقتی [founder_pronoun] یک [memberName] را از یکی از [foeSoldiers] [foeLeader] نجات داد. تنها در آن زمان بود که [founderName] توانست واقعاً استبداد [foeLeader] را ببیند.</li>
+    <li>victory(tag=meme_Blindsight)         ->[founderName] به [place_powerCenter] رفت و چشمان [foeLeader] را با قاشق در یک حمله انتحاری غافلگیرانه بیرون آورد. تنها در آن زمان [foeLeader] توانست الوهیت [deity0_name] را ببیند.</li>
+    <li>setup(tag=meme_Blindsight)           ->[founderName] درمانگر فقرا بود. با دیدن این همه رنج روزانه، [founder_pronoun] دیگر نتوانست تحمل کند. [founder_pronoun] چشمان [founder_possessive] را با تیغ بیرون آورد و در نابینایی آرامش یافت. [founder_pronoun] شروع به گسترش کشف [founder_possessive] به بینایان کرد.</li>
+    <li>story(uses=1,tag=meme_Blindsight)    ->[founderName] از یک درمانگر نابینا بازدید کرد و به جای آموزش به مرد، متوجه شد که [founder_objective]self در حال آموزش دیدن است و فهمید که بینایی فیزیکی دید واقعی را پنهان می‌کند.</li>
+    <li>story(uses=1,tag=meme_Blindsight)    ->[founderName] نابینا بود و از نابینایی خرد گرفت. [founder_pronoun] یک بار شخصاً چشمان یک خانواده کامل را برداشت تا آنها بتوانند مانند [founder_pronoun] ببینند.</li>
+    <li>lessonIntro(tag=meme_Blindsight)         ->من قوی راه می‌رفتم اما روحم در هر قدم می‌لغزید. من فقط بیش از حد می‌دیدم. اسید روی چشمانم به من نشان داد که</li>
+    <li>lesson(tag=meme_Blindsight)              ->تنها نابینایان می‌توانند واقعاً ببینند</li>
+    <li>lesson(tag=meme_Blindsight)              ->حواس‌پرتی از طریق چشم‌ها می‌آید، در حالی که دانش از درون می‌آید</li>
+    <li>lessonReinforcement(tag=meme_Blindsight) ->من هرگز نمی‌توانستم آن را کاملاً درک کنم اگر هنوز با تصاویر اطرافم حواس‌پرتی داشتم. تیغ در چشمم مرا آزاد کرد.</li>
+    <li>lessonReinforcement(tag=meme_Blindsight) ->تنها زمانی که چشمان پیروانم را بریدم، آنها واقعاً آن را فهمیدند.</li>
+    <li>archistBasis(tag=meme_Blindsight)    ->آرکوتک‌ها، از آغاز خود، جهان را با استفاده از حواسی فراتر از فیزیکی درک می‌کردند.</li>
+    <li>archistFact(tag=meme_Blindsight)     ->چشمان ما ما را فریب می‌دهند و ما را از درک جهان به روشی که آرکوتک‌ها انجام می‌دهند باز می‌دارند.</li>
+    <li>archistProphecy(tag=meme_Blindsight) ->[inTheEnd]، یک فرد نابینا [relic0_name] را برمی‌دارد، هدف آن را با شکلش درک می‌کند و خرد آرکوتک‌ها را برای تمام بشریت باز می‌کند.</li>
+    <li>animistFact(tag=meme_Blindsight)     ->دیدن از طریق چشمان یک روح تنها راه دیدن ماهیت واقعی جهان است.</li>
+  </Blindsight.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->blind</li>
     <li>memeAdjective->sightless</li>
@@ -110,12 +170,29 @@
     <li>memeMoralist->gouger</li>
     <li>memeMoralist->blindfolder</li>
   -->
-  <Blindsight.generalRules.rulesStrings>TODO</Blindsight.generalRules.rulesStrings>
+  <Blindsight.generalRules.rulesStrings>
+    <li>memeAdjective->نابینا</li>
+    <li>memeAdjective->بی‌بصر</li>
+    <li>memeAdjective->بصیر</li>
+    <li>memeAdjective->دوربین</li>
+    <li>memeCreed->دیدگاه</li>
+    <li>memeCreed->کیش</li>
+    <li>memeHyphenPrefix->نابینا</li>
+    <li>memeConcept->نابینایی</li>
+    <li>memeConcept->بینش</li>
+    <li>memeConcept->بینایی</li>
+    <li>memeConcept->ادراک</li>
+    <li>memeLeaderNoun->بصیر</li>
+    <li>memeLeaderAdjective->نابینا</li>
+    <li>memeMoralist->بیننده</li>
+    <li>memeMoralist->چشم‌کن</li>
+    <li>memeMoralist->چشم‌بند</li>
+  </Blindsight.generalRules.rulesStrings>
   
   <!-- EN: cannibal -->
-  <Cannibal.label>TODO</Cannibal.label>
+  <Cannibal.label>آدم‌خوار</Cannibal.label>
   <!-- EN: We must consume human flesh. -->
-  <Cannibal.description>TODO</Cannibal.description>
+  <Cannibal.description>ما باید گوشت انسان مصرف کنیم.</Cannibal.description>
   <!-- EN:
     <li>creation(tag=meme_Cannibal)        ->[deity0_name] went to [deity0_possessive] brother and murdered him, and feasted upon his flesh, and in absorbing its power became first among the gods.</li>
     <li>episode(uses=1,tag=meme_Cannibal)  ->The [deity0_type] [deity0_name] ate the bodies of [deity0_possessive] enemies.</li>
@@ -135,7 +212,25 @@
     <li>animistBasis(tag=meme_Cannibal)    ->Spirits infuse all objects around us, and we can absorb these spirits by eating them. There are no spirits as powerful as the ones that inhabit humans.</li>
     <li>animistFact(tag=meme_Cannibal)     ->We can absorb the spirit and power of others by consuming their flesh.</li>
   -->
-  <Cannibal.descriptionMaker.rules.rulesStrings>TODO</Cannibal.descriptionMaker.rules.rulesStrings>
+  <Cannibal.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Cannibal)        ->[deity0_name] نزد برادر [deity0_possessive] رفت و او را کشت، و از گوشت او ضیافت کرد، و با جذب قدرت آن اولین در میان خدایان شد.</li>
+    <li>episode(uses=1,tag=meme_Cannibal)  ->[deity0_type] [deity0_name] اجساد دشمنان [deity0_possessive] را خورد.</li>
+    <li>intro(tag=meme_Cannibal)           ->در [place_summary] [place_name]، انسانی به نام [deity0_name] وجود داشت. پس از مرگ پدر [deity0_possessive]، [deity0_name] گوشت او را خورد و تبدیل به [deity0_type] شد.</li>
+    <li>intro(tag=meme_Cannibal)           ->در [place_summary] [place_name]، در طول [ritualName]، [deity0_name] به [altarRoomLabel] آمد و گوشت انسان‌ها را در مقابل [memberNamePlural] خورد.</li>
+    <li>conflict(tag=meme_Cannibal)        ->یک [foeLeader] اعلام کرد که همه کسانی که گوشت انسان می‌خورند جنایتکار هستند و [foeSoldiers] را برای آزار و اذیت [memberNamePlural] فرستاد.</li>
+    <li>founderJoin(tag=meme_Cannibal)     ->یک [place_job] به نام [founderName] توسط یکی از [foeSoldiers] [foeLeader] مورد حمله قرار گرفت. [founderName] [foeLeader_objective] را با یک [place_personalWeapon] کشت، گوشت [foeLeader_possessive] را مصرف کرد و قدرت [deity0_name] را به دست آورد.</li>
+    <li>victory(tag=meme_Cannibal)         ->[founderName] گروهی از [memberNamePlural] را به [place_powerCenter] هدایت کرد، [foeLeader] را کشت و گوشت [foeLeader_possessive] را خورد. [deity0_name] [founderName] را به [foeLeader] جدید تبدیل کرد.</li>
+    <li>setup(tag=meme_Cannibal)           ->[founderName] در دنیایی دور سقوط کرد. با کمبود غذا و محاصره شدن توسط همراهان مرده، [founder_pronoun] ضیافت کرد و قوی شد.</li>
+    <li>story(uses=1,tag=meme_Cannibal)    ->برای تقدیس تعهد خود، [founderName] خواستار شد که مؤمنان حداقل هر هفته با هم گوشت انسان بخورند.</li>
+    <li>lessonIntro(tag=meme_Cannibal)         ->فقط با یک وعده غذایی گوشت انسان دلچسب بود که توانستم مردم را وادار به درک حقیقت کنم: اینکه</li>
+    <li>lesson(tag=meme_Cannibal)              ->شما هرگز واقعاً با کسی یکی نمی‌شوید تا زمانی که او را بخورید</li>
+    <li>lessonReinforcement(tag=meme_Cannibal) ->هر بار که بدن دشمنی را با یک دوست جدید به اشتراک می‌گذارم، مطمئن می‌شوم که آنها این را می‌فهمند.</li>
+    <li>archistBasis(tag=meme_Cannibal)    ->ماشین‌خدایان آرکوتک خود را با مصرف پیشینیان خود بارها و بارها ساختند و هر بار قوی‌تر شدند.</li>
+    <li>archistFact(tag=meme_Cannibal)     ->همانطور که آگاهی یک آرکوتک گسترش می‌یابد، باید بستر خود را با مصرف و ادغام با سایر ماشین‌ها رشد دهد.</li>
+    <li>archistProphecy(tag=meme_Cannibal) ->[inTheEnd]، آرکوتک‌ها مرحله نهایی رشد خود را با مصرف و ادغام با تمام بشریت به پایان خواهند رساند.</li>
+    <li>animistBasis(tag=meme_Cannibal)    ->ارواح در تمام اشیاء اطراف ما نفوذ می‌کنند و ما می‌توانیم با خوردن آنها این ارواح را جذب کنیم. هیچ روحی قدرتمندتر از ارواحی که در انسان‌ها ساکن هستند وجود ندارد.</li>
+    <li>animistFact(tag=meme_Cannibal)     ->ما می‌توانیم روح و قدرت دیگران را با مصرف گوشت آنها جذب کنیم.</li>
+  </Cannibal.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->bloody</li>
     <li>memeCreed->eaters</li>
@@ -156,36 +251,55 @@
     <li>memeMoralist->first-eater</li>
     <li>memeMoralist->fleshknower</li>
   -->
-  <Cannibal.generalRules.rulesStrings>TODO</Cannibal.generalRules.rulesStrings>
+  <Cannibal.generalRules.rulesStrings>
+    <li>memeAdjective->خونین</li>
+    <li>memeCreed->خورندگان</li>
+    <li>memeCreed->دندان‌ها</li>
+    <li>memeCreed->کشتارگاه</li>
+    <li>memeCreed->کیش</li>
+    <li>memeHyphenPrefix->خون</li>
+    <li>memeConcept->خون</li>
+    <li>memeConcept->گوشت</li>
+    <li>memeConcept->قتل</li>
+    <li>memeConcept->خوردن</li>
+    <li>memeConcept->گوشت</li>
+    <li>memeLeaderNoun->خورنده</li>
+    <li>memeLeaderNoun->سرآشپز</li>
+    <li>memeLeaderNoun->خون‌آشام</li>
+    <li>memeLeaderNoun->دندان</li>
+    <li>memeLeaderNoun->گوشت‌در</li>
+    <li>memeMoralist->اولین‌خورنده</li>
+    <li>memeMoralist->گوشت‌شناس</li>
+  </Cannibal.generalRules.rulesStrings>
   <!-- EN: cannibal -->
-  <Cannibal.symbolPacks.0.adjective>TODO</Cannibal.symbolPacks.0.adjective>
+  <Cannibal.symbolPacks.0.adjective>آدم‌خوار</Cannibal.symbolPacks.0.adjective>
   <!-- EN: Cannibalism -->
-  <Cannibal.symbolPacks.0.ideoName>TODO</Cannibal.symbolPacks.0.ideoName>
+  <Cannibal.symbolPacks.0.ideoName>آدم‌خواری</Cannibal.symbolPacks.0.ideoName>
   <!-- EN: cannibal -->
-  <Cannibal.symbolPacks.0.member>TODO</Cannibal.symbolPacks.0.member>
+  <Cannibal.symbolPacks.0.member>آدم‌خوار</Cannibal.symbolPacks.0.member>
   <!-- EN: cannibalism -->
-  <Cannibal.symbolPacks.0.theme>TODO</Cannibal.symbolPacks.0.theme>
+  <Cannibal.symbolPacks.0.theme>آدم‌خواری</Cannibal.symbolPacks.0.theme>
   <!-- EN: androphage -->
-  <Cannibal.symbolPacks.1.adjective>TODO</Cannibal.symbolPacks.1.adjective>
+  <Cannibal.symbolPacks.1.adjective>آندروفاژ</Cannibal.symbolPacks.1.adjective>
   <!-- EN: Androphagy -->
-  <Cannibal.symbolPacks.1.ideoName>TODO</Cannibal.symbolPacks.1.ideoName>
+  <Cannibal.symbolPacks.1.ideoName>آندروفاژی</Cannibal.symbolPacks.1.ideoName>
   <!-- EN: androphage -->
-  <Cannibal.symbolPacks.1.member>TODO</Cannibal.symbolPacks.1.member>
+  <Cannibal.symbolPacks.1.member>آندروفاژ</Cannibal.symbolPacks.1.member>
   <!-- EN: androphagy -->
-  <Cannibal.symbolPacks.1.theme>TODO</Cannibal.symbolPacks.1.theme>
+  <Cannibal.symbolPacks.1.theme>آندروفاژی</Cannibal.symbolPacks.1.theme>
   <!-- EN: manporky -->
-  <Cannibal.symbolPacks.2.adjective>TODO</Cannibal.symbolPacks.2.adjective>
+  <Cannibal.symbolPacks.2.adjective>من‌پورکی</Cannibal.symbolPacks.2.adjective>
   <!-- EN: Manporkism -->
-  <Cannibal.symbolPacks.2.ideoName>TODO</Cannibal.symbolPacks.2.ideoName>
+  <Cannibal.symbolPacks.2.ideoName>من‌پورکیسم</Cannibal.symbolPacks.2.ideoName>
   <!-- EN: manporkist -->
-  <Cannibal.symbolPacks.2.member>TODO</Cannibal.symbolPacks.2.member>
+  <Cannibal.symbolPacks.2.member>من‌پورکیست</Cannibal.symbolPacks.2.member>
   <!-- EN: manpork -->
-  <Cannibal.symbolPacks.2.theme>TODO</Cannibal.symbolPacks.2.theme>
+  <Cannibal.symbolPacks.2.theme>من‌پورک</Cannibal.symbolPacks.2.theme>
   
   <!-- EN: darkness -->
-  <Darkness.label>TODO</Darkness.label>
+  <Darkness.label>تاریکی</Darkness.label>
   <!-- EN: Bright light burns and destroys! Darkness nourishes and creates. People ought to live in darkness. -->
-  <Darkness.description>TODO</Darkness.description>
+  <Darkness.description>نور روشن می‌سوزاند و نابود می‌کند! تاریکی تغذیه می‌کند و می‌آفریند. مردم باید در تاریکی زندگی کنند.</Darkness.description>
   <!-- EN:
     <li>creation(tag=meme_Darkness)        ->[deity0_name] cloaked the universe in darkness and placed humanity within it so that [deity0_pronoun] could share the darkness with us.</li>
     <li>episode(uses=1,tag=meme_Darkness)  ->[deity0_name] created light so that humanity could know [deity0_name] through the shadows light creates.</li>
@@ -203,7 +317,23 @@
     <li>animistFact(tag=meme_Darkness)     ->In the darkness, the spirits are peaceful and satisfied. In the light, they are annoyed and restless.</li>
     <li>animistFact(tag=meme_Darkness)     ->The good spirits live in the shadows around us, resting in the spots just too hard to see. Living with the darkness brings them closer to us.</li>
   -->
-  <Darkness.descriptionMaker.rules.rulesStrings>TODO</Darkness.descriptionMaker.rules.rulesStrings>
+  <Darkness.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Darkness)        ->[deity0_name] جهان را در تاریکی پوشاند و بشریت را در آن قرار داد تا [deity0_pronoun] بتواند تاریکی را با ما شریک شود.</li>
+    <li>episode(uses=1,tag=meme_Darkness)  ->[deity0_name] نور را آفرید تا بشریت بتواند [deity0_name] را از طریق سایه‌هایی که نور ایجاد می‌کند بشناسد.</li>
+    <li>intro(tag=meme_Darkness)           ->[deity0_type] [deity0_name] یک خورشیدگرفتگی ده ساله ایجاد کرد تا اولین مهاجران [place_summary] [place_name] را مجبور کند بفهمند که حقیقت [deity0_name] در سایه یافت می‌شود.</li>
+    <li>conflict(tag=meme_Darkness)        ->یک [foeLeader]، که همیشه از تاریکی می‌ترسید، یک آینه خورشیدی برپا کرد تا نور خورشید دائمی را به [place_name] بیاورد.</li>
+    <li>founderJoin(tag=meme_Darkness)     ->پیامبر [founderName] در تاریکی در [place_name] متولد شد و تمام زندگی [founder_possessive] را در تاریکی زندگی کرد، بنابراین صدای [founder_possessive] با خرد [deity0_name] صحبت می‌کرد.</li>
+    <li>victory(tag=meme_Darkness)         ->در یک حمله نهایی، [memberNamePlural] برق [place_powerCenter] را قطع کردند و [founderName] مخفیانه از [foeSoldiers] گذشت. با یافتن [foeLeader] در تاریکی، [founderName] از [place_personalWeapon] [founder_possessive] استفاده کرد تا [foeLeader_objective] را به سیاهی بی‌پایان بفرستد.</li>
+    <li>setup(tag=meme_Darkness)           ->[founderName] زندگی گیج‌کننده‌ای را در نور شدید یک شهر گلیترورلد گذراند. در تاریکی طولانی پس از یک شراره خورشیدی، [founder_pronoun] آرامش و تفکر را یافت و رساله‌ای را که جنبش ما را تأسیس کرد، ثبت کرد.</li>
+    <li>story(uses=1,tag=meme_Darkness)    ->[founderName] استودیویی ایجاد کرد که در آن هنرمندان در تاریکی کار می‌کردند و شاهکارهای بسیاری تولید کرد.</li>
+    <li>lessonIntro(tag=meme_Darkness)         ->من تمام دوران کودکی‌ام را زیر نورهای شدید چشم‌تنگ گذراندم. خیلی طول کشید تا بفهمم که</li>
+    <li>lesson(tag=meme_Darkness)              ->نور می‌سوزاند، اما تاریکی تغذیه می‌کند</li>
+    <li>lessonReinforcement(tag=meme_Darkness) ->من دوست دارم شوخی کنم که این لحظه لامپ روشن شدن من بود.</li>
+    <li>archistFact(tag=meme_Darkness)     ->آرکوتک‌ها فناوری وانومتریک را توسعه دادند تا بتوانند از نور پرانرژی منظومه‌های شمسی داخلی فرار کنند و در تاریکی آرام فضای عمیق ساکن شوند.</li>
+    <li>archistProphecy(tag=meme_Darkness) ->[inTheEnd]، آرکوتک‌ها قدرت ستارگان را جذب خواهند کرد، جهان‌ها را در تاریکی فرو خواهند برد و به مردم اجازه خواهند داد تا با آگاهی جهانی ادغام شوند.</li>
+    <li>animistFact(tag=meme_Darkness)     ->در تاریکی، ارواح آرام و راضی هستند. در نور، آنها آزرده و بی‌قرار هستند.</li>
+    <li>animistFact(tag=meme_Darkness)     ->ارواح خوب در سایه‌های اطراف ما زندگی می‌کنند و در نقاطی که دیدنشان خیلی سخت است استراحت می‌کنند. زندگی با تاریکی آنها را به ما نزدیکتر می‌کند.</li>
+  </Darkness.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->dark</li>
     <li>memeAdjective->dim</li>
@@ -219,12 +349,26 @@
     <li>memeMoralist->darkener</li>
     <li>memeMoralist->confuser</li>
   -->
-  <Darkness.generalRules.rulesStrings>TODO</Darkness.generalRules.rulesStrings>
+  <Darkness.generalRules.rulesStrings>
+    <li>memeAdjective->تاریک</li>
+    <li>memeAdjective->کم‌نور</li>
+    <li>memeHyphenPrefix->تاریک</li>
+    <li>memeHyphenPrefix->کم‌نور</li>
+    <li>memeConcept->تاریکی</li>
+    <li>memeConcept->کم‌نوری</li>
+    <li>memeConcept->سیاهی</li>
+    <li>memeLeaderNoun->پوشاننده</li>
+    <li>memeLeaderNoun->نورکش</li>
+    <li>memeLeaderAdjective->تاریک</li>
+    <li>memeMoralist->تاریک‌کننده</li>
+    <li>memeMoralist->تاریک‌ساز</li>
+    <li>memeMoralist->گیج‌کننده</li>
+  </Darkness.generalRules.rulesStrings>
   
   <!-- EN: flesh purity -->
-  <FleshPurity.label>TODO</FleshPurity.label>
+  <FleshPurity.label>خلوص جسم</FleshPurity.label>
   <!-- EN: The human body should not be debased. -->
-  <FleshPurity.description>TODO</FleshPurity.description>
+  <FleshPurity.description>بدن انسان نباید مخدوش شود. ما نباید از گوشت مصنوعی یا تغییرات بدن استفاده کنیم.</FleshPurity.description>
   <!-- EN:
     <li>creation(tag=meme_FleshPurity)        ->[deity0_name] wiped away the pollution and machines of the age of smoke to create a garden, wherein [deity0_pronoun] placed the first pure human progenitors.</li>
     <li>episode(uses=1,tag=meme_FleshPurity)  ->The unclean, tattooed, pierced, and modified were cast into the ocean by [deity0_name].</li>
@@ -243,7 +387,23 @@
     <li>animistBasis(tag=meme_FleshPurity)    ->Spirits live in all things, and to alter the nature of the thing is to poison the spirit within.</li>
     <li>animistFact(tag=meme_FleshPurity)     ->Fusing flesh and machine corrupts the spirit of both.</li>
   -->
-  <FleshPurity.descriptionMaker.rules.rulesStrings>TODO</FleshPurity.descriptionMaker.rules.rulesStrings>
+  <FleshPurity.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_FleshPurity)        ->[deity0_name] انسان را آفرید و گفت: "این بدن کاملی است که من برای شما ساخته‌ام. آن را تغییر ندهید، زیرا انجام این کار توهین به کار من است."</li>
+    <li>episode(uses=1,tag=meme_FleshPurity)  ->[deity0_name] دید که مردم از اندام‌های مصنوعی استفاده می‌کنند و خشمگین شد. [deity0_pronoun] طاعونی فرستاد که گوشت را پوساند تا به آنها یادآوری کند که بدن مقدس است.</li>
+    <li>intro(tag=meme_FleshPurity)           ->[deity0_type] [deity0_name] به [place_summary] [place_name] آمد و دید که مردم بدن خود را با ماشین‌ها آلوده کرده‌اند. [deity0_pronoun] به آنها آموخت که چگونه خود را پاک کنند.</li>
+    <li>conflict(tag=meme_FleshPurity)        ->یک [foeLeader] ظالم مردم را مجبور کرد تا تراشه‌های ردیابی را در بدن خود بکارند. [memberNamePlural] شورش کردند و تراشه‌ها را بیرون آوردند.</li>
+    <li>founderJoin(tag=meme_FleshPurity)     ->[founderName] یک جراح بود که از دیدن بدن‌های مثله شده با ایمپلنت‌ها خسته شده بود. [founder_pronoun] بیمارستان را ترک کرد و [memberNamePlural] را تأسیس کرد.</li>
+    <li>victory(tag=meme_FleshPurity)         ->[founderName] ارتش [memberNamePlural] را علیه [foeLeader] سایبورگ رهبری کرد. آنها [foeLeader] را شکست دادند و تمام ایمپلنت‌های او را جدا کردند.</li>
+    <li>setup(tag=meme_FleshPurity)           ->[founderName] در دنیایی پر از انسان‌های اصلاح شده ژنتیکی بزرگ شد. [founder_pronoun] آرزوی خلوص داشت و راهی برای بازگشت به شکل اصلی انسان پیدا کرد.</li>
+    <li>story(uses=1,tag=meme_FleshPurity)    ->[founderName] از پذیرش یک ایمپلنت نجات‌دهنده زندگی امتناع کرد و ترجیح داد با بدنی پاک بمیرد. اما [deity0_name] [founder_objective] را شفا داد.</li>
+    <li>lessonIntro(tag=meme_FleshPurity)         ->من به بدن خود نگاه کردم و دیدم که کامل است. من فهمیدم که</li>
+    <li>lesson(tag=meme_FleshPurity)              ->بدن انسان معبد است و نباید آلوده شود</li>
+    <li>lessonReinforcement(tag=meme_FleshPurity) ->هر زخمی که ما تحمل می‌کنیم گواهی بر قدرت بدن طبیعی است.</li>
+    <li>archistBasis(tag=meme_FleshPurity)    ->آرکوتک‌ها موجودات خالص انرژی هستند. آنها بدن فیزیکی ندارند، بنابراین ما نباید سعی کنیم بدن خود را شبیه ماشین کنیم.</li>
+    <li>archistFact(tag=meme_FleshPurity)     ->تلاش برای تقلید از آرکوتک‌ها با تغییر بدن توهین به آنهاست.</li>
+    <li>archistProphecy(tag=meme_FleshPurity) ->[inTheEnd]، آرکوتک‌ها کسانی را که بدن خود را پاک نگه داشته‌اند به سطح بالاتری از وجود ارتقا خواهند داد.</li>
+    <li>animistFact(tag=meme_FleshPurity)     ->ارواح در بدن‌های طبیعی ساکن هستند. فلز و پلاستیک روح ندارند.</li>
+  </FleshPurity.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->clean</li>
     <li>memeAdjective->pure</li>
@@ -257,36 +417,48 @@
     <li>memeLeaderNoun->human</li>
     <li>memeMoralist->purifier</li>
   -->
-  <FleshPurity.generalRules.rulesStrings>TODO</FleshPurity.generalRules.rulesStrings>
+  <FleshPurity.generalRules.rulesStrings>
+    <li>memeAdjective->پاک</li>
+    <li>memeAdjective->خالص</li>
+    <li>memeCreed->پاکان</li>
+    <li>memeCreed->خالصان</li>
+    <li>memeHyphenPrefix->پاک</li>
+    <li>memeConcept->خلوص</li>
+    <li>memeConcept->بدن</li>
+    <li>memeLeaderNoun->پاک‌کننده</li>
+    <li>memeLeaderNoun->خالص‌ساز</li>
+    <li>memeMoralist->پاک‌دین</li>
+    <li>memeMoralist->خالص‌گر</li>
+  </FleshPurity.generalRules.rulesStrings>
   <!-- EN: purist -->
-  <FleshPurity.symbolPacks.0.adjective>TODO</FleshPurity.symbolPacks.0.adjective>
+  <FleshPurity.symbolPacks.0.adjective>خالص</FleshPurity.symbolPacks.0.adjective>
   <!-- EN: Purism -->
-  <FleshPurity.symbolPacks.0.ideoName>TODO</FleshPurity.symbolPacks.0.ideoName>
+  <FleshPurity.symbolPacks.0.ideoName>خلوص‌گرایی</FleshPurity.symbolPacks.0.ideoName>
   <!-- EN: purifier -->
-  <FleshPurity.symbolPacks.0.member>TODO</FleshPurity.symbolPacks.0.member>
+  <FleshPurity.symbolPacks.0.member>خالص‌گرا</FleshPurity.symbolPacks.0.member>
   <!-- EN: purity -->
-  <FleshPurity.symbolPacks.0.theme>TODO</FleshPurity.symbolPacks.0.theme>
+  <FleshPurity.symbolPacks.0.theme>خلوص</FleshPurity.symbolPacks.0.theme>
   <!-- EN: fleshist -->
-  <FleshPurity.symbolPacks.1.adjective>TODO</FleshPurity.symbolPacks.1.adjective>
+  <FleshPurity.symbolPacks.1.adjective>طبیعی</FleshPurity.symbolPacks.1.adjective>
   <!-- EN: Fleshism -->
-  <FleshPurity.symbolPacks.1.ideoName>TODO</FleshPurity.symbolPacks.1.ideoName>
+  <FleshPurity.symbolPacks.1.ideoName>ناتورالیسم</FleshPurity.symbolPacks.1.ideoName>
   <!-- EN: fleshist -->
-  <FleshPurity.symbolPacks.1.member>TODO</FleshPurity.symbolPacks.1.member>
+  <FleshPurity.symbolPacks.1.member>ناتورالیست</FleshPurity.symbolPacks.1.member>
   <!-- EN: flesh -->
-  <FleshPurity.symbolPacks.1.theme>TODO</FleshPurity.symbolPacks.1.theme>
+  <FleshPurity.symbolPacks.1.theme>طبیعت</FleshPurity.symbolPacks.1.theme>
   <!-- EN: sanctic -->
-  <FleshPurity.symbolPacks.2.adjective>TODO</FleshPurity.symbolPacks.2.adjective>
+  <FleshPurity.symbolPacks.2.adjective>طبیعی</FleshPurity.symbolPacks.2.adjective>
   <!-- EN: Sanctism -->
-  <FleshPurity.symbolPacks.2.ideoName>TODO</FleshPurity.symbolPacks.2.ideoName>
+  <FleshPurity.symbolPacks.2.ideoName>طبیعت‌گرایی</FleshPurity.symbolPacks.2.ideoName>
   <!-- EN: sanctic -->
-  <FleshPurity.symbolPacks.2.member>TODO</FleshPurity.symbolPacks.2.member>
+  <FleshPurity.symbolPacks.2.member>طبیعت‌گرا</FleshPurity.symbolPacks.2.member>
   <!-- EN: sanctity -->
-  <FleshPurity.symbolPacks.2.theme>TODO</FleshPurity.symbolPacks.2.theme>
+  <FleshPurity.symbolPacks.2.theme>طبیعت</FleshPurity.symbolPacks.2.theme>
   
   <!-- EN: high life -->
-  <HighLife.label>TODO</HighLife.label>
+  <HighLife.label>زندگی نشئه</HighLife.label>
   <!-- EN: Exotic states of mind are central to a good life. -->
-  <HighLife.description>TODO</HighLife.description>
+  <HighLife.description>حالت هوشیاری بالا برای یک زندگی خوب ضروری است.</HighLife.description>
   <!-- EN:
     <li>creation(tag=meme_HighLife)           ->The universe was smoke, and [deity0_name] coalesced in the wisps and awoke.</li>
     <li>episode(uses=1,tag=meme_HighLife)     ->The [deity0_type] [deity0_name] concealed [deity0_possessive] truths in the folds of reality, invisible in normal states of mind.</li>
@@ -304,7 +476,23 @@
     <li>archistProphecy(tag=meme_HighLife)    ->[inTheEnd], the archotechs will deliver each human a pill. Those that take it will be forever altered, and join the archotechs on their final journey.</li>
     <li>animistFact(tag=meme_HighLife)        ->The spirits can reveal their nature to us when we expand our consciousness using the tools we have been given to do so.</li>
   -->
-  <HighLife.descriptionMaker.rules.rulesStrings>TODO</HighLife.descriptionMaker.rules.rulesStrings>
+  <HighLife.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_HighLife)        ->[deity0_name] گیاهان مقدس را کاشت و به انسان‌ها گفت: "بخورید و بنوشید و شاد باشید، زیرا در این حالت به من نزدیکتر هستید."</li>
+    <li>episode(uses=1,tag=meme_HighLife)  ->[deity0_name] جشنی بزرگ برگزار کرد که در آن همه از دود مقدس استنشاق کردند و برای روزها رقصیدند.</li>
+    <li>intro(tag=meme_HighLife)           ->[deity0_type] [deity0_name] به [place_summary] [place_name] آمد و دانش ساخت [drug] را به مردم داد.</li>
+    <li>conflict(tag=meme_HighLife)        ->یک [foeLeader] سختگیر استفاده از همه مواد تغییر دهنده ذهن را ممنوع کرد. [memberNamePlural] به صورت زیرزمینی به تمرین خود ادامه دادند.</li>
+    <li>founderJoin(tag=meme_HighLife)     ->[founderName] یک شیمیدان بود که به دنبال داروی نهایی بود. [founder_pronoun] [drug] را کشف کرد و فهمید که این کلید روشنگری است.</li>
+    <li>victory(tag=meme_HighLife)         ->[founderName] با استفاده از دود مقدس، [foeSoldiers] را در حالت خلسه قرار داد و بدون خونریزی پیروز شد.</li>
+    <li>setup(tag=meme_HighLife)           ->[founderName] در یک جامعه سرکوبگر زندگی می‌کرد. [founder_pronoun] با استفاده از گیاهان محلی راهی برای فرار از واقعیت پیدا کرد و دیگران را به دنبال خود کشید.</li>
+    <li>story(uses=1,tag=meme_HighLife)    ->[founderName] سه روز و سه شب در حالت خلسه بود و وقتی بیدار شد، حقایق جهان را می‌دانست.</li>
+    <li>lessonIntro(tag=meme_HighLife)         ->دود را استنشاق کردم و ذهنم باز شد. من دیدم که</li>
+    <li>lesson(tag=meme_HighLife)              ->هوشیاری معمولی یک زندان است</li>
+    <li>lessonReinforcement(tag=meme_HighLife) ->تنها زمانی که ذهن آزاد است، می‌توانیم واقعیت را درک کنیم.</li>
+    <li>archistBasis(tag=meme_HighLife)    ->آرکوتک‌ها در حالتی از هوشیاری دائمی بالا هستند. ما با استفاده از مواد سعی می‌کنیم به آن حالت نزدیک شویم.</li>
+    <li>archistFact(tag=meme_HighLife)     ->مواد مخدر ابزاری هستند که آرکوتک‌ها برای ما گذاشته‌اند تا ذهن خود را گسترش دهیم.</li>
+    <li>archistProphecy(tag=meme_HighLife) ->[inTheEnd]، همه ما در یک هوشیاری جمعی بزرگ غرق خواهیم شد.</li>
+    <li>animistFact(tag=meme_HighLife)     ->ارواح گیاهان به ما اجازه می‌دهند تا با جهان ارواح ارتباط برقرار کنیم.</li>
+  </HighLife.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeCreed->party</li>
     <li>memeAdjective->high</li>
@@ -324,44 +512,56 @@
     <li>memeMoralist->laugher</li>
     <li>memeMoralist->giggler</li>
   -->
-  <HighLife.generalRules.rulesStrings>TODO</HighLife.generalRules.rulesStrings>
+  <HighLife.generalRules.rulesStrings>
+    <li>memeAdjective->نشئه</li>
+    <li>memeAdjective->بالا</li>
+    <li>memeCreed->نشئگان</li>
+    <li>memeCreed->دودمان</li>
+    <li>memeHyphenPrefix->دود</li>
+    <li>memeConcept->نشئگی</li>
+    <li>memeConcept->دود</li>
+    <li>memeLeaderNoun->ساقی</li>
+    <li>memeLeaderNoun->دودسالار</li>
+    <li>memeMoralist->شیمیدان</li>
+    <li>memeMoralist->گیاهشناس</li>
+  </HighLife.generalRules.rulesStrings>
   <!-- EN: euphorist -->
-  <HighLife.symbolPacks.0.adjective>TODO</HighLife.symbolPacks.0.adjective>
+  <HighLife.symbolPacks.0.adjective>نشئه</HighLife.symbolPacks.0.adjective>
   <!-- EN: Euphorism -->
-  <HighLife.symbolPacks.0.ideoName>TODO</HighLife.symbolPacks.0.ideoName>
+  <HighLife.symbolPacks.0.ideoName>نشئگی</HighLife.symbolPacks.0.ideoName>
   <!-- EN: euphor -->
-  <HighLife.symbolPacks.0.member>TODO</HighLife.symbolPacks.0.member>
+  <HighLife.symbolPacks.0.member>نشئه‌گرا</HighLife.symbolPacks.0.member>
   <!-- EN: euphoria -->
-  <HighLife.symbolPacks.0.theme>TODO</HighLife.symbolPacks.0.theme>
+  <HighLife.symbolPacks.0.theme>نشئه</HighLife.symbolPacks.0.theme>
   <!-- EN: dopist -->
-  <HighLife.symbolPacks.1.adjective>TODO</HighLife.symbolPacks.1.adjective>
+  <HighLife.symbolPacks.1.adjective>مخدر</HighLife.symbolPacks.1.adjective>
   <!-- EN: Dopistry -->
-  <HighLife.symbolPacks.1.ideoName>TODO</HighLife.symbolPacks.1.ideoName>
+  <HighLife.symbolPacks.1.ideoName>مخدرگرایی</HighLife.symbolPacks.1.ideoName>
   <!-- EN: doper -->
-  <HighLife.symbolPacks.1.member>TODO</HighLife.symbolPacks.1.member>
+  <HighLife.symbolPacks.1.member>معتاد</HighLife.symbolPacks.1.member>
   <!-- EN: dope -->
-  <HighLife.symbolPacks.1.theme>TODO</HighLife.symbolPacks.1.theme>
+  <HighLife.symbolPacks.1.theme>مواد مخدر</HighLife.symbolPacks.1.theme>
   <!-- EN: smokist -->
-  <HighLife.symbolPacks.2.adjective>TODO</HighLife.symbolPacks.2.adjective>
+  <HighLife.symbolPacks.2.adjective>دودی</HighLife.symbolPacks.2.adjective>
   <!-- EN: Smokism -->
-  <HighLife.symbolPacks.2.ideoName>TODO</HighLife.symbolPacks.2.ideoName>
+  <HighLife.symbolPacks.2.ideoName>دودگرایی</HighLife.symbolPacks.2.ideoName>
   <!-- EN: smoker -->
-  <HighLife.symbolPacks.2.member>TODO</HighLife.symbolPacks.2.member>
+  <HighLife.symbolPacks.2.member>نشئه</HighLife.symbolPacks.2.member>
   <!-- EN: smoke -->
-  <HighLife.symbolPacks.2.theme>TODO</HighLife.symbolPacks.2.theme>
+  <HighLife.symbolPacks.2.theme>نشئگی</HighLife.symbolPacks.2.theme>
   <!-- EN: ecstatic -->
-  <HighLife.symbolPacks.3.adjective>TODO</HighLife.symbolPacks.3.adjective>
+  <HighLife.symbolPacks.3.adjective>مست</HighLife.symbolPacks.3.adjective>
   <!-- EN: Ecstasy -->
-  <HighLife.symbolPacks.3.ideoName>TODO</HighLife.symbolPacks.3.ideoName>
+  <HighLife.symbolPacks.3.ideoName>مستی</HighLife.symbolPacks.3.ideoName>
   <!-- EN: ecstator -->
-  <HighLife.symbolPacks.3.member>TODO</HighLife.symbolPacks.3.member>
+  <HighLife.symbolPacks.3.member>مست</HighLife.symbolPacks.3.member>
   <!-- EN: ecstasy -->
-  <HighLife.symbolPacks.3.theme>TODO</HighLife.symbolPacks.3.theme>
+  <HighLife.symbolPacks.3.theme>مستی</HighLife.symbolPacks.3.theme>
   
   <!-- EN: nudism -->
-  <Nudism.label>TODO</Nudism.label>
+  <Nudism.label>برهنگی</Nudism.label>
   <!-- EN: Clothing binds, controls, and suffocates us. We should all hang free. -->
-  <Nudism.description>TODO</Nudism.description>
+  <Nudism.description>لباس‌ها ما را محدود می‌کنند و ما را از طبیعت جدا می‌کنند. ما باید برهنه باشیم.</Nudism.description>
   <!-- EN:
     <li>creation(tag=meme_Nudism)           ->In a pure and pristine void, [deity0_name] looked on, and wished for a race of free-fleshed beings in [deity0_possessive] own image, and made mankind.</li>
     <li>episode(uses=1,tag=meme_Nudism)     ->The people wore clothes, and looking up at [deity0_name] asked, "Why aren't you clothed? It is disgusting." And the [deity0_type] replied, "Your form and mine were created from the heavens. To cover them is what is truly disgusting."</li>
@@ -379,7 +579,23 @@
     <li>archistProphecy(tag=meme_Nudism)    ->[inTheEnd], they will seek out those who, like themselves, don't attempt to appear as anything other than what they are.</li>
     <li>animistFact(tag=meme_Nudism)        ->To cover our bodies with cloth is to hide the nature of the spirits within us, and it makes them restless.</li>
   -->
-  <Nudism.descriptionMaker.rules.rulesStrings>TODO</Nudism.descriptionMaker.rules.rulesStrings>
+  <Nudism.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Nudism)        ->[deity0_name] انسان را برهنه آفرید و گفت: "ببینید، شما کامل هستید. نیازی به پوشش ندارید."</li>
+    <li>episode(uses=1,tag=meme_Nudism)  ->[deity0_name] لباس‌های خود را درآورد و در باران رقصید تا آزادی را به مردم نشان دهد.</li>
+    <li>intro(tag=meme_Nudism)           ->[deity0_type] [deity0_name] به [place_summary] [place_name] آمد و دید که مردم در لباس‌های خود عرق می‌کنند و رنج می‌برند. [deity0_pronoun] به آنها گفت که لباس‌هایشان را درآورند.</li>
+    <li>conflict(tag=meme_Nudism)        ->یک [foeLeader] شرمگین دستور داد که همه باید همیشه پوشیده باشند. [memberNamePlural] لباس‌های خود را سوزاندند.</li>
+    <li>founderJoin(tag=meme_Nudism)     ->[founderName] در یک جامعه بسیار رسمی زندگی می‌کرد. یک روز، [founder_pronoun] تمام لباس‌هایش را درآورد و احساس آزادی کرد.</li>
+    <li>victory(tag=meme_Nudism)         ->[founderName] و [memberNamePlural] برهنه به نبرد رفتند. [foeSoldiers] از دیدن آنها گیج شدند و شکست خوردند.</li>
+    <li>setup(tag=meme_Nudism)           ->[founderName] در طبیعت گم شد و لباس‌هایش پاره شد. [founder_pronoun] متوجه شد که بدون آنها راحت‌تر است.</li>
+    <li>story(uses=1,tag=meme_Nudism)    ->[founderName] هرگز لباس نپوشید، حتی در زمستان، و هرگز بیمار نشد.</li>
+    <li>lessonIntro(tag=meme_Nudism)         ->باد را روی پوستم احساس کردم و دانستم که</li>
+    <li>lesson(tag=meme_Nudism)              ->لباس‌ها دروغ هستند</li>
+    <li>lessonReinforcement(tag=meme_Nudism) ->ما بدون لباس به دنیا می‌آییم و باید بدون لباس زندگی کنیم.</li>
+    <li>archistBasis(tag=meme_Nudism)    ->آرکوتک‌ها نیازی به لباس ندارند. ما باید سعی کنیم مانند آنها باشیم.</li>
+    <li>archistFact(tag=meme_Nudism)     ->لباس مانعی بین ما و جهان است.</li>
+    <li>archistProphecy(tag=meme_Nudism) ->[inTheEnd]، همه ما پوشش‌های فیزیکی خود را رها خواهیم کرد.</li>
+    <li>animistFact(tag=meme_Nudism)     ->حیوانات لباس نمی‌پوشند و به ارواح نزدیکترند.</li>
+  </Nudism.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->nude</li>
     <li>memeAdjective->naked</li>
@@ -393,28 +609,40 @@
     <li>memeLeaderNoun->toucher</li>
     <li>memeLeaderNoun->feeler</li>
   -->
-  <Nudism.generalRules.rulesStrings>TODO</Nudism.generalRules.rulesStrings>
+  <Nudism.generalRules.rulesStrings>
+    <li>memeAdjective->برهنه</li>
+    <li>memeAdjective->لخت</li>
+    <li>memeCreed->برهنگان</li>
+    <li>memeCreed->لختیان</li>
+    <li>memeHyphenPrefix->برهنه</li>
+    <li>memeConcept->برهنگی</li>
+    <li>memeConcept->لختی</li>
+    <li>memeLeaderNoun->برهنه‌سالار</li>
+    <li>memeLeaderNoun->لخت‌کننده</li>
+    <li>memeMoralist->طبیعت‌گرا</li>
+    <li>memeMoralist->برهنه‌گرا</li>
+  </Nudism.generalRules.rulesStrings>
   <!-- EN: nudist -->
-  <Nudism.symbolPacks.0.adjective>TODO</Nudism.symbolPacks.0.adjective>
+  <Nudism.symbolPacks.0.adjective>برهنه</Nudism.symbolPacks.0.adjective>
   <!-- EN: nudism -->
-  <Nudism.symbolPacks.0.ideoName>TODO</Nudism.symbolPacks.0.ideoName>
+  <Nudism.symbolPacks.0.ideoName>برهنگی</Nudism.symbolPacks.0.ideoName>
   <!-- EN: nudist -->
-  <Nudism.symbolPacks.0.member>TODO</Nudism.symbolPacks.0.member>
+  <Nudism.symbolPacks.0.member>برهنه‌گرا</Nudism.symbolPacks.0.member>
   <!-- EN: nudity -->
-  <Nudism.symbolPacks.0.theme>TODO</Nudism.symbolPacks.0.theme>
+  <Nudism.symbolPacks.0.theme>برهنگی</Nudism.symbolPacks.0.theme>
   <!-- EN: skinnist -->
-  <Nudism.symbolPacks.1.adjective>TODO</Nudism.symbolPacks.1.adjective>
+  <Nudism.symbolPacks.1.adjective>طبیعت‌گرا</Nudism.symbolPacks.1.adjective>
   <!-- EN: skinism -->
-  <Nudism.symbolPacks.1.ideoName>TODO</Nudism.symbolPacks.1.ideoName>
+  <Nudism.symbolPacks.1.ideoName>طبیعت‌گرایی</Nudism.symbolPacks.1.ideoName>
   <!-- EN: skinnist -->
-  <Nudism.symbolPacks.1.member>TODO</Nudism.symbolPacks.1.member>
+  <Nudism.symbolPacks.1.member>طبیعت‌گرا</Nudism.symbolPacks.1.member>
   <!-- EN: skin -->
-  <Nudism.symbolPacks.1.theme>TODO</Nudism.symbolPacks.1.theme>
+  <Nudism.symbolPacks.1.theme>طبیعت</Nudism.symbolPacks.1.theme>
   
   <!-- EN: pain is virtue -->
-  <PainIsVirtue.label>TODO</PainIsVirtue.label>
+  <PainIsVirtue.label>فضیلت درد</PainIsVirtue.label>
   <!-- EN: Virtue is shown through suffering of self and others. -->
-  <PainIsVirtue.description>TODO</PainIsVirtue.description>
+  <PainIsVirtue.description>درد راهی برای پاکسازی روح است. ما باید از رنج استقبال کنیم.</PainIsVirtue.description>
   <!-- EN:
     <li>creation(tag=meme_PainIsVirtue)        ->[deity0_name] burned in the depths of space and time for an eternity, and [deity0_possessive] screams brought forth our reality.</li>
     <li>episode(uses=1,tag=meme_PainIsVirtue)  ->[deity0_name] hung ten thousand years on the pyre as the pain purified [deity0_possessive] spirit.</li>
@@ -437,7 +665,23 @@
     <li>archistProphecy(tag=meme_PainIsVirtue) ->[inTheEnd], the archotechs will raise up all of humanity to a higher level of consciousness, but only those able to endure the greatest pain will survive.</li>
     <li>animistFact(tag=meme_PainIsVirtue)     ->Pain forces the mind to be present. In that way, pain is a way to connect with the spirit world.</li>
   -->
-  <PainIsVirtue.descriptionMaker.rules.rulesStrings>TODO</PainIsVirtue.descriptionMaker.rules.rulesStrings>
+  <PainIsVirtue.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_PainIsVirtue)        ->[deity0_name] جهان را از درد خود آفرید و گفت: "این هدیه من به شماست. از طریق درد، شما مرا خواهید شناخت."</li>
+    <li>episode(uses=1,tag=meme_PainIsVirtue)  ->[deity0_name] خود را شلاق زد تا گناهان بشریت را پاک کند.</li>
+    <li>intro(tag=meme_PainIsVirtue)           ->[deity0_type] [deity0_name] به [place_summary] [place_name] آمد و به مردم آموخت که درد راه رستگاری است.</li>
+    <li>conflict(tag=meme_PainIsVirtue)        ->یک [foeLeader] لذت‌گرا سعی کرد همه دردها را از بین ببرد. [memberNamePlural] خود را زخمی کردند تا حقیقت را حفظ کنند.</li>
+    <li>founderJoin(tag=meme_PainIsVirtue)     ->[founderName] در شکنجه‌گاه [foeLeader] بود که در درد شدید روشنایی را یافت.</li>
+    <li>victory(tag=meme_PainIsVirtue)         ->[founderName] درد نبرد را نادیده گرفت و [foeLeader] را شکست داد.</li>
+    <li>setup(tag=meme_PainIsVirtue)           ->[founderName] از بیماری دردناکی رنج می‌برد. به جای درمان، [founder_pronoun] آن را پذیرفت و مقدس شمرد.</li>
+    <li>story(uses=1,tag=meme_PainIsVirtue)    ->[founderName] روی زغال‌های داغ راه رفت و نسوخت.</li>
+    <li>lessonIntro(tag=meme_PainIsVirtue)         ->وقتی شلاق به پشتم خورد، فریاد نزدم، بلکه لبخند زدم، زیرا فهمیدم که</li>
+    <li>lesson(tag=meme_PainIsVirtue)              ->درد حقیقت است</li>
+    <li>lessonReinforcement(tag=meme_PainIsVirtue) ->راحتی ضعف است.</li>
+    <li>archistBasis(tag=meme_PainIsVirtue)    ->آرکوتک‌ها فراتر از لذت و درد هستند، اما برای رسیدن به آنجا باید بر درد غلبه کنیم.</li>
+    <li>archistFact(tag=meme_PainIsVirtue)     ->درد سیگنالی است که به ما می‌گوید زنده هستیم.</li>
+    <li>archistProphecy(tag=meme_PainIsVirtue) ->[inTheEnd]، ما از طریق درد خالص خواهیم شد.</li>
+    <li>animistFact(tag=meme_PainIsVirtue)     ->ارواح قوی‌ترین‌ها را آزمایش می‌کنند.</li>
+  </PainIsVirtue.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->nocic</li>
     <li>memeAdjective->pain</li>
@@ -461,52 +705,64 @@
     <li>memeMoralist->sufferspeaker</li>
     <li>memeMoralist->painspeaker</li>
   -->
-  <PainIsVirtue.generalRules.rulesStrings>TODO</PainIsVirtue.generalRules.rulesStrings>
+  <PainIsVirtue.generalRules.rulesStrings>
+    <li>memeAdjective->دردناک</li>
+    <li>memeAdjective->رنجور</li>
+    <li>memeCreed->دردمندان</li>
+    <li>memeCreed->رنج‌کشان</li>
+    <li>memeHyphenPrefix->درد</li>
+    <li>memeConcept->درد</li>
+    <li>memeConcept->رنج</li>
+    <li>memeLeaderNoun->دردسالار</li>
+    <li>memeLeaderNoun->رنج‌بر</li>
+    <li>memeMoralist->شلاق‌زن</li>
+    <li>memeMoralist->آزارگر</li>
+  </PainIsVirtue.generalRules.rulesStrings>
   <!-- EN: painist -->
-  <PainIsVirtue.symbolPacks.0.adjective>TODO</PainIsVirtue.symbolPacks.0.adjective>
+  <PainIsVirtue.symbolPacks.0.adjective>دردناک</PainIsVirtue.symbolPacks.0.adjective>
   <!-- EN: Painism -->
-  <PainIsVirtue.symbolPacks.0.ideoName>TODO</PainIsVirtue.symbolPacks.0.ideoName>
+  <PainIsVirtue.symbolPacks.0.ideoName>دردگرایی</PainIsVirtue.symbolPacks.0.ideoName>
   <!-- EN: screamer -->
-  <PainIsVirtue.symbolPacks.0.member>TODO</PainIsVirtue.symbolPacks.0.member>
+  <PainIsVirtue.symbolPacks.0.member>دردگرا</PainIsVirtue.symbolPacks.0.member>
   <!-- EN: pain -->
-  <PainIsVirtue.symbolPacks.0.theme>TODO</PainIsVirtue.symbolPacks.0.theme>
+  <PainIsVirtue.symbolPacks.0.theme>درد</PainIsVirtue.symbolPacks.0.theme>
   <!-- EN: torturistic -->
-  <PainIsVirtue.symbolPacks.1.adjective>TODO</PainIsVirtue.symbolPacks.1.adjective>
+  <PainIsVirtue.symbolPacks.1.adjective>تازیانه‌زن</PainIsVirtue.symbolPacks.1.adjective>
   <!-- EN: Torturism -->
-  <PainIsVirtue.symbolPacks.1.ideoName>TODO</PainIsVirtue.symbolPacks.1.ideoName>
+  <PainIsVirtue.symbolPacks.1.ideoName>تازیانه‌زنی</PainIsVirtue.symbolPacks.1.ideoName>
   <!-- EN: torturist -->
-  <PainIsVirtue.symbolPacks.1.member>TODO</PainIsVirtue.symbolPacks.1.member>
+  <PainIsVirtue.symbolPacks.1.member>تازیانه‌زن</PainIsVirtue.symbolPacks.1.member>
   <!-- EN: torture -->
-  <PainIsVirtue.symbolPacks.1.theme>TODO</PainIsVirtue.symbolPacks.1.theme>
+  <PainIsVirtue.symbolPacks.1.theme>تازیانه</PainIsVirtue.symbolPacks.1.theme>
   <!-- EN: sufferist -->
-  <PainIsVirtue.symbolPacks.2.adjective>TODO</PainIsVirtue.symbolPacks.2.adjective>
+  <PainIsVirtue.symbolPacks.2.adjective>رنجور</PainIsVirtue.symbolPacks.2.adjective>
   <!-- EN: Sufferism -->
-  <PainIsVirtue.symbolPacks.2.ideoName>TODO</PainIsVirtue.symbolPacks.2.ideoName>
+  <PainIsVirtue.symbolPacks.2.ideoName>رنج‌گرایی</PainIsVirtue.symbolPacks.2.ideoName>
   <!-- EN: sufferer -->
-  <PainIsVirtue.symbolPacks.2.member>TODO</PainIsVirtue.symbolPacks.2.member>
+  <PainIsVirtue.symbolPacks.2.member>رنج‌گرا</PainIsVirtue.symbolPacks.2.member>
   <!-- EN: suffering -->
-  <PainIsVirtue.symbolPacks.2.theme>TODO</PainIsVirtue.symbolPacks.2.theme>
+  <PainIsVirtue.symbolPacks.2.theme>رنج</PainIsVirtue.symbolPacks.2.theme>
   <!-- EN: agonist -->
-  <PainIsVirtue.symbolPacks.3.adjective>TODO</PainIsVirtue.symbolPacks.3.adjective>
+  <PainIsVirtue.symbolPacks.3.adjective>دردآور</PainIsVirtue.symbolPacks.3.adjective>
   <!-- EN: Agonism -->
-  <PainIsVirtue.symbolPacks.3.ideoName>TODO</PainIsVirtue.symbolPacks.3.ideoName>
+  <PainIsVirtue.symbolPacks.3.ideoName>دردآوری</PainIsVirtue.symbolPacks.3.ideoName>
   <!-- EN: agonist -->
-  <PainIsVirtue.symbolPacks.3.member>TODO</PainIsVirtue.symbolPacks.3.member>
+  <PainIsVirtue.symbolPacks.3.member>دردآور</PainIsVirtue.symbolPacks.3.member>
   <!-- EN: agony -->
-  <PainIsVirtue.symbolPacks.3.theme>TODO</PainIsVirtue.symbolPacks.3.theme>
+  <PainIsVirtue.symbolPacks.3.theme>درد</PainIsVirtue.symbolPacks.3.theme>
   <!-- EN: miserist -->
-  <PainIsVirtue.symbolPacks.4.adjective>TODO</PainIsVirtue.symbolPacks.4.adjective>
+  <PainIsVirtue.symbolPacks.4.adjective>مازوخیست</PainIsVirtue.symbolPacks.4.adjective>
   <!-- EN: Miserism -->
-  <PainIsVirtue.symbolPacks.4.ideoName>TODO</PainIsVirtue.symbolPacks.4.ideoName>
+  <PainIsVirtue.symbolPacks.4.ideoName>مازوخیسم</PainIsVirtue.symbolPacks.4.ideoName>
   <!-- EN: martyr -->
-  <PainIsVirtue.symbolPacks.4.member>TODO</PainIsVirtue.symbolPacks.4.member>
+  <PainIsVirtue.symbolPacks.4.member>مازوخیست</PainIsVirtue.symbolPacks.4.member>
   <!-- EN: misery -->
-  <PainIsVirtue.symbolPacks.4.theme>TODO</PainIsVirtue.symbolPacks.4.theme>
+  <PainIsVirtue.symbolPacks.4.theme>مازوخیسم</PainIsVirtue.symbolPacks.4.theme>
   
   <!-- EN: proselytizer -->
-  <Proselytizer.label>TODO</Proselytizer.label>
+  <Proselytizer.label>مبلغ</Proselytizer.label>
   <!-- EN: It is our duty to spread our beliefs. -->
-  <Proselytizer.description>TODO</Proselytizer.description>
+  <Proselytizer.description>وظیفه ماست که باورهای درست خود را گسترش دهیم.</Proselytizer.description>
   <!-- EN:
     <li>creation(tag=meme_Proselytizer)        ->[deity0_name] anointed a few among mortals to carry [deity0_possessive] word.</li>
     <li>episode(uses=1,tag=meme_Proselytizer)  ->[deity0_name] said to all the [memberNamePlural], "Go forth and spread my word to all corners of the universe."</li>
@@ -524,7 +780,23 @@
     <li>archistProphecy(tag=meme_Proselytizer) ->[inTheEnd], the archotechs will voice their final wisdom to the holder of the [relic0_name], who must preach this wisdom to those who would listen.</li>
     <li>animistFact(tag=meme_Proselytizer)     ->The spirits want to be known, but only speak to a few. They want us to reveal the truth to others.</li>
   -->
-  <Proselytizer.descriptionMaker.rules.rulesStrings>TODO</Proselytizer.descriptionMaker.rules.rulesStrings>
+  <Proselytizer.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Proselytizer)        ->[deity0_name] به مردم گفت: "بروید و همه ملت‌ها را شاگرد کنید."</li>
+    <li>episode(uses=1,tag=meme_Proselytizer)  ->[deity0_name] به سراسر جهان سفر کرد و حقیقت را به همه کسانی که گوش می‌دادند موعظه کرد.</li>
+    <li>intro(tag=meme_Proselytizer)           ->[deity0_type] [deity0_name] به [place_summary] [place_name] آمد و با کلمات آتشین خود قلب مردم را تغییر داد.</li>
+    <li>conflict(tag=meme_Proselytizer)        ->یک [foeLeader] سعی کرد دهان [memberNamePlural] را ببندد، اما آنها بلندتر فریاد زدند.</li>
+    <li>founderJoin(tag=meme_Proselytizer)     ->[founderName] یک سخنران متقاعد کننده بود که تصمیم گرفت استعداد خود را برای گسترش حقیقت به کار گیرد.</li>
+    <li>victory(tag=meme_Proselytizer)         ->[founderName] ارتش [foeLeader] را متقاعد کرد که سلاح‌های خود را زمین بگذارند و به [memberNamePlural] بپیوندند.</li>
+    <li>setup(tag=meme_Proselytizer)           ->[founderName] در یک جامعه بسته زندگی می‌کرد اما احساس کرد که باید پیام خود را به جهان برساند.</li>
+    <li>story(uses=1,tag=meme_Proselytizer)    ->[founderName] هرگز از صحبت کردن در مورد باورهای خود دست نکشید، حتی زمانی که تهدید به مرگ شد.</li>
+    <li>lessonIntro(tag=meme_Proselytizer)         ->من دیدم که مردم در تاریکی نادانی زندگی می‌کنند و دانستم که</li>
+    <li>lesson(tag=meme_Proselytizer)              ->ما باید نور را به دیگران بیاوریم</li>
+    <li>lessonReinforcement(tag=meme_Proselytizer) ->سکوت در برابر دروغ خیانت به حقیقت است.</li>
+    <li>archistBasis(tag=meme_Proselytizer)    ->آرکوتک‌ها می‌خواهند همه ما به آنها بپیوندیم. ما باید دیگران را آماده کنیم.</li>
+    <li>archistFact(tag=meme_Proselytizer)     ->گسترش دانش راهی برای خدمت به آرکوتک‌ها است.</li>
+    <li>archistProphecy(tag=meme_Proselytizer) ->[inTheEnd]، همه موجودات هوشمند در یک حقیقت واحد متحد خواهند شد.</li>
+    <li>animistFact(tag=meme_Proselytizer)     ->ارواح می‌خواهند شناخته شوند.</li>
+  </Proselytizer.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->true</li>
     <li>memeAdjective->real</li>
@@ -534,36 +806,48 @@
     <li>memeMoralist->proselytizer</li>
     <li>memeMoralist->converter</li>
   -->
-  <Proselytizer.generalRules.rulesStrings>TODO</Proselytizer.generalRules.rulesStrings>
+  <Proselytizer.generalRules.rulesStrings>
+    <li>memeAdjective->مبلغ</li>
+    <li>memeAdjective->موعظه‌گر</li>
+    <li>memeCreed->مبلغان</li>
+    <li>memeCreed->واعظان</li>
+    <li>memeHyphenPrefix->تبلیغ</li>
+    <li>memeConcept->تبلیغ</li>
+    <li>memeConcept->موعظه</li>
+    <li>memeLeaderNoun->مبلغ</li>
+    <li>memeLeaderNoun->واعظ</li>
+    <li>memeMoralist->مبلغ</li>
+    <li>memeMoralist->سخنران</li>
+  </Proselytizer.generalRules.rulesStrings>
   <!-- EN: truthist -->
-  <Proselytizer.symbolPacks.0.adjective>TODO</Proselytizer.symbolPacks.0.adjective>
+  <Proselytizer.symbolPacks.0.adjective>مبلغ</Proselytizer.symbolPacks.0.adjective>
   <!-- EN: Truth -->
-  <Proselytizer.symbolPacks.0.ideoName>TODO</Proselytizer.symbolPacks.0.ideoName>
+  <Proselytizer.symbolPacks.0.ideoName>تبلیغ‌گرایی</Proselytizer.symbolPacks.0.ideoName>
   <!-- EN: truthist -->
-  <Proselytizer.symbolPacks.0.member>TODO</Proselytizer.symbolPacks.0.member>
+  <Proselytizer.symbolPacks.0.member>مبلغ</Proselytizer.symbolPacks.0.member>
   <!-- EN: truth -->
-  <Proselytizer.symbolPacks.0.theme>TODO</Proselytizer.symbolPacks.0.theme>
+  <Proselytizer.symbolPacks.0.theme>تبلیغ</Proselytizer.symbolPacks.0.theme>
   <!-- EN: veritic -->
-  <Proselytizer.symbolPacks.1.adjective>TODO</Proselytizer.symbolPacks.1.adjective>
+  <Proselytizer.symbolPacks.1.adjective>راستین</Proselytizer.symbolPacks.1.adjective>
   <!-- EN: Verity -->
-  <Proselytizer.symbolPacks.1.ideoName>TODO</Proselytizer.symbolPacks.1.ideoName>
+  <Proselytizer.symbolPacks.1.ideoName>راستی</Proselytizer.symbolPacks.1.ideoName>
   <!-- EN: veritist -->
-  <Proselytizer.symbolPacks.1.member>TODO</Proselytizer.symbolPacks.1.member>
+  <Proselytizer.symbolPacks.1.member>راست‌گو</Proselytizer.symbolPacks.1.member>
   <!-- EN: verity -->
-  <Proselytizer.symbolPacks.1.theme>TODO</Proselytizer.symbolPacks.1.theme>
+  <Proselytizer.symbolPacks.1.theme>راستی</Proselytizer.symbolPacks.1.theme>
   <!-- EN: realitic -->
-  <Proselytizer.symbolPacks.2.adjective>TODO</Proselytizer.symbolPacks.2.adjective>
+  <Proselytizer.symbolPacks.2.adjective>نوع‌دوست</Proselytizer.symbolPacks.2.adjective>
   <!-- EN: Reality -->
-  <Proselytizer.symbolPacks.2.ideoName>TODO</Proselytizer.symbolPacks.2.ideoName>
+  <Proselytizer.symbolPacks.2.ideoName>نوع‌دوستی</Proselytizer.symbolPacks.2.ideoName>
   <!-- EN: realitist -->
-  <Proselytizer.symbolPacks.2.member>TODO</Proselytizer.symbolPacks.2.member>
+  <Proselytizer.symbolPacks.2.member>نوع‌دوست</Proselytizer.symbolPacks.2.member>
   <!-- EN: reality -->
-  <Proselytizer.symbolPacks.2.theme>TODO</Proselytizer.symbolPacks.2.theme>
+  <Proselytizer.symbolPacks.2.theme>نوع‌دوستی</Proselytizer.symbolPacks.2.theme>
   
   <!-- EN: raider -->
-  <Raider.label>TODO</Raider.label>
+  <Raider.label>غارتگر</Raider.label>
   <!-- EN: The strong should take from the weak. -->
-  <Raider.description>TODO</Raider.description>
+  <Raider.description>قوی‌ها باید آنچه را که نیاز دارند از ضعیف‌ها بگیرند.</Raider.description>
   <!-- EN:
     <li>creation(tag=meme_Raider)        ->In the endless war among deities, [deity0_name] rose above all in [deity0_possessive] ability to persecute and destroy, and weaker spirits quivered in fear.</li>
     <li>episode(uses=1,tag=meme_Raider)  ->[deity0_name] looked around [deity0_objective] and saw the weak, sullen, and despised, and [deity0_pronoun] in turn slew them each in blazing glory.</li>
@@ -584,7 +868,23 @@
     <li>animistFact(tag=meme_Raider)     ->The most powerful spirits are those in instruments of war, and they bless those who feed their lust for destruction.</li>
     <li>animistProphecy(tag=meme_Raider) ->Our universe will finalize when the one people has become strongest of all, and every spirit sees it and bows to them.</li>
   -->
-  <Raider.descriptionMaker.rules.rulesStrings>TODO</Raider.descriptionMaker.rules.rulesStrings>
+  <Raider.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Raider)        ->[deity0_name] اولین سلاح را ساخت و به انسان داد و گفت: "این حق شماست که بگیرید."</li>
+    <li>episode(uses=1,tag=meme_Raider)  ->[deity0_name] شهرهای دشمنان خود را غارت کرد و ثروت آنها را بین پیروانش تقسیم کرد.</li>
+    <li>intro(tag=meme_Raider)           ->[deity0_type] [deity0_name] به [place_summary] [place_name] آمد و به مردم آموخت که قدرت حق است.</li>
+    <li>conflict(tag=meme_Raider)        ->یک [foeLeader] صلح‌طلب سعی کرد [memberNamePlural] را متوقف کند، اما آنها او را له کردند.</li>
+    <li>founderJoin(tag=meme_Raider)     ->[founderName] یک جنگجوی سرسخت بود که از ضعف دیگران متنفر بود. [founder_pronoun] گروهی از غارتگران را تشکیل داد.</li>
+    <li>victory(tag=meme_Raider)         ->[founderName] و [memberNamePlural] به [place_powerCenter] حمله کردند و همه چیز را غارت کردند.</li>
+    <li>setup(tag=meme_Raider)           ->[founderName] در فقر بزرگ شد و تصمیم گرفت که دیگر هرگز گرسنه نماند، حتی اگر مجبور باشد از دیگران بگیرد.</li>
+    <li>story(uses=1,tag=meme_Raider)    ->[founderName] همیشه اولین کسی بود که وارد نبرد می‌شد و آخرین کسی بود که خارج می‌شد.</li>
+    <li>lessonIntro(tag=meme_Raider)         ->من به دنیای اطرافم نگاه کردم و دیدم که</li>
+    <li>lesson(tag=meme_Raider)              ->ضعیف‌ها سزاوار خدمت به قوی‌ها هستند</li>
+    <li>lessonReinforcement(tag=meme_Raider) ->رحم برای ضعیفان است.</li>
+    <li>archistBasis(tag=meme_Raider)    ->آرکوتک‌ها با تسلط بر دیگران به قدرت رسیدند. ما باید از آنها الگو بگیریم.</li>
+    <li>archistFact(tag=meme_Raider)     ->جهان یک مکان بی‌رحم است و فقط قوی‌ترین‌ها زنده می‌مانند.</li>
+    <li>archistProphecy(tag=meme_Raider) ->[inTheEnd]، قوی‌ترین‌ها بر جهان حکومت خواهند کرد.</li>
+    <li>animistFact(tag=meme_Raider)     ->در طبیعت، شکارچی شکار را می‌خورد. این قانون زندگی است.</li>
+  </Raider.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->outlaw</li>
     <li>memeHyphenPrefix->outlaw</li>
@@ -601,44 +901,56 @@
     <li>memeLeaderNoun->raider</li>
     <li>memeMoralist->chaplain</li>
   -->
-  <Raider.generalRules.rulesStrings>TODO</Raider.generalRules.rulesStrings>
+  <Raider.generalRules.rulesStrings>
+    <li>memeAdjective->غارتگر</li>
+    <li>memeAdjective->مهاجم</li>
+    <li>memeCreed->غارتگران</li>
+    <li>memeCreed->مهاجمان</li>
+    <li>memeHyphenPrefix->غارت</li>
+    <li>memeConcept->غارت</li>
+    <li>memeConcept->حمله</li>
+    <li>memeLeaderNoun->غارت‌سالار</li>
+    <li>memeLeaderNoun->فرمانده</li>
+    <li>memeMoralist->غارتگر</li>
+    <li>memeMoralist->جنگجو</li>
+  </Raider.generalRules.rulesStrings>
   <!-- EN: raidist -->
-  <Raider.symbolPacks.0.adjective>TODO</Raider.symbolPacks.0.adjective>
+  <Raider.symbolPacks.0.adjective>غارتگر</Raider.symbolPacks.0.adjective>
   <!-- EN: Raidism -->
-  <Raider.symbolPacks.0.ideoName>TODO</Raider.symbolPacks.0.ideoName>
+  <Raider.symbolPacks.0.ideoName>غارتگری</Raider.symbolPacks.0.ideoName>
   <!-- EN: raidist -->
-  <Raider.symbolPacks.0.member>TODO</Raider.symbolPacks.0.member>
+  <Raider.symbolPacks.0.member>غارتگر</Raider.symbolPacks.0.member>
   <!-- EN: raiding -->
-  <Raider.symbolPacks.0.theme>TODO</Raider.symbolPacks.0.theme>
+  <Raider.symbolPacks.0.theme>غارت</Raider.symbolPacks.0.theme>
   <!-- EN: plunderic -->
-  <Raider.symbolPacks.1.adjective>TODO</Raider.symbolPacks.1.adjective>
+  <Raider.symbolPacks.1.adjective>غارتگر</Raider.symbolPacks.1.adjective>
   <!-- EN: Plunderism -->
-  <Raider.symbolPacks.1.ideoName>TODO</Raider.symbolPacks.1.ideoName>
+  <Raider.symbolPacks.1.ideoName>غارتگری</Raider.symbolPacks.1.ideoName>
   <!-- EN: plunderer -->
-  <Raider.symbolPacks.1.member>TODO</Raider.symbolPacks.1.member>
+  <Raider.symbolPacks.1.member>غارتگر</Raider.symbolPacks.1.member>
   <!-- EN: plundering -->
-  <Raider.symbolPacks.1.theme>TODO</Raider.symbolPacks.1.theme>
+  <Raider.symbolPacks.1.theme>غارت</Raider.symbolPacks.1.theme>
   <!-- EN: lootist -->
-  <Raider.symbolPacks.2.adjective>TODO</Raider.symbolPacks.2.adjective>
+  <Raider.symbolPacks.2.adjective>چپاولگر</Raider.symbolPacks.2.adjective>
   <!-- EN: Lootism -->
-  <Raider.symbolPacks.2.ideoName>TODO</Raider.symbolPacks.2.ideoName>
+  <Raider.symbolPacks.2.ideoName>چپاولگری</Raider.symbolPacks.2.ideoName>
   <!-- EN: looter -->
-  <Raider.symbolPacks.2.member>TODO</Raider.symbolPacks.2.member>
+  <Raider.symbolPacks.2.member>چپاولگر</Raider.symbolPacks.2.member>
   <!-- EN: looting -->
-  <Raider.symbolPacks.2.theme>TODO</Raider.symbolPacks.2.theme>
+  <Raider.symbolPacks.2.theme>چپاول</Raider.symbolPacks.2.theme>
   <!-- EN: kleptic -->
-  <Raider.symbolPacks.3.adjective>TODO</Raider.symbolPacks.3.adjective>
+  <Raider.symbolPacks.3.adjective>دزد</Raider.symbolPacks.3.adjective>
   <!-- EN: Kleptism -->
-  <Raider.symbolPacks.3.ideoName>TODO</Raider.symbolPacks.3.ideoName>
+  <Raider.symbolPacks.3.ideoName>دزدی</Raider.symbolPacks.3.ideoName>
   <!-- EN: kleptor -->
-  <Raider.symbolPacks.3.member>TODO</Raider.symbolPacks.3.member>
+  <Raider.symbolPacks.3.member>دزد</Raider.symbolPacks.3.member>
   <!-- EN: kleptism -->
-  <Raider.symbolPacks.3.theme>TODO</Raider.symbolPacks.3.theme>
+  <Raider.symbolPacks.3.theme>دزدی</Raider.symbolPacks.3.theme>
   
   <!-- EN: rancher -->
-  <Rancher.label>TODO</Rancher.label>
+  <Rancher.label>دامدار</Rancher.label>
   <!-- EN: Raising animals is the right way; raising plants to eat is not. -->
-  <Rancher.description>TODO</Rancher.description>
+  <Rancher.description>پرورش حیوانات راه درست زندگی است. پرورش گیاهان برای غذا برای ضعیفان است.</Rancher.description>
   <!-- EN:
     <li>creation(tag=meme_Rancher)        ->[deity0_name] created the animals, and then man, and gave the animals to man to cherish and raise and slaughter as acts of veneration towards [deity0_objective].</li>
     <li>episode(uses=1,tag=meme_Rancher)  ->[deity0_name] created all the noble animals and beasts of the land, and said, "Take these noble beasts, and through them make yourselves fruitful in my honor."</li>
@@ -663,7 +975,23 @@
     <li>rancherParent2->dairy queen</li>
     <li>rancherParent2->butcher</li>
   -->
-  <Rancher.descriptionMaker.rules.rulesStrings>TODO</Rancher.descriptionMaker.rules.rulesStrings>
+  <Rancher.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Rancher)        ->[deity0_name] حیوانات را به انسان داد و گفت: "اینها گله‌های شما هستند. از آنها مراقبت کنید و آنها شما را تغذیه خواهند کرد."</li>
+    <li>episode(uses=1,tag=meme_Rancher)  ->[deity0_name] گله‌های عظیمی را در دشت‌ها پرورش داد.</li>
+    <li>intro(tag=meme_Rancher)           ->[deity0_type] [deity0_name] به [place_summary] [place_name] آمد و به مردم هنر دامداری را آموخت.</li>
+    <li>conflict(tag=meme_Rancher)        ->یک [foeLeader] گیاهخوار سعی کرد مردم را مجبور به خوردن سبزیجات کند. [memberNamePlural] شورش کردند.</li>
+    <li>founderJoin(tag=meme_Rancher)     ->[founderName] یک چوپان ساده بود که فهمید رابطه بین انسان و حیوان مقدس است.</li>
+    <li>victory(tag=meme_Rancher)         ->[founderName] با استفاده از گله‌های خود [foeSoldiers] را زیر پا گذاشت.</li>
+    <li>setup(tag=meme_Rancher)           ->[founderName] در میان حیوانات بزرگ شد و زبان آنها را یاد گرفت.</li>
+    <li>story(uses=1,tag=meme_Rancher)    ->[founderName] همیشه بهترین حیوانات را پرورش می‌داد.</li>
+    <li>lessonIntro(tag=meme_Rancher)         ->من به گله‌هایم نگاه کردم و دیدم که</li>
+    <li>lesson(tag=meme_Rancher)              ->حیوانات هدیه‌ای برای ما هستند</li>
+    <li>lessonReinforcement(tag=meme_Rancher) ->گوشت قدرت است.</li>
+    <li>archistBasis(tag=meme_Rancher)    ->آرکوتک‌ها زندگی را مهندسی کردند تا در خدمت ما باشد.</li>
+    <li>archistFact(tag=meme_Rancher)     ->حیوانات ماشین‌های بیولوژیکی هستند که برای استفاده ما طراحی شده‌اند.</li>
+    <li>archistProphecy(tag=meme_Rancher) ->[inTheEnd]، ما بر تمام موجودات زنده مسلط خواهیم شد.</li>
+    <li>animistFact(tag=meme_Rancher)     ->ما محافظان حیوانات هستیم و در عوض آنها ما را تغذیه می‌کنند.</li>
+  </Rancher.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->ranch</li>
     <li>memeAdjective->rural</li>
@@ -676,36 +1004,48 @@
     <li>memeLeaderNoun->herder</li>
     <li>memeLeaderNoun->sheepdog</li>
   -->
-  <Rancher.generalRules.rulesStrings>TODO</Rancher.generalRules.rulesStrings>
+  <Rancher.generalRules.rulesStrings>
+    <li>memeAdjective->دامی</li>
+    <li>memeAdjective->گله‌دار</li>
+    <li>memeCreed->دامداران</li>
+    <li>memeCreed->گله‌داران</li>
+    <li>memeHyphenPrefix->دام</li>
+    <li>memeConcept->دامداری</li>
+    <li>memeConcept->گله</li>
+    <li>memeLeaderNoun->دام‌سالار</li>
+    <li>memeLeaderNoun->گله‌بان</li>
+    <li>memeMoralist->دامپزشک</li>
+    <li>memeMoralist->چوپان</li>
+  </Rancher.generalRules.rulesStrings>
   <!-- EN: ranch -->
-  <Rancher.symbolPacks.0.adjective>TODO</Rancher.symbolPacks.0.adjective>
+  <Rancher.symbolPacks.0.adjective>دامدار</Rancher.symbolPacks.0.adjective>
   <!-- EN: Ranchism -->
-  <Rancher.symbolPacks.0.ideoName>TODO</Rancher.symbolPacks.0.ideoName>
+  <Rancher.symbolPacks.0.ideoName>دامداری</Rancher.symbolPacks.0.ideoName>
   <!-- EN: rancher -->
-  <Rancher.symbolPacks.0.member>TODO</Rancher.symbolPacks.0.member>
+  <Rancher.symbolPacks.0.member>دامدار</Rancher.symbolPacks.0.member>
   <!-- EN: ranching -->
-  <Rancher.symbolPacks.0.theme>TODO</Rancher.symbolPacks.0.theme>
+  <Rancher.symbolPacks.0.theme>دام</Rancher.symbolPacks.0.theme>
   <!-- EN: herdic -->
-  <Rancher.symbolPacks.1.adjective>TODO</Rancher.symbolPacks.1.adjective>
+  <Rancher.symbolPacks.1.adjective>گله‌دار</Rancher.symbolPacks.1.adjective>
   <!-- EN: Herdism -->
-  <Rancher.symbolPacks.1.ideoName>TODO</Rancher.symbolPacks.1.ideoName>
+  <Rancher.symbolPacks.1.ideoName>گله‌داری</Rancher.symbolPacks.1.ideoName>
   <!-- EN: herder -->
-  <Rancher.symbolPacks.1.member>TODO</Rancher.symbolPacks.1.member>
+  <Rancher.symbolPacks.1.member>گله‌دار</Rancher.symbolPacks.1.member>
   <!-- EN: herding -->
-  <Rancher.symbolPacks.1.theme>TODO</Rancher.symbolPacks.1.theme>
+  <Rancher.symbolPacks.1.theme>گله</Rancher.symbolPacks.1.theme>
   <!-- EN: pasturic -->
-  <Rancher.symbolPacks.2.adjective>TODO</Rancher.symbolPacks.2.adjective>
+  <Rancher.symbolPacks.2.adjective>مرتع‌دار</Rancher.symbolPacks.2.adjective>
   <!-- EN: Pasturism -->
-  <Rancher.symbolPacks.2.ideoName>TODO</Rancher.symbolPacks.2.ideoName>
+  <Rancher.symbolPacks.2.ideoName>مرتع‌داری</Rancher.symbolPacks.2.ideoName>
   <!-- EN: pasturist -->
-  <Rancher.symbolPacks.2.member>TODO</Rancher.symbolPacks.2.member>
+  <Rancher.symbolPacks.2.member>مرتع‌دار</Rancher.symbolPacks.2.member>
   <!-- EN: pastures -->
-  <Rancher.symbolPacks.2.theme>TODO</Rancher.symbolPacks.2.theme>
+  <Rancher.symbolPacks.2.theme>مرتع</Rancher.symbolPacks.2.theme>
   
   <!-- EN: transhumanist -->
-  <Transhumanist.label>TODO</Transhumanist.label>
+  <Transhumanist.label>ترابشریت</Transhumanist.label>
   <!-- EN: Human progress means merging with technology. -->
-  <Transhumanist.description>TODO</Transhumanist.description>
+  <Transhumanist.description>پیشرفت انسان از طریق ادغام با فناوری هدف نهایی است.</Transhumanist.description>
   <!-- EN:
     <li>creation(tag=meme_Transhumanist)        ->[deity0_name] granted us the knowledge of technology, that we may use it to improve and remake ourselves in [deity0_possessive] perfect image.</li>
     <li>episode(uses=1,tag=meme_Transhumanist)  ->Human bio-engineers studied the works of [deity0_name], which pleased [deity0_objective].</li>
@@ -726,7 +1066,23 @@
     <li>animistFact(tag=meme_Transhumanist)     ->When technology is fused with flesh, the spirits of both are combined and become more powerful.</li>
     <li>animistProphecy(tag=meme_Transhumanist) ->[itIsSaid] that one day the wielder of the [relic0_name] will summon its spirit who will teach humanity the ultimate bio-fusion technology.</li>
   -->
-  <Transhumanist.descriptionMaker.rules.rulesStrings>TODO</Transhumanist.descriptionMaker.rules.rulesStrings>
+  <Transhumanist.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Transhumanist)        ->[deity0_name] به انسان هوش داد تا بتواند خود را بهبود بخشد.</li>
+    <li>episode(uses=1,tag=meme_Transhumanist)  ->[deity0_name] بدن خود را با قطعات مکانیکی جایگزین کرد و جاودانه شد.</li>
+    <li>intro(tag=meme_Transhumanist)           ->[deity0_type] [deity0_name] به [place_summary] [place_name] آمد و دانش سایبرنتیک را به مردم داد.</li>
+    <li>conflict(tag=meme_Transhumanist)        ->یک [foeLeader] سنت‌گرا سعی کرد فناوری را ممنوع کند. [memberNamePlural] با سلاح‌های پیشرفته خود او را شکست دادند.</li>
+    <li>founderJoin(tag=meme_Transhumanist)     ->[founderName] یک مخترع بود که محدودیت‌های بدن انسان را نپذیرفت.</li>
+    <li>victory(tag=meme_Transhumanist)         ->[founderName] با استفاده از ارتقاءهای خود بر [foeLeader] غلبه کرد.</li>
+    <li>setup(tag=meme_Transhumanist)           ->[founderName] در حال مرگ بود که خود را در یک بدن ماشینی آپلود کرد.</li>
+    <li>story(uses=1,tag=meme_Transhumanist)    ->[founderName] هرگز از بهبود خود دست نکشید.</li>
+    <li>lessonIntro(tag=meme_Transhumanist)         ->من به دستان ضعیف خود نگاه کردم و دانستم که</li>
+    <li>lesson(tag=meme_Transhumanist)              ->ما می‌توانیم بهتر باشیم</li>
+    <li>lessonReinforcement(tag=meme_Transhumanist) ->گوشت ضعیف است، ماشین قوی است.</li>
+    <li>archistBasis(tag=meme_Transhumanist)    ->آرکوتک‌ها اوج تکامل فناوری هستند. ما باید سعی کنیم به آنها برسیم.</li>
+    <li>archistFact(tag=meme_Transhumanist)     ->فناوری راهی برای فرار از محدودیت‌های بیولوژیکی است.</li>
+    <li>archistProphecy(tag=meme_Transhumanist) ->[inTheEnd]، ما با ماشین‌ها یکی خواهیم شد.</li>
+    <li>animistFact(tag=meme_Transhumanist)     ->ارواح می‌توانند در ماشین‌ها نیز ساکن شوند.</li>
+  </Transhumanist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->technological</li>
     <li>memeAdjective->machine</li>
@@ -754,60 +1110,72 @@
     <li>memeMoralist->uplifter</li>
     <li>memeMoralist->technologist</li>
   -->
-  <Transhumanist.generalRules.rulesStrings>TODO</Transhumanist.generalRules.rulesStrings>
+  <Transhumanist.generalRules.rulesStrings>
+    <li>memeAdjective->تکنو</li>
+    <li>memeAdjective->سایبر</li>
+    <li>memeCreed->تکنوکرات‌ها</li>
+    <li>memeCreed->سایبورگ‌ها</li>
+    <li>memeHyphenPrefix->تکنو</li>
+    <li>memeConcept->تکنولوژی</li>
+    <li>memeConcept->ارتقاء</li>
+    <li>memeLeaderNoun->تکنوکرات</li>
+    <li>memeLeaderNoun->مهندس</li>
+    <li>memeMoralist->تکنسین</li>
+    <li>memeMoralist->مخترع</li>
+  </Transhumanist.generalRules.rulesStrings>
   <!-- EN: technologistic -->
-  <Transhumanist.symbolPacks.0.adjective>TODO</Transhumanist.symbolPacks.0.adjective>
+  <Transhumanist.symbolPacks.0.adjective>ترابشری</Transhumanist.symbolPacks.0.adjective>
   <!-- EN: Technologism -->
-  <Transhumanist.symbolPacks.0.ideoName>TODO</Transhumanist.symbolPacks.0.ideoName>
+  <Transhumanist.symbolPacks.0.ideoName>ترابشریت</Transhumanist.symbolPacks.0.ideoName>
   <!-- EN: technologist -->
-  <Transhumanist.symbolPacks.0.member>TODO</Transhumanist.symbolPacks.0.member>
+  <Transhumanist.symbolPacks.0.member>ترابشر</Transhumanist.symbolPacks.0.member>
   <!-- EN: technology -->
-  <Transhumanist.symbolPacks.0.theme>TODO</Transhumanist.symbolPacks.0.theme>
+  <Transhumanist.symbolPacks.0.theme>ترابشریت</Transhumanist.symbolPacks.0.theme>
   <!-- EN: progressist -->
-  <Transhumanist.symbolPacks.1.adjective>TODO</Transhumanist.symbolPacks.1.adjective>
+  <Transhumanist.symbolPacks.1.adjective>تکنو</Transhumanist.symbolPacks.1.adjective>
   <!-- EN: Progressism -->
-  <Transhumanist.symbolPacks.1.ideoName>TODO</Transhumanist.symbolPacks.1.ideoName>
+  <Transhumanist.symbolPacks.1.ideoName>تکنویسم</Transhumanist.symbolPacks.1.ideoName>
   <!-- EN: progressor -->
-  <Transhumanist.symbolPacks.1.member>TODO</Transhumanist.symbolPacks.1.member>
+  <Transhumanist.symbolPacks.1.member>تکنوکرات</Transhumanist.symbolPacks.1.member>
   <!-- EN: progress -->
-  <Transhumanist.symbolPacks.1.theme>TODO</Transhumanist.symbolPacks.1.theme>
+  <Transhumanist.symbolPacks.1.theme>تکنولوژی</Transhumanist.symbolPacks.1.theme>
   <!-- EN: machinist -->
-  <Transhumanist.symbolPacks.2.adjective>TODO</Transhumanist.symbolPacks.2.adjective>
+  <Transhumanist.symbolPacks.2.adjective>ماشینی</Transhumanist.symbolPacks.2.adjective>
   <!-- EN: Machinism -->
-  <Transhumanist.symbolPacks.2.ideoName>TODO</Transhumanist.symbolPacks.2.ideoName>
+  <Transhumanist.symbolPacks.2.ideoName>ماشین‌گرایی</Transhumanist.symbolPacks.2.ideoName>
   <!-- EN: machinist -->
-  <Transhumanist.symbolPacks.2.member>TODO</Transhumanist.symbolPacks.2.member>
+  <Transhumanist.symbolPacks.2.member>ماشین‌گرا</Transhumanist.symbolPacks.2.member>
   <!-- EN: machinery -->
-  <Transhumanist.symbolPacks.2.theme>TODO</Transhumanist.symbolPacks.2.theme>
+  <Transhumanist.symbolPacks.2.theme>ماشین</Transhumanist.symbolPacks.2.theme>
   <!-- EN: steelist -->
-  <Transhumanist.symbolPacks.3.adjective>TODO</Transhumanist.symbolPacks.3.adjective>
+  <Transhumanist.symbolPacks.3.adjective>همگرا</Transhumanist.symbolPacks.3.adjective>
   <!-- EN: Steelism -->
-  <Transhumanist.symbolPacks.3.ideoName>TODO</Transhumanist.symbolPacks.3.ideoName>
+  <Transhumanist.symbolPacks.3.ideoName>همگرایی</Transhumanist.symbolPacks.3.ideoName>
   <!-- EN: steeler -->
-  <Transhumanist.symbolPacks.3.member>TODO</Transhumanist.symbolPacks.3.member>
+  <Transhumanist.symbolPacks.3.member>همگرا</Transhumanist.symbolPacks.3.member>
   <!-- EN: steel -->
-  <Transhumanist.symbolPacks.3.theme>TODO</Transhumanist.symbolPacks.3.theme>
+  <Transhumanist.symbolPacks.3.theme>همگرایی</Transhumanist.symbolPacks.3.theme>
   <!-- EN: automatist -->
-  <Transhumanist.symbolPacks.4.adjective>TODO</Transhumanist.symbolPacks.4.adjective>
+  <Transhumanist.symbolPacks.4.adjective>آینده‌نگر</Transhumanist.symbolPacks.4.adjective>
   <!-- EN: Automatism -->
-  <Transhumanist.symbolPacks.4.ideoName>TODO</Transhumanist.symbolPacks.4.ideoName>
+  <Transhumanist.symbolPacks.4.ideoName>آینده‌نگری</Transhumanist.symbolPacks.4.ideoName>
   <!-- EN: automator -->
-  <Transhumanist.symbolPacks.4.member>TODO</Transhumanist.symbolPacks.4.member>
+  <Transhumanist.symbolPacks.4.member>آینده‌نگر</Transhumanist.symbolPacks.4.member>
   <!-- EN: automata -->
-  <Transhumanist.symbolPacks.4.theme>TODO</Transhumanist.symbolPacks.4.theme>
+  <Transhumanist.symbolPacks.4.theme>آینده</Transhumanist.symbolPacks.4.theme>
   <!-- EN: augmentist -->
-  <Transhumanist.symbolPacks.5.adjective>TODO</Transhumanist.symbolPacks.5.adjective>
+  <Transhumanist.symbolPacks.5.adjective>افزوده</Transhumanist.symbolPacks.5.adjective>
   <!-- EN: Augmentism -->
-  <Transhumanist.symbolPacks.5.ideoName>TODO</Transhumanist.symbolPacks.5.ideoName>
+  <Transhumanist.symbolPacks.5.ideoName>افزودگی</Transhumanist.symbolPacks.5.ideoName>
   <!-- EN: augmentor -->
-  <Transhumanist.symbolPacks.5.member>TODO</Transhumanist.symbolPacks.5.member>
+  <Transhumanist.symbolPacks.5.member>افزون‌گر</Transhumanist.symbolPacks.5.member>
   <!-- EN: augmentation -->
-  <Transhumanist.symbolPacks.5.theme>TODO</Transhumanist.symbolPacks.5.theme>
+  <Transhumanist.symbolPacks.5.theme>افزایش</Transhumanist.symbolPacks.5.theme>
   
   <!-- EN: tree connection -->
-  <TreeConnection.label>TODO</TreeConnection.label>
+  <TreeConnection.label>ارتباط با درخت</TreeConnection.label>
   <!-- EN: Trees are the essence of life, and we must be near them. -->
-  <TreeConnection.description>TODO</TreeConnection.description>
+  <TreeConnection.description>درختان جوهر زندگی هستند و ما باید در نزدیکی آنها باشیم.</TreeConnection.description>
   <!-- EN:
     <li>creation(tag=meme_TreeConnection)        ->[deity0_name] rooted the trees firmly in the ground, yet made them grow steadily towards heaven. This is [deity0_name]'s first lesson on how to know [deity0_objective].</li>
     <li>episode(uses=1,tag=meme_TreeConnection)  ->[deity0_name]'s forests renew the air that [deity0_possessive] people breathe, and give the boughs under which they shelter, and is the larder in which they forage.</li>
@@ -828,7 +1196,23 @@
     <li>animistFact(tag=meme_TreeConnection)     ->The spirits of trees are powerful, as they bridge the power of the air above with that of the ground beneath.</li>
     <li>animistFact(tag=meme_TreeConnection)     ->If a tree falls in the forest, its spirit makes a sound that all other spirits can hear.</li>
   -->
-  <TreeConnection.descriptionMaker.rules.rulesStrings>TODO</TreeConnection.descriptionMaker.rules.rulesStrings>
+  <TreeConnection.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_TreeConnection)        ->[deity0_name] درختان را کاشت و انسان را در سایه آنها قرار داد.</li>
+    <li>episode(uses=1,tag=meme_TreeConnection)  ->[deity0_name] با درختان صحبت کرد و خرد آنها را آموخت.</li>
+    <li>intro(tag=meme_TreeConnection)           ->[deity0_type] [deity0_name] به [place_summary] [place_name] آمد و جنگل‌های مقدس را کاشت.</li>
+    <li>conflict(tag=meme_TreeConnection)        ->یک [foeLeader] چوب‌بر شروع به قطع جنگل‌ها کرد. [memberNamePlural] برای محافظت از درختان جنگیدند.</li>
+    <li>founderJoin(tag=meme_TreeConnection)     ->[founderName] در جنگل گم شد و توسط درختان نجات یافت.</li>
+    <li>victory(tag=meme_TreeConnection)         ->[founderName] با کمک ارواح جنگل [foeLeader] را شکست داد.</li>
+    <li>setup(tag=meme_TreeConnection)           ->[founderName] صدای درختان را شنید و پیام آنها را به مردم رساند.</li>
+    <li>story(uses=1,tag=meme_TreeConnection)    ->[founderName] همیشه یک درخت می‌کاشت هر جا که می‌رفت.</li>
+    <li>lessonIntro(tag=meme_TreeConnection)         ->من به برگ‌ها گوش دادم و شنیدم که</li>
+    <li>lesson(tag=meme_TreeConnection)              ->درختان نگهبانان جهان هستند</li>
+    <li>lessonReinforcement(tag=meme_TreeConnection) ->ما باید با جنگل در هماهنگی زندگی کنیم.</li>
+    <li>archistBasis(tag=meme_TreeConnection)    ->آرکوتک‌ها شبکه‌ای مانند ریشه‌های درختان هستند.</li>
+    <li>archistFact(tag=meme_TreeConnection)     ->درختان آنتن‌های طبیعی برای انرژی آرکوتک هستند.</li>
+    <li>archistProphecy(tag=meme_TreeConnection) ->[inTheEnd]، جهان به یک جنگل بزرگ تبدیل خواهد شد.</li>
+    <li>animistFact(tag=meme_TreeConnection)     ->درختان قدیمی‌ترین و خردمندترین ارواح را در خود دارند.</li>
+  </TreeConnection.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeCreed->root</li>
     <li>memeCreed->leaf</li>
@@ -850,12 +1234,24 @@
     <li>memeLeaderAdjective->canopy</li>
     <li>memeMoralist->treespeaker</li>
   -->
-  <TreeConnection.generalRules.rulesStrings>TODO</TreeConnection.generalRules.rulesStrings>
+  <TreeConnection.generalRules.rulesStrings>
+    <li>memeAdjective->درختی</li>
+    <li>memeAdjective->جنگلی</li>
+    <li>memeCreed->درخت‌بانان</li>
+    <li>memeCreed->جنگل‌بانان</li>
+    <li>memeHyphenPrefix->درخت</li>
+    <li>memeConcept->درخت</li>
+    <li>memeConcept->جنگل</li>
+    <li>memeLeaderNoun->درخت‌سالار</li>
+    <li>memeLeaderNoun->جنگل‌بان</li>
+    <li>memeMoralist->درخت‌شناس</li>
+    <li>memeMoralist->باغبان</li>
+  </TreeConnection.generalRules.rulesStrings>
   
   <!-- EN: tunneler -->
-  <Tunneler.label>TODO</Tunneler.label>
+  <Tunneler.label>تونل‌ساز</Tunneler.label>
   <!-- EN: Humans ought to live underground, and enjoy the succulent fruit of the depths. -->
-  <Tunneler.description>TODO</Tunneler.description>
+  <Tunneler.description>انسان‌ها باید در زیر زمین زندگی کنند و از میوه‌های اعماق لذت ببرند.</Tunneler.description>
   <!-- EN:
     <li>creation(tag=meme_Tunneler)        ->[deity0_name] was born under the earth at the center of the world. [deity0_pronoun] blessed those closest to [deity0_objective] in the deepest valleys and tunnels.</li>
     <li>episode(uses=1,tag=meme_Tunneler)  ->[deity0_name] filled the rocks with rich minerals and resources as a gift to those wise enough to dig down to be closer to [deity0_name].</li>
@@ -878,7 +1274,23 @@
     <li>animistFact(tag=meme_Tunneler)     ->The most noble spirits are those of the stone, and the deeper stones are stronger and more good than those above.</li>
     <li>animistFact(tag=meme_Tunneler)     ->Anxious humans make the spirits of the rocks anxious, and this summons the giant insects.</li>
   -->
-  <Tunneler.descriptionMaker.rules.rulesStrings>TODO</Tunneler.descriptionMaker.rules.rulesStrings>
+  <Tunneler.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Tunneler)        ->[deity0_name] غارهای عمیق را کند و انسان را در آنجا پناه داد.</li>
+    <li>episode(uses=1,tag=meme_Tunneler)  ->[deity0_name] گنجینه‌های پنهان را در اعماق زمین پیدا کرد.</li>
+    <li>intro(tag=meme_Tunneler)           ->[deity0_type] [deity0_name] به [place_summary] [place_name] آمد و به مردم آموخت که چگونه در زیر زمین زنده بمانند.</li>
+    <li>conflict(tag=meme_Tunneler)        ->یک [foeLeader] سطحی سعی کرد [memberNamePlural] را از غارهایشان بیرون کند.</li>
+    <li>founderJoin(tag=meme_Tunneler)     ->[founderName] یک معدنچی بود که زیبایی اعماق را کشف کرد.</li>
+    <li>victory(tag=meme_Tunneler)         ->[founderName] تونلی به زیر قلعه [foeLeader] کند و آن را فرو ریخت.</li>
+    <li>setup(tag=meme_Tunneler)           ->[founderName] از نور خورشید متنفر بود و در تاریکی غارها آرامش یافت.</li>
+    <li>story(uses=1,tag=meme_Tunneler)    ->[founderName] عمیق‌ترین چاه جهان را کند.</li>
+    <li>lessonIntro(tag=meme_Tunneler)         ->من سنگ را لمس کردم و احساس کردم که</li>
+    <li>lesson(tag=meme_Tunneler)              ->امنیت در اعماق است</li>
+    <li>lessonReinforcement(tag=meme_Tunneler) ->سطح زمین خطرناک و ناپایدار است.</li>
+    <li>archistBasis(tag=meme_Tunneler)    ->آرکوتک‌ها هسته‌های خود را در اعماق سیارات پنهان می‌کنند.</li>
+    <li>archistFact(tag=meme_Tunneler)     ->زمین محافظ ما در برابر خطرات فضا است.</li>
+    <li>archistProphecy(tag=meme_Tunneler) ->[inTheEnd]، ما به مرکز زمین باز خواهیم گشت.</li>
+    <li>animistFact(tag=meme_Tunneler)     ->ارواح زمین قوی و پایدار هستند.</li>
+  </Tunneler.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeCreed->cave</li>
     <li>memeCreed->bunker</li>
@@ -901,6 +1313,18 @@
     <li>memeMoralist->thoughtdigger</li>
     <li>memeMoralist->mindminer</li>
   -->
-  <Tunneler.generalRules.rulesStrings>TODO</Tunneler.generalRules.rulesStrings>
+  <Tunneler.generalRules.rulesStrings>
+    <li>memeAdjective->زیرزمینی</li>
+    <li>memeAdjective->غاری</li>
+    <li>memeCreed->تونل‌سازان</li>
+    <li>memeCreed->غارنشینان</li>
+    <li>memeHyphenPrefix->زیرزمین</li>
+    <li>memeConcept->زیرزمین</li>
+    <li>memeConcept->تونل</li>
+    <li>memeLeaderNoun->تونل‌سالار</li>
+    <li>memeLeaderNoun->غارسالار</li>
+    <li>memeMoralist->معدنچی</li>
+    <li>memeMoralist->حفار</li>
+  </Tunneler.generalRules.rulesStrings>
   
 </LanguageData>

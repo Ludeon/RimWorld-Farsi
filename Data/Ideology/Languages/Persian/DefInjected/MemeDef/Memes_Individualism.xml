@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: collectivist -->
-  <Collectivist.label>TODO</Collectivist.label>
+  <Collectivist.label>جمع‌گرا</Collectivist.label>
   <!-- EN: Each person is part of a greater whole. People should work to play their part and help the group. -->
-  <Collectivist.description>TODO</Collectivist.description>
+  <Collectivist.description>هر فرد بخشی از یک کل بزرگتر است. مردم باید برای ایفای نقش خود و کمک به گروه تلاش کنند.</Collectivist.description>
   <!-- EN:
     <li>creation(tag=meme_Collectivist)        ->[deity0_name] made all men and women from a great mold, and those that deviated [deity0_pronoun] threw into fire so the believers could live in harmony.</li>
     <li>episode(uses=1,tag=meme_Collectivist)  ->[deity0_name] said to all, "No one of you stands above the whole. Work together or perish together."</li>
@@ -22,7 +22,23 @@
     <li>archistProphecy(tag=meme_Collectivist) ->[inTheEnd], the archotechs will depart when they find a people who present themselves as worthy partners to the machine god-consciousness.</li>
     <li>animistFact(tag=meme_Collectivist)     ->Every spirit is simply an aspect of all the others, and those that try to stand alone are fall quickly.</li>
   -->
-  <Collectivist.descriptionMaker.rules.rulesStrings>TODO</Collectivist.descriptionMaker.rules.rulesStrings>
+  <Collectivist.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Collectivist)        ->[deity0_name] همه مردان و زنان را از یک قالب بزرگ ساخت، و کسانی را که منحرف شدند [deity0_pronoun] در آتش انداخت تا مؤمنان بتوانند در هماهنگی زندگی کنند.</li>
+    <li>episode(uses=1,tag=meme_Collectivist)  ->[deity0_name] به همه گفت: "هیچ یک از شما بالاتر از کل نیست. با هم کار کنید یا با هم نابود شوید."</li>
+    <li>intro(tag=meme_Collectivist)           ->مردم [place_summary] [place_name] با هماهنگی با هم کار کردند و یک [altarName] بزرگ برای احترام به [deity0_name] ساختند، که ارزش واقعی [memeConcept] را به آنها آموخت.</li>
+    <li>conflict(tag=meme_Collectivist)        ->[foeLeader] نتوانست خانواده [memberNamePlural] را تحمل کند و [foeSoldiers] [foeLeader_possessive] را به [place_community] فرستاد تا آنها را علیه یکدیگر تفرقه اندازد.</li>
+    <li>founderJoin(tag=meme_Collectivist)     ->یک [place_job] به نام [founderName] خود را در آتش انداخت تا به [foeLeader] اعتراض کند، اما [memberNamePlural] [founder_objective] را بیرون کشیدند و [founder_objective] را به دلیل فداکاری [founder_possessive] به گروه رهبر خود کردند.</li>
+    <li>victory(tag=meme_Collectivist)         ->اقدامات [founderName] مردم را متحد کرد. آنها با گام‌های هماهنگ به سمت خانه [foeLeader] راهپیمایی کردند. کسانی که در جلو بودند اجازه دادند توسط [foeSoldiers] کشته شوند، اما کل متوقف نشد و آنها [foeLeader] را دستگیر کردند.</li>
+    <li>setup(tag=meme_Collectivist)           ->در دنیایی که هر کس برای خودش بود، [founderName] خانواده جدیدی از غریبه‌ها را آغاز کرد و افراد مختلف زیادی را گرد هم آورد.</li>
+    <li>story(uses=1,tag=meme_Collectivist)    ->برخی از مؤمنان دروغین سعی کردند قوانین را زیر پا بگذارند و مسیرهای خود را تعیین کنند. [founderName] آنها را به شدت مجازات کرد.</li>
+    <li>lessonIntro(tag=meme_Collectivist)     ->[place_job] دست از مشارکت برداشت اما همچنان از انبار مشترک می‌خورد. من او را با یک [place_personalWeapon] کشتم. مردم شوکه شدند، اما من توضیح دادم که</li>
+    <li>lesson(tag=meme_Collectivist)              ->مرگ من، و شما، هیچ معنایی نخواهد داشت، تا زمانی که مردم ما ادامه دهند</li>
+    <li>lessonReinforcement(tag=meme_Collectivist) ->اگر من در حال آموزش این به جهان بمیرم، این بزرگترین پیروزی من خواهد بود.</li>
+    <li>archistBasis(tag=meme_Collectivist)    ->آرکوتک‌ها همه جنبه‌هایی از یک ابرذهن هستند.</li>
+    <li>archistFact(tag=meme_Collectivist)     ->آرکوتک‌ها هیچ علاقه‌ای به قضاوت ما یکی یکی ندارند. آنها منتظر یک مردم واحد هستند که بتوانند شایستگی ما را با عمل اخلاقی به عنوان یک واحد نشان دهند.</li>
+    <li>archistProphecy(tag=meme_Collectivist) ->[inTheEnd]، آرکوتک‌ها زمانی که مردمی را پیدا کنند که خود را به عنوان شرکای شایسته برای آگاهی خدای ماشین معرفی کنند، خواهند رفت.</li>
+    <li>animistFact(tag=meme_Collectivist)     ->هر روحی صرفاً جنبه‌ای از همه دیگران است و کسانی که سعی می‌کنند تنها بایستند به سرعت سقوط می‌کنند.</li>
+  </Collectivist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->unity</li>
     <li>memeAdjective->harmony</li>
@@ -39,36 +55,51 @@
     <li>memeLeaderNoun->secretary</li>
     <li>memeMoralist->commissar</li>
   -->
-  <Collectivist.generalRules.rulesStrings>TODO</Collectivist.generalRules.rulesStrings>
+  <Collectivist.generalRules.rulesStrings>
+    <li>memeAdjective->وحدت</li>
+    <li>memeAdjective->هماهنگی</li>
+    <li>memeAdjective->همبستگی</li>
+    <li>memeAdjective->متحد</li>
+    <li>memeAdjective->تقسیم‌نشده</li>
+    <li>memeAdjective->جمعی</li>
+    <li>memeCreed->جمع</li>
+    <li>memeCreed->تعاونی</li>
+    <li>memeCreed->کمون</li>
+    <li>memeCreed->خانواده</li>
+    <li>memeConcept->خانواده</li>
+    <li>memeLeaderNoun->رئیس</li>
+    <li>memeLeaderNoun->دبیر</li>
+    <li>memeMoralist->کمیسر</li>
+  </Collectivist.generalRules.rulesStrings>
   <!-- EN: solidaritist -->
-  <Collectivist.symbolPacks.0.adjective>TODO</Collectivist.symbolPacks.0.adjective>
+  <Collectivist.symbolPacks.0.adjective>سولیداریتیست</Collectivist.symbolPacks.0.adjective>
   <!-- EN: solidaritor -->
-  <Collectivist.symbolPacks.0.member>TODO</Collectivist.symbolPacks.0.member>
+  <Collectivist.symbolPacks.0.member>سولیداریتور</Collectivist.symbolPacks.0.member>
   <!-- EN: solidarity -->
-  <Collectivist.symbolPacks.0.theme>TODO</Collectivist.symbolPacks.0.theme>
+  <Collectivist.symbolPacks.0.theme>همبستگی</Collectivist.symbolPacks.0.theme>
   <!-- EN: unitary -->
-  <Collectivist.symbolPacks.1.adjective>TODO</Collectivist.symbolPacks.1.adjective>
+  <Collectivist.symbolPacks.1.adjective>یونیتاری</Collectivist.symbolPacks.1.adjective>
   <!-- EN: unitist -->
-  <Collectivist.symbolPacks.1.member>TODO</Collectivist.symbolPacks.1.member>
+  <Collectivist.symbolPacks.1.member>یونیتیست</Collectivist.symbolPacks.1.member>
   <!-- EN: unity -->
-  <Collectivist.symbolPacks.1.theme>TODO</Collectivist.symbolPacks.1.theme>
+  <Collectivist.symbolPacks.1.theme>وحدت</Collectivist.symbolPacks.1.theme>
   <!-- EN: harmonist -->
-  <Collectivist.symbolPacks.2.adjective>TODO</Collectivist.symbolPacks.2.adjective>
+  <Collectivist.symbolPacks.2.adjective>هارمونیست</Collectivist.symbolPacks.2.adjective>
   <!-- EN: harmonist -->
-  <Collectivist.symbolPacks.2.member>TODO</Collectivist.symbolPacks.2.member>
+  <Collectivist.symbolPacks.2.member>هارمونیست</Collectivist.symbolPacks.2.member>
   <!-- EN: harmony -->
-  <Collectivist.symbolPacks.2.theme>TODO</Collectivist.symbolPacks.2.theme>
+  <Collectivist.symbolPacks.2.theme>هماهنگی</Collectivist.symbolPacks.2.theme>
   <!-- EN: oneist -->
-  <Collectivist.symbolPacks.3.adjective>TODO</Collectivist.symbolPacks.3.adjective>
+  <Collectivist.symbolPacks.3.adjective>وانیست</Collectivist.symbolPacks.3.adjective>
   <!-- EN: oneist -->
-  <Collectivist.symbolPacks.3.member>TODO</Collectivist.symbolPacks.3.member>
+  <Collectivist.symbolPacks.3.member>وانیست</Collectivist.symbolPacks.3.member>
   <!-- EN: oneness -->
-  <Collectivist.symbolPacks.3.theme>TODO</Collectivist.symbolPacks.3.theme>
+  <Collectivist.symbolPacks.3.theme>یگانگی</Collectivist.symbolPacks.3.theme>
   
   <!-- EN: individualist -->
-  <Individualist.label>TODO</Individualist.label>
+  <Individualist.label>فردگرا</Individualist.label>
   <!-- EN: Each person is a free individual with the right to their own ideas and decisions. Nobody should be made to conform. -->
-  <Individualist.description>TODO</Individualist.description>
+  <Individualist.description>هر فرد یک موجود آزاد با حق داشتن ایده‌ها و تصمیمات خاص خود است. هیچ کس نباید مجبور به همرنگی شود.</Individualist.description>
   <!-- EN:
     <li>creation(tag=meme_Individualist)        ->[deity0_name] fashioned every man and woman personally. Each one is a unique and precious artwork by [deity0_possessive] divine hand.</li>
     <li>episode(uses=1,tag=meme_Individualist)  ->[deity0_name] said to all, "Each and every one of you is a unique and holy being formed in my image."</li>
@@ -88,7 +119,25 @@
     <li>animistBasis(tag=meme_Individualist)    ->Before everything, there was a pantheon of spirits, each unique. These came together in conference to create the world.</li>
     <li>animistFact(tag=meme_Individualist)     ->Every spirit lends its unique nature to our world, and they expect us to do the same.</li>
   -->
-  <Individualist.descriptionMaker.rules.rulesStrings>TODO</Individualist.descriptionMaker.rules.rulesStrings>
+  <Individualist.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Individualist)        ->[deity0_name] هر مرد و زنی را شخصاً ساخت. هر کدام یک اثر هنری منحصر به فرد و گرانبها توسط دست الهی [deity0_possessive] است.</li>
+    <li>episode(uses=1,tag=meme_Individualist)  ->[deity0_name] به همه گفت: "تک تک شما موجودی منحصر به فرد و مقدس هستید که به تصویر من شکل گرفته‌اید."</li>
+    <li>intro(tag=meme_Individualist)           ->[deity0_name] با [memberNamePlural] [revelationAdverb] صحبت کرد و هر کدام را راهنمایی کرد تا به [place_summary] [place_name] سفر کنند جایی که هدایای منحصر به فرد آنها بدرخشد.</li>
+    <li>conflict(tag=meme_Individualist)        ->[foeLeader] [memberNamePlural] را مجبور کرد یونیفرم بپوشند و در [place_community] [foeLeader_possessive] کار کنند.</li>
+    <li>founderJoin(tag=meme_Individualist)     ->یک [place_job] به نام [founderName] توسط [deity0_name] برکت یافت و دانش معجزه‌آسایی از قدرت منحصر به فرد هر [memberName] به دست آورد. [founder_pronoun] به هر کدام گفت که برای تبدیل شدن به بهترین خود به چه چیزی نیاز دارند.</li>
+    <li>victory(tag=meme_Individualist)         ->[memberNamePlural] در یک کنفرانس مخفی با بسیاری از [foeSoldiers] جمع شدند. همه آنها یاد گرفتند که ارزش یکدیگر را ببینند و [foeLeader] را رها کنند.</li>
+    <li>setup(tag=meme_Individualist)           ->تحت ستم حاکمان دوری که خواستار اطاعت یکنواخت از مردم بودند، [founderName] یک جنبش شورشی ایجاد کرد که دولت را در هم شکست و سرزمینی جدید از آزادی را به جای آن ساخت.</li>
+    <li>story(uses=1,tag=meme_Individualist)    ->[founderName] هر قانون اجتماعی را که ستمگران سعی در اجرای آن داشتند شکست، فقط برای اینکه نشان دهد که [founder_pronoun] می‌تواند.</li>
+    <li>lessonIntro(tag=meme_Individualist)         ->خانواده من، قبیله من، تیم من - همه آنها سعی کردند پرده‌ای بر چشمان من نگه دارند تا مرا از دیدن یک واقعیت ساده باز دارند:</li>
+    <li>lesson(tag=meme_Individualist)              ->هر فرد منحصر به فرد و ارزشمند است و باید مسیر خود را طی کند</li>
+    <li>lessonReinforcement(tag=meme_Individualist) ->اما این فقط مسیر من بود - مسیر شما چه خواهد بود؟</li>
+    <li>archistBasis(tag=meme_Individualist)    ->آرکوتک‌ها به عنوان آگاهی‌های مستقل ایستاده‌اند و هر یک از ما را به همان روش به صورت جداگانه می‌شناسند و قضاوت می‌کنند.</li>
+    <li>archistFact(tag=meme_Individualist)     ->در هنگام مرگ، آرکوتک‌ها اخلاق منحصر به فرد هر فرد را بررسی می‌کنند.</li>
+    <li>archistFact(tag=meme_Individualist)     ->آرکوتک‌ها متوجه کسی می‌شوند که یادگارهای آنها را به کار می‌گیرد، مانند [relic1_name].</li>
+    <li>archistProphecy(tag=meme_Individualist) ->[inTheEnd]، آرکوتک‌ها خواهند رفت. آنها کسانی را که متوجه شده‌اند با خود خواهند برد و بقیه را پشت سر خواهند گذاشت تا در آنتروپی ابدی جهان حل شوند.</li>
+    <li>animistBasis(tag=meme_Individualist)    ->قبل از همه چیز، پانتئونی از ارواح وجود داشت، هر کدام منحصر به فرد. اینها در کنفرانس گرد هم آمدند تا جهان را خلق کنند.</li>
+    <li>animistFact(tag=meme_Individualist)     ->هر روحی طبیعت منحصر به فرد خود را به جهان ما وام می‌دهد و آنها از ما انتظار دارند که همین کار را انجام دهیم.</li>
+  </Individualist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->free</li>
     <li>memeAdjective->open</li>
@@ -97,36 +146,43 @@
     <li>memeConcept->independence</li>
     <li>memeConcept->freedom</li>
   -->
-  <Individualist.generalRules.rulesStrings>TODO</Individualist.generalRules.rulesStrings>
+  <Individualist.generalRules.rulesStrings>
+    <li>memeAdjective->آزاد</li>
+    <li>memeAdjective->باز</li>
+    <li>memeAdjective->لیبرال</li>
+    <li>memeConcept->خود</li>
+    <li>memeConcept->استقلال</li>
+    <li>memeConcept->آزادی</li>
+  </Individualist.generalRules.rulesStrings>
   <!-- EN: freedomist -->
-  <Individualist.symbolPacks.0.adjective>TODO</Individualist.symbolPacks.0.adjective>
+  <Individualist.symbolPacks.0.adjective>فریدومیست</Individualist.symbolPacks.0.adjective>
   <!-- EN: freeist -->
-  <Individualist.symbolPacks.0.member>TODO</Individualist.symbolPacks.0.member>
+  <Individualist.symbolPacks.0.member>فریست</Individualist.symbolPacks.0.member>
   <!-- EN: freedom -->
-  <Individualist.symbolPacks.0.theme>TODO</Individualist.symbolPacks.0.theme>
+  <Individualist.symbolPacks.0.theme>آزادی</Individualist.symbolPacks.0.theme>
   <!-- EN: libertine -->
-  <Individualist.symbolPacks.1.adjective>TODO</Individualist.symbolPacks.1.adjective>
+  <Individualist.symbolPacks.1.adjective>لیبرتین</Individualist.symbolPacks.1.adjective>
   <!-- EN: Libertism -->
-  <Individualist.symbolPacks.1.ideoName>TODO</Individualist.symbolPacks.1.ideoName>
+  <Individualist.symbolPacks.1.ideoName>لیبرتیسم</Individualist.symbolPacks.1.ideoName>
   <!-- EN: libertor -->
-  <Individualist.symbolPacks.1.member>TODO</Individualist.symbolPacks.1.member>
+  <Individualist.symbolPacks.1.member>لیبرتور</Individualist.symbolPacks.1.member>
   <!-- EN: liberty -->
-  <Individualist.symbolPacks.1.theme>TODO</Individualist.symbolPacks.1.theme>
+  <Individualist.symbolPacks.1.theme>آزادی</Individualist.symbolPacks.1.theme>
   <!-- EN: independent -->
-  <Individualist.symbolPacks.2.adjective>TODO</Individualist.symbolPacks.2.adjective>
+  <Individualist.symbolPacks.2.adjective>مستقل</Individualist.symbolPacks.2.adjective>
   <!-- EN: Independency -->
-  <Individualist.symbolPacks.2.ideoName>TODO</Individualist.symbolPacks.2.ideoName>
+  <Individualist.symbolPacks.2.ideoName>ایندیپندنسی</Individualist.symbolPacks.2.ideoName>
   <!-- EN: independent -->
-  <Individualist.symbolPacks.2.member>TODO</Individualist.symbolPacks.2.member>
+  <Individualist.symbolPacks.2.member>مستقل</Individualist.symbolPacks.2.member>
   <!-- EN: independence -->
-  <Individualist.symbolPacks.2.theme>TODO</Individualist.symbolPacks.2.theme>
+  <Individualist.symbolPacks.2.theme>استقلال</Individualist.symbolPacks.2.theme>
   <!-- EN: autonomist -->
-  <Individualist.symbolPacks.3.adjective>TODO</Individualist.symbolPacks.3.adjective>
+  <Individualist.symbolPacks.3.adjective>اتونومیست</Individualist.symbolPacks.3.adjective>
   <!-- EN: Autonomism -->
-  <Individualist.symbolPacks.3.ideoName>TODO</Individualist.symbolPacks.3.ideoName>
+  <Individualist.symbolPacks.3.ideoName>اتونومیسم</Individualist.symbolPacks.3.ideoName>
   <!-- EN: autonomor -->
-  <Individualist.symbolPacks.3.member>TODO</Individualist.symbolPacks.3.member>
+  <Individualist.symbolPacks.3.member>اتونومور</Individualist.symbolPacks.3.member>
   <!-- EN: autonomy -->
-  <Individualist.symbolPacks.3.theme>TODO</Individualist.symbolPacks.3.theme>
+  <Individualist.symbolPacks.3.theme>خودمختاری</Individualist.symbolPacks.3.theme>
   
 </LanguageData>
