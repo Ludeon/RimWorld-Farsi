@@ -248,13 +248,13 @@
   <!-- EN: Must include exactly {SUMMARY} -->
   <SelectedCharactersMustInclude>باید دقیقاً شامل {SUMMARY} باشد</SelectedCharactersMustInclude>
   <!-- EN: All colonists must be {0} -->
-  <SelectedCharactersMustBeOfAllowedDevelopmentalStages>TODO</SelectedCharactersMustBeOfAllowedDevelopmentalStages>
+  <SelectedCharactersMustBeOfAllowedDevelopmentalStages>تمام مهاجران باید {0} باشند</SelectedCharactersMustBeOfAllowedDevelopmentalStages>
   <!-- EN: At least one colonist must be capable of {0} -->
-  <SelectedCharacterMustBeCapableOf>TODO</SelectedCharacterMustBeCapableOf>
+  <SelectedCharacterMustBeCapableOf>حداقل یک مهاجر باید قادر به {0} باشد</SelectedCharacterMustBeCapableOf>
 
   <!-- Advanced game start options -->
   <!-- EN: Warning: You will be landing in winter. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different season. -->
-  <MapWinterWarning>TODO</MapWinterWarning>
+  <MapWinterWarning>هشدار: شما در زمستان فرود خواهید آمد. زنده ماندن ممکن است سخت یا تقریباً غیرممکن باشد. اگر قصد ندارید با چالشی شدید روبرو شوید، فصل دیگری را انتخاب کنید.</MapWinterWarning>
   <!-- EN: The game is designed to play on medium map sizes. These sizes provide plenty of space!\n\nLarge map sizes don't just degrade performance - they actually break the game design. The AI will make stupid decisions, and game balance will be badly affected in various ways. These sizes are included for tradition and testing reasons only, please do not use them without a specific reason. -->
   <MapSizePerformanceWarning>بازی برای اجرا در اندازه‌های نقشه متوسط طراحی شده است. این اندازه‌ها فضای زیادی را فراهم می‌کنند!\n\nاندازه‌های نقشه بزرگ فقط عملکرد را کاهش نمی‌دهند - آنها در واقع طراحی بازی را خراب می‌کنند. هوش مصنوعی تصمیمات احمقانه خواهد گرفت و تعادل بازی به طرق مختلف به شدت تحت تأثیر قرار خواهد گرفت. این اندازه‌ها فقط به دلایل سنتی و آزمایشی گنجانده شده‌اند، لطفاً بدون دلیل خاص از آنها استفاده نکنید.</MapSizePerformanceWarning>
   <!-- EN: Map size -->
@@ -705,7 +705,7 @@
   <!-- EN: {FACTION_name} is not willing to send a caravan because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
   <TradeCaravanRequestDeniedDueTitle>{FACTION_name} مایل به ارسال کاروان نیست زیرا {NEGOTIATOR_nameDef} فاقد عنوان مورد نیاز {TITLE} است.</TradeCaravanRequestDeniedDueTitle>
   <!-- EN: {FACTION_name} is not willing to send an orbital trader because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
-  <OrbitalTradeRequestDeniedDueTitle>TODO</OrbitalTradeRequestDeniedDueTitle>
+  <OrbitalTradeRequestDeniedDueTitle>{FACTION_name} مایل به ارسال تاجر مداری نیست زیرا {NEGOTIATOR_nameDef} فاقد عنوان مورد نیاز {TITLE} است.</OrbitalTradeRequestDeniedDueTitle>
 
   <!-- Sellable items -->
   <!-- EN: Things this trader will buy -->
@@ -735,9 +735,9 @@
   <!-- EN: Number available to send with the caravan. -->
   <FormCaravanColonyThingCountTip>تعداد موجود برای ارسال با کاروان.</FormCaravanColonyThingCountTip>
   <!-- EN: Number available to transport. -->
-  <TransporterColonyThingCountTip>TODO</TransporterColonyThingCountTip>
+  <TransporterColonyThingCountTip>تعداد موجود برای حمل و نقل.</TransporterColonyThingCountTip>
   <!-- EN: Number available to transfer. -->
-  <TransferMapPortalColonyThingCountTip>TODO</TransferMapPortalColonyThingCountTip>
+  <TransferMapPortalColonyThingCountTip>تعداد موجود برای انتقال.</TransferMapPortalColonyThingCountTip>
   <!-- EN: People and animals -->
   <PawnsTab>افراد و حیوانات</PawnsTab>
   <!-- EN: Items -->
@@ -959,7 +959,7 @@
   <!-- EN: Rename this policy. -->
   <RenamePolicyTip>این سیاست را تغییر نام دهید.</RenamePolicyTip>
   <!-- EN: Make this policy the default policy given to new colonists. -->
-  <DefaultPolicyTip>TODO</DefaultPolicyTip>
+  <DefaultPolicyTip>این سیاست را به عنوان سیاست پیش‌فرض برای مهاجران جدید تنظیم کنید.</DefaultPolicyTip>
   <!-- EN: Are you sure you want to delete the policy: {0}? -->
   <DeletePolicyConfirm>آیا مطمئن هستید که می‌خواهید سیاست: {0} را حذف کنید؟</DeletePolicyConfirm>
   <!-- EN: Delete -->
@@ -1072,7 +1072,7 @@
   <!-- EN: Novels -->
   <NovelPolicy>رمان‌ها</NovelPolicy>
   <!-- EN: Maps -->
-  <MapPolicy>TODO</MapPolicy>
+  <MapPolicy>نقشه‌ها</MapPolicy>
 
   <!-- Medical settings -->
   <!-- EN: Default medicine settings -->
@@ -1153,9 +1153,9 @@
 
   <!-- Send transport pods which are not completely loaded -->
   <!-- EN: The following still need to be loaded -->
-  <ConfirmSendNotCompletelyLoadedLaunchable>TODO</ConfirmSendNotCompletelyLoadedLaunchable>
+  <ConfirmSendNotCompletelyLoadedLaunchable>موارد زیر هنوز باید بارگیری شوند</ConfirmSendNotCompletelyLoadedLaunchable>
   <!-- EN: Launch anyway? -->
-  <ConfirmSendLaunchAnyway>TODO</ConfirmSendLaunchAnyway>
+  <ConfirmSendLaunchAnyway>به هر حال پرتاب شود؟</ConfirmSendLaunchAnyway>
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days. -->
@@ -1323,7 +1323,7 @@
   <!-- EN: The current number of females of breeding age in the colony. -->
   <AutoSlaugtherHeaderTooltipCurrentFemales>تعداد فعلی ماده‌های در سن تولید مثل در کلونی.</AutoSlaugtherHeaderTooltipCurrentFemales>
   <!-- EN: The current number of baby and juvenile females in the colony. -->
-  <AutoSlaugtherHeaderTooltipCurrentFemalesYoung>TODO</AutoSlaugtherHeaderTooltipCurrentFemalesYoung>
+  <AutoSlaugtherHeaderTooltipCurrentFemalesYoung>تعداد فعلی ماده‌های نوزاد و جوان در کلونی.</AutoSlaugtherHeaderTooltipCurrentFemalesYoung>
   <!-- EN: The maximum number of females in the colony.\n\nHandlers will automatically slaughter any extras. -->
   <AutoSlaugtherHeaderTooltipMaxFemales>حداکثر تعداد ماده‌ها در کلونی.\n\nکارگران به طور خودکار هر حیوان اضافی را ذبح خواهند کرد.</AutoSlaugtherHeaderTooltipMaxFemales>
   <!-- EN: The maximum number of baby and juvenile females in the colony.\n\nHandlers will automatically slaughter any extras. -->
@@ -1430,9 +1430,9 @@
   <!-- EN: Search the current map for items, buildings, people, animals, plants, and more. -->
   <SearchTheMapDesc>جستجو در نقشه فعلی برای اقلام، ساختمان‌ها، افراد، حیوانات، گیاهان و موارد دیگر.</SearchTheMapDesc>
   <!-- EN: Search the world -->
-  <SearchTheWorld>TODO</SearchTheWorld>
+  <SearchTheWorld>جستجو در جهان</SearchTheWorld>
   <!-- EN: Search the world for specific features, landmarks, quests, or settlements. -->
-  <SearchTheWorldDesc>TODO</SearchTheWorldDesc>
+  <SearchTheWorldDesc>جستجو در جهان برای ویژگی‌های خاص، نقاط دیدنی، ماموریت‌ها یا سکونتگاه‌ها.</SearchTheWorldDesc>
   <!-- EN: {0} results found -->
   <MapSearchResults>{0} نتیجه یافت شد</MapSearchResults>
   <!-- EN: 1 result found -->

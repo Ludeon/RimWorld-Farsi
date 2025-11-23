@@ -36,28 +36,6 @@ These files contain **type mismatch errors** that prevent translations from load
 
 ### Missing Keyed Translations by File (1,112 total):
 
-| Count | File | Priority |
-|-------|------|----------|
-| 923 | `Misc_Gameplay.xml` | 🔴 CRITICAL |
-| 44 | `GameplayCommands.xml` | 🔴 HIGH |
-| 22 | `ScenParts.xml` | 🟡 MEDIUM |
-| 14 | `FloatMenu.xml` | 🔴 HIGH |
-
-| 13 | `Dialog_StatsReports.xml` | 🟡 MEDIUM |
-| 13 | `Dialogs_Various.xml` | 🟡 MEDIUM |
-| 12 | `Letters.xml` | 🔴 HIGH |
-| 10 | `TerrainTags.xml` | 🟢 LOW |
-| 6 | `Menu_Options.xml` | 🟡 MEDIUM |
-| 3 | `Dialog_Trees.xml` | 🟢 LOW |
-| 3 | `Messages.xml` | 🔴 HIGH |
-| 3 | `MainTabs.xml` | 🟡 MEDIUM |
-
-**Note:** Files marked as "English file" need to be created in Persian language folder.
-
----
-
-## 🟢 MEDIUM PRIORITY - Def-Injected Translations
-
 ### Top Missing Def-Injected Files (24,180 total):
 
 #### RulePacks & Narrative (High Impact on Gameplay):
@@ -168,6 +146,21 @@ These files contain **type mismatch errors** that prevent translations from load
 ### PawnKinds:
 - ✅ `PawnKinds_Empire.xml` (All imperial ranks)
 - ✅ `PawnKinds_Refugee.xml`
+
+### Keyed Translations:
+- ✅ `FloatMenu.xml`
+- ✅ `Letters.xml`
+- ✅ `Messages.xml`
+- ✅ `MainTabs.xml`
+- ✅ `Menus_Main.xml`
+- ✅ `Misc_Gameplay.xml`
+- ✅ `GameplayCommands.xml`
+- ✅ `ScenParts.xml`
+- ✅ `Dialog_StatsReports.xml`
+- ✅ `Dialogs_Various.xml`
+- ✅ `FloatMenu.xml`
+- ✅ `Messages.xml`
+- ✅ `Menus_Main.xml`
 
 ### Biomes (Odyssey):
 - ✅ `GlacialPlain.xml`

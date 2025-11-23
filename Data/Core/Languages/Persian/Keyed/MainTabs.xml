@@ -323,7 +323,7 @@
   <!-- EN: the map clear of enemies of the bestower's faction -->
   <QuestRequiresNoDangerOnMap>نقشه عاری از دشمنان جناح اهداکننده باشد</QuestRequiresNoDangerOnMap>
   <!-- EN: that {PROJECT_label} has been researched. -->
-  <QuestRequiresResearch>TODO</QuestRequiresResearch>
+  <QuestRequiresResearch>{PROJECT_label} تحقیق شده باشد.</QuestRequiresResearch>
   <!-- EN: to finish the ongoing bestowing ceremony quest -->
   <QuestCanNotStartUntilBestowingCeremonyFinished>ماموریت مراسم اعطا در حال انجام را به پایان برسانید</QuestCanNotStartUntilBestowingCeremonyFinished>
   <!-- EN: Reward preferences -->
@@ -361,9 +361,9 @@
   <!-- EN: studied {0_labelShort} -->
   <QuestRequiredThingStudied>{0_labelShort} مطالعه شده است</QuestRequiredThingStudied>
   <!-- EN: cannot accept {GERUND} {LAYER} -->
-  <QuestRequiredLayer>TODO</QuestRequiredLayer>
+  <QuestRequiredLayer>نمی‌توان {GERUND} {LAYER} را پذیرفت</QuestRequiredLayer>
   <!-- EN: cannot accept in space -->
-  <QuestNotSpace>TODO</QuestNotSpace>
+  <QuestNotSpace>نمی‌توان در فضا پذیرفت</QuestNotSpace>
 
   <!-- Health tab -->
   <!-- EN: Creates need -->

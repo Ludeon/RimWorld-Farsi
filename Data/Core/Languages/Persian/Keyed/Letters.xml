@@ -23,7 +23,7 @@
   <!-- EN: They will conduct periodic raids on your colony and caravans, and refuse to trade with you. If you want to improve relations, you can still offer them gifts using caravans or transport pods.\n\nThis happened because goodwill ({0}) has fallen below {1}. In order to restore neutral relations, goodwill must reach {2} again. -->
   <LetterRelationsChange_HostileGoodwillDescription>آنها به صورت دوره‌ای به کلونی و کاروان‌های شما حمله خواهند کرد و از تجارت با شما خودداری می‌کنند. اگر می‌خواهید روابط را بهبود بخشید، همچنان می‌توانید با استفاده از کاروان‌ها یا کپسول‌های حمل و نقل به آنها هدیه دهید.\n\nاین اتفاق به این دلیل افتاد که حسن نیت ({0}) به زیر {1} کاهش یافته است. برای بازگرداندن روابط خنثی، حسن نیت باید دوباره به {2} برسد.</LetterRelationsChange_HostileGoodwillDescription>
   <!-- EN: They will conduct periodic raids on your colony and caravans, and refuse to trade with you.\n\nThis happened because goodwill ({0}) has fallen below {1}. In order to restore neutral relations, goodwill must reach {2} again. -->
-  <LetterRelationsChange_HostileGoodwillDescription_NoGifting>TODO</LetterRelationsChange_HostileGoodwillDescription_NoGifting>
+  <LetterRelationsChange_HostileGoodwillDescription_NoGifting>آنها به صورت دوره‌ای به کلونی و کاروان‌های شما حمله خواهند کرد و از تجارت با شما خودداری می‌کنند.\n\nاین اتفاق به این دلیل افتاد که حسن نیت ({0}) به زیر {1} کاهش یافته است. برای بازگرداندن روابط خنثی، حسن نیت باید دوباره به {2} برسد.</LetterRelationsChange_HostileGoodwillDescription_NoGifting>
 
   <!-- EN: Relations with {0} have warmed. They now consider you neutral and will no longer attack you. -->
   <LetterRelationsChange_NeutralFromHostile>روابط با {0} گرم شده است. آنها اکنون شما را خنثی می‌دانند و دیگر به شما حمله نخواهند کرد.</LetterRelationsChange_NeutralFromHostile>
@@ -298,7 +298,7 @@
   <!-- EN: The enemy settlement {0} has been destroyed.\n\nIn {1}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves. -->
   <LetterFactionBaseDefeated>سکونتگاه دشمن {0} نابود شده است.\n\nدر {1}، کاروان شما توسط دشمنان مورد حمله قرار خواهد گرفت. آنها شروع به ارسال نیرو برای حمله به کاروان خواهند کرد، مگر اینکه کاروان دوباره تشکیل شده و منطقه را ترک کند.</LetterFactionBaseDefeated>
   <!-- EN: The enemy settlement {0} has been destroyed. -->
-  <LetterFactionBaseDefeatedNoRaids>TODO</LetterFactionBaseDefeatedNoRaids>
+  <LetterFactionBaseDefeatedNoRaids>سکونتگاه دشمن {0} نابود شده است.</LetterFactionBaseDefeatedNoRaids>
   <!-- EN: Since this was their last settlement, {0} has been defeated. -->
   <LetterFactionBaseDefeated_FactionDestroyed>از آنجایی که این آخرین سکونتگاه آنها بود، {0} شکست خورده است.</LetterFactionBaseDefeated_FactionDestroyed>
 
@@ -420,7 +420,7 @@
   <!-- EN: You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group. -->
   <LetterRescueQuestFinished>شما {PAWN_nameDef} را نجات داده‌اید و {PAWN_pronoun} به گروه شما پیوسته است.\n\nمی‌توانید با تشکیل مجدد کاروان در صفحه جهان با انتخاب این منطقه و انتخاب گزینه "تشکیل مجدد کاروان"، {PAWN_objective} را با خود ببرید.</LetterRescueQuestFinished>
   <!-- EN: \n\nYou can now take {PAWN_objective} with you. To do so, open the World screen, select this site and choose the "Reform caravan" command. -->
-  <LetterRescueQuestFinishedCaravanExtra>TODO</LetterRescueQuestFinishedCaravanExtra>
+  <LetterRescueQuestFinishedCaravanExtra>\n\nاکنون می‌توانید {PAWN_objective} را با خود ببرید. برای این کار، صفحه جهان را باز کنید، این محل را انتخاب کرده و دستور "تشکیل مجدد کاروان" را انتخاب کنید.</LetterRescueQuestFinishedCaravanExtra>
 
   <!-- Predator hunting colonist -->
   <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->
@@ -438,27 +438,27 @@
 
   <!-- Quests -->
   <!-- EN: Quest available: {0} -->
-  <LetterLabelQuestAvailableTitle>TODO</LetterLabelQuestAvailableTitle>
+  <LetterLabelQuestAvailableTitle>ماموریت در دسترس: {0}</LetterLabelQuestAvailableTitle>
   <!-- EN: Quest active: {0} -->
-  <LetterLabelQuestAutomaticallyAcceptedTitle>TODO</LetterLabelQuestAutomaticallyAcceptedTitle>
+  <LetterLabelQuestAutomaticallyAcceptedTitle>ماموریت فعال: {0}</LetterLabelQuestAutomaticallyAcceptedTitle>
   <!-- EN: {DISCOVEREDFROM} a new quest. -->
-  <LetterNewQuest>TODO</LetterNewQuest>
+  <LetterNewQuest>{DISCOVEREDFROM} یک ماموریت جدید.</LetterNewQuest>
   <!-- EN: A new quest is available. -->
-  <LetterNewQuestFromUnknown>TODO</LetterNewQuestFromUnknown>
+  <LetterNewQuestFromUnknown>یک ماموریت جدید در دسترس است.</LetterNewQuestFromUnknown>
   <!-- EN: The quest is called '{0}'. -->
-  <LetterQuestIsNamed>TODO</LetterQuestIsNamed>
+  <LetterQuestIsNamed>نام ماموریت '{0}' است.</LetterQuestIsNamed>
   <!-- EN: It will expire in {0}. -->
   <LetterQuestActiveNowTime>در {0} منقضی خواهد شد.</LetterQuestActiveNowTime>
   <!-- EN: If you don't accept the quest within {0}, it will expire. -->
   <LetterQuestRequiresAcceptance>اگر ماموریت را ظرف {0} نپذیرید، منقضی خواهد شد.</LetterQuestRequiresAcceptance>
   <!-- EN: While reading {BOOK_labelNoParenthesis}, {READER_nameDef} discovered -->
-  <QuestDiscoveredFromBook>TODO</QuestDiscoveredFromBook>
+  <QuestDiscoveredFromBook>در حین خواندن {BOOK_labelNoParenthesis}، {READER_nameDef} کشف کرد</QuestDiscoveredFromBook>
   <!-- EN: While talking with the trader {TRADER_nameDef}, {NEGOTIATOR_nameDef} learned of -->
-  <QuestDiscoveredFromTrader>TODO</QuestDiscoveredFromTrader>
+  <QuestDiscoveredFromTrader>در حین صحبت با تاجر {TRADER_nameDef}، {NEGOTIATOR_nameDef} متوجه شد</QuestDiscoveredFromTrader>
   <!-- EN: To show {RECEIVER_possessive} gratitude for your charity, the beggar {RECEIVER_nameDef} shared a secret with {GIVER_nameDef}.\n\nYou have learned of -->
-  <QuestDiscoveredFromBeggar>TODO</QuestDiscoveredFromBeggar>
+  <QuestDiscoveredFromBeggar>برای نشان دادن قدردانی {RECEIVER_possessive} از خیریه شما، گدا {RECEIVER_nameDef} رازی را با {GIVER_nameDef} به اشتراک گذاشت.\n\nشما متوجه شدید</QuestDiscoveredFromBeggar>
   <!-- EN: You have discovered -->
-  <QuestDiscoveredFromDebug>TODO</QuestDiscoveredFromDebug>
+  <QuestDiscoveredFromDebug>شما کشف کردید</QuestDiscoveredFromDebug>
 
   <!-- Quest drop pods arrived -->
   <!-- EN: Pods arrived -->

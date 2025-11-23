@@ -83,566 +83,566 @@
   <!-- EN: Race -->
   <Race>نژاد</Race>
   <!-- EN: Description -->
-  <Description>TODO</Description>
+  <Description>توضیحات</Description>
   <!-- EN: Equipment -->
-  <Equipment>TODO</Equipment>
+  <Equipment>تجهیزات</Equipment>
   <!-- EN: Apparel -->
-  <Apparel>TODO</Apparel>
+  <Apparel>پوشاک</Apparel>
   <!-- EN: Inventory -->
-  <Inventory>TODO</Inventory>
+  <Inventory>موجودی</Inventory>
   <!-- EN: Information -->
-  <ThingInfo>TODO</ThingInfo>
+  <ThingInfo>اطلاعات</ThingInfo>
   <!-- EN: Drop -->
-  <DropThing>TODO</DropThing>
+  <DropThing>رها کردن</DropThing>
   <!-- EN: Temporary faction members will not drop their items. -->
-  <DropThingLodger>TODO</DropThingLodger>
+  <DropThingLodger>اعضای موقت جناح آیتم‌های خود را رها نمی‌کنند.</DropThingLodger>
   <!-- EN: This person refuses to drop this. -->
-  <DropThingLocked>TODO</DropThingLocked>
+  <DropThingLocked>این شخص از رها کردن این مورد خودداری می‌کند.</DropThingLocked>
   <!-- EN: Rename -->
-  <Rename>TODO</Rename>
+  <Rename>تغییر نام</Rename>
   <!-- EN: Rename animal -->
-  <RenameAnimal>TODO</RenameAnimal>
+  <RenameAnimal>تغییر نام حیوان</RenameAnimal>
   <!-- EN: Rename colonist -->
-  <RenameColonist>TODO</RenameColonist>
+  <RenameColonist>تغییر نام مهاجر</RenameColonist>
   <!-- EN: Renounce title -->
-  <RenounceTitle>TODO</RenounceTitle>
+  <RenounceTitle>انصراف از عنوان</RenounceTitle>
   <!-- EN: Execute -->
-  <Execute>TODO</Execute>
+  <Execute>اعدام</Execute>
   <!-- EN: Execute guilty colonist\n\nIf you toggle this on, a warden will proceed to execute this person. -->
-  <ExecuteColonist>TODO</ExecuteColonist>
+  <ExecuteColonist>اعدام مهاجر گناهکار\n\nاگر این گزینه را فعال کنید، یک زندانبان اقدام به اعدام این شخص خواهد کرد.</ExecuteColonist>
   <!-- EN: {0_labelShort} is now marked for execution. The next available warden will go execute {0_objective}. -->
-  <MessageColonistMarkedForExecution>TODO</MessageColonistMarkedForExecution>
+  <MessageColonistMarkedForExecution>{0_labelShort} اکنون برای اعدام علامت‌گذاری شده است. زندانبان بعدی در دسترس {0_objective} را اعدام خواهد کرد.</MessageColonistMarkedForExecution>
   <!-- EN: {0} of {1} -->
-  <TitleOfFaction>TODO</TitleOfFaction>
+  <TitleOfFaction>{0} از {1}</TitleOfFaction>
   <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
-  <RenounceTitleDescription>TODO</RenounceTitleDescription>
+  <RenounceTitleDescription>این اقدام باعث می‌شود {PAWN_nameDef} عنوان {TITLE} {PAWN_possessive} را از دست بدهد. شما هیچ غرامتی برای انصراف از عنوان دریافت نخواهید کرد.\n\nاین کار اثرات زیر را خواهد داشت:\n\n{EFFECTS}</RenounceTitleDescription>
   <!-- EN: {PAWN_pronoun} will lose these permissions -->
-  <RenounceTitleWillLoosePermits>TODO</RenounceTitleWillLoosePermits>
+  <RenounceTitleWillLoosePermits>{PAWN_pronoun} این مجوزها را از دست خواهد داد</RenounceTitleWillLoosePermits>
   <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
-  <RenounceTitleWillLosePermitPoints>TODO</RenounceTitleWillLosePermitPoints>
+  <RenounceTitleWillLosePermitPoints>{PAWN_nameDef} {POINTS} امتیاز مجوز خرج نشده با {FACTION_name} را از دست خواهد داد.</RenounceTitleWillLosePermitPoints>
   <!-- EN: {PAWN_pronoun} will keep all {PAWN_possessive} psylink levels and psycasts. -->
-  <RenounceTitleWillKeepPsylinkLevels>TODO</RenounceTitleWillKeepPsylinkLevels>
+  <RenounceTitleWillKeepPsylinkLevels>{PAWN_pronoun} تمام سطوح پسالینک و پساکست‌های {PAWN_possessive} را حفظ خواهد کرد.</RenounceTitleWillKeepPsylinkLevels>
   <!-- EN: unknown -->
-  <UnknownLower>TODO</UnknownLower>
+  <UnknownLower>ناشناخته</UnknownLower>
   <!-- EN: On -->
-  <On>TODO</On>
+  <On>روشن</On>
   <!-- EN: Off -->
-  <Off>TODO</Off>
+  <Off>خاموش</Off>
   <!-- EN: {0} {1} -->
-  <SourceToolLabel>TODO</SourceToolLabel>
+  <SourceToolLabel>{0} {1}</SourceToolLabel>
   <!-- EN: Power -->
-  <PowerSwitch_Power>TODO</PowerSwitch_Power>
+  <PowerSwitch_Power>برق</PowerSwitch_Power>
   <!-- EN: Recreation type tolerances -->
-  <JoyTolerances>TODO</JoyTolerances>
+  <JoyTolerances>تحمل‌های نوع تفریح</JoyTolerances>
   <!-- EN: Milk fullness -->
-  <MilkFullness>TODO</MilkFullness>
+  <MilkFullness>پر بودن شیر</MilkFullness>
   <!-- EN: Wool growth -->
-  <WoolGrowth>TODO</WoolGrowth>
+  <WoolGrowth>رشد پشم</WoolGrowth>
   <!-- EN: Egg progress -->
-  <EggProgress>TODO</EggProgress>
+  <EggProgress>پیشرفت تخم‌گذاری</EggProgress>
   <!-- EN: Fertilized -->
-  <Fertilized>TODO</Fertilized>
+  <Fertilized>بارور شده</Fertilized>
   <!-- EN: Progress stopped until fertilized -->
-  <ProgressStoppedUntilFertilized>TODO</ProgressStoppedUntilFertilized>
+  <ProgressStoppedUntilFertilized>پیشرفت متوقف شده تا زمان باروری</ProgressStoppedUntilFertilized>
   <!-- EN: Hatches in -->
-  <HatchesIn>TODO</HatchesIn>
+  <HatchesIn>بیرون آمدن از تخم در</HatchesIn>
   <!-- EN: need {0} level {2}, have {1} -->
-  <SkillTooLow>TODO</SkillTooLow>
+  <SkillTooLow>نیاز به {0} سطح {2}، دارید {1}</SkillTooLow>
   <!-- EN: Freezing -->
-  <Freezing>TODO</Freezing>
+  <Freezing>انجماد</Freezing>
   <!-- EN: Overheating -->
-  <Overheating>TODO</Overheating>
+  <Overheating>گرمای بیش از حد</Overheating>
   <!-- EN: Ruined by temperature. -->
-  <RuinedByTemperature>TODO</RuinedByTemperature>
+  <RuinedByTemperature>خراب شده توسط دما.</RuinedByTemperature>
   <!-- EN: Missing body parts -->
-  <CorpsePercentMissing>TODO</CorpsePercentMissing>
+  <CorpsePercentMissing>اعضای بدن از دست رفته</CorpsePercentMissing>
   <!-- EN: Reproduces in -->
-  <HiveReproducesIn>TODO</HiveReproducesIn>
+  <HiveReproducesIn>تولید مثل در</HiveReproducesIn>
   <!-- EN: Dormant: Not reproducing. -->
-  <DormantHiveNotReproducing>TODO</DormantHiveNotReproducing>
+  <DormantHiveNotReproducing>خفته: تولید مثل نمی‌کند.</DormantHiveNotReproducing>
   <!-- EN: Next {0} in -->
-  <NextSpawnedItemIn>TODO</NextSpawnedItemIn>
+  <NextSpawnedItemIn>{0} بعدی در</NextSpawnedItemIn>
   <!-- EN: Next resource in -->
-  <NextSpawnedResourceIn>TODO</NextSpawnedResourceIn>
+  <NextSpawnedResourceIn>منبع بعدی در</NextSpawnedResourceIn>
   <!-- EN: Broken down -->
-  <BrokenDown>TODO</BrokenDown>
+  <BrokenDown>خراب شده</BrokenDown>
   <!-- EN: (bond) -->
-  <BondBrackets>TODO</BondBrackets>
+  <BondBrackets>(پیوند)</BondBrackets>
   <!-- EN: Fuel -->
-  <Fuel>TODO</Fuel>
+  <Fuel>سوخت</Fuel>
   <!-- EN: Fuel -->
-  <FuelLevelGizmoLabel>TODO</FuelLevelGizmoLabel>
+  <FuelLevelGizmoLabel>سوخت</FuelLevelGizmoLabel>
   <!-- EN: Set target fuel level to {0} -->
-  <SetTargetFuelLevel>TODO</SetTargetFuelLevel>
+  <SetTargetFuelLevel>تنظیم سطح سوخت هدف به {0}</SetTargetFuelLevel>
   <!-- EN: Set target fuel level to {0}\nMax distance: {1} tiles -->
-  <SetPodLauncherTargetFuelLevel>TODO</SetPodLauncherTargetFuelLevel>
+  <SetPodLauncherTargetFuelLevel>تنظیم سطح سوخت هدف به {0}\nحداکثر فاصله: {1} کاشی</SetPodLauncherTargetFuelLevel>
   <!-- EN: Target fuel level: {0} -->
-  <ConfiguredTargetFuelLevel>TODO</ConfiguredTargetFuelLevel>
+  <ConfiguredTargetFuelLevel>سطح سوخت هدف: {0}</ConfiguredTargetFuelLevel>
   <!-- EN: enemies -->
-  <Enemies>TODO</Enemies>
+  <Enemies>دشمنان</Enemies>
   <!-- EN: people -->
-  <People>TODO</People>
+  <People>افراد</People>
   <!-- EN: time passed -->
-  <TimePassed>TODO</TimePassed>
+  <TimePassed>زمان سپری شده</TimePassed>
   <!-- EN: current radius -->
-  <CurrentRadius>TODO</CurrentRadius>
+  <CurrentRadius>شعاع فعلی</CurrentRadius>
   <!-- EN: radius expands in -->
-  <RadiusExpandsIn>TODO</RadiusExpandsIn>
+  <RadiusExpandsIn>گسترش شعاع در</RadiusExpandsIn>
   <!-- EN: permanent -->
-  <Permanent>TODO</Permanent>
+  <Permanent>دائمی</Permanent>
   <!-- EN: Resting -->
-  <CaravanResting>TODO</CaravanResting>
+  <CaravanResting>استراحت</CaravanResting>
   <!-- EN: using 1 bedroll -->
-  <UsingBedroll>TODO</UsingBedroll>
+  <UsingBedroll>استفاده از ۱ کیسه خواب</UsingBedroll>
   <!-- EN: using {0} bedrolls -->
-  <UsingBedrolls>TODO</UsingBedrolls>
+  <UsingBedrolls>استفاده از {0} کیسه خواب</UsingBedrolls>
   <!-- EN: Est. time to destination: {0} days -->
-  <CaravanEstimatedTimeToDestination>TODO</CaravanEstimatedTimeToDestination>
+  <CaravanEstimatedTimeToDestination>زمان تخمینی تا مقصد: {0} روز</CaravanEstimatedTimeToDestination>
   <!-- EN: Route travel time: {0} days -->
-  <CaravanEstimatedDaysToDestination>TODO</CaravanEstimatedDaysToDestination>
+  <CaravanEstimatedDaysToDestination>زمان سفر مسیر: {0} روز</CaravanEstimatedDaysToDestination>
   <!-- EN: Immobilized: Too much weight. -->
-  <CaravanImmobilizedByMass>TODO</CaravanImmobilizedByMass>
+  <CaravanImmobilizedByMass>بی‌حرکت: وزن خیلی زیاد.</CaravanImmobilizedByMass>
   <!-- EN: Out of food. -->
-  <CaravanOutOfFood>TODO</CaravanOutOfFood>
+  <CaravanOutOfFood>بدون غذا.</CaravanOutOfFood>
   <!-- EN: Days of food: {0} -->
-  <CaravanDaysOfFood>TODO</CaravanDaysOfFood>
+  <CaravanDaysOfFood>روزهای غذا: {0}</CaravanDaysOfFood>
   <!-- EN: Days of food: {0} (rot in {1} days) -->
-  <CaravanDaysOfFoodRot>TODO</CaravanDaysOfFoodRot>
+  <CaravanDaysOfFoodRot>روزهای غذا: {0} (فاسد شدن در {1} روز)</CaravanDaysOfFoodRot>
   <!-- EN: Stopped because: Everyone is downed. -->
-  <AllCaravanMembersDowned>TODO</AllCaravanMembersDowned>
+  <AllCaravanMembersDowned>متوقف شده به دلیل: همه ناتوان شده‌اند.</AllCaravanMembersDowned>
   <!-- EN: Stopped because: Everyone is in a mental break. -->
-  <AllCaravanMembersMentalBreak>TODO</AllCaravanMembersMentalBreak>
+  <AllCaravanMembersMentalBreak>متوقف شده به دلیل: همه دچار فروپاشی روانی شده‌اند.</AllCaravanMembersMentalBreak>
   <!-- EN: {0} {1} -->
-  <CaravanColonistsCount>TODO</CaravanColonistsCount>
+  <CaravanColonistsCount>{0} {1}</CaravanColonistsCount>
   <!-- EN: 1 animal -->
-  <CaravanAnimal>TODO</CaravanAnimal>
+  <CaravanAnimal>۱ حیوان</CaravanAnimal>
   <!-- EN: {0} animals -->
-  <CaravanAnimalsCount>TODO</CaravanAnimalsCount>
+  <CaravanAnimalsCount>{0} حیوان</CaravanAnimalsCount>
   <!-- EN: 1 prisoner -->
-  <CaravanPrisoner>TODO</CaravanPrisoner>
+  <CaravanPrisoner>۱ زندانی</CaravanPrisoner>
   <!-- EN: {0} prisoners -->
-  <CaravanPrisonersCount>TODO</CaravanPrisonersCount>
+  <CaravanPrisonersCount>{0} زندانی</CaravanPrisonersCount>
   <!-- EN: {0} in mental state -->
-  <CaravanPawnsInMentalState>TODO</CaravanPawnsInMentalState>
+  <CaravanPawnsInMentalState>{0} در وضعیت روانی</CaravanPawnsInMentalState>
   <!-- EN: {0} downed -->
-  <CaravanPawnsDowned>TODO</CaravanPawnsDowned>
+  <CaravanPawnsDowned>{0} ناتوان شده</CaravanPawnsDowned>
   <!-- EN: Traveling. -->
-  <CaravanTraveling>TODO</CaravanTraveling>
+  <CaravanTraveling>در حال سفر.</CaravanTraveling>
   <!-- EN: Waiting. -->
-  <CaravanWaiting>TODO</CaravanWaiting>
+  <CaravanWaiting>در انتظار.</CaravanWaiting>
   <!-- EN: Being carried due to illness -->
-  <BeingCarriedDueToIllness>TODO</BeingCarriedDueToIllness>
+  <BeingCarriedDueToIllness>حمل شدن به دلیل بیماری</BeingCarriedDueToIllness>
   <!-- EN: Using bedrolls due to illness -->
-  <UsingBedrollsDueToIllness>TODO</UsingBedrollsDueToIllness>
+  <UsingBedrollsDueToIllness>استفاده از کیسه خواب به دلیل بیماری</UsingBedrollsDueToIllness>
   <!-- EN: Current tile movement time -->
-  <CurrentTileMovementTime>TODO</CurrentTileMovementTime>
+  <CurrentTileMovementTime>زمان حرکت کاشی فعلی</CurrentTileMovementTime>
   <!-- EN: Visibility -->
-  <Visibility>TODO</Visibility>
+  <Visibility>دید</Visibility>
   <!-- EN: Temperature -->
-  <Temperature>TODO</Temperature>
+  <Temperature>دما</Temperature>
   <!-- EN: bad temperature -->
-  <BadTemperature>TODO</BadTemperature>
+  <BadTemperature>دمای نامناسب</BadTemperature>
   <!-- EN: Ideal fermenting temperature -->
-  <IdealFermentingTemperature>TODO</IdealFermentingTemperature>
+  <IdealFermentingTemperature>دمای ایده‌آل تخمیر</IdealFermentingTemperature>
   <!-- EN: {0} effect multiplier: {1} -->
-  <DrugEffectMultiplier>TODO</DrugEffectMultiplier>
+  <DrugEffectMultiplier>ضریب اثر {0}: {1}</DrugEffectMultiplier>
   <!-- EN: Visiting {0}. -->
-  <CaravanVisiting>TODO</CaravanVisiting>
+  <CaravanVisiting>بازدید از {0}.</CaravanVisiting>
   <!-- EN: Entering {0}. -->
-  <CaravanEntering>TODO</CaravanEntering>
+  <CaravanEntering>ورود به {0}.</CaravanEntering>
   <!-- EN: Attacking {0}. -->
-  <CaravanAttacking>TODO</CaravanAttacking>
+  <CaravanAttacking>حمله به {0}.</CaravanAttacking>
   <!-- EN: Offering gifts to {0}. -->
-  <CaravanOfferingGifts>TODO</CaravanOfferingGifts>
+  <CaravanOfferingGifts>اهدای هدایا به {0}.</CaravanOfferingGifts>
   <!-- EN: Trading with {0}. -->
-  <CaravanTrading>TODO</CaravanTrading>
+  <CaravanTrading>تجارت با {0}.</CaravanTrading>
   <!-- EN: Tainted from being worn by a corpse. -->
-  <WasWornByCorpse>TODO</WasWornByCorpse>
+  <WasWornByCorpse>آلوده شده به دلیل پوشیده شدن توسط جسد.</WasWornByCorpse>
   <!-- EN: T -->
-  <WornByCorpseChar>TODO</WornByCorpseChar>
+  <WornByCorpseChar>ج</WornByCorpseChar>
   <!-- EN: unroofed -->
-  <DeterioratingUnroofed>TODO</DeterioratingUnroofed>
+  <DeterioratingUnroofed>بدون سقف</DeterioratingUnroofed>
   <!-- EN: outdoors -->
-  <DeterioratingOutdoors>TODO</DeterioratingOutdoors>
+  <DeterioratingOutdoors>فضای باز</DeterioratingOutdoors>
   <!-- EN: raining -->
-  <DeterioratingRaining>TODO</DeterioratingRaining> 
+  <DeterioratingRaining>بارانی</DeterioratingRaining> 
   <!-- EN: protected -->
-  <Protected>TODO</Protected>
+  <Protected>محافظت شده</Protected>
   <!-- EN: Deteriorating -->
-  <DeterioratingBecauseOf>TODO</DeterioratingBecauseOf>
+  <DeterioratingBecauseOf>در حال تخریب</DeterioratingBecauseOf>
   <!-- EN: Will deteriorate in {0}. -->
-  <DeteriorateInDuration>TODO</DeteriorateInDuration>
+  <DeteriorateInDuration>در {0} تخریب خواهد شد.</DeteriorateInDuration>
   <!-- EN: Map -->
-  <Map>TODO</Map>
+  <Map>نقشه</Map>
   <!-- EN: {0} until enemies arrive -->
-  <CaravanDetectedRaidCountdown>TODO</CaravanDetectedRaidCountdown>
+  <CaravanDetectedRaidCountdown>{0} تا رسیدن دشمنان</CaravanDetectedRaidCountdown>
   <!-- EN: Enemies have learned of your location. They will arrive in {0}. -->
-  <CaravanDetectedRaidCountdownTip>TODO</CaravanDetectedRaidCountdownTip>
+  <CaravanDetectedRaidCountdownTip>دشمنان از موقعیت شما مطلع شده‌اند. آنها در {0} خواهند رسید.</CaravanDetectedRaidCountdownTip>
   <!-- EN: Room -->
-  <Room>TODO</Room>
+  <Room>اتاق</Room>
   <!-- EN: Beauty here -->
-  <BeautyHere>TODO</BeautyHere>
+  <BeautyHere>زیبایی در اینجا</BeautyHere>
   <!-- EN: no power -->
-  <NoPower>TODO</NoPower>
+  <NoPower>بدون برق</NoPower>
   <!-- EN: not in {0} -->
-  <NotInRoomRole>TODO</NotInRoomRole>
+  <NotInRoomRole>در {0} نیست</NotInRoomRole>
   <!-- EN: Work speed -->
-  <WorkSpeedPenalty>TODO</WorkSpeedPenalty>
+  <WorkSpeedPenalty>سرعت کار</WorkSpeedPenalty>
   <!-- EN: Disabled -->
-  <DisabledCommand>TODO</DisabledCommand>
+  <DisabledCommand>غیرفعال</DisabledCommand>
   <!-- EN: Deactivated -->
   <Deactivated>غیرفعال شد.</Deactivated>
   <!-- EN: Ready for launch. -->
-  <ReadyForLaunch>TODO</ReadyForLaunch>
+  <ReadyForLaunch>آماده پرتاب.</ReadyForLaunch>
   <!-- EN: Not ready for launch -->
-  <NotReadyForLaunch>TODO</NotReadyForLaunch>
+  <NotReadyForLaunch>آماده پرتاب نیست</NotReadyForLaunch>
   <!-- EN: no fueling port -->
-  <NotAllInGroupConnectedToFuelingPort>TODO</NotAllInGroupConnectedToFuelingPort>
+  <NotAllInGroupConnectedToFuelingPort>بدون درگاه سوخت‌گیری</NotAllInGroupConnectedToFuelingPort>
   <!-- EN: no fuel -->
-  <NotAllLaunchablesInGroupHaveAnyFuel>TODO</NotAllLaunchablesInGroupHaveAnyFuel>
+  <NotAllLaunchablesInGroupHaveAnyFuel>بدون سوخت</NotAllLaunchablesInGroupHaveAnyFuel>
   <!-- EN: loading in progress -->
-  <LaunchableInGroupHasSomethingLeftToLoad>TODO</LaunchableInGroupHasSomethingLeftToLoad>
+  <LaunchableInGroupHasSomethingLeftToLoad>بارگیری در حال انجام</LaunchableInGroupHasSomethingLeftToLoad>
   <!-- EN: Beyond maximum range -->
-  <TransportPodDestinationBeyondMaximumRange>TODO</TransportPodDestinationBeyondMaximumRange>
+  <TransportPodDestinationBeyondMaximumRange>فراتر از حداکثر برد</TransportPodDestinationBeyondMaximumRange>
   <!-- EN: No path to {LAYER_label} -->
-  <TransportPodDestinationNoPath>TODO</TransportPodDestinationNoPath>
+  <TransportPodDestinationNoPath>مسیری به {LAYER_label} وجود ندارد</TransportPodDestinationNoPath>
   <!-- EN: Not enough fuel -->
-  <TransportPodNotEnoughFuel>TODO</TransportPodNotEnoughFuel>
+  <TransportPodNotEnoughFuel>سوخت کافی نیست</TransportPodNotEnoughFuel>
   <!-- EN: {0} of {1} -->
-  <SettlementTrader>TODO</SettlementTrader>
+  <SettlementTrader>{0} از {1}</SettlementTrader>
   <!-- EN: Surgery success chance multiplier from room -->
-  <RoomSurgerySuccessChanceFactor>TODO</RoomSurgerySuccessChanceFactor>
+  <RoomSurgerySuccessChanceFactor>ضریب شانس موفقیت جراحی از اتاق</RoomSurgerySuccessChanceFactor>
   <!-- EN: Infection chance multiplier from room -->
-  <RoomInfectionChanceFactor>TODO</RoomInfectionChanceFactor>
+  <RoomInfectionChanceFactor>ضریب شانس عفونت از اتاق</RoomInfectionChanceFactor>
   <!-- EN: Closed -->
-  <VentClosed>TODO</VentClosed>
+  <VentClosed>بسته</VentClosed>
   <!-- EN: worn by {1_labelShort} -->
-  <WornBy>TODO</WornBy>
+  <WornBy>پوشیده شده توسط {1_labelShort}</WornBy>
   <!-- EN: equipped by {1_labelShort} -->
-  <EquippedBy>TODO</EquippedBy>
+  <EquippedBy>مجهز شده توسط {1_labelShort}</EquippedBy>
   <!-- EN: {0} wants this destroyed.\n    Reward: {1} ({2}) -->
-  <QuestTargetDestroyInspectString>TODO</QuestTargetDestroyInspectString>
+  <QuestTargetDestroyInspectString>{0} می‌خواهد این نابود شود.\n    پاداش: {1} ({2})</QuestTargetDestroyInspectString>
   <!-- EN: {0} wants this destroyed. -->
-  <QuestTargetDestroyInspectStringShort>TODO</QuestTargetDestroyInspectStringShort>
+  <QuestTargetDestroyInspectStringShort>{0} می‌خواهد این نابود شود.</QuestTargetDestroyInspectStringShort>
   <!-- EN: Departing on shuttle in {0} -->
-  <ShuttleDelayInspectString>TODO</ShuttleDelayInspectString>
+  <ShuttleDelayInspectString>حرکت با شاتل در {0}</ShuttleDelayInspectString>
   <!-- EN: Departing in {0} -->
-  <ShuttleLeaveDelayInspectString>TODO</ShuttleLeaveDelayInspectString>
+  <ShuttleLeaveDelayInspectString>حرکت در {0}</ShuttleLeaveDelayInspectString>
   <!-- EN: Should depart on shuttle -->
-  <ShouldDepartOnShuttleInspectString>TODO</ShouldDepartOnShuttleInspectString>
+  <ShouldDepartOnShuttleInspectString>باید با شاتل حرکت کند</ShouldDepartOnShuttleInspectString>
   <!-- EN: Time left: {0} -->
-  <WorldObjectTimeout>TODO</WorldObjectTimeout>
+  <WorldObjectTimeout>زمان باقی‌مانده: {0}</WorldObjectTimeout>
   <!-- EN: Click to sort by this column. -->
-  <ClickToSortByThisColumn>TODO</ClickToSortByThisColumn>
+  <ClickToSortByThisColumn>برای مرتب‌سازی بر اساس این ستون کلیک کنید.</ClickToSortByThisColumn>
   <!-- EN: Shift + click: Increase priority\nShift + right click: Decrease priority -->
-  <WorkPriorityShiftClickTip>TODO</WorkPriorityShiftClickTip>
+  <WorkPriorityShiftClickTip>Shift + کلیک: افزایش اولویت\nShift + راست کلیک: کاهش اولویت</WorkPriorityShiftClickTip>
   <!-- EN: Shift + click: Enable all\nShift + right click: Disable all -->
-  <WorkPriorityShiftClickEnableDisableTip>TODO</WorkPriorityShiftClickEnableDisableTip>
+  <WorkPriorityShiftClickEnableDisableTip>Shift + کلیک: فعال‌سازی همه\nShift + راست کلیک: غیرفعال‌سازی همه</WorkPriorityShiftClickEnableDisableTip>
   <!-- EN: Shift + click: Set all to home\nShift + right click: Set all to unrestricted -->
-  <AllowedAreaShiftClickTip>TODO</AllowedAreaShiftClickTip>
+  <AllowedAreaShiftClickTip>Shift + کلیک: تنظیم همه به خانه\nShift + راست کلیک: تنظیم همه به نامحدود</AllowedAreaShiftClickTip>
   <!-- EN: Shift + click: Check all\nShift + right click: Uncheck all -->
-  <CheckboxShiftClickTip>TODO</CheckboxShiftClickTip>
+  <CheckboxShiftClickTip>Shift + کلیک: انتخاب همه\nShift + راست کلیک: لغو انتخاب همه</CheckboxShiftClickTip>
   <!-- EN: {0} {1} -->
-  <KnownSiteThreatEnemyCountAppend>TODO</KnownSiteThreatEnemyCountAppend>
+  <KnownSiteThreatEnemyCountAppend>{0} {1}</KnownSiteThreatEnemyCountAppend>
   <!-- EN: Skill Requirements -->
-  <SkillRequirements>TODO</SkillRequirements>
+  <SkillRequirements>الزامات مهارت</SkillRequirements>
   <!-- EN: Products -->
-  <Products>TODO</Products>
+  <Products>محصولات</Products>
   <!-- EN: Requires -->
-  <Requires>TODO</Requires>
+  <Requires>نیاز دارد به</Requires>
   <!-- EN: Replaces -->
-  <Replaces>TODO</Replaces>
+  <Replaces>جایگزین می‌کند</Replaces>
   <!-- EN: missing {0} -->
-  <MissingPartWithLabel>TODO</MissingPartWithLabel>
+  <MissingPartWithLabel>{0} وجود ندارد</MissingPartWithLabel>
   <!-- EN: {0}x any of -->
-  <NumAnyOf>TODO</NumAnyOf>
+  <NumAnyOf>{0}x هر کدام از</NumAnyOf>
   <!-- EN: {0} of {1} -->
-  <Relationship>TODO</Relationship>
+  <Relationship>{0} از {1}</Relationship>
   <!-- EN: Prisoner -->
-  <Prisoner>TODO</Prisoner>
+  <Prisoner>زندانی</Prisoner>
   <!-- EN: Refugee -->
-  <Refugee>TODO</Refugee>
+  <Refugee>پناهنده</Refugee>
   <!-- EN: Terrain movement difficulty -->
-  <TileMovementDifficulty>TODO</TileMovementDifficulty>
+  <TileMovementDifficulty>دشواری حرکت در زمین</TileMovementDifficulty>
   <!-- EN: Impassable -->
-  <Impassable>TODO</Impassable>
+  <Impassable>غیرقابل عبور</Impassable>
   <!-- EN: Caravan movement speed -->
-  <CaravanMovementSpeedFull>TODO</CaravanMovementSpeedFull>
+  <CaravanMovementSpeedFull>سرعت حرکت کاروان</CaravanMovementSpeedFull>
   <!-- EN: downed -->
-  <DownedLower>TODO</DownedLower>
+  <DownedLower>ناتوان شده</DownedLower>
   <!-- EN: resting -->
-  <Carried>TODO</Carried>
+  <Carried>در حال استراحت</Carried>
   <!-- EN: Rideable animals / people -->
-  <RideableAnimalsPerPeople>TODO</RideableAnimalsPerPeople>
+  <RideableAnimalsPerPeople>حیوانات قابل سواری / افراد</RideableAnimalsPerPeople>
   <!-- EN: Multiplier from ridden animals -->
-  <MultiplierFromRiddenAnimals>TODO</MultiplierFromRiddenAnimals>
+  <MultiplierFromRiddenAnimals>ضریب از حیوانات سواری</MultiplierFromRiddenAnimals>
   <!-- EN: Multiplier from bonuses -->
-  <MultiplierFromMoveSpeedBonus>TODO</MultiplierFromMoveSpeedBonus>
+  <MultiplierFromMoveSpeedBonus>ضریب از پاداش‌ها</MultiplierFromMoveSpeedBonus>
   <!-- EN: Multiplier for carried mass: {0} -->
-  <MultiplierForCarriedMass>TODO</MultiplierForCarriedMass>
+  <MultiplierForCarriedMass>ضریب برای جرم حمل شده: {0}</MultiplierForCarriedMass>
   <!-- EN: This animal is rideable. People in a caravan will ride the fastest available animals, improving the speed of the caravan as a whole. -->
-  <RideableAnimalTip>TODO</RideableAnimalTip>
+  <RideableAnimalTip>این حیوان قابل سواری است. افراد در کاروان سوار سریع‌ترین حیوانات موجود می‌شوند و سرعت کاروان را به طور کلی بهبود می‌بخشند.</RideableAnimalTip>
   <!-- EN: This person provides a bonus to the caravan's speed. The speed increase is the average bonus of all of the caravan's members. -->
-  <CaravanBonusTip>TODO</CaravanBonusTip>
+  <CaravanBonusTip>این شخص پاداشی به سرعت کاروان می‌دهد. افزایش سرعت میانگین پاداش تمام اعضای کاروان است.</CaravanBonusTip>
   <!-- EN: This caravan can't move because it carries too much. -->
-  <EncumberedCaravanTilesPerDayTip>TODO</EncumberedCaravanTilesPerDayTip>
+  <EncumberedCaravanTilesPerDayTip>این کاروان نمی‌تواند حرکت کند زیرا بار زیادی حمل می‌کند.</EncumberedCaravanTilesPerDayTip>
   <!-- EN: Caravan members speed -->
-  <FinalCaravanPawnsMovementSpeed>TODO</FinalCaravanPawnsMovementSpeed>
+  <FinalCaravanPawnsMovementSpeed>سرعت اعضای کاروان</FinalCaravanPawnsMovementSpeed>
   <!-- EN: Final speed -->
-  <FinalCaravanMovementSpeed>TODO</FinalCaravanMovementSpeed>
+  <FinalCaravanMovementSpeed>سرعت نهایی</FinalCaravanMovementSpeed>
   <!-- EN: Winter -->
-  <Winter>TODO</Winter>
+  <Winter>زمستان</Winter>
   <!-- EN: {0} in winter -->
-  <MovementDifficultyOffsetInWinter>TODO</MovementDifficultyOffsetInWinter>
+  <MovementDifficultyOffsetInWinter>{0} در زمستان</MovementDifficultyOffsetInWinter>
   <!-- EN: to -->
-  <RangeTo>TODO</RangeTo>
+  <RangeTo>به</RangeTo>
   <!-- EN: Caused by -->
-  <CausedBy>TODO</CausedBy>
+  <CausedBy>ناشی از</CausedBy>
   <!-- EN: No letter -->
-  <NoDietCategoryLetter>TODO</NoDietCategoryLetter>
+  <NoDietCategoryLetter>بدون نامه</NoDietCategoryLetter>
   <!-- EN: expires in -->
-  <ExpiresIn>TODO</ExpiresIn>
+  <ExpiresIn>منقضی می‌شود در</ExpiresIn>
   <!-- EN: {1_labelShort}'s caravan -->
-  <CaravanLeaderCaravanName>TODO</CaravanLeaderCaravanName>
+  <CaravanLeaderCaravanName>کاروان {1_labelShort}</CaravanLeaderCaravanName>
   <!-- EN: Reason -->
-  <Reason>TODO</Reason>
+  <Reason>دلیل</Reason>
   <!-- EN: Relations with {0} -->
-  <RelationsWith>TODO</RelationsWith>
+  <RelationsWith>روابط با {0}</RelationsWith>
   <!-- EN: captured by {0} -->
-  <capturedBy>TODO</capturedBy>
+  <capturedBy>اسیر شده توسط {0}</capturedBy>
   <!-- EN: your caravan -->
-  <yourCaravan>TODO</yourCaravan>
+  <yourCaravan>کاروان شما</yourCaravan>
   <!-- EN: {0} wildness -->
-  <CreatureWildness>TODO</CreatureWildness>
+  <CreatureWildness>{0} وحشی‌گری</CreatureWildness>
   <!-- EN: {0} trainability -->
-  <CreatureTrainability>TODO</CreatureTrainability>
+  <CreatureTrainability>{0} قابلیت آموزش</CreatureTrainability>
   <!-- EN: Follow master while drafted -->
-  <CreatureFollowDrafted>TODO</CreatureFollowDrafted>
+  <CreatureFollowDrafted>دنبال کردن ارباب هنگام احضار</CreatureFollowDrafted>
   <!-- EN: Follow master while doing field work -->
-  <CreatureFollowFieldwork>TODO</CreatureFollowFieldwork>
+  <CreatureFollowFieldwork>دنبال کردن ارباب هنگام کار در مزرعه</CreatureFollowFieldwork>
   <!-- EN: {0} with {1} -->
-  <ProximitySingleGoodwillChange>TODO</ProximitySingleGoodwillChange>
+  <ProximitySingleGoodwillChange>{0} با {1}</ProximitySingleGoodwillChange>
   <!-- EN: Too dangerous to re-enter for {0}. -->
-  <EnterCooldown>TODO</EnterCooldown>
+  <EnterCooldown>برای ورود مجدد {0} خیلی خطرناک است.</EnterCooldown>
   <!-- EN: Caravan -->
-  <Caravan>TODO</Caravan>
+  <Caravan>کاروان</Caravan>
   <!-- EN: there may be danger there. -->
-  <HiddenOrNoSitePartDescription>TODO</HiddenOrNoSitePartDescription>
+  <HiddenOrNoSitePartDescription>ممکن است خطری در آنجا باشد.</HiddenOrNoSitePartDescription>
   <!-- EN: The scanner is picking up activity around the lump. It's likely hostile. -->
-  <PreciousLumpHostileThreat>TODO</PreciousLumpHostileThreat>
+  <PreciousLumpHostileThreat>اسکنر فعالیت‌هایی را در اطراف توده شناسایی می‌کند. احتمالاً خصمانه است.</PreciousLumpHostileThreat>
   <!-- EN: lump of {0} -->
-  <PreciousLumpLabel>TODO</PreciousLumpLabel>
+  <PreciousLumpLabel>توده‌ای از {0}</PreciousLumpLabel>
   <!-- EN: no active research project -->
-  <NoActiveResearchProjectToFinish>TODO</NoActiveResearchProjectToFinish>
+  <NoActiveResearchProjectToFinish>هیچ پروژه تحقیقاتی فعالی وجود ندارد</NoActiveResearchProjectToFinish>
   <!-- EN: Current project -->
-  <CurrentProject>TODO</CurrentProject>
+  <CurrentProject>پروژه فعلی</CurrentProject>
   <!-- EN: Research progress -->
-  <ResearchProgress>TODO</ResearchProgress>
+  <ResearchProgress>پیشرفت تحقیق</ResearchProgress>
   <!-- EN: already has {0} -->
-  <AlreadyHasHediff>TODO</AlreadyHasHediff>
+  <AlreadyHasHediff>قبلاً {0} را دارد</AlreadyHasHediff>
   <!-- EN: turret -->
-  <Turret>TODO</Turret>
+  <Turret>برجک</Turret>
   <!-- EN: turrets -->
-  <Turrets>TODO</Turrets>
+  <Turrets>برجک‌ها</Turrets>
   <!-- EN: mortar -->
-  <Mortar>TODO</Mortar>
+  <Mortar>خمپاره‌انداز</Mortar>
   <!-- EN: mortars -->
-  <Mortars>TODO</Mortars>
+  <Mortars>خمپاره‌اندازها</Mortars>
   <!-- EN: enemy -->
-  <Enemy>TODO</Enemy>
+  <Enemy>دشمن</Enemy>
   <!-- EN: location -->
-  <Location>TODO</Location>
+  <Location>موقعیت</Location>
   <!-- EN: animals -->
-  <AnimalsLower>TODO</AnimalsLower>
+  <AnimalsLower>حیوانات</AnimalsLower>
   <!-- EN: items -->
-  <ItemsLower>TODO</ItemsLower>
+  <ItemsLower>آیتم‌ها</ItemsLower>
   <!-- EN: {0} x{1} -->
-  <FilthLabel>TODO</FilthLabel>
+  <FilthLabel>{0} x{1}</FilthLabel>
   <!-- EN: {0} of {1} x{2} -->
-  <FilthLabelWithSource>TODO</FilthLabelWithSource>
+  <FilthLabelWithSource>{0} از {1} x{2}</FilthLabelWithSource>
   <!-- EN: Required -->
   <Required>مورد نیاز</Required>
   <!-- EN: Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction? -->
-  <GiveGiftViaTransportPodsTradeRequestWarning>TODO</GiveGiftViaTransportPodsTradeRequestWarning>
+  <GiveGiftViaTransportPodsTradeRequestWarning>هشدار: شما نمی‌توانید درخواست‌های تجاری را با استفاده از کپسول‌های حمل و نقل تکمیل کنید.\nاگر کالاها را ارسال کنید، سکونتگاه آنها را به عنوان هدیه می‌پذیرد اما به شما پاداشی نمی‌دهد.\n\nبرای تجارت، با یک کاروان به سکونتگاه نزدیک شوید!\n\nآیا مطمئن هستید که می‌خواهید کالاهای بارگیری شده را به جناح هدیه دهید؟</GiveGiftViaTransportPodsTradeRequestWarning>
   <!-- EN: prisoner -->
-  <PrisonerLower>TODO</PrisonerLower>
+  <PrisonerLower>زندانی</PrisonerLower>
   <!-- EN: prisoners -->
-  <PrisonersLower>TODO</PrisonersLower>
+  <PrisonersLower>زندانیان</PrisonersLower>
   <!-- EN: Click to view this quest in quests tab -->
-  <ClickToViewInQuestsTab>TODO</ClickToViewInQuestsTab>
+  <ClickToViewInQuestsTab>برای مشاهده این ماموریت در تب ماموریت‌ها کلیک کنید</ClickToViewInQuestsTab>
   <!-- EN: Mood -->
-  <Mood>TODO</Mood>
+  <Mood>خلق و خو</Mood>
   <!-- EN: Quest -->
-  <Quest>TODO</Quest>
+  <Quest>ماموریت</Quest>
   <!-- EN: Brings raids every {0} -->
-  <BringsRaidsEvery>TODO</BringsRaidsEvery>
+  <BringsRaidsEvery>هر {0} حمله می‌آورد</BringsRaidsEvery>
   <!-- EN: Generates {0} every {1} -->
-  <GeneratesResourcesEvery>TODO</GeneratesResourcesEvery>
+  <GeneratesResourcesEvery>هر {1}، {0} تولید می‌کند</GeneratesResourcesEvery>
   <!-- EN: Foliage kill radius -->
-  <FoliageKillRadius>TODO</FoliageKillRadius>
+  <FoliageKillRadius>شعاع کشتن گیاهان</FoliageKillRadius>
   <!-- EN: View: {0} -->
-  <ViewHyperlink>TODO</ViewHyperlink>
+  <ViewHyperlink>مشاهده: {0}</ViewHyperlink>
   <!-- EN: Detonates in {0} days -->
-  <DetonationCountdown>TODO</DetonationCountdown>
+  <DetonationCountdown>در {0} روز منفجر می‌شود</DetonationCountdown>
   <!-- EN: Large explosion if damaged. -->
-  <ExplosionOnDamageWarning>TODO</ExplosionOnDamageWarning>
+  <ExplosionOnDamageWarning>انفجار بزرگ در صورت آسیب دیدن.</ExplosionOnDamageWarning>
   <!-- EN: Mech cluster -->
-  <MechCluster>TODO</MechCluster>
+  <MechCluster>خوشه مکانیزه</MechCluster>
   <!-- EN: Spawning in {0} -->
-  <SpawningNextPawnIn>TODO</SpawningNextPawnIn>
+  <SpawningNextPawnIn>تولید در {0}</SpawningNextPawnIn>
   <!-- EN: {0} gestation completes in {1}. -->
-  <MechAssemblyCompleteIn>TODO</MechAssemblyCompleteIn>
+  <MechAssemblyCompleteIn>دوره بارداری {0} در {1} کامل می‌شود.</MechAssemblyCompleteIn>
   <!-- EN: Will gestate -->
-  <MechAssemblyNextType>TODO</MechAssemblyNextType>
+  <MechAssemblyNextType>باردار خواهد شد</MechAssemblyNextType>
   <!-- EN: produced -->
-  <ThingsProduced>TODO</ThingsProduced>
+  <ThingsProduced>تولید شده</ThingsProduced>
   <!-- EN: harvested -->
-  <PlantsHarvested>TODO</PlantsHarvested>
+  <PlantsHarvested>برداشت شده</PlantsHarvested>
   <!-- EN: {0} killed -->
-  <PawnsKilled>TODO</PawnsKilled>
+  <PawnsKilled>{0} کشته شده</PawnsKilled>
   <!-- EN: Sent {0}, will return in {1} -->
-  <PawnsLent>TODO</PawnsLent>
+  <PawnsLent>{0} ارسال شده، در {1} باز می‌گردد</PawnsLent>
   <!-- EN: Dormant -->
-  <DormantCompInactive>TODO</DormantCompInactive>
+  <DormantCompInactive>خفته</DormantCompInactive>
   <!-- EN: Sealed -->
-  <DormantCompSealed>TODO</DormantCompSealed>
+  <DormantCompSealed>مهر و موم شده</DormantCompSealed>
   <!-- EN: Ready to drop mechanoids -->
-  <DormantCompBeacon>TODO</DormantCompBeacon>
+  <DormantCompBeacon>آماده رهاسازی مکانیزه</DormantCompBeacon>
   <!-- EN: Expired -->
-  <DormantCompExpired>TODO</DormantCompExpired>
+  <DormantCompExpired>منقضی شده</DormantCompExpired>
   <!-- EN: Initiates in -->
-  <InitiatesIn>TODO</InitiatesIn>
+  <InitiatesIn>آغاز در</InitiatesIn>
   <!-- EN: Activates in {0} -->
-  <SendSignalOnCountdownCompTime>TODO</SendSignalOnCountdownCompTime>
+  <SendSignalOnCountdownCompTime>فعال‌سازی در {0}</SendSignalOnCountdownCompTime>
   <!-- EN: Neural heat -->
-  <PsychicEntropy>TODO</PsychicEntropy>
+  <PsychicEntropy>حرارت عصبی</PsychicEntropy>
   <!-- EN: Heat -->
-  <PsychicEntropyShort>TODO</PsychicEntropyShort>
+  <PsychicEntropyShort>حرارت</PsychicEntropyShort>
   <!-- EN: {0} pain boost -->
-  <PsychicEntropyPainFocus>TODO</PsychicEntropyPainFocus>
+  <PsychicEntropyPainFocus>{0} افزایش درد</PsychicEntropyPainFocus>
   <!-- EN: radius {0} -->
-  <ConditionCauserRadius>TODO</ConditionCauserRadius>
+  <ConditionCauserRadius>شعاع {0}</ConditionCauserRadius>
   <!-- EN: low psyfocus -->
-  <LowPsyfocus>TODO</LowPsyfocus>
+  <LowPsyfocus>پسافوکوس کم</LowPsyfocus>
   <!-- EN: {0} left -->
-  <DurationLeft>TODO</DurationLeft>
+  <DurationLeft>{0} باقی‌مانده</DurationLeft>
   <!-- EN: Any of -->
-  <AnyOf>TODO</AnyOf>
+  <AnyOf>هر کدام از</AnyOf>
   <!-- EN: Requires {0} trait -->
-  <TraitRequired>TODO</TraitRequired>
+  <TraitRequired>نیاز به ویژگی {0} دارد</TraitRequired>
   <!-- EN: Goodwill -->
-  <Goodwill>TODO</Goodwill>
+  <Goodwill>حسن نیت</Goodwill>
   <!-- EN: Natural goodwill -->
-  <NaturalGoodwill>TODO</NaturalGoodwill>
+  <NaturalGoodwill>حسن نیت طبیعی</NaturalGoodwill>
   <!-- EN: Natural goodwill range -->
-  <NaturalGoodwillRange>TODO</NaturalGoodwillRange>
+  <NaturalGoodwillRange>محدوده حسن نیت طبیعی</NaturalGoodwillRange>
   <!-- EN: Natural goodwill is based on faction identities and beliefs. If current goodwill is far from natural goodwill, it will slowly shift towards natural goodwill over time.\n\nAll goodwill effects are multiplied by {0} when moving towards natural goodwill. -->
-  <NaturalGoodwillDescription>TODO</NaturalGoodwillDescription>
+  <NaturalGoodwillDescription>حسن نیت طبیعی بر اساس هویت و باورهای جناح است. اگر حسن نیت فعلی از حسن نیت طبیعی دور باشد، به مرور زمان به سمت حسن نیت طبیعی تغییر می‌کند.\n\nتمام اثرات حسن نیت هنگام حرکت به سمت حسن نیت طبیعی در {0} ضرب می‌شوند.</NaturalGoodwillDescription>
   <!-- EN: reducing resistance of {0_nameIndef} -->
-  <JobReport_ReduceResistance>TODO</JobReport_ReduceResistance>
+  <JobReport_ReduceResistance>کاهش مقاومت {0_nameIndef}</JobReport_ReduceResistance>
   <!-- EN: Too large -->
-  <TooLargeForBed>TODO</TooLargeForBed>
+  <TooLargeForBed>خیلی بزرگ</TooLargeForBed>
   <!-- EN: Warning -->
-  <Warning>TODO</Warning>
+  <Warning>هشدار</Warning>
   <!-- EN: Has subquest -->
-  <HasSubquest>TODO</HasSubquest>
+  <HasSubquest>دارای زیرماموریت</HasSubquest>
   <!-- EN: Subquest of -->
-  <SubquestOf>TODO</SubquestOf>
+  <SubquestOf>زیرماموریتِ</SubquestOf>
   <!-- EN: Raid -->
-  <Raid>TODO</Raid>
+  <Raid>حمله</Raid>
   <!-- EN: Disabled by -->
-  <ApparelRequirementDisabledLabel>TODO</ApparelRequirementDisabledLabel>
+  <ApparelRequirementDisabledLabel>غیرفعال شده توسط</ApparelRequirementDisabledLabel>
   <!-- EN: Nudism -->
-  <Nudism>TODO</Nudism>
+  <Nudism>برهنگی</Nudism>
   <!-- EN: Study progress -->
-  <StudyProgress>TODO</StudyProgress>
+  <StudyProgress>پیشرفت مطالعه</StudyProgress>
   <!-- EN: completed -->
-  <StudyCompleted>TODO</StudyCompleted>
+  <StudyCompleted>کامل شده</StudyCompleted>
   <!-- EN: Attack this to destroy it. -->
-  <AttackToDestroy>TODO</AttackToDestroy>
+  <AttackToDestroy>برای نابودی به این حمله کنید.</AttackToDestroy>
   <!-- EN: Remove this by attacking it. -->
-  <RemoveByAttackingTooltip>TODO</RemoveByAttackingTooltip>
+  <RemoveByAttackingTooltip>با حمله به آن، این را حذف کنید.</RemoveByAttackingTooltip>
   <!-- EN: Food -->
-  <ThoughtFoodEatenFood>TODO</ThoughtFoodEatenFood>
+  <ThoughtFoodEatenFood>غذا</ThoughtFoodEatenFood>
   <!-- EN: Ingredients -->
-  <ThoughtFoodEatenIngredients>TODO</ThoughtFoodEatenIngredients>
+  <ThoughtFoodEatenIngredients>مواد اولیه</ThoughtFoodEatenIngredients>
   <!-- EN: Shield pack -->
-  <ShieldInbuilt>TODO</ShieldInbuilt>
+  <ShieldInbuilt>بسته سپر</ShieldInbuilt>
   <!-- EN: Punctured - will explode soon. -->
-  <PuncturedWillExplode>TODO</PuncturedWillExplode>
+  <PuncturedWillExplode>سوراخ شده - به زودی منفجر می‌شود.</PuncturedWillExplode>
   <!-- EN: Click to open research window -->
-  <ClickToOpenResearchTab>TODO</ClickToOpenResearchTab>
+  <ClickToOpenResearchTab>برای باز کردن پنجره تحقیق کلیک کنید</ClickToOpenResearchTab>
   <!-- EN: Target belongs to another faction. -->
-  <TargetBelongsToNPCFaction>TODO</TargetBelongsToNPCFaction>
+  <TargetBelongsToNPCFaction>هدف متعلق به جناح دیگری است.</TargetBelongsToNPCFaction>
   <!-- EN: more -->
-  <MoreLower>TODO</MoreLower>
+  <MoreLower>بیشتر</MoreLower>
   <!-- EN: Requires -->
-  <RequiredTechprintTip>TODO</RequiredTechprintTip>
+  <RequiredTechprintTip>نیاز دارد</RequiredTechprintTip>
   <!-- EN: size -->
-  <Size>TODO</Size>
+  <Size>اندازه</Size>
   <!-- EN: Total planning area -->
-  <TotalPlanningArea>TODO</TotalPlanningArea>
+  <TotalPlanningArea>کل منطقه برنامه‌ریزی</TotalPlanningArea>
   <!-- EN: cost -->
-  <Cost>TODO</Cost>
+  <Cost>هزینه</Cost>
   <!-- EN: Stunned by EMP -->
-  <StunnedByEMP>TODO</StunnedByEMP>
+  <StunnedByEMP>گیج شده توسط EMP</StunnedByEMP>
   <!-- EN: Title -->
-  <BackstoryTitle>TODO</BackstoryTitle>
+  <BackstoryTitle>عنوان</BackstoryTitle>
   <!-- EN: person -->
-  <Person>TODO</Person>
+  <Person>شخص</Person>
   <!-- EN: activated. -->
-  <Activated>TODO</Activated> 
+  <Activated>فعال شد.</Activated> 
   <!-- EN: Contains -->
-  <Contains>TODO</Contains>
+  <Contains>حاوی</Contains>
   <!-- EN: Hostiles -->
-  <Hostiles>TODO</Hostiles>
+  <Hostiles>دشمنان</Hostiles>
   <!-- EN: Investigate -->
-  <Investigate>TODO</Investigate> 
+  <Investigate>بررسی</Investigate> 
   <!-- EN: Activate -->
-  <Activate>TODO</Activate> 
+  <Activate>فعال‌سازی</Activate> 
   <!-- EN: Deactivate -->
-  <Deactivate>TODO</Deactivate>
+  <Deactivate>غیرفعال‌سازی</Deactivate>
   <!-- EN: Activation -->
-  <Activation>TODO</Activation>
+  <Activation>فعال‌سازی</Activation>
   <!-- EN: complete -->
-  <Complete>TODO</Complete>
+  <Complete>کامل</Complete>
   <!-- EN: Must be imprisoned. -->
-  <RequiresImprisonment>TODO</RequiresImprisonment> 
+  <RequiresImprisonment>باید زندانی شود.</RequiresImprisonment> 
   <!-- EN: Prioritize hauling contents -->
-  <HaulFromSource>TODO</HaulFromSource>
+  <HaulFromSource>اولویت‌بندی حمل محتویات</HaulFromSource>
   <!-- EN: Use -->
-  <UseGizmo>TODO</UseGizmo>
+  <UseGizmo>استفاده</UseGizmo>
   <!-- EN: Order someone to use the {0}. -->
-  <UseGizmoTooltip>TODO</UseGizmoTooltip>
+  <UseGizmoTooltip>دستور به کسی برای استفاده از {0}.</UseGizmoTooltip>
   <!-- EN: Choose who should use this -->
-  <UseGizmoMouse>TODO</UseGizmoMouse>
+  <UseGizmoMouse>انتخاب کنید چه کسی باید از این استفاده کند</UseGizmoMouse>
   <!-- EN: Select target -->
-  <TargetGizmoMouse>TODO</TargetGizmoMouse>
+  <TargetGizmoMouse>انتخاب هدف</TargetGizmoMouse>
   <!-- EN: Cannot use this -->
-  <CannotUseGizmoMouse>TODO</CannotUseGizmoMouse>
+  <CannotUseGizmoMouse>نمی‌توان از این استفاده کرد</CannotUseGizmoMouse>
   <!-- EN: Buildings -->
-  <Buildings>TODO</Buildings>
+  <Buildings>ساختمان‌ها</Buildings>
   <!-- EN: not yet discovered -->
-  <NotYetDiscovered>TODO</NotYetDiscovered>
+  <NotYetDiscovered>هنوز کشف نشده</NotYetDiscovered>
   <!-- EN: Crawling to safety. -->
-  <ReportStringCrawlingToSafety>TODO</ReportStringCrawlingToSafety>
+  <ReportStringCrawlingToSafety>خزیدن به سمت ایمنی.</ReportStringCrawlingToSafety>
   <!-- EN: Crawling to bed. -->
-  <ReportStringCrawlingToBed>TODO</ReportStringCrawlingToBed>
+  <ReportStringCrawlingToBed>خزیدن به سمت تخت.</ReportStringCrawlingToBed>
   <!-- EN: flying -->
-  <Flying>TODO</Flying>
+  <Flying>پرواز</Flying>
   <!-- EN: Prevent cutting -->
-  <PreventCutting>TODO</PreventCutting>
+  <PreventCutting>جلوگیری از برش</PreventCutting>
   <!-- EN: When on, colonists won't cut this plant. -->
-  <PreventCuttingDesc>TODO</PreventCuttingDesc>
+  <PreventCuttingDesc>وقتی روشن است، مهاجران این گیاه را قطع نمی‌کنند.</PreventCuttingDesc>
 
   <!-- EN: Resulting from trait -->
-  <ComesFromTrait>TODO</ComesFromTrait>
+  <ComesFromTrait>ناشی از ویژگی</ComesFromTrait>
   <!-- EN: Resulting from condition -->
-  <ComesFromHediff>TODO</ComesFromHediff>
+  <ComesFromHediff>ناشی از وضعیت</ComesFromHediff>
   <!-- EN: Adds need -->
-  <AddsNeed>TODO</AddsNeed>
+  <AddsNeed>اضافه کردن نیاز</AddsNeed>
   <!-- EN: Adds needs -->
-  <AddsNeeds>TODO</AddsNeeds>
+  <AddsNeeds>اضافه کردن نیازها</AddsNeeds>
   <!-- EN: Disables need -->
   <DisablesNeed>نیاز را غیرفعال می‌کند</DisablesNeed>
   <!-- EN: Disables needs -->
@@ -650,1446 +650,1446 @@
   
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
-  <UserScanAbility>TODO</UserScanAbility>
+  <UserScanAbility>سرعت اسکن کاربر</UserScanAbility>
   <!-- EN: Random find interval -->
-  <ScanAverageInterval>TODO</ScanAverageInterval>
+  <ScanAverageInterval>فاصله زمانی یافتن تصادفی</ScanAverageInterval>
   <!-- EN: Progress to guaranteed find -->
-  <ScanningProgressToGuaranteedFind>TODO</ScanningProgressToGuaranteedFind>
+  <ScanningProgressToGuaranteedFind>پیشرفت به سمت یافتن تضمینی</ScanningProgressToGuaranteedFind>
   
   <!-- Meditation -->
   <!-- EN: meditating at -->
-  <MeditatingAt>TODO</MeditatingAt>
+  <MeditatingAt>مدیتیشن در</MeditatingAt>
 
   <!-- Fermentation barrel -->
   <!-- EN: Contains {0} / {1} wort. -->
-  <ContainsWort>TODO</ContainsWort>
+  <ContainsWort>حاوی {0} / {1} مخمر.</ContainsWort>
   <!-- EN: Contains {0} / {1} beer. -->
-  <ContainsBeer>TODO</ContainsBeer>
+  <ContainsBeer>حاوی {0} / {1} آبجو.</ContainsBeer>
   <!-- EN: Fermented -->
-  <Fermented>TODO</Fermented>
+  <Fermented>تخمیر شده</Fermented>
   <!-- EN: Progress: {0} ({1} left) -->
-  <FermentationProgress>TODO</FermentationProgress>
+  <FermentationProgress>پیشرفت: {0} ({1} باقی‌مانده)</FermentationProgress>
   <!-- EN: Non-ideal temperature. Fermentation speed: {0} -->
-  <FermentationBarrelOutOfIdealTemperature>TODO</FermentationBarrelOutOfIdealTemperature>
+  <FermentationBarrelOutOfIdealTemperature>دمای غیر ایده‌آل. سرعت تخمیر: {0}</FermentationBarrelOutOfIdealTemperature>
 
   <!-- TextMotes -->
   <!-- EN: Headshot -->
-  <Headshot>TODO</Headshot>
+  <Headshot>هدشات</Headshot>
   <!-- EN: Treatment success!\n{0} chance -->
-  <TextMote_TreatSuccess>TODO</TextMote_TreatSuccess>
+  <TextMote_TreatSuccess>موفقیت درمان!\nشانس {0}</TextMote_TreatSuccess>
   <!-- EN: Treatment failed\n{0} chance -->
-  <TextMote_TreatFailed>TODO</TextMote_TreatFailed>
+  <TextMote_TreatFailed>شکست درمان\nشانس {0}</TextMote_TreatFailed>
   <!-- EN: Harvest\nbotched -->
-  <TextMote_HarvestFailed>TODO</TextMote_HarvestFailed>
+  <TextMote_HarvestFailed>برداشت\nخراب شد</TextMote_HarvestFailed>
   <!-- EN: Yield\nwasted -->
-  <TextMote_YieldWasted>TODO</TextMote_YieldWasted>
+  <TextMote_YieldWasted>محصول\nهدر رفت</TextMote_YieldWasted>
   <!-- EN: Product\nwasted -->
-  <TextMote_ProductWasted>TODO</TextMote_ProductWasted>
+  <TextMote_ProductWasted>محصول\nهدر رفت</TextMote_ProductWasted>
   <!-- EN: Recruit failed!\n{0} chance -->
-  <TextMote_RecruitFail>TODO</TextMote_RecruitFail>
+  <TextMote_RecruitFail>شکست در جذب!\nشانس {0}</TextMote_RecruitFail>
   <!-- EN: Resistance\n{0} to {1} -->
-  <TextMote_ResistanceReduced>TODO</TextMote_ResistanceReduced>
+  <TextMote_ResistanceReduced>مقاومت\n{0} به {1}</TextMote_ResistanceReduced>
   <!-- EN: Tame failed\n{0} chance -->
-  <TextMote_TameFail>TODO</TextMote_TameFail>
+  <TextMote_TameFail>شکست در رام کردن\nشانس {0}</TextMote_TameFail>
   <!-- EN: Tamed! -->
-  <TextMote_TameSuccess>TODO</TextMote_TameSuccess>
+  <TextMote_TameSuccess>رام شد!</TextMote_TameSuccess>
   <!-- EN: Failed training: {0}\n{1} chance -->
-  <TextMote_TrainFail>TODO</TextMote_TrainFail>
+  <TextMote_TrainFail>شکست در آموزش: {0}\nشانس {1}</TextMote_TrainFail>
   <!-- EN: Trained: {0}\n{1} chance -->
-  <TextMote_TrainSuccess>TODO</TextMote_TrainSuccess>
+  <TextMote_TrainSuccess>آموزش دیده: {0}\nشانس {1}</TextMote_TrainSuccess>
   <!-- EN: Repair\nbotched -->
-  <TextMote_FixBrokenDownBuildingFail>TODO</TextMote_FixBrokenDownBuildingFail>
+  <TextMote_FixBrokenDownBuildingFail>تعمیر\nخراب شد</TextMote_FixBrokenDownBuildingFail>
   <!-- EN: Construction\nbotched -->
-  <TextMote_ConstructionFail>TODO</TextMote_ConstructionFail>
+  <TextMote_ConstructionFail>ساخت و ساز\nخراب شد</TextMote_ConstructionFail>
   <!-- EN: Dodge -->
-  <TextMote_Dodge>TODO</TextMote_Dodge>
+  <TextMote_Dodge>جاخالی</TextMote_Dodge>
   <!-- EN: Immune -->
-  <TextMote_Immune>TODO</TextMote_Immune>
+  <TextMote_Immune>ایمن</TextMote_Immune>
   <!-- EN: {0} tended -->
-  <TextMote_Tended>TODO</TextMote_Tended>
+  <TextMote_Tended>{0} مراقبت شد</TextMote_Tended>
   <!-- EN: level {0} -->
-  <TextMote_SkillUp>TODO</TextMote_SkillUp>
+  <TextMote_SkillUp>سطح {0}</TextMote_SkillUp>
   <!-- EN: low mood -->
-  <lowMood>TODO</lowMood>
+  <lowMood>خلق پایین</lowMood>
   <!-- EN: low opinion -->
-  <lowOpinion>TODO</lowOpinion>
+  <lowOpinion>نظر پایین</lowOpinion>
 
   <!-- Areas -->
   <!-- EN: Home -->
-  <Home>TODO</Home>
+  <Home>خانه</Home>
   <!-- EN: Build roof -->
-  <BuildRoof>TODO</BuildRoof>
+  <BuildRoof>ساخت سقف</BuildRoof>
   <!-- EN: No roof -->
-  <NoRoof>TODO</NoRoof>
+  <NoRoof>بدون سقف</NoRoof>
   <!-- EN: Snow clear -->
-  <SnowClear>TODO</SnowClear>
+  <SnowClear>پاکسازی برف</SnowClear>
   <!-- EN: Area {0} -->
-  <AreaDefaultLabel>TODO</AreaDefaultLabel>
+  <AreaDefaultLabel>منطقه {0}</AreaDefaultLabel>
   <!-- EN: Unrestricted -->
-  <NoAreaAllowed>TODO</NoAreaAllowed>
+  <NoAreaAllowed>نامحدود</NoAreaAllowed>
   <!-- EN: New area -->
-  <NewArea>TODO</NewArea>
+  <NewArea>منطقه جدید</NewArea>
   <!-- EN: Invert -->
-  <InvertArea>TODO</InvertArea>
+  <InvertArea>معکوس کردن</InvertArea>
   <!-- EN: Expand -->
-  <ExpandArea>TODO</ExpandArea>
+  <ExpandArea>گسترش</ExpandArea>
   <!-- EN: Shrink -->
-  <ShrinkArea>TODO</ShrinkArea>
+  <ShrinkArea>کوچک کردن</ShrinkArea>
   <!-- EN: Maximum {0} areas allowed. -->
-  <MaxAreasReached>TODO</MaxAreasReached>
+  <MaxAreasReached>حداکثر {0} منطقه مجاز است.</MaxAreasReached>
 
   <!-- Animal pens -->
   <!-- EN: Unenclosed -->
-  <PenUnenclosedLabel>TODO</PenUnenclosedLabel>
+  <PenUnenclosedLabel>محصور نشده</PenUnenclosedLabel>
   <!-- EN: open door -->
-  <PenOpenDoorLabel>TODO</PenOpenDoorLabel>
+  <PenOpenDoorLabel>در باز</PenOpenDoorLabel>
   <!-- EN: Rename pen -->
-  <RenameAnimalPen>TODO</RenameAnimalPen>
+  <RenameAnimalPen>تغییر نام آغل</RenameAnimalPen>
   <!-- EN: Pen marker {0} -->
-  <AnimalPenMarkerDefaultLabel>TODO</AnimalPenMarkerDefaultLabel>
+  <AnimalPenMarkerDefaultLabel>نشانگر آغل {0}</AnimalPenMarkerDefaultLabel>
   <!-- EN: In pen -->
-  <InPen>TODO</InPen>
+  <InPen>در آغل</InPen>
   <!-- EN: not in a pen -->
-  <Unpenned>TODO</Unpenned>
+  <Unpenned>در آغل نیست</Unpenned>
   <!-- EN: Animal pens can be created by building a pen marker inside an enclosed area. Your handlers will bring animals to an appropriate pen. Pens can be enclosed with fences, barricades, walls, and doors. -->
-  <UnpennedTooltip>TODO</UnpennedTooltip>
+  <UnpennedTooltip>آغل حیوانات را می‌توان با ساختن یک نشانگر آغل در داخل یک منطقه محصور ایجاد کرد. مربیان شما حیوانات را به آغل مناسب می‌آورند. آغل‌ها را می‌توان با نرده، سنگر، دیوار و در محصور کرد.</UnpennedTooltip>
   <!-- EN: Roped by -->
-  <RopedByPawn>TODO</RopedByPawn>
+  <RopedByPawn>طناب‌پیچ شده توسط</RopedByPawn>
   <!-- EN: Roped to -->
-  <RopedToThing>TODO</RopedToThing>
+  <RopedToThing>بسته شده به</RopedToThing>
   <!-- EN: Roped to spot. -->
-  <RopedToSpot>TODO</RopedToSpot>
+  <RopedToSpot>بسته شده به نقطه.</RopedToSpot>
   <!-- EN: Pen size -->
-  <PenSizeLabel>TODO</PenSizeLabel>
+  <PenSizeLabel>اندازه آغل</PenSizeLabel>
   <!-- EN: Very small pen -->
-  <PenSizeDesc_VerySmall>TODO</PenSizeDesc_VerySmall>
+  <PenSizeDesc_VerySmall>آغل بسیار کوچک</PenSizeDesc_VerySmall>
   <!-- EN: Small pen -->
-  <PenSizeDesc_Small>TODO</PenSizeDesc_Small>
+  <PenSizeDesc_Small>آغل کوچک</PenSizeDesc_Small>
   <!-- EN: Medium-sized pen -->
-  <PenSizeDesc_Medium>TODO</PenSizeDesc_Medium>
+  <PenSizeDesc_Medium>آغل متوسط</PenSizeDesc_Medium>
   <!-- EN: Large pen -->
-  <PenSizeDesc_Large>TODO</PenSizeDesc_Large>
+  <PenSizeDesc_Large>آغل بزرگ</PenSizeDesc_Large>
   <!-- EN: Not enclosed - build fences -->
-  <PenSizeDesc_Unenclosed>TODO</PenSizeDesc_Unenclosed>
+  <PenSizeDesc_Unenclosed>محصور نشده - نرده بسازید</PenSizeDesc_Unenclosed>
   <!-- EN: {ANIMALDEF_label} capacity -->
-  <PenCapacityDesc>TODO</PenCapacityDesc>
+  <PenCapacityDesc>ظرفیت {ANIMALDEF_label}</PenCapacityDesc>
   <!-- EN: Example animals -->
-  <PenExampleAnimals>TODO</PenExampleAnimals>
+  <PenExampleAnimals>حیوانات نمونه</PenExampleAnimals>
   <!-- EN: No exterior access - Animals cannot be moved in or out. -->
-  <NoExteriorAccess>TODO</NoExteriorAccess>
+  <NoExteriorAccess>دسترسی خارجی وجود ندارد - حیوانات نمی‌توانند وارد یا خارج شوند.</NoExteriorAccess>
   
   <!-- EN: Must be connected to walls on both sides to function. -->
-  <DoorMustBeEnclosedByWalls>TODO</DoorMustBeEnclosedByWalls>
+  <DoorMustBeEnclosedByWalls>برای عملکرد باید از هر دو طرف به دیوارها متصل باشد.</DoorMustBeEnclosedByWalls>
 
   <!-- Cell Inspector -->
   <!-- EN: Beauty -->
-  <Beauty_Label>TODO</Beauty_Label>
+  <Beauty_Label>زیبایی</Beauty_Label>
   <!-- EN: Zone -->
-  <Zone_Label>TODO</Zone_Label>
+  <Zone_Label>منطقه</Zone_Label>
   <!-- EN: Roof -->
-  <Roof_Label>TODO</Roof_Label>
+  <Roof_Label>سقف</Roof_Label>
   <!-- EN: Terrain -->
-  <Terrain_Label>TODO</Terrain_Label>
+  <Terrain_Label>زمین</Terrain_Label>
   <!-- EN: Snow -->
-  <Snow_Label>TODO</Snow_Label>
+  <Snow_Label>برف</Snow_Label>
   <!-- EN: Walk speed -->
-  <WalkSpeed_Label>TODO</WalkSpeed_Label>
+  <WalkSpeed_Label>سرعت راه رفتن</WalkSpeed_Label>
   <!-- EN: Fertility -->
-  <Fertility_Label>TODO</Fertility_Label>
+  <Fertility_Label>باروری</Fertility_Label>
   <!-- EN: Temperature -->
-  <Temperature_Label>TODO</Temperature_Label>
+  <Temperature_Label>دما</Temperature_Label>
   <!-- EN: Light level -->
-  <LightLevel_Label>TODO</LightLevel_Label>
+  <LightLevel_Label>سطح نور</LightLevel_Label>
   <!-- EN: Biome -->
-  <Biome_Label>TODO</Biome_Label>
+  <Biome_Label>زیست‌بوم</Biome_Label>
   <!-- EN: Hilliness -->
-  <Hilliness_Label>TODO</Hilliness_Label>
+  <Hilliness_Label>ناهمواری</Hilliness_Label>
   <!-- EN: Road -->
-  <Road_Label>TODO</Road_Label>
+  <Road_Label>جاده</Road_Label>
   <!-- EN: River -->
-  <River_Label>TODO</River_Label> 
+  <River_Label>رودخانه</River_Label> 
   <!-- EN: Movement difficulty -->
-  <MovementDifficulty_Label>TODO</MovementDifficulty_Label>
+  <MovementDifficulty_Label>دشواری حرکت</MovementDifficulty_Label>
   <!-- EN: Pollution -->
-  <Pollution_Label>TODO</Pollution_Label>
+  <Pollution_Label>آلودگی</Pollution_Label>
   <!-- EN: Filth -->
-  <Filth_Label>TODO</Filth_Label>
+  <Filth_Label>کثیفی</Filth_Label>
   
   <!-- EN: Features -->
-  <Features_Label>TODO</Features_Label>
+  <Features_Label>ویژگی‌ها</Features_Label>
   <!-- EN: Faction -->
-  <Faction_Label>TODO</Faction_Label>
+  <Faction_Label>جناح</Faction_Label>
   <!-- EN: Relationship -->
-  <Relationship_Label>TODO</Relationship_Label>
+  <Relationship_Label>رابطه</Relationship_Label>
   <!-- EN: Colonists -->
-  <CaravanColonists_Label>TODO</CaravanColonists_Label>
+  <CaravanColonists_Label>مهاجران</CaravanColonists_Label>
   <!-- EN: Status -->
-  <CaravanStatus_Label>TODO</CaravanStatus_Label>
+  <CaravanStatus_Label>وضعیت</CaravanStatus_Label>
   <!-- EN: Time to destination -->
-  <CaravanTTD_Label>TODO</CaravanTTD_Label>
+  <CaravanTTD_Label>زمان تا مقصد</CaravanTTD_Label>
   
 
   <!-- Control -->
   <!-- EN: Cannot order characters you do not control. -->
-  <CannotOrderNonControlled>TODO</CannotOrderNonControlled>
+  <CannotOrderNonControlled>نمی‌توانید به شخصیت‌هایی که کنترل نمی‌کنید دستور دهید.</CannotOrderNonControlled>
   <!-- EN: {1_labelShort} is incapable of violence. -->
-  <IsIncapableOfViolence>TODO</IsIncapableOfViolence>
+  <IsIncapableOfViolence>{1_labelShort} قادر به خشونت نیست.</IsIncapableOfViolence>
   <!-- EN: incapable of violence -->
-  <IsIncapableOfViolenceShort>TODO</IsIncapableOfViolenceShort>
+  <IsIncapableOfViolenceShort>ناتوان در خشونت</IsIncapableOfViolenceShort>
   <!-- EN: {1_labelShort} is not drafted. -->
-  <IsNotDrafted>TODO</IsNotDrafted>
+  <IsNotDrafted>{1_labelShort} احضار نشده است.</IsNotDrafted>
   <!-- EN: {PAWN_nameDef} cannot use ranged weapons due to {PAWN_possessive} {APPAREL_label}. -->
-  <ApparelPreventsShooting>TODO</ApparelPreventsShooting>
+  <ApparelPreventsShooting>{PAWN_nameDef} نمی‌تواند از سلاح‌های دوربرد به دلیل {APPAREL_label} {PAWN_possessive} استفاده کند.</ApparelPreventsShooting>
   <!-- EN: Cannot use in {0} -->
-  <CannotUseReason_PocketMap>TODO</CannotUseReason_PocketMap>
+  <CannotUseReason_PocketMap>نمی‌توان در {0} استفاده کرد</CannotUseReason_PocketMap>
   <!-- EN: Range reduced -->
-  <WeatherMaxRangeCap>TODO</WeatherMaxRangeCap>
+  <WeatherMaxRangeCap>برد کاهش یافت</WeatherMaxRangeCap>
 
   <!-- Snow -->
   <!-- EN: Snow -->
-  <Snow>TODO</Snow>
+  <Snow>برف</Snow>
   <!-- EN: No snow -->
-  <SnowNone>TODO</SnowNone>
+  <SnowNone>بدون برف</SnowNone>
   <!-- EN: dusting -->
-  <SnowDusting>TODO</SnowDusting>
+  <SnowDusting>گرد و غبار</SnowDusting>
   <!-- EN: thin -->
-  <SnowThin>TODO</SnowThin>
+  <SnowThin>نازک</SnowThin>
   <!-- EN: medium -->
-  <SnowMedium>TODO</SnowMedium>
+  <SnowMedium>متوسط</SnowMedium>
   <!-- EN: thick -->
-  <SnowThick>TODO</SnowThick>
+  <SnowThick>ضخیم</SnowThick>
 
   <!-- Turrets -->
   <!-- EN: Installed -->
-  <GunInstalled>TODO</GunInstalled>
+  <GunInstalled>نصب شده</GunInstalled>
   <!-- EN: Minimum range -->
-  <MinimumRange>TODO</MinimumRange>
+  <MinimumRange>حداقل برد</MinimumRange>
   <!-- EN: Can fire in -->
-  <CanFireIn>TODO</CanFireIn>
+  <CanFireIn>می‌تواند شلیک کند در</CanFireIn>
   <!-- EN: Cannot fire -->
-  <CannotFire>TODO</CannotFire>
+  <CannotFire>نمی‌تواند شلیک کند</CannotFire>
   <!-- EN: roofed -->
-  <Roofed>TODO</Roofed>
+  <Roofed>سقف‌دار</Roofed>
   <!-- EN: Shell loaded: {1_label} -->
-  <ShellLoaded>TODO</ShellLoaded>
+  <ShellLoaded>گلوله بارگذاری شده: {1_label}</ShellLoaded>
   <!-- EN: Not loaded -->
-  <ShellNotLoaded>TODO</ShellNotLoaded>
+  <ShellNotLoaded>بارگذاری نشده</ShellNotLoaded>
   <!-- EN: Already active -->
-  <AlreadyActive>TODO</AlreadyActive>
+  <AlreadyActive>قبلاً فعال شده</AlreadyActive>
   <!-- EN: Order activation -->
-  <OrderActivation>TODO</OrderActivation>
+  <OrderActivation>دستور فعال‌سازی</OrderActivation>
   <!-- EN: Order a colonist to activate {THING_definite}. -->
-  <OrderActivationDesc>TODO</OrderActivationDesc>
+  <OrderActivationDesc>دستور به یک مهاجر برای فعال‌سازی {THING_definite}.</OrderActivationDesc>
   <!-- EN: Send a colonist to activate this. -->
-  <MustBeActivatedByColonist>TODO</MustBeActivatedByColonist>
+  <MustBeActivatedByColonist>ارسال یک مهاجر برای فعال‌سازی این.</MustBeActivatedByColonist>
   <!-- EN: No nearby fire -->
-  <NoNearbyFire>TODO</NoNearbyFire>
+  <NoNearbyFire>آتش نزدیکی نیست</NoNearbyFire>
   <!-- EN: No nearby fire. No fuel was used. -->
-  <NoNearbyFireNoFuelUsed>TODO</NoNearbyFireNoFuelUsed>
+  <NoNearbyFireNoFuelUsed>آتش نزدیکی نیست. سوختی مصرف نشد.</NoNearbyFireNoFuelUsed>
   <!-- EN: Choose who should activate this. -->
-  <ChooseWhoShouldActivate>TODO</ChooseWhoShouldActivate>
+  <ChooseWhoShouldActivate>انتخاب کنید چه کسی باید این را فعال کند.</ChooseWhoShouldActivate>
   <!-- EN: No fuel -->
-  <NoFuel>TODO</NoFuel>
+  <NoFuel>بدون سوخت</NoFuel>
 
   <!-- Job reports -->
   <!-- EN: hauling {THING_label} to {DESTINATION}. -->
-  <ReportHaulingTo>TODO</ReportHaulingTo>
+  <ReportHaulingTo>حمل {THING_label} به {DESTINATION}.</ReportHaulingTo>
   <!-- EN: burying {THING_label} in {DESTINATION}. -->
-  <ReportHaulingToGrave>TODO</ReportHaulingToGrave>
+  <ReportHaulingToGrave>دفن {THING_label} در {DESTINATION}.</ReportHaulingToGrave>
   <!-- EN: hauling {1_label}. -->
-  <ReportHauling>TODO</ReportHauling>
+  <ReportHauling>حمل {1_label}.</ReportHauling>
   <!-- EN: hauling. -->
-  <ReportHaulingUnknown>TODO</ReportHaulingUnknown>
+  <ReportHaulingUnknown>حمل کردن.</ReportHaulingUnknown>
   <!-- EN: sleeping. -->
-  <ReportSleeping>TODO</ReportSleeping>
+  <ReportSleeping>خوابیدن.</ReportSleeping>
   <!-- EN: resting. -->
-  <ReportResting>TODO</ReportResting>
+  <ReportResting>استراحت کردن.</ReportResting>
   <!-- EN: laying down. -->
-  <ReportLayingDown>TODO</ReportLayingDown>
+  <ReportLayingDown>دراز کشیدن.</ReportLayingDown>
   <!-- EN: watching the sunrise. -->
-  <WatchingSunrise>TODO</WatchingSunrise>
+  <WatchingSunrise>تماشای طلوع خورشید.</WatchingSunrise>
   <!-- EN: cloudwatching. -->
-  <CloudWatching>TODO</CloudWatching>
+  <CloudWatching>تماشای ابرها.</CloudWatching>
   <!-- EN: watching the sunset. -->
-  <WatchingSunset>TODO</WatchingSunset>
+  <WatchingSunset>تماشای غروب خورشید.</WatchingSunset>
   <!-- EN: stargazing. -->
-  <Stargazing>TODO</Stargazing>
+  <Stargazing>تماشای ستارگان.</Stargazing>
   <!-- EN: watching the eclipse. -->
-  <WatchingEclipse>TODO</WatchingEclipse>
+  <WatchingEclipse>تماشای خورشید گرفتگی.</WatchingEclipse>
   <!-- EN: watching the aurora. -->
-  <WatchingAurora>TODO</WatchingAurora>
+  <WatchingAurora>تماشای شفق قطبی.</WatchingAurora>
   <!-- EN: using {0} on {1}. -->
-  <UsingVerb>TODO</UsingVerb>
+  <UsingVerb>استفاده از {0} روی {1}.</UsingVerb>
   <!-- EN: using {0}. -->
-  <UsingVerbNoTarget>TODO</UsingVerbNoTarget>
+  <UsingVerbNoTarget>استفاده از {0}.</UsingVerbNoTarget>
   <!-- EN: area -->
-  <AreaLower>TODO</AreaLower>
+  <AreaLower>منطقه</AreaLower>
   <!-- EN: cowering. -->
-  <ReportCowering>TODO</ReportCowering>
+  <ReportCowering>کز کردن.</ReportCowering>
   <!-- EN: standing. -->
-  <ReportStanding>TODO</ReportStanding>
+  <ReportStanding>ایستادن.</ReportStanding>
   <!-- EN: extinguishing fire. -->
-  <ReportExtinguishingFire>TODO</ReportExtinguishingFire>
+  <ReportExtinguishingFire>خاموش کردن آتش.</ReportExtinguishingFire>
   <!-- EN: extinguishing fire on {TARGET_label}. -->
-  <ReportExtinguishingFireOn>TODO</ReportExtinguishingFireOn>
+  <ReportExtinguishingFireOn>خاموش کردن آتش روی {TARGET_label}.</ReportExtinguishingFireOn>
   <!-- EN: digging up corpse. -->
-  <ReportDiggingUpCorpse>TODO</ReportDiggingUpCorpse>
+  <ReportDiggingUpCorpse>نبش قبر جسد.</ReportDiggingUpCorpse>
   <!-- EN: being carried by {0_labelShort}. -->
-  <CarriedBy>TODO</CarriedBy> 
+  <CarriedBy>حمل شدن توسط {0_labelShort}.</CarriedBy> 
   <!-- EN: inside {0_labelShort}. -->
-  <InContainer>TODO</InContainer> 
+  <InContainer>داخل {0_labelShort}.</InContainer> 
   <!-- EN: downed, cannot crawl. -->
-  <DownedCannotCrawl>TODO</DownedCannotCrawl> 
+  <DownedCannotCrawl>ناتوان شده، نمی‌تواند بخزد.</DownedCannotCrawl> 
   <!-- EN: downed, unconscious. -->
-  <DownedUnconscious>TODO</DownedUnconscious> 
+  <DownedUnconscious>ناتوان شده، بیهوش.</DownedUnconscious> 
 
   <!-- Lord job reports -->
   <!-- EN: Attending marriage ceremony -->
-  <LordReportAttendingMarriageCeremony>TODO</LordReportAttendingMarriageCeremony>
+  <LordReportAttendingMarriageCeremony>شرکت در مراسم ازدواج</LordReportAttendingMarriageCeremony>
   <!-- EN: Attending party -->
-  <LordReportAttendingParty>TODO</LordReportAttendingParty>
+  <LordReportAttendingParty>شرکت در مهمانی</LordReportAttendingParty>
   <!-- EN: Attending concert -->
-  <LordReportAttendingConcert>TODO</LordReportAttendingConcert>
+  <LordReportAttendingConcert>شرکت در کنسرت</LordReportAttendingConcert>
   <!-- EN: Holding a concert -->
-  <LordReportHoldingConcert>TODO</LordReportHoldingConcert>
+  <LordReportHoldingConcert>برگزاری کنسرت</LordReportHoldingConcert>
   <!-- EN: Giving a speech -->
-  <LordReportGivingSpeech>TODO</LordReportGivingSpeech>
+  <LordReportGivingSpeech>سخنرانی کردن</LordReportGivingSpeech>
   <!-- EN: Listening to {ORGANIZER_labelShort}'s speech -->
-  <LordReportListeningSpeech>TODO</LordReportListeningSpeech>
+  <LordReportListeningSpeech>گوش دادن به سخنرانی {ORGANIZER_labelShort}</LordReportListeningSpeech>
   <!-- EN: Forming caravan -->
-  <LordReportFormingCaravan>TODO</LordReportFormingCaravan>
+  <LordReportFormingCaravan>تشکیل کاروان</LordReportFormingCaravan>
 
   <!-- Shooting report -->
   <!-- EN: Weapon miss radius -->
-  <WeaponMissRadius>TODO</WeaponMissRadius>
+  <WeaponMissRadius>شعاع خطای سلاح</WeaponMissRadius>
   <!-- EN: Shooter -->
-  <ShootReportShooterAbility>TODO</ShootReportShooterAbility>
+  <ShootReportShooterAbility>تیرانداز</ShootReportShooterAbility>
   <!-- EN: Weapon -->
-  <ShootReportWeapon>TODO</ShootReportWeapon>
+  <ShootReportWeapon>سلاح</ShootReportWeapon>
   <!-- EN: Darkness -->
-  <Darkness>TODO</Darkness>
+  <Darkness>تاریکی</Darkness>
   <!-- EN: Target lying down -->
-  <TargetProne>TODO</TargetProne>
+  <TargetProne>هدف دراز کشیده</TargetProne>
   <!-- EN: Target size -->
-  <TargetSize>TODO</TargetSize>
+  <TargetSize>اندازه هدف</TargetSize>
   <!-- EN: Weather -->
-  <Weather>TODO</Weather>
+  <Weather>آب و هوا</Weather>
   <!-- EN: Cover -->
-  <ShootingCover>TODO</ShootingCover>
+  <ShootingCover>پوشش</ShootingCover>
   <!-- EN: {COVER_label} stops {1} -->
-  <CoverThingBlocksPercentOfShots>TODO</CoverThingBlocksPercentOfShots>
+  <CoverThingBlocksPercentOfShots>{COVER_label} جلوی {1} را می‌گیرد</CoverThingBlocksPercentOfShots>
   <!-- EN: no cover -->
-  <NoCoverLower>TODO</NoCoverLower>
+  <NoCoverLower>بدون پوشش</NoCoverLower>
   <!-- EN: Execution -->
-  <Execution>TODO</Execution>
+  <Execution>اعدام</Execution>
 
   <!-- Generated recipes -->
   <!-- EN: make {0} -->
-  <RecipeMake>TODO</RecipeMake>
+  <RecipeMake>ساخت {0}</RecipeMake>
   <!-- EN: Make {0}. -->
-  <RecipeMakeDescription>TODO</RecipeMakeDescription>
+  <RecipeMakeDescription>ساخت {0}.</RecipeMakeDescription>
   <!-- EN: Making {0}. -->
-  <RecipeMakeJobString>TODO</RecipeMakeJobString>
+  <RecipeMakeJobString>در حال ساخت {0}.</RecipeMakeJobString>
   <!-- EN: administer {0} -->
-  <RecipeAdminister>TODO</RecipeAdminister>
+  <RecipeAdminister>تجویز {0}</RecipeAdminister>
   <!-- EN: Administering {0}. -->
-  <RecipeAdministerJobString>TODO</RecipeAdministerJobString>
+  <RecipeAdministerJobString>در حال تجویز {0}.</RecipeAdministerJobString>
   <!-- EN: teetotaler will be unhappy -->
-  <TeetotalerUnhappy>TODO</TeetotalerUnhappy>
+  <TeetotalerUnhappy>پرهیزکار ناراحت خواهد شد</TeetotalerUnhappy>
   <!-- EN: body purist will be unhappy -->
-  <ProsthophobeUnhappy>TODO</ProsthophobeUnhappy>
+  <ProsthophobeUnhappy>خالص‌گرا ناراحت خواهد شد</ProsthophobeUnhappy>
 
   <!-- Thoughts -->
   <!-- EN: Expires in: {0} -->
-  <ThoughtExpiresIn>TODO</ThoughtExpiresIn>
+  <ThoughtExpiresIn>منقضی می‌شود در: {0}</ThoughtExpiresIn>
   <!-- EN: thought disabled by -->
-  <ThoughtNullifiedBy>TODO</ThoughtNullifiedBy>
+  <ThoughtNullifiedBy>فکر غیرفعال شده توسط</ThoughtNullifiedBy>
   <!-- EN: Starts expiring in: {0} -->
-  <ThoughtStartsExpiringIn>TODO</ThoughtStartsExpiringIn>
+  <ThoughtStartsExpiringIn>شروع انقضا در: {0}</ThoughtStartsExpiringIn>
   <!-- EN: Finishes expiring in: {0} -->
-  <ThoughtFinishesExpiringIn>TODO</ThoughtFinishesExpiringIn>
+  <ThoughtFinishesExpiringIn>پایان انقضا در: {0}</ThoughtFinishesExpiringIn>
   <!-- EN: Extreme break threshold -->
-  <MentalBreakThresholdExtreme>TODO</MentalBreakThresholdExtreme>
+  <MentalBreakThresholdExtreme>آستانه فروپاشی شدید</MentalBreakThresholdExtreme>
   <!-- EN: Major break threshold -->
-  <MentalBreakThresholdMajor>TODO</MentalBreakThresholdMajor>
+  <MentalBreakThresholdMajor>آستانه فروپاشی عمده</MentalBreakThresholdMajor>
   <!-- EN: Minor break threshold -->
-  <MentalBreakThresholdMinor>TODO</MentalBreakThresholdMinor>
+  <MentalBreakThresholdMinor>آستانه فروپاشی جزئی</MentalBreakThresholdMinor>
 
   <!-- Pawn info readout -->
   <!-- EN: {PAWN_gender} {1} -->
-  <PawnMainDescGendered>TODO</PawnMainDescGendered>
+  <PawnMainDescGendered>{1} {PAWN_gender}</PawnMainDescGendered>
   <!-- EN: {0} of {1} -->
-  <PawnMainDescFactionedWrap>TODO</PawnMainDescFactionedWrap>
+  <PawnMainDescFactionedWrap>{0} از {1}</PawnMainDescFactionedWrap>
   <!-- EN: {0} in {1} -->
-  <PawnTitleDescWrap>TODO</PawnTitleDescWrap>
+  <PawnTitleDescWrap>{0} در {1}</PawnTitleDescWrap>
   <!-- EN: {0} under {1} -->
-  <PawnMainDescUnderFactionedWrap>TODO</PawnMainDescUnderFactionedWrap>
+  <PawnMainDescUnderFactionedWrap>{0} تحت {1}</PawnMainDescUnderFactionedWrap>
   <!-- EN: {2_lifeStageAdjective} {0} -->
-  <PawnMainDescLifestageWrap>TODO</PawnMainDescLifestageWrap>
+  <PawnMainDescLifestageWrap>{0} {2_lifeStageAdjective}</PawnMainDescLifestageWrap>
   <!-- EN: Faction -->
-  <Faction>TODO</Faction>
+  <Faction>جناح</Faction>
   <!-- EN: The faction {PAWN_labelShort} currently belongs to. -->
-  <FactionDesc>TODO</FactionDesc>
+  <FactionDesc>جناحی که {PAWN_labelShort} در حال حاضر به آن تعلق دارد.</FactionDesc>
   <!-- EN: The faction {PAWN_labelShort} originally belongs to. -->
-  <ExtraFactionDesc>TODO</ExtraFactionDesc>
+  <ExtraFactionDesc>جناحی که {PAWN_labelShort} در اصل به آن تعلق دارد.</ExtraFactionDesc>
   <!-- EN: Equipped -->
-  <Equipped>TODO</Equipped>
+  <Equipped>مجهز شده</Equipped>
   <!-- EN: nothing -->
-  <EquippedNothing>TODO</EquippedNothing>
+  <EquippedNothing>هیچ</EquippedNothing>
   <!-- EN: Dead -->
-  <Dead>TODO</Dead>
+  <Dead>مرده</Dead>
   <!-- EN: Unconscious -->
-  <Unconscious>TODO</Unconscious>
+  <Unconscious>بیهوش</Unconscious>
   <!-- EN: In shock due to pain -->
-  <PainShock>TODO</PainShock>
+  <PainShock>در شوک ناشی از درد</PainShock>
   <!-- EN: Pain shock -->
-  <PainShockShort>TODO</PainShockShort>
+  <PainShockShort>شوک درد</PainShockShort>
   <!-- EN: Incapacitated -->
-  <Incapacitated>TODO</Incapacitated>
+  <Incapacitated>ناتوان</Incapacitated>
   <!-- EN: In restraints (slowed) -->
-  <InRestraints>TODO</InRestraints>
+  <InRestraints>در بند (کند شده)</InRestraints>
   <!-- EN: Carrying -->
-  <Carrying>TODO</Carrying>
+  <Carrying>حمل کردن</Carrying>
   <!-- EN: Affected by: -->
-  <AffectedBy>TODO</AffectedBy>
+  <AffectedBy>تحت تأثیر:</AffectedBy>
   <!-- EN: Queued -->
-  <Queued>TODO</Queued>
+  <Queued>در صف</Queued>
   <!-- EN: State -->
-  <State>TODO</State>
+  <State>وضعیت</State>
   <!-- EN: stun -->
-  <StunLower>TODO</StunLower>
+  <StunLower>گیج کردن</StunLower>
   <!-- EN: Slowed by damage -->
-  <SlowedByDamage>TODO</SlowedByDamage>
+  <SlowedByDamage>کند شده توسط آسیب</SlowedByDamage>
 
   <!-- Inspector general stuff -->
   <!-- EN: Select next thing in same square.\n\n(*SectionTitle)Shortcut key:(/SectionTitle) {0}\n\nYou can also do this by slowly clicking the same square again. -->
-  <SelectNextInSquareTip>TODO</SelectNextInSquareTip>
+  <SelectNextInSquareTip>انتخاب مورد بعدی در همان مربع.\n\n(*SectionTitle)کلید میانبر:(/SectionTitle) {0}\n\nهمچنین می‌توانید با کلیک آرام دوباره روی همان مربع این کار را انجام دهید.</SelectNextInSquareTip>
   <!-- EN: View information. -->
-  <DefInfoTip>TODO</DefInfoTip>
+  <DefInfoTip>مشاهده اطلاعات.</DefInfoTip>
   <!-- EN: Select next thing in same square.\n\nYou can also do this by slowly clicking the same square again. -->
-  <SelectNextInSquareTipController>TODO</SelectNextInSquareTipController>
+  <SelectNextInSquareTipController>انتخاب مورد بعدی در همان مربع.\n\nهمچنین می‌توانید با کلیک آرام دوباره روی همان مربع این کار را انجام دهید.</SelectNextInSquareTipController>
 
   <!-- Hostility response -->
   <!-- EN: Change how this person will react to nearby enemies when not drafted. -->
-  <HostilityReponseTip>TODO</HostilityReponseTip>
+  <HostilityReponseTip>تغییر نحوه واکنش این شخص به دشمنان نزدیک در زمانی که احضار نشده است.</HostilityReponseTip>
   <!-- EN: Current mode -->
-  <HostilityResponseCurrentMode>TODO</HostilityResponseCurrentMode>
+  <HostilityResponseCurrentMode>حالت فعلی</HostilityResponseCurrentMode>
 
   <!-- like 'Blood of John' -->
   <!-- EN: of -->
-  <OfLower>TODO</OfLower>
+  <OfLower>از</OfLower>
 
   <!-- Power readout -->
   <!-- EN: Not connected to power. -->
-  <PowerNotConnected>TODO</PowerNotConnected>
+  <PowerNotConnected>به برق متصل نیست.</PowerNotConnected>
   <!-- EN: Grid excess: {0} W ({1} Wd stored) -->
-  <PowerConnectedRateStored>TODO</PowerConnectedRateStored>
+  <PowerConnectedRateStored>مازاد شبکه: {0} وات ({1} وات-روز ذخیره شده)</PowerConnectedRateStored>
   <!-- EN: Power needed -->
-  <PowerNeeded>TODO</PowerNeeded>
+  <PowerNeeded>برق مورد نیاز</PowerNeeded>
   <!-- EN: Power output -->
-  <PowerOutput>TODO</PowerOutput>
+  <PowerOutput>خروجی برق</PowerOutput>
   <!-- EN: {0} W when active -->
-  <PowerActiveNeeded>TODO</PowerActiveNeeded>
+  <PowerActiveNeeded>{0} وات در حالت فعال</PowerActiveNeeded>
   <!-- EN: Stored -->
-  <PowerBatteryStored>TODO</PowerBatteryStored>
+  <PowerBatteryStored>ذخیره شده</PowerBatteryStored>
   <!-- EN: Efficiency -->
-  <PowerBatteryEfficiency>TODO</PowerBatteryEfficiency>
+  <PowerBatteryEfficiency>بهره‌وری</PowerBatteryEfficiency>
   <!-- EN: Self-discharging -->
-  <SelfDischarging>TODO</SelfDischarging>
+  <SelfDischarging>تخلیه خودکار</SelfDischarging>
 
   <!-- Temperature control -->
   <!-- EN: Target temperature -->
-  <TargetTemperature>TODO</TargetTemperature>
+  <TargetTemperature>دمای هدف</TargetTemperature>
   <!-- EN: Current power use -->
-  <PowerConsumptionMode>TODO</PowerConsumptionMode>
+  <PowerConsumptionMode>مصرف برق فعلی</PowerConsumptionMode>
   <!-- EN: high -->
-  <PowerConsumptionHigh>TODO</PowerConsumptionHigh>
+  <PowerConsumptionHigh>بالا</PowerConsumptionHigh>
   <!-- EN: low -->
-  <PowerConsumptionLow>TODO</PowerConsumptionLow>
+  <PowerConsumptionLow>پایین</PowerConsumptionLow>
   <!-- EN: off -->
-  <PowerConsumptionOff>TODO</PowerConsumptionOff>
+  <PowerConsumptionOff>خاموش</PowerConsumptionOff>
 
   <!-- Temperature readout -->
   <!-- EN: Indoors -->
-  <Indoors>TODO</Indoors>
+  <Indoors>داخل</Indoors>
   <!-- EN: Unroofed -->
-  <IndoorsUnroofed>TODO</IndoorsUnroofed>
+  <IndoorsUnroofed>بدون سقف</IndoorsUnroofed>
   <!-- EN: outdoors -->
-  <Outdoors>TODO</Outdoors>
+  <Outdoors>بیرون</Outdoors>
 
   <!-- Rotting -->
   <!-- EN: Fresh -->
-  <RotStateFresh>TODO</RotStateFresh>
+  <RotStateFresh>تازه</RotStateFresh>
   <!-- EN: Rotting -->
-  <RotStateRotting>TODO</RotStateRotting>
+  <RotStateRotting>در حال پوسیدن</RotStateRotting>
   <!-- EN: Dessicated -->
-  <RotStateDessicated>TODO</RotStateDessicated>
+  <RotStateDessicated>خشک شده</RotStateDessicated>
   <!-- EN: Frozen -->
-  <CurrentlyFrozen>TODO</CurrentlyFrozen> 
+  <CurrentlyFrozen>منجمد</CurrentlyFrozen> 
   <!-- EN: Refrigerated, spoils in {0} -->
-  <CurrentlyRefrigerated>TODO</CurrentlyRefrigerated> 
+  <CurrentlyRefrigerated>سرد شده، فاسد می‌شود در {0}</CurrentlyRefrigerated> 
   <!-- EN: Unrefrigerated, spoils in {0} -->
-  <NotRefrigerated>TODO</NotRefrigerated> 
+  <NotRefrigerated>سرد نشده، فاسد می‌شود در {0}</NotRefrigerated> 
   <!-- EN: over a decade -->
-  <OverADecade>TODO</OverADecade>
+  <OverADecade>بیش از یک دهه</OverADecade>
   <!-- EN: less than a day -->
-  <LessThanADay>TODO</LessThanADay>
+  <LessThanADay>کمتر از یک روز</LessThanADay>
 
   <!-- Shooting tooltip -->
   <!-- EN: Shot by {1_labelShort} -->
-  <ShotBy>TODO</ShotBy>
+  <ShotBy>شلیک شده توسط {1_labelShort}</ShotBy>
   <!-- EN: Cannot hit target. -->
-  <CannotHit>TODO</CannotHit>
+  <CannotHit>نمی‌توان به هدف زد.</CannotHit>
   <!-- EN: Manhunter chance per hit -->
-  <ManhunterPerHit>TODO</ManhunterPerHit>
+  <ManhunterPerHit>شانس آدم‌خواری در هر ضربه</ManhunterPerHit>
 
   <!-- Meal -->
   <!-- EN: Ingredients -->
-  <Ingredients>TODO</Ingredients>
+  <Ingredients>مواد اولیه</Ingredients>
   <!-- EN: The ingredients used to make this meal. -->
-  <IngredientsDesc>TODO</IngredientsDesc>
+  <IngredientsDesc>مواد اولیه‌ای که برای تهیه این غذا استفاده شده است.</IngredientsDesc>
   <!-- EN: Dietary type -->
-  <DietaryType>TODO</DietaryType>
+  <DietaryType>نوع رژیم غذایی</DietaryType>
   <!-- EN: The type of meal produced. Some people have preferences for specific types of meals. -->
-  <DietaryTypeDesc>TODO</DietaryTypeDesc>
+  <DietaryTypeDesc>نوع غذای تولید شده. برخی افراد ترجیحات خاصی برای انواع خاصی از غذاها دارند.</DietaryTypeDesc>
   <!-- EN: only stacks with similar meals -->
-  <OnlyStacksWithCompatibleMeals>TODO</OnlyStacksWithCompatibleMeals>
+  <OnlyStacksWithCompatibleMeals>فقط با غذاهای مشابه روی هم چیده می‌شود</OnlyStacksWithCompatibleMeals>
 
   <!-- Plants -->
   <!-- EN: {0} grown -->
-  <PercentGrowth>TODO</PercentGrowth>
+  <PercentGrowth>{0} رشد کرده</PercentGrowth>
   <!-- EN: Growth rate -->
-  <GrowthRate>TODO</GrowthRate>
+  <GrowthRate>نرخ رشد</GrowthRate>
   <!-- EN: Fully grown in {0} of growth. -->
-  <FullyGrownIn>TODO</FullyGrownIn>
+  <FullyGrownIn>رشد کامل در {0} از رشد.</FullyGrownIn>
   <!-- EN: needs light level -->
-  <PlantNeedsLightLevel>TODO</PlantNeedsLightLevel>
+  <PlantNeedsLightLevel>نیاز به سطح نور</PlantNeedsLightLevel>
   <!-- EN: resting -->
-  <PlantResting>TODO</PlantResting>
+  <PlantResting>استراحت</PlantResting>
   <!-- EN: temperature growth multiplier {0}% -->
-  <OutOfIdealTemperatureRange>TODO</OutOfIdealTemperatureRange>
+  <OutOfIdealTemperatureRange>ضریب رشد دما {0}%</OutOfIdealTemperatureRange>
   <!-- EN: out of temperature growth range -->
-  <OutOfIdealTemperatureRangeNotGrowing>TODO</OutOfIdealTemperatureRangeNotGrowing>
+  <OutOfIdealTemperatureRangeNotGrowing>خارج از محدوده رشد دما</OutOfIdealTemperatureRangeNotGrowing>
   <!-- EN: Ready to harvest. -->
-  <ReadyToHarvest>TODO</ReadyToHarvest>
+  <ReadyToHarvest>آماده برداشت.</ReadyToHarvest>
   <!-- EN: Mature. -->
-  <Mature>TODO</Mature>
+  <Mature>بالغ.</Mature>
   <!-- EN: Average plant age -->
-  <AveragePlantAge>TODO</AveragePlantAge>
+  <AveragePlantAge>میانگین سن گیاه</AveragePlantAge>
   <!-- EN: Oldest plant age -->
-  <OldestPlantAge>TODO</OldestPlantAge>
+  <OldestPlantAge>سن مسن‌ترین گیاه</OldestPlantAge>
   <!-- EN: Growing period -->
-  <OutdoorGrowingPeriod>TODO</OutdoorGrowingPeriod>
+  <OutdoorGrowingPeriod>دوره رشد</OutdoorGrowingPeriod>
   <!-- EN: Never -->
-  <NoGrowingPeriod>TODO</NoGrowingPeriod>
+  <NoGrowingPeriod>هرگز</NoGrowingPeriod>
   <!-- EN: Year-round -->
-  <GrowYearRound>TODO</GrowYearRound>
+  <GrowYearRound>تمام سال</GrowYearRound>
   <!-- EN: Growing season here now. -->
-  <GrowSeasonHereNow>TODO</GrowSeasonHereNow>
+  <GrowSeasonHereNow>فصل رشد در اینجا اکنون است.</GrowSeasonHereNow>
   <!-- EN: Cannot grow (bad seasonal temperature). -->
-  <CannotGrowBadSeasonTemperature>TODO</CannotGrowBadSeasonTemperature>
+  <CannotGrowBadSeasonTemperature>نمی‌تواند رشد کند (دمای فصلی نامناسب).</CannotGrowBadSeasonTemperature>
   <!-- EN: Blighted -->
-  <Blighted>TODO</Blighted>
+  <Blighted>آفت‌زده</Blighted>
   <!-- EN: Dying because exposed to light -->
-  <DyingBecauseExposedToLight>TODO</DyingBecauseExposedToLight>
+  <DyingBecauseExposedToLight>در حال مرگ به دلیل قرار گرفتن در معرض نور</DyingBecauseExposedToLight>
   <!-- EN: Dying from non-ideal terrain -->
-  <DyingBecauseOfTerrain>TODO</DyingBecauseOfTerrain>
+  <DyingBecauseOfTerrain>در حال مرگ به دلیل زمین نامناسب</DyingBecauseOfTerrain>
   <!-- EN: Cut now -->
-  <AutoCutNow>TODO</AutoCutNow>
+  <AutoCutNow>قطع کردن اکنون</AutoCutNow>
   <!-- EN: harvesting -->
-  <HarvestGerund>TODO</HarvestGerund>
+  <HarvestGerund>برداشت</HarvestGerund>
   <!-- EN: cutting -->
-  <CutGerund>TODO</CutGerund>
+  <CutGerund>قطع کردن</CutGerund>
   <!-- EN: Cut all blight -->
-  <CutAllBlight>TODO</CutAllBlight>
+  <CutAllBlight>قطع تمام آفت‌ها</CutAllBlight>
   <!-- EN: Mark all blighted plants to be destroyed. Blighted plants will not yield any food or resources and should be destroyed before the blight spreads. -->
-  <CutAllBlightDesc>TODO</CutAllBlightDesc>
+  <CutAllBlightDesc>علامت‌گذاری تمام گیاهان آفت‌زده برای نابودی. گیاهان آفت‌زده هیچ غذا یا منبعی تولید نمی‌کنند و باید قبل از گسترش آفت نابود شوند.</CutAllBlightDesc>
 
   <!-- Zones -->
   <!-- EN: Zone -->
-  <Zone>TODO</Zone>
+  <Zone>منطقه</Zone>
   <!-- EN: Growing zone -->
-  <GrowingZone>TODO</GrowingZone>
+  <GrowingZone>منطقه کشاورزی</GrowingZone>
   <!-- EN: growing -->
-  <GrowingGroup>TODO</GrowingGroup>
+  <GrowingGroup>کشاورزی</GrowingGroup>
   <!-- EN: Stockpile zone -->
-  <Stockpile>TODO</Stockpile>
+  <Stockpile>انبار</Stockpile>
   <!-- EN: stockpile -->
-  <StockpileGroup>TODO</StockpileGroup>
+  <StockpileGroup>انبار</StockpileGroup>
   <!-- EN: Dumping stockpile zone -->
-  <DumpingStockpile>TODO</DumpingStockpile>
+  <DumpingStockpile>انبار زباله</DumpingStockpile>
   <!-- EN: Corpse stockpile zone -->
-  <CorpseStockpile>TODO</CorpseStockpile>
+  <CorpseStockpile>انبار اجساد</CorpseStockpile>
   <!-- EN: Priority -->
-  <Priority>TODO</Priority>
+  <Priority>اولویت</Priority>
   <!-- EN: Clear all -->
-  <ClearAll>TODO</ClearAll>
+  <ClearAll>پاک کردن همه</ClearAll>
   <!-- EN: Allow all -->
-  <AllowAll>TODO</AllowAll>
+  <AllowAll>مجاز کردن همه</AllowAll>
   
   <!-- Storage Groups -->
   <!-- EN: Group -->
-  <StorageGroup>TODO</StorageGroup>
+  <StorageGroup>گروه</StorageGroup>
   <!-- EN: Name -->
-  <StorageLabel>TODO</StorageLabel>
+  <StorageLabel>نام</StorageLabel>
   <!-- EN: Storage group -->
-  <StorageGroupLabel>TODO</StorageGroupLabel>
+  <StorageGroupLabel>گروه انبار</StorageGroupLabel>
 
   <!-- ThingFilter -->
   <!-- EN: {0} hit points -->
-  <HitPoints>TODO</HitPoints>
+  <HitPoints>{0} امتیاز سلامتی</HitPoints>
   <!-- EN: any quality -->
-  <AnyQuality>TODO</AnyQuality>
+  <AnyQuality>هر کیفیتی</AnyQuality>
   <!-- EN: {0} only -->
-  <OnlyQuality>TODO</OnlyQuality>
+  <OnlyQuality>فقط {0}</OnlyQuality>
 
   <!-- Mouseover indicator -->
   <!-- EN: Undiscovered -->
-  <Undiscovered>TODO</Undiscovered>
+  <Undiscovered>کشف نشده</Undiscovered>
   
   <!-- Animal management -->
   <!-- EN: Are you sure you want to sterilize {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
-  <AnimalSterilizeConfirm>TODO</AnimalSterilizeConfirm>
+  <AnimalSterilizeConfirm>آیا مطمئن هستید که می‌خواهید {PAWN_nameDef} را عقیم کنید؟ انجام این کار باعث خشم {FACTION_name} خواهد شد.</AnimalSterilizeConfirm>
   <!-- EN: Are you sure you want to slaughter {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
-  <AnimalSlaughterConfirm>TODO</AnimalSlaughterConfirm>
+  <AnimalSlaughterConfirm>آیا مطمئن هستید که می‌خواهید {PAWN_nameDef} را ذبح کنید؟ انجام این کار باعث خشم {FACTION_name} خواهد شد.</AnimalSlaughterConfirm>
   <!-- EN: Are you sure you want to release {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
-  <AnimalReleaseConfirm>TODO</AnimalReleaseConfirm>
+  <AnimalReleaseConfirm>آیا مطمئن هستید که می‌خواهید {PAWN_nameDef} را آزاد کنید؟ انجام این کار باعث خشم {FACTION_name} خواهد شد.</AnimalReleaseConfirm>
 
   <!-- Buttons -->
   <!-- EN: Toggle visibility of the learning helper when it is empty.\n\nThe learning helper is always visible if there is a concept activated to be learned. This toggle makes it disappear when no concept is active. -->
-  <ShowLearningHelperWhenEmptyToggleButton>TODO</ShowLearningHelperWhenEmptyToggleButton>
+  <ShowLearningHelperWhenEmptyToggleButton>تغییر وضعیت نمایش راهنمای یادگیری زمانی که خالی است.\n\nراهنمای یادگیری همیشه زمانی که مفهومی برای یادگیری فعال باشد قابل مشاهده است. این گزینه باعث می‌شود زمانی که هیچ مفهومی فعال نیست، ناپدید شود.</ShowLearningHelperWhenEmptyToggleButton>
   <!-- EN: Toggle visibility of zones. -->
-  <ZoneVisibilityToggleButton>TODO</ZoneVisibilityToggleButton>
+  <ZoneVisibilityToggleButton>تغییر وضعیت نمایش مناطق.</ZoneVisibilityToggleButton>
   <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the cursor is pointing. -->
-  <ShowBeautyToggleButton>TODO</ShowBeautyToggleButton>
+  <ShowBeautyToggleButton>تغییر وضعیت نمایش زیبایی.\n\nزیبایی جهان را همانطور که توسط شخصیتی که در محل اشاره‌گر ایستاده است درک می‌شود، نمایش می‌دهد.</ShowBeautyToggleButton>
   <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the cursor is pointing. -->
-  <ShowRoomStatsToggleButton>TODO</ShowRoomStatsToggleButton>
+  <ShowRoomStatsToggleButton>تغییر وضعیت نمایش آمار اتاق.\n\nآمار اتاقی که اشاره‌گر در آن قرار دارد را نمایش می‌دهد.</ShowRoomStatsToggleButton>
   <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by right-click and dragging them. -->
-  <ShowColonistBarToggleButton>TODO</ShowColonistBarToggleButton>
+  <ShowColonistBarToggleButton>تغییر وضعیت نوار مهاجران.\n\nآیکون‌ها و وضعیت اولیه همه مهاجران را در بالای صفحه نمایش می‌دهد.\n\nمی‌توانید با راست کلیک و کشیدن مهاجران، ترتیب آنها را در نوار مهاجران تغییر دهید.</ShowColonistBarToggleButton>
   <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by pressing the left trigger button and dragging them. -->
-  <ShowColonistBarToggleButtonController>TODO</ShowColonistBarToggleButtonController>
+  <ShowColonistBarToggleButtonController>تغییر وضعیت نوار مهاجران.\n\nآیکون‌ها و وضعیت اولیه همه مهاجران را در بالای صفحه نمایش می‌دهد.\n\nمی‌توانید با فشار دادن دکمه تریگر چپ و کشیدن آنها، ترتیب مهاجران را در نوار مهاجران تغییر دهید.</ShowColonistBarToggleButtonController>
   <!-- EN: Toggle automatically expanding the home area around new constructions. -->
-  <AutoHomeAreaToggleButton>TODO</AutoHomeAreaToggleButton>
+  <AutoHomeAreaToggleButton>تغییر وضعیت گسترش خودکار منطقه خانه در اطراف ساخت و سازهای جدید.</AutoHomeAreaToggleButton>
   <!-- EN: Toggle automatic rebuild of destroyed structures in the home area. -->
-  <AutoRebuildButton>TODO</AutoRebuildButton>
+  <AutoRebuildButton>تغییر وضعیت بازسازی خودکار سازه‌های تخریب شده در منطقه خانه.</AutoRebuildButton>
   <!-- EN: Toggle categorized mode on the resource readout. -->
-  <CategorizedResourceReadoutToggleButton>TODO</CategorizedResourceReadoutToggleButton>
+  <CategorizedResourceReadoutToggleButton>تغییر وضعیت حالت دسته‌بندی شده در لیست منابع.</CategorizedResourceReadoutToggleButton>
   <!-- EN: Toggle displaying animal names for tame named animals. -->
-  <ShowAnimalNamesToggleButton>TODO</ShowAnimalNamesToggleButton>
+  <ShowAnimalNamesToggleButton>تغییر وضعیت نمایش نام حیوانات برای حیوانات رام شده نام‌گذاری شده.</ShowAnimalNamesToggleButton>
   <!-- EN: Toggle visibility of roofs. -->
-  <ShowRoofOverlayToggleButton>TODO</ShowRoofOverlayToggleButton>
+  <ShowRoofOverlayToggleButton>تغییر وضعیت نمایش سقف‌ها.</ShowRoofOverlayToggleButton>
   <!-- EN: Toggle fertility overlay.\n\nThis shows how fertile the ground is, which affects what kinds of plants can grow and how fast they grow. -->
-  <ShowFertilityOverlayToggleButton>TODO</ShowFertilityOverlayToggleButton>
+  <ShowFertilityOverlayToggleButton>تغییر وضعیت نمایش باروری.\n\nاین نشان می‌دهد که زمین چقدر حاصلخیز است، که بر نوع گیاهانی که می‌توانند رشد کنند و سرعت رشد آنها تأثیر می‌گذارد.</ShowFertilityOverlayToggleButton>
   <!-- EN: Toggle visibility of terrain affordance.\n\nThis relates to what kinds of building can be constructed at each location.\n\nFor example, some types of ground only accept light or medium buildings, but not heavy ones. Bridges can only be built on water. -->
-  <ShowTerrainAffordanceOverlayToggleButton>TODO</ShowTerrainAffordanceOverlayToggleButton>
+  <ShowTerrainAffordanceOverlayToggleButton>تغییر وضعیت نمایش قابلیت زمین.\n\nاین مربوط به نوع ساختمان‌هایی است که می‌توان در هر مکان ساخت.\n\nبه عنوان مثال، برخی از انواع زمین فقط ساختمان‌های سبک یا متوسط را می‌پذیرند، اما ساختمان‌های سنگین را نه. پل‌ها فقط روی آب قابل ساخت هستند.</ShowTerrainAffordanceOverlayToggleButton>
   <!-- EN: Lock the rotation of the camera so the north pole is always up. -->
-  <LockNorthUpToggleButton>TODO</LockNorthUpToggleButton>
+  <LockNorthUpToggleButton>قفل کردن چرخش دوربین به طوری که قطب شمال همیشه بالا باشد.</LockNorthUpToggleButton>
   <!-- EN: Toggle day/night lighting on the planet view. -->
-  <UsePlanetDayNightSystemToggleButton>TODO</UsePlanetDayNightSystemToggleButton>
+  <UsePlanetDayNightSystemToggleButton>تغییر وضعیت روشنایی روز/شب در نمای سیاره.</UsePlanetDayNightSystemToggleButton>
   <!-- EN: Toggle displaying expanding icons for settlements belonging to other factions. -->
-  <ShowBasesExpandingIconsToggleButton>TODO</ShowBasesExpandingIconsToggleButton>
+  <ShowBasesExpandingIconsToggleButton>تغییر وضعیت نمایش آیکون‌های گسترش‌یافته برای سکونتگاه‌های متعلق به سایر جناح‌ها.</ShowBasesExpandingIconsToggleButton>
   <!-- EN: Toggle displaying expanding icons for important locations, such as your colony, quest locations, and active maps. -->
-  <ShowImportantExpandingIconsToggleButton>TODO</ShowImportantExpandingIconsToggleButton>
+  <ShowImportantExpandingIconsToggleButton>تغییر وضعیت نمایش آیکون‌های گسترش‌یافته برای مکان‌های مهم، مانند کلونی شما، مکان‌های ماموریت و نقشه‌های فعال.</ShowImportantExpandingIconsToggleButton>
   <!-- EN: Toggle visibility of names of landforms. -->
-  <ShowWorldFeaturesToggleButton>TODO</ShowWorldFeaturesToggleButton>
+  <ShowWorldFeaturesToggleButton>تغییر وضعیت نمایش نام عوارض زمین.</ShowWorldFeaturesToggleButton>
   <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
-  <ShowTemperatureOverlayToggleButton>TODO</ShowTemperatureOverlayToggleButton>
+  <ShowTemperatureOverlayToggleButton>تغییر وضعیت نمایش گرما. این دمای هوا را در هر اتاق و فضای باز نشان می‌دهد.\n\nمهاجران اگر دما خیلی بالا یا خیلی پایین باشد ناراحت خواهند شد. قرار گرفتن در معرض دماهای شدید می‌تواند منجر به هیپوترمی، سرمازدگی، گرمازدگی، سوختگی و مرگ شود.</ShowTemperatureOverlayToggleButton>
 
   <!-- Hotkeys -->
   <!-- EN: Hotkey -->
-  <HotKeyTip>TODO</HotKeyTip>
+  <HotKeyTip>کلید میانبر</HotKeyTip>
   
   <!-- Fire -->
   <!-- EN: fire on {1_label} -->
-  <FireOn>TODO</FireOn>
+  <FireOn>آتش روی {1_label}</FireOn>
   <!-- EN: Burning -->
-  <Burning>TODO</Burning>
+  <Burning>در حال سوختن</Burning>
   <!-- EN: fire size {0} -->
-  <FireSizeLower>TODO</FireSizeLower>
+  <FireSizeLower>اندازه آتش {0}</FireSizeLower>
 
   <!-- Game conditions -->
   <!-- EN: Special conditions affecting the area right now. -->
-  <GameConditionsTip>TODO</GameConditionsTip>
+  <GameConditionsTip>شرایط ویژه‌ای که در حال حاضر بر منطقه تأثیر می‌گذارد.</GameConditionsTip>
   <!-- EN: time left -->
-  <TimeLeft>TODO</TimeLeft>
+  <TimeLeft>زمان باقی‌مانده</TimeLeft>
   <!-- EN: impact date -->
-  <ImpactDate>TODO</ImpactDate>
+  <ImpactDate>تاریخ برخورد</ImpactDate>
   <!-- EN: Source unknown. -->
-  <SourceUnknown>TODO</SourceUnknown>
+  <SourceUnknown>منبع ناشناخته.</SourceUnknown>
   <!-- EN: Click to jump to the source. -->
-  <ClickToJumpToSource>TODO</ClickToJumpToSource>
+  <ClickToJumpToSource>برای پرش به منبع کلیک کنید.</ClickToJumpToSource>
   <!-- EN: Click to jump to the flashstorm. -->
-  <ClickToJumpToFlashstorm>TODO</ClickToJumpToFlashstorm>
+  <ClickToJumpToFlashstorm>برای پرش به طوفان رعد و برق کلیک کنید.</ClickToJumpToFlashstorm>
   <!-- EN: Caused by quest: {0} -->
-  <CausedByQuest>TODO</CausedByQuest>
+  <CausedByQuest>ناشی از ماموریت: {0}</CausedByQuest>
 
   <!-- Building placement -->
   <!-- EN: You have no usable materials from which to build this. -->
-  <NoStuffsToBuildWith>TODO</NoStuffsToBuildWith>
+  <NoStuffsToBuildWith>شما هیچ ماده قابل استفاده‌ای برای ساخت این ندارید.</NoStuffsToBuildWith>
 
   <!-- Building placement restricters -->
   <!-- EN: {0} will have work speed penalty -->
-  <WillGetWorkSpeedPenalty>TODO</WillGetWorkSpeedPenalty>
+  <WillGetWorkSpeedPenalty>{0} جریمه سرعت کار خواهد داشت</WillGetWorkSpeedPenalty>
   <!-- EN: Cannot be placed under a roof. -->
-  <MustPlaceUnroofed>TODO</MustPlaceUnroofed>
+  <MustPlaceUnroofed>نمی‌توان زیر سقف قرار داد.</MustPlaceUnroofed>
   <!-- EN: Must be placed under thick roof. -->
-  <MustPlaceUnderThickRoof>TODO</MustPlaceUnderThickRoof>
+  <MustPlaceUnderThickRoof>باید زیر سقف ضخیم قرار گیرد.</MustPlaceUnderThickRoof>
   <!-- EN: Must be placed against a wall. -->
-  <MustPlaceOnWall>TODO</MustPlaceOnWall>
+  <MustPlaceOnWall>باید در کنار دیوار قرار گیرد.</MustPlaceOnWall>
   <!-- EN: Something is already placed on this wall. -->
-  <SomethingPlacedOnThisWall>TODO</SomethingPlacedOnThisWall>
+  <SomethingPlacedOnThisWall>چیزی قبلاً روی این دیوار قرار گرفته است.</SomethingPlacedOnThisWall>
   <!-- EN: This building can not support attachments. -->
-  <CannotSupportAttachment>TODO</CannotSupportAttachment>
+  <CannotSupportAttachment>این ساختمان نمی‌تواند از پیوست‌ها پشتیبانی کند.</CannotSupportAttachment>
   <!-- EN: Must place with head attached to ship structural beam. -->
-  <MustPlaceHeadOnShipBeam>TODO</MustPlaceHeadOnShipBeam>
+  <MustPlaceHeadOnShipBeam>باید با سر متصل به تیر ساختاری کشتی قرار گیرد.</MustPlaceHeadOnShipBeam>
   <!-- EN: Must be placed next to something that needs a hopper. -->
-  <MustPlaceNextToHopperAccepter>TODO</MustPlaceNextToHopperAccepter>
+  <MustPlaceNextToHopperAccepter>باید در کنار چیزی که نیاز به قیف دارد قرار گیرد.</MustPlaceNextToHopperAccepter>
   <!-- EN: Must be placed directly on a steam geyser. -->
-  <MustPlaceOnSteamGeyser>TODO</MustPlaceOnSteamGeyser>
+  <MustPlaceOnSteamGeyser>باید مستقیماً روی آبفشان بخار قرار گیرد.</MustPlaceOnSteamGeyser>
   <!-- EN: Both the hot and cold sides of the cooler must be exposed. -->
-  <MustPlaceCoolerWithFreeSpaces>TODO</MustPlaceCoolerWithFreeSpaces>
+  <MustPlaceCoolerWithFreeSpaces>هر دو طرف گرم و سرد کولر باید در معرض هوا باشند.</MustPlaceCoolerWithFreeSpaces>
   <!-- EN: Both the sides must be exposed for air to pass through. -->
-  <MustPlaceVentWithFreeSpaces>TODO</MustPlaceVentWithFreeSpaces>
+  <MustPlaceVentWithFreeSpaces>هر دو طرف باید برای عبور هوا باز باشند.</MustPlaceVentWithFreeSpaces>
   <!-- EN: Must be placed with standable space on all sides. -->
-  <MustPlaceAdjacentStandable>TODO</MustPlaceAdjacentStandable>
+  <MustPlaceAdjacentStandable>باید با فضای قابل ایستادن در همه طرف‌ها قرار گیرد.</MustPlaceAdjacentStandable>
   <!-- EN: Must be placed next to a pod launcher's fueling port. -->
-  <MustPlaceNearFuelingPort>TODO</MustPlaceNearFuelingPort>
+  <MustPlaceNearFuelingPort>باید در کنار درگاه سوخت‌گیری پرتابگر کپسول قرار گیرد.</MustPlaceNearFuelingPort>
   <!-- EN: Must be placed on drillable resources. -->
-  <MustPlaceOnDrillable>TODO</MustPlaceOnDrillable>
+  <MustPlaceOnDrillable>باید روی منابع قابل حفاری قرار گیرد.</MustPlaceOnDrillable>
   <!-- EN: Cannot be placed next to traps. -->
-  <CannotPlaceAdjacentTrap>TODO</CannotPlaceAdjacentTrap>
+  <CannotPlaceAdjacentTrap>نمی‌توان در کنار تله‌ها قرار داد.</CannotPlaceAdjacentTrap>
   <!-- EN: Cannot be placed next to another building of the same type. -->
-  <CannotPlaceAdjacentSameDef>TODO</CannotPlaceAdjacentSameDef>
+  <CannotPlaceAdjacentSameDef>نمی‌توان در کنار ساختمان دیگری از همان نوع قرار داد.</CannotPlaceAdjacentSameDef>
 
   <!-- Wind Turbine -->
   <!-- EN: Blocked by -->
-  <WindTurbine_WindPathIsBlockedBy>TODO</WindTurbine_WindPathIsBlockedBy>
+  <WindTurbine_WindPathIsBlockedBy>مسدود شده توسط</WindTurbine_WindPathIsBlockedBy>
   <!-- EN: Blocked by roof -->
-  <WindTurbine_WindPathIsBlockedByRoof>TODO</WindTurbine_WindPathIsBlockedByRoof>
+  <WindTurbine_WindPathIsBlockedByRoof>مسدود شده توسط سقف</WindTurbine_WindPathIsBlockedByRoof>
 
   <!-- Watermill generator -->
   <!-- EN: Flow reduced: Turbulence from other watermill -->
-  <Watermill_WaterUsedTwice>TODO</Watermill_WaterUsedTwice>
+  <Watermill_WaterUsedTwice>کاهش جریان: تلاطم از آسیاب آبی دیگر</Watermill_WaterUsedTwice>
 
   <!-- Cryptosleep casket -->
   <!-- EN: Contains -->
-  <CasketContains>TODO</CasketContains>
+  <CasketContains>حاوی</CasketContains>
   <!-- EN: Warning!\n\n{PAWN_nameDef} is your last free-standing colonist! If you let {PAWN_objective} step into that casket, you may not be able to continue playing. Are you sure you want to proceed? -->
-  <CasketWarning>TODO</CasketWarning>
+  <CasketWarning>هشدار!\n\n{PAWN_nameDef} آخرین مهاجر آزاد شماست! اگر اجازه دهید {PAWN_objective} وارد آن تابوت شود، ممکن است نتوانید به بازی ادامه دهید. آیا مطمئن هستید که می‌خواهید ادامه دهید؟</CasketWarning>
 
   <!-- Ship launch report -->
   <!-- EN: Cannot launch. -->
-  <ShipReportCannotLaunch>TODO</ShipReportCannotLaunch>
+  <ShipReportCannotLaunch>نمی‌توان پرتاب کرد.</ShipReportCannotLaunch>
   <!-- EN: Ready for launch. -->
-  <ShipReportCanLaunch>TODO</ShipReportCanLaunch>
+  <ShipReportCanLaunch>آماده پرتاب.</ShipReportCanLaunch>
   <!-- EN: Missing critical component -->
-  <ShipReportMissingPart>TODO</ShipReportMissingPart>
+  <ShipReportMissingPart>قطعه حیاتی گم شده است</ShipReportMissingPart>
   <!-- EN: requires -->
-  <ShipReportMissingPartRequires>TODO</ShipReportMissingPartRequires>
+  <ShipReportMissingPartRequires>نیاز دارد به</ShipReportMissingPartRequires>
   <!-- EN: No full cryptosleep caskets -->
-  <ShipReportNoFullPods>TODO</ShipReportNoFullPods>
+  <ShipReportNoFullPods>هیچ تابوت خواب مصنوعی پر نیست</ShipReportNoFullPods>
   <!-- EN: Hibernating component -->
-  <ShipReportHibernating>TODO</ShipReportHibernating>
+  <ShipReportHibernating>قطعه در حال خواب زمستانی</ShipReportHibernating>
   <!-- EN: Component not yet ready -->
-  <ShipReportNotReady>TODO</ShipReportNotReady>
+  <ShipReportNotReady>قطعه هنوز آماده نیست</ShipReportNotReady>
   <!-- EN: No settlement to return to. Form a settlement first. -->
-  <ShipNoSettlementToReturnTo>TODO</ShipNoSettlementToReturnTo> 
+  <ShipNoSettlementToReturnTo>هیچ سکونتگاهی برای بازگشت وجود ندارد. ابتدا یک سکونتگاه تشکیل دهید.</ShipNoSettlementToReturnTo> 
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarning>TODO</HibernateWarning>
+  <HibernateWarning>(*Name)چارلون وایت‌استون(/Name) آماده است تا توالی بازیابی خواب زمستانی راکتور را آغاز کند.\n\nاو به شما هشدار می‌دهد که این فرآیند حدود ۱۵ روز طول می‌کشد و امضای انرژی از فاصله دور قابل تشخیص خواهد بود.\n\nاین نوع امضای انرژی نشان‌دهنده قابلیت پرواز بین‌ستاره‌ای است و باندهای مهاجمان ناامید و دسته‌های مکانیزه مرگبار را جذب خواهد کرد.\n\nشما با شدتی که هرگز ندیده‌اید مورد حمله قرار خواهید گرفت. ابتدا مطمئن شوید که دفاعیات شما آماده است.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarningStandalone>TODO</HibernateWarningStandalone>
+  <HibernateWarningStandalone>راکتور آماده روشن شدن است.\n\nاین فرآیند حدود ۱۵ روز طول می‌کشد و امضای انرژی از فاصله دور قابل تشخیص خواهد بود. این نوع امضای انرژی نشان‌دهنده قابلیت پرواز بین‌ستاره‌ای است و باندهای مهاجمان ناامید و دسته‌های مکانیزه مرگبار را جذب خواهد کرد.\n\nشما با شدتی که هرگز ندیده‌اید مورد حمله قرار خواهید گرفت. ابتدا مطمئن شوید که دفاعیات شما آماده است.</HibernateWarningStandalone>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
-  <HibernateWarningPacifist>TODO</HibernateWarningPacifist>
+  <HibernateWarningPacifist>(*Name)چارلون وایت‌استون(/Name) آماده است تا توالی بازیابی خواب زمستانی راکتور را آغاز کند. او به شما هشدار می‌دهد که این فرآیند حدود ۱۵ روز طول می‌کشد.</HibernateWarningPacifist>
   <!-- EN: The reactor is ready to power up. The process will take about 15 days. -->
-  <HibernateWarningStandalonePacifist>TODO</HibernateWarningStandalonePacifist>
+  <HibernateWarningStandalonePacifist>راکتور آماده روشن شدن است. این فرآیند حدود ۱۵ روز طول می‌کشد.</HibernateWarningStandalonePacifist>
 
   <!-- Neurotrainer -->
   <!-- EN: skilltrainer ({0}) -->
-  <SkillNeurotrainerLabel>TODO</SkillNeurotrainerLabel>
+  <SkillNeurotrainerLabel>مربی مهارت ({0})</SkillNeurotrainerLabel>
   <!-- EN: Use skilltrainer to learn {0} -->
-  <SkillNeurotrainerUseLabel>TODO</SkillNeurotrainerUseLabel>
+  <SkillNeurotrainerUseLabel>استفاده از مربی مهارت برای یادگیری {0}</SkillNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
-  <SkillNeurotrainerDescription>TODO</SkillNeurotrainerDescription>
+  <SkillNeurotrainerDescription>یک دوز فوق‌العاده یک‌بار مصرف از مکانیت‌ها که یک مهارت خاص را آموزش می‌دهد.\n\nاین دوز از طریق حدقه چشم تزریق می‌شود. پس از رهاسازی در مغز، مکانیت‌ها به سرعت مهارت‌های سوژه را در یک زمینه خاص بهبود می‌بخشند و در صورت نیاز خود را به بافت عصبی تبدیل می‌کنند.</SkillNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
-  <SkillNeurotrainerUsed>TODO</SkillNeurotrainerUsed>
+  <SkillNeurotrainerUsed>{USER_labelShort} از نوروترینر {1} استفاده کرد تا از سطح {2} به سطح {3} برسد.</SkillNeurotrainerUsed>
 
   <!-- Minification -->
   <!-- EN: Installed -->
-  <Installed>TODO</Installed>
+  <Installed>نصب شده</Installed>
   <!-- EN: Not installed -->
-  <NotInstalled>TODO</NotInstalled>
+  <NotInstalled>نصب نشده</NotInstalled>
   <!-- EN: Extracted tree will die in {time} unless replanted. -->
-  <MinifiedTreeWillDieIn>TODO</MinifiedTreeWillDieIn>
+  <MinifiedTreeWillDieIn>درخت استخراج شده در {time} خواهد مرد مگر اینکه دوباره کاشته شود.</MinifiedTreeWillDieIn>
 
   <!-- Art -->
   <!-- EN: Title -->
-  <Title>TODO</Title>
+  <Title>عنوان</Title>
   <!-- EN: Untitled -->
-  <Untitled>TODO</Untitled>
+  <Untitled>بدون عنوان</Untitled>
 
   <!-- Unfinished thing -->
   <!-- EN: Unfinished {0} -->
-  <UnfinishedItem>TODO</UnfinishedItem>
+  <UnfinishedItem>{0} ناتمام</UnfinishedItem>
   <!-- EN: Unfinished {0} {1} -->
-  <UnfinishedItemWithStuff>TODO</UnfinishedItemWithStuff>
+  <UnfinishedItemWithStuff>{0} ناتمام {1}</UnfinishedItemWithStuff>
 
   <!-- Quality -->
   <!-- EN: Quality -->
-  <Quality>TODO</Quality>
+  <Quality>کیفیت</Quality>
   <!-- EN: quality -->
-  <quality>TODO</quality>
+  <quality>کیفیت</quality>
   <!-- EN: An item's quality is how well-made it is. -->
-  <QualityDescription>TODO</QualityDescription>
+  <QualityDescription>کیفیت یک آیتم نشان‌دهنده میزان خوب ساخته شدن آن است.</QualityDescription>
   <!-- EN: Quality: {0} -->
-  <QualityIs>TODO</QualityIs>
+  <QualityIs>کیفیت: {0}</QualityIs>
 
   <!-- Mood descriptions -->
   <!-- EN: mental state -->
-  <Mood_MentalState>TODO</Mood_MentalState>
+  <Mood_MentalState>وضعیت روانی</Mood_MentalState>
   <!-- EN: about to break -->
-  <Mood_AboutToBreak>TODO</Mood_AboutToBreak>
+  <Mood_AboutToBreak>در آستانه فروپاشی</Mood_AboutToBreak>
   <!-- EN: on edge -->
-  <Mood_OnEdge>TODO</Mood_OnEdge>
+  <Mood_OnEdge>مضطرب</Mood_OnEdge>
   <!-- EN: stressed -->
-  <Mood_Stressed>TODO</Mood_Stressed>
+  <Mood_Stressed>تحت فشار</Mood_Stressed>
   <!-- EN: neutral -->
-  <Mood_Neutral>TODO</Mood_Neutral>
+  <Mood_Neutral>خنثی</Mood_Neutral>
   <!-- EN: content -->
-  <Mood_Content>TODO</Mood_Content>
+  <Mood_Content>راضی</Mood_Content>
   <!-- EN: happy -->
-  <Mood_Happy>TODO</Mood_Happy>
+  <Mood_Happy>خوشحال</Mood_Happy>
 
   <!-- Game over -->
   <!-- EN: Game Over -->
-  <GameOver>TODO</GameOver>
+  <GameOver>بازی تمام شد</GameOver>
   <!-- EN: Everyone is dead or gone. This story is over.\n\nPerhaps someone else will find a use for the ruins of this place. -->
-  <GameOverEveryoneDead>TODO</GameOverEveryoneDead>
+  <GameOverEveryoneDead>همه مرده‌اند یا رفته‌اند. این داستان به پایان رسید.\n\nشاید شخص دیگری برای ویرانه‌های این مکان استفاده‌ای پیدا کند.</GameOverEveryoneDead>
   <!-- EN: At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive. -->
-  <GameOverPlanetkillerImpact>TODO</GameOverPlanetkillerImpact>
+  <GameOverPlanetkillerImpact>با سرعتی نزدیک به نور، سلاح سیاره‌کش با نیروی یک تریلیون بمب هیدروژنی به زمین برخورد کرد. مانند یک بادکنک پر از آب که با تفنگ به آن شلیک شده باشد، این جهان تحت تأثیر ضربه مایع شد و احشای مذاب خود را در سراسر کیهان پاشید.\n\nبخشی از {0} اکنون یک کمربند سیارکی کوچک است. بقیه یک جهنم مذاب و رادیواکتیو است که دائماً با زلزله‌های سیاره‌ای به ارتفاع کیلومترها موج می‌زند.\n\nشما زنده نماندید.</GameOverPlanetkillerImpact>
   <!-- EN: You've launched the ship! -->
-  <GameOverShipLaunchedIntro>TODO</GameOverShipLaunchedIntro>
+  <GameOverShipLaunchedIntro>شما کشتی را پرتاب کردید!</GameOverShipLaunchedIntro>
   <!-- EN: Your machine persona will now try to guide the ship to a safe place. It might find a prosperous planet in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nYou'll find out when you wake up. -->
-  <GameOverShipLaunchedEnding>TODO</GameOverShipLaunchedEnding>
+  <GameOverShipLaunchedEnding>شخصیت ماشینی شما اکنون سعی خواهد کرد کشتی را به مکانی امن هدایت کند. ممکن است سیاره‌ای مرفه در این سیستم پیدا کند. یا ممکن است سفری چند قرنی به ستاره‌ای دیگر را آغاز کند. حتی ممکن است تصمیم بگیرد برای چند هزار سال زیر یخ روی یک سیارک پنهان شود و منتظر بماند تا کسی یک دنیای پر زرق و برق جدید در اینجا بسازد.\n\nوقتی بیدار شدید متوجه خواهید شد.</GameOverShipLaunchedEnding>
   <!-- EN: These colonists escaped:\n\n{0} -->
-  <GameOverColonistsEscaped>TODO</GameOverColonistsEscaped>
+  <GameOverColonistsEscaped>این مهاجران فرار کردند:\n\n{0}</GameOverColonistsEscaped>
   <!-- EN: These colonists were left behind:\n\n{0} -->
-  <GameOverColonistsLeft>TODO</GameOverColonistsLeft>
+  <GameOverColonistsLeft>این مهاجران جا ماندند:\n\n{0}</GameOverColonistsLeft>
   <!-- EN: In memory of:\n -->
-  <GameOverInMemoryOf>TODO</GameOverInMemoryOf>
+  <GameOverInMemoryOf>به یاد:\n</GameOverInMemoryOf>
   <!-- EN: Keep watching -->
-  <GameOverKeepWatching>TODO</GameOverKeepWatching>
+  <GameOverKeepWatching>ادامه تماشا</GameOverKeepWatching>
   <!-- EN: Keep watching for now -->
-  <GameOverKeepWatchingForNow>TODO</GameOverKeepWatchingForNow>
+  <GameOverKeepWatchingForNow>فعلاً ادامه تماشا</GameOverKeepWatchingForNow>
   <!-- EN: Create new wanderers -->
-  <GameOverCreateNewWanderers>TODO</GameOverCreateNewWanderers>
+  <GameOverCreateNewWanderers>ایجاد سرگردان‌های جدید</GameOverCreateNewWanderers>
   <!-- EN: Everyone is dead or gone. Perhaps someone will find a use for the ruins of this place.\n\nChoose new wanderers arrive at your colony and continue the story. -->
-  <GameOverCreateNewWanderersText>TODO</GameOverCreateNewWanderersText>
+  <GameOverCreateNewWanderersText>همه مرده‌اند یا رفته‌اند. شاید کسی برای ویرانه‌های این مکان استفاده‌ای پیدا کند.\n\nانتخاب کنید که سرگردان‌های جدید به کلونی شما برسند و داستان را ادامه دهند.</GameOverCreateNewWanderersText>
   <!-- EN: Main menu -->
-  <GameOverMainMenu>TODO</GameOverMainMenu>
+  <GameOverMainMenu>منوی اصلی</GameOverMainMenu>
   <!-- EN: No colony -->
-  <NoColony>TODO</NoColony>
+  <NoColony>بدون کلونی</NoColony>
   <!-- EN: cannot reach any destination -->
-  <NoWandererDestination>TODO</NoWandererDestination>
+  <NoWandererDestination>نمی‌تواند به هیچ مقصدی برسد</NoWandererDestination>
   <!-- EN: must wait {0}h -->
-  <GameOverCreateNewWanderersWait>TODO</GameOverCreateNewWanderersWait>
+  <GameOverCreateNewWanderersWait>باید {0} ساعت صبر کنید</GameOverCreateNewWanderersWait>
 
   <!-- Generic lifespan -->
   <!-- EN: Expires in: -->
-  <LifespanExpiry>TODO</LifespanExpiry>
+  <LifespanExpiry>منقضی می‌شود در:</LifespanExpiry>
 
   <!-- Facilities -->
   <!-- EN: inactive -->
-  <InactiveFacility>TODO</InactiveFacility>
+  <InactiveFacility>غیرفعال</InactiveFacility>
   <!-- EN: Links to -->
-  <FacilityPotentiallyLinkedTo>TODO</FacilityPotentiallyLinkedTo>
+  <FacilityPotentiallyLinkedTo>پیوند به</FacilityPotentiallyLinkedTo>
   <!-- EN: Not linked to a building -->
-  <FacilityNoPotentialLinks>TODO</FacilityNoPotentialLinks>
+  <FacilityNoPotentialLinks>به ساختمانی متصل نیست</FacilityNoPotentialLinks>
   <!-- EN: Max connected per building -->
-  <FacilityMaxSimultaneousConnections>TODO</FacilityMaxSimultaneousConnections>
+  <FacilityMaxSimultaneousConnections>حداکثر اتصال برای هر ساختمان</FacilityMaxSimultaneousConnections>
   <!-- EN: Front of building is blocked. -->
-  <FacilityFrontBlocked>TODO</FacilityFrontBlocked>
+  <FacilityFrontBlocked>جلوی ساختمان مسدود است.</FacilityFrontBlocked>
 
   <!-- Hediffs growth modes -->
   <!-- EN: {PAWN_labelShort}'s {1} is now growing. -->
-  <DiseaseGrowthModeChanged_Growing>TODO</DiseaseGrowthModeChanged_Growing>
+  <DiseaseGrowthModeChanged_Growing>{1} {PAWN_labelShort} اکنون در حال رشد است.</DiseaseGrowthModeChanged_Growing>
   <!-- EN: {PAWN_labelShort}'s {1} is now stable. -->
-  <DiseaseGrowthModeChanged_Stable>TODO</DiseaseGrowthModeChanged_Stable>
+  <DiseaseGrowthModeChanged_Stable>{1} {PAWN_labelShort} اکنون پایدار است.</DiseaseGrowthModeChanged_Stable>
   <!-- EN: {PAWN_labelShort}'s {1} is now in remission. -->
-  <DiseaseGrowthModeChanged_Remission>TODO</DiseaseGrowthModeChanged_Remission>
+  <DiseaseGrowthModeChanged_Remission>{1} {PAWN_labelShort} اکنون در حال بهبود است.</DiseaseGrowthModeChanged_Remission>
 
   <!-- Marriage spot -->
   <!-- EN: Usable now. -->
-  <MarriageSpotUsable>TODO</MarriageSpotUsable>
+  <MarriageSpotUsable>اکنون قابل استفاده است.</MarriageSpotUsable>
   <!-- EN: Not usable: {0}. -->
-  <MarriageSpotNotUsable>TODO</MarriageSpotNotUsable>
+  <MarriageSpotNotUsable>غیرقابل استفاده: {0}.</MarriageSpotNotUsable>
   <!-- EN: blocked -->
-  <MarriageSpotNotStandable>TODO</MarriageSpotNotStandable>
+  <MarriageSpotNotStandable>مسدود شده</MarriageSpotNotStandable>
   <!-- EN: too dangerous for {1_labelShort} -->
-  <MarriageSpotDangerous>TODO</MarriageSpotDangerous>
+  <MarriageSpotDangerous>خیلی خطرناک برای {1_labelShort}</MarriageSpotDangerous>
   <!-- EN: forbidden for {1_labelShort} -->
-  <MarriageSpotForbidden>TODO</MarriageSpotForbidden>
+  <MarriageSpotForbidden>ممنوع برای {1_labelShort}</MarriageSpotForbidden>
   <!-- EN: reserved -->
-  <MarriageSpotReserved>TODO</MarriageSpotReserved>
+  <MarriageSpotReserved>رزرو شده</MarriageSpotReserved>
   <!-- EN: unreachable for {1_labelShort} -->
-  <MarriageSpotUnreachable>TODO</MarriageSpotUnreachable>
+  <MarriageSpotUnreachable>غیرقابل دسترس برای {1_labelShort}</MarriageSpotUnreachable>
   <!-- EN: in prison cell -->
-  <MarriageSpotInPrisonCell>TODO</MarriageSpotInPrisonCell>
+  <MarriageSpotInPrisonCell>در سلول زندان</MarriageSpotInPrisonCell>
   <!-- EN: uncomfortable temperature -->
-  <NotEnjoyableOutsideTemperature>TODO</NotEnjoyableOutsideTemperature>
+  <NotEnjoyableOutsideTemperature>دمای ناراحت‌کننده</NotEnjoyableOutsideTemperature>
 
   <!-- Colonist bar -->
   <!-- EN: Medical rest -->
-  <ActivityIconMedicalRest>TODO</ActivityIconMedicalRest>
+  <ActivityIconMedicalRest>استراحت پزشکی</ActivityIconMedicalRest>
   <!-- EN: Sleeping -->
-  <ActivityIconSleeping>TODO</ActivityIconSleeping>
+  <ActivityIconSleeping>خوابیدن</ActivityIconSleeping>
   <!-- EN: Fleeing -->
-  <ActivityIconFleeing>TODO</ActivityIconFleeing>
+  <ActivityIconFleeing>فرار</ActivityIconFleeing>
   <!-- EN: Fighting -->
-  <ActivityIconAttacking>TODO</ActivityIconAttacking>
+  <ActivityIconAttacking>جنگیدن</ActivityIconAttacking>
   <!-- EN: Idle -->
-  <ActivityIconIdle>TODO</ActivityIconIdle>
+  <ActivityIconIdle>بیکار</ActivityIconIdle>
   <!-- EN: Burning -->
-  <ActivityIconBurning>TODO</ActivityIconBurning>
+  <ActivityIconBurning>در حال سوختن</ActivityIconBurning>
   <!-- EN: Forming a caravan -->
-  <ActivityIconFormingCaravan>TODO</ActivityIconFormingCaravan>
+  <ActivityIconFormingCaravan>تشکیل کاروان</ActivityIconFormingCaravan>
 
   <!-- Maintainable -->
   <!-- EN: Due for maintenance. -->
-  <DueForMaintenance>TODO</DueForMaintenance>
+  <DueForMaintenance>نیاز به تعمیر و نگهداری.</DueForMaintenance>
   <!-- EN: Deteriorating due to lack of maintenance. -->
-  <DeterioratingDueToLackOfMaintenance>TODO</DeterioratingDueToLackOfMaintenance>
+  <DeterioratingDueToLackOfMaintenance>در حال تخریب به دلیل عدم تعمیر و نگهداری.</DeterioratingDueToLackOfMaintenance>
 
   <!-- Deep drill -->
   <!-- EN: Progress to next lump -->
-  <ProgressToNextLump>TODO</ProgressToNextLump>
+  <ProgressToNextLump>پیشرفت به سمت توده بعدی</ProgressToNextLump>
   <!-- EN: Resource below -->
-  <ResourceBelow>TODO</ResourceBelow>
+  <ResourceBelow>منبع زیر</ResourceBelow>
   <!-- EN: Progress to next portion -->
-  <ProgressToNextPortion>TODO</ProgressToNextPortion>
+  <ProgressToNextPortion>پیشرفت به سمت بخش بعدی</ProgressToNextPortion>
   <!-- EN: No resources below. -->
-  <DeepDrillNoResources>TODO</DeepDrillNoResources>
+  <DeepDrillNoResources>هیچ منبعی در زیر نیست.</DeepDrillNoResources>
   <!-- EN: Deep drill resources exhausted, drill automatically forbidden. Unforbid to begin mining of {0}. -->
-  <DeepDrillExhausted>TODO</DeepDrillExhausted>
+  <DeepDrillExhausted>منابع حفاری عمیق تمام شده است، حفاری به طور خودکار ممنوع شد. برای شروع استخراج {0}، ممنوعیت را لغو کنید.</DeepDrillExhausted>
   <!-- EN: Deep drill resources exhausted. -->
-  <DeepDrillExhaustedNoFallback>TODO</DeepDrillExhaustedNoFallback>
+  <DeepDrillExhaustedNoFallback>منابع حفاری عمیق تمام شده است.</DeepDrillExhaustedNoFallback>
 
   <!-- reloading ammo -->
   <!-- EN: Remaining charges -->
-  <ChargesRemaining>TODO</ChargesRemaining>
+  <ChargesRemaining>شارژهای باقی‌مانده</ChargesRemaining>
   
   <!-- Learning helper -->
   <!-- EN: Learning helper -->
-  <LearningHelper>TODO</LearningHelper>
+  <LearningHelper>راهنمای یادگیری</LearningHelper>
   <!-- EN: In-game tutor that aims to teach you information about topics relevant to your colony's current state -->
-  <LearningHelperTooltip>TODO</LearningHelperTooltip>
+  <LearningHelperTooltip>معلم درون بازی که هدف آن آموزش اطلاعات مربوط به موضوعات مرتبط با وضعیت فعلی کلونی شماست.</LearningHelperTooltip>
   <!-- EN: Mark as learned -->
-  <MarkLearned>TODO</MarkLearned>
+  <MarkLearned>علامت‌گذاری به عنوان یاد گرفته شده</MarkLearned>
   <!-- EN: Already learned -->
-  <AlreadyLearned>TODO</AlreadyLearned>
+  <AlreadyLearned>قبلاً یاد گرفته شده</AlreadyLearned>
   <!-- EN: Filter -->
-  <Filter>TODO</Filter>
+  <Filter>فیلتر</Filter>
 
   <!-- Compass -->
   <!-- EN: Shows the north direction. Click to rotate the camera so the north pole is up. -->
-  <CompassTip>TODO</CompassTip>
+  <CompassTip>جهت شمال را نشان می‌دهد. برای چرخش دوربین به طوری که قطب شمال بالا باشد، کلیک کنید.</CompassTip>
 
   <!-- World route planner -->
   <!-- EN: Click to enter the planning mode where you can plan your journey and calculate distance between waypoints. -->
-  <RoutePlannerButtonTip>TODO</RoutePlannerButtonTip>
+  <RoutePlannerButtonTip>برای ورود به حالت برنامه‌ریزی که در آن می‌توانید سفر خود را برنامه‌ریزی کرده و فاصله بین نقاط مسیر را محاسبه کنید، کلیک کنید.</RoutePlannerButtonTip>
   <!-- EN: Add two or more waypoints. -->
-  <RoutePlannerAddTwoOrMoreWaypoints>TODO</RoutePlannerAddTwoOrMoreWaypoints>
+  <RoutePlannerAddTwoOrMoreWaypoints>دو یا چند نقطه مسیر اضافه کنید.</RoutePlannerAddTwoOrMoreWaypoints>
   <!-- EN: Add one or more waypoints. -->
-  <RoutePlannerAddOneOrMoreWaypoints>TODO</RoutePlannerAddOneOrMoreWaypoints>
+  <RoutePlannerAddOneOrMoreWaypoints>یک یا چند نقطه مسیر اضافه کنید.</RoutePlannerAddOneOrMoreWaypoints>
   <!-- EN: Total route time: {0} -->
-  <RoutePlannerEstTimeToFinalDest>TODO</RoutePlannerEstTimeToFinalDest>
+  <RoutePlannerEstTimeToFinalDest>کل زمان مسیر: {0}</RoutePlannerEstTimeToFinalDest>
   <!-- EN: Planning mode uses the default caravan speed. Your speed may vary. -->
-  <RoutePlannerUsingAverageTicksPerMoveWarning>TODO</RoutePlannerUsingAverageTicksPerMoveWarning>
+  <RoutePlannerUsingAverageTicksPerMoveWarning>حالت برنامه‌ریزی از سرعت پیش‌فرض کاروان استفاده می‌کند. سرعت شما ممکن است متفاوت باشد.</RoutePlannerUsingAverageTicksPerMoveWarning>
   <!-- EN: Calculating for: {0} -->
-  <RoutePlannerUsingTicksPerMoveOfCaravan>TODO</RoutePlannerUsingTicksPerMoveOfCaravan>
+  <RoutePlannerUsingTicksPerMoveOfCaravan>محاسبه برای: {0}</RoutePlannerUsingTicksPerMoveOfCaravan>
   <!-- EN: Right mouse button: Add/remove waypoints. -->
-  <RoutePlannerPressRMBToAddAndRemoveWaypoints>TODO</RoutePlannerPressRMBToAddAndRemoveWaypoints>
+  <RoutePlannerPressRMBToAddAndRemoveWaypoints>دکمه راست ماوس: افزودن/حذف نقاط مسیر.</RoutePlannerPressRMBToAddAndRemoveWaypoints>
   <!-- EN: Left trigger button: Add/remove waypoints. -->
-  <RoutePlannerPressRMBToAddAndRemoveWaypointsController>TODO</RoutePlannerPressRMBToAddAndRemoveWaypointsController>
+  <RoutePlannerPressRMBToAddAndRemoveWaypointsController>دکمه تریگر چپ: افزودن/حذف نقاط مسیر.</RoutePlannerPressRMBToAddAndRemoveWaypointsController>
   <!-- EN: ESC: Exit planning mode. -->
-  <RoutePlannerPressEscapeToExit>TODO</RoutePlannerPressEscapeToExit>
+  <RoutePlannerPressEscapeToExit>ESC: خروج از حالت برنامه‌ریزی.</RoutePlannerPressEscapeToExit>
   <!-- EN: {Key:Cancel}: Exit planning mode. -->
-  <RoutePlannerPressEscapeToExitController>TODO</RoutePlannerPressEscapeToExitController>
+  <RoutePlannerPressEscapeToExitController>{Key:Cancel}: خروج از حالت برنامه‌ریزی.</RoutePlannerPressEscapeToExitController>
   <!-- EN: ESC: Return to the caravan formation dialog. -->
-  <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>TODO</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
+  <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC: بازگشت به پنجره تشکیل کاروان.</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
   <!-- EN: {Key:Cancel}: Return to the caravan formation dialog. -->
-  <RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>TODO</RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>
+  <RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>{Key:Cancel}: بازگشت به پنجره تشکیل کاروان.</RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>
   <!-- EN: Est. travel time: {0} -->
-  <EstimatedTimeToWaypoint>TODO</EstimatedTimeToWaypoint>
+  <EstimatedTimeToWaypoint>زمان تخمینی سفر: {0}</EstimatedTimeToWaypoint>
   <!-- EN: Est. travel time (from previous waypoint): {0} -->
-  <EstimatedTimeToWaypointFromPrevious>TODO</EstimatedTimeToWaypointFromPrevious>
+  <EstimatedTimeToWaypointFromPrevious>زمان تخمینی سفر (از نقطه مسیر قبلی): {0}</EstimatedTimeToWaypointFromPrevious>
   <!-- EN: Est. travel time: {0} -->
-  <EstimatedTimeToTile>TODO</EstimatedTimeToTile>
+  <EstimatedTimeToTile>زمان تخمینی سفر: {0}</EstimatedTimeToTile>
   <!-- EN: Foraged food amount -->
-  <ForagedFoodAmount>TODO</ForagedFoodAmount>
+  <ForagedFoodAmount>مقدار غذای جمع‌آوری شده</ForagedFoodAmount>
 
   <!-- Outfits -->
   <!-- EN: Anything -->
-  <OutfitAnything>TODO</OutfitAnything>
+  <OutfitAnything>هر چیزی</OutfitAnything>
   <!-- EN: Worker -->
-  <OutfitWorker>TODO</OutfitWorker>
+  <OutfitWorker>کارگر</OutfitWorker>
   <!-- EN: Soldier -->
-  <OutfitSoldier>TODO</OutfitSoldier>
+  <OutfitSoldier>سرباز</OutfitSoldier>
   <!-- EN: Nudist -->
-  <OutfitNudist>TODO</OutfitNudist>
+  <OutfitNudist>برهنه‌گرا</OutfitNudist>
   <!-- EN: Spacefarer -->
-  <OutfitSpacefarer>TODO</OutfitSpacefarer>
+  <OutfitSpacefarer>فضانورد</OutfitSpacefarer>
 
   <!-- Hibernatable -->
   <!-- EN: Hibernating -->
-  <HibernatableHibernating>TODO</HibernatableHibernating>
+  <HibernatableHibernating>در حال خواب زمستانی</HibernatableHibernating>
   <!-- EN: Starting up -->
-  <HibernatableStartingUp>TODO</HibernatableStartingUp>
+  <HibernatableStartingUp>در حال راه‌اندازی</HibernatableStartingUp>
 
   <!-- Transport pods -->
   <!-- EN: {0}: See available orders... -->
-  <ClickToSeeAvailableOrders_WorldObject>TODO</ClickToSeeAvailableOrders_WorldObject>
+  <ClickToSeeAvailableOrders_WorldObject>{0}: مشاهده دستورات موجود...</ClickToSeeAvailableOrders_WorldObject>
   <!-- EN: See available orders... -->
-  <ClickToSeeAvailableOrders_Empty>TODO</ClickToSeeAvailableOrders_Empty>
+  <ClickToSeeAvailableOrders_Empty>مشاهده دستورات موجود...</ClickToSeeAvailableOrders_Empty>
   
   <!-- Pawn tooltips -->
   <!-- EN: {0} ({1})\n{2}\n{3} -->
-  <PawnTooltipWithDescAndPrimaryEquip>TODO</PawnTooltipWithDescAndPrimaryEquip>
+  <PawnTooltipWithDescAndPrimaryEquip>{0} ({1})\n{2}\n{3}</PawnTooltipWithDescAndPrimaryEquip>
   <!-- EN: {0} ({1})\n{2} -->
-  <PawnTooltipWithDescNoPrimaryEquip>TODO</PawnTooltipWithDescNoPrimaryEquip>
+  <PawnTooltipWithDescNoPrimaryEquip>{0} ({1})\n{2}</PawnTooltipWithDescNoPrimaryEquip>
   <!-- EN: {0}\n{1}\n{2} -->
-  <PawnTooltipWithPrimaryEquipNoDesc>TODO</PawnTooltipWithPrimaryEquipNoDesc>
+  <PawnTooltipWithPrimaryEquipNoDesc>{0}\n{1}\n{2}</PawnTooltipWithPrimaryEquipNoDesc>
   <!-- EN: {0}\n{1} -->
-  <PawnTooltipNoDescNoPrimaryEquip>TODO</PawnTooltipNoDescNoPrimaryEquip>
+  <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
   <!-- EN: Fall rate: {0} / s ({1}s until zero) -->
-  <PawnTooltipPsychicEntropyStats>TODO</PawnTooltipPsychicEntropyStats>
+  <PawnTooltipPsychicEntropyStats>نرخ کاهش: {0} / ثانیه ({1} ثانیه تا صفر)</PawnTooltipPsychicEntropyStats>
   <!-- EN: Neural heat increases after using a psychic power. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
-  <PawnTooltipPsychicEntropyDesc>TODO</PawnTooltipPsychicEntropyDesc>
+  <PawnTooltipPsychicEntropyDesc>حرارت عصبی پس از استفاده از قدرت روانی افزایش می‌یابد. فراتر رفتن از حد مجاز ممکن است باعث فروپاشی روانی شود که روزها طول می‌کشد.\n\nحرارت عصبی به مرور زمان به طور طبیعی کاهش می‌یابد. این فرآیند را می‌توان با پوشیدن لباس‌های التکس یا درد کشیدن تسریع کرد.</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
-  <PawnTooltipPsychicEntropyPainFocus>TODO</PawnTooltipPsychicEntropyPainFocus>
+  <PawnTooltipPsychicEntropyPainFocus>تقویت درد\n\nدرد ذهن را متمرکز می‌کند و اتلاف حرارت عصبی را تسریع می‌بخشد.\n\nسطح درد: {0}\nپاداش به بازیابی حرارت: {1}</PawnTooltipPsychicEntropyPainFocus>
   <!-- EN: Toggle neural heat limiter. Exceeding your heat limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
-  <PawnTooltipPsychicEntropyLimit>TODO</PawnTooltipPsychicEntropyLimit>
+  <PawnTooltipPsychicEntropyLimit>تغییر وضعیت محدودکننده حرارت عصبی. فراتر رفتن از حد حرارت شما ممکن است باعث فروپاشی روانی شود که روزها طول می‌کشد. این باعث آسیب دائمی نخواهد شد.</PawnTooltipPsychicEntropyLimit>
   <!-- EN: Psyfocus: {0} -->
-  <PawnTooltipPsyfocus>TODO</PawnTooltipPsyfocus>
+  <PawnTooltipPsyfocus>پسافوکوس: {0}</PawnTooltipPsyfocus>
   
   <!-- Pawn tooltip description -->
   <!-- EN: {0} {1} -->
-  <PawnTooltipGenderAndKindLabel>TODO</PawnTooltipGenderAndKindLabel>
+  <PawnTooltipGenderAndKindLabel>{0} {1}</PawnTooltipGenderAndKindLabel>
 
   <!-- Rewards -->
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive in a transport pod {0_relationInfoInParentheses} -->
-  <Reward_Pawn_DropPod>TODO</Reward_Pawn_DropPod>
+  <Reward_Pawn_DropPod>یک {0_title} {0_age} ساله به نام {0_nameDef} با کپسول حمل و نقل وارد خواهد شد {0_relationInfoInParentheses}</Reward_Pawn_DropPod>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive and join you {0_relationInfoInParentheses} -->
-  <Reward_Pawn_WalkIn>TODO</Reward_Pawn_WalkIn>
+  <Reward_Pawn_WalkIn>یک {0_title} {0_age} ساله به نام {0_nameDef} وارد شده و به شما ملحق می‌شود {0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
-  <Reward_Pawn_Caravan>TODO</Reward_Pawn_Caravan>
+  <Reward_Pawn_Caravan>یک {0_title} {0_age} ساله به نام {0_nameDef} به شما ملحق می‌شود {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
   <!-- EN: transport pods with the following resources will arrive (total value {1}):\n\n{0} -->
-  <Reward_Items>TODO</Reward_Items>
+  <Reward_Items>کپسول‌های حمل و نقل با منابع زیر وارد خواهند شد (ارزش کل {1}):\n\n{0}</Reward_Items>
   <!-- EN: you will receive (total value {1}):\n\n{0} -->
-  <Reward_Items_Caravan>TODO</Reward_Items_Caravan>
+  <Reward_Items_Caravan>شما دریافت خواهید کرد (ارزش کل {1}):\n\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
-  <Reward_Goodwill>TODO</Reward_Goodwill>
+  <Reward_Goodwill>روابط جناح شما با {0_name} به میزان {1} بهبود می‌یابد</Reward_Goodwill>
   <!-- EN: you will be taken to the stars -->
-  <Reward_PassageOffworld>TODO</Reward_PassageOffworld>
+  <Reward_PassageOffworld>شما به ستارگان برده خواهید شد</Reward_PassageOffworld>
   <!-- EN: Passage offworld -->
-  <Reward_PassageOffworld_Label>TODO</Reward_PassageOffworld_Label>
+  <Reward_PassageOffworld_Label>عبور از جهان</Reward_PassageOffworld_Label>
   <!-- EN: you can loot everything from the camp -->
-  <Reward_CampLoot>TODO</Reward_CampLoot>
+  <Reward_CampLoot>شما می‌توانید همه چیز را از اردوگاه غارت کنید</Reward_CampLoot>
   <!-- EN: Camp loot -->
-  <Reward_CampLoot_Label>TODO</Reward_CampLoot_Label>
+  <Reward_CampLoot_Label>غارت اردوگاه</Reward_CampLoot_Label>
   <!-- EN: It is unclear what will happen if you accept this quest -->
-  <Reward_Unknown>TODO</Reward_Unknown>
+  <Reward_Unknown>مشخص نیست اگر این ماموریت را بپذیرید چه اتفاقی می‌افتد</Reward_Unknown>
   <!-- EN: Unknown -->
-  <Reward_Unknown_Label>TODO</Reward_Unknown_Label>
+  <Reward_Unknown_Label>ناشناخته</Reward_Unknown_Label>
   <!-- EN: the visitors will work and fight for you -->
-  <Reward_VisitorsHelp>TODO</Reward_VisitorsHelp>
+  <Reward_VisitorsHelp>بازدیدکنندگان برای شما کار و مبارزه خواهند کرد</Reward_VisitorsHelp>
   <!-- EN: Visitors' help -->
-  <Reward_VisitorsHelp_Label>TODO</Reward_VisitorsHelp_Label>
+  <Reward_VisitorsHelp_Label>کمک بازدیدکنندگان</Reward_VisitorsHelp_Label>
   <!-- EN: New psylink level -->
-  <Reward_BestowingCeremony_Label>TODO</Reward_BestowingCeremony_Label>
+  <Reward_BestowingCeremony_Label>سطح پیوند روانی جدید</Reward_BestowingCeremony_Label>
   <!-- EN: {PAWNNAME} gains psylink -->
-  <Reward_BestowingCeremony>TODO</Reward_BestowingCeremony>
+  <Reward_BestowingCeremony>{PAWNNAME} پیوند روانی به دست می‌آورد</Reward_BestowingCeremony>
   <!-- EN: Shuttle loot -->
-  <Reward_ShuttleLoot_Label>TODO</Reward_ShuttleLoot_Label>
+  <Reward_ShuttleLoot_Label>غارت شاتل</Reward_ShuttleLoot_Label>
   <!-- EN: you can deconstruct and loot the shuttle -->
-  <Reward_ShuttleLoot>TODO</Reward_ShuttleLoot>
+  <Reward_ShuttleLoot>شما می‌توانید شاتل را تخریب و غارت کنید</Reward_ShuttleLoot>
   <!-- EN: Possible future reward -->
-  <Reward_PossibleFutureReward_Label>TODO</Reward_PossibleFutureReward_Label>
+  <Reward_PossibleFutureReward_Label>پاداش احتمالی آینده</Reward_PossibleFutureReward_Label>
   <!-- EN: a reward possibly granted in the future -->
-  <Reward_PossibleFutureReward>TODO</Reward_PossibleFutureReward>
+  <Reward_PossibleFutureReward>پاداشی که احتمالاً در آینده اعطا می‌شود</Reward_PossibleFutureReward>
   <!-- EN: {TITLE} title -->
-  <Reward_Title_Label>TODO</Reward_Title_Label>
+  <Reward_Title_Label>عنوان {TITLE}</Reward_Title_Label>
   <!-- EN: {PAWNNAME} gains {TITLE} title from {FACTION} -->
-  <Reward_Title>TODO</Reward_Title>
+  <Reward_Title>{PAWNNAME} عنوان {TITLE} را از {FACTION} دریافت می‌کند</Reward_Title>
   <!-- EN: value {0} -->
-  <TotalValue>TODO</TotalValue>
+  <TotalValue>ارزش {0}</TotalValue>
   
   <!-- Bladelink -->
   <!-- EN: Bonded to: {0} -->
-  <BondedWith>TODO</BondedWith>
+  <BondedWith>پیوند خورده با: {0}</BondedWith>
   <!-- EN: Not yet bonded -->
-  <NotBonded>TODO</NotBonded>
+  <NotBonded>هنوز پیوند نخورده</NotBonded>
   <!-- EN: bonded to someone else -->
-  <BladelinkBondedToSomeoneElse>TODO</BladelinkBondedToSomeoneElse>
+  <BladelinkBondedToSomeoneElse>پیوند خورده با شخص دیگری</BladelinkBondedToSomeoneElse>
   <!-- EN: (existing bond) -->
-  <BladelinkAlreadyBonded>TODO</BladelinkAlreadyBonded>
+  <BladelinkAlreadyBonded>(پیوند موجود)</BladelinkAlreadyBonded>
   <!-- EN: A person can only bond with one persona weapon at a time.\n\nTo equip and bond with {WEAPON_labelShort}, {PAWN_nameDef}'s currently bonded weapon {BONDEDWEAPON_labelShort} must first be destroyed. -->
-  <BladelinkAlreadyBondedDialog>TODO</BladelinkAlreadyBondedDialog>
+  <BladelinkAlreadyBondedDialog>یک شخص فقط می‌تواند در یک زمان با یک سلاح پرسونا پیوند برقرار کند.\n\nبرای تجهیز و پیوند با {WEAPON_labelShort}، سلاح فعلی پیوند خورده {PAWN_nameDef} یعنی {BONDEDWEAPON_labelShort} باید ابتدا نابود شود.</BladelinkAlreadyBondedDialog>
   <!-- EN: {PAWN_nameDef} is already bonded to {BONDEDWEAPON_labelShort} -->
-  <BladelinkAlreadyBondedMessage>TODO</BladelinkAlreadyBondedMessage>
+  <BladelinkAlreadyBondedMessage>{PAWN_nameDef} قبلاً با {BONDEDWEAPON_labelShort} پیوند خورده است</BladelinkAlreadyBondedMessage>
 
   <!-- Biocoded weapons -->
   <!-- EN: biocoded {0} -->
-  <Biocoded>TODO</Biocoded>
+  <Biocoded>بیوکد شده {0}</Biocoded>
   <!-- EN: Biocoding: {0} -->
-  <CodedFor>TODO</CodedFor>
+  <CodedFor>بیوکدینگ: {0}</CodedFor>
   <!-- EN: biocoded -->
-  <BiocodedCodedForSomeoneElse>TODO</BiocodedCodedForSomeoneElse>
+  <BiocodedCodedForSomeoneElse>بیوکد شده</BiocodedCodedForSomeoneElse>
 
   <!-- Projectile interceptor -->
   <!-- EN: Intercepts {0} every {1}. -->
-  <InterceptsProjectilesEvery>TODO</InterceptsProjectilesEvery>
+  <InterceptsProjectilesEvery>{0} را هر {1} رهگیری می‌کند.</InterceptsProjectilesEvery>
   <!-- EN: Intercepts {0}. -->
-  <InterceptsProjectiles>TODO</InterceptsProjectiles>
+  <InterceptsProjectiles>{0} را رهگیری می‌کند.</InterceptsProjectiles>
   <!-- EN: ground and aerial projectiles -->
-  <InterceptsProjectiles_BothProjectiles>TODO</InterceptsProjectiles_BothProjectiles>
+  <InterceptsProjectiles_BothProjectiles>پرتابه‌های زمینی و هوایی</InterceptsProjectiles_BothProjectiles>
   <!-- EN: ground projectiles -->
-  <InterceptsProjectiles_GroundProjectiles>TODO</InterceptsProjectiles_GroundProjectiles>
+  <InterceptsProjectiles_GroundProjectiles>پرتابه‌های زمینی</InterceptsProjectiles_GroundProjectiles>
   <!-- EN: aerial projectiles -->
-  <InterceptsProjectiles_AerialProjectiles>TODO</InterceptsProjectiles_AerialProjectiles>
+  <InterceptsProjectiles_AerialProjectiles>پرتابه‌های هوایی</InterceptsProjectiles_AerialProjectiles>
 
   <!-- Condition causers -->
   <!-- EN: Affected gender -->
-  <AffectedGender>TODO</AffectedGender>
+  <AffectedGender>جنسیت تحت تأثیر</AffectedGender>
 
   <!-- Hediff misc -->
   <!-- EN: Caused by: {0} -->
-  <CausedByHediff>TODO</CausedByHediff>
+  <CausedByHediff>ناشی از: {0}</CausedByHediff>
   
   <!-- EN: {DAMAGE_label} weakness -->
-  <DamageFactorWeakness>TODO</DamageFactorWeakness>
+  <DamageFactorWeakness>ضعف در برابر {DAMAGE_label}</DamageFactorWeakness>
   <!-- EN: {DAMAGE_label} resistance -->
-  <DamageFactorResistance>TODO</DamageFactorResistance>
+  <DamageFactorResistance>مقاومت در برابر {DAMAGE_label}</DamageFactorResistance>
   <!-- EN: {DAMAGE_label} damage that this creature receives is multiplied by this amount. -->
-  <DamageFactor>TODO</DamageFactor>
+  <DamageFactor>آسیب {DAMAGE_label} که این موجود دریافت می‌کند در این مقدار ضرب می‌شود.</DamageFactor>
   
   <!-- Healing -->
   <!-- EN: {0_nameDef}'s {1} was healed. -->
-  <HealingHealHediff>TODO</HealingHealHediff>
+  <HealingHealHediff>{1} {0_nameDef} درمان شد.</HealingHealHediff>
   <!-- EN: {0_nameDef}'s {1} was restored. -->
-  <HealingRestoreBodyPart>TODO</HealingRestoreBodyPart>
+  <HealingRestoreBodyPart>{1} {0_nameDef} بازیابی شد.</HealingRestoreBodyPart>
 
   <!-- EN: Caution: Placing a building here will anger {FACTION_name}! -->
-  <WarningBuildingCausesHostility>TODO</WarningBuildingCausesHostility>
+  <WarningBuildingCausesHostility>هشدار: قرار دادن ساختمان در اینجا باعث خشم {FACTION_name} خواهد شد!</WarningBuildingCausesHostility>
 
   <!-- EN: Choose landing site -->
-  <ChooseLandingSite>TODO</ChooseLandingSite>
+  <ChooseLandingSite>انتخاب محل فرود</ChooseLandingSite>
 
   <!-- LordJobs -->
   <!-- EN: Outcome chances at {0} quality -->
-  <LordJobOutcomeChances>TODO</LordJobOutcomeChances>
+  <LordJobOutcomeChances>شانس نتیجه در کیفیت {0}</LordJobOutcomeChances>
   <!-- EN: Expected duration -->
-  <ExpectedLordJobDuration>TODO</ExpectedLordJobDuration>
+  <ExpectedLordJobDuration>مدت زمان مورد انتظار</ExpectedLordJobDuration>
 
   <!-- Rituals -->
   <!-- EN: ritual -->
-  <Ritual>TODO</Ritual>
+  <Ritual>مراسم</Ritual>
 
   <!-- EN: Takes place at -->
-  <RitualTakesPlaceAt>TODO</RitualTakesPlaceAt>
+  <RitualTakesPlaceAt>برگزار می‌شود در</RitualTakesPlaceAt>
   <!-- EN: Any {0} -->
-  <RitualTargetThingDefsInfo>TODO</RitualTargetThingDefsInfo>
+  <RitualTargetThingDefsInfo>هر {0}</RitualTargetThingDefsInfo>
   <!-- EN: Attending {0} -->
-  <LordReportAttending>TODO</LordReportAttending>
+  <LordReportAttending>شرکت در {0}</LordReportAttending>
   <!-- EN: {0} has been canceled. -->
-  <RitualCalledOff>TODO</RitualCalledOff>
+  <RitualCalledOff>{0} لغو شده است.</RitualCalledOff>
   <!-- EN: {0} was not completed because of lack of attendance. -->
-  <RitualNobodyAttended>TODO</RitualNobodyAttended>
+  <RitualNobodyAttended>{0} به دلیل عدم حضور تکمیل نشد.</RitualNobodyAttended>
   <!-- EN: {0} has been completed. -->
-  <RitualFinished>TODO</RitualFinished>
+  <RitualFinished>{0} تکمیل شده است.</RitualFinished>
   <!-- EN: ends in {0} -->
-  <RitualEndsIn>TODO</RitualEndsIn>
+  <RitualEndsIn>پایان در {0}</RitualEndsIn>
   <!-- EN: Can start any time -->
-  <RitualStartAnyTime>TODO</RitualStartAnyTime>
+  <RitualStartAnyTime>می‌تواند هر زمان شروع شود</RitualStartAnyTime>
   <!-- EN: Can start after event -->
-  <RitualStartEvent>TODO</RitualStartEvent>
+  <RitualStartEvent>می‌تواند پس از رویداد شروع شود</RitualStartEvent>
   <!-- EN: Focus objects -->
-  <RitualFocusObjects>TODO</RitualFocusObjects>
+  <RitualFocusObjects>اشیاء تمرکز</RitualFocusObjects>
   <!-- EN: Participating roles -->
-  <RitualParticipatingRoles>TODO</RitualParticipatingRoles>
+  <RitualParticipatingRoles>نقش‌های شرکت‌کننده</RitualParticipatingRoles>
   <!-- EN: Organizers -->
-  <Organizers>TODO</Organizers>
+  <Organizers>سازمان‌دهندگان</Organizers>
   <!-- EN: Quality factors -->
-  <QualityFactors>TODO</QualityFactors>
+  <QualityFactors>عوامل کیفیت</QualityFactors>
   <!-- EN: This condition may be fulfilled, depending on how things play out.\n\nIf it is fulfilled, the quality bonus will apply. -->
-  <QualityFactorTooltipUncertain>TODO</QualityFactorTooltipUncertain>
+  <QualityFactorTooltipUncertain>این شرط ممکن است بسته به نحوه پیشرفت اوضاع برآورده شود.\n\nاگر برآورده شود، پاداش کیفیت اعمال خواهد شد.</QualityFactorTooltipUncertain>
   <!-- EN: This condition is not fulfilled.\n\nThe quality bonus will not apply. -->
-  <QualityFactorTooltipNotFulfilled>TODO</QualityFactorTooltipNotFulfilled>
+  <QualityFactorTooltipNotFulfilled>این شرط برآورده نشده است.\n\nپاداش کیفیت اعمال نخواهد شد.</QualityFactorTooltipNotFulfilled>
   <!-- EN: Spectators -->
-  <Spectators>TODO</Spectators>
+  <Spectators>تماشاگران</Spectators>
   <!-- EN: Not participating -->
-  <NotParticipating>TODO</NotParticipating>
+  <NotParticipating>شرکت نمی‌کند</NotParticipating>
   <!-- EN: Drag and drop or left/right click to move people. -->
-  <DragPawnsToRolesInfo>TODO</DragPawnsToRolesInfo>
+  <DragPawnsToRolesInfo>بکشید و رها کنید یا کلیک چپ/راست کنید تا افراد را جابجا کنید.</DragPawnsToRolesInfo>
   <!-- EN: Drag and drop or click to move people. -->
-  <DragPawnsToRolesInfoController>TODO</DragPawnsToRolesInfoController>
+  <DragPawnsToRolesInfoController>بکشید و رها کنید یا کلیک کنید تا افراد را جابجا کنید.</DragPawnsToRolesInfoController>
   <!-- EN: A slave. The human property of others. -->
-  <RitualBeginSlaveDesc>TODO</RitualBeginSlaveDesc>
+  <RitualBeginSlaveDesc>یک برده. دارایی انسانی دیگران.</RitualBeginSlaveDesc>
   <!-- EN: {0_labelShort} is sleeping. If included in the event, {0_pronoun} will wake up to participate. -->
-  <RitualBeginSleepingDesc>TODO</RitualBeginSleepingDesc>
+  <RitualBeginSleepingDesc>{0_labelShort} خواب است. اگر در رویداد گنجانده شود، {0_pronoun} برای شرکت بیدار خواهد شد.</RitualBeginSleepingDesc>
   <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the event. -->
-  <RitualBeginSleepingWarning>TODO</RitualBeginSleepingWarning>
+  <RitualBeginSleepingWarning>برخی از شرکت‌کنندگان انتخاب شده خواب هستند. آنها پس از شروع رویداد بیدار خواهند شد.</RitualBeginSleepingWarning>
   <!-- EN: This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es) -->
-  <RitualRoleRequiresSocialRole>TODO</RitualRoleRequiresSocialRole>
+  <RitualRoleRequiresSocialRole>این موقعیت بهتر است توسط یک مهاجر که نقش اجتماعی {0} را دارد انجام شود.\n\nاگر کسی بدون این نقش این موقعیت را پر کند، پاداش(های) زیر را دریافت نخواهید کرد</RitualRoleRequiresSocialRole>
   <!-- EN: No substitute available for the role of {0}. -->
-  <RitualRoleCantSubstitute>TODO</RitualRoleCantSubstitute>
+  <RitualRoleCantSubstitute>جایگزینی برای نقش {0} موجود نیست.</RitualRoleCantSubstitute>
   <!-- EN: {0} progress -->
-  <RitualOutcomeProgress>TODO</RitualOutcomeProgress>
+  <RitualOutcomeProgress>پیشرفت {0}</RitualOutcomeProgress>
   <!-- EN: {0} quality depends on -->
-  <RitualOutcomeQualityAbstract>TODO</RitualOutcomeQualityAbstract>
+  <RitualOutcomeQualityAbstract>کیفیت {0} بستگی دارد به</RitualOutcomeQualityAbstract>
   <!-- EN: {0} total quality was {1}, determined by these factors -->
-  <RitualOutcomeQualitySpecific>TODO</RitualOutcomeQualitySpecific>
+  <RitualOutcomeQualitySpecific>کیفیت کل {0} برابر با {1} بود که توسط این عوامل تعیین شد</RitualOutcomeQualitySpecific>
   <!-- EN: Performed recently -->
-  <RitualOutcomePerformedRecently>TODO</RitualOutcomePerformedRecently>
+  <RitualOutcomePerformedRecently>اخیراً انجام شده</RitualOutcomePerformedRecently>
   <!-- EN: {0} expectations -->
-  <RitualQualityExpectations>TODO</RitualQualityExpectations>
+  <RitualQualityExpectations>انتظارات {0}</RitualQualityExpectations>
   <!-- EN: Ritual ambience sound -->
-  <RitualAmbienceSound>TODO</RitualAmbienceSound>
+  <RitualAmbienceSound>صدای محیطی مراسم</RitualAmbienceSound>
   <!-- EN: Total {0} quality is below {1}. Proceeding will most likely negatively impact your colony.\n\nAre you sure? -->
-  <RitualQualityLowWarning>TODO</RitualQualityLowWarning>
+  <RitualQualityLowWarning>کیفیت کل {0} کمتر از {1} است. ادامه دادن به احتمال زیاد تأثیر منفی بر کلونی شما خواهد گذاشت.\n\nآیا مطمئن هستید؟</RitualQualityLowWarning>
   <!-- EN: No reachable appropriate place to speak. -->
-  <AbilitySpeechDisabledNoSpot>TODO</AbilitySpeechDisabledNoSpot>
+  <AbilitySpeechDisabledNoSpot>مکان مناسب قابل دسترسی برای صحبت کردن وجود ندارد.</AbilitySpeechDisabledNoSpot>
   <!-- EN: {0_labelShort} is incapable of {1}. -->
-  <AbilityDisabledNoCapacity>TODO</AbilityDisabledNoCapacity>
+  <AbilityDisabledNoCapacity>{0_labelShort} قادر به {1} نیست.</AbilityDisabledNoCapacity>
   <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
-  <RitualOutcomeExtraDesc_Mood>TODO</RitualOutcomeExtraDesc_Mood>
+  <RitualOutcomeExtraDesc_Mood>همه شرکت‌کنندگان در مراسم {0} خلق و خو برای {1} روز دریافت می‌کنند.</RitualOutcomeExtraDesc_Mood>
   <!-- EN: This ritual has no quality offsets, so the best outcome is always expected -->
-  <RitualOutcomeNoQuality>TODO</RitualOutcomeNoQuality>
+  <RitualOutcomeNoQuality>این مراسم هیچ افست کیفیتی ندارد، بنابراین همیشه بهترین نتیجه انتظار می‌رود</RitualOutcomeNoQuality>
 
   <!-- EN: Begin -->
-  <Begin>TODO</Begin>
+  <Begin>شروع</Begin>
   <!-- EN: Begin {0} -->
-  <BeginRitual>TODO</BeginRitual>
+  <BeginRitual>شروع {0}</BeginRitual>
   <!-- EN: Begin {0} for {1} -->
-  <BeginRitualFor>TODO</BeginRitualFor>
+  <BeginRitualFor>شروع {0} برای {1}</BeginRitualFor>
   <!-- EN: {0} (out of {1}) -->
-  <QualityOutOf>TODO</QualityOutOf>
+  <QualityOutOf>{0} (از {1})</QualityOutOf>
   <!-- EN: {0} is a date-specific ritual. You'll be able to start it in {1}, on the {2}. -->
-  <DateRitualNoObligation>TODO</DateRitualNoObligation>
+  <DateRitualNoObligation>{0} یک مراسم خاص تاریخ است. شما می‌توانید آن را در {1}، در {2} شروع کنید.</DateRitualNoObligation>
 
   <!-- EN: Replace with -->
   <PreceptReplaceWith>جایگزینی با</PreceptReplaceWith>
   <!-- EN: Ritual seat of {IDEOS} -->
   <RitualSeatOf>صندلی مراسم {IDEOS}</RitualSeatOf>
   <!-- EN: Expected quality -->
-  <ExpectedLordJobQuality>TODO</ExpectedLordJobQuality>
+  <ExpectedLordJobQuality>کیفیت مورد انتظار</ExpectedLordJobQuality>
   <!-- EN: Starting quality -->
   <StartingQuality>کیفیت شروع</StartingQuality>
   <!-- EN: {PAWN_labelShort}'s {1} -->
-  <RitualPredictedOutcomeDescPawnStat>TODO</RitualPredictedOutcomeDescPawnStat>
+  <RitualPredictedOutcomeDescPawnStat>{1} {PAWN_labelShort}</RitualPredictedOutcomeDescPawnStat>
   <!-- EN: Room beauty -->
-  <RitualPredictedOutcomeDescRoomBeauty>TODO</RitualPredictedOutcomeDescRoomBeauty>
+  <RitualPredictedOutcomeDescRoomBeauty>زیبایی اتاق</RitualPredictedOutcomeDescRoomBeauty>
   <!-- EN: {PAWN_labelShort}'s expectations -->
-  <RitualPredictedOutcomeDescPawnExpectations>TODO</RitualPredictedOutcomeDescPawnExpectations>
+  <RitualPredictedOutcomeDescPawnExpectations>انتظارات {PAWN_labelShort}</RitualPredictedOutcomeDescPawnExpectations>
   <!-- EN: Loved one present -->
-  <RitualOutcomeLovedOnePresentLabel>TODO</RitualOutcomeLovedOnePresentLabel>
+  <RitualOutcomeLovedOnePresentLabel>حضور عزیزان</RitualOutcomeLovedOnePresentLabel>
   <!-- EN: Any person that {PAWN_labelShort} considers their friend or more. -->
-  <RitualOutcomeLovedOnePresentTip>TODO</RitualOutcomeLovedOnePresentTip>
+  <RitualOutcomeLovedOnePresentTip>هر شخصی که {PAWN_labelShort} او را دوست خود یا بیشتر می‌داند.</RitualOutcomeLovedOnePresentTip>
 
   <!-- EN: Any of these -->
   <RitualOutcomeLabelAnyOfThese>هر یک از این‌ها</RitualOutcomeLabelAnyOfThese>
   <!-- EN: Replaces {PAWN_labelShort} -->
-  <RitualRoleReplaces>TODO</RitualRoleReplaces>
+  <RitualRoleReplaces>جایگزین {PAWN_labelShort} می‌شود</RitualRoleReplaces>
 
   <!-- EN: present -->
-  <Present>TODO</Present>
+  <Present>حاضر</Present>
   <!-- EN: {0} used -->
-  <Used>TODO</Used>
+  <Used>{0} استفاده شده</Used>
   <!-- EN: {0} starting quality -->
-  <StartingRitualQuality>TODO</StartingRitualQuality>
+  <StartingRitualQuality>{0} کیفیت شروع</StartingRitualQuality>
 
   <!-- EN: up to {0} quality -->
-  <OutcomeBonusDesc_Quality>TODO</OutcomeBonusDesc_Quality>
+  <OutcomeBonusDesc_Quality>تا {0} کیفیت</OutcomeBonusDesc_Quality>
   <!-- EN: {0} quality -->
-  <OutcomeBonusDesc_QualitySingleOffset>TODO</OutcomeBonusDesc_QualitySingleOffset>
+  <OutcomeBonusDesc_QualitySingleOffset>{0} کیفیت</OutcomeBonusDesc_QualitySingleOffset>
   <!-- EN: {OUTCOMELABEL} {RITUALLABEL} -->
-  <OutcomeLetterLabel>TODO</OutcomeLetterLabel>
+  <OutcomeLetterLabel>{OUTCOMELABEL} {RITUALLABEL}</OutcomeLetterLabel>
   <!-- EN: {0} max -->
-  <MaxValue>TODO</MaxValue>
+  <MaxValue>حداکثر {0}</MaxValue>
 
   <!-- EN: {0} of -->
-  <ThingOf>TODO</ThingOf>
+  <ThingOf>{0} از</ThingOf>
   <!-- EN: {0} of {1} -->
-  <ThingOfSource>TODO</ThingOfSource>
+  <ThingOfSource>{0} از {1}</ThingOfSource>
   <!-- EN: {0} of {1} and {2} -->
-  <ThingOfTwoSources>TODO</ThingOfTwoSources>
+  <ThingOfTwoSources>{0} از {1} و {2}</ThingOfTwoSources>
 
   <!-- Gas types -->
   <!-- EN: blind smoke -->
-  <BlindSmoke>TODO</BlindSmoke>
+  <BlindSmoke>دود کورکننده</BlindSmoke>
   <!-- EN: tox gas -->
-  <ToxGas>TODO</ToxGas>
+  <ToxGas>گاز سمی</ToxGas>
   <!-- EN: rot stink -->
-  <RotStink>TODO</RotStink>
+  <RotStink>بوی تعفن</RotStink>
   <!-- EN: deadlife dust -->
-  <DeadlifeDust>TODO</DeadlifeDust> 
+  <DeadlifeDust>غبار مرگ‌زی</DeadlifeDust> 
 
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
-  <AbilityDisabledUndrafted>TODO</AbilityDisabledUndrafted>
+  <AbilityDisabledUndrafted>باید احضار شود.</AbilityDisabledUndrafted>
   <!-- EN: ability on cooldown. It will be available in {0}. -->
-  <AbilityOnCooldown>TODO</AbilityOnCooldown>
+  <AbilityOnCooldown>قابلیت در حال خنک شدن. در {0} در دسترس خواهد بود.</AbilityOnCooldown>
   <!-- EN: ability out of charges. -->
-  <AbilityNoCharges>TODO</AbilityNoCharges>
+  <AbilityNoCharges>شارژ قابلیت تمام شده است.</AbilityNoCharges>
   <!-- EN: ability already queued. -->
-  <AbilityAlreadyQueued>TODO</AbilityAlreadyQueued>
+  <AbilityAlreadyQueued>قابلیت قبلاً در صف قرار گرفته است.</AbilityAlreadyQueued>
   <!-- EN: Ability ready for {PAWN_nameDef}: {0} -->
-  <AbilityReadyLabel>TODO</AbilityReadyLabel>
+  <AbilityReadyLabel>قابلیت آماده برای {PAWN_nameDef}: {0}</AbilityReadyLabel>
   <!-- EN: Abilities ready for {PAWN_nameDef}: {0} -->
-  <AbilitiesReadyLabel>TODO</AbilitiesReadyLabel>
+  <AbilitiesReadyLabel>قابلیت‌های آماده برای {PAWN_nameDef}: {0}</AbilitiesReadyLabel>
   <!-- EN: {0_nameDef} is ready to use {1}. -->
-  <AbilityReadyText>TODO</AbilityReadyText>
+  <AbilityReadyText>{0_nameDef} آماده استفاده از {1} است.</AbilityReadyText>
   <!-- EN: {0_labelShort} is participating in {1}. -->
-  <AbilityDisabledInRitual>TODO</AbilityDisabledInRitual>
+  <AbilityDisabledInRitual>{0_labelShort} در {1} شرکت می‌کند.</AbilityDisabledInRitual>
   <!-- EN: Charges -->
-  <Charges>TODO</Charges>
+  <Charges>شارژها</Charges>
 
   <!-- EN: {0_nameDef} is in a mental state. -->
-  <PawnIsInMentalState>TODO</PawnIsInMentalState>
+  <PawnIsInMentalState>{0_nameDef} در وضعیت روانی است.</PawnIsInMentalState>
   <!-- EN: {0_nameDef} is in an aggressive mental state. -->
-  <PawnIsInAggroMentalState>TODO</PawnIsInAggroMentalState>
+  <PawnIsInAggroMentalState>{0_nameDef} در وضعیت روانی تهاجمی است.</PawnIsInAggroMentalState>
 
   <!-- EN: Disabled work -->
-  <DisabledWorkLabel>TODO</DisabledWorkLabel>
+  <DisabledWorkLabel>کار غیرفعال شده</DisabledWorkLabel>
   <!-- EN: Disabled needs -->
-  <DisabledNeedsLabel>TODO</DisabledNeedsLabel>
+  <DisabledNeedsLabel>نیازهای غیرفعال شده</DisabledNeedsLabel>
 
   <!-- Glowers -->
   <!-- EN: change color -->
-  <GlowerChangeColor>TODO</GlowerChangeColor>
+  <GlowerChangeColor>تغییر رنگ</GlowerChangeColor>
   <!-- EN: Change the color of the light. -->
-  <GlowerChangeColorDescription>TODO</GlowerChangeColorDescription>
+  <GlowerChangeColorDescription>تغییر رنگ نور.</GlowerChangeColorDescription>
   <!-- EN: You must research {0} to change light color. -->
-  <GlowerChangeColorNeedsResearch>TODO</GlowerChangeColorNeedsResearch>
+  <GlowerChangeColorNeedsResearch>شما باید {0} را تحقیق کنید تا رنگ نور را تغییر دهید.</GlowerChangeColorNeedsResearch>
 
   <!-- Shields -->
   <!-- EN: A personal shield that will attempt to stop incoming projectiles or shrapnel. It prevents the wearer from firing out, and shuts down instantly if hit by an EMP. -->
-  <ShieldPersonalTip>TODO</ShieldPersonalTip>
+  <ShieldPersonalTip>یک سپر شخصی که سعی می‌کند پرتابه‌ها یا ترکش‌های ورودی را متوقف کند. این سپر مانع از شلیک پوشنده به بیرون می‌شود و در صورت برخورد با EMP فوراً خاموش می‌شود.</ShieldPersonalTip>
 
   <!-- EN: {PAWN_nameDef} is so loyal to {PAWN_possessive} home that {PAWN_pronoun} will refuse to be recruited if taken prisoner. -->
-  <UnrecruitableDesc>TODO</UnrecruitableDesc>
+  <UnrecruitableDesc>{PAWN_nameDef} آنقدر به خانه {PAWN_possessive} وفادار است که اگر اسیر شود، از جذب شدن خودداری خواهد کرد.</UnrecruitableDesc>
 
   <!-- EN: Random -->
-  <Random>TODO</Random>
+  <Random>تصادفی</Random>
 
   <!-- EN: Plant {0_label} -->
-  <PlantThing>TODO</PlantThing>
+  <PlantThing>کاشت {0_label}</PlantThing>
   <!-- EN: Plant a {0_label} in a chosen area. -->
-  <PlantThingDesc>TODO</PlantThingDesc>
+  <PlantThingDesc>کاشت یک {0_label} در یک منطقه انتخاب شده.</PlantThingDesc>
   <!-- EN: Cancel planting {0_label} -->
-  <CancelPlantThing>TODO</CancelPlantThing>
+  <CancelPlantThing>لغو کاشت {0_label}</CancelPlantThing>
   <!-- EN: Cancel planting the {0_label}. -->
-  <CancelPlantThingDesc>TODO</CancelPlantThingDesc>
+  <CancelPlantThingDesc>لغو کاشت {0_label}.</CancelPlantThingDesc>
 
   <!-- EN: another gathering is in progress. -->
-  <AbilitySpeechDisabledAnotherGatheringInProgress>TODO</AbilitySpeechDisabledAnotherGatheringInProgress>
+  <AbilitySpeechDisabledAnotherGatheringInProgress>گردهمایی دیگری در حال انجام است.</AbilitySpeechDisabledAnotherGatheringInProgress>
   <!-- EN: Next speech ready in -->
-  <AbilitySpeechCooldown>TODO</AbilitySpeechCooldown>
+  <AbilitySpeechCooldown>سخنرانی بعدی آماده در</AbilitySpeechCooldown>
   <!-- EN: Initiated at -->
-  <AbilitySpeechTargetsLabel>TODO</AbilitySpeechTargetsLabel>
+  <AbilitySpeechTargetsLabel>آغاز شده در</AbilitySpeechTargetsLabel>
   
   <!-- Books -->
 
   <!-- EN: Benefits -->
-  <Benefits>TODO</Benefits>
+  <Benefits>مزایا</Benefits>
   <!-- EN: Dangers -->
-  <Dangers>TODO</Dangers>
+  <Dangers>خطرات</Dangers>
   <!-- EN: already unlocked -->
-  <AlreadyUnlocked>TODO</AlreadyUnlocked>
+  <AlreadyUnlocked>قبلاً باز شده</AlreadyUnlocked>
   <!-- EN: when discovered -->
-  <WhenDiscovered>TODO</WhenDiscovered>
+  <WhenDiscovered>هنگام کشف</WhenDiscovered>
   
   <!-- EN: Was driven into a mental break after reading {0}. -->
-  <BookMentalBreakMessage>TODO</BookMentalBreakMessage>
+  <BookMentalBreakMessage>پس از خواندن {0} دچار فروپاشی روانی شد.</BookMentalBreakMessage>
   <!-- EN: {0} done (complete in {1} hours) -->
-  <BookReadProgress>TODO</BookReadProgress>
+  <BookReadProgress>{0} انجام شد (تکمیل در {1} ساعت)</BookReadProgress>
   
   <!-- EN: learning speed -->
-  <BookLearningModifier>TODO</BookLearningModifier>
+  <BookLearningModifier>سرعت یادگیری</BookLearningModifier>
   <!-- EN: Mental break chance -->
-  <BookMentalBreak>TODO</BookMentalBreak>
+  <BookMentalBreak>شانس فروپاشی روانی</BookMentalBreak>
   
   <!-- EN: {BOOK_labelShort} is not readable -->
-  <BookNotReadable>TODO</BookNotReadable>
+  <BookNotReadable>{BOOK_labelShort} قابل خواندن نیست</BookNotReadable>
   <!-- EN: {PAWN_nameDef} can't read -->
-  <BookCantRead>TODO</BookCantRead>
+  <BookCantRead>{PAWN_nameDef} نمی‌تواند بخواند</BookCantRead>
   <!-- EN: {PAWN_nameDef} must be a {STAGES} -->
-  <BookCantBeStage>TODO</BookCantBeStage>
+  <BookCantBeStage>{PAWN_nameDef} باید یک {STAGES} باشد</BookCantBeStage>
   <!-- EN: {PAWN_nameDef} is blind -->
-  <BookBlind>TODO</BookBlind>
+  <BookBlind>{PAWN_nameDef} نابینا است</BookBlind>
   
   <!-- EN: max level {0} -->
-  <BookMaxLevel>TODO</BookMaxLevel>
+  <BookMaxLevel>حداکثر سطح {0}</BookMaxLevel>
   
   <!-- EN: Reading {0}: {1} done (complete in {2} hours) -->
-  <ReadingReportHeader>TODO</ReadingReportHeader>
+  <ReadingReportHeader>خواندن {0}: {1} انجام شد (تکمیل در {2} ساعت)</ReadingReportHeader>
   
   <!-- EN: Assign reading -->
-  <ReadingDialogTitle>TODO</ReadingDialogTitle>
+  <ReadingDialogTitle>تعیین خواندن</ReadingDialogTitle>
   <!-- EN: Assign to {0} -->
-  <ReadingAssignTo>TODO</ReadingAssignTo>
+  <ReadingAssignTo>اختصاص به {0}</ReadingAssignTo>
   <!-- EN: Assign -->
-  <ReadingAssign>TODO</ReadingAssign>
+  <ReadingAssign>اختصاص دادن</ReadingAssign>
 
   <!-- EN: The books currently on this bookshelf. -->
-  <ContainedBooksDesc>TODO</ContainedBooksDesc>
+  <ContainedBooksDesc>کتاب‌های موجود در این قفسه کتاب.</ContainedBooksDesc>
   
   <!-- EN: Books stored -->
-  <BookshelfStoredInspect>TODO</BookshelfStoredInspect>
+  <BookshelfStoredInspect>کتاب‌های ذخیره شده</BookshelfStoredInspect>
   <!-- EN: Reading bonus in room -->
-  <BookshelfReadingBonusInspect>TODO</BookshelfReadingBonusInspect>
+  <BookshelfReadingBonusInspect>پاداش خواندن در اتاق</BookshelfReadingBonusInspect>
 
   <!-- EN: Remove this book from the bookshelf. -->
-  <EjectBookTooltip>TODO</EjectBookTooltip>
+  <EjectBookTooltip>حذف این کتاب از قفسه کتاب.</EjectBookTooltip>
   
   <!-- Pushing -->
   <!-- EN: Push to... -->
-  <CommandPushTo>TODO</CommandPushTo>
+  <CommandPushTo>هل دادن به...</CommandPushTo>
   <!-- EN: requires {0} -->
-  <RequiredCapacity>TODO</RequiredCapacity>
+  <RequiredCapacity>نیاز به {0}</RequiredCapacity>
 
   <!-- Pocket Maps -->
   <!-- EN: Unable to enter {0}, destination is blocked -->
-  <UnableToEnterPortal>TODO</UnableToEnterPortal>
+  <UnableToEnterPortal>امکان ورود به {0} نیست، مقصد مسدود است</UnableToEnterPortal>
 
   <!-- EN: This category of research has not been discovered. -->
-  <ResearchNotDiscovered>TODO</ResearchNotDiscovered>
+  <ResearchNotDiscovered>این دسته از تحقیقات کشف نشده است.</ResearchNotDiscovered>
 
   <!-- EN: Emergence -->
-  <Emergence>TODO</Emergence>
+  <Emergence>ظهور</Emergence>
   
   <!-- EN: remove {0} -->
-  <RemovePart>TODO</RemovePart>
+  <RemovePart>حذف {0}</RemovePart>
 
   <!-- EN: {GERUND} {TARGETLABEL} at -->
-  <DoWorkAtThing>TODO</DoWorkAtThing>
+  <DoWorkAtThing>{GERUND} {TARGETLABEL} در</DoWorkAtThing>
   <!-- EN: can be studied in {0} -->
-  <CanBeStudiedInDuration>TODO</CanBeStudiedInDuration>
+  <CanBeStudiedInDuration>قابل مطالعه در {0}</CanBeStudiedInDuration>
   
   <!-- EN: About to explode -->
-  <AboutToExplode>TODO</AboutToExplode>
+  <AboutToExplode>در آستانه انفجار</AboutToExplode>
   <!-- EN: No fuel to eject -->
-  <RefuelableNoFuelToEject>TODO</RefuelableNoFuelToEject>
+  <RefuelableNoFuelToEject>سوختی برای خروج نیست</RefuelableNoFuelToEject>
   
   <!-- EN: New Anomaly expansion available now! -->
-  <MainScreen_AnomalyAvailableNow>TODO</MainScreen_AnomalyAvailableNow>
+  <MainScreen_AnomalyAvailableNow>بسته الحاقی جدید Anomaly اکنون در دسترس است!</MainScreen_AnomalyAvailableNow>
 
   <!-- EN: Disabled by scenario -->
-  <DisabledByScenario>TODO</DisabledByScenario>
+  <DisabledByScenario>غیرفعال شده توسط سناریو</DisabledByScenario>
 
   <!-- EN: blocked by roof -->
-  <BlockedByRoof>TODO</BlockedByRoof>
+  <BlockedByRoof>مسدود شده توسط سقف</BlockedByRoof>
   <!-- EN: Blocked by terrain (requires {0_label} terrain support) -->
-  <BlockedByTerrain>TODO</BlockedByTerrain>
+  <BlockedByTerrain>مسدود شده توسط زمین (نیاز به پشتیبانی زمین {0_label})</BlockedByTerrain>
 
   <!-- Craters -->
   <!-- EN: Fill in -->
@@ -2109,33 +2109,33 @@
   <!-- EN: Terminals hacked -->
   <TerminalsHacked>ترمینال‌های هک شده</TerminalsHacked>
   <!-- EN: Intellectual needed -->
-  <IntellectualSkillPrerequisite>TODO</IntellectualSkillPrerequisite>
+  <IntellectualSkillPrerequisite>نیاز به هوش</IntellectualSkillPrerequisite>
   <!-- EN: Auto hack -->
-  <AutoHack>TODO</AutoHack>
+  <AutoHack>هک خودکار</AutoHack>
   <!-- EN: When enabled, researchers will automatically hack this. -->
-  <AutoHackDesc>TODO</AutoHackDesc>
+  <AutoHackDesc>وقتی فعال باشد، محققان به طور خودکار این را هک خواهند کرد.</AutoHackDesc>
 
   <!-- World -->
   <!-- EN: View {LAYER_label} -->
-  <WorldSelectLayer>TODO</WorldSelectLayer>
+  <WorldSelectLayer>مشاهده {LAYER_label}</WorldSelectLayer>
   <!-- EN: Jump to location -->
-  <WorldJumpTo>TODO</WorldJumpTo>
+  <WorldJumpTo>پرش به مکان</WorldJumpTo>
   <!-- EN: Find a colony, caravan, or quest location on the world map. -->
-  <WorldJumpToDesc>TODO</WorldJumpToDesc>
+  <WorldJumpToDesc>پیدا کردن یک کلونی، کاروان یا مکان ماموریت در نقشه جهان.</WorldJumpToDesc>
   <!-- EN: Nothing to jump to. -->
-  <NothingToJumpTo>TODO</NothingToJumpTo>
+  <NothingToJumpTo>چیزی برای پرش به آن وجود ندارد.</NothingToJumpTo>
   <!-- EN: cannot function in {0} -->
-  <CannotFunctionOnLayer>TODO</CannotFunctionOnLayer>
+  <CannotFunctionOnLayer>نمی‌تواند در {0} کار کند</CannotFunctionOnLayer>
   <!-- EN: New settlement -->
-  <NewSettlement>TODO</NewSettlement>
+  <NewSettlement>سکونتگاه جدید</NewSettlement>
   <!-- EN: Settled -->
-  <Settled>TODO</Settled>
+  <Settled>ساکن شده</Settled>
   <!-- EN: Abandoned -->
-  <Abandoned>TODO</Abandoned>
+  <Abandoned>رها شده</Abandoned>
   <!-- EN: Cannot perform {GERUND} {LAYER} -->
-  <CannotPerformPlanetLayer>TODO</CannotPerformPlanetLayer>
+  <CannotPerformPlanetLayer>نمی‌توان {GERUND} {LAYER} را انجام داد</CannotPerformPlanetLayer>
   <!-- EN: This will not affect you {GERUND} {LAYER}. -->
-  <ThisWillNotAffectLayer>TODO</ThisWillNotAffectLayer>
+  <ThisWillNotAffectLayer>این بر {GERUND} {LAYER} شما تأثیر نخواهد گذاشت.</ThisWillNotAffectLayer>
 
   <!-- Pocket maps -->
   <!-- EN: Enter {0} -->
@@ -2147,11 +2147,11 @@
   <!-- EN: Cancel entering -->
   <CommandCancelEnterPortal>لغو ورود</CommandCancelEnterPortal>
   <!-- EN: Cancel exiting -->
-  <CommandCancelExitPortal>TODO</CommandCancelExitPortal>
+  <CommandCancelExitPortal>لغو خروج</CommandCancelExitPortal>
   <!-- EN: Cancel loading people or items into this. -->
   <CommandCancelEnterPortalDesc>بارگیری افراد یا اقلام در این را لغو کنید.</CommandCancelEnterPortalDesc>
   <!-- EN: Exit {0} -->
-  <ExitPortal>TODO</ExitPortal>
+  <ExitPortal>خروج از {0}</ExitPortal>
 
   <!-- CompProjectileInterceptor -->
   <!-- EN: Shield energy -->
@@ -2159,33 +2159,33 @@
   <!-- EN: Shield cooldown -->
   <ShieldTimeToRecovery>زمان تا بازیابی</ShieldTimeToRecovery>
   <!-- EN: Shield duration -->
-  <ShieldDuration>TODO</ShieldDuration>
+  <ShieldDuration>مدت زمان سپر</ShieldDuration>
   <!-- EN: On cooldown -->
-  <ShieldOnCooldown>TODO</ShieldOnCooldown>
+  <ShieldOnCooldown>در حال خنک شدن</ShieldOnCooldown>
   <!-- EN: Below minimum energy -->
-  <ShieldBelowMinHitpoints>TODO</ShieldBelowMinHitpoints>
+  <ShieldBelowMinHitpoints>زیر حداقل انرژی</ShieldBelowMinHitpoints>
   <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->
   <ProjectileInterceptorTip>یک سپر پرتابی با زاویه کم که سعی می‌کند پرتابه‌ها یا ترکش‌های ورودی را متوقف کند. در صورت برخورد با EMP فوراً خاموش می‌شود.</ProjectileInterceptorTip>
 
   <!-- EN: max {0} -->
-  <MaxOf>TODO</MaxOf>
+  <MaxOf>حداکثر {0}</MaxOf>
 
   <!-- EN: Cannot use {TARGETABLE_label}: {TARGET_nameDef} already has {2}. -->
-  <CannotUseDueToHediff>TODO</CannotUseDueToHediff>
+  <CannotUseDueToHediff>نمی‌توان از {TARGETABLE_label} استفاده کرد: {TARGET_nameDef} قبلاً {2} دارد.</CannotUseDueToHediff>
 
   <!-- Scanner -->
   <!-- EN: Blocked by roof -->
-  <CannotUseScannerRoofed>TODO</CannotUseScannerRoofed>
+  <CannotUseScannerRoofed>مسدود شده توسط سقف</CannotUseScannerRoofed>
   <!-- EN: Biome does not contain drillable resources -->
-  <CannotUseScannerNoBedrock>TODO</CannotUseScannerNoBedrock>
+  <CannotUseScannerNoBedrock>زیست‌بوم دارای منابع قابل حفاری نیست</CannotUseScannerNoBedrock>
   
   <!-- Quests -->
   <!-- EN: Cannot accept this quest {GERUND} {LAYER}. -->
-  <CannotAcceptQuestFromLayer>TODO</CannotAcceptQuestFromLayer>
+  <CannotAcceptQuestFromLayer>نمی‌توان این ماموریت را {GERUND} {LAYER} پذیرفت.</CannotAcceptQuestFromLayer>
   <!-- EN: Cannot accept this quest without a permanent colony. -->
-  <CannotAcceptQuestNoMap>TODO</CannotAcceptQuestNoMap>
+  <CannotAcceptQuestNoMap>نمی‌توان این ماموریت را بدون یک کلونی دائمی پذیرفت.</CannotAcceptQuestNoMap>
 
   <!-- EN: {0} of {1} -->
-  <GuildTradeShipName>TODO</GuildTradeShipName>
+  <GuildTradeShipName>{0} از {1}</GuildTradeShipName>
   
 </LanguageData>

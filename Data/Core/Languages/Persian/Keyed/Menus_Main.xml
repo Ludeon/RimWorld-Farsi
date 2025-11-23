@@ -47,11 +47,11 @@
   <!-- EN: Ludeon blog -->
   <LudeonBlog>Ludeon وبلاگ</LudeonBlog>
   <!-- EN: Subreddit -->
-  <Subreddit>TODO</Subreddit>
+  <Subreddit>ساب‌ردیت</Subreddit>
   <!-- EN: Official wiki -->
   <OfficialWiki>ویکی رسمی</OfficialWiki>
   <!-- EN: Tynan's X -->
-  <TynansX>TODO</TynansX>
+  <TynansX>Tynan's X</TynansX>
   <!-- EN: Tynan's design book -->
   <TynansDesignBook>کتاب طراحی Tynan</TynansDesignBook>
   <!-- EN: Help translate RimWorld -->
@@ -61,13 +61,13 @@
   <!-- EN: Buy soundtrack -->
   <BuySoundtrack>خرید موسیقی متن</BuySoundtrack>
   <!-- EN: RimWorld Soundtrack -->
-  <BuySoundtrack_Classic>TODO</BuySoundtrack_Classic>
+  <BuySoundtrack_Classic>خرید موسیقی متن کلاسیک</BuySoundtrack_Classic>
   <!-- EN: RimWorld - Royalty Soundtrack -->
-  <BuySoundtrack_Royalty>TODO</BuySoundtrack_Royalty>
+  <BuySoundtrack_Royalty>خرید موسیقی متن رائلتی</BuySoundtrack_Royalty>
   <!-- EN: RimWorld - Anomaly Soundtrack -->
-  <BuySoundtrack_Anomaly>TODO</BuySoundtrack_Anomaly>
+  <BuySoundtrack_Anomaly>خرید موسیقی متن انومالی</BuySoundtrack_Anomaly>
   <!-- EN: RimWorld - Odyssey Soundtrack -->
-  <BuySoundtrack_Odyssey>TODO</BuySoundtrack_Odyssey>
+  <BuySoundtrack_Odyssey>خرید موسیقی متن ادیسه</BuySoundtrack_Odyssey>
   
   <!-- Main menu translations info window -->
   <!-- EN: All translations of RimWorld are fan-made. This fan-made translation was created by the following excellent volunteers:\n\n{0} -->
@@ -125,7 +125,7 @@
   <!-- EN: Factions -->
   <WorldFactionsTab>جناح ها</WorldFactionsTab>
   <!-- EN: Advanced settings -->
-  <AdvancedSettings>TODO</AdvancedSettings>
+  <AdvancedSettings>تنظیمات پیشرفته</AdvancedSettings>
 
   <!-- Select world -->
   <!-- EN: Select world -->
@@ -492,9 +492,9 @@
   <!-- EN: This option adds additional capturable prisoners to the game who cannot be recruited due to unwavering loyalty.\n\nUnwavering prisoners are added on top of normal prisoners, so turning this off won't give more recruitable prisoners - it simply removes the unwavering ones.\n\nUnwavering prisoners can still be released for diplomatic gains, sold, enslaved, harvested for organs, or otherwise made use of. In general, they offer more options and resources, and make the game a bit richer and easier. -->
   <Difficulty_UnwaveringPrisoners_Info>این گزینه زندانیان قابل اسیر اضافی را به بازی اضافه می‌کند که به دلیل وفاداری ثابت‌قدم نمی‌توانند استخدام شوند.\n\nزندانیان ثابت‌قدم علاوه بر زندانیان عادی اضافه می‌شوند، بنابراین خاموش کردن این گزینه زندانیان قابل استخدام بیشتری به شما نمی‌دهد - فقط زندانیان ثابت‌قدم را حذف می‌کند.\n\nزندانیان ثابت‌قدم همچنان می‌توانند برای منافع دیپلماتیک آزاد شوند، فروخته شوند، برده شوند، برای اعضا برداشت شوند یا به هر نحو دیگری مورد استفاده قرار گیرند. به طور کلی، آنها گزینه‌ها و منابع بیشتری ارائه می‌دهند و بازی را کمی غنی‌تر و آسان‌تر می‌کنند.</Difficulty_UnwaveringPrisoners_Info>
   <!-- EN: Nomadic mineable resources -->
-  <Difficulty_NomadicMineableResourcesFactor_Label>TODO</Difficulty_NomadicMineableResourcesFactor_Label>
+  <Difficulty_NomadicMineableResourcesFactor_Label>منابع معدنی کوچ‌نشینی</Difficulty_NomadicMineableResourcesFactor_Label>
   <!-- EN: Adjust how many mineable resources are generated on maps after your first.\n\nNote: Your first colony map will always generate with the standard amount of resources. -->
-  <Difficulty_NomadicMineableResourcesFactor_Info>TODO</Difficulty_NomadicMineableResourcesFactor_Info>
+  <Difficulty_NomadicMineableResourcesFactor_Info>تنظیم کنید که چه مقدار منابع معدنی در نقشه‌ها پس از اولین نقشه شما تولید می‌شود.\n\nتوجه: اولین نقشه کلونی شما همیشه با مقدار استاندارد منابع تولید خواهد شد.</Difficulty_NomadicMineableResourcesFactor_Info>
 
   <!-- EN: Player tools -->
   <DifficultyPlayerToolsSection>ابزارهای بازیکن</DifficultyPlayerToolsSection>
@@ -575,7 +575,7 @@
   <!-- EN: Elevation -->
   <Elevation>ارتفاع</Elevation>
   <!-- EN: Features -->
-  <TileMutators>TODO</TileMutators>
+  <TileMutators>تغییرات کاشی</TileMutators>
   <!-- EN: Fertility -->
   <Fertility>حاصلخیزی</Fertility>
   <!-- EN: fertility -->
@@ -738,11 +738,11 @@
   <!-- EN: No more information is available. -->
   <NoMoreInfoAvailable>اطلاعات بیشتری در دسترس نیست.</NoMoreInfoAvailable>
   <!-- EN: Best skill -->
-  <BestSkillLabel>TODO</BestSkillLabel>
+  <BestSkillLabel>بهترین مهارت</BestSkillLabel>
   <!-- EN: {PAWN_nameDef}'s best stat -->
-  <BestSkillLetterLabel>TODO</BestSkillLetterLabel>
+  <BestSkillLetterLabel>بهترین مهارت</BestSkillLetterLabel>
   <!-- EN: skill level {0} -->
-  <BestSkillInfoLevel>TODO</BestSkillInfoLevel>
+  <BestSkillInfoLevel>سطح مهارت برتر</BestSkillInfoLevel>
 
   <!-- Factions -->
   <!-- EN: Factions -->
@@ -762,7 +762,7 @@
   <!-- EN: Without other factions, raids, trading, and quests won't occur as normal. -->
   <FactionsDisabledWarning>بدون جناح‌های دیگر، حملات، تجارت و ماموریت‌ها به طور عادی رخ نخواهند داد.</FactionsDisabledWarning>
   <!-- EN: Cannot be removed for this scenario. -->
-  <FactionRemovalDisabled>TODO</FactionRemovalDisabled>
+  <FactionRemovalDisabled>حذف جناح غیرفعال</FactionRemovalDisabled>
 
   <!-- UNUSED -->
   <Forums>انجمن ها</Forums>

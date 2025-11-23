@@ -23,7 +23,7 @@
   <NotAllowed>مجاز نیست</NotAllowed>
   
   <!-- EN: Attack {1_labelShort} -->
-  <Attack>TODO</Attack>
+  <Attack>حمله به {1_labelShort}</Attack>
   <!-- EN: Fire at {1_labelShort} -->
   <FireAt>شلیک به {1_label}</FireAt>
   <!-- EN: Remove -->
@@ -46,7 +46,7 @@
   <!-- EN: cannot order characters you do not control -->
   <CannotOrderNonControlledLower>نمی‌توان به شخصیت‌هایی که کنترل نمی‌کنید دستور داد</CannotOrderNonControlledLower>
   <!-- EN: cannot attack -->
-  <CannotAttack>TODO</CannotAttack>
+  <CannotAttack>نمی‌توان حمله کرد</CannotAttack>
   <!-- EN: cannot attack self -->
   <CannotAttackSelf>نمی‌توان به خود حمله کرد</CannotAttackSelf>
   <!-- EN: cannot attack faction ally -->
@@ -95,7 +95,7 @@
   <!-- EN: no reachable outside cell -->
   <NoReachableOutsideCell>هیچ سلول بیرونی قابل دسترسی وجود ندارد</NoReachableOutsideCell>
   <!-- EN: cannot exit map -->
-  <CannotExitMap>TODO</CannotExitMap>
+  <CannotExitMap>نمی‌توان از نقشه خارج شد</CannotExitMap>
   <!-- EN: missing required skill level -->
   <MissingRequiredSkillLevel>سطح مهارت مورد نیاز کم است</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
@@ -237,7 +237,7 @@
   <!-- EN: Cannot rescue -->
   <CannotRescue>نمی توان نجات داد</CannotRescue>
   <!-- EN: Cannot rescue {PAWN_labelShort} -->
-  <CannotRescuePawn>TODO</CannotRescuePawn>
+  <CannotRescuePawn>نمی‌توان {PAWN_labelShort} را نجات داد</CannotRescuePawn>
 
   <!-- EN: Carry {1_labelShort} to cryptosleep casket -->
   <CarryToCryptosleepCasket>حمل {1_label} به کپسول کریپتوخواب</CarryToCryptosleepCasket>
@@ -300,19 +300,19 @@
   <!-- EN: Force wear {1_labelShort} -->
   <ForceWear>اجبار به پوشیدن {1_labelShort}</ForceWear>
   <!-- EN: Force target to wear {1_labelShort}... -->
-  <ForceTargetToWear>TODO</ForceTargetToWear>
+  <ForceTargetToWear>مجبور کردن هدف به پوشیدن {1_labelShort}...</ForceTargetToWear>
   <!-- EN: Cannot wear {1_label} -->
   <CannotWear>نمی‌توان {1_label} را پوشید</CannotWear>
   <!-- EN: Cannot force target to wear {1_label} -->
-  <CannotForceTargetToWear>TODO</CannotForceTargetToWear>
+  <CannotForceTargetToWear>نمی‌توان هدف را مجبور به پوشیدن {1_label} کرد</CannotForceTargetToWear>
   <!-- EN: Force equip {1_labelShort} -->
   <ForceEquipApparel>اجبار به تجهیز {1_labelShort}</ForceEquipApparel>
   <!-- EN: Force target to equip {1_labelShort}... -->
-  <ForceTargetToEquipApparel>TODO</ForceTargetToEquipApparel>
+  <ForceTargetToEquipApparel>مجبور کردن هدف به تجهیز {1_labelShort}...</ForceTargetToEquipApparel>
   <!-- EN: Cannot equip {1_label} -->
   <CannotEquipApparel>نمی‌توان {1_label} را تجهیز کرد</CannotEquipApparel>
   <!-- EN: Cannot force target to equip {1_label} -->
-  <CannotForceTargetToEquipApparel>TODO</CannotForceTargetToEquipApparel>
+  <CannotForceTargetToEquipApparel>نمی‌توان هدف را مجبور به تجهیز {1_label} کرد</CannotForceTargetToEquipApparel>
   <!-- EN: missing body parts -->
   <CannotWearBecauseOfMissingBodyParts>اندام‌های بدن کم است</CannotWearBecauseOfMissingBodyParts>
   
@@ -416,7 +416,7 @@
   <!-- EN: medical bed not for slaves -->
   <NotForSlaves>تخت پزشکی برای بردگان نیست</NotForSlaves>
   <!-- EN: Medical care disabled -->
-  <MedicalCareDisabled>TODO</MedicalCareDisabled>
+  <MedicalCareDisabled>مراقبت پزشکی غیرفعال است</MedicalCareDisabled>
   <!-- EN: occupied by {0} -->
   <SomeoneElseSleeping>توسط {0} اشغال شده است</SomeoneElseSleeping>
   
@@ -509,12 +509,12 @@
   <!-- EN: Prioritize {0} {1} -->
   <PrioritizeGeneric>اولویت‌بندی {0} {1}</PrioritizeGeneric>
   <!-- EN: Prioritize {0} -->
-  <PrioritizeGenericSimple>TODO</PrioritizeGenericSimple>
+  <PrioritizeGenericSimple>اولویت‌بندی {0}</PrioritizeGenericSimple>
 
   <!-- EN: Launch to {LOCATION_label} -->
-  <LaunchTo>TODO</LaunchTo>
+  <LaunchTo>پرتاب به {LOCATION_label}</LaunchTo>
   <!-- EN: Are you sure you want to launch? -->
-  <LaunchToConfirmation>TODO</LaunchToConfirmation>
+  <LaunchToConfirmation>آیا مطمئن هستید که می‌خواهید پرتاب کنید؟</LaunchToConfirmation>
   <!-- EN: Drop at edge -->
   <DropAtEdge>رها کردن در لبه</DropAtEdge>
   <!-- EN: Drop in center -->
@@ -644,11 +644,11 @@
   <!-- EN: Hack {0} -->
   <Hack>هک {0}</Hack>
   <!-- EN: Choose a colonist to hack this. -->
-  <HackDesc>TODO</HackDesc>
+  <HackDesc>یک مهاجر را برای هک این انتخاب کنید.</HackDesc>
   <!-- EN: Cannot hack {0} -->
   <CannotHack>نمی‌توان {0} را هک کرد</CannotHack>
   <!-- EN: Locked out -->
-  <LockedOut>TODO</LockedOut>
+  <LockedOut>قفل شده</LockedOut>
   <!-- EN: Already hacked -->
   <AlreadyHacked>قبلاً هک شده</AlreadyHacked>
   <!-- EN: Incapable of hacking -->

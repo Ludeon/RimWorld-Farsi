@@ -1,10 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageData>
-
-  <!-- Royalty and throne -->
-  <!-- EN: Satisfies title -->
-  <ThroneMaxSatisfiedTitle>عنوان را راضی می‌کند</ThroneMaxSatisfiedTitle>
-  <!-- EN: ({0} impressiveness) -->
+﻿  <!-- EN: ({0} impressiveness) -->
   <ThroneRoomImpressivenessInfo>({0} تأثیرگذاری)</ThroneRoomImpressivenessInfo>
   <!-- EN: Throne must be placed indoors. -->
   <ThroneMustBePlacedInside>تخت سلطنت باید در داخل ساختمان قرار گیرد.</ThroneMustBePlacedInside>
@@ -91,7 +85,7 @@
   <!-- EN: throne is not accessible. -->
   <AbilitySpeechDisabledNoThroneIsNotAccessible>تخت سلطنت قابل دسترسی نیست.</AbilitySpeechDisabledNoThroneIsNotAccessible>
   <!-- EN: throne not usable because it is undignified. -->
-  <AbilitySpeechDisabledNoThroneUndignified>تخت سلطنت قابل استفاده نیست زیرا بی‌وقار است.</AbilitySpeechDisabledNoThroneUndignified>
+  <AbilitySpeechDisabledNoThroneUndignified>تخت سلطنت قابل استفاده نیست زیرا بی‌وقار است.</AbilitySpeechSpeechDisabledNoThroneUndignified>
   <!-- EN: already giving a speech. -->
   <AbilitySpeechDisabledAlreadyGivingSpeech>در حال حاضر در حال سخنرانی است.</AbilitySpeechDisabledAlreadyGivingSpeech>
   <!-- EN: Outcome chances -->
@@ -156,5 +150,18 @@
 
   <!-- EN: level {0} -->
   <LevelNum>سطح {0}</LevelNum> <!-- Psylink level as reported in health tab-->
+
+  <!-- EN: progress {0} -->
+  <ProgressToNextSubplant>پیشرفت {0}</ProgressToNextSubplant>
+  <!-- EN: Dignified throne -->
+  <AbilitySpeechTargetDescThrone>تخت سلطنت باوقار</AbilitySpeechTargetDescThrone>
+  <!-- EN: Bestowing Ceremony -->
+  <RitualBestowingCeremony>مراسم اعطا</RitualBestowingCeremony>
+  <!-- EN: no accessible altar. -->
+  <RitualDisabledNoAltar>محراب قابل دسترسی وجود ندارد.</RitualDisabledNoAltar>
+  <!-- EN: No suitable location near bestower -->
+  <BestowingSpotUnavailable>مکان مناسبی نزدیک اعطا کننده وجود ندارد</BestowingSpotUnavailable>
+  <!-- EN: Total meditation today: {0} (progress multiplier {1}) -->
+  <TotalMeditationToday>کل مدیتیشن امروز: {0} (ضریب پیشرفت {1})</TotalMeditationToday>
 
 </LanguageData>

@@ -35,7 +35,7 @@
   <!-- EN: {0_pawnsPluralDef} are attacking! -->
   <MessagePsychicRitualAssault>{0_pawnsPluralDef} در حال حمله هستند!</MessagePsychicRitualAssault>
   <!-- EN: {FACTION_pawnsPluralDef} are beginning the psychic ritual -->
-  <MessageAIPsychicRitualBegan>TODO</MessageAIPsychicRitualBegan>
+  <MessageAIPsychicRitualBegan>{FACTION_pawnsPluralDef} در حال شروع مراسم روانی هستند</MessageAIPsychicRitualBegan>
   
   <!-- Biomutation lance -->
   <!-- EN: Cannot target: {0_nameDef} is not an animal or human. -->
