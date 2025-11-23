@@ -2,52 +2,52 @@
 <LanguageData>
   
   <!-- EN: [PAWN_nameDef] grew up in a noble family's manor in the outer country. [PAWN_possessive] early years were full of lessons in horseback riding, politics, and religion.\n\n[PAWN_nameDef] and [PAWN_possessive] friends found many ways to break the rules and have fun in the fields and forests. -->
-  <CountryLordling92.description>TODO</CountryLordling92.description>
+  <CountryLordling92.description>[PAWN_nameDef] در عمارت یک خانواده نجیب در حومه شهر بزرگ شد. سال‌های اولیه [PAWN_possessive] پر از درس‌های اسب‌سواری، سیاست و مذهب بود.\n\n[PAWN_nameDef] و دوستان [PAWN_possessive] راه‌های زیادی برای شکستن قوانین و تفریح در مزارع و جنگل‌ها پیدا کردند.</CountryLordling92.description>
   <!-- EN: country lordling -->
-  <CountryLordling92.title>TODO</CountryLordling92.title>
+  <CountryLordling92.title>لردزاده روستایی</CountryLordling92.title>
   <!-- EN: country lady -->
-  <CountryLordling92.titleFemale>TODO</CountryLordling92.titleFemale>
+  <CountryLordling92.titleFemale>بانوی روستایی</CountryLordling92.titleFemale>
   <!-- EN: field lord -->
-  <CountryLordling92.titleShort>TODO</CountryLordling92.titleShort>
+  <CountryLordling92.titleShort>لرد مزرعه</CountryLordling92.titleShort>
   <!-- EN: field lady -->
-  <CountryLordling92.titleShortFemale>TODO</CountryLordling92.titleShortFemale>
+  <CountryLordling92.titleShortFemale>بانوی مزرعه</CountryLordling92.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef]'s parents did not want another heir. Fearing a succession fight, they decided to neutralize [PAWN_objective] early.\n\nThey pampered [PAWN_nameDef] from birth, preventing [PAWN_objective] from developing the grit or knowledge necessary to be a threat to their favored son. [PAWN_nameDef] learned little more than how to manipulate the royal staff to get more food. -->
-  <PamperedLordling37.description>TODO</PamperedLordling37.description>
+  <PamperedLordling37.description>والدین [PAWN_nameDef] وارث دیگری نمی‌خواستند. از ترس مبارزه بر سر جانشینی، تصمیم گرفتند [PAWN_objective] را زود خنثی کنند.\n\nآن‌ها [PAWN_nameDef] را از بدو تولد لوس کردند و مانع از آن شدند که [PAWN_objective] جرات یا دانش لازم برای تهدید پسر مورد علاقه‌شان را پیدا کند. [PAWN_nameDef] چیزی بیشتر از نحوه دستکاری کارکنان سلطنتی برای دریافت غذای بیشتر یاد نگرفت.</PamperedLordling37.description>
   <!-- EN: pampered lordling -->
-  <PamperedLordling37.title>TODO</PamperedLordling37.title>
+  <PamperedLordling37.title>لردزاده لوس</PamperedLordling37.title>
   <!-- EN: pampered princess -->
-  <PamperedLordling37.titleFemale>TODO</PamperedLordling37.titleFemale>
+  <PamperedLordling37.titleFemale>شاهزاده خانم لوس</PamperedLordling37.titleFemale>
   <!-- EN: pampered -->
-  <PamperedLordling37.titleShort>TODO</PamperedLordling37.titleShort>
+  <PamperedLordling37.titleShort>لوس</PamperedLordling37.titleShort>
   
   <!-- EN: [PAWN_nameDef]'s family held their power base on a grand, ancient starship. Born and raised on the ship, [PAWN_nameDef] learned all about the rigors of shipboard life, and the politics and methods of interstellar battle and orbital invasion.\n\n[PAWN_pronoun] learned to feel most at home with strong walls close on all sides and the gentle hiss of atmosphere regulators. -->
-  <ShipboundLordling12.description>TODO</ShipboundLordling12.description>
+  <ShipboundLordling12.description>خانواده [PAWN_nameDef] پایگاه قدرت خود را در یک کشتی فضایی بزرگ و باستانی نگه می‌داشتند. [PAWN_nameDef] که در کشتی متولد و بزرگ شده بود، همه چیز را در مورد سختی‌های زندگی در کشتی، و سیاست‌ها و روش‌های نبرد بین‌ستاره‌ای و تهاجم مداری آموخت.\n\n[PAWN_pronoun] یاد گرفت که با دیوارهای محکم در همه طرف و صدای هیس ملایم تنظیم‌کننده‌های جو، بیشتر احساس در خانه بودن کند.</ShipboundLordling12.description>
   <!-- EN: shipbound lordling -->
-  <ShipboundLordling12.title>TODO</ShipboundLordling12.title>
+  <ShipboundLordling12.title>لردزاده کشتی‌نشین</ShipboundLordling12.title>
   <!-- EN: shipbound lady -->
-  <ShipboundLordling12.titleFemale>TODO</ShipboundLordling12.titleFemale>
+  <ShipboundLordling12.titleFemale>بانوی کشتی‌نشین</ShipboundLordling12.titleFemale>
   <!-- EN: ship lord -->
-  <ShipboundLordling12.titleShort>TODO</ShipboundLordling12.titleShort>
+  <ShipboundLordling12.titleShort>لرد کشتی</ShipboundLordling12.titleShort>
   <!-- EN: ship lady -->
-  <ShipboundLordling12.titleShortFemale>TODO</ShipboundLordling12.titleShortFemale>
+  <ShipboundLordling12.titleShortFemale>بانوی کشتی</ShipboundLordling12.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef]'s noble family did not want [PAWN_objective], but could not afford to be seen directly assassinating [PAWN_objective] either. They attempted to get [PAWN_objective] killed by assigning [PAWN_objective] dangerous training without proper protection at too young an age.\n\nAgainst all odds, [PAWN_nameDef] survived the jousting contests, horsewar matches, riverrun competitions and warzones. In the end, it only made [PAWN_objective] stronger. -->
-  <UnwantedSurvivor67.description>TODO</UnwantedSurvivor67.description>
+  <UnwantedSurvivor67.description>خانواده نجیب [PAWN_nameDef]، [PAWN_objective] را نمی‌خواستند، اما نمی‌توانستند مستقیماً دیده شوند که [PAWN_objective] را ترور می‌کنند. آن‌ها سعی کردند با اختصاص دادن آموزش‌های خطرناک بدون محافظت مناسب در سنین خیلی کم، باعث کشته شدن [PAWN_objective] شوند.\n\nبرخلاف همه احتمالات، [PAWN_nameDef] از مسابقات نیزه‌بازی، مسابقات اسب‌سواری، مسابقات رودخانه و مناطق جنگی جان سالم به در برد. در پایان، این فقط [PAWN_objective] را قوی‌تر کرد.</UnwantedSurvivor67.description>
   <!-- EN: unwanted survivor -->
-  <UnwantedSurvivor67.title>TODO</UnwantedSurvivor67.title>
+  <UnwantedSurvivor67.title>بازمانده ناخواسته</UnwantedSurvivor67.title>
   <!-- EN: survivor -->
-  <UnwantedSurvivor67.titleShort>TODO</UnwantedSurvivor67.titleShort>
+  <UnwantedSurvivor67.titleShort>بازمانده</UnwantedSurvivor67.titleShort>
   
   <!-- EN: [PAWN_nameDef] was born to a royal house with a grand manor in a great city. [PAWN_pronoun] spent [PAWN_possessive] youth in lessons on politics.\n\nWhenever [PAWN_pronoun] could, [PAWN_pronoun] would escape with [PAWN_possessive] friends to explore the half-built substructure of the metropolis. -->
-  <UrbanLordling82.description>TODO</UrbanLordling82.description>
+  <UrbanLordling82.description>[PAWN_nameDef] در یک خاندان سلطنتی با عمارتی بزرگ در یک شهر بزرگ متولد شد. [PAWN_pronoun] جوانی [PAWN_possessive] را در درس‌های سیاست گذراند.\n\nهر زمان که [PAWN_pronoun] می‌توانست، با دوستان [PAWN_possessive] فرار می‌کرد تا زیرساخت‌های نیمه‌ساخته کلان‌شهر را کاوش کند.</UrbanLordling82.description>
   <!-- EN: urban lordling -->
-  <UrbanLordling82.title>TODO</UrbanLordling82.title>
+  <UrbanLordling82.title>لردزاده شهری</UrbanLordling82.title>
   <!-- EN: urban lady -->
-  <UrbanLordling82.titleFemale>TODO</UrbanLordling82.titleFemale>
+  <UrbanLordling82.titleFemale>بانوی شهری</UrbanLordling82.titleFemale>
   <!-- EN: city lord -->
-  <UrbanLordling82.titleShort>TODO</UrbanLordling82.titleShort>
+  <UrbanLordling82.titleShort>لرد شهر</UrbanLordling82.titleShort>
   <!-- EN: city lady -->
-  <UrbanLordling82.titleShortFemale>TODO</UrbanLordling82.titleShortFemale>
+  <UrbanLordling82.titleShortFemale>بانوی شهر</UrbanLordling82.titleShortFemale>
   
 </LanguageData>
