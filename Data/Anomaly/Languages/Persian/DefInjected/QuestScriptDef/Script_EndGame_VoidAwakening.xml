@@ -15,23 +15,44 @@
     <li>monolithTwistingAlertLabel->Monolith twisting</li>
     <li>monolithTwistingAlertExplanation->The monolith is twisting without moving, bending itself and the minds of those who look at it. Something is happening - get ready.</li>
   -->
-  <EndGame_VoidAwakening.questContentRules.rulesStrings>تاریکی غیرطبیعی\n\nتاریکی غیرطبیعی فرود آمده است. موجودات غیرانسانی درست در خارج از نور حرکت می‌کنند. ساکنین را در مناطق خوب نورپردازی نگه دارید.\n\nساختارهای خلا در حال رسیدن\n\nمرز بین جهان ما و خلا در حال فروپاشی است. به زودی ساختارهای خلا در نزدیکی ظاهر خواهند شد. برای بیدار کردن کامل منولیت خلا، باید آنها را فعال کنید.\n\nبرای ورودشان آماده شوید.\n\nساختارهای خلا\n\nچندین ساختار پیچ خورده به نظر می‌رسند که از جایی ظاهر شده‌اند. آنها با انرژی روانی تاریکی می‌درخشند که گیاهان اطراف را پژمرده می‌کند.\n\nبرای پیشرفت بیشتر ساختارها را فعال کنید.\n\nپیچش تشدید می‌شود\n\nشکل منولیت شروع به تحریف و تغییر با شدت روزافزون کرده است. چیزی در شرف وقوع است...\n\nمنولیت خلا\n\nمنولیت کاملاً بیدار شده است. گردباد تاریکی چرخان بر بالای آن نشسته و رسانایی به خلا ایجاد می‌کند.\n\nبه منولیت بروید و از آن برای عبور به طرف دیگر استفاده کنید. این کار تاریکی غیرطبیعی و حمله وحشت را پایان خواهد داد.\n\nپیچش منولیت\n\nمنولیت بدون حرکت در حال پیچش است، خودش و ذهن کسانی که به آن نگاه می‌کنند را خم می‌کند. چیزی در حال وقوع است - آماده شوید.</EndGame_VoidAwakening.questContentRules.rulesStrings>
+  <EndGame_VoidAwakening.questContentRules.rulesStrings>
+    <li>darknessStartedLetterLabel->تاریکی غیرطبیعی</li>
+    <li>darknessStartedLetterText->تاریکی غیرطبیعی فرود آمده است. موجودات غیرانسانی درست در خارج از نور حرکت می‌کنند. ساکنین را در مناطق خوب نورپردازی نگه دارید.</li>
+    <li>structuresArrivingAlertLabel->ساختارهای خلا در حال رسیدن</li>
+    <li>structuresArrivingAlertExplanation->مرز بین جهان ما و خلا در حال فروپاشی است. به زودی ساختارهای خلا در نزدیکی ظاهر خواهند شد. برای بیدار کردن کامل منولیت خلا، باید آنها را فعال کنید.\n\nبرای ورودشان آماده شوید.</li>
+    <li>voidStructuresLetterLabel->ساختارهای خلا</li>
+    <li>voidStructuresLetterText->چندین ساختار پیچ خورده به نظر می‌رسند که از جایی ظاهر شده‌اند. آنها با انرژی روانی تاریکی می‌درخشند که گیاهان اطراف را پژمرده می‌کند.\n\nبرای پیشرفت بیشتر ساختارها را فعال کنید.</li>
+    <li>gleamingMonolithWarningLetterLabel->پیچش تشدید می‌شود</li>
+    <li>gleamingMonolithWarningLetterText->شکل منولیت شروع به تحریف و تغییر با شدت روزافزون کرده است. چیزی در شرف وقوع است...</li>
+    <li>gleamingMonolithLetterLabel->منولیت خلا</li>
+    <li>gleamingMonolithLetterText->منولیت کاملاً بیدار شده است. گردباد تاریکی چرخان بر بالای آن نشسته و رسانایی به خلا ایجاد می‌کند.\n\nبه منولیت بروید و از آن برای عبور به طرف دیگر استفاده کنید. این کار تاریکی غیرطبیعی و حمله وحشت را پایان خواهد داد.</li>
+    <li>monolithTwistingAlertLabel->پیچش منولیت</li>
+    <li>monolithTwistingAlertExplanation->منولیت بدون حرکت در حال پیچش است، خودش و ذهن کسانی که به آن نگاه می‌کنند را خم می‌کند. چیزی در حال وقوع است - آماده شوید.</li>
+  </EndGame_VoidAwakening.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription-></li>
   -->
-  <EndGame_VoidAwakening.questDescriptionRules.rulesStrings></EndGame_VoidAwakening.questDescriptionRules.rulesStrings>
+  <EndGame_VoidAwakening.questDescriptionRules.rulesStrings>
+    <li>questDescription-></li>
+  </EndGame_VoidAwakening.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->void awakening</li>
   -->
-  <EndGame_VoidAwakening.questNameRules.rulesStrings>بیداری خلا</EndGame_VoidAwakening.questNameRules.rulesStrings>
+  <EndGame_VoidAwakening.questNameRules.rulesStrings>
+    <li>questName->بیداری خلا</li>
+  </EndGame_VoidAwakening.questNameRules.rulesStrings>
   
   <!-- EN:
     <li>questDescription-></li>
   -->
-  <EndGame_VoidMonolith.questDescriptionRules.rulesStrings></EndGame_VoidMonolith.questDescriptionRules.rulesStrings>
+  <EndGame_VoidMonolith.questDescriptionRules.rulesStrings>
+    <li>questDescription-></li>
+  </EndGame_VoidMonolith.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Anomaly monolith</li>
   -->
-  <EndGame_VoidMonolith.questNameRules.rulesStrings>منولیت آنومالی</EndGame_VoidMonolith.questNameRules.rulesStrings>
+  <EndGame_VoidMonolith.questNameRules.rulesStrings>
+    <li>questName->منولیت آنومالی</li>
+  </EndGame_VoidMonolith.questNameRules.rulesStrings>
   
 </LanguageData>

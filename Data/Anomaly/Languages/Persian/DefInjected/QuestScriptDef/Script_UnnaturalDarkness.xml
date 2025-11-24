@@ -9,14 +9,25 @@
     <li>darknessLiftedLetterLabel->Darkness lifting</li>
     <li>darknessLiftedLetterText->The unnatural darkness has begun to dissipate. The metallic pillars have somehow folded into themselves and vanished. You survived!</li>
   -->
-  <UnnaturalDarkness.questContentRules.rulesStrings>آسمان کم‌نور\n\nآسمان کم‌نور می‌شود. به زودی دیدن چیزی که مستقیماً توسط لامپ‌ها یا مشعل‌ها نورپردازی نشده باشد، سخت خواهد بود.\n\nبرای بقا مناطق نورپردازی شده بسازید. بسته‌های فلر مختل‌کننده برای کشف تاریکی تولید کنید.\n\nتاریکی غیرطبیعی\n\nتاریکی غیرطبیعی فرود می‌آید. موجودات غیرانسانی درست در خارج از نور حرکت می‌کنند.\n\nستون‌های فلزی دندانه‌دار و روغنی از آسمان می‌افتند. دیدن آنها وحشتناک است اما قطعاً حاوی فناوری با ارزش هستند. با ساخت مسیرهای نورپردازی شده به آنها برسید - و آنها را نابود کنید تا این کابوس را پایان دهید.\n\nدر غیر این صورت، اگر بتوانید به اندازه کافی دوام بیاورید، تاریکی به خودی خود از بین خواهد رفت.\n\nبلند شدن تاریکی\n\nتاریکی غیرطبیعی شروع به از بین رفتن کرده است. ستون‌های فلزی به نحوی درون خودشان تا شده و ناپدید شده‌اند. زنده ماندید!</UnnaturalDarkness.questContentRules.rulesStrings>
+  <UnnaturalDarkness.questContentRules.rulesStrings>
+    <li>initialPhaseLetterLabel->آسمان کم‌نور</li>
+    <li>initialPhaseLetterText->آسمان کم‌نور می‌شود. به زودی دیدن چیزی که مستقیماً توسط لامپ‌ها یا مشعل‌ها نورپردازی نشده باشد، سخت خواهد بود.\n\nبرای بقا مناطق نورپردازی شده بسازید. بسته‌های فلر مختل‌کننده برای کشف تاریکی تولید کنید.</li>
+    <li>mainPhaseLetterLabel->تاریکی غیرطبیعی</li>
+    <li>mainPhaseLetterText->تاریکی غیرطبیعی فرود می‌آید. موجودات غیرانسانی درست در خارج از نور حرکت می‌کنند.\n\nستون‌های فلزی دندانه‌دار و روغنی از آسمان می‌افتند. دیدن آنها وحشتناک است اما قطعاً حاوی فناوری با ارزش هستند. با ساخت مسیرهای نورپردازی شده به آنها برسید - و آنها را نابود کنید تا این کابوس را پایان دهید.\n\nدر غیر این صورت، اگر بتوانید به اندازه کافی دوام بیاورید، تاریکی به خودی خود از بین خواهد رفت.</li>
+    <li>darknessLiftedLetterLabel->بلند شدن تاریکی</li>
+    <li>darknessLiftedLetterText->تاریکی غیرطبیعی شروع به از بین رفتن کرده است. ستون‌های فلزی به نحوی درون خودشان تا شده و ناپدید شده‌اند. زنده ماندید!</li>
+  </UnnaturalDarkness.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription-></li>
   -->
-  <UnnaturalDarkness.questDescriptionRules.rulesStrings></UnnaturalDarkness.questDescriptionRules.rulesStrings>
+  <UnnaturalDarkness.questDescriptionRules.rulesStrings>
+    <li>questDescription-></li>
+  </UnnaturalDarkness.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questDescription->unnatural darkness</li>
   -->
-  <UnnaturalDarkness.questNameRules.rulesStrings>تاریکی غیرطبیعی</UnnaturalDarkness.questNameRules.rulesStrings>
+  <UnnaturalDarkness.questNameRules.rulesStrings>
+    <li>questName->تاریکی غیرطبیعی</li>
+  </UnnaturalDarkness.questNameRules.rulesStrings>
   
 </LanguageData>

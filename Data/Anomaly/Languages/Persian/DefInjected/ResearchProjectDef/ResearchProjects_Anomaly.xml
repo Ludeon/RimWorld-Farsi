@@ -13,7 +13,14 @@
     <li>subject_story->was appointed professor of psychic history at the University of Ix</li>
     <li>subject_gerund->performing advanced psychic rituals</li>
   -->
-  <AdvancedPsychicRituals.generalRules.rulesStrings>موضوع->مراسم روانی پیشرفته داستان_موضوع->به یک حلقه کالت دعوت شد داستان_موضوع->با یک استاد تبعیدی ملاقات کرد که با خوشحالی از اسرارش می‌گفت داستان_موضوع->درک [ANYPAWN_possessive] از فداکاری مراسم را عمیق‌تر کرد داستان_موضوع->به عنوان استاد تاریخ روان در دانشگاه ایکس منصوب شد فعل_موضوع->اجرای مراسم روانی پیشرفته</AdvancedPsychicRituals.generalRules.rulesStrings>
+  <AdvancedPsychicRituals.generalRules.rulesStrings>
+    <li>subject->مراسم روانی پیشرفته</li>
+    <li>subject_story->به یک حلقه کالت دعوت شد</li>
+    <li>subject_story->با یک استاد تبعیدی ملاقات کرد که با خوشحالی از اسرارش می‌گفت</li>
+    <li>subject_story->درک [ANYPAWN_possessive] از فداکاری مراسم را عمیق‌تر کرد</li>
+    <li>subject_story->به عنوان استاد تاریخ روان در دانشگاه ایکس منصوب شد</li>
+    <li>subject_gerund->اجرای مراسم روانی پیشرفته</li>
+  </AdvancedPsychicRituals.generalRules.rulesStrings>
   
   <!-- EN: atmospheric heater -->
   <AtmosphericHeater.label>گرم‌کن جوی</AtmosphericHeater.label>
@@ -28,7 +35,15 @@
     <li>subject_gerund->heating with bioferrite</li>
     <li>subject_gerund->constructing bioferrite-fueled heaters</li>
   -->
-  <AtmosphericHeater.generalRules.rulesStrings>موضوع->گرمایش بیوفریت داستان_موضوع->نیروگاه‌های زمین‌گرمایی کهن را ارتقا داد داستان_موضوع->خروجی گرمای بیومتال‌ها را مطالعه کرد داستان_موضوع->ظرفیت غیرقابل تصور ذخیره انرژی معمارتک را تحقیق کرد داستان_موضوع->سیستم‌های هیپوکاست در دنیاهای یخ پرجمعیت را بررسی کرد فعل_موضوع->گرمایش با بیوفریت فعل_موضوع->ساخت گرم‌کن‌های بیوفریتی</AtmosphericHeater.generalRules.rulesStrings>
+  <AtmosphericHeater.generalRules.rulesStrings>
+    <li>subject->گرمایش بیوفریت</li>
+    <li>subject_story->نیروگاه‌های زمین‌گرمایی کهن را ارتقا داد</li>
+    <li>subject_story->خروجی گرمای بیومتال‌ها را مطالعه کرد</li>
+    <li>subject_story->ظرفیت غیرقابل تصور ذخیره انرژی معمارتک را تحقیق کرد</li>
+    <li>subject_story->سیستم‌های هیپوکاست در دنیاهای یخ پرجمعیت را بررسی کرد</li>
+    <li>subject_gerund->گرمایش با بیوفریت</li>
+    <li>subject_gerund->ساخت گرم‌کن‌های بیوفریتی</li>
+  </AtmosphericHeater.generalRules.rulesStrings>
   
   <!-- EN: void provocation -->
   <BasicPsychicRituals.label>مراسم روانی اولیه</BasicPsychicRituals.label>
@@ -45,7 +60,17 @@
     <li>subject_gerund->establishing ritual spots</li>
     <li>subject_gerund->provoking void entities</li>
   -->
-  <BasicPsychicRituals.generalRules.rulesStrings>موضوع->مراسم روانی داستان_موضوع->مراسم کالتیست‌های هوراکس را مطالعه کرد داستان_موضوع->آلتارهای اولیه را بازسازی کرد داستان_موضوع->اصول ارتباط روانی را بنیان‌گذاری کرد داستان_موضوع->یک مراسم تحریک خلأ ناموفق را در دنیای مرگ تماشا کرد داستان_موضوع->با تکه معمارتکی در بالای ستون صحرایی معاشقه کرد فعل_موضوع->اجرای مراسم روانی فعل_موضوع->برقراری نقاط مراسم فعل_موضوع->تحریک موجودات خلأ</BasicPsychicRituals.generalRules.rulesStrings>
+  <BasicPsychicRituals.generalRules.rulesStrings>
+    <li>subject->مراسم روانی</li>
+    <li>subject_story->مراسم کالتیست‌های هوراکس را مطالعه کرد</li>
+    <li>subject_story->آلتارهای اولیه را بازسازی کرد</li>
+    <li>subject_story->اصول ارتباط روانی را بنیان‌گذاری کرد</li>
+    <li>subject_story->یک مراسم تحریک خلأ ناموفق را در دنیای مرگ تماشا کرد</li>
+    <li>subject_story->با تکه معمارتکی در بالای ستون صحرایی معاشقه کرد</li>
+    <li>subject_gerund->اجرای مراسم روانی</li>
+    <li>subject_gerund->برقراری نقاط مراسم</li>
+    <li>subject_gerund->تحریک موجودات خلأ</li>
+  </BasicPsychicRituals.generalRules.rulesStrings>
   
   <!-- EN: bioferrite extraction -->
   <BioferriteExtraction.label>استخراج بیوفریت</BioferriteExtraction.label>
@@ -59,7 +84,14 @@
     <li>subject_story->discovered a novel organic metal</li>
     <li>subject_gerund->extracting bioferrite</li>
   -->
-  <BioferriteExtraction.generalRules.rulesStrings>موضوع->استخراج بیوفریت داستان_موضوع->ترکیب آلی از نمونه گوشتی به سرعت جهش‌یافته استخراج کرد داستان_موضوع->گوشت درخت اعلان‌کننده را پوست کند و جوشاند داستان_موضوع->گزارش‌های پدیده معمارتکی را تحقیق کرد داستان_موضوع->فلز آلی جدیدی کشف کرد فعل_موضوع->استخراج بیوفریت</BioferriteExtraction.generalRules.rulesStrings>
+  <BioferriteExtraction.generalRules.rulesStrings>
+    <li>subject->استخراج بیوفریت</li>
+    <li>subject_story->ترکیب آلی از نمونه گوشتی به سرعت جهش‌یافته استخراج کرد</li>
+    <li>subject_story->گوشت درخت اعلان‌کننده را پوست کند و جوشاند</li>
+    <li>subject_story->گزارش‌های پدیده معمارتکی را تحقیق کرد</li>
+    <li>subject_story->فلز آلی جدیدی کشف کرد</li>
+    <li>subject_gerund->استخراج بیوفریت</li>
+  </BioferriteExtraction.generalRules.rulesStrings>
   
   <!-- EN: bioferrite generator -->
   <BioferriteGenerator.label>مولد بیوفریت</BioferriteGenerator.label>
@@ -75,7 +107,16 @@
     <li>subject_gerund->constructing bioferrite-powered generators</li>
     <li>subject_gerund->powering generators using bioferrite</li>
   -->
-  <BioferriteGenerator.generalRules.rulesStrings>موضوع->تولید برق بیوفریت داستان_موضوع->در استفاده از منابع برقی نوآورانه آموزش دید داستان_موضوع->استفاده از سوخت‌های فلزی و فیبری را بررسی کرد داستان_موضوع->عشق به آتش و چیزهایی که می‌سوزند کشف کرد داستان_موضوع->به عنوان تکنسین کار کرد و سیستم‌های انرژی مدوری را نگهداری کرد داستان_موضوع->حیات وحش یک سیستم را برای سوخت فرآوری کرد فعل_موضوع->ساخت مولدهای بیوفریتی فعل_موضوع->تغذیه مولدها با بیوفریت</BioferriteGenerator.generalRules.rulesStrings>
+  <BioferriteGenerator.generalRules.rulesStrings>
+    <li>subject->تولید برق بیوفریت</li>
+    <li>subject_story->در استفاده از منابع برقی نوآورانه آموزش دید</li>
+    <li>subject_story->استفاده از سوخت‌های فلزی و فیبری را بررسی کرد</li>
+    <li>subject_story->عشق به آتش و چیزهایی که می‌سوزند کشف کرد</li>
+    <li>subject_story->به عنوان تکنسین کار کرد و سیستم‌های انرژی مدوری را نگهداری کرد</li>
+    <li>subject_story->حیات وحش یک سیستم را برای سوخت فرآوری کرد</li>
+    <li>subject_gerund->ساخت مولدهای بیوفریتی</li>
+    <li>subject_gerund->تغذیه مولدها با بیوفریت</li>
+  </BioferriteGenerator.generalRules.rulesStrings>
   
   <!-- EN: bioferrite harvester -->
   <BioferriteHarvesting.label>برداشت بیوفریت</BioferriteHarvesting.label>
@@ -89,7 +130,14 @@
     <li>subject_story->observed strange metal-infested wildlife</li>
     <li>subject_gerund->harvesting bioferrite</li>
   -->
-  <BioferriteHarvesting.generalRules.rulesStrings>موضوع->بیوفریت داستان_موضوع->ماده فیبری فلزی عجیب را تحقیق کرد داستان_موضوع->جسد مردگان متحرک را تشریح کرد داستان_موضوع->انباری از فلزات آلی کشف کرد داستان_موضوع->حیات وحش عجیب آلوده به فلز را مشاهده کرد فعل_موضوع->برداشت بیوفریت</BioferriteHarvesting.generalRules.rulesStrings>
+  <BioferriteHarvesting.generalRules.rulesStrings>
+    <li>subject->بیوفریت</li>
+    <li>subject_story->ماده فیبری فلزی عجیب را تحقیق کرد</li>
+    <li>subject_story->جسد مردگان متحرک را تشریح کرد</li>
+    <li>subject_story->انباری از فلزات آلی کشف کرد</li>
+    <li>subject_story->حیات وحش عجیب آلوده به فلز را مشاهده کرد</li>
+    <li>subject_gerund->برداشت بیوفریت</li>
+  </BioferriteHarvesting.generalRules.rulesStrings>
   
   <!-- EN: bioferrite weaponry -->
   <BioferriteIgnition.label>سلاح‌های بیوفریت</BioferriteIgnition.label>
@@ -104,7 +152,15 @@
     <li>subject_story->cleared biomines in an archotech desert</li>
     <li>subject_gerund->building bioferrite-based weapons</li>
   -->
-  <BioferriteIgnition.generalRules.rulesStrings>موضوع->احتراق بیوفریت موضوع->سلاح‌های بیوفریت داستان_موضوع->در سکوی استخراج در سیارک معمارتک کار کرد داستان_موضوع->نقطه‌های احتراق مواد عجیب را تحقیق کرد داستان_موضوع->به بازوی تحقیق شرکت تسلیحاتی میلورلد پیوست داستان_موضوع->معادن بیوی در صحرای معمارتک پاک کرد فعل_موضوع->ساخت تسلیحات بیوفریتی</BioferriteIgnition.generalRules.rulesStrings>
+  <BioferriteIgnition.generalRules.rulesStrings>
+    <li>subject->احتراق بیوفریت</li>
+    <li>subject->سلاح‌های بیوفریت</li>
+    <li>subject_story->در سکوی استخراج در سیارک معمارتک کار کرد</li>
+    <li>subject_story->نقطه‌های احتراق مواد عجیب را تحقیق کرد</li>
+    <li>subject_story->به بازوی تحقیق شرکت تسلیحاتی میلورلد پیوست</li>
+    <li>subject_story->معادن بیوی در صحرای معمارتک پاک کرد</li>
+    <li>subject_gerund->ساخت تسلیحات بیوفریتی</li>
+  </BioferriteIgnition.generalRules.rulesStrings>
   
   <!-- EN: bioferrite shaping -->
   <BioferriteShaping.label>شکل‌دهی بیوفریت</BioferriteShaping.label>
@@ -119,7 +175,15 @@
     <li>subject_story->studied the formation of archotech artefacts</li>
     <li>subject_gerund->shaping bioferrite</li>
   -->
-  <BioferriteShaping.generalRules.rulesStrings>موضوع->شکل‌دهی بیوفریت داستان_موضوع->تکنیک‌های منحصربه‌فرد قالب‌گیری و مجسمه‌سازی یاد گرفت داستان_موضوع->در شکل‌دهی گرمایی آموزش دید داستان_موضوع->در کوره مواد عجیب کار کرد داستان_موضوع->دانشمند مواد معمارتک را یاری کرد داستان_موضوع->شکل‌گیری آثار معمارتکی را مطالعه کرد فعل_موضوع->شکل‌دهی بیوفریت</BioferriteShaping.generalRules.rulesStrings>
+  <BioferriteShaping.generalRules.rulesStrings>
+    <li>subject->شکل‌دهی بیوفریت</li>
+    <li>subject_story->تکنیک‌های منحصربه‌فرد قالب‌گیری و مجسمه‌سازی یاد گرفت</li>
+    <li>subject_story->در شکل‌دهی گرمایی آموزش دید</li>
+    <li>subject_story->در کوره مواد عجیب کار کرد</li>
+    <li>subject_story->دانشمند مواد معمارتک را یاری کرد</li>
+    <li>subject_story->شکل‌گیری آثار معمارتکی را مطالعه کرد</li>
+    <li>subject_gerund->شکل‌دهی بیوفریت</li>
+  </BioferriteShaping.generalRules.rulesStrings>
   
   <!-- EN: bliss lobotomy -->
   <BlissLobotomy.label>لوبوتومی خوشحال</BlissLobotomy.label>
@@ -133,7 +197,14 @@
     <li>subject_gerund->performing lobotomies</li>
     <li>subject_gerund->excising brain tissue</li>
   -->
-  <BlissLobotomy.generalRules.rulesStrings>موضوع->لوبوتومی داستان_موضوع->در نهایت به دلیل جرایم فکری علیه دولت لوبوتومی شد داستان_موضوع->بازماندگان کمی از آزمایش الدوف را توانبخشی کرد داستان_موضوع->به عنوان دستیار جراح مغز و آرایشگر کار کرد فعل_موضوع->اجرای لوبوتومی‌ها فعل_موضوع->برداشت بافت مغزی</BlissLobotomy.generalRules.rulesStrings>
+  <BlissLobotomy.generalRules.rulesStrings>
+    <li>subject->لوبوتومی</li>
+    <li>subject_story->در نهایت به دلیل جرایم فکری علیه دولت لوبوتومی شد</li>
+    <li>subject_story->بازماندگان کمی از آزمایش الدوف را توانبخشی کرد</li>
+    <li>subject_story->به عنوان دستیار جراح مغز و آرایشگر کار کرد</li>
+    <li>subject_gerund->اجرای لوبوتومی‌ها</li>
+    <li>subject_gerund->برداشت بافت مغزی</li>
+  </BlissLobotomy.generalRules.rulesStrings>
   
   <!-- EN: blood rain -->
   <BloodRain.label>باران خون</BloodRain.label>
@@ -147,7 +218,14 @@
     <li>subject_story->was exposed to a psychofluid shower and filled with unmanageable rage</li>
     <li>subject_gerund->causing it to rain blood</li>
   -->
-  <BloodRain.generalRules.rulesStrings>موضوع->باران خون داستان_موضوع->اساطیر باستانی دیست درباره رسوب آلی را تحقیق کرد داستان_موضوع->مسیرهای عصبی بیماران خشم را مطالعه کرد داستان_موضوع->جریان‌های مایع روانی در دنیای متعالی ایکس را نمونه‌برداری کرد داستان_موضوع->در معرض دوش مایع روانی قرار گرفت و از خشم غیرقابل کنترل پر شد فعل_موضوع->باراندن خون</BloodRain.generalRules.rulesStrings>
+  <BloodRain.generalRules.rulesStrings>
+    <li>subject->باران خون</li>
+    <li>subject_story->اساطیر باستانی دیست درباره رسوب آلی را تحقیق کرد</li>
+    <li>subject_story->مسیرهای عصبی بیماران خشم را مطالعه کرد</li>
+    <li>subject_story->جریان‌های مایع روانی در دنیای متعالی ایکس را نمونه‌برداری کرد</li>
+    <li>subject_story->در معرض دوش مایع روانی قرار گرفت و از خشم غیرقابل کنترل پر شد</li>
+    <li>subject_gerund->باراندن خون</li>
+  </BloodRain.generalRules.rulesStrings>
   
   <!-- EN: brainwipe -->
   <Brainwipe.label>پاکسازی مغز</Brainwipe.label>
@@ -157,17 +235,6 @@
     <li>subject->mind erasure</li>
     <li>subject_story->studied stories of episodic amnesia</li>
     <li>subject_story->worked in a clinic with brain lesion survivors</li>
-    <li>subject_story->researched the neural pathways of amnesiacs</li>
-    <li>subject_story->managed a brainwashing facility after the Forgotten Wars</li>
-    <li>subject_gerund->wiping a subject's mind</li>
-    <li>subject_gerund->performing a ritual to erase a subject's mind</li>
-  -->
-  <Brainwipe.generalRules.rulesStrings>موضوع->پاکسازی ذهن داستان_موضوع->داستان‌های فراموشی دوره‌ای را مطالعه کرد داستان_موضوع->در کلینیک با بازماندگان ضایعات مغزی کار کرد داستان_موضوع->مسیرهای عصبی فراموش‌کاران را تحقیق کرد داستان_موضوع->بعد از جنگ‌های فراموش شده یک تسهیلات شستشوی مغزی را اداره کرد فعل_موضوع->پاک کردن ذهن موضوع فعل_موضوع->اجرای مراسم پاک کردن ذهن موضوع</Brainwipe.generalRules.rulesStrings>
-  
-  <!-- EN: chronophagy -->
-  <Chronophagy.label>زمان‌خواری</Chronophagy.label>
-  <!-- EN: Perform a psychic ritual that causes a target to age rapidly. The ritual invoker will become younger in the process. The target will suffer brain damage as a result, which may be lethal for elderly targets. -->
-  <Chronophagy.description>اجرای مراسم روانی که باعث پیری سریع هدف می‌شود. اجراکننده مراسم در این فرآیند جوان‌تر می‌شود. هدف به دنبال آن آسیب مغزی خواهد دید که ممکن است برای اهداف مسن کشنده باشد.</Chronophagy.description>
   <!-- EN:
     <li>subject->chronophagy</li>
     <li>subject_story->studied age-related degeneration</li>
@@ -178,7 +245,16 @@
     <li>subject_gerund->invoking chronophagy</li>
     <li>subject_gerund->performing a chronophagy ritual</li>
   -->
-  <Chronophagy.generalRules.rulesStrings>موضوع->زمان‌خواری داستان_موضوع->تباهی مرتبط با سن را مطالعه کرد داستان_موضوع->ساختارهای سالم را به صورت مخرب از یک ارگانیسم به دیگری تکثیر کرد داستان_موضوع->درباره مراسم مختلفی که معمارتک غنی شده می‌تواند ممکن کند تئوری‌ریزی کرد داستان_موضوع->درمان‌های طول عمر ثروتمندانه در کلینیک‌های گلیترورلد را مشاهده کرد فعل_موضوع->دزدیدن جوانی فعل_موضوع->دعوت از زمان‌خواری فعل_موضوع->اجرای مراسم زمان‌خواری</Chronophagy.generalRules.rulesStrings>
+  <Chronophagy.generalRules.rulesStrings>
+    <li>subject->زمان‌خواری</li>
+    <li>subject_story->تباهی مرتبط با سن را مطالعه کرد</li>
+    <li>subject_story->ساختارهای سالم را به صورت مخرب از یک ارگانیسم به دیگری تکثیر کرد</li>
+    <li>subject_story->درباره مراسم مختلفی که معمارتک غنی شده می‌تواند ممکن کند تئوری‌ریزی کرد</li>
+    <li>subject_story->درمان‌های طول عمر ثروتمندانه در کلینیک‌های گلیترورلد را مشاهده کرد</li>
+    <li>subject_gerund->دزدیدن جوانی</li>
+    <li>subject_gerund->دعوت از زمان‌خواری</li>
+    <li>subject_gerund->اجرای مراسم زمان‌خواری</li>
+  </Chronophagy.generalRules.rulesStrings>
   
   <!-- EN: deadlife dust -->
   <DeadlifeDust.label>گرد و غبار زندگی مرده</DeadlifeDust.label>
@@ -193,7 +269,15 @@
     <li>subject_gerund->crafting deadlife dust</li>
     <li>subject_gerund->distributing archites to create shamblers</li>
   -->
-  <DeadlifeDust.generalRules.rulesStrings>موضوع->گرد و غبار زندگی مرده داستان_موضوع->سیستم پراکنده‌سازی آیروسل برای نانوبات را سنتز کرد داستان_موضوع->از سانتریفیوژهای اتمی برای جدا کردن درجه‌های مختلف معماری استفاده کرد داستان_موضوع->یک حمله مرگ‌رو کشنده را در یک کلیپ اورب‌ورلد تماشا کرد داستان_موضوع->دستگاه کنترل معمارتک با سیستم‌های IFF خودتنظیم شده توسعه داد فعل_موضوع->ساخت گرد و غبار زندگی مرده فعل_موضوع->توزیع معماری‌ها برای ایجاد مرگ‌روها</DeadlifeDust.generalRules.rulesStrings>
+  <DeadlifeDust.generalRules.rulesStrings>
+    <li>subject->گرد و غبار زندگی مرده</li>
+    <li>subject_story->سیستم پراکنده‌سازی آیروسل برای نانوبات را سنتز کرد</li>
+    <li>subject_story->از سانتریفیوژهای اتمی برای جدا کردن درجه‌های مختلف معماری استفاده کرد</li>
+    <li>subject_story->یک حمله مرگ‌رو کشنده را در یک کلیپ اورب‌ورلد تماشا کرد</li>
+    <li>subject_story->دستگاه کنترل معمارتک با سیستم‌های IFF خودتنظیم شده توسعه داد</li>
+    <li>subject_gerund->ساخت گرد و غبار زندگی مرده</li>
+    <li>subject_gerund->توزیع معماری‌ها برای ایجاد مرگ‌روها</li>
+  </DeadlifeDust.generalRules.rulesStrings>
   
   <!-- EN: death refusal -->
   <DeathRefusal.label>امتناع از مرگ</DeathRefusal.label>
@@ -208,12 +292,20 @@
     <li>subject_gerund->fending off death</li>
     <li>subject_gerund->performing a ritual to rebuke death</li>
   -->
-  <DeathRefusal.generalRules.rulesStrings>موضوع->دعوت از امتناع مرگ داستان_موضوع->داستان‌های بقای غیرممکن را تحقیق کرد داستان_موضوع->آخرین لحظات تلفات زیاد نبرد هفتم آخر را مشاهده کرد داستان_موضوع->در تلاش زنده کردن پیامبر اول آخور شرکت کرد داستان_موضوع->شواهد امتناع از مرگ را در کتابخانه‌های یک دنیای مرکزی گردآوری کرد فعل_موضوع->دور کردن مرگ فعل_موضوع->اجرای مراسم سرزنش مرگ</DeathRefusal.generalRules.rulesStrings>
+  <DeathRefusal.generalRules.rulesStrings>
+    <li>subject->دعوت از امتناع مرگ</li>
+    <li>subject_story->داستان‌های بقای غیرممکن را تحقیق کرد</li>
+    <li>subject_story->آخرین لحظات تلفات زیاد نبرد هفتم آخر را مشاهده کرد</li>
+    <li>subject_story->در تلاش زنده کردن پیامبر اول آخور شرکت کرد</li>
+    <li>subject_story->شواهد امتناع از مرگ را در کتابخانه‌های یک دنیای مرکزی گردآوری کرد</li>
+    <li>subject_gerund->دور کردن مرگ</li>
+    <li>subject_gerund->اجرای مراسم سرزنش مرگ</li>
+  </DeathRefusal.generalRules.rulesStrings>
   
   <!-- EN: disruptor flares -->
-  <DisruptorFlares.label>TODO</DisruptorFlares.label>
+  <DisruptorFlares.label>فلرهای مختل‌کننده</DisruptorFlares.label>
   <!-- EN: Build bioferrite-based flare packs that reveal invisible creatures and light up an area. -->
-  <DisruptorFlares.description>TODO</DisruptorFlares.description>
+  <DisruptorFlares.description>ساخت بسته‌های فلر مبتنی بر بیوفریت که موجودات نامرئی را آشکار و منطقه را روشن می‌کنند.</DisruptorFlares.description>
   <!-- EN:
     <li>subject->bioferrite flares</li>
     <li>subject->short-term lighting</li>
@@ -224,12 +316,21 @@
     <li>subject_gerund->boosting visibility temporarily</li>
     <li>subject_gerund->crafting bioferrite flares</li>
   -->
-  <DisruptorFlares.generalRules.rulesStrings>TODO</DisruptorFlares.generalRules.rulesStrings>
+  <DisruptorFlares.generalRules.rulesStrings>
+    <li>subject->فلرهای بیوفریتی</li>
+    <li>subject->نورپردازی کوتاه‌مدت</li>
+    <li>subject_story->طیف الکترومغناطیسی غیربصری را مطالعه کرد</li>
+    <li>subject_story->مراکز بینایی سوژه‌های آزمایش را غیرفعال کرد</li>
+    <li>subject_story->تکنیک‌های بیولومینسانس جانوران دنیای شب را مطالعه کرد</li>
+    <li>subject_story->طیف الکترومغناطیسی آزادسازی انرژی معماری را محدود کرد</li>
+    <li>subject_gerund->افزایش دید به طور موقت</li>
+    <li>subject_gerund->ساخت فلرهای بیوفریتی</li>
+  </DisruptorFlares.generalRules.rulesStrings>
   
   <!-- EN: electroharvester -->
-  <Electroharvester.label>TODO</Electroharvester.label>
+  <Electroharvester.label>برداشت‌کننده الکتریکی</Electroharvester.label>
   <!-- EN: Build a generator that draws electricity from contained entities. This process aggravates entities, making them harder to contain. -->
-  <Electroharvester.description>TODO</Electroharvester.description>
+  <Electroharvester.description>ساخت مولدی که برق را از موجودات محبوس شده می‌گیرد. این فرآیند موجودات را تحریک می‌کند و نگهداری آنها را دشوارتر می‌سازد.</Electroharvester.description>
   <!-- EN:
     <li>subject->entity-derived power generation</li>
     <li>subject_story->researched ion pumps in cell membranes</li>
@@ -239,12 +340,20 @@
     <li>subject_gerund->harvesting from entities</li>
     <li>subject_gerund->constructing electroharvesters</li>
   -->
-  <Electroharvester.generalRules.rulesStrings>TODO</Electroharvester.generalRules.rulesStrings>
+  <Electroharvester.generalRules.rulesStrings>
+    <li>subject->تولید برق مشتق از موجودات</li>
+    <li>subject_story->پمپ‌های یونی در غشاهای سلولی را تحقیق کرد</li>
+    <li>subject_story->زندگی مارماهی الکتریکی نادر زمینی را مطالعه کرد</li>
+    <li>subject_story->معماری‌ها را تحریک کرد و خروجی حرارتی آنها را مطالعه کرد</li>
+    <li>subject_story->درباره پتانسیل انرژی معمارتک تئوری‌ریزی کرد</li>
+    <li>subject_gerund->برداشت از موجودات</li>
+    <li>subject_gerund->ساخت برداشت‌کننده الکتریکی</li>
+  </Electroharvester.generalRules.rulesStrings>
   
   <!-- EN: entity containment -->
-  <EntityContainment.label>TODO</EntityContainment.label>
+  <EntityContainment.label>مهار موجودات</EntityContainment.label>
   <!-- EN: Build holding platforms and inhibitors to better contain entities. -->
-  <EntityContainment.description>TODO</EntityContainment.description>
+  <EntityContainment.description>ساخت سکوهای نگهداری و بازدارنده‌ها برای مهار بهتر موجودات.</EntityContainment.description>
   <!-- EN:
     <li>subject->entity containment</li>
     <li>subject_story->worked in a prisonworld research facility</li>
@@ -254,12 +363,20 @@
     <li>subject_gerund->containing entities</li>
     <li>subject_gerund->construction entity containment facilities</li>
   -->
-  <EntityContainment.generalRules.rulesStrings>TODO</EntityContainment.generalRules.rulesStrings>
+  <EntityContainment.generalRules.rulesStrings>
+    <li>subject->مهار موجودات</li>
+    <li>subject_story->در مرکز تحقیقاتی دنیای زندان کار کرد</li>
+    <li>subject_story->در دنیای زندان اسیر بود</li>
+    <li>subject_story->با جنبش چریکی برای نفوذ به تسهیلات نگهداری کار کرد</li>
+    <li>subject_story->کارخانه‌های بسته‌بندی گوشت در زنجیره‌های دنیای دایناسور ساخت</li>
+    <li>subject_gerund->مهار موجودات</li>
+    <li>subject_gerund->ساخت تسهیلات مهار موجودات</li>
+  </EntityContainment.generalRules.rulesStrings>
   
   <!-- EN: frenzy inducer -->
-  <FrenzyInducer.label>TODO</FrenzyInducer.label>
+  <FrenzyInducer.label>القاکننده جنون</FrenzyInducer.label>
   <!-- EN: Build shard-powered structures that generate a frenetic psychic field to make anyone nearby move and work faster. However, the unstable emotional energy creates a tendency towards violence, irritating anyone nearby. -->
-  <FrenzyInducer.description>TODO</FrenzyInducer.description>
+  <FrenzyInducer.description>ساخت سازه‌های نیرو گرفته از تکه که میدان روانی دیوانه‌واری تولید می‌کنند تا هر کسی در نزدیکی سریع‌تر حرکت و کار کند. با این حال، انرژی احساسی ناپایدار تمایل به خشونت ایجاد می‌کند و هر کسی در نزدیکی را تحریک می‌کند.</FrenzyInducer.description>
   <!-- EN:
     <li>subject->archotech frenzy inducers</li>
     <li>subject_story->worked as a motivational therapist</li>
@@ -269,12 +386,20 @@
     <li>subject_gerund->inducing frenzy</li>
     <li>subject_gerund->constructing frenzy inducers from archotech</li>
   -->
-  <FrenzyInducer.generalRules.rulesStrings>TODO</FrenzyInducer.generalRules.rulesStrings>
+  <FrenzyInducer.generalRules.rulesStrings>
+    <li>subject->القاکننده‌های جنون معمارتک</li>
+    <li>subject_story->به عنوان درمانگر انگیزشی کار کرد</li>
+    <li>subject_story->در کشتی دنیای وحشی طبل زد</li>
+    <li>subject_story->تأثیرات میدان‌های معماری مختلف بر آگاهی انسان را تحقیق کرد</li>
+    <li>subject_story->ایستگاه خلسه در زیرکلوپ دنیای شهری را مدیریت کرد</li>
+    <li>subject_gerund->القای جنون</li>
+    <li>subject_gerund->ساخت القاکننده‌های جنون از معمارتک</li>
+  </FrenzyInducer.generalRules.rulesStrings>
   
   <!-- EN: ghoul enhancements -->
-  <GhoulEnhancements.label>TODO</GhoulEnhancements.label>
+  <GhoulEnhancements.label>ارتقاهای غول</GhoulEnhancements.label>
   <!-- EN: Craft bioferrite prosthetics to make ghouls stronger. -->
-  <GhoulEnhancements.description>TODO</GhoulEnhancements.description>
+  <GhoulEnhancements.description>ساخت پروتزهای بیوفریتی برای قوی‌تر کردن غول‌ها.</GhoulEnhancements.description>
   <!-- EN:
     <li>subject->ghoul enhancements</li>
     <li>subject_story->experimented with the dead and the twice-dead</li>
@@ -282,12 +407,18 @@
     <li>subject_story->researched more complex ghoul prosthesis</li>
     <li>subject_gerund->enhancing a ghoul with bioferrite prosthetics</li>
   -->
-  <GhoulEnhancements.generalRules.rulesStrings>TODO</GhoulEnhancements.generalRules.rulesStrings>
+  <GhoulEnhancements.generalRules.rulesStrings>
+    <li>subject->ارتقاهای غول</li>
+    <li>subject_story->با مردگان و دوباره‌مردگان آزمایش کرد</li>
+    <li>subject_story->اقلام عجیب و غریب‌تری را در غول‌ها کاشت</li>
+    <li>subject_story->پروتز غول پیچیده‌تر را تحقیق کرد</li>
+    <li>subject_gerund->ارتقای غول با پروتزهای بیوفریتی</li>
+  </GhoulEnhancements.generalRules.rulesStrings>
   
   <!-- EN: ghoul infusion -->
-  <GhoulInfusion.label>TODO</GhoulInfusion.label>
+  <GhoulInfusion.label>تزریق غول</GhoulInfusion.label>
   <!-- EN: Perform a surgery that infuses a living person with an archotech shard, transforming them into a terrifying ghoul. Ghouls are strong melee combatants but are incapable of doing work. Ghouls will go mad if they are not fed enough raw meat. -->
-  <GhoulInfusion.description>TODO</GhoulInfusion.description>
+  <GhoulInfusion.description>اجرای جراحی که فرد زنده‌ای را با تکه معمارتک تزریق می‌کند و آنها را به غول وحشتناکی تبدیل می‌کند. غول‌ها مبارزان نزدیک‌زن قوی هستند اما قادر به انجام کار نیستند. غول‌ها اگر گوشت خام کافی تغذیه نشوند دیوانه خواهند شد.</GhoulInfusion.description>
   <!-- EN:
     <li>subject->ghoul creation</li>
     <li>subject_story->supplied condemned prisonworld inhabitants for urbworld conflicts</li>
@@ -296,12 +427,19 @@
     <li>subject_gerund->infusing an archotech shard into a living person</li>
     <li>subject_gerund->creating a ghoul</li>
   -->
-  <GhoulInfusion.generalRules.rulesStrings>TODO</GhoulInfusion.generalRules.rulesStrings>
+  <GhoulInfusion.generalRules.rulesStrings>
+    <li>subject->خلق غول</li>
+    <li>subject_story->ساکنین محکوم دنیای زندان را برای درگیری‌های دنیای شهری تأمین کرد</li>
+    <li>subject_story->تزریقات معماری را به عنوان بخشی از برنامه آزمایشی نظامی کرد</li>
+    <li>subject_story->زندگی مرده وحشی را در خرابه‌های دنیای مرده مطالعه کرد</li>
+    <li>subject_gerund->تزریق تکه معمارتک به فرد زنده</li>
+    <li>subject_gerund->خلق غول</li>
+  </GhoulInfusion.generalRules.rulesStrings>
   
   <!-- EN: ghoul resurrection -->
-  <GhoulResurrection.label>TODO</GhoulResurrection.label>
+  <GhoulResurrection.label>احیای غول</GhoulResurrection.label>
   <!-- EN: Synthesize a serum that can bring dead ghouls back to life. -->
-  <GhoulResurrection.description>TODO</GhoulResurrection.description>
+  <GhoulResurrection.description>سنتز سرمی که می‌تواند غول‌های مرده را به زندگی بازگرداند.</GhoulResurrection.description>
   <!-- EN:
     <li>subject->ghoul resurrection</li>
     <li>subject_story->developed a new method of resurrecting ghouls</li>
@@ -311,12 +449,20 @@
     <li>subject_gerund->resurrecting a ghoul</li>
     <li>subject_gerund->synthesizing a serum to resurrect ghouls</li>
   -->
-  <GhoulResurrection.generalRules.rulesStrings>TODO</GhoulResurrection.generalRules.rulesStrings>
+  <GhoulResurrection.generalRules.rulesStrings>
+    <li>subject->احیای غول</li>
+    <li>subject_story->روش جدیدی برای احیای غول‌ها توسعه داد</li>
+    <li>subject_story->ترکیبات متنوعی از معمارتک را به اجساد تزریق کرد</li>
+    <li>subject_story->تأثیرات غلظت‌های بالاتر معمارتک بر غول‌ها را تحقیق کرد</li>
+    <li>subject_story->احیای مکرر یک غول را شاهد بود</li>
+    <li>subject_gerund->احیای یک غول</li>
+    <li>subject_gerund->سنتز سرمی برای احیای غول‌ها</li>
+  </GhoulResurrection.generalRules.rulesStrings>
   
   <!-- EN: insanity weaponry -->
-  <InsanityWeaponry.label>TODO</InsanityWeaponry.label>
+  <InsanityWeaponry.label>تسلیحات جنون</InsanityWeaponry.label>
   <!-- EN: Restructure archotech shards into limited-use weapons that shock, manipulate, and destroy enemies using archotechnology. -->
-  <InsanityWeaponry.description>TODO</InsanityWeaponry.description>
+  <InsanityWeaponry.description>بازسازی تکه‌های معمارتک به سلاح‌های با استفاده محدود که دشمنان را با استفاده از فناوری معمارتک شوکه، دستکاری و نابود می‌کنند.</InsanityWeaponry.description>
   <!-- EN:
     <li>subject->archotech insanity weaponry</li>
     <li>subject_story->explored psychological warfare for [ANYPAWN_possessive] dissertation</li>
@@ -325,12 +471,19 @@
     <li>subject_story->vivisected archite-infested wildlife to understand the effects on the mammalian brain</li>
     <li>subject_gerund->restructuring archotech into insanity-inducing weaponry</li>
   -->
-  <InsanityWeaponry.generalRules.rulesStrings>TODO</InsanityWeaponry.generalRules.rulesStrings>
+  <InsanityWeaponry.generalRules.rulesStrings>
+    <li>subject->تسلیحات جنون معمارتک</li>
+    <li>subject_story->جنگ روانی را برای پایان‌نامه [ANYPAWN_possessive] بررسی کرد</li>
+    <li>subject_story->فرار یک گردان امپراتوری را تماشا کرد و ارزش ترس را آموخت</li>
+    <li>subject_story->در تیمارستانی از قربانیان معمارتک کار کرد</li>
+    <li>subject_story->حیات وحش آلوده به معماری را برای درک تأثیرات بر مغز پستانداران تشریح کرد</li>
+    <li>subject_gerund->بازسازی معمارتک به تسلیحات القاکننده جنون</li>
+  </InsanityWeaponry.generalRules.rulesStrings>
   
   <!-- EN: juggernaut serum -->
-  <JuggernautSerum.label>TODO</JuggernautSerum.label>
+  <JuggernautSerum.label>سرم جاگرنات</JuggernautSerum.label>
   <!-- EN: Synthesize a serum which temporarily increases the user's strength and speed, and allows them to recover from injuries faster. However, it reduces their mood. -->
-  <JuggernautSerum.description>TODO</JuggernautSerum.description>
+  <JuggernautSerum.description>سنتز سرمی که به طور موقت قدرت و سرعت کاربر را افزایش می‌دهد و به آنها اجازه می‌دهد سریع‌تر از جراحات بهبود یابند. با این حال، خلق و خوی آنها را کاهش می‌دهد.</JuggernautSerum.description>
   <!-- EN:
     <li>subject->juggernaut serum</li>
     <li>subject_story->was banned from the coreworld leagues after [ANYPAWN_pronoun] was caught doping a team with Juggernaut Serum</li>
@@ -339,12 +492,19 @@
     <li>subject_story->fell into a barrel of juggernaut serum</li>
     <li>subject_gerund->synthesizing juggernaut serums</li>
   -->
-  <JuggernautSerum.generalRules.rulesStrings>TODO</JuggernautSerum.generalRules.rulesStrings>
+  <JuggernautSerum.generalRules.rulesStrings>
+    <li>subject->سرم جاگرنات</li>
+    <li>subject_story->پس از اینکه [ANYPAWN_pronoun] در حال دوپینگ یک تیم با سرم جاگرنات دستگیر شد، از لیگ‌های دنیای مرکزی محروم شد</li>
+    <li>subject_story->وقتی مهمات سربازان تمام شد به آنها سرم جاگرنات داد</li>
+    <li>subject_story->استفاده از سرم در میان بخش‌های ساختمانی تحت قرارداد را تحقیق کرد</li>
+    <li>subject_story->در بشکه‌ای از سرم جاگرنات افتاد</li>
+    <li>subject_gerund->سنتز سرم‌های جاگرنات</li>
+  </JuggernautSerum.generalRules.rulesStrings>
   
   <!-- EN: metalblood serum -->
-  <MetalbloodSerum.label>TODO</MetalbloodSerum.label>
+  <MetalbloodSerum.label>سرم خون‌فلزی</MetalbloodSerum.label>
   <!-- EN: Synthesize metalblood serums that make the user more resistant to damage. -->
-  <MetalbloodSerum.description>TODO</MetalbloodSerum.description>
+  <MetalbloodSerum.description>سنتز سرم‌های خون‌فلزی که کاربر را در برابر آسیب مقاوم‌تر می‌کند.</MetalbloodSerum.description>
   <!-- EN:
     <li>subject->metalblood serums</li>
     <li>subject_story->researched reactive liquids for use in milworld armor</li>
@@ -353,12 +513,19 @@
     <li>subject_story->deployed flamethrowers against a metalblood-using militia</li>
     <li>subject_gerund->synthesizing metalblood serums</li>
   -->
-  <MetalbloodSerum.generalRules.rulesStrings>TODO</MetalbloodSerum.generalRules.rulesStrings>
+  <MetalbloodSerum.generalRules.rulesStrings>
+    <li>subject->سرم‌های خون‌فلزی</li>
+    <li>subject_story->مایعات واکنش‌گر برای استفاده در زره‌های دنیای نظامی را تحقیق کرد</li>
+    <li>subject_story->یکی از پیشگامان اولیه فناوری‌های جایگزینی خون بود</li>
+    <li>subject_story->یک توزیع‌کننده خون‌فلزی را در دنیای مرده متروک کشف کرد</li>
+    <li>subject_story->علیه شبه‌نظامیانی که از خون‌فلزی استفاده می‌کردند شعله‌افکن به کار برد</li>
+    <li>subject_gerund->سنتز سرم‌های خون‌فلزی</li>
+  </MetalbloodSerum.generalRules.rulesStrings>
   
   <!-- EN: mind-numb serum -->
-  <MindNumbSerum.label>TODO</MindNumbSerum.label>
+  <MindNumbSerum.label>سرم بی‌حسی ذهن</MindNumbSerum.label>
   <!-- EN: Synthesize a serum that stabilizes a person's mood, preventing mental breaks. -->
-  <MindNumbSerum.description>TODO</MindNumbSerum.description>
+  <MindNumbSerum.description>سنتز سرمی که خلق و خوی فرد را تثبیت می‌کند و از فروپاشی‌های روانی جلوگیری می‌کند.</MindNumbSerum.description>
   <!-- EN:
     <li>subject->mind-numb serum</li>
     <li>subject_story->sabotaged an emotional performance by secretly numbing the lead singer</li>
@@ -367,12 +534,19 @@
     <li>subject_story->investigated the use of archotech to numb pain</li>
     <li>subject_gerund->synthesizing mind-numb serums</li>
   -->
-  <MindNumbSerum.generalRules.rulesStrings>TODO</MindNumbSerum.generalRules.rulesStrings>
+  <MindNumbSerum.generalRules.rulesStrings>
+    <li>subject->سرم بی‌حسی ذهن</li>
+    <li>subject_story->یک اجرای احساسی را با بی‌حس کردن مخفیانه خواننده اصلی خراب کرد</li>
+    <li>subject_story->سرم بی‌حسی ذهن با دوز پایین را در منبع آب تیمارستان فیلتر کرد</li>
+    <li>subject_story->سرم بی‌حسی ذهن را بین سربازان جوان قبل و بعد از نبرد توزیع کرد</li>
+    <li>subject_story->استفاده از معمارتک برای بی‌حس کردن درد را تحقیق کرد</li>
+    <li>subject_gerund->سنتز سرم‌های بی‌حسی ذهن</li>
+  </MindNumbSerum.generalRules.rulesStrings>
   
   <!-- EN: mutation weaponry -->
-  <MutationWeaponry.label>TODO</MutationWeaponry.label>
+  <MutationWeaponry.label>تسلیحات جهش‌زا</MutationWeaponry.label>
   <!-- EN: Restructure archotech shards into limited-use weapons that twist living targets into terrifying creatures. -->
-  <MutationWeaponry.description>TODO</MutationWeaponry.description>
+  <MutationWeaponry.description>بازسازی تکه‌های معمارتک به سلاح‌های با استفاده محدود که اهداف زنده را به موجودات وحشتناکی تبدیل می‌کنند.</MutationWeaponry.description>
   <!-- EN:
     <li>subject->mutation induction</li>
     <li>subject->archotech mutation weaponry</li>
@@ -384,12 +558,22 @@
     <li>subject_gerund->inducing mutations</li>
     <li>subject_gerund->restructuring archotech into mutation-inducing weaponry</li>
   -->
-  <MutationWeaponry.generalRules.rulesStrings>TODO</MutationWeaponry.generalRules.rulesStrings>
+  <MutationWeaponry.generalRules.rulesStrings>
+    <li>subject->القای جهش</li>
+    <li>subject->تسلیحات جهش‌زای معمارتک</li>
+    <li>subject_story->رویای زندگی جدیدی را دید که با معماری‌ها تزریق شده بود</li>
+    <li>subject_story->شاهد تاب برداشتن حیات گیاهی توسط معمارتک بود</li>
+    <li>subject_story->با سلاح‌های جدید آزمایش کرد</li>
+    <li>subject_story->زندگی جدید را در دنیاهای متعالی مطالعه کرد</li>
+    <li>subject_story->حیات مبتنی بر معماری را در آزمایشگاه پرورش داد</li>
+    <li>subject_gerund->القای جهش‌ها</li>
+    <li>subject_gerund->بازسازی معمارتک به تسلیحات القاکننده جهش</li>
+  </MutationWeaponry.generalRules.rulesStrings>
   
   <!-- EN: neurosis pulse -->
-  <NeurosisPulse.label>TODO</NeurosisPulse.label>
+  <NeurosisPulse.label>پالس روان‌نژندی</NeurosisPulse.label>
   <!-- EN: Perform a psychic ritual that makes everyone in the region work faster but become more irritable. -->
-  <NeurosisPulse.description>TODO</NeurosisPulse.description>
+  <NeurosisPulse.description>اجرای مراسم روانی که باعث می‌شود همه در منطقه سریع‌تر کار کنند اما تحریک‌پذیرتر شوند.</NeurosisPulse.description>
   <!-- EN:
     <li>subject->neurosis pulse</li>
     <li>subject->work imperative</li>
@@ -400,12 +584,21 @@
     <li>subject_gerund->inducing neuroses psychically</li>
     <li>subject_gerund->performing a ritual to raise worker productivity</li>
   -->
-  <NeurosisPulse.generalRules.rulesStrings>TODO</NeurosisPulse.generalRules.rulesStrings>
+  <NeurosisPulse.generalRules.rulesStrings>
+    <li>subject->پالس روان‌نژندی</li>
+    <li>subject->الزام کاری</li>
+    <li>subject_story->به کالت کارگران در یک دنیای شهری پیوست</li>
+    <li>subject_story->فشار روانی یک مراسم را در حین کار احساس کرد</li>
+    <li>subject_story->مسیرهای عصبی افراد روان‌نژند را مطالعه کرد</li>
+    <li>subject_story->همپوشانی بین استعاره‌های مدیریتی و مراسم کالت را تحقیق کرد</li>
+    <li>subject_gerund->القای روان‌نژندی به صورت روانی</li>
+    <li>subject_gerund->اجرای مراسم برای افزایش بهره‌وری کارگران</li>
+  </NeurosisPulse.generalRules.rulesStrings>
   
   <!-- EN: philophagy -->
-  <Philophagy.label>TODO</Philophagy.label>
+  <Philophagy.label>دانش‌خواری</Philophagy.label>
   <!-- EN: Perform a psychic ritual that drains experience from a victim and gives it to the invoker. The process will dull the target's mind, weakening their skills and causing brain damage. -->
-  <Philophagy.description>TODO</Philophagy.description>
+  <Philophagy.description>اجرای مراسم روانی که تجربه را از قربانی تخلیه می‌کند و به اجراکننده می‌دهد. این فرآیند ذهن هدف را کند می‌کند، مهارت‌های آنها را تضعیف می‌کند و باعث آسیب مغزی می‌شود.</Philophagy.description>
   <!-- EN:
     <li>subject->philophagy</li>
     <li>subject->skill transfer</li>
@@ -416,12 +609,21 @@
     <li>subject_gerund->transferring a subject's learning</li>
     <li>subject_gerund->performing a ritual to steal a victim's skills</li>
   -->
-  <Philophagy.generalRules.rulesStrings>TODO</Philophagy.generalRules.rulesStrings>
+  <Philophagy.generalRules.rulesStrings>
+    <li>subject->دانش‌خواری</li>
+    <li>subject->انتقال مهارت</li>
+    <li>subject_story->ردپای قربانیان به جا مانده از یک دانش‌خوار را دنبال کرد</li>
+    <li>subject_story->فرآیندهای تکثیر عصبی را در آزمایشگاه‌های گلیترورلد تحقیق کرد</li>
+    <li>subject_story->ذهن‌های آسیب‌دیده قربانیان کالت را بررسی کرد</li>
+    <li>subject_story->مهارت‌های [ANYPAWN_possessive] را پس از یک حمله روانی ضعیف شده یافت</li>
+    <li>subject_gerund->انتقال یادگیری یک سوژه</li>
+    <li>subject_gerund->اجرای مراسم برای دزدیدن مهارت‌های قربانی</li>
+  </Philophagy.generalRules.rulesStrings>
   
   <!-- EN: pleasure pulse -->
-  <PleasurePulse.label>TODO</PleasurePulse.label>
+  <PleasurePulse.label>پالس لذت</PleasurePulse.label>
   <!-- EN: Perform a psychic ritual that makes everyone in the region happier but reduces their desire to work. -->
-  <PleasurePulse.description>TODO</PleasurePulse.description>
+  <PleasurePulse.description>اجرای مراسم روانی که باعث می‌شود همه در منطقه خوشحال‌تر شوند اما تمایل آنها به کار را کاهش می‌دهد.</PleasurePulse.description>
   <!-- EN:
     <li>subject->pleasure invocation</li>
     <li>subject_story->read an ancient Earth story that boasted of a miracle food called soma</li>
@@ -431,12 +633,20 @@
     <li>subject_gerund->inducing pleasure psychically</li>
     <li>subject_gerund->performing a psychic ritual to induce pleasure</li>
   -->
-  <PleasurePulse.generalRules.rulesStrings>TODO</PleasurePulse.generalRules.rulesStrings>
+  <PleasurePulse.generalRules.rulesStrings>
+    <li>subject->دعوت لذت</li>
+    <li>subject_story->یک داستان باستانی زمینی خواند که به غذای معجزه‌آسایی به نام سوما می‌بالید</li>
+    <li>subject_story->افسانه نیلوفرخواران را تحقیق کرد</li>
+    <li>subject_story->با فیلسوفان اجتماعی کار کرد تا یک مراسم فایده‌گرا ایجاد کند</li>
+    <li>subject_story->به یک کالت معمارتک نادر اختصاص یافته به تفریح و لذت پیوست</li>
+    <li>subject_gerund->القای لذت به صورت روانی</li>
+    <li>subject_gerund->اجرای مراسم روانی برای القای لذت</li>
+  </PleasurePulse.generalRules.rulesStrings>
   
   <!-- EN: proximity detector -->
-  <ProximityDetector.label>TODO</ProximityDetector.label>
+  <ProximityDetector.label>آشکارساز نزدیکی</ProximityDetector.label>
   <!-- EN: Build a device that can detect invisible creatures. -->
-  <ProximityDetector.description>TODO</ProximityDetector.description>
+  <ProximityDetector.description>ساخت دستگاهی که می‌تواند موجودات نامرئی را شناسایی کند.</ProximityDetector.description>
   <!-- EN:
     <li>subject->proximity detectors</li>
     <li>subject->motion sensors</li>
@@ -447,12 +657,21 @@
     <li>subject_gerund->revealing the unseen</li>
     <li>subject_gerund->detecting invisible creatures</li>
   -->
-  <ProximityDetector.generalRules.rulesStrings>TODO</ProximityDetector.generalRules.rulesStrings>
+  <ProximityDetector.generalRules.rulesStrings>
+    <li>subject->آشکارسازهای نزدیکی</li>
+    <li>subject->حسگرهای حرکتی</li>
+    <li>subject_story->ریل‌های سرگرمی باستانی را تماشا کرد و الهام گرفت</li>
+    <li>subject_story->دستگاه‌های ساده سخت‌شده با سای را نمونه‌سازی کرد</li>
+    <li>subject_story->سیستم‌های هشدار اولیه یک پاسگاه دنیای مرگ را نگهداری کرد</li>
+    <li>subject_story->اسکنرهای چندباندی را برای تشخیص الگوی بین‌سیستمی مطالعه کرد</li>
+    <li>subject_gerund->آشکارسازی نادیده‌ها</li>
+    <li>subject_gerund->تشخیص موجودات نامرئی</li>
+  </ProximityDetector.generalRules.rulesStrings>
   
   <!-- EN: psychophagy -->
-  <Psychophagy.label>TODO</Psychophagy.label>
+  <Psychophagy.label>روان‌خواری</Psychophagy.label>
   <!-- EN: Perform a psychic ritual which deadens a target's psychic sensitivity and temporarily boosts the ritual invoker's psychic sensitivity. The target will suffer brain damage as a side-effect. -->
-  <Psychophagy.description>TODO</Psychophagy.description>
+  <Psychophagy.description>اجرای مراسم روانی که حساسیت روانی هدف را از بین می‌برد و به طور موقت حساسیت روانی اجراکننده مراسم را افزایش می‌دهد. هدف به عنوان عارضه جانبی دچار آسیب مغزی خواهد شد.</Psychophagy.description>
   <!-- EN:
     <li>subject->psychophagy</li>
     <li>subject_story->studied managed desensitization to psychic effects</li>
@@ -462,12 +681,20 @@
     <li>subject_gerund->stealing psychic abilities</li>
     <li>subject_gerund->performing a psychophagy ritual</li>
   -->
-  <Psychophagy.generalRules.rulesStrings>TODO</Psychophagy.generalRules.rulesStrings>
+  <Psychophagy.generalRules.rulesStrings>
+    <li>subject->روان‌خواری</li>
+    <li>subject_story->حساسیت‌زدایی مدیریت شده نسبت به اثرات روانی را مطالعه کرد</li>
+    <li>subject_story->انتقال معماری از سوژه‌های فوت شده را مدیریت کرد</li>
+    <li>subject_story->شایعات مراسم انتقال روانی را گردآوری کرد</li>
+    <li>subject_story->شاهد تخلیه قدرت یک نجیب‌زاده امپراتوری توسط کالت هوراکس بود</li>
+    <li>subject_gerund->دزدیدن توانایی‌های روانی</li>
+    <li>subject_gerund->اجرای مراسم روان‌خواری</li>
+  </Psychophagy.generalRules.rulesStrings>
   
   <!-- EN: revenant invisibility -->
-  <RevenantInvisibility.label>TODO</RevenantInvisibility.label>
+  <RevenantInvisibility.label>نامرئی شدن بازگشته</RevenantInvisibility.label>
   <!-- EN: Modify a revenant spine so that it can be implanted in a human, allowing them to become temporarily invisible. -->
-  <RevenantInvisibility.description>TODO</RevenantInvisibility.description>
+  <RevenantInvisibility.description>اصلاح ستون فقرات بازگشته به طوری که بتوان آن را در انسان کاشت و به آنها اجازه داد به طور موقت نامرئی شوند.</RevenantInvisibility.description>
   <!-- EN:
     <li>subject->invisibility</li>
     <li>subject_story->implanted a monster's spine into a human, without considering the consequences</li>
@@ -477,12 +704,20 @@
     <li>subject_gerund->adapting a revenant spine</li>
     <li>subject_gerund->implanting a revenant spine into a human</li>
   -->
-  <RevenantInvisibility.generalRules.rulesStrings>TODO</RevenantInvisibility.generalRules.rulesStrings>
+  <RevenantInvisibility.generalRules.rulesStrings>
+    <li>subject->نامرئی شدن</li>
+    <li>subject_story->ستون فقرات هیولا را در انسان کاشت، بدون در نظر گرفتن عواقب</li>
+    <li>subject_story->رمانی درباره اخلاق ناپدید شدن یک فرد نامرئی نوشت</li>
+    <li>subject_story->ستون فقرات فلزی عجیبی را در سیستم ستاره مرده کشف کرد</li>
+    <li>subject_story->رویای ارتشی از جنگجویان نامرئی را دید</li>
+    <li>subject_gerund->تطبیق ستون فقرات بازگشته</li>
+    <li>subject_gerund->کاشتن ستون فقرات بازگشته در انسان</li>
+  </RevenantInvisibility.generalRules.rulesStrings>
   
   <!-- EN: serum synthesis -->
-  <SerumSynthesis.label>TODO</SerumSynthesis.label>
+  <SerumSynthesis.label>سنتز سرم</SerumSynthesis.label>
   <!-- EN: Build a serum lab to synthesize high-tech serums. Serums harness archotechnological power to bestow a temporary effect on the user. -->
-  <SerumSynthesis.description>TODO</SerumSynthesis.description>
+  <SerumSynthesis.description>ساخت آزمایشگاه سرم برای سنتز سرم‌های با تکنولوژی بالا. سرم‌ها از قدرت معمارتکنولوژی برای اعطای اثر موقت به کاربر استفاده می‌کنند.</SerumSynthesis.description>
   <!-- EN:
     <li>subject->serum synthesis</li>
     <li>subject_story->was injected with archites to understand their effects</li>
@@ -491,12 +726,19 @@
     <li>subject_story->managed a serum-testing programme for a coreworld brigade</li>
     <li>subject_gerund->synthesizing serums</li>
   -->
-  <SerumSynthesis.generalRules.rulesStrings>TODO</SerumSynthesis.generalRules.rulesStrings>
+  <SerumSynthesis.generalRules.rulesStrings>
+    <li>subject->سنتز سرم</li>
+    <li>subject_story->با معماری‌ها تزریق شد تا اثرات آنها را درک کند</li>
+    <li>subject_story->استخری از مایع سیاه روغنی را در معبد دنیای مرده کشف کرد</li>
+    <li>subject_story->به لطف یک سرم از سقوط خطرناک جان سالم به در برد</li>
+    <li>subject_story->برنامه آزمایش سرم را برای تیپ دنیای مرکزی مدیریت کرد</li>
+    <li>subject_gerund->سنتز سرم‌ها</li>
+  </SerumSynthesis.generalRules.rulesStrings>
   
   <!-- EN: skip abduction -->
-  <SkipAbductionPlayer.label>TODO</SkipAbductionPlayer.label>
+  <SkipAbductionPlayer.label>ربایش پرشی</SkipAbductionPlayer.label>
   <!-- EN: Perform a psychic ritual that abducts a random hostile person from anywhere in the world, putting them in a short-term coma for capture. -->
-  <SkipAbductionPlayer.description>TODO</SkipAbductionPlayer.description>
+  <SkipAbductionPlayer.description>اجرای مراسم روانی که یک فرد دشمن تصادفی را از هر جای دنیا می‌رباید و آنها را برای دستگیری در کما کوتاه‌مدت قرار می‌دهد.</SkipAbductionPlayer.description>
   <!-- EN:
     <li>subject->psychic abduction</li>
     <li>subject->skip abduction</li>
@@ -507,12 +749,21 @@
     <li>subject_gerund->abducting enemies through psychic ritual</li>
     <li>subject_gerund->performing a ritual of skip abduction</li>
   -->
-  <SkipAbductionPlayer.generalRules.rulesStrings>TODO</SkipAbductionPlayer.generalRules.rulesStrings>
+  <SkipAbductionPlayer.generalRules.rulesStrings>
+    <li>subject->ربایش روانی</li>
+    <li>subject->ربایش پرشی</li>
+    <li>subject_story->شاهد تلاش برای ربایش یک نجیب‌زاده امپراتوری بود</li>
+    <li>subject_story->توسط لاشخورهای درت‌مول گروگان گرفته شد</li>
+    <li>subject_story->مراسم انتقال ناموفق اجرا شده توسط رهبر کالت را مشاهده کرد</li>
+    <li>subject_story->انتقال فراجایی با واسطه معمارتک را تحقیق کرد</li>
+    <li>subject_gerund->ربودن دشمنان از طریق مراسم روانی</li>
+    <li>subject_gerund->اجرای مراسم ربایش پرشی</li>
+  </SkipAbductionPlayer.generalRules.rulesStrings>
   
   <!-- EN: sleep suppressor -->
-  <SleepSuppressor.label>TODO</SleepSuppressor.label>
+  <SleepSuppressor.label>سرکوب‌کننده خواب</SleepSuppressor.label>
   <!-- EN: Build shard-powered structures that stimulate those nearby to prevent fatigue. The device will irritate anyone nearby. -->
-  <SleepSuppressor.description>TODO</SleepSuppressor.description>
+  <SleepSuppressor.description>ساخت سازه‌های نیرو گرفته از تکه که افراد نزدیک را تحریک می‌کنند تا از خستگی جلوگیری کنند. دستگاه هر کسی را در نزدیکی تحریک می‌کند.</SleepSuppressor.description>
   <!-- EN:
     <li>subject->sleep suppression</li>
     <li>subject_story->studied sleep deprivation in factory workers</li>
@@ -523,12 +774,21 @@
     <li>subject_gerund->constructing sleep suppressors from archotech</li>
     <li>subject_gerund->suppressing sleep with archotech</li>
   -->
-  <SleepSuppressor.generalRules.rulesStrings>TODO</SleepSuppressor.generalRules.rulesStrings>
+  <SleepSuppressor.generalRules.rulesStrings>
+    <li>subject->سرکوب خواب</li>
+    <li>subject_story->محرومیت از خواب را در کارگران کارخانه مطالعه کرد</li>
+    <li>subject_story->استفاده از محرک در میان سربازان امپراتوری را تحقیق کرد</li>
+    <li>subject_story->تأثیرات میدان‌های معماری مختلف بر آگاهی انسان را تحقیق کرد</li>
+    <li>subject_story->در آزمایشگاه همیشه‌خواب گلیترورلد کار کرد، جایی که ثروتمندان زندگی خود را در رویا سپری می‌کردند</li>
+    <li>subject_story->بیدارباش را در اردوگاه کار دنیای زندان مدیریت کرد</li>
+    <li>subject_gerund->ساخت سرکوب‌کننده‌های خواب از معمارتک</li>
+    <li>subject_gerund->سرکوب خواب با معمارتک</li>
+  </SleepSuppressor.generalRules.rulesStrings>
   
   <!-- EN: draw animals -->
-  <SummonAnimals.label>TODO</SummonAnimals.label>
+  <SummonAnimals.label>احضار حیوانات</SummonAnimals.label>
   <!-- EN: Perform a psychic ritual which will draw a herd of animals. -->
-  <SummonAnimals.description>TODO</SummonAnimals.description>
+  <SummonAnimals.description>اجرای مراسم روانی که گله‌ای از حیوانات را جذب می‌کند.</SummonAnimals.description>
   <!-- EN:
     <li>subject->stampede invocation</li>
     <li>subject_story->worked as a shepherd amidst the mountains of a primitive world</li>
@@ -537,12 +797,19 @@
     <li>subject_story->watched a nature cult commune with their herds</li>
     <li>subject_gerund->summoning animal herds</li>
   -->
-  <SummonAnimals.generalRules.rulesStrings>TODO</SummonAnimals.generalRules.rulesStrings>
+  <SummonAnimals.generalRules.rulesStrings>
+    <li>subject->دعوت رم کردن</li>
+    <li>subject_story->به عنوان چوپان در میان کوه‌های یک دنیای اولیه کار کرد</li>
+    <li>subject_story->یاد گرفت با جانوران دشت‌ها ارتباط برقرار کند</li>
+    <li>subject_story->با تأثیرات معماری بر نژادهای مختلف حیوانات آزمایش کرد</li>
+    <li>subject_story->تماشای ارتباط کالت طبیعت با گله‌هایشان</li>
+    <li>subject_gerund->احضار گله‌های حیوانات</li>
+  </SummonAnimals.generalRules.rulesStrings>
   
   <!-- EN: summon fleshbeasts -->
-  <SummonFleshbeastsPlayer.label>TODO</SummonFleshbeastsPlayer.label>
+  <SummonFleshbeastsPlayer.label>احضار هیولاهای گوشتی</SummonFleshbeastsPlayer.label>
   <!-- EN: Perform a psychic ritual which provokes fleshbeasts to emerge from the ground near enemies, attacking anyone nearby. -->
-  <SummonFleshbeastsPlayer.description>TODO</SummonFleshbeastsPlayer.description>
+  <SummonFleshbeastsPlayer.description>اجرای مراسم روانی که هیولاهای گوشتی را تحریک می‌کند تا از زمین در نزدیکی دشمنان بیرون بیایند و به هر کسی در نزدیکی حمله کنند.</SummonFleshbeastsPlayer.description>
   <!-- EN:
     <li>subject->fleshbeast summoning</li>
     <li>subject_story->read ancient tomes about the origins of life</li>
@@ -553,53 +820,279 @@
     <li>subject_gerund->summoning fleshbeasts</li>
     <li>subject_gerund->performing a ritual to summon fleshbeasts</li>
   -->
-  <SummonFleshbeastsPlayer.generalRules.rulesStrings>TODO</SummonFleshbeastsPlayer.generalRules.rulesStrings>
+  <SummonFleshbeastsPlayer.generalRules.rulesStrings>
+    <li>subject->احضار هیولای گوشتی</li>
+    <li>subject_story->کتاب‌های باستانی درباره منشأ حیات خواند</li>
+    <li>subject_story->تولید خودبه‌خودی را در بوم‌رت‌های ساحه تجربه کرد</li>
+    <li>subject_story->فیلم باستانی درباره پیوند گوشت تماشا کرد و الهام گرفت</li>
+    <li>subject_story->انتقال آگاهی و جدایی در ادغام آلی را مطالعه کرد</li>
+    <li>subject_story->جامعه درت‌مول را مشاهده کرد که با هیولاهای وحشتناک زیرزمینی روبرو شده بودند</li>
+  -->
+  <PleasurePulse.generalRules.rulesStrings>
+    <li>subject->دعوت لذت</li>
+    <li>subject_story->یک داستان باستانی زمینی خواند که به غذای معجزه‌آسایی به نام سوما می‌بالید</li>
+    <li>subject_story->افسانه نیلوفرخواران را تحقیق کرد</li>
+    <li>subject_story->با فیلسوفان اجتماعی کار کرد تا یک مراسم فایده‌گرا ایجاد کند</li>
+    <li>subject_story->به یک کالت معمارتک نادر اختصاص یافته به تفریح و لذت پیوست</li>
+    <li>subject_gerund->القای لذت به صورت روانی</li>
+    <li>subject_gerund->اجرای مراسم روانی برای القای لذت</li>
+  </PleasurePulse.generalRules.rulesStrings>
+  
+  <!-- EN: proximity detector -->
+  <ProximityDetector.label>آشکارساز نزدیکی</ProximityDetector.label>
+  <!-- EN: Build a device that can detect invisible creatures. -->
+  <ProximityDetector.description>ساخت دستگاهی که می‌تواند موجودات نامرئی را شناسایی کند.</ProximityDetector.description>
+  <!-- EN:
+    <li>subject->proximity detectors</li>
+    <li>subject->motion sensors</li>
+    <li>subject_story->watched ancient entertainment reels and was inspired</li>
+    <li>subject_story->prototyped simple psi-hardened devices</li>
+    <li>subject_story->maintained the early warning systems of a deathworld outpost</li>
+    <li>subject_story->studied multiband scanners for cross-system pattern detection</li>
+    <li>subject_gerund->revealing the unseen</li>
+    <li>subject_gerund->detecting invisible creatures</li>
+  -->
+  <ProximityDetector.generalRules.rulesStrings>
+    <li>subject->آشکارسازهای نزدیکی</li>
+    <li>subject->حسگرهای حرکتی</li>
+    <li>subject_story->ریل‌های سرگرمی باستانی را تماشا کرد و الهام گرفت</li>
+    <li>subject_story->دستگاه‌های ساده سخت‌شده با سای را نمونه‌سازی کرد</li>
+    <li>subject_story->سیستم‌های هشدار اولیه یک پاسگاه دنیای مرگ را نگهداری کرد</li>
+    <li>subject_story->اسکنرهای چندباندی را برای تشخیص الگوی بین‌سیستمی مطالعه کرد</li>
+    <li>subject_gerund->آشکارسازی نادیده‌ها</li>
+    <li>subject_gerund->تشخیص موجودات نامرئی</li>
+  </ProximityDetector.generalRules.rulesStrings>
+  
+  <!-- EN: psychophagy -->
+  <Psychophagy.label>روان‌خواری</Psychophagy.label>
+  <!-- EN: Perform a psychic ritual which deadens a target's psychic sensitivity and temporarily boosts the ritual invoker's psychic sensitivity. The target will suffer brain damage as a side-effect. -->
+  <Psychophagy.description>اجرای مراسم روانی که حساسیت روانی هدف را از بین می‌برد و به طور موقت حساسیت روانی اجراکننده مراسم را افزایش می‌دهد. هدف به عنوان عارضه جانبی دچار آسیب مغزی خواهد شد.</Psychophagy.description>
+  <!-- EN:
+    <li>subject->psychophagy</li>
+    <li>subject_story->studied managed desensitization to psychic effects</li>
+    <li>subject_story->managed archite transfer from deceased subjects</li>
+    <li>subject_story->collated rumours of psychic transference rituals</li>
+    <li>subject_story->witnessed a Horax cult sap the power of an Imperial noble</li>
+    <li>subject_gerund->stealing psychic abilities</li>
+    <li>subject_gerund->performing a psychophagy ritual</li>
+  -->
+  <Psychophagy.generalRules.rulesStrings>
+    <li>subject->روان‌خواری</li>
+    <li>subject_story->حساسیت‌زدایی مدیریت شده نسبت به اثرات روانی را مطالعه کرد</li>
+    <li>subject_story->انتقال معماری از سوژه‌های فوت شده را مدیریت کرد</li>
+    <li>subject_story->شایعات مراسم انتقال روانی را گردآوری کرد</li>
+    <li>subject_story->شاهد تخلیه قدرت یک نجیب‌زاده امپراتوری توسط کالت هوراکس بود</li>
+    <li>subject_gerund->دزدیدن توانایی‌های روانی</li>
+    <li>subject_gerund->اجرای مراسم روان‌خواری</li>
+  </Psychophagy.generalRules.rulesStrings>
+  
+  <!-- EN: revenant invisibility -->
+  <RevenantInvisibility.label>نامرئی شدن بازگشته</RevenantInvisibility.label>
+  <!-- EN: Modify a revenant spine so that it can be implanted in a human, allowing them to become temporarily invisible. -->
+  <RevenantInvisibility.description>اصلاح ستون فقرات بازگشته به طوری که بتوان آن را در انسان کاشت و به آنها اجازه داد به طور موقت نامرئی شوند.</RevenantInvisibility.description>
+  <!-- EN:
+    <li>subject->invisibility</li>
+    <li>subject_story->implanted a monster's spine into a human, without considering the consequences</li>
+    <li>subject_story->wrote a novel about the vanishing morality of an invisible person</li>
+    <li>subject_story->discovered a strange metallic spine in a deadstar system</li>
+    <li>subject_story->dreamed of an army of invisible warriors</li>
+    <li>subject_gerund->adapting a revenant spine</li>
+    <li>subject_gerund->implanting a revenant spine into a human</li>
+  -->
+  <RevenantInvisibility.generalRules.rulesStrings>
+    <li>subject->نامرئی شدن</li>
+    <li>subject_story->ستون فقرات هیولا را در انسان کاشت، بدون در نظر گرفتن عواقب</li>
+    <li>subject_story->رمانی درباره اخلاق ناپدید شدن یک فرد نامرئی نوشت</li>
+    <li>subject_story->ستون فقرات فلزی عجیبی را در سیستم ستاره مرده کشف کرد</li>
+    <li>subject_story->رویای ارتشی از جنگجویان نامرئی را دید</li>
+    <li>subject_gerund->تطبیق ستون فقرات بازگشته</li>
+    <li>subject_gerund->کاشتن ستون فقرات بازگشته در انسان</li>
+  </RevenantInvisibility.generalRules.rulesStrings>
+  
+  <!-- EN: serum synthesis -->
+  <SerumSynthesis.label>سنتز سرم</SerumSynthesis.label>
+  <!-- EN: Build a serum lab to synthesize high-tech serums. Serums harness archotechnological power to bestow a temporary effect on the user. -->
+  <SerumSynthesis.description>ساخت آزمایشگاه سرم برای سنتز سرم‌های با تکنولوژی بالا. سرم‌ها از قدرت معمارتکنولوژی برای اعطای اثر موقت به کاربر استفاده می‌کنند.</SerumSynthesis.description>
+  <!-- EN:
+    <li>subject->serum synthesis</li>
+    <li>subject_story->was injected with archites to understand their effects</li>
+    <li>subject_story->discovered a pool of oily black fluid in a deadworld temple</li>
+    <li>subject_story->survived a dangerous fall thanks to a serum</li>
+    <li>subject_story->managed a serum-testing programme for a coreworld brigade</li>
+    <li>subject_gerund->synthesizing serums</li>
+  -->
+  <SerumSynthesis.generalRules.rulesStrings>
+    <li>subject->سنتز سرم</li>
+    <li>subject_story->با معماری‌ها تزریق شد تا اثرات آنها را درک کند</li>
+    <li>subject_story->استخری از مایع سیاه روغنی را در معبد دنیای مرده کشف کرد</li>
+    <li>subject_story->به لطف یک سرم از سقوط خطرناک جان سالم به در برد</li>
+    <li>subject_story->برنامه آزمایش سرم را برای تیپ دنیای مرکزی مدیریت کرد</li>
+    <li>subject_gerund->سنتز سرم‌ها</li>
+  </SerumSynthesis.generalRules.rulesStrings>
+  
+  <!-- EN: skip abduction -->
+  <SkipAbductionPlayer.label>ربایش پرشی</SkipAbductionPlayer.label>
+  <!-- EN: Perform a psychic ritual that abducts a random hostile person from anywhere in the world, putting them in a short-term coma for capture. -->
+  <SkipAbductionPlayer.description>اجرای مراسم روانی که یک فرد دشمن تصادفی را از هر جای دنیا می‌رباید و آنها را برای دستگیری در کما کوتاه‌مدت قرار می‌دهد.</SkipAbductionPlayer.description>
+  <!-- EN:
+    <li>subject->psychic abduction</li>
+    <li>subject->skip abduction</li>
+    <li>subject_story->witnessed an abduction attempt on an Imperial noble</li>
+    <li>subject_story->was ransomed by dirtmole scavengers</li>
+    <li>subject_story->observed a failed translocation ritual performed by a cult leader</li>
+    <li>subject_story->researched transpatial transfer mediated by archotech</li>
+    <li>subject_gerund->abducting enemies through psychic ritual</li>
+    <li>subject_gerund->performing a ritual of skip abduction</li>
+  -->
+  <SkipAbductionPlayer.generalRules.rulesStrings>
+    <li>subject->ربایش روانی</li>
+    <li>subject->ربایش پرشی</li>
+    <li>subject_story->شاهد تلاش برای ربایش یک نجیب‌زاده امپراتوری بود</li>
+    <li>subject_story->توسط لاشخورهای درت‌مول گروگان گرفته شد</li>
+    <li>subject_story->مراسم انتقال ناموفق اجرا شده توسط رهبر کالت را مشاهده کرد</li>
+    <li>subject_story->انتقال فراجایی با واسطه معمارتک را تحقیق کرد</li>
+    <li>subject_gerund->ربودن دشمنان از طریق مراسم روانی</li>
+    <li>subject_gerund->اجرای مراسم ربایش پرشی</li>
+  </SkipAbductionPlayer.generalRules.rulesStrings>
+  
+  <!-- EN: sleep suppressor -->
+  <SleepSuppressor.label>سرکوب‌کننده خواب</SleepSuppressor.label>
+  <!-- EN: Build shard-powered structures that stimulate those nearby to prevent fatigue. The device will irritate anyone nearby. -->
+  <SleepSuppressor.description>ساخت سازه‌های نیرو گرفته از تکه که افراد نزدیک را تحریک می‌کنند تا از خستگی جلوگیری کنند. دستگاه هر کسی را در نزدیکی تحریک می‌کند.</SleepSuppressor.description>
+  <!-- EN:
+    <li>subject->sleep suppression</li>
+    <li>subject_story->studied sleep deprivation in factory workers</li>
+    <li>subject_story->researched stimulant use among Imperial troopers</li>
+    <li>subject_story->researched the effects of varied archofields on human consciousness</li>
+    <li>subject_story->worked in a glitterworld eversleep lab, where the wealthy dreamed their lives away</li>
+    <li>subject_story->managed the reveille at a prisonworld work camp</li>
+    <li>subject_gerund->constructing sleep suppressors from archotech</li>
+    <li>subject_gerund->suppressing sleep with archotech</li>
+  -->
+  <SleepSuppressor.generalRules.rulesStrings>
+    <li>subject->سرکوب خواب</li>
+    <li>subject_story->محرومیت از خواب را در کارگران کارخانه مطالعه کرد</li>
+    <li>subject_story->استفاده از محرک در میان سربازان امپراتوری را تحقیق کرد</li>
+    <li>subject_story->تأثیرات میدان‌های معماری مختلف بر آگاهی انسان را تحقیق کرد</li>
+    <li>subject_story->در آزمایشگاه همیشه‌خواب گلیترورلد کار کرد، جایی که ثروتمندان زندگی خود را در رویا سپری می‌کردند</li>
+    <li>subject_story->بیدارباش را در اردوگاه کار دنیای زندان مدیریت کرد</li>
+    <li>subject_gerund->ساخت سرکوب‌کننده‌های خواب از معمارتک</li>
+    <li>subject_gerund->سرکوب خواب با معمارتک</li>
+  </SleepSuppressor.generalRules.rulesStrings>
+  
+  <!-- EN: draw animals -->
+  <SummonAnimals.label>احضار حیوانات</SummonAnimals.label>
+  <!-- EN: Perform a psychic ritual which will draw a herd of animals. -->
+  <SummonAnimals.description>اجرای مراسم روانی که گله‌ای از حیوانات را جذب می‌کند.</SummonAnimals.description>
+  <!-- EN:
+    <li>subject->stampede invocation</li>
+    <li>subject_story->worked as a shepherd amidst the mountains of a primitive world</li>
+    <li>subject_story->learned to commune with the beasts of the fields</li>
+    <li>subject_story->experimented with the effects of archite on different animal breeds</li>
+    <li>subject_story->watched a nature cult commune with their herds</li>
+    <li>subject_gerund->summoning animal herds</li>
+  -->
+  <SummonAnimals.generalRules.rulesStrings>
+    <li>subject->دعوت رم کردن</li>
+    <li>subject_story->به عنوان چوپان در میان کوه‌های یک دنیای اولیه کار کرد</li>
+    <li>subject_story->یاد گرفت با جانوران دشت‌ها ارتباط برقرار کند</li>
+    <li>subject_story->با تأثیرات معماری بر نژادهای مختلف حیوانات آزمایش کرد</li>
+    <li>subject_story->تماشای ارتباط کالت طبیعت با گله‌هایشان</li>
+    <li>subject_gerund->احضار گله‌های حیوانات</li>
+  </SummonAnimals.generalRules.rulesStrings>
+  
+  <!-- EN: summon fleshbeasts -->
+  <SummonFleshbeastsPlayer.label>احضار هیولاهای گوشتی</SummonFleshbeastsPlayer.label>
+  <!-- EN: Perform a psychic ritual which provokes fleshbeasts to emerge from the ground near enemies, attacking anyone nearby. -->
+  <SummonFleshbeastsPlayer.description>اجرای مراسم روانی که هیولاهای گوشتی را تحریک می‌کند تا از زمین در نزدیکی دشمنان بیرون بیایند و به هر کسی در نزدیکی حمله کنند.</SummonFleshbeastsPlayer.description>
+  <!-- EN:
+    <li>subject->fleshbeast summoning</li>
+    <li>subject_story->read ancient tomes about the origins of life</li>
+    <li>subject_story->experienced firsthand spontaneous generation in the boomrats of Sahe</li>
+    <li>subject_story->watched an ancient movie about fleshmelding and was inspired</li>
+    <li>subject_story->studied consciousness transfer and separation in organic merging</li>
+    <li>subject_story->observed a dirtmole community that had encountered horrifying beasts underground</li>
+    <li>subject_gerund->summoning fleshbeasts</li>
+    <li>subject_gerund->performing a ritual to summon fleshbeasts</li>
+  -->
+  <SummonFleshbeastsPlayer.generalRules.rulesStrings>
+    <li>subject->احضار هیولای گوشتی</li>
+    <li>subject_story->کتاب‌های باستانی درباره منشأ حیات خواند</li>
+    <li>subject_story->تولید خودبه‌خودی را در بوم‌رت‌های ساحه تجربه کرد</li>
+    <li>subject_story->فیلم باستانی درباره پیوند گوشت تماشا کرد و الهام گرفت</li>
+    <li>subject_story->انتقال آگاهی و جدایی در ادغام آلی را مطالعه کرد</li>
+    <li>subject_story->جامعه درت‌مول را مشاهده کرد که با هیولاهای وحشتناک زیرزمینی روبرو شده بودند</li>
+    <li>subject_gerund->احضار هیولاهای گوشتی</li>
+    <li>subject_gerund->اجرای مراسم برای احضار هیولاهای گوشتی</li>
+  </SummonFleshbeastsPlayer.generalRules.rulesStrings>
   
   <!-- EN: provoke pit gate -->
-  <SummonPitGate.label>TODO</SummonPitGate.label>
-  <!-- EN: Perform a psychic ritual which causes underground fleshbeasts to open up a massive hole in the ground. The hole leads down to a fleshbeast-infested cavern which can be explored for resources. -->
-  <SummonPitGate.description>TODO</SummonPitGate.description>
+  <SummonPitGate.label>تحریک دروازه گودال</SummonPitGate.label>
+  <!-- EN: Perform a psychic ritual which causes the ground to collapse into a giant pit. The pit leads to an underground cavern full of fleshbeasts. -->
+  <SummonPitGate.description>اجرای مراسم روانی که باعث می‌شود زمین فرو بریزد و یک گودال بزرگ باز شود. گودال به یک غار زیرزمینی پر از هیولاهای گوشتی منتهی می‌شود.</SummonPitGate.description>
   <!-- EN:
-    <li>subject->pit gate invocation</li>
-    <li>subject_story->researched fleshmeld infestations</li>
-    <li>subject_story->gathered tales of gestalt organisms</li>
-    <li>subject_story->managed the tome library of a deadworld cult-school</li>
-    <li>subject_story->officiated in a ritual of subsidence</li>
-    <li>subject_gerund->performing a ritual to create a pit gate</li>
+    <li>subject->pit gate summoning</li>
+    <li>subject_story->worked on a mining world and studied artificial collapses</li>
+    <li>subject_story->lived with an underground cult</li>
+    <li>subject_story->researched an ancient ritual to open the earth</li>
+    <li>subject_story->studied the use of archotech to destabilize local geology</li>
     <li>subject_gerund->summoning a pit gate</li>
+    <li>subject_gerund->performing a ritual to open a pit gate</li>
   -->
-  <SummonPitGate.generalRules.rulesStrings>TODO</SummonPitGate.generalRules.rulesStrings>
+  <SummonPitGate.generalRules.rulesStrings>
+    <li>subject->احضار دروازه گودال</li>
+    <li>subject_story->در یک دنیای معدنی کار کرد و فروپاشی‌های مصنوعی را مطالعه کرد</li>
+    <li>subject_story->با یک کالت زیرزمینی زندگی کرد</li>
+    <li>subject_story->یک مراسم باستانی برای باز کردن زمین را تحقیق کرد</li>
+    <li>subject_story->استفاده از معمارتک برای بی‌ثبات کردن زمین‌شناسی محلی را مطالعه کرد</li>
+    <li>subject_gerund->احضار دروازه گودال</li>
+    <li>subject_gerund->اجرای مراسم برای باز کردن دروازه گودال</li>
+  </SummonPitGate.generalRules.rulesStrings>
   
   <!-- EN: draw shamblers -->
-  <SummonShamblers.label>TODO</SummonShamblers.label>
-  <!-- EN: Perform a psychic ritual which will draw a horde of animated corpses. While hostile, the corpses won't attack your colony directly. They can be captured for study. -->
-  <SummonShamblers.description>TODO</SummonShamblers.description>
+  <SummonShamblers.label>احضار مردگان متحرک</SummonShamblers.label>
+  <!-- EN: Perform a psychic ritual which draws a horde of shamblers from a distance. They will attack anyone they see, but will wander if not provoked. They will die from exhaustion after a few days. -->
+  <SummonShamblers.description>اجرای مراسم روانی که گروهی از مردگان متحرک را از راه دور جذب می‌کند. آنها به هر کسی که ببینند حمله خواهند کرد، اما اگر تحریک نشوند، در اطراف پرسه می‌زنند. آنها پس از چند روز از خستگی می‌میرند.</SummonShamblers.description>
   <!-- EN:
-    <li>subject->shambler summoning rituals</li>
-    <li>subject_story->studied the necrocults of the deadworlds, from the safety of a university library</li>
-    <li>subject_story->collected stories of shambler attacks</li>
-    <li>subject_story->studied archite thread formation in deceased organisms</li>
-    <li>subject_story->saw all sorts of strange things as a deathworld curator</li>
+    <li>subject->shambler summoning</li>
+    <li>subject_story->observed shamblers on a deadworld</li>
+    <li>subject_story->researched an ancient ritual to summon the dead</li>
+    <li>subject_story->lived with a death cult</li>
+    <li>subject_story->studied the use of archotech to attract shamblers</li>
     <li>subject_gerund->summoning shamblers</li>
-    <li>subject_gerund->calling shamblers through ritual</li>
+    <li>subject_gerund->performing a ritual to summon shamblers</li>
   -->
-  <SummonShamblers.generalRules.rulesStrings>TODO</SummonShamblers.generalRules.rulesStrings>
+  <SummonShamblers.generalRules.rulesStrings>
+    <li>subject->احضار مردگان متحرک</li>
+    <li>subject_story->مردگان متحرک را در دنیای مرده مشاهده کرد</li>
+    <li>subject_story->یک مراسم باستانی برای احضار مردگان را تحقیق کرد</li>
+    <li>subject_story->با یک کالت مرگ زندگی کرد</li>
+    <li>subject_story->استفاده از معمارتک برای جذب مردگان متحرک را مطالعه کرد</li>
+    <li>subject_gerund->احضار مردگان متحرک</li>
+    <li>subject_gerund->اجرای مراسم برای احضار مردگان متحرک</li>
+  </SummonShamblers.generalRules.rulesStrings>
   
   <!-- EN: void sculptures -->
-  <VoidSculptures.label>TODO</VoidSculptures.label>
-  <!-- EN: Craft special void sculptures from bioferrite to enhance the quality of psychic rituals. -->
-  <VoidSculptures.description>TODO</VoidSculptures.description>
+  <VoidSculptures.label>مجسمه‌های پوچ</VoidSculptures.label>
+  <!-- EN: Craft strange sculptures that channel void energy. -->
+  <VoidSculptures.description>ساخت مجسمه‌های عجیب و غریب که انرژی پوچ را هدایت می‌کنند.</VoidSculptures.description>
   <!-- EN:
-    <li>subject->void sculptures</li>
-    <li>subject->bioferrite sculpture</li>
-    <li>subject_story->computer-modelled archotech possibility spaces</li>
-    <li>subject_story->was employed by a sibyl to sculpt her dreams</li>
-    <li>subject_story->wanted to bring sculptures to life</li>
-    <li>subject_story->dreamed of an endless ocean, shaped by human hands</li>
-    <li>subject_story->observed Imperial psychics at work</li>
-    <li>subject_gerund->sculpting with bioferrite</li>
-    <li>subject_gerund->crafting bioferrite ritual sculptures</li>
+    <li>subject->void sculpting</li>
+    <li>subject_story->studied strange art in an urbworld gallery</li>
+    <li>subject_story->had nightmares about impossible geometric shapes</li>
+    <li>subject_story->tried to capture the essence of the void in stone</li>
+    <li>subject_story->was possessed by an ancient statue</li>
+    <li>subject_gerund->sculpting void sculptures</li>
+    <li>subject_gerund->channeling void energy through art</li>
   -->
-  <VoidSculptures.generalRules.rulesStrings>TODO</VoidSculptures.generalRules.rulesStrings>
+  <VoidSculptures.generalRules.rulesStrings>
+    <li>subject->مجسمه‌سازی پوچ</li>
+    <li>subject_story->هنر عجیب و غریب را در یک گالری دنیای شهری مطالعه کرد</li>
+    <li>subject_story->کابوس‌هایی درباره اشکال هندسی غیرممکن دید</li>
+    <li>subject_story->سعی کرد ماهیت پوچ را در سنگ به تصویر بکشد</li>
+    <li>subject_story->توسط یک مجسمه باستانی تسخیر شد</li>
+    <li>subject_gerund->ساخت مجسمه‌های پوچ</li>
+    <li>subject_gerund->هدایت انرژی پوچ از طریق هنر</li>
+  </VoidSculptures.generalRules.rulesStrings>
   
 </LanguageData>

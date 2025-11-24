@@ -29,13 +29,13 @@
 
   <!-- Gameplay -->
   <!-- EN: Remember draw styles -->
-  <RememberDrawStyle>TODO</RememberDrawStyle>
+  <RememberDrawStyle>به خاطر سپردن سبک‌های رسم</RememberDrawStyle>
   <!-- EN: When enabled, draw styles won't reset to the default draw style when placing new buildings or zones. -->
-  <RememberDrawStyle_Tooltip>TODO</RememberDrawStyle_Tooltip>
+  <RememberDrawStyle_Tooltip>وقتی فعال باشد، سبک‌های رسم هنگام قرار دادن ساختمان‌ها یا مناطق جدید به سبک پیش‌فرض بازنشانی نمی‌شوند.</RememberDrawStyle_Tooltip>
   <!-- EN: Zoom switches world map layers -->
-  <ZoomSwitchLayer>TODO</ZoomSwitchLayer>
+  <ZoomSwitchLayer>زوم لایه‌های نقشه جهان را تغییر می‌دهد</ZoomSwitchLayer>
   <!-- EN: When enabled, zooming out on the world map will switch to an orbital view. Zooming in will show the planet again. -->
-  <ZoomSwitchLayer_Tooltip>TODO</ZoomSwitchLayer_Tooltip>
+  <ZoomSwitchLayer_Tooltip>وقتی فعال باشد، زوم کردن در نقشه جهان به نمای مداری تغییر می‌کند. زوم کردن مجدداً سیاره را نشان می‌دهد.</ZoomSwitchLayer_Tooltip>
   <!-- EN: Screen-edge mouse scroll -->
   <EdgeScreenScroll>اسکرول ماوس لبه صفحه</EdgeScreenScroll>
   <!-- EN: Zoom to mouse -->
@@ -143,9 +143,9 @@
   <!-- EN: When enabled, the camera will quickly pan when focusing on a new location. When disabled, the camera will jump instantly. -->
   <SmoothCameraJumpsDesc>وقتی فعال باشد، دوربین هنگام فوکوس روی مکان جدید به سرعت حرکت می کند. در صورت غیرفعال شدن، دوربین فوراً پرش می کند.</SmoothCameraJumpsDesc>
   <!-- EN: Gravship cutscenes -->
-  <GravshipCutscenes>TODO</GravshipCutscenes>
+  <GravshipCutscenes>صحنه‌های سینمایی گراوشیپ</GravshipCutscenes>
   <!-- EN: When disabled, gravships will take off and land instantly. -->
-  <GravshipCutscenesDesc>TODO</GravshipCutscenesDesc>
+  <GravshipCutscenesDesc>وقتی غیرفعال باشد، گراوشیپ‌ها فوراً پرواز و فرود می‌کنند.</GravshipCutscenesDesc>
 
   <!-- Resolution -->
   <!-- EN: Resolution -->

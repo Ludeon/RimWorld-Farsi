@@ -208,7 +208,213 @@
     <li>bookType->biography</li>
     <li>bookType->epic poem</li>
   -->
-  <Description_Novel.rulePack.rulesStrings>TODO</Description_Novel.rulePack.rulesStrings>
+  <Description_Novel.rulePack.rulesStrings>
+    <li>desc->این [bookType] [writingQualityAdjective] [follows] یک [PersonJob] است که [protagHe] [storyStruggles]. [writingQualitySentence]. [maybe_date]</li>
+    <li>desc->در این [bookType] [writingQualityAdjective]، [author] [tellsAStoryOf] [storySource] [ANYPAWN_possessive]. [writingQualitySentence]. [maybe_date]</li>
+    <li>follows->دنبال می‌کند</li>
+    <li>follows->پوشش می‌دهد</li>
+    <li>follows->داستان ... را روایت می‌کند</li>
+    <li>follows->از دیدگاه ... نوشته شده است</li>
+    <li>protagHe->او</li>
+    <li>protagHis->او</li>
+    <li>protagHim->او</li>
+    <li>storyStruggles->در برابر [opponent] [struggles]</li>
+    <li>storyStruggles->به دنبال [seekObjective] [seeks]</li>
+    <li>struggles->مبارزه می‌کند</li>
+    <li>struggles->می‌جنگد</li>
+    <li>struggles->تلاش می‌کند</li>
+    <li>opponent->بی‌عدالتی</li>
+    <li>opponent->ترس</li>
+    <li>opponent->یک [Enemy] خطرناک</li>
+    <li>opponent->یک [PersonJob] رقیب</li>
+    <li>opponent->بی‌معنایی [ConceptPositive]</li>
+    <li>opponent->[PersonFamily] شرور [protagHis]</li>
+    <li>opponent->هنجارهای اجتماعی جامعه [protagHis]</li>
+    <li>seeks->می‌گردد</li>
+    <li>seeks->جهان را جستجو می‌کند برای</li>
+    <li>seeks->سعی می‌کند پیدا کند</li>
+    <li>seeks->درون خود و سراسر جهان را جستجو می‌کند تا پیدا کند</li>
+    <li>seeks->ناامیدانه جستجو می‌کند برای</li>
+    <li>seeks->تلاش می‌کند تا پیدا کند</li>
+    <li>seeks->زمین را جستجو می‌کند برای</li>
+    <li>seeks->شکار می‌کند</li>
+    <li>seeks->عمداً دنبال می‌کند</li>
+    <li>seeks->تمام تلاش خود را می‌کند تا پیدا کند</li>
+    <li>seeks->سرسختانه دنبال می‌کند</li>
+    <li>seeks->هیچ سنگی را نادیده نمی‌گیرد در جستجوی</li>
+    <li>seeks->راهی سفری می‌شود برای</li>
+    <li>seeks->گوشت خود را می‌درد در حالی که جستجو می‌کند برای</li>
+    <li>seeks->تلاش می‌کند تا مکان‌یابی کند</li>
+    <li>seeks->با پشتکار جستجو می‌کند</li>
+    <li>seeks->سرگردان است در جستجوی</li>
+    <li>seeks->به مأموریتی می‌رود تا پیدا کند</li>
+    <li>seekObjective->یک مکعب طلایی مرموز</li>
+    <li>seekObjective->یک شیطان در سر خودش</li>
+    <li>seekObjective->خوشمزه‌ترین [Vegetable] در جهان</li>
+    <li>seekObjective->یک [Weapon] جدید براق</li>
+    <li>seekObjective->حیوان خانگی گمشده [protagHis] [Animal]</li>
+    <li>seekObjective->قطعاتی برای بازسازی یک [Mechanoid] نابود شده</li>
+    <li>seekObjective->یک [TerrainFeature] که [protagHe] در خواب دید</li>
+    <li>seekObjective->یک عشق قدیمی</li>
+    <li>seekObjective->رضایت عاشقانه</li>
+    <li>seekObjective->یک کلیه جدید برای جایگزینی کلیه بیمار خودش</li>
+    <li>seekObjective->غذا در یک زمین بایر وسیع</li>
+    <li>seekObjective->گرما و امنیت خانه</li>
+    <li>seekObjective->عشق در دنیایی پر از نفرت</li>
+    <li>seekObjective->یک دستور غذای خانوادگی گمشده</li>
+    <li>seekObjective->یک اسباب‌بازی کودکی جا مانده</li>
+    <li>seekObjective->یک میراث خانوادگی دزدیده شده</li>
+    <li>seekObjective->دفتر خاطرات گمشده یک استاد</li>
+    <li>seekObjective->یک کلکسیون کمیاب از سری مورد علاقه [protagHis]</li>
+    <li>seekObjective->مکان عالی برای پیک‌نیک</li>
+    <li>seekObjective->یک قطعه گمشده از یک مجموعه ارزشمند</li>
+    <li>seekObjective->عذرخواهی برای اشتباه گذشته</li>
+    <li>seekObjective->پایان دادن به یک رابطه گذشته</li>
+    <li>seekObjective->یک نقشه گنج گمشده از کودکی</li>
+    <li>seekObjective->یک یادگاری معنادار از یک عزیز فوت شده</li>
+    <li>seekObjective->دستورالعملی برای درمان یک بیماری</li>
+    <li>seekObjective->یک گیاه کمیاب برای باغ شخصی</li>
+    <li>seekObjective->نامه‌ای نوشته شده اما هرگز ارسال نشده</li>
+    <li>seekObjective->پاسخی مبهم به یک سوال فلسفی</li>
+    <li>seekObjective->یک لحظه آرام دور از هرج و مرج</li>
+    <li>seekObjective->یک دوست قدیمی در شهری جدید</li>
+    <li>seekObjective->هیجان یک سرگرمی فراموش شده</li>
+    <li>seekObjective->یک لحظه شادی خالص</li>
+    <li>tellsAStoryOf->داستانی درباره ... می‌گوید</li>
+    <li>tellsAStoryOf->به جزئیات ... می‌پردازد</li>
+    <li>tellsAStoryOf->داستانی درباره ... را بررسی می‌کند</li>
+    <li>tellsAStoryOf->داستانی درباره ... تعریف می‌کند</li>
+    <li>tellsAStoryOf->روایتی درباره ... می‌بافد</li>
+    <li>tellsAStoryOf->تصویری از ... ترسیم می‌کند</li>
+    <li>tellsAStoryOf->عمیقاً به ... می‌پردازد</li>
+    <li>tellsAStoryOf->داستان ... را باز می‌کند</li>
+    <li>tellsAStoryOf->سفر ... را آشکار می‌کند</li>
+    <li>tellsAStoryOf->جوهر ... را تسخیر می‌کند</li>
+    <li>tellsAStoryOf->بر ... نور می‌تاباند</li>
+    <li>tellsAStoryOf->... را به هم می‌بافد</li>
+    <li>tellsAStoryOf->تجربه ... را به تصویر می‌کشد</li>
+    <li>tellsAStoryOf->روایت ... را آغاز می‌کند</li>
+    <li>tellsAStoryOf->داستان ... را به تصویر می‌کشد</li>
+    <li>tellsAStoryOf->به داستان ... اشاره می‌کند</li>
+    <li>tellsAStoryOf->داستان ... را ارائه می‌دهد</li>
+    <li>tellsAStoryOf->سفر ... را منتقل می‌کند</li>
+    <li>tellsAStoryOf->در داستان ... کاوش می‌کند</li>
+    <li>tellsAStoryOf->روایت ... را روشن می‌کند</li>
+    <li>tellsAStoryOf->حماسه ... را ثبت می‌کند</li>
+    <li>tellsAStoryOf->تصویری زنده از ... ترسیم می‌کند</li>
+    <li>tellsAStoryOf->فرشینه ... را می‌بافد</li>
+    <li>tellsAStoryOf->تاریخچه ... را بررسی می‌کند</li>
+    <li>author->نویسنده</li>
+    <li>author->[authorTitle] [ANYPAWN_nameIndef]</li>
+    <li>author(p=2)->[authorTitle] بی‌نام</li>
+    <li>authorTitle->نویسنده</li>
+    <li>authorTitle->کاتب</li>
+    <li>authorTitle->نگارنده</li>
+    <li>authorTitle->شاعر</li>
+    <li>authorTitle->قصه‌گو</li>
+    <li>storySource->تجارب شخصی</li>
+    <li>storySource->جوانی</li>
+    <li>storySource->کودکی</li>
+    <li>storySource->ملت</li>
+    <li>storySource->سیاره مادری</li>
+    <li>storySource->پدربزرگ</li>
+    <li>storySource->مادربزرگ</li>
+    <li>storySource->تجارب در جنگ</li>
+    <li>storySource->عمیق‌ترین ترس‌ها</li>
+    <li>storySource->رویاهای سفر به ستارگان</li>
+    <li>storySource->عشق به [Vegetable]های تازه</li>
+    <li>storySource->زمان به عنوان یک [PersonJob]</li>
+    <li>storySource->[Weapon] مورد علاقه</li>
+    <li>storySource->تجربه مبارزه با [Mechanoid]ها</li>
+    <li>storySource->جوانی در حال رشد در یک [Community]</li>
+    <li>storySource->[BodyPart] غول‌پیکر</li>
+    <li>storySource->خاطرات یک دوست گمشده</li>
+    <li>storySource->اشتیاق به موسیقی</li>
+    <li>storySource->کنجکاوی درباره خرابه‌های باستانی</li>
+    <li>storySource->دلبستگی به یک میراث خانوادگی</li>
+    <li>storySource->شیفتگی به یک چهره مرموز</li>
+    <li>storySource->تلاش‌ها برای حفظ یک زبان در حال مرگ</li>
+    <li>storySource->رویاهای اختراع چیزی پیشگامانه</li>
+    <li>storySource->ارتباط با یک موجود افسانه‌ای</li>
+    <li>storySource->علاقه به یک منظره خاص</li>
+    <li>storySource->آرزوهای تبدیل شدن به یک [PersonJob] مشهور</li>
+    <li>storySource->مبارزه با اضطراب اجتماعی</li>
+    <li>storySource->اشتیاق به ماجراجویی فراتر از افق</li>
+    <li>storySource->پیوند با یک همراه رباتیک</li>
+    <li>storySource->ماجراجویی‌ها به عنوان یک دزد دریایی در گذشته</li>
+    <li>storySource->روابط نزدیک با یک جامعه مخفی</li>
+    <li>storySource->زمان سپری شده به عنوان یک عشایر</li>
+    <li>storySource->شیفتگی به سفر در زمان</li>
+    <li>storySource->ارتباط با یک اثر افسانه‌ای</li>
+    <li>writingQualityAdjective(quality==6)->به طرز قابل توجهی خوش‌نوشت</li>
+    <li>writingQualityAdjective(quality==5)->هوشمندانه و بصیر</li>
+    <li>writingQualityAdjective(quality==4)->متفکرانه و شیوا</li>
+    <li>writingQualityAdjective(quality==3)->خوش‌نوشت</li>
+    <li>writingQualityAdjective(quality==2)->متوسط</li>
+    <li>writingQualityAdjective(quality==1)->بدنوشت</li>
+    <li>writingQualityAdjective(quality==0)->تقریباً نامنسجم</li>
+    <li>writingQualitySentence(quality[greater_than]4)->این [excellentDesc] است [excellentExtra]</li>
+    <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->این [decentDesc] است [decentExtra]</li>
+    <li>writingQualitySentence(quality[less_than]2)->این [awfulDesc] است [awfulExtra]</li>
+    <li>excellentDesc->یک داستان هیجان‌انگیز و تپنده</li>
+    <li>excellentDesc->یک کاوش متفکرانه از روح انسان</li>
+    <li>excellentDesc->عمیقاً بصیر درباره پیچیدگی جهان</li>
+    <li>excellentDesc->محکم نوشته شده و سرشار از احساس</li>
+    <li>excellentDesc->خلاقانه و اصلی</li>
+    <li>excellentDesc->بسیار اصلی و به طرز قابل توجهی خوش‌ساخت</li>
+    <li>excellentDesc->پر از طنز قابل درک</li>
+    <li>excellentExtra->. هر ضربه داستان به طور طبیعی به بعدی جریان می‌یابد</li>
+    <li>excellentExtra->. این یک کتاب جذاب است و زمین گذاشتن آن بسیار سخت است</li>
+    <li>excellentExtra->. حداقل سه بار ذهن خواننده را منفجر می‌کند</li>
+    <li>excellentExtra->. پیچش‌های داستانی غیرقابل پیش‌بینی هستند اما همچنین اجتناب‌ناپذیر به نظر می‌رسند</li>
+    <li>excellentExtra->. شخصیت‌ها مانند افراد واقعی احساس می‌شوند</li>
+    <li>decentDesc->یک داستان مناسب</li>
+    <li>decentDesc->جالب و درگیرکننده</li>
+    <li>decentDesc->متمرکز بر یک ایده جالب</li>
+    <li>decentDesc->گاهی اوقات تا حدی طنزآمیز</li>
+    <li>decentDesc->در برخی قسمت‌ها جذاب</li>
+    <li>decentDesc->اصلی و عجیب</li>
+    <li>decentDesc->جذاب برای نوع خاصی از خواننده</li>
+    <li>decentExtra-> اما دارای برخی حفره‌های داستانی آشکار است</li>
+    <li>decentExtra-> اما اغلب دنبال کردن آن سخت است</li>
+    <li>decentExtra-> اما پر از خطاهای تداوم است</li>
+    <li>decentExtra-> اما فاقد هرگونه احساسات عمیق است</li>
+    <li>decentExtra-> اما شخصیت‌ها تکراری و کارتونی هستند</li>
+    <li>decentExtra-> اما نویسنده دائماً از کلمات به طور نامناسب استفاده می‌کند تا هوشمند به نظر برسد</li>
+    <li>decentExtra-> اما جهان غیر اصلی و کسل‌کننده است</li>
+    <li>decentExtra-> اما نوشته بیش از حد پر زرق و برق است</li>
+    <li>decentExtra-> اما بسیاری از ضربات داستان غیرضروری هستند و نمی‌توانند طرح را به جلو ببرند</li>
+    <li>awfulDesc->بسیار بد نوشته شده</li>
+    <li>awfulDesc->وحشتناک نوشته شده</li>
+    <li>awfulDesc->سخت برای خواندن</li>
+    <li>awfulDesc->سخت برای دنبال کردن</li>
+    <li>awfulDesc->فاقد دید هنری</li>
+    <li>awfulDesc->پر از حفره‌های داستانی و شخصیت‌های عمومی</li>
+    <li>awfulDesc->تحت سلطه یک شخصیت خود-وارد شده نویسنده</li>
+    <li>awfulDesc->عجیب و غریب اما غیر اصلی</li>
+    <li>awfulDesc->بسیار، بسیار طولانی</li>
+    <li>awfulExtra-> و نوشته در مرز نامنسجم بودن است</li>
+    <li>awfulExtra-> و دنبال کردن آن بسیار سخت است</li>
+    <li>awfulExtra-> و نمی‌تواند یک طرح منسجم ایجاد کند</li>
+    <li>awfulExtra-> و فاقد هرگونه حس موضوع یا معنا است</li>
+    <li>awfulExtra-> و اصلاً هیچ ایده جالبی ارائه نمی‌دهد</li>
+    <li>awfulExtra-> و هر شخصیتی خسته‌کننده است</li>
+    <li>awfulExtra-> و در هیچ نقطه‌ای قهرمان قابل شناسایی وجود ندارد</li>
+    <li>maybe_date-></li>
+    <li>maybe_date->کتاب [date_form] منتشر شد.</li>
+    <li>maybe_date->متن برای اولین بار [date_form] چاپ شد.</li>
+    <li>maybe_date->دقیقاً مشخص نیست که کتاب چه زمانی نوشته شده است.</li>
+    <li>date_form->اخیراً</li>
+    <li>date_form->قرن‌ها پیش</li>
+    <li>date_form->در [date]</li>
+    <li>date_form->در [date_season]</li>
+    <li>bookType(p=4)->رمان</li>
+    <li>bookType(p=2)->رمان کوتاه</li>
+    <li>bookType->داستان</li>
+    <li>bookType->روایت</li>
+    <li>bookType->بیوگرافی</li>
+    <li>bookType->شعر حماسی</li>
+  </Description_Novel.rulePack.rulesStrings>
   
   <!-- EN:
     <li>subject->[subject_primary]</li>
@@ -845,7 +1051,641 @@
     <li>date_form->on the [date]</li>
     <li>date_form->in [date_season]</li>
   -->
-  <Description_Schematic.rulePack.rulesStrings>TODO</Description_Schematic.rulePack.rulesStrings>
+  <Description_Schematic.rulePack.rulesStrings>
+    <li>subject->[subject_primary]</li>
+    <li>desc(p=3)->[maybe_intro][schematic_desc].</li>
+    <li>desc->[maybe_intro][schematic_desc].\n\n[maybe_medium][author_story]. [linkage][subject_consequence].</li>
+    <li>desc(p=2)->[maybe_medium][author_story]. [linkage][subject_primary_story]. [maybe_outro]</li>
+    <li>maybe_intro(p=6)-></li>
+    <li>maybe_intro->[appearance]. </li>
+    <li>maybe_intro->[subject_intro]. </li>
+    <li>maybe_subject_intro(p=6)-></li>
+    <li>maybe_subject_intro->[subject_intro]. </li>
+    <li>maybe_medium(p=6)-></li>
+    <li>maybe_medium->[medium]. </li>
+    <li>maybe_outro(p=5)-></li>
+    <li>maybe_outro->[aftermath]. </li>
+    <li>maybe_outro->[dates]. </li>
+    <li>maybe_outro->[appearance]. </li>
+    <li>maybe_physical_adjective-></li>
+    <li>maybe_physical_adjective->[physical_adjective] </li>
+    <li>maybe_date(p=3)-></li>
+    <li>maybe_date->[dates]</li>
+    <li>subject_intro->[schematic_synonym] یک [diagram_type] [state_adjective] درباره [subject] را [shows_synonym_verb] می‌کند</li>
+    <li>subject_intro->در این [schematic_synonym]، [author] [theory_synonym_adj] [ANYPAWN_possessive] از [subject] را [shows_synonym_verb] می‌کند</li>
+    <li>subject_intro->این [schematic_synonym] [physical_adjective] [schematic_synonym]هایی متمرکز بر [subject] را [contain_verb] می‌کند</li>
+    <li>subject_intro->[author] از [image_types] [notable_adjective] برای انتقال [theory_synonym_adj] [ANYPAWN_possessive] از [subject] استفاده کرده است</li>
+    <li>subject_intro->[device_synonym]های مرتبط با [subject_primary] در این [schematic_synonym] [maybe_physical_adjective] [shows_synonym_verb1] شده‌اند</li>
+    <li>subject_intro->[schematic_synonym] یک [diagram_type] [state_adjective] درباره [subject_primary] و [subject_secondary] را [shows_synonym_verb] می‌کند</li>
+    <li>subject_intro->[device_synonym]های مرتبط با [subject_primary] و [subject_secondary] در این [schematic_synonym] [maybe_physical_adjective] [shows_synonym_verb1] شده‌اند</li>
+    <li>schematic_desc->[schematic_desc_first][schematic_desc_second]</li>
+    <li>schematic_desc_first->فناوری باستانی توصیف شده در اینجا برای [subject_primary_gerund] در مقایسه با سیستم‌های فعلی [negative_adjective] است</li>
+    <li>schematic_desc_first->این تنها بخشی از یک [schematic_synonym] کامل برای [subject_primary_gerund] است </li>
+    <li>schematic_desc_first->این [schematic_synonym] در چندین جا [negative_adjective] است</li>
+    <li>schematic_desc_first->[schematic_synonym] برای [subject_primary_gerund] ناقص است</li>
+    <li>schematic_desc_first->[subject_primary_gerund] با این [schematic_synonym]ها به دلیل حاشیه‌نویسی‌های متناقض پیچیده شده است</li>
+    <li>schematic_desc_first->درک [negative_adjective] نویسنده از [subject_primary_gerund] در سراسر آن مشهود است</li>
+    <li>schematic_desc_first->بخشی از [schematic_synonym] پاره شده است</li>
+    <li>schematic_desc_first->آتش و دوده کاغذ را خراب کرده‌اند</li>
+    <li>schematic_desc_first->[schematic_synonym] برای [subject_primary_gerund] بیش از حد [negative_adjective] است</li>
+    <li>schematic_desc_first->[other_subject] محدود برای [subject_primary_gerund] این [schematic_synonym] را به خطر انداخته است</li>
+    <li>schematic_desc_first->جزئیات غیردقیق درباره [subject_primary_gerund] اجرای این [schematic_synonym] را دشوار می‌کند</li>
+    <li>schematic_desc_first->این [schematic_synonym] [negative_adjective] گاهی اوقات باعث خطا هنگام [subject_primary_gerund] می‌شود</li>
+    <li>schematic_desc_first->این [schematic_synonym] برای [subject_primary_gerund] از نظر زیبایی‌شناسی شکست می‌خورد</li>
+    <li>schematic_desc_first->کمبود تخیل درباره [subject_primary_gerund] این [schematic_synonym] را محدود کرده است</li>
+    <li>schematic_desc_first->این [schematic_container] مشخصات متناقض زیادی برای [subject_primary_gerund] ارائه می‌دهد</li>
+    <li>schematic_desc_first->اختلاف نظرها بر سر [other_subject] ابهاماتی را در این [schematic_synonym] برای [subject_primary_gerund] باقی گذاشته است</li>
+    <li>schematic_desc_first->پیش‌نویس شلخته برنامه‌های دقیق [author] برای [subject_primary_gerund] را تضعیف می‌کند</li>
+    <li>schematic_desc_first->نگرانی‌ها درباره [other_subject] برای [subject_primary_gerund] این [schematic_synonym] را محدود کرد</li>
+    <li>schematic_desc_first->این [schematic_synonym] برای [subject_primary_gerund] بارها کپی شده و محتویات آن را مبهم کرده است</li>
+    <li>schematic_desc_first->این [schematic_synonym] هیچ ارتباط واقعی بین [subject_primary_gerund] و [subject_secondary_gerund] برقرار نمی‌کند</li>
+    <li>schematic_desc_first->[subject_primary_gerund] و [subject_secondary_gerund] به راحتی جفت نمی‌شوند</li>
+    <li>schematic_desc_first->این [schematic_container] دارای [schematic_synonym]هایی هم در مورد [subject_primary_gerund] و هم [subject_secondary_gerund] است</li>
+    <li>schematic_desc_first->این [schematic_container] دارای [schematic_synonym]هایی هم در مورد [subject_tertiary_gerund] و هم [subject_secondary_gerund] است</li>
+    <li>schematic_desc_first->این [schematic_container] دارای [schematic_synonym]هایی هم در مورد [subject_primary_gerund] و هم [subject_tertiary_gerund] است</li>
+    <li>schematic_desc_first->این [schematic_container] دارای [schematic_synonym]هایی در مورد [subject_primary_gerund]، [subject_secondary_gerund] و [subject_tertiary_gerund] است</li>
+    <li>schematic_desc_second(quality[less_than]2)->. این برای کسانی که موضوع را یاد می‌گیرند ناامیدکننده است</li>
+    <li>schematic_desc_second(quality[less_than]2)->، که آن را برای اکثر اهداف بی‌ارزش می‌کند</li>
+    <li>schematic_desc_second(quality[less_than]2)->، و درس‌هایی را که منتقل می‌کند تضعیف می‌کند</li>
+    <li>schematic_desc_second(quality[less_than]2)->. فقط مبتدیان از درس‌های آن بهره‌مند خواهند شد</li>
+    <li>schematic_desc_second(quality[less_than]2)->. یک شماتیک گمراه‌کننده می‌تواند بدتر از نداشتن شماتیک باشد</li>
+    <li>schematic_desc_second(quality[less_than]2)->، که کاربرد آن را زیر سوال می‌برد</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->، اما اصول اولیه موجود است</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->، اما هنوز داده‌های کافی برای ارائه بینش را [contain_verb] می‌کند</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. با این حال، این از کاربرد آن برای تمرین‌کنندگان با تجربه نمی‌کاهد</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->، اگرچه هنوز برای اکثر دانش‌آموزان ارزشی دارد</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. مبتدیان هنوز از آموزه‌های آن بهره‌مند خواهند شد</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. با این حال، فقط متخصصان متوجه نقص‌ها خواهند شد</li>
+    <li>schematic_desc_second(quality[greater_than]4)->. با این حال، محتوا برای آن دوران استثنایی است</li>
+    <li>schematic_desc_second(quality[greater_than]4)->، با این حال مفاهیم پیشرفته را به راحتی منتقل می‌کند</li>
+    <li>schematic_desc_second(quality[greater_than]4)->، اما هنوز پر از خرد برای همه یادگیرندگان است</li>
+    <li>schematic_desc_second(quality[greater_than]4)->. با وجود این، هر دانش‌آموزی، هر چقدر هم با تجربه باشد، از خواندن آن بهره‌مند خواهد شد</li>
+    <li>schematic_desc_second(quality[greater_than]4)->، اما مسائل در مقایسه با ثروت دانشی که در آن وجود دارد، جزئی هستند</li>
+    <li>schematic_desc_second(quality[greater_than]4)->. با این حال، درس‌هایی که می‌آموزد بی‌زمان هستند</li>
+    <li>medium->یک سیستم حسی داخلی [schematic_origin] را به شنوندگان [tells_verb] می‌کند</li>
+    <li>medium->لوله‌شده در داخل، دسته‌ای از اوراق شخصی است که [schematic_origin] را [tells_verb] می‌کند</li>
+    <li>medium->یک برچسب اطلاعات محدودی درباره [schematic_origin] را [tells_verb] می‌کند</li>
+    <li>medium->یک جزوه اطلاعاتی ضمیمه [schematic_origin] را [tells_verb] می‌کند</li>
+    <li>medium->برگ‌های شل پوست [schematic_origin] را [tells_verb] می‌کنند</li>
+    <li>medium->یک ورق کاغذ دوم [schematic_origin] را [tells_verb] می‌کند</li>
+    <li>medium->لوح‌های سنگی حکاکی شده [schematic_origin] را [tells_verb] می‌کنند</li>
+    <li>medium->یک [schematic_container] پلاستیل با [schematic_origin] حکاکی شده است</li>
+    <li>medium->یک یادداشت خط‌خطی بیرون می‌افتد که [schematic_origin] را [tells_verb] می‌کند</li>
+    <li>medium->پشت سند درباره [schematic_origin] بیشتر [tells_verb] می‌کند</li>
+    <li>medium->یک ضبط پخش می‌شود که [schematic_origin] را [tells_verb] می‌کند</li>
+    <li>medium->اگر یادداشت‌های روی سند نبود، [schematic_origin] موضوع حدس و گمان بود</li>
+    <li>medium(p=4)->[schematic_origin] شناخته شده است اما در یادداشت‌های سند گنجانده شده است</li>
+    <li>medium->یک دفتر خاطرات پیوست [schematic_origin] را می‌گوید</li>
+    <li>medium->یک مکانیسم قدیمی [schematic_origin] را [tells_verb] می‌کند</li>
+    <li>medium->یک مکانوید مینیاتوری به کار می‌افتد و [schematic_origin] را می‌گوید</li>
+    <li>tells_verb->می‌گوید</li>
+    <li>tells_verb->مخابره می‌کند</li>
+    <li>tells_verb->بازگو می‌کند</li>
+    <li>tells_verb->گزارش می‌دهد</li>
+    <li>schematic_origin->داستان [notable_adjective] خلق شماتیک</li>
+    <li>schematic_origin->چگونگی خلق شماتیک توسط نویسنده</li>
+    <li>schematic_origin->زندگی [notable_adjective] نویسنده شماتیک</li>
+    <li>schematic_origin->داستانی درباره خلق این شماتیک</li>
+    <li>schematic_origin->منشأ این نمودار [notable_adjective]</li>
+    <li>schematic_origin->یک داستان [notable_adjective] درباره زندگی نویسنده</li>
+    <li>schematic_origin->شایعه‌ای درباره اینکه چرا این سند [notable_adjective] در ریم پایان یافت و چه کسی آن را نوشت</li>
+    <li>author_story->[author_storyname][author_intent]</li>
+    <li>author_story->[author_storyname][learning_story]</li>
+    <li>author_story->[author_storyname][calltoadventure]</li>
+    <li>author_storyname(p=3)->[ANYPAWN_nameFull]</li>
+    <li>author_storyname->[authorTitle] بی‌نام</li>
+    <li>author_intent-> از سنین پایین تشنه دانش درباره [subject] بود و از همه در زادگاه [ANYPAWN_possessive] سوال می‌کرد</li>
+    <li>author_intent-> رویای جوان‌سازی [subject] را داشت که منجر به یک انقلاب علمی در کوهن[worldname] شد</li>
+    <li>author_intent-> [subject] را کار زندگی [ANYPAWN_possessive] کرد</li>
+    <li>author_intent-> دیدگاه‌های [ANYPAWN_possessive] درباره [subject] را در یک کتاب [physical_adjective]، نوشته شده [written_when] به اشتراک گذاشت</li>
+    <li>author_intent-> هیچ دعوتی را برتر از مطالعه [subject] نمی‌دانست و این شماتیک را [written_when] خلق کرد</li>
+    <li>author_intent-> به طور اتفاقی به اسرار [subject] در مطالعه [physical_adjective] مادر [ANYPAWN_possessive] برخورد کرد</li>
+    <li>author_intent-> در کودکی به شدت بیمار بود اما از زمان برای مطالعه [subject] استفاده کرد</li>
+    <li>author_intent-> می‌خواست جهان درباره [subject] بداند و، [written_when]، این شماتیک را خلق کرد</li>
+    <li>author_intent-> نیاز داشت که کهکشان درباره [subject] بداند</li>
+    <li>author_intent-> توسط یک سری کتاب کودکان به عشق [subject] کشانده شد</li>
+    <li>author_intent-> هرگز عاشق مطالعه [subject] نبود اما مجبور به انجام آن بود</li>
+    <li>author_intent-> احساس می‌کرد [subject] دعوت [ANYPAWN_possessive] است</li>
+    <li>learning_story-> به دور و دراز سفر کرد و به دنبال خرد درباره [subject] بود</li>
+    <li>learning_story-> هر روز یک روز یکسان را زندگی می‌کرد و روی [subject] در شهرهای چرخه‌ای [midworld] کار می‌کرد</li>
+    <li>learning_story-> از طریق یک مدرسه زاغه‌نشین متمرکز بر [subject] در [urbworld] بالا آمد</li>
+    <li>learning_story-> با افتخار در [subject] از آکادمی [worldname] فارغ‌التحصیل شد</li>
+    <li>learning_story-> به خود درباره [subject] در دنیای وحشی [animalworld] آموزش داد</li>
+    <li>learning_story-> گنجینه‌ای از شماتیک‌های گمشده درباره [subject] را در خرابه‌های [ruinworld] کشف کرد</li>
+    <li>learning_story-> خیابان‌های سیاه شده [steamworld] را پیمود و [subject] را در میان دوده تعقیب کرد</li>
+    <li>learning_story-> به نحوی از باتلاق‌های سمی [toxicworld] جان سالم به در برد، جایی که شایعات متخصصان [subject] پخش می‌شد</li>
+    <li>learning_story-> حومه‌های ذوب شده دنیای شیشه‌ای [glassworld] را جستجو کرد و به دنبال دانش [subject] بود</li>
+    <li>learning_story-> کره متعالی [transcendentworld] را دور زد و با رهگیری ترافیک ارتباطی از [subject] یاد گرفت</li>
+    <li>learning_story-> با قاطرها به اعماق [mineworld] رفت، به داستان‌های معدنچیان قدیمی درباره [subject] گوش داد و اسرار آن را آموخت</li>
+    <li>learning_story-> یک متخصص [subject] قراردادی در دنیای مرکزی [coreworld] بود</li>
+    <li>learning_story-> صاحب کارخانه‌ها در دنیای صنعتی [indworld] بود و عشق [ANYPAWN_possessive] به [subject] را در حالی که کارگران [ANYPAWN_possessive] بردگی می‌کردند، ارضا می‌کرد</li>
+    <li>learning_story-> درباره [subject] در حالی که در شهر سلولی V در [prisonworld] زندانی بود، یاد گرفت و همیشه به بی‌گناهی [ANYPAWN_possessive] اعتراض می‌کرد</li>
+    <li>learning_story-> این شماتیک [subject] را در توده‌های کندو دنیای زباله [trashworld] جمع‌آوری کرد و قطعات دور ریخته شده توسط شهروندان بیکار گلیترورلد را جمع‌آوری کرد</li>
+    <li>learning_story-> آپاتووارهای کلون شده را در [dinoworld] پرورش داد و گوشت آنها را با دانش [subject] مبادله کرد</li>
+    <li>learning_story-> در آسمان‌خراش‌های [urbworld] زندگی می‌کرد، جایی که دانش [subject] رایج بود</li>
+    <li>learning_story-> در سرزمین‌های مرده بیرونی [ruinworld] بزرگ شد و [subject] را برای زنده ماندن یاد گرفت</li>
+    <li>calltoadventure-> احساس می‌کرد زندگی [ANYPAWN_possessive] راکد است. سپس یک روز، [ANYPAWN_pronoun] [subject] را پیدا کرد</li>
+    <li>calltoadventure-> مأموریت یافت تا یک کلونی جدید را به تنهایی، با تمرکز بر [subject] راه‌اندازی کند</li>
+    <li>calltoadventure-> خواهر یا برادر بزرگترش درگذشت و [ANYPAWN_objective] را به عنوان متخصص [subject] خانواده باقی گذاشت</li>
+    <li>calltoadventure-> از یک کلونی گلیترورلد متروکه که بر [subject] تمرکز داشت مطلع شد</li>
+    <li>calltoadventure-> در یک رزمناو خورشیدی بود که توسط دزدان دریایی [feudalworld] دستگیر شد. به عنوان یک متخصص [subject]، آنها او را با قیمت بالایی آزاد کردند</li>
+    <li>calltoadventure-> از مسیر خود به دنیای مرده [deadworld] منحرف شد، جایی که [ANYPAWN_pronoun] درباره [subject] یاد گرفت</li>
+    <li>calltoadventure-> یک فایل داده درباره [subject] را در یک مکانوید شکسته کشف کرد و از آن یاد گرفت</li>
+    <li>calltoadventure-> یک درت‌مول را به پایین لانه اش دنبال کرد، جایی که به [ANYPAWN_objective] درباره [subject] آموزش داد</li>
+    <li>calltoadventure-> توسط یک قبیله یتاکین عاشق [subject] در [iceworld] بزرگ شد</li>
+    <li>calltoadventure-> توسط کلون‌سازهای خون‌آشام خلق شد و در [subject] لذت یافت</li>
+    <li>calltoadventure-> در [warworld] بزرگ شد و در یک غلاف باری دزدیده شده فرار کرد. تنها خواندنی برای ماه‌ها یک دفترچه راهنمای [subject] بود</li>
+    <li>calltoadventure-> عمر [ANYPAWN_possessive] را صرف سفر به لایه‌های دنیای پوسته‌ای [shellworld] کرد و یک مکانوید [subject] خراب را تعقیب کرد</li>
+    <li>calltoadventure-> با پنهان شدن در کشتی فضایی یک تاجر که متخصص [subject] بود، از بردگی در دهکده‌های [medievalworld] فرار کرد</li>
+    <li>calltoadventure-> به ریم و برگشت سفر کرد و درباره [subject] در [rimworld] یاد گرفت</li>
+    <li>calltoadventure-> دریاهای [oceanicworld] را درنوردید و ادعا کرد که اسرار [subject] را از خود اقیانوس‌های زنده آموخته است</li>
+    <li>calltoadventure-> یک لاشخور جاذبه صفر در کمربند سیارکی [worldname] بود و اسرار [subject] را در [asteroid] A3 یا [asteroid] 7DD پیدا کرد</li>
+    <li>written_when-> شب قبل از اعدام [ANYPAWN_possessive]</li>
+    <li>written_when-> در سال‌های اولیه [ANYPAWN_possessive]</li>
+    <li>written_when-> در طول دوره آبی [worldname]</li>
+    <li>written_when-> به عنوان بخشی از پایان‌نامه فوق دکتری [ANYPAWN_possessive]</li>
+    <li>written_when-> در سرگردانی‌های [ANYPAWN_possessive] در سراسر ریم</li>
+    <li>written_when-> در تأسیسات کلون اور-[worldname]</li>
+    <li>written_when-> به عنوان بخش نهایی مراسم [notable_adjective] کا'[worldname]</li>
+    <li>written_when-> با تنبلی، پشت یک تکه کاغذ نامه از والدین [ANYPAWN_possessive]</li>
+    <li>written_when-> سال‌ها پس از اینکه برای اولین بار آن را تصور کردند</li>
+    <li>written_when-> در سن پیری [ANYPAWN_possessive]</li>
+    <li>written_when-> در عصرها، در زمانی که از خواب دزدیده شده بود</li>
+    <li>written_when-> وقتی از فرزندان [ANYPAWN_possessive] مراقبت نمی‌کرد</li>
+    <li>written_when-> با عجله، در راه جبهه</li>
+    <li>written_when-> در اوقات فراغت، در حالی که نوشیدنی‌های خنک را در ایوان [ANYPAWN_possessive] می‌نوشید</li>
+    <li>written_when-> در سنین جوانی، در حالی که تنها کار می‌کرد و همسالان [ANYPAWN_possessive] بازی می‌کردند</li>
+    <li>subject_consequence(p=18)->[subject_primary_story]</li>
+    <li>subject_consequence->[digression]</li>
+    <li>digression->در یک نقطه، داستان به بحثی گیج‌کننده درباره [digression_subject] منحرف می‌شود</li>
+    <li>digression->روایت شماتیک در اینجا راه خود را گم می‌کند و به [digression_subject] منحرف می‌شود</li>
+    <li>digression->[author] در اینجا پاورقی درباره [digression_subject] درج کرده است</li>
+    <li>digression->مشخص نیست چرا داستان به [digression_subject] می‌پردازد</li>
+    <li>digression->جای تعجب است که شماتیک اطلاعاتی درباره [digression_subject] را [contain_verb] می‌کند</li>
+    <li>digression->بخش مربوط به [digression_subject] بی‌ربط است</li>
+    <li>digression_subject->عشق و جنگ</li>
+    <li>digression_subject->تمایزات سیاسی بی‌پایان و به طور فزاینده جزئی</li>
+    <li>digression_subject->روندهای آشپزی گلیترورلد</li>
+    <li>digression_subject->بازارهای مد [animalworld] و [urbworld]</li>
+    <li>digression_subject->شایعات توهین‌آمیز درباره استفاده گسترده از تقویت‌کننده‌های عشق</li>
+    <li>digression_subject->آرایش نظامی ناوگان [glitterworld] یک قرن قبل</li>
+    <li>digression_subject->روابط مرموز دنیای مرکزی با سیاه‌چاله‌های کلان‌جرم</li>
+    <li>digression_subject->دنیای مرده [deadworld] و شایعات سرنوشت آن</li>
+    <li>digression_subject->انواع گونه‌ها در سیاره دایناسور [dinoworld]</li>
+    <li>digression_subject->تجربه [ANYPAWN_possessive] از فئودالیسم در [feudalworld]</li>
+    <li>digression_subject->کمبود میکروب در شهرهای سقوط کرده [glassworld]</li>
+    <li>digression_subject->زندگی کوتاه فقرا در [indworld]</li>
+    <li>digression_subject->سازگاری‌های لاشخورهای خرابه در دنیاهای شهری پس از جنگ [worldname]</li>
+    <li>digression_subject->مبادله نوتروآمین در آسمان‌خراش‌های ثروتمند [coreworld]</li>
+    <li>aftermath->صفحات چیز بیشتری از داستان [author] را منتقل نمی‌کنند</li>
+    <li>aftermath->یک [note] با خطی متفاوت می‌گوید که [author] آخرین بار در حال رفتن به [deathworld] دیده شده است</li>
+    <li>aftermath->صفحات در اینجا پاره شده‌اند</li>
+    <li>aftermath->برگ‌ها با لکه‌های قهوه‌ای خال‌دار شده‌اند</li>
+    <li>aftermath->با وجود ماجراجویی‌های [ANYPAWN_possessive]، [ANYPAWN_pronoun] موفق به خلق این شماتیک شد</li>
+    <li>aftermath->[ANYPAWN_pronoun] سال‌های آخر [ANYPAWN_possessive] را وقف این شماتیک کرد</li>
+    <li>aftermath->بعدها، [ANYPAWN_pronoun] آرامش را در این کار یافت. [subject_chat]</li>
+    <li>aftermath->داستان [ANYPAWN_possessive] در اینجا با توصیف فنی کار [ANYPAWN_possessive] در [worldname] به پایان می‌رسد. [subject_chat]</li>
+    <li>subject_chat->کار [author] ثابت می‌کند که [ANYPAWN_objective] در [subject] صاحب‌نظر است</li>
+    <li>subject_chat->تعداد کمی یافته‌های این سند [subject] را به چالش می‌کشند</li>
+    <li>subject_chat->این سند برای هر کسی که به [subject] علاقه‌مند است الهام‌بخش خواهد بود</li>
+    <li>subject_chat->اگرچه نمودارها محو شده‌اند، درس‌های [author] در مورد [subject] ارزشمند هستند</li>
+    <li>authorTitle->نویسنده</li>
+    <li>authorTitle->کاتب</li>
+    <li>authorTitle->نگارنده</li>
+    <li>linkage->این الهام‌بخش [ANYPAWN_objective] شد و [ANYPAWN_pronoun] </li>
+    <li>linkage->این بعداً مفید واقع شد وقتی [ANYPAWN_pronoun] </li>
+    <li>linkage->با استفاده از این دانش، [ANYPAWN_pronoun] </li>
+    <li>linkage->[ANYPAWN_pronoun] این را مفید یافت وقتی [ANYPAWN_pronoun] </li>
+    <li>linkage->به همین دلیل بود که [ANYPAWN_pronoun] </li>
+    <li>linkage->در [worldname]، [ANYPAWN_pronoun] از بینش [ANYPAWN_possessive] استفاده کرد و </li>
+    <li>linkage->برای تسلط بر آن، [ANYPAWN_pronoun] به [worldname] سفر کرد جایی که [ANYPAWN_pronoun] </li>
+    <li>notable_adjective->مشهور</li>
+    <li>notable_adjective->مبهم</li>
+    <li>notable_adjective->نمادین</li>
+    <li>notable_adjective->کلاسیک</li>
+    <li>notable_adjective->رایج</li>
+    <li>notable_adjective->آشنا</li>
+    <li>negative_adjective->ابتدایی</li>
+    <li>negative_adjective->ساده‌لوحانه</li>
+    <li>negative_adjective->اولیه</li>
+    <li>negative_adjective->متوسط</li>
+    <li>negative_adjective->نادرست</li>
+    <li>negative_adjective->ناقص</li>
+    <li>appearance(p=3)->[phys_desc]</li>
+    <li>appearance->[nonphys_desc]</li>
+    <li>phys_desc(quality[less_than]5,quality[greater_than]1)->[physical_yet_statement]</li>
+    <li>phys_desc(quality[less_than]4)->[negative_physical_statement1]</li>
+    <li>phys_desc(quality[greater_than]3)->[positive_physical_statement1]</li>
+    <li>phys_desc(p=2)->[physical_yet_statement]</li>
+    <li>phys_desc(quality[less_than]3)->این سند بوی [stink] [badsmells]</li>
+    <li>phys_desc(quality[greater_than]4)->این سند بوی [scent] [smells]</li>
+    <li>nonphys_desc->[otherwordly_nonphys_desc]</li>
+    <li>nonphys_desc->[technical_nonphys_desc]</li>
+    <li>nonphys_desc->[academic_nonphys_desc]</li>
+    <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)->[negative_physical_statement1] اما [positive_physical_statement2]</li>
+    <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)->[positive_physical_statement1] اما [negative_physical_statement2]</li>
+    <li>physical_yet_statement(quality[greater_than]4)->[positive_physical_statement1] و [positive_physical_statement2]</li>
+    <li>physical_yet_statement(quality[less_than]2)->[negative_physical_statement1]. همچنین، [negative_physical_statement2]</li>
+    <li>negative_physical_statement->[negative_physical_statement1]</li>
+    <li>negative_physical_statement->[negative_physical_statement2]</li>
+    <li>negative_physical_statement1->پارگی‌های دندانه‌دار جلد پوست گوساله را خراب کرده‌اند</li>
+    <li>negative_physical_statement1->یکی از شاگردان [author] برگ اول را امضا کرده است</li>
+    <li>negative_physical_statement1->یک مایع ترش‌مزه آن را پوشانده است</li>
+    <li>negative_physical_statement2->جلد پوسیده به دستان خواننده می‌چسبد</li>
+    <li>negative_physical_statement2->کرم‌ها زیر کاغذ خانه کرده‌اند و با باز شدن کتاب مگس‌ها بیرون می‌پرند</li>
+    <li>negative_physical_statement2->به نظر می‌رسد صفحات روی پوست در حال فروپاشی نوشته شده‌اند</li>
+    <li>negative_physical_statement2->صفحات با جوهر قرمز اشباع شده‌اند</li>
+    <li>positive_physical_statement->[positive_physical_statement1]</li>
+    <li>positive_physical_statement->[positive_physical_statement2]</li>
+    <li>positive_physical_statement1->صفحات داخل دست‌نخورده هستند</li>
+    <li>positive_physical_statement1->صفحات از مشتق پلاستیل نازک تشکیل شده‌اند</li>
+    <li>positive_physical_statement1->هر صفحه از ساختاری انعطاف‌پذیر و الماس‌مانند ساخته شده است</li>
+    <li>positive_physical_statement1->لمس آن گرم است</li>
+    <li>positive_physical_statement2->نشان بادبادک یک انتشارات محترم دنیای مرکزی را دارد - شماتیک‌های [coreworld]</li>
+    <li>positive_physical_statement2->لبه‌های صفحه هنوز برش نخورده‌اند</li>
+    <li>positive_physical_statement2->پلاستیک‌های نیمه‌قیمتی روی سطح آن می‌درخشند</li>
+    <li>otherwordly_nonphys_desc->با نگه داشتن شماتیک [author]، اتاق می‌چرخد</li>
+    <li>otherwordly_nonphys_desc->فقط نگاه کردن به شماتیک سر خواننده را به درد می‌آورد</li>
+    <li>otherwordly_nonphys_desc->با نگاه کردن به شماتیک، رون‌ها در گوشه چشم خواننده حرکت می‌کنند</li>
+    <li>otherwordly_nonphys_desc->زمزمه‌ها در منطقه اطراف شماتیک [author] نفوذ می‌کنند</li>
+    <li>otherwordly_nonphys_desc->شماتیک [author] دارای اثر روانی چیزی غیرممکن باستانی است</li>
+    <li>technical_nonphys_desc->پیچیدگی شماتیک فراتر از خواننده متوسط است</li>
+    <li>technical_nonphys_desc->نوشتار غیرمعمول است، برگرفته از یک گویش ایمپید منقرض شده</li>
+    <li>technical_nonphys_desc->سیم‌ها از میان صفحات شماتیک می‌گذرند، اگرچه دستگاه تقریباً از کار افتاده است</li>
+    <li>technical_nonphys_desc->همان مکانیسم توسط [author] به سه زبان مختلف توضیح داده شده است</li>
+    <li>academic_nonphys_desc->این شماتیک به یک معلم جنی تقدیم شده است که الهام‌بخش [author] بود</li>
+    <li>academic_nonphys_desc->این سند با نشان موسسه‌ای که حامی [author] بود مشخص شده است</li>
+    <li>badsmells->به شدت می‌دهد</li>
+    <li>badsmells->تعفن ... دارد</li>
+    <li>badsmells->بوی ضعیف ... می‌دهد</li>
+    <li>badsmells->بوی گند ... می‌دهد</li>
+    <li>badsmells->بوی بد ... می‌دهد</li>
+    <li>stink->لجن جسد</li>
+    <li>stink->گوگرد و تخم‌مرغ گندیده</li>
+    <li>stink->مرگ آرام و باستانی</li>
+    <li>stink->چیزی شبیه عرق یتاکین</li>
+    <li>stink->نفس ویستر</li>
+    <li>stink->رختکن هوسار</li>
+    <li>smells->بوی تند ... دارد</li>
+    <li>smells->بوی ... دارد</li>
+    <li>smells->عطر ... دارد</li>
+    <li>smells->رایحه ... دارد</li>
+    <li>scent->کپک، مثل ته بشکه انگور</li>
+    <li>scent->فرومون‌های های‌میت</li>
+    <li>scent->کندر</li>
+    <li>scent->چوب صندل</li>
+    <li>scent->آب بوم‌رت شیرین</li>
+    <li>scent->ادویه گلیترورلد</li>
+    <li>scent->دانه‌های تازه گاورانلن</li>
+    <li>conjunction->و </li>
+    <li>conjunction->اما </li>
+    <li>conjunction->با این حال </li>
+    <li>conjunction->اگرچه </li>
+    <li>conjunction->علاوه بر این </li>
+    <li>conjunction->. به علاوه،</li>
+    <li>author(p=4)->نویسنده</li>
+    <li>author(p=4)->نگارنده</li>
+    <li>author->مخترع</li>
+    <li>author->خالق</li>
+    <li>author(p=2)->توسعه‌دهنده</li>
+    <li>author(p=4)->طراح</li>
+    <li>author->مهندس</li>
+    <li>author->صنعتگر</li>
+    <li>author->دانشمند</li>
+    <li>author->متخصص</li>
+    <li>author->تکنسین</li>
+    <li>author->کارشناس</li>
+    <li>author->صنعتگر</li>
+    <li>anAuthorDesc(p=2)->یک</li>
+    <li>anAuthorDesc->یک ... جوان</li>
+    <li>anAuthorDesc->یک ... پیر</li>
+    <li>anAuthorDesc->یک ... وحشت‌زده</li>
+    <li>anAuthorDesc->یک ... غمگین</li>
+    <li>anAuthorDesc->یک ... سالخورده</li>
+    <li>anAuthorDesc->یک ... دانا</li>
+    <li>anAuthorDesc->یک ... سرسخت</li>
+    <li>anAuthorDesc->یک ... احمق</li>
+    <li>anAuthorDesc->یک ... بی‌گناه</li>
+    <li>anAuthorDesc->یک ... آشفته</li>
+    <li>anAuthorDesc->یک ... عجیب و غریب</li>
+    <li>anAuthorDesc->یک ... ظالمانه</li>
+    <li>anAuthorDesc->یک ... کهن‌الگو</li>
+    <li>anAuthorDesc->یک ... خسته‌کننده</li>
+    <li>anAuthorDesc->یک ... دیوانه</li>
+    <li>anAuthorDesc->یک ... غیراخلاقی</li>
+    <li>anAuthorDesc->یک ... اخلاقی</li>
+    <li>anAuthorDesc->یک ... غیراخلاقی</li>
+    <li>anAuthorDesc->یک ... سایه‌دار</li>
+    <li>schematic_container->دفترچه راهنما</li>
+    <li>schematic_container->مجموعه</li>
+    <li>schematic_container->کلاسور</li>
+    <li>schematic_container->پوشه</li>
+    <li>schematic_container->جزوه</li>
+    <li>schematic_container->بسته‌بندی</li>
+    <li>schematic_container->نگهدارنده</li>
+    <li>schematic_container->بسته</li>
+    <li>schematic_container->پرونده</li>
+    <li>schematic_container->پاکت</li>
+    <li>schematic_container->جعبه</li>
+    <li>schematic_container->ظرف</li>
+    <li>physical_adjective->کثیف</li>
+    <li>physical_adjective->کوچک</li>
+    <li>physical_adjective->زبر</li>
+    <li>physical_adjective->عظیم</li>
+    <li>physical_adjective->ظریف</li>
+    <li>physical_adjective->ساده</li>
+    <li>physical_adjective->جدید</li>
+    <li>physical_adjective->حساس</li>
+    <li>physical_adjective->باستانی</li>
+    <li>physical_adjective->متروکه</li>
+    <li>physical_adjective->آسیب‌دیده</li>
+    <li>physical_adjective->فرسوده</li>
+    <li>physical_adjective->تاب‌دار</li>
+    <li>physical_adjective->کهنه</li>
+    <li>physical_adjective->چرب</li>
+    <li>physical_adjective->گرم</li>
+    <li>physical_adjective->توده‌ای</li>
+    <li>physical_adjective->چوبی</li>
+    <li>physical_adjective->خاردار</li>
+    <li>physical_adjective->سوخته</li>
+    <li>physical_adjective->صاف</li>
+    <li>physical_adjective->روستایی</li>
+    <li>physical_adjective->کاربردی</li>
+    <li>physical_adjective->منسوخ</li>
+    <li>physical_adjective->گیج‌کننده</li>
+    <li>physical_adjective->گرانبها</li>
+    <li>shows_synonym_verb->[shows_synonym_verb1]</li>
+    <li>shows_synonym_verb->[shows_synonym_verb2]</li>
+    <li>shows_synonym_verb1->به تصویر می‌کشد</li>
+    <li>shows_synonym_verb1->توصیف می‌کند</li>
+    <li>shows_synonym_verb1->ارائه می‌دهد</li>
+    <li>shows_synonym_verb1->به نمایش می‌گذارد</li>
+    <li>shows_synonym_verb1->نشان می‌دهد</li>
+    <li>shows_synonym_verb2->نشان می‌دهد</li>
+    <li>shows_synonym_verb2->طرح‌ریزی می‌کند</li>
+    <li>shows_synonym_verb2->توصیف می‌کند</li>
+    <li>contain_verb->شامل می‌شود</li>
+    <li>contain_verb->نگه می‌دارد</li>
+    <li>contain_verb->حمل می‌کند</li>
+    <li>contain_verb->ذخیره می‌کند</li>
+    <li>contain_verb->در بر می‌گیرد</li>
+    <li>schematic_synonym->شماتیک</li>
+    <li>schematic_synonym->نمودار</li>
+    <li>schematic_synonym->نقشه فنی</li>
+    <li>schematic_synonym->طرح</li>
+    <li>schematic_synonym->نمونه اولیه</li>
+    <li>schematic_synonym->مشخصات محصول</li>
+    <li>schematic_synonym->مجموعه دستورالعمل</li>
+    <li>state_adjective->پیش‌نویس</li>
+    <li>state_adjective->تمام شده</li>
+    <li>state_adjective->در حال کار</li>
+    <li>state_adjective->کامل</li>
+    <li>diagram_type->تصویرسازی</li>
+    <li>diagram_type->توصیف</li>
+    <li>diagram_type->نمودار</li>
+    <li>diagram_type->نقشه فنی</li>
+    <li>diagram_type->اینفوگرافیک</li>
+    <li>diagram_type->طرحواره</li>
+    <li>diagram_type->برش</li>
+    <li>diagram_type->گراف</li>
+    <li>diagram_type->چارت</li>
+    <li>theory_synonym_adj->نظریه</li>
+    <li>theory_synonym_adj->مفهوم</li>
+    <li>theory_synonym_adj->تصور</li>
+    <li>theory_synonym_adj->فرضیه</li>
+    <li>theory_synonym_adj->ایده</li>
+    <li>device_synonym->مکانیسم</li>
+    <li>device_synonym->دستگاه</li>
+    <li>device_synonym->تعبیه</li>
+    <li>device_synonym->اختراع</li>
+    <li>device_synonym->ویجت</li>
+    <li>device_synonym->خلق</li>
+    <li>device_synonym->گجت</li>
+    <li>device_synonym->بست</li>
+    <li>device_synonym->ماژول</li>
+    <li>image_types->عکس‌ها</li>
+    <li>image_types->نقاشی‌ها</li>
+    <li>image_types->حکاکی‌ها</li>
+    <li>image_types->آبرنگ‌ها</li>
+    <li>image_types->نقشه‌های فنی</li>
+    <li>image_types->طراحی‌ها</li>
+    <li>image_types->کارتون‌ها</li>
+    <li>other_subject->زیرساخت</li>
+    <li>other_subject->پرسنل</li>
+    <li>other_subject->ارتباطات</li>
+    <li>other_subject->دامنه</li>
+    <li>other_subject->بودجه</li>
+    <li>other_subject->منابع</li>
+    <li>dates->شماتیک [date_form] منتشر شد</li>
+    <li>dates->شماتیک برای اولین بار [date_form] چاپ شد</li>
+    <li>dates->دقیقاً مشخص نیست که شماتیک چه زمانی خلق شده است</li>
+    <li>date_form->اخیراً</li>
+    <li>date_form->قرن‌ها پیش</li>
+    <li>date_form->در [date]</li>
+    <li>date_form->در [date_season]</li>
+    <li>worldname->[glitterworld]</li>
+    <li>worldname->[urbworld]</li>
+    <li>worldname->[deadworld]</li>
+    <li>worldname->[shellworld]</li>
+    <li>worldname->[ruinworld]</li>
+    <li>worldname->[medievalworld]</li>
+    <li>worldname->[steamworld]</li>
+    <li>worldname->[midworld]</li>
+    <li>worldname->[rimworld]</li>
+    <li>worldname->[coreworld]</li>
+    <li>worldname->[toxicworld]</li>
+    <li>worldname->[glassworld]</li>
+    <li>worldname->[transcendentworld]</li>
+    <li>worldname->[indworld]</li>
+    <li>worldname->[prisonworld]</li>
+    <li>worldname->[feudalworld]</li>
+    <li>worldname->[trashworld]</li>
+    <li>worldname->[iceworld]</li>
+    <li>worldname->[dinoworld]</li>
+    <li>worldname->[warworld]</li>
+    <li>worldname->[oceanicworld]</li>
+    <li>worldname->[mineworld]</li>
+    <li>worldname->[animalworld]</li>
+    <li>worldname->[asteroid]</li>
+    <li>worldname->[animalworld]</li>
+    <li>feralworld->[animalworld]</li>
+    <li>milworld->[warworld]</li>
+    <li>animalworld->Sorne</li>
+    <li>animalworld->Rhydell</li>
+    <li>animalworld->Zoutera</li>
+    <li>animalworld->Thylacine</li>
+    <li>animalworld->Jiai</li>
+    <li>animalworld->Steller's World</li>
+    <li>animalworld->Aukton</li>
+    <li>asteroid->Iwamura</li>
+    <li>asteroid->Atura</li>
+    <li>asteroid->Widdershins</li>
+    <li>asteroid->Ranomi</li>
+    <li>asteroid->Aesh 265</li>
+    <li>asteroid->Taxlos</li>
+    <li>asteroid->Aryn Sigma</li>
+    <li>coreworld->Novaroma</li>
+    <li>coreworld->Lutuni</li>
+    <li>coreworld->Zeglar</li>
+    <li>coreworld->Novaroma</li>
+    <li>coreworld->Cormora Prime</li>
+    <li>coreworld->Glossolia</li>
+    <li>coreworld->Barbaros</li>
+    <li>deadworld->Callos IX</li>
+    <li>deadworld->Haspia</li>
+    <li>deadworld->Gost IV</li>
+    <li>deadworld->Berimund</li>
+    <li>deadworld->Ardar</li>
+    <li>deadworld->Kremhild</li>
+    <li>deadworld->Melisandz</li>
+    <li>deathworld->Creticon</li>
+    <li>deathworld->Zartza</li>
+    <li>deathworld->Rayth</li>
+    <li>deathworld->Spectra</li>
+    <li>deathworld->JNovahex</li>
+    <li>deathworld->Carthago</li>
+    <li>deathworld->Grimcore</li>
+    <li>dinoworld->Oubanyen</li>
+    <li>dinoworld->Zoutera</li>
+    <li>dinoworld->Einio</li>
+    <li>dinoworld->Baryonyx</li>
+    <li>dinoworld->N'cilo</li>
+    <li>dinoworld->Venator</li>
+    <li>dinoworld->Brach</li>
+    <li>feudalworld->Aracena VI</li>
+    <li>feudalworld->Nuchadus</li>
+    <li>feudalworld->Filson</li>
+    <li>feudalworld->Fieth</li>
+    <li>feudalworld->Bloch Regis</li>
+    <li>feudalworld->Carlosphere</li>
+    <li>feudalworld->Magna Dijou</li>
+    <li>glassworld->Ceti V</li>
+    <li>glassworld->Thebes XIV</li>
+    <li>glassworld->Naga</li>
+    <li>glassworld->Merv</li>
+    <li>glassworld->Perse</li>
+    <li>glassworld->Shechem</li>
+    <li>glassworld->Yelhazor</li>
+    <li>glitterworld->Kalthas IV</li>
+    <li>glitterworld->Amen-Ti</li>
+    <li>glitterworld->Sophiamunda </li>
+    <li>glitterworld->Rogia</li>
+    <li>glitterworld->Utmaior</li>
+    <li>glitterworld->Caspian</li>
+    <li>glitterworld->Kenerella</li>
+    <li>iceworld->Yttak</li>
+    <li>iceworld->Dedchenko</li>
+    <li>iceworld->Baltoro</li>
+    <li>iceworld->Furtwale</li>
+    <li>iceworld->Jaqua</li>
+    <li>iceworld->Christensen</li>
+    <li>iceworld->Barnes</li>
+    <li>indworld->Irithir</li>
+    <li>indworld->New China</li>
+    <li>indworld->Hudders</li>
+    <li>indworld->Iver</li>
+    <li>indworld->Achesta</li>
+    <li>indworld->Oods</li>
+    <li>indworld->Iladelf</li>
+    <li>medievalworld->Chelis</li>
+    <li>medievalworld->Vinna</li>
+    <li>medievalworld->Cassone</li>
+    <li>medievalworld->Jork</li>
+    <li>medievalworld->Cochmar</li>
+    <li>medievalworld->Alin</li>
+    <li>medievalworld->Dubrognago</li>
+    <li>midworld->Khalderia</li>
+    <li>midworld->Elsin</li>
+    <li>midworld->Haihan</li>
+    <li>midworld->Seolure</li>
+    <li>midworld->Panga</li>
+    <li>midworld->New London CXI </li>
+    <li>midworld->San Delenda</li>
+    <li>mineworld->Xanides</li>
+    <li>mineworld->Bingham</li>
+    <li>mineworld->Saarhi</li>
+    <li>mineworld->Grasbeg</li>
+    <li>mineworld->Chuqui</li>
+    <li>mineworld->Olimpia</li>
+    <li>mineworld->Orme</li>
+    <li>oceanicworld->Wavia</li>
+    <li>oceanicworld->Wadka</li>
+    <li>oceanicworld->Gichen</li>
+    <li>oceanicworld->Port Yam</li>
+    <li>oceanicworld->Baia</li>
+    <li>oceanicworld->Thonis</li>
+    <li>oceanicworld->Moaui</li>
+    <li>prisonworld->Yttak</li>
+    <li>prisonworld->Aldgate</li>
+    <li>prisonworld->Borren</li>
+    <li>prisonworld->Hoalo</li>
+    <li>prisonworld->Casmina</li>
+    <li>prisonworld->Port Basil</li>
+    <li>prisonworld->Chateau D'Ouen</li>
+    <li>rimworld->Filson</li>
+    <li>rimworld->La Grand</li>
+    <li>rimworld->Dalles</li>
+    <li>rimworld->Twig Falls</li>
+    <li>rimworld->Old Boise</li>
+    <li>rimworld->Devil's Gate</li>
+    <li>rimworld->Laramiere</li>
+    <li>ruinworld->Earth</li>
+    <li>ruinworld->Ilwaba</li>
+    <li>ruinworld->Xennoa</li>
+    <li>ruinworld->Pichu</li>
+    <li>ruinworld->Perdida</li>
+    <li>ruinworld->Hisarlik</li>
+    <li>ruinworld->Helike</li>
+    <li>shellworld->Boccocarro</li>
+    <li>shellworld->Destria</li>
+    <li>shellworld->Trophic</li>
+    <li>shellworld->Matrio</li>
+    <li>shellworld->Samen</li>
+    <li>shellworld->Xinthia</li>
+    <li>shellworld->Ferbine</li>
+    <li>steamworld->Corliss</li>
+    <li>steamworld->Borassic</li>
+    <li>steamworld->Savery II</li>
+    <li>steamworld->Heron</li>
+    <li>steamworld->Malmesburi</li>
+    <li>steamworld->Architonnerre</li>
+    <li>steamworld->Escapement</li>
+    <li>toxicworld->Scylla</li>
+    <li>toxicworld->Mauro</li>
+    <li>toxicworld->Cerospor</li>
+    <li>toxicworld->Oxy VI</li>
+    <li>toxicworld->Sangwine</li>
+    <li>toxicworld->Soleno</li>
+    <li>toxicworld->Imbatus</li>
+    <li>transcendentworld->Xaroh</li>
+    <li>transcendentworld->Immanence VI</li>
+    <li>transcendentworld->Qabba</li>
+    <li>transcendentworld->Einsof</li>
+    <li>transcendentworld->Mitvo</li>
+    <li>transcendentworld->Samydi</li>
+    <li>transcendentworld->Samsarr</li>
+    <li>trashworld->Bagua 5</li>
+    <li>trashworld->Puobell</li>
+    <li>trashworld->Deni IX</li>
+    <li>trashworld->Garbsh</li>
+    <li>trashworld->Tra'age</li>
+    <li>trashworld->Reepsyk</li>
+    <li>trashworld->Mystras</li>
+    <li>urbworld->Euterpe</li>
+    <li>urbworld->Avenna</li>
+    <li>urbworld->Essalon</li>
+    <li>urbworld->Enike</li>
+    <li>urbworld->Adocia</li>
+    <li>urbworld->N'toch</li>
+    <li>urbworld->Barca</li>
+    <li>warworld->Kemia</li>
+    <li>warworld->Vanu</li>
+    <li>warworld->Samnium</li>
+    <li>warworld->Kyrus</li>
+    <li>warworld->Punica</li>
+    <li>warworld->Cimbria XII</li>
+    <li>warworld->Barkitos</li>
+  </Description_Schematic.rulePack.rulesStrings>
   
   <!-- EN:
     <li>subject->[subject_primary]</li>
@@ -1202,6 +2042,360 @@
     <li>warworld->Cimbria XII</li>
     <li>warworld->Barkitos</li>
   -->
-  <Description_SkillBook.rulePack.rulesStrings>TODO</Description_SkillBook.rulePack.rulesStrings>
+  <Description_SkillBook.rulePack.rulesStrings>
+    <li>subject->[subject_primary]</li>
+    <li>desc->[discussion].\n\n[anecdote]. [production].\n\n[quality_statement].</li>
+    <li>discussion->این [textbook] [useful_information] درباره [subject][detail] ارائه می‌دهد</li>
+    <li>discussion->این [textbook] اقتدار نویسنده را در موضوع [subject][detail] تثبیت می‌کند</li>
+    <li>discussion->کسانی که به دنبال [understanding_synonym] [subject] هستند به سراغ این [textbook] [notable_adjective][detail] می‌روند</li>
+    <li>discussion->یک [textbook] استاندارد درباره [subject][detail]</li>
+    <li>discussion->یک نسخه اولیه از [textbook] نویسنده درباره [subject][detail]</li>
+    <li>detail->. [precis_synonym] بر جنبه‌های ماهرانه‌تر موضوع تمرکز دارد</li>
+    <li>detail->. این یک [precis_synonym] مختصر از یک موضوع پیچیده است</li>
+    <li>detail->. [precis_synonym] می‌گوید که وقتی [ANYPAWN_label] این را نوشت، در این زمینه پیشرو بود</li>
+    <li>detail->. یک نقل قول در [note_location] می‌گوید: «[students] واقعی [subject] نمی‌توانند کتاب [ANYPAWN_label] را نادیده بگیرند»</li>
+    <li>students->دانشجویان</li>
+    <li>students->عاشقان</li>
+    <li>students->تمرین‌کنندگان</li>
+    <li>detail->. شما را گام به گام در موضوع پیش می‌برد</li>
+    <li>detail(quality[less_than]4)->، حتی اگر نویسنده با عجله از موضوع عبور کند</li>
+    <li>detail(quality[greater_than]3)->. این یک بررسی جامع از موضوع است</li>
+    <li>detail->. نویسنده در [precis_synonym] [ANYPAWN_possessive] ادعا می‌کند که نسخه‌های جعلی این کتاب وجود دارد اما این یکی نیست</li>
+    <li>detail(quality[less_than]4)->، اگرچه شاید تلاش برای انتقال ایده‌های آن از طریق یک گفتگوی خیالی اشتباه بود</li>
+    <li>detail->. بلاغت نویسنده در [precis_synonym] حواس را از مفاهیم اصلی پرت نمی‌کند</li>
+    <li>production->[precis_synonym] می‌گوید که این با دست در [worldname] چاپ شده است</li>
+    <li>production->[precis_synonym] می‌گوید که دانشگاه [worldname] این را به عنوان متن درسی تعیین کرده است</li>
+    <li>production->[precis_synonym] می‌گوید که اگرچه این یادداشت‌ها برای استفاده شخصی [ANYPAWN_label] ساخته شده بودند، اما به طور گسترده به اشتراک گذاشته شده‌اند</li>
+    <li>production->بخش‌های مفید این [textbook] در میان جزئیات بیوگرافی پنهان شده‌اند</li>
+    <li>production->یک [note] دست‌نویس در [note_location] می‌گوید که چاپخانه [worldname] پس از شورش‌های [worldname] تعطیل شد، بنابراین این نسخه‌های بعدی کمیاب هستند</li>
+    <li>production->یک [note] حکاکی شده می‌گوید که بیشتر نسخه‌های این [textbook] در طول حادثه [worldname] گم شدند</li>
+    <li>production->[precis_synonym] روشن می‌کند که خوانندگان با دانش تکنیک‌های انتشار اطلاعات آرکوتک تمایل دارند از این سری [textbook] اجتناب کنند - اما نمی‌گوید چرا</li>
+    <li>production->از [note_location] مشخص است که مبلغان [subject] در [worldname] ثروت زیادی را صرف چاپ نسخه‌های این کتاب و سپس توزیع گسترده آن کردند</li>
+    <li>production->[note_location] توضیح می‌دهد که نسخه‌های اولیه این کتاب توسط خود [ANYPAWN_label] دست‌نویس شده بودند</li>
+    <li>production->دوشس [worldname] حامی این [textbook] بود، با این شرط که به صورت رایگان در دسترس باشد</li>
+    <li>production->یک یادداشت می‌گوید که اشتراک کتابفروشان [coreworld] اولین نسخه این [textbook] را تولید کرد</li>
+    <li>production->در پشت کتاب، ناشر یک سری بزرگتر را تبلیغ می‌کند که به تمام موضوعات لازم برای بقا در ریم می‌پردازد</li>
+    <li>production->ناشران شاید می‌توانستند در وظایف ویراستاری خود صریح‌تر باشند، با توجه به دستور زبان شلخته</li>
+    <li>quality_statement->[exterior_quality] [page_quality]</li>
+    <li>anecdote->با توجه به فاصله زیاد بین سال تولد [ANYPAWN_nameFull] و تاریخ انتشار این کتاب، بعید است که [ANYPAWN_pronoun] زنده مانده باشد تا انتشار آن را ببیند</li>
+    <li>anecdote->در [note_location]، کسی یک نقد تند از کتاب را چسبانده است</li>
+    <li>anecdote->[precis_synonym] نشان می‌دهد که این کتاب از سیستم کتابخانه عمومی [urbworld] عبور کرده است</li>
+    <li>anecdote->طبق [note_location]، [ANYPAWN_nameFull] به عنوان استاد بسیاری از موضوعات شناخته می‌شد</li>
+    <li>anecdote->طبق [note_location]، مردم [worldname] هنوز درباره [ANYPAWN_nameFull] صحبت می‌کنند و از عشق [ANYPAWN_possessive] به [subject] یاد می‌کنند</li>
+    <li>anecdote->طبق [note_location]، یک حادثه درهم‌تنیدگی عجیب نویسنده، [ANYPAWN_nameFull] را مدت کوتاهی پس از انتشار کشت</li>
+    <li>anecdote->طبق [precis_synonym]، [ANYPAWN_nameFull] روزهای [ANYPAWN_possessive] را صرف تدریس در آکادمی [coreworld] می‌کرد. این کتاب از سخنرانی‌های [ANYPAWN_possessive] گرفته شده است</li>
+    <li>anecdote->طبق [precis_synonym]، دانش [ANYPAWN_nameFull] از [subject] چنان مشهور بود که مردم [ANYPAWN_objective] را در خیابان متوقف می‌کردند تا درباره آن از [ANYPAWN_objective] سوال کنند</li>
+    <li>anecdote->طبق [note_location]، [ANYPAWN_nameFull] فقیر بود و حقوق این سری را به قیمت بسیار کمی فروخت</li>
+    <li>anecdote->طبق [note_location]، [ANYPAWN_nameFull] کور مادرزاد بود، بنابراین هرگز کتاب [ANYPAWN_possessive] را ندید</li>
+    <li>anecdote->طبق [note_location]، پیش‌نویس اول کتاب درسی [ANYPAWN_nameFull] به طور بدنامی شامل پنجاه صفحه انحراف بود. برای نسخه دوم حذف شد</li>
+    <li>anecdote->طبق [note_location]، شهرت [ANYPAWN_nameFull] چنان وحشتناک بود که [ANYPAWN_pronoun] این کتاب را با نام مستعار منتشر کرد</li>
+    <li>anecdote->طبق [note_location]، در کودکی، [ANYPAWN_nameFull] چنان تنبل بود که والدین [ANYPAWN_possessive] ناامید شدند. این کتاب درسی توجیهی برای مهارت [ANYPAWN_possessive] است</li>
+    <li>anecdote->طبق [precis_synonym]، در طول چهارمین ازدواج [ANYPAWN_nameFull] بود که [ANYPAWN_pronoun] ایده یک کتاب درسی درباره [subject] را در سر پروراند. (این منجر به چهارمین طلاق [ANYPAWN_possessive] شد)</li>
+    <li>textbook->کتاب مقدماتی</li>
+    <li>textbook->دفترچه راهنما</li>
+    <li>textbook->کتاب درسی</li>
+    <li>textbook(p=6)->کتاب</li>
+    <li>textbook->کتاب کار</li>
+    <li>textbook->کتاب مرجع</li>
+    <li>textbook->مجموعه</li>
+    <li>textbook->کتاب راهنما</li>
+    <li>textbook->جزوه</li>
+    <li>textbook->برنامه درسی</li>
+    <li>textbook->کتاب دوره</li>
+    <li>textbook->کتاب مرجع</li>
+    <li>textbook->کتاب مدرسه</li>
+    <li>textbook->دانشنامه</li>
+    <li>textbook->هندبوک</li>
+    <li>textbook->کتاب تجاری</li>
+    <li>textbook->اثر</li>
+    <li>precis_synonym->خلاصه</li>
+    <li>precis_synonym->سرلوحه</li>
+    <li>precis_synonym->چکیده</li>
+    <li>precis_synonym->خلاصه داستان</li>
+    <li>precis_synonym->طرح کلی</li>
+    <li>precis_synonym->گزیده</li>
+    <li>note_location->روی جلد جلو</li>
+    <li>note_location->روی جلد پشت</li>
+    <li>note_location->لبه داخلی جلو</li>
+    <li>note_location->لبه داخلی پشت</li>
+    <li>note_location->صفحه اول</li>
+    <li>note_location->صفحه آخر</li>
+    <li>note_location->حاشیه‌ها</li>
+    <li>note_location->صفحه عنوان</li>
+    <li>note_location->پاورقی</li>
+    <li>note_location->پی‌نوشت</li>
+    <li>note_location->بیوگرافی نویسنده</li>
+    <li>note_location->برچسب حمل و نقل</li>
+    <li>note->یادداشت</li>
+    <li>note->الحاقیه</li>
+    <li>note->پی‌نوشت</li>
+    <li>note->پس‌گفتار</li>
+    <li>note->پیوست</li>
+    <li>note->کودا</li>
+    <li>note->پاورقی</li>
+    <li>note->پی‌نوشت</li>
+    <li>useful_information->نکات مفید اطلاعاتی</li>
+    <li>useful_information->اطلاعات مفید</li>
+    <li>useful_information->حقایق جالب</li>
+    <li>useful_information->بینش‌های ارزشمند</li>
+    <li>useful_information->بینش‌های عملی</li>
+    <li>useful_information->نکات مفید</li>
+    <li>useful_information->جزئیات آموزنده</li>
+    <li>understanding_synonym->دانش</li>
+    <li>understanding_synonym->خود-بهبودی در</li>
+    <li>understanding_synonym->درکی از</li>
+    <li>understanding_synonym->پژوهش در</li>
+    <li>understanding_synonym->فضل در</li>
+    <li>understanding_synonym->تخصص در</li>
+    <li>understanding_synonym->فلسفه‌ای از</li>
+    <li>understanding_synonym->اخلاق</li>
+    <li>notable_adjective->مشهور</li>
+    <li>notable_adjective->مبهم</li>
+    <li>notable_adjective->نمادین</li>
+    <li>notable_adjective->کلاسیک</li>
+    <li>notable_adjective->رایج</li>
+    <li>notable_adjective->آشنا</li>
+    <li>notable_adjective->بی‌زمان</li>
+    <li>notable_adjective->نامتقارن</li>
+    <li>notable_adjective->هماهنگ</li>
+    <li>notable_adjective->ظریف</li>
+    <li>notable_adjective->ساده</li>
+    <li>notable_adjective->کاربردی</li>
+    <li>notable_adjective->شهری</li>
+    <li>notable_adjective->گلیترورلد</li>
+    <li>notable_adjective->ابتدایی</li>
+    <li>notable_adjective->تزئینی</li>
+    <li>exterior_quality(quality[greater_than]4)->نمای بیرونی این کتاب به زیبایی صحافی شده و</li>
+    <li>exterior_quality(quality[greater_than]4)->یک شاهکار هنر چاپ، این کتاب می‌درخشد و</li>
+    <li>exterior_quality(quality[greater_than]4)->جلد چرمی آن زبر است اما</li>
+    <li>exterior_quality(quality[greater_than]4)->اگرچه جلد بسیار ساده است،</li>
+    <li>exterior_quality(quality[less_than]5,quality[greater_than]1)->این کتاب درسی روزهای بهتری را دیده است، اما</li>
+    <li>exterior_quality(quality[less_than]5,quality[greater_than]1)->با وجود اینکه یک کتاب مدرسه دست دوم است،</li>
+    <li>exterior_quality(quality[less_than]5,quality[greater_than]1)->این کتاب صاحبان زیادی داشته است، اما</li>
+    <li>exterior_quality(quality[less_than]2)->جلوی این کتاب جذاب به نظر می‌رسد اما</li>
+    <li>exterior_quality(quality[less_than]2)->کسی یک سوم اول کتاب را پاره کرده و</li>
+    <li>exterior_quality(quality[less_than]2)->جلد در یک مایع با بوی تند خیس شده و</li>
+    <li>exterior_quality(quality[less_than]2)->در نگاه اول هیچ مشکلی با کتاب وجود ندارد، اما</li>
+    <li>page_quality->صفحات [page_condition]</li>
+    <li>page_condition(quality[greater_than]4)->[page_excellent]</li>
+    <li>page_condition(quality[less_than]5,quality[greater_than]1)->[page_decent]</li>
+    <li>page_condition(quality[less_than]2)->[page_awful]</li>
+    <li>page_excellent->در شرایط شگفت‌انگیزی هستند، گویی هرگز لمس نشده‌اند</li>
+    <li>page_excellent->در شرایط عالی هستند</li>
+    <li>page_excellent->دست‌نخورده هستند</li>
+    <li>page_excellent->روشن و تمیز هستند</li>
+    <li>page_excellent->به طور منحصر به فردی خوب حفظ شده‌اند</li>
+    <li>page_decent->در شرایط مناسبی هستند</li>
+    <li>page_decent->خوانا هستند، اگرچه مچاله شده‌اند</li>
+    <li>page_decent->کاملاً خوانا هستند</li>
+    <li>page_decent->مناسب هستند، اگرچه کمی خط خورده‌اند</li>
+    <li>page_awful->به نظر می‌رسد روی پوست در حال فروپاشی نوشته شده‌اند</li>
+    <li>page_awful->به شدت آسیب دیده‌اند</li>
+    <li>page_awful->با یک ماده تیره لکه‌دار شده‌اند</li>
+    <li>page_awful->ناخوانا هستند</li>
+    <li>page_awful->با دست‌خطی ناخوانا حاشیه‌نویسی شده‌اند</li>
+    <li>worldname->[glitterworld]</li>
+    <li>worldname->[urbworld]</li>
+    <li>worldname->[deadworld]</li>
+    <li>worldname->[shellworld]</li>
+    <li>worldname->[ruinworld]</li>
+    <li>worldname->[medievalworld]</li>
+    <li>worldname->[steamworld]</li>
+    <li>worldname->[midworld]</li>
+    <li>worldname->[rimworld]</li>
+    <li>worldname->[coreworld]</li>
+    <li>worldname->[toxicworld]</li>
+    <li>worldname->[glassworld]</li>
+    <li>worldname->[transcendentworld]</li>
+    <li>worldname->[indworld]</li>
+    <li>worldname->[prisonworld]</li>
+    <li>worldname->[feudalworld]</li>
+    <li>worldname->[trashworld]</li>
+    <li>worldname->[iceworld]</li>
+    <li>worldname->[dinoworld]</li>
+    <li>worldname->[warworld]</li>
+    <li>worldname->[oceanicworld]</li>
+    <li>worldname->[mineworld]</li>
+    <li>worldname->[animalworld]</li>
+    <li>worldname->[asteroid]</li>
+    <li>worldname->[animalworld]</li>
+    <li>feralworld->[animalworld]</li>
+    <li>milworld->[warworld]</li>
+    <li>animalworld->Sorne</li>
+    <li>animalworld->Rhydell</li>
+    <li>animalworld->Zoutera</li>
+    <li>animalworld->Thylacine</li>
+    <li>animalworld->Jiai</li>
+    <li>animalworld->Steller's World</li>
+    <li>animalworld->Aukton</li>
+    <li>asteroid->Iwamura</li>
+    <li>asteroid->Atura</li>
+    <li>asteroid->Widdershins</li>
+    <li>asteroid->Ranomi</li>
+    <li>asteroid->Aesh 265</li>
+    <li>asteroid->Taxlos</li>
+    <li>asteroid->Aryn Sigma</li>
+    <li>coreworld->Novaroma</li>
+    <li>coreworld->Lutuni</li>
+    <li>coreworld->Zeglar</li>
+    <li>coreworld->Novaroma</li>
+    <li>coreworld->Cormora Prime</li>
+    <li>coreworld->Glossolia</li>
+    <li>coreworld->Barbaros</li>
+    <li>deadworld->Callos IX</li>
+    <li>deadworld->Haspia</li>
+    <li>deadworld->Gost IV</li>
+    <li>deadworld->Berimund</li>
+    <li>deadworld->Ardar</li>
+    <li>deadworld->Kremhild</li>
+    <li>deadworld->Melisandz</li>
+    <li>deathworld->Creticon</li>
+    <li>deathworld->Zartza</li>
+    <li>deathworld->Rayth</li>
+    <li>deathworld->Spectra</li>
+    <li>deathworld->JNovahex</li>
+    <li>deathworld->Carthago</li>
+    <li>deathworld->Grimcore</li>
+    <li>dinoworld->Oubanyen</li>
+    <li>dinoworld->Zoutera</li>
+    <li>dinoworld->Einio</li>
+    <li>dinoworld->Baryonyx</li>
+    <li>dinoworld->N'cilo</li>
+    <li>dinoworld->Venator</li>
+    <li>dinoworld->Brach</li>
+    <li>feudalworld->Aracena VI</li>
+    <li>feudalworld->Nuchadus</li>
+    <li>feudalworld->Filson</li>
+    <li>feudalworld->Fieth</li>
+    <li>feudalworld->Bloch Regis</li>
+    <li>feudalworld->Carlosphere</li>
+    <li>feudalworld->Magna Dijou</li>
+    <li>glassworld->Ceti V</li>
+    <li>glassworld->Thebes XIV</li>
+    <li>glassworld->Naga</li>
+    <li>glassworld->Merv</li>
+    <li>glassworld->Perse</li>
+    <li>glassworld->Shechem</li>
+    <li>glassworld->Yelhazor</li>
+    <li>glitterworld->Kalthas IV</li>
+    <li>glitterworld->Amen-Ti</li>
+    <li>glitterworld->Sophiamunda </li>
+    <li>glitterworld->Rogia</li>
+    <li>glitterworld->Utmaior</li>
+    <li>glitterworld->Caspian</li>
+    <li>glitterworld->Kenerella</li>
+    <li>iceworld->Yttak</li>
+    <li>iceworld->Dedchenko</li>
+    <li>iceworld->Baltoro</li>
+    <li>iceworld->Furtwale</li>
+    <li>iceworld->Jaqua</li>
+    <li>iceworld->Christensen</li>
+    <li>iceworld->Barnes</li>
+    <li>indworld->Irithir</li>
+    <li>indworld->New China</li>
+    <li>indworld->Hudders</li>
+    <li>indworld->Iver</li>
+    <li>indworld->Achesta</li>
+    <li>indworld->Oods</li>
+    <li>indworld->Iladelf</li>
+    <li>medievalworld->Chelis</li>
+    <li>medievalworld->Vinna</li>
+    <li>medievalworld->Cassone</li>
+    <li>medievalworld->Jork</li>
+    <li>medievalworld->Cochmar</li>
+    <li>medievalworld->Alin</li>
+    <li>medievalworld->Dubrognago</li>
+    <li>midworld->Khalderia</li>
+    <li>midworld->Elsin</li>
+    <li>midworld->Haihan</li>
+    <li>midworld->Seolure</li>
+    <li>midworld->Panga</li>
+    <li>midworld->New London CXI </li>
+    <li>midworld->San Delenda</li>
+    <li>mineworld->Xanides</li>
+    <li>mineworld->Bingham</li>
+    <li>mineworld->Saarhi</li>
+    <li>mineworld->Grasbeg</li>
+    <li>mineworld->Chuqui</li>
+    <li>mineworld->Olimpia</li>
+    <li>mineworld->Orme</li>
+    <li>oceanicworld->Wavia</li>
+    <li>oceanicworld->Wadka</li>
+    <li>oceanicworld->Gichen</li>
+    <li>oceanicworld->Port Yam</li>
+    <li>oceanicworld->Baia</li>
+    <li>oceanicworld->Thonis</li>
+    <li>oceanicworld->Moaui</li>
+    <li>prisonworld->Yttak</li>
+    <li>prisonworld->Aldgate</li>
+    <li>prisonworld->Borren</li>
+    <li>prisonworld->Hoalo</li>
+    <li>prisonworld->Casmina</li>
+    <li>prisonworld->Port Basil</li>
+    <li>prisonworld->Chateau D'Ouen</li>
+    <li>rimworld->Filson</li>
+    <li>rimworld->La Grand</li>
+    <li>rimworld->Dalles</li>
+    <li>rimworld->Twig Falls</li>
+    <li>rimworld->Old Boise</li>
+    <li>rimworld->Devil's Gate</li>
+    <li>rimworld->Laramiere</li>
+    <li>ruinworld->Earth</li>
+    <li>ruinworld->Ilwaba</li>
+    <li>ruinworld->Xennoa</li>
+    <li>ruinworld->Pichu</li>
+    <li>ruinworld->Perdida</li>
+    <li>ruinworld->Hisarlik</li>
+    <li>ruinworld->Helike</li>
+    <li>shellworld->Boccocarro</li>
+    <li>shellworld->Destria</li>
+    <li>shellworld->Trophic</li>
+    <li>shellworld->Matrio</li>
+    <li>shellworld->Samen</li>
+    <li>shellworld->Xinthia</li>
+    <li>shellworld->Ferbine</li>
+    <li>steamworld->Corliss</li>
+    <li>steamworld->Borassic</li>
+    <li>steamworld->Savery II</li>
+    <li>steamworld->Heron</li>
+    <li>steamworld->Malmesburi</li>
+    <li>steamworld->Architonnerre</li>
+    <li>steamworld->Escapement</li>
+    <li>toxicworld->Scylla</li>
+    <li>toxicworld->Mauro</li>
+    <li>toxicworld->Cerospor</li>
+    <li>toxicworld->Oxy VI</li>
+    <li>toxicworld->Sangwine</li>
+    <li>toxicworld->Soleno</li>
+    <li>toxicworld->Imbatus</li>
+    <li>transcendentworld->Xaroh</li>
+    <li>transcendentworld->Immanence VI</li>
+    <li>transcendentworld->Qabba</li>
+    <li>transcendentworld->Einsof</li>
+    <li>transcendentworld->Mitvo</li>
+    <li>transcendentworld->Samydi</li>
+    <li>transcendentworld->Samsarr</li>
+    <li>trashworld->Bagua 5</li>
+    <li>trashworld->Puobell</li>
+    <li>trashworld->Deni IX</li>
+    <li>trashworld->Garbsh</li>
+    <li>trashworld->Tra'age</li>
+    <li>trashworld->Reepsyk</li>
+    <li>trashworld->Mystras</li>
+    <li>urbworld->Euterpe</li>
+    <li>urbworld->Avenna</li>
+    <li>urbworld->Essalon</li>
+    <li>urbworld->Enike</li>
+    <li>urbworld->Adocia</li>
+    <li>urbworld->N'toch</li>
+    <li>urbworld->Barca</li>
+    <li>warworld->Kemia</li>
+    <li>warworld->Vanu</li>
+    <li>warworld->Samnium</li>
+    <li>warworld->Kyrus</li>
+    <li>warworld->Punica</li>
+    <li>warworld->Cimbria XII</li>
+    <li>warworld->Barkitos</li>
+  </Description_SkillBook.rulePack.rulesStrings>
   
 </LanguageData>

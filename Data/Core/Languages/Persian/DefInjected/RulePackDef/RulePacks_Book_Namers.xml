@@ -189,7 +189,194 @@
     <li>story->Volume</li>
     <li>story->Whimsy</li>
   -->
-  <Namer_Novel.rulePack.rulesStrings>TODO</Namer_Novel.rulePack.rulesStrings>
+  <Namer_Novel.rulePack.rulesStrings>
+    <li>title(p=3)->[titleNaked]</li>
+    <li>title->[titleNaked] [ANYPAWN_nameIndef]</li>
+    <li>title->[story] [Character]</li>
+    <li>title->[objectAny] [Character]</li>
+    <li>title->[Character] [linkagePlace] [place]</li>
+    <li>title->[Character] [adjective]</li>
+    <li>title->[objectAny] [adjective]</li>
+    <li>titleNaked->[ConceptAny]</li>
+    <li>titleNaked->[ConceptAny] [adjective]</li>
+    <li>titleNaked->[ConceptAny] [linkage] [ConceptAny]</li>
+    <li>titleNaked->[ConceptAny] [linkagePlace] [place]</li>
+    <li>titleNaked->[objectAny] [linkage] [ConceptAny]</li>
+    <li>objectAny->[Game]</li>
+    <li>objectAny->[Weapon]</li>
+    <li>linkage->از</li>
+    <li>linkage->توسط</li>
+    <li>linkage->برای</li>
+    <li>linkage->بدون</li>
+    <li>linkage->با</li>
+    <li>linkagePlace->در</li>
+    <li>linkagePlace->کنار</li>
+    <li>linkagePlace->روی</li>
+    <li>linkagePlace->نزدیک</li>
+    <li>adjective->[AdjectiveAny]</li>
+    <li>place(p=25)->[TerrainFeature]</li>
+    <li>place->پرتگاه</li>
+    <li>place->آمفی‌تئاتر</li>
+    <li>place->آکواریوم</li>
+    <li>place->آب‌گذر</li>
+    <li>place->آرنا</li>
+    <li>place->تیمارستان</li>
+    <li>place->سربازخانه</li>
+    <li>place->پایگاه</li>
+    <li>place->پناهگاه</li>
+    <li>place->کلبه</li>
+    <li>place->کمپ</li>
+    <li>place->قلعه</li>
+    <li>place->کلیسای جامع</li>
+    <li>place->غار</li>
+    <li>place->ارگ</li>
+    <li>place->شهر</li>
+    <li>place->تماشاخانه</li>
+    <li>place->کلونی</li>
+    <li>place->اعماق</li>
+    <li>place->بیابان</li>
+    <li>place->آسانسور</li>
+    <li>place->کارخانه</li>
+    <li>place->جشنواره</li>
+    <li>place->دژ</li>
+    <li>place->بیشه</li>
+    <li>place->قبرستان</li>
+    <li>place->گلخانه</li>
+    <li>place->درختزار</li>
+    <li>place->لنگرگاه</li>
+    <li>place->قلب</li>
+    <li>place->کندو</li>
+    <li>place->بیمارستان</li>
+    <li>place->جزیره</li>
+    <li>place->جنگل</li>
+    <li>place->اردوگاه کار</li>
+    <li>place->آزمایشگاه</li>
+    <li>place->هزارتو</li>
+    <li>place->سکوی پرتاب</li>
+    <li>place->کتابخانه</li>
+    <li>place->فانوس دریایی</li>
+    <li>place->عمارت</li>
+    <li>place->کاخ</li>
+    <li>place->بازار</li>
+    <li>place->معدن</li>
+    <li>place->صومعه</li>
+    <li>place->کوهستان</li>
+    <li>place->نکسوس</li>
+    <li>place->واحه</li>
+    <li>place->رصدخانه</li>
+    <li>place->باغ میوه</li>
+    <li>place->پاسگاه</li>
+    <li>place->قصر</li>
+    <li>place->فلات</li>
+    <li>place->زندان</li>
+    <li>place->پالایشگاه</li>
+    <li>place->تفرجگاه</li>
+    <li>place->شکاف</li>
+    <li>place->خرابه‌ها</li>
+    <li>place->پناهگاه</li>
+    <li>place->مدرسه</li>
+    <li>place->سکونتگاه</li>
+    <li>place->کشتی</li>
+    <li>place->روح</li>
+    <li>place->ایستگاه فضایی</li>
+    <li>place->بندر فضایی</li>
+    <li>place->مناره</li>
+    <li>place->مرداب</li>
+    <li>place->میخانه</li>
+    <li>place->معبد</li>
+    <li>place->شهرک</li>
+    <li>place->توندرا</li>
+    <li>place->دانشگاه</li>
+    <li>place->روستا</li>
+    <li>place->آتشفشان</li>
+    <li>place->انبار</li>
+    <li>place->زمین بایر</li>
+    <li>place->طبیعت وحشی</li>
+    <li>place->باغ وحش</li>
+    <li>story->ماجراجویی</li>
+    <li>story->ماجراجویی‌های</li>
+    <li>story->تمثیل</li>
+    <li>story->حکایت</li>
+    <li>story->سالنامه</li>
+    <li>story->تصنیف</li>
+    <li>story->بیوگرافی</li>
+    <li>story->فصل‌های</li>
+    <li>story->تاریخچه</li>
+    <li>story->تواریخ</li>
+    <li>story->گاه‌شماری</li>
+    <li>story->کمدی</li>
+    <li>story->مجموعه</li>
+    <li>story->تألیف</li>
+    <li>story->گفتگو</li>
+    <li>story->دفتر خاطرات</li>
+    <li>story->گفتمان</li>
+    <li>story->درام</li>
+    <li>story->رویا</li>
+    <li>story->معما</li>
+    <li>story->حماسه</li>
+    <li>story->تجلی</li>
+    <li>story->رساله</li>
+    <li>story->افسانه</li>
+    <li>story->افسانه‌های</li>
+    <li>story->قصه پریان</li>
+    <li>story->فانتزیا</li>
+    <li>story->فانتزی</li>
+    <li>story->خیال‌پردازی</li>
+    <li>story->داستان</li>
+    <li>story->فولکلور</li>
+    <li>story->تاریخ</li>
+    <li>story->تخیل</li>
+    <li>story->تخیلات</li>
+    <li>story->بینش</li>
+    <li>story->یادداشت‌ها</li>
+    <li>story->ژورنال</li>
+    <li>story->سفر</li>
+    <li>story->میراث</li>
+    <li>story->افسانه</li>
+    <li>story->افسانه‌ها</li>
+    <li>story->ادبیات</li>
+    <li>story->گزارش</li>
+    <li>story->خاطرات</li>
+    <li>story->خاطرات</li>
+    <li>story->خاطرات</li>
+    <li>story->ذهن</li>
+    <li>story->موزیکال</li>
+    <li>story->تأملات</li>
+    <li>story->اسطوره</li>
+    <li>story->اسطوره‌شناسی</li>
+    <li>story->میتوس</li>
+    <li>story->روایت</li>
+    <li>story->نقل</li>
+    <li>story->رمان</li>
+    <li>story->مشاهدات</li>
+    <li>story->قصیده</li>
+    <li>story->صفحات</li>
+    <li>story->اوراق</li>
+    <li>story->مثل</li>
+    <li>story->نثر</li>
+    <li>story->یادآوری‌ها</li>
+    <li>story->بازگویی</li>
+    <li>story->بازتاب</li>
+    <li>story->بازتاب‌ها</li>
+    <li>story->خاطرات</li>
+    <li>story->مکاشفه</li>
+    <li>story->راپسودی</li>
+    <li>story->ساگا</li>
+    <li>story->نوشته‌ها</li>
+    <li>story->فیلمنامه</li>
+    <li>story->طرح</li>
+    <li>story->طرح‌ها</li>
+    <li>story->داستان</li>
+    <li>story->قصه</li>
+    <li>story->قصه‌های</li>
+    <li>story->وصیت‌نامه</li>
+    <li>story->شهادت</li>
+    <li>story->تراژدی</li>
+    <li>story->ادای احترام</li>
+    <li>story->نظم</li>
+    <li>story->جلد</li>
+    <li>story->هوس</li>
+  </Namer_Novel.rulePack.rulesStrings>
   
   <!-- EN:
     <li>title->The Design of [subject_primary]</li>
@@ -318,7 +505,133 @@
     <li>randTheme->rights</li>
     <li>randTheme->ethics</li>
   -->
-  <Namer_Schematic.rulePack.rulesStrings>TODO</Namer_Schematic.rulePack.rulesStrings>
+  <Namer_Schematic.rulePack.rulesStrings>
+    <li>title->طراحی [subject_primary]</li>
+    <li>title->یادداشت‌هایی درباره [subject_primary]</li>
+    <li>title->یک پیشرفت در [subject_primary]</li>
+    <li>title->مطالعه‌ای در [subject_primary]</li>
+    <li>title->کاربردهای نوین برای [subject_primary]</li>
+    <li>title->درک [subject_primary]</li>
+    <li>title->اصول [subject_primary]</li>
+    <li>title->مبانی [subject_primary]</li>
+    <li>title->[subject_primary]: بخش [volNumeral]</li>
+    <li>title->[subject_primary] جلد [volNumeral]</li>
+    <li>title->[subject_primary] [randAdjective]</li>
+    <li>title->[subject_primary] [randAdjective] جلد [volNumeral]</li>
+    <li>title->[maybe_authored_title]</li>
+    <li>title(has_subject_secondary==true)->[studiesStart] [subject_primary] در بخش [subject_secondary]</li>
+    <li>title->[studiesStart] [subject_primary] پس از [lifeEvent]</li>
+    <li>title->[studiesStart] [subject_primary]: [anecdotes]</li>
+    <li>title->[studiesStart] [subject_primary]: یک [discussionNoun] [randAdjective]</li>
+    <li>title->[referenceType] [subject_primary] [randAdjective]</li>
+    <li>title->[referenceType] [subject_primary] [randAdjective]، جلد [volNumeral]</li>
+    <li>title->[studiesStart] [subject_primary] [randAdjective]، جلد [volNumeral]</li>
+    <li>title->[referenceType] [studiesStart] [subject_primary] [randAdjective]</li>
+    <li>title->[discussionNoun] [lifeEvent] و [subject_primary]</li>
+    <li>studiesStart->مطالعات در</li>
+    <li>studiesStart->مبانی</li>
+    <li>studiesStart->مدیریت</li>
+    <li>studiesStart->تاریخچه‌های</li>
+    <li>studiesStart->کار در</li>
+    <li>studiesStart->بازنمایی</li>
+    <li>studiesStart->زنده ماندن</li>
+    <li>studiesStart->پیشرفت‌ها در</li>
+    <li>studiesStart->کاربردهای</li>
+    <li>studiesStart->شکل‌دهی آینده</li>
+    <li>studiesStart->مستندسازی</li>
+    <li>referenceType->دانشنامه</li>
+    <li>referenceType->فرهنگ لغت</li>
+    <li>referenceType->سالنامه</li>
+    <li>referenceType->دفتر ثبت</li>
+    <li>referenceType->سالنامه</li>
+    <li>referenceType->سوابق</li>
+    <li>referenceType->کتاب راهنما</li>
+    <li>referenceType->تاریخچه</li>
+    <li>referenceType->مربی</li>
+    <li>referenceType->جعبه ابزار</li>
+    <li>anecdotes->افکار</li>
+    <li>anecdotes->حکایات</li>
+    <li>anecdotes->قصه‌های عامیانه</li>
+    <li>anecdotes->شایعات</li>
+    <li>anecdotes->داستان‌ها</li>
+    <li>anecdotes->روایت‌ها</li>
+    <li>discussionNoun->بحث</li>
+    <li>discussionNoun->مناظره</li>
+    <li>discussionNoun->گفتمان</li>
+    <li>discussionNoun->گفتگو</li>
+    <li>discussionNoun->دیالکتیک</li>
+    <li>discussionNoun->بررسی</li>
+    <li>discussionNoun->مشاوره</li>
+    <li>discussionNoun->جنجال</li>
+    <li>lifeEvent->جراحت</li>
+    <li>lifeEvent->شبیه‌سازی</li>
+    <li>lifeEvent->تروما</li>
+    <li>lifeEvent->جدایی</li>
+    <li>lifeEvent->فرود</li>
+    <li>lifeEvent->انقلاب</li>
+    <li>lifeEvent->احضار آرکوتک</li>
+    <li>lifeEvent->هوراکس</li>
+    <li>lifeEvent->تولد فرزند</li>
+    <li>lifeEvent->تصادف</li>
+    <li>lifeEvent->پیوند گوشت</li>
+    <li>lifeEvent->دث‌رست</li>
+    <li>lifeEvent->شورش</li>
+    <li>lifeEvent->کیمرا</li>
+    <li>lifeEvent->خیال‌پردازی</li>
+    <li>lifeEvent->ریپرفال</li>
+    <li>lifeEvent->لوبوتومی</li>
+    <li>lifeEvent->عفونت آرکایت</li>
+    <li>volNumeral->I</li>
+    <li>volNumeral->II</li>
+    <li>volNumeral->III</li>
+    <li>volNumeral->IV</li>
+    <li>volNumeral->V</li>
+    <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=2)->[titleTwoSubjects]</li>
+    <li>titleTwoSubjects->مقدمه‌ای بر [subjectsTuple]</li>
+    <li>titleTwoSubjects->تحلیل [subjectsTuple]</li>
+    <li>maybe_authored_title->[author_gen]</li>
+    <li>author_gen->مطالعات [ANYPAWN_nameIndef]</li>
+    <li>author_gen->یادداشت‌های [ANYPAWN_nameIndef]</li>
+    <li>author_gen->سمینارهای [ANYPAWN_nameIndef]</li>
+    <li>maybe_authored_title(length_subject_primary[less_than]20,p=2)->[authored_title_gen]</li>
+    <li>maybe_authored_title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[authored_title_gen_two]</li>
+    <li>authored_title_gen->راهنمای [ANYPAWN_nameIndef] برای [subject_primary]</li>
+    <li>authored_title_gen->مقدمه [ANYPAWN_nameIndef] بر [subject_primary]</li>
+    <li>authored_title_gen_two->راهنمای [ANYPAWN_nameIndef] برای [subjectsTuple]</li>
+    <li>authored_title_gen_two->مقدمه [ANYPAWN_nameIndef] بر [subjectsTuple]</li>
+    <li>subjectsTuple(has_subject_secondary==true,p=2)->[subject_primary] و [subject_secondary]</li>
+    <li>subjectsTuple(has_subject_secondary==true)->[subject_secondary] و [randTheme]</li>
+    <li>subjectsTuple->[subject_primary] و [randTheme]</li>
+    <li>randAdjective->پایه</li>
+    <li>randAdjective->بهترین</li>
+    <li>randAdjective->گلیترورلد</li>
+    <li>randAdjective->قرون وسطایی</li>
+    <li>randAdjective->باستانی</li>
+    <li>randAdjective->زننده</li>
+    <li>randAdjective->گرگ و میش</li>
+    <li>randAdjective->دث‌ورلد</li>
+    <li>randAdjective->گروتسک</li>
+    <li>randAdjective->قبرستانی</li>
+    <li>randAdjective->مقدس</li>
+    <li>randAdjective->تاریک‌ترین</li>
+    <li>randAdjective->ساب‌ورلد</li>
+    <li>randAdjective->بدوی</li>
+    <li>randAdjective->بقا</li>
+    <li>randAdjective->استیگی</li>
+    <li>randAdjective->عبوس</li>
+    <li>randAdjective->فراموش‌نشدنی</li>
+    <li>randAdjective->رمزآلود</li>
+    <li>randAdjective->نفرین‌شده</li>
+    <li>randTheme->مهندسی</li>
+    <li>randTheme->فولکلور</li>
+    <li>randTheme->علمی تخیلی</li>
+    <li>randTheme->نکات بقا</li>
+    <li>randTheme->ریم</li>
+    <li>randTheme->اتوفاژی</li>
+    <li>randTheme->ایمان</li>
+    <li>randTheme->حقوق</li>
+    <li>randTheme->اخلاق</li>
+  </Namer_Schematic.rulePack.rulesStrings>
   
   <!-- EN:
     <li>title->[titleBasic]</li>
@@ -469,6 +782,154 @@
     <li>randTheme->self-improvement</li>
     <li>randTheme->understanding</li>
   -->
-  <Namer_TextBook.rulePack.rulesStrings>TODO</Namer_TextBook.rulePack.rulesStrings>
+  <Namer_TextBook.rulePack.rulesStrings>
+    <li>title->[titleBasic]</li>
+    <li>title(p=2)->[titleAuthored]</li>
+    <li>title(p=2)->[titleAuthoredNoSubject]</li>
+    <li>title(length_subject_primary[less_than]20,p=4)->[titleAuthoredOneSubject]</li>
+    <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[titleBasicTwoSubjects]</li>
+    <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[titleAuthoredTwoSubjects]</li>
+    <li>titleBasic(p=6)->[subject_primary] [randAdjective]</li>
+    <li>titleBasic(p=6)->[randNoun] و [subject_primary]</li>
+    <li>titleBasic->درس‌هایی در [subject_primary]</li>
+    <li>titleBasic->اندیشیدن درباره [subject_primary]</li>
+    <li>titleBasic->راهنمایی برای [subject_primary]</li>
+    <li>titleBasic->مقدمه‌ای بر [subject_primary]</li>
+    <li>titleBasic->آغازگری بر [subject_primary]</li>
+    <li>titleBasic->اصول [subject_primary]</li>
+    <li>titleBasic->استادی در [subject_primary]</li>
+    <li>titleBasic->مبانی [subject_primary]</li>
+    <li>titleBasic->پیمایش [subject_primary]</li>
+    <li>titleBasic->مفاهیم کلیدی در [subject_primary]</li>
+    <li>titleBasic->هنر [subject_primary]</li>
+    <li>titleBasic->مسترکلاس: [subject_primary]</li>
+    <li>titleBasic->رمزگشایی [subject_primary]</li>
+    <li>titleBasic->تکنیک‌های پیشرفته در [subject_primary]</li>
+    <li>titleBasic->قفل‌گشایی [subject_primary]</li>
+    <li>titleBasic->راهنمای عملی برای [subject_primary]</li>
+    <li>titleBasic->کاوش در [subject_primary]</li>
+    <li>titleBasic->نکات حرفه‌ای: [subject_primary]</li>
+    <li>titleBasic->درک [subject_primary]</li>
+    <li>titleBasic->سفری در [subject_primary]</li>
+    <li>titleBasic->راه [subject_primary]</li>
+    <li>titleBasic->بینش‌هایی درباره [subject_primary]</li>
+    <li>titleBasic->گره‌گشایی از [subject_primary]</li>
+    <li>titleBasic->اسرار [subject_primary]</li>
+    <li>titleBasic->تسلط بر [subject_primary]</li>
+    <li>titleBasic->مطالعه عمیق [subject_primary]</li>
+    <li>titleAuthoredNoSubject->مطالعات [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->مطالعات [randAdjective] [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->دفتر خاطرات [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->تواریخ [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->خاطرات [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->ژورنال [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->تأملات [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->ماجراجویی‌های [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->بازتاب‌های [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->کاوش [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->شهادت‌های [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->ادیسه [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->سفر [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->زندگی [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->داستان [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->میراث [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->ماجراجویی‌های [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->دفترهای خاطرات [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->سرگردانی‌های [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->تأملات [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->شهادت‌های [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->تواریخ [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->خاطرات [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] درباره [subject_primary]</li>
+    <li>titleAuthoredOneSubject->راهنمای [ANYPAWN_nameIndef] برای [subject_primary]</li>
+    <li>titleAuthoredOneSubject->مقدمه [ANYPAWN_nameIndef] بر [subject_primary]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] [subject_primary] را کاوش می‌کند</li>
+    <li>titleAuthoredOneSubject->بینش‌های [ANYPAWN_nameIndef] درباره [subject_primary]</li>
+    <li>titleAuthoredOneSubject->دفترچه راهنمای [ANYPAWN_nameIndef] درباره [subject_primary]</li>
+    <li>titleAuthoredOneSubject->دیدگاه‌های [ANYPAWN_nameIndef] درباره [subject_primary]</li>
+    <li>titleAuthoredOneSubject->هندبوک [ANYPAWN_nameIndef] برای [subject_primary]</li>
+    <li>titleAuthoredOneSubject->تحلیل [ANYPAWN_nameIndef] از [subject_primary]</li>
+    <li>titleAuthoredOneSubject->رویکرد [ANYPAWN_nameIndef] به [subject_primary]</li>
+    <li>titleAuthoredOneSubject->اکتشافات [ANYPAWN_nameIndef] در [subject_primary]</li>
+    <li>titleAuthoredOneSubject->تأملات [ANYPAWN_nameIndef] درباره [subject_primary]</li>
+    <li>titleAuthoredOneSubject->مطالعه [ANYPAWN_nameIndef] از [subject_primary]</li>
+    <li>titleAuthoredOneSubject->تحقیق [ANYPAWN_nameIndef] در [subject_primary]</li>
+    <li>titleAuthoredOneSubject->پژوهش [ANYPAWN_nameIndef] درباره [subject_primary]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] درباره [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->راهنمای [ANYPAWN_nameIndef] برای [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->مقدمه [ANYPAWN_nameIndef] بر [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] [subjectsTuple] را کاوش می‌کند</li>
+    <li>titleAuthoredTwoSubjects->بینش‌های [ANYPAWN_nameIndef] درباره [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->دفترچه راهنمای [ANYPAWN_nameIndef] درباره [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->دیدگاه‌های [ANYPAWN_nameIndef] درباره [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->هندبوک [ANYPAWN_nameIndef] برای [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->تحلیل [ANYPAWN_nameIndef] از [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->رویکرد [ANYPAWN_nameIndef] به [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->اکتشافات [ANYPAWN_nameIndef] در [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->تأملات [ANYPAWN_nameIndef] درباره [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->مطالعه [ANYPAWN_nameIndef] از [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->تحقیق [ANYPAWN_nameIndef] در [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->پژوهش [ANYPAWN_nameIndef] درباره [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->مقدمه‌ای بر [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->بهترین‌های [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->ترکیب [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->درس‌هایی درباره [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->اندیشیدن درباره [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->راهنمایی برای [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->مقدمه‌ای بر [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->آغازگری بر [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->اصول [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->استادی در [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->مبانی [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->پیمایش [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->مفاهیم کلیدی در [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->هنر [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->مسترکلاس: [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->رمزگشایی [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->تکنیک‌های پیشرفته در [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->قفل‌گشایی [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->راهنمای عملی برای [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->کاوش در [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->نکات حرفه‌ای: [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->درک [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->سفری در [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->راه [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->بینش‌هایی درباره [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->گره‌گشایی از [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->اسرار [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->تسلط بر [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->مطالعه عمیق [subjectsTuple]</li>
+    <li>subjectsTuple(has_subject_secondary==true,p=6)->[subject_primary] و [subject_secondary]</li>
+    <li>subjectsTuple->[subject_secondary]، [subject_primary]، و [randTheme]</li>
+    <li>subjectsTuple->[subject_primary] و [randTheme]</li>
+    <li>randNoun->مرگ</li>
+    <li>randNoun->زندگی</li>
+    <li>randNoun->عشق</li>
+    <li>randNoun->رشد</li>
+    <li>randNoun->شجاعت</li>
+    <li>randNoun->خرد</li>
+    <li>randNoun->سلامتی</li>
+    <li>randNoun->بومالوپ‌ها</li>
+    <li>randNoun->دزدان دریایی</li>
+    <li>randAdjective->پایه</li>
+    <li>randAdjective->کارآمد</li>
+    <li>randAdjective->متفکرانه</li>
+    <li>randAdjective->تماشایی</li>
+    <li>randAdjective->شلخته</li>
+    <li>randAdjective->بد</li>
+    <li>randAdjective->خوب</li>
+    <li>randAdjective->گلیترورلد</li>
+    <li>randAdjective->روستایی</li>
+    <li>randAdjective->قرون وسطایی</li>
+    <li>randAdjective->الهام‌بخش</li>
+    <li>randAdjective->سالم</li>
+    <li>randAdjective->شریر</li>
+    <li>randAdjective->آشوبناک</li>
+    <li>randAdjective->خنده‌دار</li>
+    <li>randTheme->دانش</li>
+    <li>randTheme->خود-بهبودی</li>
+    <li>randTheme->درک</li>
+  </Namer_TextBook.rulePack.rulesStrings>
   
 </LanguageData>
