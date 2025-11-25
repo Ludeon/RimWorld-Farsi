@@ -51,30 +51,41 @@ Thumbs.db
 tools/rtl-processor/.flake8
 *.msg
 
-# Game files (RimWorld installation files)
-*.exe
-*.dll
-*.lnk
-*.bat
-*.zip
-*.ico
-*.jpg
-goggame*
-unins*
-How*
-EULA.txt
-Licenses.txt
-ModUpdating.txt
-Readme.txt
-Version.txt
-MonoBleedingEdge/
-RimWorldWin64_Data/
-Source/
-Data/*
-!Data/*/Languages/Persian/
-othermoderstools
-!mods/RTL_Persian_Support/Source
-steam_appid.txt
-SteamInputDefaultConfiguration_SteamDeck.vdf
-SteamInputDefaultConfiguration.vdf
+# --- Game files (RimWorld Root) ---
+# Ignore executables and huge binary folders at the root
+/*.exe
+/*.dll
+/RimWorldWin64_Data/
+/MonoBleedingEdge/
+/Source/
 
+# --- The Data Folder Strategy ---
+# 1. Ignore EVERYTHING inside Data (Core, Royalty, Biotech, etc.)
+/Data/*
+
+# 2. Exception: Un-ignore ONLY the Persian language folders in any DLC/Core
+# The * matches "Core", "Royalty", etc.
+!/Data/*/Languages/Persian/
+
+# --- Modding & Tools ---
+# Ignore all other mods users might drop in
+/mods/*
+/othermoderstools/*
+
+# Exception: Your specific mod source/content
+!/mods/RTL_Persian_Support/
+
+# Ensure your custom tools are always tracked
+!/tools/
+
+# --- Junk ---
+*.log
+/gog*
+/*.txt
+/uni*
+/BorderlessFullscreen.bat
+/Launch RimWorld.lnk
+/ScenarioPreview.jpg
+/Steam*
+webcache.zip
+support.ico
