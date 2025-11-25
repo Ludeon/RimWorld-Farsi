@@ -35,7 +35,40 @@
     <li>End->zite</li>
     <li>End->drite</li>
   -->
-  <NamerPersonDirtmole_Female.rulePack.rulesStrings>TODO</NamerPersonDirtmole_Female.rulePack.rulesStrings>
+  <NamerPersonDirtmole_Female.rulePack.rulesStrings>
+    <li>r_name->[firstName] [Syl][End]</li>
+    <li>End->کیت</li>
+    <li>End->کایت</li>
+    <li>End->سایت</li>
+    <li>End->فاید</li>
+    <li>End->گایت</li>
+    <li>End->لاین</li>
+    <li>End->ماین</li>
+    <li>End->مایت</li>
+    <li>End->نا</li>
+    <li>End->نیت</li>
+    <li>End->نل</li>
+    <li>End->نت</li>
+    <li>End->فایت</li>
+    <li>End->کوارت</li>
+    <li>End->ریفت</li>
+    <li>End->ریت</li>
+    <li>End->راک</li>
+    <li>End->ریل</li>
+    <li>End->سالت</li>
+    <li>End->سایت</li>
+    <li>End->اسپار</li>
+    <li>End->اسپور</li>
+    <li>End->سام</li>
+    <li>End->تایت</li>
+    <li>End->ترف</li>
+    <li>End->وین</li>
+    <li>End->ول</li>
+    <li>End->واین</li>
+    <li>End->وایت</li>
+    <li>End->زایت</li>
+    <li>End->درایت</li>
+  </NamerPersonDirtmole_Female.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[firstName] [Syl][End]</li>
@@ -71,7 +104,40 @@
     <li>End->zite</li>
     <li>End->drite</li>
   -->
-  <NamerPersonDirtmole_Male.rulePack.rulesStrings>TODO</NamerPersonDirtmole_Male.rulePack.rulesStrings>
+  <NamerPersonDirtmole_Male.rulePack.rulesStrings>
+    <li>r_name->[firstName] [Syl][End]</li>
+    <li>End->کیت</li>
+    <li>End->کایت</li>
+    <li>End->سایت</li>
+    <li>End->فاید</li>
+    <li>End->گایت</li>
+    <li>End->لاین</li>
+    <li>End->ماین</li>
+    <li>End->مایت</li>
+    <li>End->نا</li>
+    <li>End->نیت</li>
+    <li>End->نل</li>
+    <li>End->نت</li>
+    <li>End->فایت</li>
+    <li>End->کوارت</li>
+    <li>End->ریفت</li>
+    <li>End->ریت</li>
+    <li>End->راک</li>
+    <li>End->ریل</li>
+    <li>End->سالت</li>
+    <li>End->سایت</li>
+    <li>End->اسپار</li>
+    <li>End->اسپور</li>
+    <li>End->سام</li>
+    <li>End->تایت</li>
+    <li>End->ترف</li>
+    <li>End->وین</li>
+    <li>End->ول</li>
+    <li>End->واین</li>
+    <li>End->وایت</li>
+    <li>End->زایت</li>
+    <li>End->درایت</li>
+  </NamerPersonDirtmole_Male.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[firstName] [lastName]</li>
@@ -103,7 +169,36 @@
     <li>nameEnd->naz</li>
     <li>nameEnd->nath</li>
   -->
-  <NamerPersonImpid.rulePack.rulesStrings>TODO</NamerPersonImpid.rulePack.rulesStrings>
+  <NamerPersonImpid.rulePack.rulesStrings>
+    <li>r_name->[firstName] [lastName]</li>
+    <li>firstName(p=0.5)->[SylI]</li>
+    <li>firstName(p=2)->[SylI][nameEnd]</li>
+    <li>firstName->[SylI][SylI][nameEnd]</li>
+    <li>lastName(p=2)->[SylI][nameEnd]</li>
+    <li>lastName->[SylI][nameEnd]</li>
+    <li>lastName->[SylI][SylI][nameEnd]</li>
+    <li>nameEnd->ایو</li>
+    <li>nameEnd->ایچ</li>
+    <li>nameEnd->ایز</li>
+    <li>nameEnd->این</li>
+    <li>nameEnd->اکس</li>
+    <li>nameEnd->او</li>
+    <li>nameEnd->راچ</li>
+    <li>nameEnd->راث</li>
+    <li>nameEnd->رت</li>
+    <li>nameEnd->رو</li>
+    <li>nameEnd->رز</li>
+    <li>nameEnd->ران</li>
+    <li>nameEnd->وین</li>
+    <li>nameEnd->ون</li>
+    <li>nameEnd->وز</li>
+    <li>nameEnd->ایث</li>
+    <li>nameEnd->نوو</li>
+    <li>nameEnd->نووو</li>
+    <li>nameEnd->ناو</li>
+    <li>nameEnd->ناز</li>
+    <li>nameEnd->ناث</li>
+  </NamerPersonImpid.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[firstName] [lastName]</li>
@@ -135,7 +230,36 @@
     <li>nameEnd->oik</li>
     <li>nameEnd->oin</li>
   -->
-  <NamerPersonPigskin.rulePack.rulesStrings>TODO</NamerPersonPigskin.rulePack.rulesStrings>
+  <NamerPersonPigskin.rulePack.rulesStrings>
+    <li>r_name->[firstName] [lastName]</li>
+    <li>r_name->[firstName] '[nickName]' [lastName]</li>
+    <li>maybeHyphen(p=4)-></li>
+    <li>maybeHyphen->-</li>
+    <li>firstName(p=1)->[SylP][nameEnd]</li>
+    <li>firstName(p=3)->[SylP][nameEnd]</li>
+    <li>nickName->[nicknamePig]</li>
+    <li>lastName(p=3)->[lastGenerated]</li>
+    <li>lastGenerated->[SylP][nameEnd]</li>
+    <li>lastGenerated->[SylP][maybeHyphen][SylP][nameEnd]</li>
+    <li>nameEnd->آگ</li>
+    <li>nameEnd->اگ</li>
+    <li>nameEnd->آپ</li>
+    <li>nameEnd->اورک</li>
+    <li>nameEnd->اورگ</li>
+    <li>nameEnd->ان</li>
+    <li>nameEnd->ار</li>
+    <li>nameEnd->اب</li>
+    <li>nameEnd->آپ</li>
+    <li>nameEnd->ایس</li>
+    <li>nameEnd->او</li>
+    <li>nameEnd->اپ</li>
+    <li>nameEnd->اگ</li>
+    <li>nameEnd->اگ</li>
+    <li>nameEnd->اگ</li>
+    <li>nameEnd->اب</li>
+    <li>nameEnd->اویک</li>
+    <li>nameEnd->اوین</li>
+  </NamerPersonPigskin.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[firstName] [lastName]</li>
@@ -171,7 +295,40 @@
     <li>End->waste</li>
     <li>End->y</li>
   -->
-  <NamerPersonWaster.rulePack.rulesStrings>TODO</NamerPersonWaster.rulePack.rulesStrings>
+  <NamerPersonWaster.rulePack.rulesStrings>
+    <li>r_name->[firstName] [lastName]</li>
+    <li>r_name->[firstName] '[nicknameWaster]' [lastName]</li>
+    <li>firstName->[Syl][Syl]</li>
+    <li>firstName->[Syl]</li>
+    <li>lastName->[Syl][End]</li>
+    <li>End->اد</li>
+    <li>End->اک</li>
+    <li>End->انک</li>
+    <li>End->اش</li>
+    <li>End->ایک</li>
+    <li>End->اک</li>
+    <li>End->انک</li>
+    <li>End->ار</li>
+    <li>End->اسک</li>
+    <li>End->از</li>
+    <li>End->گان</li>
+    <li>End->ایک</li>
+    <li>End->ایپ</li>
+    <li>End->اسک</li>
+    <li>End->ایکس</li>
+    <li>End->ایز</li>
+    <li>End->کیل</li>
+    <li>End->کین</li>
+    <li>End->لینگ</li>
+    <li>End->من</li>
+    <li>End->من</li>
+    <li>End->نیک</li>
+    <li>End->اکس</li>
+    <li>End->اسکو</li>
+    <li>End->اسموک</li>
+    <li>End->ویست</li>
+    <li>End->ای</li>
+  </NamerPersonWaster.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[firstName] [lastName]</li>
@@ -198,6 +355,30 @@
     <li>nameEnd->ys</li>
     <li>nameEnd->yn</li>
   -->
-  <NamerPersonYttakin.rulePack.rulesStrings>TODO</NamerPersonYttakin.rulePack.rulesStrings>
+  <NamerPersonYttakin.rulePack.rulesStrings>
+    <li>r_name->[firstName] [lastName]</li>
+    <li>firstName(p=0.5)->[SylY]</li>
+    <li>firstName(p=2)->[SylY][nameEnd]</li>
+    <li>firstName->[SylY][SylY][nameEnd]</li>
+    <li>lastName(p=2)->[SylY][nameEnd]</li>
+    <li>lastName->[SylY][SylY][nameEnd]</li>
+    <li>lastName->Kin'[SylY][nameEnd]</li>
+    <li>lastName->Wyn'[SylY][nameEnd]</li>
+    <li>nameEnd(p=3)->یت</li>
+    <li>nameEnd->اش</li>
+    <li>nameEnd->ات</li>
+    <li>nameEnd->اش</li>
+    <li>nameEnd->آرک</li>
+    <li>nameEnd->ارک</li>
+    <li>nameEnd->ارش</li>
+    <li>nameEnd->اک</li>
+    <li>nameEnd->یون</li>
+    <li>nameEnd->ان</li>
+    <li>nameEnd->ال</li>
+    <li>nameEnd->یا</li>
+    <li>nameEnd->یش</li>
+    <li>nameEnd->یس</li>
+    <li>nameEnd->ین</li>
+  </NamerPersonYttakin.rulePack.rulesStrings>
   
 </LanguageData>

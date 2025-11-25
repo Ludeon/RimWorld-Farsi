@@ -25,7 +25,30 @@
     <li>msyl->yoth</li>
     <li>msyl->lite</li>
   -->
-  <NamerFactionMechanoid.rulePack.rulesStrings>TODO</NamerFactionMechanoid.rulePack.rulesStrings>
+  <NamerFactionMechanoid.rulePack.rulesStrings>
+    <li>r_name->[mechhive] [msyl][msyl]</li>
+    <li>mechhive->هایو</li>
+    <li>msyl->نیار</li>
+    <li>msyl->الگ</li>
+    <li>msyl->زان</li>
+    <li>msyl->زل</li>
+    <li>msyl->کیل</li>
+    <li>msyl->لن</li>
+    <li>msyl->لاکس</li>
+    <li>msyl->آلف</li>
+    <li>msyl->ام</li>
+    <li>msyl->ایری</li>
+    <li>msyl->اسلین</li>
+    <li>msyl->تات</li>
+    <li>msyl->آرت</li>
+    <li>msyl->آنت</li>
+    <li>msyl->اکس</li>
+    <li>msyl->آرم</li>
+    <li>msyl->مورد</li>
+    <li>msyl->زن</li>
+    <li>msyl->یوت</li>
+    <li>msyl->لایت</li>
+  </NamerFactionMechanoid.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=3)->[nearnameinitial]</li>
@@ -36,7 +59,15 @@
     <li>nearnameinitial(p=3)->[PlaceOutlander]</li>
     <li>nearnameinitial->[Direction] [PlaceOutlander]</li>
   -->
-  <NamerFactionOutlander.rulePack.rulesStrings>TODO</NamerFactionOutlander.rulePack.rulesStrings>
+  <NamerFactionOutlander.rulePack.rulesStrings>
+    <li>r_name(p=3)->[nearnameinitial]</li>
+    <li>r_name->[political_union_outlander] [nearnameinitial]</li>
+    <li>r_name->[political_union_outlander] [political_adjective] [nearnameinitial]</li>
+    <li>r_name->[political_union_outlander] [nearnameinitial]</li>
+    <li>r_name->[political_union_outlander] [political_adjective] [nearnameinitial]</li>
+    <li>nearnameinitial(p=3)->[PlaceOutlander]</li>
+    <li>nearnameinitial->[PlaceOutlander] [Direction]</li>
+  </NamerFactionOutlander.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->The [AnimalBadass]s</li>
@@ -67,7 +98,35 @@
     <li>r_name->[Weapon] [groupname]</li>
     <li>r_name->[ConceptBadass] [groupname]</li>
   -->
-  <NamerFactionPirate.rulePack.rulesStrings>TODO</NamerFactionPirate.rulePack.rulesStrings>
+  <NamerFactionPirate.rulePack.rulesStrings>
+    <li>r_name->[AnimalBadass]ها</li>
+    <li>r_name->مردان [AnimalBadass]</li>
+    <li>r_name->[AnimalBadass]های [ConceptBadass]</li>
+    <li>r_name->[PersonBadass]های [ConceptBadass]</li>
+    <li>r_name->[PersonBadass]ها</li>
+    <li>r_name->[Enemy]ها</li>
+    <li>r_name->مردان [Weapon]</li>
+    <li>r_name->[Weapon]ها</li>
+    <li>r_name->[AnimalBadass]های [Weapon]</li>
+    <li>r_name->[Enemy]های [Weapon]</li>
+    <li>r_name->[Weapon]های [ColorBadass]</li>
+    <li>r_name->[AnimalBadass]های [ColorBadass]</li>
+    <li>r_name->[PersonBadass]های [ColorBadass]</li>
+    <li>r_name->[Enemy]های [ColorBadass]</li>
+    <li>r_name->[groupname] [PersonBadass]</li>
+    <li>r_name->[Enemy]های [Enemy]</li>
+    <li>r_name->[groupname] [AdjectiveBadass]</li>
+    <li>r_name->[AnimalBadass]های [AdjectiveBadass]</li>
+    <li>r_name->[Enemy]های [AdjectiveBadass]</li>
+    <li>r_name->[PersonBadass]های [AdjectiveBadass]</li>
+    <li>r_name->[PersonAlly]های [ConceptBadass]</li>
+    <li>r_name(p=0.4)->خورندگان [Gore]</li>
+    <li>r_name->[Enemy]های [NamePerson]</li>
+    <li>r_name->[AnimalBadass]های [NamePerson]</li>
+    <li>r_name->[Weapon]های [NamePerson]</li>
+    <li>r_name->[groupname] [Weapon]</li>
+    <li>r_name->[groupname] [ConceptBadass]</li>
+  </NamerFactionPirate.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[WordTribal] [political_union_tribal]</li>
@@ -77,17 +136,28 @@
     <li>r_name->The [Color] [Animal] [WordTribal]</li>
     <li>r_name->The [political_union_tribal] of the [TerrainFeature]</li>
   -->
-  <NamerFactionTribal.rulePack.rulesStrings>TODO</NamerFactionTribal.rulePack.rulesStrings>
+  <NamerFactionTribal.rulePack.rulesStrings>
+    <li>r_name->[political_union_tribal] [WordTribal]</li>
+    <li>r_name->[political_union_tribal] [WordTribal]</li>
+    <li>r_name->[political_union_tribal] [TerrainFeature] [Color]</li>
+    <li>r_name->[political_union_tribal] [WordTribal]</li>
+    <li>r_name->[WordTribal] [Animal] [Color]</li>
+    <li>r_name->[political_union_tribal] [TerrainFeature]</li>
+  </NamerFactionTribal.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->Colony</li>
   -->
-  <NamerInitialSettlementColony.rulePack.rulesStrings>TODO</NamerInitialSettlementColony.rulePack.rulesStrings>
+  <NamerInitialSettlementColony.rulePack.rulesStrings>
+    <li>r_name->کلونی</li>
+  </NamerInitialSettlementColony.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->Village</li>
   -->
-  <NamerInitialSettlementTribe.rulePack.rulesStrings>TODO</NamerInitialSettlementTribe.rulePack.rulesStrings>
+  <NamerInitialSettlementTribe.rulePack.rulesStrings>
+    <li>r_name->روستا</li>
+  </NamerInitialSettlementTribe.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=12)->[townname_wordgen]</li>
@@ -141,7 +211,58 @@
     <li>townend->ron</li>
     <li>townend->well</li>
   -->
-  <NamerSettlementOutlander.rulePack.rulesStrings>TODO</NamerSettlementOutlander.rulePack.rulesStrings>
+  <NamerSettlementOutlander.rulePack.rulesStrings>
+    <li>r_name(p=12)->[townname_wordgen]</li>
+    <li>r_name(p=6)->[townname_fixed]</li>
+    <li>r_name(p=4)->[townname_combo]</li>
+    <li>r_name->[townname_near]</li>
+    <li>topicalnoun->[Vegetable]</li>
+    <li>topicalnoun->[Game]</li>
+    <li>topicalnoun->[BodyPart]</li>
+    <li>townname_combo->[TerrainFeature] [topicalnoun]</li>
+    <li>townname_combo->[Community] [topicalnoun]</li>
+    <li>townname_combo->[TerrainFeature] [topicalnoun]</li>
+    <li>townname_combo->[Community] [topicalnoun]</li>
+    <li>townname_combo(p=2)->[TerrainFeature] [concept_positive]</li>
+    <li>townname_combo(p=2)->[TerrainFeature] [concept_positive]</li>
+    <li>townname_combo(p=2)->[Community] [concept_positive]</li>
+    <li>townname_combo(p=3)->[TerrainFeature] [Character]</li>
+    <li>townname_combo(p=3)->[Community] [Character]</li>
+    <li>townname_near->[nearnameinitial] در [TerrainFeature]</li>
+    <li>townname_near->[nearnameinitial] کنار [TerrainFeature]</li>
+    <li>townname_near->[nearnameinitial] روی [TerrainFeature]</li>
+    <li>nearnameinitial->[townname_wordgen]</li>
+    <li>nearnameinitial->[Community]</li>
+    <li>townname_wordgen(p=2)->[SylE][SylE]</li>
+    <li>townname_wordgen(p=2)->[SylE][SylE][SylE]</li>
+    <li>townname_wordgen(p=2)->[SylE][townend]</li>
+    <li>townname_wordgen(p=2)->[SylE][SylE][townend]</li>
+    <li>townname_wordgen->[TerrainFeature][townend]</li>
+    <li>townname_wordgen->[topicalnoun][townend]</li>
+    <li>townend->ویل</li>
+    <li>townend->تاون</li>
+    <li>townend->هرست</li>
+    <li>townend->بورن</li>
+    <li>townend->براد</li>
+    <li>townend->دیل</li>
+    <li>townend->هوپ</li>
+    <li>townend->اینگ</li>
+    <li>townend->نس</li>
+    <li>townend->میر</li>
+    <li>townend->شاو</li>
+    <li>townend->ویک</li>
+    <li>townend->تون</li>
+    <li>townend->استون</li>
+    <li>townend->اوس</li>
+    <li>townend->دن</li>
+    <li>townend->تاس</li>
+    <li>townend->وود</li>
+    <li>townend->لند</li>
+    <li>townend->ورث</li>
+    <li>townend->رون</li>
+    <li>townend->رون</li>
+    <li>townend->ول</li>
+  </NamerSettlementOutlander.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=4)->[townname_combo]</li>
@@ -185,7 +306,48 @@
     <li>townendevil->thard</li>
     <li>townendevil->thad</li>
   -->
-  <NamerSettlementPirate.rulePack.rulesStrings>TODO</NamerSettlementPirate.rulePack.rulesStrings>
+  <NamerSettlementPirate.rulePack.rulesStrings>
+    <li>r_name(p=4)->[townname_combo]</li>
+    <li>r_name->[townname_wordgen]</li>
+    <li>townname_combo->[geography] [AnimalBadass]</li>
+    <li>townname_combo->[geography] [AnimalBadass]</li>
+    <li>townname_combo->[geography] [ConceptBadass]</li>
+    <li>townname_combo->[geography] [ConceptBadass]</li>
+    <li>townname_combo->[geography] [PersonBadass]</li>
+    <li>townname_combo->[geography] [PersonBadass]</li>
+    <li>townname_combo->[geography] [Enemy]</li>
+    <li>townname_combo->[geography] [Enemy]</li>
+    <li>townname_combo->[geography] [Weapon]</li>
+    <li>townname_combo->[geography] [Weapon]</li>
+    <li>townname_combo->[geography] [ColorBadass]</li>
+    <li>geography(p=2)->[TerrainFeature]</li>
+    <li>geography->[Community]</li>
+    <li>townname_wordgen(p=2)->[SylE][SylE]</li>
+    <li>townname_wordgen(p=2)->[SylE][SylE][SylE]</li>
+    <li>townname_wordgen(p=2)->[SylE][townendevil]</li>
+    <li>townname_wordgen(p=2)->[SylE][SylE][townendevil]</li>
+    <li>townendevil->واست</li>
+    <li>townendevil->وارگ</li>
+    <li>townendevil->ویکس</li>
+    <li>townendevil->تور</li>
+    <li>townendevil->تیر</li>
+    <li>townendevil->کات</li>
+    <li>townendevil->لوپ</li>
+    <li>townendevil->اوز</li>
+    <li>townendevil->اوزل</li>
+    <li>townendevil->لاچ</li>
+    <li>townendevil->لاک</li>
+    <li>townendevil->برن</li>
+    <li>townendevil->سیر</li>
+    <li>townendevil->شانک</li>
+    <li>townendevil->هرت</li>
+    <li>townendevil->واش</li>
+    <li>townendevil->وارگ</li>
+    <li>townendevil->وگ</li>
+    <li>townendevil->تات</li>
+    <li>townendevil->تارد</li>
+    <li>townendevil->تاد</li>
+  </NamerSettlementPirate.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=2)->[WordTribal]</li>
@@ -193,6 +355,11 @@
     <li>r_name->[Color] [TerrainFeature]</li>
     <li>r_name->[WordTribal] [TerrainFeature]</li>
   -->
-  <NamerSettlementTribal.rulePack.rulesStrings>TODO</NamerSettlementTribal.rulePack.rulesStrings>
+  <NamerSettlementTribal.rulePack.rulesStrings>
+    <li>r_name(p=2)->[WordTribal]</li>
+    <li>r_name->[WordTribal] [Color]</li>
+    <li>r_name->[TerrainFeature] [Color]</li>
+    <li>r_name->[TerrainFeature] [WordTribal]</li>
+  </NamerSettlementTribal.rulePack.rulesStrings>
   
 </LanguageData>

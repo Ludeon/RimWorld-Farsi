@@ -189,6 +189,193 @@
     <li>suffixEvil->nix</li>
     <li>suffixEvil->vix</li>
   -->
-  <Namer_Tome.rulePack.rulesStrings>TODO</Namer_Tome.rulePack.rulesStrings>
+  <Namer_Tome.rulePack.rulesStrings>
+    <li>title->[maybeThe] [bookEvil] [nounEvilUncountable]</li>
+    <li>title->[maybeThe] [bookEvil] [nounEvilCountable]‌ها</li>
+    <li>title->[maybeThe] [bookEvil] [nounEvilCountable]</li>
+    <li>title->[maybeThe] [nounEvilCountable]‌ها [inThe] [placeEvil]</li>
+    <li>title->[maybeThe] [bookEvil] [ANYPAWN_nameIndef]</li>
+    <li>title->[maybeThe] [nounEvilAny] [inThe] [placeEvil]</li>
+    <li>title->[maybeThe] [nounEvilAny] [ANYPAWN_nameIndef]</li>
+    <li>title->[maybeThe] [nounEvilAny] [adjectiveEvil]</li>
+    <li>title->[bookEvil] [ANYPAWN_nameIndef]</li>
+    <li>title->[maybeThe] [bookCompound]</li>
+    <li>title->[bookCompound] [ANYPAWN_nameIndef]</li>
+    <li>title(p=0.5)->[firstHalfEvil][connector][nounEvilCountable]</li>
+    <li>title(p=0.5)->[firstHalfEvil][connector][nounEvilUncountable]</li>
+    <li>title(p=0.5)->[nounEvilCountable] [suffixEvil]</li>
+    <li>title(p=0.5)->[nounEvilUncountable] [suffixEvil]</li>
+    <li>bookCompound(p=2)->[firstHalfEvil][suffixEvil]</li>
+    <li>bookCompound->[firstHalfEvil][connector][suffixEvil]</li>
+    <li>connector->'</li>
+    <li>connector->-</li>
+    <li>maybeThe-></li>
+    <li>maybeThe-></li>
+    <li>bookEvil(p=2)->کتاب</li>
+    <li>bookEvil(p=2)->[firstHalfEvil][suffixEvil]</li>
+    <li>bookEvil->کتاب قطور</li>
+    <li>bookEvil->نسخه خطی</li>
+    <li>bookEvil->نوشته‌های</li>
+    <li>bookEvil->سوابق</li>
+    <li>bookEvil->اسرار</li>
+    <li>bookEvil->وقایع‌نامه</li>
+    <li>bookEvil->رمزنامه</li>
+    <li>bookEvil->نجواهای</li>
+    <li>bookEvil->شهادت‌نامه</li>
+    <li>bookEvil->مراثی</li>
+    <li>bookEvil->کتاب جادو</li>
+    <li>bookEvil->سالنامه</li>
+    <li>bookEvil->دست‌نوشته</li>
+    <li>bookEvil->سالنامه‌ها</li>
+    <li>bookEvil->اوراد</li>
+    <li>bookEvil->مکاشفات</li>
+    <li>bookEvil->بیانیه</li>
+    <li>bookEvil->وصیت‌نامه</li>
+    <li>bookEvil->قطعات</li>
+    <li>bookEvil->تکه‌ها</li>
+    <li>inThe->در</li>
+    <li>inThe->درون</li>
+    <li>inThe->زیر</li>
+    <li>inThe->در زیر</li>
+    <li>inThe->در کنار</li>
+    <li>inThe->بر روی</li>
+    <li>inThe->در سراسر</li>
+    <li>adjectiveEvil(p=3)->پوچ</li>
+    <li>adjectiveEvil->طلایی</li>
+    <li>adjectiveEvil->غیرطبیعی</li>
+    <li>adjectiveEvil->تاریک</li>
+    <li>adjectiveEvil->سیاه</li>
+    <li>adjectiveEvil->عمیق</li>
+    <li>adjectiveEvil->باستانی</li>
+    <li>adjectiveEvil->فاسد</li>
+    <li>adjectiveEvil->خونی</li>
+    <li>adjectiveEvil->آشوب</li>
+    <li>adjectiveEvil->مغاکی</li>
+    <li>adjectiveEvil->عجیب</li>
+    <li>adjectiveEvil->خیالی</li>
+    <li>adjectiveEvil->مرموز</li>
+    <li>adjectiveEvil->نجواگر</li>
+    <li>adjectiveEvil->فراموش‌شده</li>
+    <li>adjectiveEvil->مستور</li>
+    <li>adjectiveEvil->ممنوعه</li>
+    <li>adjectiveEvil->زیرسطحی</li>
+    <li>adjectiveEvil->مار</li>
+    <li>nounEvilAny->[nounEvilCountable]</li>
+    <li>nounEvilAny->[nounEvilUncountable]</li>
+    <li>nounEvilUncountable->توده گوشتی</li>
+    <li>nounEvilUncountable->بایوفریت</li>
+    <li>nounEvilUncountable->مرده‌زیست</li>
+    <li>nounEvilUncountable->آرکوتک</li>
+    <li>nounEvilUncountable->نکروتک</li>
+    <li>nounEvilUncountable->هوراکس</li>
+    <li>nounEvilUncountable->خون</li>
+    <li>nounEvilUncountable->نامیرایی</li>
+    <li>nounEvilUncountable->قدرت</li>
+    <li>nounEvilUncountable->نجواها</li>
+    <li>nounEvilUncountable->دانش</li>
+    <li>nounEvilUncountable->وحشت</li>
+    <li>nounEvilUncountable->قارچ‌ها</li>
+    <li>nounEvilUncountable->تعفن</li>
+    <li>nounEvilUncountable->آیین‌ها</li>
+    <li>nounEvilUncountable->قتل</li>
+    <li>nounEvilUncountable->تاریکی</li>
+    <li>nounEvilUncountable->جنون</li>
+    <li>nounEvilUncountable->آشوب</li>
+    <li>nounEvilUncountable->ناامیدی</li>
+    <li>nounEvilUncountable->رنج</li>
+    <li>nounEvilUncountable->کابوس‌ها</li>
+    <li>nounEvilUncountable->فساد</li>
+    <li>nounEvilUncountable->عذاب</li>
+    <li>nounEvilUncountable->ترور</li>
+    <li>nounEvilUncountable->بدخواهی</li>
+    <li>nounEvilUncountable->سایه‌ها</li>
+    <li>nounEvilUncountable->پوچی</li>
+    <li>nounEvilUncountable->طلا</li>
+    <li>nounEvilCountable->غول</li>
+    <li>nounEvilCountable->لاشه‌غول</li>
+    <li>nounEvilCountable->ناکتول</li>
+    <li>nounEvilCountable->شامبلر</li>
+    <li>nounEvilCountable->هیولای گوشتی</li>
+    <li>nounEvilCountable->کره درد</li>
+    <li>nounEvilCountable->جسد</li>
+    <li>nounEvilCountable->مکعب</li>
+    <li>nounEvilCountable->بازگشته</li>
+    <li>nounEvilCountable->وحشت فلزی</li>
+    <li>nounEvilCountable->رباینده</li>
+    <li>nounEvilCountable->تکثیرکننده</li>
+    <li>nounEvilCountable->جهش‌زا</li>
+    <li>nounEvilCountable->پیشگام</li>
+    <li>nounEvilCountable->بینایی‌دزد</li>
+    <li>nounEvilCountable->کیمرا</li>
+    <li>nounEvilCountable->بلعنده</li>
+    <li>nounEvilCountable->تکه</li>
+    <li>nounEvilCountable->مجسمه</li>
+    <li>nounEvilCountable->سرم</li>
+    <li>nounEvilCountable->فرقه</li>
+    <li>nounEvilCountable->فرقه‌گرا</li>
+    <li>nounEvilCountable->بز</li>
+    <li>nounEvilCountable->سایه</li>
+    <li>nounEvilCountable->کمین‌گر</li>
+    <li>nounEvilCountable->مناسک</li>
+    <li>nounEvilCountable->طلسم</li>
+    <li>nounEvilCountable->مار</li>
+    <li>nounEvilCountable->ضیافت‌گر</li>
+    <li>placeEvil->اقیانوس</li>
+    <li>placeEvil->پوچی</li>
+    <li>placeEvil->پرتگاه</li>
+    <li>placeEvil->اعماق</li>
+    <li>placeEvil->سایه‌ها</li>
+    <li>placeEvil->مقبره‌ها</li>
+    <li>placeEvil->تاریکی</li>
+    <li>placeEvil->کوهستان</li>
+    <li>placeEvil->تالار</li>
+    <li>placeEvil->دخمه‌ها</li>
+    <li>placeEvil->خلوتگاه</li>
+    <li>placeEvil->بیشه</li>
+    <li>placeEvil->زمین</li>
+    <li>placeEvil->ستارگان</li>
+    <li>placeEvil->اقیانوس</li>
+    <li>placeEvil->اعماق</li>
+    <li>placeEvil->زیرجهان</li>
+    <li>placeEvil->غارها</li>
+    <li>firstHalfEvil->ویبرو</li>
+    <li>firstHalfEvil->کلنو</li>
+    <li>firstHalfEvil->نکرو</li>
+    <li>firstHalfEvil->کرونو</li>
+    <li>firstHalfEvil->دراگو</li>
+    <li>firstHalfEvil->کریمی</li>
+    <li>firstHalfEvil->وادی</li>
+    <li>firstHalfEvil->هارر</li>
+    <li>firstHalfEvil->نوسیو</li>
+    <li>firstHalfEvil->زنو</li>
+    <li>firstHalfEvil->سایکو</li>
+    <li>firstHalfEvil->وورو</li>
+    <li>firstHalfEvil->تیرانو</li>
+    <li>firstHalfEvil->اینورنو</li>
+    <li>firstHalfEvil->فوبو</li>
+    <li>firstHalfEvil->لوا</li>
+    <li>suffixEvil->نومیکون</li>
+    <li>suffixEvil->دورون</li>
+    <li>suffixEvil->ناکس</li>
+    <li>suffixEvil->نوویکون</li>
+    <li>suffixEvil->ووکون</li>
+    <li>suffixEvil->مانسی</li>
+    <li>suffixEvil->گورگون</li>
+    <li>suffixEvil->مورت</li>
+    <li>suffixEvil->سایفر</li>
+    <li>suffixEvil->وکس</li>
+    <li>suffixEvil->ورتکس</li>
+    <li>suffixEvil->ناکس</li>
+    <li>suffixEvil->سایبکس</li>
+    <li>suffixEvil->وورون</li>
+    <li>suffixEvil->کارنیکس</li>
+    <li>suffixEvil->نمکس</li>
+    <li>suffixEvil->وکسور</li>
+    <li>suffixEvil->ترونیکس</li>
+    <li>suffixEvil->کریپتکس</li>
+    <li>suffixEvil->کائونیکس</li>
+    <li>suffixEvil->نیکس</li>
+    <li>suffixEvil->ویکس</li>
+  </Namer_Tome.rulePack.rulesStrings>
   
 </LanguageData>

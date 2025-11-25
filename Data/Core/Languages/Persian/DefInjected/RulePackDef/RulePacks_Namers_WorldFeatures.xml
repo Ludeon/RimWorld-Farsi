@@ -13,7 +13,18 @@
     <li>terrain_word->points</li>
     <li>terrain_word->chain</li>
   -->
-  <NamerArchipelago.rulePack.rulesStrings>TODO</NamerArchipelago.rulePack.rulesStrings>
+  <NamerArchipelago.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->جزیره [narrative_name]</li>
+    <li>terrain_word(p=4)->جزایر</li>
+    <li>terrain_word(p=3)->جزایر</li>
+    <li>terrain_word(p=3)->مجمع‌الجزایر</li>
+    <li>terrain_word->صخره‌های مرجانی</li>
+    <li>terrain_word->آبسنگ</li>
+    <li>terrain_word->صخره‌ها</li>
+    <li>terrain_word->جزایر کوچک</li>
+    <li>terrain_word->نقاط</li>
+    <li>terrain_word->زنجیره</li>
+  </NamerArchipelago.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=4)->shrubland</li>
@@ -25,7 +36,16 @@
     <li>terrain_word->brush</li>
     <li>terrain_word->barrens</li>
   -->
-  <NamerAridShrubland.rulePack.rulesStrings>TODO</NamerAridShrubland.rulePack.rulesStrings>
+  <NamerAridShrubland.rulePack.rulesStrings>
+    <li>terrain_word(p=4)->بوته‌زار</li>
+    <li>terrain_word(p=4)->خارستان</li>
+    <li>terrain_word(p=2)->فلات</li>
+    <li>terrain_word(p=2)->بوته</li>
+    <li>terrain_word->بیابان</li>
+    <li>terrain_word->بیشه</li>
+    <li>terrain_word->خار و خاشاک</li>
+    <li>terrain_word->زمین‌های بایر</li>
+  </NamerAridShrubland.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->gulf of [narrative_name]</li>
@@ -35,7 +55,14 @@
     <li>terrain_word->anchorage</li>
     <li>terrain_word->cove</li>
   -->
-  <NamerBay.rulePack.rulesStrings>TODO</NamerBay.rulePack.rulesStrings>
+  <NamerBay.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->خلیج [narrative_name]</li>
+    <li>terrain_word(p=6)->خلیج</li>
+    <li>terrain_word->خلیج کوچک</li>
+    <li>terrain_word->خلیج</li>
+    <li>terrain_word->لنگرگاه</li>
+    <li>terrain_word->خلیج کوچک</li>
+  </NamerBay.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=6)->forest</li>
@@ -46,7 +73,15 @@
     <li>terrain_word->tangle</li>
     <li>terrain_word->thicket</li>
   -->
-  <NamerBorealForest.rulePack.rulesStrings>TODO</NamerBorealForest.rulePack.rulesStrings>
+  <NamerBorealForest.rulePack.rulesStrings>
+    <li>terrain_word(p=6)->جنگل</li>
+    <li>terrain_word(p=3)->تایگا</li>
+    <li>terrain_word->بیشه</li>
+    <li>terrain_word->جنگل</li>
+    <li>terrain_word->بیشه‌زار</li>
+    <li>terrain_word->کلاف</li>
+    <li>terrain_word->بیشه انبوه</li>
+  </NamerBorealForest.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.4)->[desert_adjective] [narrative_name]</li>
@@ -72,7 +107,30 @@
     <li>terrain_word->wasteland</li>
     <li>terrain_word->barrens</li>
   -->
-  <NamerDesert.rulePack.rulesStrings>TODO</NamerDesert.rulePack.rulesStrings>
+  <NamerDesert.rulePack.rulesStrings>
+    <li>r_name(p=0.4)->[narrative_name] [desert_adjective]</li>
+    <li>desert_adjective->مسطح</li>
+    <li>desert_adjective->سفید</li>
+    <li>desert_adjective->بی‌پایان</li>
+    <li>desert_adjective->بی‌رحم</li>
+    <li>desert_adjective->خشکیده</li>
+    <li>desert_adjective->خشک</li>
+    <li>desert_adjective->طولانی</li>
+    <li>desert_adjective->آفتاب‌سوخته</li>
+    <li>desert_adjective->آفتابی</li>
+    <li>desert_adjective->خیره‌کننده</li>
+    <li>desert_adjective->داغ</li>
+    <li>desert_adjective->عرق‌کرده</li>
+    <li>desert_adjective->شنی</li>
+    <li>desert_adjective->سنگی</li>
+    <li>terrain_word(p=6)->بیابان</li>
+    <li>terrain_word->فلات</li>
+    <li>terrain_word->دشت‌ها</li>
+    <li>terrain_word->حوضه</li>
+    <li>terrain_word->ضایعات</li>
+    <li>terrain_word->زمین بایر</li>
+    <li>terrain_word->زمین‌های بایر</li>
+  </NamerDesert.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=6)->forest</li>
@@ -80,7 +138,12 @@
     <li>terrain_word->woodland</li>
     <li>terrain_word->thicket</li>
   -->
-  <NamerForest.rulePack.rulesStrings>TODO</NamerForest.rulePack.rulesStrings>
+  <NamerForest.rulePack.rulesStrings>
+    <li>terrain_word(p=6)->جنگل</li>
+    <li>terrain_word->بیشه</li>
+    <li>terrain_word->جنگل</li>
+    <li>terrain_word->بیشه انبوه</li>
+  </NamerForest.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word->sheet</li>
@@ -92,7 +155,16 @@
     <li>terrain_word(p=0.3)->stretch</li>
     <li>terrain_word(p=0.3)->tract</li>
   -->
-  <NamerIceSheet.rulePack.rulesStrings>TODO</NamerIceSheet.rulePack.rulesStrings>
+  <NamerIceSheet.rulePack.rulesStrings>
+    <li>terrain_word->صفحه</li>
+    <li>terrain_word->پهنه</li>
+    <li>terrain_word(p=0.5)->گستره</li>
+    <li>terrain_word(p=0.3)->دشت</li>
+    <li>terrain_word(p=0.3)->گستره</li>
+    <li>terrain_word(p=0.3)->دشت</li>
+    <li>terrain_word(p=0.3)->امتداد</li>
+    <li>terrain_word(p=0.3)->ناحیه</li>
+  </NamerIceSheet.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->isle [narrative_name]</li>
@@ -104,7 +176,16 @@
     <li>terrain_word->islet</li>
     <li>terrain_word->point</li>
   -->
-  <NamerIsland.rulePack.rulesStrings>TODO</NamerIsland.rulePack.rulesStrings>
+  <NamerIsland.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->جزیره [narrative_name]</li>
+    <li>terrain_word(p=4)->جزیره</li>
+    <li>terrain_word(p=2)->جزیره</li>
+    <li>terrain_word->صخره مرجانی</li>
+    <li>terrain_word->آبسنگ</li>
+    <li>terrain_word->صخره</li>
+    <li>terrain_word->جزیره کوچک</li>
+    <li>terrain_word->نقطه</li>
+  </NamerIsland.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->lake [narrative_name]</li>
@@ -115,7 +196,15 @@
     <li>terrain_word(p=0.3)->puddle</li>
     <li>terrain_word(p=0.3)->loch</li>
   -->
-  <NamerLake.rulePack.rulesStrings>TODO</NamerLake.rulePack.rulesStrings>
+  <NamerLake.rulePack.rulesStrings>
+    <li>r_name->دریاچه [narrative_name]</li>
+    <li>terrain_word(p=6)->دریاچه</li>
+    <li>terrain_word->برکه</li>
+    <li>terrain_word->حوضه</li>
+    <li>terrain_word->مخزن</li>
+    <li>terrain_word(p=0.3)->گودال آب</li>
+    <li>terrain_word(p=0.3)->دریاچه</li>
+  </NamerLake.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->mount [narrative_name]</li>
@@ -125,7 +214,14 @@
     <li>terrain_word->hills</li>
     <li>terrain_word->cliffs</li>
   -->
-  <NamerMountainRange.rulePack.rulesStrings>TODO</NamerMountainRange.rulePack.rulesStrings>
+  <NamerMountainRange.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->کوه [narrative_name]</li>
+    <li>terrain_word(p=5)->کوه‌ها</li>
+    <li>terrain_word(p=2)->رشته‌کوه</li>
+    <li>terrain_word->قله‌ها</li>
+    <li>terrain_word->تپه‌ها</li>
+    <li>terrain_word->صخره‌ها</li>
+  </NamerMountainRange.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.4)->[ocean_adjective] [narrative_name]</li>
@@ -146,7 +242,25 @@
     <li>terrain_word(p=3)->sea</li>
     <li>terrain_word->expanse</li>
   -->
-  <NamerOcean.rulePack.rulesStrings>TODO</NamerOcean.rulePack.rulesStrings>
+  <NamerOcean.rulePack.rulesStrings>
+    <li>r_name(p=0.4)->[narrative_name] [ocean_adjective]</li>
+    <li>ocean_adjective->آبی</li>
+    <li>ocean_adjective->سفید</li>
+    <li>ocean_adjective->خاکستری</li>
+    <li>ocean_adjective->زلال</li>
+    <li>ocean_adjective->بادی</li>
+    <li>ocean_adjective->طوفانی</li>
+    <li>ocean_adjective->آرام</li>
+    <li>ocean_adjective->پهناور</li>
+    <li>ocean_adjective->بی‌پایان</li>
+    <li>ocean_adjective->مسطح</li>
+    <li>ocean_adjective->ساکن</li>
+    <li>ocean_adjective->مواج</li>
+    <li>ocean_adjective->ملایم</li>
+    <li>terrain_word(p=6)->اقیانوس</li>
+    <li>terrain_word(p=3)->دریا</li>
+    <li>terrain_word->پهنه</li>
+  </NamerOcean.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->point [narrative_name]</li>
@@ -157,14 +271,26 @@
     <li>terrain_word->headland</li>
     <li>terrain_word->horn</li>
   -->
-  <NamerPeninsula.rulePack.rulesStrings>TODO</NamerPeninsula.rulePack.rulesStrings>
+  <NamerPeninsula.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->نقطه [narrative_name]</li>
+    <li>r_name(p=0.2)->دماغه [narrative_name]</li>
+    <li>terrain_word(p=5)->شبه‌جزیره</li>
+    <li>terrain_word(p=2)->نقطه</li>
+    <li>terrain_word->دماغه</li>
+    <li>terrain_word->پرتگاه</li>
+    <li>terrain_word->شاخ</li>
+  </NamerPeninsula.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=6)->sea</li>
     <li>terrain_word->lagoon</li>
     <li>terrain_word->ocean</li>
   -->
-  <NamerSea.rulePack.rulesStrings>TODO</NamerSea.rulePack.rulesStrings>
+  <NamerSea.rulePack.rulesStrings>
+    <li>terrain_word(p=6)->دریا</li>
+    <li>terrain_word->تالاب</li>
+    <li>terrain_word->اقیانوس</li>
+  </NamerSea.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.1)->fen [narrative_name]</li>
@@ -186,7 +312,26 @@
     <li>terrain_word->marsh</li>
     <li>terrain_word->fen</li>
   -->
-  <NamerSwamp.rulePack.rulesStrings>TODO</NamerSwamp.rulePack.rulesStrings>
+  <NamerSwamp.rulePack.rulesStrings>
+    <li>r_name(p=0.1)->مرداب [narrative_name]</li>
+    <li>r_name(p=0.3)->[narrative_name] [swamp_adjective]</li>
+    <li>swamp_adjective->مرطوب</li>
+    <li>swamp_adjective->بخارآلود</li>
+    <li>swamp_adjective->خفه‌کننده</li>
+    <li>swamp_adjective->گندیده</li>
+    <li>swamp_adjective->در حال پوسیدن</li>
+    <li>swamp_adjective->بیش از حد رشد کرده</li>
+    <li>swamp_adjective->درهم‌تنیده</li>
+    <li>swamp_adjective->پر از تاک</li>
+    <li>swamp_adjective->خاردار</li>
+    <li>terrain_word(p=6)->باتلاق</li>
+    <li>terrain_word->حوضه</li>
+    <li>terrain_word->تالاب‌ها</li>
+    <li>terrain_word->بایو</li>
+    <li>terrain_word->باتلاق</li>
+    <li>terrain_word->مرداب</li>
+    <li>terrain_word->لجن‌زار</li>
+  </NamerSwamp.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.3)->[rainforest_adjective] [narrative_name]</li>
@@ -204,7 +349,22 @@
     <li>terrain_word->woodland</li>
     <li>terrain_word->tangle</li>
   -->
-  <NamerTropicalRainforest.rulePack.rulesStrings>TODO</NamerTropicalRainforest.rulePack.rulesStrings>
+  <NamerTropicalRainforest.rulePack.rulesStrings>
+    <li>r_name(p=0.3)->[narrative_name] [rainforest_adjective]</li>
+    <li>rainforest_adjective->مرطوب</li>
+    <li>rainforest_adjective->بخارآلود</li>
+    <li>rainforest_adjective->خفه‌کننده</li>
+    <li>rainforest_adjective->بیش از حد رشد کرده</li>
+    <li>rainforest_adjective->درهم‌تنیده</li>
+    <li>rainforest_adjective->پر از تاک</li>
+    <li>rainforest_adjective->خاردار</li>
+    <li>terrain_word(p=6)->جنگل بارانی</li>
+    <li>terrain_word(p=3)->جنگل</li>
+    <li>terrain_word->جنگل</li>
+    <li>terrain_word->بیشه</li>
+    <li>terrain_word->جنگل</li>
+    <li>terrain_word->کلاف</li>
+  </NamerTropicalRainforest.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=4)->plateau</li>
@@ -220,7 +380,20 @@
     <li>terrain_word->prairie</li>
     <li>terrain_word->flats</li>
   -->
-  <NamerTundra.rulePack.rulesStrings>TODO</NamerTundra.rulePack.rulesStrings>
+  <NamerTundra.rulePack.rulesStrings>
+    <li>terrain_word(p=4)->فلات</li>
+    <li>terrain_word(p=4)->زمین‌های بایر</li>
+    <li>terrain_word(p=2)->تایگا</li>
+    <li>terrain_word->بوته‌زار</li>
+    <li>terrain_word->بوته‌زار</li>
+    <li>terrain_word->خارستان</li>
+    <li>terrain_word->بیشه</li>
+    <li>terrain_word->خار و خاشاک</li>
+    <li>terrain_word->زمین‌های بایر</li>
+    <li>terrain_word->پهنه</li>
+    <li>terrain_word->دشت</li>
+    <li>terrain_word->دشت‌ها</li>
+  </NamerTundra.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[narrative_name] [terrain_word]</li>
@@ -283,6 +456,66 @@
     <li>story_result->facade</li>
     <li>story_result->fraud</li>
   -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings>TODO</WorldFeatureNamerCommon.rulePack.rulesStrings>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings>
+    <li>r_name->[terrain_word] [narrative_name]</li>
+    <li>r_name(p=0.05)->[terrain_word] [storyname]</li>
+    <li>narrative_name(p=12)->[WordTribal]</li>
+    <li>narrative_name(p=12)->[PlaceOutlander]</li>
+    <li>narrative_name->[NaturalObject][Color]</li>
+    <li>narrative_name->[BodyPart][AdjectiveNatural]</li>
+    <li>narrative_name->[Animal]</li>
+    <li>narrative_name->[Color]</li>
+    <li>narrative_name->[Animal][Color]</li>
+    <li>narrative_name->[Animal][AdjectiveNatural]</li>
+    <li>narrative_name->[BodyPart][Animal]</li>
+    <li>narrative_name->[Animal] [Color]</li>
+    <li>narrative_name->[Animal] [AdjectiveNatural]</li>
+    <li>narrative_name->[BodyPart] [Animal]</li>
+    <li>storyname(p=50)->[story_result] [subject]</li>
+    <li>storyname(p=2)->[BodyPart] [subject]</li>
+    <li>storyname->[Gore] [subject]</li>
+    <li>subject(p=5)->[NamePerson]</li>
+    <li>subject->[Animal]</li>
+    <li>subject->[WordTribal]</li>
+    <li>subject->[PlaceOutlander]</li>
+    <li>story_result->حماقت</li>
+    <li>story_result->گناه</li>
+    <li>story_result->دیوانگی</li>
+    <li>story_result->اشتباه</li>
+    <li>story_result->تقصیر</li>
+    <li>story_result->لغزش</li>
+    <li>story_result->توهم</li>
+    <li>story_result->شادی</li>
+    <li>story_result->لذت</li>
+    <li>story_result->شگفتی</li>
+    <li>story_result->غرور</li>
+    <li>story_result->جواهر</li>
+    <li>story_result->جایزه</li>
+    <li>story_result->بخشش</li>
+    <li>story_result->افتخار</li>
+    <li>story_result->جک‌پات</li>
+    <li>story_result->غنیمت</li>
+    <li>story_result->خودبینی</li>
+    <li>story_result->تکبر</li>
+    <li>story_result->ایستادگی</li>
+    <li>story_result->زیان</li>
+    <li>story_result->بدهی</li>
+    <li>story_result->فروپاشی</li>
+    <li>story_result->نابودی</li>
+    <li>story_result->فاجعه</li>
+    <li>story_result->خرابه</li>
+    <li>story_result->ویرانی</li>
+    <li>story_result->تباهی</li>
+    <li>story_result->سقوط</li>
+    <li>story_result->پایان</li>
+    <li>story_result->بازنشستگی</li>
+    <li>story_result->دستاورد</li>
+    <li>story_result->پایان</li>
+    <li>story_result->بلوف</li>
+    <li>story_result->حیله</li>
+    <li>story_result->فریب</li>
+    <li>story_result->نما</li>
+    <li>story_result->کلاهبرداری</li>
+  </WorldFeatureNamerCommon.rulePack.rulesStrings>
   
 </LanguageData>

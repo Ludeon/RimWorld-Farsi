@@ -33,24 +33,63 @@
     <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] messy strips</li>
     <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] an unrecognizable mess</li>
   -->
-  <Maneuver_Bite.rulePack.rulesStrings>TODO</Maneuver_Bite.rulePack.rulesStrings>
+  <Maneuver_Bite.rulePack.rulesStrings>
+    <li>damaged_inf->گاز</li>
+    <li>damaged_inf->دندان گرفتن</li>
+    <li>damaged_inf(p=0.5)->نیشگون</li>
+    <li>damaged_past->گاز گرفت</li>
+    <li>damaged_past->دندان گرفت</li>
+    <li>damaged_past->نیشگون گرفت</li>
+    <li>damaged_past->جوید</li>
+    <li>damaged_past(deflected!=True)->پاره کرد</li>
+    <li>damaged_present->در حال گاز گرفتن</li>
+    <li>damaged_present->در حال دندان گرفتن</li>
+    <li>damaged_present->نیشگون گرفته</li>
+    <li>damaged_present->در حال جویدن</li>
+    <li>damaged_present(deflected!=True)->در حال پاره کردن</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->و گوشت زیرین را نمایان کرد</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->و ماشین‌آلات زیرین را نمایان کرد</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->و پارگی‌های وحشتناکی در پوست به جا گذاشت</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->و پارگی‌های وحشتناکی در فلز به جا گذاشت</li>
+    <li>destroyed_past->کند</li>
+    <li>destroyed_past->جدا کرد</li>
+    <li>destroyed_past->با گاز کند</li>
+    <li>destroyed_present->در حال کندن</li>
+    <li>destroyed_present->در حال جدا کردن</li>
+    <li>destroyed_present->در حال کندن با گاز</li>
+    <li>destroyed_suffix->به قطعات</li>
+    <li>destroyed_suffix->به تکه‌ها</li>
+    <li>destroyed_suffix->به تکه‌های بزرگ</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->به رشته‌ها</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->به نوارها</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->به نوارهای درهم</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->به یک افتضاح غیرقابل تشخیص</li>
+  </Maneuver_Bite.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but [RECIPIENT_definite] dodged out of the way.</li>
     <li>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but [RECIPIENT_definite] blocked it.</li>
   -->
-  <Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>TODO</Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
+  <Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] سعی کرد [TOOL_label] را به چشمان [RECIPIENT_definite] بپاشد، اما [RECIPIENT_definite] جاخالی داد.</li>
+    <li>r_logentry->[INITIATOR_definite] سعی کرد [TOOL_label] را به چشمان [RECIPIENT_definite] بپاشد، اما [RECIPIENT_definite] آن را مسدود کرد.</li>
+  </Maneuver_KickMaterialInEyes_MeleeDodge.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] kicked [TOOL_label] in [RECIPIENT_definite]'s eyes.</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] kicked a spray of [TOOL_label] in [RECIPIENT_definite]'s eyes.</li>
   -->
-  <Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings>TODO</Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings>
+  <Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] [TOOL_label] را به چشمان [RECIPIENT_definite] پاشید.</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] اسپری‌ای از [TOOL_label] را به چشمان [RECIPIENT_definite] پاشید.</li>
+  </Maneuver_KickMaterialInEyes_MeleeHit.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but missed.</li>
   -->
-  <Maneuver_KickMaterialInEyes_MeleeMiss.rulePack.rulesStrings>TODO</Maneuver_KickMaterialInEyes_MeleeMiss.rulePack.rulesStrings>
+  <Maneuver_KickMaterialInEyes_MeleeMiss.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] سعی کرد [TOOL_label] را به چشمان [RECIPIENT_definite] بپاشد، اما خطا رفت.</li>
+  </Maneuver_KickMaterialInEyes_MeleeMiss.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damaged_inf(p=2)->poke</li>
@@ -87,7 +126,41 @@
     <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] a fine mist</li>
     <li>destroyed_suffix->[to] fragments</li>
   -->
-  <Maneuver_Poke.rulePack.rulesStrings>TODO</Maneuver_Poke.rulePack.rulesStrings>
+  <Maneuver_Poke.rulePack.rulesStrings>
+    <li>damaged_inf(p=2)->سیخونک</li>
+    <li>damaged_inf(p=2)->ضربه</li>
+    <li>damaged_inf->سقلمه</li>
+    <li>damaged_inf->هل</li>
+    <li>damaged_inf->خنجر</li>
+    <li>damaged_past(p=2)->سیخونک زد</li>
+    <li>damaged_past(p=2)->ضربه زد</li>
+    <li>damaged_past->سقلمه زد</li>
+    <li>damaged_past->هل داد</li>
+    <li>damaged_past->خنجر زد</li>
+    <li>damaged_present(p=2)->در حال سیخونک زدن</li>
+    <li>damaged_present(p=2)->در حال ضربه زدن</li>
+    <li>damaged_present->در حال سقلمه زدن</li>
+    <li>damaged_present->در حال هل دادن</li>
+    <li>damaged_present->در حال خنجر زدن</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->و کبودی عظیمی به جا گذاشت</li>
+    <li>flavortext_consequence->و ناحیه را به وضوح دفرمه کرد</li>
+    <li>flavortext_consequence->و تعادل [RECIPIENT_objective] را بر هم زد</li>
+    <li>flavortext_consequence->و [RECIPIENT_objective] را به کناری پرتاب کرد</li>
+    <li>destroyed_past->خرد کرد</li>
+    <li>destroyed_past->له کرد</li>
+    <li>destroyed_past->محو کرد</li>
+    <li>destroyed_past->نابود کرد</li>
+    <li>destroyed_past->شکست</li>
+    <li>destroyed_present->در حال خرد کردن</li>
+    <li>destroyed_present->در حال له کردن</li>
+    <li>destroyed_present->در حال محو کردن</li>
+    <li>destroyed_present->در حال نابود کردن</li>
+    <li>destroyed_present->در حال شکستن</li>
+    <li>destroyed_suffix->به قطعات</li>
+    <li>destroyed_suffix->به تکه‌ها</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->به مهی رقیق</li>
+    <li>destroyed_suffix->به قطعات</li>
+  </Maneuver_Poke.rulePack.rulesStrings>
   
   <!-- EN:
     <li>woundname->wound</li>
@@ -102,7 +175,19 @@
     <li>destroyed_suffix->[to] fragments</li>
     <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] a pile of gore</li>
   -->
-  <Maneuver_Scratch.rulePack.rulesStrings>TODO</Maneuver_Scratch.rulePack.rulesStrings>
+  <Maneuver_Scratch.rulePack.rulesStrings>
+    <li>woundname->زخم</li>
+    <li>woundname(p=0.3)->شکاف</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->و گوشت زیرین را نمایان کرد</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->و ماشین‌آلات زیرین را نمایان کرد</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->و یک [woundname] خونین به جا گذاشت</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->به نوارهای درهم</li>
+    <li>destroyed_suffix->به نوارها</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->به قطعات درهم</li>
+    <li>destroyed_suffix->به قطعات</li>
+    <li>destroyed_suffix->به قطعات</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->به توده‌ای از خون و گوشت</li>
+  </Maneuver_Scratch.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damaged_inf(p=4)->scratch</li>
@@ -128,7 +213,30 @@
     <li>destroyed_present->shredding</li>
     <li>destroyed_present->ripping</li>
   -->
-  <Maneuver_Scratch_Damage.rulePack.rulesStrings>TODO</Maneuver_Scratch_Damage.rulePack.rulesStrings>
+  <Maneuver_Scratch_Damage.rulePack.rulesStrings>
+    <li>damaged_inf(p=4)->خراش</li>
+    <li>damaged_inf(deflected!=True)->پارگی</li>
+    <li>damaged_inf(deflected!=True)->دریدگی</li>
+    <li>damaged_inf->برش</li>
+    <li>damaged_past(p=4)->خراش داد</li>
+    <li>damaged_past(deflected!=True)->پاره کرد</li>
+    <li>damaged_past(deflected!=True)->درید</li>
+    <li>damaged_past->برید</li>
+    <li>damaged_present->در حال خراش دادن</li>
+    <li>damaged_present(deflected!=True)->در حال پاره کردن</li>
+    <li>damaged_present(deflected!=True)->در حال دریدن</li>
+    <li>damaged_present->در حال بریدن</li>
+    <li>destroyed_past->لت و پار کرد</li>
+    <li>destroyed_past->پاره کرد</li>
+    <li>destroyed_past->درید</li>
+    <li>destroyed_past->رشته‌رشته کرد</li>
+    <li>destroyed_past->جدا کرد</li>
+    <li>destroyed_present->در حال لت و پار کردن</li>
+    <li>destroyed_present->در حال پاره کردن</li>
+    <li>destroyed_present->در حال دریدن</li>
+    <li>destroyed_present->در حال رشته‌رشته کردن</li>
+    <li>destroyed_present->در حال جدا کردن</li>
+  </Maneuver_Scratch_Damage.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damaged_inf(p=4)->slash</li>
@@ -169,7 +277,45 @@
     <li>destroyed_suffix(target_part_destroyed_count==1)->exposing its inner workings</li>
     <li>destroyed_suffix(target_part_destroyed_count==1)->slicing it in twain</li>
   -->
-  <Maneuver_Slash.rulePack.rulesStrings>TODO</Maneuver_Slash.rulePack.rulesStrings>
+  <Maneuver_Slash.rulePack.rulesStrings>
+    <li>damaged_inf(p=4)->برش</li>
+    <li>damaged_inf->برش</li>
+    <li>damaged_inf->ساطور</li>
+    <li>damaged_inf->تبر</li>
+    <li>damaged_inf->اسلایس</li>
+    <li>damaged_inf(deflected!=True)->شکاف</li>
+    <li>damaged_past(p=4)->برش داد</li>
+    <li>damaged_past->برید</li>
+    <li>damaged_past->ساطور زد</li>
+    <li>damaged_past->تبر زد</li>
+    <li>damaged_past->اسلایس کرد</li>
+    <li>damaged_past(deflected!=True)->شکافت</li>
+    <li>damaged_present->در حال برش دادن</li>
+    <li>damaged_present->در حال بریدن</li>
+    <li>damaged_present->در حال اسلایس کردن</li>
+    <li>damaged_present(deflected!=True)->در حال شکافتن</li>
+    <li>damaged_present(deflected!=True)->در حال دریدن</li>
+    <li>damaged_present(deflected!=True)->در حال پاره کردن</li>
+    <li>woundname->زخم</li>
+    <li>woundname(p=0.3)->شکاف</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->و گوشت زیرین را نمایان کرد</li>
+    <li>flavortext_consequence(RECIPIENT_flesh==Mechanoid)->و ماشین‌آلات زیرین را نمایان کرد</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->و یک [woundname] خونین به جا گذاشت</li>
+    <li>destroyed_past->دونیم کرد</li>
+    <li>destroyed_past->تقسیم کرد</li>
+    <li>destroyed_past->نصف کرد</li>
+    <li>destroyed_past->جدا کرد</li>
+    <li>destroyed_past->شکافت</li>
+    <li>destroyed_present->در حال دونیم کردن</li>
+    <li>destroyed_present->در حال تقسیم کردن</li>
+    <li>destroyed_present->در حال نصف کردن</li>
+    <li>destroyed_present->در حال جدا کردن</li>
+    <li>destroyed_present->در حال شکافتن</li>
+    <li>destroyed_suffix->به قطعاتی تمیز</li>
+    <li>destroyed_suffix->به تمیزی</li>
+    <li>destroyed_suffix(target_part_destroyed_count==1)->و اجزای داخلی‌اش را نمایان کرد</li>
+    <li>destroyed_suffix(target_part_destroyed_count==1)->و آن را دو نیم کرد</li>
+  </Maneuver_Slash.rulePack.rulesStrings>
   
   <!-- EN:
     <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->leaving an enormous bruise</li>
@@ -181,7 +327,16 @@
     <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->[to] a fine mist</li>
     <li>destroyed_suffix->[to] fragments</li>
   -->
-  <Maneuver_Smash.rulePack.rulesStrings>TODO</Maneuver_Smash.rulePack.rulesStrings>
+  <Maneuver_Smash.rulePack.rulesStrings>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->و کبودی عظیمی به جا گذاشت</li>
+    <li>flavortext_consequence->و ناحیه را به وضوح دفرمه کرد</li>
+    <li>flavortext_consequence->و تعادل [RECIPIENT_objective] را بر هم زد</li>
+    <li>flavortext_consequence->و [RECIPIENT_objective] را به کناری پرتاب کرد</li>
+    <li>destroyed_suffix->به قطعات</li>
+    <li>destroyed_suffix->به تکه‌ها</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid)->به مهی رقیق</li>
+    <li>destroyed_suffix->به قطعات</li>
+  </Maneuver_Smash.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damaged_inf->hit</li>
@@ -206,7 +361,29 @@
     <li>destroyed_present->crushing</li>
     <li>destroyed_present->breaking</li>
   -->
-  <Maneuver_Smash_Damage.rulePack.rulesStrings>TODO</Maneuver_Smash_Damage.rulePack.rulesStrings>
+  <Maneuver_Smash_Damage.rulePack.rulesStrings>
+    <li>damaged_inf->ضربه</li>
+    <li>damaged_inf->خرد کردن</li>
+    <li>damaged_inf->کوبیدن</li>
+    <li>damaged_inf->کوبیدن</li>
+    <li>damaged_inf->ضربه</li>
+    <li>damaged_inf->کتک</li>
+    <li>damaged_past->ضربه زد</li>
+    <li>damaged_past->خرد کرد</li>
+    <li>damaged_past->کوبید</li>
+    <li>damaged_past->کوبید</li>
+    <li>damaged_past->ضربه زد</li>
+    <li>damaged_past->کتک زد</li>
+    <li>damaged_present->در حال خرد کردن</li>
+    <li>damaged_present->در حال کوبیدن</li>
+    <li>damaged_present(deflected!=True)->در حال کبود کردن</li>
+    <li>destroyed_past->خرد کرد</li>
+    <li>destroyed_past->له کرد</li>
+    <li>destroyed_past->شکست</li>
+    <li>destroyed_present->در حال خرد کردن</li>
+    <li>destroyed_present->در حال له کردن</li>
+    <li>destroyed_present->در حال شکستن</li>
+  </Maneuver_Smash_Damage.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damaged_inf(p=4)->stab</li>
@@ -240,6 +417,37 @@
     <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid,target_part_destroyed_count==1)->leaving it leaking gory fluids</li>
     <li>destroyed_suffix(target_part_destroyed_count==1)->leaving it leaking unrecognizable fluids</li>
   -->
-  <Maneuver_Stab.rulePack.rulesStrings>TODO</Maneuver_Stab.rulePack.rulesStrings>
+  <Maneuver_Stab.rulePack.rulesStrings>
+    <li>damaged_inf(p=4)->خنجر</li>
+    <li>damaged_inf->ضربه</li>
+    <li>damaged_inf(deflected!=True)->سوراخ کردن</li>
+    <li>damaged_inf(deflected!=True)->پنچر کردن</li>
+    <li>damaged_inf(deflected!=True)->به سیخ کشیدن</li>
+    <li>damaged_past(p=4)->خنجر زد</li>
+    <li>damaged_past->ضربه زد</li>
+    <li>damaged_past(deflected!=True)->سوراخ کرد</li>
+    <li>damaged_past(deflected!=True)->پنچر کرد</li>
+    <li>damaged_past(deflected!=True)->به سیخ کشید</li>
+    <li>damaged_present(deflected!=True)->در حال سوراخ کردن</li>
+    <li>damaged_present(deflected!=True)->در حال پنچر کردن</li>
+    <li>damaged_present(deflected!=True)->در حال نفوذ کردن</li>
+    <li>damaged_present(deflected!=True)->در حال به سیخ کشیدن</li>
+    <li>woundname->سوراخ</li>
+    <li>woundname->زخم</li>
+    <li>woundname->شکاف</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->و یک [woundname] خونین به جا گذاشت</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->و یک [woundname] پاره به جا گذاشت</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->و یک [woundname] در حال خونریزی به جا گذاشت</li>
+    <li>destroyed_past->به میخ کشید</li>
+    <li>destroyed_past->سوراخ‌سوراخ کرد</li>
+    <li>destroyed_past->به سیخ کشید</li>
+    <li>destroyed_present->در حال به میخ کشیدن</li>
+    <li>destroyed_present->در حال سوراخ‌سوراخ کردن</li>
+    <li>destroyed_present->در حال به سیخ کشیدن</li>
+    <li>destroyed_suffix->مستقیم از میان آن</li>
+    <li>destroyed_suffix->و سوراخی تمیز به جا گذاشت</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid,target_part_destroyed_count==1)->و باعث نشت مایعات خونین شد</li>
+    <li>destroyed_suffix(target_part_destroyed_count==1)->و باعث نشت مایعات غیرقابل تشخیص شد</li>
+  </Maneuver_Stab.rulePack.rulesStrings>
   
 </LanguageData>

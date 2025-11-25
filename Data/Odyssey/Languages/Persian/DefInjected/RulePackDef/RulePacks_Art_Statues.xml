@@ -166,7 +166,171 @@
     <li>prop->psychic relic</li>
     <li>prop->human heart</li>
   -->
-  <ArtDescription_Statue.rulePack.rulesStrings>TODO</ArtDescription_Statue.rulePack.rulesStrings>
+  <ArtDescription_Statue.rulePack.rulesStrings>
+    <li>r_statue_description->این مجسمه [SUBJECT_nameFull] را [statueDepicts] که [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->یک مجسمه [statueAdj] که [SUBJECT_nameFull] را [statueDepicts] که [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->یک مجسمه که [carvedAdverb] از [SUBJECT_nameFull] [carvedVerb] شده است. این [SUBJECT_indefinite] را [statueDepicts] که [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->مجسمه‌ای که [SUBJECT_nameFull] را نشان می‌دهد که [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->یک مجسمه [statueAdj] از [SUBJECT_nameFull]. [statueFaceDesc] [style_group_statue]</li>
+    <li>statueSubjectDesc->ایستاده و یک [prop] را با هر دو دست نگه داشته است</li>
+    <li>statueSubjectDesc->بلند ایستاده و با وقار به دوردست خیره شده است</li>
+    <li>statueSubjectDesc->مشتی را به سوی آسمان نشانه رفته است</li>
+    <li>statueSubjectDesc->دستش را بالا برده و برای گرفتن چیزی نامرئی تلاش می‌کند</li>
+    <li>statueSubjectDesc->به یک طرف خم شده گویی در حال افتادن است[maybeInsult]</li>
+    <li>statueSubjectDesc->روی یک پا ایستاده است[maybeInsult]</li>
+    <li>statueSubjectDesc->تعظیم عمیقی کرده است</li>
+    <li>statueSubjectDesc->در برابر باد مقاومت می‌کند</li>
+    <li>statueSubjectDesc->در حال دعا زانو زده است</li>
+    <li>statueSubjectDesc->با دستان بالا رفته گویی در حال دعا است</li>
+    <li>statueSubjectDesc->با دستان به هم فشرده به نشانه سپاسگزاری</li>
+    <li>statueSubjectDesc->با حداکثر سرعت در حال دویدن است</li>
+    <li>statueSubjectDesc->با آغوش باز، به آسمان نگاه می‌کند</li>
+    <li>statueSubjectDesc->با دستان روی کمر</li>
+    <li>statueSubjectDesc->با دستان برافراشته به نشانه پیروزی</li>
+    <li>statueSubjectDesc->یک [prop] در یک دست دارد[maybeOtherHand]</li>
+    <li>statueSubjectDesc->با یک دست سلام نظامی می‌دهد[maybeOtherHand]</li>
+    <li>statueSubjectDesc->به افق اشاره می‌کند[maybeOtherHand]</li>
+    <li>statueSubjectDesc->دستی را به نشانه خوش‌آمدگویی دراز کرده است[maybeOtherHand]</li>
+    <li>statueSubjectDesc->با یک دست به افق اشاره می‌کند[maybeOtherHand]</li>
+    <li>statueSubjectDesc->به طرز فریبنده‌ای می‌رقصد</li>
+    <li>statueSubjectDesc->به شیوه‌ای جذاب استراحت می‌کند</li>
+    <li>statueSubjectDesc->آماده نبرد می‌شود</li>
+    <li>statueSubjectDesc->به هوا پریده و در میان پرش خشک شده است</li>
+    <li>statueSubjectDesc->توری ماهیگیری را به آب‌های نامرئی می‌اندازد</li>
+    <li>statueSubjectDesc->در حال خوردن یک وعده غذایی مجلل است</li>
+    <li>statueSubjectDesc->در میانه تلاش، در حال رهایی از زنجیرهاست</li>
+    <li>statueSubjectDesc->رازی خاموش را زمزمه می‌کند</li>
+    <li>statueSubjectDesc->با چشمانی پر از شگفتی به ستاره‌ها خیره شده است</li>
+    <li>statueSubjectDesc->نیزه‌ای نامرئی را پرتاب می‌کند</li>
+    <li>statueSubjectDesc->تکه‌ای کاغذ را در حرکتی سرکشانه پاره می‌کند</li>
+    <li>statueSubjectDesc->در آب‌های عمیق راه می‌رود</li>
+    <li>statueSubjectDesc->یک [prop] بزرگ را در هر دو دست نگه داشته است</li>
+    <li>statueSubjectDesc->بدون دندان است[maybeInsult]</li>
+    <li>statueSubjectDesc->چشمانش را در برابر خورشید جمع کرده است[maybeInsult]</li>
+    <li>statueSubjectDesc->دسته گلی را بو می‌کند[maybeNoNose]</li>
+    <li>maybeOtherHand->. [otherHand]</li>
+    <li>maybeOtherHand-></li>
+    <li>otherHand->دست دیگر مجسمه یک [prop] نگه داشته است</li>
+    <li>otherHand->دست دیگر مجسمه روی کمرش قرار دارد</li>
+    <li>otherHand->دست دیگر مجسمه حرکتی زشت انجام می‌دهد</li>
+    <li>otherHand->دست دیگر مجسمه وجود ندارد[maybeInsult]</li>
+    <li>maybeNoNose->. مجسمه بینی ندارد[maybeInsult]</li>
+    <li>maybeNoNose-></li>
+    <li>maybeInsult->. این یک توهین آشکار است</li>
+    <li>maybeInsult->. مشخص نیست که این توهینی از سوی هنرمند است یا یک اشتباه ساده</li>
+    <li>maybeInsult->. این نشان می‌دهد که هنرمند به سوژه توهین می‌کند</li>
+    <li>maybeInsult(p=3)-></li>
+    <li>statueFaceDesc(p=2)->چهره مجسمه حالتی از [facialLook] دارد.</li>
+    <li>statueFaceDesc(p=2)->[facialLook] در چهره [SUBJECT_indefinite] دیده می‌شود.</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] نگاهی از [facialLook] دارد.</li>
+    <li>statueFaceDesc->چهره [SUBJECT_indefinite] [facialLook] را [depicts].</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] سیمایی خردمندانه و متفکرانه دارد.</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] فریاد می‌زند، دهانش در فریادی خاموش باز مانده است.</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] با اندوه به دوردست نگاه می‌کند.</li>
+    <li>statueFaceDesc->مجسمه [SUBJECT_indefinite] را با نگاهی مصمم [depicts].</li>
+    <li>statueFaceDesc->مجسمه [SUBJECT_indefinite] را در حال خنده‌ای دیوانه‌وار [depicts].</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] [facialFeature] دارد.</li>
+    <li>statueFaceDesc->مجسمه [facialFeature] دارد.</li>
+    <li>statueFaceDesc->قابل توجه است که مجسمه [facialFeature] دارد.</li>
+    <li>facialLook->شادی حقیقی</li>
+    <li>facialLook->وحشت محض</li>
+    <li>facialLook->خلسه محض</li>
+    <li>facialLook->سعادت محض</li>
+    <li>facialLook->شوک و شرمساری</li>
+    <li>facialLook->سرگرمی</li>
+    <li>facialLook->اندوهی ناگفتنی</li>
+    <li>facialLook->تفکر عمیق</li>
+    <li>facialLook->سردرگمی</li>
+    <li>facialLook->غرور و رضایت</li>
+    <li>facialLook->سرگرمی</li>
+    <li>facialLook->انزجار</li>
+    <li>facialLook->سرکشی</li>
+    <li>facialFeature->پوزخندی بازیگوشانه</li>
+    <li>facialFeature->ابروانی درهم‌کشیده</li>
+    <li>facialFeature->ابرویی بالا رفته، گویی هنرمند را زیر سوال می‌برد</li>
+    <li>facialFeature->زبانی دراز که بیرون آمده</li>
+    <li>facialFeature->چهره‌ای درهم‌پیچیده از درد</li>
+    <li>facialFeature->چشمانی که گویی برق می‌زنند</li>
+    <li>facialFeature->هر دو چشم بسته، گویی در آرامش</li>
+    <li>facialFeature->گونه‌هایی باد کرده گویی در حال دمیدن هوا</li>
+    <li>facialFeature->چشمانی ریز و لب‌هایی غران</li>
+    <li>style_group_statue->[artextra_clause_statue]. [style_clause].</li>
+    <li>style_group_statue->[style_clause]. [artextra_clause_statue].</li>
+    <li>style_group_statue->[style_clause].</li>
+    <li>style_group_statue->[artextra_clause_statue].</li>
+    <li>style_group_statue-></li>
+    <li>artextra_clause_statue->پایه مجسمه با [subimageplural] حاشیه شده است</li>
+    <li>artextra_clause_statue->روی پوست سوژه [subimageplural] حک شده است</li>
+    <li>artextra_clause_statue->چندین حکاکی کوچکتر مجسمه را احاطه کرده‌اند. هر کدام شبیه [subimagesingle] است</li>
+    <li>artextra_clause_statue->پاهای مجسمه توسط [subimageplural] پوشیده شده است</li>
+    <li>artextra_clause_statue->تصویری از [subimageany] روی صورت مجسمه [carvedVerb] شده است</li>
+    <li>artextra_clause_statue->[SUBJECT_indefinite] در میان یک [Community] ایستاده است</li>
+    <li>artextra_clause_statue->پایه مجسمه به نظر می‌رسد یک [TerrainFeature] باشد</li>
+    <li>artextra_clause_statue->به نظر می‌رسد [SUBJECT_indefinite] از یک [TerrainFeature] برمی‌خیزد</li>
+    <li>artextra_clause_statue->یک [Character] کوچک [side_position_statue] دیده می‌شود</li>
+    <li>artextra_clause_statue->یک [Character] [pawn_adj] [side_position_statue] دیده می‌شود</li>
+    <li>artextra_clause_statue->[Quantity_adjphrase] [Character] [side_position_statue] دیده می‌شوند</li>
+    <li>artextra_clause_statue->[Quantity_adjphrase] [Character] [pawn_adj] [side_position_statue] دیده می‌شوند</li>
+    <li>artextra_clause_statue->یک [Animal] [side_position_statue] حک شده است</li>
+    <li>artextra_clause_statue->از دور، ترکیب‌بندی [composition] مجسمه طرح کلی [subimageany] را آشکار می‌کند</li>
+    <li>artextra_clause_statue->مجسمه یک [Animal] را زیر یک دست نگه داشته است</li>
+    <li>artextra_clause_statue->مجسمه [Quantity_adjphrase] [Character] [pawn_adj] را نگه داشته است</li>
+    <li>artextra_clause_statue->[statueBodyPart] [SUBJECT_indefinite] شکافته شده است. در درون آن می‌توانید [subimageplural] را ببینید</li>
+    <li>carvedAdverb->با دقت</li>
+    <li>carvedAdverb->به سرعت</li>
+    <li>carvedAdverb->به طور خشن</li>
+    <li>carvedAdverb->با وسواس</li>
+    <li>carvedAdverb->با وسواس</li>
+    <li>carvedVerb->حکاکی</li>
+    <li>carvedVerb->پیکرتراشی</li>
+    <li>carvedVerb->قلم‌زنی</li>
+    <li>statueAdj->بزرگتر از واقعیت</li>
+    <li>statueAdj->سر به فلک کشیده</li>
+    <li>statueAdj->باشکوه</li>
+    <li>statueAdj->بزرگ</li>
+    <li>statueAdj->طبیعی</li>
+    <li>statueAdj->موقر</li>
+    <li>statueAdj->باوقار</li>
+    <li>statueAdj->موقر</li>
+    <li>statueAdj->نجیب</li>
+    <li>statueAdj->آرام</li>
+    <li>statueAdj->در حال فروپاشی</li>
+    <li>statueAdj->متواضع</li>
+    <li>statueAdj->برهنه</li>
+    <li>statueAdj->خام</li>
+    <li>statueAdj->تحریک‌کننده</li>
+    <li>statueAdj->فریبنده</li>
+    <li>statueAdj->وسوسه‌انگیز</li>
+    <li>statueAdj->عجیب و غریب</li>
+    <li>statueAdj->ترسناک</li>
+    <li>statueAdj->با عظمت</li>
+    <li>statueDepicts->به تصویر می‌کشد</li>
+    <li>statueDepicts->نشان می‌دهد</li>
+    <li>statueDepicts->مجسم می‌کند</li>
+    <li>side_position_statue->در پایه</li>
+    <li>side_position_statue->روی ستون کنار [SUBJECT_indefinite]</li>
+    <li>side_position_statue->زیر پاشنه [SUBJECT_indefinite]</li>
+    <li>side_position_statue->در آغوش [SUBJECT_indefinite]</li>
+    <li>side_position_statue->بالای سر [SUBJECT_indefinite]</li>
+    <li>side_position_statue->روی شانه‌های [SUBJECT_indefinite]</li>
+    <li>side_position_statue->پشت مجسمه مرکزی</li>
+    <li>side_position_statue->در حفره‌ای که در [statueBodyPart] پیکره حک شده است</li>
+    <li>side_position_statue->در کف دست [SUBJECT_indefinite]</li>
+    <li>side_position_statue->در حال بیرون زدن از [statueBodyPart] [SUBJECT_indefinite]</li>
+    <li>side_position_statue->در حال بیرون آمدن از دهان [SUBJECT_indefinite]</li>
+    <li>side_position_statue->روی پشت [SUBJECT_indefinite]</li>
+    <li>statueBodyPart->سینه</li>
+    <li>statueBodyPart->شکم</li>
+    <li>statueBodyPart->پشت</li>
+    <li>statueBodyPart->سر</li>
+    <li>statueBodyPart->چشم</li>
+    <li>prop->کتاب</li>
+    <li>prop->شمشیر</li>
+    <li>prop->نیزه</li>
+    <li>prop->اسلحه</li>
+    <li>prop->عتیقه روانی</li>
+    <li>prop->قلب انسان</li>
+  </ArtDescription_Statue.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_statue_name(p=4)->[SUBJECT_nameFull]</li>
@@ -242,6 +406,79 @@
     <li>statueIdea->Everlasting Love</li>
     <li>statueIdea->Passion</li>
   -->
-  <NamerStatue.rulePack.rulesStrings>TODO</NamerStatue.rulePack.rulesStrings>
+  <NamerStatue.rulePack.rulesStrings>
+    <li>r_statue_name(p=4)->[SUBJECT_nameFull]</li>
+    <li>r_statue_name->مجسمه [SUBJECT_indefinite]</li>
+    <li>r_statue_name->مطالعه‌ای از [SUBJECT_indefinite]</li>
+    <li>r_statue_name->مطالعه‌ای در [statueIdea]</li>
+    <li>r_statue_name->[SUBJECT_indefinite] [statueAdj]</li>
+    <li>r_statue_name->[SUBJECT_indefinite]، [statueAdj]</li>
+    <li>r_statue_name->[subjectNoun] [statueAdj]</li>
+    <li>r_statue_name->[subjectNoun] [statueAdj]</li>
+    <li>r_statue_name->پیکره [statueIdea]</li>
+    <li>r_statue_name->[statueIdea] و [subjectNoun]</li>
+    <li>r_statue_name->[subjectNoun] [SUBJECT_indefinite]</li>
+    <li>r_statue_name->[SUBJECT_indefinite]، [subjectNoun]</li>
+    <li>r_statue_name->[subjectNoun]</li>
+    <li>r_statue_name->[subjectNoun] [statueIdea]</li>
+    <li>r_statue_name->[SUBJECT_indefinite] و [talktopicheavyfile]</li>
+    <li>statueAdj(p=5)->[AdjectiveAny]</li>
+    <li>statueAdj->پیکرتراشی شده</li>
+    <li>statueAdj->خاموش</li>
+    <li>statueAdj->ابدی</li>
+    <li>statueAdj->کامل</li>
+    <li>statueAdj->قلم‌زنی شده</li>
+    <li>statueAdj->بی‌زمان</li>
+    <li>statueAdj->شکست‌ناپذیر</li>
+    <li>statueAdj->طنین‌انداز</li>
+    <li>statueAdj->ایده‌آل</li>
+    <li>statueAdj->انسانی</li>
+    <li>statueAdj->ناقص</li>
+    <li>statueAdj->هوشیار</li>
+    <li>statueAdj->طنین‌انداز</li>
+    <li>statueAdj->سوگوار</li>
+    <li>statueAdj->منجمد</li>
+    <li>statueAdj->در حال فروپاشی</li>
+    <li>subjectNoun(p=2)->[PersonJob]</li>
+    <li>subjectNoun(p=2)->[PersonFamily]</li>
+    <li>subjectNoun(p=2)->[PersonAlly]</li>
+    <li>subjectNoun(p=2)->[PersonBadass]</li>
+    <li>subjectNoun->ناظر</li>
+    <li>subjectNoun->قهرمان</li>
+    <li>subjectNoun->افسانه</li>
+    <li>subjectNoun->مدافع</li>
+    <li>subjectNoun->نگهبان</li>
+    <li>subjectNoun->آدونیس</li>
+    <li>subjectNoun->روح</li>
+    <li>subjectNoun->پیکره</li>
+    <li>subjectNoun->تصویر</li>
+    <li>subjectNoun->جان</li>
+    <li>subjectNoun->بدن</li>
+    <li>subjectNoun->سیما</li>
+    <li>subjectNoun->تفکر</li>
+    <li>subjectNoun->فرم</li>
+    <li>subjectNoun->فرشته</li>
+    <li>subjectNoun->مجسمه</li>
+    <li>subjectNoun->سراب</li>
+    <li>statueIdea(p=3)->[ConceptPositive]</li>
+    <li>statueIdea(p=3)->[ConceptBadass]</li>
+    <li>statueIdea(p=3)->[ConceptAngsty]</li>
+    <li>statueIdea(p=3)->[ConceptAngsty]</li>
+    <li>statueIdea->قدرت</li>
+    <li>statueIdea->خرد</li>
+    <li>statueIdea->زیرکی</li>
+    <li>statueIdea->قهرمانی</li>
+    <li>statueIdea->نیرو</li>
+    <li>statueIdea->خاطره</li>
+    <li>statueIdea->روح</li>
+    <li>statueIdea->نور</li>
+    <li>statueIdea->میهن‌پرستی</li>
+    <li>statueIdea->نور صبحگاهی</li>
+    <li>statueIdea->آسمان شب</li>
+    <li>statueIdea->طلوع خورشید</li>
+    <li>statueIdea->شن روان</li>
+    <li>statueIdea->عشق ابدی</li>
+    <li>statueIdea->اشتیاق</li>
+  </NamerStatue.rulePack.rulesStrings>
   
 </LanguageData>

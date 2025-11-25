@@ -25,18 +25,18 @@
 
 
 
-| 284 | `RulePacks_Namers_WorldFeatures.xml` | World Features |
-| 271 | `RulePacks_Namers_Factions.xml` | Faction Names |
-| 235 | `RulePacks_Art_Statues.xml` | Art Descriptions |
-| 203 | `RulePacks_Namers_Faction.xml` | Faction Naming |
-| 202 | `RulePacks_CombatRanged.xml` | Combat Text |
-| 197 | `RulePacks_Maneuvers.xml` | Combat Maneuvers |
-| 195 | `RulePacks_Namers_Landmarks.xml` | Landmark Names |
-| 186 | `RulePacks_Namers_Books.xml` | Book Naming |
-| 175 | `RulePacks_Namers_Xenohumans.xml` | Xenohuman Names |
-| 162 | `RulePacks_GrowthMoments.xml` | Growth Events |
-| 141 | `RulePacks_Art_DescriptionsPhysical.xml` | Art Descriptions |
-| 131 | `RulePacks_CombatIncludes.xml` | Combat Includes |
+
+
+
+
+
+
+
+
+
+
+
+
 
 #### Tales & Events:
 | Count | File | Category |
@@ -63,19 +63,6 @@
 | 154 | `ResearchProjects_1.xml` | Basic Research |
 | 145 | `ResearchProjects_Misc.xml` | Misc Research |
 
-#### Items & Buildings:
-| Count | File | Category |
-|-------|------|----------|
-| 381 | `WorkGivers.xml` | Work Tasks |
-| 253 | `WeaponTraitDefs.xml` | Weapon Traits |
-| 216 | `Bodies_Animal_Quadruped.xml` | Animal Bodies |
-| 186 | `Races_Animal.xml` | Animal Races |
-| 178 | `Hediffs_BodyParts_Bionic_Empire.xml` | Bionic Parts |
-| 176 | `Skills.xml` | Skills |
-| 160 | `Buildings_Misc.xml` | Misc Buildings |
-| 140 | `Weapons_Unique.xml` | Unique Weapons |
-| 127 | `Mote_Visual.xml` | Visual Effects |
-| 127 | `Hediffs_Local_Injuries.xml` | Local Injuries |
 | 141 | `Hediffs_Global_Misc.xml` | Global Hediffs |
 | 116 | `Buildings_Ancient.xml` | Ancient Buildings |
 
@@ -159,6 +146,20 @@
 - ✅ `RulePacks_Book_Namers.xml`
 - ✅ `Interactions_Social.xml`
 - ✅ `RulePacks_Maps.xml`
+- ✅ `RulePacks_Namers_WorldFeatures.xml`
+- ✅ `RulePacks_Namers_Factions.xml`
+- ✅ `RulePacks_Art_Statues.xml`
+- ✅ `RulePacks_Namers_Faction.xml`
+- ✅ `RulePacks_CombatRanged.xml`
+- ✅ `RulePacks_Maneuvers.xml`
+- ✅ `RulePacks_Namers_Landmarks.xml`
+- ✅ `RulePacks_Namers_Books.xml`
+- ✅ `RulePacks_Namers_Xenohumans.xml`
+- ✅ `RulePacks_GrowthMoments.xml`
+- ✅ `RulePacks_Art_DescriptionsPhysical.xml`
+- ✅ `RulePacks_CombatIncludes.xml`
+- ✅ `RulePacks_Global.xml`
+- ✅ `RulePacks_Namers_Art.xml`
 
 ### Abilities:
 - Use consistent terminology across all translations

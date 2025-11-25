@@ -15,7 +15,20 @@
     <li>scraped_past->skipped</li>
     <li>scraped_past->skated</li>
   -->
-  <Combat_DeflectIncludes.rulePack.rulesStrings>TODO</Combat_DeflectIncludes.rulePack.rulesStrings>
+  <Combat_DeflectIncludes.rulePack.rulesStrings>
+    <li>scraped_present->کمانه کردن</li>
+    <li>scraped_present->برگشتن</li>
+    <li>scraped_present->خراشیدن</li>
+    <li>scraped_present->منحرف شدن</li>
+    <li>scraped_present->پریدن</li>
+    <li>scraped_present->سر خوردن</li>
+    <li>scraped_past->کمانه کرد</li>
+    <li>scraped_past->برگشت</li>
+    <li>scraped_past->خراشید</li>
+    <li>scraped_past->منحرف شد</li>
+    <li>scraped_past->پرید</li>
+    <li>scraped_past->سر خورد</li>
+  </Combat_DeflectIncludes.rulePack.rulesStrings>
   
   <!-- EN:
     <li>action->[INITIATOR_definite] [tried] to [damaged_inf] [RECIPIENT_definite]</li>
@@ -33,7 +46,22 @@
     <li>tried->tried</li>
     <li>tried->attempted</li>
   -->
-  <Combat_FailIncludes.rulePack.rulesStrings>TODO</Combat_FailIncludes.rulePack.rulesStrings>
+  <Combat_FailIncludes.rulePack.rulesStrings>
+    <li>action->[INITIATOR_definite] [tried] [RECIPIENT_definite] را [damaged_inf]</li>
+    <li>action->[INITIATOR_definite] [tried] با [implement] [RECIPIENT_definite] را [damaged_inf]</li>
+    <li>action->[INITIATOR_definite] [tried] از [implement] برای [damaged_inf] [RECIPIENT_definite] استفاده کند</li>
+    <li>action->[INITIATOR_definite] [WEAPON_label] خود را به سمت [RECIPIENT_definite] تاب داد</li>
+    <li>action(p=0.3)->[INITIATOR_definite] با [implement] [towardsat] [RECIPIENT_definite] [verb_genericattack]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [towardsat] [RECIPIENT_definite] [verb_genericattack]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] با [implement] [verb_genericattack]</li>
+    <li>towardsat->به سمت</li>
+    <li>towardsat->به</li>
+    <li>verb_genericattack->تاب داد</li>
+    <li>verb_genericattack->کوبید</li>
+    <li>verb_genericattack->ضربه زد</li>
+    <li>tried->سعی کرد</li>
+    <li>tried->تلاش کرد</li>
+  </Combat_FailIncludes.rulePack.rulesStrings>
   
   <!-- EN:
     <li>result(p=1)->[damaged_present] [RECIPIENT_possessive] [targetlist]</li>
@@ -48,7 +76,19 @@
     <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->making [RECIPIENT_objective] [wince] [painevent]</li>
     <li>flavortext_consequence(p=0.2)->throwing [RECIPIENT_objective] off balance</li>
   -->
-  <Combat_MeleeDamageIncludes.rulePack.rulesStrings>TODO</Combat_MeleeDamageIncludes.rulePack.rulesStrings>
+  <Combat_MeleeDamageIncludes.rulePack.rulesStrings>
+    <li>result(p=1)->[targetlist] [RECIPIENT_possessive] را [damaged_present]</li>
+    <li>result(p=0.2)->[targetlist] [RECIPIENT_possessive] را [damaged_present] [flavortext_consequence]</li>
+    <li>result(p=0.1)->[targetlist] [RECIPIENT_possessive] را [strikeAdv] [damaged_present]</li>
+    <li>strikeAdv->با درد</li>
+    <li>strikeAdv->به طرز وحشتناکی</li>
+    <li>strikeAdv->وحشیانه</li>
+    <li>strikeAdv->بدخواهانه</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->و زخمی منزجرکننده به جا گذاشت</li>
+    <li>flavortext_consequence->و زخمی وحشتناک به جا گذاشت</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->و باعث شد [RECIPIENT_objective] [painevent] [wince]</li>
+    <li>flavortext_consequence(p=0.2)->و تعادل [RECIPIENT_objective] را بر هم زد</li>
+  </Combat_MeleeDamageIncludes.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[action], [result].</li>
@@ -90,7 +130,46 @@
     <li>to->to</li>
     <li>to->into</li>
   -->
-  <Combat_MeleeIncludes.rulePack.rulesStrings>TODO</Combat_MeleeIncludes.rulePack.rulesStrings>
+  <Combat_MeleeIncludes.rulePack.rulesStrings>
+    <li>r_logentry->[action]، [result].</li>
+    <li>r_logentry(priority=-10)->[action].</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=2)->[TOOL_label] [WEAPON_label] [INITIATOR_possessive]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[WEAPON_label] [INITIATOR_possessive]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[TOOL_label] یک [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=0.5)->یک [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==bodypart,p=2)->[TOOL_label] [INITIATOR_possessive]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=2)->[TOOL_label] [WEAPON_label] [INITIATOR_possessive]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[WEAPON_label] [INITIATOR_possessive]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[TOOL_label] [INITIATOR_possessive]</li>
+    <li>targetlist(recipient_part_count==1)->[recipient_part0_label]</li>
+    <li>targetlist(recipient_part_count==2)->[recipient_part0_label] و [recipient_part1_label]</li>
+    <li>targetlist(recipient_part_count==3)->[recipient_part0_label]، [recipient_part1_label] و [recipient_part2_label]</li>
+    <li>targetlist->[recipient_part0_label]، [recipient_part1_label]، [recipient_part2_label] و [recipient_part3_label]</li>
+    <li>damaged_present(deflected!=True)->مجروح کرد</li>
+    <li>damaged_present(deflected!=True)->مصدوم کرد</li>
+    <li>destroyed(p=0.5)->نابود کرد</li>
+    <li>destroyed(p=0.5)->ویران کرد</li>
+    <li>destroyed(p=0.5)->خراب کرد</li>
+    <li>destroyed(p=0.5)->درهم کوبید</li>
+    <li>wince(RECIPIENT_flesh==Normal)->خود را جمع کند</li>
+    <li>wince(RECIPIENT_flesh==Normal)->چهره درهم بکشد</li>
+    <li>wince(RECIPIENT_flesh==Normal)->به خود بپیچد</li>
+    <li>wince(RECIPIENT_flesh==Normal)->ناله کند</li>
+    <li>wince(RECIPIENT_flesh!=Mechanoid)->جیغ بکشد</li>
+    <li>wince(RECIPIENT_flesh!=Mechanoid)->فریاد بزند</li>
+    <li>wince->عقب بکشد</li>
+    <li>wince->تلوتلو بخورد</li>
+    <li>painstate->در</li>
+    <li>painstate->با</li>
+    <li>painstate->از</li>
+    <li>painevent(RECIPIENT_flesh!=Mechanoid)->[painstate] درد</li>
+    <li>painevent(RECIPIENT_flesh!=Mechanoid)->[painstate] عذاب</li>
+    <li>painevent(RECIPIENT_flesh==Normal)->با بدبختی</li>
+    <li>painevent->از جراحت</li>
+    <li>painevent->از زخم</li>
+    <li>to->به</li>
+    <li>to->به درون</li>
+  </Combat_MeleeIncludes.rulePack.rulesStrings>
   
   <!-- EN:
     <li>skillDescMelee->[wielding] [INITIATOR_possessive] [WEAPON_label] [skillAdv]</li>
@@ -142,7 +221,56 @@
     <li>skillAdv(INITIATOR_flesh==Mechanoid)->robotically</li>
     <li>skillAdv(INITIATOR_flesh==Mechanoid)->directly</li>
   -->
-  <Combat_SkillIncludes.rulePack.rulesStrings>TODO</Combat_SkillIncludes.rulePack.rulesStrings>
+  <Combat_SkillIncludes.rulePack.rulesStrings>
+    <li>skillDescMelee->[wielding] [WEAPON_label] [INITIATOR_possessive] [skillAdv]</li>
+    <li>skillDescMelee->[using] [implement] [skillAdv]</li>
+    <li>wielding(p=4)->به کار بردن</li>
+    <li>wielding(p=3)->استفاده از</li>
+    <li>wielding(p=2)->دست گرفتن</li>
+    <li>wielding->تکان دادن</li>
+    <li>wielding->دستکاری کردن</li>
+    <li>using(p=4)->استفاده از</li>
+    <li>using->راندن</li>
+    <li>using->فرو کردن</li>
+    <li>using->بهره بردن از</li>
+    <li>using->حرکت دادن</li>
+    <li>skillAdv(INITIATOR_skill<=3)->نالایقانه</li>
+    <li>skillAdv(INITIATOR_skill<=3)->بی‌مهارت</li>
+    <li>skillAdv(INITIATOR_skill<=3)->وحشیانه</li>
+    <li>skillAdv(INITIATOR_skill<=3)->تصادفی</li>
+    <li>skillAdv(INITIATOR_skill<=3)->دست‌پاچه</li>
+    <li>skillAdv(INITIATOR_skill<=4)->ناشیانه</li>
+    <li>skillAdv(INITIATOR_skill<=4)->دست‌پاچه</li>
+    <li>skillAdv(INITIATOR_skill<=5)->با ترس</li>
+    <li>skillAdv(INITIATOR_skill<=5)->با تزلزل</li>
+    <li>skillAdv(INITIATOR_skill<=5)->احمقانه</li>
+    <li>skillAdv(INITIATOR_skill<=6)->با تردید</li>
+    <li>skillAdv(INITIATOR_skill<=6)->با اکراه</li>
+    <li>skillAdv(INITIATOR_skill<=6)->به آرامی</li>
+    <li>skillAdv(INITIATOR_skill<=6)->آزمایشی</li>
+    <li>skillAdv(INITIATOR_skill<=6)->غیرماهرانه</li>
+    <li>skillAdv(INITIATOR_skill<=6)->آماتورگونه</li>
+    <li>skillAdv(INITIATOR_skill<=6)->بزدلانه</li>
+    <li>skillAdv(INITIATOR_skill<=8)->با اشتیاق</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill<=10)->ماهرانه</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill<=10)->شایسته</li>
+    <li>skillAdv(INITIATOR_skill>=8)->حرفه‌ای</li>
+    <li>skillAdv(INITIATOR_skill>=8)->چالاک</li>
+    <li>skillAdv(INITIATOR_skill>=8)->به جا</li>
+    <li>skillAdv(INITIATOR_skill>=8)->هوشمندانه</li>
+    <li>skillAdv(INITIATOR_skill>=8)->با مهارت</li>
+    <li>skillAdv(INITIATOR_skill>=8)->ماهرانه</li>
+    <li>skillAdv(INITIATOR_skill>=10)->استادانه</li>
+    <li>skillAdv(INITIATOR_skill>=10)->نرم</li>
+    <li>skillAdv(INITIATOR_skill>=12)->متخصصانه</li>
+    <li>skillAdv(INITIATOR_skill>=12)->دقیق</li>
+    <li>skillAdv(INITIATOR_skill>=14)->استادانه</li>
+    <li>skillAdv(INITIATOR_skill>=16)->هنرمندانه</li>
+    <li>skillAdv(INITIATOR_skill>=16)->با وقار</li>
+    <li>skillAdv(INITIATOR_flesh==Mechanoid)->مکانیکی</li>
+    <li>skillAdv(INITIATOR_flesh==Mechanoid)->رباتیک</li>
+    <li>skillAdv(INITIATOR_flesh==Mechanoid)->مستقیم</li>
+  </Combat_SkillIncludes.rulePack.rulesStrings>
   
   <!-- EN:
     <li>destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]</li>
@@ -154,6 +282,15 @@
     <li>damaged_targets(recipient_part_damaged_count==3)->[recipient_part_damaged0_label], [recipient_part_damaged1_label], and [recipient_part_damaged2_label]</li>
     <li>damaged_targets->[recipient_part_damaged0_label], [recipient_part_damaged1_label], [recipient_part_damaged2_label], and [recipient_part_damaged3_label]</li>
   -->
-  <Combat_WoundIncludes.rulePack.rulesStrings>TODO</Combat_WoundIncludes.rulePack.rulesStrings>
+  <Combat_WoundIncludes.rulePack.rulesStrings>
+    <li>destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==2)->[recipient_part_destroyed0_label] و [recipient_part_destroyed1_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_label]، [recipient_part_destroyed1_label] و [recipient_part_destroyed2_label]</li>
+    <li>destroyed_targets->[recipient_part_destroyed0_label]، [recipient_part_destroyed1_label]، [recipient_part_destroyed2_label] و [recipient_part_destroyed3_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==1)->[recipient_part_damaged0_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==2)->[recipient_part_damaged0_label] و [recipient_part_damaged1_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==3)->[recipient_part_damaged0_label]، [recipient_part_damaged1_label] و [recipient_part_damaged2_label]</li>
+    <li>damaged_targets->[recipient_part_damaged0_label]، [recipient_part_damaged1_label]، [recipient_part_damaged2_label] و [recipient_part_damaged3_label]</li>
+  </Combat_WoundIncludes.rulePack.rulesStrings>
   
 </LanguageData>

@@ -165,6 +165,169 @@
     <li>enemyNameSingular->woman with no eyes</li>
     <li>enemyNameSingular->man with a hook for a hand</li>
   -->
-  <GrowthMomentFlavor.rulePack.rulesStrings>TODO</GrowthMomentFlavor.rulePack.rulesStrings>
+  <GrowthMomentFlavor.rulePack.rulesStrings>
+    <li>r_root->[firstSentence] [secondSentence]</li>
+    <li>firstSentence(tierSection==4)->[PAWN_pronoun] [nounGrowth] عالی‌ای از خود نشان داده و [nounAttitudeGood] [adjGood]ی برای [nounFuture] دارد.</li>
+    <li>firstSentence(tierSection==4)->[PAWN_pronoun] با [situationLearning] تعدادی اشتیاق جدید پیدا کرده است.</li>
+    <li>firstSentence(tierSection==4)->با [situationLearning]، [PAWN_pronoun] تعدادی اشتیاق جدید به دست آورده است.</li>
+    <li>firstSentence(tierSection==4)->در سال گذشته، [PAWN_pronoun] [nounGrowth] عالی‌ای از خود نشان داده است.</li>
+    <li>secondSentence(tierSection==4)->[PAWN_nameDef] می‌خواهد وقت بیشتری را صرف [situationLearning] و [situationFun] کند.</li>
+    <li>secondSentence(tierSection==4)->[PAWN_nameDef] از [situationLearning] لذت می‌برد اما بیشتر از همه عاشق [situationFun] است.</li>
+    <li>secondSentence(tierSection==4)->[PAWN_nameDef] از [situationLearning] لذت می‌برد و رویای [situationAspirational] را در سر دارد.</li>
+    <li>secondSentence(tierSection==4)->[PAWN_nameDef] امیدوار است که با [situationLearning]، بتواند در نهایت به [situationAspirational] برسد.</li>
+    <li>firstSentence(tierSection==3)->اخیراً، [PAWN_pronoun] [nounAttitudeGood] [adjGood]ی برای [nounFuture] نشان داده است.</li>
+    <li>firstSentence(tierSection==3)->[PAWN_pronoun] برای [nounFuture] احساس [nounAttitudeGood] می‌کند.</li>
+    <li>firstSentence(tierSection==3)->[PAWN_pronoun] به تعدادی فعالیت جدید از جمله [situationLearning] علاقه‌مند شده است.</li>
+    <li>firstSentence(tierSection==3)->[PAWN_pronoun] [nounGrowth] عالی‌ای از خود نشان داده است.</li>
+    <li>secondSentence(tierSection==3)->[PAWN_nameDef] شکرگزار است که به ندرت احساس [feelingBad] می‌کند و علاقه‌مند است وقت بیشتری را صرف [situationFun] کند.</li>
+    <li>secondSentence(tierSection==3)->[PAWN_nameDef] [situationLearning] را دوست دارد اما هنگام [situationFun] خوشحال‌ترین است.</li>
+    <li>secondSentence(tierSection==3)->وقتی [PAWN_nameDef] بزرگتر شد، می‌خواهد وقتش را صرف [taskWork] کند.</li>
+    <li>secondSentence(tierSection==3)->بیشتر از همه، [PAWN_nameDef] عاشق [situationFun] است.</li>
+    <li>firstSentence(tierSection==2)->[PAWN_pronoun] مقداری [nounGrowth] نشان داده و می‌خواهد به [situationLearning] ادامه دهد.</li>
+    <li>firstSentence(tierSection==2)->[PAWN_pronoun] مقداری [nounAttitudeGood] برای یادگیری بیشتر دارد.</li>
+    <li>firstSentence(tierSection==2)->با هیجان درباره [nounFuture]، [PAWN_pronoun] دوست دارد وقت خود را صرف [situationLearning] کند.</li>
+    <li>firstSentence(tierSection==2)->[PAWN_pronoun] با [situationLearning] یک اشتیاق جدید پیدا کرده است.</li>
+    <li>secondSentence(tierSection==2)->[PAWN_nameDef] از [situationFun] لذت می‌برد.</li>
+    <li>secondSentence(tierSection==2)->[PAWN_nameDef] امیدوار است وقت بیشتری را صرف [situationFun] کند.</li>
+    <li>secondSentence(tierSection==2)->[PAWN_nameDef] فکر می‌کند [taskWork] خسته‌کننده است.</li>
+    <li>secondSentence(tierSection==2)->به طور خاص، [PAWN_nameDef] دوست دارد روی [situationLearning] تمرکز کند.</li>
+    <li>firstSentence(tierSection==1)->[PAWN_pronoun] [nounGrowth] کمی نشان داده و انتظارات پایینی برای [nounFuture] دارد.</li>
+    <li>firstSentence(tierSection==1)->با وجود خوش‌بینی نسبت به [nounFuture]، [PAWN_pronoun] [nounGrowth] کمی نشان داده است.</li>
+    <li>firstSentence(tierSection==1)->[PAWN_pronoun] امیدوار است که اوضاع در [nounFuture] بهتر شود.</li>
+    <li>firstSentence(tierSection==1)->[PAWN_pronoun] [nounGrowth] ناچیزی نشان داده و شکایت می‌کند که [situationLearning] خسته‌کننده است.</li>
+    <li>secondSentence(tierSection==1)->[PAWN_nameDef] آرزو دارد وقت بیشتری را صرف [situationFun] کند اما بیش از حد مشغول نگرانی درباره [situationBad] است.</li>
+    <li>secondSentence(tierSection==1)->[PAWN_nameDef] اغلب هنگام [situationFun] احساس [feelingBad] می‌کند.</li>
+    <li>secondSentence(tierSection==1)->[PAWN_nameDef] ترس عجیبی دارد که با [situationFun]، دچار [situationBad] شود.</li>
+    <li>secondSentence(tierSection==1)->[PAWN_nameDef] کابوس‌های منظمی درباره [situationBad] می‌بیند.</li>
+    <li>firstSentence(tierSection==0)->[PAWN_pronoun] اغلب می‌خواهد مشغول [situationLearning] باشد اما به ندرت فرصت انجام آن را پیدا می‌کند.</li>
+    <li>firstSentence(tierSection==0)->[PAWN_pronoun] هیچ [nounGrowth]ی نشان نداده است.</li>
+    <li>firstSentence(tierSection==0)->[PAWN_pronoun] در ایجاد هرگونه اشتیاق جدید شکست خورده و [nounAttitudeGood] کمی برای [nounFuture] دارد.</li>
+    <li>firstSentence(tierSection==0)->[PAWN_pronoun] علاقه کمی به یادگیری نشان داده و به خصوص از [situationLearning] بیزار است.</li>
+    <li>secondSentence(tierSection==0)->[PAWN_nameDef] فقط به [situationFun] علاقه‌مند است.</li>
+    <li>secondSentence(tierSection==0)->[PAWN_nameDef] دائماً توسط ترس از [situationBad] عقب نگه داشته می‌شود.</li>
+    <li>secondSentence(tierSection==0)->[PAWN_nameDef] در ترس از آسیب دیدن شدید در نتیجه [situationBad] زندگی می‌کند.</li>
+    <li>secondSentence(tierSection==0)->[PAWN_nameDef] کابوسی تکرارشونده دارد که در آن مشغول [situationFun] است که منجر به [situationBad] می‌شود.</li>
+    <li>adjGood->عالی</li>
+    <li>adjGood->سیری‌ناپذیر</li>
+    <li>adjGood->شدید</li>
+    <li>adjGood->سرزنده</li>
+    <li>adjGood->واقعی</li>
+    <li>adjGood->بی‌کران</li>
+    <li>adjGood->عظیم</li>
+    <li>adjGood->ستودنی</li>
+    <li>adjGood->بی‌پایان</li>
+    <li>adjGood->خالص</li>
+    <li>adjGood->تحسین‌برانگیز</li>
+    <li>feelingBad->تنهایی</li>
+    <li>feelingBad->ترس</li>
+    <li>feelingBad->آسیب‌دیدگی</li>
+    <li>feelingBad->بیماری شدید</li>
+    <li>feelingBad->مریضی</li>
+    <li>nounAttitudeGood->اشتیاق</li>
+    <li>nounAttitudeGood->هیجان</li>
+    <li>nounAttitudeGood->خوش‌بینی</li>
+    <li>nounFuture->چند هفته آینده</li>
+    <li>nounFuture->ماه‌های پیش رو</li>
+    <li>nounFuture->سال آینده</li>
+    <li>nounFuture->آینده</li>
+    <li>nounGrowth->رشد شخصی</li>
+    <li>nounGrowth->توسعه فردی</li>
+    <li>situationFun->کاوش در طبیعت وحشی با [friendNamePlural]</li>
+    <li>situationFun->بازی کردن [Game]</li>
+    <li>situationFun->بازی کردن [Game] با دوستان</li>
+    <li>situationFun->بازی کردن با یک [friendNameSingular]</li>
+    <li>situationFun->گپ زدن با یک [friendNameSingular]</li>
+    <li>situationFun->شایعه‌پردازی درباره [friendNamePlural]</li>
+    <li>situationFun->دوست پیدا کردن</li>
+    <li>situationFun->بودن در بیرون زیر نور خورشید</li>
+    <li>situationFun->تماشای آسمان شب برای شهاب‌سنگ‌ها</li>
+    <li>situationFun->صحبت کردن در رادیو درباره [topicLearning]</li>
+    <li>situationFun->گپ زدن در رادیو با غریبه‌ها</li>
+    <li>situationFun->کشیدن نقاشی [friendNamePlural] روی زمین</li>
+    <li>situationFun->رویاپردازی درباره [topicLearning]</li>
+    <li>situationFun->دویدن در طبیعت</li>
+    <li>situationFun->ماجراجویی با [friendNamePlural]</li>
+    <li>situationFun->پیدا کردن گنج پنهان</li>
+    <li>situationFun->کشیدن نقاشی [enemyNamePlural]</li>
+    <li>situationFun->کشیدن نقاشی یک [friendNameSingular]</li>
+    <li>situationFun->نوشتن داستانی درباره یک [friendNameSingular] که [enemyNamePlural] را شکار می‌کند</li>
+    <li>situationFun->وانمود کردن به جنگیدن با [enemyNamePlural]</li>
+    <li>situationFun->تعریف کردن داستان‌هایی درباره [enemyNamePlural]</li>
+    <li>situationLearning->تماشای دیگران در حال [taskWork]</li>
+    <li>situationLearning->یادگیری درباره [taskWork]</li>
+    <li>situationLearning->یادگیری درباره [topicLearning]</li>
+    <li>situationLearning->مطالعه [topicLearning]</li>
+    <li>situationLearning->خواندن درباره [topicLearning]</li>
+    <li>situationLearning->انجام کار معنادار</li>
+    <li>situationAspirational->ایجاد تفاوت در دنیا</li>
+    <li>situationAspirational->بسیار ثروتمند شدن</li>
+    <li>situationAspirational->نجات دنیا</li>
+    <li>situationAspirational->کمک به دیگران</li>
+    <li>situationAspirational->بسیار مشهور شدن</li>
+    <li>situationAspirational->ترک این سیاره</li>
+    <li>situationBad->مورد حمله قرار گرفتن توسط [enemyNamePlural]</li>
+    <li>situationBad->ربوده شدن توسط [enemyNamePlural]</li>
+    <li>situationBad->شکار شدن توسط یک [enemyNameSingular]</li>
+    <li>situationBad->تعقیب شدن توسط یک [enemyNameSingular]</li>
+    <li>situationBad->استنشاق گاز سمی</li>
+    <li>situationBad->گرفتن پوسیدگی ریه</li>
+    <li>situationBad->گرفتن طاعون</li>
+    <li>situationBad->مسمومیت غذایی</li>
+    <li>situationBad->دیدن مرگ عزیزان</li>
+    <li>situationBad->غذا خوردن بدون میز</li>
+    <li>topicLearning->کیهان</li>
+    <li>topicLearning->علم</li>
+    <li>topicLearning->فرهنگ‌های مختلف</li>
+    <li>topicLearning->آرکوتک‌ها</li>
+    <li>topicLearning->اقتصاد سیاره‌ای</li>
+    <li>topicLearning->روانشناسی</li>
+    <li>topicLearning->زیست‌شناسی حشرات</li>
+    <li>topicLearning->تولید مثل مکانیودها</li>
+    <li>topicLearning->ویرایش ژن</li>
+    <li>topicLearning->علم موشک</li>
+    <li>topicLearning->استخراج معدن</li>
+    <li>taskWork->پختن غذا</li>
+    <li>taskWork->آموزش حیوانات</li>
+    <li>taskWork->مراقبت از بیماران</li>
+    <li>taskWork->کمک به [friendNamePlural]</li>
+    <li>taskWork->شکار مافالو</li>
+    <li>taskWork->پرورش غذا</li>
+    <li>taskWork->خیاطی لباس</li>
+    <li>friendNamePlural->دوستان</li>
+    <li>friendNamePlural->عزیزان</li>
+    <li>friendNamePlural->حیوانات [friendAdj]</li>
+    <li>friendNamePlural->مکانیودهای [friendAdj]</li>
+    <li>friendNamePlural->بچه‌های [friendAdj]</li>
+    <li>friendNamePlural->دوستان خیالی</li>
+    <li>friendNameSingular->دوست</li>
+    <li>friendNameSingular->سگ</li>
+    <li>friendNameSingular->گربه [friendAdj]</li>
+    <li>friendNameSingular->بچه</li>
+    <li>friendNameSingular->بچه [friendAdj]</li>
+    <li>friendNameSingular->عضو خانواده</li>
+    <li>friendAdj->مهربان</li>
+    <li>friendAdj->مفید</li>
+    <li>friendAdj->دوستانه</li>
+    <li>friendAdj->شیطون</li>
+    <li>friendAdj->بامزه</li>
+    <li>enemyNamePlural->مهاجمان</li>
+    <li>enemyNamePlural->مهاجمان [AdjectiveBadass]</li>
+    <li>enemyNamePlural->غریبه‌های مرموز</li>
+    <li>enemyNamePlural->حشرات [AdjectiveBadass]</li>
+    <li>enemyNamePlural->بومالوپ‌های آدم‌خوار</li>
+    <li>enemyNamePlural->خون‌آشام‌های مخفی‌کار</li>
+    <li>enemyNamePlural->خدایان ماشینی</li>
+    <li>enemyNamePlural->مکانیودهای وحشی</li>
+    <li>enemyNamePlural->موجودات سایکیک با قدرت‌های وحشتناک</li>
+    <li>enemyNameSingular->[Enemy] [AdjectiveBadass]</li>
+    <li>enemyNameSingular->[AnimalBadass] [AdjectiveBadass]</li>
+    <li>enemyNameSingular->[AnimalBadass]</li>
+    <li>enemyNameSingular->[Mechanoid]</li>
+    <li>enemyNameSingular->ویستر [AdjectiveBadass]</li>
+    <li>enemyNameSingular->غریبه</li>
+    <li>enemyNameSingular->سنگوفاژ</li>
+    <li>enemyNameSingular->زن بدون چشم</li>
+    <li>enemyNameSingular->مرد با دست قلابی</li>
+  </GrowthMomentFlavor.rulePack.rulesStrings>
   
 </LanguageData>

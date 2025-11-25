@@ -33,13 +33,47 @@
     <li>fromof->from</li>
     <li>fromof->of</li>
   -->
-  <Combat_ExplosionImpact.rulePack.rulesStrings>TODO</Combat_ExplosionImpact.rulePack.rulesStrings>
+  <Combat_ExplosionImpact.rulePack.rulesStrings>
+    <li>prefix->[blast] [fromof] [projectile] [INITIATOR_definite]</li>
+    <li>prefix->[blast] [fromof] [WEAPON_label] [INITIATOR_definite]</li>
+    <li>prefix->[blast] [fromof] [projectile] [INITIATOR_definite]</li>
+    <li>prefix->[blast] [fromof] [WEAPON_label] [INITIATOR_definite]</li>
+    <li>prefix->[blast] [INITIATOR_definite]</li>
+    <li>prefix->[blast] [projectile] [INITIATOR_definite]</li>
+    <li>prefix->[blast] [WEAPON_label] [INITIATOR_definite]</li>
+    <li>prefix->[projectile] [INITIATOR_definite]</li>
+    <li>prefix->[WEAPON_label] [INITIATOR_definite]</li>
+    <li>r_logentry->[prefix] [RECIPIENT_definite] را [injured].</li>
+    <li>r_logentry->[prefix] [destroyed_targets] [RECIPIENT_definite] را [destroyed_past].</li>
+    <li>r_logentry->[prefix] [destroyed_targets] [RECIPIENT_definite] را [strikeAdv] [destroyed_past].</li>
+    <li>r_logentry->[prefix] [strikeAdv] [destroyed_targets] [RECIPIENT_definite] را [destroyed_past].</li>
+    <li>r_logentry->[prefix] [destroyed_targets] [RECIPIENT_definite] را [destroyed_past] و [damaged_targets] او را [damaged_past].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [damaged_targets] [RECIPIENT_definite] را [damaged_past].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [damaged_targets] [RECIPIENT_definite] را [strikeAdv] [damaged_past].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [strikeAdv] [damaged_targets] [RECIPIENT_definite] را [damaged_past].</li>
+    <li>r_logentry->[RECIPIENT_definite] توسط [INITIATOR_definite] [damaged_past].</li>
+    <li>r_logentry->[RECIPIENT_definite] توسط [INITIATOR_definite] [strikeAdv] [damaged_past].</li>
+    <li>r_logentry->[RECIPIENT_definite] [damaged_past].</li>
+    <li>r_logentry(p=0.001)->[RECIPIENT_definite] در یک انفجار گرفتار شد.</li>
+    <li>r_logentry(p=0.001)->[RECIPIENT_definite] مورد اصابت انفجار قرار گرفت.</li>
+    <li>blast->انفجار</li>
+    <li>blast->موج انفجار</li>
+    <li>blast->موج شوک</li>
+    <li>blast->انفجار</li>
+    <li>blast->تخلیه</li>
+    <li>blast->برخورد</li>
+    <li>fromof->ناشی از</li>
+    <li>fromof->حاصل از</li>
+  </Combat_ExplosionImpact.rulePack.rulesStrings>
   
   <!-- EN:
     <li>projectile(WEAPON_missing==True, p=3)->[PROJECTILE_label]</li>
     <li>projectile->[WEAPON_projectile_label]</li>
   -->
-  <Combat_RangedBase.rulePack.rulesStrings>TODO</Combat_RangedBase.rulePack.rulesStrings>
+  <Combat_RangedBase.rulePack.rulesStrings>
+    <li>projectile(WEAPON_missing==True, p=3)->[PROJECTILE_label]</li>
+    <li>projectile->[WEAPON_projectile_label]</li>
+  </Combat_RangedBase.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite]'s [projectile] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets].</li>
@@ -98,7 +132,63 @@
     <li>missed->missed</li>
     <li>missed->narrowly missed</li>
   -->
-  <Combat_RangedDamage.rulePack.rulesStrings>TODO</Combat_RangedDamage.rulePack.rulesStrings>
+  <Combat_RangedDamage.rulePack.rulesStrings>
+    <li>r_logentry->[projectile] [INITIATOR_definite] [destroyed_targets] [RECIPIENT_definite] را [destroyed_past].</li>
+    <li>r_logentry->[projectile] [INITIATOR_definite] [destroyed_targets] [RECIPIENT_definite] را [to] [destroyed_suffix] [destroyed_past].</li>
+    <li>r_logentry(p=2)->[projectile] [INITIATOR_definite] [ORIGINALTARGET_definite] را [missed] و [destroyed_targets] [RECIPIENT_definite] را [destroyed_past].</li>
+    <li>r_logentry(p=2)->[projectile] [INITIATOR_definite] [ORIGINALTARGET_definite] را [missed]، [destroyed_targets] [RECIPIENT_definite] را [destroyed_present].</li>
+    <li>r_logentry->[destroyed_targets] [RECIPIENT_definite] توسط [projectile] [INITIATOR_definite] [destroyed_past].</li>
+    <li>r_logentry->[destroyed_targets] [RECIPIENT_definite] توسط [projectile] [INITIATOR_definite] [to] [destroyed_suffix] [destroyed_past].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[projectile] [INITIATOR_definite] [damaged_targets] [RECIPIENT_definite] را [damaged_past].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[projectile] [INITIATOR_definite] [ORIGINALTARGET_definite] را [missed] و [damaged_targets] [RECIPIENT_definite] را [damaged_past].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[projectile] [INITIATOR_definite] [ORIGINALTARGET_definite] را [missed]، [damaged_targets] [RECIPIENT_definite] را [damaged_present].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[damaged_targets] [RECIPIENT_definite] توسط [projectile] [INITIATOR_definite] [damaged_past].</li>
+    <li>r_logentry(p=3)->[projectile] [INITIATOR_definite] [destroyed_targets] [RECIPIENT_definite] را [destroyed_past] و [damaged_targets] او را [damaged_past].</li>
+    <li>r_logentry(p=6)->[projectile] [INITIATOR_definite] [ORIGINALTARGET_definite] را [missed]، [destroyed_targets] [RECIPIENT_definite] را [destroyed_present] و [damaged_targets] او را [damaged_present].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] با یک [projectile] به [RECIPIENT_definite] برخورد کرد.</li>
+    <li>r_logentry(p=0.2)->[projectile] [INITIATOR_definite] به [RECIPIENT_definite] برخورد کرد.</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [ORIGINALTARGET_definite] را [missed] و با یک [projectile] به [RECIPIENT_definite] برخورد کرد.</li>
+    <li>r_logentry(p=0.4)->[projectile] [INITIATOR_definite] [ORIGINALTARGET_definite] را [missed] و به [RECIPIENT_definite] برخورد کرد.</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] با یک [projectile] که برای [ORIGINALTARGET_definite] در نظر گرفته شده بود به [RECIPIENT_definite] برخورد کرد.</li>
+    <li>projectile(p=0.05)->شلیک</li>
+    <li>destroyed_past->خرد کرد</li>
+    <li>destroyed_past->له کرد</li>
+    <li>destroyed_past->محو کرد</li>
+    <li>destroyed_past->نابود کرد</li>
+    <li>destroyed_past->سوراخ کرد</li>
+    <li>destroyed_past->سوراخ‌سوراخ کرد</li>
+    <li>destroyed_past->پنچر کرد</li>
+    <li>destroyed_present->در حال خرد کردن</li>
+    <li>destroyed_present->در حال له کردن</li>
+    <li>destroyed_present->در حال محو کردن</li>
+    <li>destroyed_present->در حال نابود کردن</li>
+    <li>destroyed_present->در حال سوراخ کردن</li>
+    <li>destroyed_present->در حال سوراخ‌سوراخ کردن</li>
+    <li>destroyed_present->در حال پنچر کردن</li>
+    <li>destroyed_suffix->قطعات</li>
+    <li>destroyed_suffix->تکه‌ها</li>
+    <li>destroyed_suffix->مهی رقیق</li>
+    <li>destroyed_suffix->قطعات</li>
+    <li>destroyed_suffix(p=0.5)->یک افتضاح سوراخ‌سوراخ</li>
+    <li>destroyed_suffix(RECIPIENT_flesh!=Mechanoid,p=0.2)->گوشت چرخ‌کرده</li>
+    <li>damaged_past->زخمی کرد</li>
+    <li>damaged_past->مجروح کرد</li>
+    <li>damaged_past->سوراخ کرد</li>
+    <li>damaged_past->آسیب زد</li>
+    <li>damaged_past->تیر زد</li>
+    <li>damaged_present->در حال زخمی کردن</li>
+    <li>damaged_present->در حال مجروح کردن</li>
+    <li>damaged_present->در حال سوراخ کردن</li>
+    <li>damaged_present->در حال آسیب زدن</li>
+    <li>damaged_present->در حال تیر زدن</li>
+    <li>damaged_suffix->به شکلی زشت</li>
+    <li>damaged_suffix(RECIPIENT_flesh!=Mechanoid)->با خون قابل مشاهده</li>
+    <li>damaged_suffix(RECIPIENT_flesh!=Mechanoid)->با گوشت بیرون زده</li>
+    <li>to->به</li>
+    <li>to->به</li>
+    <li>missed->خطا رفت</li>
+    <li>missed->با فاصله کم خطا رفت</li>
+  </Combat_RangedDamage.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite]'s [projectile] [damaged_past] [RECIPIENT_definite][damaged_target] [deflected_result].</li>
@@ -125,7 +215,31 @@
     <li>missed->missed</li>
     <li>missed->narrowly missed</li>
   -->
-  <Combat_RangedDeflect.rulePack.rulesStrings>TODO</Combat_RangedDeflect.rulePack.rulesStrings>
+  <Combat_RangedDeflect.rulePack.rulesStrings>
+    <li>r_logentry->[projectile] [INITIATOR_definite] [RECIPIENT_definite][damaged_target] را [damaged_past] [deflected_result].</li>
+    <li>r_logentry(p=2)->[projectile] [INITIATOR_definite] [ORIGINALTARGET_definite] را [missed] و [RECIPIENT_definite][damaged_target_possessive_opt] را [damaged_past] [deflected_result].</li>
+    <li>r_logentry->[RECIPIENT_definite][damaged_target_possessive_opt] توسط [projectile] [INITIATOR_definite] [damaged_past] [deflected_result].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] با یک [projectile] [deflected_result] به [RECIPIENT_definite][damaged_target_possessive_opt] برخورد کرد.</li>
+    <li>r_logentry(p=0.2)->[projectile] [INITIATOR_definite] [deflected_result] به [RECIPIENT_definite][damaged_target_possessive_opt] برخورد کرد.</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [ORIGINALTARGET_definite] را [missed] و با یک [projectile] [deflected_result] به [RECIPIENT_definite][damaged_target_possessive_opt] برخورد کرد.</li>
+    <li>r_logentry(p=0.4)->[projectile] [INITIATOR_definite] [ORIGINALTARGET_definite] را [missed] و [deflected_result] به [RECIPIENT_definite][damaged_target_possessive_opt] برخورد کرد.</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] با یک [projectile] که برای [ORIGINALTARGET_definite] در نظر گرفته شده بود [deflected_result] به [RECIPIENT_definite][damaged_target_possessive_opt] برخورد کرد.</li>
+    <li>projectile(p=0.05)->شلیک</li>
+    <li>damaged_target_possessive_opt-></li>
+    <li>damaged_target_possessive_opt(recipient_part_damaged0_outside==True)->'s [recipient_part_damaged0_label]</li>
+    <li>deflected_result-> [adverb_deflected]</li>
+    <li>deflected_result->، [deflected_consequence]</li>
+    <li>adverb_deflected_opt(p=4)-></li>
+    <li>adverb_deflected_opt->[adverb_deflected]</li>
+    <li>adverb_deflected->بدون آسیب</li>
+    <li>adverb_deflected->بیهوده</li>
+    <li>deflected_consequence->اما [adverb_deflected_opt] [scraped_past]</li>
+    <li>deflected_consequence->از زرهش [adverb_deflected_opt] [scraped_present]</li>
+    <li>scraped_past->کمانه کرد</li>
+    <li>scraped_present->در حال کمانه کردن</li>
+    <li>missed->خطا رفت</li>
+    <li>missed->با فاصله کم خطا رفت</li>
+  </Combat_RangedDeflect.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] [shotat] [RECIPIENT_definite] with [INITIATOR_possessive] [WEAPON_label].</li>
@@ -156,7 +270,35 @@
     <li>verb_shot->fired</li>
     <li>verb_shot(p=0.2)->discharged</li>
   -->
-  <Combat_RangedFire.rulePack.rulesStrings>TODO</Combat_RangedFire.rulePack.rulesStrings>
+  <Combat_RangedFire.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] با [WEAPON_label] خود به [RECIPIENT_definite] [shotat].</li>
+    <li>r_logentry->[INITIATOR_definite] [WEAPON_label] خود را به سمت [RECIPIENT_definite] [shot].</li>
+    <li>r_logentry->[INITIATOR_definite] به [RECIPIENT_definite] [shotat].</li>
+    <li>r_logentry->[INITIATOR_definite] [burst] [projectile] را به سمت [RECIPIENT_definite] [shot_a].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [projectile] را [shot_a].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [WEAPON_label] خود را [shot].</li>
+    <li>shot_a(p=2)->[verb_shot]</li>
+    <li>shot_a->[skillAdv] [verb_shot]</li>
+    <li>shot(p=2)->[verb_shot]</li>
+    <li>shot->[skillAdv] [verb_shot]</li>
+    <li>shotat->[aburst] شلیک کرد به</li>
+    <li>shotat->[skillAdv] [aburst] شلیک کرد به</li>
+    <li>shotat(p=0.5)->سعی کرد [aburst] شلیک کند به</li>
+    <li>shotat(p=0.3)->یک تیر انداخت به</li>
+    <li>shotat(p=0.2)->[skillAdv] یک تیر انداخت به</li>
+    <li>shotat->[aburst] آتش گشود به</li>
+    <li>shotat->[skillAdv] [aburst] آتش گشود به</li>
+    <li>shotat(p=0.5)->نشانه گرفت و [aburst] آتش گشود به</li>
+    <li>shotat(p=0.5)->[skillAdv] نشانه گرفت و [aburst] آتش گشود به</li>
+    <li>shotat(p=0.3)->آتش گشود به</li>
+    <li>aburst-></li>
+    <li>aburst(BURST==True,p=3)->یک رگبار</li>
+    <li>burst-></li>
+    <li>burst(BURST==True,p=3)->رگبار</li>
+    <li>verb_shot->شلیک کرد</li>
+    <li>verb_shot->آتش کرد</li>
+    <li>verb_shot(p=0.2)->خالی کرد</li>
+  </Combat_RangedFire.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] [threw] [INITIATOR_possessive] [projectile] at [RECIPIENT_definite].</li>
@@ -183,7 +325,31 @@
     <li>adjective_threw->precise</li>
     <li>adjective_threw(INITIATOR_flesh!=Mechanoid)->wary</li>
   -->
-  <Combat_RangedFire_Thrown.rulePack.rulesStrings>TODO</Combat_RangedFire_Thrown.rulePack.rulesStrings>
+  <Combat_RangedFire_Thrown.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] [projectile] خود را به سمت [RECIPIENT_definite] [threw].</li>
+    <li>r_logentry->[INITIATOR_definite] یک [projectile] به سمت [RECIPIENT_definite] [threw_a].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [projectile] خود را [threw].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] یک [projectile] [threw_a].</li>
+    <li>threw_a->[adverb_threw] [verb_threw]</li>
+    <li>threw_a(p=2)->[verb_threw]</li>
+    <li>threw(p=2)->[verb_threw]</li>
+    <li>threw->[adverb_threw] [verb_threw]</li>
+    <li>verb_threw->پرتاب کرد</li>
+    <li>verb_threw->پرت کرد</li>
+    <li>verb_threw->پرتاب کرد</li>
+    <li>adverb_threw->با دقت</li>
+    <li>adverb_threw->به سرعت</li>
+    <li>adverb_threw->دقیق</li>
+    <li>adverb_threw->عامدانه</li>
+    <li>adverb_threw(INITIATOR_flesh!=Mechanoid)->با احتیاط</li>
+    <li>adverb_threw->دقیق</li>
+    <li>adverb_threw(INITIATOR_flesh!=Mechanoid)->با احتیاط</li>
+    <li>adjective_threw->دقیق</li>
+    <li>adjective_threw->سریع</li>
+    <li>adjective_threw->عامدانه</li>
+    <li>adjective_threw->دقیق</li>
+    <li>adjective_threw(INITIATOR_flesh!=Mechanoid)->محتاط</li>
+  </Combat_RangedFire_Thrown.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite]'s [projectile] [missed].</li>
@@ -229,6 +395,49 @@
     <li>ducked->bent down</li>
     <li>ducked->hid</li>
   -->
-  <Combat_RangedMiss.rulePack.rulesStrings>TODO</Combat_RangedMiss.rulePack.rulesStrings>
+  <Combat_RangedMiss.rulePack.rulesStrings>
+    <li>r_logentry->[projectile] [INITIATOR_definite] [missed].</li>
+    <li>r_logentry->[INITIATOR_definite] [ORIGINALTARGET_definite] را خطا زد.</li>
+    <li>r_logentry->[ORIGINALTARGET_definite] [avoidance]، [projectile] [INITIATOR_definite] [missing].</li>
+    <li>missed(p=4)->خطا رفت</li>
+    <li>missed(p=2)->با فاصله کم خطا رفت</li>
+    <li>missed(p=2)->با فاصله زیاد خطا رفت</li>
+    <li>missed->پرت رفت</li>
+    <li>missed->به هوا رفت</li>
+    <li>missed->به ارتفاع بالایی در هوا رفت</li>
+    <li>missed->در زمین فرو رفت</li>
+    <li>missed->از روی زمین کمانه کرد و گم شد</li>
+    <li>missed->تکه‌ای از زمین را کند</li>
+    <li>missed(p=0.2)->از چند میلی‌متری [ORIGINALTARGET_definite] رد شد</li>
+    <li>missed->از چند سانتی‌متری [ORIGINALTARGET_definite] رد شد</li>
+    <li>missed->از یک متری [ORIGINALTARGET_definite] رد شد</li>
+    <li>missed->از مسیر منحرف شد</li>
+    <li>missing->خطا می‌رود</li>
+    <li>missing->با فاصله کم خطا می‌رود</li>
+    <li>missing->با فاصله زیاد خطا می‌رود</li>
+    <li>missing->پرت می‌رود</li>
+    <li>missing->به هوا می‌رود</li>
+    <li>missing->به ارتفاع بالایی در هوا می‌رود</li>
+    <li>missing->در زمین فرو می‌رود</li>
+    <li>missing->از روی زمین کمانه می‌کند و گم می‌شود</li>
+    <li>missing->تکه‌ای از زمین را می‌کند</li>
+    <li>missing(p=0.2)->از چند میلی‌متری [ORIGINALTARGET_definite] رد می‌شود</li>
+    <li>missing->از چند سانتی‌متری [ORIGINALTARGET_definite] رد می‌شود</li>
+    <li>missing->از یک متری [ORIGINALTARGET_definite] رد می‌شود</li>
+    <li>missing->از مسیر منحرف می‌شود</li>
+    <li>avoidance(ORIGINALTARGET_mobile==True,p=2)->در آخرین [moment] به کناری [moved]</li>
+    <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3)->پشت [COVER_definite] [ducked]</li>
+    <li>moved->حرکت کرد</li>
+    <li>moved->تکان خورد</li>
+    <li>moved->تکان خورد</li>
+    <li>moved->جاخالی داد</li>
+    <li>moment->لحظه</li>
+    <li>moment->ثانیه</li>
+    <li>moment->آن</li>
+    <li>ducked->جاخالی داد</li>
+    <li>ducked->قوز کرد</li>
+    <li>ducked->خم شد</li>
+    <li>ducked->پنهان شد</li>
+  </Combat_RangedMiss.rulePack.rulesStrings>
   
 </LanguageData>
