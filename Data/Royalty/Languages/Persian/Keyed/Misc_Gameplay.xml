@@ -1,13 +1,14 @@
-﻿  <!-- EN: ({0} impressiveness) -->
-  <ThroneRoomImpressivenessInfo>({0} تأثیرگذاری)</ThroneRoomImpressivenessInfo>
-  <!-- EN: Throne must be placed indoors. -->
-  <ThroneMustBePlacedInside>تخت سلطنت باید در داخل ساختمان قرار گیرد.</ThroneMustBePlacedInside>
-  <!-- EN: Minimum title ({FACTION_name}): {TITLE} -->
-  <MinimumRoyalTitleInspectString>حداقل عنوان ({FACTION_name}): {TITLE}</MinimumRoyalTitleInspectString>
-  <!-- EN: Trading here requires title: {0} -->
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
   <RequiresTradePermission>تجارت در اینجا نیاز به عنوان دارد: {0}</RequiresTradePermission>
   <!-- EN: Personal bedroom (partner allowed) -->
   <RequirementPersonalBedroom>اتاق خواب شخصی (شریک مجاز)</RequirementPersonalBedroom>
+  <!-- EN: Satisfies title -->
+  <ThroneMaxSatisfiedTitle>برآورده کننده عنوان</ThroneMaxSatisfiedTitle>
+  <!-- EN: ({0} impressiveness) -->
+  <ThroneRoomImpressivenessInfo>({0} تأثیرگذاری)</ThroneRoomImpressivenessInfo>
+  <!-- EN: Minimum title ({FACTION_name}): {TITLE} -->
+  <MinimumRoyalTitleInspectString>حداقل عنوان ({FACTION_name}): {TITLE}</MinimumRoyalTitleInspectString>
   
   <!-- Generated neurotrainers -->
   <!-- EN: psytrainer ({0}) -->
@@ -85,7 +86,7 @@
   <!-- EN: throne is not accessible. -->
   <AbilitySpeechDisabledNoThroneIsNotAccessible>تخت سلطنت قابل دسترسی نیست.</AbilitySpeechDisabledNoThroneIsNotAccessible>
   <!-- EN: throne not usable because it is undignified. -->
-  <AbilitySpeechDisabledNoThroneUndignified>تخت سلطنت قابل استفاده نیست زیرا بی‌وقار است.</AbilitySpeechSpeechDisabledNoThroneUndignified>
+  <AbilitySpeechDisabledNoThroneUndignified>تخت سلطنت قابل استفاده نیست زیرا بی‌وقار است.</AbilitySpeechDisabledNoThroneUndignified>
   <!-- EN: already giving a speech. -->
   <AbilitySpeechDisabledAlreadyGivingSpeech>در حال حاضر در حال سخنرانی است.</AbilitySpeechDisabledAlreadyGivingSpeech>
   <!-- EN: Outcome chances -->
@@ -164,4 +165,21 @@
   <!-- EN: Total meditation today: {0} (progress multiplier {1}) -->
   <TotalMeditationToday>کل مدیتیشن امروز: {0} (ضریب پیشرفت {1})</TotalMeditationToday>
 
+
+  <!-- EN: blocked by {0_label} -->
+  <ThrusterBlockedBy>blocked by {0_label}</ThrusterBlockedBy>
+  <!-- EN: must be outside -->
+  <MustBeOutside>must be outside</MustBeOutside>
+  <!-- EN: blocked by substructure -->
+  <BlockedBySubstructure>blocked by substructure</BlockedBySubstructure>
+  <!-- EN: {PAWN_nameDef} cannot board {1} -->
+  <FailedToBoardGravship>{PAWN_nameDef} cannot board {1}</FailedToBoardGravship>
+  <!-- EN: {PAWN_nameDef} cannot exit {1} -->
+  <FailedToLeaveGravship>{PAWN_nameDef} cannot exit {1}</FailedToLeaveGravship>
+  <!-- EN: View range -->
+  <ViewRange>View range</ViewRange>
+  <!-- EN: View the gravship’s current range on the world map. -->
+  <ViewRangeDesc>View the gravship’s current range on the world map.</ViewRangeDesc>
+  <!-- EN: Landmark -->
+  <Landmark>Landmark</Landmark>
 </LanguageData>

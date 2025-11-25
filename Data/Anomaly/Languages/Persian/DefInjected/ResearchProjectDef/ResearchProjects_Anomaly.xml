@@ -235,6 +235,25 @@
     <li>subject->mind erasure</li>
     <li>subject_story->studied stories of episodic amnesia</li>
     <li>subject_story->worked in a clinic with brain lesion survivors</li>
+    <li>subject_story->learned to manipulate episodic memory</li>
+    <li>subject_story->witnessed the effects of a brainwipe ritual</li>
+    <li>subject_gerund->erasing memories</li>
+    <li>subject_gerund->performing a brainwipe ritual</li>
+  -->
+  <Brainwipe.generalRules.rulesStrings>
+    <li>subject->پاکسازی ذهن</li>
+    <li>subject_story->داستان‌های فراموشی دوره‌ای را مطالعه کرد</li>
+    <li>subject_story->در کلینیکی با بازماندگان ضایعه مغزی کار کرد</li>
+    <li>subject_story->دستکاری حافظه دوره‌ای را یاد گرفت</li>
+    <li>subject_story->شاهد اثرات مراسم پاکسازی مغز بود</li>
+    <li>subject_gerund->پاک کردن خاطرات</li>
+    <li>subject_gerund->اجرای مراسم پاکسازی مغز</li>
+  </Brainwipe.generalRules.rulesStrings>
+
+  <!-- EN: chronophagy -->
+  <Chronophagy.label>زمان‌خواری</Chronophagy.label>
+  <!-- EN: Perform a psychic ritual which drains youth from a victim and gives it to the invoker. The target will age rapidly. -->
+  <Chronophagy.description>اجرای مراسم روانی که جوانی را از قربانی تخلیه می‌کند و به اجراکننده می‌دهد. هدف به سرعت پیر خواهد شد.</Chronophagy.description>
   <!-- EN:
     <li>subject->chronophagy</li>
     <li>subject_story->studied age-related degeneration</li>
@@ -822,24 +841,6 @@
   -->
   <SummonFleshbeastsPlayer.generalRules.rulesStrings>
     <li>subject->احضار هیولای گوشتی</li>
-    <li>subject_story->کتاب‌های باستانی درباره منشأ حیات خواند</li>
-    <li>subject_story->تولید خودبه‌خودی را در بوم‌رت‌های ساحه تجربه کرد</li>
-    <li>subject_story->فیلم باستانی درباره پیوند گوشت تماشا کرد و الهام گرفت</li>
-    <li>subject_story->انتقال آگاهی و جدایی در ادغام آلی را مطالعه کرد</li>
-    <li>subject_story->جامعه درت‌مول را مشاهده کرد که با هیولاهای وحشتناک زیرزمینی روبرو شده بودند</li>
-  -->
-  <PleasurePulse.generalRules.rulesStrings>
-    <li>subject->دعوت لذت</li>
-    <li>subject_story->یک داستان باستانی زمینی خواند که به غذای معجزه‌آسایی به نام سوما می‌بالید</li>
-    <li>subject_story->افسانه نیلوفرخواران را تحقیق کرد</li>
-    <li>subject_story->با فیلسوفان اجتماعی کار کرد تا یک مراسم فایده‌گرا ایجاد کند</li>
-    <li>subject_story->به یک کالت معمارتک نادر اختصاص یافته به تفریح و لذت پیوست</li>
-    <li>subject_gerund->القای لذت به صورت روانی</li>
-    <li>subject_gerund->اجرای مراسم روانی برای القای لذت</li>
-  </PleasurePulse.generalRules.rulesStrings>
-  
-  <!-- EN: proximity detector -->
-  <ProximityDetector.label>آشکارساز نزدیکی</ProximityDetector.label>
   <!-- EN: Build a device that can detect invisible creatures. -->
   <ProximityDetector.description>ساخت دستگاهی که می‌تواند موجودات نامرئی را شناسایی کند.</ProximityDetector.description>
   <!-- EN:

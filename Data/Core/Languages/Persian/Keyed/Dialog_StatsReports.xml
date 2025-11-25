@@ -1,12 +1,11 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
   <!-- EN: Tool -->
   <Tool>ابزار</Tool>
   <!-- EN: damage -->
-  <DamageLower>خسارت</DamageLower>
+  <DamageLower>آسیب</DamageLower>
   <!-- EN: seconds per attack -->
-  <SecondsPerAttackLower>ثانیه در هر حمله</SecondsPerAttackLower>
+  <SecondsPerAttackLower>ثانیه به ازای هر حمله</SecondsPerAttackLower>
 
   <!-- EN: Base value -->
   <StatsReport_BaseValue>مقدار پایه</StatsReport_BaseValue>
@@ -22,7 +21,7 @@
   <StatsReport_ShamblerCrawling>خزیدن شَمبلر</StatsReport_ShamblerCrawling>
   <!-- EN: Material -->
   <StatsReport_Material>ماده</StatsReport_Material>
-  <!-- EN: Character quality -->
+  ﻿  <!-- EN: Character quality -->
   <StatsReport_CharacterQuality>کیفیت شخصیت</StatsReport_CharacterQuality>
   <!-- EN: Skills -->
   <StatsReport_Skills>مهارت‌ها</StatsReport_Skills>
