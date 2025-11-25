@@ -1,4 +1,6 @@
-﻿  <!-- EN: room impressiveness -->
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: room impressiveness -->
   <DestroyConsumableBuilding.comps.1.label>جذابیت اتاق</DestroyConsumableBuilding.comps.1.label>
   <!-- EN: Terrible -->
   <!-- EN: room impressiveness -->
@@ -120,6 +122,6 @@
   <!-- EN: convicted -->
   <TrialMentalState.outcomeChances.1.label>محکوم شده</TrialMentalState.outcomeChances.1.label>
   <!-- EN: The prosecution convinced everyone of {PAWN_labelShort}'s guilt. {PAWN_labelShort} was convicted and can now be punished. You may execute or banish {PAWN_objective} and nobody will mind. -->
-  <TrialMentalState.outcomeChances.1.description>دادستانی همه را از گناه {PAWN_labelShort} متقاعد کرد. {PAWN_labelShort} محکوم شد و اکنون می‌تواند مجازات شود. شما می‌توانید {PAWN_objective} را اعدام یا تبعید کنید و هیچ کس اهمیت نخواهد داد.</TrialMentalState.outcomeChances.1.description>
+  <TrialMentalState.outcomeChances.1.description>دادستانی همه را از گناه {PAWN_labelShort} متقاعد کرد. {PAWN_labelShort} محکوم شد و اکنون می‌تواند مجازات شود. شما می‌تواند {PAWN_objective} را اعدام یا تبعید کنید و هیچ کس اهمیت نخواهد داد.</TrialMentalState.outcomeChances.1.description>
   
 </LanguageData>
