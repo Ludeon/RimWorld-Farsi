@@ -157,7 +157,7 @@
     <li>lesson(priority=-1)->اتفاقات رخ می‌دهد</li>
     <li>r_pattern->"[r_lessonIntro] [r_lesson]. [r_lessonReinforcement]"\n\n  - [lessonAttribution]</li>
     <li>lessonAttribution->[founder_nameFull]</li>
-    <li>lessonAttribution(p=2)-><i>[attributionSource_titleCase]</i> اثر [founder_nameFull]</li>
+    <li>lessonAttribution(p=2)->[attributionSource_titleCase] اثر [founder_nameFull]</li>
     <li>lessonAttribution->نامه [founder_nameFull] به [believer_nameFull]</li>
     <li>lessonAttribution->[founder_nameFull]، از سخنرانی اصلی در [memeConference_titleCase]</li>
     <li>lessonAttribution->[founder_nameFull]، در بستر مرگ [founder_possessive]</li>

@@ -31,7 +31,36 @@
     <li>deflecting->bouncing</li>
     <li>deflecting->glancing</li>
   -->
-  <Combat_Deflect.rulePack.rulesStrings>TODO</Combat_Deflect.rulePack.rulesStrings>
+  <Combat_Deflect.rulePack.rulesStrings>
+    <li>r_logentry(p=0.5)->[INITIATOR_definite] [damaged_past] [atMaybe] [RECIPIENT_definite] در [recipient_part0_label] [deflected_result].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [skillAdvMaybe] [damaged_past] [atMaybe] [RECIPIENT_definite] با [implement] [deflected_result].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [skillAdvMaybe] [damaged_past] [atMaybe] [RECIPIENT_definite] [deflected_result].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite]، [skillDescMelee]، [damaged_past] [RECIPIENT_definite] در [recipient_part0_label] [deflected_result].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite] زد [RECIPIENT_definite] با یک [damaged_inf] از [implement] [deflected_result].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite] [skillAdvMaybe] استفاده کرد از [implement] برای [damaged_inf] [RECIPIENT_definite] [deflected_result].</li>
+    <li>skillAdvMaybe-></li>
+    <li>skillAdvMaybe->[skillAdv]</li>
+    <li>atMaybe-></li>
+    <li>atMaybe->به</li>
+    <li>deflected_result->، اما [TOOL_label] [deflected] از [harmlessly_opt]</li>
+    <li>deflected_result->، [deflecting] از زره [RECIPIENT_possessive] [harmlessly_opt]</li>
+    <li>harmlessly_opt(p=4)-></li>
+    <li>harmlessly_opt->[harmlessly]</li>
+    <li>harmlessly->بی‌ضرر</li>
+    <li>harmlessly->بی‌فایده</li>
+    <li>deflected->منحرف شد</li>
+    <li>deflected->خراشید</li>
+    <li>deflected->لیز خورد</li>
+    <li>deflected->سایید</li>
+    <li>deflected->برگشت خورد</li>
+    <li>deflected->کمانه کرد</li>
+    <li>deflecting->منحرف شدن</li>
+    <li>deflecting->خراشیدن</li>
+    <li>deflecting->لیز خوردن</li>
+    <li>deflecting->ساییدن</li>
+    <li>deflecting->برگشت خوردن</li>
+    <li>deflecting->کمانه کردن</li>
+  </Combat_Deflect.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry(p=0.5)->[RECIPIENT_definite] [skillAdvMaybe] dodged [INITIATOR_definite]'s [damaged_inf] from [implement].</li>
@@ -42,7 +71,15 @@
     <li>result->but was deceived by [RECIPIENT_definite]'s feint</li>
     <li>result->but the attack was cleverly avoided</li>
   -->
-  <Combat_Dodge.rulePack.rulesStrings>TODO</Combat_Dodge.rulePack.rulesStrings>
+  <Combat_Dodge.rulePack.rulesStrings>
+    <li>r_logentry(p=0.5)->[RECIPIENT_definite] [skillAdvMaybe] جاخالی داد [damaged_inf] [INITIATOR_definite] از [implement].</li>
+    <li>r_logentry(p=0.5)->[RECIPIENT_definite] [skillAdvMaybe] جاخالی داد [damaged_inf] [INITIATOR_definite].</li>
+    <li>skillAdvMaybe-></li>
+    <li>skillAdvMaybe->[skillAdv]</li>
+    <li>result->اما [RECIPIENT_definite] به کناری پرید</li>
+    <li>result->اما فریب [RECIPIENT_definite] را خورد</li>
+    <li>result->اما حمله به طرز ماهرانه‌ای دفع شد</li>
+  </Combat_Dodge.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry(p=1.0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label].</li>
@@ -66,7 +103,28 @@
     <li>action(p=0.3)->[INITIATOR_definite] used [implement] to [damaged_inf] [RECIPIENT_definite]</li>
     <li>action(p=0.3)->[INITIATOR_definite] used [implement] [skillAdv] to [damaged_inf] [RECIPIENT_definite]</li>
   -->
-  <Combat_Hit.rulePack.rulesStrings>TODO</Combat_Hit.rulePack.rulesStrings>
+  <Combat_Hit.rulePack.rulesStrings>
+    <li>r_logentry(p=1.0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] در [recipient_part0_label].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] در [recipient_part0_label] [strikeAdv].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] در [recipient_part0_label]، [flavortext_consequence].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite]، [skillDescMelee]، [damaged_past] [RECIPIENT_definite] در [recipient_part0_label].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite]، [skillDescMelee]، [strikeAdv] [damaged_past] [RECIPIENT_definite] در [recipient_part0_label].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [destroyed_past] [destroyed_targets] [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [destroyed_past] [destroyed_targets] [RECIPIENT_definite] [destroyed_suffix].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [destroyed_past] [destroyed_targets] [RECIPIENT_definite] با [implement].</li>
+    <li>r_logentry(p=1,recipient_part_count==0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] با [implement].</li>
+    <li>r_logentry(p=0.4,recipient_part_count==0)->[INITIATOR_definite] [skillAdv] [damaged_past] [RECIPIENT_definite] با [implement].</li>
+    <li>result(p=1,recipient_part_damaged_count==0)->[destroyed_present] [destroyed_targets] [RECIPIENT_possessive]</li>
+    <li>result(p=1,recipient_part_destroyed_count==0)->[damaged_present] [damaged_targets] [RECIPIENT_possessive]</li>
+    <li>result(p=1)->[destroyed_present] [destroyed_targets] [RECIPIENT_possessive] و [damaged_present] [damaged_targets] [RECIPIENT_possessive]</li>
+    <li>action(p=1.0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] با [implement]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite]، [skillDescMelee]، [damaged_past] [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] زد [RECIPIENT_definite] با یک [damaged_inf] از [implement]</li>
+    <li>action(p=0.3)->[INITIATOR_definite]، [skillDescMelee]، زد [RECIPIENT_definite] با یک [damaged_inf] از [implement]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] استفاده کرد از [implement] برای [damaged_inf] [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] استفاده کرد از [implement] [skillAdv] برای [damaged_inf] [RECIPIENT_definite]</li>
+  </Combat_Hit.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry(p=0.3)->[RECIPIENT_definite] avoided [INITIATOR_definite]'s [WEAPON_label] [damaged_inf].</li>
@@ -87,6 +145,24 @@
     <li>result->but stumbled at the last second</li>
     <li>result(INITIATOR_flesh!=Mechanoid)->but hesitated at the last second</li>
   -->
-  <Combat_Miss.rulePack.rulesStrings>TODO</Combat_Miss.rulePack.rulesStrings>
+  <Combat_Miss.rulePack.rulesStrings>
+    <li>r_logentry(p=0.3)->[RECIPIENT_definite] اجتناب کرد از [damaged_inf] [WEAPON_label] [INITIATOR_definite].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] خطا زد [RECIPIENT_definite] با یک [damaged_inf] از [implement].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] در حالی که سعی می‌کرد [damaged_inf] [RECIPIENT_definite] با [implement].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] در حالی که سعی می‌کرد [damaged_inf] [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] سعی کرد [skillAdvMaybe] [damaged_inf] [RECIPIENT_definite]، اما [failtype].</li>
+    <li>skillAdvMaybe-></li>
+    <li>skillAdvMaybe->[skillAdv]</li>
+    <li>failtype(p=5)->خطا رفت</li>
+    <li>failtype->تلوتلو خورد</li>
+    <li>failtype->سکندری خورد</li>
+    <li>failtype->دست و پا زد</li>
+    <li>failtype->تقلا کرد</li>
+    <li>result(p=4)->اما خطا رفت</li>
+    <li>result->اما فقط هوا را زد</li>
+    <li>result->اما چرخش به خطا رفت</li>
+    <li>result->اما در آخرین لحظه تلوتلو خورد</li>
+    <li>result(INITIATOR_flesh!=Mechanoid)->اما در آخرین لحظه تردید کرد</li>
+  </Combat_Miss.rulePack.rulesStrings>
   
 </LanguageData>

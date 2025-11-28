@@ -8,20 +8,14 @@
   <!-- EN: The blood rain is ending. -->
   <BloodRain.endMessage>باران خونی در حال پایان یافتن است.</BloodRain.endMessage>
   <!-- EN: Drops of thick blood-like fluid have begun falling from the sky.\n\nAnyone exposed feels a growing anger which strengthens melee attacks but will eventually become a berserk rage. Exposed animals will eventually become manhunters. The intensity of the effect varies between individuals depending on their traits, psychic sensitivity, and random individual factors. -->
-  <BloodRain.letterText>قطرات مایع غلیظ خونی از آسمان شروع به باریدن کرده‌اند.
-
-هر کسی که در معرض قرار گیرد خشم فزاینده‌ای احساس می‌کند که حملات نزدیک را تقویت می‌کند اما در نهایت به جنون وحشیانه تبدیل می‌شود. حیوانات در معرض نهایتاً شکارچی انسان خواهند شد. شدت اثر بین افراد بر اساس ویژگی‌هایشان، حساسیت روانی و عوامل فردی تصادفی متفاوت است.</BloodRain.letterText>
+  <BloodRain.letterText>قطرات مایع غلیظ خونی از آسمان شروع به باریدن کرده‌اند.\n\nهر کسی که در معرض قرار گیرد خشم فزاینده‌ای احساس می‌کند که حملات نزدیک را تقویت می‌کند اما در نهایت به جنون وحشیانه تبدیل می‌شود. حیوانات در معرض نهایتاً شکارچی انسان خواهند شد. شدت اثر بین افراد بر اساس ویژگی‌هایشان، حساسیت روانی و عوامل فردی تصادفی متفاوت است.</BloodRain.letterText>
   
   <!-- EN: death pall resurrection -->
   <DeathPall.label>احیای پرده مرگ</DeathPall.label>
   <!-- EN: The dead will rise! Burn, bury, destroy, or move corpses indoors to prevent them from resurrecting. -->
   <DeathPall.description>مردگان برخواهند خاست! اجساد را بسوزانید، دفن کنید، نابود کنید یا داخل خانه ببرید تا از احیای آن‌ها جلوگیری کنید.</DeathPall.description>
   <!-- EN: A death-gray cloud has descended on the area.\n\nThe cloud is made of microscopic self-powered archites created by some unknown superintelligence. Where they land on dead flesh, they will enter the body and reanimate it to create a twisted imitation of life.\n\nThe dead will rise! Burn, bury, destroy, or move corpses indoors to prevent them from resurrecting. -->
-  <DeathPall.letterText>ابری خاکستری جسدی بر منطقه فرود آمده است.
-
-این ابر متشکل از آرکایت‌های میکروسکوپی خودکار است که توسط هوش сверх ناشناخته‌ای ایجاد شده‌اند. آن‌ها روی گوشت مرده فرود می‌آیند و وارد بدن می‌شوند و آن را دوباره زنده می‌کنند تا تقلیدی پیچ‌خورده از زندگی ایجاد کنند.
-
-مردگان برخواهند خاست! اجساد را بسوزانید، دفن کنید، نابود کنید یا داخل خانه ببرید تا از احیای آن‌ها جلوگیری کنید.</DeathPall.letterText>
+  <DeathPall.letterText>ابری خاکستری جسدی بر منطقه فرود آمده است.\n\nاین ابر متشکل از آرکایت‌های میکروسکوپی خودکار است که توسط هوش сверх ناشناخته‌ای ایجاد شده‌اند. آن‌ها روی گوشت مرده فرود می‌آیند و وارد بدن می‌شوند و آن را دوباره زنده می‌کنند تا تقلیدی پیچ‌خورده از زندگی ایجاد کنند.\n\nمردگان برخواهند خاست! اجساد را بسوزانید، دفن کنید، نابود کنید یا داخل خانه ببرید تا از احیای آن‌ها جلوگیری کنید.</DeathPall.letterText>
   
   <!-- EN: gray pall stench -->
   <GrayPall.label>بوی بد پرده خاکستری</GrayPall.label>
@@ -33,9 +27,7 @@
   <!-- EN: hate chanting -->
   <HateChantDrone.label>سرود نفرت</HateChantDrone.label>
   <!-- EN: Cultists of Horax are performing a psychically tuned chant. The ominous chanting conveys a dark and dreamlike hatred. It makes your head pound and your skin crawl. So long as the drone continues, colonists will be unhappy.\n\nThe chant will continue to grow more powerful as long as the cultists are not stopped. -->
-  <HateChantDrone.description>کلی‌های هواراکس در حال اجرای سرودی روانی هستند. سرود شوم نفرت تاریک و رویاگونه‌ای را منتقل می‌کند. سرتان را می‌فشارد و پوستتان را می‌خارد. تا زمانی که این نغمه ادامه یابد، شهروندان ناراحت خواهند بود.
-
-سرود تا زمانی که کلی‌ها متوقف نشوند به رشد قدرت ادامه خواهد داد.</HateChantDrone.description>
+  <HateChantDrone.description>کلی‌های هواراکس در حال اجرای سرودی روانی هستند. سرود شوم نفرت تاریک و رویاگونه‌ای را منتقل می‌کند. سرتان را می‌فشارد و پوستتان را می‌خارد. تا زمانی که این نغمه ادامه یابد، شهروندان ناراحت خواهند بود.\n\nسرود تا زمانی که کلی‌ها متوقف نشوند به رشد قدرت ادامه خواهد داد.</HateChantDrone.description>
   
   <!-- EN: unnatural darkness -->
   <UnnaturalDarkness.label>تاریکی غیرطبیعی</UnnaturalDarkness.label>

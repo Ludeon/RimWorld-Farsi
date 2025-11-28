@@ -42,6 +42,19 @@
   <Gun_TurretFoam.label>پاشش‌کننده فوم</Gun_TurretFoam.label>
   <!-- EN: A high-pressure firefoam sprayer usually mounted on a turret. -->
   <Gun_TurretFoam.description>یک پاشش‌کننده فوم آتش‌نشانی پرفشار که معمولاً بر روی برجک نصب می‌شود.</Gun_TurretFoam.description>
+  <!-- EN: foam sprayer -->
+  <Gun_TurretFoam.verbs.Verb_ArcSprayProjectile.label>TODO</Gun_TurretFoam.verbs.Verb_ArcSprayProjectile.label>
+  
+  <!-- EN: uranium slug cannon -->
+  <Gun_TurretSniper.label>TODO</Gun_TurretSniper.label>
+  <!-- EN: A self-loading uranium slug cannon designed to attach to a turret. -->
+  <Gun_TurretSniper.description>TODO</Gun_TurretSniper.description>
+  <!-- EN: uranium slug cannon -->
+  <Gun_TurretSniper.verbs.Verb_Shoot.label>TODO</Gun_TurretSniper.verbs.Verb_Shoot.label>
+  
+  <!-- EN: foam -->
+  <Proj_Foam.label>TODO</Proj_Foam.label>
+  
   <!-- EN: rocket -->
   <Proj_Rocket.label>موشک</Proj_Rocket.label>
   

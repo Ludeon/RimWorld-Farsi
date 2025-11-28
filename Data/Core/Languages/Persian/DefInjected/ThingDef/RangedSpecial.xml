@@ -11,6 +11,19 @@
   <OrbitalTargeterBombardment.comps.CompApparelReloadable.cooldownGerund>در حال خنک شدن</OrbitalTargeterBombardment.comps.CompApparelReloadable.cooldownGerund>
   <!-- EN: orbital bombardment targeter -->
   <OrbitalTargeterBombardment.verbs.Verb_Bombardment.label>هدف‌گیر بمباران مداری</OrbitalTargeterBombardment.verbs.Verb_Bombardment.label>
+  
+  <!-- EN: orbital power beam targeter -->
+  <OrbitalTargeterPowerBeam.label>TODO</OrbitalTargeterPowerBeam.label>
+  <!-- EN: An ancient targeting unit for a network of power-collection satellites. Once aimed at a target, it directs ancient satellites to begin beaming power down in a massive column of electromagnetic energy. This power can safely be collected in a giant absorption dish. Since you have no absorption dish, you'll be aiming it at enemies, at which point the power column will turn the area into a thousand-degree inferno. This will last until the satellites detect the unsafe targeting, shut themselves down, and permanently deactivate the targeter. -->
+  <OrbitalTargeterPowerBeam.description>TODO</OrbitalTargeterPowerBeam.description>
+  <!-- EN: charge -->
+  <OrbitalTargeterPowerBeam.comps.CompApparelReloadable.chargeNoun>TODO</OrbitalTargeterPowerBeam.comps.CompApparelReloadable.chargeNoun>
+  <!-- EN: on cooldown -->
+  <OrbitalTargeterPowerBeam.comps.CompApparelReloadable.cooldownGerund>TODO</OrbitalTargeterPowerBeam.comps.CompApparelReloadable.cooldownGerund>
+  <!-- EN: orbital power beam targeter -->
+  <OrbitalTargeterPowerBeam.verbs.Verb_PowerBeam.label>TODO</OrbitalTargeterPowerBeam.verbs.Verb_PowerBeam.label>
+  
+  <!-- EN: tornado generator -->
   <TornadoGenerator.label>تولیدکننده گردباد</TornadoGenerator.label>
   <!-- EN: An ancient control unit for a network of weather-control satellites. This device has had certain failsafes bypassed; it is capable of causing a massive air current disturbance, which will generate a tornado at a chosen location. The weather network will detect this unauthorized intrusion and lock out the device after use, but the tornado will be left to spend its energy normally. -->
   <TornadoGenerator.description>واحد کنترل باستانی برای شبکه‌ای از ماهواره‌های کنترل آب و هوا. این دستگاه برخی ایمنی‌ها را دور زده؛ قادر به ایجاد اختلال عظیم جریان هواست که یک گردباد در مکان انتخابی تولید می‌کند. شبکه آب و هوا این نفوذ غیرمجاز را شناسایی و دستگاه را پس از استفاده قفل خواهد کرد، اما گردباد واگذار می‌شود تا انرژی خود را به طور عادی خرج کند.</TornadoGenerator.description>

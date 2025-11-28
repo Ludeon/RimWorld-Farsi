@@ -17,7 +17,7 @@
     <li>r_logentry->[INITIATOR_nameDef] از زندگی فراتر از بندگی صحبت کرد و [RECIPIENT_nameDef] را به فرار تشویق کرد.</li>
     <li>r_logentry->[INITIATOR_nameDef] زمزمه کرد که امنیت سست است و الان زمان خوبی برای فرار است.</li>
   </SparkSlaveRebellion.logRulesInitiator.rulesStrings>
-
+  
   <!-- EN: suppress -->
   <Suppress.label>سرکوب</Suppress.label>
   <!-- EN:
@@ -32,5 +32,5 @@
     <li>r_logentry->[INITIATOR_nameDef] به [RECIPIENT_nameDef] در مورد هرگونه تخلف هشدار داد.</li>
     <li>r_logentry->[INITIATOR_nameDef] پیشنهاد کرد که [RECIPIENT_nameDef] از دستورات پیروی کند و سوال نپرسد.</li>
   </Suppress.logRulesInitiator.rulesStrings>
-
+  
 </LanguageData>

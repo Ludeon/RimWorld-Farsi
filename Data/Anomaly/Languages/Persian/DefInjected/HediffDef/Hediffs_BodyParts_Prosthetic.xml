@@ -14,9 +14,7 @@
   <!-- EN: fleshmass lung -->
   <FleshmassLung.label>ریه توده گوشتی</FleshmassLung.label>
   <!-- EN: A cancerous mass of semi-sentient flesh. The tissue constantly regrows and replaces itself, making it immune to effects like lung rot and asthma.\n\nThe organ has its own neural structures and may become dangerous if removed. -->
-  <FleshmassLung.description>توده سرطانی گوشت نیمه‌هوشیار. بافت به طور مداوم دوباره رشد می‌کند و جایگزین خود می‌شود و ایمنی در برابر اثراتی مانند پوسیدگی ریه و آسم ایجاد می‌کند.
-
-اندام دارای ساختارهای عصبی خاص خود است و اگر برداشته شود ممکن است خطرناک شود.</FleshmassLung.description>
+  <FleshmassLung.description>توده سرطانی گوشت نیمه‌هوشیار. بافت به طور مداوم دوباره رشد می‌کند و جایگزین خود می‌شود و ایمنی در برابر اثراتی مانند پوسیدگی ریه و آسم ایجاد می‌کند.\n\nاندام دارای ساختارهای عصبی خاص خود است و اگر برداشته شود ممکن است خطرناک شود.</FleshmassLung.description>
   <!-- EN: Fleshmass operation -->
   <FleshmassLung.comps.HediffComp_FleshbeastEmerge.letterLabel>عملیات توده گوشتی</FleshmassLung.comps.HediffComp_FleshbeastEmerge.letterLabel>
   <!-- EN: Attempting to remove {PAWN_nameDef}'s fleshmass lung has caused the twisting mass of flesh to attack. The fleshmass has detached from {PAWN_nameDef} and transformed into a fleshbeast! -->
@@ -27,9 +25,7 @@
   <!-- EN: fleshmass stomach -->
   <FleshmassStomach.label>معده توده گوشتی</FleshmassStomach.label>
   <!-- EN: A cancerous mass of semi-sentient flesh. The harsh acid it produces is painful, but strong enough to prevent most food poisoning.\n\nThe organ has its own neural structures and may become dangerous if removed. -->
-  <FleshmassStomach.description>توده سرطانی گوشت نیمه‌هوشیار. اسید قوی که تولید می‌کند دردناک است، اما به اندازه کافی قوی است تا از بیشتر مسمومیت‌های غذایی جلوگیری کند.
-
-اندام دارای ساختارهای عصبی خاص خود است و اگر برداشته شود ممکن است خطرناک شود.</FleshmassStomach.description>
+  <FleshmassStomach.description>توده سرطانی گوشت نیمه‌هوشیار. اسید قوی که تولید می‌کند دردناک است، اما به اندازه کافی قوی است تا از بیشتر مسمومیت‌های غذایی جلوگیری کند.\n\nاندام دارای ساختارهای عصبی خاص خود است و اگر برداشته شود ممکن است خطرناک شود.</FleshmassStomach.description>
   <!-- EN: Fleshmass operation -->
   <FleshmassStomach.comps.HediffComp_FleshbeastEmerge.letterLabel>عملیات توده گوشتی</FleshmassStomach.comps.HediffComp_FleshbeastEmerge.letterLabel>
   <!-- EN: Attempting to remove {PAWN_nameDef}'s fleshmass stomach has caused the twisting mass of flesh to attack. The fleshmass has detached from {PAWN_nameDef} and transformed into a fleshbeast! -->
@@ -40,9 +36,7 @@
   <!-- EN: flesh whip -->
   <FleshWhip.label>شلاق گوشتی</FleshWhip.label>
   <!-- EN: A fleshy, muscled tentacle with a blade at the end. The flesh whip makes an excellent melee weapon.\n\nIt has its own neural structures and may become dangerous if removed. -->
-  <FleshWhip.description>کشتچه گوشتی و عضلانی با تیغه‌ای در انتها. شلاق گوشتی یک سلاح نزدیک عالی می‌سازد.
-
-دارای ساختارهای عصبی خاص خود است و اگر برداشته شود ممکن است خطرناک شود.</FleshWhip.description>
+  <FleshWhip.description>کشتچه گوشتی و عضلانی با تیغه‌ای در انتها. شلاق گوشتی یک سلاح نزدیک عالی می‌سازد.\n\nدارای ساختارهای عصبی خاص خود است و اگر برداشته شود ممکن است خطرناک شود.</FleshWhip.description>
   <!-- EN: blade -->
   <FleshWhip.comps.HediffComp_VerbGiver.tools.blade.label>تیغه</FleshWhip.comps.HediffComp_VerbGiver.tools.blade.label>
   <!-- EN: Fleshmass operation -->
@@ -81,9 +75,7 @@
   <!-- EN: flesh tentacle -->
   <Tentacle.label>کشتچه گوشتی</Tentacle.label>
   <!-- EN: A fleshy, muscled tentacle resembling a partial transformation into a fleshbeast. The tentacle is excellent at manipulation.\n\nThe flesh tentacle has its own neural structures and may become dangerous if removed. -->
-  <Tentacle.description>کشتچه گوشتی و عضلانی که شبیه تبدیل جزئی به موجود گوشتی است. کشتچه در دستکاری عالی است.
-
-کشتچه گوشتی دارای ساختارهای عصبی خاص خود است و اگر برداشته شود ممکن است خطرناک شود.</Tentacle.description>
+  <Tentacle.description>کشتچه گوشتی و عضلانی که شبیه تبدیل جزئی به موجود گوشتی است. کشتچه در دستکاری عالی است.\n\nکشتچه گوشتی دارای ساختارهای عصبی خاص خود است و اگر برداشته شود ممکن است خطرناک شود.</Tentacle.description>
   <!-- EN: Fleshmass operation -->
   <Tentacle.comps.HediffComp_FleshbeastEmerge.letterLabel>عملیات توده گوشتی</Tentacle.comps.HediffComp_FleshbeastEmerge.letterLabel>
   <!-- EN: Attempting to remove {PAWN_nameDef}'s tentacle has caused the twisting mass of flesh to attack. The fleshmass has detached from {PAWN_nameDef} and transformed into a fleshbeast! -->

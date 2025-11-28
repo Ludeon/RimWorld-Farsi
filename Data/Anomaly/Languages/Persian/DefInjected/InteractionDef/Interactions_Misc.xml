@@ -8,9 +8,9 @@
     <li>r_logentry->[INITIATOR_nameDef] [rambled] [darkSpeechAdverb] about [subjectInsane].</li>
   -->
   <CreepyWords.logRulesInitiator.rulesStrings>
-<li>r_logentry->[INITIATOR_nameDef] درباره [subjectInsane] پرگوئی کرد.</li>
-<li>r_logentry->[INITIATOR_nameDef] به طرز [darkSpeechAdverb] درباره [subjectInsane] پرگوئی کرد.</li>
-</CreepyWords.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] درباره [subjectInsane] پرگوئی کرد.</li>
+    <li>r_logentry->[INITIATOR_nameDef] به طرز [darkSpeechAdverb] درباره [subjectInsane] پرگوئی کرد.</li>
+  </CreepyWords.logRulesInitiator.rulesStrings>
   
   <!-- EN: strange chat -->
   <DisturbingChat.label>چت عجیب</DisturbingChat.label>
@@ -47,37 +47,37 @@
     <li>talkingAbout->going into detail about</li>
   -->
   <DisturbingChat.logRulesInitiator.rulesStrings>
-<li>r_logentry->[INITIATOR_nameDef] با [talkingAbout] [subjectDisturbing] [RECIPIENT_nameDef] را [disturbed].</li>
-<li>r_logentry->[INITIATOR_nameDef] به طرز [darkSpeechAdverb] درباره [subjectDisturbing] با [RECIPIENT_nameDef] صحبت کرد.</li>
-<li>spoke->صحبت کرد</li>
-<li>spoke->زمزمه کرد</li>
-<li>spoke->روی سخن گفت</li>
-<li>spoke->شکوه کرد</li>
-<li>spoke->غرید</li>
-<li>spoke->زوزه کرد</li>
-<li>spoke(p=5)->[پرگوئی کرد]</li>
-<li>subjectDisturbing->[subjectDarkStudy]</li>
-<li>subjectDisturbing->[subjectInsane]</li>
-<li>disturbed->ناراحت کرد</li>
-<li>disturbed->ترساند</li>
-<li>disturbed->آمده و رفت</li>
-<li>disturbed->آشفته کرد</li>
-<li>disturbed->نجاست کرد</li>
-<li>disturbed->کنج کرد</li>
-<li>disturbed->گویی کرد</li>
-<li>disturbed->آخرین کرد</li>
-<li>disturbed->آلارم کرد</li>
-<li>disturbed->افسرده کرد</li>
-<li>disturbed->ترسان کرد</li>
-<li>maybeDarkSpeechAdverb-></li>
-<li>maybeDarkSpeechAdverb->[darkSpeechAdverb]</li>
-<li>talkingAbout->توصیف</li>
-<li>talkingAbout->توضیح</li>
-<li>talkingAbout->ناله [maybeDarkSpeechAdverb] درباره</li>
-<li>talkingAbout->صحبت [maybeDarkSpeechAdverb] درباره</li>
-<li>talkingAbout->جن گری [maybeDarkSpeechAdverb] درباره</li>
-<li>talkingAbout->به Details درباره</li>
-</DisturbingChat.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] با [talkingAbout] [subjectDisturbing] [RECIPIENT_nameDef] را [disturbed].</li>
+    <li>r_logentry->[INITIATOR_nameDef] به طرز [darkSpeechAdverb] درباره [subjectDisturbing] با [RECIPIENT_nameDef] صحبت کرد.</li>
+    <li>spoke->صحبت کرد</li>
+    <li>spoke->زمزمه کرد</li>
+    <li>spoke->روی سخن گفت</li>
+    <li>spoke->شکوه کرد</li>
+    <li>spoke->غرید</li>
+    <li>spoke->زوزه کرد</li>
+    <li>spoke(p=5)->[پرگوئی کرد]</li>
+    <li>subjectDisturbing->[subjectDarkStudy]</li>
+    <li>subjectDisturbing->[subjectInsane]</li>
+    <li>disturbed->ناراحت کرد</li>
+    <li>disturbed->ترساند</li>
+    <li>disturbed->آمده و رفت</li>
+    <li>disturbed->آشفته کرد</li>
+    <li>disturbed->نجاست کرد</li>
+    <li>disturbed->کنج کرد</li>
+    <li>disturbed->گویی کرد</li>
+    <li>disturbed->آخرین کرد</li>
+    <li>disturbed->آلارم کرد</li>
+    <li>disturbed->افسرده کرد</li>
+    <li>disturbed->ترسان کرد</li>
+    <li>maybeDarkSpeechAdverb-></li>
+    <li>maybeDarkSpeechAdverb->[darkSpeechAdverb]</li>
+    <li>talkingAbout->توصیف</li>
+    <li>talkingAbout->توضیح</li>
+    <li>talkingAbout->ناله [maybeDarkSpeechAdverb] درباره</li>
+    <li>talkingAbout->صحبت [maybeDarkSpeechAdverb] درباره</li>
+    <li>talkingAbout->جن گری [maybeDarkSpeechAdverb] درباره</li>
+    <li>talkingAbout->به Details درباره</li>
+  </DisturbingChat.logRulesInitiator.rulesStrings>
   
   <!-- EN: inhuman rambling -->
   <InhumanRambling.label>پرموئی غیرانسانی</InhumanRambling.label>
@@ -86,9 +86,9 @@
     <li>r_logentry->[INITIATOR_nameDef] [rambled] [darkSpeechAdverb] about [subjectInsane].</li>
   -->
   <InhumanRambling.logRulesInitiator.rulesStrings>
-<li>r_logentry->[INITIATOR_nameDef] درباره [subjectInsane] پرگوئی کرد.</li>
-<li>r_logentry->[INITIATOR_nameDef] به طرز [darkSpeechAdverb] درباره [subjectInsane] پرگوئی کرد.</li>
-</InhumanRambling.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] درباره [subjectInsane] پرگوئی کرد.</li>
+    <li>r_logentry->[INITIATOR_nameDef] به طرز [darkSpeechAdverb] درباره [subjectInsane] پرگوئی کرد.</li>
+  </InhumanRambling.logRulesInitiator.rulesStrings>
   
   <!-- EN: interrogate identity -->
   <InterrogateIdentity.label>بازجویی هویت</InterrogateIdentity.label>
@@ -134,46 +134,46 @@
     <li>r_logentry->[INITIATOR_nameDef] [askedAbout] [identityTopic].</li>
   -->
   <InterrogateIdentity.logRulesInitiator.rulesStrings>
-<li>askedAbout->[RECIPIENT_nameDef] را درباره بازجویی کرد</li>
-<li>askedAbout->[RECIPIENT_nameDef] را درباره پرسید</li>
-<li>askedAbout->[RECIPIENT_nameDef] را برای جزئیات درباره فشار داد</li>
-<li>askedAbout->[RECIPIENT_nameDef] را درباره پرسید</li>
-<li>askedAbout->[RECIPIENT_nameDef] را روی مورد پرسید</li>
-<li>askedAbout->[RECIPIENT_nameDef] را برای odpowiedzi درباره فشار داد</li>
-<li>askedAbout->[RECIPIENT_nameDef] را درباره سوالات پیچیده پرسید</li>
-<li>askedAbout->[RECIPIENT_nameDef] را برای پرسیدن درباره سعی کرد</li>
-<li>askedAbout->[RECIPIENT_nameDef] را فریاد زد، مطالبات درباره</li>
-<li>askedAbout->[RECIPIENT_nameDef] را با پرسش‌ها درباره بمباران کرد</li>
-<li>askedAbout->[RECIPIENT_nameDef] را درباره رویارو شد</li>
-<li>askedAbout->[RECIPIENT_nameDef] را درباره آزار داد</li>
-<li>askedAbout->[RECIPIENT_nameDef] را در مورد موضوع پرسید</li>
-<li>identityTopic->کار قبلی [RECIPIENT_possessive]</li>
-<li>identityTopic->روابط قبلی [RECIPIENT_possessive] با سایر گروه‌ها</li>
-<li>identityTopic->تولد [RECIPIENT_possessive]</li>
-<li>identityTopic->پرورش [RECIPIENT_possessive]</li>
-<li>identityTopic->والدین [RECIPIENT_possessive]</li>
-<li>identityTopic->دوست‌های قدیمی [RECIPIENT_possessive]</li>
-<li>identityTopic->تاریخ رمانتیک [RECIPIENT_possessive]</li>
-<li>identityTopic->علاقه‌ها و عدم علاقه‌ها [RECIPIENT_possessive]</li>
-<li>identityTopic->پاسخ‌های احساسی [RECIPIENT_possessive] به موقعیت‌های perturbing</li>
-<li>identityTopic->ترجیحات غذایی [RECIPIENT_possessive]</li>
-<li>identityTopic->ترس‌های عمیق‌ترین [RECIPIENT_possessive]</li>
-<li>identityTopic->خاطرات گرانبها [RECIPIENT_possessive]</li>
-<li>identityTopic->پشیمانی‌های شخصی [RECIPIENT_possessive]</li>
-<li>identityTopic->رویاها و آرزوها [RECIPIENT_possessive]</li>
-<li>identityTopic->دلایل برای پیوستن به گروه فعلی [RECIPIENT_possessive]</li>
-<li>identityTopic->نقش [RECIPIENT_possessive] در رویدادی مهم گذشته</li>
-<li>identityTopic->اهمیت[هم] و گذرانها [RECIPIENT_possessive]</li>
-<li>identityTopic->ارزش‌های اخلاقی و اصول [RECIPIENT_possessive]</li>
-<li>identityTopic->انگیزش [RECIPIENT_possessive]</li>
-<li>identityTopic->دلایل پشت تصمیمات بزرگ [RECIPIENT_possessive]</li>
-<li>identityTopic->تجربیات Traumatic گذشته</li>
-<li>identityTopic->فرآیند فکر انسان</li>
-<li>identityTopic->تجربیات کودکی</li>
-<li>identityTopic->تجربیات مدرسه</li>
-<li>identityTopic->تجربیات فرهنگی</li>
-<li>r_logentry->[INITIATOR_nameDef] [askedAbout] [identityTopic].</li>
-</InterrogateIdentity.logRulesInitiator.rulesStrings>
+    <li>askedAbout->[RECIPIENT_nameDef] را درباره بازجویی کرد</li>
+    <li>askedAbout->[RECIPIENT_nameDef] را درباره پرسید</li>
+    <li>askedAbout->[RECIPIENT_nameDef] را برای جزئیات درباره فشار داد</li>
+    <li>askedAbout->[RECIPIENT_nameDef] را درباره پرسید</li>
+    <li>askedAbout->[RECIPIENT_nameDef] را روی مورد پرسید</li>
+    <li>askedAbout->[RECIPIENT_nameDef] را برای odpowiedzi درباره فشار داد</li>
+    <li>askedAbout->[RECIPIENT_nameDef] را درباره سوالات پیچیده پرسید</li>
+    <li>askedAbout->[RECIPIENT_nameDef] را برای پرسیدن درباره سعی کرد</li>
+    <li>askedAbout->[RECIPIENT_nameDef] را فریاد زد، مطالبات درباره</li>
+    <li>askedAbout->[RECIPIENT_nameDef] را با پرسش‌ها درباره بمباران کرد</li>
+    <li>askedAbout->[RECIPIENT_nameDef] را درباره رویارو شد</li>
+    <li>askedAbout->[RECIPIENT_nameDef] را درباره آزار داد</li>
+    <li>askedAbout->[RECIPIENT_nameDef] را در مورد موضوع پرسید</li>
+    <li>identityTopic->کار قبلی [RECIPIENT_possessive]</li>
+    <li>identityTopic->روابط قبلی [RECIPIENT_possessive] با سایر گروه‌ها</li>
+    <li>identityTopic->تولد [RECIPIENT_possessive]</li>
+    <li>identityTopic->پرورش [RECIPIENT_possessive]</li>
+    <li>identityTopic->والدین [RECIPIENT_possessive]</li>
+    <li>identityTopic->دوست‌های قدیمی [RECIPIENT_possessive]</li>
+    <li>identityTopic->تاریخ رمانتیک [RECIPIENT_possessive]</li>
+    <li>identityTopic->علاقه‌ها و عدم علاقه‌ها [RECIPIENT_possessive]</li>
+    <li>identityTopic->پاسخ‌های احساسی [RECIPIENT_possessive] به موقعیت‌های perturbing</li>
+    <li>identityTopic->ترجیحات غذایی [RECIPIENT_possessive]</li>
+    <li>identityTopic->ترس‌های عمیق‌ترین [RECIPIENT_possessive]</li>
+    <li>identityTopic->خاطرات گرانبها [RECIPIENT_possessive]</li>
+    <li>identityTopic->پشیمانی‌های شخصی [RECIPIENT_possessive]</li>
+    <li>identityTopic->رویاها و آرزوها [RECIPIENT_possessive]</li>
+    <li>identityTopic->دلایل برای پیوستن به گروه فعلی [RECIPIENT_possessive]</li>
+    <li>identityTopic->نقش [RECIPIENT_possessive] در رویدادی مهم گذشته</li>
+    <li>identityTopic->اهمیت[هم] و گذرانها [RECIPIENT_possessive]</li>
+    <li>identityTopic->ارزش‌های اخلاقی و اصول [RECIPIENT_possessive]</li>
+    <li>identityTopic->انگیزش [RECIPIENT_possessive]</li>
+    <li>identityTopic->دلایل پشت تصمیمات بزرگ [RECIPIENT_possessive]</li>
+    <li>identityTopic->تجربیات Traumatic گذشته</li>
+    <li>identityTopic->فرآیند فکر انسان</li>
+    <li>identityTopic->تجربیات کودکی</li>
+    <li>identityTopic->تجربیات مدرسه</li>
+    <li>identityTopic->تجربیات فرهنگی</li>
+    <li>r_logentry->[INITIATOR_nameDef] [askedAbout] [identityTopic].</li>
+  </InterrogateIdentity.logRulesInitiator.rulesStrings>
   
   <!-- EN: occult teaching -->
   <OccultTeaching.label>آموزش غیبی</OccultTeaching.label>
@@ -185,12 +185,12 @@
     <li>r_logentry->[INITIATOR_nameDef] taught a lesson on [subjectDarkStudy].</li>
   -->
   <OccultTeaching.logRulesInitiator.rulesStrings>
-<li>r_logentry->[INITIATOR_nameDef] نظریه‌های [INITIATOR_possessive] درباره [subjectDarkStudy] را به [RECIPIENT_nameDef] توضیح داد.</li>
-<li>r_logentry->[INITIATOR_nameDef] ایده‌های [INITIATOR_possessive] درباره [subjectDarkStudy] را با [RECIPIENT_nameDef] به اشتراک گذاشت.</li>
-<li>r_logentry->[INITIATOR_nameDef] درباره [subjectDarkStudy] صحبت کرد.</li>
-<li>r_logentry->[INITIATOR_nameDef] موضوع [subjectDarkStudy] را مرور کرد.</li>
-<li>r_logentry->[INITIATOR_nameDef] درس درباره [subjectDarkStudy] را تدریس کرد.</li>
-</OccultTeaching.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] نظریه‌های [INITIATOR_possessive] درباره [subjectDarkStudy] را به [RECIPIENT_nameDef] توضیح داد.</li>
+    <li>r_logentry->[INITIATOR_nameDef] ایده‌های [INITIATOR_possessive] درباره [subjectDarkStudy] را با [RECIPIENT_nameDef] به اشتراک گذاشت.</li>
+    <li>r_logentry->[INITIATOR_nameDef] درباره [subjectDarkStudy] صحبت کرد.</li>
+    <li>r_logentry->[INITIATOR_nameDef] موضوع [subjectDarkStudy] را مرور کرد.</li>
+    <li>r_logentry->[INITIATOR_nameDef] درس درباره [subjectDarkStudy] را تدریس کرد.</li>
+  </OccultTeaching.logRulesInitiator.rulesStrings>
   
   <!-- EN: prisoner study -->
   <PrisonerStudyAnomaly.label>مطالعه زندانی ناهنجاری</PrisonerStudyAnomaly.label>
@@ -200,9 +200,9 @@
     <li>r_logentry->[RECIPIENT_nameDef] mumbled about [subjectInsane].</li>
   -->
   <PrisonerStudyAnomaly.logRulesInitiator.rulesStrings>
-<li>r_logentry->[INITIATOR_nameDef] از [RECIPIENT_nameDef] درباره [subjectDarkStudy] پرسید.</li>
-<li>r_logentry->[INITIATOR_nameDef] درباره [subjectDarkStudy] پرسید.</li>
-<li>r_logentry->[RECIPIENT_nameDef] درباره [subjectInsane] زوزه کرد.</li>
-</PrisonerStudyAnomaly.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] از [RECIPIENT_nameDef] درباره [subjectDarkStudy] پرسید.</li>
+    <li>r_logentry->[INITIATOR_nameDef] درباره [subjectDarkStudy] پرسید.</li>
+    <li>r_logentry->[RECIPIENT_nameDef] درباره [subjectInsane] زوزه کرد.</li>
+  </PrisonerStudyAnomaly.logRulesInitiator.rulesStrings>
   
 </LanguageData>

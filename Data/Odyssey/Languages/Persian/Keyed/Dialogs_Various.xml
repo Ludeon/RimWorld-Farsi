@@ -29,22 +29,25 @@
   <PlayerGravshipGainsName>کشتی گرانشی اکنون به عنوان {0} شناخته می‌شود.</PlayerGravshipGainsName>
   <!-- EN: That name isn't valid. -->
   <PlayerGravshipNameIsInvalid>آن نام معتبر نیست.</PlayerGravshipNameIsInvalid>
+
   <!-- EN: Force visitors to leave -->
   <GravshipForceVisitorsToLeaveLabel>اجبار بازدیدکنندگان به خروج</GravshipForceVisitorsToLeaveLabel>
-  <!-- EN: Wait for all visitors to leave the gravship before launching. This won't affect enemies, prisoners, or downed visitors. -->
+  <!-- EN: Wait for all visitors to leave the gravship before launching. This won’t affect enemies, prisoners, or downed visitors. -->
   <GravshipForceVisitorsToLeaveTooltip>قبل از پرتاب منتظر بمانید تا تمام بازدیدکنندگان کشتی گرانشی را ترک کنند. این بر دشمنان، زندانیان یا بازدیدکنندگان زمین‌خورده تأثیر نخواهد گذاشت.</GravshipForceVisitorsToLeaveTooltip>
   <!-- EN: Board colony animals -->
   <GravshipBoardColonyAnimalsLabel>سوار کردن حیوانات مستعمره</GravshipBoardColonyAnimalsLabel>
-  <!-- EN: Order all colony animals to board the gravship. The gravship won't launch until they are aboard. -->
+  <!-- EN: Order all colony animals to board the gravship. The gravship won’t launch until they are aboard. -->
   <GravshipBoardColonyAnimalsTooltip>به تمام حیوانات مستعمره دستور دهید که سوار کشتی گرانشی شوند. کشتی گرانشی تا زمانی که آنها سوار نشوند پرتاب نخواهد شد.</GravshipBoardColonyAnimalsTooltip>
   <!-- EN: Board colony mechanoids -->
   <GravshipBoardColonyMechsLabel>سوار کردن مکانوئیدهای مستعمره</GravshipBoardColonyMechsLabel>
-  <!-- EN: Order all colony mechanoids to board the gravship. The gravship won't launch until they are aboard. -->
+  <!-- EN: Order all colony mechanoids to board the gravship. The gravship won’t launch until they are aboard. -->
   <GravshipBoardColonyMechsTooltip>به تمام مکانوئیدهای مستعمره دستور دهید که سوار کشتی گرانشی شوند. کشتی گرانشی تا زمانی که آنها سوار نشوند پرتاب نخواهد شد.</GravshipBoardColonyMechsTooltip>
+
   <!-- EN: {0} are hostile. If you land here they will attack you. -->
   <ConfirmLandOnHostileFactionBase>{0} خصمانه هستند. اگر اینجا فرود بیایید به شما حمله خواهند کرد.</ConfirmLandOnHostileFactionBase>
   <!-- EN: Landing here will be seen as an aggressive act by {0}. They will become hostile and attack. -->
   <ConfirmLandOnNeutralFactionBase>فرود در اینجا توسط {0} به عنوان یک اقدام تهاجمی تلقی خواهد شد. آنها خصمانه خواهند شد و حمله خواهند کرد.</ConfirmLandOnNeutralFactionBase>
+
   <!-- EN: Land here anyway? -->
   <ConfirmLand>در هر صورت اینجا فرود بیایید؟</ConfirmLand>
 

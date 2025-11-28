@@ -79,7 +79,7 @@
   <!-- EN: ostrich egg (unfert.) -->
   <EggOstrichUnfertilized.label>تخم شترمرغ (نابارور)</EggOstrichUnfertilized.label>
   <!-- EN: An unfertilized ostrich egg. It can be eaten raw, but it's much better cooked. -->
-<EggOstrichUnfertilized.description>تخم نابارور شترمرغ. می‌توان خام خورد، اما پخته بسیار بهتر است.</EggOstrichUnfertilized.description>
+  <EggOstrichUnfertilized.description>تخم نابارور شترمرغ. می‌توان خام خورد، اما پخته بسیار بهتر است.</EggOstrichUnfertilized.description>
   
   <!-- EN: tortoise egg (fert.) -->
   <EggTortoiseFertilized.label>تخم لاکپشت (بارور)</EggTortoiseFertilized.label>
@@ -104,16 +104,12 @@
   <!-- EN: insect jelly -->
   <InsectJelly.label>ژله حشرات</InsectJelly.label>
   <!-- EN: Jelly stored and used as food by oversized insects. It is smooth, rich, and fulfills the recreation need of those who consume it. Because of its unique biological properties, it can nourish almost any creature and never rots.\n\nOddly, its texture and nutrient balance makes it an ideal baby food. -->
-  <InsectJelly.description>ژله‌ای که توسط حشرات بزرگ ذخیره و به عنوان غذا استفاده می‌شود. نرم، غنی و نیاز تفریح کسانی را که آن را مصرف می‌کنند برآورده می‌کند. به دلیل ویژگی‌های زیستی منحصر به فرد خود، می‌تواند تقریباً هر موجودی را تغذیه کند و هرگز فاسد نمی‌شود.
-
-به طرز عجیبی، بافت و تعادل مواد مغذی آن آن را به یک غذای نوزاد ایده‌آل تبدیل می‌کند.</InsectJelly.description>
+  <InsectJelly.description>ژله‌ای که توسط حشرات بزرگ ذخیره و به عنوان غذا استفاده می‌شود. نرم، غنی و نیاز تفریح کسانی را که آن را مصرف می‌کنند برآورده می‌کند. به دلیل ویژگی‌های زیستی منحصر به فرد خود، می‌تواند تقریباً هر موجودی را تغذیه کند و هرگز فاسد نمی‌شود.\n\nبه طرز عجیبی، بافت و تعادل مواد مغذی آن آن را به یک غذای نوزاد ایده‌آل تبدیل می‌کند.</InsectJelly.description>
   
   <!-- EN: milk -->
   <Milk.label>شیر</Milk.label>
   <!-- EN: Milk from an animal.\n\nMilk can be fed to human babies. -->
-  <Milk.description>شیر از یک حیوان.
-
-شیر می‌تواند به نوزادان انسان داده شود.</Milk.description>
+  <Milk.description>شیر از یک حیوان.\n\nشیر می‌تواند به نوزادان انسان داده شود.</Milk.description>
   
   <!-- EN: skull -->
   <Skull.label>جمجمه</Skull.label>

@@ -1,7 +1,50 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  
+  <!-- EN: target -->
+  <BlindingCeremony.roles.0.label>TODO</BlindingCeremony.roles.0.label>
+  <!-- EN: the person to blind -->
+  <BlindingCeremony.roles.0.missingDesc>TODO</BlindingCeremony.roles.0.missingDesc>
+  <!-- EN: cutter -->
+  <BlindingCeremony.roles.1.label>TODO</BlindingCeremony.roles.1.label>
+  <!-- EN: the person who performs the blinding -->
+  <BlindingCeremony.roles.1.missingDesc>TODO</BlindingCeremony.roles.1.missingDesc>
+  <!-- EN: Target is not reachable. -->
+  <BlindingCeremony.stages.0.failTriggers.0.desc>TODO</BlindingCeremony.stages.0.failTriggers.0.desc>
+  <!-- EN: escort asleep -->
+  <BlindingCeremony.stages.0.failTriggers.1.desc>TODO</BlindingCeremony.stages.0.failTriggers.1.desc>
+  
+  <!-- EN: participate -->
+  <BurnCircle.spectatorGerund>TODO</BurnCircle.spectatorGerund>
+  <!-- EN: Participants -->
+  <BurnCircle.spectatorsLabel>TODO</BurnCircle.spectatorsLabel>
+  
+  <!-- EN: participate -->
+  <CelebrationPartyDanceDrum.spectatorGerund>TODO</CelebrationPartyDanceDrum.spectatorGerund>
+  <!-- EN: Participants -->
+  <CelebrationPartyDanceDrum.spectatorsLabel>TODO</CelebrationPartyDanceDrum.spectatorsLabel>
+  <!-- EN: Campfire is missing. -->
+  <CelebrationPartyDanceDrum.stages.0.failTriggers.0.desc>TODO</CelebrationPartyDanceDrum.stages.0.failTriggers.0.desc>
+  <!-- EN: Campfire is not lit. -->
+  <CelebrationPartyDanceDrum.stages.0.failTriggers.1.desc>TODO</CelebrationPartyDanceDrum.stages.0.failTriggers.1.desc>
+  <!-- EN: No drums. -->
+  <CelebrationPartyDanceDrum.stages.0.failTriggers.2.desc>TODO</CelebrationPartyDanceDrum.stages.0.failTriggers.2.desc>
+  
+  <!-- EN: participate -->
+  <CelebrationSkyLanterns.spectatorGerund>TODO</CelebrationSkyLanterns.spectatorGerund>
+  <!-- EN: Participants -->
+  <CelebrationSkyLanterns.spectatorsLabel>TODO</CelebrationSkyLanterns.spectatorsLabel>
+  
+  <!-- EN: participate -->
+  <CelebrationTree.spectatorGerund>TODO</CelebrationTree.spectatorGerund>
+  <!-- EN: Participants -->
+  <CelebrationTree.spectatorsLabel>TODO</CelebrationTree.spectatorsLabel>
+  
+  <!-- EN: speaker -->
   <Conversion.roles.0.label>سخنران</Conversion.roles.0.label>
+  <!-- EN: convertee -->
   <Conversion.roles.1.label>تغییر کیش دهنده</Conversion.roles.1.label>
+  <!-- EN: Prisoner is not reachable. -->
   <Conversion.stages.0.failTriggers.0.desc>زندانی قابل دسترسی نیست.</Conversion.stages.0.failTriggers.0.desc>
   <!-- EN: escort asleep -->
   <Conversion.stages.0.failTriggers.1.desc>اسکورت خواب است</Conversion.stages.0.failTriggers.1.desc>

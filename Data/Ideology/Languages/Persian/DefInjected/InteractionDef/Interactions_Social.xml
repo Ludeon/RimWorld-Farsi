@@ -9,7 +9,7 @@
   <Convert_Failure.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] سعی کرد [RECIPIENT_nameDef] را تغییر کیش دهد، اما شکست خورد.</li>
   </Convert_Failure.logRulesInitiator.rulesStrings>
-
+  
   <!-- EN: successful conversion -->
   <Convert_Success.label>تغییر کیش موفق</Convert_Success.label>
   <!-- EN:
@@ -18,7 +18,7 @@
   <Convert_Success.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] سعی کرد [RECIPIENT_nameDef] را تغییر کیش دهد و موفق شد.</li>
   </Convert_Success.logRulesInitiator.rulesStrings>
-
+  
   <!-- EN: convert ideoligion attempt -->
   <ConvertIdeoAttempt.label>تلاش برای تغییر ایدئولوژی</ConvertIdeoAttempt.label>
   <!-- EN:
@@ -27,7 +27,7 @@
   <ConvertIdeoAttempt.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] سعی کرد [RECIPIENT_nameDef] را به ایدئولوژی خودش تبدیل کند.</li>
   </ConvertIdeoAttempt.logRulesInitiator.rulesStrings>
-
+  
   <!-- EN: failed counsel -->
   <Counsel_Failure.label>مشاوره ناموفق</Counsel_Failure.label>
   <!-- EN:
@@ -36,7 +36,7 @@
   <Counsel_Failure.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] سعی کرد به [RECIPIENT_nameDef] مشاوره دهد، اما تلاش را خراب کرد و اوضاع را بدتر کرد.</li>
   </Counsel_Failure.logRulesInitiator.rulesStrings>
-
+  
   <!-- EN: successful counsel -->
   <Counsel_Success.label>مشاوره موفق</Counsel_Success.label>
   <!-- EN:
@@ -57,7 +57,7 @@
     <li>problems->احساسات دردناکش</li>
     <li>problems->مشکلات اخیر</li>
   </Counsel_Success.logRulesInitiator.rulesStrings>
-
+  
   <!-- EN: preached health -->
   <PreachHealth.label>موعظه سلامت</PreachHealth.label>
   <!-- EN:
@@ -72,7 +72,7 @@
     <li>preaching_topic->اهداف ایدئولوژیک عالی‌تر</li>
     <li>preaching_topic->هدف وجودی‌اش</li>
   </PreachHealth.logRulesInitiator.rulesStrings>
-
+  
   <!-- EN: reassurance -->
   <Reassure.label>اطمینان‌بخشی</Reassure.label>
   <!-- EN:
@@ -81,7 +81,7 @@
   <Reassure.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] باورهای [RECIPIENT_nameDef] را تقویت کرد.</li>
   </Reassure.logRulesInitiator.rulesStrings>
-
+  
   <!-- EN: accuse -->
   <Trial_Accuse.label>اتهام</Trial_Accuse.label>
   <!-- EN:
@@ -120,7 +120,7 @@
     <li>wrongdoing->تفکر نفرت‌آمیز</li>
     <li>wrongdoing->بی‌وفایی</li>
   </Trial_Accuse.logRulesInitiator.rulesStrings>
-
+  
   <!-- EN: defend -->
   <Trial_Defend.label>دفاع</Trial_Defend.label>
   <!-- EN:
@@ -141,7 +141,7 @@
     <li>r_logentry->[INITIATOR_nameDef] اتهامات را رد کرد.</li>
     <li>r_logentry->[INITIATOR_nameDef] محاکمه را دروغین خواند.</li>
   </Trial_Defend.logRulesInitiator.rulesStrings>
-
+  
   <!-- EN: work drive -->
   <WorkDrive.label>انگیزه کاری</WorkDrive.label>
   <!-- EN:
@@ -150,5 +150,5 @@
   <WorkDrive.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] از [RECIPIENT_nameDef] خواست برای خیر کلونی بیشتر کار کند.</li>
   </WorkDrive.logRulesInitiator.rulesStrings>
-
+  
 </LanguageData>

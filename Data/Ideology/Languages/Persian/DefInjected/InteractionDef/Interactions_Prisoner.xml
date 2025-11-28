@@ -15,7 +15,7 @@
     <li>r_logentry->[INITIATOR_nameDef] به [RECIPIENT_nameDef] دستور داد که برای زندگی کار اجباری آماده شود.</li>
     <li>r_logentry->[INITIATOR_nameDef] به [RECIPIENT_nameDef] توضیح داد که باید کار کند یا با مجازات روبرو شود.</li>
   </EnslaveAttempt.logRulesInitiator.rulesStrings>
-
+  
   <!-- EN: try to reduce will -->
   <ReduceWill.label>تلاش برای کاهش اراده</ReduceWill.label>
   <!-- EN:
@@ -104,5 +104,5 @@
     <li>givein->خود را تحویل دهد</li>
     <li>givein->خود را واگذار کند</li>
   </ReduceWill.logRulesInitiator.rulesStrings>
-
+  
 </LanguageData>

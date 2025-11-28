@@ -14,7 +14,19 @@
     <li>destroyed_past->annihilated</li>
     <li>destroyed_past->detonated</li>
   -->
-  <Damage_Bomb.rulePack.rulesStrings>TODO</Damage_Bomb.rulePack.rulesStrings>
+  <Damage_Bomb.rulePack.rulesStrings>
+    <li>damaged_past(p=2)->منفجر کرد</li>
+    <li>damaged_past(p=2)->ترکاند</li>
+    <li>damaged_past->مجروح کرد</li>
+    <li>damaged_past->آسیب زد</li>
+    <li>damaged_past->زخمی کرد</li>
+    <li>damaged_past->صدمه زد</li>
+    <li>destroyed_past->خرد کرد</li>
+    <li>destroyed_past->له کرد</li>
+    <li>destroyed_past->محو کرد</li>
+    <li>destroyed_past->نابود کرد</li>
+    <li>destroyed_past->منفجر کرد</li>
+  </Damage_Bomb.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damaged_past->electrified</li>
@@ -22,7 +34,12 @@
     <li>damaged_past->zapped</li>
     <li>destroyed_past->damaged_past</li>
   -->
-  <Damage_EMP.rulePack.rulesStrings>TODO</Damage_EMP.rulePack.rulesStrings>
+  <Damage_EMP.rulePack.rulesStrings>
+    <li>damaged_past->برق‌دار کرد</li>
+    <li>damaged_past->شوک داد</li>
+    <li>damaged_past->اتصالی داد</li>
+    <li>destroyed_past->damaged_past</li>
+  </Damage_EMP.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damaged_past->extinguished</li>
@@ -31,7 +48,13 @@
     <li>damaged_past->quenched</li>
     <li>destroyed_past->damaged_past</li>
   -->
-  <Damage_Extinguish.rulePack.rulesStrings>TODO</Damage_Extinguish.rulePack.rulesStrings>
+  <Damage_Extinguish.rulePack.rulesStrings>
+    <li>damaged_past->خاموش کرد</li>
+    <li>damaged_past->غرق کرد</li>
+    <li>damaged_past->کف‌پاشی کرد</li>
+    <li>damaged_past->فرونشاند</li>
+    <li>destroyed_past->damaged_past</li>
+  </Damage_Extinguish.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damaged_past(p=2)->blasted</li>
@@ -67,7 +90,40 @@
     <li>destroyed_present->annihilating</li>
     <li>destroyed_present->detonating</li>
   -->
-  <Damage_Flame.rulePack.rulesStrings>TODO</Damage_Flame.rulePack.rulesStrings>
+  <Damage_Flame.rulePack.rulesStrings>
+    <li>damaged_past(p=2)->منفجر کرد</li>
+    <li>damaged_past(p=2)->سوزاند</li>
+    <li>damaged_past(p=2)->آتش زد</li>
+    <li>damaged_past(p=2)->تاول زد</li>
+    <li>damaged_past(p=2)->روشن کرد</li>
+    <li>damaged_past(p=2)->داغ کرد</li>
+    <li>damaged_past->مجروح کرد</li>
+    <li>damaged_past->آسیب زد</li>
+    <li>damaged_past->زخمی کرد</li>
+    <li>damaged_past->صدمه زد</li>
+    <li>damaged_present(p=2)->منفجر کردن</li>
+    <li>damaged_present(p=2)->سوزاندن</li>
+    <li>damaged_present(p=2)->آتش زدن</li>
+    <li>damaged_present(p=2)->تاول زدن</li>
+    <li>damaged_present(p=2)->روشن کردن</li>
+    <li>damaged_present(p=2)->داغ کردن</li>
+    <li>damaged_present->مجروح کردن</li>
+    <li>damaged_present->آسیب زدن</li>
+    <li>damaged_present->زخمی کردن</li>
+    <li>damaged_present->صدمه زدن</li>
+    <li>destroyed_past->سوزاند</li>
+    <li>destroyed_past->خاکستر کرد</li>
+    <li>destroyed_past->زغال کرد</li>
+    <li>destroyed_past->محو کرد</li>
+    <li>destroyed_past->نابود کرد</li>
+    <li>destroyed_past->منفجر کرد</li>
+    <li>destroyed_present->سوزاندن</li>
+    <li>destroyed_present->خاکستر کردن</li>
+    <li>destroyed_present->زغال کردن</li>
+    <li>destroyed_present->محو کردن</li>
+    <li>destroyed_present->نابود کردن</li>
+    <li>destroyed_present->منفجر کردن</li>
+  </Damage_Flame.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damaged_past->smoked</li>
@@ -75,7 +131,12 @@
     <li>damaged_past->clouded</li>
     <li>destroyed_past->damaged_past</li>
   -->
-  <Damage_Smoke.rulePack.rulesStrings>TODO</Damage_Smoke.rulePack.rulesStrings>
+  <Damage_Smoke.rulePack.rulesStrings>
+    <li>damaged_past->دود داد</li>
+    <li>damaged_past->مه‌آلود کرد</li>
+    <li>damaged_past->تیره کرد</li>
+    <li>destroyed_past->damaged_past</li>
+  </Damage_Smoke.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damaged_past->stunned</li>
@@ -84,6 +145,12 @@
     <li>damaged_past->dizzied</li>
     <li>destroyed_past->damaged_past</li>
   -->
-  <Damage_Stun.rulePack.rulesStrings>TODO</Damage_Stun.rulePack.rulesStrings>
+  <Damage_Stun.rulePack.rulesStrings>
+    <li>damaged_past->گیج کرد</li>
+    <li>damaged_past->سردرگم کرد</li>
+    <li>damaged_past->متوقف کرد</li>
+    <li>damaged_past->منگ کرد</li>
+    <li>destroyed_past->damaged_past</li>
+  </Damage_Stun.rulePack.rulesStrings>
   
 </LanguageData>

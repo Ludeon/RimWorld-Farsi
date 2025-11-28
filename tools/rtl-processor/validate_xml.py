@@ -105,7 +105,7 @@ if __name__ == "__main__":
         
         for persian_dir in persian_dirs:
             module_name = Path(persian_dir).parent.parent.name
-            print(f"📁 {module_name}")
+            print(f"Module: {module_name}")
             print("-" * 70)
             
             total, valid, errors = validate_directory(persian_dir, show_success=False)
@@ -114,13 +114,13 @@ if __name__ == "__main__":
             
             if errors:
                 all_errors.extend(errors)
-                print(f"  ❌ {len(errors)} error(s) found in {total} file(s)")
+                print(f"  [!] {len(errors)} error(s) found in {total} file(s)")
                 for file_path, error_msg in errors:
                     rel_path = os.path.relpath(file_path, persian_dir)
                     print(f"     [ERROR] {rel_path}")
                     print(f"             {error_msg}")
             else:
-                print(f"  ✅ All {total} XML file(s) valid")
+                print(f"  [OK] All {total} XML file(s) valid")
             print()
         
         # Summary
@@ -132,10 +132,10 @@ if __name__ == "__main__":
         print(f"Invalid files: {len(all_errors)}")
         
         if all_errors:
-            print(f"\n❌ XML validation FAILED with {len(all_errors)} error(s)")
+            print(f"\n[!] XML validation FAILED with {len(all_errors)} error(s)")
             sys.exit(1)
         else:
-            print("\n✅ All XML files are valid!")
+            print("\n[OK] All XML files are valid!")
             sys.exit(0)
     
     elif len(sys.argv) == 2:

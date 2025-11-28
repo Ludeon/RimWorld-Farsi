@@ -15,6 +15,19 @@
     <li>r_name->[Color] [story]</li>
     <li>r_name->[story] [RomanNumeral]</li>
   -->
-  <NamerScenario.rulePack.rulesStrings>TODO</NamerScenario.rulePack.rulesStrings>
+  <NamerScenario.rulePack.rulesStrings>
+    <li>r_name->[story] [Trans] [Weapon]</li>
+    <li>r_name->[story] [Trans] [Animal]</li>
+    <li>r_name->[story] [Trans] [TerrainFeature]</li>
+    <li>r_name->[story] [Trans] [PersonJob]ها</li>
+    <li>r_name->[story] [Trans] [ConceptAny]</li>
+    <li>r_name->[ConceptAny] [story]</li>
+    <li>r_name->[story] [Trans] یک [Community]</li>
+    <li>r_name->یک [story] [AdjectiveAny]</li>
+    <li>r_name->[story] [Trans] [Game]</li>
+    <li>r_name->[story] در [Color] و [Color]</li>
+    <li>r_name->[story] [Color]</li>
+    <li>r_name->[story] [RomanNumeral]</li>
+  </NamerScenario.rulePack.rulesStrings>
   
 </LanguageData>

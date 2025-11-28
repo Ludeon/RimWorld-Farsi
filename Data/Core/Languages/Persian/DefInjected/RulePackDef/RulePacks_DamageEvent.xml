@@ -19,7 +19,24 @@
     <li>destroyed_present->annihilating</li>
     <li>destroyed_present->breaking</li>
   -->
-  <DamageEvent_Ceiling.rulePack.rulesStrings>TODO</DamageEvent_Ceiling.rulePack.rulesStrings>
+  <DamageEvent_Ceiling.rulePack.rulesStrings>
+    <li>damage_source->[roof] [collapsed] روی</li>
+    <li>roof->سقف</li>
+    <li>roof->بام</li>
+    <li>roof->پوشش</li>
+    <li>collapsed->ریخت</li>
+    <li>collapsed->سقوط کرد</li>
+    <li>collapsed->فرو ریخت</li>
+    <li>damaged_present->خرد کردن</li>
+    <li>damaged_present->کوبیدن</li>
+    <li>damaged_present->کبود کردن</li>
+    <li>damaged_present->پاره کردن</li>
+    <li>destroyed_present->خرد کردن</li>
+    <li>destroyed_present->له کردن</li>
+    <li>destroyed_present->محو کردن</li>
+    <li>destroyed_present->نابود کردن</li>
+    <li>destroyed_present->شکستن</li>
+  </DamageEvent_Ceiling.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damage_source->[fire] burned</li>
@@ -38,7 +55,23 @@
     <li>destroyed_present->cooking</li>
     <li>destroyed_present->cremating</li>
   -->
-  <DamageEvent_Fire.rulePack.rulesStrings>TODO</DamageEvent_Fire.rulePack.rulesStrings>
+  <DamageEvent_Fire.rulePack.rulesStrings>
+    <li>damage_source->[fire] سوزاند</li>
+    <li>fire(p=3)->آتش</li>
+    <li>fire(p=3)->یک آتش</li>
+    <li>fire(p=3)->آن آتش</li>
+    <li>fire->گرما</li>
+    <li>fire->یک حریق</li>
+    <li>fire->یک جهنم</li>
+    <li>damaged_present->سوزاندن</li>
+    <li>damaged_present->کباب کردن</li>
+    <li>damaged_present->داغ کردن</li>
+    <li>damaged_present->جزغاله کردن</li>
+    <li>destroyed_present->زغال کردن</li>
+    <li>destroyed_present->بریان کردن</li>
+    <li>destroyed_present->پختن</li>
+    <li>destroyed_present->خاکستر کردن</li>
+  </DamageEvent_Fire.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[damage_source] [RECIPIENT_nameDef], [destroyed_present] [RECIPIENT_possessive] [destroyed_targets].</li>
@@ -46,7 +79,12 @@
     <li>r_logentry(recipient_part_destroyed_count==0)->[damage_source] [RECIPIENT_nameDef], [damaged_present] [RECIPIENT_possessive] [damaged_targets].</li>
     <li>r_logentry(p=0.1)->[damage_source] [RECIPIENT_nameDef].</li>
   -->
-  <DamageEvent_Include.rulePack.rulesStrings>TODO</DamageEvent_Include.rulePack.rulesStrings>
+  <DamageEvent_Include.rulePack.rulesStrings>
+    <li>r_logentry->[damage_source] [RECIPIENT_nameDef]، [destroyed_present] [destroyed_targets] [RECIPIENT_possessive].</li>
+    <li>r_logentry->[damage_source] [RECIPIENT_nameDef]، [destroyed_present] [destroyed_targets] [RECIPIENT_possessive] و [damaged_present] [damaged_targets] [RECIPIENT_possessive].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[damage_source] [RECIPIENT_nameDef]، [damaged_present] [damaged_targets] [RECIPIENT_possessive].</li>
+    <li>r_logentry(p=0.1)->[damage_source] [RECIPIENT_nameDef].</li>
+  </DamageEvent_Include.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damage_source->The [sky] opened up on</li>
@@ -63,7 +101,21 @@
     <li>light->flame</li>
     <li>light(p=0.2)->incandescence</li>
   -->
-  <DamageEvent_PowerBeam.rulePack.rulesStrings>TODO</DamageEvent_PowerBeam.rulePack.rulesStrings>
+  <DamageEvent_PowerBeam.rulePack.rulesStrings>
+    <li>damage_source->[sky] باز شد روی</li>
+    <li>damage_source->پرتویی از [power] باورنکردنی [damaged_past]</li>
+    <li>damage_source->ستونی از [light] [damaged_past]</li>
+    <li>sky->آسمان</li>
+    <li>sky->ابرها</li>
+    <li>sky->فلاک</li>
+    <li>power->قدرت</li>
+    <li>power->انرژی</li>
+    <li>power->گرما</li>
+    <li>light->نور</li>
+    <li>light->گرما</li>
+    <li>light->شعله</li>
+    <li>light(p=0.2)->تلالو</li>
+  </DamageEvent_PowerBeam.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damage_source->A [spiraling] tornado [enveloped]</li>
@@ -76,7 +128,17 @@
     <li>enveloped->engulfed</li>
     <li>enveloped->surrounded</li>
   -->
-  <DamageEvent_Tornado.rulePack.rulesStrings>TODO</DamageEvent_Tornado.rulePack.rulesStrings>
+  <DamageEvent_Tornado.rulePack.rulesStrings>
+    <li>damage_source->یک گردباد [spiraling] [enveloped]</li>
+    <li>destroyed_present(p=3)->پاره کردن</li>
+    <li>spiraling->چرخان</li>
+    <li>spiraling->گردان</li>
+    <li>spiraling->پیچان</li>
+    <li>spiraling(p=10)-></li>
+    <li>enveloped(p=8)->در بر گرفت</li>
+    <li>enveloped->بلعید</li>
+    <li>enveloped->محاصره کرد</li>
+  </DamageEvent_Tornado.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damage_source->[spiketrap] stabbed</li>
@@ -96,6 +158,23 @@
     <li>destroyed_present->eviscerating</li>
     <li>destroyed_present->exploding</li>
   -->
-  <DamageEvent_TrapSpike.rulePack.rulesStrings>TODO</DamageEvent_TrapSpike.rulePack.rulesStrings>
+  <DamageEvent_TrapSpike.rulePack.rulesStrings>
+    <li>damage_source->[spiketrap] خنجر زد به</li>
+    <li>damage_source->[spiketrap] ضربه زد به</li>
+    <li>damage_source->[spiketrap] پرتاب شد به سمت</li>
+    <li>spiketrap(p=3)->یک تله خاری</li>
+    <li>spiketrap(p=3)->تله خاری</li>
+    <li>spiketrap->خارها</li>
+    <li>spiketrap->یک تله تیز</li>
+    <li>spiketrap->یک تله نوک‌تیز</li>
+    <li>damaged_present->سوراخ کردن</li>
+    <li>damaged_present->نیزه زدن</li>
+    <li>damaged_present->نفوذ کردن</li>
+    <li>damaged_present->سیخ زدن به</li>
+    <li>destroyed_present->پاره کردن</li>
+    <li>destroyed_present->تکه تکه کردن</li>
+    <li>destroyed_present->شکم دریدن</li>
+    <li>destroyed_present->منفجر کردن</li>
+  </DamageEvent_TrapSpike.rulePack.rulesStrings>
   
 </LanguageData>

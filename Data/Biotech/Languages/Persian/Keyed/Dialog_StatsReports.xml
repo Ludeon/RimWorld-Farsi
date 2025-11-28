@@ -3,6 +3,22 @@
 
   <!-- EN: Relevant genes -->
   <StatsReport_Genes>ژن‌های مرتبط</StatsReport_Genes>
+  <!-- EN: in sunlight -->
+  <StatsReport_InSunlight>TODO</StatsReport_InSunlight>
+  <!-- EN: clothed -->
+  <StatsReport_Clothed>TODO</StatsReport_Clothed>
+  <!-- EN: unclothed -->
+  <StatsReport_Unclothed>TODO</StatsReport_Unclothed>
+  <!-- EN: in space -->
+  <StatsReport_InSpace>TODO</StatsReport_InSpace>
+  <!-- EN: planetside -->
+  <StatsReport_NotInSpace>TODO</StatsReport_NotInSpace>
+  
+  <!-- EN: Age rate multiplier -->
+  <StatsReport_AgeRateMultiplier>TODO</StatsReport_AgeRateMultiplier>
+  <!-- EN: A multiplier on how quickly this person ages biologically based on their current age. -->
+  <StatsReport_AgeRateMultiplier_Desc>TODO</StatsReport_AgeRateMultiplier_Desc>
+
   <!-- EN: Required weight class -->
   <StatsReport_RechargerWeightClass>رده وزنی مورد نیاز</StatsReport_RechargerWeightClass>
   <!-- EN: The weight class of mechanoid which can use this recharger. The following mechanoids are compatible -->

@@ -3,6 +3,190 @@
   
   <!-- EN:
     <li>r_art_description->[physical_description_root] [context_sentence]</li>
+    <li>circumstance_group->[circumstance_phrase]</li>
+    <li>desc_sentence_group->[desc_sentence] [style_group]</li>
+    <li>context_sentence->This [depiction] refers to [tale_noun] on [DATE].</li>
+    <li>context_sentence->This [depiction] relates to [tale_noun] on [DATE].</li>
+    <li>context_sentence->This [depiction] tells the story of [tale_noun] on [DATE].</li>
+  -->
+  <ArtDescriptionRoot_HasTale.rulePack.rulesStrings>TODO</ArtDescriptionRoot_HasTale.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_art_description->[physical_description_root]</li>
+    <li>desc_sentence_group->[style_group]</li>
+  -->
+  <ArtDescriptionRoot_Taleless.rulePack.rulesStrings>TODO</ArtDescriptionRoot_Taleless.rulePack.rulesStrings>
+  
+  <!-- UNUSED -->
+  <ArtDescriptionUtility.rulePack.rulesStrings>
+    <li>r_art_description->[physical_description_root] [context_sentence]</li>
+    <li>style_group-></li>
+    <li>artconjunction(p=6)-></li>
+    <li>artconjunction->به عنوان یک تضاد جالب،</li>
+    <li>artconjunction->برای تکمیل اثر،</li>
+    <li>artconjunction->علاوه بر آن،</li>
+    <li>artconjunction->به طور چشمگیری،</li>
+    <li>artconjunction->به طور تحریک‌آمیزی،</li>
+    <li>artconjunction->برخلاف معمول برای این نوع کار،</li>
+    <li>artconjunction->اگرچه کمتر کسی انتظارش را دارد،</li>
+    <li>artconjunction->علاوه بر این،</li>
+    <li>artextra_clause->تصویر با [subimageplural] حاشیه داده شده است</li>
+    <li>artextra_clause->در لبه تصویر [subimageplural] قرار دارند</li>
+    <li>artextra_clause->[subimagesingle] [side_position] وجود دارد</li>
+    <li>artextra_clause->سوژه‌ها در مقابل [subimageany] قرار دارند</li>
+    <li>artextra_clause->بخش پایینی تصویر تحت تسلط [subimageany] است</li>
+    <li>artextra_clause->صحنه در وسط یک [Community] اتفاق می‌افتد</li>
+    <li>artextra_clause->صحنه در حومه یک [Community] اتفاق می‌افتد</li>
+    <li>artextra_clause->صحنه در داخل یک [Community] ساخته شده در نزدیکی یک [TerrainFeature] اتفاق می‌افتد</li>
+    <li>artextra_clause->یک [Character] [side_position] [idles]</li>
+    <li>artextra_clause->یک [Character] [pawn_adj] [side_position] [idles]</li>
+    <li>artextra_clause->[Quantity_adjphrase] [Character] [side_position] ظاهر می‌شوند</li>
+    <li>artextra_clause->[Quantity_adjphrase] [Character] [pawn_adj] [side_position] ظاهر می‌شوند</li>
+    <li>artextra_clause->یک [Animal] [side_position] [idles]</li>
+    <li>artextra_clause->اگر چشمان خود را ریز کنید، ترکیب‌بندی [composition] تصویر طرح کلی [subimageany] را آشکار می‌کند</li>
+    <li>artextra_clause->سر [emotional_expression] یک [PersonJob] [pawn_adj] بر همه چیز نظارت دارد</li>
+    <li>artextra_clause->یک [PersonJob] [pawn_adj] در حالی که [emotional_expression] است بر همه چیز نظارت دارد</li>
+    <li>artextra_clause->سر یک [PersonJob] [pawn_adj] بر همه چیز نظارت دارد</li>
+    <li>artextra_clause->کل تصویر با چیدمان دقیق [subimageplural] به تصویر کشیده شده است</li>
+    <li>subimageany->[subimagesingle]</li>
+    <li>subimageany->[subimageplural]</li>
+    <li>subimagesingle(p=4)->یک [Character]</li>
+    <li>subimagesingle->یک [TerrainFeature]</li>
+    <li>subimagesingle->یک [Community]</li>
+    <li>subimagesingle->یک درخت [TreeType]</li>
+    <li>subimagesingle->یک [Vegetable]</li>
+    <li>subimagesingle->یک [AnimalGroup] از [Animal]s</li>
+    <li>subimageplural(p=3)->[Quantity_adjphrase] [Character]</li>
+    <li>subimageplural->[Quantity_adjphrase] [Vegetable]</li>
+    <li>subimageplural->[Quantity_adjphrase] [Shape]</li>
+    <li>pawn_adj->مرده</li>
+    <li>pawn_adj->در حال مرگ</li>
+    <li>pawn_adj->مجروح</li>
+    <li>pawn_adj->خوابیده</li>
+    <li>pawn_adj->ایستاده</li>
+    <li>pawn_adj->نشسته</li>
+    <li>pawn_adj->دیوانه</li>
+    <li>pawn_adj->جوان</li>
+    <li>pawn_adj->پیر</li>
+    <li>pawn_adj->پوشیده از [Gore]</li>
+    <li>pawn_adj->کثیف</li>
+    <li>pawn_adj->پوشیده در [Apparel]</li>
+    <li>pawn_adj->مجهز به [Weapon]</li>
+    <li>pawn_adj->در حال خوردن [Vegetable]</li>
+    <li>emotional_expression->لبخند‌زن</li>
+    <li>emotional_expression->اخم‌کرده</li>
+    <li>emotional_expression->ترش‌رو</li>
+    <li>emotional_expression->خندان</li>
+    <li>emotional_expression->خیره</li>
+    <li>emotional_expression->گریان</li>
+    <li>emotional_expression->در حال جیغ زدن</li>
+    <li>emotional_expression->بسیار خوشحال</li>
+    <li>idles->نشسته است</li>
+    <li>idles->ایستاده است</li>
+    <li>idles->منتظر است</li>
+    <li>idles->لبخند می‌زند</li>
+    <li>idles->دراز کشیده است</li>
+    <li>idles->ژست گرفته است</li>
+    <li>idles->ظاهر می‌شود</li>
+    <li>idles->نشان داده شده است</li>
+    <li>idles->محو می‌شود</li>
+    <li>idles->شناور است</li>
+    <li>side_position->در یک طرف</li>
+    <li>side_position->در پس‌زمینه</li>
+    <li>side_position->در دوردست</li>
+    <li>side_position->در قسمت پایین تصویر</li>
+    <li>side_position->در قسمت بالای تصویر</li>
+    <li>side_position->در سمت چپ صحنه اصلی</li>
+    <li>side_position->در سمت راست صحنه اصلی</li>
+    <li>side_position->نزدیک لبه تصویر</li>
+    <li>side_position->نزدیک سوژه اصلی</li>
+    <li>side_position->دور از سوژه اصلی</li>
+    <li>side_position->زیر سوژه اصلی</li>
+    <li>side_position->پشت نقطه کانونی</li>
+    <li>style_clause(p=4)->این اثر [symbolizes] [ConceptAny]</li>
+    <li>artextra_clause->[subimagesingle] [side_position] [symbolizes] [ConceptAny]</li>
+    <li>style_clause->این اثر با ایده [ConceptAny] آمیخته شده و به سبک [artstyle_adj] انجام شده است</li>
+    <li>style_clause->این اثر به سبک [artstyle_adj] اجرا شده است</li>
+    <li>style_clause->سبک [artstyle_adj] صحنه مرکزی با تصویر [artstyle_adj] پس‌زمینه در تضاد است</li>
+    <li>style_clause->این اثر حسی [artstyle_adj] و ساختاری [composition] دارد</li>
+    <li>style_clause->ترکیب‌بندی کلی [composition] است</li>
+    <li>style_clause->سبک آن [artstyle_adj] با عناصر [artstyle_adj] است</li>
+    <li>style_clause->تصویر به نوعی هم [ConceptAny] و هم [ConceptAny] را بیان می‌کند</li>
+    <li>style_clause->تصویر [ConceptAny] را با [ConceptAny] مقایسه می‌کند</li>
+    <li>style_clause->ساختار [composition] تصویر تقریباً با سبک [artstyle_adj] آن در تضاد است</li>
+    <li>style_clause->این اثر در سایه‌های [Color] و [Color] سایه‌زنی شده است</li>
+    <li>style_clause->تقریباً هر شکلی در تصویر به نظر می‌رسد [composition] باشد</li>
+    <li>symbolizes->نماد</li>
+    <li>symbolizes->به نظر می‌رسد نماد</li>
+    <li>symbolizes->نماینده</li>
+    <li>symbolizes->به نظر می‌رسد نماینده</li>
+    <li>symbolizes->به نظر می‌رسد بیانگر</li>
+    <li>symbolizes->بیننده را به یاد ... می‌اندازد</li>
+    <li>symbolizes->احساسات ... را منتقل می‌کند</li>
+    <li>symbolizes->باعث می‌شود بیننده به ... فکر کند</li>
+    <li>symbolizes->نماینده ... هنرمند است</li>
+    <li>symbolizes->مفهوم ... را پیشنهاد می‌کند</li>
+    <li>depicts->به تصویر می‌کشد</li>
+    <li>depicts->نشان می‌دهد</li>
+    <li>depicts->مجسم می‌کند</li>
+    <li>depicts->شبیه است به</li>
+    <li>depicts->مصور می‌کند</li>
+    <li>depicts->نماینده است</li>
+    <li>depicts->شکل گرفته مانند</li>
+    <li>depiction->تصویرگری</li>
+    <li>depiction->تصویر</li>
+    <li>depiction->تجسم</li>
+    <li>depiction->نمایش</li>
+    <li>depiction->تصویرسازی</li>
+    <li>depiction->اثر هنری</li>
+    <li>composition->مثلثی</li>
+    <li>composition->مستطیلی</li>
+    <li>composition->مربعی</li>
+    <li>composition->نامتوازن</li>
+    <li>composition->متوازن</li>
+    <li>composition->پویا</li>
+    <li>composition->ایستا</li>
+    <li>composition->عمودی</li>
+    <li>composition->افقی</li>
+    <li>composition->متمرکز</li>
+    <li>artstyle_adj->غیر اصلی</li>
+    <li>artstyle_adj->ساده</li>
+    <li>artstyle_adj->پیچیده و واقع‌گرایانه</li>
+    <li>artstyle_adj->سورئالیستی</li>
+    <li>artstyle_adj->کلاسیک</li>
+    <li>artstyle_adj->مدرن</li>
+    <li>artstyle_adj->نمادین</li>
+    <li>artstyle_adj->آماتور اما جذاب</li>
+    <li>artstyle_adj->جزئی‌نگر</li>
+    <li>artstyle_adj->بلوکی</li>
+    <li>artstyle_adj->کوبیست</li>
+    <li>artstyle_adj->امپرسیونیستی</li>
+    <li>artstyle_adj->اکسپرسیونیستی</li>
+    <li>artstyle_adj->عکاسانه</li>
+    <li>artstyle_adj->باروک</li>
+    <li>artstyle_adj->دادائیست</li>
+    <li>artstyle_adj->گلیچ-آرت</li>
+    <li>artstyle_adj->پیکسلی</li>
+    <li>artstyle_adj->فوویست</li>
+    <li>artstyle_adj->عامیانه</li>
+    <li>artstyle_adj->فیگوراتیو</li>
+    <li>artstyle_adj->پر پیچ و خم</li>
+    <li>artstyle_adj->هندسی</li>
+    <li>artstyle_adj->انتزاعی</li>
+    <li>artstyle_adj->هایپر-رئالیست</li>
+    <li>artstyle_adj->پاپ آرت</li>
+    <li>artstyle_adj->مینیمالیستی</li>
+    <li>artstyle_adj->نئوکلاسیک</li>
+    <li>artstyle_adj->سل-شید</li>
+    <li>artstyle_adj->پست-امپرسیونیستی</li>
+    <li>artstyle_adj->پیوریست</li>
+  </ArtDescriptionUtility.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>style_group->[artextra_clause]. [style_clause].</li>
+    <li>style_group->[style_clause]. [artconjunction] [artextra_clause].</li>
+    <li>style_group->[style_clause].</li>
+    <li>style_group->[artextra_clause].</li>
     <li>style_group-></li>
     <li>artconjunction(p=6)-></li>
     <li>artconjunction->as an interesting contrast,</li>
@@ -56,7 +240,6 @@
     <li>pawn_adj->[Apparel]-wearing</li>
     <li>pawn_adj->[Weapon]-wielding</li>
     <li>pawn_adj->[Vegetable]-eating</li>
-  -->
     <li>emotional_expression->smiling</li>
     <li>emotional_expression->frowning</li>
     <li>emotional_expression->scowling</li>
@@ -164,42 +347,14 @@
     <li>artstyle_adj->cel-shaded</li>
     <li>artstyle_adj->post-impressionistic</li>
     <li>artstyle_adj->purist</li>
-    <li>artconjunction->به عنوان یک تضاد جالب،</li>
-    <li>artconjunction->برای تکمیل اثر،</li>
-    <li>artconjunction->علاوه بر آن،</li>
-    <li>artconjunction->به طور چشمگیری،</li>
-    <li>artconjunction->به طور تحریک‌آمیزی،</li>
-    <li>artconjunction->برخلاف معمول برای این نوع کار،</li>
-    <li>artconjunction->اگرچه کمتر کسی انتظارش را دارد،</li>
-    <li>artconjunction->علاوه بر این،</li>
-    <li>artextra_clause->تصویر با [subimageplural] حاشیه داده شده است</li>
-    <li>artextra_clause->در لبه تصویر [subimageplural] قرار دارند</li>
-    <li>artextra_clause->[subimagesingle] [side_position] وجود دارد</li>
-    <li>artextra_clause->سوژه‌ها در مقابل [subimageany] قرار دارند</li>
-    <li>artextra_clause->بخش پایینی تصویر تحت تسلط [subimageany] است</li>
-    <li>artextra_clause->صحنه در وسط یک [Community] اتفاق می‌افتد</li>
-    <li>artextra_clause->صحنه در حومه یک [Community] اتفاق می‌افتد</li>
-    <li>artextra_clause->صحنه در داخل یک [Community] ساخته شده در نزدیکی یک [TerrainFeature] اتفاق می‌افتد</li>
-    <li>artextra_clause->یک [Character] [side_position] [idles]</li>
-    <li>artextra_clause->یک [Character] [pawn_adj] [side_position] [idles]</li>
-    <li>artextra_clause->[Quantity_adjphrase] [Character] [side_position] ظاهر می‌شوند</li>
-    <li>artextra_clause->[Quantity_adjphrase] [Character] [pawn_adj] [side_position] ظاهر می‌شوند</li>
-    <li>artextra_clause->یک [Animal] [side_position] [idles]</li>
-    <li>artextra_clause->اگر چشمان خود را ریز کنید، ترکیب‌بندی [composition] تصویر طرح کلی [subimageany] را آشکار می‌کند</li>
-    <li>artextra_clause->سر [emotional_expression] یک [PersonJob] [pawn_adj] بر همه چیز نظارت دارد</li>
-    <li>artextra_clause->یک [PersonJob] [pawn_adj] در حالی که [emotional_expression] است بر همه چیز نظارت دارد</li>
-    <li>artextra_clause->سر یک [PersonJob] [pawn_adj] بر همه چیز نظارت دارد</li>
-    <li>artextra_clause->کل تصویر با چیدمان دقیق [subimageplural] به تصویر کشیده شده است</li>
-    <li>subimageany->[subimagesingle]</li>
-    <li>subimageany->[subimageplural]</li>
-    <li>subimagesingle(p=4)->یک [Character]</li>
-    <li>subimagesingle->یک [TerrainFeature]</li>
-    <li>subimagesingle->یک [Community]</li>
-    <li>subimagesingle->یک درخت [TreeType]</li>
-    <li>subimagesingle->یک [Vegetable]</li>
-    <li>subimagesingle->یک [AnimalGroup] از [Animal]s</li>
-    <li>subimageplural(p=3)->[Quantity_adjphrase] [Character]</li>
-    <li>subimageplural->[Quantity_adjphrase] [Vegetable]</li>
-    <li>subimageplural->[Quantity_adjphrase] [Shape]</li>
+    <li>artstyle_adj->rococo</li>
+    <li>artstyle_adj->romanesque</li>
+    <li>artstyle_adj->romantic</li>
+    <li>artstyle_adj->graffiti-like</li>
+    <li>artstyle_adj->erotic</li>
+    <li>artstyle_adj->sensual</li>
+    <li>artstyle_adj->heartfelt</li>
+  -->
+  <ArtDescriptionUtility_Global.rulePack.rulesStrings>TODO</ArtDescriptionUtility_Global.rulePack.rulesStrings>
   
 </LanguageData>

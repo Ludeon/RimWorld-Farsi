@@ -2,7 +2,9 @@ Translation report for Persian
 
 ========== General load errors (0) ==========
 
-========== Def-injected translations load errors (0) ==========
+========== Def-injected translations load errors (2) ==========
+Found no RimWorld.BackstoryDef named Oceanographer20 to match Oceanographer20.titleShort (Solid_Adult.xml)
+Found no Verse.RulePackDef named ArtDescriptionUtility to match ArtDescriptionUtility.rulePack.rulesStrings (RulePacks_Art_Descriptions.xml)
 
 ========== Missing keyed translations (8) ==========
 ThroneMustBePlacedInside 'Throne must be placed indoors.' (English file: Misc_Gameplay.xml:7)
@@ -14,7 +16,7 @@ StatsReport_NotInSpace 'planetside' (English file: Dialog_StatsReports.xml:10)
 StatsReport_AgeRateMultiplier 'Age rate multiplier' (English file: Dialog_StatsReports.xml:12)
 StatsReport_AgeRateMultiplier_Desc 'A multiplier on how quickly this person ages biologically based on their current age.' (English file: Dialog_StatsReports.xml:13)
 
-========== Def-injected translations missing (20120) ==========
+========== Def-injected translations missing (19094) ==========
 BackstoryDef: MadScientist22.description 'Stripped of [PAWN_possessive] life's work and exiled after [PAWN_possessive] unethical experiments on the survivors of the Callos IX incident were published, [PAWN_nameDef] learned the skills necessary to survive in the outer rim.\n\nContinuing [PAWN_possessive] research with nothing left to lose, [PAWN_pronoun] made minions to carry out the tasks that bored him.'
 BackstoryDef: MadScientist22.title 'mad scientist'
 BackstoryDef: MadScientist22.titleShort 'scientist'
@@ -8066,14 +8068,6 @@ RaidStrategyDef: Siege.arrivalTextEnemy 'It looks like they want to besiege the 
 RaidStrategyDef: Siege.arrivalTextFriendly 'It looks like they want to use siege tactics to help you.' (placeholder exists in RaidStrategies_Siege.xml)
 RaidStrategyDef: Siege.letterLabelEnemy 'Siege' (placeholder exists in RaidStrategies_Siege.xml)
 RaidStrategyDef: Siege.letterLabelFriendly 'Friendlies' (placeholder exists in RaidStrategies_Siege.xml)
-RecipeDef: CureScaria.label 'cure scaria'
-RecipeDef: CureScaria.description 'This special medical operation cures scaria.'
-RecipeDef: CureScaria.jobString 'Curing scaria.'
-RecipeDef: CureScaria.successfullyRemovedHediffMessage '{0} has successfully cured {1}'s scaria.'
-RecipeDef: Sterilize.label 'sterilize'
-RecipeDef: Sterilize.description 'Sterilize a creature so it can no longer reproduce.'
-RecipeDef: Sterilize.jobString 'sterilizing TargetA.'
-RecipeDef: Sterilize.successfullyRemovedHediffMessage '{0} has successfully sterilized {1}.'
 RecipeDef: InstallPsychicSensitizer.label 'install psychic sensitizer' (placeholder exists in Hediffs_BodyParts_Archotech_EmpireRoyal.xml)
 RecipeDef: InstallPsychicSensitizer.description 'Install a psychic sensitizer.' (placeholder exists in Hediffs_BodyParts_Archotech_EmpireRoyal.xml)
 RecipeDef: InstallPsychicSensitizer.jobString 'Installing psychic sensitizer.' (placeholder exists in Hediffs_BodyParts_Archotech_EmpireRoyal.xml)
@@ -9154,34 +9148,6 @@ ResearchProjectDef: Piano.generalRules.rulesStrings.3 'subject_story->transporte
 ResearchProjectDef: Piano.generalRules.rulesStrings.4 'subject_story->recorded the techniques of several master pianists' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in ResearchProjects_MusicalInstruments.xml)
 ResearchProjectDef: Piano.generalRules.rulesStrings.5 'subject_story->constructed a strange piano' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in ResearchProjects_MusicalInstruments.xml)
 ResearchProjectDef: Piano.generalRules.rulesStrings.6 'subject_gerund->playing the piano' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in ResearchProjects_MusicalInstruments.xml)
-ResearchProjectDef: Biosculpting.label 'biosculpting'
-ResearchProjectDef: Biosculpting.description 'Construct biosculpter pods which can perform various biological alterations to colonists. These are especially important to believers in transhumanism.'
-ResearchProjectDef: Biosculpting.generalRules.rulesStrings.0 'subject->biosculpting' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Biosculpting.generalRules.rulesStrings.1 'subject_story->constructed biosculpter pods on contract for various colonies' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Biosculpting.generalRules.rulesStrings.2 'subject_story->studied transhumanist precepts, including the necessity of biosculpture' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Biosculpting.generalRules.rulesStrings.3 'subject_story->researched which biological alterations could be made safely' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Biosculpting.generalRules.rulesStrings.4 'subject_story->escaped a glitterworld support farm with these plans' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Biosculpting.generalRules.rulesStrings.5 'subject_story->was welcomed into a transhumanist colony' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Biosculpting.generalRules.rulesStrings.6 'subject_gerund->constructing biosculpter pods' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Biosculpting.generalRules.rulesStrings.7 'subject_gerund->sculpting the human form' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Bioregeneration.label 'bioregeneration'
-ResearchProjectDef: Bioregeneration.description 'Unlock the biosculpter pod's bioregeneration cycle. This cycle heals old scars, regenerates small lost body parts like fingers and toes, and cures many of the physical maladies that come with old age.'
-ResearchProjectDef: Bioregeneration.generalRules.rulesStrings.0 'subject->bioregeneration' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Bioregeneration.generalRules.rulesStrings.1 'subject_story->studied Boomalope antler regrowth for parallels with human regeneration' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Bioregeneration.generalRules.rulesStrings.2 'subject_story->spliced salamander genetic data into [ANYPAWN_possessive] own body' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Bioregeneration.generalRules.rulesStrings.3 'subject_story->trained in a Glitterworld hospital' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Bioregeneration.generalRules.rulesStrings.4 'subject_story->completed a correspondence course in Glitterworld aesthetics' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Bioregeneration.generalRules.rulesStrings.5 'subject_gerund->regenerating the human form' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Bioregeneration.generalRules.rulesStrings.6 'subject_gerund->activating regeneration with biosculpters' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: NeuralSupercharger.label 'neural supercharger'
-ResearchProjectDef: NeuralSupercharger.description 'Construct neural supercharger devices. Neural superchargers improve consciousness and learning rate, but they also increase hunger and the effect must be refreshed daily. Transhumanists often hold neural supercharging as an important practice.'
-ResearchProjectDef: NeuralSupercharger.generalRules.rulesStrings.0 'subject->neural superchargers' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: NeuralSupercharger.generalRules.rulesStrings.1 'subject_story->implemented neural superchargers in [ANYPAWN_possessive] boarding school' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: NeuralSupercharger.generalRules.rulesStrings.2 'subject_story->supercharged the neurons of farmed clones to massively accelerate their development' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: NeuralSupercharger.generalRules.rulesStrings.3 'subject_story->attempted to ban neural supercharging in the university course [ANYPAWN_pronoun] taught' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: NeuralSupercharger.generalRules.rulesStrings.4 'subject_story->joined a transhumanist sect where neural supercharging was mandatory' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: NeuralSupercharger.generalRules.rulesStrings.5 'subject_gerund->supercharging a human's intellect' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: NeuralSupercharger.generalRules.rulesStrings.6 'subject_gerund->constructing neural superchargers' (hint: this list allows full-list translation by using <li> nodes)
 ResearchProjectDef: BasicMechtech.label 'basic mechtech' (placeholder exists in ResearchProjects_Mechanitor.xml)
 ResearchProjectDef: BasicMechtech.description 'The technology needed for your mechanitor to create and control basic-tier mechanoids.' (placeholder exists in ResearchProjects_Mechanitor.xml)
 ResearchProjectDef: BasicMechtech.generalRules.rulesStrings.0 'subject->mechanoids' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in ResearchProjects_Mechanitor.xml)
@@ -9296,367 +9262,6 @@ ResearchProjectDef: GrowthVats.generalRules.rulesStrings.4 'subject_story->helpe
 ResearchProjectDef: GrowthVats.generalRules.rulesStrings.5 'subject_gerund->gestating embryos in artificial wombs' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in ResearchProjects_Misc.xml)
 ResearchProjectDef: GrowthVats.generalRules.rulesStrings.6 'subject_gerund->accelerating human growth' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in ResearchProjects_Misc.xml)
 ResearchProjectDef: GrowthVats.generalRules.rulesStrings.7 'subject_gerund->constructing growth vats' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in ResearchProjects_Misc.xml)
-ResearchProjectDef: BioferriteExtraction.label 'bioferrite extraction'
-ResearchProjectDef: BioferriteExtraction.description 'Extract bioferrite directly from captured entities. Use it to craft weapons and apparel at a crafting spot or bioferrite shaper.'
-ResearchProjectDef: BioferriteExtraction.generalRules.rulesStrings.0 'subject->bioferrite extraction' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BioferriteExtraction.generalRules.rulesStrings.1 'subject_story->extracted an organic compound from a rapidly mutating flesh sample' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BioferriteExtraction.generalRules.rulesStrings.2 'subject_story->stripped and boiled the flesh of a harbinger tree' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BioferriteExtraction.generalRules.rulesStrings.3 'subject_story->investigated reports of an archotech phenomenon' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BioferriteExtraction.generalRules.rulesStrings.4 'subject_story->discovered a novel organic metal' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BioferriteExtraction.generalRules.rulesStrings.5 'subject_gerund->extracting bioferrite' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BioferriteHarvesting.label 'bioferrite harvester'
-ResearchProjectDef: BioferriteHarvesting.description 'Build bioferrite harvesters that automatically extract bioferrite from captured entities. Produces more bioferrite than manual extraction.'
-ResearchProjectDef: BioferriteHarvesting.generalRules.rulesStrings.0 'subject->bioferrite' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BioferriteHarvesting.generalRules.rulesStrings.1 'subject_story->investigated an exotic metal-like fibrous substance' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BioferriteHarvesting.generalRules.rulesStrings.2 'subject_story->vivisected a ghoulish corpse' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BioferriteHarvesting.generalRules.rulesStrings.3 'subject_story->discovered a cache of organic metals' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BioferriteHarvesting.generalRules.rulesStrings.4 'subject_story->observed strange metal-infested wildlife' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BioferriteHarvesting.generalRules.rulesStrings.5 'subject_gerund->harvesting bioferrite' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BioferriteShaping.label 'bioferrite shaping'
-ResearchProjectDef: BioferriteShaping.description 'Shape and re-form bioferrite into useful tools, weapons, flooring, and more.'
-ResearchProjectDef: BioferriteShaping.generalRules.rulesStrings.0 'subject->bioferrite shaping' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BioferriteShaping.generalRules.rulesStrings.1 'subject_story->learned unique techniques for molding and sculpting' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BioferriteShaping.generalRules.rulesStrings.2 'subject_story->trained in heat-shaping' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BioferriteShaping.generalRules.rulesStrings.3 'subject_story->worked in an exotic materials foundry' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BioferriteShaping.generalRules.rulesStrings.4 'subject_story->aided an archotech materials scientist ' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BioferriteShaping.generalRules.rulesStrings.5 'subject_story->studied the formation of archotech artefacts' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BioferriteShaping.generalRules.rulesStrings.6 'subject_gerund->shaping bioferrite' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BioferriteIgnition.label 'bioferrite weaponry'
-ResearchProjectDef: BioferriteIgnition.description 'Create advanced weapons that use bioferrite as a fuel source.'
-ResearchProjectDef: BioferriteIgnition.generalRules.rulesStrings.0 'subject->bioferrite combustion' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BioferriteIgnition.generalRules.rulesStrings.1 'subject->bioferrite weaponry' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BioferriteIgnition.generalRules.rulesStrings.2 'subject_story->worked for an extraction rig on an archotech asteroid' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BioferriteIgnition.generalRules.rulesStrings.3 'subject_story->researched the combustion points of exotic materials' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BioferriteIgnition.generalRules.rulesStrings.4 'subject_story->joined the research arm of a milword weapons corp' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BioferriteIgnition.generalRules.rulesStrings.5 'subject_story->cleared biomines in an archotech desert' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BioferriteIgnition.generalRules.rulesStrings.6 'subject_gerund->building bioferrite-based weapons' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BioferriteGenerator.label 'bioferrite generator'
-ResearchProjectDef: BioferriteGenerator.description 'Build power generators that burn bioferrite as a fuel.'
-ResearchProjectDef: BioferriteGenerator.generalRules.rulesStrings.0 'subject->bioferrite power generation' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BioferriteGenerator.generalRules.rulesStrings.1 'subject_story->was trained in the use of innovative power sources' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BioferriteGenerator.generalRules.rulesStrings.2 'subject_story->explored the use of metal- and fiber-based fuels' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BioferriteGenerator.generalRules.rulesStrings.3 'subject_story->discovered a love of fire and things that burn' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BioferriteGenerator.generalRules.rulesStrings.4 'subject_story->worked as a technician, maintaining orbital energy systems' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BioferriteGenerator.generalRules.rulesStrings.5 'subject_story->rendered the wildlife of a system down for fuel' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BioferriteGenerator.generalRules.rulesStrings.6 'subject_gerund->constructing bioferrite-powered generators' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BioferriteGenerator.generalRules.rulesStrings.7 'subject_gerund->powering generators using bioferrite' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: VoidSculptures.label 'void sculptures'
-ResearchProjectDef: VoidSculptures.description 'Craft special void sculptures from bioferrite to enhance the quality of psychic rituals.'
-ResearchProjectDef: VoidSculptures.generalRules.rulesStrings.0 'subject->void sculptures' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: VoidSculptures.generalRules.rulesStrings.1 'subject->bioferrite sculpture' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: VoidSculptures.generalRules.rulesStrings.2 'subject_story->computer-modelled archotech possibility spaces' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: VoidSculptures.generalRules.rulesStrings.3 'subject_story->was employed by a sibyl to sculpt her dreams' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: VoidSculptures.generalRules.rulesStrings.4 'subject_story->wanted to bring sculptures to life' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: VoidSculptures.generalRules.rulesStrings.5 'subject_story->dreamed of an endless ocean, shaped by human hands' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: VoidSculptures.generalRules.rulesStrings.6 'subject_story->observed Imperial psychics at work' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: VoidSculptures.generalRules.rulesStrings.7 'subject_gerund->sculpting with bioferrite' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: VoidSculptures.generalRules.rulesStrings.8 'subject_gerund->crafting bioferrite ritual sculptures' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: InsanityWeaponry.label 'insanity weaponry'
-ResearchProjectDef: InsanityWeaponry.description 'Restructure archotech shards into limited-use weapons that shock, manipulate, and destroy enemies using archotechnology.'
-ResearchProjectDef: InsanityWeaponry.generalRules.rulesStrings.0 'subject->archotech insanity weaponry' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: InsanityWeaponry.generalRules.rulesStrings.1 'subject_story->explored psychological warfare for [ANYPAWN_possessive] dissertation' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: InsanityWeaponry.generalRules.rulesStrings.2 'subject_story->watched an Imperial battalion rout and learned the value of fear' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: InsanityWeaponry.generalRules.rulesStrings.3 'subject_story->worked in an asylum of archotech victims' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: InsanityWeaponry.generalRules.rulesStrings.4 'subject_story->vivisected archite-infested wildlife to understand the effects on the mammalian brain' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: InsanityWeaponry.generalRules.rulesStrings.5 'subject_gerund->restructuring archotech into insanity-inducing weaponry' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: MutationWeaponry.label 'mutation weaponry'
-ResearchProjectDef: MutationWeaponry.description 'Restructure archotech shards into limited-use weapons that twist living targets into terrifying creatures.'
-ResearchProjectDef: MutationWeaponry.generalRules.rulesStrings.0 'subject->mutation induction' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: MutationWeaponry.generalRules.rulesStrings.1 'subject->archotech mutation weaponry' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: MutationWeaponry.generalRules.rulesStrings.2 'subject_story->dreamed of new life, infused with archites' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: MutationWeaponry.generalRules.rulesStrings.3 'subject_story->witnessed archotech warping plant life' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: MutationWeaponry.generalRules.rulesStrings.4 'subject_story->experimented with new weapons' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: MutationWeaponry.generalRules.rulesStrings.5 'subject_story->studied new life on transcendent worlds' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: MutationWeaponry.generalRules.rulesStrings.6 'subject_story->grew archite-based life in the laboratory' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: MutationWeaponry.generalRules.rulesStrings.7 'subject_gerund->inducing mutations' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: MutationWeaponry.generalRules.rulesStrings.8 'subject_gerund->restructuring archotech into mutation-inducing weaponry' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: AtmosphericHeater.label 'atmospheric heater'
-ResearchProjectDef: AtmosphericHeater.description 'Build bioferrite-powered heaters that produce enough heat to warm an entire region.'
-ResearchProjectDef: AtmosphericHeater.generalRules.rulesStrings.0 'subject->bioferrite heating' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: AtmosphericHeater.generalRules.rulesStrings.1 'subject_story->upgraded archaic geothermal plants' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: AtmosphericHeater.generalRules.rulesStrings.2 'subject_story->studied the heat output of biometals' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: AtmosphericHeater.generalRules.rulesStrings.3 'subject_story->researched the impossible capacity of archotech energy storage' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: AtmosphericHeater.generalRules.rulesStrings.4 'subject_story->examined the hypocaust systems on densely occupied iceworlds' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: AtmosphericHeater.generalRules.rulesStrings.5 'subject_gerund->heating with bioferrite' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: AtmosphericHeater.generalRules.rulesStrings.6 'subject_gerund->constructing bioferrite-fueled heaters' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: FrenzyInducer.label 'frenzy inducer'
-ResearchProjectDef: FrenzyInducer.description 'Build shard-powered structures that generate a frenetic psychic field to make anyone nearby move and work faster. However, the unstable emotional energy creates a tendency towards violence, irritating anyone nearby.'
-ResearchProjectDef: FrenzyInducer.generalRules.rulesStrings.0 'subject->archotech frenzy inducers' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: FrenzyInducer.generalRules.rulesStrings.1 'subject_story->worked as a motivational therapist' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: FrenzyInducer.generalRules.rulesStrings.2 'subject_story->beat the drums on a feralworld galley' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: FrenzyInducer.generalRules.rulesStrings.3 'subject_story->researched the effects of varied archofields on human consciousness' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: FrenzyInducer.generalRules.rulesStrings.4 'subject_story->managed a trance station in an urbworld underclub' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: FrenzyInducer.generalRules.rulesStrings.5 'subject_gerund->inducing frenzy' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: FrenzyInducer.generalRules.rulesStrings.6 'subject_gerund->constructing frenzy inducers from archotech' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SleepSuppressor.label 'sleep suppressor'
-ResearchProjectDef: SleepSuppressor.description 'Build shard-powered structures that stimulate those nearby to prevent fatigue. The device will irritate anyone nearby.'
-ResearchProjectDef: SleepSuppressor.generalRules.rulesStrings.0 'subject->sleep suppression' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SleepSuppressor.generalRules.rulesStrings.1 'subject_story->studied sleep deprivation in factory workers' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SleepSuppressor.generalRules.rulesStrings.2 'subject_story->researched stimulant use among Imperial troopers' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SleepSuppressor.generalRules.rulesStrings.3 'subject_story->researched the effects of varied archofields on human consciousness' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SleepSuppressor.generalRules.rulesStrings.4 'subject_story->worked in a glitterworld eversleep lab, where the wealthy dreamed their lives away' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SleepSuppressor.generalRules.rulesStrings.5 'subject_story->managed the reveille at a prisonworld work camp' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SleepSuppressor.generalRules.rulesStrings.6 'subject_gerund->constructing sleep suppressors from archotech' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SleepSuppressor.generalRules.rulesStrings.7 'subject_gerund->suppressing sleep with archotech' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: EntityContainment.label 'entity containment'
-ResearchProjectDef: EntityContainment.description 'Build holding platforms and inhibitors to better contain entities.'
-ResearchProjectDef: EntityContainment.generalRules.rulesStrings.0 'subject->entity containment' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: EntityContainment.generalRules.rulesStrings.1 'subject_story->worked in a prisonworld research facility' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: EntityContainment.generalRules.rulesStrings.2 'subject_story->was held captive on a prisonworld' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: EntityContainment.generalRules.rulesStrings.3 'subject_story->worked with a guerilla movement to breach holding facilities' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: EntityContainment.generalRules.rulesStrings.4 'subject_story->constructed meatpacking plants in the dinoworld chains' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: EntityContainment.generalRules.rulesStrings.5 'subject_gerund->containing entities' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: EntityContainment.generalRules.rulesStrings.6 'subject_gerund->construction entity containment facilities' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Electroharvester.label 'electroharvester'
-ResearchProjectDef: Electroharvester.description 'Build a generator that draws electricity from contained entities. This process aggravates entities, making them harder to contain.'
-ResearchProjectDef: Electroharvester.generalRules.rulesStrings.0 'subject->entity-derived power generation' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Electroharvester.generalRules.rulesStrings.1 'subject_story->researched ion pumps in cell membranes' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Electroharvester.generalRules.rulesStrings.2 'subject_story->studied the life of the rare Terran electric eel' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Electroharvester.generalRules.rulesStrings.3 'subject_story->provoked archites and studied their thermal output' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Electroharvester.generalRules.rulesStrings.4 'subject_story->theorized about the energy potential of archotech' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Electroharvester.generalRules.rulesStrings.5 'subject_gerund->harvesting from entities' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Electroharvester.generalRules.rulesStrings.6 'subject_gerund->constructing electroharvesters' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: DisruptorFlares.label 'disruptor flares'
-ResearchProjectDef: DisruptorFlares.description 'Build bioferrite-based flare packs that reveal invisible creatures and light up an area.'
-ResearchProjectDef: DisruptorFlares.generalRules.rulesStrings.0 'subject->bioferrite flares' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: DisruptorFlares.generalRules.rulesStrings.1 'subject->short-term lighting' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: DisruptorFlares.generalRules.rulesStrings.2 'subject_story->studied the non-visual electromagnetic spectrum' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: DisruptorFlares.generalRules.rulesStrings.3 'subject_story->disabled the visual centres of test subjects' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: DisruptorFlares.generalRules.rulesStrings.4 'subject_story->studied the bioluminescence techniques of nightworld fauna' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: DisruptorFlares.generalRules.rulesStrings.5 'subject_story->narrowed the electromagnetic spectrum of archite energy releases' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: DisruptorFlares.generalRules.rulesStrings.6 'subject_gerund->boosting visibility temporarily' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: DisruptorFlares.generalRules.rulesStrings.7 'subject_gerund->crafting bioferrite flares' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: ProximityDetector.label 'proximity detector'
-ResearchProjectDef: ProximityDetector.description 'Build a device that can detect invisible creatures.'
-ResearchProjectDef: ProximityDetector.generalRules.rulesStrings.0 'subject->proximity detectors' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: ProximityDetector.generalRules.rulesStrings.1 'subject->motion sensors' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: ProximityDetector.generalRules.rulesStrings.2 'subject_story->watched ancient entertainment reels and was inspired' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: ProximityDetector.generalRules.rulesStrings.3 'subject_story->prototyped simple psi-hardened devices' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: ProximityDetector.generalRules.rulesStrings.4 'subject_story->maintained the early warning systems of a deathworld outpost' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: ProximityDetector.generalRules.rulesStrings.5 'subject_story->studied multiband scanners for cross-system pattern detection' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: ProximityDetector.generalRules.rulesStrings.6 'subject_gerund->revealing the unseen' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: ProximityDetector.generalRules.rulesStrings.7 'subject_gerund->detecting invisible creatures' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BasicPsychicRituals.label 'void provocation'
-ResearchProjectDef: BasicPsychicRituals.description 'Build a psychic ritual spot and perform psychic rituals. Use the void provocation ritual to discover new entities.'
-ResearchProjectDef: BasicPsychicRituals.generalRules.rulesStrings.0 'subject->psychic rituals' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BasicPsychicRituals.generalRules.rulesStrings.1 'subject_story->studied the rituals of Horax cultists' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BasicPsychicRituals.generalRules.rulesStrings.2 'subject_story->reconstructed primitive altars' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BasicPsychicRituals.generalRules.rulesStrings.3 'subject_story->established the basics of psychic communication' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BasicPsychicRituals.generalRules.rulesStrings.4 'subject_story->watched a failed void provocation ritual on a deathworld' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BasicPsychicRituals.generalRules.rulesStrings.5 'subject_story->communed with an archotech shard atop a desert pillar' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BasicPsychicRituals.generalRules.rulesStrings.6 'subject_gerund->conducting psychic rituals' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BasicPsychicRituals.generalRules.rulesStrings.7 'subject_gerund->establishing ritual spots' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BasicPsychicRituals.generalRules.rulesStrings.8 'subject_gerund->provoking void entities' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SummonAnimals.label 'draw animals'
-ResearchProjectDef: SummonAnimals.description 'Perform a psychic ritual which will draw a herd of animals.'
-ResearchProjectDef: SummonAnimals.generalRules.rulesStrings.0 'subject->stampede invocation' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SummonAnimals.generalRules.rulesStrings.1 'subject_story->worked as a shepherd amidst the mountains of a primitive world' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SummonAnimals.generalRules.rulesStrings.2 'subject_story->learned to commune with the beasts of the fields' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SummonAnimals.generalRules.rulesStrings.3 'subject_story->experimented with the effects of archite on different animal breeds' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SummonAnimals.generalRules.rulesStrings.4 'subject_story->watched a nature cult commune with their herds' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SummonAnimals.generalRules.rulesStrings.5 'subject_gerund->summoning animal herds' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SummonShamblers.label 'draw shamblers'
-ResearchProjectDef: SummonShamblers.description 'Perform a psychic ritual which will draw a horde of animated corpses. While hostile, the corpses won't attack your colony directly. They can be captured for study.'
-ResearchProjectDef: SummonShamblers.generalRules.rulesStrings.0 'subject->shambler summoning rituals' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SummonShamblers.generalRules.rulesStrings.1 'subject_story->studied the necrocults of the deadworlds, from the safety of a university library' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SummonShamblers.generalRules.rulesStrings.2 'subject_story->collected stories of shambler attacks' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SummonShamblers.generalRules.rulesStrings.3 'subject_story->studied archite thread formation in deceased organisms' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SummonShamblers.generalRules.rulesStrings.4 'subject_story->saw all sorts of strange things as a deathworld curator' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SummonShamblers.generalRules.rulesStrings.5 'subject_gerund->summoning shamblers' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SummonShamblers.generalRules.rulesStrings.6 'subject_gerund->calling shamblers through ritual' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Chronophagy.label 'chronophagy'
-ResearchProjectDef: Chronophagy.description 'Perform a psychic ritual that causes a target to age rapidly. The ritual invoker will become younger in the process. The target will suffer brain damage as a result, which may be lethal for elderly targets.'
-ResearchProjectDef: Chronophagy.generalRules.rulesStrings.0 'subject->chronophagy' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Chronophagy.generalRules.rulesStrings.1 'subject_story->studied age-related degeneration' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Chronophagy.generalRules.rulesStrings.2 'subject_story->destructively replicated healthy structures from one organism to another' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Chronophagy.generalRules.rulesStrings.3 'subject_story->theorized about the various rituals that imbued archotech can enable' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Chronophagy.generalRules.rulesStrings.4 'subject_story->observed wealthy longevity treatments in glitterworld clinics' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Chronophagy.generalRules.rulesStrings.5 'subject_gerund->stealing youth' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Chronophagy.generalRules.rulesStrings.6 'subject_gerund->invoking chronophagy' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Chronophagy.generalRules.rulesStrings.7 'subject_gerund->performing a chronophagy ritual' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Psychophagy.label 'psychophagy'
-ResearchProjectDef: Psychophagy.description 'Perform a psychic ritual which deadens a target's psychic sensitivity and temporarily boosts the ritual invoker's psychic sensitivity. The target will suffer brain damage as a side-effect.'
-ResearchProjectDef: Psychophagy.generalRules.rulesStrings.0 'subject->psychophagy' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Psychophagy.generalRules.rulesStrings.1 'subject_story->studied managed desensitization to psychic effects' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Psychophagy.generalRules.rulesStrings.2 'subject_story->managed archite transfer from deceased subjects' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Psychophagy.generalRules.rulesStrings.3 'subject_story->collated rumours of psychic transference rituals' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Psychophagy.generalRules.rulesStrings.4 'subject_story->witnessed a Horax cult sap the power of an Imperial noble' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Psychophagy.generalRules.rulesStrings.5 'subject_gerund->stealing psychic abilities' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Psychophagy.generalRules.rulesStrings.6 'subject_gerund->performing a psychophagy ritual' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SkipAbductionPlayer.label 'skip abduction'
-ResearchProjectDef: SkipAbductionPlayer.description 'Perform a psychic ritual that abducts a random hostile person from anywhere in the world, putting them in a short-term coma for capture.'
-ResearchProjectDef: SkipAbductionPlayer.generalRules.rulesStrings.0 'subject->psychic abduction' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SkipAbductionPlayer.generalRules.rulesStrings.1 'subject->skip abduction' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SkipAbductionPlayer.generalRules.rulesStrings.2 'subject_story->witnessed an abduction attempt on an Imperial noble' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SkipAbductionPlayer.generalRules.rulesStrings.3 'subject_story->was ransomed by dirtmole scavengers' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SkipAbductionPlayer.generalRules.rulesStrings.4 'subject_story->observed a failed translocation ritual performed by a cult leader' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SkipAbductionPlayer.generalRules.rulesStrings.5 'subject_story->researched transpatial transfer mediated by archotech' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SkipAbductionPlayer.generalRules.rulesStrings.6 'subject_gerund->abducting enemies through psychic ritual' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SkipAbductionPlayer.generalRules.rulesStrings.7 'subject_gerund->performing a ritual of skip abduction' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SummonFleshbeastsPlayer.label 'summon fleshbeasts'
-ResearchProjectDef: SummonFleshbeastsPlayer.description 'Perform a psychic ritual which provokes fleshbeasts to emerge from the ground near enemies, attacking anyone nearby.'
-ResearchProjectDef: SummonFleshbeastsPlayer.generalRules.rulesStrings.0 'subject->fleshbeast summoning' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SummonFleshbeastsPlayer.generalRules.rulesStrings.1 'subject_story->read ancient tomes about the origins of life' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SummonFleshbeastsPlayer.generalRules.rulesStrings.2 'subject_story->experienced firsthand spontaneous generation in the boomrats of Sahe' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SummonFleshbeastsPlayer.generalRules.rulesStrings.3 'subject_story->watched an ancient movie about fleshmelding and was inspired' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SummonFleshbeastsPlayer.generalRules.rulesStrings.4 'subject_story->studied consciousness transfer and separation in organic merging' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SummonFleshbeastsPlayer.generalRules.rulesStrings.5 'subject_story->observed a dirtmole community that had encountered horrifying beasts underground' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SummonFleshbeastsPlayer.generalRules.rulesStrings.6 'subject_gerund->summoning fleshbeasts' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SummonFleshbeastsPlayer.generalRules.rulesStrings.7 'subject_gerund->performing a ritual to summon fleshbeasts' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: AdvancedPsychicRituals.label 'advanced psychic rituals'
-ResearchProjectDef: AdvancedPsychicRituals.description 'Perform advanced psychic rituals.'
-ResearchProjectDef: AdvancedPsychicRituals.generalRules.rulesStrings.0 'subject->advanced psychic rituals' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: AdvancedPsychicRituals.generalRules.rulesStrings.1 'subject_story->was brought into a cult circle' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: AdvancedPsychicRituals.generalRules.rulesStrings.2 'subject_story->encountered an exiled cult master, who happily boasted about his secrets' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: AdvancedPsychicRituals.generalRules.rulesStrings.3 'subject_story->deepened [ANYPAWN_possessive] understanding of ritual sacrifice' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: AdvancedPsychicRituals.generalRules.rulesStrings.4 'subject_story->was appointed professor of psychic history at the University of Ix' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: AdvancedPsychicRituals.generalRules.rulesStrings.5 'subject_gerund->performing advanced psychic rituals' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SummonPitGate.label 'provoke pit gate'
-ResearchProjectDef: SummonPitGate.description 'Perform a psychic ritual which causes underground fleshbeasts to open up a massive hole in the ground. The hole leads down to a fleshbeast-infested cavern which can be explored for resources.'
-ResearchProjectDef: SummonPitGate.generalRules.rulesStrings.0 'subject->pit gate invocation' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SummonPitGate.generalRules.rulesStrings.1 'subject_story->researched fleshmeld infestations' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SummonPitGate.generalRules.rulesStrings.2 'subject_story->gathered tales of gestalt organisms' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SummonPitGate.generalRules.rulesStrings.3 'subject_story->managed the tome library of a deadworld cult-school' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SummonPitGate.generalRules.rulesStrings.4 'subject_story->officiated in a ritual of subsidence' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SummonPitGate.generalRules.rulesStrings.5 'subject_gerund->performing a ritual to create a pit gate' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SummonPitGate.generalRules.rulesStrings.6 'subject_gerund->summoning a pit gate' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: DeathRefusal.label 'death refusal'
-ResearchProjectDef: DeathRefusal.description 'Perform a psychic ritual which grants death refusal to an individual, allowing them to self-resurrect once after dying.'
-ResearchProjectDef: DeathRefusal.generalRules.rulesStrings.0 'subject->death refusal invocation' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: DeathRefusal.generalRules.rulesStrings.1 'subject_story->investigated tales of impossible survival' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: DeathRefusal.generalRules.rulesStrings.2 'subject_story->observed the last moments of the many casualties of Last Battle VII' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: DeathRefusal.generalRules.rulesStrings.3 'subject_story->participated in the attempted resurrection of the ur-prophet of Axhor' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: DeathRefusal.generalRules.rulesStrings.4 'subject_story->gathered evidence of death refusal in the libraries of a coreworld' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: DeathRefusal.generalRules.rulesStrings.5 'subject_gerund->fending off death' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: DeathRefusal.generalRules.rulesStrings.6 'subject_gerund->performing a ritual to rebuke death' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Philophagy.label 'philophagy'
-ResearchProjectDef: Philophagy.description 'Perform a psychic ritual that drains experience from a victim and gives it to the invoker. The process will dull the target's mind, weakening their skills and causing brain damage.'
-ResearchProjectDef: Philophagy.generalRules.rulesStrings.0 'subject->philophagy' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Philophagy.generalRules.rulesStrings.1 'subject->skill transfer' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Philophagy.generalRules.rulesStrings.2 'subject_story->followed a trail of victims left by a philophage' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Philophagy.generalRules.rulesStrings.3 'subject_story->researched neural replication processes in a glitterworld's labs' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Philophagy.generalRules.rulesStrings.4 'subject_story->investigated the damaged minds of cult victims' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Philophagy.generalRules.rulesStrings.5 'subject_story->found [ANYPAWN_possessive] skills weakened after a psychic assault' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Philophagy.generalRules.rulesStrings.6 'subject_gerund->transferring a subject's learning' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Philophagy.generalRules.rulesStrings.7 'subject_gerund->performing a ritual to steal a victim's skills' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: PleasurePulse.label 'pleasure pulse'
-ResearchProjectDef: PleasurePulse.description 'Perform a psychic ritual that makes everyone in the region happier but reduces their desire to work.'
-ResearchProjectDef: PleasurePulse.generalRules.rulesStrings.0 'subject->pleasure invocation' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: PleasurePulse.generalRules.rulesStrings.1 'subject_story->read an ancient Earth story that boasted of a miracle food called soma' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: PleasurePulse.generalRules.rulesStrings.2 'subject_story->researched the myth of the Lotus Eaters' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: PleasurePulse.generalRules.rulesStrings.3 'subject_story->worked with social philosophers to create a utilitarian ritual' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: PleasurePulse.generalRules.rulesStrings.4 'subject_story->joined a rare archotech cult dedicated to leisure and pleasure' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: PleasurePulse.generalRules.rulesStrings.5 'subject_gerund->inducing pleasure psychically' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: PleasurePulse.generalRules.rulesStrings.6 'subject_gerund->performing a psychic ritual to induce pleasure' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: NeurosisPulse.label 'neurosis pulse'
-ResearchProjectDef: NeurosisPulse.description 'Perform a psychic ritual that makes everyone in the region work faster but become more irritable.'
-ResearchProjectDef: NeurosisPulse.generalRules.rulesStrings.0 'subject->neurosis pulse' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: NeurosisPulse.generalRules.rulesStrings.1 'subject->work imperative' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: NeurosisPulse.generalRules.rulesStrings.2 'subject_story->joined a workers' cult on an urbworld' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: NeurosisPulse.generalRules.rulesStrings.3 'subject_story->felt the psychic pressure of a ritual during work' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: NeurosisPulse.generalRules.rulesStrings.4 'subject_story->studied the neural-pathways of the neurotic' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: NeurosisPulse.generalRules.rulesStrings.5 'subject_story->investigated the crossover between management tropes and cult rituals' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: NeurosisPulse.generalRules.rulesStrings.6 'subject_gerund->inducing neuroses psychically' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: NeurosisPulse.generalRules.rulesStrings.7 'subject_gerund->performing a ritual to raise worker productivity' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BloodRain.label 'blood rain'
-ResearchProjectDef: BloodRain.description 'Perform a psychic ritual which causes blood-like psychofluid to fall from the sky. Anyone caught outside will soon be driven into a berserk rage.'
-ResearchProjectDef: BloodRain.generalRules.rulesStrings.0 'subject->blood rain' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BloodRain.generalRules.rulesStrings.1 'subject_story->investigated ancient deist myths about organic precipitation' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BloodRain.generalRules.rulesStrings.2 'subject_story->studied the neural pathways of anger sufferers' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BloodRain.generalRules.rulesStrings.3 'subject_story->sampled psychofluid flows on the transcendent world of Ix' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BloodRain.generalRules.rulesStrings.4 'subject_story->was exposed to a psychofluid shower and filled with unmanageable rage' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BloodRain.generalRules.rulesStrings.5 'subject_gerund->causing it to rain blood' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Brainwipe.label 'brainwipe'
-ResearchProjectDef: Brainwipe.description 'Perform a psychic ritual which erases much of a person's episodic memories. Traumatic events will be forgotten. Resistant prisoners will become easier to recruit. Allows recruiting unwaveringly loyal prisoners.'
-ResearchProjectDef: Brainwipe.generalRules.rulesStrings.0 'subject->mind erasure' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Brainwipe.generalRules.rulesStrings.1 'subject_story->studied stories of episodic amnesia' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Brainwipe.generalRules.rulesStrings.2 'subject_story->worked in a clinic with brain lesion survivors' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Brainwipe.generalRules.rulesStrings.3 'subject_story->researched the neural pathways of amnesiacs' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Brainwipe.generalRules.rulesStrings.4 'subject_story->managed a brainwashing facility after the Forgotten Wars' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Brainwipe.generalRules.rulesStrings.5 'subject_gerund->wiping a subject's mind' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: Brainwipe.generalRules.rulesStrings.6 'subject_gerund->performing a ritual to erase a subject's mind' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SerumSynthesis.label 'serum synthesis'
-ResearchProjectDef: SerumSynthesis.description 'Build a serum lab to synthesize high-tech serums. Serums harness archotechnological power to bestow a temporary effect on the user.'
-ResearchProjectDef: SerumSynthesis.generalRules.rulesStrings.0 'subject->serum synthesis' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SerumSynthesis.generalRules.rulesStrings.1 'subject_story->was injected with archites to understand their effects' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SerumSynthesis.generalRules.rulesStrings.2 'subject_story->discovered a pool of oily black fluid in a deadworld temple' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SerumSynthesis.generalRules.rulesStrings.3 'subject_story->survived a dangerous fall thanks to a serum' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SerumSynthesis.generalRules.rulesStrings.4 'subject_story->managed a serum-testing programme for a coreworld brigade' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: SerumSynthesis.generalRules.rulesStrings.5 'subject_gerund->synthesizing serums' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: MetalbloodSerum.label 'metalblood serum'
-ResearchProjectDef: MetalbloodSerum.description 'Synthesize metalblood serums that make the user more resistant to damage.'
-ResearchProjectDef: MetalbloodSerum.generalRules.rulesStrings.0 'subject->metalblood serums' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: MetalbloodSerum.generalRules.rulesStrings.1 'subject_story->researched reactive liquids for use in milworld armor' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: MetalbloodSerum.generalRules.rulesStrings.2 'subject_story->was an early pioneer of blood-replacement technologies' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: MetalbloodSerum.generalRules.rulesStrings.3 'subject_story->discovered a metalblood dispenser on a desolate deadworld' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: MetalbloodSerum.generalRules.rulesStrings.4 'subject_story->deployed flamethrowers against a metalblood-using militia' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: MetalbloodSerum.generalRules.rulesStrings.5 'subject_gerund->synthesizing metalblood serums' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: MindNumbSerum.label 'mind-numb serum'
-ResearchProjectDef: MindNumbSerum.description 'Synthesize a serum that stabilizes a person's mood, preventing mental breaks.'
-ResearchProjectDef: MindNumbSerum.generalRules.rulesStrings.0 'subject->mind-numb serum' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: MindNumbSerum.generalRules.rulesStrings.1 'subject_story->sabotaged an emotional performance by secretly numbing the lead singer' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: MindNumbSerum.generalRules.rulesStrings.2 'subject_story->filtered low-dose mind-numb serum into an asylum water supply' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: MindNumbSerum.generalRules.rulesStrings.3 'subject_story->distributed mind-numb serum to junior soldiers before and after battle' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: MindNumbSerum.generalRules.rulesStrings.4 'subject_story->investigated the use of archotech to numb pain' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: MindNumbSerum.generalRules.rulesStrings.5 'subject_gerund->synthesizing mind-numb serums' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: JuggernautSerum.label 'juggernaut serum'
-ResearchProjectDef: JuggernautSerum.description 'Synthesize a serum which temporarily increases the user's strength and speed, and allows them to recover from injuries faster. However, it reduces their mood.'
-ResearchProjectDef: JuggernautSerum.generalRules.rulesStrings.0 'subject->juggernaut serum' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: JuggernautSerum.generalRules.rulesStrings.1 'subject_story->was banned from the coreworld leagues after [ANYPAWN_pronoun] was caught doping a team with Juggernaut Serum' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: JuggernautSerum.generalRules.rulesStrings.2 'subject_story->gave soldiers Juggernaut Serum when their ammo ran out' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: JuggernautSerum.generalRules.rulesStrings.3 'subject_story->researched serum use among indentured building sectors' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: JuggernautSerum.generalRules.rulesStrings.4 'subject_story->fell into a barrel of juggernaut serum' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: JuggernautSerum.generalRules.rulesStrings.5 'subject_gerund->synthesizing juggernaut serums' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BlissLobotomy.label 'bliss lobotomy'
-ResearchProjectDef: BlissLobotomy.description 'Perform a surgery that lobotomizes a person, making them happier while rendering them incapable of intellectual and skilled labor.'
-ResearchProjectDef: BlissLobotomy.generalRules.rulesStrings.0 'subject->lobotomy' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BlissLobotomy.generalRules.rulesStrings.1 'subject_story->was eventually lobotomized for thought-crimes against the state' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BlissLobotomy.generalRules.rulesStrings.2 'subject_story->rehabilitated the few survivors of the Eldof experiment' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BlissLobotomy.generalRules.rulesStrings.3 'subject_story->took an apprenticeship as a brain surgeon and barber' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BlissLobotomy.generalRules.rulesStrings.4 'subject_gerund->performing lobotomies' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: BlissLobotomy.generalRules.rulesStrings.5 'subject_gerund->excising brain tissue' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: GhoulInfusion.label 'ghoul infusion'
-ResearchProjectDef: GhoulInfusion.description 'Perform a surgery that infuses a living person with an archotech shard, transforming them into a terrifying ghoul. Ghouls are strong melee combatants but are incapable of doing work. Ghouls will go mad if they are not fed enough raw meat.'
-ResearchProjectDef: GhoulInfusion.generalRules.rulesStrings.0 'subject->ghoul creation' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: GhoulInfusion.generalRules.rulesStrings.1 'subject_story->supplied condemned prisonworld inhabitants for urbworld conflicts' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: GhoulInfusion.generalRules.rulesStrings.2 'subject_story->militarized archite injections as part of an experimental program' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: GhoulInfusion.generalRules.rulesStrings.3 'subject_story->studied feral deadlife in the ruins of a deadworld' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: GhoulInfusion.generalRules.rulesStrings.4 'subject_gerund->infusing an archotech shard into a living person' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: GhoulInfusion.generalRules.rulesStrings.5 'subject_gerund->creating a ghoul' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: GhoulEnhancements.label 'ghoul enhancements'
-ResearchProjectDef: GhoulEnhancements.description 'Craft bioferrite prosthetics to make ghouls stronger.'
-ResearchProjectDef: GhoulEnhancements.generalRules.rulesStrings.0 'subject->ghoul enhancements' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: GhoulEnhancements.generalRules.rulesStrings.1 'subject_story->experimented with the dead and the twice-dead' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: GhoulEnhancements.generalRules.rulesStrings.2 'subject_story->implanted increasingly strange items into ghouls' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: GhoulEnhancements.generalRules.rulesStrings.3 'subject_story->researched more complex ghoul prosthesis' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: GhoulEnhancements.generalRules.rulesStrings.4 'subject_gerund->enhancing a ghoul with bioferrite prosthetics' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: GhoulResurrection.label 'ghoul resurrection'
-ResearchProjectDef: GhoulResurrection.description 'Synthesize a serum that can bring dead ghouls back to life.'
-ResearchProjectDef: GhoulResurrection.generalRules.rulesStrings.0 'subject->ghoul resurrection' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: GhoulResurrection.generalRules.rulesStrings.1 'subject_story->developed a new method of resurrecting ghouls' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: GhoulResurrection.generalRules.rulesStrings.2 'subject_story->injected a variety of archotech compounds into corpses' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: GhoulResurrection.generalRules.rulesStrings.3 'subject_story->researched the effects of higher archotech concentrations on ghouls' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: GhoulResurrection.generalRules.rulesStrings.4 'subject_story->witnessed the repeated resurrection of a ghoul' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: GhoulResurrection.generalRules.rulesStrings.5 'subject_gerund->resurrecting a ghoul' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: GhoulResurrection.generalRules.rulesStrings.6 'subject_gerund->synthesizing a serum to resurrect ghouls' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: DeadlifeDust.label 'deadlife dust'
-ResearchProjectDef: DeadlifeDust.description 'Craft devices that produce clouds of microscopic archites. The archites can reanimate corpses to produce deadly shamblers that will only attack your enemies.'
-ResearchProjectDef: DeadlifeDust.generalRules.rulesStrings.0 'subject->deadlife dust' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: DeadlifeDust.generalRules.rulesStrings.1 'subject_story->synthesized an aerosol-dispersal system for nanobots' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: DeadlifeDust.generalRules.rulesStrings.2 'subject_story->used atomic centrifuges to separate out different grades of archite' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: DeadlifeDust.generalRules.rulesStrings.3 'subject_story->watched a deadly shambler assault on an Urbworld vidclip' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: DeadlifeDust.generalRules.rulesStrings.4 'subject_story->developed an archite control device with autotuned IFF systems' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: DeadlifeDust.generalRules.rulesStrings.5 'subject_gerund->crafting deadlife dust' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: DeadlifeDust.generalRules.rulesStrings.6 'subject_gerund->distributing archites to create shamblers' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: RevenantInvisibility.label 'revenant invisibility'
-ResearchProjectDef: RevenantInvisibility.description 'Modify a revenant spine so that it can be implanted in a human, allowing them to become temporarily invisible.'
-ResearchProjectDef: RevenantInvisibility.generalRules.rulesStrings.0 'subject->invisibility' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: RevenantInvisibility.generalRules.rulesStrings.1 'subject_story->implanted a monster's spine into a human, without considering the consequences' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: RevenantInvisibility.generalRules.rulesStrings.2 'subject_story->wrote a novel about the vanishing morality of an invisible person' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: RevenantInvisibility.generalRules.rulesStrings.3 'subject_story->discovered a strange metallic spine in a deadstar system' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: RevenantInvisibility.generalRules.rulesStrings.4 'subject_story->dreamed of an army of invisible warriors' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: RevenantInvisibility.generalRules.rulesStrings.5 'subject_gerund->adapting a revenant spine' (hint: this list allows full-list translation by using <li> nodes)
-ResearchProjectDef: RevenantInvisibility.generalRules.rulesStrings.6 'subject_gerund->implanting a revenant spine into a human' (hint: this list allows full-list translation by using <li> nodes)
 ResearchProjectDef: TurretPack.label 'turret pack' (placeholder exists in ResearchProjects_Misc.xml)
 ResearchProjectDef: TurretPack.description 'Build a wearable pack that allows the user to deploy a battery-powered turret.' (placeholder exists in ResearchProjects_Misc.xml)
 ResearchProjectDef: TurretPack.generalRules.rulesStrings.0 'subject->deployable turrets' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in ResearchProjects_Misc.xml)
@@ -9793,22 +9398,6 @@ RitualOutcomeEffectDef: Execution.outcomeChances.1.label 'Satisfying'
 RitualOutcomeEffectDef: Execution.outcomeChances.1.description 'The {0} was satisfying. Everyone could feel that justice was being upheld.'
 RitualOutcomeEffectDef: Execution.outcomeChances.2.label 'Spectacular'
 RitualOutcomeEffectDef: Execution.outcomeChances.2.description 'The {0} was spectacular! One smooth strike was all it took, and everyone felt a rush of justice and power.'
-RitualOutcomeEffectDef: Sacrifice.description 'Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days.'
-RitualOutcomeEffectDef: Sacrifice.comps.2.label 'moral guide present'
-RitualOutcomeEffectDef: Sacrifice.comps.3.label 'participant count'
-RitualOutcomeEffectDef: Sacrifice.comps.4.label 'started at altar'
-RitualOutcomeEffectDef: Sacrifice.comps.4.expectedThingLabelTip 'an altar'
-RitualOutcomeEffectDef: Sacrifice.extraPredictedOutcomeDescriptions.0 'If the {0} is satisfying, one of the participants might gain an inspiration.'
-RitualOutcomeEffectDef: Sacrifice.outcomeChances.0.label 'Terrible'
-RitualOutcomeEffectDef: Sacrifice.outcomeChances.0.description 'The {0} was terrible! The speech was stuttering and incoherent, and the killing technique was botched. The victim took far too long to die - everyone was waiting for it to end.'
-RitualOutcomeEffectDef: Sacrifice.outcomeChances.1.label 'Boring'
-RitualOutcomeEffectDef: Sacrifice.outcomeChances.1.description 'The {0} was boring. The speech was repetitive and the killing technique was noticeably flawed. It just didn't feel dignified.'
-RitualOutcomeEffectDef: Sacrifice.outcomeChances.2.label 'Satisfying'
-RitualOutcomeEffectDef: Sacrifice.outcomeChances.2.description 'The {0} was satisfying. The speech felt meaningful, and the killing technique was precise and dignified.'
-RitualOutcomeEffectDef: Sacrifice.outcomeChances.2.potentialExtraOutcomeDesc 'There's a 5% chance that a random participant gets an inspiration.'
-RitualOutcomeEffectDef: Sacrifice.outcomeChances.3.label 'Spectacular'
-RitualOutcomeEffectDef: Sacrifice.outcomeChances.3.description 'The {0} was spectacular! The speech brought everyone to the edge of a frenzy just as the blade came down perfectly, and the spurting blood was like cleansing waters for the spirit.'
-RitualOutcomeEffectDef: Sacrifice.outcomeChances.3.potentialExtraOutcomeDesc 'There's a 10% chance that a random participant gets an inspiration.'
 RitualOutcomeEffectDef: CelebrationPartyDanceTech.description 'Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days.'
 RitualOutcomeEffectDef: CelebrationPartyDanceTech.comps.0.label 'participant count'
 RitualOutcomeEffectDef: CelebrationPartyDanceTech.comps.1.label 'room impressiveness'
@@ -9873,11 +9462,6 @@ RitualOutcomeEffectDef: CelebratedDate_Consumable.outcomeChances.3.description '
 RitualOutcomeEffectDef: CelebratedDate_Consumable.outcomeChances.3.potentialExtraOutcomeDesc 'There's a 10% chance a random participant gains an inspiration.'
 RitualOutcomeEffectDef: DestroyConsumableBuilding.description 'The ritual target will be destroyed.'
 RitualOutcomeEffectDef: DestroyConsumableBuilding.comps.0.label 'participant count'
-RitualOutcomeEffectDef: DestroyConsumableBuilding.comps.1.label 'room impressiveness'
-RitualOutcomeEffectDef: DestroyConsumableBuilding.outcomeChances.0.label 'Terrible'
-RitualOutcomeEffectDef: DestroyConsumableBuilding.outcomeChances.0.description 'The {0} was terrible! Participants endured hours of jaw-clenching small talk while waiting for it to end.'
-RitualOutcomeEffectDef: DestroyConsumableBuilding.outcomeChances.1.label 'Boring'
-RitualOutcomeEffectDef: DestroyConsumableBuilding.outcomeChances.1.description 'The {0} was boring. Everyone felt too awkward to open up and laugh.'
 RitualOutcomeEffectDef: DestroyConsumableBuilding.outcomeChances.2.label 'Fun'
 RitualOutcomeEffectDef: DestroyConsumableBuilding.outcomeChances.2.description 'The {0} was good. Everyone appreciated the chance to relax and have fun together.'
 RitualOutcomeEffectDef: DestroyConsumableBuilding.outcomeChances.2.potentialExtraOutcomeDesc 'There's a 5% chance that a random participant gains an inspiration.'
@@ -9951,37 +9535,6 @@ RitualOutcomeEffectDef: GladiatorDuel.outcomeChances.2.label 'Good'
 RitualOutcomeEffectDef: GladiatorDuel.outcomeChances.2.description 'The duel was good. The fighters went for blood and showed real heart.'
 RitualOutcomeEffectDef: GladiatorDuel.outcomeChances.3.label 'Unforgettable'
 RitualOutcomeEffectDef: GladiatorDuel.outcomeChances.3.description 'The duel was unforgettable! Both fighters gave all they had, and the death showed their dedication.'
-RitualOutcomeEffectDef: Trial.description 'The trial quality determines the chance that the defendant will be convicted.'
-RitualOutcomeEffectDef: Trial.comps.0.label 'participant count'
-RitualOutcomeEffectDef: Trial.comps.1.label '{PAWN_labelShort}'s negotiation ability'
-RitualOutcomeEffectDef: Trial.comps.1.labelAbstract 'Leader's negotiation ability'
-RitualOutcomeEffectDef: Trial.comps.2.label '{PAWN_labelShort}'s negotiation ability'
-RitualOutcomeEffectDef: Trial.comps.2.labelAbstract 'Defendant's negotiation ability'
-RitualOutcomeEffectDef: Trial.outcomeChances.0.label 'exonerated'
-RitualOutcomeEffectDef: Trial.outcomeChances.0.description 'The prosecutor {PROSECUTOR_labelShort}'s arguments failed to convince anyone. {PAWN_labelShort} was exonerated.'
-RitualOutcomeEffectDef: Trial.outcomeChances.1.label 'convicted'
-RitualOutcomeEffectDef: Trial.outcomeChances.1.description 'The prosecution convinced everyone of {PAWN_labelShort}'s guilt. {PAWN_labelShort} was convicted and can now be punished. You may execute or banish {PAWN_objective} and nobody will mind.'
-RitualOutcomeEffectDef: TrialMentalState.description 'The trial quality determines the chance that the defendant will be convicted.'
-RitualOutcomeEffectDef: TrialMentalState.comps.0.label 'participant count'
-RitualOutcomeEffectDef: TrialMentalState.comps.1.label '{PAWN_labelShort}'s negotiation ability'
-RitualOutcomeEffectDef: TrialMentalState.comps.1.labelAbstract 'Leader's negotiation ability'
-RitualOutcomeEffectDef: TrialMentalState.outcomeChances.0.label 'exonerated'
-RitualOutcomeEffectDef: TrialMentalState.outcomeChances.0.description 'The prosecutor {PROSECUTOR_labelShort}'s arguments failed to convince anyone. {PAWN_labelShort} was exonerated.'
-RitualOutcomeEffectDef: TrialMentalState.outcomeChances.1.label 'convicted'
-RitualOutcomeEffectDef: TrialMentalState.outcomeChances.1.description 'The prosecution convinced everyone of {PAWN_labelShort}'s guilt. {PAWN_labelShort} was convicted and can now be punished. You may execute or banish {PAWN_objective} and nobody will mind.'
-RitualOutcomeEffectDef: ScarificationCeremony.description 'Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days.'
-RitualOutcomeEffectDef: ScarificationCeremony.comps.2.label 'moral guide present'
-RitualOutcomeEffectDef: ScarificationCeremony.comps.3.label 'participant count'
-RitualOutcomeEffectDef: ScarificationCeremony.comps.4.label 'started at altar'
-RitualOutcomeEffectDef: ScarificationCeremony.comps.4.expectedThingLabelTip 'an altar'
-RitualOutcomeEffectDef: ScarificationCeremony.outcomeChances.0.label 'Terrible'
-RitualOutcomeEffectDef: ScarificationCeremony.outcomeChances.0.description 'The {0} was terrible! The speech was stuttering and incoherent, and the scarification technique was botched. Everyone was waiting for it to end.'
-RitualOutcomeEffectDef: ScarificationCeremony.outcomeChances.1.label 'Boring'
-RitualOutcomeEffectDef: ScarificationCeremony.outcomeChances.1.description 'The {0} was boring. The speech was repetitive and the scarification technique was noticeably flawed. It just didn't feel dignified.'
-RitualOutcomeEffectDef: ScarificationCeremony.outcomeChances.2.label 'Satisfying'
-RitualOutcomeEffectDef: ScarificationCeremony.outcomeChances.2.description 'The {0} was satisfying. The speech felt meaningful, and the scarification technique was precise and dignified.'
-RitualOutcomeEffectDef: ScarificationCeremony.outcomeChances.3.label 'Spectacular'
-RitualOutcomeEffectDef: ScarificationCeremony.outcomeChances.3.description 'The {0} was spectacular! The speech brought everyone to the edge of a frenzy as the bladeholder artfully rended living flesh.'
 RitualOutcomeEffectDef: BlindingCeremony.description 'Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days.'
 RitualOutcomeEffectDef: BlindingCeremony.comps.2.label 'moral guide present'
 RitualOutcomeEffectDef: BlindingCeremony.comps.3.label 'participant count'
@@ -10017,13 +9570,6 @@ RitualOutcomeEffectDef: ConnectToTree.description 'The connector will connect to
 RitualOutcomeEffectDef: ConnectToTree.comps.0.label 'participant count'
 RitualOutcomeEffectDef: ConnectToTree.extraPredictedOutcomeDescriptions.0 'The connector will start with 25-45% connection strength, depending on ritual quality.'
 RitualOutcomeEffectDef: ConnectToTree.extraPredictedOutcomeDescriptions.1 'Every 2% increase in quality will grow a patch of Gauranlen moss around the tree, beautifying the area.'
-RitualOutcomeEffectDef: RoleChange.description 'A new role will be assigned to a colonist.'
-RitualOutcomeEffectDef: RoleChange.comps.0.label 'required spectator count'
-RitualOutcomeEffectDef: RoleChange.extraPredictedOutcomeDescriptions.0 'The required number of spectators must attend for the role change to apply.'
-RitualOutcomeEffectDef: RoleChange.outcomeChances.0.label 'Failed'
-RitualOutcomeEffectDef: RoleChange.outcomeChances.0.description 'The role change was not attended by enough {IDEO_memberNamePlural}.'
-RitualOutcomeEffectDef: RoleChange.outcomeChances.1.label 'Successful'
-RitualOutcomeEffectDef: RoleChange.outcomeChances.1.description 'The role change ritual was completed.'
 RitualOutcomeEffectDef: ChildBirth.description 'All quality factors determine how healthy the mom and baby are going to be.' (placeholder exists in Ritual_Outcomes.xml)
 RitualOutcomeEffectDef: ChildBirth.comps.0.label '{PAWN_labelShort}'s age' (placeholder exists in Ritual_Outcomes.xml)
 RitualOutcomeEffectDef: ChildBirth.comps.0.labelAbstract 'mother's age' (placeholder exists in Ritual_Outcomes.xml)
@@ -10293,63 +9839,6 @@ RulePackDef: ArtDescriptionUtility_Global.rulePack.rulesStrings.167 'artstyle_ad
 RulePackDef: ArtDescriptionUtility_Global.rulePack.rulesStrings.168 'artstyle_adj->erotic' (hint: this list allows full-list translation by using <li> nodes)
 RulePackDef: ArtDescriptionUtility_Global.rulePack.rulesStrings.169 'artstyle_adj->sensual' (hint: this list allows full-list translation by using <li> nodes)
 RulePackDef: ArtDescriptionUtility_Global.rulePack.rulesStrings.170 'artstyle_adj->heartfelt' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.0 'r_logentry->[action], [result].' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.1 'r_logentry(priority=-10)->[action].' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.2 'implement(IMPLEMENTOWNER_type==weapon,p=2)->[INITIATOR_possessive] [WEAPON_label]'s [TOOL_label]' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.3 'implement(IMPLEMENTOWNER_type==weapon,p=1)->[INITIATOR_possessive] [WEAPON_label]' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.4 'implement(IMPLEMENTOWNER_type==weapon,p=1)->a [WEAPON_label]'s [TOOL_label]' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.5 'implement(IMPLEMENTOWNER_type==weapon,p=0.5)->a [WEAPON_label]' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.6 'implement(IMPLEMENTOWNER_type==bodypart,p=2)->[INITIATOR_possessive] [TOOL_label]' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.7 'implement(IMPLEMENTOWNER_type==hediff,p=2)->[INITIATOR_possessive] [WEAPON_label]'s [TOOL_label]' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.8 'implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [WEAPON_label]' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.9 'implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [TOOL_label]' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.10 'targetlist(recipient_part_count==1)->[recipient_part0_label]' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.11 'targetlist(recipient_part_count==2)->[recipient_part0_label] and [recipient_part1_label]' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.12 'targetlist(recipient_part_count==3)->[recipient_part0_label], [recipient_part1_label], and [recipient_part2_label]' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.13 'targetlist->[recipient_part0_label], [recipient_part1_label], [recipient_part2_label], and [recipient_part3_label]' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.14 'damaged_present(deflected!=True)->wounding' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.15 'damaged_present(deflected!=True)->injuring' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.16 'destroyed(p=0.5)->destroyed' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.17 'destroyed(p=0.5)->demolished' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.18 'destroyed(p=0.5)->ruined' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.19 'destroyed(p=0.5)->wrecked' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.20 'wince(RECIPIENT_flesh==Normal)->wince' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.21 'wince(RECIPIENT_flesh==Normal)->grimace' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.22 'wince(RECIPIENT_flesh==Normal)->cringe' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.23 'wince(RECIPIENT_flesh==Normal)->groan' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.24 'wince(RECIPIENT_flesh!=Mechanoid)->scream' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.25 'wince(RECIPIENT_flesh!=Mechanoid)->shout' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.26 'wince->recoil' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.27 'wince->stumble' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.28 'painstate->in' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.29 'painstate->with' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.30 'painstate->from the' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.31 'painevent(RECIPIENT_flesh!=Mechanoid)->[painstate] pain' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.32 'painevent(RECIPIENT_flesh!=Mechanoid)->[painstate] agony' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.33 'painevent(RECIPIENT_flesh==Normal)->with misery' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.34 'painevent->from the injury' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.35 'painevent->from the wound' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.36 'to->to' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeIncludes.rulePack.rulesStrings.37 'to->into' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeDamageIncludes.rulePack.rulesStrings.0 'result(p=1)->[damaged_present] [RECIPIENT_possessive] [targetlist]' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeDamageIncludes.rulePack.rulesStrings.1 'result(p=0.2)->[damaged_present] [RECIPIENT_possessive] [targetlist] and [flavortext_consequence]' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeDamageIncludes.rulePack.rulesStrings.2 'result(p=0.1)->[damaged_present] [RECIPIENT_possessive] [targetlist] [strikeAdv]' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeDamageIncludes.rulePack.rulesStrings.3 'strikeAdv->painfully' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeDamageIncludes.rulePack.rulesStrings.4 'strikeAdv->horribly' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeDamageIncludes.rulePack.rulesStrings.5 'strikeAdv->savagely' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeDamageIncludes.rulePack.rulesStrings.6 'strikeAdv->viciously' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeDamageIncludes.rulePack.rulesStrings.7 'flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->leaving a disgusting wound' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeDamageIncludes.rulePack.rulesStrings.8 'flavortext_consequence->leaving a horrific wound' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeDamageIncludes.rulePack.rulesStrings.9 'flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->making [RECIPIENT_objective] [wince] [painevent]' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_MeleeDamageIncludes.rulePack.rulesStrings.10 'flavortext_consequence(p=0.2)->throwing [RECIPIENT_objective] off balance' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_WoundIncludes.rulePack.rulesStrings.0 'destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_WoundIncludes.rulePack.rulesStrings.1 'destroyed_targets(recipient_part_destroyed_count==2)->[recipient_part_destroyed0_label] and [recipient_part_destroyed1_label]' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_WoundIncludes.rulePack.rulesStrings.2 'destroyed_targets(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], and [recipient_part_destroyed2_label]' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_WoundIncludes.rulePack.rulesStrings.3 'destroyed_targets->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], [recipient_part_destroyed2_label], and [recipient_part_destroyed3_label]' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_WoundIncludes.rulePack.rulesStrings.4 'damaged_targets(recipient_part_damaged_count==1)->[recipient_part_damaged0_label]' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_WoundIncludes.rulePack.rulesStrings.5 'damaged_targets(recipient_part_damaged_count==2)->[recipient_part_damaged0_label] and [recipient_part_damaged1_label]' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_WoundIncludes.rulePack.rulesStrings.6 'damaged_targets(recipient_part_damaged_count==3)->[recipient_part_damaged0_label], [recipient_part_damaged1_label], and [recipient_part_damaged2_label]' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_WoundIncludes.rulePack.rulesStrings.7 'damaged_targets->[recipient_part_damaged0_label], [recipient_part_damaged1_label], [recipient_part_damaged2_label], and [recipient_part_damaged3_label]' (hint: this list allows full-list translation by using <li> nodes)
 RulePackDef: Combat_SkillIncludes.rulePack.rulesStrings.0 'skillDescMelee->[wielding] [INITIATOR_possessive] [WEAPON_label] [skillAdv]' (hint: this list allows full-list translation by using <li> nodes)
 RulePackDef: Combat_SkillIncludes.rulePack.rulesStrings.1 'skillDescMelee->[using] [implement] [skillAdv]' (hint: this list allows full-list translation by using <li> nodes)
 RulePackDef: Combat_SkillIncludes.rulePack.rulesStrings.2 'wielding(p=4)->wielding' (hint: this list allows full-list translation by using <li> nodes)
@@ -10398,336 +9887,6 @@ RulePackDef: Combat_SkillIncludes.rulePack.rulesStrings.44 'skillAdv(INITIATOR_s
 RulePackDef: Combat_SkillIncludes.rulePack.rulesStrings.45 'skillAdv(INITIATOR_flesh==Mechanoid)->mechanically' (hint: this list allows full-list translation by using <li> nodes)
 RulePackDef: Combat_SkillIncludes.rulePack.rulesStrings.46 'skillAdv(INITIATOR_flesh==Mechanoid)->robotically' (hint: this list allows full-list translation by using <li> nodes)
 RulePackDef: Combat_SkillIncludes.rulePack.rulesStrings.47 'skillAdv(INITIATOR_flesh==Mechanoid)->directly' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_FailIncludes.rulePack.rulesStrings.0 'action->[INITIATOR_definite] [tried] to [damaged_inf] [RECIPIENT_definite]' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_FailIncludes.rulePack.rulesStrings.1 'action->[INITIATOR_definite] [tried] to [damaged_inf] [RECIPIENT_definite] with [implement]' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_FailIncludes.rulePack.rulesStrings.2 'action->[INITIATOR_definite] [tried] to use [implement] to [damaged_inf] [RECIPIENT_definite]' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_FailIncludes.rulePack.rulesStrings.3 'action->[INITIATOR_definite] swung [INITIATOR_possessive] [WEAPON_label] at [RECIPIENT_definite]' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_FailIncludes.rulePack.rulesStrings.4 'action(p=0.3)->[INITIATOR_definite] [verb_genericattack] [towardsat] [RECIPIENT_definite] with [implement]' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_FailIncludes.rulePack.rulesStrings.5 'action(p=0.3)->[INITIATOR_definite] [verb_genericattack] [towardsat] [RECIPIENT_definite]' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_FailIncludes.rulePack.rulesStrings.6 'action(p=0.3)->[INITIATOR_definite] [verb_genericattack] with [implement]' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_FailIncludes.rulePack.rulesStrings.7 'towardsat->towards' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_FailIncludes.rulePack.rulesStrings.8 'towardsat->at' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_FailIncludes.rulePack.rulesStrings.9 'verb_genericattack->swung' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_FailIncludes.rulePack.rulesStrings.10 'verb_genericattack->flailed' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_FailIncludes.rulePack.rulesStrings.11 'verb_genericattack->thrashed' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_FailIncludes.rulePack.rulesStrings.12 'tried->tried' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_FailIncludes.rulePack.rulesStrings.13 'tried->attempted' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_DeflectIncludes.rulePack.rulesStrings.0 'scraped_present->glancing' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_DeflectIncludes.rulePack.rulesStrings.1 'scraped_present->bouncing' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_DeflectIncludes.rulePack.rulesStrings.2 'scraped_present->grazing' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_DeflectIncludes.rulePack.rulesStrings.3 'scraped_present->caroming' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_DeflectIncludes.rulePack.rulesStrings.4 'scraped_present->skipping' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_DeflectIncludes.rulePack.rulesStrings.5 'scraped_present->skating' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_DeflectIncludes.rulePack.rulesStrings.6 'scraped_past->glanced' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_DeflectIncludes.rulePack.rulesStrings.7 'scraped_past->bounced' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_DeflectIncludes.rulePack.rulesStrings.8 'scraped_past->grazed' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_DeflectIncludes.rulePack.rulesStrings.9 'scraped_past->caromed' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_DeflectIncludes.rulePack.rulesStrings.10 'scraped_past->skipped' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_DeflectIncludes.rulePack.rulesStrings.11 'scraped_past->skated' (hint: this list allows full-list translation by using <li> nodes)
-RulePackDef: Combat_Hit.rulePack.rulesStrings.0 'r_logentry(p=1.0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label].' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Hit.rulePack.rulesStrings.1 'r_logentry(p=0.4)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label] [strikeAdv].' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Hit.rulePack.rulesStrings.2 'r_logentry(p=0.4)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label], [flavortext_consequence].' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Hit.rulePack.rulesStrings.3 'r_logentry(p=0.4)->[INITIATOR_definite], [skillDescMelee], [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label].' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Hit.rulePack.rulesStrings.4 'r_logentry(p=0.2)->[INITIATOR_definite], [skillDescMelee], [strikeAdv] [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label].' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Hit.rulePack.rulesStrings.5 'r_logentry(p=0.4)->[INITIATOR_definite] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets].' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Hit.rulePack.rulesStrings.6 'r_logentry(p=0.4)->[INITIATOR_definite] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets] [destroyed_suffix].' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Hit.rulePack.rulesStrings.7 'r_logentry(p=0.4)->[INITIATOR_definite] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets] with [implement].' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Hit.rulePack.rulesStrings.8 'r_logentry(p=1,recipient_part_count==0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] with [implement].' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Hit.rulePack.rulesStrings.9 'r_logentry(p=0.4,recipient_part_count==0)->[INITIATOR_definite] [skillAdv] [damaged_past] [RECIPIENT_definite] with [implement].' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Hit.rulePack.rulesStrings.10 'result(p=1,recipient_part_damaged_count==0)->[destroyed_present] [RECIPIENT_possessive] [destroyed_targets]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Hit.rulePack.rulesStrings.11 'result(p=1,recipient_part_destroyed_count==0)->[damaged_present] [RECIPIENT_possessive] [damaged_targets]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Hit.rulePack.rulesStrings.12 'result(p=1)->[destroyed_present] [RECIPIENT_possessive] [destroyed_targets] and [damaged_present] [RECIPIENT_possessive] [damaged_targets]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Hit.rulePack.rulesStrings.13 'action(p=1.0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] with [implement]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Hit.rulePack.rulesStrings.14 'action(p=0.3)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Hit.rulePack.rulesStrings.15 'action(p=0.3)->[INITIATOR_definite], [skillDescMelee], [damaged_past] [RECIPIENT_definite]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Hit.rulePack.rulesStrings.16 'action(p=0.3)->[INITIATOR_definite] hit [RECIPIENT_definite] with a [damaged_inf] from [implement]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Hit.rulePack.rulesStrings.17 'action(p=0.3)->[INITIATOR_definite], [skillDescMelee], hit [RECIPIENT_definite] with a [damaged_inf] from [implement]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Hit.rulePack.rulesStrings.18 'action(p=0.3)->[INITIATOR_definite] used [implement] to [damaged_inf] [RECIPIENT_definite]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Hit.rulePack.rulesStrings.19 'action(p=0.3)->[INITIATOR_definite] used [implement] [skillAdv] to [damaged_inf] [RECIPIENT_definite]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Deflect.rulePack.rulesStrings.0 'r_logentry(p=0.5)->[INITIATOR_definite] [damaged_past] [atMaybe] [RECIPIENT_definite] in the [recipient_part0_label] [deflected_result].' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Deflect.rulePack.rulesStrings.1 'r_logentry(p=0.3)->[INITIATOR_definite] [skillAdvMaybe] [damaged_past] [atMaybe] [RECIPIENT_definite] with [implement] [deflected_result].' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Deflect.rulePack.rulesStrings.2 'r_logentry(p=0.3)->[INITIATOR_definite] [skillAdvMaybe] [damaged_past] [atMaybe] [RECIPIENT_definite] [deflected_result].' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Deflect.rulePack.rulesStrings.3 'r_logentry(p=0.1)->[INITIATOR_definite], [skillDescMelee], [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label] [deflected_result].' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Deflect.rulePack.rulesStrings.4 'r_logentry(p=0.1)->[INITIATOR_definite] hit [RECIPIENT_definite] with a [damaged_inf] from [implement] [deflected_result].' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Deflect.rulePack.rulesStrings.5 'r_logentry(p=0.1)->[INITIATOR_definite] [skillAdvMaybe] used [implement] to [damaged_inf] [RECIPIENT_definite] [deflected_result].' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Deflect.rulePack.rulesStrings.6 'skillAdvMaybe->' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Deflect.rulePack.rulesStrings.7 'skillAdvMaybe->[skillAdv]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Deflect.rulePack.rulesStrings.8 'atMaybe->' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Deflect.rulePack.rulesStrings.9 'atMaybe->at' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Deflect.rulePack.rulesStrings.10 'deflected_result->, but the [TOOL_label] [deflected] off [harmlessly_opt]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Deflect.rulePack.rulesStrings.11 'deflected_result->, [deflecting] off [RECIPIENT_possessive] armor [harmlessly_opt]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Deflect.rulePack.rulesStrings.12 'harmlessly_opt(p=4)->' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Deflect.rulePack.rulesStrings.13 'harmlessly_opt->[harmlessly]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Deflect.rulePack.rulesStrings.14 'harmlessly->harmlessly' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Deflect.rulePack.rulesStrings.15 'harmlessly->uselessly' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Deflect.rulePack.rulesStrings.16 'deflected->deflected' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Deflect.rulePack.rulesStrings.17 'deflected->scraped' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Deflect.rulePack.rulesStrings.18 'deflected->slid' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Deflect.rulePack.rulesStrings.19 'deflected->grazed' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Deflect.rulePack.rulesStrings.20 'deflected->bounced' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Deflect.rulePack.rulesStrings.21 'deflected->glanced' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Deflect.rulePack.rulesStrings.22 'deflecting->deflecting' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Deflect.rulePack.rulesStrings.23 'deflecting->scraping' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Deflect.rulePack.rulesStrings.24 'deflecting->sliding' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Deflect.rulePack.rulesStrings.25 'deflecting->grazing' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Deflect.rulePack.rulesStrings.26 'deflecting->bouncing' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Deflect.rulePack.rulesStrings.27 'deflecting->glancing' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Miss.rulePack.rulesStrings.0 'r_logentry(p=0.3)->[RECIPIENT_definite] avoided [INITIATOR_definite]'s [WEAPON_label] [damaged_inf].' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Miss.rulePack.rulesStrings.1 'r_logentry(p=0.3)->[INITIATOR_definite] missed [RECIPIENT_definite] with a [damaged_inf] from [implement].' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Miss.rulePack.rulesStrings.2 'r_logentry(p=0.3)->[INITIATOR_definite] [failtype] while trying to [damaged_inf] [RECIPIENT_definite] with [implement].' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Miss.rulePack.rulesStrings.3 'r_logentry(p=0.3)->[INITIATOR_definite] [failtype] while trying to [damaged_inf] [RECIPIENT_definite].' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Miss.rulePack.rulesStrings.4 'r_logentry(p=0.3)->[INITIATOR_definite] tried [skillAdvMaybe] to [damaged_inf] [RECIPIENT_definite], but [failtype].' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Miss.rulePack.rulesStrings.5 'skillAdvMaybe->' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Miss.rulePack.rulesStrings.6 'skillAdvMaybe->[skillAdv]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Miss.rulePack.rulesStrings.7 'failtype(p=5)->missed' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Miss.rulePack.rulesStrings.8 'failtype->stumbled' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Miss.rulePack.rulesStrings.9 'failtype->tripped' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Miss.rulePack.rulesStrings.10 'failtype->flailed' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Miss.rulePack.rulesStrings.11 'failtype->floundered' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Miss.rulePack.rulesStrings.12 'result(p=4)->but missed' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Miss.rulePack.rulesStrings.13 'result->but hit only air' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Miss.rulePack.rulesStrings.14 'result->but the swing went wide' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Miss.rulePack.rulesStrings.15 'result->but stumbled at the last second' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Miss.rulePack.rulesStrings.16 'result(INITIATOR_flesh!=Mechanoid)->but hesitated at the last second' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Dodge.rulePack.rulesStrings.0 'r_logentry(p=0.5)->[RECIPIENT_definite] [skillAdvMaybe] dodged [INITIATOR_definite]'s [damaged_inf] from [implement].' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Dodge.rulePack.rulesStrings.1 'r_logentry(p=0.5)->[RECIPIENT_definite] [skillAdvMaybe] dodged [INITIATOR_definite]'s [damaged_inf].' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Dodge.rulePack.rulesStrings.2 'skillAdvMaybe->' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Dodge.rulePack.rulesStrings.3 'skillAdvMaybe->[skillAdv]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Dodge.rulePack.rulesStrings.4 'result->but [RECIPIENT_definite] leapt out of the way' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Dodge.rulePack.rulesStrings.5 'result->but was deceived by [RECIPIENT_definite]'s feint' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Combat_Dodge.rulePack.rulesStrings.6 'result->but the attack was cleverly avoided' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_CombatMelee.xml)
-RulePackDef: Damage_Bomb.rulePack.rulesStrings.0 'damaged_past(p=2)->blasted' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Bomb.rulePack.rulesStrings.1 'damaged_past(p=2)->exploded' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Bomb.rulePack.rulesStrings.2 'damaged_past->injured' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Bomb.rulePack.rulesStrings.3 'damaged_past->damaged' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Bomb.rulePack.rulesStrings.4 'damaged_past->wounded' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Bomb.rulePack.rulesStrings.5 'damaged_past->hurt' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Bomb.rulePack.rulesStrings.6 'destroyed_past->shattered' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Bomb.rulePack.rulesStrings.7 'destroyed_past->crushed' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Bomb.rulePack.rulesStrings.8 'destroyed_past->obliterated' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Bomb.rulePack.rulesStrings.9 'destroyed_past->annihilated' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Bomb.rulePack.rulesStrings.10 'destroyed_past->detonated' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Flame.rulePack.rulesStrings.0 'damaged_past(p=2)->blasted' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Flame.rulePack.rulesStrings.1 'damaged_past(p=2)->scorched' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Flame.rulePack.rulesStrings.2 'damaged_past(p=2)->burned' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Flame.rulePack.rulesStrings.3 'damaged_past(p=2)->blistered' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Flame.rulePack.rulesStrings.4 'damaged_past(p=2)->ignited' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Flame.rulePack.rulesStrings.5 'damaged_past(p=2)->seared' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Flame.rulePack.rulesStrings.6 'damaged_past->injured' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Flame.rulePack.rulesStrings.7 'damaged_past->damaged' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Flame.rulePack.rulesStrings.8 'damaged_past->wounded' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Flame.rulePack.rulesStrings.9 'damaged_past->hurt' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Flame.rulePack.rulesStrings.10 'damaged_present(p=2)->blasting' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Flame.rulePack.rulesStrings.11 'damaged_present(p=2)->scorching' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Flame.rulePack.rulesStrings.12 'damaged_present(p=2)->burning' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Flame.rulePack.rulesStrings.13 'damaged_present(p=2)->blistering' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Flame.rulePack.rulesStrings.14 'damaged_present(p=2)->igniting' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Flame.rulePack.rulesStrings.15 'damaged_present(p=2)->searing' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Flame.rulePack.rulesStrings.16 'damaged_present->injuring' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Flame.rulePack.rulesStrings.17 'damaged_present->damaging' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Flame.rulePack.rulesStrings.18 'damaged_present->wounding' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Flame.rulePack.rulesStrings.19 'damaged_present->hurting' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Flame.rulePack.rulesStrings.20 'destroyed_past->cremated' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Flame.rulePack.rulesStrings.21 'destroyed_past->incinerated' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Flame.rulePack.rulesStrings.22 'destroyed_past->charred' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Flame.rulePack.rulesStrings.23 'destroyed_past->obliterated' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Flame.rulePack.rulesStrings.24 'destroyed_past->annihilated' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Flame.rulePack.rulesStrings.25 'destroyed_past->detonated' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Flame.rulePack.rulesStrings.26 'destroyed_present->cremating' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Flame.rulePack.rulesStrings.27 'destroyed_present->incinerating' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Flame.rulePack.rulesStrings.28 'destroyed_present->charring' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Flame.rulePack.rulesStrings.29 'destroyed_present->obliterating' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Flame.rulePack.rulesStrings.30 'destroyed_present->annihilating' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Flame.rulePack.rulesStrings.31 'destroyed_present->detonating' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Extinguish.rulePack.rulesStrings.0 'damaged_past->extinguished' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Extinguish.rulePack.rulesStrings.1 'damaged_past->swamped' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Extinguish.rulePack.rulesStrings.2 'damaged_past->foamed' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Extinguish.rulePack.rulesStrings.3 'damaged_past->quenched' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Extinguish.rulePack.rulesStrings.4 'destroyed_past->damaged_past' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Stun.rulePack.rulesStrings.0 'damaged_past->stunned' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Stun.rulePack.rulesStrings.1 'damaged_past->confused' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Stun.rulePack.rulesStrings.2 'damaged_past->stopped' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Stun.rulePack.rulesStrings.3 'damaged_past->dizzied' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Stun.rulePack.rulesStrings.4 'destroyed_past->damaged_past' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_EMP.rulePack.rulesStrings.0 'damaged_past->electrified' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_EMP.rulePack.rulesStrings.1 'damaged_past->shocked' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_EMP.rulePack.rulesStrings.2 'damaged_past->zapped' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_EMP.rulePack.rulesStrings.3 'destroyed_past->damaged_past' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Smoke.rulePack.rulesStrings.0 'damaged_past->smoked' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Smoke.rulePack.rulesStrings.1 'damaged_past->fogged' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Smoke.rulePack.rulesStrings.2 'damaged_past->clouded' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: Damage_Smoke.rulePack.rulesStrings.3 'destroyed_past->damaged_past' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Damage.xml)
-RulePackDef: DamageEvent_Include.rulePack.rulesStrings.0 'r_logentry->[damage_source] [RECIPIENT_nameDef], [destroyed_present] [RECIPIENT_possessive] [destroyed_targets].' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Include.rulePack.rulesStrings.1 'r_logentry->[damage_source] [RECIPIENT_nameDef], [destroyed_present] [RECIPIENT_possessive] [destroyed_targets] and [damaged_present] [RECIPIENT_possessive] [damaged_targets].' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Include.rulePack.rulesStrings.2 'r_logentry(recipient_part_destroyed_count==0)->[damage_source] [RECIPIENT_nameDef], [damaged_present] [RECIPIENT_possessive] [damaged_targets].' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Include.rulePack.rulesStrings.3 'r_logentry(p=0.1)->[damage_source] [RECIPIENT_nameDef].' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Ceiling.rulePack.rulesStrings.0 'damage_source->the [roof] [collapsed] on' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Ceiling.rulePack.rulesStrings.1 'roof->roof' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Ceiling.rulePack.rulesStrings.2 'roof->roofing' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Ceiling.rulePack.rulesStrings.3 'roof->ceiling' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Ceiling.rulePack.rulesStrings.4 'collapsed->collapsed' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Ceiling.rulePack.rulesStrings.5 'collapsed->fell' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Ceiling.rulePack.rulesStrings.6 'collapsed->caved in' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Ceiling.rulePack.rulesStrings.7 'damaged_present->smashing' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Ceiling.rulePack.rulesStrings.8 'damaged_present->bashing' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Ceiling.rulePack.rulesStrings.9 'damaged_present->bruising' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Ceiling.rulePack.rulesStrings.10 'damaged_present->lacerating' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Ceiling.rulePack.rulesStrings.11 'destroyed_present->shattering' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Ceiling.rulePack.rulesStrings.12 'destroyed_present->crushing' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Ceiling.rulePack.rulesStrings.13 'destroyed_present->obliterating' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Ceiling.rulePack.rulesStrings.14 'destroyed_present->annihilating' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Ceiling.rulePack.rulesStrings.15 'destroyed_present->breaking' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Fire.rulePack.rulesStrings.0 'damage_source->[fire] burned' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Fire.rulePack.rulesStrings.1 'fire(p=3)->fire' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Fire.rulePack.rulesStrings.2 'fire(p=3)->a fire' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Fire.rulePack.rulesStrings.3 'fire(p=3)->the fire' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Fire.rulePack.rulesStrings.4 'fire->heat' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Fire.rulePack.rulesStrings.5 'fire->a conflagration' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Fire.rulePack.rulesStrings.6 'fire->an inferno' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Fire.rulePack.rulesStrings.7 'damaged_present->scorching' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Fire.rulePack.rulesStrings.8 'damaged_present->broiling' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Fire.rulePack.rulesStrings.9 'damaged_present->searing' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Fire.rulePack.rulesStrings.10 'damaged_present->singeing' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Fire.rulePack.rulesStrings.11 'destroyed_present->charring' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Fire.rulePack.rulesStrings.12 'destroyed_present->roasting' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Fire.rulePack.rulesStrings.13 'destroyed_present->cooking' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Fire.rulePack.rulesStrings.14 'destroyed_present->cremating' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_TrapSpike.rulePack.rulesStrings.0 'damage_source->[spiketrap] stabbed' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_TrapSpike.rulePack.rulesStrings.1 'damage_source->[spiketrap] struck' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_TrapSpike.rulePack.rulesStrings.2 'damage_source->[spiketrap] launched at' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_TrapSpike.rulePack.rulesStrings.3 'spiketrap(p=3)->a spike trap' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_TrapSpike.rulePack.rulesStrings.4 'spiketrap(p=3)->the spike trap' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_TrapSpike.rulePack.rulesStrings.5 'spiketrap->spikes' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_TrapSpike.rulePack.rulesStrings.6 'spiketrap->a sharp trap' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_TrapSpike.rulePack.rulesStrings.7 'spiketrap->a spiky trap' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_TrapSpike.rulePack.rulesStrings.8 'damaged_present->perforating' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_TrapSpike.rulePack.rulesStrings.9 'damaged_present->spearing' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_TrapSpike.rulePack.rulesStrings.10 'damaged_present->penetrating' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_TrapSpike.rulePack.rulesStrings.11 'damaged_present->jabbing into' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_TrapSpike.rulePack.rulesStrings.12 'destroyed_present->tearing apart' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_TrapSpike.rulePack.rulesStrings.13 'destroyed_present->shredding' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_TrapSpike.rulePack.rulesStrings.14 'destroyed_present->eviscerating' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_TrapSpike.rulePack.rulesStrings.15 'destroyed_present->exploding' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_PowerBeam.rulePack.rulesStrings.0 'damage_source->The [sky] opened up on' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_PowerBeam.rulePack.rulesStrings.1 'damage_source->A beam of incredible [power] [damaged_past]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_PowerBeam.rulePack.rulesStrings.2 'damage_source->A column of [light] [damaged_past]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_PowerBeam.rulePack.rulesStrings.3 'sky->sky' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_PowerBeam.rulePack.rulesStrings.4 'sky->clouds' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_PowerBeam.rulePack.rulesStrings.5 'sky->heavens' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_PowerBeam.rulePack.rulesStrings.6 'power->power' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_PowerBeam.rulePack.rulesStrings.7 'power->energy' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_PowerBeam.rulePack.rulesStrings.8 'power->heat' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_PowerBeam.rulePack.rulesStrings.9 'light->light' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_PowerBeam.rulePack.rulesStrings.10 'light->heat' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_PowerBeam.rulePack.rulesStrings.11 'light->flame' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_PowerBeam.rulePack.rulesStrings.12 'light(p=0.2)->incandescence' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Tornado.rulePack.rulesStrings.0 'damage_source->A [spiraling] tornado [enveloped]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Tornado.rulePack.rulesStrings.1 'destroyed_present(p=3)->tearing off' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Tornado.rulePack.rulesStrings.2 'spiraling->spiraling' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Tornado.rulePack.rulesStrings.3 'spiraling->whirling' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Tornado.rulePack.rulesStrings.4 'spiraling->spinning' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Tornado.rulePack.rulesStrings.5 'spiraling(p=10)->' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Tornado.rulePack.rulesStrings.6 'enveloped(p=8)->enveloped' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Tornado.rulePack.rulesStrings.7 'enveloped->engulfed' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: DamageEvent_Tornado.rulePack.rulesStrings.8 'enveloped->surrounded' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_DamageEvent.xml)
-RulePackDef: Event_Stun.rulePack.rulesStrings.0 'r_logentry->[SUBJECT_definite] was [stunned] by the attack.' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Event.xml)
-RulePackDef: Event_Stun.rulePack.rulesStrings.1 'r_logentry->[SUBJECT_definite] was [stunned] by [INITIATOR_definite]'s attack.' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Event.xml)
-RulePackDef: Event_Stun.rulePack.rulesStrings.2 'stunned(p=3)->stunned' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Event.xml)
-RulePackDef: Event_Stun.rulePack.rulesStrings.3 'stunned->staggered' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Event.xml)
-RulePackDef: Event_Stun.rulePack.rulesStrings.4 'stunned->dazed' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Event.xml)
-RulePackDef: Event_Stun.rulePack.rulesStrings.5 'stunned->disoriented' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Event.xml)
-RulePackDef: Event_Stun.rulePack.rulesStrings.6 'r_logentry->[SUBJECT_definite] [staggered].' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Event.xml)
-RulePackDef: Event_Stun.rulePack.rulesStrings.7 'r_logentry->[SUBJECT_definite] [staggered] from the attack.' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Event.xml)
-RulePackDef: Event_Stun.rulePack.rulesStrings.8 'r_logentry->[SUBJECT_definite] [staggered] from [INITIATOR_definite]'s attack.' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Event.xml)
-RulePackDef: Event_Stun.rulePack.rulesStrings.9 'staggered(p=3)->staggered' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Event.xml)
-RulePackDef: Event_Stun.rulePack.rulesStrings.10 'staggered->faltered' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Event.xml)
-RulePackDef: Event_Stun.rulePack.rulesStrings.11 'staggered->wobbled' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Event.xml)
-RulePackDef: Event_Stun.rulePack.rulesStrings.12 'staggered->wavered' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Event.xml)
-RulePackDef: Event_Stun.rulePack.rulesStrings.13 'r_logentry->[SUBJECT_definite] [stumbled] around blearily.' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Event.xml)
-RulePackDef: Event_Stun.rulePack.rulesStrings.14 'r_logentry->[SUBJECT_definite] [stumbled] around in confusion.' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Event.xml)
-RulePackDef: Event_Stun.rulePack.rulesStrings.15 'stumbled(p=3)->stumbled' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Event.xml)
-RulePackDef: Event_Stun.rulePack.rulesStrings.16 'stumbled->wavered' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Event.xml)
-RulePackDef: Event_Stun.rulePack.rulesStrings.17 'stumbled->wobbled' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Event.xml)
-RulePackDef: Event_Stun.rulePack.rulesStrings.18 'stumbled->staggered' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Event.xml)
-RulePackDef: Event_AbilityUsed.rulePack.rulesStrings.0 'r_logentry->[INITIATOR_definite] used [ABILITY_label] on [SUBJECT_definite].' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Event.xml)
-RulePackDef: Event_ItemUsed.rulePack.rulesStrings.0 'r_logentry->[INITIATOR_definite] used [ITEM_indefinite] on [SUBJECT_definite].' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Event.xml)
-RulePackDef: GameplayTips.rulePack.rulesStrings.0 'r_tip->[tip_text]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_GameplayTips.xml)
-RulePackDef: NamerAnimalGenericMale.rulePack.rulesStrings.0 'r_name(p=6)->[NameAnimalUnisex]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Animals.xml)
-RulePackDef: NamerAnimalGenericMale.rulePack.rulesStrings.1 'r_name(p=6)->[NameAnimalMale]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Animals.xml)
-RulePackDef: NamerAnimalGenericMale.rulePack.rulesStrings.2 'r_name(p=6)->[NamePersonMale]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Animals.xml)
-RulePackDef: NamerAnimalGenericMale.rulePack.rulesStrings.3 'r_name->[exoticname]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Animals.xml)
-RulePackDef: NamerAnimalGenericMale.rulePack.rulesStrings.4 'exoticname(p=2)->[AdjectiveBadass]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Animals.xml)
-RulePackDef: NamerAnimalGenericMale.rulePack.rulesStrings.5 'exoticname(p=2)->[PersonBadass]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Animals.xml)
-RulePackDef: NamerAnimalGenericMale.rulePack.rulesStrings.6 'exoticname->[Enemy]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Animals.xml)
-RulePackDef: NamerAnimalGenericMale.rulePack.rulesStrings.7 'exoticname->[ConceptAny]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Animals.xml)
-RulePackDef: NamerAnimalGenericMale.rulePack.rulesStrings.8 'exoticname->[Color]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Animals.xml)
-RulePackDef: NamerAnimalGenericFemale.rulePack.rulesStrings.0 'r_name(p=6)->[NameAnimalUnisex]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Animals.xml)
-RulePackDef: NamerAnimalGenericFemale.rulePack.rulesStrings.1 'r_name(p=6)->[NameAnimalFemale]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Animals.xml)
-RulePackDef: NamerAnimalGenericFemale.rulePack.rulesStrings.2 'r_name(p=6)->[NamePersonFemale]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Animals.xml)
-RulePackDef: NamerAnimalGenericFemale.rulePack.rulesStrings.3 'r_name->[exoticname]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Animals.xml)
-RulePackDef: NamerAnimalGenericFemale.rulePack.rulesStrings.4 'exoticname(p=2)->[AdjectiveBadass]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Animals.xml)
-RulePackDef: NamerAnimalGenericFemale.rulePack.rulesStrings.5 'exoticname(p=2)->[PersonBadass]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Animals.xml)
-RulePackDef: NamerAnimalGenericFemale.rulePack.rulesStrings.6 'exoticname->[Enemy]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Animals.xml)
-RulePackDef: NamerAnimalGenericFemale.rulePack.rulesStrings.7 'exoticname->[ConceptAny]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Animals.xml)
-RulePackDef: NamerAnimalGenericFemale.rulePack.rulesStrings.8 'exoticname->[Color]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Animals.xml)
-RulePackDef: NamerPersonCorunan.rulePack.rulesStrings.0 'r_name(p=2)->[WordTribal] [WordTribal]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_People.xml)
-RulePackDef: NamerPersonCorunan.rulePack.rulesStrings.1 'r_name->[WordTribal] '[AnimalBadass]' [WordTribal]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_People.xml)
-RulePackDef: NamerPersonCorunan.rulePack.rulesStrings.2 'r_name->[Color] [WordTribal]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_People.xml)
-RulePackDef: NamerPersonCorunan.rulePack.rulesStrings.3 'r_name->[WordTribal] [Animal]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_People.xml)
-RulePackDef: NamerPersonCorunan.rulePack.rulesStrings.4 'r_name->[Animal] [WordTribal]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_People.xml)
-RulePackDef: NamerPersonCorunan.rulePack.rulesStrings.5 'r_name->[Color] [Animal]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_People.xml)
-RulePackDef: EmpireNameUtility.rulePack.rulesStrings.0 'WordImperial(p=4)->[SylB][SylB]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_People.xml)
-RulePackDef: EmpireNameUtility.rulePack.rulesStrings.1 'WordImperial(p=2)->[SylB][SylB][SylB]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_People.xml)
-RulePackDef: EmpireNameUtility.rulePack.rulesStrings.2 'WordImperial(p=0.2)->[SylB][SylB][SylB][SylB]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_People.xml)
-RulePackDef: NamerQuestDefault.rulePack.rulesStrings.0 'defaultQuestName->[adjectiveCurious] [quest]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Quests.xml)
-RulePackDef: NamerScenario.rulePack.rulesStrings.0 'r_name->[story] [Trans] the [Weapon]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Scenarios.xml)
-RulePackDef: NamerScenario.rulePack.rulesStrings.1 'r_name->[story] [Trans] the [Animal]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Scenarios.xml)
-RulePackDef: NamerScenario.rulePack.rulesStrings.2 'r_name->[story] [Trans] the [TerrainFeature]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Scenarios.xml)
-RulePackDef: NamerScenario.rulePack.rulesStrings.3 'r_name->[story] [Trans] [PersonJob]s' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Scenarios.xml)
-RulePackDef: NamerScenario.rulePack.rulesStrings.4 'r_name->[story] [Trans] [ConceptAny]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Scenarios.xml)
-RulePackDef: NamerScenario.rulePack.rulesStrings.5 'r_name->[ConceptAny] [story]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Scenarios.xml)
-RulePackDef: NamerScenario.rulePack.rulesStrings.6 'r_name->[story] [Trans] a [Community]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Scenarios.xml)
-RulePackDef: NamerScenario.rulePack.rulesStrings.7 'r_name->a [AdjectiveAny] [story]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Scenarios.xml)
-RulePackDef: NamerScenario.rulePack.rulesStrings.8 'r_name->[story] [Trans] the [Game]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Scenarios.xml)
-RulePackDef: NamerScenario.rulePack.rulesStrings.9 'r_name->[story] in [Color] and [Color]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Scenarios.xml)
-RulePackDef: NamerScenario.rulePack.rulesStrings.10 'r_name->[Color] [story]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Scenarios.xml)
-RulePackDef: NamerScenario.rulePack.rulesStrings.11 'r_name->[story] [RomanNumeral]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Scenarios.xml)
-RulePackDef: NamerTraderGeneral.rulePack.rulesStrings.0 'r_name(p=4)->[businessname] [businesstype]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Traders.xml)
-RulePackDef: NamerTraderGeneral.rulePack.rulesStrings.1 'r_name->[NamePerson] [businesstype]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Traders.xml)
-RulePackDef: NamerTraderGeneral.rulePack.rulesStrings.2 'r_name->[maybe_adjective] [Animal] [businesstype]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Traders.xml)
-RulePackDef: NamerTraderGeneral.rulePack.rulesStrings.3 'r_name->[Letter][Letter] [businesstype]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Traders.xml)
-RulePackDef: NamerTraderGeneral.rulePack.rulesStrings.4 'r_name(p=0.5)->[PersonAlly] [businesstype]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Traders.xml)
-RulePackDef: NamerTraderGeneral.rulePack.rulesStrings.5 'r_name(p=0.5)->[AdjectiveFriendly] [businesstype]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Traders.xml)
-RulePackDef: NamerTraderGeneral.rulePack.rulesStrings.6 'r_name(p=0.5)->[AdjectiveBadass] [businesstype]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Traders.xml)
-RulePackDef: NamerTraderGeneral.rulePack.rulesStrings.7 'r_name(p=0.3)->[PersonFamily] [businesstype]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Traders.xml)
-RulePackDef: NamerTraderGeneral.rulePack.rulesStrings.8 'r_name(p=0.3)->[maybe_adjective] [NaturalObject] [businesstype]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Traders.xml)
-RulePackDef: NamerTraderGeneral.rulePack.rulesStrings.9 'r_name(p=0.2)->[maybe_adjective] [TreeType] [businesstype]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Traders.xml)
-RulePackDef: NamerTraderGeneral.rulePack.rulesStrings.10 'r_name(p=0.2)->[maybe_adjective] [Vegetable] [businesstype]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Traders.xml)
-RulePackDef: NamerTraderGeneral.rulePack.rulesStrings.11 'r_name(p=0.2)->[Direction] [businesstype]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Traders.xml)
-RulePackDef: NamerTraderGeneral.rulePack.rulesStrings.12 'maybe_adjective->' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Traders.xml)
-RulePackDef: NamerTraderGeneral.rulePack.rulesStrings.13 'maybe_adjective->[Color]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Traders.xml)
-RulePackDef: NamerTraderGeneral.rulePack.rulesStrings.14 'maybe_adjective->[AdjectiveFriendly]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Traders.xml)
-RulePackDef: NamerTraderGeneral.rulePack.rulesStrings.15 'maybe_adjective->[AdjectiveBadass]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namers_Traders.xml)
-RulePackDef: NamerWorld.rulePack.rulesStrings.0 'r_name->[celestial_name]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namer_World.xml)
-RulePackDef: NamerWorld.rulePack.rulesStrings.1 'r_name->[celestial_prefix] [celestial_name]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namer_World.xml)
-RulePackDef: NamerWorld.rulePack.rulesStrings.2 'r_name->[celestial_name] [celestial_suffix]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namer_World.xml)
-RulePackDef: NamerWorld.rulePack.rulesStrings.3 'r_name->[world_name_numeric]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namer_World.xml)
-RulePackDef: NamerWorld.rulePack.rulesStrings.4 'r_name->[world_name_numeric] [celestial_suffix]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namer_World.xml)
-RulePackDef: NamerWorld.rulePack.rulesStrings.5 'r_name(p=0.5)->[celestial_name] [RomanNumeral]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namer_World.xml)
-RulePackDef: NamerWorld.rulePack.rulesStrings.6 'r_name(p=0.5)->[celestial_name]-[RomanNumeral]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namer_World.xml)
-RulePackDef: NamerWorld.rulePack.rulesStrings.7 'r_name(p=0.5)->[celestial_name]-[numbers]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namer_World.xml)
-RulePackDef: NamerWorld.rulePack.rulesStrings.8 'r_name->[celestial_name] [celestial_name]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namer_World.xml)
-RulePackDef: NamerWorld.rulePack.rulesStrings.9 'r_name->[NamePerson]'s [planet]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namer_World.xml)
-RulePackDef: NamerWorld.rulePack.rulesStrings.10 'world_name_numeric->[letters]-[numbers]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namer_World.xml)
-RulePackDef: NamerWorld.rulePack.rulesStrings.11 'world_name_numeric->[letters] [numbers]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namer_World.xml)
-RulePackDef: NamerWorld.rulePack.rulesStrings.12 'letters->[Letter]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namer_World.xml)
-RulePackDef: NamerWorld.rulePack.rulesStrings.13 'letters->[Letter][Letter]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namer_World.xml)
-RulePackDef: NamerWorld.rulePack.rulesStrings.14 'letters->[Letter][Letter][Letter]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namer_World.xml)
-RulePackDef: NamerWorld.rulePack.rulesStrings.15 'numbers->[Digit]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namer_World.xml)
-RulePackDef: NamerWorld.rulePack.rulesStrings.16 'numbers->[Digit][Digit]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namer_World.xml)
-RulePackDef: NamerWorld.rulePack.rulesStrings.17 'numbers->[Digit][Digit][Digit]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namer_World.xml)
-RulePackDef: NamerWorld.rulePack.rulesStrings.18 'planet->World' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namer_World.xml)
-RulePackDef: NamerWorld.rulePack.rulesStrings.19 'planet->Planet' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in RulePacks_Namer_World.xml)
 RulePackDef: NamerFactionEmpire.rulePack.rulesStrings.0 'r_name(p=2)->[empire] of [ofThing]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in Faction_Empire.xml)
 RulePackDef: NamerFactionEmpire.rulePack.rulesStrings.1 'r_name(p=2)->The [empire] of [ofThing]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in Faction_Empire.xml)
 RulePackDef: NamerFactionEmpire.rulePack.rulesStrings.2 'r_name->The Exodus [empire]' (hint: this list allows full-list translation by using <li> nodes) (placeholder exists in Faction_Empire.xml)
@@ -15120,116 +14279,17 @@ ThingCategoryDef: BookEffects.label 'bookEffects' (placeholder exists in ThingCa
 ThingCategoryDef: SkillGain.label 'skill gain' (placeholder exists in ThingCategories.xml)
 ThingCategoryDef: Fish.label 'fish' (placeholder exists in ThingCategories.xml)
 ThingCategoryDef: CorpsesDrone.label 'drone corpses' (placeholder exists in ThingCategories.xml)
-ThingDef: Luciferium.label 'luciferium'
-ThingDef: Luciferium.description 'A concoction of mechanites that dramatically improve the body's functioning in all respects. Over time, it can even heal old scarred-over wounds or brain damage, though it cannot regenerate lost limbs. Unfortunately, without the moderating effects of regular doses every five or six days, the mechanites lose cohesion, causing continuous berserk rages and, eventually, death.\n\nAfter the first dose, there is no way to get the mechanites out, ever.\n\nOn the urbworlds, they call Luciferium the 'Devil's Bargain'. Many have been forced to kill friends when no more of the seductive red pills could be found.'
-ThingDef: Luciferium.ingestible.ingestCommandString 'Take {0}'
-ThingDef: Luciferium.ingestible.ingestReportString 'Taking {0}.'
 ThingDef: Gun_TurretSniper.label 'uranium slug cannon'
 ThingDef: Gun_TurretSniper.description 'A self-loading uranium slug cannon designed to attach to a turret.'
 ThingDef: Gun_TurretSniper.verbs.Verb_Shoot.label 'uranium slug cannon'
 ThingDef: Proj_Foam.label 'foam'
 ThingDef: Gun_TurretFoam.verbs.Verb_ArcSprayProjectile.label 'foam sprayer'
-ThingDef: Milk.label 'milk'
-ThingDef: Milk.description 'Milk from an animal.\n\nMilk can be fed to human babies.'
-ThingDef: InsectJelly.label 'insect jelly'
-ThingDef: InsectJelly.description 'Jelly stored and used as food by oversized insects. It is smooth, rich, and fulfills the recreation need of those who consume it. Because of its unique biological properties, it can nourish almost any creature and never rots.\n\nOddly, its texture and nutrient balance makes it an ideal baby food.'
-ThingDef: Skull.label 'skull'
-ThingDef: Skull.description 'A human skull.'
-ThingDef: EggChickenUnfertilized.label 'chicken egg (unfert.)'
-ThingDef: EggChickenUnfertilized.description 'An unfertilized chicken egg. It can be eaten raw, but it's much, much better cooked.'
-ThingDef: EggChickenFertilized.label 'chicken egg (fert.)'
-ThingDef: EggChickenFertilized.description 'A fertilized chicken egg. If all goes well, it should hatch into a chick. It can be eaten raw, but it's much better cooked.'
-ThingDef: EggCobraFertilized.label 'cobra egg (fert.)'
-ThingDef: EggCobraFertilized.description 'A fertilized cobra egg. If all goes well, it should hatch into a baby cobra. It can be eaten raw, but it's much better cooked.'
-ThingDef: EggCobraUnfertilized.label 'cobra egg (unfert.)'
-ThingDef: EggCobraUnfertilized.description 'An unfertilized cobra egg. It can be eaten raw, but it's much better cooked.'
-ThingDef: EggIguanaFertilized.label 'iguana egg (fert.)'
-ThingDef: EggIguanaFertilized.description 'A fertilized iguana egg. If all goes well, it should hatch into a baby iguana. It can be eaten raw, but it's much better cooked.'
-ThingDef: EggIguanaUnfertilized.label 'iguana egg (unfert.)'
-ThingDef: EggIguanaUnfertilized.description 'An unfertilized iguana egg. It can be eaten raw, but it's much better cooked.'
-ThingDef: EggTortoiseFertilized.label 'tortoise egg (fert.)'
-ThingDef: EggTortoiseFertilized.description 'A fertilized tortoise egg. If all goes well, it should hatch into a baby tortoise. It can be eaten raw, but it's much better cooked.'
-ThingDef: EggTortoiseUnfertilized.label 'tortoise egg (unfert.)'
-ThingDef: EggTortoiseUnfertilized.description 'An unfertilized tortoise egg. It can be eaten raw, but it's much better cooked.'
-ThingDef: EggCassowaryFertilized.label 'cassowary egg (fert.)'
-ThingDef: EggCassowaryFertilized.description 'A fertilized cassowary egg. If all goes well, it should hatch into a baby cassowary. It can be eaten raw, but it's much better cooked.'
-ThingDef: EggCassowaryUnfertilized.label 'cassowary egg (unfert.)'
-ThingDef: EggCassowaryUnfertilized.description 'An unfertilized cassowary egg. It can be eaten raw, but it's much better cooked.'
-ThingDef: EggEmuFertilized.label 'emu egg (fert.)'
-ThingDef: EggEmuFertilized.description 'A fertilized emu egg. If all goes well, it should hatch into a baby emu. It can be eaten raw, but it's much better cooked.'
-ThingDef: EggEmuUnfertilized.label 'emu egg (unfert.)'
-ThingDef: EggEmuUnfertilized.description 'An unfertilized emu egg. It can be eaten raw, but it's much better cooked.'
-ThingDef: EggOstrichFertilized.label 'ostrich egg (fert.)'
-ThingDef: EggOstrichFertilized.description 'A fertilized ostrich egg. If all goes well, it should hatch into a baby ostrich. It can be eaten raw, but it's much better cooked.'
-ThingDef: EggOstrichUnfertilized.label 'ostrich egg (unfert.)'
-ThingDef: EggOstrichUnfertilized.description 'An unfertilized ostrich egg. It can be eaten raw, but it's much better cooked.'
-ThingDef: EggTurkeyFertilized.label 'turkey egg (fert.)'
-ThingDef: EggTurkeyFertilized.description 'A fertilized turkey egg. If all goes well, it should hatch into a baby turkey. It can be eaten raw, but it's much better cooked.'
-ThingDef: EggTurkeyUnfertilized.label 'turkey egg (unfert.)'
-ThingDef: EggTurkeyUnfertilized.description 'An unfertilized turkey egg. It can be eaten raw, but it's much better cooked.'
-ThingDef: EggDuckUnfertilized.label 'duck egg (unfert.)'
-ThingDef: EggDuckUnfertilized.description 'An unfertilized duck egg. It can be eaten raw, but it's much, much better cooked.'
-ThingDef: EggDuckFertilized.label 'duck egg (fert.)'
-ThingDef: EggDuckFertilized.description 'A fertilized duck egg. If all goes well, it should hatch into a duckling. It can be eaten raw, but it's much better cooked.'
-ThingDef: EggGooseUnfertilized.label 'goose egg (unfert.)'
-ThingDef: EggGooseUnfertilized.description 'An unfertilized goose egg. It can be eaten raw, but it's much, much better cooked.'
-ThingDef: EggGooseFertilized.label 'goose egg (fert.)'
-ThingDef: EggGooseFertilized.description 'A fertilized goose egg. If all goes well, it should hatch into a baby goose. It can be eaten raw, but it's much better cooked.'
-ThingDef: Shell_HighExplosive.label 'high-explosive shell'
-ThingDef: Shell_HighExplosive.description 'A shell filled with high explosives. Can be fired from mortars or installed as a trap. Explodes when damaged.'
-ThingDef: Bullet_Shell_HighExplosive.label 'high-explosive shell'
-ThingDef: Shell_Incendiary.label 'incendiary shell'
-ThingDef: Shell_Incendiary.description 'A shell filled with flammable gel and a small explosive charge. Starts fires when detonated. Can be fired from mortars or installed as a trap. Explodes when damaged.'
-ThingDef: Bullet_Shell_Incendiary.label 'incendiary shell'
-ThingDef: Shell_EMP.label 'EMP shell'
-ThingDef: Shell_EMP.description 'A shell filled with batteries and antennas, for generating an electromagnetic pulse when detonated. Electromagnetic pulses temporarily disable electrical devices and mechanoids. Can be fired from mortars or installed as a trap. Explodes when damaged.'
-ThingDef: Bullet_Shell_EMP.label 'EMP shell'
-ThingDef: Shell_Smoke.label 'smoke shell'
-ThingDef: Shell_Smoke.description 'A shell that generates a cloud of smoke when detonated, obscuring incoming shots and preventing turrets from locking on. Can be fired from mortars or installed as a trap. Explodes when damaged.'
-ThingDef: Bullet_Shell_Smoke.label 'smoke shell'
-ThingDef: Shell_Firefoam.label 'firefoam shell'
-ThingDef: Shell_Firefoam.description 'A pressurized shell filled with fire-retardant foam. Can be fired from mortars or installed as a trap. Explodes when damaged.'
-ThingDef: Bullet_Shell_Firefoam.label 'firefoam shell'
-ThingDef: Shell_AntigrainWarhead.label 'antigrain warhead'
-ThingDef: Shell_AntigrainWarhead.description 'An ultra-tech warhead powered by a grain of antimatter. Usually used by spacecraft or glitterworld war machines, it creates a huge explosion and starts fires around the target. Can be fired from mortars or installed as a trap. Explodes when damaged.'
-ThingDef: Bullet_Shell_AntigrainWarhead.label 'antigrain warhead'
-ThingDef: Gun_TripleRocket.label 'triple rocket launcher'
-ThingDef: Gun_TripleRocket.description 'A single-use rocket launcher that fires three large-bore explosive rockets. Good against small groups of tough targets.\n\nBecause of its unwieldiness, single-use limitation, and the massive destruction it causes, it's said that one must be slightly crazy to use this weapon.'
-ThingDef: Gun_TripleRocket.tools.barrel.label 'barrel'
-ThingDef: Gun_TripleRocket.verbs.Verb_ShootOneUse.label 'triple rocket launcher'
 ThingDef: Bullet_Rocket.label 'rocket'
-ThingDef: Gun_DoomsdayRocket.label 'doomsday rocket launcher'
-ThingDef: Gun_DoomsdayRocket.description 'A single-use rocket launcher that fires a massive explosive projectile. Good against large groups of soft targets. Starts fires.\n\nBecause of its unwieldiness, single-use limitation, and the massive destruction it causes, it's said that one must be slightly crazy to use this weapon.'
-ThingDef: Gun_DoomsdayRocket.tools.barrel.label 'barrel'
-ThingDef: Gun_DoomsdayRocket.verbs.Verb_ShootOneUse.label 'doomsday rocket launcher'
 ThingDef: Bullet_DoomsdayRocket.label 'doomsday rocket'
-ThingDef: Weapon_GrenadeFrag.label 'frag grenades'
-ThingDef: Weapon_GrenadeFrag.description 'Old-school fragmentation grenades. They can be thrown a short distance, where they'll explode, damaging anything and anyone nearby.'
-ThingDef: Weapon_GrenadeFrag.verbs.throw_frag_grenade.label 'throw frag grenade'
 ThingDef: Proj_GrenadeFrag.label 'frag grenade'
-ThingDef: Weapon_GrenadeMolotov.label 'molotov cocktails'
-ThingDef: Weapon_GrenadeMolotov.description 'Glass bottles filled with flammable liquid, with a burning cloth in the neck. A favorite weapon of hooligans and desperate warriors from rim to rim.'
-ThingDef: Weapon_GrenadeMolotov.verbs.throw_molotov.label 'throw molotov'
-ThingDef: Proj_GrenadeMolotov.label 'molotov cocktail'
-ThingDef: Weapon_GrenadeEMP.label 'EMP grenades'
-ThingDef: Weapon_GrenadeEMP.description 'Electromagnetic pulse grenades damaging to electronic equipment.'
-ThingDef: Weapon_GrenadeEMP.verbs.throw_EMP_grenade.label 'throw EMP grenade'
 ThingDef: Proj_GrenadeEMP.label 'EMP grenade'
 ThingDef: Bullet_ChargeBlasterHeavy.label 'charge blaster shot'
-ThingDef: Gun_ChargeBlasterHeavy.label 'heavy charge blaster'
-ThingDef: Gun_ChargeBlasterHeavy.description 'A pulse-charged rapid-fire blaster for area suppressive fire. Heavy cooling allows long, deadly bursts.'
-ThingDef: Gun_ChargeBlasterHeavy.tools.barrel.label 'barrel'
-ThingDef: Gun_ChargeBlasterHeavy.verbs.Verb_Shoot.label 'heavy charge blaster'
 ThingDef: Bullet_InfernoCannon.label 'inferno cannon shell'
-ThingDef: Gun_InfernoCannon.label 'inferno cannon'
-ThingDef: Gun_InfernoCannon.description 'An incendiary-shot mini-artillery device. It fires a large incendiary warhead.'
-ThingDef: Gun_InfernoCannon.tools.barrel.label 'barrel'
-ThingDef: Gun_InfernoCannon.verbs.Verb_Shoot.label 'inferno cannon'
-ThingDef: Gun_Needle.label 'needle gun'
-ThingDef: Gun_Needle.description 'A long-range weapon used by mechanoids. Named after its needle-like projectiles, it fires single shots with great accuracy. While it does less damage than charge weapons, it can reach over very long distances.'
-ThingDef: Gun_Needle.tools.barrel.label 'barrel'
-ThingDef: Gun_Needle.verbs.Verb_Shoot.label 'needle gun'
-ThingDef: Bullet_NeedleGun.label 'needle shot'
 ThingDef: OrbitalTargeterPowerBeam.label 'orbital power beam targeter'
 ThingDef: OrbitalTargeterPowerBeam.description 'An ancient targeting unit for a network of power-collection satellites. Once aimed at a target, it directs ancient satellites to begin beaming power down in a massive column of electromagnetic energy. This power can safely be collected in a giant absorption dish. Since you have no absorption dish, you'll be aiming it at enemies, at which point the power column will turn the area into a thousand-degree inferno. This will last until the satellites detect the unsafe targeting, shut themselves down, and permanently deactivate the targeter.'
 ThingDef: OrbitalTargeterPowerBeam.comps.CompApparelReloadable.chargeNoun 'charge'
@@ -19928,43 +18988,6 @@ RitualBehaviorDef: AnimaTreeLinking.roles.0.noCandidatesGizmoDesc 'Need a coloni
 RitualBehaviorDef: AnimaTreeLinking.spectatorFilter.description 'Must have natural focus type.' (placeholder exists in Ritual_Behaviors.xml)
 RitualBehaviorDef: AnimaTreeLinking.spectatorGerund 'participate' (placeholder exists in Ritual_Behaviors.xml)
 RitualBehaviorDef: AnimaTreeLinking.spectatorsLabel 'Participants' (placeholder exists in Ritual_Behaviors.xml)
-RitualBehaviorDef: Funeral.roles.0.label 'speaker'
-RitualBehaviorDef: DateRitual.roles.0.label 'speaker'
-RitualBehaviorDef: DateRitual.spectatorGerund 'participate'
-RitualBehaviorDef: DateRitual.spectatorsLabel 'Participants'
-RitualBehaviorDef: DateRitual.stages.0.postAction.text '{0}: The speech is over, and the party is beginning.'
-RitualBehaviorDef: LeaderSpeech.letterText '{SPEAKER_labelShort} is giving {RITUAL_labelIndef}.\n      \nIf all goes well, listeners will feel inspired, and gain respect for {SPEAKER_labelShort}. If it goes poorly, the speech will do social damage. Positive effects are reduced for non-{IDEOMEMBERS}.'
-RitualBehaviorDef: LeaderSpeech.letterTitle '{RITUAL_labelCap}'
-RitualBehaviorDef: LeaderSpeech.roles.0.label 'speaker'
-RitualBehaviorDef: Trial.roles.0.label 'judge'
-RitualBehaviorDef: Trial.roles.1.label 'convict'
-RitualBehaviorDef: TrialPrisoner.roles.0.label 'judge'
-RitualBehaviorDef: TrialPrisoner.roles.1.label 'convict'
-RitualBehaviorDef: TrialPrisoner.stages.0.failTriggers.0.desc 'Convicted prisoner is not reachable.'
-RitualBehaviorDef: TrialPrisoner.stages.0.failTriggers.1.desc 'escort asleep'
-RitualBehaviorDef: TrialMentalState.roles.0.label 'judge'
-RitualBehaviorDef: TrialMentalState.roles.1.label 'convict'
-RitualBehaviorDef: SacrificePrisoner.roles.0.label 'cutter'
-RitualBehaviorDef: SacrificePrisoner.roles.1.label 'sacrifice'
-RitualBehaviorDef: SacrificePrisoner.roles.1.missingDesc 'a prisoner'
-RitualBehaviorDef: SacrificePrisoner.spectatorGerund 'participate'
-RitualBehaviorDef: SacrificePrisoner.spectatorsLabel 'Participants'
-RitualBehaviorDef: SacrificePrisoner.stages.0.failTriggers.0.desc 'Prisoner is not reachable.'
-RitualBehaviorDef: SacrificePrisoner.stages.0.failTriggers.1.desc 'escort asleep'
-RitualBehaviorDef: SacrificePrisoner.stages.3.failTriggers.0.desc 'sacrifice no longer dead'
-RitualBehaviorDef: SacrificeAnimal.roles.0.label 'cutter'
-RitualBehaviorDef: SacrificeAnimal.roles.1.label 'sacrifice'
-RitualBehaviorDef: SacrificeAnimal.roles.1.missingDesc 'an animal with body size of at least 0.8'
-RitualBehaviorDef: SacrificeAnimal.spectatorGerund 'participate'
-RitualBehaviorDef: SacrificeAnimal.spectatorsLabel 'Participants'
-RitualBehaviorDef: SacrificeAnimal.stages.0.failTriggers.0.desc 'Animal is not reachable.'
-RitualBehaviorDef: SacrificeAnimal.stages.0.failTriggers.1.desc 'escort asleep'
-RitualBehaviorDef: SacrificeAnimal.stages.3.failTriggers.0.desc 'sacrifice no longer dead'
-RitualBehaviorDef: DancePartyTech.spectatorGerund 'participate'
-RitualBehaviorDef: DancePartyTech.spectatorsLabel 'Participants'
-RitualBehaviorDef: DancePartyTech.stages.0.failTriggers.0.desc 'Lightball is missing.'
-RitualBehaviorDef: DancePartyTech.stages.0.failTriggers.1.desc 'Lightball is not powered.'
-RitualBehaviorDef: DancePartyTech.stages.0.failTriggers.2.desc 'No powered loudspeakers.'
 RitualBehaviorDef: CelebrationPartyDanceDrum.spectatorGerund 'participate'
 RitualBehaviorDef: CelebrationPartyDanceDrum.spectatorsLabel 'Participants'
 RitualBehaviorDef: CelebrationPartyDanceDrum.stages.0.failTriggers.0.desc 'Campfire is missing.'
@@ -19976,59 +18999,12 @@ RitualBehaviorDef: CelebrationTree.spectatorGerund 'participate'
 RitualBehaviorDef: CelebrationTree.spectatorsLabel 'Participants'
 RitualBehaviorDef: BurnCircle.spectatorGerund 'participate'
 RitualBehaviorDef: BurnCircle.spectatorsLabel 'Participants'
-RitualBehaviorDef: SmokeCircle.spectatorGerund 'participate'
-RitualBehaviorDef: SmokeCircle.spectatorsLabel 'Participants'
-RitualBehaviorDef: GladiatorDuel.roles.0.label 'speaker'
-RitualBehaviorDef: GladiatorDuel.roles.1.label 'duelist'
-RitualBehaviorDef: GladiatorDuel.roles.1.categoryLabel 'duelists'
-RitualBehaviorDef: GladiatorDuel.roles.1.missingDesc 'prisoners / slaves (duelists)'
-RitualBehaviorDef: GladiatorDuel.roles.2.label 'duelist'
-RitualBehaviorDef: GladiatorDuel.roles.2.categoryLabel 'duelists'
-RitualBehaviorDef: GladiatorDuel.roles.2.missingDesc 'prisoners / slaves (duelists)'
-RitualBehaviorDef: GladiatorDuel.roles.3.label 'duelist escort'
-RitualBehaviorDef: GladiatorDuel.roles.3.categoryLabel 'duelist escorts'
-RitualBehaviorDef: GladiatorDuel.roles.3.missingDesc 'non-downed colonists capable of hauling'
-RitualBehaviorDef: GladiatorDuel.roles.4.label 'duelist escort'
-RitualBehaviorDef: GladiatorDuel.roles.4.categoryLabel 'duelist escorts'
-RitualBehaviorDef: GladiatorDuel.roles.4.missingDesc 'non-downed colonists capable of hauling'
-RitualBehaviorDef: GladiatorDuel.spectatorGerund 'participate'
-RitualBehaviorDef: GladiatorDuel.spectatorsLabel 'Spectators'
-RitualBehaviorDef: GladiatorDuel.stages.2.failTriggers.0.desc 'Duelist is not reachable.'
-RitualBehaviorDef: GladiatorDuel.stages.2.failTriggers.1.desc 'escort asleep'
-RitualBehaviorDef: GladiatorDuel.stages.2.failTriggers.2.desc 'escort asleep'
-RitualBehaviorDef: FeastCannibal.spectatorGerund 'participate'
-RitualBehaviorDef: FeastCannibal.spectatorsLabel 'Participants'
-RitualBehaviorDef: ScarificationCeremony.roles.0.label 'target'
-RitualBehaviorDef: ScarificationCeremony.roles.0.missingDesc 'the person to scarify'
-RitualBehaviorDef: ScarificationCeremony.roles.1.label 'cutter'
-RitualBehaviorDef: ScarificationCeremony.roles.1.missingDesc 'the person who performs the scarification'
-RitualBehaviorDef: ScarificationCeremony.stages.0.failTriggers.0.desc 'Target is not reachable.'
-RitualBehaviorDef: ScarificationCeremony.stages.0.failTriggers.1.desc 'escort asleep'
 RitualBehaviorDef: BlindingCeremony.roles.0.label 'target'
 RitualBehaviorDef: BlindingCeremony.roles.0.missingDesc 'the person to blind'
 RitualBehaviorDef: BlindingCeremony.roles.1.label 'cutter'
 RitualBehaviorDef: BlindingCeremony.roles.1.missingDesc 'the person who performs the blinding'
 RitualBehaviorDef: BlindingCeremony.stages.0.failTriggers.0.desc 'Target is not reachable.'
 RitualBehaviorDef: BlindingCeremony.stages.0.failTriggers.1.desc 'escort asleep'
-RitualBehaviorDef: Conversion.roles.0.label 'speaker'
-RitualBehaviorDef: Conversion.roles.1.label 'convertee'
-RitualBehaviorDef: Conversion.stages.0.failTriggers.0.desc 'Prisoner is not reachable.'
-RitualBehaviorDef: Conversion.stages.0.failTriggers.1.desc 'escort asleep'
-RitualBehaviorDef: TreeConnection.roles.0.label 'connector'
-RitualBehaviorDef: TreeConnection.roles.0.customChildDisallowMessage 'Only adults can connect to the Gauranlen tree.'
-RitualBehaviorDef: TreeConnection.spectatorGerund 'spectate'
-RitualBehaviorDef: TreeConnection.spectatorsLabel 'Spectators'
-RitualBehaviorDef: Execution.roles.0.label 'executioner'
-RitualBehaviorDef: Execution.roles.0.missingDesc 'an executioner'
-RitualBehaviorDef: Execution.roles.1.label 'prisoner'
-RitualBehaviorDef: Execution.roles.1.missingDesc 'a prisoner'
-RitualBehaviorDef: Execution.spectatorFilter.description 'Spectators must be willing to watch the execution.'
-RitualBehaviorDef: Execution.stages.0.failTriggers.0.desc 'Prisoner is not reachable.'
-RitualBehaviorDef: Execution.stages.0.failTriggers.1.desc 'escort asleep'
-RitualBehaviorDef: RoleChange.roles.0.label 'role changer'
-RitualBehaviorDef: RoleChange.roles.0.missingDesc 'a role changer'
-RitualBehaviorDef: RoleChange.spectatorGerund 'spectate'
-RitualBehaviorDef: RoleChange.spectatorsLabel 'Spectators'
 RitualBehaviorDef: ChildBirth.roles.0.label 'mother' (placeholder exists in Ritual_Behaviors.xml)
 RitualBehaviorDef: ChildBirth.roles.1.label 'doctor' (placeholder exists in Ritual_Behaviors.xml)
 RitualBehaviorDef: ChildBirth.stages.2.roleBehaviors.1.jobReportOverride 'giving birth' (placeholder exists in Ritual_Behaviors.xml)

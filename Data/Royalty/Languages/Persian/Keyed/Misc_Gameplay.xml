@@ -1,14 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  <RequiresTradePermission>تجارت در اینجا نیاز به عنوان دارد: {0}</RequiresTradePermission>
-  <!-- EN: Personal bedroom (partner allowed) -->
-  <RequirementPersonalBedroom>اتاق خواب شخصی (شریک مجاز)</RequirementPersonalBedroom>
+
+  <!-- Royalty and throne -->
   <!-- EN: Satisfies title -->
   <ThroneMaxSatisfiedTitle>برآورده کننده عنوان</ThroneMaxSatisfiedTitle>
   <!-- EN: ({0} impressiveness) -->
   <ThroneRoomImpressivenessInfo>({0} تأثیرگذاری)</ThroneRoomImpressivenessInfo>
+  <!-- EN: Throne must be placed indoors. -->
+  <ThroneMustBePlacedInside>TODO</ThroneMustBePlacedInside>
   <!-- EN: Minimum title ({FACTION_name}): {TITLE} -->
   <MinimumRoyalTitleInspectString>حداقل عنوان ({FACTION_name}): {TITLE}</MinimumRoyalTitleInspectString>
+  <!-- EN: Trading here requires title: {0} -->
+  <RequiresTradePermission>تجارت در اینجا نیاز به عنوان دارد: {0}</RequiresTradePermission>
+  <!-- EN: Personal bedroom (partner allowed) -->
+  <RequirementPersonalBedroom>اتاق خواب شخصی (شریک مجاز)</RequirementPersonalBedroom>
   
   <!-- Generated neurotrainers -->
   <!-- EN: psytrainer ({0}) -->
@@ -94,6 +99,20 @@
   <!-- EN: {ORGANIZER_labelShort}'s {1} stat -->
   <AbilitySpeechStatInfo>آمار {1} {ORGANIZER_labelShort}</AbilitySpeechStatInfo>
   <!-- EN: Dignified throne -->
+  <AbilitySpeechTargetDescThrone>تخت سلطنت باوقار</AbilitySpeechTargetDescThrone>
+  
+  <!-- EN: no accessible altar. -->
+  <RitualDisabledNoAltar>محراب قابل دسترسی وجود ندارد.</RitualDisabledNoAltar>
+  <!-- EN: Bestowing Ceremony -->
+  <RitualBestowingCeremony>مراسم اعطا</RitualBestowingCeremony>
+  <!-- EN: No suitable location near bestower -->
+  <BestowingSpotUnavailable>مکان مناسبی نزدیک اعطا کننده وجود ندارد</BestowingSpotUnavailable>
+
+  <!-- EN: Total meditation today: {0} (progress multiplier {1}) -->
+  <TotalMeditationToday>کل مدیتیشن امروز: {0} (ضریب پیشرفت {1})</TotalMeditationToday>
+  <!-- EN: progress {0} -->
+  <ProgressToNextSubplant>پیشرفت {0}</ProgressToNextSubplant>
+  <!-- EN: Begin linking ritual -->
   <BeginLinkingRitualFloatMenu>شروع مراسم پیوند</BeginLinkingRitualFloatMenu>
   <!-- EN: Need {0} {1} here (have {2}) -->
   <BeginLinkingRitualNeedSubplants>نیاز به {0} {1} در اینجا (دارید {2})</BeginLinkingRitualNeedSubplants>
@@ -152,34 +171,4 @@
   <!-- EN: level {0} -->
   <LevelNum>سطح {0}</LevelNum> <!-- Psylink level as reported in health tab-->
 
-  <!-- EN: progress {0} -->
-  <ProgressToNextSubplant>پیشرفت {0}</ProgressToNextSubplant>
-  <!-- EN: Dignified throne -->
-  <AbilitySpeechTargetDescThrone>تخت سلطنت باوقار</AbilitySpeechTargetDescThrone>
-  <!-- EN: Bestowing Ceremony -->
-  <RitualBestowingCeremony>مراسم اعطا</RitualBestowingCeremony>
-  <!-- EN: no accessible altar. -->
-  <RitualDisabledNoAltar>محراب قابل دسترسی وجود ندارد.</RitualDisabledNoAltar>
-  <!-- EN: No suitable location near bestower -->
-  <BestowingSpotUnavailable>مکان مناسبی نزدیک اعطا کننده وجود ندارد</BestowingSpotUnavailable>
-  <!-- EN: Total meditation today: {0} (progress multiplier {1}) -->
-  <TotalMeditationToday>کل مدیتیشن امروز: {0} (ضریب پیشرفت {1})</TotalMeditationToday>
-
-
-  <!-- EN: blocked by {0_label} -->
-  <ThrusterBlockedBy>blocked by {0_label}</ThrusterBlockedBy>
-  <!-- EN: must be outside -->
-  <MustBeOutside>must be outside</MustBeOutside>
-  <!-- EN: blocked by substructure -->
-  <BlockedBySubstructure>blocked by substructure</BlockedBySubstructure>
-  <!-- EN: {PAWN_nameDef} cannot board {1} -->
-  <FailedToBoardGravship>{PAWN_nameDef} cannot board {1}</FailedToBoardGravship>
-  <!-- EN: {PAWN_nameDef} cannot exit {1} -->
-  <FailedToLeaveGravship>{PAWN_nameDef} cannot exit {1}</FailedToLeaveGravship>
-  <!-- EN: View range -->
-  <ViewRange>View range</ViewRange>
-  <!-- EN: View the gravship’s current range on the world map. -->
-  <ViewRangeDesc>View the gravship’s current range on the world map.</ViewRangeDesc>
-  <!-- EN: Landmark -->
-  <Landmark>Landmark</Landmark>
 </LanguageData>

@@ -221,56 +221,7 @@
     <li>skillAdv(INITIATOR_flesh==Mechanoid)->robotically</li>
     <li>skillAdv(INITIATOR_flesh==Mechanoid)->directly</li>
   -->
-  <Combat_SkillIncludes.rulePack.rulesStrings>
-    <li>skillDescMelee->[wielding] [WEAPON_label] [INITIATOR_possessive] [skillAdv]</li>
-    <li>skillDescMelee->[using] [implement] [skillAdv]</li>
-    <li>wielding(p=4)->به کار بردن</li>
-    <li>wielding(p=3)->استفاده از</li>
-    <li>wielding(p=2)->دست گرفتن</li>
-    <li>wielding->تکان دادن</li>
-    <li>wielding->دستکاری کردن</li>
-    <li>using(p=4)->استفاده از</li>
-    <li>using->راندن</li>
-    <li>using->فرو کردن</li>
-    <li>using->بهره بردن از</li>
-    <li>using->حرکت دادن</li>
-    <li>skillAdv(INITIATOR_skill<=3)->نالایقانه</li>
-    <li>skillAdv(INITIATOR_skill<=3)->بی‌مهارت</li>
-    <li>skillAdv(INITIATOR_skill<=3)->وحشیانه</li>
-    <li>skillAdv(INITIATOR_skill<=3)->تصادفی</li>
-    <li>skillAdv(INITIATOR_skill<=3)->دست‌پاچه</li>
-    <li>skillAdv(INITIATOR_skill<=4)->ناشیانه</li>
-    <li>skillAdv(INITIATOR_skill<=4)->دست‌پاچه</li>
-    <li>skillAdv(INITIATOR_skill<=5)->با ترس</li>
-    <li>skillAdv(INITIATOR_skill<=5)->با تزلزل</li>
-    <li>skillAdv(INITIATOR_skill<=5)->احمقانه</li>
-    <li>skillAdv(INITIATOR_skill<=6)->با تردید</li>
-    <li>skillAdv(INITIATOR_skill<=6)->با اکراه</li>
-    <li>skillAdv(INITIATOR_skill<=6)->به آرامی</li>
-    <li>skillAdv(INITIATOR_skill<=6)->آزمایشی</li>
-    <li>skillAdv(INITIATOR_skill<=6)->غیرماهرانه</li>
-    <li>skillAdv(INITIATOR_skill<=6)->آماتورگونه</li>
-    <li>skillAdv(INITIATOR_skill<=6)->بزدلانه</li>
-    <li>skillAdv(INITIATOR_skill<=8)->با اشتیاق</li>
-    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill<=10)->ماهرانه</li>
-    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill<=10)->شایسته</li>
-    <li>skillAdv(INITIATOR_skill>=8)->حرفه‌ای</li>
-    <li>skillAdv(INITIATOR_skill>=8)->چالاک</li>
-    <li>skillAdv(INITIATOR_skill>=8)->به جا</li>
-    <li>skillAdv(INITIATOR_skill>=8)->هوشمندانه</li>
-    <li>skillAdv(INITIATOR_skill>=8)->با مهارت</li>
-    <li>skillAdv(INITIATOR_skill>=8)->ماهرانه</li>
-    <li>skillAdv(INITIATOR_skill>=10)->استادانه</li>
-    <li>skillAdv(INITIATOR_skill>=10)->نرم</li>
-    <li>skillAdv(INITIATOR_skill>=12)->متخصصانه</li>
-    <li>skillAdv(INITIATOR_skill>=12)->دقیق</li>
-    <li>skillAdv(INITIATOR_skill>=14)->استادانه</li>
-    <li>skillAdv(INITIATOR_skill>=16)->هنرمندانه</li>
-    <li>skillAdv(INITIATOR_skill>=16)->با وقار</li>
-    <li>skillAdv(INITIATOR_flesh==Mechanoid)->مکانیکی</li>
-    <li>skillAdv(INITIATOR_flesh==Mechanoid)->رباتیک</li>
-    <li>skillAdv(INITIATOR_flesh==Mechanoid)->مستقیم</li>
-  </Combat_SkillIncludes.rulePack.rulesStrings>
+  <Combat_SkillIncludes.rulePack.rulesStrings>TODO</Combat_SkillIncludes.rulePack.rulesStrings>
   
   <!-- EN:
     <li>destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]</li>
