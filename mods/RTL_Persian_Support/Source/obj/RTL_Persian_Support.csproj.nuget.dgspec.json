@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dany\\Documents\\Github\\RimWorld-Farsi\\mods\\RTL_Persian_Support\\Source\\RTL_Persian_Support.csproj": {}
+    "/home/dany/Documents/github/RimWorld-Farsi/mods/RTL_Persian_Support/Source/RTL_Persian_Support.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dany\\Documents\\Github\\RimWorld-Farsi\\mods\\RTL_Persian_Support\\Source\\RTL_Persian_Support.csproj": {
+    "/home/dany/Documents/github/RimWorld-Farsi/mods/RTL_Persian_Support/Source/RTL_Persian_Support.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dany\\Documents\\Github\\RimWorld-Farsi\\mods\\RTL_Persian_Support\\Source\\RTL_Persian_Support.csproj",
+        "projectUniqueName": "/home/dany/Documents/github/RimWorld-Farsi/mods/RTL_Persian_Support/Source/RTL_Persian_Support.csproj",
         "projectName": "RTL_Persian_Support",
-        "projectPath": "C:\\Users\\dany\\Documents\\Github\\RimWorld-Farsi\\mods\\RTL_Persian_Support\\Source\\RTL_Persian_Support.csproj",
-        "packagesPath": "C:\\Users\\dany\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dany\\Documents\\Github\\RimWorld-Farsi\\mods\\RTL_Persian_Support\\Source\\obj\\",
+        "projectPath": "/home/dany/Documents/github/RimWorld-Farsi/mods/RTL_Persian_Support/Source/RTL_Persian_Support.csproj",
+        "packagesPath": "/home/dany/.nuget/packages/",
+        "outputPath": "/home/dany/Documents/github/RimWorld-Farsi/mods/RTL_Persian_Support/Source/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dany\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/dany/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net472"
@@ -32,23 +32,19 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net472": {
           "targetAlias": "net472",
           "dependencies": {
-            "Lib.Harmony.Ref": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[2.2.2-rimworld, )"
+              "version": "[1.0.3, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.311\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.131/RuntimeIdentifierGraph.json"
         }
       }
     }

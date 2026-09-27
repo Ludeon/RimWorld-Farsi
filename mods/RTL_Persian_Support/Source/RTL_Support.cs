@@ -5,6 +5,7 @@ using System.Reflection;
 using HarmonyLib;
 using UnityEngine;
 using Verse;
+using RimWorld;
 
 namespace RTL_Persian
 {
@@ -34,7 +35,7 @@ namespace RTL_Persian
                 return;
             }
 
-            // 2. Initialize Logging (Try Mod Folder, Fallback to Desktop)
+            // 2. Initialize Logging
             InitDebugLog();
             LogFile("RTL_Persian_Support initialized.");
 
@@ -58,34 +59,180 @@ namespace RTL_Persian
             }
         }
 
+        public static void LoadPersianFont()
+        {
+            try
+            {
+                LogFile("Loading Persian font...");
+
+                // Method 1: Try loading IranianSans.ttf directly using Unity's Font path creation
+                string fontPath = Path.Combine(_contentPack.RootDir, "IranianSans.ttf");
+                if (File.Exists(fontPath))
+                {
+                    try
+                    {
+                        MethodInfo createFontFromPath = typeof(Font).GetMethod("Internal_CreateFontFromPath", BindingFlags.NonPublic | BindingFlags.Static);
+                        if (createFontFromPath != null)
+                        {
+                            Font font = new Font();
+                            createFontFromPath.Invoke(null, new object[] { font, fontPath });
+                            PersianFont = font;
+                            LogFile($"Successfully loaded Persian font from TTF at {fontPath}");
+                        }
+                        else
+                        {
+                            LogFile("Internal_CreateFontFromPath method not found on UnityEngine.Font.");
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        LogFile($"Internal_CreateFontFromPath failed: {ex.Message}");
+                    }
+                }
+                else
+                {
+                    LogFile($"IranianSans.ttf not found at {fontPath}");
+                }
+
+                // Method 2: Try loading from AssetBundle if available
+                if (PersianFont == null)
+                {
+                    string bundlePath = Path.Combine(_contentPack.RootDir, "Resources", "persianfont");
+                    if (File.Exists(bundlePath))
+                    {
+                        try
+                        {
+                            AssetBundle bundle = AssetBundle.LoadFromFile(bundlePath);
+                            if (bundle != null)
+                            {
+                                PersianFont = bundle.LoadAllAssets<Font>().FirstOrDefault();
+                                bundle.Unload(false);
+                                LogFile("Persian font loaded from AssetBundle.");
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            LogFile($"AssetBundle load failed: {ex.Message}");
+                        }
+                    }
+                }
+
+                // Method 3: Fallback to OS installed Persian / Arabic fonts
+                if (PersianFont == null)
+                {
+                    try
+                    {
+                        string[] fontCandidates = new string[] { "Iranian Sans", "Tahoma", "Arial", "DejaVu Sans", "Segoe UI" };
+                        PersianFont = Font.CreateDynamicFontFromOSFont(fontCandidates, 16);
+                        if (PersianFont != null)
+                        {
+                            LogFile("Persian font dynamically created from OS fonts fallback.");
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        LogFile($"OS font fallback failed: {ex.Message}");
+                    }
+                }
+
+                if (PersianFont != null)
+                {
+                    LogFile($"Persian font ready: {PersianFont.name}");
+                }
+                else
+                {
+                    Log.Warning("[RTL Support] Could not load any Persian font. UI will use default game font.");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.Error($"[RTL Support] Error loading font: {e.Message}");
+                LogFile($"EXCEPTION while loading font: {e}");
+            }
+        }
+
+        public static void ApplyChanges()
+        {
+            if (GUI.skin == null) return;
+
+            bool isPersian = LanguageDatabase.activeLanguage?.folderName == "Persian";
+            LogFile($"Applying GUI changes. IsPersian: {isPersian}");
+
+            Mod_RTL_Persian_Support mod = LoadedModManager.GetMod<Mod_RTL_Persian_Support>();
+            bool enableFont = mod == null || mod.settings.enablePersianFont;
+            bool enableRTL = mod != null && mod.settings.enableRTLAlignment;
+
+            if (isPersian)
+            {
+                if (enableRTL)
+                {
+                    GUI.skin.label.alignment = TextAnchor.UpperRight;
+                    GUI.skin.button.alignment = TextAnchor.UpperRight;
+                    GUI.skin.textField.alignment = TextAnchor.UpperRight;
+                    GUI.skin.textArea.alignment = TextAnchor.UpperRight;
+                }
+
+                if (enableFont && PersianFont != null)
+                {
+                    if (OriginalFont == null && Text.fontStyles.Length > 0 && Text.fontStyles[0] != null)
+                    {
+                        OriginalFont = Text.fontStyles[0].font;
+                    }
+                    SetGameFont(PersianFont);
+                }
+            }
+            else
+            {
+                GUI.skin.label.alignment = TextAnchor.UpperLeft;
+                GUI.skin.button.alignment = TextAnchor.UpperLeft;
+                GUI.skin.textField.alignment = TextAnchor.UpperLeft;
+                GUI.skin.textArea.alignment = TextAnchor.UpperLeft;
+
+                if (OriginalFont != null)
+                {
+                    SetGameFont(OriginalFont);
+                }
+            }
+        }
+
+        private static void SetGameFont(Font font)
+        {
+            if (font == null) return;
+
+            for (int i = 0; i < Text.fontStyles.Length; i++)
+            {
+                if (Text.fontStyles[i] != null) Text.fontStyles[i].font = font;
+            }
+            for (int i = 0; i < Text.textFieldStyles.Length; i++)
+            {
+                if (Text.textFieldStyles[i] != null) Text.textFieldStyles[i].font = font;
+            }
+            for (int i = 0; i < Text.textAreaStyles.Length; i++)
+            {
+                if (Text.textAreaStyles[i] != null) Text.textAreaStyles[i].font = font;
+            }
+        }
+
         private static void InitDebugLog()
         {
             try
             {
-                // Try creating log in the Mod's root directory
                 _logFilePath = Path.Combine(_contentPack.RootDir, "error.log");
-                
-                // Reset the log file on startup
                 File.WriteAllText(_logFilePath, $"--- RTL Persian Support Error Log ---\nTime: {DateTime.Now}\nVersion: RimWorld 1.6\n\n");
-                
-                // Subscribe to Unity's log event to capture ALL game logs
                 Application.logMessageReceived += HandleLog;
-                
                 Log.Message($"[RTL Support] Logging to: {_logFilePath}");
             }
             catch (UnauthorizedAccessException)
             {
-                // Fallback: If Mod folder is read-only (Program Files), write to Desktop
                 string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
                 _logFilePath = Path.Combine(desktopPath, "RTL_Persian_Error.log");
-
                 try
                 {
                     File.WriteAllText(_logFilePath, $"--- RTL Persian Support Error Log (Fallback) ---\nTime: {DateTime.Now}\n\n");
                     Application.logMessageReceived += HandleLog;
                     Log.Warning($"[RTL Support] Could not write to mod folder. Logging to Desktop instead: {_logFilePath}");
                 }
-                catch { _logFilePath = null; } // Give up if even Desktop fails
+                catch { _logFilePath = null; }
             }
             catch (Exception e)
             {
@@ -96,9 +243,6 @@ namespace RTL_Persian
         private static void HandleLog(string logString, string stackTrace, LogType type)
         {
             if (string.IsNullOrEmpty(_logFilePath)) return;
-
-            // Filter out our own log messages to avoid duplication if we use Log.Message inside LogFile (we don't, but good practice)
-            // Also, we might want to filter out spammy logs if needed, but user asked for "this log", implying the full log.
 
             lock (_logLock)
             {
@@ -113,21 +257,12 @@ namespace RTL_Persian
                         }
                     }
                 }
-                catch
-                {
-                    // Ignore file access errors during logging to prevent crashes
-                }
+                catch { }
             }
         }
 
-        /// <summary>
-        /// Writes a line to the error.log file.
-        /// </summary>
         public static void LogFile(string message)
         {
-            // We can just use the HandleLog mechanism by calling Log.Message, 
-            // BUT if we want to write internal debug info without spamming the in-game console, we write directly.
-            
             if (string.IsNullOrEmpty(_logFilePath)) return;
 
             lock (_logLock)
@@ -174,8 +309,6 @@ namespace RTL_Persian
         [HarmonyPrefix]
         public static void Prefix()
         {
-            // CRITICAL FIX: Manually reset Anchor to UpperLeft without triggering our RTL patch
-            // This prevents the "Alignment was UpperRight at end of frame" error.
             if (Text.Anchor != TextAnchor.UpperLeft)
             {
                 RTL_Support.suppressAnchorPatch = true;
@@ -202,7 +335,6 @@ namespace RTL_Persian
         [HarmonyPrefix]
         public static void Prefix(ref TextAnchor value)
         {
-            // If suppression is active, let the game set UpperLeft normally
             if (RTL_Support.suppressAnchorPatch) return;
 
             if (LanguageDatabase.activeLanguage?.folderName == "Persian")
@@ -212,29 +344,108 @@ namespace RTL_Persian
                 {
                     switch (value)
                     {
-                        // Force Left-Aligned text to be Right-Aligned (RTL style)
                         case TextAnchor.UpperLeft: value = TextAnchor.UpperRight; break;
                         case TextAnchor.MiddleLeft: value = TextAnchor.MiddleRight; break;
                         case TextAnchor.LowerLeft: value = TextAnchor.LowerRight; break;
-
-                        // FIX: Do NOT swap Right-Aligned text to Left.
-                        // Keep it Right-Aligned so it anchors correctly at the screen edge.
-                        case TextAnchor.UpperRight:
-                            // value = TextAnchor.UpperLeft; // REMOVED THIS LINE
-                            break;
-                        case TextAnchor.MiddleRight:
-                            // value = TextAnchor.MiddleLeft; // REMOVED THIS LINE
-                            break;
-                        case TextAnchor.LowerRight:
-                            // value = TextAnchor.LowerLeft; // REMOVED THIS LINE
-                            break;
                     }
                 }
             }
         }
     }
 
-    // --- NEW PATCH: Fix Text Before Drawing ---
+    // Patch 4: Cleanly reset Anchor at frame boundary in UIRoot
+    [HarmonyPatch(typeof(UIRoot), "UIRootOnGUI")]
+    public static class Patch_UIRoot_UIRootOnGUI
+    {
+        [HarmonyPrefix]
+        public static void Prefix()
+        {
+            if (Text.Anchor != TextAnchor.UpperLeft)
+            {
+                RTL_Support.suppressAnchorPatch = true;
+                Text.Anchor = TextAnchor.UpperLeft;
+                RTL_Support.suppressAnchorPatch = false;
+            }
+        }
+
+        [HarmonyPostfix]
+        public static void Postfix()
+        {
+            if (Text.Anchor != TextAnchor.UpperLeft)
+            {
+                RTL_Support.suppressAnchorPatch = true;
+                Text.Anchor = TextAnchor.UpperLeft;
+                RTL_Support.suppressAnchorPatch = false;
+            }
+        }
+    }
+
+    [HarmonyPatch(typeof(UIRoot_Entry), "UIRootOnGUI")]
+    public static class Patch_UIRoot_Entry_UIRootOnGUI
+    {
+        [HarmonyPostfix]
+        public static void Postfix()
+        {
+            if (Text.Anchor != TextAnchor.UpperLeft)
+            {
+                RTL_Support.suppressAnchorPatch = true;
+                Text.Anchor = TextAnchor.UpperLeft;
+                RTL_Support.suppressAnchorPatch = false;
+            }
+        }
+    }
+
+    [HarmonyPatch(typeof(UIRoot_Play), "UIRootOnGUI")]
+    public static class Patch_UIRoot_Play_UIRootOnGUI
+    {
+        [HarmonyPostfix]
+        public static void Postfix()
+        {
+            if (Text.Anchor != TextAnchor.UpperLeft)
+            {
+                RTL_Support.suppressAnchorPatch = true;
+                Text.Anchor = TextAnchor.UpperLeft;
+                RTL_Support.suppressAnchorPatch = false;
+            }
+        }
+    }
+
+    // Patch 5: Layout bounding box and line wrap calculations
+    [HarmonyPatch(typeof(Text), "CalcHeight")]
+    public static class Patch_Text_CalcHeight
+    {
+        [HarmonyPrefix]
+        public static void Prefix(ref string text, float width)
+        {
+            if (LanguageDatabase.activeLanguage?.folderName == "Persian")
+            {
+                Mod_RTL_Persian_Support mod = LoadedModManager.GetMod<Mod_RTL_Persian_Support>();
+                if (mod != null && mod.settings.enablePersianFixer)
+                {
+                    text = PersianFixer.Fix(text);
+                }
+            }
+        }
+    }
+
+    [HarmonyPatch(typeof(Text), "CalcSize")]
+    public static class Patch_Text_CalcSize
+    {
+        [HarmonyPrefix]
+        public static void Prefix(ref string text)
+        {
+            if (LanguageDatabase.activeLanguage?.folderName == "Persian")
+            {
+                Mod_RTL_Persian_Support mod = LoadedModManager.GetMod<Mod_RTL_Persian_Support>();
+                if (mod != null && mod.settings.enablePersianFixer)
+                {
+                    text = PersianFixer.Fix(text);
+                }
+            }
+        }
+    }
+
+    // Patch 6: Fix Text before drawing Widgets.Label
     [HarmonyPatch(typeof(Widgets), "Label", new Type[] { typeof(Rect), typeof(string) })]
     public static class Patch_Widgets_Label
     {
@@ -244,7 +455,7 @@ namespace RTL_Persian
             if (LanguageDatabase.activeLanguage?.folderName == "Persian")
             {
                 Mod_RTL_Persian_Support mod = LoadedModManager.GetMod<Mod_RTL_Persian_Support>();
-                if (mod != null && mod.settings.enablePersianFixer && !label.Contains('{'))
+                if (mod != null && mod.settings.enablePersianFixer)
                 {
                     label = PersianFixer.Fix(label);
                 }
@@ -252,21 +463,21 @@ namespace RTL_Persian
         }
     }
 
-    // Patch buttons as well
+    // Patch 7: Fix Text before drawing Widgets.ButtonText
     [HarmonyPatch(typeof(Widgets), "ButtonText", new Type[] { typeof(Rect), typeof(string), typeof(bool), typeof(bool), typeof(bool), typeof(TextAnchor?) })]
     public static class Patch_Widgets_ButtonText
     {
         [HarmonyPrefix]
         public static void Prefix(ref string label)
         {
-             if (LanguageDatabase.activeLanguage?.folderName == "Persian")
-             {
-                 Mod_RTL_Persian_Support mod = LoadedModManager.GetMod<Mod_RTL_Persian_Support>();
-                 if (mod != null && mod.settings.enablePersianFixer && !label.Contains('{'))
-                 {
-                     label = PersianFixer.Fix(label);
-                 }
-             }
+            if (LanguageDatabase.activeLanguage?.folderName == "Persian")
+            {
+                Mod_RTL_Persian_Support mod = LoadedModManager.GetMod<Mod_RTL_Persian_Support>();
+                if (mod != null && mod.settings.enablePersianFixer)
+                {
+                    label = PersianFixer.Fix(label);
+                }
+            }
         }
     }
 
@@ -274,13 +485,13 @@ namespace RTL_Persian
     public class ModSettings_RTL_Persian_Support : ModSettings
     {
         public bool enablePersianFont = true;
-        public bool enableRTLAlignment = false;
+        public bool enableRTLAlignment = true;
         public bool enablePersianFixer = false;
 
         public override void ExposeData()
         {
             Scribe_Values.Look(ref enablePersianFont, "enablePersianFont", true);
-            Scribe_Values.Look(ref enableRTLAlignment, "enableRTLAlignment", false);
+            Scribe_Values.Look(ref enableRTLAlignment, "enableRTLAlignment", true);
             Scribe_Values.Look(ref enablePersianFixer, "enablePersianFixer", false);
         }
     }
@@ -300,8 +511,8 @@ namespace RTL_Persian
             Listing_Standard listing = new Listing_Standard();
             listing.Begin(inRect);
             listing.CheckboxLabeled("Enable Persian font (default: Enabled)", ref settings.enablePersianFont);
-            listing.CheckboxLabeled("Enable RTL text alignments (default: Disabled)", ref settings.enableRTLAlignment);
-            listing.CheckboxLabeled("Enable Persian text fixing (letter shaping, default: Disabled)", ref settings.enablePersianFixer);
+            listing.CheckboxLabeled("Enable RTL text alignments (default: Enabled)", ref settings.enableRTLAlignment);
+            listing.CheckboxLabeled("Enable Persian text fixing (letter shaping, default: Enabled)", ref settings.enablePersianFixer);
             listing.End();
         }
 
