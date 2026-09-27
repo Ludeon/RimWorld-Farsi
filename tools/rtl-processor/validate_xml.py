@@ -12,12 +12,11 @@ Usage:
 import os
 import sys
 from pathlib import Path
-from typing import List, Tuple
 
 from lxml import etree
 
 
-def validate_xml_file(file_path: str) -> Tuple[bool, str]:
+def validate_xml_file(file_path: str) -> tuple[bool, str]:
     """Validates a single XML file by attempting to parse it.
 
     Returns:
@@ -38,7 +37,7 @@ def validate_xml_file(file_path: str) -> Tuple[bool, str]:
 
 def validate_directory(
     directory_path: str, show_success: bool = False
-) -> Tuple[int, int, List[Tuple[str, str]]]:
+) -> tuple[int, int, list[tuple[str, str]]]:
     """Walks a directory and validates all found .xml files.
 
     Returns:
@@ -66,7 +65,7 @@ def validate_directory(
     return total_files, valid_files, errors
 
 
-def find_persian_directories(base_path: str) -> List[str]:
+def find_persian_directories(base_path: str) -> list[str]:
     """Find all Persian/Farsi language directories in the Data folder."""
     persian_dirs = []
     data_path = Path(base_path) / "Data"

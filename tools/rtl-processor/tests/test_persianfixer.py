@@ -44,7 +44,7 @@ class TestReverseTextAndContextualize:
         if expected is not None:
             assert result == expected
         else:
-            # For Persian text, just ensure it's different and contains expected elements
+            # For Persian text, ensure it differs and contains expected elements
             if any("\u0600" <= c <= "\u06ff" for c in input_text):
                 assert result != input_text
                 assert len(result) > 0
@@ -62,7 +62,7 @@ class TestReverseTextAndContextualize:
         assert len(result.split()) == len(input_text.split())
 
     def test_placeholder_preservation(self):
-        """Test that placeholders are preserved (order may change due to text reversal)."""
+        """Test that placeholders are preserved across text reversal."""
         test_cases = [
             "سلام {0} دنیا",
             "{0}سلام",
@@ -119,7 +119,10 @@ class TestReverseTextAndContextualize:
 
     def test_complex_persian_text(self):
         """Test complex Persian text with various characters."""
-        input_text = "این یک متن پارسی با کاراکترهای مختلف است: أ ب پ ت ث ج چ ح خ د ذ ر ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ه و ی"
+        input_text = (
+            "این یک متن پارسی با کاراکترهای مختلف است: "
+            "أ ب پ ت ث ج چ ح خ د ذ ر ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ه و ی"
+        )
         result = reverse_text_and_contextualize(input_text)
 
         assert result != input_text
@@ -299,7 +302,10 @@ class TestPerformance:
         """Test that processing completes within reasonable time."""
         import time
 
-        test_text = "این یک متن تست برای بررسی عملکرد پردازش متن پارسی است که باید سریع انجام شود."
+        test_text = (
+            "این یک متن تست برای بررسی عملکرد پردازش متن پارسی است که باید سریع "
+            "انجام شود."
+        )
 
         start_time = time.time()
         result = reverse_text_and_contextualize(test_text)

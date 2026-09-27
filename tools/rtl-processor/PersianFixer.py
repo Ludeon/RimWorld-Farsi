@@ -17,7 +17,6 @@ import logging
 import os
 import re
 import sys
-from typing import Dict, Optional
 
 from lxml import etree
 
@@ -28,7 +27,7 @@ logger = logging.getLogger(__name__)
 # --- Constants: Letter Maps and Character Sets ---
 
 # Maps standard letters to their Unicode presentation form start codes.
-LETTER_MAP: Dict[str, int] = {
+LETTER_MAP: dict[str, int] = {
     "ء": 0xFE80,
     "آ": 0xFE81,
     "أ": 0xFE83,
@@ -72,7 +71,7 @@ LETTER_MAP: Dict[str, int] = {
 }
 
 # Maps 'Alef' variants to their combined 'Lam-Alef' ligature codes.
-LAM_ALEF_MAP: Dict[str, int] = {"آ": 0xFEF5, "أ": 0xFEF7, "إ": 0xFEF9, "ا": 0xFEFB}
+LAM_ALEF_MAP: dict[str, int] = {"آ": 0xFEF5, "أ": 0xFEF7, "إ": 0xFEF9, "ا": 0xFEFB}
 
 CONNECTING_LETTERS = "بپتثجچحخسشصضطظعغفقکگلمنهيی"
 NON_CONNECTING_LETTERS = "اأإآدذرزژوؤةى"
@@ -188,7 +187,7 @@ def _contextualize_word(word: str) -> str:
 # --- Contextual Form Helper Functions ---
 
 
-def _create_lam_alef_combo(prev_letter: Optional[str], alef_variant: str) -> str:
+def _create_lam_alef_combo(prev_letter: str | None, alef_variant: str) -> str:
     combo_code = LAM_ALEF_MAP.get(alef_variant)
     if combo_code is None:
         return alef_variant
@@ -204,7 +203,7 @@ def _create_lam_alef_combo(prev_letter: Optional[str], alef_variant: str) -> str
 
 
 def _get_contextual_connecting(
-    letter: str, prev_letter: Optional[str], next_letter: Optional[str]
+    letter: str, prev_letter: str | None, next_letter: str | None
 ) -> str:
     base_code = LETTER_MAP.get(letter)
     if base_code is None:
@@ -230,7 +229,7 @@ def _get_contextual_connecting(
     return chr(base_code)  # Isolated
 
 
-def _get_contextual_non_connecting(letter: str, prev_letter: Optional[str]) -> str:
+def _get_contextual_non_connecting(letter: str, prev_letter: str | None) -> str:
     base_code = LETTER_MAP.get(letter)
     if base_code is None:
         return letter

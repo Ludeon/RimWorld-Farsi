@@ -61,11 +61,11 @@ A typical translation entry looks like this:
 
 The project maintains automated text processors, XML validators, and pre-commit test suites.
 
-### 1. Modern Python Environment (PEP Standards & 2026 Readiness)
-Our tools run on modern Python (**3.12** and **3.13**), designed with **PEP 2026** (Calendar Versioning) forward compatibility:
-- **PEP 8**: Strict code style enforced by `black` and `flake8`.
-- **PEP 518 / PEP 621**: Modern tool configuration maintained in [`tools/rtl-processor/pyproject.toml`](tools/rtl-processor/pyproject.toml).
-- **PEP 484 / PEP 526**: Static type hinting checked strictly with `mypy`.
+### 1. Modern Python Environment (PEP Standards Compliance)
+Our tools run on modern Python (**3.11**, **3.12**, and **3.13**), adhering strictly to modern Python standards:
+- **PEP 8**: Code style and formatting enforced by `black`, `isort`, and `flake8` / `ruff`.
+- **PEP 518 / PEP 621**: Standardized project metadata and build dependencies defined in [`tools/rtl-processor/pyproject.toml`](tools/rtl-processor/pyproject.toml).
+- **PEP 585 / PEP 604 / PEP 484**: Native built-in type hints (`dict`, `list`, `| None`) checked strictly with `mypy`.
 
 ### 2. Setting Up Your Development Environment
 We recommend using [`uv`](https://github.com/astral-sh/uv) (or standard `venv`):

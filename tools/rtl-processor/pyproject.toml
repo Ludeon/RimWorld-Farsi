@@ -2,9 +2,35 @@
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
+[project]
+name = "rimworld-farsi-rtl"
+version = "1.0.0"
+description = "Persian RTL bidirectional text processor and XML validator for RimWorld"
+requires-python = ">=3.10"
+license = {text = "GPL-3.0"}
+authors = [
+    {name = "RimWorld Farsi Team"}
+]
+keywords = ["rimworld", "farsi", "persian", "rtl", "translation"]
+dependencies = [
+    "lxml>=5.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-cov>=4.1.0",
+    "mypy>=1.14.0",
+    "black>=24.0.0",
+    "isort>=5.13.0",
+    "flake8>=7.0.0",
+    "ruff>=0.8.0",
+    "pip-audit>=2.0.0",
+]
+
 [tool.black]
 line-length = 88
-target-version = ['py38', 'py39', 'py310', 'py311', 'py312']
+target-version = ['py310', 'py311', 'py312', 'py313']
 include = '\.pyi?$'
 extend-exclude = '''
 /(
@@ -22,6 +48,22 @@ extend-exclude = '''
 )/
 '''
 
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # isort
+    "UP",  # pyupgrade (modernizes PEP 585, PEP 604)
+    "B",   # flake8-bugbear
+]
+ignore = ["E501"]
+
+
 [tool.isort]
 profile = "black"
 multi_line_output = 3
@@ -30,7 +72,7 @@ known_first_party = ["PersianFixer"]
 known_third_party = ["lxml", "pytest"]
 
 [tool.mypy]
-python_version = "3.10"
+python_version = "3.12"
 follow_imports = "silent"
 ignore_missing_imports = true
 warn_return_any = true

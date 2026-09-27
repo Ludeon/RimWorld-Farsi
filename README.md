@@ -5,7 +5,7 @@
 [![RimWorld Version](https://img.shields.io/badge/RimWorld-1.5%2B-blue.svg?logo=steam)](https://rimworldgame.com/)
 [![Latest Release](https://img.shields.io/github/v/release/Ludeon/RimWorld-Farsi?color=success&logo=github)](https://github.com/Ludeon/RimWorld-Farsi/releases)
 [![CI/CD Pipeline](https://img.shields.io/github/actions/workflow/status/Ludeon/RimWorld-Farsi/persianCorrectionPythonBeta.yml?branch=main&label=CI%2FCD&logo=githubactions)](https://github.com/Ludeon/RimWorld-Farsi/actions)
-[![Python Version](https://img.shields.io/badge/Python-3.12%20%7C%203.13%20%7C%20PEP%202026-3776AB.svg?logo=python&logoColor=white)](https://peps.python.org/pep-2026/)
+[![Python Version](https://img.shields.io/badge/Python-3.11%20%7C%203.12%20%7C%203.13-3776AB.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Type Checked: Mypy](https://img.shields.io/badge/type%20checked-mypy-blue.svg)](https://mypy-lang.org/)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
@@ -111,7 +111,7 @@ To address RimWorld's bidirectional text rendering and XML schema requirements, 
 1. **RTL Text Preprocessor (`tools/rtl-processor/`)**:
    - Python-based text shaping and bidirectional normalization pipeline (`PersianFixer.py`).
    - Automated XML validation and integrity verification (`validate_xml.py`).
-   - Comprehensive test suite under `tools/rtl-processor/tests/` running on Python 3.12–3.13 and ready for **PEP 2026** calendar-versioned Python releases.
+   - Comprehensive test suite under `tools/rtl-processor/tests/` running on Python 3.11–3.13 and strictly adhering to modern PEP standards (PEP 8, PEP 585, PEP 604, PEP 621).
 2. **In-Game Mod Patch (`mods/RTL_Persian_Support/`)**:
    - C# Harmony mod providing runtime text-shaping and font adjustments for complex UI elements.
 3. **CI/CD Quality Gates (`.github/workflows/`)**:
