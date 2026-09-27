@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: acidic smog -->
-  <NoxiousHaze.label>TODO</NoxiousHaze.label>
+  <NoxiousHaze.label>مه دود اسیدی</NoxiousHaze.label>
   <!-- EN:
     <li>tale_noun->acidic smog sweeping over [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->the atmosphere near [PAWN_nameDef]'s [Community] becoming noxious</li>
@@ -18,6 +18,20 @@
     <li>desc_sentence->[Quantity_adjphrase] suffocating [Animal]s lay on the ground.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee.</li>
   -->
-  <NoxiousHaze.rulePack.rulesStrings>TODO</NoxiousHaze.rulePack.rulesStrings>
+  <NoxiousHaze.rulePack.rulesStrings>
+    <li>tale_noun->مه دود اسیدی بر روی [PAWN_nameDef] [Community]</li>
+    <li>tale_noun->جو نزدیک [Community] [PAWN_nameDef] مضر می شود</li>
+    <li>image->یک آسمان شوم، [circumstance_group]</li>
+    <li>image->هوا غلیظ می شود و [circumstance_group]</li>
+    <li>circumstance_phrase->بدون هیچ زندگی در چشم</li>
+    <li>circumstance_phrase->منتظر پاک شدن دود اسیدی هستیم</li>
+    <li>circumstance_phrase->تماشای فرار حیوانات</li>
+    <li>desc_sentence->[PAWN_nameDef] در نزدیکی [TerrainFeature] پنهان می شود و با ظاهر [AdjectiveAngsty] به بیرون خیره می شود.</li>
+    <li>desc_sentence->[PAWN_nameDef] با پارچه‌ای که دور صورت [PAWN_possessive] پیچیده شده به نظر می رسد.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] های مرده روی زمین دراز کشیده بودند.</li>
+    <li>desc_sentence->[Quantity_adjphrase] در حال مرگ [Animal] روی زمین دراز کشیده بود.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] های خفه کننده روی زمین دراز کشیده بودند.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]‌ها فرار می کنند.</li>
+  </NoxiousHaze.rulePack.rulesStrings>
   
 </LanguageData>

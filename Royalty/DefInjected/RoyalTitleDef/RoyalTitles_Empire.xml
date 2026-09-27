@@ -1,61 +1,50 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: acolyte -->
-  <Acolyte.label>TODO</Acolyte.label>
-  <!-- EN: The title of acolyte is the title of senior learners in the psychic cult, and encompasses a wide range of practical positions. Some acolytes are purely students, learning to lead troops, manage societies, or use psycasts in specialized schools. Others come from wealthy families and might own city buildings or farm complexes.\n\nDuring wartime, an acolyte might lead a platoon of troops, captain a small frigate, or serve their liege as an advisor. -->
-  <Acolyte.description>TODO</Acolyte.description>
+  <Acolyte.label>مساعد (آکولیت)</Acolyte.label>
+  <Acolyte.description>عنوان آکولیت برای نوآموزان ارشد در فرقه روانی به کار می‌رود و طیف گسترده‌ای از موقعیت‌های کاربردی را در بر می‌گیرد. برخی آکولیت‌ها کاملاً دانشجو هستند و هدایت نیروها، اداره جوامع یا استفاده از سای‌کست‌ها را در مدارس تخصصی می‌آموزند. برخی دیگر از خانواده‌های ثروتمند هستند و ممکن است مالک ساختمان‌های شهری یا مجتمع‌های کشاورزی باشند.\n\nدر زمان جنگ، یک آکولیت ممکن است دسته‌ای از نیروها را هدایت کند، کاپیتان یک ناوچه کوچک باشد یا به عنوان مشاور به لرد خود خدمت کند.</Acolyte.description>
   
   <!-- EN: baron -->
-  <Baron.label>TODO</Baron.label>
-  <!-- EN: The title of baron is the lowest of the psychic lords who can act as a semi-independent ruler. Most barons are subordinate to a higher lord. The baron is obliged to provide both personal service as a warrior or advisor, and economic support like money and troops.\n\nIn the Empire, a baron will typically own a city sector, mining colony, or similar outfit. At wartime, a baron may captain a capital ship in name, or control a regiment of soldiers. -->
-  <Baron.description>TODO</Baron.description>
+  <Baron.label>بارون</Baron.label>
+  <Baron.description>عنوان بارون پایین‌ترین رتبه از لردهای روانی است که می‌تواند به عنوان یک حاکم نیمه‌مستقل عمل کند. اکثر بارون‌ها تابع یک لرد والامقام هستند. بارون موظف است هم خدمت شخصی به عنوان جنگجو یا مشاور ارائه دهد و هم حمایت اقتصادی مانند پول و نیرو فراهم کند.\n\nدر امپراتوری، یک بارون معمولاً مالک یک بخش شهری، کلونی معدنی یا مجموعه‌ای مشابه است. در زمان جنگ، بارون ممکن است اسماً کاپیتان یک کشتی جنگی اصلی باشد یا یک هنگ سرباز را کنترل کند.</Baron.description>
   
   <!-- EN: consul -->
-  <Consul.label>TODO</Consul.label>
-  <!-- EN: The Imperial title of consul is a lower level of high nobility.\n\nIn the Empire, consuls control planets. At war, a consul can usually field an army-sized force of multiple divisions, supported by several fleets. Some command from a super-capital ship or control space-based megastructures. -->
-  <Consul.description>TODO</Consul.description>
+  <Consul.label>کنسول</Consul.label>
+  <Consul.description>عنوان امپراتوری کنسول رتبه‌ای پایین‌تر از اشراف والامقام است.\n\nدر امپراتوری، کنسول‌ها سیارات را کنترل می‌کنند. در جنگ، یک کنسول معمولاً می‌تواند ارتشی متشکل از چندین لشکر را که توسط چندین ناوگان پشتیبانی می‌شوند به میدان بفرستد. برخی از یک سوپرکشتی جنگی فرماندهی می‌کنند یا ابرسازه‌های مستقر در فضا را کنترل می‌نمایند.</Consul.description>
   
   <!-- EN: archon -->
-  <Count.label>TODO</Count.label>
-  <!-- EN: The title of archon is middle rank among the independent members of the psychic cult.\n\nIn peacetime, an archon may rule to a city or colony. A successful archon might have a small personal fleet, possibly including capital ships. -->
-  <Count.description>TODO</Count.description>
+  <Count.label>کنت (آرکون)</Count.label>
+  <Count.description>عنوان آرکون رتبه‌ای میانی در میان اعضای مستقل فرقه روانی است.\n\nدر زمان صلح، یک آرکون ممکن است بر یک شهر یا کلونی حکومت کند. یک آرکون موفق ممکن است یک ناوگان شخصی کوچک، از جمله کشتی‌های جنگی اصلی داشته باشد.</Count.description>
   
   <!-- EN: dominus -->
-  <Duke.label>TODO</Duke.label>
-  <!-- EN: The Imperial title of dominus is the highest of the middle-ranked independent rulers.\n\nIn the Empire, domini control provinces, mega-cities, or moons. At war, a dominus can field a division-level force, or a fleet with capital ships and dozens of support craft. -->
-  <Duke.description>TODO</Duke.description>
+  <Duke.label>دوک (دومینوس)</Duke.label>
+  <Duke.description>عنوان امپراتوری دومینوس بالاترین رتبه در میان حاکمان مستقل رده متوسط است.\n\nدر امپراتوری، دومینی‌ها استان‌ها، مگاشهرها یا قمرها را کنترل می‌کنند. در جنگ، دومینوس می‌تواند نیرویی در سطح لشکر یا ناوگانی با کشتی‌های پایتخت و ده‌ها شناور پشتیبانی را به میدان بفرستد.</Duke.description>
   
   <!-- EN: emperor -->
-  <Emperor.label>TODO</Emperor.label>
-  <!-- EN: The Imperial title of emperor indicates sovereign dominion over the entire Empire, all its peoples, planets, and fleets. All other lords swear fealty to a high lord, while the Emperor swears fealty to no one. However, even the Emperor depends on the support of lower nobles to remain in power. -->
-  <Emperor.description>TODO</Emperor.description>
+  <Emperor.label>امپراتور</Emperor.label>
+  <Emperor.description>عنوان امپراتور نشان‌دهنده حاکمیت مطلق بر کل امپراتوری، تمام مردمان، سیارات و ناوگان‌های آن است. همه لردها با یک لرد والامقام بیعت می‌کنند، در حالی که امپراتور با هیچ‌کس بیعت نمی‌کند. با این حال، حتی امپراتور برای ماندن در قدرت به حمایت اشراف رده‌پایین وابسته است.</Emperor.description>
   <!-- EN: empress -->
-  <Emperor.labelFemale>TODO</Emperor.labelFemale>
+  <Emperor.labelFemale>ملکه (امپراتریس)</Emperor.labelFemale>
   
   <!-- EN: freeholder -->
-  <Freeholder.label>TODO</Freeholder.label>
-  <!-- EN: The Imperial title of freeholder is used by the Empire to signifies a fully-respected individual. Most Imperial citizens earn it while young through volunteer work or military service. The title is also offered to outsiders who act with honor in the eyes of the Empire. -->
-  <Freeholder.description>TODO</Freeholder.description>
+  <Freeholder.label>شهروند آزاد</Freeholder.label>
+  <Freeholder.description>عنوان فری‌هولدر توسط امپراتوری برای نشان دادن یک فرد کاملاً محترم استفاده می‌شود. اکثر شهروندان امپراتوری در جوانی از طریق کارهای داوطلبانه یا خدمت نظامی آن را به دست می‌آورند. این عنوان همچنین به افراد بیگانه‌ای که از نگاه امپراتوری با شرافت رفتار می‌کنند اعطا می‌شود.</Freeholder.description>
   
   <!-- EN: knight -->
-  <Knight.label>TODO</Knight.label>
-  <!-- EN: The title of knight is held by agents of the psychic cult who have fully passed their training, but who have not ascended to higher leadership roles. Many knights never advance further, and spend their lives as respected warriors, advisors, or commanders.\n\nIn war, some knights lead troop companies and assault squadrons, while psychic-focused knights engage in espionage, sabotage, and battlefield psychic combat. -->
-  <Knight.description>TODO</Knight.description>
+  <Knight.label>شوالیه</Knight.label>
+  <Knight.description>عنوان شوالیه در اختیار مأموران فرقه روانی است که آموزش‌های خود را به طور کامل پشت سر گذاشته‌اند اما هنوز به نقش‌های رهبری بالاتر صعود نکرده‌اند. بسیاری از شوالیه‌ها هرگز بالاتر نمی‌روند و زندگی خود را به عنوان جنگجویان، مشاوران یا فرماندهان محترم سپری می‌کنند.\n\nدر جنگ، برخی شوالیه‌ها گروهان‌های نظامی و اسکادران‌های تهاجمی را رهبری می‌کنند، در حالی که شوالیه‌های متمرکز بر قدرت‌های روانی در جاسوسی، خرابکاری و نبرد روانی در میدان نبرد شرکت می‌کنند.</Knight.description>
   
   <!-- EN: praetor -->
-  <Praetor.label>TODO</Praetor.label>
-  <!-- EN: The title of praetor denotes a member of the psychic cult who carries out field missions in a more senior role than a mere knight. Praetors often act alone, but may also command knights and lower members.\n\nDuring peacetime, a praetor will usually manage a city district, asteroid sector, or agricultural region. During war, they take authority over the smallest independent combat units - terrestrial troop cohorts, or space-borne destroyers or combat groups. -->
-  <Praetor.description>TODO</Praetor.description>
+  <Praetor.label>پرایتور</Praetor.label>
+  <Praetor.description>عنوان پرایتور نشان‌دهنده عضوی از فرقه روانی است که مأموریت‌های میدانی را در نقشی ارشدتر از یک شوالیه صرف انجام می‌دهد. پرایتورها اغلب به تنهایی عمل می‌کنند، اما ممکن است فرماندهی شوالیه‌ها و اعضای رده‌پایین‌تر را نیز بر عهده داشته باشند.\n\nدر زمان صلح، یک پرایتور معمولاً یک منطقه شهری، بخش سیارکی یا ناحیه کشاورزی را مدیریت می‌کند. در طول جنگ، آن‌ها فرماندهی کوچک‌ترین واحدهای رزمی مستقل را به دست می‌گیرند.</Praetor.description>
   
   <!-- EN: stellarch -->
-  <Stellarch.label>TODO</Stellarch.label>
-  <!-- EN: The Imperial title of stellarch represents dominion over an entire star system.\n\nIn the Empire, since interstellar travel times are years long, stellarchs rule their systems with a great degree of independence. They each swear fealty to the Emperor, but since the Emperor may be many light-years away, a stellarch may go years or decades without interacting with him. -->
-  <Stellarch.description>TODO</Stellarch.description>
+  <Stellarch.label>استلارش (حاکم سامانه ستاره‌ای)</Stellarch.label>
+  <Stellarch.description>عنوان امپراتوری استلارش نشان‌دهنده تسلط بر یک سامانه ستاره‌ای کامل است.\n\nدر امپراتوری، از آنجا که زمان سفرهای میان‌ستاره‌ای سال‌ها طول می‌کشد، استلارش‌ها سامانه‌های خود را با درجه بالایی از استقلال اداره می‌کنند. هر کدام به امپراتور سوگند وفاداری یاد می‌کنند، اما از آنجا که امپراتور ممکن است سال‌های نوری دورتر باشد، یک استلارش ممکن است سال‌ها یا دهه‌ها بدون تماس با او سر کند.</Stellarch.description>
   
   <!-- EN: novice -->
-  <Yeoman.label>TODO</Yeoman.label>
-  <!-- EN: The Imperial title of novice is held by those who have recently been initiated into the ranks of the psychic cult. It gives the holder the right to use low-level psychic abilities as part of their learning.\n\nThis title is often held by senior soldiers, warskiff pilots, spies, advisors, diplomats, intrusion operatives, and other key individuals. Many important people spend their entire lives as novices. -->
-  <Yeoman.description>TODO</Yeoman.description>
+  <Yeoman.label>تازه وارد (نوویس)</Yeoman.label>
+  <Yeoman.description>عنوان امپراتوری نوویس در اختیار کسانی است که به تازگی به صفوف فرقه روانی وارد شده‌اند. این عنوان به دارنده‌اش حق استفاده از توانایی‌های روانی سطح پایین را به عنوان بخشی از آموزش می‌دهد.\n\nاین عنوان اغلب در اختیار سربازان ارشد، خلبانان، جاسوسان، مشاوران، دیپلمات‌ها و سایر افراد کلیدی است.</Yeoman.description>
   
 </LanguageData>

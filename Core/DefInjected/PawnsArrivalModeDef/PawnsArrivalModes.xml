@@ -2,69 +2,69 @@
 <LanguageData>
   
   <!-- EN: A group of {0} from {1} have dropped in right on top of you! -->
-  <CenterDrop.textEnemy>TODO</CenterDrop.textEnemy>
+  <CenterDrop.textEnemy>A group of {0} from {1} have dropped in right on top of you!</CenterDrop.textEnemy>
   <!-- EN: A group of friendly {0} from {1} have dropped in right on top of you! -->
-  <CenterDrop.textFriendly>TODO</CenterDrop.textFriendly>
+  <CenterDrop.textFriendly>A group of friendly {0} from {1} have dropped in right on top of you!</CenterDrop.textFriendly>
   <!-- EN: {0_pawnsPluralDef} will arrive in transport pods right on top of you. -->
-  <CenterDrop.textWillArrive>TODO</CenterDrop.textWillArrive>
+  <CenterDrop.textWillArrive>{0_pawnsPluralDef} will arrive in transport pods right on top of you.</CenterDrop.textWillArrive>
   
   <!-- EN: A group of {0} from {1} have arrived in transport pods nearby. -->
-  <EdgeDrop.textEnemy>TODO</EdgeDrop.textEnemy>
+  <EdgeDrop.textEnemy>A group of {0} from {1} have arrived in transport pods nearby.</EdgeDrop.textEnemy>
   <!-- EN: A group of friendly {0} from {1} have arrived in transport pods nearby. -->
-  <EdgeDrop.textFriendly>TODO</EdgeDrop.textFriendly>
+  <EdgeDrop.textFriendly>A group of friendly {0} from {1} have arrived in transport pods nearby.</EdgeDrop.textFriendly>
   <!-- EN: {0_pawnsPluralDef} will arrive in transport pods. -->
-  <EdgeDrop.textWillArrive>TODO</EdgeDrop.textWillArrive>
+  <EdgeDrop.textWillArrive>{0_pawnsPluralDef} will arrive in transport pods.</EdgeDrop.textWillArrive>
   
   <!-- EN: Several separate groups of {0} from {1} have arrived in transport pods nearby. -->
-  <EdgeDropGroups.textEnemy>TODO</EdgeDropGroups.textEnemy>
+  <EdgeDropGroups.textEnemy>Several separate groups of {0} from {1} have arrived in transport pods nearby.</EdgeDropGroups.textEnemy>
   <!-- EN: Several separate groups of friendly {0} from {1} have arrived in transport pods nearby. -->
-  <EdgeDropGroups.textFriendly>TODO</EdgeDropGroups.textFriendly>
+  <EdgeDropGroups.textFriendly>Several separate groups of friendly {0} from {1} have arrived in transport pods nearby.</EdgeDropGroups.textFriendly>
   <!-- EN: Several separate groups of {0_pawnsPluralDef} will arrive in transport pods. -->
-  <EdgeDropGroups.textWillArrive>TODO</EdgeDropGroups.textWillArrive>
+  <EdgeDropGroups.textWillArrive>Several separate groups of {0_pawnsPluralDef} will arrive in transport pods.</EdgeDropGroups.textWillArrive>
   
   <!-- EN: A group of {0} from {1} have arrived nearby. -->
-  <EdgeWalkIn.textEnemy>TODO</EdgeWalkIn.textEnemy>
+  <EdgeWalkIn.textEnemy>A group of {0} from {1} have arrived nearby.</EdgeWalkIn.textEnemy>
   <!-- EN: A group of friendly {0} from {1} have arrived nearby. -->
-  <EdgeWalkIn.textFriendly>TODO</EdgeWalkIn.textFriendly>
+  <EdgeWalkIn.textFriendly>A group of friendly {0} from {1} have arrived nearby.</EdgeWalkIn.textFriendly>
   <!-- EN: {0_pawnsPluralDef} will arrive on foot. -->
-  <EdgeWalkIn.textWillArrive>TODO</EdgeWalkIn.textWillArrive>
+  <EdgeWalkIn.textWillArrive>{0_pawnsPluralDef} will arrive on foot.</EdgeWalkIn.textWillArrive>
   
   <!-- EN: A group of {0} from {1} have arrived from every direction. -->
-  <EdgeWalkInDistributed.textEnemy>TODO</EdgeWalkInDistributed.textEnemy>
+  <EdgeWalkInDistributed.textEnemy>A group of {0} from {1} have arrived from every direction.</EdgeWalkInDistributed.textEnemy>
   <!-- EN: A group of friendly {0} from {1} have arrived from every direction. -->
-  <EdgeWalkInDistributed.textFriendly>TODO</EdgeWalkInDistributed.textFriendly>
+  <EdgeWalkInDistributed.textFriendly>A group of friendly {0} from {1} have arrived from every direction.</EdgeWalkInDistributed.textFriendly>
   <!-- EN: {0_pawnsPluralDef} will arrive on foot from every direction. -->
-  <EdgeWalkInDistributed.textWillArrive>TODO</EdgeWalkInDistributed.textWillArrive>
+  <EdgeWalkInDistributed.textWillArrive>{0_pawnsPluralDef} will arrive on foot from every direction.</EdgeWalkInDistributed.textWillArrive>
   
   <!-- EN: {0} from {1} have arrived nearby, approaching from multiple angles. -->
-  <EdgeWalkInGroups.textEnemy>TODO</EdgeWalkInGroups.textEnemy>
+  <EdgeWalkInGroups.textEnemy>{0} from {1} have arrived nearby, approaching from multiple angles.</EdgeWalkInGroups.textEnemy>
   <!-- EN: Friendly {0} from {1} have arrived nearby, approaching from multiple angles. -->
-  <EdgeWalkInGroups.textFriendly>TODO</EdgeWalkInGroups.textFriendly>
+  <EdgeWalkInGroups.textFriendly>Friendly {0} from {1} have arrived nearby, approaching from multiple angles.</EdgeWalkInGroups.textFriendly>
   <!-- EN: {0_pawnsPluralDef} will arrive on foot, approaching from several angles at once. -->
-  <EdgeWalkInGroups.textWillArrive>TODO</EdgeWalkInGroups.textWillArrive>
+  <EdgeWalkInGroups.textWillArrive>{0_pawnsPluralDef} will arrive on foot, approaching from several angles at once.</EdgeWalkInGroups.textWillArrive>
   
   <!-- EN: Several {0} are emerging from the water. -->
-  <EmergeFromWater.textEnemy>TODO</EmergeFromWater.textEnemy>
+  <EmergeFromWater.textEnemy>Several {0} are emerging from the water.</EmergeFromWater.textEnemy>
   <!-- EN: {0_pawnsPluralDef} will emerge from the water. -->
-  <EmergeFromWater.textWillArrive>TODO</EmergeFromWater.textWillArrive>
+  <EmergeFromWater.textWillArrive>{0_pawnsPluralDef} will emerge from the water.</EmergeFromWater.textWillArrive>
   
   <!-- EN: A cluster of {0} have landed in drop pods nearby. -->
-  <MechClusterDrop.textEnemy>TODO</MechClusterDrop.textEnemy>
+  <MechClusterDrop.textEnemy>A cluster of {0} have landed in drop pods nearby.</MechClusterDrop.textEnemy>
   <!-- EN: The mech cluster will arrive in drop pods. -->
-  <MechClusterDrop.textWillArrive>TODO</MechClusterDrop.textWillArrive>
+  <MechClusterDrop.textWillArrive>The mech cluster will arrive in drop pods.</MechClusterDrop.textWillArrive>
   
   <!-- EN: A group of {0} from {1} have arrived in transport pods. Their pods went haywire and are landing scattered all over the area! -->
-  <RandomDrop.textEnemy>TODO</RandomDrop.textEnemy>
+  <RandomDrop.textEnemy>A group of {0} from {1} have arrived in transport pods. Their pods went haywire and are landing scattered all over the area!</RandomDrop.textEnemy>
   <!-- EN: A group of friendly {0} from {1} have arrived in transport pods. Their pods went haywire and are landing scattered all over the area! -->
-  <RandomDrop.textFriendly>TODO</RandomDrop.textFriendly>
+  <RandomDrop.textFriendly>A group of friendly {0} from {1} have arrived in transport pods. Their pods went haywire and are landing scattered all over the area!</RandomDrop.textFriendly>
   <!-- EN: {0_pawnsPluralDef} will arrive in transport pods. -->
-  <RandomDrop.textWillArrive>TODO</RandomDrop.textWillArrive>
+  <RandomDrop.textWillArrive>{0_pawnsPluralDef} will arrive in transport pods.</RandomDrop.textWillArrive>
   
   <!-- EN: A group of {0} from {1} have arrived in transport pods nearby. -->
-  <SpecificDropDebug.textEnemy>TODO</SpecificDropDebug.textEnemy>
+  <SpecificDropDebug.textEnemy>A group of {0} from {1} have arrived in transport pods nearby.</SpecificDropDebug.textEnemy>
   <!-- EN: A group of friendly {0} from {1} have arrived in transport pods nearby. -->
-  <SpecificDropDebug.textFriendly>TODO</SpecificDropDebug.textFriendly>
+  <SpecificDropDebug.textFriendly>A group of friendly {0} from {1} have arrived in transport pods nearby.</SpecificDropDebug.textFriendly>
   <!-- EN: {0_pawnsPluralDef} will arrive in transport pods. -->
-  <SpecificDropDebug.textWillArrive>TODO</SpecificDropDebug.textWillArrive>
+  <SpecificDropDebug.textWillArrive>{0_pawnsPluralDef} will arrive in transport pods.</SpecificDropDebug.textWillArrive>
   
 </LanguageData>

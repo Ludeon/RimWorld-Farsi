@@ -6,7 +6,11 @@
     <li>discoveryDesc(discovered==false)->learned</li>
     <li>discoveryDesc(discovered==true)->determined the location</li>
   -->
-  <OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>TODO</OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
+  <OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
+    <li>questDescription->شما [discoveryDesc] از یک مجموعه باستانی در این نزدیکی دارید که حاوی بقایای یک مکانیک که مدت‌هاست مرده است.\n\nمکانیتورها می‌توانند مکانیزم‌ها را برای کار و مبارزه ایجاد، کنترل و دستکاری کنند. اگر بتوانید به داخل مجتمع نفوذ کنید و جسد مکانیتور را جمع آوری کنید، می توانید پیوند مکانیکی آنها را استخراج کنید و یکی از مستعمره نشینان خود را به مکانیک تبدیل کنید.\n\nهشدار باشید - این نوع سازه‌ها می توانند حاوی انواع تهدید باشند و فعالیت شما در مجتمع ممکن است توجه ناخواسته‌ای را به خود جلب کند.</li>
+    <li>discoveryDesc(discovered==false)->یاد گرفت</li>
+    <li>discoveryDesc(discovered==true)->مکان را تعیین کرد</li>
+  </OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(p=3)->[complexAdj] mechanitor [complex]</li>
     <li>questName->mechanitor [complex]</li>
@@ -25,6 +29,23 @@
     <li>complex->mechplex</li>
     <li>complex->mechsite</li>
   -->
-  <OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>TODO</OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
+  <OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
+    <li>questName(p=3)->مکانیک [complexAdj] [complex]</li>
+    <li>questName->مکانیک [complex]</li>
+    <li>complexAdj->راز</li>
+    <li>complexAdj->باستانی</li>
+    <li>complexAdj->قدیمی</li>
+    <li>complexAdj->پنهان شده است</li>
+    <li>complexAdj->گرد و خاکی</li>
+    <li>complexAdj->خطرناک</li>
+    <li>complexAdj->پنهان شده است</li>
+    <li>complex->مجتمع</li>
+    <li>complex->لانه</li>
+    <li>complex->پایه</li>
+    <li>complex->مرکب</li>
+    <li>complex->دخمه</li>
+    <li>complex->mechplex</li>
+    <li>complex->mechsite</li>
+  </OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
   
 </LanguageData>

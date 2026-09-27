@@ -2,100 +2,100 @@
 <LanguageData>
   
   <!-- EN: animal gather speed -->
-  <AnimalGatherSpeed.label>TODO</AnimalGatherSpeed.label>
+  <AnimalGatherSpeed.label>animal gather speed</AnimalGatherSpeed.label>
   <!-- EN: The speed at which this person milks, shears, and otherwise gathers resources from animals. -->
-  <AnimalGatherSpeed.description>TODO</AnimalGatherSpeed.description>
+  <AnimalGatherSpeed.description>The speed at which this person milks, shears, and otherwise gathers resources from animals.</AnimalGatherSpeed.description>
   
   <!-- EN: animal gather yield -->
-  <AnimalGatherYield.label>TODO</AnimalGatherYield.label>
+  <AnimalGatherYield.label>animal gather yield</AnimalGatherYield.label>
   <!-- EN: The percentage yield someone receives when they shear, milk, or otherwise gather resources from a living animal.\n\nHigher percentages reduce the chance of wasting the product. -->
-  <AnimalGatherYield.description>TODO</AnimalGatherYield.description>
+  <AnimalGatherYield.description>The percentage yield someone receives when they shear, milk, or otherwise gather resources from a living animal.\n\nHigher percentages reduce the chance of wasting the product.</AnimalGatherYield.description>
   
   <!-- EN: cleaning speed multiplier -->
-  <CleaningSpeed.label>TODO</CleaningSpeed.label>
+  <CleaningSpeed.label>cleaning speed multiplier</CleaningSpeed.label>
   <!-- EN: A multiplier on how fast this cleans up filth from the ground. -->
-  <CleaningSpeed.description>TODO</CleaningSpeed.description>
+  <CleaningSpeed.description>A multiplier on how fast this cleans up filth from the ground.</CleaningSpeed.description>
   
   <!-- EN: construction speed -->
-  <ConstructionSpeed.label>TODO</ConstructionSpeed.label>
+  <ConstructionSpeed.label>construction speed</ConstructionSpeed.label>
   <!-- EN: The speed at which this person constructs and repairs buildings. -->
-  <ConstructionSpeed.description>TODO</ConstructionSpeed.description>
+  <ConstructionSpeed.description>The speed at which this person constructs and repairs buildings.</ConstructionSpeed.description>
   
   <!-- EN: construct success chance -->
-  <ConstructSuccessChance.label>TODO</ConstructSuccessChance.label>
+  <ConstructSuccessChance.label>construct success chance</ConstructSuccessChance.label>
   <!-- EN: The chance that this person will succeed in constructing something.\nFailing means wasting time and resources. -->
-  <ConstructSuccessChance.description>TODO</ConstructSuccessChance.description>
+  <ConstructSuccessChance.description>The chance that this person will succeed in constructing something.\nFailing means wasting time and resources.</ConstructSuccessChance.description>
   
   <!-- EN: deep drilling speed -->
-  <DeepDrillingSpeed.label>TODO</DeepDrillingSpeed.label>
+  <DeepDrillingSpeed.label>deep drilling speed</DeepDrillingSpeed.label>
   <!-- EN: A speed at which this person uses a deep drill to extract underground resources. -->
-  <DeepDrillingSpeed.description>TODO</DeepDrillingSpeed.description>
+  <DeepDrillingSpeed.description>A speed at which this person uses a deep drill to extract underground resources.</DeepDrillingSpeed.description>
   
   <!-- EN: drug crop harvest yield -->
-  <DrugHarvestYield.label>TODO</DrugHarvestYield.label>
+  <DrugHarvestYield.label>drug crop harvest yield</DrugHarvestYield.label>
   <!-- EN: The yield this person gets when harvesting drug crops.\n\nLow yields give a chance that this person will accidentally waste the harvest. High yields increase the yield from each plant. -->
-  <DrugHarvestYield.description>TODO</DrugHarvestYield.description>
+  <DrugHarvestYield.description>The yield this person gets when harvesting drug crops.\n\nLow yields give a chance that this person will accidentally waste the harvest. High yields increase the yield from each plant.</DrugHarvestYield.description>
   
   <!-- EN: repair success chance -->
-  <FixBrokenDownBuildingSuccessChance.label>TODO</FixBrokenDownBuildingSuccessChance.label>
+  <FixBrokenDownBuildingSuccessChance.label>repair success chance</FixBrokenDownBuildingSuccessChance.label>
   <!-- EN: The chance that this person will successfully repair a broken down building using a component.\n\nFailing means wasting time and resources.\nNote that this only applies to repairing breakdowns, which is different from repairing damage. -->
-  <FixBrokenDownBuildingSuccessChance.description>TODO</FixBrokenDownBuildingSuccessChance.description>
+  <FixBrokenDownBuildingSuccessChance.description>The chance that this person will successfully repair a broken down building using a component.\n\nFailing means wasting time and resources.\nNote that this only applies to repairing breakdowns, which is different from repairing damage.</FixBrokenDownBuildingSuccessChance.description>
   
   <!-- EN: hacking speed -->
-  <HackingSpeed.label>TODO</HackingSpeed.label>
+  <HackingSpeed.label>hacking speed</HackingSpeed.label>
   <!-- EN: How fast this person can hack into computer terminals. -->
-  <HackingSpeed.description>TODO</HackingSpeed.description>
+  <HackingSpeed.description>How fast this person can hack into computer terminals.</HackingSpeed.description>
   
   <!-- EN: hacking stealth -->
-  <HackingStealth.label>TODO</HackingStealth.label>
+  <HackingStealth.label>hacking stealth</HackingStealth.label>
   <!-- EN: How much hacking progress can be made on average before this person is temporarily locked out of a computer system. Only certain systems are capable of detecting hacking. -->
-  <HackingStealth.description>TODO</HackingStealth.description>
+  <HackingStealth.description>How much hacking progress can be made on average before this person is temporarily locked out of a computer system. Only certain systems are capable of detecting hacking.</HackingStealth.description>
   
   <!-- EN: hunting stealth -->
-  <HuntingStealth.label>TODO</HuntingStealth.label>
+  <HuntingStealth.label>hunting stealth</HuntingStealth.label>
   <!-- EN: This stat reduces the chance of hunted animals attacking the hunter.\n\nA 0% score means no reduction.\nA 100% score means animals never attack. -->
-  <HuntingStealth.description>TODO</HuntingStealth.description>
+  <HuntingStealth.description>This stat reduces the chance of hunted animals attacking the hunter.\n\nA 0% score means no reduction.\nA 100% score means animals never attack.</HuntingStealth.description>
   
   <!-- EN: mining speed -->
-  <MiningSpeed.label>TODO</MiningSpeed.label>
+  <MiningSpeed.label>mining speed</MiningSpeed.label>
   <!-- EN: A speed at which this person mines away walls. -->
-  <MiningSpeed.description>TODO</MiningSpeed.description>
+  <MiningSpeed.description>A speed at which this person mines away walls.</MiningSpeed.description>
   
   <!-- EN: mining yield -->
-  <MiningYield.label>TODO</MiningYield.label>
+  <MiningYield.label>mining yield</MiningYield.label>
   <!-- EN: The percentage of mined resources a miner will produce.\n\nThis applies to both wall mining and deep drill mining.\nThis doesn't affect the production rate of rock chunks from deep drills. -->
-  <MiningYield.description>TODO</MiningYield.description>
+  <MiningYield.description>The percentage of mined resources a miner will produce.\n\nThis applies to both wall mining and deep drill mining.\nThis doesn't affect the production rate of rock chunks from deep drills.</MiningYield.description>
   
   <!-- EN: plant harvest yield -->
-  <PlantHarvestYield.label>TODO</PlantHarvestYield.label>
+  <PlantHarvestYield.label>plant harvest yield</PlantHarvestYield.label>
   <!-- EN: The yield this person gets when harvesting plants.\n\nLow yields give a chance that this person will accidentally waste the harvest. -->
-  <PlantHarvestYield.description>TODO</PlantHarvestYield.description>
+  <PlantHarvestYield.description>The yield this person gets when harvesting plants.\n\nLow yields give a chance that this person will accidentally waste the harvest.</PlantHarvestYield.description>
   
   <!-- EN: plant work speed -->
-  <PlantWorkSpeed.label>TODO</PlantWorkSpeed.label>
+  <PlantWorkSpeed.label>plant work speed</PlantWorkSpeed.label>
   <!-- EN: The speed at which this person sows and harvests plants. -->
-  <PlantWorkSpeed.description>TODO</PlantWorkSpeed.description>
+  <PlantWorkSpeed.description>The speed at which this person sows and harvests plants.</PlantWorkSpeed.description>
   
   <!-- EN: reading speed -->
-  <ReadingSpeed.label>TODO</ReadingSpeed.label>
+  <ReadingSpeed.label>reading speed</ReadingSpeed.label>
   <!-- EN: A multiplier on how fast this person can read. -->
-  <ReadingSpeed.description>TODO</ReadingSpeed.description>
+  <ReadingSpeed.description>A multiplier on how fast this person can read.</ReadingSpeed.description>
   
   <!-- EN: research speed -->
-  <ResearchSpeed.label>TODO</ResearchSpeed.label>
+  <ResearchSpeed.label>research speed</ResearchSpeed.label>
   <!-- EN: How fast this person performs research and how quickly they can find things using scanning equipment. -->
-  <ResearchSpeed.description>TODO</ResearchSpeed.description>
+  <ResearchSpeed.description>How fast this person performs research and how quickly they can find things using scanning equipment.</ResearchSpeed.description>
   
   <!-- EN: smoothing speed -->
-  <SmoothingSpeed.label>TODO</SmoothingSpeed.label>
+  <SmoothingSpeed.label>smoothing speed</SmoothingSpeed.label>
   <!-- EN: A multiplier on the speed at which this person smooths rough stone floors and walls. -->
-  <SmoothingSpeed.description>TODO</SmoothingSpeed.description>
+  <SmoothingSpeed.description>A multiplier on the speed at which this person smooths rough stone floors and walls.</SmoothingSpeed.description>
   
   <!-- EN: global work speed -->
-  <WorkSpeedGlobal.label>TODO</WorkSpeedGlobal.label>
+  <WorkSpeedGlobal.label>global work speed</WorkSpeedGlobal.label>
   <!-- EN: A multiplier on a character's speed at doing any kind of work. -->
-  <WorkSpeedGlobal.description>TODO</WorkSpeedGlobal.description>
+  <WorkSpeedGlobal.description>A multiplier on a character's speed at doing any kind of work.</WorkSpeedGlobal.description>
   <!-- EN: Offset from mechanitor -->
-  <WorkSpeedGlobal.parts.2.label>TODO</WorkSpeedGlobal.parts.2.label>
+  <WorkSpeedGlobal.parts.2.label>Offset from mechanitor</WorkSpeedGlobal.parts.2.label>
   
 </LanguageData>

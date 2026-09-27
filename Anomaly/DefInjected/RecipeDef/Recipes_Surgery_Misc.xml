@@ -1,25 +1,29 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: bliss lobotomy -->
-  <BlissLobotomy.label>TODO</BlissLobotomy.label>
+  <BlissLobotomy.label>لوبوتومی سرخوشی</BlissLobotomy.label>
   <!-- EN: Remove part of a person's brain, placing them in a state of bliss while rendering them incapable of intellectual and skilled labor. They will also learn more slowly, and be less likely to rebel or attempt a prison break. -->
-  <BlissLobotomy.description>TODO</BlissLobotomy.description>
+  <BlissLobotomy.description>برداشتن بخشی از مغز فرد که او را در وضعیت سرخوشی قرار می‌دهد اما وی را از کارهای فکری و ماهرانه ناتوان می‌سازد. سرعت یادگیری نیز کندتر شده و تمایل به شورش یا فرار از زندان کاهش می‌یابد.</BlissLobotomy.description>
   <!-- EN: Lobotomizing TargetA. -->
-  <BlissLobotomy.jobString>TODO</BlissLobotomy.jobString>
+  <BlissLobotomy.jobString>در حال انجام لوبوتومی روی TargetA.</BlissLobotomy.jobString>
   
   <!-- EN: ghoul infusion -->
-  <GhoulInfusion.label>TODO</GhoulInfusion.label>
-  <!-- EN: Infuse a living person with an archotech shard to create a terrifying creature known as a ghoul. Ghouls are ferocious melee fighters and are incapable of work. They eat raw meat to survive but never sleep. Hungry ghouls are dangerous.\n\nGhouls created by this operation will be a part of your colony. -->
-  <GhoulInfusion.description>TODO</GhoulInfusion.description>
+  <GhoulInfusion.label>تزریق و دگرگونی به غول</GhoulInfusion.label>
+  <!-- EN: Infuse a living person with an archotech shard to create a terrifying creature known as a ghoul. Ghouls are ferocious melee fighters and are incapable of work. They eat raw meat to survive but never sleep. Hungry ghouls are dangerous.
+
+Ghouls created by this operation will be a part of your colony. -->
+  <GhoulInfusion.description>تزریق تکه آرکوتک به یک فرد زنده برای تبدیل او به موجودی هولناک به نام غول. غول‌ها مبارزان تن‌به‌تن درنده‌ای هستند و توانایی انجام کار ندارند. آن‌ها برای بقا گوشت خام می‌خورند اما هرگز نمی‌خوابند. غول‌های گرسنه خطرناکند.
+
+غول‌های ایجاد شده توسط این عمل جزئی از کلونی شما خواهند بود.</GhoulInfusion.description>
   <!-- EN: Ghoulizing TargetA. -->
-  <GhoulInfusion.jobString>TODO</GhoulInfusion.jobString>
+  <GhoulInfusion.jobString>در حال تبدیل TargetA به غول.</GhoulInfusion.jobString>
   
   <!-- EN: surgical inspection -->
-  <SurgicalInspection.label>TODO</SurgicalInspection.label>
+  <SurgicalInspection.label>معاینه و بازرسی جراحی</SurgicalInspection.label>
   <!-- EN: An invasive surgery to find any hidden abnormalities within a patient. -->
-  <SurgicalInspection.description>TODO</SurgicalInspection.description>
+  <SurgicalInspection.description>جراحی تهاجمی برای کشف هرگونه ناهنجاری پنهان درون بدن بیمار.</SurgicalInspection.description>
   <!-- EN: Surgically inspecting TargetA. -->
-  <SurgicalInspection.jobString>TODO</SurgicalInspection.jobString>
+  <SurgicalInspection.jobString>در حال معاینه جراحی TargetA.</SurgicalInspection.jobString>
   
 </LanguageData>

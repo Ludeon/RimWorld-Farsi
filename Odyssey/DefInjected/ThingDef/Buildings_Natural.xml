@@ -2,66 +2,66 @@
 <LanguageData>
   
   <!-- EN: ancient light -->
-  <AncientEmergencyLight_Blue.label>TODO</AncientEmergencyLight_Blue.label>
+  <AncientEmergencyLight_Blue.label>نور باستانی</AncientEmergencyLight_Blue.label>
   <!-- EN: An ancient light containing a long-lasting battery. -->
-  <AncientEmergencyLight_Blue.description>TODO</AncientEmergencyLight_Blue.description>
+  <AncientEmergencyLight_Blue.description>یک چراغ باستانی حاوی باتری بادوام.</AncientEmergencyLight_Blue.description>
   
   <!-- EN: mechanoid light -->
-  <AncientEmergencyLight_Green.label>TODO</AncientEmergencyLight_Green.label>
+  <AncientEmergencyLight_Green.label>نور مکانیکی</AncientEmergencyLight_Green.label>
   <!-- EN: A light used in mechanoid facilities. The green hue is optimal for mechanoid optical arrays. -->
-  <AncientEmergencyLight_Green.description>TODO</AncientEmergencyLight_Green.description>
+  <AncientEmergencyLight_Green.description>چراغی که در تاسیسات مکانیکی استفاده می شود. رنگ سبز برای آرایه های نوری مکانیکی بهینه است.</AncientEmergencyLight_Green.description>
   
   <!-- EN: ancient emergency light -->
-  <AncientEmergencyLight_Red.label>TODO</AncientEmergencyLight_Red.label>
+  <AncientEmergencyLight_Red.label>چراغ اضطراری باستانی</AncientEmergencyLight_Red.label>
   <!-- EN: An ancient light containing a long-lasting battery. -->
-  <AncientEmergencyLight_Red.description>TODO</AncientEmergencyLight_Red.description>
+  <AncientEmergencyLight_Red.description>یک چراغ باستانی حاوی باتری بادوام.</AncientEmergencyLight_Red.description>
   
   <!-- EN: ancient heat vent -->
-  <AncientHeatVent.label>TODO</AncientHeatVent.label>
+  <AncientHeatVent.label>دریچه حرارتی باستانی</AncientHeatVent.label>
   <!-- EN: A massive duct that drops endlessly into the ground. It will regularly vent heat from an underground megastructure, dramatically raising the temperature of the surrounding area. -->
-  <AncientHeatVent.description>TODO</AncientHeatVent.description>
+  <AncientHeatVent.description>مجرای عظیمی که بی انتها در زمین فرو می ریزد. به طور منظم گرما را از یک ابرساختار زیرزمینی تخلیه می کند و دمای محیط اطراف را به طور چشمگیری افزایش می دهد.</AncientHeatVent.description>
   
   <!-- EN: ancient smoke vent -->
-  <AncientSmokeVent.label>TODO</AncientSmokeVent.label>
+  <AncientSmokeVent.label>دریچه دود باستانی</AncientSmokeVent.label>
   <!-- EN: The exhaust vent of some long forgotten underground megastructure. It periodically vents a large amount of smoke, blocking the sun for days at a time. -->
-  <AncientSmokeVent.description>TODO</AncientSmokeVent.description>
+  <AncientSmokeVent.description>دریچه اگزوز برخی از ابرساختارهای زیرزمینی فراموش شده. به طور دوره‌ای مقدار زیادی دود را خارج می کند و روزها در یک زمان خورشید را مسدود می کند.</AncientSmokeVent.description>
   
   <!-- EN: ancient toxic vent -->
-  <AncientToxVent.label>TODO</AncientToxVent.label>
+  <AncientToxVent.label>دریچه سمی باستانی</AncientToxVent.label>
   <!-- EN: A massive duct that vents toxic fumes from an underground megastructure. It will regularly cause toxic fallout in the area. -->
-  <AncientToxVent.description>TODO</AncientToxVent.description>
+  <AncientToxVent.description>مجرای عظیمی که دودهای سمی را از یک ابرساختار زیرزمینی خارج می کند. به طور منظم باعث ایجاد ریزش سمی در منطقه می شود.</AncientToxVent.description>
   
   <!-- EN: burrow wall -->
-  <BurrowWall.label>TODO</BurrowWall.label>
+  <BurrowWall.label>دیوار حفره</BurrowWall.label>
   <!-- EN: A compact mix of dirt, rock, and insect secretion. -->
-  <BurrowWall.description>TODO</BurrowWall.description>
+  <BurrowWall.description>ترکیبی فشرده از خاک، سنگ و ترشح حشرات.</BurrowWall.description>
   
   <!-- EN: sulfur spout -->
-  <GeothermalVent.label>TODO</GeothermalVent.label>
+  <GeothermalVent.label>فوران گوگرد</GeothermalVent.label>
   <!-- EN: A naturally-occurring break in the ground from which volcanic gases escape. These vents bring nutrients to the surface from deep underground. Collectively, the fumes they spew are enough to block out the sun. -->
-  <GeothermalVent.description>TODO</GeothermalVent.description>
+  <GeothermalVent.description>شکستگی طبیعی در زمین که از آن گازهای آتشفشانی خارج می شود. این دریچه‌ها مواد مغذی را از اعماق زمین به سطح می آورند. در مجموع، دودهایی که آن‌ها منتشر می‌کنند برای جلوگیری از آفتاب کافی است.</GeothermalVent.description>
   
   <!-- EN: cave entrance -->
-  <InsectLairEntrance.label>TODO</InsectLairEntrance.label>
+  <InsectLairEntrance.label>ورودی غار</InsectLairEntrance.label>
   <!-- EN: The entrance to a cave network. It is possible to climb down into the caves below. -->
-  <InsectLairEntrance.description>TODO</InsectLairEntrance.description>
+  <InsectLairEntrance.description>ورودی یک شبکه غار. امکان صعود به غارهای زیر وجود دارد.</InsectLairEntrance.description>
   <!-- EN: Cannot collapse -->
-  <InsectLairEntrance.comps.CompSealable.cannotSealLabel>TODO</InsectLairEntrance.comps.CompSealable.cannotSealLabel>
+  <InsectLairEntrance.comps.CompSealable.cannotSealLabel>نمی تواند فرو بریزد</InsectLairEntrance.comps.CompSealable.cannotSealLabel>
   <!-- EN: Collapsing the cave entrance is permanent. Anything or anyone left below will be lost forever.{0}\n\nAre you sure you want to continue? -->
-  <InsectLairEntrance.comps.CompSealable.confirmSealText>TODO</InsectLairEntrance.comps.CompSealable.confirmSealText>
+  <InsectLairEntrance.comps.CompSealable.confirmSealText>ریزش ورودی غار دائمی است. هر چیزی یا هر کسی که در زیر باقی بماند برای همیشه از بین خواهد رفت.{0}\n\nآیا مطمئن هستید که می‌خواهید ادامه دهید؟</InsectLairEntrance.comps.CompSealable.confirmSealText>
   <!-- EN: Choose a colonist to permanently collapse the entrance. Anything or anyone left below will be lost forever. -->
-  <InsectLairEntrance.comps.CompSealable.sealCommandDesc>TODO</InsectLairEntrance.comps.CompSealable.sealCommandDesc>
+  <InsectLairEntrance.comps.CompSealable.sealCommandDesc>یک مستعمره‌نشین را انتخاب کنید تا ورودی را برای همیشه فرو بریزد. هر چیزی یا هر کسی که در زیر باقی بماند برای همیشه از دست خواهد رفت.</InsectLairEntrance.comps.CompSealable.sealCommandDesc>
   <!-- EN: Collapse cave entrance -->
-  <InsectLairEntrance.comps.CompSealable.sealCommandLabel>TODO</InsectLairEntrance.comps.CompSealable.sealCommandLabel>
+  <InsectLairEntrance.comps.CompSealable.sealCommandLabel>فروریختن ورودی غار</InsectLairEntrance.comps.CompSealable.sealCommandLabel>
   
   <!-- EN: life support unit -->
-  <LifeSupportUnit.label>TODO</LifeSupportUnit.label>
+  <LifeSupportUnit.label>واحد حمایت از زندگی</LifeSupportUnit.label>
   <!-- EN: A unit connected to the orbital platform's larger life support network. It keeps rooms heated and pressurized. -->
-  <LifeSupportUnit.description>TODO</LifeSupportUnit.description>
+  <LifeSupportUnit.description>واحدی که به شبکه پشتیبانی حیاتی بزرگتر سکوی مداری متصل است. اتاق‌ها را گرم و تحت فشار نگه می دارد.</LifeSupportUnit.description>
   
   <!-- EN: obsidian -->
-  <MineableObsidian.label>TODO</MineableObsidian.label>
+  <MineableObsidian.label>ابسیدین</MineableObsidian.label>
   <!-- EN: Volcanic rock formed by rapidly cooling lava. It can be mined for obsidian glass. -->
-  <MineableObsidian.description>TODO</MineableObsidian.description>
+  <MineableObsidian.description>سنگ های آتشفشانی که توسط گدازه هایی که به سرعت سرد می شوند تشکیل شده اند. می توان آن را برای شیشه ابسیدین استخراج کرد.</MineableObsidian.description>
   
 </LanguageData>

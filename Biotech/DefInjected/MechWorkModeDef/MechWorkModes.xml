@@ -2,23 +2,23 @@
 <LanguageData>
   
   <!-- EN: escort -->
-  <Escort.label>TODO</Escort.label>
+  <Escort.label>اسکورت</Escort.label>
   <!-- EN: Stay near the mechanitor and fight nearby enemies. Follow the mechanitor, even off the map. -->
-  <Escort.description>TODO</Escort.description>
+  <Escort.description>نزدیک مکانیتور بمانید و با دشمنان نزدیک مبارزه کنید. حتی خارج از نقشه، مکانیزم را دنبال کنید.</Escort.description>
   
   <!-- EN: recharge -->
-  <Recharge.label>TODO</Recharge.label>
+  <Recharge.label>شارژ مجدد</Recharge.label>
   <!-- EN: Go to rechargers and recharge, even if already well-charged. -->
-  <Recharge.description>TODO</Recharge.description>
+  <Recharge.description>به سراغ شارژرها بروید و شارژ کنید، حتی اگر از قبل شارژ خوبی داشته باشید.</Recharge.description>
   
   <!-- EN: dormant self-charge -->
-  <SelfShutdown.label>TODO</SelfShutdown.label>
+  <SelfShutdown.label>خود شارژی خفته</SelfShutdown.label>
   <!-- EN: Go into a dormant self-charging state that very slowly regains energy without a recharger. -->
-  <SelfShutdown.description>TODO</SelfShutdown.description>
+  <SelfShutdown.description>به حالت غیرفعال خود شارژی بروید که به آرامی و بدون شارژر دوباره انرژی را به دست می آورد.</SelfShutdown.description>
   
   <!-- EN: work -->
-  <Work.label>TODO</Work.label>
+  <Work.label>کار کردن</Work.label>
   <!-- EN: Work autonomously according to mechanoid type. Automatically go to rechargers and recharge when needed. -->
-  <Work.description>TODO</Work.description>
+  <Work.description>به طور مستقل بر اساس نوع مکانیکی کار کنید. به طور خودکار به سراغ شارژرها بروید و در صورت نیاز شارژ کنید.</Work.description>
   
 </LanguageData>

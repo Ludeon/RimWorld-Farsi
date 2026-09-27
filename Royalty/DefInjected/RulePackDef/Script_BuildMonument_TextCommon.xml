@@ -27,7 +27,30 @@
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->You have failed the quest '[resolvedQuestName]'.</li>
     <li>failLetterEndingCommon->You have failed the quest '[resolvedQuestName]'.\n\nYour relations with [asker_faction_name] have decreased by [goodwillPenalty].</li>
   -->
-  <QuestConstructionDescriptionCommon.rulePack.rulesStrings>TODO</QuestConstructionDescriptionCommon.rulePack.rulesStrings>
+  <QuestConstructionDescriptionCommon.rulePack.rulesStrings><li>questDescription(askerIsNull==true)->یک پیام مرموز رسیده است. به نظر می رسد که توسط یک شخصیت ماشینی منتقل شده است که از نام بردن خود خودداری می کند. پیام از شما می خواهد که یک بنای تاریخی بسیار خاص بسازید.\n\n[commonEnding]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] از [asker_faction_name] درخواست می کند که یک بنای تاریخی [buildReason] بسازید.\n\n[commonEnding]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] از [asker_faction_name] درخواست می کند که یک بنای تاریخی [buildReason] بسازید.\n\n[commonEnding]</li>
+    <li>asker2(askerIsNull==true)->ارکوتک</li>
+    <li>asker2(asker_factionLeader==True)->[asker_nameDef]</li>
+    <li>asker2(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction]</li>
+    <li>buildReason->برای بزرگداشت [PersonalCharacteristic] از [asker_possessive] [PersonFamily]</li>
+    <li>buildReason->برای بزرگداشت [asker_possessive] خود [PersonalCharacteristic]</li>
+    <li>buildReason->برای توهین به [PersonalCharacteristic] رقیب [asker_possessive]</li>
+    <li>buildReason->برای کاهش احساسات [ConceptAngsty] در بین مردم</li>
+    <li>buildReason->برای بیان اینکه [AdjectiveBadass] [asker_pronoun] چگونه است</li>
+    <li>buildReason->برای بزرگداشت [asker_possessive] [asker_faction_pawnsPlural] که در نبرد سقوط کرده اند</li>
+    <li>buildReason->برای ارج نهادن به [asker_possessive] [PersonFamily]</li>
+    <li>buildReason->برای ارج نهادن به کار [PersonJob]s</li>
+    <li>buildReason->برای پخش تصاویر [asker_possessive] [glory] در سراسر زمین</li>
+    <li>شکوه->شکوه</li>
+    <li>شکوه->افتخار رزمی</li>
+    <li>شکوه->پیروزی ها</li>
+    <li>شکوه->تخت</li>
+    <li>glory->کشتی بزرگ</li>
+    <li>شکوه->ثروت</li>
+    <li>glory->خانواده</li>
+    <li>failLetterEndingCommon(askerIsNull==true,priority=1)->شما در ماموریت "[resolvedQuestName]" شکست خورده اید.</li>
+    <li>failLetterEndingCommon->شما در ماموریت "[resolvedQuestName]" شکست خوردید.\n\nروابط شما با [asker_faction_name] تا [goodwillPenalty] کاهش یافته است.</li></QuestConstructionDescriptionCommon.rulePack.rulesStrings>
   
   <!-- EN:
     <li>questName->[constAdj] [construction]</li>
@@ -58,6 +81,32 @@
     <li>construction->blueprint</li>
     <li>construction->assembly</li>
   -->
-  <QuestConstructionNameCommon.rulePack.rulesStrings>TODO</QuestConstructionNameCommon.rulePack.rulesStrings>
+  <QuestConstructionNameCommon.rulePack.rulesStrings><li>questName->[constAdj] [construction]</li>
+    <li>questName->A [constAdj] [construction]</li>
+    <li>questName->[constAdj] [construction]</li>
+    <li>constAdj(p=20)->[AdjectiveLarge]</li>
+    <li>constAdj->وحشتناک</li>
+    <li>constAdj->عالی</li>
+    <li>constAdj->بزرگ</li>
+    <li>constAdj->خطرناک</li>
+    <li>constAdj-> یادبود</li>
+    <li>constAdj->اسراف</li>
+    <li>constAdj->پیش بینی</li>
+    <li>constAdj-> ترسناک</li>
+    <li>constAdj->وحشتناک</li>
+    <li>constAdj->ترسناک</li>
+    <li>constAdj->عالی</li>
+    <li>constAdj->پیامبرانه</li>
+    <li>constAdj->هیجان انگیز</li>
+    <li>constAdj->درخشنده</li>
+    <li>constAdj->درخشش</li>
+    <li>constAdj->شگفت انگیز</li>
+    <li>ساختمان(p=3)->ساخت</li>
+    <li>ساختار(p=2)->ساختار</li>
+    <li>ساختمان(p=2)->ساختمان</li>
+    <li>ساختمان-> بنای یادبود</li>
+    <li>construction->عمارت</li>
+    <li>construction->طرح‌نامه</li>
+    <li>construction->مونتاژ</li></QuestConstructionNameCommon.rulePack.rulesStrings>
   
 </LanguageData>

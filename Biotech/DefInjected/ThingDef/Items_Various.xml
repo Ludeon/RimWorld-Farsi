@@ -2,37 +2,37 @@
 <LanguageData>
   
   <!-- EN: archite capsule -->
-  <ArchiteCapsule.label>TODO</ArchiteCapsule.label>
+  <ArchiteCapsule.label>کپسول آرشیت</ArchiteCapsule.label>
   <!-- EN: A small capsule containing archites - microscopic machines produced by a superintelligent archotech. These devices are capable of physical and psychic feats which seem impossible to human scientists. As with all archotechnology, no human can create one. We can only try to scavenge the ones that archotechs create for their own unfathomable reasons.\n\nThis capsule is useless by itself, but it can be spent at a gene assembler to create a new archite-powered xenogerm. This requires researching archogenetics and a genepack that contains an archite gene. Archite genepacks can be obtained from traders. -->
-  <ArchiteCapsule.description>TODO</ArchiteCapsule.description>
+  <ArchiteCapsule.description>یک کپسول کوچک حاوی آرشیت‌ها - ماشین های میکروسکوپی تولید شده توسط یک آرکوتک فوق هوشمند. این دستگاه‌ها قادر به کارهای فیزیکی و روانی هستند که برای دانشمندان بشر غیرممکن به نظر می رسد. مانند تمام آرتکنولوژی‌ها، هیچ انسانی نمی تواند آن را ایجاد کند. ما فقط می‌توانیم کپسول‌هایی را که آرکوتک‌ها به دلایل غیرقابل درک خودشان ایجاد می‌کنند پاک کنیم.\n\nاین کپسول به خودی خود بی‌فایده است، اما می‌توان آن را در یک مونتاژکننده ژن برای ایجاد یک زنوژرم جدید با نیروی آرشیت خرج کرد. این نیاز به تحقیق در مورد آرکوژنتیک و یک بسته ژنی حاوی ژن آرشیت دارد. بسته های ژن آرشیت را می توان از تاجران تهیه کرد.</ArchiteCapsule.description>
   
   <!-- EN: genepack -->
-  <Genepack.label>TODO</Genepack.label>
+  <Genepack.label>بسته ژنی</Genepack.label>
   <!-- EN: A small capsule containing a package of genetic information. To use a genepack, it must be placed in a gene bank near a gene assembler and combined into an implantable xenogerm.\n\nIf not kept in a powered gene bank, this genepack will slowly deteriorate. -->
-  <Genepack.description>TODO</Genepack.description>
+  <Genepack.description>یک کپسول کوچک حاوی یک بسته اطلاعات ژنتیکی. برای استفاده از یک بسته ژنی، باید آن را در یک بانک ژن در نزدیکی مونتاژکننده ژن قرار داد و در یک زنوژرم قابل کاشت ترکیب کرد.\n\nاگر در یک بانک ژن نیرومند نگهداری نشود، این بسته ژنی به آرامی خراب می‌شود.</Genepack.description>
   
   <!-- EN: embryo -->
-  <HumanEmbryo.label>TODO</HumanEmbryo.label>
+  <HumanEmbryo.label>جنین</HumanEmbryo.label>
   <!-- EN: A human embryo which can be implanted in a mother to create a pregnancy. -->
-  <HumanEmbryo.description>TODO</HumanEmbryo.description>
+  <HumanEmbryo.description>جنین انسان که می تواند در مادر کاشته شود تا حاملگی ایجاد شود.</HumanEmbryo.description>
   
   <!-- EN: ovum -->
-  <HumanOvum.label>TODO</HumanOvum.label>
+  <HumanOvum.label>تخمک</HumanOvum.label>
   <!-- EN: An extracted, unfertilized human ovum cell stored in a protective capsule. Once fertilized by a male, it becomes an embryo which can then be implanted into a human mother or growth vat. -->
-  <HumanOvum.description>TODO</HumanOvum.description>
+  <HumanOvum.description>یک سلول تخمک انسانی استخراج شده و بارور نشده در یک کپسول محافظ ذخیره شده است. پس از بارور شدن توسط یک نر، به جنین تبدیل می شود که می تواند در مادر انسان یا مخزن رشد کاشته شود.</HumanOvum.description>
   
   <!-- EN: mechanoid transponder -->
-  <MechanoidTransponder.label>TODO</MechanoidTransponder.label>
+  <MechanoidTransponder.label>ترانسپوندر مکانیکی</MechanoidTransponder.label>
   <!-- EN: A transponder micro-organ that connects a mechanitor to a mechanoid, even over a great distance. Mechanitors are capable of controlling many mechanoids using a mix of psychic and electromagnetic signals.\n\nDecrypting the transponder will allow you to pinpoint the location of the last mechanitor who controlled the mechanoid. -->
-  <MechanoidTransponder.description>TODO</MechanoidTransponder.description>
+  <MechanoidTransponder.description>یک میکروارگان فرستنده که یک مکانیتور را به یک مکانوئید وصل می کند، حتی در فاصله بسیار زیاد. مکانیک‌ها می توانند با استفاده از ترکیبی از سیگنال های روانی و الکترومغناطیسی، بسیاری از مکانیسم‌ها را کنترل کنند.\n\nرمزگشایی ترانسپوندر به شما امکان می دهد مکان آخرین مکانیزمی را که مکانوئید را کنترل کرده است مشخص کنید.</MechanoidTransponder.description>
   <!-- EN: Decrypt transponder -->
-  <MechanoidTransponder.comps.CompUseableDatacore.useLabel>TODO</MechanoidTransponder.comps.CompUseableDatacore.useLabel>
+  <MechanoidTransponder.comps.CompUseableDatacore.useLabel>رمزگشایی ترانسپوندر</MechanoidTransponder.comps.CompUseableDatacore.useLabel>
   <!-- EN: Can be decrypted at a research bench.\nSelect a colonist and right-click this to decrypt it. -->
-  <MechanoidTransponder.comps.CompInspectString.inspectString>TODO</MechanoidTransponder.comps.CompInspectString.inspectString>
+  <MechanoidTransponder.comps.CompInspectString.inspectString>می‌توان آن را در یک میز تحقیقات رمزگشایی کرد.\nیک مستعمره‌نشین را انتخاب کنید و برای رمزگشایی روی آن کلیک راست کنید.</MechanoidTransponder.comps.CompInspectString.inspectString>
   
   <!-- EN: xenogerm -->
-  <Xenogerm.label>TODO</Xenogerm.label>
+  <Xenogerm.label>زنوژرم</Xenogerm.label>
   <!-- EN: A self-contained biological organ containing one or more implantable xenogenes.\n\nOnce implanted inside a host's body, the xenogerm modifies the host's genes, gene expression, and phenotypic development using viruses, hormones, bio-synthesized drugs, and possibly mechanites. Depending on the xenogerm, the host will develop any of a wide variety of exotic traits and abilities, transforming them into a different human xenotype.\n\nXenogerm implantation is a traumatic process. Once implanted with a xenogerm, a person will be bedridden for days as the transformation sets in.\n\nDuring storage and transport, xenogerms are kept safe in sealed containers. -->
-  <Xenogerm.description>TODO</Xenogerm.description>
+  <Xenogerm.description>یک اندام بیولوژیکی مستقل حاوی یک یا چند زنوژن قابل کاشت.\n\nزنوژرم پس از کاشت در داخل بدن میزبان، ژن‌های میزبان، بیان ژن و رشد فنوتیپی را با استفاده از ویروس‌ها، هورمون‌ها، داروهای بیوسنتز شده و احتمالاً مکانیت‌ها تغییر می‌دهد. بسته به زنوژرم، میزبان هر یک از طیف گسترده‌ای از ویژگی‌ها و توانایی‌های عجیب و غریب را توسعه می‌دهد و آنها را به نوع دیگری از انسان تبدیل می‌کند.\n\nکاشت زنوژرم یک فرآیند آسیب‌زا است. پس از کاشت زنوژرم، فرد برای روزها در بستر بستر خواهد بود.\n\nدر طول ذخیره سازی و حمل و نقل، زنوژرم‌ها در ظروف در بسته نگهداری می شوند.</Xenogerm.description>
   
 </LanguageData>

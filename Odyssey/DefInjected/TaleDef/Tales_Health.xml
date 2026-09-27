@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: vacuum exposure revealed -->
-  <VacuumExposureRevealed.label>TODO</VacuumExposureRevealed.label>
+  <VacuumExposureRevealed.label>قرار گرفتن در معرض خلاء آشکار شد</VacuumExposureRevealed.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] being exposed to hard vacuum</li>
     <li>tale_noun->[PAWN_nameDef] suffering from vacuum exposure</li>
@@ -26,6 +26,28 @@
     <li>desc_sentence->A [Color] asteroid looms large behind the image.</li>
     <li>desc_sentence->Behind the image is a large [Color] planet.</li>
   -->
-  <VacuumExposureRevealed.rulePack.rulesStrings>TODO</VacuumExposureRevealed.rulePack.rulesStrings>
+  <VacuumExposureRevealed.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] در معرض خلاء سخت قرار می گیرد</li>
+    <li>tale_noun->[PAWN_nameDef] از قرار گرفتن در معرض خلاء رنج می برد</li>
+    <li>image->[PAWN_nameFull] شناور از یک کشتی [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] در حال حرکت در فضا [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] در حال حرکت در میان ستارگان [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] یک قفل هوای [circumstance_group] را به‌هم می‌زند</li>
+    <li>circumstance_phrase->در حالی که چهره [PAWN_possessive] به آرامی آبی می شود</li>
+    <li>circumstance_phrase->در حالی که بزاق [PAWN_possessive] شروع به جوشیدن می کند</li>
+    <li>circumstance_phrase->در حالی که بدن [PAWN_possessive] شروع به متورم شدن می کند</li>
+    <li>circumstance_phrase->در حالی که پوست [PAWN_possessive] شروع به یخ زدن می کند</li>
+    <li>circumstance_phrase->در حالی که بی صدا فریاد می زد</li>
+    <li>circumstance_phrase->و شروع به از دست دادن هوشیاری می کند</li>
+    <li>circumstance_phrase->و نفس نفس زدن به هوا</li>
+    <li>desc_sentence->چشم های [PAWN_nameDef] در حال تبدیل شدن به شیشه هستند.</li>
+    <li>desc_sentence->تاریکی بی پایان سوژه را احاطه کرده است.</li>
+    <li>desc_sentence->به نظر می رسد صحنه در فضا اتفاق می افتد.</li>
+    <li>desc_sentence->زیر کلاهی که شکسته است، چشمانی بی جان است.</li>
+    <li>desc_sentence->ستاره های پیچ خورده [Quantity_adjphrase] تصویر را احاطه کرده اند.</li>
+    <li>desc_sentence->[PAWN_nameDef] جاروبرقی پاره می پوشد.</li>
+    <li>desc_sentence->یک سیارک [Color] در پشت تصویر بزرگ خودنمایی می کند.</li>
+    <li>desc_sentence->در پشت تصویر یک سیاره بزرگ [Color] وجود دارد.</li>
+  </VacuumExposureRevealed.rulePack.rulesStrings>
   
 </LanguageData>

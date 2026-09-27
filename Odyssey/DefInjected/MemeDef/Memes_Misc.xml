@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: shipborn -->
-  <Shipborn.label>TODO</Shipborn.label>
+  <Shipborn.label>کشتی زاده</Shipborn.label>
   <!-- EN: Humans were destined to live among the stars. -->
-  <Shipborn.description>TODO</Shipborn.description>
+  <Shipborn.description>قرار بود انسان‌ها در میان ستاره‌ها زندگی کنند.</Shipborn.description>
   <!-- EN:
     <li>creation(tag=meme_Shipborn)        ->[deity0_name] shaped humanity from the dust of [celestialComponents], breathing life into mankind with [deity0_possessive] stellar winds.</li>
     <li>episode(uses=1,tag=meme_Shipborn)  ->[deity0_name] dispersed the great people of [place_name], sending them into the void so that they may witness the convergence of star and soul.</li>
@@ -30,7 +30,31 @@
     <li>veneratedRole->navigator</li>
     <li>veneratedRole->captain</li>
   -->
-  <Shipborn.descriptionMaker.rules.rulesStrings>TODO</Shipborn.descriptionMaker.rules.rulesStrings>
+  <Shipborn.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Shipborn)        ->[deity0_name] بشریت را از گرد و غبار [celestialComponents] شکل داد و با بادهای ستاره‌ای [deity0_possessive] زندگی را به بشر دمید.</li>
+    <li>episode(uses=1,tag=meme_Shipborn)  ->[deity0_name] افراد بزرگ [place_name] را پراکنده کرد و آنها را به خلاء فرستاد تا شاهد همگرایی ستاره و روح باشند.</li>
+    <li>intro(tag=meme_Shipborn)           ->در روزهای تاریکی، [deity0_name] دید که بشریت نیاز به راهنمایی دارد و به [deity0_possessive] [memberNamePlural] دستور داد تا کشتی های بزرگ بسازد.</li>
+    <li>conflict(tag=meme_Shipborn)        ->هنگامی که [memberNamePlural] شروع به تحقق چشم انداز [deity0_name] کرد، [foeLeader] خیانتکار برای جلوگیری از آنها حرکت کرد. [foeLeader_possessive] [foeSoldiers] [place_personalWeapon] های بی رحمانه‌ای را علیه کسانی که سعی در سوار شدن به کشتی های مقدس داشتند به کار برد.</li>
+    <li>founderJoin(tag=meme_Shipborn)     ->یک [place_job] به نام [founderName] مؤمنان واقعی را جمع کرد و آنها را به یک [altarRoomLabel] مخفی هدایت کرد. در آنجا [founder_pronoun] تبدیل به [veneratedRole] آنها شد.</li>
+    <li>victory(tag=meme_Shipborn)         ->سپس [founderName] با صدای [deity0_name] صحبت کرد. در یک همگرایی درخشان از نور و انرژی، [founderName] بر دشمنان [founder_possessive] چیره شد و مردم [founder_possessive] را به سمت کشتی های مقدس هدایت کرد.</li>
+    <li>setup(tag=meme_Shipborn)           ->در کشتی الهی [founder_possessive]، [founderName] هزار سال در دریاهای ستاره‌ای سفر کرد و با ارواح آسمانی ارتباط برقرار کرد و اسرار کیهان را باز کرد.</li>
+    <li>story(uses=1,tag=meme_Shipborn)    ->[founderName] دید که سرنوشت بشریت فقط در میان ستارگان محقق می شود.</li>
+    <li>lessonIntro(tag=meme_Shipborn)         ->در رعایت [celestialComponents]، یک حقیقت را بیش از هر چیز دیگری پیدا کردم:</li>
+    <li>lesson(tag=meme_Shipborn)              ->ستارگان [veneratedRole] واقعی ما هستند و وظیفه ماست که به دنبال خرد آنها باشیم و در میان آنها سفر کنیم.</li>
+    <li>lesson(tag=meme_Shipborn)              ->بشر هرگز قرار نبود اسیر سنگ باشد. ما باید در میان بهشت ​​زندگی کنیم</li>
+    <li>lesson(tag=meme_Shipborn)              ->کشتی های ما مادران مقدس و پدران مقدس ما هستند. ما باید از آنها مراقبت کنیم همانطور که آنها از ما مراقبت کرده اند</li>
+    <li>lessonReinforcement(tag=meme_Shipborn) ->باشد که پاهای شما هرگز به زمین نرسد.</li>
+    <li>archistBasis(tag=meme_Shipborn)    ->از زمان ظهور، آرکوتک‌ها آگاهی خود را در میان ستارگان گسترش داده اند.</li>
+    <li>archistFact(tag=meme_Shipborn)     ->آرکوتک‌ها از محدودیت های حیات سیاره‌ای فراتر می روند.</li>
+    <li>archistProphecy(tag=meme_Shipborn) ->[inTheEnd]، آرکوتک‌ها به ما می آموزند که بدون زحمت در میان ستارگان حرکت کنیم اگر خرد کیهانی آنها را مشاهده کنیم.</li>
+    <li>animistBasis(tag=meme_Shipborn)    ->اجداد ما به [celestialComponents] سفر کرده اند و به ما می آموزند که بشریت و موجودات آسمانی را همتا بدانیم.</li>
+    <li>animistFact(tag=meme_Shipborn)     ->همان ارواح ساکن در اجرام آسمانی سرنوشت بشریت را هدایت می کنند.</li>
+    <li>celestialComponents->ستاره‌ها، ماه‌ها و دنباله دارها</li>
+    <li>celestialComponents->کیهان</li>
+    <li>celestialComponents->هزار خورشید</li>
+    <li>veneratedRole->ناوبر</li>
+    <li>veneratedRole->کاپیتان</li>
+  </Shipborn.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeCreed->crew</li>
     <li>memeCreed->ship</li>
@@ -53,6 +77,27 @@
     <li>memeMoralist->navigator</li>
     <li>memeMoralist->councillor</li>
   -->
-  <Shipborn.generalRules.rulesStrings>TODO</Shipborn.generalRules.rulesStrings>
+  <Shipborn.generalRules.rulesStrings>
+    <li>memeCreed->خدمه</li>
+    <li>memeCreed->کشتی</li>
+    <li>memeCreed->کشتی فضایی</li>
+    <li>memeAdjective->ستاره‌ای</li>
+    <li>memeAdjective->خالی</li>
+    <li>memeAdjective->کیهانی</li>
+    <li>memeAdjective->آسمانی</li>
+    <li>memeAdjective->اختری</li>
+    <li>memeHyphenPrefix->astro</li>
+    <li>memeHyphenPrefix->تاریک</li>
+    <li>memeConcept->فضا</li>
+    <li>memeConcept->ستاره‌ها</li>
+    <li>memeConcept->کشتی های ستاره‌ای</li>
+    <li>memeLeaderNoun->کاپیتان</li>
+    <li>memeLeaderNoun->ستاره زاده</li>
+    <li>memeLeaderNoun->خلبان</li>
+    <li>memeLeaderAdjective->درخشان</li>
+    <li>memeMoralist->راه یاب</li>
+    <li>memeMoralist->ناوبر</li>
+    <li>memeMoralist->مشاور</li>
+  </Shipborn.generalRules.rulesStrings>
   
 </LanguageData>

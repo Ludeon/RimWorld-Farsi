@@ -2,24 +2,24 @@
 <LanguageData>
   
   <!-- EN: bandwidth pack -->
-  <Apparel_PackBandwidth.label>TODO</Apparel_PackBandwidth.label>
+  <Apparel_PackBandwidth.label>بسته پهنای باند</Apparel_PackBandwidth.label>
   <!-- EN: A backpack containing bandwidth-expansion computer and antenna. It can increase a mechanitor's maximum total bandwidth. -->
-  <Apparel_PackBandwidth.description>TODO</Apparel_PackBandwidth.description>
+  <Apparel_PackBandwidth.description>یک کوله پشتی حاوی کامپیوتر و آنتن با پهنای باند. این می تواند حداکثر پهنای باند کل مکانیتور را افزایش دهد.</Apparel_PackBandwidth.description>
   
   <!-- EN: control pack -->
-  <Apparel_PackControl.label>TODO</Apparel_PackControl.label>
+  <Apparel_PackControl.label>بسته کنترلی</Apparel_PackControl.label>
   <!-- EN: A backpack containing mech control assist computers. It allows a mechanitor to control one additional control group. -->
-  <Apparel_PackControl.description>TODO</Apparel_PackControl.description>
+  <Apparel_PackControl.description>یک کوله پشتی حاوی کامپیوترهای کمکی کنترل مکانیکی. این به یک مکانیزم اجازه می دهد تا یک گروه کنترل اضافی را کنترل کند.</Apparel_PackControl.description>
   
   <!-- EN: tox pack -->
-  <Apparel_PackTox.label>TODO</Apparel_PackTox.label>
+  <Apparel_PackTox.label>بسته سموم</Apparel_PackTox.label>
   <!-- EN: A reusable backpack containing canisters of reagents and a mechanism that uses them to generate tox gas. When the wearer activates the pack, it will begin spreading tox gas and continue for several seconds until it runs out of reagents.\n\nOnce used, it must be reloaded with chemfuel before it can be used again.\n\nTox gas burns the lungs and eyes, causing a temporary shortness of breath and reduction in sight. Continued exposure to tox gas results in toxic buildup which can be lethal. -->
-  <Apparel_PackTox.description>TODO</Apparel_PackTox.description>
+  <Apparel_PackTox.description>یک کوله پشتی قابل استفاده مجدد حاوی قوطی های معرف و مکانیزمی که از آنها برای تولید گاز سمی استفاده می کند. وقتی پوشنده بسته را فعال می‌کند، شروع به پخش گاز سمی می‌کند و برای چند ثانیه ادامه می‌دهد تا زمانی که معرف‌هایش تمام شود.\n\nپس از استفاده، قبل از استفاده مجدد باید با سوخت شیمیایی دوباره پر شود.\n\nگاز سمی ریه‌ها و چشم‌ها را می‌سوزاند و باعث تنگی نفس موقت و کاهش بینایی می‌شود. قرار گرفتن مداوم در معرض گاز سمی منجر به تجمع سمی می شود که می تواند کشنده باشد.</Apparel_PackTox.description>
   <!-- EN: tox pack -->
-  <Apparel_PackTox.comps.CompApparelReloadable.chargeNoun>TODO</Apparel_PackTox.comps.CompApparelReloadable.chargeNoun>
+  <Apparel_PackTox.comps.CompApparelReloadable.chargeNoun>بسته سموم</Apparel_PackTox.comps.CompApparelReloadable.chargeNoun>
   <!-- EN: on cooldown -->
-  <Apparel_PackTox.comps.CompApparelReloadable.cooldownGerund>TODO</Apparel_PackTox.comps.CompApparelReloadable.cooldownGerund>
+  <Apparel_PackTox.comps.CompApparelReloadable.cooldownGerund>در خنک شدن</Apparel_PackTox.comps.CompApparelReloadable.cooldownGerund>
   <!-- EN: deploy tox pack -->
-  <Apparel_PackTox.verbs.deploy_tox_pack.label>TODO</Apparel_PackTox.verbs.deploy_tox_pack.label>
+  <Apparel_PackTox.verbs.deploy_tox_pack.label>استقرار پک سم</Apparel_PackTox.verbs.deploy_tox_pack.label>
   
 </LanguageData>

@@ -59,6 +59,61 @@
     <li>endSyl->mar</li>
     <li>endSyl->gur</li>
   -->
-  <NamerWeaponBladelink.rulePack.rulesStrings>TODO</NamerWeaponBladelink.rulePack.rulesStrings>
+  <NamerWeaponBladelink.rulePack.rulesStrings><li>r_weapon_name(p=3)->[noun][verber]</li>
+    <li>r_weapon_name(p=2)->[beginSyl][middleSyl][endSyl]</li>
+    <li>r_weapon_name(p=1)->[beginSyl][middleSyl][middleSyl][endSyl]</li>
+    <li>r_weapon_name(p=1)->[beginSyl][endSyl]</li>
+    <li>r_weapon_name(p=1)->[NamePerson]</li>
+    <li>r_weapon_name(p=1)->[nameAnimal]</li>
+    <li>nameAnimal->[NameAnimalUnisex]</li>
+    <li>nameAnimal->[NameAnimalMale]</li>
+    <li>nameAnimal->[NameAnimalFemale]</li>
+    <li>اسم->سوگند</li>
+    <li>اسم->وعده</li>
+    <li>اسم->مرگ</li>
+    <li>اسم->درد</li>
+    <li>اسم->خون</li>
+    <li>اسم->عذاب</li>
+    <li>اسم->قتل</li>
+    <li>اسم->عدالت</li>
+    <li>اسم->ترس</li>
+    <li>اسم->ترور</li>
+    <li>اسم->آشوب</li>
+    <li>اسم->سفارش</li>
+    <li>اسم->جنگ</li>
+    <li>اسم->سکوت</li>
+    <li>اسم->بدهی</li>
+    <li>verber->نگهبان</li>
+    <li>verber->آورنده</li>
+    <li>verber->فرستنده</li>
+    <li>verber->بخشنده</li>
+    <li>verber->سازنده</li>
+    <li>verber->سنگ شکن</li>
+    <li>verber->شکن</li>
+    <li>verber->شکن</li>
+    <li>verber->bender</li>
+    <li>verber->دانشمند</li>
+    <li>verber->انجام دهنده</li>
+    <li>beginSyl->vi</li>
+    <li>beginSyl->na</li>
+    <li>beginSyl->lo</li>
+    <li>beginSyl->ra</li>
+    <li>beginSyl->به</li>
+    <li>beginSyl->ger</li>
+    <li>beginSyl->xan</li>
+    <li>beginSyl->kel</li>
+    <li>middleSyl->سر</li>
+    <li>middleSyl->gar</li>
+    <li>middleSyl->lor</li>
+    <li>middleSyl->ون</li>
+    <li>middleSyl->zan</li>
+    <li>middleSyl->xal</li>
+    <li>endSyl->ys</li>
+    <li>endSyl->یا</li>
+    <li>endSyl->ar</li>
+    <li>endSyl->جمع</li>
+    <li>endSyl->dor</li>
+    <li>endSyl->mar</li>
+    <li>endSyl->gur</li></NamerWeaponBladelink.rulePack.rulesStrings>
   
 </LanguageData>

@@ -97,6 +97,101 @@
     <li>ship_word->trireme</li>
     <li>ship_word->zephyr</li>
   -->
-  <NamerGravship.rulePack.rulesStrings>TODO</NamerGravship.rulePack.rulesStrings>
+  <NamerGravship.rulePack.rulesStrings>
+    <li>r_name(p=2)->[narrative_name]</li>
+    <li>r_name(p=1)->[narrative_name] [ship_word]</li>
+    <li>r_name(p=0.5)->[ship_prefix] [Color] [ship_word]</li>
+    <li>r_name(p=0.5)->[ship_prefix] [AdjectiveBadass] [ship_word]</li>
+    <li>r_name(p=0.5)->[ship_prefix] [AdjectiveBadass] [bird]</li>
+    <li>r_name(p=0.5)->[ship_prefix] [AdjectiveFriendly] [ship_word]</li>
+    <li>r_name(p=0.5)->[ship_prefix] [flying_adjective] [AnimalBadass]</li>
+    <li>r_name(p=0.5)->[storyname]</li>
+    <li>r_name(p=0.2)->[Color] [greekmyth_noun]</li>
+    <li>r_name(p=0.2)->[ship_prefix] [greekmyth_noun]</li>
+    <li>ship_prefix(p=2)->را</li>
+    <li>ship_prefix(p=2)-></li>
+    <li>narrative_name->[AdjectiveNatural] [thing_badass]</li>
+    <li>narrative_name->[AdjectiveLarge] [thing_badass]</li>
+    <li>narrative_name->[Direction] [thing_badass]</li>
+    <li>narrative_name->[thing_badass]</li>
+    <li>thing_badass->[AnimalBadass]</li>
+    <li>thing_badass->[AnimalBadass]-شکارچی</li>
+    <li>thing_badass->پیروزی</li>
+    <li>thing_badass->پیروزی</li>
+    <li>thing_badass->انتقام گرفتن</li>
+    <li>thing_badass->عذاب</li>
+    <li>thing_badass->عذاب</li>
+    <li>thing_badass->انتقام گرفتن</li>
+    <li>thing_badass->ناراحتی</li>
+    <li>thing_badass->بدبختی</li>
+    <li>thing_badass->استبداد</li>
+    <li>thing_badass->وحشت</li>
+    <li>thing_badass->هرج و مرج</li>
+    <li>thing_badass->هرج و مرج</li>
+    <li>storyname(p=50)->[subject] [story_result]</li>
+    <li>storyname(p=2)->[subject] [BodyPart]</li>
+    <li>storyname->[subject] [Gore]</li>
+    <li>subject(p=5)->[NamePerson]</li>
+    <li>subject->[Animal]</li>
+    <li>subject->[WordTribal]</li>
+    <li>subject->[PlaceOutlander]</li>
+    <li>story_result->شادی</li>
+    <li>story_result->لذت بردن</li>
+    <li>story_result->تعجب</li>
+    <li>story_result->غرور</li>
+    <li>story_result->جواهر</li>
+    <li>story_result->جایزه</li>
+    <li>story_result->فضل</li>
+    <li>story_result->افتخار</li>
+    <li>story_result->برنده تمام پولها</li>
+    <li>story_result->جام</li>
+    <li>story_result->تخریب</li>
+    <li>story_result->فاجعه</li>
+    <li>story_result->خراب کردن</li>
+    <li>story_result->فریب</li>
+    <li>story_result->نما</li>
+    <li>story_result->تقلب</li>
+    <li>greekmyth_noun->اودیسه</li>
+    <li>greekmyth_noun->اودیسه</li>
+    <li>greekmyth_noun->پنه لوپه</li>
+    <li>greekmyth_noun->تله ماکوس</li>
+    <li>greekmyth_noun->آتنا</li>
+    <li>greekmyth_noun->پوزیدون</li>
+    <li>greekmyth_noun->سیلا</li>
+    <li>greekmyth_noun->هرمس</li>
+    <li>greekmyth_noun->آرگوناتر</li>
+    <li>greekmyth_noun->هرمس</li>
+    <li>greekmyth_noun->هلیوس</li>
+    <li>greekmyth_noun->آشیل</li>
+    <li>greekmyth_noun->آژیر</li>
+    <li>greekmyth_noun->سیکلوپ</li>
+    <li>greekmyth_noun->مدوزا</li>
+    <li>greekmyth_noun->گورگون</li>
+    <li>bird->شاهین</li>
+    <li>bird->عقاب</li>
+    <li>bird->شاهین</li>
+    <li>bird->کاستر</li>
+    <li>bird->کرکس</li>
+    <li>flying_adjective(p=2)->پرواز کردن</li>
+    <li>flying_adjective->هوابرد</li>
+    <li>flying_adjective->معلق بودن</li>
+    <li>flying_adjective->بالدار</li>
+    <li>ship_word(p=5)->کشتی</li>
+    <li>ship_word(p=5)->قبر</li>
+    <li>ship_word(p=2)->[AdjectiveNatural]ship</li>
+    <li>ship_word->کشتی جنگی</li>
+    <li>ship_word->ناوچه</li>
+    <li>ship_word->کشتی</li>
+    <li>ship_word->شاتل</li>
+    <li>ship_word->رزمناو</li>
+    <li>ship_word->حمل و نقل</li>
+    <li>ship_word->آشپزخانه کشتی</li>
+    <li>ship_word->گالون</li>
+    <li>ship_word->کشتی طولانی</li>
+    <li>ship_word->کشتی باری</li>
+    <li>ship_word->آشغال</li>
+    <li>ship_word->سه گانه</li>
+    <li>ship_word->زفیر</li>
+  </NamerGravship.rulePack.rulesStrings>
   
 </LanguageData>

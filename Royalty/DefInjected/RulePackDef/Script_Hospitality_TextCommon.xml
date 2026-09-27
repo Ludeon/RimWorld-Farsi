@@ -52,6 +52,54 @@
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->[failLetterEndingQuest]</li>
     <li>failLetterEndingCommon->[failLetterEndingQuest]\n\nYour relations with [asker_faction_name] have decreased by [goodwillPenalty].</li>
   -->
-  <QuestHospitalityCommon.rulePack.rulesStrings>TODO</QuestHospitalityCommon.rulePack.rulesStrings>
+  <QuestHospitalityCommon.rulePack.rulesStrings><li>allLodgerInfo->[healthInfo][minMoodInfo][workInfo][includesChildren]</li>
+    <li>lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]</li>
+    <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
+    <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
+    <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->[lodgersLabelPlural]</li>
+    <li>شامل کودکان (اولویت=-999)-></li>
+    <li>IncludesChildren(childCount==1)->\n\nیکی از [lodgersLabelSingOrPluralDef] کودک است.</li>
+    <li>includesChildren(childCount>=2)->\n\nبرخی از [lodgersLabelSingOrPluralDef] کودکان هستند.</li>
+    <li>healthInfo-></li>
+    <li>HealthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
+    <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
+    <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
+    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [areIs] از ابازیا فلج رنج می برد و باید در رختخواب نگهداری شود.</li>
+    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] مبتلا به پوسیدگی خون است و نیاز به درمان روزانه دارد. این بیماری را می توان با مراقبت های با کیفیت و دارو کاهش داد، اما به طور کلی نمی توان آن را به طور کامل درمان کرد. اگر بیماری شدید شود، [lodgersLabelSingOrPluralDef] خواهد مرد، بنابراین مطمئن شوید که لوازم پزشکی لازم را دارید.</li>
+    <li>minMoodInfo-></li>
+    <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\nشما باید حالت [lodgersLabelSingOrPluralDef] را بالاتر از [lodgersMoodThreshold_percent] نگه دارید.</li>
+    <li>workInfo-></li>
+    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] هیچ کاری انجام نمی دهد.</li>
+    <li>commonDescEnding->[helpersParagraph]</li>
+    <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->حمله (*Threat)a (/Threat) تقریباً به این اندازه وجود خواهد داشت:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->یک حمله (*Threat)a(/Threat) با قدرت [threatSize]x و تقریباً به این اندازه وجود خواهد داشت:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)-> حملات (*Threat)[threatCount] (/Threat) تقریباً به این اندازه وجود خواهد داشت:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->حمله های (*Threat)[threatCount](/Threat) با قدرت [threatSize]x و تقریباً به این اندازه وجود خواهد داشت:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->خوشه مکانیکی (*Threat)a(/Threat) در این نزدیکی مستقر خواهد شد.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->(*Threat)دو دسته مکانیکی(/Threat) در این نزدیکی مستقر خواهند شد.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->خوشه مکانیکی (*Threat)a(/Threat) با اندازه [threatSize]x در این نزدیکی مستقر خواهد شد.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->(*Threat)دو دسته مکانیکی(/Threat) با اندازه [threatSize]x در این نزدیکی مستقر خواهند شد.</li>
+    <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] اخیراً [mechViolation]، و توسط یک گروه مکانیکی در حال چرخش هدف قرار گرفته است.</li>
+    <li>threatsInfoMechClustersMultiPrisoners->زندانی‌ها اخیراً [mechViolation] و هدف یک گروه مکانیکی در مدار قرار گرفته‌اند.</li>
+    <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] اخیراً [mechViolation]، و توسط یک کندوی مکانیکی هدف قرار گرفته است.</li>
+    <li>threatsInfoMechRaidsMultiHuman->آنها اخیراً [mechViolation] هستند و توسط کندوی مکانیکی هدف قرار گرفته اند.</li>
+    <li>mechViolation->یک شخصیت ماشینی را به نوعی عصبانی کرد</li>
+    <li>mechViolation->یک پایانه ابر رایانه قدیمی را نقض کرد</li>
+    <li>mechViolation->یک کودک انسان مورد علاقه یک آرکوتک را به قتل رساند</li>
+    <li>mechViolation->تلاش کرد یک گره کنترل مکانیکی را هک کند</li>
+    <li>mechViolation->تلاش برای سرقت از یک سایت ذخیره سازی قدیمی</li>
+    <li>letterSubject->{SUBJECT_definite}</li>
+    <li>lodgersHasHave(lodgersCount==1)->دارای</li>
+    <li>lodgersHasHave(lodgersCount>=2)->دارند</li>
+    <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
+    <li>lodgersObjective(lodgersCount>=2)->آنها</li>
+    <li>areIs(lodgersCount==1)->است</li>
+    <li>areIs(lodgersCount>=2)->are</li>
+    <li>remainingWillNowLeave(lodgersCount==1)-></li>
+    <li>remainingWillNowLeave(lodgersCount>=2)->هر [lodgersLabelPlural] باقی مانده اکنون می رود. </li>
+    <li>failLetterEndingQuest->شما در تلاش "[resolvedQuestName]" شکست خورده اید.</li>
+    <li>failLetterEndingCommon(askerIsNull==true,priority=1)->[failLetterEndingQuest]</li>
+    <li>failLetterEndingCommon->[failLetterEndingQuest]\n\nروابط شما با [asker_faction_name] تا [goodwillPenalty] کاهش یافته است.</li></QuestHospitalityCommon.rulePack.rulesStrings>
   
 </LanguageData>

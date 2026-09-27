@@ -2,90 +2,90 @@
 <LanguageData>
   
   <!-- EN: blood transfusion -->
-  <BloodTransfusion.label>TODO</BloodTransfusion.label>
+  <BloodTransfusion.label>انتقال خون</BloodTransfusion.label>
   <!-- EN: Use hemogen packs to reduce the effects of blood loss. Each hemogen pack used recovers 35% blood loss. The operation will also restore hemogen to hemogenic individuals. -->
-  <BloodTransfusion.description>TODO</BloodTransfusion.description>
+  <BloodTransfusion.description>از بسته های هموژن برای کاهش اثرات از دست دادن خون استفاده کنید. هر بسته هموژن استفاده شده 35 درصد از دست دادن خون را بازیابی می کند. این عمل همچنین هموژن را به افراد هموژن باز می گرداند.</BloodTransfusion.description>
   <!-- EN: performing blood transfusion on TargetA. -->
-  <BloodTransfusion.jobString>TODO</BloodTransfusion.jobString>
+  <BloodTransfusion.jobString>انجام انتقال خون در TargetA.</BloodTransfusion.jobString>
   
   <!-- EN: extract hemogen pack -->
-  <ExtractHemogenPack.label>TODO</ExtractHemogenPack.label>
+  <ExtractHemogenPack.label>بسته هموژن استخراج کنید</ExtractHemogenPack.label>
   <!-- EN: Extract a hemogen pack from the target. The operation will fail to produce a hemogen pack if the target does not have enough blood.\n\nHemogen packs can be administered to others to reduce blood loss or to satiate those who feed on blood. -->
-  <ExtractHemogenPack.description>TODO</ExtractHemogenPack.description>
+  <ExtractHemogenPack.description>یک بسته هموژن را از هدف خارج کنید. اگر هدف خون کافی نداشته باشد، این عمل در تولید بسته هموژن با شکست مواجه می‌شود.\n\nبسته‌های هموژن را می‌توان برای کاهش از دست دادن خون یا سیر کردن افرادی که از خون تغذیه می‌کنند به دیگران تزریق کرد.</ExtractHemogenPack.description>
   <!-- EN: Extracting hemogen pack. -->
-  <ExtractHemogenPack.jobString>TODO</ExtractHemogenPack.jobString>
+  <ExtractHemogenPack.jobString>استخراج بسته هموژن</ExtractHemogenPack.jobString>
   
   <!-- EN: extract ovum for IVF -->
-  <ExtractOvum.label>TODO</ExtractOvum.label>
+  <ExtractOvum.label>استخراج تخمک برای IVF</ExtractOvum.label>
   <!-- EN: Extract an ovum into a storage capsule. It can then be fertilized by a man, and finally implanted into a mother to start a pregnancy. -->
-  <ExtractOvum.description>TODO</ExtractOvum.description>
+  <ExtractOvum.description>یک تخمک را در یک کپسول ذخیره کنید. سپس می تواند توسط مرد بارور شود و در نهایت برای شروع بارداری در مادر کاشته شود.</ExtractOvum.description>
   <!-- EN: extracting ovum from TargetA. -->
-  <ExtractOvum.jobString>TODO</ExtractOvum.jobString>
+  <ExtractOvum.jobString>استخراج تخمک از TargetA</ExtractOvum.jobString>
   
   <!-- EN: implant embryo -->
-  <ImplantEmbryo.label>TODO</ImplantEmbryo.label>
+  <ImplantEmbryo.label>کاشت جنین</ImplantEmbryo.label>
   <!-- EN: Implant an embryo in a surrogate mother to begin a pregnancy. -->
-  <ImplantEmbryo.description>TODO</ImplantEmbryo.description>
+  <ImplantEmbryo.description>برای شروع بارداری، یک جنین را در یک مادر جایگزین کاشت کنید.</ImplantEmbryo.description>
   <!-- EN: Implanting embryo in TargetA. -->
-  <ImplantEmbryo.jobString>TODO</ImplantEmbryo.jobString>
+  <ImplantEmbryo.jobString>کاشت جنین در TargetA.</ImplantEmbryo.jobString>
   
   <!-- EN: implant IUD -->
-  <ImplantIUD.label>TODO</ImplantIUD.label>
+  <ImplantIUD.label>IUD ایمپلنت</ImplantIUD.label>
   <!-- EN: Implant a small metal device in the uterus to prevent pregnancies. It can later be removed, but there is a small chance of leaving the patient permanently sterile. This surgery terminates pregnancies in the first trimester. -->
-  <ImplantIUD.description>TODO</ImplantIUD.description>
+  <ImplantIUD.description>برای جلوگیری از بارداری یک دستگاه فلزی کوچک در رحم کاشته کنید. بعداً می توان آن را برداشت، اما احتمال کمی وجود دارد که بیمار برای همیشه استریل شود. این جراحی در سه ماهه اول بارداری را خاتمه می دهد.</ImplantIUD.description>
   <!-- EN: implanting a IUD in TargetA. -->
-  <ImplantIUD.jobString>TODO</ImplantIUD.jobString>
+  <ImplantIUD.jobString>کاشت IUD در TargetA</ImplantIUD.jobString>
   <!-- EN: {0} has successfully implanted an IUD in {1}. -->
-  <ImplantIUD.successfullyRemovedHediffMessage>TODO</ImplantIUD.successfullyRemovedHediffMessage>
+  <ImplantIUD.successfullyRemovedHediffMessage>{0} با موفقیت یک IUD را در {1} کاشت.</ImplantIUD.successfullyRemovedHediffMessage>
   
   <!-- EN: implant xenogerm -->
-  <ImplantXenogerm.label>TODO</ImplantXenogerm.label>
+  <ImplantXenogerm.label>کاشت زنوژرم</ImplantXenogerm.label>
   <!-- EN: Implant a xenogerm into a patient. This replaces any previous xenogerm they may have had. -->
-  <ImplantXenogerm.description>TODO</ImplantXenogerm.description>
+  <ImplantXenogerm.description>کاشت زنوژرم به بیمار این جایگزین هر زنوژرم قبلی که ممکن است داشته باشند می شود.</ImplantXenogerm.description>
   <!-- EN: Implanting xenogerm. -->
-  <ImplantXenogerm.jobString>TODO</ImplantXenogerm.jobString>
+  <ImplantXenogerm.jobString>کاشت زنوژرم</ImplantXenogerm.jobString>
   
   <!-- EN: remove IUD -->
-  <RemoveIUD.label>TODO</RemoveIUD.label>
+  <RemoveIUD.label>IUD را بردارید</RemoveIUD.label>
   <!-- EN: Remove an implanted intrauterine device to allow normal pregnancy. If the surgery goes wrong, the patient will be rendered permanently sterile. -->
-  <RemoveIUD.description>TODO</RemoveIUD.description>
+  <RemoveIUD.description>برای اجازه بارداری طبیعی، یک دستگاه داخل رحمی کاشته شده را بردارید. اگر جراحی اشتباه پیش برود، بیمار برای همیشه استریل می شود.</RemoveIUD.description>
   <!-- EN: removing IUD from TargetA. -->
-  <RemoveIUD.jobString>TODO</RemoveIUD.jobString>
+  <RemoveIUD.jobString>برداشتن IUD از TargetA</RemoveIUD.jobString>
   <!-- EN: {0} has successfully removed {1}'s IUD. -->
-  <RemoveIUD.successfullyRemovedHediffMessage>TODO</RemoveIUD.successfullyRemovedHediffMessage>
+  <RemoveIUD.successfullyRemovedHediffMessage>{0} با موفقیت آی یو دی {1} را برداشت.</RemoveIUD.successfullyRemovedHediffMessage>
   
   <!-- EN: reverse vasectomy -->
-  <ReverseVasectomy.label>TODO</ReverseVasectomy.label>
+  <ReverseVasectomy.label>وازکتومی معکوس</ReverseVasectomy.label>
   <!-- EN: Attempt to reverse the vasectomy and make a man capable of fathering children again. Most vasectomy reversals succeed, but if the surgery goes wrong the man will be left permanently sterile. -->
-  <ReverseVasectomy.description>TODO</ReverseVasectomy.description>
+  <ReverseVasectomy.description>سعی کنید وازکتومی را معکوس کنید و مردی را قادر به فرزندآوری مجدد کنید. اکثر وازکتومی‌های معکوس با موفقیت انجام می‌شوند، اما اگر عمل جراحی اشتباه انجام شود، مرد برای همیشه استریل می‌شود.</ReverseVasectomy.description>
   <!-- EN: performing a vasectomy reversal on TargetA. -->
-  <ReverseVasectomy.jobString>TODO</ReverseVasectomy.jobString>
+  <ReverseVasectomy.jobString>انجام وازکتومی معکوس در TargetA.</ReverseVasectomy.jobString>
   <!-- EN: {0} has successfully performed a vasectomy reversal on {1}. -->
-  <ReverseVasectomy.successfullyRemovedHediffMessage>TODO</ReverseVasectomy.successfullyRemovedHediffMessage>
+  <ReverseVasectomy.successfullyRemovedHediffMessage>{0} با موفقیت یک معکوس وازکتومی بر روی {1} انجام داده است.</ReverseVasectomy.successfullyRemovedHediffMessage>
   
   <!-- EN: terminate pregnancy -->
-  <TerminatePregnancy.label>TODO</TerminatePregnancy.label>
+  <TerminatePregnancy.label>ختم بارداری</TerminatePregnancy.label>
   <!-- EN: Terminate the pregnancy of an animal or human. -->
-  <TerminatePregnancy.description>TODO</TerminatePregnancy.description>
+  <TerminatePregnancy.description>حاملگی حیوان یا انسان را خاتمه دهید.</TerminatePregnancy.description>
   <!-- EN: terminating TargetA's pregnancy. -->
-  <TerminatePregnancy.jobString>TODO</TerminatePregnancy.jobString>
+  <TerminatePregnancy.jobString>ختم حاملگی TargetA</TerminatePregnancy.jobString>
   
   <!-- EN: perform tubal ligation -->
-  <TubalLigation.label>TODO</TubalLigation.label>
+  <TubalLigation.label>انجام بستن لوله‌ها</TubalLigation.label>
   <!-- EN: Permanently render a patient sterile and unable to reproduce. -->
-  <TubalLigation.description>TODO</TubalLigation.description>
+  <TubalLigation.description>بیمار را برای همیشه استریل می کند و قادر به تولید مثل نیست.</TubalLigation.description>
   <!-- EN: performing tubal ligation on TargetA. -->
-  <TubalLigation.jobString>TODO</TubalLigation.jobString>
+  <TubalLigation.jobString>انجام بستن لوله در TargetA.</TubalLigation.jobString>
   <!-- EN: {0} has successfully performed tubal ligation on {1}. -->
-  <TubalLigation.successfullyRemovedHediffMessage>TODO</TubalLigation.successfullyRemovedHediffMessage>
+  <TubalLigation.successfullyRemovedHediffMessage>{0} با موفقیت بستن لوله‌ها را روی {1} انجام داده است.</TubalLigation.successfullyRemovedHediffMessage>
   
   <!-- EN: perform vasectomy -->
-  <Vasectomy.label>TODO</Vasectomy.label>
+  <Vasectomy.label>انجام وازکتومی</Vasectomy.label>
   <!-- EN: Cut the vas deferens to render the patient unable to reproduce. If the surgery goes wrong the patient will be left permanently sterile. -->
-  <Vasectomy.description>TODO</Vasectomy.description>
+  <Vasectomy.description>مجرای دفران را ببرید تا بیمار قادر به تولید مثل نباشد. اگر جراحی اشتباه پیش برود، بیمار برای همیشه استریل می شود.</Vasectomy.description>
   <!-- EN: performing a vasectomy on TargetA. -->
-  <Vasectomy.jobString>TODO</Vasectomy.jobString>
+  <Vasectomy.jobString>انجام وازکتومی روی TargetA.</Vasectomy.jobString>
   <!-- EN: {0} has successfully performed a vasectomy on {1}. -->
-  <Vasectomy.successfullyRemovedHediffMessage>TODO</Vasectomy.successfullyRemovedHediffMessage>
+  <Vasectomy.successfullyRemovedHediffMessage>{0} با موفقیت وازکتومی را روی {1} انجام داده است.</Vasectomy.successfullyRemovedHediffMessage>
   
 </LanguageData>

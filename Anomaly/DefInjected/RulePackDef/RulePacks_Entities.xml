@@ -1,35 +1,47 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] leaped onto [SUBJECT_definite] and began digesting [SUBJECT_objective].</li>
   -->
-  <Event_DevourerConsumeLeap.rulePack.rulesStrings>TODO</Event_DevourerConsumeLeap.rulePack.rulesStrings>
+  <Event_DevourerConsumeLeap.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] بر روی [SUBJECT_definite] پرید و آغاز به هضم او کرد.</li>
+  </Event_DevourerConsumeLeap.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] vomited [SUBJECT_definite] up.</li>
   -->
-  <Event_DevourerDigestionAborted.rulePack.rulesStrings>TODO</Event_DevourerDigestionAborted.rulePack.rulesStrings>
+  <Event_DevourerDigestionAborted.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] [SUBJECT_definite] را بالا آورد.</li>
+  </Event_DevourerDigestionAborted.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] digested [SUBJECT_definite].</li>
   -->
-  <Event_DevourerDigestionCompleted.rulePack.rulesStrings>TODO</Event_DevourerDigestionCompleted.rulePack.rulesStrings>
+  <Event_DevourerDigestionCompleted.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] [SUBJECT_definite] را هضم کرد.</li>
+  </Event_DevourerDigestionCompleted.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] put [SUBJECT_definite] into a trance.</li>
   -->
-  <Event_Hypnotized.rulePack.rulesStrings>TODO</Event_Hypnotized.rulePack.rulesStrings>
+  <Event_Hypnotized.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] [SUBJECT_definite] را در خلسه فرو برد.</li>
+  </Event_Hypnotized.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] emerged from [SUBJECT_definite].</li>
   -->
-  <Event_MetalhorrorEmerged.rulePack.rulesStrings>TODO</Event_MetalhorrorEmerged.rulePack.rulesStrings>
+  <Event_MetalhorrorEmerged.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] از درون [SUBJECT_definite] بیرون آمد.</li>
+  </Event_MetalhorrorEmerged.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] psychically incinerated [SUBJECT_definite]'s brain.</li>
   -->
-  <Event_UnnaturalCorpseAttack.rulePack.rulesStrings>TODO</Event_UnnaturalCorpseAttack.rulePack.rulesStrings>
+  <Event_UnnaturalCorpseAttack.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] مغز [SUBJECT_definite] را با قدرت روانی سوزاند.</li>
+  </Event_UnnaturalCorpseAttack.rulePack.rulesStrings>
   
   <!-- EN:
     <li>verb->breathing</li>
@@ -49,6 +61,23 @@
     <li>verb->gnashing</li>
     <li>verb->coughing</li>
   -->
-  <RevenantNoises.rulePack.rulesStrings>TODO</RevenantNoises.rulePack.rulesStrings>
+  <RevenantNoises.rulePack.rulesStrings>
+    <li>verb->نفس نفس زدن</li>
+    <li>verb->لرزیدن</li>
+    <li>verb->به خود پیچیدن</li>
+    <li>verb->جیرجیر کردن</li>
+    <li>verb->خش‌خش کردن</li>
+    <li>verb->ساییدن</li>
+    <li>verb->فش‌فش کردن</li>
+    <li>verb->نالیدن</li>
+    <li>verb->غرغر کردن</li>
+    <li>verb->تَق‌تَق دندان</li>
+    <li>verb->کلیک‌کلیک کردن</li>
+    <li>verb->خس‌خس سینه</li>
+    <li>verb->خرخر کردن</li>
+    <li>verb->تکان‌های ناگهانی</li>
+    <li>verb->دندان‌قروچه</li>
+    <li>verb->سرفیدن</li>
+  </RevenantNoises.rulePack.rulesStrings>
   
 </LanguageData>

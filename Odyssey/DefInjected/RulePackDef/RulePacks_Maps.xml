@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -843,6 +843,51 @@
     <li>mapType->laminated</li>
     <li>mapType->holographic</li>
   -->
-  <Namer_Map.rulePack.rulesStrings>TODO</Namer_Map.rulePack.rulesStrings>
+  <Namer_Map.rulePack.rulesStrings>
+    <li>title(p=2)->[mapNoun] [mapType] از [subject]</li>
+    <li>title(p=2)->[maybeThe] [map] [mapType]</li>
+    <li>title(p=2)->[maybeAdjective] [map] [maybeAdjective] [ANYPAWN_nameIndef]</li>
+    <li>title->[mapNoun] [mapType]: [subject]</li>
+    <li>title->[mapNoun] از [mapSubjectAdj] [mapSubject]</li>
+    <li>title->[maybeThe] [map] [AdjectiveAny]</li>
+    <li>title(p=0.5)->نقشه‌هایی برای [mapSubjectAdj] [mapSubject]</li>
+    <li>title(p=0.5)->[mapNoun] [place]</li>
+    <li>maybeAdjective-></li>
+    <li>maybeAdjective->[adjective]</li>
+    <li>adjective->[AdjectiveAny]</li>
+    <li>adjective->[Color]</li>
+    <li>adjective->[AdjectiveLarge]</li>
+    <li>maybeThe-></li>
+    <li>maybeThe-></li>
+    <li>map->[mapNoun]</li>
+    <li>map(p=2)->[mapNoun] [place]</li>
+    <li>map->[mapNoun] از [mapSubject]</li>
+    <li>map->[mapNoun] از [mapSubjectAdj] [mapSubject]</li>
+    <li>mapNoun(p=5)->نقشه</li>
+    <li>mapNoun(p=2)->اطلس</li>
+    <li>mapNoun->سالنامه</li>
+    <li>mapNoun->نمودار</li>
+    <li>mapNoun->نقشه‌برداری</li>
+    <li>mapNoun->مطالعه</li>
+    <li>mapNoun->جزوه</li>
+    <li>mapType(p=2)->[Animal]</li>
+    <li>mapType(p=2)->[TreeType]</li>
+    <li>mapType->کانتور</li>
+    <li>mapType->توپوگرافی</li>
+    <li>mapType->برجسته‌نگاری</li>
+    <li>mapType->جمعیت</li>
+    <li>mapType->گنج</li>
+    <li>mapType->توضیح‌دار</li>
+    <li>mapType->مصور</li>
+    <li>mapType->کنفدراسیون</li>
+    <li>mapType->ائتلاف</li>
+    <li>mapType->فدراسیون</li>
+    <li>mapType->تاریخی</li>
+    <li>mapType->کاغذی</li>
+    <li>mapType->چرمی</li>
+    <li>mapType->پوست خوک</li>
+    <li>mapType->لمینت شده</li>
+    <li>mapType->هولوگرافیک</li>
+  </Namer_Map.rulePack.rulesStrings>
   
 </LanguageData>

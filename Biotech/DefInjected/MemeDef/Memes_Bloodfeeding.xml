@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: bloodfeeding -->
-  <Bloodfeeding.label>TODO</Bloodfeeding.label>
+  <Bloodfeeding.label>تغذیه خون</Bloodfeeding.label>
   <!-- EN: Drinking blood is sacred. Bloodfeeders should be worshipped. -->
-  <Bloodfeeding.description>TODO</Bloodfeeding.description>
+  <Bloodfeeding.description>نوشیدن خون مقدس است. خون خواران را باید پرستش کرد.</Bloodfeeding.description>
   <!-- EN:
     <li>creation(tag=meme_Bloodfeeding)        ->[deity0_name] drank the blood of the stars, turning them from red to white.</li>
     <li>episode(uses=1,tag=meme_Bloodfeeding)  ->The [deity0_type] [deity0_name] gave to [deity0_possessive] chosen followers the gift of red hunger, so that they might know true strength.</li>
@@ -28,7 +28,29 @@
     <li>bloodDrinkingAnimal->lamprey</li>
     <li>bloodDrinkingAnimal->blood cobra</li>
   -->
-  <Bloodfeeding.descriptionMaker.rules.rulesStrings>TODO</Bloodfeeding.descriptionMaker.rules.rulesStrings>
+  <Bloodfeeding.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Bloodfeeding)        ->[deity0_name] خون ستارگان را نوشید و آنها را از قرمز به سفید تبدیل کرد.</li>
+    <li>episode(uses=1,tag=meme_Bloodfeeding)  ->[deity0_type] [deity0_name] به دنبال کنندگان منتخب [deity0_possessive] گرسنگی قرمز را هدیه داد تا قدرت واقعی را بشناسند.</li>
+    <li>intro(tag=meme_Bloodfeeding)           ->در [place_summary] [place_name]، انسانی به نام [deity0_name] وجود داشت. به عنوان مجازات برای گناهان [deity0_possessive]، پدر [deity0_possessive] [deity0_name] را با ادغام روح [deity0_possessive] با روح یک [bloodDrinkingAnimal] مجازات کرد.</li>
+    <li>intro(tag=meme_Bloodfeeding)           ->در [place_summary] [place_name]، در طول [ritualName]، [deity0_name] وارد [altarRoomLabel] شد و شکل یک [bloodDrinkingAnimal] غول پیکر را به خود گرفت. [deity0_name] خون [deity0_possessive] [memberNamePlural] را نوشید.</li>
+    <li>conflict(tag=meme_Bloodfeeding)        ->یک [foeLeader] اعلام کرد که همه کسانی که خون نوشیده اند نفرت هستند و [foeSoldiers] را برای آزار و اذیت [memberNamePlural] فرستاد.</li>
+    <li>founderJoin(tag=meme_Bloodfeeding)     ->یک [place_job] به نام [founderName] توسط یکی از [foeSoldiers] [foeLeader] مورد حمله قرار گرفت. [founderName] [foeLeader_objective] را با [place_personalWeapon] کشت و خون [foeLeader_possessive] نوشید و قدرت [deity0_name] را به دست آورد.</li>
+    <li>victory(tag=meme_Bloodfeeding)         ->[founderName] گروهی از [memberNamePlural] را به داخل [place_powerCenter] هدایت کرد و خون [foeLeader] را نوشید و گوشت [foeLeader_possessive] را سوزاند. [deity0_name] [founderName] را به [foeLeader] جدید تبدیل کرد، زیرا [founderName] قدرت خود را ثابت کرده بود.</li>
+    <li>setup(tag=meme_Bloodfeeding)           ->[founderName] به دنبال کنترل یک آرکوتک فوق هوشمند بود. اما قدرت آرکوتک خیلی زیاد بود و [founder_pronoun] در عوض تغییر شکل داد.</li>
+    <li>story(uses=1,tag=meme_Bloodfeeding)    ->[founderName] به دنبال کنندگان [founder_possessive] هدیه گرسنگی داد تا قوی شوند.</li>
+    <li>lessonIntro(tag=meme_Bloodfeeding)     ->اولین بار که خون نوشیدم، معلوم شد. من آن را دیدم</li>
+    <li>lesson(tag=meme_Bloodfeeding)          ->فقط دو نوع آدم وجود دارد - ضعیف و قوی</li>
+    <li>lessonReinforcement(tag=meme_Bloodfeeding) ->نوشیدن خون قوی بودن است و این را به روشنی دانستن.</li>
+    <li>archistBasis(tag=meme_Bloodfeeding)    ->خداماشین های آرکوتک گرسنگی را به انسان هدیه دادند تا انسان آنها را بهتر بشناسد.</li>
+    <li>archistFact(tag=meme_Bloodfeeding)     ->همانطور که آگاهی یک آرکوتک گسترش می یابد، باید بستر خود را با نوشیدن جوهر ماشین های دیگر رشد دهد.</li>
+    <li>archistProphecy(tag=meme_Bloodfeeding) ->[inTheEnd]، انسان با نوشیدن خون و شناخت قدرت واقعی به آرکوتک‌ها نزدیک‌تر خواهد شد.</li>
+    <li>animistBasis(tag=meme_Bloodfeeding)    ->[bloodDrinkingAnimal] قدرت ناشی از نوشیدن خون را می داند. هیچ قدرتی بالاتر از آنچه از خون انسان می آید وجود ندارد.</li>
+    <li>animistFact(tag=meme_Bloodfeeding)     ->ما می توانیم با مصرف خون انسان بر قدرت او مسلط شویم.</li>
+    <li>bloodDrinkingAnimal->خفاش خون آشام</li>
+    <li>bloodDrinkingAnimal->زالو</li>
+    <li>bloodDrinkingAnimal->لمپری</li>
+    <li>bloodDrinkingAnimal->کبرای خونی</li>
+  </Bloodfeeding.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->blood</li>
     <li>memeAdjective->blood hungry</li>
@@ -45,6 +67,21 @@
     <li>memeMoralist->sanguinist</li>
     <li>memeMoralist->sanguinarian</li>
   -->
-  <Bloodfeeding.generalRules.rulesStrings>TODO</Bloodfeeding.generalRules.rulesStrings>
+  <Bloodfeeding.generalRules.rulesStrings>
+    <li>memeAdjective->خون</li>
+    <li>memeAdjective->خون گرسنه</li>
+    <li>memeCreed->دخمه</li>
+    <li>memeCreed->لانه</li>
+    <li>memeCreed->coven</li>
+    <li>memeHyphenPrefix->همو</li>
+    <li>memeConcept->خون</li>
+    <li>memeConcept->گرسنگی</li>
+    <li>memeLeaderNoun->بزرگتر</li>
+    <li>memeLeaderNoun->استاد</li>
+    <li>memeLeaderNoun->خون خوار</li>
+    <li>memeMoralist->سنشال</li>
+    <li>memeMoralist->سانگوینیست</li>
+    <li>memeMoralist->روان شناس</li>
+  </Bloodfeeding.generalRules.rulesStrings>
   
 </LanguageData>

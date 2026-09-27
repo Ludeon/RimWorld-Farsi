@@ -2,23 +2,23 @@
 <LanguageData>
   
   <!-- EN: linker -->
-  <AnimaTreeLinking.roles.0.label>TODO</AnimaTreeLinking.roles.0.label>
+  <AnimaTreeLinking.roles.0.label>پیوند دهنده</AnimaTreeLinking.roles.0.label>
   <!-- EN: Only adults can link with an anima tree. -->
-  <AnimaTreeLinking.roles.0.customChildDisallowMessage>TODO</AnimaTreeLinking.roles.0.customChildDisallowMessage>
+  <AnimaTreeLinking.roles.0.customChildDisallowMessage>فقط بزرگسالان می توانند با درخت آنیما پیوند برقرار کنند.</AnimaTreeLinking.roles.0.customChildDisallowMessage>
   <!-- EN: Need a colonist with the natural meditation focus type who is below maximum psylink level and not psychically deaf. -->
-  <AnimaTreeLinking.roles.0.noCandidatesGizmoDesc>TODO</AnimaTreeLinking.roles.0.noCandidatesGizmoDesc>
+  <AnimaTreeLinking.roles.0.noCandidatesGizmoDesc>به یک مستعمره کننده با نوع تمرکز مراقبه طبیعی نیاز دارید که زیر حداکثر سطح پیوند روانی باشد و از نظر روانی ناشنوا نباشد.</AnimaTreeLinking.roles.0.noCandidatesGizmoDesc>
   <!-- EN: Must have natural focus type. -->
-  <AnimaTreeLinking.spectatorFilter.description>TODO</AnimaTreeLinking.spectatorFilter.description>
+  <AnimaTreeLinking.spectatorFilter.description>باید نوع فوکوس طبیعی داشته باشد.</AnimaTreeLinking.spectatorFilter.description>
   <!-- EN: participate -->
-  <AnimaTreeLinking.spectatorGerund>TODO</AnimaTreeLinking.spectatorGerund>
+  <AnimaTreeLinking.spectatorGerund>شرکت کنند</AnimaTreeLinking.spectatorGerund>
   <!-- EN: Participants -->
-  <AnimaTreeLinking.spectatorsLabel>TODO</AnimaTreeLinking.spectatorsLabel>
+  <AnimaTreeLinking.spectatorsLabel>شرکت کنندگان</AnimaTreeLinking.spectatorsLabel>
   
   <!-- EN: {ORGANIZER_labelShort} is giving a speech from the throne.\n\nIf all goes well, listeners will feel inspired, and gain respect for {ORGANIZER_labelShort}. If it goes poorly, the speech will do social damage. The outcome depends on {ORGANIZER_labelShort}'s social abilities. -->
-  <ThroneSpeech.letterText>TODO</ThroneSpeech.letterText>
+  <ThroneSpeech.letterText>{ORGANIZER_labelShort} در حال سخنرانی از تاج و تخت است.\n\nاگر همه چیز خوب پیش برود، شنوندگان احساس الهام می‌کنند و به {ORGANIZER_labelShort} احترام می‌گذارند. اگر ضعیف پیش برود، سخنرانی آسیب اجتماعی خواهد داشت. نتیجه به توانایی های اجتماعی {ORGANIZER_labelShort} بستگی دارد.</ThroneSpeech.letterText>
   <!-- EN: Speech from the throne -->
-  <ThroneSpeech.letterTitle>TODO</ThroneSpeech.letterTitle>
+  <ThroneSpeech.letterTitle>سخنرانی از عرش</ThroneSpeech.letterTitle>
   <!-- EN: organizer -->
-  <ThroneSpeech.roles.0.label>TODO</ThroneSpeech.roles.0.label>
+  <ThroneSpeech.roles.0.label>سازمان دهنده</ThroneSpeech.roles.0.label>
   
 </LanguageData>

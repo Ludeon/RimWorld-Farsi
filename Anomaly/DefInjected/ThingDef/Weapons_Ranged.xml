@@ -1,37 +1,45 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: hellcat rifle bullet -->
-  <Bullet_HellcatRifle.label>TODO</Bullet_HellcatRifle.label>
+  <Bullet_HellcatRifle.label>گلوله تفنگ هل‌کت</Bullet_HellcatRifle.label>
   
   <!-- EN: hellcat rifle -->
-  <Gun_HellcatRifle.label>TODO</Gun_HellcatRifle.label>
-  <!-- EN: A versatile assault rifle with good range, decent power, and good accuracy.\n\nIt also comes equipped with a bioferrite-powered mini-burner unit which generates a blast of flame from pressurized bioferrite charges. The mini-burner unit can be used twice before refueling. -->
-  <Gun_HellcatRifle.description>TODO</Gun_HellcatRifle.description>
+  <Gun_HellcatRifle.label>تفنگ تهاجمی هل‌کت</Gun_HellcatRifle.label>
+  <!-- EN: A versatile assault rifle with good range, decent power, and good accuracy.
+
+It also comes equipped with a bioferrite-powered mini-burner unit which generates a blast of flame from pressurized bioferrite charges. The mini-burner unit can be used twice before refueling. -->
+  <Gun_HellcatRifle.description>یک تفنگ تهاجمی همه‌کاره با برد مناسب، قدرت درخور و دقت خوب.
+
+این سلاح همچنین به یک واحد شعله‌افکن کوچک مجهز به بیوفریت مجهز است که از خشاب‌های تحت فشار بیوفریت انفجاری از شعله آتش شلیک می‌کند. این واحد شعله‌افکن را می‌توان پیش از سوخت‌گیری مجدد دو بار استفاده کرد.</Gun_HellcatRifle.description>
   <!-- EN: burner charge -->
-  <Gun_HellcatRifle.comps.CompEquippableAbilityReloadable.chargeNoun>TODO</Gun_HellcatRifle.comps.CompEquippableAbilityReloadable.chargeNoun>
+  <Gun_HellcatRifle.comps.CompEquippableAbilityReloadable.chargeNoun>شارژ شعله‌افکن</Gun_HellcatRifle.comps.CompEquippableAbilityReloadable.chargeNoun>
   <!-- EN: on cooldown -->
-  <Gun_HellcatRifle.comps.CompEquippableAbilityReloadable.cooldownGerund>TODO</Gun_HellcatRifle.comps.CompEquippableAbilityReloadable.cooldownGerund>
+  <Gun_HellcatRifle.comps.CompEquippableAbilityReloadable.cooldownGerund>در حال تجدید قوا</Gun_HellcatRifle.comps.CompEquippableAbilityReloadable.cooldownGerund>
   <!-- EN: stock -->
-  <Gun_HellcatRifle.tools.stock.label>TODO</Gun_HellcatRifle.tools.stock.label>
+  <Gun_HellcatRifle.tools.stock.label>قنداق</Gun_HellcatRifle.tools.stock.label>
   <!-- EN: barrel -->
-  <Gun_HellcatRifle.tools.barrel.label>TODO</Gun_HellcatRifle.tools.barrel.label>
+  <Gun_HellcatRifle.tools.barrel.label>لوله</Gun_HellcatRifle.tools.barrel.label>
   <!-- EN: hellcat rifle -->
-  <Gun_HellcatRifle.verbs.Verb_Shoot.label>TODO</Gun_HellcatRifle.verbs.Verb_Shoot.label>
+  <Gun_HellcatRifle.verbs.Verb_Shoot.label>شلیک تفنگ هل‌کت</Gun_HellcatRifle.verbs.Verb_Shoot.label>
   
   <!-- EN: incinerator -->
-  <Gun_Incinerator.label>TODO</Gun_Incinerator.label>
-  <!-- EN: A heavy weapon that can spray a stream of flame into an area. It can shoot in an arc over allies without harming them. The flame burns off rapidly, so it will only ignite the most flammable targets.\n\nWhile the main flamethrower can be used without limit, the weapon also comes equipped with a bioferrite-powered mega-burner unit which generates a massive blast of flame from a pressurized bioferrite charge. The mega-burner unit must be refueled after each use. -->
-  <Gun_Incinerator.description>TODO</Gun_Incinerator.description>
+  <Gun_Incinerator.label>آتش‌افکن (اینسینریتور)</Gun_Incinerator.label>
+  <!-- EN: A heavy weapon that can spray a stream of flame into an area. It can shoot in an arc over allies without harming them. The flame burns off rapidly, so it will only ignite the most flammable targets.
+
+While the main flamethrower can be used without limit, the weapon also comes equipped with a bioferrite-powered mega-burner unit which generates a massive blast of flame from a pressurized bioferrite charge. The mega-burner unit must be refueled after each use. -->
+  <Gun_Incinerator.description>سلاحی سنگین که جریانی از آتش را به یک منطقه اسپری می‌کند. این سلاح می‌تواند در یک مسیر قوسی از بالای سر متحدان شلیک کند بدون آنکه به آن‌ها آسیب برساند. شعله سریع می‌سوزد و ناپدید می‌شود، بنابراین فقط آتش‌گیرترین اهداف را مشتعل می‌کند.
+
+در حالی که شعله‌افکن اصلی بدون محدودیت قابل استفاده است، سلاح همچنین دارای یک واحد مگاسوزنده با سوخت بیوفریت است که انفجاری عظیم از شعله پدید می‌آورد. واحد مگاسوزنده پس از هر بار شلیک باید مجدداً سوخت‌گیری شود.</Gun_Incinerator.description>
   <!-- EN: burner charge -->
-  <Gun_Incinerator.comps.CompEquippableAbilityReloadable.chargeNoun>TODO</Gun_Incinerator.comps.CompEquippableAbilityReloadable.chargeNoun>
+  <Gun_Incinerator.comps.CompEquippableAbilityReloadable.chargeNoun>شارژ شعله‌افکن</Gun_Incinerator.comps.CompEquippableAbilityReloadable.chargeNoun>
   <!-- EN: on cooldown -->
-  <Gun_Incinerator.comps.CompEquippableAbilityReloadable.cooldownGerund>TODO</Gun_Incinerator.comps.CompEquippableAbilityReloadable.cooldownGerund>
+  <Gun_Incinerator.comps.CompEquippableAbilityReloadable.cooldownGerund>در حال تجدید قوا</Gun_Incinerator.comps.CompEquippableAbilityReloadable.cooldownGerund>
   <!-- EN: stock -->
-  <Gun_Incinerator.tools.stock.label>TODO</Gun_Incinerator.tools.stock.label>
+  <Gun_Incinerator.tools.stock.label>قنداق</Gun_Incinerator.tools.stock.label>
   <!-- EN: barrel -->
-  <Gun_Incinerator.tools.barrel.label>TODO</Gun_Incinerator.tools.barrel.label>
+  <Gun_Incinerator.tools.barrel.label>لوله</Gun_Incinerator.tools.barrel.label>
   <!-- EN: incinerator -->
-  <Gun_Incinerator.verbs.Verb_ArcSprayIncinerator.label>TODO</Gun_Incinerator.verbs.Verb_ArcSprayIncinerator.label>
+  <Gun_Incinerator.verbs.Verb_ArcSprayIncinerator.label>شلیک آتش‌افکن</Gun_Incinerator.verbs.Verb_ArcSprayIncinerator.label>
   
 </LanguageData>

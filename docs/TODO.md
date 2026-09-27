@@ -103,6 +103,10 @@
 
 ### Keyed Translations:
 - ✅ **ALL KEYED TRANSLATIONS COMPLETE** (Core, Royalty, Ideology, Biotech, Anomaly, Odyssey)
+
+### Full Expansion Completions:
+- ✅ **Ideology Complete (100%)**: Ritual outcomes, ritual behaviors, memes, ceremonies, leader titles.
+- ✅ **Anomaly Complete (~100%)**: All anomalous entities, mutants, ghouls, shamblers, monolith awakening stages, creepjoiners, fleshbeasts, psychic rituals, bioferrite prosthetics, weapons, artifacts.
   - ✅ `TerrainTags.xml` (Core)
   - ✅ `Menu_Options.xml` (Core)
   - ✅ `Dialog_Trees.xml` (Core)

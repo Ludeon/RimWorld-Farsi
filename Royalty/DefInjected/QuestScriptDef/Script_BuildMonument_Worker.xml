@@ -2,34 +2,34 @@
 <LanguageData>
   
   <!-- EN: Monument completed -->
-  <BuildMonumentWorker.LetterLabelMonumentConstructed.slateRef>TODO</BuildMonumentWorker.LetterLabelMonumentConstructed.slateRef>
+  <BuildMonumentWorker.LetterLabelMonumentConstructed.slateRef>بنای یادبود تکمیل شد</BuildMonumentWorker.LetterLabelMonumentConstructed.slateRef>
   <!-- EN: You completed construction of the monument.\n\nYou must not destroy it for at least [keepMonumentTicks_duration], otherwise you will anger [asker_factionName] ([goodwillChangeIfMonumentDestroyed] goodwill). -->
-  <BuildMonumentWorker.LetterTextMonumentConstructed.slateRef>TODO</BuildMonumentWorker.LetterTextMonumentConstructed.slateRef>
+  <BuildMonumentWorker.LetterTextMonumentConstructed.slateRef>شما ساخت بنای تاریخی را به پایان رساندید.\n\nشما نباید حداقل برای [keepMonumentTicks_duration] آن را تخریب کنید، در غیر این صورت [asker_factionName] (خوب نیت [goodwillChangeIfMonumentDestroyed]) را عصبانی خواهید کرد.</BuildMonumentWorker.LetterTextMonumentConstructed.slateRef>
   <!-- EN: Monument destroyed -->
-  <BuildMonumentWorker.LetterLabelMonumentRuined.slateRef>TODO</BuildMonumentWorker.LetterLabelMonumentRuined.slateRef>
+  <BuildMonumentWorker.LetterLabelMonumentRuined.slateRef>بنای تاریخی تخریب شد</BuildMonumentWorker.LetterLabelMonumentRuined.slateRef>
   <!-- EN: [asker_nameDef] is offended that you allowed the monument to be ruined so soon after completion.\n\nYour relations with [asker_faction_name] have fallen by [goodwillChangeIfMonumentDestroyed]. -->
-  <BuildMonumentWorker.LetterTextMonumentRuined.slateRef>TODO</BuildMonumentWorker.LetterTextMonumentRuined.slateRef>
+  <BuildMonumentWorker.LetterTextMonumentRuined.slateRef>[asker_nameDef] از اینکه اجازه دادید بنای تاریخی به این زودی پس از اتمام خراب شود، آزرده است.\n\nرابطه شما با [asker_faction_name] به میزان [goodwillChangeIfMonumentDestroyed] کاهش یافته است.</BuildMonumentWorker.LetterTextMonumentRuined.slateRef>
   <!-- EN: Do not destroy the monument for {0} -->
-  <BuildMonumentWorker.DontDestroyMonumentForDays.slateRef>TODO</BuildMonumentWorker.DontDestroyMonumentForDays.slateRef>
+  <BuildMonumentWorker.DontDestroyMonumentForDays.slateRef>بنای یادبود را برای {0} تخریب نکنید</BuildMonumentWorker.DontDestroyMonumentForDays.slateRef>
   <!-- EN: Do not destroy the monument for {0} -->
-  <BuildMonumentWorker.DontDestroyMonumentForDaysTip.slateRef>TODO</BuildMonumentWorker.DontDestroyMonumentForDaysTip.slateRef>
+  <BuildMonumentWorker.DontDestroyMonumentForDaysTip.slateRef>بنای یادبود را برای {0} تخریب نکنید</BuildMonumentWorker.DontDestroyMonumentForDaysTip.slateRef>
   <!-- EN: Keep monument {0} -->
-  <BuildMonumentWorker.KeepMonument.slateRef>TODO</BuildMonumentWorker.KeepMonument.slateRef>
+  <BuildMonumentWorker.KeepMonument.slateRef>بنای یادبود {0} را نگه دارید</BuildMonumentWorker.KeepMonument.slateRef>
   <!-- EN: The monument for the quest '[resolvedQuestName]' has been violated. Consequences will follow. -->
-  <BuildMonumentWorker.MessageMonumentViolated.slateRef>TODO</BuildMonumentWorker.MessageMonumentViolated.slateRef>
+  <BuildMonumentWorker.MessageMonumentViolated.slateRef>بنای یادبود تلاش "[resolvedQuestName]" نقض شده است. عواقب به دنبال خواهد داشت.</BuildMonumentWorker.MessageMonumentViolated.slateRef>
   <!-- EN: Protect the monument for {0} -->
-  <BuildMonumentWorker.ProtectMonumentForDays.slateRef>TODO</BuildMonumentWorker.ProtectMonumentForDays.slateRef>
+  <BuildMonumentWorker.ProtectMonumentForDays.slateRef>از بنای یادبود برای {0} محافظت کنید</BuildMonumentWorker.ProtectMonumentForDays.slateRef>
   <!-- EN: Protect the monument until {0} -->
-  <BuildMonumentWorker.ProtectMonumentForDaysTip.slateRef>TODO</BuildMonumentWorker.ProtectMonumentForDaysTip.slateRef>
+  <BuildMonumentWorker.ProtectMonumentForDaysTip.slateRef>از بنای تاریخی تا {0} محافظت کنید</BuildMonumentWorker.ProtectMonumentForDaysTip.slateRef>
   <!-- EN: Protect for {0} -->
-  <BuildMonumentWorker.ProtectMonument.slateRef>TODO</BuildMonumentWorker.ProtectMonument.slateRef>
+  <BuildMonumentWorker.ProtectMonument.slateRef>برای {0} محافظت کنید</BuildMonumentWorker.ProtectMonument.slateRef>
   <!-- EN: New monument marker arrived -->
-  <BuildMonumentWorker.LetterLabelMonumentMarkerArrived.slateRef>TODO</BuildMonumentWorker.LetterLabelMonumentMarkerArrived.slateRef>
+  <BuildMonumentWorker.LetterLabelMonumentMarkerArrived.slateRef>نشانگر یادبود جدید رسید</BuildMonumentWorker.LetterLabelMonumentMarkerArrived.slateRef>
   <!-- EN: Since the monument marker has been destroyed, a new one has been sent. -->
-  <BuildMonumentWorker.LetterTextMonumentMarkerArrived.slateRef>TODO</BuildMonumentWorker.LetterTextMonumentMarkerArrived.slateRef>
+  <BuildMonumentWorker.LetterTextMonumentMarkerArrived.slateRef>از آنجایی که نشانگر بنای تاریخی تخریب شده است، یک نشانگر جدید ارسال شده است.</BuildMonumentWorker.LetterTextMonumentMarkerArrived.slateRef>
   <!-- EN: Monument time expired -->
-  <BuildMonumentWorker.LetterLabelTimeExpired.slateRef>TODO</BuildMonumentWorker.LetterLabelTimeExpired.slateRef>
+  <BuildMonumentWorker.LetterLabelTimeExpired.slateRef>زمان بنای یادبود به پایان رسیده است</BuildMonumentWorker.LetterLabelTimeExpired.slateRef>
   <!-- EN: Your time limit to construct the monument has expired. [failLetterEndingCommon] -->
-  <BuildMonumentWorker.LetterTextTimeExpired.slateRef>TODO</BuildMonumentWorker.LetterTextTimeExpired.slateRef>
+  <BuildMonumentWorker.LetterTextTimeExpired.slateRef>محدودیت زمانی شما برای ساخت بنا به پایان رسیده است. [failLetterEndingCommon]</BuildMonumentWorker.LetterTextTimeExpired.slateRef>
   
 </LanguageData>

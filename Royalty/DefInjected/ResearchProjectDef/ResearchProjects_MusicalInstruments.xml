@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: harp -->
-  <Harp.label>TODO</Harp.label>
+  <Harp.label>چنگ</Harp.label>
   <!-- EN: Craft the harp, a simple stationary musical instrument popular among nobility in some cultures. -->
-  <Harp.description>TODO</Harp.description>
+  <Harp.description>چنگ را بسازید، یک ابزار موسیقی ثابت ساده و محبوب در میان اشراف در برخی فرهنگ‌ها.</Harp.description>
   <!-- EN:
     <li>subject->harps</li>
     <li>subject->simple string instruments</li>
@@ -15,12 +15,19 @@
     <li>subject_story->researched the cultural significance of stringed instrument usage</li>
     <li>subject_gerund->playing the harp</li>
   -->
-  <Harp.generalRules.rulesStrings>TODO</Harp.generalRules.rulesStrings>
+  <Harp.generalRules.rulesStrings><li>موضوع->چنگ</li>
+    <li>subject->سازهای زهی ساده</li>
+    <li>subject_story->در مدرسه موسیقی آموزش دیده</li>
+    <li>subject_story->یک چنگ از مواد رایج دنیای وحشی ساخت</li>
+    <li>subject_story->انفرادی چنگ را برای اشراف امپراتوری اجرا کرد</li>
+    <li>subject_story->هر روز گلیساندو را تمرین می کرد</li>
+    <li>subject_story->درباره اهمیت فرهنگی استفاده از سازهای زهی تحقیق کرد</li>
+    <li>subject_gerund->نواختن چنگ</li></Harp.generalRules.rulesStrings>
   
   <!-- EN: harpsichord -->
-  <Harpsichord.label>TODO</Harpsichord.label>
+  <Harpsichord.label>هارپسیکورد</Harpsichord.label>
   <!-- EN: Craft the harpsichord, a complex stationary musical instrument. -->
-  <Harpsichord.description>TODO</Harpsichord.description>
+  <Harpsichord.description>هارپسیکورد، یک ساز موسیقی ثابت پیچیده را بسازید.</Harpsichord.description>
   <!-- EN:
     <li>subject->harpsichord</li>
     <li>subject_story->led a renaissance in the harpsichord in the coreworld systems</li>
@@ -29,12 +36,17 @@
     <li>subject_story->constructed dual-keyboard harpsichords focused on harmonics</li>
     <li>subject_gerund->playing the harpsichord</li>
   -->
-  <Harpsichord.generalRules.rulesStrings>TODO</Harpsichord.generalRules.rulesStrings>
+  <Harpsichord.generalRules.rulesStrings><li>موضوع->هارپسیکورد</li>
+    <li>subject_story->رنسانس را در هارپسیکورد در سیستم‌های دنیای هسته رهبری کرد</li>
+    <li>subject_story->هارپسیکوردهای کوک شده برای استفاده کنسرت در Glitterworlds</li>
+    <li>subject_story->نقشی به عنوان نوازنده اصلی هارپیشورد برای فیلارمونیک محلی بر عهده گرفت</li>
+    <li>subject_story->هارپسیکوردهای کیبورد دوگانه با تمرکز بر هارمونیک</li>
+    <li>subject_gerund->نواختن هارپسیکورد</li></Harpsichord.generalRules.rulesStrings>
   
   <!-- EN: piano -->
-  <Piano.label>TODO</Piano.label>
+  <Piano.label>پیانو</Piano.label>
   <!-- EN: Craft the piano, an advanced stationary musical instrument. -->
-  <Piano.description>TODO</Piano.description>
+  <Piano.description>ساخت پیانو، یک ساز پیشرفته موسیقی ثابت.</Piano.description>
   <!-- EN:
     <li>subject->piano</li>
     <li>subject_story->was acquainted with the entire corpus of stringed instruments</li>
@@ -44,6 +56,12 @@
     <li>subject_story->constructed a strange piano</li>
     <li>subject_gerund->playing the piano</li>
   -->
-  <Piano.generalRules.rulesStrings>TODO</Piano.generalRules.rulesStrings>
+  <Piano.generalRules.rulesStrings><li>موضوع->پیانو</li>
+    <li>subject_story->با کل مجموعه سازهای زهی آشنا شد</li>
+    <li>subject_story->به یک آکادمی موسیقی ملحق شد، جایی که دانش‌آموزان در مورد آهنگسازان به اندازه خود پیانو یاد گرفتند</li>
+    <li>subject_story->پیانوهای بین دو جهان منتقل شده</li>
+    <li>subject_story->تکنیک های چند استاد پیانیست را ضبط کرد</li>
+    <li>subject_story->پیانوی عجیبی ساخت</li>
+    <li>subject_gerund->نواختن پیانو</li></Piano.generalRules.rulesStrings>
   
 </LanguageData>

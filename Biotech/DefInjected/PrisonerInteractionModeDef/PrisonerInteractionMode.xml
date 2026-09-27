@@ -2,13 +2,13 @@
 <LanguageData>
   
   <!-- EN: bloodfeed -->
-  <Bloodfeed.label>TODO</Bloodfeed.label>
+  <Bloodfeed.label>تغذیه خون</Bloodfeed.label>
   <!-- EN: When a bloodfeeder's hemogen levels are low, they may feed on this prisoner. Other prisoners who are bloodfeeders can also feed on this prisoner, if they are in the same cell. -->
-  <Bloodfeed.description>TODO</Bloodfeed.description>
+  <Bloodfeed.description>هنگامی که سطح هموژن یک دستگاه تغذیه خون پایین باشد، ممکن است از این زندانی تغذیه کند. سایر زندانیان خونخوار نیز اگر در یک سلول باشند می توانند از این زندانی تغذیه کنند.</Bloodfeed.description>
   
   <!-- EN: hemogen farm -->
-  <HemogenFarm.label>TODO</HemogenFarm.label>
+  <HemogenFarm.label>مزرعه هموژن</HemogenFarm.label>
   <!-- EN: An operation to extract hemogen packs will be automatically queued on this prisoner whenever it can be done without killing them. The operation will be carried out by a doctor. -->
-  <HemogenFarm.description>TODO</HemogenFarm.description>
+  <HemogenFarm.description>عملیات استخراج بسته های هموژن به طور خودکار روی این زندانی قرار می گیرد که بدون کشتن آنها انجام شود. این عمل توسط پزشک انجام خواهد شد.</HemogenFarm.description>
   
 </LanguageData>

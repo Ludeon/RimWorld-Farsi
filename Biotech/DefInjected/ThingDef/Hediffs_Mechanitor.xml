@@ -2,52 +2,52 @@
 <LanguageData>
   
   <!-- EN: control sublink (standard) -->
-  <ControlSublink.label>TODO</ControlSublink.label>
+  <ControlSublink.label>پیوند فرعی کنترل (استاندارد)</ControlSublink.label>
   <!-- EN: A neural implant which gives a mechanitor an additional control group. Additionally, the sublink slightly increases the work speed of any mechanoids controlled by the mechanitor.\n\nThis standard-tier sublink can only increase the control group count up to 3. To go higher, a higher-tier sublink implant must be used.\n\nIt can be self-installed without surgery.\n\nThis implant can be installed up to 3 times to increase its effect. -->
-  <ControlSublink.description>TODO</ControlSublink.description>
+  <ControlSublink.description>یک ایمپلنت عصبی که یک گروه کنترل اضافی را به مکانیکاتور می دهد. علاوه بر این، پیوند فرعی سرعت کار هر مکانوئیدی را که توسط مکانیک کنترل می‌شود کمی افزایش می‌دهد.\n\nاین زیرپیوند لایه استاندارد فقط می‌تواند تعداد گروه کنترل را تا 3 افزایش دهد. برای رفتن به بالاتر، باید از یک ایمپلنت فرعی سطح بالاتر استفاده شود.\n\nاین ایمپلنت را می‌توان بدون جراحی نصب کرد.\n\nاین ایمپلنت را می‌توان تا 3 برابر نصب کرد.</ControlSublink.description>
   <!-- EN: Implant sublink -->
-  <ControlSublink.comps.CompUsableImplant.useLabel>TODO</ControlSublink.comps.CompUsableImplant.useLabel>
+  <ControlSublink.comps.CompUsableImplant.useLabel>پیوند فرعی ایمپلنت</ControlSublink.comps.CompUsableImplant.useLabel>
   
   <!-- EN: control sublink (high) -->
-  <ControlSublinkHigh.label>TODO</ControlSublinkHigh.label>
+  <ControlSublinkHigh.label>لینک فرعی کنترل (بالا)</ControlSublinkHigh.label>
   <!-- EN: A neural implant which gives a mechanitor an additional control group. Additionally, the sublink slightly increases the work speed of any mechanoids controlled by the mechanitor.\n\nThis high-tier implant can increase the control group count up to 6.\n\nIt can be self-installed without surgery.\n\nThis implant can be installed up to 3 times to increase its effect. -->
-  <ControlSublinkHigh.description>TODO</ControlSublinkHigh.description>
+  <ControlSublinkHigh.description>یک ایمپلنت عصبی که یک گروه کنترل اضافی را به مکانیکاتور می دهد. علاوه بر این، پیوند فرعی سرعت کار هر مکانوئیدی را که توسط مکانیتور کنترل می‌شود کمی افزایش می‌دهد.\n\nاین ایمپلنت سطح بالا می‌تواند تعداد گروه‌های کنترل را تا 6 افزایش دهد.\n\nاین ایمپلنت را می‌توان بدون جراحی خود نصب کرد.\n\nاین ایمپلنت را می‌توان تا 3 بار برای افزایش اثر آن نصب کرد.</ControlSublinkHigh.description>
   <!-- EN: Implant high sublink -->
-  <ControlSublinkHigh.comps.CompUsableImplant.useLabel>TODO</ControlSublinkHigh.comps.CompUsableImplant.useLabel>
+  <ControlSublinkHigh.comps.CompUsableImplant.useLabel>پیوند فرعی ایمپلنت بالا</ControlSublinkHigh.comps.CompUsableImplant.useLabel>
   
   <!-- EN: mech gestation processor -->
-  <MechFormfeeder.label>TODO</MechFormfeeder.label>
+  <MechFormfeeder.label>پردازشگر حاملگی مکانیکی</MechFormfeeder.label>
   <!-- EN: An implant which increases the speed at which a mechanitor can produce mechs in a mech gestator. The processor optimizes the behavior of the mechanites in the mech forming tank.\n\nThis implant can be self-installed in the same way as the mechlink.\n\nThis implant can be installed up to 6 times to increase its effect. -->
-  <MechFormfeeder.description>TODO</MechFormfeeder.description>
+  <MechFormfeeder.description>ایمپلنتی که سرعتی را افزایش می‌دهد که یک مکانیتور می‌تواند با آن مواد مکانیکی تولید کند. پردازشگر رفتار مکانیک‌ها را در مخزن شکل‌دهی مکانیکی بهینه می‌کند.\n\nاین ایمپلنت را می‌توان به همان روشی که mechlink نصب می‌کند به‌صورت خودکار نصب کرد.\n\nاین ایمپلنت را می‌توان تا ۶ بار برای افزایش اثر آن نصب کرد.</MechFormfeeder.description>
   <!-- EN: Implant {0_label} -->
-  <MechFormfeeder.comps.CompUsableImplant.useLabel>TODO</MechFormfeeder.comps.CompUsableImplant.useLabel>
+  <MechFormfeeder.comps.CompUsableImplant.useLabel>ایمپلنت {0_label}</MechFormfeeder.comps.CompUsableImplant.useLabel>
   
   <!-- EN: mechlink -->
-  <Mechlink.label>TODO</Mechlink.label>
+  <Mechlink.label>mechlink</Mechlink.label>
   <!-- EN: A bionic implant that allows direct control of mechanoids. Mechlinks are used by soldiers to control war mechs, and by workers to control labor mechs. A person with a mechlink is known as a mechanitor.\n\nMechlinks are self-installable. Pressed into the back of the throat, the unit injects itself through the flesh to clamp inside the base of the skull where it meets the spinal cord. There, it threads a web of ultrafine wires throughout nearby neuronal tissue to make the direct mental link between the user and the mechanoid control band.\n\nMechlinks are not simply devices for sending radio signals to mechanoids, because mechanoids are not merely robots. In addition to traditional computers, mechanoids have a dim psychic presence, so fluently controlling them requires a psychic connection. By linking mechanitor and mechanoid both psychically and electromagnetically, the mechlink permits deeper control than screen-and-button interfaces.\n\nSince the mechlink interlaces deep within the brain tissue, it can only be removed after death.\n\nNote: A mechanitor must be capable of smithing work to gestate mechanoids. -->
-  <Mechlink.description>TODO</Mechlink.description>
+  <Mechlink.description>یک ایمپلنت بیونیک که امکان کنترل مستقیم مکانوئیدها را فراهم می کند. مچلینک‌ها توسط سربازان برای کنترل ماشین های جنگی و توسط کارگران برای کنترل ماشین های کارگری استفاده می شود. فردی که دارای mechlink است به عنوان یک مکانیک شناخته می شود.\n\nمکانیک‌ها قابل نصب هستند. با فشار دادن به پشت گلو، واحد خود را از طریق گوشت تزریق می‌کند تا در قاعده جمجمه جایی که به نخاع می‌رسد، محکم شود. در آنجا، شبکه‌ای از سیم‌های بسیار ظریف را در سراسر بافت عصبی مجاور می‌پیچد تا پیوند ذهنی مستقیم بین کاربر و باند کنترل مکانیکی ایجاد کند.\n\nمکانوئیدها صرفاً وسیله‌ای برای ارسال سیگنال‌های رادیویی به مکانیسم‌ها نیستند، زیرا مکانیسم‌ها صرفاً روبات نیستند. علاوه بر رایانه های سنتی، مکانیک‌ها حضور روانی کم رنگی دارند، بنابراین کنترل روان آنها مستلزم یک ارتباط روانی است. با پیوند مکانیک و مکانوئید هم از نظر روانی و هم از نظر الکترومغناطیسی، مچلینک امکان کنترل عمیق‌تری نسبت به رابط‌های صفحه و دکمه را فراهم می‌کند.\n\nاز آنجایی که مچلینک در اعماق بافت مغز قرار می‌گیرد، تنها پس از مرگ می‌توان آن را حذف کرد.\n\nتوجه: مکانیک باید قادر باشد که برای حاملگی من کار کند.</Mechlink.description>
   <!-- EN: Install {0_label} to become mechanitor -->
-  <Mechlink.comps.CompUsableImplant.useLabel>TODO</Mechlink.comps.CompUsableImplant.useLabel>
+  <Mechlink.comps.CompUsableImplant.useLabel>{0_label} را نصب کنید تا مکانیک شوید</Mechlink.comps.CompUsableImplant.useLabel>
   
   <!-- EN: remote repairer -->
-  <RemoteRepairer.label>TODO</RemoteRepairer.label>
+  <RemoteRepairer.label>تعمیرکار از راه دور</RemoteRepairer.label>
   <!-- EN: A mechlink upgrade which allows the mechanitor to repair mechs from a distance. The user links with the mechanoid and uses their own brain to psychically guide its self-repair mechanites.\n\nThis implant can be self-installed without surgery.\n\nThis implant can be installed up to 3 times to increase its range. -->
-  <RemoteRepairer.description>TODO</RemoteRepairer.description>
+  <RemoteRepairer.description>ارتقای مکانیکی که به مکانیک اجازه می دهد تا مکانیک‌ها را از راه دور تعمیر کند. کاربر با مکانوئید پیوند می‌خورد و از مغز خود برای هدایت روانی مکانیت‌های خود ترمیم‌شونده آن استفاده می‌کند.\n\nاین ایمپلنت را می‌توان بدون جراحی خود نصب کرد.\n\nاین ایمپلنت را می‌توان تا 3 بار برای افزایش برد آن نصب کرد.</RemoteRepairer.description>
   <!-- EN: Implant {0_label} -->
-  <RemoteRepairer.comps.CompUsableImplant.useLabel>TODO</RemoteRepairer.comps.CompUsableImplant.useLabel>
+  <RemoteRepairer.comps.CompUsableImplant.useLabel>ایمپلنت {0_label}</RemoteRepairer.comps.CompUsableImplant.useLabel>
   
   <!-- EN: remote shielder -->
-  <RemoteShielder.label>TODO</RemoteShielder.label>
+  <RemoteShielder.label>سپر از راه دور</RemoteShielder.label>
   <!-- EN: An implant which allows the mechanitor to place a personal defense shield on a mech. The mechanitor must continuously focus on the mech in order to maintain the shield.\n\nPlacing a shield at a distance requires a substantial amount of focused energy. It can be used to save a mech at a critical moment.\n\nThis implant can be self-installed in the same way as the mechlink.\n\nThis implant can be installed up to 3 times to increase its range and shield energy. -->
-  <RemoteShielder.description>TODO</RemoteShielder.description>
+  <RemoteShielder.description>ایمپلنتی که به مکانیکاتور اجازه می دهد تا یک سپر دفاعی شخصی را روی یک مکانیک قرار دهد. مکانیک برای حفظ سپر باید به طور مداوم بر روی مکانیک تمرکز کند.\n\nقرار دادن یک سپر در فاصله‌ای به مقدار قابل توجهی انرژی متمرکز نیاز دارد. می توان از آن برای صرفه جویی در یک مکانیک در یک لحظه بحرانی استفاده کرد.\n\nاین ایمپلنت را می توان به همان روشی که mechlink به صورت خودکار نصب کرد.\n\nاین ایمپلنت را می توان تا 3 بار نصب کرد تا برد و انرژی محافظ آن افزایش یابد.</RemoteShielder.description>
   <!-- EN: Implant {0_label} -->
-  <RemoteShielder.comps.CompUsableImplant.useLabel>TODO</RemoteShielder.comps.CompUsableImplant.useLabel>
+  <RemoteShielder.comps.CompUsableImplant.useLabel>ایمپلنت {0_label}</RemoteShielder.comps.CompUsableImplant.useLabel>
   
   <!-- EN: repair probe -->
-  <RepairProbe.label>TODO</RepairProbe.label>
+  <RepairProbe.label>پروب تعمیر</RepairProbe.label>
   <!-- EN: An implant which increases the speed at which a mechanitor can repair a mechanoid. This does not affect the overall energy needed to repair a mechanoid.\n\nThe implant allows the mechanitor to plug directly into a mechanoid while they are repairing it. This allows them to more quickly understand the mech's injuries, and better-direct the mech's self-repair mechanites to assist with the repair.\n\nThis implant can be self-installed in the same way as the mechlink.\n\nThis implant can be installed up to 6 times to increase its effect. -->
-  <RepairProbe.description>TODO</RepairProbe.description>
+  <RepairProbe.description>ایمپلنتی که سرعتی را افزایش می دهد که مکانیک می تواند مکانیک را تعمیر کند. این روی انرژی کلی مورد نیاز برای تعمیر یک مکانوئید تأثیری نمی‌گذارد.\n\nایمپلنت به مکانیک اجازه می‌دهد که مستقیماً به یک مکانوئید متصل شود، در حالی که آن را تعمیر می‌کند. این به آن‌ها امکان می‌دهد سریع‌تر آسیب‌های مکانیک را درک کنند، و مکانیت‌های خود ترمیم‌کننده مکانیک را برای کمک به تعمیر بهتر هدایت کنند.\n\nاین ایمپلنت را می‌توان به همان روشی که mechlink به‌صورت خودکار نصب کرد.\n\nاین ایمپلنت را می‌توان تا ۶ بار نصب کرد تا اثر آن افزایش یابد.</RepairProbe.description>
   <!-- EN: Implant {0_label} -->
-  <RepairProbe.comps.CompUsableImplant.useLabel>TODO</RepairProbe.comps.CompUsableImplant.useLabel>
+  <RepairProbe.comps.CompUsableImplant.useLabel>ایمپلنت {0_label}</RepairProbe.comps.CompUsableImplant.useLabel>
   
 </LanguageData>

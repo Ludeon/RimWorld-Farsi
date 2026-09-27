@@ -5,7 +5,8 @@
     <li>lodgersLabel->guest</li>
     <li>lodgersLabelPlural->[asker_faction_pawnsPlural]</li>
   -->
-  <Hospitality_Joiners.questDescriptionAndNameRules.rulesStrings>TODO</Hospitality_Joiners.questDescriptionAndNameRules.rulesStrings>
+  <Hospitality_Joiners.questDescriptionAndNameRules.rulesStrings><li>lodgersLabel->مهمان</li>
+    <li>lodgersLabelPlural->[asker_faction_pawnsPlural]</li></Hospitality_Joiners.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>lodgersDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersDef(lodgersCount>=2)->the [lodgersLabelPlural]</li>
@@ -64,7 +65,62 @@
     <li>allyAllies(lodgersCountMinusOne==1)->ally</li>
     <li>allyAllies(lodgersCountMinusOne>=2)->allies</li>
   -->
-  <Hospitality_Joiners.questDescriptionRules.rulesStrings>TODO</Hospitality_Joiners.questDescriptionRules.rulesStrings>
+  <Hospitality_Joiners.questDescriptionRules.rulesStrings><li>lodgersDef(lodgersCount==1)->[lodgers0_nameDef]</li>
+    <li>lodgersDef(lodgersCount>=2)->[lodgersLabelPlural]</li>
+    <li>joinerEnding(priority=1)-></li>
+    <li>joinerEnding->شما می توانید [lodgersDef] را به همان روشی که مستعمره نشینان خود را هدایت می کنید هدایت کنید.[specialNeedsExplanation]</li>
+    <li>specialNeedsExplanation(asker_royalInCurrentFaction==True,priority=1)-> شما باید نیازهای سلطنتی خاصی را که [lodgersLabelPlural] ممکن است داشته باشد برآورده کنید.</li>
+    <li>specialNeedsExplanation-></li>
+    <li>theirHisHer(lodgersCount==1)->[lodgers0_possessive]</li>
+    <li>theirHisHer(lodgersCount>=2)->آنها</li>
+    <li>lodgersPronoun(lodgersCount==1)->[lodgers0_pronoun]</li>
+    <li>lodgersPronoun(lodgersCount>=2)->آنها</li>
+    <li>lodgersWasWere(lodgersCount==1)->بود</li>
+    <li>lodgersWasWere(lodgersCount>=2)->بودند</li>
+    <li>appreciateAppreciates(lodgersCount==1)->قدردانی می کند</li>
+    <li>appreciateAppreciates(lodgersCount>=2)->قدردانی</li>
+    <li>goodwillForMood(goodwillRewardForMood==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] [appreciateAppreciates] محل اقامت با کیفیت. اگر میانگین خلق و خوی [theirHisHer] را بالای 50% نگه دارید، با [asker_faction_name] حسن نیت کسب خواهید کرد.</li>
+    <li>goodwillForMood-></li>
+    <li>questDescription(askerIsNull==true,lodgersCount==1)->یک [lodgers0_title] به نام [lodgers0_nameFull] از شما می خواهد که از [lodgers0_objective] در [map_definite] برای [shuttleDelayTicks_duration] محافظت کنید. [allLodgerInfo][threatsInfo1][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] اخیراً [wrongAct] دستگیر شد. به دنبال انتقام، تا زمانی که [lodgers0_pronoun] با شما باشد، [enemyFaction_pawnsPlural] برای [lodgers0_objective] خواهد آمد. [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==false)-></li>
+    <li>wrongAct->توهین به [PersonalCharacteristic] از [enemyFaction_leader_nameDef]، [enemyFaction_leaderTitle] از [enemyFaction_name]</li>
+    <li>wrongAct->دزدیدن دام از [enemyFaction_name]</li>
+    <li>wrongAct->دزدیدن غذا از [enemyFaction_name]</li>
+    <li>wrongAct->دزدیدن مصنوعات معنوی از [enemyFaction_name]</li>
+    <li>wrongAct->خرابکاری در تابوت های خواب رمزنگاری [enemyFaction_name]</li>
+    <li>questDescription(askerIsNull==true,lodgersCount>=2)->گروهی از مسافران [lodgersCount] از شما می خواهند که آنها را در [map_definite] برای [shuttleDelayTicks_duration] میزبانی کنید. [allLodgerInfo][threatsInfo2][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nاین مسافران اخیراً به مراسم مهمی با [enemyFaction_name] دعوت شده بودند، اما در حالت مستی حاضر شدند و این مراسم را ناسزا گفتند. [enemyFaction_name] اکنون حملاتی را به دنبال آنها ارسال می کند. [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiHuman] [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==MechClusters)->\n\nمسافران اخیراً [mechViolation]، هدف یک گروه مکانیکی در مدار قرار گرفته اند. [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==false)-></li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==false,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] از [asker_faction_name] درخواست لطف می کند. دوست [asker_possessive] [lodgers0_nameFull] علاقه مند به یادگیری فرهنگ های دیگر است و [asker_pronoun] از شما می خواهد که میزبان [lodgers0_objective] در [map_definite] برای [shuttleDelayTicks_duration] باشد. [allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] یک لطف XK67 را درخواست می کند. دوست [asker_possessive]، یک [lodgers0_age] ساله به نام [lodgers0_nameDef]، در حال نوشتن توهین های شیطانی در مورد [enemyFaction_leader_nameFull] [PersonalCharacteristic] دستگیر شد. [asker_nameDef] از شما می خواهد که از [lodgers0_nameDef] برای [shuttleDelayTicks_duration] محافظت کنید، تا زمانی که [asker_pronoun] بتواند روابط خود را با [enemyFaction_name] صاف کند. از آنجایی که [enemyFaction_leader_nameDef] [enemyFaction_leaderTitle] [enemyFaction_name] است، [enemyFaction_leader_pronoun] گروه هایی از [enemyFaction_pawnsPlural] را برای شکار توهین کننده [lodgers0_nameDef] فرستاده است.\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,threatType==Raids,enemyFaction==Mechanoid,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] از XK92 درخواست می کند. دوست [asker_possessive]، یک [lodgers0_age] ساله [lodgers0_title] به نام [lodgers0_nameDef]، اخیراً [mechViolation]. [asker_nameDef] از شما می‌خواهد که از [lodgers0_nameDef] برای [shuttleDelayTicks_duration] محافظت کنید، تا زمانی که [asker_pronoun] بتواند کندوی مکانیکی را آرام کند.\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,threatType==MechClusters,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] از [asker_faction_name] درخواست لطف می کند. دوست [asker_possessive]، یک [lodgers0_age] ساله [lodgers0_title] به نام [lodgers0_nameDef]، اخیراً [mechViolation]. [asker_nameDef] از شما می‌خواهد که از [lodgers0_nameDef] برای [shuttleDelayTicks_duration] محافظت کنید.\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==false,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] از [asker_faction_name], اخیراً [lodgersCount] یک دشمن [asker_faction_pawnsPlural] را نجات داده است. [asker_pronoun] از شما می خواهد که از آنها در [map_definite] محافظت کنید تا زمانی که [asker_pronoun] بتواند یک شاتل برای جمع آوری آنها در [shuttleDelayTicks_duration] ارسال کند. [allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid,priority=1)->[asker_nameFull], [asker_faction_leaderTitle], [asker_faction_leaderTitle], XKZX3,XK1 اخیرا [asker_faction_pawnsPlural] از زندان های [enemyFaction_name]. [asker_nameDef] از شما می خواهد که از آنها در [map_definite] برای [shuttleDelayTicks_duration] محافظت کنید تا زمانی که [asker_pronoun] بتواند یک شاتل برای جمع آوری آنها بفرستد. [asker_faction_pawnsPlural] اسرار [secretInfo] [enemyFaction_name] را می داند، بنابراین آنها شکار خواهند شد.\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==true,threatType==Raids,enemyFaction==Mechanoid,priority=1)->[asker_nameFull], [asker_faction_leaderTitle], [asker_faction_leaderTitle], XKZ7,XK1 اخیرا [asker_faction_pawnsPlural] از طاق cryptosleep. [asker_nameDef] از شما می خواهد که از آنها در [map_definite] برای [shuttleDelayTicks_duration] محافظت کنید تا زمانی که [asker_pronoun] بتواند یک شاتل برای جمع آوری آنها بفرستد. [asker_faction_pawnsPlural] توسط مکانیزم‌ها شکار می‌شود.\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==true,threatType==MechClusters,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] از [asker_faction_name] از [asker_faction_name], [threatsInfo1], اخیراً از [threatsInfo1]ed قلم نگهدارنده کندو [asker_nameDef] از شما می خواهد که از آنها در [map_definite] برای [shuttleDelayTicks_duration] محافظت کنید تا زمانی که [asker_pronoun] بتواند یک شاتل برای جمع آوری آنها بفرستد. مکانیک‌ها زندانیان سابق خود را ردیابی می کنند.\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>secretInfo->قابلیت های نظامی</li>
+    <li>secretInfo->تخلفات اخلاقی</li>
+    <li>secretInfo->تحقیق سلاح</li>
+    <li>secretInfo->اردوگاه های زندان</li>
+    <li>secretInfo->[enemyFaction_leaderTitle]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_nameFull]، یک [asker_royalTitleInCurrentFaction] از [asker_faction_name]، در حال فرار از یک موقعیت سیاسی نگران کننده است و می خواهد در [map_definite] برای [shuttleDelayTicks_duration] مخفی شود. [threatsInfo5][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nدشمنان [asker_nameDef] [enemyFaction_name] را برای شکار [asker_objective] استخدام کرده اند. [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nدشمنان [asker_nameDef] مکانیزم‌ها را به شکار [asker_objective] تحریک کردند. [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\nدشمنان [asker_nameDef] به نوعی مکانیسم‌ها را برای شکار [asker_objective] تحریک کرده اند. [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==false)-></li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2)->[asker_nameFull]، یک [asker_royalTitleInCurrentFaction] از [asker_faction_name]، می خواهد در [map_definite] برای [shuttleDelayTicks_duration] با XK209ZZ دادگاه XK21 بماند. [threatsInfo6][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->[asker_nameDef] و [asker_possessive] [allyAllies] هدف مرگ قرار گرفته اند و به مکانی امن برای اقامت نیاز دارند تا زمانی که بتوانند دادگاه خود را پاکسازی کنند. با این حال، دشمنان [asker_nameDef] [enemyFaction_name] را برای شکار [asker_objective] استخدام کرده اند.\n\n[enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->[asker_nameDef] و [asker_possessive] [allyAllies] هدف مرگ قرار گرفته اند و به مکانی امن برای ماندن نیاز دارند تا زمانی که بتوانند دادگاه خود را پاکسازی کنند. با این حال، دشمنان [asker_nameDef] [enemyFaction_name] را به شکار [asker_objective] تحریک کرده اند.\n\n[enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->[asker_nameDef] و [asker_possessive] [allyAllies] هدف مرگ قرار گرفته اند و تا زمانی که بتوانند دادگاه خود را پاکسازی کنند به مکانی امن برای اقامت نیاز دارند. با این حال، دشمنان [asker_nameDef] به نوعی مکانیسم‌ها را برای شکار [asker_objective] تحریک کرده‌اند.\n\n[enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==false)-></li>
+    <li>allyAllies(lodgersCountMinusOne==1)-> متحد</li>
+    <li>allyAllies(lodgersCountMinusOne>=2)->متفقین</li></Hospitality_Joiners.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->shelter for [lodgerIndef]</li>
     <li>questName->hospitality for [lodgerIndef]</li>
@@ -95,6 +151,33 @@
     <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->nobles</li>
     <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->aristocrats</li>
   -->
-  <Hospitality_Joiners.questNameRules.rulesStrings>TODO</Hospitality_Joiners.questNameRules.rulesStrings>
+  <Hospitality_Joiners.questNameRules.rulesStrings><li>questName->پناهگاه برای [lodgerIndef]</li>
+    <li>questName-> مهمان نوازی برای [lodgerIndef]</li>
+    <li>questName->میزبان [lodgerIndef]</li>
+    <li>questName->[lodgerIndef] به کمک نیاز دارد</li>
+    <li>questName(generateThreats==true,priority=1)->حفاظت از [lodgerIndef]</li>
+    <li>questName(generateThreats==true,priority=1)->حفاظت از [lodgerIndef]</li>
+    <li>questName(generateThreats==true,priority=1)->امنیت برای [lodgerIndef]</li>
+    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] تحت تهدید</li>
+    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] در خطر است</li>
+    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] با دشمنان</li>
+    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] در تلاقی</li>
+    <li>lodgerIndef(askerIsNull==true,lodgersCount==1)->[lodgers0_label]</li>
+    <li>lodgerIndef(askerIsNull==true,lodgersCount==1)->یک [lodgers0_title]</li>
+    <li>lodgerIndef(askerIsNull==true,lodgersCount>=2)->مسافران</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->[lodgers0_label]</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->یک [lodgers0_title]</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->یک دوست</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->یک متحد</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount>=2)->دوستان</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount>=2)->متفقین</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1,p=3)->یک [asker_royalTitleInCurrentFaction]</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_label]</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->روال</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->یک نجیب</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->یک اشراف زاده</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->رویال</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->اشراف</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->اشراف</li></Hospitality_Joiners.questNameRules.rulesStrings>
   
 </LanguageData>

@@ -2,44 +2,44 @@
 <LanguageData>
   
   <!-- EN: {0} impervious -->
-  <AddictionImmune.label>TODO</AddictionImmune.label>
+  <AddictionImmune.label>{0} غیر قابل نفوذ</AddictionImmune.label>
   <!-- EN: Carriers of this gene never get addicted to {0}. -->
-  <AddictionImmune.description>TODO</AddictionImmune.description>
+  <AddictionImmune.description>حاملان این ژن هرگز به {0} معتاد نمی شوند.</AddictionImmune.description>
   <!-- EN: {0}-impervious -->
-  <AddictionImmune.labelShortAdj>TODO</AddictionImmune.labelShortAdj>
+  <AddictionImmune.labelShortAdj>{0} غیر قابل نفوذ</AddictionImmune.labelShortAdj>
   
   <!-- EN: {0} resistant -->
-  <AddictionResistant.label>TODO</AddictionResistant.label>
+  <AddictionResistant.label>مقاوم در برابر {0}</AddictionResistant.label>
   <!-- EN: Carriers are only half as likely to become addicted to {0}. -->
-  <AddictionResistant.description>TODO</AddictionResistant.description>
+  <AddictionResistant.description>ناقلین تنها نصف احتمال دارد که به {0} معتاد شوند.</AddictionResistant.description>
   <!-- EN: {0}-resistant -->
-  <AddictionResistant.labelShortAdj>TODO</AddictionResistant.labelShortAdj>
+  <AddictionResistant.labelShortAdj>مقاوم در برابر {0}</AddictionResistant.labelShortAdj>
   
   <!-- EN: poor {0} -->
-  <AptitudePoor.label>TODO</AptitudePoor.label>
+  <AptitudePoor.label>{0} ضعیف</AptitudePoor.label>
   <!-- EN: The carrier's aptitude in {0} is reduced by 4. Aptitude acts like an offset on skill level. -->
-  <AptitudePoor.description>TODO</AptitudePoor.description>
+  <AptitudePoor.description>استعداد حامل در {0} 4 کاهش می یابد. Aptitude مانند یک جبران در سطح مهارت عمل می کند.</AptitudePoor.description>
   
   <!-- EN: great {0} -->
-  <AptitudeRemarkable.label>TODO</AptitudeRemarkable.label>
+  <AptitudeRemarkable.label>{0} عالی</AptitudeRemarkable.label>
   <!-- EN: The carrier's aptitude in {0} is increased by 8. Aptitude acts like an offset on skill level. Additionally, one level of passion is added to {0}. -->
-  <AptitudeRemarkable.description>TODO</AptitudeRemarkable.description>
+  <AptitudeRemarkable.description>استعداد حامل در {0} 8 افزایش یافته است. Aptitude مانند یک جبران در سطح مهارت عمل می کند. علاوه بر این، یک سطح از اشتیاق به {0} اضافه شده است.</AptitudeRemarkable.description>
   
   <!-- EN: strong {0} -->
-  <AptitudeStrong.label>TODO</AptitudeStrong.label>
+  <AptitudeStrong.label>{0} قوی</AptitudeStrong.label>
   <!-- EN: The carrier's aptitude in {0} is increased by 4. Aptitude acts like an offset on skill level. -->
-  <AptitudeStrong.description>TODO</AptitudeStrong.description>
+  <AptitudeStrong.description>استعداد حامل در {0} 4 افزایش یافته است. Aptitude مانند یک جبران در سطح مهارت عمل می کند.</AptitudeStrong.description>
   
   <!-- EN: awful {0} -->
-  <AptitudeTerrible.label>TODO</AptitudeTerrible.label>
+  <AptitudeTerrible.label>{0} افتضاح</AptitudeTerrible.label>
   <!-- EN: The carrier's aptitude in {0} is reduced by 8. Aptitude acts like an offset on skill level. Additionally, all passion is removed from {0}. -->
-  <AptitudeTerrible.description>TODO</AptitudeTerrible.description>
+  <AptitudeTerrible.description>استعداد حامل در {0} 8 کاهش می یابد. Aptitude مانند یک جبران در سطح مهارت عمل می کند. علاوه بر این، تمام اشتیاق از {0} حذف شده است.</AptitudeTerrible.description>
   
   <!-- EN: {0} dependency -->
-  <ChemicalDependency.label>TODO</ChemicalDependency.label>
+  <ChemicalDependency.label>وابستگی {0}</ChemicalDependency.label>
   <!-- EN: Carriers of this gene need to ingest {0} on a regular basis to survive. After {DEFICIENCYDURATION} without {0}, carriers will suffer from {0} deficiency. After {COMADURATION}, they will fall into a coma. After {DEATHDURATION}, they will die. -->
-  <ChemicalDependency.description>TODO</ChemicalDependency.description>
+  <ChemicalDependency.description>حاملان این ژن برای زنده ماندن باید {0} را به طور منظم مصرف کنند. پس از {DEFICIENCYDURATION} بدون {0}، حامل‌ها از کمبود {0} رنج خواهند برد. بعد از {COMADURATION} به کما خواهند رفت. بعد از {DEATHDURATION}، آنها خواهند مرد.</ChemicalDependency.description>
   <!-- EN: {0}-dependent -->
-  <ChemicalDependency.labelShortAdj>TODO</ChemicalDependency.labelShortAdj>
+  <ChemicalDependency.labelShortAdj>وابسته به {0}</ChemicalDependency.labelShortAdj>
   
 </LanguageData>

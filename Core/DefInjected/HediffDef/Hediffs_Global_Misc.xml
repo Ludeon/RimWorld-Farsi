@@ -2,165 +2,165 @@
 <LanguageData>
   
   <!-- EN: anesthetic -->
-  <Anesthetic.label>TODO</Anesthetic.label>
+  <Anesthetic.label>anesthetic</Anesthetic.label>
   <!-- EN: Sleep drugs in the bloodstream. Anesthetic renders creatures unconscious. -->
-  <Anesthetic.description>TODO</Anesthetic.description>
+  <Anesthetic.description>Sleep drugs in the bloodstream. Anesthetic renders creatures unconscious.</Anesthetic.description>
   <!-- EN: wearing off -->
-  <Anesthetic.stages.wearing_off.label>TODO</Anesthetic.stages.wearing_off.label>
+  <Anesthetic.stages.wearing_off.label>wearing off</Anesthetic.stages.wearing_off.label>
   <!-- EN: woozy -->
-  <Anesthetic.stages.woozy.label>TODO</Anesthetic.stages.woozy.label>
+  <Anesthetic.stages.woozy.label>woozy</Anesthetic.stages.woozy.label>
   <!-- EN: sedated -->
-  <Anesthetic.stages.sedated.label>TODO</Anesthetic.stages.sedated.label>
+  <Anesthetic.stages.sedated.label>sedated</Anesthetic.stages.sedated.label>
   
   <!-- EN: blood loss -->
-  <BloodLoss.label>TODO</BloodLoss.label>
+  <BloodLoss.label>blood loss</BloodLoss.label>
   <!-- EN: A reduction in the normal blood volume. Minor blood loss has relatively mild effects, but when blood loss becomes severe, oxygen transport becomes badly impaired and the victim loses the ability to move. Extreme blood loss leads to death.\n\nBlood loss naturally recovers over time as the body slowly regenerates its blood supply. -->
-  <BloodLoss.description>TODO</BloodLoss.description>
+  <BloodLoss.description>A reduction in the normal blood volume. Minor blood loss has relatively mild effects, but when blood loss becomes severe, oxygen transport becomes badly impaired and the victim loses the ability to move. Extreme blood loss leads to death.\n\nBlood loss naturally recovers over time as the body slowly regenerates its blood supply.</BloodLoss.description>
   <!-- EN: minor -->
-  <BloodLoss.stages.minor-0.label>TODO</BloodLoss.stages.minor-0.label>
+  <BloodLoss.stages.minor-0.label>minor</BloodLoss.stages.minor-0.label>
   <!-- EN: minor -->
-  <BloodLoss.stages.minor-1.label>TODO</BloodLoss.stages.minor-1.label>
+  <BloodLoss.stages.minor-1.label>minor</BloodLoss.stages.minor-1.label>
   <!-- EN: moderate -->
-  <BloodLoss.stages.moderate.label>TODO</BloodLoss.stages.moderate.label>
+  <BloodLoss.stages.moderate.label>moderate</BloodLoss.stages.moderate.label>
   <!-- EN: severe -->
-  <BloodLoss.stages.severe.label>TODO</BloodLoss.stages.severe.label>
+  <BloodLoss.stages.severe.label>severe</BloodLoss.stages.severe.label>
   <!-- EN: extreme -->
-  <BloodLoss.stages.extreme.label>TODO</BloodLoss.stages.extreme.label>
+  <BloodLoss.stages.extreme.label>extreme</BloodLoss.stages.extreme.label>
   
   <!-- EN: brain shock -->
-  <BrainShock.label>TODO</BrainShock.label>
+  <BrainShock.label>brain shock</BrainShock.label>
   <!-- EN: After-effects of an electrical shock to the brain. This is generally cause by feedback from brain implants hit by EMP pulses. -->
-  <BrainShock.description>TODO</BrainShock.description>
+  <BrainShock.description>After-effects of an electrical shock to the brain. This is generally cause by feedback from brain implants hit by EMP pulses.</BrainShock.description>
   <!-- EN: a brain shock -->
-  <BrainShock.labelNoun>TODO</BrainShock.labelNoun>
+  <BrainShock.labelNoun>a brain shock</BrainShock.labelNoun>
   
   <!-- EN: catatonic breakdown -->
-  <CatatonicBreakdown.label>TODO</CatatonicBreakdown.label>
+  <CatatonicBreakdown.label>catatonic breakdown</CatatonicBreakdown.label>
   <!-- EN: A state of mental shock which leads to a total inability to function. The victim collapses, effectively unconscious. -->
-  <CatatonicBreakdown.description>TODO</CatatonicBreakdown.description>
+  <CatatonicBreakdown.description>A state of mental shock which leads to a total inability to function. The victim collapses, effectively unconscious.</CatatonicBreakdown.description>
   <!-- EN: a catatonic breakdown -->
-  <CatatonicBreakdown.labelNoun>TODO</CatatonicBreakdown.labelNoun>
+  <CatatonicBreakdown.labelNoun>a catatonic breakdown</CatatonicBreakdown.labelNoun>
   
   <!-- EN: covered in firefoam -->
-  <CoveredInFirefoam.label>TODO</CoveredInFirefoam.label>
+  <CoveredInFirefoam.label>covered in firefoam</CoveredInFirefoam.label>
   <!-- EN: Covered in a fire-retardant foam. -->
-  <CoveredInFirefoam.description>TODO</CoveredInFirefoam.description>
+  <CoveredInFirefoam.description>Covered in a fire-retardant foam.</CoveredInFirefoam.description>
   
   <!-- EN: cryptosleep sickness -->
-  <CryptosleepSickness.label>TODO</CryptosleepSickness.label>
+  <CryptosleepSickness.label>cryptosleep sickness</CryptosleepSickness.label>
   <!-- EN: After-effects of using a cryptosleep pod. Cryptosleep suspends and replaces many bodily functions in order to prevent aging and death. Upon exiting cryptosleep, the body takes time to restart and rebalance its natural metabolic processes. While this is ongoing, the patient suffers from nausea, dizziness, and a sense of fuzziness in the mind. -->
-  <CryptosleepSickness.description>TODO</CryptosleepSickness.description>
+  <CryptosleepSickness.description>After-effects of using a cryptosleep pod. Cryptosleep suspends and replaces many bodily functions in order to prevent aging and death. Upon exiting cryptosleep, the body takes time to restart and rebalance its natural metabolic processes. While this is ongoing, the patient suffers from nausea, dizziness, and a sense of fuzziness in the mind.</CryptosleepSickness.description>
   <!-- EN: After-effects of using a cryptosleep pod including dizziness, nausea, and vomiting. -->
-  <CryptosleepSickness.descriptionShort>TODO</CryptosleepSickness.descriptionShort>
+  <CryptosleepSickness.descriptionShort>After-effects of using a cryptosleep pod including dizziness, nausea, and vomiting.</CryptosleepSickness.descriptionShort>
   
   <!-- EN: drug overdose -->
-  <DrugOverdose.label>TODO</DrugOverdose.label>
+  <DrugOverdose.label>drug overdose</DrugOverdose.label>
   <!-- EN: Generalized toxic effects due to over-concentration of drugs in the bloodstream. -->
-  <DrugOverdose.description>TODO</DrugOverdose.description>
+  <DrugOverdose.description>Generalized toxic effects due to over-concentration of drugs in the bloodstream.</DrugOverdose.description>
   <!-- EN: Overdose: {0} -->
-  <DrugOverdose.comps.HediffComp_Discoverable.discoverLetterLabel>TODO</DrugOverdose.comps.HediffComp_Discoverable.discoverLetterLabel>
+  <DrugOverdose.comps.HediffComp_Discoverable.discoverLetterLabel>Overdose: {0}</DrugOverdose.comps.HediffComp_Discoverable.discoverLetterLabel>
   <!-- EN: {0} is overdosing! -->
-  <DrugOverdose.comps.HediffComp_Discoverable.discoverLetterText>TODO</DrugOverdose.comps.HediffComp_Discoverable.discoverLetterText>
+  <DrugOverdose.comps.HediffComp_Discoverable.discoverLetterText>{0} is overdosing!</DrugOverdose.comps.HediffComp_Discoverable.discoverLetterText>
   <!-- EN: a drug overdose -->
-  <DrugOverdose.labelNoun>TODO</DrugOverdose.labelNoun>
+  <DrugOverdose.labelNoun>a drug overdose</DrugOverdose.labelNoun>
   <!-- EN: minor -->
-  <DrugOverdose.stages.minor-0.label>TODO</DrugOverdose.stages.minor-0.label>
+  <DrugOverdose.stages.minor-0.label>minor</DrugOverdose.stages.minor-0.label>
   <!-- EN: minor -->
-  <DrugOverdose.stages.minor-1.label>TODO</DrugOverdose.stages.minor-1.label>
+  <DrugOverdose.stages.minor-1.label>minor</DrugOverdose.stages.minor-1.label>
   <!-- EN: major -->
-  <DrugOverdose.stages.major.label>TODO</DrugOverdose.stages.major.label>
+  <DrugOverdose.stages.major.label>major</DrugOverdose.stages.major.label>
   
   <!-- EN: food poisoning -->
-  <FoodPoisoning.label>TODO</FoodPoisoning.label>
+  <FoodPoisoning.label>food poisoning</FoodPoisoning.label>
   <!-- EN: Gastrointestinal illness caused by consuming decayed or unclean food. It can be caused by eating rotten food, by incompetent cooks accidentally poisoning meals, or by eating from unsafe wild sources. The patient will vomit and feel sick for some time. -->
-  <FoodPoisoning.description>TODO</FoodPoisoning.description>
+  <FoodPoisoning.description>Gastrointestinal illness caused by consuming decayed or unclean food. It can be caused by eating rotten food, by incompetent cooks accidentally poisoning meals, or by eating from unsafe wild sources. The patient will vomit and feel sick for some time.</FoodPoisoning.description>
   <!-- EN: recovering -->
-  <FoodPoisoning.stages.recovering.label>TODO</FoodPoisoning.stages.recovering.label>
+  <FoodPoisoning.stages.recovering.label>recovering</FoodPoisoning.stages.recovering.label>
   <!-- EN: major -->
-  <FoodPoisoning.stages.major.label>TODO</FoodPoisoning.stages.major.label>
+  <FoodPoisoning.stages.major.label>major</FoodPoisoning.stages.major.label>
   <!-- EN: initial -->
-  <FoodPoisoning.stages.initial.label>TODO</FoodPoisoning.stages.initial.label>
+  <FoodPoisoning.stages.initial.label>initial</FoodPoisoning.stages.initial.label>
   
   <!-- EN: heart attack -->
-  <HeartAttack.label>TODO</HeartAttack.label>
+  <HeartAttack.label>heart attack</HeartAttack.label>
   <!-- EN: A disruption in the heart's normal beating rhythm. Heart attacks can be debilitatingly painful. They can worsen and lead to death, or recover. -->
-  <HeartAttack.description>TODO</HeartAttack.description>
+  <HeartAttack.description>A disruption in the heart's normal beating rhythm. Heart attacks can be debilitatingly painful. They can worsen and lead to death, or recover.</HeartAttack.description>
   <!-- EN: a heart attack -->
-  <HeartAttack.labelNoun>TODO</HeartAttack.labelNoun>
+  <HeartAttack.labelNoun>a heart attack</HeartAttack.labelNoun>
   <!-- EN: painful -->
-  <HeartAttack.stages.painful.label>TODO</HeartAttack.stages.painful.label>
+  <HeartAttack.stages.painful.label>painful</HeartAttack.stages.painful.label>
   <!-- EN: debilitating -->
-  <HeartAttack.stages.debilitating.label>TODO</HeartAttack.stages.debilitating.label>
+  <HeartAttack.stages.debilitating.label>debilitating</HeartAttack.stages.debilitating.label>
   <!-- EN: fatal -->
-  <HeartAttack.stages.fatal.label>TODO</HeartAttack.stages.fatal.label>
+  <HeartAttack.stages.fatal.label>fatal</HeartAttack.stages.fatal.label>
   
   <!-- EN: pregnant -->
-  <Pregnant.label>TODO</Pregnant.label>
+  <Pregnant.label>pregnant</Pregnant.label>
   <!-- EN: This creature is gestating offspring. It will give birth if the pregnancy comes to term. If starved or injured, there may be a miscarriage. -->
-  <Pregnant.description>TODO</Pregnant.description>
+  <Pregnant.description>This creature is gestating offspring. It will give birth if the pregnancy comes to term. If starved or injured, there may be a miscarriage.</Pregnant.description>
   <!-- EN: {0} is pregnant! -->
-  <Pregnant.comps.HediffComp_MessageAfterTicks.message>TODO</Pregnant.comps.HediffComp_MessageAfterTicks.message>
+  <Pregnant.comps.HediffComp_MessageAfterTicks.message>{0} is pregnant!</Pregnant.comps.HediffComp_MessageAfterTicks.message>
   <!-- EN: pregnancy -->
-  <Pregnant.labelNoun>TODO</Pregnant.labelNoun>
+  <Pregnant.labelNoun>pregnancy</Pregnant.labelNoun>
   <!-- EN: early-stage -->
-  <Pregnant.stages.earlystage.label>TODO</Pregnant.stages.earlystage.label>
+  <Pregnant.stages.earlystage.label>early-stage</Pregnant.stages.earlystage.label>
   <!-- EN: middle-stage -->
-  <Pregnant.stages.middlestage.label>TODO</Pregnant.stages.middlestage.label>
+  <Pregnant.stages.middlestage.label>middle-stage</Pregnant.stages.middlestage.label>
   <!-- EN: late-stage -->
-  <Pregnant.stages.latestage.label>TODO</Pregnant.stages.latestage.label>
+  <Pregnant.stages.latestage.label>late-stage</Pregnant.stages.latestage.label>
   
   <!-- EN: psychic coma -->
-  <PsychicComa.label>TODO</PsychicComa.label>
+  <PsychicComa.label>psychic coma</PsychicComa.label>
   <!-- EN: A form of benign coma during which the brain recovers from a psychic overload. -->
-  <PsychicComa.description>TODO</PsychicComa.description>
+  <PsychicComa.description>A form of benign coma during which the brain recovers from a psychic overload.</PsychicComa.description>
   <!-- EN: a psychic coma -->
-  <PsychicComa.labelNoun>TODO</PsychicComa.labelNoun>
+  <PsychicComa.labelNoun>a psychic coma</PsychicComa.labelNoun>
   
   <!-- EN: psychic hangover -->
-  <PsychicHangover.label>TODO</PsychicHangover.label>
+  <PsychicHangover.label>psychic hangover</PsychicHangover.label>
   <!-- EN: An after-effect of neural heat. Psychic hangover is bothersome, but not dangerous. -->
-  <PsychicHangover.description>TODO</PsychicHangover.description>
+  <PsychicHangover.description>An after-effect of neural heat. Psychic hangover is bothersome, but not dangerous.</PsychicHangover.description>
   <!-- EN: a psychic hangover -->
-  <PsychicHangover.labelNoun>TODO</PsychicHangover.labelNoun>
+  <PsychicHangover.labelNoun>a psychic hangover</PsychicHangover.labelNoun>
   <!-- EN: forming -->
-  <PsychicHangover.stages.forming.label>TODO</PsychicHangover.stages.forming.label>
+  <PsychicHangover.stages.forming.label>forming</PsychicHangover.stages.forming.label>
   <!-- EN: buzzing -->
-  <PsychicHangover.stages.buzzing.label>TODO</PsychicHangover.stages.buzzing.label>
+  <PsychicHangover.stages.buzzing.label>buzzing</PsychicHangover.stages.buzzing.label>
   
   <!-- EN: psychic invisibility -->
-  <PsychicInvisibility.label>TODO</PsychicInvisibility.label>
+  <PsychicInvisibility.label>psychic invisibility</PsychicInvisibility.label>
   <!-- EN: Psychically-induced invisibility. This actually affects others nearby, making their brains unable to perceive the sight of this individual, even if the eyes are unaffected. -->
-  <PsychicInvisibility.description>TODO</PsychicInvisibility.description>
+  <PsychicInvisibility.description>Psychically-induced invisibility. This actually affects others nearby, making their brains unable to perceive the sight of this individual, even if the eyes are unaffected.</PsychicInvisibility.description>
   
   <!-- EN: psychic shock -->
-  <PsychicShock.label>TODO</PsychicShock.label>
+  <PsychicShock.label>psychic shock</PsychicShock.label>
   <!-- EN: A state of psychic chaos in the brain and mind. Caused by psychic attacks or critical level of neural heat, this effect is debilitating until it wears off. -->
-  <PsychicShock.description>TODO</PsychicShock.description>
+  <PsychicShock.description>A state of psychic chaos in the brain and mind. Caused by psychic attacks or critical level of neural heat, this effect is debilitating until it wears off.</PsychicShock.description>
   <!-- EN: a psychic shock -->
-  <PsychicShock.labelNoun>TODO</PsychicShock.labelNoun>
+  <PsychicShock.labelNoun>a psychic shock</PsychicShock.labelNoun>
   
   <!-- EN: resurrection sickness -->
-  <ResurrectionSickness.label>TODO</ResurrectionSickness.label>
+  <ResurrectionSickness.label>resurrection sickness</ResurrectionSickness.label>
   <!-- EN: After-effects of resurrection. Artificially-restarted body processes take time to rebalance themselves. -->
-  <ResurrectionSickness.description>TODO</ResurrectionSickness.description>
+  <ResurrectionSickness.description>After-effects of resurrection. Artificially-restarted body processes take time to rebalance themselves.</ResurrectionSickness.description>
   
   <!-- EN: toxic buildup -->
-  <ToxicBuildup.label>TODO</ToxicBuildup.label>
+  <ToxicBuildup.label>toxic buildup</ToxicBuildup.label>
   <!-- EN: Poison in the bloodstream. This can come from various sources, including environmental toxins, venomous bites, or poisoned weapons.\n\nAt high doses, toxic buildup is lethal. Even at low doses, it can generate cancers.\n\nIf a creature dies with toxic buildup, there's a chance that they cannot be eaten. The higher the toxic buildup, the higher the chance. -->
-  <ToxicBuildup.description>TODO</ToxicBuildup.description>
+  <ToxicBuildup.description>Poison in the bloodstream. This can come from various sources, including environmental toxins, venomous bites, or poisoned weapons.\n\nAt high doses, toxic buildup is lethal. Even at low doses, it can generate cancers.\n\nIf a creature dies with toxic buildup, there's a chance that they cannot be eaten. The higher the toxic buildup, the higher the chance.</ToxicBuildup.description>
   <!-- EN: {PAWN_nameDef} is showing early signs of toxic buildup. Keep {PAWN_objective} away from sources of toxins. -->
-  <ToxicBuildup.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>TODO</ToxicBuildup.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <ToxicBuildup.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef} is showing early signs of toxic buildup. Keep {PAWN_objective} away from sources of toxins.</ToxicBuildup.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
   <!-- EN: initial -->
-  <ToxicBuildup.stages.initial-0.label>TODO</ToxicBuildup.stages.initial-0.label>
+  <ToxicBuildup.stages.initial-0.label>initial</ToxicBuildup.stages.initial-0.label>
   <!-- EN: initial -->
-  <ToxicBuildup.stages.initial-1.label>TODO</ToxicBuildup.stages.initial-1.label>
+  <ToxicBuildup.stages.initial-1.label>initial</ToxicBuildup.stages.initial-1.label>
   <!-- EN: minor -->
-  <ToxicBuildup.stages.minor.label>TODO</ToxicBuildup.stages.minor.label>
+  <ToxicBuildup.stages.minor.label>minor</ToxicBuildup.stages.minor.label>
   <!-- EN: moderate -->
-  <ToxicBuildup.stages.moderate.label>TODO</ToxicBuildup.stages.moderate.label>
+  <ToxicBuildup.stages.moderate.label>moderate</ToxicBuildup.stages.moderate.label>
   <!-- EN: serious -->
-  <ToxicBuildup.stages.serious.label>TODO</ToxicBuildup.stages.serious.label>
+  <ToxicBuildup.stages.serious.label>serious</ToxicBuildup.stages.serious.label>
   <!-- EN: extreme -->
-  <ToxicBuildup.stages.extreme.label>TODO</ToxicBuildup.stages.extreme.label>
+  <ToxicBuildup.stages.extreme.label>extreme</ToxicBuildup.stages.extreme.label>
   
 </LanguageData>

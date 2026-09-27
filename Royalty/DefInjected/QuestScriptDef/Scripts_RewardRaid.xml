@@ -9,7 +9,12 @@
     <li>endingCommon(helpersCount==0)->\n\n[pawnKindsParagraph]\n\nIf you accept, the [enemyFaction_pawnsPlural] will arrive in [firstRaidDelayTicks_duration].</li>
     <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]If you accept, the [enemyFaction_pawnsPlural] will arrive in [firstRaidDelayTicks_duration].</li>
   -->
-  <ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>TODO</ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
+  <ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings><li>questDescription(asker_factionLeader==True)->[asker_nameFull]، [asker_faction_leaderTitle] از [asker_faction_name]، از شما می‌خواهد به نجات یکی از کاروان‌های [asker_possessive] کمک کنید. این کاروان در نزدیکی [map_definite] توسط (*Threat)[numGroupsOf] [enemyFaction_pawnsPlural](/Threat) از [enemyFaction_name] شکار می شود. [asker_nameDef] از شما می‌خواهد که به [enemyFaction_pawnsPlural] علامت دهید تا آنها را از کاروان دور کند - و به سمت شما برود.[endingCommon]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull]، یک [asker_royalTitleInCurrentFaction] از [asker_faction_name]، از شما درخواست می کند.\n\n(*Threat)[groupsOf](/Threat) از [enemyFaction_name]، [enemyFaction_name] کاروان های XK1 را مورد آزار و اذیت قرار داده است. [asker_nameDef] از شما می خواهد که یک پیام چالش برای آنها ارسال کنید، آنها را برای حمله جذب کنید و خودتان تهدید را از بین ببرید.[endingCommon]</li>
+    <li>groupsOf(raidCount==1,priority=1)->[enemyFaction_pawnsPlural]</li>
+    <li>groupsOf->[numGroupsOf] [enemyFaction_pawnsPlural]</li>
+    <li>endingCommon(helpersCount==0)->\n\n[pawnKindsParagraph]\n\nاگر قبول کنید، [enemyFaction_pawnsPlural] به [firstRaidDelayTicks_duration] می‌رسد.</li>
+    <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]اگر قبول کنید، [enemyFaction_pawnsPlural] به [firstRaidDelayTicks_duration] می‌رسد.</li></ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[enemyFaction_pawnsPlural] of Fortune</li>
     <li>questName->[violence] of Fortune</li>
@@ -32,6 +37,25 @@
     <li>violence->Hostility</li>
     <li>violence->Warfare</li>
   -->
-  <ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>TODO</ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
+  <ThreatReward_Raid_MiscReward.questNameRules.rulesStrings><li>questName->[enemyFaction_pawnsPlural] of Fortune</li>
+    <li>questName->[violence] of Fortune</li>
+    <li>questName->[violence] برای استخدام</li>
+    <li>questName->[violence] برای سود</li>
+    <li>questName->[violence] پاداش داده شده</li>
+    <li>questName->[violence] پرداخت شده</li>
+    <li>questName->[violence] جبران شده</li>
+    <li>questName(reward==royalFavor)->[enemyFaction_pawnsPlural] for Favor</li>
+    <li>questName(reward==royalFavor)->[violence] for Favor</li>
+    <li>خشونت->خشونت</li>
+    <li>خشونت->نبرد</li>
+    <li>خشونت->مبارزه</li>
+    <li>خشونت->جنگ</li>
+    <li>خشونت->جنگ</li>
+    <li>خشونت->خونریزی</li>
+    <li>خشونت->حمله</li>
+    <li>خشونت->دفاع</li>
+    <li>خشونت->درگیری</li>
+    <li>خشونت->خصومت</li>
+    <li>خشونت->جنگ</li></ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
   
 </LanguageData>

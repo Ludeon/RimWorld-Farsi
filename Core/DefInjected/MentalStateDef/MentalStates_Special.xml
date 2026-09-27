@@ -2,63 +2,63 @@
 <LanguageData>
   
   <!-- EN: aggression judgement scramble -->
-  <BerserkMechanoid.label>TODO</BerserkMechanoid.label>
+  <BerserkMechanoid.label>aggression judgement scramble</BerserkMechanoid.label>
   <!-- EN: Aggression judgment scrambled -->
-  <BerserkMechanoid.baseInspectLine>TODO</BerserkMechanoid.baseInspectLine>
+  <BerserkMechanoid.baseInspectLine>Aggression judgment scrambled</BerserkMechanoid.baseInspectLine>
   
   <!-- EN: cocoon disturbed -->
-  <CocoonDisturbed.label>TODO</CocoonDisturbed.label>
+  <CocoonDisturbed.label>cocoon disturbed</CocoonDisturbed.label>
   <!-- EN: Enraged: Cocoon disturbed -->
-  <CocoonDisturbed.baseInspectLine>TODO</CocoonDisturbed.baseInspectLine>
+  <CocoonDisturbed.baseInspectLine>Enraged: Cocoon disturbed</CocoonDisturbed.baseInspectLine>
   
   <!-- EN: manhunter -->
-  <Manhunter.label>TODO</Manhunter.label>
+  <Manhunter.label>manhunter</Manhunter.label>
   <!-- EN: Maddened: Manhunter -->
-  <Manhunter.baseInspectLine>TODO</Manhunter.baseInspectLine>
+  <Manhunter.baseInspectLine>Maddened: Manhunter</Manhunter.baseInspectLine>
   <!-- EN: {0} has become a manhunter! -->
-  <Manhunter.beginLetter>TODO</Manhunter.beginLetter>
+  <Manhunter.beginLetter>{0} has become a manhunter!</Manhunter.beginLetter>
   <!-- EN: {0}'s manhunting bloodlust has come to an end. -->
-  <Manhunter.recoveryMessage>TODO</Manhunter.recoveryMessage>
+  <Manhunter.recoveryMessage>{0}'s manhunting bloodlust has come to an end.</Manhunter.recoveryMessage>
   
   <!-- EN: manhunter -->
-  <ManhunterPermanent.label>TODO</ManhunterPermanent.label>
+  <ManhunterPermanent.label>manhunter</ManhunterPermanent.label>
   <!-- EN: Maddened: Manhunter -->
-  <ManhunterPermanent.baseInspectLine>TODO</ManhunterPermanent.baseInspectLine>
+  <ManhunterPermanent.baseInspectLine>Maddened: Manhunter</ManhunterPermanent.baseInspectLine>
   <!-- EN: {0} has become a manhunter! -->
-  <ManhunterPermanent.beginLetter>TODO</ManhunterPermanent.beginLetter>
+  <ManhunterPermanent.beginLetter>{0} has become a manhunter!</ManhunterPermanent.beginLetter>
   <!-- EN: {0}'s manhunting bloodlust has come to an end. -->
-  <ManhunterPermanent.recoveryMessage>TODO</ManhunterPermanent.recoveryMessage>
+  <ManhunterPermanent.recoveryMessage>{0}'s manhunting bloodlust has come to an end.</ManhunterPermanent.recoveryMessage>
   
   <!-- EN: panic fleeing -->
-  <PanicFlee.label>TODO</PanicFlee.label>
+  <PanicFlee.label>panic fleeing</PanicFlee.label>
   <!-- EN: Mental state: Fleeing in panic -->
-  <PanicFlee.baseInspectLine>TODO</PanicFlee.baseInspectLine>
+  <PanicFlee.baseInspectLine>Mental state: Fleeing in panic</PanicFlee.baseInspectLine>
   <!-- EN: {0} is fleeing in panic. -->
-  <PanicFlee.beginLetter>TODO</PanicFlee.beginLetter>
+  <PanicFlee.beginLetter>{0} is fleeing in panic.</PanicFlee.beginLetter>
   <!-- EN: flee -->
-  <PanicFlee.beginLetterLabel>TODO</PanicFlee.beginLetterLabel>
+  <PanicFlee.beginLetterLabel>flee</PanicFlee.beginLetterLabel>
   <!-- EN: {0} is no longer fleeing in panic. -->
-  <PanicFlee.recoveryMessage>TODO</PanicFlee.recoveryMessage>
+  <PanicFlee.recoveryMessage>{0} is no longer fleeing in panic.</PanicFlee.recoveryMessage>
   
   <!-- EN: roaming -->
-  <Roaming.label>TODO</Roaming.label>
+  <Roaming.label>roaming</Roaming.label>
   <!-- EN: Mental state: Roaming -->
-  <Roaming.baseInspectLine>TODO</Roaming.baseInspectLine>
+  <Roaming.baseInspectLine>Mental state: Roaming</Roaming.baseInspectLine>
   
   <!-- EN: social fighting -->
-  <SocialFighting.label>TODO</SocialFighting.label>
+  <SocialFighting.label>social fighting</SocialFighting.label>
   <!-- EN: Mental state: Social fighting -->
-  <SocialFighting.baseInspectLine>TODO</SocialFighting.baseInspectLine>
+  <SocialFighting.baseInspectLine>Mental state: Social fighting</SocialFighting.baseInspectLine>
   
   <!-- EN: confused wandering -->
-  <WanderConfused.label>TODO</WanderConfused.label>
+  <WanderConfused.label>confused wandering</WanderConfused.label>
   <!-- EN: Mental state: Confused and wandering -->
-  <WanderConfused.baseInspectLine>TODO</WanderConfused.baseInspectLine>
+  <WanderConfused.baseInspectLine>Mental state: Confused and wandering</WanderConfused.baseInspectLine>
   <!-- EN: {0} has broken down and is wandering around confused. -->
-  <WanderConfused.beginLetter>TODO</WanderConfused.beginLetter>
+  <WanderConfused.beginLetter>{0} has broken down and is wandering around confused.</WanderConfused.beginLetter>
   <!-- EN: confusion -->
-  <WanderConfused.beginLetterLabel>TODO</WanderConfused.beginLetterLabel>
+  <WanderConfused.beginLetterLabel>confusion</WanderConfused.beginLetterLabel>
   <!-- EN: {0} is no longer confused. -->
-  <WanderConfused.recoveryMessage>TODO</WanderConfused.recoveryMessage>
+  <WanderConfused.recoveryMessage>{0} is no longer confused.</WanderConfused.recoveryMessage>
   
 </LanguageData>

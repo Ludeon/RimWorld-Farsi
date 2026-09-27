@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: inhuman -->
-  <Inhuman.label>TODO</Inhuman.label>
+  <Inhuman.label>غیرانسانی</Inhuman.label>
   <!-- EN: Humanity is a barrier to our connection with the machine god and its pleasurable rewards. -->
-  <Inhuman.description>TODO</Inhuman.description>
+  <Inhuman.description>انسانیت مانعی بر سر راه اتصال ما با خدای ماشینی و پاداش‌های لذت‌بخش آن است.</Inhuman.description>
   <!-- EN:
     <li>memeAdjective->inhuman</li>
     <li>memeAdjective->unhuman</li>
@@ -16,17 +16,31 @@
     <li>memeConcept->entities</li>
     <li>memeConcept->rage</li>
   -->
-  <Inhuman.generalRules.rulesStrings>TODO</Inhuman.generalRules.rulesStrings>
+  <Inhuman.generalRules.rulesStrings>
+    <li>memeAdjective->غیرانسانی</li>
+    <li>memeAdjective->ناانسانی</li>
+    <li>memeAdjective->ماشینی</li>
+    <li>memeAdjective->تاریک</li>
+    <li>memeConcept->بی‌رحمی</li>
+    <li>memeConcept->تاریکی</li>
+    <li>memeConcept->خلأ</li>
+    <li>memeConcept->موجودات ناهنجار</li>
+    <li>memeConcept->خشم</li>
+  </Inhuman.generalRules.rulesStrings>
   
   <!-- EN: ritualist -->
-  <Ritualist.label>TODO</Ritualist.label>
+  <Ritualist.label>آیین‌گرا</Ritualist.label>
   <!-- EN: There is a greater energy in the universe. Through ritual we can understand it and harness its power. -->
-  <Ritualist.description>TODO</Ritualist.description>
+  <Ritualist.description>انرژی برتری در جهان وجود دارد. از طریق آیین‌ها می‌توانیم آن را درک کرده و مهار سازیم.</Ritualist.description>
   <!-- EN:
     <li>memeAdjective->ritual</li>
     <li>memeConcept->ritual</li>
     <li>memeMoralist->ritualist</li>
   -->
-  <Ritualist.generalRules.rulesStrings>TODO</Ritualist.generalRules.rulesStrings>
+  <Ritualist.generalRules.rulesStrings>
+    <li>memeAdjective->آیینی</li>
+    <li>memeConcept->آیین</li>
+    <li>memeMoralist->آیین‌شناس</li>
+  </Ritualist.generalRules.rulesStrings>
   
 </LanguageData>

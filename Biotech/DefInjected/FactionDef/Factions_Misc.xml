@@ -2,81 +2,81 @@
 <LanguageData>
   
   <!-- EN: rough pig union -->
-  <OutlanderRoughPig.label>TODO</OutlanderRoughPig.label>
+  <OutlanderRoughPig.label>اتحادیه خوک خشن</OutlanderRoughPig.label>
   <!-- EN: A loose union of hardy pigskin townships. They're willing to make friends, even with thinsnouts, but they're also ready to toss a bomb and gnaw human gristle when it suits them. Treat them with respect and they'll offer a trotter to an ally in need. Turn against them and the last thing you hear might be a triumphant battle squeal. -->
-  <OutlanderRoughPig.description>TODO</OutlanderRoughPig.description>
+  <OutlanderRoughPig.description>یک اتحادیه آزاد از شهرستان های پوست خوک مقاوم. آن‌ها حاضرند با هم دوست شوند، حتی با نازک‌هایشان، اما در عین حال آماده‌اند که بمبی پرتاب کنند و وقتی صلاحشان است شن‌های انسان را بجوند. با آنها با احترام رفتار کنید و آنها به متحدی که نیاز دارد، یک ران گردان تقدیم می کنند. در مقابل آنها بچرخید و آخرین چیزی که می شنوید ممکن است یک نبرد پیروزمندانه باشد.</OutlanderRoughPig.description>
   <!-- EN: prime councilor -->
-  <OutlanderRoughPig.leaderTitle>TODO</OutlanderRoughPig.leaderTitle>
+  <OutlanderRoughPig.leaderTitle>نخست وزیر</OutlanderRoughPig.leaderTitle>
   <!-- EN: {0} from {1} are attacking your {2}. -->
-  <OutlanderRoughPig.messageDefendersAttacking>TODO</OutlanderRoughPig.messageDefendersAttacking>
+  <OutlanderRoughPig.messageDefendersAttacking>{0} از {1} به {2} شما حمله می کند.</OutlanderRoughPig.messageDefendersAttacking>
   <!-- EN: pigskin -->
-  <OutlanderRoughPig.pawnSingular>TODO</OutlanderRoughPig.pawnSingular>
+  <OutlanderRoughPig.pawnSingular>پوست خوک</OutlanderRoughPig.pawnSingular>
   <!-- EN: pigskins -->
-  <OutlanderRoughPig.pawnsPlural>TODO</OutlanderRoughPig.pawnsPlural>
+  <OutlanderRoughPig.pawnsPlural>پوست خوک</OutlanderRoughPig.pawnsPlural>
   
   <!-- EN: waster pirates -->
-  <PirateWaster.label>TODO</PirateWaster.label>
+  <PirateWaster.label>دزدان دریایی ضایع کننده</PirateWaster.label>
   <!-- EN: A loose collection of violent pirate bands made up primarily of wasters - xenohumans engineered to thrive around toxins and pollution. They have little interest in building, or farming, preferring to take their sustenance from others using violence.\n\nTheir technology level depends mostly on who they've managed to steal from recently. Mostly they carry gunpowder weapons, though some prefer to stab victims at close range. -->
-  <PirateWaster.description>TODO</PirateWaster.description>
+  <PirateWaster.description>مجموعه‌ای آزاد از گروه‌های دزدان دریایی خشن که عمدتاً از اتلاف‌کنندگان تشکیل شده‌اند - انسان‌های خارجی که برای رشد در اطراف سموم و آلودگی طراحی شده‌اند. آنها علاقه چندانی به ساخت و ساز یا کشاورزی ندارند و ترجیح می دهند با استفاده از خشونت، معاش خود را از دیگران بگیرند.\n\nسطح فناوری آنها بیشتر به این بستگی دارد که اخیراً توانسته اند از چه کسی بدزدند. آنها عمدتاً سلاح های باروتی حمل می کنند، اگرچه برخی ترجیح می دهند قربانیان را از فاصله نزدیک بزنند.</PirateWaster.description>
   <!-- EN: boss -->
-  <PirateWaster.leaderTitle>TODO</PirateWaster.leaderTitle>
+  <PirateWaster.leaderTitle>رئیس</PirateWaster.leaderTitle>
   <!-- EN: {0} from {1} are attacking your {2}. -->
-  <PirateWaster.messageDefendersAttacking>TODO</PirateWaster.messageDefendersAttacking>
+  <PirateWaster.messageDefendersAttacking>{0} از {1} به {2} شما حمله می کند.</PirateWaster.messageDefendersAttacking>
   <!-- EN: waster -->
-  <PirateWaster.pawnSingular>TODO</PirateWaster.pawnSingular>
+  <PirateWaster.pawnSingular>ضایع کننده</PirateWaster.pawnSingular>
   <!-- EN: wasters -->
-  <PirateWaster.pawnsPlural>TODO</PirateWaster.pawnsPlural>
+  <PirateWaster.pawnsPlural>اسراف کنندگان</PirateWaster.pawnsPlural>
   
   <!-- EN: yttakin pirates -->
-  <PirateYttakin.label>TODO</PirateYttakin.label>
+  <PirateYttakin.label>دزدان دریایی yttakin</PirateYttakin.label>
   <!-- EN: A close-knit band of hulking, fur-bodied pirates of the yttakin xenotype. They refuse to deal with outsiders and are quick to call their animal warriors against those who disrespect them - or whose wealth they intend to take.\n\nOriginally engineered to populate the icy planet Yttak, yttakin now pursue their traditional lifestyle on many worlds. -->
-  <PirateYttakin.description>TODO</PirateYttakin.description>
+  <PirateYttakin.description>گروهی به هم چسبیده از دزدان دریایی خزدار و خزدار از نوع بیگانه تاکین. آن‌ها از برخورد با خارجی‌ها امتناع می‌کنند و سریعاً جنگجویان حیوانات خود را علیه کسانی که به آنها بی‌احترامی می‌کنند صدا می‌کنند - یا قصد دارند ثروتشان را بگیرند.\n\nایتاکین که در ابتدا برای سکونت در سیاره یخی Yttak طراحی شده بود، اکنون سبک زندگی سنتی خود را در بسیاری از دنیاها دنبال می‌کند.</PirateYttakin.description>
   <!-- EN: boss -->
-  <PirateYttakin.leaderTitle>TODO</PirateYttakin.leaderTitle>
+  <PirateYttakin.leaderTitle>رئیس</PirateYttakin.leaderTitle>
   <!-- EN: {0} from {1} are attacking your {2}. -->
-  <PirateYttakin.messageDefendersAttacking>TODO</PirateYttakin.messageDefendersAttacking>
+  <PirateYttakin.messageDefendersAttacking>{0} از {1} به {2} شما حمله می کند.</PirateYttakin.messageDefendersAttacking>
   <!-- EN: yttakin -->
-  <PirateYttakin.pawnSingular>TODO</PirateYttakin.pawnSingular>
+  <PirateYttakin.pawnSingular>yttakin</PirateYttakin.pawnSingular>
   <!-- EN: yttakin -->
-  <PirateYttakin.pawnsPlural>TODO</PirateYttakin.pawnsPlural>
+  <PirateYttakin.pawnsPlural>yttakin</PirateYttakin.pawnsPlural>
   
   <!-- EN: sanguophages -->
-  <Sanguophages.label>TODO</Sanguophages.label>
+  <Sanguophages.label>سانگووفاژها</Sanguophages.label>
   <!-- EN: A group of ancient sanguophages. -->
-  <Sanguophages.description>TODO</Sanguophages.description>
+  <Sanguophages.description>گروهی از سانگووفاژهای باستانی.</Sanguophages.description>
   <!-- EN: leader -->
-  <Sanguophages.leaderTitle>TODO</Sanguophages.leaderTitle>
+  <Sanguophages.leaderTitle>رهبر</Sanguophages.leaderTitle>
   <!-- EN: {0} from {1} are attacking your {2}. -->
-  <Sanguophages.messageDefendersAttacking>TODO</Sanguophages.messageDefendersAttacking>
+  <Sanguophages.messageDefendersAttacking>{0} از {1} به {2} شما حمله می کند.</Sanguophages.messageDefendersAttacking>
   <!-- EN: sanguophage -->
-  <Sanguophages.pawnSingular>TODO</Sanguophages.pawnSingular>
+  <Sanguophages.pawnSingular>سانگووفاژ</Sanguophages.pawnSingular>
   <!-- EN: sanguophages -->
-  <Sanguophages.pawnsPlural>TODO</Sanguophages.pawnsPlural>
+  <Sanguophages.pawnsPlural>سانگووفاژها</Sanguophages.pawnsPlural>
   
   <!-- EN: fierce neanderthal tribe -->
-  <TribeRoughNeanderthal.label>TODO</TribeRoughNeanderthal.label>
+  <TribeRoughNeanderthal.label>قبیله خشن نئاندرتال</TribeRoughNeanderthal.label>
   <!-- EN: An unfriendly, territorial tribe of neanderthals. They are open to peaceful trade, but are otherwise unfriendly and territorial. Warriors from their tribe won't hesitate to bash in the skulls of anyone they deem dangerous. Their numbers, and the extreme amounts of damage they absorb before falling make them serious foes despite their lack of technology and analytical ability.\n\nHaving been on this planet for countless generations, they have no memory of how they got here. They might be the descendants of a neanderthal service caste from a dead civilization, or even the leftovers from some ancient science experiment. -->
-  <TribeRoughNeanderthal.description>TODO</TribeRoughNeanderthal.description>
+  <TribeRoughNeanderthal.description>قبیله‌ای غیردوستانه و سرزمینی از نئاندرتال‌ها. آنها برای تجارت صلح آمیز باز هستند، اما در غیر این صورت غیردوستانه و سرزمینی هستند. جنگجویان قبیله خود در زدن جمجمه هر کسی که به نظرشان خطرناک است دریغ نمی‌کنند. تعداد آن‌ها و میزان آسیب‌های شدیدی که قبل از سقوط جذب می‌کنند، علی‌رغم فقدان فناوری و توانایی تحلیلی، آنها را به دشمنان جدی تبدیل می‌کند.\n\nآنها که نسل‌های بی‌شماری در این سیاره بوده‌اند، هیچ خاطره‌ای از نحوه رسیدن به اینجا ندارند. آنها ممکن است نوادگان یک طبقه خدمات نئاندرتال از یک تمدن مرده باشند، یا حتی بقایای برخی از آزمایشات علمی باستانی.</TribeRoughNeanderthal.description>
   <!-- EN: chief -->
-  <TribeRoughNeanderthal.leaderTitle>TODO</TribeRoughNeanderthal.leaderTitle>
+  <TribeRoughNeanderthal.leaderTitle>رئیس</TribeRoughNeanderthal.leaderTitle>
   <!-- EN: {0} from {1} are attacking your {2}. -->
-  <TribeRoughNeanderthal.messageDefendersAttacking>TODO</TribeRoughNeanderthal.messageDefendersAttacking>
+  <TribeRoughNeanderthal.messageDefendersAttacking>{0} از {1} به {2} شما حمله می کند.</TribeRoughNeanderthal.messageDefendersAttacking>
   <!-- EN: neanderthal -->
-  <TribeRoughNeanderthal.pawnSingular>TODO</TribeRoughNeanderthal.pawnSingular>
+  <TribeRoughNeanderthal.pawnSingular>نئاندرتال</TribeRoughNeanderthal.pawnSingular>
   <!-- EN: neanderthals -->
-  <TribeRoughNeanderthal.pawnsPlural>TODO</TribeRoughNeanderthal.pawnsPlural>
+  <TribeRoughNeanderthal.pawnsPlural>نئاندرتال‌ها</TribeRoughNeanderthal.pawnsPlural>
   
   <!-- EN: savage impid tribe -->
-  <TribeSavageImpid.label>TODO</TribeSavageImpid.label>
+  <TribeSavageImpid.label>قبیله بی‌رحم وحشی</TribeSavageImpid.label>
   <!-- EN: A vicious tribe of yellow-skinned, fire-spewing impids. This particular tribe has no intention of coexisting peacefully with anyone else. Their warriors are experts at using their natural speed and flame attacks to burn the towns and children of other peoples.\n\nHaving been here for thousands of years, the origins of this tribe are lost in myth. They might descend from a group of settlers who lost their technology, or an impid community in some long-ruined civilization. -->
-  <TribeSavageImpid.description>TODO</TribeSavageImpid.description>
+  <TribeSavageImpid.description>قبیله‌ای شرور از افراد زرد پوست و آتش افروز. این قبیله خاص هیچ قصدی برای همزیستی مسالمت آمیز با هیچ کس دیگری ندارد. جنگجویان آنها در استفاده از سرعت طبیعی و حملات شعله برای سوزاندن شهرها و فرزندان مردمان دیگر متخصص هستند.\n\nاز هزاران سال پیش در اینجا، منشأ این قبیله در اسطوره گم شده است. آنها ممکن است از نسل گروهی از مهاجران باشند که فناوری خود را از دست داده اند، یا از یک جامعه بی شرمانه در تمدنی که مدت‌ها ویران شده است.</TribeSavageImpid.description>
   <!-- EN: chief -->
-  <TribeSavageImpid.leaderTitle>TODO</TribeSavageImpid.leaderTitle>
+  <TribeSavageImpid.leaderTitle>رئیس</TribeSavageImpid.leaderTitle>
   <!-- EN: {0} from {1} are attacking your {2}. -->
-  <TribeSavageImpid.messageDefendersAttacking>TODO</TribeSavageImpid.messageDefendersAttacking>
+  <TribeSavageImpid.messageDefendersAttacking>{0} از {1} به {2} شما حمله می کند.</TribeSavageImpid.messageDefendersAttacking>
   <!-- EN: imp -->
-  <TribeSavageImpid.pawnSingular>TODO</TribeSavageImpid.pawnSingular>
+  <TribeSavageImpid.pawnSingular>بد</TribeSavageImpid.pawnSingular>
   <!-- EN: imps -->
-  <TribeSavageImpid.pawnsPlural>TODO</TribeSavageImpid.pawnsPlural>
+  <TribeSavageImpid.pawnsPlural>imps</TribeSavageImpid.pawnsPlural>
   
 </LanguageData>

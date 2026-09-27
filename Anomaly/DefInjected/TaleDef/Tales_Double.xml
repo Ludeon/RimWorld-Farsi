@@ -1,14 +1,14 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: healed me -->
-  <HealedMe.label>TODO</HealedMe.label>
+  <HealedMe.label>مرا درمان کرد</HealedMe.label>
   
   <!-- EN: mutated my arm -->
-  <MutatedMyArm.label>TODO</MutatedMyArm.label>
+  <MutatedMyArm.label>بازوی مرا جهش داد</MutatedMyArm.label>
   
   <!-- EN: studied an entity -->
-  <StudiedEntity.label>TODO</StudiedEntity.label>
+  <StudiedEntity.label>موجود ناهنجار را مطالعه کرد</StudiedEntity.label>
   <!-- EN:
     <li>tale_noun->[STUDIER_nameDef] studying [ENTITY_nameIndef]</li>
     <li>image->[STUDIER_nameFull] carefully examining [ENTITY_nameDef] [circumstance_group]</li>
@@ -23,6 +23,19 @@
     <li>desc_sentence->[ENTITY_nameDef] is only just held in the place by the ceaseless work of electro-inhibitors.</li>
     <li>desc_sentence->[ENTITY_nameDef] does not appear to react to [STUDIER_nameDef]'s efforts.</li>
   -->
-  <StudiedEntity.rulePack.rulesStrings>TODO</StudiedEntity.rulePack.rulesStrings>
+  <StudiedEntity.rulePack.rulesStrings>
+    <li>tale_noun->مطالعه [ENTITY_nameIndef] توسط [STUDIER_nameDef]</li>
+    <li>image->[STUDIER_nameFull] که با دقت [ENTITY_nameDef] را [circumstance_group] بررسی می‌کند</li>
+    <li>image->[STUDIER_nameFull] در حال انجام آزمایش‌ها برای درک رازهای [ENTITY_nameDef]، [circumstance_group]</li>
+    <li>image->[STUDIER_nameFull] در تلاش برای درک ماهیت [ENTITY_nameDef] [circumstance_group]</li>
+    <li>circumstance_phrase->با بیزاری‌ای که به سختی در چشمانش پنهان شده است</li>
+    <li>circumstance_phrase->در حال یادداشت‌برداری در یک دفترچه</li>
+    <li>circumstance_phrase->در حال بررسی یک کتاب قطور باستانی</li>
+    <li>desc_sentence->کار پیوسته برداشت‌کننده‌های بیوفریت در پس‌زمینه دیده می‌شود.</li>
+    <li>desc_sentence->شیفتگی عمیق کلونیست به [ENTITY_nameDef] کاملاً مشهود است.</li>
+    <li>desc_sentence->[STUDIER_nameDef] کاملاً غرق در مطالعه [ENTITY_nameDef] است و می‌کوشد رازهای آن را بگشاید.</li>
+    <li>desc_sentence->[ENTITY_nameDef] تنها به واسطه کار پیوسته مهارکننده‌های الکتریکی در جای خود نگه داشته شده است.</li>
+    <li>desc_sentence->به نظر می‌رسد [ENTITY_nameDef] واکنشی به تلاش‌های [STUDIER_nameDef] نشان نمی‌دهد.</li>
+  </StudiedEntity.rulePack.rulesStrings>
   
 </LanguageData>

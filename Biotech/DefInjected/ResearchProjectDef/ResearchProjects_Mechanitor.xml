@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: basic mechtech -->
-  <BasicMechtech.label>TODO</BasicMechtech.label>
+  <BasicMechtech.label>تکنولوژی پایه</BasicMechtech.label>
   <!-- EN: The technology needed for your mechanitor to create and control basic-tier mechanoids. -->
-  <BasicMechtech.description>TODO</BasicMechtech.description>
+  <BasicMechtech.description>فناوری مورد نیاز مکانیک شما برای ایجاد و کنترل مکانوئیدهای سطح پایه.</BasicMechtech.description>
   <!-- EN:
     <li>subject->mechanoids</li>
     <li>subject_story->authored a children's book covering the basic types of mechanoid</li>
@@ -13,12 +13,19 @@
     <li>subject_story->was mining an ancient exostrider wreck and found a mechlink preserved in the wreckage</li>
     <li>subject_gerund->creating basic mechanoids</li>
   -->
-  <BasicMechtech.generalRules.rulesStrings>TODO</BasicMechtech.generalRules.rulesStrings>
+  <BasicMechtech.generalRules.rulesStrings>
+    <li>subject->مکانوئیدها</li>
+    <li>subject_story->کتابی برای کودکان نوشت که انواع اصلی مکانیک را پوشش می دهد</li>
+    <li>subject_story->با یک مکلینک نمونه اولیه کاشته شد</li>
+    <li>subject_story->تکنیک های اولیه بیومک را به طور مستقل تکرار کرد</li>
+    <li>subject_story->در حال استخراج یک لاشه بیرونی باستانی بود و یک مچلینک را در لاشه آن پیدا کرد</li>
+    <li>subject_gerund->ایجاد مکانیسم های اساسی</li>
+  </BasicMechtech.generalRules.rulesStrings>
   
   <!-- EN: high mechtech -->
-  <HighMechtech.label>TODO</HighMechtech.label>
+  <HighMechtech.label>تکنولوژی بالا</HighMechtech.label>
   <!-- EN: The technology needed for your mechanitor to create and control high-tier mechanoids.\n\nYou can get powerfocus chips by using a mechanitor to summon a war queen threat. -->
-  <HighMechtech.description>TODO</HighMechtech.description>
+  <HighMechtech.description>فناوری مورد نیاز مکانیک شما برای ایجاد و کنترل مکانیسم‌های سطح بالا.\n\nمی‌توانید تراشه‌های تمرکز قدرت را با استفاده از مکانیک برای احضار یک تهدید ملکه جنگ دریافت کنید.</HighMechtech.description>
   <!-- EN:
     <li>subject->high tier mechanoids</li>
     <li>subject_story->survived a War Queen assault on an Imperial world</li>
@@ -27,12 +34,19 @@
     <li>subject_story->built prototype mechanoid micro-organs for an offworld client</li>
     <li>subject_gerund->creating high-tier mechanoids</li>
   -->
-  <HighMechtech.generalRules.rulesStrings>TODO</HighMechtech.generalRules.rulesStrings>
+  <HighMechtech.generalRules.rulesStrings>
+    <li>subject->مکانیسم های سطح بالا</li>
+    <li>subject_story->از حمله ملکه جنگ به دنیای امپراتوری جان سالم به در برد</li>
+    <li>subject_story->یک تراشه Powerfocus را از تاجری خرید که ارزش آن را درک نکرد</li>
+    <li>subject_story->مکانیکال های مورد بازجویی که در حملات سیاره‌ای دستگیر شده اند</li>
+    <li>subject_story->نمونه اولیه میکرو اندام های مکانیکی برای مشتری خارج از جهان ساخته شده است</li>
+    <li>subject_gerund->ایجاد مکانوئیدهای سطح بالا</li>
+  </HighMechtech.generalRules.rulesStrings>
   
   <!-- EN: standard mechtech -->
-  <StandardMechtech.label>TODO</StandardMechtech.label>
+  <StandardMechtech.label>مکانیک استاندارد</StandardMechtech.label>
   <!-- EN: The technology needed for your mechanitor to create and control standard-tier mechanoids.\n\nYou can get signal chips by using a mechanitor to summon a diabolus threat. -->
-  <StandardMechtech.description>TODO</StandardMechtech.description>
+  <StandardMechtech.description>فناوری مورد نیاز مکانیک شما برای ایجاد و کنترل مکانیسم‌های سطح استاندارد.\n\nمی‌توانید تراشه‌های سیگنال را با استفاده از مکانیک برای احضار یک تهدید دیابولوس دریافت کنید.</StandardMechtech.description>
   <!-- EN:
     <li>subject->mechanoids</li>
     <li>subject_story->acquired a signal chip in shady circumstances</li>
@@ -41,12 +55,19 @@
     <li>subject_story->collated reports of mechanoid attacks, looking for commonalities</li>
     <li>subject_gerund->creating standard mechanoids</li>
   -->
-  <StandardMechtech.generalRules.rulesStrings>TODO</StandardMechtech.generalRules.rulesStrings>
+  <StandardMechtech.generalRules.rulesStrings>
+    <li>subject->مکانوئیدها</li>
+    <li>subject_story->یک تراشه سیگنال در شرایط سایه به دست آورد</li>
+    <li>subject_story->یک تراشه سیگنال دست نخورده را در یک خرابه دیابولوس پیدا کرد</li>
+    <li>subject_story->از حمله مکانیکی کندو جان سالم به در برد</li>
+    <li>subject_story->گزارش‌های مربوط به حملات مکانیکی را جمع‌آوری کرد و به دنبال مشترکات بود</li>
+    <li>subject_gerund->ایجاد مکانیسم های استاندارد</li>
+  </StandardMechtech.generalRules.rulesStrings>
   
   <!-- EN: ultra mechtech -->
-  <UltraMechtech.label>TODO</UltraMechtech.label>
+  <UltraMechtech.label>تکنولوژی فوق العاده</UltraMechtech.label>
   <!-- EN: The advanced technology needed for your mechanitor to create and control ultra-tier mechanoids, including large mechs and ultra-tier mechanitor gear.\n\nYou can get nano structuring chips by using a mechanitor to summon an apocriton threat. -->
-  <UltraMechtech.description>TODO</UltraMechtech.description>
+  <UltraMechtech.description>فناوری پیشرفته‌ای که برای ایجاد و کنترل مکانیزم‌های فوق‌لایه، از جمله مکانیزم‌های بزرگ و چرخ‌دنده‌های مکانیتور فوق‌لایه، برای مکانیک شما لازم است.\n\nمی‌توانید تراشه‌های ساختاری نانو را با استفاده از مکانیتور برای احضار تهدید آپوکریتون دریافت کنید.</UltraMechtech.description>
   <!-- EN:
     <li>subject->ultra-tier mechanoids</li>
     <li>subject_story->found a powered-down apocriton in the wreckage of a deadworld</li>
@@ -55,12 +76,19 @@
     <li>subject_story->found an ascension diary next to an inert archonexus</li>
     <li>subject_gerund->creating ultra-tier mechanoids</li>
   -->
-  <UltraMechtech.generalRules.rulesStrings>TODO</UltraMechtech.generalRules.rulesStrings>
+  <UltraMechtech.generalRules.rulesStrings>
+    <li>subject->مکانیک های فوق لایه</li>
+    <li>subject_story->یک آپوکریتون ضعیف شده را در خرابه های یک دنیای مرده پیدا کرد</li>
+    <li>subject_story->یک آپوکریتون را مشاهده کرد که مکانیک‌ها را از فاصله‌ای امن احیا می کرد</li>
+    <li>subject_story->به نفرت روحی عمیقی که آپوکریتون‌ها نسبت به بشریت احساس می کنند، ضربه زدند</li>
+    <li>subject_story->یک دفتر خاطرات معراج را در کنار یک archonexus بی اثر پیدا کرد</li>
+    <li>subject_gerund->ایجاد مکانوئیدهای فوق لایه</li>
+  </UltraMechtech.generalRules.rulesStrings>
   
   <!-- EN: wastepack atomizer -->
-  <WastepackAtomizer.label>TODO</WastepackAtomizer.label>
+  <WastepackAtomizer.label>اتمایزر بسته بندی زباله</WastepackAtomizer.label>
   <!-- EN: Build wastepack atomizers which can safely dispose of toxic wastepacks by decomposing them at the molecular level. -->
-  <WastepackAtomizer.description>TODO</WastepackAtomizer.description>
+  <WastepackAtomizer.description>اتمایزرهای بسته زباله بسازید که می توانند به طور ایمن بسته های زباله سمی را با تجزیه آنها در سطح مولکولی دفع کنند.</WastepackAtomizer.description>
   <!-- EN:
     <li>subject->toxic waste atomization</li>
     <li>subject_story->studied safe atomic waste disposal</li>
@@ -69,6 +97,13 @@
     <li>subject_story->observed a toxicworld from orbit</li>
     <li>subject_gerund->constructing wastepack atomizers</li>
   -->
-  <WastepackAtomizer.generalRules.rulesStrings>TODO</WastepackAtomizer.generalRules.rulesStrings>
+  <WastepackAtomizer.generalRules.rulesStrings>
+    <li>subject->اتمیزه کردن زباله های سمی</li>
+    <li>subject_story->دفع ایمن زباله اتمی را مورد مطالعه قرار داد</li>
+    <li>subject_story->تیم های یکبار مصرف را برای ماموریت های دفع زباله های خورشیدی استخدام کرد</li>
+    <li>subject_story->تئوری بی ثباتی اتمی را از اصول اولیه ابداع کرد</li>
+    <li>subject_story->یک دنیای سمی را از مدار مشاهده کرد</li>
+    <li>subject_gerund->ساخت دستگاه اتمایزر بسته بندی زباله</li>
+  </WastepackAtomizer.generalRules.rulesStrings>
   
 </LanguageData>

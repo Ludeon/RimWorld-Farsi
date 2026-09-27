@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -18,7 +18,23 @@
     <li>pawnListHaveConjugation(colonistsToLendCount==1)->has</li>
     <li>pawnListHaveConjugation(colonistsToLendCount>1)->have</li>
   -->
-  <PawnLend.questDescriptionRules.rulesStrings>TODO</PawnLend.questDescriptionRules.rulesStrings>
+  <PawnLend.questDescriptionRules.rulesStrings>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] از [asker_faction_name] برای کمک به [dutyDescription] به دست‌های اضافی نیاز دارد.\n\n[asker_pronoun] از شما می‌خواهد [colonistCountToLend] را به [asker_objective] برای [lendForDays] روز قرض دهید.\n\n[willSendShuttle]</li>
+    <li>disease->آنفولانزا</li>
+    <li>disease->طاعون</li>
+    <li>disease->مالاریا</li>
+    <li>disease->عفونت</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] از [asker_faction_name] برای کمک به [dutyRoyalDescription] به افراد نیاز دارد.\n\n[asker_pronoun] از شما می‌خواهد [colonistCountToLend] را برای خدمت به [asker_objective] به مدت [lendForDays] روز قرض دهید.\n\n[willSendShuttle]</li>
+    <li>colonistCountToLend(colonistsToLendCount==1)->۱ مستعمره‌نشین[minAgeOrOlder]</li>
+    <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] مستعمره‌نشین[minAgeOrOlder]</li>
+    <li>willSendShuttle->[asker_pronoun] یک شاتل برای تحویل گرفتن [colonists] می‌فرستد.</li>
+    <li>colonists(colonistsToLendCount==1)->مستعمره‌نشین</li>
+    <li>colonists(colonistsToLendCount>1)->مستعمره‌نشین‌ها</li>
+    <li>minAgeOrOlder(minAge==0)-></li>
+    <li>minAgeOrOlder(minAge>0)-> [minAge] سال یا بیشتر</li>
+    <li>pawnListHaveConjugation(colonistsToLendCount==1)->دارد</li>
+    <li>pawnListHaveConjugation(colonistsToLendCount>1)->دارند</li>
+  </PawnLend.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[worker] Outsourcing</li>
     <li>questName->Contract [worker]s</li>
@@ -32,28 +48,38 @@
     <li>worker->Laborer</li>
     <li>worker->Helper</li>
   -->
-  <PawnLend.questNameRules.rulesStrings>TODO</PawnLend.questNameRules.rulesStrings>
+  <PawnLend.questNameRules.rulesStrings><li>questName->برون سپاری [worker]</li>
+    <li>questName->قرارداد [worker]s</li>
+    <li>questName->کارگران موقت</li>
+    <li>questName->[worker] Lending</li>
+    <li>questName->[worker]s برای [asker_faction_name]</li>
+    <li>questName->[worker]های موقت</li>
+    <li>questName->درخواست [worker]s</li>
+    <li>کارگر->استعمارگر</li>
+    <li>کارگر->کارگر</li>
+    <li>کارگر->کارگر</li>
+    <li>worker->Helper</li></PawnLend.questNameRules.rulesStrings>
   <!-- EN: <rulesStrings><li>dutyDescription->gather the harvest</li><li>dutyDescription->fortify a settlement</li><li>dutyDescription->set up a settlement</li><li>dutyDescription->watch for raiders</li><li>dutyDescription->set up a hospital</li><li>dutyDescription->contain an outbreak of [disease]</li></rulesStrings> -->
-  <PawnLend.DutyRulesAny.slateRef>TODO</PawnLend.DutyRulesAny.slateRef>
+  <PawnLend.DutyRulesAny.slateRef><rulesStrings><li>dutyDescription->حصول محصول را جمع آوری کنید</li><li>dutyDescription->تقویت یک شهرک</li><li>dutyDescription-> یک شهرک را راه اندازی کنید</li><li>dutyDescription->نگهبانی برای مهاجمان</li><li>dutyDescription->راه اندازی یک بیمارستان</li><li>وظیفه خارج از وظیفه [disease]</li></rulesStrings></PawnLend.DutyRulesAny.slateRef>
   <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_nameFull] of [asker_faction_name] to [dutyDescription]. -->
-  <PawnLend.LetterTextReturnAfterHelping.slateRef>TODO</PawnLend.LetterTextReturnAfterHelping.slateRef>
+  <PawnLend.LetterTextReturnAfterHelping.slateRef>{PAWNS} [pawnListHaveConjugation] پس از کمک به [asker_nameFull] از [asker_faction_name] به [dutyDescription] بازگشت.</PawnLend.LetterTextReturnAfterHelping.slateRef>
   <!-- EN: <rulesStrings><li>dutyRoyalDescription->prepare a ceremony</li><li>dutyRoyalDescription->negotiate with a tribe</li><li>dutyRoyalDescription->explore a swamp</li><li>dutyRoyalDescription->translate a book</li><li>dutyRoyalDescription->set up a training ground</li><li>dutyRoyalDescription->harvest crops</li></rulesStrings> -->
-  <PawnLend.DutyRulesRoyal.slateRef>TODO</PawnLend.DutyRulesRoyal.slateRef>
+  <PawnLend.DutyRulesRoyal.slateRef><rulesStrings><li>dutyRoyalDescription->تدارک مراسم</li><li>dutyRoyalDescription->مذاکره با یک قبیله</li><li>dutyRoyalDescription->کاوش در یک مرداب</li><li>dutyRoyalDescription->ترجمه یک کتاب</li><li>dutyRoyalDescription-> زمین</li><li>dutyRoyalDescription->برداشت محصول</li></rulesStrings></PawnLend.DutyRulesRoyal.slateRef>
   <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] to [dutyRoyalDescription]. -->
-  <PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>TODO</PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>
+  <PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>{PAWNS} [pawnListHaveConjugation] پس از کمک به [asker_royalTitleInCurrentFaction] [asker_nameFull] از [asker_faction_name] به [dutyRoyalDescription] بازگشت.</PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>
   <!-- EN: Shuttle arrived -->
-  <PawnLend.LetterLabelShuttleArrived.slateRef>TODO</PawnLend.LetterLabelShuttleArrived.slateRef>
+  <PawnLend.LetterLabelShuttleArrived.slateRef>شاتل رسید</PawnLend.LetterLabelShuttleArrived.slateRef>
   <!-- EN: The shuttle has arrived to collect [colonistsToLendCount] of your colonists. -->
-  <PawnLend.LetterTextShuttleArrived.slateRef>TODO</PawnLend.LetterTextShuttleArrived.slateRef>
+  <PawnLend.LetterTextShuttleArrived.slateRef>شاتل برای جمع آوری [colonistsToLendCount] از مستعمرات شما وارد شده است.</PawnLend.LetterTextShuttleArrived.slateRef>
   <!-- EN: Shuttle destroyed -->
-  <PawnLend.LetterLabelShuttleDestroyed.slateRef>TODO</PawnLend.LetterLabelShuttleDestroyed.slateRef>
+  <PawnLend.LetterLabelShuttleDestroyed.slateRef>شاتل نابود شد</PawnLend.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect colonists has been destroyed. -->
-  <PawnLend.LetterTextShuttleDestroyed.slateRef>TODO</PawnLend.LetterTextShuttleDestroyed.slateRef>
+  <PawnLend.LetterTextShuttleDestroyed.slateRef>شاتل فرستاده شده برای جمع آوری مستعمره نشینان نابود شده است.</PawnLend.LetterTextShuttleDestroyed.slateRef>
   <!-- EN: Shuttle abandoned -->
-  <PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.label.slateRef>TODO</PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.label.slateRef>
+  <PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.label.slateRef>شاتل رها شده است</PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.label.slateRef>
   <!-- EN: The shuttle sent to collect colonists has been left behind. -->
-  <PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.text.slateRef>TODO</PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.text.slateRef>
+  <PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.text.slateRef>شاتل فرستاده شده برای جمع آوری مستعمره نشینان رها شده است.</PawnLend.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.text.slateRef>
   <!-- EN: Colonists returned -->
-  <PawnLend.LetterLabelColonistsReturned.slateRef>TODO</PawnLend.LetterLabelColonistsReturned.slateRef>
+  <PawnLend.LetterLabelColonistsReturned.slateRef>استعمارگران بازگشتند</PawnLend.LetterLabelColonistsReturned.slateRef>
   
 </LanguageData>

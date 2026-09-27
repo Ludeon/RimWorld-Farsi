@@ -37,7 +37,42 @@
     <li>spaceCollectiveNoun->Marauders</li>
     <li>spaceCollectiveNoun->Reapers</li>
   -->
-  <NamerFactionSalvagers.rulePack.rulesStrings>TODO</NamerFactionSalvagers.rulePack.rulesStrings>
+  <NamerFactionSalvagers.rulePack.rulesStrings>
+    <li>r_name->[spaceAdj] Salvagers</li>
+    <li>r_name->رفتگران [spaceAdj]</li>
+    <li>r_name->[spaceAdj] [AnimalBadass]s</li>
+    <li>r_name->[spaceAdj] [AnimalBadass]s</li>
+    <li>r_name->[spaceAdj] [Enemy]s</li>
+    <li>r_name->[spaceNoun] [Enemy]s</li>
+    <li>r_name->[spaceNoun] [groupname]</li>
+    <li>r_name->[spaceAdj] [groupname]</li>
+    <li>r_name->[ColorBadass] [spaceNoun]</li>
+    <li>r_name->[AdjectiveBadass] [spaceNoun]</li>
+    <li>r_name->[ColorBadass] [spaceCollectiveNoun]</li>
+    <li>r_name->[AdjectiveBadass] [spaceCollectiveNoun]</li>
+    <li>r_name->[spaceNoun] های [ConceptBadass]</li>
+    <li>r_name(p=2)->[spaceNoun] های [NamePerson]</li>
+    <li>r_name(p=2)->[NamePerson] [spaceCollectiveNoun]</li>
+    <li>r_name(p=2)->[NamePerson]'s [spaceAdj] [spaceCollectiveNoun]</li>
+    <li>spaceAdj->مداری</li>
+    <li>spaceAdj->کیهانی</li>
+    <li>spaceAdj->اختری</li>
+    <li>spaceAdj->خورشیدی</li>
+    <li>spaceAdj->آسمانی</li>
+    <li>spaceNoun->ستاره</li>
+    <li>spaceNoun->ماه</li>
+    <li>spaceNoun->دنباله دار</li>
+    <li>spaceNoun->سیارک</li>
+    <li>spaceNoun->کسوف</li>
+    <li>spaceCollectiveNoun->آرمادا</li>
+    <li>spaceCollectiveNoun->ناوگان</li>
+    <li>spaceCollectiveNoun->ناوگروه</li>
+    <li>spaceCollectiveNoun->ناوگان</li>
+    <li>spaceCollectiveNoun->کورسی</li>
+    <li>spaceCollectiveNoun->دزدان دریایی</li>
+    <li>spaceCollectiveNoun->غارتگران</li>
+    <li>spaceCollectiveNoun->دروها</li>
+  </NamerFactionSalvagers.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[tradeAdj] [tradeNoun]</li>
@@ -66,7 +101,33 @@
     <li>tradeNoun->emporium</li>
     <li>tradeNoun->nexus</li>
   -->
-  <NamerFactionTradersGuild.rulePack.rulesStrings>TODO</NamerFactionTradersGuild.rulePack.rulesStrings>
+  <NamerFactionTradersGuild.rulePack.rulesStrings>
+    <li>r_name->[tradeAdj] [tradeNoun]</li>
+    <li>tradeAdj->تاجر</li>
+    <li>tradeAdj->مداری</li>
+    <li>tradeAdj->تجارت</li>
+    <li>tradeAdj->اسپیسر</li>
+    <li>tradeAdj->فضا</li>
+    <li>tradeAdj->کیهانی</li>
+    <li>tradeAdj->پرواز آسمانی</li>
+    <li>tradeAdj->باطل متولد شده</li>
+    <li>tradeAdj->exo</li>
+    <li>tradeNoun->صنفی</li>
+    <li>tradeNoun->کنسرسیوم</li>
+    <li>tradeNoun->سندیکا</li>
+    <li>tradeNoun->اتحاد</li>
+    <li>tradeNoun->کارتل</li>
+    <li>tradeNoun->ائتلاف</li>
+    <li>tradeNoun->فدراسیون</li>
+    <li>tradeNoun->گروه تولیدی</li>
+    <li>tradeNoun->شرکت</li>
+    <li>tradeNoun->شرکت</li>
+    <li>tradeNoun->شبکه</li>
+    <li>tradeNoun->مبادله</li>
+    <li>tradeNoun->بازار</li>
+    <li>tradeNoun->امپریوم</li>
+    <li>tradeNoun->رابطه</li>
+  </NamerFactionTradersGuild.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[platAdj] [platform]</li>
@@ -105,6 +166,42 @@
     <li>platform->dock</li>
     <li>platform->ring</li>
   -->
-  <NamerSettlementTradersGuild.rulePack.rulesStrings>TODO</NamerSettlementTradersGuild.rulePack.rulesStrings>
+  <NamerSettlementTradersGuild.rulePack.rulesStrings>
+    <li>r_name->[platAdj] [platform]</li>
+    <li>platAdj->نور ستاره</li>
+    <li>platAdj->آفتاب</li>
+    <li>platAdj->سحابی</li>
+    <li>platAdj->گرد و غبار ستاره‌ای</li>
+    <li>platAdj->اوریون</li>
+    <li>platAdj->افق</li>
+    <li>platAdj->کهکشان</li>
+    <li>platAdj->کیهان</li>
+    <li>platAdj->باطل</li>
+    <li>platAdj->سیارک</li>
+    <li>platAdj->دنباله دار</li>
+    <li>platAdj->کسوف</li>
+    <li>platAdj->اختروش</li>
+    <li>platAdj->تپ اختر</li>
+    <li>platAdj->شهاب سنگ</li>
+    <li>platAdj->اوج</li>
+    <li>platAdj->قمری</li>
+    <li>platAdj->خورشیدی</li>
+    <li>platAdj->آسمانی</li>
+    <li>platAdj->پرتو ماه</li>
+    <li>platAdj->آفتاب سوختگی</li>
+    <li>platAdj->ستاره فیلد</li>
+    <li>platAdj->کیهانی</li>
+    <li>platAdj->اختری</li>
+    <li>platAdj->شفق قطبی</li>
+    <li>platAdj->نورانی</li>
+    <li>platAdj->کرونا</li>
+    <li>platform->پلت فرم</li>
+    <li>platform->ایستگاه</li>
+    <li>platform->هاب</li>
+    <li>platform->ایستگاه</li>
+    <li>platform->پایه</li>
+    <li>platform->بارانداز</li>
+    <li>platform->حلقه</li>
+  </NamerSettlementTradersGuild.rulePack.rulesStrings>
   
 </LanguageData>

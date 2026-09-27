@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: archogenetics -->
-  <Archogenetics.label>TODO</Archogenetics.label>
+  <Archogenetics.label>آرشوژنتیک</Archogenetics.label>
   <!-- EN: Allows a gene assembler to use archite capsules to create seemingly impossible genes. Archite genes and archite capsules can be obtained from traders. -->
-  <Archogenetics.description>TODO</Archogenetics.description>
+  <Archogenetics.description>به یک مونتاژکننده ژن اجازه می دهد از کپسول های آرشیت برای ایجاد ژن های به ظاهر غیرممکن استفاده کند. ژن های آرشیت و کپسول های آرشیت را می توان از تاجران تهیه کرد.</Archogenetics.description>
   <!-- EN:
     <li>subject->archogenetics</li>
     <li>subject_story->excavated archite genes from the transcendent moon of Ix</li>
@@ -13,12 +13,19 @@
     <li>subject_gerund->assembling archite genes</li>
     <li>subject_gerund->creating seemingly impossible genes</li>
   -->
-  <Archogenetics.generalRules.rulesStrings>TODO</Archogenetics.generalRules.rulesStrings>
+  <Archogenetics.generalRules.rulesStrings>
+    <li>subject->آرشوژنتیک</li>
+    <li>subject_story->ژن های آرشیت را از قمر متعالی Ix کاوش کرد</li>
+    <li>subject_story->به عنوان یک معامله گر ژن آرشیت زندگی خوبی داشت</li>
+    <li>subject_story->یک اکسپدیشن تحقیقاتی را به یک تک سنگی باستانی هدایت کرد و تغییر یافته بازگشت</li>
+    <li>subject_gerund->مونتاژ ژن های آرشیت</li>
+    <li>subject_gerund->ایجاد ژن های به ظاهر غیرممکن</li>
+  </Archogenetics.generalRules.rulesStrings>
   
   <!-- EN: deathrest -->
-  <Deathrest.label>TODO</Deathrest.label>
+  <Deathrest.label>مرگ</Deathrest.label>
   <!-- EN: Those with the deathrest gene must periodically undergo a special deathrest coma that lasts several days. This research project allows you to construct buildings which accelerate the deathrest coma and confer specific bonuses on the deathrester. Over time, you can build a grand deathrest temple. -->
-  <Deathrest.description>TODO</Deathrest.description>
+  <Deathrest.description>افرادی که دارای ژن مرگ و میر هستند باید به طور دوره‌ای تحت یک کمای مرگ آور ویژه قرار گیرند که چند روز طول می کشد. این پروژه تحقیقاتی به شما امکان می‌دهد ساختمان‌هایی بسازید که کمای مرگ را تسریع می‌کنند و پاداش‌های خاصی را به فرد بازدارنده می‌دهند. با گذشت زمان، می توانید یک معبد بزرگ مرگ بسازید.</Deathrest.description>
   <!-- EN:
     <li>subject->deathrest</li>
     <li>subject_story->dissected corpses from a deathrest temple, finally understanding how it worked</li>
@@ -27,12 +34,19 @@
     <li>subject_gerund->constructing deathrest facilities</li>
     <li>subject_gerund->improving deathrest</li>
   -->
-  <Deathrest.generalRules.rulesStrings>TODO</Deathrest.generalRules.rulesStrings>
+  <Deathrest.generalRules.rulesStrings>
+    <li>subject->مرگ</li>
+    <li>subject_story->اجساد را از یک معبد مرگ جدا کرد و سرانجام فهمید که چگونه کار می کند</li>
+    <li>subject_story->با یک سلبریتی مصاحبه کرد که به نظر می رسید هرگز پیر نشده بود و در نهایت رازهای او را یاد گرفت</li>
+    <li>subject_story->تلاش کرد تا این فناوری را تکرار کند و به کما رفت و چند هفته بعد از خواب بیدار شد</li>
+    <li>subject_gerund->ساخت تاسیسات استراحت مرگ</li>
+    <li>subject_gerund->بهبود وضعیت مرگ</li>
+  </Deathrest.generalRules.rulesStrings>
   
   <!-- EN: fertility procedures -->
-  <FertilityProcedures.label>TODO</FertilityProcedures.label>
+  <FertilityProcedures.label>روش های باروری</FertilityProcedures.label>
   <!-- EN: Perform the surgeries necessary to create a test tube embryo from a fertile man and woman, then implant the embryo in a surrogate mother or growth vat. Also, perform sterilization surgeries on men and women. -->
-  <FertilityProcedures.description>TODO</FertilityProcedures.description>
+  <FertilityProcedures.description>جراحی های لازم برای ایجاد یک جنین لوله آزمایش از یک زن و مرد بارور را انجام دهید، سپس جنین را در یک مادر جایگزین یا در محفظه رشد کاشت کنید. همچنین جراحی های عقیم سازی را در مردان و زنان انجام دهید.</FertilityProcedures.description>
   <!-- EN:
     <li>subject->fertility procedures</li>
     <li>subject_story->helped families in the coreworlds achieve their dream of parenthood with test-tube embryos</li>
@@ -41,12 +55,19 @@
     <li>subject_gerund->altering human fertility</li>
     <li>subject_gerund->improving or blocking human fertility</li>
   -->
-  <FertilityProcedures.generalRules.rulesStrings>TODO</FertilityProcedures.generalRules.rulesStrings>
+  <FertilityProcedures.generalRules.rulesStrings>
+    <li>subject->روش های باروری</li>
+    <li>subject_story->به خانواده‌ها در دنیای هسته‌ای کمک کرد تا با جنین های لوله آزمایش به رویای پدر و مادری خود برسند</li>
+    <li>subject_story->بومرات نادر Callopian را با تکنیک های خطرناک لقاح دستی از انقراض نجات داد</li>
+    <li>subject_story->بحران جمعیت در جهان شهری را با مداخلات باروری و خمره های رشد حل کرد</li>
+    <li>subject_gerund->تغییر باروری انسان</li>
+    <li>subject_gerund->بهبود یا مسدود کردن باروری انسان</li>
+  </FertilityProcedures.generalRules.rulesStrings>
   
   <!-- EN: gene processor -->
-  <GeneProcessor.label>TODO</GeneProcessor.label>
+  <GeneProcessor.label>پردازنده ژن</GeneProcessor.label>
   <!-- EN: Build gene processors, which allow a gene assembler to create xenogerms of higher genetic complexity. -->
-  <GeneProcessor.description>TODO</GeneProcessor.description>
+  <GeneProcessor.description>پردازشگرهای ژنی بسازید که به یک مونتاژکننده ژن اجازه می دهد تا زنوگرم هایی با پیچیدگی ژنتیکی بالاتر ایجاد کند.</GeneProcessor.description>
   <!-- EN:
     <li>subject->gene processors</li>
     <li>subject_story->extracted Glitterworld genes from a drifting derelict</li>
@@ -55,12 +76,19 @@
     <li>subject_gerund->constructing gene processors</li>
     <li>subject_gerund->processing genes</li>
   -->
-  <GeneProcessor.generalRules.rulesStrings>TODO</GeneProcessor.generalRules.rulesStrings>
+  <GeneProcessor.generalRules.rulesStrings>
+    <li>subject->پردازنده های ژن</li>
+    <li>subject_story->ژن Glitterworld را از یک منطقه متروک استخراج کرد</li>
+    <li>subject_story->یک دهکده کامل را پردازش کرد تا یک مجموعه از ژن های بالاتر را ایجاد کند</li>
+    <li>subject_story->روند آهسته بالا بردن را با کاشت زنوژرم در یک قبیله بدوی آغاز کرد</li>
+    <li>subject_gerund->ساخت پردازنده های ژنی</li>
+    <li>subject_gerund->پردازش ژن‌ها</li>
+  </GeneProcessor.generalRules.rulesStrings>
   
   <!-- EN: growth vats -->
-  <GrowthVats.label>TODO</GrowthVats.label>
+  <GrowthVats.label>خمره های رشد</GrowthVats.label>
   <!-- EN: Construct growth vats which can gestate an embryo or accelerate a child's growth. -->
-  <GrowthVats.description>TODO</GrowthVats.description>
+  <GrowthVats.description>خمره های رشد بسازید که می توانند جنین را باردار کنند یا رشد کودک را تسریع کنند.</GrowthVats.description>
   <!-- EN:
     <li>subject->advanced gestation</li>
     <li>subject->artificial wombs</li>
@@ -71,12 +99,21 @@
     <li>subject_gerund->accelerating human growth</li>
     <li>subject_gerund->constructing growth vats</li>
   -->
-  <GrowthVats.generalRules.rulesStrings>TODO</GrowthVats.generalRules.rulesStrings>
+  <GrowthVats.generalRules.rulesStrings>
+    <li>subject->بارداری پیشرفته</li>
+    <li>subject->رحم مصنوعی</li>
+    <li>subject_story->یک مرکز شبیه سازی را برای تامین خدمتکاران برای دنیای هسته‌ای راه اندازی کرد</li>
+    <li>subject_story->ارتش جدیدی برای حکومت نظامی جهان جنگ ایجاد کرد</li>
+    <li>subject_story->به خانواده هایی با هر پیشینه‌ای کمک کرد تا بچه دار شوند</li>
+    <li>subject_gerund->حاملگی جنین در رحم مصنوعی</li>
+    <li>subject_gerund->تسریع رشد انسان</li>
+    <li>subject_gerund->ساخت خمره های رشد</li>
+  </GrowthVats.generalRules.rulesStrings>
   
   <!-- EN: toxin filtration -->
-  <ToxFiltration.label>TODO</ToxFiltration.label>
+  <ToxFiltration.label>فیلتراسیون سموم</ToxFiltration.label>
   <!-- EN: Craft and install bionic organs that can filter out toxins from the environment and from enemy attacks. -->
-  <ToxFiltration.description>TODO</ToxFiltration.description>
+  <ToxFiltration.description>اندام های بیونیک را بسازید و نصب کنید که می توانند سموم را از محیط و حملات دشمن فیلتر کنند.</ToxFiltration.description>
   <!-- EN:
     <li>subject->toxin filtration</li>
     <li>subject->toxin metabolisation</li>
@@ -86,12 +123,20 @@
     <li>subject_gerund->metabolising toxins</li>
     <li>subject_gerund->crafting antitoxin organs</li>
   -->
-  <ToxFiltration.generalRules.rulesStrings>TODO</ToxFiltration.generalRules.rulesStrings>
+  <ToxFiltration.generalRules.rulesStrings>
+    <li>subject->فیلتراسیون سموم</li>
+    <li>subject->متابولیسم سموم</li>
+    <li>subject_story->کمک کرد تا بازمانده‌های جنگ‌های جهان دوباره نفس بکشند</li>
+    <li>subject_story->از تمرینات شیمی برای کلاس های اخلاق اضافی صرف نظر کرد</li>
+    <li>subject_story->به عنوان متخصص فیلتراسیون به یک شرکت معدن پیوست</li>
+    <li>subject_gerund->متابولیسم سموم</li>
+    <li>subject_gerund->ساخت اندام های آنتی توکسین</li>
+  </ToxFiltration.generalRules.rulesStrings>
   
   <!-- EN: tox gas -->
-  <ToxGas.label>TODO</ToxGas.label>
+  <ToxGas.label>گاز سمی</ToxGas.label>
   <!-- EN: Produce weapons that utilize caustic tox gas. -->
-  <ToxGas.description>TODO</ToxGas.description>
+  <ToxGas.description>سلاح هایی تولید کنید که از گاز سمی سوز آور استفاده می کنند.</ToxGas.description>
   <!-- EN:
     <li>subject->gas weaponry</li>
     <li>subject->chemical warfare</li>
@@ -100,12 +145,19 @@
     <li>subject_story->researched cloud control tech for the tyrannocracy of a deathworld</li>
     <li>subject_gerund->crafting toxic gas weapons</li>
   -->
-  <ToxGas.generalRules.rulesStrings>TODO</ToxGas.generalRules.rulesStrings>
+  <ToxGas.generalRules.rulesStrings>
+    <li>subject->تسلیحات گازی</li>
+    <li>subject->جنگ شیمیایی</li>
+    <li>subject_story->رویای سلاحی برای پایان دادن به همه جنگ‌ها را در سر می پروراند</li>
+    <li>subject_story->برای تمرین شیمی بیشتر از کلاس های اخلاق صرف نظر کرد</li>
+    <li>subject_story->فناوری کنترل ابری را برای استبداد دنیای مرگ تحقیق کرد</li>
+    <li>subject_gerund->ساخت سلاح های گاز سمی</li>
+  </ToxGas.generalRules.rulesStrings>
   
   <!-- EN: toxifier generator -->
-  <ToxifierGenerator.label>TODO</ToxifierGenerator.label>
+  <ToxifierGenerator.label>مولد سموم</ToxifierGenerator.label>
   <!-- EN: Create toxifier generators which generate electricity, but also spread pollution around themselves. -->
-  <ToxifierGenerator.description>TODO</ToxifierGenerator.description>
+  <ToxifierGenerator.description>ژنراتورهای سموم ایجاد کنید که برق تولید می کنند، اما آلودگی را در اطراف خود پخش می کنند.</ToxifierGenerator.description>
   <!-- EN:
     <li>subject->toxifier generator</li>
     <li>subject_story->led a clean-up crew to a toxic planetoid</li>
@@ -113,12 +165,18 @@
     <li>subject_story->researched cheap and dirty power sources for an urbcorp</li>
     <li>subject_gerund->constructing toxifier generators</li>
   -->
-  <ToxifierGenerator.generalRules.rulesStrings>TODO</ToxifierGenerator.generalRules.rulesStrings>
+  <ToxifierGenerator.generalRules.rulesStrings>
+    <li>subject->مولد سموم</li>
+    <li>subject_story->یک خدمه پاکسازی را به سمت یک سیاره‌نمای سمی هدایت کرد</li>
+    <li>subject_story->در مورد مواد سمی در حوضچه عمیق یک skyripper یاد گرفت</li>
+    <li>subject_story->منابع انرژی ارزان و کثیف را برای یک urbcorp تحقیق کرد</li>
+    <li>subject_gerund->ساخت ژنراتورهای سموم</li>
+  </ToxifierGenerator.generalRules.rulesStrings>
   
   <!-- EN: xenogenetics -->
-  <Xenogermination.label>TODO</Xenogermination.label>
+  <Xenogermination.label>بیگانه شناسی</Xenogermination.label>
   <!-- EN: Create xenogerms which can be implanted in a person to genetically modify them. Extract genepacks from living people using a gene extractor so you can reimplant their genes into someone else. -->
-  <Xenogermination.description>TODO</Xenogermination.description>
+  <Xenogermination.description>زنوژرم‌هایی را ایجاد کنید که می‌توان آن‌ها را برای اصلاح ژنتیکی در فرد کاشته کرد. بسته‌های ژنی را از افراد زنده با استفاده از استخراج‌کننده ژن استخراج کنید تا بتوانید ژن‌های آن‌ها را دوباره در شخص دیگری کاشت کنید.</Xenogermination.description>
   <!-- EN:
     <li>subject->xenogermination</li>
     <li>subject->genetic implantation</li>
@@ -127,6 +185,13 @@
     <li>subject_story->ran a genetic transfer clinic for the glitterworld elite</li>
     <li>subject_gerund->crafting xenogerms</li>
   -->
-  <Xenogermination.generalRules.rulesStrings>TODO</Xenogermination.generalRules.rulesStrings>
+  <Xenogermination.generalRules.rulesStrings>
+    <li>subject->جوانه زنی</li>
+    <li>subject->کاشت ژنتیکی</li>
+    <li>subject_story->توسط یک موسسه خیریه دنیای پر زرق و برق که بر افراد آسیب دیده از نظر ژنتیکی متمرکز بود، تقویت شد.</li>
+    <li>subject_story->ژن های [ANYPAWN_possessive] توسط یک زیست شناس سرکش به سرقت رفته بود</li>
+    <li>subject_story->یک کلینیک انتقال ژنتیک برای نخبگان دنیای زرق و برق راه اندازی کرد</li>
+    <li>subject_gerund->ساختن زنوجرم</li>
+  </Xenogermination.generalRules.rulesStrings>
   
 </LanguageData>

@@ -4,20 +4,20 @@
   <!-- EN:
     <li>questDescription->[asker_nameFull], [asker_titleIndef], is calling from nearby. [asker_pronoun] has deserted the army of [asker_factionName] and is being hunted by (*Threat)a loyalty squad(/Threat). [asker_pronoun] wishes to join you at [map_definite].\n\n[asker_nameDef] knows the location of key outpost containing everything needed to develop psychic powers:\n\n[sitePart1_itemStashContents]\n\nBeware - If you accept [asker_nameDef], you will become an enemy of [asker_factionName]! The pursuing loyalty squad will attack immediately. It is composed of: \n\n[raid/raidPawnKinds]\n\nOnly accept if you wish to fight against [asker_factionName] and develop your psycasters on your own. You will have one year to attack the outpost before it is moved.</li>
   -->
-  <Intro_Deserter.questDescriptionRules.rulesStrings>TODO</Intro_Deserter.questDescriptionRules.rulesStrings>
+  <Intro_Deserter.questDescriptionRules.rulesStrings><li>questDescription->[asker_nameFull]، [asker_titleIndef]، از همین نزدیکی تماس می‌گیرد. [asker_pronoun] ارتش [asker_factionName] را ترک کرده است و توسط تیم وفاداری (*Threat)a (/Threat) تحت تعقیب است. [asker_pronoun] مایل است در [map_definite] به شما بپیوندد.\n\n[asker_nameDef] مکان پاسگاه کلیدی را می‌داند که حاوی همه چیزهایی است که برای توسعه قدرت‌های روانی لازم است:\n\n[sitePart1_itemStashContents]\n\nمراقب باشید - اگر [asker_nameDef] را بپذیرید، دشمن [asker_factionName] خواهید شد! تیم وفاداری تعقیب کننده بلافاصله حمله خواهد کرد. این شامل موارد زیر است: \n\n[raid/raidPawnKinds]\n\nفقط اگر می‌خواهید با [asker_factionName] مبارزه کنید و به تنهایی عوامل روانی خود را توسعه دهید، بپذیرید. شما یک سال فرصت دارید تا به پاسگاه قبل از انتقال آن حمله کنید.</li></Intro_Deserter.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The Deserter</li>
   -->
-  <Intro_Deserter.questNameRules.rulesStrings>TODO</Intro_Deserter.questNameRules.rulesStrings>
+  <Intro_Deserter.questNameRules.rulesStrings><li>questName->بیابانگر</li></Intro_Deserter.questNameRules.rulesStrings>
   <!-- EN: {BASETEXT}\n\nBecause you accepted [asker_nameDef], [asker_factionName] has become hostile.\n\nThe loyalty squad that is hunting [asker_objective] will arrive soon. -->
-  <Intro_Deserter.LetterLabelAskerBecameHostile.slateRef>TODO</Intro_Deserter.LetterLabelAskerBecameHostile.slateRef>
+  <Intro_Deserter.LetterLabelAskerBecameHostile.slateRef>{BASETEXT}\n\nاز آنجایی که شما [asker_nameDef] را پذیرفتید، [asker_factionName] متخاصم شده است.\n\nجوخه وفاداری که در حال شکار [asker_objective] هستند به زودی وارد خواهند شد.</Intro_Deserter.LetterLabelAskerBecameHostile.slateRef>
   <!-- EN: {BASELABEL}: Loyalty squad -->
-  <Intro_Deserter.LetterLabelLoyaltySquad.value.slateRef>TODO</Intro_Deserter.LetterLabelLoyaltySquad.value.slateRef>
+  <Intro_Deserter.LetterLabelLoyaltySquad.value.slateRef>{BASELABEL}: تیم وفاداری</Intro_Deserter.LetterLabelLoyaltySquad.value.slateRef>
   <!-- EN: {BASETEXT}\n\nThis is the loyalty squad that was hunting [../asker_nameFull].\n               -->
-  <Intro_Deserter.LetterTextLoyaltySquad.value.slateRef>TODO</Intro_Deserter.LetterTextLoyaltySquad.value.slateRef>
+  <Intro_Deserter.LetterTextLoyaltySquad.value.slateRef>{BASETEXT}\n\nاین تیم وفاداری است که [../asker_nameFull] را شکار می‌کرد.\n</Intro_Deserter.LetterTextLoyaltySquad.value.slateRef>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <Intro_Deserter.LetterLabelQuestExpired.slateRef>TODO</Intro_Deserter.LetterLabelQuestExpired.slateRef>
+  <Intro_Deserter.LetterLabelQuestExpired.slateRef>تلاش منقضی شده: [resolvedQuestName]</Intro_Deserter.LetterLabelQuestExpired.slateRef>
   <!-- EN: The key imperial outpost, containing items needed for secret psychic powers, has packed up and moved on. -->
-  <Intro_Deserter.LetterTextQuestExpired.slateRef>TODO</Intro_Deserter.LetterTextQuestExpired.slateRef>
+  <Intro_Deserter.LetterTextQuestExpired.slateRef>پایگاه کلیدی امپراتوری، حاوی اقلام مورد نیاز برای قدرت های مخفی روانی، بسته بندی شده و حرکت کرده است.</Intro_Deserter.LetterTextQuestExpired.slateRef>
   
 </LanguageData>

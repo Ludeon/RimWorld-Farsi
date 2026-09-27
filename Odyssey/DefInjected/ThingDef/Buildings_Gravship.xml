@@ -2,93 +2,93 @@
 <LanguageData>
   
   <!-- EN: small chemfuel tank -->
-  <ChemfuelTank.label>TODO</ChemfuelTank.label>
+  <ChemfuelTank.label>مخزن کوچک سوخت شیمیایی</ChemfuelTank.label>
   <!-- EN: A chemfuel storage tank that supplies fuel for thrusters on a gravship. -->
-  <ChemfuelTank.description>TODO</ChemfuelTank.description>
+  <ChemfuelTank.description>مخزن ذخیره سوخت شیمیایی که سوخت رانشگرها را در یک کشتی قلابی تامین می کند.</ChemfuelTank.description>
   <!-- EN: Chemfuel -->
-  <ChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>TODO</ChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>
+  <ChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>سوخت شیمیایی</ChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Chemfuel -->
-  <ChemfuelTank.comps.CompRefuelable.fuelLabel>TODO</ChemfuelTank.comps.CompRefuelable.fuelLabel>
+  <ChemfuelTank.comps.CompRefuelable.fuelLabel>سوخت شیمیایی</ChemfuelTank.comps.CompRefuelable.fuelLabel>
   
   <!-- EN: fuel optimizer -->
-  <FuelOptimizer.label>TODO</FuelOptimizer.label>
+  <FuelOptimizer.label>بهینه ساز سوخت</FuelOptimizer.label>
   <!-- EN: A gravtech unit that allows grav engine lift to coordinate more efficiently with traditional thrusters. It reduces the fuel needed for gravship flight.\n\nA gravship can support two fuel optimizers. -->
-  <FuelOptimizer.description>TODO</FuelOptimizer.description>
+  <FuelOptimizer.description>یک واحد gravtech که به بالابر موتور گراو اجازه می دهد تا به طور موثرتری با پیشرانه های سنتی هماهنگ شود. سوخت مورد نیاز برای پرواز با کشتی را کاهش می‌دهد.\n\nیک کشتی گیر می‌تواند از دو بهینه‌ساز سوخت پشتیبانی کند.</FuelOptimizer.description>
   
   <!-- EN: grav anchor -->
-  <GravAnchor.label>TODO</GravAnchor.label>
+  <GravAnchor.label>لنگر گراو</GravAnchor.label>
   <!-- EN: Prevents the local map from being destroyed during a gravship launch.\n\nGrav anchors passively reduce unstable gravitation shear in a large area, which prevents the damaging effects of a gravship launch. It can't be constructed on the gravship itself because it would prevent flight entirely. -->
-  <GravAnchor.description>TODO</GravAnchor.description>
+  <GravAnchor.description>از نابودی نقشه محلی در حین پرتاب گرانشی جلوگیری می‌کند.\n\nلنگرهای گرانشی به طور غیرفعال برش گرانشی ناپایدار را در یک منطقه بزرگ کاهش می‌دهند، که از اثرات مخرب پرتاب گرانشی جلوگیری می‌کند. نمی توان آن را روی خود قایق ساخت زیرا به طور کامل از پرواز جلوگیری می کند.</GravAnchor.description>
   
   <!-- EN: gravcore power cell -->
-  <GravcorePowerCell.label>TODO</GravcorePowerCell.label>
+  <GravcorePowerCell.label>سلول قدرت gravcore</GravcorePowerCell.label>
   <!-- EN: A power generator that passively draws a small amount of energy from gravitational waves passing through the gravship. -->
-  <GravcorePowerCell.description>TODO</GravcorePowerCell.description>
+  <GravcorePowerCell.description>یک مولد برق که به طور غیرفعال مقدار کمی انرژی را از امواج گرانشی عبوری از کشتی گرانشی می گیرد.</GravcorePowerCell.description>
   
   <!-- EN: grav engine -->
-  <GravEngine.label>TODO</GravEngine.label>
+  <GravEngine.label>موتور گراو</GravEngine.label>
   <!-- EN: The ultratech heart of a gravship. The grav engine generates lift by inverting and intensifying the effect of gravity in a field around itself. This engine can lift upwards, but does not produce forward thrust. It can't function far from a large gravity well like a planet, so it is useless for interplanetary travel.\n\nWhen launched, anything on substructure that's connected to the grav engine will be transported to a new map. Without a grav anchor, launching a gravship will abandon your current map.\n\nGlitterworld engineers use gravships to launch orbital platforms and build skyrippers. They require massive and hyper-specialized facilities to produce, making them a rare sight outside of glitterworlds. -->
-  <GravEngine.description>TODO</GravEngine.description>
+  <GravEngine.description>قلب فوق فناوری یک قایق موتور گراو با وارونه کردن و تشدید اثر گرانش در میدان اطراف خود، بالابر را ایجاد می کند. این موتور می تواند به سمت بالا بلند شود، اما نیروی رانش به جلو تولید نمی کند. این سیاره نمی‌تواند دور از گرانش بزرگ به خوبی مانند یک سیاره عمل کند، بنابراین برای سفرهای بین سیاره‌ای بی‌فایده است.\n\nهنگامی که پرتاب می‌شود، هر چیزی که در زیرساختی که به موتور گراو متصل است به یک نقشه جدید منتقل می‌شود. بدون لنگر گراو، پرتاب یک کشتی گرانشی، نقشه کنونی شما را رها می‌کند.\n\nمهندسان دنیای پر زرق و برق از کشتی‌های گرانشی برای پرتاب سکوهای مداری و ساختن اسکای‌ریپرها استفاده می‌کنند. آنها برای تولید به امکانات عظیم و فوق تخصصی نیاز دارند که آنها را به منظره‌ای نادر خارج از جهان های زرق و برق تبدیل می کند.</GravEngine.description>
   
   <!-- EN: grav field extender -->
-  <GravFieldExtender.label>TODO</GravFieldExtender.label>
+  <GravFieldExtender.label>گسترش دهنده میدان گراو</GravFieldExtender.label>
   <!-- EN: An ultratech device used to increase the size of a gravship. It extends the area in which substructure can be built, and increases the amount of substructure that a gravship can support. Must be built near a grav engine.\n\nA gravship can support up to six grav field extenders. -->
-  <GravFieldExtender.description>TODO</GravFieldExtender.description>
+  <GravFieldExtender.description>یک دستگاه فوق فناوری که برای افزایش اندازه یک قایق استفاده می شود. این منطقه‌ای را که می توان در آن زیربنایی ساخت، گسترش می دهد و میزان زیرساختی را که یک قایق می تواند پشتیبانی کند، افزایش می دهد. باید در نزدیکی موتور گراو ساخته شود.\n\nکشتی گرانشی می‌تواند تا شش توسعه‌دهنده میدان گرانش را پشتیبانی کند.</GravFieldExtender.description>
   
   <!-- EN: gravship hull -->
-  <GravshipHull.label>TODO</GravshipHull.label>
+  <GravshipHull.label>بدنه کشتی قبر</GravshipHull.label>
   <!-- EN: A strong airtight wall that prevents oxygen leaks in the vacuum of space. The wall connects directly into the underlying substructure, meaning it can only be built on a gravship. -->
-  <GravshipHull.description>TODO</GravshipHull.description>
+  <GravshipHull.description>یک دیوار محکم هواگیر که از نشت اکسیژن در خلاء فضا جلوگیری می کند. دیوار مستقیماً به زیر سازه زیرین متصل می شود، به این معنی که فقط می توان آن را بر روی یک قایق ساخت.</GravshipHull.description>
   
   <!-- EN: gravship shield generator -->
-  <GravshipShieldGenerator.label>TODO</GravshipShieldGenerator.label>
+  <GravshipShieldGenerator.label>ژنراتور سپر کشتی</GravshipShieldGenerator.label>
   <!-- EN: A shielding device that can protect a gravship. It modulates the grav field to create a short-lived momentum repulsor surface that blocks projectiles. It works against normal shots and mortars. Those inside can still shoot out.\n\nIt must be charged before use. One gravship can support two gravship shield generators. -->
-  <GravshipShieldGenerator.description>TODO</GravshipShieldGenerator.description>
+  <GravshipShieldGenerator.description>وسیله‌ای محافظ که می تواند از یک قایق محافظت کند. این میدان گراو را تعدیل می کند تا یک سطح دفع کننده حرکت کوتاه مدت ایجاد کند که پرتابه‌ها را مسدود می کند. در مقابل گلوله های معمولی و خمپاره کار می کند. آنهایی که در داخل هستند همچنان می‌توانند شلیک کنند.\n\nقبل از استفاده باید شارژ شود. یک کشتی گیر می تواند از دو ژنراتور سپر گروشیپ پشتیبانی کند.</GravshipShieldGenerator.description>
   <!-- EN: activate -->
-  <GravshipShieldGenerator.comps.CompInteractable_GravshipShieldGenerator.jobString>TODO</GravshipShieldGenerator.comps.CompInteractable_GravshipShieldGenerator.jobString>
+  <GravshipShieldGenerator.comps.CompInteractable_GravshipShieldGenerator.jobString>فعال کردن</GravshipShieldGenerator.comps.CompInteractable_GravshipShieldGenerator.jobString>
   
   <!-- EN: large chemfuel tank -->
-  <LargeChemfuelTank.label>TODO</LargeChemfuelTank.label>
+  <LargeChemfuelTank.label>مخزن بزرگ مواد شیمیایی</LargeChemfuelTank.label>
   <!-- EN: A massive chemfuel storage tank that supplies fuel for thrusters on a gravship. -->
-  <LargeChemfuelTank.description>TODO</LargeChemfuelTank.description>
+  <LargeChemfuelTank.description>یک مخزن ذخیره سازی سوخت شیمیایی عظیم که سوخت رانشگرها را در یک کشتی قلابی تامین می کند.</LargeChemfuelTank.description>
   <!-- EN: Chemfuel -->
-  <LargeChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>TODO</LargeChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>
+  <LargeChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>سوخت شیمیایی</LargeChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Chemfuel -->
-  <LargeChemfuelTank.comps.CompRefuelable.fuelLabel>TODO</LargeChemfuelTank.comps.CompRefuelable.fuelLabel>
+  <LargeChemfuelTank.comps.CompRefuelable.fuelLabel>سوخت شیمیایی</LargeChemfuelTank.comps.CompRefuelable.fuelLabel>
   
   <!-- EN: large thruster -->
-  <LargeThruster.label>TODO</LargeThruster.label>
+  <LargeThruster.label>رانشگر بزرگ</LargeThruster.label>
   <!-- EN: An advanced chemfuel thruster with a heat-resistant vacstone liner. It greatly increases the range of a gravship. Thrusters require an unobstructed area free of large buildings and gravship substructure.\n\nRequires vacstone blocks, which can be obtained from orbital asteroids.\n\nA gravship can support up to six large thrusters. -->
-  <LargeThruster.description>TODO</LargeThruster.description>
+  <LargeThruster.description>یک رانشگر سوخت شیمیایی پیشرفته با روکش واکستون مقاوم در برابر حرارت. برد قایق را تا حد زیادی افزایش می دهد. رانشگرها به یک منطقه بدون مانع و عاری از ساختمان‌های بزرگ و زیرساخت‌های کشتی گرانشی نیاز دارند.\n\nبه بلوک‌های سنگ واکس نیاز دارد که می‌توان آن‌ها را از سیارک‌های مداری به‌دست آورد.\n\nیک کشتی گرانشی می‌تواند تا شش رانشگر بزرگ را پشتیبانی کند.</LargeThruster.description>
   
   <!-- EN: minified thing -->
-  <MinifiedGravEngine.label>TODO</MinifiedGravEngine.label>
+  <MinifiedGravEngine.label>چیز کوچک شده</MinifiedGravEngine.label>
   
   <!-- EN: pilot console -->
-  <PilotConsole.label>TODO</PilotConsole.label>
+  <PilotConsole.label>کنسول خلبان</PilotConsole.label>
   <!-- EN: An interface that allows launching and piloting a gravship. It draws power directly from the grav engine. -->
-  <PilotConsole.description>TODO</PilotConsole.description>
+  <PilotConsole.description>رابطی که به پرتاب و هدایت یک قایق اجازه می دهد. نیرو را مستقیماً از موتور گراو می گیرد.</PilotConsole.description>
   
   <!-- EN: pilot subpersona core -->
-  <PilotSubpersonaCore.label>TODO</PilotSubpersonaCore.label>
+  <PilotSubpersonaCore.label>هسته زیرشخصی خلبان</PilotSubpersonaCore.label>
   <!-- EN: A low-grade subpersona specialized in gravship flight. It reduces the chance of an accident when flying a gravship, though it can't fully account for human error.\n\nA gravship can support up to two pilot subpersona cores. -->
-  <PilotSubpersonaCore.description>TODO</PilotSubpersonaCore.description>
+  <PilotSubpersonaCore.description>یک زیرشخصی درجه پایین و متخصص در پرواز با کشتی. در هنگام پرواز با کشتی گراو، احتمال تصادف را کاهش می‌دهد، اگرچه نمی‌تواند خطای انسانی را به‌طور کامل محاسبه کند.\n\nیک کشتی گیر می‌تواند تا دو هسته خلبان زیرشخصی را پشتیبانی کند.</PilotSubpersonaCore.description>
   
   <!-- EN: mechanoid ship chunk -->
-  <ShipChunk_Mech.label>TODO</ShipChunk_Mech.label>
+  <ShipChunk_Mech.label>تکه کشتی مکانیکی</ShipChunk_Mech.label>
   <!-- EN: A chunk of mechanoid spacecraft made of steel and gravlite panels. It seems to have been torn off either by uncontrolled re-entry forces or some kind of weapon.\n\nDeconstruct it to obtain valuable resources. -->
-  <ShipChunk_Mech.description>TODO</ShipChunk_Mech.description>
+  <ShipChunk_Mech.description>تکه‌ای از فضاپیمای مکانیکی ساخته شده از پانل های فولادی و گراولیت. به نظر می رسد که یا توسط نیروهای ورود مجدد کنترل نشده یا نوعی سلاح از بین رفته است.\n\nبرای به دست آوردن منابع ارزشمند آن را تخریب کنید.</ShipChunk_Mech.description>
   <!-- EN: Deconstruct for valuable resources. -->
-  <ShipChunk_Mech.comps.CompInspectString.inspectString>TODO</ShipChunk_Mech.comps.CompInspectString.inspectString>
+  <ShipChunk_Mech.comps.CompInspectString.inspectString>ساختارشکنی برای منابع ارزشمند</ShipChunk_Mech.comps.CompInspectString.inspectString>
   
   <!-- EN: signal jammer -->
-  <SignalJammer.label>TODO</SignalJammer.label>
+  <SignalJammer.label>مسدود کننده سیگنال</SignalJammer.label>
   <!-- EN: A signal emitter that disguises the electromagnetic signature of your gravship, allowing it to approach heavily-defended landing sites. -->
-  <SignalJammer.description>TODO</SignalJammer.description>
+  <SignalJammer.description>یک فرستنده سیگنال که امضای الکترومغناطیسی کشتی شما را پنهان می کند و به آن اجازه می دهد به مکان های فرود بسیار محافظت شده نزدیک شود.</SignalJammer.description>
   
   <!-- EN: small thruster -->
-  <SmallThruster.label>TODO</SmallThruster.label>
+  <SmallThruster.label>پیشران کوچک</SmallThruster.label>
   <!-- EN: A chemfuel thruster that increases the range of a gravship. Thrusters require an unobstructed area free of large buildings and gravship substructure.\n\nA gravship can support up to four small thrusters. -->
-  <SmallThruster.description>TODO</SmallThruster.description>
+  <SmallThruster.description>رانشگر سوخت شیمیایی که برد کشتی را افزایش می دهد. رانشگرها به یک منطقه بدون مانع عاری از ساختمان‌های بزرگ و زیرسازه کشتی نیاز دارند.\n\nیک قایق می‌تواند تا چهار رانشگر کوچک را پشتیبانی کند.</SmallThruster.description>
   
 </LanguageData>

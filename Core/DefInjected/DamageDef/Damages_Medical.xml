@@ -2,13 +2,13 @@
 <LanguageData>
   
   <!-- EN: execution cut -->
-  <ExecutionCut.label>TODO</ExecutionCut.label>
+  <ExecutionCut.label>execution cut</ExecutionCut.label>
   <!-- EN: {0} has been executed by cutting. -->
-  <ExecutionCut.deathMessage>TODO</ExecutionCut.deathMessage>
+  <ExecutionCut.deathMessage>{0} has been executed by cutting.</ExecutionCut.deathMessage>
   
   <!-- EN: surgical cut -->
-  <SurgicalCut.label>TODO</SurgicalCut.label>
+  <SurgicalCut.label>surgical cut</SurgicalCut.label>
   <!-- EN: {0} has died during surgery. -->
-  <SurgicalCut.deathMessage>TODO</SurgicalCut.deathMessage>
+  <SurgicalCut.deathMessage>{0} has died during surgery.</SurgicalCut.deathMessage>
   
 </LanguageData>

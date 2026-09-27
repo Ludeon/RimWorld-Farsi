@@ -1,44 +1,44 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: target -->
-  <BlindingCeremony.roles.0.label>TODO</BlindingCeremony.roles.0.label>
+  <BlindingCeremony.roles.0.label>هدف</BlindingCeremony.roles.0.label>
   <!-- EN: the person to blind -->
-  <BlindingCeremony.roles.0.missingDesc>TODO</BlindingCeremony.roles.0.missingDesc>
+  <BlindingCeremony.roles.0.missingDesc>شخصی که باید نابینا شود</BlindingCeremony.roles.0.missingDesc>
   <!-- EN: cutter -->
-  <BlindingCeremony.roles.1.label>TODO</BlindingCeremony.roles.1.label>
+  <BlindingCeremony.roles.1.label>برش‌دهنده</BlindingCeremony.roles.1.label>
   <!-- EN: the person who performs the blinding -->
-  <BlindingCeremony.roles.1.missingDesc>TODO</BlindingCeremony.roles.1.missingDesc>
+  <BlindingCeremony.roles.1.missingDesc>شخصی که عمل کور کردن را انجام می‌دهد</BlindingCeremony.roles.1.missingDesc>
   <!-- EN: Target is not reachable. -->
-  <BlindingCeremony.stages.0.failTriggers.0.desc>TODO</BlindingCeremony.stages.0.failTriggers.0.desc>
+  <BlindingCeremony.stages.0.failTriggers.0.desc>هدف در دسترس نیست.</BlindingCeremony.stages.0.failTriggers.0.desc>
   <!-- EN: escort asleep -->
-  <BlindingCeremony.stages.0.failTriggers.1.desc>TODO</BlindingCeremony.stages.0.failTriggers.1.desc>
+  <BlindingCeremony.stages.0.failTriggers.1.desc>اسکورت خواب است</BlindingCeremony.stages.0.failTriggers.1.desc>
   
   <!-- EN: participate -->
-  <BurnCircle.spectatorGerund>TODO</BurnCircle.spectatorGerund>
+  <BurnCircle.spectatorGerund>شرکت کردن</BurnCircle.spectatorGerund>
   <!-- EN: Participants -->
-  <BurnCircle.spectatorsLabel>TODO</BurnCircle.spectatorsLabel>
+  <BurnCircle.spectatorsLabel>شرکت‌کنندگان</BurnCircle.spectatorsLabel>
   
   <!-- EN: participate -->
-  <CelebrationPartyDanceDrum.spectatorGerund>TODO</CelebrationPartyDanceDrum.spectatorGerund>
+  <CelebrationPartyDanceDrum.spectatorGerund>شرکت کردن</CelebrationPartyDanceDrum.spectatorGerund>
   <!-- EN: Participants -->
-  <CelebrationPartyDanceDrum.spectatorsLabel>TODO</CelebrationPartyDanceDrum.spectatorsLabel>
+  <CelebrationPartyDanceDrum.spectatorsLabel>شرکت‌کنندگان</CelebrationPartyDanceDrum.spectatorsLabel>
   <!-- EN: Campfire is missing. -->
-  <CelebrationPartyDanceDrum.stages.0.failTriggers.0.desc>TODO</CelebrationPartyDanceDrum.stages.0.failTriggers.0.desc>
+  <CelebrationPartyDanceDrum.stages.0.failTriggers.0.desc>آتش اردو وجود ندارد.</CelebrationPartyDanceDrum.stages.0.failTriggers.0.desc>
   <!-- EN: Campfire is not lit. -->
-  <CelebrationPartyDanceDrum.stages.0.failTriggers.1.desc>TODO</CelebrationPartyDanceDrum.stages.0.failTriggers.1.desc>
+  <CelebrationPartyDanceDrum.stages.0.failTriggers.1.desc>آتش اردو روشن نیست.</CelebrationPartyDanceDrum.stages.0.failTriggers.1.desc>
   <!-- EN: No drums. -->
-  <CelebrationPartyDanceDrum.stages.0.failTriggers.2.desc>TODO</CelebrationPartyDanceDrum.stages.0.failTriggers.2.desc>
+  <CelebrationPartyDanceDrum.stages.0.failTriggers.2.desc>هیچ طبل یا سازی موجود نیست.</CelebrationPartyDanceDrum.stages.0.failTriggers.2.desc>
   
   <!-- EN: participate -->
-  <CelebrationSkyLanterns.spectatorGerund>TODO</CelebrationSkyLanterns.spectatorGerund>
+  <CelebrationSkyLanterns.spectatorGerund>شرکت کردن</CelebrationSkyLanterns.spectatorGerund>
   <!-- EN: Participants -->
-  <CelebrationSkyLanterns.spectatorsLabel>TODO</CelebrationSkyLanterns.spectatorsLabel>
+  <CelebrationSkyLanterns.spectatorsLabel>شرکت‌کنندگان</CelebrationSkyLanterns.spectatorsLabel>
   
   <!-- EN: participate -->
-  <CelebrationTree.spectatorGerund>TODO</CelebrationTree.spectatorGerund>
+  <CelebrationTree.spectatorGerund>شرکت کردن</CelebrationTree.spectatorGerund>
   <!-- EN: Participants -->
-  <CelebrationTree.spectatorsLabel>TODO</CelebrationTree.spectatorsLabel>
+  <CelebrationTree.spectatorsLabel>شرکت‌کنندگان</CelebrationTree.spectatorsLabel>
   
   <!-- EN: speaker -->
   <Conversion.roles.0.label>سخنران</Conversion.roles.0.label>

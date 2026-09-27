@@ -5,24 +5,25 @@
     <li>questName->Laborers</li>
     <li>questDescription-></li>
   -->
-  <Permit_CallLaborers.questDescriptionAndNameRules.rulesStrings>TODO</Permit_CallLaborers.questDescriptionAndNameRules.rulesStrings>
+  <Permit_CallLaborers.questDescriptionAndNameRules.rulesStrings><li>questName->کارگران</li>
+    <li>questDescription-></li></Permit_CallLaborers.questDescriptionAndNameRules.rulesStrings>
   <!-- EN: Laborers arrived -->
-  <Permit_CallLaborers.LetterLabelLaborersArrived.slateRef>TODO</Permit_CallLaborers.LetterLabelLaborersArrived.slateRef>
+  <Permit_CallLaborers.LetterLabelLaborersArrived.slateRef>کارگران رسیدند</Permit_CallLaborers.LetterLabelLaborersArrived.slateRef>
   <!-- EN: The laborers from [permitFaction_name] have arrived. A shuttle will come to collect them in [laborersDurationDays] days. -->
-  <Permit_CallLaborers.LetterTextLaborersArrived.slateRef>TODO</Permit_CallLaborers.LetterTextLaborersArrived.slateRef>
+  <Permit_CallLaborers.LetterTextLaborersArrived.slateRef>کارگران [permitFaction_name] آمده اند. یک شاتل برای جمع آوری آنها در روزهای [laborersDurationDays] می آید.</Permit_CallLaborers.LetterTextLaborersArrived.slateRef>
   <!-- EN: Should depart on shuttle -->
-  <Permit_CallLaborers.InspectStringDepartShuttle.slateRef>TODO</Permit_CallLaborers.InspectStringDepartShuttle.slateRef>
+  <Permit_CallLaborers.InspectStringDepartShuttle.slateRef>باید با شاتل حرکت کرد</Permit_CallLaborers.InspectStringDepartShuttle.slateRef>
   <!-- EN: Shuttle arrived -->
-  <Permit_CallLaborers.LetterLabelShuttleArrived.slateRef>TODO</Permit_CallLaborers.LetterLabelShuttleArrived.slateRef>
+  <Permit_CallLaborers.LetterLabelShuttleArrived.slateRef>شاتل رسید</Permit_CallLaborers.LetterLabelShuttleArrived.slateRef>
   <!-- EN: A shuttle has arrived to collect the laborers from [permitFaction_name]. -->
-  <Permit_CallLaborers.LetterTextShuttleArrivedForLaborers.slateRef>TODO</Permit_CallLaborers.LetterTextShuttleArrivedForLaborers.slateRef>
+  <Permit_CallLaborers.LetterTextShuttleArrivedForLaborers.slateRef>یک شاتل برای جمع آوری کارگران از [permitFaction_name] آمده است.</Permit_CallLaborers.LetterTextShuttleArrivedForLaborers.slateRef>
   <!-- EN: Laborer died: {SUBJECT_definite} -->
-  <Permit_CallLaborers.LetterLabelLaborerDied.slateRef>TODO</Permit_CallLaborers.LetterLabelLaborerDied.slateRef>
+  <Permit_CallLaborers.LetterLabelLaborerDied.slateRef>کارگر درگذشت: {SUBJECT_definite}</Permit_CallLaborers.LetterLabelLaborerDied.slateRef>
   <!-- EN: A laborer sent to you by [permitFaction_name] has died. Your goodwill with [permitFaction_name] has fallen by [goodwillPenaltyPawn]. -->
-  <Permit_CallLaborers.LetterTextLaborerDied.slateRef>TODO</Permit_CallLaborers.LetterTextLaborerDied.slateRef>
+  <Permit_CallLaborers.LetterTextLaborerDied.slateRef>کارگری که توسط [permitFaction_name] برای شما فرستاده شده بود درگذشت. حسن نیت شما با [permitFaction_name] به میزان [goodwillPenaltyPawn] کاهش یافته است.</Permit_CallLaborers.LetterTextLaborerDied.slateRef>
   <!-- EN: Laborer abandoned: {SUBJECT_definite} -->
-  <Permit_CallLaborers.LetterLabelLaborerLeftBehind.slateRef>TODO</Permit_CallLaborers.LetterLabelLaborerLeftBehind.slateRef>
+  <Permit_CallLaborers.LetterLabelLaborerLeftBehind.slateRef>کارگر رها شده: {SUBJECT_definite}</Permit_CallLaborers.LetterLabelLaborerLeftBehind.slateRef>
   <!-- EN: A laborer sent to you by [permitFaction_name] has been left behind. Any remaining laborers will now leave. -->
-  <Permit_CallLaborers.LetterTextLaborerLeftBehind.slateRef>TODO</Permit_CallLaborers.LetterTextLaborerLeftBehind.slateRef>
+  <Permit_CallLaborers.LetterTextLaborerLeftBehind.slateRef>کارگری که توسط [permitFaction_name] برای شما فرستاده شده است جا مانده است. کارگران باقی مانده اکنون ترک خواهند کرد.</Permit_CallLaborers.LetterTextLaborerLeftBehind.slateRef>
   
 </LanguageData>

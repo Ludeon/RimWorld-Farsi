@@ -4,10 +4,10 @@
   <!-- EN:
     <li>commonEnding->The monument is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nConstruction must be completed within [constructionTimeoutTicks_duration] of accepting the task.\n\nAfter completion, you'll have to protect the monument for [haveToProtectForTicks_duration]. [asker2] will be upset if you abandon it during this time. If any piece of it is destroyed, [asker2]'s enforcement system will activate and [threatDescription]\n\nYou'll receive the rewards when you finish construction.</li>
   -->
-  <BuildMonument_TimeProtect.questDescriptionRules.rulesStrings>TODO</BuildMonument_TimeProtect.questDescriptionRules.rulesStrings>
+  <BuildMonument_TimeProtect.questDescriptionRules.rulesStrings><li>commonEnding-> اندازه بنای یادبود [monumentSize] است و به این منابع نیاز دارد (مقدار کلی [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nساخت و ساز باید در [constructionTimeoutTicks_duration] پس از پذیرش کار تکمیل شود.\n\nپس از تکمیل، باید از بنای یادبود برای [haveToProtectForTicks_duration] محافظت کنید. [asker2] اگر در این مدت آن را رها کنید ناراحت می شود. اگر تکه‌ای از آن نابود شود، سیستم اجرایی [asker2] فعال می‌شود و [threatDescription]\n\nپس از اتمام ساخت‌وساز، پاداش‌ها را دریافت خواهید کرد.</li></BuildMonument_TimeProtect.questDescriptionRules.rulesStrings>
   <!-- EN: Monument completed -->
-  <BuildMonument_TimeProtect.LetterLabelMonumentComplete.slateRef>TODO</BuildMonument_TimeProtect.LetterLabelMonumentComplete.slateRef>
+  <BuildMonument_TimeProtect.LetterLabelMonumentComplete.slateRef>بنای یادبود تکمیل شد</BuildMonument_TimeProtect.LetterLabelMonumentComplete.slateRef>
   <!-- EN: You completed construction of the monument.\n\nYou must now protect the monument for [haveToProtectForTicks_duration]. If any piece of it is destroyed, [asker2]'s enforcement system will activate and [threatDescription] -->
-  <BuildMonument_TimeProtect.LetterTextMonumentComplete.slateRef>TODO</BuildMonument_TimeProtect.LetterTextMonumentComplete.slateRef>
+  <BuildMonument_TimeProtect.LetterTextMonumentComplete.slateRef>شما ساخت بنای تاریخی را به پایان رساندید.\n\nاکنون باید از بنای یادبود برای [haveToProtectForTicks_duration] محافظت کنید. اگر هر قطعه‌ای از آن نابود شود، سیستم اجرایی [asker2] فعال می شود و [threatDescription]</BuildMonument_TimeProtect.LetterTextMonumentComplete.slateRef>
   
 </LanguageData>
