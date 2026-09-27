@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RTL_Persian_Support")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+05c2f15a18f23ab9cf3b09de32834d4301411aa2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a806c872d47011be2e1db29efd8f5372d89fa818")]
 [assembly: System.Reflection.AssemblyProductAttribute("RTL_Persian_Support")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RTL_Persian_Support")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
