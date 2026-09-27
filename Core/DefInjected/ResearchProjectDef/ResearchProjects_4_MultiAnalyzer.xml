@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: advanced fabrication -->
-  <AdvancedFabrication.label>advanced fabrication</AdvancedFabrication.label>
+  <AdvancedFabrication.label>ساخت پیشرفته</AdvancedFabrication.label>
   <!-- EN: Fabricate advanced components from standard components and other materials. -->
-  <AdvancedFabrication.description>Fabricate advanced components from standard components and other materials.</AdvancedFabrication.description>
+  <AdvancedFabrication.description>قطعات پیشرفته را از اجزای استاندارد و سایر مواد بسازید.</AdvancedFabrication.description>
   <!-- EN:
     <li>subject->advanced component fabrication</li>
     <li>subject_story->traded advanced components to desperate rimworlders</li>
@@ -21,9 +21,9 @@
   </AdvancedFabrication.generalRules.rulesStrings>
   
   <!-- EN: bionic replacements -->
-  <Bionics.label>bionic replacements</Bionics.label>
+  <Bionics.label>جایگزین های بیونیک</Bionics.label>
   <!-- EN: Build high-tech bionic body parts to replace lost limbs and eyes. Requires a skilled doctor to attach. -->
-  <Bionics.description>Build high-tech bionic body parts to replace lost limbs and eyes. Requires a skilled doctor to attach.</Bionics.description>
+  <Bionics.description>ساخت قطعات بیونیک بدن با تکنولوژی بالا برای جایگزینی اندام‌ها و چشم های از دست رفته. برای اتصال به پزشک ماهر نیاز است.</Bionics.description>
   <!-- EN:
     <li>subject->bionic prosthesis</li>
     <li>subject_story->worked primarily with disfigured soldiers, crafting bespoke bionic facial elements so they could return to their loved ones</li>
@@ -42,9 +42,9 @@
   </Bionics.generalRules.rulesStrings>
   
   <!-- EN: pulse-charged munitions -->
-  <ChargedShot.label>pulse-charged munitions</ChargedShot.label>
+  <ChargedShot.label>مهمات ضربان دار</ChargedShot.label>
   <!-- EN: Build weapons which fire pulse-charged munitions for extra damage. Note that these also require advanced components. -->
-  <ChargedShot.description>Build weapons which fire pulse-charged munitions for extra damage. Note that these also require advanced components.</ChargedShot.description>
+  <ChargedShot.description>سلاح هایی بسازید که برای آسیب بیشتر، مهمات پالس شارژ را شلیک می کنند. توجه داشته باشید که اینها به اجزای پیشرفته نیز نیاز دارند.</ChargedShot.description>
   <!-- EN:
     <li>subject->pulse munitions</li>
     <li>subject_story->studied glitterworld monorails and modified the tech for weapons</li>
@@ -63,9 +63,9 @@
   </ChargedShot.generalRules.rulesStrings>
   
   <!-- EN: cryptosleep casket -->
-  <Cryptosleep.label>cryptosleep casket</Cryptosleep.label>
+  <Cryptosleep.label>تابوت cryptosleep</Cryptosleep.label>
   <!-- EN: Construct cryptosleep caskets, which can put living beings in a state of indefinite suspended animation. -->
-  <Cryptosleep.description>Construct cryptosleep caskets, which can put living beings in a state of indefinite suspended animation.</Cryptosleep.description>
+  <Cryptosleep.description>تابوت‌های cryptosleep بسازید که می‌توانند موجودات زنده را در حالت انیمیشن معلق نامحدود قرار دهند.</Cryptosleep.description>
   <!-- EN:
     <li>subject->cryptosleep</li>
     <li>subject_story->intended to test a prototype cryptosleep casket and woke a generation later, alone</li>
@@ -84,13 +84,13 @@
   </Cryptosleep.generalRules.rulesStrings>
   
   <!-- EN: fabrication -->
-  <Fabrication.label>fabrication</Fabrication.label>
+  <Fabrication.label>ساخت</Fabrication.label>
   <!-- EN: Build fabrication benches, capable of high-tech projects ranging from component assembly to power armor construction. -->
-  <Fabrication.description>Build fabrication benches, capable of high-tech projects ranging from component assembly to power armor construction.</Fabrication.description>
+  <Fabrication.description>نیمکت‌های ساخت بسازید که قادر به انجام پروژه‌های با فناوری پیشرفته از مونتاژ قطعات تا ساخت زره‌های قدرتمند هستند.</Fabrication.description>
   <!-- EN: You now have the technology to build a fabrication bench - but it also requires some advanced components to get started. You can collect advanced components several ways:\n\n  -All outlander settlements sell advanced components. Send a caravan to buy some.\n  -Some visiting traders sell advanced components. Invite or wait for them.\n  -Some quests are rewarded with advanced components. -->
-  <Fabrication.discoveredLetterText>You now have the technology to build a fabrication bench - but it also requires some advanced components to get started. You can collect advanced components several ways:\n\n  -All outlander settlements sell advanced components. Send a caravan to buy some.\n  -Some visiting traders sell advanced components. Invite or wait for them.\n  -Some quests are rewarded with advanced components.</Fabrication.discoveredLetterText>
+  <Fabrication.discoveredLetterText>شما اکنون فناوری ساخت یک نیمکت ساخت را دارید - اما برای شروع به برخی اجزای پیشرفته نیز نیاز دارد. می‌توانید اجزای پیشرفته را از چند طریق جمع‌آوری کنید:\n\n -همه سکونتگاه‌های خارج از کشور قطعات پیشرفته را می‌فروشند. کاروانی بفرستید تا مقداری بخرد.\n -برخی از تاجران بازدیدکننده قطعات پیشرفته را می فروشند. آنها را دعوت کنید یا منتظر بمانید.\n -برخی از ماموریت‌ها با اجزای پیشرفته پاداش می گیرند.</Fabrication.discoveredLetterText>
   <!-- EN: About: Getting advanced components -->
-  <Fabrication.discoveredLetterTitle>About: Getting advanced components</Fabrication.discoveredLetterTitle>
+  <Fabrication.discoveredLetterTitle>درباره: دریافت اجزای پیشرفته</Fabrication.discoveredLetterTitle>
   <!-- EN:
     <li>subject->high-tech fabrication benches</li>
     <li>subject_story->spent many years crafting advanced components, to make fabrication benches to make more advanced components</li>
@@ -109,9 +109,9 @@
   </Fabrication.generalRules.rulesStrings>
   
   <!-- EN: multi-analyzer -->
-  <MultiAnalyzer.label>multi-analyzer</MultiAnalyzer.label>
+  <MultiAnalyzer.label>مولتی آنالایزر</MultiAnalyzer.label>
   <!-- EN: Build multi-analyzers which increase research speed and allow higher-level research projects. -->
-  <MultiAnalyzer.description>Build multi-analyzers which increase research speed and allow higher-level research projects.</MultiAnalyzer.description>
+  <MultiAnalyzer.description>مولتی آنالایزر بسازید که سرعت تحقیق را افزایش می دهد و امکان انجام پروژه های تحقیقاتی سطح بالاتر را فراهم می کند.</MultiAnalyzer.description>
   <!-- EN:
     <li>subject->multi-analysis</li>
     <li>subject_story->automated a research laboratory</li>
@@ -128,9 +128,9 @@
   </MultiAnalyzer.generalRules.rulesStrings>
   
   <!-- EN: marine armor -->
-  <PoweredArmor.label>marine armor</PoweredArmor.label>
+  <PoweredArmor.label>زره دریایی</PoweredArmor.label>
   <!-- EN: Build marine armor, a general-use powered armor suit used by high-tech shock troops. Note that these also require advanced components. -->
-  <PoweredArmor.description>Build marine armor, a general-use powered armor suit used by high-tech shock troops. Note that these also require advanced components.</PoweredArmor.description>
+  <PoweredArmor.description>زره دریایی بسازید، یک لباس زرهی با کاربرد عمومی که توسط نیروهای شوک پیشرفته استفاده می شود. توجه داشته باشید که اینها به اجزای پیشرفته نیز نیاز دارند.</PoweredArmor.description>
   <!-- EN:
     <li>subject->marine armor</li>
     <li>subject_story->was employed by the shock troops to maintain their armor</li>
@@ -151,9 +151,9 @@
   </PoweredArmor.generalRules.rulesStrings>
   
   <!-- EN: recon armor -->
-  <ReconArmor.label>recon armor</ReconArmor.label>
+  <ReconArmor.label>recon زره</ReconArmor.label>
   <!-- EN: Craft recon armor, a light powered armor suit used by scout troops who need protection on the move. Note that these also require advanced components. -->
-  <ReconArmor.description>Craft recon armor, a light powered armor suit used by scout troops who need protection on the move. Note that these also require advanced components.</ReconArmor.description>
+  <ReconArmor.description>Craft recon armor، یک لباس زرهی سبک که توسط نیروهای پیشاهنگی که در حال حرکت به محافظت نیاز دارند استفاده می‌شود. توجه داشته باشید که اینها به اجزای پیشرفته نیز نیاز دارند.</ReconArmor.description>
   <!-- EN:
     <li>subject->recon armor</li>
     <li>subject_story->led the rebel scouts against the Imperial forces, until captured</li>
@@ -172,9 +172,9 @@
   </ReconArmor.generalRules.rulesStrings>
   
   <!-- EN: rocketswarm launcher -->
-  <RocketswarmLauncher.label>rocketswarm launcher</RocketswarmLauncher.label>
+  <RocketswarmLauncher.label>پرتابگر موشک گرم</RocketswarmLauncher.label>
   <!-- EN: Produce rocketswarm launchers, single-burst turrets which can devastate a wide area at a key moment in battle. -->
-  <RocketswarmLauncher.description>Produce rocketswarm launchers, single-burst turrets which can devastate a wide area at a key moment in battle.</RocketswarmLauncher.description>
+  <RocketswarmLauncher.description>پرتابگرهای گرم، برجک های تک انفجاری تولید کنید که می توانند منطقه وسیعی را در یک لحظه کلیدی در نبرد ویران کنند.</RocketswarmLauncher.description>
   <!-- EN:
     <li>subject->rocket turrets</li>
     <li>subject_story->testified about the use of rocketswarm launchers against civilian targets</li>
@@ -191,9 +191,9 @@
   </RocketswarmLauncher.generalRules.rulesStrings>
   
   <!-- EN: uranium slug turret -->
-  <SniperTurret.label>uranium slug turret</SniperTurret.label>
+  <SniperTurret.label>برجک حلزون اورانیوم</SniperTurret.label>
   <!-- EN: Produce the armor-penetrating uranium slug turret. It fires uranium slugs which tear through plasteel like paper, but it's less effective at close range. -->
-  <SniperTurret.description>Produce the armor-penetrating uranium slug turret. It fires uranium slugs which tear through plasteel like paper, but it's less effective at close range.</SniperTurret.description>
+  <SniperTurret.description>برجک اورانیومی با نفوذ زره را بسازید. راب‌های اورانیوم را که مانند کاغذ پاره می‌کنند، شلیک می‌کند، اما در فاصله نزدیک کمتر موثر است.</SniperTurret.description>
   <!-- EN:
     <li>subject->sniper turrets</li>
     <li>subject_story->led the clean-up after the war, collecting spent radioactive uranium slugs from the front line</li>
@@ -210,9 +210,9 @@
   </SniperTurret.generalRules.rulesStrings>
   
   <!-- EN: vitals monitor -->
-  <VitalsMonitor.label>vitals monitor</VitalsMonitor.label>
+  <VitalsMonitor.label>مانیتور حیاتی</VitalsMonitor.label>
   <!-- EN: Build vitals monitors which improve medical outcomes when placed next to hospital beds. -->
-  <VitalsMonitor.description>Build vitals monitors which improve medical outcomes when placed next to hospital beds.</VitalsMonitor.description>
+  <VitalsMonitor.description>مانیتورهای حیاتی بسازید که وقتی در کنار تخت بیمارستان قرار می گیرند، نتایج پزشکی را بهبود می بخشد.</VitalsMonitor.description>
   <!-- EN:
     <li>subject->vital signs monitoring</li>
     <li>subject_story->struggled in an overcrowded hospital and vowed to work for change</li>

@@ -42,8 +42,8 @@
     <li>runnerIndef(childCount==1,priority=1)->a child</li>
   </ThreatReward_Raid_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASELABEL} chasing [../joiner_nameDef] -->
-  <ThreatReward_Raid_Joiner.LetterLabelChasing.value.slateRef>{BASELABEL} chasing [../joiner_nameDef]</ThreatReward_Raid_Joiner.LetterLabelChasing.value.slateRef>
+  <ThreatReward_Raid_Joiner.LetterLabelChasing.value.slateRef>{BASELABEL} در تعقیب [../joiner_nameDef]</ThreatReward_Raid_Joiner.LetterLabelChasing.value.slateRef>
   <!-- EN: {BASETEXT}\n              \nThe [enemyFaction_pawnsPlural] have come to get [../joiner_nameDef]. -->
-  <ThreatReward_Raid_Joiner.LetterTextChasing.value.slateRef>{BASETEXT}\n              \nThe [enemyFaction_pawnsPlural] have come to get [../joiner_nameDef].</ThreatReward_Raid_Joiner.LetterTextChasing.value.slateRef>
+  <ThreatReward_Raid_Joiner.LetterTextChasing.value.slateRef>{BASETEXT}\n \n[enemyFaction_pawnsPlural] برای دریافت [../joiner_nameDef] آمده است.</ThreatReward_Raid_Joiner.LetterTextChasing.value.slateRef>
   
 </LanguageData>

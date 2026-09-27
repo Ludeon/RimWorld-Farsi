@@ -2,63 +2,63 @@
 <LanguageData>
   
   <!-- EN: aggression judgement scramble -->
-  <BerserkMechanoid.label>aggression judgement scramble</BerserkMechanoid.label>
+  <BerserkMechanoid.label>تقلا قضاوت پرخاشگری</BerserkMechanoid.label>
   <!-- EN: Aggression judgment scrambled -->
-  <BerserkMechanoid.baseInspectLine>Aggression judgment scrambled</BerserkMechanoid.baseInspectLine>
+  <BerserkMechanoid.baseInspectLine>قضاوت پرخاشگری درهم ریخته شد</BerserkMechanoid.baseInspectLine>
   
   <!-- EN: cocoon disturbed -->
-  <CocoonDisturbed.label>cocoon disturbed</CocoonDisturbed.label>
+  <CocoonDisturbed.label>پیله به هم خورد</CocoonDisturbed.label>
   <!-- EN: Enraged: Cocoon disturbed -->
-  <CocoonDisturbed.baseInspectLine>Enraged: Cocoon disturbed</CocoonDisturbed.baseInspectLine>
+  <CocoonDisturbed.baseInspectLine>خشمگین: پیله آشفته</CocoonDisturbed.baseInspectLine>
   
   <!-- EN: manhunter -->
-  <Manhunter.label>manhunter</Manhunter.label>
+  <Manhunter.label>انسان شکارچی</Manhunter.label>
   <!-- EN: Maddened: Manhunter -->
-  <Manhunter.baseInspectLine>Maddened: Manhunter</Manhunter.baseInspectLine>
+  <Manhunter.baseInspectLine>دیوانه شده: انسان شکارچی</Manhunter.baseInspectLine>
   <!-- EN: {0} has become a manhunter! -->
-  <Manhunter.beginLetter>{0} has become a manhunter!</Manhunter.beginLetter>
+  <Manhunter.beginLetter>{0} تبدیل به یک شکارچی انسان شد!</Manhunter.beginLetter>
   <!-- EN: {0}'s manhunting bloodlust has come to an end. -->
-  <Manhunter.recoveryMessage>{0}'s manhunting bloodlust has come to an end.</Manhunter.recoveryMessage>
+  <Manhunter.recoveryMessage>خونخواهی {0} به پایان رسیده است.</Manhunter.recoveryMessage>
   
   <!-- EN: manhunter -->
-  <ManhunterPermanent.label>manhunter</ManhunterPermanent.label>
+  <ManhunterPermanent.label>انسان شکارچی</ManhunterPermanent.label>
   <!-- EN: Maddened: Manhunter -->
-  <ManhunterPermanent.baseInspectLine>Maddened: Manhunter</ManhunterPermanent.baseInspectLine>
+  <ManhunterPermanent.baseInspectLine>دیوانه شده: انسان شکارچی</ManhunterPermanent.baseInspectLine>
   <!-- EN: {0} has become a manhunter! -->
-  <ManhunterPermanent.beginLetter>{0} has become a manhunter!</ManhunterPermanent.beginLetter>
+  <ManhunterPermanent.beginLetter>{0} تبدیل به یک شکارچی انسان شد!</ManhunterPermanent.beginLetter>
   <!-- EN: {0}'s manhunting bloodlust has come to an end. -->
-  <ManhunterPermanent.recoveryMessage>{0}'s manhunting bloodlust has come to an end.</ManhunterPermanent.recoveryMessage>
+  <ManhunterPermanent.recoveryMessage>خونخواهی {0} به پایان رسیده است.</ManhunterPermanent.recoveryMessage>
   
   <!-- EN: panic fleeing -->
-  <PanicFlee.label>panic fleeing</PanicFlee.label>
+  <PanicFlee.label>هراس فرار</PanicFlee.label>
   <!-- EN: Mental state: Fleeing in panic -->
-  <PanicFlee.baseInspectLine>Mental state: Fleeing in panic</PanicFlee.baseInspectLine>
+  <PanicFlee.baseInspectLine>حالت روانی: فرار در وحشت</PanicFlee.baseInspectLine>
   <!-- EN: {0} is fleeing in panic. -->
-  <PanicFlee.beginLetter>{0} is fleeing in panic.</PanicFlee.beginLetter>
+  <PanicFlee.beginLetter>{0} وحشت زده فرار می کند.</PanicFlee.beginLetter>
   <!-- EN: flee -->
-  <PanicFlee.beginLetterLabel>flee</PanicFlee.beginLetterLabel>
+  <PanicFlee.beginLetterLabel>فرار کن</PanicFlee.beginLetterLabel>
   <!-- EN: {0} is no longer fleeing in panic. -->
-  <PanicFlee.recoveryMessage>{0} is no longer fleeing in panic.</PanicFlee.recoveryMessage>
+  <PanicFlee.recoveryMessage>{0} دیگر وحشت زده فرار نمی کند.</PanicFlee.recoveryMessage>
   
   <!-- EN: roaming -->
-  <Roaming.label>roaming</Roaming.label>
+  <Roaming.label>رومینگ</Roaming.label>
   <!-- EN: Mental state: Roaming -->
-  <Roaming.baseInspectLine>Mental state: Roaming</Roaming.baseInspectLine>
+  <Roaming.baseInspectLine>حالت روانی: رومینگ</Roaming.baseInspectLine>
   
   <!-- EN: social fighting -->
-  <SocialFighting.label>social fighting</SocialFighting.label>
+  <SocialFighting.label>دعوای اجتماعی</SocialFighting.label>
   <!-- EN: Mental state: Social fighting -->
-  <SocialFighting.baseInspectLine>Mental state: Social fighting</SocialFighting.baseInspectLine>
+  <SocialFighting.baseInspectLine>وضعیت روانی: مبارزه اجتماعی</SocialFighting.baseInspectLine>
   
   <!-- EN: confused wandering -->
-  <WanderConfused.label>confused wandering</WanderConfused.label>
+  <WanderConfused.label>سرگردانی گیج</WanderConfused.label>
   <!-- EN: Mental state: Confused and wandering -->
-  <WanderConfused.baseInspectLine>Mental state: Confused and wandering</WanderConfused.baseInspectLine>
+  <WanderConfused.baseInspectLine>حالت روانی: گیج و سرگردان</WanderConfused.baseInspectLine>
   <!-- EN: {0} has broken down and is wandering around confused. -->
-  <WanderConfused.beginLetter>{0} has broken down and is wandering around confused.</WanderConfused.beginLetter>
+  <WanderConfused.beginLetter>{0} خراب شده و گیج سرگردان است.</WanderConfused.beginLetter>
   <!-- EN: confusion -->
-  <WanderConfused.beginLetterLabel>confusion</WanderConfused.beginLetterLabel>
+  <WanderConfused.beginLetterLabel>گیجی</WanderConfused.beginLetterLabel>
   <!-- EN: {0} is no longer confused. -->
-  <WanderConfused.recoveryMessage>{0} is no longer confused.</WanderConfused.recoveryMessage>
+  <WanderConfused.recoveryMessage>{0} دیگر گیج نمی شود.</WanderConfused.recoveryMessage>
   
 </LanguageData>

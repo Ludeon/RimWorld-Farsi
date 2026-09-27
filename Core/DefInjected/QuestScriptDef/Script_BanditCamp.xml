@@ -42,20 +42,20 @@
     <li>bandit->Brigand</li>
   </OpportunitySite_BanditCamp.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <OpportunitySite_BanditCamp.LetterLabelQuestExpired.slateRef>Quest expired: [resolvedQuestName]</OpportunitySite_BanditCamp.LetterLabelQuestExpired.slateRef>
+  <OpportunitySite_BanditCamp.LetterLabelQuestExpired.slateRef>تلاش منقضی شده: [resolvedQuestName]</OpportunitySite_BanditCamp.LetterLabelQuestExpired.slateRef>
   <!-- EN: The bandit camp has packed up and moved on. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_BanditCamp.LetterTextQuestExpired.slateRef>The bandit camp has packed up and moved on. The quest [resolvedQuestName] has expired.</OpportunitySite_BanditCamp.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_BanditCamp.LetterTextQuestExpired.slateRef>اردوگاه راهزنان بارها را جمع کرده و ادامه داده است. تلاش [resolvedQuestName] منقضی شده است.</OpportunitySite_BanditCamp.LetterTextQuestExpired.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
-  <OpportunitySite_BanditCamp.LetterLabelQuestFailed.slateRef>Quest failed: [resolvedQuestName]</OpportunitySite_BanditCamp.LetterLabelQuestFailed.slateRef>
+  <OpportunitySite_BanditCamp.LetterLabelQuestFailed.slateRef>تلاش ناموفق بود: [resolvedQuestName]</OpportunitySite_BanditCamp.LetterLabelQuestFailed.slateRef>
   <!-- EN: After being discovered, the bandit camp has dispersed. The quest [resolvedQuestName] has ended. -->
-  <OpportunitySite_BanditCamp.LetterTextQuestFailed.slateRef>After being discovered, the bandit camp has dispersed. The quest [resolvedQuestName] has ended.</OpportunitySite_BanditCamp.LetterTextQuestFailed.slateRef>
+  <OpportunitySite_BanditCamp.LetterTextQuestFailed.slateRef>پس از کشف، اردوگاه راهزنان متفرق شده است. تلاش [resolvedQuestName] به پایان رسیده است.</OpportunitySite_BanditCamp.LetterTextQuestFailed.slateRef>
   <!-- EN: Payment arrived -->
-  <OpportunitySite_BanditCamp.LetterLabelPaymentArrived.slateRef>Payment arrived</OpportunitySite_BanditCamp.LetterLabelPaymentArrived.slateRef>
+  <OpportunitySite_BanditCamp.LetterLabelPaymentArrived.slateRef>پرداخت رسید</OpportunitySite_BanditCamp.LetterLabelPaymentArrived.slateRef>
   <!-- EN: You have defeated the bandit camp!\n\nThe payment from [asker_faction_name] has arrived. -->
-  <OpportunitySite_BanditCamp.LetterTextPaymentArrived.slateRef>You have defeated the bandit camp!\n\nThe payment from [asker_faction_name] has arrived.</OpportunitySite_BanditCamp.LetterTextPaymentArrived.slateRef>
+  <OpportunitySite_BanditCamp.LetterTextPaymentArrived.slateRef>شما اردوگاه راهزنان را شکست داده اید!\n\nپرداخت از طرف [asker_faction_name] رسیده است.</OpportunitySite_BanditCamp.LetterTextPaymentArrived.slateRef>
   <!-- EN: [asker_faction_royalFavorLabel] -->
   <OpportunitySite_BanditCamp.LetterLabelFavorReceiver.slateRef>[asker_faction_royalFavorLabel]</OpportunitySite_BanditCamp.LetterLabelFavorReceiver.slateRef>
   <!-- EN: These colonists participated in the victory for the quest [resolvedQuestName]. [asker_definite] wants to know who should receive the [royalFavorReward_amount] [asker_faction_royalFavorLabel] for this service. -->
-  <OpportunitySite_BanditCamp.LetterTextFavorReceiver.slateRef>These colonists participated in the victory for the quest [resolvedQuestName]. [asker_definite] wants to know who should receive the [royalFavorReward_amount] [asker_faction_royalFavorLabel] for this service.</OpportunitySite_BanditCamp.LetterTextFavorReceiver.slateRef>
+  <OpportunitySite_BanditCamp.LetterTextFavorReceiver.slateRef>این مستعمره نشینان در پیروزی کوئست [resolvedQuestName] شرکت کردند. [asker_definite] می خواهد بداند چه کسی باید [royalFavorReward_amount] [asker_faction_royalFavorLabel] را برای این سرویس دریافت کند.</OpportunitySite_BanditCamp.LetterTextFavorReceiver.slateRef>
   
 </LanguageData>

@@ -44,12 +44,12 @@
     <li>trade->Offer</li>
   </TradeRequest.questNameRules.rulesStrings>
   <!-- EN: Quest failed: [resolvedQuestName] -->
-  <TradeRequest.LetterLabelQuestFailed.slateRef>Quest failed: [resolvedQuestName]</TradeRequest.LetterLabelQuestFailed.slateRef>
+  <TradeRequest.LetterLabelQuestFailed.slateRef>تلاش ناموفق بود: [resolvedQuestName]</TradeRequest.LetterLabelQuestFailed.slateRef>
   <!-- EN: [faction_name] became hostile to you. -->
-  <TradeRequest.LetterTextQuestFailed.slateRef>[faction_name] became hostile to you.</TradeRequest.LetterTextQuestFailed.slateRef>
+  <TradeRequest.LetterTextQuestFailed.slateRef>[faction_name] با شما دشمنی کرد.</TradeRequest.LetterTextQuestFailed.slateRef>
   <!-- EN: [asker_faction_royalFavorLabel] -->
   <TradeRequest.LetterLabelFavorReceiver.slateRef>[asker_faction_royalFavorLabel]</TradeRequest.LetterLabelFavorReceiver.slateRef>
   <!-- EN: Who should be credited with [asker_faction_royalFavorLabel] for fulfilling the trade request? -->
-  <TradeRequest.LetterTextFavorReceiver.slateRef>Who should be credited with [asker_faction_royalFavorLabel] for fulfilling the trade request?</TradeRequest.LetterTextFavorReceiver.slateRef>
+  <TradeRequest.LetterTextFavorReceiver.slateRef>چه کسی باید [asker_faction_royalFavorLabel] را برای برآورده کردن درخواست تجاری به حساب آورد؟</TradeRequest.LetterTextFavorReceiver.slateRef>
   
 </LanguageData>

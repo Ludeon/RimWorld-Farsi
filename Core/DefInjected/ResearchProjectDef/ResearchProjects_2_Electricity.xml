@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: air conditioning -->
-  <AirConditioning.label>air conditioning</AirConditioning.label>
+  <AirConditioning.label>تهویه مطبوع</AirConditioning.label>
   <!-- EN: Build coolers to make people comfortable in hot weather, or to construct freezers for storing perishable goods. -->
-  <AirConditioning.description>Build coolers to make people comfortable in hot weather, or to construct freezers for storing perishable goods.</AirConditioning.description>
+  <AirConditioning.description>کولرهایی بسازید تا مردم در هوای گرم راحت باشند یا فریزرهایی برای نگهداری کالاهای فاسد شدنی بسازید.</AirConditioning.description>
   <!-- EN:
     <li>subject->air conditioning</li>
     <li>subject_story->visited the hottest town on the planet</li>
@@ -21,9 +21,9 @@
   </AirConditioning.generalRules.rulesStrings>
   
   <!-- EN: autodoor -->
-  <Autodoors.label>autodoor</Autodoors.label>
+  <Autodoors.label>درب اتوماتیک</Autodoors.label>
   <!-- EN: Build autodoors which automatically open when someone approaches, without slowing anyone down. -->
-  <Autodoors.description>Build autodoors which automatically open when someone approaches, without slowing anyone down.</Autodoors.description>
+  <Autodoors.description>درب‌های خودکاری بسازید که با نزدیک شدن شخصی به‌طور خودکار باز می‌شوند، بدون اینکه سرعت کسی را کاهش دهند.</Autodoors.description>
   <!-- EN:
     <li>subject->autodoors</li>
     <li>subject->automatic doors</li>
@@ -42,9 +42,9 @@
   </Autodoors.generalRules.rulesStrings>
   
   <!-- EN: battery -->
-  <Batteries.label>battery</Batteries.label>
+  <Batteries.label>باتری</Batteries.label>
   <!-- EN: Build batteries for storing electricity. -->
-  <Batteries.description>Build batteries for storing electricity.</Batteries.description>
+  <Batteries.description>ساخت باتری برای ذخیره برق.</Batteries.description>
   <!-- EN:
     <li>subject->batteries</li>
     <li>subject_story->discovered that an acid lake on the leaden shores of a deathworld worked as a natural battery</li>
@@ -61,9 +61,9 @@
   </Batteries.generalRules.rulesStrings>
   
   <!-- EN: biofuel refining -->
-  <BiofuelRefining.label>biofuel refining</BiofuelRefining.label>
+  <BiofuelRefining.label>پالایش سوخت زیستی</BiofuelRefining.label>
   <!-- EN: Build biofuel refineries to make chemfuel from biological matter like wood or foodstuffs. -->
-  <BiofuelRefining.description>Build biofuel refineries to make chemfuel from biological matter like wood or foodstuffs.</BiofuelRefining.description>
+  <BiofuelRefining.description>ساخت پالایشگاه های سوخت زیستی برای تولید سوخت شیمیایی از مواد بیولوژیکی مانند چوب یا مواد غذایی.</BiofuelRefining.description>
   <!-- EN:
     <li>subject->biofuel</li>
     <li>subject_story->was trapped when a generation ship lost power. [ANYPAWN_pronoun] used [ANYPAWN_possessive] knowledge of refining to turn human remains into biofuel and restart the engines</li>
@@ -80,9 +80,9 @@
   </BiofuelRefining.generalRules.rulesStrings>
   
   <!-- EN: blowback operation -->
-  <BlowbackOperation.label>blowback operation</BlowbackOperation.label>
+  <BlowbackOperation.label>عملیات برگشتی</BlowbackOperation.label>
   <!-- EN: Craft low-power blowback-operated guns like autopistols and machine pistols. -->
-  <BlowbackOperation.description>Craft low-power blowback-operated guns like autopistols and machine pistols.</BlowbackOperation.description>
+  <BlowbackOperation.description>اسلحه‌های کم‌مصرف با قابلیت ضربه زدن مانند تپانچه‌های خودکار و تپانچه‌های ماشینی بسازید.</BlowbackOperation.description>
   <!-- EN:
     <li>subject->pistols</li>
     <li>subject->blowback firearms</li>
@@ -101,9 +101,9 @@
   </BlowbackOperation.generalRules.rulesStrings>
   
   <!-- EN: advanced lights -->
-  <ColoredLights.label>advanced lights</ColoredLights.label>
+  <ColoredLights.label>چراغ های پیشرفته</ColoredLights.label>
   <!-- EN: Build powerful outdoors lights. Additionally, customize the color of electric lights and reduce their power consumption by half. This does not affect sun lamps. -->
-  <ColoredLights.description>Build powerful outdoors lights. Additionally, customize the color of electric lights and reduce their power consumption by half. This does not affect sun lamps.</ColoredLights.description>
+  <ColoredLights.description>چراغ های قدرتمند در فضای باز بسازید. علاوه بر این، رنگ چراغ های برق را سفارشی کنید و مصرف برق آنها را به نصف کاهش دهید. این بر لامپ های خورشیدی تأثیر نمی گذارد.</ColoredLights.description>
   <!-- EN:
     <li>subject->advanced lighting</li>
     <li>subject_story->installed floodlights all around the prison world's many security perimeters</li>
@@ -120,13 +120,13 @@
   </ColoredLights.generalRules.rulesStrings>
   
   <!-- EN: electricity -->
-  <Electricity.label>electricity</Electricity.label>
+  <Electricity.label>برق</Electricity.label>
   <!-- EN: Harness the power of electricity for a hundred different tasks. -->
-  <Electricity.description>Harness the power of electricity for a hundred different tasks.</Electricity.description>
+  <Electricity.description>از نیروی برق برای صد کار مختلف استفاده کنید.</Electricity.description>
   <!-- EN: Your colony has harnessed the power which outsiders call "electricity". It has the potential to transform every aspect of your people's way of life.\n\nYou have now unlocked the Power tab in the Architect menu from which you may build electric generators, power conduits, and other mechanisms to control this new force. The Power tab also displays the electric grid which connects electric generators and appliances. -->
-  <Electricity.discoveredLetterText>Your colony has harnessed the power which outsiders call "electricity". It has the potential to transform every aspect of your people's way of life.\n\nYou have now unlocked the Power tab in the Architect menu from which you may build electric generators, power conduits, and other mechanisms to control this new force. The Power tab also displays the electric grid which connects electric generators and appliances.</Electricity.discoveredLetterText>
+  <Electricity.discoveredLetterText>مستعمره شما از قدرتی استفاده کرده است که بیگانگان آن را "برق" می نامند. این پتانسیل را دارد که تمام جنبه‌های شیوه زندگی مردم شما را تغییر دهد.\n\nشما اکنون قفل برگه Power را در منوی معمار باز کرده‌اید که از آنجا می‌توانید ژنراتورهای برق، مجاری برق، و مکانیسم‌های دیگری را برای کنترل این نیروی جدید بسازید. زبانه Power همچنین شبکه برق را نشان می دهد که ژنراتورها و لوازم برقی را به هم متصل می کند.</Electricity.discoveredLetterText>
   <!-- EN: About: Electricity -->
-  <Electricity.discoveredLetterTitle>About: Electricity</Electricity.discoveredLetterTitle>
+  <Electricity.discoveredLetterTitle>درباره: برق</Electricity.discoveredLetterTitle>
   <!-- EN:
     <li>subject->electricity</li>
     <li>subject_story->was struck by lighting and became determined to harness it</li>
@@ -143,9 +143,9 @@
   </Electricity.generalRules.rulesStrings>
   
   <!-- EN: firefoam -->
-  <Firefoam.label>firefoam</Firefoam.label>
+  <Firefoam.label>فوم آتش</Firefoam.label>
   <!-- EN: Construct firefoam poppers, automatic fire-safety devices which spread fire-retardant foam in response to encroaching flames. -->
-  <Firefoam.description>Construct firefoam poppers, automatic fire-safety devices which spread fire-retardant foam in response to encroaching flames.</Firefoam.description>
+  <Firefoam.description>فوم‌های آتش‌سوزی، دستگاه‌های ایمنی خودکار آتش‌سوزی بسازید که در پاسخ به شعله‌های آتش، فوم ضد حریق پخش می‌کنند.</Firefoam.description>
   <!-- EN:
     <li>subject->firefoam poppers</li>
     <li>subject->fire safety devices</li>
@@ -166,9 +166,9 @@
   </Firefoam.generalRules.rulesStrings>
   
   <!-- EN: flak armor -->
-  <FlakArmor.label>flak armor</FlakArmor.label>
+  <FlakArmor.label>زره پوسته پوسته شدن</FlakArmor.label>
   <!-- EN: Craft clothing with metal armor sewn in to resist bullets and explosions. This weighty armor slows movement slightly. -->
-  <FlakArmor.description>Craft clothing with metal armor sewn in to resist bullets and explosions. This weighty armor slows movement slightly.</FlakArmor.description>
+  <FlakArmor.description>لباس کاردستی با زره فلزی دوخته شده برای مقاومت در برابر گلوله و انفجار. این زره سنگین حرکت را کمی کند می کند.</FlakArmor.description>
   <!-- EN:
     <li>subject->flak armor</li>
     <li>subject_story->supplied flak armor to the militias that ran the cities</li>
@@ -185,9 +185,9 @@
   </FlakArmor.generalRules.rulesStrings>
   
   <!-- EN: foam turret -->
-  <FoamTurret.label>foam turret</FoamTurret.label>
+  <FoamTurret.label>برجک فوم</FoamTurret.label>
   <!-- EN: Produce a turret which can be activated to spray fire-extinguishing foam. -->
-  <FoamTurret.description>Produce a turret which can be activated to spray fire-extinguishing foam.</FoamTurret.description>
+  <FoamTurret.description>یک برجک تولید کنید که می تواند برای پاشیدن فوم اطفاء حریق فعال شود.</FoamTurret.description>
   <!-- EN:
     <li>subject->foam turrets</li>
     <li>subject->fire suppression turrets</li>
@@ -208,9 +208,9 @@
   </FoamTurret.generalRules.rulesStrings>
   
   <!-- EN: gas operation -->
-  <GasOperation.label>gas operation</GasOperation.label>
+  <GasOperation.label>عملیات گاز</GasOperation.label>
   <!-- EN: Craft high-power guns like chain shotguns, LMGs, and heavy SMGs. -->
-  <GasOperation.description>Craft high-power guns like chain shotguns, LMGs, and heavy SMGs.</GasOperation.description>
+  <GasOperation.description>اسلحه های پرقدرت مانند تفنگ های زنجیری، LMG و SMG های سنگین بسازید.</GasOperation.description>
   <!-- EN:
     <li>subject->heavy weaponry</li>
     <li>subject->high-power firearms</li>
@@ -229,9 +229,9 @@
   </GasOperation.generalRules.rulesStrings>
   
   <!-- EN: geothermal power -->
-  <GeothermalPower.label>geothermal power</GeothermalPower.label>
+  <GeothermalPower.label>نیروی زمین گرمایی</GeothermalPower.label>
   <!-- EN: Build geothermal power plants on top of steam geysers, for uninterrupted power. -->
-  <GeothermalPower.description>Build geothermal power plants on top of steam geysers, for uninterrupted power.</GeothermalPower.description>
+  <GeothermalPower.description>نیروگاه های زمین گرمایی را در بالای آبفشان های بخار بسازید تا برق بی وقفه تامین شود.</GeothermalPower.description>
   <!-- EN:
     <li>subject->geothermal power</li>
     <li>subject_story->studied steam power and established geothermal plants throughout the region</li>
@@ -250,9 +250,9 @@
   </GeothermalPower.generalRules.rulesStrings>
   
   <!-- EN: gunsmithing -->
-  <Gunsmithing.label>gunsmithing</Gunsmithing.label>
+  <Gunsmithing.label>اسلحه سازی</Gunsmithing.label>
   <!-- EN: Craft simple manually-operated guns like revolvers, pump shotguns, bolt-action rifles, and incendiary launchers. -->
-  <Gunsmithing.description>Craft simple manually-operated guns like revolvers, pump shotguns, bolt-action rifles, and incendiary launchers.</Gunsmithing.description>
+  <Gunsmithing.description>اسلحه های دستی ساده مانند هفت تیر، تفنگ های ساچمه‌ای، تفنگ های پیچ و مهره‌ای و پرتابگرهای آتش زا بسازید.</Gunsmithing.description>
   <!-- EN:
     <li>subject->simple firearms</li>
     <li>subject_story->built a unique 12-shot revolver and won shoot-out after shoot-out</li>
@@ -271,9 +271,9 @@
   </Gunsmithing.generalRules.rulesStrings>
   
   <!-- EN: gun turrets -->
-  <GunTurrets.label>gun turrets</GunTurrets.label>
+  <GunTurrets.label>برجک های تفنگ</GunTurrets.label>
   <!-- EN: Produce simple automated gun turrets. -->
-  <GunTurrets.description>Produce simple automated gun turrets.</GunTurrets.description>
+  <GunTurrets.description>برجک های اسلحه خودکار ساده تولید کنید.</GunTurrets.description>
   <!-- EN:
     <li>subject->gun turrets</li>
     <li>subject_story->worked on AI routines, to enable gun turrets to identify friends and foes</li>
@@ -290,9 +290,9 @@
   </GunTurrets.generalRules.rulesStrings>
   
   <!-- EN: hydroponics -->
-  <Hydroponics.label>hydroponics</Hydroponics.label>
+  <Hydroponics.label>هیدروپونیک</Hydroponics.label>
   <!-- EN: Build hydroponics basins to rapidly grow crops indoors regardless of the terrain or weather outside. -->
-  <Hydroponics.description>Build hydroponics basins to rapidly grow crops indoors regardless of the terrain or weather outside.</Hydroponics.description>
+  <Hydroponics.description>حوضه های هیدروپونیک بسازید تا محصولات به سرعت در داخل خانه رشد کنند بدون توجه به زمین یا آب و هوای بیرون.</Hydroponics.description>
   <!-- EN:
     <li>subject->hydroponics</li>
     <li>subject_story->joined a generation ship crew as their crop specialist</li>
@@ -311,9 +311,9 @@
   </Hydroponics.generalRules.rulesStrings>
   
   <!-- EN: IEDs -->
-  <IEDs.label>IEDs</IEDs.label>
+  <IEDs.label>IED‌ها</IEDs.label>
   <!-- EN: Build improvised traps from any kind of mortar shell. -->
-  <IEDs.description>Build improvised traps from any kind of mortar shell.</IEDs.description>
+  <IEDs.description>از هر نوع خمپاره تله های بداهه بسازید.</IEDs.description>
   <!-- EN:
     <li>subject->improvised explosive traps</li>
     <li>subject_story->disarmed the leftover shells of the war, sending them onto the new frontline as mines</li>
@@ -330,9 +330,9 @@
   </IEDs.generalRules.rulesStrings>
   
   <!-- EN: machining -->
-  <Machining.label>machining</Machining.label>
+  <Machining.label>ماشینکاری</Machining.label>
   <!-- EN: Build machining tables to craft guns, grenades, flak armor, and to shred dead mechanoids for resources. -->
-  <Machining.description>Build machining tables to craft guns, grenades, flak armor, and to shred dead mechanoids for resources.</Machining.description>
+  <Machining.description>میزهای ماشینکاری برای ساخت اسلحه، نارنجک، زره پوسته، و خرد کردن مکانیسم های مرده برای منابع بسازید.</Machining.description>
   <!-- EN:
     <li>subject->machining</li>
     <li>subject_story->gathered the remains of dead mechanoids and shredded them for resources</li>
@@ -351,9 +351,9 @@
   </Machining.generalRules.rulesStrings>
   
   <!-- EN: mortars -->
-  <Mortars.label>mortars</Mortars.label>
+  <Mortars.label>خمپاره‌ها</Mortars.label>
   <!-- EN: Build mortars which can lob shells long distances - even over walls. -->
-  <Mortars.description>Build mortars which can lob shells long distances - even over walls.</Mortars.description>
+  <Mortars.description>خمپاره هایی بسازید که می توانند گلوله‌ها را در فواصل طولانی پرتاب کنند - حتی روی دیوارها.</Mortars.description>
   <!-- EN:
     <li>subject->artillery</li>
     <li>subject->mortars</li>
@@ -374,9 +374,9 @@
   </Mortars.generalRules.rulesStrings>
   
   <!-- EN: nutrient paste -->
-  <NutrientPaste.label>nutrient paste</NutrientPaste.label>
+  <NutrientPaste.label>خمیر مغذی</NutrientPaste.label>
   <!-- EN: Build nutrient paste dispensers which efficiently produce edible meals from raw nutritive feedstocks, while requiring no labor at all. -->
-  <NutrientPaste.description>Build nutrient paste dispensers which efficiently produce edible meals from raw nutritive feedstocks, while requiring no labor at all.</NutrientPaste.description>
+  <NutrientPaste.description>پخش‌کننده‌های خمیر مغذی را بسازید که به طور کارآمدی وعده‌های غذایی خوراکی را از مواد اولیه خام مغذی تولید می‌کنند، در حالی که اصلاً نیازی به نیروی کار ندارند.</NutrientPaste.description>
   <!-- EN:
     <li>subject->nutrient paste</li>
     <li>subject_story->worked in a factory canteen and devised nutrient paste as a way to avoid all labor</li>
@@ -393,9 +393,9 @@
   </NutrientPaste.generalRules.rulesStrings>
   
   <!-- EN: packaged survival meal -->
-  <PackagedSurvivalMeal.label>packaged survival meal</PackagedSurvivalMeal.label>
+  <PackagedSurvivalMeal.label>بسته بندی غذای زنده ماندن</PackagedSurvivalMeal.label>
   <!-- EN: Produce packaged survival meals which never go bad. Great for traveling. -->
-  <PackagedSurvivalMeal.description>Produce packaged survival meals which never go bad. Great for traveling.</PackagedSurvivalMeal.description>
+  <PackagedSurvivalMeal.description>وعده های غذایی بسته بندی شده برای بقا تولید کنید که هرگز بد نمی شوند. برای مسافرت عالیه</PackagedSurvivalMeal.description>
   <!-- EN:
     <li>subject->packaged survival meals</li>
     <li>subject->non-perishable food</li>
@@ -414,9 +414,9 @@
   </PackagedSurvivalMeal.generalRules.rulesStrings>
   
   <!-- EN: prosthetics -->
-  <Prosthetics.label>prosthetics</Prosthetics.label>
+  <Prosthetics.label>پروتز</Prosthetics.label>
   <!-- EN: Build inexpensive prosthetic body parts to replace lost limbs. Requires a skilled doctor to attach. -->
-  <Prosthetics.description>Build inexpensive prosthetic body parts to replace lost limbs. Requires a skilled doctor to attach.</Prosthetics.description>
+  <Prosthetics.description>ساخت قطعات مصنوعی ارزان قیمت بدن برای جایگزینی اندام های از دست رفته. برای اتصال به پزشک ماهر نیاز است.</Prosthetics.description>
   <!-- EN:
     <li>subject->prosthesis</li>
     <li>subject_story->had a limb replaced with a prosthetic, to show how easy it was</li>
@@ -433,9 +433,9 @@
   </Prosthetics.generalRules.rulesStrings>
   
   <!-- EN: smokepop packs -->
-  <SmokepopBelt.label>smokepop packs</SmokepopBelt.label>
+  <SmokepopBelt.label>بسته های دود پاپ</SmokepopBelt.label>
   <!-- EN: Build smokepop packs which allow the wearer to deploy a defensive smokescreen. -->
-  <SmokepopBelt.description>Build smokepop packs which allow the wearer to deploy a defensive smokescreen.</SmokepopBelt.description>
+  <SmokepopBelt.description>بسته‌های دودپاپ بسازید که به کاربر اجازه می‌دهد یک محافظ دود دفاعی به کار بگیرد.</SmokepopBelt.description>
   <!-- EN:
     <li>subject->smokescreen</li>
     <li>subject_story->worked as a hauler for bands, using smokepops for special effects</li>
@@ -454,9 +454,9 @@
   </SmokepopBelt.generalRules.rulesStrings>
   
   <!-- EN: solar panel -->
-  <SolarPanels.label>solar panel</SolarPanels.label>
+  <SolarPanels.label>پنل خورشیدی</SolarPanels.label>
   <!-- EN: Build solar panels for electricity generation. -->
-  <SolarPanels.description>Build solar panels for electricity generation.</SolarPanels.description>
+  <SolarPanels.description>ساخت پنل های خورشیدی برای تولید برق.</SolarPanels.description>
   <!-- EN:
     <li>subject->solar panels</li>
     <li>subject->solar energy</li>
@@ -475,9 +475,9 @@
   </SolarPanels.generalRules.rulesStrings>
   
   <!-- EN: sterile materials -->
-  <SterileMaterials.label>sterile materials</SterileMaterials.label>
+  <SterileMaterials.label>مواد استریل</SterileMaterials.label>
   <!-- EN: Construct sterile tiles to make cleanrooms for safer and more effective medical treatment, research, and cooking. -->
-  <SterileMaterials.description>Construct sterile tiles to make cleanrooms for safer and more effective medical treatment, research, and cooking.</SterileMaterials.description>
+  <SterileMaterials.description>کاشی‌های استریل بسازید تا اتاق‌هایی تمیز برای درمان، تحقیقات و پخت و پز پزشکی ایمن‌تر و مؤثرتر بسازید.</SterileMaterials.description>
   <!-- EN:
     <li>subject->sterile surfaces</li>
     <li>subject_story->prevented many deaths by insisting on effective, consistent sterilization of all equipment</li>
@@ -496,9 +496,9 @@
   </SterileMaterials.generalRules.rulesStrings>
   
   <!-- EN: tube television -->
-  <TubeTelevision.label>tube television</TubeTelevision.label>
+  <TubeTelevision.label>تلویزیون لوله‌ای</TubeTelevision.label>
   <!-- EN: Produce tube televisions for recreational watching. -->
-  <TubeTelevision.description>Produce tube televisions for recreational watching.</TubeTelevision.description>
+  <TubeTelevision.description>تلویزیون های لوله‌ای برای تماشای تفریحی تولید کنید.</TubeTelevision.description>
   <!-- EN:
     <li>subject->tube televisions</li>
     <li>subject_story->designed a faux-retro television set that could pick up interstellar signals</li>
@@ -515,9 +515,9 @@
   </TubeTelevision.generalRules.rulesStrings>
   
   <!-- EN: watermill generator -->
-  <WatermillGenerator.label>watermill generator</WatermillGenerator.label>
+  <WatermillGenerator.label>مولد آسیاب آبی</WatermillGenerator.label>
   <!-- EN: Build watermill generators on rivers to generate a steady supply of power. -->
-  <WatermillGenerator.description>Build watermill generators on rivers to generate a steady supply of power.</WatermillGenerator.description>
+  <WatermillGenerator.description>ژنراتورهای آسیاب آبی را روی رودخانه‌ها بسازید تا منبع برق ثابتی تولید کنید.</WatermillGenerator.description>
   <!-- EN:
     <li>subject->watermill generators</li>
     <li>subject_story->watched twigs and leaves get pulled downstream and envisioned the power there</li>

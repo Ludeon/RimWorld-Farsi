@@ -2,48 +2,48 @@
 <LanguageData>
   
   <!-- EN: Arrest success chance -->
-  <ArrestSuccessChance.label>Arrest success chance</ArrestSuccessChance.label>
+  <ArrestSuccessChance.label>شانس موفقیت دستگیری</ArrestSuccessChance.label>
   <!-- EN: How effective this person is in arresting people. This affects chance that this person will be able to arrest someone without resistance. -->
-  <ArrestSuccessChance.description>How effective this person is in arresting people. This affects chance that this person will be able to arrest someone without resistance.</ArrestSuccessChance.description>
+  <ArrestSuccessChance.description>چقدر این فرد در دستگیری افراد موثر است. این بر احتمال اینکه این شخص بتواند کسی را بدون مقاومت دستگیر کند، تأثیر می گذارد.</ArrestSuccessChance.description>
   
   <!-- EN: bond chance factor -->
-  <BondAnimalChanceFactor.label>bond chance factor</BondAnimalChanceFactor.label>
+  <BondAnimalChanceFactor.label>عامل شانس اوراق قرضه</BondAnimalChanceFactor.label>
   <!-- EN: A multiplier on the chance to bond with an animal when interacting with it. -->
-  <BondAnimalChanceFactor.description>A multiplier on the chance to bond with an animal when interacting with it.</BondAnimalChanceFactor.description>
+  <BondAnimalChanceFactor.description>ضریب افزایش شانس پیوند با یک حیوان هنگام تعامل با آن.</BondAnimalChanceFactor.description>
   
   <!-- EN: drug sell price improvement -->
-  <DrugSellPriceImprovement.label>drug sell price improvement</DrugSellPriceImprovement.label>
+  <DrugSellPriceImprovement.label>بهبود قیمت فروش دارو</DrugSellPriceImprovement.label>
   <!-- EN: When this person sells non-medical drugs, prices are improved by this percentage. -->
-  <DrugSellPriceImprovement.description>When this person sells non-medical drugs, prices are improved by this percentage.</DrugSellPriceImprovement.description>
+  <DrugSellPriceImprovement.description>وقتی این فرد داروهای غیر دارویی می فروشد، قیمت‌ها با این درصد بهبود می یابد.</DrugSellPriceImprovement.description>
   
   <!-- EN: negotiation ability -->
-  <NegotiationAbility.label>negotiation ability</NegotiationAbility.label>
+  <NegotiationAbility.label>توانایی مذاکره</NegotiationAbility.label>
   <!-- EN: How effective this person is as a negotiator.\n\nThis affects the speed of prisoner recruitment, impact on faction relations when giving gifts, and the outcome of peace talks. -->
-  <NegotiationAbility.description>How effective this person is as a negotiator.\n\nThis affects the speed of prisoner recruitment, impact on faction relations when giving gifts, and the outcome of peace talks.</NegotiationAbility.description>
+  <NegotiationAbility.description>چقدر این شخص به عنوان یک مذاکره کننده مؤثر است.\n\nاین روی سرعت جذب زندانیان، تأثیر بر روابط جناحی هنگام دادن هدایا و نتیجه مذاکرات صلح تأثیر می گذارد.</NegotiationAbility.description>
   
   <!-- EN: beauty -->
-  <PawnBeauty.label>beauty</PawnBeauty.label>
+  <PawnBeauty.label>زیبایی</PawnBeauty.label>
   <!-- EN: How physically attractive this person is. This affects social interactions. -->
-  <PawnBeauty.description>How physically attractive this person is. This affects social interactions.</PawnBeauty.description>
+  <PawnBeauty.description>چقدر این شخص از نظر جسمی جذاب است. این بر تعاملات اجتماعی تأثیر می گذارد.</PawnBeauty.description>
   
   <!-- EN: social impact -->
-  <SocialImpact.label>social impact</SocialImpact.label>
+  <SocialImpact.label>تاثیر اجتماعی</SocialImpact.label>
   <!-- EN: A multiplier on how much other people are affected by this person's social interactions. -->
-  <SocialImpact.description>A multiplier on how much other people are affected by this person's social interactions.</SocialImpact.description>
+  <SocialImpact.description>ضریب تاثیرپذیری افراد دیگر از تعاملات اجتماعی این فرد.</SocialImpact.description>
   
   <!-- EN: tame animal chance -->
-  <TameAnimalChance.label>tame animal chance</TameAnimalChance.label>
+  <TameAnimalChance.label>شانس حیوان رام</TameAnimalChance.label>
   <!-- EN: The base chance this person will successfully tame an animal on any given attempt.\n\nThe actual chance is also affected by the animal's wildness.\nFailed tame attempt can induce animal attacks, especially for more vicious animals. -->
-  <TameAnimalChance.description>The base chance this person will successfully tame an animal on any given attempt.\n\nThe actual chance is also affected by the animal's wildness.\nFailed tame attempt can induce animal attacks, especially for more vicious animals.</TameAnimalChance.description>
+  <TameAnimalChance.description>احتمال اصلی این که این فرد در هر تلاشی با موفقیت حیوانی را رام کند.\n\nاین شانس واقعی نیز تحت تأثیر وحشی بودن حیوان است.\nتلاش رام کردن ناموفق می‌تواند باعث حملات حیوانات شود، به‌ویژه برای حیوانات شریرتر.</TameAnimalChance.description>
   
   <!-- EN: trade price improvement -->
-  <TradePriceImprovement.label>trade price improvement</TradePriceImprovement.label>
+  <TradePriceImprovement.label>بهبود قیمت تجارت</TradePriceImprovement.label>
   <!-- EN: When this person acts as a trade negotiator, buy and sell prices are improved by this percentage. -->
-  <TradePriceImprovement.description>When this person acts as a trade negotiator, buy and sell prices are improved by this percentage.</TradePriceImprovement.description>
+  <TradePriceImprovement.description>هنگامی که این شخص به عنوان یک مذاکره کننده تجاری عمل می کند، قیمت خرید و فروش با این درصد بهبود می یابد.</TradePriceImprovement.description>
   
   <!-- EN: train animal chance -->
-  <TrainAnimalChance.label>train animal chance</TrainAnimalChance.label>
+  <TrainAnimalChance.label>آموزش شانس حیوانات</TrainAnimalChance.label>
   <!-- EN: The base chance this person will make progress training an animal on a given attempt.\n\nThe actual chance for a given attempt will also depend on the animal's wildness, whether it is bonded with the trainer, and so on. -->
-  <TrainAnimalChance.description>The base chance this person will make progress training an animal on a given attempt.\n\nThe actual chance for a given attempt will also depend on the animal's wildness, whether it is bonded with the trainer, and so on.</TrainAnimalChance.description>
+  <TrainAnimalChance.description>شانس اولیه‌ای که این فرد در آموزش یک حیوان در یک تلاش معین پیشرفت می کند.\n\nشانس واقعی برای یک تلاش معین نیز به وحشی بودن حیوان بستگی دارد، اینکه آیا با مربی مرتبط است یا نه.</TrainAnimalChance.description>
   
 </LanguageData>

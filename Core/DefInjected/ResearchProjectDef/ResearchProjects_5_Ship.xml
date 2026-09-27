@@ -2,13 +2,13 @@
 <LanguageData>
   
   <!-- EN: starflight basics -->
-  <ShipBasics.label>starflight basics</ShipBasics.label>
+  <ShipBasics.label>اصول اولیه پرواز ستاره‌ها</ShipBasics.label>
   <!-- EN: Construct the structural and supportive elements of a starship. This is the first step in building a ship to leave this star system. -->
-  <ShipBasics.description>Construct the structural and supportive elements of a starship. This is the first step in building a ship to leave this star system.</ShipBasics.description>
+  <ShipBasics.description>عناصر ساختاری و حمایتی یک کشتی فضایی را بسازید. این اولین قدم در ساخت یک کشتی برای ترک این منظومه ستاره‌ای است.</ShipBasics.description>
   <!-- EN: Escaping from this planet - it would be freedom at last, and maybe a return home.\n\nBut also incredibly dangerous.\n\nA new Ship category is available in the Architect menu from which you may build ship parts once the appropriate technology is researched. Ships require several different parts in order to launch, including a ship reactor.\n\nShip reactors take 15 days to charge up and many desperate souls want off this planet. Once you begin that process, the ship reactor will emit an energy signature detectable from thousands of kilometers away. Raiders will flock to attack you in waves, with an intensity you've never seen. Mechanoids are also known to be attracted to such energy signatures.\n\nIt won't start until you activate your ship's reactor, but when it does, it'll be ferocious. You'll need to stockpile resources, weapons, and defenses for the onslaught if you hope to escape alive. -->
-  <ShipBasics.discoveredLetterText>Escaping from this planet - it would be freedom at last, and maybe a return home.\n\nBut also incredibly dangerous.\n\nA new Ship category is available in the Architect menu from which you may build ship parts once the appropriate technology is researched. Ships require several different parts in order to launch, including a ship reactor.\n\nShip reactors take 15 days to charge up and many desperate souls want off this planet. Once you begin that process, the ship reactor will emit an energy signature detectable from thousands of kilometers away. Raiders will flock to attack you in waves, with an intensity you've never seen. Mechanoids are also known to be attracted to such energy signatures.\n\nIt won't start until you activate your ship's reactor, but when it does, it'll be ferocious. You'll need to stockpile resources, weapons, and defenses for the onslaught if you hope to escape alive.</ShipBasics.discoveredLetterText>
+  <ShipBasics.discoveredLetterText>فرار از این سیاره - سرانجام آزادی و شاید بازگشت به خانه باشد.\n\nاما بسیار خطرناک است.\n\nیک دسته کشتی جدید در منوی معمار موجود است که پس از بررسی فناوری مناسب، می توانید قطعات کشتی را از آن بسازید. کشتی‌ها برای پرتاب به چندین بخش مختلف نیاز دارند، از جمله یک راکتور کشتی.\n\nشارژ شدن راکتورهای کشتی ۱۵ روز طول می‌کشد و بسیاری از روح‌های ناامید می‌خواهند از این سیاره خارج شوند. هنگامی که این فرآیند را آغاز کردید، راکتور کشتی یک امضای انرژی منتشر می کند که از هزاران کیلومتر دورتر قابل تشخیص است. مهاجمان برای حمله به شما در امواج، با شدتی که هرگز ندیده اید، جمع می شوند. همچنین شناخته شده است که مکانیسم‌ها جذب چنین نشانه‌های انرژی می‌شوند.\n\nتا زمانی که راکتور کشتی خود را فعال نکنید، شروع نمی‌شود، اما وقتی فعال شود، وحشیانه خواهد بود. اگر امیدوارید زنده بتوانید فرار کنید، باید منابع، سلاح‌ها و دفاعی را برای حمله ذخیره کنید.</ShipBasics.discoveredLetterText>
   <!-- EN: About: Launching the ship -->
-  <ShipBasics.discoveredLetterTitle>About: Launching the ship</ShipBasics.discoveredLetterTitle>
+  <ShipBasics.discoveredLetterTitle>درباره: راه اندازی کشتی</ShipBasics.discoveredLetterTitle>
   <!-- EN:
     <li>subject->starship structural engineering</li>
     <li>subject_story->recruited starship engineers for a glitterworld fleet</li>
@@ -25,9 +25,9 @@
   </ShipBasics.generalRules.rulesStrings>
   
   <!-- EN: machine persuasion -->
-  <ShipComputerCore.label>machine persuasion</ShipComputerCore.label>
+  <ShipComputerCore.label>متقاعدسازی ماشینی</ShipComputerCore.label>
   <!-- EN: Build a reward-signal system to persuade an existing persona core into serving as a ship's machine captain. Since people sleep during interstellar travel, a persona core is necessary to handle the complex decisions of a years-long starflight. -->
-  <ShipComputerCore.description>Build a reward-signal system to persuade an existing persona core into serving as a ship's machine captain. Since people sleep during interstellar travel, a persona core is necessary to handle the complex decisions of a years-long starflight.</ShipComputerCore.description>
+  <ShipComputerCore.description>یک سیستم سیگنال پاداش بسازید تا یک هسته شخصیت موجود را متقاعد کنید که به عنوان کاپیتان ماشین کشتی خدمت کند. از آنجایی که مردم در طول سفرهای بین ستاره‌ای می خوابند، یک هسته شخصیت برای مدیریت تصمیمات پیچیده یک پرواز ستاره‌ای چند ساله ضروری است.</ShipComputerCore.description>
   <!-- EN:
     <li>subject->persona core incentivization</li>
     <li>subject->starship AI sanity maintenance</li>
@@ -50,9 +50,9 @@
   </ShipComputerCore.generalRules.rulesStrings>
   
   <!-- EN: vacuum cryptosleep casket -->
-  <ShipCryptosleep.label>vacuum cryptosleep casket</ShipCryptosleep.label>
+  <ShipCryptosleep.label>تابوت cryptosleep خلاء</ShipCryptosleep.label>
   <!-- EN: Construct hardened cryptosleep caskets tough enough to be exposed to vacuum, for transporting people on the years-long journey between stars. -->
-  <ShipCryptosleep.description>Construct hardened cryptosleep caskets tough enough to be exposed to vacuum, for transporting people on the years-long journey between stars.</ShipCryptosleep.description>
+  <ShipCryptosleep.description>تابوت‌های cryptosleep سخت شده بسازید که به اندازه کافی در معرض خلاء قرار گیرند تا افراد را در سفری طولانی بین ستاره‌ها جابه‌جا کنید.</ShipCryptosleep.description>
   <!-- EN:
     <li>subject->starship-grade cryptosleep caskets</li>
     <li>subject_story->replaced the failed cryptosleep caskets on the CMC Celeste, so the old generation ship could be used again</li>
@@ -69,9 +69,9 @@
   </ShipCryptosleep.generalRules.rulesStrings>
   
   <!-- EN: Johnson-Tanaka drive -->
-  <ShipEngine.label>Johnson-Tanaka drive</ShipEngine.label>
+  <ShipEngine.label>رانندگی جانسون-تاناکا</ShipEngine.label>
   <!-- EN: Construct a Johnson-Tanaka drive for a ship. The JT drive can push you to other stars by leveraging quantum scale effects to beam momentum to distant stars. Of course, as with all starships, it still takes many years to get anywhere. -->
-  <ShipEngine.description>Construct a Johnson-Tanaka drive for a ship. The JT drive can push you to other stars by leveraging quantum scale effects to beam momentum to distant stars. Of course, as with all starships, it still takes many years to get anywhere.</ShipEngine.description>
+  <ShipEngine.description>یک درایو جانسون تاناکا برای یک کشتی بسازید. درایو JT می تواند با استفاده از اثرات مقیاس کوانتومی برای تابش تکانه به ستاره های دور، شما را به سوی ستاره های دیگر سوق دهد. البته، مانند همه کشتی های ستاره‌ای، هنوز هم سال‌ها طول می کشد تا به جایی برسیم.</ShipEngine.description>
   <!-- EN:
     <li>subject->Johnson-Tanaka theory</li>
     <li>subject->exotic momentum transfer</li>
@@ -90,9 +90,9 @@
   </ShipEngine.generalRules.rulesStrings>
   
   <!-- EN: starship reactor -->
-  <ShipReactor.label>starship reactor</ShipReactor.label>
+  <ShipReactor.label>راکتور کشتی فضایی</ShipReactor.label>
   <!-- EN: Build a long-duration nuclear reactor to power a starship. Note that reactors have a long startup process that will attract raiders. -->
-  <ShipReactor.description>Build a long-duration nuclear reactor to power a starship. Note that reactors have a long startup process that will attract raiders.</ShipReactor.description>
+  <ShipReactor.description>ساخت یک راکتور هسته‌ای طولانی مدت برای تامین انرژی یک کشتی فضایی. توجه داشته باشید که راکتورها فرآیند راه اندازی طولانی دارند که مهاجمان را جذب می کند.</ShipReactor.description>
   <!-- EN:
     <li>subject->starship nuclear reactor</li>
     <li>subject_story->constructed a new reactor for a colony ship, but never lived to see it lift off</li>
@@ -109,9 +109,9 @@
   </ShipReactor.generalRules.rulesStrings>
   
   <!-- EN: starflight sensors -->
-  <ShipSensorCluster.label>starflight sensors</ShipSensorCluster.label>
+  <ShipSensorCluster.label>سنسورهای پرواز ستارگان</ShipSensorCluster.label>
   <!-- EN: Construct long-range sensors for a starship. These sensors are essential for navigation, communication, and threat avoidance. -->
-  <ShipSensorCluster.description>Construct long-range sensors for a starship. These sensors are essential for navigation, communication, and threat avoidance.</ShipSensorCluster.description>
+  <ShipSensorCluster.description>ساخت حسگرهای دوربرد برای یک کشتی فضایی این حسگرها برای ناوبری، ارتباطات و اجتناب از تهدید ضروری هستند.</ShipSensorCluster.description>
   <!-- EN:
     <li>subject->interstellar navigation</li>
     <li>subject_story->used prototype starship sensors to detect an incoming extinction-level asteroid and evacuate the planet</li>

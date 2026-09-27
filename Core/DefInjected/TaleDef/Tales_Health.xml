@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: downed -->
-  <Downed.label>downed</Downed.label>
+  <Downed.label>سقوط کرد</Downed.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] with a [WEAPON_label]</li>
@@ -79,7 +79,7 @@
   </Downed.rulePack.rulesStrings>
   
   <!-- EN: exhausted -->
-  <Exhausted.label>exhausted</Exhausted.label>
+  <Exhausted.label>خسته</Exhausted.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] collapsing from exhaustion</li>
     <li>image->[PAWN_nameFull] collapsing on the ground [circumstance_group]</li>
@@ -116,7 +116,7 @@
   </Exhausted.rulePack.rulesStrings>
   
   <!-- EN: gave birth -->
-  <GaveBirth.label>gave birth</GaveBirth.label>
+  <GaveBirth.label>زایمان کرد</GaveBirth.label>
   <!-- EN:
     <li>tale_noun->[MOTHER_nameDef] giving birth to [CHILD_nameDef]</li>
     <li>image->[MOTHER_nameFull] giving birth to [circumstance_group]</li>
@@ -155,7 +155,7 @@
   </GaveBirth.rulePack.rulesStrings>
   
   <!-- EN: heatstroke revealed -->
-  <HeatstrokeRevealed.label>heatstroke revealed</HeatstrokeRevealed.label>
+  <HeatstrokeRevealed.label>گرمازدگی آشکار شد</HeatstrokeRevealed.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] getting heatstroke</li>
     <li>tale_noun->[PAWN_nameDef] overheating</li>
@@ -198,7 +198,7 @@
   </HeatstrokeRevealed.rulePack.rulesStrings>
   
   <!-- EN: hypothermia revealed -->
-  <HypothermiaRevealed.label>hypothermia revealed</HypothermiaRevealed.label>
+  <HypothermiaRevealed.label>هیپوترمی آشکار شد</HypothermiaRevealed.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] getting hypothermia</li>
     <li>image->[PAWN_nameFull] trudging through snow [circumstance_group]</li>
@@ -239,7 +239,7 @@
   </HypothermiaRevealed.rulePack.rulesStrings>
   
   <!-- EN: illness revealed -->
-  <IllnessRevealed.label>illness revealed</IllnessRevealed.label>
+  <IllnessRevealed.label>بیماری آشکار شد</IllnessRevealed.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] being stricken with [ILLNESS_label]</li>
     <li>image->[PAWN_nameFull] staggering through a field [circumstance_group]</li>
@@ -284,7 +284,7 @@
   </IllnessRevealed.rulePack.rulesStrings>
   
   <!-- EN: killed -->
-  <KilledCapacity.label>killed</KilledCapacity.label>
+  <KilledCapacity.label>کشته شد</KilledCapacity.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] with a [WEAPON_label]</li>
@@ -349,7 +349,7 @@
   </KilledCapacity.rulePack.rulesStrings>
   
   <!-- EN: killed at distance -->
-  <KilledLongRange.label>killed at distance</KilledLongRange.label>
+  <KilledLongRange.label>از راه دور کشته شدند</KilledLongRange.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] at extreme distance</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] at extreme distance with a [WEAPON_label]</li>
@@ -422,7 +422,7 @@
   </KilledLongRange.rulePack.rulesStrings>
   
   <!-- EN: killed major threat -->
-  <KilledMajorThreat.label>killed major threat</KilledMajorThreat.label>
+  <KilledMajorThreat.label>تهدید بزرگ را از بین برد</KilledMajorThreat.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] with a [WEAPON_label]</li>
@@ -501,7 +501,7 @@
   </KilledMajorThreat.rulePack.rulesStrings>
   
   <!-- EN: killed in melee -->
-  <KilledMelee.label>killed in melee</KilledMelee.label>
+  <KilledMelee.label>در غوغا کشته شد</KilledMelee.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] in close combat</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] in melee with a [WEAPON_label]</li>
@@ -580,7 +580,7 @@
   </KilledMelee.rulePack.rulesStrings>
   
   <!-- EN: killed with mortar -->
-  <KilledMortar.label>killed with mortar</KilledMortar.label>
+  <KilledMortar.label>با خمپاره کشته شد</KilledMortar.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] with a mortar</li>
     <li>tale_noun->[VICTIM_nameDef] being killed by [KILLER_nameDef]'s artillery</li>
@@ -627,7 +627,7 @@
   </KilledMortar.rulePack.rulesStrings>
   
   <!-- EN: toxicity revealed -->
-  <ToxicityRevealed.label>toxicity revealed</ToxicityRevealed.label>
+  <ToxicityRevealed.label>سمیت آشکار شد</ToxicityRevealed.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s body becoming toxic</li>
     <li>tale_noun->[PAWN_nameDef] being poisoned by toxins</li>
@@ -674,7 +674,7 @@
   </ToxicityRevealed.rulePack.rulesStrings>
   
   <!-- EN: wounded -->
-  <Wounded.label>wounded</Wounded.label>
+  <Wounded.label>مجروح</Wounded.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
     <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] with a [WEAPON_label]</li>

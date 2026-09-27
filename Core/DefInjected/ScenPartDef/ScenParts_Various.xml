@@ -2,89 +2,89 @@
 <LanguageData>
   
   <!-- EN: create incident -->
-  <CreateIncident.label>create incident</CreateIncident.label>
+  <CreateIncident.label>ایجاد حادثه</CreateIncident.label>
   
   <!-- EN: create quest -->
-  <CreateQuest.label>create quest</CreateQuest.label>
+  <CreateQuest.label>ایجاد تلاش</CreateQuest.label>
   
   <!-- EN: disable incident -->
-  <DisableIncident.label>disable incident</DisableIncident.label>
+  <DisableIncident.label>غیر فعال کردن حادثه</DisableIncident.label>
   
   <!-- EN: disable quest -->
-  <DisableQuest.label>disable quest</DisableQuest.label>
+  <DisableQuest.label>جستجو را غیرفعال کنید</DisableQuest.label>
   
   <!-- EN: forced health condition -->
-  <ForcedHediff.label>forced health condition</ForcedHediff.label>
+  <ForcedHediff.label>وضعیت سلامت اجباری</ForcedHediff.label>
   
   <!-- EN: forced trait -->
-  <ForcedTrait.label>forced trait</ForcedTrait.label>
+  <ForcedTrait.label>صفت اجباری</ForcedTrait.label>
   
   <!-- EN: planetkiller weapon incoming -->
-  <GameCondition_Planetkiller.label>planetkiller weapon incoming</GameCondition_Planetkiller.label>
+  <GameCondition_Planetkiller.label>ورود سلاح سیاره کش</GameCondition_Planetkiller.label>
   
   <!-- EN: game start dialog -->
-  <GameStartDialog.label>game start dialog</GameStartDialog.label>
+  <GameStartDialog.label>گفتگوی شروع بازی</GameStartDialog.label>
   
   <!-- EN: naked -->
-  <Naked.label>naked</Naked.label>
+  <Naked.label>برهنه</Naked.label>
   
   <!-- EN: no possessions -->
-  <NoPossessions.label>no possessions</NoPossessions.label>
+  <NoPossessions.label>هیچ دارایی</NoPossessions.label>
   
   <!-- EN: characters explode on death -->
-  <OnPawnDeathExplode.label>characters explode on death</OnPawnDeathExplode.label>
+  <OnPawnDeathExplode.label>شخصیت‌ها در هنگام مرگ منفجر می شوند</OnPawnDeathExplode.label>
   
   <!-- EN: allowed age range -->
-  <PawnFilter_Age.label>allowed age range</PawnFilter_Age.label>
+  <PawnFilter_Age.label>محدوده سنی مجاز</PawnFilter_Age.label>
   
   <!-- EN: permanent game condition -->
-  <PermanentGameCondition.label>permanent game condition</PermanentGameCondition.label>
+  <PermanentGameCondition.label>شرایط بازی دائمی</PermanentGameCondition.label>
   
   <!-- EN: planet layer type -->
-  <PlanetLayer.label>planet layer type</PlanetLayer.label>
+  <PlanetLayer.label>نوع لایه سیاره</PlanetLayer.label>
   
   <!-- EN: disallow building -->
-  <Rule_DisallowBuilding.label>disallow building</Rule_DisallowBuilding.label>
+  <Rule_DisallowBuilding.label>اجازه ساختن</Rule_DisallowBuilding.label>
   
   <!-- EN: cannot hunt -->
-  <Rule_DisallowDesignator_Hunt.label>cannot hunt</Rule_DisallowDesignator_Hunt.label>
+  <Rule_DisallowDesignator_Hunt.label>نمی تواند شکار کند</Rule_DisallowDesignator_Hunt.label>
   <!-- EN: Cannot hunt. -->
-  <Rule_DisallowDesignator_Hunt.description>Cannot hunt.</Rule_DisallowDesignator_Hunt.description>
+  <Rule_DisallowDesignator_Hunt.description>نمی تواند شکار کند.</Rule_DisallowDesignator_Hunt.description>
   
   <!-- EN: cannot mine -->
-  <Rule_DisallowDesignator_Mine.label>cannot mine</Rule_DisallowDesignator_Mine.label>
+  <Rule_DisallowDesignator_Mine.label>نمی تواند مال من باشد</Rule_DisallowDesignator_Mine.label>
   <!-- EN: Cannot mine. -->
-  <Rule_DisallowDesignator_Mine.description>Cannot mine.</Rule_DisallowDesignator_Mine.description>
+  <Rule_DisallowDesignator_Mine.description>مال من نیست</Rule_DisallowDesignator_Mine.description>
   
   <!-- EN: cannot tame -->
-  <Rule_DisallowDesignator_Tame.label>cannot tame</Rule_DisallowDesignator_Tame.label>
+  <Rule_DisallowDesignator_Tame.label>نمی تواند رام کند</Rule_DisallowDesignator_Tame.label>
   <!-- EN: Cannot tame animals. -->
-  <Rule_DisallowDesignator_Tame.description>Cannot tame animals.</Rule_DisallowDesignator_Tame.description>
+  <Rule_DisallowDesignator_Tame.description>نمی تواند حیوانات را اهلی کند.</Rule_DisallowDesignator_Tame.description>
   
   <!-- EN: cannot sow -->
-  <Rule_DisallowDesignator_ZoneAdd_Growing.label>cannot sow</Rule_DisallowDesignator_ZoneAdd_Growing.label>
+  <Rule_DisallowDesignator_ZoneAdd_Growing.label>نمی تواند بکارد</Rule_DisallowDesignator_ZoneAdd_Growing.label>
   <!-- EN: Cannot sow plants on the ground. -->
-  <Rule_DisallowDesignator_ZoneAdd_Growing.description>Cannot sow plants on the ground.</Rule_DisallowDesignator_ZoneAdd_Growing.description>
+  <Rule_DisallowDesignator_ZoneAdd_Growing.description>نمی توان گیاهان را روی زمین کاشت.</Rule_DisallowDesignator_ZoneAdd_Growing.description>
   
   <!-- EN: scattered randomly -->
-  <ScatterThingsAnywhere.label>scattered randomly</ScatterThingsAnywhere.label>
+  <ScatterThingsAnywhere.label>به طور تصادفی پراکنده شده است</ScatterThingsAnywhere.label>
   
   <!-- EN: start near -->
-  <ScatterThingsNearPlayerStart.label>start near</ScatterThingsNearPlayerStart.label>
+  <ScatterThingsNearPlayerStart.label>از نزدیک شروع کنید</ScatterThingsNearPlayerStart.label>
   
   <!-- EN: set need level -->
-  <SetNeedLevel.label>set need level</SetNeedLevel.label>
+  <SetNeedLevel.label>سطح نیاز را تنظیم کنید</SetNeedLevel.label>
   
   <!-- EN: start with animal(s) -->
-  <StartingAnimal.label>start with animal(s)</StartingAnimal.label>
+  <StartingAnimal.label>با حیوانات شروع کنید</StartingAnimal.label>
   
   <!-- EN: start with research -->
-  <StartingResearch.label>start with research</StartingResearch.label>
+  <StartingResearch.label>با تحقیق شروع کنید</StartingResearch.label>
   
   <!-- EN: start with -->
-  <StartingThing_Defined.label>start with</StartingThing_Defined.label>
+  <StartingThing_Defined.label>شروع با</StartingThing_Defined.label>
   
   <!-- EN: stat multiplier -->
-  <StatFactor.label>stat multiplier</StatFactor.label>
+  <StatFactor.label>ضرب کننده آمار</StatFactor.label>
   
 </LanguageData>

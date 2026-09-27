@@ -2,180 +2,180 @@
 <LanguageData>
   
   <!-- EN: accept -->
-  <Accept.label>accept</Accept.label>
+  <Accept.label>قبول کنید</Accept.label>
   
   <!-- EN: cancel -->
-  <Cancel.label>cancel</Cancel.label>
+  <Cancel.label>لغو</Cancel.label>
   
   <!-- EN: draft -->
-  <Command_ColonistDraft.label>draft</Command_ColonistDraft.label>
+  <Command_ColonistDraft.label>پیش نویس</Command_ColonistDraft.label>
   
   <!-- EN: toggle forbidden -->
-  <Command_ItemForbid.label>toggle forbidden</Command_ItemForbid.label>
+  <Command_ItemForbid.label>ضامن ممنوع</Command_ItemForbid.label>
   
   <!-- EN: toggle power -->
-  <Command_TogglePower.label>toggle power</Command_TogglePower.label>
+  <Command_TogglePower.label>تغییر قدرت</Command_TogglePower.label>
   
   <!-- EN: cancel -->
-  <Designator_Cancel.label>cancel</Designator_Cancel.label>
+  <Designator_Cancel.label>لغو</Designator_Cancel.label>
   
   <!-- EN: deconstruct -->
-  <Designator_Deconstruct.label>deconstruct</Designator_Deconstruct.label>
+  <Designator_Deconstruct.label>ساختار شکنی</Designator_Deconstruct.label>
   
   <!-- EN: next draw style -->
-  <Designator_NextDrawStyle.label>next draw style</Designator_NextDrawStyle.label>
+  <Designator_NextDrawStyle.label>سبک قرعه کشی بعدی</Designator_NextDrawStyle.label>
   
   <!-- EN: previous draw style -->
-  <Designator_PreviousDrawStyle.label>previous draw style</Designator_PreviousDrawStyle.label>
+  <Designator_PreviousDrawStyle.label>سبک قرعه کشی قبلی</Designator_PreviousDrawStyle.label>
   
   <!-- EN: rotate left -->
-  <Designator_RotateLeft.label>rotate left</Designator_RotateLeft.label>
+  <Designator_RotateLeft.label>چرخش سمت چپ</Designator_RotateLeft.label>
   
   <!-- EN: rotate right -->
-  <Designator_RotateRight.label>rotate right</Designator_RotateRight.label>
+  <Designator_RotateRight.label>به راست بچرخانید</Designator_RotateRight.label>
   
   <!-- EN: force square dimensions -->
-  <Designator_ShapeSnap.label>force square dimensions</Designator_ShapeSnap.label>
+  <Designator_ShapeSnap.label>ابعاد مربع نیرو</Designator_ShapeSnap.label>
   
   <!-- EN: change selected debug action -->
-  <Dev_ChangeSelectedDebugAction.label>change selected debug action</Dev_ChangeSelectedDebugAction.label>
+  <Dev_ChangeSelectedDebugAction.label>عمل اشکال زدایی انتخابی را تغییر دهید</Dev_ChangeSelectedDebugAction.label>
   
   <!-- EN: tick once -->
-  <Dev_TickOnce.label>tick once</Dev_TickOnce.label>
+  <Dev_TickOnce.label>یک بار تیک بزنید</Dev_TickOnce.label>
   
   <!-- EN: toggle debug actions menu -->
-  <Dev_ToggleDebugActionsMenu.label>toggle debug actions menu</Dev_ToggleDebugActionsMenu.label>
+  <Dev_ToggleDebugActionsMenu.label>منوی اقدامات اشکال زدایی را تغییر دهید</Dev_ToggleDebugActionsMenu.label>
   
   <!-- EN: toggle debug inspector -->
-  <Dev_ToggleDebugInspector.label>toggle debug inspector</Dev_ToggleDebugInspector.label>
+  <Dev_ToggleDebugInspector.label>بازرس اشکال زدایی را تغییر دهید</Dev_ToggleDebugInspector.label>
   
   <!-- EN: toggle debug log -->
-  <Dev_ToggleDebugLog.label>toggle debug log</Dev_ToggleDebugLog.label>
+  <Dev_ToggleDebugLog.label>تغییر گزارش اشکال زدایی</Dev_ToggleDebugLog.label>
   
   <!-- EN: toggle debug log menu -->
-  <Dev_ToggleDebugLogMenu.label>toggle debug log menu</Dev_ToggleDebugLogMenu.label>
+  <Dev_ToggleDebugLogMenu.label>منوی گزارش اشکال زدایی را تغییر دهید</Dev_ToggleDebugLogMenu.label>
   
   <!-- EN: toggle debug settings menu -->
-  <Dev_ToggleDebugSettingsMenu.label>toggle debug settings menu</Dev_ToggleDebugSettingsMenu.label>
+  <Dev_ToggleDebugSettingsMenu.label>منوی تنظیمات اشکال زدایی را تغییر دهید</Dev_ToggleDebugSettingsMenu.label>
   
   <!-- EN: toggle dev palette -->
-  <Dev_ToggleDevPalette.label>toggle dev palette</Dev_ToggleDevPalette.label>
+  <Dev_ToggleDevPalette.label>پالت توسعه دهنده را تغییر دهید</Dev_ToggleDevPalette.label>
   
   <!-- EN: toggle god mode -->
-  <Dev_ToggleGodMode.label>toggle god mode</Dev_ToggleGodMode.label>
+  <Dev_ToggleGodMode.label>حالت خدا را تغییر دهید</Dev_ToggleGodMode.label>
   
   <!-- EN: dolly down -->
-  <MapDolly_Down.label>dolly down</MapDolly_Down.label>
+  <MapDolly_Down.label>دالی پایین</MapDolly_Down.label>
   
   <!-- EN: dolly left -->
-  <MapDolly_Left.label>dolly left</MapDolly_Left.label>
+  <MapDolly_Left.label>دالی رفت</MapDolly_Left.label>
   
   <!-- EN: dolly right -->
-  <MapDolly_Right.label>dolly right</MapDolly_Right.label>
+  <MapDolly_Right.label>دالی درسته</MapDolly_Right.label>
   
   <!-- EN: dolly up -->
-  <MapDolly_Up.label>dolly up</MapDolly_Up.label>
+  <MapDolly_Up.label>عروسکی بالا</MapDolly_Up.label>
   
   <!-- EN: zoom in -->
-  <MapZoom_In.label>zoom in</MapZoom_In.label>
+  <MapZoom_In.label>بزرگنمایی کنید</MapZoom_In.label>
   
   <!-- EN: zoom out -->
-  <MapZoom_Out.label>zoom out</MapZoom_Out.label>
+  <MapZoom_Out.label>بزرگنمایی</MapZoom_Out.label>
   
   <!-- EN: Misc 1 -->
-  <Misc1.label>Misc 1</Misc1.label>
+  <Misc1.label>متفرقه 1</Misc1.label>
   
   <!-- EN: Misc 10 -->
-  <Misc10.label>Misc 10</Misc10.label>
+  <Misc10.label>متفرقه 10</Misc10.label>
   
   <!-- EN: Misc 11 -->
-  <Misc11.label>Misc 11</Misc11.label>
+  <Misc11.label>متفرقه 11</Misc11.label>
   
   <!-- EN: Misc 12 -->
-  <Misc12.label>Misc 12</Misc12.label>
+  <Misc12.label>متفرقه 12</Misc12.label>
   
   <!-- EN: Misc 2 -->
-  <Misc2.label>Misc 2</Misc2.label>
+  <Misc2.label>متفرقه 2</Misc2.label>
   
   <!-- EN: Misc 3 -->
-  <Misc3.label>Misc 3</Misc3.label>
+  <Misc3.label>متفرقه 3</Misc3.label>
   
   <!-- EN: Misc 4 -->
-  <Misc4.label>Misc 4</Misc4.label>
+  <Misc4.label>متفرقه 4</Misc4.label>
   
   <!-- EN: Misc 5 -->
-  <Misc5.label>Misc 5</Misc5.label>
+  <Misc5.label>متفرقه 5</Misc5.label>
   
   <!-- EN: Misc 6 -->
-  <Misc6.label>Misc 6</Misc6.label>
+  <Misc6.label>متفرقه 6</Misc6.label>
   
   <!-- EN: Misc 7 -->
-  <Misc7.label>Misc 7</Misc7.label>
+  <Misc7.label>متفرقه 7</Misc7.label>
   
   <!-- EN: Misc 8 -->
-  <Misc8.label>Misc 8</Misc8.label>
+  <Misc8.label>متفرقه 8</Misc8.label>
   
   <!-- EN: Misc 9 -->
-  <Misc9.label>Misc 9</Misc9.label>
+  <Misc9.label>متفرقه 9</Misc9.label>
   
   <!-- EN: increment 100x -->
-  <ModifierIncrement_100x.label>increment 100x</ModifierIncrement_100x.label>
+  <ModifierIncrement_100x.label>افزایش 100 برابری</ModifierIncrement_100x.label>
   
   <!-- EN: increment 10x -->
-  <ModifierIncrement_10x.label>increment 10x</ModifierIncrement_10x.label>
+  <ModifierIncrement_10x.label>افزایش 10 برابر</ModifierIncrement_10x.label>
   
   <!-- EN: next colonist -->
-  <NextColonist.label>next colonist</NextColonist.label>
+  <NextColonist.label>استعمارگر بعدی</NextColonist.label>
   
   <!-- EN: open search window -->
-  <OpenMapSearch.label>open search window</OpenMapSearch.label>
+  <OpenMapSearch.label>باز کردن پنجره جستجو</OpenMapSearch.label>
   
   <!-- EN: previous colonist -->
-  <PreviousColonist.label>previous colonist</PreviousColonist.label>
+  <PreviousColonist.label>استعمارگر قبلی</PreviousColonist.label>
   
   <!-- EN: queue order -->
-  <QueueOrder.label>queue order</QueueOrder.label>
+  <QueueOrder.label>ترتیب صف</QueueOrder.label>
   
   <!-- EN: select next in cell -->
-  <SelectNextInCell.label>select next in cell</SelectNextInCell.label>
+  <SelectNextInCell.label>بعدی را در سلول انتخاب کنید</SelectNextInCell.label>
   
   <!-- EN: show cell inspector -->
-  <ShowCellInspector.label>show cell inspector</ShowCellInspector.label>
+  <ShowCellInspector.label>نمایش بازرس سلول</ShowCellInspector.label>
   
   <!-- EN: show eyedropper -->
-  <ShowEyedropper.label>show eyedropper</ShowEyedropper.label>
+  <ShowEyedropper.label>قطره چکان را نشان دهد</ShowEyedropper.label>
   
   <!-- EN: take screenshot -->
-  <TakeScreenshot.label>take screenshot</TakeScreenshot.label>
+  <TakeScreenshot.label>اسکرین شات بگیرید</TakeScreenshot.label>
   
   <!-- EN: game speed: Fast -->
-  <TimeSpeed_Fast.label>game speed: Fast</TimeSpeed_Fast.label>
+  <TimeSpeed_Fast.label>سرعت بازی: سریع</TimeSpeed_Fast.label>
   
   <!-- EN: game speed: Faster -->
-  <TimeSpeed_Faster.label>game speed: Faster</TimeSpeed_Faster.label>
+  <TimeSpeed_Faster.label>سرعت بازی: سریعتر</TimeSpeed_Faster.label>
   
   <!-- EN: game speed: Normal -->
-  <TimeSpeed_Normal.label>game speed: Normal</TimeSpeed_Normal.label>
+  <TimeSpeed_Normal.label>سرعت بازی: نرمال</TimeSpeed_Normal.label>
   
   <!-- EN: game speed: Slower -->
-  <TimeSpeed_Slower.label>game speed: Slower</TimeSpeed_Slower.label>
+  <TimeSpeed_Slower.label>سرعت بازی: کندتر</TimeSpeed_Slower.label>
   
   <!-- EN: game speed: Super fast -->
-  <TimeSpeed_Superfast.label>game speed: Super fast</TimeSpeed_Superfast.label>
+  <TimeSpeed_Superfast.label>سرعت بازی: فوق العاده سریع</TimeSpeed_Superfast.label>
   
   <!-- EN: game speed: Ultra fast (debug) -->
-  <TimeSpeed_Ultrafast.label>game speed: Ultra fast (debug)</TimeSpeed_Ultrafast.label>
+  <TimeSpeed_Ultrafast.label>سرعت بازی: فوق العاده سریع (اشکال زدایی)</TimeSpeed_Ultrafast.label>
   
   <!-- EN: toggle beauty display -->
-  <ToggleBeautyDisplay.label>toggle beauty display</ToggleBeautyDisplay.label>
+  <ToggleBeautyDisplay.label>نمایش زیبایی را تغییر دهید</ToggleBeautyDisplay.label>
   
   <!-- EN: pause/resume game -->
-  <TogglePause.label>pause/resume game</TogglePause.label>
+  <TogglePause.label>مکث/ازسرگیری بازی</TogglePause.label>
   
   <!-- EN: toggle room stats display -->
-  <ToggleRoomStatsDisplay.label>toggle room stats display</ToggleRoomStatsDisplay.label>
+  <ToggleRoomStatsDisplay.label>نمایش آمار اتاق را تغییر دهید</ToggleRoomStatsDisplay.label>
   
   <!-- EN: toggle screenshot mode -->
-  <ToggleScreenshotMode.label>toggle screenshot mode</ToggleScreenshotMode.label>
+  <ToggleScreenshotMode.label>تغییر حالت اسکرین شات</ToggleScreenshotMode.label>
   
 </LanguageData>

@@ -2,196 +2,196 @@
 <LanguageData>
   
   <!-- EN: tantrum -->
-  <BedroomTantrum.label>tantrum</BedroomTantrum.label>
+  <BedroomTantrum.label>عصبانیت</BedroomTantrum.label>
   <!-- EN: Mental state: Tantrum -->
-  <BedroomTantrum.baseInspectLine>Mental state: Tantrum</BedroomTantrum.baseInspectLine>
+  <BedroomTantrum.baseInspectLine>حالت روانی: کج خلقی</BedroomTantrum.baseInspectLine>
   <!-- EN: {0} is having a tantrum.\n\n[PAWN_pronoun] is going to smash things in [PAWN_possessive] room. -->
-  <BedroomTantrum.beginLetter>{0} is having a tantrum.\n\n[PAWN_pronoun] is going to smash things in [PAWN_possessive] room.</BedroomTantrum.beginLetter>
+  <BedroomTantrum.beginLetter>{0} در حال عصبانیت است.\n\n[PAWN_pronoun] قرار است چیزهایی را در اتاق [PAWN_possessive] خراب کند.</BedroomTantrum.beginLetter>
   <!-- EN: {0} is no longer having a tantrum. -->
-  <BedroomTantrum.recoveryMessage>{0} is no longer having a tantrum.</BedroomTantrum.recoveryMessage>
+  <BedroomTantrum.recoveryMessage>{0} دیگر عصبانی نیست.</BedroomTantrum.recoveryMessage>
   
   <!-- EN: berserk -->
-  <Berserk.label>berserk</Berserk.label>
+  <Berserk.label>دیوانه</Berserk.label>
   <!-- EN: Mental state: Berserk -->
-  <Berserk.baseInspectLine>Mental state: Berserk</Berserk.baseInspectLine>
+  <Berserk.baseInspectLine>حالت روانی: دیوانه</Berserk.baseInspectLine>
   <!-- EN: {0} has gone berserk.\n\n[PAWN_pronoun] will attack anyone [PAWN_pronoun] sees. -->
-  <Berserk.beginLetter>{0} has gone berserk.\n\n[PAWN_pronoun] will attack anyone [PAWN_pronoun] sees.</Berserk.beginLetter>
+  <Berserk.beginLetter>{0} دیوانه شده است.\n\n[PAWN_pronoun] به هر کسی که [PAWN_pronoun] ببیند حمله خواهد کرد.</Berserk.beginLetter>
   <!-- EN: {0}'s berserk rage has come to an end. -->
-  <Berserk.recoveryMessage>{0}'s berserk rage has come to an end.</Berserk.recoveryMessage>
+  <Berserk.recoveryMessage>خشم دیوانه {0} به پایان رسیده است.</Berserk.recoveryMessage>
   
   <!-- EN: berserk -->
-  <BerserkPermanent.label>berserk</BerserkPermanent.label>
+  <BerserkPermanent.label>دیوانه</BerserkPermanent.label>
   <!-- EN: Mental state: Berserk -->
-  <BerserkPermanent.baseInspectLine>Mental state: Berserk</BerserkPermanent.baseInspectLine>
+  <BerserkPermanent.baseInspectLine>حالت روانی: دیوانه</BerserkPermanent.baseInspectLine>
   <!-- EN: {0} has gone berserk.\n\n[PAWN_pronoun] will attack anyone [PAWN_pronoun] sees. -->
-  <BerserkPermanent.beginLetter>{0} has gone berserk.\n\n[PAWN_pronoun] will attack anyone [PAWN_pronoun] sees.</BerserkPermanent.beginLetter>
+  <BerserkPermanent.beginLetter>{0} دیوانه شده است.\n\n[PAWN_pronoun] به هر کسی که [PAWN_pronoun] ببیند حمله خواهد کرد.</BerserkPermanent.beginLetter>
   <!-- EN: {0}'s berserk rage has come to an end. -->
-  <BerserkPermanent.recoveryMessage>{0}'s berserk rage has come to an end.</BerserkPermanent.recoveryMessage>
+  <BerserkPermanent.recoveryMessage>خشم دیوانه {0} به پایان رسیده است.</BerserkPermanent.recoveryMessage>
   
   <!-- EN: binging on drug -->
-  <Binging_DrugExtreme.label>binging on drug</Binging_DrugExtreme.label>
+  <Binging_DrugExtreme.label>مصرف مواد مخدر</Binging_DrugExtreme.label>
   <!-- EN: Mental state: Binging on {0} -->
-  <Binging_DrugExtreme.baseInspectLine>Mental state: Binging on {0}</Binging_DrugExtreme.baseInspectLine>
+  <Binging_DrugExtreme.baseInspectLine>وضعیت ذهنی: استفاده از {0}</Binging_DrugExtreme.baseInspectLine>
   
   <!-- EN: binging on drug -->
-  <Binging_DrugMajor.label>binging on drug</Binging_DrugMajor.label>
+  <Binging_DrugMajor.label>مصرف مواد مخدر</Binging_DrugMajor.label>
   <!-- EN: Mental state: Binging on {0} -->
-  <Binging_DrugMajor.baseInspectLine>Mental state: Binging on {0}</Binging_DrugMajor.baseInspectLine>
+  <Binging_DrugMajor.baseInspectLine>وضعیت ذهنی: استفاده از {0}</Binging_DrugMajor.baseInspectLine>
   
   <!-- EN: binging on food -->
-  <Binging_Food.label>binging on food</Binging_Food.label>
+  <Binging_Food.label>پرخوری در غذا</Binging_Food.label>
   <!-- EN: Mental state: Pigging out -->
-  <Binging_Food.baseInspectLine>Mental state: Pigging out</Binging_Food.baseInspectLine>
+  <Binging_Food.baseInspectLine>حالت روانی: بیرون رفتن</Binging_Food.baseInspectLine>
   <!-- EN: {0} is pigging out on food. -->
-  <Binging_Food.beginLetter>{0} is pigging out on food.</Binging_Food.beginLetter>
+  <Binging_Food.beginLetter>{0} به دنبال غذا است.</Binging_Food.beginLetter>
   <!-- EN: food binge -->
-  <Binging_Food.beginLetterLabel>food binge</Binging_Food.beginLetterLabel>
+  <Binging_Food.beginLetterLabel>پرخوری غذا</Binging_Food.beginLetterLabel>
   <!-- EN: {0} is no longer pigging out on food. -->
-  <Binging_Food.recoveryMessage>{0} is no longer pigging out on food.</Binging_Food.recoveryMessage>
+  <Binging_Food.recoveryMessage>{0} دیگر به دنبال غذا نیست.</Binging_Food.recoveryMessage>
   
   <!-- EN: corpse obsession -->
-  <CorpseObsession.label>corpse obsession</CorpseObsession.label>
+  <CorpseObsession.label>وسواس جسد</CorpseObsession.label>
   <!-- EN: Mental state: Corpse obsession -->
-  <CorpseObsession.baseInspectLine>Mental state: Corpse obsession</CorpseObsession.baseInspectLine>
+  <CorpseObsession.baseInspectLine>حالت روانی: وسواس جسد</CorpseObsession.baseInspectLine>
   <!-- EN: {0} has broken inside and become obsessed with corpses.\n\n[PAWN_pronoun] is going to find a corpse and present it for all to see. -->
-  <CorpseObsession.beginLetter>{0} has broken inside and become obsessed with corpses.\n\n[PAWN_pronoun] is going to find a corpse and present it for all to see.</CorpseObsession.beginLetter>
+  <CorpseObsession.beginLetter>{0} درونش شکسته و شیفته اجساد شده است.\n\n[PAWN_pronoun] می‌خواهد جسدی را پیدا کند و آن را برای دیدن همه ارائه کند.</CorpseObsession.beginLetter>
   <!-- EN: {0} is no longer having a corpse obsession. -->
-  <CorpseObsession.recoveryMessage>{0} is no longer having a corpse obsession.</CorpseObsession.recoveryMessage>
+  <CorpseObsession.recoveryMessage>{0} دیگر وسواس جسد ندارد.</CorpseObsession.recoveryMessage>
   
   <!-- EN: fire starting spree -->
-  <FireStartingSpree.label>fire starting spree</FireStartingSpree.label>
+  <FireStartingSpree.label>شروع آتش سوزی</FireStartingSpree.label>
   <!-- EN: Mental state: Fire starting spree -->
-  <FireStartingSpree.baseInspectLine>Mental state: Fire starting spree</FireStartingSpree.baseInspectLine>
+  <FireStartingSpree.baseInspectLine>حالت روانی: ولگردی و ولگردی شروع آتش</FireStartingSpree.baseInspectLine>
   <!-- EN: {0} is on a fire starting spree.\n\n[PAWN_pronoun] will wander around for a while, randomly starting fires. -->
-  <FireStartingSpree.beginLetter>{0} is on a fire starting spree.\n\n[PAWN_pronoun] will wander around for a while, randomly starting fires.</FireStartingSpree.beginLetter>
+  <FireStartingSpree.beginLetter>{0} در حال شروع آتش‌سوزی است.\n\n[PAWN_pronoun] برای مدتی سرگردان می‌شود و به‌طور تصادفی آتش‌سوزی می‌کند.</FireStartingSpree.beginLetter>
   <!-- EN: {0} is no longer on a fire starting spree. -->
-  <FireStartingSpree.recoveryMessage>{0} is no longer on a fire starting spree.</FireStartingSpree.recoveryMessage>
+  <FireStartingSpree.recoveryMessage>{0} دیگر در آتش شروع به ولگردی و قانونی شکنی نیست.</FireStartingSpree.recoveryMessage>
   
   <!-- EN: giving up and leaving -->
-  <GiveUpExit.label>giving up and leaving</GiveUpExit.label>
+  <GiveUpExit.label>تسلیم شدن و رفتن</GiveUpExit.label>
   <!-- EN: Mental state: Given up and leaving -->
-  <GiveUpExit.baseInspectLine>Mental state: Given up and leaving</GiveUpExit.baseInspectLine>
+  <GiveUpExit.baseInspectLine>حالت روانی: تسلیم شدن و رفتن</GiveUpExit.baseInspectLine>
   <!-- EN: {0} has given up on this community.\n\n[PAWN_pronoun] has decided to leave and pursue a better life elsewhere. You can try to arrest [PAWN_objective] as [PAWN_pronoun] leaves. Otherwise, you may still see [PAWN_objective] again some day. -->
-  <GiveUpExit.beginLetter>{0} has given up on this community.\n\n[PAWN_pronoun] has decided to leave and pursue a better life elsewhere. You can try to arrest [PAWN_objective] as [PAWN_pronoun] leaves. Otherwise, you may still see [PAWN_objective] again some day.</GiveUpExit.beginLetter>
+  <GiveUpExit.beginLetter>{0} از این جامعه دست کشیده است.\n\n[PAWN_pronoun] تصمیم گرفته است که آن را ترک کند و زندگی بهتری را در جای دیگری دنبال کند. می توانید سعی کنید [PAWN_objective] را با خروج [PAWN_pronoun] دستگیر کنید. در غیر این صورت، ممکن است روزی دوباره [PAWN_objective] را ببینید.</GiveUpExit.beginLetter>
   <!-- EN: gave up -->
-  <GiveUpExit.beginLetterLabel>gave up</GiveUpExit.beginLetterLabel>
+  <GiveUpExit.beginLetterLabel>تسلیم شد</GiveUpExit.beginLetterLabel>
   <!-- EN: {0} has had a change of heart and is coming back to the colony. -->
-  <GiveUpExit.recoveryMessage>{0} has had a change of heart and is coming back to the colony.</GiveUpExit.recoveryMessage>
+  <GiveUpExit.recoveryMessage>{0} تغییر کرده است و به مستعمره باز می گردد.</GiveUpExit.recoveryMessage>
   
   <!-- EN: insulting spree -->
-  <InsultingSpree.label>insulting spree</InsultingSpree.label>
+  <InsultingSpree.label>ولگردی توهین آمیز</InsultingSpree.label>
   <!-- EN: Mental state: Insulting spree -->
-  <InsultingSpree.baseInspectLine>Mental state: Insulting spree</InsultingSpree.baseInspectLine>
+  <InsultingSpree.baseInspectLine>حالت روحی: ولگردی توهین آمیز</InsultingSpree.baseInspectLine>
   <!-- EN: {0} is on an insulting spree.\n\n[PAWN_pronoun] will wander around, randomly insulting others. -->
-  <InsultingSpree.beginLetter>{0} is on an insulting spree.\n\n[PAWN_pronoun] will wander around, randomly insulting others.</InsultingSpree.beginLetter>
+  <InsultingSpree.beginLetter>{0} در حال ولگردی و ولگردی توهین آمیز است.\n\n[PAWN_pronoun] سرگردان می شود و به طور تصادفی به دیگران توهین می کند.</InsultingSpree.beginLetter>
   <!-- EN: {0} is no longer on an insulting spree. -->
-  <InsultingSpree.recoveryMessage>{0} is no longer on an insulting spree.</InsultingSpree.recoveryMessage>
+  <InsultingSpree.recoveryMessage>{0} دیگر در ولگردی و ولگردی توهین آمیز نیست.</InsultingSpree.recoveryMessage>
   
   <!-- EN: inducing prisoner to escape -->
-  <Jailbreaker.label>inducing prisoner to escape</Jailbreaker.label>
+  <Jailbreaker.label>ترغیب زندانی به فرار</Jailbreaker.label>
   <!-- EN: Mental state: Jailbreaker -->
-  <Jailbreaker.baseInspectLine>Mental state: Jailbreaker</Jailbreaker.baseInspectLine>
+  <Jailbreaker.baseInspectLine>حالت روانی: فرار از زندان</Jailbreaker.baseInspectLine>
   <!-- EN: {0} has had a mental breakdown and is going to induce prisoners to escape. -->
-  <Jailbreaker.beginLetter>{0} has had a mental breakdown and is going to induce prisoners to escape.</Jailbreaker.beginLetter>
+  <Jailbreaker.beginLetter>{0} دچار شکست روانی شده است و قصد دارد زندانیان را وادار به فرار کند.</Jailbreaker.beginLetter>
   <!-- EN: jailbreaker -->
-  <Jailbreaker.beginLetterLabel>jailbreaker</Jailbreaker.beginLetterLabel>
+  <Jailbreaker.beginLetterLabel>جیلبریک</Jailbreaker.beginLetterLabel>
   <!-- EN: {0} is no longer inducing prisoners to escape. -->
-  <Jailbreaker.recoveryMessage>{0} is no longer inducing prisoners to escape.</Jailbreaker.recoveryMessage>
+  <Jailbreaker.recoveryMessage>{0} دیگر زندانیان را وادار به فرار نمی کند.</Jailbreaker.recoveryMessage>
   
   <!-- EN: murderous rage -->
-  <MurderousRage.label>murderous rage</MurderousRage.label>
+  <MurderousRage.label>خشم قاتل</MurderousRage.label>
   <!-- EN: Mental state: Murderous rage -->
-  <MurderousRage.baseInspectLine>Mental state: Murderous rage</MurderousRage.baseInspectLine>
+  <MurderousRage.baseInspectLine>حالت روانی: خشم قاتل</MurderousRage.baseInspectLine>
   <!-- EN: {0} has flown into a murderous rage.\n\n[PAWN_pronoun] has decided to kill {1}. -->
-  <MurderousRage.beginLetter>{0} has flown into a murderous rage.\n\n[PAWN_pronoun] has decided to kill {1}.</MurderousRage.beginLetter>
+  <MurderousRage.beginLetter>{0} به خشم مرگباری رسیده است.\n\n[PAWN_pronoun] تصمیم گرفته است که {1} را بکشد.</MurderousRage.beginLetter>
   <!-- EN: {0} is no longer in a murderous rage. -->
-  <MurderousRage.recoveryMessage>{0} is no longer in a murderous rage.</MurderousRage.recoveryMessage>
+  <MurderousRage.recoveryMessage>{0} دیگر در یک خشم قاتل نیست.</MurderousRage.recoveryMessage>
   
   <!-- EN: sadistic rage -->
-  <SadisticRage.label>sadistic rage</SadisticRage.label>
+  <SadisticRage.label>خشم سادیستی</SadisticRage.label>
   <!-- EN: Mental state: Sadistic rage -->
-  <SadisticRage.baseInspectLine>Mental state: Sadistic rage</SadisticRage.baseInspectLine>
+  <SadisticRage.baseInspectLine>حالت روانی: خشم سادیستی</SadisticRage.baseInspectLine>
   <!-- EN: {0} has flown into a sadistic rage.\n\n[PAWN_pronoun] is going to vent [PAWN_possessive] anger on the prisoners. -->
-  <SadisticRage.beginLetter>{0} has flown into a sadistic rage.\n\n[PAWN_pronoun] is going to vent [PAWN_possessive] anger on the prisoners.</SadisticRage.beginLetter>
+  <SadisticRage.beginLetter>{0} به خشم سادیستی فرو رفته است.\n\n[PAWN_pronoun] خشم [PAWN_possessive] را بر سر زندانیان تخلیه می کند.</SadisticRage.beginLetter>
   <!-- EN: {0} is no longer in a sadistic rage. -->
-  <SadisticRage.recoveryMessage>{0} is no longer in a sadistic rage.</SadisticRage.recoveryMessage>
+  <SadisticRage.recoveryMessage>{0} دیگر در خشم سادیستی نیست.</SadisticRage.recoveryMessage>
   
   <!-- EN: slaughterer -->
-  <Slaughterer.label>slaughterer</Slaughterer.label>
+  <Slaughterer.label>سلاخ کننده</Slaughterer.label>
   <!-- EN: Mental state: Slaughterer -->
-  <Slaughterer.baseInspectLine>Mental state: Slaughterer</Slaughterer.baseInspectLine>
+  <Slaughterer.baseInspectLine>حالت روانی: ذبح کننده</Slaughterer.baseInspectLine>
   <!-- EN: {0} has had a mental breakdown and is going to vent [PAWN_possessive] anger on your animals. -->
-  <Slaughterer.beginLetter>{0} has had a mental breakdown and is going to vent [PAWN_possessive] anger on your animals.</Slaughterer.beginLetter>
+  <Slaughterer.beginLetter>{0} دچار یک فروپاشی روانی شده است و خشم [PAWN_possessive] را روی حیوانات شما تخلیه می کند.</Slaughterer.beginLetter>
   <!-- EN: {0} is no longer slaughtering random animals. -->
-  <Slaughterer.recoveryMessage>{0} is no longer slaughtering random animals.</Slaughterer.recoveryMessage>
+  <Slaughterer.recoveryMessage>{0} دیگر حیوانات تصادفی را سلاخی نمی کند.</Slaughterer.recoveryMessage>
   
   <!-- EN: tantrum -->
-  <Tantrum.label>tantrum</Tantrum.label>
+  <Tantrum.label>عصبانیت</Tantrum.label>
   <!-- EN: Mental state: Tantrum -->
-  <Tantrum.baseInspectLine>Mental state: Tantrum</Tantrum.baseInspectLine>
+  <Tantrum.baseInspectLine>حالت روانی: کج خلقی</Tantrum.baseInspectLine>
   <!-- EN: {0} is having a tantrum.\n\n[PAWN_pronoun] will smash up random furniture, items and structures. -->
-  <Tantrum.beginLetter>{0} is having a tantrum.\n\n[PAWN_pronoun] will smash up random furniture, items and structures.</Tantrum.beginLetter>
+  <Tantrum.beginLetter>{0} در حال عصبانیت است.\n\n[PAWN_pronoun] مبلمان، اقلام و سازه‌های تصادفی را خراب می‌کند.</Tantrum.beginLetter>
   <!-- EN: {0} is no longer having a tantrum. -->
-  <Tantrum.recoveryMessage>{0} is no longer having a tantrum.</Tantrum.recoveryMessage>
+  <Tantrum.recoveryMessage>{0} دیگر عصبانی نیست.</Tantrum.recoveryMessage>
   
   <!-- EN: insulting spree -->
-  <TargetedInsultingSpree.label>insulting spree</TargetedInsultingSpree.label>
+  <TargetedInsultingSpree.label>ولگردی توهین آمیز</TargetedInsultingSpree.label>
   <!-- EN: Mental state: Insulting spree against {0} -->
-  <TargetedInsultingSpree.baseInspectLine>Mental state: Insulting spree against {0}</TargetedInsultingSpree.baseInspectLine>
+  <TargetedInsultingSpree.baseInspectLine>حالت روانی: ولگردی توهین آمیز علیه {0}</TargetedInsultingSpree.baseInspectLine>
   <!-- EN: {0} has fixated [PAWN_possessive] rage on {1}.\n\n[PAWN_pronoun] will follow {1} around, hurling insults. -->
-  <TargetedInsultingSpree.beginLetter>{0} has fixated [PAWN_possessive] rage on {1}.\n\n[PAWN_pronoun] will follow {1} around, hurling insults.</TargetedInsultingSpree.beginLetter>
+  <TargetedInsultingSpree.beginLetter>{0} خشم [PAWN_possessive] را روی {1} ثابت کرده است.\n\n[PAWN_pronoun] {1} را دنبال می‌کند و توهین می‌کند.</TargetedInsultingSpree.beginLetter>
   
   <!-- EN: tantrum -->
-  <TargetedTantrum.label>tantrum</TargetedTantrum.label>
+  <TargetedTantrum.label>عصبانیت</TargetedTantrum.label>
   <!-- EN: Mental state: Tantrum -->
-  <TargetedTantrum.baseInspectLine>Mental state: Tantrum</TargetedTantrum.baseInspectLine>
+  <TargetedTantrum.baseInspectLine>حالت روانی: کج خلقی</TargetedTantrum.baseInspectLine>
   <!-- EN: {0} is having a tantrum.\n\n[PAWN_pronoun] is going to destroy {1}. -->
-  <TargetedTantrum.beginLetter>{0} is having a tantrum.\n\n[PAWN_pronoun] is going to destroy {1}.</TargetedTantrum.beginLetter>
+  <TargetedTantrum.beginLetter>{0} در حال عصبانیت است.\n\n[PAWN_pronoun] قرار است {1} را نابود کند.</TargetedTantrum.beginLetter>
   <!-- EN: {0} is no longer having a tantrum. -->
-  <TargetedTantrum.recoveryMessage>{0} is no longer having a tantrum.</TargetedTantrum.recoveryMessage>
+  <TargetedTantrum.recoveryMessage>{0} دیگر عصبانی نیست.</TargetedTantrum.recoveryMessage>
   
   <!-- EN: sitting alone -->
-  <Wander_OwnRoom.label>sitting alone</Wander_OwnRoom.label>
+  <Wander_OwnRoom.label>تنها نشستن</Wander_OwnRoom.label>
   <!-- EN: Mental state: Hiding in room -->
-  <Wander_OwnRoom.baseInspectLine>Mental state: Hiding in room</Wander_OwnRoom.baseInspectLine>
+  <Wander_OwnRoom.baseInspectLine>حالت روانی: پنهان شدن در اتاق</Wander_OwnRoom.baseInspectLine>
   <!-- EN: {0} is hiding in [PAWN_possessive] room. -->
-  <Wander_OwnRoom.beginLetter>{0} is hiding in [PAWN_possessive] room.</Wander_OwnRoom.beginLetter>
+  <Wander_OwnRoom.beginLetter>{0} در اتاق [PAWN_possessive] پنهان شده است.</Wander_OwnRoom.beginLetter>
   <!-- EN: hide in room -->
-  <Wander_OwnRoom.beginLetterLabel>hide in room</Wander_OwnRoom.beginLetterLabel>
+  <Wander_OwnRoom.beginLetterLabel>در اتاق پنهان شوید</Wander_OwnRoom.beginLetterLabel>
   <!-- EN: {0} is no longer hiding in [PAWN_possessive] room. -->
-  <Wander_OwnRoom.recoveryMessage>{0} is no longer hiding in [PAWN_possessive] room.</Wander_OwnRoom.recoveryMessage>
+  <Wander_OwnRoom.recoveryMessage>{0} دیگر در اتاق [PAWN_possessive] پنهان نمی شود.</Wander_OwnRoom.recoveryMessage>
   
   <!-- EN: wandering in psychosis -->
-  <Wander_Psychotic.label>wandering in psychosis</Wander_Psychotic.label>
+  <Wander_Psychotic.label>سرگردان در روان پریشی</Wander_Psychotic.label>
   <!-- EN: Mental state: Psychotic wandering -->
-  <Wander_Psychotic.baseInspectLine>Mental state: Psychotic wandering</Wander_Psychotic.baseInspectLine>
+  <Wander_Psychotic.baseInspectLine>حالت روانی: سرگردانی روانی</Wander_Psychotic.baseInspectLine>
   <!-- EN: {0} is wandering around in a psychotic state. -->
-  <Wander_Psychotic.beginLetter>{0} is wandering around in a psychotic state.</Wander_Psychotic.beginLetter>
+  <Wander_Psychotic.beginLetter>{0} در حالت روان پریشی سرگردان است.</Wander_Psychotic.beginLetter>
   <!-- EN: daze -->
-  <Wander_Psychotic.beginLetterLabel>daze</Wander_Psychotic.beginLetterLabel>
+  <Wander_Psychotic.beginLetterLabel>گیج کردن</Wander_Psychotic.beginLetterLabel>
   <!-- EN: {0} is no longer wandering in a psychotic state. -->
-  <Wander_Psychotic.recoveryMessage>{0} is no longer wandering in a psychotic state.</Wander_Psychotic.recoveryMessage>
+  <Wander_Psychotic.recoveryMessage>{0} دیگر در حالت روان پریشی سرگردان نیست.</Wander_Psychotic.recoveryMessage>
   
   <!-- EN: wandering in psychosis -->
-  <Wander_Psychotic_Short.label>wandering in psychosis</Wander_Psychotic_Short.label>
+  <Wander_Psychotic_Short.label>سرگردان در روان پریشی</Wander_Psychotic_Short.label>
   <!-- EN: Mental state: Psychotic wandering -->
-  <Wander_Psychotic_Short.baseInspectLine>Mental state: Psychotic wandering</Wander_Psychotic_Short.baseInspectLine>
+  <Wander_Psychotic_Short.baseInspectLine>حالت روانی: سرگردانی روانی</Wander_Psychotic_Short.baseInspectLine>
   <!-- EN: {0} is wandering around in a psychotic state. -->
-  <Wander_Psychotic_Short.beginLetter>{0} is wandering around in a psychotic state.</Wander_Psychotic_Short.beginLetter>
+  <Wander_Psychotic_Short.beginLetter>{0} در حالت روان پریشی سرگردان است.</Wander_Psychotic_Short.beginLetter>
   <!-- EN: daze -->
-  <Wander_Psychotic_Short.beginLetterLabel>daze</Wander_Psychotic_Short.beginLetterLabel>
+  <Wander_Psychotic_Short.beginLetterLabel>گیج کردن</Wander_Psychotic_Short.beginLetterLabel>
   <!-- EN: {0} is no longer wandering in a psychotic state. -->
-  <Wander_Psychotic_Short.recoveryMessage>{0} is no longer wandering in a psychotic state.</Wander_Psychotic_Short.recoveryMessage>
+  <Wander_Psychotic_Short.recoveryMessage>{0} دیگر در حالت روان پریشی سرگردان نیست.</Wander_Psychotic_Short.recoveryMessage>
   
   <!-- EN: sad wandering -->
-  <Wander_Sad.label>sad wandering</Wander_Sad.label>
+  <Wander_Sad.label>سرگردانی غم انگیز</Wander_Sad.label>
   <!-- EN: Mental state: Sad wandering -->
-  <Wander_Sad.baseInspectLine>Mental state: Sad wandering</Wander_Sad.baseInspectLine>
+  <Wander_Sad.baseInspectLine>حالت روانی: سرگردانی غم انگیز</Wander_Sad.baseInspectLine>
   <!-- EN: {0} has broken down and is wandering around in sadness. -->
-  <Wander_Sad.beginLetter>{0} has broken down and is wandering around in sadness.</Wander_Sad.beginLetter>
+  <Wander_Sad.beginLetter>{0} خراب شده و با اندوه در اطراف سرگردان است.</Wander_Sad.beginLetter>
   <!-- EN: sad wander -->
-  <Wander_Sad.beginLetterLabel>sad wander</Wander_Sad.beginLetterLabel>
+  <Wander_Sad.beginLetterLabel>سرگردانی غمگین</Wander_Sad.beginLetterLabel>
   <!-- EN: {0} is no longer wandering in sadness. -->
-  <Wander_Sad.recoveryMessage>{0} is no longer wandering in sadness.</Wander_Sad.recoveryMessage>
+  <Wander_Sad.recoveryMessage>{0} دیگر در غم و اندوه سرگردان نیست.</Wander_Sad.recoveryMessage>
   
 </LanguageData>

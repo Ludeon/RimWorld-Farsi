@@ -2,50 +2,50 @@
 <LanguageData>
   
   <!-- EN: Accuracy (long) -->
-  <AccuracyLong.label>Accuracy (long)</AccuracyLong.label>
+  <AccuracyLong.label>دقت (طولانی)</AccuracyLong.label>
   <!-- EN: The weapon's accuracy at a distance of 40 cells or more.\n\nAn actual shot's chance to hit will also be affected by other factors. -->
-  <AccuracyLong.description>The weapon's accuracy at a distance of 40 cells or more.\n\nAn actual shot's chance to hit will also be affected by other factors.</AccuracyLong.description>
+  <AccuracyLong.description>دقت سلاح در فاصله 40 سلول یا بیشتر.\n\nشانس واقعی شلیک نیز تحت تأثیر عوامل دیگری قرار خواهد گرفت.</AccuracyLong.description>
   
   <!-- EN: Accuracy (medium) -->
-  <AccuracyMedium.label>Accuracy (medium)</AccuracyMedium.label>
+  <AccuracyMedium.label>دقت (متوسط)</AccuracyMedium.label>
   <!-- EN: The weapon's accuracy at a distance of 25 cells.\n\nAn actual shot's chance to hit will also be affected by other factors. -->
-  <AccuracyMedium.description>The weapon's accuracy at a distance of 25 cells.\n\nAn actual shot's chance to hit will also be affected by other factors.</AccuracyMedium.description>
+  <AccuracyMedium.description>دقت سلاح در فاصله 25 سلولی.\n\nشانس واقعی شلیک نیز تحت تأثیر عوامل دیگری قرار خواهد گرفت.</AccuracyMedium.description>
   
   <!-- EN: Accuracy (short) -->
-  <AccuracyShort.label>Accuracy (short)</AccuracyShort.label>
+  <AccuracyShort.label>دقت (کوتاه)</AccuracyShort.label>
   <!-- EN: The weapon's accuracy at a distance of 12 cells.\n\nAn actual shot's chance to hit will also be affected by other factors. -->
-  <AccuracyShort.description>The weapon's accuracy at a distance of 12 cells.\n\nAn actual shot's chance to hit will also be affected by other factors.</AccuracyShort.description>
+  <AccuracyShort.description>دقت سلاح در فاصله 12 سلولی.\n\nشانس واقعی شلیک نیز تحت تأثیر عوامل دیگری قرار خواهد گرفت.</AccuracyShort.description>
   
   <!-- EN: Accuracy (close) -->
-  <AccuracyTouch.label>Accuracy (close)</AccuracyTouch.label>
+  <AccuracyTouch.label>دقت (نزدیک)</AccuracyTouch.label>
   <!-- EN: The weapon's accuracy at a distance of 3 cells or less.\n\nAn actual shot's chance to hit will also be affected by other factors. -->
-  <AccuracyTouch.description>The weapon's accuracy at a distance of 3 cells or less.\n\nAn actual shot's chance to hit will also be affected by other factors.</AccuracyTouch.description>
+  <AccuracyTouch.description>دقت سلاح در فاصله 3 سلول یا کمتر.\n\nشانس واقعی شلیک نیز تحت تأثیر عوامل دیگری قرار خواهد گرفت.</AccuracyTouch.description>
   
   <!-- EN: armor penetration multiplier -->
-  <RangedWeapon_ArmorPenetrationMultiplier.label>armor penetration multiplier</RangedWeapon_ArmorPenetrationMultiplier.label>
+  <RangedWeapon_ArmorPenetrationMultiplier.label>چند برابر کننده نفوذ زره</RangedWeapon_ArmorPenetrationMultiplier.label>
   <!-- EN: A multiplier applied to armor penetration. -->
-  <RangedWeapon_ArmorPenetrationMultiplier.description>A multiplier applied to armor penetration.</RangedWeapon_ArmorPenetrationMultiplier.description>
+  <RangedWeapon_ArmorPenetrationMultiplier.description>یک ضریب برای نفوذ زره اعمال می شود.</RangedWeapon_ArmorPenetrationMultiplier.description>
   
   <!-- EN: ranged cooldown -->
-  <RangedWeapon_Cooldown.label>ranged cooldown</RangedWeapon_Cooldown.label>
+  <RangedWeapon_Cooldown.label>خنک شدن در محدوده</RangedWeapon_Cooldown.label>
   <!-- EN: How long it takes to recover after firing this weapon. -->
-  <RangedWeapon_Cooldown.description>How long it takes to recover after firing this weapon.</RangedWeapon_Cooldown.description>
+  <RangedWeapon_Cooldown.description>پس از شلیک این سلاح چقدر طول می کشد تا بهبود یابد.</RangedWeapon_Cooldown.description>
   <!-- EN: {0} s -->
   <RangedWeapon_Cooldown.formatString>{0} s</RangedWeapon_Cooldown.formatString>
   
   <!-- EN: damage multiplier -->
-  <RangedWeapon_DamageMultiplier.label>damage multiplier</RangedWeapon_DamageMultiplier.label>
+  <RangedWeapon_DamageMultiplier.label>ضرب کننده آسیب</RangedWeapon_DamageMultiplier.label>
   <!-- EN: A multiplier applied to this weapon's damage. -->
-  <RangedWeapon_DamageMultiplier.description>A multiplier applied to this weapon's damage.</RangedWeapon_DamageMultiplier.description>
+  <RangedWeapon_DamageMultiplier.description>یک ضریب برای آسیب این سلاح اعمال می شود.</RangedWeapon_DamageMultiplier.description>
   
   <!-- EN: range multiplier -->
-  <RangedWeapon_RangeMultiplier.label>range multiplier</RangedWeapon_RangeMultiplier.label>
+  <RangedWeapon_RangeMultiplier.label>ضرب کننده برد</RangedWeapon_RangeMultiplier.label>
   <!-- EN: A multiplier applied to this weapon's range. -->
-  <RangedWeapon_RangeMultiplier.description>A multiplier applied to this weapon's range.</RangedWeapon_RangeMultiplier.description>
+  <RangedWeapon_RangeMultiplier.description>یک ضریب برای برد این سلاح اعمال می شود.</RangedWeapon_RangeMultiplier.description>
   
   <!-- EN: aiming time multiplier -->
-  <RangedWeapon_WarmupMultiplier.label>aiming time multiplier</RangedWeapon_WarmupMultiplier.label>
+  <RangedWeapon_WarmupMultiplier.label>ضریب زمان هدف گیری</RangedWeapon_WarmupMultiplier.label>
   <!-- EN: A multiplier applied to this weapon's aiming time. -->
-  <RangedWeapon_WarmupMultiplier.description>A multiplier applied to this weapon's aiming time.</RangedWeapon_WarmupMultiplier.description>
+  <RangedWeapon_WarmupMultiplier.description>یک ضریب برای زمان هدف گیری این سلاح اعمال می شود.</RangedWeapon_WarmupMultiplier.description>
   
 </LanguageData>

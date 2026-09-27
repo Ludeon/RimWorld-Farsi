@@ -2,69 +2,69 @@
 <LanguageData>
   
   <!-- EN: A group of {0} from {1} have dropped in right on top of you! -->
-  <CenterDrop.textEnemy>A group of {0} from {1} have dropped in right on top of you!</CenterDrop.textEnemy>
+  <CenterDrop.textEnemy>گروهی از {0} از {1} درست بالای سر شما آمده اند!</CenterDrop.textEnemy>
   <!-- EN: A group of friendly {0} from {1} have dropped in right on top of you! -->
-  <CenterDrop.textFriendly>A group of friendly {0} from {1} have dropped in right on top of you!</CenterDrop.textFriendly>
+  <CenterDrop.textFriendly>گروهی از {0} دوستانه از {1} درست بالای سر شما آمده اند!</CenterDrop.textFriendly>
   <!-- EN: {0_pawnsPluralDef} will arrive in transport pods right on top of you. -->
-  <CenterDrop.textWillArrive>{0_pawnsPluralDef} will arrive in transport pods right on top of you.</CenterDrop.textWillArrive>
+  <CenterDrop.textWillArrive>{0_pawnsPluralDef} در غلاف های حمل و نقل درست بالای سر شما می رسد.</CenterDrop.textWillArrive>
   
   <!-- EN: A group of {0} from {1} have arrived in transport pods nearby. -->
-  <EdgeDrop.textEnemy>A group of {0} from {1} have arrived in transport pods nearby.</EdgeDrop.textEnemy>
+  <EdgeDrop.textEnemy>گروهی از {0} از {1} به غلاف‌های حمل و نقل در نزدیکی آن رسیده‌اند.</EdgeDrop.textEnemy>
   <!-- EN: A group of friendly {0} from {1} have arrived in transport pods nearby. -->
-  <EdgeDrop.textFriendly>A group of friendly {0} from {1} have arrived in transport pods nearby.</EdgeDrop.textFriendly>
+  <EdgeDrop.textFriendly>گروهی از {0} دوستانه از {1} به غلاف‌های حمل و نقل در نزدیکی رسیده‌اند.</EdgeDrop.textFriendly>
   <!-- EN: {0_pawnsPluralDef} will arrive in transport pods. -->
-  <EdgeDrop.textWillArrive>{0_pawnsPluralDef} will arrive in transport pods.</EdgeDrop.textWillArrive>
+  <EdgeDrop.textWillArrive>{0_pawnsPluralDef} در غلاف های حمل و نقل وارد خواهد شد.</EdgeDrop.textWillArrive>
   
   <!-- EN: Several separate groups of {0} from {1} have arrived in transport pods nearby. -->
-  <EdgeDropGroups.textEnemy>Several separate groups of {0} from {1} have arrived in transport pods nearby.</EdgeDropGroups.textEnemy>
+  <EdgeDropGroups.textEnemy>چندین گروه جداگانه از {0} از {1} در غلاف های حمل و نقل در این نزدیکی هستند.</EdgeDropGroups.textEnemy>
   <!-- EN: Several separate groups of friendly {0} from {1} have arrived in transport pods nearby. -->
-  <EdgeDropGroups.textFriendly>Several separate groups of friendly {0} from {1} have arrived in transport pods nearby.</EdgeDropGroups.textFriendly>
+  <EdgeDropGroups.textFriendly>چندین گروه جداگانه از {0} دوستانه از {1} در غلاف های حمل و نقل در این نزدیکی هستند.</EdgeDropGroups.textFriendly>
   <!-- EN: Several separate groups of {0_pawnsPluralDef} will arrive in transport pods. -->
-  <EdgeDropGroups.textWillArrive>Several separate groups of {0_pawnsPluralDef} will arrive in transport pods.</EdgeDropGroups.textWillArrive>
+  <EdgeDropGroups.textWillArrive>چندین گروه جداگانه از {0_pawnsPluralDef} در غلاف های حمل و نقل وارد خواهند شد.</EdgeDropGroups.textWillArrive>
   
   <!-- EN: A group of {0} from {1} have arrived nearby. -->
-  <EdgeWalkIn.textEnemy>A group of {0} from {1} have arrived nearby.</EdgeWalkIn.textEnemy>
+  <EdgeWalkIn.textEnemy>گروهی از {0} از {1} در این نزدیکی هستند.</EdgeWalkIn.textEnemy>
   <!-- EN: A group of friendly {0} from {1} have arrived nearby. -->
-  <EdgeWalkIn.textFriendly>A group of friendly {0} from {1} have arrived nearby.</EdgeWalkIn.textFriendly>
+  <EdgeWalkIn.textFriendly>گروهی از {0} دوستانه از {1} در این نزدیکی هستند.</EdgeWalkIn.textFriendly>
   <!-- EN: {0_pawnsPluralDef} will arrive on foot. -->
-  <EdgeWalkIn.textWillArrive>{0_pawnsPluralDef} will arrive on foot.</EdgeWalkIn.textWillArrive>
+  <EdgeWalkIn.textWillArrive>{0_pawnsPluralDef} با پای پیاده خواهد رسید.</EdgeWalkIn.textWillArrive>
   
   <!-- EN: A group of {0} from {1} have arrived from every direction. -->
-  <EdgeWalkInDistributed.textEnemy>A group of {0} from {1} have arrived from every direction.</EdgeWalkInDistributed.textEnemy>
+  <EdgeWalkInDistributed.textEnemy>گروهی از {0} از {1} از هر جهت وارد شده اند.</EdgeWalkInDistributed.textEnemy>
   <!-- EN: A group of friendly {0} from {1} have arrived from every direction. -->
-  <EdgeWalkInDistributed.textFriendly>A group of friendly {0} from {1} have arrived from every direction.</EdgeWalkInDistributed.textFriendly>
+  <EdgeWalkInDistributed.textFriendly>گروهی از {0} دوستانه از {1} از هر جهت وارد شده اند.</EdgeWalkInDistributed.textFriendly>
   <!-- EN: {0_pawnsPluralDef} will arrive on foot from every direction. -->
-  <EdgeWalkInDistributed.textWillArrive>{0_pawnsPluralDef} will arrive on foot from every direction.</EdgeWalkInDistributed.textWillArrive>
+  <EdgeWalkInDistributed.textWillArrive>{0_pawnsPluralDef} با پای پیاده از هر جهت می رسد.</EdgeWalkInDistributed.textWillArrive>
   
   <!-- EN: {0} from {1} have arrived nearby, approaching from multiple angles. -->
-  <EdgeWalkInGroups.textEnemy>{0} from {1} have arrived nearby, approaching from multiple angles.</EdgeWalkInGroups.textEnemy>
+  <EdgeWalkInGroups.textEnemy>{0} از {1} به این نزدیکی رسیده است، از زوایای مختلف نزدیک می شود.</EdgeWalkInGroups.textEnemy>
   <!-- EN: Friendly {0} from {1} have arrived nearby, approaching from multiple angles. -->
-  <EdgeWalkInGroups.textFriendly>Friendly {0} from {1} have arrived nearby, approaching from multiple angles.</EdgeWalkInGroups.textFriendly>
+  <EdgeWalkInGroups.textFriendly>{0} دوستانه از {1} به این نزدیکی رسیده است که از زوایای مختلف نزدیک می شود.</EdgeWalkInGroups.textFriendly>
   <!-- EN: {0_pawnsPluralDef} will arrive on foot, approaching from several angles at once. -->
-  <EdgeWalkInGroups.textWillArrive>{0_pawnsPluralDef} will arrive on foot, approaching from several angles at once.</EdgeWalkInGroups.textWillArrive>
+  <EdgeWalkInGroups.textWillArrive>{0_pawnsPluralDef} با پای پیاده وارد می شود و از چندین زاویه به طور همزمان نزدیک می شود.</EdgeWalkInGroups.textWillArrive>
   
   <!-- EN: Several {0} are emerging from the water. -->
-  <EmergeFromWater.textEnemy>Several {0} are emerging from the water.</EmergeFromWater.textEnemy>
+  <EmergeFromWater.textEnemy>چندین {0} از آب بیرون می آیند.</EmergeFromWater.textEnemy>
   <!-- EN: {0_pawnsPluralDef} will emerge from the water. -->
-  <EmergeFromWater.textWillArrive>{0_pawnsPluralDef} will emerge from the water.</EmergeFromWater.textWillArrive>
+  <EmergeFromWater.textWillArrive>{0_pawnsPluralDef} از آب بیرون خواهد آمد.</EmergeFromWater.textWillArrive>
   
   <!-- EN: A cluster of {0} have landed in drop pods nearby. -->
-  <MechClusterDrop.textEnemy>A cluster of {0} have landed in drop pods nearby.</MechClusterDrop.textEnemy>
+  <MechClusterDrop.textEnemy>خوشه‌ای از {0} در غلاف های دراپ در این نزدیکی فرود آمده است.</MechClusterDrop.textEnemy>
   <!-- EN: The mech cluster will arrive in drop pods. -->
-  <MechClusterDrop.textWillArrive>The mech cluster will arrive in drop pods.</MechClusterDrop.textWillArrive>
+  <MechClusterDrop.textWillArrive>خوشه مکانیکی به صورت غلاف دراپ می رسد.</MechClusterDrop.textWillArrive>
   
   <!-- EN: A group of {0} from {1} have arrived in transport pods. Their pods went haywire and are landing scattered all over the area! -->
-  <RandomDrop.textEnemy>A group of {0} from {1} have arrived in transport pods. Their pods went haywire and are landing scattered all over the area!</RandomDrop.textEnemy>
+  <RandomDrop.textEnemy>گروهی از {0} از {1} وارد غلاف های حمل و نقل شده اند. غلاف های آنها به هم ریخته و در حال فرود پراکنده در سراسر منطقه هستند!</RandomDrop.textEnemy>
   <!-- EN: A group of friendly {0} from {1} have arrived in transport pods. Their pods went haywire and are landing scattered all over the area! -->
-  <RandomDrop.textFriendly>A group of friendly {0} from {1} have arrived in transport pods. Their pods went haywire and are landing scattered all over the area!</RandomDrop.textFriendly>
+  <RandomDrop.textFriendly>گروهی از {0} دوستانه از {1} وارد غلاف های حمل و نقل شده اند. غلاف های آنها به هم ریخته و در حال فرود پراکنده در سراسر منطقه هستند!</RandomDrop.textFriendly>
   <!-- EN: {0_pawnsPluralDef} will arrive in transport pods. -->
-  <RandomDrop.textWillArrive>{0_pawnsPluralDef} will arrive in transport pods.</RandomDrop.textWillArrive>
+  <RandomDrop.textWillArrive>{0_pawnsPluralDef} در غلاف های حمل و نقل وارد خواهد شد.</RandomDrop.textWillArrive>
   
   <!-- EN: A group of {0} from {1} have arrived in transport pods nearby. -->
-  <SpecificDropDebug.textEnemy>A group of {0} from {1} have arrived in transport pods nearby.</SpecificDropDebug.textEnemy>
+  <SpecificDropDebug.textEnemy>گروهی از {0} از {1} به غلاف‌های حمل و نقل در نزدیکی آن رسیده‌اند.</SpecificDropDebug.textEnemy>
   <!-- EN: A group of friendly {0} from {1} have arrived in transport pods nearby. -->
-  <SpecificDropDebug.textFriendly>A group of friendly {0} from {1} have arrived in transport pods nearby.</SpecificDropDebug.textFriendly>
+  <SpecificDropDebug.textFriendly>گروهی از {0} دوستانه از {1} به غلاف‌های حمل و نقل در نزدیکی رسیده‌اند.</SpecificDropDebug.textFriendly>
   <!-- EN: {0_pawnsPluralDef} will arrive in transport pods. -->
-  <SpecificDropDebug.textWillArrive>{0_pawnsPluralDef} will arrive in transport pods.</SpecificDropDebug.textWillArrive>
+  <SpecificDropDebug.textWillArrive>{0_pawnsPluralDef} در غلاف های حمل و نقل وارد خواهد شد.</SpecificDropDebug.textWillArrive>
   
 </LanguageData>

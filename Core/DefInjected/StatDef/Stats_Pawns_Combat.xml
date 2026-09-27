@@ -2,92 +2,92 @@
 <LanguageData>
   
   <!-- EN: aiming time -->
-  <AimingDelayFactor.label>aiming time</AimingDelayFactor.label>
+  <AimingDelayFactor.label>زمان هدف گیری</AimingDelayFactor.label>
   <!-- EN: How long it takes to shoot after choosing a target. -->
-  <AimingDelayFactor.description>How long it takes to shoot after choosing a target.</AimingDelayFactor.description>
+  <AimingDelayFactor.description>بعد از انتخاب هدف چقدر طول می کشد تا شلیک کنید.</AimingDelayFactor.description>
   
   <!-- EN: incoming damage multiplier -->
-  <IncomingDamageFactor.label>incoming damage multiplier</IncomingDamageFactor.label>
+  <IncomingDamageFactor.label>ضریب خسارت دریافتی</IncomingDamageFactor.label>
   <!-- EN: A multiplier on all incoming damage. -->
-  <IncomingDamageFactor.description>A multiplier on all incoming damage.</IncomingDamageFactor.description>
+  <IncomingDamageFactor.description>یک ضریب در تمام آسیب های دریافتی.</IncomingDamageFactor.description>
   
   <!-- EN: melee armor penetration -->
-  <MeleeArmorPenetration.label>melee armor penetration</MeleeArmorPenetration.label>
+  <MeleeArmorPenetration.label>نفوذ زره غوغا</MeleeArmorPenetration.label>
   <!-- EN: Average armor penetration of all attacks in melee combat.\n\nThis stat includes currently used weapon. -->
-  <MeleeArmorPenetration.description>Average armor penetration of all attacks in melee combat.\n\nThis stat includes currently used weapon.</MeleeArmorPenetration.description>
+  <MeleeArmorPenetration.description>میانگین نفوذ زره در تمام حملات در نبرد غوغا.\n\nاین آمار شامل سلاح‌هایی است که در حال حاضر استفاده می‌شوند.</MeleeArmorPenetration.description>
   
   <!-- EN: melee cooldown -->
-  <MeleeCooldownFactor.label>melee cooldown</MeleeCooldownFactor.label>
+  <MeleeCooldownFactor.label>سرد شدن غوغا</MeleeCooldownFactor.label>
   <!-- EN: A multiplier on the time this creature takes to recover after making a melee attack. -->
-  <MeleeCooldownFactor.description>A multiplier on the time this creature takes to recover after making a melee attack.</MeleeCooldownFactor.description>
+  <MeleeCooldownFactor.description>یک ضرب کننده در مدت زمانی که این موجود پس از انجام یک حمله غوغا به خود می گیرد.</MeleeCooldownFactor.description>
   
   <!-- EN: melee damage factor -->
-  <MeleeDamageFactor.label>melee damage factor</MeleeDamageFactor.label>
+  <MeleeDamageFactor.label>عامل آسیب غوغا</MeleeDamageFactor.label>
   <!-- EN: A multiplier on the amount of melee damage inflicted by this person. -->
-  <MeleeDamageFactor.description>A multiplier on the amount of melee damage inflicted by this person.</MeleeDamageFactor.description>
+  <MeleeDamageFactor.description>چند برابر میزان آسیب غوغا وارد شده توسط این شخص.</MeleeDamageFactor.description>
   
   <!-- EN: melee dodge chance -->
-  <MeleeDodgeChance.label>melee dodge chance</MeleeDodgeChance.label>
+  <MeleeDodgeChance.label>غوغا فرصت طفره رفتن</MeleeDodgeChance.label>
   <!-- EN: Chance to dodge a melee attack that would've otherwise hit.\n\nCharacters will not dodge while aiming or firing a ranged weapon. -->
-  <MeleeDodgeChance.description>Chance to dodge a melee attack that would've otherwise hit.\n\nCharacters will not dodge while aiming or firing a ranged weapon.</MeleeDodgeChance.description>
+  <MeleeDodgeChance.description>فرصتی برای طفره رفتن از یک حمله غوغایی که در غیر این صورت به آن ضربه می زدند.\n\nشخصیت‌ها هنگام هدف گیری یا شلیک یک اسلحه دور، طفره نمی روند.</MeleeDodgeChance.description>
   
   <!-- EN: melee DPS -->
-  <MeleeDPS.label>melee DPS</MeleeDPS.label>
+  <MeleeDPS.label>غوغا DPS</MeleeDPS.label>
   <!-- EN: Average damage per second in melee combat.\n\nThis stat ignores target defenses like dodging and armor. -->
-  <MeleeDPS.description>Average damage per second in melee combat.\n\nThis stat ignores target defenses like dodging and armor.</MeleeDPS.description>
+  <MeleeDPS.description>میانگین آسیب در ثانیه در نبرد غوغا.\n\nاین آمار دفاع از هدف مانند جاخالی دادن و زره را نادیده می‌گیرد.</MeleeDPS.description>
   
   <!-- EN: melee hit chance -->
-  <MeleeHitChance.label>melee hit chance</MeleeHitChance.label>
+  <MeleeHitChance.label>غوغا شانس ضربه</MeleeHitChance.label>
   <!-- EN: Chance to hit a target in melee.\n\nThe target can still dodge even if we would've hit. -->
-  <MeleeHitChance.description>Chance to hit a target in melee.\n\nThe target can still dodge even if we would've hit.</MeleeHitChance.description>
+  <MeleeHitChance.description>شانس ضربه زدن به یک هدف در غوغا.\n\nهدف همچنان می تواند طفره برود حتی اگر ما ضربه می زدیم.</MeleeHitChance.description>
   
   <!-- EN: Mortar miss radius multiplier -->
-  <MortarMissRadiusFactor.label>Mortar miss radius multiplier</MortarMissRadiusFactor.label>
+  <MortarMissRadiusFactor.label>ضرب شعاع خمپاره</MortarMissRadiusFactor.label>
   <!-- EN: A multiplier on the miss radius of a mortar used by this person. Smaller numbers means more accurate mortar shells. -->
-  <MortarMissRadiusFactor.description>A multiplier on the miss radius of a mortar used by this person. Smaller numbers means more accurate mortar shells.</MortarMissRadiusFactor.description>
+  <MortarMissRadiusFactor.description>ضریب شعاع خطای خمپاره‌ای که این شخص استفاده می کند. اعداد کوچکتر به معنی گلوله های خمپاره دقیق‌تر است.</MortarMissRadiusFactor.description>
   <!-- EN: Mortar miss radius multiplier -->
-  <MortarMissRadiusFactor.labelForFullStatList>Mortar miss radius multiplier</MortarMissRadiusFactor.labelForFullStatList>
+  <MortarMissRadiusFactor.labelForFullStatList>ضرب شعاع خمپاره</MortarMissRadiusFactor.labelForFullStatList>
   
   <!-- EN: trap spring chance -->
-  <PawnTrapSpringChance.label>trap spring chance</PawnTrapSpringChance.label>
+  <PawnTrapSpringChance.label>تله بهار شانس</PawnTrapSpringChance.label>
   <!-- EN: Chance to spring a trap the character is unaware of. -->
-  <PawnTrapSpringChance.description>Chance to spring a trap the character is unaware of.</PawnTrapSpringChance.description>
+  <PawnTrapSpringChance.description>شانس به وجود آمدن تله‌ای که شخصیت از آن بی خبر است.</PawnTrapSpringChance.description>
   
   <!-- EN: ranged cooldown multiplier -->
-  <RangedCooldownFactor.label>ranged cooldown multiplier</RangedCooldownFactor.label>
+  <RangedCooldownFactor.label>ضریب کاهش بازه‌ای</RangedCooldownFactor.label>
   <!-- EN: A multiplier on the cooldown between bursts when using a ranged weapon. -->
-  <RangedCooldownFactor.description>A multiplier on the cooldown between bursts when using a ranged weapon.</RangedCooldownFactor.description>
+  <RangedCooldownFactor.description>یک ضرب کننده در خنک شدن بین انفجارها هنگام استفاده از یک سلاح برد.</RangedCooldownFactor.description>
   
   <!-- EN: accuracy factor (long) -->
-  <ShootingAccuracyFactor_Long.label>accuracy factor (long)</ShootingAccuracyFactor_Long.label>
+  <ShootingAccuracyFactor_Long.label>ضریب دقت (طولانی)</ShootingAccuracyFactor_Long.label>
   <!-- EN: A multiplier on accuracy at a distance of 40 cells or more. -->
-  <ShootingAccuracyFactor_Long.description>A multiplier on accuracy at a distance of 40 cells or more.</ShootingAccuracyFactor_Long.description>
+  <ShootingAccuracyFactor_Long.description>ضریب دقت در فاصله 40 سلول یا بیشتر.</ShootingAccuracyFactor_Long.description>
   
   <!-- EN: accuracy factor (medium) -->
-  <ShootingAccuracyFactor_Medium.label>accuracy factor (medium)</ShootingAccuracyFactor_Medium.label>
+  <ShootingAccuracyFactor_Medium.label>ضریب دقت (متوسط)</ShootingAccuracyFactor_Medium.label>
   <!-- EN: A multiplier on accuracy at a distance of 25 cells. -->
-  <ShootingAccuracyFactor_Medium.description>A multiplier on accuracy at a distance of 25 cells.</ShootingAccuracyFactor_Medium.description>
+  <ShootingAccuracyFactor_Medium.description>ضریب دقت در فاصله 25 سلول.</ShootingAccuracyFactor_Medium.description>
   
   <!-- EN: accuracy factor (short) -->
-  <ShootingAccuracyFactor_Short.label>accuracy factor (short)</ShootingAccuracyFactor_Short.label>
+  <ShootingAccuracyFactor_Short.label>ضریب دقت (کوتاه)</ShootingAccuracyFactor_Short.label>
   <!-- EN: A multiplier on accuracy at a distance of 12 cells. -->
-  <ShootingAccuracyFactor_Short.description>A multiplier on accuracy at a distance of 12 cells.</ShootingAccuracyFactor_Short.description>
+  <ShootingAccuracyFactor_Short.description>ضریب دقت در فاصله 12 سلول.</ShootingAccuracyFactor_Short.description>
   
   <!-- EN: accuracy factor (close) -->
-  <ShootingAccuracyFactor_Touch.label>accuracy factor (close)</ShootingAccuracyFactor_Touch.label>
+  <ShootingAccuracyFactor_Touch.label>ضریب دقت (نزدیک)</ShootingAccuracyFactor_Touch.label>
   <!-- EN: A multiplier on accuracy at a distance of 3 cells or less. -->
-  <ShootingAccuracyFactor_Touch.description>A multiplier on accuracy at a distance of 3 cells or less.</ShootingAccuracyFactor_Touch.description>
+  <ShootingAccuracyFactor_Touch.description>ضریب دقت در فاصله 3 سلول یا کمتر.</ShootingAccuracyFactor_Touch.description>
   
   <!-- EN: shooting accuracy -->
-  <ShootingAccuracyPawn.label>shooting accuracy</ShootingAccuracyPawn.label>
+  <ShootingAccuracyPawn.label>دقت تیراندازی</ShootingAccuracyPawn.label>
   <!-- EN: Base chance to not miss per cell of shot distance.\n\nChance to hit is also affected by many other factors.\n\nA hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target. -->
-  <ShootingAccuracyPawn.description>Base chance to not miss per cell of shot distance.\n\nChance to hit is also affected by many other factors.\n\nA hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target.</ShootingAccuracyPawn.description>
+  <ShootingAccuracyPawn.description>شانس اصلی برای از دست ندادن در هر سلول فاصله شلیک.\n\nشانس ضربه نیز تحت تأثیر بسیاری از عوامل دیگر است.\n\nتوضیح شانس ضربه برای هر شلیک با انتخاب تیرانداز و قرار دادن ماوس روی هدف قابل مشاهده است.</ShootingAccuracyPawn.description>
   <!-- EN: shooting accuracy (people) -->
-  <ShootingAccuracyPawn.labelForFullStatList>shooting accuracy (people)</ShootingAccuracyPawn.labelForFullStatList>
+  <ShootingAccuracyPawn.labelForFullStatList>دقت تیراندازی (افراد)</ShootingAccuracyPawn.labelForFullStatList>
   
   <!-- EN: stagger time multiplier -->
-  <StaggerDurationFactor.label>stagger time multiplier</StaggerDurationFactor.label>
+  <StaggerDurationFactor.label>ضرب کننده زمان سرسام آور</StaggerDurationFactor.label>
   <!-- EN: A multiplier on the duration of the stagger-slowdown that occurs when damage is taken. -->
-  <StaggerDurationFactor.description>A multiplier on the duration of the stagger-slowdown that occurs when damage is taken.</StaggerDurationFactor.description>
+  <StaggerDurationFactor.description>یک ضریب در مدت زمان کاهش سرعت که هنگام آسیب دیدن رخ می دهد.</StaggerDurationFactor.description>
   
 </LanguageData>

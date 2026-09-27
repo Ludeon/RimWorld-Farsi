@@ -2,94 +2,94 @@
 <LanguageData>
   
   <!-- EN: beauty -->
-  <Beauty.label>beauty</Beauty.label>
+  <Beauty.label>زیبایی</Beauty.label>
   <!-- EN: How enjoyable an object is to look at.\n\nBeautiful objects fulfill characters' need for beauty. -->
-  <Beauty.description>How enjoyable an object is to look at.\n\nBeautiful objects fulfill characters' need for beauty.</Beauty.description>
+  <Beauty.description>نگاه کردن به یک شی چقدر لذت بخش است.\n\nاشیاء زیبا نیاز شخصیت‌ها به زیبایی را برآورده می کنند.</Beauty.description>
   
   <!-- EN: outdoor beauty -->
-  <BeautyOutdoors.label>outdoor beauty</BeautyOutdoors.label>
+  <BeautyOutdoors.label>زیبایی در فضای باز</BeautyOutdoors.label>
   <!-- EN: How enjoyable something is to look at if it's outside.\n\nBeautiful objects fulfill peoples' need for beauty. -->
-  <BeautyOutdoors.description>How enjoyable something is to look at if it's outside.\n\nBeautiful objects fulfill peoples' need for beauty.</BeautyOutdoors.description>
+  <BeautyOutdoors.description>اگر چیزی بیرون باشد چقدر دیدن آن لذت بخش است.\n\nاشیاء زیبا نیاز مردم به زیبایی را برآورده می کنند.</BeautyOutdoors.description>
   
   <!-- EN: caravan speed factor -->
-  <CaravanBonusSpeedFactor.label>caravan speed factor</CaravanBonusSpeedFactor.label>
+  <CaravanBonusSpeedFactor.label>ضریب سرعت کاروان</CaravanBonusSpeedFactor.label>
   <!-- EN: A multiplier applied to a caravan's speed when this person is part of a caravan. -->
-  <CaravanBonusSpeedFactor.description>A multiplier applied to a caravan's speed when this person is part of a caravan.</CaravanBonusSpeedFactor.description>
+  <CaravanBonusSpeedFactor.description>زمانی که این شخص بخشی از یک کاروان است، یک ضریب برای سرعت کاروان اعمال می شود.</CaravanBonusSpeedFactor.description>
   
   <!-- EN: cleanliness -->
-  <Cleanliness.label>cleanliness</Cleanliness.label>
+  <Cleanliness.label>پاکیزگی</Cleanliness.label>
   <!-- EN: How much an object contributes to an area's cleanliness score. -->
-  <Cleanliness.description>How much an object contributes to an area's cleanliness score.</Cleanliness.description>
+  <Cleanliness.description>یک شی چقدر به نمره تمیزی یک منطقه کمک می کند.</Cleanliness.description>
   
   <!-- EN: comfort -->
-  <Comfort.label>comfort</Comfort.label>
+  <Comfort.label>راحتی</Comfort.label>
   <!-- EN: How comfortable an object is to sit or lay on.\n\nUsing comfortable objects fulfills a character's need for comfort. -->
-  <Comfort.description>How comfortable an object is to sit or lay on.\n\nUsing comfortable objects fulfills a character's need for comfort.</Comfort.description>
+  <Comfort.description>نشستن یا دراز کشیدن روی یک شی چقدر راحت است.\n\nاستفاده از اشیاء راحت نیاز شخصیت به راحتی را برآورده می‌کند.</Comfort.description>
   
   <!-- EN: deterioration rate -->
-  <DeteriorationRate.label>deterioration rate</DeteriorationRate.label>
+  <DeteriorationRate.label>میزان وخامت</DeteriorationRate.label>
   <!-- EN: The rate at which this item deteriorates when left outside, in average hit points per day.\n\nDeterioration rate is also affected by things like weather, roofs, toxic fallout, pollution or being left in shallow water. -->
-  <DeteriorationRate.description>The rate at which this item deteriorates when left outside, in average hit points per day.\n\nDeterioration rate is also affected by things like weather, roofs, toxic fallout, pollution or being left in shallow water.</DeteriorationRate.description>
+  <DeteriorationRate.description>سرعت خراب شدن این مورد در بیرون ماندن، در میانگین نقاط ضربه در روز.\n\nمیزان خرابی نیز تحت تأثیر مواردی مانند آب و هوا، سقف‌ها، ریزش سمی، آلودگی یا ماندن در آب کم عمق است.</DeteriorationRate.description>
   <!-- EN: {0} / day -->
-  <DeteriorationRate.formatString>{0} / day</DeteriorationRate.formatString>
+  <DeteriorationRate.formatString>{0} / روز</DeteriorationRate.formatString>
   
   <!-- EN: flammability -->
-  <Flammability.label>flammability</Flammability.label>
+  <Flammability.label>اشتعال پذیری</Flammability.label>
   <!-- EN: How easily an object catches fire and how quickly a fire will grow as it burns. -->
-  <Flammability.description>How easily an object catches fire and how quickly a fire will grow as it burns.</Flammability.description>
+  <Flammability.description>یک شی چقدر راحت آتش می گیرد و آتش با سوختن چقدر سریع رشد می کند.</Flammability.description>
   
   <!-- EN: food poison chance -->
-  <FoodPoisonChanceFixedHuman.label>food poison chance</FoodPoisonChanceFixedHuman.label>
+  <FoodPoisonChanceFixedHuman.label>شانس مسمومیت غذایی</FoodPoisonChanceFixedHuman.label>
   <!-- EN: The chance this food will cause food poisoning. -->
-  <FoodPoisonChanceFixedHuman.description>The chance this food will cause food poisoning.</FoodPoisonChanceFixedHuman.description>
+  <FoodPoisonChanceFixedHuman.description>احتمال اینکه این غذا باعث مسمومیت غذایی شود.</FoodPoisonChanceFixedHuman.description>
   <!-- EN: food poison chance (food stat) -->
-  <FoodPoisonChanceFixedHuman.labelForFullStatList>food poison chance (food stat)</FoodPoisonChanceFixedHuman.labelForFullStatList>
+  <FoodPoisonChanceFixedHuman.labelForFullStatList>شانس مسمومیت غذایی (آمار غذایی)</FoodPoisonChanceFixedHuman.labelForFullStatList>
   
   <!-- EN: market value -->
-  <MarketValue.label>market value</MarketValue.label>
+  <MarketValue.label>ارزش بازار</MarketValue.label>
   <!-- EN: The market value of an object.\n\nThe actual trade price will be adjusted by negotiation skill, relationship status, and other contextual factors. -->
-  <MarketValue.description>The market value of an object.\n\nThe actual trade price will be adjusted by negotiation skill, relationship status, and other contextual factors.</MarketValue.description>
+  <MarketValue.description>ارزش بازار یک شی.\n\nقیمت واقعی معامله با مهارت مذاکره، وضعیت رابطه و سایر عوامل زمینه‌ای تنظیم می‌شود.</MarketValue.description>
   
   <!-- EN: market value ignoring hitpoints -->
-  <MarketValueIgnoreHp.label>market value ignoring hitpoints</MarketValueIgnoreHp.label>
+  <MarketValueIgnoreHp.label>ارزش بازار با نادیده گرفتن نقاط ضربه</MarketValueIgnoreHp.label>
   
   <!-- EN: mass -->
-  <Mass.label>mass</Mass.label>
+  <Mass.label>جرم</Mass.label>
   <!-- EN: The physical mass of an object or creature. -->
-  <Mass.description>The physical mass of an object or creature.</Mass.description>
+  <Mass.description>جرم فیزیکی یک شی یا موجود.</Mass.description>
   <!-- EN: {0} kg -->
   <Mass.formatString>{0} kg</Mass.formatString>
   
   <!-- EN: max hit points -->
-  <MaxHitPoints.label>max hit points</MaxHitPoints.label>
+  <MaxHitPoints.label>حداکثر امتیاز ضربه</MaxHitPoints.label>
   <!-- EN: The maximum hit points of an object.\n\nThis represents how much damage it can take before being destroyed. -->
-  <MaxHitPoints.description>The maximum hit points of an object.\n\nThis represents how much damage it can take before being destroyed.</MaxHitPoints.description>
+  <MaxHitPoints.description>حداکثر نقاط ضربه یک شی.\n\nاین نشان دهنده میزان آسیبی است که قبل از نابود شدن می تواند داشته باشد.</MaxHitPoints.description>
   
   <!-- EN: nutrition -->
-  <Nutrition.label>nutrition</Nutrition.label>
+  <Nutrition.label>تغذیه</Nutrition.label>
   <!-- EN: How nutritious this food is. -->
-  <Nutrition.description>How nutritious this food is.</Nutrition.description>
+  <Nutrition.description>چقدر این غذا مغذی است.</Nutrition.description>
   
   <!-- EN: honor value -->
-  <RoyalFavorValue.label>honor value</RoyalFavorValue.label>
+  <RoyalFavorValue.label>ارزش افتخار</RoyalFavorValue.label>
   <!-- EN: The amount of honor your trader will earn for giving this to a tribute collector. -->
-  <RoyalFavorValue.description>The amount of honor your trader will earn for giving this to a tribute collector.</RoyalFavorValue.description>
+  <RoyalFavorValue.description>میزان افتخاری که معامله گر شما برای دادن این به یک ادای احترام به دست می آورد.</RoyalFavorValue.description>
   
   <!-- EN: sell price multiplier -->
-  <SellPriceFactor.label>sell price multiplier</SellPriceFactor.label>
+  <SellPriceFactor.label>ضریب قیمت فروش</SellPriceFactor.label>
   <!-- EN: A multiplier on the price at which you can sell items. -->
-  <SellPriceFactor.description>A multiplier on the price at which you can sell items.</SellPriceFactor.description>
+  <SellPriceFactor.description>ضریب قیمتی که می توانید اقلام را با آن بفروشید.</SellPriceFactor.description>
   
   <!-- EN: shooting accuracy -->
-  <ShootingAccuracyTurret.label>shooting accuracy</ShootingAccuracyTurret.label>
+  <ShootingAccuracyTurret.label>دقت تیراندازی</ShootingAccuracyTurret.label>
   <!-- EN: Base chance to not miss per cell of shot distance.\n\nChance to hit is also affected by many other factors. A hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target. -->
-  <ShootingAccuracyTurret.description>Base chance to not miss per cell of shot distance.\n\nChance to hit is also affected by many other factors. A hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target.</ShootingAccuracyTurret.description>
+  <ShootingAccuracyTurret.description>شانس اصلی برای از دست ندادن در هر سلول فاصله شلیک.\n\nشانس ضربه نیز تحت تأثیر بسیاری از عوامل دیگر است. توضیح شانس ضربه برای هر شلیک با انتخاب تیرانداز و حرکت ماوس بر روی یک هدف قابل مشاهده است.</ShootingAccuracyTurret.description>
   <!-- EN: shooting accuracy (turrets) -->
-  <ShootingAccuracyTurret.labelForFullStatList>shooting accuracy (turrets)</ShootingAccuracyTurret.labelForFullStatList>
+  <ShootingAccuracyTurret.labelForFullStatList>دقت تیراندازی (برجک)</ShootingAccuracyTurret.labelForFullStatList>
   
   <!-- EN: work to make -->
-  <WorkToMake.label>work to make</WorkToMake.label>
+  <WorkToMake.label>کار برای ساختن</WorkToMake.label>
   <!-- EN: The base amount of work it takes to make an item, once all materials are gathered. -->
-  <WorkToMake.description>The base amount of work it takes to make an item, once all materials are gathered.</WorkToMake.description>
+  <WorkToMake.description>میزان اولیه کاری که برای ساخت یک آیتم نیاز است، پس از جمع آوری تمام مواد.</WorkToMake.description>
   
 </LanguageData>

@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: beer brewing -->
-  <Brewing.label>beer brewing</Brewing.label>
+  <Brewing.label>دم کردن آبجو</Brewing.label>
   <!-- EN: Build a brewery and fermenting vats to transform hops into tasty, tasty beer. -->
-  <Brewing.description>Build a brewery and fermenting vats to transform hops into tasty, tasty beer.</Brewing.description>
+  <Brewing.description>یک کارخانه آبجوسازی و خمره های تخمیر بسازید تا رازک را به آبجوی خوش طعم و خوش طعم تبدیل کنید.</Brewing.description>
   <!-- EN:
     <li>subject->brewing</li>
     <li>subject_story->brewed a unique stout that became famous across the system</li>
@@ -23,9 +23,9 @@
   </Brewing.generalRules.rulesStrings>
   
   <!-- EN: carpet-making -->
-  <CarpetMaking.label>carpet-making</CarpetMaking.label>
+  <CarpetMaking.label>فرش سازی</CarpetMaking.label>
   <!-- EN: Weave beautiful carpets from cloth. -->
-  <CarpetMaking.description>Weave beautiful carpets from cloth.</CarpetMaking.description>
+  <CarpetMaking.description>از پارچه فرش های زیبایی ببافید.</CarpetMaking.description>
   <!-- EN:
     <li>subject->carpet-making</li>
     <li>subject_story->learned to weave carpets from hair, for a distant Emperor</li>
@@ -42,9 +42,9 @@
   </CarpetMaking.generalRules.rulesStrings>
   
   <!-- EN: cocoa -->
-  <Cocoa.label>cocoa</Cocoa.label>
+  <Cocoa.label>کاکائو</Cocoa.label>
   <!-- EN: Sow cocoa trees to create your own delicious chocolate. Eating chocolate fulfills the need for recreation and it's a valuable trade good too. -->
-  <Cocoa.description>Sow cocoa trees to create your own delicious chocolate. Eating chocolate fulfills the need for recreation and it's a valuable trade good too.</Cocoa.description>
+  <Cocoa.description>درختان کاکائو را بکارید تا شکلات خوشمزه خود را بسازید. خوردن شکلات نیاز به تفریح ​​را برطرف می کند و همچنین یک کالای تجاری ارزشمند است.</Cocoa.description>
   <!-- EN:
     <li>subject->cocoa</li>
     <li>subject->chocolate</li>
@@ -65,9 +65,9 @@
   </Cocoa.generalRules.rulesStrings>
   
   <!-- EN: complex clothing -->
-  <ComplexClothing.label>complex clothing</ComplexClothing.label>
+  <ComplexClothing.label>لباس های پیچیده</ComplexClothing.label>
   <!-- EN: Tailor complicated garments like pants, dusters, and cowboy hats. -->
-  <ComplexClothing.description>Tailor complicated garments like pants, dusters, and cowboy hats.</ComplexClothing.description>
+  <ComplexClothing.description>لباس‌های پیچیده مانند شلوار، گردگیر، و کلاه گاوچران را خیاط کنید.</ComplexClothing.description>
   <!-- EN:
     <li>subject->complex tailoring</li>
     <li>subject_story->tailored hard-wearing clothes for urbworld cityfolk</li>
@@ -84,9 +84,9 @@
   </ComplexClothing.generalRules.rulesStrings>
   
   <!-- EN: complex furniture -->
-  <ComplexFurniture.label>complex furniture</ComplexFurniture.label>
+  <ComplexFurniture.label>مبلمان پیچیده</ComplexFurniture.label>
   <!-- EN: Build complex furniture like beds, end tables, dining chairs, armchairs, dressers, tool cabinets, billiards tables, and poker tables, vents, sarcophagi, and more. -->
-  <ComplexFurniture.description>Build complex furniture like beds, end tables, dining chairs, armchairs, dressers, tool cabinets, billiards tables, and poker tables, vents, sarcophagi, and more.</ComplexFurniture.description>
+  <ComplexFurniture.description>مبلمان پیچیده‌ای مانند تخت، میز انتهایی، صندلی غذاخوری، صندلی راحتی، کمد، کابینت ابزار، میز بیلیارد، و میز پوکر، دریچه هوا، تابوت و غیره بسازید.</ComplexFurniture.description>
   <!-- EN:
     <li>subject->carpentry</li>
     <li>subject_story->studied woodcarving under a master carpenter</li>
@@ -103,9 +103,9 @@
   </ComplexFurniture.generalRules.rulesStrings>
   
   <!-- EN: devilstrand -->
-  <Devilstrand.label>devilstrand</Devilstrand.label>
+  <Devilstrand.label>دویلسترند</Devilstrand.label>
   <!-- EN: Plant devilstrand, a slow-growing mushroom that yields an exceptionally tough, heat-resistant plant fiber. -->
-  <Devilstrand.description>Plant devilstrand, a slow-growing mushroom that yields an exceptionally tough, heat-resistant plant fiber.</Devilstrand.description>
+  <Devilstrand.description>Devilstrand را بکارید، قارچی با رشد کند که فیبر گیاهی فوق العاده سخت و مقاوم در برابر حرارت تولید می کند.</Devilstrand.description>
   <!-- EN:
     <li>subject->devilstrand cultivation</li>
     <li>subject_story->used devilstrand as a natural firebreak</li>
@@ -122,9 +122,9 @@
   </Devilstrand.generalRules.rulesStrings>
   
   <!-- EN: drug production -->
-  <DrugProduction.label>drug production</DrugProduction.label>
+  <DrugProduction.label>تولید دارو</DrugProduction.label>
   <!-- EN: Build a drug lab for basic drug synthesis. Further research is required to make specific drugs. -->
-  <DrugProduction.description>Build a drug lab for basic drug synthesis. Further research is required to make specific drugs.</DrugProduction.description>
+  <DrugProduction.description>یک آزمایشگاه دارویی برای سنتز اولیه دارو بسازید. تحقیقات بیشتری برای ساخت داروهای خاص مورد نیاز است.</DrugProduction.description>
   <!-- EN:
     <li>subject->drug production</li>
     <li>subject->drug synthesis</li>
@@ -145,9 +145,9 @@
   </DrugProduction.generalRules.rulesStrings>
   
   <!-- EN: go-juice production -->
-  <GoJuiceProduction.label>go-juice production</GoJuiceProduction.label>
+  <GoJuiceProduction.label>تولید آب میوه</GoJuiceProduction.label>
   <!-- EN: Produce go-juice, a synthetic combat-performance-enhancing drug which improves shooting, melee, and movement ability, and dulls pain. -->
-  <GoJuiceProduction.description>Produce go-juice, a synthetic combat-performance-enhancing drug which improves shooting, melee, and movement ability, and dulls pain.</GoJuiceProduction.description>
+  <GoJuiceProduction.description>گو-جویس تولید کنید، یک داروی مصنوعی تقویت کننده عملکرد رزمی که تیراندازی، غوغا، و توانایی حرکت را بهبود می بخشد و درد را کسل کننده می کند.</GoJuiceProduction.description>
   <!-- EN:
     <li>subject->go-juice production</li>
     <li>subject_story->was expelled for taking go-juice during team sports matches</li>
@@ -164,9 +164,9 @@
   </GoJuiceProduction.generalRules.rulesStrings>
   
   <!-- EN: greatbow -->
-  <Greatbow.label>greatbow</Greatbow.label>
+  <Greatbow.label>کمان بزرگ</Greatbow.label>
   <!-- EN: Craft greatbows for killing enemies at great range. -->
-  <Greatbow.description>Craft greatbows for killing enemies at great range.</Greatbow.description>
+  <Greatbow.description>ساخت کمان بزرگ برای کشتن دشمنان در برد زیاد.</Greatbow.description>
   <!-- EN:
     <li>subject->greatbows</li>
     <li>subject_story->fired an arrow right through the iron helmet of a feudal king</li>
@@ -183,9 +183,9 @@
   </Greatbow.generalRules.rulesStrings>
   
   <!-- EN: long blades -->
-  <LongBlades.label>long blades</LongBlades.label>
+  <LongBlades.label>تیغه های بلند</LongBlades.label>
   <!-- EN: Craft longswords and spears. -->
-  <LongBlades.description>Craft longswords and spears.</LongBlades.description>
+  <LongBlades.description>شمشیرهای بلند و نیزه بسازید.</LongBlades.description>
   <!-- EN:
     <li>subject->medieval weaponry</li>
     <li>subject_story->rode with the Betaduke's Fifth Light Cavalry as they conquered the sector</li>
@@ -202,9 +202,9 @@
   </LongBlades.generalRules.rulesStrings>
   
   <!-- EN: passive cooler -->
-  <PassiveCooler.label>passive cooler</PassiveCooler.label>
+  <PassiveCooler.label>کولر غیرفعال</PassiveCooler.label>
   <!-- EN: Make passive coolers, to cool indoor spaces without using electricity. -->
-  <PassiveCooler.description>Make passive coolers, to cool indoor spaces without using electricity.</PassiveCooler.description>
+  <PassiveCooler.description>برای خنک کردن فضاهای داخلی بدون استفاده از برق، کولرهای غیرفعال بسازید.</PassiveCooler.description>
   <!-- EN:
     <li>subject->evaporation</li>
     <li>subject->passive coolers</li>
@@ -223,9 +223,9 @@
   </PassiveCooler.generalRules.rulesStrings>
   
   <!-- EN: pemmican -->
-  <Pemmican.label>pemmican</Pemmican.label>
+  <Pemmican.label>پمیکان</Pemmican.label>
   <!-- EN: Make pemmican, a preserved mixture of meat and plant matter that doesn't go bad for a long time. Great for traveling. -->
-  <Pemmican.description>Make pemmican, a preserved mixture of meat and plant matter that doesn't go bad for a long time. Great for traveling.</Pemmican.description>
+  <Pemmican.description>پمیکان را درست کنید، مخلوطی از گوشت و مواد گیاهی نگهداری شده که برای مدت طولانی بد نمی شود. برای مسافرت عالیه</Pemmican.description>
   <!-- EN:
     <li>subject->pemmican production</li>
     <li>subject_story->mastered pemmican production during a long pilgrimage to the planet's Spire</li>
@@ -242,9 +242,9 @@
   </Pemmican.generalRules.rulesStrings>
   
   <!-- EN: penoxycyline production -->
-  <PenoxycylineProduction.label>penoxycyline production</PenoxycylineProduction.label>
+  <PenoxycylineProduction.label>تولید پنوکسی سیلین</PenoxycylineProduction.label>
   <!-- EN: Produce penoxycyline, a disease prevention drug which blocks plague, malaria, and more before they start. -->
-  <PenoxycylineProduction.description>Produce penoxycyline, a disease prevention drug which blocks plague, malaria, and more before they start.</PenoxycylineProduction.description>
+  <PenoxycylineProduction.description>پنوکسی سیلین، داروی پیشگیری از بیماری که طاعون، مالاریا و موارد دیگر را قبل از شروع آنها مسدود می کند، تولید کنید.</PenoxycylineProduction.description>
   <!-- EN:
     <li>subject->penoxycyline production</li>
     <li>subject_story->lectured to the United Planets about preventative medicine</li>
@@ -261,9 +261,9 @@
   </PenoxycylineProduction.generalRules.rulesStrings>
   
   <!-- EN: plate armor -->
-  <PlateArmor.label>plate armor</PlateArmor.label>
+  <PlateArmor.label>زره صفحه‌ای</PlateArmor.label>
   <!-- EN: Smith suits of plate armor from metal or wood. This heavy armor noticeably slows movement, but protects very effectively. -->
-  <PlateArmor.description>Smith suits of plate armor from metal or wood. This heavy armor noticeably slows movement, but protects very effectively.</PlateArmor.description>
+  <PlateArmor.description>لباس اسمیت از زره صفحه‌ای از فلز یا چوب. این زره سنگین حرکت را به طور قابل توجهی کند می کند، اما بسیار موثر محافظت می کند.</PlateArmor.description>
   <!-- EN:
     <li>subject->plate armor</li>
     <li>subject_story->crafted armor from scrap, when the authorities surrounded [ANYPAWN_possessive] family's shack</li>
@@ -280,9 +280,9 @@
   </PlateArmor.generalRules.rulesStrings>
   
   <!-- EN: psychite refining -->
-  <PsychiteRefining.label>psychite refining</PsychiteRefining.label>
+  <PsychiteRefining.label>تصفیه روانی</PsychiteRefining.label>
   <!-- EN: Refine psychoid leaves into flake and yayo, different forms of the euphoric psychite drug. -->
-  <PsychiteRefining.description>Refine psychoid leaves into flake and yayo, different forms of the euphoric psychite drug.</PsychiteRefining.description>
+  <PsychiteRefining.description>برگ‌های روان‌شناس را به شکل‌های فلیک و یایو، اشکال مختلف داروی روان‌پریشی سرخوشی، تصفیه کنید.</PsychiteRefining.description>
   <!-- EN:
     <li>subject->psychite production</li>
     <li>subject_story->used [ANYPAWN_possessive] university job as cover for [ANYPAWN_possessive] drug-dealing</li>
@@ -299,9 +299,9 @@
   </PsychiteRefining.generalRules.rulesStrings>
   
   <!-- EN: psychoid brewing -->
-  <PsychoidBrewing.label>psychoid brewing</PsychoidBrewing.label>
+  <PsychoidBrewing.label>دم کردن روان شناسی</PsychoidBrewing.label>
   <!-- EN: Prepare psychoid leaves into a mildly euphoria-inducing and addictive tea at the campfire or cooking stove. -->
-  <PsychoidBrewing.description>Prepare psychoid leaves into a mildly euphoria-inducing and addictive tea at the campfire or cooking stove.</PsychoidBrewing.description>
+  <PsychoidBrewing.description>برگ های روان شناسی را برای یک چای خفیف سرخوشی و اعتیادآور در آتش یا اجاق آشپزی آماده کنید.</PsychoidBrewing.description>
   <!-- EN:
     <li>subject->psychoid</li>
     <li>subject_story->joined a short-lived psychoid commune on a cult world</li>
@@ -318,9 +318,9 @@
   </PsychoidBrewing.generalRules.rulesStrings>
   
   <!-- EN: recurve bow -->
-  <RecurveBow.label>recurve bow</RecurveBow.label>
+  <RecurveBow.label>کمان برگشتی</RecurveBow.label>
   <!-- EN: Build the recurve bow, an effective and inexpensive ranged weapon. -->
-  <RecurveBow.description>Build the recurve bow, an effective and inexpensive ranged weapon.</RecurveBow.description>
+  <RecurveBow.description>کمان برگشتی را بسازید، یک سلاح برد موثر و ارزان.</RecurveBow.description>
   <!-- EN:
     <li>subject->bowyery</li>
     <li>subject->bow-making</li>
@@ -339,9 +339,9 @@
   </RecurveBow.generalRules.rulesStrings>
   
   <!-- EN: smithing -->
-  <Smithing.label>smithing</Smithing.label>
+  <Smithing.label>آهنگری</Smithing.label>
   <!-- EN: Build smithies for crafting metal weapons like knives, gladii, and maces. Work metal into clean, beautiful floor tiles. -->
-  <Smithing.description>Build smithies for crafting metal weapons like knives, gladii, and maces. Work metal into clean, beautiful floor tiles.</Smithing.description>
+  <Smithing.description>آهنگری برای ساخت سلاح های فلزی مانند چاقو، گلادی و گرز بسازید. فلز را روی کاشی های کف تمیز و زیبا بکارید.</Smithing.description>
   <!-- EN:
     <li>subject->blacksmithing</li>
     <li>subject_story->settled in a medieval hamlet and mastered simple metal crafting</li>
@@ -356,9 +356,9 @@
   </Smithing.generalRules.rulesStrings>
   
   <!-- EN: stonecutting -->
-  <Stonecutting.label>stonecutting</Stonecutting.label>
+  <Stonecutting.label>سنگبری</Stonecutting.label>
   <!-- EN: Cut rock chunks into stone blocks for use in construction. Build beautiful stone tile floors or ugly concrete walkways. -->
-  <Stonecutting.description>Cut rock chunks into stone blocks for use in construction. Build beautiful stone tile floors or ugly concrete walkways.</Stonecutting.description>
+  <Stonecutting.description>تکه های سنگ را برای استفاده در ساخت و ساز به بلوک های سنگی برش دهید. کف کاشی های سنگی زیبا یا راهروهای بتنی زشت بسازید.</Stonecutting.description>
   <!-- EN:
     <li>subject->masonry</li>
     <li>subject_story->was the first in a line of temple designers, all sharing the same name</li>
@@ -377,9 +377,9 @@
   </Stonecutting.generalRules.rulesStrings>
   
   <!-- EN: tree sowing -->
-  <TreeSowing.label>tree sowing</TreeSowing.label>
+  <TreeSowing.label>کاشت درخت</TreeSowing.label>
   <!-- EN: Sow the local biome's natural trees in your fields. -->
-  <TreeSowing.description>Sow the local biome's natural trees in your fields.</TreeSowing.description>
+  <TreeSowing.description>درختان طبیعی بیوم محلی را در مزارع خود بکارید.</TreeSowing.description>
   <!-- EN:
     <li>subject->tree sowing</li>
     <li>subject_story->propagated trees across a long-dead planetoid, trying to bring life back</li>
@@ -396,9 +396,9 @@
   </TreeSowing.generalRules.rulesStrings>
   
   <!-- EN: wake-up production -->
-  <WakeUpProduction.label>wake-up production</WakeUpProduction.label>
+  <WakeUpProduction.label>تولید بیداری</WakeUpProduction.label>
   <!-- EN: Synthesize wake-up, a work performance-enhancing drug which replaces the need for sleep. -->
-  <WakeUpProduction.description>Synthesize wake-up, a work performance-enhancing drug which replaces the need for sleep.</WakeUpProduction.description>
+  <WakeUpProduction.description>Synthesize wake up، یک داروی افزایش دهنده عملکرد کاری که جایگزین نیاز به خواب می شود.</WakeUpProduction.description>
   <!-- EN:
     <li>subject->wake-up production</li>
     <li>subject_story->tried to overcome caffeine addiction by taking wake-up</li>

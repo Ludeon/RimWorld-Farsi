@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: deep drilling -->
-  <DeepDrilling.label>deep drilling</DeepDrilling.label>
+  <DeepDrilling.label>حفاری عمیق</DeepDrilling.label>
   <!-- EN: Build deep drills for extracting resources from underground. You'll need a ground-penetrating scanner to find the resources. -->
-  <DeepDrilling.description>Build deep drills for extracting resources from underground. You'll need a ground-penetrating scanner to find the resources.</DeepDrilling.description>
+  <DeepDrilling.description>ساخت مته های عمیق برای استخراج منابع از زیر زمین. برای یافتن منابع به یک اسکنر با نفوذ به زمین نیاز دارید.</DeepDrilling.description>
   <!-- EN:
     <li>subject->deep mining</li>
     <li>subject_story->moved in with a dirtmole-led corp, studying its deepest excavations</li>
@@ -21,9 +21,9 @@
   </DeepDrilling.generalRules.rulesStrings>
   
   <!-- EN: flatscreen television -->
-  <FlatscreenTelevision.label>flatscreen television</FlatscreenTelevision.label>
+  <FlatscreenTelevision.label>تلویزیون صفحه تخت</FlatscreenTelevision.label>
   <!-- EN: Produce high-resolution flatscreen televisions for greater enjoyment. -->
-  <FlatscreenTelevision.description>Produce high-resolution flatscreen televisions for greater enjoyment.</FlatscreenTelevision.description>
+  <FlatscreenTelevision.description>برای لذت بیشتر، تلویزیون های صفحه تخت با وضوح بالا تولید کنید.</FlatscreenTelevision.description>
   <!-- EN:
     <li>subject->flatscreen televisions</li>
     <li>subject_story->experimented with removing tubes from televisions</li>
@@ -50,9 +50,9 @@
   </FlatscreenTelevision.generalRules.rulesStrings>
   
   <!-- EN: ground-penetrating scanner -->
-  <GroundPenetratingScanner.label>ground-penetrating scanner</GroundPenetratingScanner.label>
+  <GroundPenetratingScanner.label>اسکنر نفوذ به زمین</GroundPenetratingScanner.label>
   <!-- EN: Build ground-penetrating scanners that can detect drillable resources under the surface. Requires an advanced component to construct. -->
-  <GroundPenetratingScanner.description>Build ground-penetrating scanners that can detect drillable resources under the surface. Requires an advanced component to construct.</GroundPenetratingScanner.description>
+  <GroundPenetratingScanner.description>اسکنرهایی با نفوذ به زمین بسازید که می توانند منابع قابل حفاری را در زیر سطح شناسایی کنند. برای ساخت به یک جزء پیشرفته نیاز دارد.</GroundPenetratingScanner.description>
   <!-- EN:
     <li>subject->geophysics</li>
     <li>subject->ground-penetrating scanners</li>
@@ -71,9 +71,9 @@
   </GroundPenetratingScanner.generalRules.rulesStrings>
   
   <!-- EN: autocannon turret -->
-  <HeavyTurrets.label>autocannon turret</HeavyTurrets.label>
+  <HeavyTurrets.label>برجک خودکار</HeavyTurrets.label>
   <!-- EN: Produce the heavy autocannon turret. -->
-  <HeavyTurrets.description>Produce the heavy autocannon turret.</HeavyTurrets.description>
+  <HeavyTurrets.description>برجک خودکار سنگین را تولید کنید.</HeavyTurrets.description>
   <!-- EN:
     <li>subject->autocannon turrets</li>
     <li>subject_story->held off a cultist assault alone, hiding behind a wall of turrets</li>
@@ -90,9 +90,9 @@
   </HeavyTurrets.generalRules.rulesStrings>
   
   <!-- EN: hospital bed -->
-  <HospitalBed.label>hospital bed</HospitalBed.label>
+  <HospitalBed.label>تخت بیمارستان</HospitalBed.label>
   <!-- EN: Construct hospital beds which improve medical outcomes. -->
-  <HospitalBed.description>Construct hospital beds which improve medical outcomes.</HospitalBed.description>
+  <HospitalBed.description>تخت های بیمارستانی بسازید که نتایج پزشکی را بهبود می بخشد.</HospitalBed.description>
   <!-- EN:
     <li>subject->hospitalization</li>
     <li>subject_story->oversaw a revolution in the standards of medical care</li>
@@ -109,9 +109,9 @@
   </HospitalBed.generalRules.rulesStrings>
   
   <!-- EN: long-range mineral scanner -->
-  <LongRangeMineralScanner.label>long-range mineral scanner</LongRangeMineralScanner.label>
+  <LongRangeMineralScanner.label>اسکنر معدنی دوربرد</LongRangeMineralScanner.label>
   <!-- EN: Construct long-range mineral scanners your researchers can use to detect precious minerals across the planet. Can be tuned to find a specific mineral. Requires advanced components to construct. -->
-  <LongRangeMineralScanner.description>Construct long-range mineral scanners your researchers can use to detect precious minerals across the planet. Can be tuned to find a specific mineral. Requires advanced components to construct.</LongRangeMineralScanner.description>
+  <LongRangeMineralScanner.description>اسکنرهای معدنی دوربرد بسازید که محققان شما می توانند از آن برای شناسایی مواد معدنی گرانبها در سراسر سیاره استفاده کنند. می توان برای یافتن یک ماده معدنی خاص تنظیم کرد. برای ساخت به اجزای پیشرفته نیاز دارد.</LongRangeMineralScanner.description>
   <!-- EN:
     <li>subject->long-range mineral detection</li>
     <li>subject_story->built so many scanners that the planet's entire geology was revealed</li>
@@ -128,9 +128,9 @@
   </LongRangeMineralScanner.generalRules.rulesStrings>
   
   <!-- EN: medicine production -->
-  <MedicineProduction.label>medicine production</MedicineProduction.label>
+  <MedicineProduction.label>تولید دارو</MedicineProduction.label>
   <!-- EN: Produce standard industrial-tech medicine by combining herbal medicine, neutroamine, and cloth. -->
-  <MedicineProduction.description>Produce standard industrial-tech medicine by combining herbal medicine, neutroamine, and cloth.</MedicineProduction.description>
+  <MedicineProduction.description>با ترکیب داروهای گیاهی، نوتروآمین و پارچه، داروی استاندارد صنعتی-فناوری تولید کنید.</MedicineProduction.description>
   <!-- EN:
     <li>subject->medical synthesis</li>
     <li>subject->medicine production</li>
@@ -149,9 +149,9 @@
   </MedicineProduction.generalRules.rulesStrings>
   
   <!-- EN: microelectronics -->
-  <MicroelectronicsBasics.label>microelectronics</MicroelectronicsBasics.label>
+  <MicroelectronicsBasics.label>میکروالکترونیک</MicroelectronicsBasics.label>
   <!-- EN: Work with complex microelectronics. This unlocks the hi-tech research bench and comms console. -->
-  <MicroelectronicsBasics.description>Work with complex microelectronics. This unlocks the hi-tech research bench and comms console.</MicroelectronicsBasics.description>
+  <MicroelectronicsBasics.description>کار با میکروالکترونیک پیچیده با این کار میز تحقیقاتی پیشرفته و کنسول comms باز می شود.</MicroelectronicsBasics.description>
   <!-- EN:
     <li>subject->microelectronics</li>
     <li>subject_story->moved into the development of microelectronics</li>
@@ -168,9 +168,9 @@
   </MicroelectronicsBasics.generalRules.rulesStrings>
   
   <!-- EN: moisture pump -->
-  <MoisturePump.label>moisture pump</MoisturePump.label>
+  <MoisturePump.label>پمپ رطوبت</MoisturePump.label>
   <!-- EN: Construct moisture pumps, which very slowly normalize the moisture in the ground around them. They can turn wet ground dry and convert soft sand into normal sand. -->
-  <MoisturePump.description>Construct moisture pumps, which very slowly normalize the moisture in the ground around them. They can turn wet ground dry and convert soft sand into normal sand.</MoisturePump.description>
+  <MoisturePump.description>پمپ های رطوبتی بسازید که به آرامی رطوبت زمین را در اطراف خود عادی می کنند. آنها می توانند زمین مرطوب را خشک کرده و ماسه نرم را به ماسه معمولی تبدیل کنند.</MoisturePump.description>
   <!-- EN:
     <li>subject->moisture pumps</li>
     <li>subject_story->studied the ancient windmill moisture pumps of Earth</li>
@@ -187,9 +187,9 @@
   </MoisturePump.generalRules.rulesStrings>
   
   <!-- EN: multibarrel weapons -->
-  <MultibarrelWeapons.label>multibarrel weapons</MultibarrelWeapons.label>
+  <MultibarrelWeapons.label>سلاح های چند لوله‌ای</MultibarrelWeapons.label>
   <!-- EN: Assemble miniguns. -->
-  <MultibarrelWeapons.description>Assemble miniguns.</MultibarrelWeapons.description>
+  <MultibarrelWeapons.description>مینی تفنگ‌ها را جمع کنید.</MultibarrelWeapons.description>
   <!-- EN:
     <li>subject->miniguns</li>
     <li>subject_story->constructed a unique portable minigun, which was the only thing found after the squad's disappearance</li>
@@ -206,9 +206,9 @@
   </MultibarrelWeapons.generalRules.rulesStrings>
   
   <!-- EN: precision rifling -->
-  <PrecisionRifling.label>precision rifling</PrecisionRifling.label>
+  <PrecisionRifling.label>تفنگ دقیق</PrecisionRifling.label>
   <!-- EN: Craft precisely-machined guns like assault rifles and sniper rifles. -->
-  <PrecisionRifling.description>Craft precisely-machined guns like assault rifles and sniper rifles.</PrecisionRifling.description>
+  <PrecisionRifling.description>اسلحه های دقیق ماشین کاری مانند تفنگ های تهاجمی و تفنگ های تک تیرانداز بسازید.</PrecisionRifling.description>
   <!-- EN:
     <li>subject->rifles</li>
     <li>subject_story->improved the tolerances of a foundry's processes, enabling the production of quality rifling</li>
@@ -225,9 +225,9 @@
   </PrecisionRifling.generalRules.rulesStrings>
   
   <!-- EN: shields -->
-  <ShieldBelt.label>shields</ShieldBelt.label>
+  <ShieldBelt.label>سپرها</ShieldBelt.label>
   <!-- EN: Build wearable shield gear. Shields use momentum-repulsion technology to prevent projectiles from traversing the field boundary. -->
-  <ShieldBelt.description>Build wearable shield gear. Shields use momentum-repulsion technology to prevent projectiles from traversing the field boundary.</ShieldBelt.description>
+  <ShieldBelt.description>تجهیزات محافظ پوشیدنی بسازید. سپرها از فناوری دفع حرکت برای جلوگیری از عبور پرتابه‌ها از مرز میدان استفاده می کنند.</ShieldBelt.description>
   <!-- EN:
     <li>subject->personal shielding</li>
     <li>subject_story->survived an assassination attempt, thanks to a prototype shield</li>
@@ -244,9 +244,9 @@
   </ShieldBelt.generalRules.rulesStrings>
   
   <!-- EN: transport pod -->
-  <TransportPod.label>transport pod</TransportPod.label>
+  <TransportPod.label>غلاف حمل و نقل</TransportPod.label>
   <!-- EN: Construct launchable transport pods that you can use to send people and supplies long distances across the planet's surface. Can be used for raiding, travel, sending gifts, and more. -->
-  <TransportPod.description>Construct launchable transport pods that you can use to send people and supplies long distances across the planet's surface. Can be used for raiding, travel, sending gifts, and more.</TransportPod.description>
+  <TransportPod.description>غلاف های حمل و نقل قابل پرتاب را بسازید که می توانید از آنها برای ارسال افراد و تجهیزات به مسافت های طولانی در سطح سیاره استفاده کنید. می توان از آن برای حمله، سفر، ارسال هدایا و موارد دیگر استفاده کرد.</TransportPod.description>
   <!-- EN:
     <li>subject->transport pods</li>
     <li>subject_story->landed a pod in the middle of a feral tribe and barely escaped alive</li>

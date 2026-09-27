@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: person captured -->
-  <Captured.label>person captured</Captured.label>
+  <Captured.label>فرد اسیر شده</Captured.label>
   <!-- EN:
     <li>tale_noun->[CAPTURER_nameDef] capturing [PRISONER_nameDef]</li>
     <li>tale_noun->[PRISONER_nameDef] being captured by [CAPTURER_nameDef]</li>
@@ -55,10 +55,10 @@
   </Captured.rulePack.rulesStrings>
   
   <!-- EN: defeated hostile leader -->
-  <DefeatedHostileFactionLeader.label>defeated hostile leader</DefeatedHostileFactionLeader.label>
+  <DefeatedHostileFactionLeader.label>رهبر متخاصم را شکست داد</DefeatedHostileFactionLeader.label>
   
   <!-- EN: surgery performed -->
-  <DidSurgery.label>surgery performed</DidSurgery.label>
+  <DidSurgery.label>جراحی انجام شده</DidSurgery.label>
   <!-- EN:
     <li>tale_noun->[SURGEON_nameDef] operating on [PATIENT_nameDef]</li>
     <li>tale_noun->[SURGEON_nameDef] performing a medical operation on [PATIENT_nameDef]</li>
@@ -93,7 +93,7 @@
   </DidSurgery.rulePack.rulesStrings>
   
   <!-- EN: prisoner executed -->
-  <ExecutedPrisoner.label>prisoner executed</ExecutedPrisoner.label>
+  <ExecutedPrisoner.label>زندانی اعدام شد</ExecutedPrisoner.label>
   <!-- EN:
     <li>tale_noun->[EXECUTIONER_nameDef] executing [PRISONER_nameDef]</li>
     <li>tale_noun->[PRISONER_nameDef] being executed by [EXECUTIONER_nameDef]</li>
@@ -154,7 +154,7 @@
   </ExecutedPrisoner.rulePack.rulesStrings>
   
   <!-- EN: animal hunted -->
-  <Hunted.label>animal hunted</Hunted.label>
+  <Hunted.label>حیوان شکار شده</Hunted.label>
   <!-- EN:
     <li>tale_noun->[HUNTER_nameDef] hunting [PREY_nameDef]</li>
     <li>tale_noun->[PREY_nameDef] being hunted by [HUNTER_nameDef]</li>
@@ -185,7 +185,7 @@
   </Hunted.rulePack.rulesStrings>
   
   <!-- EN: colonist kidnapped -->
-  <KidnappedColonist.label>colonist kidnapped</KidnappedColonist.label>
+  <KidnappedColonist.label>استعمارگر ربوده شد</KidnappedColonist.label>
   <!-- EN:
     <li>tale_noun->[KIDNAPPER_nameDef] kidnapping [VICTIM_nameDef]</li>
     <li>tale_noun->[VICTIM_nameDef] being kidnapped by [KIDNAPPER_nameDef]</li>
@@ -230,7 +230,7 @@
   </KidnappedColonist.rulePack.rulesStrings>
   
   <!-- EN: death -->
-  <KilledBy.label>death</KilledBy.label>
+  <KilledBy.label>مرگ</KilledBy.label>
   <!-- EN:
     <li>tale_noun->[KILLER_nameDef] killing [VICTIM_nameDef]</li>
     <li>tale_noun->[VICTIM_nameDef] being killed by [KILLER_nameDef]</li>
@@ -289,13 +289,13 @@
   </KilledBy.rulePack.rulesStrings>
   
   <!-- EN: colonist killed -->
-  <KilledColonist.label>colonist killed</KilledColonist.label>
+  <KilledColonist.label>استعمارگر کشته شد</KilledColonist.label>
   
   <!-- EN: colony animal killed -->
-  <KilledColonyAnimal.label>colony animal killed</KilledColonyAnimal.label>
+  <KilledColonyAnimal.label>حیوان مستعمره کشته شد</KilledColonyAnimal.label>
   
   <!-- EN: person recruited -->
-  <Recruited.label>person recruited</Recruited.label>
+  <Recruited.label>فرد استخدام شده</Recruited.label>
   <!-- EN:
     <li>tale_noun->[RECRUITER_nameDef] recruiting [JOINER_nameDef]</li>
     <li>tale_noun->[JOINER_nameDef] being recruited by [RECRUITER_nameDef]</li>
@@ -332,7 +332,7 @@
   </Recruited.rulePack.rulesStrings>
   
   <!-- EN: prisoner sold -->
-  <SoldPrisoner.label>prisoner sold</SoldPrisoner.label>
+  <SoldPrisoner.label>زندانی فروخته شد</SoldPrisoner.label>
   <!-- EN:
     <li>tale_noun->the selling of [PRISONER_nameDef] to a trader</li>
     <li>tale_noun->[SELLER_nameDef] selling [PRISONER_nameDef] as a slave</li>
@@ -379,7 +379,7 @@
   </SoldPrisoner.rulePack.rulesStrings>
   
   <!-- EN: animal tamed -->
-  <TamedAnimal.label>animal tamed</TamedAnimal.label>
+  <TamedAnimal.label>حیوان رام شده</TamedAnimal.label>
   <!-- EN:
     <li>tale_noun->the taming of [ANIMAL_nameDef] by [TAMER_nameDef]</li>
     <li>tale_noun->[TAMER_nameDef]'s taming of [ANIMAL_nameDef]</li>
@@ -416,7 +416,7 @@
   </TamedAnimal.rulePack.rulesStrings>
   
   <!-- EN: traded with someone -->
-  <TradedWith.label>traded with someone</TradedWith.label>
+  <TradedWith.label>با کسی معامله کرد</TradedWith.label>
   <!-- EN:
     <li>tale_noun->a trade between [SELLER_nameFull] and [BUYER_nameFull]</li>
     <li>image->[BUYER_nameFull] buying goods from [SELLER_nameFull] [circumstance_group]</li>
@@ -449,7 +449,7 @@
   </TradedWith.rulePack.rulesStrings>
   
   <!-- EN: animal trained -->
-  <TrainedAnimal.label>animal trained</TrainedAnimal.label>
+  <TrainedAnimal.label>حیوان تربیت شده</TrainedAnimal.label>
   <!-- EN:
     <li>tale_noun->[TRAINER_nameDef] training [ANIMAL_nameDef]</li>
     <li>tale_noun->the training of [ANIMAL_nameDef]</li>
