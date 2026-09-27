@@ -100,7 +100,21 @@ python tools/rtl-processor/validate_xml.py
 pre-commit run --all-files
 ```
 
-### 4. C# Mod Development (`mods/RTL_Persian_Support/`)
+### 4. Syncing with Local Game Installation (`tools/sync.sh`)
+You can quickly synchronize translations between this repository and your local RimWorld game directory using `tools/sync.sh`:
+
+```bash
+# Push translations to your RimWorld installation
+./tools/sync.sh --gamepath "/path/to/RimWorld"
+
+# Preview file transfers without modifying disk
+./tools/sync.sh --gamepath "/path/to/RimWorld" --dry-run
+
+# Pull modified translations from your game installation back into the repo
+./tools/sync.sh --gamepath "/path/to/RimWorld" --direction pull
+```
+
+### 5. C# Mod Development (`mods/RTL_Persian_Support/`)
 The in-game patch mod uses **Harmony** to adjust bidirectional font layout in Unity:
 - Open [`RimWorld-Farsi.sln`](RimWorld-Farsi.sln) using Visual Studio 2022+ or Rider.
 - References RimWorld assembly files (`Assembly-CSharp.dll`, `UnityEngine.dll`) from your local RimWorld installation.
