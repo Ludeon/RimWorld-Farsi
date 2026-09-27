@@ -10,24 +10,18 @@ runs:
   using: 'composite'
   steps:
     - name: Install uv
-      uses: astral-sh/setup-uv@v4
+      uses: astral-sh/setup-uv@v5
       with:
         version: "latest"
+        enable-cache: true
+        cache-dependency-glob: |
+          tools/rtl-processor/requirements.txt
+          tools/rtl-processor/pyproject.toml
 
     - name: Set up Python ${{ inputs.python-version }}
       uses: actions/setup-python@v5
       with:
         python-version: ${{ inputs.python-version }}
-
-    - name: Cache uv dependencies
-      uses: actions/cache@v4
-      with:
-        path: |
-          ~/.cache/uv
-          ~/.cache/pip
-        key: ${{ runner.os }}-uv-${{ inputs.python-version }}-${{ hashFiles('tools/rtl-processor/requirements.txt') }}-${{ hashFiles('tools/rtl-processor/pyproject.toml') || 'no-pyproject' }}
-        restore-keys: |
-          ${{ runner.os }}-uv-${{ inputs.python-version }}-
 
     - name: Install base dependencies
       shell: bash

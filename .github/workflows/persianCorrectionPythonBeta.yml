@@ -306,10 +306,10 @@ jobs:
           - github/codeql-action/autobuild@v3
           - github/codeql-action/analyze@v3
           - actions/dependency-review-action@v4
-          - aquasecurity/trivy (via apt)
+          - aquasecurity/trivy-action@v0.36.0
           - actions/upload-artifact@v4
           - actions/download-artifact@v4
-          - actions/attest-build-provenance@v1
+          - actions/attest-build-provenance@v2
           - sigstore/cosign-installer@v3
           - softprops/action-gh-release@v2
           - codecov/codecov-action@v5
@@ -394,7 +394,7 @@ jobs:
           md5sum "../$ARTIFACT_NAME.zip" > "../$ARTIFACT_NAME.zip.md5"
 
       - name: Attest build provenance
-        uses: actions/attest-build-provenance@v1
+        uses: actions/attest-build-provenance@v2
         with:
           subject-path: ${{ steps.artifact.outputs.name }}.zip
 

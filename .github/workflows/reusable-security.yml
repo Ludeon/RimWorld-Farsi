@@ -42,34 +42,17 @@ jobs:
         uses: actions/dependency-review-action@v4
         if: github.event_name == 'pull_request'
 
-      - name: Install Trivy
-        run: |
-          # Robust Trivy installation with fallback
-          if ! sudo apt-get update; then
-            echo "⚠️  Failed to update apt, continuing with cached packages..."
-          fi
-
-          if wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | sudo apt-key add - && \
-             echo "deb https://aquasecurity.github.io/trivy-repo/deb $(lsb_release -sc) main" | sudo tee -a /etc/apt/sources.list.d/trivy.list && \
-             sudo apt-get update && \
-             sudo apt-get install -y trivy; then
-            echo "✅ Trivy installed successfully"
-          else
-            echo "⚠️  Trivy installation failed, skipping vulnerability scan"
-            echo "TRIVY_INSTALLED=false" >> $GITHUB_ENV
-          fi
-
       - name: Run Trivy vulnerability scan
-        if: env.TRIVY_INSTALLED != 'false'
-        run: |
-          if trivy filesystem --format sarif --output trivy-results.sarif --timeout 5m tools/rtl-processor/; then
-            echo "✅ Trivy scan completed successfully"
-          else
-            echo "⚠️  Trivy scan failed, continuing without vulnerability results"
-          fi
+        uses: aquasecurity/trivy-action@v0.36.0
+        with:
+          scan-type: 'fs'
+          scan-ref: 'tools/rtl-processor/'
+          format: 'sarif'
+          output: 'trivy-results.sarif'
+          severity: 'CRITICAL,HIGH'
 
       - name: Upload Trivy scan results to GitHub Security tab
-        if: always() && env.TRIVY_INSTALLED != 'false'
+        if: always()
         uses: github/codeql-action/upload-sarif@v3
         with:
           sarif_file: trivy-results.sarif
