@@ -4,14 +4,24 @@ on:
   push:
     branches: [main]
     paths:
-      - 'tools/rtl-processor/**'
-      - 'Data/**'
+      - 'tools/**'
+      - 'Core/**'
+      - 'Royalty/**'
+      - 'Ideology/**'
+      - 'Biotech/**'
+      - 'Anomaly/**'
+      - 'Odyssey/**'
       - '.github/workflows/persianCorrectionPythonBeta.yml'
   pull_request:
     branches: [main]
     paths:
-      - 'tools/rtl-processor/**'
-      - 'Data/**'
+      - 'tools/**'
+      - 'Core/**'
+      - 'Royalty/**'
+      - 'Ideology/**'
+      - 'Biotech/**'
+      - 'Anomaly/**'
+      - 'Odyssey/**'
       - '.github/workflows/persianCorrectionPythonBeta.yml'
   workflow_dispatch:
     inputs:
@@ -139,7 +149,13 @@ jobs:
           cd ${{ env.TOOLS_DIR }}
           START_TIME=$(date +%s)
 
-          MODULE_PATH="${{ github.workspace }}/${{ env.BUILD_DIR }}/${{ matrix.module }}"
+          if [ -d "${{ github.workspace }}/${{ matrix.module }}" ]; then
+            MODULE_PATH="${{ github.workspace }}/${{ matrix.module }}"
+          elif [ -d "${{ github.workspace }}/${{ env.BUILD_DIR }}/${{ matrix.module }}" ]; then
+            MODULE_PATH="${{ github.workspace }}/${{ env.BUILD_DIR }}/${{ matrix.module }}"
+          else
+            MODULE_PATH="${{ github.workspace }}/${{ matrix.module }}"
+          fi
 
           # Robust module existence and size check
           if [ -d "$MODULE_PATH" ]; then
@@ -171,7 +187,7 @@ jobs:
               exit 1
             fi
           else
-            echo "ℹ️  Module ${{ matrix.module }} not found in ${{ env.BUILD_DIR }}, skipping..."
+            echo "ℹ️  Module ${{ matrix.module }} not found, skipping..."
             echo "translation_duration=0" >> $GITHUB_OUTPUT
             echo "✅ ${{ matrix.module }} module skipped (not found)"
           fi
@@ -183,7 +199,9 @@ jobs:
           cd ${{ env.TOOLS_DIR }}
           START_TIME=$(date +%s)
 
-          if [ -d "${{ github.workspace }}/${{ env.BUILD_DIR }}/${{ matrix.module }}" ]; then
+          if [ -d "${{ github.workspace }}/${{ matrix.module }}" ]; then
+            python validate_xml.py "${{ github.workspace }}/${{ matrix.module }}"
+          elif [ -d "${{ github.workspace }}/${{ env.BUILD_DIR }}/${{ matrix.module }}" ]; then
             python validate_xml.py "${{ github.workspace }}/${{ env.BUILD_DIR }}/${{ matrix.module }}"
           fi
 
@@ -196,7 +214,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.module }}-processed-${{ github.run_id }}
-          path: ${{ env.BUILD_DIR }}/${{ matrix.module }}/**
+          path: |
+            ${{ matrix.module }}/**
+            ${{ env.BUILD_DIR }}/${{ matrix.module }}/**
           retention-days: 1
           if-no-files-found: warn
 
@@ -238,6 +258,7 @@ jobs:
           # Copy all processed modules
           for module in Core Biotech Ideology Royalty Anomaly Odyssey; do
             if [ -d "modules/${module}-processed-${{ github.run_id }}" ]; then
+              mkdir -p "${{ env.BUILD_DIR }}/${module}"
               cp -r "modules/${module}-processed-${{ github.run_id }}"/* "${{ env.BUILD_DIR }}/${module}/"
             fi
           done

@@ -3,15 +3,16 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "rimworld-farsi-rtl"
+name = "rimworld-farsi"
 version = "1.0.0"
-description = "Persian RTL bidirectional text processor and XML validator for RimWorld"
+description = "Persian translation toolchain, RTL bidirectional processor, and XML validator for RimWorld"
+readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "GPL-3.0"}
 authors = [
     {name = "RimWorld Farsi Team"}
 ]
-keywords = ["rimworld", "farsi", "persian", "rtl", "translation"]
+keywords = ["rimworld", "farsi", "persian", "rtl", "translation", "localization"]
 dependencies = [
     "lxml>=5.0.0",
 ]
@@ -21,36 +22,22 @@ dev = [
     "pytest>=8.0.0",
     "pytest-cov>=4.1.0",
     "mypy>=1.14.0",
-    "black>=24.0.0",
-    "isort>=5.13.0",
-    "flake8>=7.0.0",
     "ruff>=0.8.0",
     "pip-audit>=2.0.0",
 ]
 
-[tool.black]
-line-length = 88
-target-version = ['py310', 'py311', 'py312', 'py313']
-include = '\.pyi?$'
-extend-exclude = '''
-/(
-  # directories
-  \.eggs
-  | \.git
-  | \.hg
-  | \.mypy_cache
-  | \.tox
-  | \.venv
-  | _build
-  | buck-out
-  | build
-  | dist
-)/
-'''
-
 [tool.ruff]
 line-length = 88
 target-version = "py312"
+exclude = [
+    "archive",
+    ".git",
+    ".mypy_cache",
+    ".ruff_cache",
+    ".pytest_cache",
+    "build",
+    "dist",
+]
 
 [tool.ruff.lint]
 select = [
@@ -62,14 +49,6 @@ select = [
     "B",   # flake8-bugbear
 ]
 ignore = ["E501"]
-
-
-[tool.isort]
-profile = "black"
-multi_line_output = 3
-line_length = 88
-known_first_party = ["PersianFixer"]
-known_third_party = ["lxml", "pytest"]
 
 [tool.mypy]
 python_version = "3.12"
@@ -103,14 +82,14 @@ disallow_untyped_defs = false
 
 [tool.pytest.ini_options]
 minversion = "6.0"
-addopts = "-ra -q --cov=PersianFixer --cov-report=term-missing --cov-report=xml"
-testpaths = ["tests"]
+addopts = "-ra -q"
+testpaths = ["tools/rtl-processor/tests"]
 python_files = "test_*.py"
 python_classes = "Test*"
 python_functions = "test_*"
 
 [tool.coverage.run]
-source = ["PersianFixer"]
+source = ["tools/rtl-processor/PersianFixer"]
 omit = ["*/tests/*", "*/test_*.py"]
 
 [tool.coverage.report]

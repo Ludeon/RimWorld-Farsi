@@ -69,8 +69,7 @@ def find_xml_files(directory: Path | str) -> list[Path]:
 def get_corresponding_persian_path(
     english_path: Path | str, project_root: Path | None = None
 ) -> Path:
-    """
-    Convert an English file path to its corresponding Persian path cross-platform.
+    """Convert an English file path to its corresponding Persian path cross-platform.
 
     Args:
         english_path: Path to English XML file
@@ -83,35 +82,43 @@ def get_corresponding_persian_path(
     if project_root is not None:
         try:
             rel = path_obj.relative_to(project_root / "english")
-            return project_root / "Data" / rel
+            # 1. Official Ludeon layout: directly at project root (e.g. Core/DefInjected)
+            root_candidate = project_root / rel
+            if root_candidate.exists():
+                return root_candidate
+            # 2. Legacy fallback: project_root / Data / rel
+            data_candidate = project_root / "Data" / rel
+            if data_candidate.exists():
+                return data_candidate
+            return root_candidate
         except ValueError:
             pass
 
     parts = list(path_obj.parts)
     if "english" in parts:
         idx = parts.index("english")
-        parts[idx] = "Data"
+        parts.pop(idx)  # Map english/<module> to <module>
         return Path(*parts)
     return path_obj
 
 
 def main() -> None:
-    """
-    Main function to find missing translations.
-    """
+    """Main function to find missing translations."""
     script_dir = Path(__file__).resolve().parent
     project_root = script_dir.parent.parent
 
     english_dir = project_root / "english"
-    persian_dir = project_root / "Data"
     output_file = project_root / "TranslationReport.txt"
 
     if not english_dir.exists():
-        print(f"Error: English directory not found: {english_dir}")
+        print(f"Error: English reference directory not found: {english_dir}")
         sys.exit(1)
 
-    if not persian_dir.exists():
-        print(f"Error: Persian directory not found: {persian_dir}")
+    has_persian_modules = (project_root / "Core").exists() or (
+        project_root / "Data"
+    ).exists()
+    if not has_persian_modules:
+        print(f"Error: Persian translation modules not found in {project_root}")
         sys.exit(1)
 
     print("Finding English XML files...")

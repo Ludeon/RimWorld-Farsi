@@ -1,42 +1,37 @@
-# Translation and documentation files
-/TranslationReport.txt
-to_translate.txt
-
-# Documentation and planning
-TODO.md
-issues.md
-
-# Backup files
-*.bak
-*.backup
-
 # Python cache and bytecode
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
 .Python
-
-# Test coverage and output files
-coverage.xml
-.coverage
-*.cover
-.coverage.*
-htmlcov/
 .pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+dist/
+build/
+*.egg-info/
 
-# Development and testing artifacts
-test_output.py
-*.log
+# RimWorld, Visual Studio & C# Build Artifacts
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+.vs/
+*.sln.docstates
+TranslationReport.txt
+*.tar
+Temp/
 
-# IDE and editor files
+# IDE and Editor Files
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
-# OS generated files
+# OS Generated Files
 .DS_Store
 .DS_Store?
 ._*
@@ -45,47 +40,16 @@ test_output.py
 ehthumbs.db
 Thumbs.db
 
-# Temporary files
+# Temporary & Log Files
 *.tmp
 *.temp
-tools/rtl-processor/.flake8
+*.log
+*.bak
+*.backup
 *.msg
 
-# --- Game files (RimWorld Root) ---
-# Ignore executables and huge binary folders at the root
-/*.exe
-/*.dll
-/RimWorldWin64_Data/
-/MonoBleedingEdge/
-/Source/
-
-# --- The Data Folder Strategy ---
-# 1. Ignore EVERYTHING inside Data (Core, Royalty, Biotech, etc.)
-/Data/*
-
-# 2. Exception: Un-ignore ONLY the Persian language folders in any DLC/Core
-# The * matches "Core", "Royalty", etc.
-!/Data/*/Languages/Persian/
-
-# --- Modding & Tools ---
-# Ignore all other mods users might drop in
+# Ignore other mods dropped in mods/
 /mods/*
-/othermoderstools/*
-
-# Exception: Your specific mod source/content
 !/mods/RTL_Persian_Support/
+!/mods/Place mods here.txt
 
-# Ensure your custom tools are always tracked
-!/tools/
-
-# --- Junk ---
-*.log
-/gog*
-/*.txt
-/uni*
-/BorderlessFullscreen.bat
-/Launch RimWorld.lnk
-/ScenarioPreview.jpg
-/Steam*
-webcache.zip
-support.ico

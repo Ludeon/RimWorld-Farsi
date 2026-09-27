@@ -66,20 +66,27 @@ def validate_directory(
 
 
 def find_persian_directories(base_path: str) -> list[str]:
-    """Find all Persian/Farsi language directories in the Data folder."""
+    """Find all Persian/Farsi language directories in the repo (root modules or Data folder)."""
     persian_dirs = []
-    data_path = Path(base_path) / "Data"
+    root_path = Path(base_path)
 
-    if not data_path.exists():
-        return []
+    # 1. Official Ludeon layout: top-level DLC modules
+    known_modules = ["Core", "Royalty", "Ideology", "Biotech", "Anomaly", "Odyssey"]
+    for mod_name in known_modules:
+        mod_dir = root_path / mod_name
+        if mod_dir.is_dir() and (
+            (mod_dir / "Keyed").exists() or (mod_dir / "DefInjected").exists()
+        ):
+            persian_dirs.append(str(mod_dir))
 
-    # Search for Persian language directories in all modules
-    for module_dir in data_path.iterdir():
-        if module_dir.is_dir():
-            # Check for Languages/Persian directory
-            persian_path = module_dir / "Languages" / "Persian"
-            if persian_path.exists() and persian_path.is_dir():
-                persian_dirs.append(str(persian_path))
+    # 2. Legacy fallback: Data/<DLC>/Languages/Persian
+    data_path = root_path / "Data"
+    if data_path.exists() and data_path.is_dir():
+        for module_dir in data_path.iterdir():
+            if module_dir.is_dir():
+                persian_path = module_dir / "Languages" / "Persian"
+                if persian_path.exists() and persian_path.is_dir():
+                    persian_dirs.append(str(persian_path))
 
     return sorted(persian_dirs)
 
@@ -92,7 +99,9 @@ if __name__ == "__main__":
         persian_dirs = find_persian_directories(str(script_dir))
 
         if not persian_dirs:
-            print("[ERROR] No Persian language directories found in Data/")
+            print(
+                "[ERROR] No Persian translation directories found (checked root modules and Data/)"
+            )
             sys.exit(1)
 
         print("=" * 70)
@@ -105,7 +114,11 @@ if __name__ == "__main__":
         all_errors = []
 
         for persian_dir in persian_dirs:
-            module_name = Path(persian_dir).parent.parent.name
+            p = Path(persian_dir)
+            if p.name == "Persian" and p.parent.name == "Languages":
+                module_name = p.parent.parent.name
+            else:
+                module_name = p.name
             print(f"Module: {module_name}")
             print("-" * 70)
 

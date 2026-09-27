@@ -15,8 +15,8 @@ runs:
         version: "latest"
         enable-cache: true
         cache-dependency-glob: |
+          pyproject.toml
           tools/rtl-processor/requirements.txt
-          tools/rtl-processor/pyproject.toml
 
     - name: Set up Python ${{ inputs.python-version }}
       uses: actions/setup-python@v5
@@ -26,8 +26,7 @@ runs:
     - name: Install base dependencies
       shell: bash
       run: |
-        cd tools/rtl-processor
-        uv pip install --system -r requirements.txt
+        uv pip install --system -r tools/rtl-processor/requirements.txt
 
     - name: Verify setup
       shell: bash

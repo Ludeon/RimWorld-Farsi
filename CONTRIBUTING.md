@@ -64,7 +64,7 @@ The project maintains automated text processors, XML validators, and pre-commit 
 ### 1. Modern Python Environment (PEP Standards Compliance)
 Our tools run on modern Python (**3.11**, **3.12**, and **3.13**), adhering strictly to modern Python standards:
 - **PEP 8**: Code style and formatting enforced by `black`, `isort`, and `flake8` / `ruff`.
-- **PEP 518 / PEP 621**: Standardized project metadata and build dependencies defined in [`tools/rtl-processor/pyproject.toml`](tools/rtl-processor/pyproject.toml).
+- **PEP 518 / PEP 621**: Standardized project metadata and build dependencies defined in [`pyproject.toml`](pyproject.toml).
 - **PEP 585 / PEP 604 / PEP 484**: Native built-in type hints (`dict`, `list`, `| None`) checked strictly with `mypy`.
 
 ### 2. Setting Up Your Development Environment
@@ -80,7 +80,8 @@ uv venv .venv
 source .venv/bin/activate    # On Windows: .venv\Scripts\activate
 
 # Install dependencies and development tools
-uv pip install -r tools/rtl-processor/requirements.txt
+uv pip install -e ".[dev]"
+# Or: uv pip install -r tools/rtl-processor/requirements.txt
 
 # Install pre-commit hooks
 pre-commit install
@@ -90,13 +91,20 @@ pre-commit install
 Before submitting a pull request, ensure all tests and quality checks pass:
 
 ```bash
-# Run the Persian RTL processing test suite
-python -m pytest tools/rtl-processor/tests/ -v
+# Run code linting and formatting check
+ruff check .
+ruff format --check .
 
-# Run XML syntax and schema validation
+# Run the Persian RTL processing test suite
+pytest
+
+# Run static type checking
+mypy tools/
+
+# Run XML syntax and schema validation across all modules
 python tools/rtl-processor/validate_xml.py
 
-# Check code formatting and static types
+# Check pre-commit hooks across all files
 pre-commit run --all-files
 ```
 

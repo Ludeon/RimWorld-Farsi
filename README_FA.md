@@ -24,16 +24,16 @@
 
 ## 📦 جدول سازگاری نسخه‌ها و بسته‌های الحاقی (DLC)
 
-این بسته ترجمه با نسخه **RimWorld 1.5+** کاملاً سازگار است و از تمام بسته‌های الحاقی رسمی پشتیبانی می‌کند:
+این بسته ترجمه با نسخه **RimWorld 1.5+** کاملاً سازگار است و بر اساس معماری رسمی مخازن محلی‌سازی لودیون استودیوز (Ludeon Studios) سازمان‌دهی شده است:
 
-| بسته الحاقی (DLC) | وضعیت پشتیبانی | مسیر پوشه مقصد در دایرکتوری بازی |
-| :--- | :---: | :--- |
-| **RimWorld Core (پایه)** | پشتیبانی کامل | `Data/Core/Languages/Persian` |
-| **Royalty DLC** | پشتیبانی کامل | `Data/Royalty/Languages/Persian` |
-| **Ideology DLC** | پشتیبانی کامل | `Data/Ideology/Languages/Persian` |
-| **Biotech DLC** | پشتیبانی کامل | `Data/Biotech/Languages/Persian` |
-| **Anomaly DLC** | پشتیبانی کامل | `Data/Anomaly/Languages/Persian` |
-| **Odyssey** | در حال انجام | `Data/Odyssey/Languages/Persian` |
+| بسته الحاقی (DLC) | وضعیت پشتیبانی | ماژول در مخزن | مسیر پوشه مقصد در دایرکتوری بازی |
+| :--- | :---: | :---: | :--- |
+| **RimWorld Core (پایه)** | پشتیبانی کامل | `Core/` | `<RimWorld>/Data/Core/Languages/Persian (فارسی)` |
+| **Royalty DLC** | پشتیبانی کامل | `Royalty/` | `<RimWorld>/Data/Royalty/Languages/Persian (فارسی)` |
+| **Ideology DLC** | پشتیبانی کامل | `Ideology/` | `<RimWorld>/Data/Ideology/Languages/Persian (فارسی)` |
+| **Biotech DLC** | پشتیبانی کامل | `Biotech/` | `<RimWorld>/Data/Biotech/Languages/Persian (فارسی)` |
+| **Anomaly DLC** | پشتیبانی کامل | `Anomaly/` | `<RimWorld>/Data/Anomaly/Languages/Persian (فارسی)` |
+| **Odyssey** | در حال انجام | `Odyssey/` | `<RimWorld>/Data/Odyssey/Languages/Persian (فارسی)` |
 
 ---
 
@@ -41,46 +41,45 @@
 
 روش نصب مناسب برای سیستم خود را انتخاب کنید:
 
-### روش ۱: نصب خودکار در ویندوز (پیشنهادی)
+### روش ۱: نصب خودکار و آسان (پیشنهادی)
 
-1. فایل [`AutoFaInstall.bat`](AutoFaInstall.bat) را از پوشه اصلی مخزن کپی یا دریافت کنید.
-2. آن را در پوشه اصلی نصب بازی قرار دهید (پوشه‌ای که فایل `RimWorldWin64.exe` در آن قرار دارد).
-3. روی فایل `AutoFaInstall.bat` دابل‌کلیک کرده و آن را اجرا کنید. این اسکریپت جدیدترین نسخه ترجمه را از گیت‌هاب دانلود کرده و پوشه‌های هر بسته الحاقی را در مسیر درست جایگزین می‌کند.
+* **ویندوز**:
+  1. مخزن را دریافت یا کلون کنید.
+  2. فایل [`install.bat`](install.bat) را اجرا کنید. این اسکریپت به‌صورت هوشمند محل نصب استیم یا ریم‌ورلد را شناسایی کرده (یا پنجره انتخاب پوشه را باز می‌کند)، فایل‌های ماژول‌ها را در مسیر بازی کپی کرده و فایل‌های فشرده کش زبان (`.tar`) را پاکسازی می‌کند.
+* **لینوکس یا استیم‌دک (Steam Deck)**:
+  1. ترمینال را در پوشه پروژه باز کنید.
+  2. اسکریپت `./install.sh` را اجرا نمایید.
 
 ---
 
 ### روش ۲: نصب دستی (تمامی سیستم‌عامل‌ها)
 
-1. فایل آخرین نسخه (`persian.language.zip`) را از [صفحه Releases](https://github.com/Ludeon/RimWorld-Farsi/releases) دانلود کنید.
+1. فایل آخرین نسخه (`persian.language.zip`) را از [صفحه Releases](https://github.com/Ludeon/RimWorld-Farsi/releases) دانلود کرده یا مخزن را کلون کنید.
 2. مسیر نصب بازی را در رایانه خود پیدا کنید:
    * **ویندوز:** `C:\Program Files (x86)\Steam\steamapps\common\RimWorld\`
    * **لینوکس:** `~/.steam/steam/steamapps/common/Rimworld/`
    * **مک:** `~/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app` *(راست‌کلیک و انتخاب "Show Package Contents")*
-3. محتوای پوشه‌های فایل زیپ را در پوشه `Languages` متناظر در مسیر `Data/<DLC>/Languages/` کپی کرده و نام آن را `Persian` بگذارید:
-   * پوشه `Core` را در `<RimWorld>/Data/Core/Languages/Persian` کپی کنید.
-   * پوشه `Royalty` را در `<RimWorld>/Data/Royalty/Languages/Persian` کپی کنید.
-   * پوشه `Ideology` را در `<RimWorld>/Data/Ideology/Languages/Persian` کپی کنید.
-   * پوشه `Biotech` را در `<RimWorld>/Data/Biotech/Languages/Persian` کپی کنید.
-   * پوشه `Anomaly` را در `<RimWorld>/Data/Anomaly/Languages/Persian` کپی کنید.
-
-> [!IMPORTANT]
-> اگر از قبل پوشه‌ای با نام `Persian` در این مسیرها وجود دارد، توصیه می‌شود ابتدا آن را حذف کنید تا فایل‌های منسوخ و قدیمی باقی نمانند.
-> دقت کنید پوشه `Persian` باید مستقیماً شامل زیرپوشه‌های ترجمه مانند `Keyed` و `DefInjected` و فایل `LanguageInfo.xml` باشد.
+3. محتوای هر پوشه ماژول (`Core`, `Royalty`, `Ideology`, `Biotech`, `Anomaly`, `Odyssey`) را در مسیر متناظر داخل پوشه زبان بازی کپی کنید:
+   * محتوای `Core` در `<RimWorld>/Data/Core/Languages/Persian (فارسی)`
+   * محتوای `Royalty` در `<RimWorld>/Data/Royalty/Languages/Persian (فارسی)`
+   * محتوای `Ideology` در `<RimWorld>/Data/Ideology/Languages/Persian (فارسی)`
+   * محتوای `Biotech` در `<RimWorld>/Data/Biotech/Languages/Persian (فارسی)`
+   * محتوای `Anomaly` در `<RimWorld>/Data/Anomaly/Languages/Persian (فارسی)`
+4. فایل‌های فشرده کش قبلی (`Persian (فارسی).tar` یا `Persian.tar`) را در این مسیرها حذف کنید تا بازی مستقیماً فایل‌های بروز شده را لود کند.
 
 ---
 
-### روش ۳: نصب پیشرفته توسعه‌دهندگان (لینک‌های نمادین / Symbolic Links)
+### روش ۳: همگام‌سازی مستقیم توسعه‌دهندگان (`tools/sync.sh`)
 
-اگر مخزن را در سیستم خود `clone` کرده‌اید، می‌توانید با پیوند نمادین، تغییرات ترجمه را بدون نیاز به کپی مجدد، به‌صورت لحظه‌ای در بازی مشاهده کنید:
+اگر در حال ترجمه یا توسعه هستید، می‌توانید با اسکریپت همگام‌سازی، تغییرات را بدون کپی دستی ارسال یا دریافت کنید:
 
-- **ویندوز (Command Prompt به صورت Administrator):**
-  ```cmd
-  mklink /D "C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Data\Core\Languages\Persian" "C:\path\to\RimWorld-Farsi\Data\Core"
-  ```
-- **لینوکس یا مک:**
-  ```bash
-  ln -s ~/Documents/github/RimWorld-Farsi/Data/Core ~/.steam/steam/steamapps/common/Rimworld/Data/Core/Languages/Persian
-  ```
+```bash
+# ارسال ترجمه‌های مخزن به بازی
+./tools/sync.sh --gamepath "/path/to/RimWorld"
+
+# دریافت ترجمه‌های تغییر یافته از بازی به مخزن
+./tools/sync.sh --gamepath "/path/to/RimWorld" --direction pull
+```
 
 ---
 
@@ -115,7 +114,7 @@
 2. **مود اختصاصی سی‌شارپ (`mods/RTL_Persian_Support/`)**:
    - پچ هارمونی برای اصلاح بی‌درنگ متون و پشتیبانی بهینه از فونت‌های فارسی در منوهای بازی.
 3. **پایپ‌لاین CI/CD گیت‌هاب اکشنز (`.github/workflows/`)**:
-   - اجرای آزمون‌های خودکار، فرمت‌بندی کد طبق استانداردهای Black و PEP 8، بررسی نوع‌داده‌ها با Mypy و بسته‌بندی ریلیزها.
+   - اجرای آزمون‌های خودکار، فرمت‌بندی و لینتینگ سریع با Ruff، بررسی دقیق نوع‌داده‌ها با Mypy و بسته‌بندی ریلیزها.
 
 ---
 

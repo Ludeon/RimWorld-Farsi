@@ -24,16 +24,16 @@ Because translations bundled directly with the game updates may not always refle
 
 ## 📦 Compatibility & DLC Support Matrix
 
-This translation package is fully compatible with **RimWorld 1.5+** and supports all major expansions:
+This translation package is fully compatible with **RimWorld 1.5+** and supports all major expansions following official Ludeon Studios localization standards:
 
-| Expansion / DLC | Status | Target Path in Game Directory |
-| :--- | :---: | :--- |
-| **RimWorld Core** | Supported | `Data/Core/Languages/Persian` |
-| **Royalty DLC** | Supported | `Data/Royalty/Languages/Persian` |
-| **Ideology DLC** | Supported | `Data/Ideology/Languages/Persian` |
-| **Biotech DLC** | Supported | `Data/Biotech/Languages/Persian` |
-| **Anomaly DLC** | Supported | `Data/Anomaly/Languages/Persian` |
-| **Odyssey** | In Progress | `Data/Odyssey/Languages/Persian` |
+| Expansion / DLC | Status | Repository Module | Target Path in Game Directory |
+| :--- | :---: | :---: | :--- |
+| **RimWorld Core** | Supported | `Core/` | `<RimWorld>/Data/Core/Languages/Persian (فارسی)` |
+| **Royalty DLC** | Supported | `Royalty/` | `<RimWorld>/Data/Royalty/Languages/Persian (فارسی)` |
+| **Ideology DLC** | Supported | `Ideology/` | `<RimWorld>/Data/Ideology/Languages/Persian (فارسی)` |
+| **Biotech DLC** | Supported | `Biotech/` | `<RimWorld>/Data/Biotech/Languages/Persian (فارسی)` |
+| **Anomaly DLC** | Supported | `Anomaly/` | `<RimWorld>/Data/Anomaly/Languages/Persian (فارسی)` |
+| **Odyssey** | In Progress | `Odyssey/` | `<RimWorld>/Data/Odyssey/Languages/Persian (فارسی)` |
 
 ---
 
@@ -41,46 +41,45 @@ This translation package is fully compatible with **RimWorld 1.5+** and supports
 
 Choose the installation method that fits your setup:
 
-### Method A: Automated Installation on Windows (Recommended)
+### Method A: Automated Installation (Recommended)
 
-1. Download [`AutoFaInstall.bat`](AutoFaInstall.bat) or obtain it from the repository root.
-2. Copy `AutoFaInstall.bat` into your main RimWorld installation folder (where `RimWorldWin64.exe` is located).
-3. Run `AutoFaInstall.bat`. It will automatically fetch the latest release from GitHub and extract the translation folders into their appropriate DLC directories.
+* **Windows**:
+  1. Download or clone this repository.
+  2. Double-click [`install.bat`](install.bat). It automatically detects your Steam/RimWorld installation or prompts you to select the folder, deploys the latest translations, and removes cached `.tar` files.
+* **Linux / Steam Deck**:
+  1. Open terminal in the repository directory.
+  2. Run `./install.sh` (or `./install.sh "/path/to/RimWorld"`).
 
 ---
 
 ### Method B: Standard Manual Installation (All Platforms)
 
-1. Download the latest release archive (`persian.language.zip`) from the [Releases Page](https://github.com/Ludeon/RimWorld-Farsi/releases).
+1. Download the latest release archive (`persian.language.zip`) or clone the repository.
 2. Locate your game installation directory:
    * **Windows:** `C:\Program Files (x86)\Steam\steamapps\common\RimWorld\`
    * **Linux:** `~/.steam/steam/steamapps/common/Rimworld/`
    * **macOS:** `~/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app` *(right-click and select "Show Package Contents")*
-3. Extract each subfolder from the archive into the corresponding `Languages` folder inside `Data/<DLC>/Languages/`:
-   * Extract `Core` to `<RimWorld>/Data/Core/Languages/Persian`
-   * Extract `Royalty` to `<RimWorld>/Data/Royalty/Languages/Persian`
-   * Extract `Ideology` to `<RimWorld>/Data/Ideology/Languages/Persian`
-   * Extract `Biotech` to `<RimWorld>/Data/Biotech/Languages/Persian`
-   * Extract `Anomaly` to `<RimWorld>/Data/Anomaly/Languages/Persian`
-
-> [!IMPORTANT]
-> If a `Persian` folder already exists in any of these directories, delete it before copying the new one to avoid obsolete files lingering.
-> Ensure that each `Persian` directory contains the expected translation subfolders (`Keyed`, `DefInjected`, etc.) and `LanguageInfo.xml`.
+3. Copy each module folder from the repository (`Core`, `Royalty`, `Ideology`, `Biotech`, `Anomaly`, `Odyssey`) into the game's corresponding `Data/<DLC>/Languages/Persian (فارسی)` directory:
+   * Copy `Core` contents to `<RimWorld>/Data/Core/Languages/Persian (فارسی)`
+   * Copy `Royalty` contents to `<RimWorld>/Data/Royalty/Languages/Persian (فارسی)`
+   * Copy `Ideology` contents to `<RimWorld>/Data/Ideology/Languages/Persian (فارسی)`
+   * Copy `Biotech` contents to `<RimWorld>/Data/Biotech/Languages/Persian (فارسی)`
+   * Copy `Anomaly` contents to `<RimWorld>/Data/Anomaly/Languages/Persian (فارسی)`
+4. Delete any existing `Persian (فارسی).tar` or `Persian.tar` files in those `Languages` folders to ensure the game reads the updated files directly.
 
 ---
 
-### Method C: Development Setup (Symbolic Links)
+### Method C: Developer Synchronization (`tools/sync.sh`)
 
-If you have cloned this repository locally, you can create symbolic links to keep your game synced automatically with your git branch:
+If you are developing translations or keeping your game synced with your git branch, use the built-in sync tool:
 
-- **Windows (Command Prompt as Administrator):**
-  ```cmd
-  mklink /D "C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Data\Core\Languages\Persian" "C:\path\to\RimWorld-Farsi\Data\Core"
-  ```
-- **Linux / macOS:**
-  ```bash
-  ln -s ~/Documents/github/RimWorld-Farsi/Data/Core ~/.steam/steam/steamapps/common/Rimworld/Data/Core/Languages/Persian
-  ```
+```bash
+# Push translations from repo into game
+./tools/sync.sh --gamepath "/path/to/RimWorld"
+
+# Pull translations from game back into repo
+./tools/sync.sh --gamepath "/path/to/RimWorld" --direction pull
+```
 
 ---
 
@@ -115,7 +114,7 @@ To address RimWorld's bidirectional text rendering and XML schema requirements, 
 2. **In-Game Mod Patch (`mods/RTL_Persian_Support/`)**:
    - C# Harmony mod providing runtime text-shaping and font adjustments for complex UI elements.
 3. **CI/CD Quality Gates (`.github/workflows/`)**:
-   - Automated linting (Black, isort, Flake8), type checks (Mypy), security audits (pip-audit), and translation packaging upon PRs.
+   - Automated linting and formatting (Ruff), strict type checks (Mypy), security audits (pip-audit), and translation packaging upon PRs.
 
 ---
 

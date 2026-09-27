@@ -134,8 +134,17 @@ if [[ ! -d "$GAME_DATA_DIR" ]]; then
     exit 1
 fi
 
-if [[ ! -d "$REPO_DATA_DIR" ]]; then
-    echo -e "${CLR_RED}Error:${CLR_RESET} Repository 'Data' folder not found: $REPO_DATA_DIR" >&2
+KNOWN_MODULES=("Core" "Royalty" "Ideology" "Biotech" "Anomaly" "Odyssey")
+HAS_REPO_MODULES=false
+for MOD in "${KNOWN_MODULES[@]}"; do
+    if [[ -d "${REPO_ROOT}/${MOD}" || -d "${REPO_ROOT}/Data/${MOD}" ]]; then
+        HAS_REPO_MODULES=true
+        break
+    fi
+done
+
+if [[ "$HAS_REPO_MODULES" == false ]]; then
+    echo -e "${CLR_RED}Error:${CLR_RESET} No Persian translation modules found in repository: $REPO_ROOT" >&2
     exit 1
 fi
 
@@ -163,7 +172,7 @@ fi
 echo -e "${CLR_BOLD}======================================================================${CLR_RESET}"
 echo -e "${CLR_BOLD}${CLR_CYAN}RIMWORLD PERSIAN TRANSLATION SYNC TOOL${CLR_RESET}"
 echo -e "${CLR_BOLD}======================================================================${CLR_RESET}"
-echo -e "Repository Data: ${CLR_BLUE}${REPO_DATA_DIR}${CLR_RESET}"
+echo -e "Repository Root: ${CLR_BLUE}${REPO_ROOT}${CLR_RESET}"
 echo -e "Game Data:       ${CLR_BLUE}${GAME_DATA_DIR}${CLR_RESET}"
 echo -e "Direction:       ${CLR_BOLD}${DIRECTION}${CLR_RESET} ($( [[ "$DIRECTION" == "push" ]] && echo "Repo -> Game" || echo "Game -> Repo" ))"
 if [[ "$DRY_RUN" == true ]]; then
@@ -180,17 +189,17 @@ echo -e "======================================================================\
 SYNCED_COUNT=0
 SKIPPED_COUNT=0
 
-for REPO_MODULE_PATH in "${REPO_DATA_DIR}"/*; do
-    [[ -d "$REPO_MODULE_PATH" ]] || continue
-
-    MODULE_NAME="$(basename "$REPO_MODULE_PATH")"
-    REPO_PERSIAN_DIR="${REPO_MODULE_PATH}/Languages/Persian"
-    GAME_MODULE_DIR="${GAME_DATA_DIR}/${MODULE_NAME}"
-    GAME_PERSIAN_DIR="${GAME_MODULE_DIR}/Languages/Persian"
-
-    if [[ ! -d "$REPO_PERSIAN_DIR" ]]; then
+for MODULE_NAME in "${KNOWN_MODULES[@]}"; do
+    if [[ -d "${REPO_ROOT}/${MODULE_NAME}" ]]; then
+        REPO_PERSIAN_DIR="${REPO_ROOT}/${MODULE_NAME}"
+    elif [[ -d "${REPO_ROOT}/Data/${MODULE_NAME}/Languages/Persian" ]]; then
+        REPO_PERSIAN_DIR="${REPO_ROOT}/Data/${MODULE_NAME}/Languages/Persian"
+    else
         continue
     fi
+
+    GAME_MODULE_DIR="${GAME_DATA_DIR}/${MODULE_NAME}"
+    GAME_PERSIAN_DIR="${GAME_MODULE_DIR}/Languages/Persian"
 
     echo -e "${CLR_BOLD}Module: ${CLR_CYAN}${MODULE_NAME}${CLR_RESET}"
 
