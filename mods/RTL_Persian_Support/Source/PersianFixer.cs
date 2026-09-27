@@ -31,12 +31,22 @@ namespace RTL_Persian
                     return cached;
             }
 
+            // Idempotency check: if the text already contains a Zero Width Space marker,
+            // it means it was already fixed by ArabicFixer in a previous patch hook.
+            if (text.Contains("\u200B"))
+            {
+                return text;
+            }
+
             // Normalize Arabic Yeh and Kaf to Persian forms before shaping
             string normalized = text.Replace('ي', 'ی').Replace('ك', 'ک');
 
             // Apply ArabicFixer: RTL = true, showTashkeel = true, useHinduNumbers = false
             // Note: ArabicFixer handles BiDi layout (reversing the sentence) while preserving tags.
             string result = ArabicFixer.Fix(normalized, true, true, false);
+            
+            // Append Zero Width Space marker to prevent double-fixing
+            result += "\u200B";
 
             lock (Cache)
             {
