@@ -10,26 +10,29 @@ Whether you are helping translate in-game text, polishing existing strings, repo
 
 We welcome two primary tracks of contributions:
 
-1. **[Track A: Translation Contributors](#track-a-translation-contributors)** – Translate or improve XML strings (No programming required).
-2. **[Track B: Tooling & Automation Developers](#track-b-tooling--automation-developers)** – Develop Python RTL processing tools, C# mod patches, or CI/CD pipelines.
+1. **[Track A: Translation Contributors](#track-a-translation-contributors)** – Translate or improve XML strings (No programming required).  
+   👉 **Read the comprehensive [Translation Style Guide & Manual](docs/TRANSLATION_GUIDE.md)** for glossary, typography, and placeholder rules.
+2. **[Track B: Tooling & Automation Developers](#track-b-tooling--automation-developers)** – Develop Python RTL processing tools, C# mod patches, or CI/CD pipelines.  
+   👉 **Read the [Developer Workflow Guide](docs/DEVELOPER_WORKFLOW.md)** and **[Technical Challenges & Engine Details](docs/TECHNICAL_CHALLENGES.md)**.
 
 ---
 
 ## Track A: Translation Contributors
 
 ### 1. Structure of Translation Files
-All translation files are standard XML files located under the `Data/` folder for each DLC:
+All translation files are standard XML files organized by expansion at the repository root:
 ```text
-Data/
-├── Core/Languages/Persian/
-├── Royalty/Languages/Persian/
-├── Ideology/Languages/Persian/
-├── Biotech/Languages/Persian/
-└── Anomaly/Languages/Persian/
-    ├── DefInjected/     # Translations injected into game definitions
-    ├── Keyed/           # User interface, settings, and gameplay prompts
-    ├── Strings/         # Words, names, and general text lists
-    └── Backstories/     # Pawn background histories
+RimWorld-Farsi/
+├── Core/Languages/Persian/        # Base game strings
+├── Royalty/Languages/Persian/     # Royalty DLC strings
+├── Ideology/Languages/Persian/    # Ideology DLC strings
+├── Biotech/Languages/Persian/     # Biotech DLC strings
+├── Anomaly/Languages/Persian/     # Anomaly DLC strings
+└── Odyssey/Languages/Persian/     # Odyssey expansion (WIP)
+    ├── DefInjected/               # Injected entity and item definitions
+    ├── Keyed/                     # UI, settings, menus, and gameplay prompts
+    ├── Strings/                   # Grammatical lists and procedural terms
+    └── Backstories/               # Colonist backstory histories
 ```
 
 ### 2. Editing Translation Keys
@@ -42,18 +45,9 @@ A typical translation entry looks like this:
 <LetterPawnDied>{0} جان خود را از دست داد. علت: {1}.</LetterPawnDied>
 ```
 
-#### Key Translation Rules:
-- **Never modify `<!-- EN: ... -->`**: The English comment is RimWorld's reference text. It is used by comparison tools to detect updates.
-- **Preserve placeholders and variables**:
-  - Tokens like `{0}`, `{1}`, `{2}`, `{PAWN_nameDef}`, or `{BASEKIND_label}` are replaced dynamically by the game engine at runtime. **Do not translate, remove, or alter these bracketed tokens**.
-  - Dynamic conditional tokens like `{PAWN_gender ? او : وی}` must retain their exact internal syntax.
-- **RTL and Punctuation**:
-  - Place Persian punctuation marks (period `.` and question mark `؟`) in appropriate natural reading order.
-  - Numbers inside Persian sentences should match natural readability in-game.
-- **Consistency**:
-  - Stick to established in-game terminology (consult existing translated files in `Keyed/` or `DefInjected/` to match terminology for game mechanics like *Mood*, *Needs*, *Ideoligion*, *Anomaly*, etc.).
-- **Recommended Editor**:
-  - Use [Visual Studio Code](https://code.visualstudio.com/) with the **XML Tools** or **XML** extension for syntax highlighting and automatic closing tags.
+> [!IMPORTANT]
+> For complete guidelines on Persian typography (`ک`/`ی` vs Arabic forms), zero-width non-joiners (نیم‌فاصله), format tokens (`{0}`, `{PAWN_nameDef}`), and standard terminology, please refer to:  
+> 📖 **[docs/TRANSLATION_GUIDE.md](docs/TRANSLATION_GUIDE.md)**
 
 ---
 
@@ -61,7 +55,10 @@ A typical translation entry looks like this:
 
 The project maintains automated text processors, XML validators, and pre-commit test suites.
 
-### 1. Modern Python Environment (PEP Standards Compliance)
+> [!NOTE]
+> For in-depth developer documentation, please consult:
+> - 🛠️ **[Developer Workflow & Tooling Guide](docs/DEVELOPER_WORKFLOW.md)**: Setup with `uv`, Ruff, Mypy, and Pytest.
+> - 🧠 **[Technical Challenges & Engine Details](docs/TECHNICAL_CHALLENGES.md)**: Unity IMGUI limitations, RTL text shaping, and Harmony architecture.
 Our tools run on modern Python (**3.11**, **3.12**, and **3.13**), adhering strictly to modern Python standards:
 - **PEP 8**: Code style and formatting enforced by `black`, `isort`, and `flake8` / `ruff`.
 - **PEP 518 / PEP 621**: Standardized project metadata and build dependencies defined in [`pyproject.toml`](pyproject.toml).
