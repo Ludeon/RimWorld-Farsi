@@ -486,13 +486,13 @@ namespace RTL_Persian
     {
         public bool enablePersianFont = true;
         public bool enableRTLAlignment = true;
-        public bool enablePersianFixer = false;
+        public bool enablePersianFixer = true;
 
         public override void ExposeData()
         {
             Scribe_Values.Look(ref enablePersianFont, "enablePersianFont", true);
             Scribe_Values.Look(ref enableRTLAlignment, "enableRTLAlignment", true);
-            Scribe_Values.Look(ref enablePersianFixer, "enablePersianFixer", false);
+            Scribe_Values.Look(ref enablePersianFixer, "enablePersianFixer", true);
         }
     }
 

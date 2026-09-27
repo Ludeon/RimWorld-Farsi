@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using ArabicSupport;
 
 namespace RTL_Persian
 {
@@ -18,9 +19,7 @@ namespace RTL_Persian
 
         /// <summary>
         /// Normalizes Persian text and ensures proper character encoding.
-        /// RimWorld 1.6 runs on Unity 2022 with native HarfBuzz & BiDi text shaping.
-        /// Text must NOT be reversed or replaced with Presentation Forms-B,
-        /// as modern Unity natively shapes standard Unicode Persian (0x0600-0x06FF).
+        /// Reverses and shapes text using ArabicSupport for IMGUI compatibility.
         /// </summary>
         public static string Fix(string text)
         {
@@ -32,10 +31,12 @@ namespace RTL_Persian
                     return cached;
             }
 
-            // Normalize Arabic Yeh and Kaf to Persian forms
-            string result = text;
-            if (result.IndexOf('ي') != -1) result = result.Replace('ي', 'ی');
-            if (result.IndexOf('ك') != -1) result = result.Replace('ك', 'ک');
+            // Normalize Arabic Yeh and Kaf to Persian forms before shaping
+            string normalized = text.Replace('ي', 'ی').Replace('ك', 'ک');
+
+            // Apply ArabicFixer: RTL = true, showTashkeel = true, useHinduNumbers = false
+            // Note: ArabicFixer handles BiDi layout (reversing the sentence) while preserving tags.
+            string result = ArabicFixer.Fix(normalized, true, true, false);
 
             lock (Cache)
             {
