@@ -6,7 +6,7 @@
   <!-- EN: Carriers of this gene are quick to anger. They are twice as likely to start social fights. When they have mental breaks, they are twice as likely to choose an aggressive kind of break. -->
   <Aggression_Aggressive.description>حاملان این ژن سریع عصبانی می شوند. احتمال شروع دعواهای اجتماعی دو برابر بیشتر است. وقتی وقفه های ذهنی دارند، دو برابر بیشتر احتمال دارد که نوعی استراحت تهاجمی را انتخاب کنند.</Aggression_Aggressive.description>
   <!-- EN: aggro -->
-  <Aggression_Aggressive.symbolPack.prefixSymbols.0.symbol>aggro</Aggression_Aggressive.symbolPack.prefixSymbols.0.symbol>
+  <Aggression_Aggressive.symbolPack.prefixSymbols.0.symbol>آگرو</Aggression_Aggressive.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: hate -->
   <Aggression_Aggressive.symbolPack.prefixSymbols.1.symbol>نفرت</Aggression_Aggressive.symbolPack.prefixSymbols.1.symbol>
   <!-- EN: fight -->
@@ -57,7 +57,7 @@
   <!-- EN: charm -->
   <Beauty_Beautiful.symbolPack.prefixSymbols.0.symbol>جذابیت</Beauty_Beautiful.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: ele -->
-  <Beauty_Beautiful.symbolPack.prefixSymbols.1.symbol>ele</Beauty_Beautiful.symbolPack.prefixSymbols.1.symbol>
+  <Beauty_Beautiful.symbolPack.prefixSymbols.1.symbol>ELE</Beauty_Beautiful.symbolPack.prefixSymbols.1.symbol>
   <!-- EN: grace -->
   <Beauty_Beautiful.symbolPack.prefixSymbols.2.symbol>لطف</Beauty_Beautiful.symbolPack.prefixSymbols.2.symbol>
   <!-- EN: neat -->
@@ -455,198 +455,198 @@
   <!-- EN: Carriers of this gene feel more pain than others given the same injuries. Neuron activity in the brain's nociception center is amplified, so pain feels extra-intense and fiery. This can be protective, but overall it's considered a negative and makes it hard to push through difficult situations. -->
   <Pain_Extra.description>ناقلان این ژن نسبت به سایرین با آسیب های مشابه درد بیشتری احساس می کنند. فعالیت نورون‌ها در مرکز درد مغز تقویت می شود، بنابراین درد بسیار شدید و آتشین احساس می شود. این می تواند محافظت کننده باشد، اما به طور کلی منفی تلقی می شود و تحمل موقعیت های دشوار را سخت می کند.</Pain_Extra.description>
   <!-- EN: wimpy -->
-  <Pain_Extra.labelShortAdj>wimpy</Pain_Extra.labelShortAdj>
+  <Pain_Extra.labelShortAdj>بی روح</Pain_Extra.labelShortAdj>
   <!-- EN: wimpo -->
-  <Pain_Extra.symbolPack.prefixSymbols.0.symbol>wimpo</Pain_Extra.symbolPack.prefixSymbols.0.symbol>
+  <Pain_Extra.symbolPack.prefixSymbols.0.symbol>ویمپو</Pain_Extra.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: whino -->
-  <Pain_Extra.symbolPack.prefixSymbols.1.symbol>whino</Pain_Extra.symbolPack.prefixSymbols.1.symbol>
+  <Pain_Extra.symbolPack.prefixSymbols.1.symbol>وای</Pain_Extra.symbolPack.prefixSymbols.1.symbol>
   <!-- EN: cowar -->
-  <Pain_Extra.symbolPack.prefixSymbols.2.symbol>cowar</Pain_Extra.symbolPack.prefixSymbols.2.symbol>
+  <Pain_Extra.symbolPack.prefixSymbols.2.symbol>ترسو</Pain_Extra.symbolPack.prefixSymbols.2.symbol>
   <!-- EN: cry -->
-  <Pain_Extra.symbolPack.prefixSymbols.3.symbol>cry</Pain_Extra.symbolPack.prefixSymbols.3.symbol>
+  <Pain_Extra.symbolPack.prefixSymbols.3.symbol>گریه کن</Pain_Extra.symbolPack.prefixSymbols.3.symbol>
   <!-- EN: whiner -->
-  <Pain_Extra.symbolPack.suffixSymbols.0.symbol>whiner</Pain_Extra.symbolPack.suffixSymbols.0.symbol>
+  <Pain_Extra.symbolPack.suffixSymbols.0.symbol>ناله</Pain_Extra.symbolPack.suffixSymbols.0.symbol>
   <!-- EN: wimp -->
-  <Pain_Extra.symbolPack.suffixSymbols.1.symbol>wimp</Pain_Extra.symbolPack.suffixSymbols.1.symbol>
+  <Pain_Extra.symbolPack.suffixSymbols.1.symbol>لم دادن</Pain_Extra.symbolPack.suffixSymbols.1.symbol>
   
   <!-- EN: reduced pain -->
-  <Pain_Reduced.label>reduced pain</Pain_Reduced.label>
+  <Pain_Reduced.label>کاهش درد</Pain_Reduced.label>
   <!-- EN: Carriers of this gene feel half as much pain compared to a baseliner. Reduced neuron activity in the brain's nociception centers makes pain dull and faint. This can be advantageous sometimes, and dangerous other times. -->
-  <Pain_Reduced.description>Carriers of this gene feel half as much pain compared to a baseliner. Reduced neuron activity in the brain's nociception centers makes pain dull and faint. This can be advantageous sometimes, and dangerous other times.</Pain_Reduced.description>
+  <Pain_Reduced.description>ناقلان این ژن در مقایسه با پایه خطی، نصف درد بیشتری را احساس می کنند. کاهش فعالیت نورون‌ها در مراکز درد مغز، درد را کسل کننده و ضعیف می کند. این می تواند گاهی اوقات سودمند باشد و گاهی اوقات خطرناک است.</Pain_Reduced.description>
   <!-- EN: pain-dull -->
-  <Pain_Reduced.labelShortAdj>pain-dull</Pain_Reduced.labelShortAdj>
+  <Pain_Reduced.labelShortAdj>درد کسل کننده</Pain_Reduced.labelShortAdj>
   <!-- EN: dull -->
-  <Pain_Reduced.symbolPack.prefixSymbols.0.symbol>dull</Pain_Reduced.symbolPack.prefixSymbols.0.symbol>
+  <Pain_Reduced.symbolPack.prefixSymbols.0.symbol>کسل کننده</Pain_Reduced.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: daze -->
-  <Pain_Reduced.symbolPack.prefixSymbols.1.symbol>daze</Pain_Reduced.symbolPack.prefixSymbols.1.symbol>
+  <Pain_Reduced.symbolPack.prefixSymbols.1.symbol>گیج کردن</Pain_Reduced.symbolPack.prefixSymbols.1.symbol>
   <!-- EN: tough -->
-  <Pain_Reduced.symbolPack.prefixSymbols.2.symbol>tough</Pain_Reduced.symbolPack.prefixSymbols.2.symbol>
+  <Pain_Reduced.symbolPack.prefixSymbols.2.symbol>سخت</Pain_Reduced.symbolPack.prefixSymbols.2.symbol>
   
   <!-- EN: psychically deaf -->
-  <PsychicAbility_Deaf.label>psychically deaf</PsychicAbility_Deaf.label>
+  <PsychicAbility_Deaf.label>ناشنوای روانی</PsychicAbility_Deaf.label>
   <!-- EN: Carriers of this gene are deaf to all psychic energy and influence outside their own minds. They cannot be affected by psychic influence, nor can they ever wield psychic power. -->
-  <PsychicAbility_Deaf.description>Carriers of this gene are deaf to all psychic energy and influence outside their own minds. They cannot be affected by psychic influence, nor can they ever wield psychic power.</PsychicAbility_Deaf.description>
+  <PsychicAbility_Deaf.description>حاملان این ژن نسبت به تمام انرژی های روانی و تأثیرات خارج از ذهن خود ناشنوا هستند. آنها نمی توانند تحت تأثیر تأثیر روانی قرار گیرند و هرگز نمی توانند از قدرت روانی استفاده کنند.</PsychicAbility_Deaf.description>
   <!-- EN: psy-deaf -->
-  <PsychicAbility_Deaf.labelShortAdj>psy-deaf</PsychicAbility_Deaf.labelShortAdj>
+  <PsychicAbility_Deaf.labelShortAdj>ناشنوایان روانی</PsychicAbility_Deaf.labelShortAdj>
   <!-- EN: deaf -->
-  <PsychicAbility_Deaf.symbolPack.prefixSymbols.0.symbol>deaf</PsychicAbility_Deaf.symbolPack.prefixSymbols.0.symbol>
+  <PsychicAbility_Deaf.symbolPack.prefixSymbols.0.symbol>ناشنوا</PsychicAbility_Deaf.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: blank -->
-  <PsychicAbility_Deaf.symbolPack.prefixSymbols.1.symbol>blank</PsychicAbility_Deaf.symbolPack.prefixSymbols.1.symbol>
+  <PsychicAbility_Deaf.symbolPack.prefixSymbols.1.symbol>خالی</PsychicAbility_Deaf.symbolPack.prefixSymbols.1.symbol>
   <!-- EN: null -->
-  <PsychicAbility_Deaf.symbolPack.prefixSymbols.2.symbol>null</PsychicAbility_Deaf.symbolPack.prefixSymbols.2.symbol>
+  <PsychicAbility_Deaf.symbolPack.prefixSymbols.2.symbol>تهی</PsychicAbility_Deaf.symbolPack.prefixSymbols.2.symbol>
   <!-- EN: vac -->
   <PsychicAbility_Deaf.symbolPack.prefixSymbols.3.symbol>vac</PsychicAbility_Deaf.symbolPack.prefixSymbols.3.symbol>
   <!-- EN: void -->
-  <PsychicAbility_Deaf.symbolPack.prefixSymbols.4.symbol>void</PsychicAbility_Deaf.symbolPack.prefixSymbols.4.symbol>
+  <PsychicAbility_Deaf.symbolPack.prefixSymbols.4.symbol>باطل</PsychicAbility_Deaf.symbolPack.prefixSymbols.4.symbol>
   <!-- EN: nego -->
-  <PsychicAbility_Deaf.symbolPack.prefixSymbols.5.symbol>nego</PsychicAbility_Deaf.symbolPack.prefixSymbols.5.symbol>
+  <PsychicAbility_Deaf.symbolPack.prefixSymbols.5.symbol>مذاکره</PsychicAbility_Deaf.symbolPack.prefixSymbols.5.symbol>
   <!-- EN: nullo -->
-  <PsychicAbility_Deaf.symbolPack.prefixSymbols.6.symbol>nullo</PsychicAbility_Deaf.symbolPack.prefixSymbols.6.symbol>
+  <PsychicAbility_Deaf.symbolPack.prefixSymbols.6.symbol>پوچ</PsychicAbility_Deaf.symbolPack.prefixSymbols.6.symbol>
   
   <!-- EN: psychically dull -->
-  <PsychicAbility_Dull.label>psychically dull</PsychicAbility_Dull.label>
+  <PsychicAbility_Dull.label>از نظر روانی کسل کننده</PsychicAbility_Dull.label>
   <!-- EN: Carriers of this gene are less psychically-sensitive than others. -->
-  <PsychicAbility_Dull.description>Carriers of this gene are less psychically-sensitive than others.</PsychicAbility_Dull.description>
+  <PsychicAbility_Dull.description>ناقلین این ژن نسبت به سایرین کمتر از نظر روانی حساس هستند.</PsychicAbility_Dull.description>
   <!-- EN: psy-dull -->
-  <PsychicAbility_Dull.labelShortAdj>psy-dull</PsychicAbility_Dull.labelShortAdj>
+  <PsychicAbility_Dull.labelShortAdj>روانی کسل کننده</PsychicAbility_Dull.labelShortAdj>
   <!-- EN: dull -->
-  <PsychicAbility_Dull.symbolPack.prefixSymbols.0.symbol>dull</PsychicAbility_Dull.symbolPack.prefixSymbols.0.symbol>
+  <PsychicAbility_Dull.symbolPack.prefixSymbols.0.symbol>کسل کننده</PsychicAbility_Dull.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: flat -->
-  <PsychicAbility_Dull.symbolPack.prefixSymbols.1.symbol>flat</PsychicAbility_Dull.symbolPack.prefixSymbols.1.symbol>
+  <PsychicAbility_Dull.symbolPack.prefixSymbols.1.symbol>تخت</PsychicAbility_Dull.symbolPack.prefixSymbols.1.symbol>
   
   <!-- EN: psy-sensitive -->
-  <PsychicAbility_Enhanced.label>psy-sensitive</PsychicAbility_Enhanced.label>
+  <PsychicAbility_Enhanced.label>حساس به روان</PsychicAbility_Enhanced.label>
   <!-- EN: Carriers of this gene are more psychically-sensitive than average. -->
-  <PsychicAbility_Enhanced.description>Carriers of this gene are more psychically-sensitive than average.</PsychicAbility_Enhanced.description>
+  <PsychicAbility_Enhanced.description>حاملان این ژن از نظر روانی بیشتر از حد متوسط ​​حساس هستند.</PsychicAbility_Enhanced.description>
   <!-- EN: psy-enhanced -->
-  <PsychicAbility_Enhanced.labelShortAdj>psy-enhanced</PsychicAbility_Enhanced.labelShortAdj>
+  <PsychicAbility_Enhanced.labelShortAdj>روانی تقویت شده</PsychicAbility_Enhanced.labelShortAdj>
   <!-- EN: psy -->
-  <PsychicAbility_Enhanced.symbolPack.prefixSymbols.0.symbol>psy</PsychicAbility_Enhanced.symbolPack.prefixSymbols.0.symbol>
+  <PsychicAbility_Enhanced.symbolPack.prefixSymbols.0.symbol>روانی</PsychicAbility_Enhanced.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: senso -->
-  <PsychicAbility_Enhanced.symbolPack.prefixSymbols.1.symbol>senso</PsychicAbility_Enhanced.symbolPack.prefixSymbols.1.symbol>
+  <PsychicAbility_Enhanced.symbolPack.prefixSymbols.1.symbol>حسی</PsychicAbility_Enhanced.symbolPack.prefixSymbols.1.symbol>
   <!-- EN: sensi -->
-  <PsychicAbility_Enhanced.symbolPack.prefixSymbols.2.symbol>sensi</PsychicAbility_Enhanced.symbolPack.prefixSymbols.2.symbol>
+  <PsychicAbility_Enhanced.symbolPack.prefixSymbols.2.symbol>حساس</PsychicAbility_Enhanced.symbolPack.prefixSymbols.2.symbol>
   
   <!-- EN: super psy-sensitive -->
-  <PsychicAbility_Extreme.label>super psy-sensitive</PsychicAbility_Extreme.label>
+  <PsychicAbility_Extreme.label>فوق العاده حساس به روانی</PsychicAbility_Extreme.label>
   <!-- EN: Carriers of this gene are much more psychically-sensitive than most. -->
-  <PsychicAbility_Extreme.description>Carriers of this gene are much more psychically-sensitive than most.</PsychicAbility_Extreme.description>
+  <PsychicAbility_Extreme.description>حاملان این ژن از نظر روانی بسیار حساس‌تر از بسیاری از آنها هستند.</PsychicAbility_Extreme.description>
   <!-- EN: psy-extreme -->
-  <PsychicAbility_Extreme.labelShortAdj>psy-extreme</PsychicAbility_Extreme.labelShortAdj>
+  <PsychicAbility_Extreme.labelShortAdj>روانی افراطی</PsychicAbility_Extreme.labelShortAdj>
   <!-- EN: psy -->
-  <PsychicAbility_Extreme.symbolPack.prefixSymbols.0.symbol>psy</PsychicAbility_Extreme.symbolPack.prefixSymbols.0.symbol>
+  <PsychicAbility_Extreme.symbolPack.prefixSymbols.0.symbol>روانی</PsychicAbility_Extreme.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: senso -->
-  <PsychicAbility_Extreme.symbolPack.prefixSymbols.1.symbol>senso</PsychicAbility_Extreme.symbolPack.prefixSymbols.1.symbol>
+  <PsychicAbility_Extreme.symbolPack.prefixSymbols.1.symbol>حسی</PsychicAbility_Extreme.symbolPack.prefixSymbols.1.symbol>
   <!-- EN: sensi -->
-  <PsychicAbility_Extreme.symbolPack.prefixSymbols.2.symbol>sensi</PsychicAbility_Extreme.symbolPack.prefixSymbols.2.symbol>
+  <PsychicAbility_Extreme.symbolPack.prefixSymbols.2.symbol>حساس</PsychicAbility_Extreme.symbolPack.prefixSymbols.2.symbol>
   
   <!-- EN: robust -->
-  <Robust.label>robust</Robust.label>
+  <Robust.label>قوی</Robust.label>
   <!-- EN: Carriers of this gene take less injuries than others from the same damage. They have thickened, densified bones, nearly-solid ribcages, and strengthened binding factors in joints and flesh. -->
-  <Robust.description>Carriers of this gene take less injuries than others from the same damage. They have thickened, densified bones, nearly-solid ribcages, and strengthened binding factors in joints and flesh.</Robust.description>
+  <Robust.description>ناقلان این ژن نسبت به سایرین در اثر همین آسیب صدمات کمتری را متحمل می شوند. آنها دارای استخوان های ضخیم، متراکم، قفسه سینه تقریباً جامد و عوامل اتصال دهنده در مفاصل و گوشت هستند.</Robust.description>
   <!-- EN: tough -->
-  <Robust.symbolPack.prefixSymbols.0.symbol>tough</Robust.symbolPack.prefixSymbols.0.symbol>
+  <Robust.symbolPack.prefixSymbols.0.symbol>سخت</Robust.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: stout -->
-  <Robust.symbolPack.prefixSymbols.1.symbol>stout</Robust.symbolPack.prefixSymbols.1.symbol>
+  <Robust.symbolPack.prefixSymbols.1.symbol>تنومند</Robust.symbolPack.prefixSymbols.1.symbol>
   <!-- EN: rough -->
-  <Robust.symbolPack.prefixSymbols.2.symbol>rough</Robust.symbolPack.prefixSymbols.2.symbol>
+  <Robust.symbolPack.prefixSymbols.2.symbol>خشن</Robust.symbolPack.prefixSymbols.2.symbol>
   <!-- EN: lump -->
-  <Robust.symbolPack.prefixSymbols.3.symbol>lump</Robust.symbolPack.prefixSymbols.3.symbol>
+  <Robust.symbolPack.prefixSymbols.3.symbol>توده</Robust.symbolPack.prefixSymbols.3.symbol>
   <!-- EN: bruise -->
-  <Robust.symbolPack.prefixSymbols.4.symbol>bruise</Robust.symbolPack.prefixSymbols.4.symbol>
+  <Robust.symbolPack.prefixSymbols.4.symbol>کبودی</Robust.symbolPack.prefixSymbols.4.symbol>
   <!-- EN: stiff -->
-  <Robust.symbolPack.prefixSymbols.5.symbol>stiff</Robust.symbolPack.prefixSymbols.5.symbol>
+  <Robust.symbolPack.prefixSymbols.5.symbol>سفت</Robust.symbolPack.prefixSymbols.5.symbol>
   <!-- EN: hard -->
-  <Robust.symbolPack.prefixSymbols.6.symbol>hard</Robust.symbolPack.prefixSymbols.6.symbol>
+  <Robust.symbolPack.prefixSymbols.6.symbol>سخت</Robust.symbolPack.prefixSymbols.6.symbol>
   <!-- EN: vigo -->
-  <Robust.symbolPack.prefixSymbols.7.symbol>vigo</Robust.symbolPack.prefixSymbols.7.symbol>
+  <Robust.symbolPack.prefixSymbols.7.symbol>ویگو</Robust.symbolPack.prefixSymbols.7.symbol>
   
   <!-- EN: sleepy -->
-  <Sleepy.label>sleepy</Sleepy.label>
+  <Sleepy.label>خواب آلود</Sleepy.label>
   <!-- EN: Carriers of this gene get tired somewhat faster than others. -->
-  <Sleepy.description>Carriers of this gene get tired somewhat faster than others.</Sleepy.description>
+  <Sleepy.description>حاملان این ژن تا حدودی سریعتر از دیگران خسته می شوند.</Sleepy.description>
   <!-- EN: sleep -->
-  <Sleepy.symbolPack.prefixSymbols.0.symbol>sleep</Sleepy.symbolPack.prefixSymbols.0.symbol>
+  <Sleepy.symbolPack.prefixSymbols.0.symbol>بخواب</Sleepy.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: bed -->
-  <Sleepy.symbolPack.prefixSymbols.1.symbol>bed</Sleepy.symbolPack.prefixSymbols.1.symbol>
+  <Sleepy.symbolPack.prefixSymbols.1.symbol>تخت</Sleepy.symbolPack.prefixSymbols.1.symbol>
   <!-- EN: somno -->
-  <Sleepy.symbolPack.prefixSymbols.2.symbol>somno</Sleepy.symbolPack.prefixSymbols.2.symbol>
+  <Sleepy.symbolPack.prefixSymbols.2.symbol>خواب</Sleepy.symbolPack.prefixSymbols.2.symbol>
   <!-- EN: loaf -->
-  <Sleepy.symbolPack.suffixSymbols.0.symbol>loaf</Sleepy.symbolPack.suffixSymbols.0.symbol>
+  <Sleepy.symbolPack.suffixSymbols.0.symbol>قرص نان</Sleepy.symbolPack.suffixSymbols.0.symbol>
   
   <!-- EN: tox resistance -->
-  <ToxResist_Partial.label>tox resistance</ToxResist_Partial.label>
+  <ToxResist_Partial.label>مقاومت در برابر سموم</ToxResist_Partial.label>
   <!-- EN: Carriers of this gene are resistant to toxic buildup from any source. This includes pollution, toxic fallout, tox gas, and direct attacks with venom or injected poison. They'll gain half the amount of toxic buildup compared to others.\n\nCellular filters in the lung and skin reduce the dose of toxins entering the bloodstream. -->
-  <ToxResist_Partial.description>Carriers of this gene are resistant to toxic buildup from any source. This includes pollution, toxic fallout, tox gas, and direct attacks with venom or injected poison. They'll gain half the amount of toxic buildup compared to others.\n\nCellular filters in the lung and skin reduce the dose of toxins entering the bloodstream.</ToxResist_Partial.description>
+  <ToxResist_Partial.description>حاملان این ژن در برابر تجمع سمی از هر منبعی مقاوم هستند. این شامل آلودگی، ریزش سمی، گاز سمی و حملات مستقیم با سم یا سم تزریق شده است. آنها نیمی از میزان سموم را در مقایسه با سایرین به دست خواهند آورد.\n\nفیلترهای سلولی در ریه و پوست دوز سموم وارد شده به جریان خون را کاهش می دهند.</ToxResist_Partial.description>
   <!-- EN: tox-resistant -->
-  <ToxResist_Partial.labelShortAdj>tox-resistant</ToxResist_Partial.labelShortAdj>
+  <ToxResist_Partial.labelShortAdj>مقاوم در برابر سموم</ToxResist_Partial.labelShortAdj>
   <!-- EN: tox -->
-  <ToxResist_Partial.symbolPack.prefixSymbols.0.symbol>tox</ToxResist_Partial.symbolPack.prefixSymbols.0.symbol>
+  <ToxResist_Partial.symbolPack.prefixSymbols.0.symbol>سم</ToxResist_Partial.symbolPack.prefixSymbols.0.symbol>
   
   <!-- EN: tox immunity -->
-  <ToxResist_Total.label>tox immunity</ToxResist_Total.label>
+  <ToxResist_Total.label>ایمنی سمی</ToxResist_Total.label>
   <!-- EN: Carriers of this gene are totally immune to toxic buildup from all sources including polluted terrain, toxic fallout, tox gas, and direct attacks with venom or injected poison. They are also not bothered by acidic smog.\n\nThe carrier's biochemical pathways are modified to route around interference from nearly all known toxins. Along with enhancements to the kidneys and liver, this keeps carriers comfortable in even the most toxic of environments. -->
-  <ToxResist_Total.description>Carriers of this gene are totally immune to toxic buildup from all sources including polluted terrain, toxic fallout, tox gas, and direct attacks with venom or injected poison. They are also not bothered by acidic smog.\n\nThe carrier's biochemical pathways are modified to route around interference from nearly all known toxins. Along with enhancements to the kidneys and liver, this keeps carriers comfortable in even the most toxic of environments.</ToxResist_Total.description>
+  <ToxResist_Total.description>حاملان این ژن در برابر تجمعات سمی از همه منابع از جمله زمین های آلوده، ریزش سمی، گاز سمی و حملات مستقیم با سم یا سم تزریقی کاملاً مصون هستند. آنها همچنین توسط مه دود اسیدی اذیت نمی شوند.\n\nمسیرهای بیوشیمیایی حامل برای عبور از تداخل تقریباً همه سموم شناخته شده اصلاح شده است. همراه با بهبود کلیه‌ها و کبد، این کار حاملین را حتی در سمی‌ترین محیط‌ها راحت نگه می دارد.</ToxResist_Total.description>
   <!-- EN: Tox gas immunity -->
-  <ToxResist_Total.customEffectDescriptions.0>Tox gas immunity</ToxResist_Total.customEffectDescriptions.0>
+  <ToxResist_Total.customEffectDescriptions.0>ایمنی در برابر گازهای سمی</ToxResist_Total.customEffectDescriptions.0>
   <!-- EN: tox-immune -->
-  <ToxResist_Total.labelShortAdj>tox-immune</ToxResist_Total.labelShortAdj>
+  <ToxResist_Total.labelShortAdj>ایمنی در برابر سموم</ToxResist_Total.labelShortAdj>
   <!-- EN: tox -->
-  <ToxResist_Total.symbolPack.prefixSymbols.0.symbol>tox</ToxResist_Total.symbolPack.prefixSymbols.0.symbol>
+  <ToxResist_Total.symbolPack.prefixSymbols.0.symbol>سم</ToxResist_Total.symbolPack.prefixSymbols.0.symbol>
   
   <!-- EN: intense UV sensitivity -->
-  <UVSensitivity_Intense.label>intense UV sensitivity</UVSensitivity_Intense.label>
+  <UVSensitivity_Intense.label>حساسیت شدید UV</UVSensitivity_Intense.label>
   <!-- EN: Carriers of this gene have biological compounds in their skin that react dangerously to UV radiation. They are intensely sensitive to sunlight. -->
-  <UVSensitivity_Intense.description>Carriers of this gene have biological compounds in their skin that react dangerously to UV radiation. They are intensely sensitive to sunlight.</UVSensitivity_Intense.description>
+  <UVSensitivity_Intense.description>حاملان این ژن دارای ترکیبات بیولوژیکی در پوست خود هستند که واکنش خطرناکی به اشعه UV نشان می دهد. آنها به شدت به نور خورشید حساس هستند.</UVSensitivity_Intense.description>
   <!-- EN: UV-vulnerable -->
-  <UVSensitivity_Intense.labelShortAdj>UV-vulnerable</UVSensitivity_Intense.labelShortAdj>
+  <UVSensitivity_Intense.labelShortAdj>آسیب پذیر در برابر اشعه ماوراء بنفش</UVSensitivity_Intense.labelShortAdj>
   <!-- EN: dark -->
-  <UVSensitivity_Intense.symbolPack.prefixSymbols.0.symbol>dark</UVSensitivity_Intense.symbolPack.prefixSymbols.0.symbol>
+  <UVSensitivity_Intense.symbolPack.prefixSymbols.0.symbol>تاریک</UVSensitivity_Intense.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: tunnel -->
-  <UVSensitivity_Intense.symbolPack.prefixSymbols.1.symbol>tunnel</UVSensitivity_Intense.symbolPack.prefixSymbols.1.symbol>
+  <UVSensitivity_Intense.symbolPack.prefixSymbols.1.symbol>تونل</UVSensitivity_Intense.symbolPack.prefixSymbols.1.symbol>
   <!-- EN: under -->
-  <UVSensitivity_Intense.symbolPack.prefixSymbols.2.symbol>under</UVSensitivity_Intense.symbolPack.prefixSymbols.2.symbol>
+  <UVSensitivity_Intense.symbolPack.prefixSymbols.2.symbol>زیر</UVSensitivity_Intense.symbolPack.prefixSymbols.2.symbol>
   <!-- EN: cave -->
-  <UVSensitivity_Intense.symbolPack.prefixSymbols.3.symbol>cave</UVSensitivity_Intense.symbolPack.prefixSymbols.3.symbol>
+  <UVSensitivity_Intense.symbolPack.prefixSymbols.3.symbol>غار</UVSensitivity_Intense.symbolPack.prefixSymbols.3.symbol>
   <!-- EN: crypt -->
-  <UVSensitivity_Intense.symbolPack.prefixSymbols.4.symbol>crypt</UVSensitivity_Intense.symbolPack.prefixSymbols.4.symbol>
+  <UVSensitivity_Intense.symbolPack.prefixSymbols.4.symbol>دخمه</UVSensitivity_Intense.symbolPack.prefixSymbols.4.symbol>
   <!-- EN: dim -->
-  <UVSensitivity_Intense.symbolPack.prefixSymbols.5.symbol>dim</UVSensitivity_Intense.symbolPack.prefixSymbols.5.symbol>
+  <UVSensitivity_Intense.symbolPack.prefixSymbols.5.symbol>کم نور</UVSensitivity_Intense.symbolPack.prefixSymbols.5.symbol>
   <!-- EN: night -->
-  <UVSensitivity_Intense.symbolPack.prefixSymbols.6.symbol>night</UVSensitivity_Intense.symbolPack.prefixSymbols.6.symbol>
+  <UVSensitivity_Intense.symbolPack.prefixSymbols.6.symbol>شب</UVSensitivity_Intense.symbolPack.prefixSymbols.6.symbol>
   
   <!-- EN: mild UV sensitivity -->
-  <UVSensitivity_Mild.label>mild UV sensitivity</UVSensitivity_Mild.label>
+  <UVSensitivity_Mild.label>حساسیت خفیف UV</UVSensitivity_Mild.label>
   <!-- EN: Carriers of this gene have biological compounds in their skin that react painfully to UV radiation. They are unusually sensitive to sunlight. -->
-  <UVSensitivity_Mild.description>Carriers of this gene have biological compounds in their skin that react painfully to UV radiation. They are unusually sensitive to sunlight.</UVSensitivity_Mild.description>
+  <UVSensitivity_Mild.description>حاملان این ژن دارای ترکیبات بیولوژیکی در پوست خود هستند که واکنش دردناکی به اشعه UV نشان می دهد. آنها به طور غیرعادی به نور خورشید حساس هستند.</UVSensitivity_Mild.description>
   <!-- EN: UV-sensitive -->
-  <UVSensitivity_Mild.labelShortAdj>UV-sensitive</UVSensitivity_Mild.labelShortAdj>
+  <UVSensitivity_Mild.labelShortAdj>حساس به UV</UVSensitivity_Mild.labelShortAdj>
   <!-- EN: dark -->
-  <UVSensitivity_Mild.symbolPack.prefixSymbols.0.symbol>dark</UVSensitivity_Mild.symbolPack.prefixSymbols.0.symbol>
+  <UVSensitivity_Mild.symbolPack.prefixSymbols.0.symbol>تاریک</UVSensitivity_Mild.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: tunnel -->
-  <UVSensitivity_Mild.symbolPack.prefixSymbols.1.symbol>tunnel</UVSensitivity_Mild.symbolPack.prefixSymbols.1.symbol>
+  <UVSensitivity_Mild.symbolPack.prefixSymbols.1.symbol>تونل</UVSensitivity_Mild.symbolPack.prefixSymbols.1.symbol>
   <!-- EN: under -->
-  <UVSensitivity_Mild.symbolPack.prefixSymbols.2.symbol>under</UVSensitivity_Mild.symbolPack.prefixSymbols.2.symbol>
+  <UVSensitivity_Mild.symbolPack.prefixSymbols.2.symbol>زیر</UVSensitivity_Mild.symbolPack.prefixSymbols.2.symbol>
   <!-- EN: cave -->
-  <UVSensitivity_Mild.symbolPack.prefixSymbols.3.symbol>cave</UVSensitivity_Mild.symbolPack.prefixSymbols.3.symbol>
+  <UVSensitivity_Mild.symbolPack.prefixSymbols.3.symbol>غار</UVSensitivity_Mild.symbolPack.prefixSymbols.3.symbol>
   <!-- EN: crypt -->
-  <UVSensitivity_Mild.symbolPack.prefixSymbols.4.symbol>crypt</UVSensitivity_Mild.symbolPack.prefixSymbols.4.symbol>
+  <UVSensitivity_Mild.symbolPack.prefixSymbols.4.symbol>دخمه</UVSensitivity_Mild.symbolPack.prefixSymbols.4.symbol>
   <!-- EN: dim -->
-  <UVSensitivity_Mild.symbolPack.prefixSymbols.5.symbol>dim</UVSensitivity_Mild.symbolPack.prefixSymbols.5.symbol>
+  <UVSensitivity_Mild.symbolPack.prefixSymbols.5.symbol>کم نور</UVSensitivity_Mild.symbolPack.prefixSymbols.5.symbol>
   <!-- EN: night -->
-  <UVSensitivity_Mild.symbolPack.prefixSymbols.6.symbol>night</UVSensitivity_Mild.symbolPack.prefixSymbols.6.symbol>
+  <UVSensitivity_Mild.symbolPack.prefixSymbols.6.symbol>شب</UVSensitivity_Mild.symbolPack.prefixSymbols.6.symbol>
   
   <!-- EN: very sleepy -->
-  <VerySleepy.label>very sleepy</VerySleepy.label>
+  <VerySleepy.label>خیلی خواب آلود</VerySleepy.label>
   <!-- EN: Carriers of this gene get tired much faster than others. -->
-  <VerySleepy.description>Carriers of this gene get tired much faster than others.</VerySleepy.description>
+  <VerySleepy.description>حاملان این ژن خیلی سریعتر از سایرین خسته می شوند.</VerySleepy.description>
   <!-- EN: sleep -->
-  <VerySleepy.symbolPack.prefixSymbols.0.symbol>sleep</VerySleepy.symbolPack.prefixSymbols.0.symbol>
+  <VerySleepy.symbolPack.prefixSymbols.0.symbol>بخواب</VerySleepy.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: bed -->
-  <VerySleepy.symbolPack.prefixSymbols.1.symbol>bed</VerySleepy.symbolPack.prefixSymbols.1.symbol>
+  <VerySleepy.symbolPack.prefixSymbols.1.symbol>تخت</VerySleepy.symbolPack.prefixSymbols.1.symbol>
   <!-- EN: somno -->
-  <VerySleepy.symbolPack.prefixSymbols.2.symbol>somno</VerySleepy.symbolPack.prefixSymbols.2.symbol>
+  <VerySleepy.symbolPack.prefixSymbols.2.symbol>خواب</VerySleepy.symbolPack.prefixSymbols.2.symbol>
   <!-- EN: loaf -->
-  <VerySleepy.symbolPack.suffixSymbols.0.symbol>loaf</VerySleepy.symbolPack.suffixSymbols.0.symbol>
+  <VerySleepy.symbolPack.suffixSymbols.0.symbol>قرص نان</VerySleepy.symbolPack.suffixSymbols.0.symbol>
   
 </LanguageData>

@@ -66,12 +66,12 @@
     <li>questMapText->traders beware - outlaws</li>
   </OpportunitySite_BanditCamp_Giver.questSubjectRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <OpportunitySite_BanditCamp_Giver.LetterLabelQuestExpired.slateRef>Quest expired: [resolvedQuestName]</OpportunitySite_BanditCamp_Giver.LetterLabelQuestExpired.slateRef>
+  <OpportunitySite_BanditCamp_Giver.LetterLabelQuestExpired.slateRef>تلاش منقضی شده: [resolvedQuestName]</OpportunitySite_BanditCamp_Giver.LetterLabelQuestExpired.slateRef>
   <!-- EN: The bandit camp has packed up and moved on. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_BanditCamp_Giver.LetterTextQuestExpired.slateRef>The bandit camp has packed up and moved on. The quest [resolvedQuestName] has expired.</OpportunitySite_BanditCamp_Giver.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_BanditCamp_Giver.LetterTextQuestExpired.slateRef>اردوگاه راهزنان بارها را جمع کرده و ادامه داده است. تلاش [resolvedQuestName] منقضی شده است.</OpportunitySite_BanditCamp_Giver.LetterTextQuestExpired.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
-  <OpportunitySite_BanditCamp_Giver.LetterLabelQuestFailed.slateRef>Quest failed: [resolvedQuestName]</OpportunitySite_BanditCamp_Giver.LetterLabelQuestFailed.slateRef>
+  <OpportunitySite_BanditCamp_Giver.LetterLabelQuestFailed.slateRef>تلاش ناموفق بود: [resolvedQuestName]</OpportunitySite_BanditCamp_Giver.LetterLabelQuestFailed.slateRef>
   <!-- EN: After being discovered, the bandit camp has dispersed. The quest [resolvedQuestName] has ended. -->
-  <OpportunitySite_BanditCamp_Giver.LetterTextQuestFailed.slateRef>After being discovered, the bandit camp has dispersed. The quest [resolvedQuestName] has ended.</OpportunitySite_BanditCamp_Giver.LetterTextQuestFailed.slateRef>
+  <OpportunitySite_BanditCamp_Giver.LetterTextQuestFailed.slateRef>پس از کشف، اردوگاه راهزنان متفرق شده است. تلاش [resolvedQuestName] به پایان رسیده است.</OpportunitySite_BanditCamp_Giver.LetterTextQuestFailed.slateRef>
   
 </LanguageData>

@@ -2,13 +2,13 @@
 <LanguageData>
   
   <!-- EN: execution cut -->
-  <ExecutionCut.label>execution cut</ExecutionCut.label>
+  <ExecutionCut.label>قطع اعدام</ExecutionCut.label>
   <!-- EN: {0} has been executed by cutting. -->
-  <ExecutionCut.deathMessage>{0} has been executed by cutting.</ExecutionCut.deathMessage>
+  <ExecutionCut.deathMessage>{0} با برش اجرا شده است.</ExecutionCut.deathMessage>
   
   <!-- EN: surgical cut -->
-  <SurgicalCut.label>surgical cut</SurgicalCut.label>
+  <SurgicalCut.label>برش جراحی</SurgicalCut.label>
   <!-- EN: {0} has died during surgery. -->
-  <SurgicalCut.deathMessage>{0} has died during surgery.</SurgicalCut.deathMessage>
+  <SurgicalCut.deathMessage>{0} در حین عمل جراحی درگذشت.</SurgicalCut.deathMessage>
   
 </LanguageData>

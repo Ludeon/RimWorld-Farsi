@@ -103,23 +103,23 @@
   <!-- EN: not connected to grav engine -->
   <ThrusterNotConnected>به موتور گرانشی متصل نیست</ThrusterNotConnected>
   <!-- EN: blocked by {0_label} -->
-  <ThrusterBlockedBy>blocked by {0_label}</ThrusterBlockedBy>
+  <ThrusterBlockedBy>توسط {0_label} مسدود شده است</ThrusterBlockedBy>
   <!-- EN: must be outside -->
-  <MustBeOutside>must be outside</MustBeOutside>
+  <MustBeOutside>باید بیرون باشد</MustBeOutside>
   <!-- EN: blocked by substructure -->
-  <BlockedBySubstructure>blocked by substructure</BlockedBySubstructure>
+  <BlockedBySubstructure>توسط زیرسازی مسدود شده است</BlockedBySubstructure>
   <!-- EN: {PAWN_nameDef} cannot board {1} -->
-  <FailedToBoardGravship>{PAWN_nameDef} cannot board {1}</FailedToBoardGravship>
+  <FailedToBoardGravship>{PAWN_nameDef} نمی تواند {1} را سوار شود</FailedToBoardGravship>
   <!-- EN: {PAWN_nameDef} cannot exit {1} -->
-  <FailedToLeaveGravship>{PAWN_nameDef} cannot exit {1}</FailedToLeaveGravship>
+  <FailedToLeaveGravship>{PAWN_nameDef} نمی تواند از {1} خارج شود</FailedToLeaveGravship>
   <!-- EN: View range -->
-  <ViewRange>View range</ViewRange>
+  <ViewRange>مشاهده محدوده</ViewRange>
   <!-- EN: View the gravship’s current range on the world map. -->
-  <ViewRangeDesc>View the gravship’s current range on the world map.</ViewRangeDesc>
+  <ViewRangeDesc>محدوده فعلی قایق را روی نقشه جهان مشاهده کنید.</ViewRangeDesc>
 
   <!-- Map generation -->
   <!-- EN: Landmark -->
-  <Landmark>Landmark</Landmark>
+  <Landmark>نقطه عطف</Landmark>
   <!-- EN: {ANIMALKIND_label} habitat -->
   <AnimalHabitat>زیستگاه {ANIMALKIND_label}</AnimalHabitat>
   <!-- EN: {0} grove -->

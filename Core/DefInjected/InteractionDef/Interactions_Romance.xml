@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: breakup -->
-  <Breakup.label>breakup</Breakup.label>
+  <Breakup.label>جدایی</Breakup.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] for a break.</li>
     <li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] for some space.</li>
@@ -17,7 +17,7 @@
   </Breakup.logRulesInitiator.rulesStrings>
   
   <!-- EN: marriage proposal -->
-  <MarriageProposal.label>marriage proposal</MarriageProposal.label>
+  <MarriageProposal.label>پیشنهاد ازدواج</MarriageProposal.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] proposed marriage to [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] proposed a lifelong commitment to [RECIPIENT_nameDef].</li>
@@ -30,7 +30,7 @@
   </MarriageProposal.logRulesInitiator.rulesStrings>
   
   <!-- EN: romance attempt -->
-  <RomanceAttempt.label>romance attempt</RomanceAttempt.label>
+  <RomanceAttempt.label>تلاش عاشقانه</RomanceAttempt.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [wooed] [RECIPIENT_nameDef] by [wootactic].</li>
     <li>wooed->tried to flirt with</li>

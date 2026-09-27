@@ -2,13 +2,13 @@
 <LanguageData>
   
   <!-- EN: EMP -->
-  <EMP.label>EMP</EMP.label>
+  <EMP.label><g id="6">EMP</g><g id="7">.</g></EMP.label>
   <!-- EN: {0} has been EMPed to death. -->
-  <EMP.deathMessage>{0} has been EMPed to death.</EMP.deathMessage>
+  <EMP.deathMessage>{0} تا حد مرگ EMP شده است.</EMP.deathMessage>
   
   <!-- EN: stun -->
-  <Stun.label>stun</Stun.label>
+  <Stun.label>بیهوش کردن</Stun.label>
   <!-- EN: {0} has been stunned to death. -->
-  <Stun.deathMessage>{0} has been stunned to death.</Stun.deathMessage>
+  <Stun.deathMessage>{0} تا حد مرگ مات و مبهوت شده است.</Stun.deathMessage>
   
 </LanguageData>

@@ -2,48 +2,48 @@
 <LanguageData>
   
   <!-- EN: heatstroke -->
-  <Heatstroke.label>heatstroke</Heatstroke.label>
+  <Heatstroke.label>گرمازدگی</Heatstroke.label>
   <!-- EN: A generalized disruption to body functioning caused by excessive exposure to heat and sun. The victim becomes dizzy, weak, and confused. Recovery is quick once in a cool area, but if heat exposure continues, heat stroke gets worse until death. -->
-  <Heatstroke.description>A generalized disruption to body functioning caused by excessive exposure to heat and sun. The victim becomes dizzy, weak, and confused. Recovery is quick once in a cool area, but if heat exposure continues, heat stroke gets worse until death.</Heatstroke.description>
+  <Heatstroke.description>اختلال عمومی در عملکرد بدن ناشی از قرار گرفتن بیش از حد در معرض گرما و خورشید. قربانی دچار سرگیجه، ضعف و گیجی می شود. بهبودی یک بار در یک منطقه خنک سریع است، اما اگر قرار گرفتن در معرض گرما ادامه یابد، گرمازدگی تا زمان مرگ بدتر می شود.</Heatstroke.description>
   <!-- EN: initial -->
-  <Heatstroke.stages.initial-0.label>initial</Heatstroke.stages.initial-0.label>
+  <Heatstroke.stages.initial-0.label>اولیه</Heatstroke.stages.initial-0.label>
   <!-- EN: initial -->
-  <Heatstroke.stages.initial-1.label>initial</Heatstroke.stages.initial-1.label>
+  <Heatstroke.stages.initial-1.label>اولیه</Heatstroke.stages.initial-1.label>
   <!-- EN: minor -->
-  <Heatstroke.stages.minor.label>minor</Heatstroke.stages.minor.label>
+  <Heatstroke.stages.minor.label>جزئی</Heatstroke.stages.minor.label>
   <!-- EN: serious -->
-  <Heatstroke.stages.serious.label>serious</Heatstroke.stages.serious.label>
+  <Heatstroke.stages.serious.label>جدی</Heatstroke.stages.serious.label>
   <!-- EN: extreme -->
-  <Heatstroke.stages.extreme.label>extreme</Heatstroke.stages.extreme.label>
+  <Heatstroke.stages.extreme.label>افراطی</Heatstroke.stages.extreme.label>
   
   <!-- EN: hypothermia -->
-  <Hypothermia.label>hypothermia</Hypothermia.label>
+  <Hypothermia.label>هیپوترمی</Hypothermia.label>
   <!-- EN: Dangerously low core body temperature. Unless re-warmed, hypothermia gets worse and ends in death. Recovery is quick once the victim is re-warmed. Avoid hypothermia by wearing warm clothes in cold environments. -->
-  <Hypothermia.description>Dangerously low core body temperature. Unless re-warmed, hypothermia gets worse and ends in death. Recovery is quick once the victim is re-warmed. Avoid hypothermia by wearing warm clothes in cold environments.</Hypothermia.description>
+  <Hypothermia.description>دمای بدن به طور خطرناکی پایین است. اگر دوباره گرم نشود، هیپوترمی بدتر می شود و به مرگ ختم می شود. پس از گرم شدن مجدد قربانی، بهبودی سریع است. با پوشیدن لباس گرم در محیط های سرد از هیپوترمی جلوگیری کنید.</Hypothermia.description>
   <!-- EN: shivering -->
-  <Hypothermia.stages.shivering-0.label>shivering</Hypothermia.stages.shivering-0.label>
+  <Hypothermia.stages.shivering-0.label>لرزیدن</Hypothermia.stages.shivering-0.label>
   <!-- EN: shivering -->
-  <Hypothermia.stages.shivering-1.label>shivering</Hypothermia.stages.shivering-1.label>
+  <Hypothermia.stages.shivering-1.label>لرزیدن</Hypothermia.stages.shivering-1.label>
   <!-- EN: minor -->
-  <Hypothermia.stages.minor.label>minor</Hypothermia.stages.minor.label>
+  <Hypothermia.stages.minor.label>جزئی</Hypothermia.stages.minor.label>
   <!-- EN: serious -->
-  <Hypothermia.stages.serious.label>serious</Hypothermia.stages.serious.label>
+  <Hypothermia.stages.serious.label>جدی</Hypothermia.stages.serious.label>
   <!-- EN: extreme -->
-  <Hypothermia.stages.extreme.label>extreme</Hypothermia.stages.extreme.label>
+  <Hypothermia.stages.extreme.label>افراطی</Hypothermia.stages.extreme.label>
   
   <!-- EN: hypothermic slowdown -->
-  <HypothermicSlowdown.label>hypothermic slowdown</HypothermicSlowdown.label>
+  <HypothermicSlowdown.label>کاهش سرعت هیپوترمیک</HypothermicSlowdown.label>
   <!-- EN: A special biological state used by some creatures to survive extreme cold. Instead of trying to stay warm, the creature's body chemistry adapts to prevent internal freezing despite very low temperature. Bodily functions are slowed and capacities are reduced, but the cold does no permanent damage. Some biologists call it a wakeful form of hibernation. -->
-  <HypothermicSlowdown.description>A special biological state used by some creatures to survive extreme cold. Instead of trying to stay warm, the creature's body chemistry adapts to prevent internal freezing despite very low temperature. Bodily functions are slowed and capacities are reduced, but the cold does no permanent damage. Some biologists call it a wakeful form of hibernation.</HypothermicSlowdown.description>
+  <HypothermicSlowdown.description>حالت بیولوژیکی خاصی که توسط برخی موجودات برای زنده ماندن در سرمای شدید استفاده می شود. به جای تلاش برای گرم ماندن، شیمی بدن این موجود برای جلوگیری از انجماد داخلی با وجود دمای بسیار پایین سازگار می شود. عملکرد بدن کند می شود و ظرفیت‌ها کاهش می یابد، اما سرما آسیب دائمی ندارد. برخی زیست شناسان آن را نوعی خواب زمستانی بیدار می نامند.</HypothermicSlowdown.description>
   <!-- EN: minor -->
-  <HypothermicSlowdown.stages.minor-0.label>minor</HypothermicSlowdown.stages.minor-0.label>
+  <HypothermicSlowdown.stages.minor-0.label>جزئی</HypothermicSlowdown.stages.minor-0.label>
   <!-- EN: minor -->
-  <HypothermicSlowdown.stages.minor-1.label>minor</HypothermicSlowdown.stages.minor-1.label>
+  <HypothermicSlowdown.stages.minor-1.label>جزئی</HypothermicSlowdown.stages.minor-1.label>
   <!-- EN: moderate -->
-  <HypothermicSlowdown.stages.moderate.label>moderate</HypothermicSlowdown.stages.moderate.label>
+  <HypothermicSlowdown.stages.moderate.label>متوسط</HypothermicSlowdown.stages.moderate.label>
   <!-- EN: serious -->
-  <HypothermicSlowdown.stages.serious.label>serious</HypothermicSlowdown.stages.serious.label>
+  <HypothermicSlowdown.stages.serious.label>جدی</HypothermicSlowdown.stages.serious.label>
   <!-- EN: extreme -->
-  <HypothermicSlowdown.stages.extreme.label>extreme</HypothermicSlowdown.stages.extreme.label>
+  <HypothermicSlowdown.stages.extreme.label>افراطی</HypothermicSlowdown.stages.extreme.label>
   
 </LanguageData>

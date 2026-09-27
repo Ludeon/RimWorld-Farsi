@@ -2,120 +2,120 @@
 <LanguageData>
   
   <!-- EN: Animals will attack doors -->
-  <AnimalsDontAttackDoors.label>Animals will attack doors</AnimalsDontAttackDoors.label>
+  <AnimalsDontAttackDoors.label>حیوانات به درها حمله خواهند کرد</AnimalsDontAttackDoors.label>
   <!-- EN: Manhunting animals will attack doors if they see one of your colonists moving through them. They will also attack inactive turrets. -->
-  <AnimalsDontAttackDoors.helpText>Manhunting animals will attack doors if they see one of your colonists moving through them. They will also attack inactive turrets.</AnimalsDontAttackDoors.helpText>
+  <AnimalsDontAttackDoors.helpText>حیوانات شکار انسان اگر ببینند که یکی از مستعمرات شما در حال حرکت در آنها هستند به درها حمله می کنند. آنها همچنین به برجک های غیرفعال حمله خواهند کرد.</AnimalsDontAttackDoors.helpText>
   
   <!-- EN: Bills tab -->
-  <BillsTab.label>Bills tab</BillsTab.label>
+  <BillsTab.label>برگه قبوض</BillsTab.label>
   <!-- EN: To make colonists work at a table, select the table and open the Bills tab. Here, you can say what meals to cook, what things to craft, what creatures to butcher. -->
-  <BillsTab.helpText>To make colonists work at a table, select the table and open the Bills tab. Here, you can say what meals to cook, what things to craft, what creatures to butcher.</BillsTab.helpText>
+  <BillsTab.helpText>برای اینکه مستعمره‌ها روی میز کار کنند، جدول را انتخاب کرده و تب Bills را باز کنید. در اینجا می‌توانید بگویید چه غذاهایی بپزید، چه چیزهایی درست کنید، چه موجوداتی را قصاب کنید.</BillsTab.helpText>
   
   <!-- EN: books -->
-  <Books.label>books</Books.label>
+  <Books.label>کتاب‌ها</Books.label>
   <!-- EN: Colonists read books for recreation, to gain skills, to unlock research, and more. You can see a specific book's effects by selecting it and opening its 'Details' tab.\n\nTo choose what colonists will read, open the ASSIGN tab and configure READING POLICIES.\n\nStore books in bookcases to passively enhance intellectual and reading work done nearby, and increase the beauty of the bookcase. Bookcases passively increase research speed, XP gained from reading, and recreation gained from reading in the same room. -->
-  <Books.helpText>Colonists read books for recreation, to gain skills, to unlock research, and more. You can see a specific book's effects by selecting it and opening its 'Details' tab.\n\nTo choose what colonists will read, open the ASSIGN tab and configure READING POLICIES.\n\nStore books in bookcases to passively enhance intellectual and reading work done nearby, and increase the beauty of the bookcase. Bookcases passively increase research speed, XP gained from reading, and recreation gained from reading in the same room.</Books.helpText>
+  <Books.helpText>مستعمره‌نشین‌ها برای تفریح، کسب مهارت‌ها، باز کردن قفل تحقیقات و غیره کتاب می‌خوانند. می‌توانید جلوه‌های یک کتاب خاص را با انتخاب آن و باز کردن برگه «جزئیات» آن مشاهده کنید.\n\nبرای انتخاب مواردی که مستعمره‌نشین‌ها می‌خوانند، برگه ASSIGN را باز کنید و READING POLICIES را پیکربندی کنید.\n\nکتاب‌ها را در قفسه‌های کتاب ذخیره کنید تا به صورت غیرفعال کارهای فکری و خواندنی انجام شده در آن نزدیکی را تقویت کنید و زیبایی قفسه کتاب را افزایش دهید. قفسه های کتاب به طور غیر فعال سرعت تحقیق، XP به دست آمده از مطالعه، و تفریح ​​به دست آمده از مطالعه در همان اتاق را افزایش می دهند.</Books.helpText>
   
   <!-- EN: Build orbital trade beacon -->
-  <BuildOrbitalTradeBeacon.label>Build orbital trade beacon</BuildOrbitalTradeBeacon.label>
+  <BuildOrbitalTradeBeacon.label>چراغ تجارت مداری بسازید</BuildOrbitalTradeBeacon.label>
   <!-- EN: To send items or silver to orbital traders, you must build an ORBITAL TRADE BEACON and place a stockpile of items near it. -->
-  <BuildOrbitalTradeBeacon.helpText>To send items or silver to orbital traders, you must build an ORBITAL TRADE BEACON and place a stockpile of items near it.</BuildOrbitalTradeBeacon.helpText>
+  <BuildOrbitalTradeBeacon.helpText>برای ارسال اقلام یا نقره به معامله‌گران مداری، باید یک ORBITAL TRADE BEACON بسازید و انباری از اقلام را در نزدیکی آن قرار دهید.</BuildOrbitalTradeBeacon.helpText>
   
   <!-- EN: Capturing -->
-  <Capturing.label>Capturing</Capturing.label>
+  <Capturing.label>گرفتن</Capturing.label>
   <!-- EN: When an enemy is downed on the ground but not dead, you can CAPTURE them.\n\nTo capture, select a colonist, right-click on the incapacitated enemy, and select Capture.\n\nYou'll need an extra bed marked for prisoner use. -->
-  <Capturing.helpText>When an enemy is downed on the ground but not dead, you can CAPTURE them.\n\nTo capture, select a colonist, right-click on the incapacitated enemy, and select Capture.\n\nYou'll need an extra bed marked for prisoner use.</Capturing.helpText>
+  <Capturing.helpText>وقتی دشمنی روی زمین سرنگون می‌شود اما نمرده است، می‌توانید او را دستگیر کنید.\n\nبرای دستگیری، یک مستعمره‌نشین را انتخاب کنید، روی دشمن ناتوان کلیک راست کرده و Capture را انتخاب کنید.\n\nبه یک تخت اضافی نیاز دارید که برای استفاده زندانیان علامت‌گذاری شده باشد.</Capturing.helpText>
   <!-- EN: When an enemy is downed on the ground but not dead, you can CAPTURE them.\n\nTo capture, select a colonist, press the left trigger button on the incapacitated enemy, and select Capture.\n\nYou'll need an extra bed marked for prisoner use. -->
-  <Capturing.helpTextController>When an enemy is downed on the ground but not dead, you can CAPTURE them.\n\nTo capture, select a colonist, press the left trigger button on the incapacitated enemy, and select Capture.\n\nYou'll need an extra bed marked for prisoner use.</Capturing.helpTextController>
+  <Capturing.helpTextController>وقتی دشمنی روی زمین سرنگون می‌شود اما نمرده است، می‌توانید او را دستگیر کنید.\n\nبرای گرفتن، یک مستعمره‌نشین را انتخاب کنید، دکمه ماشه سمت چپ را روی دشمن ناتوان فشار دهید و Capture را انتخاب کنید.\n\nبه یک تخت اضافی که برای استفاده زندانیان علامت‌گذاری شده است نیاز دارید.</Capturing.helpTextController>
   
   <!-- EN: Door opening speeds -->
-  <DoorOpenSpeed.label>Door opening speeds</DoorOpenSpeed.label>
+  <DoorOpenSpeed.label>سرعت باز شدن درب</DoorOpenSpeed.label>
   <!-- EN: Doors open at different speeds depending on what they're made of.\n\nWarning: Stone doors open very slowly. Anyone passing through will be significantly slowed down. -->
-  <DoorOpenSpeed.helpText>Doors open at different speeds depending on what they're made of.\n\nWarning: Stone doors open very slowly. Anyone passing through will be significantly slowed down.</DoorOpenSpeed.helpText>
+  <DoorOpenSpeed.helpText>درها بسته به اینکه از چه ساخته شده‌اند با سرعت‌های متفاوتی باز می‌شوند.\n\nهشدار: درهای سنگی بسیار آهسته باز می‌شوند. هر کسی که از آن عبور کند به طور قابل توجهی کند می شود.</DoorOpenSpeed.helpText>
   
   <!-- EN: Drafting for combat -->
-  <Drafting.label>Drafting for combat</Drafting.label>
+  <Drafting.label>پیش نویس برای مبارزه</Drafting.label>
   <!-- EN: To control colonists directly for combat, Draft them by selecting them and hitting the DRAFT button.\n\nA drafted colonist will do only what you tell them, and can only take combat actions. Those with weapons will use them when possible.\n\nDon't leave colonists Drafted forever - they'll starve and become unhappy. -->
-  <Drafting.helpText>To control colonists directly for combat, Draft them by selecting them and hitting the DRAFT button.\n\nA drafted colonist will do only what you tell them, and can only take combat actions. Those with weapons will use them when possible.\n\nDon't leave colonists Drafted forever - they'll starve and become unhappy.</Drafting.helpText>
+  <Drafting.helpText>برای کنترل مستعمره‌نشین‌ها به‌طور مستقیم برای نبرد، با انتخاب آنها و زدن دکمه DRAFT، آنها را پیش‌نویس کنید.\n\nیک مستعمره‌نشین پیش‌نویس فقط کاری را که شما به آنها می‌گویید انجام می‌دهد و فقط می‌تواند اقدامات جنگی انجام دهد. کسانی که اسلحه دارند در صورت امکان از آنها استفاده خواهند کرد.\n\nاستعمارگران را برای همیشه در خدمت سربازی رها نکنید - آنها گرسنگی خواهند مرد و ناراضی خواهند شد.</Drafting.helpText>
   
   <!-- EN: Drug addiction -->
-  <DrugAddiction.label>Drug addiction</DrugAddiction.label>
+  <DrugAddiction.label>اعتیاد به مواد مخدر</DrugAddiction.label>
   <!-- EN: You can inspect your colonists' desire to take a drug in their Needs tab.\n\nAs long as their need level is at zero, their addiction changes to a "withdrawal" state which can have various negative side effects.\n\nHowever, after long enough in withdrawal, their addiction will end and the drug need will disappear. -->
-  <DrugAddiction.helpText>You can inspect your colonists' desire to take a drug in their Needs tab.\n\nAs long as their need level is at zero, their addiction changes to a "withdrawal" state which can have various negative side effects.\n\nHowever, after long enough in withdrawal, their addiction will end and the drug need will disappear.</DrugAddiction.helpText>
+  <DrugAddiction.helpText>می‌توانید تمایل ساکنان مستعمره‌تان به مصرف دارو را در برگه نیازهایشان بررسی کنید.\n\nتا زمانی که سطح نیاز آنها صفر است، اعتیاد آنها به حالت "ترک" تغییر می‌کند که می‌تواند عوارض جانبی منفی مختلفی داشته باشد.\n\nاما، پس از مدت زمان کافی ترک، اعتیاد آنها پایان می‌یابد و نیاز به مواد مخدر ناپدید می‌شود.</DrugAddiction.helpText>
   
   <!-- EN: Drug burning -->
-  <DrugBurning.label>Drug burning</DrugBurning.label>
+  <DrugBurning.label>سوزاندن مواد مخدر</DrugBurning.label>
   <!-- EN: Drugs can be useful, but can also lead to harmful addictions.\n\nIf you want to avoid drugs in your colony, you have the option of burning them at a campfire. -->
-  <DrugBurning.helpText>Drugs can be useful, but can also lead to harmful addictions.\n\nIf you want to avoid drugs in your colony, you have the option of burning them at a campfire.</DrugBurning.helpText>
+  <DrugBurning.helpText>مواد مخدر می‌توانند مفید باشند، اما می‌توانند به اعتیادهای مضر نیز منجر شوند.\n\nاگر می‌خواهید از مواد مخدر در کلنی خود اجتناب کنید، می‌توانید آنها را در آتش کمپ بسوزانید.</DrugBurning.helpText>
   
   <!-- EN: Drug policies -->
-  <DrugPolicies.label>Drug policies</DrugPolicies.label>
+  <DrugPolicies.label>سیاست های دارویی</DrugPolicies.label>
   <!-- EN: You can assign colonists to take specific drugs on a specific schedule. For example, you can make them take infection-blocking drugs regularly, or drink a beer a day to stay happy.\n\nOpen the ASSIGN tab and press the 'Manage drug policies' button. Create a new drug policy. Then, you can assign this policy to colonists.\n\nColonists can still take drugs not in their policy. You can tell them what to do, but they also follow their own desires! -->
-  <DrugPolicies.helpText>You can assign colonists to take specific drugs on a specific schedule. For example, you can make them take infection-blocking drugs regularly, or drink a beer a day to stay happy.\n\nOpen the ASSIGN tab and press the 'Manage drug policies' button. Create a new drug policy. Then, you can assign this policy to colonists.\n\nColonists can still take drugs not in their policy. You can tell them what to do, but they also follow their own desires!</DrugPolicies.helpText>
+  <DrugPolicies.helpText>شما می توانید مستعمره نشینان را به مصرف داروهای خاص بر اساس یک برنامه زمانی مشخص اختصاص دهید. به‌عنوان مثال، می‌توانید آنها را وادار کنید به طور منظم داروهای مسدودکننده عفونت مصرف کنند یا برای شاد ماندن یک آبجو در روز بنوشند.\n\nبرگه ASSIGN را باز کنید و دکمه «مدیریت خط‌مشی‌های دارویی» را فشار دهید. ایجاد یک سیاست دارویی جدید سپس، می‌توانید این خط‌مشی را به مستعمره‌نشینان اختصاص دهید.\n\nاستعمارگران همچنان می‌توانند داروهایی را مصرف کنند که در خط‌مشی آنها نیست. شما می توانید به آنها بگویید چه کاری انجام دهند، اما آنها نیز به دنبال خواسته های خود هستند!</DrugPolicies.helpText>
   
   <!-- EN: Positioning fighters -->
-  <GroupGotoHereDragging.label>Positioning fighters</GroupGotoHereDragging.label>
+  <GroupGotoHereDragging.label>جنگنده های موقعیت یابی</GroupGotoHereDragging.label>
   <!-- EN: Right-click and drag to have your drafted fighters form a line.\n\nSpread out - bunched-up targets are easy to hit! -->
-  <GroupGotoHereDragging.helpText>Right-click and drag to have your drafted fighters form a line.\n\nSpread out - bunched-up targets are easy to hit!</GroupGotoHereDragging.helpText>
+  <GroupGotoHereDragging.helpText>راست کلیک کنید و بکشید تا جنگنده‌های پیش‌نویس شما یک خط را تشکیل دهند.\n\nگسترش کنید - هدف‌های دسته‌بندی شده به راحتی قابل اصابت هستند!</GroupGotoHereDragging.helpText>
   <!-- EN: Hold the left trigger button and drag to have your drafted fighters form a line.\n\nSpread out - bunched-up targets are easy to hit! -->
-  <GroupGotoHereDragging.helpTextController>Hold the left trigger button and drag to have your drafted fighters form a line.\n\nSpread out - bunched-up targets are easy to hit!</GroupGotoHereDragging.helpTextController>
+  <GroupGotoHereDragging.helpTextController>دکمه ماشه سمت چپ را نگه دارید و بکشید تا جنگنده‌های پیش‌نویس شما یک خط را تشکیل دهند.\n\nپخش کنید - هدف‌های دسته‌بندی شده به راحتی قابل اصابت هستند!</GroupGotoHereDragging.helpTextController>
   
   <!-- EN: Interacting with traders -->
-  <InteractingWithTraders.label>Interacting with traders</InteractingWithTraders.label>
+  <InteractingWithTraders.label>تعامل با معامله گران</InteractingWithTraders.label>
   <!-- EN: You can talk to people with ? over their heads.\n\nSelect a colonist and right-click on the character with ? attached to their head. -->
-  <InteractingWithTraders.helpText>You can talk to people with ? over their heads.\n\nSelect a colonist and right-click on the character with ? attached to their head.</InteractingWithTraders.helpText>
+  <InteractingWithTraders.helpText>می توانید با مردم صحبت کنید؟ بالای سرشان.\n\nیک مستعمره‌نشین را انتخاب کنید و روی شخصیت با ? به سرشان چسبیده است.</InteractingWithTraders.helpText>
   <!-- EN: You can talk to people with ? over their heads.\n\nSelect a colonist and press the left trigger button on the character with ? attached to their head. -->
-  <InteractingWithTraders.helpTextController>You can talk to people with ? over their heads.\n\nSelect a colonist and press the left trigger button on the character with ? attached to their head.</InteractingWithTraders.helpTextController>
+  <InteractingWithTraders.helpTextController>می توانید با مردم صحبت کنید؟ بالای سر آنها.\n\nیک مستعمره‌نشین را انتخاب کنید و دکمه ماشه سمت چپ شخصیت را با ? به سرشان چسبیده است.</InteractingWithTraders.helpTextController>
   
   <!-- EN: Using the comms console -->
-  <OpeningComms.label>Using the comms console</OpeningComms.label>
+  <OpeningComms.label>با استفاده از کنسول comms</OpeningComms.label>
   <!-- EN: To communicate, select a colonist and right-click on the comms console. -->
-  <OpeningComms.helpText>To communicate, select a colonist and right-click on the comms console.</OpeningComms.helpText>
+  <OpeningComms.helpText>برای برقراری ارتباط، یک مستعمره را انتخاب کنید و بر روی کنسول coms کلیک راست کنید.</OpeningComms.helpText>
   <!-- EN: To communicate, select a colonist and press the left trigger button on the comms console. -->
-  <OpeningComms.helpTextController>To communicate, select a colonist and press the left trigger button on the comms console.</OpeningComms.helpTextController>
+  <OpeningComms.helpTextController>برای برقراری ارتباط، یک مستعمره‌کننده را انتخاب کنید و دکمه ماشه سمت چپ را در کنسول comms فشار دهید.</OpeningComms.helpTextController>
   
   <!-- EN: Prisoner tab -->
-  <PrisonerTab.label>Prisoner tab</PrisonerTab.label>
+  <PrisonerTab.label>برگه زندانی</PrisonerTab.label>
   <!-- EN: Look in a prisoner's 'Prisoner' tab to set how they'll be treated.\n\nYou can set whether they'll be recruited, ignored, or executed, and what kind of medical care they get. You can set food restrictions for the prisoner in their health tab.\n\nColonists with the Warden work type will interact with the prisoner. -->
-  <PrisonerTab.helpText>Look in a prisoner's 'Prisoner' tab to set how they'll be treated.\n\nYou can set whether they'll be recruited, ignored, or executed, and what kind of medical care they get. You can set food restrictions for the prisoner in their health tab.\n\nColonists with the Warden work type will interact with the prisoner.</PrisonerTab.helpText>
+  <PrisonerTab.helpText>به برگه «زندانی» زندانی نگاه کنید تا نحوه رفتار با آنها را تنظیم کنید.\n\nمی‌توانید تعیین کنید که آیا آنها استخدام شوند، نادیده گرفته شوند یا اعدام شوند و چه نوع مراقبت‌های پزشکی دریافت می‌کنند. می‌توانید در برگه سلامتی زندانی محدودیت‌های غذایی تعیین کنید.\n\nاستعمارگران با نوع کاری Warden با زندانی تعامل خواهند داشت.</PrisonerTab.helpText>
   
   <!-- EN: Order queueing -->
-  <QueueOrders.label>Order queueing</QueueOrders.label>
+  <QueueOrders.label>صف سفارش</QueueOrders.label>
   <!-- EN: When giving commands to pawns, you can queue up multiple orders by holding "shift". This also works when giving jobs to undrafted pawns. -->
-  <QueueOrders.helpText>When giving commands to pawns, you can queue up multiple orders by holding "shift". This also works when giving jobs to undrafted pawns.</QueueOrders.helpText>
+  <QueueOrders.helpText>هنگام دادن فرمان به پیاده‌ها، می توانید با نگه داشتن "shift" چندین دستور را در صف قرار دهید. این همچنین در هنگام دادن کار به پیاده‌های بدون نقشه نیز کار می‌کند.</QueueOrders.helpText>
   <!-- EN: When giving commands to pawns, you can queue up multiple orders by holding {Key:QueueOrder}. This also works when giving jobs to undrafted pawns. -->
-  <QueueOrders.helpTextController>When giving commands to pawns, you can queue up multiple orders by holding {Key:QueueOrder}. This also works when giving jobs to undrafted pawns.</QueueOrders.helpTextController>
+  <QueueOrders.helpTextController>هنگام دادن فرمان به پیاده‌ها، می توانید با نگه داشتن {Key:QueueOrder} چندین دستور را در صف قرار دهید. این همچنین در هنگام دادن کار به پیاده‌های بدون نقشه نیز کار می‌کند.</QueueOrders.helpTextController>
   
   <!-- EN: Reforming caravans -->
-  <ReformCaravan.label>Reforming caravans</ReformCaravan.label>
+  <ReformCaravan.label>کاروان های اصلاح طلب</ReformCaravan.label>
   <!-- EN: After an encounter, you can easily re-form a caravan by using the RE-FORM CARAVAN command in the World view. -->
-  <ReformCaravan.helpText>After an encounter, you can easily re-form a caravan by using the RE-FORM CARAVAN command in the World view.</ReformCaravan.helpText>
+  <ReformCaravan.helpText>پس از برخورد، با استفاده از دستور RE-FORM CARAVAN در نمای جهان می توانید به راحتی کاروان را دوباره تشکیل دهید.</ReformCaravan.helpText>
   
   <!-- EN: Rescuing -->
-  <Rescuing.label>Rescuing</Rescuing.label>
+  <Rescuing.label>نجات دادن</Rescuing.label>
   <!-- EN: To rescue a wounded person, select a healthy colonist and then right-click on the wounded one.\n\nIf you rescue a non-colonist, they won't necessarily join your colony. They may simply walk away after healing. If you want to guarantee that they join, capture them and recruit them. -->
-  <Rescuing.helpText>To rescue a wounded person, select a healthy colonist and then right-click on the wounded one.\n\nIf you rescue a non-colonist, they won't necessarily join your colony. They may simply walk away after healing. If you want to guarantee that they join, capture them and recruit them.</Rescuing.helpText>
+  <Rescuing.helpText>برای نجات یک فرد مجروح، یک مستعمره سالم را انتخاب کنید و سپس روی مجروح کلیک راست کنید.\n\nاگر غیر مستعمره‌ای را نجات دهید، آنها لزوماً به مستعمره شما نمی‌پیوندند. آنها ممکن است پس از بهبودی به سادگی کنار بروند. اگر می خواهید تضمین کنید که آنها ملحق می شوند، آنها را دستگیر کنید و آنها را به خدمت بگیرید.</Rescuing.helpText>
   <!-- EN: To rescue a wounded person, select a healthy colonist and then press the left trigger button on the wounded one.\n\nIf you rescue a non-colonist, they won't necessarily join your colony. They may simply walk away after healing. If you want to guarantee that they join, capture them and recruit them. -->
-  <Rescuing.helpTextController>To rescue a wounded person, select a healthy colonist and then press the left trigger button on the wounded one.\n\nIf you rescue a non-colonist, they won't necessarily join your colony. They may simply walk away after healing. If you want to guarantee that they join, capture them and recruit them.</Rescuing.helpTextController>
+  <Rescuing.helpTextController>برای نجات یک فرد زخمی، یک مستعمره نشین سالم را انتخاب کنید و سپس دکمه ماشه سمت چپ روی زخمی را فشار دهید.\n\nاگر غیر مستعمره‌ای را نجات دهید، لزوماً به مستعمره شما نمی پیوندد. آنها ممکن است پس از بهبودی به سادگی کنار بروند. اگر می خواهید تضمین کنید که آنها ملحق می شوند، آنها را دستگیر کنید و آنها را به خدمت بگیرید.</Rescuing.helpTextController>
   
   <!-- EN: Set what plant to grow -->
-  <SetGrowingZonePlant.label>Set what plant to grow</SetGrowingZonePlant.label>
+  <SetGrowingZonePlant.label>تعیین کنید چه گیاهی رشد کند</SetGrowingZonePlant.label>
   <!-- EN: You can set what to plant in a growing zone. You can even grow trees!\n\nJust select the growing zone, open the Growing tab, and click the 'plant' button. -->
-  <SetGrowingZonePlant.helpText>You can set what to plant in a growing zone. You can even grow trees!\n\nJust select the growing zone, open the Growing tab, and click the 'plant' button.</SetGrowingZonePlant.helpText>
+  <SetGrowingZonePlant.helpText>می توانید تعیین کنید که در یک منطقه رشد چه چیزی بکارید. شما حتی می توانید درختان را پرورش دهید!\n\nفقط منطقه رشد را انتخاب کنید، برگه رشد را باز کنید، و روی دکمه "گیاه" کلیک کنید.</SetGrowingZonePlant.helpText>
   
   <!-- EN: Shelves -->
-  <Shelves.label>Shelves</Shelves.label>
+  <Shelves.label>قفسه‌ها</Shelves.label>
   <!-- EN: Shelves store three times as much as empty ground. Items on shelves will also never deteriorate and don't affect the beauty of their surroundings.\n\nYou can link shelves into groups and configure them as one. First, select two or more shelves, then click 'Link storage settings'. -->
-  <Shelves.helpText>Shelves store three times as much as empty ground. Items on shelves will also never deteriorate and don't affect the beauty of their surroundings.\n\nYou can link shelves into groups and configure them as one. First, select two or more shelves, then click 'Link storage settings'.</Shelves.helpText>
+  <Shelves.helpText>قفسه‌ها سه برابر زمین خالی ذخیره می شوند. موارد موجود در قفسه‌ها نیز هرگز خراب نمی‌شوند و زیبایی محیط اطراف خود را تحت تأثیر قرار نمی‌دهند.\n\nشما می‌توانید قفسه‌ها را به گروه‌هایی پیوند دهید و آنها را به‌عنوان یکی پیکربندی کنید. ابتدا دو یا چند قفسه را انتخاب کنید، سپس روی "پیوند تنظیمات ذخیره سازی" کلیک کنید.</Shelves.helpText>
   
   <!-- EN: Shield belts -->
-  <ShieldBelts.label>Shield belts</ShieldBelts.label>
+  <ShieldBelts.label>کمربندهای محافظ</ShieldBelts.label>
   <!-- EN: Shield belts stop ranged attacks from coming in or out. They have no effect on melee attacks.\n\nTo fight against shield belts, either concentrate a lot of gunfire on the target, or fight hand-to-hand. -->
-  <ShieldBelts.helpText>Shield belts stop ranged attacks from coming in or out. They have no effect on melee attacks.\n\nTo fight against shield belts, either concentrate a lot of gunfire on the target, or fight hand-to-hand.</ShieldBelts.helpText>
+  <ShieldBelts.helpText>کمربندهای محافظ از ورود یا خارج شدن حملات دامنه دار جلوگیری می کنند. آنها هیچ تأثیری در حملات غوغا ندارند.\n\nبرای مبارزه با کمربندهای سپر، یا تیراندازی زیادی را روی هدف متمرکز کنید یا تن به تن بجنگید.</ShieldBelts.helpText>
   
   <!-- EN: TV for sick people -->
-  <TVForSickPeople.label>TV for sick people</TVForSickPeople.label>
+  <TVForSickPeople.label>تلویزیون برای افراد بیمار</TVForSickPeople.label>
   <!-- EN: Sick people can watch TV while laying in bed. -->
-  <TVForSickPeople.helpText>Sick people can watch TV while laying in bed.</TVForSickPeople.helpText>
+  <TVForSickPeople.helpText>افراد بیمار می توانند در حالی که در رختخواب دراز کشیده اند تلویزیون تماشا کنند.</TVForSickPeople.helpText>
   
 </LanguageData>

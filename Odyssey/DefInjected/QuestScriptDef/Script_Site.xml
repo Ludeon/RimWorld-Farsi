@@ -54,14 +54,14 @@
     <li>remote->Distant</li>
   </SurveySite.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <SurveySite.LetterLabelQuestExpired.slateRef>Quest expired: [resolvedQuestName]</SurveySite.LetterLabelQuestExpired.slateRef>
+  <SurveySite.LetterLabelQuestExpired.slateRef>تلاش منقضی شده: [resolvedQuestName]</SurveySite.LetterLabelQuestExpired.slateRef>
   <!-- EN: The scanner has gone offline. The quest [resolvedQuestName] has expired. -->
-  <SurveySite.LetterTextQuestExpired.slateRef>The scanner has gone offline. The quest [resolvedQuestName] has expired.</SurveySite.LetterTextQuestExpired.slateRef>
+  <SurveySite.LetterTextQuestExpired.slateRef>اسکنر آفلاین شده است. تلاش [resolvedQuestName] منقضی شده است.</SurveySite.LetterTextQuestExpired.slateRef>
   <!-- EN: {BASETEXT}\n\nThe [enemyFaction_pawnsPlural] [attackReason]. -->
-  <SurveySite.root.nodes.Root_SurveyScanner.raidLetterText>{BASETEXT}\n\nThe [enemyFaction_pawnsPlural] [attackReason].</SurveySite.root.nodes.Root_SurveyScanner.raidLetterText>
+  <SurveySite.root.nodes.Root_SurveyScanner.raidLetterText>{BASETEXT}\n\n[enemyFaction_pawnsPlural] [attackReason].</SurveySite.root.nodes.Root_SurveyScanner.raidLetterText>
   <!-- EN: Quest completed -->
-  <SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.label.slateRef>Quest completed</SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.label.slateRef>
+  <SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.label.slateRef>تلاش تکمیل شد</SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.label.slateRef>
   <!-- EN: You have successfully completed the quest '[resolvedQuestName]'! -->
-  <SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.text.slateRef>You have successfully completed the quest '[resolvedQuestName]'!</SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.text.slateRef>
+  <SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.text.slateRef>شما تلاش "[resolvedQuestName]" را با موفقیت به پایان رساندید!</SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.text.slateRef>
   
 </LanguageData>

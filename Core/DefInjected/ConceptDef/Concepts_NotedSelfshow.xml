@@ -2,181 +2,181 @@
 <LanguageData>
   
   <!-- EN: Alerts -->
-  <Alerts.label>Alerts</Alerts.label>
+  <Alerts.label>هشدارها</Alerts.label>
   <!-- EN: The alerts at the right edge of the screen tell you about issues that need your attention.\n\nKeep an eye on the alerts. -->
-  <Alerts.helpText>The alerts at the right edge of the screen tell you about issues that need your attention.\n\nKeep an eye on the alerts.</Alerts.helpText>
+  <Alerts.helpText>هشدارها در لبه سمت راست صفحه به شما درباره مسائلی می‌گویند که به توجه شما نیاز دارند.\n\nمراقب هشدارها باشید.</Alerts.helpText>
   
   <!-- EN: Allowed areas -->
-  <AllowedAreas.label>Allowed areas</AllowedAreas.label>
+  <AllowedAreas.label>مناطق مجاز</AllowedAreas.label>
   <!-- EN: Colonists and colony animals can be assigned to ALLOWED AREAS. This forbids them from taking destinations outside their allowed area.\n\nThis can be used to, for example, forbid colonists from going outside.\n\nYou can create multiple allowed areas and assign them to different colonists and animals.\n\nCreate, delete, and assign allowed areas in the SCHEDULE tab.\n\nPaint allowed areas onto the map using the EXPAND ALLOWED AREA and CLEAR ALLOWED AREA designators in the Architect tab. -->
-  <AllowedAreas.helpText>Colonists and colony animals can be assigned to ALLOWED AREAS. This forbids them from taking destinations outside their allowed area.\n\nThis can be used to, for example, forbid colonists from going outside.\n\nYou can create multiple allowed areas and assign them to different colonists and animals.\n\nCreate, delete, and assign allowed areas in the SCHEDULE tab.\n\nPaint allowed areas onto the map using the EXPAND ALLOWED AREA and CLEAR ALLOWED AREA designators in the Architect tab.</AllowedAreas.helpText>
+  <AllowedAreas.helpText>مستعمرات و حیوانات مستعمره را می توان به مناطق مجاز اختصاص داد. این امر آنها را از رفتن به مقصدهای خارج از منطقه مجاز خود منع می کند.\n\nبرای مثال، می توان از آن برای منع خروج مستعمره نشینان به خارج استفاده کرد.\n\nمی توانید چندین منطقه مجاز ایجاد کنید و آنها را به مستعمره نشینان و حیوانات مختلف اختصاص دهید.\n\nمناطق مجاز را در برگه SCHEDULE ایجاد، حذف و اختصاص دهید.\n\nنقشه را با استفاده از قسمت های مجاز CALLEDAR و EXPELEDEA روی نقشه رنگ کنید. تعیین کننده های منطقه مجاز در برگه معمار.</AllowedAreas.helpText>
   
   <!-- EN: Animal taming -->
-  <AnimalTaming.label>Animal taming</AnimalTaming.label>
+  <AnimalTaming.label>اهلی کردن حیوانات</AnimalTaming.label>
   <!-- EN: You can assign colonists to tame a wild animal with the TAME designator.\n\nColonists will offer the animal food and attempt to tame it.\n\nBeware: Some animals can respond violently to failed taming attempts. -->
-  <AnimalTaming.helpText>You can assign colonists to tame a wild animal with the TAME designator.\n\nColonists will offer the animal food and attempt to tame it.\n\nBeware: Some animals can respond violently to failed taming attempts.</AnimalTaming.helpText>
+  <AnimalTaming.helpText>می‌توانید مستعمره‌نشین‌ها را برای اهلی کردن یک حیوان وحشی با نشانگر TAME تعیین کنید.\n\nاستعمارگران به حیوان غذا می‌دهند و سعی می‌کنند آن را اهلی کنند.\n\nمراقب باشید: برخی از حیوانات می‌توانند با خشونت به تلاش‌های رام کردن ناموفق پاسخ دهند.</AnimalTaming.helpText>
   
   <!-- EN: Animal training -->
-  <AnimalTraining.label>Animal training</AnimalTraining.label>
+  <AnimalTraining.label>آموزش حیوانات</AnimalTraining.label>
   <!-- EN: You can assign a tame animal to be trained in specific skills on its TRAINING tab or on the ANIMALS tab.\n\nAnimals can't be trained continuously; they need time between training sessions. -->
-  <AnimalTraining.helpText>You can assign a tame animal to be trained in specific skills on its TRAINING tab or on the ANIMALS tab.\n\nAnimals can't be trained continuously; they need time between training sessions.</AnimalTraining.helpText>
+  <AnimalTraining.helpText>می‌توانید یک حیوان اهلی را برای آموزش مهارت‌های خاص در برگه TRAINING یا برگه حیوانات اختصاص دهید.\n\nحیوانات را نمی‌توان به طور مداوم آموزش داد. آنها به زمان بین جلسات آموزشی نیاز دارند.</AnimalTraining.helpText>
   
   <!-- EN: Camera dolly -->
-  <CameraDolly.label>Camera dolly</CameraDolly.label>
+  <CameraDolly.label>دالی دوربین</CameraDolly.label>
   <!-- EN: Move the camera by clicking and dragging the MOUSE BUTTON 3 (middle button) or with the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys. -->
-  <CameraDolly.helpText>Move the camera by clicking and dragging the MOUSE BUTTON 3 (middle button) or with the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys.</CameraDolly.helpText>
+  <CameraDolly.helpText>دوربین را با کلیک و کشیدن دکمه ماوس 3 (دکمه میانی) یا با کلیدهای {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} حرکت دهید.</CameraDolly.helpText>
   <!-- EN: Move the camera by using the D-pad. -->
-  <CameraDolly.helpTextController>Move the camera by using the D-pad.</CameraDolly.helpTextController>
+  <CameraDolly.helpTextController>با استفاده از D-pad دوربین را حرکت دهید.</CameraDolly.helpTextController>
   
   <!-- EN: Camera zoom -->
-  <CameraZoom.label>Camera zoom</CameraZoom.label>
+  <CameraZoom.label>زوم دوربین</CameraZoom.label>
   <!-- EN: Zoom in and out with the MOUSEWHEEL or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys. -->
-  <CameraZoom.helpText>Zoom in and out with the MOUSEWHEEL or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys.</CameraZoom.helpText>
+  <CameraZoom.helpText>با چرخ ماوس یا کلیدهای {Key:MapZoom_In} و {Key:MapZoom_Out} بزرگنمایی و کوچکنمایی کنید.</CameraZoom.helpText>
   <!-- EN: Zoom in and out with {Key:MapZoom_In} and {Key:MapZoom_Out}. -->
-  <CameraZoom.helpTextController>Zoom in and out with {Key:MapZoom_In} and {Key:MapZoom_Out}.</CameraZoom.helpTextController>
+  <CameraZoom.helpTextController>با {Key:MapZoom_In} و {Key:MapZoom_Out} بزرگنمایی و کوچکنمایی کنید.</CameraZoom.helpTextController>
   
   <!-- EN: Clicking messages -->
-  <ClickingMessages.label>Clicking messages</ClickingMessages.label>
+  <ClickingMessages.label>روی پیام‌ها کلیک کنید</ClickingMessages.label>
   <!-- EN: You can click on the notifications in the top-left of the screen to instantly center the camera on their subject. -->
-  <ClickingMessages.helpText>You can click on the notifications in the top-left of the screen to instantly center the camera on their subject.</ClickingMessages.helpText>
+  <ClickingMessages.helpText>می‌توانید روی اعلان‌ها در سمت چپ بالای صفحه کلیک کنید تا فوراً دوربین را روی سوژه‌شان وسط قرار دهید.</ClickingMessages.helpText>
   
   <!-- EN: Cover and shooting -->
-  <CoverAndShooting.label>Cover and shooting</CoverAndShooting.label>
+  <CoverAndShooting.label>پوشش و تیراندازی</CoverAndShooting.label>
   <!-- EN: The most important thing to do in ranged combat is to use cover.\n\nCover only works if your colonist is touching it, and it is between your colonist and the enemy.\n\nYou can also place colonists behind wall corners. They will lean out to shoot.\n\nMost things can be used as cover, but some things are better than others. Hiding behind a tree is better than nothing, but hiding behind sandbags is better than using a tree. -->
-  <CoverAndShooting.helpText>The most important thing to do in ranged combat is to use cover.\n\nCover only works if your colonist is touching it, and it is between your colonist and the enemy.\n\nYou can also place colonists behind wall corners. They will lean out to shoot.\n\nMost things can be used as cover, but some things are better than others. Hiding behind a tree is better than nothing, but hiding behind sandbags is better than using a tree.</CoverAndShooting.helpText>
+  <CoverAndShooting.helpText>مهمترین کاری که باید در نبردهای برد استفاده کنید استفاده از پوشش است.\n\nپوشش فقط در صورتی کار می‌کند که مستعمره‌نشین شما آن را لمس کند و بین مستعمره‌نشین و دشمن باشد.\n\nهمچنین می‌توانید مستعمره‌ها را پشت گوشه دیوار قرار دهید. آنها برای تیراندازی به بیرون خم می‌شوند.\n\nاز بیشتر چیزها می‌توان به عنوان پوشش استفاده کرد، اما برخی چیزها بهتر از بقیه هستند. پنهان شدن پشت درخت بهتر از هیچی است، اما پنهان شدن پشت کیسه های شن بهتر از استفاده از درخت است.</CoverAndShooting.helpText>
   
   <!-- EN: Item deterioration -->
-  <Deterioration.label>Item deterioration</Deterioration.label>
+  <Deterioration.label>خراب شدن اقلام</Deterioration.label>
   <!-- EN: Items left outdoors will slowly deteriorate.\n\nIf you want to store items long-term, keep them in a roofed room. -->
-  <Deterioration.helpText>Items left outdoors will slowly deteriorate.\n\nIf you want to store items long-term, keep them in a roofed room.</Deterioration.helpText>
+  <Deterioration.helpText>اقلامی که در خارج از منزل رها می‌شوند به آرامی خراب می‌شوند.\n\nاگر می‌خواهید اقلام را برای مدت طولانی نگهداری کنید، آنها را در یک اتاق مسقف نگه دارید.</Deterioration.helpText>
   
   <!-- EN: Equipping weapons -->
-  <EquippingWeapons.label>Equipping weapons</EquippingWeapons.label>
+  <EquippingWeapons.label>تجهیز سلاح</EquippingWeapons.label>
   <!-- EN: Your colonists arrived with some weapons. Equip them!\n\nSelect each colonist and right-click on the weapon you want them to equip. -->
-  <EquippingWeapons.helpText>Your colonists arrived with some weapons. Equip them!\n\nSelect each colonist and right-click on the weapon you want them to equip.</EquippingWeapons.helpText>
+  <EquippingWeapons.helpText>مستعمره های شما با مقداری سلاح وارد شدند. آنها را مجهز کنید!\n\nهر مستعمره‌نشین را انتخاب کنید و روی سلاحی که می‌خواهید تجهیز شود کلیک راست کنید.</EquippingWeapons.helpText>
   <!-- EN: Your colonists arrived with some weapons. Equip them!\n\nSelect each colonist and press the left trigger on the weapon you want them to equip. -->
-  <EquippingWeapons.helpTextController>Your colonists arrived with some weapons. Equip them!\n\nSelect each colonist and press the left trigger on the weapon you want them to equip.</EquippingWeapons.helpTextController>
+  <EquippingWeapons.helpTextController>مستعمره های شما با مقداری سلاح وارد شدند. آنها را مجهز کنید!\n\nهر مستعمره‌نشین را انتخاب کنید و ماشه سمت چپ اسلحه‌ای را که می‌خواهید تجهیز کنید فشار دهید.</EquippingWeapons.helpTextController>
   
   <!-- EN: Fire preparation -->
-  <FirePreparation.label>Fire preparation</FirePreparation.label>
+  <FirePreparation.label>آماده سازی آتش</FirePreparation.label>
   <!-- EN: Fires can easily burn down a colony. To defeat them, you must prepare before they happen.\n\nThese design elements can help reduce the damage from fires:\n\n1. Instead of constructing one super-building, build separate buildings with spaces in between.\n\n2. Use less flammable materials. Wood is cheap and fast - but very flammable.\n\n3. Build firebreaks to stop wildfires approaching your base. A strip of concrete floor 3 or 4 cells wide will generally stop an advancing fire. -->
-  <FirePreparation.helpText>Fires can easily burn down a colony. To defeat them, you must prepare before they happen.\n\nThese design elements can help reduce the damage from fires:\n\n1. Instead of constructing one super-building, build separate buildings with spaces in between.\n\n2. Use less flammable materials. Wood is cheap and fast - but very flammable.\n\n3. Build firebreaks to stop wildfires approaching your base. A strip of concrete floor 3 or 4 cells wide will generally stop an advancing fire.</FirePreparation.helpText>
+  <FirePreparation.helpText>آتش به راحتی می تواند یک کلنی را بسوزاند. برای شکست دادن آنها، باید قبل از وقوع آنها آماده شوید.\n\nاین عناصر طراحی می توانند به کاهش آسیب ناشی از آتش سوزی کمک کنند:\n\n1. به جای ساختن یک ساختمان فوق العاده، ساختمان های جداگانه با فضاهای بین آنها بسازید.\n\n2. کمتر از مواد قابل اشتعال استفاده کنید. چوب ارزان و سریع است - اما بسیار قابل اشتعال است.\n\n3. برای جلوگیری از آتش‌سوزی‌هایی که به پایگاه شما نزدیک می‌شوند، آتش‌شکن‌هایی بسازید. یک نوار از کف بتنی به عرض 3 یا 4 سلول معمولاً آتش پیشروی را متوقف می کند.</FirePreparation.helpText>
   
   <!-- EN: Forbid and allow -->
-  <Forbidding.label>Forbid and allow</Forbidding.label>
+  <Forbidding.label>منع و اجازه</Forbidding.label>
   <!-- EN: Colonists will not interact with items marked FORBIDDEN.\n\nForbidden items have a small red X attached. Select a forbidden item and use the controls at the bottom to ALLOW it. -->
-  <Forbidding.helpText>Colonists will not interact with items marked FORBIDDEN.\n\nForbidden items have a small red X attached. Select a forbidden item and use the controls at the bottom to ALLOW it.</Forbidding.helpText>
+  <Forbidding.helpText>مستعمره‌نشین‌ها با مواردی که FORBIDDEN علامت‌گذاری شده‌اند تعامل نخواهند کرد.\n\nاقلام ممنوعه یک X قرمز کوچک وصل شده‌اند. یک مورد ممنوعه را انتخاب کنید و از کنترل های پایین برای ALLOW آن استفاده کنید.</Forbidding.helpText>
   
   <!-- EN: Forbidding doors -->
-  <ForbiddingDoors.label>Forbidding doors</ForbiddingDoors.label>
+  <ForbiddingDoors.label>درهای ممنوعه</ForbiddingDoors.label>
   <!-- EN: You can FORBID doors so colonists and tame animals won't go through them.\n\nNote that this isn't a door lock. Doors are always locked, so enemies can't pass freely. Forbidding just directs your colonists not to use the door. Colonists who are going crazy might use the door anyway. -->
-  <ForbiddingDoors.helpText>You can FORBID doors so colonists and tame animals won't go through them.\n\nNote that this isn't a door lock. Doors are always locked, so enemies can't pass freely. Forbidding just directs your colonists not to use the door. Colonists who are going crazy might use the door anyway.</ForbiddingDoors.helpText>
+  <ForbiddingDoors.helpText>می‌توانید درها را ممنوع کنید تا مهاجران و حیوانات اهلی از آنها عبور نکنند.\n\nتوجه داشته باشید که این قفل در نیست. درها همیشه قفل هستند، بنابراین دشمنان نمی توانند آزادانه عبور کنند. منع فقط به مستعمره نشینان دستور می دهد که از در استفاده نکنند. استعمارگرانی که دیوانه می شوند ممکن است به هر حال از در استفاده کنند.</ForbiddingDoors.helpText>
   
   <!-- EN: Forming caravans -->
-  <FormCaravan.label>Forming caravans</FormCaravan.label>
+  <FormCaravan.label>تشکیل کاروان‌ها</FormCaravan.label>
   <!-- EN: You can form a caravan to send groups of people traveling across the planet!\n\nIn the WORLD tab, select your home base and click the "form caravan" button. -->
-  <FormCaravan.helpText>You can form a caravan to send groups of people traveling across the planet!\n\nIn the WORLD tab, select your home base and click the "form caravan" button.</FormCaravan.helpText>
+  <FormCaravan.helpText>می‌توانید کاروانی تشکیل دهید تا گروه‌هایی از مردم را که در سراسر سیاره سفر می‌کنند بفرستید!\n\nدر برگه WORLD، پایگاه اصلی خود را انتخاب کنید و روی دکمه "form caravan" کلیک کنید.</FormCaravan.helpText>
   
   <!-- EN: Friendly fire safety -->
-  <FriendlyFireSafety.label>Friendly fire safety</FriendlyFireSafety.label>
+  <FriendlyFireSafety.label>ایمنی آتش سوزی دوستانه</FriendlyFireSafety.label>
   <!-- EN: Friendly fire never occurs if the shooter is close to their ally.\n\nFor example, you can safely put a sword-wielding colonist directly in front of a gun-wielding one. The shooter will fire over their friend's shoulder.\n\nThis is a good way to combine ranged and melee fighters. -->
-  <FriendlyFireSafety.helpText>Friendly fire never occurs if the shooter is close to their ally.\n\nFor example, you can safely put a sword-wielding colonist directly in front of a gun-wielding one. The shooter will fire over their friend's shoulder.\n\nThis is a good way to combine ranged and melee fighters.</FriendlyFireSafety.helpText>
+  <FriendlyFireSafety.helpText>اگر تیرانداز به متحد خود نزدیک باشد، هرگز آتش دوستانه اتفاق نمی‌افتد.\n\nبرای مثال، می‌توانید با خیال راحت یک مستعمره شمشیردار را مستقیماً در مقابل یک اسلحه‌دار قرار دهید. تیرانداز از روی شانه دوستش شلیک می کند.\n\nاین روش خوبی برای ترکیب جنگنده های دور و نزدیک است.</FriendlyFireSafety.helpText>
   
   <!-- EN: Getting more traders -->
-  <GettingMoreTraders.label>Getting more traders</GettingMoreTraders.label>
+  <GettingMoreTraders.label>به دست آوردن معامله گران بیشتر</GettingMoreTraders.label>
   <!-- EN: More trader caravans will come to visit you if you're allied with more factions.\n\nIf you have no allies, no caravans will ever visit!\n\nYou can also pay allies to send trade caravans by calling them on the comms console. -->
-  <GettingMoreTraders.helpText>More trader caravans will come to visit you if you're allied with more factions.\n\nIf you have no allies, no caravans will ever visit!\n\nYou can also pay allies to send trade caravans by calling them on the comms console.</GettingMoreTraders.helpText>
+  <GettingMoreTraders.helpText>اگر با جناح‌های بیشتری متحد شوید، کاروان‌های معامله‌گر بیشتری به دیدار شما می‌آیند.\n\nاگر هیچ متحدی نداشته باشید، هیچ کاروانی هرگز بازدید نخواهد کرد!\n\nهمچنین می‌توانید با تماس با آن‌ها در کنسول comms به متحدان برای ارسال کاروان‌های تجاری پرداخت کنید.</GettingMoreTraders.helpText>
   
   <!-- EN: Growing zones -->
-  <GrowingFood.label>Growing zones</GrowingFood.label>
+  <GrowingFood.label>مناطق در حال رشد</GrowingFood.label>
   <!-- EN: To grow food, place GROWING ZONES using the Architect menu.\n\nThey can only be placed on fertile ground. -->
-  <GrowingFood.helpText>To grow food, place GROWING ZONES using the Architect menu.\n\nThey can only be placed on fertile ground.</GrowingFood.helpText>
+  <GrowingFood.helpText>برای پرورش غذا، GROWING ZONES را با استفاده از منوی معمار قرار دهید.\n\nآنها را فقط می‌توان در زمین حاصلخیز قرار داد.</GrowingFood.helpText>
   
   <!-- EN: History tab -->
-  <HistoryTab.label>History tab</HistoryTab.label>
+  <HistoryTab.label>برگه تاریخچه</HistoryTab.label>
   <!-- EN: You can see a record of your colony's fortunes over time in the HISTORY tab at the bottom of the screen. -->
-  <HistoryTab.helpText>You can see a record of your colony's fortunes over time in the HISTORY tab at the bottom of the screen.</HistoryTab.helpText>
+  <HistoryTab.helpText>می‌توانید رکوردی از ثروت مستعمره خود در طول زمان را در برگه HISTORY در پایین صفحه مشاهده کنید.</HistoryTab.helpText>
   
   <!-- EN: Home area -->
-  <HomeArea.label>Home area</HomeArea.label>
+  <HomeArea.label>منطقه خانه</HomeArea.label>
   <!-- EN: The HOME AREA tells your colonists which area to clean and where to extinguish fires.\n\nDefine the HOME AREA with the Zones category under the Architect menu. -->
-  <HomeArea.helpText>The HOME AREA tells your colonists which area to clean and where to extinguish fires.\n\nDefine the HOME AREA with the Zones category under the Architect menu.</HomeArea.helpText>
+  <HomeArea.helpText>HOME AREA به ساکنان شما می گوید که کدام منطقه را تمیز کنند و کجا آتش را خاموش کنند.\n\nمنطقه خانه را با دسته Zones در منوی Architect تعریف کنید.</HomeArea.helpText>
   
   <!-- EN: Hostility response modes -->
-  <HostilityResponse.label>Hostility response modes</HostilityResponse.label>
+  <HostilityResponse.label>حالت های واکنش خصمانه</HostilityResponse.label>
   <!-- EN: You can configure how colonists should automatically respond to threats like predatory animals.\n\nChoose from FLEE, ATTACK, and IGNORE modes in the ASSIGN menu. -->
-  <HostilityResponse.helpText>You can configure how colonists should automatically respond to threats like predatory animals.\n\nChoose from FLEE, ATTACK, and IGNORE modes in the ASSIGN menu.</HostilityResponse.helpText>
+  <HostilityResponse.helpText>می‌توانید نحوه واکنش مستعمره‌نشین‌ها به‌طور خودکار به تهدیدهایی مانند حیوانات درنده را پیکربندی کنید.\n\nدر منوی ASSIGN از بین حالت‌های FLEE، ATTACK، و IGNORE انتخاب کنید.</HostilityResponse.helpText>
   
   <!-- EN: Info card -->
-  <InfoCard.label>Info card</InfoCard.label>
+  <InfoCard.label>کارت اطلاعات</InfoCard.label>
   <!-- EN: The info card shows you detailed statistics about any item, person, or construction.\n\nSelect a person or item and open their info card with the 'i' button on the inspect pane. -->
-  <InfoCard.helpText>The info card shows you detailed statistics about any item, person, or construction.\n\nSelect a person or item and open their info card with the 'i' button on the inspect pane.</InfoCard.helpText>
+  <InfoCard.helpText>کارت اطلاعات آمار دقیق هر مورد، شخص یا ساخت و ساز را به شما نشان می‌دهد.\n\nیک فرد یا مورد را انتخاب کنید و کارت اطلاعات او را با دکمه "i" در پنجره بازرسی باز کنید.</InfoCard.helpText>
   
   <!-- EN: Manual work priorities -->
-  <ManualWorkPriorities.label>Manual work priorities</ManualWorkPriorities.label>
+  <ManualWorkPriorities.label>اولویت های کار دستی</ManualWorkPriorities.label>
   <!-- EN: One of the most important parts of RimWorld is choosing good work settings for your colonists.\n\nPoor work settings can leave essential work unfinished for a long time while colonists waste time on unimportant tasks.\n\nTo give more control over what work colonists do, you can use the Manual Priorities mode in the WORK tab.\n\nIn this mode, each colonist has a priority number for each work type. Colonists will do priority 1 work from left to right, then priority 2 work from left to right, and so on.\n\nIntelligent use of these setting is essential for a large, well-automated colony. -->
-  <ManualWorkPriorities.helpText>One of the most important parts of RimWorld is choosing good work settings for your colonists.\n\nPoor work settings can leave essential work unfinished for a long time while colonists waste time on unimportant tasks.\n\nTo give more control over what work colonists do, you can use the Manual Priorities mode in the WORK tab.\n\nIn this mode, each colonist has a priority number for each work type. Colonists will do priority 1 work from left to right, then priority 2 work from left to right, and so on.\n\nIntelligent use of these setting is essential for a large, well-automated colony.</ManualWorkPriorities.helpText>
+  <ManualWorkPriorities.helpText>یکی از مهم‌ترین بخش‌های RimWorld، انتخاب تنظیمات کار خوب برای مستعمره‌نشین‌هایتان است.\n\nتنظیمات ضعیف کار می‌تواند کارهای ضروری را برای مدت طولانی ناتمام بگذارد در حالی که مستعمره‌نشینان وقت خود را برای کارهای غیر مهم تلف می‌کنند.\n\nبرای کنترل بیشتر بر کاری که مستعمره‌نشینان انجام می‌دهند، می‌توانید از حالت اولویت‌های دستی در برگه WORK استفاده کنید.\n\nدر هر حالت یک عدد قبلی برای هر کار یک عدد مشترک دارد. مستعمره نشینان کار اولویت 1 را از چپ به راست، سپس اولویت 2 از چپ به راست و غیره انجام می دهند.\n\nاستفاده هوشمندانه از این تنظیمات برای یک مستعمره بزرگ و خودکار ضروری است.</ManualWorkPriorities.helpText>
   
   <!-- EN: Medical operations -->
-  <MedicalOperations.label>Medical operations</MedicalOperations.label>
+  <MedicalOperations.label>عملیات پزشکی</MedicalOperations.label>
   <!-- EN: To assign a medical operation, like organ harvesting or prosthetics installation, open a colonist's HEALTH tab, then switch to the OPERATIONS sub-tab. -->
-  <MedicalOperations.helpText>To assign a medical operation, like organ harvesting or prosthetics installation, open a colonist's HEALTH tab, then switch to the OPERATIONS sub-tab.</MedicalOperations.helpText>
+  <MedicalOperations.helpText>برای اختصاص یک عمل پزشکی، مانند برداشت عضو یا نصب پروتز، برگه سلامت یک مستعمره را باز کنید، سپس به برگه فرعی OPERATIONS بروید.</MedicalOperations.helpText>
   
   <!-- EN: Mining -->
-  <Mining.label>Mining</Mining.label>
+  <Mining.label>معدن</Mining.label>
   <!-- EN: You can designate where to mine by opening the ARCHITECT menu and selecting the ORDERS tab.\n\nSome mineable blocks yield STEEL, GOLD, PLASTEEL, and other useful materials. -->
-  <Mining.helpText>You can designate where to mine by opening the ARCHITECT menu and selecting the ORDERS tab.\n\nSome mineable blocks yield STEEL, GOLD, PLASTEEL, and other useful materials.</Mining.helpText>
+  <Mining.helpText>می‌توانید با باز کردن منوی معمار و انتخاب برگه سفارش‌ها، محل استخراج را تعیین کنید.\n\nبرخی بلوک‌های قابل استخراج، فولاد، طلا، پلاستیل و سایر مواد مفید تولید می‌کنند.</Mining.helpText>
   
   <!-- EN: Outfits -->
-  <Outfits.label>Outfits</Outfits.label>
+  <Outfits.label>لباس</Outfits.label>
   <!-- EN: Colonists will automatically try to wear the newest, highest-quality apparel they can.\n\nYou don't need to manually assign each piece of apparel to colonists (though you can, if you wish).\n\nTo assign colonists restrictions on how to dress, open the ASSIGN tab, use the "Manage apparel policies" dialog box to design a new outfit, and then assign the outfit to colonists. -->
-  <Outfits.helpText>Colonists will automatically try to wear the newest, highest-quality apparel they can.\n\nYou don't need to manually assign each piece of apparel to colonists (though you can, if you wish).\n\nTo assign colonists restrictions on how to dress, open the ASSIGN tab, use the "Manage apparel policies" dialog box to design a new outfit, and then assign the outfit to colonists.</Outfits.helpText>
+  <Outfits.helpText>مستعمره‌نشین‌ها به‌طور خودکار سعی می‌کنند جدیدترین و باکیفیت‌ترین لباس‌هایی را که می‌توانند بپوشند.\n\nنیازی ندارید که هر یک از لباس‌ها را به‌صورت دستی به مستعمره‌نشینان اختصاص دهید (البته در صورت تمایل می‌توانید).\n\nبرای تعیین محدودیت‌هایی برای افراد مستعمره‌نشین در نحوه لباس پوشیدن، برگه ASSIGN را باز کنید، از «مدیریت کادر گفتگو، اختصاص دادن خط‌مشی‌های لباس به هم‌تنظیم و طراحی لباس‌های جدید» استفاده کنید.</Outfits.helpText>
   
   <!-- EN: Pausing -->
-  <Pause.label>Pausing</Pause.label>
+  <Pause.label>مکث</Pause.label>
   <!-- EN: Hit {Key:TogglePause} to pause or unpause the game.\n\nYou can give orders while paused.\n\nRemember this - if things get hectic, just hit {Key:TogglePause}! -->
-  <Pause.helpText>Hit {Key:TogglePause} to pause or unpause the game.\n\nYou can give orders while paused.\n\nRemember this - if things get hectic, just hit {Key:TogglePause}!</Pause.helpText>
+  <Pause.helpText>برای توقف یا لغو مکث بازی، {Key:TogglePause} را بزنید.\n\nشما می‌توانید در زمان توقف، دستور بدهید.\n\nاین را به خاطر داشته باشید - اگر اوضاع گیج‌کننده شد، فقط {Key:TogglePause} را بزنید!</Pause.helpText>
   
   <!-- EN: Shot accuracy tooltip -->
-  <ShotAccuracyTooltip.label>Shot accuracy tooltip</ShotAccuracyTooltip.label>
+  <ShotAccuracyTooltip.label>نکته ابزار دقت عکسبرداری</ShotAccuracyTooltip.label>
   <!-- EN: You can see the exact calculations behind the accuracy of any shot.\n\nTo do so, select the shooter, then rest the mouse over the target. The tooltip will show the chance to hit, and a breakdown of the contribution of various to-hit chance multipliers. -->
-  <ShotAccuracyTooltip.helpText>You can see the exact calculations behind the accuracy of any shot.\n\nTo do so, select the shooter, then rest the mouse over the target. The tooltip will show the chance to hit, and a breakdown of the contribution of various to-hit chance multipliers.</ShotAccuracyTooltip.helpText>
+  <ShotAccuracyTooltip.helpText>می‌توانید محاسبات دقیق پشت هر شلیک را ببینید.\n\nبرای انجام این کار، تیرانداز را انتخاب کنید، سپس ماوس را روی هدف قرار دهید. راهنمای ابزار، شانس ضربه زدن، و تفکیک سهم ضریب های مختلف شانس ضربه زدن را نشان می دهد.</ShotAccuracyTooltip.helpText>
   
   <!-- EN: Spoilage and freezers -->
-  <SpoilageAndFreezers.label>Spoilage and freezers</SpoilageAndFreezers.label>
+  <SpoilageAndFreezers.label>فساد و فریزر</SpoilageAndFreezers.label>
   <!-- EN: Most foodstuffs will spoil after a relatively short time.\n\nTo prevent this, you can build a walk-in freezer.\n\nTo build a freezer, construct a closed room, and put one or two coolers into the wall. Set the coolers to a negative target temperature.\n\nFrozen foods won't ever spoil. -->
-  <SpoilageAndFreezers.helpText>Most foodstuffs will spoil after a relatively short time.\n\nTo prevent this, you can build a walk-in freezer.\n\nTo build a freezer, construct a closed room, and put one or two coolers into the wall. Set the coolers to a negative target temperature.\n\nFrozen foods won't ever spoil.</SpoilageAndFreezers.helpText>
+  <SpoilageAndFreezers.helpText>بیشتر مواد غذایی پس از مدت زمان نسبتاً کوتاهی خراب می‌شوند.\n\nبرای جلوگیری از این امر، می‌توانید یک یخچال فریزر بسازید.\n\nبرای ساختن یک فریزر، یک اتاق دربسته بسازید و یک یا دو خنک کننده را در دیوار قرار دهید. خنک‌کننده‌ها را روی دمای هدف منفی تنظیم کنید.\n\nغذاهای منجمد هرگز فاسد نمی‌شوند.</SpoilageAndFreezers.helpText>
   
   <!-- EN: Stockpiles -->
-  <Stockpiles.label>Stockpiles</Stockpiles.label>
+  <Stockpiles.label>انبارها</Stockpiles.label>
   <!-- EN: Your colonists need somewhere to store items. Designate a STOCKPILE for them to store things.\n\nFind the stockpile in the ZONES section of the ARCHITECT menu in the lower-left. -->
-  <Stockpiles.helpText>Your colonists need somewhere to store items. Designate a STOCKPILE for them to store things.\n\nFind the stockpile in the ZONES section of the ARCHITECT menu in the lower-left.</Stockpiles.helpText>
+  <Stockpiles.helpText>مستعمرات شما به جایی برای ذخیره اقلام نیاز دارند. یک STOCKPILE برای آنها تعیین کنید تا چیزها را ذخیره کنند.\n\nذخیره را در بخش ZONES منوی ARCHITECT در پایین سمت چپ پیدا کنید.</Stockpiles.helpText>
   
   <!-- EN: Storage tab -->
-  <StorageTab.label>Storage tab</StorageTab.label>
+  <StorageTab.label>برگه ذخیره سازی</StorageTab.label>
   <!-- EN: You can configure stockpiles and storage buildings by selecting them and opening the STORAGE TAB above the bottom-left inspector pane.\n\nIn the storage tab of a stockpile, you can expand categories to allow or deny specific items. Click the triangles to the left of category names.\n\nYou can change the PRIORITY of storage. Colonists will fill higher-priority storage first, and move items from lower to higher priority. -->
-  <StorageTab.helpText>You can configure stockpiles and storage buildings by selecting them and opening the STORAGE TAB above the bottom-left inspector pane.\n\nIn the storage tab of a stockpile, you can expand categories to allow or deny specific items. Click the triangles to the left of category names.\n\nYou can change the PRIORITY of storage. Colonists will fill higher-priority storage first, and move items from lower to higher priority.</StorageTab.helpText>
+  <StorageTab.helpText>می‌توانید انبارها و ساختمان‌های ذخیره‌سازی را با انتخاب آن‌ها و باز کردن برگه ذخیره‌سازی در بالای صفحه بازرس پایین سمت چپ پیکربندی کنید.\n\nدر برگه ذخیره‌سازی انبار، می‌توانید دسته‌ها را گسترش دهید تا موارد خاصی را مجاز یا رد کنید. روی مثلث‌های سمت چپ نام دسته‌ها کلیک کنید.\n\nمی‌توانید اولویت فضای ذخیره‌سازی را تغییر دهید. مستعمره‌کنندگان ابتدا فضای ذخیره‌سازی با اولویت بالاتر را پر می‌کنند و موارد را از اولویت پایین‌تر به بالاتر منتقل می‌کنند.</StorageTab.helpText>
   
   <!-- EN: Tile inspector -->
-  <TileInspector.label>Tile inspector</TileInspector.label>
+  <TileInspector.label>بازرس کاشی</TileInspector.label>
   <!-- EN: You can inspect the details of a tile by holding {Key:ShowCellInspector}. This displays the contents of a tile, room information, beauty information, and more. -->
-  <TileInspector.helpText>You can inspect the details of a tile by holding {Key:ShowCellInspector}. This displays the contents of a tile, room information, beauty information, and more.</TileInspector.helpText>
+  <TileInspector.helpText>می توانید جزئیات یک کاشی را با نگه داشتن {Key:ShowCellInspector} بررسی کنید. این محتویات یک کاشی، اطلاعات اتاق، اطلاعات زیبایی و موارد دیگر را نمایش می دهد.</TileInspector.helpText>
   
   <!-- EN: Time assignments -->
-  <TimeAssignments.label>Time assignments</TimeAssignments.label>
+  <TimeAssignments.label>تکالیف زمانی</TimeAssignments.label>
   <!-- EN: You can modify what time of day colonists should do different activities using the SCHEDULE tab. -->
-  <TimeAssignments.helpText>You can modify what time of day colonists should do different activities using the SCHEDULE tab.</TimeAssignments.helpText>
+  <TimeAssignments.helpText>می‌توانید با استفاده از برگه SCHEDULE، ساعاتی از روز را که مستعمره‌نشینان باید فعالیت‌های مختلف انجام دهند، تغییر دهید.</TimeAssignments.helpText>
   
   <!-- EN: Time controls -->
-  <TimeControls.label>Time controls</TimeControls.label>
+  <TimeControls.label>کنترل های زمان</TimeControls.label>
   <!-- EN: You can speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right. -->
-  <TimeControls.helpText>You can speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right.</TimeControls.helpText>
+  <TimeControls.helpText>می‌توانید زمان را افزایش دهید.\n\nسعی کنید زمان را با کلیدهای {Key:TimeSpeed_Normal}، {Key:TimeSpeed_Fast}، و {Key:TimeSpeed_Superfast} یا با کنترل‌های زمان در پایین سمت راست کنترل کنید.</TimeControls.helpText>
   <!-- EN: You can speed up time.\n\nTry controlling time with {Key:TimeSpeed_Faster} and {Key:TimeSpeed_Slower}, or with the time controls in the bottom right. -->
-  <TimeControls.helpTextController>You can speed up time.\n\nTry controlling time with {Key:TimeSpeed_Faster} and {Key:TimeSpeed_Slower}, or with the time controls in the bottom right.</TimeControls.helpTextController>
+  <TimeControls.helpTextController>می‌توانید زمان را افزایش دهید.\n\nسعی کنید زمان را با {Key:TimeSpeed_Faster} و {Key:TimeSpeed_Slower} یا با کنترل‌های زمان در پایین سمت راست کنترل کنید.</TimeControls.helpTextController>
   
   <!-- EN: Work settings -->
-  <WorkTab.label>Work settings</WorkTab.label>
+  <WorkTab.label>تنظیمات کار</WorkTab.label>
   <!-- EN: You can set each colonist's work settings in the WORK tab at the bottom left of the screen.\n\nThey will always do the highest priority work that they can find.\n\nIf nobody has a certain work type assigned, or if they are busy with higher-priority tasks, it will never get done. -->
-  <WorkTab.helpText>You can set each colonist's work settings in the WORK tab at the bottom left of the screen.\n\nThey will always do the highest priority work that they can find.\n\nIf nobody has a certain work type assigned, or if they are busy with higher-priority tasks, it will never get done.</WorkTab.helpText>
+  <WorkTab.helpText>می‌توانید تنظیمات کار هر مستعمره‌نشین را در برگه WORK در سمت چپ پایین صفحه تنظیم کنید.\n\nآنها همیشه بالاترین اولویت کاری را که می‌توانند پیدا کنند را انجام می‌دهند.\n\nاگر هیچ‌کس نوع کار خاصی را تعیین نکرده باشد، یا اگر مشغول کارهای با اولویت بالاتر باشد، هرگز انجام نخواهد شد.</WorkTab.helpText>
   
 </LanguageData>

@@ -2,120 +2,120 @@
 <LanguageData>
   
   <!-- EN: aim assistance -->
-  <AimAssistance.label>aim assistance</AimAssistance.label>
+  <AimAssistance.label>کمک هدف</AimAssistance.label>
   <!-- EN: This weapon contains a rudimentary aim assistant computer which helps track targets, increasing accuracy at all ranges. The device can account for environmental challenges, allowing the weapon to ignore the accuracy penalty from bad weather and smoke. -->
-  <AimAssistance.description>This weapon contains a rudimentary aim assistant computer which helps track targets, increasing accuracy at all ranges. The device can account for environmental challenges, allowing the weapon to ignore the accuracy penalty from bad weather and smoke.</AimAssistance.description>
+  <AimAssistance.description>این سلاح حاوی یک کامپیوتر دستیار هدف ابتدایی است که به ردیابی اهداف کمک می کند و دقت را در همه بردها افزایش می دهد. این دستگاه می‌تواند چالش‌های محیطی را در نظر بگیرد و به سلاح اجازه می‌دهد تا جریمه دقت ناشی از آب و هوای بد و دود را نادیده بگیرد.</AimAssistance.description>
   <!-- EN: seeking -->
-  <AimAssistance.traitAdjectives.0>seeking</AimAssistance.traitAdjectives.0>
+  <AimAssistance.traitAdjectives.0>به دنبال</AimAssistance.traitAdjectives.0>
   <!-- EN: accurate -->
-  <AimAssistance.traitAdjectives.1>accurate</AimAssistance.traitAdjectives.1>
+  <AimAssistance.traitAdjectives.1>دقیق</AimAssistance.traitAdjectives.1>
   <!-- EN: precise -->
-  <AimAssistance.traitAdjectives.2>precise</AimAssistance.traitAdjectives.2>
+  <AimAssistance.traitAdjectives.2>دقیق</AimAssistance.traitAdjectives.2>
   <!-- EN: auto-aim -->
-  <AimAssistance.traitAdjectives.3>auto-aim</AimAssistance.traitAdjectives.3>
+  <AimAssistance.traitAdjectives.3>هدف گیری خودکار</AimAssistance.traitAdjectives.3>
   <!-- EN: self-aim -->
-  <AimAssistance.traitAdjectives.4>self-aim</AimAssistance.traitAdjectives.4>
+  <AimAssistance.traitAdjectives.4>خود هدفی</AimAssistance.traitAdjectives.4>
   
   <!-- EN: bioferrite burner -->
-  <BioferriteBurner.label>bioferrite burner</BioferriteBurner.label>
+  <BioferriteBurner.label>مشعل بیوفریت</BioferriteBurner.label>
   <!-- EN: This weapon has a bioferrite-powered flamethrower unit. The burner generates a blast of flame from a pressurized bioferrite charge. Once used, it must be reloaded using bioferrite. -->
-  <BioferriteBurner.description>This weapon has a bioferrite-powered flamethrower unit. The burner generates a blast of flame from a pressurized bioferrite charge. Once used, it must be reloaded using bioferrite.</BioferriteBurner.description>
+  <BioferriteBurner.description>این سلاح دارای واحد شعله افکن با نیروی بیوفریت است. مشعل یک انفجار شعله از بار بیوفریت تحت فشار ایجاد می کند. پس از استفاده، باید با استفاده از بیوفریت دوباره بارگیری شود.</BioferriteBurner.description>
   <!-- EN: burner charge -->
-  <BioferriteBurner.abilityProps.chargeNoun>burner charge</BioferriteBurner.abilityProps.chargeNoun>
+  <BioferriteBurner.abilityProps.chargeNoun>شارژ مشعل</BioferriteBurner.abilityProps.chargeNoun>
   <!-- EN: on cooldown -->
-  <BioferriteBurner.abilityProps.cooldownGerund>on cooldown</BioferriteBurner.abilityProps.cooldownGerund>
+  <BioferriteBurner.abilityProps.cooldownGerund>در خنک شدن</BioferriteBurner.abilityProps.cooldownGerund>
   <!-- EN: fiery -->
-  <BioferriteBurner.traitAdjectives.0>fiery</BioferriteBurner.traitAdjectives.0>
+  <BioferriteBurner.traitAdjectives.0>آتشین</BioferriteBurner.traitAdjectives.0>
   <!-- EN: flame -->
-  <BioferriteBurner.traitAdjectives.1>flame</BioferriteBurner.traitAdjectives.1>
+  <BioferriteBurner.traitAdjectives.1>شعله</BioferriteBurner.traitAdjectives.1>
   <!-- EN: flaming -->
-  <BioferriteBurner.traitAdjectives.2>flaming</BioferriteBurner.traitAdjectives.2>
+  <BioferriteBurner.traitAdjectives.2>شعله ور</BioferriteBurner.traitAdjectives.2>
   <!-- EN: burning -->
-  <BioferriteBurner.traitAdjectives.3>burning</BioferriteBurner.traitAdjectives.3>
+  <BioferriteBurner.traitAdjectives.3>سوزاندن</BioferriteBurner.traitAdjectives.3>
   
   <!-- EN: birdshot pellets -->
-  <BirdshotPellets.label>birdshot pellets</BirdshotPellets.label>
+  <BirdshotPellets.label>گلوله های birdshot</BirdshotPellets.label>
   <!-- EN: This weapon fires shells containing smaller pellets than normal. It's much more accurate at close range, but less effective at long range. -->
-  <BirdshotPellets.description>This weapon fires shells containing smaller pellets than normal. It's much more accurate at close range, but less effective at long range.</BirdshotPellets.description>
+  <BirdshotPellets.description>این سلاح گلوله های حاوی گلوله های کوچکتر از حد معمول را شلیک می کند. در فاصله نزدیک بسیار دقیق‌تر است، اما در فاصله طولانی کمتر موثر است.</BirdshotPellets.description>
   <!-- EN: birdshot -->
-  <BirdshotPellets.traitAdjectives.0>birdshot</BirdshotPellets.traitAdjectives.0>
+  <BirdshotPellets.traitAdjectives.0>عکس پرنده</BirdshotPellets.traitAdjectives.0>
   <!-- EN: nearshot -->
-  <BirdshotPellets.traitAdjectives.1>nearshot</BirdshotPellets.traitAdjectives.1>
+  <BirdshotPellets.traitAdjectives.1>نزدیک شات</BirdshotPellets.traitAdjectives.1>
   
   <!-- EN: broadhead arrows -->
-  <BroadheadArrows.label>broadhead arrows</BroadheadArrows.label>
+  <BroadheadArrows.label>فلش های سر پهن</BroadheadArrows.label>
   <!-- EN: This bow shoots arrows tipped with sharp blades, increasing its damage. -->
-  <BroadheadArrows.description>This bow shoots arrows tipped with sharp blades, increasing its damage.</BroadheadArrows.description>
+  <BroadheadArrows.description>این کمان تیرهایی با تیغه های تیز پرتاب می کند و آسیب آن را افزایش می دهد.</BroadheadArrows.description>
   <!-- EN: strong -->
-  <BroadheadArrows.traitAdjectives.0>strong</BroadheadArrows.traitAdjectives.0>
+  <BroadheadArrows.traitAdjectives.0>قوی</BroadheadArrows.traitAdjectives.0>
   <!-- EN: broadhead -->
-  <BroadheadArrows.traitAdjectives.1>broadhead</BroadheadArrows.traitAdjectives.1>
+  <BroadheadArrows.traitAdjectives.1>پهن سر</BroadheadArrows.traitAdjectives.1>
   
   <!-- EN: charge capacitor -->
-  <ChargeCapacitor.label>charge capacitor</ChargeCapacitor.label>
+  <ChargeCapacitor.label>خازن شارژ</ChargeCapacitor.label>
   <!-- EN: This weapon amplifies pulse-charge technology with a massive capacitor, increasing damage and armor penetration. -->
-  <ChargeCapacitor.description>This weapon amplifies pulse-charge technology with a massive capacitor, increasing damage and armor penetration.</ChargeCapacitor.description>
+  <ChargeCapacitor.description>این سلاح فناوری شارژ پالس را با یک خازن عظیم تقویت می کند و آسیب و نفوذ زره را افزایش می دهد.</ChargeCapacitor.description>
   <!-- EN: overcharged -->
-  <ChargeCapacitor.traitAdjectives.0>overcharged</ChargeCapacitor.traitAdjectives.0>
+  <ChargeCapacitor.traitAdjectives.0>بیش از حد شارژ شده است</ChargeCapacitor.traitAdjectives.0>
   
   <!-- EN: cumbersome -->
-  <Cumbersome.label>cumbersome</Cumbersome.label>
+  <Cumbersome.label>دست و پا گیر</Cumbersome.label>
   <!-- EN: This weapon is unwieldy to use, making it slower to aim. -->
-  <Cumbersome.description>This weapon is unwieldy to use, making it slower to aim.</Cumbersome.description>
+  <Cumbersome.description>استفاده از این سلاح غیرقابل تحمل است و هدف گیری آن را کندتر می کند.</Cumbersome.description>
   <!-- EN: cumbersome -->
-  <Cumbersome.traitAdjectives.0>cumbersome</Cumbersome.traitAdjectives.0>
+  <Cumbersome.traitAdjectives.0>دست و پا گیر</Cumbersome.traitAdjectives.0>
   <!-- EN: bulky -->
-  <Cumbersome.traitAdjectives.1>bulky</Cumbersome.traitAdjectives.1>
+  <Cumbersome.traitAdjectives.1>حجیم</Cumbersome.traitAdjectives.1>
   <!-- EN: awkward -->
-  <Cumbersome.traitAdjectives.2>awkward</Cumbersome.traitAdjectives.2>
+  <Cumbersome.traitAdjectives.2>ناجور</Cumbersome.traitAdjectives.2>
   
   <!-- EN: custom grip -->
-  <CustomGrip.label>custom grip</CustomGrip.label>
+  <CustomGrip.label>گرفتن سفارشی</CustomGrip.label>
   <!-- EN: This weapon contains a customized grip that handles recoil better, improving accuracy at short range. It looks cool too. -->
-  <CustomGrip.description>This weapon contains a customized grip that handles recoil better, improving accuracy at short range. It looks cool too.</CustomGrip.description>
+  <CustomGrip.description>این سلاح دارای یک دستگیره سفارشی است که پس زدن را بهتر کنترل می کند و دقت را در برد کوتاه بهبود می بخشد. به نظر باحال هم میاد</CustomGrip.description>
   <!-- EN: custom -->
-  <CustomGrip.traitAdjectives.0>custom</CustomGrip.traitAdjectives.0>
+  <CustomGrip.traitAdjectives.0>سفارشی</CustomGrip.traitAdjectives.0>
   <!-- EN: customized -->
-  <CustomGrip.traitAdjectives.1>customized</CustomGrip.traitAdjectives.1>
+  <CustomGrip.traitAdjectives.1>سفارشی شده</CustomGrip.traitAdjectives.1>
   <!-- EN: gripped -->
-  <CustomGrip.traitAdjectives.2>gripped</CustomGrip.traitAdjectives.2>
+  <CustomGrip.traitAdjectives.2>گرفت</CustomGrip.traitAdjectives.2>
   <!-- EN: hi-grip -->
-  <CustomGrip.traitAdjectives.3>hi-grip</CustomGrip.traitAdjectives.3>
+  <CustomGrip.traitAdjectives.3>گرفتن سلام</CustomGrip.traitAdjectives.3>
   
   <!-- EN: EMP cannon -->
-  <EMPLauncher.label>EMP cannon</EMPLauncher.label>
+  <EMPLauncher.label>توپ EMP</EMPLauncher.label>
   <!-- EN: This weapon has an attached EMP shell launcher. The shell emits a burst of electromagnetic energy that stuns electronic targets like turrets and mechanoids. Once fired, it must be reloaded using steel. -->
-  <EMPLauncher.description>This weapon has an attached EMP shell launcher. The shell emits a burst of electromagnetic energy that stuns electronic targets like turrets and mechanoids. Once fired, it must be reloaded using steel.</EMPLauncher.description>
+  <EMPLauncher.description>این سلاح دارای لانچر پوسته EMP متصل است. این پوسته انفجاری از انرژی الکترومغناطیسی ساطع می کند که اهداف الکترونیکی مانند برجک‌ها و مکانیسم‌ها را بیهوش می کند. پس از شلیک، باید با استفاده از فولاد دوباره بارگیری شود.</EMPLauncher.description>
   <!-- EN: shell -->
-  <EMPLauncher.abilityProps.chargeNoun>shell</EMPLauncher.abilityProps.chargeNoun>
+  <EMPLauncher.abilityProps.chargeNoun>پوسته</EMPLauncher.abilityProps.chargeNoun>
   <!-- EN: on cooldown -->
-  <EMPLauncher.abilityProps.cooldownGerund>on cooldown</EMPLauncher.abilityProps.cooldownGerund>
+  <EMPLauncher.abilityProps.cooldownGerund>در خنک شدن</EMPLauncher.abilityProps.cooldownGerund>
   <!-- EN: EMP -->
-  <EMPLauncher.traitAdjectives.0>EMP</EMPLauncher.traitAdjectives.0>
+  <EMPLauncher.traitAdjectives.0><g id="6">EMP</g><g id="7">.</g></EMPLauncher.traitAdjectives.0>
   <!-- EN: disabling -->
-  <EMPLauncher.traitAdjectives.1>disabling</EMPLauncher.traitAdjectives.1>
+  <EMPLauncher.traitAdjectives.1>از کار انداختن</EMPLauncher.traitAdjectives.1>
   <!-- EN: stunning -->
-  <EMPLauncher.traitAdjectives.2>stunning</EMPLauncher.traitAdjectives.2>
+  <EMPLauncher.traitAdjectives.2>خیره کننده</EMPLauncher.traitAdjectives.2>
   
   <!-- EN: EMP pulser -->
-  <EMPPulser.label>EMP pulser</EMPPulser.label>
+  <EMPPulser.label>پالسر EMP</EMPPulser.label>
   <!-- EN: This weapon can emit a burst of energy centered on the user. The burst will stun nearby electronic targets like mechanoids or turrets. Once used, the pulser takes some time to recharge. -->
-  <EMPPulser.description>This weapon can emit a burst of energy centered on the user. The burst will stun nearby electronic targets like mechanoids or turrets. Once used, the pulser takes some time to recharge.</EMPPulser.description>
+  <EMPPulser.description>این سلاح می تواند یک انفجار انرژی متمرکز بر روی کاربر منتشر کند. این انفجار اهداف الکترونیکی نزدیک مانند مکانیک یا برجک را بیهوش می کند. پس از استفاده، پالسر مدتی طول می کشد تا دوباره شارژ شود.</EMPPulser.description>
   <!-- EN: charge -->
-  <EMPPulser.abilityProps.chargeNoun>charge</EMPPulser.abilityProps.chargeNoun>
+  <EMPPulser.abilityProps.chargeNoun>شارژ</EMPPulser.abilityProps.chargeNoun>
   <!-- EN: on cooldown -->
-  <EMPPulser.abilityProps.cooldownGerund>on cooldown</EMPPulser.abilityProps.cooldownGerund>
+  <EMPPulser.abilityProps.cooldownGerund>در خنک شدن</EMPPulser.abilityProps.cooldownGerund>
   <!-- EN: pulse -->
-  <EMPPulser.traitAdjectives.0>pulse</EMPPulser.traitAdjectives.0>
+  <EMPPulser.traitAdjectives.0>نبض</EMPPulser.traitAdjectives.0>
   <!-- EN: EMP -->
-  <EMPPulser.traitAdjectives.1>EMP</EMPPulser.traitAdjectives.1>
+  <EMPPulser.traitAdjectives.1><g id="6">EMP</g><g id="7">.</g></EMPPulser.traitAdjectives.1>
   
   <!-- EN: EMP rounds -->
-  <EMPRounds.label>EMP rounds</EMPRounds.label>
+  <EMPRounds.label>دور EMP</EMPRounds.label>
   <!-- EN: This weapon fires rounds with embedded EMP capacitors, which will temporarily disable electronics and mechanoids. -->
-  <EMPRounds.description>This weapon fires rounds with embedded EMP capacitors, which will temporarily disable electronics and mechanoids.</EMPRounds.description>
+  <EMPRounds.description>این سلاح با خازن های EMP تعبیه شده گلوله شلیک می کند که به طور موقت وسایل الکترونیکی و مکانیکی را از کار می اندازد.</EMPRounds.description>
   <!-- EN: EMP -->
-  <EMPRounds.traitAdjectives.0>EMP</EMPRounds.traitAdjectives.0>
+  <EMPRounds.traitAdjectives.0><g id="6">EMP</g><g id="7">.</g></EMPRounds.traitAdjectives.0>
   <!-- EN: electric -->
   <EMPRounds.traitAdjectives.1>برقی</EMPRounds.traitAdjectives.1>
   <!-- EN: shocking -->
@@ -130,9 +130,9 @@
   <!-- EN: This weapon has a longer range than normal. -->
   <ExtendedBarrel.description>برد این سلاح بیشتر از حد معمول است.</ExtendedBarrel.description>
   <!-- EN: long -->
-  <ExtendedBarrel.traitAdjectives.0>long</ExtendedBarrel.traitAdjectives.0>
+  <ExtendedBarrel.traitAdjectives.0>طولانی</ExtendedBarrel.traitAdjectives.0>
   <!-- EN: extended -->
-  <ExtendedBarrel.traitAdjectives.1>extended</ExtendedBarrel.traitAdjectives.1>
+  <ExtendedBarrel.traitAdjectives.1>تمدید شد</ExtendedBarrel.traitAdjectives.1>
   
   <!-- EN: extended magazine -->
   <ExtendedMagazine.label>مجله تمدید شده</ExtendedMagazine.label>
@@ -141,7 +141,7 @@
   <!-- EN: high-capacity -->
   <ExtendedMagazine.traitAdjectives.0>با ظرفیت بالا</ExtendedMagazine.traitAdjectives.0>
   <!-- EN: extendo-clip -->
-  <ExtendedMagazine.traitAdjectives.1>extendo-clip</ExtendedMagazine.traitAdjectives.1>
+  <ExtendedMagazine.traitAdjectives.1>گیره گسترش دهنده</ExtendedMagazine.traitAdjectives.1>
   
   <!-- EN: frequency amplifier -->
   <FrequencyAmplifier.label>تقویت کننده فرکانس</FrequencyAmplifier.label>
@@ -151,354 +151,354 @@
   <FrequencyAmplifier.traitAdjectives.0>تقویت شده است</FrequencyAmplifier.traitAdjectives.0>
   
   <!-- EN: gold inlay -->
-  <GoldInlay.label>gold inlay</GoldInlay.label>
+  <GoldInlay.label>منبت طلا</GoldInlay.label>
   <!-- EN: This weapon is inlaid with gold. Traders will pay more for it. -->
   <GoldInlay.description>این سلاح با طلا منبت کاری شده است. معامله گران هزینه بیشتری برای آن خواهند پرداخت.</GoldInlay.description>
   <!-- EN: gold -->
-  <GoldInlay.traitAdjectives.0>gold</GoldInlay.traitAdjectives.0>
+  <GoldInlay.traitAdjectives.0>طلا</GoldInlay.traitAdjectives.0>
   <!-- EN: golden -->
   <GoldInlay.traitAdjectives.1>طلایی</GoldInlay.traitAdjectives.1>
   
   <!-- EN: grenade launcher -->
-  <GrenadeLauncher.label>grenade launcher</GrenadeLauncher.label>
+  <GrenadeLauncher.label>نارنجک انداز</GrenadeLauncher.label>
   <!-- EN: This weapon has an attached frag grenade launcher. Once fired, it must be reloaded using steel. -->
-  <GrenadeLauncher.description>This weapon has an attached frag grenade launcher. Once fired, it must be reloaded using steel.</GrenadeLauncher.description>
+  <GrenadeLauncher.description>این سلاح یک نارنجک انداز متصل دارد. پس از شلیک، باید با استفاده از فولاد دوباره بارگیری شود.</GrenadeLauncher.description>
   <!-- EN: grenade -->
-  <GrenadeLauncher.abilityProps.chargeNoun>grenade</GrenadeLauncher.abilityProps.chargeNoun>
+  <GrenadeLauncher.abilityProps.chargeNoun>نارنجک</GrenadeLauncher.abilityProps.chargeNoun>
   <!-- EN: on cooldown -->
-  <GrenadeLauncher.abilityProps.cooldownGerund>on cooldown</GrenadeLauncher.abilityProps.cooldownGerund>
+  <GrenadeLauncher.abilityProps.cooldownGerund>در خنک شدن</GrenadeLauncher.abilityProps.cooldownGerund>
   <!-- EN: explosive -->
-  <GrenadeLauncher.traitAdjectives.0>explosive</GrenadeLauncher.traitAdjectives.0>
+  <GrenadeLauncher.traitAdjectives.0>مواد منفجره</GrenadeLauncher.traitAdjectives.0>
   
   <!-- EN: high-power rounds -->
-  <HighPowerRounds.label>high-power rounds</HighPowerRounds.label>
+  <HighPowerRounds.label>گلوله های پرقدرت</HighPowerRounds.label>
   <!-- EN: Special ammunition makes this weapon more powerful than normal. The heavy recoil makes it less accurate. -->
-  <HighPowerRounds.description>Special ammunition makes this weapon more powerful than normal. The heavy recoil makes it less accurate.</HighPowerRounds.description>
+  <HighPowerRounds.description>مهمات ویژه این سلاح را قدرتمندتر از حد معمول می کند. پس زدن سنگین باعث می شود دقت کمتری داشته باشد.</HighPowerRounds.description>
   <!-- EN: atlas -->
-  <HighPowerRounds.traitAdjectives.0>atlas</HighPowerRounds.traitAdjectives.0>
+  <HighPowerRounds.traitAdjectives.0>اطلس</HighPowerRounds.traitAdjectives.0>
   <!-- EN: hi-power -->
-  <HighPowerRounds.traitAdjectives.1>hi-power</HighPowerRounds.traitAdjectives.1>
+  <HighPowerRounds.traitAdjectives.1>قدرت بالا</HighPowerRounds.traitAdjectives.1>
   <!-- EN: heavy-shot -->
-  <HighPowerRounds.traitAdjectives.2>heavy-shot</HighPowerRounds.traitAdjectives.2>
+  <HighPowerRounds.traitAdjectives.2>شلیک سنگین</HighPowerRounds.traitAdjectives.2>
   <!-- EN: hardpunch -->
-  <HighPowerRounds.traitAdjectives.3>hardpunch</HighPowerRounds.traitAdjectives.3>
+  <HighPowerRounds.traitAdjectives.3>ضربه سخت</HighPowerRounds.traitAdjectives.3>
   <!-- EN: heavy-hit -->
-  <HighPowerRounds.traitAdjectives.4>heavy-hit</HighPowerRounds.traitAdjectives.4>
+  <HighPowerRounds.traitAdjectives.4>ضربه سنگین</HighPowerRounds.traitAdjectives.4>
   
   <!-- EN: hollow-point rounds -->
-  <HollowPointRounds.label>hollow-point rounds</HollowPointRounds.label>
+  <HollowPointRounds.label>دورهای توخالی</HollowPointRounds.label>
   <!-- EN: This weapon fires bullets that expand on impact, dealing more damage than normal. -->
-  <HollowPointRounds.description>This weapon fires bullets that expand on impact, dealing more damage than normal.</HollowPointRounds.description>
+  <HollowPointRounds.description>این سلاح گلوله هایی را شلیک می کند که در اثر ضربه منبسط می شوند و آسیب بیشتری نسبت به حالت عادی وارد می کنند.</HollowPointRounds.description>
   <!-- EN: shredding -->
-  <HollowPointRounds.traitAdjectives.0>shredding</HollowPointRounds.traitAdjectives.0>
+  <HollowPointRounds.traitAdjectives.0>خرد کردن</HollowPointRounds.traitAdjectives.0>
   <!-- EN: hollowpoint -->
-  <HollowPointRounds.traitAdjectives.1>hollowpoint</HollowPointRounds.traitAdjectives.1>
+  <HollowPointRounds.traitAdjectives.1>نقطه توخالی</HollowPointRounds.traitAdjectives.1>
   <!-- EN: hardpunch -->
-  <HollowPointRounds.traitAdjectives.2>hardpunch</HollowPointRounds.traitAdjectives.2>
+  <HollowPointRounds.traitAdjectives.2>ضربه سخت</HollowPointRounds.traitAdjectives.2>
   <!-- EN: meatrip -->
-  <HollowPointRounds.traitAdjectives.3>meatrip</HollowPointRounds.traitAdjectives.3>
+  <HollowPointRounds.traitAdjectives.3>سفر مسافرتی</HollowPointRounds.traitAdjectives.3>
   <!-- EN: grinder -->
-  <HollowPointRounds.traitAdjectives.4>grinder</HollowPointRounds.traitAdjectives.4>
+  <HollowPointRounds.traitAdjectives.4>آسیاب</HollowPointRounds.traitAdjectives.4>
   
   <!-- EN: tactical sight -->
-  <ImprovedSights.label>tactical sight</ImprovedSights.label>
+  <ImprovedSights.label>دید تاکتیکی</ImprovedSights.label>
   <!-- EN: This weapon has a custom sight, increasing its accuracy at long range. -->
-  <ImprovedSights.description>This weapon has a custom sight, increasing its accuracy at long range.</ImprovedSights.description>
+  <ImprovedSights.description>این سلاح دارای دید سفارشی است که دقت آن را در بردهای دور افزایش می دهد.</ImprovedSights.description>
   <!-- EN: accurate -->
-  <ImprovedSights.traitAdjectives.0>accurate</ImprovedSights.traitAdjectives.0>
+  <ImprovedSights.traitAdjectives.0>دقیق</ImprovedSights.traitAdjectives.0>
   <!-- EN: precise -->
-  <ImprovedSights.traitAdjectives.1>precise</ImprovedSights.traitAdjectives.1>
+  <ImprovedSights.traitAdjectives.1>دقیق</ImprovedSights.traitAdjectives.1>
   <!-- EN: sniper -->
-  <ImprovedSights.traitAdjectives.2>sniper</ImprovedSights.traitAdjectives.2>
+  <ImprovedSights.traitAdjectives.2>تک تیرانداز</ImprovedSights.traitAdjectives.2>
   
   <!-- EN: incendiary launcher -->
-  <IncendiaryLauncher.label>incendiary launcher</IncendiaryLauncher.label>
+  <IncendiaryLauncher.label>پرتاب کننده آتش زا</IncendiaryLauncher.label>
   <!-- EN: This weapon has an attached incendiary shell launcher. The shell creates a small flame explosion that ignites everything nearby. Once fired, it must be reloaded using chemfuel. -->
-  <IncendiaryLauncher.description>This weapon has an attached incendiary shell launcher. The shell creates a small flame explosion that ignites everything nearby. Once fired, it must be reloaded using chemfuel.</IncendiaryLauncher.description>
+  <IncendiaryLauncher.description>این سلاح دارای یک گلوله انداز آتش زا متصل است. این پوسته یک انفجار شعله کوچک ایجاد می کند که همه چیز اطراف را مشتعل می کند. پس از شلیک، باید با استفاده از سوخت شیمیایی دوباره بارگیری شود.</IncendiaryLauncher.description>
   <!-- EN: shell -->
-  <IncendiaryLauncher.abilityProps.chargeNoun>shell</IncendiaryLauncher.abilityProps.chargeNoun>
+  <IncendiaryLauncher.abilityProps.chargeNoun>پوسته</IncendiaryLauncher.abilityProps.chargeNoun>
   <!-- EN: on cooldown -->
-  <IncendiaryLauncher.abilityProps.cooldownGerund>on cooldown</IncendiaryLauncher.abilityProps.cooldownGerund>
+  <IncendiaryLauncher.abilityProps.cooldownGerund>در خنک شدن</IncendiaryLauncher.abilityProps.cooldownGerund>
   <!-- EN: fiery -->
-  <IncendiaryLauncher.traitAdjectives.0>fiery</IncendiaryLauncher.traitAdjectives.0>
+  <IncendiaryLauncher.traitAdjectives.0>آتشین</IncendiaryLauncher.traitAdjectives.0>
   <!-- EN: flame -->
-  <IncendiaryLauncher.traitAdjectives.1>flame</IncendiaryLauncher.traitAdjectives.1>
+  <IncendiaryLauncher.traitAdjectives.1>شعله</IncendiaryLauncher.traitAdjectives.1>
   <!-- EN: flaming -->
-  <IncendiaryLauncher.traitAdjectives.2>flaming</IncendiaryLauncher.traitAdjectives.2>
+  <IncendiaryLauncher.traitAdjectives.2>شعله ور</IncendiaryLauncher.traitAdjectives.2>
   <!-- EN: burning -->
-  <IncendiaryLauncher.traitAdjectives.3>burning</IncendiaryLauncher.traitAdjectives.3>
+  <IncendiaryLauncher.traitAdjectives.3>سوزاندن</IncendiaryLauncher.traitAdjectives.3>
   
   <!-- EN: incendiary pellets -->
-  <IncendiaryPellets.label>incendiary pellets</IncendiaryPellets.label>
+  <IncendiaryPellets.label>گلوله های آتش زا</IncendiaryPellets.label>
   <!-- EN: This weapon fires phosphorus pellets that have a chance to ignite targets. -->
-  <IncendiaryPellets.description>This weapon fires phosphorus pellets that have a chance to ignite targets.</IncendiaryPellets.description>
+  <IncendiaryPellets.description>این سلاح گلوله های فسفر را شلیک می کند که شانس آتش زدن اهداف را دارند.</IncendiaryPellets.description>
   <!-- EN: red -->
-  <IncendiaryPellets.traitAdjectives.0>red</IncendiaryPellets.traitAdjectives.0>
+  <IncendiaryPellets.traitAdjectives.0>قرمز</IncendiaryPellets.traitAdjectives.0>
   <!-- EN: fiery -->
-  <IncendiaryPellets.traitAdjectives.1>fiery</IncendiaryPellets.traitAdjectives.1>
+  <IncendiaryPellets.traitAdjectives.1>آتشین</IncendiaryPellets.traitAdjectives.1>
   <!-- EN: flaming -->
-  <IncendiaryPellets.traitAdjectives.2>flaming</IncendiaryPellets.traitAdjectives.2>
+  <IncendiaryPellets.traitAdjectives.2>شعله ور</IncendiaryPellets.traitAdjectives.2>
   <!-- EN: burning -->
-  <IncendiaryPellets.traitAdjectives.3>burning</IncendiaryPellets.traitAdjectives.3>
+  <IncendiaryPellets.traitAdjectives.3>سوزاندن</IncendiaryPellets.traitAdjectives.3>
   <!-- EN: hot -->
-  <IncendiaryPellets.traitAdjectives.4>hot</IncendiaryPellets.traitAdjectives.4>
+  <IncendiaryPellets.traitAdjectives.4>داغ</IncendiaryPellets.traitAdjectives.4>
   <!-- EN: volcanic -->
-  <IncendiaryPellets.traitAdjectives.5>volcanic</IncendiaryPellets.traitAdjectives.5>
+  <IncendiaryPellets.traitAdjectives.5>آتشفشانی</IncendiaryPellets.traitAdjectives.5>
   <!-- EN: promethean -->
-  <IncendiaryPellets.traitAdjectives.6>promethean</IncendiaryPellets.traitAdjectives.6>
+  <IncendiaryPellets.traitAdjectives.6>پرومته</IncendiaryPellets.traitAdjectives.6>
   
   <!-- EN: incendiary rounds -->
-  <IncendiaryRounds.label>incendiary rounds</IncendiaryRounds.label>
+  <IncendiaryRounds.label>گلوله های آتش زا</IncendiaryRounds.label>
   <!-- EN: This weapon fires ammunition that contains a flammable chemical. It has a chance to ignite targets. -->
-  <IncendiaryRounds.description>This weapon fires ammunition that contains a flammable chemical. It has a chance to ignite targets.</IncendiaryRounds.description>
+  <IncendiaryRounds.description>این سلاح مهمات حاوی مواد شیمیایی قابل اشتعال را شلیک می کند. فرصتی برای آتش زدن اهداف دارد.</IncendiaryRounds.description>
   <!-- EN: red -->
-  <IncendiaryRounds.traitAdjectives.0>red</IncendiaryRounds.traitAdjectives.0>
+  <IncendiaryRounds.traitAdjectives.0>قرمز</IncendiaryRounds.traitAdjectives.0>
   <!-- EN: fiery -->
-  <IncendiaryRounds.traitAdjectives.1>fiery</IncendiaryRounds.traitAdjectives.1>
+  <IncendiaryRounds.traitAdjectives.1>آتشین</IncendiaryRounds.traitAdjectives.1>
   <!-- EN: flaming -->
-  <IncendiaryRounds.traitAdjectives.2>flaming</IncendiaryRounds.traitAdjectives.2>
+  <IncendiaryRounds.traitAdjectives.2>شعله ور</IncendiaryRounds.traitAdjectives.2>
   <!-- EN: burning -->
-  <IncendiaryRounds.traitAdjectives.3>burning</IncendiaryRounds.traitAdjectives.3>
+  <IncendiaryRounds.traitAdjectives.3>سوزاندن</IncendiaryRounds.traitAdjectives.3>
   <!-- EN: hot -->
-  <IncendiaryRounds.traitAdjectives.4>hot</IncendiaryRounds.traitAdjectives.4>
+  <IncendiaryRounds.traitAdjectives.4>داغ</IncendiaryRounds.traitAdjectives.4>
   <!-- EN: igniting -->
-  <IncendiaryRounds.traitAdjectives.5>igniting</IncendiaryRounds.traitAdjectives.5>
+  <IncendiaryRounds.traitAdjectives.5>مشتعل شدن</IncendiaryRounds.traitAdjectives.5>
   <!-- EN: napalm -->
-  <IncendiaryRounds.traitAdjectives.6>napalm</IncendiaryRounds.traitAdjectives.6>
+  <IncendiaryRounds.traitAdjectives.6>ناپالم</IncendiaryRounds.traitAdjectives.6>
   
   <!-- EN: jade inlay -->
-  <JadeInlay.label>jade inlay</JadeInlay.label>
+  <JadeInlay.label>خاتم یشم</JadeInlay.label>
   <!-- EN: This weapon is adorned with jade. Traders will pay more for it. -->
-  <JadeInlay.description>This weapon is adorned with jade. Traders will pay more for it.</JadeInlay.description>
+  <JadeInlay.description>این سلاح با یشم تزیین شده است. معامله گران هزینه بیشتری برای آن خواهند پرداخت.</JadeInlay.description>
   <!-- EN: jade -->
-  <JadeInlay.traitAdjectives.0>jade</JadeInlay.traitAdjectives.0>
+  <JadeInlay.traitAdjectives.0>یشم</JadeInlay.traitAdjectives.0>
   
   <!-- EN: lightweight -->
-  <Lightweight.label>lightweight</Lightweight.label>
+  <Lightweight.label>سبک وزن</Lightweight.label>
   <!-- EN: This weapon is much lighter than normal, lowering its aiming time. -->
-  <Lightweight.description>This weapon is much lighter than normal, lowering its aiming time.</Lightweight.description>
+  <Lightweight.description>این سلاح بسیار سبک‌تر از حالت عادی است و زمان هدف گیری آن را کاهش می دهد.</Lightweight.description>
   <!-- EN: light -->
-  <Lightweight.traitAdjectives.0>light</Lightweight.traitAdjectives.0>
+  <Lightweight.traitAdjectives.0>نور</Lightweight.traitAdjectives.0>
   <!-- EN: quickdraw -->
-  <Lightweight.traitAdjectives.1>quickdraw</Lightweight.traitAdjectives.1>
+  <Lightweight.traitAdjectives.1>Quickdraw</Lightweight.traitAdjectives.1>
   
   <!-- EN: lightweight arrows -->
-  <LightweightArrows.label>lightweight arrows</LightweightArrows.label>
+  <LightweightArrows.label>فلش های سبک وزن</LightweightArrows.label>
   <!-- EN: This bow is adept at firing lightweight arrows. They fly farther but deal less damage. -->
-  <LightweightArrows.description>This bow is adept at firing lightweight arrows. They fly farther but deal less damage.</LightweightArrows.description>
+  <LightweightArrows.description>این کمان در پرتاب تیرهای سبک مهارت دارد. آنها دورتر پرواز می کنند اما آسیب کمتری وارد می کنند.</LightweightArrows.description>
   <!-- EN: light -->
-  <LightweightArrows.traitAdjectives.0>light</LightweightArrows.traitAdjectives.0>
+  <LightweightArrows.traitAdjectives.0>نور</LightweightArrows.traitAdjectives.0>
   <!-- EN: longreach -->
-  <LightweightArrows.traitAdjectives.1>longreach</LightweightArrows.traitAdjectives.1>
+  <LightweightArrows.traitAdjectives.1>طولانی مدت</LightweightArrows.traitAdjectives.1>
   
   <!-- EN: ornamental -->
-  <Ornamental.label>ornamental</Ornamental.label>
+  <Ornamental.label>زینتی</Ornamental.label>
   <!-- EN: This weapon was crafted for aesthetics over functionality. It deals less damage but looks great. -->
-  <Ornamental.description>This weapon was crafted for aesthetics over functionality. It deals less damage but looks great.</Ornamental.description>
+  <Ornamental.description>این سلاح برای زیبایی شناسی بیش از عملکرد ساخته شده است. آسیب کمتری وارد می کند اما عالی به نظر می رسد.</Ornamental.description>
   <!-- EN: beautiful -->
-  <Ornamental.traitAdjectives.0>beautiful</Ornamental.traitAdjectives.0>
+  <Ornamental.traitAdjectives.0>زیبا</Ornamental.traitAdjectives.0>
   <!-- EN: elegant -->
-  <Ornamental.traitAdjectives.1>elegant</Ornamental.traitAdjectives.1>
+  <Ornamental.traitAdjectives.1>ظریف</Ornamental.traitAdjectives.1>
   <!-- EN: ornamental -->
-  <Ornamental.traitAdjectives.2>ornamental</Ornamental.traitAdjectives.2>
+  <Ornamental.traitAdjectives.2>زینتی</Ornamental.traitAdjectives.2>
   
   <!-- EN: heavy rounds -->
-  <OversizedRounds.label>heavy rounds</OversizedRounds.label>
+  <OversizedRounds.label>دورهای سنگین</OversizedRounds.label>
   <!-- EN: This weapon deals more damage and has a much higher stopping power than normal. -->
-  <OversizedRounds.description>This weapon deals more damage and has a much higher stopping power than normal.</OversizedRounds.description>
+  <OversizedRounds.description>این سلاح آسیب بیشتری وارد می کند و قدرت توقف بسیار بالاتری نسبت به حالت عادی دارد.</OversizedRounds.description>
   <!-- EN: hammering -->
-  <OversizedRounds.traitAdjectives.0>hammering</OversizedRounds.traitAdjectives.0>
+  <OversizedRounds.traitAdjectives.0>چکش زدن</OversizedRounds.traitAdjectives.0>
   <!-- EN: forceful -->
-  <OversizedRounds.traitAdjectives.1>forceful</OversizedRounds.traitAdjectives.1>
+  <OversizedRounds.traitAdjectives.1>نیرومند</OversizedRounds.traitAdjectives.1>
   <!-- EN: oversized -->
-  <OversizedRounds.traitAdjectives.2>oversized</OversizedRounds.traitAdjectives.2>
+  <OversizedRounds.traitAdjectives.2>بزرگ</OversizedRounds.traitAdjectives.2>
   <!-- EN: knockout -->
-  <OversizedRounds.traitAdjectives.3>knockout</OversizedRounds.traitAdjectives.3>
+  <OversizedRounds.traitAdjectives.3>ناک اوت</OversizedRounds.traitAdjectives.3>
   
   <!-- EN: paralytic arrows -->
-  <ParalyticArrows.label>paralytic arrows</ParalyticArrows.label>
+  <ParalyticArrows.label>فلش های فلج</ParalyticArrows.label>
   <!-- EN: This bow shoots arrows embedded with a paralytic biotoxin, which briefly stuns targets. -->
-  <ParalyticArrows.description>This bow shoots arrows embedded with a paralytic biotoxin, which briefly stuns targets.</ParalyticArrows.description>
+  <ParalyticArrows.description>این کمان تیرهایی را پرتاب می کند که حاوی یک بیوتوکسین فلج کننده است که برای مدت کوتاهی اهداف را بیهوش می کند.</ParalyticArrows.description>
   <!-- EN: paralyzing -->
-  <ParalyticArrows.traitAdjectives.0>paralyzing</ParalyticArrows.traitAdjectives.0>
+  <ParalyticArrows.traitAdjectives.0>فلج کننده</ParalyticArrows.traitAdjectives.0>
   <!-- EN: paralytic -->
-  <ParalyticArrows.traitAdjectives.1>paralytic</ParalyticArrows.traitAdjectives.1>
+  <ParalyticArrows.traitAdjectives.1>فلج</ParalyticArrows.traitAdjectives.1>
   <!-- EN: stunning -->
-  <ParalyticArrows.traitAdjectives.2>stunning</ParalyticArrows.traitAdjectives.2>
+  <ParalyticArrows.traitAdjectives.2>خیره کننده</ParalyticArrows.traitAdjectives.2>
   
   <!-- EN: piercing arrows -->
-  <PiercingArrows.label>piercing arrows</PiercingArrows.label>
+  <PiercingArrows.label>فلش های سوراخ کننده</PiercingArrows.label>
   <!-- EN: This bow shoots bodkin-tipped arrows, making it more effective against armored targets. -->
-  <PiercingArrows.description>This bow shoots bodkin-tipped arrows, making it more effective against armored targets.</PiercingArrows.description>
+  <PiercingArrows.description>این کمان تیرهایی با نوک بدنه شلیک می کند و در مقابل اهداف زرهی موثرتر می شود.</PiercingArrows.description>
   <!-- EN: piercing -->
-  <PiercingArrows.traitAdjectives.0>piercing</PiercingArrows.traitAdjectives.0>
+  <PiercingArrows.traitAdjectives.0>سوراخ کردن</PiercingArrows.traitAdjectives.0>
   <!-- EN: sharp -->
-  <PiercingArrows.traitAdjectives.1>sharp</PiercingArrows.traitAdjectives.1>
+  <PiercingArrows.traitAdjectives.1>تیز</PiercingArrows.traitAdjectives.1>
   <!-- EN: penetrating -->
-  <PiercingArrows.traitAdjectives.2>penetrating</PiercingArrows.traitAdjectives.2>
+  <PiercingArrows.traitAdjectives.2>نافذ</PiercingArrows.traitAdjectives.2>
   <!-- EN: bodkin -->
-  <PiercingArrows.traitAdjectives.3>bodkin</PiercingArrows.traitAdjectives.3>
+  <PiercingArrows.traitAdjectives.3>بادکین</PiercingArrows.traitAdjectives.3>
   <!-- EN: anti-armor -->
-  <PiercingArrows.traitAdjectives.4>anti-armor</PiercingArrows.traitAdjectives.4>
+  <PiercingArrows.traitAdjectives.4>ضد زره</PiercingArrows.traitAdjectives.4>
   
   <!-- EN: piercing rounds -->
-  <PiercingRounds.label>piercing rounds</PiercingRounds.label>
+  <PiercingRounds.label>دور سوراخ کردن</PiercingRounds.label>
   <!-- EN: This weapon fires rounds designed to penetrate thick armor. -->
-  <PiercingRounds.description>This weapon fires rounds designed to penetrate thick armor.</PiercingRounds.description>
+  <PiercingRounds.description>این سلاح گلوله هایی را شلیک می کند که برای نفوذ به زره های ضخیم طراحی شده اند.</PiercingRounds.description>
   <!-- EN: piercing -->
-  <PiercingRounds.traitAdjectives.0>piercing</PiercingRounds.traitAdjectives.0>
+  <PiercingRounds.traitAdjectives.0>سوراخ کردن</PiercingRounds.traitAdjectives.0>
   <!-- EN: sharp -->
-  <PiercingRounds.traitAdjectives.1>sharp</PiercingRounds.traitAdjectives.1>
+  <PiercingRounds.traitAdjectives.1>تیز</PiercingRounds.traitAdjectives.1>
   <!-- EN: sabot -->
-  <PiercingRounds.traitAdjectives.2>sabot</PiercingRounds.traitAdjectives.2>
+  <PiercingRounds.traitAdjectives.2>خرابکاری</PiercingRounds.traitAdjectives.2>
   <!-- EN: penetrating -->
-  <PiercingRounds.traitAdjectives.3>penetrating</PiercingRounds.traitAdjectives.3>
+  <PiercingRounds.traitAdjectives.3>نافذ</PiercingRounds.traitAdjectives.3>
   
   <!-- EN: tracking scope -->
-  <PrecisionScope.label>tracking scope</PrecisionScope.label>
+  <PrecisionScope.label>محدوده ردیابی</PrecisionScope.label>
   <!-- EN: This weapon's scope uses target recognition software to automate target tracking, making it faster to fire. -->
-  <PrecisionScope.description>This weapon's scope uses target recognition software to automate target tracking, making it faster to fire.</PrecisionScope.description>
+  <PrecisionScope.description>دامنه این سلاح از نرم افزار تشخیص هدف برای خودکارسازی ردیابی هدف استفاده می کند و شلیک آن را سریعتر می کند.</PrecisionScope.description>
   <!-- EN: trackscope -->
-  <PrecisionScope.traitAdjectives.0>trackscope</PrecisionScope.traitAdjectives.0>
+  <PrecisionScope.traitAdjectives.0>ردیابی</PrecisionScope.traitAdjectives.0>
   <!-- EN: fastfire -->
-  <PrecisionScope.traitAdjectives.1>fastfire</PrecisionScope.traitAdjectives.1>
+  <PrecisionScope.traitAdjectives.1>فست فایر</PrecisionScope.traitAdjectives.1>
   
   <!-- EN: pulse charger -->
-  <PulseCharger.label>pulse charger</PulseCharger.label>
+  <PulseCharger.label>شارژر پالس</PulseCharger.label>
   <!-- EN: This weapon is retrofitted with pulse-charge technology, imbuing bullets with unstable energy. The weapon was clearly not designed for this, dramatically lowering its accuracy. -->
-  <PulseCharger.description>This weapon is retrofitted with pulse-charge technology, imbuing bullets with unstable energy. The weapon was clearly not designed for this, dramatically lowering its accuracy.</PulseCharger.description>
+  <PulseCharger.description>این سلاح با فناوری شارژ پالس مجهز شده و گلوله‌ها را با انرژی ناپایدار آغشته می کند. واضح است که این سلاح برای این کار طراحی نشده بود و دقت آن را به طرز چشمگیری کاهش داد.</PulseCharger.description>
   <!-- EN: charged-shot -->
-  <PulseCharger.traitAdjectives.0>charged-shot</PulseCharger.traitAdjectives.0>
+  <PulseCharger.traitAdjectives.0>شارژ-شات</PulseCharger.traitAdjectives.0>
   <!-- EN: charged -->
-  <PulseCharger.traitAdjectives.1>charged</PulseCharger.traitAdjectives.1>
+  <PulseCharger.traitAdjectives.1>شارژ شده است</PulseCharger.traitAdjectives.1>
   <!-- EN: pulse-charged -->
   <PulseCharger.traitAdjectives.2>دارای پالس شارژ</PulseCharger.traitAdjectives.2>
   
   <!-- EN: quick reload -->
-  <QuickReload.label>quick reload</QuickReload.label>
+  <QuickReload.label>بارگذاری مجدد سریع</QuickReload.label>
   <!-- EN: This weapon has a quick release-and-replace mechanism that makes it faster to reload. -->
-  <QuickReload.description>This weapon has a quick release-and-replace mechanism that makes it faster to reload.</QuickReload.description>
+  <QuickReload.description>این اسلحه دارای مکانیزم آزادسازی و تعویض سریع است که باعث می شود بارگیری مجدد آن سریعتر شود.</QuickReload.description>
   <!-- EN: quick -->
-  <QuickReload.traitAdjectives.0>quick</QuickReload.traitAdjectives.0>
+  <QuickReload.traitAdjectives.0>سریع</QuickReload.traitAdjectives.0>
   <!-- EN: nimble -->
-  <QuickReload.traitAdjectives.1>nimble</QuickReload.traitAdjectives.1>
+  <QuickReload.traitAdjectives.1>زیرک</QuickReload.traitAdjectives.1>
   <!-- EN: quickload -->
-  <QuickReload.traitAdjectives.2>quickload</QuickReload.traitAdjectives.2>
+  <QuickReload.traitAdjectives.2>سریع بارگذاری</QuickReload.traitAdjectives.2>
   <!-- EN: quickshot -->
-  <QuickReload.traitAdjectives.3>quickshot</QuickReload.traitAdjectives.3>
+  <QuickReload.traitAdjectives.3>عکس سریع</QuickReload.traitAdjectives.3>
   <!-- EN: fastload -->
-  <QuickReload.traitAdjectives.4>fastload</QuickReload.traitAdjectives.4>
+  <QuickReload.traitAdjectives.4>بارگذاری سریع</QuickReload.traitAdjectives.4>
   
   <!-- EN: rangefinder -->
-  <RangefinderScope.label>rangefinder</RangefinderScope.label>
+  <RangefinderScope.label>مسافت یاب</RangefinderScope.label>
   <!-- EN: This weapon's scope contains an advanced rangefinder, allowing it to fire further. -->
-  <RangefinderScope.description>This weapon's scope contains an advanced rangefinder, allowing it to fire further.</RangefinderScope.description>
+  <RangefinderScope.description>دامنه این سلاح دارای یک فاصله یاب پیشرفته است که به آن امکان شلیک بیشتر را می دهد.</RangefinderScope.description>
   <!-- EN: eagle -->
-  <RangefinderScope.traitAdjectives.0>eagle</RangefinderScope.traitAdjectives.0>
+  <RangefinderScope.traitAdjectives.0>عقاب</RangefinderScope.traitAdjectives.0>
   <!-- EN: farsight -->
-  <RangefinderScope.traitAdjectives.1>farsight</RangefinderScope.traitAdjectives.1>
+  <RangefinderScope.traitAdjectives.1>دور اندیشی</RangefinderScope.traitAdjectives.1>
   
   <!-- EN: rapid fire -->
-  <RapidFire.label>rapid fire</RapidFire.label>
+  <RapidFire.label>آتش سریع</RapidFire.label>
   <!-- EN: This weapon contains an improved self-loading mechanism. When firing bursts of multiple rounds, the time between each round is dramatically reduced. -->
-  <RapidFire.description>This weapon contains an improved self-loading mechanism. When firing bursts of multiple rounds, the time between each round is dramatically reduced.</RapidFire.description>
+  <RapidFire.description>این سلاح دارای مکانیزم خود بارگیری بهبود یافته است. هنگام شلیک چندین گلوله، زمان بین هر دور به طور چشمگیری کاهش می یابد.</RapidFire.description>
   <!-- EN: rapid -->
-  <RapidFire.traitAdjectives.0>rapid</RapidFire.traitAdjectives.0>
+  <RapidFire.traitAdjectives.0>سریع</RapidFire.traitAdjectives.0>
   <!-- EN: burst -->
-  <RapidFire.traitAdjectives.1>burst</RapidFire.traitAdjectives.1>
+  <RapidFire.traitAdjectives.1>ترکیدن</RapidFire.traitAdjectives.1>
   <!-- EN: rapid-fire -->
-  <RapidFire.traitAdjectives.2>rapid-fire</RapidFire.traitAdjectives.2>
+  <RapidFire.traitAdjectives.2>شلیک سریع</RapidFire.traitAdjectives.2>
   
   <!-- EN: reinforced bow limbs -->
-  <ReinforcedLimbs.label>reinforced bow limbs</ReinforcedLimbs.label>
+  <ReinforcedLimbs.label>اندام های کمان تقویت شده</ReinforcedLimbs.label>
   <!-- EN: The limbs of this bow have been strengthened, allowing it to shoot further. -->
-  <ReinforcedLimbs.description>The limbs of this bow have been strengthened, allowing it to shoot further.</ReinforcedLimbs.description>
+  <ReinforcedLimbs.description>اندام های این کمان تقویت شده است و به آن اجازه می دهد بیشتر شلیک کند.</ReinforcedLimbs.description>
   <!-- EN: reinforced -->
-  <ReinforcedLimbs.traitAdjectives.0>reinforced</ReinforcedLimbs.traitAdjectives.0>
+  <ReinforcedLimbs.traitAdjectives.0>تقویت شده</ReinforcedLimbs.traitAdjectives.0>
   
   <!-- EN: shoddy sights -->
-  <ShoddySights.label>shoddy sights</ShoddySights.label>
+  <ShoddySights.label>مناظر نامرغوب</ShoddySights.label>
   <!-- EN: Defects in this weapon's sights decrease its accuracy at long ranges. -->
-  <ShoddySights.description>Defects in this weapon's sights decrease its accuracy at long ranges.</ShoddySights.description>
+  <ShoddySights.description>نقص دید این سلاح باعث کاهش دقت آن در بردهای دور می شود.</ShoddySights.description>
   <!-- EN: inaccurate -->
-  <ShoddySights.traitAdjectives.0>inaccurate</ShoddySights.traitAdjectives.0>
+  <ShoddySights.traitAdjectives.0>نادرست</ShoddySights.traitAdjectives.0>
   <!-- EN: imprecise -->
-  <ShoddySights.traitAdjectives.1>imprecise</ShoddySights.traitAdjectives.1>
+  <ShoddySights.traitAdjectives.1>نادقیق</ShoddySights.traitAdjectives.1>
   
   <!-- EN: shortened barrel -->
-  <ShortenedBarrel.label>shortened barrel</ShortenedBarrel.label>
+  <ShortenedBarrel.label>بشکه کوتاه شده</ShortenedBarrel.label>
   <!-- EN: This weapon's barrel has been sawn off, reducing its range but making it quicker to aim and fire. -->
-  <ShortenedBarrel.description>This weapon's barrel has been sawn off, reducing its range but making it quicker to aim and fire.</ShortenedBarrel.description>
+  <ShortenedBarrel.description>لوله این سلاح اره شده است و برد آن را کاهش می دهد اما باعث می شود که هدف گیری و شلیک سریعتر شود.</ShortenedBarrel.description>
   <!-- EN: shortened -->
-  <ShortenedBarrel.traitAdjectives.0>shortened</ShortenedBarrel.traitAdjectives.0>
+  <ShortenedBarrel.traitAdjectives.0>کوتاه شده است</ShortenedBarrel.traitAdjectives.0>
   <!-- EN: sawn-off -->
-  <ShortenedBarrel.traitAdjectives.1>sawn-off</ShortenedBarrel.traitAdjectives.1>
+  <ShortenedBarrel.traitAdjectives.1>اره شده</ShortenedBarrel.traitAdjectives.1>
   
   <!-- EN: smoke launcher -->
-  <SmokeLauncher.label>smoke launcher</SmokeLauncher.label>
+  <SmokeLauncher.label>پرتاب کننده دود</SmokeLauncher.label>
   <!-- EN: This weapon has an attached smoke shell launcher. The shell releases smoke that obscures incoming shots and prevents turrets from locking on. Once fired, it must be reloaded using steel. -->
-  <SmokeLauncher.description>This weapon has an attached smoke shell launcher. The shell releases smoke that obscures incoming shots and prevents turrets from locking on. Once fired, it must be reloaded using steel.</SmokeLauncher.description>
+  <SmokeLauncher.description>این سلاح دارای یک پرتاب کننده پوسته دود متصل است. پوسته دودی آزاد می کند که عکس های دریافتی را پنهان می کند و از قفل شدن برجک‌ها جلوگیری می کند. پس از شلیک، باید با استفاده از فولاد دوباره بارگیری شود.</SmokeLauncher.description>
   <!-- EN: shell -->
-  <SmokeLauncher.abilityProps.chargeNoun>shell</SmokeLauncher.abilityProps.chargeNoun>
+  <SmokeLauncher.abilityProps.chargeNoun>پوسته</SmokeLauncher.abilityProps.chargeNoun>
   <!-- EN: on cooldown -->
-  <SmokeLauncher.abilityProps.cooldownGerund>on cooldown</SmokeLauncher.abilityProps.cooldownGerund>
+  <SmokeLauncher.abilityProps.cooldownGerund>در خنک شدن</SmokeLauncher.abilityProps.cooldownGerund>
   <!-- EN: smoke -->
-  <SmokeLauncher.traitAdjectives.0>smoke</SmokeLauncher.traitAdjectives.0>
+  <SmokeLauncher.traitAdjectives.0>دود</SmokeLauncher.traitAdjectives.0>
   <!-- EN: concealing -->
-  <SmokeLauncher.traitAdjectives.1>concealing</SmokeLauncher.traitAdjectives.1>
+  <SmokeLauncher.traitAdjectives.1>پنهان کردن</SmokeLauncher.traitAdjectives.1>
   <!-- EN: clouding -->
-  <SmokeLauncher.traitAdjectives.2>clouding</SmokeLauncher.traitAdjectives.2>
+  <SmokeLauncher.traitAdjectives.2>ابری شدن</SmokeLauncher.traitAdjectives.2>
   
   <!-- EN: pistol brace -->
-  <StabilizerBrace.label>pistol brace</StabilizerBrace.label>
+  <StabilizerBrace.label>مهار تپانچه</StabilizerBrace.label>
   <!-- EN: This weapon has a stabilizing brace that connects to the user's arm, increasing its accuracy. -->
-  <StabilizerBrace.description>This weapon has a stabilizing brace that connects to the user's arm, increasing its accuracy.</StabilizerBrace.description>
+  <StabilizerBrace.description>این سلاح دارای یک مهاربند تثبیت کننده است که به بازوی کاربر متصل می شود و دقت آن را افزایش می دهد.</StabilizerBrace.description>
   <!-- EN: stable -->
-  <StabilizerBrace.traitAdjectives.0>stable</StabilizerBrace.traitAdjectives.0>
+  <StabilizerBrace.traitAdjectives.0>پایدار</StabilizerBrace.traitAdjectives.0>
   <!-- EN: accurate -->
-  <StabilizerBrace.traitAdjectives.1>accurate</StabilizerBrace.traitAdjectives.1>
+  <StabilizerBrace.traitAdjectives.1>دقیق</StabilizerBrace.traitAdjectives.1>
   <!-- EN: precise -->
-  <StabilizerBrace.traitAdjectives.2>precise</StabilizerBrace.traitAdjectives.2>
+  <StabilizerBrace.traitAdjectives.2>دقیق</StabilizerBrace.traitAdjectives.2>
   <!-- EN: braced -->
-  <StabilizerBrace.traitAdjectives.3>braced</StabilizerBrace.traitAdjectives.3>
+  <StabilizerBrace.traitAdjectives.3>مهاربندی شده</StabilizerBrace.traitAdjectives.3>
   
   <!-- EN: toxic pellets -->
-  <ToxPellets.label>toxic pellets</ToxPellets.label>
+  <ToxPellets.label>گلوله های سمی</ToxPellets.label>
   <!-- EN: This weapon fires chemical pellets which cause toxic buildup. -->
-  <ToxPellets.description>This weapon fires chemical pellets which cause toxic buildup.</ToxPellets.description>
+  <ToxPellets.description>این سلاح گلوله های شیمیایی را شلیک می کند که باعث تجمع سم می شود.</ToxPellets.description>
   <!-- EN: green -->
-  <ToxPellets.traitAdjectives.0>green</ToxPellets.traitAdjectives.0>
+  <ToxPellets.traitAdjectives.0>سبز</ToxPellets.traitAdjectives.0>
   <!-- EN: toxic -->
-  <ToxPellets.traitAdjectives.1>toxic</ToxPellets.traitAdjectives.1>
+  <ToxPellets.traitAdjectives.1>سمی</ToxPellets.traitAdjectives.1>
   <!-- EN: poisonous -->
-  <ToxPellets.traitAdjectives.2>poisonous</ToxPellets.traitAdjectives.2>
+  <ToxPellets.traitAdjectives.2>سمی</ToxPellets.traitAdjectives.2>
   <!-- EN: poison -->
-  <ToxPellets.traitAdjectives.3>poison</ToxPellets.traitAdjectives.3>
+  <ToxPellets.traitAdjectives.3>سم</ToxPellets.traitAdjectives.3>
   
   <!-- EN: tox rounds -->
-  <ToxRounds.label>tox rounds</ToxRounds.label>
+  <ToxRounds.label>دور سم</ToxRounds.label>
   <!-- EN: This weapon fires rounds coated with toxic chemicals, which sicken wounded targets. -->
-  <ToxRounds.description>This weapon fires rounds coated with toxic chemicals, which sicken wounded targets.</ToxRounds.description>
+  <ToxRounds.description>این سلاح گلوله های پوشیده از مواد شیمیایی سمی را شلیک می کند که اهداف زخمی را بیمار می کند.</ToxRounds.description>
   <!-- EN: green -->
-  <ToxRounds.traitAdjectives.0>green</ToxRounds.traitAdjectives.0>
+  <ToxRounds.traitAdjectives.0>سبز</ToxRounds.traitAdjectives.0>
   <!-- EN: poison -->
-  <ToxRounds.traitAdjectives.1>poison</ToxRounds.traitAdjectives.1>
+  <ToxRounds.traitAdjectives.1>سم</ToxRounds.traitAdjectives.1>
   <!-- EN: venom -->
-  <ToxRounds.traitAdjectives.2>venom</ToxRounds.traitAdjectives.2>
+  <ToxRounds.traitAdjectives.2>زهر</ToxRounds.traitAdjectives.2>
   <!-- EN: venomous -->
-  <ToxRounds.traitAdjectives.3>venomous</ToxRounds.traitAdjectives.3>
+  <ToxRounds.traitAdjectives.3>سمی</ToxRounds.traitAdjectives.3>
   <!-- EN: snakebite -->
-  <ToxRounds.traitAdjectives.4>snakebite</ToxRounds.traitAdjectives.4>
+  <ToxRounds.traitAdjectives.4>مارگزیدگی</ToxRounds.traitAdjectives.4>
   
   <!-- EN: ugly -->
-  <Ugly.label>ugly</Ugly.label>
+  <Ugly.label>زشت</Ugly.label>
   <!-- EN: This weapon was crafted with no respect for aesthetics. It looks like junk but gets the job done. Traders will pay less for it. -->
-  <Ugly.description>This weapon was crafted with no respect for aesthetics. It looks like junk but gets the job done. Traders will pay less for it.</Ugly.description>
+  <Ugly.description>این سلاح بدون رعایت زیبایی شناسی ساخته شده است. به نظر می رسد آشغال است، اما کار را انجام می دهد. معامله گران هزینه کمتری برای آن خواهند پرداخت.</Ugly.description>
   <!-- EN: monstrous -->
-  <Ugly.traitAdjectives.0>monstrous</Ugly.traitAdjectives.0>
+  <Ugly.traitAdjectives.0>هیولا</Ugly.traitAdjectives.0>
   <!-- EN: crude -->
-  <Ugly.traitAdjectives.1>crude</Ugly.traitAdjectives.1>
+  <Ugly.traitAdjectives.1>خام</Ugly.traitAdjectives.1>
   <!-- EN: ugly -->
-  <Ugly.traitAdjectives.2>ugly</Ugly.traitAdjectives.2>
+  <Ugly.traitAdjectives.2>زشت</Ugly.traitAdjectives.2>
   
 </LanguageData>

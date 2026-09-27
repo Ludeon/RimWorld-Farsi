@@ -2,38 +2,38 @@
 <LanguageData>
   
   <!-- EN: Arresting worsens faction relations -->
-  <ArrestingCreatesEnemies.label>Arresting worsens faction relations</ArrestingCreatesEnemies.label>
+  <ArrestingCreatesEnemies.label>دستگیری روابط جناحی را بدتر می کند</ArrestingCreatesEnemies.label>
   <!-- EN: Warning: The person you are trying to arrest may not go quietly.\n\nIf you arrest a non-colonist or a colonist from another faction, their entire faction may become your enemy. \n\nThis arrest has a {0} chance of succeeding, based on the social skill of the arrester. -->
-  <ArrestingCreatesEnemies.helpText>Warning: The person you are trying to arrest may not go quietly.\n\nIf you arrest a non-colonist or a colonist from another faction, their entire faction may become your enemy. \n\nThis arrest has a {0} chance of succeeding, based on the social skill of the arrester.</ArrestingCreatesEnemies.helpText>
+  <ArrestingCreatesEnemies.helpText>هشدار: شخصی که می‌خواهید دستگیر کنید ممکن است ساکت نرود.\n\nاگر غیر مستعمره‌نشین یا مستعمره‌ای از جناح دیگر را دستگیر کنید، ممکن است کل جناح او دشمن شما شود. \n\nاین دستگیری بر اساس مهارت اجتماعی دستگیرکننده شانس موفقیت {0} دارد.</ArrestingCreatesEnemies.helpText>
   
   <!-- EN: Maximum number of player colonies -->
-  <MaxNumberOfPlayerSettlements.label>Maximum number of player colonies</MaxNumberOfPlayerSettlements.label>
+  <MaxNumberOfPlayerSettlements.label>حداکثر تعداد مستعمرات بازیکن</MaxNumberOfPlayerSettlements.label>
   <!-- EN: Warning: RimWorld is designed to be played with one player colony at a time. Multiple player colonies are allowed as an experimental testing feature only.\n\nPlaying with multiple colonies will cause gameplay imbalances and split your focus, as well as likely causing performance slowdowns.\n\nWe recommend that you play with the one-colony maximum the game was designed for, at least for your first few games. -->
-  <MaxNumberOfPlayerSettlements.helpText>Warning: RimWorld is designed to be played with one player colony at a time. Multiple player colonies are allowed as an experimental testing feature only.\n\nPlaying with multiple colonies will cause gameplay imbalances and split your focus, as well as likely causing performance slowdowns.\n\nWe recommend that you play with the one-colony maximum the game was designed for, at least for your first few games.</MaxNumberOfPlayerSettlements.helpText>
+  <MaxNumberOfPlayerSettlements.helpText>اخطار: RimWorld برای بازی با کلنی یک بازیکن در یک زمان طراحی شده است. کلنی‌های چند بازیکن فقط به‌عنوان یک ویژگی آزمایشی آزمایشی مجاز هستند.\n\nبازی با چندین کلنی باعث عدم تعادل در بازی و تقسیم تمرکز شما می‌شود، و همچنین احتمالاً باعث کاهش سرعت عملکرد می‌شود.\n\nتوصیه می‌کنیم حداقل برای چند بازی اول خود، با حداکثر یک کلونی بازی کنید که بازی برای آن طراحی شده است.</MaxNumberOfPlayerSettlements.helpText>
   
   <!-- EN: Steam Deck controls -->
-  <SteamDeckControlsGame.label>Steam Deck controls</SteamDeckControlsGame.label>
+  <SteamDeckControlsGame.label>کنترل های Steam Deck</SteamDeckControlsGame.label>
   <!-- EN: Press X to open the architect menu and {Key:TogglePause} to pause and resume the game. Use triggers for primary and secondary clicks. Zoom in and out and scroll through lists with {Key:MapZoom_In} and {Key:MapZoom_Out}. Press and hold the L5 back button to pan the camera with the touch screen and simulate secondary clicks. -->
-  <SteamDeckControlsGame.helpText>Press X to open the architect menu and {Key:TogglePause} to pause and resume the game. Use triggers for primary and secondary clicks. Zoom in and out and scroll through lists with {Key:MapZoom_In} and {Key:MapZoom_Out}. Press and hold the L5 back button to pan the camera with the touch screen and simulate secondary clicks.</SteamDeckControlsGame.helpText>
+  <SteamDeckControlsGame.helpText>X را فشار دهید تا منوی معمار باز شود و {Key:TogglePause} را برای توقف و از سرگیری بازی فشار دهید. از محرک‌ها برای کلیک‌های اولیه و ثانویه استفاده کنید. بزرگنمایی و کوچکنمایی کنید و با {Key:MapZoom_In} و {Key:MapZoom_Out} در لیست‌ها حرکت کنید. دکمه برگشت L5 را فشار داده و نگه دارید تا دوربین را با صفحه لمسی حرکت دهید و کلیک های ثانویه را شبیه سازی کنید.</SteamDeckControlsGame.helpText>
   
   <!-- EN: Steam Deck controls -->
-  <SteamDeckControlsMainMenu.label>Steam Deck controls</SteamDeckControlsMainMenu.label>
+  <SteamDeckControlsMainMenu.label>کنترل های Steam Deck</SteamDeckControlsMainMenu.label>
   <!-- EN: Use the trackpad to move the cursor and the right trigger button to click. Press {Key:Accept} to accept and {Key:Cancel} to go back. -->
-  <SteamDeckControlsMainMenu.helpText>Use the trackpad to move the cursor and the right trigger button to click. Press {Key:Accept} to accept and {Key:Cancel} to go back.</SteamDeckControlsMainMenu.helpText>
+  <SteamDeckControlsMainMenu.helpText>از ترک پد برای حرکت مکان نما و دکمه ماشه سمت راست برای کلیک کردن استفاده کنید. {Key:Accept} را برای پذیرش و {Key:Cancel} را برای بازگشت فشار دهید.</SteamDeckControlsMainMenu.helpText>
   
   <!-- EN: Flick designations only designate -->
-  <SwitchFlickingDesignation.label>Flick designations only designate</SwitchFlickingDesignation.label>
+  <SwitchFlickingDesignation.label>نام‌های تلنگر فقط تعیین می‌کنند</SwitchFlickingDesignation.label>
   <!-- EN: Note: This only designates that a colonist should flick the switch.\n\nNothing will actually happen until a colonist comes and flicks the switch by hand. -->
-  <SwitchFlickingDesignation.helpText>Note: This only designates that a colonist should flick the switch.\n\nNothing will actually happen until a colonist comes and flicks the switch by hand.</SwitchFlickingDesignation.helpText>
+  <SwitchFlickingDesignation.helpText>توجه: این فقط نشان می‌دهد که یک مستعمره‌نشین باید سوئیچ را تکان دهد.\n\nتا زمانی که یک مستعمره‌نشین نیاید و سوئیچ را با دست تکان دهد، هیچ اتفاقی نمی‌افتد.</SwitchFlickingDesignation.helpText>
   
   <!-- EN: Trade goods and trade beacons -->
-  <TradeGoodsMustBeNearBeacon.label>Trade goods and trade beacons</TradeGoodsMustBeNearBeacon.label>
+  <TradeGoodsMustBeNearBeacon.label>تجارت کالا و چراغ های تجاری</TradeGoodsMustBeNearBeacon.label>
   <!-- EN: To send items or silver to orbital traders, you must build an ORBITAL TRADE BEACON and place a stockpile of items near it. -->
-  <TradeGoodsMustBeNearBeacon.helpText>To send items or silver to orbital traders, you must build an ORBITAL TRADE BEACON and place a stockpile of items near it.</TradeGoodsMustBeNearBeacon.helpText>
+  <TradeGoodsMustBeNearBeacon.helpText>برای ارسال اقلام یا نقره به معامله‌گران مداری، باید یک ORBITAL TRADE BEACON بسازید و انباری از اقلام را در نزدیکی آن قرار دهید.</TradeGoodsMustBeNearBeacon.helpText>
   
   <!-- EN: Trading permit requirements -->
-  <TradingRequiresPermit.label>Trading permit requirements</TradingRequiresPermit.label>
+  <TradingRequiresPermit.label>الزامات مجوز تجارت</TradingRequiresPermit.label>
   <!-- EN: Trading here requires the title of {0}.\n\nEnsure any trade caravan you send has someone with the title of {0} or higher. -->
-  <TradingRequiresPermit.helpText>Trading here requires the title of {0}.\n\nEnsure any trade caravan you send has someone with the title of {0} or higher.</TradingRequiresPermit.helpText>
+  <TradingRequiresPermit.helpText>تجارت در اینجا مستلزم عنوان {0} است.\n\nاطمینان حاصل کنید که هر کاروان تجاری که می‌فرستید، شخصی با عنوان {0} یا بالاتر داشته باشد.</TradingRequiresPermit.helpText>
   
 </LanguageData>
