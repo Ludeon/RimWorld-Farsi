@@ -1125,31 +1125,31 @@
 
   <!-- Growing -->
   <!-- EN: {0} requires {1} skill in Growing to sow.\n\nNone of your non-downed growers have this skill, so this plant will not be sown. -->
-  <NoGrowerCanPlant>{0} requires {1} skill in Growing to sow.\n\nNone of your non-downed growers have this skill, so this plant will not be sown.</NoGrowerCanPlant>
+  <NoGrowerCanPlant>{0} برای کاشت به مهارت {1} در رشد نیاز دارد.\n\nهیچ یک از پرورش دهندگان شما این مهارت را ندارند، بنابراین این گیاه کاشته نمی شود.</NoGrowerCanPlant>
 
   <!-- Abandon home -->
   <!-- EN: Some of your colonists or animals are in this area. Are you sure you want to abandon it?\n\nThe following people and animals will be left behind:\n\n{0} -->
-  <ConfirmAbandonHomeWithColonyPawns>Some of your colonists or animals are in this area. Are you sure you want to abandon it?\n\nThe following people and animals will be left behind:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+  <ConfirmAbandonHomeWithColonyPawns>برخی از استعمارگران یا حیوانات شما در این منطقه هستند. آیا مطمئنید که می‌خواهید آن را رها کنید؟\n\nافراد و حیوانات زیر باقی خواهند ماند:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
   <!-- EN: Abandoning {0} will cause the following people to get the following thoughts: -->
-  <ConfirmAbandonHomeNegativeThoughts>Abandoning {0} will cause the following people to get the following thoughts:</ConfirmAbandonHomeNegativeThoughts>
+  <ConfirmAbandonHomeNegativeThoughts>رها کردن {0} باعث می‌شود افراد زیر افکار زیر را درگیر کنند:</ConfirmAbandonHomeNegativeThoughts>
   <!-- EN: Everyone: -->
-  <ConfirmAbandonHomeNegativeThoughts_Everyone>Everyone:</ConfirmAbandonHomeNegativeThoughts_Everyone>
+  <ConfirmAbandonHomeNegativeThoughts_Everyone>همه:</ConfirmAbandonHomeNegativeThoughts_Everyone>
   
   <!-- Move caravan and leave prisoners and animals behind -->
   <!-- EN: Some animals or prisoners are trying to join this caravan. If you move it, they won't be able to anymore.\n\nAnimals, prisoners, and downed colonists left behind in a map without any non-downed colonists are considered abandoned and can be captured by the enemies.\n\nAre you sure you want to move your caravan? -->
-  <ConfirmMoveAutoJoinableCaravan>Some animals or prisoners are trying to join this caravan. If you move it, they won't be able to anymore.\n\nAnimals, prisoners, and downed colonists left behind in a map without any non-downed colonists are considered abandoned and can be captured by the enemies.\n\nAre you sure you want to move your caravan?</ConfirmMoveAutoJoinableCaravan>
+  <ConfirmMoveAutoJoinableCaravan>برخی از حیوانات یا زندانیان در تلاش برای پیوستن به این کاروان هستند. اگر آن را جابه‌جا کنید، دیگر نمی‌توانند.\n\nحیوانات، زندانیان و مستعمره‌های سرنگون‌شده در نقشه‌ای که بدون هیچ مستعمره‌ای سرنگون نشده رها شده‌اند، رها شده در نظر گرفته می‌شوند و می‌توانند توسط دشمنان دستگیر شوند.\n\nآیا مطمئن هستید که می‌خواهید کاروان خود را جابجا کنید؟</ConfirmMoveAutoJoinableCaravan>
   
   <!-- Abandon pawn -->
   <!-- EN: Do you really want to banish {1_label}? -->
-  <ConfirmBanishPawnDialog>Do you really want to banish {1_label}?</ConfirmBanishPawnDialog>
+  <ConfirmBanishPawnDialog>آیا واقعاً می خواهید {1_label} را حذف کنید؟</ConfirmBanishPawnDialog>
   <!-- EN: {1_labelShort} will most likely die. -->
-  <ConfirmBanishPawnDialog_LeftToDie>{1_labelShort} will most likely die.</ConfirmBanishPawnDialog_LeftToDie>
+  <ConfirmBanishPawnDialog_LeftToDie>{1_labelShort} به احتمال زیاد خواهد مرد.</ConfirmBanishPawnDialog_LeftToDie>
   <!-- EN: {1_labelShort} will take the following items with {1_objective}: -->
-  <ConfirmBanishPawnDialog_Items>{1_labelShort} will take the following items with {1_objective}:</ConfirmBanishPawnDialog_Items>
+  <ConfirmBanishPawnDialog_Items>{1_labelShort} موارد زیر را با {1_objective} می گیرد:</ConfirmBanishPawnDialog_Items>
   <!-- EN: All colonists will get the following thoughts: -->
-  <ConfirmBanishPawnDialog_AllColonistsThoughts>All colonists will get the following thoughts:</ConfirmBanishPawnDialog_AllColonistsThoughts>
+  <ConfirmBanishPawnDialog_AllColonistsThoughts>همه استعمارگران افکار زیر را خواهند داشت:</ConfirmBanishPawnDialog_AllColonistsThoughts>
   <!-- EN: Banishing {1_labelShort} will cause the following people to get the following thoughts: -->
-  <ConfirmBanishPawnDialog_IndividualThoughts>Banishing {1_labelShort} will cause the following people to get the following thoughts:</ConfirmBanishPawnDialog_IndividualThoughts>
+  <ConfirmBanishPawnDialog_IndividualThoughts>حذف {1_labelShort} باعث ایجاد افکار زیر در افراد زیر می شود:</ConfirmBanishPawnDialog_IndividualThoughts>
 
   <!-- Send transport pods which are not completely loaded -->
   <!-- EN: The following still need to be loaded -->
@@ -1159,117 +1159,117 @@
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days. -->
-  <ConfirmSettleNearFactionBase>Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.</ConfirmSettleNearFactionBase>
+  <ConfirmSettleNearFactionBase>از آنجایی که این مکان در داخل کاشی‌های {0} از پایگاه گروه دیگری است، آنها احساس می‌کنند که شما در حال تجاوز به سرزمین آنها هستید و روابط با آن گروه‌ها هر روز {1} بدتر می‌شود.</ConfirmSettleNearFactionBase>
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
-  <ConfirmCleanupTranslationFiles>Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool.</ConfirmCleanupTranslationFiles>
+  <ConfirmCleanupTranslationFiles>آیا مطمئن هستید که می‌خواهید همه فایل‌های ترجمه را برای زبان {0} پاک کنید؟\n\nبا این کار:\n - نگه‌دارنده‌هایی برای ترجمه‌های کلیدی از دست رفته، ترجمه‌های تزریق‌شده و داستان‌های پس‌زمینه اضافه می‌شود\n - نظرات حاوی متن اصلی و ترجمه‌نشده اضافه یا به‌روزرسانی می‌شوند\n - همه ترجمه‌های کلیددار و تزریق‌شده به صورت مستقیم به همه فایل‌های XML با فرمت مناسب XML-up منتقل می‌شوند. نام‌های باز سازگار\n - تمام نظرات XML موجود را حذف کنید (به جز در تزریق‌های فهرست کامل)\n\nفایل‌های غیر XML حذف یا اصلاح نخواهند شد.\n\nبه یاد داشته باشید که بازی را پس از اصلاح فایل‌های زبان، قبل از اجرای این ابزار مجدداً راه‌اندازی کنید تا همه داده‌ها دوباره بارگیری شوند.\n\nحتماً قبل از استفاده از این ابزار، از همه فایل‌های ترجمه نسخه پشتیبان تهیه کنید.</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
-  <ConfirmCleanupTranslationFiles_Confirm>Yes, I have a backup</ConfirmCleanupTranslationFiles_Confirm>
+  <ConfirmCleanupTranslationFiles_Confirm>بله، من یک نسخه پشتیبان دارم</ConfirmCleanupTranslationFiles_Confirm>
 
   <!-- Load transporters -->
   <!-- EN: The caravan will be immobile if you launch to an empty tile. Continue anyway? -->
-  <TransportersCaravanWillBeImmobile>The caravan will be immobile if you launch to an empty tile. Continue anyway?</TransportersCaravanWillBeImmobile>
+  <TransportersCaravanWillBeImmobile>اگر به سمت کاشی خالی پرتاب شوید، کاروان بی حرکت خواهد بود. به هر حال ادامه دهید؟</TransportersCaravanWillBeImmobile>
 
   <!-- Confirm cancel monument marker -->
   <!-- EN: Do you really want to remove this monument marker? -->
-  <ConfirmCancelMonumentMarker>Do you really want to remove this monument marker?</ConfirmCancelMonumentMarker>
+  <ConfirmCancelMonumentMarker>آیا واقعاً می خواهید این نشانگر یادبود را بردارید؟</ConfirmCancelMonumentMarker>
 
   <!-- Abilities -->
   <!-- EN: Cannot use {0} -->
-  <CannotUseAbility>Cannot use {0}</CannotUseAbility>
+  <CannotUseAbility>نمی توان از {0} استفاده کرد</CannotUseAbility>
   <!-- EN: Line of sight required -->
-  <AbilityRequiresLOS>Line of sight required</AbilityRequiresLOS>
+  <AbilityRequiresLOS>خط دید مورد نیاز است</AbilityRequiresLOS>
   <!-- EN: Neural heat gain -->
-  <AbilityEntropyGain>Neural heat gain</AbilityEntropyGain>
+  <AbilityEntropyGain>افزایش حرارت عصبی</AbilityEntropyGain>
   <!-- EN: Psyfocus cost -->
-  <AbilityPsyfocusCost>Psyfocus cost</AbilityPsyfocusCost>
+  <AbilityPsyfocusCost>هزینه سایفوکوس</AbilityPsyfocusCost>
   <!-- EN: Effect duration -->
-  <AbilityDuration>Effect duration</AbilityDuration>
+  <AbilityDuration>مدت اثر</AbilityDuration>
   <!-- EN: Effect radius -->
-  <AbilityEffectRadius>Effect radius</AbilityEffectRadius>
+  <AbilityEffectRadius>شعاع اثر</AbilityEffectRadius>
   <!-- EN: Casting time -->
-  <AbilityCastingTime>Casting time</AbilityCastingTime>
+  <AbilityCastingTime>زمان بازیگری</AbilityCastingTime>
   <!-- EN: No line of sight to target. -->
-  <AbilityCannotHitTarget>No line of sight to target.</AbilityCannotHitTarget>
+  <AbilityCannotHitTarget>هیچ خط دیدی برای هدف گذاری وجود ندارد.</AbilityCannotHitTarget>
   <!-- EN: Target is out of range. -->
-  <AbilityOutOfRange>Target is out of range.</AbilityOutOfRange>
+  <AbilityOutOfRange>هدف خارج از محدوده است.</AbilityOutOfRange>
   <!-- EN: Can't reach the target. -->
-  <AbilityCannotReachTarget>Can't reach the target.</AbilityCannotReachTarget>
+  <AbilityCannotReachTarget>نمی توان به هدف رسید</AbilityCannotReachTarget>
   <!-- EN: Not enough free space. -->
-  <AbilityNotEnoughFreeSpace>Not enough free space.</AbilityNotEnoughFreeSpace>
+  <AbilityNotEnoughFreeSpace>فضای خالی کافی نیست</AbilityNotEnoughFreeSpace>
   <!-- EN: Must target an empty area. -->
-  <AbilityOccupiedCells>Must target an empty area.</AbilityOccupiedCells>
+  <AbilityOccupiedCells>باید یک منطقه خالی را هدف قرار دهد.</AbilityOccupiedCells>
   <!-- EN: Must target a walkable area. -->
-  <AbilityUnwalkable>Must target a walkable area.</AbilityUnwalkable>
+  <AbilityUnwalkable>باید منطقه قابل پیاده روی را هدف قرار دهید.</AbilityUnwalkable>
   <!-- EN: Must target an unroofed area. -->
-  <AbilityRoofed>Must target an unroofed area.</AbilityRoofed>
+  <AbilityRoofed>باید یک منطقه بدون سقف را هدف قرار دهد.</AbilityRoofed>
   <!-- EN: {0_labelShort} is mentally broken. -->
-  <AbilityCantApplyToMentallyBroken>{0_labelShort} is mentally broken.</AbilityCantApplyToMentallyBroken>
+  <AbilityCantApplyToMentallyBroken>{0_labelShort} از نظر ذهنی شکسته است.</AbilityCantApplyToMentallyBroken>
   <!-- EN: {0_labelShort} is not mentally broken. -->
-  <AbilityCanOnlyApplyToMentallyBroken>{0_labelShort} is not mentally broken.</AbilityCanOnlyApplyToMentallyBroken>
+  <AbilityCanOnlyApplyToMentallyBroken>{0_labelShort} از نظر ذهنی شکسته نیست.</AbilityCanOnlyApplyToMentallyBroken>
   <!-- EN: {0_labelShort} is not maddened. -->
-  <AbilityCanOnlyApplyToManhunter>{0_labelShort} is not maddened.</AbilityCanOnlyApplyToManhunter>
+  <AbilityCanOnlyApplyToManhunter>{0_labelShort} دیوانه نیست.</AbilityCanOnlyApplyToManhunter>
   <!-- EN: {0_labelShort} has scaria, which can only be treated medically. -->
-  <AbilityCantApplyToScaria>{0_labelShort} has scaria, which can only be treated medically.</AbilityCantApplyToScaria>
+  <AbilityCantApplyToScaria>{0_labelShort} اسکاریا دارد که فقط از نظر پزشکی قابل درمان است.</AbilityCantApplyToScaria>
   <!-- EN: {0} doesn't work on the '{1}' mental state. -->
-  <AbilityDoesntWorkOnMentalState>{0} doesn't work on the '{1}' mental state.</AbilityDoesntWorkOnMentalState>
+  <AbilityDoesntWorkOnMentalState>{0} روی حالت ذهنی "{1}" کار نمی کند.</AbilityDoesntWorkOnMentalState>
   <!-- EN: {0_labelShort} has zero resistance. -->
-  <AbilityCantApplyNoResistance>{0_labelShort} has zero resistance.</AbilityCantApplyNoResistance>
+  <AbilityCantApplyNoResistance>{0_labelShort} مقاومت صفر دارد.</AbilityCantApplyNoResistance>
   <!-- EN: {0_labelShort} is downed. -->
-  <AbilityCantApplyDowned>{0_labelShort} is downed.</AbilityCantApplyDowned>
+  <AbilityCantApplyDowned>{0_labelShort} از کار افتاده است.</AbilityCantApplyDowned>
   <!-- EN: Cannot use: {0} is asexual. -->
-  <AbilityCantApplyOnAsexual>Cannot use: {0} is asexual.</AbilityCantApplyOnAsexual>
+  <AbilityCantApplyOnAsexual>نمی توان استفاده کرد: {0} غیرجنسی است.</AbilityCantApplyOnAsexual>
   <!-- EN: {PAWN_labelShort} has no healable injuries. -->
   <AbilityCannotCastNoHealableInjury>{PAWN_labelShort} هیچ آسیب قابل درمانی ندارد.</AbilityCannotCastNoHealableInjury>
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
-  <AbilityCantApplyWrongAttractionGender>{1_labelShort} is the wrong gender for {0_labelShort}.</AbilityCantApplyWrongAttractionGender>
+  <AbilityCantApplyWrongAttractionGender>{1_labelShort} جنسیت اشتباهی برای {0_labelShort} است.</AbilityCantApplyWrongAttractionGender>
   <!-- EN: {0_labelShort} is too young. -->
-  <AbilityCantApplyTooYoung>{0_labelShort} is too young.</AbilityCantApplyTooYoung>
+  <AbilityCantApplyTooYoung>{0_labelShort} خیلی جوان است.</AbilityCantApplyTooYoung>
   <!-- EN: Cannot target a baby. -->
-  <AbilityCantApplyOnBaby>Cannot target a baby.</AbilityCantApplyOnBaby>
+  <AbilityCantApplyOnBaby>نمی توان یک نوزاد را هدف قرار داد.</AbilityCantApplyOnBaby>
   <!-- EN: Psyfocus cost per mental break intensity -->
-  <PsyfocusCostPerMentalBreakIntensity>Psyfocus cost per mental break intensity</PsyfocusCostPerMentalBreakIntensity>
+  <PsyfocusCostPerMentalBreakIntensity>هزینه تمرکز روانی به ازای هر شدت استراحت ذهنی</PsyfocusCostPerMentalBreakIntensity>
   <!-- EN: {0_labelShort} is already inspired. -->
-  <AbilityAlreadyInspired>{0_labelShort} is already inspired.</AbilityAlreadyInspired>
+  <AbilityAlreadyInspired>{0_labelShort} قبلاً الهام گرفته شده است.</AbilityAlreadyInspired>
   <!-- EN: {0_labelShort} can't get an inspiration right now. -->
-  <AbilityCantGetInspiredNow>{0_labelShort} can't get an inspiration right now.</AbilityCantGetInspiredNow>
+  <AbilityCantGetInspiredNow>{0_labelShort} در حال حاضر نمی تواند الهام بگیرد.</AbilityCantGetInspiredNow>
   <!-- EN: {0_labelShort} must be of a different ideoligion than {1_labelShort}. -->
-  <AbilityMustBeNotSameIdeo>{0_labelShort} must be of a different ideoligion than {1_labelShort}.</AbilityMustBeNotSameIdeo>
+  <AbilityMustBeNotSameIdeo>{0_labelShort} باید از ایدئولوژی متفاوتی نسبت به {1_labelShort} باشد.</AbilityMustBeNotSameIdeo>
   <!-- EN: {0_labelShort} must be of same ideoligion as {1_labelShort}. -->
-  <AbilityMustBeSameIdeo>{0_labelShort} must be of same ideoligion as {1_labelShort}.</AbilityMustBeSameIdeo>
+  <AbilityMustBeSameIdeo>{0_labelShort} باید از همان ایدئولوژی {1_labelShort} باشد.</AbilityMustBeSameIdeo>
   <!-- EN: {0_labelShort} must be sick or injured. -->
-  <AbilityMustBeSickOrInjured>{0_labelShort} must be sick or injured.</AbilityMustBeSickOrInjured>
+  <AbilityMustBeSickOrInjured>{0_labelShort} باید بیمار یا مجروح باشد.</AbilityMustBeSickOrInjured>
   <!-- EN: {0} can only counsel {1}s. -->
-  <AbilityMustBeSameIdeoCounsel>{0} can only counsel {1}s.</AbilityMustBeSameIdeoCounsel>
+  <AbilityMustBeSameIdeoCounsel>{0} فقط می تواند {1}‌ها را مشاوره دهد.</AbilityMustBeSameIdeoCounsel>
   <!-- EN: {0_labelShort} is already considered guilty. -->
-  <AbilityMustBeNotGuilty>{0_labelShort} is already considered guilty.</AbilityMustBeNotGuilty>
+  <AbilityMustBeNotGuilty>{0_labelShort} قبلاً مجرم شناخته می شود.</AbilityMustBeNotGuilty>
   <!-- EN: Must target a human. -->
-  <AbilityMustBeHuman>Must target a human.</AbilityMustBeHuman>
+  <AbilityMustBeHuman>باید یک انسان را هدف قرار دهد.</AbilityMustBeHuman>
   <!-- EN: Must target a non-wild human. -->
-  <AbilityMustBeHumanNonWild>Must target a non-wild human.</AbilityMustBeHumanNonWild>
+  <AbilityMustBeHumanNonWild>باید یک انسان غیر وحشی را هدف قرار دهد.</AbilityMustBeHumanNonWild>
   <!-- EN: Must target an animal. -->
-  <AbilityMustBeAnimal>Must target an animal.</AbilityMustBeAnimal>
+  <AbilityMustBeAnimal>باید یک حیوان را هدف قرار دهد.</AbilityMustBeAnimal>
   <!-- EN: {0_labelShort} is unconscious. -->
-  <AbilityCantApplyUnconscious>{0_labelShort} is unconscious.</AbilityCantApplyUnconscious>
+  <AbilityCantApplyUnconscious>{0_labelShort} بیهوش است.</AbilityCantApplyUnconscious>
   <!-- EN: {0_labelShort} is asleep. -->
-  <AbilityCantApplyAsleep>{0_labelShort} is asleep.</AbilityCantApplyAsleep>
+  <AbilityCantApplyAsleep>{0_labelShort} خواب است.</AbilityCantApplyAsleep>
   <!-- EN: This tile is impassable. -->
-  <AbilityWorldTileImpassable>This tile is impassable.</AbilityWorldTileImpassable>
+  <AbilityWorldTileImpassable>این کاشی صعب العبور است.</AbilityWorldTileImpassable>
   <!-- EN: Skip to random ally -->
-  <AbilitySkipToRandomAlly>Skip to random ally</AbilitySkipToRandomAlly>
+  <AbilitySkipToRandomAlly>پرش به متحد تصادفی</AbilitySkipToRandomAlly>
   <!-- EN: Skip to join caravan -->
-  <AbilitySkipToJoinCaravan>Skip to join caravan</AbilitySkipToJoinCaravan>
+  <AbilitySkipToJoinCaravan>برای پیوستن به کاروان پرش کنید</AbilitySkipToJoinCaravan>
   <!-- EN: Need ally at target for navigation -->
-  <AbilityNeedAllyToSkip>Need ally at target for navigation</AbilityNeedAllyToSkip>
+  <AbilityNeedAllyToSkip>برای ناوبری به متحد در هدف نیاز دارید</AbilityNeedAllyToSkip>
   <!-- EN: No chunks to skip. -->
-  <AbilityNoChunkToSkip>No chunks to skip.</AbilityNoChunkToSkip>
+  <AbilityNoChunkToSkip>هیچ تکه‌ای برای پرش وجود ندارد.</AbilityNoChunkToSkip>
   <!-- EN: Induce psychic love in -->
-  <PsychicLoveInduceIn>Induce psychic love in</PsychicLoveInduceIn>
+  <PsychicLoveInduceIn>القای عشق روانی در</PsychicLoveInduceIn>
   <!-- EN: Psychic love for -->
-  <PsychicLoveFor>Psychic love for</PsychicLoveFor>
+  <PsychicLoveFor>عشق روانی برای</PsychicLoveFor>
   <!-- EN: If you skip {PAWN_labelShort} to another map or a caravan, the associated quest will fail and {PAWN_pronoun} will leave immediately.\n\nDo you really want to farskip {PAWN_labelShort}? -->
-  <FarskipConfirmTeleportingLodger>If you skip {PAWN_labelShort} to another map or a caravan, the associated quest will fail and {PAWN_pronoun} will leave immediately.\n\nDo you really want to farskip {PAWN_labelShort}?</FarskipConfirmTeleportingLodger>
+  <FarskipConfirmTeleportingLodger>اگر {PAWN_labelShort} را به نقشه یا کاروان دیگری پرش کنید، تلاش مرتبط با شکست مواجه می‌شود و {PAWN_pronoun} فوراً آنجا را ترک می‌کند.\n\nآیا واقعاً می‌خواهید {PAWN_labelShort} را دور بزنید؟</FarskipConfirmTeleportingLodger>
   
   <!-- EN: minor -->
   <MentalBreakIntensityMinor>جزئی</MentalBreakIntensityMinor>

@@ -13,15 +13,15 @@
   <OrbitalTargeterBombardment.verbs.Verb_Bombardment.label>هدف‌گیر بمباران مداری</OrbitalTargeterBombardment.verbs.Verb_Bombardment.label>
   
   <!-- EN: orbital power beam targeter -->
-  <OrbitalTargeterPowerBeam.label>orbital power beam targeter</OrbitalTargeterPowerBeam.label>
+  <OrbitalTargeterPowerBeam.label>هدف‌گیر پرتو برق مداری</OrbitalTargeterPowerBeam.label>
   <!-- EN: An ancient targeting unit for a network of power-collection satellites. Once aimed at a target, it directs ancient satellites to begin beaming power down in a massive column of electromagnetic energy. This power can safely be collected in a giant absorption dish. Since you have no absorption dish, you'll be aiming it at enemies, at which point the power column will turn the area into a thousand-degree inferno. This will last until the satellites detect the unsafe targeting, shut themselves down, and permanently deactivate the targeter. -->
-  <OrbitalTargeterPowerBeam.description>An ancient targeting unit for a network of power-collection satellites. Once aimed at a target, it directs ancient satellites to begin beaming power down in a massive column of electromagnetic energy. This power can safely be collected in a giant absorption dish. Since you have no absorption dish, you'll be aiming it at enemies, at which point the power column will turn the area into a thousand-degree inferno. This will last until the satellites detect the unsafe targeting, shut themselves down, and permanently deactivate the targeter.</OrbitalTargeterPowerBeam.description>
+  <OrbitalTargeterPowerBeam.description>یک واحد هدف گیری قدیمی برای شبکه‌ای از ماهواره های جمع آوری نیرو. هنگامی که هدفی را هدف قرار می دهد، ماهواره های باستانی را هدایت می کند تا در ستون عظیمی از انرژی الکترومغناطیسی، پرتوهای قدرت را شروع کنند. این قدرت را می توان با خیال راحت در یک ظرف جذب غول پیکر جمع آوری کرد. از آنجایی که هیچ ظرف جذبی ندارید، آن را به سمت دشمنان هدف قرار خواهید داد، در این مرحله ستون قدرت منطقه را به یک جهنم هزار درجه تبدیل می کند. این تا زمانی ادامه خواهد داشت که ماهواره‌ها هدف گیری ناامن را شناسایی کنند، خود را خاموش کنند و هدف را برای همیشه غیرفعال کنند.</OrbitalTargeterPowerBeam.description>
   <!-- EN: charge -->
-  <OrbitalTargeterPowerBeam.comps.CompApparelReloadable.chargeNoun>charge</OrbitalTargeterPowerBeam.comps.CompApparelReloadable.chargeNoun>
+  <OrbitalTargeterPowerBeam.comps.CompApparelReloadable.chargeNoun>شارژ</OrbitalTargeterPowerBeam.comps.CompApparelReloadable.chargeNoun>
   <!-- EN: on cooldown -->
-  <OrbitalTargeterPowerBeam.comps.CompApparelReloadable.cooldownGerund>on cooldown</OrbitalTargeterPowerBeam.comps.CompApparelReloadable.cooldownGerund>
+  <OrbitalTargeterPowerBeam.comps.CompApparelReloadable.cooldownGerund>در خنک شدن</OrbitalTargeterPowerBeam.comps.CompApparelReloadable.cooldownGerund>
   <!-- EN: orbital power beam targeter -->
-  <OrbitalTargeterPowerBeam.verbs.Verb_PowerBeam.label>orbital power beam targeter</OrbitalTargeterPowerBeam.verbs.Verb_PowerBeam.label>
+  <OrbitalTargeterPowerBeam.verbs.Verb_PowerBeam.label>هدف‌گیر پرتو برق مداری</OrbitalTargeterPowerBeam.verbs.Verb_PowerBeam.label>
   
   <!-- EN: tornado generator -->
   <TornadoGenerator.label>تولیدکننده گردباد</TornadoGenerator.label>

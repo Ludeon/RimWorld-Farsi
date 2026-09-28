@@ -2,28 +2,28 @@
 <LanguageData>
   
   <!-- EN: haul -->
-  <Haul.label>haul</Haul.label>
+  <Haul.label>حمل و نقل</Haul.label>
   <!-- EN: The animal will randomly haul items from time to time (though it can't be directed to haul specific items). -->
-  <Haul.description>The animal will randomly haul items from time to time (though it can't be directed to haul specific items).</Haul.description>
+  <Haul.description>حیوان گاهی اوقات به‌طور تصادفی اقلام را حمل می‌کند (اگرچه نمی‌توان آن را به سمت حمل اقلام خاص هدایت کرد).</Haul.description>
   
   <!-- EN: guard -->
-  <Obedience.label>guard</Obedience.label>
+  <Obedience.label>نگهبان</Obedience.label>
   <!-- EN: The animal can be assigned a master whom it will follow and defend. -->
-  <Obedience.description>The animal can be assigned a master whom it will follow and defend.</Obedience.description>
+  <Obedience.description>می توان به حیوان استادی اختصاص داد که از او پیروی کرده و از او دفاع کند.</Obedience.description>
   
   <!-- EN: attack -->
-  <Release.label>attack</Release.label>
+  <Release.label>حمله کنند</Release.label>
   <!-- EN: The animal can be released to attack distant targets instead of just guarding its master. -->
-  <Release.description>The animal can be released to attack distant targets instead of just guarding its master.</Release.description>
+  <Release.description>این حیوان می تواند به جای اینکه فقط از ارباب خود محافظت کند، برای حمله به اهداف دور رها شود.</Release.description>
   
   <!-- EN: rescue -->
-  <Rescue.label>rescue</Rescue.label>
+  <Rescue.label>نجات</Rescue.label>
   <!-- EN: The animal will rescue wounded allies and drag them to safety. -->
-  <Rescue.description>The animal will rescue wounded allies and drag them to safety.</Rescue.description>
+  <Rescue.description>این حیوان متحدان مجروح را نجات می دهد و آنها را به مکان امن می کشاند.</Rescue.description>
   
   <!-- EN: tameness -->
-  <Tameness.label>tameness</Tameness.label>
+  <Tameness.label>رام بودن</Tameness.label>
   <!-- EN: The animal can learn to consider itself a member of your colony. -->
-  <Tameness.description>The animal can learn to consider itself a member of your colony.</Tameness.description>
+  <Tameness.description>حیوان می تواند یاد بگیرد که خود را عضوی از کلنی شما بداند.</Tameness.description>
   
 </LanguageData>
