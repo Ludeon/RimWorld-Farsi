@@ -109,9 +109,9 @@
   <!-- EN: blocked by substructure -->
   <BlockedBySubstructure>توسط زیرسازی مسدود شده است</BlockedBySubstructure>
   <!-- EN: {PAWN_nameDef} cannot board {1} -->
-  <FailedToBoardGravship>{PAWN_nameDef} نمی تواند {1} را سوار شود</FailedToBoardGravship>
+  <FailedToBoardGravship>{PAWN_nameDef} نمی‌تواند {1} را سوار شود</FailedToBoardGravship>
   <!-- EN: {PAWN_nameDef} cannot exit {1} -->
-  <FailedToLeaveGravship>{PAWN_nameDef} نمی تواند از {1} خارج شود</FailedToLeaveGravship>
+  <FailedToLeaveGravship>{PAWN_nameDef} نمی‌تواند از {1} خارج شود</FailedToLeaveGravship>
   <!-- EN: View range -->
   <ViewRange>مشاهده محدوده</ViewRange>
   <!-- EN: View the gravship’s current range on the world map. -->
@@ -127,7 +127,7 @@
   <!-- EN: {0} -->
   <WildPlants>{0}</WildPlants>
   <!-- EN: {MINERAL_label} rich -->
-  <MineralRich>غني از {MINERAL_label}</MineralRich>
+  <MineralRich>غنی از {MINERAL_label}</MineralRich>
   <!-- EN: This area has more {MINERAL_label} deposits than normal. -->
   <MineralRichDescription>این منطقه ذخایر {MINERAL_label} بیشتری نسبت به معمول دارد.</MineralRichDescription>
 
@@ -137,7 +137,7 @@
   <!-- EN: The gravcore energy signature is coming from a nearby cave network. The entrance is guarded by insect hives.\n\nExplore the cave network to find the gravcore. -->
   <CaveEntranceLetterText>امضای انرژی gravcore از یک شبکه غار نزدیک می‌آید. ورودی توسط کندوهای حشرات محافظت می‌شود.\n\nشبکه غار را کاوش کنید تا gravcore را پیدا کنید.</CaveEntranceLetterText>
   <!-- EN: Insect ambush -->
-  <InsectAmbushLetter>کمين حشرات</InsectAmbushLetter>
+  <InsectAmbushLetter>کمین حشرات</InsectAmbushLetter>
   <!-- EN: Insects are tunneling up from underneath the ground. Be prepared! -->
   <InsectAmbushLetterText>حشرات از زیر زمین تونل می‌کنند. آماده باشید!</InsectAmbushLetterText>
   <!-- EN: Muffled chittering -->

@@ -4,7 +4,7 @@
   <!-- EN: ageless -->
   <Ageless.label>بی سن</Ageless.label>
   <!-- EN: Carriers of this gene have archites in the bloodstream which continuously reverse the process of aging. Starting at the age of 13, carriers begin to biologically age slower. By 18, the aging process stops completely. -->
-  <Ageless.description>حاملان این ژن دارای آرشیت هایی در جریان خون هستند که به طور مداوم روند پیری را معکوس می کند. از سن 13 سالگی، ناقلین از نظر بیولوژیکی کندتر پیر می شوند. تا 18 سالگی، روند پیری به طور کامل متوقف می شود.</Ageless.description>
+  <Ageless.description>حاملان این ژن دارای آرشیت هایی در جریان خون هستند که به طور مداوم روند پیری را معکوس می‌کند. از سن 13 سالگی، ناقلین از نظر بیولوژیکی کندتر پیر می‌شوند. تا 18 سالگی، روند پیری به طور کامل متوقف می‌شود.</Ageless.description>
   <!-- EN: god -->
   <Ageless.symbolPack.prefixSymbols.0.symbol>خدا</Ageless.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: deo -->
@@ -25,16 +25,16 @@
   <!-- EN: archite metabolism -->
   <ArchiteMetabolism.label>متابولیسم آرشیت</ArchiteMetabolism.label>
   <!-- EN: Carriers of this gene have special archites in their cells that facilitate and optimize metabolism. This improves overall genetic and metabolic quality. -->
-  <ArchiteMetabolism.description>حاملان این ژن دارای آرشیت های خاصی در سلول های خود هستند که متابولیسم را تسهیل و بهینه می کند. این باعث بهبود کیفیت کلی ژنتیک و متابولیک می شود.</ArchiteMetabolism.description>
+  <ArchiteMetabolism.description>حاملان این ژن دارای آرشیت های خاصی در سلول های خود هستند که متابولیسم را تسهیل و بهینه می‌کند. این باعث بهبود کیفیت کلی ژنتیک و متابولیک می‌شود.</ArchiteMetabolism.description>
   <!-- EN: archite-metabolic -->
   <ArchiteMetabolism.labelShortAdj>آرشیت متابولیک</ArchiteMetabolism.labelShortAdj>
   
   <!-- EN: deathless -->
   <Deathless.label>بی مرگ</Deathless.label>
   <!-- EN: Carriers of this gene have archites in the blood which will sustain their life processes no matter what. As long as the brain remains intact, a carrier of this gene will never die. -->
-  <Deathless.description>حاملان این ژن دارای آرشیت هایی در خون هستند که بدون توجه به هر اتفاقی روند زندگی آنها را حفظ می کند. تا زمانی که مغز دست نخورده باقی بماند، حامل این ژن هرگز نخواهد مرد.</Deathless.description>
+  <Deathless.description>حاملان این ژن دارای آرشیت هایی در خون هستند که بدون توجه به هر اتفاقی روند زندگی آنها را حفظ می‌کند. تا زمانی که مغز دست نخورده باقی بماند، حامل این ژن هرگز نخواهد مرد.</Deathless.description>
   <!-- EN: Can only die from destruction of brain. -->
-  <Deathless.customEffectDescriptions.0>فقط می تواند از نابودی مغز بمیرد.</Deathless.customEffectDescriptions.0>
+  <Deathless.customEffectDescriptions.0>فقط می‌تواند از نابودی مغز بمیرد.</Deathless.customEffectDescriptions.0>
   <!-- EN: god -->
   <Deathless.symbolPack.prefixSymbols.0.symbol>خدا</Deathless.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: deo -->
@@ -51,7 +51,7 @@
   <!-- EN: deathrest -->
   <Deathrest.label>مرگ</Deathrest.label>
   <!-- EN: Carriers of this gene must periodically regenerate themselves in a special coma called deathrest. Deathrest takes days, but can confer substantial bonuses. Deathrest can be accelerated and its effects enhanced by the use of a variety of special buildings and technologies.\n\nThose who put off deathresting will suffer from deathrest exhaustion. -->
-  <Deathrest.description>حاملان این ژن باید به طور دوره‌ای خود را در یک کمای خاص به نام مرگ و میر بازسازی کنند. Deathrest روزها طول می کشد، اما می تواند پاداش های قابل توجهی را به همراه داشته باشد. با استفاده از انواع ساختمان‌ها و فناوری‌های خاص می‌توان مرگ را تسریع کرد و تأثیرات آن را افزایش داد.\n\nکسانی که استراحت مرگ را به تعویق می‌اندازند از خستگی ناشی از مرگ رنج می‌برند.</Deathrest.description>
+  <Deathrest.description>حاملان این ژن باید به طور دوره‌ای خود را در یک کمای خاص به نام مرگ و میر بازسازی کنند. Deathrest روزها طول می‌کشد، اما می‌تواند پاداش های قابل توجهی را به همراه داشته باشد. با استفاده از انواع ساختمان‌ها و فناوری‌های خاص می‌توان مرگ را تسریع کرد و تأثیرات آن را افزایش داد.\n\nکسانی که استراحت مرگ را به تعویق می‌اندازند از خستگی ناشی از مرگ رنج می‌برند.</Deathrest.description>
   <!-- EN: death -->
   <Deathrest.symbolPack.prefixSymbols.0.symbol>مرگ</Deathrest.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: dead -->
@@ -64,7 +64,7 @@
   <!-- EN: non-senescent -->
   <DiseaseFree.label>غیر پیر</DiseaseFree.label>
   <!-- EN: Carriers of this gene do not go through senescence in the normal way. They never get chronic age-related diseases like cancer, bad back, cataracts, or dementia. -->
-  <DiseaseFree.description>حاملان این ژن به روش طبیعی پیری را طی نمی کنند. آنها هرگز به بیماری های مزمن مرتبط با افزایش سن مانند سرطان، کمر بد، آب مروارید یا زوال عقل مبتلا نمی شوند.</DiseaseFree.description>
+  <DiseaseFree.description>حاملان این ژن به روش طبیعی پیری را طی نمی‌کنند. آنها هرگز به بیماری های مزمن مرتبط با افزایش سن مانند سرطان، کمر بد، آب مروارید یا زوال عقل مبتلا نمی‌شوند.</DiseaseFree.description>
   
   <!-- EN: pyrophobia -->
   <FireTerror.label>پیروفوبیا</FireTerror.label>
@@ -78,7 +78,7 @@
   <!-- EN: tinderskin -->
   <FireWeakness.label>پوست تیندر</FireWeakness.label>
   <!-- EN: Carriers have dry, thin skin which burns easily from fire, and their immune systems react very poorly to this kind of threat. Damage from fire is multiplied by 4. -->
-  <FireWeakness.description>ناقلین پوست خشک و نازکی دارند که به راحتی در اثر آتش سوزی می شود و سیستم ایمنی آنها به این نوع تهدید واکنش بسیار ضعیفی نشان می دهد. خسارت ناشی از آتش سوزی در 4 ضرب می شود.</FireWeakness.description>
+  <FireWeakness.description>ناقلین پوست خشک و نازکی دارند که به راحتی در اثر آتش سوزی می‌شود و سیستم ایمنی آنها به این نوع تهدید واکنش بسیار ضعیفی نشان می‌دهد. خسارت ناشی از آتش سوزی در 4 ضرب می‌شود.</FireWeakness.description>
   <!-- EN: tinderskin -->
   <FireWeakness.labelShortAdj>پوست تیندر</FireWeakness.labelShortAdj>
   <!-- EN: dry -->
@@ -91,7 +91,7 @@
   <!-- EN: hemogen drain -->
   <HemogenDrain.label>تخلیه هموژن</HemogenDrain.label>
   <!-- EN: Carriers lose an additional 8 hemogen per day from biological entropy. -->
-  <HemogenDrain.description>ناقلین 8 هموژن اضافی در روز از آنتروپی بیولوژیکی از دست می دهند.</HemogenDrain.description>
+  <HemogenDrain.description>ناقلین 8 هموژن اضافی در روز از آنتروپی بیولوژیکی از دست می‌دهند.</HemogenDrain.description>
   <!-- EN: draining -->
   <HemogenDrain.labelShortAdj>تخلیه</HemogenDrain.labelShortAdj>
   <!-- EN: hemogen -->
@@ -100,9 +100,9 @@
   <!-- EN: hemogenic -->
   <Hemogenic.label>هموژنیک</Hemogenic.label>
   <!-- EN: Carriers of this gene have a reserve of biological strength powered by a resource called hemogen. The resource can be gained and spent in various ways, all of which are unlocked by other genes.\n\nCarriers lose 2 hemogen per day from biological entropy. -->
-  <Hemogenic.description>حاملان این ژن دارای ذخیره‌ای از قدرت بیولوژیکی هستند که توسط منبعی به نام هموژن تامین می شود. این منبع را می توان به روش های مختلفی به دست آورد و خرج کرد، که همگی توسط ژن های دیگر باز می شوند.\n\nناقلان 2 هموژن در روز را از آنتروپی بیولوژیکی از دست می دهند.</Hemogenic.description>
+  <Hemogenic.description>حاملان این ژن دارای ذخیره‌ای از قدرت بیولوژیکی هستند که توسط منبعی به نام هموژن تامین می‌شود. این منبع را می‌توان به روش های مختلفی به دست آورد و خرج کرد، که همگی توسط ژن های دیگر باز می‌شوند.\n\nناقلان 2 هموژن در روز را از آنتروپی بیولوژیکی از دست می‌دهند.</Hemogenic.description>
   <!-- EN: Gives hemogen supply. -->
-  <Hemogenic.customEffectDescriptions.0>تامین هموژن می دهد.</Hemogenic.customEffectDescriptions.0>
+  <Hemogenic.customEffectDescriptions.0>تامین هموژن می‌دهد.</Hemogenic.customEffectDescriptions.0>
   <!-- EN: A reserve of biological strength which can be gained and spent in a variety of ways.\n\nHemogen can be increased by bloodfeeding from a human or consuming hemogen packs. You can obtain hemogen packs using the 'extract hemogen pack' medical operation on a non-hemogenic human.\n\nIf hemogen reaches zero, {PAWN_nameDef} will become very unhappy. -->
   <Hemogenic.resourceDescription>ذخیره‌ای از قدرت بیولوژیکی که می‌توان آن را به روش‌های مختلف به دست آورد و خرج کرد.\n\nهموژن را می‌توان با تغذیه خون از انسان یا مصرف بسته‌های هموژن افزایش داد. می‌توانید بسته‌های هموژن را با استفاده از عمل پزشکی «بسته هموژن عصاره» روی یک انسان غیرهموژنیک دریافت کنید.\n\nاگر هموژن به صفر برسد، {PAWN_nameDef} بسیار ناراضی خواهد شد.</Hemogenic.resourceDescription>
   <!-- EN: hemogen -->
@@ -113,16 +113,16 @@
   <!-- EN: perfect immunity -->
   <PerfectImmunity.label>ایمنی کامل</PerfectImmunity.label>
   <!-- EN: Carriers of this gene have archite-enhanced immune systems which intelligently destroy invaders. They are totally immune to most normal illnesses. -->
-  <PerfectImmunity.description>حاملان این ژن سیستم ایمنی تقویت شده‌ای دارند که به طور هوشمند مهاجمان را نابود می کند. آنها کاملاً در برابر بیشتر بیماری های عادی مصون هستند.</PerfectImmunity.description>
+  <PerfectImmunity.description>حاملان این ژن سیستم ایمنی تقویت شده‌ای دارند که به طور هوشمند مهاجمان را نابود می‌کند. آنها کاملاً در برابر بیشتر بیماری های عادی مصون هستند.</PerfectImmunity.description>
   <!-- EN: perfect-immune -->
   <PerfectImmunity.labelShortAdj>کامل-ایمنی</PerfectImmunity.labelShortAdj>
   
   <!-- EN: scarless -->
   <TotalHealing.label>بدون زخم</TotalHealing.label>
   <!-- EN: Carriers of this gene have a special type of regenerator cell which can heal old wounds and chronic illnesses like bad back. -->
-  <TotalHealing.description>حاملان این ژن نوع خاصی از سلول های بازسازی کننده دارند که می تواند زخم های قدیمی و بیماری های مزمن مانند بد کمر را التیام بخشد.</TotalHealing.description>
+  <TotalHealing.description>حاملان این ژن نوع خاصی از سلول های بازسازی کننده دارند که می‌تواند زخم های قدیمی و بیماری های مزمن مانند بد کمر را التیام بخشد.</TotalHealing.description>
   <!-- EN: Every (*DateTime)15-30 days(/DateTime), one old wound or chronic illness is healed. -->
-  <TotalHealing.customEffectDescriptions.0>هر (*DateTime)15-30 روز (/DateTime)، یک زخم قدیمی یا بیماری مزمن التیام می یابد.</TotalHealing.customEffectDescriptions.0>
+  <TotalHealing.customEffectDescriptions.0>هر (*DateTime)15-30 روز (/DateTime)، یک زخم قدیمی یا بیماری مزمن التیام می‌یابد.</TotalHealing.customEffectDescriptions.0>
   <!-- EN: scarless -->
   <TotalHealing.labelShortAdj>بدون زخم</TotalHealing.labelShortAdj>
   

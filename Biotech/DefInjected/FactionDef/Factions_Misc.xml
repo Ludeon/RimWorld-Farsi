@@ -4,11 +4,11 @@
   <!-- EN: rough pig union -->
   <OutlanderRoughPig.label>اتحادیه خوک خشن</OutlanderRoughPig.label>
   <!-- EN: A loose union of hardy pigskin townships. They're willing to make friends, even with thinsnouts, but they're also ready to toss a bomb and gnaw human gristle when it suits them. Treat them with respect and they'll offer a trotter to an ally in need. Turn against them and the last thing you hear might be a triumphant battle squeal. -->
-  <OutlanderRoughPig.description>یک اتحادیه آزاد از شهرستان های پوست خوک مقاوم. آن‌ها حاضرند با هم دوست شوند، حتی با نازک‌هایشان، اما در عین حال آماده‌اند که بمبی پرتاب کنند و وقتی صلاحشان است شن‌های انسان را بجوند. با آنها با احترام رفتار کنید و آنها به متحدی که نیاز دارد، یک ران گردان تقدیم می کنند. در مقابل آنها بچرخید و آخرین چیزی که می شنوید ممکن است یک نبرد پیروزمندانه باشد.</OutlanderRoughPig.description>
+  <OutlanderRoughPig.description>یک اتحادیه آزاد از شهرستان های پوست خوک مقاوم. آن‌ها حاضرند با هم دوست شوند، حتی با نازک‌هایشان، اما در عین حال آماده‌اند که بمبی پرتاب کنند و وقتی صلاحشان است شن‌های انسان را بجوند. با آنها با احترام رفتار کنید و آنها به متحدی که نیاز دارد، یک ران گردان تقدیم می‌کنند. در مقابل آنها بچرخید و آخرین چیزی که می‌شنوید ممکن است یک نبرد پیروزمندانه باشد.</OutlanderRoughPig.description>
   <!-- EN: prime councilor -->
   <OutlanderRoughPig.leaderTitle>نخست وزیر</OutlanderRoughPig.leaderTitle>
   <!-- EN: {0} from {1} are attacking your {2}. -->
-  <OutlanderRoughPig.messageDefendersAttacking>{0} از {1} به {2} شما حمله می کند.</OutlanderRoughPig.messageDefendersAttacking>
+  <OutlanderRoughPig.messageDefendersAttacking>{0} از {1} به {2} شما حمله می‌کند.</OutlanderRoughPig.messageDefendersAttacking>
   <!-- EN: pigskin -->
   <OutlanderRoughPig.pawnSingular>پوست خوک</OutlanderRoughPig.pawnSingular>
   <!-- EN: pigskins -->
@@ -17,11 +17,11 @@
   <!-- EN: waster pirates -->
   <PirateWaster.label>دزدان دریایی ضایع کننده</PirateWaster.label>
   <!-- EN: A loose collection of violent pirate bands made up primarily of wasters - xenohumans engineered to thrive around toxins and pollution. They have little interest in building, or farming, preferring to take their sustenance from others using violence.\n\nTheir technology level depends mostly on who they've managed to steal from recently. Mostly they carry gunpowder weapons, though some prefer to stab victims at close range. -->
-  <PirateWaster.description>مجموعه‌ای آزاد از گروه‌های دزدان دریایی خشن که عمدتاً از اتلاف‌کنندگان تشکیل شده‌اند - انسان‌های خارجی که برای رشد در اطراف سموم و آلودگی طراحی شده‌اند. آنها علاقه چندانی به ساخت و ساز یا کشاورزی ندارند و ترجیح می دهند با استفاده از خشونت، معاش خود را از دیگران بگیرند.\n\nسطح فناوری آنها بیشتر به این بستگی دارد که اخیراً توانسته اند از چه کسی بدزدند. آنها عمدتاً سلاح های باروتی حمل می کنند، اگرچه برخی ترجیح می دهند قربانیان را از فاصله نزدیک بزنند.</PirateWaster.description>
+  <PirateWaster.description>مجموعه‌ای آزاد از گروه‌های دزدان دریایی خشن که عمدتاً از اتلاف‌کنندگان تشکیل شده‌اند - انسان‌های خارجی که برای رشد در اطراف سموم و آلودگی طراحی شده‌اند. آنها علاقه چندانی به ساخت و ساز یا کشاورزی ندارند و ترجیح می‌دهند با استفاده از خشونت، معاش خود را از دیگران بگیرند.\n\nسطح فناوری آنها بیشتر به این بستگی دارد که اخیراً توانسته اند از چه کسی بدزدند. آنها عمدتاً سلاح های باروتی حمل می‌کنند، اگرچه برخی ترجیح می‌دهند قربانیان را از فاصله نزدیک بزنند.</PirateWaster.description>
   <!-- EN: boss -->
   <PirateWaster.leaderTitle>رئیس</PirateWaster.leaderTitle>
   <!-- EN: {0} from {1} are attacking your {2}. -->
-  <PirateWaster.messageDefendersAttacking>{0} از {1} به {2} شما حمله می کند.</PirateWaster.messageDefendersAttacking>
+  <PirateWaster.messageDefendersAttacking>{0} از {1} به {2} شما حمله می‌کند.</PirateWaster.messageDefendersAttacking>
   <!-- EN: waster -->
   <PirateWaster.pawnSingular>ضایع کننده</PirateWaster.pawnSingular>
   <!-- EN: wasters -->
@@ -34,7 +34,7 @@
   <!-- EN: boss -->
   <PirateYttakin.leaderTitle>رئیس</PirateYttakin.leaderTitle>
   <!-- EN: {0} from {1} are attacking your {2}. -->
-  <PirateYttakin.messageDefendersAttacking>{0} از {1} به {2} شما حمله می کند.</PirateYttakin.messageDefendersAttacking>
+  <PirateYttakin.messageDefendersAttacking>{0} از {1} به {2} شما حمله می‌کند.</PirateYttakin.messageDefendersAttacking>
   <!-- EN: yttakin -->
   <PirateYttakin.pawnSingular>یتاکین</PirateYttakin.pawnSingular>
   <!-- EN: yttakin -->
@@ -47,7 +47,7 @@
   <!-- EN: leader -->
   <Sanguophages.leaderTitle>رهبر</Sanguophages.leaderTitle>
   <!-- EN: {0} from {1} are attacking your {2}. -->
-  <Sanguophages.messageDefendersAttacking>{0} از {1} به {2} شما حمله می کند.</Sanguophages.messageDefendersAttacking>
+  <Sanguophages.messageDefendersAttacking>{0} از {1} به {2} شما حمله می‌کند.</Sanguophages.messageDefendersAttacking>
   <!-- EN: sanguophage -->
   <Sanguophages.pawnSingular>سانگووفاژ</Sanguophages.pawnSingular>
   <!-- EN: sanguophages -->
@@ -60,7 +60,7 @@
   <!-- EN: chief -->
   <TribeRoughNeanderthal.leaderTitle>رئیس</TribeRoughNeanderthal.leaderTitle>
   <!-- EN: {0} from {1} are attacking your {2}. -->
-  <TribeRoughNeanderthal.messageDefendersAttacking>{0} از {1} به {2} شما حمله می کند.</TribeRoughNeanderthal.messageDefendersAttacking>
+  <TribeRoughNeanderthal.messageDefendersAttacking>{0} از {1} به {2} شما حمله می‌کند.</TribeRoughNeanderthal.messageDefendersAttacking>
   <!-- EN: neanderthal -->
   <TribeRoughNeanderthal.pawnSingular>نئاندرتال</TribeRoughNeanderthal.pawnSingular>
   <!-- EN: neanderthals -->
@@ -73,7 +73,7 @@
   <!-- EN: chief -->
   <TribeSavageImpid.leaderTitle>رئیس</TribeSavageImpid.leaderTitle>
   <!-- EN: {0} from {1} are attacking your {2}. -->
-  <TribeSavageImpid.messageDefendersAttacking>{0} از {1} به {2} شما حمله می کند.</TribeSavageImpid.messageDefendersAttacking>
+  <TribeSavageImpid.messageDefendersAttacking>{0} از {1} به {2} شما حمله می‌کند.</TribeSavageImpid.messageDefendersAttacking>
   <!-- EN: imp -->
   <TribeSavageImpid.pawnSingular>بد</TribeSavageImpid.pawnSingular>
   <!-- EN: imps -->

@@ -22,7 +22,7 @@
   <!-- EN: colonist executed -->
   <KnowColonistExecuted.stages.colonist_executed.label>استعمارگر اعدام شد</KnowColonistExecuted.stages.colonist_executed.label>
   <!-- EN: A colonist was killed in cold blood. It seemed a bit evil. -->
-  <KnowColonistExecuted.stages.colonist_executed.description>یک استعمارگر با خونسردی کشته شد. کمی بد به نظر می رسید.</KnowColonistExecuted.stages.colonist_executed.description>
+  <KnowColonistExecuted.stages.colonist_executed.description>یک استعمارگر با خونسردی کشته شد. کمی بد به نظر می‌رسید.</KnowColonistExecuted.stages.colonist_executed.description>
   <!-- EN: colonist organ-harvested -->
   <KnowColonistExecuted.stages.colonist_organharvested.label>استعمارگر برداشت اعضای بدن</KnowColonistExecuted.stages.colonist_organharvested.label>
   <!-- EN: A colonist died because someone took body parts from them. It's horrible. -->
@@ -43,7 +43,7 @@
   <!-- EN: someone was executed -->
   <KnowGuestExecuted.stages.someone_was_executed.label>یک نفر اعدام شد</KnowGuestExecuted.stages.someone_was_executed.label>
   <!-- EN: A prisoner or guest was killed in cold blood. It seemed a bit evil. -->
-  <KnowGuestExecuted.stages.someone_was_executed.description>یک زندانی یا مهمان با خونسردی کشته شد. کمی بد به نظر می رسید.</KnowGuestExecuted.stages.someone_was_executed.description>
+  <KnowGuestExecuted.stages.someone_was_executed.description>یک زندانی یا مهمان با خونسردی کشته شد. کمی بد به نظر می‌رسید.</KnowGuestExecuted.stages.someone_was_executed.description>
   <!-- EN: someone was organ-murdered -->
   <KnowGuestExecuted.stages.someone_was_organmurdered.label>یک نفر با اعضای بدن به قتل رسید</KnowGuestExecuted.stages.someone_was_organmurdered.label>
   <!-- EN: A prisoner or guest died because the colony took body parts from them. It's horrible. -->
@@ -161,11 +161,11 @@
   <!-- EN: my rival {0} died -->
   <PawnWithBadOpinionDied.stages.my_rival_died.label>رقیب من {0} مرد</PawnWithBadOpinionDied.stages.my_rival_died.label>
   <!-- EN: Serves them right. At least there's some justice in this world. -->
-  <PawnWithBadOpinionDied.stages.my_rival_died.description>درست به آنها خدمت می کند. حداقل در این دنیا عدالت وجود دارد.</PawnWithBadOpinionDied.stages.my_rival_died.description>
+  <PawnWithBadOpinionDied.stages.my_rival_died.description>درست به آنها خدمت می‌کند. حداقل در این دنیا عدالت وجود دارد.</PawnWithBadOpinionDied.stages.my_rival_died.description>
   
   <!-- EN: my friend {0} died -->
   <PawnWithGoodOpinionDied.stages.my_friend_died.label>دوست من {0} مرد</PawnWithGoodOpinionDied.stages.my_friend_died.label>
   <!-- EN: Such a wonderful person, gone forever. The universe gets darker every day. -->
-  <PawnWithGoodOpinionDied.stages.my_friend_died.description>چنین شخص فوق العاده‌ای، برای همیشه رفته است. جهان هر روز تاریک‌تر می شود.</PawnWithGoodOpinionDied.stages.my_friend_died.description>
+  <PawnWithGoodOpinionDied.stages.my_friend_died.description>چنین شخص فوق العاده‌ای، برای همیشه رفته است. جهان هر روز تاریک‌تر می‌شود.</PawnWithGoodOpinionDied.stages.my_friend_died.description>
   
 </LanguageData>

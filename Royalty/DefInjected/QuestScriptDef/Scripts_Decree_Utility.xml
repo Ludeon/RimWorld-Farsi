@@ -7,7 +7,7 @@
   -->
   <DecreeSetup.questDescriptionRules.rulesStrings>
     <li>decreeIntro->[asker_nameDef]، [asker_bestRoyalTitle] شما، حکم سلطنتی صادر کرده است.</li>
-    <li>decreeThreatInfo->اگر در طی روزهای [decreeDays] موفق به اجرای این حکم نشدید، [asker_nameDef] شروع به ناراضی شدن خواهد کرد. خشم [asker_possessive] به مرور زمان افزایش می یابد تا این که فرمان راضی شود.</li>
+    <li>decreeThreatInfo->اگر در طی روزهای [decreeDays] موفق به اجرای این حکم نشدید، [asker_nameDef] شروع به ناراضی شدن خواهد کرد. خشم [asker_possessive] به مرور زمان افزایش می‌یابد تا این که فرمان راضی شود.</li>
   </DecreeSetup.questDescriptionRules.rulesStrings>
   <!-- EN: [asker_nameDef]'s decree forgotten -->
   <DecreeSetup.LetterLabelDecreeForgotten.slateRef>فرمان [asker_nameDef] فراموش شد</DecreeSetup.LetterLabelDecreeForgotten.slateRef>
@@ -16,6 +16,6 @@
   <!-- EN: Decree cancelled -->
   <DecreeSetup.LetterLabelDecreeCancelled.slateRef>حکم لغو شد</DecreeSetup.LetterLabelDecreeCancelled.slateRef>
   <!-- EN: [asker_nameDef] has grudgingly cancelled the decree '[resolvedQuestName]' since it cannot be completed. -->
-  <DecreeSetup.LetterTextDecreeCancelled.slateRef>[asker_nameDef] با اکراه فرمان "[resolvedQuestName]" را لغو کرده است زیرا نمی تواند تکمیل شود.</DecreeSetup.LetterTextDecreeCancelled.slateRef>
+  <DecreeSetup.LetterTextDecreeCancelled.slateRef>[asker_nameDef] با اکراه فرمان "[resolvedQuestName]" را لغو کرده است زیرا نمی‌تواند تکمیل شود.</DecreeSetup.LetterTextDecreeCancelled.slateRef>
   
 </LanguageData>

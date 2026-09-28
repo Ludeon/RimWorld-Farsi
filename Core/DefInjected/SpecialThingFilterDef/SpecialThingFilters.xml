@@ -4,7 +4,7 @@
   <!-- EN: allow adult-only apparel -->
   <AllowAdultOnlyApparel.label>پوشاک مخصوص بزرگسالان را مجاز کنید</AllowAdultOnlyApparel.label>
   <!-- EN: Allow clothing that can only be worn by adults. -->
-  <AllowAdultOnlyApparel.description>اجازه دهید لباس هایی که فقط بزرگسالان می توانند بپوشند.</AllowAdultOnlyApparel.description>
+  <AllowAdultOnlyApparel.description>اجازه دهید لباس هایی که فقط بزرگسالان می‌توانند بپوشند.</AllowAdultOnlyApparel.description>
   
   <!-- EN: allow biocoded apparel -->
   <AllowBiocodedApparel.label>اجازه دادن به پوشاک بیوکد شده</AllowBiocodedApparel.label>
@@ -25,7 +25,7 @@
   <!-- EN: construction -->
   <AllowBookConstruction.label>ساخت و ساز</AllowBookConstruction.label>
   <!-- EN: Allow books which teach construction skills. -->
-  <AllowBookConstruction.description>اجازه دهید کتاب هایی که مهارت های ساخت و ساز را آموزش می دهند.</AllowBookConstruction.description>
+  <AllowBookConstruction.description>اجازه دهید کتاب هایی که مهارت های ساخت و ساز را آموزش می‌دهند.</AllowBookConstruction.description>
   
   <!-- EN: cooking -->
   <AllowBookCooking.label>پخت و پز</AllowBookCooking.label>
@@ -45,7 +45,7 @@
   <!-- EN: medical -->
   <AllowBookMedicine.label>پزشکی</AllowBookMedicine.label>
   <!-- EN: Allow books which teach medical skills. -->
-  <AllowBookMedicine.description>اجازه دهید کتاب هایی که مهارت های پزشکی را آموزش می دهند.</AllowBookMedicine.description>
+  <AllowBookMedicine.description>اجازه دهید کتاب هایی که مهارت های پزشکی را آموزش می‌دهند.</AllowBookMedicine.description>
   
   <!-- EN: melee -->
   <AllowBookMelee.label>غوغا</AllowBookMelee.label>
@@ -60,7 +60,7 @@
   <!-- EN: plants -->
   <AllowBookPlants.label>گیاهان</AllowBookPlants.label>
   <!-- EN: Allow books which teach plant-related skills. -->
-  <AllowBookPlants.description>اجازه دهید کتاب هایی که مهارت های مربوط به گیاهان را آموزش می دهند.</AllowBookPlants.description>
+  <AllowBookPlants.description>اجازه دهید کتاب هایی که مهارت های مربوط به گیاهان را آموزش می‌دهند.</AllowBookPlants.description>
   
   <!-- EN: shooting -->
   <AllowBookShooting.label>تیراندازی</AllowBookShooting.label>
@@ -81,7 +81,7 @@
   <!-- EN: allow child-only apparel -->
   <AllowChildOnlyApparel.label>پوشاک مخصوص کودک را مجاز کنید</AllowChildOnlyApparel.label>
   <!-- EN: Allow clothing that can only be worn by children. -->
-  <AllowChildOnlyApparel.description>اجازه دهید لباس هایی که فقط کودکان می توانند بپوشند.</AllowChildOnlyApparel.description>
+  <AllowChildOnlyApparel.description>اجازه دهید لباس هایی که فقط کودکان می‌توانند بپوشند.</AllowChildOnlyApparel.description>
   
   <!-- EN: allow colonist corpses -->
   <AllowCorpsesColonist.label>اجازه دادن به اجساد استعمارگر</AllowCorpsesColonist.label>
@@ -96,7 +96,7 @@
   <!-- EN: allow tainted apparel -->
   <AllowDeadmansApparel.label>اجازه دادن به پوشاک آلوده</AllowDeadmansApparel.label>
   <!-- EN: Allow clothing that was once worn by a corpse. Most humans find corpse-tainted clothing to be disturbing, and traders will not accept it. -->
-  <AllowDeadmansApparel.description>اجازه دهید لباسی که زمانی توسط جسد پوشیده شده است. اکثر انسان‌ها لباس های آلوده به جسد را آزاردهنده می دانند و تاجران آن را نمی پذیرند.</AllowDeadmansApparel.description>
+  <AllowDeadmansApparel.description>اجازه دهید لباسی که زمانی توسط جسد پوشیده شده است. اکثر انسان‌ها لباس های آلوده به جسد را آزاردهنده می‌دانند و تاجران آن را نمی‌پذیرند.</AllowDeadmansApparel.description>
   
   <!-- EN: allow females -->
   <AllowFemaleGender.label>اجازه دادن به زنان</AllowFemaleGender.label>
@@ -130,21 +130,21 @@
   <AllowNonBiocodedWeapons.label>اجازه دادن به سلاح های غیر کد زیستی</AllowNonBiocodedWeapons.label>
   
   <!-- EN: allow non-burnable -->
-  <AllowNonBurnableApparel.label>اجازه می دهد غیر قابل سوختن باشد</AllowNonBurnableApparel.label>
+  <AllowNonBurnableApparel.label>اجازه می‌دهد غیر قابل سوختن باشد</AllowNonBurnableApparel.label>
   
   <!-- EN: allow non-burnable -->
-  <AllowNonBurnableWeapons.label>اجازه می دهد غیر قابل سوختن باشد</AllowNonBurnableWeapons.label>
+  <AllowNonBurnableWeapons.label>اجازه می‌دهد غیر قابل سوختن باشد</AllowNonBurnableWeapons.label>
   
   <!-- EN: allow clean apparel -->
   <AllowNonDeadmansApparel.label>اجازه دادن به پوشاک تمیز</AllowNonDeadmansApparel.label>
   <!-- EN: Allow clothing that was never worn by a corpse. Most humans find corpse-tainted clothing to be disturbing, and traders will not accept it. -->
-  <AllowNonDeadmansApparel.description>اجازه دهید لباسی که هرگز توسط جسد نپوشیده است. اکثر انسان‌ها لباس های آلوده به جسد را آزاردهنده می دانند و تاجران آن را نمی پذیرند.</AllowNonDeadmansApparel.description>
+  <AllowNonDeadmansApparel.description>اجازه دهید لباسی که هرگز توسط جسد نپوشیده است. اکثر انسان‌ها لباس های آلوده به جسد را آزاردهنده می‌دانند و تاجران آن را نمی‌پذیرند.</AllowNonDeadmansApparel.description>
   
   <!-- EN: allow non-smeltable -->
-  <AllowNonSmeltableApparel.label>اجازه می دهد که ذوب نشود</AllowNonSmeltableApparel.label>
+  <AllowNonSmeltableApparel.label>اجازه می‌دهد که ذوب نشود</AllowNonSmeltableApparel.label>
   
   <!-- EN: allow non-smeltable -->
-  <AllowNonSmeltableWeapons.label>اجازه می دهد که ذوب نشود</AllowNonSmeltableWeapons.label>
+  <AllowNonSmeltableWeapons.label>اجازه می‌دهد که ذوب نشود</AllowNonSmeltableWeapons.label>
   
   <!-- EN: allow plant food -->
   <AllowPlantFood.label>اجازه دادن به غذای گیاهی</AllowPlantFood.label>
@@ -157,10 +157,10 @@
   <AllowRotten.description>اجازه دهید چیزهای ارگانیکی که شروع به پوسیدگی کرده اند.</AllowRotten.description>
   
   <!-- EN: allow smeltable -->
-  <AllowSmeltable.label>اجازه می دهد ذوب شود</AllowSmeltable.label>
+  <AllowSmeltable.label>اجازه می‌دهد ذوب شود</AllowSmeltable.label>
   
   <!-- EN: allow smeltable -->
-  <AllowSmeltableApparel.label>اجازه می دهد ذوب شود</AllowSmeltableApparel.label>
+  <AllowSmeltableApparel.label>اجازه می‌دهد ذوب شود</AllowSmeltableApparel.label>
   
   <!-- EN: allow unfinished -->
   <AllowUnfinished.label>ناتمام اجازه دهید</AllowUnfinished.label>

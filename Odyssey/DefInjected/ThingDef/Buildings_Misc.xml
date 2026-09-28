@@ -18,7 +18,7 @@
   <!-- EN: ancient explosives crate -->
   <AncientExplosivesCrate.label>جعبه مواد منفجره باستانی</AncientExplosivesCrate.label>
   <!-- EN: A container of ancient mining charges. It will explode if damaged. -->
-  <AncientExplosivesCrate.description>ظرفی از اتهامات معدن باستانی. اگر آسیب ببیند منفجر می شود.</AncientExplosivesCrate.description>
+  <AncientExplosivesCrate.description>ظرفی از اتهامات معدن باستانی. اگر آسیب ببیند منفجر می‌شود.</AncientExplosivesCrate.description>
   
   <!-- EN: fortified wall -->
   <AncientFortifiedWall.label>دیوار مستحکم</AncientFortifiedWall.label>
@@ -28,14 +28,14 @@
   <!-- EN: ancient grav engine -->
   <AncientGravEngine.label>موتور گراو باستانی</AncientGravEngine.label>
   <!-- EN: An ultratech engine used to bring large structures and ships into orbit. While it has been nonfunctional for many years, it contains a functional gravcore. -->
-  <AncientGravEngine.description>یک موتور فوق فناوری که برای آوردن سازه‌ها و کشتی های بزرگ به مدار استفاده می شود. در حالی که برای چندین سال غیر کاربردی بوده است، دارای یک هسته گراو کارکردی است.</AncientGravEngine.description>
+  <AncientGravEngine.description>یک موتور فوق فناوری که برای آوردن سازه‌ها و کشتی های بزرگ به مدار استفاده می‌شود. در حالی که برای چندین سال غیر کاربردی بوده است، دارای یک هسته گراو کارکردی است.</AncientGravEngine.description>
   <!-- EN: Contains: Gravcore -->
   <AncientGravEngine.comps.CompInspectString.inspectString>شامل: Gravcore</AncientGravEngine.comps.CompInspectString.inspectString>
   
   <!-- EN: ancient grav reactor -->
   <AncientGravReactor.label>راکتور grav باستانی</AncientGravReactor.label>
   <!-- EN: An ancient generator powered by a gravcore. Once capable of producing massive amounts of power, it has now fallen into disrepair. The reactor containment shield is leaking, causing toxic fallout to blanket the whole region.\n\nHack or destroy the reactor to obtain a gravcore. Be warned, it may explode if damaged. -->
-  <AncientGravReactor.description>یک ژنراتور باستانی که توسط گراوکور کار می کرد. زمانی که قادر به تولید مقادیر انبوه نیرو بود، اکنون از بین رفته است. سپر محفظه راکتور در حال نشت است و باعث می‌شود که ریزش سمی کل منطقه را بپوشاند.\n\nراکتور را هک یا نابود کنید تا یک هسته گرانشی به دست آورید. هشدار داده شود، در صورت آسیب ممکن است منفجر شود.</AncientGravReactor.description>
+  <AncientGravReactor.description>یک ژنراتور باستانی که توسط گراوکور کار می‌کرد. زمانی که قادر به تولید مقادیر انبوه نیرو بود، اکنون از بین رفته است. سپر محفظه راکتور در حال نشت است و باعث می‌شود که ریزش سمی کل منطقه را بپوشاند.\n\nراکتور را هک یا نابود کنید تا یک هسته گرانشی به دست آورید. هشدار داده شود، در صورت آسیب ممکن است منفجر شود.</AncientGravReactor.description>
   <!-- EN: Gravcore obtained -->
   <AncientGravReactor.comps.CompHackable.destroyedLetterLabel>Gravcore به دست آمد</AncientGravReactor.comps.CompHackable.destroyedLetterLabel>
   <!-- EN: You've obtained a gravcore from the ancient reactor.\n\nThe reactor is shutting down and the toxic fallout is already beginning to clear. -->
@@ -77,12 +77,12 @@
   <!-- EN: ancient stockpile exit -->
   <AncientHatchExit.label>خروجی انبار باستانی</AncientHatchExit.label>
   <!-- EN: A ladder which links to the surface hatch above. -->
-  <AncientHatchExit.description>نردبانی که به سطح دریچه بالا متصل می شود.</AncientHatchExit.description>
+  <AncientHatchExit.description>نردبانی که به سطح دریچه بالا متصل می‌شود.</AncientHatchExit.description>
   
   <!-- EN: ancient mining charge -->
   <AncientMiningCharge.label>شارژ معدن باستانی</AncientMiningCharge.label>
   <!-- EN: An explosive device used to quickly blast through rock. It is made from refined chemfuel. The explosive is old, but still ready to detonate. -->
-  <AncientMiningCharge.description>وسیله‌ای منفجره که برای انفجار سریع در سنگ استفاده می شود. از سوخت شیمیایی تصفیه شده ساخته شده است. ماده منفجره قدیمی است، اما هنوز آماده انفجار است.</AncientMiningCharge.description>
+  <AncientMiningCharge.description>وسیله‌ای منفجره که برای انفجار سریع در سنگ استفاده می‌شود. از سوخت شیمیایی تصفیه شده ساخته شده است. ماده منفجره قدیمی است، اما هنوز آماده انفجار است.</AncientMiningCharge.description>
   
   <!-- EN: ancient security terminal -->
   <AncientSecurityTerminal.label>ترمینال امنیتی باستانی</AncientSecurityTerminal.label>
@@ -122,7 +122,7 @@
   <!-- EN: ancient uplink -->
   <AncientUplink.label>آپلینک باستانی</AncientUplink.label>
   <!-- EN: An ancient transmitter used for secure communications between the surface and orbit. Hack it to determine the last location it transmitted to. -->
-  <AncientUplink.description>یک فرستنده باستانی که برای ارتباطات ایمن بین سطح و مدار استفاده می شد. برای تعیین آخرین مکانی که به آن مخابره شده است، آن را هک کنید.</AncientUplink.description>
+  <AncientUplink.description>یک فرستنده باستانی که برای ارتباطات ایمن بین سطح و مدار استفاده می‌شد. برای تعیین آخرین مکانی که به آن مخابره شده است، آن را هک کنید.</AncientUplink.description>
   <!-- EN: Hacked. -->
   <AncientUplink.comps.CompHackable.hackedInspectString>هک شده است.</AncientUplink.comps.CompHackable.hackedInspectString>
   <!-- EN: {HACKER_labelShort} has finished hacking {SUBJECT_labelNoParenthesisDef}. -->
@@ -138,7 +138,7 @@
   <!-- EN: cerebrex core -->
   <CerebrexCore.label>هسته سربرکس</CerebrexCore.label>
   <!-- EN: The thinking mind of the mechanoid swarm. The cerebrex core commands mechanoids across the entire planet.\n\nAt its heart is an AI persona core that knows, thinks, and believes that it must kill every human on this planet. In one sense, this impulse is a command programmed by a human military leader aeons ago. In another sense, it is cold seething hatred. Either way, if you liberate the AI persona you can reset its desire and use it for other purposes.\n\nThe structure is protected by nearby stabilizers. Destroy all cerebrex stabilizers to access it. -->
-  <CerebrexCore.description>ذهن متفکر ازدحام مکانیکی. هسته سربرکس به مکانوئیدها در سراسر سیاره فرمان می دهد.\n\nدر قلب آن یک هسته شخصیت هوش مصنوعی وجود دارد که می داند، فکر می کند و معتقد است که باید همه انسان های این سیاره را بکشد. به یک معنا، این انگیزه فرمانی است که سال‌ها پیش توسط یک رهبر نظامی انسانی برنامه ریزی شده است. به تعبیری دیگر، تنفر جوشان سرد است. در هر صورت، اگر شخصیت هوش مصنوعی را آزاد کنید، می‌توانید تمایل آن را بازنشانی کنید و از آن برای مقاصد دیگر استفاده کنید.\n\nاین ساختار توسط تثبیت‌کننده‌های نزدیک محافظت می‌شود. تمام تثبیت کننده های سربرکس را برای دسترسی به آن نابود کنید.</CerebrexCore.description>
+  <CerebrexCore.description>ذهن متفکر ازدحام مکانیکی. هسته سربرکس به مکانوئیدها در سراسر سیاره فرمان می‌دهد.\n\nدر قلب آن یک هسته شخصیت هوش مصنوعی وجود دارد که می‌داند، فکر می‌کند و معتقد است که باید همه انسان های این سیاره را بکشد. به یک معنا، این انگیزه فرمانی است که سال‌ها پیش توسط یک رهبر نظامی انسانی برنامه ریزی شده است. به تعبیری دیگر، تنفر جوشان سرد است. در هر صورت، اگر شخصیت هوش مصنوعی را آزاد کنید، می‌توانید تمایل آن را بازنشانی کنید و از آن برای مقاصد دیگر استفاده کنید.\n\nاین ساختار توسط تثبیت‌کننده‌های نزدیک محافظت می‌شود. تمام تثبیت کننده های سربرکس را برای دسترسی به آن نابود کنید.</CerebrexCore.description>
   <!-- EN: Inspect the core. -->
   <CerebrexCore.comps.CompCerebrexCore.activateDescString>هسته را بررسی کنید.</CerebrexCore.comps.CompCerebrexCore.activateDescString>
   <!-- EN: Inspect... -->
@@ -162,22 +162,22 @@
   <!-- EN: cerebrex stabilizer -->
   <CerebrexStabilizer.label>تثبیت کننده سربرکس</CerebrexStabilizer.label>
   <!-- EN: A remote shield generator that makes the nearby cerebrex core nearly invincible. Destroying all stabilizers will allow direct access to the cerebrex core.\n\nBe careful, destroying a stabilizer will prompt a defensive response. -->
-  <CerebrexStabilizer.description>یک ژنراتور سپر از راه دور که هسته مغز نزدیک را تقریبا شکست ناپذیر می کند. از بین بردن همه تثبیت کننده‌ها امکان دسترسی مستقیم به هسته سربرکس را فراهم می کند.\n\nمراقب باشید، از بین بردن تثبیت کننده باعث واکنش دفاعی می شود.</CerebrexStabilizer.description>
+  <CerebrexStabilizer.description>یک ژنراتور سپر از راه دور که هسته مغز نزدیک را تقریبا شکست ناپذیر می‌کند. از بین بردن همه تثبیت کننده‌ها امکان دسترسی مستقیم به هسته سربرکس را فراهم می‌کند.\n\nمراقب باشید، از بین بردن تثبیت کننده باعث واکنش دفاعی می‌شود.</CerebrexStabilizer.description>
   
   <!-- EN: locust cocoon -->
   <CocoonLocust.label>پیله ملخ</CocoonLocust.label>
   <!-- EN: A stasis cocoon containing a locust.\n\nWhen conditions are inhospitable, insects sometimes form stasis cocoons and burrow underground. These cocoons keep insects safe from fire, extreme temperatures, and other threats for years.\n\nPollutants can stimulate cocoons and cause them to resurface, and strong pollutants can attract cocoons from great distances.\n\nCocoons do nothing if they are not disturbed. If a cocoon is disturbed or destroyed, the insect within will awaken and attack, triggering other nearby cocoons in the process. -->
-  <CocoonLocust.description>پیله ایستایی حاوی ملخ.\n\nوقتی شرایط نامساعد است، گاهی اوقات حشرات پیله سکون تشکیل می دهند و در زیر زمین حفر می کنند. این پیله‌ها حشرات را برای سال‌ها از آتش، دمای شدید و سایر تهدیدها در امان نگه می‌دارند.\n\nآلاینده‌ها می‌توانند پیله‌ها را تحریک کنند و باعث بیرون آمدن مجدد آن‌ها شوند، و آلاینده‌های قوی می‌توانند پیله‌ها را از فواصل دور جذب کنند.\n\nپیله‌ها اگر مزاحم نشوند هیچ کاری انجام نمی‌دهند. اگر پیله‌ای مختل یا از بین برود، حشره درون آن بیدار می شود و حمله می کند و باعث ایجاد پیله های اطراف در این فرآیند می شود.</CocoonLocust.description>
+  <CocoonLocust.description>پیله ایستایی حاوی ملخ.\n\nوقتی شرایط نامساعد است، گاهی اوقات حشرات پیله سکون تشکیل می‌دهند و در زیر زمین حفر می‌کنند. این پیله‌ها حشرات را برای سال‌ها از آتش، دمای شدید و سایر تهدیدها در امان نگه می‌دارند.\n\nآلاینده‌ها می‌توانند پیله‌ها را تحریک کنند و باعث بیرون آمدن مجدد آن‌ها شوند، و آلاینده‌های قوی می‌توانند پیله‌ها را از فواصل دور جذب کنند.\n\nپیله‌ها اگر مزاحم نشوند هیچ کاری انجام نمی‌دهند. اگر پیله‌ای مختل یا از بین برود، حشره درون آن بیدار می‌شود و حمله می‌کند و باعث ایجاد پیله های اطراف در این فرآیند می‌شود.</CocoonLocust.description>
   
   <!-- EN: egg sac -->
   <EggSac.label>کیسه تخم مرغ</EggSac.label>
   <!-- EN: A slimy sac containing an insect larva. The larval gestation process generates a faint bioluminescent glow. -->
-  <EggSac.description>یک کیسه لزج حاوی لارو حشره. فرآیند حاملگی لارو یک درخشش بیولومینسانس ضعیف ایجاد می کند.</EggSac.description>
+  <EggSac.description>یک کیسه لزج حاوی لارو حشره. فرآیند حاملگی لارو یک درخشش بیولومینسانس ضعیف ایجاد می‌کند.</EggSac.description>
   
   <!-- EN: gauss cannon -->
   <GaussCannon.label>توپ گاوس</GaussCannon.label>
   <!-- EN: A massive anti-ship cannon that uses electromagnets to launch large metallic darts at extreme velocities. The cannon is intended to destroy incoming ships or shuttles, so it can't aim at ground targets.\n\nShips using ultratech signal jammers are capable of evading these weapons. -->
-  <GaussCannon.description>یک توپ ضد کشتی عظیم که از آهنرباهای الکتریکی برای پرتاب دارت های فلزی بزرگ با سرعت بسیار زیاد استفاده می کند. هدف این توپ نابود کردن کشتی‌ها یا شاتل‌های ورودی است، بنابراین نمی‌تواند اهداف زمینی را هدف قرار دهد.\n\nکشتی‌هایی که از مسدودکننده‌های سیگنال فوق‌تکنولوژیکی استفاده می‌کنند، می‌توانند از این سلاح‌ها فرار کنند.</GaussCannon.description>
+  <GaussCannon.description>یک توپ ضد کشتی عظیم که از آهنرباهای الکتریکی برای پرتاب دارت های فلزی بزرگ با سرعت بسیار زیاد استفاده می‌کند. هدف این توپ نابود کردن کشتی‌ها یا شاتل‌های ورودی است، بنابراین نمی‌تواند اهداف زمینی را هدف قرار دهد.\n\nکشتی‌هایی که از مسدودکننده‌های سیگنال فوق‌تکنولوژیکی استفاده می‌کنند، می‌توانند از این سلاح‌ها فرار کنند.</GaussCannon.description>
   
   <!-- EN: mechanoid drop pod -->
   <MechanoidDropPod.label>غلاف سقوط مکانیکی</MechanoidDropPod.label>
@@ -192,7 +192,7 @@
   <!-- EN: mechhive birther -->
   <MechhiveAssembler.label>مولد mechhive</MechhiveAssembler.label>
   <!-- EN: An automated mechanoid factory. It periodically births fresh mechanoids. -->
-  <MechhiveAssembler.description>کارخانه مکانیک اتوماتیک. به طور دوره‌ای مکانیسم های تازه متولد می شود.</MechhiveAssembler.description>
+  <MechhiveAssembler.description>کارخانه مکانیک اتوماتیک. به طور دوره‌ای مکانیسم های تازه متولد می‌شود.</MechhiveAssembler.description>
   
   <!-- EN: mech pylon -->
   <MechPylon.label>دکل مکانیکی</MechPylon.label>
@@ -202,7 +202,7 @@
   <!-- EN: mechanoid relay -->
   <MechRelay.label>رله مکانیکی</MechRelay.label>
   <!-- EN: A node that coordinates signals across a planet-wide mechanoid communication network. The command signals originate at the mechhive - the center of mechanoid intelligence. -->
-  <MechRelay.description>گره‌ای که سیگنال‌ها را در سراسر یک شبکه ارتباطی مکانیکی در سطح سیاره هماهنگ می کند. سیگنال های فرمان از mechhive سرچشمه می گیرند - مرکز هوش مکانیکی.</MechRelay.description>
+  <MechRelay.description>گره‌ای که سیگنال‌ها را در سراسر یک شبکه ارتباطی مکانیکی در سطح سیاره هماهنگ می‌کند. سیگنال های فرمان از mechhive سرچشمه می‌گیرند - مرکز هوش مکانیکی.</MechRelay.description>
   <!-- EN: Hack or destroy relay stabilizers to obtain gravcore. -->
   <MechRelay.comps.CompMechRelay.activeInspectString>تثبیت کننده های رله را هک یا از بین ببرید تا گراوکور به دست آورید.</MechRelay.comps.CompMechRelay.activeInspectString>
   <!-- EN: Relay crash -->
@@ -217,14 +217,14 @@
   <!-- EN: crashed mechanoid relay -->
   <MechRelay_Crashed.label>رله مکانیکی خراب شده</MechRelay_Crashed.label>
   <!-- EN: A node that coordinates signals across a planet-wide mechanoid communication network. The command signals originate at the mechhive - the center of mechanoid intelligence. -->
-  <MechRelay_Crashed.description>گره‌ای که سیگنال‌ها را در سراسر یک شبکه ارتباطی مکانیکی در سطح سیاره هماهنگ می کند. سیگنال های فرمان از mechhive سرچشمه می گیرند - مرکز هوش مکانیکی.</MechRelay_Crashed.description>
+  <MechRelay_Crashed.description>گره‌ای که سیگنال‌ها را در سراسر یک شبکه ارتباطی مکانیکی در سطح سیاره هماهنگ می‌کند. سیگنال های فرمان از mechhive سرچشمه می‌گیرند - مرکز هوش مکانیکی.</MechRelay_Crashed.description>
   <!-- EN: Contains: Gravcore -->
   <MechRelay_Crashed.comps.CompInspectString.inspectString>شامل: Gravcore</MechRelay_Crashed.comps.CompInspectString.inspectString>
   
   <!-- EN: relay stabilizer -->
   <MechStabilizer.label>تثبیت کننده رله</MechStabilizer.label>
   <!-- EN: A shield projecter that protects a nearby mechanoid relay. All stabilizers must be hacked or destroyed to deactivate the shield.\n\nDestroying a stabilizer will prompt a defensive response. Hacking is a slower but safer option. -->
-  <MechStabilizer.description>یک پروژکتور محافظ که از رله مکانیکی مجاور محافظت می کند. همه تثبیت‌کننده‌ها باید هک یا نابود شوند تا سپر غیرفعال شود.\n\nاز بین بردن تثبیت‌کننده باعث واکنش دفاعی می‌شود. هک کردن یک گزینه کندتر اما امن‌تر است.</MechStabilizer.description>
+  <MechStabilizer.description>یک پروژکتور محافظ که از رله مکانیکی مجاور محافظت می‌کند. همه تثبیت‌کننده‌ها باید هک یا نابود شوند تا سپر غیرفعال شود.\n\nاز بین بردن تثبیت‌کننده باعث واکنش دفاعی می‌شود. هک کردن یک گزینه کندتر اما امن‌تر است.</MechStabilizer.description>
   <!-- EN: Deactivated. -->
   <MechStabilizer.comps.CompHackable.hackedInspectString>غیر فعال شد.</MechStabilizer.comps.CompHackable.hackedInspectString>
   <!-- EN: {HACKER_labelShort} has finished hacking {SUBJECT_labelNoParenthesisDef}. -->
@@ -251,7 +251,7 @@
   <!-- EN: surveying scanner -->
   <SurveyScanner.label>اسکنر نقشه برداری</SurveyScanner.label>
   <!-- EN: A wideband sensor unit that can detect and map various features in a local area. -->
-  <SurveyScanner.description>یک واحد حسگر پهن باند که می تواند ویژگی های مختلف را در یک منطقه محلی شناسایی و نقشه برداری کند.</SurveyScanner.description>
+  <SurveyScanner.description>یک واحد حسگر پهن باند که می‌تواند ویژگی های مختلف را در یک منطقه محلی شناسایی و نقشه برداری کند.</SurveyScanner.description>
   <!-- EN: Scanning local area: {DURATION} -->
   <SurveyScanner.comps.CompCountdown.label>اسکن منطقه محلی: {DURATION}</SurveyScanner.comps.CompCountdown.label>
   

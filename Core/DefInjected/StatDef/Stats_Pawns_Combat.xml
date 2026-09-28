@@ -4,7 +4,7 @@
   <!-- EN: aiming time -->
   <AimingDelayFactor.label>زمان هدف گیری</AimingDelayFactor.label>
   <!-- EN: How long it takes to shoot after choosing a target. -->
-  <AimingDelayFactor.description>بعد از انتخاب هدف چقدر طول می کشد تا شلیک کنید.</AimingDelayFactor.description>
+  <AimingDelayFactor.description>بعد از انتخاب هدف چقدر طول می‌کشد تا شلیک کنید.</AimingDelayFactor.description>
   
   <!-- EN: incoming damage multiplier -->
   <IncomingDamageFactor.label>ضریب خسارت دریافتی</IncomingDamageFactor.label>
@@ -19,7 +19,7 @@
   <!-- EN: melee cooldown -->
   <MeleeCooldownFactor.label>سرد شدن غوغا</MeleeCooldownFactor.label>
   <!-- EN: A multiplier on the time this creature takes to recover after making a melee attack. -->
-  <MeleeCooldownFactor.description>یک ضرب کننده در مدت زمانی که این موجود پس از انجام یک حمله غوغا به خود می گیرد.</MeleeCooldownFactor.description>
+  <MeleeCooldownFactor.description>یک ضرب کننده در مدت زمانی که این موجود پس از انجام یک حمله غوغا به خود می‌گیرد.</MeleeCooldownFactor.description>
   
   <!-- EN: melee damage factor -->
   <MeleeDamageFactor.label>عامل آسیب غوغا</MeleeDamageFactor.label>
@@ -29,7 +29,7 @@
   <!-- EN: melee dodge chance -->
   <MeleeDodgeChance.label>غوغا فرصت طفره رفتن</MeleeDodgeChance.label>
   <!-- EN: Chance to dodge a melee attack that would've otherwise hit.\n\nCharacters will not dodge while aiming or firing a ranged weapon. -->
-  <MeleeDodgeChance.description>فرصتی برای طفره رفتن از یک حمله غوغایی که در غیر این صورت به آن ضربه می زدند.\n\nشخصیت‌ها هنگام هدف گیری یا شلیک یک اسلحه دور، طفره نمی روند.</MeleeDodgeChance.description>
+  <MeleeDodgeChance.description>فرصتی برای طفره رفتن از یک حمله غوغایی که در غیر این صورت به آن ضربه می‌زدند.\n\nشخصیت‌ها هنگام هدف گیری یا شلیک یک اسلحه دور، طفره نمی‌روند.</MeleeDodgeChance.description>
   
   <!-- EN: melee DPS -->
   <MeleeDPS.label>غوغا DPS</MeleeDPS.label>
@@ -39,12 +39,12 @@
   <!-- EN: melee hit chance -->
   <MeleeHitChance.label>غوغا شانس ضربه</MeleeHitChance.label>
   <!-- EN: Chance to hit a target in melee.\n\nThe target can still dodge even if we would've hit. -->
-  <MeleeHitChance.description>شانس ضربه زدن به یک هدف در غوغا.\n\nهدف همچنان می تواند طفره برود حتی اگر ما ضربه می زدیم.</MeleeHitChance.description>
+  <MeleeHitChance.description>شانس ضربه زدن به یک هدف در غوغا.\n\nهدف همچنان می‌تواند طفره برود حتی اگر ما ضربه می‌زدیم.</MeleeHitChance.description>
   
   <!-- EN: Mortar miss radius multiplier -->
   <MortarMissRadiusFactor.label>ضرب شعاع خمپاره</MortarMissRadiusFactor.label>
   <!-- EN: A multiplier on the miss radius of a mortar used by this person. Smaller numbers means more accurate mortar shells. -->
-  <MortarMissRadiusFactor.description>ضریب شعاع خطای خمپاره‌ای که این شخص استفاده می کند. اعداد کوچکتر به معنی گلوله های خمپاره دقیق‌تر است.</MortarMissRadiusFactor.description>
+  <MortarMissRadiusFactor.description>ضریب شعاع خطای خمپاره‌ای که این شخص استفاده می‌کند. اعداد کوچکتر به معنی گلوله های خمپاره دقیق‌تر است.</MortarMissRadiusFactor.description>
   <!-- EN: Mortar miss radius multiplier -->
   <MortarMissRadiusFactor.labelForFullStatList>ضرب شعاع خمپاره</MortarMissRadiusFactor.labelForFullStatList>
   
@@ -88,6 +88,6 @@
   <!-- EN: stagger time multiplier -->
   <StaggerDurationFactor.label>ضرب کننده زمان سرسام آور</StaggerDurationFactor.label>
   <!-- EN: A multiplier on the duration of the stagger-slowdown that occurs when damage is taken. -->
-  <StaggerDurationFactor.description>یک ضریب در مدت زمان کاهش سرعت که هنگام آسیب دیدن رخ می دهد.</StaggerDurationFactor.description>
+  <StaggerDurationFactor.description>یک ضریب در مدت زمان کاهش سرعت که هنگام آسیب دیدن رخ می‌دهد.</StaggerDurationFactor.description>
   
 </LanguageData>

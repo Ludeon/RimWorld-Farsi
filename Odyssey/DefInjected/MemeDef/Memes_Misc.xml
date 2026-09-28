@@ -38,17 +38,17 @@
     <li>founderJoin(tag=meme_Shipborn)     ->یک [place_job] به نام [founderName] مؤمنان واقعی را جمع کرد و آنها را به یک [altarRoomLabel] مخفی هدایت کرد. در آنجا [founder_pronoun] تبدیل به [veneratedRole] آنها شد.</li>
     <li>victory(tag=meme_Shipborn)         ->سپس [founderName] با صدای [deity0_name] صحبت کرد. در یک همگرایی درخشان از نور و انرژی، [founderName] بر دشمنان [founder_possessive] چیره شد و مردم [founder_possessive] را به سمت کشتی های مقدس هدایت کرد.</li>
     <li>setup(tag=meme_Shipborn)           ->در کشتی الهی [founder_possessive]، [founderName] هزار سال در دریاهای ستاره‌ای سفر کرد و با ارواح آسمانی ارتباط برقرار کرد و اسرار کیهان را باز کرد.</li>
-    <li>story(uses=1,tag=meme_Shipborn)    ->[founderName] دید که سرنوشت بشریت فقط در میان ستارگان محقق می شود.</li>
+    <li>story(uses=1,tag=meme_Shipborn)    ->[founderName] دید که سرنوشت بشریت فقط در میان ستارگان محقق می‌شود.</li>
     <li>lessonIntro(tag=meme_Shipborn)         ->در رعایت [celestialComponents]، یک حقیقت را بیش از هر چیز دیگری پیدا کردم:</li>
     <li>lesson(tag=meme_Shipborn)              ->ستارگان [veneratedRole] واقعی ما هستند و وظیفه ماست که به دنبال خرد آنها باشیم و در میان آنها سفر کنیم.</li>
     <li>lesson(tag=meme_Shipborn)              ->بشر هرگز قرار نبود اسیر سنگ باشد. ما باید در میان بهشت ​​زندگی کنیم</li>
     <li>lesson(tag=meme_Shipborn)              ->کشتی های ما مادران مقدس و پدران مقدس ما هستند. ما باید از آنها مراقبت کنیم همانطور که آنها از ما مراقبت کرده اند</li>
     <li>lessonReinforcement(tag=meme_Shipborn) ->باشد که پاهای شما هرگز به زمین نرسد.</li>
     <li>archistBasis(tag=meme_Shipborn)    ->از زمان ظهور، آرکوتک‌ها آگاهی خود را در میان ستارگان گسترش داده اند.</li>
-    <li>archistFact(tag=meme_Shipborn)     ->آرکوتک‌ها از محدودیت های حیات سیاره‌ای فراتر می روند.</li>
-    <li>archistProphecy(tag=meme_Shipborn) ->[inTheEnd]، آرکوتک‌ها به ما می آموزند که بدون زحمت در میان ستارگان حرکت کنیم اگر خرد کیهانی آنها را مشاهده کنیم.</li>
-    <li>animistBasis(tag=meme_Shipborn)    ->اجداد ما به [celestialComponents] سفر کرده اند و به ما می آموزند که بشریت و موجودات آسمانی را همتا بدانیم.</li>
-    <li>animistFact(tag=meme_Shipborn)     ->همان ارواح ساکن در اجرام آسمانی سرنوشت بشریت را هدایت می کنند.</li>
+    <li>archistFact(tag=meme_Shipborn)     ->آرکوتک‌ها از محدودیت های حیات سیاره‌ای فراتر می‌روند.</li>
+    <li>archistProphecy(tag=meme_Shipborn) ->[inTheEnd]، آرکوتک‌ها به ما می‌آموزند که بدون زحمت در میان ستارگان حرکت کنیم اگر خرد کیهانی آنها را مشاهده کنیم.</li>
+    <li>animistBasis(tag=meme_Shipborn)    ->اجداد ما به [celestialComponents] سفر کرده اند و به ما می‌آموزند که بشریت و موجودات آسمانی را همتا بدانیم.</li>
+    <li>animistFact(tag=meme_Shipborn)     ->همان ارواح ساکن در اجرام آسمانی سرنوشت بشریت را هدایت می‌کنند.</li>
     <li>celestialComponents->ستاره‌ها، ماه‌ها و دنباله دارها</li>
     <li>celestialComponents->کیهان</li>
     <li>celestialComponents->هزار خورشید</li>

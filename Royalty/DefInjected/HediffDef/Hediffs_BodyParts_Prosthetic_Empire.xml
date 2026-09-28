@@ -4,7 +4,7 @@
   <!-- EN: drill arm -->
   <DrillArm.label>بازوی مته</DrillArm.label>
   <!-- EN: An installed drill arm. Allows the miner to rapidly find and exploit weak lines in the rock. It also has a general-purpose manipulator. It is somewhat ungainly, which slows down movement slightly. -->
-  <DrillArm.description>یک بازوی مته نصب شده به ماینر اجازه می دهد تا به سرعت خطوط ضعیف را در سنگ پیدا کند و از آن بهره برداری کند. همچنین دارای یک دستکاری کننده همه منظوره است. تا حدودی ناخوشایند است که حرکت را کمی کند می کند.</DrillArm.description>
+  <DrillArm.description>یک بازوی مته نصب شده به ماینر اجازه می‌دهد تا به سرعت خطوط ضعیف را در سنگ پیدا کند و از آن بهره برداری کند. همچنین دارای یک دستکاری کننده همه منظوره است. تا حدودی ناخوشایند است که حرکت را کمی کند می‌کند.</DrillArm.description>
   <!-- EN: drill -->
   <DrillArm.comps.HediffComp_VerbGiver.tools.drill.label>مته</DrillArm.comps.HediffComp_VerbGiver.tools.drill.label>
   <!-- EN: a drill arm -->
@@ -13,7 +13,7 @@
   <!-- EN: elbow blade -->
   <ElbowBlade.label>تیغه آرنج</ElbowBlade.label>
   <!-- EN: An installed elbow blade. Extends at will from a hidden opening at the end of the ulna. Appearing without warning, it can be used for devastating slice attacks. -->
-  <ElbowBlade.description>یک تیغه آرنجی نصب شده به میل خود از یک دهانه پنهان در انتهای استخوان زند امتداد می یابد. بدون هشدار ظاهر می شود، می توان از آن برای حملات ویرانگر برش استفاده کرد.</ElbowBlade.description>
+  <ElbowBlade.description>یک تیغه آرنجی نصب شده به میل خود از یک دهانه پنهان در انتهای استخوان زند امتداد می‌یابد. بدون هشدار ظاهر می‌شود، می‌توان از آن برای حملات ویرانگر برش استفاده کرد.</ElbowBlade.description>
   <!-- EN: blade -->
   <ElbowBlade.comps.HediffComp_VerbGiver.tools.blade.label>تیغه</ElbowBlade.comps.HediffComp_VerbGiver.tools.blade.label>
   <!-- EN: an elbow blade -->
@@ -22,7 +22,7 @@
   <!-- EN: field hand -->
   <FieldHand.label>دست میدانی</FieldHand.label>
   <!-- EN: An installed field hand. Made to speed up the sowing and harvesting tasks of a farmer. Multiple telescoping finger-like protrusions can simultaneously harvest from several points on the same plant, or precisely sow several holes at once. It also has a general-purpose manipulator. It is somewhat ungainly, which slows down movement slightly. -->
-  <FieldHand.description>یک دست میدانی نصب شده ساخته شده برای سرعت بخشیدن به کارهای کاشت و برداشت یک کشاورز. برآمدگی های انگشت مانند تلسکوپی متعدد می توانند به طور همزمان از چندین نقطه در یک گیاه برداشت کنند یا به طور دقیق چندین سوراخ را به طور همزمان بکارند. همچنین دارای یک دستکاری کننده همه منظوره است. تا حدودی ناخوشایند است که حرکت را کمی کند می کند.</FieldHand.description>
+  <FieldHand.description>یک دست میدانی نصب شده ساخته شده برای سرعت بخشیدن به کارهای کاشت و برداشت یک کشاورز. برآمدگی های انگشت مانند تلسکوپی متعدد می‌توانند به طور همزمان از چندین نقطه در یک گیاه برداشت کنند یا به طور دقیق چندین سوراخ را به طور همزمان بکارند. همچنین دارای یک دستکاری کننده همه منظوره است. تا حدودی ناخوشایند است که حرکت را کمی کند می‌کند.</FieldHand.description>
   <!-- EN: knuckle -->
   <FieldHand.comps.HediffComp_VerbGiver.tools.knuckle.label>بند انگشت</FieldHand.comps.HediffComp_VerbGiver.tools.knuckle.label>
   <!-- EN: a field hand -->
@@ -31,7 +31,7 @@
   <!-- EN: hand talon -->
   <HandTalon.label>چنگال دست</HandTalon.label>
   <!-- EN: An installed hand talon. Extends from a hidden opening between the middle and ring fingers. The talon is longer than the palm, but it becomes flexible upon retracting, allowing the user to curl it up and conceal it inside the hand. It can perform rapid slashing attacks, but is poor at penetrating armor. -->
-  <HandTalon.description>چوب دستی نصب شده از یک سوراخ پنهان بین انگشتان حلقه و میانی امتداد می یابد. چنگال بلندتر از کف دست است، اما با جمع شدن انعطاف‌پذیر می‌شود و به کاربر این امکان را می‌دهد تا آن را خم کند و در داخل دست پنهان کند. این می تواند حملات slashing سریع انجام دهد، اما در زره نفوذ ضعیف است.</HandTalon.description>
+  <HandTalon.description>چوب دستی نصب شده از یک سوراخ پنهان بین انگشتان حلقه و میانی امتداد می‌یابد. چنگال بلندتر از کف دست است، اما با جمع شدن انعطاف‌پذیر می‌شود و به کاربر این امکان را می‌دهد تا آن را خم کند و در داخل دست پنهان کند. این می‌تواند حملات slashing سریع انجام دهد، اما در زره نفوذ ضعیف است.</HandTalon.description>
   <!-- EN: talon -->
   <HandTalon.comps.HediffComp_VerbGiver.tools.talon.label>چنگال</HandTalon.comps.HediffComp_VerbGiver.tools.talon.label>
   <!-- EN: a hand talon -->
@@ -40,7 +40,7 @@
   <!-- EN: knee spike -->
   <KneeSpike.label>سنبله زانو</KneeSpike.label>
   <!-- EN: An installed knee spike. Extends at will from a hidden opening on the front of the knee. Appearing without warning, it can be used for devastating stabbing attacks which penetrate even thick armor. -->
-  <KneeSpike.description>سنبله زانو نصب شده. به میل خود از یک سوراخ پنهان در جلوی زانو امتداد می یابد. بدون اخطار ظاهر می شود، می تواند برای حملات خنجر ویرانگر که حتی به زره های ضخیم نفوذ می کنند استفاده شود.</KneeSpike.description>
+  <KneeSpike.description>سنبله زانو نصب شده. به میل خود از یک سوراخ پنهان در جلوی زانو امتداد می‌یابد. بدون اخطار ظاهر می‌شود، می‌تواند برای حملات خنجر ویرانگر که حتی به زره های ضخیم نفوذ می‌کنند استفاده شود.</KneeSpike.description>
   <!-- EN: spike -->
   <KneeSpike.comps.HediffComp_VerbGiver.tools.spike.label>سنبله</KneeSpike.comps.HediffComp_VerbGiver.tools.spike.label>
   <!-- EN: a knee spike -->
@@ -49,14 +49,14 @@
   <!-- EN: mindscrew -->
   <Mindscrew.label>پیچ ذهنی</Mindscrew.label>
   <!-- EN: An installed mindscrew. Inflicts continuous pain on the user. Mindscrews are used by some authorities as a long-term punishment. Some even install them voluntarily as a demonstration of ideological or religious devotion. -->
-  <Mindscrew.description>یک پیچ ذهنی نصب شده درد مداوم را به کاربر وارد می کند. برخی از مقامات به عنوان یک تنبیه طولانی مدت از ابزارهای ذهنی استفاده می کنند. حتی برخی به صورت داوطلبانه آنها را به عنوان نمایشی از فداکاری ایدئولوژیک یا مذهبی نصب می کنند.</Mindscrew.description>
+  <Mindscrew.description>یک پیچ ذهنی نصب شده درد مداوم را به کاربر وارد می‌کند. برخی از مقامات به عنوان یک تنبیه طولانی مدت از ابزارهای ذهنی استفاده می‌کنند. حتی برخی به صورت داوطلبانه آنها را به عنوان نمایشی از فداکاری ایدئولوژیک یا مذهبی نصب می‌کنند.</Mindscrew.description>
   <!-- EN: a mindscrew -->
   <Mindscrew.labelNoun>یک پیچ ذهنی</Mindscrew.labelNoun>
   
   <!-- EN: venom fangs -->
   <VenomFangs.label>نیش سمی</VenomFangs.label>
   <!-- EN: An installed set of venom fangs. The user can bite an enemy, extend the injectors, and pump venom into the target. -->
-  <VenomFangs.description>مجموعه‌ای از دندان نیش نصب شده. کاربر می تواند دشمن را گاز بگیرد، انژکتورها را دراز کند و سم را به سمت هدف پمپ کند.</VenomFangs.description>
+  <VenomFangs.description>مجموعه‌ای از دندان نیش نصب شده. کاربر می‌تواند دشمن را گاز بگیرد، انژکتورها را دراز کند و سم را به سمت هدف پمپ کند.</VenomFangs.description>
   <!-- EN: venom fangs -->
   <VenomFangs.comps.HediffComp_VerbGiver.tools.venom_fangs.label>نیش سمی</VenomFangs.comps.HediffComp_VerbGiver.tools.venom_fangs.label>
   <!-- EN: a set of venom fangs -->
@@ -65,7 +65,7 @@
   <!-- EN: venom talon -->
   <VenomTalon.label>چنگال زهر</VenomTalon.label>
   <!-- EN: An installed venom talon. The user can scratch an enemy while squirting venom into the wound. The talon is designed to be installed in the middle finger. It's fast, but poor at penetrating armor. -->
-  <VenomTalon.description>یک چنگک زهر نصب شده کاربر می تواند دشمن را خراش دهد در حالی که سم را داخل زخم می ریزد. چنگال برای نصب در انگشت میانی طراحی شده است. این سریع است، اما در زره نفوذ ضعیف است.</VenomTalon.description>
+  <VenomTalon.description>یک چنگک زهر نصب شده کاربر می‌تواند دشمن را خراش دهد در حالی که سم را داخل زخم می‌ریزد. چنگال برای نصب در انگشت میانی طراحی شده است. این سریع است، اما در زره نفوذ ضعیف است.</VenomTalon.description>
   <!-- EN: venom talon -->
   <VenomTalon.comps.HediffComp_VerbGiver.tools.venom_talon.label>چنگال زهر</VenomTalon.comps.HediffComp_VerbGiver.tools.venom_talon.label>
   <!-- EN: a venom talon -->

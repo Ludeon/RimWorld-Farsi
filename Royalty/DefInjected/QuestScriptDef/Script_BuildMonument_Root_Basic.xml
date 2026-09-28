@@ -9,7 +9,7 @@
   <BuildMonument_Basic.questDescriptionRules.rulesStrings>
     <li>commonEnding-> اندازه بنای یادبود [monumentSize] است و به این منابع نیاز دارد (مقدار کلی [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nساخت و ساز باید در [constructionTimeoutTicks_duration] پس از پذیرش کار تکمیل شود. پس از پایان ساخت، جوایز را دریافت خواهید کرد.[dontDestroyMonument]</li>
     <li>dontDestroyMonument(priority=-10)-></li>
-    <li>dontDestroyMonument->\n\nاگر بنای یادبود طی [keepMonumentTicks_duration] روز پس از ساخت ویران شود، روابط شما با [asker_factionName] تا [goodwillChangeIfMonumentDestroyed] کاهش می یابد.</li>
+    <li>dontDestroyMonument->\n\nاگر بنای یادبود طی [keepMonumentTicks_duration] روز پس از ساخت ویران شود، روابط شما با [asker_factionName] تا [goodwillChangeIfMonumentDestroyed] کاهش می‌یابد.</li>
   </BuildMonument_Basic.questDescriptionRules.rulesStrings>
   
 </LanguageData>

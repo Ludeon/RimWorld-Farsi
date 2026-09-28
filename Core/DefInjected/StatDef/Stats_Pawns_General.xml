@@ -12,7 +12,7 @@
   <!-- EN: caravan riding speed -->
   <CaravanRidingSpeedFactor.label>سرعت کاروان سواری</CaravanRidingSpeedFactor.label>
   <!-- EN: The multiplier applied to a person's movement speed when they ride this animal as part of a caravan. Animals can only be ridden in caravans. -->
-  <CaravanRidingSpeedFactor.description>این ضریب برای سرعت حرکت افراد در هنگام سوار شدن بر این حیوان به عنوان بخشی از کاروان اعمال می شود. حیوانات را فقط می توان در کاروان سوار کرد.</CaravanRidingSpeedFactor.description>
+  <CaravanRidingSpeedFactor.description>این ضریب برای سرعت حرکت افراد در هنگام سوار شدن بر این حیوان به عنوان بخشی از کاروان اعمال می‌شود. حیوانات را فقط می‌توان در کاروان سوار کرد.</CaravanRidingSpeedFactor.description>
   
   <!-- EN: carrying capacity -->
   <CarryingCapacity.label>ظرفیت حمل</CarryingCapacity.label>
@@ -44,12 +44,12 @@
   <!-- EN: EMP resistance -->
   <EMPResistance.label>مقاومت EMP</EMPResistance.label>
   <!-- EN: This mechanoid has special shielding and shock-dissipation filaments that reduce the effect of EMP damage by this percentage. This reduces the duration of stuns caused by EMP. -->
-  <EMPResistance.description>این مکانوئید دارای رشته های محافظ و ضربه گیر ویژه‌ای است که اثر آسیب EMP را تا این درصد کاهش می دهد. این باعث کاهش مدت زمان شوک های ناشی از EMP می شود.</EMPResistance.description>
+  <EMPResistance.description>این مکانوئید دارای رشته های محافظ و ضربه گیر ویژه‌ای است که اثر آسیب EMP را تا این درصد کاهش می‌دهد. این باعث کاهش مدت زمان شوک های ناشی از EMP می‌شود.</EMPResistance.description>
   
   <!-- EN: filth rate -->
   <FilthRate.label>میزان کثیفی</FilthRate.label>
   <!-- EN: How much filth this creature produces.\n\nIt's best to keep filth-producing animals outdoors or on straw matting where their filth won't be a problem. -->
-  <FilthRate.description>این موجود چقدر کثیف تولید می کند.\n\nبهتر است حیوانات مولد کثیفی را در فضای باز یا روی تشک کاهی نگهداری کنید، جایی که کثیفی آنها مشکلی ندارد.</FilthRate.description>
+  <FilthRate.description>این موجود چقدر کثیف تولید می‌کند.\n\nبهتر است حیوانات مولد کثیفی را در فضای باز یا روی تشک کاهی نگهداری کنید، جایی که کثیفی آنها مشکلی ندارد.</FilthRate.description>
   
   <!-- EN: flight cooldown -->
   <FlightCooldown.label>خنک شدن پرواز</FlightCooldown.label>
@@ -61,7 +61,7 @@
   <!-- EN: foraged food amount -->
   <ForagedNutritionPerDay.label>مقدار غذای علوفه‌ای</ForagedNutritionPerDay.label>
   <!-- EN: The amount of nutrition this person will automatically forage per day while traveling by caravan. -->
-  <ForagedNutritionPerDay.description>میزان تغذیه‌ای که این فرد در طول سفر با کاروان به طور خودکار در روز به دست می آورد.</ForagedNutritionPerDay.description>
+  <ForagedNutritionPerDay.description>میزان تغذیه‌ای که این فرد در طول سفر با کاروان به طور خودکار در روز به دست می‌آورد.</ForagedNutritionPerDay.description>
   
   <!-- EN: global learning factor -->
   <GlobalLearningFactor.label>عامل یادگیری جهانی</GlobalLearningFactor.label>
@@ -76,27 +76,27 @@
   <!-- EN: injury healing factor -->
   <InjuryHealingFactor.label>عامل ترمیم آسیب</InjuryHealingFactor.label>
   <!-- EN: The multiplier applied to a person's injury healing rate. -->
-  <InjuryHealingFactor.description>این ضریب بر میزان بهبودی آسیب یک فرد اعمال می شود.</InjuryHealingFactor.description>
+  <InjuryHealingFactor.description>این ضریب بر میزان بهبودی آسیب یک فرد اعمال می‌شود.</InjuryHealingFactor.description>
   
   <!-- EN: recreation fall rate -->
   <JoyFallRateFactor.label>نرخ سقوط تفریحی</JoyFallRateFactor.label>
   <!-- EN: A multiplier on the speed that a person's recreation need falls. -->
-  <JoyFallRateFactor.description>ضریب سرعتی که برای تفریح ​​یک فرد نیاز دارد کاهش می یابد.</JoyFallRateFactor.description>
+  <JoyFallRateFactor.description>ضریب سرعتی که برای تفریح ​​یک فرد نیاز دارد کاهش می‌یابد.</JoyFallRateFactor.description>
   
   <!-- EN: leather amount -->
   <LeatherAmount.label>مقدار چرم</LeatherAmount.label>
   <!-- EN: The amount of leather yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
-  <LeatherAmount.description>مقدار چرم به دست آمده هنگام قصابی این موجود. اگر موجودی تمیز ذبح نشود یا در هنگام کشته شدن زخمی شود، این مقدار کاهش می یابد.</LeatherAmount.description>
+  <LeatherAmount.description>مقدار چرم به دست آمده هنگام قصابی این موجود. اگر موجودی تمیز ذبح نشود یا در هنگام کشته شدن زخمی شود، این مقدار کاهش می‌یابد.</LeatherAmount.description>
   
   <!-- EN: lifespan factor -->
   <LifespanFactor.label>فاکتور طول عمر</LifespanFactor.label>
   <!-- EN: Lifespan factor alters the effective lifespan of a creature by shortening or lengthening the time until they develop age-related diseases. A lifespan factor over 100% delays disease onset and increases overall lifespan, while a lifespan factor under 100% speeds up disease onset and reduces lifespan. -->
-  <LifespanFactor.description>فاکتور طول عمر با کوتاه کردن یا طولانی‌تر کردن زمان تا ابتلا به بیماری‌های مرتبط با افزایش سن، طول عمر مؤثر موجود را تغییر می‌دهد. فاکتور طول عمر بیش از 100 درصد شروع بیماری را به تأخیر می اندازد و طول عمر کلی را افزایش می دهد، در حالی که فاکتور طول عمر کمتر از 100 درصد شروع بیماری را سرعت می بخشد و طول عمر را کاهش می دهد.</LifespanFactor.description>
+  <LifespanFactor.description>فاکتور طول عمر با کوتاه کردن یا طولانی‌تر کردن زمان تا ابتلا به بیماری‌های مرتبط با افزایش سن، طول عمر مؤثر موجود را تغییر می‌دهد. فاکتور طول عمر بیش از 100 درصد شروع بیماری را به تأخیر می‌اندازد و طول عمر کلی را افزایش می‌دهد، در حالی که فاکتور طول عمر کمتر از 100 درصد شروع بیماری را سرعت می‌بخشد و طول عمر را کاهش می‌دهد.</LifespanFactor.description>
   
   <!-- EN: max flight time -->
   <MaxFlightTime.label>حداکثر زمان پرواز</MaxFlightTime.label>
   <!-- EN: The maximum amount of time this creature can stay in flight before landing. -->
-  <MaxFlightTime.description>حداکثر زمانی که این موجود می تواند قبل از فرود در پرواز بماند.</MaxFlightTime.description>
+  <MaxFlightTime.description>حداکثر زمانی که این موجود می‌تواند قبل از فرود در پرواز بماند.</MaxFlightTime.description>
   <!-- EN: {0}s -->
   <MaxFlightTime.formatString>{0}s</MaxFlightTime.formatString>
   
@@ -108,12 +108,12 @@
   <!-- EN: meat amount -->
   <MeatAmount.label>مقدار گوشت</MeatAmount.label>
   <!-- EN: The amount of meat yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
-  <MeatAmount.description>مقدار گوشتی که هنگام قصابی این موجود به دست می آید. اگر موجودی تمیز ذبح نشود یا در هنگام کشته شدن زخمی شود، این مقدار کاهش می یابد.</MeatAmount.description>
+  <MeatAmount.description>مقدار گوشتی که هنگام قصابی این موجود به دست می‌آید. اگر موجودی تمیز ذبح نشود یا در هنگام کشته شدن زخمی شود، این مقدار کاهش می‌یابد.</MeatAmount.description>
   
   <!-- EN: meditation psyfocus gain -->
   <MeditationFocusGain.label>افزایش تمرکز روانی مدیتیشن</MeditationFocusGain.label>
   <!-- EN: The amount of psyfocus a person gains per day of meditation, ignoring bonuses from focus objects. -->
-  <MeditationFocusGain.description>میزان تمرکز روانی که یک فرد در هر روز مدیتیشن به دست می آورد، بدون توجه به پاداش های اشیاء متمرکز.</MeditationFocusGain.description>
+  <MeditationFocusGain.description>میزان تمرکز روانی که یک فرد در هر روز مدیتیشن به دست می‌آورد، بدون توجه به پاداش های اشیاء متمرکز.</MeditationFocusGain.description>
   <!-- EN: {0} / day -->
   <MeditationFocusGain.formatString>{0} / روز</MeditationFocusGain.formatString>
   <!-- EN: {0} / day -->
@@ -127,7 +127,7 @@
   <!-- EN: minimum handling skill -->
   <MinimumHandlingSkill.label>حداقل مهارت هندلینگ</MinimumHandlingSkill.label>
   <!-- EN: This creature cannot be tamed, trained, or commanded by anyone with less than this skill in animals. -->
-  <MinimumHandlingSkill.description>این موجود را نمی توان اهلی کرد، آموزش داد یا توسط کسی که کمتر از این مهارت در حیوانات دارد، فرمان داد.</MinimumHandlingSkill.description>
+  <MinimumHandlingSkill.description>این موجود را نمی‌توان اهلی کرد، آموزش داد یا توسط کسی که کمتر از این مهارت در حیوانات دارد، فرمان داد.</MinimumHandlingSkill.description>
   
   <!-- EN: move speed -->
   <MoveSpeed.label>سرعت حرکت</MoveSpeed.label>
@@ -139,29 +139,29 @@
   <!-- EN: pain shock threshold -->
   <PainShockThreshold.label>آستانه شوک درد</PainShockThreshold.label>
   <!-- EN: The pain level at which this creature is downed from pain. -->
-  <PainShockThreshold.description>سطح دردی که این موجود از درد پایین می آید.</PainShockThreshold.description>
+  <PainShockThreshold.description>سطح دردی که این موجود از درد پایین می‌آید.</PainShockThreshold.description>
   
   <!-- EN: neural heat limit -->
   <PsychicEntropyMax.label>حد حرارت عصبی</PsychicEntropyMax.label>
   <!-- EN: The maximum amount of neural heat individual can tolerate safely. -->
-  <PsychicEntropyMax.description>حداکثر مقدار گرمای عصبی که فرد می تواند با خیال راحت تحمل کند.</PsychicEntropyMax.description>
+  <PsychicEntropyMax.description>حداکثر مقدار گرمای عصبی که فرد می‌تواند با خیال راحت تحمل کند.</PsychicEntropyMax.description>
   
   <!-- EN: neural heat recovery rate -->
   <PsychicEntropyRecoveryRate.label>نرخ بازیابی حرارت عصبی</PsychicEntropyRecoveryRate.label>
   <!-- EN: The rate at which this person reduces neural heat. -->
-  <PsychicEntropyRecoveryRate.description>سرعتی که این فرد گرمای عصبی را کاهش می دهد.</PsychicEntropyRecoveryRate.description>
+  <PsychicEntropyRecoveryRate.description>سرعتی که این فرد گرمای عصبی را کاهش می‌دهد.</PsychicEntropyRecoveryRate.description>
   <!-- EN: {0}/s -->
   <PsychicEntropyRecoveryRate.formatString>{0}/s</PsychicEntropyRecoveryRate.formatString>
   
   <!-- EN: psychic sensitivity -->
   <PsychicSensitivity.label>حساسیت روانی</PsychicSensitivity.label>
   <!-- EN: More sensitive people suffer more from negative psychic effects, and benefit more from positive ones. Higher psychic sensitivity also increases neural heat limit. -->
-  <PsychicSensitivity.description>افراد حساس‌تر بیشتر از اثرات منفی روانی رنج می برند و از اثرات مثبت بیشتر بهره می برند. حساسیت روانی بالاتر نیز محدودیت حرارت عصبی را افزایش می دهد.</PsychicSensitivity.description>
+  <PsychicSensitivity.description>افراد حساس‌تر بیشتر از اثرات منفی روانی رنج می‌برند و از اثرات مثبت بیشتر بهره می‌برند. حساسیت روانی بالاتر نیز محدودیت حرارت عصبی را افزایش می‌دهد.</PsychicSensitivity.description>
   
   <!-- EN: sleep fall rate -->
   <RestFallRateFactor.label>میزان افتادن خواب</RestFallRateFactor.label>
   <!-- EN: A multiplier on the speed that a person's sleep need falls. -->
-  <RestFallRateFactor.description>ضربدر سرعتی که یک فرد به خواب نیاز دارد کاهش می یابد.</RestFallRateFactor.description>
+  <RestFallRateFactor.description>ضربدر سرعتی که یک فرد به خواب نیاز دارد کاهش می‌یابد.</RestFallRateFactor.description>
   
   <!-- EN: rest rate multiplier -->
   <RestRateMultiplier.label>ضرب کننده نرخ استراحت</RestRateMultiplier.label>
@@ -171,12 +171,12 @@
   <!-- EN: toxic environment resistance -->
   <ToxicEnvironmentResistance.label>مقاومت در برابر محیط سمی</ToxicEnvironmentResistance.label>
   <!-- EN: How resistant this creature is to the effects of environmental toxins. This protects against tox gas, rot stink, toxic fallout, and polluted terrain, but not against direct attacks with venom or injected poison. When this value is higher, exposure to pollution produces proportionally less toxic buildup in the body. -->
-  <ToxicEnvironmentResistance.description>این موجود چقدر در برابر اثرات سموم محیطی مقاوم است. این امر در برابر گاز سمی، بوی بد پوسیدگی، ریزش سمی و زمین های آلوده محافظت می کند، اما نه در برابر حملات مستقیم سم یا سم تزریق شده. هنگامی که این مقدار بالاتر باشد، قرار گرفتن در معرض آلودگی به نسبت کمتری در بدن تجمع سمی ایجاد می کند.</ToxicEnvironmentResistance.description>
+  <ToxicEnvironmentResistance.description>این موجود چقدر در برابر اثرات سموم محیطی مقاوم است. این امر در برابر گاز سمی، بوی بد پوسیدگی، ریزش سمی و زمین های آلوده محافظت می‌کند، اما نه در برابر حملات مستقیم سم یا سم تزریق شده. هنگامی که این مقدار بالاتر باشد، قرار گرفتن در معرض آلودگی به نسبت کمتری در بدن تجمع سمی ایجاد می‌کند.</ToxicEnvironmentResistance.description>
   
   <!-- EN: toxic resistance -->
   <ToxicResistance.label>مقاومت سمی</ToxicResistance.label>
   <!-- EN: How well this creature resists toxic buildup. -->
-  <ToxicResistance.description>چقدر این موجود در برابر تجمعات سمی مقاومت می کند.</ToxicResistance.description>
+  <ToxicResistance.description>چقدر این موجود در برابر تجمعات سمی مقاومت می‌کند.</ToxicResistance.description>
   
   <!-- EN: wildness -->
   <Wildness.label>وحشی</Wildness.label>

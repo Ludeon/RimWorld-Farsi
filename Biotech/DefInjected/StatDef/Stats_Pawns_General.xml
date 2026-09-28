@@ -4,7 +4,7 @@
   <!-- EN: bandwidth cost -->
   <BandwidthCost.label>هزینه پهنای باند</BandwidthCost.label>
   <!-- EN: How much bandwidth this mech consumes when under mechanitor control. -->
-  <BandwidthCost.description>این مکانیک چه مقدار پهنای باند مصرف می کند که تحت کنترل مکانیتور است.</BandwidthCost.description>
+  <BandwidthCost.description>این مکانیک چه مقدار پهنای باند مصرف می‌کند که تحت کنترل مکانیتور است.</BandwidthCost.description>
   
   <!-- EN: cancer rate factor -->
   <CancerRate.label>عامل نرخ سرطان</CancerRate.label>
@@ -14,14 +14,14 @@
   <!-- EN: control taking time -->
   <ControlTakingTime.label>زمان گرفتن را کنترل کنید</ControlTakingTime.label>
   <!-- EN: How many seconds it will take for a mechanitor to take control of this mech. -->
-  <ControlTakingTime.description>چند ثانیه طول می کشد تا یک مکانیک کنترل این ماشین را به دست بگیرد.</ControlTakingTime.description>
+  <ControlTakingTime.description>چند ثانیه طول می‌کشد تا یک مکانیک کنترل این ماشین را به دست بگیرد.</ControlTakingTime.description>
   <!-- EN: {0}s -->
   <ControlTakingTime.formatString>{0}s</ControlTakingTime.formatString>
   
   <!-- EN: fertility -->
   <Fertility.label>باروری</Fertility.label>
   <!-- EN: Fertility affects the chance of a pregnancy occurring. Pregnancy chance is dependent on the fertility of both partners. This also affects the chance of successfully implanting an embryo in a surrogate. -->
-  <Fertility.description>باروری بر شانس بارداری تأثیر می گذارد. شانس بارداری به باروری هر دو طرف بستگی دارد. این همچنین بر شانس کاشت موفقیت آمیز یک جنین در یک جانشین تأثیر می گذارد.</Fertility.description>
+  <Fertility.description>باروری بر شانس بارداری تأثیر می‌گذارد. شانس بارداری به باروری هر دو طرف بستگی دارد. این همچنین بر شانس کاشت موفقیت آمیز یک جنین در یک جانشین تأثیر می‌گذارد.</Fertility.description>
   
   <!-- EN: growth vat occupant speed -->
   <GrowthVatOccupantSpeed.label>سرعت رشد ساکنان مالیات بر ارزش افزوده</GrowthVatOccupantSpeed.label>
@@ -46,12 +46,12 @@
   <!-- EN: mech control groups -->
   <MechControlGroups.label>گروه های کنترل مکانیکی</MechControlGroups.label>
   <!-- EN: How many control groups this mechanitor can direct independently. Each control group can be given its own separate orders. -->
-  <MechControlGroups.description>چند گروه کنترل را این مکانیکور می تواند به طور مستقل هدایت کند. به هر گروه کنترل می توان دستورات جداگانه خود را داد.</MechControlGroups.description>
+  <MechControlGroups.description>چند گروه کنترل را این مکانیکور می‌تواند به طور مستقل هدایت کند. به هر گروه کنترل می‌توان دستورات جداگانه خود را داد.</MechControlGroups.description>
   
   <!-- EN: repair energy cost -->
   <MechEnergyLossPerHP.label>هزینه انرژی تعمیر</MechEnergyLossPerHP.label>
   <!-- EN: The amount of energy that this mechanoid loses for every 100 damage repaired. -->
-  <MechEnergyLossPerHP.description>مقدار انرژی که این مکانوئید به ازای هر 100 آسیب تعمیر شده از دست می دهد.</MechEnergyLossPerHP.description>
+  <MechEnergyLossPerHP.description>مقدار انرژی که این مکانوئید به ازای هر 100 آسیب تعمیر شده از دست می‌دهد.</MechEnergyLossPerHP.description>
   
   <!-- EN: energy usage multiplier -->
   <MechEnergyUsageFactor.label>ضریب مصرف انرژی</MechEnergyUsageFactor.label>
@@ -66,22 +66,22 @@
   <!-- EN: mech remote repair distance -->
   <MechRemoteRepairDistance.label>فاصله تعمیر از راه دور مکانیکی</MechRemoteRepairDistance.label>
   <!-- EN: How far away a mech can be during remote repair. -->
-  <MechRemoteRepairDistance.description>یک مکانیک در طول تعمیر از راه دور چقدر می تواند دور باشد.</MechRemoteRepairDistance.description>
+  <MechRemoteRepairDistance.description>یک مکانیک در طول تعمیر از راه دور چقدر می‌تواند دور باشد.</MechRemoteRepairDistance.description>
   
   <!-- EN: mech remote shield distance -->
   <MechRemoteShieldDistance.label>فاصله سپر از راه دور مکانیکی</MechRemoteShieldDistance.label>
   <!-- EN: The maximum range at which a mechanitor can place a shield on a mechanoid. -->
-  <MechRemoteShieldDistance.description>حداکثر محدوده‌ای که یک مکانیتور می تواند یک سپر را روی یک مکانوئید قرار دهد.</MechRemoteShieldDistance.description>
+  <MechRemoteShieldDistance.description>حداکثر محدوده‌ای که یک مکانیتور می‌تواند یک سپر را روی یک مکانوئید قرار دهد.</MechRemoteShieldDistance.description>
   
   <!-- EN: mech remote shield energy -->
   <MechRemoteShieldEnergy.label>انرژی سپر از راه دور مکانیکی</MechRemoteShieldEnergy.label>
   <!-- EN: The energy a remote shield will have when created by a mechanitor. -->
-  <MechRemoteShieldEnergy.description>انرژی یک سپر از راه دور هنگامی که توسط مکانیک ایجاد می شود خواهد داشت.</MechRemoteShieldEnergy.description>
+  <MechRemoteShieldEnergy.description>انرژی یک سپر از راه دور هنگامی که توسط مکانیک ایجاد می‌شود خواهد داشت.</MechRemoteShieldEnergy.description>
   
   <!-- EN: mech repair speed -->
   <MechRepairSpeed.label>سرعت تعمیر مکانیک</MechRepairSpeed.label>
   <!-- EN: A multiplier on how fast a mechanitor can repair mechanoids. -->
-  <MechRepairSpeed.description>ضریب افزایش سرعت مکانیکال که می تواند مکانیسم‌ها را تعمیر کند.</MechRepairSpeed.description>
+  <MechRepairSpeed.description>ضریب افزایش سرعت مکانیکال که می‌تواند مکانیسم‌ها را تعمیر کند.</MechRepairSpeed.description>
   
   <!-- EN: raw nutrition multiplier -->
   <RawNutritionFactor.label>ضریب تغذیه خام</RawNutritionFactor.label>
@@ -91,7 +91,7 @@
   <!-- EN: subcore encoding speed -->
   <SubcoreEncodingSpeed.label>سرعت رمزگذاری زیر هسته</SubcoreEncodingSpeed.label>
   <!-- EN: A multiplier on how fast a mechanitor can create subcores. -->
-  <SubcoreEncodingSpeed.description>ضریب افزایش سرعت مکانیکال می تواند زیرهسته ایجاد کند.</SubcoreEncodingSpeed.description>
+  <SubcoreEncodingSpeed.description>ضریب افزایش سرعت مکانیکال می‌تواند زیرهسته ایجاد کند.</SubcoreEncodingSpeed.description>
   
   <!-- EN: wastepacks per recharge -->
   <WastepacksPerRecharge.label>بسته های زباله در هر شارژ مجدد</WastepacksPerRecharge.label>

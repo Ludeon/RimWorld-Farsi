@@ -85,7 +85,7 @@
   <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
     <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
     <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
-    <li>questDescription->یک شاتل [asker_faction_name] آسیب دیده است و به دنبال مکانی برای فرود است. فرمانده آن [asker_nameDef] می‌خواهد در [map_definite] فرود بیاید.\n\n[enemyFaction_pawnsPlural] از [enemyFaction_name] در تلاش برای کشتن سرنشینان به سایت شاتل سقوط کرده حمله می‌کند. شما باید از آنها دفاع کنید.\n\nشاتل شامل [asker_nameDef][andOtherCivilians] و [soldierCountKinds] است. فرمانده [andCivilians] باید نجات یابد، اما [soldiers0_kindPlural] ممکن است قربانی شود.\n\nبعد از [rescueDelay_duration]، یک شاتل نجات می آید تا بازماندگان را بگیرد. باید همه آنها را در [leaveDelay_duration] وارد کنید.</li>
+    <li>questDescription->یک شاتل [asker_faction_name] آسیب دیده است و به دنبال مکانی برای فرود است. فرمانده آن [asker_nameDef] می‌خواهد در [map_definite] فرود بیاید.\n\n[enemyFaction_pawnsPlural] از [enemyFaction_name] در تلاش برای کشتن سرنشینان به سایت شاتل سقوط کرده حمله می‌کند. شما باید از آنها دفاع کنید.\n\nشاتل شامل [asker_nameDef][andOtherCivilians] و [soldierCountKinds] است. فرمانده [andCivilians] باید نجات یابد، اما [soldiers0_kindPlural] ممکن است قربانی شود.\n\nبعد از [rescueDelay_duration]، یک شاتل نجات می‌آید تا بازماندگان را بگیرد. باید همه آنها را در [leaveDelay_duration] وارد کنید.</li>
     <li>andOtherCivilians(civilians_count==1)-></li>
     <li>andOtherCivilians(civilians_count==2)->، [pawnLabel] دیگر،</li>
     <li>andOtherCivilians(civilians_count>=3)->، [civilianCountMinusOne] [pawnLabelSingleOrPlural] دیگر،</li>

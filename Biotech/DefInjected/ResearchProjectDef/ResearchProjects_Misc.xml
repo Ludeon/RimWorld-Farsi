@@ -4,7 +4,7 @@
   <!-- EN: archogenetics -->
   <Archogenetics.label>آرشوژنتیک</Archogenetics.label>
   <!-- EN: Allows a gene assembler to use archite capsules to create seemingly impossible genes. Archite genes and archite capsules can be obtained from traders. -->
-  <Archogenetics.description>به یک مونتاژکننده ژن اجازه می دهد از کپسول های آرشیت برای ایجاد ژن های به ظاهر غیرممکن استفاده کند. ژن های آرشیت و کپسول های آرشیت را می توان از تاجران تهیه کرد.</Archogenetics.description>
+  <Archogenetics.description>به یک مونتاژکننده ژن اجازه می‌دهد از کپسول های آرشیت برای ایجاد ژن های به ظاهر غیرممکن استفاده کند. ژن های آرشیت و کپسول های آرشیت را می‌توان از تاجران تهیه کرد.</Archogenetics.description>
   <!-- EN:
     <li>subject->archogenetics</li>
     <li>subject_story->excavated archite genes from the transcendent moon of Ix</li>
@@ -25,7 +25,7 @@
   <!-- EN: deathrest -->
   <Deathrest.label>مرگ</Deathrest.label>
   <!-- EN: Those with the deathrest gene must periodically undergo a special deathrest coma that lasts several days. This research project allows you to construct buildings which accelerate the deathrest coma and confer specific bonuses on the deathrester. Over time, you can build a grand deathrest temple. -->
-  <Deathrest.description>افرادی که دارای ژن مرگ و میر هستند باید به طور دوره‌ای تحت یک کمای مرگ آور ویژه قرار گیرند که چند روز طول می کشد. این پروژه تحقیقاتی به شما امکان می‌دهد ساختمان‌هایی بسازید که کمای مرگ را تسریع می‌کنند و پاداش‌های خاصی را به فرد بازدارنده می‌دهند. با گذشت زمان، می توانید یک معبد بزرگ مرگ بسازید.</Deathrest.description>
+  <Deathrest.description>افرادی که دارای ژن مرگ و میر هستند باید به طور دوره‌ای تحت یک کمای مرگ آور ویژه قرار گیرند که چند روز طول می‌کشد. این پروژه تحقیقاتی به شما امکان می‌دهد ساختمان‌هایی بسازید که کمای مرگ را تسریع می‌کنند و پاداش‌های خاصی را به فرد بازدارنده می‌دهند. با گذشت زمان، می‌توانید یک معبد بزرگ مرگ بسازید.</Deathrest.description>
   <!-- EN:
     <li>subject->deathrest</li>
     <li>subject_story->dissected corpses from a deathrest temple, finally understanding how it worked</li>
@@ -36,8 +36,8 @@
   -->
   <Deathrest.generalRules.rulesStrings>
     <li>subject->مرگ</li>
-    <li>subject_story->اجساد را از یک معبد مرگ جدا کرد و سرانجام فهمید که چگونه کار می کند</li>
-    <li>subject_story->با یک سلبریتی مصاحبه کرد که به نظر می رسید هرگز پیر نشده بود و در نهایت رازهای او را یاد گرفت</li>
+    <li>subject_story->اجساد را از یک معبد مرگ جدا کرد و سرانجام فهمید که چگونه کار می‌کند</li>
+    <li>subject_story->با یک سلبریتی مصاحبه کرد که به نظر می‌رسید هرگز پیر نشده بود و در نهایت رازهای او را یاد گرفت</li>
     <li>subject_story->تلاش کرد تا این فناوری را تکرار کند و به کما رفت و چند هفته بعد از خواب بیدار شد</li>
     <li>subject_gerund->ساخت تاسیسات استراحت مرگ</li>
     <li>subject_gerund->بهبود وضعیت مرگ</li>
@@ -67,7 +67,7 @@
   <!-- EN: gene processor -->
   <GeneProcessor.label>پردازنده ژن</GeneProcessor.label>
   <!-- EN: Build gene processors, which allow a gene assembler to create xenogerms of higher genetic complexity. -->
-  <GeneProcessor.description>پردازشگرهای ژنی بسازید که به یک مونتاژکننده ژن اجازه می دهد تا زنوگرم هایی با پیچیدگی ژنتیکی بالاتر ایجاد کند.</GeneProcessor.description>
+  <GeneProcessor.description>پردازشگرهای ژنی بسازید که به یک مونتاژکننده ژن اجازه می‌دهد تا زنوگرم هایی با پیچیدگی ژنتیکی بالاتر ایجاد کند.</GeneProcessor.description>
   <!-- EN:
     <li>subject->gene processors</li>
     <li>subject_story->extracted Glitterworld genes from a drifting derelict</li>
@@ -88,7 +88,7 @@
   <!-- EN: growth vats -->
   <GrowthVats.label>خمره های رشد</GrowthVats.label>
   <!-- EN: Construct growth vats which can gestate an embryo or accelerate a child's growth. -->
-  <GrowthVats.description>خمره های رشد بسازید که می توانند جنین را باردار کنند یا رشد کودک را تسریع کنند.</GrowthVats.description>
+  <GrowthVats.description>خمره های رشد بسازید که می‌توانند جنین را باردار کنند یا رشد کودک را تسریع کنند.</GrowthVats.description>
   <!-- EN:
     <li>subject->advanced gestation</li>
     <li>subject->artificial wombs</li>
@@ -113,7 +113,7 @@
   <!-- EN: toxin filtration -->
   <ToxFiltration.label>فیلتراسیون سموم</ToxFiltration.label>
   <!-- EN: Craft and install bionic organs that can filter out toxins from the environment and from enemy attacks. -->
-  <ToxFiltration.description>اندام های بیونیک را بسازید و نصب کنید که می توانند سموم را از محیط و حملات دشمن فیلتر کنند.</ToxFiltration.description>
+  <ToxFiltration.description>اندام های بیونیک را بسازید و نصب کنید که می‌توانند سموم را از محیط و حملات دشمن فیلتر کنند.</ToxFiltration.description>
   <!-- EN:
     <li>subject->toxin filtration</li>
     <li>subject->toxin metabolisation</li>
@@ -136,7 +136,7 @@
   <!-- EN: tox gas -->
   <ToxGas.label>گاز سمی</ToxGas.label>
   <!-- EN: Produce weapons that utilize caustic tox gas. -->
-  <ToxGas.description>سلاح هایی تولید کنید که از گاز سمی سوز آور استفاده می کنند.</ToxGas.description>
+  <ToxGas.description>سلاح هایی تولید کنید که از گاز سمی سوز آور استفاده می‌کنند.</ToxGas.description>
   <!-- EN:
     <li>subject->gas weaponry</li>
     <li>subject->chemical warfare</li>
@@ -148,7 +148,7 @@
   <ToxGas.generalRules.rulesStrings>
     <li>subject->تسلیحات گازی</li>
     <li>subject->جنگ شیمیایی</li>
-    <li>subject_story->رویای سلاحی برای پایان دادن به همه جنگ‌ها را در سر می پروراند</li>
+    <li>subject_story->رویای سلاحی برای پایان دادن به همه جنگ‌ها را در سر می‌پروراند</li>
     <li>subject_story->برای تمرین شیمی بیشتر از کلاس های اخلاق صرف نظر کرد</li>
     <li>subject_story->فناوری کنترل ابری را برای استبداد دنیای مرگ تحقیق کرد</li>
     <li>subject_gerund->ساخت سلاح های گاز سمی</li>
@@ -157,7 +157,7 @@
   <!-- EN: toxifier generator -->
   <ToxifierGenerator.label>مولد سموم</ToxifierGenerator.label>
   <!-- EN: Create toxifier generators which generate electricity, but also spread pollution around themselves. -->
-  <ToxifierGenerator.description>ژنراتورهای سموم ایجاد کنید که برق تولید می کنند، اما آلودگی را در اطراف خود پخش می کنند.</ToxifierGenerator.description>
+  <ToxifierGenerator.description>ژنراتورهای سموم ایجاد کنید که برق تولید می‌کنند، اما آلودگی را در اطراف خود پخش می‌کنند.</ToxifierGenerator.description>
   <!-- EN:
     <li>subject->toxifier generator</li>
     <li>subject_story->led a clean-up crew to a toxic planetoid</li>

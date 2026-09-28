@@ -15,15 +15,15 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s listen attentively.</li>
   -->
   <AttendedConcert.rulePack.rulesStrings>
-    <li>tale_noun->[ATTENDER_nameDef] در کنسرت [ORGANIZER_nameDef] شرکت می کند</li>
+    <li>tale_noun->[ATTENDER_nameDef] در کنسرت [ORGANIZER_nameDef] شرکت می‌کند</li>
     <li>tale_noun->[ATTENDER_nameDef] در حال گوش دادن به عملکرد [ORGANIZER_nameDef]</li>
-    <li>image->[ATTENDER_nameFull] بی سر و صدا گوش می دهد، [circumstance_group]</li>
-    <li>image->[ATTENDER_nameFull] از عملکرد [ORGANIZER_nameFull] [circumstance_group] لذت می برد</li>
+    <li>image->[ATTENDER_nameFull] بی سر و صدا گوش می‌دهد، [circumstance_group]</li>
+    <li>image->[ATTENDER_nameFull] از عملکرد [ORGANIZER_nameFull] [circumstance_group] لذت می‌برد</li>
     <li>image->[ATTENDER_nameFull] در حال نوسان به موسیقی [circumstance_group]</li>
-    <li>image->[ATTENDER_nameFull] در صدای [circumstance_group] جذب می شود</li>
+    <li>image->[ATTENDER_nameFull] در صدای [circumstance_group] جذب می‌شود</li>
     <li>circumstance_phrase->هنگام کف زدن</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] با هم می رقصند.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] با دقت گوش می دهند.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] با هم می‌رقصند.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] با دقت گوش می‌دهند.</li>
   </AttendedConcert.rulePack.rulesStrings>
   
   <!-- EN: held concert -->
@@ -41,12 +41,12 @@
   <HeldConcert.rulePack.rulesStrings>
     <li>tale_noun->[ORGANIZER_nameDef] در حال اجرای کنسرت</li>
     <li>image->[ORGANIZER_nameFull] در حال پخش آهنگ امضای خود [circumstance_group]</li>
-    <li>image->[ORGANIZER_nameFull] جمعیت را به آواز خواندن دعوت می کند</li>
+    <li>image->[ORGANIZER_nameFull] جمعیت را به آواز خواندن دعوت می‌کند</li>
     <li>image->[ORGANIZER_nameFull] در حال پخش یک آهنگ الهام بخش</li>
     <li>image->[ORGANIZER_nameFull] در حال اجرای یک قطعه دشوار [circumstance_group]</li>
     <li>circumstance_phrase->با یک عبارت شدید</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] در همین نزدیکی گوش می دهند.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] در این نزدیکی گوش می دهند.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] در همین نزدیکی گوش می‌دهند.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] در این نزدیکی گوش می‌دهند.</li>
   </HeldConcert.rulePack.rulesStrings>
   
 </LanguageData>

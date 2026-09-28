@@ -4,12 +4,12 @@
   <!-- EN: brazier -->
   <Brazier.label>منقل</Brazier.label>
   <!-- EN: A bowl-shaped furnishing used to hold a fire. Will light the surroundings and create heat. -->
-  <Brazier.description>وسیله‌ای کاسه‌ای شکل که برای نگه داشتن آتش استفاده می شود. محیط اطراف را روشن می کند و گرما ایجاد می کند.</Brazier.description>
+  <Brazier.description>وسیله‌ای کاسه‌ای شکل که برای نگه داشتن آتش استفاده می‌شود. محیط اطراف را روشن می‌کند و گرما ایجاد می‌کند.</Brazier.description>
   
   <!-- EN: darklight brazier -->
   <DarklightBrazier.label>منقل تاریک</DarklightBrazier.label>
   <!-- EN: A specially treated brazier that illuminates its surroundings with darklight and creates heat. These satisfy royal brazier requirements. -->
-  <DarklightBrazier.description>منقل مخصوصی که محیط اطراف خود را با نور تاریک روشن می کند و گرما ایجاد می کند. اینها نیازهای منقل سلطنتی را برآورده می کنند.</DarklightBrazier.description>
+  <DarklightBrazier.description>منقل مخصوصی که محیط اطراف خود را با نور تاریک روشن می‌کند و گرما ایجاد می‌کند. اینها نیازهای منقل سلطنتی را برآورده می‌کنند.</DarklightBrazier.description>
   
   <!-- EN: drape -->
   <Drape.label>پرده</Drape.label>
@@ -19,14 +19,14 @@
   <!-- EN: grand meditation throne -->
   <GrandThrone.label>تاج و تخت مراقبه بزرگ</GrandThrone.label>
   <!-- EN: A massive, ornate chair, designed for a dignity-focused psycaster to sit and meditate. Reigning on a throne is a form of meditation that builds up psyfocus. For dignity psycasters, more impressive meditation thrones and thronerooms increase the rate of psyfocus gain. -->
-  <GrandThrone.description>صندلی بزرگ و پرآذینی که برای یک روان‌پرور متمرکز بر وقار طراحی شده است تا بنشیند و مراقبه کند. سلطنت بر تاج و تخت نوعی مراقبه است که تمرکز روانی را ایجاد می کند. برای روان‌گردان‌های با وقار، تاج و تخت‌های مراقبه و تاج و تخت‌های تأثیرگذارتر، میزان افزایش تمرکز روانی را افزایش می‌دهند.</GrandThrone.description>
+  <GrandThrone.description>صندلی بزرگ و پرآذینی که برای یک روان‌پرور متمرکز بر وقار طراحی شده است تا بنشیند و مراقبه کند. سلطنت بر تاج و تخت نوعی مراقبه است که تمرکز روانی را ایجاد می‌کند. برای روان‌گردان‌های با وقار، تاج و تخت‌های مراقبه و تاج و تخت‌های تأثیرگذارتر، میزان افزایش تمرکز روانی را افزایش می‌دهند.</GrandThrone.description>
   <!-- EN: Throne ownership requires a person with a royal title. -->
   <GrandThrone.comps.CompAssignableToPawn_Throne.noAssignablePawnsDesc>مالکیت تاج و تخت مستلزم شخصی با عنوان سلطنتی است.</GrandThrone.comps.CompAssignableToPawn_Throne.noAssignablePawnsDesc>
   
   <!-- EN: meditation throne -->
   <Throne.label>تخت مراقبه</Throne.label>
   <!-- EN: A large, ornate chair designed for a dignity-focused psycaster to sit and meditate. Reigning on a throne is a form of meditation that builds up psyfocus. For dignity psycasters, more impressive meditation thrones and thronerooms increase the rate of psyfocus gain. -->
-  <Throne.description>صندلی بزرگ و پرآذینی که برای روانی متمرکز بر وقار طراحی شده است تا بنشیند و مراقبه کند. سلطنت بر تاج و تخت نوعی مراقبه است که تمرکز روانی را ایجاد می کند. برای روان‌گردان‌های با وقار، تاج و تخت‌های مراقبه و تاج و تخت‌های تأثیرگذارتر، میزان افزایش تمرکز روانی را افزایش می‌دهند.</Throne.description>
+  <Throne.description>صندلی بزرگ و پرآذینی که برای روانی متمرکز بر وقار طراحی شده است تا بنشیند و مراقبه کند. سلطنت بر تاج و تخت نوعی مراقبه است که تمرکز روانی را ایجاد می‌کند. برای روان‌گردان‌های با وقار، تاج و تخت‌های مراقبه و تاج و تخت‌های تأثیرگذارتر، میزان افزایش تمرکز روانی را افزایش می‌دهند.</Throne.description>
   <!-- EN: Throne ownership requires a person with a royal title. -->
   <Throne.comps.CompAssignableToPawn_Throne.noAssignablePawnsDesc>مالکیت تاج و تخت مستلزم شخصی با عنوان سلطنتی است.</Throne.comps.CompAssignableToPawn_Throne.noAssignablePawnsDesc>
   

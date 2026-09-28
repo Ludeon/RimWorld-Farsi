@@ -33,7 +33,7 @@
   <!-- EN: Inspired: Inspired creativity -->
   <Inspired_Creativity.baseInspectLine>الهام گرفته: الهام بخش خلاقیت</Inspired_Creativity.baseInspectLine>
   <!-- EN: The next item, art, or furniture [PAWN_pronoun] creates will be two quality levels higher than it would otherwise be. This even allows the creation of legendary items.\n\nThe inspiration will end after 8 days, or when the creation is completed. -->
-  <Inspired_Creativity.beginLetter>آیتم، هنر یا مبلمان بعدی که [PAWN_pronoun] ایجاد می کند، دو سطح کیفی بالاتر از آنچه در غیر این صورت بود، خواهد بود. این حتی امکان ایجاد آیتم‌های افسانه‌ای را نیز فراهم می‌کند.\n\nاین الهام پس از 8 روز یا زمانی که ایجاد کامل شد به پایان می‌رسد.</Inspired_Creativity.beginLetter>
+  <Inspired_Creativity.beginLetter>آیتم، هنر یا مبلمان بعدی که [PAWN_pronoun] ایجاد می‌کند، دو سطح کیفی بالاتر از آنچه در غیر این صورت بود، خواهد بود. این حتی امکان ایجاد آیتم‌های افسانه‌ای را نیز فراهم می‌کند.\n\nاین الهام پس از 8 روز یا زمانی که ایجاد کامل شد به پایان می‌رسد.</Inspired_Creativity.beginLetter>
   <!-- EN: {0} is no longer inspired (inspired creativity). -->
   <Inspired_Creativity.endMessage>{0} دیگر الهام گرفته نشده است (خلاقیت الهام گرفته شده).</Inspired_Creativity.endMessage>
   
@@ -42,18 +42,18 @@
   <!-- EN: Inspired: Inspired recruitment -->
   <Inspired_Recruitment.baseInspectLine>الهام گرفته: استخدام الهام گرفته</Inspired_Recruitment.baseInspectLine>
   <!-- EN: [PAWN_pronoun] will successfully recruit the next prisoner regardless of difficulty or resistance, as long as they are not unwaveringly loyal.\n\nThe inspiration will end after 8 days, or when the prisoner is recruited. -->
-  <Inspired_Recruitment.beginLetter>[PAWN_pronoun] زندانی بعدی را بدون توجه به سختی یا مقاومت، با موفقیت به خدمت می گیرد، تا زمانی که آنها بی دریغ وفادار نباشند.\n\nاین الهام بعد از 8 روز یا زمانی که زندانی جذب شود، به پایان می رسد.</Inspired_Recruitment.beginLetter>
+  <Inspired_Recruitment.beginLetter>[PAWN_pronoun] زندانی بعدی را بدون توجه به سختی یا مقاومت، با موفقیت به خدمت می‌گیرد، تا زمانی که آنها بی دریغ وفادار نباشند.\n\nاین الهام بعد از 8 روز یا زمانی که زندانی جذب شود، به پایان می‌رسد.</Inspired_Recruitment.beginLetter>
   <!-- EN: {0} is no longer inspired (inspired recruitment). -->
-  <Inspired_Recruitment.endMessage>{0} دیگر الهام گرفته نمی شود (استخدام الهام گرفته).</Inspired_Recruitment.endMessage>
+  <Inspired_Recruitment.endMessage>{0} دیگر الهام گرفته نمی‌شود (استخدام الهام گرفته).</Inspired_Recruitment.endMessage>
   
   <!-- EN: inspired surgery -->
   <Inspired_Surgery.label>جراحی الهام گرفته شده</Inspired_Surgery.label>
   <!-- EN: Inspired: Inspired surgery -->
   <Inspired_Surgery.baseInspectLine>الهام گرفته: جراحی الهام گرفته شده</Inspired_Surgery.baseInspectLine>
   <!-- EN: The next time [PAWN_pronoun] performs a surgery, [PAWN_possessive] chance of success will be doubled. A small minimum chance of failure still applies.\n\nThe inspiration will end after 8 days, or when the surgery is performed. -->
-  <Inspired_Surgery.beginLetter>دفعه بعد که [PAWN_pronoun] عمل جراحی را انجام می دهد، شانس موفقیت [PAWN_possessive] دو برابر خواهد شد. کمترین احتمال شکست همچنان وجود دارد.\n\nالهام بعد از 8 روز یا زمانی که جراحی انجام شد پایان می‌یابد.</Inspired_Surgery.beginLetter>
+  <Inspired_Surgery.beginLetter>دفعه بعد که [PAWN_pronoun] عمل جراحی را انجام می‌دهد، شانس موفقیت [PAWN_possessive] دو برابر خواهد شد. کمترین احتمال شکست همچنان وجود دارد.\n\nالهام بعد از 8 روز یا زمانی که جراحی انجام شد پایان می‌یابد.</Inspired_Surgery.beginLetter>
   <!-- EN: {0} is no longer inspired (inspired surgery). -->
-  <Inspired_Surgery.endMessage>{0} دیگر الهام گرفته نمی شود (جراحی الهام گرفته شده).</Inspired_Surgery.endMessage>
+  <Inspired_Surgery.endMessage>{0} دیگر الهام گرفته نمی‌شود (جراحی الهام گرفته شده).</Inspired_Surgery.endMessage>
   
   <!-- EN: inspired taming -->
   <Inspired_Taming.label>رام کردن الهام گرفته شده</Inspired_Taming.label>
@@ -69,8 +69,8 @@
   <!-- EN: Inspired: Inspired trade -->
   <Inspired_Trade.baseInspectLine>الهام گرفته: تجارت الهام شده</Inspired_Trade.baseInspectLine>
   <!-- EN: [PAWN_pronoun] will get a significant trade price bonus when closing [PAWN_possessive] next trade deal.\n\nThe inspiration will expire after 8 days, or when the deal is done. -->
-  <Inspired_Trade.beginLetter>[PAWN_pronoun] با بستن قرارداد تجاری بعدی [PAWN_possessive]، پاداش قابل توجهی از قیمت معامله دریافت می کند.\n\nاین الهام پس از 8 روز یا پس از اتمام معامله منقضی می شود.</Inspired_Trade.beginLetter>
+  <Inspired_Trade.beginLetter>[PAWN_pronoun] با بستن قرارداد تجاری بعدی [PAWN_possessive]، پاداش قابل توجهی از قیمت معامله دریافت می‌کند.\n\nاین الهام پس از 8 روز یا پس از اتمام معامله منقضی می‌شود.</Inspired_Trade.beginLetter>
   <!-- EN: {0} is no longer inspired (inspired trade). -->
-  <Inspired_Trade.endMessage>{0} دیگر الهام گرفته نمی شود (تجارت الهام گرفته).</Inspired_Trade.endMessage>
+  <Inspired_Trade.endMessage>{0} دیگر الهام گرفته نمی‌شود (تجارت الهام گرفته).</Inspired_Trade.endMessage>
   
 </LanguageData>

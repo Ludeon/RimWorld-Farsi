@@ -34,11 +34,11 @@
   <!-- EN: Mental state: Fleeing in panic -->
   <PanicFlee.baseInspectLine>حالت روانی: فرار در وحشت</PanicFlee.baseInspectLine>
   <!-- EN: {0} is fleeing in panic. -->
-  <PanicFlee.beginLetter>{0} وحشت زده فرار می کند.</PanicFlee.beginLetter>
+  <PanicFlee.beginLetter>{0} وحشت زده فرار می‌کند.</PanicFlee.beginLetter>
   <!-- EN: flee -->
   <PanicFlee.beginLetterLabel>فرار کن</PanicFlee.beginLetterLabel>
   <!-- EN: {0} is no longer fleeing in panic. -->
-  <PanicFlee.recoveryMessage>{0} دیگر وحشت زده فرار نمی کند.</PanicFlee.recoveryMessage>
+  <PanicFlee.recoveryMessage>{0} دیگر وحشت زده فرار نمی‌کند.</PanicFlee.recoveryMessage>
   
   <!-- EN: roaming -->
   <Roaming.label>رومینگ</Roaming.label>
@@ -59,6 +59,6 @@
   <!-- EN: confusion -->
   <WanderConfused.beginLetterLabel>گیجی</WanderConfused.beginLetterLabel>
   <!-- EN: {0} is no longer confused. -->
-  <WanderConfused.recoveryMessage>{0} دیگر گیج نمی شود.</WanderConfused.recoveryMessage>
+  <WanderConfused.recoveryMessage>{0} دیگر گیج نمی‌شود.</WanderConfused.recoveryMessage>
   
 </LanguageData>

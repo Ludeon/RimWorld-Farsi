@@ -20,7 +20,7 @@
   <!-- EN: Analyze... -->
   <NanostructuringChip.comps.CompAnalyzableUnlockResearch.activateLabelString>تجزیه و تحلیل ...</NanostructuringChip.comps.CompAnalyzableUnlockResearch.activateLabelString>
   <!-- EN: By studying the nano structuring chip, {PAWN_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
-  <NanostructuringChip.comps.CompAnalyzableUnlockResearch.completedLetter>{PAWN_labelShort} با مطالعه تراشه ساختاری نانو، بینش مورد نیاز برای پروژه(های) تحقیقاتی {RESEARCH} را به دست آورده است.\n\nمحققان شما اکنون می توانند از میزهای تحقیقاتی برای شروع تحقیق در مورد نحوه استفاده واقعی از این فناوری استفاده کنند.</NanostructuringChip.comps.CompAnalyzableUnlockResearch.completedLetter>
+  <NanostructuringChip.comps.CompAnalyzableUnlockResearch.completedLetter>{PAWN_labelShort} با مطالعه تراشه ساختاری نانو، بینش مورد نیاز برای پروژه(های) تحقیقاتی {RESEARCH} را به دست آورده است.\n\nمحققان شما اکنون می‌توانند از میزهای تحقیقاتی برای شروع تحقیق در مورد نحوه استفاده واقعی از این فناوری استفاده کنند.</NanostructuringChip.comps.CompAnalyzableUnlockResearch.completedLetter>
   <!-- EN: Nano structuring chip studied: {RESEARCH} unlocked -->
   <NanostructuringChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>تراشه ساختاری نانو مورد مطالعه: {RESEARCH} باز شد</NanostructuringChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>
   <!-- EN: Choose who should analyze this -->
@@ -39,7 +39,7 @@
   <!-- EN: Analyze... -->
   <PowerfocusChip.comps.CompAnalyzableUnlockResearch.activateLabelString>تجزیه و تحلیل ...</PowerfocusChip.comps.CompAnalyzableUnlockResearch.activateLabelString>
   <!-- EN: By studying the powerfocus chip, {PAWN_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
-  <PowerfocusChip.comps.CompAnalyzableUnlockResearch.completedLetter>با مطالعه تراشه فوکوس قدرت، {PAWN_labelShort} بینش لازم برای پروژه(های) تحقیقاتی {RESEARCH} را به دست آورده است.\n\nمحققان شما اکنون می توانند از نیمکت های تحقیقاتی برای شروع تحقیق در مورد نحوه استفاده واقعی از این فناوری استفاده کنند.</PowerfocusChip.comps.CompAnalyzableUnlockResearch.completedLetter>
+  <PowerfocusChip.comps.CompAnalyzableUnlockResearch.completedLetter>با مطالعه تراشه فوکوس قدرت، {PAWN_labelShort} بینش لازم برای پروژه(های) تحقیقاتی {RESEARCH} را به دست آورده است.\n\nمحققان شما اکنون می‌توانند از نیمکت های تحقیقاتی برای شروع تحقیق در مورد نحوه استفاده واقعی از این فناوری استفاده کنند.</PowerfocusChip.comps.CompAnalyzableUnlockResearch.completedLetter>
   <!-- EN: Powerfocus chip studied: {RESEARCH} unlocked -->
   <PowerfocusChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>تراشه Powerfocus مطالعه شده: {RESEARCH} باز شده است</PowerfocusChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>
   <!-- EN: Choose who should analyze this -->
@@ -52,7 +52,7 @@
   <!-- EN: tox shell -->
   <Shell_Toxic.label>پوسته سمی</Shell_Toxic.label>
   <!-- EN: An artillery shell containing reagents that, when combined, generate deadly tox gas. When fired, it will stick into the ground and release tox gas for some time before expiring.\n\nTox gas burns the lungs and eyes, causing a temporary shortness of breath and reduction in sight. Continued exposure to tox gas results in toxic buildup that can be lethal. -->
-  <Shell_Toxic.description>یک گلوله توپ حاوی معرف هایی که در صورت ترکیب، گاز سمی مرگبار تولید می کنند. هنگام شلیک، قبل از منقضی شدن مدتی به زمین می‌چسبد و گاز سمی آزاد می‌کند.\n\nگاز سمی ریه‌ها و چشم‌ها را می‌سوزاند و باعث تنگی نفس موقت و کاهش بینایی می‌شود. قرار گرفتن مداوم در معرض گاز سمی منجر به تجمع سمی می شود که می تواند کشنده باشد.</Shell_Toxic.description>
+  <Shell_Toxic.description>یک گلوله توپ حاوی معرف هایی که در صورت ترکیب، گاز سمی مرگبار تولید می‌کنند. هنگام شلیک، قبل از منقضی شدن مدتی به زمین می‌چسبد و گاز سمی آزاد می‌کند.\n\nگاز سمی ریه‌ها و چشم‌ها را می‌سوزاند و باعث تنگی نفس موقت و کاهش بینایی می‌شود. قرار گرفتن مداوم در معرض گاز سمی منجر به تجمع سمی می‌شود که می‌تواند کشنده باشد.</Shell_Toxic.description>
   
   <!-- EN: tox shell -->
   <Shell_Toxic_Releasing.label>پوسته سمی</Shell_Toxic_Releasing.label>
@@ -69,7 +69,7 @@
   <!-- EN: Analyze... -->
   <SignalChip.comps.CompAnalyzableUnlockResearch.activateLabelString>تجزیه و تحلیل ...</SignalChip.comps.CompAnalyzableUnlockResearch.activateLabelString>
   <!-- EN: By studying the signal chip, {PAWN_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
-  <SignalChip.comps.CompAnalyzableUnlockResearch.completedLetter>با مطالعه تراشه سیگنال، {PAWN_labelShort} بینش مورد نیاز برای پروژه(های) تحقیقاتی {RESEARCH} را به دست آورده است.\n\nمحققان شما اکنون می توانند از میزهای تحقیقاتی برای شروع تحقیق در مورد نحوه استفاده واقعی از فناوری استفاده کنند.</SignalChip.comps.CompAnalyzableUnlockResearch.completedLetter>
+  <SignalChip.comps.CompAnalyzableUnlockResearch.completedLetter>با مطالعه تراشه سیگنال، {PAWN_labelShort} بینش مورد نیاز برای پروژه(های) تحقیقاتی {RESEARCH} را به دست آورده است.\n\nمحققان شما اکنون می‌توانند از میزهای تحقیقاتی برای شروع تحقیق در مورد نحوه استفاده واقعی از فناوری استفاده کنند.</SignalChip.comps.CompAnalyzableUnlockResearch.completedLetter>
   <!-- EN: Signal chip studied: {RESEARCH} unlocked -->
   <SignalChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>تراشه سیگنال مطالعه شده: {RESEARCH} قفل شده است</SignalChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>
   <!-- EN: Choose who should analyze this -->
@@ -82,21 +82,21 @@
   <!-- EN: basic subcore -->
   <SubcoreBasic.label>زیر هسته اصلی</SubcoreBasic.label>
   <!-- EN: The simplest possible mechanoid brain, this is a tiny psychodynamic substrate unit housing a dull subpersona. Since this is only a basic-tier subcore, it can only drive the simplest of mechanoids.\n\nLike all mechanoid subcores, it contains a subpersona with a psychic presence, albeit a very faint one. -->
-  <SubcoreBasic.description>ساده‌ترین مغز مکانیکی ممکن، این یک واحد بستر روان پویشی کوچک است که یک زیرشخص کسل کننده را در خود جای داده است. از آنجایی که این فقط یک زیرهسته سطح پایه است، فقط می تواند ساده‌ترین مکانوئیدها را هدایت کند.\n\nمثل همه زیرهسته های مکانیکی، حاوی یک زیرشخص با حضور روانی است، البته بسیار ضعیف.</SubcoreBasic.description>
+  <SubcoreBasic.description>ساده‌ترین مغز مکانیکی ممکن، این یک واحد بستر روان پویشی کوچک است که یک زیرشخص کسل کننده را در خود جای داده است. از آنجایی که این فقط یک زیرهسته سطح پایه است، فقط می‌تواند ساده‌ترین مکانوئیدها را هدایت کند.\n\nمثل همه زیرهسته های مکانیکی، حاوی یک زیرشخص با حضور روانی است، البته بسیار ضعیف.</SubcoreBasic.description>
   
   <!-- EN: high subcore -->
   <SubcoreHigh.label>زیرهسته بالا</SubcoreHigh.label>
   <!-- EN: A high-tier mechanoid brain, this is a psychodynamic substrate unit which supports a sophisticated subpersona. This particular subcore is of the strongest tier, and can power complex ultra-heavy mechanoids.\n\nThe subpersona inside this core approaches a live human in its complexity, though it is of a very different nature. Like any such mind, it has a noticeable psychic presence.\n\nThis subcore could only have been produced by rich pattern transfer from another sophisticated mind. The only way to do this without huge facilities is to ripscan a living person's brain, killing them in the process. -->
-  <SubcoreHigh.description>این یک مغز مکانیکی سطح بالا، یک واحد بستر روان پویا است که از یک زیرشخصی پیچیده پشتیبانی می کند. این زیرهسته خاص از قوی‌ترین سطح است و می‌تواند مکانیزم‌های بسیار سنگین پیچیده را نیرو دهد.\n\nفره‌شخصی درون این هسته با پیچیدگی‌اش به انسان زنده نزدیک می‌شود، اگرچه ماهیت بسیار متفاوتی دارد. مانند هر ذهن دیگری، حضور روانی قابل توجهی دارد.\n\nاین زیرهسته تنها می‌توانست با انتقال الگوی غنی از ذهن پیچیده دیگری تولید شود. تنها راه برای انجام این کار بدون امکانات عظیم این است که مغز یک فرد زنده را ریپ اسکن کنید و در این فرآیند او را بکشید.</SubcoreHigh.description>
+  <SubcoreHigh.description>این یک مغز مکانیکی سطح بالا، یک واحد بستر روان پویا است که از یک زیرشخصی پیچیده پشتیبانی می‌کند. این زیرهسته خاص از قوی‌ترین سطح است و می‌تواند مکانیزم‌های بسیار سنگین پیچیده را نیرو دهد.\n\nفره‌شخصی درون این هسته با پیچیدگی‌اش به انسان زنده نزدیک می‌شود، اگرچه ماهیت بسیار متفاوتی دارد. مانند هر ذهن دیگری، حضور روانی قابل توجهی دارد.\n\nاین زیرهسته تنها می‌توانست با انتقال الگوی غنی از ذهن پیچیده دیگری تولید شود. تنها راه برای انجام این کار بدون امکانات عظیم این است که مغز یک فرد زنده را ریپ اسکن کنید و در این فرآیند او را بکشید.</SubcoreHigh.description>
   
   <!-- EN: standard subcore -->
   <SubcoreRegular.label>زیر هسته استاندارد</SubcoreRegular.label>
   <!-- EN: A standard-tier mechanoid brain, this is a psychodynamic substrate unit supporting a thinking subpersona. This particular subcore is strong enough to drive standard-tier mechanoids.\n\nMechanoids are more than robots, and this is more than a silicon computer. Its thinking, psychically-present subpersona makes it more adaptable than silicon systems. However, this also means it can only be produced by analog pattern transfer from another thinking mind. -->
-  <SubcoreRegular.description>یک مغز مکانیویید سطح استاندارد، این یک واحد بستر روان پویا است که از یک زیرشخص متفکر پشتیبانی می کند. این زیرهسته خاص به اندازه کافی قوی است که بتواند مکانیزم های سطح استاندارد را هدایت کند.\n\nمکانوئیدها بیشتر از ربات‌ها هستند و این بیشتر از یک رایانه سیلیکونی است. زیرشخصیت ذهنی و روانی آن، آن را نسبت به سیستم های سیلیکونی سازگارتر می کند. با این حال، این بدان معناست که تنها با انتقال الگوی آنالوگ از ذهن متفکر دیگری قابل تولید است.</SubcoreRegular.description>
+  <SubcoreRegular.description>یک مغز مکانیویید سطح استاندارد، این یک واحد بستر روان پویا است که از یک زیرشخص متفکر پشتیبانی می‌کند. این زیرهسته خاص به اندازه کافی قوی است که بتواند مکانیزم های سطح استاندارد را هدایت کند.\n\nمکانوئیدها بیشتر از ربات‌ها هستند و این بیشتر از یک رایانه سیلیکونی است. زیرشخصیت ذهنی و روانی آن، آن را نسبت به سیستم های سیلیکونی سازگارتر می‌کند. با این حال، این بدان معناست که تنها با انتقال الگوی آنالوگ از ذهن متفکر دیگری قابل تولید است.</SubcoreRegular.description>
   
   <!-- EN: toxic wastepack -->
   <Wastepack.label>بسته زباله سمی</Wastepack.label>
   <!-- EN: A compacted package of toxic waste that will slowly dissolve if not frozen. The surface is heat-sealed for safe transport. Wastepacks will pollute the surrounding terrain if they dissolve, deteriorate, or are otherwise destroyed.\n\nToxic wastepacks are flammable. If burned or damaged, they will release tox gas. -->
-  <Wastepack.description>یک بسته فشرده از زباله های سمی که اگر منجمد نشود به آرامی حل می شود. سطح برای حمل و نقل ایمن آب بندی شده است. بسته‌های زباله در صورت حل شدن، خراب شدن یا تخریب، زمین‌های اطراف را آلوده می‌کنند.\n\nبسته‌های زباله سمی قابل اشتعال هستند. اگر سوخته یا آسیب ببینند، گاز سمی آزاد می کنند.</Wastepack.description>
+  <Wastepack.description>یک بسته فشرده از زباله های سمی که اگر منجمد نشود به آرامی حل می‌شود. سطح برای حمل و نقل ایمن آب بندی شده است. بسته‌های زباله در صورت حل شدن، خراب شدن یا تخریب، زمین‌های اطراف را آلوده می‌کنند.\n\nبسته‌های زباله سمی قابل اشتعال هستند. اگر سوخته یا آسیب ببینند، گاز سمی آزاد می‌کنند.</Wastepack.description>
   
 </LanguageData>

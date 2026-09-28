@@ -9,7 +9,7 @@
   <!-- EN: Allowed areas -->
   <AllowedAreas.label>مناطق مجاز</AllowedAreas.label>
   <!-- EN: Colonists and colony animals can be assigned to ALLOWED AREAS. This forbids them from taking destinations outside their allowed area.\n\nThis can be used to, for example, forbid colonists from going outside.\n\nYou can create multiple allowed areas and assign them to different colonists and animals.\n\nCreate, delete, and assign allowed areas in the SCHEDULE tab.\n\nPaint allowed areas onto the map using the EXPAND ALLOWED AREA and CLEAR ALLOWED AREA designators in the Architect tab. -->
-  <AllowedAreas.helpText>مستعمرات و حیوانات مستعمره را می توان به مناطق مجاز اختصاص داد. این امر آنها را از رفتن به مقصدهای خارج از منطقه مجاز خود منع می کند.\n\nبرای مثال، می توان از آن برای منع خروج مستعمره نشینان به خارج استفاده کرد.\n\nمی توانید چندین منطقه مجاز ایجاد کنید و آنها را به مستعمره نشینان و حیوانات مختلف اختصاص دهید.\n\nمناطق مجاز را در برگه SCHEDULE ایجاد، حذف و اختصاص دهید.\n\nنقشه را با استفاده از قسمت های مجاز CALLEDAR و EXPELEDEA روی نقشه رنگ کنید. تعیین کننده های منطقه مجاز در برگه معمار.</AllowedAreas.helpText>
+  <AllowedAreas.helpText>مستعمرات و حیوانات مستعمره را می‌توان به مناطق مجاز اختصاص داد. این امر آنها را از رفتن به مقصدهای خارج از منطقه مجاز خود منع می‌کند.\n\nبرای مثال، می‌توان از آن برای منع خروج مستعمره نشینان به خارج استفاده کرد.\n\nمی توانید چندین منطقه مجاز ایجاد کنید و آنها را به مستعمره نشینان و حیوانات مختلف اختصاص دهید.\n\nمناطق مجاز را در برگه SCHEDULE ایجاد، حذف و اختصاص دهید.\n\nنقشه را با استفاده از قسمت های مجاز CALLEDAR و EXPELEDEA روی نقشه رنگ کنید. تعیین کننده های منطقه مجاز در برگه معمار.</AllowedAreas.helpText>
   
   <!-- EN: Animal taming -->
   <AnimalTaming.label>اهلی کردن حیوانات</AnimalTaming.label>
@@ -60,7 +60,7 @@
   <!-- EN: Fire preparation -->
   <FirePreparation.label>آماده سازی آتش</FirePreparation.label>
   <!-- EN: Fires can easily burn down a colony. To defeat them, you must prepare before they happen.\n\nThese design elements can help reduce the damage from fires:\n\n1. Instead of constructing one super-building, build separate buildings with spaces in between.\n\n2. Use less flammable materials. Wood is cheap and fast - but very flammable.\n\n3. Build firebreaks to stop wildfires approaching your base. A strip of concrete floor 3 or 4 cells wide will generally stop an advancing fire. -->
-  <FirePreparation.helpText>آتش به راحتی می تواند یک کلنی را بسوزاند. برای شکست دادن آنها، باید قبل از وقوع آنها آماده شوید.\n\nاین عناصر طراحی می توانند به کاهش آسیب ناشی از آتش سوزی کمک کنند:\n\n1. به جای ساختن یک ساختمان فوق العاده، ساختمان های جداگانه با فضاهای بین آنها بسازید.\n\n2. کمتر از مواد قابل اشتعال استفاده کنید. چوب ارزان و سریع است - اما بسیار قابل اشتعال است.\n\n3. برای جلوگیری از آتش‌سوزی‌هایی که به پایگاه شما نزدیک می‌شوند، آتش‌شکن‌هایی بسازید. یک نوار از کف بتنی به عرض 3 یا 4 سلول معمولاً آتش پیشروی را متوقف می کند.</FirePreparation.helpText>
+  <FirePreparation.helpText>آتش به راحتی می‌تواند یک کلنی را بسوزاند. برای شکست دادن آنها، باید قبل از وقوع آنها آماده شوید.\n\nاین عناصر طراحی می‌توانند به کاهش آسیب ناشی از آتش سوزی کمک کنند:\n\n1. به جای ساختن یک ساختمان فوق العاده، ساختمان های جداگانه با فضاهای بین آنها بسازید.\n\n2. کمتر از مواد قابل اشتعال استفاده کنید. چوب ارزان و سریع است - اما بسیار قابل اشتعال است.\n\n3. برای جلوگیری از آتش‌سوزی‌هایی که به پایگاه شما نزدیک می‌شوند، آتش‌شکن‌هایی بسازید. یک نوار از کف بتنی به عرض 3 یا 4 سلول معمولاً آتش پیشروی را متوقف می‌کند.</FirePreparation.helpText>
   
   <!-- EN: Forbid and allow -->
   <Forbidding.label>منع و اجازه</Forbidding.label>
@@ -70,7 +70,7 @@
   <!-- EN: Forbidding doors -->
   <ForbiddingDoors.label>درهای ممنوعه</ForbiddingDoors.label>
   <!-- EN: You can FORBID doors so colonists and tame animals won't go through them.\n\nNote that this isn't a door lock. Doors are always locked, so enemies can't pass freely. Forbidding just directs your colonists not to use the door. Colonists who are going crazy might use the door anyway. -->
-  <ForbiddingDoors.helpText>می‌توانید درها را ممنوع کنید تا مهاجران و حیوانات اهلی از آنها عبور نکنند.\n\nتوجه داشته باشید که این قفل در نیست. درها همیشه قفل هستند، بنابراین دشمنان نمی توانند آزادانه عبور کنند. منع فقط به مستعمره نشینان دستور می دهد که از در استفاده نکنند. استعمارگرانی که دیوانه می شوند ممکن است به هر حال از در استفاده کنند.</ForbiddingDoors.helpText>
+  <ForbiddingDoors.helpText>می‌توانید درها را ممنوع کنید تا مهاجران و حیوانات اهلی از آنها عبور نکنند.\n\nتوجه داشته باشید که این قفل در نیست. درها همیشه قفل هستند، بنابراین دشمنان نمی‌توانند آزادانه عبور کنند. منع فقط به مستعمره نشینان دستور می‌دهد که از در استفاده نکنند. استعمارگرانی که دیوانه می‌شوند ممکن است به هر حال از در استفاده کنند.</ForbiddingDoors.helpText>
   
   <!-- EN: Forming caravans -->
   <FormCaravan.label>تشکیل کاروان‌ها</FormCaravan.label>
@@ -80,7 +80,7 @@
   <!-- EN: Friendly fire safety -->
   <FriendlyFireSafety.label>ایمنی آتش سوزی دوستانه</FriendlyFireSafety.label>
   <!-- EN: Friendly fire never occurs if the shooter is close to their ally.\n\nFor example, you can safely put a sword-wielding colonist directly in front of a gun-wielding one. The shooter will fire over their friend's shoulder.\n\nThis is a good way to combine ranged and melee fighters. -->
-  <FriendlyFireSafety.helpText>اگر تیرانداز به متحد خود نزدیک باشد، هرگز آتش دوستانه اتفاق نمی‌افتد.\n\nبرای مثال، می‌توانید با خیال راحت یک مستعمره شمشیردار را مستقیماً در مقابل یک اسلحه‌دار قرار دهید. تیرانداز از روی شانه دوستش شلیک می کند.\n\nاین روش خوبی برای ترکیب جنگنده های دور و نزدیک است.</FriendlyFireSafety.helpText>
+  <FriendlyFireSafety.helpText>اگر تیرانداز به متحد خود نزدیک باشد، هرگز آتش دوستانه اتفاق نمی‌افتد.\n\nبرای مثال، می‌توانید با خیال راحت یک مستعمره شمشیردار را مستقیماً در مقابل یک اسلحه‌دار قرار دهید. تیرانداز از روی شانه دوستش شلیک می‌کند.\n\nاین روش خوبی برای ترکیب جنگنده های دور و نزدیک است.</FriendlyFireSafety.helpText>
   
   <!-- EN: Getting more traders -->
   <GettingMoreTraders.label>به دست آوردن معامله گران بیشتر</GettingMoreTraders.label>
@@ -100,7 +100,7 @@
   <!-- EN: Home area -->
   <HomeArea.label>منطقه خانه</HomeArea.label>
   <!-- EN: The HOME AREA tells your colonists which area to clean and where to extinguish fires.\n\nDefine the HOME AREA with the Zones category under the Architect menu. -->
-  <HomeArea.helpText>HOME AREA به ساکنان شما می گوید که کدام منطقه را تمیز کنند و کجا آتش را خاموش کنند.\n\nمنطقه خانه را با دسته Zones در منوی Architect تعریف کنید.</HomeArea.helpText>
+  <HomeArea.helpText>HOME AREA به ساکنان شما می‌گوید که کدام منطقه را تمیز کنند و کجا آتش را خاموش کنند.\n\nمنطقه خانه را با دسته Zones در منوی Architect تعریف کنید.</HomeArea.helpText>
   
   <!-- EN: Hostility response modes -->
   <HostilityResponse.label>حالت های واکنش خصمانه</HostilityResponse.label>
@@ -115,7 +115,7 @@
   <!-- EN: Manual work priorities -->
   <ManualWorkPriorities.label>اولویت های کار دستی</ManualWorkPriorities.label>
   <!-- EN: One of the most important parts of RimWorld is choosing good work settings for your colonists.\n\nPoor work settings can leave essential work unfinished for a long time while colonists waste time on unimportant tasks.\n\nTo give more control over what work colonists do, you can use the Manual Priorities mode in the WORK tab.\n\nIn this mode, each colonist has a priority number for each work type. Colonists will do priority 1 work from left to right, then priority 2 work from left to right, and so on.\n\nIntelligent use of these setting is essential for a large, well-automated colony. -->
-  <ManualWorkPriorities.helpText>یکی از مهم‌ترین بخش‌های RimWorld، انتخاب تنظیمات کار خوب برای مستعمره‌نشین‌هایتان است.\n\nتنظیمات ضعیف کار می‌تواند کارهای ضروری را برای مدت طولانی ناتمام بگذارد در حالی که مستعمره‌نشینان وقت خود را برای کارهای غیر مهم تلف می‌کنند.\n\nبرای کنترل بیشتر بر کاری که مستعمره‌نشینان انجام می‌دهند، می‌توانید از حالت اولویت‌های دستی در برگه WORK استفاده کنید.\n\nدر هر حالت یک عدد قبلی برای هر کار یک عدد مشترک دارد. مستعمره نشینان کار اولویت 1 را از چپ به راست، سپس اولویت 2 از چپ به راست و غیره انجام می دهند.\n\nاستفاده هوشمندانه از این تنظیمات برای یک مستعمره بزرگ و خودکار ضروری است.</ManualWorkPriorities.helpText>
+  <ManualWorkPriorities.helpText>یکی از مهم‌ترین بخش‌های RimWorld، انتخاب تنظیمات کار خوب برای مستعمره‌نشین‌هایتان است.\n\nتنظیمات ضعیف کار می‌تواند کارهای ضروری را برای مدت طولانی ناتمام بگذارد در حالی که مستعمره‌نشینان وقت خود را برای کارهای غیر مهم تلف می‌کنند.\n\nبرای کنترل بیشتر بر کاری که مستعمره‌نشینان انجام می‌دهند، می‌توانید از حالت اولویت‌های دستی در برگه WORK استفاده کنید.\n\nدر هر حالت یک عدد قبلی برای هر کار یک عدد مشترک دارد. مستعمره نشینان کار اولویت 1 را از چپ به راست، سپس اولویت 2 از چپ به راست و غیره انجام می‌دهند.\n\nاستفاده هوشمندانه از این تنظیمات برای یک مستعمره بزرگ و خودکار ضروری است.</ManualWorkPriorities.helpText>
   
   <!-- EN: Medical operations -->
   <MedicalOperations.label>عملیات پزشکی</MedicalOperations.label>
@@ -140,7 +140,7 @@
   <!-- EN: Shot accuracy tooltip -->
   <ShotAccuracyTooltip.label>نکته ابزار دقت عکسبرداری</ShotAccuracyTooltip.label>
   <!-- EN: You can see the exact calculations behind the accuracy of any shot.\n\nTo do so, select the shooter, then rest the mouse over the target. The tooltip will show the chance to hit, and a breakdown of the contribution of various to-hit chance multipliers. -->
-  <ShotAccuracyTooltip.helpText>می‌توانید محاسبات دقیق پشت هر شلیک را ببینید.\n\nبرای انجام این کار، تیرانداز را انتخاب کنید، سپس ماوس را روی هدف قرار دهید. راهنمای ابزار، شانس ضربه زدن، و تفکیک سهم ضریب های مختلف شانس ضربه زدن را نشان می دهد.</ShotAccuracyTooltip.helpText>
+  <ShotAccuracyTooltip.helpText>می‌توانید محاسبات دقیق پشت هر شلیک را ببینید.\n\nبرای انجام این کار، تیرانداز را انتخاب کنید، سپس ماوس را روی هدف قرار دهید. راهنمای ابزار، شانس ضربه زدن، و تفکیک سهم ضریب های مختلف شانس ضربه زدن را نشان می‌دهد.</ShotAccuracyTooltip.helpText>
   
   <!-- EN: Spoilage and freezers -->
   <SpoilageAndFreezers.label>فساد و فریزر</SpoilageAndFreezers.label>
@@ -160,7 +160,7 @@
   <!-- EN: Tile inspector -->
   <TileInspector.label>بازرس کاشی</TileInspector.label>
   <!-- EN: You can inspect the details of a tile by holding {Key:ShowCellInspector}. This displays the contents of a tile, room information, beauty information, and more. -->
-  <TileInspector.helpText>می توانید جزئیات یک کاشی را با نگه داشتن {Key:ShowCellInspector} بررسی کنید. این محتویات یک کاشی، اطلاعات اتاق، اطلاعات زیبایی و موارد دیگر را نمایش می دهد.</TileInspector.helpText>
+  <TileInspector.helpText>می توانید جزئیات یک کاشی را با نگه داشتن {Key:ShowCellInspector} بررسی کنید. این محتویات یک کاشی، اطلاعات اتاق، اطلاعات زیبایی و موارد دیگر را نمایش می‌دهد.</TileInspector.helpText>
   
   <!-- EN: Time assignments -->
   <TimeAssignments.label>تکالیف زمانی</TimeAssignments.label>

@@ -65,12 +65,12 @@
     <li>HealthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
     <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
     <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
-    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [areIs] از ابازیا فلج رنج می برد و باید در رختخواب نگهداری شود.</li>
-    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] مبتلا به پوسیدگی خون است و نیاز به درمان روزانه دارد. این بیماری را می توان با مراقبت های با کیفیت و دارو کاهش داد، اما به طور کلی نمی توان آن را به طور کامل درمان کرد. اگر بیماری شدید شود، [lodgersLabelSingOrPluralDef] خواهد مرد، بنابراین مطمئن شوید که لوازم پزشکی لازم را دارید.</li>
+    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [areIs] از ابازیا فلج رنج می‌برد و باید در رختخواب نگهداری شود.</li>
+    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] مبتلا به پوسیدگی خون است و نیاز به درمان روزانه دارد. این بیماری را می‌توان با مراقبت های با کیفیت و دارو کاهش داد، اما به طور کلی نمی‌توان آن را به طور کامل درمان کرد. اگر بیماری شدید شود، [lodgersLabelSingOrPluralDef] خواهد مرد، بنابراین مطمئن شوید که لوازم پزشکی لازم را دارید.</li>
     <li>minMoodInfo-></li>
     <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\nشما باید حالت [lodgersLabelSingOrPluralDef] را بالاتر از [lodgersMoodThreshold_percent] نگه دارید.</li>
     <li>workInfo-></li>
-    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] هیچ کاری انجام نمی دهد.</li>
+    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] هیچ کاری انجام نمی‌دهد.</li>
     <li>commonDescEnding->[helpersParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->حمله (*Threat)a (/Threat) تقریباً به این اندازه وجود خواهد داشت:\n\n[threatExample]</li>
@@ -98,7 +98,7 @@
     <li>areIs(lodgersCount==1)->است</li>
     <li>areIs(lodgersCount>=2)->هستند</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
-    <li>remainingWillNowLeave(lodgersCount>=2)->هر [lodgersLabelPlural] باقی مانده اکنون می رود. </li>
+    <li>remainingWillNowLeave(lodgersCount>=2)->هر [lodgersLabelPlural] باقی مانده اکنون می‌رود. </li>
     <li>failLetterEndingQuest->شما در تلاش "[resolvedQuestName]" شکست خورده اید.</li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->[failLetterEndingQuest]</li>
     <li>failLetterEndingCommon->[failLetterEndingQuest]\n\nروابط شما با [asker_faction_name] تا [goodwillPenalty] کاهش یافته است.</li>

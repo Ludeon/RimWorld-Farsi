@@ -44,7 +44,7 @@
   <!-- EN: pulse-charged munitions -->
   <ChargedShot.label>مهمات ضربان دار</ChargedShot.label>
   <!-- EN: Build weapons which fire pulse-charged munitions for extra damage. Note that these also require advanced components. -->
-  <ChargedShot.description>سلاح هایی بسازید که برای آسیب بیشتر، مهمات پالس شارژ را شلیک می کنند. توجه داشته باشید که اینها به اجزای پیشرفته نیز نیاز دارند.</ChargedShot.description>
+  <ChargedShot.description>سلاح هایی بسازید که برای آسیب بیشتر، مهمات پالس شارژ را شلیک می‌کنند. توجه داشته باشید که اینها به اجزای پیشرفته نیز نیاز دارند.</ChargedShot.description>
   <!-- EN:
     <li>subject->pulse munitions</li>
     <li>subject_story->studied glitterworld monorails and modified the tech for weapons</li>
@@ -88,7 +88,7 @@
   <!-- EN: Build fabrication benches, capable of high-tech projects ranging from component assembly to power armor construction. -->
   <Fabrication.description>نیمکت‌های ساخت بسازید که قادر به انجام پروژه‌های با فناوری پیشرفته از مونتاژ قطعات تا ساخت زره‌های قدرتمند هستند.</Fabrication.description>
   <!-- EN: You now have the technology to build a fabrication bench - but it also requires some advanced components to get started. You can collect advanced components several ways:\n\n  -All outlander settlements sell advanced components. Send a caravan to buy some.\n  -Some visiting traders sell advanced components. Invite or wait for them.\n  -Some quests are rewarded with advanced components. -->
-  <Fabrication.discoveredLetterText>شما اکنون فناوری ساخت یک نیمکت ساخت را دارید - اما برای شروع به برخی اجزای پیشرفته نیز نیاز دارد. می‌توانید اجزای پیشرفته را از چند طریق جمع‌آوری کنید:\n\n -همه سکونتگاه‌های خارج از کشور قطعات پیشرفته را می‌فروشند. کاروانی بفرستید تا مقداری بخرد.\n -برخی از تاجران بازدیدکننده قطعات پیشرفته را می فروشند. آنها را دعوت کنید یا منتظر بمانید.\n -برخی از ماموریت‌ها با اجزای پیشرفته پاداش می گیرند.</Fabrication.discoveredLetterText>
+  <Fabrication.discoveredLetterText>شما اکنون فناوری ساخت یک نیمکت ساخت را دارید - اما برای شروع به برخی اجزای پیشرفته نیز نیاز دارد. می‌توانید اجزای پیشرفته را از چند طریق جمع‌آوری کنید:\n\n -همه سکونتگاه‌های خارج از کشور قطعات پیشرفته را می‌فروشند. کاروانی بفرستید تا مقداری بخرد.\n -برخی از تاجران بازدیدکننده قطعات پیشرفته را می‌فروشند. آنها را دعوت کنید یا منتظر بمانید.\n -برخی از ماموریت‌ها با اجزای پیشرفته پاداش می‌گیرند.</Fabrication.discoveredLetterText>
   <!-- EN: About: Getting advanced components -->
   <Fabrication.discoveredLetterTitle>درباره: دریافت اجزای پیشرفته</Fabrication.discoveredLetterTitle>
   <!-- EN:
@@ -111,7 +111,7 @@
   <!-- EN: multi-analyzer -->
   <MultiAnalyzer.label>مولتی آنالایزر</MultiAnalyzer.label>
   <!-- EN: Build multi-analyzers which increase research speed and allow higher-level research projects. -->
-  <MultiAnalyzer.description>مولتی آنالایزر بسازید که سرعت تحقیق را افزایش می دهد و امکان انجام پروژه های تحقیقاتی سطح بالاتر را فراهم می کند.</MultiAnalyzer.description>
+  <MultiAnalyzer.description>مولتی آنالایزر بسازید که سرعت تحقیق را افزایش می‌دهد و امکان انجام پروژه های تحقیقاتی سطح بالاتر را فراهم می‌کند.</MultiAnalyzer.description>
   <!-- EN:
     <li>subject->multi-analysis</li>
     <li>subject_story->automated a research laboratory</li>
@@ -130,7 +130,7 @@
   <!-- EN: marine armor -->
   <PoweredArmor.label>زره دریایی</PoweredArmor.label>
   <!-- EN: Build marine armor, a general-use powered armor suit used by high-tech shock troops. Note that these also require advanced components. -->
-  <PoweredArmor.description>زره دریایی بسازید، یک لباس زرهی با کاربرد عمومی که توسط نیروهای شوک پیشرفته استفاده می شود. توجه داشته باشید که اینها به اجزای پیشرفته نیز نیاز دارند.</PoweredArmor.description>
+  <PoweredArmor.description>زره دریایی بسازید، یک لباس زرهی با کاربرد عمومی که توسط نیروهای شوک پیشرفته استفاده می‌شود. توجه داشته باشید که اینها به اجزای پیشرفته نیز نیاز دارند.</PoweredArmor.description>
   <!-- EN:
     <li>subject->marine armor</li>
     <li>subject_story->was employed by the shock troops to maintain their armor</li>
@@ -174,7 +174,7 @@
   <!-- EN: rocketswarm launcher -->
   <RocketswarmLauncher.label>پرتابگر موشک گرم</RocketswarmLauncher.label>
   <!-- EN: Produce rocketswarm launchers, single-burst turrets which can devastate a wide area at a key moment in battle. -->
-  <RocketswarmLauncher.description>پرتابگرهای گرم، برجک های تک انفجاری تولید کنید که می توانند منطقه وسیعی را در یک لحظه کلیدی در نبرد ویران کنند.</RocketswarmLauncher.description>
+  <RocketswarmLauncher.description>پرتابگرهای گرم، برجک های تک انفجاری تولید کنید که می‌توانند منطقه وسیعی را در یک لحظه کلیدی در نبرد ویران کنند.</RocketswarmLauncher.description>
   <!-- EN:
     <li>subject->rocket turrets</li>
     <li>subject_story->testified about the use of rocketswarm launchers against civilian targets</li>
@@ -212,7 +212,7 @@
   <!-- EN: vitals monitor -->
   <VitalsMonitor.label>مانیتور حیاتی</VitalsMonitor.label>
   <!-- EN: Build vitals monitors which improve medical outcomes when placed next to hospital beds. -->
-  <VitalsMonitor.description>مانیتورهای حیاتی بسازید که وقتی در کنار تخت بیمارستان قرار می گیرند، نتایج پزشکی را بهبود می بخشد.</VitalsMonitor.description>
+  <VitalsMonitor.description>مانیتورهای حیاتی بسازید که وقتی در کنار تخت بیمارستان قرار می‌گیرند، نتایج پزشکی را بهبود می‌بخشد.</VitalsMonitor.description>
   <!-- EN:
     <li>subject->vital signs monitoring</li>
     <li>subject_story->struggled in an overcrowded hospital and vowed to work for change</li>

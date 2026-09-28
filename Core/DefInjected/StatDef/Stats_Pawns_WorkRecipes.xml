@@ -9,7 +9,7 @@
   <!-- EN: butchery speed -->
   <ButcheryFleshSpeed.label>سرعت قصابی</ButcheryFleshSpeed.label>
   <!-- EN: The speed at which this person butchers flesh creatures. -->
-  <ButcheryFleshSpeed.description>سرعتی که این شخص با آن موجودات گوشتی را قصاب می کند.</ButcheryFleshSpeed.description>
+  <ButcheryFleshSpeed.description>سرعتی که این شخص با آن موجودات گوشتی را قصاب می‌کند.</ButcheryFleshSpeed.description>
   
   <!-- EN: mechanoid shredding efficiency -->
   <ButcheryMechanoidEfficiency.label>راندمان خرد کردن مکانیکی</ButcheryMechanoidEfficiency.label>
@@ -19,7 +19,7 @@
   <!-- EN: mechanoid shredding speed -->
   <ButcheryMechanoidSpeed.label>سرعت خرد کردن مکانیکی</ButcheryMechanoidSpeed.label>
   <!-- EN: The speed at which this person can shred a mechanoid for resources. -->
-  <ButcheryMechanoidSpeed.description>سرعتی که این شخص می تواند مکانیزم را برای منابع خرد کند.</ButcheryMechanoidSpeed.description>
+  <ButcheryMechanoidSpeed.description>سرعتی که این شخص می‌تواند مکانیزم را برای منابع خرد کند.</ButcheryMechanoidSpeed.description>
   
   <!-- EN: cooking speed -->
   <CookSpeed.label>سرعت پخت</CookSpeed.label>
@@ -34,7 +34,7 @@
   <!-- EN: drug synthesis speed -->
   <DrugSynthesisSpeed.label>سرعت سنتز دارو</DrugSynthesisSpeed.label>
   <!-- EN: How fast this character synthesizes complex chemical drugs. -->
-  <DrugSynthesisSpeed.description>این شخصیت چقدر سریع داروهای شیمیایی پیچیده را سنتز می کند.</DrugSynthesisSpeed.description>
+  <DrugSynthesisSpeed.description>این شخصیت چقدر سریع داروهای شیمیایی پیچیده را سنتز می‌کند.</DrugSynthesisSpeed.description>
   
   <!-- EN: food poison chance -->
   <FoodPoisonChance.label>شانس مسمومیت غذایی</FoodPoisonChance.label>
@@ -46,11 +46,11 @@
   <!-- EN: general labor speed -->
   <GeneralLaborSpeed.label>سرعت کار عمومی</GeneralLaborSpeed.label>
   <!-- EN: The speed at which this person carries out general labor like making stone blocks, making chemfuel at a refinery, burning items, tailoring clothes, creating art, smithing armor and weapons or smelting slag. This stat applies both to activities that involve no skill, as well as those where the skill affects the quality of the product instead of the speed of production. -->
-  <GeneralLaborSpeed.description>سرعتی که این فرد کار عمومی را انجام می دهد مانند ساخت بلوک های سنگی، ساختن مواد شیمیایی در پالایشگاه، سوزاندن اقلام، خیاطی لباس، ایجاد هنر، آهنگری زره ​​و سلاح یا ذوب سرباره. این آمار هم در مورد فعالیت هایی که شامل هیچ مهارتی نیستند و هم برای فعالیت هایی که مهارت به جای سرعت تولید بر کیفیت محصول تأثیر می گذارد، صدق می کند.</GeneralLaborSpeed.description>
+  <GeneralLaborSpeed.description>سرعتی که این فرد کار عمومی را انجام می‌دهد مانند ساخت بلوک های سنگی، ساختن مواد شیمیایی در پالایشگاه، سوزاندن اقلام، خیاطی لباس، ایجاد هنر، آهنگری زره ​​و سلاح یا ذوب سرباره. این آمار هم در مورد فعالیت هایی که شامل هیچ مهارتی نیستند و هم برای فعالیت هایی که مهارت به جای سرعت تولید بر کیفیت محصول تأثیر می‌گذارد، صدق می‌کند.</GeneralLaborSpeed.description>
   
   <!-- EN: smelting speed -->
   <SmeltingSpeed.label>سرعت ذوب</SmeltingSpeed.label>
   <!-- EN: The speed at which this person smelts things.\n\nSince smelting is dumb labor, smelting speed is not affected by any skill. -->
-  <SmeltingSpeed.description>سرعتی که این شخص با آن چیزها را بو می کند.\n\nاز آنجایی که ذوب کردن یک کار احمقانه است، سرعت ذوب تحت تأثیر هیچ مهارتی قرار نمی گیرد.</SmeltingSpeed.description>
+  <SmeltingSpeed.description>سرعتی که این شخص با آن چیزها را بو می‌کند.\n\nاز آنجایی که ذوب کردن یک کار احمقانه است، سرعت ذوب تحت تأثیر هیچ مهارتی قرار نمی‌گیرد.</SmeltingSpeed.description>
   
 </LanguageData>

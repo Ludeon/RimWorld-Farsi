@@ -189,10 +189,10 @@ flowchart TD
 | **T102** | Phase 1 | P1 | Generate initial `plural.txt` and `ezafeh.txt` tables | `Core/WordInfo/` | [x] Completed |
 | **T103** | Phase 1 | P1 | Custom C# `LanguageWorker_Persian` | `mods/RTL_Persian_Support/Source/LanguageWorker_Persian.cs` | [x] Completed |
 | **T104** | Phase 1 | P2 | Update `LanguageInfo.xml` references across DLCs | `Core/LanguageInfo.xml` | [x] Completed |
-| **T201** | Phase 2 | P0 | Placeholder & token integrity checker | `tools/qa/check_placeholders.py` | [ ] Pending |
-| **T202** | Phase 2 | P0 | Persian typography & ZWNJ validator | `tools/qa/check_persian_typography.py` | [ ] Pending |
-| **T203** | Phase 2 | P1 | ReportString dot validator | `tools/qa/check_report_strings.py` | [ ] Pending |
-| **T204** | Phase 2 | P1 | Wire QA linter suite into GitHub Actions workflow | `.github/workflows/reusable-testing.yml` | [ ] Pending |
+| **T201** | Phase 2 | P0 | Placeholder & token integrity checker | `tools/qa/check_placeholders.py` | [x] Completed |
+| **T202** | Phase 2 | P0 | Persian typography & ZWNJ validator | `tools/qa/check_persian_typography.py` | [x] Completed |
+| **T203** | Phase 2 | P1 | ReportString dot validator | `tools/qa/check_report_strings.py` | [x] Completed |
+| **T204** | Phase 2 | P1 | Wire QA linter suite into GitHub Actions workflow | `.github/workflows/reusable-testing.yml` | [x] Completed |
 | **T301** | Phase 3 | P1 | Vazirmatn font asset integration & sizing options | `mods/RTL_Persian_Support/` | [ ] Pending |
 | **T302** | Phase 3 | P2 | Steam Workshop automated publishing workflow | `.github/workflows/steam-workshop.yml` | [ ] Pending |
 | **T303** | Phase 3 | P1 | Enhanced multi-platform installers (Steam Deck / Flatpak) | `install.sh`, `install.bat` | [ ] Pending |

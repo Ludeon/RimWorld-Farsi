@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- Shamblers -->
@@ -711,7 +711,7 @@
   <!-- EN: Send a colonist to investigate this. -->
   <VoidMonolithUndiscovered>یک ساکن را برای بررسی این مورد بفرستید.</VoidMonolithUndiscovered>
   <!-- EN: In order to advance the monolith to the next step, you need to discover {0} {1} tier entities. -->
-  <VoidMonolithRequiredEntityCategory>به منظور ارتقای مونولیت به مرحله بعد، باید موجودات بیشتری کشف شوند.</VoidMonolithRequiredEntityCategory>
+  <VoidMonolithRequiredEntityCategory>برای ارتقای مونولیت به مرحله بعد، باید {0} موجود از رده {1} را کشف کنید.</VoidMonolithRequiredEntityCategory>
   <!-- EN: Discovered: {0} -->
   <DiscoveredCount>کشف‌شده: {0}</DiscoveredCount>
   <!-- EN: Required entities discovered. -->

@@ -44,7 +44,7 @@
   <!-- EN: cocoa -->
   <Cocoa.label>کاکائو</Cocoa.label>
   <!-- EN: Sow cocoa trees to create your own delicious chocolate. Eating chocolate fulfills the need for recreation and it's a valuable trade good too. -->
-  <Cocoa.description>درختان کاکائو را بکارید تا شکلات خوشمزه خود را بسازید. خوردن شکلات نیاز به تفریح ​​را برطرف می کند و همچنین یک کالای تجاری ارزشمند است.</Cocoa.description>
+  <Cocoa.description>درختان کاکائو را بکارید تا شکلات خوشمزه خود را بسازید. خوردن شکلات نیاز به تفریح ​​را برطرف می‌کند و همچنین یک کالای تجاری ارزشمند است.</Cocoa.description>
   <!-- EN:
     <li>subject->cocoa</li>
     <li>subject->chocolate</li>
@@ -105,7 +105,7 @@
   <!-- EN: devilstrand -->
   <Devilstrand.label>دویلسترند</Devilstrand.label>
   <!-- EN: Plant devilstrand, a slow-growing mushroom that yields an exceptionally tough, heat-resistant plant fiber. -->
-  <Devilstrand.description>Devilstrand را بکارید، قارچی با رشد کند که فیبر گیاهی فوق العاده سخت و مقاوم در برابر حرارت تولید می کند.</Devilstrand.description>
+  <Devilstrand.description>Devilstrand را بکارید، قارچی با رشد کند که فیبر گیاهی فوق العاده سخت و مقاوم در برابر حرارت تولید می‌کند.</Devilstrand.description>
   <!-- EN:
     <li>subject->devilstrand cultivation</li>
     <li>subject_story->used devilstrand as a natural firebreak</li>
@@ -147,7 +147,7 @@
   <!-- EN: go-juice production -->
   <GoJuiceProduction.label>تولید آب میوه</GoJuiceProduction.label>
   <!-- EN: Produce go-juice, a synthetic combat-performance-enhancing drug which improves shooting, melee, and movement ability, and dulls pain. -->
-  <GoJuiceProduction.description>گو-جویس تولید کنید، یک داروی مصنوعی تقویت کننده عملکرد رزمی که تیراندازی، غوغا، و توانایی حرکت را بهبود می بخشد و درد را کسل کننده می کند.</GoJuiceProduction.description>
+  <GoJuiceProduction.description>گو-جویس تولید کنید، یک داروی مصنوعی تقویت کننده عملکرد رزمی که تیراندازی، غوغا، و توانایی حرکت را بهبود می‌بخشد و درد را کسل کننده می‌کند.</GoJuiceProduction.description>
   <!-- EN:
     <li>subject->go-juice production</li>
     <li>subject_story->was expelled for taking go-juice during team sports matches</li>
@@ -225,7 +225,7 @@
   <!-- EN: pemmican -->
   <Pemmican.label>پمیکان</Pemmican.label>
   <!-- EN: Make pemmican, a preserved mixture of meat and plant matter that doesn't go bad for a long time. Great for traveling. -->
-  <Pemmican.description>پمیکان را درست کنید، مخلوطی از گوشت و مواد گیاهی نگهداری شده که برای مدت طولانی بد نمی شود. برای مسافرت عالیه</Pemmican.description>
+  <Pemmican.description>پمیکان را درست کنید، مخلوطی از گوشت و مواد گیاهی نگهداری شده که برای مدت طولانی بد نمی‌شود. برای مسافرت عالیه</Pemmican.description>
   <!-- EN:
     <li>subject->pemmican production</li>
     <li>subject_story->mastered pemmican production during a long pilgrimage to the planet's Spire</li>
@@ -244,7 +244,7 @@
   <!-- EN: penoxycyline production -->
   <PenoxycylineProduction.label>تولید پنوکسی سیلین</PenoxycylineProduction.label>
   <!-- EN: Produce penoxycyline, a disease prevention drug which blocks plague, malaria, and more before they start. -->
-  <PenoxycylineProduction.description>پنوکسی سیلین، داروی پیشگیری از بیماری که طاعون، مالاریا و موارد دیگر را قبل از شروع آنها مسدود می کند، تولید کنید.</PenoxycylineProduction.description>
+  <PenoxycylineProduction.description>پنوکسی سیلین، داروی پیشگیری از بیماری که طاعون، مالاریا و موارد دیگر را قبل از شروع آنها مسدود می‌کند، تولید کنید.</PenoxycylineProduction.description>
   <!-- EN:
     <li>subject->penoxycyline production</li>
     <li>subject_story->lectured to the United Planets about preventative medicine</li>
@@ -263,7 +263,7 @@
   <!-- EN: plate armor -->
   <PlateArmor.label>زره صفحه‌ای</PlateArmor.label>
   <!-- EN: Smith suits of plate armor from metal or wood. This heavy armor noticeably slows movement, but protects very effectively. -->
-  <PlateArmor.description>لباس اسمیت از زره صفحه‌ای از فلز یا چوب. این زره سنگین حرکت را به طور قابل توجهی کند می کند، اما بسیار موثر محافظت می کند.</PlateArmor.description>
+  <PlateArmor.description>لباس اسمیت از زره صفحه‌ای از فلز یا چوب. این زره سنگین حرکت را به طور قابل توجهی کند می‌کند، اما بسیار موثر محافظت می‌کند.</PlateArmor.description>
   <!-- EN:
     <li>subject->plate armor</li>
     <li>subject_story->crafted armor from scrap, when the authorities surrounded [ANYPAWN_possessive] family's shack</li>
@@ -398,7 +398,7 @@
   <!-- EN: wake-up production -->
   <WakeUpProduction.label>تولید بیداری</WakeUpProduction.label>
   <!-- EN: Synthesize wake-up, a work performance-enhancing drug which replaces the need for sleep. -->
-  <WakeUpProduction.description>Synthesize wake up، یک داروی افزایش دهنده عملکرد کاری که جایگزین نیاز به خواب می شود.</WakeUpProduction.description>
+  <WakeUpProduction.description>Synthesize wake up، یک داروی افزایش دهنده عملکرد کاری که جایگزین نیاز به خواب می‌شود.</WakeUpProduction.description>
   <!-- EN:
     <li>subject->wake-up production</li>
     <li>subject_story->tried to overcome caffeine addiction by taking wake-up</li>

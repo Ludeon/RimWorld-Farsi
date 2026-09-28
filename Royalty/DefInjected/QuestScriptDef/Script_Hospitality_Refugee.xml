@@ -70,7 +70,7 @@
     <li>lodgersArriveLetterText->[lodgersSingularOrPluralDef] [hasHave] رسید. [lodgersPronoun] برای [questDurationTicks_duration] با شما خواهد ماند تا [lodgersPronoun] بتواند استراحت کند و دوباره جمع شود.</li>
     <li>hasHave(lodgerCount==1)->دارد</li>
     <li>hasHave(lodgerCount>=2)->دارد</li>
-    <li>appalledButNoAction->{PAWNSALIVECOUNT_multiple ? others seem : last [lodgersLabel] is} از این موضوع وحشت زده شد، اما {PAWNSALIVECOUNT_multiple ? are: is} هیچ اقدامی علیه شما انجام نمی دهد.</li>
+    <li>appalledButNoAction->{PAWNSALIVECOUNT_multiple ? others seem : last [lodgersLabel] is} از این موضوع وحشت زده شد، اما {PAWNSALIVECOUNT_multiple ? are: is} هیچ اقدامی علیه شما انجام نمی‌دهد.</li>
     <li>othersWillNotAccept->{PAWNSALIVECOUNT_multiple ? others are : last [lodgersLabel] is} حاضر به پذیرش این موضوع نیست</li>
     <li>turnedViolent->[othersWillNotAccept] و {PAWNSALIVECOUNT_multiple ? have : has } به شدت علیه شما چرخیدند.</li>
     <li>decidedToLeave->[othersWillNotAccept] و {PAWNSALIVECOUNT_multiple ? have : has } تصمیم به ترک گرفتند.</li>
@@ -115,11 +115,11 @@
     <li>lodgerPsychicRitualTargetLeaveMapLetterLabel->[lodgersLabel] نقض شد: خروج</li>
     <li>lodgerPsychicRitualTargetLeaveMapLetterText->[letterIntroPsychicRitualTarget]\n\n[decidedToLeave]</li>
     <li>mutinyLetterLabel->خیانت</li>
-    <li>mutinyLetterText->[lodgersSingularOrPluralDef] [whoAskedToStay] [areIs] علیه شما می چرخد!\n\nبه نظر می رسد که [lodgersPronoun] این خیانت را در تمام مدت برنامه ریزی کرده بود.</li>
+    <li>mutinyLetterText->[lodgersSingularOrPluralDef] [whoAskedToStay] [areIs] علیه شما می‌چرخد!\n\nبه نظر می‌رسد که [lodgersPronoun] این خیانت را در تمام مدت برنامه ریزی کرده بود.</li>
     <li>areIs(lodgerCount==1)->است</li>
     <li>areIs(lodgerCount>=2)->هستند</li>
     <li>lodgersLeavingLetterLabel->خروج [lodgersLabelSingularOrPlural]</li>
-    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} از شما تشکر می کند که به {FACTION_leaderObjective} اجازه دادید در [map_definite] برای این [questDurationTicks_duration] بماند. {FACTION_leaderPronoun} اکنون با افراد {FACTION_leaderPossessive} ادامه می‌دهد.\n\n{FACTION_leaderNameDef} می‌گوید که {FACTION_leaderPronoun} کارهایی که انجام داده‌اید را فراموش نخواهد کرد.</li>
+    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} از شما تشکر می‌کند که به {FACTION_leaderObjective} اجازه دادید در [map_definite] برای این [questDurationTicks_duration] بماند. {FACTION_leaderPronoun} اکنون با افراد {FACTION_leaderPossessive} ادامه می‌دهد.\n\n{FACTION_leaderNameDef} می‌گوید که {FACTION_leaderPronoun} کارهایی که انجام داده‌اید را فراموش نخواهد کرد.</li>
   </Hospitality_Refugee.questContentRules.rulesStrings>
   <!-- EN:
     <li>lodgersLabel->refugee</li>
@@ -167,7 +167,7 @@
     <li>travelerInfo(lodgerCount>=2)->These [faction_pawnsPlural] are</li>
   -->
   <Hospitality_Refugee.questDescriptionRules.rulesStrings>
-    <li>offer(lodgerCount==1)->ارائه می دهد</li>
+    <li>offer(lodgerCount==1)->ارائه می‌دهد</li>
     <li>پیشنهاد(lodgerCount>=2)->پیشنهاد</li>
     <li>lodgersPronoun(lodgerCount==1)->[asker_pronoun]</li>
     <li>lodgersPronoun(lodgerCount>=2)->آنها</li>
@@ -179,26 +179,26 @@
     <li>lodgersPossessive(lodgerCount>=2)->آنها</li>
     <li>lodgersSingularOrPluralDef(lodgerCount==1)->[asker_nameDef]</li>
     <li>lodgersSingularOrPluralDef(lodgerCount>=2)->[lodgersLabelPlural]</li>
-    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] از شما درخواست می کند که اجازه دهید در [map_definite] برای [questDurationTicks_duration] بمانید تا [lodgersPronoun] بتواند استراحت کند و دوباره جمع شود.\n\nدر عوض، [lodgersPronoun] [offer] در این مدت به صورت رایگان کار و مبارزه کند.\n\n[joinInfo] [lodgersPronoun] همچنین ممکن است بعداً برای کمک به [lodgersObjective] به شما پاداش دهد - اما هیچ راهی برای دانستن نیات واقعی [lodgersPossessive] وجود ندارد.\n\n[travelerInfo] بخشی از هیچ جناحی نیست. در صورت تمایل، می توانید بدون عواقب دیپلماتیک، کشتن، دستگیری، فروش یا برداشت [lodgersObjective] را انتخاب کنید.</li>
+    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] از شما درخواست می‌کند که اجازه دهید در [map_definite] برای [questDurationTicks_duration] بمانید تا [lodgersPronoun] بتواند استراحت کند و دوباره جمع شود.\n\nدر عوض، [lodgersPronoun] [offer] در این مدت به صورت رایگان کار و مبارزه کند.\n\n[joinInfo] [lodgersPronoun] همچنین ممکن است بعداً برای کمک به [lodgersObjective] به شما پاداش دهد - اما هیچ راهی برای دانستن نیات واقعی [lodgersPossessive] وجود ندارد.\n\n[travelerInfo] بخشی از هیچ جناحی نیست. در صورت تمایل، می‌توانید بدون عواقب دیپلماتیک، کشتن، دستگیری، فروش یا برداشت [lodgersObjective] را انتخاب کنید.</li>
     <li>approachInfo(lodgerCount==1)->یک [faction_pawnSingular] ناامید به نام [asker_nameDef] در حال نزدیک شدن است.</li>
-    <li>approachInfo(lodgerCount==2)->[asker_nameDef] و [faction_pawnSingular] دیگر از جان گذشته نزدیک می شوند.</li>
+    <li>approachInfo(lodgerCount==2)->[asker_nameDef] و [faction_pawnSingular] دیگر از جان گذشته نزدیک می‌شوند.</li>
     <li>approachInfo(lodgerCount==2,childCount==1,priority=1)->[asker_nameDef] با یک کودک در حال نزدیک شدن است.</li>
-    <li>approachInfo(lodgerCount>=3)->[lodgerCount] [faction_pawnsPlural] ناامید نزدیک می شود. رهبر آنها [asker_nameDef] نام دارد.</li>
-    <li>approachInfo(lodgerCount>=3,childCount==1,priority=1)->[lodgerCount] [faction_pawnsPlural] ناامید از جمله یک کودک نزدیک می شود. رهبر آنها [asker_nameDef] نام دارد.</li>
+    <li>approachInfo(lodgerCount>=3)->[lodgerCount] [faction_pawnsPlural] ناامید نزدیک می‌شود. رهبر آنها [asker_nameDef] نام دارد.</li>
+    <li>approachInfo(lodgerCount>=3,childCount==1,priority=1)->[lodgerCount] [faction_pawnsPlural] ناامید از جمله یک کودک نزدیک می‌شود. رهبر آنها [asker_nameDef] نام دارد.</li>
     <li>approachInfo(lodgerCount>=3,childCount>=2,priority=1)->[lodgerCount] [faction_pawnsPlural] ناامید از جمله برخی از کودکان در حال نزدیک شدن هستند. رهبر آنها [asker_nameDef] نام دارد.</li>
-    <li>approachInfo(lodgerCount>=3,allButOneChildren==true,priority=2)->گروهی از [lodgerCount] ناامید [faction_pawnsPlural] متشکل از کودکان [asker_nameDef] و [lodgersCountMinusOne] که [asker_pronoun] تحت جناح [asker_possessive] گرفته است، نزدیک می شوند.</li>
-    <li>claimInfo(lodgerCount==1)->[asker_nameDef] ادعا می کند که خانه [asker_possessive] را در حمله اخیر از دست داده است.</li>
-    <li>claimInfo(lodgerCount==1)->[asker_nameDef] ادعا می کند که از خواب رمزپایه به تنهایی و بدون دوست بیدار شده است.</li>
-    <li>claimInfo(lodgerCount==1)->[asker_nameDef] ادعا می کند که توسط یک عاشق سابق انتقام جو از خانه [asker_possessive] تعقیب شده است.</li>
-    <li>claimInfo(lodgerCount==1)->[asker_nameDef] ادعا می کند که پس از مشاجره با یکی از رهبران روستا تبعید شده است.</li>
-    <li>claimInfo(lodgerCount>=2)->آنها ادعا می کنند که خانه خود را در حمله اخیر از دست داده اند.</li>
-    <li>claimInfo(lodgerCount>=2)->آنها ادعا می کنند که از عملیات برداشت عضو فرار کرده اند.</li>
-    <li>claimInfo(lodgerCount>=2)-> آنها می گویند که از یک کاروان برده فرار کرده اند.</li>
-    <li>claimInfo(lodgerCount>=2)->آنها می گویند که بلایای زراعی باعث گرسنگی آنها از روستایشان شده است.</li>
-    <li>claimInfo(lodgerCount>=2)->آنها می گویند طوفان بزرگ خانه آنها را سوزاند.</li>
-    <li>claimInfo(lodgerCount>=2)-> آنها می گویند کاروان آنها در کمین بود و همه چیز گرفته شد.</li>
-    <li>claimInfo(lodgerCount>=2)-> آنها می گویند که به دلیل اختلافات اخلاقی از شهر خود تبعید شده اند.</li>
-    <li>joinInfo(lodgerCount==1)->اگر [asker_objective] را خوشحال می کنید، [asker_pronoun] ممکن است پیشنهاد دهد به شما بپیوندد.</li>
+    <li>approachInfo(lodgerCount>=3,allButOneChildren==true,priority=2)->گروهی از [lodgerCount] ناامید [faction_pawnsPlural] متشکل از کودکان [asker_nameDef] و [lodgersCountMinusOne] که [asker_pronoun] تحت جناح [asker_possessive] گرفته است، نزدیک می‌شوند.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] ادعا می‌کند که خانه [asker_possessive] را در حمله اخیر از دست داده است.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] ادعا می‌کند که از خواب رمزپایه به تنهایی و بدون دوست بیدار شده است.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] ادعا می‌کند که توسط یک عاشق سابق انتقام جو از خانه [asker_possessive] تعقیب شده است.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] ادعا می‌کند که پس از مشاجره با یکی از رهبران روستا تبعید شده است.</li>
+    <li>claimInfo(lodgerCount>=2)->آنها ادعا می‌کنند که خانه خود را در حمله اخیر از دست داده اند.</li>
+    <li>claimInfo(lodgerCount>=2)->آنها ادعا می‌کنند که از عملیات برداشت عضو فرار کرده اند.</li>
+    <li>claimInfo(lodgerCount>=2)-> آنها می‌گویند که از یک کاروان برده فرار کرده اند.</li>
+    <li>claimInfo(lodgerCount>=2)->آنها می‌گویند که بلایای زراعی باعث گرسنگی آنها از روستایشان شده است.</li>
+    <li>claimInfo(lodgerCount>=2)->آنها می‌گویند طوفان بزرگ خانه آنها را سوزاند.</li>
+    <li>claimInfo(lodgerCount>=2)-> آنها می‌گویند کاروان آنها در کمین بود و همه چیز گرفته شد.</li>
+    <li>claimInfo(lodgerCount>=2)-> آنها می‌گویند که به دلیل اختلافات اخلاقی از شهر خود تبعید شده اند.</li>
+    <li>joinInfo(lodgerCount==1)->اگر [asker_objective] را خوشحال می‌کنید، [asker_pronoun] ممکن است پیشنهاد دهد به شما بپیوندد.</li>
     <li>joinInfo(lodgerCount>=2)->اگر آنها را خوشحال کنید، ممکن است برخی از آنها پیشنهاد دهند به شما بپیوندند.</li>
     <li>travelerInfo(lodgerCount==1)->این [faction_pawnSingular] است</li>
     <li>travelerInfo(lodgerCount>=2)->این [faction_pawnsPlural] هستند</li>
@@ -288,11 +288,11 @@
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>betrayalOfferRewardLetterLabel->پاداش خیانت: [factionOpponent_nameDef]</li>
-    <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] به شما قول پاداش داده است اگر [asker_nameDef] [otherMembers] را بکشید. [factionOpponent_pronoun] شنیده است که این کار انجام شده است و موارد زیر را از طریق دراپ پاد (مقدار کل [betrayalRewardMarketValue_money]) برای شما ارسال می کند:\n\n[betrayalRewards].\n\n[questOver]</li>
+    <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] به شما قول پاداش داده است اگر [asker_nameDef] [otherMembers] را بکشید. [factionOpponent_pronoun] شنیده است که این کار انجام شده است و موارد زیر را از طریق دراپ پاد (مقدار کل [betrayalRewardMarketValue_money]) برای شما ارسال می‌کند:\n\n[betrayalRewards].\n\n[questOver]</li>
     <li>betrayalOfferFailedBecauseRecruitedLetterLabel->پاداش خیانت پس گرفته شد</li>
-    <li>betrayalOfferFailedBecauseRecruitedLetterText->[factionOpponent_nameDef] آموخته است که تمام اعضای بازمانده از [faction_name] به گروه شما ملحق شده اند! [factionOpponent_nameDef] می خواست همه اعضای [faction_name] بمیرند و بنابراین پیشنهاد [factionOpponent_possessive] را پس گرفت.</li>
+    <li>betrayalOfferFailedBecauseRecruitedLetterText->[factionOpponent_nameDef] آموخته است که تمام اعضای بازمانده از [faction_name] به گروه شما ملحق شده اند! [factionOpponent_nameDef] می‌خواست همه اعضای [faction_name] بمیرند و بنابراین پیشنهاد [factionOpponent_possessive] را پس گرفت.</li>
     <li>betrayalOfferFailedLetterLabel->پاداش خیانت پس گرفته شد</li>
-    <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] دریافته است که یکی از اعضای [faction_name] دیگر در [map_definite] نیست. [factionOpponent_nameDef] می خواست همه اعضای [faction_name] بمیرند و بنابراین پیشنهاد [factionOpponent_possessive] را پس گرفت.</li>
+    <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] دریافته است که یکی از اعضای [faction_name] دیگر در [map_definite] نیست. [factionOpponent_nameDef] می‌خواست همه اعضای [faction_name] بمیرند و بنابراین پیشنهاد [factionOpponent_possessive] را پس گرفت.</li>
     <li>otherLodgers(lodgerCount==1)-></li>
     <li>otherLodgers(lodgerCount==2)->و [lodgersLabel] دیگر</li>
     <li>otherLodgers(lodgerCount>=3)->و چندین [lodgersLabelPlural]</li>
@@ -321,7 +321,7 @@
     <li>areIs(lodgerCount>=2)->are</li>
   -->
   <RefugeeBetrayal.questDescriptionRules.rulesStrings>
-    <li>questDescription->[factionOpponent_nameDef]، یک [factionOpponent_faction_pawnSingular] از [factionOpponent_faction_name]، دریافته است که [asker_nameDef] [otherLodgers] [areIs] در [map_definite] میزبانی می شود. [factionOpponent_pronoun] با [asker_nameDef] دشمن است و می خواهد [asker_objective] را مرده ببیند.\n\n[factionOpponent_pronoun] اگر همه اعضای [faction_name] را بکشید (مقدار کلی [betrayalRewardMarketValue_money]) پاداش زیر را برای شما ارسال می کند:\n\n[betrayalRewards]</li>
+    <li>questDescription->[factionOpponent_nameDef]، یک [factionOpponent_faction_pawnSingular] از [factionOpponent_faction_name]، دریافته است که [asker_nameDef] [otherLodgers] [areIs] در [map_definite] میزبانی می‌شود. [factionOpponent_pronoun] با [asker_nameDef] دشمن است و می‌خواهد [asker_objective] را مرده ببیند.\n\n[factionOpponent_pronoun] اگر همه اعضای [faction_name] را بکشید (مقدار کلی [betrayalRewardMarketValue_money]) پاداش زیر را برای شما ارسال می‌کند:\n\n[betrayalRewards]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>otherLodgers(lodgerCount==1)-></li>
@@ -345,7 +345,7 @@
   -->
   <RefugeeDelayedReward.questContentRules.rulesStrings>
     <li>rewardLetterLabel->پاداش مهمان نوازی</li>
-    <li>rewardLetterText->[rewardGiver_nameDef] با شما تماس گرفته است. [rewardDelayTicks_duration] پیش، شما در شرایط ناامیدکننده به [rewardGiver_objective] کمک کردید.\n\nاز آن زمان، [rewardGiver_pronoun] دوباره روی [rewardGiver_possessive] ایستاده است، و اکنون [rewardGiver_pronoun] می‌خواهد به شما پاداش مناسبی برای کمک شما بدهد. [rewardGiver_pronoun] موارد زیر را از طریق drop pod برای شما ارسال می کند:\n\n[listOfRewards]</li>
+    <li>rewardLetterText->[rewardGiver_nameDef] با شما تماس گرفته است. [rewardDelayTicks_duration] پیش، شما در شرایط ناامیدکننده به [rewardGiver_objective] کمک کردید.\n\nاز آن زمان، [rewardGiver_pronoun] دوباره روی [rewardGiver_possessive] ایستاده است، و اکنون [rewardGiver_pronoun] می‌خواهد به شما پاداش مناسبی برای کمک شما بدهد. [rewardGiver_pronoun] موارد زیر را از طریق drop pod برای شما ارسال می‌کند:\n\n[listOfRewards]</li>
   </RefugeeDelayedReward.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->a delayed reward for refugee quest</li>

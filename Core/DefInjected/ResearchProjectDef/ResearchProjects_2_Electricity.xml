@@ -103,7 +103,7 @@
   <!-- EN: advanced lights -->
   <ColoredLights.label>چراغ های پیشرفته</ColoredLights.label>
   <!-- EN: Build powerful outdoors lights. Additionally, customize the color of electric lights and reduce their power consumption by half. This does not affect sun lamps. -->
-  <ColoredLights.description>چراغ های قدرتمند در فضای باز بسازید. علاوه بر این، رنگ چراغ های برق را سفارشی کنید و مصرف برق آنها را به نصف کاهش دهید. این بر لامپ های خورشیدی تأثیر نمی گذارد.</ColoredLights.description>
+  <ColoredLights.description>چراغ های قدرتمند در فضای باز بسازید. علاوه بر این، رنگ چراغ های برق را سفارشی کنید و مصرف برق آنها را به نصف کاهش دهید. این بر لامپ های خورشیدی تأثیر نمی‌گذارد.</ColoredLights.description>
   <!-- EN:
     <li>subject->advanced lighting</li>
     <li>subject_story->installed floodlights all around the prison world's many security perimeters</li>
@@ -124,7 +124,7 @@
   <!-- EN: Harness the power of electricity for a hundred different tasks. -->
   <Electricity.description>از نیروی برق برای صد کار مختلف استفاده کنید.</Electricity.description>
   <!-- EN: Your colony has harnessed the power which outsiders call "electricity". It has the potential to transform every aspect of your people's way of life.\n\nYou have now unlocked the Power tab in the Architect menu from which you may build electric generators, power conduits, and other mechanisms to control this new force. The Power tab also displays the electric grid which connects electric generators and appliances. -->
-  <Electricity.discoveredLetterText>مستعمره شما از قدرتی استفاده کرده است که بیگانگان آن را "برق" می نامند. این پتانسیل را دارد که تمام جنبه‌های شیوه زندگی مردم شما را تغییر دهد.\n\nشما اکنون قفل برگه Power را در منوی معمار باز کرده‌اید که از آنجا می‌توانید ژنراتورهای برق، مجاری برق، و مکانیسم‌های دیگری را برای کنترل این نیروی جدید بسازید. زبانه Power همچنین شبکه برق را نشان می دهد که ژنراتورها و لوازم برقی را به هم متصل می کند.</Electricity.discoveredLetterText>
+  <Electricity.discoveredLetterText>مستعمره شما از قدرتی استفاده کرده است که بیگانگان آن را "برق" می‌نامند. این پتانسیل را دارد که تمام جنبه‌های شیوه زندگی مردم شما را تغییر دهد.\n\nشما اکنون قفل برگه Power را در منوی معمار باز کرده‌اید که از آنجا می‌توانید ژنراتورهای برق، مجاری برق، و مکانیسم‌های دیگری را برای کنترل این نیروی جدید بسازید. زبانه Power همچنین شبکه برق را نشان می‌دهد که ژنراتورها و لوازم برقی را به هم متصل می‌کند.</Electricity.discoveredLetterText>
   <!-- EN: About: Electricity -->
   <Electricity.discoveredLetterTitle>درباره: برق</Electricity.discoveredLetterTitle>
   <!-- EN:
@@ -168,7 +168,7 @@
   <!-- EN: flak armor -->
   <FlakArmor.label>زره پوسته پوسته شدن</FlakArmor.label>
   <!-- EN: Craft clothing with metal armor sewn in to resist bullets and explosions. This weighty armor slows movement slightly. -->
-  <FlakArmor.description>لباس کاردستی با زره فلزی دوخته شده برای مقاومت در برابر گلوله و انفجار. این زره سنگین حرکت را کمی کند می کند.</FlakArmor.description>
+  <FlakArmor.description>لباس کاردستی با زره فلزی دوخته شده برای مقاومت در برابر گلوله و انفجار. این زره سنگین حرکت را کمی کند می‌کند.</FlakArmor.description>
   <!-- EN:
     <li>subject->flak armor</li>
     <li>subject_story->supplied flak armor to the militias that ran the cities</li>
@@ -187,7 +187,7 @@
   <!-- EN: foam turret -->
   <FoamTurret.label>برجک فوم</FoamTurret.label>
   <!-- EN: Produce a turret which can be activated to spray fire-extinguishing foam. -->
-  <FoamTurret.description>یک برجک تولید کنید که می تواند برای پاشیدن فوم اطفاء حریق فعال شود.</FoamTurret.description>
+  <FoamTurret.description>یک برجک تولید کنید که می‌تواند برای پاشیدن فوم اطفاء حریق فعال شود.</FoamTurret.description>
   <!-- EN:
     <li>subject->foam turrets</li>
     <li>subject->fire suppression turrets</li>
@@ -353,7 +353,7 @@
   <!-- EN: mortars -->
   <Mortars.label>خمپاره‌ها</Mortars.label>
   <!-- EN: Build mortars which can lob shells long distances - even over walls. -->
-  <Mortars.description>خمپاره هایی بسازید که می توانند گلوله‌ها را در فواصل طولانی پرتاب کنند - حتی روی دیوارها.</Mortars.description>
+  <Mortars.description>خمپاره هایی بسازید که می‌توانند گلوله‌ها را در فواصل طولانی پرتاب کنند - حتی روی دیوارها.</Mortars.description>
   <!-- EN:
     <li>subject->artillery</li>
     <li>subject->mortars</li>
@@ -395,7 +395,7 @@
   <!-- EN: packaged survival meal -->
   <PackagedSurvivalMeal.label>بسته بندی غذای زنده ماندن</PackagedSurvivalMeal.label>
   <!-- EN: Produce packaged survival meals which never go bad. Great for traveling. -->
-  <PackagedSurvivalMeal.description>وعده های غذایی بسته بندی شده برای بقا تولید کنید که هرگز بد نمی شوند. برای مسافرت عالیه</PackagedSurvivalMeal.description>
+  <PackagedSurvivalMeal.description>وعده های غذایی بسته بندی شده برای بقا تولید کنید که هرگز بد نمی‌شوند. برای مسافرت عالیه</PackagedSurvivalMeal.description>
   <!-- EN:
     <li>subject->packaged survival meals</li>
     <li>subject->non-perishable food</li>

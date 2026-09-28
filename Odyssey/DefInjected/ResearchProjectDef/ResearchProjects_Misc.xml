@@ -19,7 +19,7 @@
   <!-- EN: basic gravtech -->
   <BasicGravtech.label>gravtech پایه</BasicGravtech.label>
   <!-- EN: Build a gravship and use it to travel the planet. Without a grav anchor, launching a gravship will abandon your current map. -->
-  <BasicGravtech.description>یک قایق بسازید و از آن برای سفر به سیاره استفاده کنید. بدون لنگر گراو، پرتاب یک کشتی گراو نقشه فعلی شما را رها می کند.</BasicGravtech.description>
+  <BasicGravtech.description>یک قایق بسازید و از آن برای سفر به سیاره استفاده کنید. بدون لنگر گراو، پرتاب یک کشتی گراو نقشه فعلی شما را رها می‌کند.</BasicGravtech.description>
   <!-- EN:
     <li>subject->gravship</li>
     <li>subject_story->flew a gravship for a tourism company</li>
@@ -34,7 +34,7 @@
   <!-- EN: beam weapons -->
   <BeamWeapons.label>سلاح های پرتو</BeamWeapons.label>
   <!-- EN: Construct weapons that use gamma ray beams to burn through armor and ignite targets. -->
-  <BeamWeapons.description>سلاح هایی بسازید که از پرتوهای پرتو گاما برای سوزاندن زره‌ها و مشتعل کردن اهداف استفاده می کنند.</BeamWeapons.description>
+  <BeamWeapons.description>سلاح هایی بسازید که از پرتوهای پرتو گاما برای سوزاندن زره‌ها و مشتعل کردن اهداف استفاده می‌کنند.</BeamWeapons.description>
   <!-- EN:
     <li>subject->beam weapons</li>
     <li>subject_story->made gamma-ray beam weaponry</li>
@@ -49,7 +49,7 @@
   <!-- EN: fishing -->
   <Fishing.label>ماهیگیری</Fishing.label>
   <!-- EN: Place zones where your colonists can go fishing. -->
-  <Fishing.description>مناطقی را قرار دهید که استعمارگران شما می توانند برای ماهیگیری بروند.</Fishing.description>
+  <Fishing.description>مناطقی را قرار دهید که استعمارگران شما می‌توانند برای ماهیگیری بروند.</Fishing.description>
   <!-- EN: Fishing zone -->
   <Fishing.customUnlockTexts.0>منطقه ماهیگیری</Fishing.customUnlockTexts.0>
   <!-- EN:
@@ -66,7 +66,7 @@
   <!-- EN: heavy bridges -->
   <HeavyBridges.label>پل های سنگین</HeavyBridges.label>
   <!-- EN: Build heavy bridges that support heavy buildings. You can use this to build whole colonies on the water. -->
-  <HeavyBridges.description>پل های سنگین بسازید که ساختمان های سنگین را پشتیبانی می کنند. می توانید از این برای ساخت کلنی های کامل روی آب استفاده کنید.</HeavyBridges.description>
+  <HeavyBridges.description>پل های سنگین بسازید که ساختمان های سنگین را پشتیبانی می‌کنند. می‌توانید از این برای ساخت کلنی های کامل روی آب استفاده کنید.</HeavyBridges.description>
   <!-- EN:
     <li>subject->construction</li>
     <li>subject_story->built bridges</li>
@@ -81,7 +81,7 @@
   <!-- EN: hunter drone -->
   <HunterDrones.label>پهپاد شکارچی</HunterDrones.label>
   <!-- EN: Build traps and wearable packs that release hunter drones. These explosive drones pursue hostiles and detonate when within range. -->
-  <HunterDrones.description>تله‌ها و بسته های پوشیدنی بسازید که پهپادهای شکارچی را آزاد می کنند. این پهپادهای انفجاری دشمنان را تعقیب می کنند و زمانی که در محدوده باشند منفجر می شوند.</HunterDrones.description>
+  <HunterDrones.description>تله‌ها و بسته های پوشیدنی بسازید که پهپادهای شکارچی را آزاد می‌کنند. این پهپادهای انفجاری دشمنان را تعقیب می‌کنند و زمانی که در محدوده باشند منفجر می‌شوند.</HunterDrones.description>
   <!-- EN:
     <li>subject->hunter drones</li>
     <li>subject_story->made self-detonating drones</li>
@@ -96,7 +96,7 @@
   <!-- EN: orbital tech -->
   <OrbitalTech.label>فناوری مداری</OrbitalTech.label>
   <!-- EN: Construct buildings and apparel that can protect against the harsh vacuum of space. -->
-  <OrbitalTech.description>ساختمان‌ها و لباس هایی بسازید که می توانند در برابر خلاء سخت فضا محافظت کنند.</OrbitalTech.description>
+  <OrbitalTech.description>ساختمان‌ها و لباس هایی بسازید که می‌توانند در برابر خلاء سخت فضا محافظت کنند.</OrbitalTech.description>
   <!-- EN:
     <li>subject->orbital apparel</li>
     <li>subject_story->assembled liners for vacsuits</li>
@@ -121,7 +121,7 @@
   <!-- EN: shuttle -->
   <Shuttles.label>شاتل</Shuttles.label>
   <!-- EN: Build a shuttle which can be used for long distance travel or to reach orbit. This requires a shuttle engine which can be bought from orbital traders, salvaged from other shuttles, or obtained through quests. -->
-  <Shuttles.description>یک شاتل بسازید که می تواند برای سفرهای طولانی یا رسیدن به مدار استفاده شود. این به یک موتور شاتل نیاز دارد که می توان آن را از معامله گران مداری خریداری کرد، از شاتل های دیگر نجات داد، یا از طریق کوئست‌ها به دست آورد.</Shuttles.description>
+  <Shuttles.description>یک شاتل بسازید که می‌تواند برای سفرهای طولانی یا رسیدن به مدار استفاده شود. این به یک موتور شاتل نیاز دارد که می‌توان آن را از معامله گران مداری خریداری کرد، از شاتل های دیگر نجات داد، یا از طریق کوئست‌ها به دست آورد.</Shuttles.description>
   <!-- EN:
     <li>subject->shuttles</li>
     <li>subject_story->flew in a shuttle</li>

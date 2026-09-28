@@ -4,7 +4,7 @@
   <!-- EN: animal habitat -->
   <AnimalHabitat.label>زیستگاه حیوانات</AnimalHabitat.label>
   <!-- EN: A natural habitat for {ANIMALKIND_labelPlural}. They appear in greater numbers here. -->
-  <AnimalHabitat.description>یک زیستگاه طبیعی برای {ANIMALKIND_labelPlural}. آنها در اینجا به تعداد بیشتری ظاهر می شوند.</AnimalHabitat.description>
+  <AnimalHabitat.description>یک زیستگاه طبیعی برای {ANIMALKIND_labelPlural}. آنها در اینجا به تعداد بیشتری ظاهر می‌شوند.</AnimalHabitat.description>
   
   <!-- EN: decreased animal life -->
   <AnimalLife_Decreased.label>کاهش زندگی حیوانات</AnimalLife_Decreased.label>
@@ -19,7 +19,7 @@
   <!-- EN: archean trees -->
   <ArcheanTrees.label>درختان آرکئن</ArcheanTrees.label>
   <!-- EN: This area contains ancient archean trees. These trees host a special microbial community in their roots which converts nearby terrain into rich soil. Their delicate root system makes it impossible to replant them. -->
-  <ArcheanTrees.description>این منطقه دارای درختان باستانی باستانی است. این درختان میزبان یک جامعه میکروبی ویژه در ریشه های خود هستند که زمین های مجاور را به خاک غنی تبدیل می کنند. سیستم ریشه ظریف آنها کاشت مجدد آنها را غیرممکن می کند.</ArcheanTrees.description>
+  <ArcheanTrees.description>این منطقه دارای درختان باستانی باستانی است. این درختان میزبان یک جامعه میکروبی ویژه در ریشه های خود هستند که زمین های مجاور را به خاک غنی تبدیل می‌کنند. سیستم ریشه ظریف آنها کاشت مجدد آنها را غیرممکن می‌کند.</ArcheanTrees.description>
   
   <!-- EN: dry ground -->
   <DryGround.label>زمین خشک</DryGround.label>
@@ -52,7 +52,7 @@
   <!-- EN: obsidian deposits -->
   <ObsidianDeposits.label>ذخایر ابسیدین</ObsidianDeposits.label>
   <!-- EN: This area has deposits of volcanic obsidian, which can be mined for obsidian glass. -->
-  <ObsidianDeposits.description>این منطقه دارای ذخایر ابسیدین آتشفشانی است که می توان از آن برای استخراج شیشه ابسیدین استفاده کرد.</ObsidianDeposits.description>
+  <ObsidianDeposits.description>این منطقه دارای ذخایر ابسیدین آتشفشانی است که می‌توان از آن برای استخراج شیشه ابسیدین استفاده کرد.</ObsidianDeposits.description>
   
   <!-- EN: plant grove -->
   <PlantGrove.label>بیشه گیاهان</PlantGrove.label>
@@ -77,7 +77,7 @@
   <!-- EN: high geothermal activity -->
   <SteamGeysers_Increased.label>فعالیت زمین گرمایی بالا</SteamGeysers_Increased.label>
   <!-- EN: Steam geysers are more common in this area. -->
-  <SteamGeysers_Increased.description>آبفشان های بخار در این منطقه بیشتر دیده می شود.</SteamGeysers_Increased.description>
+  <SteamGeysers_Increased.description>آبفشان های بخار در این منطقه بیشتر دیده می‌شود.</SteamGeysers_Increased.description>
   
   <!-- EN: sunny -->
   <SunnyMutator.label>آفتابی</SunnyMutator.label>
@@ -92,12 +92,12 @@
   <!-- EN: wild plants -->
   <WildPlants.label>گیاهان وحشی</WildPlants.label>
   <!-- EN: When warm enough, this area can grow a large number of {0}. -->
-  <WildPlants.description>هنگامی که به اندازه کافی گرم شود، این منطقه می تواند تعداد زیادی {0} رشد کند.</WildPlants.description>
+  <WildPlants.description>هنگامی که به اندازه کافی گرم شود، این منطقه می‌تواند تعداد زیادی {0} رشد کند.</WildPlants.description>
   
   <!-- EN: wild plants -->
   <WildTropicalPlants.label>گیاهان وحشی</WildTropicalPlants.label>
   <!-- EN: This area can grow a large number of {0}s. -->
-  <WildTropicalPlants.description>این منطقه می تواند تعداد زیادی {0} را رشد دهد.</WildTropicalPlants.description>
+  <WildTropicalPlants.description>این منطقه می‌تواند تعداد زیادی {0} را رشد دهد.</WildTropicalPlants.description>
   
   <!-- EN: windy -->
   <WindyMutator.label>بادی</WindyMutator.label>

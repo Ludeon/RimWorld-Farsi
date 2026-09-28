@@ -72,18 +72,18 @@
   <!-- EN: Mental state: Given up and leaving -->
   <GiveUpExit.baseInspectLine>حالت روانی: تسلیم شدن و رفتن</GiveUpExit.baseInspectLine>
   <!-- EN: {0} has given up on this community.\n\n[PAWN_pronoun] has decided to leave and pursue a better life elsewhere. You can try to arrest [PAWN_objective] as [PAWN_pronoun] leaves. Otherwise, you may still see [PAWN_objective] again some day. -->
-  <GiveUpExit.beginLetter>{0} از این جامعه دست کشیده است.\n\n[PAWN_pronoun] تصمیم گرفته است که آن را ترک کند و زندگی بهتری را در جای دیگری دنبال کند. می توانید سعی کنید [PAWN_objective] را با خروج [PAWN_pronoun] دستگیر کنید. در غیر این صورت، ممکن است روزی دوباره [PAWN_objective] را ببینید.</GiveUpExit.beginLetter>
+  <GiveUpExit.beginLetter>{0} از این جامعه دست کشیده است.\n\n[PAWN_pronoun] تصمیم گرفته است که آن را ترک کند و زندگی بهتری را در جای دیگری دنبال کند. می‌توانید سعی کنید [PAWN_objective] را با خروج [PAWN_pronoun] دستگیر کنید. در غیر این صورت، ممکن است روزی دوباره [PAWN_objective] را ببینید.</GiveUpExit.beginLetter>
   <!-- EN: gave up -->
   <GiveUpExit.beginLetterLabel>تسلیم شد</GiveUpExit.beginLetterLabel>
   <!-- EN: {0} has had a change of heart and is coming back to the colony. -->
-  <GiveUpExit.recoveryMessage>{0} تغییر کرده است و به مستعمره باز می گردد.</GiveUpExit.recoveryMessage>
+  <GiveUpExit.recoveryMessage>{0} تغییر کرده است و به مستعمره باز می‌گردد.</GiveUpExit.recoveryMessage>
   
   <!-- EN: insulting spree -->
   <InsultingSpree.label>ولگردی توهین آمیز</InsultingSpree.label>
   <!-- EN: Mental state: Insulting spree -->
   <InsultingSpree.baseInspectLine>حالت روحی: ولگردی توهین آمیز</InsultingSpree.baseInspectLine>
   <!-- EN: {0} is on an insulting spree.\n\n[PAWN_pronoun] will wander around, randomly insulting others. -->
-  <InsultingSpree.beginLetter>{0} در حال ولگردی و ولگردی توهین آمیز است.\n\n[PAWN_pronoun] سرگردان می شود و به طور تصادفی به دیگران توهین می کند.</InsultingSpree.beginLetter>
+  <InsultingSpree.beginLetter>{0} در حال ولگردی و ولگردی توهین آمیز است.\n\n[PAWN_pronoun] سرگردان می‌شود و به طور تصادفی به دیگران توهین می‌کند.</InsultingSpree.beginLetter>
   <!-- EN: {0} is no longer on an insulting spree. -->
   <InsultingSpree.recoveryMessage>{0} دیگر در ولگردی و ولگردی توهین آمیز نیست.</InsultingSpree.recoveryMessage>
   
@@ -96,7 +96,7 @@
   <!-- EN: jailbreaker -->
   <Jailbreaker.beginLetterLabel>جیلبریک</Jailbreaker.beginLetterLabel>
   <!-- EN: {0} is no longer inducing prisoners to escape. -->
-  <Jailbreaker.recoveryMessage>{0} دیگر زندانیان را وادار به فرار نمی کند.</Jailbreaker.recoveryMessage>
+  <Jailbreaker.recoveryMessage>{0} دیگر زندانیان را وادار به فرار نمی‌کند.</Jailbreaker.recoveryMessage>
   
   <!-- EN: murderous rage -->
   <MurderousRage.label>خشم قاتل</MurderousRage.label>
@@ -112,7 +112,7 @@
   <!-- EN: Mental state: Sadistic rage -->
   <SadisticRage.baseInspectLine>حالت روانی: خشم سادیستی</SadisticRage.baseInspectLine>
   <!-- EN: {0} has flown into a sadistic rage.\n\n[PAWN_pronoun] is going to vent [PAWN_possessive] anger on the prisoners. -->
-  <SadisticRage.beginLetter>{0} به خشم سادیستی فرو رفته است.\n\n[PAWN_pronoun] خشم [PAWN_possessive] را بر سر زندانیان تخلیه می کند.</SadisticRage.beginLetter>
+  <SadisticRage.beginLetter>{0} به خشم سادیستی فرو رفته است.\n\n[PAWN_pronoun] خشم [PAWN_possessive] را بر سر زندانیان تخلیه می‌کند.</SadisticRage.beginLetter>
   <!-- EN: {0} is no longer in a sadistic rage. -->
   <SadisticRage.recoveryMessage>{0} دیگر در خشم سادیستی نیست.</SadisticRage.recoveryMessage>
   
@@ -121,9 +121,9 @@
   <!-- EN: Mental state: Slaughterer -->
   <Slaughterer.baseInspectLine>حالت روانی: ذبح کننده</Slaughterer.baseInspectLine>
   <!-- EN: {0} has had a mental breakdown and is going to vent [PAWN_possessive] anger on your animals. -->
-  <Slaughterer.beginLetter>{0} دچار یک فروپاشی روانی شده است و خشم [PAWN_possessive] را روی حیوانات شما تخلیه می کند.</Slaughterer.beginLetter>
+  <Slaughterer.beginLetter>{0} دچار یک فروپاشی روانی شده است و خشم [PAWN_possessive] را روی حیوانات شما تخلیه می‌کند.</Slaughterer.beginLetter>
   <!-- EN: {0} is no longer slaughtering random animals. -->
-  <Slaughterer.recoveryMessage>{0} دیگر حیوانات تصادفی را سلاخی نمی کند.</Slaughterer.recoveryMessage>
+  <Slaughterer.recoveryMessage>{0} دیگر حیوانات تصادفی را سلاخی نمی‌کند.</Slaughterer.recoveryMessage>
   
   <!-- EN: tantrum -->
   <Tantrum.label>عصبانیت</Tantrum.label>
@@ -159,7 +159,7 @@
   <!-- EN: hide in room -->
   <Wander_OwnRoom.beginLetterLabel>در اتاق پنهان شوید</Wander_OwnRoom.beginLetterLabel>
   <!-- EN: {0} is no longer hiding in [PAWN_possessive] room. -->
-  <Wander_OwnRoom.recoveryMessage>{0} دیگر در اتاق [PAWN_possessive] پنهان نمی شود.</Wander_OwnRoom.recoveryMessage>
+  <Wander_OwnRoom.recoveryMessage>{0} دیگر در اتاق [PAWN_possessive] پنهان نمی‌شود.</Wander_OwnRoom.recoveryMessage>
   
   <!-- EN: wandering in psychosis -->
   <Wander_Psychotic.label>سرگردان در روان پریشی</Wander_Psychotic.label>

@@ -4,22 +4,22 @@
   <!-- EN: beauty -->
   <Beauty.label>زیبایی</Beauty.label>
   <!-- EN: How enjoyable an object is to look at.\n\nBeautiful objects fulfill characters' need for beauty. -->
-  <Beauty.description>نگاه کردن به یک شی چقدر لذت بخش است.\n\nاشیاء زیبا نیاز شخصیت‌ها به زیبایی را برآورده می کنند.</Beauty.description>
+  <Beauty.description>نگاه کردن به یک شی چقدر لذت بخش است.\n\nاشیاء زیبا نیاز شخصیت‌ها به زیبایی را برآورده می‌کنند.</Beauty.description>
   
   <!-- EN: outdoor beauty -->
   <BeautyOutdoors.label>زیبایی در فضای باز</BeautyOutdoors.label>
   <!-- EN: How enjoyable something is to look at if it's outside.\n\nBeautiful objects fulfill peoples' need for beauty. -->
-  <BeautyOutdoors.description>اگر چیزی بیرون باشد چقدر دیدن آن لذت بخش است.\n\nاشیاء زیبا نیاز مردم به زیبایی را برآورده می کنند.</BeautyOutdoors.description>
+  <BeautyOutdoors.description>اگر چیزی بیرون باشد چقدر دیدن آن لذت بخش است.\n\nاشیاء زیبا نیاز مردم به زیبایی را برآورده می‌کنند.</BeautyOutdoors.description>
   
   <!-- EN: caravan speed factor -->
   <CaravanBonusSpeedFactor.label>ضریب سرعت کاروان</CaravanBonusSpeedFactor.label>
   <!-- EN: A multiplier applied to a caravan's speed when this person is part of a caravan. -->
-  <CaravanBonusSpeedFactor.description>زمانی که این شخص بخشی از یک کاروان است، یک ضریب برای سرعت کاروان اعمال می شود.</CaravanBonusSpeedFactor.description>
+  <CaravanBonusSpeedFactor.description>زمانی که این شخص بخشی از یک کاروان است، یک ضریب برای سرعت کاروان اعمال می‌شود.</CaravanBonusSpeedFactor.description>
   
   <!-- EN: cleanliness -->
   <Cleanliness.label>پاکیزگی</Cleanliness.label>
   <!-- EN: How much an object contributes to an area's cleanliness score. -->
-  <Cleanliness.description>یک شی چقدر به نمره تمیزی یک منطقه کمک می کند.</Cleanliness.description>
+  <Cleanliness.description>یک شی چقدر به نمره تمیزی یک منطقه کمک می‌کند.</Cleanliness.description>
   
   <!-- EN: comfort -->
   <Comfort.label>راحتی</Comfort.label>
@@ -36,7 +36,7 @@
   <!-- EN: flammability -->
   <Flammability.label>اشتعال پذیری</Flammability.label>
   <!-- EN: How easily an object catches fire and how quickly a fire will grow as it burns. -->
-  <Flammability.description>یک شی چقدر راحت آتش می گیرد و آتش با سوختن چقدر سریع رشد می کند.</Flammability.description>
+  <Flammability.description>یک شی چقدر راحت آتش می‌گیرد و آتش با سوختن چقدر سریع رشد می‌کند.</Flammability.description>
   
   <!-- EN: food poison chance -->
   <FoodPoisonChanceFixedHuman.label>شانس مسمومیت غذایی</FoodPoisonChanceFixedHuman.label>
@@ -63,7 +63,7 @@
   <!-- EN: max hit points -->
   <MaxHitPoints.label>حداکثر امتیاز ضربه</MaxHitPoints.label>
   <!-- EN: The maximum hit points of an object.\n\nThis represents how much damage it can take before being destroyed. -->
-  <MaxHitPoints.description>حداکثر نقاط ضربه یک شی.\n\nاین نشان دهنده میزان آسیبی است که قبل از نابود شدن می تواند داشته باشد.</MaxHitPoints.description>
+  <MaxHitPoints.description>حداکثر نقاط ضربه یک شی.\n\nاین نشان دهنده میزان آسیبی است که قبل از نابود شدن می‌تواند داشته باشد.</MaxHitPoints.description>
   
   <!-- EN: nutrition -->
   <Nutrition.label>تغذیه</Nutrition.label>
@@ -73,12 +73,12 @@
   <!-- EN: honor value -->
   <RoyalFavorValue.label>ارزش افتخار</RoyalFavorValue.label>
   <!-- EN: The amount of honor your trader will earn for giving this to a tribute collector. -->
-  <RoyalFavorValue.description>میزان افتخاری که معامله گر شما برای دادن این به یک ادای احترام به دست می آورد.</RoyalFavorValue.description>
+  <RoyalFavorValue.description>میزان افتخاری که معامله گر شما برای دادن این به یک ادای احترام به دست می‌آورد.</RoyalFavorValue.description>
   
   <!-- EN: sell price multiplier -->
   <SellPriceFactor.label>ضریب قیمت فروش</SellPriceFactor.label>
   <!-- EN: A multiplier on the price at which you can sell items. -->
-  <SellPriceFactor.description>ضریب قیمتی که می توانید اقلام را با آن بفروشید.</SellPriceFactor.description>
+  <SellPriceFactor.description>ضریب قیمتی که می‌توانید اقلام را با آن بفروشید.</SellPriceFactor.description>
   
   <!-- EN: shooting accuracy -->
   <ShootingAccuracyTurret.label>دقت تیراندازی</ShootingAccuracyTurret.label>

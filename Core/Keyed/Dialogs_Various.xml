@@ -1125,7 +1125,7 @@
 
   <!-- Growing -->
   <!-- EN: {0} requires {1} skill in Growing to sow.\n\nNone of your non-downed growers have this skill, so this plant will not be sown. -->
-  <NoGrowerCanPlant>{0} برای کاشت به مهارت {1} در رشد نیاز دارد.\n\nهیچ یک از پرورش دهندگان شما این مهارت را ندارند، بنابراین این گیاه کاشته نمی شود.</NoGrowerCanPlant>
+  <NoGrowerCanPlant>{0} برای کاشت به مهارت {1} در رشد نیاز دارد.\n\nهیچ یک از پرورش دهندگان شما این مهارت را ندارند، بنابراین این گیاه کاشته نمی‌شود.</NoGrowerCanPlant>
 
   <!-- Abandon home -->
   <!-- EN: Some of your colonists or animals are in this area. Are you sure you want to abandon it?\n\nThe following people and animals will be left behind:\n\n{0} -->
@@ -1141,15 +1141,15 @@
   
   <!-- Abandon pawn -->
   <!-- EN: Do you really want to banish {1_label}? -->
-  <ConfirmBanishPawnDialog>آیا واقعاً می خواهید {1_label} را حذف کنید؟</ConfirmBanishPawnDialog>
+  <ConfirmBanishPawnDialog>آیا واقعاً می‌خواهید {1_label} را حذف کنید؟</ConfirmBanishPawnDialog>
   <!-- EN: {1_labelShort} will most likely die. -->
   <ConfirmBanishPawnDialog_LeftToDie>{1_labelShort} به احتمال زیاد خواهد مرد.</ConfirmBanishPawnDialog_LeftToDie>
   <!-- EN: {1_labelShort} will take the following items with {1_objective}: -->
-  <ConfirmBanishPawnDialog_Items>{1_labelShort} موارد زیر را با {1_objective} می گیرد:</ConfirmBanishPawnDialog_Items>
+  <ConfirmBanishPawnDialog_Items>{1_labelShort} موارد زیر را با {1_objective} می‌گیرد:</ConfirmBanishPawnDialog_Items>
   <!-- EN: All colonists will get the following thoughts: -->
   <ConfirmBanishPawnDialog_AllColonistsThoughts>همه استعمارگران افکار زیر را خواهند داشت:</ConfirmBanishPawnDialog_AllColonistsThoughts>
   <!-- EN: Banishing {1_labelShort} will cause the following people to get the following thoughts: -->
-  <ConfirmBanishPawnDialog_IndividualThoughts>حذف {1_labelShort} باعث ایجاد افکار زیر در افراد زیر می شود:</ConfirmBanishPawnDialog_IndividualThoughts>
+  <ConfirmBanishPawnDialog_IndividualThoughts>حذف {1_labelShort} باعث ایجاد افکار زیر در افراد زیر می‌شود:</ConfirmBanishPawnDialog_IndividualThoughts>
 
   <!-- Send transport pods which are not completely loaded -->
   <!-- EN: The following still need to be loaded -->
@@ -1173,7 +1173,7 @@
 
   <!-- Confirm cancel monument marker -->
   <!-- EN: Do you really want to remove this monument marker? -->
-  <ConfirmCancelMonumentMarker>آیا واقعاً می خواهید این نشانگر یادبود را بردارید؟</ConfirmCancelMonumentMarker>
+  <ConfirmCancelMonumentMarker>آیا واقعاً می‌خواهید این نشانگر یادبود را بردارید؟</ConfirmCancelMonumentMarker>
 
   <!-- Abilities -->
   <!-- EN: Cannot use {0} -->
@@ -1213,7 +1213,7 @@
   <!-- EN: {0_labelShort} has scaria, which can only be treated medically. -->
   <AbilityCantApplyToScaria>{0_labelShort} اسکاریا دارد که فقط از نظر پزشکی قابل درمان است.</AbilityCantApplyToScaria>
   <!-- EN: {0} doesn't work on the '{1}' mental state. -->
-  <AbilityDoesntWorkOnMentalState>{0} روی حالت ذهنی "{1}" کار نمی کند.</AbilityDoesntWorkOnMentalState>
+  <AbilityDoesntWorkOnMentalState>{0} روی حالت ذهنی "{1}" کار نمی‌کند.</AbilityDoesntWorkOnMentalState>
   <!-- EN: {0_labelShort} has zero resistance. -->
   <AbilityCantApplyNoResistance>{0_labelShort} مقاومت صفر دارد.</AbilityCantApplyNoResistance>
   <!-- EN: {0_labelShort} is downed. -->
@@ -1233,7 +1233,7 @@
   <!-- EN: {0_labelShort} is already inspired. -->
   <AbilityAlreadyInspired>{0_labelShort} قبلاً الهام گرفته شده است.</AbilityAlreadyInspired>
   <!-- EN: {0_labelShort} can't get an inspiration right now. -->
-  <AbilityCantGetInspiredNow>{0_labelShort} در حال حاضر نمی تواند الهام بگیرد.</AbilityCantGetInspiredNow>
+  <AbilityCantGetInspiredNow>{0_labelShort} در حال حاضر نمی‌تواند الهام بگیرد.</AbilityCantGetInspiredNow>
   <!-- EN: {0_labelShort} must be of a different ideoligion than {1_labelShort}. -->
   <AbilityMustBeNotSameIdeo>{0_labelShort} باید از ایدئولوژی متفاوتی نسبت به {1_labelShort} باشد.</AbilityMustBeNotSameIdeo>
   <!-- EN: {0_labelShort} must be of same ideoligion as {1_labelShort}. -->
@@ -1241,9 +1241,9 @@
   <!-- EN: {0_labelShort} must be sick or injured. -->
   <AbilityMustBeSickOrInjured>{0_labelShort} باید بیمار یا مجروح باشد.</AbilityMustBeSickOrInjured>
   <!-- EN: {0} can only counsel {1}s. -->
-  <AbilityMustBeSameIdeoCounsel>{0} فقط می تواند {1}‌ها را مشاوره دهد.</AbilityMustBeSameIdeoCounsel>
+  <AbilityMustBeSameIdeoCounsel>{0} فقط می‌تواند {1}‌ها را مشاوره دهد.</AbilityMustBeSameIdeoCounsel>
   <!-- EN: {0_labelShort} is already considered guilty. -->
-  <AbilityMustBeNotGuilty>{0_labelShort} قبلاً مجرم شناخته می شود.</AbilityMustBeNotGuilty>
+  <AbilityMustBeNotGuilty>{0_labelShort} قبلاً مجرم شناخته می‌شود.</AbilityMustBeNotGuilty>
   <!-- EN: Must target a human. -->
   <AbilityMustBeHuman>باید یک انسان را هدف قرار دهد.</AbilityMustBeHuman>
   <!-- EN: Must target a non-wild human. -->

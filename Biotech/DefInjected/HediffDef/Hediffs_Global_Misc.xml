@@ -16,11 +16,11 @@
   <!-- EN: bad -->
   <InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.1.labelPrefix>بد</InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.1.labelPrefix>
   <!-- EN: that can be life threatening without basic medicine and tending. -->
-  <InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.2.descriptionExtra>که بدون دارو و مراقبت اولیه می تواند زندگی را تهدید کند.</InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.2.descriptionExtra>
+  <InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.2.descriptionExtra>که بدون دارو و مراقبت اولیه می‌تواند زندگی را تهدید کند.</InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.2.descriptionExtra>
   <!-- EN: common -->
   <InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.2.labelPrefix>مشترک</InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.2.labelPrefix>
   <!-- EN: which make the baby slightly ill but, at this rate, they will recover on their own. -->
-  <InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.3.descriptionExtra>که نوزاد را کمی بیمار می کند، اما با این سرعت، خود به خود بهبود می یابند.</InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.3.descriptionExtra>
+  <InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.3.descriptionExtra>که نوزاد را کمی بیمار می‌کند، اما با این سرعت، خود به خود بهبود می‌یابند.</InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.3.descriptionExtra>
   <!-- EN: mild -->
   <InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.3.labelPrefix>خفیف</InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.3.labelPrefix>
   <!-- EN: Effects of various birth complications -->
@@ -37,23 +37,23 @@
   <!-- EN: lactating -->
   <Lactating.label>شیردهی</Lactating.label>
   <!-- EN: The condition of being able to breastfeed a baby. The breasts are actively producing and storing milk. The lactating state begins when a mother gives birth, and continues indefinitely as long as she breastfeeds a baby at least once every 10 days.\n\nPeople who are lactating will have a harder time becoming pregnant. -->
-  <Lactating.description>شرط توانایی شیر دادن به نوزاد. سینه‌ها به طور فعال شیر تولید و ذخیره می کنند. وضعیت شیردهی از زمان زایمان مادر شروع می شود و تا زمانی که حداقل هر 10 روز یک بار به نوزادش شیر می دهد، تا زمانی که به نوزادش شیر می دهد تا زمانی که شیر می دهد به طور نامحدود ادامه می یابد.\n\nافرادی که در دوران شیردهی هستند، برای باردار شدن مشکل بیشتری خواهند داشت.</Lactating.description>
+  <Lactating.description>شرط توانایی شیر دادن به نوزاد. سینه‌ها به طور فعال شیر تولید و ذخیره می‌کنند. وضعیت شیردهی از زمان زایمان مادر شروع می‌شود و تا زمانی که حداقل هر 10 روز یک بار به نوزادش شیر می‌دهد، تا زمانی که به نوزادش شیر می‌دهد تا زمانی که شیر می‌دهد به طور نامحدود ادامه می‌یابد.\n\nافرادی که در دوران شیردهی هستند، برای باردار شدن مشکل بیشتری خواهند داشت.</Lactating.description>
   <!-- EN: {0} is no longer lactating due to not breastfeeding for 10 days. -->
-  <Lactating.comps.HediffComp_MessageOnRemoval.message>{0} به دلیل عدم شیردهی به مدت 10 روز دیگر شیردهی نمی کند.</Lactating.comps.HediffComp_MessageOnRemoval.message>
+  <Lactating.comps.HediffComp_MessageOnRemoval.message>{0} به دلیل عدم شیردهی به مدت 10 روز دیگر شیردهی نمی‌کند.</Lactating.comps.HediffComp_MessageOnRemoval.message>
   <!-- EN: milk fullness {CHARGEFACTOR_percentage} -->
   <Lactating.comps.HediffComp_Lactating.labelInBrackets>شیر پری {CHARGEFACTOR_percentage}</Lactating.comps.HediffComp_Lactating.labelInBrackets>
   <!-- EN: {0} is no longer lactating due to malnutrition. -->
-  <Lactating.comps.HediffComp_RemoveIfOtherHediff.message>{0} به دلیل سوء تغذیه دیگر شیردهی نمی کند.</Lactating.comps.HediffComp_RemoveIfOtherHediff.message>
+  <Lactating.comps.HediffComp_RemoveIfOtherHediff.message>{0} به دلیل سوء تغذیه دیگر شیردهی نمی‌کند.</Lactating.comps.HediffComp_RemoveIfOtherHediff.message>
   
   <!-- EN: morning sickness -->
   <MorningSickness.label>تهوع صبحگاهی</MorningSickness.label>
   <!-- EN: This is a common side effect of pregnancy, and despite the name isn't limited to mornings. While this is ongoing, the person suffers from nausea, dizziness, and fuzzy thinking. -->
-  <MorningSickness.description>این یک عارضه جانبی رایج بارداری است و علیرغم نامش به صبح‌ها محدود نمی شود. در حالی که این کار ادامه دارد، فرد از حالت تهوع، سرگیجه و تفکر مبهم رنج می برد.</MorningSickness.description>
+  <MorningSickness.description>این یک عارضه جانبی رایج بارداری است و علیرغم نامش به صبح‌ها محدود نمی‌شود. در حالی که این کار ادامه دارد، فرد از حالت تهوع، سرگیجه و تفکر مبهم رنج می‌برد.</MorningSickness.description>
   
   <!-- EN: ovum extracted -->
   <OvumExtracted.label>تخمک استخراج شده</OvumExtracted.label>
   <!-- EN: This woman recently underwent an ovum extraction procedure. No more ova can be extracted until some time has passed. -->
-  <OvumExtracted.description>این زن اخیراً تحت عمل کشیدن تخمک قرار گرفته است. تا زمانی که مدتی سپری نشود، دیگر نمی توان تخمک را استخراج کرد.</OvumExtracted.description>
+  <OvumExtracted.description>این زن اخیراً تحت عمل کشیدن تخمک قرار گرفته است. تا زمانی که مدتی سپری نشود، دیگر نمی‌توان تخمک را استخراج کرد.</OvumExtracted.description>
   
   <!-- EN: pollution stimulus -->
   <PollutionStimulus.label>محرک آلودگی</PollutionStimulus.label>
@@ -76,7 +76,7 @@
   <!-- EN: labor (dilation) -->
   <PregnancyLabor.label>زایمان (اتساع)</PregnancyLabor.label>
   <!-- EN: The condition of being about to give birth. Labor moves through multiple stages with different levels of pain and contractions. Each labor is different, and pain can rise and fall unpredictably over time. Labor ends when the baby is born. -->
-  <PregnancyLabor.description>شرط در شرف زایمان. زایمان در مراحل مختلف با سطوح مختلف درد و انقباضات حرکت می کند. هر زایمان متفاوت است و درد ممکن است در طول زمان به طور غیرقابل پیش بینی افزایش یا کاهش یابد. زایمان با تولد نوزاد به پایان می رسد.</PregnancyLabor.description>
+  <PregnancyLabor.description>شرط در شرف زایمان. زایمان در مراحل مختلف با سطوح مختلف درد و انقباضات حرکت می‌کند. هر زایمان متفاوت است و درد ممکن است در طول زمان به طور غیرقابل پیش بینی افزایش یا کاهش یابد. زایمان با تولد نوزاد به پایان می‌رسد.</PregnancyLabor.description>
   <!-- EN: {PAWN_labelShort}'s labor went from {1} to {2}. -->
   <PregnancyLabor.comps.HediffComp_RandomizeStageWithInterval.notifyMessage>کار {PAWN_labelShort} از {1} به {2} رسید.</PregnancyLabor.comps.HediffComp_RandomizeStageWithInterval.notifyMessage>
   <!-- EN: mild -->
@@ -99,7 +99,7 @@
   <!-- EN: pregnant -->
   <PregnantHuman.label>حامله</PregnantHuman.label>
   <!-- EN: A baby growing inside a woman, preparing to be born. In humans, pregnancy lasts for 18 days and is divided into 3 trimesters. As the pregnancy grows it will reduce the mother's mobility. For some mothers, pregnancy may induce nausea or mood swings that can be hard to deal with. -->
-  <PregnantHuman.description>نوزادی که در درون یک زن رشد می کند و برای تولد آماده می شود. بارداری در انسان 18 روز طول می کشد و به 3 سه ماهه تقسیم می شود. همانطور که بارداری رشد می کند، تحرک مادر را کاهش می دهد. برای برخی از مادران، بارداری ممکن است باعث تهوع یا نوسانات خلقی شود که مقابله با آنها دشوار است.</PregnantHuman.description>
+  <PregnantHuman.description>نوزادی که در درون یک زن رشد می‌کند و برای تولد آماده می‌شود. بارداری در انسان 18 روز طول می‌کشد و به 3 سه ماهه تقسیم می‌شود. همانطور که بارداری رشد می‌کند، تحرک مادر را کاهش می‌دهد. برای برخی از مادران، بارداری ممکن است باعث تهوع یا نوسانات خلقی شود که مقابله با آنها دشوار است.</PregnantHuman.description>
   <!-- EN: {0_labelShort} pregnant -->
   <PregnantHuman.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} باردار</PregnantHuman.comps.HediffComp_MessageAfterTicks.letterLabel>
   <!-- EN: {0_labelShort} is pregnant! -->

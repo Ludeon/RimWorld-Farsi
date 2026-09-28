@@ -4,7 +4,7 @@
   <!-- EN: animal gather speed -->
   <AnimalGatherSpeed.label>سرعت جمع شدن حیوانات</AnimalGatherSpeed.label>
   <!-- EN: The speed at which this person milks, shears, and otherwise gathers resources from animals. -->
-  <AnimalGatherSpeed.description>سرعتی که این فرد با آن شیر می دود، قیچی می کند و منابع را از حیوانات جمع آوری می کند.</AnimalGatherSpeed.description>
+  <AnimalGatherSpeed.description>سرعتی که این فرد با آن شیر می‌دود، قیچی می‌کند و منابع را از حیوانات جمع آوری می‌کند.</AnimalGatherSpeed.description>
   
   <!-- EN: animal gather yield -->
   <AnimalGatherYield.label>حیوان جمع آوری عملکرد</AnimalGatherYield.label>
@@ -19,7 +19,7 @@
   <!-- EN: construction speed -->
   <ConstructionSpeed.label>سرعت ساخت و ساز</ConstructionSpeed.label>
   <!-- EN: The speed at which this person constructs and repairs buildings. -->
-  <ConstructionSpeed.description>سرعتی که این شخص با آن ساختمان‌ها را می سازد و تعمیر می کند.</ConstructionSpeed.description>
+  <ConstructionSpeed.description>سرعتی که این شخص با آن ساختمان‌ها را می‌سازد و تعمیر می‌کند.</ConstructionSpeed.description>
   
   <!-- EN: construct success chance -->
   <ConstructSuccessChance.label>ایجاد شانس موفقیت</ConstructSuccessChance.label>
@@ -29,27 +29,27 @@
   <!-- EN: deep drilling speed -->
   <DeepDrillingSpeed.label>سرعت حفاری عمیق</DeepDrillingSpeed.label>
   <!-- EN: A speed at which this person uses a deep drill to extract underground resources. -->
-  <DeepDrillingSpeed.description>سرعتی که این فرد از مته عمیق برای استخراج منابع زیرزمینی استفاده می کند.</DeepDrillingSpeed.description>
+  <DeepDrillingSpeed.description>سرعتی که این فرد از مته عمیق برای استخراج منابع زیرزمینی استفاده می‌کند.</DeepDrillingSpeed.description>
   
   <!-- EN: drug crop harvest yield -->
   <DrugHarvestYield.label>عملکرد برداشت محصول دارویی</DrugHarvestYield.label>
   <!-- EN: The yield this person gets when harvesting drug crops.\n\nLow yields give a chance that this person will accidentally waste the harvest. High yields increase the yield from each plant. -->
-  <DrugHarvestYield.description>بازدهی که این فرد هنگام برداشت محصولات دارویی به دست می آورد.\n\nبازده کم این احتمال را می دهد که این فرد به طور تصادفی محصول را هدر دهد. عملکرد بالا باعث افزایش عملکرد هر بوته می شود.</DrugHarvestYield.description>
+  <DrugHarvestYield.description>بازدهی که این فرد هنگام برداشت محصولات دارویی به دست می‌آورد.\n\nبازده کم این احتمال را می‌دهد که این فرد به طور تصادفی محصول را هدر دهد. عملکرد بالا باعث افزایش عملکرد هر بوته می‌شود.</DrugHarvestYield.description>
   
   <!-- EN: repair success chance -->
   <FixBrokenDownBuildingSuccessChance.label>شانس موفقیت تعمیر</FixBrokenDownBuildingSuccessChance.label>
   <!-- EN: The chance that this person will successfully repair a broken down building using a component.\n\nFailing means wasting time and resources.\nNote that this only applies to repairing breakdowns, which is different from repairing damage. -->
-  <FixBrokenDownBuildingSuccessChance.description>احتمال اینکه این شخص با موفقیت یک ساختمان خراب را با استفاده از یک جزء تعمیر کند.\n\nشکست به معنای هدر دادن زمان و منابع است.\nتوجه داشته باشید که این فقط در مورد تعمیر خرابی‌ها صدق می کند که با تعمیر آسیب متفاوت است.</FixBrokenDownBuildingSuccessChance.description>
+  <FixBrokenDownBuildingSuccessChance.description>احتمال اینکه این شخص با موفقیت یک ساختمان خراب را با استفاده از یک جزء تعمیر کند.\n\nشکست به معنای هدر دادن زمان و منابع است.\nتوجه داشته باشید که این فقط در مورد تعمیر خرابی‌ها صدق می‌کند که با تعمیر آسیب متفاوت است.</FixBrokenDownBuildingSuccessChance.description>
   
   <!-- EN: hacking speed -->
   <HackingSpeed.label>سرعت هک</HackingSpeed.label>
   <!-- EN: How fast this person can hack into computer terminals. -->
-  <HackingSpeed.description>این شخص با چه سرعتی می تواند ترمینال های کامپیوتر را هک کند.</HackingSpeed.description>
+  <HackingSpeed.description>این شخص با چه سرعتی می‌تواند ترمینال های کامپیوتر را هک کند.</HackingSpeed.description>
   
   <!-- EN: hacking stealth -->
   <HackingStealth.label>هک مخفی کاری</HackingStealth.label>
   <!-- EN: How much hacking progress can be made on average before this person is temporarily locked out of a computer system. Only certain systems are capable of detecting hacking. -->
-  <HackingStealth.description>قبل از اینکه این شخص به طور موقت از یک سیستم کامپیوتری خارج شود، به طور متوسط ​​چقدر پیشرفت هک می تواند انجام شود. فقط سیستم های خاصی قادر به تشخیص هک هستند.</HackingStealth.description>
+  <HackingStealth.description>قبل از اینکه این شخص به طور موقت از یک سیستم کامپیوتری خارج شود، به طور متوسط ​​چقدر پیشرفت هک می‌تواند انجام شود. فقط سیستم های خاصی قادر به تشخیص هک هستند.</HackingStealth.description>
   
   <!-- EN: hunting stealth -->
   <HuntingStealth.label>رازی شکار</HuntingStealth.label>
@@ -59,7 +59,7 @@
   <!-- EN: mining speed -->
   <MiningSpeed.label>سرعت استخراج</MiningSpeed.label>
   <!-- EN: A speed at which this person mines away walls. -->
-  <MiningSpeed.description>سرعتی که با آن این شخص دیوارها را مین می کشد.</MiningSpeed.description>
+  <MiningSpeed.description>سرعتی که با آن این شخص دیوارها را مین می‌کشد.</MiningSpeed.description>
   
   <!-- EN: mining yield -->
   <MiningYield.label>بازده معدن</MiningYield.label>
@@ -69,7 +69,7 @@
   <!-- EN: plant harvest yield -->
   <PlantHarvestYield.label>عملکرد برداشت گیاه</PlantHarvestYield.label>
   <!-- EN: The yield this person gets when harvesting plants.\n\nLow yields give a chance that this person will accidentally waste the harvest. -->
-  <PlantHarvestYield.description>محصولی که این فرد هنگام برداشت گیاهان به دست می آورد.\n\nبازده کم این احتمال را می دهد که این فرد به طور تصادفی محصول را هدر دهد.</PlantHarvestYield.description>
+  <PlantHarvestYield.description>محصولی که این فرد هنگام برداشت گیاهان به دست می‌آورد.\n\nبازده کم این احتمال را می‌دهد که این فرد به طور تصادفی محصول را هدر دهد.</PlantHarvestYield.description>
   
   <!-- EN: plant work speed -->
   <PlantWorkSpeed.label>سرعت کار کارخانه</PlantWorkSpeed.label>
@@ -84,12 +84,12 @@
   <!-- EN: research speed -->
   <ResearchSpeed.label>سرعت تحقیق</ResearchSpeed.label>
   <!-- EN: How fast this person performs research and how quickly they can find things using scanning equipment. -->
-  <ResearchSpeed.description>این شخص با چه سرعتی تحقیقات را انجام می دهد و با چه سرعتی می تواند چیزهایی را با استفاده از تجهیزات اسکن پیدا کند.</ResearchSpeed.description>
+  <ResearchSpeed.description>این شخص با چه سرعتی تحقیقات را انجام می‌دهد و با چه سرعتی می‌تواند چیزهایی را با استفاده از تجهیزات اسکن پیدا کند.</ResearchSpeed.description>
   
   <!-- EN: smoothing speed -->
   <SmoothingSpeed.label>سرعت صاف کردن</SmoothingSpeed.label>
   <!-- EN: A multiplier on the speed at which this person smooths rough stone floors and walls. -->
-  <SmoothingSpeed.description>ضربدر سرعتی که این شخص با آن کف و دیوارهای سنگی ناهموار را صاف می کند.</SmoothingSpeed.description>
+  <SmoothingSpeed.description>ضربدر سرعتی که این شخص با آن کف و دیوارهای سنگی ناهموار را صاف می‌کند.</SmoothingSpeed.description>
   
   <!-- EN: global work speed -->
   <WorkSpeedGlobal.label>سرعت جهانی کار</WorkSpeedGlobal.label>

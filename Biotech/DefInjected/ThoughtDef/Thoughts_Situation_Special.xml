@@ -4,7 +4,7 @@
   <!-- EN: blood torch -->
   <BloodTorch.stages.blood_torch.label>مشعل خون</BloodTorch.stages.blood_torch.label>
   <!-- EN: No flame burns as softly as a blood torch. -->
-  <BloodTorch.stages.blood_torch.description>هیچ شعله‌ای به آرامی یک مشعل خون نمی سوزد.</BloodTorch.stages.blood_torch.description>
+  <BloodTorch.stages.blood_torch.description>هیچ شعله‌ای به آرامی یک مشعل خون نمی‌سوزد.</BloodTorch.stages.blood_torch.description>
   
   <!-- EN: childlike joy -->
   <ChildlikePositivity.stages.childlike_joy.label>شادی کودکانه</ChildlikePositivity.stages.childlike_joy.label>
@@ -13,7 +13,7 @@
   <!-- EN: childlike wonder -->
   <ChildlikePositivity.stages.childlike_wonder.label>شگفتی کودکانه</ChildlikePositivity.stages.childlike_wonder.label>
   <!-- EN: The world is a magical place and I can't wait to grow up! -->
-  <ChildlikePositivity.stages.childlike_wonder.description>دنیا مکانی جادویی است و من نمی توانم صبر کنم تا بزرگ شوم!</ChildlikePositivity.stages.childlike_wonder.description>
+  <ChildlikePositivity.stages.childlike_wonder.description>دنیا مکانی جادویی است و من نمی‌توانم صبر کنم تا بزرگ شوم!</ChildlikePositivity.stages.childlike_wonder.description>
   <!-- EN: childlike enthusiasm -->
   <ChildlikePositivity.stages.childlike_enthusiasm.label>شور و شوق کودکانه</ChildlikePositivity.stages.childlike_enthusiasm.label>
   <!-- EN: The world is full of wonders. -->
@@ -42,7 +42,7 @@
   <!-- EN: great deathrest chamber -->
   <DeathrestChamber.stages.great_deathrest_chamber.label>اتاق بزرگ مرگ</DeathrestChamber.stages.great_deathrest_chamber.label>
   <!-- EN: I deathrested in an impressive chamber. I feel rejuvenated. -->
-  <DeathrestChamber.stages.great_deathrest_chamber.description>من در اتاقی چشمگیر به مرگ سپردم. احساس جوانی می کنم.</DeathrestChamber.stages.great_deathrest_chamber.description>
+  <DeathrestChamber.stages.great_deathrest_chamber.description>من در اتاقی چشمگیر به مرگ سپردم. احساس جوانی می‌کنم.</DeathrestChamber.stages.great_deathrest_chamber.description>
   <!-- EN: excellent deathrest chamber -->
   <DeathrestChamber.stages.excellent_deathrest_chamber.label>اتاق مرگ عالی</DeathrestChamber.stages.excellent_deathrest_chamber.label>
   <!-- EN: I deathrested in a very impressive chamber. I feel amazing. -->
@@ -63,29 +63,29 @@
   <!-- EN: deathrest exhaustion -->
   <DeathrestExhaustion.stages.deathrest_exhaustion.label>خستگی ناشی از مرگ</DeathrestExhaustion.stages.deathrest_exhaustion.label>
   <!-- EN: The casket calls and I fall weary. The world's pall makes all so dreary. I need to deathrest. -->
-  <DeathrestExhaustion.stages.deathrest_exhaustion.description>تابوت زنگ می زند و من خسته می شوم. رنگ پریدگی دنیا همه را بسیار دلخراش می کند. من به مرگ نیاز دارم</DeathrestExhaustion.stages.deathrest_exhaustion.description>
+  <DeathrestExhaustion.stages.deathrest_exhaustion.description>تابوت زنگ می‌زند و من خسته می‌شوم. رنگ پریدگی دنیا همه را بسیار دلخراش می‌کند. من به مرگ نیاز دارم</DeathrestExhaustion.stages.deathrest_exhaustion.description>
   
   <!-- EN: apocriton hatred (intense) -->
   <HateAura.stages.apocriton_hatred_intense.label>نفرت آپوکریتون (شدید)</HateAura.stages.apocriton_hatred_intense.label>
   <!-- EN: I feel its hatred inside me, the way I feel my own emotions. It's so close and so cold. They all deserve death. -->
-  <HateAura.stages.apocriton_hatred_intense.description>تنفرش را در درونم احساس می کنم، همان طور که احساسات خودم را احساس می کنم. خیلی نزدیکه و خیلی سرد همه آنها مستحق مرگ هستند.</HateAura.stages.apocriton_hatred_intense.description>
+  <HateAura.stages.apocriton_hatred_intense.description>تنفرش را در درونم احساس می‌کنم، همان طور که احساسات خودم را احساس می‌کنم. خیلی نزدیکه و خیلی سرد همه آنها مستحق مرگ هستند.</HateAura.stages.apocriton_hatred_intense.description>
   <!-- EN: apocriton hatred (strong) -->
   <HateAura.stages.apocriton_hatred_strong.label>نفرت آپوکریتون (قوی)</HateAura.stages.apocriton_hatred_strong.label>
   <!-- EN: I hear its hatred echoing between my thoughts. Reasons, always reasons why my friends ought to die. -->
-  <HateAura.stages.apocriton_hatred_strong.description>می شنوم که بغضش بین افکارم طنین انداز می شود. دلایل، همیشه دلایلی که چرا دوستان من باید بمیرند.</HateAura.stages.apocriton_hatred_strong.description>
+  <HateAura.stages.apocriton_hatred_strong.description>می شنوم که بغضش بین افکارم طنین انداز می‌شود. دلایل، همیشه دلایلی که چرا دوستان من باید بمیرند.</HateAura.stages.apocriton_hatred_strong.description>
   <!-- EN: apocriton hatred (distant) -->
   <HateAura.stages.apocriton_hatred_distant.label>نفرت آپوکریتون (دور)</HateAura.stages.apocriton_hatred_distant.label>
   <!-- EN: I feel it out there somewhere. It's always thinking about why these people deserve death. Always following the logic of murder. Hard to ignore. -->
-  <HateAura.stages.apocriton_hatred_distant.description>من آن را در جایی احساس می کنم. همیشه به این فکر می کند که چرا این افراد مستحق مرگ هستند. همیشه از منطق قتل پیروی می کند. نادیده گرفتنش سخته</HateAura.stages.apocriton_hatred_distant.description>
+  <HateAura.stages.apocriton_hatred_distant.description>من آن را در جایی احساس می‌کنم. همیشه به این فکر می‌کند که چرا این افراد مستحق مرگ هستند. همیشه از منطق قتل پیروی می‌کند. نادیده گرفتنش سخته</HateAura.stages.apocriton_hatred_distant.description>
   
   <!-- EN: hemogen craving -->
   <HemogenCraving.stages.hemogen_craving-0.label>میل به هموژن</HemogenCraving.stages.hemogen_craving-0.label>
   <!-- EN: My bones ache. I really need hemogen. -->
-  <HemogenCraving.stages.hemogen_craving-0.description>استخوان هایم درد می کند من واقعا به هموژن نیاز دارم.</HemogenCraving.stages.hemogen_craving-0.description>
+  <HemogenCraving.stages.hemogen_craving-0.description>استخوان هایم درد می‌کند من واقعا به هموژن نیاز دارم.</HemogenCraving.stages.hemogen_craving-0.description>
   <!-- EN: hemogen craving -->
   <HemogenCraving.stages.hemogen_craving-1.label>میل به هموژن</HemogenCraving.stages.hemogen_craving-1.label>
   <!-- EN: This hurts bad and my head is fuzzy. I would kill for some blood. Maybe I should. -->
-  <HemogenCraving.stages.hemogen_craving-1.description>این به شدت درد می کند و سرم مبهم است. من برای مقداری خون میکشم شاید من باید.</HemogenCraving.stages.hemogen_craving-1.description>
+  <HemogenCraving.stages.hemogen_craving-1.description>این به شدت درد می‌کند و سرم مبهم است. من برای مقداری خون میکشم شاید من باید.</HemogenCraving.stages.hemogen_craving-1.description>
   <!-- EN: hemogen craving -->
   <HemogenCraving.stages.hemogen_craving-2.label>میل به هموژن</HemogenCraving.stages.hemogen_craving-2.label>
   <!-- EN: Can't think. Thirst. Thirst. Must. Have. Blood. -->
@@ -99,12 +99,12 @@
   <!-- EN: acidic smog -->
   <NoxiousHaze.stages.acidic_smog.label>مه دود اسیدی</NoxiousHaze.stages.acidic_smog.label>
   <!-- EN: The smog makes my eyes water and it smells awful. I wish I could just have a few fresh breaths. -->
-  <NoxiousHaze.stages.acidic_smog.description>دود چشمانم را آب می کند و بوی بدی می دهد. کاش می توانستم فقط چند نفس تازه داشته باشم.</NoxiousHaze.stages.acidic_smog.description>
+  <NoxiousHaze.stages.acidic_smog.description>دود چشمانم را آب می‌کند و بوی بدی می‌دهد. کاش می‌توانستم فقط چند نفس تازه داشته باشم.</NoxiousHaze.stages.acidic_smog.description>
   
   <!-- EN: new pregnancy -->
   <PregnancyAttitude.stages.new_pregnancy-0.label>بارداری جدید</PregnancyAttitude.stages.new_pregnancy-0.label>
   <!-- EN: I'm pregnant! It makes me happy. -->
-  <PregnancyAttitude.stages.new_pregnancy-0.description>من حامله ام! باعث خوشحالی من می شود.</PregnancyAttitude.stages.new_pregnancy-0.description>
+  <PregnancyAttitude.stages.new_pregnancy-0.description>من حامله ام! باعث خوشحالی من می‌شود.</PregnancyAttitude.stages.new_pregnancy-0.description>
   <!-- EN: new pregnancy -->
   <PregnancyAttitude.stages.new_pregnancy-1.label>بارداری جدید</PregnancyAttitude.stages.new_pregnancy-1.label>
   <!-- EN: I'm pregnant and not very happy about it. -->
@@ -136,16 +136,16 @@
   <!-- EN: pregnancy mood up -->
   <PregnancyMood_Up.stages.pregnancy_mood_up.label>خلق و خوی بارداری</PregnancyMood_Up.stages.pregnancy_mood_up.label>
   <!-- EN: Everything feels a little bit more pleasant today. Pregnancy is nice. -->
-  <PregnancyMood_Up.stages.pregnancy_mood_up.description>امروز همه چیز کمی خوشایندتر به نظر می رسد. بارداری خوبه</PregnancyMood_Up.stages.pregnancy_mood_up.description>
+  <PregnancyMood_Up.stages.pregnancy_mood_up.description>امروز همه چیز کمی خوشایندتر به نظر می‌رسد. بارداری خوبه</PregnancyMood_Up.stages.pregnancy_mood_up.description>
   
   <!-- EN: psychic bond -->
   <PsychicBondProximity.stages.psychic_bond.label>پیوند روانی</PsychicBondProximity.stages.psychic_bond.label>
   <!-- EN: The bond brings us together, sharing feelings and thoughts. It's like a friend who is always with me. -->
-  <PsychicBondProximity.stages.psychic_bond.description>این پیوند ما را به هم نزدیک می کند و احساسات و افکار را به اشتراک می گذارد. مثل دوستی که همیشه با من است.</PsychicBondProximity.stages.psychic_bond.description>
+  <PsychicBondProximity.stages.psychic_bond.description>این پیوند ما را به هم نزدیک می‌کند و احساسات و افکار را به اشتراک می‌گذارد. مثل دوستی که همیشه با من است.</PsychicBondProximity.stages.psychic_bond.description>
   <!-- EN: psychic bond distance -->
   <PsychicBondProximity.stages.psychic_bond_distance.label>فاصله پیوند روانی</PsychicBondProximity.stages.psychic_bond_distance.label>
   <!-- EN: The distance makes it so hard to hear. I feel alone, like standing in a dark, silent cavern. -->
-  <PsychicBondProximity.stages.psychic_bond_distance.description>فاصله شنیدن آن را بسیار سخت می کند. احساس تنهایی می کنم، مثل ایستادن در یک غار تاریک و ساکت.</PsychicBondProximity.stages.psychic_bond_distance.description>
+  <PsychicBondProximity.stages.psychic_bond_distance.description>فاصله شنیدن آن را بسیار سخت می‌کند. احساس تنهایی می‌کنم، مثل ایستادن در یک غار تاریک و ساکت.</PsychicBondProximity.stages.psychic_bond_distance.description>
   
   <!-- EN: recluse alone -->
   <Recluse.stages.recluse_alone.label>گوشه نشین تنها</Recluse.stages.recluse_alone.label>
@@ -158,7 +158,7 @@
   <!-- EN: recluse crowded -->
   <Recluse.stages.recluse_crowded.label>گوشه نشین شلوغ</Recluse.stages.recluse_crowded.label>
   <!-- EN: There's too many people around here. The weight of having to think about them bears down on me. -->
-  <Recluse.stages.recluse_crowded.description>افراد زیادی در این اطراف هستند. سنگینی این که باید در مورد آنها فکر کنم بر من فشار می آورد.</Recluse.stages.recluse_crowded.description>
+  <Recluse.stages.recluse_crowded.description>افراد زیادی در این اطراف هستند. سنگینی این که باید در مورد آنها فکر کنم بر من فشار می‌آورد.</Recluse.stages.recluse_crowded.description>
   <!-- EN: recluse very crowded -->
   <Recluse.stages.recluse_very_crowded.label>گوشه نشین خیلی شلوغ</Recluse.stages.recluse_very_crowded.label>
   <!-- EN: There are so many people I'm supposed to be working with. They're overwhelming. -->
@@ -167,16 +167,16 @@
   <!-- EN: scanning sickness -->
   <ScanningSickness.stages.scanning_sickness.label>بیماری اسکن</ScanningSickness.stages.scanning_sickness.label>
   <!-- EN: Ever since that scan I've been dizzy and I can't think. -->
-  <ScanningSickness.stages.scanning_sickness.description>از آن زمان اسکن من سرگیجه دارم و نمی توانم فکر کنم.</ScanningSickness.stages.scanning_sickness.description>
+  <ScanningSickness.stages.scanning_sickness.description>از آن زمان اسکن من سرگیجه دارم و نمی‌توانم فکر کنم.</ScanningSickness.stages.scanning_sickness.description>
   
   <!-- EN: sunlight sensitivity -->
   <SunlightSensitivity_Major.stages.sunlight_sensitivity.label>حساسیت به نور خورشید</SunlightSensitivity_Major.stages.sunlight_sensitivity.label>
   <!-- EN: The sunlight burns my eyes and my skin feels like it's being scorched. -->
-  <SunlightSensitivity_Major.stages.sunlight_sensitivity.description>نور خورشید چشمانم را می سوزاند و احساس می کنم پوستم در حال سوختن است.</SunlightSensitivity_Major.stages.sunlight_sensitivity.description>
+  <SunlightSensitivity_Major.stages.sunlight_sensitivity.description>نور خورشید چشمانم را می‌سوزاند و احساس می‌کنم پوستم در حال سوختن است.</SunlightSensitivity_Major.stages.sunlight_sensitivity.description>
   
   <!-- EN: sunlight sensitivity -->
   <SunlightSensitivity_Mild.stages.sunlight_sensitivity.label>حساسیت به نور خورشید</SunlightSensitivity_Mild.stages.sunlight_sensitivity.label>
   <!-- EN: The sun hurts my eyes and my skin is tingling unpleasantly. -->
-  <SunlightSensitivity_Mild.stages.sunlight_sensitivity.description>آفتاب چشمانم را آزار می دهد و پوستم به طرز ناخوشایندی می سوزد.</SunlightSensitivity_Mild.stages.sunlight_sensitivity.description>
+  <SunlightSensitivity_Mild.stages.sunlight_sensitivity.description>آفتاب چشمانم را آزار می‌دهد و پوستم به طرز ناخوشایندی می‌سوزد.</SunlightSensitivity_Mild.stages.sunlight_sensitivity.description>
   
 </LanguageData>

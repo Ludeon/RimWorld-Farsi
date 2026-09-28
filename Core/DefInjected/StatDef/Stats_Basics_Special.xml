@@ -16,7 +16,7 @@
   <!-- EN: filth multiplier -->
   <FilthMultiplier.label>چند برابر کثیفی</FilthMultiplier.label>
   <!-- EN: How susceptible this surface is to filth. If this is less than 100%, some of the filth deposited here will disappear on contact. This only applies to organic filth. -->
-  <FilthMultiplier.description>چقدر این سطح مستعد کثیفی است. اگر این کمتر از 100٪ باشد، مقداری از کثیفی که در اینجا رسوب می شود در تماس از بین می رود. این فقط در مورد کثیفی ارگانیک صدق می کند.</FilthMultiplier.description>
+  <FilthMultiplier.description>چقدر این سطح مستعد کثیفی است. اگر این کمتر از 100٪ باشد، مقداری از کثیفی که در اینجا رسوب می‌شود در تماس از بین می‌رود. این فقط در مورد کثیفی ارگانیک صدق می‌کند.</FilthMultiplier.description>
   
   <!-- EN: medical potency -->
   <MedicalPotency.label>قدرت پزشکی</MedicalPotency.label>
@@ -40,23 +40,23 @@
   <!-- EN: neural heat limit offset -->
   <PsychicEntropyMaxOffset.label>جبران حد حرارت عصبی</PsychicEntropyMaxOffset.label>
   <!-- EN: An offset applied to the user's neural heat limit. -->
-  <PsychicEntropyMaxOffset.description>یک افست برای محدودیت حرارت عصبی کاربر اعمال می شود.</PsychicEntropyMaxOffset.description>
+  <PsychicEntropyMaxOffset.description>یک افست برای محدودیت حرارت عصبی کاربر اعمال می‌شود.</PsychicEntropyMaxOffset.description>
   
   <!-- EN: neural heat recovery rate offset -->
-  <PsychicEntropyRecoveryRateOffset.label>نرخ بازیابی حرارت عصبی جبران می شود</PsychicEntropyRecoveryRateOffset.label>
+  <PsychicEntropyRecoveryRateOffset.label>نرخ بازیابی حرارت عصبی جبران می‌شود</PsychicEntropyRecoveryRateOffset.label>
   <!-- EN: An offset applied to the user's neural heat recovery rate. -->
-  <PsychicEntropyRecoveryRateOffset.description>یک افست برای نرخ بازیابی حرارت عصبی کاربر اعمال می شود.</PsychicEntropyRecoveryRateOffset.description>
+  <PsychicEntropyRecoveryRateOffset.description>یک افست برای نرخ بازیابی حرارت عصبی کاربر اعمال می‌شود.</PsychicEntropyRecoveryRateOffset.description>
   <!-- EN: {0}/s -->
   <PsychicEntropyRecoveryRateOffset.formatString>{0}/s</PsychicEntropyRecoveryRateOffset.formatString>
   
   <!-- EN: psychic sensitivity factor -->
   <PsychicSensitivityFactor.label>عامل حساسیت روانی</PsychicSensitivityFactor.label>
   <!-- EN: A factor applied to the user's psychic sensitivity. -->
-  <PsychicSensitivityFactor.description>عاملی که برای حساسیت روانی کاربر اعمال می شود.</PsychicSensitivityFactor.description>
+  <PsychicSensitivityFactor.description>عاملی که برای حساسیت روانی کاربر اعمال می‌شود.</PsychicSensitivityFactor.description>
   
   <!-- EN: psychic sensitivity offset -->
   <PsychicSensitivityOffset.label>جبران حساسیت روانی</PsychicSensitivityOffset.label>
   <!-- EN: An offset applied to the user's psychic sensitivity. -->
-  <PsychicSensitivityOffset.description>یک افست برای حساسیت روانی کاربر اعمال می شود.</PsychicSensitivityOffset.description>
+  <PsychicSensitivityOffset.description>یک افست برای حساسیت روانی کاربر اعمال می‌شود.</PsychicSensitivityOffset.description>
   
 </LanguageData>

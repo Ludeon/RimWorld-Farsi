@@ -4,38 +4,38 @@
   <!-- EN: deathrest accelerator -->
   <DeathrestAccelerator.label>شتاب دهنده مرگ</DeathrestAccelerator.label>
   <!-- EN: This device connects with a deathresting person and makes deathrest complete quicker. It enhances the effect of the deathrest casket using finer blood analysis and more powerful chemicals. It must be connected to a deathrest casket to function. -->
-  <DeathrestAccelerator.description>این دستگاه با یک فرد در حال استراحت ارتباط برقرار می‌کند و باعث می‌شود تا استراحت سریع‌تر انجام شود. با استفاده از تجزیه و تحلیل خون دقیق‌تر و مواد شیمیایی قوی‌تر، اثر تابوت مرگ را افزایش می دهد. برای کارکرد باید به تابوت مرگ وصل شود.</DeathrestAccelerator.description>
+  <DeathrestAccelerator.description>این دستگاه با یک فرد در حال استراحت ارتباط برقرار می‌کند و باعث می‌شود تا استراحت سریع‌تر انجام شود. با استفاده از تجزیه و تحلیل خون دقیق‌تر و مواد شیمیایی قوی‌تر، اثر تابوت مرگ را افزایش می‌دهد. برای کارکرد باید به تابوت مرگ وصل شود.</DeathrestAccelerator.description>
   
   <!-- EN: deathrest casket -->
   <DeathrestCasket.label>تابوت مرگ</DeathrestCasket.label>
   <!-- EN: An enclosed med-casket that accelerates the process of deathrest. It can connect to other devices which confer additional bonuses on the deathrester. The number of devices that can connect depends on the person's deathrest capacity, which can be seen by selecting them.\n\nOnly those with the deathrest gene can use the deathrest casket. -->
-  <DeathrestCasket.description>یک تابوت پزشکی محصور که روند مرگ را تسریع می کند. می‌تواند به دستگاه‌های دیگری متصل شود که پاداش‌های اضافی را به deathrester می‌دهند. تعداد دستگاه‌هایی که می‌توانند متصل شوند به ظرفیت استراحت فرد بستگی دارد که با انتخاب آن‌ها می‌توان آن‌ها را دید.\n\nفقط کسانی که ژن مرگ را دارند می‌توانند از تابوت استراحت استفاده کنند.</DeathrestCasket.description>
+  <DeathrestCasket.description>یک تابوت پزشکی محصور که روند مرگ را تسریع می‌کند. می‌تواند به دستگاه‌های دیگری متصل شود که پاداش‌های اضافی را به deathrester می‌دهند. تعداد دستگاه‌هایی که می‌توانند متصل شوند به ظرفیت استراحت فرد بستگی دارد که با انتخاب آن‌ها می‌توان آن‌ها را دید.\n\nفقط کسانی که ژن مرگ را دارند می‌توانند از تابوت استراحت استفاده کنند.</DeathrestCasket.description>
   
   <!-- EN: glucosoid pump -->
   <GlucosoidPump.label>پمپ گلوکزوئید</GlucosoidPump.label>
   <!-- EN: This device allows a deathrester to move faster after deathrest is complete. It pumps the body with extra muscle-signaling factors while cleaning waste products from muscle tissue. The effect lasts until the individual deathrests again. It must be connected to a deathrest casket to function.\n\nThis building must consume hemogen to function. -->
-  <GlucosoidPump.description>این دستگاه اجازه می دهد تا پس از اتمام مرگ، سریعتر حرکت کند. در حالی که مواد زائد را از بافت عضلانی پاک می کند، بدن را با فاکتورهای سیگنال دهی عضلانی اضافی پمپ می کند. این اثر تا زمانی که فرد دوباره به حالت مرگ برود ادامه دارد. برای کارکرد باید به تابوت مرگ وصل شود.\n\nاین ساختمان برای عملکرد باید هموژن مصرف کند.</GlucosoidPump.description>
+  <GlucosoidPump.description>این دستگاه اجازه می‌دهد تا پس از اتمام مرگ، سریعتر حرکت کند. در حالی که مواد زائد را از بافت عضلانی پاک می‌کند، بدن را با فاکتورهای سیگنال دهی عضلانی اضافی پمپ می‌کند. این اثر تا زمانی که فرد دوباره به حالت مرگ برود ادامه دارد. برای کارکرد باید به تابوت مرگ وصل شود.\n\nاین ساختمان برای عملکرد باید هموژن مصرف کند.</GlucosoidPump.description>
   <!-- EN: Hemogen -->
   <GlucosoidPump.comps.CompRefuelable.fuelLabel>هموژن</GlucosoidPump.comps.CompRefuelable.fuelLabel>
   
   <!-- EN: hemogen amplifier -->
   <HemogenAmplifier.label>تقویت کننده هموژن</HemogenAmplifier.label>
   <!-- EN: This device leaves a deathrester in a hemogen-amplified state so they gain more hemogen from any hemogen source. Using a gland probe and blood analyzer, it links with a deathresting person, stimulating hemogen glands into a more active state. It must be connected to a deathrest casket to function.\n\nThis building needs to consume hemogen to function. -->
-  <HemogenAmplifier.description>این دستگاه یک ضد مرگ را در حالت تقویت شده با هموژن قرار می دهد، بنابراین آنها هموژن بیشتری را از هر منبع هموژن دریافت می کنند. با استفاده از یک پروب غدد و تجزیه و تحلیل خون، با یک فرد در حال استراحت ارتباط برقرار می کند و غدد هموژن را به حالت فعال‌تر تحریک می کند. برای عملکرد باید به تابوت استراحت متصل شود.\n\nاین ساختمان برای عملکرد نیاز به مصرف هموژن دارد.</HemogenAmplifier.description>
+  <HemogenAmplifier.description>این دستگاه یک ضد مرگ را در حالت تقویت شده با هموژن قرار می‌دهد، بنابراین آنها هموژن بیشتری را از هر منبع هموژن دریافت می‌کنند. با استفاده از یک پروب غدد و تجزیه و تحلیل خون، با یک فرد در حال استراحت ارتباط برقرار می‌کند و غدد هموژن را به حالت فعال‌تر تحریک می‌کند. برای عملکرد باید به تابوت استراحت متصل شود.\n\nاین ساختمان برای عملکرد نیاز به مصرف هموژن دارد.</HemogenAmplifier.description>
   <!-- EN: Hemogen -->
   <HemogenAmplifier.comps.CompRefuelable.fuelLabel>هموژن</HemogenAmplifier.comps.CompRefuelable.fuelLabel>
   
   <!-- EN: hemopump -->
   <Hemopump.label>هموپمپ</Hemopump.label>
   <!-- EN: This blood-refining pump increases the amount of hemogen a deathresting person can store in their body. It must be connected to a deathrest casket to function.\n\nThis building needs to consume hemogen to function. -->
-  <Hemopump.description>این پمپ تصفیه کننده خون، مقدار هموژنی را که یک فرد در حال استراحت می تواند در بدن خود ذخیره کند، افزایش می دهد. برای عملکرد باید به تابوت استراحت متصل شود.\n\nاین ساختمان برای عملکرد نیاز به مصرف هموژن دارد.</Hemopump.description>
+  <Hemopump.description>این پمپ تصفیه کننده خون، مقدار هموژنی را که یک فرد در حال استراحت می‌تواند در بدن خود ذخیره کند، افزایش می‌دهد. برای عملکرد باید به تابوت استراحت متصل شود.\n\nاین ساختمان برای عملکرد نیاز به مصرف هموژن دارد.</Hemopump.description>
   <!-- EN: Hemogen -->
   <Hemopump.comps.CompRefuelable.fuelLabel>هموژن</Hemopump.comps.CompRefuelable.fuelLabel>
   
   <!-- EN: psychofluid pump -->
   <PsychofluidPump.label>پمپ روان سیال</PsychofluidPump.label>
   <!-- EN: This device enhances the psychic sensitivity of a deathresting person by rhythmically stimulating neural tissues. It must be connected to a deathrest casket to function.\n\nThis building needs to consume hemogen to function. -->
-  <PsychofluidPump.description>این دستگاه با تحریک ریتمیک بافت های عصبی، حساسیت روانی یک فرد در حال استراحت را افزایش می دهد. برای عملکرد باید به تابوت استراحت متصل شود.\n\nاین ساختمان برای عملکرد نیاز به مصرف هموژن دارد.</PsychofluidPump.description>
+  <PsychofluidPump.description>این دستگاه با تحریک ریتمیک بافت های عصبی، حساسیت روانی یک فرد در حال استراحت را افزایش می‌دهد. برای عملکرد باید به تابوت استراحت متصل شود.\n\nاین ساختمان برای عملکرد نیاز به مصرف هموژن دارد.</PsychofluidPump.description>
   <!-- EN: Hemogen -->
   <PsychofluidPump.comps.CompRefuelable.fuelLabel>هموژن</PsychofluidPump.comps.CompRefuelable.fuelLabel>
   
