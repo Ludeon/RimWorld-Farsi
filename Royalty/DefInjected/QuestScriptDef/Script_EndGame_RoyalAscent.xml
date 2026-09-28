@@ -1,25 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
-    <li>questDescription->[intro]The [asker_faction_leaderTitle] of [asker_faction_name] will perform a customary visit with any Archon of his domain upon request. Invite him, satisfy his royal needs for [shuttleDelayTicks_duration], and all of you can ride the shuttle to the Imperial flotilla. You may then join the Imperial court, or escape to a new life among the stars.
-
-Earning the title of Archon means completing quests to earn [asker_faction_royalFavorLabel] with [asker_faction_name]. It may take years to finally achieve the title of Archon.
-
-During his visit, you must keep his mood above [lodgersMoodThreshold_percent]. This means providing royal perquisites like a lavish bedroom.[threatsInfo]
-
-The [asker_faction_leaderTitle] will bring four of his personal guards and place them under your command. You must house these guards, but the [asker_faction_leaderTitle] will not complain if they are killed or unhappy.
-
-You must keep the visitors at [map_definite] and not send them anywhere else. If you fail this quest or migrate, you will have another chance at it later.</li>
-    <li>intro(sameQuestsCount==0)->You have learned of a way to escape this planet!
-
-</li>
-    <li>intro(sameQuestsCount>=1)->You have been given another chance at royal ascent.
-
-</li>
-    <li>threatsInfo(allowViolentQuests==true,priority=1)->
-
-Others will take the opportunity to try to kill the [asker_faction_leaderTitle], and will attack with great intensity. Be prepared to defend.</li>
+    <li>questDescription->[intro]The [asker_faction_leaderTitle] of [asker_faction_name] will perform a customary visit with any Archon of his domain upon request. Invite him, satisfy his royal needs for [shuttleDelayTicks_duration], and all of you can ride the shuttle to the Imperial flotilla. You may then join the Imperial court, or escape to a new life among the stars.\n\nEarning the title of Archon means completing quests to earn [asker_faction_royalFavorLabel] with [asker_faction_name]. It may take years to finally achieve the title of Archon.\n\nDuring his visit, you must keep his mood above [lodgersMoodThreshold_percent]. This means providing royal perquisites like a lavish bedroom.[threatsInfo]\n\nThe [asker_faction_leaderTitle] will bring four of his personal guards and place them under your command. You must house these guards, but the [asker_faction_leaderTitle] will not complain if they are killed or unhappy.\n\nYou must keep the visitors at [map_definite] and not send them anywhere else. If you fail this quest or migrate, you will have another chance at it later.</li>
+    <li>intro(sameQuestsCount==0)->You have learned of a way to escape this planet!\n\n</li>
+    <li>intro(sameQuestsCount>=1)->You have been given another chance at royal ascent.\n\n</li>
+    <li>threatsInfo(allowViolentQuests==true,priority=1)->\n\nOthers will take the opportunity to try to kill the [asker_faction_leaderTitle], and will attack with great intensity. Be prepared to defend.</li>
     <li>threatsInfo-></li>
   -->
   <EndGame_RoyalAscent.questDescriptionRules.rulesStrings>
@@ -57,11 +43,7 @@ Others will take the opportunity to try to kill the [asker_faction_leaderTitle],
   <EndGame_RoyalAscent.root.nodes.ReplaceLostLeaderReferences.inSignal.slateRef>رهبر فکشن دیگر در رأس نیست</EndGame_RoyalAscent.root.nodes.ReplaceLostLeaderReferences.inSignal.slateRef>
   <!-- EN: [asker_faction_leaderTitle] arrived -->
   <EndGame_RoyalAscent.LetterLabelAskerArrived.value.slateRef>[asker_faction_leaderTitle] وارد شد</EndGame_RoyalAscent.LetterLabelAskerArrived.value.slateRef>
-  <!-- EN: The [asker_faction_leaderTitle] of [asker_faction_name], has arrived.
-
-Protect him and satisfy his royal needs until the shuttle arrives in [shuttleDelayTicks_duration].
-
-All of you can accompany the [asker_faction_leaderTitle] on the shuttle and travel to the Imperial flotilla to begin a new life. -->
+  <!-- EN: The [asker_faction_leaderTitle] of [asker_faction_name], has arrived.\n\nProtect him and satisfy his royal needs until the shuttle arrives in [shuttleDelayTicks_duration].\n\nAll of you can accompany the [asker_faction_leaderTitle] on the shuttle and travel to the Imperial flotilla to begin a new life. -->
   <EndGame_RoyalAscent.LetterTextAskerArrived.value.slateRef>[asker_faction_leaderTitle] از [asker_faction_name] وارد شده است.\n\nاز او محافظت کرده و نیازهای سلطنتی‌اش را تا رسیدن شاتل ظرف [shuttleDelayTicks_duration] برآورده کنید.\n\nهمه شما می‌توانید او را در شاتل همراهی کرده و برای شروع زندگی جدید به ناوگان امپراتوری بروید.</EndGame_RoyalAscent.LetterTextAskerArrived.value.slateRef>
   <!-- EN: Guest died: {SUBJECT_definite} -->
   <EndGame_RoyalAscent.LetterLabelGuestDied.slateRef>مهمان درگذشت: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelGuestDied.slateRef>
@@ -71,15 +53,9 @@ All of you can accompany the [asker_faction_leaderTitle] on the shuttle and trav
   <EndGame_RoyalAscent.InspectStringDepartShuttle.slateRef>باید با شاتل حرکت کند</EndGame_RoyalAscent.InspectStringDepartShuttle.slateRef>
   <!-- EN: Shuttle arrived -->
   <EndGame_RoyalAscent.LetterLabelShuttleArrived.slateRef>شاتل رسید</EndGame_RoyalAscent.LetterLabelShuttleArrived.slateRef>
-  <!-- EN: The shuttle has arrived to collect the [asker_faction_leaderTitle].
-
-All of you can accompany the [asker_faction_leaderTitle] on the shuttle and travel to the Imperial flotilla to begin a new life. -->
+  <!-- EN: The shuttle has arrived to collect the [asker_faction_leaderTitle].\n\nAll of you can accompany the [asker_faction_leaderTitle] on the shuttle and travel to the Imperial flotilla to begin a new life. -->
   <EndGame_RoyalAscent.LetterTextShuttleArrived.slateRef>شاتل برای بردن [asker_faction_leaderTitle] رسیده است.\n\nهمه شما می‌توانید همراه او به ناوگان امپراتوری سفر کنید.</EndGame_RoyalAscent.LetterTextShuttleArrived.slateRef>
-  <!-- EN: The high stellarch will now welcome you into the Imperial flotilla as an honored noble party.
-
-You might stay in the Imperial court and jockey for political power. Perhaps you'll avoid the drama and focus on enjoying ultratech luxuries. Or, you might even buy a ship and set a course for your long-lost home.
-
-The choice is up to you. -->
+  <!-- EN: The high stellarch will now welcome you into the Imperial flotilla as an honored noble party.\n\nYou might stay in the Imperial court and jockey for political power. Perhaps you'll avoid the drama and focus on enjoying ultratech luxuries. Or, you might even buy a ship and set a course for your long-lost home.\n\nThe choice is up to you. -->
   <EndGame_RoyalAscent.EndGameEndingText.slateRef>استلارش عالی‌مقام اکنون به عنوان اشراف‌زادگانی محترم به شما در ناوگان امپراتوری خوش‌آمد می‌گوید.\n\nشاید در دربار بمانید و برای قدرت سیاسی رقابت کنید؛ یا از تجملات و فناوری‌های فرابشری لذت ببرید؛ و شاید سفینه‌ای خریده و به سوی خانه دیرینه‌تان حرکت کنید.\n\nانتخاب با شماست.</EndGame_RoyalAscent.EndGameEndingText.slateRef>
   <!-- EN: You've escaped on the Imperial shuttle! -->
   <EndGame_RoyalAscent.EndGameIntroText.slateRef>شما با شاتل امپراتوری گریختید!</EndGame_RoyalAscent.EndGameIntroText.slateRef>

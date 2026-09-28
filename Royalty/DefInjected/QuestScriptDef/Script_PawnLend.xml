@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -48,7 +48,8 @@
     <li>worker->Laborer</li>
     <li>worker->Helper</li>
   -->
-  <PawnLend.questNameRules.rulesStrings><li>questName->برون‌سپاری [worker]</li>
+  <PawnLend.questNameRules.rulesStrings>
+    <li>questName->برون‌سپاری [worker]</li>
     <li>questName->قرارداد [worker]‌ها</li>
     <li>questName->کارگران موقت</li>
     <li>questName->امانت دادن [worker]</li>
@@ -58,13 +59,32 @@
     <li>worker->استعمارگر</li>
     <li>worker->کارگر</li>
     <li>worker->مزدور</li>
-    <li>worker->امدادگر</li></PawnLend.questNameRules.rulesStrings>
+    <li>worker->امدادگر</li>
+  </PawnLend.questNameRules.rulesStrings>
   <!-- EN: <rulesStrings><li>dutyDescription->gather the harvest</li><li>dutyDescription->fortify a settlement</li><li>dutyDescription->set up a settlement</li><li>dutyDescription->watch for raiders</li><li>dutyDescription->set up a hospital</li><li>dutyDescription->contain an outbreak of [disease]</li></rulesStrings> -->
-  <PawnLend.DutyRulesAny.slateRef><rulesStrings><li>dutyDescription->حصول محصول را جمع آوری کنید</li><li>dutyDescription->تقویت یک شهرک</li><li>dutyDescription-> یک شهرک را راه اندازی کنید</li><li>dutyDescription->نگهبانی برای مهاجمان</li><li>dutyDescription->راه اندازی یک بیمارستان</li><li>وظیفه خارج از وظیفه [disease]</li></rulesStrings></PawnLend.DutyRulesAny.slateRef>
+  <PawnLend.DutyRulesAny.slateRef>
+    <rulesStrings>
+      <li>dutyDescription->حصول محصول را جمع آوری کنید</li>
+      <li>dutyDescription->تقویت یک شهرک</li>
+      <li>dutyDescription-> یک شهرک را راه اندازی کنید</li>
+      <li>dutyDescription->نگهبانی برای مهاجمان</li>
+      <li>dutyDescription->راه اندازی یک بیمارستان</li>
+      <li>وظیفه خارج از وظیفه [disease]</li>
+    </rulesStrings>
+  </PawnLend.DutyRulesAny.slateRef>
   <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_nameFull] of [asker_faction_name] to [dutyDescription]. -->
   <PawnLend.LetterTextReturnAfterHelping.slateRef>{PAWNS} [pawnListHaveConjugation] پس از کمک به [asker_nameFull] از [asker_faction_name] به [dutyDescription] بازگشت.</PawnLend.LetterTextReturnAfterHelping.slateRef>
   <!-- EN: <rulesStrings><li>dutyRoyalDescription->prepare a ceremony</li><li>dutyRoyalDescription->negotiate with a tribe</li><li>dutyRoyalDescription->explore a swamp</li><li>dutyRoyalDescription->translate a book</li><li>dutyRoyalDescription->set up a training ground</li><li>dutyRoyalDescription->harvest crops</li></rulesStrings> -->
-  <PawnLend.DutyRulesRoyal.slateRef><rulesStrings><li>dutyRoyalDescription->تدارک مراسم</li><li>dutyRoyalDescription->مذاکره با یک قبیله</li><li>dutyRoyalDescription->کاوش در یک مرداب</li><li>dutyRoyalDescription->ترجمه یک کتاب</li><li>dutyRoyalDescription-> زمین</li><li>dutyRoyalDescription->برداشت محصول</li></rulesStrings></PawnLend.DutyRulesRoyal.slateRef>
+  <PawnLend.DutyRulesRoyal.slateRef>
+    <rulesStrings>
+      <li>dutyRoyalDescription->تدارک مراسم</li>
+      <li>dutyRoyalDescription->مذاکره با یک قبیله</li>
+      <li>dutyRoyalDescription->کاوش در یک مرداب</li>
+      <li>dutyRoyalDescription->ترجمه یک کتاب</li>
+      <li>dutyRoyalDescription-> زمین</li>
+      <li>dutyRoyalDescription->برداشت محصول</li>
+    </rulesStrings>
+  </PawnLend.DutyRulesRoyal.slateRef>
   <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] to [dutyRoyalDescription]. -->
   <PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>{PAWNS} [pawnListHaveConjugation] پس از کمک به [asker_royalTitleInCurrentFaction] [asker_nameFull] از [asker_faction_name] به [dutyRoyalDescription] بازگشت.</PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>
   <!-- EN: Shuttle arrived -->

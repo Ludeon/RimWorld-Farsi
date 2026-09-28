@@ -22,7 +22,8 @@
     <li>adj->dogged</li>
     <li>adj->tenacious</li>
   -->
-  <NamerFactionRefugee.rulePack.rulesStrings><li>r_name->[adj] [group]</li>
+  <NamerFactionRefugee.rulePack.rulesStrings>
+    <li>r_name->[adj] [group]</li>
     <li>گروه->بازماندگان</li>
     <li>گروه->پناهندگان</li>
     <li>گروهی->فراری</li>
@@ -40,6 +41,7 @@
     <li>adj->مقاوم</li>
     <li>adj->سخت</li>
     <li>adj->dogged</li>
-    <li>adj-> سرسخت</li></NamerFactionRefugee.rulePack.rulesStrings>
+    <li>adj-> سرسخت</li>
+  </NamerFactionRefugee.rulePack.rulesStrings>
   
 </LanguageData>

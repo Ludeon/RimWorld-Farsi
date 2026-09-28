@@ -1,31 +1,33 @@
-<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  
+  <!-- EN:
+    <li>questDescription(askerIsNull==true)->[refugee_nameDef] contacts you and requests help. [refugee_pronoun] is wounded and unable to move.\n\n[refugee_nameDef] is a [refugee_age]-year-old [refugee_title]. [refugee_pronoun] promises to join you if you rescue [refugee_objective].\n\n[refugee_nameDef] says that [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], says that [asker_possessive] friend has been wounded while traveling. The victim is [refugee_nameIndef], a [refugee_age]-year-old [refugee_title].\n\n[asker_nameDef] has nobody to spare to rescue [refugee_nameDef], but says that if you can make it to [refugee_nameDef]'s position and rescue [refugee_objective], [refugee_pronoun] will join you.\n\n[asker_nameDef] says that [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]</li>
+    <li>pawnInvolvedInQuestInfo-></li>
+  -->
   <OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)-&gt;[refugee_nameDef] با شما تماس گرفته و درخواست کمک می‌کند. او زخمی است و توانایی حرکت ندارد.
-
-[refugee_nameDef] یک [refugee_title] [refugee_age] ساله است. او قول می‌دهد اگر نجاتش دهید به شما ملحق شود.
-
-[refugee_nameDef] می‌گوید که [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
-    <li>questDescription(asker_factionLeader==True)-&gt;[asker_nameDef]، [asker_faction_leaderTitle] از [asker_faction_name]، می‌گوید که دوستش در حین سفر زخمی شده است. قربانی [refugee_nameIndef]، یک [refugee_title] [refugee_age] ساله است.
-
-[asker_nameDef] کسی را برای فرستادن جهت نجات [refugee_nameDef] ندارد، اما می‌گوید اگر بتوانید خود را به موقعیت [refugee_nameDef] برسانید و نجاتش دهید، او به شما ملحق خواهد شد.
-
-[asker_nameDef] می‌گوید که [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
-    <li>pawnInvolvedInQuestInfo(priority=1)-&gt;[refugee_pawnInvolvedInQuestInfo]</li>
-    <li>pawnInvolvedInQuestInfo-&gt;</li>
+    <li>questDescription(askerIsNull==true)->[refugee_nameDef] با شما تماس گرفته و درخواست کمک می‌کند. او زخمی است و توانایی حرکت ندارد.\n\n[refugee_nameDef] یک [refugee_title] [refugee_age] ساله است. او قول می‌دهد اگر نجاتش دهید به شما ملحق شود.\n\n[refugee_nameDef] می‌گوید که [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef]، [asker_faction_leaderTitle] از [asker_faction_name]، می‌گوید که دوستش در حین سفر زخمی شده است. قربانی [refugee_nameIndef]، یک [refugee_title] [refugee_age] ساله است.\n\n[asker_nameDef] کسی را برای فرستادن جهت نجات [refugee_nameDef] ندارد، اما می‌گوید اگر بتوانید خود را به موقعیت [refugee_nameDef] برسانید و نجاتش دهید، او به شما ملحق خواهد شد.\n\n[asker_nameDef] می‌گوید که [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]</li>
+    <li>pawnInvolvedInQuestInfo-></li>
   </OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
-  
+  <!-- EN:
+    <li>questName->Saving [refugee_nameDef]</li>
+    <li>questName->The Rescue of [refugee_nameDef]</li>
+    <li>questName->[refugee_nameDef]'s Rescue</li>
+    <li>questName->[refugee_nameDef]'s Salvation</li>
+  -->
   <OpportunitySite_DownedRefugee.questNameRules.rulesStrings>
-    <li>questName-&gt;نجات دادن [refugee_nameDef]</li>
-    <li>questName-&gt;نجات [refugee_nameDef]</li>
-    <li>questName-&gt;نجات [refugee_nameDef]</li>
-    <li>questName-&gt;رستگاری [refugee_nameDef]</li>
+    <li>questName->نجات دادن [refugee_nameDef]</li>
+    <li>questName->نجات [refugee_nameDef]</li>
+    <li>questName->نجات [refugee_nameDef]</li>
+    <li>questName->رستگاری [refugee_nameDef]</li>
   </OpportunitySite_DownedRefugee.questNameRules.rulesStrings>
-  
+  <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_DownedRefugee.LetterLabelQuestExpired.slateRef>تلاش منقضی شده: [resolvedQuestName]</OpportunitySite_DownedRefugee.LetterLabelQuestExpired.slateRef>
-  
+  <!-- EN: [refugee_nameDef]'s signal has been lost, and [refugee_pronoun] can no longer be rescued. The quest [resolvedQuestName] has expired. -->
   <OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>سیگنال [refugee_nameDef] از بین رفته است و [refugee_pronoun] دیگر قابل نجات نیست. تلاش [resolvedQuestName] منقضی شده است.</OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>
   
 </LanguageData>

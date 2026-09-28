@@ -8,11 +8,13 @@
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is making a request. [commonMainPart]</li>
     <li>commonMainPart->A mechanoid swarm has been attacking [asker_possessive] settlements. [asker_pronoun] wants you to signal the mechs to distract them while [asker_pronoun] clears the hive. If you do, (*Threat)a mechanoid cluster(/Threat) will land at [map_definite].[dangersDescription]\n\nThe mechanoid cluster will be initially dormant. It may have a countdown activator, or it may stay dormant forever until disturbed.[helpersParagraph]</li>
   -->
-  <ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings><li>dangersDescription(priority=1)->\n\nغلافها حاوی این خطرات هستند:\n\n[allThreats]</li>
+  <ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
+    <li>dangersDescription(priority=1)->\n\nغلافها حاوی این خطرات هستند:\n\n[allThreats]</li>
     <li>dangersDescription-></li>
     <li>questDescription(asker_factionLeader==True)->[asker_nameDef]، [asker_faction_leaderTitle] از [asker_faction_name]، در حال درخواست است. [commonMainPart]</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef]، یک [asker_royalTitleInCurrentFaction] از [asker_faction_name]، در حال درخواست است. [commonMainPart]</li>
-    <li>commonMainPart->یک گروه مکانیکی به سکونتگاه های [asker_possessive] حمله کرده است. [asker_pronoun] از شما می‌خواهد که به دستگاه‌ها علامت بدهید تا حواسشان پرت شود در حالی که [asker_pronoun] کندو را پاک می‌کند. اگر این کار را انجام دهید، خوشه مکانیکی (*Threat)a(/Threat) در [map_definite].[dangersDescription] قرار خواهد گرفت\n\nخوشه مکانیکی در ابتدا غیرفعال خواهد بود. ممکن است یک فعال کننده شمارش معکوس داشته باشد یا ممکن است برای همیشه خاموش بماند تا زمانی که اختلال ایجاد شود.[helpersParagraph]</li></ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
+    <li>commonMainPart->یک گروه مکانیکی به سکونتگاه های [asker_possessive] حمله کرده است. [asker_pronoun] از شما می‌خواهد که به دستگاه‌ها علامت بدهید تا حواسشان پرت شود در حالی که [asker_pronoun] کندو را پاک می‌کند. اگر این کار را انجام دهید، خوشه مکانیکی (*Threat)a(/Threat) در [map_definite].[dangersDescription] قرار خواهد گرفت\n\nخوشه مکانیکی در ابتدا غیرفعال خواهد بود. ممکن است یک فعال کننده شمارش معکوس داشته باشد یا ممکن است برای همیشه خاموش بماند تا زمانی که اختلال ایجاد شود.[helpersParagraph]</li>
+  </ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[menace] cluster</li>
     <li>questName->[menace] pods</li>
@@ -28,7 +30,8 @@
     <li>menace->terror</li>
     <li>menace->fear</li>
   -->
-  <ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings><li>questName->خوشه [menace]</li>
+  <ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
+    <li>questName->خوشه [menace]</li>
     <li>questName->غلاف [menace]</li>
     <li>questName->[nameBased]</li>
     <li>nameBased->ماشین‌های [asker_nameDef]</li>
@@ -40,6 +43,7 @@
     <li>تهدید->آفت</li>
     <li>خطر->خطر</li>
     <li>تهدید->ترور</li>
-    <li>تهدید->ترس</li></ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
+    <li>تهدید->ترس</li>
+  </ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
   
 </LanguageData>

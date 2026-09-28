@@ -1,34 +1,47 @@
-<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  
+  <!-- EN:
+    <li>questDescription->[faction_leader_nameFull], [faction_leaderTitle] of [faction_name], has sent us a message. [faction_leader_pronoun] wants to talk with us in a nearby location.\n\nIt could be a great opportunity to improve relations with their faction and receive gifts, but beware - a poor negotiator can cause more harm than good and may even anger them.[extraLeaderPart][favorRewardDetails]</li>
+    <li>favorRewardDetails(faction_leader_royalInCurrentFaction==True,priority=1)->\n\nSuccessful peace talks can earn your negotiator a small amount of personal [faction_royalFavorLabel] with [faction_name].</li>
+    <li>favorRewardDetails-></li>
+    <li>extraLeaderPart(priority=1)->\n\n[leaderRoleEffect].[leaderPawnInfo]</li>
+    <li>extraLeaderPart-></li>
+    <li>leaderRoleEffect->Other factions will respect you more if you send your leader to handle the negotiations</li>
+    <li>leaderPawnInfo(playerFaction_hasLeader==True,priority=1)-> [playerFaction_leaderTitle] [playerFaction_leader_nameFull] will get a bonus to the chance of a successful outcome.</li>
+    <li>leaderPawnInfo-></li>
+  -->
   <OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>
-    <li>questDescription-&gt;[faction_leader_nameFull]، [faction_leaderTitle] از [faction_name]، پیامی برای ما ارسال کرده است. او می‌خواهد در مکانی نزدیک با ما گفتگو کند.
-
-این می‌تواند فرصتی عالی برای بهبود روابط با جناح آن‌ها و دریافت هدایا باشد، اما مراقب باشید - یک مذاکره‌کننده ضعیف ممکن است بیش از فایده آسیب برساند و حتی آن‌ها را خشمگین کند.[extraLeaderPart][favorRewardDetails]</li>
-    <li>favorRewardDetails(faction_leader_royalInCurrentFaction==True,priority=1)-&gt;
-
-مذاکرات صلح موفق می‌تواند مقدار کمی [faction_royalFavorLabel] شخصی نزد [faction_name] برای مذاکره‌کننده شما به همراه داشته باشد.</li>
-    <li>favorRewardDetails-&gt;</li>
-    <li>extraLeaderPart(priority=1)-&gt;\n\n[leaderRoleEffect].[leaderPawnInfo]</li>
-    <li>extraLeaderPart-&gt;</li>
-    <li>leaderRoleEffect-&gt;اگر رهبر خود را برای مدیریت مذاکرات بفرستید، سایر جناح‌ها احترام بیشتری برای شما قائل خواهند شد</li>
-    <li>leaderPawnInfo(playerFaction_hasLeader==True,priority=1)-&gt;[playerFaction_leaderTitle] [playerFaction_leader_nameFull] پاداشی به شانس دستیابی به یک نتیجه موفق دریافت خواهد کرد.</li>
-    <li>leaderPawnInfo-&gt;</li>
+    <li>questDescription->[faction_leader_nameFull]، [faction_leaderTitle] از [faction_name]، پیامی برای ما ارسال کرده است. او می‌خواهد در مکانی نزدیک با ما گفتگو کند.\n\nاین می‌تواند فرصتی عالی برای بهبود روابط با جناح آن‌ها و دریافت هدایا باشد، اما مراقب باشید - یک مذاکره‌کننده ضعیف ممکن است بیش از فایده آسیب برساند و حتی آن‌ها را خشمگین کند.[extraLeaderPart][favorRewardDetails]</li>
+    <li>favorRewardDetails(faction_leader_royalInCurrentFaction==True,priority=1)->\n\nمذاکرات صلح موفق می‌تواند مقدار کمی [faction_royalFavorLabel] شخصی نزد [faction_name] برای مذاکره‌کننده شما به همراه داشته باشد.</li>
+    <li>favorRewardDetails-></li>
+    <li>extraLeaderPart(priority=1)->\n\n[leaderRoleEffect].[leaderPawnInfo]</li>
+    <li>extraLeaderPart-></li>
+    <li>leaderRoleEffect->اگر رهبر خود را برای مدیریت مذاکرات بفرستید، سایر جناح‌ها احترام بیشتری برای شما قائل خواهند شد</li>
+    <li>leaderPawnInfo(playerFaction_hasLeader==True,priority=1)->[playerFaction_leaderTitle] [playerFaction_leader_nameFull] پاداشی به شانس دستیابی به یک نتیجه موفق دریافت خواهد کرد.</li>
+    <li>leaderPawnInfo-></li>
   </OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>
-  
+  <!-- EN:
+    <li>questName->[faction_leader_nameDef]'s [peaceTalks]</li>
+    <li>questName->[peaceTalks] with [faction_leader_nameDef]</li>
+    <li>questName->The [peaceTalks]</li>
+    <li>questName->[peaceTalks]</li>
+    <li>peaceTalks->Peace Talks</li>
+    <li>peaceTalks->Diplomacy</li>
+    <li>peaceTalks->Meeting</li>
+  -->
   <OpportunitySite_PeaceTalks.questNameRules.rulesStrings>
-    <li>questName-&gt;[peaceTalks] [faction_leader_nameDef]</li>
-    <li>questName-&gt;[peaceTalks] با [faction_leader_nameDef]</li>
-    <li>questName-&gt;[peaceTalks]</li>
-    <li>questName-&gt;[peaceTalks]</li>
-    <li>peaceTalks-&gt;مذاکرات صلح</li>
-    <li>peaceTalks-&gt;دیپلماسی</li>
-    <li>peaceTalks-&gt;دیدار و گفتگو</li>
+    <li>questName->[peaceTalks] [faction_leader_nameDef]</li>
+    <li>questName->[peaceTalks] با [faction_leader_nameDef]</li>
+    <li>questName->[peaceTalks]</li>
+    <li>questName->[peaceTalks]</li>
+    <li>peaceTalks->مذاکرات صلح</li>
+    <li>peaceTalks->دیپلماسی</li>
+    <li>peaceTalks->دیدار و گفتگو</li>
   </OpportunitySite_PeaceTalks.questNameRules.rulesStrings>
-  
+  <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_PeaceTalks.LetterLabelQuestExpired.slateRef>تلاش منقضی شده: [resolvedQuestName]</OpportunitySite_PeaceTalks.LetterLabelQuestExpired.slateRef>
-  
+  <!-- EN: The offer of peace talks with [faction_name] has expired. You have failed the quest [resolvedQuestName]. -->
   <OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>پیشنهاد مذاکرات صلح با [faction_name] منقضی شده است. شما در تلاش [resolvedQuestName] شکست خورده اید.</OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>
   
 </LanguageData>

@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: The Anomaly -->
   <TheAnomaly.label>ناهنجاری</TheAnomaly.label>
-  <!-- EN: You investigated an ancient monolith and unleashed horrors upon the world. -->
+  <!-- EN: Your research expedition has finally arrived at the source of the anomalous signal: an ancient archotech monolith on a distant planet. As you survey the structure from orbit, the scanner's audio feed forms garbled syllables which repeat your own name over and over. Your crewmate screams as her flesh begins flowing and reforming. A blinding beam of energy reaches up from the planet and tears your research vessel apart. You have disturbed something ancient and inhuman.\n\nNote: This is a difficult scenario and is not recommended for new players. -->
   <TheAnomaly.description>شما یکپارچه‌سنگی باستانی را کاوش کردید و وحشت‌هایی بی‌پایان را به جهان سرازیر ساختید.</TheAnomaly.description>
-  <!-- EN: A team of scientists investigating anomalous phenomena. -->
+  <!-- EN: Your research expedition has finally arrived at the source of the anomalous signal: an ancient archotech monolith on a distant planet. As you survey the structure from orbit, the scanner's audio feed forms garbled syllables which repeat your own name over and over. Your crewmate screams as her flesh begins flowing and reforming. A blinding beam of energy reaches up from the planet and tears your research vessel apart. You have disturbed something ancient and inhuman.\n\nNote: This is a difficult scenario and is not recommended for new players. -->
   <TheAnomaly.scenario.description>تیمی از دانشمندان که پدیده‌های ناهنجار را بررسی می‌کنند.</TheAnomaly.scenario.description>
-  <!-- EN: Anomaly Expedition -->
+  <!-- EN: The Anomaly -->
   <TheAnomaly.scenario.name>اکتشاف ناهنجاری</TheAnomaly.scenario.name>
-  <!-- EN: The monolith awakened. The nightmares have just begun. -->
+  <!-- EN: The ancient monolith unleashed an energy pulse that tore your research vessel apart and mutated your crew. Only a few of you made it to the escape pods.\n\nDespite the setback, your mission is far from over. If you can learn more about the monolith, perhaps you can find a way to shut it down - or harness its inhuman power. -->
   <TheAnomaly.scenario.parts.GameStartDialog.text>یکپارچه‌سنگ بیدار شد. کابوس‌ها تازه آغاز شده‌اند.</TheAnomaly.scenario.parts.GameStartDialog.text>
-  <!-- EN: Start with mutated colonists or ghouls. -->
+  <!-- EN: Start with one ghoul and three colonists. -->
   <TheAnomaly.scenario.parts.ConfigurePawnsMutants.customSummary>شروع با کلونیست‌های جهش‌یافته یا غول‌ها.</TheAnomaly.scenario.parts.ConfigurePawnsMutants.customSummary>
-  <!-- EN: Survive the terrors of the void. -->
+  <!-- EN: Three researchers and a ghoul investigate an ancient monolith. -->
   <TheAnomaly.scenario.summary>از وحشت‌های خلأ جان سالم به در ببرید.</TheAnomaly.scenario.summary>
   
 </LanguageData>

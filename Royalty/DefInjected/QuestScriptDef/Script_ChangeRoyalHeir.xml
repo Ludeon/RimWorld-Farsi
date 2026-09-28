@@ -4,11 +4,15 @@
   <!-- EN:
     <li>questDescription->\nIn order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_nameFull]'s title, you must build a monument.\n\nThe monument will be [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nFailing to finish the monument within 20 days is considered to profane the ritual. Your relations with [asker_factionName] will fall by 25, and the heir will not be changed.\n\nIf the monument is destroyed within [keepMonumentTicks_duration] days after completion, your relations with [asker_factionName] will fall by [goodwillChangeIfMonumentDestroyed].</li>
   -->
-  <ChangeRoyalHeir.questDescriptionRules.rulesStrings><li>questDescription->\nبرای اینکه [titleHeir_nameFull] را به وارث عنوان [titleHolder_nameFull] اختصاص دهید، باید یک بنای تاریخی بسازید.\n\nاندازه این بنای تاریخی [monumentSize] خواهد بود و به این منابع نیاز دارد (مقدار کلی [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nدر مدت 20 روز به پایان نرسیدن بنای یادبود سودمند است. روابط شما با [asker_factionName] تا 25 کاهش می یابد و وارث تغییر نخواهد کرد.\n\nاگر بنای یادبود طی [keepMonumentTicks_duration] روز پس از اتمام تخریب شود، روابط شما با [asker_factionName] تا [goodwillChangeIfMonumentDestroyed] کاهش می یابد.</li></ChangeRoyalHeir.questDescriptionRules.rulesStrings>
+  <ChangeRoyalHeir.questDescriptionRules.rulesStrings>
+    <li>questDescription->\nبرای اینکه [titleHeir_nameFull] را به وارث عنوان [titleHolder_nameFull] اختصاص دهید، باید یک بنای تاریخی بسازید.\n\nاندازه این بنای تاریخی [monumentSize] خواهد بود و به این منابع نیاز دارد (مقدار کلی [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nدر مدت 20 روز به پایان نرسیدن بنای یادبود سودمند است. روابط شما با [asker_factionName] تا 25 کاهش می یابد و وارث تغییر نخواهد کرد.\n\nاگر بنای یادبود طی [keepMonumentTicks_duration] روز پس از اتمام تخریب شود، روابط شما با [asker_factionName] تا [goodwillChangeIfMonumentDestroyed] کاهش می یابد.</li>
+  </ChangeRoyalHeir.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[titleHeir_nameDef]'s inheritance</li>
   -->
-  <ChangeRoyalHeir.questNameRules.rulesStrings><li>questName->وارث [titleHeir_nameDef]</li></ChangeRoyalHeir.questNameRules.rulesStrings>
+  <ChangeRoyalHeir.questNameRules.rulesStrings>
+    <li>questName->وارث [titleHeir_nameDef]</li>
+  </ChangeRoyalHeir.questNameRules.rulesStrings>
   <!-- EN: Time left: {0} -->
   <ChangeRoyalHeir.InspectStringTimeLeft.slateRef>زمان باقی مانده: {0}</ChangeRoyalHeir.InspectStringTimeLeft.slateRef>
   <!-- EN: [titleHolder_nameDef]'s heir change failed -->

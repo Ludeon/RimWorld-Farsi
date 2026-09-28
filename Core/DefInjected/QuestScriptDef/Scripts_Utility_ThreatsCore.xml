@@ -1,53 +1,68 @@
-<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  
+  <!-- EN: <rulesStrings><li>root(priority=1,sitePart==ClimateAdjuster)->there's (*Threat)a climate adjuster machine(/Threat) there shifting the regional temperature by [temperatureOffset]</li><li>root(priority=1,sitePart==PsychicDroner)->there's (*Threat)a psychic droner machine(/Threat) there tuned to the [affectedGender] gender</li><li>root(priority=1,sitePart==PsychicSuppressor)->there's (*Threat)a psychic suppressor machine(/Threat) there tuned to the [affectedGender] gender</li><li>root(priority=1,sitePart==WeatherController)->there's (*Threat)a weather controller machine(/Threat) there forcing weather in the whole region to [weather_label]</li><li>root(priority=1,sitePart==SmokeSpewer)->there's (*Threat)a smoke spewer machine(/Threat) there belching smoke over the whole region</li><li>root(priority=1,sitePart==SunBlocker)->there's (*Threat)a sun blocker machine(/Threat) there shadowing the whole region</li><li>root(priority=1,sitePart==EMIDynamo)->there's (*Threat)an EMI dynamo machine(/Threat) there which can disable electrical devices across the region</li><li>root(priority=1,sitePart==ToxicSpewer)->there's (*Threat)a toxic spewer machine(/Threat) there blanketing the whole region in poison</li><li>root(priority=1,sitePart==RaidSource)->there's a military staging area guarded by (*Threat)[enemiesCount] [enemiesLabel](/Threat) that will launch raids on you every [mtbDays]</li><li>root(priority=1,sitePart==Outpost)->there's an enemy outpost at the site guarded by (*Threat)[enemiesCount] [enemiesLabel](/Threat)</li><li>root(priority=1,sitePart==BanditCamp)->there's a bandit camp at the site guarded by (*Threat)[enemiesCount] [enemiesLabel](/Threat)</li><li>root(priority=1,sitePart==Manhunters,count==1)->(*Threat)a manhunting [kindLabel](/Threat) is wandering nearby</li><li>root(priority=1,sitePart==Manhunters,count>1)->(*Threat)[count] manhunting [kindLabel](/Threat) are wandering nearby</li><li>root(priority=1,sitePart==SleepingMechanoids,count==1)->(*Threat)a mechanoid(/Threat) is sleeping nearby</li><li>root(priority=1,sitePart==SleepingMechanoids,count>1)->(*Threat)[count] mechanoids(/Threat) are sleeping nearby</li><li>root(priority=1,sitePart==Turrets)->(*Threat)[threatsInfo](/Threat) defend the site</li><li>root(priority=1,sitePart==AmbushEdge)->(*Threat)an enemy force(/Threat) is waiting to ambush anyone who comes near</li><li>root(priority=1,sitePart==AmbushHidden)->(*Threat)an enemy force(/Threat) is waiting to ambush anyone who comes near</li><li>root(priority=1,sitePart==MechCluster)->there's (*Threat)a cluster of hostile mechanoid structures(/Threat)</li><li>root(priority=1,sitePart==PossibleUnknownThreatMarker)->there may be an (*Threat)unknown threat(/Threat)</li><li>root->there's a [label]</li></rulesStrings> -->
   <Util_GenerateSite.root.singleSitePartRules.slateRef>
-    <li><rulesStrings><li>root(priority=1,sitePart==ClimateAdjuster)-&gt;(*Threat)یک دستگاه تنظیم‌کننده اقلیم(/Threat) در آنجا دمای منطقه را به میزان [temperatureOffset] تغییر می‌دهد</li><li>root(priority=1,sitePart==PsychicDroner)-&gt;(*Threat)یک دستگاه وزوز روانی(/Threat) در آنجا روی جنسیت [affectedGender] تنظیم شده است</li><li>root(priority=1,sitePart==PsychicSuppressor)-&gt;(*Threat)یک دستگاه سرکوبگر روانی(/Threat) در آنجا روی جنسیت [affectedGender] تنظیم شده است</li><li>root(priority=1,sitePart==WeatherController)-&gt;(*Threat)یک دستگاه کنترل‌کننده آب‌وهوا(/Threat) در آنجا آب‌وهوای کل منطقه را به [weather_label] تغییر می‌دهد</li><li>root(priority=1,sitePart==SmokeSpewer)-&gt;(*Threat)یک دستگاه دودافکن(/Threat) در آنجا دود غلیظی بر روی کل منطقه می‌گستراند</li><li>root(priority=1,sitePart==SunBlocker)-&gt;(*Threat)یک دستگاه مسدودکننده نور خورشید(/Threat) در آنجا کل منطقه را به زیر سایه می‌برد</li><li>root(priority=1,sitePart==EMIDynamo)-&gt;(*Threat)یک دینام الکترومغناطیسی (EMI)(/Threat) در آنجا دستگاه‌های الکتریکی سراسر منطقه را از کار می‌اندازد</li><li>root(priority=1,sitePart==ToxicSpewer)-&gt;(*Threat)یک دستگاه سم‌پاش(/Threat) در آنجا تمام منطقه را آلوده به سم می‌کند</li><li>root(priority=1,sitePart==RaidSource)-&gt;یک منطقه استقرار نظامی توسط (*Threat)[enemiesCount] [enemiesLabel](/Threat) محافظت می‌شود که هر [mtbDays] به شما حمله خواهد کرد</li><li>root(priority=1,sitePart==Outpost)-&gt;یک پاسگاه دشمن در محل مستقر است که توسط (*Threat)[enemiesCount] [enemiesLabel](/Threat) محافظت می‌شود</li><li>root(priority=1,sitePart==BanditCamp)-&gt;یک اردوگاه راهزنان در محل مستقر است که توسط (*Threat)[enemiesCount] [enemiesLabel](/Threat) محافظت می‌شود</li><li>root(priority=1,sitePart==Manhunters,count==1)-&gt;(*Threat)یک [kindLabel] انسان‌خوار(/Threat) در نزدیکی در حال پرسه زدن است</li><li>root(priority=1,sitePart==Manhunters,count&gt;1)-&gt;(*Threat)[count] [kindLabel] انسان‌خوار(/Threat) در نزدیکی در حال پرسه زدن هستند</li><li>root(priority=1,sitePart==SleepingMechanoids,count==1)-&gt;(*Threat)یک مکانوید(/Threat) در نزدیکی در خواب است</li><li>root(priority=1,sitePart==SleepingMechanoids,count&gt;1)-&gt;(*Threat)[count] مکانوید(/Threat) در نزدیکی در خواب هستند</li><li>root(priority=1,sitePart==Turrets)-&gt;(*Threat)[threatsInfo](/Threat) از سایت دفاع می‌کنند</li><li>root(priority=1,sitePart==AmbushEdge)-&gt;(*Threat)یک نیروی دشمن(/Threat) در کمین هر کسی است که نزدیک شود</li><li>root(priority=1,sitePart==AmbushHidden)-&gt;(*Threat)یک نیروی دشمن(/Threat) در کمین هر کسی است که نزدیک شود</li><li>root(priority=1,sitePart==MechCluster)-&gt;(*Threat)دسته‌ای از سازه‌های مکانویدی متخاصم(/Threat) در آنجا وجود دارد</li><li>root(priority=1,sitePart==PossibleUnknownThreatMarker)-&gt;ممکن است یک (*Threat)تهدید ناشناخته(/Threat) وجود داشته باشد</li><li>root-&gt;یک [label] در آنجا وجود دارد</li></rulesStrings></li>
+    <li>
+      <rulesStrings>
+        <li>root(priority=1,sitePart==ClimateAdjuster)->(*Threat)یک دستگاه تنظیم‌کننده اقلیم(/Threat) در آنجا دمای منطقه را به میزان [temperatureOffset] تغییر می‌دهد</li>
+        <li>root(priority=1,sitePart==PsychicDroner)->(*Threat)یک دستگاه وزوز روانی(/Threat) در آنجا روی جنسیت [affectedGender] تنظیم شده است</li>
+        <li>root(priority=1,sitePart==PsychicSuppressor)->(*Threat)یک دستگاه سرکوبگر روانی(/Threat) در آنجا روی جنسیت [affectedGender] تنظیم شده است</li>
+        <li>root(priority=1,sitePart==WeatherController)->(*Threat)یک دستگاه کنترل‌کننده آب‌وهوا(/Threat) در آنجا آب‌وهوای کل منطقه را به [weather_label] تغییر می‌دهد</li>
+        <li>root(priority=1,sitePart==SmokeSpewer)->(*Threat)یک دستگاه دودافکن(/Threat) در آنجا دود غلیظی بر روی کل منطقه می‌گستراند</li>
+        <li>root(priority=1,sitePart==SunBlocker)->(*Threat)یک دستگاه مسدودکننده نور خورشید(/Threat) در آنجا کل منطقه را به زیر سایه می‌برد</li>
+        <li>root(priority=1,sitePart==EMIDynamo)->(*Threat)یک دینام الکترومغناطیسی (EMI)(/Threat) در آنجا دستگاه‌های الکتریکی سراسر منطقه را از کار می‌اندازد</li>
+        <li>root(priority=1,sitePart==ToxicSpewer)->(*Threat)یک دستگاه سم‌پاش(/Threat) در آنجا تمام منطقه را آلوده به سم می‌کند</li>
+        <li>root(priority=1,sitePart==RaidSource)->یک منطقه استقرار نظامی توسط (*Threat)[enemiesCount] [enemiesLabel](/Threat) محافظت می‌شود که هر [mtbDays] به شما حمله خواهد کرد</li>
+        <li>root(priority=1,sitePart==Outpost)->یک پاسگاه دشمن در محل مستقر است که توسط (*Threat)[enemiesCount] [enemiesLabel](/Threat) محافظت می‌شود</li>
+        <li>root(priority=1,sitePart==BanditCamp)->یک اردوگاه راهزنان در محل مستقر است که توسط (*Threat)[enemiesCount] [enemiesLabel](/Threat) محافظت می‌شود</li>
+        <li>root(priority=1,sitePart==Manhunters,count==1)->(*Threat)یک [kindLabel] انسان‌خوار(/Threat) در نزدیکی در حال پرسه زدن است</li>
+        <li>root(priority=1,sitePart==Manhunters,count>1)->(*Threat)[count] [kindLabel] انسان‌خوار(/Threat) در نزدیکی در حال پرسه زدن هستند</li>
+        <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->(*Threat)یک مکانوید(/Threat) در نزدیکی در خواب است</li>
+        <li>root(priority=1,sitePart==SleepingMechanoids,count>1)->(*Threat)[count] مکانوید(/Threat) در نزدیکی در خواب هستند</li>
+        <li>root(priority=1,sitePart==Turrets)->(*Threat)[threatsInfo](/Threat) از سایت دفاع می‌کنند</li>
+        <li>root(priority=1,sitePart==AmbushEdge)->(*Threat)یک نیروی دشمن(/Threat) در کمین هر کسی است که نزدیک شود</li>
+        <li>root(priority=1,sitePart==AmbushHidden)->(*Threat)یک نیروی دشمن(/Threat) در کمین هر کسی است که نزدیک شود</li>
+        <li>root(priority=1,sitePart==MechCluster)->(*Threat)دسته‌ای از سازه‌های مکانویدی متخاصم(/Threat) در آنجا وجود دارد</li>
+        <li>root(priority=1,sitePart==PossibleUnknownThreatMarker)->ممکن است یک (*Threat)تهدید ناشناخته(/Threat) وجود داشته باشد</li>
+        <li>root->یک [label] در آنجا وجود دارد</li>
+      </rulesStrings>
+    </li>
   </Util_GenerateSite.root.singleSitePartRules.slateRef>
   
-  
+  <!-- EN:
+    <li>threatDescription->a mech cluster will land at [map_definite] containing:\n\n[allThreats]</li>
+  -->
   <Util_MechCluster.questDescriptionRules.rulesStrings>
-    <li>threatDescription-&gt;یک خوشه مکانویدی در [map_definite] فرود خواهد آمد که شامل موارد زیر است:
-
-[allThreats]</li>
+    <li>threatDescription->یک خوشه مکانویدی در [map_definite] فرود خواهد آمد که شامل موارد زیر است:\n\n[allThreats]</li>
   </Util_MechCluster.questDescriptionRules.rulesStrings>
   
-  
+  <!-- EN:
+    <li>threatDescription->[enemyFaction_pawnsPlural] from [enemyFaction_name] will attack you. Their group is composed of:\n\n[raidPawnKinds]\n\n[raidArrivalModeInfo]</li>
+  -->
   <Util_Raid.questDescriptionRules.rulesStrings>
-    <li>threatDescription-&gt;[enemyFaction_pawnsPlural] از [enemyFaction_name] به شما حمله خواهند کرد. گروه آن‌ها متشکل است از:
-
-[raidPawnKinds]
-
-[raidArrivalModeInfo]</li>
+    <li>threatDescription->[enemyFaction_pawnsPlural] از [enemyFaction_name] به شما حمله خواهند کرد. گروه آن‌ها متشکل است از:\n\n[raidPawnKinds]\n\n[raidArrivalModeInfo]</li>
   </Util_Raid.questDescriptionRules.rulesStrings>
   
-  
+  <!-- EN:
+    <li>pawnKindsParagraph(raidCount==1)->The group of [enemyFaction_pawnsPlural] is composed of: \n\n[raid0/raidPawnKinds]\n\n[raid0/raidArrivalModeInfo]</li>
+    <li>pawnKindsParagraph(raidCount==2)->The first group of [enemyFaction_pawnsPlural] is composed of: \n\n[raid0/raidPawnKinds]\n\nThe second similar-sized group will follow soon after.</li>
+    <li>pawnKindsParagraph(raidCount==3)->The first group of [enemyFaction_pawnsPlural] is composed of: \n\n[raid0/raidPawnKinds]\n\nTwo similar-sized groups will follow soon after.</li>
+    <li>pawnKindsParagraph(raidCount>=4)->The first group of [enemyFaction_pawnsPlural] is composed of: \n\n[raid0/raidPawnKinds]\n\n[raidCountMinusOne] similar-sized groups will follow soon after.</li>
+    <li>numGroupsOf(raidCount==1)-></li>
+    <li>numGroupsOf(raidCount==2)->two groups of</li>
+    <li>numGroupsOf(raidCount==3)->three groups of</li>
+    <li>numGroupsOf(raidCount>=4)->[raidCount] groups of</li>
+  -->
   <Util_RaidDelayRepeatable.questDescriptionRules.rulesStrings>
-    <li>pawnKindsParagraph(raidCount==1)-&gt;گروه [enemyFaction_pawnsPlural] تشکیل شده از:
-
-[raid0/raidPawnKinds]
-
-[raid0/raidArrivalModeInfo]</li>
-    <li>pawnKindsParagraph(raidCount==2)-&gt;گروه اول [enemyFaction_pawnsPlural] تشکیل شده از:
-
-[raid0/raidPawnKinds]
-
-دومین گروه هم‌اندازه اندکی پس از آن خواهد رسید.</li>
-    <li>pawnKindsParagraph(raidCount==3)-&gt;گروه اول [enemyFaction_pawnsPlural] تشکیل شده از:
-
-[raid0/raidPawnKinds]
-
-دو گروه دیگر با اندازه مشابه اندکی بعد خواهند رسید.</li>
-<li>pawnKindsParagraph(raidCount&gt;=4)-&gt;گروه اول [enemyFaction_pawnsPlural] تشکیل شده از:
-
-[raid0/raidPawnKinds]
-
-[raidCountMinusOne] گروه با اندازه مشابه اندکی بعد خواهند رسید.</li>
-    <li>numGroupsOf(raidCount==1)-&gt;</li>
-    <li>numGroupsOf(raidCount==2)-&gt;دو گروه از</li>
-    <li>numGroupsOf(raidCount==3)-&gt;سه گروه از</li>
-<li>numGroupsOf(raidCount&gt;=4)-&gt;[raidCount] گروه از</li>
+    <li>pawnKindsParagraph(raidCount==1)->گروه [enemyFaction_pawnsPlural] تشکیل شده از:\n\n[raid0/raidPawnKinds]\n\n[raid0/raidArrivalModeInfo]</li>
+    <li>pawnKindsParagraph(raidCount==2)->گروه اول [enemyFaction_pawnsPlural] تشکیل شده از:\n\n[raid0/raidPawnKinds]\n\nدومین گروه هم‌اندازه اندکی پس از آن خواهد رسید.</li>
+    <li>pawnKindsParagraph(raidCount==3)->گروه اول [enemyFaction_pawnsPlural] تشکیل شده از:\n\n[raid0/raidPawnKinds]\n\nدو گروه دیگر با اندازه مشابه اندکی بعد خواهند رسید.</li>
+    <li>pawnKindsParagraph(raidCount>=4)->گروه اول [enemyFaction_pawnsPlural] تشکیل شده از:\n\n[raid0/raidPawnKinds]\n\n[raidCountMinusOne] گروه با اندازه مشابه اندکی بعد خواهند رسید.</li>
+    <li>numGroupsOf(raidCount==1)-></li>
+    <li>numGroupsOf(raidCount==2)->دو گروه از</li>
+    <li>numGroupsOf(raidCount==3)->سه گروه از</li>
+    <li>numGroupsOf(raidCount>=4)->[raidCount] گروه از</li>
   </Util_RaidDelayRepeatable.questDescriptionRules.rulesStrings>
   
 </LanguageData>

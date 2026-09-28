@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -6,9 +6,11 @@
     <li>soldiers(requiredPawnCount>1)->[requiredPawnCount] soldiers</li>
     <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] soldier</li>
   -->
-  <Mission_BanditCamp.questDescriptionRules.rulesStrings><li>questDescription->[enemiesLabel] یک کمپ راه اندازی کرده اند و کاروان های [asker_faction_name] را آزار می دهند. [asker_nameDef] در حال برنامه ریزی یک حمله هوایی به کمپ است که توسط [enemiesCount] [enemiesLabel] محافظت می شود. [asker_pronoun] از شما می‌خواهد که [soldiers] را برای انجام حمله فراهم کنید.\n\n[asker_pronoun] شاتلی را می‌فرستد تا جنگنده‌های شما را بگیرد، آنها را به محل حمله بیاورد و بعد از آن به خانه ببرد. آنها در مسیر تغذیه می‌شوند و از نظر پزشکی مراقبت می‌شوند.\n\nپس از شروع حمله، باید همه دشمنان و برج‌های داخل [timeoutTicks_duration] را شکست دهید.</li>
+  <Mission_BanditCamp.questDescriptionRules.rulesStrings>
+    <li>questDescription->[enemiesLabel] یک کمپ راه اندازی کرده اند و کاروان های [asker_faction_name] را آزار می دهند. [asker_nameDef] در حال برنامه ریزی یک حمله هوایی به کمپ است که توسط [enemiesCount] [enemiesLabel] محافظت می شود. [asker_pronoun] از شما می‌خواهد که [soldiers] را برای انجام حمله فراهم کنید.\n\n[asker_pronoun] شاتلی را می‌فرستد تا جنگنده‌های شما را بگیرد، آنها را به محل حمله بیاورد و بعد از آن به خانه ببرد. آنها در مسیر تغذیه می‌شوند و از نظر پزشکی مراقبت می‌شوند.\n\nپس از شروع حمله، باید همه دشمنان و برج‌های داخل [timeoutTicks_duration] را شکست دهید.</li>
     <li>سربازان(requiredPawnCount>1)->سربازان [requiredPawnCount]</li>
-    <li>سربازان(requiredPawnCount==1)->سرباز [requiredPawnCount]</li></Mission_BanditCamp.questDescriptionRules.rulesStrings>
+    <li>سربازان(requiredPawnCount==1)->سرباز [requiredPawnCount]</li>
+  </Mission_BanditCamp.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[questNameInner]</li>
     <li>questName->[asker_nameDef]'s [questNameInner]</li>
@@ -26,7 +28,8 @@
     <li>work->work</li>
     <li>work->job</li>
   -->
-  <Mission_BanditCamp.questNameRules.rulesStrings><li>questName->[questNameInner]</li>
+  <Mission_BanditCamp.questNameRules.rulesStrings>
+    <li>questName->[questNameInner]</li>
     <li>questName->[asker_nameDef] [questNameInner]</li>
     <li>questNameInner->[attack] [aerial]</li>
     <li>questNameInner->[attack] به [target]</li>
@@ -40,6 +43,7 @@
     <li>attack->حمله</li>
     <li>attack->شبیخون</li>
     <li>work->عملیات</li>
-    <li>work->ماموریت</li></Mission_BanditCamp.questNameRules.rulesStrings>
+    <li>work->ماموریت</li>
+  </Mission_BanditCamp.questNameRules.rulesStrings>
   
 </LanguageData>

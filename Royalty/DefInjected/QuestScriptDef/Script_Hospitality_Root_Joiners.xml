@@ -1,12 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
     <li>lodgersLabel->guest</li>
     <li>lodgersLabelPlural->[asker_faction_pawnsPlural]</li>
   -->
-  <Hospitality_Joiners.questDescriptionAndNameRules.rulesStrings><li>lodgersLabel->مهمان</li>
-    <li>lodgersLabelPlural->[asker_faction_pawnsPlural]</li></Hospitality_Joiners.questDescriptionAndNameRules.rulesStrings>
+  <Hospitality_Joiners.questDescriptionAndNameRules.rulesStrings>
+    <li>lodgersLabel->مهمان</li>
+    <li>lodgersLabelPlural->[asker_faction_pawnsPlural]</li>
+  </Hospitality_Joiners.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>lodgersDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersDef(lodgersCount>=2)->the [lodgersLabelPlural]</li>
@@ -65,7 +67,8 @@
     <li>allyAllies(lodgersCountMinusOne==1)->ally</li>
     <li>allyAllies(lodgersCountMinusOne>=2)->allies</li>
   -->
-  <Hospitality_Joiners.questDescriptionRules.rulesStrings><li>lodgersDef(lodgersCount==1)->[lodgers0_nameDef]</li>
+  <Hospitality_Joiners.questDescriptionRules.rulesStrings>
+    <li>lodgersDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersDef(lodgersCount>=2)->[lodgersLabelPlural]</li>
     <li>joinerEnding(priority=1)-></li>
     <li>joinerEnding->شما می توانید [lodgersDef] را به همان روشی که مستعمره نشینان خود را هدایت می کنید هدایت کنید.[specialNeedsExplanation]</li>
@@ -120,7 +123,8 @@
     <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->[asker_nameDef] و [asker_possessive] [allyAllies] هدف مرگ قرار گرفته اند و تا زمانی که بتوانند دادگاه خود را پاکسازی کنند به مکانی امن برای اقامت نیاز دارند. با این حال، دشمنان [asker_nameDef] به نوعی مکانیسم‌ها را برای شکار [asker_objective] تحریک کرده‌اند.\n\n[enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==false)-></li>
     <li>allyAllies(lodgersCountMinusOne==1)-> متحد</li>
-    <li>allyAllies(lodgersCountMinusOne>=2)->متفقین</li></Hospitality_Joiners.questDescriptionRules.rulesStrings>
+    <li>allyAllies(lodgersCountMinusOne>=2)->متفقین</li>
+  </Hospitality_Joiners.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->shelter for [lodgerIndef]</li>
     <li>questName->hospitality for [lodgerIndef]</li>
@@ -151,7 +155,8 @@
     <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->nobles</li>
     <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->aristocrats</li>
   -->
-  <Hospitality_Joiners.questNameRules.rulesStrings><li>questName->پناهگاه برای [lodgerIndef]</li>
+  <Hospitality_Joiners.questNameRules.rulesStrings>
+    <li>questName->پناهگاه برای [lodgerIndef]</li>
     <li>questName-> مهمان نوازی برای [lodgerIndef]</li>
     <li>questName->میزبان [lodgerIndef]</li>
     <li>questName->[lodgerIndef] به کمک نیاز دارد</li>
@@ -178,6 +183,7 @@
     <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->یک اشراف زاده</li>
     <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->رویال</li>
     <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->اشراف</li>
-    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->اشراف</li></Hospitality_Joiners.questNameRules.rulesStrings>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->اشراف</li>
+  </Hospitality_Joiners.questNameRules.rulesStrings>
   
 </LanguageData>

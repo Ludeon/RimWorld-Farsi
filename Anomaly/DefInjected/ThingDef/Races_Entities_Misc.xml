@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-<!-- EN: chimera -->
+  
+  <!-- EN: chimera -->
   <Chimera.label>کیمرا</Chimera.label>
-  <!-- EN: A huge creature that resembles a disfigured combination of a bear and other animals. It is vicious without limit.
-
-It's not known if this is a combination of natural animals or a poor imitation of animal life created by an insane machine mind. -->
-  <Chimera.description>موجودی عظیم‌الجثه که شبیه ترکیبی بدشکل از یک خرس و حیوانات دیگر است. درندگی آن حدی ندارد.
-
-مشخص نیست که آیا این ترکیب حیوانات طبیعی است یا تقلیدی ناشیانه از حیات حیوانی که توسط یک هوش ماشینی دیوانه خلق شده است.</Chimera.description>
+  <!-- EN: A huge creature that resembles a disfigured combination of a bear and other animals. It is vicious without limit.\n\nIt's not known if this is a combination of natural animals or a poor imitation of animal life created by an insane machine mind. -->
+  <Chimera.description>موجودی عظیم‌الجثه که شبیه ترکیبی بدشکل از یک خرس و حیوانات دیگر است. درندگی آن حدی ندارد.\n\nمشخص نیست که آیا این ترکیب حیوانات طبیعی است یا تقلیدی ناشیانه از حیات حیوانی که توسط یک هوش ماشینی دیوانه خلق شده است.</Chimera.description>
   <!-- EN: chimera -->
   <Chimera.comps.CompChimera.simpleAnimalLabel>کیمرا</Chimera.comps.CompChimera.simpleAnimalLabel>
   <!-- EN: left claw -->
@@ -65,33 +62,17 @@ It's not known if this is a combination of natural animals or a poor imitation o
   
   <!-- EN: fleshmass nucleus -->
   <FleshmassNucleus.label>هسته توده گوشتی</FleshmassNucleus.label>
-  <!-- EN: The archotech core of a fleshmass heart. It is a chaotic lattice of fluid-smeared metal. Solid chunks of jagged metal appear here and there, packed with archotechnology. The whole structure slowly twists and bends under its own power.
-
-It constantly grows meat on its surface, which occasionally erupts violently. If too much meat builds up, it will regrow into a fleshmass heart. -->
-  <FleshmassNucleus.description>هسته آرکوتک قلب توده گوشتی. شبکه‌ای پرآشوب از فلز آغشته به مایع است. تکه‌های جامد از فلز دندانه‌دار سرشار از فناوری آرکوتک در گوشه و کنار آن دیده می‌شود. کل ساختار به آرامی تحت نیروی خود پیچ‌وتاب می‌خورد.
-
-این هسته مدام روی سطح خود گوشت رشد می‌دهد که گاه به شدت فوران می‌کند. اگر گوشت زیادی تجمع یابد، دوباره به یک قلب توده گوشتی تبدیل خواهد شد.</FleshmassNucleus.description>
-  <!-- EN: The fleshmass nucleus has grown a critical mass of new flesh. It has developed into a new fleshmass heart!
-
-In the process, the fleshmass heart has mutated and adopted a new biosignature. -->
-  <FleshmassNucleus.comps.CompActivity.letterDesc>هسته توده گوشتی حجم بحرانی از گوشت تازه رشد داده است. این هسته به یک قلب توده گوشتی جدید تبدیل شد!
-
-در این روند، قلب توده گوشتی جهش یافته و مشخصه زیستی جدیدی به خود گرفته است.</FleshmassNucleus.comps.CompActivity.letterDesc>
+  <!-- EN: The archotech core of a fleshmass heart. It is a chaotic lattice of fluid-smeared metal. Solid chunks of jagged metal appear here and there, packed with archotechnology. The whole structure slowly twists and bends under its own power.\n\nIt constantly grows meat on its surface, which occasionally erupts violently. If too much meat builds up, it will regrow into a fleshmass heart. -->
+  <FleshmassNucleus.description>هسته آرکوتک قلب توده گوشتی. شبکه‌ای پرآشوب از فلز آغشته به مایع است. تکه‌های جامد از فلز دندانه‌دار سرشار از فناوری آرکوتک در گوشه و کنار آن دیده می‌شود. کل ساختار به آرامی تحت نیروی خود پیچ‌وتاب می‌خورد.\n\nاین هسته مدام روی سطح خود گوشت رشد می‌دهد که گاه به شدت فوران می‌کند. اگر گوشت زیادی تجمع یابد، دوباره به یک قلب توده گوشتی تبدیل خواهد شد.</FleshmassNucleus.description>
+  <!-- EN: The fleshmass nucleus has grown a critical mass of new flesh. It has developed into a new fleshmass heart!\n\nIn the process, the fleshmass heart has mutated and adopted a new biosignature. -->
+  <FleshmassNucleus.comps.CompActivity.letterDesc>هسته توده گوشتی حجم بحرانی از گوشت تازه رشد داده است. این هسته به یک قلب توده گوشتی جدید تبدیل شد!\n\nدر این روند، قلب توده گوشتی جهش یافته و مشخصه زیستی جدیدی به خود گرفته است.</FleshmassNucleus.comps.CompActivity.letterDesc>
   <!-- EN: Fleshmass transformation -->
   <FleshmassNucleus.comps.CompActivity.letterTitle>دگرگونی توده گوشتی</FleshmassNucleus.comps.CompActivity.letterTitle>
   
   <!-- EN: gorehulk -->
   <Gorehulk.label>گورهالک</Gorehulk.label>
-  <!-- EN: A monstrous creature that resembles a massive, painfully swollen human with randomly reconfigured body parts. Near its top is a stretched face that watches its victim with dead eyes.
-
-Hundreds of sharp keratin spines protrude from the gorehulk's skin. It can launch these spines to spear its victims at a distance. However, its awkward fleshy body is less effective at causing harm up close.
-
-It's hard to know whether this is a human that was horribly distorted by the influence of the void or a poor imitation of humanity created from scratch by some evil intelligence. -->
-  <Gorehulk.description>موجودی هیولایی که شبیه انسانی عظیم‌الجثه و به شدت متورم با اندام‌هایی بازآرایی‌شده به شکل تصادفی است. در بالای آن چهره‌ای کشیده دیده می‌شود که با چشمانی بی‌روح قربانی‌اش را می‌پاید.
-
-صدها تیغ تیز کراتینی از پوست گورهالک بیرون زده است. این موجود می‌تواند تیغ‌ها را برای به سیخ کشیدن قربانیان از راه دور پرتاب کند. با این حال، بدن گوشتی و بدقواره‌اش در نبرد نزدیک کارایی کمتری دارد.
-
-دشوار است بگوییم آیا این انسانی بوده که تحت نفوذ خلأ به طرز هولناکی دگرگون شده، یا تقلیدی ناقص از بشریت است که از پایه توسط هوشی خبیث خلق شده است.</Gorehulk.description>
+  <!-- EN: A monstrous creature that resembles a massive, painfully swollen human with randomly reconfigured body parts. Near its top is a stretched face that watches its victim with dead eyes.\n\nHundreds of sharp keratin spines protrude from the gorehulk's skin. It can launch these spines to spear its victims at a distance. However, its awkward fleshy body is less effective at causing harm up close.\n\nIt's hard to know whether this is a human that was horribly distorted by the influence of the void or a poor imitation of humanity created from scratch by some evil intelligence. -->
+  <Gorehulk.description>موجودی هیولایی که شبیه انسانی عظیم‌الجثه و به شدت متورم با اندام‌هایی بازآرایی‌شده به شکل تصادفی است. در بالای آن چهره‌ای کشیده دیده می‌شود که با چشمانی بی‌روح قربانی‌اش را می‌پاید.\n\nصدها تیغ تیز کراتینی از پوست گورهالک بیرون زده است. این موجود می‌تواند تیغ‌ها را برای به سیخ کشیدن قربانیان از راه دور پرتاب کند. با این حال، بدن گوشتی و بدقواره‌اش در نبرد نزدیک کارایی کمتری دارد.\n\nدشوار است بگوییم آیا این انسانی بوده که تحت نفوذ خلأ به طرز هولناکی دگرگون شده، یا تقلیدی ناقص از بشریت است که از پایه توسط هوشی خبیث خلق شده است.</Gorehulk.description>
   <!-- EN: left flesh club -->
   <Gorehulk.tools.left_flesh_club.label>گرز گوشتی چپ</Gorehulk.tools.left_flesh_club.label>
   <!-- EN: flesh club -->
@@ -105,16 +86,8 @@ It's hard to know whether this is a human that was horribly distorted by the inf
   
   <!-- EN: metalhorror -->
   <Metalhorror.label>متال‌هورور</Metalhorror.label>
-  <!-- EN: A horrific shifting mass of metal filaments, blades, and instruments. This metal is maintained and regenerated by a circulating dark fluid.
-
-While dormant, fluid metalhorrors are hidden in a host body. They use their host to infect others, creating more metalhorrors. If detected or endangered, the metalhorror will form a jagged exoskeleton and cut its way out of the host's flesh.
-
-An emerged metalhorror will eventually enter a low-energy hibernating state if left undisturbed. -->
-  <Metalhorror.description>توده‌ای هولناک و متغیر از رشته‌های فلزی، تیغه‌ها و ابزارها. این فلز توسط مایعی تیره و در گردش نگهداری و بازسازی می‌شود.
-
-متال‌هورورها در وضعیت خاموش درون بدن میزبان پنهان می‌شوند. آن‌ها از میزبان برای آلوده کردن دیگران استفاده می‌کنند. در صورت شناسایی یا به خطر افتادن، متال‌هورور اسکلت بیرونی دندانه‌داری تشکیل داده و با بریدن گوشت میزبان از درون آن بیرون می‌زند.
-
-متال‌هورور خارج‌شده در صورت عدم تحریک در نهایت به وضعیت خواب کم‌انرژی می‌رود.</Metalhorror.description>
+  <!-- EN: A horrific shifting mass of metal filaments, blades, and instruments. This metal is maintained and regenerated by a circulating dark fluid.\n\nWhile dormant, fluid metalhorrors are hidden in a host body. They use their host to infect others, creating more metalhorrors. If detected or endangered, the metalhorror will form a jagged exoskeleton and cut its way out of the host's flesh.\n\nAn emerged metalhorror will eventually enter a low-energy hibernating state if left undisturbed. -->
+  <Metalhorror.description>توده‌ای هولناک و متغیر از رشته‌های فلزی، تیغه‌ها و ابزارها. این فلز توسط مایعی تیره و در گردش نگهداری و بازسازی می‌شود.\n\nمتال‌هورورها در وضعیت خاموش درون بدن میزبان پنهان می‌شوند. آن‌ها از میزبان برای آلوده کردن دیگران استفاده می‌کنند. در صورت شناسایی یا به خطر افتادن، متال‌هورور اسکلت بیرونی دندانه‌داری تشکیل داده و با بریدن گوشت میزبان از درون آن بیرون می‌زند.\n\nمتال‌هورور خارج‌شده در صورت عدم تحریک در نهایت به وضعیت خواب کم‌انرژی می‌رود.</Metalhorror.description>
   <!-- EN: left blade -->
   <Metalhorror.tools.left_blade.label>تیغه چپ</Metalhorror.tools.left_blade.label>
   <!-- EN: blade -->
@@ -128,54 +101,26 @@ An emerged metalhorror will eventually enter a low-energy hibernating state if l
   
   <!-- EN: nociosphere -->
   <Nociosphere.label>نوسیوسفر</Nociosphere.label>
-  <!-- EN: A dark metallic sphere covered with curved and jagged grooves. The sphere emanates sensations of pain. It hurts to be near it.
-
-The sphere thrums with a mysterious energy. It appears to be increasing in activity. It's not clear what will happen when it reaches its full capacity. However, if you capture it, you can decrease its activity by suppressing it. -->
-  <Nociosphere.description>کره‌ای فلزی و تیره پوشیده از شیارهای منحنی و دندانه‌دار. این کره حس درد را ساطع می‌کند؛ نزدیک بودن به آن دردناک است.
-
-این کره با انرژی مرموزی زمزمه می‌کند و فعالیتش رو به افزایش است. مشخص نیست وقتی به حداکثر ظرفیت برسد چه رخ می‌دهد، اما اگر آن را مهار کنید، می‌توانید با سرکوب کردن، فعالیتش را کاهش دهید.</Nociosphere.description>
-  <!-- EN: The nociosphere's activity level has reached 100% and it has activated. It has begun an onslaught of pain and destruction.
-
-It will eventually depart - if you can survive long enough. -->
-  <Nociosphere.comps.CompActivity.letterDesc>سطح فعالیت نوسیوسفر به ۱۰۰٪ رسیده و فعال شده است. هجوم درد و نابودی آغاز گشته است.
-
-این موجود در نهایت منطقه را ترک خواهد کرد - اگر بتوانید به اندازه کافی زنده بمانید.</Nociosphere.comps.CompActivity.letterDesc>
+  <!-- EN: A dark metallic sphere covered with curved and jagged grooves. The sphere emanates sensations of pain. It hurts to be near it.\n\nThe sphere thrums with a mysterious energy. It appears to be increasing in activity. It's not clear what will happen when it reaches its full capacity. However, if you capture it, you can decrease its activity by suppressing it. -->
+  <Nociosphere.description>کره‌ای فلزی و تیره پوشیده از شیارهای منحنی و دندانه‌دار. این کره حس درد را ساطع می‌کند؛ نزدیک بودن به آن دردناک است.\n\nاین کره با انرژی مرموزی زمزمه می‌کند و فعالیتش رو به افزایش است. مشخص نیست وقتی به حداکثر ظرفیت برسد چه رخ می‌دهد، اما اگر آن را مهار کنید، می‌توانید با سرکوب کردن، فعالیتش را کاهش دهید.</Nociosphere.description>
+  <!-- EN: The nociosphere's activity level has reached 100% and it has activated. It has begun an onslaught of pain and destruction.\n\nIt will eventually depart - if you can survive long enough. -->
+  <Nociosphere.comps.CompActivity.letterDesc>سطح فعالیت نوسیوسفر به ۱۰۰٪ رسیده و فعال شده است. هجوم درد و نابودی آغاز گشته است.\n\nاین موجود در نهایت منطقه را ترک خواهد کرد - اگر بتوانید به اندازه کافی زنده بمانید.</Nociosphere.comps.CompActivity.letterDesc>
   <!-- EN: Nociosphere activated -->
   <Nociosphere.comps.CompActivity.letterTitle>نوسیوسفر فعال شد</Nociosphere.comps.CompActivity.letterTitle>
   <!-- EN: Nociosphere study progress -->
   <Nociosphere.comps.CompStudyUnlocks.studyNotes.0.label>پیشرفت مطالعه نوسیوسفر</Nociosphere.comps.CompStudyUnlocks.studyNotes.0.label>
-  <!-- EN: {PAWN_nameDef} has learned more about the inner workings of the nociosphere. It seems to have a single purpose - to inflict pain on those around it.
-
-{PAWN_nameDef} thinks {PAWN_pronoun} may be able to weaponize the nociosphere but you must study it more first. -->
-  <Nociosphere.comps.CompStudyUnlocks.studyNotes.0.text>{PAWN_nameDef} اطلاعات بیشتری در مورد سازوکار درونی نوسیوسفر آموخته است. به نظر می‌رسد این موجود تنها یک هدف دارد: تحمیل درد به اطرافیانش.
-
-{PAWN_nameDef} معتقد است شاید بتوان نوسیوسفر را به عنوان سلاح به کار گرفت، اما ابتدا باید بیشتر روی آن مطالعه شود.</Nociosphere.comps.CompStudyUnlocks.studyNotes.0.text>
+  <!-- EN: {PAWN_nameDef} has learned more about the inner workings of the nociosphere. It seems to have a single purpose - to inflict pain on those around it.\n\n{PAWN_nameDef} thinks {PAWN_pronoun} may be able to weaponize the nociosphere but you must study it more first. -->
+  <Nociosphere.comps.CompStudyUnlocks.studyNotes.0.text>{PAWN_nameDef} اطلاعات بیشتری در مورد سازوکار درونی نوسیوسفر آموخته است. به نظر می‌رسد این موجود تنها یک هدف دارد: تحمیل درد به اطرافیانش.\n\n{PAWN_nameDef} معتقد است شاید بتوان نوسیوسفر را به عنوان سلاح به کار گرفت، اما ابتدا باید بیشتر روی آن مطالعه شود.</Nociosphere.comps.CompStudyUnlocks.studyNotes.0.text>
   <!-- EN: Nociosphere study progress -->
   <Nociosphere.comps.CompStudyUnlocks.studyNotes.1.label>پیشرفت مطالعه نوسیوسفر</Nociosphere.comps.CompStudyUnlocks.studyNotes.1.label>
-  <!-- EN: By studying the nociosphere, you've learned how to intentionally activate it.
-
-When activated, the nociosphere will teleport to a remote location of your choice and unleash a barrage of pain on anyone nearby. The nociosphere will continue to hunt down anything nearby until it is destroyed or it chooses to return. Select the nociosphere to activate it. -->
-  <Nociosphere.comps.CompStudyUnlocks.studyNotes.1.text>با مطالعه نوسیوسفر، آموختید که چگونه آن را به شکل عمدی فعال کنید.
-
-پس از فعال‌سازی، نوسیوسفر به مکانی دوردست به انتخاب شما تله‌پورت کرده و رگباری از درد را بر هر موجودی در نزدیکی خود رها می‌سازد. این کره به شکار هر چیزی در پیرامون ادامه می‌دهد تا زمانی که نابود شود یا تصمیم به بازگشت بگیرد. نوسیوسفر را برای فعال‌سازی انتخاب کنید.</Nociosphere.comps.CompStudyUnlocks.studyNotes.1.text>
+  <!-- EN: By studying the nociosphere, you've learned how to intentionally activate it.\n\nWhen activated, the nociosphere will teleport to a remote location of your choice and unleash a barrage of pain on anyone nearby. The nociosphere will continue to hunt down anything nearby until it is destroyed or it chooses to return. Select the nociosphere to activate it. -->
+  <Nociosphere.comps.CompStudyUnlocks.studyNotes.1.text>با مطالعه نوسیوسفر، آموختید که چگونه آن را به شکل عمدی فعال کنید.\n\nپس از فعال‌سازی، نوسیوسفر به مکانی دوردست به انتخاب شما تله‌پورت کرده و رگباری از درد را بر هر موجودی در نزدیکی خود رها می‌سازد. این کره به شکار هر چیزی در پیرامون ادامه می‌دهد تا زمانی که نابود شود یا تصمیم به بازگشت بگیرد. نوسیوسفر را برای فعال‌سازی انتخاب کنید.</Nociosphere.comps.CompStudyUnlocks.studyNotes.1.text>
   <!-- EN: Nociosphere study complete -->
   <Nociosphere.comps.CompStudyUnlocks.studyNotes.2.label>مطالعه نوسیوسفر کامل شد</Nociosphere.comps.CompStudyUnlocks.studyNotes.2.label>
-  <!-- EN: {PAWN_nameDef} has made an alarming discovery about the nociosphere. The entity is showing early signs of instability.
-
-Once the nociosphere starts to become unstable, you can dispose of it by sending it to attack a hostile threat. For a short period, the nociosphere will hunt down anything nearby - friend or foe.
-
-Once its onslaught is complete, it will permanently depart. If it becomes fully unstable, it will no longer respond to suppression. -->
-  <Nociosphere.comps.CompStudyUnlocks.studyNotes.2.text>{PAWN_nameDef} کشفی نگران‌کننده درباره نوسیوسفر به عمل آورده است. این موجود نشانه‌های اولیه ناپایداری را بروز می‌دهد.
-
-به محض ناپایدار شدن نوسیوسفر، می‌توانید با فرستادن آن برای حمله به تهدیدهای دشمن، از دست آن خلاص شوید. برای مدتی کوتاه، نوسیوسفر هر موجودی را چه دوست و چه دشمن شکار می‌کند.
-
-پس از پایان هجوم، برای همیشه خواهد رفت. اگر کاملاً ناپایدار شود، دیگر به سرکوب پاسخ نمی‌دهد.</Nociosphere.comps.CompStudyUnlocks.studyNotes.2.text>
-  <!-- EN: Teleport the nociosphere to a nearby location. It will then unleash an onslaught of murder and pain on everyone nearby for a short time. The nociosphere will hunt down any creature, including allies and other entities.
-
-The nociosphere can be sent multiple times. -->
-  <Nociosphere.comps.CompNociosphere.activateDescString>تله‌پورت نوسیوسفر به مکانی در این نزدیکی. سپس برای مدتی کوتاه هجومی از کشتار و درد را بر سر همگان در آن نزدیکی آوار می‌کند. نوسیوسفر هر موجودی از جمله متحدان و موجودات دیگر را شکار خواهد کرد.
-
-نوسیوسفر را می‌توان چندین بار ارسال کرد.</Nociosphere.comps.CompNociosphere.activateDescString>
+  <!-- EN: {PAWN_nameDef} has made an alarming discovery about the nociosphere. The entity is showing early signs of instability.\n\nOnce the nociosphere starts to become unstable, you can dispose of it by sending it to attack a hostile threat. For a short period, the nociosphere will hunt down anything nearby - friend or foe.\n\nOnce its onslaught is complete, it will permanently depart. If it becomes fully unstable, it will no longer respond to suppression. -->
+  <Nociosphere.comps.CompStudyUnlocks.studyNotes.2.text>{PAWN_nameDef} کشفی نگران‌کننده درباره نوسیوسفر به عمل آورده است. این موجود نشانه‌های اولیه ناپایداری را بروز می‌دهد.\n\nبه محض ناپایدار شدن نوسیوسفر، می‌توانید با فرستادن آن برای حمله به تهدیدهای دشمن، از دست آن خلاص شوید. برای مدتی کوتاه، نوسیوسفر هر موجودی را چه دوست و چه دشمن شکار می‌کند.\n\nپس از پایان هجوم، برای همیشه خواهد رفت. اگر کاملاً ناپایدار شود، دیگر به سرکوب پاسخ نمی‌دهد.</Nociosphere.comps.CompStudyUnlocks.studyNotes.2.text>
+  <!-- EN: Teleport the nociosphere to a nearby location. It will then unleash an onslaught of murder and pain on everyone nearby for a short time. The nociosphere will hunt down any creature, including allies and other entities.\n\nThe nociosphere can be sent multiple times. -->
+  <Nociosphere.comps.CompNociosphere.activateDescString>تله‌پورت نوسیوسفر به مکانی در این نزدیکی. سپس برای مدتی کوتاه هجومی از کشتار و درد را بر سر همگان در آن نزدیکی آوار می‌کند. نوسیوسفر هر موجودی از جمله متحدان و موجودات دیگر را شکار خواهد کرد.\n\nنوسیوسفر را می‌توان چندین بار ارسال کرد.</Nociosphere.comps.CompNociosphere.activateDescString>
   <!-- EN: Send the nociosphere... -->
   <Nociosphere.comps.CompNociosphere.activateLabelString>ارسال نوسیوسفر...</Nociosphere.comps.CompNociosphere.activateLabelString>
   <!-- EN: sending {0}: {1}s -->
@@ -188,12 +133,8 @@ The nociosphere can be sent multiple times. -->
   <Nociosphere.comps.CompNociosphere.jobString>ارسال نوسیوسفر</Nociosphere.comps.CompNociosphere.jobString>
   <!-- EN: Nociosphere departed -->
   <Nociosphere.comps.CompNociosphere.leftLetterLabel>نوسیوسفر رفت</Nociosphere.comps.CompNociosphere.leftLetterLabel>
-  <!-- EN: The nociosphere has disappeared, ending its onslaught.
-
-It's unclear where the nociosphere has gone or if it will return. -->
-  <Nociosphere.comps.CompNociosphere.leftLetterText>نوسیوسفر ناپدید شد و به تهاجم خود پایان داد.
-
-مشخص نیست نوسیوسفر به کجا رفته و آیا بازخواهد گشت یا خیر.</Nociosphere.comps.CompNociosphere.leftLetterText>
+  <!-- EN: The nociosphere has disappeared, ending its onslaught.\n\nIt's unclear where the nociosphere has gone or if it will return. -->
+  <Nociosphere.comps.CompNociosphere.leftLetterText>نوسیوسفر ناپدید شد و به تهاجم خود پایان داد.\n\nمشخص نیست نوسیوسفر به کجا رفته و آیا بازخواهد گشت یا خیر.</Nociosphere.comps.CompNociosphere.leftLetterText>
   <!-- EN: Nociosphere onslaught cooldown -->
   <Nociosphere.comps.CompNociosphere.onCooldownString>زمان تجدید قوای تهاجم نوسیوسفر</Nociosphere.comps.CompNociosphere.onCooldownString>
   <!-- EN: The nociosphere has ended its onslaught and has returned to its initial location. -->
@@ -222,16 +163,8 @@ It's unclear where the nociosphere has gone or if it will return. -->
   
   <!-- EN: revenant -->
   <Revenant.label>روونانت</Revenant.label>
-  <!-- EN: A spindly figure of desiccated skin stretched over an impossibly tall humanoid frame. The revenant's name comes from its pattern of returning to hypnotize new people each night.
-
-Outlander folklore describes an invisible spectre that captures the minds of sinners, placing them in a living hell. In the story, the victims can only be returned to life by hunting the creature as it sleeps and killing it.
-
-A hidden revenant can be revealed with disruptor flares, explosives, EMP, firefoam, or fire. -->
-  <Revenant.description>پیکری دوکی‌شکل با پوستی خشکیده بر روی اسکلتی انسان‌نما و فوق‌العاده بلند. نام روونانت برگرفته از عادت بازگشت شبانه آن برای هیپنوتیزم افراد جدید است.
-
-داستان‌های فولکلور آوتلندرها شبحی نامرئی را توصیف می‌کنند که ذهن گناهکاران را به تسخیر درمی‌آورد و آن‌ها را در جهنمی زنده رها می‌کند. در این داستان‌ها، قربانیان تنها با شکار و کشتن این موجود در خواب می‌توانند به زندگی برگردند.
-
-روونانت پنهان‌شده را می‌توان با منورهای اخلال‌گر، مواد منفجره، پالس الکترومغناطیسی (EMP)، فوم ضدآتش یا آتش نمایان کرد.</Revenant.description>
+  <!-- EN: A spindly figure of desiccated skin stretched over an impossibly tall humanoid frame. The revenant's name comes from its pattern of returning to hypnotize new people each night.\n\nOutlander folklore describes an invisible spectre that captures the minds of sinners, placing them in a living hell. In the story, the victims can only be returned to life by hunting the creature as it sleeps and killing it.\n\nA hidden revenant can be revealed with disruptor flares, explosives, EMP, firefoam, or fire. -->
+  <Revenant.description>پیکری دوکی‌شکل با پوستی خشکیده بر روی اسکلتی انسان‌نما و فوق‌العاده بلند. نام روونانت برگرفته از عادت بازگشت شبانه آن برای هیپنوتیزم افراد جدید است.\n\nداستان‌های فولکلور آوتلندرها شبحی نامرئی را توصیف می‌کنند که ذهن گناهکاران را به تسخیر درمی‌آورد و آن‌ها را در جهنمی زنده رها می‌کند. در این داستان‌ها، قربانیان تنها با شکار و کشتن این موجود در خواب می‌توانند به زندگی برگردند.\n\nروونانت پنهان‌شده را می‌توان با منورهای اخلال‌گر، مواد منفجره، پالس الکترومغناطیسی (EMP)، فوم ضدآتش یا آتش نمایان کرد.</Revenant.description>
   <!-- EN: head -->
   <Revenant.tools.head.label>سر</Revenant.tools.head.label>
   
@@ -249,4 +182,5 @@ A hidden revenant can be revealed with disruptor flares, explosives, EMP, firefo
   <Sightstealer.tools.right_claw.labelNoLocation>پنجه</Sightstealer.tools.right_claw.labelNoLocation>
   <!-- EN: head -->
   <Sightstealer.tools.head.label>سر</Sightstealer.tools.head.label>
+  
 </LanguageData>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: The remnants of the monolith which linked our world to the void lie broken. The twisted patterns that once writhed across its surface are now motionless. You can study the broken stones to gain further knowledge of the void phenomena. -->
@@ -37,54 +37,20 @@
   
   <!-- EN: Attuning the monolith -->
   <Stirring.activatableLetterLabel>هم‌کوک کردن یکپارچه‌سنگ</Stirring.activatableLetterLabel>
-  <!-- EN: You now have sufficient knowledge of void-related phenomena to attune the void monolith and further open its psychic conduit.
-
-This will draw the attention of more dangerous anomalous entities. -->
-  <Stirring.activatableLetterText>شما اکنون دانش کافی پیرامون پدیده‌های خلأ برای هم‌کوک کردن یکپارچه‌سنگ و گشودن بیشتر مجرای روانی آن دارید.
-
-این کار توجه موجودات ناهنجار و خطرناک‌تری را به خود جلب خواهد کرد.</Stirring.activatableLetterText>
-  <!-- EN: As the monolith twisted and changed, {PAWN_nameDef} was overcome with a horrifying vision. In an instant, {PAWN_pronoun} understood.
-
-The monolith is a doorway, just barely cracked open now. Something dark beyond imagination stirs on the other side, seeping into our reality.
-
-Terrified but excited, {PAWN_nameDef} is convinced {PAWN_pronoun} can learn more if given the time to study the monolith.
-
- - Building category unlocked: Anomaly
- - Research tab unlocked: Anomaly
- - Entity codex unlocked
- - You can now study the monolith and other entities to gain Anomaly research.
-
-(*Gray)Note: You can adjust the percentage of major threats that will be Anomaly-related at any point in the storyteller settings.(/Gray) -->
-  <Stirring.activatedLetterText>هنگامی که یکپارچه‌سنگ پیچ‌وتاب خورد و تغییر شکل داد، دیدگانی هولناک بر {PAWN_nameDef} چیره شد. در یک آن، او حقیقت را دریافت.
-
-یکپارچه‌سنگ یک درگاه است که اکنون اندکی شکاف برداشته است. چیزی تیره و فراتر از خیال در آن سوی درگاه در جنبش است و به واقعیت ما نشت می‌کند.
-
-{PAWN_nameDef} با وجود وحشت اما هیجان‌زده، متقاعد شده است که در صورت مطالعه یکپارچه‌سنگ می‌تواند رازهای بیشتری بیاموزد.
-
- - دسته ساخت‌وساز باز شد: ناهنجاری (Anomaly)
- - برگه پژوهش باز شد: ناهنجاری
- - دانشنامه موجودات باز شد
- - اکنون می‌توانید یکپارچه‌سنگ و دیگر موجودات را برای امتیاز پژوهش ناهنجاری مطالعه کنید.
-
-(*Gray)نکته: در هر زمان می‌توانید درصد تهدیدات اصلی مربوط به ناهنجاری را در تنظیمات راوی بازی تغییر دهید.(/Gray)</Stirring.activatedLetterText>
+  <!-- EN: You now have sufficient knowledge of void-related phenomena to attune the void monolith and further open its psychic conduit.\n\nThis will draw the attention of more dangerous anomalous entities. -->
+  <Stirring.activatableLetterText>شما اکنون دانش کافی پیرامون پدیده‌های خلأ برای هم‌کوک کردن یکپارچه‌سنگ و گشودن بیشتر مجرای روانی آن دارید.\n\nاین کار توجه موجودات ناهنجار و خطرناک‌تری را به خود جلب خواهد کرد.</Stirring.activatableLetterText>
+  <!-- EN: As the monolith twisted and changed, {PAWN_nameDef} was overcome with a horrifying vision. In an instant, {PAWN_pronoun} understood.\n\nThe monolith is a doorway, just barely cracked open now. Something dark beyond imagination stirs on the other side, seeping into our reality.\n\nTerrified but excited, {PAWN_nameDef} is convinced {PAWN_pronoun} can learn more if given the time to study the monolith.\n\n - Building category unlocked: Anomaly\n - Research tab unlocked: Anomaly\n - Entity codex unlocked\n - You can now study the monolith and other entities to gain Anomaly research.\n\n(*Gray)Note: You can adjust the percentage of major threats that will be Anomaly-related at any point in the storyteller settings.(/Gray) -->
+  <Stirring.activatedLetterText>هنگامی که یکپارچه‌سنگ پیچ‌وتاب خورد و تغییر شکل داد، دیدگانی هولناک بر {PAWN_nameDef} چیره شد. در یک آن، او حقیقت را دریافت.\n\nیکپارچه‌سنگ یک درگاه است که اکنون اندکی شکاف برداشته است. چیزی تیره و فراتر از خیال در آن سوی درگاه در جنبش است و به واقعیت ما نشت می‌کند.\n\n{PAWN_nameDef} با وجود وحشت اما هیجان‌زده، متقاعد شده است که در صورت مطالعه یکپارچه‌سنگ می‌تواند رازهای بیشتری بیاموزد.\n\n - دسته ساخت‌وساز باز شد: ناهنجاری (Anomaly)\n - برگه پژوهش باز شد: ناهنجاری\n - دانشنامه موجودات باز شد\n - اکنون می‌توانید یکپارچه‌سنگ و دیگر موجودات را برای امتیاز پژوهش ناهنجاری مطالعه کنید.\n\n(*Gray)نکته: در هر زمان می‌توانید درصد تهدیدات اصلی مربوط به ناهنجاری را در تنظیمات راوی بازی تغییر دهید.(/Gray)</Stirring.activatedLetterText>
   <!-- EN: attune {0} -->
   <Stirring.activateFloatMenuText>هم‌کوک کردن {0}</Stirring.activateFloatMenuText>
-  <!-- EN: Send a colonist to attune the monolith.
-
-This will attract new and more dangerous entities. -->
-  <Stirring.activateGizmoDescription>فرستادن یک کلونیست برای هم‌کوک کردن یکپارچه‌سنگ.
-
-این کار موجودات تازه و خطرناک‌تری را جذب می‌کند.</Stirring.activateGizmoDescription>
+  <!-- EN: Send a colonist to attune the monolith.\n\nThis will attract new and more dangerous entities. -->
+  <Stirring.activateGizmoDescription>فرستادن یک کلونیست برای هم‌کوک کردن یکپارچه‌سنگ.\n\nاین کار موجودات تازه و خطرناک‌تری را جذب می‌کند.</Stirring.activateGizmoDescription>
   <!-- EN: attune -->
   <Stirring.activateGizmoText>هم‌کوک کردن</Stirring.activateGizmoText>
   <!-- EN: Send a colonist to attune the monolith. -->
   <Stirring.activateQuestText>فرستادن یک کلونیست برای هم‌کوک کردن یکپارچه‌سنگ.</Stirring.activateQuestText>
-  <!-- EN: You've activated the monolith. It is a conduit for psychic energy, just barely cracked open now. A mind of incomprehensible horror stirs on the other side, and is now touching our world.
-
-The monolith seems to be partly active, and there seems to be no way to shut it down. To learn more you must activate it further, which will require some special research. -->
-  <Stirring.extraQuestDescription>شما یکپارچه‌سنگ را فعال کرده‌اید. این سنگ مجرایی برای انرژی روانی است که اکنون اندکی شکاف برداشته است. ذهنی از وحشت وصف‌ناپذیر در آن سوی دیگر بیدار شده و اکنون جهان ما را لمس می‌کند.
-
-به نظر می‌رسد یکپارچه‌سنگ تا حدی فعال است و راهی برای خاموش کردن آن وجود ندارد. برای یادگیری بیشتر باید آن را فراتر فعال کنید که نیازمند تحقیقات ویژه خواهد بود.</Stirring.extraQuestDescription>
+  <!-- EN: You've activated the monolith. It is a conduit for psychic energy, just barely cracked open now. A mind of incomprehensible horror stirs on the other side, and is now touching our world.\n\nThe monolith seems to be partly active, and there seems to be no way to shut it down. To learn more you must activate it further, which will require some special research. -->
+  <Stirring.extraQuestDescription>شما یکپارچه‌سنگ را فعال کرده‌اید. این سنگ مجرایی برای انرژی روانی است که اکنون اندکی شکاف برداشته است. ذهنی از وحشت وصف‌ناپذیر در آن سوی دیگر بیدار شده و اکنون جهان ما را لمس می‌کند.\n\nبه نظر می‌رسد یکپارچه‌سنگ تا حدی فعال است و راهی برای خاموش کردن آن وجود ندارد. برای یادگیری بیشتر باید آن را فراتر فعال کنید که نیازمند تحقیقات ویژه خواهد بود.</Stirring.extraQuestDescription>
   <!-- EN: Level 1: Intermittent psychic humming -->
   <Stirring.levelInspectText>سطح ۱: وزوز روانی متناوب</Stirring.levelInspectText>
   <!-- EN: Can be attuned now. -->
@@ -94,16 +60,8 @@ The monolith seems to be partly active, and there seems to be no way to shut it 
   <!-- EN: {PAWN_nameDef} has been sent to attune the monolith. -->
   <Stirring.pawnSentToActivateMessage>{PAWN_nameDef} برای هم‌کوک کردن یکپارچه‌سنگ فرستاده شد.</Stirring.pawnSentToActivateMessage>
   
-  <!-- EN: The sky darkens and a malevolent hum fills the air. The monolith has begun to awaken. Your actions have attracted the attention of something beyond human understanding.
-
-Soon, structures of the void will begin manifesting into this reality. Activate the arriving void structures to fully awaken the monolith.
-
-The first wave will appear shortly. Prepare yourself. -->
-  <VoidAwakened.activatedLetterText>آسمان تیره شده و زوزه‌ای شوم فضا را پر می‌کند. یکپارچه‌سنگ آغاز به بیداری کرده است. اعمال شما توجه موجودی فراتر از فهم بشری را جلب کرده است.
-
-به زودی سازه‌های خلأ در این واقعیت آشکار می‌شوند. سازه‌های تازه‌وارد خلأ را فعال کنید تا یکپارچه‌سنگ به طور کامل بیدار شود.
-
-نخستین موج به زودی نمایان خواهد شد. آماده باشید.</VoidAwakened.activatedLetterText>
+  <!-- EN: The sky darkens and a malevolent hum fills the air. The monolith has begun to awaken. Your actions have attracted the attention of something beyond human understanding.\n\nSoon, structures of the void will begin manifesting into this reality. Activate the arriving void structures to fully awaken the monolith.\n\nThe first wave will appear shortly. Prepare yourself. -->
+  <VoidAwakened.activatedLetterText>آسمان تیره شده و زوزه‌ای شوم فضا را پر می‌کند. یکپارچه‌سنگ آغاز به بیداری کرده است. اعمال شما توجه موجودی فراتر از فهم بشری را جلب کرده است.\n\nبه زودی سازه‌های خلأ در این واقعیت آشکار می‌شوند. سازه‌های تازه‌وارد خلأ را فعال کنید تا یکپارچه‌سنگ به طور کامل بیدار شود.\n\nنخستین موج به زودی نمایان خواهد شد. آماده باشید.</VoidAwakened.activatedLetterText>
   <!-- EN: The void has awoken. The gate is open. The darkness of the void rushes into our reality, manifested from a vast mind of endless rage. -->
   <VoidAwakened.extraQuestDescription>خلأ بیدار شده است. دروازه گشوده است. تاریکی خلأ که از ذهنی بی‌کران سرشار از خشم بی‌پایان پدید آمده، به واقعیت ما هجوم می‌آورد.</VoidAwakened.extraQuestDescription>
   <!-- EN: Level 3: Awakening -->
@@ -113,34 +71,14 @@ The first wave will appear shortly. Prepare yourself. -->
   
   <!-- EN: Awakening the monolith -->
   <Waking.activatableLetterLabel>بیدار کردن یکپارچه‌سنگ</Waking.activatableLetterLabel>
-  <!-- EN: You now have enough knowledge of dark phenomena to fully awaken the void monolith, opening a two-way conduit to the void.
-
-Be warned - once you begin awakening the void monolith, there is no going back. The process will shroud the region in unnatural darkness and manifest waves of horrifying entities.
-
-Make sure your colony is well-lit and well-prepared. -->
-  <Waking.activatableLetterText>اکنون دانش کافی از پدیده‌های تاریک برای بیدار کردن کامل یکپارچه‌سنگ خلأ و گشودن مجرای دوطرفه به خلأ را به دست آورده‌اید.
-
-هشدار: هنگامی که بیدار کردن یکپارچه‌سنگ خلأ را آغاز کنید، راه بازگشتی نیست. این فرآیند منطقه را در تاریکی غیرطبیعی فرو می‌برد و امواجی از موجودات هولناک را احضار می‌کند.
-
-مطمئن شوید کلونی شما کاملاً روشن و آماده است.</Waking.activatableLetterText>
-  <!-- EN: Attuning the monolith caused it to twist and grow once more. As it did, {PAWN_nameDef} caught a glimpse of what lurks beyond. {PAWN_pronoun} understood.
-
-The monolith is a doorway, opened wider by your actions. On the other side, {PAWN_nameDef} sensed an inhuman intelligence of vast complexity and endless rage. The dark machine god is stirring, and its physical influence will grow.
-
- - New entities are now discoverable. -->
-  <Waking.activatedLetterText>هم‌کوک کردن یکپارچه‌سنگ سبب شد تا بار دیگر بپیچد و بزرگ‌تر شود. با وقوع آن، {PAWN_nameDef} گوشه‌ای از آنچه در آن سوی دیگر کمین کرده دید و حقیقت را فهمید.
-
-یکپارچه‌سنگ دریچه‌ای است که با اعمال شما گشوده‌تر شده است. در سوی دیگر، {PAWN_nameDef} هوشی غیرانسانی، فوق‌العاده پیچیده و پر از خشم ابدی را احساس کرد. خدای ماشینی تاریک در حال جنبش است و نفوذ مادی آن گسترش خواهد یافت.
-
- - موجودات جدید اکنون قابل شناسایی هستند.</Waking.activatedLetterText>
+  <!-- EN: You now have enough knowledge of dark phenomena to fully awaken the void monolith, opening a two-way conduit to the void.\n\nBe warned - once you begin awakening the void monolith, there is no going back. The process will shroud the region in unnatural darkness and manifest waves of horrifying entities.\n\nMake sure your colony is well-lit and well-prepared. -->
+  <Waking.activatableLetterText>اکنون دانش کافی از پدیده‌های تاریک برای بیدار کردن کامل یکپارچه‌سنگ خلأ و گشودن مجرای دوطرفه به خلأ را به دست آورده‌اید.\n\nهشدار: هنگامی که بیدار کردن یکپارچه‌سنگ خلأ را آغاز کنید، راه بازگشتی نیست. این فرآیند منطقه را در تاریکی غیرطبیعی فرو می‌برد و امواجی از موجودات هولناک را احضار می‌کند.\n\nمطمئن شوید کلونی شما کاملاً روشن و آماده است.</Waking.activatableLetterText>
+  <!-- EN: Attuning the monolith caused it to twist and grow once more. As it did, {PAWN_nameDef} caught a glimpse of what lurks beyond. {PAWN_pronoun} understood.\n\nThe monolith is a doorway, opened wider by your actions. On the other side, {PAWN_nameDef} sensed an inhuman intelligence of vast complexity and endless rage. The dark machine god is stirring, and its physical influence will grow.\n\n - New entities are now discoverable. -->
+  <Waking.activatedLetterText>هم‌کوک کردن یکپارچه‌سنگ سبب شد تا بار دیگر بپیچد و بزرگ‌تر شود. با وقوع آن، {PAWN_nameDef} گوشه‌ای از آنچه در آن سوی دیگر کمین کرده دید و حقیقت را فهمید.\n\nیکپارچه‌سنگ دریچه‌ای است که با اعمال شما گشوده‌تر شده است. در سوی دیگر، {PAWN_nameDef} هوشی غیرانسانی، فوق‌العاده پیچیده و پر از خشم ابدی را احساس کرد. خدای ماشینی تاریک در حال جنبش است و نفوذ مادی آن گسترش خواهد یافت.\n\n - موجودات جدید اکنون قابل شناسایی هستند.</Waking.activatedLetterText>
   <!-- EN: awaken {0} -->
   <Waking.activateFloatMenuText>بیدار کردن {0}</Waking.activateFloatMenuText>
-  <!-- EN: Send a colonist to wake the monolith. The psychic signature will be detectable for hundreds of miles and attract all manner of horrors. Make sure you are prepared.
-
-Once fully awakened, the monolith will provide a direct link to the void. -->
-  <Waking.activateGizmoDescription>فرستادن یک کلونیست برای بیدار کردن یکپارچه‌سنگ. اثر روانی آن تا صدها مایل قابل شناسایی خواهد بود و انواع وحشت‌ها را به خود جذب می‌کند. از آمادگی خود اطمینان حاصل کنید.
-
-پس از بیداری کامل، یکپارچه‌سنگ ارتباط مستقیمی با خلأ برقرار خواهد کرد.</Waking.activateGizmoDescription>
+  <!-- EN: Send a colonist to wake the monolith. The psychic signature will be detectable for hundreds of miles and attract all manner of horrors. Make sure you are prepared.\n\nOnce fully awakened, the monolith will provide a direct link to the void. -->
+  <Waking.activateGizmoDescription>فرستادن یک کلونیست برای بیدار کردن یکپارچه‌سنگ. اثر روانی آن تا صدها مایل قابل شناسایی خواهد بود و انواع وحشت‌ها را به خود جذب می‌کند. از آمادگی خود اطمینان حاصل کنید.\n\nپس از بیداری کامل، یکپارچه‌سنگ ارتباط مستقیمی با خلأ برقرار خواهد کرد.</Waking.activateGizmoDescription>
   <!-- EN: awaken -->
   <Waking.activateGizmoText>بیدار کردن</Waking.activateGizmoText>
   <!-- EN: Send a colonist to awaken the monolith. -->

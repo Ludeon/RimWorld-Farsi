@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: bliss lobotomy -->
@@ -10,12 +10,8 @@
   
   <!-- EN: ghoul infusion -->
   <GhoulInfusion.label>تزریق و دگرگونی به غول</GhoulInfusion.label>
-  <!-- EN: Infuse a living person with an archotech shard to create a terrifying creature known as a ghoul. Ghouls are ferocious melee fighters and are incapable of work. They eat raw meat to survive but never sleep. Hungry ghouls are dangerous.
-
-Ghouls created by this operation will be a part of your colony. -->
-  <GhoulInfusion.description>تزریق تکه آرکوتک به یک فرد زنده برای تبدیل او به موجودی هولناک به نام غول. غول‌ها مبارزان تن‌به‌تن درنده‌ای هستند و توانایی انجام کار ندارند. آن‌ها برای بقا گوشت خام می‌خورند اما هرگز نمی‌خوابند. غول‌های گرسنه خطرناکند.
-
-غول‌های ایجاد شده توسط این عمل جزئی از کلونی شما خواهند بود.</GhoulInfusion.description>
+  <!-- EN: Infuse a living person with an archotech shard to create a terrifying creature known as a ghoul. Ghouls are ferocious melee fighters and are incapable of work. They eat raw meat to survive but never sleep. Hungry ghouls are dangerous.\n\nGhouls created by this operation will be a part of your colony. -->
+  <GhoulInfusion.description>تزریق تکه آرکوتک به یک فرد زنده برای تبدیل او به موجودی هولناک به نام غول. غول‌ها مبارزان تن‌به‌تن درنده‌ای هستند و توانایی انجام کار ندارند. آن‌ها برای بقا گوشت خام می‌خورند اما هرگز نمی‌خوابند. غول‌های گرسنه خطرناکند.\n\nغول‌های ایجاد شده توسط این عمل جزئی از کلونی شما خواهند بود.</GhoulInfusion.description>
   <!-- EN: Ghoulizing TargetA. -->
   <GhoulInfusion.jobString>در حال تبدیل TargetA به غول.</GhoulInfusion.jobString>
   

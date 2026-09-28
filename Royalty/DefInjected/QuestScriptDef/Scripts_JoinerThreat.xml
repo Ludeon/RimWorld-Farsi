@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -94,8 +94,8 @@
   <ThreatReward_Manhunters_Joiner.questDescriptionRules.rulesStrings>
     <li>questDescription(animalCount==1)->[introduction] به نام [joiner_nameDef] از همین نزدیکی تماس می گیرد. [joiner_pronoun] می‌گوید (*Threat)a manhunting [animalKind_label](/Threat) در حال شکار [joiner_objective] است!\n\n[joiner_pronoun] برای ایمنی التماس می‌کند و پیشنهاد می‌کند در [map_definite].[joiner_relationInfo] به شما بپیوندد\n\nاگر [joiner_nameDef] را بپذیرید، [animalKind_label]، [animalKind_label]، [animalKind_label]، [animalKind_label]، [animalKind_label] فرانک1 نیز خواهد بود. برای ارائه اطلاعات بیشتر</li>
     <li>manhunterArrivalLetterEnd(animalCount==1)->[animalKind_label] در حال تعقیب [joiner_nameDef] است.</li>
-<li>questDescription(animalCount>=2)->[introduction] به نام [joiner_nameDef] از همین نزدیکی تماس می گیرد. [joiner_pronoun] می‌گوید بسته (*Threat)a از [animalCount] شکار انسان [animalKind_labelPlural](/Threat) در حال شکار [joiner_objective] هستند!\n\n[joiner_pronoun] برای ایمنی درخواست می‌کند و پیشنهاد می‌کند در [map_definite].[joiner_relationInfo] به شما بپیوندد\n\nاگر [joiner_nameDef] را بپذیرید، [animalKind_labelPlural] شکار انسان را دنبال می‌کند [manhuntersDelayTicks_duration].\n\n[joiner_nameDef] برای ارائه اطلاعات بیشتر بسیار عصبانی است.</li>
-<li>manhunterArrivalLetterEnd(animalCount>=2)->[animalKind_labelPlural] در حال تعقیب [joiner_nameDef] هستند.</li>
+    <li>questDescription(animalCount>=2)->[introduction] به نام [joiner_nameDef] از همین نزدیکی تماس می گیرد. [joiner_pronoun] می‌گوید بسته (*Threat)a از [animalCount] شکار انسان [animalKind_labelPlural](/Threat) در حال شکار [joiner_objective] هستند!\n\n[joiner_pronoun] برای ایمنی درخواست می‌کند و پیشنهاد می‌کند در [map_definite].[joiner_relationInfo] به شما بپیوندد\n\nاگر [joiner_nameDef] را بپذیرید، [animalKind_labelPlural] شکار انسان را دنبال می‌کند [manhuntersDelayTicks_duration].\n\n[joiner_nameDef] برای ارائه اطلاعات بیشتر بسیار عصبانی است.</li>
+    <li>manhunterArrivalLetterEnd(animalCount>=2)->[animalKind_labelPlural] در حال تعقیب [joiner_nameDef] هستند.</li>
     <li>introduction(childCount==1,priority=1)->یک کودک [joiner_age] ساله</li>
     <li>introduction->یک [joiner_age] ساله [joiner_title]</li>
   </ThreatReward_Manhunters_Joiner.questDescriptionRules.rulesStrings>
@@ -111,9 +111,9 @@
     <li>questName(animalCount==1)->[joiner_nameDef] [animalKind_label]</li>
     <li>questName(animalCount==1)->[joiner_nameDef] و [animalKind_label]</li>
     <li>questName(animalCount==1)->[animalKind_label] و [joiner_nameDef]</li>
-<li>questName(animalCount>=2)->[joiner_nameDef]'s [animalKind_labelPlural]</li>
-<li>questName(animalCount>=2)->[joiner_nameDef] و [animalKind_labelPlural]</li>
-<li>questName(animalCount>=2)->[animalKind_labelPlural] و [joiner_nameDef]</li>
+    <li>questName(animalCount>=2)->[joiner_nameDef]'s [animalKind_labelPlural]</li>
+    <li>questName(animalCount>=2)->[joiner_nameDef] و [animalKind_labelPlural]</li>
+    <li>questName(animalCount>=2)->[animalKind_labelPlural] و [joiner_nameDef]</li>
   </ThreatReward_Manhunters_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
   <ThreatReward_Manhunters_Joiner.LetterLabelChasing.slateRef>{BASELABEL}: تعقیب [joiner_nameDef]</ThreatReward_Manhunters_Joiner.LetterLabelChasing.slateRef>

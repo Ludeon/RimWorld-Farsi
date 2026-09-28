@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: acid spit -->
@@ -21,16 +21,8 @@
   
   <!-- EN: fleshmass heart -->
   <FleshmassHeart.label>قلب توده گوشتی</FleshmassHeart.label>
-  <!-- EN: The primary organ of a fleshmass infestation. The heart gathers material through roots extended into the ground. Once it has collected enough, it spreads fleshmass around itself in a spurt of cancer-like growth. It will keep growing until it consumes everything.
-
-The heart grows fleshmass spitters. These defensive organs can spit acid long distances. The heart will also generate fleshbeast defenders to protect itself.
-
-Ultra-rapid regeneration makes the heart nearly invulnerable. It can only be killed by analyzing samples taken from the nerve bundles that form within its growing mass. -->
-  <FleshmassHeart.description>اندام اصلی هجوم توده گوشتی. قلب از طریق ریشه‌های فرورفته در زمین مواد مغذی را جمع‌آوری می‌کند. پس از جذب مقدار کافی، با جهش‌هایی شبیه رشد سرطانی توده‌های گوشتی را به اطراف می‌گستراند. این رشد تا بلعیدن همه چیز ادامه خواهد یافت.
-
-قلب اندام‌های پرتاب‌کننده اسید ایجاد می‌کند که اسید را تا مسافت‌های دور پرتاب می‌کنند. قلب همچنین محافظانی از گوشت‌هیولا برای دفاع از خود پدید می‌آورد.
-
-بازسازی مافوق‌سریع قلب را تقریباً نفوذناپذیر می‌سازد. تنها با بررسی نمونه‌های بافت عصبی که درون توده رو به رشد شکل می‌گیرند، می‌توان راه نابودی قلب را یافت.</FleshmassHeart.description>
+  <!-- EN: The primary organ of a fleshmass infestation. The heart gathers material through roots extended into the ground. Once it has collected enough, it spreads fleshmass around itself in a spurt of cancer-like growth. It will keep growing until it consumes everything.\n\nThe heart grows fleshmass spitters. These defensive organs can spit acid long distances. The heart will also generate fleshbeast defenders to protect itself.\n\nUltra-rapid regeneration makes the heart nearly invulnerable. It can only be killed by analyzing samples taken from the nerve bundles that form within its growing mass. -->
+  <FleshmassHeart.description>اندام اصلی هجوم توده گوشتی. قلب از طریق ریشه‌های فرورفته در زمین مواد مغذی را جمع‌آوری می‌کند. پس از جذب مقدار کافی، با جهش‌هایی شبیه رشد سرطانی توده‌های گوشتی را به اطراف می‌گستراند. این رشد تا بلعیدن همه چیز ادامه خواهد یافت.\n\nقلب اندام‌های پرتاب‌کننده اسید ایجاد می‌کند که اسید را تا مسافت‌های دور پرتاب می‌کنند. قلب همچنین محافظانی از گوشت‌هیولا برای دفاع از خود پدید می‌آورد.\n\nبازسازی مافوق‌سریع قلب را تقریباً نفوذناپذیر می‌سازد. تنها با بررسی نمونه‌های بافت عصبی که درون توده رو به رشد شکل می‌گیرند، می‌توان راه نابودی قلب را یافت.</FleshmassHeart.description>
   <!-- EN: Use electrical pulses to induce a tachycardiac overload and kill the fleshmass heart. -->
   <FleshmassHeart.comps.CompDestroyHeart.activateDescString>از پالس‌های الکتریکی برای القای اضافه‌بار قلبی و از پای درآوردن قلب توده گوشتی استفاده کنید.</FleshmassHeart.comps.CompDestroyHeart.activateDescString>
   <!-- EN: Induce tachycardiac death... -->
@@ -50,12 +42,8 @@ Ultra-rapid regeneration makes the heart nearly invulnerable. It can only be kil
   <FleshmassHeartSpawner.description>چیزی در حال سر برآوردن از دل زمین است.</FleshmassHeartSpawner.description>
   <!-- EN: Fleshmass heart -->
   <FleshmassHeartSpawner.building.groundSpawnerLetterLabel>قلب توده گوشتی</FleshmassHeartSpawner.building.groundSpawnerLetterLabel>
-  <!-- EN: A fleshmass heart has emerged! This cancer-like creature will expand its living mass across the surface.
-
-The heart itself is invulnerable to normal weapons. Fleshmass nerve bundles will soon appear - attack them to gather samples and find a way to kill the heart. -->
-  <FleshmassHeartSpawner.building.groundSpawnerLetterText>یک قلب توده گوشتی پدیدار شده است! این موجود سرطانی بافت زنده خود را بر سطح زمین گسترش خواهد داد.
-
-خود قلب در برابر سلاح‌های عادی آسیب‌ناپذیر است. دسته‌های عصبی توده گوشتی به زودی پدیدار می‌شوند - به آن‌ها حمله کنید تا نمونه‌ها را جمع‌آوری کرده و راه کشتن قلب را پیدا کنید.</FleshmassHeartSpawner.building.groundSpawnerLetterText>
+  <!-- EN: A fleshmass heart has emerged! This cancer-like creature will expand its living mass across the surface.\n\nThe heart itself is invulnerable to normal weapons. Fleshmass nerve bundles will soon appear - attack them to gather samples and find a way to kill the heart. -->
+  <FleshmassHeartSpawner.building.groundSpawnerLetterText>یک قلب توده گوشتی پدیدار شده است! این موجود سرطانی بافت زنده خود را بر سطح زمین گسترش خواهد داد.\n\nخود قلب در برابر سلاح‌های عادی آسیب‌ناپذیر است. دسته‌های عصبی توده گوشتی به زودی پدیدار می‌شوند - به آن‌ها حمله کنید تا نمونه‌ها را جمع‌آوری کرده و راه کشتن قلب را پیدا کنید.</FleshmassHeartSpawner.building.groundSpawnerLetterText>
   
   <!-- EN: fleshmass spitter -->
   <FleshmassSpitter.label>اسیدپاش توده گوشتی</FleshmassSpitter.label>

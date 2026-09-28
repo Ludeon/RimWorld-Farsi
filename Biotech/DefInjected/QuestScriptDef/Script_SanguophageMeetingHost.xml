@@ -26,7 +26,7 @@
   <SanguophageMeetingHost.questDescriptionRules.rulesStrings>
     <li>questDescription->یک سانگووفاژ به نام [asker_nameDef] به دنبال مکانی امن برای ملاقات با [sanguophageCountMinusOne] دیگر [sanguophageSingOrPlural] است که در آن ردیابی نشوند. رهبر آنها [asker_nameDef] از شما می‌خواهد که میزبان جلسه در [map_definite] باشید.\n\nاگر قبول کنید، سانگووفاژهای [sanguophageCount] از جهات مختلف به [map_definite] می‌رسند. آنها قبل از عزیمت چندین ساعت را صرف بحث در مورد مسائل مخفی خود می کنند. آنها قول می دهند قبل از رفتن به شما پاداش بدهند.\n\nشما ممکن است به سنگوفاژها خیانت کنید و به آنها حمله کنید. سانگووفاژهای ساقط شده می توانند مجبور شوند یکی از مستعمره نشینان خود را به سانگووفاژ تبدیل کنند.\n\n[sanguophageInfo]</li>
     <li>sanguophageSingOrPlural(sanguophageCountMinusOne==1)->سانگووفاژ</li>
-<li>sanguophageSingOrPlural(sanguophageCountMinusOne>=2)->سانگووفاژ</li>
+    <li>sanguophageSingOrPlural(sanguophageCountMinusOne>=2)->سانگووفاژ</li>
     <li>sanguophageInfo->(*Gray)درباره سانگووفاژها: سانگووفاژها ابرانسانهای بی پیر و بی مرگی هستند که توسط آرشیت های ایجاد شده توسط آرکوتک در جریان خون نیرو می گیرند. آنها زیبا و فوق العاده باهوش هستند. آنها می توانند هر جراحتی را التیام بخشند و هرگز از بیماری یا سم رنج نمی برند. در نبرد، آنها می توانند خارهای مرگبار را پرتاب کنند و دوستان مجروح را شفا دهند. قیمت این است که سانگووفاژها برای زنده ماندن باید هموژن مشتق شده از خون انسان را مصرف کنند و باید به طور دوره‌ای برای مدت طولانی در حالت استراحت باشند. آنها به راحتی توسط آتش از بین می روند، و با نور UV کند می شوند.(/Gray)</li>
   </SanguophageMeetingHost.questDescriptionRules.rulesStrings>
   <!-- EN:

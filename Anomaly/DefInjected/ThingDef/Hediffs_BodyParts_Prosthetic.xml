@@ -1,50 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: adrenal heart -->
   <AdrenalHeart.label>قلب آدرنال</AdrenalHeart.label>
-  <!-- EN: A special bioferrite prosthetic that allows a ghoul to saturate its bloodstream with stress hormones and liquid energy. The ghoul will move and attack at incredible speeds for a short amount of time. The prosthetic slightly increases the ghoul's metabolism, causing it to eat more.
-
-Due to the extremely painful nature of the prosthetic, only ghouls can tolerate this enhancement. -->
-  <AdrenalHeart.description>یک پروتز بیوفریت ویژه که به غول اجازه می‌دهد جریان خون خود را با هورمون‌های استرس و انرژی مایع اشباع کند. غول برای مدتی کوتاه با سرعتی باورنکردنی حرکت و حمله خواهد کرد. این اندام مصنوعی سوخت‌وساز غول را اندکی افزایش داده و باعث می‌شود بیشتر غذا بخورد.
-
-به دلیل ماهیت به شدت دردناک، تنها غول‌ها می‌توانند این ارتقا را تحمل کنند.</AdrenalHeart.description>
+  <!-- EN: A special bioferrite prosthetic that allows a ghoul to saturate its bloodstream with stress hormones and liquid energy. The ghoul will move and attack at incredible speeds for a short amount of time. The prosthetic slightly increases the ghoul's metabolism, causing it to eat more.\n\nDue to the extremely painful nature of the prosthetic, only ghouls can tolerate this enhancement. -->
+  <AdrenalHeart.description>یک پروتز بیوفریت ویژه که به غول اجازه می‌دهد جریان خون خود را با هورمون‌های استرس و انرژی مایع اشباع کند. غول برای مدتی کوتاه با سرعتی باورنکردنی حرکت و حمله خواهد کرد. این اندام مصنوعی سوخت‌وساز غول را اندکی افزایش داده و باعث می‌شود بیشتر غذا بخورد.\n\nبه دلیل ماهیت به شدت دردناک، تنها غول‌ها می‌توانند این ارتقا را تحمل کنند.</AdrenalHeart.description>
   
   <!-- EN: corrosive heart -->
   <CorrosiveHeart.label>قلب خورنده</CorrosiveHeart.label>
-  <!-- EN: A special bioferrite prosthetic that allows the ghoul to spray a corrosive fluid. The prosthetic repurposes a chamber of the ghoul's heart to create a strong acid, which can be projected from the ghoul's mouth.
-
-Due to the extremely painful nature of the prosthetic, only ghouls can tolerate this enhancement. -->
-  <CorrosiveHeart.description>یک پروتز بیوفریت ویژه که به غول امکان پاشیدن مایع خورنده اسیدی می‌دهد. این پروتز یکی از حفره‌های قلب غول را برای تولید اسیدی قوی تغییر کاربری می‌دهد که می‌تواند از دهان غول به بیرون پرتاب شود.
-
-به دلیل ماهیت به شدت دردناک، تنها غول‌ها می‌توانند این ارتقا را تحمل کنند.</CorrosiveHeart.description>
+  <!-- EN: A special bioferrite prosthetic that allows the ghoul to spray a corrosive fluid. The prosthetic repurposes a chamber of the ghoul's heart to create a strong acid, which can be projected from the ghoul's mouth.\n\nDue to the extremely painful nature of the prosthetic, only ghouls can tolerate this enhancement. -->
+  <CorrosiveHeart.description>یک پروتز بیوفریت ویژه که به غول امکان پاشیدن مایع خورنده اسیدی می‌دهد. این پروتز یکی از حفره‌های قلب غول را برای تولید اسیدی قوی تغییر کاربری می‌دهد که می‌تواند از دهان غول به بیرون پرتاب شود.\n\nبه دلیل ماهیت به شدت دردناک، تنها غول‌ها می‌توانند این ارتقا را تحمل کنند.</CorrosiveHeart.description>
   
   <!-- EN: ghoul barbs -->
   <GhoulBarbs.label>خارهای غول</GhoulBarbs.label>
-  <!-- EN: A number of barbed bioferrite spikes that can be surgically attached to a ghoul. They drastically increase a ghoul's melee damage but also limit its range of motion, slowing it down.
-
-Due to the extremely painful nature of the prosthetic, only ghouls can tolerate this enhancement. -->
-  <GhoulBarbs.description>تعدادی تیغ خاردار از جنس بیوفریت که می‌توان آن‌ها را با جراحی به غول وصل کرد. این خارها آسیب نبرد تن‌به‌تن غول را به شدت بالا می‌برند اما دامنه حرکتی‌اش را محدود کرده و سرعتش را کاهش می‌دهند.
-
-به دلیل درد شدید، تنها غول‌ها تحمل این ارتقا را دارند.</GhoulBarbs.description>
+  <!-- EN: A number of barbed bioferrite spikes that can be surgically attached to a ghoul. They drastically increase a ghoul's melee damage but also limit its range of motion, slowing it down.\n\nDue to the extremely painful nature of the prosthetic, only ghouls can tolerate this enhancement. -->
+  <GhoulBarbs.description>تعدادی تیغ خاردار از جنس بیوفریت که می‌توان آن‌ها را با جراحی به غول وصل کرد. این خارها آسیب نبرد تن‌به‌تن غول را به شدت بالا می‌برند اما دامنه حرکتی‌اش را محدود کرده و سرعتش را کاهش می‌دهند.\n\nبه دلیل درد شدید، تنها غول‌ها تحمل این ارتقا را دارند.</GhoulBarbs.description>
   
   <!-- EN: ghoul plating -->
   <GhoulPlating.label>زره‌پوش غول</GhoulPlating.label>
-  <!-- EN: Bioferrite plates that can be surgically attached to a ghoul, protecting vulnerable areas. The plates will reduce incoming damage significantly but also slow the ghoul down.
-
-Due to the extremely painful nature of the prosthetic, only ghouls can tolerate this enhancement. -->
-  <GhoulPlating.description>صفحات بیوفریت که می‌توان با جراحی به بدن غول متصل کرد تا از نواحی آسیب‌پذیر محافظت نماید. این صفحات آسیب دریافتی را تا حد زیادی کاهش می‌دهند اما غول را کندتر می‌کنند.
-
-به دلیل ماهیت فوق‌العاده دردناک، تنها غول‌ها تحمل این پروتز را دارند.</GhoulPlating.description>
+  <!-- EN: Bioferrite plates that can be surgically attached to a ghoul, protecting vulnerable areas. The plates will reduce incoming damage significantly but also slow the ghoul down.\n\nDue to the extremely painful nature of the prosthetic, only ghouls can tolerate this enhancement. -->
+  <GhoulPlating.description>صفحات بیوفریت که می‌توان با جراحی به بدن غول متصل کرد تا از نواحی آسیب‌پذیر محافظت نماید. این صفحات آسیب دریافتی را تا حد زیادی کاهش می‌دهند اما غول را کندتر می‌کنند.\n\nبه دلیل ماهیت فوق‌العاده دردناک، تنها غول‌ها تحمل این پروتز را دارند.</GhoulPlating.description>
   
   <!-- EN: metalblood heart -->
   <MetalbloodHeart.label>قلب فلزخون</MetalbloodHeart.label>
-  <!-- EN: A special bioferrite prosthetic that can pump a small amount of metalblood into a ghoul's bloodstream, making it more resistant to damage for a short period of time. Metalblood also makes the ghoul more vulnerable to fire. The prosthetic causes widespread swelling, slowing the ghoul down.
-
-Due to the extremely painful nature of the prosthetic, only ghouls can tolerate this enhancement. -->
-  <MetalbloodHeart.description>یک اندام مصنوعی بیوفریت ویژه که می‌تواند مقدار کمی فلزخون را به جریان خون غول پمپاژ کند و آن را برای مدتی کوتاه در برابر آسیب مقاوم‌تر سازد. فلزخون همچنین غول را در برابر آتش آسیب‌پذیرتر می‌کند. این پروتز موجب تورم گسترده شده و غول را کند می‌کند.
-
-تنها غول‌ها می‌توانند این ارتقا را تحمل کنند.</MetalbloodHeart.description>
+  <!-- EN: A special bioferrite prosthetic that can pump a small amount of metalblood into a ghoul's bloodstream, making it more resistant to damage for a short period of time. Metalblood also makes the ghoul more vulnerable to fire. The prosthetic causes widespread swelling, slowing the ghoul down.\n\nDue to the extremely painful nature of the prosthetic, only ghouls can tolerate this enhancement. -->
+  <MetalbloodHeart.description>یک اندام مصنوعی بیوفریت ویژه که می‌تواند مقدار کمی فلزخون را به جریان خون غول پمپاژ کند و آن را برای مدتی کوتاه در برابر آسیب مقاوم‌تر سازد. فلزخون همچنین غول را در برابر آتش آسیب‌پذیرتر می‌کند. این پروتز موجب تورم گسترده شده و غول را کند می‌کند.\n\nتنها غول‌ها می‌توانند این ارتقا را تحمل کنند.</MetalbloodHeart.description>
   
   <!-- EN: revenant vertebrae -->
   <RevenantVertebrae.label>مهره‌های روونانت</RevenantVertebrae.label>

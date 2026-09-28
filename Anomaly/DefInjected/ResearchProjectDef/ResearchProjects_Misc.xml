@@ -1,13 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: security door -->
   <SecurityDoor.label>درب امنیتی</SecurityDoor.label>
-  <!-- EN: Build heavy reinforced security doors to contain dangerous entities. -->
+  <!-- EN: Build a heavily reinforced door. It is slow to open and requires power, but is very strong. It's a good choice if you want to keep something dangerous out - or in. -->
   <SecurityDoor.description>ساخت درب‌های امنیتی تقویت‌شده و سنگین برای مهار موجودات خطرناک ناهنجار.</SecurityDoor.description>
   <!-- EN:
-    <li>subject->security doors</li>
-    <li>subject_story->built containment cells for hazardous anomalies</li>
+    <li>subject->security door</li>
+    <li>subject_story->worked as a security drone in a sealed research facility</li>
+    <li>subject_story->engineered security devices for a stellar trader</li>
+    <li>subject_story->researched materials science for a mercenary firm</li>
+    <li>subject_story->worked in a Glitterworld zoo</li>
+    <li>subject_gerund->constructing security doors</li>
   -->
   <SecurityDoor.generalRules.rulesStrings>
     <li>subject->درب‌های امنیتی</li>
@@ -16,11 +20,15 @@
   
   <!-- EN: turret pack -->
   <TurretPack.label>بسته برجک قابل حمل</TurretPack.label>
-  <!-- EN: Craft wearable turret packs that can deploy a temporary micro-turret. -->
+  <!-- EN: Build a wearable pack that allows the user to deploy a battery-powered turret. -->
   <TurretPack.description>ساخت بسته‌های برجک پوشیدنی که می‌توانند یک میکروبرجک موقت مستقر کنند.</TurretPack.description>
   <!-- EN:
-    <li>subject->turret pack</li>
-    <li>subject_story->designed portable micro-defenses for hazardous expeditions</li>
+    <li>subject->deployable turrets</li>
+    <li>subject_story->defended a feralworld castle from assault</li>
+    <li>subject_story->manned a tailgun on an Imperial dropship</li>
+    <li>subject_story->researched deployable military technology</li>
+    <li>subject_story->fought in the trench battles of the [worldname] War</li>
+    <li>subject_gerund->crafting deployable gun turrets</li>
   -->
   <TurretPack.generalRules.rulesStrings>
     <li>subject->بسته برجک</li>

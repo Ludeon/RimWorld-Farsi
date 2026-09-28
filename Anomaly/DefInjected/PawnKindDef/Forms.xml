@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: blind healer -->
@@ -12,12 +12,8 @@
   <CreepDrifter.label>سرگردان</CreepDrifter.label>
   <!-- EN: A visitor is approaching the colony. -->
   <CreepDrifter.letterLabel>یک بازدیدکننده در حال نزدیک شدن به کلونی است.</CreepDrifter.letterLabel>
-  <!-- EN: The weary-looking drifter stretches {PAWN_possessive} legs. {PAWN_pronoun} seems very tired.
-
-{PAWN_pronoun} asks to stay in your colony for a while - at least until {PAWN_pronoun} has recovered {PAWN_possessive} strength. -->
-  <CreepDrifter.letterPrompt>سرگردان خسته‌نما پاهای {PAWN_possessive} را می‌کشد. {PAWN_pronoun} به نظر بسیار خسته است.
-
-{PAWN_pronoun} می‌خواهد مدتی در کلونی شما بماند - حداقل تا زمانی که {PAWN_pronoun} توان خود را بازیابد.</CreepDrifter.letterPrompt>
+  <!-- EN: The weary-looking drifter stretches {PAWN_possessive} legs. {PAWN_pronoun} seems very tired.\n\n{PAWN_pronoun} asks to stay in your colony for a while - at least until {PAWN_pronoun} has recovered {PAWN_possessive} strength. -->
+  <CreepDrifter.letterPrompt>سرگردان خسته‌نما پاهای {PAWN_possessive} را می‌کشد. {PAWN_pronoun} به نظر بسیار خسته است.\n\n{PAWN_pronoun} می‌خواهد مدتی در کلونی شما بماند - حداقل تا زمانی که {PAWN_pronoun} توان خود را بازیابد.</CreepDrifter.letterPrompt>
   
   <!-- EN: cult escapee -->
   <CultEscapee.label>فراری از فرقه</CultEscapee.label>
@@ -30,23 +26,15 @@
   <DarkScholar.label>دانشمند تاریک</DarkScholar.label>
   <!-- EN: A dark scholar covered with twisted scars is approaching the colony. -->
   <DarkScholar.letterLabel>دانشمندی تاریک پوشیده از زخم‌های پیچ‌خورده در حال نزدیک شدن به کلونی است.</DarkScholar.letterLabel>
-  <!-- EN: The dark scholar slouches in place, lifeless and silent. Only {PAWN_possessive} eyes seem alive, as if {PAWN_pronoun} could look inside you.
-
-{PAWN_pronoun} says that this is where {PAWN_pronoun} belongs and asks to stay for a while. {PAWN_possessive} tone indicates that {PAWN_pronoun} will not take 'no' for an answer. -->
-  <DarkScholar.letterPrompt>دانشمند تاریک بی‌رمق و خاموش در جای خود خمیده است. تنها چشمان او زنده به نظر می‌رسند، گویی به ژرفای درون شما می‌نگرد.
-
-او می‌گوید جایگاهش اینجاست و درخواست می‌کند مدتی بماند. لحن کلامش نشان می‌دهد که پاسخی جز «بله» نخواهد پذیرفت.</DarkScholar.letterPrompt>
+  <!-- EN: The dark scholar slouches in place, lifeless and silent. Only {PAWN_possessive} eyes seem alive, as if {PAWN_pronoun} could look inside you.\n\n{PAWN_pronoun} says that this is where {PAWN_pronoun} belongs and asks to stay for a while. {PAWN_possessive} tone indicates that {PAWN_pronoun} will not take 'no' for an answer. -->
+  <DarkScholar.letterPrompt>دانشمند تاریک بی‌رمق و خاموش در جای خود خمیده است. تنها چشمان او زنده به نظر می‌رسند، گویی به ژرفای درون شما می‌نگرد.\n\nاو می‌گوید جایگاهش اینجاست و درخواست می‌کند مدتی بماند. لحن کلامش نشان می‌دهد که پاسخی جز «بله» نخواهد پذیرفت.</DarkScholar.letterPrompt>
   
   <!-- EN: deal maker -->
   <DealMaker.label>معامله‌گر</DealMaker.label>
   <!-- EN: A stunningly good-looking stranger is approaching the colony. -->
   <DealMaker.letterLabel>غریبه‌ای به طرز خیره‌کننده‌ای خوش‌سیما در حال نزدیک شدن به کلونی است.</DealMaker.letterLabel>
-  <!-- EN: A stunningly good-looking stranger stands in front of you. {PAWN_possessive} face beams with confidence as {PAWN_pronoun} opens {PAWN_possessive} hands in a gesture of fellowship.
-
-{PAWN_pronoun} says {PAWN_pronoun} is here to make a deal and will help you in exchange for simple hospitality. This is {PAWN_possessive} purpose and {PAWN_pronoun} always fulfills {PAWN_possessive} purpose. -->
-  <DealMaker.letterPrompt>غریبه‌ای فوق‌العاده جذاب روبروی شما ایستاده است. چهره‌اش از اعتماد به نفس می‌درخشد و دستانش را به نشانه دوستی می‌گشاید.
-
-او می‌گوید برای انجام معامله‌ای آمده و در ازای مهمان‌نوازی ساده به شما کمک خواهد کرد. این هدف اوست و او همواره رسالتش را به انجام می‌رساند.</DealMaker.letterPrompt>
+  <!-- EN: A stunningly good-looking stranger stands in front of you. {PAWN_possessive} face beams with confidence as {PAWN_pronoun} opens {PAWN_possessive} hands in a gesture of fellowship.\n\n{PAWN_pronoun} says {PAWN_pronoun} is here to make a deal and will help you in exchange for simple hospitality. This is {PAWN_possessive} purpose and {PAWN_pronoun} always fulfills {PAWN_possessive} purpose. -->
+  <DealMaker.letterPrompt>غریبه‌ای فوق‌العاده جذاب روبروی شما ایستاده است. چهره‌اش از اعتماد به نفس می‌درخشد و دستانش را به نشانه دوستی می‌گشاید.\n\nاو می‌گوید برای انجام معامله‌ای آمده و در ازای مهمان‌نوازی ساده به شما کمک خواهد کرد. این هدف اوست و او همواره رسالتش را به انجام می‌رساند.</DealMaker.letterPrompt>
   
   <!-- EN: leathery stranger -->
   <LeatheryStranger.label>غریبه چرمین‌پوست</LeatheryStranger.label>

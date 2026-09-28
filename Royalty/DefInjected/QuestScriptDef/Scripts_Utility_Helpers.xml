@@ -14,7 +14,8 @@
     <li>helpersIsAre(helpersCount==1)->is</li>
     <li>helpersIsAre(helpersCount>=2)->are</li>
   -->
-  <Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings><li>helpersParagraph(helpersCount==0)-></li>
+  <Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
+    <li>helpersParagraph(helpersCount==0)-></li>
     <li>helpersParagraph(helpersCount==1)->\n\nیک [helperKind_label] تحت کنترل شما قرار خواهد گرفت. شما باید [helpers0_objective] را تغذیه و خانه کنید، اما [helpers0_pronoun] ممکن است بدون عواقب در جنگ بمیرد.\n\n</li>
     <li>helpersParagraph(helpersCount>=2)->\n\n[helpersCount] [helperKind_labelPlural] تحت کنترل شما قرار خواهد گرفت. شما باید به آنها غذا بدهید و در خانه نگهداری کنید، اما آنها ممکن است بدون عواقب در جنگ بمیرند.\n\n</li>
     <li>helpersArrivalLetterEnd(helpersCount==0)-></li>
@@ -24,7 +25,8 @@
     <li>helpersHasHave(helpersCount==1)->دارای</li>
     <li>helpersHasHave(helpersCount>=2)->دارند</li>
     <li>helpersIsAre(helpersCount==1)->است</li>
-    <li>helpersIsAre(helpersCount>=2)->هستند</li></Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
+    <li>helpersIsAre(helpersCount>=2)->هستند</li>
+  </Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
   <!-- EN: [helpersLabelSingOrPlural] arrived -->
   <Util_MaybeGenerateHelpers.LetterLabelHelpersArrived.value.slateRef>[helpersLabelSingOrPlural] رسید</Util_MaybeGenerateHelpers.LetterLabelHelpersArrived.value.slateRef>
   <!-- EN: The [helpersLabelSingOrPlural] sent by [asker_nameDef] [helpersHasHave] arrived to aid you with the quest '[resolvedQuestName]'. -->

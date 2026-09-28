@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -24,7 +24,8 @@
     <li>ofThing->Eternity</li>
     <li>ofThing->the Spirit</li>
   -->
-  <NamerFactionEmpire.rulePack.rulesStrings><li>r_name(p=2)->[empire] [ofThing]</li>
+  <NamerFactionEmpire.rulePack.rulesStrings>
+    <li>r_name(p=2)->[empire] [ofThing]</li>
     <li>r_name(p=2)->[empire] [ofThing]</li>
     <li>r_name->[empire] هجرت</li>
     <li>r_name->[empire] پناهندگان</li>
@@ -44,25 +45,30 @@
     <li>ofThing->خدا</li>
     <li>ofThing->کمال</li>
     <li>ofThing->ابدیت</li>
-    <li>ofThing->روح</li></NamerFactionEmpire.rulePack.rulesStrings>
+    <li>ofThing->روح</li>
+  </NamerFactionEmpire.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=3)->[ImperialNameFirstMale] [ImperialNameLast]</li>
     <li>r_name(p=2)->[ImperialNameFirstMale] [WordImperial]</li>
     <li>r_name(p=2)->[WordImperial] [WordImperial]</li>
   -->
-  <NamerPersonSophian.rulePack.rulesStrings><li>r_name(p=3)->[ImperialNameFirstMale] [ImperialNameLast]</li>
+  <NamerPersonSophian.rulePack.rulesStrings>
+    <li>r_name(p=3)->[ImperialNameFirstMale] [ImperialNameLast]</li>
     <li>r_name(p=2)->[ImperialNameFirstMale] [WordImperial]</li>
-    <li>r_name(p=2)->[WordImperial] [WordImperial]</li></NamerPersonSophian.rulePack.rulesStrings>
+    <li>r_name(p=2)->[WordImperial] [WordImperial]</li>
+  </NamerPersonSophian.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=3)->[ImperialNameFirstFemale] [ImperialNameLast]</li>
     <li>r_name(p=2)->[ImperialNameFirstFemale] [WordImperial]</li>
     <li>r_name(p=2)->[WordImperial] [WordImperial]</li>
   -->
-  <NamerPersonSophianFemale.rulePack.rulesStrings><li>r_name(p=3)->[ImperialNameFirstFemale] [ImperialNameLast]</li>
+  <NamerPersonSophianFemale.rulePack.rulesStrings>
+    <li>r_name(p=3)->[ImperialNameFirstFemale] [ImperialNameLast]</li>
     <li>r_name(p=2)->[ImperialNameFirstFemale] [WordImperial]</li>
-    <li>r_name(p=2)->[WordImperial] [WordImperial]</li></NamerPersonSophianFemale.rulePack.rulesStrings>
+    <li>r_name(p=2)->[WordImperial] [WordImperial]</li>
+  </NamerPersonSophianFemale.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[townname_wordgen]</li>
@@ -90,7 +96,8 @@
     <li>townend->am</li>
     <li>townend->aeum</li>
   -->
-  <NamerSettlementEmpire.rulePack.rulesStrings><li>r_name->[townname_wordgen]</li>
+  <NamerSettlementEmpire.rulePack.rulesStrings>
+    <li>r_name->[townname_wordgen]</li>
     <li>r_name->[townname_fixed]</li>
     <li>townname_wordgen->[WordImperial]</li>
     <li>townname_wordgen->[WordImperial][townend]</li>
@@ -113,6 +120,7 @@
     <li>townend->aeum</li>
     <li>townend->aetium</li>
     <li>townend->ام</li>
-    <li>townend->aeum</li></NamerSettlementEmpire.rulePack.rulesStrings>
+    <li>townend->aeum</li>
+  </NamerSettlementEmpire.rulePack.rulesStrings>
   
 </LanguageData>

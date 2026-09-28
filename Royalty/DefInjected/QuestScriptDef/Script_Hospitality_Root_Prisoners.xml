@@ -5,8 +5,10 @@
     <li>lodgersLabel->prisoner</li>
     <li>lodgersLabelPlural->prisoners</li>
   -->
-  <Hospitality_Prisoners.questDescriptionAndNameRules.rulesStrings><li>lodgersLabel->زندانی</li>
-    <li>lodgersLabelPlural->زندانی</li></Hospitality_Prisoners.questDescriptionAndNameRules.rulesStrings>
+  <Hospitality_Prisoners.questDescriptionAndNameRules.rulesStrings>
+    <li>lodgersLabel->زندانی</li>
+    <li>lodgersLabelPlural->زندانی</li>
+  </Hospitality_Prisoners.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>questDescription(askerIsNull==true,lodgersCount==1)->An orbiting ship captain wants you to guard a prisoner named [lodgers0_nameFull] at [map_definite] for [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] recently spat on the most loved child of [enemyFaction_leader_nameFull], [enemyFaction_leaderTitle] of [enemyFaction_name]. [enemyFaction_leader_nameDef] will send [enemyFaction_pawnsPlural] to seek revenge on any who would protect [lodgers0_objective]. [enemyGroupsParagraph]</li>
@@ -39,7 +41,8 @@
     <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==false)-></li>
   -->
-  <Hospitality_Prisoners.questDescriptionRules.rulesStrings><li>questDescription(askerIsNull==true,lodgersCount==1)->یک ناخدای کشتی در حال گردش از شما می خواهد که از زندانی به نام [lodgers0_nameFull] در [map_definite] برای [shuttleDelayTicks_duration] محافظت کنید. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
+  <Hospitality_Prisoners.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true,lodgersCount==1)->یک ناخدای کشتی در حال گردش از شما می خواهد که از زندانی به نام [lodgers0_nameFull] در [map_definite] برای [shuttleDelayTicks_duration] محافظت کنید. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] اخیراً روی دوست داشتنی‌ترین فرزند [enemyFaction_leader_nameFull]، [enemyFaction_leaderTitle] از [enemyFaction_name] تف کرده است. [enemyFaction_leader_nameDef] [enemyFaction_pawnsPlural] را می فرستد تا از هر کسی که از [lodgers0_objective] محافظت کند انتقام بگیرد. [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
@@ -68,7 +71,8 @@
     <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nمتاسفانه [enemyFaction_pawnsPlural] از [enemyFaction_name] به طاقچه‌ای که زندانیان از آن استخراج شده بودند احترام گذاشت. آنها یورش می فرستند تا از هر کسی که آنها را در دست دارد انتقام بگیرند. [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nمتاسفانه [enemyFaction_pawnsPlural] از [enemyFaction_name] از خزانه‌ای که زندانیان از آن بیرون آورده شده بودند محافظت می کرد. آنها مکانیسم هایی را برای شکار خواب های گم شده می فرستند. [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
-    <li>threatsInfo6(generateThreats==false)-></li></Hospitality_Prisoners.questDescriptionRules.rulesStrings>
+    <li>threatsInfo6(generateThreats==false)-></li>
+  </Hospitality_Prisoners.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Guarding for [asker_nameDef]</li>
     <li>questName(lodgersCount==1)->guarding [lodgers0_nameDef]</li>
@@ -85,7 +89,8 @@
     <li>adjAny->[AdjectiveAngsty]</li>
     <li>adjAny->[AdjectiveFriendly]</li>
   -->
-  <Hospitality_Prisoners.questNameRules.rulesStrings><li>questName->نگهبانی برای [asker_nameDef]</li>
+  <Hospitality_Prisoners.questNameRules.rulesStrings>
+    <li>questName->نگهبانی برای [asker_nameDef]</li>
     <li>questName(lodgersCount==1)->نگهبانی [lodgers0_nameDef]</li>
     <li>questName(lodgersCount==1)->زندانی [lodgers0_nameDef]</li>
     <li>questName(lodgersCount==1)->زندانی [adjAny]</li>
@@ -98,6 +103,7 @@
     <li>questName(lodgersCount>=2)->زندانیان [asker_nameDef]</li>
     <li>adjAny->[AdjectiveBadass]</li>
     <li>adjAny->[AdjectiveAngsty]</li>
-    <li>adjAny->[AdjectiveFriendly]</li></Hospitality_Prisoners.questNameRules.rulesStrings>
+    <li>adjAny->[AdjectiveFriendly]</li>
+  </Hospitality_Prisoners.questNameRules.rulesStrings>
   
 </LanguageData>

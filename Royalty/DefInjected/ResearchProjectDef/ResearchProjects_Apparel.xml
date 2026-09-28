@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: cataphract armor -->
@@ -12,11 +12,13 @@
     <li>subject_story->fought with the rebels and studied the armor of a captured cataphract</li>
     <li>subject_gerund->crafting cataphract armor</li>
   -->
-  <CataphractArmor.generalRules.rulesStrings><li>موضوع->زره کاتافراکت</li>
+  <CataphractArmor.generalRules.rulesStrings>
+    <li>موضوع->زره کاتافراکت</li>
     <li>subject_story->برای اولین بار زره معادل منجنیق [ANYPAWN_possessive] را به عنوان روشی برای کاوش آتشفشان های فعال توسعه داد</li>
     <li>subject_story-> مأمور تولید مجموعه‌های سفارشی زره‌های کاتافراکت برای مهمانی‌های شبانه‌روزی امپراتوری شد</li>
     <li>subject_story->با شورشیان جنگید و زره یک کاتافراکت دستگیر شده را مطالعه کرد</li>
-    <li>subject_gerund->ساخت زره کاتافراکت</li></CataphractArmor.generalRules.rulesStrings>
+    <li>subject_gerund->ساخت زره کاتافراکت</li>
+  </CataphractArmor.generalRules.rulesStrings>
   
   <!-- EN: gunlink -->
   <Gunlink.label>پیوند سلاح</Gunlink.label>
@@ -29,11 +31,13 @@
     <li>subject_story->bulk-purchased gunlinks for the snipers in the army, forbidding them to front-line soldiers</li>
     <li>subject_gerund->enhancing accuracy with gunlinks</li>
   -->
-  <Gunlink.generalRules.rulesStrings><li>موضوع->افزایش دقت</li>
+  <Gunlink.generalRules.rulesStrings>
+    <li>موضوع->افزایش دقت</li>
     <li>subject_story->ایمپلنت چشمی دنیای پر زرق و برق را به کامپیوتر هدف گیری عمومی‌تر تبدیل کرد</li>
     <li>subject_story->از عملکرد حلقه های اسلحه کارخانه خوشحال بود، اگرچه افزایش نرخ مرگ و میر به دلیل از دست دادن کلاه ایمنی نگران کننده بود</li>
     <li>subject_story->کلیدهای اسلحه برای تک تیراندازان ارتش خریداری شده و آنها را به سربازان خط مقدم منع می کند</li>
-    <li>subject_gerund->افزایش دقت با gunlinks</li></Gunlink.generalRules.rulesStrings>
+    <li>subject_gerund->افزایش دقت با gunlinks</li>
+  </Gunlink.generalRules.rulesStrings>
   
   <!-- EN: jump packs -->
   <JumpPack.label>بسته های پرش</JumpPack.label>
@@ -48,13 +52,15 @@
     <li>subject_gerund->performing aerial assaults</li>
     <li>subject_gerund->crafting jump packs</li>
   -->
-  <JumpPack.generalRules.rulesStrings><li>موضوع->پرش بسته</li>
+  <JumpPack.generalRules.rulesStrings>
+    <li>موضوع->پرش بسته</li>
     <li>subject->پرواز مسافت کوتاه</li>
-    <li>subject_story->پارک تفریحی را با تمرکز بر تجربیات شدید، از جمله دوره‌های نوازش بومرات و پرش</li> اداره کرد.
+    <li>subject_story->پارک تفریحی را با تمرکز بر تجربیات شدید، از جمله دوره‌های نوازش بومرات و پرش</li>
     <li>subject_story->تورهای کوهنوردی در سیارات کم جاذبه، که در آن بسته های پرش و ماسک اکسیژن اجباری بود برگزار شد</li>
-    <li>subject_story->دفاع برجک آموزش افسران را با حمله پرشی</li> دور زد
+    <li>subject_story->دفاع برجک آموزش افسران را با حمله پرشی</li>
     <li>subject_gerund->انجام حملات هوایی</li>
-    <li>subject_gerund->دستورالعمل پرش</li></JumpPack.generalRules.rulesStrings>
+    <li>subject_gerund->دستورالعمل پرش</li>
+  </JumpPack.generalRules.rulesStrings>
   
   <!-- EN: noble apparel -->
   <NobleApparel.label>لباس نجیب</NobleApparel.label>
@@ -69,13 +75,15 @@
     <li>subject_gerund->tailoring for the nobility</li>
     <li>subject_gerund->crafting noble apparel</li>
   -->
-  <NobleApparel.generalRules.rulesStrings><li>subject->لباس رسمی</li>
+  <NobleApparel.generalRules.rulesStrings>
+    <li>subject->لباس رسمی</li>
     <li>subject->لباس نجیب</li>
     <li>subject_story->دستگاه کرست رسمی برای فارغ التحصیلان دانشجویی urbworld</li>
     <li>subject_story->توسط یک خانه اشرافی برای شکل دادن به کلاه های بالای خود به کار گرفته شد</li>
     <li>subject_story->سبک جدیدی از کلاه را اختراع کرد که برای کل یک فصل مورد علاقه بود</li>
     <li>subject_gerund->خیاطی برای اشراف</li>
-    <li>subject_gerund->ساخت پوشاک نجیب</li></NobleApparel.generalRules.rulesStrings>
+    <li>subject_gerund->ساخت پوشاک نجیب</li>
+  </NobleApparel.generalRules.rulesStrings>
   
   <!-- EN: royal apparel -->
   <RoyalApparel.label>لباس سلطنتی</RoyalApparel.label>
@@ -89,11 +97,13 @@
     <li>subject_gerund->tailoring for monarchs</li>
     <li>subject_gerund->crafting royal apparel</li>
   -->
-  <RoyalApparel.generalRules.rulesStrings><li>subject->پوشاک سلطنتی</li>
+  <RoyalApparel.generalRules.rulesStrings>
+    <li>subject->پوشاک سلطنتی</li>
     <li>subject_story->یک سال تمام برای ساختن لباس سلطنتی برای تاجگذاری کار کرد</li>
     <li>subject_story->نیازهای هرالدریک گروه‌های نجیب مختلف را برای اطمینان از مناسب بودن لباس‌ها مطالعه کرد</li>
     <li>subject_story->به اشراف امپراتوری بزرگ شد و لباس و تاج خود را سفارش داد</li>
     <li>subject_gerund->خیاطی برای پادشاهان</li>
-    <li>subject_gerund->ساخت لباس سلطنتی</li></RoyalApparel.generalRules.rulesStrings>
+    <li>subject_gerund->ساخت لباس سلطنتی</li>
+  </RoyalApparel.generalRules.rulesStrings>
   
 </LanguageData>

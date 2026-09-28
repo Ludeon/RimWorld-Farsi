@@ -1,52 +1,64 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: call laborer gang -->
   <CallLaborerGang.label>فراخوانی دسته کارگری</CallLaborerGang.label>
+  <!-- EN: Call a group of 8 laborers to assist you for 4 days. These workers can only do general labor tasks. You can control them as though they were your own colonists. You are required to keep them safe. -->
   <CallLaborerGang.description>فراخوانی یک گروه ۸ نفره از کارگران برای کمک به شما به مدت ۴ روز. این کارگران فقط می‌توانند کارهای عمومی را انجام دهند. شما می‌توانید آنها را همانند کلونیست‌های خود کنترل کنید. شما موظفید امنیت آنها را حفظ کنید.</CallLaborerGang.description>
   
   <!-- EN: call laborer team -->
   <CallLaborerTeam.label>فراخوانی تیم کارگری</CallLaborerTeam.label>
+  <!-- EN: Call a group of 4 laborers to assist you for 4 days. These workers can only do general labor tasks. You can control them as though they were your own colonists. You are required to keep them safe. -->
   <CallLaborerTeam.description>فراخوانی یک گروه ۴ نفره از کارگران برای کمک به شما به مدت ۴ روز. این کارگران فقط می‌توانند کارهای عمومی را انجام دهند. شما می‌توانید آنها را مانند کلونیست‌های خود کنترل کنید.</CallLaborerTeam.description>
   
   <!-- EN: call cataphract squad -->
   <CallMilitaryAidGrand.label>فراخوانی جوخه کاتافراکت</CallMilitaryAidGrand.label>
+  <!-- EN: Call a group of 4 heavy cataphracts to aid you in battle. -->
   <CallMilitaryAidGrand.description>فراخوانی گروهی متشکل از ۴ کاتافراکت سنگین زره‌پوش برای کمک به شما در نبرد.</CallMilitaryAidGrand.description>
   
   <!-- EN: call janissary squad -->
   <CallMilitaryAidLarge.label>فراخوانی جوخه ینگی‌چریک</CallMilitaryAidLarge.label>
+  <!-- EN: Call a group of 4 professional janissaries to aid you in battle. -->
   <CallMilitaryAidLarge.description>فراخوانی یک گروه ۴ نفره از ینگی‌چریک‌های حرفه‌ای برای کمک به شما در میدان نبرد.</CallMilitaryAidLarge.description>
   
   <!-- EN: call trooper squad -->
   <CallMilitaryAidSmall.label>فراخوانی جوخه پیاده‌نظام</CallMilitaryAidSmall.label>
+  <!-- EN: Call a group of 4 light troopers to aid you in battle. -->
   <CallMilitaryAidSmall.description>فراخوانی یک گروه ۴ نفره از نیروهای پیاده‌نظام سبک برای کمک به شما در جنگ.</CallMilitaryAidSmall.description>
   
   <!-- EN: call aerodrone salvo -->
   <CallOrbitalSalvo.label>فراخوانی رگبار ایرودرون</CallOrbitalSalvo.label>
+  <!-- EN: Call a salvo of aerodrone strikes around a target position. -->
   <CallOrbitalSalvo.description>فراخوانی رگباری از حملات ایرودرون در اطراف موقعیت هدف.</CallOrbitalSalvo.description>
   
   <!-- EN: call aerodrone strike -->
   <CallOrbitalStrike.label>فراخوانی حمله هوایی ایرودرون</CallOrbitalStrike.label>
+  <!-- EN: Call a single-impact aerodrone strike at a target position. -->
   <CallOrbitalStrike.description>فراخوانی یک حمله ضربتی تک‌نقطه‌ای ایرودرون در موقعیت هدف.</CallOrbitalStrike.description>
   
   <!-- EN: call transport shuttle -->
   <CallTransportShuttle.label>فراخوانی شاتل ترابری</CallTransportShuttle.label>
+  <!-- EN: Call a shuttle for your own use. It will transport colonists, items, and animals anywhere you like within 70 world tiles. -->
   <CallTransportShuttle.description>فراخوانی یک شاتل برای استفاده اختصاصی شما. این شاتل کلونیست‌ها، اقلام و حیوانات را به هر نقطه‌ای در محدوده ۷۰ خانه از نقشه منتقل می‌کند.</CallTransportShuttle.description>
   
   <!-- EN: food drop -->
   <FoodDrop.label>ارسال هوایی غذا</FoodDrop.label>
+  <!-- EN: Call for a drop of 20 packaged survival meals. -->
   <FoodDrop.description>درخواست ارسال هوایی ۲۰ وعده غذای بقای بسته‌بندی‌شده.</FoodDrop.description>
   
   <!-- EN: glitter med drop -->
   <GlitterMedDrop.label>ارسال هوایی داروی پیشرفته</GlitterMedDrop.label>
+  <!-- EN: Call for a drop of 5 glitterworld medicine. -->
   <GlitterMedDrop.description>درخواست پرتاب هوایی ۵ عدد داروی گلایترورلد.</GlitterMedDrop.description>
   
   <!-- EN: silver drop -->
   <SilverDrop.label>ارسال هوایی نقره</SilverDrop.label>
+  <!-- EN: Call for a drop of 500 silver. -->
   <SilverDrop.description>درخواست ارسال هوایی ۵۰۰ نقره.</SilverDrop.description>
   
   <!-- EN: steel drop -->
   <SteelDrop.label>ارسال هوایی فولاد</SteelDrop.label>
+  <!-- EN: Call for a drop of 250 steel. -->
   <SteelDrop.description>درخواست ارسال هوایی ۲۵۰ فولاد.</SteelDrop.description>
   
   <!-- EN: trade with caravans -->
