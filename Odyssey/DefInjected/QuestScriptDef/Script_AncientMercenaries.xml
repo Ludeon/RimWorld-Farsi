@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -7,9 +7,9 @@
     <li>location(atLandmark==false)->The soldiers are hiding out in an ancient structure.</li>
   -->
   <OpportunitySite_AncientMercenaries.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] the location of an infamous company of mercenaries. These ancient soldiers are from a long-forgotten era in the planet's history. They have recently awoken from cryptosleep and are causing trouble in the area.\n\nThe company is led by [LEADER_nameDef], who possesses a unique [WEAPON_quality] weapon. The group contains:\n\n[mercenaryList]\n\nIf you're able to capture or kill the leader, you can take the unique weapon.\n\n[location]</li>
-    <li>location(atLandmark==true)->The soldiers are hiding out in an ancient structure at [landmarkName].</li>
-    <li>location(atLandmark==false)->The soldiers are hiding out in an ancient structure.</li>
+    <li>questDescription->[discoveryMethod] مکان یک جوخه بدنام از مزدوران. این سربازان باستانی متعلق به دورانی دیرین و فراموش‌شده در تاریخ سیاره هستند. آنها اخیراً از خواب انجمادی بیدار شده و در منطقه آشوب به پا کرده‌اند.\n\nاین جوخه توسط [LEADER_nameDef] رهبری می‌شود که دارای یک سلاح منحصر‌به‌فرد از کیفیت [WEAPON_quality] است. این گروه شامل:\n\n[mercenaryList]\n\nاگر بتوانید رهبر را اسیر کنید یا بکشید، می‌توانید سلاح منحصر‌به‌فرد او را تصاحب کنید.\n\n[location]</li>
+    <li>location(atLandmark==true)->سربازان در یک سازه باستانی در [landmarkName] پنهان شده‌اند.</li>
+    <li>location(atLandmark==false)->سربازان در یک سازه باستانی پنهان شده‌اند.</li>
   </OpportunitySite_AncientMercenaries.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [ancient] [mercenaries]</li>
@@ -23,15 +23,15 @@
     <li>mercenaries->Fighters</li>
   -->
   <OpportunitySite_AncientMercenaries.questNameRules.rulesStrings>
-    <li>questName->The [ancient] [mercenaries]</li>
-    <li>questName->[ancient] [mercenaries]</li>
-    <li>ancient->Ancient</li>
-    <li>ancient->Awoken</li>
-    <li>ancient->Cryptosleep</li>
-    <li>mercenaries->Mercenaries</li>
-    <li>mercenaries->Soldiers</li>
-    <li>mercenaries->Warriors</li>
-    <li>mercenaries->Fighters</li>
+    <li>questName->[mercenaries] [ancient]</li>
+    <li>questName->[mercenaries] [ancient]</li>
+    <li>ancient->باستانی</li>
+    <li>ancient->بیدار‌شده</li>
+    <li>ancient->خواب انجمادی</li>
+    <li>mercenaries->مزدوران</li>
+    <li>mercenaries->سربازان</li>
+    <li>mercenaries->جنگجویان</li>
+    <li>mercenaries->مبارزان</li>
   </OpportunitySite_AncientMercenaries.questNameRules.rulesStrings>
   <!-- EN:
     <li>subject->ancient mercenaries</li>
@@ -45,15 +45,15 @@
     <li>questMapText->ancient weapons</li>
   -->
   <OpportunitySite_AncientMercenaries.questSubjectRules.rulesStrings>
-    <li>subject->ancient mercenaries</li>
-    <li>subject->ancient soldiers</li>
-    <li>subject->ancients</li>
-    <li>questMapFeature->military garrison</li>
-    <li>questMapFeature->drawing of an ancient soldier</li>
-    <li>questMapFeature->sketch of a man from another time</li>
-    <li>questMapText->they're awake</li>
-    <li>questMapText->dangerous ancients</li>
-    <li>questMapText->ancient weapons</li>
+    <li>subject->مزدوران باستانی</li>
+    <li>subject->سربازان باستانی</li>
+    <li>subject->باستانیان</li>
+    <li>questMapFeature->پادگان نظامی</li>
+    <li>questMapFeature->نقاشی یک سرباز باستانی</li>
+    <li>questMapFeature->طرحی از مردی از دوران دیگر</li>
+    <li>questMapText->آنها بیدارند</li>
+    <li>questMapText->باستانیان خطرناک</li>
+    <li>questMapText->سلاح‌های باستانی</li>
   </OpportunitySite_AncientMercenaries.questSubjectRules.rulesStrings>
   
 </LanguageData>

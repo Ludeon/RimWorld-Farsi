@@ -1,43 +1,36 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <LanguageData>
   
-  <!-- EN:
-    <li>questDescription(askerIsNull==true)->We've intercepted messages about a collection of valuable items worth [itemStashContentsValue] not far from [map_definite]. The collection consists of:\n\n[itemStashContents]\n\nIt seems that [allSitePartsDescriptionsExceptFirst]</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], has informed us of a collection of valuable items worth [itemStashContentsValue] not far from us. The collection consists of:\n\n[itemStashContents]\n\n[asker_label] says that [allSitePartsDescriptionsExceptFirst]</li>
-  -->
+  
   <OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->We've intercepted messages about a collection of valuable items worth [itemStashContentsValue] not far from [map_definite]. The collection consists of:\n\n[itemStashContents]\n\nIt seems that [allSitePartsDescriptionsExceptFirst]</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], has informed us of a collection of valuable items worth [itemStashContentsValue] not far from us. The collection consists of:\n\n[itemStashContents]\n\n[asker_label] says that [allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription(askerIsNull==true)-&gt;پیام‌هایی درباره مجموعه‌ای از اقلام باارزش به ارزش [itemStashContentsValue] در فاصله‌ای نه چندان دور از [map_definite] رهگیری کرده‌ایم. این مجموعه شامل موارد زیر است:
+
+[itemStashContents]
+
+به نظر می‌رسد که [allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription(asker_factionLeader==True)-&gt;[asker_nameDef]، [asker_faction_leaderTitle] از [asker_faction_name]، ما را از مجموعه‌ای از اقلام باارزش به ارزش [itemStashContentsValue] در فاصله‌ای نه چندان دور از ما مطلع کرده است. این مجموعه شامل موارد زیر است:
+
+[itemStashContents]
+
+[asker_label] می‌گوید که [allSitePartsDescriptionsExceptFirst]</li>
   </OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
-  <!-- EN:
-    <li>questName(priority=1)->[asker_nameDef]'s [stash] of [treasure]</li>
-    <li>questName->[stash] of [treasure]</li>
-    <li>stash->Stash</li>
-    <li>stash->Cache</li>
-    <li>stash->Collection</li>
-    <li>stash->Shack</li>
-    <li>treasure->Treasure</li>
-    <li>treasure->Valuables</li>
-    <li>treasure->Fortune</li>
-    <li>treasure->Goodies</li>
-    <li>treasure->Supplies</li>
-  -->
+  
   <OpportunitySite_ItemStash.questNameRules.rulesStrings>
-    <li>questName(priority=1)->[asker_nameDef]'s [stash] of [treasure]</li>
-    <li>questName->[stash] of [treasure]</li>
-    <li>stash->Stash</li>
-    <li>stash->Cache</li>
-    <li>stash->Collection</li>
-    <li>stash->Shack</li>
-    <li>treasure->Treasure</li>
-    <li>treasure->Valuables</li>
-    <li>treasure->Fortune</li>
-    <li>treasure->Goodies</li>
-    <li>treasure->Supplies</li>
+    <li>questName(priority=1)-&gt;[stash] [treasure] [asker_nameDef]</li>
+    <li>questName-&gt;[stash] [treasure]</li>
+    <li>stash-&gt;انبار مخفی</li>
+    <li>stash-&gt;ذخیره‌گاه</li>
+    <li>stash-&gt;مجموعه</li>
+    <li>stash-&gt;کلبه مخفی</li>
+    <li>treasure-&gt;گنجینه</li>
+    <li>treasure-&gt;اشیاء باارزش</li>
+    <li>treasure-&gt;ثروت</li>
+    <li>treasure-&gt;اموال گرانبها</li>
+    <li>treasure-&gt;تدارکات</li>
   </OpportunitySite_ItemStash.questNameRules.rulesStrings>
-  <!-- EN: Quest expired: [resolvedQuestName] -->
+  
   <OpportunitySite_ItemStash.LetterLabelQuestExpired.slateRef>تلاش منقضی شده: [resolvedQuestName]</OpportunitySite_ItemStash.LetterLabelQuestExpired.slateRef>
-  <!-- EN: Intercepted communications indicate the item stash has been claimed by others. The quest [resolvedQuestName] has expired. -->
+  
   <OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>ارتباطات رهگیری شده نشان می‌دهد که انبار کالا توسط دیگران ادعا شده است. تلاش [resolvedQuestName] منقضی شده است.</OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>
   
 </LanguageData>

@@ -1,61 +1,45 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <LanguageData>
   
-  <!-- EN:
-    <li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], has sent us a message. Apparently, [siteFaction_pawnsPlural] based in a nearby camp have been raiding their caravans. The camp is controlled by [siteFaction_name].\n\n[asker_nameDef] is asking us to destroy the camp, which means eliminating all enemies and turrets. [asker_label] says that [sitePart0_description].</li>
-  -->
+  
   <OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
-    <li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], has sent us a message. Apparently, [siteFaction_pawnsPlural] based in a nearby camp have been raiding their caravans. The camp is controlled by [siteFaction_name].\n\n[asker_nameDef] is asking us to destroy the camp, which means eliminating all enemies and turrets. [asker_label] says that [sitePart0_description].</li>
+    <li>questDescription-&gt;[asker_nameFull]، [asker_faction_leaderTitle] از [asker_faction_name]، پیامی برای ما فرستاده است. ظاهراً [siteFaction_pawnsPlural] مستقر در یک اردوی نزدیک به کاروان‌های آن‌ها حمله کرده‌اند. این اردوگاه توسط [siteFaction_name] کنترل می‌شود.
+
+[asker_nameDef] از ما می‌خواهد اردوگاه را نابود کنیم که به معنای از بین بردن تمام دشمنان و برجک‌ها است. [asker_label] می‌گوید که [sitePart0_description].</li>
   </OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
-  <!-- EN:
-    <li>questName->The [bandit] [camp]</li>
-    <li>questName->[bandit] [camp]</li>
-    <li>questName->[asker_nameDef] and the [camp]</li>
-    <li>camp->Camp</li>
-    <li>camp->Outpost</li>
-    <li>camp->Lair</li>
-    <li>camp->Encampment</li>
-    <li>bandit->Bandit</li>
-    <li>bandit->Raider</li>
-    <li>bandit->Outlaw</li>
-    <li>bandit->Desperado</li>
-    <li>bandit->Fugitive</li>
-    <li>bandit->Marauder</li>
-    <li>bandit->Robber</li>
-    <li>bandit->Brigand</li>
-  -->
+  
   <OpportunitySite_BanditCamp.questNameRules.rulesStrings>
-    <li>questName->The [bandit] [camp]</li>
-    <li>questName->[bandit] [camp]</li>
-    <li>questName->[asker_nameDef] and the [camp]</li>
-    <li>camp->Camp</li>
-    <li>camp->Outpost</li>
-    <li>camp->Lair</li>
-    <li>camp->Encampment</li>
-    <li>bandit->Bandit</li>
-    <li>bandit->Raider</li>
-    <li>bandit->Outlaw</li>
-    <li>bandit->Desperado</li>
-    <li>bandit->Fugitive</li>
-    <li>bandit->Marauder</li>
-    <li>bandit->Robber</li>
-    <li>bandit->Brigand</li>
+    <li>questName-&gt;[camp] [bandit]</li>
+    <li>questName-&gt;[camp] [bandit]</li>
+    <li>questName-&gt;[asker_nameDef] و [camp]</li>
+    <li>camp-&gt;اردوگاه</li>
+    <li>camp-&gt;پایگاه دیده‌بانی</li>
+    <li>camp-&gt;پناهگاه</li>
+    <li>camp-&gt;اردو</li>
+    <li>bandit-&gt;راهزنان</li>
+    <li>bandit-&gt;غارتگران</li>
+    <li>bandit-&gt;یاغیان</li>
+    <li>bandit-&gt;قانون‌شکنان</li>
+    <li>bandit-&gt;فراریان</li>
+    <li>bandit-&gt;مهاجمان</li>
+    <li>bandit-&gt;سارقان</li>
+    <li>bandit-&gt;راهزنان مسلح</li>
   </OpportunitySite_BanditCamp.questNameRules.rulesStrings>
-  <!-- EN: Quest expired: [resolvedQuestName] -->
+  
   <OpportunitySite_BanditCamp.LetterLabelQuestExpired.slateRef>تلاش منقضی شده: [resolvedQuestName]</OpportunitySite_BanditCamp.LetterLabelQuestExpired.slateRef>
-  <!-- EN: The bandit camp has packed up and moved on. The quest [resolvedQuestName] has expired. -->
+  
   <OpportunitySite_BanditCamp.LetterTextQuestExpired.slateRef>اردوگاه راهزنان بارها را جمع کرده و ادامه داده است. تلاش [resolvedQuestName] منقضی شده است.</OpportunitySite_BanditCamp.LetterTextQuestExpired.slateRef>
-  <!-- EN: Quest failed: [resolvedQuestName] -->
+  
   <OpportunitySite_BanditCamp.LetterLabelQuestFailed.slateRef>تلاش ناموفق بود: [resolvedQuestName]</OpportunitySite_BanditCamp.LetterLabelQuestFailed.slateRef>
-  <!-- EN: After being discovered, the bandit camp has dispersed. The quest [resolvedQuestName] has ended. -->
+  
   <OpportunitySite_BanditCamp.LetterTextQuestFailed.slateRef>پس از کشف، اردوگاه راهزنان متفرق شده است. تلاش [resolvedQuestName] به پایان رسیده است.</OpportunitySite_BanditCamp.LetterTextQuestFailed.slateRef>
-  <!-- EN: Payment arrived -->
+  
   <OpportunitySite_BanditCamp.LetterLabelPaymentArrived.slateRef>پرداخت رسید</OpportunitySite_BanditCamp.LetterLabelPaymentArrived.slateRef>
-  <!-- EN: You have defeated the bandit camp!\n\nThe payment from [asker_faction_name] has arrived. -->
+  
   <OpportunitySite_BanditCamp.LetterTextPaymentArrived.slateRef>شما اردوگاه راهزنان را شکست داده اید!\n\nپرداخت از طرف [asker_faction_name] رسیده است.</OpportunitySite_BanditCamp.LetterTextPaymentArrived.slateRef>
-  <!-- EN: [asker_faction_royalFavorLabel] -->
+  
   <OpportunitySite_BanditCamp.LetterLabelFavorReceiver.slateRef>[asker_faction_royalFavorLabel]</OpportunitySite_BanditCamp.LetterLabelFavorReceiver.slateRef>
-  <!-- EN: These colonists participated in the victory for the quest [resolvedQuestName]. [asker_definite] wants to know who should receive the [royalFavorReward_amount] [asker_faction_royalFavorLabel] for this service. -->
+  
   <OpportunitySite_BanditCamp.LetterTextFavorReceiver.slateRef>این مستعمره نشینان در پیروزی کوئست [resolvedQuestName] شرکت کردند. [asker_definite] می خواهد بداند چه کسی باید [royalFavorReward_amount] [asker_faction_royalFavorLabel] را برای این سرویس دریافت کند.</OpportunitySite_BanditCamp.LetterTextFavorReceiver.slateRef>
   
 </LanguageData>

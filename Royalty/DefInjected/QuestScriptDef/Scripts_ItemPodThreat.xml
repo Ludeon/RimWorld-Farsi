@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -44,14 +44,14 @@
     <li>insects->bugs</li>
     <li>insects->hives</li>
   -->
-  <ThreatReward_Infestation_ItemPod.questNameRules.rulesStrings><li>questName->Pods و [insects]</li>
-    <li>questName->[asker_nameDef]'s [insects]</li>
-    <li>questName->[itemPodsTotalMarketValue_money] [insects]</li>
-    <li>questName(asker_royalInCurrentFaction==True)->Spectacle [insects]</li>
-    <li>questName(p=0.3)->Podswarm</li>
-    <li>حشرات->حشرات</li>
-    <li>حشرات->اشکال</li>
-    <li>حشرات->کهیر</li></ThreatReward_Infestation_ItemPod.questNameRules.rulesStrings>
+  <ThreatReward_Infestation_ItemPod.questNameRules.rulesStrings><li>questName->کپسول‌ها و [insects]</li>
+    <li>questName->[insects] [asker_nameDef]</li>
+    <li>questName->[insects] باارزش [itemPodsTotalMarketValue_money]</li>
+    <li>questName(asker_royalInCurrentFaction==True)->نمایش [insects]</li>
+    <li>questName(p=0.3)->هجوم کپسول‌ها</li>
+    <li>insects->حشرات</li>
+    <li>insects->سوسک‌ها</li>
+    <li>insects->کندوها</li></ThreatReward_Infestation_ItemPod.questNameRules.rulesStrings>
   
   <!-- EN:
     <li>animalKindLabelCorrect(animalCount==1)->[animalKind_label]</li>
@@ -138,8 +138,8 @@
     <li>تهدید->دشمنان [asker_possessive]</li>
     <li>تهدید(اولویت=-1)->دشمنان او</li>
     <li>askerEnemies(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]</li>
-    <li>askerEnemies(priority=1,site/MechCluster_exists==True)->mechanoids</li>
-    <li>askerEnemies(priority=1,site/SleepingMechanoids_exists==True)->mechanoids</li>
+    <li>askerEnemies(priority=1,site/MechCluster_exists==True)->مکانوئیدها</li>
+    <li>askerEnemies(priority=1,site/SleepingMechanoids_exists==True)->مکانوئیدها</li>
     <li>askerEnemies->دشمنان [asker_possessive]</li>
     <li>askerEnemies(priority=-1)->دشمنان او</li></ThreatReward_SiteThreat_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:

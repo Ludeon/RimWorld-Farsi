@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -117,7 +117,7 @@
     <li>mutinyLetterLabel->خیانت</li>
     <li>mutinyLetterText->[lodgersSingularOrPluralDef] [whoAskedToStay] [areIs] علیه شما می چرخد!\n\nبه نظر می رسد که [lodgersPronoun] این خیانت را در تمام مدت برنامه ریزی کرده بود.</li>
     <li>areIs(lodgerCount==1)->است</li>
-<li>areIs(lodgerCount>=2)->are</li>
+    <li>areIs(lodgerCount>=2)->هستند</li>
     <li>lodgersLeavingLetterLabel->خروج [lodgersLabelSingularOrPlural]</li>
     <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} از شما تشکر می کند که به {FACTION_leaderObjective} اجازه دادید در [map_definite] برای این [questDurationTicks_duration] بماند. {FACTION_leaderPronoun} اکنون با افراد {FACTION_leaderPossessive} ادامه می‌دهد.\n\n{FACTION_leaderNameDef} می‌گوید که {FACTION_leaderPronoun} کارهایی که انجام داده‌اید را فراموش نخواهد کرد.</li>
   </Hospitality_Refugee.questContentRules.rulesStrings>
@@ -179,7 +179,7 @@
 <li>lodgersPossessive(lodgerCount>=2)->آنها</li>
     <li>lodgersSingularOrPluralDef(lodgerCount==1)->[asker_nameDef]</li>
 <li>lodgersSingularOrPluralDef(lodgerCount>=2)->[lodgersLabelPlural]</li>
-    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] از شما درخواست می کند که اجازه دهید در [map_definite] برای [questDurationTicks_duration] بمانید تا [lodgersPronoun] بتواند استراحت کند و دوباره جمع شود.\n\nدر عوض، [lodgersPronoun] [offer] در این مدت به صورت رایگان کار و مبارزه کند.\n\n[joinInfo] [lodgersPronoun] نیز ممکن است به شما کمک کند - XK1 بعداً راهی برای کمک وجود ندارد. نیت واقعی [lodgersPossessive].\n\n[travelerInfo] بخشی از هیچ جناحی نیست. در صورت تمایل، می توانید بدون عواقب دیپلماتیک، کشتن، دستگیری، فروش یا برداشت [lodgersObjective] را انتخاب کنید.</li>
+    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] از شما درخواست می کند که اجازه دهید در [map_definite] برای [questDurationTicks_duration] بمانید تا [lodgersPronoun] بتواند استراحت کند و دوباره جمع شود.\n\nدر عوض، [lodgersPronoun] [offer] در این مدت به صورت رایگان کار و مبارزه کند.\n\n[joinInfo] [lodgersPronoun] همچنین ممکن است بعداً برای کمک به [lodgersObjective] به شما پاداش دهد - اما هیچ راهی برای دانستن نیات واقعی [lodgersPossessive] وجود ندارد.\n\n[travelerInfo] بخشی از هیچ جناحی نیست. در صورت تمایل، می توانید بدون عواقب دیپلماتیک، کشتن، دستگیری، فروش یا برداشت [lodgersObjective] را انتخاب کنید.</li>
     <li>approachInfo(lodgerCount==1)->یک [faction_pawnSingular] ناامید به نام [asker_nameDef] در حال نزدیک شدن است.</li>
     <li>approachInfo(lodgerCount==2)->[asker_nameDef] و [faction_pawnSingular] دیگر از جان گذشته نزدیک می شوند.</li>
     <li>approachInfo(lodgerCount==2,childCount==1,priority=1)->[asker_nameDef] با یک کودک در حال نزدیک شدن است.</li>
@@ -330,7 +330,7 @@
     <li>otherMembers(lodgerCount==1)-></li>
 <li>otherMembers(lodgerCount>=2)-> و سایر اعضای [faction_name]</li>
     <li>areIs(lodgerCount==1)->است</li>
-<li>areIs(lodgerCount>=2)->are</li>
+    <li>areIs(lodgerCount>=2)->هستند</li>
   </RefugeeBetrayal.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Betrayal offer: [factionOpponent_nameDef]</li>

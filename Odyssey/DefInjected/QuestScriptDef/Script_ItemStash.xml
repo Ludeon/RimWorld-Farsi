@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
     <li>questDescription->[discoveryMethod] the location of a collection of valuable items worth [itemStashContentsValue]. The collection consists of:\n\n[itemStashContents]\n\nIt seems that [allSitePartsDescriptionsExceptFirst]</li>
   -->
   <OpportunitySite_ItemStash_Giver.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] the location of a collection of valuable items worth [itemStashContentsValue]. The collection consists of:\n\n[itemStashContents]\n\nIt seems that [allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription->[discoveryMethod] مکان مجموعه‌ای از اقلام ارزشمند به ارزش [itemStashContentsValue]. این مجموعه شامل:\n\n[itemStashContents]\n\nبه نظر می‌رسد که [allSitePartsDescriptionsExceptFirst]</li>
   </OpportunitySite_ItemStash_Giver.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[stash] of [treasure]</li>
@@ -20,16 +20,16 @@
     <li>treasure->Supplies</li>
   -->
   <OpportunitySite_ItemStash_Giver.questNameRules.rulesStrings>
-    <li>questName->[stash] of [treasure]</li>
-    <li>stash->Stash</li>
-    <li>stash->Cache</li>
-    <li>stash->Collection</li>
-    <li>stash->Shack</li>
-    <li>treasure->Treasure</li>
-    <li>treasure->Valuables</li>
-    <li>treasure->Fortune</li>
-    <li>treasure->Goodies</li>
-    <li>treasure->Supplies</li>
+    <li>questName->[stash] [treasure]</li>
+    <li>stash->مخفیگاه</li>
+    <li>stash->انبار پنهان</li>
+    <li>stash->مجموعه</li>
+    <li>stash->کلبه ذخایر</li>
+    <li>treasure->گنجینه</li>
+    <li>treasure->اشیاء باارزش</li>
+    <li>treasure->ثروت</li>
+    <li>treasure->غنیمت</li>
+    <li>treasure->تدارکات</li>
   </OpportunitySite_ItemStash_Giver.questNameRules.rulesStrings>
   <!-- EN:
     <li>subject->loot stashes</li>
@@ -42,14 +42,14 @@
     <li>questMapText->hidden valuables</li>
   -->
   <OpportunitySite_ItemStash_Giver.questSubjectRules.rulesStrings>
-    <li>subject->loot stashes</li>
-    <li>subject->secret treasures</li>
-    <li>subject->valuables</li>
-    <li>questMapFeature->drawing of a treasure chest</li>
-    <li>questMapFeature->supply shack</li>
-    <li>questMapText->secret item stash</li>
-    <li>questMapText->loot here</li>
-    <li>questMapText->hidden valuables</li>
+    <li>subject->مخفیگاه‌های غنیمت</li>
+    <li>subject->گنجینه‌های مخفی</li>
+    <li>subject->اشیاء باارزش</li>
+    <li>questMapFeature->نقاشی یک صندوقچه گنج</li>
+    <li>questMapFeature->کلبه تدارکات</li>
+    <li>questMapText->مخفیگاه سری کالا</li>
+    <li>questMapText->غنیمت در اینجا</li>
+    <li>questMapText->اشیاء قیمتی پنهان</li>
   </OpportunitySite_ItemStash_Giver.questSubjectRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_ItemStash_Giver.LetterLabelQuestExpired.slateRef>تلاش منقضی شده: [resolvedQuestName]</OpportunitySite_ItemStash_Giver.LetterLabelQuestExpired.slateRef>

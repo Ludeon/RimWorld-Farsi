@@ -1,17 +1,17 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
     <li>questDescription->[discoveryMethod] the location of an alpha thrumbo.\n\nAlpha thrumbos are exceptionally rare creatures, believed by many to be mere fiction. Too wild for most to tame and too powerful for most to hunt, their horns are worth more than their weight in gold.</li>
   -->
   <OpportunitySite_AlphaThrumbo_Giver.questDescriptionRules.rulesStrings>
-    <li>questDescription->[discoveryMethod] the location of an alpha thrumbo.\n\nAlpha thrumbos are exceptionally rare creatures, believed by many to be mere fiction. Too wild for most to tame and too powerful for most to hunt, their horns are worth more than their weight in gold.</li>
+    <li>questDescription->[discoveryMethod] مکان یک ترامبوی آلفا.\n\nترامبوهای آلفا موجوداتی فوق‌العاده کمیاب هستند و بسیاری باور دارند آنها تنها افسانه‌اند. رام کردنشان برای بیشتر افراد بیش از حد ناممکن و شکارشان بسیار خطرناک است، اما شاخ‌های آنها بیش از وزنشان طلا ارزش دارد.</li>
   </OpportunitySite_AlphaThrumbo_Giver.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->alpha thrumbo</li>
   -->
   <OpportunitySite_AlphaThrumbo_Giver.questNameRules.rulesStrings>
-    <li>questName->alpha thrumbo</li>
+    <li>questName->ترامبوی آلفا</li>
   </OpportunitySite_AlphaThrumbo_Giver.questNameRules.rulesStrings>
   <!-- EN:
     <li>subject->alpha thrumbos</li>
@@ -27,17 +27,17 @@
     <li>questMapText->they are real</li>
   -->
   <OpportunitySite_AlphaThrumbo_Giver.questSubjectRules.rulesStrings>
-    <li>subject->alpha thrumbos</li>
-    <li>subject->thrumbos</li>
-    <li>subject->rare thrumbos</li>
-    <li>subject->rare animals</li>
-    <li>subject->legendary creatures</li>
-    <li>questMapFeature->drawing of a thrumbo</li>
-    <li>questMapFeature->sketch of an odd-looking thrumbo</li>
-    <li>questMapText->thrumbo habitat</li>
-    <li>questMapText->alpha thrumbo</li>
-    <li>questMapText->found the beast</li>
-    <li>questMapText->they are real</li>
+    <li>subject->ترامبوهای آلفا</li>
+    <li>subject->ترامبوها</li>
+    <li>subject->ترامبوهای کمیاب</li>
+    <li>subject->حیوانات کمیاب</li>
+    <li>subject->موجودات افسانه‌ای</li>
+    <li>questMapFeature->نقاشی یک ترامبو</li>
+    <li>questMapFeature->طرح اولیه از یک ترامبوی عجیب</li>
+    <li>questMapText->زیستگاه ترامبو</li>
+    <li>questMapText->ترامبوی آلفا</li>
+    <li>questMapText->جانور پیدا شد</li>
+    <li>questMapText->آنها واقعی هستند</li>
   </OpportunitySite_AlphaThrumbo_Giver.questSubjectRules.rulesStrings>
   <!-- EN: You have discovered -->
   <OpportunitySite_AlphaThrumbo_Giver.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>شما کشف کرده اید</OpportunitySite_AlphaThrumbo_Giver.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>

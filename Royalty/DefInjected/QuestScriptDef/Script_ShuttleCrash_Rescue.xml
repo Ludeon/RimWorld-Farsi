@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -37,7 +37,7 @@
     <li>goodwillAllCiviliansLost->هیچ یک از [asker_faction_pawnSingular] [pawnLabelPlural] قابل نجات نیست. [goodwillNegativelyAffected]</li>
     <li>goodwillNegativelyAffected->حق نیت شما با [asker_faction_name] به ازای هر [pawnLabel] باقی مانده تحت تاثیر منفی قرار گرفته است.</li>
     <li>commanderLandingDesc->[asker_nameDef]، فرماندهی که خواستار فرود شاتل [asker_possessive] در [map_definite] شد</li>
-    <li>raidArrivedLetterLabel->Raid: [enemyFaction_name]</li>
+    <li>raidArrivedLetterLabel->حمله: [enemyFaction_name]</li>
     <li>raidArrivedLetterText->[enemyFaction_pawnsPlural] از [enemyFaction_name] رسیده است. آنها به [asker_faction_pawnsPlural] که در [map_definite] سقوط کرد حمله خواهند کرد.\n\nاز [asker_faction_pawnsPlural] دفاع کنید تا زمانی که شاتل نجات آنها به [rescueShuttleAfterRaidDelay_duration] برسد.</li>
     <li>rescueShuttleArrivedLetterLabel->شاتل نجات رسید</li>
     <li>rescueShuttleArrivedLetterText-> شاتل نجات برای جمع آوری [pawnLabelSingleOrPlural] که سقوط کرده بود وارد شد. حتماً این افراد را قبل از حرکت در شاتل در [leaveDelay_duration] داشته باشید:\n\n[civilians]</li>
@@ -81,10 +81,10 @@
   <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings><li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
     <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
     <li>questDescription->یک شاتل [asker_faction_name] آسیب دیده است و به دنبال مکانی برای فرود است. فرمانده آن [asker_nameDef] می‌خواهد در [map_definite] فرود بیاید.\n\n[enemyFaction_pawnsPlural] از [enemyFaction_name] در تلاش برای کشتن سرنشینان به سایت شاتل سقوط کرده حمله می‌کند. شما باید از آنها دفاع کنید.\n\nشاتل شامل [asker_nameDef][andOtherCivilians] و [soldierCountKinds] است. فرمانده [andCivilians] باید نجات یابد، اما [soldiers0_kindPlural] ممکن است قربانی شود.\n\nبعد از [rescueDelay_duration]، یک شاتل نجات می آید تا بازماندگان را بگیرد. باید همه آنها را در [leaveDelay_duration] وارد کنید.</li>
-    <li>andOther Civilians(civilians_count==1)-></li>
+    <li>andOtherCivilians(civilians_count==1)-></li>
     <li>andOtherCivilians(civilians_count==2)->، [pawnLabel] دیگر،</li>
     <li>andOtherCivilians(civilians_count>=3)->، [civilianCountMinusOne] [pawnLabelSingleOrPlural] دیگر،</li>
-    <li>and Civilians(civilians_count==1)-></li>
+    <li>andCivilians(civilians_count==1)-></li>
     <li>andCivilians(civilians_count==2)->و [pawnLabel]</li>
     <li>andCivilians(civilians_count>=3)->و [pawnLabelPlural]</li>
     <li>soldierCountKinds(soldiers_count==1)->[soldiers_count] [soldiers0_kind]</li>
@@ -111,23 +111,23 @@
     <li>landing->approach</li>
   -->
   <ShuttleCrash_Rescue.questNameRules.rulesStrings><li>questName->[shuttle] [crash]</li>
-    <li>questName->[asker_faction_pawnSingular] [shuttle] [crash]</li>
-    <li>questName->[damaged] [shuttle]</li>
-    <li>questName->[asker_nameDef]'s [damaged] [shuttle]</li>
-    <li>questName->[emergency] [landing]</li>
-    <li>questName->[asker_nameDef]'s [emergency] [landing]</li>
-    <li>shuttle-> شاتل</li>
-    <li>shuttle->حمل و نقل</li>
+    <li>questName->[shuttle] [crash] متعلق به [asker_faction_pawnSingular]</li>
+    <li>questName->[shuttle] [damaged]</li>
+    <li>questName->[shuttle] [damaged] [asker_nameDef]</li>
+    <li>questName->[landing] [emergency]</li>
+    <li>questName->[landing] [emergency] [asker_nameDef]</li>
+    <li>shuttle->شاتل</li>
+    <li>shuttle->ترابری</li>
     <li>shuttle->کشتی</li>
-    <li>crash->crash</li>
-    <li>crash->down</li>
-    <li>آسیب دیده->آسیب دیده</li>
-    <li>آسیب دیده->شکسته شده</li>
-    <li>آسیب دیده->در حال شکست</li>
-    <li>اورژانس->اورژانس</li>
-    <li>اورژانس->اجباری</li>
-    <li> فرود -> فرود</li>
-    <li>فرود->نزول</li>
-    <li> فرود->رویکرد</li></ShuttleCrash_Rescue.questNameRules.rulesStrings>
+    <li>crash->سقوط‌کرده</li>
+    <li>crash->سرنگون‌شده</li>
+    <li>damaged->آسیب‌دیده</li>
+    <li>damaged->خراب</li>
+    <li>damaged->ازکارافتاده</li>
+    <li>emergency->اضطراری</li>
+    <li>emergency->اجباری</li>
+    <li>landing->فرود</li>
+    <li>landing->نشست</li>
+    <li>landing->نزدیک‌شدن</li></ShuttleCrash_Rescue.questNameRules.rulesStrings>
   
 </LanguageData>

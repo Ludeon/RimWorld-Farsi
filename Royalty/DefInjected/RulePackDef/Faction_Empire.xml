@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -24,24 +24,24 @@
     <li>ofThing->Eternity</li>
     <li>ofThing->the Spirit</li>
   -->
-  <NamerFactionEmpire.rulePack.rulesStrings><li>r_name(p=2)->[empire] از [ofThing]</li>
+  <NamerFactionEmpire.rulePack.rulesStrings><li>r_name(p=2)->[empire] [ofThing]</li>
     <li>r_name(p=2)->[empire] [ofThing]</li>
-    <li>r_name->Exodus [empire]</li>
-    <li>r_name-> پناهنده [empire]</li>
+    <li>r_name->[empire] هجرت</li>
+    <li>r_name->[empire] پناهندگان</li>
     <li>r_name->[empire] شکسته</li>
-    <li>r_name->The Shattered [empire]</li>
-    <li>r_name-> سقوط [empire]</li>
-    <li>r_name->[Color] [empire]</li>
-    <li>امپراتوری(p=4)->امپراتوری</li>
-    <li>Empire->Commonwealth</li>
-    <li>empire->Imperium</li>
-    <li>امپراتوری->سلطه</li>
-    <li>امپراتوری->حاکمیت</li>
+    <li>r_name->[empire] متلاشی‌شده</li>
+    <li>r_name->[empire] سقوط‌کرده</li>
+    <li>r_name->[empire] [Color]</li>
+    <li>empire(p=4)->امپراتوری</li>
+    <li>empire->مشترک‌المنافع</li>
+    <li>empire->شاهنشاهی</li>
+    <li>empire->قلمرو</li>
+    <li>empire->حاکمیت</li>
     <li>ofThing(p=4)->[WordImperial]</li>
     <li>ofThing->خورشید</li>
     <li>ofThing->ماه</li>
     <li>ofThing->جهان</li>
-    <li>از چیز->خدا</li>
+    <li>ofThing->خدا</li>
     <li>ofThing->کمال</li>
     <li>ofThing->ابدیت</li>
     <li>ofThing->روح</li></NamerFactionEmpire.rulePack.rulesStrings>

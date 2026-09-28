@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: aim assistance -->
@@ -91,7 +91,7 @@
   <!-- EN: on cooldown -->
   <EMPLauncher.abilityProps.cooldownGerund>در خنک شدن</EMPLauncher.abilityProps.cooldownGerund>
   <!-- EN: EMP -->
-  <EMPLauncher.traitAdjectives.0><g id="6">EMP</g><g id="7">.</g></EMPLauncher.traitAdjectives.0>
+  <EMPLauncher.traitAdjectives.0>الکترومغناطیسی (EMP)</EMPLauncher.traitAdjectives.0>
   <!-- EN: disabling -->
   <EMPLauncher.traitAdjectives.1>از کار انداختن</EMPLauncher.traitAdjectives.1>
   <!-- EN: stunning -->
@@ -108,14 +108,14 @@
   <!-- EN: pulse -->
   <EMPPulser.traitAdjectives.0>نبض</EMPPulser.traitAdjectives.0>
   <!-- EN: EMP -->
-  <EMPPulser.traitAdjectives.1><g id="6">EMP</g><g id="7">.</g></EMPPulser.traitAdjectives.1>
+  <EMPPulser.traitAdjectives.1>الکترومغناطیسی (EMP)</EMPPulser.traitAdjectives.1>
   
   <!-- EN: EMP rounds -->
   <EMPRounds.label>دور EMP</EMPRounds.label>
   <!-- EN: This weapon fires rounds with embedded EMP capacitors, which will temporarily disable electronics and mechanoids. -->
   <EMPRounds.description>این سلاح با خازن های EMP تعبیه شده گلوله شلیک می کند که به طور موقت وسایل الکترونیکی و مکانیکی را از کار می اندازد.</EMPRounds.description>
   <!-- EN: EMP -->
-  <EMPRounds.traitAdjectives.0><g id="6">EMP</g><g id="7">.</g></EMPRounds.traitAdjectives.0>
+  <EMPRounds.traitAdjectives.0>الکترومغناطیسی (EMP)</EMPRounds.traitAdjectives.0>
   <!-- EN: electric -->
   <EMPRounds.traitAdjectives.1>برقی</EMPRounds.traitAdjectives.1>
   <!-- EN: shocking -->
@@ -280,7 +280,7 @@
   <!-- EN: light -->
   <Lightweight.traitAdjectives.0>نور</Lightweight.traitAdjectives.0>
   <!-- EN: quickdraw -->
-  <Lightweight.traitAdjectives.1>Quickdraw</Lightweight.traitAdjectives.1>
+  <Lightweight.traitAdjectives.1>کشیدن سریع</Lightweight.traitAdjectives.1>
   
   <!-- EN: lightweight arrows -->
   <LightweightArrows.label>فلش های سبک وزن</LightweightArrows.label>

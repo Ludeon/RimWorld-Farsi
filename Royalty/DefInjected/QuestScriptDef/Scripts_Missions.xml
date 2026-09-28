@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -27,19 +27,19 @@
     <li>work->job</li>
   -->
   <Mission_BanditCamp.questNameRules.rulesStrings><li>questName->[questNameInner]</li>
-    <li>questName->[asker_nameDef]'s [questNameInner]</li>
-    <li>questNameInner->[aerial] [attack]</li>
-    <li>questNameInner->[target] [attack]</li>
-    <li>questNameInner->[attack] [work]</li>
+    <li>questName->[asker_nameDef] [questNameInner]</li>
+    <li>questNameInner->[attack] [aerial]</li>
+    <li>questNameInner->[attack] به [target]</li>
+    <li>questNameInner->[work] [attack]</li>
     <li>target->اردوگاه</li>
-    <li>target->base</li>
+    <li>target->پایگاه</li>
     <li>target->قلعه</li>
-    <li>هوایی->هوایی</li>
-    <li>aerial->air</li>
-    <li>aerial->شاتل</li>
-    <li>حمله->حمله</li>
-    <li>حمله->حمله</li>
-    <li>کار->کار</li>
-    <li>کار->شغل</li></Mission_BanditCamp.questNameRules.rulesStrings>
+    <li>aerial->هوایی</li>
+    <li>aerial->از هوا</li>
+    <li>aerial->با شاتل</li>
+    <li>attack->حمله</li>
+    <li>attack->شبیخون</li>
+    <li>work->عملیات</li>
+    <li>work->ماموریت</li></Mission_BanditCamp.questNameRules.rulesStrings>
   
 </LanguageData>

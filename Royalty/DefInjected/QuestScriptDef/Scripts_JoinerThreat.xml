@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -147,7 +147,7 @@
   <!-- EN: {BASELABEL} chasing [joiner_nameDef] -->
   <ThreatReward_MysteryThreat_Joiner.LetterLabelChasingRaid.slateRef>{BASELABEL} در تعقیب [joiner_nameDef]</ThreatReward_MysteryThreat_Joiner.LetterLabelChasingRaid.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_pronoun] was supposed to marry the child of [enemyFaction_leader_nameFull], leader of [enemyFaction_name]. [joiner_pronoun] became drunk before the ceremony and vomited on the altar - a flagrant insult towards [enemyFaction_leader_nameDef]'s whole family.\n    \n[enemyFaction_leader_nameDef] swore to seek revenge on [joiner_nameDef] and all those associated with [joiner_objective], and sent [enemyFaction_pawnsPlural] to carry out the task.\n    \n{BASETEXT} -->
-  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingRaid.slateRef>[joiner_nameDef] پذیرفته است که [joiner_pronoun] از چه چیزی فرار می کرد.\n \n[joiner_pronoun] قرار بود با فرزند [enemyFaction_leader_nameFull]، رهبر [enemyFaction_name] ازدواج کند. [joiner_pronoun] قبل از مراسم مست شد و در محراب استفراغ کرد - یک توهین آشکار به تمام خانواده [enemyFaction_leader_nameDef].\n \n[enemyFaction_leader_nameDef] سوگند یاد کرد که از [joiner_nameDef] و همه کسانی که با [joiner_objective] مرتبط هستند انتقام بگیرد و [enemyFaction_pawnsPlural] را برای انجام وظیفه فرستاد.\n \nXK11Z</ThreatReward_MysteryThreat_Joiner.LetterTextChasingRaid.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingRaid.slateRef>[joiner_nameDef] پذیرفته است که [joiner_pronoun] از چه چیزی فرار می کرد.\n \n[joiner_pronoun] قرار بود با فرزند [enemyFaction_leader_nameFull]، رهبر [enemyFaction_name] ازدواج کند. [joiner_pronoun] قبل از مراسم مست شد و در محراب استفراغ کرد - یک توهین آشکار به تمام خانواده [enemyFaction_leader_nameDef].\n \n[enemyFaction_leader_nameDef] سوگند یاد کرد که از [joiner_nameDef] و همه کسانی که با [joiner_objective] مرتبط هستند انتقام بگیرد و [enemyFaction_pawnsPlural] را برای انجام وظیفه فرستاد.\n \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingRaid.slateRef>
   <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
   <ThreatReward_MysteryThreat_Joiner.LetterLabelChasingInfestation.slateRef>{BASELABEL}: تعقیب [joiner_nameDef]</ThreatReward_MysteryThreat_Joiner.LetterLabelChasingInfestation.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef], greedy for the pleasures and money insect jelly can bring, intended to destroy a massive insect hive using poison. [joiner_pronoun] failed, but was doused in insect threat pheromones. Insects have been hunting [joiner_objective] ever since. Now they've launched their final attack.\n    \n{BASETEXT} -->

@@ -48,17 +48,17 @@
     <li>worker->Laborer</li>
     <li>worker->Helper</li>
   -->
-  <PawnLend.questNameRules.rulesStrings><li>questName->برون سپاری [worker]</li>
-    <li>questName->قرارداد [worker]s</li>
+  <PawnLend.questNameRules.rulesStrings><li>questName->برون‌سپاری [worker]</li>
+    <li>questName->قرارداد [worker]‌ها</li>
     <li>questName->کارگران موقت</li>
-    <li>questName->[worker] Lending</li>
-    <li>questName->[worker]s برای [asker_faction_name]</li>
-    <li>questName->[worker]های موقت</li>
-    <li>questName->درخواست [worker]s</li>
-    <li>کارگر->استعمارگر</li>
-    <li>کارگر->کارگر</li>
-    <li>کارگر->کارگر</li>
-    <li>worker->Helper</li></PawnLend.questNameRules.rulesStrings>
+    <li>questName->امانت دادن [worker]</li>
+    <li>questName->[worker]‌ها برای [asker_faction_name]</li>
+    <li>questName->[worker]‌های موقت</li>
+    <li>questName->درخواست [worker]‌ها</li>
+    <li>worker->استعمارگر</li>
+    <li>worker->کارگر</li>
+    <li>worker->مزدور</li>
+    <li>worker->امدادگر</li></PawnLend.questNameRules.rulesStrings>
   <!-- EN: <rulesStrings><li>dutyDescription->gather the harvest</li><li>dutyDescription->fortify a settlement</li><li>dutyDescription->set up a settlement</li><li>dutyDescription->watch for raiders</li><li>dutyDescription->set up a hospital</li><li>dutyDescription->contain an outbreak of [disease]</li></rulesStrings> -->
   <PawnLend.DutyRulesAny.slateRef><rulesStrings><li>dutyDescription->حصول محصول را جمع آوری کنید</li><li>dutyDescription->تقویت یک شهرک</li><li>dutyDescription-> یک شهرک را راه اندازی کنید</li><li>dutyDescription->نگهبانی برای مهاجمان</li><li>dutyDescription->راه اندازی یک بیمارستان</li><li>وظیفه خارج از وظیفه [disease]</li></rulesStrings></PawnLend.DutyRulesAny.slateRef>
   <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_nameFull] of [asker_faction_name] to [dutyDescription]. -->
