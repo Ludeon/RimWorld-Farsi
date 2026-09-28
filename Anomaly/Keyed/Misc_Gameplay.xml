@@ -1,869 +1,875 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <LanguageData>
   
-  <!-- Shamblers -->
-  <!-- EN: Regenerating to rise again. -->
-  <ShamblerRegenerating>TODO</ShamblerRegenerating>
-  <!-- EN: Rising. -->
-  <ShamblerRising>TODO</ShamblerRising>
-  <!-- EN: Standing listlessly. -->
-  <ShamblerStanding>TODO</ShamblerStanding>
-  <!-- EN: Shuffling listlessly. -->
-  <ShamblerShuffling>TODO</ShamblerShuffling>
-  <!-- EN: Be careful, the group contains a shambler gorehulk. -->
-  <LetterText_ShamblerGorehulk>TODO</LetterText_ShamblerGorehulk>
-  <!-- EN: Be careful, the group contains several shambler gorehulks. -->
-  <LetterText_ShamblerGorehulkPlural>TODO</LetterText_ShamblerGorehulkPlural>
-  <!-- EN: Be careful, the group contains a shambler chimera. -->
-  <LetterText_ShamblerChimera>TODO</LetterText_ShamblerChimera>
-  <!-- EN: Be careful, the group contains several shambler chimeras. -->
-  <LetterText_ShamblerChimeraPlural>TODO</LetterText_ShamblerChimeraPlural>
-
-  <!-- EN: Non-humans cannot participate in rituals. -->
-  <MessageRitualCannotBeMutant>TODO</MessageRitualCannotBeMutant>
-
-  <!-- Revenant -->
-  <!-- EN: Revenant attack -->
-  <LetterLabelRevenantRevealed>TODO</LetterLabelRevenantRevealed>
-  <!-- EN: A revenant has revealed itself! -->
-  <LetterRevenantRevealed>TODO</LetterRevenantRevealed>
-  <!-- EN: A revenant has revealed itself and is hunting one of your colonists! -->
-  <LetterRevenantRevealedFirst>TODO</LetterRevenantRevealedFirst> 
-  <!-- EN: Revenant smear discovered -->
-  <LetterLabelRevenantSmearDiscovered>TODO</LetterLabelRevenantSmearDiscovered>
-  <!-- EN: {0} has noticed a black slick on the ground. It looks unnatural and gives off a foul, acrid smell. It is still fresh and wet. An eldritch entity passed by recently. -->
-  <LetterRevenantSmearDiscovered>TODO</LetterRevenantSmearDiscovered>
-  <!-- EN: Revenant killed -->
-  <LetterLabelRevenantKilled>TODO</LetterLabelRevenantKilled>
-  <!-- EN: The revenant is dead! Those who were hypnotized will recover.\n\nIts body has dissipated, leaving behind its spine. You can gather and study the spine, or destroy it. -->
-  <LetterRevenantKilled>TODO</LetterRevenantKilled>
-  <!-- EN: {PAWN_nameDef} hypnotized -->
-  <LetterLabelPawnHypnotized>TODO</LetterLabelPawnHypnotized>
-  <!-- EN: {PAWN_nameDef} has been hypnotized by a revenant and is now rambling incoherently about nightmarish images and ideas.\n\nKilling the revenant will end the hypnosis.\n\nThe revenant uses psychic powers to twist the perceptions of those around it, making itself invisible. However, it can still be hunted by following the black smears that it leaves. The revenant will be revealed if hit by explosive weapons, firefoam, EMPs, fire, or disruptor flares.\n\nIf not killed, the revenant will continue to hypnotize new victims. -->
-  <LetterPawnHypnotized>TODO</LetterPawnHypnotized>
-  <!-- EN: Revenant flesh chunk -->
-  <LetterRevenantFleshChunkLabel>TODO</LetterRevenantFleshChunkLabel>
-  <!-- EN: The wounded revenant left behind a piece of itself. You can analyze this flesh chunk to learn how to track the revenant. -->
-  <LetterRevenantFleshChunkText>TODO</LetterRevenantFleshChunkText>
-  <!-- EN: Revenant seen -->
-  <LetterRevenantSeenLabel>TODO</LetterRevenantSeenLabel>
-  <!-- EN: {PAWN_nameDef} has seen a hiding revenant! -->
-  <LetterRevenantSeen>TODO</LetterRevenantSeen>
-  <!-- EN: In trance. -->
-  <InTrance>TODO</InTrance>
-  <!-- EN: Revenant emergence -->
-  <LetterLabelRevenantEmergence>TODO</LetterLabelRevenantEmergence>
-  <!-- EN: The revenant has reemerged from the safety of its spine! Destroy it before it escapes.\n\nIn the process, the revenant has mutated and adopted a new biosignature. -->
-  <LetterRevenantEmergence>TODO</LetterRevenantEmergence>
-
-  <!-- Sightstealers -->
-  <!-- EN: Sightstealer revealed -->
-  <LetterLabelSightstealerRevealed>TODO</LetterLabelSightstealerRevealed>
-  <!-- EN: A twisted creature has appeared out of thin air! -->
-  <LetterSightstealerRevealed>TODO</LetterSightstealerRevealed>
-  <!-- EN: A sightstealer has appeared! -->
-  <MessageSightstealerRevealed>TODO</MessageSightstealerRevealed>
-  <!-- EN: Sightstealer shrieks -->
-  <LetterLabelSightstealerHowl>TODO</LetterLabelSightstealerHowl>
-  <!-- EN: Your colonists hear sightstealers shrieking in the distance.\n\nIt's hard to tell where they are or how many. They might arrive immediately or days from now. -->
-  <LetterSightstealerHowl>TODO</LetterSightstealerHowl>
-  <!-- EN: Sightstealer howling -->
-  <LetterLabelSightstealerHowlBig>TODO</LetterLabelSightstealerHowlBig>
-  <!-- EN: Your colonists hear a huge number of distant sightstealers screaming in their twisted rage. They are coming.\n\nThey might arrive immediately, or days from now. -->
-  <LetterSightstealerHowlBig>TODO</LetterSightstealerHowlBig>
-
-  <!-- Death Pall -->
-  <!-- EN: Death pall clearing -->
-  <LetterLabelDeathPallEnded>TODO</LetterLabelDeathPallEnded> 
-  <!-- EN: The pall of death is lifting. The corpses reanimated by it will soon return to their natural state. -->
-  <LetterDeathPallEnded>TODO</LetterDeathPallEnded>
-  
-  <!-- Pit Gate -->
-  <!-- EN: Pit gate closing -->
-  <LetterLabelGateClosing>TODO</LetterLabelGateClosing>
-  <!-- EN: The pit gate is closing! Its entrance is about to crumble.\n\nThe pit gate entrance was unstable from the start and is finally sealing itself. -->
-  <LetterGateClosing>TODO</LetterGateClosing>
-  <!-- EN: Must be placed adjacent to a pit gate. -->
-  <MustPlaceNextToPitGate>TODO</MustPlaceNextToPitGate>
-  <!-- EN: Pit gate closed -->
-  <PitGateClosedHumanityNote>TODO</PitGateClosedHumanityNote>
-  <!-- EN: Pit gate collapsing -->
-  <PitGateCollapsing>TODO</PitGateCollapsing> 
-  <!-- EN: Pit gate settling -->
-  <PitGateSettling>TODO</PitGateSettling>
-  <!-- EN: Pit rumbles -->
-  <EmergenceWarningLabel>TODO</EmergenceWarningLabel>
-  <!-- EN: The ground shakes under your feet and the inhuman screams echoing from the pit seem to get closer. Something will emerge soon. -->
-  <EmergenceWarningText>TODO</EmergenceWarningText>
-
-    <!-- Undercave -->
-  <!-- EN: Squirming sounds -->
-  <LetterLabelDreadmeldWarning>TODO</LetterLabelDreadmeldWarning>
-  <!-- EN: As {PAWN_nameDef} draws near the fleshmass here, {PAWN_pronoun} senses a heavy writhing and throbbing from under its warm surface. Some huge living entity is hidden behind the wall of flesh. -->
-  <LetterDreadmeldWarning>TODO</LetterDreadmeldWarning> 
-  <!-- EN: Undercave unstable -->
-  <LetterLabelUndercaveCollapsing>TODO</LetterLabelUndercaveCollapsing> 
-  <!-- EN: The dreadmeld's death has shocked the fleshmass and caused the cave system to destabilize. The fleshmass that supported the cavern is already beginning to deteriorate. Within half a day, the entire cavern will collapse.\n\nGet out of the undercave before it's too late! -->
-  <LetterUndercaveCollapsing>TODO</LetterUndercaveCollapsing>
-
-  <!-- Holding platform -->
-  <!-- EN: Holding -->
-  <HoldingThing>TODO</HoldingThing>
-  <!-- EN: Remove {0_labelShort} -->
-  <RemoveFromPlatform>TODO</RemoveFromPlatform>
-  <!-- EN: Remove the current entity held on the platform. -->
-  <RemoveFromPlatformDesc>TODO</RemoveFromPlatformDesc>
-  <!-- EN: {GERUND} {TARGETLABEL} from -->
-  <ReleasingEntity>TODO</ReleasingEntity>
-  <!-- EN: {GERUND} {TARGETLABEL} -->
-  <TransferringEntity>در حال انتقال {TARGETLABEL}</TransferringEntity>
-  <!-- EN: Select holding platform -->
-  <SelectHoldingPlatform>TODO</SelectHoldingPlatform>
-  <!-- EN: Entity escape -->
-  <LetterLabelEscapingFromHoldingPlatform>TODO</LetterLabelEscapingFromHoldingPlatform> 
-  <!-- EN: The following entities have escaped their restraints:\n\n{0}\n\nBuild stronger containment rooms to stop entities escaping. Entities are less likely to escape from holding platforms with high containment strength, which comes from strong walls and doors, good lighting, and special containment devices. -->
-  <LetterEscapingFromHoldingPlatform>TODO</LetterEscapingFromHoldingPlatform> 
-  <!-- EN: requires {0} -->
-  <HoldingPlatformRequiresStrength>TODO</HoldingPlatformRequiresStrength>
-  <!-- EN: No holding platforms available. -->
-  <NoHoldingPlatformsAvailable>TODO</NoHoldingPlatformsAvailable>
   
   
-  <!-- Obelisks -->
-  <!-- EN: Obelisk activation -->
-  <MutatorObeliskLetterLabel>TODO</MutatorObeliskLetterLabel>
-  <!-- EN: The obelisk is activating! It swells with grisly energy as the air crackles around it. It is about to self-destruct in a great explosion, but before it does, it will use its hideous transformative power on any creature it can detect. -->
-  <MutatorObeliskLetter>TODO</MutatorObeliskLetter>
-
-  <!-- EN: Obelisk mutation -->
-  <ObeliskTentacleLetterLabel>TODO</ObeliskTentacleLetterLabel>
-  <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} arm tingling. Moments later, {PAWN_possessive} skin split open as a fleshy growth erupted from {PAWN_possessive} body. {PAWN_possessive} arm has been replaced by a squirming tentacle!\n\n{PAWN_nameDef} lost some blood, but seems otherwise unharmed. -->
-  <ObeliskTentacleLetter>TODO</ObeliskTentacleLetter>
-
-  <!-- EN: Obelisk mutation -->
-  <ObeliskFleshWhipLetterLabel>TODO</ObeliskFleshWhipLetterLabel>
-  <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} arm tingling. Moments later, {PAWN_possessive} skin split open violently as a growth burst from {PAWN_possessive} body. {PAWN_possessive} arm has been replaced by a tentacle tipped with a bony blade!\n\n{PAWN_nameDef} lost some blood, but seems otherwise unharmed by this disturbing event. The tentacle is hideous, but it will make an excellent melee weapon. -->
-  <ObeliskFleshWhipLetter>TODO</ObeliskFleshWhipLetter>
-
-  <!-- EN: Obelisk interaction -->
-  <MutatorObeliskFailedArmLetterLabel>TODO</MutatorObeliskFailedArmLetterLabel>
-  <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} arm tingling for a few moments. The feeling passed.\n\nThe obelisk tried to mutate {PAWN_nameDef} but failed. -->
-  <MutatorObeliskFailedArmLetter>TODO</MutatorObeliskFailedArmLetter>
-
-  <!-- EN: Obelisk mutation -->
-  <ObeliskFleshmassStomachLetterLabel>TODO</ObeliskFleshmassStomachLetterLabel>
-  <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt a sudden sharp pain in {PAWN_possessive} stomach, as {PAWN_possessive} tissue began to roil and mutate. {PAWN_possessive} stomach has mutated into a mass of semi-sentient flesh. The harsh acids it produces are painful but prevent food poisoning. -->
-  <ObeliskFleshmassStomachLetter>TODO</ObeliskFleshmassStomachLetter>
-
-  <!-- EN: Obelisk interaction -->
-  <MutatorObeliskFailedStomachLetterLabel>TODO</MutatorObeliskFailedStomachLetterLabel>
-  <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} stomach aching for a few moments. The feeling passed.\n\nThe obelisk tried to mutate {PAWN_nameDef} but failed. -->
-  <MutatorObeliskFailedStomachLetter>TODO</MutatorObeliskFailedStomachLetter>
-
-  <!-- EN: Obelisk mutation -->
-  <ObeliskFleshmassLungLetterLabel>TODO</ObeliskFleshmassLungLetterLabel>
-  <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt a sudden sharp pain in {PAWN_possessive} chest, as {PAWN_possessive} lung began to twist and swell. {PAWN_possessive} lung has mutated into a painful mass of semi-sentient flesh. The tissue is constantly regrowing and replacing itself, making it immune to effects like lung rot and asthma. -->
-  <ObeliskFleshmassLungLetter>TODO</ObeliskFleshmassLungLetter>
-
-  <!-- EN: Obelisk interaction -->
-  <MutatorObeliskFailedLungLetterLabel>TODO</MutatorObeliskFailedLungLetterLabel>
-  <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} chest ache for a few moments. The feeling passed.\n\nThe obelisk tried to mutate {PAWN_nameDef} but failed. -->
-  <MutatorObeliskFailedLungLetter>TODO</MutatorObeliskFailedLungLetter>
-
-  <!-- EN: Obelisk mutation -->
-  <ObeliskAnimalMutationLetterLabel>TODO</ObeliskAnimalMutationLetterLabel>
-  <!-- EN: While interacting with the obelisk, {PAWN_nameDef} observed a sudden spike in energy. The obelisk has violently warped the flesh of {ANIMAL}, turning it into a hideous fleshbeast. -->
-  <ObeliskAnimalMutationLetter>TODO</ObeliskAnimalMutationLetter>
-
-  <!-- EN: Obelisk mutation -->
-  <ObeliskTreeMutationLetterLabel>TODO</ObeliskTreeMutationLetterLabel>
-  <!-- EN: While interacting with the obelisk, {PAWN_nameDef} observed a sudden pulse of energy. The obelisk has twisted a nearby tree into a harbinger tree. These monstrous trees are capable of feeding on nearby corpses and raw meat. -->
-  <ObeliskTreeMutationLetter>TODO</ObeliskTreeMutationLetter>
-
-  <!-- EN: Obelisk duplicate -->
-  <ObeliskDuplicationLetterLabel>TODO</ObeliskDuplicationLetterLabel>
-  <!-- EN: While {PAWN_nameDef} interacted with the obelisk, it pulsed with energy and generated a flash of light. {PAWN_nameDef} found {PAWN_objective}self face to face with a copy of {PAWN_objective}self! The duplicate claims to be the real {PAWN_nameDef} and has joined your colony. -->
-  <ObeliskDuplicationLetter>TODO</ObeliskDuplicationLetter>
-
-  <!-- EN: Obelisk failure -->
-  <ObeliskDuplicationFailedLetterLabel>TODO</ObeliskDuplicationFailedLetterLabel>
-  <!-- EN: {PAWN_nameDef} attempted to trigger the obelisk but nothing occurred. Something about {PAWN_nameDef} is preventing the obelisk from duplicating {PAWN_objective}. -->
-  <ObeliskDuplicationFailedLetter>TODO</ObeliskDuplicationFailedLetter>
+  <ShamblerRegenerating>در حال بازسازی برای برخاستن دوباره.</ShamblerRegenerating>
   
-  <!-- EN: {PAWN_nameDef} has successfully triggered obelisk duplication. -->
-  <ObeliskDuplicationSuccessMessage>TODO</ObeliskDuplicationSuccessMessage>
-
-  <!-- EN: Hostile obelisk duplicate -->
-  <ObeliskHostileDuplicateLetterLabel>TODO</ObeliskHostileDuplicateLetterLabel>
-  <!-- EN: While {PAWN_nameDef} interacted with the obelisk, it pulsed with energy and generated a flash of light. {PAWN_nameDef} found {PAWN_objective}self face to face with a copy of {PAWN_objective}self. The duplicate is approaching {PAWN_nameDef} with murderous intent! -->
-  <ObeliskHostileDuplicateLetter>TODO</ObeliskHostileDuplicateLetter>
-
-  <!-- EN: Obelisk activation -->
-  <DuplicatorObeliskLetterLabel>TODO</DuplicatorObeliskLetterLabel>
-  <!-- EN: The obelisk is activating! The air around it crackles with energy. Duplicates of your colonists will soon appear with murderous intent.\n\nBe careful - unstable energy is coursing through the obelisk and it could explode at any moment. -->
-  <DuplicatorObeliskLetter>TODO</DuplicatorObeliskLetter>
-
-  <!-- EN: Colonists disappearing -->
-  <ObeliskAbductorLetterLabel>TODO</ObeliskAbductorLetterLabel>
-  <!-- EN: The warped obelisk crackles with energy as it warps space around itself. All manner of creatures are beginning to disappear and will soon vanish entirely.\n\nBe careful - unstable energy is coursing through the obelisk and it could explode at any moment. -->
-  <ObeliskAbductorLetter>TODO</ObeliskAbductorLetter>
+  <ShamblerRising>در حال برخاستن.</ShamblerRising>
   
-  <!-- EN: {PAWN_nameDef} is disappearing -->
-  <ObeliskAbductedDisappearingLetterLabel>TODO</ObeliskAbductedDisappearingLetterLabel>
-  <!-- EN: {PAWN_nameDef} noticed activity in the warped obelisk. Some mysterious internal mechanism has come to life, causing {PAWN_nameDef} to begin to disappear. {PAWN_pronoun} will soon vanish entirely. -->
-  <ObeliskAbductedDisappearingLetter>TODO</ObeliskAbductedDisappearingLetter>
+  <ShamblerStanding>بی‌هدف ایستاده است.</ShamblerStanding>
   
-  <!-- EN: {PAWN_nameDef} reappeared -->
-  <ObeliskAbductedLetterLabel>TODO</ObeliskAbductedLetterLabel>
-  <!-- EN: {PAWN_nameDef} has been teleported to a strange room. The walls are an unidentifiable gray material and the air is dead still. {PAWN_pronoun} doesn't know where {PAWN_pronoun} is - or how to get home.\n\nA nearby door is jammed but looks like it can be forced open with some effort. Right-click jammed doors to open them.\n\nBy studying the obelisk, other colonists may be able to understand what happened to {PAWN_nameDef} and find a way to help {PAWN_objective}. Alternatively, attacking the obelisk may provoke it to abduct more colonists. -->
-  <ObeliskAbductedLetter>TODO</ObeliskAbductedLetter>
-
-  <!-- EN: {PAWN_nameIndef} has mutated into a fleshbeast. -->
-  <MutatorObeliskMutated>TODO</MutatorObeliskMutated>
-  <!-- EN: A fleshbeast has emerged from the ground. -->
-  <MutatorObeliskSpawned>TODO</MutatorObeliskSpawned>
-
-  <!-- EN: Fully activate the warped obelisk. -->
-  <ObeliskActivateDesc>TODO</ObeliskActivateDesc>
-  <!-- EN: Warning: The warped obelisk is unstable. Fully activating it will provoke a dangerous response and will cause the obelisk to self-destruct. -->
-  <ObeliskActivateDescWarning>TODO</ObeliskActivateDescWarning>
-
-  <!-- EN: Requires {0} shards to disable -->
-  <ObeliskDeactivateMissingShards>TODO</ObeliskDeactivateMissingShards>
+  <ShamblerShuffling>بی‌هدف تلوتلو می‌خورد.</ShamblerShuffling>
   
-  <!-- Activity / Supression -->
-  <!-- EN: Activity level -->
-  <ActivityLevel>TODO</ActivityLevel>
-  <!-- EN: Psychic suppression -->
-  <IsPsychicallySuppressed>TODO</IsPsychicallySuppressed>
-  <!-- EN: Increase rate -->
-  <ActivityIncrease>TODO</ActivityIncrease>
-  <!-- EN: Not in sealed room -->
-  <NotInSealedRoom>TODO</NotInSealedRoom>
-  <!-- EN: Energy harvesting -->
-  <EnergyHarvesting>TODO</EnergyHarvesting>
-  <!-- EN: Unstable -->
-  <Unstable>TODO</Unstable>
-  <!-- EN: Base level -->
-  <BaseLevel>TODO</BaseLevel>
-  <!-- EN: Is active -->
-  <IsActive>TODO</IsActive>
-  <!-- EN: resist -->
-  <Resisted>TODO</Resisted>
-  <!-- EN: Damaged -->
-  <HealthFactor>TODO</HealthFactor>
-
-  <!-- EN: {PAWN_labelShort} was sent. -->
-  <CommandSent>TODO</CommandSent>
-  <!-- EN: Cannot activate entity -->
-  <CannotActivateEntity>TODO</CannotActivateEntity>
-  <!-- EN: Entity must be on platform -->
-  <CannotActivateEntityPlatform>TODO</CannotActivateEntityPlatform>
+  <LetterText_ShamblerGorehulk>مراقب باشید، این گروه شامل یک گورهالک نامیرا است.</LetterText_ShamblerGorehulk>
   
-  <!-- EN: Activity -->
-  <ActivityGizmo>TODO</ActivityGizmo>
-  <!-- EN: Automatic suppression -->
-  <ActivitySuppressionTooltipTitle>TODO</ActivitySuppressionTooltipTitle>
-  <!-- EN: Automatic suppression is currently disabled. Enable it to have wardens suppress the {0}. -->
-  <ActivitySuppressionTooltipDisabled>TODO</ActivitySuppressionTooltipDisabled>
-  <!-- EN: The {0}'s activity level rises over time. Activity rises faster if the {0} is damaged or provoked.\n\nIf the activity level reaches 100%, the {0} will activate.\n\nWardens can suppress the {0} to keep its activity at a safe level. They will suppress it any time its activity is above the assigned level: {LEVEL}\n\nEntities that have higher activity levels will give more knowledge when studied. -->
-  <ActivitySuppressionTooltipDesc>TODO</ActivitySuppressionTooltipDesc>
-  <!-- EN: This determines whether the {0} will be automatically suppressed when its activity is above {LEVEL}.\n\nAutomatic suppression is currently {ONOFF}. -->
-  <ActivitySuppressionToggleTooltipDesc>TODO</ActivitySuppressionToggleTooltipDesc>
+  <LetterText_ShamblerGorehulkPlural>مراقب باشید، این گروه شامل چندین گورهالک نامیرا است.</LetterText_ShamblerGorehulkPlural>
+  
+  <LetterText_ShamblerChimera>مراقب باشید، این گروه شامل یک کیمرای نامیرا است.</LetterText_ShamblerChimera>
+  
+  <LetterText_ShamblerChimeraPlural>مراقب باشید، این گروه شامل چندین کیمرای نامیرا است.</LetterText_ShamblerChimeraPlural>
 
-  <!-- Activity Descs -->
-  <!-- EN: activity level -->
-  <ActivityLevelDesc>TODO</ActivityLevelDesc>
-  <!-- EN: psychic suppression -->
-  <PsychicallySuppressedDesc>TODO</PsychicallySuppressedDesc>
+  
+  <MessageRitualCannotBeMutant>غیرانسان‌ها نمی‌توانند در آیین‌ها شرکت کنند.</MessageRitualCannotBeMutant>
 
-  <!-- Entity study -->
-  <!-- EN: Capture -->
-  <CaptureEntity>TODO</CaptureEntity>
-  <!-- EN: Capture {0_definite}. It must be restrained on a holding platform. Once restrained, it can be studied. -->
-  <CaptureEntityDesc>TODO</CaptureEntityDesc>
-  <!-- EN: Cancel capture -->
-  <CancelCapture>TODO</CancelCapture>
-  <!-- EN: Cancel capturing {0_definite}. -->
-  <CancelCaptureDesc>TODO</CancelCaptureDesc>
-  <!-- EN: ready to study -->
-  <ReadyToStudy>TODO</ReadyToStudy>
-  <!-- EN: No active anomaly research project selected for {0} knowledge category. -->
-  <NoActiveResearchProject>TODO</NoActiveResearchProject>
-  <!-- EN: Capturable -->
-  <Capturable>TODO</Capturable>
-  <!-- EN: Must be captured in a holding platform. -->
-  <RequiresHoldingPlatform>TODO</RequiresHoldingPlatform>
-  <!-- EN: Choose a location for the nociosphere to teleport to. -->
-  <ChooseNociosphereDest>TODO</ChooseNociosphereDest>
-  <!-- EN: Transfer {0_definite} -->
+  
+  
+  <LetterLabelRevenantRevealed>حمله رونانت</LetterLabelRevenantRevealed>
+  
+  <LetterRevenantRevealed>یک رونانت خود را آشکار کرده است!</LetterRevenantRevealed>
+  
+  <LetterRevenantRevealedFirst>یک رونانت خود را آشکار کرده و در حال شکار یکی از ساکنان شماست!</LetterRevenantRevealedFirst> 
+  
+  <LetterLabelRevenantSmearDiscovered>رد رونانت کشف شد</LetterLabelRevenantSmearDiscovered>
+  
+  <LetterRevenantSmearDiscovered>{0} متوجه یک لکه سیاه روی زمین شده است. غیرطبیعی به نظر می‌رسد و بوی بد و تندی دارد. هنوز تازه و مرطوب است. به تازگی یک موجود الدریچ از اینجا عبور کرده است.</LetterRevenantSmearDiscovered>
+  
+  <LetterLabelRevenantKilled>رونانت کشته شد</LetterLabelRevenantKilled>
+  
+  <LetterRevenantKilled>رونانت مرده است! کسانی که هیپنوتیزم شده بودند بهبود خواهند یافت.\n\nبدن آن محو شده و ستون فقراتش باقی مانده است. می‌توانید ستون فقرات را جمع‌آوری و مطالعه کنید، یا آن را نابود سازید.</LetterRevenantKilled>
+  
+  <LetterLabelPawnHypnotized>{PAWN_nameDef} هیپنوتیزم شد</LetterLabelPawnHypnotized>
+  
+  <LetterPawnHypnotized>{PAWN_nameDef} توسط یک رونانت هیپنوتیزم شده و اکنون به طور نامفهومی درباره تصاویر و افکار کابوس‌وار هذیان می‌گوید.\n\nکشتن رونانت به هیپنوتیزم پایان خواهد داد.\n\nرونانت از قدرت‌های روانی برای دستکاری ادراک اطرافیانش استفاده می‌کند و خود را نامرئی می‌سازد. با این حال، همچنان می‌توان با دنبال کردن لکه‌های سیاهی که به جا می‌گذارد آن را شکار کرد. رونانت در صورت برخورد با سلاح‌های انفجاری، کف آتش‌نشانی، پالس‌های الکترومغناطیسی (EMP)، آتش یا منورهای مختل‌کننده آشکار خواهد شد.\n\nاگر کشته نشود، رونانت به هیپنوتیزم قربانیان جدید ادامه خواهد داد.</LetterPawnHypnotized>
+  
+  <LetterRevenantFleshChunkLabel>تکه گوشت رونانت</LetterRevenantFleshChunkLabel>
+  
+  <LetterRevenantFleshChunkText>رونانت زخمی تکه‌ای از خود را بر جای گذاشته است. می‌توانید این تکه گوشت را بررسی و تحلیل کنید تا نحوه ردیابی رونانت را بیاموزید.</LetterRevenantFleshChunkText>
+  
+  <LetterRevenantSeenLabel>رونانت دیده شد</LetterRevenantSeenLabel>
+  
+  <LetterRevenantSeen>{PAWN_nameDef} یک رونانت مخفی‌شده را دیده است!</LetterRevenantSeen>
+  
+  <InTrance>در خلسه.</InTrance>
+  
+  <LetterLabelRevenantEmergence>ظهور مجدد رونانت</LetterLabelRevenantEmergence>
+  
+  <LetterRevenantEmergence>رونانت از پناهگاه ستون فقراتش دوباره ظاهر شده است! قبل از اینکه فرار کند آن را نابود کنید.\n\nدر طول این فرآیند، رونانت جهش یافته و مشخصه زیستی جدیدی به خود گرفته است.</LetterRevenantEmergence>
+
+  
+  
+  <LetterLabelSightstealerRevealed>سایت‌استیلر آشکار شد</LetterLabelSightstealerRevealed>
+  
+  <LetterSightstealerRevealed>موجودی دگرگون‌شده از ناکجاآباد ظاهر شده است!</LetterSightstealerRevealed>
+  
+  <MessageSightstealerRevealed>یک سایت‌استیلر ظاهر شده است!</MessageSightstealerRevealed>
+  
+  <LetterLabelSightstealerHowl>جیغ‌های سایت‌استیلر</LetterLabelSightstealerHowl>
+  
+  <LetterSightstealerHowl>ساکنان شما صدای جیغ سایت‌استیلرها را در دوردست می‌شنوند.\n\nتشخیص اینکه کجا یا چند تا هستند دشوار است. آن‌ها ممکن است بلافاصله یا چند روز دیگر سر برسند.</LetterSightstealerHowl>
+  
+  <LetterLabelSightstealerHowlBig>زوزه سایت‌استیلرها</LetterLabelSightstealerHowlBig>
+  
+  <LetterSightstealerHowlBig>ساکنان شما صدای فریاد خشم‌آلود تعداد زیادی سایت‌استیلر دوردست را می‌شنوند. آن‌ها دارند می‌آیند.\n\nممکن است بلافاصله یا چند روز دیگر سر برسند.</LetterSightstealerHowlBig>
+
+  
+  
+  <LetterLabelDeathPallEnded>پایان پرده مرگ</LetterLabelDeathPallEnded> 
+  
+  <LetterDeathPallEnded>پرده مرگ در حال برچیده شدن است. اجسادی که توسط آن احیا شده بودند به زودی به حالت طبیعی خود بازمی‌گردند.</LetterDeathPallEnded>
+  
+  
+  
+  <LetterLabelGateClosing>بسته شدن دروازه گودال</LetterLabelGateClosing>
+  
+  <LetterGateClosing>دروازه گودال در حال بسته شدن است! ورودی آن در آستانه فروریختن است.\n\nورودی دروازه گودال از ابتدا ناپایدار بود و سرانجام دارد خود را مهر و موم می‌کند.</LetterGateClosing>
+  
+  <MustPlaceNextToPitGate>باید در مجاورت یک دروازه گودال قرار گیرد.</MustPlaceNextToPitGate>
+  
+  <PitGateClosedHumanityNote>دروازه گودال بسته شد</PitGateClosedHumanityNote>
+  
+  <PitGateCollapsing>دروازه گودال در حال فروریختن است</PitGateCollapsing> 
+  
+  <PitGateSettling>دروازه گودال در حال آرام گرفتن است</PitGateSettling>
+  
+  <EmergenceWarningLabel>غرش‌های گودال</EmergenceWarningLabel>
+  
+  <EmergenceWarningText>زمین زیر پایتان می‌لرزد و به نظر می‌رسد فریادهای غیرانسانی که از گودال طنین‌انداز می‌شود نزدیک‌تر می‌شوند. به زودی چیزی از آن بیرون خواهد آمد.</EmergenceWarningText>
+
+    
+  
+  <LetterLabelDreadmeldWarning>صداهای لولیدن</LetterLabelDreadmeldWarning>
+  
+  <LetterDreadmeldWarning>هنگامی که {PAWN_nameDef} به این توده گوشتی نزدیک می‌شود، پیچ‌وتاب و تپش سنگینی را از زیر سطح گرم آن حس می‌کند. موجود زنده عظیمی پشت دیوار گوشتی پنهان شده است.</LetterDreadmeldWarning> 
+  
+  <LetterLabelUndercaveCollapsing>غار زیرین ناپایدار است</LetterLabelUndercaveCollapsing> 
+  
+  <LetterUndercaveCollapsing>مرگ دردملد باعث شوکه شدن توده گوشتی و ناپایداری سیستم غار شده است. توده گوشتی که غار را نگه داشته بود در حال از بین رفتن است. ظرف نصف روز، کل غار فرو خواهد ریخت.\n\nقبل از اینکه خیلی دیر شود از غار زیرین خارج شوید!</LetterUndercaveCollapsing>
+
+  
+  
+  <HoldingThing>مهار کردن</HoldingThing>
+  
+  <RemoveFromPlatform>برداشتن {0_labelShort}</RemoveFromPlatform>
+  
+  <RemoveFromPlatformDesc>موجود مهارشده فعلی را از روی سکو بردارید.</RemoveFromPlatformDesc>
+  
+  <ReleasingEntity>{GERUND} {TARGETLABEL} از</ReleasingEntity>
+  
+  <TransferringEntity>{GERUND} {TARGETLABEL}</TransferringEntity>
+  
+  <SelectHoldingPlatform>انتخاب سکوی مهار</SelectHoldingPlatform>
+  
+  <LetterLabelEscapingFromHoldingPlatform>فرار موجود مهارشده</LetterLabelEscapingFromHoldingPlatform> 
+  
+  <LetterEscapingFromHoldingPlatform>موجودات زیر از بند خود گریخته‌اند:\n\n{0}\n\nاتاق‌های مهار قوی‌تری بسازید تا از فرار موجودات جلوگیری کنید. موجودات در سکوهای مهاری که قدرت مهار بالایی دارند کمتر احتمال فرار دارند؛ این قدرت مهار از دیوارهای محکم، درهای مقاوم، روشنایی مناسب و دستگاه‌های مهار ویژه به دست می‌آید.</LetterEscapingFromHoldingPlatform> 
+  
+  <HoldingPlatformRequiresStrength>نیازمند {0} است</HoldingPlatformRequiresStrength>
+  
+  <NoHoldingPlatformsAvailable>هیچ سکوی مهاری در دسترس نیست.</NoHoldingPlatformsAvailable>
+  
+  
+  
+  
+  <MutatorObeliskLetterLabel>فعال‌سازی ابلیسک</MutatorObeliskLetterLabel>
+  
+  <MutatorObeliskLetter>ابلیسک در حال فعال شدن است! با ترق‌تروق هوا در اطرافش، با انرژی وحشتناکی متورم می‌شود. این ابلیسک در شرف خودتخریبی با انفجاری عظیم است، اما پیش از آن، قدرت دگرگون‌کننده هولناک خود را روی هر موجودی که تشخیص دهد به کار خواهد بست.</MutatorObeliskLetter>
+
+  
+  <ObeliskTentacleLetterLabel>جهش ابلیسک</ObeliskTentacleLetterLabel>
+  
+  <ObeliskTentacleLetter>هنگام تعامل با ابلیسک، {PAWN_nameDef} احساس گزگز در بازوی {PAWN_possessive} کرد. لحظاتی بعد، پوست او شکافته شد و زائده‌ای گوشتی از بدنش بیرون زد. بازوی او با یک شاخک لولنده جایگزین شده است!\n\n{PAWN_nameDef} مقداری خون از دست داد، اما در غیر این صورت آسیبی ندیده است.</ObeliskTentacleLetter>
+
+  
+  <ObeliskFleshWhipLetterLabel>جهش ابلیسک</ObeliskFleshWhipLetterLabel>
+  
+  <ObeliskFleshWhipLetter>هنگام تعامل با ابلیسک، {PAWN_nameDef} احساس سوزش و گزگز در بازوی خود حس کرد. لحظاتی بعد، پوستش به شدت شکافته شد و زائده‌ای از بدنش بیرون جهید. بازوی او با شاخکی با نوک تیغه استخوانی جایگزین شده است!\n\n{PAWN_nameDef} مقداری خون از دست داد، اما به نظر می‌رسد از این واقعه هولناک جان سالم به در برده است. این شاخک زشت و مهیب است، اما سلاح سرد بسیار قدرتمندی خواهد بود.</ObeliskFleshWhipLetter>
+
+  
+  <MutatorObeliskFailedArmLetterLabel>تعامل با ابلیسک</MutatorObeliskFailedArmLetterLabel>
+  
+  <MutatorObeliskFailedArmLetter>هنگام تعامل با ابلیسک، {PAWN_nameDef} برای چند لحظه احساس گزگز در بازوی خود کرد. این حس برطرف شد.\n\nابلیسک سعی کرد {PAWN_nameDef} را جهش دهد اما شکست خورد.</MutatorObeliskFailedArmLetter>
+
+  
+  <ObeliskFleshmassStomachLetterLabel>جهش ابلیسک</ObeliskFleshmassStomachLetterLabel>
+  
+  <ObeliskFleshmassStomachLetter>هنگام تعامل با ابلیسک، {PAWN_nameDef} احساس درد شدیدی در معده خود کرد، چرا که بافت بدنش شروع به جوشش و جهش کرد. معده او به توده‌ای از گوشت نیمه‌هوشیار تبدیل شده است. اسیدهای تندی که ترشح می‌کند دردناک هستند اما از مسمومیت غذایی جلوگیری می‌کنند.</ObeliskFleshmassStomachLetter>
+
+  
+  <MutatorObeliskFailedStomachLetterLabel>تعامل با ابلیسک</MutatorObeliskFailedStomachLetterLabel>
+  
+  <MutatorObeliskFailedStomachLetter>هنگام تعامل با ابلیسک، {PAWN_nameDef} برای چند لحظه احساس دل‌درد کرد. این حس گذشت.\n\nابلیسک سعی کرد {PAWN_nameDef} را جهش دهد اما ناموفق بود.</MutatorObeliskFailedStomachLetter>
+
+  
+  <ObeliskFleshmassLungLetterLabel>جهش ابلیسک</ObeliskFleshmassLungLetterLabel>
+  
+  <ObeliskFleshmassLungLetter>هنگام تعامل با ابلیسک، {PAWN_nameDef} احساس درد تیزی در قفسه سینه خود کرد، در حالی که ریه‌اش شروع به پیچ‌وتاب و ورم نمود. ریه او به توده‌ای دردناک از گوشت نیمه‌هوشیار جهش یافته است. این بافت دائماً در حال رشد مجدد و جایگزینی خود است و آن را در برابر اثراتی مانند پوسیدگی ریه و آسم ایمن می‌سازد.</ObeliskFleshmassLungLetter>
+
+  
+  <MutatorObeliskFailedLungLetterLabel>تعامل با ابلیسک</MutatorObeliskFailedLungLetterLabel>
+  
+  <MutatorObeliskFailedLungLetter>هنگام تعامل با ابلیسک، {PAWN_nameDef} چند لحظه احساس درد در قفسه سینه کرد. این حس برطرف شد.\n\nابلیسک سعی کرد {PAWN_nameDef} را جهش دهد اما موفق نشد.</MutatorObeliskFailedLungLetter>
+
+  
+  <ObeliskAnimalMutationLetterLabel>جهش ابلیسک</ObeliskAnimalMutationLetterLabel>
+  
+  <ObeliskAnimalMutationLetter>هنگام تعامل با ابلیسک، {PAWN_nameDef} متوجه جهش ناگهانی انرژی شد. ابلیسک گوشت {ANIMAL} را به طرز وحشیانه‌ای دگرگون کرده و آن را به یک هیولای گوشتی هولناک تبدیل نموده است.</ObeliskAnimalMutationLetter>
+
+  
+  <ObeliskTreeMutationLetterLabel>جهش ابلیسک</ObeliskTreeMutationLetterLabel>
+  
+  <ObeliskTreeMutationLetter>هنگام تعامل با ابلیسک، {PAWN_nameDef} متوجه پالس ناگهانی انرژی شد. ابلیسک درختی در نزدیکی را به درخت شوم تبدیل کرده است. این درختان هیولایی قادر به تغذیه از اجساد و گوشت خام مجاور هستند.</ObeliskTreeMutationLetter>
+
+  
+  <ObeliskDuplicationLetterLabel>همزاد ابلیسک</ObeliskDuplicationLetterLabel>
+  
+  <ObeliskDuplicationLetter>هنگامی که {PAWN_nameDef} با ابلیسک تعامل کرد، با پالس انرژی نوری ساطع شد. {PAWN_nameDef} ناگهان خود را رو در رو با نسخه‌ای همسان از خود دید! این همزاد ادعا می‌کند که {PAWN_nameDef} واقعی است و به کلونی شما پیوسته است.</ObeliskDuplicationLetter>
+
+  
+  <ObeliskDuplicationFailedLetterLabel>شکست ابلیسک</ObeliskDuplicationFailedLetterLabel>
+  
+  <ObeliskDuplicationFailedLetter>{PAWN_nameDef} تلاش کرد ابلیسک را فعال کند اما هیچ اتفاقی نیفتاد. چیزی در وجود {PAWN_nameDef} مانع از تکثیر او توسط ابلیسک می‌شود.</ObeliskDuplicationFailedLetter>
+  
+  
+  <ObeliskDuplicationSuccessMessage>{PAWN_nameDef} با موفقیت تکثیر ابلیسک را فعال کرد.</ObeliskDuplicationSuccessMessage>
+
+  
+  <ObeliskHostileDuplicateLetterLabel>همزاد متخاصم ابلیسک</ObeliskHostileDuplicateLetterLabel>
+  
+  <ObeliskHostileDuplicateLetter>هنگامی که {PAWN_nameDef} با ابلیسک تعامل کرد، با پالس انرژی جرقه‌ای از نور تولید شد. {PAWN_nameDef} خود را رو در رو با کپی از خود یافت. همزاد با نیتی مرگبار به سمت {PAWN_nameDef} نزدیک می‌شود!</ObeliskHostileDuplicateLetter>
+
+  
+  <DuplicatorObeliskLetterLabel>فعال‌سازی ابلیسک</DuplicatorObeliskLetterLabel>
+  
+  <DuplicatorObeliskLetter>ابلیسک در حال فعال شدن است! هوای اطراف آن با انرژی ترق‌تروق می‌کند. به زودی همزادهایی از ساکنان شما با قصد کشتن ظاهر خواهند شد.\n\nمراقب باشید - انرژی ناپایداری در ابلیسک جریان دارد و ممکن است هر لحظه منفجر شود.</DuplicatorObeliskLetter>
+
+  
+  <ObeliskAbductorLetterLabel>ناپدید شدن ساکنان</ObeliskAbductorLetterLabel>
+  
+  <ObeliskAbductorLetter>ابلیسک تاب‌خورده با جریان انرژی فضا را در اطراف خود دگرگون می‌کند. انواع و اقسام موجودات در حال محو شدن هستند و به زودی به کلی ناپدید خواهند شد.\n\nمراقب باشید - انرژی ناپایداری در سراسر ابلیسک در جریان است و ممکن است هر لحظه منفجر شود.</ObeliskAbductorLetter>
+  
+  
+  <ObeliskAbductedDisappearingLetterLabel>{PAWN_nameDef} در حال ناپدید شدن است</ObeliskAbductedDisappearingLetterLabel>
+  
+  <ObeliskAbductedDisappearingLetter>{PAWN_nameDef} متوجه فعالیتی در ابلیسک تاب‌خورده شد. مکانیزم درونی مرموزی زنده شده و باعث گردیده {PAWN_nameDef} شروع به ناپدید شدن کند. او به زودی کاملاً محو خواهد شد.</ObeliskAbductedDisappearingLetter>
+  
+  
+  <ObeliskAbductedLetterLabel>{PAWN_nameDef} دوباره ظاهر شد</ObeliskAbductedLetterLabel>
+  
+  <ObeliskAbductedLetter>{PAWN_nameDef} به اتاقی عجیب دورنوردی شده است. دیوارها از ماده خاکستری ناشناخته‌ای ساخته شده‌اند و هوا کاملاً ساکن است. او نمی‌داند کجاست - یا چگونه به خانه بازگردد.\n\nدری در نزدیکی گیر کرده است اما به نظر می‌رسد بتوان با کمی تلاش آن را به زور باز کرد. برای باز کردن درهای گیر کرده، کلیک راست کنید.\n\nبا مطالعه ابلیسک، سایر ساکنان ممکن است بتوانند بفهمند چه بر سر {PAWN_nameDef} آمده است و راهی برای کمک به او بیابند. از سوی دیگر، حمله به ابلیسک ممکن است آن را تحریک به ربودن ساکنان بیشتری کند.</ObeliskAbductedLetter>
+
+  
+  <MutatorObeliskMutated>{PAWN_nameIndef} به یک هیولای گوشتی جهش یافته است.</MutatorObeliskMutated>
+  
+  <MutatorObeliskSpawned>یک هیولای گوشتی از دل زمین بیرون آمده است.</MutatorObeliskSpawned>
+
+  
+  <ObeliskActivateDesc>فعال‌سازی کامل ابلیسک تاب‌خورده.</ObeliskActivateDesc>
+  
+  <ObeliskActivateDescWarning>هشدار: ابلیسک تاب‌خورده ناپایدار است. فعال‌سازی کامل آن واکنشی خطرناک در پی خواهد داشت و باعث انفجار خود ابلیسک می‌شود.</ObeliskActivateDescWarning>
+
+  
+  <ObeliskDeactivateMissingShards>برای غیرفعال کردن به {0} تکه نیاز دارد</ObeliskDeactivateMissingShards>
+  
+  
+  
+  <ActivityLevel>سطح فعالیت</ActivityLevel>
+  
+  <IsPsychicallySuppressed>سرکوب روانی</IsPsychicallySuppressed>
+  
+  <ActivityIncrease>میزان افزایش</ActivityIncrease>
+  
+  <NotInSealedRoom>در اتاق درزبندی‌شده نیست</NotInSealedRoom>
+  
+  <EnergyHarvesting>برداشت انرژی</EnergyHarvesting>
+  
+  <Unstable>ناپایدار</Unstable>
+  
+  <BaseLevel>سطح پایه</BaseLevel>
+  
+  <IsActive>فعال است</IsActive>
+  
+  <Resisted>مقاومت کرد</Resisted>
+  
+  <HealthFactor>آسیب‌دیده</HealthFactor>
+
+  
+  <CommandSent>{PAWN_labelShort} فرستاده شد.</CommandSent>
+  
+  <CannotActivateEntity>امکان فعال‌سازی موجود نیست</CannotActivateEntity>
+  
+  <CannotActivateEntityPlatform>موجود باید روی سکو باشد</CannotActivateEntityPlatform>
+  
+  
+  <ActivityGizmo>فعالیت</ActivityGizmo>
+  
+  <ActivitySuppressionTooltipTitle>سرکوب خودکار</ActivitySuppressionTooltipTitle>
+  
+  <ActivitySuppressionTooltipDisabled>سرکوب خودکار در حال حاضر غیرفعال است. آن را فعال کنید تا نگهبانان {0} را سرکوب کنند.</ActivitySuppressionTooltipDisabled>
+  
+  <ActivitySuppressionTooltipDesc>سطح فعالیت {0} به مرور زمان افزایش می‌یابد. در صورت آسیب دیدن یا تحریک شدن {0}، فعالیت سریع‌تر بالا می‌رود.\n\nاگر سطح فعالیت به ۱۰۰٪ برسد، {0} فعال خواهد شد.\n\nنگهبانان می‌توانند {0} را سرکوب کنند تا فعالیت آن را در سطحی ایمن نگه دارند. هر زمان که فعالیت از سطح تعیین‌شده بیشتر شود: {LEVEL} آن را سرکوب خواهند کرد.\n\nموجوداتی که سطح فعالیت بالاتری دارند، هنگام مطالعه دانش بیشتری به دست می‌دهند.</ActivitySuppressionTooltipDesc>
+  
+  <ActivitySuppressionToggleTooltipDesc>این مشخص می‌کند که آیا {0} وقتی فعالیتش بالاتر از {LEVEL} است به طور خودکار سرکوب شود یا خیر.\n\nسرکوب خودکار در حال حاضر {ONOFF} است.</ActivitySuppressionToggleTooltipDesc>
+
+  
+  
+  <ActivityLevelDesc>سطح فعالیت</ActivityLevelDesc>
+  
+  <PsychicallySuppressedDesc>سرکوب روانی</PsychicallySuppressedDesc>
+
+  
+  
+  <CaptureEntity>به دام انداختن</CaptureEntity>
+  
+  <CaptureEntityDesc>{0_definite} را به دام بیندازید. باید روی یک سکوی مهار مهار شود. پس از مهار، می‌توان آن را مطالعه کرد.</CaptureEntityDesc>
+  
+  <CancelCapture>لغو به دام انداختن</CancelCapture>
+  
+  <CancelCaptureDesc>لغو به دام انداختن {0_definite}.</CancelCaptureDesc>
+  
+  <ReadyToStudy>آماده مطالعه</ReadyToStudy>
+  
+  <NoActiveResearchProject>هیچ پروژه تحقیقاتی آنومالی فعالی برای دسته دانش {0} انتخاب نشده است.</NoActiveResearchProject>
+  
+  <Capturable>قابل به دام انداختن</Capturable>
+  
+  <RequiresHoldingPlatform>باید در یک سکوی مهار به دام انداخته شود.</RequiresHoldingPlatform>
+  
+  <ChooseNociosphereDest>مکانی را برای دورنوردی نوسیوسفر انتخاب کنید.</ChooseNociosphereDest>
+  
   <TransferEntity>انتقال {0_definite}</TransferEntity>
-  <!-- EN: Transfer the contained entity to another holding platform. -->
-  <TransferEntityDesc>TODO</TransferEntityDesc>
-  <!-- EN: Cancel transfer -->
-  <CancelTransfer>TODO</CancelTransfer>
-  <!-- EN: Cancel transferring this entity to another holding platform. -->
-  <CancelTransferDesc>TODO</CancelTransferDesc>
   
-  <!-- Metalhorrors -->
-  <!-- EN: Emerged from -->
-  <EmergedFrom>TODO</EmergedFrom>
-  <!-- EN: Metalhorror emerging -->
-  <Emerging>TODO</Emerging>
+  <TransferEntityDesc>انتقال موجود مهارشده به یک سکوی مهار دیگر.</TransferEntityDesc>
   
-  <!-- EN: Implanted before arrival at your colony -->
-  <ImplantSourceUnknown>TODO</ImplantSourceUnknown>
-  <!-- EN: Implanter insectoid -->
-  <InsectImplant>TODO</InsectImplant>
-  <!-- EN: Implanted during sleep by {SOURCE_nameDef} -->
-  <SleepImplant>TODO</SleepImplant>
-  <!-- EN: Implanted during surgery by {SOURCE_nameDef} -->
-  <SurgeryImplant>TODO</SurgeryImplant>
-  <!-- EN: Implanted through a meal cooked by {SOURCE_nameDef} -->
-  <FoodImplant>TODO</FoodImplant>
-  <!-- EN: Implanted during unnatural healing by {SOURCE_nameDef} -->
-  <UnnaturalHealingImplant>TODO</UnnaturalHealingImplant>
-  <!-- EN: Implanted when fed a meal by {SOURCE_nameDef} -->
-  <FeedingImplant>TODO</FeedingImplant>
+  <CancelTransfer>لغو انتقال</CancelTransfer>
+  
+  <CancelTransferDesc>لغو انتقال این موجود به سکوی مهار دیگر.</CancelTransferDesc>
+  
+  
+  
+  <EmergedFrom>خارج شده از</EmergedFrom>
+  
+  <Emerging>متال‌هورور در حال خروج است</Emerging>
+  
+  
+  <ImplantSourceUnknown>قبل از ورود به کلونی شما کاشته شده است</ImplantSourceUnknown>
+  
+  <InsectImplant>حشره‌سان کاشته‌شده</InsectImplant>
+  
+  <SleepImplant>در خواب توسط {SOURCE_nameDef} کاشته شده است</SleepImplant>
+  
+  <SurgeryImplant>در حین جراحی توسط {SOURCE_nameDef} کاشته شده است</SurgeryImplant>
+  
+  <FoodImplant>از طریق غذای پخته‌شده توسط {SOURCE_nameDef} کاشته شده است</FoodImplant>
+  
+  <UnnaturalHealingImplant>در حین درمان غیرطبیعی توسط {SOURCE_nameDef} کاشته شده است</UnnaturalHealingImplant>
+  
+  <FeedingImplant>هنگام تغذیه شدن توسط {SOURCE_nameDef} کاشته شده است</FeedingImplant>
 
-  <!-- EN: Metalhorror emerging -->
-  <MetalhorrorEmergingLabel>TODO</MetalhorrorEmergingLabel>
-  <!-- EN: A metalhorror is emerging! Slicing through flesh and skin, this nightmarish bladed creature is cutting its way out of its host. The metalhorror is emerging from: -->
-  <MetalhorrorEmergingDesc>TODO</MetalhorrorEmergingDesc>
-  <!-- EN: Metalhorrors are emerging! Slicing through flesh and skin, these nightmarish bladed creatures are cutting their way out of their hosts. Metalhorrors are emerging from: -->
-  <MetalhorrorEmergingPluralDesc>TODO</MetalhorrorEmergingPluralDesc>
-  <!-- EN: These horrifying metallic parasites live inside the victim, taking control of higher reasoning via a network of hair-thin metallic filaments that they spread throughout the body and brain. They control the victim's mind and compel them to infect others with new metalhorrors. -->
-  <MetalhorrorEmergingDescAppended>TODO</MetalhorrorEmergingDescAppended>
   
-  <!-- EN: These doctors were infested and controlled by metalhorrors, so they lied about the results of a surgical inspection -->
-  <MetalhorrorSurgicalInspectionDetails>TODO</MetalhorrorSurgicalInspectionDetails>
+  <MetalhorrorEmergingLabel>متال‌هورور در حال خروج است</MetalhorrorEmergingLabel>
   
-  <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because it was discovered by {PAWN_nameDef} during a social interaction. -->
-  <MetalhorrorReasonInteraction>TODO</MetalhorrorReasonInteraction>
-  <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because it was discovered by {PAWN_nameDef} during an interrogation. -->
-  <MetalhorrorReasonInterrogation>TODO</MetalhorrorReasonInterrogation>
-  <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because {INFECTED_nameDef} died. -->
-  <MetalhorrorReasonHostDied>TODO</MetalhorrorReasonHostDied>
-  <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because it was detected by {PAWN_nameDef} during a surgical inspection. -->
-  <MetalhorrorReasonSurgeryInspected>TODO</MetalhorrorReasonSurgeryInspected>
-  <!-- EN: {INFECTED_nameDef}'s metalhorror emerged for unknown reasons. -->
-  <MetalhorrorReasonRandom>TODO</MetalhorrorReasonRandom>
-  <!-- EN: {INFECTED_nameDef}'s metalhorror emerged upon sensing it was being taken away from the colony. -->
-  <MetalhorrorReasonTriedToLeaveMap>TODO</MetalhorrorReasonTriedToLeaveMap>
+  <MetalhorrorEmergingDesc>یک متال‌هورور در حال بیرون آمدن است! با بریدن گوشت و پوست، این موجود تیغه‌دار کابوس‌وار در حال گشودن راه خروج خود از بدن میزبان است. متال‌هورور در حال بیرون آمدن از:</MetalhorrorEmergingDesc>
   
-  <!-- EN: Metalhorror detected -->
-  <MetalhorrorDetected>TODO</MetalhorrorDetected>
-  <!-- EN: {PAWN_nameDef} noticed something wrong with {INFECTED_nameDef} while chatting. {INFECTED_nameDef} exhibited some combination of unnatural behavior, strange vocal sounds, or barely visible metallic worms in the eyes. {PAWN_nameDef} suspects that {INFECTED_nameDef} is infected with a metalhorror. -->
-  <InteractionDetectedDesc>TODO</InteractionDetectedDesc>
-  <!-- EN: {PAWN_nameDef} has found something unusual while interrogating {INFECTED_nameDef}. {INFECTED_nameDef} exhibited some combination of unnatural behavior, strange vocal sounds, or barely visible metallic worms in the eyes. {PAWN_nameDef} suspects that {INFECTED_nameDef} is infected with a metalhorror. -->
-  <InterrogationDetectedDesc>TODO</InterrogationDetectedDesc>
+  <MetalhorrorEmergingPluralDesc>متال‌هورورها در حال بیرون آمدن هستند! با بریدن گوشت و پوست، این موجودات تیغه‌دار کابوس‌وار در حال شکافتن راه خروج خود از میزبانانشان هستند. متال‌هورورها در حال بیرون آمدن از:</MetalhorrorEmergingPluralDesc>
   
-  <!-- EN: Metalhorrors are parasites that control the host and use them to infect others.\n\nMetalhorrors grow stronger inside the host as time passes. A metalhorror will cut its way out of the host's body if it knows it's been detected. The process is horrifying, but the host generally survives.\n\nThe only way to confirm a person is infected with a metalhorror is to study the metalhorror's fleshy leavings to identify its biosignature, then use the surgical inspection operation with a trusted doctor.\n\nOnce discovered, you can use the surgical inspection operation to cause a metalhorror to emerge from its host. Be prepared for a fight. -->
-  <MetalhorrorNoticedDetailsAppended>TODO</MetalhorrorNoticedDetailsAppended>
+  <MetalhorrorEmergingDescAppended>این انگل‌های فلزی وحشتناک درون قربانی زندگی می‌کنند و از طریق شبکه‌ای از رشته‌های فلزی نازک که در سرتاسر بدن و مغز پخش می‌کنند، کنترل بخش استدلال را به دست می‌گیرند. آن‌ها ذهن قربانی را کنترل کرده و او را وادار می‌کنند دیگران را به متال‌هورورهای جدید آلوده کند.</MetalhorrorEmergingDescAppended>
   
-  <!-- EN: Gray flesh -->
-  <LetterGrayFleshDiscoveredLabel>TODO</LetterGrayFleshDiscoveredLabel>
-  <!-- EN: {PAWN_nameDef} has discovered a strip of fleshy tissue. It resembles human skin stained gray by tiny metallic particles. It must have sloughed off someone during flesh liquification.\n\nSomeone here may not be what they seem.\n\nThere are several ways to detect imposters:\n\n{METHODS}\n\nWarning: Some parasites can control the mind and even be transmitted to others. -->
-  <LetterGrayFleshDiscovered>TODO</LetterGrayFleshDiscovered>
   
-  <!-- EN: The “interrogate” prisoner interaction mode is now unlocked. -->
-  <LetterInterrogationUnlocked>TODO</LetterInterrogationUnlocked>
+  <MetalhorrorSurgicalInspectionDetails>این پزشکان آلوده و تحت کنترل متال‌هورورها بودند، بنابراین در مورد نتایج معاینه جراحی دروغ گفتند</MetalhorrorSurgicalInspectionDetails>
   
-  <!-- EN: Imprison someone and send a warden to interrogate them about their true identity. This can take many days. -->
-  <LetterGrayFleshMethodOne>TODO</LetterGrayFleshMethodOne>
-  <!-- EN: Collect more gray flesh and analyze it to determine the biosignature of the threat. Then, use the surgical inspection operation to search for that biosignature. It could take a long time to collect enough samples, and the surgery is invasive. -->
-  <LetterGrayFleshMethodTwo>TODO</LetterGrayFleshMethodTwo>
-  <!-- EN: Execute or banish whoever you suspect. -->
-  <LetterGrayFleshMethodThree>TODO</LetterGrayFleshMethodThree>
   
-  <!-- EN: Metalhorrors awakening -->
-  <LetterMetalhorrorReawakeningLabel>TODO</LetterMetalhorrorReawakeningLabel>
-  <!-- EN: The metalhorrors have been disturbed and are awakening again! -->
-  <LetterMetalhorrorReawakening>TODO</LetterMetalhorrorReawakening>
+  <MetalhorrorReasonInteraction>متال‌هورور {INFECTED_nameDef} بیرون آمد چون در طول یک تعامل اجتماعی توسط {PAWN_nameDef} کشف شد.</MetalhorrorReasonInteraction>
+  
+  <MetalhorrorReasonInterrogation>متال‌هورور {INFECTED_nameDef} بیرون آمد چون در طول بازجویی توسط {PAWN_nameDef} کشف شد.</MetalhorrorReasonInterrogation>
+  
+  <MetalhorrorReasonHostDied>متال‌هورور {INFECTED_nameDef} بیرون آمد چون {INFECTED_nameDef} مرد.</MetalhorrorReasonHostDied>
+  
+  <MetalhorrorReasonSurgeryInspected>متال‌هورور {INFECTED_nameDef} بیرون آمد چون در حین معاینه جراحی توسط {PAWN_nameDef} شناسایی شد.</MetalhorrorReasonSurgeryInspected>
+  
+  <MetalhorrorReasonRandom>متال‌هورور {INFECTED_nameDef} به دلایل نامعلومی بیرون آمد.</MetalhorrorReasonRandom>
+  
+  <MetalhorrorReasonTriedToLeaveMap>متال‌هورور {INFECTED_nameDef} با احساس اینکه از کلونی دور می‌شود بیرون آمد.</MetalhorrorReasonTriedToLeaveMap>
+  
+  
+  <MetalhorrorDetected>متال‌هورور شناسایی شد</MetalhorrorDetected>
+  
+  <InteractionDetectedDesc>{PAWN_nameDef} در حین گفتگو متوجه نکته مشکوکی در {INFECTED_nameDef} شد. {INFECTED_nameDef} ترکیبی از رفتار غیرطبیعی، صداهای عجیب، یا کرم‌های فلزی به سختی قابل مشاهده در چشم‌ها را نشان داد. {PAWN_nameDef} مظنون است که {INFECTED_nameDef} به متال‌هورور آلوده شده باشد.</InteractionDetectedDesc>
+  
+  <InterrogationDetectedDesc>{PAWN_nameDef} در حین بازجویی از {INFECTED_nameDef} چیز غیرعادی پیدا کرده است. {INFECTED_nameDef} رفتارهای غیرطبیعی، صداهای عجیب یا کرم‌های فلزی کم‌پیدا در چشمانش نشان داد. {PAWN_nameDef} مظنون است که {INFECTED_nameDef} به یک متال‌هورور آلوده شده باشد.</InterrogationDetectedDesc>
+  
+  
+  <MetalhorrorNoticedDetailsAppended>متال‌هورورها انگل‌هایی هستند که میزبان را کنترل کرده و از آن‌ها برای آلوده کردن دیگران استفاده می‌کنند.\n\nبا گذشت زمان، متال‌هورورها درون میزبان قوی‌تر می‌شوند. اگر متال‌هورور متوجه شود که شناسایی شده، راه خود را با بریدن از بدن میزبان به بیرون باز می‌کند. این فرآیند وحشتناک است، اما میزبان عموماً زنده می‌ماند.\n\nتنها راه اطمینان از ابتلای فرد، مطالعه بقایای گوشتی متال‌هورور برای شناسایی مشخصه زیستی آن و سپس انجام عمل معاینه جراحی با یک پزشک قابل اعتماد است.\n\nپس از کشف، می‌توانید از عمل جراحی برای تحریک خروج متال‌هورور از میزبان استفاده کنید. برای مبارزه آماده باشید.</MetalhorrorNoticedDetailsAppended>
+  
+  
+  <LetterGrayFleshDiscoveredLabel>گوشت خاکستری</LetterGrayFleshDiscoveredLabel>
+  
+  <LetterGrayFleshDiscovered>{PAWN_nameDef} نواری از بافت گوشتی کشف کرده است. شبیه پوست انسان است که با ذرات ریز فلزی خاکستری شده است. باید هنگام مایع شدن گوشت از بدن کسی جدا شده باشد.\n\nممکن است فردی در اینجا آن چیزی نباشد که به نظر می‌رسد.\n\nچندین روش برای شناسایی متظاهران وجود دارد:\n\n{METHODS}\n\nهشدار: برخی انگل‌ها می‌توانند ذهن را کنترل کرده و حتی به دیگران منتقل شوند.</LetterGrayFleshDiscovered>
+  
+  
+  <LetterInterrogationUnlocked>حالت تعامل «بازجویی» از زندانی اکنون باز شده است.</LetterInterrogationUnlocked>
+  
+  
+  <LetterGrayFleshMethodOne>کسی را زندانی کنید و یک نگهبان بفرستید تا درباره هویت واقعی‌اش از او بازجویی کند. این کار ممکن است روزها طول بکشد.</LetterGrayFleshMethodOne>
+  
+  <LetterGrayFleshMethodTwo>گوشت خاکستری بیشتری جمع‌آوری و تحلیل کنید تا مشخصه زیستی تهدید را شناسایی نمایید. سپس، از عمل جراحی برای جستجوی آن مشخصه استفاده کنید. جمع‌آوری نمونه‌های کافی زمان‌بر است و جراحی نیز تهاجمی است.</LetterGrayFleshMethodTwo>
+  
+  <LetterGrayFleshMethodThree>هر کسی را که به او مشکوک هستید اعدام یا تبعید کنید.</LetterGrayFleshMethodThree>
+  
+  
+  <LetterMetalhorrorReawakeningLabel>بیدار شدن متال‌هورورها</LetterMetalhorrorReawakeningLabel>
+  
+  <LetterMetalhorrorReawakening>متال‌هورورهای خوابیده در حال بیدار شدن هستند! آن‌ها برای کشتن به کلونی شما هجوم می‌آورند.</LetterMetalhorrorReawakening>
 
-  <!-- EN: The metalhorrors are beginning to hibernate. They will awaken again if disturbed. -->
-  <MessageMetalHorrorDormant>TODO</MessageMetalHorrorDormant>
   
-  <!-- EN: Hibernating. Will awaken if disturbed. -->
-  <MetalhorrorDormant>TODO</MetalhorrorDormant>
+  <MessageMetalHorrorDormant>متال‌هورورها در حال خواب زمستانی هستند. آن‌ها در صورت مزاحمت بیدار خواهند شد.</MessageMetalHorrorDormant>
   
-  <!-- Surgical inspection -->
-  <!-- EN: Surgical inspection results -->
-  <LetterSurgicallyInspectedLabel>TODO</LetterSurgicallyInspectedLabel>
-  <!-- EN: {DOCTOR_nameDef} performed an extensive surgical inspection of {PATIENT_nameDef}. -->
-  <LetterSurgicallyInspectedHeader>TODO</LetterSurgicallyInspectedHeader>
-  <!-- EN: {DOCTOR_pronoun} says that {DOCTOR_pronoun} found no anomalies. However, a doctor may lie if it is in their own self-interest. -->
-  <LetterSurgicallyInspectedNothing>TODO</LetterSurgicallyInspectedNothing>
   
-  <!-- Death refusal -->
-  <!-- EN: use -->
-  <DeathRefusalUseSingular>TODO</DeathRefusalUseSingular>
-  <!-- EN: uses -->
-  <DeathRefusalUsePlural>TODO</DeathRefusalUsePlural>
-  <!-- EN: Self-resurrecting -->
-  <SelfResurrecting>TODO</SelfResurrecting>
-
-  <!-- Harbinger Tree -->
-  <!-- EN: near harbinger tree -->
-  <HarbingerTreeConsumption>TODO</HarbingerTreeConsumption>
-  <!-- EN: A new harbinger tree has sprouted. -->
-  <HarbingerTreeSprouted>TODO</HarbingerTreeSprouted>
-  <!-- EN: Consuming flesh. -->
-  <HarbingerTreeConsuming>TODO</HarbingerTreeConsuming>
-  <!-- EN: Will consume corpses and meat placed nearby. -->
-  <HarbingerTreeNotConsuming>TODO</HarbingerTreeNotConsuming>
-  <!-- EN: Being consumed by harbinger tree. -->
-  <ConsumedByHarbingerTree>TODO</ConsumedByHarbingerTree>
-  <!-- EN: flesh consumption -->
-  <FleshConsumption>TODO</FleshConsumption>
-  <!-- EN: Create corpse stockpile -->
-  <CreateCorpseStockpile>TODO</CreateCorpseStockpile>
-  <!-- EN: Create a dumping stockpile zone around the harbinger tree for corpses.\n\nHarbinger trees will consume nearby corpses and raw meat. If well fed, the trees will grow faster and create new harbinger trees. -->
-  <CreateCorpseStockpileDesc>TODO</CreateCorpseStockpileDesc>
-
-  <!-- EN: Void node has been disabled. -->
-  <VoidNodeDisabled>TODO</VoidNodeDisabled>
-
-  <!-- Creepjoiners -->
-  <!-- EN: {PAWN_pronoun} wants to talk. You can send a colonist to hear what {PAWN_pronoun} has to say. -->
-  <LetterCreeperAppearedAppended>TODO</LetterCreeperAppearedAppended>
-  <!-- EN: {PAWN_nameDef} wants to join -->
-  <LetterCreeperInviteJoins>TODO</LetterCreeperInviteJoins>
-  <!-- EN: {PAWN_pronoun} may be very useful, but you also sense there is something {PAWN_nameDef} is not telling you. -->
-  <LetterCreeperInviteAppend>TODO</LetterCreeperInviteAppend>
+  <MetalhorrorDormant>در خواب زمستانی. در صورت مزاحمت بیدار خواهد شد.</MetalhorrorDormant>
   
-  <!-- EN: Allow {PAWN_nameDef} to join -->
-  <AcceptCreeper>TODO</AcceptCreeper>
-  <!-- EN: Send {SPEAKER_nameDef} to capture {PAWN_nameDef} -->
-  <CaptureCreeper>TODO</CaptureCreeper>
-  <!-- EN: Send {PAWN_nameDef} away -->
-  <RejectCreeper>TODO</RejectCreeper>
   
-  <!-- Unnatural healing ability -->
-  <!-- EN: Unnatural healing -->
-  <LetterUnnaturalHealingLabel>TODO</LetterUnnaturalHealingLabel>
-  <!-- EN: {CASTER_nameDef} has finished {CASTER_possessive} psychic healing on {PAWN_nameDef}. -->
-  <LetterUnnaturalHealing>TODO</LetterUnnaturalHealing>
-  <!-- EN: However, something went terribly wrong.\n\n{PAWN_nameDef}'s arm split open as a violent growth emerged from {PAWN_possessive} body. {PAWN_possessive} arm has been replaced by a fleshy tentacle! -->
-  <LetterUnnaturalHealingTentacle>TODO</LetterUnnaturalHealingTentacle>
   
-  <!-- Transmutation ability -->
-  <!-- EN: {PAWN_nameDef} has transmuted {ORIGINAL} into {TRANSMUTED}. -->
-  <MessageTransmutedItem>TODO</MessageTransmutedItem>
-  <!-- EN: {PAWN_nameDef} has transmuted {1} into {TRANSMUTED_labelShortIndef}. -->
-  <MessageTransmutedStuff>TODO</MessageTransmutedStuff>
-  <!-- EN: {PAWN_nameDef} has transmuted {1} into {TRANSMUTED_labelPluralIndef}. -->
-  <MessageTransmutedStuffPlural>TODO</MessageTransmutedStuffPlural>
+  <LetterSurgicallyInspectedLabel>نتایج بازرسی جراحی</LetterSurgicallyInspectedLabel>
   
-  <!-- Electroharvester -->
-  <!-- EN: No restrained entity. -->
-  <ElectroharvesterNoEntity>TODO</ElectroharvesterNoEntity>
-  <!-- EN: Not connected to a holding platform. -->
-  <ElectroharvesterNoPlatform>TODO</ElectroharvesterNoPlatform>
+  <LetterSurgicallyInspectedHeader>{DOCTOR_nameDef} یک بازرسی جراحی گسترده انجام داد.</LetterSurgicallyInspectedHeader>
   
-  <!-- Fleshmass Heart -->
-  <!-- EN: Invulnerable. Analyze fleshmass neural lumps to destroy this. -->
-  <FleshmassHeartInvulnerable>TODO</FleshmassHeartInvulnerable>
-  <!-- EN: Growing fleshmass. -->
-  <FleshmassHeartGrowing>TODO</FleshmassHeartGrowing>
-  <!-- EN: Collecting biomass for next growth spurt... -->
-  <FleshmassHeartCollecting>TODO</FleshmassHeartCollecting>
-  <!-- EN: The fleshmass heart is convulsing! -->
-  <MessageHeartAttack>TODO</MessageHeartAttack>
-  <!-- EN: Fleshmass heart defeated -->
-  <LetterLabelFleshmassHeartDestroyed>TODO</LetterLabelFleshmassHeartDestroyed>
-  <!-- EN: The fleshmass heart has been destroyed, leaving behind a broken but still functional core - a twisted amalgam of flesh and archotechnology. The nucleus continues to grow and mutate flesh, even while the surrounding fleshmass decays.\n\nYou can capture the nucleus to study it further or destroy it to end this nightmare. If left alone, it may reform into a new fleshmass heart. -->
-  <LetterFleshmassHeartDestroyed>TODO</LetterFleshmassHeartDestroyed>
-  <!-- EN: The fleshmass heart has grown a new nerve bundle. -->
-  <NerveBundleGrewMessage>TODO</NerveBundleGrewMessage>
-  <!-- EN: The nerve bundle has dropped a neural lump. Analyze it to learn more about the fleshmass heart. -->
-  <NeuralLumpDroppedMessage>TODO</NeuralLumpDroppedMessage>
-  <!-- EN: Must collect and analyze fleshmass neural lumps. Lumps analyzed -->
-  <DestroyHeartDisabled>TODO</DestroyHeartDisabled>
-  <!-- EN: A fleshmass spitter is attacking! -->
-  <SpitterAttacking>TODO</SpitterAttacking>
-  <!-- EN: Gathering acid. Ready in -->
-  <SpitterGatheringSpit>TODO</SpitterGatheringSpit>
-  <!-- EN: Ready to spit acid. -->
-  <SpitterReadyToSpit>TODO</SpitterReadyToSpit>
-
-  <!-- EN: Active fleshmass. May birth fleshbeasts if destroyed. -->
-  <ActiveFleshmassInspect>TODO</ActiveFleshmassInspect>
-
-  <!-- Misc -->
-  <!-- EN: Flesh tentacle attack -->
-  <LetterLabelFleshTentacleAttack>TODO</LetterLabelFleshTentacleAttack>
-  <!-- EN: {PAWN_nameDef}'s operation was successful. However, the twisting mass of flesh that was {PAWN_possessive} tentacle has begun to attack! -->
-  <LetterFleshTentacleAttack>TODO</LetterFleshTentacleAttack>
-  <!-- EN: Biosignature -->
-  <Biosignature>TODO</Biosignature>
-  <!-- EN: Bliss lobotomy -->
-  <BlissLobotomy>TODO</BlissLobotomy>
-  <!-- EN: hp -->
-  <HP>TODO</HP>
-  <!-- EN: analyzed -->
-  <Analyzed>TODO</Analyzed>
-  <!-- EN: Highest skill -->
-  <HighestSkill>TODO</HighestSkill>
+  <LetterSurgicallyInspectedNothing>{DOCTOR_pronoun} می‌گوید که هیچ چیز مشکوکی پیدا نکرده است.</LetterSurgicallyInspectedNothing>
   
-  <!-- EN: {0} dropped a shard of dark archotechnology. You can collect and make use of it. -->
-  <MessageShardDropped>TODO</MessageShardDropped>
   
-  <!-- Blood rain -->
-  <!-- EN: The blood rain has driven {0_nameIndef} into a berserk rage! -->
-  <Berserk_BloodRain>TODO</Berserk_BloodRain>
-  <!-- EN: The blood rain has driven {0_nameIndef} into a manhunting rage! -->
-  <Manhunter_BloodRain>TODO</Manhunter_BloodRain>
-  <!-- EN: This happened because of blood rage buildup. -->
-  <MentalBreakReason_BloodRage>TODO</MentalBreakReason_BloodRage>
   
-  <!-- Unnatural corpses -->
-  <!-- EN: Corpse disappearance -->
-  <LetterLabelCorpseDisappeared>TODO</LetterLabelCorpseDisappeared>
-  <!-- EN: The unnatural corpse has vanished. -->
-  <LetterCorpseDisappeared>TODO</LetterCorpseDisappeared>
-  <!-- EN: {PAWN_nameDef} is starting to feel calmer. -->
-  <LetterCorpseDisappearedPawnAliveAppend>TODO</LetterCorpseDisappearedPawnAliveAppend>
-
-  <!-- EN: Corpse appearance -->
-  <LetterLabelCorpseReappeared>TODO</LetterLabelCorpseReappeared>
-  <!-- EN: The corpse resembling {PAWN_nameDef} has appeared again, as if out of thin air. -->
-  <LetterCorpseReappeared>TODO</LetterCorpseReappeared>
+  <DeathRefusalUseSingular>استفاده</DeathRefusalUseSingular>
   
-  <!-- EN: The corpse resembling {PAWN_nameDef} has somehow gotten out of its {CONTAINER_labelShort}. -->
-  <MessageCorpseEscaped>TODO</MessageCorpseEscaped>
-  <!-- EN: Failed to resurrect {PAWN_nameDef}. It simply does not respond. -->
-  <MessageUnnaturalCorpseResurrect>TODO</MessageUnnaturalCorpseResurrect>
-  <!-- EN: The unnatural corpse has caused {PAWN_nameDef} to faint. -->
-  <MessagePawnFainted>TODO</MessagePawnFainted>
-  <!-- EN: The unnatural corpse has appeared near {PAWN_nameDef} and is approaching! -->
-  <MessageAwokenReappeared>TODO</MessageAwokenReappeared>
-  <!-- EN: The unnatural corpse has vanished. It will come for {PAWN_nameDef} later. -->
-  <MessageAwokenVanished>TODO</MessageAwokenVanished>
-  <!-- EN: The awoken corpse is attacking {PAWN_nameDef}! -->
-  <MessageAwokenAttacking>TODO</MessageAwokenAttacking>
-  <!-- EN: The awoken corpse has destroyed {PAWN_nameDef}'s brain. -->
-  <MessageAwokenKilledVictim>TODO</MessageAwokenKilledVictim>
-  <!-- EN: The awoken corpse has disappeared. -->
-  <MessageAwokenDisappeared>TODO</MessageAwokenDisappeared>
-
-  <!-- EN: This happened because of the presence of an unnatural corpse. -->
-  <MentalBreakReason_MysteriousCorpse>TODO</MentalBreakReason_MysteriousCorpse>
-
-  <!-- EN: Unnatural corpse study progress -->
-  <UnnaturalCorpseStudyLetter>TODO</UnnaturalCorpseStudyLetter>
-  <!-- EN: Your investigation of the unnatural corpse has revealed more about the body. An archotech shard at its core psychically links it with {VICTIM_nameDef}. It will rebuild itself if destroyed, and teleport any distance to be near {VICTIM_nameDef}. \n\n{RESEARCHER_nameDef} thinks that there may be a way to permanently destroy the corpse but will need to study it further.\n\nStudy the corpse more to learn how to destroy it. -->
-  <UnnaturalCorpseStudyLetterDesc>TODO</UnnaturalCorpseStudyLetterDesc>
-
-  <!-- EN: Unnatural corpse study complete -->
-  <UnnaturalCorpseStudyCompletedLetter>TODO</UnnaturalCorpseStudyCompletedLetter>
-  <!-- EN: Your investigation of the unnatural corpse has revealed how to safely remove the archotech shard. Doing so will stop it from psychically tormenting {VICTIM_nameDef}. However, it will also prevent further study of the corpse. -->
-  <UnnaturalCorpseStudyCompletedLetterDesc>TODO</UnnaturalCorpseStudyCompletedLetterDesc>
-
-  <!-- EN: Corpse shard -->
-  <UnnaturalCorpseDeactivatedLetter>TODO</UnnaturalCorpseDeactivatedLetter>
-  <!-- EN: {PAWN_nameDef} extracted an archotech shard from the unnatural corpse, the corpse then began to violently bloat and exploded into gore. -->
-  <UnnaturalCorpseDeactivatedLetterDesc>TODO</UnnaturalCorpseDeactivatedLetterDesc>
-  <!-- EN: {PAWN_nameDef} is feeling better already. -->
-  <UnnaturalCorpseDeactivatedLetterDescAppended>TODO</UnnaturalCorpseDeactivatedLetterDescAppended>
+  <DeathRefusalUsePlural>استفاده‌ها</DeathRefusalUsePlural>
   
-  <!-- EN: Destroy unnatural corpse -->
-  <UnnaturalCorpseDeactivate>TODO</UnnaturalCorpseDeactivate>
-  <!-- EN: Permanently destroy the unnatural corpse. -->
-  <UnnaturalCorpseDeactivateDesc>TODO</UnnaturalCorpseDeactivateDesc>
-  <!-- EN: Choose who should destroy this. -->
-  <UnnaturalCorpseGuiLabel>TODO</UnnaturalCorpseGuiLabel>
-  <!-- EN: destroy -->
-  <UnnaturalCorpseJobString>TODO</UnnaturalCorpseJobString>
-  <!-- EN: destroying {0} -->
-  <UnnaturalCorpseActivatingEnroute>TODO</UnnaturalCorpseActivatingEnroute>
-  <!-- EN: destroying {0}: {1}s -->
-  <UnnaturalCorpseActivating>TODO</UnnaturalCorpseActivating>
+  <SelfResurrecting>خوداحیاکننده</SelfResurrecting>
+
   
-  <!-- EN: Unnatural corpse -->
-  <UnnaturalCorpseAwakeningLetter>TODO</UnnaturalCorpseAwakeningLetter>
-  <!-- EN: {PAWN_nameDef} feels the unnatural corpse growing rapidly stronger. Some horrible consciousness is flickering within it.\n\nSomething awful will happen in the next few days. -->
-  <UnnaturalCorpseAwakeningLetterDesc>TODO</UnnaturalCorpseAwakeningLetterDesc>
-  <!-- EN: Destroy the corpse before it's too late. -->
-  <UnnaturalCorpseAwakeningLetterExtra_StudyComplete>TODO</UnnaturalCorpseAwakeningLetterExtra_StudyComplete>
-  <!-- EN: Study the corpse to learn how to destroy it. -->
-  <UnnaturalCorpseAwakeningLetterExtra_StudyIncomplete>TODO</UnnaturalCorpseAwakeningLetterExtra_StudyIncomplete>
-
-  <!-- EN: Corpse awakened -->
-  <UnnaturalCorpseAwokenLetter>TODO</UnnaturalCorpseAwokenLetter>
-  <!-- EN: The unnatural corpse is rising! It intends to attack {PAWN_nameDef}!\n\nThe corpse will follow {PAWN_nameDef} forever no matter how far {PAWN_pronoun} goes.\n\nYou must destroy it now. -->
-  <UnnaturalCorpseAwokenLetterDesc>TODO</UnnaturalCorpseAwokenLetterDesc>
-
-  <!-- EN: Unnatural corpse destroyed! -->
-  <UnnaturalCorpseAwokenDefeatedLetter>TODO</UnnaturalCorpseAwokenDefeatedLetter>
-  <!-- EN: The unnatural corpse charging towards {PAWN_nameDef} has been defeated!\n\nThe corpse will no longer torment {PAWN_nameDef}. -->
-  <UnnaturalCorpseAwokenDefeatedLetterDesc>TODO</UnnaturalCorpseAwokenDefeatedLetterDesc>
-
-  <!-- Golden Cube -->
-  <!-- EN: {PAWN_labelShort}'s obsession with the golden cube has intensified. -->
-  <MessageGoldenCubeSeverityIncreased>TODO</MessageGoldenCubeSeverityIncreased>
-  <!-- EN: {PAWN_labelShort} is experiencing cube withdrawal. -->
-  <MessageGoldenCubeWithdrawal>TODO</MessageGoldenCubeWithdrawal>
-  <!-- EN: {PAWN_labelShort}'s cube withdrawal has worsened. -->
-  <MessageGoldenCubeWithdrawalIncreased>TODO</MessageGoldenCubeWithdrawalIncreased>
-  <!-- EN: {PAWN_labelShort} has become intrigued by the golden cube. -->
-  <MessageGoldenCubeInterest>TODO</MessageGoldenCubeInterest>
-  <!-- EN: {PAWN_labelShort} is enraged that {PAWN_possessive} cube sculpture was removed. {PAWN_pronoun} might become violent. -->
-  <MessageGoldenCubeSculptureDestroyed>TODO</MessageGoldenCubeSculptureDestroyed>
-
-  <!-- EN: {PAWN_labelShort} refuses to deactivate the golden cube. -->
-  <CannotDisableCube>TODO</CannotDisableCube>
   
-  <!-- EN: Cube coma: {PAWN_labelShort} -->
-  <LetterLabelGoldenCubeComa>TODO</LetterLabelGoldenCubeComa>
-  <!-- EN: {PAWN_labelShort}'s cube withdrawal has sent {PAWN_objective} into a coma. {PAWN_pronoun} will remain in a coma until the golden cube's psychic link has completely dissipated. -->
-  <LetterGoldenCubeComa>TODO</LetterGoldenCubeComa>
-
-  <!-- EN: Deactivating the golden cube will cause any cube-interested people to enter a violent berserk rage. Any cube-interested people in caravans will be permanently lost. -->
-  <CubeDeactivationConfirmation>TODO</CubeDeactivationConfirmation>
-  <!-- EN: The following people will enter a berserk rage -->
-  <CubeDeactivationConfirmationPawnsBerserk>TODO</CubeDeactivationConfirmationPawnsBerserk>
-  <!-- EN: The following people will run away and be lost -->
-  <CubeDeactivationConfirmationPawnsLost>TODO</CubeDeactivationConfirmationPawnsLost>
-  <!-- EN: Are you sure you want to continue? -->
-  <CubeDeactivationConfirmationEnd>TODO</CubeDeactivationConfirmationEnd>
-  <!-- EN: Cube deactivation -->
-  <CubeDeactivationBerserk>TODO</CubeDeactivationBerserk>
-  <!-- EN: {PAWN_labelShort} has successfully destroyed the golden cube. The psychic whiplash has driven colonists into a berserk rage! -->
-  <CubeDeactivationBerserkDesc>TODO</CubeDeactivationBerserkDesc>
-  <!-- EN: These people have entered a temporary berserk rage -->
-  <CubeDeactivationBerserkPawns>TODO</CubeDeactivationBerserkPawns>
-  <!-- EN: These people in caravans have run away in a rage -->
-  <CubeDeactivationLostPawns>TODO</CubeDeactivationLostPawns>
-
-  <!-- EN: This happened because of {PAWN_possessive} obsession with the cube. -->
-  <MentalBreakReason_CubeSculpting>TODO</MentalBreakReason_CubeSculpting>
+  <HarbingerTreeConsumption>نزدیک درخت شوم</HarbingerTreeConsumption>
   
-  <!-- EN: dirt -->
-  <CubeMaterialDirt>TODO</CubeMaterialDirt>
-  <!-- EN: stone -->
-  <CubeMaterialStone>TODO</CubeMaterialStone>
-  <!-- EN: sand -->
-  <CubeMaterialSand>TODO</CubeMaterialSand>
-  <!-- EN: scrap -->
-  <CubeMaterialScrap>TODO</CubeMaterialScrap>
+  <HarbingerTreeSprouted>یک درخت شوم جدید جوانه زده است.</HarbingerTreeSprouted>
   
-  <!-- EN: building a sculpture. -->
-  <ReportBuildingCubeEnroute>TODO</ReportBuildingCubeEnroute>
+  <HarbingerTreeConsuming>در حال بلعیدن گوشت.</HarbingerTreeConsuming>
   
-  <!-- Slaughter ability -->
-  <!-- EN: Cannot slaughter: {PAWN_labelShort} does not have flesh. -->
-  <MessageSlaughterNoFlesh>TODO</MessageSlaughterNoFlesh>
-  <!-- EN: Cannot slaughter: {PAWN_labelShort} is too large. -->
-  <MessageSlaughterTooBig>TODO</MessageSlaughterTooBig>
+  <HarbingerTreeNotConsuming>اجساد و گوشت قرار داده شده در نزدیکی خود را خواهد بلعید.</HarbingerTreeNotConsuming>
   
-  <!-- Labyrinth -->
-  <!-- EN: Entering the labyrinth -->
-  <GeneratingLabyrinth>TODO</GeneratingLabyrinth>
-  <!-- EN: {PAWN_nameDef} has vanished. -->
-  <MessagePawnVanished>TODO</MessagePawnVanished>
-  <!-- EN: {PAWN_nameDef} has reappeared. -->
-  <MessagePawnReappeared>TODO</MessagePawnReappeared>
+  <ConsumedByHarbingerTree>در حال بلعیده شدن توسط درخت شوم.</ConsumedByHarbingerTree>
   
-  <!-- EN: Exit direction -->
-  <FloorEtchingsInspectorExit>TODO</FloorEtchingsInspectorExit>
+  <FleshConsumption>بلعیدن گوشت</FleshConsumption>
   
-  <!-- EN: Warped obelisk -->
-  <LetterLabelObeliskDiscovered>TODO</LetterLabelObeliskDiscovered>
-  <!-- EN: {PAWN_nameDef} has discovered a large obelisk. It looks nearly identical to the one that originally brought {PAWN_objective} here. Perhaps it can be activated to return {PAWN_objective} home.\n\nSelect {PAWN_nameDef} and right-click the obelisk to activate it. -->
-  <LetterObeliskDiscovered>TODO</LetterObeliskDiscovered>
+  <CreateCorpseStockpile>ایجاد انبار جسد</CreateCorpseStockpile>
   
-  <!-- EN: Floor etchings -->
-  <LetterLabelFloorEtchings>TODO</LetterLabelFloorEtchings>
-  <!-- EN: {PAWN_nameDef} has managed to decipher the floor etchings.\n\n{RAMBLINGS}\n\nThey seem to indicate that an exit is somewhere {DIRECTION} of here. -->
-  <LetterFloorEtchings>TODO</LetterFloorEtchings>
+  <CreateCorpseStockpileDesc>ایجاد یک منطقه زباله‌دانی برای اجساد در اطراف درخت شوم.</CreateCorpseStockpileDesc>
 
-  <!-- EN: Floor etchings -->
-  <LetterLabelFloorEtchingRamblings>TODO</LetterLabelFloorEtchingRamblings>
-  <!-- EN: {PAWN_nameDef} has managed to decipher the floor etchings. -->
-  <LetterFloorEtchingsRamblings>TODO</LetterFloorEtchingsRamblings>
-
-  <!-- EN: Colonists returned -->
-  <LetterLabelLabyrinthExit>TODO</LetterLabelLabyrinthExit>
-  <!-- EN: The whirring obelisk has returned your abducted colonists. Shortly after doing so, it vanished into thin air.\n\nBe careful, the obelisk may have returned other creatures as well. -->
-  <LetterLabyrinthExit>TODO</LetterLabyrinthExit>
-
-  <!-- EN: Jammed shut. Must be forced open. -->
-  <GrayDoorJammed>TODO</GrayDoorJammed>
-  <!-- EN: Activated by proximity. -->
-  <ActivatedByProximity>TODO</ActivatedByProximity>
-
-  <!-- Void monolith -->
-  <!-- EN: No available pawns. -->
-  <MonolithActivateDisabledPawns>TODO</MonolithActivateDisabledPawns>
-  <!-- EN: The monolith's dark metallic surface is warm to the touch, and {PAWN_nameDef} thinks {PAWN_pronoun} can hear a faint hum emanating from inside. The lines on its dusty surface seem to squirm in unsettling patterns.\n\n{PAWN_nameDef} focuses on the shapes, trying to uncover their meaning.\n\nThe hum strengthens. The shapes begin to flow in {PAWN_nameDef}'s vision, but the surface isn't changing. Power begins to uncoil in the empty space all around. A black shape is forming in {PAWN_possessive} mind.\n\nThe Anomaly is stirring... -->
-  <VoidMonolithInvestigatedText>TODO</VoidMonolithInvestigatedText>
-  <!-- EN: Keep focusing on the Anomaly -->
-  <VoidMonolithInvestigate>TODO</VoidMonolithInvestigate>
-  <!-- EN: Walk away -->
-  <VoidMonolithWalkAway>TODO</VoidMonolithWalkAway>
-  <!-- EN: View quest -->
-  <VoidMonolithViewQuest>TODO</VoidMonolithViewQuest>
-  <!-- EN: View Anomaly research -->
-  <VoidMonolithViewResearch>TODO</VoidMonolithViewResearch>
-  <!-- EN: Current monolith level -->
-  <CurrentMonolithLevel>TODO</CurrentMonolithLevel>
-  <!-- EN: Send a colonist to investigate this. -->
-  <VoidMonolithUndiscovered>TODO</VoidMonolithUndiscovered>
-  <!-- EN: In order to advance the monolith to the next step, you need to discover {0} {1} tier entities. -->
-  <VoidMonolithRequiredEntityCategory>TODO</VoidMonolithRequiredEntityCategory>
-  <!-- EN: Discovered: {0} -->
-  <DiscoveredCount>TODO</DiscoveredCount>
-  <!-- EN: Required entities discovered. -->
-  <VoidMonolithAllEntitiesDiscovered>TODO</VoidMonolithAllEntitiesDiscovered>
-  <!-- EN: Required to increase level -->
-  <VoidMonolithRequiresDiscovery>TODO</VoidMonolithRequiresDiscovery>
-  <!-- EN: Undiscovered entities -->
-  <VoidMonolithRequiresDiscoveryShort>TODO</VoidMonolithRequiresDiscoveryShort>
-  <!-- EN: Must discover {0} more {1} monolith entities. -->
-  <VoidMonolithRequiresCategory>TODO</VoidMonolithRequiresCategory>
-  <!-- EN: Disturbing vision -->
-  <VoidMonolithVisionLabel>TODO</VoidMonolithVisionLabel>
-  <!-- EN: {PAWN_nameDef} has had a strange dream. In it, {PAWN_pronoun} saw a black shape, unfurling in space and time, growing and consuming. The shape originated from a nearby crumbled monolith.\n\nUpon waking from the vision, {PAWN_nameDef} feels strangely drawn to the monolith. It calls to {PAWN_objective}. -->
-  <VoidMonolithVisionText>TODO</VoidMonolithVisionText>
-  <!-- EN: Choose who should do this -->
-  <VoidMonolithChooseActivator>TODO</VoidMonolithChooseActivator>
-  <!-- EN: Target is downed -->
-  <VoidMonolithActivatorDowned>TODO</VoidMonolithActivatorDowned>
-  <!-- EN: Target in mental state -->
-  <VoidMonolithActivatorMentalState>TODO</VoidMonolithActivatorMentalState>
-  <!-- EN: Target is busy -->
-  <VoidMonolithActivatorBusy>TODO</VoidMonolithActivatorBusy>
-  <!-- EN: Target is incapable -->
-  <VoidMonolithActivatorIncapable>TODO</VoidMonolithActivatorIncapable>
-  <!-- EN: Monolith arrival -->
-  <MonolithArrivalLabel>TODO</MonolithArrivalLabel>
-  <!-- EN: Interacting with the psychic signal has caused a strange structure to appear. -->
-  <MonolithArrivalText>TODO</MonolithArrivalText>
-  <!-- EN: It is very similar, if not identical, to the monolith you previously encountered. -->
-  <MonolithArrivalTextExt>TODO</MonolithArrivalTextExt>
-  <!-- EN: Can't {0} monolith -->
-  <CantActivateMonolith>TODO</CantActivateMonolith>
-
-  <!-- EN: Monolith twisting -->
-  <MonolithTwistingAlert>TODO</MonolithTwistingAlert>
-  <!-- EN: Your presence has caused the monolith to twist and morph. Soon the process will be complete. Be prepared for whatever comes next. -->
-  <MonolithTwistingExplanation>TODO</MonolithTwistingExplanation>
-  <!-- EN: Fallen monolith -->
-  <MonolithAutoActivatingLabel>TODO</MonolithAutoActivatingLabel>
-  <!-- EN: A wave of dread passes over your colonists. The fallen monolith has begun to stir. Slowly, it begins to twist and rearrange itself, morphing into something new.\n\nWithin a matter of days, the process will be complete. Be prepared for whatever comes next. -->
-  <MonolithAutoActivatingText>TODO</MonolithAutoActivatingText>
-  <!-- EN: Void monolith -->
-  <MonolithAutoActivatedLabel>TODO</MonolithAutoActivatedLabel>
-  <!-- EN: The monolith's transformation is almost complete... -->
-  <MonolithAutoActivatedText>TODO</MonolithAutoActivatedText>
-
-  <!-- EN: Gray pall -->
-  <LetterLabelGrayPallDescending>TODO</LetterLabelGrayPallDescending>
-  <!-- EN: A blanket of gritty fog has descended on this area. The fog smells ancient, somehow, and it stings the skin. The unnatural grayness of it invokes a sense of dread. -->
-  <LetterGrayPallDescending>TODO</LetterGrayPallDescending>
-
-  <!-- Void Awakening -->
-  <!-- EN: Awakening the void monolith will engulf your colony in darkness for days and attract powerful entities. Make sure you are well prepared:\n\n- Stockpile food, building material, and weapons.\n- Make sure your colony is well lit, and has ample power. Avoid relying on solar generators.\n- Ensure your colony is well defended, and your colonists are ready to fight.\n\nOnce you awaken the void monolith, there is no going back.\n\nAre you sure you want to continue? -->
-  <VoidAwakeningConfirmationText>TODO</VoidAwakeningConfirmationText>
-  <!-- EN: A sphere of writhing psychic energy rises before {PAWN_nameDef}.\n\n{PAWN_nameDef} feels a presence inside {PAWN_possessive} mind, deeper than any normal human sense. {PAWN_pronoun} stands on the shoreline of an infinite black ocean of power. It beckons {PAWN_objective} in...\n\nNearby archotech devices support the sphere along fragile connections. {PAWN_nameDef} could disrupt them, closing this link between worlds.\n\nOr, {PAWN_pronoun} could step into the sphere and merge with the void. It's unknown what dark power could be gained from such an inhuman act. -->
-  <VoidNodeLetter>کره‌ای پیچ‌وتاب‌خورده از انرژی روانی خروشان در برابر شما برمی‌خیزد.</VoidNodeLetter>
-  <!-- EN: Disrupt the link -->
-  <VoidNodeDisrupt>TODO</VoidNodeDisrupt>
-  <!-- EN: Embrace the void -->
-  <VoidNodeEmbrace>TODO</VoidNodeEmbrace>
-  <!-- EN: Postpone -->
-  <VoidNodePostpone>TODO</VoidNodePostpone>
-  <!-- EN: The psychic flows destabilize and the twisted machinery screams. The swirling void flickers. {PAWN_nameDef} feels it shuddering and collapsing into itself.\n\nThe metallic cavern begins to twist, reshaping like the chamber of a massive heart. Before {PAWN_nameDef} has a chance to scream, {PAWN_pronoun} blinks out of existence.\n\n{PAWN_nameDef} has rejected the void.\n\n{PAWN_possessive} story continues... -->
-  <DisruptTheLinkCredits>TODO</DisruptTheLinkCredits>
-  <!-- EN: {PAWN_nameDef} steps into the void and the black ocean floods into {PAWN_objective}, overwhelming every sense, suffusing every thought in {PAWN_possessive} mind.\n\nThe void node has been refocused away from the world, towards one single person. The void structures scream, then blink out of existence.\n\n{PAWN_nameDef} has embraced the void.\n\n{PAWN_possessive} story continues... -->
-  <EmbraceTheVoidCredits>TODO</EmbraceTheVoidCredits>
-  <!-- EN: {PAWN_nameDef} has finished activating {STRUCTURE_definite} -->
-  <StructureActivatedMessage>TODO</StructureActivatedMessage>
-  <!-- EN: Structures activated -->
-  <StructuresActivatedAlertLabel>TODO</StructuresActivatedAlertLabel>
-  <!-- EN: Activate void structures to complete the monolith awakening. -->
-  <StructuresActivatedAlertDescription>TODO</StructuresActivatedAlertDescription>
-  <!-- EN: {PAWN_nameDef}'s connection to the void monolith has been broken. It must be activated again. -->
-  <GleamingMonolithInterrupted>TODO</GleamingMonolithInterrupted>
-
-  <!-- HediffComp_GiveLovinMTBFactor -->
-  <!-- EN: Increases the chance of lovin` -->
-  <IncreasesChanceOfLovin>TODO</IncreasesChanceOfLovin>
-
-  <!-- EN: Unnatural {0_label} corpse -->
-  <UnnaturalCorpse>TODO</UnnaturalCorpse>
-
-  <!-- Studiable -->
-  <!-- EN: Knowledge from study reduced -->
-  <KnowledgeFactorOutdoors>TODO</KnowledgeFactorOutdoors>
-
-  <!-- Unnatural darkness -->
-  <!-- EN: Emergence in {0} -->
-  <EmergenceIn>TODO</EmergenceIn>
-  <!-- EN: Something will emerge from the ground in {0}. -->
-  <EmergenceInDesc>TODO</EmergenceInDesc>
   
-  <!-- Bioferrite harvester -->
-  <!-- EN: Bioferrite contained -->
-  <BioferriteHarvesterContained>TODO</BioferriteHarvesterContained>
-  <!-- EN: per day -->
-  <BioferriteHarvesterPerDay>TODO</BioferriteHarvesterPerDay>
-  <!-- EN: Eject contents -->
-  <BioferriteHarvesterEjectContents>TODO</BioferriteHarvesterEjectContents>
-  <!-- EN: Eject all contained {0} onto the ground. -->
-  <BioferriteHarvesterEjectContentsDesc>TODO</BioferriteHarvesterEjectContentsDesc>
-  <!-- EN: Toggle bioferrite unloading -->
-  <BioferriteHarvesterToggleUnloading>TODO</BioferriteHarvesterToggleUnloading>
-  <!-- EN: When active, colonists will automatically unload bioferrite from the harvester as it is filling up. -->
-  <BioferriteHarvesterToggleUnloadingDesc>TODO</BioferriteHarvesterToggleUnloadingDesc>
-  
-  <!-- Proximity detector -->
-  <!-- EN: Invisible creature detected. -->
-  <ProximityDetectorCreatureDetected>TODO</ProximityDetectorCreatureDetected>
-  
-  <!-- Frenzy inducer -->
-  <!-- EN: Generating frenzy field. -->
-  <FrenzyInducerEffectDescription>TODO</FrenzyInducerEffectDescription>
-  <!-- EN: This happened due to the influence of a frenzy inducer. -->
-  <MentalBreakReason_FrenzyInducer>TODO</MentalBreakReason_FrenzyInducer>
-  
-  <!-- Sleep suppressor -->
-  <!-- EN: sleepless psychic pulsation. -->
-  <SleepSuppressorEffectDescription>TODO</SleepSuppressorEffectDescription>
-  
-  <!-- Devourer -->
-  <!-- EN: Being digested by {0_labelShort}. -->
-  <DigestedBy>TODO</DigestedBy>
+  <VoidNodeDisabled>گره خلأ غیرفعال شده است.</VoidNodeDisabled>
 
-  <!-- Chimeras -->
-  <!-- EN: The chimera is {0} -->
-  <MessageChimeraModeChangeSingular>TODO</MessageChimeraModeChangeSingular>
-  <!-- EN: The chimeras are {0} -->
-  <MessageChimeraModeChangePlural>TODO</MessageChimeraModeChangePlural>
-  <!-- EN: temporarily withdrawing. -->
-  <MessageChimeraWithdrawing>TODO</MessageChimeraWithdrawing>
+  
+  
+  <LetterCreeperAppearedAppended>{PAWN_pronoun} می‌خواهد صحبت کند. می‌توانید یک مهاجر بفرستید تا با او گفتگو کند.</LetterCreeperAppearedAppended>
+  
+  <LetterCreeperInviteJoins>{PAWN_nameDef} می‌خواهد ملحق شود</LetterCreeperInviteJoins>
+  
+  <LetterCreeperInviteAppend>{PAWN_pronoun} ممکن است بسیار مفید باشد، اما شما نیز خطر بالقوه را حس می‌کنید.</LetterCreeperInviteAppend>
+  
+  
+  <AcceptCreeper>اجازه پیوستن به {PAWN_nameDef}</AcceptCreeper>
+  
+  <CaptureCreeper>فرستادن {SPEAKER_nameDef} برای دستگیری {PAWN_nameDef}</CaptureCreeper>
+  
+  <RejectCreeper>رد کردن {PAWN_nameDef}</RejectCreeper>
+  
+  
+  
+  <LetterUnnaturalHealingLabel>درمان غیرطبیعی</LetterUnnaturalHealingLabel>
+  
+  <LetterUnnaturalHealing>{CASTER_nameDef} درمان غیرطبیعی خود را به پایان رسانده است.</LetterUnnaturalHealing>
+  
+  <LetterUnnaturalHealingTentacle>با این حال، اتفاق بسیار وحشتناکی افتاد.\n\nعضوی از بدن به یک شاخک جهش یافته است!</LetterUnnaturalHealingTentacle>
+  
+  
+  
+  <MessageTransmutedItem>{PAWN_nameDef} با کیمیاگری {ORIGINAL} را به {TRANSMUTED} تبدیل کرد.</MessageTransmutedItem>
+  
+  <MessageTransmutedStuff>{PAWN_nameDef} با کیمیاگری {1} را به {TRANSMUTED_labelShortIndef} تبدیل کرد.</MessageTransmutedStuff>
+  
+  <MessageTransmutedStuffPlural>{PAWN_nameDef} با کیمیاگری {1} را به {TRANSMUTED_labelPluralIndef} تبدیل کرد.</MessageTransmutedStuffPlural>
+  
+  
+  
+  <ElectroharvesterNoEntity>هیچ موجود مهارشده‌ای وجود ندارد.</ElectroharvesterNoEntity>
+  
+  <ElectroharvesterNoPlatform>به سکوی مهار متصل نیست.</ElectroharvesterNoPlatform>
+  
+  
+  
+  <FleshmassHeartInvulnerable>آسیب‌ناپذیر. برای نابود کردن این، غده‌های عصبی توده گوشتی را تحلیل کنید.</FleshmassHeartInvulnerable>
+  
+  <FleshmassHeartGrowing>در حال رشد توده گوشتی.</FleshmassHeartGrowing>
+  
+  <FleshmassHeartCollecting>در حال جمع‌آوری زیست‌توده برای جهش رشد بعدی...</FleshmassHeartCollecting>
+  
+  <MessageHeartAttack>قلب توده گوشتی در حال تشنج است!</MessageHeartAttack>
+  
+  <LetterLabelFleshmassHeartDestroyed>شکست قلب توده گوشتی</LetterLabelFleshmassHeartDestroyed>
+  
+  <LetterFleshmassHeartDestroyed>قلب توده گوشتی نابود شده است و هسته‌ای شکسته اما همچنان فعال بر جای گذاشته است - ملغمه‌ای پیچ‌خورده از گوشت و آرکوتکنولوژی. هسته حتی در حالی که توده گوشتی اطراف در حال پوسیدگی است، به رشد و جهش گوشت ادامه می‌دهد.\n\nمی‌توانید هسته را برای مطالعه بیشتر به دام بیندازید یا آن را برای پایان دادن به این کابوس نابود کنید. اگر به حال خود رها شود، ممکن است به یک قلب توده گوشتی جدید تبدیل شود.</LetterFleshmassHeartDestroyed>
+  
+  <NerveBundleGrewMessage>قلب توده گوشتی یک بسته عصبی جدید رشد داده است.</NerveBundleGrewMessage>
+  
+  <NeuralLumpDroppedMessage>بسته عصبی یک غده عصبی انداخته است. آن را تحلیل کنید تا درباره قلب توده گوشتی بیشتر بدانید.</NeuralLumpDroppedMessage>
+  
+  <DestroyHeartDisabled>باید غده‌های عصبی توده گوشتی را جمع‌آوری و تحلیل کنید. غده‌های تحلیل‌شده</DestroyHeartDisabled>
+  
+  <SpitterAttacking>یک اسیدپاش توده گوشتی در حال حمله است!</SpitterAttacking>
+  
+  <SpitterGatheringSpit>در حال جمع‌آوری اسید. آماده در</SpitterGatheringSpit>
+  
+  <SpitterReadyToSpit>آماده برای پاشیدن اسید.</SpitterReadyToSpit>
 
-  <!-- EN: Chimeras attacking -->
-  <LetterChimerasAttackingLabel>TODO</LetterChimerasAttackingLabel>
-  <!-- EN: The chimeras have begun their attack! -->
-  <LetterChimerasAttacking>TODO</LetterChimerasAttacking>
   
-  <!-- Anomaly event frequency -->
-  <!-- EN: No major threats -->
-  <AnomalyFrequency_None>TODO</AnomalyFrequency_None>
-  <!-- EN: Very rare -->
-  <AnomalyFrequency_VeryRare>TODO</AnomalyFrequency_VeryRare>
-  <!-- EN: Rare -->
-  <AnomalyFrequency_Rare>TODO</AnomalyFrequency_Rare>
-  <!-- EN: Balanced -->
-  <AnomalyFrequency_Balanced>TODO</AnomalyFrequency_Balanced>
-  <!-- EN: Intense -->
-  <AnomalyFrequency_Intense>TODO</AnomalyFrequency_Intense>
-  <!-- EN: Overwhelming -->
-  <AnomalyFrequency_Overwhelming>TODO</AnomalyFrequency_Overwhelming>
+  <ActiveFleshmassInspect>توده گوشتی فعال. در صورت تخریب ممکن است هیولاهای گوشتی به دنیا آورد.</ActiveFleshmassInspect>
+
   
-  <!-- EN: Security doors only -->
-  <SecurityDoorsOnly>TODO</SecurityDoorsOnly>
+  
+  <LetterLabelFleshTentacleAttack>حمله شاخک گوشتی</LetterLabelFleshTentacleAttack>
+  
+  <LetterFleshTentacleAttack>عمل جراحی {PAWN_nameDef} موفقیت‌آمیز بود. با این حال، توده گوشتی پیچ‌خورده‌ای که شاخک او بود، شروع به حمله کرده است!</LetterFleshTentacleAttack>
+  
+  <Biosignature>مشخصه زیستی</Biosignature>
+  
+  <BlissLobotomy>لوبوتومی شادی‌بخش</BlissLobotomy>
+  
+  <HP>واحد سلامتی</HP>
+  
+  <Analyzed>تحلیل‌شده</Analyzed>
+  
+  <HighestSkill>بالاترین مهارت</HighestSkill>
+  
+  
+  <MessageShardDropped>{0} تکه‌ای از آرکوتکنولوژی تاریک انداخت. می‌توانید آن را برای اهداف پیشرفته به کار گیرید.</MessageShardDropped>
+  
+  
+  
+  <Berserk_BloodRain>باران خونین {0_nameIndef} را به خشم دیوانه‌وار کشانده است.</Berserk_BloodRain>
+  
+  <Manhunter_BloodRain>باران خونین {0_nameIndef} را به وضعیت انسان‌خوار کشانده است.</Manhunter_BloodRain>
+  
+  <MentalBreakReason_BloodRage>این اتفاق به دلیل تجمع خشم خونین رخ داد.</MentalBreakReason_BloodRage>
+  
+  
+  
+  <LetterLabelCorpseDisappeared>ناپدید شدن جسد</LetterLabelCorpseDisappeared>
+  
+  <LetterCorpseDisappeared>جسد غیرطبیعی ناپدید شده است.</LetterCorpseDisappeared>
+  
+  <LetterCorpseDisappearedPawnAliveAppend>{PAWN_nameDef} کم‌کم احساس آرامش بیشتری می‌کند.</LetterCorpseDisappearedPawnAliveAppend>
+
+  
+  <LetterLabelCorpseReappeared>ظهور مجدد جسد</LetterLabelCorpseReappeared>
+  
+  <LetterCorpseReappeared>جسدی شبیه به {PAWN_nameDef} ظاهر شده است.</LetterCorpseReappeared>
+  
+  
+  <MessageCorpseEscaped>جسد شبیه به {PAWN_nameDef} به نوعی ناپدید شده است.</MessageCorpseEscaped>
+  
+  <MessageUnnaturalCorpseResurrect>تلاش برای احیای {PAWN_nameDef} ناموفق بود. بدن به سادگی واکنشی نشان نمی‌دهد.</MessageUnnaturalCorpseResurrect>
+  
+  <MessagePawnFainted>جسد غیرطبیعی باعث غش کردن {PAWN_nameDef} شد.</MessagePawnFainted>
+  
+  <MessageAwokenReappeared>جسد غیرطبیعی در نزدیکی {PAWN_nameDef} ظاهر شده است.</MessageAwokenReappeared>
+  
+  <MessageAwokenVanished>جسد غیرطبیعی ناپدید شده است. به زودی به دنبال {PAWN_nameDef} خواهد آمد.</MessageAwokenVanished>
+  
+  <MessageAwokenAttacking>جسد بیدارشده در حال حمله به {PAWN_nameDef} است!</MessageAwokenAttacking>
+  
+  <MessageAwokenKilledVictim>جسد بیدارشده مغز {PAWN_nameDef} را نابود کرده است.</MessageAwokenKilledVictim>
+  
+  <MessageAwokenDisappeared>جسد بیدارشده ناپدید شده است.</MessageAwokenDisappeared>
+
+  
+  <MentalBreakReason_MysteriousCorpse>این اتفاق به دلیل حضور یک جسد مرموز رخ داد.</MentalBreakReason_MysteriousCorpse>
+
+  
+  <UnnaturalCorpseStudyLetter>پیشرفت مطالعه جسد غیرطبیعی</UnnaturalCorpseStudyLetter>
+  
+  <UnnaturalCorpseStudyLetterDesc>تحقیقات شما درباره جسد غیرطبیعی اطلاعات جدیدی را آشکار کرده است.</UnnaturalCorpseStudyLetterDesc>
+
+  
+  <UnnaturalCorpseStudyCompletedLetter>مطالعه جسد غیرطبیعی تکمیل شد</UnnaturalCorpseStudyCompletedLetter>
+  
+  <UnnaturalCorpseStudyCompletedLetterDesc>بررسی شما روی جسد غیرطبیعی به پایان رسید. اکنون راه نابودی دائمی آن را می‌دانید.</UnnaturalCorpseStudyCompletedLetterDesc>
+
+  
+  <UnnaturalCorpseDeactivatedLetter>تکه آرکوتک جسد</UnnaturalCorpseDeactivatedLetter>
+  
+  <UnnaturalCorpseDeactivatedLetterDesc>{PAWN_nameDef} یک تکه آرکوتک را از جسد استخراج کرد.</UnnaturalCorpseDeactivatedLetterDesc>
+  
+  <UnnaturalCorpseDeactivatedLetterDescAppended>{PAWN_nameDef} از هم‌اکنون احساس بهتری دارد.</UnnaturalCorpseDeactivatedLetterDescAppended>
+  
+  
+  <UnnaturalCorpseDeactivate>نابود کردن جسد غیرطبیعی</UnnaturalCorpseDeactivate>
+  
+  <UnnaturalCorpseDeactivateDesc>نابود کردن دائمی جسد غیرطبیعی.</UnnaturalCorpseDeactivateDesc>
+  
+  <UnnaturalCorpseGuiLabel>انتخاب کنید چه کسی باید این را نابود کند.</UnnaturalCorpseGuiLabel>
+  
+  <UnnaturalCorpseJobString>نابود کردن</UnnaturalCorpseJobString>
+  
+  <UnnaturalCorpseActivatingEnroute>در حال نابود کردن {0}</UnnaturalCorpseActivatingEnroute>
+  
+  <UnnaturalCorpseActivating>در حال نابود کردن {0}: {1} ثانیه</UnnaturalCorpseActivating>
+  
+  
+  <UnnaturalCorpseAwakeningLetter>بیدار شدن جسد غیرطبیعی</UnnaturalCorpseAwakeningLetter>
+  
+  <UnnaturalCorpseAwakeningLetterDesc>{PAWN_nameDef} حس می‌کند که جسد غیرطبیعی دارد بیدار می‌شود...</UnnaturalCorpseAwakeningLetterDesc>
+  
+  <UnnaturalCorpseAwakeningLetterExtra_StudyComplete>قبل از اینکه خیلی دیر شود جسد را نابود کنید.</UnnaturalCorpseAwakeningLetterExtra_StudyComplete>
+  
+  <UnnaturalCorpseAwakeningLetterExtra_StudyIncomplete>جسد را مطالعه کنید تا بیاموزید چگونه آن را نابود سازید.</UnnaturalCorpseAwakeningLetterExtra_StudyIncomplete>
+
+  
+  <UnnaturalCorpseAwokenLetter>جسد بیدار شد</UnnaturalCorpseAwokenLetter>
+  
+  <UnnaturalCorpseAwokenLetterDesc>جسد غیرطبیعی برخاسته است! قصد دارد به {PAWN_nameDef} حمله کند.</UnnaturalCorpseAwokenLetterDesc>
+
+  
+  <UnnaturalCorpseAwokenDefeatedLetter>جسد غیرطبیعی نابود شد!</UnnaturalCorpseAwokenDefeatedLetter>
+  
+  <UnnaturalCorpseAwokenDefeatedLetterDesc>جسد غیرطبیعی که به سمت {PAWN_nameDef} هجوم می‌برد نابود شده است.</UnnaturalCorpseAwokenDefeatedLetterDesc>
+
+  
+  
+  <MessageGoldenCubeSeverityIncreased>وسواس {PAWN_labelShort} نسبت به مکعب طلایی شدیدتر شده است.</MessageGoldenCubeSeverityIncreased>
+  
+  <MessageGoldenCubeWithdrawal>{PAWN_labelShort} دچار علائم ترک مکعب طلایی شده است.</MessageGoldenCubeWithdrawal>
+  
+  <MessageGoldenCubeWithdrawalIncreased>علائم ترک مکعب طلایی {PAWN_labelShort} وخیم‌تر شده است.</MessageGoldenCubeWithdrawalIncreased>
+  
+  <MessageGoldenCubeInterest>{PAWN_labelShort} مجذوب مکعب طلایی شده است.</MessageGoldenCubeInterest>
+  
+  <MessageGoldenCubeSculptureDestroyed>{PAWN_labelShort} به شدت خشمگین است که مجسمه مکعبی او نابود شده است.</MessageGoldenCubeSculptureDestroyed>
+
+  
+  <CannotDisableCube>{PAWN_labelShort} از غیرفعال کردن مکعب طلایی امتناع می‌کند.</CannotDisableCube>
+  
+  
+  <LetterLabelGoldenCubeComa>کمای مکعب: {PAWN_labelShort}</LetterLabelGoldenCubeComa>
+  
+  <LetterGoldenCubeComa>علائم ترک مکعب طلایی، {PAWN_labelShort} را به کما برده است.</LetterGoldenCubeComa>
+
+  
+  <CubeDeactivationConfirmation>غیرفعال کردن مکعب طلایی باعث خشم تمام افراد شیفته مکعب خواهد شد.</CubeDeactivationConfirmation>
+  
+  <CubeDeactivationConfirmationPawnsBerserk>افراد زیر دچار خشم دیوانه‌وار خواهند شد</CubeDeactivationConfirmationPawnsBerserk>
+  
+  <CubeDeactivationConfirmationPawnsLost>افراد زیر فرار خواهند کرد و ناپدید می‌شوند</CubeDeactivationConfirmationPawnsLost>
+  
+  <CubeDeactivationConfirmationEnd>آیا مطمئن هستید که می‌خواهید ادامه دهید؟</CubeDeactivationConfirmationEnd>
+  
+  <CubeDeactivationBerserk>غیرفعال‌سازی مکعب</CubeDeactivationBerserk>
+  
+  <CubeDeactivationBerserkDesc>{PAWN_labelShort} مکعب طلایی را با موفقیت نابود کرد.</CubeDeactivationBerserkDesc>
+  
+  <CubeDeactivationBerserkPawns>این افراد وارد خشم دیوانه‌وار موقت شده‌اند</CubeDeactivationBerserkPawns>
+  
+  <CubeDeactivationLostPawns>این افراد در کاروان‌ها با خشم پا به فرار گذاشته‌اند</CubeDeactivationLostPawns>
+
+  
+  <MentalBreakReason_CubeSculpting>این اتفاق به دلیل وسواس {PAWN_possessive} به مکعب رخ داد.</MentalBreakReason_CubeSculpting>
+  
+  
+  <CubeMaterialDirt>خاک</CubeMaterialDirt>
+  
+  <CubeMaterialStone>سنگ</CubeMaterialStone>
+  
+  <CubeMaterialSand>شن</CubeMaterialSand>
+  
+  <CubeMaterialScrap>ضایعات</CubeMaterialScrap>
+  
+  
+  <ReportBuildingCubeEnroute>در حال ساخت مجسمه مکعبی.</ReportBuildingCubeEnroute>
+  
+  
+  
+  <MessageSlaughterNoFlesh>امکان ذبح نیست: {PAWN_labelShort} گوشت واقعی ندارد.</MessageSlaughterNoFlesh>
+  
+  <MessageSlaughterTooBig>امکان ذبح نیست: {PAWN_labelShort} بیش از حد بزرگ است.</MessageSlaughterTooBig>
+  
+  
+  
+  <GeneratingLabyrinth>در حال ورود به هزارتو</GeneratingLabyrinth>
+  
+  <MessagePawnVanished>{PAWN_nameDef} ناپدید شده است.</MessagePawnVanished>
+  
+  <MessagePawnReappeared>{PAWN_nameDef} دوباره ظاهر شد.</MessagePawnReappeared>
+  
+  
+  <FloorEtchingsInspectorExit>جهت خروج</FloorEtchingsInspectorExit>
+  
+  
+  <LetterLabelObeliskDiscovered>ابلیسک تاب‌خورده</LetterLabelObeliskDiscovered>
+  
+  <LetterObeliskDiscovered>{PAWN_nameDef} یک ابلیسک بزرگ کشف کرده است. انرژی روانی غریبی از آن ساطع می‌شود.</LetterObeliskDiscovered>
+  
+  
+  <LetterLabelFloorEtchings>حکاکی‌های کف</LetterLabelFloorEtchings>
+  
+  <LetterFloorEtchings>{PAWN_nameDef} موفق شده است حکاکی‌های روی کف را رمزگشایی کند.</LetterFloorEtchings>
+
+  
+  <LetterLabelFloorEtchingRamblings>هذیان‌های حکاکی کف</LetterLabelFloorEtchingRamblings>
+  
+  <LetterFloorEtchingsRamblings>{PAWN_nameDef} توانسته حکاکی‌های کف را رمزگشایی کند، اما متون تنها هذیان‌هایی بی‌معنا هستند.</LetterFloorEtchingsRamblings>
+
+  
+  <LetterLabelLabyrinthExit>بازگشت ساکنان</LetterLabelLabyrinthExit>
+  
+  <LetterLabyrinthExit>ابلیسک چرخان ساکنان ربوده شده شما را بازگردانده است.</LetterLabyrinthExit>
+
+  
+  <GrayDoorJammed>گیر کرده و بسته است. باید به زور باز شود.</GrayDoorJammed>
+  
+  <ActivatedByProximity>با نزدیک شدن فعال می‌شود.</ActivatedByProximity>
+
+  
+  
+  <MonolithActivateDisabledPawns>هیچ ساکنی در دسترس نیست.</MonolithActivateDisabledPawns>
+  
+  <VoidMonolithInvestigatedText>سطح فلزی تیره مونولیت در لمس گرم است...</VoidMonolithInvestigatedText>
+  
+  <VoidMonolithInvestigate>ادامه تمرکز بر آنومالی</VoidMonolithInvestigate>
+  
+  <VoidMonolithWalkAway>فاصله گرفتن</VoidMonolithWalkAway>
+  
+  <VoidMonolithViewQuest>مشاهده ماموریت</VoidMonolithViewQuest>
+  
+  <VoidMonolithViewResearch>مشاهده تحقیقات آنومالی</VoidMonolithViewResearch>
+  
+  <CurrentMonolithLevel>سطح فعلی مونولیت</CurrentMonolithLevel>
+  
+  <VoidMonolithUndiscovered>یک ساکن را برای بررسی این مورد بفرستید.</VoidMonolithUndiscovered>
+  
+  <VoidMonolithRequiredEntityCategory>به منظور ارتقای مونولیت به مرحله بعد، باید موجودات بیشتری کشف شوند.</VoidMonolithRequiredEntityCategory>
+  
+  <DiscoveredCount>کشف‌شده: {0}</DiscoveredCount>
+  
+  <VoidMonolithAllEntitiesDiscovered>موجودات مورد نیاز کشف شدند.</VoidMonolithAllEntitiesDiscovered>
+  
+  <VoidMonolithRequiresDiscovery>برای افزایش سطح لازم است</VoidMonolithRequiresDiscovery>
+  
+  <VoidMonolithRequiresDiscoveryShort>موجودات کشف‌نشده</VoidMonolithRequiresDiscoveryShort>
+  
+  <VoidMonolithRequiresCategory>باید {0} موجود دیگر از دسته {1} مونولیت را کشف کنید.</VoidMonolithRequiresCategory>
+  
+  <VoidMonolithVisionLabel>رویا و بینش نگران‌کننده</VoidMonolithVisionLabel>
+  
+  <VoidMonolithVisionText>{PAWN_nameDef} خواب عجیبی دید. در آن رویا، تصاویری از مونولیت و تاریکی بی‌پایان به او الهام شد.</VoidMonolithVisionText>
+  
+  <VoidMonolithChooseActivator>انتخاب کنید چه کسی باید این کار را انجام دهد</VoidMonolithChooseActivator>
+  
+  <VoidMonolithActivatorDowned>هدف ناتوان و بر زمین افتاده است</VoidMonolithActivatorDowned>
+  
+  <VoidMonolithActivatorMentalState>هدف در وضعیت روحی نامتعادل است</VoidMonolithActivatorMentalState>
+  
+  <VoidMonolithActivatorBusy>هدف مشغول است</VoidMonolithActivatorBusy>
+  
+  <VoidMonolithActivatorIncapable>هدف ناتوان است</VoidMonolithActivatorIncapable>
+  
+  <MonolithArrivalLabel>رسیدن مونولیت</MonolithArrivalLabel>
+  
+  <MonolithArrivalText>تعامل با سیگنال روانی باعث ظاهر شدن سازه‌ای عجیب شده است.</MonolithArrivalText>
+  
+  <MonolithArrivalTextExt>بسیار شبیه، اگر نگوییم کاملاً یکسان، به مونولیتی است که قبلاً با آن مواجه شدید.</MonolithArrivalTextExt>
+  
+  <CantActivateMonolith>نمی‌توان مونولیت را {0} کرد</CantActivateMonolith>
+
+  
+  <MonolithTwistingAlert>پیچ‌وتاب مونولیت</MonolithTwistingAlert>
+  
+  <MonolithTwistingExplanation>حضور شما باعث شده مونولیت شروع به دگرگونی و چرخش کند. به زودی این فرآیند کامل می‌شود. برای هر آنچه پیش می‌آید آماده باشید.</MonolithTwistingExplanation>
+  
+  <MonolithAutoActivatingLabel>مونولیت سقوط‌کرده</MonolithAutoActivatingLabel>
+  
+  <MonolithAutoActivatingText>موجی از وحشت بر کلونیست‌های شما سایه می‌افکند. مونولیت سقوط‌کرده شروع به بیدار شدن کرده است. آرام‌آرام تغییر شکل می‌دهد و به چیزی نو بدل می‌شود.\n\nطی چند روز فرآیند کامل خواهد شد. آماده باشید.</MonolithAutoActivatingText>
+  
+  <MonolithAutoActivatedLabel>مونولیت خلأ</MonolithAutoActivatedLabel>
+  
+  <MonolithAutoActivatedText>دگرگونی مونولیت تقریباً کامل شده است...</MonolithAutoActivatedText>
+
+  
+  <LetterLabelGrayPallDescending>پرده خاکستری</LetterLabelGrayPallDescending>
+  
+  <LetterGrayPallDescending>پوششی از مه تیره و سنگین بر این منطقه فرود آمده است. این مه بویی کهن دارد و پوست را می‌سوزاند. خاکستری غیرطبیعی آن حسی از وحشت القا می‌کند.</LetterGrayPallDescending>
+
+  
+  
+  <VoidAwakeningConfirmationText>بیدار کردن مونولیت خلأ، کلونی شما را برای روزها در تاریکی فرو خواهد برد و موجودات قدرتمندی را جذب خواهد کرد. اطمینان حاصل کنید که کاملاً آماده‌اید:\n\n- غذا، مصالح ساختمانی و سلاح ذخیره کنید.\n- اطمینان یابید که کلونی روشنایی کافی و برق فراوان دارد. از اتکا به ژنراتورهای خورشیدی بپرهیزید.\n- مطمئن شوید که کلونی به خوبی دفاع می‌شود و ساکنان آماده نبرد هستند.\n\nهنگامی که مونولیت خلأ را بیدار کنید، راه بازگشتی وجود ندارد.\n\nآیا مطمئن هستید که می‌خواهید ادامه دهید؟</VoidAwakeningConfirmationText>
+  
+  <VoidNodeLetter>کره‌ای از انرژی روانی مواج در برابر {PAWN_nameDef} بالا می‌آید.
+
+{PAWN_nameDef} حضوری را در درون ذهن {PAWN_possessive} حس می‌کند، عمیق‌تر از هر حس عادی انسانی. {PAWN_pronoun} بر ساحل اقیانوسی بی‌پایان و تاریک از قدرت ایستاده است. او را به درون فرا می‌خواند...
+
+دستگاه‌های آرکوتک مجاور، این کره را از طریق اتصالات شکننده‌ای حفظ می‌کنند. {PAWN_nameDef} می‌تواند آن‌ها را مختل کند و این پیوند میان جهان‌ها را ببندد.
+
+یا اینکه {PAWN_pronoun} می‌تواند پا به درون کره بگذارد و با خلأ یکی شود. مشخص نیست چه قدرت تاریکی ممکن است از چنین عمل غیرانسانی به دست آید.</VoidNodeLetter>
+  
+  <VoidNodeDisrupt>برهم زدن پیوند</VoidNodeDisrupt>
+  
+  <VoidNodeEmbrace>در آغوش کشیدن خلأ</VoidNodeEmbrace>
+  
+  <VoidNodePostpone>به تعویق انداختن</VoidNodePostpone>
+  
+  <DisruptTheLinkCredits>جریان‌های روانی ناپایدار می‌شوند و ماشین‌آلات پیچ‌خورده جیغ می‌کشند. خلأ چرخان سوسو می‌زند. {PAWN_nameDef} حس می‌کند که فضا می‌لرزد و در خود فرو می‌ریزد.\n\nغار فلزی شروع به دگرگونی می‌کند و مانند حفره قلبی عظیم تغییر شکل می‌دهد. پیش از آنکه {PAWN_nameDef} فرصت فریاد زدن پیدا کند، از صفحه وجود محو می‌شود.\n\n{PAWN_nameDef} خلأ را رد کرده است.\n\nداستان او ادامه دارد...</DisruptTheLinkCredits>
+  
+  <EmbraceTheVoidCredits>{PAWN_nameDef} قدم به درون خلأ می‌گذارد و اقیانوس سیاه به درون او سرازیر می‌شود، تمام حواس را تسخیر می‌کند و هر فکری را در ذهنش فرا می‌گیرد.\n\nگره خلأ از جهان دور شده و به سوی یک انسان واحد معطوف شده است. سازه‌های خلأ فریاد می‌کشند، سپس محو می‌شوند.\n\n{PAWN_nameDef} خلأ را در آغوش کشیده است.\n\nداستان او ادامه دارد...</EmbraceTheVoidCredits>
+  
+  <StructureActivatedMessage>{PAWN_nameDef} فعال‌سازی {STRUCTURE_definite} را به پایان رساند</StructureActivatedMessage>
+  
+  <StructuresActivatedAlertLabel>سازه‌ها فعال شدند</StructuresActivatedAlertLabel>
+  
+  <StructuresActivatedAlertDescription>سازه‌های خلأ را فعال کنید تا بیداری مونولیت کامل شود.</StructuresActivatedAlertDescription>
+  
+  <GleamingMonolithInterrupted>ارتباط {PAWN_nameDef} با مونولیت خلأ قطع شد. باید دوباره فعال شود.</GleamingMonolithInterrupted>
+
+  
+  
+  <IncreasesChanceOfLovin>شانس عشق‌بازی را افزایش می‌دهد</IncreasesChanceOfLovin>
+
+  
+  <UnnaturalCorpse>جسد غیرطبیعی {0_label}</UnnaturalCorpse>
+
+  
+  
+  <KnowledgeFactorOutdoors>کاهش کسب دانش از مطالعه در فضای باز</KnowledgeFactorOutdoors>
+
+  
+  
+  <EmergenceIn>خروج و ظهور در {0}</EmergenceIn>
+  
+  <EmergenceInDesc>چیزی تا {0} دیگر از دل زمین بیرون خواهد آمد.</EmergenceInDesc>
+  
+  
+  
+  <BioferriteHarvesterContained>بیوفریت ذخیره‌شده</BioferriteHarvesterContained>
+  
+  <BioferriteHarvesterPerDay>در روز</BioferriteHarvesterPerDay>
+  
+  <BioferriteHarvesterEjectContents>تخلیه محتویات</BioferriteHarvesterEjectContents>
+  
+  <BioferriteHarvesterEjectContentsDesc>تخلیه تمام {0} ذخیره‌شده بر روی زمین.</BioferriteHarvesterEjectContentsDesc>
+  
+  <BioferriteHarvesterToggleUnloading>تغییر وضعیت تخلیه بیوفریت</BioferriteHarvesterToggleUnloading>
+  
+  <BioferriteHarvesterToggleUnloadingDesc>در صورت فعال بودن، ساکنان به محض پر شدن دروگر، بیوفریت را به طور خودکار تخلیه می‌کنند.</BioferriteHarvesterToggleUnloadingDesc>
+  
+  
+  
+  <ProximityDetectorCreatureDetected>موجود نامرئی شناسایی شد.</ProximityDetectorCreatureDetected>
+  
+  
+  
+  <FrenzyInducerEffectDescription>در حال ایجاد میدان جنون.</FrenzyInducerEffectDescription>
+  
+  <MentalBreakReason_FrenzyInducer>این اتفاق به دلیل تأثیر برانگیزاننده جنون رخ داد.</MentalBreakReason_FrenzyInducer>
+  
+  
+  
+  <SleepSuppressorEffectDescription>تپش روانی بی‌خوابی‌زا.</SleepSuppressorEffectDescription>
+  
+  
+  
+  <DigestedBy>در حال هضم شدن توسط {0_labelShort}.</DigestedBy>
+
+  
+  
+  <MessageChimeraModeChangeSingular>کیمرا در حال {0} است</MessageChimeraModeChangeSingular>
+  
+  <MessageChimeraModeChangePlural>کیمراها در حال {0} هستند</MessageChimeraModeChangePlural>
+  
+  <MessageChimeraWithdrawing>عقب‌نشینی موقت.</MessageChimeraWithdrawing>
+
+  
+  <LetterChimerasAttackingLabel>حمله کیمراها</LetterChimerasAttackingLabel>
+  
+  <LetterChimerasAttacking>کیمراها حمله خود را آغاز کرده‌اند!</LetterChimerasAttacking>
+  
+  
+  
+  <AnomalyFrequency_None>بدون تهدیدات بزرگ</AnomalyFrequency_None>
+  
+  <AnomalyFrequency_VeryRare>بسیار نادر</AnomalyFrequency_VeryRare>
+  
+  <AnomalyFrequency_Rare>نادر</AnomalyFrequency_Rare>
+  
+  <AnomalyFrequency_Balanced>متعادل</AnomalyFrequency_Balanced>
+  
+  <AnomalyFrequency_Intense>شدید</AnomalyFrequency_Intense>
+  
+  <AnomalyFrequency_Overwhelming>طاقت‌فرسا و خردکننده</AnomalyFrequency_Overwhelming>
+  
+  
+  <SecurityDoorsOnly>فقط درهای امنیتی</SecurityDoorsOnly>
   
 </LanguageData>
