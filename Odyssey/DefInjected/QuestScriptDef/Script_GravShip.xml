@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Gravcore detected: Ancient reactor -->
+  <Gravcore_AncientReactor.questAvailableLetterLabel>Gravcore شناسایی شد: راکتور باستانی</Gravcore_AncientReactor.questAvailableLetterLabel>
+  <!-- EN:
+    <li>questDescription->You have detected the energy signature of a gravcore. The signal originates from an ancient decaying reactor. The location is marked on the world map.\n\nCracks in the reactor's shielding are leaking harmful material, bathing the nearby area in toxic fallout. The reactor itself will be heavily guarded by ancient security systems.\n\nObtain gravcores and gravlite panels to increase the size of your gravship.</li>
+  -->
+  <Gravcore_AncientReactor.questDescriptionRules.rulesStrings>
+    <li>questDescription->شما امضای انرژی یک گران‌هسته را شناسایی کرده‌اید. سیگنال از یک راکتور در حال فروپاشی باستانی سرچشمه می‌گیرد. مکان آن بر روی نقشه جهان مشخص شده است.\n\nشکاف‌های موجود در محافظ راکتور در حال نشت مواد مضر هستند و منطقه مجاور را در غبار رادیواکتیو سمی فرو برده‌اند. خود راکتور به شدت توسط سامانه‌های امنیتی باستانی محافظت می‌شود.\n\nبرای افزایش اندازه کشتی گرانشی خود، گران‌هسته‌ها و پنل‌های گران‌لایت به دست آورید.</li>
+  </Gravcore_AncientReactor.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->ancient reactor</li>
+  -->
+  <Gravcore_AncientReactor.questNameRules.rulesStrings>
+    <li>questName->راکتور باستانی</li>
+  </Gravcore_AncientReactor.questNameRules.rulesStrings>
+  
+  <!-- EN: Gravcore detected: Ancient stockpile -->
+  <Gravcore_AncientStockpile.questAvailableLetterLabel>Gravcore شناسایی شد: انبار باستانی</Gravcore_AncientStockpile.questAvailableLetterLabel>
+  <!-- EN:
+    <li>questDescription->You have detected the energy signature of a gravcore. The signal originates from an ancient underground stockpile. The location is marked on the world map.\n\nUnderground stockpiles must be hacked to enter. This process can take days to complete.\n\nObtain gravcores and gravlite panels to increase the size of your gravship.</li>
+  -->
+  <Gravcore_AncientStockpile.questDescriptionRules.rulesStrings>
+    <li>questDescription->شما امضای انرژی یک گران‌هسته را شناسایی کرده‌اید. سیگنال از یک انبار زیرزمینی باستانی سرچشمه می‌گیرد. مکان آن بر روی نقشه جهان مشخص شده است.\n\nانبارهای زیرزمینی برای ورود باید هک شوند. این فرآیند ممکن است چندین روز طول بکشد.\n\nبرای افزایش اندازه کشتی گرانشی خود، گران‌هسته‌ها و پنل‌های گران‌لایت به دست آورید.</li>
+  </Gravcore_AncientStockpile.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Ancient stockpile</li>
+  -->
+  <Gravcore_AncientStockpile.questNameRules.rulesStrings>
+    <li>questName->انبار باستانی</li>
+  </Gravcore_AncientStockpile.questNameRules.rulesStrings>
+  
+  <!-- EN: Gravcore detected: Crash site -->
+  <Gravcore_CrashedMechanoidPlatform.questAvailableLetterLabel>Gravcore شناسایی شد: سایت خرابی</Gravcore_CrashedMechanoidPlatform.questAvailableLetterLabel>
+  <!-- EN:
+    <li>questDescription->You have detected the energy signature of a gravcore. The signal is coming from the wreckage of a crashed orbital platform.\n\nScans reveal a heavy mechanoid presence.\n\nObtain gravcores and gravlite panels to increase the size of your gravship.</li>
+  -->
+  <Gravcore_CrashedMechanoidPlatform.questDescriptionRules.rulesStrings>
+    <li>questDescription->شما امضای انرژی یک گران‌هسته را شناسایی کرده‌اید. سیگنال از لاشه یک سکوی مداری سقوط کرده می‌آید.\n\nاسکن‌ها حضور سنگین مکانویدها را نشان می‌دهند.\n\nبرای افزایش اندازه کشتی گرانشی خود، گران‌هسته‌ها و پنل‌های گران‌لایت به دست آورید.</li>
+  </Gravcore_CrashedMechanoidPlatform.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->crashed mechanoid platform</li>
+  -->
+  <Gravcore_CrashedMechanoidPlatform.questNameRules.rulesStrings>
+    <li>questName->سکوی مکانوید سقوط کرده</li>
+  </Gravcore_CrashedMechanoidPlatform.questNameRules.rulesStrings>
+  
+  <!-- EN: Gravcore detected: Frozen terraformer -->
+  <Gravcore_FrozenTerraformer.questAvailableLetterLabel>Gravcore شناسایی شد: ترافورمر منجمد</Gravcore_FrozenTerraformer.questAvailableLetterLabel>
+  <!-- EN:
+    <li>questDescription->You have detected the energy signature of a gravcore. The gravcore is powering a malfunctioning ancient terraformer. Its location is marked on the world map.\n\nThe terraformer is cooling the local region to dangerously low temperatures. Be prepared for cold weather and a long stay.\n\nObtain gravcores and gravlite panels to increase the size of your gravship.</li>
+  -->
+  <Gravcore_FrozenTerraformer.questDescriptionRules.rulesStrings>
+    <li>questDescription->شما امضای انرژی یک گران‌هسته را شناسایی کرده‌اید. این گران‌هسته نیروی یک دستگاه تغییر اقلیم (ترافورمر) باستانی دارای اختلال را تأمین می‌کند. مکان آن بر روی نقشه جهان مشخص شده است.\n\nاین دستگاه منطقه اطراف را به شدت و تا دماهای خطرناکی سرد می‌کند. برای هوای سرد و اقامت طولانی آماده باشید.\n\nبرای افزایش اندازه کشتی گرانشی خود، گران‌هسته‌ها و پنل‌های گران‌لایت به دست آورید.</li>
+  </Gravcore_FrozenTerraformer.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->frozen terraformer</li>
+  -->
+  <Gravcore_FrozenTerraformer.questNameRules.rulesStrings>
+    <li>questName->ترافورمر منجمد</li>
+  </Gravcore_FrozenTerraformer.questNameRules.rulesStrings>
+  
+  <!-- EN: Gravcore detected: Cave entrance -->
+  <Gravcore_InsectLair.questAvailableLetterLabel>Gravcore شناسایی شد: ورودی غار</Gravcore_InsectLair.questAvailableLetterLabel>
+  <!-- EN:
+    <li>questDescription->You have detected the energy signature of a gravcore. The signal emanates from a cave system deep underground. The entrance to the cave system is marked on the world map.\n\nSubterranean caves can be extremely dangerous and may take days to explore.\n\nObtain gravcores and gravlite panels to increase the size of your gravship.</li>
+  -->
+  <Gravcore_InsectLair.questDescriptionRules.rulesStrings>
+    <li>questDescription->شما امضای انرژی یک گران‌هسته را شناسایی کرده‌اید. سیگنال از یک سیستم غار در اعماق زمین ساطع می‌شود. ورودی این غارها روی نقشه جهان علامت‌گذاری شده است.\n\nغارهای زیرزمینی می‌توانند بسیار خطرناک باشند و کاوش در آن‌ها ممکن است روزها زمان ببرد.\n\nبرای افزایش اندازه کشتی گرانشی خود، گران‌هسته‌ها و پنل‌های گران‌لایت به دست آورید.</li>
+  </Gravcore_InsectLair.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->cave entrance</li>
+  -->
+  <Gravcore_InsectLair.questNameRules.rulesStrings>
+    <li>questName->ورودی غار</li>
+  </Gravcore_InsectLair.questNameRules.rulesStrings>
+  
+  <!-- EN: Gravcore detected: Mechanoid relay -->
+  <Gravcore_MechanoidRelay.questAvailableLetterLabel>Gravcore شناسایی شده: رله مکانیکی</Gravcore_MechanoidRelay.questAvailableLetterLabel>
+  <!-- EN:
+    <li>letterLabelMapGenerated->Mechanoid relay</li>
+    <li>letterTextMapGenerated->A mechanoid relay is nearby, powered by a gravcore.\n\nThe relay is currently protected by nearby stabilizers. Extract the relay's gravcore by first hacking or destroying all the stabilizers.\n\nBe careful, destroying a stabilizer will prompt a defensive response. Hacking is a slower but safer option.</li>
+  -->
+  <Gravcore_MechanoidRelay.questContentRules.rulesStrings>
+    <li>letterLabelMapGenerated->رله مکانوید</li>
+    <li>letterTextMapGenerated->یک رله مکانوید در نزدیکی است که از یک گران‌هسته نیرو می‌گیرد.\n\nاین رله در حال حاضر توسط پایدارکننده‌های مجاور محافظت می‌شود. گران‌هسته رله را با هک کردن یا نابود کردن تمام پایدارکننده‌ها استخراج کنید.\n\nمراقب باشید، نابود کردن یک پایدارکننده باعث واکنش تدافعی خواهد شد. هک کردن گزینه‌ای کندتر اما امن‌تر است.</li>
+  </Gravcore_MechanoidRelay.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription->You have detected the energy signature of a gravcore. It is powering a relay that is part of a huge mechanoid communication net.\n\nYou can disassemble the relay, but the process will take days to complete. The relay itself will be heavily defended by mechanoids.\n\nObtain gravcores and gravlite panels to increase the size of your gravship.</li>
+  -->
+  <Gravcore_MechanoidRelay.questDescriptionRules.rulesStrings>
+    <li>questDescription->شما امضای انرژی یک گران‌هسته را شناسایی کرده‌اید. این هسته به یک رله نیرو می‌دهد که بخشی از شبکه ارتباطی عظیم مکانویدها است.\n\nشما می‌توانید این رله را اوراق کنید، اما تکمیل این فرآیند روزها زمان می‌برد. خود رله به شدت توسط مکانویدها محافظت می‌شود.\n\nبرای افزایش اندازه کشتی گرانشی خود، گران‌هسته‌ها و پنل‌های گران‌لایت به دست آورید.</li>
+  </Gravcore_MechanoidRelay.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->mechanoid relay</li>
+  -->
+  <Gravcore_MechanoidRelay.questNameRules.rulesStrings>
+    <li>questName->رله مکانوید</li>
+  </Gravcore_MechanoidRelay.questNameRules.rulesStrings>
+  
+  <!-- EN: Mechhive detected -->
+  <Gravcore_Mechhive.questAvailableLetterLabel>Mechhive شناسایی شد</Gravcore_Mechhive.questAvailableLetterLabel>
+  <!-- EN:
+    <li>questDescription->You have detected a huge gravtech energy spike originating from a mechhive in orbit. Its location is marked on the world map.\n\nThis mechhive is the center of mechanoid intelligence on this planet. Shutting it down will disable all murderous mechanoids planet-wide. Alternatively, you may be able to use the mechhive for your own purposes.\n\nThe mechhive is defended with anti-ship weapons. Build a signal jammer before approaching it.\n\nBe warned, mechhives are extremely dangerous. Finish exploring other locations first and ensure you're prepared for a long stay in orbit.</li>
+  -->
+  <Gravcore_Mechhive.questDescriptionRules.rulesStrings>
+    <li>questDescription->شما جهش شدید انرژی گران‌فناوری را شناسایی کرده‌اید که از یک کندوی مکانویدی در مدار سرچشمه می‌گیرد. مکان آن بر روی نقشه جهان مشخص شده است.\n\nاین کندوی مکانوید مرکز هوش مکانویدها در این سیاره است. خاموش کردن آن، تمامی مکانویدهای قاتل را در سراسر سیاره از کار خواهد انداخت. از طرف دیگر، ممکن است بتوانید از این کندو برای مقاصد خود استفاده کنید.\n\nکندوی مکانوید مجهز به سلاح‌های ضدکشتی است. قبل از نزدیک شدن به آن یک اخلال‌گر سیگنال بسازید.\n\nهشدار: کندوهای مکانویدی بسیار خطرناک هستند. ابتدا کاوش مکان‌های دیگر را به پایان برسانید و مطمئن شوید که برای اقامتی طولانی در مدار آماده‌اید.</li>
+  </Gravcore_Mechhive.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->mechhive</li>
+  -->
+  <Gravcore_Mechhive.questNameRules.rulesStrings>
+    <li>questName->کندوی مکانوید</li>
+  </Gravcore_Mechhive.questNameRules.rulesStrings>
+  
+  <!-- EN: Gravcore detected: Orbital platform -->
+  <Gravcore_OrbitalAncientPlatform.questAvailableLetterLabel>Gravcore شناسایی شد: پلت فرم مداری</Gravcore_OrbitalAncientPlatform.questAvailableLetterLabel>
+  <!-- EN:
+    <li>questDescription->You have detected the energy signature of a gravcore. The signal is coming from an abandoned orbital platform.\n\nYou can travel to orbital platforms using gravships, shuttles, or transport pods.\n\nBe careful, orbital locations are extremely dangerous. Equip your colonists with vacsuits. Plan your return trip, as living in orbit for long periods is very difficult.</li>
+  -->
+  <Gravcore_OrbitalAncientPlatform.questDescriptionRules.rulesStrings>
+    <li>questDescription->شما امضای انرژی یک گران‌هسته را شناسایی کرده‌اید. سیگنال از یک سکوی مداری متروکه می‌آید.\n\nمی‌توانید با استفاده از کشتی‌های گرانشی، شاتل‌ها یا کپسول‌های حمل و نقل به سکوهای مداری سفر کنید.\n\nمراقب باشید، مکان‌های مداری بسیار خطرناک هستند. ساکنان خود را به لباس‌های فضایی مجهز کنید. برنامه سفر بازگشت خود را بریزید، زیرا زندگی در مدار برای مدت طولانی بسیار دشوار است.</li>
+  </Gravcore_OrbitalAncientPlatform.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->abandoned orbital platform</li>
+  -->
+  <Gravcore_OrbitalAncientPlatform.questNameRules.rulesStrings>
+    <li>questName->سکوی مداری متروکه</li>
+  </Gravcore_OrbitalAncientPlatform.questNameRules.rulesStrings>
+  
+  <!-- EN: Gravcore detected: Mechanoid platform -->
+  <Gravcore_OrbitalMechanoidPlatform.questAvailableLetterLabel>Gravcore شناسایی شد: پلت فرم Mechanoid</Gravcore_OrbitalMechanoidPlatform.questAvailableLetterLabel>
+  <!-- EN:
+    <li>questDescription->You have detected the energy signature of a gravcore. The signal is coming from an orbital mechanoid platform. Scans reveal a heavy defensive presence.\n\nYou can travel to orbital platforms using gravships, shuttles, or transport pods.\n\nBe careful, orbital locations are extremely dangerous. Equip your colonists with vacsuits. Plan your return trip, as living in orbit for long periods is very difficult.</li>
+  -->
+  <Gravcore_OrbitalMechanoidPlatform.questDescriptionRules.rulesStrings>
+    <li>questDescription->شما امضای انرژی یک گران‌هسته را شناسایی کرده‌اید. سیگنال از یک سکوی مداری مکانوید می‌آید. اسکن‌ها حضور دفاعی سنگینی را نشان می‌دهند.\n\nمی‌توانید با استفاده از کشتی‌های گرانشی، شاتل‌ها یا کپسول‌های حمل و نقل به سکوهای مداری بروید.\n\nمراقب باشید، مکان‌های مداری بسیار خطرناک هستند. کلونیست‌های خود را به لباس‌های فضایی مجهز کنید. برنامه سفر بازگشت را بریزید، زیرا زندگی در مدار برای مدتی طولانی بسیار سخت است.</li>
+  </Gravcore_OrbitalMechanoidPlatform.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Mechanoid platform</li>
+  -->
+  <Gravcore_OrbitalMechanoidPlatform.questNameRules.rulesStrings>
+    <li>questName->سکوی مکانوید</li>
+  </Gravcore_OrbitalMechanoidPlatform.questNameRules.rulesStrings>
+  
+  <!-- EN:
+    <li>questDescription->You've discovered a mechanoid grav engine! You can use this to build a gravship to quickly move around the planet.\n\nThe engine includes tech that passively scans for nearby gravship technology. If you obtain this gravship tech, you can upgrade your gravship over time.</li>
+  -->
+  <GravEngine.questDescriptionRules.rulesStrings>
+    <li>questDescription->شما یک موتور گرانشی مکانویدی کشف کرده‌اید! می‌توانید از این برای ساخت یک کشتی گرانشی جهت جابجایی سریع در سراسر سیاره استفاده کنید.\n\nاین موتور شامل فناوری است که به طور خودکار فناوری‌های کشتی گرانشی مجاور را اسکن می‌کند. اگر این فناوری را به دست آورید، می‌توانید به مرور زمان کشتی گرانشی خود را ارتقا دهید.</li>
+  </GravEngine.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->the gravship</li>
+  -->
+  <GravEngine.questNameRules.rulesStrings>
+    <li>questName->کشتی گرانشی</li>
+  </GravEngine.questNameRules.rulesStrings>
+  
+  <!-- EN:
+    <li>questDescription(askerIsNull==true)->You've intercepted the distress beacon from a crashed gravship. The wreckage contains valuable gravtech. Be careful - it is guarded by hostile mechanoids.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] has shared with you the location of a crashed gravship. [asker_pronoun] heard of your study of gravcore technology and thought you might be interested in scavenging whatever gravtech remains. [asker_nameDef] warns you that the crash site is guarded by hostile mechanoids.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], demands that you destroy a number of bothersome mechanoids that are harassing a nearby settlement. The mechanoids are guarding the wreckage of a gravship. If you destroy the mechanoids, [asker_nameDef] will let you keep whatever gravtech you're able to scavenge.</li>
+  -->
+  <GravshipWreckage.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->شما سیگنال فانوس دریایی اضطراری یک کشتی گرانشی سقوط کرده را رهگیری کرده‌اید. لاشه کشتی حاوی گران‌فناوری ارزشمندی است. مراقب باشید - توسط مکانویدهای متخاصم محافظت می‌شود.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] از [asker_faction_name] موقعیت یک کشتی گرانشی سقوط کرده را با شما به اشتراک گذاشته است. او از مطالعات شما درباره فناوری گران‌هسته مطلع شده و فکر کرده ممکن است علاقه‌مند به بازیافت گران‌فناوری‌های باقی‌مانده باشید. [asker_nameDef] هشدار می‌دهد که محل سقوط توسط مکانویدهای دشمن محافظت می‌شود.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull]، یک [asker_royalTitleInCurrentFaction] از [asker_faction_name]، خواستار نابودی تعدادی از مکانویدهای مزاحم است که به یک سکونتگاه نزدیک حمله می‌کنند. این مکانویدها در حال محافظت از لاشه یک کشتی گرانشی هستند. اگر مکانویدها را نابود کنید، [asker_nameDef] به شما اجازه می‌دهد هر گران‌فناوری که بازیابی می‌کنید را برای خود نگه دارید.</li>
+  </GravshipWreckage.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Gravship wreckage</li>
+  -->
+  <GravshipWreckage.questNameRules.rulesStrings>
+    <li>questName->لاشه کشتی گرانشی</li>
+  </GravshipWreckage.questNameRules.rulesStrings>
+  
+  <!-- EN:
+    <li>questDescription->You've detected a signal from a mechanoid ship in orbit. The ship has malfunctioned and is slowly losing altitude.\n\nBy falsely responding to the signal you can make the ship crashland nearby, letting you salvage valuable grav tech.</li>
+    <li>gravEngineSpawnedLetterLabel->grav engine</li>
+    <li>gravEngineSpawnedLetterText->The mechanoid ship has crashlanded nearby.\n\nIt contains a working grav engine. The engine pushes against gravity and generates a lift field around itself, allowing it to levitate massive ships or platforms. While it does not work when far from a planet, it can be used to move across the planet and to reach orbit.\n\nInspect the engine to make use of it.</li>
+  -->
+  <MechanoidSignal.questDescriptionRules.rulesStrings>
+    <li>questDescription->شما سیگنالی از یک کشتی مکانویدی در مدار شناسایی کرده‌اید. کشتی دچار نقص فنی شده و به آرامی در حال از دست دادن ارتفاع است.\n\nبا ارسال پاسخی فریبکارانه به سیگنال، می‌توانید باعث سقوط آن در نزدیکی خود شوید و گران‌فناوری ارزشمند را بازیافت کنید.</li>
+    <li>gravEngineSpawnedLetterLabel->موتور گرانشی</li>
+    <li>gravEngineSpawnedLetterText->کشتی مکانویدی در نزدیکی سقوط کرده است.\n\nاین کشتی حاوی یک موتور گرانشی فعال است. این موتور در جهت خلاف گرانش نیرو وارد کرده و میدانی برآرنده پیرامون خود ایجاد می‌کند که امکان شناور ساختن کشتی‌ها یا سکوهای عظیم را فراهم می‌سازد. هرچند در فواصل دور از سیاره کار نمی‌کند، اما برای حرکت روی سیاره و رسیدن به مدار کاربرد دارد.\n\nبرای استفاده از موتور، آن را بازرسی کنید.</li>
+  </MechanoidSignal.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->mechanoid signal</li>
+  -->
+  <MechanoidSignal.questNameRules.rulesStrings>
+    <li>questName->سیگنال مکانوید</li>
+  </MechanoidSignal.questNameRules.rulesStrings>
+  
+</LanguageData>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: anesthetize -->
+  <Anesthetize.label>بیهوشی</Anesthetize.label>
+  <!-- EN: Render a creature unconscious by administering general anesthetic. -->
+  <Anesthetize.description>بیهوش کردن یک موجود با تجویز بیهوشی عمومی.</Anesthetize.description>
+  <!-- EN: Anesthetizing. -->
+  <Anesthetize.jobString>در حال بیهوشی.</Anesthetize.jobString>
+  
+  <!-- EN: euthanize by cut -->
+  <Euthanize.label>اتانازی با برش</Euthanize.label>
+  <!-- EN: Euthanize a creature by cutting. -->
+  <Euthanize.description>اتانازی یک موجود با برش.</Euthanize.description>
+  <!-- EN: Euthanizing by cutting. -->
+  <Euthanize.jobString>در حال اتانازی با برش.</Euthanize.jobString>
+  
+  <!-- EN: remove part -->
+  <RemoveBodyPart.label>برداشتن عضو بدن</RemoveBodyPart.label>
+  <!-- EN: Remove a body part. -->
+  <RemoveBodyPart.description>برداشتن یک عضو بدن.</RemoveBodyPart.description>
+  <!-- EN: Removing body part. -->
+  <RemoveBodyPart.jobString>در حال برداشتن عضو بدن.</RemoveBodyPart.jobString>
+  
+</LanguageData>

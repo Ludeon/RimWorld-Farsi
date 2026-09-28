@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: legionary -->
+  <Mech_Legionary.label>لژیونر</Mech_Legionary.label>
+  <!-- EN: A combat support mechanoid with a wide-range bullet shield and mid-range needle gun. Designed to support other mechanoids, the legionary is vulnerable to anyone who can get inside its shield. -->
+  <Mech_Legionary.description>یک مکانوئید پشتیبانی رزمی با سپر گلوله با برد وسیع و تفنگ سوزنی میان برد. لژیونری که برای پشتیبانی از سایر مکانیسم‌ها طراحی شده است، در برابر هر کسی که بتواند به داخل سپر آن نفوذ کند آسیب‌پذیر است.</Mech_Legionary.description>
+  <!-- EN: left fist -->
+  <Mech_Legionary.tools.left_fist.label>مشت چپ</Mech_Legionary.tools.left_fist.label>
+  <!-- EN: fist -->
+  <Mech_Legionary.tools.left_fist.labelNoLocation>مشت</Mech_Legionary.tools.left_fist.labelNoLocation>
+  <!-- EN: right fist -->
+  <Mech_Legionary.tools.right_fist.label>مشت راست</Mech_Legionary.tools.right_fist.label>
+  <!-- EN: fist -->
+  <Mech_Legionary.tools.right_fist.labelNoLocation>مشت</Mech_Legionary.tools.right_fist.labelNoLocation>
+  <!-- EN: head -->
+  <Mech_Legionary.tools.head.label>سر</Mech_Legionary.tools.head.label>
+  
+  <!-- EN: scorcher -->
+  <Mech_Scorcher.label>سوزاننده</Mech_Scorcher.label>
+  <!-- EN: A close-approach war mechanoid that specializes in incendiary attacks. Its flame burst attack has little reach, but once it closes on a group of defenders it can ignite and disrupt them with blasts of searing flame. -->
+  <Mech_Scorcher.description>یک مکانوئید جنگی با رویکرد نزدیک که در حملات آتش زا تخصص دارد. حمله انفجاری شعله آن دسترسی کمی دارد، اما هنگامی که روی گروهی از مدافعان بسته می شود، می تواند شعله ور شود و آنها را با انفجار شعله های آتشین مختل کند.</Mech_Scorcher.description>
+  <!-- EN: front left leg -->
+  <Mech_Scorcher.tools.front_left_leg.label>پای چپ جلو</Mech_Scorcher.tools.front_left_leg.label>
+  <!-- EN: leg -->
+  <Mech_Scorcher.tools.front_left_leg.labelNoLocation>پا</Mech_Scorcher.tools.front_left_leg.labelNoLocation>
+  <!-- EN: front right leg -->
+  <Mech_Scorcher.tools.front_right_leg.label>پای راست جلو</Mech_Scorcher.tools.front_right_leg.label>
+  <!-- EN: leg -->
+  <Mech_Scorcher.tools.front_right_leg.labelNoLocation>پا</Mech_Scorcher.tools.front_right_leg.labelNoLocation>
+  <!-- EN: head -->
+  <Mech_Scorcher.tools.head.label>سر</Mech_Scorcher.tools.head.label>
+  
+  <!-- EN: tesseron -->
+  <Mech_Tesseron.label>تسرون</Mech_Tesseron.label>
+  <!-- EN: A medium-range combat mechanoid. While it is fairly vulnerable to attacks, the tesseron's sweeping beam graser can pierce thick armor and even ignite shielded targets. -->
+  <Mech_Tesseron.description>یک مکانوئید رزمی برد متوسط. در حالی که نسبتاً در برابر حملات آسیب‌پذیر است، پرتوی فراگیر تسرون می‌تواند زره ضخیم را سوراخ کند و حتی اهداف محافظت شده را مشتعل کند.</Mech_Tesseron.description>
+  <!-- EN: left fist -->
+  <Mech_Tesseron.tools.left_fist.label>مشت چپ</Mech_Tesseron.tools.left_fist.label>
+  <!-- EN: fist -->
+  <Mech_Tesseron.tools.left_fist.labelNoLocation>مشت</Mech_Tesseron.tools.left_fist.labelNoLocation>
+  <!-- EN: right fist -->
+  <Mech_Tesseron.tools.right_fist.label>مشت راست</Mech_Tesseron.tools.right_fist.label>
+  <!-- EN: fist -->
+  <Mech_Tesseron.tools.right_fist.labelNoLocation>مشت</Mech_Tesseron.tools.right_fist.labelNoLocation>
+  <!-- EN: head -->
+  <Mech_Tesseron.tools.head.label>سر</Mech_Tesseron.tools.head.label>
+  
+</LanguageData>

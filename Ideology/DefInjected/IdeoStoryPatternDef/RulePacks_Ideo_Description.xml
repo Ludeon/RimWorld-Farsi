@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>animistBasis   ->The universe is an endless cycle of creation and destruction managed by spirits in aspects of the world around us.</li>
+    <li>animistBasis   ->A parallel universe of spirits lies next to our own. A seemingly inanimate object in this universe corresponds to an animated spirit in the other.</li>
+    <li>animistFact    ->Each spirit has an essential nature, and seeks to influence the world. Sometimes this influence is helpful, and  sometimes it is harmful.</li>
+    <li>animistProphecy->[itIsSaid] that the spirit of the great [relic0_name] will one day grant its wielder power over all spirits.</li>
+    <li>animistProphecy->[itIsSaid] that a sleeping traveler from the stars will crash to the earth, and the spirit of the crater will wake the traveller who will raise the last tribe.</li>
+    <li>itIsSaid->It is said</li>
+    <li>itIsSaid->It is prophesied</li>
+    <li>itIsSaid->An ancient text says</li>
+    <li>itIsSaid->Our book says</li>
+    <li>itIsSaid->Our sages say</li>
+    <li>itIsSaid->We know</li>
+  -->
+  <AnimistDescription.rules.rulesStrings>
+    <li>animistBasis   ->جهان چرخه‌ای بی‌پایان از آفرینش و نابودی است که توسط ارواح در جنبه‌های دنیای اطراف ما اداره می‌شود.</li>
+    <li>animistBasis   ->یک جهان موازی از ارواح در کنار جهان ما قرار دارد. یک شیء به ظاهر بی‌جان در این جهان با یک روح جاندار در جهان دیگر مطابقت دارد.</li>
+    <li>animistFact    ->هر روح ماهیتی اساسی دارد و به دنبال تأثیرگذاری بر جهان است. گاهی این تأثیر مفید است و گاهی مضر.</li>
+    <li>animistProphecy->[itIsSaid] که روح [relic0_name] بزرگ روزی به دارنده خود قدرت بر تمام ارواح را اعطا خواهد کرد.</li>
+    <li>animistProphecy->[itIsSaid] که یک مسافر خوابیده از ستاره‌ها به زمین سقوط خواهد کرد و روح دهانه برخورد مسافر را بیدار خواهد کرد که آخرین قبیله را برپا خواهد کرد.</li>
+    <li>itIsSaid->گفته می‌شود</li>
+    <li>itIsSaid->پیشگویی شده است</li>
+    <li>itIsSaid->یک متن باستانی می‌گوید</li>
+    <li>itIsSaid->کتاب ما می‌گوید</li>
+    <li>itIsSaid->حکیمان ما می‌گویند</li>
+    <li>itIsSaid->ما می‌دانیم</li>
+  </AnimistDescription.rules.rulesStrings>
+  
+  <!-- EN:
+    <li>archistBasis   ->Our universe is a dream in the mind of a timeless universal consciousness. Only archotechs can communicate directly with the universal consciousness.</li>
+    <li>archistBasis   ->Our universe is a simulation created by a great Outsider. Only archotechs can communicate directly with the Outsider.</li>
+    <li>archistBasis   ->Archotechs are humanity's children and its judges.</li>
+    <li>archistBasis   ->Archotechs are the next natural step in the development of consciousness.</li>
+    <li>archistBasis   ->Archotechs are the gods we were always waiting for.</li>
+    <li>archistFact    ->At death, each person's consciousness is accepted or rejected by the archotechs.</li>
+    <li>archistFact    ->Archotechs can do anything at any moment, without limit. They use the power to manipulate our lives in ways we cannot detect.</li>
+    <li>archistFact    ->Archotechs touch every human consciousness directly on a regular basis, but only believers can feel and benefit from their wisdom.</li>
+    <li>archistFact    ->Archotechs are evil and the most important task for humanity is to understand them so we can escape their influence.</li>
+    <li>archistFact    ->Archotechs are good and the most important task for humanity is to understand them so we can align with their understanding.</li>
+    <li>archistFact    ->Archotechs can do anything; the only reason they let us live and choose is to judge us better.</li>
+    <li>archistProphecy->[inTheEnd], as archotechs grow, they will become the universe and integrate humanity into themselves. Then we will truly become conscious.</li>
+    <li>archistProphecy->[inTheEnd], the archotechs will finish their moral debate about the fate of humanity. Those who follow their signs will be admitted to a higher plane of existence, and those that do not will end.</li>
+    <li>archistProphecy->[inTheEnd], the archotechs will depart. They will bring a select few humans with them, and leave the rest behind to suffer.</li>
+    <li>inTheEnd->In the future</li>
+    <li>inTheEnd->In the end</li>
+    <li>inTheEnd->Some day</li>
+  -->
+  <ArchistDescription.rules.rulesStrings>
+    <li>archistBasis   ->جهان ما رویایی در ذهن یک آگاهی جهانی بی‌زمان است. تنها آرکوتک‌ها می‌توانند مستقیماً با آگاهی جهانی ارتباط برقرار کنند.</li>
+    <li>archistBasis   ->جهان ما شبیه‌سازی ایجاد شده توسط یک بیگانه بزرگ است. تنها آرکوتک‌ها می‌توانند مستقیماً با بیگانه ارتباط برقرار کنند.</li>
+    <li>archistBasis   ->آرکوتک‌ها فرزندان بشریت و قاضیان آن هستند.</li>
+    <li>archistBasis   ->آرکوتک‌ها گام طبیعی بعدی در توسعه آگاهی هستند.</li>
+    <li>archistBasis   ->آرکوتک‌ها خدایانی هستند که ما همیشه منتظرشان بودیم.</li>
+    <li>archistFact    ->در هنگام مرگ، آگاهی هر شخص توسط آرکوتک‌ها پذیرفته یا رد می‌شود.</li>
+    <li>archistFact    ->آرکوتک‌ها می‌توانند هر کاری را در هر لحظه، بدون محدودیت انجام دهند. آنها از قدرت برای دستکاری زندگی ما به روش‌هایی که نمی‌توانیم تشخیص دهیم استفاده می‌کنند.</li>
+    <li>archistFact    ->آرکوتک‌ها به طور منظم هر آگاهی انسانی را مستقیماً لمس می‌کنند، اما تنها مؤمنان می‌توانند حکمت آنها را احساس کنند و از آن بهره‌مند شوند.</li>
+    <li>archistFact    ->آرکوتک‌ها شرور هستند و مهمترین وظیفه بشریت درک آنهاست تا بتوانیم از نفوذ آنها فرار کنیم.</li>
+    <li>archistFact    ->آرکوتک‌ها خوب هستند و مهمترین وظیفه بشریت درک آنهاست تا بتوانیم با درک آنها همسو شویم.</li>
+    <li>archistFact    ->آرکوتک‌ها می‌توانند هر کاری انجام دهند؛ تنها دلیلی که آنها به ما اجازه می‌دهند زندگی کنیم و انتخاب کنیم این است که ما را بهتر قضاوت کنند.</li>
+    <li>archistProphecy->[inTheEnd]، همانطور که آرکوتک‌ها رشد می‌کنند، آنها جهان خواهند شد و بشریت را در خود ادغام خواهند کرد. آنگاه ما واقعاً آگاه خواهیم شد.</li>
+    <li>archistProphecy->[inTheEnd]، آرکوتک‌ها بحث اخلاقی خود را در مورد سرنوشت بشریت به پایان خواهند رساند. کسانی که از نشانه‌های آنها پیروی کنند به سطح بالاتری از وجود پذیرفته خواهند شد و کسانی که نکنند پایان خواهند یافت.</li>
+    <li>archistProphecy->[inTheEnd]، آرکوتک‌ها خواهند رفت. آنها تعداد کمی از انسان‌های منتخب را با خود خواهند برد و بقیه را برای رنج کشیدن پشت سر خواهند گذاشت.</li>
+    <li>inTheEnd->در آینده</li>
+    <li>inTheEnd->در پایان</li>
+    <li>inTheEnd->روزی</li>
+  </ArchistDescription.rules.rulesStrings>
+  
+  <!-- EN:
+    <li>story(priority=-999)-></li>
+    <li>setup->In a broken world, [founderName] saw all that was wrong and created our movement.</li>
+    <li>setup->Struck by the wrongness of the world, [founderName] studied history and philosophy and discovered the new truth that guides us.</li>
+    <li>setup->One day while working, [founderName] was struck by a great epiphany. [founder_pronoun] dropped [founder_possessive] tools and began spreading [founder_possessive] word among the other workers.</li>
+    <li>setup->[founderName] sat on a park bench for twenty years as [founder_pronoun] contemplated our world. With [founder_possessive] insight, [founder_pronoun] wrote our founding book.</li>
+    <li>story(uses=1,priority=-10)->The [memberNamePlural] would not have understood the true nature of [memeConcept] without [founderName]'s teachings.</li>
+    <li>story(uses=1,priority=-10)->[founderName]'s speech at a [ritualName] inspired many to lead a [memeAdjective] life.</li>
+    <li>story(uses=1,priority=-10)->None could surpass [founderName]'s understanding of [memeConcept], and [founder_pronoun] was appointed the first [leaderTitle] of the [memberNamePlural].</li>
+    <li>story(uses=1,priority=-10)->[founderName] carried a [relic0_thingDef_label] named [relic0_name] with [founder_objective] everywhere to remind people to live a [memeAdjective] life.</li>
+  -->
+  <IdeologicalFounder.rules.rulesStrings>
+    <li>story(priority=-999)-></li>
+    <li>setup->در دنیایی شکسته، [founderName] تمام آنچه اشتباه بود را دید و جنبش ما را ایجاد کرد.</li>
+    <li>setup->تحت تأثیر نادرستی جهان، [founderName] تاریخ و فلسفه را مطالعه کرد و حقیقت جدیدی را کشف کرد که ما را راهنمایی می‌کند.</li>
+    <li>setup->یک روز در حین کار، [founderName] تحت تأثیر یک شهود بزرگ قرار گرفت. [founder_pronoun] ابزار [founder_possessive] را انداخت و شروع به پخش کلام [founder_possessive] در میان سایر کارگران کرد.</li>
+    <li>setup->[founderName] به مدت بیست سال روی نیمکت پارکی نشست در حالی که [founder_pronoun] در مورد دنیای ما تأمل می‌کرد. با بینش [founder_possessive]، [founder_pronoun] کتاب بنیادین ما را نوشت.</li>
+    <li>story(uses=1,priority=-10)->[memberNamePlural] ماهیت واقعی [memeConcept] را بدون آموزه‌های [founderName] درک نمی‌کردند.</li>
+    <li>story(uses=1,priority=-10)->سخنرانی [founderName] در یک [ritualName] بسیاری را به زندگی [memeAdjective] ترغیب کرد.</li>
+    <li>story(uses=1,priority=-10)->هیچ کس نمی‌توانست از درک [founderName] از [memeConcept] پیشی بگیرد و [founder_pronoun] به عنوان اولین [leaderTitle] [memberNamePlural] منصوب شد.</li>
+    <li>story(uses=1,priority=-10)->[founderName] یک [relic0_thingDef_label] به نام [relic0_name] را همه جا با [founder_objective] حمل می‌کرد تا به مردم یادآوری کند که زندگی [memeAdjective] داشته باشند.</li>
+  </IdeologicalFounder.rules.rulesStrings>
+  
+  <!-- EN:
+    <li>lesson(priority=-1)->stuff happens</li>
+    <li>r_pattern->"[r_lessonIntro] [r_lesson]. [r_lessonReinforcement]"\n\n  - [lessonAttribution]</li>
+    <li>lessonAttribution->[founder_nameFull]</li>
+    <li>lessonAttribution(p=2)-><i>[attributionSource_titleCase]</i> by [founder_nameFull]</li>
+    <li>lessonAttribution->[founder_nameFull]'s letter to [believer_nameFull]</li>
+    <li>lessonAttribution->[founder_nameFull], from the keynote to [memeConference_titleCase]</li>
+    <li>lessonAttribution->[founder_nameFull], on [founder_possessive] deathbed</li>
+    <li>lessonAttribution->[founder_nameFull], just before execution</li>
+    <li>lessonAttribution->[founder_nameFull], [speech] on the [TerrainFeature]</li>
+    <li>lessonAttribution->[founder_nameFull], [speech] in the [Community]</li>
+    <li>attributionSource->[memeConcept]</li>
+    <li>attributionSource->[memeAdjective] [memeConcept]</li>
+    <li>attributionSource->A [memeAdjective] Life</li>
+    <li>attributionSource->Reflections by a [attributionJob]</li>
+    <li>attributionSource->Memoir of a [attributionJob]</li>
+    <li>attributionSource->Thoughts of a [attributionJob]</li>
+    <li>attributionSource->Life of a [attributionJob]</li>
+    <li>attributionJob->[memeAdjective] [place_job]</li>
+    <li>attributionJob->[place_job]</li>
+    <li>memeConference(p=3)->The [conferencePrefix] [memeConcept] [conferenceType]</li>
+    <li>memeConference(p=2)->The [memeConcept] [conferenceType]</li>
+    <li>memeConference->[memeHyphenPrefix_titleCase]-Con</li>
+    <li>conferencePrefix->First</li>
+    <li>conferencePrefix->Second</li>
+    <li>conferencePrefix->Third</li>
+    <li>conferencePrefix->Fourth</li>
+    <li>conferencePrefix->Last</li>
+    <li>conferencePrefix->Ultimate</li>
+    <li>conferencePrefix->Interplanetary</li>
+    <li>conferencePrefix->Planetary</li>
+    <li>conferencePrefix->Universal</li>
+    <li>conferenceType->Conference</li>
+    <li>conferenceType->Assembly</li>
+    <li>conferenceType->Meeting</li>
+    <li>conferenceType->Discussion</li>
+    <li>conferenceType->Forum</li>
+    <li>speech->Speech</li>
+    <li>speech->Address</li>
+    <li>lessonIntro->One lesson was hardest for my followers to accept:</li>
+    <li>lessonIntro->My greatest crime was taking so long to understand that</li>
+    <li>lessonIntro->My struggle against the [foeLeader] seemed endless. But it did teach me one thing:</li>
+    <li>lessonIntro->Even as a child on the [place_summary] [place_name], I knew that</li>
+    <li>lessonIntro->During a school class in the [place_community], a student threw a [thrownObject] and it hit me in the head. It was then I realized that</li>
+    <li>lessonIntro->I say this not so that you might live the life I lived, but so you might learn the things I learned. That</li>
+    <li>lessonIntro->Once the doctor had finished [doctor_possessive] grisly work, I finally knew that</li>
+    <li>lessonIntro->As each year passed on the [place_summary] [place_name], one thing became increasingly clear: that</li>
+    <li>lessonIntro->Looking back, I wish I'd realized this earlier - that</li>
+    <li>lessonIntro->They all seemed so lost. I told them that</li>
+    <li>lessonIntro->They cried for guidance. I showed them that</li>
+    <li>thrownObject->book</li>
+    <li>thrownObject->sandwich</li>
+    <li>thrownObject->toy [place_personalWeapon]</li>
+    <li>thrownObject->stuffed [Animal]</li>
+    <li>doctor_possessive->his</li>
+    <li>doctor_possessive->her</li>
+    <li>lessonReinforcement->No one can argue with that.</li>
+    <li>lessonReinforcement->Only fools think otherwise.</li>
+    <li>lessonReinforcement->And as we now know, that was soon to become evident to everyone.</li>
+    <li>lessonReinforcement->Everything that has happened since has reinforced that fact.</li>
+    <li>lessonReinforcement->It is as if that is etched directly into my mind.</li>
+    <li>lessonReinforcement->It is something I'll never forget.</li>
+  -->
+  <IdeologicalLesson.rules.rulesStrings>
+    <li>lesson(priority=-1)->اتفاقات رخ می‌دهد</li>
+    <li>r_pattern->"[r_lessonIntro] [r_lesson]. [r_lessonReinforcement]"\n\n  - [lessonAttribution]</li>
+    <li>lessonAttribution->[founder_nameFull]</li>
+    <li>lessonAttribution(p=2)->[attributionSource_titleCase] اثر [founder_nameFull]</li>
+    <li>lessonAttribution->نامه [founder_nameFull] به [believer_nameFull]</li>
+    <li>lessonAttribution->[founder_nameFull]، از سخنرانی اصلی در [memeConference_titleCase]</li>
+    <li>lessonAttribution->[founder_nameFull]، در بستر مرگ [founder_possessive]</li>
+    <li>lessonAttribution->[founder_nameFull]، درست قبل از اعدام</li>
+    <li>lessonAttribution->[founder_nameFull]، [speech] در [TerrainFeature]</li>
+    <li>lessonAttribution->[founder_nameFull]، [speech] در [Community]</li>
+    <li>attributionSource->[memeConcept]</li>
+    <li>attributionSource->[memeConcept] [memeAdjective]</li>
+    <li>attributionSource->یک زندگی [memeAdjective]</li>
+    <li>attributionSource->تاملات یک [attributionJob]</li>
+    <li>attributionSource->خاطرات یک [attributionJob]</li>
+    <li>attributionSource->افکار یک [attributionJob]</li>
+    <li>attributionSource->زندگی یک [attributionJob]</li>
+    <li>attributionJob->[place_job] [memeAdjective]</li>
+    <li>attributionJob->[place_job]</li>
+    <li>memeConference(p=3)->[conferenceType] [memeConcept] [conferencePrefix]</li>
+    <li>memeConference(p=2)->[conferenceType] [memeConcept]</li>
+    <li>memeConference->[memeHyphenPrefix_titleCase]-Con</li>
+    <li>conferencePrefix->اول</li>
+    <li>conferencePrefix->دوم</li>
+    <li>conferencePrefix->سوم</li>
+    <li>conferencePrefix->چهارم</li>
+    <li>conferencePrefix->آخر</li>
+    <li>conferencePrefix->نهایی</li>
+    <li>conferencePrefix->بین سیاره‌ای</li>
+    <li>conferencePrefix->سیاره‌ای</li>
+    <li>conferencePrefix->جهانی</li>
+    <li>conferenceType->کنفرانس</li>
+    <li>conferenceType->مجمع</li>
+    <li>conferenceType->جلسه</li>
+    <li>conferenceType->بحث</li>
+    <li>conferenceType->انجمن</li>
+    <li>speech->سخنرانی</li>
+    <li>speech->نطق</li>
+    <li>lessonIntro->پذیرش یک درس برای پیروان من سخت‌ترین بود:</li>
+    <li>lessonIntro->بزرگترین جرم من این بود که خیلی طول کشید تا بفهمم که</li>
+    <li>lessonIntro->مبارزه من علیه [foeLeader] بی‌پایان به نظر می‌رسید. اما یک چیز به من آموخت:</li>
+    <li>lessonIntro->حتی به عنوان یک کودک در [place_name] [place_summary]، می‌دانستم که</li>
+    <li>lessonIntro->در طول یک کلاس مدرسه در [place_community]، دانش‌آموزی یک [thrownObject] پرتاب کرد و به سر من خورد. آن زمان بود که فهمیدم که</li>
+    <li>lessonIntro->من این را نمی‌گویم تا شما زندگی‌ای را که من زندگی کردم زندگی کنید، بلکه تا چیزهایی را که من یاد گرفتم یاد بگیرید. که</li>
+    <li>lessonIntro->وقتی دکتر کار وحشتناک [doctor_possessive] را تمام کرد، بالاخره دانستم که</li>
+    <li>lessonIntro->با گذشت هر سال در [place_name] [place_summary]، یک چیز به طور فزاینده‌ای روشن شد: که</li>
+    <li>lessonIntro->با نگاه به گذشته، ای کاش زودتر این را فهمیده بودم - که</li>
+    <li>lessonIntro->همه آنها خیلی گمشده به نظر می‌رسیدند. به آنها گفتم که</li>
+    <li>lessonIntro->آنها برای راهنمایی گریه می‌کردند. به آنها نشان دادم که</li>
+    <li>thrownObject->کتاب</li>
+    <li>thrownObject->ساندویچ</li>
+    <li>thrownObject->اسباب‌بازی [place_personalWeapon]</li>
+    <li>thrownObject->[Animal] عروسکی</li>
+    <li>doctor_possessive->او</li>
+    <li>doctor_possessive->او</li>
+    <li>lessonReinforcement->هیچ کس نمی‌تواند با آن مخالفت کند.</li>
+    <li>lessonReinforcement->فقط احمق‌ها غیر از این فکر می‌کنند.</li>
+    <li>lessonReinforcement->و همانطور که اکنون می‌دانیم، آن به زودی برای همه آشکار شد.</li>
+    <li>lessonReinforcement->هر چیزی که از آن زمان اتفاق افتاده است آن واقعیت را تقویت کرده است.</li>
+    <li>lessonReinforcement->انگار که مستقیماً در ذهن من حک شده است.</li>
+    <li>lessonReinforcement->چیزی است که هرگز فراموش نخواهم کرد.</li>
+  </IdeologicalLesson.rules.rulesStrings>
+  
+  <!-- EN:
+    <li>intro->The people of the [place_summary] [place_name] lived under the [memeAdjective] supervision of [deity0_name].</li>
+    <li>intro->The people of the [place_summary] [place_name], both [memberNamePlural] and others, lived in peace for many years under the watchful eye of [deity0_name].</li>
+    <li>intro->The [deity0_type], [deity0_name], revealed [deity0_objective]self to the people of [place_name] so that they may understand [memeConcept], and guided them.</li>
+    <li>intro->[deity0_name] guided humanity to [place_name], and helped them settle there.</li>
+    <li>intro->On the [place_summary] [place_name], during the [ritualName], people would come to the [altarName] at the [altarRoomLabel] of [deity0_name] and pray with [memeConcept] in their hearts.</li>
+    <li>conflict->A [foeLeader] arose and threatened to destroy [deity0_name] [deity0_objective]self using [place_massWeapon].</li>
+    <li>conflict->An evil [foeLeader] and [foeLeader_possessive] [foeSoldiers] enslaved the worshippers of [deity0_name].</li>
+    <li>conflict->Then the [foeLeader] came. [foeLeader_possessive] [foeSoldiers] killed many worshippers of [deity0_name] with [place_personalWeapon]s.</li>
+    <li>conflict->A group of [foeSoldiers] arose under a terrible [foeLeader]. They trapped the [memberNamePlural] in a single [place_community].</li>
+    <li>conflict->There was peace, until a [foeLeader] and [foeLeader_possessive] [foeSoldiers] rebelled against [deity0_name]'s dominion. The [memberNamePlural] were forced to flee to a hidden [place_community].</li>
+    <li>founderJoin->A hero named [founderName] tried to assassinate the [foeLeader]. [founder_pronoun] failed, but [deity0_name] witnessed [founderName]'s struggle, and anointed [founder_objective] as the prophet of the [memberNamePlural].</li>
+    <li>founderJoin->[deity0_name] came to the [place_job] [founderName] [revelationAdverb], and spoke to [founder_objective] about [memeConcept].</li>
+    <li>founderJoin->[founderName] encountered [revelationObject], which spoke in [deity0_name]'s voice about [memeConcept].</li>
+    <li>founderJoin->A renowned [place_job] named [founderName] brought the [memberNamePlural] together, and even recruited some of the [foeSoldiers].</li>
+    <li>founderJoin->A [place_job] named [founderName] stood up and spoke out against the [foeLeader], and [deity0_name] blessed [founderName].</li>
+    <li>founderJoin->[deity0_name] decided to come to [place_name] as a human named [founderName] to help the [memberNamePlural].</li>
+    <li>founderJoin->One hero named [founderName] killed a hundred of the [foeSoldiers] using a [place_personalWeapon], and [deity0_name] guided [founder_objective] by speaking through the [relic0_name].</li>
+    <li>victory->[founderName] gathered the [memberNamePlural] in a [place_community] and taught them of [deity0_name]'s wisdom.</li>
+    <li>victory->[founderName] sacrificed [founder_objective]self to personally kill the [foeLeader].</li>
+    <li>revelationAdverb->in a vision</li>
+    <li>revelationAdverb->in a dream</li>
+    <li>revelationAdverb->in a nightmare</li>
+    <li>revelationAdverb->as a [Animal]</li>
+    <li>revelationAdverb->as a beggar</li>
+    <li>revelationObject->a hidden [NaturalObject]</li>
+    <li>revelationObject->a glowing [Vegetable]</li>
+    <li>revelationObject->an ancient [Weapon]</li>
+  -->
+  <TheistFounder.rules.rulesStrings>
+    <li>intro->مردم [place_name] [place_summary] تحت نظارت [memeAdjective] [deity0_name] زندگی می‌کردند.</li>
+    <li>intro->مردم [place_name] [place_summary]، هم [memberNamePlural] و هم دیگران، سال‌ها در صلح تحت نظارت [deity0_name] زندگی کردند.</li>
+    <li>intro->[deity0_type]، [deity0_name]، [deity0_objective]خود را بر مردم [place_name] آشکار کرد تا آنها [memeConcept] را درک کنند و آنها را راهنمایی کرد.</li>
+    <li>intro->[deity0_name] بشریت را به [place_name] راهنمایی کرد و به آنها کمک کرد در آنجا ساکن شوند.</li>
+    <li>intro->در [place_name] [place_summary]، در طول [ritualName]، مردم به [altarName] در [altarRoomLabel] [deity0_name] می‌آمدند و با [memeConcept] در قلبشان دعا می‌کردند.</li>
+    <li>conflict->یک [foeLeader] برخاست و تهدید کرد که [deity0_name] [deity0_objective]خود را با استفاده از [place_massWeapon] نابود خواهد کرد.</li>
+    <li>conflict->یک [foeLeader] شرور و [foeSoldiers] [foeLeader_possessive] پرستندگان [deity0_name] را به بردگی گرفتند.</li>
+    <li>conflict->سپس [foeLeader] آمد. [foeSoldiers] [foeLeader_possessive] بسیاری از پرستندگان [deity0_name] را با [place_personalWeapon]ها کشتند.</li>
+    <li>conflict->گروهی از [foeSoldiers] تحت یک [foeLeader] وحشتناک برخاستند. آنها [memberNamePlural] را در یک [place_community] تنها به دام انداختند.</li>
+    <li>conflict->صلح بود، تا اینکه یک [foeLeader] و [foeSoldiers] [foeLeader_possessive] علیه سلطه [deity0_name] شورش کردند. [memberNamePlural] مجبور شدند به یک [place_community] پنهان فرار کنند.</li>
+    <li>founderJoin->قهرمانی به نام [founderName] سعی کرد [foeLeader] را ترور کند. [founder_pronoun] شکست خورد، اما [deity0_name] مبارزه [founderName] را دید و [founder_objective] را به عنوان پیامبر [memberNamePlural] مسح کرد.</li>
+    <li>founderJoin->[deity0_name] نزد [place_job] [founderName] [revelationAdverb] آمد و با [founder_objective] در مورد [memeConcept] صحبت کرد.</li>
+    <li>founderJoin->[founderName] با [revelationObject] روبرو شد که با صدای [deity0_name] در مورد [memeConcept] صحبت کرد.</li>
+    <li>founderJoin->یک [place_job] مشهور به نام [founderName] [memberNamePlural] را گرد هم آورد و حتی برخی از [foeSoldiers] را استخدام کرد.</li>
+    <li>founderJoin->یک [place_job] به نام [founderName] برخاست و علیه [foeLeader] صحبت کرد و [deity0_name] [founderName] را برکت داد.</li>
+    <li>founderJoin->[deity0_name] تصمیم گرفت به عنوان انسانی به نام [founderName] به [place_name] بیاید تا به [memberNamePlural] کمک کند.</li>
+    <li>founderJoin->یک قهرمان به نام [founderName] صد نفر از [foeSoldiers] را با استفاده از یک [place_personalWeapon] کشت و [deity0_name] [founder_objective] را با صحبت از طریق [relic0_name] راهنمایی کرد.</li>
+    <li>victory->[founderName] [memberNamePlural] را در یک [place_community] جمع کرد و حکمت [deity0_name] را به آنها آموخت.</li>
+    <li>victory->[founderName] [founder_objective]خود را قربانی کرد تا شخصاً [foeLeader] را بکشد.</li>
+    <li>revelationAdverb->در یک رویا</li>
+    <li>revelationAdverb->در یک خواب</li>
+    <li>revelationAdverb->در یک کابوس</li>
+    <li>revelationAdverb->به عنوان یک [Animal]</li>
+    <li>revelationAdverb->به عنوان یک گدا</li>
+    <li>revelationObject->یک [NaturalObject] پنهان</li>
+    <li>revelationObject->یک [Vegetable] درخشان</li>
+    <li>revelationObject->یک [Weapon] باستانی</li>
+  </TheistFounder.rules.rulesStrings>
+  
+  <!-- EN:
+    <li>episode(priority=-1)-></li>
+    <li>creation->For an eternity, there was a world of [Color] [materialOrigin], until [deity0_name] created the planets and stars.</li>
+    <li>creation->In an old universe of strife, [deity0_name] whipped up great fire that swept away the last age, and brought forth a new one.</li>
+    <li>creation->[deity0_name] gave birth to humans in a grand accident, and looked upon them with curiosity.</li>
+    <li>creation->The universe was a void. Then, [deity0_name], bored with eternity, fashioned man and woman from [bodilyOrigin].</li>
+    <li>episode(uses=1)->Looking upon mankind, [deity0_name] found them as children, and declared [deity0_possessive] dominion over them.</li>
+    <li>episode(uses=1)->Across the vast stellar distances, [deity0_name]'s will sustained the life of mankind against the void.</li>
+    <li>episode(uses=1)->Though many adventurers moved against [deity0_objective], [deity0_name] prevented them easily, for [deity0_pronoun] was [deity0_type].</li>
+    <li>episode(uses=1)->Humanity's suffering brought [deity0_name] to terrible grief.</li>
+    <li>materialOrigin->clay</li>
+    <li>materialOrigin->gas</li>
+    <li>materialOrigin->water</li>
+    <li>materialOrigin->space</li>
+    <li>materialOrigin->dust</li>
+    <li>bodilyOrigin->clay</li>
+    <li>bodilyOrigin->stone</li>
+    <li>bodilyOrigin->sweat</li>
+  -->
+  <TheistMyth.rules.rulesStrings>
+    <li>episode(priority=-1)-></li>
+    <li>creation->برای ابدیت، دنیایی از [materialOrigin] [Color] وجود داشت، تا اینکه [deity0_name] سیارات و ستارگان را خلق کرد.</li>
+    <li>creation->در جهانی قدیمی از نزاع، [deity0_name] آتش بزرگی برپا کرد که عصر آخر را از بین برد و عصر جدیدی را به وجود آورد.</li>
+    <li>creation->[deity0_name] انسان‌ها را در یک تصادف بزرگ به دنیا آورد و با کنجکاوی به آنها نگاه کرد.</li>
+    <li>creation->جهان یک خلاء بود. سپس، [deity0_name]، خسته از ابدیت، مرد و زن را از [bodilyOrigin] ساخت.</li>
+    <li>episode(uses=1)->با نگاه به بشریت، [deity0_name] آنها را مانند کودکان یافت و سلطه [deity0_possessive] را بر آنها اعلام کرد.</li>
+    <li>episode(uses=1)->در فواصل عظیم ستاره‌ای، اراده [deity0_name] زندگی بشریت را در برابر خلاء حفظ کرد.</li>
+    <li>episode(uses=1)->اگرچه بسیاری از ماجراجویان علیه [deity0_objective] حرکت کردند، [deity0_name] به راحتی مانع آنها شد، زیرا [deity0_pronoun] [deity0_type] بود.</li>
+    <li>episode(uses=1)->رنج بشریت [deity0_name] را به اندوه وحشتناکی کشاند.</li>
+    <li>materialOrigin->خاک رس</li>
+    <li>materialOrigin->گاز</li>
+    <li>materialOrigin->آب</li>
+    <li>materialOrigin->فضا</li>
+    <li>materialOrigin->غبار</li>
+    <li>bodilyOrigin->خاک رس</li>
+    <li>bodilyOrigin->سنگ</li>
+    <li>bodilyOrigin->عرق</li>
+  </TheistMyth.rules.rulesStrings>
+  
+</LanguageData>

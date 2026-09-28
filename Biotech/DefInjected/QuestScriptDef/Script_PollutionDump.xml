@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>wastepacksLetterLabel->Wastepacks arrived</li>
+    <li>wastepacksLetterText->The toxic wastepacks have been delivered.</li>
+  -->
+  <PollutionDump.questContentRules.rulesStrings>
+    <li>wastepacksLetterLabel->بسته های زباله رسید</li>
+    <li>wastepacksLetterText->بسته های زباله سمی تحویل داده شده است.</li>
+  </PollutionDump.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription(askerIsNull==True)->A machine persona in an orbiting ship has a special request. She wishes to offload an excess of toxic wastepacks and hopes that you will store them responsibly.\n\nIf you accept, she will deliver [wastepackCount] toxic wastepacks by transport pod.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] has a special request. [asker_pronoun] has produced an abundance of toxic wastepacks that [asker_pronoun] does not wish to store.\n\nIf you accept, [asker_nameDef] will deliver [wastepackCount] toxic wastepacks by transport pod.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] has a special request. Someone has dumped an abundance of toxic wastepacks near one of [asker_possessive] settlements and [asker_pronoun] is unable to safely store them.\n\nIf you accept, [asker_nameDef] will deliver [wastepackCount] toxic wastepacks by transport pod.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
+  -->
+  <PollutionDump.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==True)->یک شخصیت ماشینی در یک کشتی در حال چرخش درخواست خاصی دارد. او می‌خواهد مقدار زیادی از بسته‌های زباله سمی را تخلیه کند و امیدوار است که آنها را مسئولانه ذخیره کنید.\n\nاگر بپذیرید، او بسته‌های زباله سمی [wastepackCount] را با غلاف حمل و نقل تحویل می‌دهد.\n\nاگر بسته‌های زباله سمی را منجمد نکنند، به مرور زمان حل می‌شوند و زمین‌های اطراف را آلوده می‌کنند.</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull]، یک [asker_royalTitleInCurrentFaction] از [asker_faction_name] یک درخواست ویژه دارد. [asker_pronoun] بسته‌های زباله سمی فراوانی تولید کرده است که [asker_pronoun] نمی‌خواهد آن‌ها را ذخیره کند.\n\nاگر بپذیرید، [asker_nameDef] بسته‌های زباله سمی [wastepackCount] را با غلاف حمل و نقل تحویل می‌دهد.\n\nاگر منجمد نگهداری نشود، بسته‌های زباله سمی به مرور زمان حل می‌شوند و زمین‌های اطراف را آلوده می‌کنند.</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] از [asker_faction_name] یک درخواست ویژه دارد. فردی بسته‌های زباله سمی فراوانی را در نزدیکی یکی از محله‌های [asker_possessive] ریخته است و [asker_pronoun] نمی‌تواند به‌طور ایمن آنها را ذخیره کند.\n\nاگر بپذیرید، [asker_nameDef] بسته‌های زباله سمی [wastepackCount] را با غلاف حمل و نقل تحویل می‌دهد.\n\nاگر بسته‌های زباله سمی منجمد نگهداری نشود، پسماندهای سمی به مرور زمان حل می‌شوند.</li>
+  </PollutionDump.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[waste] [dump]</li>
+    <li>questName(askerIsNull==False)->[asker_faction_pawnSingular] [waste] [dump]</li>
+    <li>questName(askerIsNull==False,asker_royalInCurrentFaction==False)->[asker_nameDef]'s [waste] [dump]</li>
+    <li>waste->waste</li>
+    <li>waste->pollution</li>
+    <li>waste->toxin</li>
+    <li>waste->wastepack</li>
+    <li>dump->dump</li>
+    <li>dump->drop</li>
+    <li>dump->clearance</li>
+    <li>dump->problem</li>
+  -->
+  <PollutionDump.questNameRules.rulesStrings>
+    <li>questName->[waste] [dump]</li>
+    <li>questName(askerIsNull==False)->[asker_faction_pawnSingular] [waste] [dump]</li>
+    <li>questName(askerIsNull==False,asker_royalInCurrentFaction==False)->[asker_nameDef]'s [waste] [dump]</li>
+    <li>waste->زباله</li>
+    <li>waste->آلودگی</li>
+    <li>waste->سم</li>
+    <li>waste->بسته زباله</li>
+    <li>dump->تخلیه</li>
+    <li>dump->رها کردن</li>
+    <li>dump->ترخیص</li>
+    <li>dump->مشکل</li>
+  </PollutionDump.questNameRules.rulesStrings>
+  
+</LanguageData>

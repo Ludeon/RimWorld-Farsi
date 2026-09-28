@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of a camp controlled by [siteFaction_name]. The camp contains hostile [siteFaction_pawnsPlural], but you don't know what defenses they have.</li>
+  -->
+  <OpportunitySite_BanditCamp_Giver.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] مکان اردوگاهی تحت کنترل [siteFaction_name]. این اردوگاه حاوی [siteFaction_pawnsPlural] متخاصم است، اما شما نمی‌دانید چه دفاعیاتی در اختیار دارند.</li>
+  </OpportunitySite_BanditCamp_Giver.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->The [bandit] [camp]</li>
+    <li>questName->[bandit] [camp]</li>
+    <li>questName->[asker_nameDef] and the [camp]</li>
+    <li>camp->Camp</li>
+    <li>camp->Outpost</li>
+    <li>camp->Lair</li>
+    <li>camp->Encampment</li>
+    <li>bandit->Bandit</li>
+    <li>bandit->Raider</li>
+    <li>bandit->Outlaw</li>
+    <li>bandit->Desperado</li>
+    <li>bandit->Fugitive</li>
+    <li>bandit->Marauder</li>
+    <li>bandit->Robber</li>
+    <li>bandit->Brigand</li>
+  -->
+  <OpportunitySite_BanditCamp_Giver.questNameRules.rulesStrings>
+    <li>questName->[camp] [bandit]</li>
+    <li>questName->[camp] [bandit]</li>
+    <li>questName->[asker_nameDef] و [camp]</li>
+    <li>camp->اردوگاه</li>
+    <li>camp->پایگاه دیده‌بانی</li>
+    <li>camp->لانه</li>
+    <li>camp->اردوگاه موقت</li>
+    <li>bandit->راهزنان</li>
+    <li>bandit->مهاجمان</li>
+    <li>bandit->یاغیان</li>
+    <li>bandit->قانون‌شکنان</li>
+    <li>bandit->فراریان</li>
+    <li>bandit->غارتگران</li>
+    <li>bandit->دزدان</li>
+    <li>bandit->راهزنان مسلح</li>
+  </OpportunitySite_BanditCamp_Giver.questNameRules.rulesStrings>
+  <!-- EN:
+    <li>subject->bandit camps</li>
+    <li>subject->outlaws</li>
+    <li>subject->raider sightings</li>
+    <li>questMapFeature->small camp</li>
+    <li>questMapFeature->bandit outpost</li>
+    <li>questMapFeature->raider encampment</li>
+    <li>questMapText->dangerous folk</li>
+    <li>questMapText->camp loot</li>
+    <li>questMapText->trespassers get skinned</li>
+    <li>questMapText->traders beware - outlaws</li>
+  -->
+  <OpportunitySite_BanditCamp_Giver.questSubjectRules.rulesStrings>
+    <li>subject->اردوگاه‌های راهزنان</li>
+    <li>subject->یاغیان</li>
+    <li>subject->مشاهده مهاجمان</li>
+    <li>questMapFeature->اردوگاه کوچک</li>
+    <li>questMapFeature->پایگاه راهزنان</li>
+    <li>questMapFeature->اردوگاه مهاجمان</li>
+    <li>questMapText->افراد خطرناک</li>
+    <li>questMapText->غنیمت اردوگاه</li>
+    <li>questMapText->پوست متجاوزان کنده می‌شود</li>
+    <li>questMapText->تجار مراقب باشید - یاغیان</li>
+  </OpportunitySite_BanditCamp_Giver.questSubjectRules.rulesStrings>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <OpportunitySite_BanditCamp_Giver.LetterLabelQuestExpired.slateRef>تلاش منقضی شده: [resolvedQuestName]</OpportunitySite_BanditCamp_Giver.LetterLabelQuestExpired.slateRef>
+  <!-- EN: The bandit camp has packed up and moved on. The quest [resolvedQuestName] has expired. -->
+  <OpportunitySite_BanditCamp_Giver.LetterTextQuestExpired.slateRef>اردوگاه راهزنان بارها را جمع کرده و ادامه داده است. تلاش [resolvedQuestName] منقضی شده است.</OpportunitySite_BanditCamp_Giver.LetterTextQuestExpired.slateRef>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <OpportunitySite_BanditCamp_Giver.LetterLabelQuestFailed.slateRef>تلاش ناموفق بود: [resolvedQuestName]</OpportunitySite_BanditCamp_Giver.LetterLabelQuestFailed.slateRef>
+  <!-- EN: After being discovered, the bandit camp has dispersed. The quest [resolvedQuestName] has ended. -->
+  <OpportunitySite_BanditCamp_Giver.LetterTextQuestFailed.slateRef>پس از کشف، اردوگاه راهزنان متفرق شده است. تلاش [resolvedQuestName] به پایان رسیده است.</OpportunitySite_BanditCamp_Giver.LetterTextQuestFailed.slateRef>
+  
+</LanguageData>

@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ancient ammo box -->
+  <AncientAmmoStack.label>جعبه مهمات باستانی</AncientAmmoStack.label>
+  <!-- EN: A container of ancient ammunition. It's empty and any remaining rounds are corroded to uselessness. -->
+  <AncientAmmoStack.description>یک ظرف مهمات باستانی. خالی است و هر دور باقی مانده تا حد بی فایده‌ای خورده شده است.</AncientAmmoStack.description>
+  
+  <!-- EN: ancient antenna -->
+  <AncientAntenna.label>آنتن باستانی</AncientAntenna.label>
+  <!-- EN: A rusted antenna used to transmit long-forgotten communications. -->
+  <AncientAntenna.description>یک آنتن زنگ زده که برای انتقال ارتباطات فراموش شده استفاده می شود.</AncientAntenna.description>
+  
+  <!-- EN: ancient armchair -->
+  <AncientArmchair.label>صندلی راحتی باستانی</AncientArmchair.label>
+  <!-- EN: A faded and torn armchair. It's unusable in its current state. -->
+  <AncientArmchair.description>صندلی راحتی رنگ و رو رفته و پاره شده. در حالت فعلی غیر قابل استفاده است.</AncientArmchair.description>
+  
+  <!-- EN: broken autocannon turret -->
+  <AncientAutocannonTurret.label>برجک خودکار شکسته</AncientAutocannonTurret.label>
+  <!-- EN: An autocannon turret with a shattered barrel. The targeting system is missing and all the components are rusted and bent to uselessness. -->
+  <AncientAutocannonTurret.description>یک برجک خودکار با لوله شکسته. سیستم هدف گیری از بین رفته است و تمام اجزای آن زنگ زده و بی فایده شده اند.</AncientAutocannonTurret.description>
+  
+  <!-- EN: large concrete barrier -->
+  <AncientBarrierLong.label>مانع بتنی بزرگ</AncientBarrierLong.label>
+  <!-- EN: A concrete barrier used to block the path of vehicles. -->
+  <AncientBarrierLong.description>یک مانع بتنی که برای مسدود کردن مسیر وسایل نقلیه استفاده می شود.</AncientBarrierLong.description>
+  
+  <!-- EN: cracked bathtub -->
+  <AncientBathtub.label>وان حمام ترک خورده</AncientBathtub.label>
+  <!-- EN: A bathtub with deep cracks and rust stains. It's completely unusable. -->
+  <AncientBathtub.description>یک وان حمام با ترک های عمیق و لکه های زنگ. کاملا غیر قابل استفاده است</AncientBathtub.description>
+  
+  <!-- EN: old cardboard box -->
+  <AncientCardboardBox.label>جعبه مقوایی قدیمی</AncientCardboardBox.label>
+  <!-- EN: An soggy cardboard box filled with old detritus. -->
+  <AncientCardboardBox.description>یک جعبه مقوایی خیس پر از ریزه های قدیمی.</AncientCardboardBox.description>
+  
+  <!-- EN: ancient chembarrel -->
+  <AncientChembarrel.label>شنبلیله باستانی</AncientChembarrel.label>
+  <!-- EN: A rusted barrel that once stored chemfuel. It's empty and corroded. -->
+  <AncientChembarrel.description>بشکه‌ای زنگ زده که زمانی سوخت شیمیایی را ذخیره می کرد. خالی و خورده است.</AncientChembarrel.description>
+  
+  <!-- EN: ancient chembarrel pallet -->
+  <AncientChembarrelPallet.label>پالت باستانی chembarrel</AncientChembarrelPallet.label>
+  <!-- EN: A stack of rusted barrels on a decayed pallet. Any valuable fuel leaked out long ago. -->
+  <AncientChembarrelPallet.description>پشته‌ای از بشکه های زنگ زده روی یک پالت پوسیده. هر گونه سوخت با ارزش مدت‌ها پیش نشت کرده است.</AncientChembarrelPallet.description>
+  
+  <!-- EN: ancient chemtruck -->
+  <AncientChemtruck.label>شیمی کامیون باستانی</AncientChemtruck.label>
+  <!-- EN: An abandoned chemfuel transport truck. Any usable parts were looted long ago. -->
+  <AncientChemtruck.description>یک کامیون حمل مواد شیمیایی متروکه. تمام قطعات قابل استفاده مدت‌ها پیش غارت شده بود.</AncientChemtruck.description>
+  
+  <!-- EN: ancient cold storage -->
+  <AncientColdStorage.label>سردخانه باستانی</AncientColdStorage.label>
+  <!-- EN: An old refrigeration unit, now rusted shut. Any contents have long since decayed to dust. -->
+  <AncientColdStorage.description>یک واحد تبرید قدیمی که اکنون زنگ زده بسته شده است. هر محتوی مدتهاست که به گرد و غبار تبدیل شده است.</AncientColdStorage.description>
+  
+  <!-- EN: ruined crane arm -->
+  <AncientCraneArm.label>بازوی جرثقیل خراب</AncientCraneArm.label>
+  <!-- EN: A rusted crane arm, twisted and broken. -->
+  <AncientCraneArm.description>بازوی جرثقیل زنگ زده، پیچ خورده و شکسته.</AncientCraneArm.description>
+  
+  <!-- EN: ruined crane arm -->
+  <AncientCraneArmSmall.label>بازوی جرثقیل خراب</AncientCraneArmSmall.label>
+  <!-- EN: A smaller chunk of a crane arm, snapped and rusted. -->
+  <AncientCraneArmSmall.description>یک تکه کوچکتر از بازوی جرثقیل، شکسته و زنگ زده است.</AncientCraneArmSmall.description>
+  
+  <!-- EN: ruined crane base -->
+  <AncientCraneBase.label>پایه جرثقیل خراب شده</AncientCraneBase.label>
+  <!-- EN: The base of a large industrial crane. -->
+  <AncientCraneBase.description>پایه یک جرثقیل صنعتی بزرگ.</AncientCraneBase.description>
+  
+  <!-- EN: ruined crane column -->
+  <AncientCraneColumn.label>ستون جرثقیل ویران شده</AncientCraneColumn.label>
+  <!-- EN: A vertical support column from a ruined crane. It's rusted and no longer stable. -->
+  <AncientCraneColumn.description>یک ستون پشتیبانی عمودی از یک جرثقیل خراب. زنگ زده است و دیگر پایدار نیست.</AncientCraneColumn.description>
+  
+  <!-- EN: ancient crate pallet -->
+  <AncientCratePallet.label>پالت جعبه باستانی</AncientCratePallet.label>
+  <!-- EN: A pallet for stacking and transporting crates. The contents have been scavenged long ago. -->
+  <AncientCratePallet.description>یک پالت برای چیدن و حمل و نقل جعبه‌ها. محتویات آن مدتها پیش پاکسازی شده است.</AncientCratePallet.description>
+  
+  <!-- EN: ancient destroyed console -->
+  <AncientDestroyedConsole.label>کنسول تخریب شده باستانی</AncientDestroyedConsole.label>
+  <!-- EN: A ruined console. It is now completely inoperable. Its usable parts were smashed or looted long ago. -->
+  <AncientDestroyedConsole.description>یه کنسول خراب اکنون کاملاً غیر قابل استفاده است. قطعات قابل استفاده آن مدت‌ها پیش شکسته یا غارت شده است.</AncientDestroyedConsole.description>
+  
+  <!-- EN: ancient destroyed console -->
+  <AncientDestroyedConsoleLarge.label>کنسول تخریب شده باستانی</AncientDestroyedConsoleLarge.label>
+  <!-- EN: A ruined console. It is now completely inoperable. Its usable parts were smashed or looted long ago. -->
+  <AncientDestroyedConsoleLarge.description>یه کنسول خراب اکنون کاملاً غیر قابل استفاده است. قطعات قابل استفاده آن مدت‌ها پیش شکسته یا غارت شده است.</AncientDestroyedConsoleLarge.description>
+  
+  <!-- EN: rusted double bed -->
+  <AncientDoubleBed.label>تخت دو نفره زنگ زده</AncientDoubleBed.label>
+  <!-- EN: A double bed with a sagging, rusted frame. It's better than sleeping on the ground, but just barely. -->
+  <AncientDoubleBed.description>تخت دونفره با قاب آویزان و زنگ زده. این بهتر از خوابیدن روی زمین است، اما به سختی.</AncientDoubleBed.description>
+  
+  <!-- EN: ancient drill rig -->
+  <AncientDrillPlatform.label>دکل حفاری باستانی</AncientDrillPlatform.label>
+  <!-- EN: A device meant for drilling deep into the earth. Any valuable parts were looted long ago. -->
+  <AncientDrillPlatform.description>وسیله‌ای برای حفاری در اعماق زمین. هر بخش ارزشمندی مدت‌ها پیش غارت شد.</AncientDrillPlatform.description>
+  
+  <!-- EN: ancient excavator -->
+  <AncientExcavator.label>بیل مکانیکی باستانی</AncientExcavator.label>
+  <!-- EN: The remains of a mining vehicle. The valuable parts were looted long ago. -->
+  <AncientExcavator.description>بقایای یک وسیله نقلیه معدنی. قطعات با ارزش مدت‌ها پیش غارت شد.</AncientExcavator.description>
+  
+  <!-- EN: rusted filing cabinet -->
+  <AncientFilingCabinet.label>کابینت بایگانی زنگ زده</AncientFilingCabinet.label>
+  <!-- EN: A corroded filing cabinet. There's nothing useful left inside. -->
+  <AncientFilingCabinet.description>یک کابینت بایگانی خورده هیچ چیز مفیدی در داخل باقی نمانده است.</AncientFilingCabinet.description>
+  
+  <!-- EN: ruined forklift -->
+  <AncientForklift.label>لیفتراک خراب</AncientForklift.label>
+  <!-- EN: A broken forklift, rusted and missing parts. It's far too damaged to be repaired. -->
+  <AncientForklift.description>لیفتراک شکسته، قطعات زنگ زده و از دست رفته. خیلی آسیب دیده که قابل تعمیر نیست</AncientForklift.description>
+  
+  <!-- EN: ancient industrial shelf -->
+  <AncientIndustrialShelf.label>قفسه صنعتی باستانی</AncientIndustrialShelf.label>
+  <!-- EN: An industrial shelf covered in rust. It offers nothing of value. -->
+  <AncientIndustrialShelf.description>یک قفسه صنعتی پوشیده از زنگ. هیچ چیز با ارزشی ارائه نمی دهد.</AncientIndustrialShelf.description>
+  
+  <!-- EN: rusted industrial truck -->
+  <AncientIndustrialTruck.label>کامیون صنعتی زنگ زده</AncientIndustrialTruck.label>
+  <!-- EN: An industrial truck, heavily rusted and abandoned. The engine is beyond repair. -->
+  <AncientIndustrialTruck.description>یک کامیون صنعتی، به شدت زنگ زده و رها شده. موتور قابل تعمیر نیست</AncientIndustrialTruck.description>
+  
+  <!-- EN: rusted lockers -->
+  <AncientLockers.label>کمدهای زنگ زده</AncientLockers.label>
+  <!-- EN: A set of metal lockers, heavily rusted and bent. They've been thoroughly looted. -->
+  <AncientLockers.description>مجموعه‌ای از کمدهای فلزی، به شدت زنگ زده و خم شده. آنها به طور کامل غارت شده اند.</AncientLockers.description>
+  
+  <!-- EN: ancient container -->
+  <AncientMediumContainer.label>ظرف باستانی</AncientMediumContainer.label>
+  <!-- EN: A rusted shipping container. It's completely empty. -->
+  <AncientMediumContainer.description>کانتینر حمل و نقل زنگ زده کاملا خالیه</AncientMediumContainer.description>
+  
+  <!-- EN: rusted metal crate -->
+  <AncientMetalCrate.label>جعبه فلزی زنگ زده</AncientMetalCrate.label>
+  <!-- EN: A metal crate, now rusted shut. It's empty and worthless. -->
+  <AncientMetalCrate.description>یک جعبه فلزی که اکنون زنگ زده بسته شده است. خالی و بی ارزش است.</AncientMetalCrate.description>
+  
+  <!-- EN: ancient military barrier -->
+  <AncientMilitaryBarrier.label>سد نظامی باستانی</AncientMilitaryBarrier.label>
+  <!-- EN: A concrete barrier once used for military roadblocks. -->
+  <AncientMilitaryBarrier.description>یک مانع بتنی که زمانی برای موانع نظامی استفاده می شد.</AncientMilitaryBarrier.description>
+  
+  <!-- EN: ancient military generator -->
+  <AncientMilitaryGeneratorSmall.label>ژنراتور نظامی باستانی</AncientMilitaryGeneratorSmall.label>
+  <!-- EN: A small rusted generator. The fuel tank is empty and the engine is beyond repair. -->
+  <AncientMilitaryGeneratorSmall.description>یک ژنراتور کوچک زنگ زده باک بنزین خالی است و موتور غیر قابل تعمیر است.</AncientMilitaryGeneratorSmall.description>
+  
+  <!-- EN: busted mortar -->
+  <AncientMortar.label>خمپاره شکسته</AncientMortar.label>
+  <!-- EN: A shattered mortar emplacement. It's smashed and will never work again. -->
+  <AncientMortar.description>محل شکسته خمپاره. خراب شده و دیگر هرگز کار نخواهد کرد.</AncientMortar.description>
+  
+  <!-- EN: rusted open container -->
+  <AncientOpenContainer.label>ظرف باز زنگ زده</AncientOpenContainer.label>
+  <!-- EN: A rusted shipping container. Its contents are worthless. -->
+  <AncientOpenContainer.description>کانتینر حمل و نقل زنگ زده محتوای آن بی ارزش است.</AncientOpenContainer.description>
+  
+  <!-- EN: ancient pipe -->
+  <AncientPipe.label>لوله باستانی</AncientPipe.label>
+  <!-- EN: A segment of old corroded piping. -->
+  <AncientPipe.description>بخشی از لوله های قدیمی خورده شده.</AncientPipe.description>
+  
+  <!-- EN: ancient plant pot -->
+  <AncientPlantPot.label>گلدان گیاه باستانی</AncientPlantPot.label>
+  <!-- EN: A large cracked pot with dead soil. Nothing can grow here any more. -->
+  <AncientPlantPot.description>یک گلدان بزرگ ترک خورده با خاک مرده. اینجا دیگر هیچ چیز نمی تواند رشد کند.</AncientPlantPot.description>
+  
+  <!-- EN: rusted microwave -->
+  <AncientRustedMicrowave.label>مایکروویو زنگ زده</AncientRustedMicrowave.label>
+  <!-- EN: An ancient microwave covered in rust. It's beyond repair. -->
+  <AncientRustedMicrowave.description>مایکروویو باستانی پوشیده از زنگ. قابل تعمیر نیست</AncientRustedMicrowave.description>
+  
+  <!-- EN: ancient shelf -->
+  <AncientShelf.label>قفسه باستانی</AncientShelf.label>
+  <!-- EN: An ancient shelf. It holds nothing of interest. -->
+  <AncientShelf.description>یک قفسه باستانی هیچ چیز جالبی نداره</AncientShelf.description>
+  
+  <!-- EN: cracked shower -->
+  <AncientShower.label>دوش ترک خورده</AncientShower.label>
+  <!-- EN: A broken shower stall. The plumbing is corroded and the ceramics are shattered. -->
+  <AncientShower.description>دوش خراب. لوله کشی خورده و سرامیک‌ها خرد شده است.</AncientShower.description>
+  
+  <!-- EN: ancient research bench -->
+  <AncientSimpleResearchBench.label>نیمکت تحقیقات باستانی</AncientSimpleResearchBench.label>
+  <!-- EN: An old, rudimentary research bench with corroded tools and faded notes. Nothing of value remains. -->
+  <AncientSimpleResearchBench.description>یک نیمکت تحقیقاتی قدیمی و ابتدایی با ابزارهای خورده و یادداشت های محو شده. هیچ چیز با ارزشی باقی نمی ماند.</AncientSimpleResearchBench.description>
+  
+  <!-- EN: rusted bed -->
+  <AncientSingleBed.label>تخت زنگ زده</AncientSingleBed.label>
+  <!-- EN: A single bed frame with rusted metal and a torn mattress. It's better than sleeping on the ground, but just barely. -->
+  <AncientSingleBed.description>فریم تخت یک نفره با فلز زنگ زده و تشک پاره شده. این بهتر از خوابیدن روی زمین است، اما به سختی.</AncientSingleBed.description>
+  
+  <!-- EN: ancient container -->
+  <AncientSmallContainer.label>ظرف باستانی</AncientSmallContainer.label>
+  <!-- EN: A rusted shipping container. It's completely empty. -->
+  <AncientSmallContainer.description>کانتینر حمل و نقل زنگ زده کاملا خالیه</AncientSmallContainer.description>
+  
+  <!-- EN: ancient small shelf -->
+  <AncientSmallShelf.label>قفسه کوچک باستانی</AncientSmallShelf.label>
+  <!-- EN: An ancient shelf. There's nothing useful left on it. -->
+  <AncientSmallShelf.description>یک قفسه باستانی هیچ چیز مفیدی روی آن باقی نمانده است.</AncientSmallShelf.description>
+  
+  <!-- EN: ancient brewery -->
+  <AncientTableBrewery.label>آبجوسازی باستانی</AncientTableBrewery.label>
+  <!-- EN: A dilapidated brewing table once used for fermentation. The equipment is rusted beyond use. -->
+  <AncientTableBrewery.description>میز دم خرابه‌ای که زمانی برای تخمیر استفاده می شد. تجهیزات بیش از حد استفاده زنگ زده است.</AncientTableBrewery.description>
+  
+  <!-- EN: ancient butcher table -->
+  <AncientTableButcher.label>میز قصاب باستانی</AncientTableButcher.label>
+  <!-- EN: A broken butcher's table littered with old stains. -->
+  <AncientTableButcher.description>میز قصابی شکسته پر از لکه های قدیمی.</AncientTableButcher.description>
+  
+  <!-- EN: ancient drug lab -->
+  <AncientTableDrugLab.label>آزمایشگاه باستانی مواد مخدر</AncientTableDrugLab.label>
+  <!-- EN: A crumbling lab table with shattered glassware. The equipment is useless and contaminated. -->
+  <AncientTableDrugLab.description>یک میز آزمایشگاهی در حال فرو ریختن با ظروف شیشه‌ای شکسته. تجهیزات غیر قابل استفاده و آلوده است.</AncientTableDrugLab.description>
+  
+  <!-- EN: ancient machining table -->
+  <AncientTableMachining.label>میز ماشینکاری باستانی</AncientTableMachining.label>
+  <!-- EN: A rusted machining table covered in debris. All useful parts have been scavenged. -->
+  <AncientTableMachining.description>یک میز ماشینکاری زنگ زده پوشیده از آوار. تمام قطعات مفید پاک شده است.</AncientTableMachining.description>
+  
+  <!-- EN: ancient electric smithy -->
+  <AncientTableSmithingElectric.label>آهنگری الکتریکی باستانی</AncientTableSmithingElectric.label>
+  <!-- EN: A ruined electric smithy with frayed wires and scorched surfaces. It's beyond repair. -->
+  <AncientTableSmithingElectric.description>آهنگری برق خراب با سیم های فرسوده و سطوح سوخته. قابل تعمیر نیست</AncientTableSmithingElectric.description>
+  
+  <!-- EN: ancient fueled smithy -->
+  <AncientTableSmithingFueled.label>آهنگری با سوخت باستانی</AncientTableSmithingFueled.label>
+  <!-- EN: An ancient smithy that once burned fuel for crafting. Now, it's covered in soot and rust. -->
+  <AncientTableSmithingFueled.description>آهنگری باستانی که زمانی برای صنایع دستی سوخت می سوزاند. اکنون پوشیده از دوده و زنگ زده است.</AncientTableSmithingFueled.description>
+  
+  <!-- EN: ancient electric stove -->
+  <AncientTableStoveElectric.label>اجاق برقی باستانی</AncientTableStoveElectric.label>
+  <!-- EN: An old electric stove with shattered heating elements. It's far too damaged to use. -->
+  <AncientTableStoveElectric.description>یک اجاق برقی قدیمی با عناصر گرمایشی شکسته. برای استفاده خیلی آسیب دیده است.</AncientTableStoveElectric.description>
+  
+  <!-- EN: ancient fueled stove -->
+  <AncientTableStoveFueled.label>اجاق گاز باستانی</AncientTableStoveFueled.label>
+  <!-- EN: A rusted cooking stove. It's beyond unusable. -->
+  <AncientTableStoveFueled.description>اجاق آشپزی زنگ زده. غیر قابل استفاده است</AncientTableStoveFueled.description>
+  
+  <!-- EN: ancient electric tailor bench -->
+  <AncientTableTailorElectric.label>نیمکت خیاط برقی باستانی</AncientTableTailorElectric.label>
+  <!-- EN: A ruined tailor's bench with torn fabric and broken tools. It's beyond salvage. -->
+  <AncientTableTailorElectric.description>نیمکت خیاطی ویران با پارچه پاره و ابزار شکسته. فراتر از نجات است.</AncientTableTailorElectric.description>
+  
+  <!-- EN: ancient hand tailor bench -->
+  <AncientTableTailorHand.label>نیمکت خیاط دستی باستانی</AncientTableTailorHand.label>
+  <!-- EN: A simple tailor's bench with splintered wood and rusted needles. Nothing useful remains. -->
+  <AncientTableTailorHand.description>یک نیمکت خیاطی ساده با چوب های خرد شده و سوزن های زنگ زده. هیچ چیز مفیدی باقی نمی ماند.</AncientTableTailorHand.description>
+  
+  <!-- EN: ancient tunneler claw -->
+  <AncientTunnelerClaw.label>پنجه تونل ساز باستانی</AncientTunnelerClaw.label>
+  <!-- EN: The claw of an ancient mining mechanoid. All the parts are degraded to uselessness. -->
+  <AncientTunnelerClaw.description>پنجه یک مکانیک معدنی باستانی. تمام قطعات به بی مصرفی تبدیل شده اند.</AncientTunnelerClaw.description>
+  
+  <!-- EN: ancient tunneler husk -->
+  <AncientTunnelerHusk.label>پوسته تونل ساز باستانی</AncientTunnelerHusk.label>
+  <!-- EN: The remains of an ancient mining mechanoid. Its complex parts are all degraded to uselessness. -->
+  <AncientTunnelerHusk.description>بقایای یک مکانیک معدنی باستانی. اجزای پیچیده آن همه به بیهودگی تنزل یافته است.</AncientTunnelerHusk.description>
+  
+  <!-- EN: busted television -->
+  <AncientTV.label>تلویزیون منهدم شده</AncientTV.label>
+  <!-- EN: A shattered television set. The screen is broken and the electronics are stripped out. -->
+  <AncientTV.description>یک دستگاه تلویزیون متلاشی شده صفحه نمایش شکسته و لوازم الکترونیکی از بین رفته است.</AncientTV.description>
+  
+  <!-- EN: broken uranium slug turret -->
+  <AncientUraniumSlugTurret.label>برجک اورانیومی شکسته</AncientUraniumSlugTurret.label>
+  <!-- EN: A heavy turret designed to fire uranium slugs. The mechanism is smashed and the ammo is depleted. -->
+  <AncientUraniumSlugTurret.description>برجک سنگینی که برای شلیک راب های اورانیومی طراحی شده است. مکانیسم شکسته شده و مهمات تمام شده است.</AncientUraniumSlugTurret.description>
+  
+  <!-- EN: ancient wind turbine -->
+  <AncientWindTurbineBody.label>توربین بادی باستانی</AncientWindTurbineBody.label>
+  <!-- EN: A toppled wind turbine with broken blades. It's been scavenged for parts long ago. -->
+  <AncientWindTurbineBody.description>یک توربین بادی سرنگون شده با پره های شکسته. خیلی وقت پیش برای قسمت هایی پاک شده است.</AncientWindTurbineBody.description>
+  
+  <!-- EN: old wooden crate -->
+  <AncientWoodenCrate.label>جعبه چوبی قدیمی</AncientWoodenCrate.label>
+  <!-- EN: A weathered wooden crate. It's empty, and the wood is brittle. -->
+  <AncientWoodenCrate.description>یک جعبه چوبی هوازده خالی است و چوب شکننده است.</AncientWoodenCrate.description>
+  
+  <!-- EN: rubble pile -->
+  <RubblePile.label>توده آوار</RubblePile.label>
+  <!-- EN: The crumbled remains of an ancient structure. -->
+  <RubblePile.description>بقایای متلاشی شده یک سازه باستانی.</RubblePile.description>
+  
+</LanguageData>

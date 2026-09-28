@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: component box -->
+  <AncientBox_ComponentIndustrial.label>جعبه کامپوننت</AncientBox_ComponentIndustrial.label>
+  <!-- EN: A box filled with valuable components. Some are intact and useable. -->
+  <AncientBox_ComponentIndustrial.description>جعبه‌ای پر از اجزای ارزشمند. برخی دست نخورده و قابل استفاده هستند.</AncientBox_ComponentIndustrial.description>
+  
+  <!-- EN: advanced component box -->
+  <AncientBox_ComponentSpacer.label>جعبه اجزای پیشرفته</AncientBox_ComponentSpacer.label>
+  <!-- EN: A box of advanced components, well-preserved and potentially valuable. -->
+  <AncientBox_ComponentSpacer.description>جعبه‌ای از اجزای پیشرفته، به خوبی حفظ شده و بالقوه ارزشمند.</AncientBox_ComponentSpacer.description>
+  
+  <!-- EN: steel scrap box -->
+  <AncientBox_SteelSlag.label>جعبه ضایعات فولادی</AncientBox_SteelSlag.label>
+  <!-- EN: A box filled with steel scrap. It's heavy but might contain some recoverable metal. -->
+  <AncientBox_SteelSlag.description>یک جعبه پر از ضایعات فولاد. سنگین است اما ممکن است حاوی مقداری فلز قابل بازیافت باشد.</AncientBox_SteelSlag.description>
+  
+  <!-- EN: chemfuel canister -->
+  <AncientChemfuelCanister.label>قوطی مواد شیمیایی</AncientChemfuelCanister.label>
+  <!-- EN: A sealed canister of chemfuel. It might still contain usable fuel. -->
+  <AncientChemfuelCanister.description>یک قوطی در بسته از مواد شیمیایی. ممکن است همچنان حاوی سوخت قابل استفاده باشد.</AncientChemfuelCanister.description>
+  
+  <!-- EN: steel scrap pallet -->
+  <AncientPallet_SteelSlag.label>پالت ضایعات فولادی</AncientPallet_SteelSlag.label>
+  <!-- EN: A pallet stacked with steel scrap. It could still hold some recoverable metal. -->
+  <AncientPallet_SteelSlag.description>یک پالت انباشته با ضایعات فولادی. هنوز هم می تواند مقداری فلز قابل بازیافت را در خود نگه دارد.</AncientPallet_SteelSlag.description>
+  
+  <!-- EN: rusted safe -->
+  <AncientSafe.label>گاوصندوق زنگ زده</AncientSafe.label>
+  <!-- EN: A locked safe. It's heavily rusted, making it easy to open. It may hold valuable items inside. -->
+  <AncientSafe.description>یک گاوصندوق قفل شده به شدت زنگ زده است و به راحتی باز می شود. ممکن است اقلام ارزشمندی در داخل آن قرار گیرد.</AncientSafe.description>
+  
+  <!-- EN: sealed container -->
+  <AncientSealedContainer.label>ظرف مهر و موم شده</AncientSealedContainer.label>
+  <!-- EN: A large sealed container. It may contain valuable supplies. -->
+  <AncientSealedContainer.description>یک ظرف بزرگ در بسته. ممکن است حاوی لوازم ارزشمندی باشد.</AncientSealedContainer.description>
+  
+  <!-- EN: sealed container -->
+  <AncientSealedContainer_GravshipUpgrade.label>ظرف مهر و موم شده</AncientSealedContainer_GravshipUpgrade.label>
+  <!-- EN: A large sealed container. It may contain valuable supplies. -->
+  <AncientSealedContainer_GravshipUpgrade.description>یک ظرف بزرگ در بسته. ممکن است حاوی لوازم ارزشمندی باشد.</AncientSealedContainer_GravshipUpgrade.description>
+  
+  <!-- EN: sealed crate -->
+  <AncientSealedCrate.label>جعبه مهر و موم شده</AncientSealedCrate.label>
+  <!-- EN: A small crate that's still sealed. There may be valuables inside. -->
+  <AncientSealedCrate.description>یک جعبه کوچک که هنوز مهر و موم شده است. ممکن است اشیای قیمتی داخل آن وجود داشته باشد.</AncientSealedCrate.description>
+  
+  <!-- EN: sealed crate -->
+  <AncientSealedCrate_Gravlite.label>جعبه مهر و موم شده</AncientSealedCrate_Gravlite.label>
+  <!-- EN: A small crate that's still sealed. There may be valuables inside. -->
+  <AncientSealedCrate_Gravlite.description>یک جعبه کوچک که هنوز مهر و موم شده است. ممکن است اشیای قیمتی داخل آن وجود داشته باشد.</AncientSealedCrate_Gravlite.description>
+  
+  <!-- EN: sealed crate -->
+  <AncientSealedCrate_Shells.label>جعبه مهر و موم شده</AncientSealedCrate_Shells.label>
+  <!-- EN: A small crate that's still sealed. There may be valuables inside. -->
+  <AncientSealedCrate_Shells.description>یک جعبه کوچک که هنوز مهر و موم شده است. ممکن است اشیای قیمتی داخل آن وجود داشته باشد.</AncientSealedCrate_Shells.description>
+  
+  <!-- EN: malfunctioning transport pod -->
+  <MalfunctioningTransportPod.label>غلاف حمل و نقل ناکارآمد</MalfunctioningTransportPod.label>
+  <!-- EN: A cargo pod with a faulty release mechanism. It's still sealed, holding unknown contents. -->
+  <MalfunctioningTransportPod.description>غلاف محموله با مکانیزم رهاسازی معیوب. هنوز مهر و موم است و محتویات ناشناخته را در خود جای داده است.</MalfunctioningTransportPod.description>
+  
+  <!-- EN: medicine pallet -->
+  <Pallet_Medicine.label>پالت دارویی</Pallet_Medicine.label>
+  <!-- EN: A pallet containing old medical supplies. Some items might still be usable. -->
+  <Pallet_Medicine.description>یک پالت حاوی لوازم پزشکی قدیمی. برخی از موارد ممکن است هنوز قابل استفاده باشند.</Pallet_Medicine.description>
+  
+  <!-- EN: survival meal pallet -->
+  <Pallet_SurvivalMeals.label>پالت غذای زنده ماندن</Pallet_SurvivalMeals.label>
+  <!-- EN: A pallet containing survival meals. The contents are damaged but some meals might still be salvageable. -->
+  <Pallet_SurvivalMeals.description>پالت حاوی وعده های غذایی زنده. محتویات آن آسیب دیده است، اما برخی از وعده های غذایی ممکن است هنوز قابل نجات باشند.</Pallet_SurvivalMeals.description>
+  
+  <!-- EN: sealed crate -->
+  <SealedCrate.label>جعبه مهر و موم شده</SealedCrate.label>
+  <!-- EN: A small crate that's still sealed. There may be valuables inside. -->
+  <SealedCrate.description>یک جعبه کوچک که هنوز مهر و موم شده است. ممکن است اشیای قیمتی داخل آن وجود داشته باشد.</SealedCrate.description>
+  
+</LanguageData>

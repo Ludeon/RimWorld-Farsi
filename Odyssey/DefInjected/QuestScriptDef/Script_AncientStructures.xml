@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of [structureNameWithArticle]. You can loot the structure for valuable resources.\n\nBe warned, ancient structures can contain a variety of threats.</li>
+    <li>structureNameWithArticle->an infested settlement</li>
+  -->
+  <Opportunity_AncientInfestedSettlement.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] مکان [structureNameWithArticle]. می‌توانید این سازه را برای به دست آوردن منابع ارزشمند غارت کنید.\n\nهشدار داده می‌شود، سازه‌های باستانی ممکن است حاوی خطرات گوناگونی باشند.</li>
+    <li>structureNameWithArticle->یک سکونتگاه آلوده به حشرات</li>
+  </Opportunity_AncientInfestedSettlement.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->The [ancient] [structureName]</li>
+    <li>questName->[ancient] [structureName]</li>
+    <li>questName->Discovered [structureName]</li>
+    <li>questName->[structureName] Discovery</li>
+    <li>ancient(p=2)->Ancient</li>
+    <li>ancient->Lost</li>
+    <li>structureName->infested settlement</li>
+  -->
+  <Opportunity_AncientInfestedSettlement.questNameRules.rulesStrings>
+    <li>questName->[structureName] [ancient]</li>
+    <li>questName->[structureName] [ancient]</li>
+    <li>questName->[structureName] کشف‌شده</li>
+    <li>questName->کشف [structureName]</li>
+    <li>ancient(p=2)->باستانی</li>
+    <li>ancient->گمشده</li>
+    <li>structureName->سکونتگاه آلوده به حشرات</li>
+  </Opportunity_AncientInfestedSettlement.questNameRules.rulesStrings>
+  <!-- EN:
+    <li>subject->ancient buildings</li>
+    <li>subject->lost landmarks</li>
+    <li>subject->ancient structures</li>
+    <li>questMapFeature->drawing of an old building</li>
+    <li>questMapText->scavenging target</li>
+    <li>questMapText->exploration site</li>
+    <li>questMapText->dangerous ancient structure</li>
+    <li>questMapText->beware of traps</li>
+    <li>subject->insect hives</li>
+    <li>subject->infestations</li>
+    <li>questMapFeature->insect hive</li>
+    <li>questMapFeature->anatomical drawing of a megaspider</li>
+    <li>questMapText->insects everywhere</li>
+  -->
+  <Opportunity_AncientInfestedSettlement.questSubjectRules.rulesStrings>
+    <li>subject->ساختمان‌های باستانی</li>
+    <li>subject->نشانه‌های گمشده</li>
+    <li>subject->سازه‌های باستانی</li>
+    <li>questMapFeature->نقاشی یک ساختمان کهن</li>
+    <li>questMapText->هدف غارت و بازیافت</li>
+    <li>questMapText->محل کاوش</li>
+    <li>questMapText->سازه باستانی خطرناک</li>
+    <li>questMapText->مراقب تله‌ها باشید</li>
+    <li>subject->کندوهای حشرات</li>
+    <li>subject->هجوم حشرات</li>
+    <li>questMapFeature->کندوی حشرات</li>
+    <li>questMapFeature->طرح کالبدشکافی یک مگاعنکبوت</li>
+    <li>questMapText->حشرات در همه‌جا</li>
+  </Opportunity_AncientInfestedSettlement.questSubjectRules.rulesStrings>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of [structureNameWithArticle]. You can loot the structure for valuable resources.\n\nBe warned, ancient structures can contain a variety of threats.</li>
+    <li>structureNameWithArticle->an ancient chemfuel refinery</li>
+  -->
+  <Opportunity_AncientStructureChemfuelRefinery.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] مکان [structureNameWithArticle]. می‌توانید این سازه را برای به دست آوردن منابع ارزشمند غارت کنید.\n\nهشدار داده می‌شود، سازه‌های باستانی ممکن است حاوی خطرات گوناگونی باشند.</li>
+    <li>structureNameWithArticle->یک پالایشگاه سوخت شیمیایی باستانی</li>
+  </Opportunity_AncientStructureChemfuelRefinery.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->The [ancient] [structureName]</li>
+    <li>questName->[ancient] [structureName]</li>
+    <li>questName->Discovered [structureName]</li>
+    <li>questName->[structureName] Discovery</li>
+    <li>ancient(p=2)->Ancient</li>
+    <li>ancient->Lost</li>
+    <li>structureName->chemfuel refinery</li>
+  -->
+  <Opportunity_AncientStructureChemfuelRefinery.questNameRules.rulesStrings>
+    <li>questName->[structureName] [ancient]</li>
+    <li>questName->[structureName] [ancient]</li>
+    <li>questName->[structureName] کشف‌شده</li>
+    <li>questName->کشف [structureName]</li>
+    <li>ancient(p=2)->باستانی</li>
+    <li>ancient->گمشده</li>
+    <li>structureName->پالایشگاه سوخت شیمیایی</li>
+  </Opportunity_AncientStructureChemfuelRefinery.questNameRules.rulesStrings>
+  <!-- EN:
+    <li>subject->ancient buildings</li>
+    <li>subject->lost landmarks</li>
+    <li>subject->ancient structures</li>
+    <li>questMapFeature->drawing of an old building</li>
+    <li>questMapText->scavenging target</li>
+    <li>questMapText->exploration site</li>
+    <li>questMapText->dangerous ancient structure</li>
+    <li>questMapText->beware of traps</li>
+    <li>subject->ancient refineries</li>
+    <li>subject->chemplants</li>
+    <li>questMapFeature->chemfuel refinery</li>
+    <li>questMapFeature->picture of a chemfuel tank</li>
+    <li>questMapFeature->sketch of refinery equipment</li>
+    <li>questMapText->chemfuel depot</li>
+    <li>questMapText->chemfuel here</li>
+  -->
+  <Opportunity_AncientStructureChemfuelRefinery.questSubjectRules.rulesStrings>
+    <li>subject->ساختمان‌های باستانی</li>
+    <li>subject->نشانه‌های گمشده</li>
+    <li>subject->سازه‌های باستانی</li>
+    <li>questMapFeature->نقاشی یک ساختمان کهن</li>
+    <li>questMapText->هدف غارت و بازیافت</li>
+    <li>questMapText->محل کاوش</li>
+    <li>questMapText->سازه باستانی خطرناک</li>
+    <li>questMapText->مراقب تله‌ها باشید</li>
+    <li>subject->پالایشگاه‌های باستانی</li>
+    <li>subject->کارخانه‌های شیمیایی</li>
+    <li>questMapFeature->پالایشگاه سوخت شیمیایی</li>
+    <li>questMapFeature->تصویر یک مخزن سوخت شیمیایی</li>
+    <li>questMapFeature->طرح تجهیزات پالایشگاه</li>
+    <li>questMapText->انبار سوخت شیمیایی</li>
+    <li>questMapText->سوخت شیمیایی اینجاست</li>
+  </Opportunity_AncientStructureChemfuelRefinery.questSubjectRules.rulesStrings>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of [structureNameWithArticle]. You can loot the structure for valuable resources.\n\nBe warned, ancient structures can contain a variety of threats.</li>
+    <li>structureNameWithArticle->an ancient garrison</li>
+  -->
+  <Opportunity_AncientStructureGarrison.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] مکان [structureNameWithArticle]. می‌توانید این سازه را برای به دست آوردن منابع ارزشمند غارت کنید.\n\nهشدار داده می‌شود، سازه‌های باستانی ممکن است حاوی خطرات گوناگونی باشند.</li>
+    <li>structureNameWithArticle->یک پادگان باستانی</li>
+  </Opportunity_AncientStructureGarrison.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->The [ancient] [structureName]</li>
+    <li>questName->[ancient] [structureName]</li>
+    <li>questName->Discovered [structureName]</li>
+    <li>questName->[structureName] Discovery</li>
+    <li>ancient(p=2)->Ancient</li>
+    <li>ancient->Lost</li>
+    <li>structureName->garrison</li>
+  -->
+  <Opportunity_AncientStructureGarrison.questNameRules.rulesStrings>
+    <li>questName->[structureName] [ancient]</li>
+    <li>questName->[structureName] [ancient]</li>
+    <li>questName->[structureName] کشف‌شده</li>
+    <li>questName->کشف [structureName]</li>
+    <li>ancient(p=2)->باستانی</li>
+    <li>ancient->گمشده</li>
+    <li>structureName->پادگان</li>
+  </Opportunity_AncientStructureGarrison.questNameRules.rulesStrings>
+  <!-- EN:
+    <li>subject->ancient buildings</li>
+    <li>subject->lost landmarks</li>
+    <li>subject->ancient structures</li>
+    <li>questMapFeature->drawing of an old building</li>
+    <li>questMapText->scavenging target</li>
+    <li>questMapText->exploration site</li>
+    <li>questMapText->dangerous ancient structure</li>
+    <li>questMapText->beware of traps</li>
+    <li>subject->ancient military sites</li>
+    <li>subject->ancient garrisons</li>
+    <li>questMapFeature->garrison</li>
+    <li>questMapFeature->picture of weapon racks</li>
+    <li>questMapFeature->charcoal sketch of an assault rifle</li>
+    <li>questMapText->weapons facility</li>
+    <li>questMapText->ancient armory</li>
+    <li>questMapText->lots of military equipment</li>
+  -->
+  <Opportunity_AncientStructureGarrison.questSubjectRules.rulesStrings>
+    <li>subject->ساختمان‌های باستانی</li>
+    <li>subject->نشانه‌های گمشده</li>
+    <li>subject->سازه‌های باستانی</li>
+    <li>questMapFeature->نقاشی یک ساختمان کهن</li>
+    <li>questMapText->هدف غارت و بازیافت</li>
+    <li>questMapText->محل کاوش</li>
+    <li>questMapText->سازه باستانی خطرناک</li>
+    <li>questMapText->مراقب تله‌ها باشید</li>
+    <li>subject->مراکز نظامی باستانی</li>
+    <li>subject->پادگان‌های باستانی</li>
+    <li>questMapFeature->پادگان</li>
+    <li>questMapFeature->تصویر پایه‌های اسلحه</li>
+    <li>questMapFeature->طرح سیاه‌قلم یک تفنگ تهاجمی</li>
+    <li>questMapText->تاسیسات تسلیحاتی</li>
+    <li>questMapText->زرادخانه باستانی</li>
+    <li>questMapText->تجهیزات نظامی فراوان</li>
+  </Opportunity_AncientStructureGarrison.questSubjectRules.rulesStrings>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of [structureNameWithArticle]. You can loot the structure for valuable resources.\n\nBe warned, ancient structures can contain a variety of threats.</li>
+    <li>structureNameWithArticle->an ancient launch site</li>
+  -->
+  <Opportunity_AncientStructureLaunchSite.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] مکان [structureNameWithArticle]. می‌توانید این سازه را برای به دست آوردن منابع ارزشمند غارت کنید.\n\nهشدار داده می‌شود، سازه‌های باستانی ممکن است حاوی خطرات گوناگونی باشند.</li>
+    <li>structureNameWithArticle->یک سایت پرتاب باستانی</li>
+  </Opportunity_AncientStructureLaunchSite.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->The [ancient] [structureName]</li>
+    <li>questName->[ancient] [structureName]</li>
+    <li>questName->Discovered [structureName]</li>
+    <li>questName->[structureName] Discovery</li>
+    <li>ancient(p=2)->Ancient</li>
+    <li>ancient->Lost</li>
+    <li>structureName->launch site</li>
+  -->
+  <Opportunity_AncientStructureLaunchSite.questNameRules.rulesStrings>
+    <li>questName->[structureName] [ancient]</li>
+    <li>questName->[structureName] [ancient]</li>
+    <li>questName->[structureName] کشف‌شده</li>
+    <li>questName->کشف [structureName]</li>
+    <li>ancient(p=2)->باستانی</li>
+    <li>ancient->گمشده</li>
+    <li>structureName->سایت پرتاب</li>
+  </Opportunity_AncientStructureLaunchSite.questNameRules.rulesStrings>
+  <!-- EN:
+    <li>subject->ancient buildings</li>
+    <li>subject->lost landmarks</li>
+    <li>subject->ancient structures</li>
+    <li>questMapFeature->drawing of an old building</li>
+    <li>questMapText->scavenging target</li>
+    <li>questMapText->exploration site</li>
+    <li>questMapText->dangerous ancient structure</li>
+    <li>questMapText->beware of traps</li>
+    <li>subject->ancient launch sites</li>
+    <li>subject->spaceports</li>
+    <li>questMapFeature->launch site</li>
+    <li>questMapFeature->diagram of shuttle refueling apparatus</li>
+    <li>questMapFeature->sketch of treasure being loaded into transport pods</li>
+    <li>questMapText->they have fuel</li>
+  -->
+  <Opportunity_AncientStructureLaunchSite.questSubjectRules.rulesStrings>
+    <li>subject->ساختمان‌های باستانی</li>
+    <li>subject->نشانه‌های گمشده</li>
+    <li>subject->سازه‌های باستانی</li>
+    <li>questMapFeature->نقاشی یک ساختمان کهن</li>
+    <li>questMapText->هدف غارت و بازیافت</li>
+    <li>questMapText->محل کاوش</li>
+    <li>questMapText->سازه باستانی خطرناک</li>
+    <li>questMapText->مراقب تله‌ها باشید</li>
+    <li>subject->سایت‌های پرتاب باستانی</li>
+    <li>subject->فرودگاه‌های فضایی</li>
+    <li>questMapFeature->سایت پرتاب</li>
+    <li>questMapFeature->نموداری از دستگاه سوخت‌گیری شاتل</li>
+    <li>questMapFeature->طرح بارگیری غنائم در کپسول‌های حمل و نقل</li>
+    <li>questMapText->آنها سوخت دارند</li>
+  </Opportunity_AncientStructureLaunchSite.questSubjectRules.rulesStrings>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of [structureNameWithArticle]. You can loot the structure for valuable resources.\n\nBe warned, ancient structures can contain a variety of threats.</li>
+    <li>structureNameWithArticle->an ancient warehouse</li>
+  -->
+  <Opportunity_AncientStructureWarehouse.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] مکان [structureNameWithArticle]. می‌توانید این سازه را برای به دست آوردن منابع ارزشمند غارت کنید.\n\nهشدار داده می‌شود، سازه‌های باستانی ممکن است حاوی خطرات گوناگونی باشند.</li>
+    <li>structureNameWithArticle->یک انبار بزرگ باستانی</li>
+  </Opportunity_AncientStructureWarehouse.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->The [ancient] [structureName]</li>
+    <li>questName->[ancient] [structureName]</li>
+    <li>questName->Discovered [structureName]</li>
+    <li>questName->[structureName] Discovery</li>
+    <li>ancient(p=2)->Ancient</li>
+    <li>ancient->Lost</li>
+    <li>structureName->warehouse</li>
+  -->
+  <Opportunity_AncientStructureWarehouse.questNameRules.rulesStrings>
+    <li>questName->[structureName] [ancient]</li>
+    <li>questName->[structureName] [ancient]</li>
+    <li>questName->[structureName] کشف‌شده</li>
+    <li>questName->کشف [structureName]</li>
+    <li>ancient(p=2)->باستانی</li>
+    <li>ancient->گمشده</li>
+    <li>structureName->انبار بزرگ</li>
+  </Opportunity_AncientStructureWarehouse.questNameRules.rulesStrings>
+  <!-- EN:
+    <li>subject->ancient buildings</li>
+    <li>subject->lost landmarks</li>
+    <li>subject->ancient structures</li>
+    <li>questMapFeature->drawing of an old building</li>
+    <li>questMapText->scavenging target</li>
+    <li>questMapText->exploration site</li>
+    <li>questMapText->dangerous ancient structure</li>
+    <li>questMapText->beware of traps</li>
+    <li>subject->ancient storehouses</li>
+    <li>subject->warehouses</li>
+    <li>questMapFeature->warehouse</li>
+    <li>questMapFeature->diagram of shelves filled with boxes</li>
+    <li>questMapFeature->sketch of a forklift</li>
+    <li>questMapText->massive ancient building</li>
+  -->
+  <Opportunity_AncientStructureWarehouse.questSubjectRules.rulesStrings>
+    <li>subject->ساختمان‌های باستانی</li>
+    <li>subject->نشانه‌های گمشده</li>
+    <li>subject->سازه‌های باستانی</li>
+    <li>questMapFeature->نقاشی یک ساختمان کهن</li>
+    <li>questMapText->هدف غارت و بازیافت</li>
+    <li>questMapText->محل کاوش</li>
+    <li>questMapText->سازه باستانی خطرناک</li>
+    <li>questMapText->مراقب تله‌ها باشید</li>
+    <li>subject->انبارهای ذخیره باستانی</li>
+    <li>subject->انبارها</li>
+    <li>questMapFeature->انبار</li>
+    <li>questMapFeature->نموداری از قفسه‌های پر از جعبه</li>
+    <li>questMapFeature->طرح اولیه یک لیفتراک</li>
+    <li>questMapText->ساختمان باستانی عظیم</li>
+  </Opportunity_AncientStructureWarehouse.questSubjectRules.rulesStrings>
+  
+</LanguageData>

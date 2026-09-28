@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: rest effectiveness -->
+  <BedRestEffectiveness.label>اثربخشی استراحت</BedRestEffectiveness.label>
+  <!-- EN: How fast people sleeping on this gain rest. -->
+  <BedRestEffectiveness.description>افرادی که روی این سود می خوابند چقدر سریع استراحت می کنند.</BedRestEffectiveness.description>
+  
+  <!-- EN: door opening speed -->
+  <DoorOpenSpeed.label>سرعت باز شدن درب</DoorOpenSpeed.label>
+  <!-- EN: The speed at which the door opens when unpowered.\n\nSlow doors will slow down everyone who uses them. -->
+  <DoorOpenSpeed.description>سرعت باز شدن در هنگام خاموش شدن برق.\n\nدرهای آهسته سرعت همه افرادی که از آنها استفاده می کنند را کاهش می دهد.</DoorOpenSpeed.description>
+  
+  <!-- EN: immunity gain speed factor -->
+  <ImmunityGainSpeedFactor.label>فاکتور سرعت افزایش ایمنی</ImmunityGainSpeedFactor.label>
+  <!-- EN: Immunity gain speed is multiplied by this value. -->
+  <ImmunityGainSpeedFactor.description>سرعت افزایش ایمنی در این مقدار ضرب می شود.</ImmunityGainSpeedFactor.description>
+  
+  <!-- EN: recreation power -->
+  <JoyGainFactor.label>قدرت تفریح</JoyGainFactor.label>
+  <!-- EN: How effectively this item entertains people and fulfills the need for recreation. -->
+  <JoyGainFactor.description>چقدر این آیتم مردم را سرگرم می کند و نیاز به تفریح ​​را برطرف می کند.</JoyGainFactor.description>
+  
+  <!-- EN: medical tend quality offset -->
+  <MedicalTendQualityOffset.label>افست کیفیت گرایش پزشکی</MedicalTendQualityOffset.label>
+  <!-- EN: Medical tend quality is offset by this value. -->
+  <MedicalTendQualityOffset.description>کیفیت تمایل پزشکی با این مقدار جبران می شود.</MedicalTendQualityOffset.description>
+  
+  <!-- EN: max power output -->
+  <PowerPlantMaxPowerOuput.label>حداکثر توان خروجی</PowerPlantMaxPowerOuput.label>
+  <!-- EN: The maximum power that this generator can output in ideal conditions. -->
+  <PowerPlantMaxPowerOuput.description>حداکثر توانی که این ژنراتور در شرایط ایده آل می تواند تولید کند.</PowerPlantMaxPowerOuput.description>
+  <!-- EN: {0} W -->
+  <PowerPlantMaxPowerOuput.formatString>{0} W</PowerPlantMaxPowerOuput.formatString>
+  
+  <!-- EN: research speed factor -->
+  <ResearchSpeedFactor.label>عامل سرعت تحقیق</ResearchSpeedFactor.label>
+  <!-- EN: The speed at which people do research is multiplied by this value. -->
+  <ResearchSpeedFactor.description>سرعت انجام تحقیقات توسط افراد در این مقدار ضرب می شود.</ResearchSpeedFactor.description>
+  <!-- EN: Room cleanliness -->
+  <ResearchSpeedFactor.parts.Room_cleanliness.customLabel>تمیزی اتاق</ResearchSpeedFactor.parts.Room_cleanliness.customLabel>
+  <!-- EN: Reading bonus -->
+  <ResearchSpeedFactor.parts.Reading_bonus.customLabel>پاداش خواندن</ResearchSpeedFactor.parts.Reading_bonus.customLabel>
+  
+  <!-- EN: reading bonus -->
+  <RoomReadingBonus.label>پاداش خواندن</RoomReadingBonus.label>
+  <!-- EN: Provides a bonus to research speed, XP gained from reading, and recreation gained from reading in the same room as the bookcase. This is increased by placing more and higher quality books in the bookcase. -->
+  <RoomReadingBonus.description>امتیازی برای سرعت تحقیق، XP به دست آمده از مطالعه، و تفریحی که از مطالعه در همان اتاقی که قفسه کتاب به دست می آید، ارائه می دهد. این امر با قرار دادن کتاب های بیشتر و با کیفیت بالاتر در قفسه کتاب افزایش می یابد.</RoomReadingBonus.description>
+  <!-- EN: Reading bonus -->
+  <RoomReadingBonus.parts.Reading_bonus.customLabel>پاداش خواندن</RoomReadingBonus.parts.Reading_bonus.customLabel>
+  
+  <!-- EN: surgery success chance factor -->
+  <SurgerySuccessChanceFactor.label>عامل شانس موفقیت جراحی</SurgerySuccessChanceFactor.label>
+  <!-- EN: A multiplier to the chance that a surgery will succeed when performed here.\n\nSurgery success chances are also affected by many other factors, including the surgeon's ability and medicine used. -->
+  <SurgerySuccessChanceFactor.description>افزایش شانس موفقیت یک عمل جراحی در صورت انجام در اینجا.\n\nشانس موفقیت جراحی نیز تحت تأثیر بسیاری از عوامل دیگر، از جمله توانایی جراح و داروهای مورد استفاده قرار می‌گیرد.</SurgerySuccessChanceFactor.description>
+  <!-- EN: Room cleanliness -->
+  <SurgerySuccessChanceFactor.parts.Room_cleanliness.customLabel>تمیزی اتاق</SurgerySuccessChanceFactor.parts.Room_cleanliness.customLabel>
+  
+  <!-- EN: trap melee damage -->
+  <TrapMeleeDamage.label>تله غوغا آسیب</TrapMeleeDamage.label>
+  <!-- EN: How much damage this trap does on average per hit. Each trap hits multiple times.\n\nThe actual damage in any instance will vary randomly. -->
+  <TrapMeleeDamage.description>این تله به طور متوسط ​​در هر ضربه چقدر آسیب می زند. هر تله چندین بار برخورد می کند.\n\nآسیب واقعی در هر نمونه به طور تصادفی متفاوت خواهد بود.</TrapMeleeDamage.description>
+  
+  <!-- EN: trap spring chance -->
+  <TrapSpringChance.label>تله بهار شانس</TrapSpringChance.label>
+  <!-- EN: The likelihood that the trap will spring when an unaware creature passes over it. -->
+  <TrapSpringChance.description>این احتمال وجود دارد که وقتی موجودی ناآگاه از روی آن عبور کند، تله پدیدار شود.</TrapSpringChance.description>
+  
+  <!-- EN: work efficiency factor -->
+  <WorkTableEfficiencyFactor.label>عامل راندمان کار</WorkTableEfficiencyFactor.label>
+  <!-- EN: Work efficiency is multiplied by this value. -->
+  <WorkTableEfficiencyFactor.description>راندمان کار در این مقدار ضرب می شود.</WorkTableEfficiencyFactor.description>
+  
+  <!-- EN: work speed factor -->
+  <WorkTableWorkSpeedFactor.label>ضریب سرعت کار</WorkTableWorkSpeedFactor.label>
+  <!-- EN: Work speed is multiplied by this value. -->
+  <WorkTableWorkSpeedFactor.description>سرعت کار در این مقدار ضرب می شود.</WorkTableWorkSpeedFactor.description>
+  
+  <!-- EN: work to build -->
+  <WorkToBuild.label>کار برای ساختن</WorkToBuild.label>
+  <!-- EN: The base amount of work it takes to build a structure, once all materials are gathered.\n\nThe work required to deconstruct the structure is also based on this. -->
+  <WorkToBuild.description>میزان اولیه کاری که برای ساخت یک سازه نیاز است، پس از جمع آوری تمام مواد.\n\nکار مورد نیاز برای ساختارشکنی سازه نیز بر این اساس است.</WorkToBuild.description>
+  
+</LanguageData>

@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Create beautiful works of art from raw materials. -->
+  <Art.description>ساخت آثار هنری زیبا از مواد خام.</Art.description>
+  <!-- EN: art -->
+  <Art.gerundLabel>هنرآفرینی</Art.gerundLabel>
+  <!-- EN: art -->
+  <Art.labelShort>هنر</Art.labelShort>
+  <!-- EN: Artist -->
+  <Art.pawnLabel>هنرمند</Art.pawnLabel>
+  <!-- EN: Do art at -->
+  <Art.verb>هنرآفرینی</Art.verb>
+  
+  <!-- EN: Unskilled and easy tasks. Release prisoners and flick switches on machines. -->
+  <BasicWorker.description>کارهای ساده و بدون مهارت؛ آزاد کردن زندانیان و زدن کلید دستگاه‌ها.</BasicWorker.description>
+  <!-- EN: basic tasks -->
+  <BasicWorker.gerundLabel>رسیدگی</BasicWorker.gerundLabel>
+  <!-- EN: basic -->
+  <BasicWorker.labelShort>ساده</BasicWorker.labelShort>
+  <!-- EN: Worker -->
+  <BasicWorker.pawnLabel>کارگر</BasicWorker.pawnLabel>
+  <!-- EN: Deal with -->
+  <BasicWorker.verb>رسیدگی</BasicWorker.verb>
+  
+  <!-- EN: Clear snow, pollution and clean the floor in the home area. -->
+  <Cleaning.description>پاک‌سازی برف، آلودگی و تمیز کردن کف خانه.</Cleaning.description>
+  <!-- EN: cleaning -->
+  <Cleaning.gerundLabel>تمیزکاری</Cleaning.gerundLabel>
+  <!-- EN: clean -->
+  <Cleaning.labelShort>تمیز</Cleaning.labelShort>
+  <!-- EN: Cleaner -->
+  <Cleaning.pawnLabel>نظافت‌چی</Cleaning.pawnLabel>
+  <!-- EN: Clean -->
+  <Cleaning.verb>تمیزکاری</Cleaning.verb>
+  
+  <!-- EN: Build things that you've designated, and fix damaged or broken-down buildings. -->
+  <Construction.description>ساخت سازه‌های تعیین‌شده و تعمیر ساختمان‌های آسیب‌دیده یا خراب.</Construction.description>
+  <!-- EN: constructing -->
+  <Construction.gerundLabel>ساخت‌وساز</Construction.gerundLabel>
+  <!-- EN: construct -->
+  <Construction.labelShort>ساخت</Construction.labelShort>
+  <!-- EN: Constructor -->
+  <Construction.pawnLabel>سازنده</Construction.pawnLabel>
+  <!-- EN: Construct -->
+  <Construction.verb>ساختن</Construction.verb>
+  
+  <!-- EN: Prepare meals and butcher meat. -->
+  <Cooking.description>غذاها را آماده کنید و گوشت قصابی کنید.</Cooking.description>
+  <!-- EN: cooking -->
+  <Cooking.gerundLabel>پخت و پز</Cooking.gerundLabel>
+  <!-- EN: cook -->
+  <Cooking.labelShort>پختن</Cooking.labelShort>
+  <!-- EN: Cook -->
+  <Cooking.pawnLabel>بپزید</Cooking.pawnLabel>
+  <!-- EN: Cook -->
+  <Cooking.verb>بپزید</Cooking.verb>
+  
+  <!-- EN: Do general low-skilled labor at work stations. This includes stonecutting, smelting, and more. -->
+  <Crafting.description>کار عمومی با مهارت کم را در ایستگاه های کاری انجام دهید. این شامل سنگبری، ذوب و غیره است.</Crafting.description>
+  <!-- EN: crafting -->
+  <Crafting.gerundLabel>صنایع دستی</Crafting.gerundLabel>
+  <!-- EN: craft -->
+  <Crafting.labelShort>صنایع دستی</Crafting.labelShort>
+  <!-- EN: Crafter -->
+  <Crafting.pawnLabel>کرافتر</Crafting.pawnLabel>
+  <!-- EN: Craft at -->
+  <Crafting.verb>کاردستی در</Crafting.verb>
+  
+  <!-- EN: Treat the sick, bring them food, cheer them up, and perform assigned surgeries. Doctors will care for both colonists and prisoners. -->
+  <Doctor.description>بیماران را معالجه کنید، برای آنها غذا بیاورید، آنها را شاد کنید و جراحی های تعیین شده را انجام دهید. پزشکان هم از استعمارگران و هم از زندانیان مراقبت خواهند کرد.</Doctor.description>
+  <!-- EN: doctoring -->
+  <Doctor.gerundLabel>پزشکی</Doctor.gerundLabel>
+  <!-- EN: doctor -->
+  <Doctor.labelShort>دکتر</Doctor.labelShort>
+  <!-- EN: Doctor -->
+  <Doctor.pawnLabel>دکتر</Doctor.pawnLabel>
+  <!-- EN: Care for -->
+  <Doctor.verb>مراقبت از</Doctor.verb>
+  
+  <!-- EN: Extinguish fires in the colony. -->
+  <Firefighter.description>آتش را در کلنی خاموش کنید.</Firefighter.description>
+  <!-- EN: firefighting -->
+  <Firefighter.gerundLabel>آتش نشانی</Firefighter.gerundLabel>
+  <!-- EN: firefight -->
+  <Firefighter.labelShort>آتش نشانی</Firefighter.labelShort>
+  <!-- EN: Firefighter -->
+  <Firefighter.pawnLabel>آتش نشان</Firefighter.pawnLabel>
+  <!-- EN: Extinguish -->
+  <Firefighter.verb>خاموش کردن</Firefighter.verb>
+  
+  <!-- EN: Plant seeds, harvest crops, and forage for wild plants. -->
+  <Growing.description>بذر بکارید، محصولات را برداشت کنید و برای گیاهان وحشی علوفه بکارید.</Growing.description>
+  <!-- EN: growing -->
+  <Growing.gerundLabel>در حال رشد</Growing.gerundLabel>
+  <!-- EN: grow -->
+  <Growing.labelShort>رشد کنند</Growing.labelShort>
+  <!-- EN: Grower -->
+  <Growing.pawnLabel>پرورش دهنده</Growing.pawnLabel>
+  <!-- EN: Grow -->
+  <Growing.verb>رشد کنید</Growing.verb>
+  
+  <!-- EN: Tame, train, harvest resources from and slaughter animals. -->
+  <Handling.description>رام کنید، آموزش دهید، از منابع برداشت کنید و حیوانات را سلاخی کنید.</Handling.description>
+  <!-- EN: handling -->
+  <Handling.gerundLabel>دست زدن</Handling.gerundLabel>
+  <!-- EN: handle -->
+  <Handling.labelShort>دسته</Handling.labelShort>
+  <!-- EN: Handler -->
+  <Handling.pawnLabel>هندلر</Handling.pawnLabel>
+  <!-- EN: Handle -->
+  <Handling.verb>دسته</Handling.verb>
+  
+  <!-- EN: Carry things to where they need to be. -->
+  <Hauling.description>وسایل را به جایی که باید باشند حمل کنید.</Hauling.description>
+  <!-- EN: hauling -->
+  <Hauling.gerundLabel>حمل و نقل</Hauling.gerundLabel>
+  <!-- EN: haul -->
+  <Hauling.labelShort>حمل و نقل</Hauling.labelShort>
+  <!-- EN: Hauler -->
+  <Hauling.pawnLabel>هاولر</Hauling.pawnLabel>
+  <!-- EN: Haul -->
+  <Hauling.verb>حمل و نقل</Hauling.verb>
+  
+  <!-- EN: Kill animals which are designated to be hunted. -->
+  <Hunting.description>حیواناتی را که برای شکار تعیین شده اند بکشید.</Hunting.description>
+  <!-- EN: hunting -->
+  <Hunting.gerundLabel>شکار</Hunting.gerundLabel>
+  <!-- EN: hunt -->
+  <Hunting.labelShort>شکار</Hunting.labelShort>
+  <!-- EN: Hunter -->
+  <Hunting.pawnLabel>شکارچی</Hunting.pawnLabel>
+  <!-- EN: Hunt -->
+  <Hunting.verb>شکار</Hunting.verb>
+  
+  <!-- EN: Digging and drilling. -->
+  <Mining.description>حفاری و حفاری.</Mining.description>
+  <!-- EN: mining -->
+  <Mining.gerundLabel>معدن</Mining.gerundLabel>
+  <!-- EN: mine -->
+  <Mining.labelShort>مال من</Mining.labelShort>
+  <!-- EN: Miner -->
+  <Mining.pawnLabel>ماینر</Mining.pawnLabel>
+  <!-- EN: Mine -->
+  <Mining.verb>مال من</Mining.verb>
+  
+  <!-- EN: Go to a medical bed for treatment if you have an immediately life-threatening health condition. -->
+  <Patient.description>اگر وضعیت سلامتی شما فوراً تهدید کننده زندگی است، برای درمان به تخت پزشکی بروید.</Patient.description>
+  <!-- EN: patienting -->
+  <Patient.gerundLabel>صبور بودن</Patient.gerundLabel>
+  <!-- EN: patient -->
+  <Patient.labelShort>بیمار</Patient.labelShort>
+  <!-- EN: Patient -->
+  <Patient.pawnLabel>بیمار</Patient.pawnLabel>
+  <!-- EN: Become patient -->
+  <Patient.verb>صبور باش</Patient.verb>
+  
+  <!-- EN: Rest in bed to recuperate from not-immediately-life-threatening medical problems. -->
+  <PatientBedRest.description>در رختخواب استراحت کنید تا از مشکلات پزشکی که فوراً تهدید کننده زندگی نیستند، بهبود پیدا کنید.</PatientBedRest.description>
+  <!-- EN: resting in bed -->
+  <PatientBedRest.gerundLabel>استراحت در رختخواب</PatientBedRest.gerundLabel>
+  <!-- EN: bed rest -->
+  <PatientBedRest.labelShort>استراحت در رختخواب</PatientBedRest.labelShort>
+  <!-- EN: Bed rester -->
+  <PatientBedRest.pawnLabel>سرویس خواب</PatientBedRest.pawnLabel>
+  <!-- EN: Become patient -->
+  <PatientBedRest.verb>صبور باش</PatientBedRest.verb>
+  
+  <!-- EN: Cut or harvest plants as designated. -->
+  <PlantCutting.description>گیاهان را طبق تعیین شده برش دهید یا برداشت کنید.</PlantCutting.description>
+  <!-- EN: plant cutting -->
+  <PlantCutting.gerundLabel>قلمه زدن گیاه</PlantCutting.gerundLabel>
+  <!-- EN: plant cut -->
+  <PlantCutting.labelShort>برش گیاه</PlantCutting.labelShort>
+  <!-- EN: Plant cutter -->
+  <PlantCutting.pawnLabel>دستگاه برش گیاه</PlantCutting.pawnLabel>
+  <!-- EN: Cut -->
+  <PlantCutting.verb>برش دهید</PlantCutting.verb>
+  
+  <!-- EN: Perform research work. -->
+  <Research.description>انجام کار تحقیقاتی.</Research.description>
+  <!-- EN: researching -->
+  <Research.gerundLabel>تحقیق کردن</Research.gerundLabel>
+  <!-- EN: research -->
+  <Research.labelShort>تحقیق کنید</Research.labelShort>
+  <!-- EN: Researcher -->
+  <Research.pawnLabel>محقق</Research.pawnLabel>
+  <!-- EN: Research at -->
+  <Research.verb>تحقیق در</Research.verb>
+  
+  <!-- EN: Create weapons and tools from raw materials, either as a blacksmith or by machining. Also repair mechanoids, if the colonist is a mechanitor. -->
+  <Smithing.description>سلاح و ابزار را از مواد خام، چه به عنوان آهنگر و چه با ماشین کاری، ایجاد کنید. همچنین اگر مستعمره‌کننده مکانیکال است، مکانیک‌ها را تعمیر کنید.</Smithing.description>
+  <!-- EN: smithing -->
+  <Smithing.gerundLabel>آهنگری</Smithing.gerundLabel>
+  <!-- EN: smith -->
+  <Smithing.labelShort>اسمیت</Smithing.labelShort>
+  <!-- EN: Smith -->
+  <Smithing.pawnLabel>اسمیت</Smithing.pawnLabel>
+  <!-- EN: Smith at -->
+  <Smithing.verb>اسمیت در</Smithing.verb>
+  
+  <!-- EN: Create apparel from raw materials. -->
+  <Tailoring.description>تولید پوشاک از مواد خام</Tailoring.description>
+  <!-- EN: tailoring -->
+  <Tailoring.gerundLabel>خیاطی</Tailoring.gerundLabel>
+  <!-- EN: tailor -->
+  <Tailoring.labelShort>خیاط</Tailoring.labelShort>
+  <!-- EN: Tailor -->
+  <Tailoring.pawnLabel>خیاط</Tailoring.pawnLabel>
+  <!-- EN: Tailor at -->
+  <Tailoring.verb>خیاط در</Tailoring.verb>
+  
+  <!-- EN: Manage, feed, chat with, and recruit prisoners. -->
+  <Warden.description>مدیریت، تغذیه، گپ زدن و استخدام زندانیان.</Warden.description>
+  <!-- EN: wardening -->
+  <Warden.gerundLabel>نگهبانی</Warden.gerundLabel>
+  <!-- EN: warden -->
+  <Warden.labelShort>نگهبان</Warden.labelShort>
+  <!-- EN: Warden -->
+  <Warden.pawnLabel>نگهبان</Warden.pawnLabel>
+  <!-- EN: Handle -->
+  <Warden.verb>دسته</Warden.verb>
+  
+</LanguageData>

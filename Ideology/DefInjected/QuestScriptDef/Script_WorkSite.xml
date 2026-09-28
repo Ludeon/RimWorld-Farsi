@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->You've detected a [siteLabel] nearby controlled by [faction_name].\n\nIf you wish, you can raid the camp to collect loot ([loot]). [raidConsequences]\n\nThe camp will pack up and move on in [timeout_duration].</li>
+    <li>raidConsequences(faction_temporary==false)->If you do, [faction_name] will become hostile if they are not already.</li>
+    <li>raidConsequences(faction_temporary==true)->Since [faction_name] is just a small, independent group, you can attack them without any broader diplomatic consequences.</li>
+  -->
+  <OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
+    <li>questDescription->شما یک [siteLabel] را در نزدیکی شناسایی کرده‌اید که توسط [faction_name] کنترل می‌شود.\n\nاگر مایل باشید، می‌توانید برای جمع‌آوری غنایم ([loot]) به اردوگاه حمله کنید. [raidConsequences]\n\nاردوگاه در [timeout_duration] جمع می‌شود و حرکت می‌کند.</li>
+    <li>raidConsequences(faction_temporary==false)->اگر این کار را انجام دهید، [faction_name] اگر قبلاً دشمن نبوده باشند، دشمن خواهند شد.</li>
+    <li>raidConsequences(faction_temporary==true)->از آنجا که [faction_name] فقط یک گروه کوچک و مستقل است، می‌توانید بدون هیچ عواقب دیپلماتیک گسترده‌تری به آنها حمله کنید.</li>
+  </OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[site_label] [detected]</li>
+    <li>detected->detected</li>
+    <li>detected->discovered</li>
+    <li>detected->nearby</li>
+    <li>detected->found</li>
+    <li>detected->identified</li>
+    <li>detected->noticed</li>
+    <li>detected->observed</li>
+    <li>detected->revealed</li>
+    <li>detected->uncovered</li>
+  -->
+  <OpportunitySite_WorkSite.questNameRules.rulesStrings>
+    <li>questName->[site_label] [detected]</li>
+    <li>detected->شناسایی شد</li>
+    <li>detected->کشف شد</li>
+    <li>detected->در نزدیکی</li>
+    <li>detected->پیدا شد</li>
+    <li>detected->شناسایی شد</li>
+    <li>detected->مشاهده شد</li>
+    <li>detected->رصد شد</li>
+    <li>detected->آشکار شد</li>
+    <li>detected->کشف شد</li>
+  </OpportunitySite_WorkSite.questNameRules.rulesStrings>
+  
+</LanguageData>

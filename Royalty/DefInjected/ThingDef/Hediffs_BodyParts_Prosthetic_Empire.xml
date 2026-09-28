@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: drill arm -->
+  <DrillArm.label>بازوی مته</DrillArm.label>
+  <!-- EN: A mechanical arm replacement for speeding up mining. It has a built-in snake drill, which allows the miner to rapidly find and exploit weak lines in the rock. It also has a general-purpose manipulator. It is somewhat ungainly, which slows down movement slightly. -->
+  <DrillArm.description>جایگزینی بازوی مکانیکی برای افزایش سرعت ماینینگ. دارای یک مته مار داخلی است که به معدنچی اجازه می دهد تا به سرعت خطوط ضعیف را در سنگ پیدا کند و از آن استفاده کند. همچنین دارای یک دستکاری کننده همه منظوره است. تا حدودی ناخوشایند است که حرکت را کمی کند می کند.</DrillArm.description>
+  
+  <!-- EN: elbow blade -->
+  <ElbowBlade.label>تیغه آرنج</ElbowBlade.label>
+  <!-- EN: A razor-sharp blade that extends at will from a hidden opening at the end of the ulna. Appearing without warning, it can be used for devastating slice attacks. -->
+  <ElbowBlade.description>تیغه‌ای تیز که به میل خود از دهانه مخفی انتهای استخوان زند بیرون می آید. بدون هشدار ظاهر می شود، می توان از آن برای حملات ویرانگر برش استفاده کرد.</ElbowBlade.description>
+  
+  <!-- EN: field hand -->
+  <FieldHand.label>دست میدانی</FieldHand.label>
+  <!-- EN: This mechanical hand replacement is made to speed up the sowing and harvesting tasks of a farmer. Multiple telescoping finger-like protrusions can simultaneously harvest from several points on the same plant, or precisely sow several holes at once. It also has a general-purpose manipulator. It is somewhat ungainly, which slows down movement slightly. -->
+  <FieldHand.description>این تعویض دستی مکانیکی برای تسریع در کار کاشت و برداشت یک کشاورز ساخته شده است. برآمدگی های انگشت مانند تلسکوپی متعدد می توانند به طور همزمان از چندین نقطه در یک گیاه برداشت کنند یا به طور دقیق چندین سوراخ را به طور همزمان بکارند. همچنین دارای یک دستکاری کننده همه منظوره است. تا حدودی ناخوشایند است که حرکت را کمی کند می کند.</FieldHand.description>
+  
+  <!-- EN: hand talon -->
+  <HandTalon.label>چنگال دست</HandTalon.label>
+  <!-- EN: A razor-sharp talon which extends from a hidden opening between the middle and ring fingers. The talon is longer than the palm, but it becomes flexible upon retracting, allowing the user to curl it up and conceal it inside the hand. It can perform rapid slashing attacks, but is poor at penetrating armor. -->
+  <HandTalon.description>چنگال تیغی که از دهانه پنهانی بین انگشتان میانی و حلقه بیرون می‌آید. چنگال بلندتر از کف دست است، اما با جمع شدن انعطاف‌پذیر می‌شود و به کاربر این امکان را می‌دهد تا آن را خم کند و در داخل دست پنهان کند. این می تواند حملات slashing سریع انجام دهد، اما در زره نفوذ ضعیف است.</HandTalon.description>
+  
+  <!-- EN: knee spike -->
+  <KneeSpike.label>سنبله زانو</KneeSpike.label>
+  <!-- EN: A spike that extends at will from a hidden opening on the front of the knee. Appearing without warning, it can be used for devastating stabbing attacks which penetrate even thick armor. -->
+  <KneeSpike.description>سنبله‌ای که به میل خود از دهانه‌ای پنهان در جلوی زانو بیرون می آید. بدون اخطار ظاهر می شود، می تواند برای حملات خنجر ویرانگر که حتی به زره های ضخیم نفوذ می کنند استفاده شود.</KneeSpike.description>
+  
+  <!-- EN: mindscrew -->
+  <Mindscrew.label>پیچ ذهنی</Mindscrew.label>
+  <!-- EN: Inflicts continuous pain on the user. Mindscrews are used by some authorities as a long-term punishment. Some even install them voluntarily as a demonstration of ideological or religious devotion. -->
+  <Mindscrew.description>درد مداوم را به کاربر وارد می کند. برخی از مقامات به عنوان یک تنبیه طولانی مدت از ابزارهای ذهنی استفاده می کنند. حتی برخی به صورت داوطلبانه آنها را به عنوان نمایشی از فداکاری ایدئولوژیک یا مذهبی نصب می کنند.</Mindscrew.description>
+  
+  <!-- EN: venom fangs -->
+  <VenomFangs.label>نیش سمی</VenomFangs.label>
+  <!-- EN: A pair of injectors implanted through the canine teeth, connected to a venom pump. The user can bite an enemy, extend the injectors, and pump venom into the target. -->
+  <VenomFangs.description>یک جفت انژکتور که از طریق دندان نیش کاشته شده و به یک پمپ سم متصل است. کاربر می تواند دشمن را گاز بگیرد، انژکتورها را دراز کند و سم را به سمت هدف پمپ کند.</VenomFangs.description>
+  
+  <!-- EN: venom talon -->
+  <VenomTalon.label>چنگال زهر</VenomTalon.label>
+  <!-- EN: A retractable finger talon connected to a venom pump in the lower arm. The user can scratch an enemy while squirting venom into the wound. The talon is designed to be installed in the middle finger. It's fast, but poor at penetrating armor. -->
+  <VenomTalon.description>یک طناب انگشت جمع شونده متصل به پمپ زهر در قسمت پایین بازو. کاربر می تواند دشمن را خراش دهد در حالی که سم را داخل زخم می ریزد. چنگال برای نصب در انگشت میانی طراحی شده است. این سریع است، اما در زره نفوذ ضعیف است.</VenomTalon.description>
+  
+</LanguageData>

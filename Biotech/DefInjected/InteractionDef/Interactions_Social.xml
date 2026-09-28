@@ -1,0 +1,783 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: play -->
+  <BabyPlay.label>بازی کردن</BabyPlay.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] made [RECIPIENT_nameDef] [reaction].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [interaction] [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] played [babyGame] with [RECIPIENT_nameDef].</li>
+    <li>reaction->giggle</li>
+    <li>reaction->smile</li>
+    <li>reaction->squirm with joy</li>
+    <li>reaction->laugh</li>
+    <li>reaction->drool playfully</li>
+    <li>reaction->gurgle</li>
+    <li>reaction->squeal</li>
+    <li>reaction->burp</li>
+    <li>reaction->stare in fascination</li>
+    <li>interaction->delighted</li>
+    <li>interaction->played with</li>
+    <li>interaction->entertained</li>
+    <li>interaction->amused</li>
+    <li>interaction->tickled</li>
+    <li>interaction->nuzzled</li>
+    <li>interaction->snuffled</li>
+    <li>interaction->hugged</li>
+    <li>interaction->tossed</li>
+    <li>interaction->sang to</li>
+    <li>interaction->told a story to</li>
+    <li>interaction->played a magic trick on</li>
+    <li>babyGame->hide-and-go-seek</li>
+    <li>babyGame->peekaboo</li>
+    <li>babyGame->find-the-finger</li>
+    <li>babyGame->monkey-see-monkey-do</li>
+    <li>babyGame->show-and-tell</li>
+    <li>babyGame->fingerpuppets</li>
+  -->
+  <BabyPlay.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef] [reaction] را ساخته است.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [interaction] [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [babyGame] را با [RECIPIENT_nameDef] بازی کرد.</li>
+    <li>reaction->خندیدن</li>
+    <li>reaction->لبخند بزن</li>
+    <li>reaction->از خوشحالی بهم می پیچد</li>
+    <li>reaction->بخند</li>
+    <li>reaction->با شوخی آب دهان</li>
+    <li>reaction->غرغر کردن</li>
+    <li>reaction->جیغ زدن</li>
+    <li>reaction->آروغ زدن</li>
+    <li>reaction->خیره شیفته</li>
+    <li>interaction->خوشحال</li>
+    <li>interaction->با</li>
+    <li>interaction->سرگرم شد</li>
+    <li>interaction->سرگرم شده</li>
+    <li>interaction->قلقلک داد</li>
+    <li>interaction->نازل شده</li>
+    <li>interaction->خفه شده</li>
+    <li>interaction->در آغوش گرفت</li>
+    <li>interaction->پرتاب شد</li>
+    <li>interaction->برای</li>
+    <li>interaction->داستانی گفت به</li>
+    <li>interaction->یک ترفند جادویی بازی کرد</li>
+    <li>babyGame->قایم‌باشک</li>
+    <li>babyGame->دالی‌موشه</li>
+    <li>babyGame->پیدا کردن انگشت</li>
+    <li>babyGame->میمون دیدن میمون انجام</li>
+    <li>babyGame->نشان دادن و گفتن</li>
+    <li>babyGame->عروسک های انگشتی</li>
+  </BabyPlay.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: animal lesson -->
+  <LessonAnimals.label>درس حیوانات</LessonAnimals.label>
+  <!-- EN:
+    <li>r_logentry(p=4)->[INITIATOR_nameDef] [teach_verb] how to [animal_verb] [article_animal] to [RECIPIENT_nameDef].</li>
+    <li>article_animal->a megasloth</li>
+    <li>article_animal->a megaspider</li>
+    <li>article_animal->a thrumbo</li>
+    <li>article_animal->a boomrat</li>
+    <li>article_animal->a chinchilla</li>
+    <li>article_animal->a guinea pig</li>
+    <li>article_animal->a cobra</li>
+    <li>article_animal->an emu</li>
+    <li>article_animal->an iguana</li>
+    <li>article_animal->a raccoon</li>
+    <li>article_animal->a warg</li>
+    <li>article_animal->a yak</li>
+    <li>article_animal->a squirrel</li>
+    <li>article_animal->a muffalo</li>
+    <li>animal_verb->tame</li>
+    <li>animal_verb->feed</li>
+    <li>animal_verb->calm</li>
+    <li>animal_verb->spook</li>
+    <li>animal_verb->gain the trust of</li>
+    <li>subject->animal psychology</li>
+    <li>subject->taming techniques</li>
+    <li>subject->dangerous wildlife</li>
+    <li>subject->reptiles</li>
+    <li>subject->scaria</li>
+    <li>subject->kibble</li>
+  -->
+  <LessonAnimals.logRulesInitiator.rulesStrings>
+    <li>r_logentry(p=4)->[INITIATOR_nameDef] [teach_verb] نحوه [animal_verb] [article_animal] به [RECIPIENT_nameDef].</li>
+    <li>article_animal->یک مرد بزرگ</li>
+    <li>article_animal->یک مگا عنکبوت</li>
+    <li>article_animal->ترومبو</li>
+    <li>article_animal->یک بومرات</li>
+    <li>article_animal->یک چینچیلا</li>
+    <li>article_animal->یک خوکچه هندی</li>
+    <li>article_animal->یک کبرا</li>
+    <li>article_animal->یک emu</li>
+    <li>article_animal->یک ایگوانا</li>
+    <li>article_animal->یک راکون</li>
+    <li>article_animal->یک وارگ</li>
+    <li>article_animal->یک قایق</li>
+    <li>article_animal->یک سنجاب</li>
+    <li>article_animal->یک کلوچه</li>
+    <li>animal_verb->رام کردن</li>
+    <li>animal_verb->خوراک</li>
+    <li>animal_verb->آرام</li>
+    <li>animal_verb->ترسناک</li>
+    <li>animal_verb->جلب اعتماد</li>
+    <li>subject->روانشناسی حیوانات</li>
+    <li>subject->تکنیک های رام کردن</li>
+    <li>subject->حیات وحش خطرناک</li>
+    <li>subject->خزندگان</li>
+    <li>subject->اسکاریا</li>
+    <li>subject->کیسه زدن</li>
+  </LessonAnimals.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: art lesson -->
+  <LessonArtistic.label>درس هنر</LessonArtistic.label>
+  <!-- EN:
+    <li>article_tool->a paint brush</li>
+    <li>article_tool->a charcoal pencil</li>
+    <li>article_tool->a chisel</li>
+    <li>article_tool->a canvas</li>
+    <li>article_tool->a lump of clay</li>
+    <li>action->make art with</li>
+    <li>action->use</li>
+    <li>action->express one's self with</li>
+    <li>action_gerund->making art with</li>
+    <li>action_gerund->using</li>
+    <li>action_gerund->expressing one's self with</li>
+    <li>subject->sculpture materials</li>
+    <li>subject->famous artists</li>
+    <li>subject->famous paintings</li>
+    <li>subject->glitterworld galleries</li>
+    <li>subject->portraiture</li>
+    <li>subject->abstract art</li>
+    <li>subject->mixing paints</li>
+  -->
+  <LessonArtistic.logRulesInitiator.rulesStrings>
+    <li>article_tool->یک برس رنگ</li>
+    <li>article_tool->یک مداد زغالی</li>
+    <li>article_tool->یک اسکنه</li>
+    <li>article_tool->یک بوم نقاشی</li>
+    <li>article_tool->یک توده خاک رس</li>
+    <li>action->با</li>
+    <li>action->استفاده کنید</li>
+    <li>action->خود را با</li>
+    <li>action_gerund->ساختن هنر با</li>
+    <li>action_gerund->با استفاده از</li>
+    <li>action_gerund->بیان خود با</li>
+    <li>subject->مواد مجسمه سازی</li>
+    <li>subject->هنرمندان مشهور</li>
+    <li>subject->نقاشی های معروف</li>
+    <li>subject->گالری های دنیای پر زرق و برق</li>
+    <li>subject->پرتره</li>
+    <li>subject->هنر انتزاعی</li>
+    <li>subject->مخلوط کردن رنگ‌ها</li>
+  </LessonArtistic.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: construction lesson -->
+  <LessonConstruction.label>درس ساخت و ساز</LessonConstruction.label>
+  <!-- EN:
+    <li>article_tool->a hammer</li>
+    <li>article_tool->a table saw</li>
+    <li>article_tool->a ruler</li>
+    <li>article_tool->a ladder</li>
+    <li>article_tool->a level</li>
+    <li>action->use</li>
+    <li>action->work with</li>
+    <li>action->inspect</li>
+    <li>action_gerund->using</li>
+    <li>action_gerund->working with</li>
+    <li>action_gerund->inspecting</li>
+    <li>subject->architecture</li>
+    <li>subject->construction techniques</li>
+    <li>subject->deconstruction techniques</li>
+    <li>subject->building materials</li>
+    <li>subject->modeling software</li>
+    <li>subject->blueprints</li>
+  -->
+  <LessonConstruction.logRulesInitiator.rulesStrings>
+    <li>article_tool->یک چکش</li>
+    <li>article_tool->یک اره رومیزی</li>
+    <li>article_tool->یک حاکم</li>
+    <li>article_tool->یک نردبان</li>
+    <li>article_tool->یک سطح</li>
+    <li>action->استفاده کنید</li>
+    <li>action->کار با</li>
+    <li>action->بازرسی</li>
+    <li>action_gerund->با استفاده از</li>
+    <li>action_gerund->کار با</li>
+    <li>action_gerund->در حال بازرسی</li>
+    <li>subject->معماری</li>
+    <li>subject->تکنیک های ساخت و ساز</li>
+    <li>subject->تکنیک های ساختارشکنی</li>
+    <li>subject->مصالح ساختمانی</li>
+    <li>subject->نرم افزار مدل سازی</li>
+    <li>subject->نقشه‌ها</li>
+  </LessonConstruction.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: cooking lesson -->
+  <LessonCooking.label>درس آشپزی</LessonCooking.label>
+  <!-- EN:
+    <li>article_tool->a stove</li>
+    <li>article_tool->a spatula</li>
+    <li>article_tool->an oven</li>
+    <li>article_tool->a saucepan</li>
+    <li>article_tool->a nutrient paste dispenser</li>
+    <li>article_tool->a butcher table</li>
+    <li>action->clean</li>
+    <li>action->cook with</li>
+    <li>action_gerund->cleaning</li>
+    <li>action_gerund->cooking with</li>
+    <li>subject->spices</li>
+    <li>subject->packaged survival meals</li>
+    <li>subject->egg varieties</li>
+    <li>subject->varieties of meats</li>
+    <li>subject->flavors</li>
+    <li>subject->recipes</li>
+    <li>situation->while caravaning</li>
+    <li>situation->blindfolded</li>
+    <li>situation->in a hurry</li>
+    <li>situation->safely</li>
+  -->
+  <LessonCooking.logRulesInitiator.rulesStrings>
+    <li>article_tool->یک اجاق گاز</li>
+    <li>article_tool->یک کاردک</li>
+    <li>article_tool->یک فر</li>
+    <li>article_tool->یک قابلمه</li>
+    <li>article_tool->پخش کننده خمیر مغذی</li>
+    <li>article_tool->یک میز قصابی</li>
+    <li>action->تمیز کردن</li>
+    <li>action->آشپزی با</li>
+    <li>action_gerund->تمیز کردن</li>
+    <li>action_gerund->آشپزی با</li>
+    <li>subject->ادویه جات ترشی جات</li>
+    <li>subject->بسته بندی وعده های غذایی زنده ماندن</li>
+    <li>subject->انواع تخم مرغ</li>
+    <li>subject->انواع گوشت</li>
+    <li>subject->طعم‌ها</li>
+    <li>subject->دستور العمل‌ها</li>
+    <li>situation->در حین کاروان سواری</li>
+    <li>situation->چشم بسته</li>
+    <li>situation->با عجله</li>
+    <li>situation->با خیال راحت</li>
+  </LessonCooking.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: crafting lesson -->
+  <LessonCrafting.label>درس کاردستی</LessonCrafting.label>
+  <!-- EN:
+    <li>article_tool->a screwdriver</li>
+    <li>article_tool->a pair of pliers</li>
+    <li>article_tool->a circuit board</li>
+    <li>article_tool->a tailor bench</li>
+    <li>article_tool->a machining table</li>
+    <li>article_tool->a fabricator</li>
+    <li>action->use</li>
+    <li>action->work with</li>
+    <li>action->inspect</li>
+    <li>action_gerund->using</li>
+    <li>action_gerund->working with</li>
+    <li>action_gerund->inspecting</li>
+    <li>subject->organizing tools</li>
+    <li>subject->tinkering accomplishments</li>
+    <li>subject->gadgets</li>
+    <li>subject->fabric varieties</li>
+    <li>subject->cloth weaving techniques</li>
+    <li>subject->plate armor</li>
+    <li>subject->utility belts</li>
+    <li>subject->bionics</li>
+    <li>situation->safely</li>
+    <li>situation->without instructions</li>
+    <li>situation->by candlelight</li>
+    <li>situation(p=0.1)->while drunk</li>
+  -->
+  <LessonCrafting.logRulesInitiator.rulesStrings>
+    <li>article_tool->یک پیچ گوشتی</li>
+    <li>article_tool->یک انبردست</li>
+    <li>article_tool->یک برد مدار</li>
+    <li>article_tool->یک نیمکت خیاط</li>
+    <li>article_tool->یک میز ماشینکاری</li>
+    <li>article_tool->یک سازنده</li>
+    <li>action->استفاده کنید</li>
+    <li>action->کار با</li>
+    <li>action->بازرسی</li>
+    <li>action_gerund->با استفاده از</li>
+    <li>action_gerund->کار با</li>
+    <li>action_gerund->در حال بازرسی</li>
+    <li>subject->ابزارهای سازماندهی</li>
+    <li>subject->دستاوردهای سرهم بندی شده</li>
+    <li>subject->گجت‌ها</li>
+    <li>subject->انواع پارچه</li>
+    <li>subject->تکنیک های پارچه بافی</li>
+    <li>subject->زره صفحه‌ای</li>
+    <li>subject->کمربندهای کاربردی</li>
+    <li>subject->بیونیک</li>
+    <li>situation->با خیال راحت</li>
+    <li>situation->بدون دستورالعمل</li>
+    <li>situation->با نور شمع</li>
+    <li>situation(p=0.1)->در حالی که مست</li>
+  </LessonCrafting.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: lesson -->
+  <LessonGeneric.label>درس</LessonGeneric.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] taught a lesson to [RECIPIENT_nameDef]</li>
+  -->
+  <LessonGeneric.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] به [RECIPIENT_nameDef] درس داد</li>
+  </LessonGeneric.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: intellectual lesson -->
+  <LessonIntellectual.label>درس فکری</LessonIntellectual.label>
+  <!-- EN:
+    <li>subject->genetics</li>
+    <li>subject->techprints</li>
+    <li>subject->multi-analyzer functions</li>
+    <li>subject->philosophy</li>
+    <li>subject->mathematics</li>
+    <li>subject->biology</li>
+    <li>subject->chemistry</li>
+    <li>subject->archotech mysteries</li>
+    <li>subject->starship reactors</li>
+    <li>subject->the scientific method</li>
+    <li>subject->seminal whitepapers</li>
+    <li>subject->Johnson-Tanaka propulsion</li>
+  -->
+  <LessonIntellectual.logRulesInitiator.rulesStrings>
+    <li>subject->ژنتیک</li>
+    <li>subject->نقشه‌های فناوری</li>
+    <li>subject->توابع چند آنالایزر</li>
+    <li>subject->فلسفه</li>
+    <li>subject->ریاضیات</li>
+    <li>subject->زیست شناسی</li>
+    <li>subject->شیمی</li>
+    <li>subject->اسرار آرکوتک</li>
+    <li>subject->راکتورهای کشتی فضایی</li>
+    <li>subject->روش علمی</li>
+    <li>subject->وایت پیپرهای منی</li>
+    <li>subject->پیشرانه جانسون-تاناکا</li>
+  </LessonIntellectual.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: medical lesson -->
+  <LessonMedicine.label>درس پزشکی</LessonMedicine.label>
+  <!-- EN:
+    <li>r_logentry(p=5)->[INITIATOR_nameDef] [teach_verb] how to [medical_verb] [hediff] to [RECIPIENT_nameDef].</li>
+    <li>article_tool->a medicine pack</li>
+    <li>article_tool->a bandage</li>
+    <li>article_tool->a syringe</li>
+    <li>article_tool->a healroot plant</li>
+    <li>article_tool->a vitals monitor</li>
+    <li>article_tool->a scalpel</li>
+    <li>article_tool->a healer mech serum dose</li>
+    <li>article_tool->a painstopper</li>
+    <li>action->use</li>
+    <li>action->inspect</li>
+    <li>action_gerund->using</li>
+    <li>action_gerund->inspecting</li>
+    <li>hediff->blood loss</li>
+    <li>hediff->a heart attack</li>
+    <li>hediff->heatstroke</li>
+    <li>hediff->food poisoning</li>
+    <li>hediff->carcinoma</li>
+    <li>hediff->gut worms</li>
+    <li>hediff->muscle parasites</li>
+    <li>hediff->paralytic abasia</li>
+    <li>hediff->malaria</li>
+    <li>hediff->the flu</li>
+    <li>hediff->cirrhosis</li>
+    <li>medical_verb->diagnose</li>
+    <li>medical_verb->triage</li>
+    <li>medical_verb->treat</li>
+    <li>subject->anesthesia dosing</li>
+    <li>subject->types of cancer</li>
+    <li>subject->surgical procedures</li>
+    <li>subject->bedside manner</li>
+    <li>subject->sterilization methods</li>
+  -->
+  <LessonMedicine.logRulesInitiator.rulesStrings>
+    <li>r_logentry(p=5)->[INITIATOR_nameDef] [teach_verb] نحوه [medical_verb] [hediff] به [RECIPIENT_nameDef].</li>
+    <li>article_tool->یک بسته دارویی</li>
+    <li>article_tool->یک باند</li>
+    <li>article_tool->یک سرنگ</li>
+    <li>article_tool->یک گیاه ریشه شفابخش</li>
+    <li>article_tool->یک مانیتور حیاتی</li>
+    <li>article_tool->یک چاقوی جراحی</li>
+    <li>article_tool->دوز سرم healer mech</li>
+    <li>article_tool->یک ضد درد</li>
+    <li>action->استفاده کنید</li>
+    <li>action->بازرسی</li>
+    <li>action_gerund->با استفاده از</li>
+    <li>action_gerund->در حال بازرسی</li>
+    <li>hediff->از دست دادن خون</li>
+    <li>hediff->یک حمله قلبی</li>
+    <li>hediff->گرمازدگی</li>
+    <li>hediff->مسمومیت غذایی</li>
+    <li>hediff->سرطان</li>
+    <li>hediff->کرم های روده</li>
+    <li>hediff->انگل های عضلانی</li>
+    <li>hediff->اباسیا فلج کننده</li>
+    <li>hediff->مالاریا</li>
+    <li>hediff->آنفولانزا</li>
+    <li>hediff->سیروز</li>
+    <li>medical_verb->تشخیص دهد</li>
+    <li>medical_verb->تریاژ</li>
+    <li>medical_verb->درمان</li>
+    <li>subject->دوز بیهوشی</li>
+    <li>subject->انواع سرطان</li>
+    <li>subject->روش های جراحی</li>
+    <li>subject->شیوه کنار تخت</li>
+    <li>subject->روش های عقیم سازی</li>
+  </LessonMedicine.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: melee lesson -->
+  <LessonMelee.label>درس غوغا</LessonMelee.label>
+  <!-- EN:
+    <li>article_tool->an axe</li>
+    <li>article_tool->a club</li>
+    <li>article_tool->a sword</li>
+    <li>article_tool->an elbow blade</li>
+    <li>article_tool->a hand talon</li>
+    <li>article_tool->a longsword</li>
+    <li>article_tool->a monosword</li>
+    <li>article_tool->a plasmasword</li>
+    <li>article_tool->a spear</li>
+    <li>article_tool->a mace</li>
+    <li>article_tool->a warhammer</li>
+    <li>article_tool->a fist</li>
+    <li>action->parry</li>
+    <li>action->fight with</li>
+    <li>action->counter</li>
+    <li>action->care for</li>
+    <li>action->use</li>
+    <li>action->swing</li>
+    <li>action_gerund->parrying</li>
+    <li>action_gerund->fighting with</li>
+    <li>action_gerund->countering</li>
+    <li>action_gerund->caring for</li>
+    <li>action_gerund->using</li>
+    <li>action_gerund->swinging</li>
+  -->
+  <LessonMelee.logRulesInitiator.rulesStrings>
+    <li>article_tool->یک تبر</li>
+    <li>article_tool->یک باشگاه</li>
+    <li>article_tool->یک شمشیر</li>
+    <li>article_tool->یک تیغه آرنج</li>
+    <li>article_tool->یک چوب دستی</li>
+    <li>article_tool->یک شمشیر بلند</li>
+    <li>article_tool->یک تک شمشیر</li>
+    <li>article_tool->یک کلمه پلاسما</li>
+    <li>article_tool->یک نیزه</li>
+    <li>article_tool->یک گرز</li>
+    <li>article_tool->یک چکش جنگی</li>
+    <li>article_tool->یک مشت</li>
+    <li>action->شکست دادن</li>
+    <li>action->با</li>
+    <li>action->شمارنده</li>
+    <li>action->مراقبت از</li>
+    <li>action->استفاده کنید</li>
+    <li>action->تاب</li>
+    <li>action_gerund->رد کردن</li>
+    <li>action_gerund->مبارزه با</li>
+    <li>action_gerund->مقابله کردن</li>
+    <li>action_gerund->مراقبت از</li>
+    <li>action_gerund->با استفاده از</li>
+    <li>action_gerund->تاب خوردن</li>
+  </LessonMelee.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: mining lesson -->
+  <LessonMining.label>درس معدن</LessonMining.label>
+  <!-- EN:
+    <li>article_tool->a pickaxe</li>
+    <li>article_tool->a deep drill</li>
+    <li>article_tool->a shovel</li>
+    <li>article_tool->a long-range mineral scanner</li>
+    <li>article_tool->a ground-penetrating scanner</li>
+    <li>action->use</li>
+    <li>action->mine with</li>
+    <li>action->work with</li>
+    <li>action->inspect</li>
+    <li>action_gerund->using</li>
+    <li>action_gerund->mining with</li>
+    <li>action_gerund->working with</li>
+    <li>action_gerund->inspecting</li>
+    <li>subject->mineral veins</li>
+    <li>subject->precious gemstones</li>
+    <li>subject->geology</li>
+    <li>subject->tunneling</li>
+    <li>subject->sediment analysis</li>
+    <li>subject->cave-dwelling insects</li>
+    <li>situation(p=2)->underground</li>
+  -->
+  <LessonMining.logRulesInitiator.rulesStrings>
+    <li>article_tool->یک کلنگ</li>
+    <li>article_tool->یک مته عمیق</li>
+    <li>article_tool->یک بیل</li>
+    <li>article_tool->یک اسکنر معدنی دوربرد</li>
+    <li>article_tool->یک اسکنر با نفوذ به زمین</li>
+    <li>action->استفاده کنید</li>
+    <li>action->مال من با</li>
+    <li>action->کار با</li>
+    <li>action->بازرسی</li>
+    <li>action_gerund->با استفاده از</li>
+    <li>action_gerund->استخراج با</li>
+    <li>action_gerund->کار با</li>
+    <li>action_gerund->در حال بازرسی</li>
+    <li>subject->رگه های معدنی</li>
+    <li>subject->سنگ های قیمتی</li>
+    <li>subject->زمین شناسی</li>
+    <li>subject->تونل زنی</li>
+    <li>subject->تجزیه و تحلیل رسوب</li>
+    <li>subject->حشرات غارنشین</li>
+    <li>situation(p=2)->زیرزمینی</li>
+  </LessonMining.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: gardening lesson -->
+  <LessonPlants.label>درس باغبانی</LessonPlants.label>
+  <!-- EN:
+    <li>article_tool->a sun lamp</li>
+    <li>article_tool->a hydroponics basin</li>
+    <li>article_tool->a sprinkler</li>
+    <li>article_tool->a shovel</li>
+    <li>article_tool->pruning shears</li>
+    <li>action->garden with</li>
+    <li>action->use</li>
+    <li>action->inspect</li>
+    <li>action_gerund->using</li>
+    <li>action_gerund->gardening with</li>
+    <li>action_gerund->inspecting</li>
+    <li>subject->types of soil</li>
+    <li>subject->pesticides</li>
+    <li>subject->irrigation techniques</li>
+    <li>subject->varieties of cacti</li>
+    <li>subject->anima trees</li>
+    <li>subject->gauranlen trees</li>
+  -->
+  <LessonPlants.logRulesInitiator.rulesStrings>
+    <li>article_tool->یک چراغ خورشید</li>
+    <li>article_tool->یک حوضه هیدروپونیک</li>
+    <li>article_tool->یک آب پاش</li>
+    <li>article_tool->یک بیل</li>
+    <li>article_tool->قیچی هرس</li>
+    <li>action->باغ با</li>
+    <li>action->استفاده کنید</li>
+    <li>action->بازرسی</li>
+    <li>action_gerund->با استفاده از</li>
+    <li>action_gerund->باغبانی با</li>
+    <li>action_gerund->در حال بازرسی</li>
+    <li>subject->انواع خاک</li>
+    <li>subject->آفت کش‌ها</li>
+    <li>subject->تکنیک های آبیاری</li>
+    <li>subject->انواع کاکتوس‌ها</li>
+    <li>subject->درختان آنیما</li>
+    <li>subject->درختان گارانلن</li>
+  </LessonPlants.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: shooting lesson -->
+  <LessonShooting.label>درس تیراندازی</LessonShooting.label>
+  <!-- EN:
+    <li>article_tool->a rifle</li>
+    <li>article_tool->a pistol</li>
+    <li>article_tool->a shotgun</li>
+    <li>article_tool->a rocket launcher</li>
+    <li>article_tool->an SMG</li>
+    <li>article_tool->a minigun</li>
+    <li>article_tool->a short bow</li>
+    <li>article_tool->a recurve bow</li>
+    <li>article_tool->a greatbow</li>
+    <li>action->aim</li>
+    <li>action->shoot</li>
+    <li>action->care for</li>
+    <li>action->reload</li>
+    <li>action_gerund->aiming</li>
+    <li>action_gerund->shooting</li>
+    <li>action_gerund->caring for</li>
+    <li>action_gerund->reloading</li>
+  -->
+  <LessonShooting.logRulesInitiator.rulesStrings>
+    <li>article_tool->یک تفنگ</li>
+    <li>article_tool->یک تپانچه</li>
+    <li>article_tool->یک تفنگ ساچمه‌ای</li>
+    <li>article_tool->یک موشک انداز</li>
+    <li>article_tool->یک SMG</li>
+    <li>article_tool->یک مینی تفنگ</li>
+    <li>article_tool->یک کمان کوتاه</li>
+    <li>article_tool->یک کمان برگشتی</li>
+    <li>article_tool->یک کمان بزرگ</li>
+    <li>action->هدف</li>
+    <li>action->شلیک کنید</li>
+    <li>action->مراقبت از</li>
+    <li>action->بارگذاری مجدد</li>
+    <li>action_gerund->هدف گیری</li>
+    <li>action_gerund->تیراندازی</li>
+    <li>action_gerund->مراقبت از</li>
+    <li>action_gerund->بارگیری مجدد</li>
+  </LessonShooting.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: social lesson -->
+  <LessonSocial.label>درس اجتماعی</LessonSocial.label>
+  <!-- EN:
+    <li>subject->public speaking</li>
+    <li>subject->faction relations</li>
+    <li>subject->recruiting prisoners</li>
+    <li>subject->haggling techniques</li>
+    <li>subject->maintaining relationships</li>
+    <li>subject->comms console etiquette</li>
+    <li>subject->boosting morale</li>
+    <li>subject->naughty words</li>
+    <li>subject->sign language</li>
+  -->
+  <LessonSocial.logRulesInitiator.rulesStrings>
+    <li>subject->سخنرانی عمومی</li>
+    <li>subject->روابط جناحی</li>
+    <li>subject->جذب زندانیان</li>
+    <li>subject->تکنیک های چانه زنی</li>
+    <li>subject->حفظ روابط</li>
+    <li>subject->آداب کنسول comms</li>
+    <li>subject->تقویت روحیه</li>
+    <li>subject->حرف های شیطنت آمیز</li>
+    <li>subject->زبان اشاره</li>
+  </LessonSocial.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: sanguophage chat -->
+  <SanguophageChat.label>چت سانگووفاژ</SanguophageChat.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [subject] with [RECIPIENT_nameDef].</li>
+    <li>talkedabout->spoke about</li>
+    <li>talkedabout->talked about</li>
+    <li>talkedabout->whispered about</li>
+    <li>talkedabout(p=0.5)->spoke [adverb] about</li>
+    <li>talkedabout(p=0.5)->talked [adverb] about</li>
+    <li>talkedabout(p=0.5)->whispered [adverb] about</li>
+    <li>talkedabout->shared a word about</li>
+    <li>talkedabout->exchanged thoughts about</li>
+    <li>talkedabout->exchanged ideas about</li>
+    <li>talkedabout->expressed shared interest in</li>
+    <li>talkedabout->debated about</li>
+    <li>talkedabout->argued about</li>
+    <li>talkedabout->shared stories of</li>
+    <li>adverb->amicably</li>
+    <li>adverb->quietly</li>
+    <li>adverb->softly</li>
+    <li>adverb->disgustedly</li>
+    <li>adverb->bitterly</li>
+    <li>adverb->wearily</li>
+    <li>adverb->thoughtfully</li>
+    <li>adverb->soberly</li>
+    <li>adverb->grimly</li>
+    <li>adverb->solemnly</li>
+    <li>subject(p=20)->plans for [planType]</li>
+    <li>subject(p=0.1)->[TalkTopicHeavy]</li>
+    <li>subject->hemogen</li>
+    <li>subject->blood quality</li>
+    <li>subject->cannibalism</li>
+    <li>subject->deathlessness</li>
+    <li>subject->entropy</li>
+    <li>subject->eternity</li>
+    <li>subject->the passage of time</li>
+    <li>subject->life and death</li>
+    <li>subject->deathrest</li>
+    <li>subject->cheating death</li>
+    <li>subject->thralls</li>
+    <li>subject->humanity</li>
+    <li>subject->fire</li>
+    <li>subject->burning</li>
+    <li>subject->pain</li>
+    <li>subject->agony</li>
+    <li>subject->beheading</li>
+    <li>subject->flaying enemies</li>
+    <li>subject->torture</li>
+    <li>subject->archites</li>
+    <li>subject->genetics</li>
+    <li>subject->genes</li>
+    <li>subject->xenotypes</li>
+    <li>subject->sanguophages</li>
+    <li>subject->hussars</li>
+    <li>subject->impids</li>
+    <li>subject->dirtmoles</li>
+    <li>subject->genies</li>
+    <li>subject->neanderthals</li>
+    <li>subject->pigskins</li>
+    <li>subject->wasters</li>
+    <li>subject->deep history</li>
+    <li>subject->the history of the future</li>
+    <li>planType->domination</li>
+    <li>planType->escape</li>
+    <li>planType->blending in</li>
+    <li>planType->wielding influence</li>
+    <li>planType->collecting hemogen</li>
+    <li>planType->mastering technology</li>
+    <li>planType->spreading to other worlds</li>
+    <li>planType->influencing humans</li>
+    <li>planType->destroying sanguophage hunters</li>
+    <li>planType->enjoying endless life</li>
+  -->
+  <SanguophageChat.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] و [RECIPIENT_nameDef] [talkedabout] [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [subject] با [RECIPIENT_nameDef].</li>
+    <li>talkedabout->صحبت کرد</li>
+    <li>talkedabout->صحبت کرد</li>
+    <li>talkedabout->زمزمه کرد در مورد</li>
+    <li>talkedabout(p=0.5)->در مورد [adverb] صحبت کرد</li>
+    <li>talkedabout(p=0.5)->در مورد [adverb] صحبت کرد</li>
+    <li>talkedabout(p=0.5)->درباره [adverb] زمزمه کرد</li>
+    <li>talkedabout->کلمه‌ای را در مورد به اشتراک گذاشت</li>
+    <li>talkedabout->تبادل نظر در مورد</li>
+    <li>talkedabout->تبادل نظر در مورد</li>
+    <li>talkedabout->ابراز علاقه مشترک به</li>
+    <li>talkedabout->بحث در مورد</li>
+    <li>talkedabout->بحث کردند</li>
+    <li>talkedabout->داستان های به اشتراک گذاشته شده از</li>
+    <li>adverb->دوستانه</li>
+    <li>adverb->بی سر و صدا</li>
+    <li>adverb->به نرمی</li>
+    <li>adverb->منزجر کننده</li>
+    <li>adverb->به تلخی</li>
+    <li>adverb->خسته</li>
+    <li>adverb->متفکرانه</li>
+    <li>adverb->با هوشیاری</li>
+    <li>adverb->تلخ</li>
+    <li>adverb->به طور رسمی</li>
+    <li>subject(p=20)->برای [planType] برنامه ریزی می کند</li>
+    <li>subject(p=0.1)->[TalkTopicHeavy]</li>
+    <li>subject->هموژن</li>
+    <li>subject->کیفیت خون</li>
+    <li>subject->آدمخواری</li>
+    <li>subject->بی مرگی</li>
+    <li>subject->آنتروپی</li>
+    <li>subject->ابدیت</li>
+    <li>subject->گذر زمان</li>
+    <li>subject->زندگی و مرگ</li>
+    <li>subject->مرگ</li>
+    <li>subject->مرگ تقلب</li>
+    <li>subject->هیجانات</li>
+    <li>subject->انسانیت</li>
+    <li>subject->آتش</li>
+    <li>subject->سوزاندن</li>
+    <li>subject->درد</li>
+    <li>subject->عذاب</li>
+    <li>subject->سر بریدن</li>
+    <li>subject->دشمنان پرتاب</li>
+    <li>subject->شکنجه</li>
+    <li>subject->معماران</li>
+    <li>subject->ژنتیک</li>
+    <li>subject->ژن‌ها</li>
+    <li>subject->بیگانه تایپ‌ها</li>
+    <li>subject->سانگووفاژها</li>
+    <li>subject->هوسارها</li>
+    <li>subject->مانع</li>
+    <li>subject->خال های کثیف</li>
+    <li>subject->جن‌ها</li>
+    <li>subject->نئاندرتال‌ها</li>
+    <li>subject->پوست خوک</li>
+    <li>subject->اسراف کنندگان</li>
+    <li>subject->تاریخ عمیق</li>
+    <li>subject->تاریخ آینده</li>
+    <li>planType->سلطه</li>
+    <li>planType->فرار</li>
+    <li>planType->مخلوط شدن در</li>
+    <li>planType->اعمال نفوذ</li>
+    <li>planType->جمع آوری هموژن</li>
+    <li>planType->تسلط بر فناوری</li>
+    <li>planType->به دنیاهای دیگر سرایت می کند</li>
+    <li>planType->تاثیر گذاشتن بر انسان‌ها</li>
+    <li>planType->از بین بردن شکارچیان سانگووفاژ</li>
+    <li>planType->لذت بردن از زندگی بی پایان</li>
+  </SanguophageChat.logRulesInitiator.rulesStrings>
+  
+</LanguageData>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: medical operation speed -->
+  <MedicalOperationSpeed.label>سرعت عمل پزشکی</MedicalOperationSpeed.label>
+  <!-- EN: The speed at which the character performs medical operations. -->
+  <MedicalOperationSpeed.description>سرعتی که شخصیت با آن عملیات پزشکی انجام می دهد.</MedicalOperationSpeed.description>
+  
+  <!-- EN: medical surgery success chance -->
+  <MedicalSurgerySuccessChance.label>شانس موفقیت جراحی پزشکی</MedicalSurgerySuccessChance.label>
+  <!-- EN: The base chance that a character will succeed when performing a medical operation.\n\nThe actual success chance is also affected by factors like facilities, room cleanliness, medicine used, the difficulty of the surgery, and inspirations.\n\nNo matter how high this stat is, there is always a small chance of failure on any operation. -->
+  <MedicalSurgerySuccessChance.description>شانس اصلی موفقیت یک شخصیت هنگام انجام یک عمل پزشکی.\n\nشانس موفقیت واقعی نیز تحت تأثیر عواملی مانند امکانات، تمیزی اتاق، داروی مورد استفاده، سختی عمل جراحی، و الهامات است.\n\nمهم نیست این آمار چقدر بالا باشد، همیشه احتمال شکست در هر عمل کمی وجود دارد.</MedicalSurgerySuccessChance.description>
+  
+  <!-- EN: medical tend quality -->
+  <MedicalTendQuality.label>کیفیت تمایل پزشکی</MedicalTendQuality.label>
+  <!-- EN: The base quality of tending given when tending wounds and illnesses.\n\nThe actual tend quality will also be affected by factors like medicine used, facilities, luck, and so on. -->
+  <MedicalTendQuality.description>کیفیت پایه مراقبت‌هایی که هنگام مراقبت از زخم‌ها و بیماری‌ها ارائه می‌شود.\n\nکیفیت مراقبت واقعی نیز تحت تأثیر عواملی مانند داروی مورد استفاده، امکانات، شانس و غیره قرار می‌گیرد.</MedicalTendQuality.description>
+  
+  <!-- EN: medical tend speed -->
+  <MedicalTendSpeed.label>سرعت تمایل پزشکی</MedicalTendSpeed.label>
+  <!-- EN: Speed at which the character tends to wounds and illnesses. -->
+  <MedicalTendSpeed.description>سرعتی که شخصیت به زخم‌ها و بیماری‌ها گرایش پیدا می کند.</MedicalTendSpeed.description>
+  
+</LanguageData>

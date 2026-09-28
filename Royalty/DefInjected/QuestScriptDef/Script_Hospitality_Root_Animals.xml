@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>lodgersLabel->[lodgersPawnKind_label]</li>
+    <li>lodgersLabelPlural->[lodgersPawnKind_labelPlural]</li>
+  -->
+  <Hospitality_Animals.questDescriptionAndNameRules.rulesStrings>
+    <li>lodgersLabel->[lodgersPawnKind_label]</li>
+    <li>lodgersLabelPlural->[lodgersPawnKind_labelPlural]</li>
+  </Hospitality_Animals.questDescriptionAndNameRules.rulesStrings>
+  <!-- EN:
+    <li>threatsInfoMechClustersSingleAnimal->For unknown reasons, the [lodgersLabel] has been targeted by an orbiting mechanoid swarm.</li>
+    <li>threatsInfoMechClustersMultiAnimal->For unknown reasons, the [lodgersLabelPlural] have been targeted by an orbiting mechanoid swarm.</li>
+    <li>threatsInfoMechRaidsSingleAnimal->For unknown reasons, the [lodgersLabel] has been targeted by a mechanoid hive.</li>
+    <li>threatsInfoMechRaidsMultiAnimal->For unknown reasons, the [lodgersLabelPlural] have been targeted by a mechanoid hive.</li>
+    <li>questDescription(askerIsNull==true,lodgersCount==1)->An animal rescue organization wants you to take care of a [lodgersLabel] named [lodgers0_nameDef] at [map_definite] for [shuttleDelayTicks_duration]. [healthInfo][threatsInfo1][commonDescEnding]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nThe animal rescue activists stole [lodgers0_nameDef] from a slaughtering ceremony being held by [enemyFaction_name]. Now the [enemyFaction_pawnsPlural] are coming to seek revenge. If you accept [lodgers0_nameDef], [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==false)-></li>
+    <li>questDescription(askerIsNull==true,lodgersCount>=2)->An animal rescue organization wants you to take care of [lodgersCount] [lodgersLabelPlural] at [map_definite] for [shuttleDelayTicks_duration]. [healthInfo][threatsInfo2][commonDescEnding]</li>
+    <li>victim->child</li>
+    <li>victim->woman</li>
+    <li>victim->man</li>
+    <li>victim->[PersonJob]</li>
+    <li>victim(generateThreats==true,threatType==Raids)->friend of the [enemyFaction_leaderTitle] of [enemyFaction_name]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nUnfortunately, these [lodgersLabelPlural] were recently implicated in the death of a [victim]. Now, [enemyFaction_pawnsPlural] from [enemyFaction_name] are hunting them for ritual revenge. If you accept the [lodgersLabelPlural], [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==false)-></li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name] is looking for a safe settlement to take care of [asker_possessive] pet [lodgersLabel] [lodgers0_nameDef] for [shuttleDelayTicks_duration]. [healthInfo][threatsInfo3][commonDescEnding]</li>
+    <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[enemyFaction_pawnsPlural] from [enemyFaction_name] are trying to kill poor little [lodgers0_nameDef] to get at [asker_nameDef]. If you accept [lodgers0_nameDef], [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==false)-></li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], is making a request. [asker_pronoun] wants you to take care of [lodgersCount] [lodgersLabelPlural] at [map_definite] for [shuttleDelayTicks_duration]. [healthInfo][threatsInfo4][commonDescEnding]</li>
+    <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nThe [lodgersLabelPlural] are necessary for [asker_nameDef] to fulfill an important trade promise. To provoke conflict, [enemyFaction_name] is sending [enemyFaction_pawnsPlural] after them. If you accept the [lodgersLabelPlural], [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==false)-></li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1,priority=1)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is making a request. [asker_pronoun] wants you to take care of [asker_possessive] favorite pet, the [lodgersLabel] [lodgers0_nameDef], at [map_definite] for [shuttleDelayTicks_duration]. [healthInfo][threatsInfo5][commonDescEnding]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] is a gift promised to [asker_nameDef]'s child for a marriage ceremony. To try to prevent the marriage, [enemyFaction_name] is sending [enemyFaction_pawnsPlural] after [lodgers0_objective]. If you accept [lodgers0_nameDef], [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==false)-></li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2,priority=1)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is making a request. [asker_pronoun] wants you to take care of [lodgersCount] [lodgersLabelPlural] at [map_definite] for [shuttleDelayTicks_duration]. The [lodgersLabelPlural] are [asker_nameDef]'s favorite pets, and [asker_pronoun] wants them to see the world outside [asker_possessive] royal court. [healthInfo][threatsInfo6][commonDescEnding]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nUnfortunately, [enemyFaction_name] is hunting the [lodgersLabelPlural] to try to hurt [asker_nameDef] personally. If you accept the [lodgersLabelPlural], [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==false)-></li>
+    <li>letterSubject(priority=1)->{SUBJECT_definite} the [lodgersLabel]</li>
+  -->
+  <Hospitality_Animals.questDescriptionRules.rulesStrings>
+    <li>threatsInfoMechClustersSingleAnimal->به دلایل ناشناخته، [lodgersLabel] توسط یک گروه مکانیکی در حال چرخش هدف قرار گرفته است.</li>
+    <li>threatsInfoMechClustersMultiAnimal->به دلایل نامعلومی، [lodgersLabelPlural] توسط یک گروه مکانیکی در حال چرخش هدف قرار گرفته است.</li>
+    <li>threatsInfoMechRaidsSingleAnimal->به دلایل نامعلوم، [lodgersLabel] توسط کندوی مکانیکی هدف قرار گرفته است.</li>
+    <li>threatsInfoMechRaidsMultiAnimal->به دلایل نامعلوم، [lodgersLabelPlural] توسط کندوی مکانیکی هدف قرار گرفته است.</li>
+    <li>questDescription(askerIsNull==true,lodgersCount==1)->یک سازمان نجات حیوانات از شما می خواهد که از یک [lodgersLabel] به نام [lodgers0_nameDef] در [map_definite] برای [shuttleDelayTicks_duration] مراقبت کنید. [healthInfo][threatsInfo1][commonDescEnding]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nفعالان نجات حیوانات [lodgers0_nameDef] را از یک مراسم کشتار که توسط [enemyFaction_name] برگزار می شد به سرقت بردند. اکنون [enemyFaction_pawnsPlural] به دنبال انتقام است. اگر [lodgers0_nameDef] را قبول می کنید، [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==false)-></li>
+    <li>questDescription(askerIsNull==true,lodgersCount>=2)->یک سازمان نجات حیوانات از شما می خواهد که از [lodgersCount] [lodgersLabelPlural] در [map_definite] برای [shuttleDelayTicks_duration] مراقبت کنید. [healthInfo][threatsInfo2][commonDescEnding]</li>
+    <li>قربانی->کودک</li>
+    <li>قربانی->زن</li>
+    <li> قربانی->مرد</li>
+    <li> قربانی->[PersonJob]</li>
+    <li>قربانی(generateThreats==true,threatType==Raids)->دوست [enemyFaction_leaderTitle] [enemyFaction_name]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nمتاسفانه، این [lodgersLabelPlural] اخیراً در مرگ [victim] نقش داشته است. اکنون [enemyFaction_pawnsPlural] از [enemyFaction_name] آنها را برای انتقام آیینی شکار می کند. اگر [lodgersLabelPlural]، [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==false)-></li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] از [asker_faction_name] به دنبال محل امنی برای مراقبت از [asker_possessive] حیوان خانگی [lodgersLabel] [lodgers0_nameDef] برای [shuttleDelayTicks_duration] است. [healthInfo][threatsInfo3][commonDescEnding]</li>
+    <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[enemyFaction_pawnsPlural] از [enemyFaction_name] در حال تلاش برای کشتن [lodgers0_nameDef] کوچک بیچاره برای رسیدن به [asker_nameDef] هستند. اگر [lodgers0_nameDef]، [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==false)-></li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,priority=1)->[asker_nameFull]، [asker_faction_leaderTitle] از [asker_faction_name]، در حال ارائه درخواست است. [asker_pronoun] از شما می خواهد که از [lodgersCount] [lodgersLabelPlural] در [map_definite] برای [shuttleDelayTicks_duration] مراقبت کنید. [healthInfo][threatsInfo4][commonDescEnding]</li>
+    <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgersLabelPlural] برای [asker_nameDef] برای تحقق یک وعده تجاری مهم ضروری است. برای تحریک درگیری، [enemyFaction_name] [enemyFaction_pawnsPlural] را به دنبال آنها می فرستد. اگر [lodgersLabelPlural]، [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==false)-></li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1,priority=1)->[asker_nameFull]، یک [asker_royalTitleInCurrentFaction] از [asker_faction_name]، در حال درخواست است. [asker_pronoun] از شما می خواهد که از حیوان خانگی مورد علاقه [asker_possessive]، [lodgersLabel] [lodgers0_nameDef]، در [map_definite] برای [shuttleDelayTicks_duration] مراقبت کنید. [healthInfo][threatsInfo5][commonDescEnding]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] هدیه‌ای است که به فرزند [asker_nameDef] برای مراسم ازدواج وعده داده شده است. برای جلوگیری از ازدواج، [enemyFaction_name] [enemyFaction_pawnsPlural] را بعد از [lodgers0_objective] ارسال می کند. اگر [lodgers0_nameDef]، [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==false)-></li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2,priority=1)->[asker_nameFull]، یک [asker_royalTitleInCurrentFaction] از [asker_faction_name]، در حال درخواست است. [asker_pronoun] از شما می خواهد که از [lodgersCount] [lodgersLabelPlural] در [map_definite] برای [shuttleDelayTicks_duration] مراقبت کنید. [lodgersLabelPlural] حیوانات خانگی مورد علاقه [asker_nameDef] هستند و [asker_pronoun] از آنها می خواهد که دنیای خارج از دربار سلطنتی [asker_possessive] را ببینند. [healthInfo][threatsInfo6][commonDescEnding]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nمتأسفانه [enemyFaction_name] در حال شکار [lodgersLabelPlural] است تا به شخص [asker_nameDef] آسیب برساند. اگر [lodgersLabelPlural]، [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==false)-></li>
+    <li>letterSubject(priority=1)->{SUBJECT_definite} [lodgersLabel]</li>
+  </Hospitality_Animals.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName(lodgersCount==1)->the [animalAdj] [lodgersLabel]</li>
+    <li>questName(lodgersCount==1)->a [animalAdj] [lodgersLabel]</li>
+    <li>questName(lodgersCount==1)->[animalAdj] [lodgersLabel]</li>
+    <li>questName(lodgersCount==1)->[lodgersLabel]-sitting</li>
+    <li>questName(lodgersCount==1)->keeping [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount==1)->poor little [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount>=2)->the [animalAdj] [lodgersLabelPlural]</li>
+    <li>questName(lodgersCount>=2)->[animalAdj] [lodgersLabelPlural]</li>
+    <li>questName(lodgersCount>=2)->[animalAdj] [lodgersLabelPlural]</li>
+    <li>questName(lodgersCount>=2)->[lodgersLabel]-sitting</li>
+    <li>questName(lodgersCount==2)->keeping [lodgersLabelPlural]</li>
+    <li>animalAdj->adorable</li>
+    <li>animalAdj->doe-eyed</li>
+    <li>animalAdj->loyal</li>
+    <li>animalAdj->loving</li>
+    <li>animalAdj->quiet</li>
+    <li>animalAdj->gentle</li>
+    <li>animalAdj->proud</li>
+    <li>animalAdj(generateThreats==true)->hunted</li>
+    <li>animalAdj(generateThreats==true)->frightened</li>
+  -->
+  <Hospitality_Animals.questNameRules.rulesStrings>
+    <li>questName(lodgersCount==1)->[lodgersLabel] [animalAdj]</li>
+    <li>questName(lodgersCount==1)->یک [lodgersLabel] [animalAdj]</li>
+    <li>questName(lodgersCount==1)->[lodgersLabel] [animalAdj]</li>
+    <li>questName(lodgersCount==1)->نگهداری از [lodgersLabel]</li>
+    <li>questName(lodgersCount==1)->نگهداری [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount==1)->[lodgers0_nameDef] کوچولوی بیچاره</li>
+    <li>questName(lodgersCount>=2)->[lodgersLabelPlural] [animalAdj]</li>
+    <li>questName(lodgersCount>=2)->[lodgersLabelPlural] [animalAdj]</li>
+    <li>questName(lodgersCount>=2)->[lodgersLabelPlural] [animalAdj]</li>
+    <li>questName(lodgersCount>=2)->نگهداری از [lodgersLabelPlural]</li>
+    <li>questName(lodgersCount==2)->نگهداری [lodgersLabelPlural]</li>
+    <li>animalAdj->شایان ستایش</li>
+    <li>animalAdj->دوی چشم</li>
+    <li>animalAdj->وفادار</li>
+    <li>animalAdj->دوست داشتن</li>
+    <li>animalAdj->آرام</li>
+    <li>animalAdj->مهم</li>
+    <li>animalAdj-> مغرور</li>
+    <li>animalAdj(generateThreats==true)->شکار</li>
+    <li>animalAdj(generateThreats==true)->ترسیده</li>
+  </Hospitality_Animals.questNameRules.rulesStrings>
+  
+</LanguageData>

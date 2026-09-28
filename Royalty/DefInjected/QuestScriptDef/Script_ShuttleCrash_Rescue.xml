@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>failLetterEndingCommon->You have failed the quest '[resolvedQuestName]'.</li>
+    <li>successLetterEndingCommon->You have successfully completed the quest '[resolvedQuestName]'.</li>
+    <li>goodwillSomeCiviliansLost->Not all the [asker_faction_pawnSingular] [pawnLabel] could be rescued. [goodwillNegativelyAffected]</li>
+    <li>goodwillAllCiviliansLost->None of the [asker_faction_pawnSingular] [pawnLabelPlural] could be rescued. [goodwillNegativelyAffected]</li>
+    <li>goodwillNegativelyAffected->Your goodwill with [asker_faction_name] has been negatively affected for every [pawnLabel] left.</li>
+    <li>commanderLandingDesc->[asker_nameDef], the commander who asked to land [asker_possessive] shuttle at [map_definite]</li>
+    <li>raidArrivedLetterLabel->Raid: [enemyFaction_name]</li>
+    <li>raidArrivedLetterText->[enemyFaction_pawnsPlural] from the [enemyFaction_name] have arrived. They will attack the [asker_faction_pawnsPlural] who crashed at [map_definite].\n\nDefend the [asker_faction_pawnsPlural] until their rescue shuttle arrives in [rescueShuttleAfterRaidDelay_duration].</li>
+    <li>rescueShuttleArrivedLetterLabel->Rescue shuttle arrived</li>
+    <li>rescueShuttleArrivedLetterText->The rescue shuttle has arrived to collect the [pawnLabelSingleOrPlural] who crashed landed. Make sure to have these people on the shuttle before it leaves in [leaveDelay_duration]:\n\n[civilians]</li>
+    <li>questCompletedSuccessLetterLabel->Quest completed: [resolvedQuestName]</li>
+    <li>questCompletedSuccessLetterText->[commanderLandingDesc], has escaped. [asker_pronoun] is grateful for the help [asker_pronoun] received at [map_definite].\n\n[successLetterEndingCommon]</li>
+    <li>questCompletedCiviliansLostSuccessLetterLabel->Quest completed: [resolvedQuestName]</li>
+    <li>questCompletedCiviliansLostSuccessLetterText->[commanderLandingDesc], has escaped.\n\n[goodwillSomeCiviliansLost]\n\n[successLetterEndingCommon]</li>
+    <li>askerLostLetterLabel->Quest failed: [resolvedQuestName]</li>
+    <li>askerLostLetterText->[commanderLandingDesc] was not on board when the shuttle departed.\n\n[goodwillSomeCiviliansLost]\n\n[failLetterEndingCommon]</li>
+    <li>allLostLetterLabel->Quest failed: [resolvedQuestName]</li>
+    <li>allLostLetterText->The rescue shuttle for the crashed [asker_faction_pawnsPlural] has departed without anyone on board.\n\n[goodwillAllCiviliansLost]\n\n[failLetterEndingCommon]</li>
+    <li>askerDiedLetterLabel->Quest failed: [resolvedQuestName]</li>
+    <li>askerDiedLetterText->[commanderLandingDesc] has died.\n\n[failLetterEndingCommon]</li>
+    <li>civilianDiedLetterLabel->Quest failed: [resolvedQuestName]</li>
+    <li>civilianDiedLetterText->a civilian has died.\n\n[failLetterEndingCommon]</li>
+    <li>shuttleDestroyedLetterLabel->Quest failed: [resolvedQuestName]</li>
+    <li>shuttleDestroyedLetterText->The shuttle sent to collect the crashed [asker_faction_pawnsPlural] has been destroyed. The [asker_faction_pawnsPlural] will now leave on foot.\n\n[failLetterEndingCommon]</li>
+    <li>shuttleLeftBehindLetterLabel->Quest failed: [resolvedQuestName]</li>
+    <li>shuttleLeftBehindLetterText->The shuttle sent to collect the crashed [asker_faction_pawnsPlural] has been left behind. The [asker_faction_pawnsPlural] will now leave on foot.\n\n[failLetterEndingCommon]</li>
+    <li>mapRemovedLetterLabel->Quest failed: [resolvedQuestName]</li>
+    <li>mapRemovedLetterText->The map was left behind before the crashed [asker_faction_pawnsPlural] could be collected. The [asker_faction_pawnsPlural] will now leave on foot.\n\n[failLetterEndingCommon]</li>
+  -->
+  <ShuttleCrash_Rescue.questContentRules.rulesStrings>
+    <li>failLetterEndingCommon->شما در تلاش "[resolvedQuestName]" شکست خورده اید.</li>
+    <li>successLetterEndingCommon->شما ماموریت "[resolvedQuestName]" را با موفقیت انجام دادید.</li>
+    <li>goodwillSomeCiviliansLost->همه [asker_faction_pawnSingular] [pawnLabel] قابل نجات نیستند. [goodwillNegativelyAffected]</li>
+    <li>goodwillAllCiviliansLost->هیچ یک از [asker_faction_pawnSingular] [pawnLabelPlural] قابل نجات نیست. [goodwillNegativelyAffected]</li>
+    <li>goodwillNegativelyAffected->حق نیت شما با [asker_faction_name] به ازای هر [pawnLabel] باقی مانده تحت تاثیر منفی قرار گرفته است.</li>
+    <li>commanderLandingDesc->[asker_nameDef]، فرماندهی که خواستار فرود شاتل [asker_possessive] در [map_definite] شد</li>
+    <li>raidArrivedLetterLabel->حمله: [enemyFaction_name]</li>
+    <li>raidArrivedLetterText->[enemyFaction_pawnsPlural] از [enemyFaction_name] رسیده است. آنها به [asker_faction_pawnsPlural] که در [map_definite] سقوط کرد حمله خواهند کرد.\n\nاز [asker_faction_pawnsPlural] دفاع کنید تا زمانی که شاتل نجات آنها به [rescueShuttleAfterRaidDelay_duration] برسد.</li>
+    <li>rescueShuttleArrivedLetterLabel->شاتل نجات رسید</li>
+    <li>rescueShuttleArrivedLetterText-> شاتل نجات برای جمع آوری [pawnLabelSingleOrPlural] که سقوط کرده بود وارد شد. حتماً این افراد را قبل از حرکت در شاتل در [leaveDelay_duration] داشته باشید:\n\n[civilians]</li>
+    <li>questCompletedSuccessLetterLabel->کوئست تکمیل شد: [resolvedQuestName]</li>
+    <li>questCompletedSuccessLetterText->[commanderLandingDesc]، فرار کرده است. [asker_pronoun] از کمک دریافتی [asker_pronoun] در [map_definite] سپاسگزار است.\n\n[successLetterEndingCommon]</li>
+    <li>questCompletedCiviliansLostSuccessLetterLabel->کوئست تکمیل شد: [resolvedQuestName]</li>
+    <li>questCompletedCiviliansLostSuccessLetterText->[commanderLandingDesc]، فرار کرده است.\n\n[goodwillSomeCiviliansLost]\n\n[successLetterEndingCommon]</li>
+    <li>askerLostLetterLabel->جستار ناموفق بود: [resolvedQuestName]</li>
+    <li>askerLostLetterText->[commanderLandingDesc] هنگام حرکت شاتل سوار نبود.\n\n[goodwillSomeCiviliansLost]\n\n[failLetterEndingCommon]</li>
+    <li>allLostLetterLabel->جستار ناموفق بود: [resolvedQuestName]</li>
+    <li>allLostLetterText->شتل نجات برای [asker_faction_pawnsPlural] سقوط کرده بدون سرنشین حرکت کرده است.\n\n[goodwillAllCiviliansLost]\n\n[failLetterEndingCommon]</li>
+    <li>askerDiedLetterLabel->جستار ناموفق بود: [resolvedQuestName]</li>
+    <li>askerDiedLetterText->[commanderLandingDesc] درگذشت.\n\n[failLetterEndingCommon]</li>
+    <li>civilianDiedLetterLabel->جستار ناموفق بود: [resolvedQuestName]</li>
+    <li>civilianDiedLetterText->یک غیرنظامی درگذشت.\n\n[failLetterEndingCommon]</li>
+    <li>shuttleDestroyedLetterLabel->جستجو ناموفق بود: [resolvedQuestName]</li>
+    <li>shuttleDestroyedLetterText-> شاتل ارسال شده برای جمع آوری [asker_faction_pawnsPlural] خراب شده از بین رفته است. [asker_faction_pawnsPlural] اکنون پیاده خواهد رفت.\n\n[failLetterEndingCommon]</li>
+    <li>shuttleLeftBehindLetterLabel->جستجو ناموفق بود: [resolvedQuestName]</li>
+    <li>shuttleLeftBehindLetterText-> شاتل ارسال شده برای جمع آوری [asker_faction_pawnsPlural] خراب شده پشت سر گذاشته شده است. [asker_faction_pawnsPlural] اکنون پیاده خواهد رفت.\n\n[failLetterEndingCommon]</li>
+    <li>mapRemovedLetterLabel->جستار ناموفق بود: [resolvedQuestName]</li>
+    <li>mapRemovedLetterText->نقشه قبل از جمع آوری [asker_faction_pawnsPlural] از کار افتاده باقی مانده است. [asker_faction_pawnsPlural] اکنون پیاده خواهد رفت.\n\n[failLetterEndingCommon]</li>
+  </ShuttleCrash_Rescue.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>pawnLabel->civilian</li>
+    <li>pawnLabelPlural->civilians</li>
+  -->
+  <ShuttleCrash_Rescue.questDescriptionAndNameRules.rulesStrings>
+    <li>pawnLabel->غیر نظامی</li>
+    <li>pawnLabelPlural->غیر نظامی</li>
+  </ShuttleCrash_Rescue.questDescriptionAndNameRules.rulesStrings>
+  <!-- EN:
+    <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
+    <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
+    <li>questDescription->A shuttle of [asker_faction_name] has taken damage and is seeking a place to land. Its commander [asker_nameDef] wants to land at [map_definite].\n\n[enemyFaction_pawnsPlural] from [enemyFaction_name] will attack the crashed shuttle site in an attempt to kill its occupants. You must defend them.\n\nThe shuttle contains [asker_nameDef][andOtherCivilians] and [soldierCountKinds]. The commander [andCivilians] must be rescued, but the [soldiers0_kindPlural] may be sacrificed.\n\nAfter [rescueDelay_duration], a rescue shuttle will come to pick up the survivors. You'll need to get them all on board within [leaveDelay_duration].</li>
+    <li>andOtherCivilians(civilians_count==1)-></li>
+    <li>andOtherCivilians(civilians_count==2)->, another [pawnLabel],</li>
+    <li>andOtherCivilians(civilians_count>=3)->, [civilianCountMinusOne] other [pawnLabelSingleOrPlural],</li>
+    <li>andCivilians(civilians_count==1)-></li>
+    <li>andCivilians(civilians_count==2)->and [pawnLabel]</li>
+    <li>andCivilians(civilians_count>=3)->and [pawnLabelPlural]</li>
+    <li>soldierCountKinds(soldiers_count==1)->[soldiers_count] [soldiers0_kind]</li>
+    <li>soldierCountKinds(soldiers_count>1)->[soldiers_count] [soldiers0_kindPlural]</li>
+  -->
+  <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
+    <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
+    <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
+    <li>questDescription->یک شاتل [asker_faction_name] آسیب دیده است و به دنبال مکانی برای فرود است. فرمانده آن [asker_nameDef] می‌خواهد در [map_definite] فرود بیاید.\n\n[enemyFaction_pawnsPlural] از [enemyFaction_name] در تلاش برای کشتن سرنشینان به سایت شاتل سقوط کرده حمله می‌کند. شما باید از آنها دفاع کنید.\n\nشاتل شامل [asker_nameDef][andOtherCivilians] و [soldierCountKinds] است. فرمانده [andCivilians] باید نجات یابد، اما [soldiers0_kindPlural] ممکن است قربانی شود.\n\nبعد از [rescueDelay_duration]، یک شاتل نجات می آید تا بازماندگان را بگیرد. باید همه آنها را در [leaveDelay_duration] وارد کنید.</li>
+    <li>andOtherCivilians(civilians_count==1)-></li>
+    <li>andOtherCivilians(civilians_count==2)->، [pawnLabel] دیگر،</li>
+    <li>andOtherCivilians(civilians_count>=3)->، [civilianCountMinusOne] [pawnLabelSingleOrPlural] دیگر،</li>
+    <li>andCivilians(civilians_count==1)-></li>
+    <li>andCivilians(civilians_count==2)->و [pawnLabel]</li>
+    <li>andCivilians(civilians_count>=3)->و [pawnLabelPlural]</li>
+    <li>soldierCountKinds(soldiers_count==1)->[soldiers_count] [soldiers0_kind]</li>
+    <li>soldierCountKinds(soldiers_count>1)->[soldiers_count] [soldiers0_kindPlural]</li>
+  </ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[shuttle] [crash]</li>
+    <li>questName->[asker_faction_pawnSingular] [shuttle] [crash]</li>
+    <li>questName->[damaged] [shuttle]</li>
+    <li>questName->[asker_nameDef]'s [damaged] [shuttle]</li>
+    <li>questName->[emergency] [landing]</li>
+    <li>questName->[asker_nameDef]'s [emergency] [landing]</li>
+    <li>shuttle->shuttle</li>
+    <li>shuttle->transporter</li>
+    <li>shuttle->ship</li>
+    <li>crash->crash</li>
+    <li>crash->down</li>
+    <li>damaged->damaged</li>
+    <li>damaged->busted</li>
+    <li>damaged->failing</li>
+    <li>emergency->emergency</li>
+    <li>emergency->forced</li>
+    <li>landing->landing</li>
+    <li>landing->descent</li>
+    <li>landing->approach</li>
+  -->
+  <ShuttleCrash_Rescue.questNameRules.rulesStrings>
+    <li>questName->[shuttle] [crash]</li>
+    <li>questName->[shuttle] [crash] متعلق به [asker_faction_pawnSingular]</li>
+    <li>questName->[shuttle] [damaged]</li>
+    <li>questName->[shuttle] [damaged] [asker_nameDef]</li>
+    <li>questName->[landing] [emergency]</li>
+    <li>questName->[landing] [emergency] [asker_nameDef]</li>
+    <li>shuttle->شاتل</li>
+    <li>shuttle->ترابری</li>
+    <li>shuttle->کشتی</li>
+    <li>crash->سقوط‌کرده</li>
+    <li>crash->سرنگون‌شده</li>
+    <li>damaged->آسیب‌دیده</li>
+    <li>damaged->خراب</li>
+    <li>damaged->ازکارافتاده</li>
+    <li>emergency->اضطراری</li>
+    <li>emergency->اجباری</li>
+    <li>landing->فرود</li>
+    <li>landing->نشست</li>
+    <li>landing->نزدیک‌شدن</li>
+  </ShuttleCrash_Rescue.questNameRules.rulesStrings>
+  
+</LanguageData>

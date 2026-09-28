@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription(askerIsNull==true)->An anonymous AI has requested your help dealing with an outlaw named [fugitive_nameDef]. The AI claims [fugitive_nameDef] is wanted for [reason_AI].\n\n[fugitive_nameDef] has stolen a transport pod and has fled to an abandoned orbital platform.\n\nHaving heard rumors of your gravship, the AI requests that you travel to the abandoned platform and kill [fugitive_nameDef]. In return, it will reward you with a gravtech device.\n\nThe AI warns you that [fugitive_nameDef] may be in the company of hostile orbital pirates.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] has sent us a message. A fugitive named [fugitive_nameDef] escaped from [asker_possessive] custody and used a transport pod to flee to an abandoned orbital platform. [fugitive_nameDef] was in custody for [reason].\n\nHaving heard rumors of your gravship, the [asker_faction_leaderTitle] asks that you travel to the abandoned platform and kill [fugitive_nameDef]. If you do so, [asker_nameDef] will reward you with a gravtech device.\n\n[asker_nameDef] warns you that [fugitive_nameDef] may be in the company of hostile orbital pirates.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], requests that you track down and kill a dangerous fugitive known as [fugitive_nameDef]. The fugitive is wanted for [reason_royal].\n\n[fugitive_nameDef] is hiding out on an abandoned orbital platform and may be guarded by orbital pirates. If you kill the fugitive, [asker_nameDef] will reward you with a gravtech device.</li>
+    <li>reason_AI->the destruction of multiple high-level subpersona cores</li>
+    <li>reason_AI->deorbiting an AI satellite</li>
+    <li>reason_AI->crimes on numerous distant planets</li>
+    <li>reason_AI->unlicensed orbital trafficking of psychic artifacts</li>
+    <li>reason_AI->[reason]</li>
+    <li>reason_royal->drunkenly insulting the [asker_royalTitleInCurrentFaction] in a wedding speech</li>
+    <li>reason_royal->attempting to assassinate the [asker_royalTitleInCurrentFaction]</li>
+    <li>reason_royal->accidentally detonating a firefoam pack in an imperial shuttle</li>
+    <li>reason_royal->the improper use of a tornado generator near an imperial settlement</li>
+    <li>reason_royal->trying to orchestrate a rebellion</li>
+    <li>reason_royal->treason</li>
+    <li>reason_royal->[reason]</li>
+    <li>reason->collaborating with a sanguophage cabal</li>
+    <li>reason->trafficking dangerous psychic artifacts</li>
+    <li>reason->grand larceny and multiple counts of corporate sabotage</li>
+    <li>reason->unauthorized genetic experimentation</li>
+    <li>reason->inciting inter-factional conflict</li>
+    <li>reason->drunkenly profaning a peace ritual</li>
+    <li>reason->the destruction of an orbital trade vessel</li>
+  -->
+  <OrbitalFugitive.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->یک هوش مصنوعی ناشناس برای مقابله با یک یاغی به نام [fugitive_nameDef] از شما درخواست کمک کرده است. این هوش مصنوعی ادعا می‌کند که [fugitive_nameDef] به دلیل [reason_AI] تحت تعقیب است.\n\n[fugitive_nameDef] یک کپسول حمل و نقل را دزدیده و به یک سکوی مداری متروکه گریخته است.\n\nاین هوش مصنوعی که شایعاتی درباره کشتی گرانشی شما شنیده است، از شما می‌خواهد به این سکوی متروکه سفر کرده و [fugitive_nameDef] را به هلاکت برسانید. در ازای این کار، یک دستگاه گران‌فناوری به شما پاداش خواهد داد.\n\nاین هوش مصنوعی هشدار می‌دهد که ممکن است [fugitive_nameDef] در کنار دزدان دریایی مداری متخاصم باشد.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] از [asker_faction_name] پیامی برای ما فرستاده است. یک فراری به نام [fugitive_nameDef] از بازداشتگاه او گریخته و با یک کپسول حمل و نقل به یک سکوی مداری متروکه فرار کرده است. [fugitive_nameDef] به دلیل [reason] در بازداشت بود.\n\nاین [asker_faction_leaderTitle] با شنیدن شایعاتی درباره کشتی گرانشی شما، درخواست می‌کند به این سکوی متروکه بروید و [fugitive_nameDef] را بکشید. اگر این کار را انجام دهید، [asker_nameDef] یک دستگاه گران‌فناوری به شما پاداش خواهد داد.\n\n[asker_nameDef] هشدار می‌دهد که [fugitive_nameDef] ممکن است همراه با دزدان دریایی مداری متخاصم باشد.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull]، یک [asker_royalTitleInCurrentFaction] از [asker_faction_name]، درخواست می‌کند که یک فراری خطرناک به نام [fugitive_nameDef] را ردیابی کرده و بکشید. این فراری به دلیل [reason_royal] تحت تعقیب است.\n\n[fugitive_nameDef] در یک سکوی مداری متروکه مخفی شده و ممکن است توسط دزدان دریایی مداری محافظت شود. اگر این فراری را بکشید، [asker_nameDef] یک دستگاه گران‌فناوری به شما پاداش خواهد داد.</li>
+    <li>reason_AI->تخریب چندین هسته ساب‌پرسونای رده‌بالا</li>
+    <li>reason_AI->خارج کردن ماهواره هوش مصنوعی از مدار</li>
+    <li>reason_AI->جرایم متعدد در سیارات دوردست</li>
+    <li>reason_AI->قاچاق غیرمجاز مداری آثار کهن روانی</li>
+    <li>reason_AI->[reason]</li>
+    <li>reason_royal->توهین به [asker_royalTitleInCurrentFaction] در سخنرانی عروسی در حالت مستی</li>
+    <li>reason_royal->تلاش برای ترور [asker_royalTitleInCurrentFaction]</li>
+    <li>reason_royal->منفجر کردن تصادفی بسته فوم آتش‌نشانی در یک شاتل امپراتوری</li>
+    <li>reason_royal->استفاده نادرست از ژنراتور گردباد در نزدیکی یک سکونتگاه امپراتوری</li>
+    <li>reason_royal->تلاش برای سازماندهی یک شورش</li>
+    <li>reason_royal->خیانت بزرگ</li>
+    <li>reason_royal->[reason]</li>
+    <li>reason->همکاری با یک محفل سانگووفاژ</li>
+    <li>reason->قاچاق آثار کهن روانی خطرناک</li>
+    <li>reason->دزدی بزرگ و چندین فقره خرابکاری صنعتی</li>
+    <li>reason->آزمایش‌های ژنتیکی غیرمجاز</li>
+    <li>reason->تحریک و دامن زدن به درگیری بین جناح‌ها</li>
+    <li>reason->بی‌احترامی و هتک حرمت آیین صلح در حالت مستی</li>
+    <li>reason->نابود کردن یک شناور تجاری مداری</li>
+  </OrbitalFugitive.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->The Hunt for [fugitive_nameDef]</li>
+    <li>questName->A Bounty for [fugitive_nameDef]</li>
+    <li>questName->[fugitive_nameDef] the [criminal]</li>
+    <li>questName->The Orbital [criminal]</li>
+    <li>criminal->Criminal</li>
+    <li>criminal->Fugitive</li>
+    <li>criminal->Outlaw</li>
+    <li>criminal->Felon</li>
+    <li>criminal->Renegade</li>
+  -->
+  <OrbitalFugitive.questNameRules.rulesStrings>
+    <li>questName->شکار [fugitive_nameDef]</li>
+    <li>questName->جایزه‌ای برای [fugitive_nameDef]</li>
+    <li>questName->[fugitive_nameDef]، [criminal]</li>
+    <li>questName->[criminal] مداری</li>
+    <li>criminal->مجرم</li>
+    <li>criminal->فراری</li>
+    <li>criminal->یاغی</li>
+    <li>criminal->جنایتکار</li>
+    <li>criminal->مرتد سرکش</li>
+  </OrbitalFugitive.questNameRules.rulesStrings>
+  
+</LanguageData>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: absorbing xenogerm from TargetA. -->
+  <AbsorbXenogerm.reportString>جذب زنوژرم از TargetA.</AbsorbXenogerm.reportString>
+  
+  <!-- EN: hauling TargetA to TargetB. -->
+  <CarryGenepackToContainer.reportString>حمل TargetA به TargetB.</CarryGenepackToContainer.reportString>
+  
+  <!-- EN: carrying TargetB to TargetA. -->
+  <CarryToBuilding.reportString>حمل TargetB به TargetA.</CarryToBuilding.reportString>
+  
+  <!-- EN: Doing something. -->
+  <CastAbilityGoToThing.reportString>انجام کاری</CastAbilityGoToThing.reportString>
+  
+  <!-- EN: Doing something. -->
+  <CastAbilityOnThingWithoutWeapon.reportString>انجام کاری</CastAbilityOnThingWithoutWeapon.reportString>
+  
+  <!-- EN: Doing something. -->
+  <CastAbilityOnThingWithoutWeaponInterruptible.reportString>انجام کاری</CastAbilityOnThingWithoutWeaponInterruptible.reportString>
+  
+  <!-- EN: cleaning pollution. -->
+  <ClearPollution.reportString>پاکسازی آلودگی</ClearPollution.reportString>
+  
+  <!-- EN: taking control of TargetA. -->
+  <ControlMech.reportString>کنترل TargetA</ControlMech.reportString>
+  
+  <!-- EN: creating xenogerm. -->
+  <CreateXenogerm.reportString>ایجاد زنوژرم</CreateXenogerm.reportString>
+  
+  <!-- EN: deathresting. -->
+  <Deathrest.reportString>در حال مرگ</Deathrest.reportString>
+  
+  <!-- EN: disassembling TargetA. -->
+  <DisassembleMech.reportString>جداسازی TargetA.</DisassembleMech.reportString>
+  
+  <!-- EN: entering TargetA. -->
+  <EnterBuilding.reportString>وارد کردن TargetA</EnterBuilding.reportString>
+  
+  <!-- EN: absorbing xenogerm from TargetA. -->
+  <GetReimplanted.reportString>جذب زنوژرم از TargetA.</GetReimplanted.reportString>
+  
+  <!-- EN: hauling TargetA to charger. -->
+  <HaulMechToCharger.reportString>حمل TargetA به شارژر.</HaulMechToCharger.reportString>
+  
+  <!-- EN: installing TargetA. -->
+  <InstallMechlink.reportString>نصب TargetA</InstallMechlink.reportString>
+  
+  <!-- EN: charging. -->
+  <MechCharge.reportString>شارژ کردن</MechCharge.reportString>
+  
+  <!-- EN: feeding on TargetA. -->
+  <PrisonerBloodfeed.reportString>تغذیه از TargetA.</PrisonerBloodfeed.reportString>
+  
+  <!-- EN: decrypting TargetA. -->
+  <ReadDatacore.reportString>رمزگشایی TargetA.</ReadDatacore.reportString>
+  
+  <!-- EN: releasing mechanoids. -->
+  <ReleaseMechs.reportString>آزادسازی مکانوئیدها</ReleaseMechs.reportString>
+  
+  <!-- EN: Doing something. -->
+  <RemoveMechlink.reportString>انجام کاری</RemoveMechlink.reportString>
+  
+  <!-- EN: repairing TargetA. -->
+  <RepairMech.reportString>تعمیر TargetA.</RepairMech.reportString>
+  
+  <!-- EN: repairing TargetA. -->
+  <RepairMechRemote.reportString>تعمیر TargetA.</RepairMechRemote.reportString>
+  
+  <!-- EN: dormant self-charging. -->
+  <SelfShutdown.reportString>خود شارژ غیر فعال</SelfShutdown.reportString>
+  
+  <!-- EN: shielding TargetA. -->
+  <ShieldMech.reportString>محافظت از TargetA.</ShieldMech.reportString>
+  
+  <!-- EN: romancing TargetA. -->
+  <TryRomance.reportString>عاشقانه TargetA.</TryRomance.reportString>
+  
+  <!-- EN: waiting. -->
+  <Wait_WithSleeping.reportString>در انتظار</Wait_WithSleeping.reportString>
+  
+</LanguageData>

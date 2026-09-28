@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: abrasive -->
+  <Abrasive.degreeDatas.abrasive.label>ساینده</Abrasive.degreeDatas.abrasive.label>
+  <!-- EN: {PAWN_nameDef} always says exactly what's on {PAWN_possessive} mind, especially if it's bugging {PAWN_objective}. That tends to rub people the wrong way. -->
+  <Abrasive.degreeDatas.abrasive.description>{PAWN_nameDef} همیشه دقیقاً آنچه را که در ذهن {PAWN_possessive} است می گوید، به خصوص اگر {PAWN_objective} را با مشکل مواجه کند. که تمایل دارد مردم را به روشی اشتباه مالش دهد.</Abrasive.degreeDatas.abrasive.description>
+  
+  <!-- EN: annoying voice -->
+  <AnnoyingVoice.degreeDatas.annoying_voice.label>صدای آزار دهنده</AnnoyingVoice.degreeDatas.annoying_voice.label>
+  <!-- EN: {PAWN_nameDef}'s voice has a particularly grating, nasal quality to it, and {PAWN_pronoun} tends to talk in barked, garbled phrases. This predisposes others to dislike {PAWN_objective}. -->
+  <AnnoyingVoice.degreeDatas.annoying_voice.description>صدای {PAWN_nameDef} به خصوص دارای کیفیت بینی است و {PAWN_pronoun} تمایل دارد با عبارات گیج و درهم صحبت کند. این امر دیگران را مستعد دوست نداشتن {PAWN_objective} می کند.</AnnoyingVoice.degreeDatas.annoying_voice.description>
+  
+  <!-- EN: ascetic -->
+  <Ascetic.degreeDatas.ascetic.label>زاهد</Ascetic.degreeDatas.ascetic.label>
+  <!-- EN: {PAWN_nameDef} has forsaken physical comforts and enjoyments in favor of a simple, pure lifestyle. {PAWN_pronoun} will become unhappy if {PAWN_pronoun} has a bedroom that's too impressive. {PAWN_pronoun} also dislikes fancy food and prefers to eat raw. {PAWN_pronoun} never judges others by their appearance. -->
+  <Ascetic.degreeDatas.ascetic.description>{PAWN_nameDef} راحتی و لذت فیزیکی را به نفع یک سبک زندگی ساده و خالص کنار گذاشته است. اگر {PAWN_pronoun} اتاق خوابی داشته باشد که خیلی چشمگیر باشد، {PAWN_pronoun} ناراضی خواهد شد. {PAWN_pronoun} نیز از غذاهای فانتزی خوشش نمی آید و ترجیح می دهد خام بخورد. {PAWN_pronoun} هرگز دیگران را از روی ظاهرشان قضاوت نمی کند.</Ascetic.degreeDatas.ascetic.description>
+  
+  <!-- EN: asexual -->
+  <Asexual.degreeDatas.asexual.label>غیرجنسی</Asexual.degreeDatas.asexual.label>
+  <!-- EN: {PAWN_nameDef} has no sexual attraction to anyone at all. -->
+  <Asexual.degreeDatas.asexual.description>{PAWN_nameDef} به هیچ وجه جذابیت جنسی ندارد.</Asexual.degreeDatas.asexual.description>
+  
+  <!-- EN: bisexual -->
+  <Bisexual.degreeDatas.bisexual.label>دوجنس گرا</Bisexual.degreeDatas.bisexual.label>
+  <!-- EN: {PAWN_nameDef} is romantically attracted to both men and women. -->
+  <Bisexual.degreeDatas.bisexual.description>{PAWN_nameDef} به طور عاشقانه‌ای جذب مردان و زنان می شود.</Bisexual.degreeDatas.bisexual.description>
+  
+  <!-- EN: bloodlust -->
+  <Bloodlust.degreeDatas.bloodlust.label>خونخواهی</Bloodlust.degreeDatas.bloodlust.label>
+  <!-- EN: {PAWN_nameDef} gets a rush from hurting people, and never minds the sight of blood or death. {PAWN_pronoun} is four times as likely to start a social fight as others. -->
+  <Bloodlust.degreeDatas.bloodlust.description>{PAWN_nameDef} از صدمه زدن به مردم عجله می‌کند و هرگز به دیدن خون یا مرگ اهمیت نمی‌دهد. {PAWN_pronoun} چهار برابر بیشتر از دیگران احتمال دارد که یک دعوای اجتماعی را شروع کند.</Bloodlust.degreeDatas.bloodlust.description>
+  
+  <!-- EN: body purist -->
+  <BodyPurist.degreeDatas.body_purist.label>پاک کننده بدن</BodyPurist.degreeDatas.body_purist.label>
+  <!-- EN: {PAWN_nameDef} believes the human body is limited for a reason. To {PAWN_objective}, artificial body parts and xenogenes are unethical and disgusting. -->
+  <BodyPurist.degreeDatas.body_purist.description>{PAWN_nameDef} معتقد است بدن انسان به دلایلی محدود است. برای {PAWN_objective}، اعضای مصنوعی بدن و زنوژن‌ها غیراخلاقی و منزجر کننده هستند.</BodyPurist.degreeDatas.body_purist.description>
+  
+  <!-- EN: brawler -->
+  <Brawler.degreeDatas.brawler.label>جنگجو</Brawler.degreeDatas.brawler.label>
+  <!-- EN: {PAWN_nameDef} likes to fight up close and personal. {PAWN_possessive} accuracy is greatly increased in melee combat, but {PAWN_pronoun}'ll be very unhappy if asked to carry a ranged weapon. -->
+  <Brawler.degreeDatas.brawler.description>{PAWN_nameDef} دوست دارد از نزدیک و شخصی بجنگد. دقت {PAWN_possessive} در نبردهای غوغا به شدت افزایش می‌یابد، اما اگر از {PAWN_pronoun} خواسته شود یک سلاح دوربرد حمل کند، بسیار ناراضی خواهد بود.</Brawler.degreeDatas.brawler.description>
+  
+  <!-- EN: cannibal -->
+  <Cannibal.degreeDatas.cannibal.label>آدمخوار</Cannibal.degreeDatas.cannibal.label>
+  <!-- EN: {PAWN_nameDef} was taught that eating human meat is wrong and horrible. But one time, long ago, {PAWN_pronoun} tried it... and {PAWN_pronoun} liked it. -->
+  <Cannibal.degreeDatas.cannibal.description>به {PAWN_nameDef} آموزش داده شد که خوردن گوشت انسان اشتباه و وحشتناک است. اما یک بار، مدت‌ها پیش، {PAWN_pronoun} آن را امتحان کرد ... و {PAWN_pronoun} آن را دوست داشت.</Cannibal.degreeDatas.cannibal.description>
+  
+  <!-- EN: creepy breathing -->
+  <CreepyBreathing.degreeDatas.creepy_breathing.label>تنفس خزنده</CreepyBreathing.degreeDatas.creepy_breathing.label>
+  <!-- EN: {PAWN_nameDef} breathes heavily all the time, and sweats constantly. People find it creepy. -->
+  <CreepyBreathing.degreeDatas.creepy_breathing.description>{PAWN_nameDef} همیشه به شدت نفس می‌کشد و مدام عرق می‌کند. مردم آن را وحشتناک می دانند.</CreepyBreathing.degreeDatas.creepy_breathing.description>
+  
+  <!-- EN: misandrist -->
+  <DislikesMen.degreeDatas.misandrist.label>مرد ستیز</DislikesMen.degreeDatas.misandrist.label>
+  <!-- EN: {PAWN_nameDef} really dislikes and distrusts men. -->
+  <DislikesMen.degreeDatas.misandrist.description>{PAWN_nameDef} واقعاً از مردان متنفر است و به آنها بی اعتماد است.</DislikesMen.degreeDatas.misandrist.description>
+  
+  <!-- EN: misogynist -->
+  <DislikesWomen.degreeDatas.misogynist.label>زن ستیز</DislikesWomen.degreeDatas.misogynist.label>
+  <!-- EN: {PAWN_nameDef} really dislikes and distrusts women. -->
+  <DislikesWomen.degreeDatas.misogynist.description>{PAWN_nameDef} واقعاً زنان را دوست ندارد و به آنها بی اعتماد است.</DislikesWomen.degreeDatas.misogynist.description>
+  
+  <!-- EN: fast learner -->
+  <FastLearner.degreeDatas.fast_learner.label>سریع یادگیر</FastLearner.degreeDatas.fast_learner.label>
+  <!-- EN: {PAWN_nameDef} has a knack for learning. {PAWN_pronoun} picks things up much faster than others. -->
+  <FastLearner.degreeDatas.fast_learner.description>{PAWN_nameDef} در یادگیری مهارت دارد. {PAWN_pronoun} خیلی سریعتر از بقیه چیزها را برمی دارد.</FastLearner.degreeDatas.fast_learner.description>
+  
+  <!-- EN: gay -->
+  <Gay.degreeDatas.gay.label>همجنس گرا</Gay.degreeDatas.gay.label>
+  <!-- EN: {PAWN_nameDef} is romantically attracted to people of {PAWN_possessive} own gender. -->
+  <Gay.degreeDatas.gay.description>{PAWN_nameDef} به طور عاشقانه جذب افراد از جنس خود {PAWN_possessive} می شود.</Gay.degreeDatas.gay.description>
+  
+  <!-- EN: gourmand -->
+  <Gourmand.degreeDatas.gourmand.label>لذیذ</Gourmand.degreeDatas.gourmand.label>
+  <!-- EN: {PAWN_nameDef}'s life revolves around food. {PAWN_pronoun} gets hungry quickly, and will occasionally be overcome with the urge to eat ravenously, even when not hungry. -->
+  <Gourmand.degreeDatas.gourmand.description>زندگی {PAWN_nameDef} حول محور غذا می چرخد. {PAWN_pronoun} به سرعت گرسنه می شود و گهگاه با میل شدید به خوردن غذا، حتی زمانی که گرسنه نیست، غلبه می کند.</Gourmand.degreeDatas.gourmand.description>
+  
+  <!-- EN: great memory -->
+  <GreatMemory.degreeDatas.great_memory.label>حافظه عالی</GreatMemory.degreeDatas.great_memory.label>
+  <!-- EN: {PAWN_nameDef} has a fantastic memory for detail. {PAWN_pronoun} will lose unused skills at half the rate of other people. -->
+  <GreatMemory.degreeDatas.great_memory.description>{PAWN_nameDef} یک حافظه فوق العاده برای جزئیات دارد. {PAWN_pronoun} مهارت های استفاده نشده را با نصف نرخ سایر افراد از دست می دهد.</GreatMemory.degreeDatas.great_memory.description>
+  
+  <!-- EN: greedy -->
+  <Greedy.degreeDatas.greedy.label>حریص</Greedy.degreeDatas.greedy.label>
+  <!-- EN: {PAWN_nameDef} needs a really impressive bedroom. {PAWN_pronoun} gets a mood loss if {PAWN_pronoun} doesn't get what {PAWN_pronoun} wants. -->
+  <Greedy.degreeDatas.greedy.description>{PAWN_nameDef} به یک اتاق خواب واقعا چشمگیر نیاز دارد. اگر {PAWN_pronoun} آنچه را که {PAWN_pronoun} می‌خواهد به دست نیاورد، {PAWN_pronoun} از بین می‌رود.</Greedy.degreeDatas.greedy.description>
+  
+  <!-- EN: jealous -->
+  <Jealous.degreeDatas.jealous.label>حسود</Jealous.degreeDatas.jealous.label>
+  <!-- EN: For {PAWN_nameDef}, it's degrading to have a less impressive bedroom than someone else. {PAWN_pronoun} gets a mood loss if any colonist has a more impressive bedroom. -->
+  <Jealous.degreeDatas.jealous.description>برای {PAWN_nameDef}، داشتن اتاق خوابی کمتر چشمگیرتر از دیگران، تحقیرآمیز است. اگر هر مستعمره‌نشینی اتاق خواب چشمگیرتری داشته باشد، {PAWN_pronoun} دچار اختلال خلقی می‌شود.</Jealous.degreeDatas.jealous.description>
+  
+  <!-- EN: kind -->
+  <Kind.degreeDatas.kind.label>مهربان</Kind.degreeDatas.kind.label>
+  <!-- EN: {PAWN_nameDef} is an exceptionally agreeable and giving person. {PAWN_pronoun} rarely insults others and will sometimes offer kind words to brighten the moods of those around {PAWN_objective}. {PAWN_pronoun} also never judges people by their appearance. {PAWN_possessive} agreeableness also makes {PAWN_objective} more likely to conform to prevailing opinions. -->
+  <Kind.degreeDatas.kind.description>{PAWN_nameDef} فردی فوق العاده موافق و بخشنده است. {PAWN_pronoun} به ندرت به دیگران توهین می کند و گاهی اوقات کلمات محبت آمیز را برای روشن کردن روحیه اطرافیان {PAWN_objective} ارائه می دهد. {PAWN_pronoun} همچنین هرگز افراد را از روی ظاهرشان قضاوت نمی کند. سازگاری {PAWN_possessive} همچنین باعث می شود که {PAWN_objective} بیشتر با نظرات رایج مطابقت داشته باشد.</Kind.degreeDatas.kind.description>
+  
+  <!-- EN: masochist -->
+  <Masochist.degreeDatas.masochist.label>مازوخیست</Masochist.degreeDatas.masochist.label>
+  <!-- EN: For {PAWN_nameDef}, there's something exciting about getting hurt. {PAWN_pronoun} doesn't know why, {PAWN_pronoun}'s just wired differently. -->
+  <Masochist.degreeDatas.masochist.description>برای {PAWN_nameDef}، چیزی هیجان انگیز در مورد آسیب دیدن وجود دارد. {PAWN_pronoun} نمی داند چرا، {PAWN_pronoun} فقط سیم کشی متفاوتی دارد.</Masochist.degreeDatas.masochist.description>
+  
+  <!-- EN: night owl -->
+  <NightOwl.degreeDatas.night_owl.label>جغد شب</NightOwl.degreeDatas.night_owl.label>
+  <!-- EN: {PAWN_nameDef} likes to be up during the night, and sleep during the day.\n\n{PAWN_pronoun} gets a mood bonus if awake at night (23h-6h) and mood loss if awake during the day (11h-18h).\n\n{PAWN_pronoun} doesn't get a mood penalty for being in the dark. -->
+  <NightOwl.degreeDatas.night_owl.description>{PAWN_nameDef} دوست دارد در طول شب بیدار باشد و در طول روز بخوابد.\n\n{PAWN_pronoun} در صورت بیدار بودن در شب (23 ساعت تا 6 ساعت) پاداش خلق و خوی دریافت می‌کند و اگر در طول روز بیدار باشد (11 ساعت تا 18 ساعت) حالت خلق و خوی خود را از دست می‌دهد.\n\n{PAWN_pronoun} برای تاریکی بودن جریمه خلق و خوی دریافت نمی‌کند.</NightOwl.degreeDatas.night_owl.description>
+  
+  <!-- EN: nimble -->
+  <Nimble.degreeDatas.nimble.label>زیرک</Nimble.degreeDatas.nimble.label>
+  <!-- EN: {PAWN_nameDef} has remarkable kinesthetic intelligence. {PAWN_pronoun} seems to dance around danger with preternatural grace. -->
+  <Nimble.degreeDatas.nimble.description>{PAWN_nameDef} دارای هوش جنبشی قابل توجهی است. به نظر می رسد {PAWN_pronoun} با لطف ماقبل طبیعی دور خطر می رقصد.</Nimble.degreeDatas.nimble.description>
+  
+  <!-- EN: nudist -->
+  <Nudist.degreeDatas.nudist.label>برهنگی</Nudist.degreeDatas.nudist.label>
+  <!-- EN: {PAWN_nameDef} enjoys the feeling of freedom that comes from being nude. {PAWN_pronoun} can handle clothing, but will be happier without it. -->
+  <Nudist.degreeDatas.nudist.description>{PAWN_nameDef} از احساس آزادی ناشی از برهنه بودن لذت می برد. {PAWN_pronoun} می تواند لباس را تحمل کند، اما بدون آن شادتر خواهد بود.</Nudist.degreeDatas.nudist.description>
+  
+  <!-- EN: psychopath -->
+  <Psychopath.degreeDatas.psychopath.label>روانی</Psychopath.degreeDatas.psychopath.label>
+  <!-- EN: {PAWN_nameDef} has no empathy. The suffering of others doesn't bother {PAWN_objective} at all. {PAWN_pronoun} doesn't mind if others are butchered, left unburied, imprisoned, or sold to slavery - unless it affects {PAWN_objective}. {PAWN_pronoun} also feels no mood boost from socializing. -->
+  <Psychopath.degreeDatas.psychopath.description>{PAWN_nameDef} همدلی ندارد. رنج دیگران اصلا {PAWN_objective} را آزار نمی دهد. {PAWN_pronoun} اهمیتی نمی‌دهد که دیگران قصابی شوند، دفن نشوند، زندانی شوند یا به بردگی فروخته شوند - مگر اینکه بر {PAWN_objective} تأثیر بگذارد. {PAWN_pronoun} همچنین هیچ افزایش خلق و خوی از معاشرت احساس نمی کند.</Psychopath.degreeDatas.psychopath.description>
+  
+  <!-- EN: pyromaniac -->
+  <Pyromaniac.degreeDatas.pyromaniac.label>پیرومن</Pyromaniac.degreeDatas.pyromaniac.label>
+  <!-- EN: {PAWN_nameDef} loves fire. {PAWN_pronoun} will never extinguish fires, and will occasionally go on random fire starting sprees. {PAWN_pronoun} will be happy around flames, and happier when wielding an incendiary weapon. -->
+  <Pyromaniac.degreeDatas.pyromaniac.description>{PAWN_nameDef} عاشق آتش است. {PAWN_pronoun} هرگز آتش‌ها را خاموش نمی‌کند، و گهگاه آتش‌سوزی‌های تصادفی شروع می‌کند. {PAWN_pronoun} در کنار شعله های آتش خوشحال خواهد شد و در هنگام استفاده از یک سلاح آتش زا خوشحال‌تر خواهد بود.</Pyromaniac.degreeDatas.pyromaniac.description>
+  
+  <!-- EN: quick sleeper -->
+  <QuickSleeper.degreeDatas.quick_sleeper.label>سریع خواب</QuickSleeper.degreeDatas.quick_sleeper.label>
+  <!-- EN: {PAWN_nameDef} doesn't need as much sleep as the average person. Whether {PAWN_pronoun}'s sleeping on a bed or on the ground, {PAWN_pronoun} will be fully rested in about two thirds the usual time. -->
+  <QuickSleeper.degreeDatas.quick_sleeper.description>{PAWN_nameDef} به اندازه افراد عادی به خواب نیاز ندارد. چه {PAWN_pronoun} روی تخت بخوابد یا روی زمین، {PAWN_pronoun} در حدود دو سوم زمان معمول به طور کامل استراحت خواهد کرد.</QuickSleeper.degreeDatas.quick_sleeper.description>
+  
+  <!-- EN: slow learner -->
+  <SlowLearner.degreeDatas.slow_learner.label>یادگیرنده کند</SlowLearner.degreeDatas.slow_learner.label>
+  <!-- EN: {PAWN_nameDef} is slow on the uptake. {PAWN_pronoun} learns much slower than others. -->
+  <SlowLearner.degreeDatas.slow_learner.description>{PAWN_nameDef} در جذب کند است. {PAWN_pronoun} بسیار کندتر از دیگران یاد می گیرد.</SlowLearner.degreeDatas.slow_learner.description>
+  
+  <!-- EN: too smart -->
+  <TooSmart.degreeDatas.too_smart.label>خیلی باهوش</TooSmart.degreeDatas.too_smart.label>
+  <!-- EN: {PAWN_nameDef} is too smart for {PAWN_possessive} own good. {PAWN_pronoun} learns everything much faster than everyone, but can be quite eccentric. -->
+  <TooSmart.degreeDatas.too_smart.description>{PAWN_nameDef} برای خود {PAWN_possessive} بسیار هوشمند است. {PAWN_pronoun} همه چیز را خیلی سریعتر از همه یاد می گیرد، اما می تواند کاملاً عجیب و غریب باشد.</TooSmart.degreeDatas.too_smart.description>
+  
+  <!-- EN: tortured artist -->
+  <TorturedArtist.degreeDatas.tortured_artist.label>هنرمند شکنجه شده</TorturedArtist.degreeDatas.tortured_artist.label>
+  <!-- EN: {PAWN_nameDef} feels alienated and misunderstood by other human beings. {PAWN_pronoun} will have a constant mood debuff, but gain a chance (50%) to get a creativity inspiration after a mental break. -->
+  <TorturedArtist.degreeDatas.tortured_artist.description>{PAWN_nameDef} احساس بیگانگی و سوء تفاهم توسط سایر انسان‌ها می کند. {PAWN_pronoun} حالت بد خلقی دائمی خواهد داشت، اما فرصتی (50%) برای الهام گرفتن از خلاقیت پس از یک استراحت ذهنی به دست می آورد.</TorturedArtist.degreeDatas.tortured_artist.description>
+  <!-- EN: As a suffering tortured artist, [PAWN_nameIndef] has experienced an inspiration. -->
+  <TorturedArtist.degreeDatas.tortured_artist.mentalBreakInspirationGainReasonText>[PAWN_nameIndef] به عنوان یک هنرمند شکنجه‌شده، الهام‌بخشی را تجربه کرده است.</TorturedArtist.degreeDatas.tortured_artist.mentalBreakInspirationGainReasonText>
+  
+  <!-- EN: tough -->
+  <Tough.degreeDatas.tough.label>سخت</Tough.degreeDatas.tough.label>
+  <!-- EN: {PAWN_nameDef} has thick skin, dense flesh, and durable bones. {PAWN_pronoun} takes much less damage than other people from the same blows. {PAWN_pronoun} is extremely hard to kill. -->
+  <Tough.degreeDatas.tough.description>{PAWN_nameDef} دارای پوست ضخیم، گوشت متراکم و استخوان های بادوام است. {PAWN_pronoun} آسیب بسیار کمتری نسبت به سایر افراد از همان ضربات وارد می کند. کشتن {PAWN_pronoun} بسیار سخت است.</Tough.degreeDatas.tough.description>
+  
+  <!-- EN: body modder -->
+  <Transhumanist.degreeDatas.body_modder.label>اصلاح کننده بدن</Transhumanist.degreeDatas.body_modder.label>
+  <!-- EN: {PAWN_nameDef} feels limited in {PAWN_possessive} feeble human body. {PAWN_pronoun} often dreams of being enhanced with artificial body parts or xenogenetics. -->
+  <Transhumanist.degreeDatas.body_modder.description>{PAWN_nameDef} در بدن انسان ضعیف {PAWN_possessive} محدود است. {PAWN_pronoun} اغلب رویای تقویت شدن با قطعات مصنوعی بدن یا زنوژنتیک را در سر می پروراند.</Transhumanist.degreeDatas.body_modder.description>
+  
+  <!-- EN: undergrounder -->
+  <Undergrounder.degreeDatas.undergrounder.label>زیرزمینی</Undergrounder.degreeDatas.undergrounder.label>
+  <!-- EN: {PAWN_nameDef} has no need to experience the outdoors or light. {PAWN_pronoun} will never feel cooped up or get cabin fever and is not bothered by darkness. However, {PAWN_nameDef} will be unhappy while outdoors. -->
+  <Undergrounder.degreeDatas.undergrounder.description>{PAWN_nameDef} نیازی به تجربه در فضای باز یا نور ندارد. {PAWN_pronoun} هرگز احساس نمی‌کند که سرگردان است یا دچار تب کابین نمی‌شود و تاریکی او را آزار نمی‌دهد. با این حال، {PAWN_nameDef} در خارج از منزل ناراضی خواهد بود.</Undergrounder.degreeDatas.undergrounder.description>
+  
+  <!-- EN: wimp -->
+  <Wimp.degreeDatas.wimp.label>لم دادن</Wimp.degreeDatas.wimp.label>
+  <!-- EN: {PAWN_nameDef} is weak and cowardly. Even a little pain will immobilize {PAWN_objective}. -->
+  <Wimp.degreeDatas.wimp.description>{PAWN_nameDef} ضعیف و ترسو است. حتی کمی درد {PAWN_objective} را بی حرکت می کند.</Wimp.degreeDatas.wimp.description>
+  
+</LanguageData>

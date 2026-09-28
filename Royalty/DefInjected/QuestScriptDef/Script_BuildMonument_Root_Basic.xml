@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>commonEnding->The monument is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nConstruction must be completed within [constructionTimeoutTicks_duration] of accepting the task. You'll receive the rewards when you finish construction.[dontDestroyMonument]</li>
+    <li>dontDestroyMonument(priority=-10)-></li>
+    <li>dontDestroyMonument->\n\nIf the monument is destroyed within [keepMonumentTicks_duration] days of construction, your relations with [asker_factionName] will fall by [goodwillChangeIfMonumentDestroyed].</li>
+  -->
+  <BuildMonument_Basic.questDescriptionRules.rulesStrings>
+    <li>commonEnding-> اندازه بنای یادبود [monumentSize] است و به این منابع نیاز دارد (مقدار کلی [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nساخت و ساز باید در [constructionTimeoutTicks_duration] پس از پذیرش کار تکمیل شود. پس از پایان ساخت، جوایز را دریافت خواهید کرد.[dontDestroyMonument]</li>
+    <li>dontDestroyMonument(priority=-10)-></li>
+    <li>dontDestroyMonument->\n\nاگر بنای یادبود طی [keepMonumentTicks_duration] روز پس از ساخت ویران شود، روابط شما با [asker_factionName] تا [goodwillChangeIfMonumentDestroyed] کاهش می یابد.</li>
+  </BuildMonument_Basic.questDescriptionRules.rulesStrings>
+  
+</LanguageData>

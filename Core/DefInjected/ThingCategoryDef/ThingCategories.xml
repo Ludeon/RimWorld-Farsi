@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: animal products -->
+  <AnimalProductRaw.label>محصولات حیوانی</AnimalProductRaw.label>
+  
+  <!-- EN: animals -->
+  <Animals.label>حیوانات</Animals.label>
+  
+  <!-- EN: apparel -->
+  <Apparel.label>پوشاک</Apparel.label>
+  
+  <!-- EN: armor -->
+  <ApparelArmor.label>زره پوش</ApparelArmor.label>
+  
+  <!-- EN: misc -->
+  <ApparelMisc.label>متفرقه</ApparelMisc.label>
+  
+  <!-- EN: noble apparel -->
+  <ApparelNoble.label>لباس نجیب</ApparelNoble.label>
+  
+  <!-- EN: utility -->
+  <ApparelUtility.label>سودمندی</ApparelUtility.label>
+  
+  <!-- EN: headgear -->
+  <ArmorHeadgear.label>سرپوش</ArmorHeadgear.label>
+  
+  <!-- EN: artifacts -->
+  <Artifacts.label>مصنوعات</Artifacts.label>
+  
+  <!-- EN: body parts -->
+  <BodyParts.label>اعضای بدن</BodyParts.label>
+  
+  <!-- EN: archotech -->
+  <BodyPartsArchotech.label>آرکوتک</BodyPartsArchotech.label>
+  
+  <!-- EN: bionic -->
+  <BodyPartsBionic.label>بیونیک</BodyPartsBionic.label>
+  
+  <!-- EN: mechtech -->
+  <BodyPartsMechtech.label>مکانیک</BodyPartsMechtech.label>
+  
+  <!-- EN: natural -->
+  <BodyPartsNatural.label>طبیعی</BodyPartsNatural.label>
+  
+  <!-- EN: prosthetic -->
+  <BodyPartsProsthetic.label>مصنوعی</BodyPartsProsthetic.label>
+  
+  <!-- EN: simple parts -->
+  <BodyPartsSimple.label>قطعات ساده</BodyPartsSimple.label>
+  
+  <!-- EN: ultratech -->
+  <BodyPartsUltra.label>فوق فناوری</BodyPartsUltra.label>
+  
+  <!-- EN: bookEffects -->
+  <BookEffects.label>کتاب افکت</BookEffects.label>
+  
+  <!-- EN: books -->
+  <Books.label>کتاب ها</Books.label>
+  
+  <!-- EN: buildings -->
+  <Buildings.label>ساختمان‌ها</Buildings.label>
+  
+  <!-- EN: art -->
+  <BuildingsArt.label>هنر</BuildingsArt.label>
+  
+  <!-- EN: furniture -->
+  <BuildingsFurniture.label>مبلمان</BuildingsFurniture.label>
+  
+  <!-- EN: recreation -->
+  <BuildingsJoy.label>تفریحی</BuildingsJoy.label>
+  
+  <!-- EN: misc -->
+  <BuildingsMisc.label>متفرقه</BuildingsMisc.label>
+  
+  <!-- EN: power -->
+  <BuildingsPower.label>قدرت</BuildingsPower.label>
+  
+  <!-- EN: production -->
+  <BuildingsProduction.label>تولید</BuildingsProduction.label>
+  
+  <!-- EN: security -->
+  <BuildingsSecurity.label>امنیت</BuildingsSecurity.label>
+  
+  <!-- EN: special -->
+  <BuildingsSpecial.label>خاص</BuildingsSpecial.label>
+  
+  <!-- EN: temperature -->
+  <BuildingsTemperature.label>دما</BuildingsTemperature.label>
+  
+  <!-- EN: chunks -->
+  <Chunks.label>تکه‌ها</Chunks.label>
+  
+  <!-- EN: corpses -->
+  <Corpses.label>اجساد</Corpses.label>
+  
+  <!-- EN: animal corpses -->
+  <CorpsesAnimal.label>اجساد حیوانات</CorpsesAnimal.label>
+  
+  <!-- EN: humanlike corpses -->
+  <CorpsesHumanlike.label>اجساد انسان مانند</CorpsesHumanlike.label>
+  
+  <!-- EN: insect corpses -->
+  <CorpsesInsect.label>اجساد حشرات</CorpsesInsect.label>
+  
+  <!-- EN: mechanoid corpses -->
+  <CorpsesMechanoid.label>اجساد مکانیکی</CorpsesMechanoid.label>
+  
+  <!-- EN: drugs -->
+  <Drugs.label>مواد مخدر</Drugs.label>
+  
+  <!-- EN: eggs (fert.) -->
+  <EggsFertilized.label>تخم مرغ (فرت.)</EggsFertilized.label>
+  
+  <!-- EN: eggs (unfert.) -->
+  <EggsUnfertilized.label>تخم مرغ (نابارور)</EggsUnfertilized.label>
+  
+  <!-- EN: meals -->
+  <FoodMeals.label>وعده های غذایی</FoodMeals.label>
+  
+  <!-- EN: raw food -->
+  <FoodRaw.label>غذای خام</FoodRaw.label>
+  
+  <!-- EN: foods -->
+  <Foods.label>غذاها</Foods.label>
+  
+  <!-- EN: grenades -->
+  <Grenades.label>نارنجک</Grenades.label>
+  
+  <!-- EN: headgear -->
+  <Headgear.label>سرپوش</Headgear.label>
+  
+  <!-- EN: headgear -->
+  <HeadgearNoble.label>سرپوش</HeadgearNoble.label>
+  
+  <!-- EN: inert relics -->
+  <InertRelics.label>آثار بی اثر</InertRelics.label>
+  
+  <!-- EN: items -->
+  <Items.label>موارد</Items.label>
+  
+  <!-- EN: misc -->
+  <ItemsMisc.label>متفرقه</ItemsMisc.label>
+  
+  <!-- EN: leathers -->
+  <Leathers.label>پوست ها</Leathers.label>
+  
+  <!-- EN: manufactured -->
+  <Manufactured.label>ساخته شده است</Manufactured.label>
+  
+  <!-- EN: meat -->
+  <MeatRaw.label>گوشت</MeatRaw.label>
+  
+  <!-- EN: medicine -->
+  <Medicine.label>دارو</Medicine.label>
+  
+  <!-- EN: mortar shells -->
+  <MortarShells.label>گلوله های خمپاره</MortarShells.label>
+  
+  <!-- EN: neurotrainers -->
+  <Neurotrainers.label>مربیان عصبی</Neurotrainers.label>
+  
+  <!-- EN: psytrainers -->
+  <NeurotrainersPsycast.label>مربیان روانی</NeurotrainersPsycast.label>
+  
+  <!-- EN: skilltrainers -->
+  <NeurotrainersSkill.label>مربیان مهارت</NeurotrainersSkill.label>
+  
+  <!-- EN: vegetarian -->
+  <PlantFoodRaw.label>گیاهخواری</PlantFoodRaw.label>
+  
+  <!-- EN: plant matter -->
+  <PlantMatter.label>ماده گیاهی</PlantMatter.label>
+  
+  <!-- EN: plants -->
+  <Plants.label>گیاهان</Plants.label>
+  
+  <!-- EN: research -->
+  <ResearchGain.label>تحقیق</ResearchGain.label>
+  
+  <!-- EN: raw resources -->
+  <ResourcesRaw.label>منابع خام</ResourcesRaw.label>
+  
+  <!-- EN: root -->
+  <Root.label>ریشه</Root.label>
+  
+  <!-- EN: skill gain -->
+  <SkillGain.label>کسب مهارت</SkillGain.label>
+  
+  <!-- EN: stone blocks -->
+  <StoneBlocks.label>بلوک های سنگی</StoneBlocks.label>
+  
+  <!-- EN: stone chunks -->
+  <StoneChunks.label>تکه های سنگ</StoneChunks.label>
+  
+  <!-- EN: stumps -->
+  <Stumps.label>کنده‌ها</Stumps.label>
+  
+  <!-- EN: techprints -->
+  <Techprints.label>چاپ‌های فنی</Techprints.label>
+  
+  <!-- EN: textiles -->
+  <Textiles.label>منسوجات</Textiles.label>
+  
+  <!-- EN: unfinished -->
+  <Unfinished.label>ناتمام</Unfinished.label>
+  
+  <!-- EN: weapons -->
+  <Weapons.label>سلاح‌ها</Weapons.label>
+  
+  <!-- EN: melee weapons -->
+  <WeaponsMelee.label>سلاح های غوغا</WeaponsMelee.label>
+  
+  <!-- EN: persona weapons -->
+  <WeaponsMeleeBladelink.label>سلاح های شخصی</WeaponsMeleeBladelink.label>
+  
+  <!-- EN: ranged weapons -->
+  <WeaponsRanged.label>سلاح های برد</WeaponsRanged.label>
+  
+  <!-- EN: unique weapons -->
+  <WeaponsUnique.label>سلاح های منحصر به فرد</WeaponsUnique.label>
+  
+  <!-- EN: wools -->
+  <Wools.label>پشم ها</Wools.label>
+  
+</LanguageData>

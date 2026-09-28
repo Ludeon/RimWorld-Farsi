@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: architect -->
+  <Architect.label>معمار</Architect.label>
+  <!-- EN: General-use controls for the architect mode menu. -->
+  <Architect.description>کنترل‌های عمومی برای منوی حالت معمار.</Architect.description>
+  
+  <!-- EN: debug menu -->
+  <DebugMenu.label>منوی اشکال زدایی</DebugMenu.label>
+  <!-- EN: Controls used in debug menus. Active in development mode only. -->
+  <DebugMenu.description>کنترل های مورد استفاده در منوهای اشکال زدایی فقط در حالت توسعه فعال است.</DebugMenu.description>
+  
+  <!-- EN: developer tools -->
+  <Development.label>ابزارهای توسعه دهنده</Development.label>
+  <!-- EN: Controls for developers and modders. Active in development mode only. -->
+  <Development.description>کنترل برای توسعه دهندگان و موددرها. فقط در حالت توسعه فعال است.</Development.description>
+  
+  <!-- EN: in-game global -->
+  <Game.label>جهانی درون بازی</Game.label>
+  <!-- EN: Colony mode controls that apply in most situations. -->
+  <Game.description>کنترل‌های حالت کلونی که در اکثر موقعیت‌ها اعمال می‌شوند.</Game.description>
+  
+  <!-- EN: camera -->
+  <GameMapCamera.label>دوربین</GameMapCamera.label>
+  <!-- EN: Controls for the camera. -->
+  <GameMapCamera.description>کنترل برای دوربین</GameMapCamera.description>
+  
+  <!-- EN: main tabs -->
+  <MainTabs.label>برگه های اصلی</MainTabs.label>
+  <!-- EN: Controls for the main tabs. -->
+  <MainTabs.description>کنترل برای برگه های اصلی.</MainTabs.description>
+  
+  <!-- EN: modifiers -->
+  <Modifiers.label>اصلاح کننده‌ها</Modifiers.label>
+  <!-- EN: Controls used to modify other actions. -->
+  <Modifiers.description>کنترل‌هایی که برای اصلاح سایر اقدامات استفاده می‌شوند.</Modifiers.description>
+  
+  <!-- EN: misc -->
+  <SelectionMisc.label>متفرقه</SelectionMisc.label>
+  <!-- EN: Generic controls that are re-used by many items and objects throughout the game. -->
+  <SelectionMisc.description>کنترل های عمومی که توسط بسیاری از آیتم‌ها و اشیاء در طول بازی دوباره استفاده می شوند.</SelectionMisc.description>
+  
+  <!-- EN: special -->
+  <SelectionSpecial.label>خاص</SelectionSpecial.label>
+  <!-- EN: Special controls reserved for specific functions on specific objects. -->
+  <SelectionSpecial.description>کنترل های ویژه برای عملکردهای خاص در اشیاء خاص.</SelectionSpecial.description>
+  
+</LanguageData>

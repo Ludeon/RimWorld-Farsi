@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] is calling from nearby. [asker_possessive] guards were killed in an ambush. [asker_pronoun] escaped, but is now being followed by (*Threat)a manhunting [animalKindDef_label](/Threat).\n\n[asker_nameDef] wants you to keep [asker_objective] safe at [map_definite] for a few hours until [asker_possessive] shuttle can come pick [asker_objective] up.\n\n[asker_pronoun] will bestow [royalFavorReward] [asker_faction_royalFavorLabel] on whoever accepts this quest. This is enough [asker_faction_royalFavorLabel] to receive the royal title of Novice, and all benefits that come with it - including the first level of psychic powers.</li>
+  -->
+  <Intro_Wimp.questDescriptionRules.rulesStrings>
+    <li>questDescription->[asker_nameFull]، یک [asker_royalTitleInCurrentFaction] از [asker_faction_name] از این نزدیکی تماس می‌گیرد. محافظان او در یک کمین کشته شده‌اند. او گریخته، اما اکنون توسط (*Threat)یک [animalKindDef_label] انسان‌شکارچی(/Threat) تعقیب می‌شود.\n\n[asker_nameDef] از شما می‌خواهد او را در [map_definite] برای چند ساعت امن نگه دارید تا شاتلش برای بردن او برسد.\n\nاو به پذیرنده این مأموریت [royalFavorReward] [asker_faction_royalFavorLabel] اعطا خواهد کرد. این مقدار لطف امپراتوری برای کسب عنوان نوویس و همه مزایای آن - از جمله سطح اول قدرت‌های روانی - کافی است.</li>
+  </Intro_Wimp.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->the [adjAny] [asker_royalTitleInCurrentFaction]</li>
+    <li>adjAny->hunted</li>
+    <li>adjAny->fleeing</li>
+    <li>adjAny->solitary</li>
+    <li>adjAny->ambushed</li>
+  -->
+  <Intro_Wimp.questNameRules.rulesStrings>
+    <li>questName->[asker_royalTitleInCurrentFaction] [adjAny]</li>
+    <li>adjAny->شکارشده</li>
+    <li>adjAny->گریزان</li>
+    <li>adjAny->تنها</li>
+    <li>adjAny->کمین‌خورده</li>
+  </Intro_Wimp.questNameRules.rulesStrings>
+  <!-- EN: [animalKindDef_label] arrived -->
+  <Intro_Wimp.LetterLabelAnimalArrived.slateRef>[animalKindDef_label] وارد شد</Intro_Wimp.LetterLabelAnimalArrived.slateRef>
+  <!-- EN: The [animalKindDef_label] that [asker_nameDef] was fleeing has arrived.\n\nIt turned out to be quite gentle and not aggressive at all. -->
+  <Intro_Wimp.LetterTextAnimalArrived.slateRef>[animalKindDef_label] که [asker_nameDef] از دستش می‌گریخت وارد شده است.\n\nمعلوم شد که حیوانی کاملاً ملایم و بی‌آزار است و اصلاً خوی تهاجمی ندارد.</Intro_Wimp.LetterTextAnimalArrived.slateRef>
+  <!-- EN: Manhunting [animalKindDef_label] -->
+  <Intro_Wimp.LetterLabelAngryAnimal.slateRef>[animalKindDef_label] آدم‌خوار</Intro_Wimp.LetterLabelAngryAnimal.slateRef>
+  <!-- EN: The [animalKindDef_label] which was following [asker_nameFull] has arrived in the area. -->
+  <Intro_Wimp.LetterTextAngryAnimal.slateRef>[animalKindDef_label] که [asker_nameFull] را تعقیب می‌کرد به منطقه رسیده است.</Intro_Wimp.LetterTextAngryAnimal.slateRef>
+  <!-- EN: Should depart on shuttle -->
+  <Intro_Wimp.InspectStringDepartShuttle.slateRef>باید با شاتل حرکت کند</Intro_Wimp.InspectStringDepartShuttle.slateRef>
+  <!-- EN: Shuttle arrived -->
+  <Intro_Wimp.LetterLabelShuttleArrived.slateRef>شاتل رسید</Intro_Wimp.LetterLabelShuttleArrived.slateRef>
+  <!-- EN: The shuttle has arrived to collect [asker_nameDef]. -->
+  <Intro_Wimp.LetterTextShuttleArrived.slateRef>شاتل برای سوار کردن [asker_nameDef] وارد شده است.</Intro_Wimp.LetterTextShuttleArrived.slateRef>
+  <!-- EN: Guest died: {SUBJECT_definite} -->
+  <Intro_Wimp.LetterLabelGuestDied.slateRef>مهمان درگذشت: {SUBJECT_definite}</Intro_Wimp.LetterLabelGuestDied.slateRef>
+  <!-- EN: {SUBJECT_definite}, who you were charged to protect, has died. [failLetterEndingCommon] -->
+  <Intro_Wimp.LetterTextGuestDied.slateRef>{SUBJECT_definite} که موظف به محافظت از او بودید، جان باخته است. [failLetterEndingCommon]</Intro_Wimp.LetterTextGuestDied.slateRef>
+  <!-- EN: Guest left behind: {SUBJECT_definite} -->
+  <Intro_Wimp.root.nodes.askerLeftBehind.node.nodes.Letter.label.slateRef>مهمان جا ماند: {SUBJECT_definite}</Intro_Wimp.root.nodes.askerLeftBehind.node.nodes.Letter.label.slateRef>
+  <!-- EN: {SUBJECT_definite}, who you were charged to protect, has been left behind. [failLetterEndingCommon] -->
+  <Intro_Wimp.root.nodes.askerLeftBehind.node.nodes.Letter.text.slateRef>{SUBJECT_definite} که موظف به محافظت از او بودید جا مانده است. [failLetterEndingCommon]</Intro_Wimp.root.nodes.askerLeftBehind.node.nodes.Letter.text.slateRef>
+  <!-- EN: Unauthorized surgery: {SUBJECT_definite} -->
+  <Intro_Wimp.LetterLabelUnauthorizedSurgery.slateRef>جراحی غیرمجاز: {SUBJECT_definite}</Intro_Wimp.LetterLabelUnauthorizedSurgery.slateRef>
+  <!-- EN: Unauthorized, violating surgery has been performed on {SUBJECT_definite}, who you were charged to protect. Because of this violation, [asker_pronoun] will now attempt to leave. [failLetterEndingCommon] -->
+  <Intro_Wimp.LetterTextUnauthorizedSurgery.slateRef>عمل جراحی غیرمجاز و توهین‌آمیزی بر روی {SUBJECT_definite} انجام شده است. به دلیل این تخلف، او اکنون تلاش خواهد کرد آنجا را ترک کند. [failLetterEndingCommon]</Intro_Wimp.LetterTextUnauthorizedSurgery.slateRef>
+  <!-- EN: Xenogerm absorbed: {SUBJECT_definite} -->
+  <Intro_Wimp.root.nodes.askerXenogermAbsorbed.node.nodes.Letter.label.slateRef>جذب زنوژرم: {SUBJECT_definite}</Intro_Wimp.root.nodes.askerXenogermAbsorbed.node.nodes.Letter.label.slateRef>
+  <!-- EN: {SUBJECT_definite}, who you were charged to protect, has had {SUBJECT_possessive} xenogerm forcibly absorbed. Because of this violation, {SUBJECT_pronoun} will now attempt to leave. [failLetterEndingCommon] -->
+  <Intro_Wimp.root.nodes.askerXenogermAbsorbed.node.nodes.Letter.text.slateRef>زنوژرم {SUBJECT_definite} که موظف به حفاظت از او بودید به زور جذب شده است. به علت این نقض آشکار، او اکنون قصد خروج دارد. [failLetterEndingCommon]</Intro_Wimp.root.nodes.askerXenogermAbsorbed.node.nodes.Letter.text.slateRef>
+  <!-- EN: Captured: {SUBJECT_definite} -->
+  <Intro_Wimp.LetterLabelCaptured.slateRef>دستگیر شد: {SUBJECT_definite}</Intro_Wimp.LetterLabelCaptured.slateRef>
+  <!-- EN: {SUBJECT_definite}, who you were charged to host, has been arrested. [failLetterEndingCommon] -->
+  <Intro_Wimp.LetterTextCaptured.slateRef>{SUBJECT_definite} که موظف به میزبانی از او بودید، دستگیر و زندانی شده است. [failLetterEndingCommon]</Intro_Wimp.LetterTextCaptured.slateRef>
+  <!-- EN: Guest lost: {SUBJECT_definite} -->
+  <Intro_Wimp.LetterLabelGuestLost.slateRef>مهمان ناپدید شد: {SUBJECT_definite}</Intro_Wimp.LetterLabelGuestLost.slateRef>
+  <!-- EN: {SUBJECT_definite}, who you were charged to protect, has left the designated settlement. [failLetterEndingCommon] -->
+  <Intro_Wimp.LetterTextGuestLost.slateRef>{SUBJECT_definite} که موظف به محافظت از او بودید سکونتگاه را ترک کرده است. [failLetterEndingCommon]</Intro_Wimp.LetterTextGuestLost.slateRef>
+  <!-- EN: Guest lost: {SUBJECT_definite} -->
+  <Intro_Wimp.LetterLabelLodgerRanWild.slateRef>وحشی شدن مهمان: {SUBJECT_definite}</Intro_Wimp.LetterLabelLodgerRanWild.slateRef>
+  <!-- EN: {SUBJECT_definite}, who you were charged to protect, has run wild. [failLetterEndingCommon] -->
+  <Intro_Wimp.LetterTextLodgerRanWild.slateRef>{SUBJECT_definite} که موظف به حفاظت از او بودید وحشی شده است. [failLetterEndingCommon]</Intro_Wimp.LetterTextLodgerRanWild.slateRef>
+  <!-- EN: Shuttle destroyed -->
+  <Intro_Wimp.LetterLabelShuttleDestroyed.slateRef>شاتل نابود شد</Intro_Wimp.LetterLabelShuttleDestroyed.slateRef>
+  <!-- EN: The shuttle sent to collect [asker_nameDef] has been destroyed. [asker_pronoun] will now leave on foot. [failLetterEndingCommon] -->
+  <Intro_Wimp.LetterTextShuttleDestroyed.slateRef>شاتلی که برای بردن [asker_nameDef] فرستاده شده بود نابود شد. او اکنون پیاده خواهد رفت. [failLetterEndingCommon]</Intro_Wimp.LetterTextShuttleDestroyed.slateRef>
+  <!-- EN: Shuttle left behind -->
+  <Intro_Wimp.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.label.slateRef>شاتل جا ماند</Intro_Wimp.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.label.slateRef>
+  <!-- EN: The shuttle sent to collect [asker_nameDef] has been left behind. [asker_pronoun] will now leave on foot. -->
+  <Intro_Wimp.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.text.slateRef>شاتلی که برای بازگرداندن [asker_nameDef] اعزام شده بود جا مانده است. او اکنون پیاده می‌رود.</Intro_Wimp.root.nodes.pickupShipThingLeftBehind.node.nodes.Letter.text.slateRef>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <Intro_Wimp.LetterLabelQuestFailed.slateRef>مأموریت شکست خورد: [resolvedQuestName]</Intro_Wimp.LetterLabelQuestFailed.slateRef>
+  <!-- EN: The shuttle sent to collect [asker_nameDef] has departed without [asker_objective]. [asker_pronoun] will now leave on foot. [failLetterEndingCommon] -->
+  <Intro_Wimp.LetterTextQuestFailed.slateRef>شاتلی که برای بازگرداندن [asker_nameDef] آمده بود بدون او پرواز کرد. او اکنون پیاده حرکت خواهد کرد. [failLetterEndingCommon]</Intro_Wimp.LetterTextQuestFailed.slateRef>
+  
+</LanguageData>

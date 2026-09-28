@@ -1,0 +1,55 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# RimWorld, Visual Studio & C# Build Artifacts
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+.vs/
+*.sln.docstates
+TranslationReport.txt
+*.tar
+Temp/
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary & Log Files
+*.tmp
+*.temp
+*.log
+*.bak
+*.backup
+*.msg
+
+# Ignore other mods dropped in mods/
+/mods/*
+!/mods/RTL_Persian_Support/
+!/mods/Place mods here.txt
+

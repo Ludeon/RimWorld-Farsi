@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Armor - Blunt -->
+  <ArmorRating_Blunt.label>زره - بلانت</ArmorRating_Blunt.label>
+  <!-- EN: The protection given against blunt damage like fists, club impacts and rock falls.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor rating is then compared against a random number from 0 to 100.\n\n    - If the random number is under half the armor rating, the damage deflects harmlessly.\n    - If the random number is over half the armor rating, but not higher than the armor rating, the damage is reduced by half and changed to blunt.\n    - If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nEach layer of armor is applied separately, from the outside in. -->
+  <ArmorRating_Blunt.description>محافظت در برابر آسیب‌های بی‌پرده مانند مشت‌ها، ضربه‌های چماق و ریزش سنگ.\n\nدر هنگام آسیب، ابتدا این رتبه زره با مقدار نفوذ زره در حمله کاهش می‌یابد.\n\nسپس رده‌بندی زره باقی‌مانده با یک عدد تصادفی از 0 تا 100 مقایسه می‌شود.\n\n - اگر عدد تصادفی کمتر از نصف تعداد زره‌های غیر تصادفی باشد - اگر عدد تصادفی کمتر از نصف رده‌بندی زره بدون آسیب باشد. رتبه زره، اما نه بیشتر از رتبه زره، آسیب به نصف کاهش می‌یابد و به بلانت تغییر می‌کند.\n - اگر عدد تصادفی بیشتر از رتبه زره باشد، زره هیچ تاثیری ندارد.\n\nبه عنوان مثال، در 90 درصد امتیاز زره در برابر حمله با نفوذ 10 درصد زره، 40 درصد احتمال انحراف بدون آسیب و انحراف 4 حمله وجود دارد. آسیب.\n\nهر لایه زره به طور جداگانه از بیرون به داخل اعمال می شود.</ArmorRating_Blunt.description>
+  <!-- EN: Armor - Blunt (armor stat) -->
+  <ArmorRating_Blunt.labelForFullStatList>Armor - Blunt (آمار زره)</ArmorRating_Blunt.labelForFullStatList>
+  
+  <!-- EN: Armor - Heat -->
+  <ArmorRating_Heat.label>زره - گرما</ArmorRating_Heat.label>
+  <!-- EN: The protection given against temperature-related damage like burns.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor rating is then compared against a random number from 0 to 100.\n\n    - If the random number is under half the armor rating, the damage deflects harmlessly.\n    - If the random number is over half the armor rating, but not higher than the armor rating, the damage is reduced by half and changed to blunt.\n    - If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nEach layer of armor is applied separately, from the outside in. -->
+  <ArmorRating_Heat.description>محافظت در برابر آسیب‌های مربوط به دما مانند سوختگی ارائه می‌شود.\n\nدر صورت آسیب، ابتدا این رتبه زره با مقدار نفوذ زره در حمله کاهش می‌یابد.\n\nامتیاز زره باقی‌مانده سپس با یک عدد تصادفی از 0 تا 100 مقایسه می‌شود.\n\n - اگر عدد تصادفی کمتر از نصف رتبه‌بندی زره باشد، آسیب به نصف رده‌بندی زره منحرف می‌شود. بالاتر از رتبه زره، آسیب به نصف کاهش می‌یابد و به بلانت تغییر می‌کند.\n - اگر عدد تصادفی بیشتر از رتبه زره باشد، زره هیچ تأثیری ندارد.\n\nبه عنوان مثال، در رده‌بندی 90 درصد زره در برابر حمله با نفوذ 10 درصد زره، 40 درصد احتمال انحراف حمله بی‌ضرر وجود دارد، و احتمال انحراف بازو به‌طور بی‌ضرر وجود دارد. به طور جداگانه از بیرون به داخل اعمال می شود.</ArmorRating_Heat.description>
+  <!-- EN: Armor - Heat (armor stat) -->
+  <ArmorRating_Heat.labelForFullStatList>زره - گرما (آمار زره)</ArmorRating_Heat.labelForFullStatList>
+  
+  <!-- EN: Armor - Sharp -->
+  <ArmorRating_Sharp.label>زره - تیز</ArmorRating_Sharp.label>
+  <!-- EN: The protection given against sharp damage like bullets, knife stabs, explosions, and animal bites.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor rating is then compared against a random number from 0 to 100.\n\n    - If the random number is under half the armor rating, the damage deflects harmlessly.\n    - If the random number is over half the armor rating, but not higher than the armor rating, the damage is reduced by half and changed to blunt.\n    - If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nEach layer of armor is applied separately, from the outside in. -->
+  <ArmorRating_Sharp.description>محافظت در برابر صدمات تیز مانند گلوله، ضربه چاقو، انفجار و گاز گرفتن حیوانات.\n\nدر صورت آسیب، ابتدا این رتبه زره با مقدار نفوذ زره حمله کاهش می‌یابد.\n\nامتیاز زره باقی‌مانده سپس با عدد تصادفی از 0 تا 100 مقایسه می‌شود.\n\n - اگر رده‌بندی بازو بدون آسیب باشد، کمتر از نصف میزان آسیب است. عدد تصادفی بیش از نصف امتیاز زره است، اما بالاتر از رتبه زره نیست، آسیب به نصف کاهش می‌یابد و به بلانت تغییر می‌کند.\n - اگر عدد تصادفی بزرگ‌تر از رتبه زره باشد، زره هیچ تاثیری ندارد.\n\nبه عنوان مثال، در امتیاز 90 درصد زره در برابر حمله با نفوذ 10 درصد زره، 40 درصد احتمال حمله بدون آسیب و 0 درصد احتمال حمله وجود دارد. کاهش آسیب.\n\nهر لایه زره به طور جداگانه از بیرون به داخل اعمال می شود.</ArmorRating_Sharp.description>
+  <!-- EN: Armor - Sharp (armor stat) -->
+  <ArmorRating_Sharp.labelForFullStatList>Armor - Sharp (آمار زره)</ArmorRating_Sharp.labelForFullStatList>
+  
+  <!-- EN: Shield max energy -->
+  <EnergyShieldEnergyMax.label>محافظت از حداکثر انرژی</EnergyShieldEnergyMax.label>
+  <!-- EN: The maximum energy a shield can have at one time.\n\nMore energy absorbs more damage. -->
+  <EnergyShieldEnergyMax.description>حداکثر انرژی که یک سپر می تواند در یک زمان داشته باشد.\n\nانرژی بیشتر آسیب بیشتری را جذب می کند.</EnergyShieldEnergyMax.description>
+  
+  <!-- EN: Shield recharge rate -->
+  <EnergyShieldRechargeRate.label>نرخ شارژ مجدد سپر</EnergyShieldRechargeRate.label>
+  <!-- EN: The rate at which a shield gains energy as long as it is not broken. -->
+  <EnergyShieldRechargeRate.description>سرعتی که یک سپر تا زمانی که شکسته نشده باشد، انرژی می گیرد.</EnergyShieldRechargeRate.description>
+  <!-- EN: {0}/s -->
+  <EnergyShieldRechargeRate.formatString>{0}/s</EnergyShieldRechargeRate.formatString>
+  
+  <!-- EN: equip delay -->
+  <EquipDelay.label>تاخیر تجهیز</EquipDelay.label>
+  <!-- EN: The time it takes to equip and unequip this item. -->
+  <EquipDelay.description>زمان لازم برای تجهیز و عدم تجهیز این آیتم.</EquipDelay.description>
+  <!-- EN: {0} s -->
+  <EquipDelay.formatString>{0} s</EquipDelay.formatString>
+  
+  <!-- EN: Insulation - Cold -->
+  <Insulation_Cold.label>عایق - سرد</Insulation_Cold.label>
+  <!-- EN: How much this apparel improves a wearer's minimum comfortable temperature.\n\nGreater values allow surviving in colder temperatures. -->
+  <Insulation_Cold.description>چقدر این لباس حداقل دمای راحت پوشنده را بهبود می‌بخشد.\n\nمقادیر بالاتر امکان زنده ماندن در دماهای سردتر را فراهم می‌کند.</Insulation_Cold.description>
+  <!-- EN: Insulation - Cold (armor stat) -->
+  <Insulation_Cold.labelForFullStatList>عایق - سرما (آمار زرهی)</Insulation_Cold.labelForFullStatList>
+  
+  <!-- EN: Insulation - Heat -->
+  <Insulation_Heat.label>عایق - گرما</Insulation_Heat.label>
+  <!-- EN: How much this apparel improves a wearer's maximum comfortable temperature.\n\nGreater values allow surviving in warmer temperatures. -->
+  <Insulation_Heat.description>چقدر این لباس حداکثر دمای راحت پوشنده را بهبود می‌بخشد.\n\nمقادیر بالاتر امکان زنده ماندن در دماهای گرم‌تر را فراهم می‌کند.</Insulation_Heat.description>
+  <!-- EN: Insulation - Heat (armor stat) -->
+  <Insulation_Heat.labelForFullStatList>عایق - گرما (آمار زرهی)</Insulation_Heat.labelForFullStatList>
+  
+  <!-- EN: Effect radius -->
+  <PackRadius.label>شعاع اثر</PackRadius.label>
+  <!-- EN: The area affected when this pack detonates. -->
+  <PackRadius.description>منطقه تحت تاثیر قرار زمانی که این بسته منفجر می شود.</PackRadius.description>
+  <!-- EN: {0} c -->
+  <PackRadius.formatString>{0} c</PackRadius.formatString>
+  
+  <!-- EN: Armor - Material effect multiplier -->
+  <StuffEffectMultiplierArmor.label>زره - ضرب کننده اثر مواد</StuffEffectMultiplierArmor.label>
+  
+  <!-- EN: Insulation - Cold - Material effect multiplier -->
+  <StuffEffectMultiplierInsulation_Cold.label>عایق - سرما - افزایش اثر مواد</StuffEffectMultiplierInsulation_Cold.label>
+  
+  <!-- EN: Insulation - Heat - Material effect multiplier -->
+  <StuffEffectMultiplierInsulation_Heat.label>عایق - گرما - افزایش اثر مواد</StuffEffectMultiplierInsulation_Heat.label>
+  
+</LanguageData>

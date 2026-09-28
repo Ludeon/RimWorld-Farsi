@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: anesthetic -->
+  <Anesthetic.label>بیهوشی</Anesthetic.label>
+  <!-- EN: Sleep drugs in the bloodstream. Anesthetic renders creatures unconscious. -->
+  <Anesthetic.description>داروهای خواب آور در جریان خون داروی بیهوشی موجودات را بیهوش می کند.</Anesthetic.description>
+  <!-- EN: wearing off -->
+  <Anesthetic.stages.wearing_off.label>فرسوده شدن</Anesthetic.stages.wearing_off.label>
+  <!-- EN: woozy -->
+  <Anesthetic.stages.woozy.label>بی حال</Anesthetic.stages.woozy.label>
+  <!-- EN: sedated -->
+  <Anesthetic.stages.sedated.label>آرام بخش</Anesthetic.stages.sedated.label>
+  
+  <!-- EN: blood loss -->
+  <BloodLoss.label>از دست دادن خون</BloodLoss.label>
+  <!-- EN: A reduction in the normal blood volume. Minor blood loss has relatively mild effects, but when blood loss becomes severe, oxygen transport becomes badly impaired and the victim loses the ability to move. Extreme blood loss leads to death.\n\nBlood loss naturally recovers over time as the body slowly regenerates its blood supply. -->
+  <BloodLoss.description>کاهش حجم طبیعی خون از دست دادن خون جزئی اثرات نسبتاً خفیفی دارد، اما وقتی از دست دادن خون شدید می شود، انتقال اکسیژن به شدت مختل می شود و قربانی توانایی حرکت را از دست می دهد. از دست دادن خون شدید منجر به مرگ می شود.\n\nاز دست دادن خون به طور طبیعی در طول زمان بهبود می یابد زیرا بدن به آرامی منبع خون خود را بازسازی می کند.</BloodLoss.description>
+  <!-- EN: minor -->
+  <BloodLoss.stages.minor-0.label>جزئی</BloodLoss.stages.minor-0.label>
+  <!-- EN: minor -->
+  <BloodLoss.stages.minor-1.label>جزئی</BloodLoss.stages.minor-1.label>
+  <!-- EN: moderate -->
+  <BloodLoss.stages.moderate.label>متوسط</BloodLoss.stages.moderate.label>
+  <!-- EN: severe -->
+  <BloodLoss.stages.severe.label>شدید</BloodLoss.stages.severe.label>
+  <!-- EN: extreme -->
+  <BloodLoss.stages.extreme.label>افراطی</BloodLoss.stages.extreme.label>
+  
+  <!-- EN: brain shock -->
+  <BrainShock.label>شوک مغزی</BrainShock.label>
+  <!-- EN: After-effects of an electrical shock to the brain. This is generally cause by feedback from brain implants hit by EMP pulses. -->
+  <BrainShock.description>اثرات پس از شوک الکتریکی به مغز. این به طور کلی ناشی از بازخورد از ایمپلنت های مغزی است که با پالس های EMP برخورد می کنند.</BrainShock.description>
+  <!-- EN: a brain shock -->
+  <BrainShock.labelNoun>یک شوک مغزی</BrainShock.labelNoun>
+  
+  <!-- EN: catatonic breakdown -->
+  <CatatonicBreakdown.label>شکست کاتاتونیک</CatatonicBreakdown.label>
+  <!-- EN: A state of mental shock which leads to a total inability to function. The victim collapses, effectively unconscious. -->
+  <CatatonicBreakdown.description>یک حالت شوک روانی که منجر به ناتوانی کامل در عملکرد می شود. قربانی سقوط می کند، عملاً بیهوش است.</CatatonicBreakdown.description>
+  <!-- EN: a catatonic breakdown -->
+  <CatatonicBreakdown.labelNoun>یک شکست کاتاتونیک</CatatonicBreakdown.labelNoun>
+  
+  <!-- EN: covered in firefoam -->
+  <CoveredInFirefoam.label>پوشیده از فوم آتش</CoveredInFirefoam.label>
+  <!-- EN: Covered in a fire-retardant foam. -->
+  <CoveredInFirefoam.description>پوشیده شده در یک فوم ضد حریق.</CoveredInFirefoam.description>
+  
+  <!-- EN: cryptosleep sickness -->
+  <CryptosleepSickness.label>بیماری cryptosleep</CryptosleepSickness.label>
+  <!-- EN: After-effects of using a cryptosleep pod. Cryptosleep suspends and replaces many bodily functions in order to prevent aging and death. Upon exiting cryptosleep, the body takes time to restart and rebalance its natural metabolic processes. While this is ongoing, the patient suffers from nausea, dizziness, and a sense of fuzziness in the mind. -->
+  <CryptosleepSickness.description>اثرات پس از استفاده از غلاف کریپتو اسلیپ. Cryptosleep بسیاری از عملکردهای بدن را به حالت تعلیق در می آورد و جایگزین می کند تا از پیری و مرگ جلوگیری کند. پس از خروج از خواب کریپتو، بدن زمان می‌برد تا فرآیندهای متابولیک طبیعی خود را مجدداً شروع کرده و متعادل کند. در حالی که این کار ادامه دارد، بیمار از حالت تهوع، سرگیجه و احساس تیرگی در ذهن رنج می برد.</CryptosleepSickness.description>
+  <!-- EN: After-effects of using a cryptosleep pod including dizziness, nausea, and vomiting. -->
+  <CryptosleepSickness.descriptionShort>عوارض جانبی استفاده از غلاف خواب کریپتو شامل سرگیجه، تهوع و استفراغ.</CryptosleepSickness.descriptionShort>
+  
+  <!-- EN: drug overdose -->
+  <DrugOverdose.label>مصرف بیش از حد دارو</DrugOverdose.label>
+  <!-- EN: Generalized toxic effects due to over-concentration of drugs in the bloodstream. -->
+  <DrugOverdose.description>اثرات سمی عمومی به دلیل تمرکز بیش از حد داروها در جریان خون.</DrugOverdose.description>
+  <!-- EN: Overdose: {0} -->
+  <DrugOverdose.comps.HediffComp_Discoverable.discoverLetterLabel>مصرف بیش از حد: {0}</DrugOverdose.comps.HediffComp_Discoverable.discoverLetterLabel>
+  <!-- EN: {0} is overdosing! -->
+  <DrugOverdose.comps.HediffComp_Discoverable.discoverLetterText>{0} بیش از حد مصرف می کند!</DrugOverdose.comps.HediffComp_Discoverable.discoverLetterText>
+  <!-- EN: a drug overdose -->
+  <DrugOverdose.labelNoun>مصرف بیش از حد دارو</DrugOverdose.labelNoun>
+  <!-- EN: minor -->
+  <DrugOverdose.stages.minor-0.label>جزئی</DrugOverdose.stages.minor-0.label>
+  <!-- EN: minor -->
+  <DrugOverdose.stages.minor-1.label>جزئی</DrugOverdose.stages.minor-1.label>
+  <!-- EN: major -->
+  <DrugOverdose.stages.major.label>اصلی</DrugOverdose.stages.major.label>
+  
+  <!-- EN: food poisoning -->
+  <FoodPoisoning.label>مسمومیت غذایی</FoodPoisoning.label>
+  <!-- EN: Gastrointestinal illness caused by consuming decayed or unclean food. It can be caused by eating rotten food, by incompetent cooks accidentally poisoning meals, or by eating from unsafe wild sources. The patient will vomit and feel sick for some time. -->
+  <FoodPoisoning.description>بیماری های گوارشی ناشی از مصرف مواد غذایی فاسد یا ناپاک. این می تواند در اثر خوردن غذای فاسد، مسموم کردن تصادفی غذا توسط آشپزهای ناکارآمد، یا خوردن از منابع وحشی ناامن ایجاد شود. بیمار برای مدتی استفراغ می کند و احساس بیماری می کند.</FoodPoisoning.description>
+  <!-- EN: recovering -->
+  <FoodPoisoning.stages.recovering.label>در حال بهبودی</FoodPoisoning.stages.recovering.label>
+  <!-- EN: major -->
+  <FoodPoisoning.stages.major.label>اصلی</FoodPoisoning.stages.major.label>
+  <!-- EN: initial -->
+  <FoodPoisoning.stages.initial.label>اولیه</FoodPoisoning.stages.initial.label>
+  
+  <!-- EN: heart attack -->
+  <HeartAttack.label>حمله قلبی</HeartAttack.label>
+  <!-- EN: A disruption in the heart's normal beating rhythm. Heart attacks can be debilitatingly painful. They can worsen and lead to death, or recover. -->
+  <HeartAttack.description>اختلال در ریتم طبیعی ضربان قلب. حملات قلبی می تواند به طرز ناتوان کننده‌ای دردناک باشد. آنها می توانند بدتر شوند و منجر به مرگ یا بهبودی شوند.</HeartAttack.description>
+  <!-- EN: a heart attack -->
+  <HeartAttack.labelNoun>یک حمله قلبی</HeartAttack.labelNoun>
+  <!-- EN: painful -->
+  <HeartAttack.stages.painful.label>دردناک</HeartAttack.stages.painful.label>
+  <!-- EN: debilitating -->
+  <HeartAttack.stages.debilitating.label>ناتوان کننده</HeartAttack.stages.debilitating.label>
+  <!-- EN: fatal -->
+  <HeartAttack.stages.fatal.label>کشنده</HeartAttack.stages.fatal.label>
+  
+  <!-- EN: pregnant -->
+  <Pregnant.label>حامله</Pregnant.label>
+  <!-- EN: This creature is gestating offspring. It will give birth if the pregnancy comes to term. If starved or injured, there may be a miscarriage. -->
+  <Pregnant.description>این موجود در حال بارداری است. اگر بارداری به پایان برسد، زایمان می کند. در صورت گرسنگی یا زخمی شدن، ممکن است سقط جنین رخ دهد.</Pregnant.description>
+  <!-- EN: {0} is pregnant! -->
+  <Pregnant.comps.HediffComp_MessageAfterTicks.message>{0} باردار است!</Pregnant.comps.HediffComp_MessageAfterTicks.message>
+  <!-- EN: pregnancy -->
+  <Pregnant.labelNoun>بارداری</Pregnant.labelNoun>
+  <!-- EN: early-stage -->
+  <Pregnant.stages.earlystage.label>مرحله اولیه</Pregnant.stages.earlystage.label>
+  <!-- EN: middle-stage -->
+  <Pregnant.stages.middlestage.label>مرحله میانی</Pregnant.stages.middlestage.label>
+  <!-- EN: late-stage -->
+  <Pregnant.stages.latestage.label>مرحله آخر</Pregnant.stages.latestage.label>
+  
+  <!-- EN: psychic coma -->
+  <PsychicComa.label>کمای روانی</PsychicComa.label>
+  <!-- EN: A form of benign coma during which the brain recovers from a psychic overload. -->
+  <PsychicComa.description>شکلی از کمای خوش خیم که در طی آن مغز از یک بار اضافی روانی بهبود می یابد.</PsychicComa.description>
+  <!-- EN: a psychic coma -->
+  <PsychicComa.labelNoun>یک کمای روانی</PsychicComa.labelNoun>
+  
+  <!-- EN: psychic hangover -->
+  <PsychicHangover.label>خماری روانی</PsychicHangover.label>
+  <!-- EN: An after-effect of neural heat. Psychic hangover is bothersome, but not dangerous. -->
+  <PsychicHangover.description>اثر پس از گرمای عصبی خماری روانی آزاردهنده است، اما خطرناک نیست.</PsychicHangover.description>
+  <!-- EN: a psychic hangover -->
+  <PsychicHangover.labelNoun>یک خماری روانی</PsychicHangover.labelNoun>
+  <!-- EN: forming -->
+  <PsychicHangover.stages.forming.label>تشکیل</PsychicHangover.stages.forming.label>
+  <!-- EN: buzzing -->
+  <PsychicHangover.stages.buzzing.label>وزوز</PsychicHangover.stages.buzzing.label>
+  
+  <!-- EN: psychic invisibility -->
+  <PsychicInvisibility.label>نامرئی روانی</PsychicInvisibility.label>
+  <!-- EN: Psychically-induced invisibility. This actually affects others nearby, making their brains unable to perceive the sight of this individual, even if the eyes are unaffected. -->
+  <PsychicInvisibility.description>نامرئی بودن ناشی از روانی این در واقع بر دیگران نزدیک تأثیر می گذارد و باعث می شود مغز آنها نتواند دید این فرد را درک کند، حتی اگر چشم‌ها تحت تأثیر قرار نگیرند.</PsychicInvisibility.description>
+  
+  <!-- EN: psychic shock -->
+  <PsychicShock.label>شوک روانی</PsychicShock.label>
+  <!-- EN: A state of psychic chaos in the brain and mind. Caused by psychic attacks or critical level of neural heat, this effect is debilitating until it wears off. -->
+  <PsychicShock.description>حالتی از هرج و مرج روانی در مغز و ذهن. این اثر که در اثر حملات روانی یا سطح بحرانی گرمای عصبی ایجاد می شود، تا زمانی که از بین برود، ناتوان کننده است.</PsychicShock.description>
+  <!-- EN: a psychic shock -->
+  <PsychicShock.labelNoun>یک شوک روانی</PsychicShock.labelNoun>
+  
+  <!-- EN: resurrection sickness -->
+  <ResurrectionSickness.label>بیماری رستاخیز</ResurrectionSickness.label>
+  <!-- EN: After-effects of resurrection. Artificially-restarted body processes take time to rebalance themselves. -->
+  <ResurrectionSickness.description>آثار پس از قیامت فرآیندهای بدن که به طور مصنوعی از نو شروع می شوند، زمان می برد تا تعادل خود را دوباره برقرار کنند.</ResurrectionSickness.description>
+  
+  <!-- EN: toxic buildup -->
+  <ToxicBuildup.label>تجمع سمی</ToxicBuildup.label>
+  <!-- EN: Poison in the bloodstream. This can come from various sources, including environmental toxins, venomous bites, or poisoned weapons.\n\nAt high doses, toxic buildup is lethal. Even at low doses, it can generate cancers.\n\nIf a creature dies with toxic buildup, there's a chance that they cannot be eaten. The higher the toxic buildup, the higher the chance. -->
+  <ToxicBuildup.description>سم در جریان خون این می تواند از منابع مختلفی، از جمله سموم محیطی، نیش های سمی، یا سلاح های مسموم ناشی شود.\n\nدر دوزهای بالا، تجمع سم کشنده است. حتی در دوزهای کم، می تواند سرطان ایجاد کند.\n\nاگر موجودی با تجمع سمی بمیرد، این احتمال وجود دارد که نتوان آن را خورد. هرچه تجمع سمی بیشتر باشد، شانس بیشتری دارد.</ToxicBuildup.description>
+  <!-- EN: {PAWN_nameDef} is showing early signs of toxic buildup. Keep {PAWN_objective} away from sources of toxins. -->
+  <ToxicBuildup.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef} علائم اولیه تجمع سمی را نشان می دهد. {PAWN_objective} را از منابع سموم دور نگه دارید.</ToxicBuildup.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <!-- EN: initial -->
+  <ToxicBuildup.stages.initial-0.label>اولیه</ToxicBuildup.stages.initial-0.label>
+  <!-- EN: initial -->
+  <ToxicBuildup.stages.initial-1.label>اولیه</ToxicBuildup.stages.initial-1.label>
+  <!-- EN: minor -->
+  <ToxicBuildup.stages.minor.label>جزئی</ToxicBuildup.stages.minor.label>
+  <!-- EN: moderate -->
+  <ToxicBuildup.stages.moderate.label>متوسط</ToxicBuildup.stages.moderate.label>
+  <!-- EN: serious -->
+  <ToxicBuildup.stages.serious.label>جدی</ToxicBuildup.stages.serious.label>
+  <!-- EN: extreme -->
+  <ToxicBuildup.stages.extreme.label>افراطی</ToxicBuildup.stages.extreme.label>
+  
+</LanguageData>

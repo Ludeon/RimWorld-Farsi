@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: chopped anima stump -->
+  <ChoppedStump_Anima.label>کنده آنیما خرد شده</ChoppedStump_Anima.label>
+  <!-- EN: A stump left behind after an anima tree has been felled. The stump can be extracted but yields very little usable wood. Left outdoors, the stump will deteriorate in time. -->
+  <ChoppedStump_Anima.description>کنده‌ای که پس از قطع شدن درخت آنیما باقی مانده است. کنده را می توان استخراج کرد اما چوب قابل استفاده بسیار کمی تولید می کند. اگر در خارج از منزل رها شود، کنده به مرور زمان خراب می شود.</ChoppedStump_Anima.description>
+  
+  <!-- EN: anima grass -->
+  <Plant_GrassAnima.label>آنیما گراس</Plant_GrassAnima.label>
+  <!-- EN: A grass infused with luminous microorganisms. Tribal peoples find that anima grass grows around the base of an anima tree as they meditate. It seems to reflect some kind of strengthening of the tree's psychic power.\n\nOffworld scientists have tried to study the phenomenon, but the grass degenerates into normal plant matter when observed too closely.\n\nAnimals refuse eat anima grass. Tribal stories say this is done out of respect and fear. -->
+  <Plant_GrassAnima.description>چمنی پر از میکروارگانیسم های درخشان. افراد قبیله‌ای در حین مدیتیشن متوجه می شوند که علف آنیما در اطراف پایه درخت آنیما رشد می کند. به نظر می رسد که نوعی تقویت قدرت روانی درخت را منعکس می کند.\n\nدانشمندان خارج از جهان تلاش کرده اند این پدیده را مطالعه کنند، اما علف با مشاهده بیش از حد دقیق به مواد گیاهی طبیعی تبدیل می شود.\n\nحیوانات از خوردن علف آنیما خودداری می کنند. داستان های قبیله‌ای می گویند که این کار از روی احترام و ترس انجام می شود.</Plant_GrassAnima.description>
+  
+  <!-- EN: anima tree -->
+  <Plant_TreeAnima.label>درخت آنیما</Plant_TreeAnima.label>
+  <!-- EN: A rare tree with warm, skin-smooth bark and long iridescent leaves. Infused with bioluminescent micro-organisms, anima trees develop a unique form of psychic symbiosis with surrounding lifeforms, allowing them to grow in a wide variety of biomes.\n\nIf a person (psycaster or not) meditates near an anima tree, it will grow anima grass around its base. Once enough grass is grown, it becomes possible to carry out a psychic linking ritual with the tree and upgrade a person's psychic powers. Only tribal peoples know the secret of this ritual. Tribal psycasters are also able to draw psyfocus from anima trees while meditating to them.\n\nAnima trees' psychic properties are weakened if artificial structures are placed nearby. They refuse to be caged or studied, and must remain part of nature.\n\nMost tribes believe that anima trees are not simply trees, but are rather the physical extremities of a single world spirit. -->
+  <Plant_TreeAnima.description>درختی کمیاب با پوست گرم و صاف مانند پوست و برگ‌های رنگین کمانی دراز. درختان آنیما که با میکروارگانیسم‌های بیولومینسانس آمیخته شده‌اند، شکل منحصربه‌فردی از همزیستی روانی با شکل‌های زندگی اطراف ایجاد می‌کنند، که به آن‌ها اجازه می‌دهد در طیف گسترده‌ای از بیوم‌ها رشد کنند.\n\nاگر فردی (روان‌کاستر یا نه) در نزدیکی درخت آنیما مدیتیشن کند، علف‌های آنیما در اطراف پایه آن رشد می‌کند. هنگامی که چمن به اندازه کافی رشد کرد، می توان یک آیین پیوند روانی را با درخت انجام داد و قدرت روانی فرد را ارتقا داد. راز این آیین را فقط مردم قبیله می دانند. روان‌سازان قبیله‌ای همچنین می‌توانند در حین مدیتیشن به درختان آنیما، فوکوس روانی بکشند.\n\nاگر ساختارهای مصنوعی در نزدیکی آن قرار گیرند، ویژگی‌های روانی درختان آنیما ضعیف می‌شود. آنها از قرار گرفتن در قفس یا مطالعه امتناع می ورزند و باید بخشی از طبیعت باقی بمانند.\n\nبیشتر قبایل معتقدند که درختان آنیما فقط درخت نیستند، بلکه انتهای فیزیکی یک روح جهانی واحد هستند.</Plant_TreeAnima.description>
+  <!-- EN: About: Anima tree linking -->
+  <Plant_TreeAnima.comps.CompPsylinkable.enoughPlantsLetterLabel>درباره: پیوند درخت Anima</Plant_TreeAnima.comps.CompPsylinkable.enoughPlantsLetterLabel>
+  <!-- EN: The anima tree now has {0} anima grass around it. This is enough for a tribal person to begin their first linking ritual!\n\nThe linking ritual gives a level of psylink and the ability to use psychic powers. Upgrading to a higher level requires 20 grass.\n\nThe anima grass requirements for linking rituals to upgrade psycasters are:\n\n{1}\n\nNote: Only those with the nature focus type can meditate to or link with anima trees. You can see a person's focus types by looking at their info card with the 'i' button. -->
+  <Plant_TreeAnima.comps.CompPsylinkable.enoughPlantsLetterText>درخت انیما اکنون دارای چمن انیما {0} در اطراف خود است. این برای یک فرد قبیله‌ای کافی است تا اولین مراسم پیوند خود را آغاز کند!\n\nآیین پیوند دادن سطحی از پیوند روانی و توانایی استفاده از قدرت های روانی را می دهد. ارتقاء به سطح بالاتر به 20 چمن نیاز دارد.\n\nشرایط انیما گراس برای پیوند دادن آیین‌ها به ارتقای سایکاسترها عبارتند از:\n\n{1}\n\nتوجه: فقط کسانی که از نوع تمرکز طبیعت هستند می‌توانند به درختان انیما مدیتیشن یا پیوند برقرار کنند. می‌توانید انواع فوکوس افراد را با نگاه کردن به کارت اطلاعات با دکمه «i» ببینید.</Plant_TreeAnima.comps.CompPsylinkable.enoughPlantsLetterText>
+  <!-- EN: The anima tree has died and emitted a disturbing psychic scream. -->
+  <Plant_TreeAnima.comps.CompGiveThoughtToAllMapPawnsOnDestroy.message>درخت آنیما مرده و فریاد روحی آزاردهنده‌ای از خود منتشر کرده است.</Plant_TreeAnima.comps.CompGiveThoughtToAllMapPawnsOnDestroy.message>
+  
+  <!-- EN: smashed anima stump -->
+  <SmashedStump_Anima.label>کنده انیما شکست</SmashedStump_Anima.label>
+  <!-- EN: The remnants of an anima tree destroyed by damage. It's ugly. The stump can be extracted but yields very little usable wood. Left outdoors, the stump will deteriorate in time. -->
+  <SmashedStump_Anima.description>بقایای یک درخت آنیما در اثر آسیب از بین رفت. زشت است. کنده را می توان استخراج کرد اما چوب قابل استفاده بسیار کمی تولید می کند. اگر در خارج از منزل رها شود، کنده به مرور زمان خراب می شود.</SmashedStump_Anima.description>
+  
+</LanguageData>

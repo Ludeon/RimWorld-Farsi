@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>sanguophagesArriveLetterLabel->Sanguophages arrived</li>
+    <li>sanguophagesArriveLetterText->The [sanguophageCount] sanguophages are arriving at [map_definite] from different directions. They will meet and carry out their discussion in the colony.</li>
+    <li>successLetterLabel->Meeting complete</li>
+    <li>successLetterText->The sanguophages have completed their meeting and will now give you your reward.</li>
+    <li>raidArrivedLetterLabel->Sanguophage hunters</li>
+    <li>raidArrivedLetterText->A group of sanguophage hunters from [enemyFaction_name] are approaching!\n\nThey will attack the meeting sanguophages as well as those who hosted them.</li>
+  -->
+  <SanguophageMeetingHost.questContentRules.rulesStrings>
+    <li>sanguophagesArriveLetterLabel->سانگووفاژها رسیدند</li>
+    <li>sanguophagesArriveLetterText->سانگووفاژهای [sanguophageCount] از جهات مختلف به [map_definite] می‌رسند. آنها ملاقات خواهند کرد و بحث خود را در کلنی انجام خواهند داد.</li>
+    <li>successLetterLabel->جلسه کامل شد</li>
+    <li>successLetterText->سانگووفاژها جلسه خود را کامل کرده اند و اکنون پاداش شما را خواهند داد.</li>
+    <li>raidArrivedLetterLabel->شکارچیان سنگوفاژ</li>
+    <li>raidArrivedLetterText->گروهی از شکارچیان سانگووفاژ از [enemyFaction_name] در حال نزدیک شدن هستند!\n\nآنها به سانگووفاژهای جلسه و همچنین کسانی که میزبان آنها بودند حمله خواهند کرد.</li>
+  </SanguophageMeetingHost.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription->A sanguophage named [asker_nameDef] is looking for a safe place to meet with [sanguophageCountMinusOne] other [sanguophageSingOrPlural] where they won't be tracked. Their leader [asker_nameDef] is asking for you to host the meeting at [map_definite].\n\nIf you accept, [sanguophageCount] sanguophages will arrive at [map_definite] from different directions. They will spend several hours discussing their own secret issues before departing. They promise to give you your reward before they leave.\n\nYou may betray the sanguophages and attack them. Downed sanguophages can be forced to turn one of your own colonists into a sanguophage.\n\n[sanguophageInfo]</li>
+    <li>sanguophageSingOrPlural(sanguophageCountMinusOne==1)->sanguophage</li>
+    <li>sanguophageSingOrPlural(sanguophageCountMinusOne>=2)->sanguophages</li>
+    <li>sanguophageInfo->(*Gray)About sanguophages: Sanguophages are ageless, deathless super-humans powered by archotech-created archites in the bloodstream. They are beautiful and extremely intelligent. They can heal any injury, and never suffer from disease or poison. In combat, they can launch deadly spines and heal injured friends. The price is that sanguophages must consume hemogen derived from human blood to survive, and they must periodically deathrest for long periods. They're easily destroyed by fire, and slowed down by UV light.(/Gray)</li>
+  -->
+  <SanguophageMeetingHost.questDescriptionRules.rulesStrings>
+    <li>questDescription->یک سانگووفاژ به نام [asker_nameDef] به دنبال مکانی امن برای ملاقات با [sanguophageCountMinusOne] دیگر [sanguophageSingOrPlural] است که در آن ردیابی نشوند. رهبر آنها [asker_nameDef] از شما می‌خواهد که میزبان جلسه در [map_definite] باشید.\n\nاگر قبول کنید، سانگووفاژهای [sanguophageCount] از جهات مختلف به [map_definite] می‌رسند. آنها قبل از عزیمت چندین ساعت را صرف بحث در مورد مسائل مخفی خود می کنند. آنها قول می دهند قبل از رفتن به شما پاداش بدهند.\n\nشما ممکن است به سنگوفاژها خیانت کنید و به آنها حمله کنید. سانگووفاژهای ساقط شده می توانند مجبور شوند یکی از مستعمره نشینان خود را به سانگووفاژ تبدیل کنند.\n\n[sanguophageInfo]</li>
+    <li>sanguophageSingOrPlural(sanguophageCountMinusOne==1)->سانگووفاژ</li>
+    <li>sanguophageSingOrPlural(sanguophageCountMinusOne>=2)->سانگووفاژ</li>
+    <li>sanguophageInfo->(*Gray)درباره سانگووفاژها: سانگووفاژها ابرانسانهای بی پیر و بی مرگی هستند که توسط آرشیت های ایجاد شده توسط آرکوتک در جریان خون نیرو می گیرند. آنها زیبا و فوق العاده باهوش هستند. آنها می توانند هر جراحتی را التیام بخشند و هرگز از بیماری یا سم رنج نمی برند. در نبرد، آنها می توانند خارهای مرگبار را پرتاب کنند و دوستان مجروح را شفا دهند. قیمت این است که سانگووفاژها برای زنده ماندن باید هموژن مشتق شده از خون انسان را مصرف کنند و باید به طور دوره‌ای برای مدت طولانی در حالت استراحت باشند. آنها به راحتی توسط آتش از بین می روند، و با نور UV کند می شوند.(/Gray)</li>
+  </SanguophageMeetingHost.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[meetAdjective] [meetNoun]</li>
+    <li>meetAdjective->sanguophage</li>
+    <li>meetAdjective->bloodthirsty</li>
+    <li>meetAdjective->blood</li>
+    <li>meetAdjective->shadow</li>
+    <li>meetAdjective->dark</li>
+    <li>meetAdjective->crimson</li>
+    <li>meetAdjective->red</li>
+    <li>meetAdjective->scab</li>
+    <li>meetAdjective->hemic</li>
+    <li>meetAdjective->sanguine</li>
+    <li>meetNoun->meeting</li>
+    <li>meetNoun->host</li>
+    <li>meetNoun->gathering</li>
+    <li>meetNoun->reunion</li>
+    <li>meetNoun->assembly</li>
+    <li>meetNoun->conclave</li>
+    <li>meetNoun->congress</li>
+    <li>meetNoun->parley</li>
+  -->
+  <SanguophageMeetingHost.questNameRules.rulesStrings>
+    <li>questName->[meetAdjective] [meetNoun]</li>
+    <li>meetAdjective->سانگووفاژ</li>
+    <li>meetAdjective->تشنه به خون</li>
+    <li>meetAdjective->خون</li>
+    <li>meetAdjective->سایه</li>
+    <li>meetAdjective->تاریک</li>
+    <li>meetAdjective->زرشکی</li>
+    <li>meetAdjective->قرمز</li>
+    <li>meetAdjective->دلمه</li>
+    <li>meetAdjective->همیک</li>
+    <li>meetAdjective->سانگوئن</li>
+    <li>meetNoun->جلسه</li>
+    <li>meetNoun->میزبان</li>
+    <li>meetNoun->جمع آوری</li>
+    <li>meetNoun->اتحاد مجدد</li>
+    <li>meetNoun->مونتاژ</li>
+    <li>meetNoun->کنفرانس</li>
+    <li>meetNoun->کنگره</li>
+    <li>meetNoun->گفتگو</li>
+  </SanguophageMeetingHost.questNameRules.rulesStrings>
+  
+</LanguageData>

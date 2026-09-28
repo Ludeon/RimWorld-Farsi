@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: gravship crew -->
+  <GravshipCrew.label>خدمه کشتی</GravshipCrew.label>
+  <!-- EN: The crew of a gravship. -->
+  <GravshipCrew.description>خدمه کشتی قبر</GravshipCrew.description>
+  <!-- EN: leader -->
+  <GravshipCrew.leaderTitle>رهبر</GravshipCrew.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <GravshipCrew.messageDefendersAttacking>{0} از {1} به {2} شما حمله می کند.</GravshipCrew.messageDefendersAttacking>
+  <!-- EN: colonist -->
+  <GravshipCrew.pawnSingular>استعمارگر</GravshipCrew.pawnSingular>
+  <!-- EN: colonists -->
+  <GravshipCrew.pawnsPlural>استعمارگران</GravshipCrew.pawnsPlural>
+  
+</LanguageData>

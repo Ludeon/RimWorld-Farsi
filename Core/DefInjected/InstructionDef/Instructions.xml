@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Great!\n\nReorder and randomize more if you want - but don't try to get the perfect characters. Everyone has flaws, and it makes the story more interesting!\n\nYou can also re-name the characters by clicking on their names.\n\nClick START when you're ready. -->
+  <AcceptStartingPawns.text>عالی است!\n\nاگر می‌خواهید تعداد بیشتری را مرتب کنید و تصادفی کنید - اما سعی نکنید شخصیت‌های عالی را بدست آورید. همه ایراداتی دارند و داستان را جالب‌تر می‌کند!\n\nهمچنین می‌توانید با کلیک کردن روی نام شخصیت‌ها نام آنها را تغییر دهید.\n\nوقتی آماده شدید روی START کلیک کنید.</AcceptStartingPawns.text>
+  
+  <!-- EN: Select this -->
+  <AddBillSimpleMeal.onMapInstruction>این را انتخاب کنید</AddBillSimpleMeal.onMapInstruction>
+  <!-- EN: Please add a bill to cook simple meals at your cook stove. -->
+  <AddBillSimpleMeal.rejectInputMessage>لطفاً یک صورتحساب برای طبخ غذاهای ساده در اجاق گاز خود اضافه کنید.</AddBillSimpleMeal.rejectInputMessage>
+  <!-- EN: Colonists need to be told what to cook.\n\nCooking orders are added on the stove itself. Once a bill has been created, colonists will do the work automatically.\n\n1. Wait for the stove to be built.\n2. Click the stove to select it.\n3. Open the BILLS tab.\n4. Click ADD BILL.\n5. Select COOK SIMPLE MEAL on the context menu.\n6. Click the + button to increase the count to 10.\n\nRemember, you can speed up time if building is taking too long.\n\nYou can also select a colonist and right-click the stove to prioritize building it. -->
+  <AddBillSimpleMeal.text>باید به ساکنان مستعمره گفته شود که چه چیزی بپزند.\n\nسفارشات آشپزی روی خود اجاق گاز اضافه می شود. پس از ایجاد صورت‌حساب، مستعمره‌نشینان کار را به‌طور خودکار انجام می‌دهند.\n\n1. منتظر بمانید تا اجاق گاز ساخته شود.\n2. روی اجاق گاز کلیک کنید تا آن را انتخاب کنید.\n3. برگه BILLS را باز کنید.\n4. روی افزودن صورتحساب کلیک کنید.\n5. در منوی زمینه، COOK SIMPLE MEAL را انتخاب کنید.\n6. برای افزایش تعداد به 10، روی دکمه + کلیک کنید.\n\nبه یاد داشته باشید، اگر ساخت و ساز خیلی طول کشید، می‌توانید زمان را افزایش دهید.\n\nهمچنین می‌توانید یک مستعمره‌کننده را انتخاب کنید و روی اجاق کلیک راست کنید تا ساخت آن را در اولویت قرار دهید.</AddBillSimpleMeal.text>
+  <!-- EN: Colonists need to be told what to cook.\n\nCooking orders are added on the stove itself. Once a bill has been created, colonists will do the work automatically.\n\n1. Wait for the stove to be built.\n2. Click the stove to select it.\n3. Open the BILLS tab.\n4. Click ADD BILL.\n5. Select COOK SIMPLE MEAL on the context menu.\n6. Click the + button to increase the count to 10.\n\nRemember, you can speed up time if building is taking too long.\n\nYou can also select a colonist and press left trigger button on the stove to prioritize building it. -->
+  <AddBillSimpleMeal.textController>باید به ساکنان مستعمره گفته شود که چه چیزی بپزند.\n\nسفارشات آشپزی روی خود اجاق گاز اضافه می شود. پس از ایجاد صورت‌حساب، مستعمره‌نشینان کار را به‌طور خودکار انجام می‌دهند.\n\n1. منتظر بمانید تا اجاق گاز ساخته شود.\n2. روی اجاق گاز کلیک کنید تا آن را انتخاب کنید.\n3. برگه BILLS را باز کنید.\n4. روی افزودن صورتحساب کلیک کنید.\n5. در منوی زمینه، COOK SIMPLE MEAL را انتخاب کنید.\n6. برای افزایش تعداد به 10، روی دکمه + کلیک کنید.\n\nبه خاطر داشته باشید، اگر ساخت و ساز خیلی طول بکشد، می‌توانید زمان را افزایش دهید.\n\nهمچنین می‌توانید یک مستعمره‌کننده را انتخاب کنید و دکمه ماشه سمت چپ را روی اجاق فشار دهید تا ساخت آن را در اولویت قرار دهید.</AddBillSimpleMeal.textController>
+  
+  <!-- EN: Build an animal sleeping spot\ninside the room -->
+  <BuildAnimalSleepingSpot.onMapInstruction>یک جای خواب حیوانات\در داخل اتاق بسازید</BuildAnimalSleepingSpot.onMapInstruction>
+  <!-- EN: Please place an animal sleeping spot inside the room. -->
+  <BuildAnimalSleepingSpot.rejectInputMessage>لطفا یک جای خواب حیوانات در داخل اتاق قرار دهید.</BuildAnimalSleepingSpot.rejectInputMessage>
+  <!-- EN: So your pet will sleep inside with you, place an ANIMAL SLEEPING SPOT inside the room.\n\nSleeping spots aren't real buildings - they're just spots on the ground designated for a sleeping. -->
+  <BuildAnimalSleepingSpot.text>بنابراین حیوان خانگی شما در داخل اتاق با شما خواهد خوابید، یک نقطه خواب حیوانات را در داخل اتاق قرار دهید.\n\nنقاط خواب ساختمان واقعی نیستند - آنها فقط نقاطی روی زمین هستند که برای خواب تعیین شده اند.</BuildAnimalSleepingSpot.text>
+  
+  <!-- EN: Build three beds inside the room -->
+  <BuildBeds.onMapInstruction>سه تخت در داخل اتاق بسازید</BuildBeds.onMapInstruction>
+  <!-- EN: Please build wooden beds inside the room. -->
+  <BuildBeds.rejectInputMessage>لطفا تخت های چوبی داخل اتاق بسازید.</BuildBeds.rejectInputMessage>
+  <!-- EN: Your colonists will now build the room!\n\nNow they need somewhere to sleep. Place three BEDS inside the room.\n\nFind them in the FURNITURE category.\n\nYou can use the {Key:Designator_RotateLeft} and {Key:Designator_RotateRight} keys to rotate the building. -->
+  <BuildBeds.text>ساکنان شما اکنون اتاق را خواهند ساخت!\n\nاکنون به جایی برای خواب نیاز دارند. سه تخت را در داخل اتاق قرار دهید.\n\nآنها را در دسته FURNITURE پیدا کنید.\n\nمی توانید از کلیدهای {Key:Designator_RotateLeft} و {Key:Designator_RotateRight} برای چرخاندن ساختمان استفاده کنید.</BuildBeds.text>
+  <!-- EN: Your colonists will now build the room!\n\nNow they need somewhere to sleep. Place three BEDS inside the room.\n\nFind them in the FURNITURE category.\n\nYou can rotate the building by pressing the rotate buttons on the left. -->
+  <BuildBeds.textController>ساکنان شما اکنون اتاق را خواهند ساخت!\n\nاکنون به جایی برای خواب نیاز دارند. سه تخت را در داخل اتاق قرار دهید.\n\nآنها را در دسته مبلمان پیدا کنید.\n\nمی توانید با فشار دادن دکمه های چرخش در سمت چپ، ساختمان را بچرخانید.</BuildBeds.textController>
+  
+  <!-- EN: Build a fueled stove inside the room -->
+  <BuildFueledStove.onMapInstruction>در داخل اتاق یک اجاق گاز بسازید</BuildFueledStove.onMapInstruction>
+  <!-- EN: Please build the fueled stove inside the room you built earlier. -->
+  <BuildFueledStove.rejectInputMessage>لطفاً اجاق گاز را در داخل اتاقی که قبلا ساخته اید بسازید.</BuildFueledStove.rejectInputMessage>
+  <!-- EN: Excellent!\n\nNow you'll need to make a stove to cook food.\n\nBuild a FUELED STOVE inside the room. -->
+  <BuildFueledStove.text>عالی است!\n\nاکنون برای پختن غذا باید یک اجاق گاز درست کنید.\n\nدر داخل اتاق یک اجاق گاز بسازید.</BuildFueledStove.text>
+  
+  <!-- EN: Build a horseshoes pin\noutside the room -->
+  <BuildHorseshoesPin.onMapInstruction>در خارج از اتاق یک سنجاق نعل اسب بسازید</BuildHorseshoesPin.onMapInstruction>
+  <!-- EN: Please place a horseshoes pin somewhere near the room. -->
+  <BuildHorseshoesPin.rejectInputMessage>لطفاً یک سنجاق نعل اسبی را در جایی نزدیک اتاق قرار دهید.</BuildHorseshoesPin.rejectInputMessage>
+  <!-- EN: Your colonists need sources of recreation or they'll get sad over time.\n\nBuild a HORSESHOES pin outside, near the room. -->
+  <BuildHorseshoesPin.text>ساکنان شما به منابع تفریحی نیاز دارند وگرنه به مرور زمان غمگین خواهند شد.\n\nیک سنجاق نعل اسبی در بیرون، نزدیک اتاق بسازید.</BuildHorseshoesPin.text>
+  
+  <!-- EN: Build a door over one wall -->
+  <BuildRoomDoor.onMapInstruction>روی یک دیوار یک در بسازید</BuildRoomDoor.onMapInstruction>
+  <!-- EN: Please build a wooden door over one of your room walls. -->
+  <BuildRoomDoor.rejectInputMessage>لطفاً روی یکی از دیوارهای اتاق خود یک در چوبی بسازید.</BuildRoomDoor.rejectInputMessage>
+  <!-- EN: Now just place a DOOR over any one of the room walls.\n\nDOOR is right beside WALL in the ARCHITECT menu. -->
+  <BuildRoomDoor.text>اکنون فقط یک DOOR را روی یکی از دیوارهای اتاق قرار دهید.\n\nDOOR درست در کنار دیوار در منوی ARCHITECT است.</BuildRoomDoor.text>
+  
+  <!-- EN: Build walls -->
+  <BuildRoomWalls.onMapInstruction>دیوارها بسازید</BuildRoomWalls.onMapInstruction>
+  <!-- EN: Please build wooden walls along the edges of the highlighted rectangle. -->
+  <BuildRoomWalls.rejectInputMessage>لطفاً دیوارهای چوبی را در امتداد لبه‌های مستطیل برجسته بسازید.</BuildRoomWalls.rejectInputMessage>
+  <!-- EN: Awesome! Next, we'll build a room.\n\n1. Click ARCHITECT.\n2. Click STRUCTURE.\n3. Select WALL.\n4. Select WOOD as the material.\n5. Drag out four walls to form the shape indicated on the map. -->
+  <BuildRoomWalls.text>عالی! بعد، ما یک اتاق می سازیم.\n\n1. روی ARCHITECT کلیک کنید.\n2. روی ساختار کلیک کنید.\n3. WALL را انتخاب کنید.\n4. چوب را به عنوان ماده انتخاب کنید.\n5. چهار دیوار را بکشید تا شکل مشخص شده روی نقشه را تشکیل دهید.</BuildRoomWalls.text>
+  
+  <!-- EN: Build sandbags here -->
+  <BuildSandbags.onMapInstruction>اینجا کیسه های شن بسازید</BuildSandbags.onMapInstruction>
+  <!-- EN: Please build sandbags in the highlighted area. -->
+  <BuildSandbags.rejectInputMessage>لطفاً کیسه های شن را در منطقه برجسته بسازید.</BuildSandbags.rejectInputMessage>
+  <!-- EN: Great! You've now got a basic colony running! Eventually, enemies will raid your colony. It's time to prepare for that.\n\nSelect the SANDBAGS designator and drag the sandbags out at the designated area. -->
+  <BuildSandbags.text>عالیه شما اکنون یک مستعمره اساسی در حال اجرا دارید! در نهایت، دشمنان به کلنی شما حمله خواهند کرد. زمان آن است که برای آن آماده شوید.\n\nمشخص کننده SANDBAGS را انتخاب کنید و کیسه های شن را در ناحیه تعیین شده به بیرون بکشید.</BuildSandbags.text>
+  
+  <!-- EN: Build a wooden simple research bench\ninside the room -->
+  <BuildSimpleResearchBench.onMapInstruction>یک نیمکت تحقیقاتی ساده چوبی\در داخل اتاق بسازید</BuildSimpleResearchBench.onMapInstruction>
+  <!-- EN: Please place a wooden simple research bench inside the room you built earlier. -->
+  <BuildSimpleResearchBench.rejectInputMessage>لطفاً یک نیمکت تحقیقاتی ساده چوبی را در داخل اتاقی که قبلا ساخته اید قرار دهید.</BuildSimpleResearchBench.rejectInputMessage>
+  <!-- EN: To advance, you'll need to research new technologies.\n\nBuild a wooden SIMPLE RESEARCH BENCH inside your room. -->
+  <BuildSimpleResearchBench.text>برای پیشرفت، باید در مورد فناوری‌های جدید تحقیق کنید.\n\nیک نیمکت چوبی تحقیقاتی ساده در اتاق خود بسازید.</BuildSimpleResearchBench.text>
+  
+  <!-- EN: Build a torch lamp inside the room -->
+  <BuildTorchLamp.onMapInstruction>یک چراغ مشعل در داخل اتاق بسازید</BuildTorchLamp.onMapInstruction>
+  <!-- EN: Please build a torch lamp inside the room. -->
+  <BuildTorchLamp.rejectInputMessage>لطفاً یک چراغ مشعل در داخل اتاق بسازید.</BuildTorchLamp.rejectInputMessage>
+  <!-- EN: You'll also want some light inside, or your colonists will get grumpy in the dark.\n\nBuild a TORCH LAMP inside the room. -->
+  <BuildTorchLamp.text>شما همچنین می‌خواهید کمی نور داخل اتاق داشته باشید، در غیر این صورت استعمارگران شما در تاریکی بدخلق خواهند شد.\n\nدر داخل اتاق یک چراغ مشعل بسازید.</BuildTorchLamp.text>
+  
+  <!-- EN: Please open the 'Work' tab and change some settings. -->
+  <ChangeWorkSettings.rejectInputMessage>لطفاً برگه "Work" را باز کنید و برخی از تنظیمات را تغییر دهید.</ChangeWorkSettings.rejectInputMessage>
+  <!-- EN: You can control who does what kinds of work using the checkboxes. Colonists will do tasks in order, from left to right.\n\nTry changing some settings now.\n\nBeware - Colonists always follow their work priorities, even if this makes them do dumb things! Setting up a smart work regime is an important skill in RimWorld. So set the work settings carefully, and review them often! -->
+  <ChangeWorkSettings.text>با استفاده از چک باکس‌ها می توانید کنترل کنید که چه کسی چه نوع کاری را انجام می دهد. مستعمره‌نشینان وظایف را به ترتیب از چپ به راست انجام می‌دهند.\n\nاکنون برخی از تنظیمات را تغییر دهید.\n\nمراقب باشید - مستعمره‌نشینان همیشه اولویت‌های کاری خود را دنبال می‌کنند، حتی اگر این کار باعث شود کارهای احمقانه انجام دهند! راه اندازی یک رژیم کار هوشمند یک مهارت مهم در RimWorld است. بنابراین تنظیمات کار را با دقت تنظیم کنید و اغلب آنها را مرور کنید!</ChangeWorkSettings.text>
+  
+  <!-- EN: Please choose a temperate forest (light green color) site with no landmarks, no mixed biomes, and no hills. -->
+  <ChooseLandingSite.rejectInputMessage>لطفاً یک سایت جنگلی معتدل (رنگ سبز روشن) بدون نشانه‌ها، بیوم‌های مختلط و بدون تپه انتخاب کنید.</ChooseLandingSite.rejectInputMessage>
+  <!-- EN: Here you choose your starting site.\n\nClick a temperate forest (light green) with no brown hills. Then click NEXT.\n\nOptionally, you can use the TERRAIN tab to view information about the selected tile. -->
+  <ChooseLandingSite.text>در اینجا سایت شروع خود را انتخاب می‌کنید.\n\nروی جنگل معتدل (سبز روشن) بدون تپه‌های قهوه‌ای کلیک کنید. سپس روی NEXT کلیک کنید.\n\nدر صورت تمایل، می‌توانید از برگه TERRAIN برای مشاهده اطلاعات کاشی انتخاب شده استفاده کنید.</ChooseLandingSite.text>
+  
+  <!-- EN: Please choose a storyteller in the Options menu to end the tutorial. -->
+  <ChooseStoryteller.rejectInputMessage>لطفاً برای پایان دادن به آموزش، در منوی گزینه‌ها یک قصه‌گو انتخاب کنید.</ChooseStoryteller.rejectInputMessage>
+  <!-- EN: This is the end of the tutorial!\n\nThere's still tons more to learn, including prisoners, hunting, trade, animal taming, and much more. But you've got the basics down.\n\nRandom incidents were disabled during this tutorial. To begin the real game:\n\n1. Open the MENU tab in the bottom-right.\n2. Select OPTIONS.\n3. Click the Gameplay button in the left column.\n4. Click the Modify button beside Storyteller settings.\n5. Select a storyteller and playstyle that appeals to you.\n\nGood luck, and have fun. -->
+  <ChooseStoryteller.text>این پایان آموزش است!\n\nهنوز چیزهای بیشتری برای یادگیری وجود دارد، از جمله زندانیان، شکار، تجارت، رام کردن حیوانات، و خیلی چیزهای دیگر. اما شما اصول اولیه را دارید.\n\nحوادث تصادفی در طول این آموزش غیرفعال شد. برای شروع بازی واقعی:\n\n1. برگه MENU را در پایین سمت راست باز کنید.\n2. OPTIONS را انتخاب کنید.\n3. روی دکمه Gameplay در ستون سمت چپ کلیک کنید.\n4. روی دکمه Modify در کنار تنظیمات Storyteller کلیک کنید.\n5. قصه گو و سبک بازی را انتخاب کنید که برای شما جذاب باشد.\n\nموفق باشید و از آن لذت ببرید.</ChooseStoryteller.text>
+  
+  <!-- EN: Please drag the 'chop wood' designator over some trees. -->
+  <ChopTrees.rejectInputMessage>لطفاً علامت «چوب خرد کن» را روی چند درخت بکشید.</ChopTrees.rejectInputMessage>
+  <!-- EN: You'll want to harvest some wood. Designate some trees to be chopped.\n\nSelect the CHOP WOOD designator and designate 10 trees to be chopped down.\n\n(Pro tip: You can drag a box over trees to designate several at once.) -->
+  <ChopTrees.text>شما می خواهید مقداری چوب برداشت کنید. تعدادی درخت را برای بریدن تعیین کنید.\n\nنماد CHOP WOOD را انتخاب کنید و 10 درخت را برای قطع کردن تعیین کنید.\n\n(نکته حرفه ای: می توانید یک جعبه را روی درختان بکشید تا همزمان چندین درخت را مشخص کنید.)</ChopTrees.text>
+  
+  <!-- EN: Click GENERATE to generate your world. -->
+  <CreateWorldParams.rejectInputMessage>برای ایجاد دنیای خود روی GENERATE کلیک کنید.</CreateWorldParams.rejectInputMessage>
+  <!-- EN: Welcome to RimWorld!\n\nThis page configures how your world should be generated.\n\nThe default settings here are good - go ahead and click GENERATE! -->
+  <CreateWorldParams.text>به RimWorld خوش آمدید!\n\nاین صفحه نحوه ایجاد دنیای شما را پیکربندی می‌کند.\n\nتنظیمات پیش‌فرض اینجا خوب هستند - ادامه دهید و روی GENERATE کلیک کنید!</CreateWorldParams.text>
+  
+  <!-- EN: Send colonists here\ntouching sandbags for cover -->
+  <DownRaider.onMapInstruction>مستعمره‌نشینان را به اینجا بفرستید\nکیسه‌های شن لمسی برای پوشش</DownRaider.onMapInstruction>
+  <!-- EN: Please focus on winning the fight! -->
+  <DownRaider.rejectInputMessage>لطفا روی پیروزی در مبارزه تمرکز کنید!</DownRaider.rejectInputMessage>
+  <!-- EN: I've now sent a raider to attack your colony!\n\n1. Pause the game by hitting {Key:TogglePause}!\n2. Read the red letter in the bottom-right of the screen.\n3. DRAFT your colonists by selecting them and hitting the DRAFT command.\n4. Right-click to send them to positions inside the sandbag square, touching the sandbags.\n5. Unpause.\n\nColonists must be touching cover to benefit from it. Once you're in cover, wait for the attacker to approach. Your colonists will shoot automatically. -->
+  <DownRaider.text>من اکنون یک مهاجم فرستاده ام تا به مستعمره شما حمله کند!\n\n1. با زدن {Key:TogglePause} بازی را متوقف کنید!\n2. حرف قرمز را در سمت راست پایین صفحه بخوانید.\n3. با انتخاب مستعمره‌های خود و زدن فرمان DRAFT، آنها را پیش‌نویس کنید.\n4. برای ارسال آن‌ها به موقعیت‌های داخل مربع کیسه شن، کلیک راست کنید و کیسه‌های شن را لمس کنید.\n5. توقف موقت را لغو کنید.\n\nاستعمارگران باید پوشش را لمس کنند تا از آن بهره ببرند. هنگامی که در پوشش قرار گرفتید، منتظر نزدیک شدن مهاجم باشید. استعمارگران شما به طور خودکار شلیک می کنند.</DownRaider.text>
+  <!-- EN: I've now sent a raider to attack your colony!\n\n1. Pause the game by hitting {Key:TogglePause}!\n2. Read the red letter in the bottom-right of the screen.\n3. DRAFT your colonists by selecting them and hitting the DRAFT command.\n4. Press left trigger button to send them to positions inside the sandbag square, touching the sandbags.\n5. Unpause.\n\nColonists must be touching cover to benefit from it. Once you're in cover, wait for the attacker to approach. Your colonists will shoot automatically. -->
+  <DownRaider.textController>من اکنون یک مهاجم فرستاده ام تا به مستعمره شما حمله کند!\n\n1. با زدن {Key:TogglePause} بازی را متوقف کنید!\n2. حرف قرمز را در سمت راست پایین صفحه بخوانید.\n3. با انتخاب مستعمره‌های خود و زدن فرمان DRAFT، آنها را پیش‌نویس کنید.\n4. دکمه ماشه سمت چپ را فشار دهید تا با لمس کیسه‌های شن، آنها را به موقعیت‌های داخل مربع کیسه شن ارسال کنید.\n5. توقف موقت را لغو کنید.\n\nاستعمارگران باید پوشش را لمس کنند تا از آن بهره ببرند. هنگامی که در پوشش قرار گرفتید، منتظر نزدیک شدن مهاجم باشید. استعمارگران شما به طور خودکار شلیک می کنند.</DownRaider.textController>
+  
+  <!-- EN: Right-click to get out of stockpile designating mode. -->
+  <EndStockpileDesignating.text>برای خارج شدن از حالت تعیین انبار، کلیک راست کنید.</EndStockpileDesignating.text>
+  <!-- EN: Press left trigger button to get out of stockpile designating mode. -->
+  <EndStockpileDesignating.textController>دکمه ماشه سمت چپ را فشار دهید تا از حالت تعیین انبار خارج شوید.</EndStockpileDesignating.textController>
+  
+  <!-- EN: Equip this -->
+  <EquipWeapons.onMapInstruction>اینو تجهیز کن</EquipWeapons.onMapInstruction>
+  <!-- EN: Please have your colonists equip weapons. -->
+  <EquipWeapons.rejectInputMessage>لطفاً از استعمارگران خود بخواهید سلاح‌ها را تجهیز کنند.</EquipWeapons.rejectInputMessage>
+  <!-- EN: Have your colonists equip the starting weapons. To equip a weapon:\n\n1. Click a colonist to select them.\n2. Right-click the weapon you want to equip.\n3. Click 'equip weapon' on the context menu.\n\nDo this for each colonist. -->
+  <EquipWeapons.text>از مستعمره نشینان خود بخواهید سلاح های اولیه را تجهیز کنند. برای تجهیز یک سلاح:\n\n1. برای انتخاب یک مستعمره‌نشین کلیک کنید.\n2. روی سلاحی که می‌خواهید تجهیز کنید کلیک راست کنید.\n3. روی «تجهیز سلاح» در منوی زمینه کلیک کنید.\n\nاین کار را برای هر مستعمره انجام دهید.</EquipWeapons.text>
+  <!-- EN: Have your colonists equip the starting weapons. To equip a weapon:\n\n1. Click a colonist to select them.\n2. Hover over the weapon you want to equip and press left trigger button.\n3. Click 'equip weapon' on the context menu.\n\nDo this for each colonist. -->
+  <EquipWeapons.textController>از مستعمره نشینان خود بخواهید سلاح های اولیه را تجهیز کنند. برای تجهیز یک سلاح:\n\n1. برای انتخاب یک مستعمره‌نشین کلیک کنید.\n2. ماوس را روی سلاحی که می‌خواهید مجهز کنید نگه دارید و دکمه ماشه سمت چپ را فشار دهید.\n3. روی «تجهیز سلاح» در منوی زمینه کلیک کنید.\n\nاین کار را برای هر مستعمره انجام دهید.</EquipWeapons.textController>
+  
+  <!-- EN: Please expand the build roof area a bit, just for practice. -->
+  <ExpandAreaBuildRoof.rejectInputMessage>لطفاً فقط برای تمرین، مساحت سقف ساختمان را کمی گسترش دهید.</ExpandAreaBuildRoof.rejectInputMessage>
+  <!-- EN: The BUILD ROOF AREA defines where your colonists will try to build roofs.\n\nIt auto-fills when you enclose a new room.\n\nSelect the EXPAND BUILD ROOF AREA tool and drag out the shape of a porch roof on the front of the house. -->
+  <ExpandAreaBuildRoof.text>BUILD ROOF AREA مشخص می‌کند که مستعمره‌نشینان شما کجا سعی می‌کنند سقف بسازند.\n\nوقتی اتاق جدیدی را محصور می‌کنید، به‌طور خودکار پر می‌شود.\n\nابزار EXPAND BUILD ROOF AREA را انتخاب کنید و شکل سقف ایوان را در جلوی خانه بکشید.</ExpandAreaBuildRoof.text>
+  
+  <!-- EN: Please expand the home area a bit, just for practice. -->
+  <ExpandAreaHome.rejectInputMessage>لطفاً فقط برای تمرین، فضای خانه را کمی گسترش دهید.</ExpandAreaHome.rejectInputMessage>
+  <!-- EN: Next, you'll learn to expand the HOME AREA.\n\nColonists will clean floors and extinguish fires in the home area only, and ignore fires or filth outside of it.\n\nThe home area is added automatically when you build things - but you can also expand it manually.\n\nSelect the EXPAND HOME AREA tool and drag out a new area on the map. -->
+  <ExpandAreaHome.text>در مرحله بعد، شما یاد می‌گیرید که HOME AREA را گسترش دهید.\n\nاستعمارگران فقط کف‌ها را تمیز می‌کنند و آتش‌ها را فقط در منطقه خانه خاموش می‌کنند، و آتش‌ها یا کثیفی‌های خارج از آن را نادیده می‌گیرند.\n\nمنطقه خانه به‌طور خودکار هنگام ساختن چیزها اضافه می‌شود - اما می‌توانید آن را به‌صورت دستی نیز گسترش دهید.\n\nبر روی ابزار EXPAND HOME new را انتخاب کنید و نقشه AR را بکشید.</ExpandAreaHome.text>
+  
+  <!-- EN: Please wait for your colonists to finish building the sandbags. -->
+  <FinishSandbags.rejectInputMessage>لطفا صبر کنید تا استعمارگران شما ساخت کیسه های شن را به پایان برسانند.</FinishSandbags.rejectInputMessage>
+  <!-- EN: Let's just wait for all your constructions to be built.\n\nConsider using the WORK tab to assign more colonists to Construct.\n\nAlso, you can speed up time to shorten the wait.\n\nOnce everything's built, I'll send an attacker to test your defenses! -->
+  <FinishSandbags.text>بیایید منتظر بمانیم تا تمام ساخت‌های شما ساخته شوند.\n\nاستفاده از برگه WORK را در نظر بگیرید تا مستعمره‌های بیشتری را به Construct اختصاص دهید.\n\nهمچنین، می‌توانید زمان را برای کوتاه‌تر کردن زمان انتظار افزایش دهید.\n\nوقتی همه چیز ساخته شد، یک مهاجم برای آزمایش دفاع شما می‌فرستم!</FinishSandbags.text>
+  
+  <!-- EN: Place growing zone here\n(drag corner-to-corner) -->
+  <MakeGrowingZone.onMapInstruction>منطقه رشد را اینجا قرار دهید\n(از گوشه به گوشه بکشید)</MakeGrowingZone.onMapInstruction>
+  <!-- EN: Please make a growing zone on the indicated area. -->
+  <MakeGrowingZone.rejectInputMessage>لطفاً یک منطقه رشد در منطقه مشخص شده ایجاد کنید.</MakeGrowingZone.rejectInputMessage>
+  <!-- EN: The house is being built!\n\nYour colonists will need something to eat, so place a GROWING ZONE as indicated on the map.\n\nThis is where your colonists will sow crops. -->
+  <MakeGrowingZone.text>خانه در حال ساخت است!\n\nاستعمارگران شما به چیزی برای خوردن نیاز خواهند داشت، بنابراین منطقه رشد را همانطور که روی نقشه نشان داده شده است قرار دهید.\n\nاین جایی است که مستعمره‌نشینان شما محصولات کشاورزی می‌کارند.</MakeGrowingZone.text>
+  
+  <!-- EN: Place stockpile here\n(drag corner-to-corner) -->
+  <MakeStockpile.onMapInstruction>انبار را اینجا قرار دهید\n(از گوشه به گوشه بکشید)</MakeStockpile.onMapInstruction>
+  <!-- EN: Please make a stockpile on the indicated area. -->
+  <MakeStockpile.rejectInputMessage>لطفا در منطقه مشخص شده انبار کنید.</MakeStockpile.rejectInputMessage>
+  <!-- EN: Great!\n\nNow, make a stockpile so your colonists know where to keep items.\n\n1. Click ARCHITECT tab in the bottom left.\n2. Click the ZONE/AREA category.\n3. Select the CREATE STOCKPILE tool.\n4. Click and drag out a square as indicated on the map. -->
+  <MakeStockpile.text>عالی است!\n\nاکنون، انباری درست کنید تا مستعمره‌نشینان شما بدانند اقلام را کجا نگه دارند.\n\n1. روی برگه ARCHITECT در پایین سمت چپ کلیک کنید.\n2. روی دسته ZONE/AREA کلیک کنید.\n3. ابزار CREATE STOCKPILE را انتخاب کنید.\n4. همانطور که روی نقشه نشان داده شده است، روی یک مربع کلیک کرده و بکشید.</MakeStockpile.text>
+  
+  <!-- EN: Here you are on the surface!\n\nNow try moving the camera around.\n\nUse the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys, or click and drag with the middle mouse button.\n\nTry it now! -->
+  <MapCameraDolly.text>اینجا روی سطح هستید!\n\nاکنون سعی کنید دوربین را به اطراف حرکت دهید.\n\nاز کلیدهای {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} استفاده کنید، یا کلیک کنید و با دکمه وسط ماوس بکشید.\n\nاکنون آن را امتحان کنید!</MapCameraDolly.text>
+  <!-- EN: Here you are on the surface!\n\nNow try moving the camera around with the left joystick.\n\nTry it now! -->
+  <MapCameraDolly.textController>در اینجا شما در سطح هستید!\n\nاکنون سعی کنید دوربین را با جوی استیک سمت چپ حرکت دهید.\n\nاکنون آن را امتحان کنید!</MapCameraDolly.textController>
+  
+  <!-- EN: Great!\n\nYou can also zoom in and out with the mouse wheel, or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys.\n\nTry it now! -->
+  <MapCameraZoom.text>عالی است!\n\nهمچنین می‌توانید با چرخ ماوس یا کلیدهای {Key:MapZoom_In} و {Key:MapZoom_Out} بزرگ‌نمایی و کوچک‌نمایی کنید.\n\nاکنون آن را امتحان کنید!</MapCameraZoom.text>
+  <!-- EN: Great!\n\nYou can also zoom in and out with {Key:MapZoom_In} and {Key:MapZoom_Out}.\n\nTry it now! -->
+  <MapCameraZoom.textController>عالی است!\n\nهمچنین می‌توانید با {Key:MapZoom_In} و {Key:MapZoom_Out} بزرگ‌نمایی و کوچک‌نمایی کنید.\n\nاکنون آن را امتحان کنید!</MapCameraZoom.textController>
+  
+  <!-- EN: Designate all this\nfor mining -->
+  <MineSteel.onMapInstruction>همه اینها را برای استخراج تعیین کنید</MineSteel.onMapInstruction>
+  <!-- EN: Please use the 'mine' designator on the compacted steel. -->
+  <MineSteel.rejectInputMessage>لطفاً از نشانگر «مین» روی فولاد فشرده استفاده کنید.</MineSteel.rejectInputMessage>
+  <!-- EN: Now your colonists will cook some food! Tasty!\n\nNext, you'll want to mine some minerals. I've spawned some mineable steel near your base.\n\nSelect the MINE designator and drag over the steel to designate it for mining. -->
+  <MineSteel.text>حالا مستعمره های شما مقداری غذا می پزند! خوشمزه است!\n\nبعد، می خواهید مواد معدنی استخراج کنید. من مقداری فولاد قابل استخراج در نزدیکی پایگاه شما تولید کرده‌ام.\n\nنشانگر MINE را انتخاب کنید و روی فولاد بکشید تا برای استخراج تعیین شود.</MineSteel.text>
+  
+  <!-- EN: Please open the 'Research' tab. -->
+  <OpenMainTabResearch.rejectInputMessage>لطفاً برگه "تحقیق" را باز کنید.</OpenMainTabResearch.rejectInputMessage>
+  <!-- EN: Excellent! Next, you'll want to select what you want to be researched.\n\nOpen the RESEARCH tab. -->
+  <OpenMainTabResearch.text>عالی! سپس، می‌خواهید آنچه را که می‌خواهید مورد تحقیق قرار گیرد، انتخاب کنید.\n\nبرگه تحقیق را باز کنید.</OpenMainTabResearch.text>
+  
+  <!-- EN: Please open the 'Work' tab. -->
+  <OpenMainTabWork.rejectInputMessage>لطفاً برگه "کار" را باز کنید.</OpenMainTabWork.rejectInputMessage>
+  <!-- EN: You can control which colonist does what kind of work.\n\nOpen the WORK tab at the bottom of the screen. -->
+  <OpenMainTabWork.text>می‌توانید کنترل کنید که کدام مستعمره چه نوع کاری را انجام دهد.\n\nبرگه WORK را در پایین صفحه باز کنید.</OpenMainTabWork.text>
+  
+  <!-- EN: You can pause time.\n\nThis means you never need to rush. You can always pause and take your time to issue orders.\n\nTry pausing with the {Key:TogglePause} key, or by using the time controls in the bottom right. -->
+  <Pause.text>می‌توانید زمان را متوقف کنید.\n\nاین بدان معناست که هرگز نیازی به عجله ندارید. همیشه می‌توانید مکث کنید و برای صدور سفارش‌ها وقت بگذارید.\n\nبا کلید {Key:TogglePause} یا با استفاده از کنترل‌های زمان در پایین سمت چپ، مکث کنید.</Pause.text>
+  <!-- EN: You can pause time.\n\nThis means you never need to rush. You can always pause and take your time to issue orders.\n\nTry pausing with the {Key:TogglePause} button, or by using the time controls in the bottom right. -->
+  <Pause.textController>می‌توانید زمان را متوقف کنید.\n\nاین بدان معناست که هرگز نیازی به عجله ندارید. همیشه می‌توانید مکث کنید و برای صدور سفارش وقت بگذارید.\n\nبا دکمه {Key:TogglePause} یا با استفاده از کنترل‌های زمان در پایین سمت چپ، مکث کنید.</Pause.textController>
+  
+  <!-- EN: Please click the RANDOMIZE button to randomize the character. -->
+  <RandomizeCharacter.rejectInputMessage>لطفاً دکمه RANDOMIZE را کلیک کنید تا کاراکتر تصادفی شود.</RandomizeCharacter.rejectInputMessage>
+  <!-- EN: If you don't like a character, you can regenerate them!\n\nClick the RANDOMIZE button to randomize the character. -->
+  <RandomizeCharacter.text>اگر شخصیتی را دوست ندارید، می‌توانید آن‌ها را بازسازی کنید!\n\nبرای تصادفی کردن کاراکتر، روی دکمه RANDOMIZE کلیک کنید.</RandomizeCharacter.text>
+  
+  <!-- EN: Please drag a character from the "left behind" group (at the bottom-left) into the "selected" group (at the upper-left). -->
+  <ReorderCharacters.rejectInputMessage>لطفاً یک کاراکتر از گروه "چپ پشت" (در پایین سمت چپ) به گروه "انتخاب شده" (در بالا سمت چپ) بکشید.</ReorderCharacters.rejectInputMessage>
+  <!-- EN: Now you choose which characters you want to use.\n\nDRAG a character from the "left behind" part of the character list (at the bottom) into the "selected" part (at the top).\n\nOptionally, clicking a character will allow you inspect him or her. -->
+  <ReorderCharacters.text>اکنون شما انتخاب می‌کنید که از کدام نویسه‌ها می‌خواهید استفاده کنید.\n\nیک کاراکتر را از قسمت «سمت چپ» لیست کاراکترها (در پایین) به قسمت «انتخاب‌شده» (در بالا) بکشید.\n\nدر صورت تمایل، کلیک کردن روی یک کاراکتر به شما امکان می‌دهد او را بررسی کنید.</ReorderCharacters.text>
+  
+  <!-- EN: Please choose a research project. -->
+  <SelectResearchProject.rejectInputMessage>لطفا یک پروژه تحقیقاتی را انتخاب کنید.</SelectResearchProject.rejectInputMessage>
+  <!-- EN: Now just choose whatever you want to be researched first.\n\nYou might have to wait for the research bench to be constructed, or for trees to be chopped for wood.\n\nIf it's taking too long, use the WORK tab to assign more colonists to Construct. -->
+  <SelectResearchProject.text>اکنون کافی است ابتدا هر چیزی را که می‌خواهید مورد تحقیق قرار گیرد انتخاب کنید.\n\nشاید باید منتظر بمانید تا نیمکت تحقیقاتی ساخته شود یا درخت‌ها برای چوب بریده شوند.\n\nاگر خیلی طول کشید، از برگه WORK استفاده کنید تا مستعمره‌کنندگان بیشتری را به Construct اختصاص دهید.</SelectResearchProject.text>
+  
+  <!-- EN: Set this growing zone to grow rice -->
+  <SetToGrowRice.onMapInstruction>این منطقه رشد را برای رشد برنج تنظیم کنید</SetToGrowRice.onMapInstruction>
+  <!-- EN: Please set your growing zone to grow rice. -->
+  <SetToGrowRice.rejectInputMessage>لطفا منطقه رشد خود را برای رشد برنج تنظیم کنید.</SetToGrowRice.rejectInputMessage>
+  <!-- EN: You can decide what plant your colonists should sow in a growing zone.\n\n1. Right-click to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice. -->
+  <SetToGrowRice.text>شما می توانید تصمیم بگیرید که مستعمره نشینان شما چه گیاهی را در منطقه رشد بکارند.\n\n1. برای خروج از حالت معمار کلیک راست کنید.\n2. برای انتخاب منطقه رشد خود کلیک کنید.\n3. روی انتخابگر گیاه در پایین کلیک کنید و آن را به برنج تغییر دهید.</SetToGrowRice.text>
+  <!-- EN: You can decide what plant your colonists should sow in a growing zone.\n\n1. Press left trigger button to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice. -->
+  <SetToGrowRice.textController>شما می توانید تصمیم بگیرید که مستعمره نشینان شما چه گیاهی را در منطقه رشد بکارند.\n\n1. دکمه ماشه سمت چپ را فشار دهید تا از حالت معمار خارج شوید.\n2. برای انتخاب منطقه رشد خود کلیک کنید.\n3. روی انتخابگر گیاه در پایین کلیک کنید و آن را به برنج تغییر دهید.</SetToGrowRice.textController>
+  
+  <!-- EN: You can also speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right. -->
+  <TimeControls.text>همچنین می‌توانید زمان را افزایش دهید.\n\nسعی کنید زمان را با کلیدهای {Key:TimeSpeed_Normal}، {Key:TimeSpeed_Fast}، و {Key:TimeSpeed_Superfast} یا با کنترل‌های زمان در پایین سمت راست کنترل کنید.</TimeControls.text>
+  <!-- EN: You can also speed up time.\n\nTry controlling time with {Key:TimeSpeed_Faster} and {Key:TimeSpeed_Slower}, or with the time controls in the bottom right. -->
+  <TimeControls.textController>همچنین می‌توانید زمان را افزایش دهید.\n\nسعی کنید زمان را با {Key:TimeSpeed_Faster} و {Key:TimeSpeed_Slower} یا با کنترل‌های زمان در پایین سمت راست کنترل کنید.</TimeControls.textController>
+  
+  <!-- EN: Please un-draft your colonists. -->
+  <UndraftAll.rejectInputMessage>لطفا مستعمره نشینان خود را لغو کنید.</UndraftAll.rejectInputMessage>
+  <!-- EN: Success! Now UNDRAFT all your colonists using the same command as before.\n\nThis will let them return to their own schedules. -->
+  <UndraftAll.text>موفقیت! اکنون همه مستعمره‌نشینان خود را با استفاده از دستور قبلی خارج کنید.\n\nاین به آنها اجازه می‌دهد به برنامه‌های خود بازگردند.</UndraftAll.text>
+  
+  <!-- EN: Allow this -->
+  <UnforbidStartingResources.onMapInstruction>اجازه بدین</UnforbidStartingResources.onMapInstruction>
+  <!-- EN: Please allow your starting items. -->
+  <UnforbidStartingResources.rejectInputMessage>لطفاً موارد شروع خود را مجاز کنید.</UnforbidStartingResources.rejectInputMessage>
+  <!-- EN: To allow your colonists to bring your items to the stockpile, you must remove the items' "forbidden" designation.\n\n1. Clicking your starting items to select them.\n2. Click the ALLOW toggle button to allow them.\n\n(Pro tip: Double-click an item to select all on screen of the same type.)\n\nAlternatively, you can:\n1. Click ARCHITECT.\n2. Click ORDERS.\n3. Click ALLOW.\n4. Drag out a shape covering all forbidden items to allow them. -->
+  <UnforbidStartingResources.text>برای اینکه مستعمره نشینان شما بتوانند اقلام شما را به انبار بیاورند، باید نام "ممنوع" اقلام را حذف کنید.\n\n1. روی موارد شروع خود کلیک کنید تا آنها را انتخاب کنید.\n2. روی دکمه ALLOW toggle کلیک کنید تا به آنها اجازه داده شود.\n\n(نکته حرفه ای: برای انتخاب همه موارد از یک نوع روی صفحه دوبار کلیک کنید.)\n\nدر روش دیگر، می توانید:\n1. روی ARCHITECT کلیک کنید.\n2. روی Orders کلیک کنید.\n3. روی ALLOW کلیک کنید.\n4. شکلی را بکشید که همه موارد ممنوعه را پوشش می دهد تا به آنها اجازه دهید.</UnforbidStartingResources.text>
+  
+</LanguageData>

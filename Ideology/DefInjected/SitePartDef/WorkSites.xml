@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: farming work site -->
+  <WorkSite_Farming.label>سایت کاری کشاورزی</WorkSite_Farming.label>
+  <!-- EN: A work site built by another faction. It will expire in time. Until then, you can raid it if you wish. -->
+  <WorkSite_Farming.description>سایت کاری ساخته شده توسط یک فاکشن دیگر. پس از مدتی منقضی می‌شود. تا آن زمان می‌توانید به آن حمله کنید.</WorkSite_Farming.description>
+  <!-- EN: Attacking {0}. -->
+  <WorkSite_Farming.approachingReportString>در حال حمله به {0}.</WorkSite_Farming.approachingReportString>
+  <!-- EN: Attack {0} -->
+  <WorkSite_Farming.approachOrderString>حمله به {0}</WorkSite_Farming.approachOrderString>
+  <!-- EN: There is a neutral camp in this area. -->
+  <WorkSite_Farming.arrivedLetter>یک کمپ بی‌طرف در این منطقه وجود دارد.</WorkSite_Farming.arrivedLetter>
+  
+  <!-- EN: hunting work site -->
+  <WorkSite_Hunting.label>سایت کاری شکار</WorkSite_Hunting.label>
+  <!-- EN: A work site built by another faction. It will expire in time. Until then, you can raid it if you wish. -->
+  <WorkSite_Hunting.description>سایت کاری ساخته شده توسط یک فاکشن دیگر. پس از مدتی منقضی می‌شود. تا آن زمان می‌توانید به آن حمله کنید.</WorkSite_Hunting.description>
+  <!-- EN: Attacking {0}. -->
+  <WorkSite_Hunting.approachingReportString>در حال حمله به {0}.</WorkSite_Hunting.approachingReportString>
+  <!-- EN: Attack {0} -->
+  <WorkSite_Hunting.approachOrderString>حمله به {0}</WorkSite_Hunting.approachOrderString>
+  <!-- EN: There is a neutral camp in this area. -->
+  <WorkSite_Hunting.arrivedLetter>یک کمپ بی‌طرف در این منطقه وجود دارد.</WorkSite_Hunting.arrivedLetter>
+  
+  <!-- EN: logging work site -->
+  <WorkSite_Logging.label>سایت کاری جنگل‌کاری</WorkSite_Logging.label>
+  <!-- EN: A work site built by another faction. It will expire in time. Until then, you can raid it if you wish. -->
+  <WorkSite_Logging.description>سایت کاری ساخته شده توسط یک فاکشن دیگر. پس از مدتی منقضی می‌شود. تا آن زمان می‌توانید به آن حمله کنید.</WorkSite_Logging.description>
+  <!-- EN: Attacking {0}. -->
+  <WorkSite_Logging.approachingReportString>در حال حمله به {0}.</WorkSite_Logging.approachingReportString>
+  <!-- EN: Attack {0} -->
+  <WorkSite_Logging.approachOrderString>حمله به {0}</WorkSite_Logging.approachOrderString>
+  <!-- EN: There is a neutral camp in this area. -->
+  <WorkSite_Logging.arrivedLetter>یک کمپ بی‌طرف در این منطقه وجود دارد.</WorkSite_Logging.arrivedLetter>
+  
+  <!-- EN: {THING_label} mining work site -->
+  <WorkSite_Mining.label>{THING_label} سایت کاری استخراج</WorkSite_Mining.label>
+  <!-- EN: A work site built by another faction. It will expire in time. Until then, you can raid it if you wish. -->
+  <WorkSite_Mining.description>سایت کاری ساخته شده توسط یک فاکشن دیگر. پس از مدتی منقضی می‌شود. تا آن زمان می‌توانید به آن حمله کنید.</WorkSite_Mining.description>
+  <!-- EN: Attacking {0}. -->
+  <WorkSite_Mining.approachingReportString>در حال حمله به {0}.</WorkSite_Mining.approachingReportString>
+  <!-- EN: Attack {0} -->
+  <WorkSite_Mining.approachOrderString>حمله به {0}</WorkSite_Mining.approachOrderString>
+  <!-- EN: There is a neutral camp in this area. -->
+  <WorkSite_Mining.arrivedLetter>یک کمپ بی‌طرف در این منطقه وجود دارد.</WorkSite_Mining.arrivedLetter>
+  
+</LanguageData>

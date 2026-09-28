@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: alzheimer's -->
+  <Alzheimers.label>آلزایمر</Alzheimers.label>
+  <!-- EN: A brain disease usually associated with aging. Alzheimer's disease causes progressive degradation in the ability to think and remember. Patients are known to forget close relatives and sometimes wander around in confusion. -->
+  <Alzheimers.description>یک بیماری مغزی که معمولاً با افزایش سن همراه است. بیماری آلزایمر باعث کاهش تدریجی توانایی تفکر و یادآوری می شود. شناخته شده است که بیماران بستگان نزدیک خود را فراموش می کنند و گاهی با سردرگمی سرگردان می شوند.</Alzheimers.description>
+  <!-- EN: minor -->
+  <Alzheimers.stages.minor-0.label>جزئی</Alzheimers.stages.minor-0.label>
+  <!-- EN: minor -->
+  <Alzheimers.stages.minor-1.label>جزئی</Alzheimers.stages.minor-1.label>
+  <!-- EN: major -->
+  <Alzheimers.stages.major-0.label>اصلی</Alzheimers.stages.major-0.label>
+  <!-- EN: major -->
+  <Alzheimers.stages.major-1.label>اصلی</Alzheimers.stages.major-1.label>
+  
+  <!-- EN: asthma -->
+  <Asthma.label>آسم</Asthma.label>
+  <!-- EN: A long-term inflammatory disease of the airways in the lungs. It requires regular tending to prevent symptoms. -->
+  <Asthma.description>یک بیماری التهابی طولانی مدت راه های هوایی در ریه‌ها. برای جلوگیری از علائم نیاز به مراقبت منظم دارد.</Asthma.description>
+  <!-- EN: minor -->
+  <Asthma.stages.minor.label>جزئی</Asthma.stages.minor.label>
+  <!-- EN: major -->
+  <Asthma.stages.major-0.label>اصلی</Asthma.stages.major-0.label>
+  <!-- EN: major -->
+  <Asthma.stages.major-1.label>اصلی</Asthma.stages.major-1.label>
+  
+  <!-- EN: bad back -->
+  <BadBack.label>پشت بد</BadBack.label>
+  <!-- EN: Degradation in the spinal column and surrounding musculature. This makes it hard to move and bend smoothly. -->
+  <BadBack.description>تخریب در ستون فقرات و عضلات اطراف آن. این باعث می شود که حرکت و خم شدن نرم سخت شود.</BadBack.description>
+  <!-- EN: a bad back -->
+  <BadBack.labelNoun>پشت بد</BadBack.labelNoun>
+  
+  <!-- EN: blindness -->
+  <Blindness.label>کوری</Blindness.label>
+  <!-- EN: Total inability to see. -->
+  <Blindness.description>ناتوانی کامل در دیدن</Blindness.description>
+  
+  <!-- EN: carcinoma -->
+  <Carcinoma.label>سرطان</Carcinoma.label>
+  <!-- EN: A lump of cancerous tissue. Without treatment, the carcinoma will grow over time, causing worsening symptoms and eventually killing the patient.\n\nA skilled doctor can excise the carcinoma. An unskilled doctor may be able to simply amputate the body part which contains the carcinoma. -->
+  <Carcinoma.description>توده‌ای از بافت سرطانی. بدون درمان، کارسینوم در طول زمان رشد می‌کند و باعث بدتر شدن علائم و در نهایت مرگ بیمار می‌شود.\n\nیک پزشک ماهر می‌تواند کارسینوم را جدا کند. یک پزشک غیر ماهر ممکن است بتواند به سادگی قسمتی از بدن که حاوی سرطان است را قطع کند.</Carcinoma.description>
+  <!-- EN: a carcinoma -->
+  <Carcinoma.labelNoun>یک کارسینوم</Carcinoma.labelNoun>
+  <!-- EN: minor -->
+  <Carcinoma.stages.minor-0.label>جزئی</Carcinoma.stages.minor-0.label>
+  <!-- EN: minor -->
+  <Carcinoma.stages.minor-1.label>جزئی</Carcinoma.stages.minor-1.label>
+  <!-- EN: major -->
+  <Carcinoma.stages.major-0.label>اصلی</Carcinoma.stages.major-0.label>
+  <!-- EN: major -->
+  <Carcinoma.stages.major-1.label>اصلی</Carcinoma.stages.major-1.label>
+  <!-- EN: extreme -->
+  <Carcinoma.stages.extreme-0.label>افراطی</Carcinoma.stages.extreme-0.label>
+  <!-- EN: extreme -->
+  <Carcinoma.stages.extreme-1.label>افراطی</Carcinoma.stages.extreme-1.label>
+  
+  <!-- EN: cataract -->
+  <Cataract.label>آب مروارید</Cataract.label>
+  <!-- EN: Milky-looking opacity in the eye. Cataracts impair vision. -->
+  <Cataract.description>تیرگی به رنگ شیری در چشم. آب مروارید بینایی را مختل می کند.</Cataract.description>
+  <!-- EN: a cataract -->
+  <Cataract.labelNoun>یک آب مروارید</Cataract.labelNoun>
+  
+  <!-- EN: dementia -->
+  <Dementia.label>زوال عقل</Dementia.label>
+  <!-- EN: Neural degradation which causes deficits in the ability to think and remember. Dementia has various causes including aging, specific illnesses, and toxins. -->
+  <Dementia.description>تخریب عصبی که باعث نقص در توانایی تفکر و یادآوری می شود. دمانس علل مختلفی از جمله پیری، بیماری های خاص و سموم دارد.</Dementia.description>
+  
+  <!-- EN: frail -->
+  <Frail.label>ضعیف</Frail.label>
+  <!-- EN: Generalized loss of muscle and bone density. -->
+  <Frail.description>از دست دادن عمومی عضله و تراکم استخوان.</Frail.description>
+  <!-- EN: frailty -->
+  <Frail.labelNoun>ضعف</Frail.labelNoun>
+  
+  <!-- EN: hearing loss -->
+  <HearingLoss.label>کاهش شنوایی</HearingLoss.label>
+  <!-- EN: Inability to hear quiet sounds due to degradation of hair cells in the cochlea. -->
+  <HearingLoss.description>ناتوانی در شنیدن صداهای آرام به دلیل تخریب سلول های مویی در حلزون گوش.</HearingLoss.description>
+  
+  <!-- EN: artery blockage -->
+  <HeartArteryBlockage.label>انسداد شریان</HeartArteryBlockage.label>
+  <!-- EN: A blockage in one of the critical arteries in the heart. Heart artery blockages randomly induce heart attacks. -->
+  <HeartArteryBlockage.description>انسداد در یکی از شریان های مهم قلب. انسداد شریان قلب به طور تصادفی باعث حمله قلبی می شود.</HeartArteryBlockage.description>
+  <!-- EN: an artery blockage -->
+  <HeartArteryBlockage.labelNoun>یک انسداد شریان</HeartArteryBlockage.labelNoun>
+  <!-- EN: minor -->
+  <HeartArteryBlockage.stages.minor-0.label>جزئی</HeartArteryBlockage.stages.minor-0.label>
+  <!-- EN: minor -->
+  <HeartArteryBlockage.stages.minor-1.label>جزئی</HeartArteryBlockage.stages.minor-1.label>
+  <!-- EN: major -->
+  <HeartArteryBlockage.stages.major-0.label>اصلی</HeartArteryBlockage.stages.major-0.label>
+  <!-- EN: major -->
+  <HeartArteryBlockage.stages.major-1.label>اصلی</HeartArteryBlockage.stages.major-1.label>
+  <!-- EN: extreme -->
+  <HeartArteryBlockage.stages.extreme.label>افراطی</HeartArteryBlockage.stages.extreme.label>
+  
+  <!-- EN: organ decay -->
+  <OrganDecay.label>پوسیدگی اندام</OrganDecay.label>
+  <!-- EN: An untreatable degenerative disease affecting a single organ. The cause may be bacterial or viral. The illness seems to strike randomly from an unknown natural reservoir; it is not directly contagious between people.\n\nThis organ will slowly lose function before dying completely. Replace it with a bionic or natural organ. -->
+  <OrganDecay.description>یک بیماری دژنراتیو غیر قابل درمان که یک اندام را تحت تاثیر قرار می دهد. علت ممکن است باکتری یا ویروسی باشد. به نظر می رسد این بیماری به طور تصادفی از یک مخزن طبیعی ناشناخته بروز می کند. مستقیماً بین افراد مسری نیست.\n\nاین اندام قبل از مرگ کامل به آرامی عملکرد خود را از دست می دهد. آن را با یک اندام بیونیک یا طبیعی جایگزین کنید.</OrganDecay.description>
+  <!-- EN: {PAWN_labelShort}'s {1} was destroyed by organ decay. -->
+  <OrganDecay.comps.HediffComp_DestroyOrgan.messageText>{1} {PAWN_labelShort} در اثر پوسیدگی اعضای بدن از بین رفت.</OrganDecay.comps.HediffComp_DestroyOrgan.messageText>
+  <!-- EN: minor -->
+  <OrganDecay.stages.minor.label>جزئی</OrganDecay.stages.minor.label>
+  <!-- EN: moderate -->
+  <OrganDecay.stages.moderate.label>متوسط</OrganDecay.stages.moderate.label>
+  <!-- EN: severe -->
+  <OrganDecay.stages.severe.label>شدید</OrganDecay.stages.severe.label>
+  <!-- EN: extreme -->
+  <OrganDecay.stages.extreme.label>افراطی</OrganDecay.stages.extreme.label>
+  
+</LanguageData>

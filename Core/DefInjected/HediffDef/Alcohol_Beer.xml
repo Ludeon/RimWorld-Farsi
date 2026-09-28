@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: alcohol addiction -->
+  <AlcoholAddiction.label>اعتیاد به الکل</AlcoholAddiction.label>
+  <!-- EN: A chemical addiction to alcohol. Long-term presence of alcohol has caused neurological adaptations at the cellular level, so the brain can no longer function properly without the drug.\n\nWithout regular doses of alcohol, withdrawal symptoms will begin. However, extended abstinence will force the brain to adapt back to its normal state, resolving the addiction. -->
+  <AlcoholAddiction.description>اعتیاد شیمیایی به الکل. حضور طولانی مدت الکل باعث سازگاری های عصبی در سطح سلولی شده است، بنابراین مغز دیگر نمی تواند بدون دارو به درستی کار کند.\n\nبدون دوزهای منظم الکل، علائم ترک شروع می شود. با این حال، پرهیز طولانی مدت مغز را وادار می کند تا به حالت عادی خود بازگردد و اعتیاد را برطرف کند.</AlcoholAddiction.description>
+  <!-- EN: withdrawal -->
+  <AlcoholAddiction.stages.withdrawal.label>خروج</AlcoholAddiction.stages.withdrawal.label>
+  
+  <!-- EN: alcohol -->
+  <AlcoholHigh.label>الکل</AlcoholHigh.label>
+  <!-- EN: Alcohol in the bloodstream. It makes people happy, but reduces capacities. -->
+  <AlcoholHigh.description>الکل در جریان خون. مردم را خوشحال می کند، اما ظرفیت‌ها را کاهش می دهد.</AlcoholHigh.description>
+  <!-- EN: drunkenness -->
+  <AlcoholHigh.labelNoun>مستی</AlcoholHigh.labelNoun>
+  <!-- EN: warm -->
+  <AlcoholHigh.stages.warm.label>گرم</AlcoholHigh.stages.warm.label>
+  <!-- EN: tipsy -->
+  <AlcoholHigh.stages.tipsy.label>بامزه</AlcoholHigh.stages.tipsy.label>
+  <!-- EN: drunk -->
+  <AlcoholHigh.stages.drunk.label>مست</AlcoholHigh.stages.drunk.label>
+  <!-- EN: hammered -->
+  <AlcoholHigh.stages.hammered.label>چکش خورده</AlcoholHigh.stages.hammered.label>
+  <!-- EN: blackout -->
+  <AlcoholHigh.stages.blackout.label>خاموشی</AlcoholHigh.stages.blackout.label>
+  
+  <!-- EN: alcohol tolerance -->
+  <AlcoholTolerance.label>تحمل الکل</AlcoholTolerance.label>
+  <!-- EN: A built-up tolerance to alcohol. The more severe this tolerance is, the more alcohol it takes to get the same effect. -->
+  <AlcoholTolerance.description>تحمل زیاد نسبت به الکل. هر چه این تحمل شدیدتر باشد، الکل بیشتری برای رسیدن به همان اثر لازم است.</AlcoholTolerance.description>
+  <!-- EN: small -->
+  <AlcoholTolerance.stages.small.label>کوچک</AlcoholTolerance.stages.small.label>
+  <!-- EN: large -->
+  <AlcoholTolerance.stages.large.label>بزرگ</AlcoholTolerance.stages.large.label>
+  <!-- EN: massive -->
+  <AlcoholTolerance.stages.massive.label>عظیم</AlcoholTolerance.stages.massive.label>
+  
+  <!-- EN: hangover -->
+  <Hangover.label>خماری</Hangover.label>
+  <!-- EN: An unpleasant delayed after-effect of alcohol intoxication. -->
+  <Hangover.description>اثر متعاقب ناخوشایند مسمومیت با الکل.</Hangover.description>
+  <!-- EN: a hangover -->
+  <Hangover.labelNoun>خماری</Hangover.labelNoun>
+  <!-- EN: slight -->
+  <Hangover.stages.slight.label>اندک</Hangover.stages.slight.label>
+  <!-- EN: strong -->
+  <Hangover.stages.strong.label>قوی</Hangover.stages.strong.label>
+  <!-- EN: pounding -->
+  <Hangover.stages.pounding.label>کوبیدن</Hangover.stages.pounding.label>
+  
+</LanguageData>

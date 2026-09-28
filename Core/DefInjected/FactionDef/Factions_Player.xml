@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: New Arrivals -->
+  <PlayerColony.label>تازه‌واردان</PlayerColony.label>
+  <!-- EN: A colony of recently-arrived off-worlders. -->
+  <PlayerColony.description>مستعمره‌ای از کسانی که اخیراً از دنیای دیگری وارد شده‌اند.</PlayerColony.description>
+  <!-- EN: leader -->
+  <PlayerColony.leaderTitle>رهبر</PlayerColony.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <PlayerColony.messageDefendersAttacking>{0} از {1} در حال حمله به {2} شما هستند.</PlayerColony.messageDefendersAttacking>
+  <!-- EN: colonist -->
+  <PlayerColony.pawnSingular>مهاجر</PlayerColony.pawnSingular>
+  <!-- EN: colonists -->
+  <PlayerColony.pawnsPlural>مهاجران</PlayerColony.pawnsPlural>
+  
+  <!-- EN: New Tribe -->
+  <PlayerTribe.label>قبیله جدید</PlayerTribe.label>
+  <!-- EN: A small tribe. -->
+  <PlayerTribe.description>یک قبیله کوچک.</PlayerTribe.description>
+  <!-- EN: leader -->
+  <PlayerTribe.leaderTitle>رهبر</PlayerTribe.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <PlayerTribe.messageDefendersAttacking>{0} از {1} در حال حمله به {2} شما هستند.</PlayerTribe.messageDefendersAttacking>
+  <!-- EN: tribesman -->
+  <PlayerTribe.pawnSingular>قبیله‌نشین</PlayerTribe.pawnSingular>
+  <!-- EN: tribespeople -->
+  <PlayerTribe.pawnsPlural>قبیله‌نشینان</PlayerTribe.pawnsPlural>
+  
+</LanguageData>

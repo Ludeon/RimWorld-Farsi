@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: flu -->
+  <Animal_Flu.label>آنفولانزا</Animal_Flu.label>
+  <!-- EN: An infectious disease caused by the influenza virus. This strain is adapted for infecting non-human species. -->
+  <Animal_Flu.description>یک بیماری عفونی ناشی از ویروس آنفولانزا. این سویه برای آلوده کردن گونه های غیر انسانی سازگار است.</Animal_Flu.description>
+  <!-- EN: minor -->
+  <Animal_Flu.stages.minor.label>جزئی</Animal_Flu.stages.minor.label>
+  <!-- EN: major -->
+  <Animal_Flu.stages.major.label>اصلی</Animal_Flu.stages.major.label>
+  <!-- EN: extreme -->
+  <Animal_Flu.stages.extreme.label>افراطی</Animal_Flu.stages.extreme.label>
+  
+  <!-- EN: plague -->
+  <Animal_Plague.label>طاعون</Animal_Plague.label>
+  <!-- EN: An infectious disease caused by bacteria. This strain is adapted to infecting non-human species. -->
+  <Animal_Plague.description>یک بیماری عفونی ناشی از باکتری. این سویه برای آلوده کردن گونه های غیر انسانی سازگار است.</Animal_Plague.description>
+  <!-- EN: minor -->
+  <Animal_Plague.stages.minor.label>جزئی</Animal_Plague.stages.minor.label>
+  <!-- EN: major -->
+  <Animal_Plague.stages.major.label>اصلی</Animal_Plague.stages.major.label>
+  <!-- EN: extreme -->
+  <Animal_Plague.stages.extreme-0.label>افراطی</Animal_Plague.stages.extreme-0.label>
+  <!-- EN: extreme -->
+  <Animal_Plague.stages.extreme-1.label>افراطی</Animal_Plague.stages.extreme-1.label>
+  
+  <!-- EN: fibrous mechanites -->
+  <FibrousMechanites.label>مکانیک های فیبری</FibrousMechanites.label>
+  <!-- EN: Semi-coherent mechanites which develop fibrous links in muscle tissue. They enhance the victim's strength, but also cause intense pain. These are probably a mutated strain of strength-enhancing mechanites. -->
+  <FibrousMechanites.description>مکانیت های نیمه منسجم که پیوندهای فیبری را در بافت عضلانی ایجاد می کنند. آنها قدرت قربانی را افزایش می دهند، اما باعث درد شدید نیز می شوند. اینها احتمالاً یک سویه جهش یافته از مکانیت های تقویت کننده قدرت هستند.</FibrousMechanites.description>
+  <!-- EN: mild pain -->
+  <FibrousMechanites.stages.mild_pain.label>درد خفیف</FibrousMechanites.stages.mild_pain.label>
+  <!-- EN: intense pain -->
+  <FibrousMechanites.stages.intense_pain.label>درد شدید</FibrousMechanites.stages.intense_pain.label>
+  
+  <!-- EN: flu -->
+  <Flu.label>آنفولانزا</Flu.label>
+  <!-- EN: An infectious disease caused by the influenza virus. -->
+  <Flu.description>یک بیماری عفونی ناشی از ویروس آنفولانزا.</Flu.description>
+  <!-- EN: minor -->
+  <Flu.stages.minor.label>جزئی</Flu.stages.minor.label>
+  <!-- EN: major -->
+  <Flu.stages.major.label>اصلی</Flu.stages.major.label>
+  <!-- EN: extreme -->
+  <Flu.stages.extreme.label>افراطی</Flu.stages.extreme.label>
+  
+  <!-- EN: gut worms -->
+  <GutWorms.label>کرم های روده</GutWorms.label>
+  <!-- EN: Parasitic worms in the gut. They cause vomiting. They also consume the victim's food, which increases hunger. -->
+  <GutWorms.description>کرم های انگلی در روده. باعث استفراغ می شوند. آنها همچنین غذای قربانی را مصرف می کنند که باعث افزایش گرسنگی می شود.</GutWorms.description>
+  
+  <!-- EN: lung rot -->
+  <LungRot.label>پوسیدگی ریه</LungRot.label>
+  <!-- EN: A bacterial disease that targets an individual's lungs. Minor cases are little more than an irritation, but if left unchecked the bacterial growth results in an increasing amount of fluid buildup in the victim's lungs, eventually resulting in death.\n\nIf treated properly, the body's immune system will eventually clear lung rot. -->
+  <LungRot.description>یک بیماری باکتریایی که ریه های فرد را هدف قرار می دهد. موارد جزئی کمی بیشتر از یک تحریک هستند، اما اگر رشد باکتری کنترل نشود منجر به افزایش میزان تجمع مایع در ریه‌های قربانی می‌شود که در نهایت منجر به مرگ می‌شود.\n\nاگر به درستی درمان شود، سیستم ایمنی بدن در نهایت پوسیدگی ریه را پاک می‌کند.</LungRot.description>
+  <!-- EN: A painful bacterial disease caused by exposure to rot stink gas. Upon reaching full saturation, it will kill the affected individual. -->
+  <LungRot.descriptionShort>یک بیماری باکتریایی دردناک ناشی از قرار گرفتن در معرض گازهای متعفن پوسیده. پس از رسیدن به اشباع کامل، فرد مبتلا را می کشد.</LungRot.descriptionShort>
+  <!-- EN: minor -->
+  <LungRot.stages.minor.label>جزئی</LungRot.stages.minor.label>
+  <!-- EN: major -->
+  <LungRot.stages.major.label>اصلی</LungRot.stages.major.label>
+  <!-- EN: extreme -->
+  <LungRot.stages.extreme.label>افراطی</LungRot.stages.extreme.label>
+  
+  <!-- EN: rot stink exposure -->
+  <LungRotExposure.label>قرار گرفتن در معرض پوسیدگی بوی بد</LungRotExposure.label>
+  <!-- EN: Long-term exposure to rot stink gas. Rot stink exposure has no direct health effects. However, serious rot stink exposure has a chance to result in a painful bacterial infection known as lung rot. When not exposed to rot stink gas, rot stink exposure will slowly decrease. -->
+  <LungRotExposure.description>قرار گرفتن طولانی مدت در معرض گازهای متعفن پوسیدگی. قرار گرفتن در معرض بوی بد پوسیدگی هیچ تأثیر مستقیمی بر سلامتی ندارد. با این حال، قرار گرفتن در معرض پوسیدگی جدی با بوی بد این شانس را دارد که منجر به عفونت باکتریایی دردناکی به نام پوسیدگی ریه شود. هنگامی که در معرض گاز متعفن پوسیدگی قرار نگیرید، قرار گرفتن در معرض بوی بد پوسیدگی به آرامی کاهش می یابد.</LungRotExposure.description>
+  <!-- EN: {PAWN_nameDef} is beginning to suffer from exposure to rot stink gas. Keep {PAWN_objective} away from rotting corpses and other sources of rot stink. -->
+  <LungRotExposure.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef} از قرار گرفتن در معرض گازهای متعفن پوسیده رنج می برد. {PAWN_objective} را از اجساد پوسیده و سایر منابع بوی بد پوسیدگی دور نگه دارید.</LungRotExposure.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <!-- EN: minor -->
+  <LungRotExposure.stages.minor.label>جزئی</LungRotExposure.stages.minor.label>
+  <!-- EN: major -->
+  <LungRotExposure.stages.major.label>اصلی</LungRotExposure.stages.major.label>
+  <!-- EN: serious -->
+  <LungRotExposure.stages.serious.label>جدی</LungRotExposure.stages.serious.label>
+  
+  <!-- EN: malaria -->
+  <Malaria.label>مالاریا</Malaria.label>
+  <!-- EN: An infectious disease caused by a mosquito-borne parasite. -->
+  <Malaria.description>یک بیماری عفونی که توسط یک انگل منتقله از پشه ایجاد می شود.</Malaria.description>
+  <!-- EN: minor -->
+  <Malaria.stages.minor.label>جزئی</Malaria.stages.minor.label>
+  <!-- EN: major -->
+  <Malaria.stages.major.label>اصلی</Malaria.stages.major.label>
+  <!-- EN: extreme -->
+  <Malaria.stages.extreme.label>افراطی</Malaria.stages.extreme.label>
+  
+  <!-- EN: muscle parasites -->
+  <MuscleParasites.label>انگل های عضلانی</MuscleParasites.label>
+  <!-- EN: Parasitic creatures in the muscles. These cause weakness and a lack of coordination. -->
+  <MuscleParasites.description>موجودات انگلی در ماهیچه‌ها. اینها باعث ضعف و عدم هماهنگی می شود.</MuscleParasites.description>
+  
+  <!-- EN: plague -->
+  <Plague.label>طاعون</Plague.label>
+  <!-- EN: An infectious disease caused by bacteria. -->
+  <Plague.description>یک بیماری عفونی ناشی از باکتری.</Plague.description>
+  <!-- EN: minor -->
+  <Plague.stages.minor.label>جزئی</Plague.stages.minor.label>
+  <!-- EN: major -->
+  <Plague.stages.major.label>اصلی</Plague.stages.major.label>
+  <!-- EN: extreme -->
+  <Plague.stages.extreme-0.label>افراطی</Plague.stages.extreme-0.label>
+  <!-- EN: extreme -->
+  <Plague.stages.extreme-1.label>افراطی</Plague.stages.extreme-1.label>
+  
+  <!-- EN: scaria infection -->
+  <ScariaInfection.label>عفونت اسکاریا</ScariaInfection.label>
+  <!-- EN: An infection caused by scaria bacterium. If not treated, the infection will eventually drive the host into a berserk rage. -->
+  <ScariaInfection.description>عفونت ناشی از باکتری اسکاریا. در صورت عدم درمان، عفونت در نهایت میزبان را به سمت خشم دیوانه می کشاند.</ScariaInfection.description>
+  <!-- EN: Scaria: {PAWN_nameDef} -->
+  <ScariaInfection.comps.HediffComp_GiveHediff.letterLabel>اسکاریا: {PAWN_nameDef}</ScariaInfection.comps.HediffComp_GiveHediff.letterLabel>
+  <!-- EN: {PAWN_nameDef} has developed scaria from {PAWN_possessive} infection, driving {PAWN_objective} into a berserk rage. Scaria can be cured with a special medical operation, but {PAWN_nameDef} must first be downed. -->
+  <ScariaInfection.comps.HediffComp_GiveHediff.letterText>{PAWN_nameDef} اسکاریا را از عفونت {PAWN_possessive} ایجاد کرده است و {PAWN_objective} را به خشم دیوانه‌وار می‌کشاند. اسکاریا را می توان با یک عمل پزشکی خاص درمان کرد، اما {PAWN_nameDef} ابتدا باید ساقط شود.</ScariaInfection.comps.HediffComp_GiveHediff.letterText>
+  <!-- EN: a scaria infection -->
+  <ScariaInfection.labelNoun>عفونت اسکاریا</ScariaInfection.labelNoun>
+  <!-- EN: minor -->
+  <ScariaInfection.stages.minor.label>جزئی</ScariaInfection.stages.minor.label>
+  <!-- EN: major -->
+  <ScariaInfection.stages.major.label>اصلی</ScariaInfection.stages.major.label>
+  <!-- EN: extreme -->
+  <ScariaInfection.stages.extreme.label>افراطی</ScariaInfection.stages.extreme.label>
+  
+  <!-- EN: sensory mechanites -->
+  <SensoryMechanites.label>مکانیت های حسی</SensoryMechanites.label>
+  <!-- EN: Semi-coherent mechanites which reside in the nervous system. They enhance the victim's senses, but also cause intense pain. These are probably a mutated strain of sense-enhancing mechanites. -->
+  <SensoryMechanites.description>مکانیت های نیمه منسجم که در سیستم عصبی قرار دارند. آنها حواس قربانی را تقویت می کنند، اما باعث درد شدید نیز می شوند. اینها احتمالاً یک سویه جهش یافته از مکانیت های تقویت کننده حس هستند.</SensoryMechanites.description>
+  <!-- EN: mild pain -->
+  <SensoryMechanites.stages.mild_pain.label>درد خفیف</SensoryMechanites.stages.mild_pain.label>
+  <!-- EN: intense pain -->
+  <SensoryMechanites.stages.intense_pain.label>درد شدید</SensoryMechanites.stages.intense_pain.label>
+  
+  <!-- EN: sleeping sickness -->
+  <SleepingSickness.label>بیماری خواب</SleepingSickness.label>
+  <!-- EN: An infectious disease caused by an insect-borne parasite. Sleeping sickness is not as deadly as some other diseases, but progresses slowly. The body takes a long time to clear the infection. -->
+  <SleepingSickness.description>یک بیماری عفونی ناشی از یک انگل منتقله از طریق حشرات. بیماری خواب به اندازه برخی بیماری های دیگر کشنده نیست، اما به کندی پیشرفت می کند. بدن مدت زیادی طول می کشد تا عفونت را پاک کند.</SleepingSickness.description>
+  <!-- EN: minor -->
+  <SleepingSickness.stages.minor-0.label>جزئی</SleepingSickness.stages.minor-0.label>
+  <!-- EN: minor -->
+  <SleepingSickness.stages.minor-1.label>جزئی</SleepingSickness.stages.minor-1.label>
+  <!-- EN: major -->
+  <SleepingSickness.stages.major.label>اصلی</SleepingSickness.stages.major.label>
+  <!-- EN: extreme -->
+  <SleepingSickness.stages.extreme-0.label>افراطی</SleepingSickness.stages.extreme-0.label>
+  <!-- EN: extreme -->
+  <SleepingSickness.stages.extreme-1.label>افراطی</SleepingSickness.stages.extreme-1.label>
+  
+  <!-- EN: infection -->
+  <WoundInfection.label>عفونت</WoundInfection.label>
+  <!-- EN: Bacterial infection in a wound. Without treatment, the bacteria will multiply, killing local tissue, and eventually causing blood poisoning and death.\n\nThrough aeons of human warfare, infections have often taken more lives than the wounds themselves. -->
+  <WoundInfection.description>عفونت باکتریایی در زخم بدون درمان، باکتری‌ها تکثیر می‌شوند، بافت محلی را می‌کشند، و در نهایت باعث مسمومیت خون و مرگ می‌شوند.\n\nدر طول دوران جنگ انسانی، عفونت‌ها اغلب بیشتر از خود زخم‌ها جان خود را از دست داده‌اند.</WoundInfection.description>
+  <!-- EN: an infection -->
+  <WoundInfection.labelNoun>یک عفونت</WoundInfection.labelNoun>
+  <!-- EN: minor -->
+  <WoundInfection.stages.minor.label>جزئی</WoundInfection.stages.minor.label>
+  <!-- EN: major -->
+  <WoundInfection.stages.major.label>اصلی</WoundInfection.stages.major.label>
+  <!-- EN: extreme -->
+  <WoundInfection.stages.extreme-0.label>افراطی</WoundInfection.stages.extreme-0.label>
+  <!-- EN: extreme -->
+  <WoundInfection.stages.extreme-1.label>افراطی</WoundInfection.stages.extreme-1.label>
+  
+</LanguageData>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: All quality factors determine how healthy the mom and baby are going to be. -->
+  <ChildBirth.description>همه عوامل کیفیت تعیین می کنند که مادر و نوزاد چقدر سالم خواهند بود.</ChildBirth.description>
+  <!-- EN: {PAWN_labelShort}'s age -->
+  <ChildBirth.comps.0.label>سن {PAWN_labelShort}</ChildBirth.comps.0.label>
+  <!-- EN: mother's age -->
+  <ChildBirth.comps.0.labelAbstract>سن مادر</ChildBirth.comps.0.labelAbstract>
+  <!-- EN: {PAWN_labelShort}'s medicine skill -->
+  <ChildBirth.comps.1.label>مهارت پزشکی {PAWN_labelShort}</ChildBirth.comps.1.label>
+  <!-- EN: doctor's medicine skill -->
+  <ChildBirth.comps.1.labelAbstract>مهارت پزشکی دکتر</ChildBirth.comps.1.labelAbstract>
+  <!-- EN: loved one present -->
+  <ChildBirth.comps.2.label>هدیه یکی از عزیزان</ChildBirth.comps.2.label>
+  <!-- EN: loved one absent -->
+  <ChildBirth.comps.2.labelNotMet>یکی از عزیزان غایب</ChildBirth.comps.2.labelNotMet>
+  <!-- EN: indoors -->
+  <ChildBirth.comps.3.label>در داخل خانه</ChildBirth.comps.3.label>
+  <!-- EN: room cleanliness -->
+  <ChildBirth.comps.4.label>تمیزی اتاق</ChildBirth.comps.4.label>
+  <!-- EN: bed health effects -->
+  <ChildBirth.comps.5.label>اثرات سلامت تخت</ChildBirth.comps.5.label>
+  <!-- EN: Additionally, the mother will have a {0_percentage} chance to die during birth. -->
+  <ChildBirth.extraOutcomeDescriptions.0.description>علاوه بر این، مادر شانس {0_percentage} برای مرگ در حین تولد خواهد داشت.</ChildBirth.extraOutcomeDescriptions.0.description>
+  <!-- EN: Still -->
+  <ChildBirth.outcomeChances.0.label>هنوز</ChildBirth.outcomeChances.0.label>
+  <!-- EN: {MOTHER_labelShort}'s baby was stillborn. -->
+  <ChildBirth.outcomeChances.0.description>نوزاد {MOTHER_labelShort} مرده به دنیا آمد.</ChildBirth.outcomeChances.0.description>
+  <!-- EN: Sick -->
+  <ChildBirth.outcomeChances.1.label>مریض</ChildBirth.outcomeChances.1.label>
+  <!-- EN: {MOTHER_labelShort} gave birth to a baby. Unfortunately, the baby is sick. -->
+  <ChildBirth.outcomeChances.1.description>{MOTHER_labelShort} نوزادی به دنیا آورد. متأسفانه نوزاد بیمار است.</ChildBirth.outcomeChances.1.description>
+  <!-- EN: Healthy -->
+  <ChildBirth.outcomeChances.2.label>سالم</ChildBirth.outcomeChances.2.label>
+  <!-- EN: {MOTHER_labelShort} gave birth to a healthy baby! -->
+  <ChildBirth.outcomeChances.2.description>{MOTHER_labelShort} یک نوزاد سالم به دنیا آورد!</ChildBirth.outcomeChances.2.description>
+  
+</LanguageData>

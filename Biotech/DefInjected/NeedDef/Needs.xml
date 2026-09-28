@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: deathrest -->
+  <Deathrest.label>مرگ</Deathrest.label>
+  <!-- EN: People with the deathrest gene must deathrest every few days or quadrums. Deathresting means entering a regenerative coma for several days, during which the rester appears dead.\n\nA variety of special buildings can connect to a deathresting person and give them bonuses upon waking.\n\nGoing too long without deathrest will cause deathrest exhaustion, which massively degrades a person's physical capacities. -->
+  <Deathrest.description>افرادی که دارای ژن مرگ و میر هستند باید هر چند روز یکبار یا هر چهار مرتبه یکبار به مرگ استراحت کنند. مرگ به معنای وارد شدن به یک کمای احیاکننده برای چند روز است که در طی آن فرد استراحت‌کننده مرده به نظر می‌رسد.\n\nانواع ساختمان‌های ویژه می‌توانند به یک فرد در حال استراحت متصل شوند و در هنگام بیدار شدن به آن‌ها پاداش بدهند.\n\nمدت طولانی بودن بدون استراحت مرگ باعث خستگی مرگ‌بار می‌شود که به‌شدت ظرفیت‌های فیزیکی فرد را تضعیف می‌کند.</Deathrest.description>
+  
+  <!-- EN: kill satiety -->
+  <KillThirst.label>سیری را بکش</KillThirst.label>
+  <!-- EN: Kill satiety fulfills a built-in desire to do violence at close range to human victims. If it isn't satiated, the person will become very unhappy. -->
+  <KillThirst.description>کشتن سیری میل درونی به انجام خشونت از فاصله نزدیک به قربانیان انسانی را برآورده می کند. اگر سیر نشود، فرد بسیار ناراضی می شود.</KillThirst.description>
+  
+  <!-- EN: learning -->
+  <Learning.label>یادگیری</Learning.label>
+  <!-- EN: Children need new lessons and experiences to grow up well, and will become unhappy without them.\n\nChildren will only do learning activities when their schedule is set to Recreation or Anything.\n\nActivities that fulfill a child's desire to learn include:\n{ACTIVITIES}\n\nA satisfied learning need helps children gain growth tiers faster, giving them more passions and choices during growth moments. -->
+  <Learning.description>بچه‌ها برای رشد خوب به درس‌ها و تجربیات جدید نیاز دارند و بدون آن‌ها ناراضی خواهند بود.\n\nکودکان فقط زمانی فعالیت‌های یادگیری را انجام می‌دهند که برنامه‌شان روی «تفریح ​​یا هر چیز دیگری» تنظیم شده باشد.\n\nفعالیت‌هایی که میل کودک را برای یادگیری برآورده می‌کنند عبارتند از:\n{ACTIVITIES}\n\nیک نیاز آموزشی راضی به کودکان کمک می‌کند، در طول مراحل رشد سریع‌تر به آن‌ها دست پیدا کنند.</Learning.description>
+  
+  <!-- EN: energy -->
+  <MechEnergy.label>انرژی</MechEnergy.label>
+  <!-- EN: A reserve of bioelectric energy needed for a mechanoid to function. It can be recharged at a charging station. If it reaches zero, the mech will go into dormant self-charging mode and recharge very slowly. -->
+  <MechEnergy.description>ذخیره‌ای از انرژی بیوالکتریک مورد نیاز برای عملکرد یک مکانوئید. می توان آن را در ایستگاه شارژ مجدد شارژ کرد. اگر به صفر برسد، مکانیک به حالت غیرفعال خود شارژ می‌رود و بسیار کند شارژ می‌شود.</MechEnergy.description>
+  
+  <!-- EN: play -->
+  <Play.label>بازی کردن</Play.label>
+  <!-- EN: Babies need to be played with by adults. If they aren't played with, they will become unhappy. -->
+  <Play.description>بزرگسالان باید با نوزادان بازی کنند. اگر با آنها بازی نشود، ناراضی می شوند.</Play.description>
+  
+</LanguageData>

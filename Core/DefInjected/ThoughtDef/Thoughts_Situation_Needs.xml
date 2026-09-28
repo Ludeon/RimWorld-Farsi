@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: chemical want -->
+  <DrugDesireFascination.stages.chemical_want.label>نیاز شیمیایی</DrugDesireFascination.stages.chemical_want.label>
+  <!-- EN: I'm fascinated by drugs. I want to experience them more. -->
+  <DrugDesireFascination.stages.chemical_want.description>من شیفته موادم. من می خواهم آنها را بیشتر تجربه کنم.</DrugDesireFascination.stages.chemical_want.description>
+  <!-- EN: chemical hunger -->
+  <DrugDesireFascination.stages.chemical_hunger.label>گرسنگی شیمیایی</DrugDesireFascination.stages.chemical_hunger.label>
+  <!-- EN: I'm fascinated by drugs. I want to experience them a lot harder. -->
+  <DrugDesireFascination.stages.chemical_hunger.description>من شیفته موادم. من می خواهم آنها را خیلی سخت‌تر تجربه کنم.</DrugDesireFascination.stages.chemical_hunger.description>
+  <!-- EN: chemical starvation -->
+  <DrugDesireFascination.stages.chemical_starvation.label>گرسنگی شیمیایی</DrugDesireFascination.stages.chemical_starvation.label>
+  <!-- EN: I'm fascinated by drugs. I want them! More intensity! -->
+  <DrugDesireFascination.stages.chemical_starvation.description>من شیفته موادم. من آنها را می خواهم! شدت بیشتر!</DrugDesireFascination.stages.chemical_starvation.description>
+  
+  <!-- EN: chemical comfort -->
+  <DrugDesireFascinationSatisfied.stages.chemical_comfort.label>راحتی شیمیایی</DrugDesireFascinationSatisfied.stages.chemical_comfort.label>
+  <!-- EN: I'm fascinated by drugs, and I love satisfying my desires. -->
+  <DrugDesireFascinationSatisfied.stages.chemical_comfort.description>من شیفته موادم و دوست دارم خواسته هایم را ارضا کنم.</DrugDesireFascinationSatisfied.stages.chemical_comfort.description>
+  <!-- EN: chemical satisfaction -->
+  <DrugDesireFascinationSatisfied.stages.chemical_satisfaction.label>رضایت شیمیایی</DrugDesireFascinationSatisfied.stages.chemical_satisfaction.label>
+  <!-- EN: I'm fascinated by drugs, and I am fully satisfied with my drug consumption. -->
+  <DrugDesireFascinationSatisfied.stages.chemical_satisfaction.description>من مجذوب موادم و از مصرف موادم کاملا راضی هستم.</DrugDesireFascinationSatisfied.stages.chemical_satisfaction.description>
+  
+  <!-- EN: chemical want -->
+  <DrugDesireInterest.stages.chemical_want.label>نیاز شیمیایی</DrugDesireInterest.stages.chemical_want.label>
+  <!-- EN: I'm interested in drugs. I want to try more. -->
+  <DrugDesireInterest.stages.chemical_want.description>من به مواد مخدر علاقه مندم. من می خواهم بیشتر تلاش کنم.</DrugDesireInterest.stages.chemical_want.description>
+  <!-- EN: chemical hunger -->
+  <DrugDesireInterest.stages.chemical_hunger.label>گرسنگی شیمیایی</DrugDesireInterest.stages.chemical_hunger.label>
+  <!-- EN: I'm interested in drugs. I want to experience a lot more. -->
+  <DrugDesireInterest.stages.chemical_hunger.description>من به مواد مخدر علاقه مندم. من می خواهم خیلی بیشتر تجربه کنم.</DrugDesireInterest.stages.chemical_hunger.description>
+  <!-- EN: chemical starvation -->
+  <DrugDesireInterest.stages.chemical_starvation.label>گرسنگی شیمیایی</DrugDesireInterest.stages.chemical_starvation.label>
+  <!-- EN: I'm interested in drugs. I want to consume drugs really badly. -->
+  <DrugDesireInterest.stages.chemical_starvation.description>من به مواد مخدر علاقه مندم. من به شدت می خواهم مواد مخدر مصرف کنم.</DrugDesireInterest.stages.chemical_starvation.description>
+  
+  <!-- EN: chemical comfort -->
+  <DrugDesireInterestSatisfied.stages.chemical_comfort.label>راحتی شیمیایی</DrugDesireInterestSatisfied.stages.chemical_comfort.label>
+  <!-- EN: I'm interested in drugs. I enjoyed satisfying my desire. -->
+  <DrugDesireInterestSatisfied.stages.chemical_comfort.description>من به مواد مخدر علاقه مندم. از ارضای خواسته ام لذت بردم.</DrugDesireInterestSatisfied.stages.chemical_comfort.description>
+  <!-- EN: chemical satisfaction -->
+  <DrugDesireInterestSatisfied.stages.chemical_satisfaction.label>رضایت شیمیایی</DrugDesireInterestSatisfied.stages.chemical_satisfaction.label>
+  <!-- EN: I'm interested in drugs. I am really satisfied with all the drugs I've gotten recently. -->
+  <DrugDesireInterestSatisfied.stages.chemical_satisfaction.description>من به مواد مخدر علاقه مندم. من واقعا از تمام داروهایی که اخیرا مصرف کرده ام راضی هستم.</DrugDesireInterestSatisfied.stages.chemical_satisfaction.description>
+  
+  <!-- EN: hideous environment -->
+  <NeedBeauty.stages.hideous_environment.label>محیط زشت</NeedBeauty.stages.hideous_environment.label>
+  <!-- EN: This place is unbearably grotesque. I can't look at this any more. -->
+  <NeedBeauty.stages.hideous_environment.description>این مکان به طرز غیر قابل تحملی گروتسک است. من نمی توانم بیشتر به این نگاه کنم.</NeedBeauty.stages.hideous_environment.description>
+  <!-- EN: ugly environment -->
+  <NeedBeauty.stages.ugly_environment.label>محیط زشت</NeedBeauty.stages.ugly_environment.label>
+  <!-- EN: This place is really ugly. I wish I didn't have to look at this any more. -->
+  <NeedBeauty.stages.ugly_environment.description>این مکان واقعا زشت است. کاش مجبور نبودم بیشتر از این به این موضوع نگاه کنم.</NeedBeauty.stages.ugly_environment.description>
+  <!-- EN: unsightly environment -->
+  <NeedBeauty.stages.unsightly_environment.label>محیط نامناسب</NeedBeauty.stages.unsightly_environment.label>
+  <!-- EN: This place is kind of unsightly. I wish I didn't have to look at all this. -->
+  <NeedBeauty.stages.unsightly_environment.description>این مکان به نوعی ناخوشایند است. کاش مجبور نبودم به این همه نگاه کنم.</NeedBeauty.stages.unsightly_environment.description>
+  <!-- EN: pretty environment -->
+  <NeedBeauty.stages.pretty_environment.label>محیط زیبا</NeedBeauty.stages.pretty_environment.label>
+  <!-- EN: This place looks nice. -->
+  <NeedBeauty.stages.pretty_environment.description>این مکان زیبا به نظر می رسد</NeedBeauty.stages.pretty_environment.description>
+  <!-- EN: beautiful environment -->
+  <NeedBeauty.stages.beautiful_environment.label>محیط زیبا</NeedBeauty.stages.beautiful_environment.label>
+  <!-- EN: I really like this place. It's beautiful. -->
+  <NeedBeauty.stages.beautiful_environment.description>من واقعا این مکان را دوست دارم. زیباست</NeedBeauty.stages.beautiful_environment.description>
+  <!-- EN: gorgeous environment -->
+  <NeedBeauty.stages.gorgeous_environment.label>محیط زرق و برق دار</NeedBeauty.stages.gorgeous_environment.label>
+  <!-- EN: This place is beautiful. It lifts me up and makes me love life. -->
+  <NeedBeauty.stages.gorgeous_environment.description>این مکان زیباست مرا بالا می برد و باعث می شود زندگی را دوست داشته باشم.</NeedBeauty.stages.gorgeous_environment.description>
+  
+  <!-- EN: uncomfortable -->
+  <NeedComfort.stages.uncomfortable.label>ناراحت کننده</NeedComfort.stages.uncomfortable.label>
+  <!-- EN: I've been kind of uncomfortable recently. We need to get something soft to sit on around here. -->
+  <NeedComfort.stages.uncomfortable.description>اخیراً یک جورایی ناراحت بودم. ما باید چیزی نرم برای نشستن در اینجا تهیه کنیم.</NeedComfort.stages.uncomfortable.description>
+  <!-- EN: comfortable -->
+  <NeedComfort.stages.comfortable.label>راحت</NeedComfort.stages.comfortable.label>
+  <!-- EN: I've been comfortable recently. -->
+  <NeedComfort.stages.comfortable.description>اخیرا راحت شدم</NeedComfort.stages.comfortable.description>
+  <!-- EN: quite comfortable -->
+  <NeedComfort.stages.quite_comfortable.label>کاملا راحت</NeedComfort.stages.quite_comfortable.label>
+  <!-- EN: I've been very comfortable recently. -->
+  <NeedComfort.stages.quite_comfortable.description>اخیرا خیلی راحت شدم</NeedComfort.stages.quite_comfortable.description>
+  <!-- EN: extremely comfortable -->
+  <NeedComfort.stages.extremely_comfortable.label>فوق العاده راحت</NeedComfort.stages.extremely_comfortable.label>
+  <!-- EN: I've been extremely comfortable recently. This place is so cushy! -->
+  <NeedComfort.stages.extremely_comfortable.description>اخیراً خیلی راحت بودم. این مکان بسیار دلپذیر است!</NeedComfort.stages.extremely_comfortable.description>
+  <!-- EN: luxuriantly comfortable -->
+  <NeedComfort.stages.luxuriantly_comfortable.label>مجلل راحت</NeedComfort.stages.luxuriantly_comfortable.label>
+  <!-- EN: I am resting on clouds of heaven. -->
+  <NeedComfort.stages.luxuriantly_comfortable.description>روی ابرهای بهشت ​​آرمیده ام.</NeedComfort.stages.luxuriantly_comfortable.description>
+  
+  <!-- EN: hungry -->
+  <NeedFood.stages.hungry.label>گرسنه</NeedFood.stages.hungry.label>
+  <!-- EN: I'm really hungry. -->
+  <NeedFood.stages.hungry.description>من واقعا گرسنه ام.</NeedFood.stages.hungry.description>
+  <!-- EN: ravenously hungry -->
+  <NeedFood.stages.ravenously_hungry.label>به شدت گرسنه</NeedFood.stages.ravenously_hungry.label>
+  <!-- EN: These hunger pangs are hard to ignore. -->
+  <NeedFood.stages.ravenously_hungry.description>نادیده گرفتن این گرسنگی سخت است.</NeedFood.stages.ravenously_hungry.description>
+  <!-- EN: malnourished -->
+  <NeedFood.stages.malnourished.label>سوء تغذیه</NeedFood.stages.malnourished.label>
+  <!-- EN: It's been so long since I ate. I'm all fuzzy and it's hard to focus. My body is starting to waste away. -->
+  <NeedFood.stages.malnourished.description>خیلی وقته که نخوردم من همه گیج هستم و تمرکز کردن سخت است. بدن من شروع به تلف شدن می کند.</NeedFood.stages.malnourished.description>
+  <!-- EN: badly malnourished -->
+  <NeedFood.stages.badly_malnourished.label>بد تغذیه شده</NeedFood.stages.badly_malnourished.label>
+  <!-- EN: I can feel my body wasting away. My stomach hurts like never before. -->
+  <NeedFood.stages.badly_malnourished.description>می توانم احساس کنم بدنم از بین می رود. معده ام مثل قبل درد می کند.</NeedFood.stages.badly_malnourished.description>
+  <!-- EN: starving -->
+  <NeedFood.stages.starving.label>گرسنگی</NeedFood.stages.starving.label>
+  <!-- EN: I can barely think about anything but food. My skin is stretching over my bones. Am I going to die? -->
+  <NeedFood.stages.starving.description>من به سختی می توانم به چیزی فکر کنم جز غذا. پوستم روی استخوان هایم کشیده شده است. قراره بمیرم؟</NeedFood.stages.starving.description>
+  <!-- EN: advanced starvation -->
+  <NeedFood.stages.advanced_starvation.label>گرسنگی پیشرفته</NeedFood.stages.advanced_starvation.label>
+  <!-- EN: I can barely move or think about anything but food. My stomach hurts like never before. I feel like I'm going to pass out. -->
+  <NeedFood.stages.advanced_starvation.description>من به سختی می توانم حرکت کنم یا به چیزی جز غذا فکر کنم. معده ام مثل قبل درد می کند. احساس میکنم دارم بیهوش میشم</NeedFood.stages.advanced_starvation.description>
+  <!-- EN: extreme starvation -->
+  <NeedFood.stages.extreme_starvation.label>گرسنگی شدید</NeedFood.stages.extreme_starvation.label>
+  <!-- EN: Food... food... anything... please... -->
+  <NeedFood.stages.extreme_starvation.description>غذا ... غذا ... هر چیزی ... لطفا ...</NeedFood.stages.extreme_starvation.description>
+  
+  <!-- EN: just outdoors -->
+  <NeedIndoors.stages.just_outdoors.label>فقط در فضای باز</NeedIndoors.stages.just_outdoors.label>
+  <!-- EN: I shouldn't be outdoors. -->
+  <NeedIndoors.stages.just_outdoors.description>من نباید بیرون باشم</NeedIndoors.stages.just_outdoors.description>
+  <!-- EN: outdoors -->
+  <NeedIndoors.stages.outdoors.label>در فضای باز</NeedIndoors.stages.outdoors.label>
+  <!-- EN: I've been outside too much recently. -->
+  <NeedIndoors.stages.outdoors.description>من اخیرا خیلی بیرون بودم.</NeedIndoors.stages.outdoors.description>
+  <!-- EN: long outdoors -->
+  <NeedIndoors.stages.long_outdoors.label>طولانی مدت در فضای باز</NeedIndoors.stages.long_outdoors.label>
+  <!-- EN: Being outside so much is wrong for me. -->
+  <NeedIndoors.stages.long_outdoors.description>خیلی بیرون بودن برای من اشتباه است.</NeedIndoors.stages.long_outdoors.description>
+  <!-- EN: very long outdoors -->
+  <NeedIndoors.stages.very_long_outdoors.label>خیلی طولانی در فضای باز</NeedIndoors.stages.very_long_outdoors.label>
+  <!-- EN: I've been outside way too much recently. This open space is so disturbing. -->
+  <NeedIndoors.stages.very_long_outdoors.description>من اخیراً خیلی در خارج از خانه بودم. این فضای باز بسیار آزاردهنده است.</NeedIndoors.stages.very_long_outdoors.description>
+  <!-- EN: brutal outdoors -->
+  <NeedIndoors.stages.brutal_outdoors.label>وحشیانه در فضای باز</NeedIndoors.stages.brutal_outdoors.label>
+  <!-- EN: These open spaces are driving me insane! -->
+  <NeedIndoors.stages.brutal_outdoors.description>این فضاهای باز مرا دیوانه می کند!</NeedIndoors.stages.brutal_outdoors.description>
+  
+  <!-- EN: recreation-starved -->
+  <NeedJoy.stages.recreationstarved.label>گرسنگی تفریحی</NeedJoy.stages.recreationstarved.label>
+  <!-- EN: It's been so long since I did anything for fun on my own time. -->
+  <NeedJoy.stages.recreationstarved.description>خیلی وقت است که در زمان خودم کاری برای سرگرمی انجام نداده ام.</NeedJoy.stages.recreationstarved.description>
+  <!-- EN: recreation-deprived -->
+  <NeedJoy.stages.recreationdeprived.label>محروم از تفریح</NeedJoy.stages.recreationdeprived.label>
+  <!-- EN: We need more variation in recreation activities, and I need time to enjoy them. This place is really dull. -->
+  <NeedJoy.stages.recreationdeprived.description>ما به تنوع بیشتری در فعالیت های تفریحی نیاز داریم و من برای لذت بردن از آنها به زمان نیاز دارم. این مکان واقعا کسل کننده است.</NeedJoy.stages.recreationdeprived.description>
+  <!-- EN: recreation unfulfilled -->
+  <NeedJoy.stages.recreation_unfulfilled.label>تفریح ​​انجام نشده</NeedJoy.stages.recreation_unfulfilled.label>
+  <!-- EN: We need more variation in the recreation activities, and I need time to enjoy them. -->
+  <NeedJoy.stages.recreation_unfulfilled.description>ما به تنوع بیشتری در فعالیت های تفریحی نیاز داریم و من برای لذت بردن از آنها به زمان نیاز دارم.</NeedJoy.stages.recreation_unfulfilled.description>
+  <!-- EN: recreation satisfied -->
+  <NeedJoy.stages.recreation_satisfied.label>تفریح ​​راضی</NeedJoy.stages.recreation_satisfied.label>
+  <!-- EN: I've been having a great time doing various things I like to do. -->
+  <NeedJoy.stages.recreation_satisfied.description>من با انجام کارهای مختلفی که دوست دارم انجام دهم، اوقات خوبی را سپری کرده ام.</NeedJoy.stages.recreation_satisfied.description>
+  <!-- EN: recreation fully satisfied -->
+  <NeedJoy.stages.recreation_fully_satisfied.label>تفریح ​​کاملا راضی</NeedJoy.stages.recreation_fully_satisfied.label>
+  <!-- EN: I've been enjoying myself so much, I love it! -->
+  <NeedJoy.stages.recreation_fully_satisfied.description>من خیلی از خودم لذت بردم، دوستش دارم!</NeedJoy.stages.recreation_fully_satisfied.description>
+  
+  <!-- EN: entombed underground -->
+  <NeedOutdoors.stages.entombed_underground.label>دفن شده در زیر زمین</NeedOutdoors.stages.entombed_underground.label>
+  <!-- EN: I've been underground too long. I feel like the weight of this mountain is crushing me. I need to see the sky and feel the wind. -->
+  <NeedOutdoors.stages.entombed_underground.description>من خیلی وقته زیرزمینی بودم احساس می کنم سنگینی این کوه مرا له می کند. من باید آسمان را ببینم و باد را حس کنم.</NeedOutdoors.stages.entombed_underground.description>
+  <!-- EN: trapped underground -->
+  <NeedOutdoors.stages.trapped_underground.label>زیر زمین به دام افتاده</NeedOutdoors.stages.trapped_underground.label>
+  <!-- EN: How long have I been underground? I need to get out in the fresh air and spend some time under the sky. -->
+  <NeedOutdoors.stages.trapped_underground.description>چند وقته زیرزمینی هستم؟ من باید در هوای تازه بیرون بیایم و مدتی را زیر آسمان بگذرانم.</NeedOutdoors.stages.trapped_underground.description>
+  <!-- EN: cabin fever -->
+  <NeedOutdoors.stages.cabin_fever.label>تب کابین</NeedOutdoors.stages.cabin_fever.label>
+  <!-- EN: I've spent so long indoors I feel like the roof is pressing in. I need to get out and see the sky. -->
+  <NeedOutdoors.stages.cabin_fever.description>من مدت زیادی را در داخل خانه گذرانده ام که احساس می کنم سقف در حال فشار است. باید بیرون بیایم و آسمان را ببینم.</NeedOutdoors.stages.cabin_fever.description>
+  <!-- EN: trapped indoors -->
+  <NeedOutdoors.stages.trapped_indoors.label>در داخل خانه به دام افتاده است</NeedOutdoors.stages.trapped_indoors.label>
+  <!-- EN: It's been too long since I've seen the sky. -->
+  <NeedOutdoors.stages.trapped_indoors.description>خیلی وقت است که آسمان را ندیده ام.</NeedOutdoors.stages.trapped_indoors.description>
+  <!-- EN: stuck indoors -->
+  <NeedOutdoors.stages.stuck_indoors.label>در داخل خانه گیر کرده است</NeedOutdoors.stages.stuck_indoors.label>
+  <!-- EN: I'd like to go outside and get some fresh air. -->
+  <NeedOutdoors.stages.stuck_indoors.description>می خواهم بروم بیرون و هوای تازه بخورم.</NeedOutdoors.stages.stuck_indoors.description>
+  
+  <!-- EN: drowsy -->
+  <NeedRest.stages.drowsy.label>خواب آلود</NeedRest.stages.drowsy.label>
+  <!-- EN: I haven't slept in a while. It's hard to keep focus. -->
+  <NeedRest.stages.drowsy.description>مدتی است که نخوابیده ام. حفظ تمرکز سخت است.</NeedRest.stages.drowsy.description>
+  <!-- EN: tired -->
+  <NeedRest.stages.tired.label>خسته</NeedRest.stages.tired.label>
+  <!-- EN: I'm so tired. I just want to lay down and rest for a few minutes... -->
+  <NeedRest.stages.tired.description>من خیلی خسته ام فقط میخوام چند دقیقه دراز بکشم و استراحت کنم...</NeedRest.stages.tired.description>
+  <!-- EN: exhausted -->
+  <NeedRest.stages.exhausted.label>خسته</NeedRest.stages.exhausted.label>
+  <!-- EN: I'm so exhausted I can barely stand. My eyelids have lead weights on them. Let me sleep... -->
+  <NeedRest.stages.exhausted.description>آنقدر خسته ام که به سختی می توانم بایستم. پلک های من وزنه های سربی روی آنها دارند. بذار بخوابم...</NeedRest.stages.exhausted.description>
+  
+  <!-- EN: confined interior -->
+  <NeedRoomSize.stages.confined_interior.label>فضای داخلی محدود</NeedRoomSize.stages.confined_interior.label>
+  <!-- EN: This space is so tiny. I feel like a rat in a cage. -->
+  <NeedRoomSize.stages.confined_interior.description>این فضا خیلی کوچک است حس میکنم مثل موش تو قفس</NeedRoomSize.stages.confined_interior.description>
+  <!-- EN: cramped interior -->
+  <NeedRoomSize.stages.cramped_interior.label>فضای داخلی تنگ</NeedRoomSize.stages.cramped_interior.label>
+  <!-- EN: This room is too small. I wish I had more space to move around and breathe. -->
+  <NeedRoomSize.stages.cramped_interior.description>این اتاق خیلی کوچک است. کاش فضای بیشتری برای حرکت و نفس کشیدن داشتم.</NeedRoomSize.stages.cramped_interior.description>
+  <!-- EN: spacious interior -->
+  <NeedRoomSize.stages.spacious_interior.label>فضای داخلی جادار</NeedRoomSize.stages.spacious_interior.label>
+  <!-- EN: This room is so expansive, I feel free. -->
+  <NeedRoomSize.stages.spacious_interior.description>این اتاق آنقدر وسیع است که من احساس آزادی می کنم.</NeedRoomSize.stages.spacious_interior.description>
+  
+</LanguageData>

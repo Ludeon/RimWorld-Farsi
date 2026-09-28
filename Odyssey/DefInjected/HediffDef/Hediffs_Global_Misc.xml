@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: grav nausea -->
+  <GravNausea.label>تهوع گراو</GravNausea.label>
+  <!-- EN: Intense nausea caused by sudden acceleration or deceleration on a gravship. -->
+  <GravNausea.description>حالت تهوع شدید ناشی از شتاب یا کاهش سرعت ناگهانی در کشتی.</GravNausea.description>
+  
+  <!-- EN: thrumbo roar -->
+  <ThrumboRoar.label>غرش ترومبو</ThrumboRoar.label>
+  <!-- EN: This creature has been shaken by the powerful roar of a thrumbo. -->
+  <ThrumboRoar.description>این موجود توسط غرش قدرتمند یک ترومبو تکان داده شده است.</ThrumboRoar.description>
+  
+  <!-- EN: vacuum exposure -->
+  <VacuumExposure.label>قرار گرفتن در معرض خلاء</VacuumExposure.label>
+  <!-- EN: This creature is suffering a variety of negative effects caused by exposure to the vacuum of space, including hypoxia and decompression sickness. They will soon die unless they can get to a pressurized area. -->
+  <VacuumExposure.description>این موجود از انواع اثرات منفی ناشی از قرار گرفتن در معرض خلاء فضا رنج می برد، از جمله هیپوکسی و بیماری رفع فشار. آنها به زودی خواهند مرد مگر اینکه بتوانند به یک منطقه تحت فشار برسند.</VacuumExposure.description>
+  <!-- EN: initial -->
+  <VacuumExposure.stages.initial-0.label>اولیه</VacuumExposure.stages.initial-0.label>
+  <!-- EN: initial -->
+  <VacuumExposure.stages.initial-1.label>اولیه</VacuumExposure.stages.initial-1.label>
+  <!-- EN: mild -->
+  <VacuumExposure.stages.mild.label>خفیف</VacuumExposure.stages.mild.label>
+  <!-- EN: moderate -->
+  <VacuumExposure.stages.moderate.label>متوسط</VacuumExposure.stages.moderate.label>
+  <!-- EN: extreme -->
+  <VacuumExposure.stages.extreme.label>افراطی</VacuumExposure.stages.extreme.label>
+  
+  <!-- EN: volcanic ash -->
+  <VolcanicAsh.label>خاکستر آتشفشانی</VolcanicAsh.label>
+  <!-- EN: Ash from a volcanic eruption. -->
+  <VolcanicAsh.description>خاکستر ناشی از فوران آتشفشانی.</VolcanicAsh.description>
+  
+  <!-- EN: war trumpet -->
+  <WarTrumpet.label>شیپور جنگی</WarTrumpet.label>
+  <!-- EN: This creature has been shaken by the powerful trumpeting of a mighty beast. -->
+  <WarTrumpet.description>این موجود توسط شیپور قدرتمند یک جانور قدرتمند تکان خورده است.</WarTrumpet.description>
+  
+</LanguageData>

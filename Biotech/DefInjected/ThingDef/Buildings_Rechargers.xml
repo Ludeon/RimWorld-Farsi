@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: mech recharger -->
+  <BasicRecharger.label>شارژر مکانیکی</BasicRecharger.label>
+  <!-- EN: Lightweight mechanoids can recharge here. During recharge, this recharger produces toxic wastepacks and stores them internally. Haulers must remove the wastepacks from time to time. -->
+  <BasicRecharger.description>مکانیسم های سبک وزن می توانند در اینجا شارژ شوند. این شارژر در هنگام شارژ مجدد، بسته های زباله سمی تولید می کند و آنها را در داخل ذخیره می کند. باربرها باید هر از گاهی بسته های زباله را خارج کنند.</BasicRecharger.description>
+  
+  <!-- EN: large mech recharger -->
+  <StandardRecharger.label>شارژر مکانیکی بزرگ</StandardRecharger.label>
+  <!-- EN: Medium, heavy, and ultraheavy mechanoids can recharge here. During recharge, this recharger produces toxic wastepacks and stores them internally. Haulers must remove the wastepacks from time to time. -->
+  <StandardRecharger.description>مکانیزم های متوسط، سنگین و فوق سنگین می توانند در اینجا شارژ شوند. این شارژر در هنگام شارژ مجدد، بسته های زباله سمی تولید می کند و آنها را در داخل ذخیره می کند. باربرها باید هر از گاهی بسته های زباله را خارج کنند.</StandardRecharger.description>
+  
+</LanguageData>

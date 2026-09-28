@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: call drop pods -->
+  <CallDropPods.label>غلاف دراپ تماس</CallDropPods.label>
+  <!-- EN: Summon drop pods that you can use to travel to another location. -->
+  <CallDropPods.description>غلاف های قطره‌ای را احضار کنید که می توانید از آنها برای سفر به مکان دیگری استفاده کنید.</CallDropPods.description>
+  
+  <!-- EN: call mechanoids -->
+  <CallMechanoids.label>مکانیسم‌ها را صدا کنید</CallMechanoids.label>
+  <!-- EN: Summon hostile mechanoids to a location using drop pods. They will attack all nearby humans - friend or foe. -->
+  <CallMechanoids.description>مکانیسم های متخاصم را با استفاده از غلاف های دراپ به یک مکان احضار کنید. آنها به همه انسان های نزدیک - دوست یا دشمن - حمله خواهند کرد.</CallMechanoids.description>
+  
+  <!-- EN: deactivate mechanoid -->
+  <DeactivateMechanoid.label>مکانیک را غیرفعال کنید</DeactivateMechanoid.label>
+  <!-- EN: Permanently disable a hostile mechanoid. -->
+  <DeactivateMechanoid.description>یک مکانوئید متخاصم را برای همیشه غیرفعال کنید.</DeactivateMechanoid.description>
+  
+  <!-- EN: egg spew -->
+  <EggSpew.label>تخم مرغ</EggSpew.label>
+  <!-- EN: Launch an egg sac and a spray of acidic sludge at the target area. The sludge will stick to targets and burn them. -->
+  <EggSpew.description>یک کیسه تخم مرغ و اسپری لجن اسیدی را در ناحیه مورد نظر پرتاب کنید. لجن به اهداف می چسبد و آنها را می سوزاند.</EggSpew.description>
+  
+  <!-- EN: sludge spew -->
+  <SludgeSpew.label>پرتاب لجن</SludgeSpew.label>
+  <!-- EN: Spray an acidic sludge all over the target area. The sludge will stick to targets and burn them. -->
+  <SludgeSpew.description>یک لجن اسیدی را در سراسر ناحیه مورد نظر اسپری کنید. لجن به اهداف می چسبد و آنها را می سوزاند.</SludgeSpew.description>
+  
+  <!-- EN: terror roar -->
+  <TerrorRoar.label>غرش وحشت</TerrorRoar.label>
+  <!-- EN: Release a terrifying roar which has a chance to send nearby hostile humans and animals fleeing in terror. -->
+  <TerrorRoar.description>غرش وحشتناکی را منتشر کنید که فرصتی برای فرار انسان‌ها و حیوانات متخاصم در نزدیکی دارد.</TerrorRoar.description>
+  
+  <!-- EN: thrumbo roar -->
+  <ThrumboRoar.label>غرش ترومبو</ThrumboRoar.label>
+  <!-- EN: Release a powerful roar which has a chance to cause hostile humans and animals to tremble in fear, reducing their movement speed and manipulation. -->
+  <ThrumboRoar.description>یک غرش قدرتمند آزاد کنید که این فرصت را دارد که باعث شود انسان‌ها و حیوانات متخاصم از ترس بلرزند و سرعت حرکت و دستکاری آنها را کاهش دهد.</ThrumboRoar.description>
+  
+  <!-- EN: war trumpet -->
+  <WarTrumpet.label>شیپور جنگی</WarTrumpet.label>
+  <!-- EN: Release a powerful roar which has a chance to cause hostile humans and animals to tremble in fear, reducing their movement speed and manipulation. -->
+  <WarTrumpet.description>یک غرش قدرتمند آزاد کنید که این فرصت را دارد که باعث شود انسان‌ها و حیوانات متخاصم از ترس بلرزند و سرعت حرکت و دستکاری آنها را کاهش دهد.</WarTrumpet.description>
+  
+</LanguageData>

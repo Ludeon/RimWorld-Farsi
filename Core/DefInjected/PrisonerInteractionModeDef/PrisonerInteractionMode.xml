@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: recruit -->
+  <AttemptRecruit.label>استخدام کردن</AttemptRecruit.label>
+  <!-- EN: Wardens will attempt to recruit the prisoner. If the prisoner still has resistance, wardens will speak to them to reduce it. -->
+  <AttemptRecruit.description>نگهبانان تلاش خواهند کرد تا زندانی را جذب کنند. اگر زندانی همچنان مقاومت داشته باشد، نگهبانان برای کاهش آن با آنها صحبت خواهند کرد.</AttemptRecruit.description>
+  
+  <!-- EN: execute -->
+  <Execution.label>اجرا کنند</Execution.label>
+  <!-- EN: A warden will execute the prisoner on the spot by cutting. This can affect the mood of other prisoners and colonists. -->
+  <Execution.description>یک نگهبان زندانی را در محل با بریدن اعدام می کند. این می تواند بر روحیه سایر زندانیان و مستعمره نشینان تأثیر بگذارد.</Execution.description>
+  
+  <!-- EN: maintain only -->
+  <MaintainOnly.label>فقط حفظ کنید</MaintainOnly.label>
+  <!-- EN: Just feed the prisoner and provide for their basic needs, without attempting any other interaction. -->
+  <MaintainOnly.description>فقط به زندانی غذا بدهید و نیازهای اولیه او را تامین کنید، بدون اینکه هیچ تعامل دیگری انجام دهید.</MaintainOnly.description>
+  
+  <!-- EN: reduce resistance only -->
+  <ReduceResistance.label>فقط مقاومت را کاهش دهید</ReduceResistance.label>
+  <!-- EN: If the prisoner still has resistance, wardens will speak to them to reduce it. No recruit attempts will be made. -->
+  <ReduceResistance.description>اگر زندانی همچنان مقاومت داشته باشد، نگهبانان برای کاهش آن با آنها صحبت خواهند کرد. هیچ تلاشی برای استخدام انجام نخواهد شد.</ReduceResistance.description>
+  
+  <!-- EN: release -->
+  <Release.label>آزاد کردن</Release.label>
+  <!-- EN: A warden will release the prisoner. -->
+  <Release.description>یک نگهبان زندانی را آزاد می کند.</Release.description>
+  
+</LanguageData>

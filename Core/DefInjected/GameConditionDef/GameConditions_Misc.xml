@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: aurora -->
+  <Aurora.label>شفق قطبی</Aurora.label>
+  <!-- EN: An aurora is lighting up the sky. The breathtaking display will boost the mood of anyone outside to see it. -->
+  <Aurora.description>شفق قطبی آسمان را روشن می کند. صفحه نمایش خیره کننده، روحیه هر کسی را که در خارج از خانه برای دیدن آن افزایش می دهد.</Aurora.description>
+  <!-- EN: The aurora is ending. -->
+  <Aurora.endMessage>شفق قطبی به پایان می رسد.</Aurora.endMessage>
+  <!-- EN: A beautiful aurora is lighting up the sky.\n\nThe undulating colors will boost the mood of anyone outside to see them, and make the night brighter. -->
+  <Aurora.letterText>شفقی زیبا آسمان را روشن می‌کند.\n\nرنگ‌های موج‌دار خلق و خوی هر کسی را که در بیرون از خانه برای دیدن آن‌ها است، تقویت می‌کند و شب را روشن‌تر می‌کند.</Aurora.letterText>
+  
+  <!-- EN: climate cycle -->
+  <ClimateCycle.label>چرخه آب و هوا</ClimateCycle.label>
+  <!-- EN: A multi-year climate cycle due to an elliptical orbit. -->
+  <ClimateCycle.description>یک چرخه آب و هوایی چند ساله به دلیل یک مدار بیضی شکل.</ClimateCycle.description>
+  
+  <!-- EN: cold snap -->
+  <ColdSnap.label>ضربه سرد</ColdSnap.label>
+  <!-- EN: An unusual cold snap is freezing the region. -->
+  <ColdSnap.description>یک سرمای غیرعادی منطقه را یخ زده است.</ColdSnap.description>
+  <!-- EN: a front of cold air will cool the area around [map_definite] for [gameConditionDuration_duration], harming crops and any person or animal without adequate protection -->
+  <ColdSnap.descriptionFuture>جلوی هوای سرد منطقه اطراف [map_definite] را برای [gameConditionDuration_duration] خنک می کند و به محصولات کشاورزی و هر شخص یا حیوانی بدون حفاظت کافی آسیب می رساند.</ColdSnap.descriptionFuture>
+  <!-- EN: The cold snap is over. -->
+  <ColdSnap.endMessage>سرماخوردگی تمام شد</ColdSnap.endMessage>
+  <!-- EN: An unusual cold snap has set in.\n\nCold snaps can quickly kill by hypothermia. Be sure to build a heated space to survive, wear appropriate apparel, and try to harvest crops before they freeze and die. -->
+  <ColdSnap.letterText>یک سرماخوردگی غیرمعمول ایجاد شده است.\n\nفشارهای سرد می توانند به سرعت در اثر هیپوترمی از بین بروند. حتماً یک فضای گرم برای زنده ماندن بسازید، لباس مناسب بپوشید و سعی کنید محصولات را قبل از یخ زدن و مرگ آنها برداشت کنید.</ColdSnap.letterText>
+  
+  <!-- EN: eclipse -->
+  <Eclipse.label>کسوف</Eclipse.label>
+  <!-- EN: An eclipse is shadowing the surface. It will be dark, even during the daytime. -->
+  <Eclipse.description>ماه گرفتگی در حال سایه انداختن سطح است. هوا تاریک خواهد بود، حتی در طول روز.</Eclipse.description>
+  <!-- EN: The eclipse is ending. -->
+  <Eclipse.endMessage>خسوف داره تموم میشه</Eclipse.endMessage>
+  <!-- EN: One of the moons of this planet has orbited in front of the sun. An eclipse has begun. -->
+  <Eclipse.letterText>یکی از قمرهای این سیاره در مقابل خورشید می چرخد. ماه گرفتگی آغاز شده است.</Eclipse.letterText>
+  
+  <!-- EN: flashstorm -->
+  <Flashstorm.label>طوفان ناگهانی</Flashstorm.label>
+  <!-- EN: A freak localized storm is blasting a small area with repeated lightning strikes. -->
+  <Flashstorm.description>یک طوفان محلی عجیب و غریب در حال انفجار یک منطقه کوچک با رعد و برق های مکرر است.</Flashstorm.description>
+  <!-- EN: The flashstorm is over. -->
+  <Flashstorm.endMessage>طوفان به پایان رسید.</Flashstorm.endMessage>
+  <!-- EN: A freak localized flashstorm is striking a small area with lightning. This can cause massive fires. -->
+  <Flashstorm.letterText>یک طوفان محلی عجیب و غریب با رعد و برق به منطقه کوچکی برخورد می کند. این می تواند باعث آتش سوزی گسترده شود.</Flashstorm.letterText>
+  
+  <!-- EN: heat wave -->
+  <HeatWave.label>موج گرما</HeatWave.label>
+  <!-- EN: An extreme wave of heat is baking the area. -->
+  <HeatWave.description>موج شدید گرما در حال پختن منطقه است.</HeatWave.description>
+  <!-- EN: a heat wave will bake the area around [map_definite] for [gameConditionDuration_duration], harming crops and possibly killing people or animals in uncooled areas -->
+  <HeatWave.descriptionFuture>یک موج گرما منطقه اطراف [map_definite] را برای [gameConditionDuration_duration] ایجاد می کند و به محصولات زراعی آسیب می رساند و احتمالاً باعث مرگ افراد یا حیوانات در مناطق خنک نشده می شود.</HeatWave.descriptionFuture>
+  <!-- EN: The heat wave is over. -->
+  <HeatWave.endMessage>موج گرما تمام شده است.</HeatWave.endMessage>
+  <!-- EN: An unusual heat wave has begun.\n\nHeat waves can induce deadly heatstroke. Stay cool by building either a passive or electric cooler, or by getting deep underground where the rocks are naturally cool. -->
+  <HeatWave.letterText>یک موج گرمای غیرمعمول شروع شده است.\n\nامواج گرما می‌تواند باعث گرمازدگی مرگبار شود. با ساختن یک کولر غیرفعال یا الکتریکی یا با قرار گرفتن در اعماق زیرزمینی که صخره‌ها به طور طبیعی خنک هستند خنک بمانید.</HeatWave.letterText>
+  
+  <!-- EN: planetkiller -->
+  <Planetkiller.label>سیاره کش</Planetkiller.label>
+  <!-- EN: An interstellar planetkiller weapon is approaching this planet. It will smash the planet apart like a rifle bullet hitting an egg, annihilating all life. -->
+  <Planetkiller.description>یک سلاح سیاره کش بین ستاره‌ای در حال نزدیک شدن به این سیاره است. این سیاره را مانند گلوله تفنگی که به تخمی اصابت می کند از هم می پاشد و همه زندگی را از بین می برد.</Planetkiller.description>
+  
+  <!-- EN: psychic drone -->
+  <PsychicDrone.label>پهپاد روانی</PsychicDrone.label>
+  <!-- EN: A distant archotech is emitting psychic signals through an orbital amplifier, driving people towards insanity. -->
+  <PsychicDrone.description>یک آرکوتک دوردست سیگنال‌های روانی را از طریق تقویت‌کننده مداری منتشر می‌کند و مردم را به سمت جنون سوق می‌دهد.</PsychicDrone.description>
+  <!-- EN: a [psychicDroneLevel] psychic drone will buzz the area around [map_definite] for [gameConditionDuration_duration], pushing all people of the [psychicDroneGender] gender towards insanity -->
+  <PsychicDrone.descriptionFuture>یک پهپاد روانی [psychicDroneLevel] منطقه اطراف [map_definite] را برای [gameConditionDuration_duration] صدا می کند و همه افراد از جنس [psychicDroneGender] را به سمت جنون سوق می دهد.</PsychicDrone.descriptionFuture>
+  <!-- EN: The psychic drone is ending. -->
+  <PsychicDrone.endMessage>پهپاد روانی در حال پایان است.</PsychicDrone.endMessage>
+  <!-- EN: Every {0} colonist feels a wave of anxiety and anger!\n\nSome distant engine of hatred is stirring. It is projecting a psychic drone onto this site through an orbital amplifier, tuned to only affect {0}s. For a few days, some people's mood will be quite a bit worse.\n\nThe drone level is {1}. -->
+  <PsychicDrone.letterText>هر مستعمره‌ای {0} موجی از اضطراب و خشم را احساس می‌کند!\n\nبرخی موتور نفرت دور در حال حرکت است. این هواپیما یک پهپاد روانی را از طریق تقویت کننده مداری به این سایت پرتاب می کند که فقط بر روی {0} تنظیم شده است. برای چند روز، خلق و خوی برخی افراد کمی بدتر خواهد شد.\n\nسطح پهپاد {1} است.</PsychicDrone.letterText>
+  
+  <!-- EN: psychic soothe -->
+  <PsychicSoothe.label>آرام بخش روانی</PsychicSoothe.label>
+  <!-- EN: A distant archotech is emitting psychic signals through an orbital amplifier, calming people and stabilizing their minds. -->
+  <PsychicSoothe.description>یک آرکوتک دوردست سیگنال های روانی را از طریق تقویت کننده مداری منتشر می کند، مردم را آرام می کند و ذهن آنها را تثبیت می کند.</PsychicSoothe.description>
+  <!-- EN: The psychic soothe is ending. -->
+  <PsychicSoothe.endMessage>آرامش روانی در حال پایان است.</PsychicSoothe.endMessage>
+  <!-- EN: Every {0} colonist smiles with contentment!\n\nSome distant engine of happiness is stirring. It is projecting a psychic drone onto this site through an orbital amplifier, tuned to only affect {0}s. For a few days, some people's mood will be quite a bit better. -->
+  <PsychicSoothe.letterText>هر مستعمره‌ای {0} با رضایت لبخند می‌زند!\n\nچند موتور خوشبختی از راه دور در حال تکان است. این هواپیما یک پهپاد روانی را از طریق تقویت کننده مداری به این سایت پرتاب می کند که فقط بر روی {0} تنظیم شده است. برای چند روز، خلق و خوی برخی افراد کمی بهتر خواهد شد.</PsychicSoothe.letterText>
+  
+  <!-- EN: solar flare -->
+  <SolarFlare.label>شراره خورشیدی</SolarFlare.label>
+  <!-- EN: A solar flare is blasting the planet. The electromagnetic interference will prevent most electrical devices from working. -->
+  <SolarFlare.description>یک شراره خورشیدی در حال انفجار این سیاره است. تداخل الکترومغناطیسی از کارکرد بیشتر دستگاه های الکتریکی جلوگیری می کند.</SolarFlare.description>
+  <!-- EN: The solar flare is ending. -->
+  <SolarFlare.endMessage>شعله ی خورشیدی در حال پایان است.</SolarFlare.endMessage>
+  <!-- EN: A solar flare has begun.\n\nThe intense radiation will shut down all electrical devices.\n\nIt should pass in about a day. -->
+  <SolarFlare.letterText>شعله‌های خورشیدی شروع شده است.\n\nتابش شدید همه دستگاه‌های الکتریکی را خاموش می‌کند.\n\nباید حدود یک روز دیگر بگذرد.</SolarFlare.letterText>
+  
+  <!-- EN: toxic fallout -->
+  <ToxicFallout.label>ریزش سمی</ToxicFallout.label>
+  <!-- EN: A plume of toxic dust is slowly settling over this entire region. Any living thing not under a roof will be slowly poisoned, and items left outside will corrode. -->
+  <ToxicFallout.description>توده‌ای از گرد و غبار سمی به آرامی در سراسر این منطقه می نشیند. هر موجود زنده‌ای که زیر سقف نباشد به آرامی مسموم می شود و وسایلی که در بیرون باقی می مانند خورده می شوند.</ToxicFallout.description>
+  <!-- EN: a cloud of toxic fallout will blanket the area around [map_definite] for [gameConditionDuration_duration], killing outdoor plant and animal life -->
+  <ToxicFallout.descriptionFuture>ابری از ریزش سمی منطقه اطراف [map_definite] را برای [gameConditionDuration_duration] پوشانده و زندگی گیاهان و حیوانات در فضای باز را از بین می برد.</ToxicFallout.descriptionFuture>
+  <!-- EN: The worst of the toxic fallout has settled. -->
+  <ToxicFallout.endMessage>بدترین ریزش سمی فروکش کرده است.</ToxicFallout.endMessage>
+  <!-- EN: A distant chemical fire has released a plume of poison over this entire region.\n\nAny person or creature not under a roof will be slowly sickened by the toxic dust settling out of the atmosphere.\n\nIt will last for anywhere between a few days to nearly a quadrum. -->
+  <ToxicFallout.letterText>یک آتش‌سوزی شیمیایی دور، توده‌ای از سم را در سراسر این منطقه منتشر کرده است.\n\nهر فرد یا موجودی که زیر سقف نباشد، به‌آرامی با گرد و غبار سمی که در اتمسفر فرو می‌نشیند، بیمار می‌شود.\n\nاز چند روز تا تقریباً یک چهارگوشه ادامه خواهد داشت.</ToxicFallout.letterText>
+  
+  <!-- EN: volcanic winter -->
+  <VolcanicWinter.label>زمستان آتشفشانی</VolcanicWinter.label>
+  <!-- EN: Some distant volcano or fire is choking the atmosphere with ash, significantly reducing the amount of light which reaches the surface. Temperatures will be colder and plants will grow slower. -->
+  <VolcanicWinter.description>برخی از آتشفشان‌ها یا آتش های دوردست جو را با خاکستر خفه می کنند و میزان نوری را که به سطح می رسد به میزان قابل توجهی کاهش می دهد. دما سردتر خواهد شد و گیاهان کندتر رشد خواهند کرد.</VolcanicWinter.description>
+  <!-- EN: a layer of ash will be deposited in the upper atmosphere, reducing sunlight around [map_definite] for [gameConditionDuration_duration], seriously harming the local ecosystem -->
+  <VolcanicWinter.descriptionFuture>لایه‌ای از خاکستر در اتمسفر فوقانی رسوب می کند و نور خورشید را در اطراف [map_definite] برای [gameConditionDuration_duration] کاهش می دهد و به اکوسیستم محلی آسیب جدی وارد می کند.</VolcanicWinter.descriptionFuture>
+  <!-- EN: Most of the ash has settled. -->
+  <VolcanicWinter.endMessage>بیشتر خاکستر ته نشین شده است.</VolcanicWinter.endMessage>
+  <!-- EN: Some distant volcano or fire has begun spewing massive quantities of ash into the atmosphere.\n\nAsh in the atmosphere will obscure the sun. Temperatures will drop and plants will suffer for lack of sunlight. It could pass in a few weeks, or it might last many quadrums. -->
+  <VolcanicWinter.letterText>برخی از آتشفشان‌ها یا آتش‌فشان‌های دوردست شروع به پرتاب مقادیر عظیمی از خاکستر به جو کرده است.\n\nخاکستر موجود در جو خورشید را مبهم می‌کند. دما کاهش می یابد و گیاهان از کمبود نور خورشید رنج می برند. ممکن است در عرض چند هفته از بین برود، یا ممکن است چندین چهارگوشه طول بکشد.</VolcanicWinter.letterText>
+  
+</LanguageData>

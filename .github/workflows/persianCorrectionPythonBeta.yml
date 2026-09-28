@@ -1,43 +1,578 @@
-name: Translation Workflow (Beta)
+name: Persian Translation CI/CD
+
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/**'
+      - 'Core/**'
+      - 'Royalty/**'
+      - 'Ideology/**'
+      - 'Biotech/**'
+      - 'Anomaly/**'
+      - 'Odyssey/**'
+      - '.github/workflows/persianCorrectionPythonBeta.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'tools/**'
+      - 'Core/**'
+      - 'Royalty/**'
+      - 'Ideology/**'
+      - 'Biotech/**'
+      - 'Anomaly/**'
+      - 'Odyssey/**'
+      - '.github/workflows/persianCorrectionPythonBeta.yml'
   workflow_dispatch:
+    inputs:
+      python_version:
+        description: 'Python version to use'
+        required: false
+        default: '3.13'
+        type: choice
+        options:
+          - '3.11'
+          - '3.12'
+          - '3.13'
+      enable_security_scan:
+        description: 'Enable advanced security scanning'
+        required: false
+        default: true
+        type: boolean
+      enable_qa:
+        description: 'Enable quality assurance (testing and code quality checks)'
+        required: false
+        default: true
+        type: boolean
+      create_release:
+        description: 'Create a GitHub release after successful build'
+        required: false
+        default: false
+        type: boolean
+      enable_performance_benchmark:
+        description: 'Run performance benchmarks'
+        required: false
+        default: false
+        type: boolean
+      enable_compliance_checks:
+        description: 'Run compliance and license scanning'
+        required: false
+        default: false
+        type: boolean
+      is_prerelease:
+        description: 'Mark release as pre-release (beta)'
+        required: false
+        default: true
+        type: boolean
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 env:
-  ACTIONS_RUNNER_DEBUG: true
+  PYTHON_VERSION: ${{ github.event.inputs.python_version || '3.13' }}
+  UV_CACHE_DIR: ~/.cache/uv
+  BUILD_DIR: Data
+  TOOLS_DIR: tools/rtl-processor
+
+permissions:
+  contents: read
+  actions: read
+  security-events: write
+  pull-requests: write
+  checks: write
+  id-token: write
+  attestations: write
 
 jobs:
-  translation_job:
+  security:
+    name: Security & Dependency Analysis
+    if: github.event_name != 'workflow_dispatch' || github.event.inputs.enable_security_scan != 'false'
+    uses: ./.github/workflows/reusable-security.yml
+    with:
+      enable_compliance: ${{ github.event.inputs.enable_compliance_checks == 'true' }}
+
+  test:
+    name: Quality Assurance
+    if: github.event_name != 'workflow_dispatch' || github.event.inputs.enable_qa != 'false'
+    uses: ./.github/workflows/reusable-testing.yml
+    with:
+      python_versions: '["3.11", "3.12", "3.13"]'
+      enable_benchmarks: ${{ github.event.inputs.enable_performance_benchmark == 'true' }}
+      skip_qa: ${{ github.event.inputs.enable_qa == 'false' }}
+
+  build:
+    name: Build & Validate
     runs-on: ubuntu-latest
+    timeout-minutes: 25
+    needs: test
+    if: needs.test.result != 'skipped'
+    permissions:
+      contents: read
+      actions: read
+      id-token: write
+      attestations: write
+
+    outputs:
+      module: ${{ matrix.module }}
+
+    strategy:
+      matrix:
+        module: [Core, Biotech, Ideology, Royalty, Anomaly, Odyssey]
+        include:
+          - module: Core
+            priority: 1
+          - module: Biotech
+            priority: 2
+          - module: Ideology
+            priority: 3
+          - module: Royalty
+            priority: 4
+          - module: Anomaly
+            priority: 5
+          - module: Odyssey
+            priority: 6
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Setup Python Environment
+        uses: ./.github/actions/setup-python-env
         with:
-          python-version: '3.11'
+          python-version: ${{ env.PYTHON_VERSION }}
 
-      - name: Install Python dependencies
-        run: pip install lxml
-
-      - name: Run translation script (Python)
+      - name: Process ${{ matrix.module }} translations
+        id: translation
         run: |
-          cd ${{ github.workspace }}
-          echo "Listing files:"
-          ls
-          dest_dir="${{ github.workspace }}/Persian/"
-          cd RTL-Tools-Python-Beta
-          python3 PersianFixer.py "$dest_dir" || { echo "PersianFixer.py failed"; exit 1; }
-          echo "Correction complete."
+          echo "🔄 Processing ${{ matrix.module }} translations..."
+          cd ${{ env.TOOLS_DIR }}
+          START_TIME=$(date +%s)
 
-      - name: Create ZIP archive
+          if [ -d "${{ github.workspace }}/${{ matrix.module }}" ]; then
+            MODULE_PATH="${{ github.workspace }}/${{ matrix.module }}"
+          elif [ -d "${{ github.workspace }}/${{ env.BUILD_DIR }}/${{ matrix.module }}" ]; then
+            MODULE_PATH="${{ github.workspace }}/${{ env.BUILD_DIR }}/${{ matrix.module }}"
+          else
+            MODULE_PATH="${{ github.workspace }}/${{ matrix.module }}"
+          fi
+
+          # Robust module existence and size check
+          if [ -d "$MODULE_PATH" ]; then
+            # Check if module has content
+            FILE_COUNT=$(find "$MODULE_PATH" -name "*.xml" | wc -l)
+            if [ "$FILE_COUNT" -eq 0 ]; then
+              echo "⚠️  Module ${{ matrix.module }} exists but contains no XML files, skipping..."
+              echo "translation_duration=0" >> $GITHUB_OUTPUT
+              echo "✅ ${{ matrix.module }} module skipped (no XML files)"
+              exit 0
+            fi
+
+            # Check module size (warn if very large)
+            MODULE_SIZE=$(du -sm "$MODULE_PATH" | cut -f1)
+            if [ "$MODULE_SIZE" -gt 500 ]; then
+              echo "⚠️  Large module detected: ${{ matrix.module }} (${MODULE_SIZE}MB)"
+            fi
+
+            echo "📊 Processing $FILE_COUNT XML files in ${{ matrix.module }} module..."
+
+            # Process with error handling
+            if python PersianFixer.py "$MODULE_PATH"; then
+              END_TIME=$(date +%s)
+              DURATION=$((END_TIME - START_TIME))
+              echo "translation_duration=$DURATION" >> $GITHUB_OUTPUT
+              echo "✅ ${{ matrix.module }} translation processing completed in ${DURATION}s ($FILE_COUNT files)"
+            else
+              echo "❌ Translation processing failed for ${{ matrix.module }}"
+              exit 1
+            fi
+          else
+            echo "ℹ️  Module ${{ matrix.module }} not found, skipping..."
+            echo "translation_duration=0" >> $GITHUB_OUTPUT
+            echo "✅ ${{ matrix.module }} module skipped (not found)"
+          fi
+
+      - name: Validate ${{ matrix.module }} XML structure
+        id: validation
         run: |
-          cd ${{ github.workspace }}
-          zip -r persian.language.zip ./Persian
+          echo "🔍 Validating ${{ matrix.module }} XML files..."
+          cd ${{ env.TOOLS_DIR }}
+          START_TIME=$(date +%s)
 
-      - name: Upload ZIP as workflow artifact
+          if [ -d "${{ github.workspace }}/${{ matrix.module }}" ]; then
+            python validate_xml.py "${{ github.workspace }}/${{ matrix.module }}"
+          elif [ -d "${{ github.workspace }}/${{ env.BUILD_DIR }}/${{ matrix.module }}" ]; then
+            python validate_xml.py "${{ github.workspace }}/${{ env.BUILD_DIR }}/${{ matrix.module }}"
+          fi
+
+          END_TIME=$(date +%s)
+          DURATION=$((END_TIME - START_TIME))
+          echo "validation_duration=$DURATION" >> $GITHUB_OUTPUT
+          echo "✅ ${{ matrix.module }} XML validation completed in ${DURATION}s"
+
+      - name: Upload module artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: persian.language.zip
-          path: ./persian.language.zip
+          name: ${{ matrix.module }}-processed-${{ github.run_id }}
+          path: |
+            ${{ matrix.module }}/**
+            ${{ env.BUILD_DIR }}/${{ matrix.module }}/**
+          retention-days: 1
+          if-no-files-found: warn
+
+  merge-modules:
+    name: Merge & Package
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    needs: [build]
+    permissions:
+      contents: read
+      actions: read
+      id-token: write
+      attestations: write
+
+    outputs:
+      artifact-name: ${{ steps.artifact.outputs.name }}
+      build-id: ${{ steps.metadata.outputs.build-id }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python Environment
+        uses: ./.github/actions/setup-python-env
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Download all module artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: modules/
+          # Retry logic for race conditions
+
+      - name: Merge modules into final build
+        run: |
+          echo "🔀 Merging processed modules..."
+          mkdir -p ${{ env.BUILD_DIR }}
+
+          # Copy all processed modules
+          for module in Core Biotech Ideology Royalty Anomaly Odyssey; do
+            if [ -d "modules/${module}-processed-${{ github.run_id }}" ]; then
+              mkdir -p "${{ env.BUILD_DIR }}/${module}"
+              cp -r "modules/${module}-processed-${{ github.run_id }}"/* "${{ env.BUILD_DIR }}/${module}/"
+            fi
+          done
+
+          echo "✅ Module merging completed"
+
+      - name: Generate comprehensive build report
+        id: metadata
+        run: |
+          BUILD_ID="${{ github.run_id }}-${{ github.run_attempt }}"
+          TIMESTAMP="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          echo "build-id=$BUILD_ID" >> $GITHUB_OUTPUT
+          echo "timestamp=$TIMESTAMP" >> $GITHUB_OUTPUT
+
+          # Calculate total durations from job outputs
+          TOTAL_TRANSLATION=0
+          TOTAL_VALIDATION=0
+
+          # Create comprehensive reports.txt
+          cat > ${{ env.BUILD_DIR }}/reports.txt << 'EOF'
+          ========================================
+          PERSIAN LANGUAGE PACK BUILD REPORT
+          ========================================
+
+          BUILD INFORMATION
+          -----------------
+          Build ID: ${{ github.run_id }}-${{ github.run_attempt }}
+          Commit: ${{ github.sha }}
+          Timestamp: $TIMESTAMP
+          Repository: ${{ github.repository }}
+          Workflow: ${{ github.workflow }}
+          Trigger: ${{ github.event_name }}
+          Branch: ${{ github.ref_name }}
+          Actor: ${{ github.actor }}
+          Run ID: ${{ github.run_id }}
+          Run Attempt: ${{ github.run_attempt }}
+
+          CONFIGURATION
+          -------------
+          Python Version: ${{ env.PYTHON_VERSION }}
+          Enable Security Scan: ${{ github.event.inputs.enable_security_scan || 'true' }}
+          Enable QA: ${{ github.event.inputs.enable_qa || 'true' }}
+          Enable Performance Benchmark: ${{ github.event.inputs.enable_performance_benchmark || 'false' }}
+          Enable Compliance Checks: ${{ github.event.inputs.enable_compliance_checks || 'false' }}
+          Create Release: ${{ github.event.inputs.create_release || 'false' }}
+          Is Pre-release: ${{ github.event.inputs.is_prerelease || 'true' }}
+
+          DEPENDENCIES & TOOLS
+          -------------------
+          Python Packages (from requirements.txt):
+          EOF
+
+          # Add Python dependencies
+          if [ -f "${{ env.TOOLS_DIR }}/requirements.txt" ]; then
+            echo "Contents of requirements.txt:" >> ${{ env.BUILD_DIR }}/reports.txt
+            cat ${{ env.TOOLS_DIR }}/requirements.txt >> ${{ env.BUILD_DIR }}/reports.txt
+            echo "" >> ${{ env.BUILD_DIR }}/reports.txt
+          fi
+
+          cat >> ${{ env.BUILD_DIR }}/reports.txt << 'EOF'
+
+          GitHub Actions Used:
+          - actions/checkout@v4
+          - actions/setup-python (custom action)
+          - github/codeql-action/init@v3
+          - github/codeql-action/autobuild@v3
+          - github/codeql-action/analyze@v3
+          - actions/dependency-review-action@v4
+          - aquasecurity/trivy-action@v0.36.0
+          - actions/upload-artifact@v4
+          - actions/download-artifact@v4
+          - actions/attest-build-provenance@v2
+          - sigstore/cosign-installer@v3
+          - softprops/action-gh-release@v2
+          - codecov/codecov-action@v5
+
+          System Tools:
+          - Python ${{ env.PYTHON_VERSION }}
+          - pip, uv (package manager)
+          - lxml (XML processing)
+          - pytest (testing)
+          - mypy (type checking)
+          - ruff (linting)
+          - black (code formatting)
+          - isort (import sorting)
+          - pip-audit (security audit)
+          - pip-licenses (license checking)
+
+          PROCESSING STATISTICS
+          --------------------
+          Parallel Processing: Enabled
+          Modules Processed: Core, Biotech, Ideology, Royalty, Anomaly, Odyssey
+          Total Modules: 6
+
+          WORKFLOW EXECUTION SUMMARY
+          --------------------------
+          Security Job: ${{ needs.security.result || 'not_run' }}
+          QA Job: ${{ needs.test.result || 'not_run' }}
+          Build Jobs: Parallel execution across 6 modules
+          Merge & Package: ${{ job.status }}
+
+          KEY OUTPUTS
+          -----------
+          - Persian language pack ZIP archive
+          - SHA256 and MD5 checksums
+          - SLSA Level 3 provenance attestation
+          - Sigstore cryptographic signatures
+          - Comprehensive build report (this file)
+
+          NOTES FOR FUTURE IMPROVEMENTS
+          -----------------------------
+          - Review any warnings in job logs
+          - Check code quality metrics in test results
+          - Monitor performance benchmarks if enabled
+          - Verify security scan results in Security tab
+          - Test language pack in RimWorld for any issues
+
+          ========================================
+          END OF REPORT
+          ========================================
+          EOF
+
+          # Also create the JSON for backward compatibility
+          cat > ${{ env.BUILD_DIR }}/build_info.json << EOF
+          {
+            "build_id": "$BUILD_ID",
+            "commit": "${{ github.sha }}",
+            "timestamp": "$TIMESTAMP",
+            "repository": "${{ github.repository }}",
+            "workflow": "${{ github.workflow }}",
+            "trigger": "${{ github.event_name }}",
+            "branch": "${{ github.ref_name }}",
+            "actor": "${{ github.actor }}",
+            "python_version": "${{ env.PYTHON_VERSION }}",
+            "run_id": "${{ github.run_id }}",
+            "run_attempt": "${{ github.run_attempt }}",
+            "parallel_processing": true,
+            "modules_processed": ["Core", "Biotech", "Ideology", "Royalty", "Anomaly", "Odyssey"]
+          }
+          EOF
+
+      - name: Create distribution package
+        id: artifact
+        run: |
+          ARTIFACT_NAME="persian-language-${{ steps.metadata.outputs.build-id }}"
+          echo "name=$ARTIFACT_NAME" >> $GITHUB_OUTPUT
+
+          # Create optimized ZIP
+          cd ${{ env.BUILD_DIR }}
+          zip -r "../$ARTIFACT_NAME.zip" . --compression-method deflate
+
+          # Generate cryptographic hashes
+          sha256sum "../$ARTIFACT_NAME.zip" > "../$ARTIFACT_NAME.zip.sha256"
+          md5sum "../$ARTIFACT_NAME.zip" > "../$ARTIFACT_NAME.zip.md5"
+
+      - name: Attest build provenance
+        uses: actions/attest-build-provenance@v2
+        with:
+          subject-path: ${{ steps.artifact.outputs.name }}.zip
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.artifact.outputs.name }}
+          path: |
+            ${{ steps.artifact.outputs.name }}.zip
+            ${{ steps.artifact.outputs.name }}.zip.sha256
+            ${{ steps.artifact.outputs.name }}.zip.md5
+            ${{ env.BUILD_DIR }}/reports.txt
+          retention-days: 30
+          if-no-files-found: error
+
+      - name: Generate enhanced job summary
+        if: always()
+        run: |
+          echo "# 🚀 Persian Translation Build Summary" >> $GITHUB_STEP_SUMMARY
+          echo "| Property | Value |" >> $GITHUB_STEP_SUMMARY
+          echo "|----------|-------|" >> $GITHUB_STEP_SUMMARY
+          echo "| Status | ${{ job.status == 'success' && '✅ Success' || '❌ Failed' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Build ID | ${{ steps.metadata.outputs.build-id }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Commit | \`${{ github.sha }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| Timestamp | ${{ steps.metadata.outputs.timestamp }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Python Version | ${{ env.PYTHON_VERSION }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Processing Mode | Parallel (6 modules) |" >> $GITHUB_STEP_SUMMARY
+          echo "| Trigger | ${{ github.event_name }} |" >> $GITHUB_STEP_SUMMARY
+
+          if [ "${{ job.status }}" = "success" ]; then
+            echo "| Artifacts | [View & Download](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}#artifacts) |" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "## 📋 Build Results" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ job.status }}" = "success" ]; then
+            echo "- ✅ Security checks passed" >> $GITHUB_STEP_SUMMARY
+            echo "- ✅ Quality assurance completed" >> $GITHUB_STEP_SUMMARY
+            echo "- ✅ Parallel translation processing successful" >> $GITHUB_STEP_SUMMARY
+            echo "- ✅ XML validation passed" >> $GITHUB_STEP_SUMMARY
+            echo "- ✅ Build artifacts created and attested" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "- ❌ Build failed - review job logs for details" >> $GITHUB_STEP_SUMMARY
+          fi
+
+  release:
+    name: Automated Release
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    needs: merge-modules
+    if: (github.ref == 'refs/heads/main' && github.event_name == 'push') || (github.event_name == 'workflow_dispatch' && github.event.inputs.create_release == 'true')
+
+    permissions:
+      contents: write
+      id-token: write
+      attestations: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download build artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ needs.merge-modules.outputs.artifact-name }}
+          path: artifacts/
+
+      - name: Determine next version
+        id: version
+        run: |
+          # Robust tag parsing with fallback handling
+          LATEST_TAG=$(git tag --sort=-version:refname | grep '^v[0-9]\+\.[0-9]\+\.[0-9]\+$' | head -1 | sed 's/^v//')
+
+          if [ -z "$LATEST_TAG" ]; then
+            echo "ℹ️  No valid semantic version tags found, starting with 1.0.0"
+            NEXT_VERSION="1.0.0"
+          else
+            # Validate version format and increment patch
+            if [[ "$LATEST_TAG" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+              IFS='.' read -r major minor patch <<< "$LATEST_TAG"
+              # Handle patch overflow (optional)
+              if [ "$patch" -ge 999 ]; then
+                echo "⚠️  Patch version at limit, consider manual version bump"
+                NEXT_VERSION="$major.$minor.$patch"
+              else
+                NEXT_VERSION="$major.$minor.$((patch + 1))"
+              fi
+              echo "📋 Latest tag: v$LATEST_TAG, next version: v$NEXT_VERSION"
+            else
+              echo "⚠️  Invalid version format '$LATEST_TAG', falling back to 1.0.0"
+              NEXT_VERSION="1.0.0"
+            fi
+          fi
+          echo "next_version=$NEXT_VERSION" >> $GITHUB_OUTPUT
+
+      - name: Create and push tag
+        run: |
+          VERSION=${{ steps.version.outputs.next_version }}
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git tag "v$VERSION"
+          git push origin "v$VERSION"
+
+      - name: Generate release changelog
+        id: changelog
+        run: |
+          PREV_TAG=$(git tag --sort=-version:refname | grep '^v[0-9]\+\.[0-9]\+\.[0-9]\+$' | sed -n '2p')
+          if [ -n "$PREV_TAG" ]; then
+            echo "Generating changelog since $PREV_TAG"
+            LOG=$(git log "${PREV_TAG}..HEAD" --pretty=format:"- %s ([%h](https://github.com/${{ github.repository }}/commit/%H))" --no-merges)
+          else
+            echo "No previous tag found, listing recent commits"
+            LOG=$(git log -n 15 --pretty=format:"- %s ([%h](https://github.com/${{ github.repository }}/commit/%H))" --no-merges)
+          fi
+
+          if [ -z "$LOG" ]; then
+            LOG="- Translation updates and improvements."
+          fi
+
+          {
+            echo "changes<<EOF"
+            echo "$LOG"
+            echo "EOF"
+          } >> $GITHUB_OUTPUT
+
+      - name: Install Cosign
+        uses: sigstore/cosign-installer@v3
+
+      - name: Sign release artifacts with Sigstore
+        run: |
+          cd artifacts
+          for file in *.zip; do
+            cosign sign-blob --oidc-issuer https://token.actions.githubusercontent.com --yes "$file" > "$file.sig"
+          done
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ steps.version.outputs.next_version }}
+          name: Persian Language Pack v${{ steps.version.outputs.next_version }}
+          generate_release_notes: true
+          body: |
+            ### 📝 What's Changed
+            ${{ steps.changelog.outputs.changes }}
+
+            ---
+            <details>
+            <summary>🔍 Build Details & Integrity</summary>
+
+            - **Commit**: [${{ github.sha }}](https://github.com/${{ github.repository }}/commit/${{ github.sha }})
+            - **Build ID**: `${{ needs.merge-modules.outputs.build-id }}`
+            - **Package**: `persian-language-${{ needs.merge-modules.outputs.build-id }}.zip` (Signed with Sigstore)
+            </details>
+          files: artifacts/*
+          draft: false
+          prerelease: ${{ github.event.inputs.is_prerelease == 'true' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

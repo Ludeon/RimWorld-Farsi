@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: denture -->
+  <Denture.label>دندان مصنوعی</Denture.label>
+  <!-- EN: An installed denture. Allows for some basic functionality like eating and talking. -->
+  <Denture.description>دندان مصنوعی نصب شده برخی از عملکردهای اساسی مانند خوردن و صحبت کردن را امکان پذیر می کند.</Denture.description>
+  <!-- EN: a denture -->
+  <Denture.labelNoun>یک دندان مصنوعی</Denture.labelNoun>
+  
+  <!-- EN: peg leg -->
+  <PegLeg.label>پای میخ</PegLeg.label>
+  <!-- EN: An installed peg leg. Allows the user to walk again, albeit not very well. -->
+  <PegLeg.description>یک پایه گیره نصب شده به کاربر امکان می دهد دوباره راه برود، البته نه خیلی خوب.</PegLeg.description>
+  <!-- EN: a peg leg -->
+  <PegLeg.labelNoun>یک ساق میخ</PegLeg.labelNoun>
+  
+  <!-- EN: wooden foot -->
+  <WoodenFoot.label>پای چوبی</WoodenFoot.label>
+  <!-- EN: An installed wooden foot. Restores some stability to the user, but without finer motor skills. -->
+  <WoodenFoot.description>یک پایه چوبی نصب شده تا حدی ثبات را به کاربر باز می گرداند، اما بدون مهارت های حرکتی بهتر.</WoodenFoot.description>
+  <!-- EN: a wooden foot -->
+  <WoodenFoot.labelNoun>یک پای چوبی</WoodenFoot.labelNoun>
+  
+  <!-- EN: wooden hand -->
+  <WoodenHand.label>دست چوبی</WoodenHand.label>
+  <!-- EN: An installed wooden hand. Better than a stump, but not by much. -->
+  <WoodenHand.description>یک دست چوبی نصب شده بهتر از یک کنده است، اما نه خیلی.</WoodenHand.description>
+  <!-- EN: a wooden hand -->
+  <WoodenHand.labelNoun>یک دست چوبی</WoodenHand.labelNoun>
+  
+</LanguageData>

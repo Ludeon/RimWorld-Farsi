@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: blind healer -->
+  <Blindhealer.label>شفادهنده کور</Blindhealer.label>
+  <!-- EN: A blind healer is approaching the colony. -->
+  <Blindhealer.letterLabel>شفادهنده کوری در حال نزدیک شدن به کلونی است.</Blindhealer.letterLabel>
+  <!-- EN: A small, withered {PAWN_genderNoun} stands in front of you. Where {PAWN_possessive} eyes should be, there are only scar-crusted holes in {PAWN_possessive} flesh. Yet, even without eyes, {PAWN_pronoun} somehow looks at you with kindness. {PAWN_pronoun} says that {PAWN_pronoun} knows that {PAWN_possessive} skills are needed here and wants to stay for a while. -->
+  <Blindhealer.letterPrompt>{PAWN_genderNoun} کوچک و خشکیده‌ای جلوی شما ایستاده است. جایی که باید چشمان {PAWN_possessive} باشد، فقط سوراخ‌های پوسته‌دار زخم در گوشت {PAWN_possessive} وجود دارد. با این حال، حتی بدون چشمان، {PAWN_pronoun} به نحوی با مهربانی به شما نگاه می‌کند. {PAWN_pronoun} می‌گوید که می‌داند مهارت‌های {PAWN_possessive} اینجا مورد نیاز است و می‌خواهد مدتی بماند.</Blindhealer.letterPrompt>
+  
+  <!-- EN: drifter -->
+  <CreepDrifter.label>سرگردان</CreepDrifter.label>
+  <!-- EN: A visitor is approaching the colony. -->
+  <CreepDrifter.letterLabel>یک بازدیدکننده در حال نزدیک شدن به کلونی است.</CreepDrifter.letterLabel>
+  <!-- EN: The weary-looking drifter stretches {PAWN_possessive} legs. {PAWN_pronoun} seems very tired.\n\n{PAWN_pronoun} asks to stay in your colony for a while - at least until {PAWN_pronoun} has recovered {PAWN_possessive} strength. -->
+  <CreepDrifter.letterPrompt>سرگردان خسته‌نما پاهای {PAWN_possessive} را می‌کشد. {PAWN_pronoun} به نظر بسیار خسته است.\n\n{PAWN_pronoun} می‌خواهد مدتی در کلونی شما بماند - حداقل تا زمانی که {PAWN_pronoun} توان خود را بازیابد.</CreepDrifter.letterPrompt>
+  
+  <!-- EN: cult escapee -->
+  <CultEscapee.label>فراری از فرقه</CultEscapee.label>
+  <!-- EN: A mangled figure is approaching the colony. -->
+  <CultEscapee.letterLabel>پیکری تکه‌پاره در حال نزدیک شدن به کلونی است.</CultEscapee.letterLabel>
+  <!-- EN: The mangled stranger stares at you with empty eyes and speaks in a broken voice. {PAWN_pronoun} claims to have escaped from a terrible cult and begs to join your colony. -->
+  <CultEscapee.letterPrompt>غریبه‌ای زخمی و لت‌وپار با چشمانی خالی به شما خیره شده و با صدایی لرزان سخن می‌گوید. او ادعا می‌کند از دست فرقه‌ای شوم گریخته و التماس می‌کند به کلونی شما بپیوندد.</CultEscapee.letterPrompt>
+  
+  <!-- EN: dark scholar -->
+  <DarkScholar.label>دانشمند تاریک</DarkScholar.label>
+  <!-- EN: A dark scholar covered with twisted scars is approaching the colony. -->
+  <DarkScholar.letterLabel>دانشمندی تاریک پوشیده از زخم‌های پیچ‌خورده در حال نزدیک شدن به کلونی است.</DarkScholar.letterLabel>
+  <!-- EN: The dark scholar slouches in place, lifeless and silent. Only {PAWN_possessive} eyes seem alive, as if {PAWN_pronoun} could look inside you.\n\n{PAWN_pronoun} says that this is where {PAWN_pronoun} belongs and asks to stay for a while. {PAWN_possessive} tone indicates that {PAWN_pronoun} will not take 'no' for an answer. -->
+  <DarkScholar.letterPrompt>دانشمند تاریک بی‌رمق و خاموش در جای خود خمیده است. تنها چشمان او زنده به نظر می‌رسند، گویی به ژرفای درون شما می‌نگرد.\n\nاو می‌گوید جایگاهش اینجاست و درخواست می‌کند مدتی بماند. لحن کلامش نشان می‌دهد که پاسخی جز «بله» نخواهد پذیرفت.</DarkScholar.letterPrompt>
+  
+  <!-- EN: deal maker -->
+  <DealMaker.label>معامله‌گر</DealMaker.label>
+  <!-- EN: A stunningly good-looking stranger is approaching the colony. -->
+  <DealMaker.letterLabel>غریبه‌ای به طرز خیره‌کننده‌ای خوش‌سیما در حال نزدیک شدن به کلونی است.</DealMaker.letterLabel>
+  <!-- EN: A stunningly good-looking stranger stands in front of you. {PAWN_possessive} face beams with confidence as {PAWN_pronoun} opens {PAWN_possessive} hands in a gesture of fellowship.\n\n{PAWN_pronoun} says {PAWN_pronoun} is here to make a deal and will help you in exchange for simple hospitality. This is {PAWN_possessive} purpose and {PAWN_pronoun} always fulfills {PAWN_possessive} purpose. -->
+  <DealMaker.letterPrompt>غریبه‌ای فوق‌العاده جذاب روبروی شما ایستاده است. چهره‌اش از اعتماد به نفس می‌درخشد و دستانش را به نشانه دوستی می‌گشاید.\n\nاو می‌گوید برای انجام معامله‌ای آمده و در ازای مهمان‌نوازی ساده به شما کمک خواهد کرد. این هدف اوست و او همواره رسالتش را به انجام می‌رساند.</DealMaker.letterPrompt>
+  
+  <!-- EN: leathery stranger -->
+  <LeatheryStranger.label>غریبه چرمین‌پوست</LeatheryStranger.label>
+  <!-- EN: A ragged stranger with leathery skin is approaching your colony. -->
+  <LeatheryStranger.letterLabel>غریبه‌ای ژنده‌پوش با پوستی چرم‌مانند به کلونی شما نزدیک می‌شود.</LeatheryStranger.letterLabel>
+  <!-- EN: The leathery stranger stares into space and speaks in a monotone, as though {PAWN_pronoun} hardly sees anyone or anything. {PAWN_pronoun} refuses to leave, insisting {PAWN_pronoun} is only interested in your colony. {PAWN_pronoun} says that {PAWN_pronoun} can help. -->
+  <LeatheryStranger.letterPrompt>غریبه چرمین‌پوست به نقطه‌ای در فضا خیره شده و با لحنی یکنواخت سخن می‌گوید، گویی متوجه کسی نیست. او از رفتن سر باز می‌زند و اصرار دارد که تنها به کلونی شما علاقه‌مند است. او می‌گوید می‌تواند به شما کمک کند.</LeatheryStranger.letterPrompt>
+  
+  <!-- EN: lone genius -->
+  <LoneGenius.label>نابغه تنها</LoneGenius.label>
+  <!-- EN: A lone figure is approaching the colony. -->
+  <LoneGenius.letterLabel>پیکری تنها در حال نزدیک شدن به کلونی است.</LoneGenius.letterLabel>
+  <!-- EN: The strange figure keeps muttering about some scientific breakthrough. All {PAWN_pronoun} needs is a laboratory. If you let {PAWN_objective} stay, {PAWN_pronoun} will share {PAWN_possessive} vast knowledge with you. It's hard to tell whether {PAWN_pronoun}'s insane or a genius - or both. -->
+  <LoneGenius.letterPrompt>این چهره عجیب مدام زیر لب درباره یک دستاورد بزرگ علمی زمزمه می‌کند. تمام آنچه او نیاز دارد یک آزمایشگاه است. اگر اجازه دهید بماند، دانش پهناور خود را با شما سهیم خواهد شد. تشخیص اینکه او دیوانه است یا نابغه - یا هر دو - دشوار است.</LoneGenius.letterPrompt>
+  
+  <!-- EN: timeless one -->
+  <TimelessOne.label>جاودانه (فارغ از زمان)</TimelessOne.label>
+  <!-- EN: A teenager is approaching the colony. {PAWN_pronoun} has a strange air of confidence around {PAWN_objective}. -->
+  <TimelessOne.letterLabel>نوجوانی در حال نزدیک شدن به کلونی است. هاله عجیبی از اعتماد به نفس گرداگرد او احساس می‌شود.</TimelessOne.letterLabel>
+  <!-- EN: {PAWN_nameDef} is barely more than a child but in {PAWN_possessive} thoughtful eyes you sense an ancient wisdom. When {PAWN_pronoun} speaks, the words seem to come from an unnatural knowledge of endless time. {PAWN_pronoun} says that the stars brought {PAWN_objective} here to fulfill {PAWN_possessive} destiny. {PAWN_pronoun} wants to stay with you and help. -->
+  <TimelessOne.letterPrompt>{PAWN_nameDef} سنی ندارد، اما در چشمان ژرف‌اندیش او حکمتی باستانی احساس می‌کنید. هنگامی که سخن می‌گوید، گویی کلمات از دانشی غیرطبیعی و از ورای بی‌نهایتِ زمان سرچشمه می‌گیرند. او می‌گوید ستارگان او را برای تحقق سرنوشتش به اینجا رهنمون شده‌اند و می‌خواهد در کنار شما بماند و یاری‌تان کند.</TimelessOne.letterPrompt>
+  
+</LanguageData>

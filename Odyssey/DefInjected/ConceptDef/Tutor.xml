@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: fishing -->
+  <Fishing.label>ماهیگیری</Fishing.label>
+  <!-- EN: Place a 'fishing zone' where your colonists will fish. Larger bodies of water are better for fishing.\n\nFishing reduces the fish population in a body of water.\n\nAvoid overfishing - fewer fish will be caught if a body of water has under 300 fish.\n\nColonists with a high animals skill catch more fish faster. -->
+  <Fishing.helpText>یک «منطقه ماهیگیری» قرار دهید که استعمارگران شما در آن ماهیگیری کنند. حجم‌های آبی بزرگ‌تر برای ماهیگیری بهتر است.\n\nماهیگیری جمعیت ماهی‌ها را در آب کاهش می‌دهد.\n\nاز صید بی‌رویه خودداری کنید - اگر حجم ماهی کمتر از 300 ماهی باشد، ماهی‌های کمتری صید می‌شوند.\n\nاستعمارگرانی که مهارت بالایی در حیوانات دارند، سریع‌تر ماهی‌های بیشتری صید می‌کنند.</Fishing.helpText>
+  
+  <!-- EN: gravship -->
+  <Gravship.label>قبر</Gravship.label>
+  <!-- EN: Build a gravship around your grav engine. When you launch the ship will carry the entire structure to a new map.\n\nLaunching the gravship destroys the current map. You can build a grav anchor to prevent this.\n\nTo launch, a gravship needs:\n     - Pilot console\n     - Fuel tanks\n     - Thrusters\n\nResearch 'basic gravtech' to unlock these.\n\nYou can only build a limited amount of substructure. To increase this limit, find gravcores and gravlite panels.\n\nGravship substructure can be removed using the 'remove foundation' designator.\n\nYour grav engine will occasionally detect gravtech around the planet and mark it on your world map. -->
+  <Gravship.helpText>اطراف موتور گراو خود یک قایق بسازید. وقتی کشتی را پرتاب می‌کنید، کل ساختار را به یک نقشه جدید منتقل می‌کند.\n\nراه‌اندازی قایق، نقشه فعلی را از بین می‌برد. برای جلوگیری از این کار می‌توانید یک لنگر گراو بسازید.\n\nبرای راه‌اندازی، یک کشتی گیر به این موارد نیاز دارد:\n - کنسول خلبان\n - مخازن سوخت\n - رانشگرها\n\nبرای باز کردن قفل اینها، روی «تکنولوژی پایه» تحقیق کنید.\n\nفقط می‌توانید تعداد محدودی زیرساخت بسازید. برای افزایش این محدودیت، گراوکورها و پانل‌های گراولیت را بیابید.\n\nزیر سفینه را می‌توان با استفاده از نشانگر «حذف پایه» حذف کرد.\n\nموتور گراو شما گهگاه فناوری گراو را در سراسر سیاره شناسایی می‌کند و آن را روی نقشه جهان شما علامت‌گذاری می‌کند.</Gravship.helpText>
+  
+  <!-- EN: orbit -->
+  <Orbit.label>مدار</Orbit.label>
+  <!-- EN: On the world map, use the 'view planet' and 'view orbit' buttons to switch between planetary and orbital views.\n\nYou can travel to orbital locations using transport pods, shuttles, or gravships.\n\nColonists need vacsuits or other advanced armor to survive in the vacuum of space.\n\nIf using a gravship, make sure it's well-heated. Build oxygen pumps to maintain breathable air and enclose your ship with airtight walls and doors. Avoid using wood or stone for exterior walls and doors.\n\nPlan your return trip before you launch. Living in orbit for a long time is very challenging. Getting stranded in orbit is deadly. -->
+  <Orbit.helpText>در نقشه جهان، از دکمه‌های «مشاهده سیاره» و «مشاهده مدار» برای جابه‌جایی بین نماهای سیاره‌ای و مداری استفاده کنید.\n\nشما می‌توانید با استفاده از غلاف‌های حمل‌ونقل، شاتل‌ها یا کشتی‌های قبر به مکان‌های مداری سفر کنید.\n\nاستعمارگران برای زنده ماندن در خلاء فضا به لباس‌های خلاء یا زره‌های پیشرفته دیگری نیاز دارند.\n\nاگر کشتی به خوبی از آن استفاده می‌کند، مطمئن شوید. پمپ های اکسیژن برای حفظ هوای قابل تنفس بسازید و کشتی خود را با دیوارها و درها محصور کنید. از استفاده از چوب یا سنگ برای دیوارها و درهای بیرونی خودداری کنید.\n\nقبل از پرتاب، سفر برگشت خود را برنامه ریزی کنید. زندگی طولانی مدت در مدار بسیار چالش برانگیز است. گیر افتادن در مدار مرگبار است.</Orbit.helpText>
+  
+</LanguageData>

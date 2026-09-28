@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: blight -->
+  <Blight.label>آفت</Blight.label>
+  
+  <!-- EN: explosion -->
+  <Explosion.label>انفجار</Explosion.label>
+  
+  <!-- EN: flying -->
+  <PawnFlyer.label>در حال پرواز</PawnFlyer.label>
+  
+  <!-- EN: flying -->
+  <PawnFlyer_Stun.label>در حال پرواز</PawnFlyer_Stun.label>
+  
+  <!-- EN: disrupted soil -->
+  <PawnGroundSpawner.label>خاک مختل</PawnGroundSpawner.label>
+  
+  <!-- EN: proximity trigger -->
+  <RadialTrigger.label>ماشه مجاورت</RadialTrigger.label>
+  
+  <!-- EN: rect trigger -->
+  <RectTrigger.label>ماشه مستطیلی</RectTrigger.label>
+  
+  <!-- EN: tornado -->
+  <Tornado.label>گردباد</Tornado.label>
+  
+  <!-- EN: trigger container emptied -->
+  <TriggerContainerEmptied.label>ماشه ظرف خالی</TriggerContainerEmptied.label>
+  
+  <!-- EN: trigger unfogged -->
+  <TriggerUnfogged.label>ماشه روشن شده</TriggerUnfogged.label>
+  
+  <!-- EN: tunnel -->
+  <TunnelHiveSpawner.label>تونل</TunnelHiveSpawner.label>
+  
+</LanguageData>

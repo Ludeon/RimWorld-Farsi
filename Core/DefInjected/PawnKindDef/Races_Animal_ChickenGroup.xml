@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: chicken -->
+  <Chicken.label>مرغ</Chicken.label>
+  <!-- EN: hen -->
+  <Chicken.labelFemale>مرغ ماده</Chicken.labelFemale>
+  <!-- EN: rooster -->
+  <Chicken.labelMale>خروس</Chicken.labelMale>
+  <!-- EN: chick -->
+  <Chicken.lifeStages.chick.label>جوجه</Chicken.lifeStages.chick.label>
+  <!-- EN: cockerel -->
+  <Chicken.lifeStages.cockerel.labelMale>خروس جوان</Chicken.lifeStages.cockerel.labelMale>
+  
+  <!-- EN: duck -->
+  <Duck.label>اردک</Duck.label>
+  <!-- EN: duckling -->
+  <Duck.lifeStages.duckling.label>جوجه اردک</Duck.lifeStages.duckling.label>
+  
+  <!-- EN: goose -->
+  <Goose.label>غاز</Goose.label>
+  <!-- EN: geese -->
+  <Goose.labelPlural>غازها</Goose.labelPlural>
+  
+  <!-- EN: turkey -->
+  <Turkey.label>بوقلمون</Turkey.label>
+  
+</LanguageData>

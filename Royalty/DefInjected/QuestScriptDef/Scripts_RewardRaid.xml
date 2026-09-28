@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], wants you to help save one of [asker_possessive] caravans. The caravan is being hunted near [map_definite] by (*Threat)[numGroupsOf] [enemyFaction_pawnsPlural](/Threat) from [enemyFaction_name]. [asker_nameDef] wants you to signal the [enemyFaction_pawnsPlural] to draw them away from the caravan - and towards you.[endingCommon]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is making a request of you.\n\n(*Threat)[groupsOf](/Threat) from [enemyFaction_name] have been harassing [asker_possessive] caravans in the area. [asker_nameDef] asks that you send them a challenge message, attracting them to attack and eliminating the threat yourself.[endingCommon]</li>
+    <li>groupsOf(raidCount==1,priority=1)->[enemyFaction_pawnsPlural]</li>
+    <li>groupsOf->[numGroupsOf] [enemyFaction_pawnsPlural]</li>
+    <li>endingCommon(helpersCount==0)->\n\n[pawnKindsParagraph]\n\nIf you accept, the [enemyFaction_pawnsPlural] will arrive in [firstRaidDelayTicks_duration].</li>
+    <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]If you accept, the [enemyFaction_pawnsPlural] will arrive in [firstRaidDelayTicks_duration].</li>
+  -->
+  <ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull]، [asker_faction_leaderTitle] از [asker_faction_name]، از شما می‌خواهد به نجات یکی از کاروان‌های [asker_possessive] کمک کنید. این کاروان در نزدیکی [map_definite] توسط (*Threat)[numGroupsOf] [enemyFaction_pawnsPlural](/Threat) از [enemyFaction_name] شکار می شود. [asker_nameDef] از شما می‌خواهد که به [enemyFaction_pawnsPlural] علامت دهید تا آنها را از کاروان دور کند - و به سمت شما برود.[endingCommon]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull]، یک [asker_royalTitleInCurrentFaction] از [asker_faction_name]، از شما درخواست می کند.\n\n(*Threat)[groupsOf](/Threat) از [enemyFaction_name] کاروان‌های [asker_possessive] را در منطقه مورد آزار و اذیت قرار داده‌اند. [asker_nameDef] از شما می خواهد که یک پیام چالش برای آنها ارسال کنید، آنها را برای حمله جذب کنید و خودتان تهدید را از بین ببرید.[endingCommon]</li>
+    <li>groupsOf(raidCount==1,priority=1)->[enemyFaction_pawnsPlural]</li>
+    <li>groupsOf->[numGroupsOf] [enemyFaction_pawnsPlural]</li>
+    <li>endingCommon(helpersCount==0)->\n\n[pawnKindsParagraph]\n\nاگر قبول کنید، [enemyFaction_pawnsPlural] به [firstRaidDelayTicks_duration] می‌رسد.</li>
+    <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]اگر قبول کنید، [enemyFaction_pawnsPlural] به [firstRaidDelayTicks_duration] می‌رسد.</li>
+  </ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[enemyFaction_pawnsPlural] of Fortune</li>
+    <li>questName->[violence] of Fortune</li>
+    <li>questName->[violence] for Hire</li>
+    <li>questName->[violence] for Profit</li>
+    <li>questName->Rewarded [violence]</li>
+    <li>questName->Paid [violence]</li>
+    <li>questName->Compensated [violence]</li>
+    <li>questName(reward==royalFavor)->[enemyFaction_pawnsPlural] for Favor</li>
+    <li>questName(reward==royalFavor)->[violence] for Favor</li>
+    <li>violence->Violence</li>
+    <li>violence->Battle</li>
+    <li>violence->Combat</li>
+    <li>violence->War</li>
+    <li>violence->Fighting</li>
+    <li>violence->Bloodshed</li>
+    <li>violence->Attack</li>
+    <li>violence->Defense</li>
+    <li>violence->Conflict</li>
+    <li>violence->Hostility</li>
+    <li>violence->Warfare</li>
+  -->
+  <ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
+    <li>questName->[enemyFaction_pawnsPlural] اقبال</li>
+    <li>questName->[violence] اقبال</li>
+    <li>questName->[violence] مزدور</li>
+    <li>questName->[violence] برای سود</li>
+    <li>questName->[violence] پاداش‌دار</li>
+    <li>questName->[violence] دستمزدی</li>
+    <li>questName->[violence] پاداش داده شده</li>
+    <li>questName(reward==royalFavor)->[enemyFaction_pawnsPlural] برای لطف ملوکانه</li>
+    <li>questName(reward==royalFavor)->[violence] برای لطف ملوکانه</li>
+    <li>violence->خشونت</li>
+    <li>violence->نبرد</li>
+    <li>violence->مبارزه</li>
+    <li>violence->جنگ</li>
+    <li>violence->خونریزی</li>
+    <li>violence->حمله</li>
+    <li>violence->دفاع</li>
+    <li>violence->درگیری</li>
+    <li>violence->خصومت</li>
+    <li>violence->پیکار</li>
+  </ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
+  
+</LanguageData>

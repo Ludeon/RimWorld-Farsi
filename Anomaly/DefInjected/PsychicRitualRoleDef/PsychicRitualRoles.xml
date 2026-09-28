@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: target -->
+  <BrainwipeTarget.label>هدف</BrainwipeTarget.label>
+  
+  <!-- EN: chanter -->
+  <Chanter.label>وردخوان</Chanter.label>
+  <!-- EN: Chanters add psychic power to the ritual. -->
+  <Chanter.description>وردخوانان به قدرت روانی آیین می‌افزایند.</Chanter.description>
+  
+  <!-- EN: chanter -->
+  <ChanterAdvanced.label>وردخوان پیشرفته</ChanterAdvanced.label>
+  <!-- EN: Chanters add psychic power to the ritual. -->
+  <ChanterAdvanced.description>وردخوانان به قدرت روانی آیین می‌افزایند.</ChanterAdvanced.description>
+  
+  <!-- EN: target -->
+  <ChronophagyTarget.label>هدف زمان‌خواری</ChronophagyTarget.label>
+  
+  <!-- EN: target -->
+  <DeathRefusalTarget.label>هدف امتناع از مرگ</DeathRefusalTarget.label>
+  <!-- EN: {PAWN_labelShort} cannot have any more death refusals stacked -->
+  <DeathRefusalTarget.psychicRitualLeaveReason_MaxDeathRefusal>{PAWN_labelShort} نمی‌تواند امتناع از مرگ بیشتری انباشته کند</DeathRefusalTarget.psychicRitualLeaveReason_MaxDeathRefusal>
+  
+  <!-- EN: defenders -->
+  <Defender.label>مدافعان</Defender.label>
+  <!-- EN: Defenders protect the ritual participants from harm. -->
+  <Defender.description>مدافعان از شرکت‌کنندگان در آیین در برابر آسیب محافظت می‌کنند.</Defender.description>
+  
+  <!-- EN: invoker -->
+  <Invoker.label>فراخواننده (احضارکننده)</Invoker.label>
+  
+  <!-- EN: target -->
+  <PhilophagyTarget.label>هدف مهارت‌خواری</PhilophagyTarget.label>
+  
+  <!-- EN: target -->
+  <PsychophagyTarget.label>هدف روان‌خواری</PsychophagyTarget.label>
+  
+</LanguageData>

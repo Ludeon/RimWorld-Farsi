@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: orbital debris -->
+  <OrbitalDebris.label>زباله های مداری</OrbitalDebris.label>
+  <!-- EN:
+    <li>tale_noun->a micrometeorite storm sweeping over [PAWN_nameDef]'s [Community]</li>
+    <li>tale_noun->micrometeorite fragments peppering the area around [PAWN_nameDef]'s [Community]</li>
+    <li>image->a cascade of micrometeorites glimmering with [Color] sparks [airborne_circumstance]</li>
+    <li>image->a scattering of brightly-glowing micrometeorites [airborne_circumstance]</li>
+    <li>image->a shower of [Color] sparks as micrometeorites blaze [airborne_circumstance]</li>
+    <li>airborne_circumstance->racing across the sky</li>
+    <li>airborne_circumstance->tumbling down in a flurry of light</li>
+    <li>airborne_circumstance->dissipating into shimmering dust as they fall</li>
+    <li>image->a cluster of smoldering impact marks, [ground_circumstance]</li>
+    <li>image->a [Color] scorched fragment, [ground_circumstance]</li>
+    <li>image->a [Color] scatter of tiny stones, [ground_circumstance]</li>
+    <li>ground_circumstance->surrounded by a haze of fine dust</li>
+    <li>ground_circumstance->glowing faintly from residual heat</li>
+    <li>ground_circumstance->embedded in a blanket of cracked ground</li>
+    <li>ground_circumstance->scattered across the landscape</li>
+    <li>ground_circumstance->dotted amidst a field of minor craters</li>
+    <li>desc_sentence->[PAWN_nameDef] watches the shower in awe.</li>
+    <li>desc_sentence->[PAWN_nameDef] gazes up in wonder.</li>
+    <li>desc_sentence->[PAWN_nameDef] is startled by the relentless barrage.</li>
+    <li>desc_sentence->[Quantity_adjphrase] figures emerge from a nearby [TerrainFeature] to take shelter.</li>
+    <li>desc_sentence->[Quantity_adjphrase] figures scramble to secure their belongings.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s scurry about, seeking cover.</li>
+    <li>desc_sentence->Space is charged with an eerie power.</li>
+  -->
+  <OrbitalDebris.rulePack.rulesStrings>
+    <li>tale_noun->طوفان ریز شهاب سنگی بر فراز [Community] [PAWN_nameDef]</li>
+    <li>tale_noun->تکه های ریز شهاب سنگ در اطراف [PAWN_nameDef] [Community]</li>
+    <li>image->آبشاری از ریزشهاب‌سنگ‌هایی که با [Color] می‌درخشند، [airborne_circumstance] را جرقه می‌زنند.</li>
+    <li>image->پراکندگی ریزشهاب‌سنگ‌های درخشان [airborne_circumstance]</li>
+    <li>image->بارانی از [Color] جرقه می زند که ریزشهاب سنگ‌ها [airborne_circumstance] را شعله ور می کنند</li>
+    <li>airborne_circumstance->مسابقه در سراسر آسمان</li>
+    <li>airborne_circumstance->در یک موج نور به پایین می‌افتد</li>
+    <li>airborne_circumstance->در هنگام سقوط در گرد و غبار درخشان پخش می شوند</li>
+    <li>image->مجموعه‌ای از نشانه های ضربه‌ای در حال سوختن، [ground_circumstance]</li>
+    <li>image->یک قطعه سوخته [Color]، [ground_circumstance]</li>
+    <li>image->یک پراکنده [Color] از سنگ های ریز، [ground_circumstance]</li>
+    <li>ground_circumstance->احاطه شده توسط غباری از غبار ریز</li>
+    <li>ground_circumstance->از گرمای باقیمانده ضعیف می درخشد</li>
+    <li>ground_circumstance->در پتویی از زمین ترک خورده جاسازی شده است</li>
+    <li>ground_circumstance->در سراسر چشم انداز پراکنده شده است</li>
+    <li>ground_circumstance->نقطه‌گذاری در میان میدانی از دهانه‌های کوچک</li>
+    <li>desc_sentence->[PAWN_nameDef] با هیبت دوش را تماشا می کند.</li>
+    <li>desc_sentence->[PAWN_nameDef] با تعجب به بالا خیره می شود.</li>
+    <li>desc_sentence->[PAWN_nameDef] از رگبار بی امان مبهوت می شود.</li>
+    <li>desc_sentence->ارقام [Quantity_adjphrase] از یک [TerrainFeature] در نزدیکی بیرون می آیند تا پناه بگیرند.</li>
+    <li>desc_sentence->چهره های [Quantity_adjphrase] برای ایمن کردن وسایل خود به تقلا می افتند.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]‌ها به دنبال پوشش هستند.</li>
+    <li>desc_sentence->فضا با قدرتی وهم انگیز شارژ می شود.</li>
+  </OrbitalDebris.rulePack.rulesStrings>
+  
+</LanguageData>

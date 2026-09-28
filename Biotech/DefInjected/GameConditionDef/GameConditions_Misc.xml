@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: acidic smog -->
+  <NoxiousHaze.label>مه دود اسیدی</NoxiousHaze.label>
+  <!-- EN: Acidic smog is caused by pollution in nearby world tiles. It slows plant growth, deteriorates exposed items, and reduces mood.\n\nThe current world tile has a nearby pollution score of {NEARBYPOLLUTION}, calculated by adding up pollution of nearby world tiles. This means that, on average, acidic smog will occur every {MTB} days. -->
+  <NoxiousHaze.description>مه دود اسیدی در اثر آلودگی در کاشی های جهان اطراف ایجاد می شود. رشد گیاه را کند می‌کند، اقلام در معرض را خراب می‌کند، و خلق و خو را کاهش می‌دهد.\n\nکاشی جهانی کنونی دارای امتیاز آلودگی نزدیک به {NEARBYPOLLUTION} است که با جمع کردن آلودگی کاشی‌های جهان اطراف محاسبه می‌شود. این بدان معنی است که به طور متوسط، مه دود اسیدی هر روز {MTB} رخ می دهد.</NoxiousHaze.description>
+  <!-- EN: The acidic smog is lifting. -->
+  <NoxiousHaze.endMessage>مه دود اسیدی در حال بلند شدن است.</NoxiousHaze.endMessage>
+  <!-- EN: Acidic smog has begun due to pollution in this region of the world. -->
+  <NoxiousHaze.startMessage>مه دود اسیدی به دلیل آلودگی در این منطقه از جهان آغاز شده است.</NoxiousHaze.startMessage>
+  
+</LanguageData>

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: alphabeavers -->
+  <Alphabeavers.label>حروفی‌ها</Alphabeavers.label>
+  
+  <!-- EN: ambrosia sprout -->
+  <AmbrosiaSprout.label>جوانه آمبروسیا</AmbrosiaSprout.label>
+  <!-- EN: Ambrosia sprout -->
+  <AmbrosiaSprout.letterLabel>جوانه آمبروسیا</AmbrosiaSprout.letterLabel>
+  <!-- EN: A grove of the mysterious ambrosia bush has sprouted nearby! If you wait for the plants to grow, you'll be able to harvest the delicious, pleasurable, and slightly addictive fruit. -->
+  <AmbrosiaSprout.letterText>بیشه‌ای از بوته مرموز آمبروسیا در همان نزدیکی جوانه زده است! اگر منتظر رشد گیاهان باشید، می‌توانید میوه‌ای خوشمزه، لذت‌بخش و کمی اعتیادآور را برداشت کنید.</AmbrosiaSprout.letterText>
+  
+  <!-- EN: cold snap -->
+  <ColdSnap.label>ضربه سرد</ColdSnap.label>
+  <!-- EN: Cold snap -->
+  <ColdSnap.letterLabel>سرماخوردگی</ColdSnap.letterLabel>
+  
+  <!-- EN: crop blight -->
+  <CropBlight.label>بلایت زراعی</CropBlight.label>
+  
+  <!-- EN: farm animals wander in -->
+  <FarmAnimalsWanderIn.label>حیوانات مزرعه سرگردان در</FarmAnimalsWanderIn.label>
+  
+  <!-- EN: flashstorm -->
+  <Flashstorm.label>طوفان ناگهانی</Flashstorm.label>
+  <!-- EN: Flashstorm -->
+  <Flashstorm.letterLabel>طوفان ناگهانی</Flashstorm.letterLabel>
+  
+  <!-- EN: heat wave -->
+  <HeatWave.label>موج گرما</HeatWave.label>
+  <!-- EN: Heat wave -->
+  <HeatWave.letterLabel>موج گرما</HeatWave.letterLabel>
+  
+  <!-- EN: herd migration -->
+  <HerdMigration.label>مهاجرت گله</HerdMigration.label>
+  <!-- EN: Animal migration: {0} -->
+  <HerdMigration.letterLabel>مهاجرت حیوانات: {0}</HerdMigration.letterLabel>
+  <!-- EN: A group of {0} is passing through the area.\n\nThey won't attack unless provoked. -->
+  <HerdMigration.letterText>گروهی از {0} در حال عبور از منطقه هستند.\n\nآنها حمله نخواهند کرد مگر اینکه تحریک شوند.</HerdMigration.letterText>
+  
+  <!-- EN: meteorite impact -->
+  <MeteoriteImpact.label>برخورد شهاب سنگ</MeteoriteImpact.label>
+  <!-- EN: Meteorite -->
+  <MeteoriteImpact.letterLabel>شهاب سنگ</MeteoriteImpact.letterLabel>
+  <!-- EN: A large meteorite has struck ground in the area. It has left behind a lump of {0}. -->
+  <MeteoriteImpact.letterText>یک شهاب سنگ بزرگ در این منطقه به زمین برخورد کرده است. این یک توده {0} را پشت سر گذاشته است.</MeteoriteImpact.letterText>
+  
+  <!-- EN: psychic drone -->
+  <PsychicDrone.label>پهپاد روانی</PsychicDrone.label>
+  
+  <!-- EN: psychic soothe -->
+  <PsychicSoothe.label>آرام بخش روانی</PsychicSoothe.label>
+  
+  <!-- EN: ransom demand -->
+  <RansomDemand.label>باج خواهی</RansomDemand.label>
+  <!-- EN: Ransom demand -->
+  <RansomDemand.letterLabel>باج خواهی</RansomDemand.letterLabel>
+  
+  <!-- EN: transport pod crash -->
+  <RefugeePodCrash.label>سقوط غلاف حمل و نقل</RefugeePodCrash.label>
+  
+  <!-- EN: resource pod crash -->
+  <ResourcePodCrash.label>خرابی غلاف منبع</ResourcePodCrash.label>
+  
+  <!-- EN: self-tame -->
+  <SelfTame.label>خود رام شدن</SelfTame.label>
+  
+  <!-- EN: short circuit -->
+  <ShortCircuit.label>اتصال کوتاه</ShortCircuit.label>
+  
+  <!-- EN: thrumbos pass -->
+  <ThrumboPasses.label>عبور ترومبو</ThrumboPasses.label>
+  
+  <!-- EN: toxic fallout -->
+  <ToxicFallout.label>ریزش سمی</ToxicFallout.label>
+  <!-- EN: Toxic fallout -->
+  <ToxicFallout.letterLabel>ریزش سمی</ToxicFallout.letterLabel>
+  
+  <!-- EN: volcanic winter -->
+  <VolcanicWinter.label>زمستان آتشفشانی</VolcanicWinter.label>
+  <!-- EN: Volcanic winter -->
+  <VolcanicWinter.letterLabel>زمستان آتشفشانی</VolcanicWinter.letterLabel>
+  
+  <!-- EN: wanderer join -->
+  <WandererJoin.label>سرگردان ملحق شوید</WandererJoin.label>
+  
+  <!-- EN: wild man wanders in -->
+  <WildManWandersIn.label>انسان وحشی سرگردان در</WildManWandersIn.label>
+  <!-- EN: {0} wanders in -->
+  <WildManWandersIn.letterLabel>{0} سرگردان است</WildManWandersIn.letterLabel>
+  <!-- EN: A {1} living among wild animals has wandered into the area. {PAWN_pronoun}'s called {0}.\n\nYou can attempt to tame {PAWN_objective}. -->
+  <WildManWandersIn.letterText>یک {1} که در میان حیوانات وحشی زندگی می‌کند به منطقه سرگردان شده است. {PAWN_pronoun} {0} نامیده می شود.\n\nشما می توانید سعی کنید {PAWN_objective} را رام کنید.</WildManWandersIn.letterText>
+  
+</LanguageData>

@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>r_roleName->creaturizer</li>
+    <li>r_roleName->animalor</li>
+    <li>firstPart->fur</li>
+    <li>firstPart->paw</li>
+    <li>firstPart->hoof</li>
+    <li>firstPart->tail</li>
+    <li>firstPart->whisker</li>
+    <li>firstPart->fang</li>
+    <li>firstPart->feral</li>
+    <li>firstPart->snout</li>
+    <li>secondPart(p=4)->kin</li>
+    <li>secondPart(p=4)->touch</li>
+  -->
+  <NamerRoleAnimalsSpecialist.rulePack.rulesStrings>
+    <li>r_roleName->جانورگر</li>
+    <li>r_roleName->حیوان‌بان</li>
+    <li>firstPart->خز</li>
+    <li>firstPart->پنجه</li>
+    <li>firstPart->سم</li>
+    <li>firstPart->دم</li>
+    <li>firstPart->سبیل</li>
+    <li>firstPart->نیش</li>
+    <li>firstPart->وحشی</li>
+    <li>firstPart->پوزه</li>
+    <li>secondPart(p=4)->زاده</li>
+    <li>secondPart(p=4)->لمس</li>
+  </NamerRoleAnimalsSpecialist.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_roleName->berserker</li>
+    <li>firstPart->slash</li>
+    <li>firstPart->fist</li>
+    <li>firstPart->bruise</li>
+    <li>firstPart->blade</li>
+    <li>firstPart->brawl</li>
+    <li>firstPart->knuckle</li>
+    <li>firstPart->spear</li>
+    <li>firstPart->sword</li>
+    <li>firstPart->club</li>
+    <li>firstPart->edge</li>
+    <li>firstPart->cut</li>
+    <li>firstPart->smash</li>
+    <li>firstPart->crush</li>
+  -->
+  <NamerRoleBrawler.rulePack.rulesStrings>
+    <li>r_roleName->برزرکر</li>
+    <li>firstPart->برش</li>
+    <li>firstPart->مشت</li>
+    <li>firstPart->کبودی</li>
+    <li>firstPart->تیغه</li>
+    <li>firstPart->نزاع</li>
+    <li>firstPart->مفصل</li>
+    <li>firstPart->نیزه</li>
+    <li>firstPart->شمشیر</li>
+    <li>firstPart->چماق</li>
+    <li>firstPart->لبه</li>
+    <li>firstPart->قطع</li>
+    <li>firstPart->کوبش</li>
+    <li>firstPart->خرد</li>
+  </NamerRoleBrawler.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>firstPart->health</li>
+    <li>firstPart->heal</li>
+    <li>firstPart->heart</li>
+    <li>firstPart->medi</li>
+    <li>firstPart->scalpel</li>
+    <li>firstPart->sanito</li>
+    <li>firstPart->surgo</li>
+    <li>firstPart->clinic</li>
+  -->
+  <NamerRoleMedicalSpecialist.rulePack.rulesStrings>
+    <li>firstPart->سلامت</li>
+    <li>firstPart->درمان</li>
+    <li>firstPart->قلب</li>
+    <li>firstPart->مدیک</li>
+    <li>firstPart->تیغ</li>
+    <li>firstPart->بهداشت</li>
+    <li>firstPart->جراح</li>
+    <li>firstPart->بالین</li>
+  </NamerRoleMedicalSpecialist.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_roleName->spelunker</li>
+    <li>firstPart->mine</li>
+    <li>firstPart->deep</li>
+    <li>firstPart->depth</li>
+    <li>firstPart->rock</li>
+    <li>firstPart->cave</li>
+    <li>firstPart->pick</li>
+    <li>firstPart->drill</li>
+    <li>firstPart->under</li>
+    <li>firstPart->stone</li>
+    <li>firstPart->hill</li>
+    <li>firstPart->hole</li>
+    <li>firstPart->tunnel</li>
+    <li>firstPart->crack</li>
+  -->
+  <NamerRoleMiner.rulePack.rulesStrings>
+    <li>r_roleName->غارنورد</li>
+    <li>firstPart->معدن</li>
+    <li>firstPart->عمیق</li>
+    <li>firstPart->عمق</li>
+    <li>firstPart->سنگ</li>
+    <li>firstPart->غار</li>
+    <li>firstPart->کلنگ</li>
+    <li>firstPart->مته</li>
+    <li>firstPart->زیر</li>
+    <li>firstPart->سنگ</li>
+    <li>firstPart->تپه</li>
+    <li>firstPart->حفره</li>
+    <li>firstPart->تونل</li>
+    <li>firstPart->شکاف</li>
+  </NamerRoleMiner.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_roleName(p=4)->[memeMoralist]</li>
+    <li>r_roleName(p=2)->[memeAdjective] [memeMoralist]</li>
+    <li>r_roleName->[memeMoralist] of [chosenTheme]</li>
+    <li>r_roleName->[memeMoralist] of [keyDeity]</li>
+    <li>r_roleName->[memeMoralist] of [memeConcept]</li>
+    <li>r_roleName->[memeMoralist] of [chosenIdeoName]</li>
+    <li>r_roleName->[chosenAdjective] [memeMoralist]</li>
+    <li>r_roleName->[keyDeity]'s [memeMoralist]</li>
+  -->
+  <NamerRoleMoralist.rulePack.rulesStrings>
+    <li>r_roleName(p=4)->[memeMoralist]</li>
+    <li>r_roleName(p=2)->[memeMoralist] [memeAdjective]</li>
+    <li>r_roleName->[memeMoralist] [chosenTheme]</li>
+    <li>r_roleName->[memeMoralist] [keyDeity]</li>
+    <li>r_roleName->[memeMoralist] [memeConcept]</li>
+    <li>r_roleName->[memeMoralist] [chosenIdeoName]</li>
+    <li>r_roleName->[memeMoralist] [chosenAdjective]</li>
+    <li>r_roleName->[memeMoralist] [keyDeity]</li>
+  </NamerRoleMoralist.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_roleName->manufactor</li>
+    <li>r_roleName->handyman</li>
+    <li>r_roleName->maker</li>
+    <li>firstPart->make</li>
+    <li>firstPart->craft</li>
+    <li>firstPart->build</li>
+    <li>firstPart->manu</li>
+    <li>firstPart->make</li>
+  -->
+  <NamerRoleProductionSpecialist.rulePack.rulesStrings>
+    <li>r_roleName->تولیدگر</li>
+    <li>r_roleName->دست‌آچار</li>
+    <li>r_roleName->سازنده</li>
+    <li>firstPart->ساخت</li>
+    <li>firstPart->صنعت</li>
+    <li>firstPart->ساخت</li>
+    <li>firstPart->دست</li>
+    <li>firstPart->ساخت</li>
+  </NamerRoleProductionSpecialist.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_roleName->highmind</li>
+    <li>r_roleName->cogitor</li>
+    <li>r_roleName->thinker</li>
+    <li>r_roleName->learner</li>
+    <li>firstPart->mind</li>
+    <li>firstPart->thought</li>
+    <li>firstPart->focus</li>
+    <li>firstPart->neuro</li>
+    <li>firstPart->cogito</li>
+    <li>firstPart->idea</li>
+  -->
+  <NamerRoleResearcher.rulePack.rulesStrings>
+    <li>r_roleName->ذهن برتر</li>
+    <li>r_roleName->متفکر</li>
+    <li>r_roleName->اندیشمند</li>
+    <li>r_roleName->آموزنده</li>
+    <li>firstPart->ذهن</li>
+    <li>firstPart->فکر</li>
+    <li>firstPart->تمرکز</li>
+    <li>firstPart->عصب</li>
+    <li>firstPart->کوگیتو</li>
+    <li>firstPart->ایده</li>
+  </NamerRoleResearcher.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>firstPart->gun</li>
+    <li>firstPart->shot</li>
+    <li>firstPart->trigger</li>
+    <li>firstPart->bullet</li>
+    <li>firstPart->shell</li>
+    <li>firstPart->aim</li>
+    <li>firstPart->snipe</li>
+    <li>firstPart->point</li>
+    <li>firstPart->shoot</li>
+    <li>secondPart(p=4)->slinger</li>
+  -->
+  <NamerRoleShooter.rulePack.rulesStrings>
+    <li>firstPart->تفنگ</li>
+    <li>firstPart->شلیک</li>
+    <li>firstPart->ماشه</li>
+    <li>firstPart->گلوله</li>
+    <li>firstPart->پوکه</li>
+    <li>firstPart->هدف</li>
+    <li>firstPart->تک‌تیر</li>
+    <li>firstPart->نقطه</li>
+    <li>firstPart->تیر</li>
+    <li>secondPart(p=4)->انداز</li>
+  </NamerRoleShooter.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_roleName->fertilizer</li>
+    <li>firstPart->leaf</li>
+    <li>firstPart->plant</li>
+    <li>firstPart->green</li>
+    <li>firstPart->sprout</li>
+    <li>firstPart->garden</li>
+    <li>firstPart->flora</li>
+    <li>firstPart->herb</li>
+    <li>firstPart->crop</li>
+    <li>firstPart->farm</li>
+    <li>firstPart->land</li>
+    <li>firstPart->dirt</li>
+    <li>firstPart->seed</li>
+    <li>firstPart->soil</li>
+    <li>firstPart->root</li>
+  -->
+  <NamerRoleSower.rulePack.rulesStrings>
+    <li>r_roleName->کودده</li>
+    <li>firstPart->برگ</li>
+    <li>firstPart->گیاه</li>
+    <li>firstPart->سبز</li>
+    <li>firstPart->جوانه</li>
+    <li>firstPart->باغ</li>
+    <li>firstPart->فلورا</li>
+    <li>firstPart->علف</li>
+    <li>firstPart->محصول</li>
+    <li>firstPart->مزرعه</li>
+    <li>firstPart->زمین</li>
+    <li>firstPart->خاک</li>
+    <li>firstPart->دانه</li>
+    <li>firstPart->خاک</li>
+    <li>firstPart->ریشه</li>
+  </NamerRoleSower.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_roleName(p=7)->[firstPart][secondPart]</li>
+    <li>secondPart->master</li>
+    <li>secondPart->crat</li>
+    <li>secondPart->flame</li>
+    <li>secondPart->mind</li>
+    <li>secondPart->head</li>
+    <li>secondPart->eye</li>
+    <li>secondPart->hand</li>
+    <li>secondPart->func</li>
+    <li>secondPart->brain</li>
+    <li>secondPart->holder</li>
+    <li>secondPart->bringer</li>
+    <li>secondPart->talker</li>
+    <li>secondPart->speaker</li>
+    <li>secondPart->knower</li>
+    <li>secondPart->lover</li>
+    <li>secondPart->user</li>
+    <li>secondPart->one</li>
+    <li>secondPart->pert</li>
+    <li>secondPart->itor</li>
+    <li>secondPart->inor</li>
+    <li>secondPart->alor</li>
+    <li>secondPart->or</li>
+    <li>secondPart->izer</li>
+    <li>secondPart->iner</li>
+  -->
+  <NamerRoleSpecialistUtility.rulePack.rulesStrings>
+    <li>r_roleName(p=7)->[firstPart][secondPart]</li>
+    <li>secondPart->استاد</li>
+    <li>secondPart->سالار</li>
+    <li>secondPart->شعله</li>
+    <li>secondPart->ذهن</li>
+    <li>secondPart->سر</li>
+    <li>secondPart->چشم</li>
+    <li>secondPart->دست</li>
+    <li>secondPart->کار</li>
+    <li>secondPart->مغز</li>
+    <li>secondPart->دار</li>
+    <li>secondPart->آور</li>
+    <li>secondPart->گو</li>
+    <li>secondPart->گوینده</li>
+    <li>secondPart->دان</li>
+    <li>secondPart->دوست</li>
+    <li>secondPart->کار</li>
+    <li>secondPart->وان</li>
+    <li>secondPart->پرت</li>
+    <li>secondPart->گر</li>
+    <li>secondPart->گر</li>
+    <li>secondPart->گر</li>
+    <li>secondPart->گر</li>
+    <li>secondPart->ساز</li>
+    <li>secondPart->گر</li>
+  </NamerRoleSpecialistUtility.rulePack.rulesStrings>
+  
+</LanguageData>

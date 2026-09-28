@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: outpost -->
+  <Outpost.label>پاسگاه</Outpost.label>
+  <!-- EN: A small, guarded outpost. -->
+  <Outpost.description>یک پاسگاه کوچک و محافظت شده</Outpost.description>
+  <!-- EN: Attacking {0}. -->
+  <Outpost.approachingReportString>حمله به {0}</Outpost.approachingReportString>
+  <!-- EN: Attack {0} -->
+  <Outpost.approachOrderString>به {0} حمله کنید</Outpost.approachOrderString>
+  <!-- EN: There is an enemy outpost in this area. -->
+  <Outpost.arrivedLetter>در این منطقه یک پاسگاه دشمن وجود دارد.</Outpost.arrivedLetter>
+  
+</LanguageData>

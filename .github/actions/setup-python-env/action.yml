@@ -1,0 +1,37 @@
+name: 'Setup Python Environment'
+description: 'Sets up Python with uv package manager and optimized caching'
+inputs:
+  python-version:
+    description: 'Python version to setup'
+    required: true
+    default: '3.13'
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Install uv
+      uses: astral-sh/setup-uv@v5
+      with:
+        version: "latest"
+        enable-cache: true
+        cache-dependency-glob: |
+          pyproject.toml
+          tools/rtl-processor/requirements.txt
+
+    - name: Set up Python ${{ inputs.python-version }}
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ inputs.python-version }}
+
+    - name: Install base dependencies
+      shell: bash
+      run: |
+        uv pip install --system -r tools/rtl-processor/requirements.txt
+
+    - name: Verify setup
+      shell: bash
+      run: |
+        echo "✅ Python Environment Setup Complete"
+        python --version
+        uv --version
+        pip list --local

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: orbital scanner -->
+  <OrbitalScanner.label>اسکنر مداری</OrbitalScanner.label>
+  <!-- EN: A sensor unit that passively scans for irregular objects orbiting the planet. It will periodically detect locations in orbit that can be visited with transport pods, shuttles, or gravships.\n\nThe scanner won't function under a roof. Building multiple orbital scanners does not increase the chance to find new locations. -->
+  <OrbitalScanner.description>یک واحد حسگر که به طور غیر فعال اجسام نامنظم را که به دور سیاره می چرخند اسکن می کند. به‌طور دوره‌ای مکان‌هایی را در مدار شناسایی می‌کند که می‌توان با غلاف‌های حمل‌ونقل، شاتل‌ها یا کشتی‌های قبر از آنها بازدید کرد.\n\nاسکنر زیر سقف کار نمی‌کند. ساخت اسکنرهای مداری متعدد شانس یافتن مکان های جدید را افزایش نمی دهد.</OrbitalScanner.description>
+  
+  <!-- EN: oxygen pump -->
+  <OxygenPump.label>پمپ اکسیژن</OxygenPump.label>
+  <!-- EN: A small wall-mounted unit that releases oxygen into the surrounding room, allowing enclosed areas to repressurize in space. Essential for long stays in orbit. -->
+  <OxygenPump.description>یک واحد کوچک روی دیوار که اکسیژن را به اتاق اطراف آزاد می کند و به نواحی محصور اجازه می دهد در فضا فشار بیاورند. برای اقامت طولانی مدت در مدار ضروری است.</OxygenPump.description>
+  
+  <!-- EN: vac barrier -->
+  <VacBarrier.label>سد vac</VacBarrier.label>
+  <!-- EN: An ultrasonic barrier that prevents depressurization in space. The field compresses air molecules near the threshold, preventing gases from escaping while allowing people to freely travel through it. A vac barrier will do nothing to prevent intruders.\n\nMust be powered to prevent depressurization. -->
+  <VacBarrier.description>یک سد اولتراسونیک که از کاهش فشار در فضا جلوگیری می کند. این میدان، مولکول‌های هوا را در نزدیکی آستانه فشرده می‌کند و از خروج گازها جلوگیری می‌کند و در عین حال به مردم اجازه می‌دهد آزادانه در آن حرکت کنند. یک مانع vac هیچ کاری برای جلوگیری از مزاحمان انجام نمی‌دهد.\n\nبرای جلوگیری از کاهش فشار باید برق داشته باشد.</VacBarrier.description>
+  
+</LanguageData>

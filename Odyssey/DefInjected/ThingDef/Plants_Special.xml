@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: archean seed -->
+  <ArcheanSeed.label>دانه آرکئن</ArcheanSeed.label>
+  <!-- EN: The seed of an archean tree. It can be planted to grow an archean tree, which converts nearby terrain into rich soil.\n\nArchean trees were bioengineered to terraform deadworlds and early-stage rimworlds. They are hardy enough to survive in the vacuum of space and produce a small amount of oxygen. The tree's delicate roots prevent it from being replanted. -->
+  <ArcheanSeed.description>دانه درخت آرکئن. می‌توان آن را برای رشد یک درخت آرکئن کاشت، که زمین‌های اطراف را به خاک غنی تبدیل می‌کند.\n\nدرختان آرکئن برای شکل دادن به جهان‌های مرده و دنیای حاشیه‌ای در مراحل اولیه مهندسی زیستی شدند. آنها به اندازه کافی مقاوم هستند تا در خلاء فضا زنده بمانند و مقدار کمی اکسیژن تولید کنند. ریشه های ظریف درخت از کاشت مجدد آن جلوگیری می کند.</ArcheanSeed.description>
+  
+  <!-- EN: chopped Archean stump -->
+  <ChoppedStump_Archean.label>کنده آرکئن خرد شده</ChoppedStump_Archean.label>
+  <!-- EN: A stump left behind after an archean tree has been felled. The stump can be extracted but yields very little usable wood. Left outdoors, the stump will deteriorate in time. -->
+  <ChoppedStump_Archean.description>کنده‌ای که پس از قطع شدن یک درخت آرکئن باقی مانده است. کنده را می توان استخراج کرد اما چوب قابل استفاده بسیار کمی تولید می کند. اگر در خارج از منزل رها شود، کنده به مرور زمان خراب می شود.</ChoppedStump_Archean.description>
+  
+  <!-- EN: archean tree -->
+  <Plant_TreeArchean.label>درخت آرکئن</Plant_TreeArchean.label>
+  <!-- EN: A tree bioengineered to terraform deadworlds and early-stage rimworlds. The tree hosts a special microbial community in its roots which enriches nearby terrain into rich soil. The trees are hardy enough to survive in the vacuum of space and produce a small amount of oxygen.\n\nArchean trees are sterile, preventing them from becoming an invasive species after terraforming has been completed. They can only be grown from seeds produced on glitterworld planets. The tree's delicate root system prevents it from being replanted. -->
+  <Plant_TreeArchean.description>درختی که برای شکل‌دهی زمین‌های مرده و دنیای حاشیه‌ای در مراحل اولیه طراحی شده است. این درخت میزبان یک جامعه میکروبی ویژه در ریشه های خود است که زمین های نزدیک را به خاک غنی غنی می کند. درختان به اندازه کافی مقاوم هستند تا در خلاء فضا زنده بمانند و مقدار کمی اکسیژن تولید کنند.\n\nدرختان آرکئن عقیم هستند و از تبدیل شدن آنها به گونه‌ای مهاجم پس از تکمیل زمین‌سازی جلوگیری می‌کند. آنها را فقط می توان از دانه های تولید شده در سیارات دنیای درخشان رشد داد. سیستم ریشه‌ای ظریف درخت از کاشت مجدد آن جلوگیری می کند.</Plant_TreeArchean.description>
+  
+  <!-- EN: smashed Archean stump -->
+  <SmashedStump_Archean.label>کنده آرکئن را شکست</SmashedStump_Archean.label>
+  <!-- EN: The remnants of an archean tree destroyed by damage. It's ugly. The stump can be extracted but yields very little usable wood. Left outdoors, the stump will deteriorate in time. -->
+  <SmashedStump_Archean.description>بقایای یک درخت آرکئن در اثر آسیب از بین رفت. زشت است. کنده را می توان استخراج کرد اما چوب قابل استفاده بسیار کمی تولید می کند. اگر در خارج از منزل رها شود، کنده به مرور زمان خراب می شود.</SmashedStump_Archean.description>
+  
+</LanguageData>

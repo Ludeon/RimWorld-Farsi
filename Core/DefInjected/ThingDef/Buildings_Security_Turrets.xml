@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: mortar -->
+  <Artillery_Mortar.label>خمپاره‌انداز</Artillery_Mortar.label>
+  <!-- EN: Mortar launcher. Lobs bombs over walls. Very inaccurate but long-ranged. -->
+  <Artillery_Mortar.description>پرتابگر خمپاره. بمب‌ها را از روی دیوارها پرتاب می‌کند. بسیار نادقیق اما بُرد بلند.</Artillery_Mortar.description>
+  <!-- EN: mortar -->
+  <Artillery_Mortar.verbs.Verb_Shoot.label>خمپاره‌انداز</Artillery_Mortar.verbs.Verb_Shoot.label>
+  
+  <!-- EN: autocannon shell -->
+  <Bullet_AutocannonTurret.label>گلوله توپ خودکار</Bullet_AutocannonTurret.label>
+  
+  <!-- EN: mini-turret bullet -->
+  <Bullet_MiniTurret.label>گلوله برجک کوچک</Bullet_MiniTurret.label>
+  
+  <!-- EN: uranium slug -->
+  <Bullet_TurretSniper.label>فشنگ اورانیوم</Bullet_TurretSniper.label>
+  
+  <!-- EN: autocannon -->
+  <Gun_AutocannonTurret.label>توپ خودکار</Gun_AutocannonTurret.label>
+  <!-- EN: A self-loading large-bore cannon designed to attach to a turret. -->
+  <Gun_AutocannonTurret.description>یک توپ خودبارگذار با لوله بزرگ طراحی شده برای نصب بر روی برجک.</Gun_AutocannonTurret.description>
+  <!-- EN: autocannon -->
+  <Gun_AutocannonTurret.verbs.Verb_Shoot.label>توپ خودکار</Gun_AutocannonTurret.verbs.Verb_Shoot.label>
+  
+  <!-- EN: mini-turret gun -->
+  <Gun_MiniTurret.label>اسلحه برجک کوچک</Gun_MiniTurret.label>
+  <!-- EN: A simple automatic gun made to be mounted on a turret. -->
+  <Gun_MiniTurret.description>یک اسلحه خودکار ساده ساخته شده برای نصب بر روی برجک.</Gun_MiniTurret.description>
+  <!-- EN: mini-turret gun -->
+  <Gun_MiniTurret.verbs.Verb_Shoot.label>اسلحه برجک کوچک</Gun_MiniTurret.verbs.Verb_Shoot.label>
+  
+  <!-- EN: rocketswarm tube -->
+  <Gun_RocketswarmLauncher.label>لوله موشک‌باران</Gun_RocketswarmLauncher.label>
+  <!-- EN: A rocketswarm tube of the type usually mounted on a rocketswarm launcher turret. -->
+  <Gun_RocketswarmLauncher.description>یک لوله موشک‌باران از نوعی که معمولاً بر روی برجک پرتابگر موشک‌باران نصب می‌شود.</Gun_RocketswarmLauncher.description>
+  <!-- EN: rocketswarm tube -->
+  <Gun_RocketswarmLauncher.verbs.Verb_Shoot.label>لوله موشک‌باران</Gun_RocketswarmLauncher.verbs.Verb_Shoot.label>
+  
+  <!-- EN: foam sprayer -->
+  <Gun_TurretFoam.label>پاشش‌کننده فوم</Gun_TurretFoam.label>
+  <!-- EN: A high-pressure firefoam sprayer usually mounted on a turret. -->
+  <Gun_TurretFoam.description>یک پاشش‌کننده فوم آتش‌نشانی پرفشار که معمولاً بر روی برجک نصب می‌شود.</Gun_TurretFoam.description>
+  <!-- EN: foam sprayer -->
+  <Gun_TurretFoam.verbs.Verb_ArcSprayProjectile.label>فوم پاش</Gun_TurretFoam.verbs.Verb_ArcSprayProjectile.label>
+  
+  <!-- EN: uranium slug cannon -->
+  <Gun_TurretSniper.label>توپ حلزون اورانیوم</Gun_TurretSniper.label>
+  <!-- EN: A self-loading uranium slug cannon designed to attach to a turret. -->
+  <Gun_TurretSniper.description>یک توپ اورانیومی خود بارگیری که برای اتصال به برجک طراحی شده است.</Gun_TurretSniper.description>
+  <!-- EN: uranium slug cannon -->
+  <Gun_TurretSniper.verbs.Verb_Shoot.label>توپ حلزون اورانیوم</Gun_TurretSniper.verbs.Verb_Shoot.label>
+  
+  <!-- EN: foam -->
+  <Proj_Foam.label>فوم</Proj_Foam.label>
+  
+  <!-- EN: rocket -->
+  <Proj_Rocket.label>موشک</Proj_Rocket.label>
+  
+  <!-- EN: autocannon turret -->
+  <Turret_Autocannon.label>توپ خودکار</Turret_Autocannon.label>
+  <!-- EN: A heavy automatic turret. Its large-caliber shells do heavy damage over significant ranges, but its barrel must be refurbished after use. It cannot fire at close-up targets, and may explode when damaged. -->
+  <Turret_Autocannon.description>توپ خودکار سنگین. گلوله‌های بزرگ‌کالیبر آن آسیب سنگینی در بردهای قابل توجه وارد می‌کند، اما پس از استفاده باید لوله‌اش تعمیر شود. نمی‌تواند به هدف‌های نزدیک شلیک کند و ممکن است هنگام آسیب‌دیدگی منفجر شود.</Turret_Autocannon.description>
+  <!-- EN: Barrel durability -->
+  <Turret_Autocannon.comps.CompRefuelable.fuelGizmoLabel>بارگیری لوله</Turret_Autocannon.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Shots until barrel change -->
+  <Turret_Autocannon.comps.CompRefuelable.fuelLabel>شلیک‌ها تا تعویض لوله</Turret_Autocannon.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Needs new barrel -->
+  <Turret_Autocannon.comps.CompRefuelable.outOfFuelMessage>نیاز به لوله جدید دارد</Turret_Autocannon.comps.CompRefuelable.outOfFuelMessage>
+  
+  <!-- EN: foam turret -->
+  <Turret_FoamTurret.label>برجک فوم</Turret_FoamTurret.label>
+  <!-- EN: An activatable turret for extinguishing fires. The turret stands idle until someone approaches and activates it, after which it will automatically spray large amounts of firefoam on any flames in sight. -->
+  <Turret_FoamTurret.description>برجک فعال‌پذیر برای خاموش کردن آتش. تا زمانی که کسی فعالش نکند بیکار می‌ماند، سپس به‌صورت خودکار فوم آتش‌نشانی زیادی روی شعله‌ها پاشش می‌کند.</Turret_FoamTurret.description>
+  <!-- EN: Foam -->
+  <Turret_FoamTurret.comps.CompRefuelable.fuelGizmoLabel>بارگیری فوم</Turret_FoamTurret.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Foam -->
+  <Turret_FoamTurret.comps.CompRefuelable.fuelLabel>فوم</Turret_FoamTurret.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Out of foam -->
+  <Turret_FoamTurret.comps.CompRefuelable.outOfFuelMessage>فوم تمام شد</Turret_FoamTurret.comps.CompRefuelable.outOfFuelMessage>
+  <!-- EN: activate -->
+  <Turret_FoamTurret.comps.CompInteractableFoamTurret.jobString>فعال‌سازی</Turret_FoamTurret.comps.CompInteractableFoamTurret.jobString>
+  <!-- EN: repressurizing -->
+  <Turret_FoamTurret.comps.CompInteractableFoamTurret.onCooldownString>در حال خنک‌سازی</Turret_FoamTurret.comps.CompInteractableFoamTurret.onCooldownString>
+  
+  <!-- EN: mini-turret -->
+  <Turret_MiniTurret.label>برجک کوچک</Turret_MiniTurret.label>
+  <!-- EN: A portable automatic turret. Requires steel to refurbish its barrel after heavy use. May explode when damaged. Its dumb AI brain can't be directly controlled, so beware of friendly fire. -->
+  <Turret_MiniTurret.description>توپ خودکار پرتاب‌پذیر قابل حمل. برای تعمیر لوله پس از استفاده سنگین به فولاد نیاز دارد. ممکن است هنگام آسیب‌دیدگی منفجر شود. هوش مصنوعی ساده‌اش قابل کنترل مستقیم نیست، پس مراقب آتش‌سوزی دوستانه باشید.</Turret_MiniTurret.description>
+  <!-- EN: Barrel durability -->
+  <Turret_MiniTurret.comps.CompRefuelable.fuelGizmoLabel>بارگیری لوله</Turret_MiniTurret.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Shots until barrel change -->
+  <Turret_MiniTurret.comps.CompRefuelable.fuelLabel>شلیک‌ها تا تعویض لوله</Turret_MiniTurret.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Needs new barrel -->
+  <Turret_MiniTurret.comps.CompRefuelable.outOfFuelMessage>نیاز به لوله جدید دارد</Turret_MiniTurret.comps.CompRefuelable.outOfFuelMessage>
+  
+  <!-- EN: mortar -->
+  <Turret_Mortar.label>مورتر</Turret_Mortar.label>
+  <!-- EN: A manned mortar that launches all kinds of shells. While it can inflict devastating damage, the mortar's inherent inaccuracy makes it more useful for attacking large fortifications than groups of enemies in the field. -->
+  <Turret_Mortar.description>مورتر با سرنشین که انواع گلوله‌ها را پرتاب می‌کند. اگرچه می‌تواند خسارت ویرانگر وارد کند، عدم دقت ذاتی آن برای حمله به سازه‌های بزرگ مفیدتر از گروه‌های دشمن در میدان است.</Turret_Mortar.description>
+  <!-- EN: Barrel durability -->
+  <Turret_Mortar.comps.CompRefuelable.fuelGizmoLabel>بارگیری لوله</Turret_Mortar.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Shots until barrel change -->
+  <Turret_Mortar.comps.CompRefuelable.fuelLabel>شلیک‌ها تا تعویض لوله</Turret_Mortar.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Needs new reinforced barrel -->
+  <Turret_Mortar.comps.CompRefuelable.outOfFuelMessage>نیاز به لوله تقویت‌شده جدید دارد</Turret_Mortar.comps.CompRefuelable.outOfFuelMessage>
+  
+  <!-- EN: rocketswarm launcher -->
+  <Turret_RocketswarmLauncher.label>راه‌انداز موشک‌باران</Turret_RocketswarmLauncher.label>
+  <!-- EN: An emergency-defense launcher that fires a single barrage of rockets covering a large area. The turret does not fire until someone activates it. It is very effective against large groups of weaker combatants, but less effective against small numbers of armored targets. Once fired, it must cool off for hours and be reloaded to fire again. -->
+  <Turret_RocketswarmLauncher.description>راه‌انداز دفاع اضطراری که یک باریکه موشک‌های فراوان را بر روی منطقه وسیعی شلیک می‌کند. تا زمانی که کسی فعالش نکند شلیک نمی‌کند. برای گروه‌های بزرگ دشمنان ضعیف مؤثر است، اما در برابر تعداد کم هدف‌های زرهی کمتر کارآمد. پس از شلیک باید ساعاتی خنک شود و دوباره بارگیری شود.</Turret_RocketswarmLauncher.description>
+  <!-- EN: Rockets -->
+  <Turret_RocketswarmLauncher.comps.CompRefuelable.fuelGizmoLabel>بارگیری موشک‌ها</Turret_RocketswarmLauncher.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Rockets -->
+  <Turret_RocketswarmLauncher.comps.CompRefuelable.fuelLabel>موشک‌ها</Turret_RocketswarmLauncher.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Missing rockets -->
+  <Turret_RocketswarmLauncher.comps.CompRefuelable.outOfFuelMessage>موشک‌ها کمبود</Turret_RocketswarmLauncher.comps.CompRefuelable.outOfFuelMessage>
+  <!-- EN: activate -->
+  <Turret_RocketswarmLauncher.comps.CompInteractableRocketswarmLauncher.jobString>فعال‌سازی</Turret_RocketswarmLauncher.comps.CompInteractableRocketswarmLauncher.jobString>
+  <!-- EN: cooling off -->
+  <Turret_RocketswarmLauncher.comps.CompInteractableRocketswarmLauncher.onCooldownString>در حال خنک‌سازی</Turret_RocketswarmLauncher.comps.CompInteractableRocketswarmLauncher.onCooldownString>
+  
+  <!-- EN: uranium slug turret -->
+  <Turret_Sniper.label>برجک اسنایپر</Turret_Sniper.label>
+  <!-- EN: An armor-piercing turret. Its ultra-dense uranium shells can punch through heavy armor, but it requires new uranium slugs to be loaded after use. It's more accurate at longer ranges, and can't fire at all close up. May explode when damaged. -->
+  <Turret_Sniper.description>برجک نفوذپذیر زره. گلوله‌های اورانیوم فوق‌چگال آن می‌توانند زره سنگین را شکسته کنند، اما پس از استفاده به گلوله‌های اورانیوم جدید نیاز دارد. در بردهای طولانی دقیق‌تر است و نمی‌تواند به نزدیک هدف شلیک کند. ممکن است هنگام آسیب‌دیدگی منفجر شود.</Turret_Sniper.description>
+  <!-- EN: Uranium slugs -->
+  <Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>بارگیری گلوله</Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Shots until rearm -->
+  <Turret_Sniper.comps.CompRefuelable.fuelLabel>شلیک‌ها تا تعویض گلوله</Turret_Sniper.comps.CompRefuelable.fuelLabel>
+  <!-- EN: No slugs -->
+  <Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>گلوله‌های اورانیوم موجود نیست</Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>
+  
+</LanguageData>

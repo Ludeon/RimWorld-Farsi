@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: activity suppression speed -->
+  <ActivitySuppressionRate.label>سرعت سرکوب فعالیت</ActivitySuppressionRate.label>
+  <!-- EN: The speed at which this person can suppress unnatural entities. A higher speed means they take less time to suppress each entity. -->
+  <ActivitySuppressionRate.description>سرعتی که این شخص می‌تواند موجودات غیرطبیعی را سرکوب کند. سرعت بالاتر به این معناست که زمان کمتری برای سرکوب هر موجود لازم است.</ActivitySuppressionRate.description>
+  <!-- EN: {0} per hour -->
+  <ActivitySuppressionRate.formatString>{0} در ساعت</ActivitySuppressionRate.formatString>
+  
+  <!-- EN: entity study rate -->
+  <EntityStudyRate.label>نرخ مطالعه موجود</EntityStudyRate.label>
+  <!-- EN: The rate at which this person generates knowledge from studying unnatural entities. -->
+  <EntityStudyRate.description>نرخی که این شخص از مطالعه موجودات غیرطبیعی دانش تولید می‌کند.</EntityStudyRate.description>
+  
+  <!-- EN: study efficiency -->
+  <StudyEfficiency.label>کارایی مطالعه</StudyEfficiency.label>
+  <!-- EN: A multiplier on how much knowledge a person gets when studying unnatural entities. -->
+  <StudyEfficiency.description>ضریبی برای میزان دانشی که شخص هنگام مطالعه موجودات غیرطبیعی کسب می‌کند.</StudyEfficiency.description>
+  
+</LanguageData>

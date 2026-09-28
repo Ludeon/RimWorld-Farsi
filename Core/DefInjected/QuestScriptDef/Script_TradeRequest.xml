@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->A nearby settlement, [settlement_label], has a special trade request. They would like to purchase:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](worth [requestedThingMarketValue_money])\n\nIf you want to make the trade, send a caravan with the requested items.[travelTime]</li>
+    <li>qualityInfo(requestedThingHasQuality==True,priority=1)->of normal+ quality </li>
+    <li>qualityInfo-></li>
+    <li>travelTime(canCaravan==True,priority=1)-> The estimated travel time is [estimatedTravelTime_duration].</li>
+    <li>travelTime-></li>
+  -->
+  <TradeRequest.questDescriptionRules.rulesStrings>
+    <li>questDescription->سکونتگاه نزدیک، [settlement_label]، درخواست تجاری ویژه‌ای دارد. آن‌ها مایلند موارد زیر را خریداری کنند:\n\n  [requestedThingCount] عدد [requestedThing_label] [qualityInfo] (به ارزش [requestedThingMarketValue_money])\n\nاگر می‌خواهید معامله را انجام دهید، کاروانی همراه با اقلام درخواستی ارسال کنید.[travelTime]</li>
+    <li>qualityInfo(requestedThingHasQuality==True,priority=1)->با کیفیت معمولی یا بالاتر</li>
+    <li>qualityInfo-></li>
+    <li>travelTime(canCaravan==True,priority=1)->زمان تخمینی سفر [estimatedTravelTime_duration] است.</li>
+    <li>travelTime-></li>
+  </TradeRequest.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Caravan to [settlement_label]</li>
+    <li>questName->Trade with [settlement_label]</li>
+    <li>questName->Selling to [settlement_label]</li>
+    <li>questName->Supplies for [settlement_label]</li>
+    <li>questName->A [special] [trade]</li>
+    <li>special->Special</li>
+    <li>special->Unique</li>
+    <li>special->Non-traditional</li>
+    <li>trade->Trade</li>
+    <li>trade->Exchange</li>
+    <li>trade->Deal</li>
+    <li>trade->Offer</li>
+  -->
+  <TradeRequest.questNameRules.rulesStrings>
+    <li>questName->کاروان به [settlement_label]</li>
+    <li>questName->تجارت با [settlement_label]</li>
+    <li>questName->فروش به [settlement_label]</li>
+    <li>questName->تدارکات برای [settlement_label]</li>
+    <li>questName->یک [trade] [special]</li>
+    <li>special->ویژه</li>
+    <li>special->منحصربه‌فرد</li>
+    <li>special->غیرمعمول</li>
+    <li>trade->تجارت</li>
+    <li>trade->مبادله</li>
+    <li>trade->معامله</li>
+    <li>trade->پیشنهاد</li>
+  </TradeRequest.questNameRules.rulesStrings>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <TradeRequest.LetterLabelQuestFailed.slateRef>تلاش ناموفق بود: [resolvedQuestName]</TradeRequest.LetterLabelQuestFailed.slateRef>
+  <!-- EN: [faction_name] became hostile to you. -->
+  <TradeRequest.LetterTextQuestFailed.slateRef>[faction_name] با شما دشمنی کرد.</TradeRequest.LetterTextQuestFailed.slateRef>
+  <!-- EN: [asker_faction_royalFavorLabel] -->
+  <TradeRequest.LetterLabelFavorReceiver.slateRef>[asker_faction_royalFavorLabel]</TradeRequest.LetterLabelFavorReceiver.slateRef>
+  <!-- EN: Who should be credited with [asker_faction_royalFavorLabel] for fulfilling the trade request? -->
+  <TradeRequest.LetterTextFavorReceiver.slateRef>چه کسی باید [asker_faction_royalFavorLabel] را برای برآورده کردن درخواست تجاری به حساب آورد؟</TradeRequest.LetterTextFavorReceiver.slateRef>
+  
+</LanguageData>

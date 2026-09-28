@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: orbital bombardment targeter -->
+  <OrbitalTargeterBombardment.label>هدف‌گیر بمباران مداری</OrbitalTargeterBombardment.label>
+  <!-- EN: An ancient targeting apparatus for an orbital bombardment system. This unit designates a target and transmits the coordinates to a network of satellites, which then bombard the target area with kinetic impactors. This unit has been reprogrammed to accept unauthorized users, but once it is used, the network will detect the incursion and cut off the link permanently. -->
+  <OrbitalTargeterBombardment.description>دستگاه هدف‌گیری باستانی برای سیستم بمباران مداری. این واحد یک هدف را مشخص و مختصات را به شبکه‌ای از ماهواره‌ها منتقل می‌کند که سپس منطقه هدف را با ضربه‌زننده‌های جنبشی بمباران می‌کند. این واحد برای پذیرفتن کاربران غیرمجاز برنامه‌ریزی مجدد شده، اما پس از استفاده، شبکه نفوذ را شناسایی و پیوند را برای همیشه قطع خواهد کرد.</OrbitalTargeterBombardment.description>
+  <!-- EN: charge -->
+  <OrbitalTargeterBombardment.comps.CompApparelReloadable.chargeNoun>بار</OrbitalTargeterBombardment.comps.CompApparelReloadable.chargeNoun>
+  <!-- EN: on cooldown -->
+  <OrbitalTargeterBombardment.comps.CompApparelReloadable.cooldownGerund>در حال خنک شدن</OrbitalTargeterBombardment.comps.CompApparelReloadable.cooldownGerund>
+  <!-- EN: orbital bombardment targeter -->
+  <OrbitalTargeterBombardment.verbs.Verb_Bombardment.label>هدف‌گیر بمباران مداری</OrbitalTargeterBombardment.verbs.Verb_Bombardment.label>
+  
+  <!-- EN: orbital power beam targeter -->
+  <OrbitalTargeterPowerBeam.label>هدف‌گیر پرتو برق مداری</OrbitalTargeterPowerBeam.label>
+  <!-- EN: An ancient targeting unit for a network of power-collection satellites. Once aimed at a target, it directs ancient satellites to begin beaming power down in a massive column of electromagnetic energy. This power can safely be collected in a giant absorption dish. Since you have no absorption dish, you'll be aiming it at enemies, at which point the power column will turn the area into a thousand-degree inferno. This will last until the satellites detect the unsafe targeting, shut themselves down, and permanently deactivate the targeter. -->
+  <OrbitalTargeterPowerBeam.description>یک واحد هدف گیری قدیمی برای شبکه‌ای از ماهواره های جمع آوری نیرو. هنگامی که هدفی را هدف قرار می دهد، ماهواره های باستانی را هدایت می کند تا در ستون عظیمی از انرژی الکترومغناطیسی، پرتوهای قدرت را شروع کنند. این قدرت را می توان با خیال راحت در یک ظرف جذب غول پیکر جمع آوری کرد. از آنجایی که هیچ ظرف جذبی ندارید، آن را به سمت دشمنان هدف قرار خواهید داد، در این مرحله ستون قدرت منطقه را به یک جهنم هزار درجه تبدیل می کند. این تا زمانی ادامه خواهد داشت که ماهواره‌ها هدف گیری ناامن را شناسایی کنند، خود را خاموش کنند و هدف را برای همیشه غیرفعال کنند.</OrbitalTargeterPowerBeam.description>
+  <!-- EN: charge -->
+  <OrbitalTargeterPowerBeam.comps.CompApparelReloadable.chargeNoun>شارژ</OrbitalTargeterPowerBeam.comps.CompApparelReloadable.chargeNoun>
+  <!-- EN: on cooldown -->
+  <OrbitalTargeterPowerBeam.comps.CompApparelReloadable.cooldownGerund>در خنک شدن</OrbitalTargeterPowerBeam.comps.CompApparelReloadable.cooldownGerund>
+  <!-- EN: orbital power beam targeter -->
+  <OrbitalTargeterPowerBeam.verbs.Verb_PowerBeam.label>هدف‌گیر پرتو برق مداری</OrbitalTargeterPowerBeam.verbs.Verb_PowerBeam.label>
+  
+  <!-- EN: tornado generator -->
+  <TornadoGenerator.label>تولیدکننده گردباد</TornadoGenerator.label>
+  <!-- EN: An ancient control unit for a network of weather-control satellites. This device has had certain failsafes bypassed; it is capable of causing a massive air current disturbance, which will generate a tornado at a chosen location. The weather network will detect this unauthorized intrusion and lock out the device after use, but the tornado will be left to spend its energy normally. -->
+  <TornadoGenerator.description>واحد کنترل باستانی برای شبکه‌ای از ماهواره‌های کنترل آب و هوا. این دستگاه برخی ایمنی‌ها را دور زده؛ قادر به ایجاد اختلال عظیم جریان هواست که یک گردباد در مکان انتخابی تولید می‌کند. شبکه آب و هوا این نفوذ غیرمجاز را شناسایی و دستگاه را پس از استفاده قفل خواهد کرد، اما گردباد واگذار می‌شود تا انرژی خود را به طور عادی خرج کند.</TornadoGenerator.description>
+  <!-- EN: charge -->
+  <TornadoGenerator.comps.CompApparelReloadable.chargeNoun>بار</TornadoGenerator.comps.CompApparelReloadable.chargeNoun>
+  <!-- EN: on cooldown -->
+  <TornadoGenerator.comps.CompApparelReloadable.cooldownGerund>در حال خنک شدن</TornadoGenerator.comps.CompApparelReloadable.cooldownGerund>
+  <!-- EN: tornado generator -->
+  <TornadoGenerator.verbs.Verb_Spawn.label>تولیدکننده گردباد</TornadoGenerator.verbs.Verb_Spawn.label>
+  
+</LanguageData>

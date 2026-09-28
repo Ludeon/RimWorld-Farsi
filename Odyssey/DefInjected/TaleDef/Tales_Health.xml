@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: vacuum exposure revealed -->
+  <VacuumExposureRevealed.label>قرار گرفتن در معرض خلاء آشکار شد</VacuumExposureRevealed.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] being exposed to hard vacuum</li>
+    <li>tale_noun->[PAWN_nameDef] suffering from vacuum exposure</li>
+    <li>image->[PAWN_nameFull] floating away from a ship [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] drifting through space [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] drifting among stars [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] staggering out an airlock [circumstance_group]</li>
+    <li>circumstance_phrase->while [PAWN_possessive] face slowly turns blue</li>
+    <li>circumstance_phrase->while [PAWN_possessive] saliva begins to boil</li>
+    <li>circumstance_phrase->while [PAWN_possessive] body begins to swell</li>
+    <li>circumstance_phrase->while [PAWN_possessive] skin begins to freeze</li>
+    <li>circumstance_phrase->while silently screaming</li>
+    <li>circumstance_phrase->and beginning to lose consciousness</li>
+    <li>circumstance_phrase->and gasping for air</li>
+    <li>desc_sentence->[PAWN_nameDef]'s eyes are turning glassy.</li>
+    <li>desc_sentence->An endless darkness surrounds the subject.</li>
+    <li>desc_sentence->The scene appears to take place in space.</li>
+    <li>desc_sentence->Beneath a shattered helmet are lifeless eyes.</li>
+    <li>desc_sentence->[Quantity_adjphrase] twisted stars surround the image.</li>
+    <li>desc_sentence->[PAWN_nameDef] wears a torn vacsuit.</li>
+    <li>desc_sentence->A [Color] asteroid looms large behind the image.</li>
+    <li>desc_sentence->Behind the image is a large [Color] planet.</li>
+  -->
+  <VacuumExposureRevealed.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] در معرض خلاء سخت قرار می گیرد</li>
+    <li>tale_noun->[PAWN_nameDef] از قرار گرفتن در معرض خلاء رنج می برد</li>
+    <li>image->[PAWN_nameFull] شناور از یک کشتی [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] در حال حرکت در فضا [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] در حال حرکت در میان ستارگان [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] یک قفل هوای [circumstance_group] را به‌هم می‌زند</li>
+    <li>circumstance_phrase->در حالی که چهره [PAWN_possessive] به آرامی آبی می شود</li>
+    <li>circumstance_phrase->در حالی که بزاق [PAWN_possessive] شروع به جوشیدن می کند</li>
+    <li>circumstance_phrase->در حالی که بدن [PAWN_possessive] شروع به متورم شدن می کند</li>
+    <li>circumstance_phrase->در حالی که پوست [PAWN_possessive] شروع به یخ زدن می کند</li>
+    <li>circumstance_phrase->در حالی که بی صدا فریاد می زد</li>
+    <li>circumstance_phrase->و شروع به از دست دادن هوشیاری می کند</li>
+    <li>circumstance_phrase->و نفس نفس زدن به هوا</li>
+    <li>desc_sentence->چشم های [PAWN_nameDef] در حال تبدیل شدن به شیشه هستند.</li>
+    <li>desc_sentence->تاریکی بی پایان سوژه را احاطه کرده است.</li>
+    <li>desc_sentence->به نظر می رسد صحنه در فضا اتفاق می افتد.</li>
+    <li>desc_sentence->زیر کلاهی که شکسته است، چشمانی بی جان است.</li>
+    <li>desc_sentence->ستاره های پیچ خورده [Quantity_adjphrase] تصویر را احاطه کرده اند.</li>
+    <li>desc_sentence->[PAWN_nameDef] جاروبرقی پاره می پوشد.</li>
+    <li>desc_sentence->یک سیارک [Color] در پشت تصویر بزرگ خودنمایی می کند.</li>
+    <li>desc_sentence->در پشت تصویر یک سیاره بزرگ [Color] وجود دارد.</li>
+  </VacuumExposureRevealed.rulePack.rulesStrings>
+  
+</LanguageData>

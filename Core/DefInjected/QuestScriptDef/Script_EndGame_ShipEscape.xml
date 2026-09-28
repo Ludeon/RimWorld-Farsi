@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->A friendly AI from your past named (*Name)Charlon Whitestone(/Name) has sent you a message!\n\nHe reveals that he has a starship hidden on this planet, and sends you its world coordinates.\n\nThe starship is in deep hibernation mode. You'll have to start it up when you arrive, then defend it from raiders trying to steal it until the startup sequence completes. It will be a long, difficult series of battles.\n\nIf you can get the ship off the ground, (*Name)Charlon Whitestone(/Name) will take you off this rimworld, to the stars.</li>
+  -->
+  <EndGame_ShipEscape.questDescriptionRules.rulesStrings>
+    <li>questDescription->یک هوش مصنوعی دوست از گذشته شما به نام (*Name)شارلون وایت‌استون(/Name) پیامی برای شما فرستاده است!\n\nاو فاش می‌کند که یک سفینه فضایی پنهان در این سیاره دارد و مختصات جغرافیایی آن را برای شما می‌فرستد.\n\nاین سفینه در حالت خواب زمستانی عمیق است. پس از رسیدن باید آن را روشن کنید و تا زمان تکمیل توالی راه‌اندازی، در برابر غارتگرانی که قصد ربودن آن را دارند از آن دفاع کنید. این یک سلسله نبردهای طولانی و دشوار خواهد بود.\n\nاگر بتوانید سفینه را از زمین بلند کنید، (*Name)شارلون وایت‌استون(/Name) شما را از این دنیای حاشیه‌ای به سوی ستارگان خواهد برد.</li>
+  </EndGame_ShipEscape.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Ship to the Stars</li>
+  -->
+  <EndGame_ShipEscape.questNameRules.rulesStrings>
+    <li>questName->سفینه‌ای به سوی ستارگان</li>
+  </EndGame_ShipEscape.questNameRules.rulesStrings>
+  
+</LanguageData>

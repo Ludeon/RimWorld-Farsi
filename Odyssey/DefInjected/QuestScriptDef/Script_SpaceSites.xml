@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of an abandoned orbital platform. You don't detect any signs of life.\n\nYou can break in to obtain the loot inside, but the platform probably has defense systems.\n\nYou can travel to orbital locations using gravships, shuttles, or transport pods.</li>
+  -->
+  <OpportunitySite_AbandonedPlatform.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] مکان یک سکوی مداری متروکه. هیچ نشانه‌ای از حیات را تشخیص نمی‌دهید.\n\nمی‌توانید برای به دست آوردن غنائم داخل آن نفوذ کنید، اما احتمالاً این سکو دارای سیستم‌های دفاعی است.\n\nمی‌توانید با استفاده از کشتی‌های گرانشی، شاتل‌ها یا کپسول‌های حمل و نقل به مکان‌های مداری سفر کنید.</li>
+  </OpportunitySite_AbandonedPlatform.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName(p=3)->[ancientPlatAdj] [platform]</li>
+    <li>questName->[PlaceOutlander] [platform]</li>
+    <li>questName->[platform] [greekLetter]</li>
+    <li>questName->[platAdj] [platform] [RomanNumeral]</li>
+    <li>ancientPlatAdj->abandoned</li>
+    <li>ancientPlatAdj->ancient</li>
+    <li>ancientPlatAdj->[platAdj]</li>
+    <li>platAdj->starlight</li>
+    <li>platAdj->nebula</li>
+    <li>platAdj->horizon</li>
+    <li>platAdj->eclipse</li>
+    <li>platAdj->zenith</li>
+    <li>platAdj->aurora</li>
+    <li>platAdj->corona</li>
+    <li>platAdj->nova</li>
+    <li>platAdj->eon</li>
+    <li>platAdj->solace</li>
+    <li>platAdj->lumina</li>
+    <li>platAdj->ion</li>
+    <li>platAdj->astralis</li>
+    <li>platAdj->apollo</li>
+    <li>platAdj->ares</li>
+    <li>platAdj->hades</li>
+    <li>platAdj->ajax</li>
+    <li>platAdj->eos</li>
+    <li>platAdj->eros</li>
+    <li>platAdj->chronos</li>
+    <li>platAdj->zephyrus</li>
+    <li>platAdj->argos</li>
+    <li>platAdj->orion</li>
+    <li>platAdj->hermes</li>
+    <li>platAdj->atlas</li>
+    <li>platAdj->helios</li>
+    <li>platAdj->hephaestus</li>
+    <li>platAdj->talos</li>
+    <li>platAdj->vanguard</li>
+    <li>platAdj->aegis</li>
+    <li>platAdj->halcyon</li>
+    <li>platAdj->skyforge</li>
+    <li>platAdj->titan</li>
+    <li>platform(p=2)->station</li>
+    <li>platform->platform</li>
+    <li>platform->orbital platform</li>
+    <li>platform->orbital hub</li>
+    <li>platform(p=0.5)->skygate</li>
+    <li>platform(p=0.5)->spacedock</li>
+    <li>platform(p=0.5)->gateway</li>
+    <li>greekLetter->alpha</li>
+    <li>greekLetter->beta</li>
+    <li>greekLetter->theta</li>
+    <li>greekLetter->delta</li>
+    <li>greekLetter->zeta</li>
+    <li>greekLetter->sigma</li>
+    <li>greekLetter->omega</li>
+    <li>PlaceOutlander(p=3)->[SylE][place_end]</li>
+    <li>PlaceOutlander->[SylE][SylE][place_end]</li>
+  -->
+  <OpportunitySite_AbandonedPlatform.questNameRules.rulesStrings>
+    <li>questName(p=3)->[platform] [ancientPlatAdj]</li>
+    <li>questName->[platform] [PlaceOutlander]</li>
+    <li>questName->[platform] [greekLetter]</li>
+    <li>questName->[platform] [platAdj] [RomanNumeral]</li>
+    <li>ancientPlatAdj->متروکه</li>
+    <li>ancientPlatAdj->باستانی</li>
+    <li>ancientPlatAdj->[platAdj]</li>
+    <li>platAdj->نور ستاره</li>
+    <li>platAdj->سحابی</li>
+    <li>platAdj->افق</li>
+    <li>platAdj->کسوف</li>
+    <li>platAdj->اوج</li>
+    <li>platAdj->آئورا</li>
+    <li>platAdj->تاجی</li>
+    <li>platAdj->نواختر</li>
+    <li>platAdj->ائون</li>
+    <li>platAdj->آرامش</li>
+    <li>platAdj->لومینا</li>
+    <li>platAdj->یونی</li>
+    <li>platAdj->آسترالیس</li>
+    <li>platAdj->آپولو</li>
+    <li>platAdj->آرس</li>
+    <li>platAdj->هادس</li>
+    <li>platAdj->آژاکس</li>
+    <li>platAdj->ائوس</li>
+    <li>platAdj->اروس</li>
+    <li>platAdj->کرونوس</li>
+    <li>platAdj->زفوروس</li>
+    <li>platAdj->آرگوس</li>
+    <li>platAdj->شکارچی</li>
+    <li>platAdj->هرمس</li>
+    <li>platAdj->اطلس</li>
+    <li>platAdj->هلیوس</li>
+    <li>platAdj->هفائستوس</li>
+    <li>platAdj->تالوس</li>
+    <li>platAdj->پیشرو</li>
+    <li>platAdj->ایگیس</li>
+    <li>platAdj->هالسیون</li>
+    <li>platAdj->اسکای‌فورج</li>
+    <li>platAdj->تایتان</li>
+    <li>platform(p=2)->ایستگاه</li>
+    <li>platform->سکو</li>
+    <li>platform->سکوی مداری</li>
+    <li>platform->مرکز مداری</li>
+    <li>platform(p=0.5)->اسکای‌گیت</li>
+    <li>platform(p=0.5)->بارانداز فضایی</li>
+    <li>platform(p=0.5)->دروازه</li>
+    <li>greekLetter->آلفا</li>
+    <li>greekLetter->بتا</li>
+    <li>greekLetter->تتا</li>
+    <li>greekLetter->دلتا</li>
+    <li>greekLetter->زتا</li>
+    <li>greekLetter->سیگما</li>
+    <li>greekLetter->امگا</li>
+    <li>PlaceOutlander(p=3)->[SylE][place_end]</li>
+    <li>PlaceOutlander->[SylE][SylE][place_end]</li>
+  </OpportunitySite_AbandonedPlatform.questNameRules.rulesStrings>
+  <!-- EN: You have discovered -->
+  <OpportunitySite_AbandonedPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>شما کشف کرده اید</OpportunitySite_AbandonedPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <OpportunitySite_AbandonedPlatform.LetterLabelQuestExpired.slateRef>تلاش منقضی شده: [resolvedQuestName]</OpportunitySite_AbandonedPlatform.LetterLabelQuestExpired.slateRef>
+  <!-- EN: Intercepted communications indicate the platform has been claimed by others. The quest [resolvedQuestName] has expired. -->
+  <OpportunitySite_AbandonedPlatform.LetterTextQuestExpired.slateRef>ارتباطات رهگیری شده نشان می دهد که این پلت فرم توسط دیگران ادعا شده است. تلاش [resolvedQuestName] منقضی شده است.</OpportunitySite_AbandonedPlatform.LetterTextQuestExpired.slateRef>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of an asteroid orbiting the planet. It contains significant amounts of [resource], and potentially other resources as well.\n\nOrbital miners steer asteroids into orbit so that they can be mined and the ore sold to orbital traders. You do not detect any signs of life from this asteroid.\n\nYou can reach the asteroid with transport pods, shuttles, or a gravship. Equip your colonists with sufficient orbital apparel before departing.</li>
+  -->
+  <OpportunitySite_Asteroid.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] موقعیت یک سیارک در حال چرخش به دور سیاره. این سیارک حاوی مقادیر قابل توجهی از [resource] و احتمالاً منابع دیگر است.\n\nمعدنچیان مداری، سیارک‌ها را به مدار هدایت می‌کنند تا بتوان آن‌ها را استخراج کرد و سنگ معدن را به بازرگانان مداری فروخت. شما هیچ نشانه‌ای از حیات در این سیارک پیدا نمی‌کنید.\n\nمی‌توانید با کپسول‌های حمل و نقل، شاتل‌ها یا یک کشتی گرانشی به این سیارک برسید. قبل از حرکت، ساکنان خود را به پوشش مداری کافی مجهز کنید.</li>
+  </OpportunitySite_Asteroid.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[resource] Asteroid</li>
+  -->
+  <OpportunitySite_Asteroid.questNameRules.rulesStrings>
+    <li>questName->سیارک [resource]</li>
+  </OpportunitySite_Asteroid.questNameRules.rulesStrings>
+  <!-- EN: You have discovered -->
+  <OpportunitySite_Asteroid.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>شما کشف کرده اید</OpportunitySite_Asteroid.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of an orbital platform. You detect high levels of mechanoid activity.\n\nYou can scavenge valuables from the platform.\n\nYou can travel to orbital locations using gravships, shuttles, or transport pods.</li>
+  -->
+  <OpportunitySite_MechanoidPlatform.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] مکان یک سکوی مداری. شما سطوح بالایی از فعالیت مکانویدها را تشخیص می‌دهید.\n\nمی‌توانید اشیای باارزش را از این سکو بازیافت کنید.\n\nمی‌توانید با استفاده از کشتی‌های گرانشی، شاتل‌ها یا کپسول‌های حمل و نقل به مکان‌های مداری بروید.</li>
+  </OpportunitySite_MechanoidPlatform.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[platAdj] [platform] [designation]</li>
+    <li>questName->[platAdj] [platform]</li>
+    <li>platAdj(p=3)->mechanoid</li>
+    <li>platAdj(p=3)->[mechanoid]</li>
+    <li>platAdj->genesis</li>
+    <li>platAdj->synthesis</li>
+    <li>platAdj->assembly</li>
+    <li>platAdj->formation</li>
+    <li>platform->platform</li>
+    <li>platform->station</li>
+    <li>platform->hub</li>
+    <li>designation->[RomanNumeral]</li>
+    <li>designation->[Letter]-[RomanNumeral]</li>
+    <li>mechanoid->scyther</li>
+    <li>mechanoid->lancer</li>
+    <li>mechanoid->centipede</li>
+    <li>mechanoid->cyclops</li>
+  -->
+  <OpportunitySite_MechanoidPlatform.questNameRules.rulesStrings>
+    <li>questName->[platform] [platAdj] [designation]</li>
+    <li>questName->[platform] [platAdj]</li>
+    <li>platAdj(p=3)->مکانویدی</li>
+    <li>platAdj(p=3)->[mechanoid]</li>
+    <li>platAdj->پیدایش</li>
+    <li>platAdj->سنتز</li>
+    <li>platAdj->مونتاژ</li>
+    <li>platAdj->آرایش</li>
+    <li>platform->سکو</li>
+    <li>platform->ایستگاه</li>
+    <li>platform->مرکز فرماندهی</li>
+    <li>designation->[RomanNumeral]</li>
+    <li>designation->[Letter]-[RomanNumeral]</li>
+    <li>mechanoid->سایتر</li>
+    <li>mechanoid->لانسر</li>
+    <li>mechanoid->هزارپا</li>
+    <li>mechanoid->سایکلوپس</li>
+  </OpportunitySite_MechanoidPlatform.questNameRules.rulesStrings>
+  <!-- EN: You have discovered -->
+  <OpportunitySite_MechanoidPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>شما کشف کرده اید</OpportunitySite_MechanoidPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <OpportunitySite_MechanoidPlatform.LetterLabelQuestExpired.slateRef>تلاش منقضی شده: [resolvedQuestName]</OpportunitySite_MechanoidPlatform.LetterLabelQuestExpired.slateRef>
+  <!-- EN: Intercepted communications indicate the platform has been claimed by others. The quest [resolvedQuestName] has expired. -->
+  <OpportunitySite_MechanoidPlatform.LetterTextQuestExpired.slateRef>ارتباطات رهگیری شده نشان می دهد که این پلت فرم توسط دیگران ادعا شده است. تلاش [resolvedQuestName] منقضی شده است.</OpportunitySite_MechanoidPlatform.LetterTextQuestExpired.slateRef>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] an unusual asteroid orbiting the planet. The asteroid has a hollow core which contains several structures.\n\nYou can break in to obtain the loot inside.\n\nBe warned - the buildings may contain defense systems.</li>
+  -->
+  <OpportunitySite_OrbitalItemStash.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] یک سیارک غیرمعمول در حال گردش به دور سیاره. این سیارک دارای یک هسته توخالی است که چندین سازه را در خود جای داده است.\n\nمی‌توانید برای به دست آوردن غنائم داخل آن نفوذ کنید.\n\nهشدار داده می‌شود - ساختمان‌ها ممکن است دارای سیستم‌های دفاعی باشند.</li>
+  </OpportunitySite_OrbitalItemStash.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[adjective] [orbital] [stash_noun]</li>
+    <li>questName->[orbital] [stash_noun]</li>
+    <li>adjective->Hidden</li>
+    <li>adjective->Secret</li>
+    <li>orbital->Orbital</li>
+    <li>orbital->Asteroid</li>
+    <li>stash_noun->Stash</li>
+    <li>stash_noun->Cache</li>
+  -->
+  <OpportunitySite_OrbitalItemStash.questNameRules.rulesStrings>
+    <li>questName->[stash_noun] [orbital] [adjective]</li>
+    <li>questName->[stash_noun] [orbital]</li>
+    <li>adjective->مخفی</li>
+    <li>adjective->رازآلود</li>
+    <li>orbital->مداری</li>
+    <li>orbital->سیارک</li>
+    <li>stash_noun->انبار مخفی</li>
+    <li>stash_noun->ذخیره‌گاه</li>
+  </OpportunitySite_OrbitalItemStash.questNameRules.rulesStrings>
+  <!-- EN: You have discovered -->
+  <OpportunitySite_OrbitalItemStash.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>شما کشف کرده اید</OpportunitySite_OrbitalItemStash.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the coordinates of a massive piece of wreckage in orbit. It could contain valuable resources. Orbital debris fields are often occupied by hostile scavengers.\n\nYou can travel to orbital locations using gravships, shuttles, or transport pods.</li>
+  -->
+  <OpportunitySite_OrbitalWreck.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] مختصات یک تکه عظیم از لاشه در مدار. این لاشه می‌تواند حاوی منابع ارزشمندی باشد. میدان‌های زباله مداری اغلب توسط بازیافت‌کنندگان متخاصم اشغال شده‌اند.\n\nمی‌توانید با استفاده از کشتی‌های گرانشی، شاتل‌ها یا کپسول‌های حمل و نقل به مکان‌های مداری سفر کنید.</li>
+  </OpportunitySite_OrbitalWreck.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName(p=2)->the ruins of [platAdj] [platform]</li>
+    <li>questName->[platAdj] [wreckage]</li>
+    <li>questName->[PlaceOutlander] [wreckage]</li>
+    <li>questName->[ruined] [platAdj] [platform]</li>
+    <li>platAdj->starlight</li>
+    <li>platAdj->nebula</li>
+    <li>platAdj->horizon</li>
+    <li>platAdj->eclipse</li>
+    <li>platAdj->zenith</li>
+    <li>platAdj->aurora</li>
+    <li>platAdj->corona</li>
+    <li>platAdj->nova</li>
+    <li>platAdj->eon</li>
+    <li>platAdj->solace</li>
+    <li>platAdj->lumina</li>
+    <li>platAdj->ion</li>
+    <li>platAdj->astralis</li>
+    <li>platAdj->apollo</li>
+    <li>platAdj->ares</li>
+    <li>platAdj->hades</li>
+    <li>platAdj->ajax</li>
+    <li>platAdj->eos</li>
+    <li>platAdj->eros</li>
+    <li>platAdj->chronos</li>
+    <li>platAdj->zephyrus</li>
+    <li>platAdj->argos</li>
+    <li>platAdj->orion</li>
+    <li>platAdj->hermes</li>
+    <li>platAdj->atlas</li>
+    <li>platAdj->helios</li>
+    <li>platAdj->hephaestus</li>
+    <li>platAdj->talos</li>
+    <li>platAdj->vanguard</li>
+    <li>platAdj->aegis</li>
+    <li>platAdj->halcyon</li>
+    <li>platAdj->skyforge</li>
+    <li>platAdj->titan</li>
+    <li>wreckage(p=2)->wreckage</li>
+    <li>wreckage(p=2)->wreck</li>
+    <li>wreckage->orbital ruins</li>
+    <li>wreckage->debris field</li>
+    <li>platform(p=2)->station</li>
+    <li>platform->platform</li>
+    <li>platform(p=0.5)->skygate</li>
+    <li>platform(p=0.5)->spacedock</li>
+    <li>platform(p=0.5)->gateway</li>
+    <li>ruined->ruined</li>
+    <li>ruined->destroyed</li>
+    <li>ruined->scuttled</li>
+    <li>ruined->lost</li>
+    <li>ruined->ravaged</li>
+    <li>PlaceOutlander(p=3)->[SylE][place_end]</li>
+    <li>PlaceOutlander->[SylE][SylE][place_end]</li>
+  -->
+  <OpportunitySite_OrbitalWreck.questNameRules.rulesStrings>
+    <li>questName(p=2)->ویرانه‌های [platform] [platAdj]</li>
+    <li>questName->[wreckage] [platAdj]</li>
+    <li>questName->[wreckage] [PlaceOutlander]</li>
+    <li>questName->[platform] [platAdj] [ruined]</li>
+    <li>platAdj->نور ستاره</li>
+    <li>platAdj->سحابی</li>
+    <li>platAdj->افق</li>
+    <li>platAdj->کسوف</li>
+    <li>platAdj->اوج</li>
+    <li>platAdj->آئورا</li>
+    <li>platAdj->تاجی</li>
+    <li>platAdj->نواختر</li>
+    <li>platAdj->ائون</li>
+    <li>platAdj->آرامش</li>
+    <li>platAdj->لومینا</li>
+    <li>platAdj->یونی</li>
+    <li>platAdj->آسترالیس</li>
+    <li>platAdj->آپولو</li>
+    <li>platAdj->آرس</li>
+    <li>platAdj->هادس</li>
+    <li>platAdj->آژاکس</li>
+    <li>platAdj->ائوس</li>
+    <li>platAdj->اروس</li>
+    <li>platAdj->کرونوس</li>
+    <li>platAdj->زفوروس</li>
+    <li>platAdj->آرگوس</li>
+    <li>platAdj->شکارچی</li>
+    <li>platAdj->هرمس</li>
+    <li>platAdj->اطلس</li>
+    <li>platAdj->هلیوس</li>
+    <li>platAdj->هفائستوس</li>
+    <li>platAdj->تالوس</li>
+    <li>platAdj->پیشرو</li>
+    <li>platAdj->ایگیس</li>
+    <li>platAdj->هالسیون</li>
+    <li>platAdj->اسکای‌فورج</li>
+    <li>platAdj->تایتان</li>
+    <li>wreckage(p=2)->خرابه‌ها</li>
+    <li>wreckage(p=2)->لاشه</li>
+    <li>wreckage->ویرانه‌های مداری</li>
+    <li>wreckage->میدان زباله‌های فضایی</li>
+    <li>platform(p=2)->ایستگاه</li>
+    <li>platform->سکو</li>
+    <li>platform(p=0.5)->اسکای‌گیت</li>
+    <li>platform(p=0.5)->بارانداز فضایی</li>
+    <li>platform(p=0.5)->دروازه</li>
+    <li>ruined->مخروبه</li>
+    <li>ruined->نابودشده</li>
+    <li>ruined->غرق‌شده</li>
+    <li>ruined->گمشده</li>
+    <li>ruined->ویران‌شده</li>
+    <li>PlaceOutlander(p=3)->[SylE][place_end]</li>
+    <li>PlaceOutlander->[SylE][SylE][place_end]</li>
+  </OpportunitySite_OrbitalWreck.questNameRules.rulesStrings>
+  <!-- EN: You have discovered -->
+  <OpportunitySite_OrbitalWreck.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>شما کشف کرده اید</OpportunitySite_OrbitalWreck.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <OpportunitySite_OrbitalWreck.LetterLabelQuestExpired.slateRef>تلاش منقضی شده: [resolvedQuestName]</OpportunitySite_OrbitalWreck.LetterLabelQuestExpired.slateRef>
+  <!-- EN: Intercepted communications indicate the orbital wreck has been claimed by others. The quest [resolvedQuestName] has expired. -->
+  <OpportunitySite_OrbitalWreck.LetterTextQuestExpired.slateRef>ارتباطات رهگیری شده نشان می دهد که غرق مدار توسط دیگران ادعا شده است. تلاش [resolvedQuestName] منقضی شده است.</OpportunitySite_OrbitalWreck.LetterTextQuestExpired.slateRef>
+  
+  <!-- EN:
+    <li>questDescription->[discoveryMethod] the location of an orbital satellite. These satellites are unmanned and often incapable of supporting life. Satellites serve a wide variety of purposes, from power collection to weapons platforms.\n\nYou can scavenge valuable technology from the satellites but be warned, satellites are heavily guarded by ancient security systems.\n\nYou can travel to orbital locations using gravships, shuttles, or transport pods.</li>
+  -->
+  <OpportunitySite_Satellite.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] مکان یک ماهواره مداری. این ماهواره‌ها بدون سرنشین هستند و اغلب قادر به پشتیبانی از حیات نیستند. ماهواره‌ها اهداف بسیار متنوعی دارند، از جمع‌آوری انرژی گرفته تا سکوهای تسلیحاتی.\n\nمی‌توانید فناوری‌های ارزشمندی را از ماهواره‌ها بازیابی کنید، اما هشدار داده می‌شود که ماهواره‌ها به شدت توسط سیستم‌های امنیتی باستانی محافظت می‌شوند.\n\nمی‌توانید با استفاده از کشتی‌های گرانشی، شاتل‌ها یا کپسول‌های حمل و نقل به مکان‌های مداری سفر کنید.</li>
+  </OpportunitySite_Satellite.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[PlaceOutlander] [platform]</li>
+    <li>questName->[platAdj] [platform]</li>
+    <li>platAdj(p=4)->orbital</li>
+    <li>platAdj->observation</li>
+    <li>platAdj->network</li>
+    <li>platAdj->imperial</li>
+    <li>platAdj->solar</li>
+    <li>platAdj->starlight</li>
+    <li>platAdj->nebula</li>
+    <li>platAdj->horizon</li>
+    <li>platAdj->eclipse</li>
+    <li>platAdj->zenith</li>
+    <li>platAdj->aurora</li>
+    <li>platAdj->corona</li>
+    <li>platAdj->nova</li>
+    <li>platAdj->eon</li>
+    <li>platAdj->solace</li>
+    <li>platAdj->lumina</li>
+    <li>platAdj->ion</li>
+    <li>platAdj->astralis</li>
+    <li>platAdj->echo</li>
+    <li>platform(p=4)->satellite</li>
+    <li>platform->relay</li>
+    <li>platform->ring</li>
+    <li>platform->satlink</li>
+    <li>platform->sentinel</li>
+    <li>platform->prime</li>
+    <li>platform->beacon</li>
+    <li>platform->bombarder</li>
+    <li>PlaceOutlander(p=3)->[SylE][place_end]</li>
+    <li>PlaceOutlander->[SylE][SylE][place_end]</li>
+  -->
+  <OpportunitySite_Satellite.questNameRules.rulesStrings>
+    <li>questName->[platform] [PlaceOutlander]</li>
+    <li>questName->[platform] [platAdj]</li>
+    <li>platAdj(p=4)->مداری</li>
+    <li>platAdj->دیده‌بانی</li>
+    <li>platAdj->شبکه</li>
+    <li>platAdj->امپراتوری</li>
+    <li>platAdj->خورشیدی</li>
+    <li>platAdj->نور ستاره</li>
+    <li>platAdj->سحابی</li>
+    <li>platAdj->افق</li>
+    <li>platAdj->کسوف</li>
+    <li>platAdj->اوج</li>
+    <li>platAdj->آئورا</li>
+    <li>platAdj->تاجی</li>
+    <li>platAdj->نواختر</li>
+    <li>platAdj->ائون</li>
+    <li>platAdj->آرامش</li>
+    <li>platAdj->لومینا</li>
+    <li>platAdj->یونی</li>
+    <li>platAdj->آسترالیس</li>
+    <li>platAdj->پژواک</li>
+    <li>platform(p=4)->ماهواره</li>
+    <li>platform->رله</li>
+    <li>platform->حلقه</li>
+    <li>platform->لینک ماهواره‌ای</li>
+    <li>platform->دیده‌بان نگهبان</li>
+    <li>platform->نخستین</li>
+    <li>platform->فانوس راهنما</li>
+    <li>platform->بمباران‌کننده</li>
+    <li>PlaceOutlander(p=3)->[SylE][place_end]</li>
+    <li>PlaceOutlander->[SylE][SylE][place_end]</li>
+  </OpportunitySite_Satellite.questNameRules.rulesStrings>
+  <!-- EN: You have discovered -->
+  <OpportunitySite_Satellite.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>شما کشف کرده اید</OpportunitySite_Satellite.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <OpportunitySite_Satellite.LetterLabelQuestExpired.slateRef>تلاش منقضی شده: [resolvedQuestName]</OpportunitySite_Satellite.LetterLabelQuestExpired.slateRef>
+  <!-- EN: Scanner readings indicate the satellite has boosted itself into a higher, unreachable orbit. The quest [resolvedQuestName] has expired. -->
+  <OpportunitySite_Satellite.LetterTextQuestExpired.slateRef>خوانش های اسکنر نشان می دهد که ماهواره خود را به مداری بالاتر و غیرقابل دسترس رسانده است. تلاش [resolvedQuestName] منقضی شده است.</OpportunitySite_Satellite.LetterTextQuestExpired.slateRef>
+  
+</LanguageData>

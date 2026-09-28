@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: hive queen -->
+  <HiveQueen.label>ملکه کندو</HiveQueen.label>
+  <!-- EN: The birth mother of an insect megahive. Under suitable conditions, several distinct insect hives will merge together and produce a hive queen. The queen quickly grows in size, becoming trapped in her own burrow. -->
+  <HiveQueen.description>مادر تولد یک مگاهیو حشره. تحت شرایط مناسب، چندین کندوی حشره مجزا با هم ادغام می شوند و یک ملکه کندو تولید می کنند. ملکه به سرعت بزرگ می شود و در لانه خود به دام می افتد.</HiveQueen.description>
+  <!-- EN: Hive queen -->
+  <HiveQueen.comps.CompLetterOnRevealed.label>ملکه کندو</HiveQueen.comps.CompLetterOnRevealed.label>
+  <!-- EN: You've discovered the center of the nest. It's guarded by a massive insect queen! -->
+  <HiveQueen.comps.CompLetterOnRevealed.text>شما مرکز لانه را کشف کرده اید. توسط یک ملکه حشره عظیم محافظت می شود!</HiveQueen.comps.CompLetterOnRevealed.text>
+  <!-- EN: head claw -->
+  <HiveQueen.tools.head_claw.label>پنجه سر</HiveQueen.tools.head_claw.label>
+  <!-- EN: head -->
+  <HiveQueen.tools.head.label>سر</HiveQueen.tools.head.label>
+  
+  <!-- EN: larva -->
+  <Larva.label>لارو</Larva.label>
+  <!-- EN: The juvenile form of larger bioengineered insects. Larva maintain and expand hives using an acidic secretion. If provoked, they defend themselves by spewing sludge. -->
+  <Larva.description>شکل جوان حشرات بزرگتر مهندسی شده زیستی. لارو کهیرها را با استفاده از ترشح اسیدی نگهداری و گسترش می دهد. در صورت تحریک، با پرتاب لجن از خود دفاع می کنند.</Larva.description>
+  <!-- EN: mandibles -->
+  <Larva.tools.mandibles.label>فک پایین</Larva.tools.mandibles.label>
+  <!-- EN: head -->
+  <Larva.tools.head.label>سر</Larva.tools.head.label>
+  
+  <!-- EN: locust -->
+  <Locust.label>ملخ</Locust.label>
+  <!-- EN: A bioengineered insect capable of flying short distances. Specialized chemical receptors allow locusts to effectively forage for food. While relatively weak on their own, swarms of locusts can be deadly. -->
+  <Locust.description>یک حشره مهندسی زیستی که قادر به پرواز در فواصل کوتاه است. گیرنده‌های شیمیایی تخصصی به ملخ‌ها اجازه می‌دهند تا به طور مؤثری برای غذا جستجو کنند. در حالی که به خودی خود نسبتاً ضعیف هستند، دسته های ملخ می توانند کشنده باشند.</Locust.description>
+  <!-- EN: mandibles -->
+  <Locust.tools.mandibles.label>فک پایین</Locust.tools.mandibles.label>
+  <!-- EN: head -->
+  <Locust.tools.head.label>سر</Locust.tools.head.label>
+  
+</LanguageData>

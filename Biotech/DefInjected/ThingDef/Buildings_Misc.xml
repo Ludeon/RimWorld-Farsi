@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: band node -->
+  <BandNode.label>گره باند</BandNode.label>
+  <!-- EN: A mechanoid-band signal amplifier. Band nodes must be tuned to a specific mechanitor. This will add 1 bandwidth to that mechanitor's total bandwidth, allowing them to control more mechanoids.\n\nOnce a band node is constructed, it can be quickly tuned to a mechanitor. However, retuning a band node to a different mechanitor takes significantly longer. -->
+  <BandNode.description>تقویت کننده سیگنال باند مکانیکی گره های باند باید بر روی یک مکانیتور خاص تنظیم شوند. با این کار، 1 پهنای باند به کل پهنای باند آن مکانیتور اضافه می‌شود و به آن‌ها امکان می‌دهد مکانیسم‌های بیشتری را کنترل کنند.\n\nزمانی که یک گره باند ساخته شد، می‌توان آن را به سرعت روی یک مکانیتور تنظیم کرد. با این حال، تنظیم مجدد یک گره باند به یک مکانیکور متفاوت به میزان قابل توجهی زمان می برد.</BandNode.description>
+  
+  <!-- EN: mechband antenna -->
+  <BurnoutMechlinkBooster.label>آنتن mechband</BurnoutMechlinkBooster.label>
+  <!-- EN: A mech-band signaling device. When activated, it puts out a powerful mech signal pulse, which will attract an ultra-heavy feral mechanoid to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the transmitter, so this building can only be used once. -->
+  <BurnoutMechlinkBooster.description>دستگاه سیگنال دهی باند مکانیکی. هنگامی که فعال می شود، یک پالس سیگنال مکانیکی قدرتمند را منتشر می کند که یک مکانوئید وحشی فوق سنگین را برای حمله با اسکورت خود جذب می کند. اگر بتوانید آن را شکست دهید، می توانید فناوری های خاصی را از جسد آن جمع آوری کنید. پالس سیگنال فرستنده را می سوزاند، بنابراین این ساختمان فقط یک بار قابل استفاده است.</BurnoutMechlinkBooster.description>
+  <!-- EN: Summon warqueen threat -->
+  <BurnoutMechlinkBooster.comps.CompUsable.useLabel>تهدید وارکوین را احضار کنید</BurnoutMechlinkBooster.comps.CompUsable.useLabel>
+  
+  <!-- EN: gene assembler -->
+  <GeneAssembler.label>مونتاژ کننده ژن</GeneAssembler.label>
+  <!-- EN: A workbench for creating implantable xenogerms from genepacks stored in nearby gene banks. Genepacks are not consumed in this process and can be reused. -->
+  <GeneAssembler.description>یک میز کار برای ایجاد زنوژرم های قابل کاشت از بسته های ژنی ذخیره شده در بانک های ژن مجاور. بسته‌های ژنی در این فرآیند مصرف نمی‌شوند و می‌توانند مجدداً استفاده شوند.</GeneAssembler.description>
+  
+  <!-- EN: gene bank -->
+  <GeneBank.label>بانک ژن</GeneBank.label>
+  <!-- EN: This building can store genepacks and make them usable to create new xenogerms, when placed near a gene assembler. Large gene libraries require many gene banks.\n\nWhen powered, gene banks prevent genepacks from deteriorating and will slowly repair deterioration. -->
+  <GeneBank.description>این ساختمان می‌تواند بسته‌های ژنی را ذخیره کند و در صورت قرار گرفتن در نزدیکی مونتاژکننده ژن، آنها را برای ایجاد زنوژرم‌های جدید قابل استفاده کند. کتابخانه‌های ژنی بزرگ به بانک‌های ژنی زیادی نیاز دارند.\n\nوقتی بانک‌های ژن فعال می‌شوند، از خراب شدن بسته‌های ژنی جلوگیری می‌کنند و به تدریج خرابی را ترمیم می‌کنند.</GeneBank.description>
+  
+  <!-- EN: gene extractor -->
+  <GeneExtractor.label>استخراج کننده ژن</GeneExtractor.label>
+  <!-- EN: An automated surgery machine that can extract a person's genes and create a genepack from them. The extracted genes will be randomly selected from the person's xenogenes and germline genes. You can force someone into the machine, but they won't like it.\n\nExtracting a person's genes while their genes are currently regrowing will kill them. Otherwise, gene extraction causes no lasting harm.\n\nGenes that require archite capsules are too complex to be extracted. -->
+  <GeneExtractor.description>یک دستگاه جراحی خودکار که می تواند ژن های فرد را استخراج کرده و از آنها یک بسته ژنی ایجاد کند. ژن‌های استخراج‌شده به‌طور تصادفی از بین ژن‌های زنوژن و ژرملاین فرد انتخاب می‌شوند. می‌توانید فردی را به زور وارد دستگاه کنید، اما او این کار را دوست ندارد.\n\nاستخراج ژن‌های یک فرد در حالی که ژن‌هایش در حال حاضر دوباره رشد می‌کنند، او را می‌کشد. در غیر این صورت، استخراج ژن هیچ آسیب ماندگاری ایجاد نمی‌کند.\n\nژن‌هایی که به کپسول‌های آرشیت نیاز دارند برای استخراج بسیار پیچیده هستند.</GeneExtractor.description>
+  
+  <!-- EN: gene processor -->
+  <GeneProcessor.label>پردازنده ژن</GeneProcessor.label>
+  <!-- EN: A genetic analysis and processing system. Placed near a gene assembler, it increases the maximum genetic complexity of the xenogerms you can assemble. Building multiple gene processors will increase the genetic complexity limit further. -->
+  <GeneProcessor.description>یک سیستم تجزیه و تحلیل و پردازش ژنتیکی قرار گرفتن در نزدیکی یک مونتاژکننده ژن، حداکثر پیچیدگی ژنتیکی زنوژرم هایی را که می توانید جمع آوری کنید، افزایش می دهد. ساخت چندین پردازنده ژنی محدودیت پیچیدگی ژنتیکی را بیشتر افزایش می دهد.</GeneProcessor.description>
+  <!-- EN: Gene complexity increase -->
+  <GeneProcessor.comps.CompInspectStringGeneProcessor.inspectString>افزایش پیچیدگی ژن</GeneProcessor.comps.CompInspectStringGeneProcessor.inspectString>
+  
+  <!-- EN: growth vat -->
+  <GrowthVat.label>شیر رشد</GrowthVat.label>
+  <!-- EN: A vat of fluid which can gestate an embryo or accelerate a child's growth.\n\nWhile growing or gestating, the vat must be fed with a constant supply of nutrition to provide the feedstock for growth. Gestating an embryo takes twice the nutrition of accelerating a child's growth.\n\nEmbryos are gestated for 9 days before a baby is formed. There is a risk of health complications.\n\nChild growth can only be accelerated up to age 18, but not beyond. While growing, a child's skills will slowly increase. Children raised in growth vats will have lower skills and gain fewer passions than normal.\n\nThe device uses chemical injections, electrical stimulation, and simple mechanite treatments to push the body to grow. Growth vats are often used to quickly manufacture engineered workers or warriors. -->
+  <GrowthVat.description>خمره‌ای از مایع که می‌تواند جنین را باردار کند یا رشد کودک را تسریع کند.\n\nدر حین رشد یا بارداری، خمره باید با یک منبع تغذیه ثابت تغذیه شود تا مواد اولیه رشد را فراهم کند. حاملگی جنین دوبرابر تسریع رشد کودک نیاز به تغذیه دارد.\n\nجنین‌ها 9 روز قبل از تشکیل نوزاد حامله می شوند. خطر عوارض سلامتی وجود دارد.\n\nرشد کودک را فقط تا سن 18 سالگی می‌توان تسریع کرد، اما نه بیشتر از آن. در حین رشد، مهارت های کودک به آرامی افزایش می یابد. کودکانی که در خمره‌های رشد بزرگ می‌شوند، مهارت‌های کمتری خواهند داشت و اشتیاق کمتری نسبت به حالت عادی به دست می‌آورند.\n\nاین دستگاه از تزریق‌های شیمیایی، تحریک الکتریکی، و درمان‌های ساده مکانیکی برای فشار دادن بدن به رشد استفاده می‌کند. خمره های رشد اغلب برای تولید سریع کارگران یا جنگجویان مهندسی شده استفاده می شوند.</GrowthVat.description>
+  
+  <!-- EN: mechband dish -->
+  <MechbandDish.label>ظرف مچ بند</MechbandDish.label>
+  <!-- EN: A mech-band signaling device more powerful than the normal mechband antenna. When activated, it puts out an ultra-powerful mech signal pulse, which will attract a mechanoid commander to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the dish, so this building can only be used once. -->
+  <MechbandDish.description>دستگاه سیگنال دهی باند مکانیکی قدرتمندتر از آنتن معمولی باند مکانیکی. هنگامی که فعال می شود، یک پالس سیگنال مکانیکی فوق العاده قدرتمند منتشر می کند که یک فرمانده مکانیکی را برای حمله با اسکورت خود جذب می کند. اگر بتوانید آن را شکست دهید، می توانید فناوری های خاصی را از جسد آن جمع آوری کنید. پالس سیگنال ظرف را می سوزاند، بنابراین این ساختمان فقط یک بار قابل استفاده است.</MechbandDish.description>
+  <!-- EN: Summon apocriton threat -->
+  <MechbandDish.comps.CompUsable.useLabel>تهدید آپوکریتون را احضار کنید</MechbandDish.comps.CompUsable.useLabel>
+  
+  <!-- EN: mech booster -->
+  <MechBooster.label>تقویت کننده مکانیکی</MechBooster.label>
+  <!-- EN: A remote energy and computation enhancement device. Any friendly mechanoids in its effect radius will move and work faster. -->
+  <MechBooster.description>یک دستگاه افزایش انرژی و محاسبات از راه دور. هر مکانوئید دوستی در شعاع اثر خود سریعتر حرکت کرده و کار می کند.</MechBooster.description>
+  
+  <!-- EN: pollution pump -->
+  <PollutionPump.label>پمپ آلودگی</PollutionPump.label>
+  <!-- EN: A groundwater-filtering pump which slowly cleans polluted terrain. The extracted pollution is formed into toxic wastepacks which must be hauled away. -->
+  <PollutionPump.description>یک پمپ تصفیه آب زیرزمینی که به آرامی زمین های آلوده را تمیز می کند. آلودگی استخراج شده به زباله های سمی تبدیل می شود که باید دور ریخته شوند.</PollutionPump.description>
+  
+  <!-- EN: blood torch -->
+  <SanguphageMeetingTorch.label>مشعل خون</SanguphageMeetingTorch.label>
+  <!-- EN: A specially-treated wooden torch that produces a red light over a large area. Sanguophages gather around torches like these during their ceremonial meetings. The sanguine glow is particularly pleasing to individuals with the bloodfeeder gene. It can be automatically refueled with wood, and produces a small amount of heat. -->
+  <SanguphageMeetingTorch.description>یک مشعل چوبی با درمان ویژه که نور قرمز را در یک منطقه بزرگ ایجاد می کند. سانگووفاژها در طول جلسات تشریفاتی خود دور مشعل هایی مانند این جمع می شوند. درخشش سانگوئن به ویژه برای افرادی که دارای ژن تغذیه کننده خون هستند خوشایند است. می توان به طور خودکار با چوب سوخت گیری کرد و مقدار کمی گرما تولید می کند.</SanguphageMeetingTorch.description>
+  
+  <!-- EN: crashed shuttle -->
+  <ShuttleCrashed_Exitable.label>شاتل سقوط کرد</ShuttleCrashed_Exitable.label>
+  <!-- EN: A spacer-tech uranium-powered shuttle designed for transit between surface and orbit, or between moons of a planetary system. To prevent unsanctioned use, the shuttle is locked to the pilot's bio-signature. Destroying the shuttle will yield a shuttle engine and other valuable resources. -->
+  <ShuttleCrashed_Exitable.description>یک شاتل اورانیومی با فناوری فضایی که برای عبور بین سطح و مدار یا بین قمرهای یک منظومه سیاره‌ای طراحی شده است. برای جلوگیری از استفاده غیرمجاز، شاتل به امضای زیستی خلبان قفل می شود. از بین بردن شاتل یک موتور شاتل و سایر منابع ارزشمند به دست خواهد آمد.</ShuttleCrashed_Exitable.description>
+  
+  <!-- EN: crashed mechanitor ship -->
+  <ShuttleCrashed_Exitable_Mechanitor.label>کشتی مکانیتور سقوط کرد</ShuttleCrashed_Exitable_Mechanitor.label>
+  <!-- EN: A short-range ship used by a mechanitor to transport mechs for low-orbit or planetary travel. -->
+  <ShuttleCrashed_Exitable_Mechanitor.description>یک کشتی کوتاه برد که توسط مکانیک برای حمل و نقل مکانیک‌ها برای سفرهای مدار پایین یا سیاره‌ای استفاده می شود.</ShuttleCrashed_Exitable_Mechanitor.description>
+  
+  <!-- EN: toxifier generator -->
+  <ToxifierGenerator.label>مولد سموم</ToxifierGenerator.label>
+  <!-- EN: This electrical generator very slowly pollutes the terrain in a radius around it while producing energy. If all terrain in the radius is polluted, the generator will shut down. -->
+  <ToxifierGenerator.description>این ژنراتور الکتریکی در حالی که انرژی تولید می کند، زمین را در شعاع اطراف خود بسیار آهسته آلوده می کند. اگر تمام زمین در شعاع آلوده باشد، ژنراتور خاموش می شود.</ToxifierGenerator.description>
+  
+  <!-- EN: IED tox trap -->
+  <TrapIED_ToxGas.label>تله سموم IED</TrapIED_ToxGas.label>
+  <!-- EN: A pair of tox gas shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
+  <TrapIED_ToxGas.description>یک جفت گلوله گاز سمی متصل به یک ماشه که در اثر ضربه یا برخورد گلوله منفجر می شود. از آنجایی که در زمین های اطراف پنهان است، نمی توان آن را در مجاورت سایر تله‌ها قرار داد. حیوانات وقتی آرام باشند می توانند اینها را حس کنند.</TrapIED_ToxGas.description>
+  
+  <!-- EN: wastepack atomizer -->
+  <WastepackAtomizer.label>اتمایزر بسته بندی زباله</WastepackAtomizer.label>
+  <!-- EN: A glittertech device that deconstructs toxic wastepacks into inert gases using advanced molecular processes. The process requires considerable amounts of power. -->
+  <WastepackAtomizer.description>دستگاهی با تکنولوژی زرق و برق که با استفاده از فرآیندهای مولکولی پیشرفته، بسته های زباله سمی را به گازهای بی اثر تبدیل می کند. این فرآیند به مقدار قابل توجهی قدرت نیاز دارد.</WastepackAtomizer.description>
+  
+</LanguageData>

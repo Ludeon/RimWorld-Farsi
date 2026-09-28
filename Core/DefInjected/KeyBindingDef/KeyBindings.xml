@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: accept -->
+  <Accept.label>قبول کنید</Accept.label>
+  
+  <!-- EN: cancel -->
+  <Cancel.label>لغو</Cancel.label>
+  
+  <!-- EN: draft -->
+  <Command_ColonistDraft.label>پیش نویس</Command_ColonistDraft.label>
+  
+  <!-- EN: toggle forbidden -->
+  <Command_ItemForbid.label>ضامن ممنوع</Command_ItemForbid.label>
+  
+  <!-- EN: toggle power -->
+  <Command_TogglePower.label>تغییر قدرت</Command_TogglePower.label>
+  
+  <!-- EN: cancel -->
+  <Designator_Cancel.label>لغو</Designator_Cancel.label>
+  
+  <!-- EN: deconstruct -->
+  <Designator_Deconstruct.label>ساختار شکنی</Designator_Deconstruct.label>
+  
+  <!-- EN: next draw style -->
+  <Designator_NextDrawStyle.label>سبک قرعه کشی بعدی</Designator_NextDrawStyle.label>
+  
+  <!-- EN: previous draw style -->
+  <Designator_PreviousDrawStyle.label>سبک قرعه کشی قبلی</Designator_PreviousDrawStyle.label>
+  
+  <!-- EN: rotate left -->
+  <Designator_RotateLeft.label>چرخش سمت چپ</Designator_RotateLeft.label>
+  
+  <!-- EN: rotate right -->
+  <Designator_RotateRight.label>به راست بچرخانید</Designator_RotateRight.label>
+  
+  <!-- EN: force square dimensions -->
+  <Designator_ShapeSnap.label>ابعاد مربع نیرو</Designator_ShapeSnap.label>
+  
+  <!-- EN: change selected debug action -->
+  <Dev_ChangeSelectedDebugAction.label>عمل اشکال زدایی انتخابی را تغییر دهید</Dev_ChangeSelectedDebugAction.label>
+  
+  <!-- EN: tick once -->
+  <Dev_TickOnce.label>یک بار تیک بزنید</Dev_TickOnce.label>
+  
+  <!-- EN: toggle debug actions menu -->
+  <Dev_ToggleDebugActionsMenu.label>منوی اقدامات اشکال زدایی را تغییر دهید</Dev_ToggleDebugActionsMenu.label>
+  
+  <!-- EN: toggle debug inspector -->
+  <Dev_ToggleDebugInspector.label>بازرس اشکال زدایی را تغییر دهید</Dev_ToggleDebugInspector.label>
+  
+  <!-- EN: toggle debug log -->
+  <Dev_ToggleDebugLog.label>تغییر گزارش اشکال زدایی</Dev_ToggleDebugLog.label>
+  
+  <!-- EN: toggle debug log menu -->
+  <Dev_ToggleDebugLogMenu.label>منوی گزارش اشکال زدایی را تغییر دهید</Dev_ToggleDebugLogMenu.label>
+  
+  <!-- EN: toggle debug settings menu -->
+  <Dev_ToggleDebugSettingsMenu.label>منوی تنظیمات اشکال زدایی را تغییر دهید</Dev_ToggleDebugSettingsMenu.label>
+  
+  <!-- EN: toggle dev palette -->
+  <Dev_ToggleDevPalette.label>پالت توسعه دهنده را تغییر دهید</Dev_ToggleDevPalette.label>
+  
+  <!-- EN: toggle god mode -->
+  <Dev_ToggleGodMode.label>حالت خدا را تغییر دهید</Dev_ToggleGodMode.label>
+  
+  <!-- EN: dolly down -->
+  <MapDolly_Down.label>دالی پایین</MapDolly_Down.label>
+  
+  <!-- EN: dolly left -->
+  <MapDolly_Left.label>دالی رفت</MapDolly_Left.label>
+  
+  <!-- EN: dolly right -->
+  <MapDolly_Right.label>دالی درسته</MapDolly_Right.label>
+  
+  <!-- EN: dolly up -->
+  <MapDolly_Up.label>عروسکی بالا</MapDolly_Up.label>
+  
+  <!-- EN: zoom in -->
+  <MapZoom_In.label>بزرگنمایی کنید</MapZoom_In.label>
+  
+  <!-- EN: zoom out -->
+  <MapZoom_Out.label>بزرگنمایی</MapZoom_Out.label>
+  
+  <!-- EN: Misc 1 -->
+  <Misc1.label>متفرقه 1</Misc1.label>
+  
+  <!-- EN: Misc 10 -->
+  <Misc10.label>متفرقه 10</Misc10.label>
+  
+  <!-- EN: Misc 11 -->
+  <Misc11.label>متفرقه 11</Misc11.label>
+  
+  <!-- EN: Misc 12 -->
+  <Misc12.label>متفرقه 12</Misc12.label>
+  
+  <!-- EN: Misc 2 -->
+  <Misc2.label>متفرقه 2</Misc2.label>
+  
+  <!-- EN: Misc 3 -->
+  <Misc3.label>متفرقه 3</Misc3.label>
+  
+  <!-- EN: Misc 4 -->
+  <Misc4.label>متفرقه 4</Misc4.label>
+  
+  <!-- EN: Misc 5 -->
+  <Misc5.label>متفرقه 5</Misc5.label>
+  
+  <!-- EN: Misc 6 -->
+  <Misc6.label>متفرقه 6</Misc6.label>
+  
+  <!-- EN: Misc 7 -->
+  <Misc7.label>متفرقه 7</Misc7.label>
+  
+  <!-- EN: Misc 8 -->
+  <Misc8.label>متفرقه 8</Misc8.label>
+  
+  <!-- EN: Misc 9 -->
+  <Misc9.label>متفرقه 9</Misc9.label>
+  
+  <!-- EN: increment 100x -->
+  <ModifierIncrement_100x.label>افزایش 100 برابری</ModifierIncrement_100x.label>
+  
+  <!-- EN: increment 10x -->
+  <ModifierIncrement_10x.label>افزایش 10 برابر</ModifierIncrement_10x.label>
+  
+  <!-- EN: next colonist -->
+  <NextColonist.label>استعمارگر بعدی</NextColonist.label>
+  
+  <!-- EN: open search window -->
+  <OpenMapSearch.label>باز کردن پنجره جستجو</OpenMapSearch.label>
+  
+  <!-- EN: previous colonist -->
+  <PreviousColonist.label>استعمارگر قبلی</PreviousColonist.label>
+  
+  <!-- EN: queue order -->
+  <QueueOrder.label>ترتیب صف</QueueOrder.label>
+  
+  <!-- EN: select next in cell -->
+  <SelectNextInCell.label>بعدی را در سلول انتخاب کنید</SelectNextInCell.label>
+  
+  <!-- EN: show cell inspector -->
+  <ShowCellInspector.label>نمایش بازرس سلول</ShowCellInspector.label>
+  
+  <!-- EN: show eyedropper -->
+  <ShowEyedropper.label>قطره چکان را نشان دهد</ShowEyedropper.label>
+  
+  <!-- EN: take screenshot -->
+  <TakeScreenshot.label>اسکرین شات بگیرید</TakeScreenshot.label>
+  
+  <!-- EN: game speed: Fast -->
+  <TimeSpeed_Fast.label>سرعت بازی: سریع</TimeSpeed_Fast.label>
+  
+  <!-- EN: game speed: Faster -->
+  <TimeSpeed_Faster.label>سرعت بازی: سریعتر</TimeSpeed_Faster.label>
+  
+  <!-- EN: game speed: Normal -->
+  <TimeSpeed_Normal.label>سرعت بازی: نرمال</TimeSpeed_Normal.label>
+  
+  <!-- EN: game speed: Slower -->
+  <TimeSpeed_Slower.label>سرعت بازی: کندتر</TimeSpeed_Slower.label>
+  
+  <!-- EN: game speed: Super fast -->
+  <TimeSpeed_Superfast.label>سرعت بازی: فوق العاده سریع</TimeSpeed_Superfast.label>
+  
+  <!-- EN: game speed: Ultra fast (debug) -->
+  <TimeSpeed_Ultrafast.label>سرعت بازی: فوق العاده سریع (اشکال زدایی)</TimeSpeed_Ultrafast.label>
+  
+  <!-- EN: toggle beauty display -->
+  <ToggleBeautyDisplay.label>نمایش زیبایی را تغییر دهید</ToggleBeautyDisplay.label>
+  
+  <!-- EN: pause/resume game -->
+  <TogglePause.label>مکث/ازسرگیری بازی</TogglePause.label>
+  
+  <!-- EN: toggle room stats display -->
+  <ToggleRoomStatsDisplay.label>نمایش آمار اتاق را تغییر دهید</ToggleRoomStatsDisplay.label>
+  
+  <!-- EN: toggle screenshot mode -->
+  <ToggleScreenshotMode.label>تغییر حالت اسکرین شات</ToggleScreenshotMode.label>
+  
+</LanguageData>

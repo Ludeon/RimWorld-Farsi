@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: slaughtered fish -->
+  <SlaughteredFish_Disapproved.stages.slaughtered_fish.label>ماهی ذبح شده</SlaughteredFish_Disapproved.stages.slaughtered_fish.label>
+  <!-- EN: I had to kill fish. It was an ugly thing to do. -->
+  <SlaughteredFish_Disapproved.stages.slaughtered_fish.description>مجبور شدم ماهی بکشم کار زشتی بود.</SlaughteredFish_Disapproved.stages.slaughtered_fish.description>
+  
+  <!-- EN: killed fish -->
+  <SlaughteredFish_Know_Disapproved.stages.killed_fish.label>ماهی کشته</SlaughteredFish_Know_Disapproved.stages.killed_fish.label>
+  
+  <!-- EN: fish slaughtered -->
+  <SlaughteredFish_Know_Disapproved_Mood.stages.fish_slaughtered.label>ماهی ذبح شده</SlaughteredFish_Know_Disapproved_Mood.stages.fish_slaughtered.label>
+  <!-- EN: Someone is killing fish! We should protect these beautiful creatures. -->
+  <SlaughteredFish_Know_Disapproved_Mood.stages.fish_slaughtered.description>یکی داره ماهی میکشه! ما باید از این موجودات زیبا محافظت کنیم.</SlaughteredFish_Know_Disapproved_Mood.stages.fish_slaughtered.description>
+  
+  <!-- EN: killed fish -->
+  <SlaughteredFish_Know_Prohibited.stages.killed_fish.label>ماهی کشته</SlaughteredFish_Know_Prohibited.stages.killed_fish.label>
+  
+  <!-- EN: fish slaughtered -->
+  <SlaughteredFish_Know_Prohibited_Mood.stages.fish_slaughtered.label>ماهی ذبح شده</SlaughteredFish_Know_Prohibited_Mood.stages.fish_slaughtered.label>
+  <!-- EN: Someone is killing fish! Our slippery brothers and sisters are dying. -->
+  <SlaughteredFish_Know_Prohibited_Mood.stages.fish_slaughtered.description>یکی داره ماهی میکشه! برادران و خواهران لغزنده ما در حال مرگ هستند.</SlaughteredFish_Know_Prohibited_Mood.stages.fish_slaughtered.description>
+  
+  <!-- EN: fished recently -->
+  <SlaughteredFish_Sacred.stages.fished_recently.label>اخیرا ماهیگیری کرده است</SlaughteredFish_Sacred.stages.fished_recently.label>
+  <!-- EN: Fishing puts me on the right path - at least for a little while. -->
+  <SlaughteredFish_Sacred.stages.fished_recently.description>ماهیگیری من را در مسیر درست قرار می دهد - حداقل برای مدتی کوتاه.</SlaughteredFish_Sacred.stages.fished_recently.description>
+  
+  <!-- EN: not enough fish -->
+  <SlaughteredFish_Sacred_NoFish.stages.not_enough_fish.label>ماهی کافی نیست</SlaughteredFish_Sacred_NoFish.stages.not_enough_fish.label>
+  <!-- EN: I wish we were somewhere we could fish. -->
+  <SlaughteredFish_Sacred_NoFish.stages.not_enough_fish.description>کاش جایی بودیم که بتوانیم ماهیگیری کنیم.</SlaughteredFish_Sacred_NoFish.stages.not_enough_fish.description>
+  
+</LanguageData>

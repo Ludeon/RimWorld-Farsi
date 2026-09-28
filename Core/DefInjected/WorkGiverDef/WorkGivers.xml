@@ -1,0 +1,739 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: release prisoners -->
+  <BasicReleasePrisoner.label>آزادسازی زندانیان</BasicReleasePrisoner.label>
+  <!-- EN: releasing -->
+  <BasicReleasePrisoner.gerund>در حال آزادسازی</BasicReleasePrisoner.gerund>
+  <!-- EN: release -->
+  <BasicReleasePrisoner.verb>آزاد کن</BasicReleasePrisoner.verb>
+  
+  <!-- EN: build roofs -->
+  <BuildRoofs.label>ساخت سقف</BuildRoofs.label>
+  <!-- EN: building roof -->
+  <BuildRoofs.gerund>در حال ساخت سقف</BuildRoofs.gerund>
+  <!-- EN: build roof -->
+  <BuildRoofs.verb>بساز</BuildRoofs.verb>
+  
+  <!-- EN: chat with prisoners -->
+  <ChatWithPrisoner.label>گفت‌وگو با زندانیان</ChatWithPrisoner.label>
+  <!-- EN: chatting with -->
+  <ChatWithPrisoner.gerund>در حال گفت‌وگو</ChatWithPrisoner.gerund>
+  <!-- EN: chat with -->
+  <ChatWithPrisoner.verb>گفت‌وگو کن</ChatWithPrisoner.verb>
+  
+  <!-- EN: clear snow -->
+  <CleanClearSnow.label>پاک‌سازی برف</CleanClearSnow.label>
+  <!-- EN: clearing snow -->
+  <CleanClearSnow.gerund>در حال پاک‌سازی برف</CleanClearSnow.gerund>
+  <!-- EN: clear snow -->
+  <CleanClearSnow.verb>پاک کن</CleanClearSnow.verb>
+  
+  <!-- EN: clean filth -->
+  <CleanFilth.label>کثیفی پاک</CleanFilth.label>
+  <!-- EN: cleaning -->
+  <CleanFilth.gerund>تمیز کردن</CleanFilth.gerund>
+  <!-- EN: clean -->
+  <CleanFilth.verb>تمیز کردن</CleanFilth.verb>
+  
+  <!-- EN: deliver resources to blueprints -->
+  <ConstructDeliverResourcesToBlueprints.label>ارائه منابع به نقشه‌ها</ConstructDeliverResourcesToBlueprints.label>
+  <!-- EN: working on -->
+  <ConstructDeliverResourcesToBlueprints.gerund>کار بر روی</ConstructDeliverResourcesToBlueprints.gerund>
+  <!-- EN: work on -->
+  <ConstructDeliverResourcesToBlueprints.verb>کار بر روی</ConstructDeliverResourcesToBlueprints.verb>
+  
+  <!-- EN: deliver resources to frames -->
+  <ConstructDeliverResourcesToFrames.label>ارائه منابع به فریم‌ها</ConstructDeliverResourcesToFrames.label>
+  <!-- EN: working on -->
+  <ConstructDeliverResourcesToFrames.gerund>کار بر روی</ConstructDeliverResourcesToFrames.gerund>
+  <!-- EN: work on -->
+  <ConstructDeliverResourcesToFrames.verb>کار بر روی</ConstructDeliverResourcesToFrames.verb>
+  
+  <!-- EN: construct placed frames -->
+  <ConstructFinishFrames.label>ساخت قاب های قرار داده شده</ConstructFinishFrames.label>
+  <!-- EN: constructing -->
+  <ConstructFinishFrames.gerund>ساختن</ConstructFinishFrames.gerund>
+  <!-- EN: construct -->
+  <ConstructFinishFrames.verb>ساخت</ConstructFinishFrames.verb>
+  
+  <!-- EN: remove floors -->
+  <ConstructRemoveFloors.label>طبقات را بردارید</ConstructRemoveFloors.label>
+  <!-- EN: removing floor -->
+  <ConstructRemoveFloors.gerund>برداشتن کف</ConstructRemoveFloors.gerund>
+  <!-- EN: remove floor -->
+  <ConstructRemoveFloors.verb>کف را بردارید</ConstructRemoveFloors.verb>
+  
+  <!-- EN: remove foundation -->
+  <ConstructRemoveFoundations.label>فونداسیون را بردارید</ConstructRemoveFoundations.label>
+  <!-- EN: removing foundation -->
+  <ConstructRemoveFoundations.gerund>برداشتن فونداسیون</ConstructRemoveFoundations.gerund>
+  <!-- EN: remove foundation -->
+  <ConstructRemoveFoundations.verb>فونداسیون را بردارید</ConstructRemoveFoundations.verb>
+  
+  <!-- EN: smooth floors -->
+  <ConstructSmoothFloors.label>کف های صاف</ConstructSmoothFloors.label>
+  <!-- EN: smoothing -->
+  <ConstructSmoothFloors.gerund>صاف کردن</ConstructSmoothFloors.gerund>
+  <!-- EN: smooth -->
+  <ConstructSmoothFloors.verb>صاف</ConstructSmoothFloors.verb>
+  
+  <!-- EN: smooth walls -->
+  <ConstructSmoothWalls.label>دیوارهای صاف</ConstructSmoothWalls.label>
+  <!-- EN: smoothing -->
+  <ConstructSmoothWalls.gerund>صاف کردن</ConstructSmoothWalls.gerund>
+  <!-- EN: smooth -->
+  <ConstructSmoothWalls.verb>صاف</ConstructSmoothWalls.verb>
+  
+  <!-- EN: fill food hoppers -->
+  <CookFillHopper.label>قیف های غذا را پر کنید</CookFillHopper.label>
+  <!-- EN: filling -->
+  <CookFillHopper.gerund>پر کردن</CookFillHopper.gerund>
+  <!-- EN: fill -->
+  <CookFillHopper.verb>پر کردن</CookFillHopper.verb>
+  
+  <!-- EN: deconstruct structures -->
+  <Deconstruct.label>ساختار شکنی</Deconstruct.label>
+  <!-- EN: deconstructing -->
+  <Deconstruct.gerund>ساختارشکنی</Deconstruct.gerund>
+  <!-- EN: deconstruct -->
+  <Deconstruct.verb>ساختار شکنی</Deconstruct.verb>
+  
+  <!-- EN: deconstruct structures for blueprints -->
+  <DeconstructForBlueprint.label>ساختارشکنی برای نقشه‌ها</DeconstructForBlueprint.label>
+  <!-- EN: deconstructing -->
+  <DeconstructForBlueprint.gerund>ساختارشکنی</DeconstructForBlueprint.gerund>
+  <!-- EN: deconstruct -->
+  <DeconstructForBlueprint.verb>ساختار شکنی</DeconstructForBlueprint.verb>
+  
+  <!-- EN: deliver food to prisoners -->
+  <DeliverFoodToPrisoner.label>تحویل غذا به زندانیان</DeliverFoodToPrisoner.label>
+  <!-- EN: delivering food for -->
+  <DeliverFoodToPrisoner.gerund>تحویل غذا برای</DeliverFoodToPrisoner.gerund>
+  <!-- EN: deliver food for -->
+  <DeliverFoodToPrisoner.verb>تحویل غذا برای</DeliverFoodToPrisoner.verb>
+  
+  <!-- EN: deliver resources to blueprints -->
+  <DeliverResourcesToBlueprints.label>ارائه منابع به نقشه‌ها</DeliverResourcesToBlueprints.label>
+  <!-- EN: delivering to -->
+  <DeliverResourcesToBlueprints.gerund>تحویل به</DeliverResourcesToBlueprints.gerund>
+  <!-- EN: deliver to -->
+  <DeliverResourcesToBlueprints.verb>تحویل به</DeliverResourcesToBlueprints.verb>
+  
+  <!-- EN: deliver resources to frames -->
+  <DeliverResourcesToFrames.label>ارائه منابع به فریم‌ها</DeliverResourcesToFrames.label>
+  <!-- EN: delivering to -->
+  <DeliverResourcesToFrames.gerund>تحویل به</DeliverResourcesToFrames.gerund>
+  <!-- EN: deliver to -->
+  <DeliverResourcesToFrames.verb>تحویل به</DeliverResourcesToFrames.verb>
+  
+  <!-- EN: brew liquors -->
+  <DoBillsBrew.label>مشروب دم کنید</DoBillsBrew.label>
+  <!-- EN: brewing at -->
+  <DoBillsBrew.gerund>دم کردن در</DoBillsBrew.gerund>
+  <!-- EN: brew at -->
+  <DoBillsBrew.verb>دم کردن در</DoBillsBrew.verb>
+  
+  <!-- EN: butcher creatures -->
+  <DoBillsButcherFlesh.label>موجودات قصاب</DoBillsButcherFlesh.label>
+  <!-- EN: butchering at -->
+  <DoBillsButcherFlesh.gerund>قصابی در</DoBillsButcherFlesh.gerund>
+  <!-- EN: butcher at -->
+  <DoBillsButcherFlesh.verb>قصاب در</DoBillsButcherFlesh.verb>
+  
+  <!-- EN: cook meals at stove -->
+  <DoBillsCook.label>پختن غذا در اجاق گاز</DoBillsCook.label>
+  <!-- EN: cooking at -->
+  <DoBillsCook.gerund>پخت و پز در</DoBillsCook.gerund>
+  <!-- EN: cook at -->
+  <DoBillsCook.verb>طبخ در</DoBillsCook.verb>
+  
+  <!-- EN: cook meals at campfire -->
+  <DoBillsCookCampfire.label>پختن غذا در آتش کمپ</DoBillsCookCampfire.label>
+  <!-- EN: cooking at -->
+  <DoBillsCookCampfire.gerund>پخت و پز در</DoBillsCookCampfire.gerund>
+  <!-- EN: cook at -->
+  <DoBillsCookCampfire.verb>طبخ در</DoBillsCookCampfire.verb>
+  
+  <!-- EN: do cremation bills -->
+  <DoBillsCremate.label>انجام صورتحساب سوزاندن</DoBillsCremate.label>
+  <!-- EN: cremating at -->
+  <DoBillsCremate.gerund>سوزاندن در</DoBillsCremate.gerund>
+  <!-- EN: cremate at -->
+  <DoBillsCremate.verb>سوزاندن در</DoBillsCremate.verb>
+  
+  <!-- EN: fabricate things -->
+  <DoBillsFabricationBench.label>چیزهایی ساختن</DoBillsFabricationBench.label>
+  <!-- EN: fabricating things at -->
+  <DoBillsFabricationBench.gerund>ساختن چیزها در</DoBillsFabricationBench.gerund>
+  <!-- EN: fabricate things at -->
+  <DoBillsFabricationBench.verb>ساختن چیزها در</DoBillsFabricationBench.verb>
+  
+  <!-- EN: do bills at campfire -->
+  <DoBillsHaulCampfire.label>صورت حساب را در آتش کمپ انجام دهید</DoBillsHaulCampfire.label>
+  <!-- EN: working at -->
+  <DoBillsHaulCampfire.gerund>کار در</DoBillsHaulCampfire.gerund>
+  <!-- EN: work at -->
+  <DoBillsHaulCampfire.verb>کار در</DoBillsHaulCampfire.verb>
+  
+  <!-- EN: make things at machining table -->
+  <DoBillsMachiningTable.label>چیزهایی را روی میز ماشینکاری بسازید</DoBillsMachiningTable.label>
+  <!-- EN: working at -->
+  <DoBillsMachiningTable.gerund>کار در</DoBillsMachiningTable.gerund>
+  <!-- EN: work at -->
+  <DoBillsMachiningTable.verb>کار در</DoBillsMachiningTable.verb>
+  
+  <!-- EN: make apparel -->
+  <DoBillsMakeApparel.label>پوشاک درست کن</DoBillsMakeApparel.label>
+  <!-- EN: tailoring at -->
+  <DoBillsMakeApparel.gerund>خیاطی در</DoBillsMakeApparel.gerund>
+  <!-- EN: tailor at -->
+  <DoBillsMakeApparel.verb>خیاط در</DoBillsMakeApparel.verb>
+  
+  <!-- EN: make weapons -->
+  <DoBillsMakeWeapons.label>سلاح بسازد</DoBillsMakeWeapons.label>
+  <!-- EN: smithing at -->
+  <DoBillsMakeWeapons.gerund>آهنگری در</DoBillsMakeWeapons.gerund>
+  <!-- EN: smith at -->
+  <DoBillsMakeWeapons.verb>اسمیت در</DoBillsMakeWeapons.verb>
+  
+  <!-- EN: operate on animals -->
+  <DoBillsMedicalAnimalOperation.label>روی حیوانات عمل کنند</DoBillsMedicalAnimalOperation.label>
+  <!-- EN: operating on -->
+  <DoBillsMedicalAnimalOperation.gerund>عمل بر روی</DoBillsMedicalAnimalOperation.gerund>
+  <!-- EN: operate on -->
+  <DoBillsMedicalAnimalOperation.verb>عمل کنند</DoBillsMedicalAnimalOperation.verb>
+  
+  <!-- EN: operate on humanlikes -->
+  <DoBillsMedicalHumanOperation.label>روی افراد شبیه به انسان عمل کنید</DoBillsMedicalHumanOperation.label>
+  <!-- EN: operating on -->
+  <DoBillsMedicalHumanOperation.gerund>عمل بر روی</DoBillsMedicalHumanOperation.gerund>
+  <!-- EN: operate on -->
+  <DoBillsMedicalHumanOperation.verb>عمل کنند</DoBillsMedicalHumanOperation.verb>
+  
+  <!-- EN: synthesize drugs -->
+  <DoBillsProduceDrugs.label>مواد مخدر را سنتز کنید</DoBillsProduceDrugs.label>
+  <!-- EN: producing drugs at -->
+  <DoBillsProduceDrugs.gerund>تولید دارو در</DoBillsProduceDrugs.gerund>
+  <!-- EN: produce drugs at -->
+  <DoBillsProduceDrugs.verb>تولید مواد مخدر در</DoBillsProduceDrugs.verb>
+  
+  <!-- EN: work at refinery -->
+  <DoBillsRefinery.label>کار در پالایشگاه</DoBillsRefinery.label>
+  <!-- EN: refining chemicals at -->
+  <DoBillsRefinery.gerund>پالایش مواد شیمیایی در</DoBillsRefinery.gerund>
+  <!-- EN: refine chemicals at -->
+  <DoBillsRefinery.verb>پالایش مواد شیمیایی در</DoBillsRefinery.verb>
+  
+  <!-- EN: make things at art bench -->
+  <DoBillsSculpt.label>چیزهایی را روی نیمکت هنری بسازید</DoBillsSculpt.label>
+  <!-- EN: sculpting at -->
+  <DoBillsSculpt.gerund>مجسمه سازی در</DoBillsSculpt.gerund>
+  <!-- EN: sculpt at -->
+  <DoBillsSculpt.verb>مجسمه سازی در</DoBillsSculpt.verb>
+  
+  <!-- EN: smelt items -->
+  <DoBillsSmelter.label>اقلام بو داده</DoBillsSmelter.label>
+  <!-- EN: refining at -->
+  <DoBillsSmelter.gerund>پالایش در</DoBillsSmelter.gerund>
+  <!-- EN: refine at -->
+  <DoBillsSmelter.verb>پالایش در</DoBillsSmelter.verb>
+  
+  <!-- EN: make stone blocks -->
+  <DoBillsStonecut.label>بلوک های سنگی بسازید</DoBillsStonecut.label>
+  <!-- EN: cutting stone blocks at -->
+  <DoBillsStonecut.gerund>برش بلوک های سنگی در</DoBillsStonecut.gerund>
+  <!-- EN: cut stone blocks at -->
+  <DoBillsStonecut.verb>برش بلوک های سنگی در</DoBillsStonecut.verb>
+  
+  <!-- EN: make things at crafting spot -->
+  <DoBillsUseCraftingSpot.label>چیزهایی را در محل کاردستی بسازید</DoBillsUseCraftingSpot.label>
+  <!-- EN: crafting at -->
+  <DoBillsUseCraftingSpot.gerund>صنایع دستی در</DoBillsUseCraftingSpot.gerund>
+  <!-- EN: craft at -->
+  <DoBillsUseCraftingSpot.verb>صنایع دستی در</DoBillsUseCraftingSpot.verb>
+  
+  <!-- EN: feed animals -->
+  <DoctorFeedAnimals.label>غذا دادن به حیوانات</DoctorFeedAnimals.label>
+  <!-- EN: feeding -->
+  <DoctorFeedAnimals.gerund>تغذیه</DoctorFeedAnimals.gerund>
+  <!-- EN: feed -->
+  <DoctorFeedAnimals.verb>خوراک</DoctorFeedAnimals.verb>
+  
+  <!-- EN: feed patients -->
+  <DoctorFeedHumanlikes.label>غذا دادن به بیماران</DoctorFeedHumanlikes.label>
+  <!-- EN: feeding -->
+  <DoctorFeedHumanlikes.gerund>تغذیه</DoctorFeedHumanlikes.gerund>
+  <!-- EN: feed -->
+  <DoctorFeedHumanlikes.verb>خوراک</DoctorFeedHumanlikes.verb>
+  
+  <!-- EN: rescue downed allies to bed -->
+  <DoctorRescue.label>نجات متحدان سرنگون شده به رختخواب</DoctorRescue.label>
+  <!-- EN: rescuing -->
+  <DoctorRescue.gerund>نجات دادن</DoctorRescue.gerund>
+  <!-- EN: rescue -->
+  <DoctorRescue.verb>نجات</DoctorRescue.verb>
+  
+  <!-- EN: tend to patients with urgent needs -->
+  <DoctorTendEmergency.label>به بیمارانی که نیازهای فوری دارند مراجعه کنند</DoctorTendEmergency.label>
+  <!-- EN: tending to -->
+  <DoctorTendEmergency.gerund>تمایل به</DoctorTendEmergency.gerund>
+  <!-- EN: tend to -->
+  <DoctorTendEmergency.verb>تمایل به</DoctorTendEmergency.verb>
+  
+  <!-- EN: tend to animals -->
+  <DoctorTendToAnimals.label>به حیوانات گرایش دارند</DoctorTendToAnimals.label>
+  <!-- EN: tending to -->
+  <DoctorTendToAnimals.gerund>تمایل به</DoctorTendToAnimals.gerund>
+  <!-- EN: tend to -->
+  <DoctorTendToAnimals.verb>تمایل به</DoctorTendToAnimals.verb>
+  
+  <!-- EN: tend to patients -->
+  <DoctorTendToHumanlikes.label>به بیماران تمایل دارند</DoctorTendToHumanlikes.label>
+  <!-- EN: tending to -->
+  <DoctorTendToHumanlikes.gerund>تمایل به</DoctorTendToHumanlikes.gerund>
+  <!-- EN: tend to -->
+  <DoctorTendToHumanlikes.verb>تمایل به</DoctorTendToHumanlikes.verb>
+  
+  <!-- EN: tend to self -->
+  <DoctorTendToSelf.label>تمایل به خود</DoctorTendToSelf.label>
+  <!-- EN: tending to -->
+  <DoctorTendToSelf.gerund>تمایل به</DoctorTendToSelf.gerund>
+  <!-- EN: tend to -->
+  <DoctorTendToSelf.verb>تمایل به</DoctorTendToSelf.verb>
+  
+  <!-- EN: tend to self -->
+  <DoctorTendToSelfEmergency.label>تمایل به خود</DoctorTendToSelfEmergency.label>
+  <!-- EN: tending to -->
+  <DoctorTendToSelfEmergency.gerund>تمایل به</DoctorTendToSelfEmergency.gerund>
+  <!-- EN: tend to -->
+  <DoctorTendToSelfEmergency.verb>تمایل به</DoctorTendToSelfEmergency.verb>
+  
+  <!-- EN: execute prisoners -->
+  <DoExecution.label>اعدام زندانیان</DoExecution.label>
+  <!-- EN: executing -->
+  <DoExecution.gerund>اجرا کردن</DoExecution.gerund>
+  <!-- EN: execute -->
+  <DoExecution.verb>اجرا کنند</DoExecution.verb>
+  
+  <!-- EN: drill at deep drill -->
+  <Drill.label>مته در عمیق مته</Drill.label>
+  <!-- EN: drilling -->
+  <Drill.gerund>حفاری</Drill.gerund>
+  <!-- EN: drill -->
+  <Drill.verb>مته</Drill.verb>
+  
+  <!-- EN: eject fuel -->
+  <EjectFuel.label>پرتاب سوخت</EjectFuel.label>
+  <!-- EN: ejecting fuel from -->
+  <EjectFuel.gerund>پرتاب سوخت از</EjectFuel.gerund>
+  <!-- EN: eject fuel -->
+  <EjectFuel.verb>پرتاب سوخت</EjectFuel.verb>
+  
+  <!-- EN: empty egg box -->
+  <EmptyEggBox.label>جعبه تخم مرغ خالی</EmptyEggBox.label>
+  <!-- EN: emptying -->
+  <EmptyEggBox.gerund>خالی کردن</EmptyEggBox.gerund>
+  <!-- EN: empty -->
+  <EmptyEggBox.verb>خالی</EmptyEggBox.verb>
+  
+  <!-- EN: execute guilty colonists -->
+  <ExecuteGuiltyColonist.label>استعمارگران مجرم را اعدام کنید</ExecuteGuiltyColonist.label>
+  <!-- EN: executing -->
+  <ExecuteGuiltyColonist.gerund>اجرا کردن</ExecuteGuiltyColonist.gerund>
+  <!-- EN: execute -->
+  <ExecuteGuiltyColonist.verb>اجرا کنند</ExecuteGuiltyColonist.verb>
+  
+  <!-- EN: extract skull -->
+  <ExtractSkull.label>استخراج جمجمه</ExtractSkull.label>
+  <!-- EN: extracting skull of -->
+  <ExtractSkull.gerund>استخراج جمجمه از</ExtractSkull.gerund>
+  <!-- EN: extract -->
+  <ExtractSkull.verb>استخراج کنید</ExtractSkull.verb>
+  
+  <!-- EN: extract trees -->
+  <ExtractTree.label>استخراج درختان</ExtractTree.label>
+  <!-- EN: extracting -->
+  <ExtractTree.gerund>استخراج کردن</ExtractTree.gerund>
+  <!-- EN: extract -->
+  <ExtractTree.verb>استخراج کنید</ExtractTree.verb>
+  
+  <!-- EN: feed prisoners -->
+  <FeedPrisoner.label>غذای زندانیان</FeedPrisoner.label>
+  <!-- EN: feeding -->
+  <FeedPrisoner.gerund>تغذیه</FeedPrisoner.gerund>
+  <!-- EN: feed -->
+  <FeedPrisoner.verb>خوراک</FeedPrisoner.verb>
+  
+  <!-- EN: fight fires -->
+  <FightFires.label>مبارزه با آتش</FightFires.label>
+  <!-- EN: extinguishing -->
+  <FightFires.gerund>خاموش کردن</FightFires.gerund>
+  <!-- EN: extinguish -->
+  <FightFires.verb>خاموش کردن</FightFires.verb>
+  
+  <!-- EN: fill fermenting barrels -->
+  <FillFermentingBarrel.label>بشکه های تخمیر را پر کنید</FillFermentingBarrel.label>
+  <!-- EN: filling -->
+  <FillFermentingBarrel.gerund>پر کردن</FillFermentingBarrel.gerund>
+  <!-- EN: fill -->
+  <FillFermentingBarrel.verb>پر کردن</FillFermentingBarrel.verb>
+  
+  <!-- EN: fill in -->
+  <FillIn.label>پر کن</FillIn.label>
+  <!-- EN: filling in -->
+  <FillIn.gerund>پر کردن</FillIn.gerund>
+  <!-- EN: fill -->
+  <FillIn.verb>پر کردن</FillIn.verb>
+  
+  <!-- EN: fix broken-down buildings -->
+  <FixBrokenDownBuilding.label>تعمیر ساختمان های خراب</FixBrokenDownBuilding.label>
+  <!-- EN: replacing broken components in -->
+  <FixBrokenDownBuilding.gerund>تعویض قطعات شکسته در</FixBrokenDownBuilding.gerund>
+  <!-- EN: replace broken components in -->
+  <FixBrokenDownBuilding.verb>قطعات شکسته را جایگزین کنید</FixBrokenDownBuilding.verb>
+  
+  <!-- EN: flick switches -->
+  <Flick.label>سوئیچ های تلنگر</Flick.label>
+  <!-- EN: flicking switch on -->
+  <Flick.gerund>سوئیچ تلنگر روشن</Flick.gerund>
+  <!-- EN: flick switch on -->
+  <Flick.verb>سوئیچ تلنگر روشن</Flick.verb>
+  
+  <!-- EN: operate ground penetrating scanner -->
+  <GroundPenetratingScan.label>اسکنر نفوذی زمین</GroundPenetratingScan.label>
+  <!-- EN: scanning at -->
+  <GroundPenetratingScan.gerund>اسکن در</GroundPenetratingScan.gerund>
+  <!-- EN: scan at -->
+  <GroundPenetratingScan.verb>اسکن در</GroundPenetratingScan.verb>
+  
+  <!-- EN: harvest crops -->
+  <GrowerHarvest.label>برداشت محصولات</GrowerHarvest.label>
+  <!-- EN: harvesting -->
+  <GrowerHarvest.gerund>برداشت</GrowerHarvest.gerund>
+  <!-- EN: harvest -->
+  <GrowerHarvest.verb>برداشت</GrowerHarvest.verb>
+  
+  <!-- EN: sow crops -->
+  <GrowerSow.label>کاشت محصولات</GrowerSow.label>
+  <!-- EN: sowing -->
+  <GrowerSow.gerund>کاشت</GrowerSow.gerund>
+  <!-- EN: sow -->
+  <GrowerSow.verb>بکار</GrowerSow.verb>
+  
+  <!-- EN: hack buildings -->
+  <Hack.label>هک ساختمان‌ها</Hack.label>
+  <!-- EN: hacking -->
+  <Hack.gerund>هک کردن</Hack.gerund>
+  <!-- EN: hack -->
+  <Hack.verb>هک کردن</Hack.verb>
+  
+  <!-- EN: feed animals -->
+  <HandlingFeedPatientAnimals.label>غذا دادن به حیوانات</HandlingFeedPatientAnimals.label>
+  <!-- EN: feeding -->
+  <HandlingFeedPatientAnimals.gerund>تغذیه</HandlingFeedPatientAnimals.gerund>
+  <!-- EN: feed -->
+  <HandlingFeedPatientAnimals.verb>خوراک</HandlingFeedPatientAnimals.verb>
+  
+  <!-- EN: haul corpses -->
+  <HaulCorpses.label>حمل اجساد</HaulCorpses.label>
+  <!-- EN: hauling -->
+  <HaulCorpses.gerund>حمل و نقل</HaulCorpses.gerund>
+  <!-- EN: haul -->
+  <HaulCorpses.verb>حمل و نقل</HaulCorpses.verb>
+  
+  <!-- EN: haul general things -->
+  <HaulGeneral.label>چیزهای کلی را حمل کنید</HaulGeneral.label>
+  <!-- EN: hauling -->
+  <HaulGeneral.gerund>حمل و نقل</HaulGeneral.gerund>
+  <!-- EN: haul -->
+  <HaulGeneral.verb>حمل و نقل</HaulGeneral.verb>
+  
+  <!-- EN: merge things -->
+  <HaulMerge.label>چیزها را ادغام کنید</HaulMerge.label>
+  <!-- EN: merging -->
+  <HaulMerge.gerund>ادغام</HaulMerge.gerund>
+  <!-- EN: merge -->
+  <HaulMerge.verb>ادغام</HaulMerge.verb>
+  
+  <!-- EN: haul to map -->
+  <HaulToPortal.label>حمل به نقشه</HaulToPortal.label>
+  <!-- EN: loading -->
+  <HaulToPortal.gerund>در حال بارگذاری</HaulToPortal.gerund>
+  <!-- EN: load -->
+  <HaulToPortal.verb>بار</HaulToPortal.verb>
+  
+  <!-- EN: load caravan -->
+  <HelpGatheringItemsForCaravan.label>کاروان بارگیری</HelpGatheringItemsForCaravan.label>
+  <!-- EN: loading -->
+  <HelpGatheringItemsForCaravan.gerund>در حال بارگذاری</HelpGatheringItemsForCaravan.gerund>
+  <!-- EN: load -->
+  <HelpGatheringItemsForCaravan.verb>بار</HelpGatheringItemsForCaravan.verb>
+  
+  <!-- EN: hunt -->
+  <HunterHunt.label>شکار</HunterHunt.label>
+  <!-- EN: hunting -->
+  <HunterHunt.gerund>شکار</HunterHunt.gerund>
+  <!-- EN: hunt -->
+  <HunterHunt.verb>شکار</HunterHunt.verb>
+  
+  <!-- EN: load transporters -->
+  <LoadTransporters.label>حمل کننده های بار</LoadTransporters.label>
+  <!-- EN: loading -->
+  <LoadTransporters.gerund>در حال بارگذاری</LoadTransporters.gerund>
+  <!-- EN: load -->
+  <LoadTransporters.verb>بار</LoadTransporters.verb>
+  
+  <!-- EN: operate long range scanner -->
+  <LongRangeScan.label>اسکنر برد بلند را اجرا کنید</LongRangeScan.label>
+  <!-- EN: scanning at -->
+  <LongRangeScan.gerund>اسکن در</LongRangeScan.gerund>
+  <!-- EN: scan at -->
+  <LongRangeScan.verb>اسکن در</LongRangeScan.verb>
+  
+  <!-- EN: milk animals -->
+  <Milk.label>شیر حیوانات</Milk.label>
+  <!-- EN: milking -->
+  <Milk.gerund>دوشیدن</Milk.gerund>
+  <!-- EN: milk -->
+  <Milk.verb>شیر</Milk.verb>
+  
+  <!-- EN: mine -->
+  <Mine.label>مال من</Mine.label>
+  <!-- EN: mining -->
+  <Mine.gerund>معدن</Mine.gerund>
+  <!-- EN: mine -->
+  <Mine.verb>مال من</Mine.verb>
+  
+  <!-- EN: open containers -->
+  <Open.label>ظروف باز</Open.label>
+  <!-- EN: opening -->
+  <Open.gerund>باز کردن</Open.gerund>
+  <!-- EN: open -->
+  <Open.verb>باز کردن</Open.verb>
+  
+  <!-- EN: paint buildings -->
+  <PaintBuilding.label>رنگ آمیزی ساختمان‌ها</PaintBuilding.label>
+  <!-- EN: painting -->
+  <PaintBuilding.gerund>نقاشی</PaintBuilding.gerund>
+  <!-- EN: paint -->
+  <PaintBuilding.verb>رنگ کردن</PaintBuilding.verb>
+  
+  <!-- EN: paint floor -->
+  <PaintFloor.label>رنگ کف</PaintFloor.label>
+  <!-- EN: painting -->
+  <PaintFloor.gerund>نقاشی</PaintFloor.gerund>
+  <!-- EN: paint -->
+  <PaintFloor.verb>رنگ کردن</PaintFloor.verb>
+  
+  <!-- EN: go to bed for emergency treatment -->
+  <PatientGoToBedEmergencyTreatment.label>برای درمان اضطراری به رختخواب بروید</PatientGoToBedEmergencyTreatment.label>
+  <!-- EN: receiving treatment in -->
+  <PatientGoToBedEmergencyTreatment.gerund>دریافت درمان در</PatientGoToBedEmergencyTreatment.gerund>
+  <!-- EN: receive treatment in -->
+  <PatientGoToBedEmergencyTreatment.verb>دریافت درمان در</PatientGoToBedEmergencyTreatment.verb>
+  
+  <!-- EN: recuperate in bed -->
+  <PatientGoToBedRecuperate.label>بهبودی در رختخواب</PatientGoToBedRecuperate.label>
+  <!-- EN: getting bed rest in -->
+  <PatientGoToBedRecuperate.gerund>استراحت کردن در رختخواب</PatientGoToBedRecuperate.gerund>
+  <!-- EN: get bed rest in -->
+  <PatientGoToBedRecuperate.verb>استراحت در رختخواب</PatientGoToBedRecuperate.verb>
+  
+  <!-- EN: go to bed for treatment -->
+  <PatientGoToBedTreatment.label>برای درمان به رختخواب بروید</PatientGoToBedTreatment.label>
+  <!-- EN: receiving treatment in -->
+  <PatientGoToBedTreatment.gerund>دریافت درمان در</PatientGoToBedTreatment.gerund>
+  <!-- EN: receive treatment in -->
+  <PatientGoToBedTreatment.verb>دریافت درمان در</PatientGoToBedTreatment.verb>
+  
+  <!-- EN: cut plants -->
+  <PlantsCut.label>بریدن گیاهان</PlantsCut.label>
+  <!-- EN: cutting -->
+  <PlantsCut.gerund>برش دادن</PlantsCut.gerund>
+  <!-- EN: cut -->
+  <PlantsCut.verb>برش دادن</PlantsCut.verb>
+  
+  <!-- EN: plant seeds -->
+  <PlantSeed.label>دانه های گیاهی</PlantSeed.label>
+  <!-- EN: planting -->
+  <PlantSeed.gerund>کاشت</PlantSeed.gerund>
+  <!-- EN: plant -->
+  <PlantSeed.verb>گیاه</PlantSeed.verb>
+  
+  <!-- EN: rearm turrets -->
+  <RearmTurrets.label>برجک های عقب نشینی</RearmTurrets.label>
+  <!-- EN: rearming -->
+  <RearmTurrets.gerund>دوباره مسلح کردن</RearmTurrets.gerund>
+  <!-- EN: rearm -->
+  <RearmTurrets.verb>دوباره مسلح کردن</RearmTurrets.verb>
+  
+  <!-- EN: rebalance penned animals -->
+  <RebalanceAnimalsInPens.label>تعادل مجدد حیوانات قلم خورده</RebalanceAnimalsInPens.label>
+  <!-- EN: roping -->
+  <RebalanceAnimalsInPens.gerund>طناب زدن</RebalanceAnimalsInPens.gerund>
+  <!-- EN: rope -->
+  <RebalanceAnimalsInPens.verb>طناب</RebalanceAnimalsInPens.verb>
+  
+  <!-- EN: refuel buildings -->
+  <Refuel.label>سوخت گیری ساختمان‌ها</Refuel.label>
+  <!-- EN: refueling -->
+  <Refuel.gerund>سوخت گیری</Refuel.gerund>
+  <!-- EN: refuel -->
+  <Refuel.verb>سوخت گیری</Refuel.verb>
+  
+  <!-- EN: release prisoners -->
+  <ReleasePrisoner.label>زندانیان را آزاد کنید</ReleasePrisoner.label>
+  <!-- EN: releasing -->
+  <ReleasePrisoner.gerund>رها کردن</ReleasePrisoner.gerund>
+  <!-- EN: release -->
+  <ReleasePrisoner.verb>آزاد کردن</ReleasePrisoner.verb>
+  
+  <!-- EN: release to wild -->
+  <ReleaseToWild.label>رها کردن به وحشی</ReleaseToWild.label>
+  <!-- EN: releasing -->
+  <ReleaseToWild.gerund>رها کردن</ReleaseToWild.gerund>
+  <!-- EN: release -->
+  <ReleaseToWild.verb>آزاد کردن</ReleaseToWild.verb>
+  
+  <!-- EN: remove paint -->
+  <RemovePaintBuilding.label>رنگ را حذف کنید</RemovePaintBuilding.label>
+  <!-- EN: removing paint from -->
+  <RemovePaintBuilding.gerund>حذف رنگ از</RemovePaintBuilding.gerund>
+  <!-- EN: remove paint -->
+  <RemovePaintBuilding.verb>رنگ را حذف کنید</RemovePaintBuilding.verb>
+  
+  <!-- EN: remove floor paint -->
+  <RemovePaintFloor.label>رنگ کف را پاک کنید</RemovePaintFloor.label>
+  <!-- EN: removing paint from -->
+  <RemovePaintFloor.gerund>حذف رنگ از</RemovePaintFloor.gerund>
+  <!-- EN: remove paint -->
+  <RemovePaintFloor.verb>رنگ را حذف کنید</RemovePaintFloor.verb>
+  
+  <!-- EN: remove roofs -->
+  <RemoveRoofs.label>سقف‌ها را بردارید</RemoveRoofs.label>
+  <!-- EN: removing roof -->
+  <RemoveRoofs.gerund>برداشتن سقف</RemoveRoofs.gerund>
+  <!-- EN: remove roof -->
+  <RemoveRoofs.verb>سقف را بردارید</RemoveRoofs.verb>
+  
+  <!-- EN: repair damaged things -->
+  <Repair.label>تعمیر چیزهای آسیب دیده</Repair.label>
+  <!-- EN: repairing -->
+  <Repair.gerund>تعمیر</Repair.gerund>
+  <!-- EN: repair -->
+  <Repair.verb>تعمیر</Repair.verb>
+  
+  <!-- EN: replant tree -->
+  <Replant.label>درخت را دوباره بکارید</Replant.label>
+  <!-- EN: replanting -->
+  <Replant.gerund>کاشت مجدد</Replant.gerund>
+  <!-- EN: replant -->
+  <Replant.verb>دوباره کاشت</Replant.verb>
+  
+  <!-- EN: do research -->
+  <Research.label>تحقیق کنید</Research.label>
+  <!-- EN: researching at -->
+  <Research.gerund>تحقیق در</Research.gerund>
+  <!-- EN: research at -->
+  <Research.verb>تحقیق در</Research.verb>
+  
+  <!-- EN: shear animals -->
+  <Shear.label>حیوانات قیچی</Shear.label>
+  <!-- EN: shearing -->
+  <Shear.gerund>برش دادن</Shear.gerund>
+  <!-- EN: shear -->
+  <Shear.verb>برشی</Shear.verb>
+  
+  <!-- EN: slaughter animals -->
+  <Slaughter.label>سلاخی حیوانات</Slaughter.label>
+  <!-- EN: slaughtering -->
+  <Slaughter.gerund>ذبح کردن</Slaughter.gerund>
+  <!-- EN: slaughter -->
+  <Slaughter.verb>ذبح</Slaughter.verb>
+  
+  <!-- EN: strip corpses -->
+  <Strip.label>برهنه کردن اجساد</Strip.label>
+  <!-- EN: stripping -->
+  <Strip.gerund>برهنه کردن</Strip.gerund>
+  <!-- EN: strip -->
+  <Strip.verb>نوار</Strip.verb>
+  
+  <!-- EN: study archotech structures -->
+  <StudyArchotechStructures.label>مطالعه ساختارهای آرکوتک</StudyArchotechStructures.label>
+  <!-- EN: studying -->
+  <StudyArchotechStructures.gerund>مطالعه کردن</StudyArchotechStructures.gerund>
+  <!-- EN: study -->
+  <StudyArchotechStructures.verb>مطالعه کنید</StudyArchotechStructures.verb>
+  
+  <!-- EN: take beer out of fermenting barrels -->
+  <TakeBeerOutOfFermentingBarrel.label>آبجو را از بشکه های تخمیر خارج کنید</TakeBeerOutOfFermentingBarrel.label>
+  <!-- EN: taking beer from -->
+  <TakeBeerOutOfFermentingBarrel.gerund>آبجو گرفتن از</TakeBeerOutOfFermentingBarrel.gerund>
+  <!-- EN: take beer -->
+  <TakeBeerOutOfFermentingBarrel.verb>آبجو بگیر</TakeBeerOutOfFermentingBarrel.verb>
+  
+  <!-- EN: take prisoners to bed -->
+  <TakePrisonerToBed.label>زندانیان را به رختخواب ببرید</TakePrisonerToBed.label>
+  <!-- EN: taking to bed -->
+  <TakePrisonerToBed.gerund>رفتن به رختخواب</TakePrisonerToBed.gerund>
+  <!-- EN: take to bed -->
+  <TakePrisonerToBed.verb>به رختخواب ببر</TakePrisonerToBed.verb>
+  
+  <!-- EN: rope roaming animals -->
+  <TakeRoamingAnimalsToPen.label>طناب پرسه زدن حیوانات</TakeRoamingAnimalsToPen.label>
+  <!-- EN: roping -->
+  <TakeRoamingAnimalsToPen.gerund>طناب زدن</TakeRoamingAnimalsToPen.gerund>
+  <!-- EN: rope -->
+  <TakeRoamingAnimalsToPen.verb>طناب</TakeRoamingAnimalsToPen.verb>
+  
+  <!-- EN: take patients to bed for operations -->
+  <TakeToBedToOperate.label>بیماران را برای عمل به رختخواب ببرید</TakeToBedToOperate.label>
+  <!-- EN: taking to operate -->
+  <TakeToBedToOperate.gerund>گرفتن برای عملیات</TakeToBedToOperate.gerund>
+  <!-- EN: take to operate -->
+  <TakeToBedToOperate.verb>را به عمل آورد</TakeToBedToOperate.verb>
+  
+  <!-- EN: rope animals -->
+  <TakeToPen.label>حیوانات طناب</TakeToPen.label>
+  <!-- EN: roping -->
+  <TakeToPen.gerund>طناب زدن</TakeToPen.gerund>
+  <!-- EN: rope -->
+  <TakeToPen.verb>طناب</TakeToPen.verb>
+  
+  <!-- EN: tame animals -->
+  <Tame.label>حیوانات رام</Tame.label>
+  <!-- EN: taming -->
+  <Tame.gerund>رام کردن</Tame.gerund>
+  <!-- EN: tame -->
+  <Tame.verb>رام کردن</Tame.verb>
+  
+  <!-- EN: train animals -->
+  <Train.label>حیوانات را تربیت کنید</Train.label>
+  <!-- EN: training -->
+  <Train.gerund>آموزش</Train.gerund>
+  <!-- EN: train -->
+  <Train.verb>قطار</Train.verb>
+  
+  <!-- EN: uninstall structures -->
+  <Uninstall.label>حذف نصب سازه‌ها</Uninstall.label>
+  <!-- EN: uninstalling -->
+  <Uninstall.gerund>حذف نصب</Uninstall.gerund>
+  <!-- EN: uninstall -->
+  <Uninstall.verb>حذف نصب کنید</Uninstall.verb>
+  
+  <!-- EN: unload carriers -->
+  <UnloadCarriers.label>باربری‌ها را تخلیه کنید</UnloadCarriers.label>
+  <!-- EN: unloading -->
+  <UnloadCarriers.gerund>تخلیه</UnloadCarriers.gerund>
+  <!-- EN: unload -->
+  <UnloadCarriers.verb>تخلیه</UnloadCarriers.verb>
+  
+  <!-- EN: visit sick people -->
+  <VisitSickPawn.label>به ملاقات افراد بیمار بروید</VisitSickPawn.label>
+  <!-- EN: visiting -->
+  <VisitSickPawn.gerund>بازدید</VisitSickPawn.gerund>
+  <!-- EN: visit -->
+  <VisitSickPawn.verb>بازدید کنید</VisitSickPawn.verb>
+  
+</LanguageData>

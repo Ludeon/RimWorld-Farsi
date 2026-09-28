@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: abhorrent -->
+  <PsychicRituals_Abhorrent.label>نفرت‌انگیز</PsychicRituals_Abhorrent.label>
+  <!-- EN: Psychic rituals are utterly evil. -->
+  <PsychicRituals_Abhorrent.description>آیین‌های روانی کاملاً شیطانی و شرورانه هستند.</PsychicRituals_Abhorrent.description>
+  <!-- EN: Participate in psychic ritual -->
+  <PsychicRituals_Abhorrent.comps.0.description>شرکت در آیین روانی</PsychicRituals_Abhorrent.comps.0.description>
+  
+  <!-- EN: disapproved -->
+  <PsychicRituals_Disapproved.label>ناپسند</PsychicRituals_Disapproved.label>
+  <!-- EN: Psychic rituals should be avoided when possible. -->
+  <PsychicRituals_Disapproved.description>در صورت امکان باید از آیین‌های روانی اجتناب کرد.</PsychicRituals_Disapproved.description>
+  
+  <!-- EN: exalted -->
+  <PsychicRituals_Exalted.label>ستوده‌شده (متعالی)</PsychicRituals_Exalted.label>
+  <!-- EN: Connecting with psychic flows brings us closer to truth. -->
+  <PsychicRituals_Exalted.description>ارتباط با جریان‌های روانی ما را به حقیقت نزدیک‌تر می‌سازد.</PsychicRituals_Exalted.description>
+  <!-- EN: No psychic ritual for {DURATION} -->
+  <PsychicRituals_Exalted.comps.2.description>عدم برگزاری آیین روانی برای {DURATION}</PsychicRituals_Exalted.comps.2.description>
+  
+</LanguageData>

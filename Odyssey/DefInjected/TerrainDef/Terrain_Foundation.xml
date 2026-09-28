@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ancient heavy bridge -->
+  <AncientHeavyBridge.label>پل سنگین باستانی</AncientHeavyBridge.label>
+  <!-- EN: An ancient bridge which supports heavy structures on top. You can build a whole colony on water with this. -->
+  <AncientHeavyBridge.description>یک پل باستانی که سازه های سنگین را در بالا نگه می دارد. با این می توانید کلنی روی آب بسازید.</AncientHeavyBridge.description>
+  
+  <!-- EN: heavy bridge -->
+  <HeavyBridge.label>پل سنگین</HeavyBridge.label>
+  <!-- EN: A stronger version of the basic bridge which supports heavy structures on top. You can build a whole colony on water with this. -->
+  <HeavyBridge.description>یک نسخه قوی‌تر از پل اصلی که از سازه های سنگین در بالا پشتیبانی می کند. با این می توانید کلنی روی آب بسازید.</HeavyBridge.description>
+  
+  <!-- EN: gravship substructure -->
+  <Substructure.label>زیرسازی کشتی قبر</Substructure.label>
+  <!-- EN: A lightweight truss structure with flooring on top that forms the deck of a gravship. Only things on top of this substructure can be lifted by the grav engine's levitation field. This floor must be constructed within range of a grav engine.\n\nGravship substructure can be removed using the 'remove foundation' designator. -->
+  <Substructure.description>یک سازه خرپایی سبک وزن با کفپوش در بالای آن که عرشه کشتی تراشه را تشکیل می دهد. تنها چیزهایی که در بالای این زیرساخت قرار دارند می توانند توسط میدان شناور موتور گراو بلند شوند. این طبقه باید در محدوده یک موتور گراو ساخته شود.\n\nزیر سفینه را می توان با استفاده از نشانگر "حذف فونداسیون" برداشت.</Substructure.description>
+  
+</LanguageData>

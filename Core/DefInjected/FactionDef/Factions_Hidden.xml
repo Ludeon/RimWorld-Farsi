@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: neutral ancients -->
+  <Ancients.label>باستانیان بی‌طرف</Ancients.label>
+  <!-- EN: Ancients -->
+  <Ancients.fixedName>باستانیان</Ancients.fixedName>
+  <!-- EN: leader -->
+  <Ancients.leaderTitle>رهبر</Ancients.leaderTitle>
+  <!-- EN: Ancient soldiers are attacking. -->
+  <Ancients.messageDefendersAttacking>سربازان باستانی در حال حمله هستند.</Ancients.messageDefendersAttacking>
+  <!-- EN: ancient -->
+  <Ancients.pawnSingular>باستانی</Ancients.pawnSingular>
+  <!-- EN: ancients -->
+  <Ancients.pawnsPlural>باستانیان</Ancients.pawnsPlural>
+  
+  <!-- EN: hostile ancients -->
+  <AncientsHostile.label>باستانیان متخاصم</AncientsHostile.label>
+  <!-- EN: Ancients -->
+  <AncientsHostile.fixedName>باستانیان</AncientsHostile.fixedName>
+  <!-- EN: leader -->
+  <AncientsHostile.leaderTitle>رهبر</AncientsHostile.leaderTitle>
+  <!-- EN: Ancient soldiers are attacking. -->
+  <AncientsHostile.messageDefendersAttacking>سربازان باستانی در حال حمله هستند.</AncientsHostile.messageDefendersAttacking>
+  <!-- EN: ancient -->
+  <AncientsHostile.pawnSingular>باستانی</AncientsHostile.pawnSingular>
+  <!-- EN: ancients -->
+  <AncientsHostile.pawnsPlural>باستانیان</AncientsHostile.pawnsPlural>
+  
+  <!-- EN: insect geneline -->
+  <Insect.label>ژن‌لاین حشرات</Insect.label>
+  <!-- EN: These giant insect-like creatures live underground and burrow up to attack when attracted by noise or pheromone signals. Originally from the planet Sorne, interstellar entrepreneurs managed to capture, genetically-modify, and vat-grow the insect colonies for use as weapons. It's not clear who placed Sorne insects on this planet, but they are here and as dangerous as ever. -->
+  <Insect.description>این موجودات غول‌پیکر شبیه حشرات در زیر زمین زندگی می‌کنند و زمانی که با سر و صدا یا سیگنال‌های فرمونی جذب می‌شوند، برای حمله به سطح می‌آیند. کارآفرینان بین‌ستاره‌ای که در اصل از سیاره سورن هستند، موفق شدند کلونی‌های حشرات را دستگیر، اصلاح ژنتیکی و در مخزن پرورش دهند تا به عنوان سلاح استفاده شوند. مشخص نیست چه کسی حشرات سورن را در این سیاره قرار داده است، اما آن‌ها اینجا هستند و مثل همیشه خطرناک هستند.</Insect.description>
+  <!-- EN: Sorne Geneline -->
+  <Insect.fixedName>ژن‌لاین سورن</Insect.fixedName>
+  <!-- EN: leader -->
+  <Insect.leaderTitle>رهبر</Insect.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <Insect.messageDefendersAttacking>{0} از {1} در حال حمله به {2} شما هستند.</Insect.messageDefendersAttacking>
+  <!-- EN: insect -->
+  <Insect.pawnSingular>حشره</Insect.pawnSingular>
+  <!-- EN: insects -->
+  <Insect.pawnsPlural>حشرات</Insect.pawnsPlural>
+  
+  <!-- EN: mechanoid hive -->
+  <Mechanoid.label>کندوی مکانوید</Mechanoid.label>
+  <!-- EN: Killer machines of unknown origin. Hidden in ancient structures, under mounds of dust, or at the bottom of the ocean, mechanoids can self-maintain for thousands of years. This group of mechs seems to be unified in purpose, but not well-coordinated in action. While local scholars believe they're autonomous weapons left over from an ancient war, tribal legends describe them as the demonic servants of a sleeping god. -->
+  <Mechanoid.description>ماشین‌های قاتل با منشأ ناشناخته. مکانویدها که در سازه‌های باستانی، زیر تپه‌های گرد و غبار یا در کف اقیانوس پنهان شده‌اند، می‌توانند هزاران سال خود را حفظ کنند. به نظر می‌رسد این گروه از مک‌ها در هدف متحد هستند، اما در عمل هماهنگی خوبی ندارند. در حالی که محققان محلی معتقدند آن‌ها سلاح‌های خودمختاری هستند که از یک جنگ باستانی باقی مانده‌اند، افسانه‌های قبیله‌ای آن‌ها را به عنوان خدمتکاران شیطانی یک خدای خفته توصیف می‌کنند.</Mechanoid.description>
+  <!-- EN: leader -->
+  <Mechanoid.leaderTitle>رهبر</Mechanoid.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <Mechanoid.messageDefendersAttacking>{0} از {1} در حال حمله به {2} شما هستند.</Mechanoid.messageDefendersAttacking>
+  <!-- EN: mechanoid -->
+  <Mechanoid.pawnSingular>مکانوید</Mechanoid.pawnSingular>
+  <!-- EN: mechanoids -->
+  <Mechanoid.pawnsPlural>مکانویدها</Mechanoid.pawnsPlural>
+  
+</LanguageData>

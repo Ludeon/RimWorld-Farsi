@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: blood filtration -->
+  <BloodFiltration.label>تصفیه خون</BloodFiltration.label>
+  <!-- EN: pneumatics -->
+  <BloodFiltration.labelDrones>پنوماتیک</BloodFiltration.labelDrones>
+  <!-- EN: fluid reprocessing -->
+  <BloodFiltration.labelMechanoids>پردازش مجدد سیال</BloodFiltration.labelMechanoids>
+  
+  <!-- EN: blood pumping -->
+  <BloodPumping.label>پمپاژ خون</BloodPumping.label>
+  <!-- EN: battery integrity -->
+  <BloodPumping.labelDrones>یکپارچگی باتری</BloodPumping.labelDrones>
+  <!-- EN: power generation -->
+  <BloodPumping.labelMechanoids>تولید برق</BloodPumping.labelMechanoids>
+  
+  <!-- EN: breathing -->
+  <Breathing.label>نفس کشیدن</Breathing.label>
+  
+  <!-- EN: consciousness -->
+  <Consciousness.label>آگاهی</Consciousness.label>
+  <!-- EN: Sentience -->
+  <Consciousness.labelAnomalyEntity>احساس</Consciousness.labelAnomalyEntity>
+  <!-- EN: Performance -->
+  <Consciousness.labelDrones>عملکرد</Consciousness.labelDrones>
+  <!-- EN: Data processing -->
+  <Consciousness.labelMechanoids>پردازش داده‌ها</Consciousness.labelMechanoids>
+  
+  <!-- EN: eating -->
+  <Eating.label>خوردن</Eating.label>
+  
+  <!-- EN: hearing -->
+  <Hearing.label>شنیدن</Hearing.label>
+  
+  <!-- EN: manipulation -->
+  <Manipulation.label>دستکاری</Manipulation.label>
+  
+  <!-- EN: digestion -->
+  <Metabolism.label>هضم</Metabolism.label>
+  
+  <!-- EN: moving -->
+  <Moving.label>در حال حرکت</Moving.label>
+  
+  <!-- EN: sight -->
+  <Sight.label>بینایی</Sight.label>
+  
+  <!-- EN: talking -->
+  <Talking.label>صحبت کردن</Talking.label>
+  <!-- EN: Communication -->
+  <Talking.labelMechanoids>ارتباط</Talking.labelMechanoids>
+  
+</LanguageData>

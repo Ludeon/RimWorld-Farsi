@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: charge blaster turret -->
+  <Gun_ChargeBlasterTurret.label>برجک شارژ</Gun_ChargeBlasterTurret.label>
+  <!-- EN: A small charge blaster designed for use on a defense turret. -->
+  <Gun_ChargeBlasterTurret.description>یک شارژر کوچک که برای استفاده در یک برجک دفاعی طراحی شده است.</Gun_ChargeBlasterTurret.description>
+  <!-- EN: charge blaster turret -->
+  <Gun_ChargeBlasterTurret.verbs.Verb_Shoot.label>برجک شارژ</Gun_ChargeBlasterTurret.verbs.Verb_Shoot.label>
+  
+  <!-- EN: apocriton -->
+  <Mech_Apocriton.label>آپوکریتون</Mech_Apocriton.label>
+  <!-- EN: A mechanoid commander designed to coordinate and motivate other mechs during long extermination campaigns. Its most obvious power is its ability to resurrect recently-killed mechs by supercharging their self-repair processes. Less obviously, it is intelligent and psychically present, radiating hatred into the minds of anyone in a wide radius. It can also move quickly with its built-in jump launcher.\n\nWhile all mechanoids have a dim psychically-present intelligence, only the apocriton and a few others truly feel hatred for their victims and understand the suffering they inflict. -->
+  <Mech_Apocriton.description>یک فرمانده مکانیکی که برای هماهنگی و ایجاد انگیزه در سایر مکانیک‌ها در طول کمپین های کشتار طولانی طراحی شده است. بارزترین قدرت آن، توانایی آن در احیای مکانیک های اخیراً کشته شده با سوپرشارژ کردن فرآیندهای خود ترمیم آنها است. کمتر بدیهی است که هوشمندانه و روانی موجود است و نفرت را در ذهن هر کسی در شعاع وسیعی ساطع می کند. همچنین می‌تواند با پرتاب‌کننده داخلی خود به سرعت حرکت کند.\n\nدر حالی که همه مکانوئیدها هوش روانی ضعیفی دارند، فقط آپوکریتون و چند نفر دیگر واقعاً از قربانیان خود نفرت دارند و رنجی را که آنها تحمیل می‌کنند درک می‌کنند.</Mech_Apocriton.description>
+  <!-- EN: head -->
+  <Mech_Apocriton.tools.head.label>سر</Mech_Apocriton.tools.head.label>
+  
+  <!-- EN: centurion -->
+  <Mech_Centurion.label>سنتور</Mech_Centurion.label>
+  <!-- EN: An ultraheavy mech with a built-in shield bubble generator. The centurion carries a point-defense bulb turret capable of firing while the mechanoid is moving. -->
+  <Mech_Centurion.description>مکانیکی فوق سنگین با ژنراتور حباب محافظ داخلی. سانتوریون یک برجک لامپ دفاعی با قابلیت شلیک در حین حرکت مکانیکی حمل می کند.</Mech_Centurion.description>
+  <!-- EN: head -->
+  <Mech_Centurion.tools.head.label>سر</Mech_Centurion.tools.head.label>
+  
+  <!-- EN: diabolus -->
+  <Mech_Diabolus.label>دیابولوس</Mech_Diabolus.label>
+  <!-- EN: An ultra-heavy mechanoid with an ultra-powerful hellsphere cannon. Made for siegebreaking, its hellsphere cannon takes time to charge up a shot, but can melt concrete and vaporize bone. The diabolus dissipates the hellsphere cannon's waste power in a heat column mounted on its back, which can pulse to ignite flammable objects nearby.\n\nThis mech's name comes from a thousand-year-old poem written by a Haspian monk who survived the erasure of his monastery. His religiously-tinged work describes a razor-bodied fiend pulsing with flesh-searing heat as it crushed scorched bodies under massive claws. The few who have faced a diabolus and survived tend to agree with this depiction. -->
+  <Mech_Diabolus.description>یک مکانیک فوق سنگین با یک توپ فوق العاده قدرتمند کره جهنمی. توپ کره جهنمی آن که برای محاصره ساخته شده است، زمان می برد تا یک گلوله را شارژ کند، اما می تواند بتن را ذوب کرده و استخوان را تبخیر کند. دیابولوس نیروی اتلاف توپ کره جهنمی را در یک ستون حرارتی نصب شده بر پشت آن، که می تواند با ضربان تپش اشیاء قابل اشتعال را در نزدیکی آن شعله ور کند، از بین می برد.\n\nنام این مکانیک برگرفته از شعری هزار ساله توسط یک راهب هاسپی است که از پاک شدن صومعه خود جان سالم به در برده است. کار او با رنگ‌آمیزی مذهبی، شیطانی تیغ‌دار را توصیف می‌کند که در حالی که بدن‌های سوخته را زیر چنگال‌های عظیم خرد می‌کند، با گرمای گوشت‌افکنی می‌تپد. معدود کسانی که با یک دیابولوس مواجه شده اند و جان سالم به در برده اند، با این تصویر موافق هستند.</Mech_Diabolus.description>
+  <!-- EN: head -->
+  <Mech_Diabolus.tools.head.label>سر</Mech_Diabolus.tools.head.label>
+  
+  <!-- EN: war queen -->
+  <Mech_Warqueen.label>ملکه جنگ</Mech_Warqueen.label>
+  <!-- EN: An ultra-heavy mech with a built-in mech gestator. Fed with appropriate resources, the war queen can form small war urchin combat mechs within its massive carapace and deploy them into combat.\n\nEven more than other mechanoids, the war queen resembles a giant, living insect. All war mechs can be terrifying, but humans tend to find the war queen disturbing on a deeper level. -->
+  <Mech_Warqueen.description>یک مکانیک فوق سنگین با یک دستگاه ژستور مکانیکی داخلی. ملکه جنگ که با منابع مناسب تغذیه می‌شود، می‌تواند ماشین‌های جنگی خارپشت کوچک جنگی را در قفسه عظیم خود تشکیل دهد و آنها را به نبرد بفرستد.\n\nحتی بیشتر از سایر مکانیسم‌ها، ملکه جنگ شبیه یک حشره غول پیکر و زنده است. همه ماشین‌های جنگی می‌توانند وحشتناک باشند، اما انسان‌ها تمایل دارند ملکه جنگ را در سطحی عمیق‌تر آزاردهنده ببینند.</Mech_Warqueen.description>
+  <!-- EN: head -->
+  <Mech_Warqueen.tools.head.label>سر</Mech_Warqueen.tools.head.label>
+  
+</LanguageData>

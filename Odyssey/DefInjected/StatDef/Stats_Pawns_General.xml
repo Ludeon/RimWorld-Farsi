@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: fishing speed -->
+  <FishingSpeed.label>سرعت ماهیگیری</FishingSpeed.label>
+  <!-- EN: The speed at which this person catches fish. -->
+  <FishingSpeed.description>سرعتی که این شخص با آن ماهی می گیرد.</FishingSpeed.description>
+  
+  <!-- EN: fishing yield -->
+  <FishingYield.label>بازده ماهیگیری</FishingYield.label>
+  <!-- EN: The percentage yield this person receives when they fish. -->
+  <FishingYield.description>درصد بازدهی که این فرد هنگام ماهیگیری دریافت می کند.</FishingYield.description>
+  
+  <!-- EN: piloting ability -->
+  <PilotingAbility.label>توانایی خلبانی</PilotingAbility.label>
+  <!-- EN: How well this person can pilot a vehicle. -->
+  <PilotingAbility.description>این شخص چقدر خوب می تواند یک وسیله نقلیه را هدایت کند.</PilotingAbility.description>
+  
+  <!-- EN: vacuum resistance -->
+  <VacuumResistance.label>مقاومت در برابر خلاء</VacuumResistance.label>
+  <!-- EN: How resistant this creature is to the negative effects of the vacuum of space. -->
+  <VacuumResistance.description>چقدر این موجود در برابر اثرات منفی خلاء فضا مقاوم است.</VacuumResistance.description>
+  
+</LanguageData>

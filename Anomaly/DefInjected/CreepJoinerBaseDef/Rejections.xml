@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: aggressive -->
+  <AggressiveRejection.label>رد پرخاشگرانه</AggressiveRejection.label>
+  <!-- EN: Upon being rejected, {PAWN_nameDef} flew into a murderous rage and began to attack! -->
+  <AggressiveRejection.letterDesc>پس از رد شدن، {PAWN_nameDef} در خشم قاتلانه‌ای فرو رفت و شروع به حمله کرد!</AggressiveRejection.letterDesc>
+  <!-- EN: {PAWN_nameDef} hostile -->
+  <AggressiveRejection.letterLabel>{PAWN_nameDef} دشمن</AggressiveRejection.letterLabel>
+  
+  <!-- EN: departure -->
+  <Departure.label>خروج</Departure.label>
+  <!-- EN: {PAWN_nameDef} is disappointed by the way that you have treated {PAWN_objective}. {PAWN_pronoun} has decided to leave. -->
+  <Departure.letterDesc>{PAWN_nameDef} از نحوه رفتار شما با {PAWN_objective} ناامید است. {PAWN_pronoun} تصمیم گرفته برود.</Departure.letterDesc>
+  <!-- EN: {PAWN_nameDef} departure -->
+  <Departure.letterLabel>خروج {PAWN_nameDef}</Departure.letterLabel>
+  
+</LanguageData>

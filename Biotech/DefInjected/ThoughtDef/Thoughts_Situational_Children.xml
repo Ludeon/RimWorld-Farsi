@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: my baby {BABY_nameDef} is sick -->
+  <BabySick.stages.my_baby_is_sick.label>بچه من {BABY_nameDef} بیمار است</BabySick.stages.my_baby_is_sick.label>
+  <!-- EN: My baby is sick. I'm terrified something bad will happen to my baby. -->
+  <BabySick.stages.my_baby_is_sick.description>بچه من مریضه می ترسم اتفاق بدی برای بچه ام بیفتد.</BabySick.stages.my_baby_is_sick.description>
+  <!-- EN: my babies are sick -->
+  <BabySick.stages.my_babies_are_sick.label>بچه های من مریض هستند</BabySick.stages.my_babies_are_sick.label>
+  <!-- EN: My babies are sick. I'm terrified something bad will happen to them. -->
+  <BabySick.stages.my_babies_are_sick.description>بچه های من مریض هستند. من می ترسم اتفاق بدی برای آنها بیفتد.</BabySick.stages.my_babies_are_sick.description>
+  
+  <!-- EN: my child is in a growth vat -->
+  <ChildInGrowthVat.stages.my_child_is_in_a_growth_vat.label>فرزند من در خمره رشد است</ChildInGrowthVat.stages.my_child_is_in_a_growth_vat.label>
+  <!-- EN: I miss my child. It's hard knowing they're floating in that machine, bypassing their childhood. -->
+  <ChildInGrowthVat.stages.my_child_is_in_a_growth_vat.description>دلم برای بچه ام تنگ شده سخت است بدانیم که آنها در آن ماشین شناور هستند و دوران کودکی خود را دور می زنند.</ChildInGrowthVat.stages.my_child_is_in_a_growth_vat.description>
+  
+  <!-- EN: good crib -->
+  <CribQuality.stages.good_crib.label>تخت خواب خوب</CribQuality.stages.good_crib.label>
+  <!-- EN: This crib is comfy. -->
+  <CribQuality.stages.good_crib.description>این تخت خواب راحت است</CribQuality.stages.good_crib.description>
+  <!-- EN: excellent crib -->
+  <CribQuality.stages.excellent_crib.label>تخت خواب عالی</CribQuality.stages.excellent_crib.label>
+  <!-- EN: This crib is very comfy. -->
+  <CribQuality.stages.excellent_crib.description>این تخت بسیار راحت است.</CribQuality.stages.excellent_crib.description>
+  <!-- EN: masterwork crib -->
+  <CribQuality.stages.masterwork_crib.label>تخت شاهکار</CribQuality.stages.masterwork_crib.label>
+  <!-- EN: This crib is amazing. So comfortable. -->
+  <CribQuality.stages.masterwork_crib.description>این تخت خواب شگفت انگیز است. خیلی راحت</CribQuality.stages.masterwork_crib.description>
+  <!-- EN: legendary crib -->
+  <CribQuality.stages.legendary_crib.label>تخت خواب افسانه‌ای</CribQuality.stages.legendary_crib.label>
+  <!-- EN: This crib is wonderful. So very comfortable. Perfect for naps. -->
+  <CribQuality.stages.legendary_crib.description>این تخت فوق العاده است. خیلی راحت مناسب برای چرت زدن</CribQuality.stages.legendary_crib.description>
+  
+  <!-- EN: enslaved child -->
+  <EnslavedChild.stages.enslaved_child.label>کودک برده شده</EnslavedChild.stages.enslaved_child.label>
+  <!-- EN: It breaks my heart to see my child forced to serve others. -->
+  <EnslavedChild.stages.enslaved_child.description>وقتی می بینم فرزندم مجبور به خدمت به دیگران می شود، دلم می شکند.</EnslavedChild.stages.enslaved_child.description>
+  
+  <!-- EN: my child {CHILD_nameDef} is happy -->
+  <MyChildHappy.stages.my_child_is_happy.label>فرزند من {CHILD_nameDef} خوشحال است</MyChildHappy.stages.my_child_is_happy.label>
+  <!-- EN: Nothing makes me feel better than my kid being happy. -->
+  <MyChildHappy.stages.my_child_is_happy.description>هیچ چیز به من احساس بهتری از شاد بودن فرزندم نمی دهد.</MyChildHappy.stages.my_child_is_happy.description>
+  
+  <!-- EN: my children are happy -->
+  <MyChildrenHappy.stages.my_children_are_happy.label>بچه های من خوشحال هستند</MyChildrenHappy.stages.my_children_are_happy.label>
+  <!-- EN: Nothing makes me feel better than my kids being happy. -->
+  <MyChildrenHappy.stages.my_children_are_happy.description>هیچ چیز به من احساس بهتری از شاد بودن بچه هایم نمی دهد.</MyChildrenHappy.stages.my_children_are_happy.description>
+  
+  <!-- EN: my children are unhappy -->
+  <MyChildrenSad.stages.my_children_are_unhappy.label>بچه های من ناراضی هستند</MyChildrenSad.stages.my_children_are_unhappy.label>
+  <!-- EN: I worry about my children. If they're not happy, I'm not happy. -->
+  <MyChildrenSad.stages.my_children_are_unhappy.description>من نگران بچه هایم هستم. اگر آنها خوشحال نباشند، من خوشحال نیستم.</MyChildrenSad.stages.my_children_are_unhappy.description>
+  
+  <!-- EN: my child {CHILD_nameDef} is unhappy -->
+  <MyChildSad.stages.my_child_is_unhappy.label>فرزند من {CHILD_nameDef} ناراضی است</MyChildSad.stages.my_child_is_unhappy.label>
+  <!-- EN: I worry about my child. If they're not happy, I'm not happy. -->
+  <MyChildSad.stages.my_child_is_unhappy.description>نگران فرزندم هستم اگر آنها خوشحال نباشند، من خوشحال نیستم.</MyChildSad.stages.my_child_is_unhappy.description>
+  
+  <!-- EN: parent is happy -->
+  <MyParentHappy.stages.parent_is_happy.label>پدر و مادر خوشحال است</MyParentHappy.stages.parent_is_happy.label>
+  <!-- EN: I'm happy when my parents are happy. -->
+  <MyParentHappy.stages.parent_is_happy.description>وقتی پدر و مادرم خوشحال هستند خوشحال می شوم.</MyParentHappy.stages.parent_is_happy.description>
+  
+  <!-- EN: parents are happy -->
+  <MyParentsHappy.stages.parents_are_happy.label>والدین خوشحال هستند</MyParentsHappy.stages.parents_are_happy.label>
+  <!-- EN: I'm happy when my parents are happy. -->
+  <MyParentsHappy.stages.parents_are_happy.description>وقتی پدر و مادرم خوشحال هستند خوشحال می شوم.</MyParentsHappy.stages.parents_are_happy.description>
+  
+  <!-- EN: happy youngsters -->
+  <YoungstersHappy.stages.happy_youngsters.label>جوانان شاد</YoungstersHappy.stages.happy_youngsters.label>
+  <!-- EN: It's nice to see that the young folk are doing well. -->
+  <YoungstersHappy.stages.happy_youngsters.description>خوب است که می بینم جوانان خوب هستند.</YoungstersHappy.stages.happy_youngsters.description>
+  
+  <!-- EN: sad youngsters -->
+  <YoungstersSad.stages.sad_youngsters.label>جوانان غمگین</YoungstersSad.stages.sad_youngsters.label>
+  <!-- EN: It's sad to see that the young folk are struggling. -->
+  <YoungstersSad.stages.sad_youngsters.description>غم انگیز است که می بینم جوانان در حال مبارزه هستند.</YoungstersSad.stages.sad_youngsters.description>
+  
+</LanguageData>

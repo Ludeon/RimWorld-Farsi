@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: warcall berserk -->
+  <BerserkWarcall.label>وارکال دیوانه</BerserkWarcall.label>
+  <!-- EN: Mental state: Warcall berserk -->
+  <BerserkWarcall.baseInspectLine>وضعیت روانی: وارکال دیوانه</BerserkWarcall.baseInspectLine>
+  <!-- EN: {0} has been roused by a warcall.\n\n[PAWN_pronoun] will attack any enemy of the colony. -->
+  <BerserkWarcall.beginLetter>{0} توسط یک Warcall برانگیخته شده است.\n\n[PAWN_pronoun] به هر دشمن مستعمره حمله خواهد کرد.</BerserkWarcall.beginLetter>
+  <!-- EN: {0}'s rage has come to an end. -->
+  <BerserkWarcall.recoveryMessage>خشم {0} به پایان رسیده است.</BerserkWarcall.recoveryMessage>
+  
+  <!-- EN: panic-fleeing fire -->
+  <PanicFleeFire.label>آتش ترسناک</PanicFleeFire.label>
+  <!-- EN: Mental state: Fleeing fire -->
+  <PanicFleeFire.baseInspectLine>حالت روانی: فرار از آتش</PanicFleeFire.baseInspectLine>
+  <!-- EN: {0} is fleeing fire. -->
+  <PanicFleeFire.beginLetter>{0} در حال فرار از آتش است.</PanicFleeFire.beginLetter>
+  <!-- EN: fleeing fire -->
+  <PanicFleeFire.beginLetterLabel>فرار از آتش</PanicFleeFire.beginLetterLabel>
+  <!-- EN: {0} is no longer fleeing fire. -->
+  <PanicFleeFire.recoveryMessage>{0} دیگر از آتش فرار نمی کند.</PanicFleeFire.recoveryMessage>
+  
+</LanguageData>

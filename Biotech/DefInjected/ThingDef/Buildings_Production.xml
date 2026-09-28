@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: large mech gestator -->
+  <LargeMechGestator.label>دستگاه حامل مکانیکی بزرگ</LargeMechGestator.label>
+  <!-- EN: A tank of mechanite-rich fluid with support tubes for feeding in materials and nutrients. Mechanitors can use it to produce new mechanoids or to resurrect dead mechanoids. This tier of mech gestator is capable of generating medium, heavy, and ultraheavy mechs.\n\nThe process uses harsh chemicals which are stored in toxic wastepacks. Haulers must remove the wastepacks from time to time. -->
+  <LargeMechGestator.description>مخزن سیال غنی از مکانیت با لوله های نگهدارنده برای تغذیه در مواد و مواد مغذی. مکانیزم‌ها می توانند از آن برای تولید مکانوئیدهای جدید یا احیای مکانوئیدهای مرده استفاده کنند. این ردیف از دستگاه ژستاتور مکانیکی قادر به تولید مکانیک‌های متوسط، سنگین و فوق‌سنگین است.\n\nدر این فرآیند از مواد شیمیایی خشن استفاده می‌شود که در بسته‌های زباله سمی ذخیره می‌شوند. باربرها باید هر از گاهی بسته های زباله را خارج کنند.</LargeMechGestator.description>
+  
+  <!-- EN: mech gestator -->
+  <MechGestator.label>ژستور مکانیکی</MechGestator.label>
+  <!-- EN: A tank of mechanite-rich fluid with support tubes for feeding in materials and nutrients. Mechanitors can use it to produce new mechanoids or to resurrect dead mechanoids. This basic type of mech gestator is only capable of generating light-weight mechs.\n\nThe process uses harsh chemicals which are stored in toxic wastepacks. Haulers must remove the wastepacks from time to time. -->
+  <MechGestator.description>مخزن سیال غنی از مکانیت با لوله های نگهدارنده برای تغذیه در مواد و مواد مغذی. مکانیزم‌ها می توانند از آن برای تولید مکانوئیدهای جدید یا احیای مکانوئیدهای مرده استفاده کنند. این نوع اولیه دستگاه‌های ژستاتور مکانیکی فقط قادر به تولید مکانیک‌های سبک وزن است.\n\nدر این فرآیند از مواد شیمیایی خشن استفاده می‌شود که در بسته‌های زباله سمی ذخیره می‌شوند. باربرها باید هر از گاهی بسته های زباله را خارج کنند.</MechGestator.description>
+  
+  <!-- EN: subcore encoder -->
+  <SubcoreEncoder.label>رمزگذار فرعی</SubcoreEncoder.label>
+  <!-- EN: A work station where a mechanitor can produce basic-tier subcores. Subcores are the brains of mechanoids, and one is required to produce any mechanoid. Basic subcores can only be used in simple basic-tier mechs.\n\nHigher tier subcores can be created by building a subcore softscanner or a subcore ripscanner. -->
+  <SubcoreEncoder.description>یک ایستگاه کاری که در آن یک مکانیک می تواند زیرهسته های سطح پایه تولید کند. زیرهسته‌ها مغز مکانوئیدها هستند و یکی برای تولید هر مکانوئیدی لازم است. زیرهسته‌های اصلی را فقط می‌توان در مکانیزم‌های ساده پایه استفاده کرد.\n\nزیر هسته‌های سطح بالاتر را می‌توان با ساختن یک نرم‌افزار زیرهسته یا یک ریپس‌اسکنر زیرهسته‌ای ایجاد کرد.</SubcoreEncoder.description>
+  
+  <!-- EN: subcore ripscanner -->
+  <SubcoreRipscanner.label>ریپس اسکنر زیر هسته‌ای</SubcoreRipscanner.label>
+  <!-- EN: A pod with thousands of tissue probe injectors and an ultra-high-power vaporizing brain scanner. Once a person is inserted, the device will insert the probes into their body through the skin while the ripscanner chews through the brain, reading the reflected radiation and destroying the brain in the process. Ripscanning the mind generates a neuro-psychic pattern that the scanner can analog-transfer to a new high-tier mechanoid subcore.\n\nSubcores are mechanoid brains and producing any mechanoid requires one. High-tier subcores produced by this ripscanner can only power high-tier mechanoids. -->
+  <SubcoreRipscanner.description>یک غلاف با هزاران انژکتور پروب بافت و یک اسکنر مغز تبخیر کننده فوق العاده بالا. هنگامی که شخصی وارد بدن می شود، دستگاه پروب‌ها را از طریق پوست وارد بدن او می کند در حالی که ریپس اسکنر مغز را می جود، تابش منعکس شده را می خواند و مغز را در این فرآیند از بین می برد. ریپس اسکن ذهن یک الگوی عصبی-روانی تولید می‌کند که اسکنر می‌تواند آن را به یک زیرهسته مکانیکی جدید با سطح بالا منتقل کند.\n\nزیر هسته‌ها مغزهای مکانیکی هستند و برای تولید هر مکانوئیدی به آن نیاز است. زیرهسته های سطح بالا تولید شده توسط این ریپس اسکنر فقط می توانند مکانیزم های سطح بالا را تامین کنند.</SubcoreRipscanner.description>
+  
+  <!-- EN: subcore softscanner -->
+  <SubcoreSoftscanner.label>نرم افزار زیر هسته‌ای</SubcoreSoftscanner.label>
+  <!-- EN: A pod with thousands of tiny tissue probes and a high-energy brain scanner. Once a person is inserted, the system uses the probes and scanner to sense a neuro-psychic pattern that it can analog-transfer to a new standard-tier mechanoid subcore. The person will be left temporarily sick, but unharmed.\n\nSubcores are mechanoid brains and producing any mechanoid requires one. Standard-tier subcores produced by this softscanner can only power standard-tier mechanoids.\n\nHigher tier subcores can be created by building a subcore ripscanner. -->
+  <SubcoreSoftscanner.description>یک غلاف با هزاران پروب بافت کوچک و یک اسکنر مغز با انرژی بالا. هنگامی که یک فرد وارد می شود، این سیستم از پروب‌ها و اسکنر برای حس کردن یک الگوی عصبی-روانی استفاده می کند که می تواند آنالوگ را به یک زیرهسته مکانیکی لایه استاندارد جدید منتقل کند. فرد موقتاً بیمار می‌شود، اما آسیبی نمی‌بیند.\n\nزیر هسته‌ها مغزهای مکانیکی هستند و برای تولید هر مکانوئیدی نیاز به مغز است. زیرهسته‌های سطح استاندارد تولید شده توسط این اسکنر نرم تنها می‌توانند مکانیزم‌های سطح استاندارد را تامین کنند.\n\nبا ساخت یک اسکنر زیر هسته‌ای می‌توان زیرهسته‌های لایه بالاتر ایجاد کرد.</SubcoreSoftscanner.description>
+  
+</LanguageData>

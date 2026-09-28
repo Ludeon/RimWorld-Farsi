@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: bandwidth cost -->
+  <BandwidthCost.label>هزینه پهنای باند</BandwidthCost.label>
+  <!-- EN: How much bandwidth this mech consumes when under mechanitor control. -->
+  <BandwidthCost.description>این مکانیک چه مقدار پهنای باند مصرف می کند که تحت کنترل مکانیتور است.</BandwidthCost.description>
+  
+  <!-- EN: cancer rate factor -->
+  <CancerRate.label>عامل نرخ سرطان</CancerRate.label>
+  <!-- EN: A multiplier on how likely this person is to develop cancer in any given time frame. -->
+  <CancerRate.description>ضریب افزایش احتمال ابتلای این فرد به سرطان در هر بازه زمانی معین.</CancerRate.description>
+  
+  <!-- EN: control taking time -->
+  <ControlTakingTime.label>زمان گرفتن را کنترل کنید</ControlTakingTime.label>
+  <!-- EN: How many seconds it will take for a mechanitor to take control of this mech. -->
+  <ControlTakingTime.description>چند ثانیه طول می کشد تا یک مکانیک کنترل این ماشین را به دست بگیرد.</ControlTakingTime.description>
+  <!-- EN: {0}s -->
+  <ControlTakingTime.formatString>{0}s</ControlTakingTime.formatString>
+  
+  <!-- EN: fertility -->
+  <Fertility.label>باروری</Fertility.label>
+  <!-- EN: Fertility affects the chance of a pregnancy occurring. Pregnancy chance is dependent on the fertility of both partners. This also affects the chance of successfully implanting an embryo in a surrogate. -->
+  <Fertility.description>باروری بر شانس بارداری تأثیر می گذارد. شانس بارداری به باروری هر دو طرف بستگی دارد. این همچنین بر شانس کاشت موفقیت آمیز یک جنین در یک جانشین تأثیر می گذارد.</Fertility.description>
+  
+  <!-- EN: growth vat occupant speed -->
+  <GrowthVatOccupantSpeed.label>سرعت رشد ساکنان مالیات بر ارزش افزوده</GrowthVatOccupantSpeed.label>
+  <!-- EN: A multiplier on how quickly this person will grow when in a growth vat. -->
+  <GrowthVatOccupantSpeed.description>ضریب افزایش سرعت رشد این شخص در زمانی که در یک خمره رشد است.</GrowthVatOccupantSpeed.description>
+  
+  <!-- EN: hemogen gain multiplier -->
+  <HemogenGainFactor.label>ضریب افزایش هموژن</HemogenGainFactor.label>
+  <!-- EN: A multiplier on the amount of hemogen gained. -->
+  <HemogenGainFactor.description>ضریب بر میزان هموژن به دست آمده.</HemogenGainFactor.description>
+  
+  <!-- EN: learning rate factor -->
+  <LearningRateFactor.label>عامل نرخ یادگیری</LearningRateFactor.label>
+  <!-- EN: A multiplier on how quickly a child's learning need is fulfilled by learning activities. -->
+  <LearningRateFactor.description>ضریب افزایش سرعت نیازهای یادگیری کودک توسط فعالیت های یادگیری.</LearningRateFactor.description>
+  
+  <!-- EN: mech bandwidth -->
+  <MechBandwidth.label>پهنای باند مکانیکی</MechBandwidth.label>
+  <!-- EN: How much bandwidth a mechanitor has. More bandwidth allows a mechanitor to produce and control more mechs at the same time.\n\nLosing bandwidth means losing control of mechs, leaving them without an overseer. Such mechs can eventually become feral if not re-dominated. -->
+  <MechBandwidth.description>پهنای باند مکانیک چقدر است. پهنای باند بیشتر به یک مکانیک امکان می‌دهد همزمان مکانیزم‌های بیشتری تولید و کنترل کند.\n\nاز دست دادن پهنای باند به معنای از دست دادن کنترل دستگاه‌ها و رها کردن آنها بدون ناظر است. چنین مکانیزم‌هایی در نهایت می‌توانند وحشی شوند اگر دوباره تحت سلطه قرار نگیرند.</MechBandwidth.description>
+  
+  <!-- EN: mech control groups -->
+  <MechControlGroups.label>گروه های کنترل مکانیکی</MechControlGroups.label>
+  <!-- EN: How many control groups this mechanitor can direct independently. Each control group can be given its own separate orders. -->
+  <MechControlGroups.description>چند گروه کنترل را این مکانیکور می تواند به طور مستقل هدایت کند. به هر گروه کنترل می توان دستورات جداگانه خود را داد.</MechControlGroups.description>
+  
+  <!-- EN: repair energy cost -->
+  <MechEnergyLossPerHP.label>هزینه انرژی تعمیر</MechEnergyLossPerHP.label>
+  <!-- EN: The amount of energy that this mechanoid loses for every 100 damage repaired. -->
+  <MechEnergyLossPerHP.description>مقدار انرژی که این مکانوئید به ازای هر 100 آسیب تعمیر شده از دست می دهد.</MechEnergyLossPerHP.description>
+  
+  <!-- EN: energy usage multiplier -->
+  <MechEnergyUsageFactor.label>ضریب مصرف انرژی</MechEnergyUsageFactor.label>
+  <!-- EN: A multiplier on how fast a mechanoid consumes its energy reserves while operating. -->
+  <MechEnergyUsageFactor.description>یک ضریب در مورد سرعت مصرف یک مکانوئید ذخایر انرژی خود در حین کار.</MechEnergyUsageFactor.description>
+  
+  <!-- EN: mech gestation speed -->
+  <MechFormingSpeed.label>سرعت حاملگی مکانیکی</MechFormingSpeed.label>
+  <!-- EN: A multiplier on the speed at which this mechanitor can form new mechanoids at a gestator. -->
+  <MechFormingSpeed.description>ضریب سرعتی که این مکانیکور می‌تواند مکانیسم‌های جدیدی را در یک ژستور ایجاد کند.</MechFormingSpeed.description>
+  
+  <!-- EN: mech remote repair distance -->
+  <MechRemoteRepairDistance.label>فاصله تعمیر از راه دور مکانیکی</MechRemoteRepairDistance.label>
+  <!-- EN: How far away a mech can be during remote repair. -->
+  <MechRemoteRepairDistance.description>یک مکانیک در طول تعمیر از راه دور چقدر می تواند دور باشد.</MechRemoteRepairDistance.description>
+  
+  <!-- EN: mech remote shield distance -->
+  <MechRemoteShieldDistance.label>فاصله سپر از راه دور مکانیکی</MechRemoteShieldDistance.label>
+  <!-- EN: The maximum range at which a mechanitor can place a shield on a mechanoid. -->
+  <MechRemoteShieldDistance.description>حداکثر محدوده‌ای که یک مکانیتور می تواند یک سپر را روی یک مکانوئید قرار دهد.</MechRemoteShieldDistance.description>
+  
+  <!-- EN: mech remote shield energy -->
+  <MechRemoteShieldEnergy.label>انرژی سپر از راه دور مکانیکی</MechRemoteShieldEnergy.label>
+  <!-- EN: The energy a remote shield will have when created by a mechanitor. -->
+  <MechRemoteShieldEnergy.description>انرژی یک سپر از راه دور هنگامی که توسط مکانیک ایجاد می شود خواهد داشت.</MechRemoteShieldEnergy.description>
+  
+  <!-- EN: mech repair speed -->
+  <MechRepairSpeed.label>سرعت تعمیر مکانیک</MechRepairSpeed.label>
+  <!-- EN: A multiplier on how fast a mechanitor can repair mechanoids. -->
+  <MechRepairSpeed.description>ضریب افزایش سرعت مکانیکال که می تواند مکانیسم‌ها را تعمیر کند.</MechRepairSpeed.description>
+  
+  <!-- EN: raw nutrition multiplier -->
+  <RawNutritionFactor.label>ضریب تغذیه خام</RawNutritionFactor.label>
+  <!-- EN: A multiplier on how nutritious raw food is for this person. Note that since meals usually have more nutrition than their raw ingredients, a boost to this stat may only mean the person gets the same nutrition from raw food as if it were cooked. -->
+  <RawNutritionFactor.description>ضریب مغذی بودن غذای خام برای این فرد. توجه داشته باشید که از آنجایی که وعده‌های غذایی معمولاً دارای مواد مغذی بیشتری نسبت به مواد خام هستند، افزایش این آمار ممکن است به این معنی باشد که فرد همان مواد غذایی را از غذای خام دریافت می‌کند که انگار پخته شده است.</RawNutritionFactor.description>
+  
+  <!-- EN: subcore encoding speed -->
+  <SubcoreEncodingSpeed.label>سرعت رمزگذاری زیر هسته</SubcoreEncodingSpeed.label>
+  <!-- EN: A multiplier on how fast a mechanitor can create subcores. -->
+  <SubcoreEncodingSpeed.description>ضریب افزایش سرعت مکانیکال می تواند زیرهسته ایجاد کند.</SubcoreEncodingSpeed.description>
+  
+  <!-- EN: wastepacks per recharge -->
+  <WastepacksPerRecharge.label>بسته های زباله در هر شارژ مجدد</WastepacksPerRecharge.label>
+  <!-- EN: How many toxic wastepacks this mechanoid will generate at a mech recharger when going from 0 to 100% energy. Larger mechanoids will generally create more toxic wastepacks. -->
+  <WastepacksPerRecharge.description>وقتی از 0 به 100 درصد انرژی می‌رسد، این مکانوئید در یک شارژر مکانیکی چند بسته زباله سمی تولید می‌کند. مکانیسم‌های بزرگ‌تر معمولاً بسته‌های زباله سمی بیشتری ایجاد می‌کنند.</WastepacksPerRecharge.description>
+  
+</LanguageData>
