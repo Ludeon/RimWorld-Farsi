@@ -3,9 +3,9 @@
   <friendlyNameNative>پارسی</friendlyNameNative>
   <friendlyNameEnglish>Persian</friendlyNameEnglish>
   <canBeTiny>true</canBeTiny>
-  <languageWorkerClass>LanguageWorker_English</languageWorkerClass>
+  <languageWorkerClass>RTL_Persian.LanguageWorker_Persian</languageWorkerClass>
   <credits>
-   <li Class="CreditRecord_Role">
+    <li Class="CreditRecord_Role">
       <roleKey>Credit_Translator</roleKey>
       <creditee>Danial pahlavan mosavari \nReza seyed abdollahi</creditee>
     </li>
