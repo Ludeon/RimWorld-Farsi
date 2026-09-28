@@ -1,0 +1,162 @@
+name: Steam Workshop Release
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      changelog:
+        description: 'Changelog / Release Notes for Steam Workshop'
+        required: false
+        default: 'Automated translation update and runtime engine improvements.'
+        type: string
+      dry_run:
+        description: 'Dry run (verify and package without publishing to Steam)'
+        required: false
+        default: false
+        type: boolean
+
+concurrency:
+  group: steam-workshop-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate-and-package:
+    name: Prepare & Verify Workshop Package
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install QA & Processing Dependencies
+        run: |
+          pip install --upgrade pip
+          pip install lxml pytest ruff mypy
+
+      - name: Run Full QA Linter Suite
+        run: |
+          python tools/qa/run_qa.py --github
+
+      - name: Compile C# Harmony Assembly
+        run: |
+          dotnet build mods/RTL_Persian_Support/Source/RTL_Persian_Support.csproj -c Release
+
+      - name: Assemble Steam Workshop Content
+        run: |
+          # Create clean staging directory
+          STAGING_DIR="build/steam_workshop/danial.rtlpersiansupport"
+          mkdir -p "$STAGING_DIR"
+
+          # 1. Copy Mod Core (About, Assemblies, Fonts, Resources)
+          cp -r mods/RTL_Persian_Support/About "$STAGING_DIR/"
+          cp -r mods/RTL_Persian_Support/Assemblies "$STAGING_DIR/"
+          cp -r mods/RTL_Persian_Support/Resources "$STAGING_DIR/"
+          cp mods/RTL_Persian_Support/*.ttf "$STAGING_DIR/" 2>/dev/null || true
+          cp mods/RTL_Persian_Support/README.txt "$STAGING_DIR/" 2>/dev/null || true
+
+          # 2. Package Languages into mod structure
+          mkdir -p "$STAGING_DIR/Languages/Persian"
+          
+          # Copy DefInjected & Keyed from repo Core
+          if [ -d "Core/DefInjected" ]; then
+            cp -r Core/DefInjected "$STAGING_DIR/Languages/Persian/"
+          fi
+          if [ -d "Core/Keyed" ]; then
+            cp -r Core/Keyed "$STAGING_DIR/Languages/Persian/"
+          fi
+          if [ -d "Core/WordInfo" ]; then
+            cp -r Core/WordInfo "$STAGING_DIR/Languages/Persian/"
+          fi
+          if [ -f "Core/LanguageInfo.xml" ]; then
+            cp Core/LanguageInfo.xml "$STAGING_DIR/Languages/Persian/"
+          fi
+
+          # Copy DLC translations if present
+          for DLC in Royalty Ideology Biotech Anomaly Odyssey; do
+            if [ -d "$DLC" ]; then
+              mkdir -p "$STAGING_DIR/$DLC/Languages/Persian"
+              [ -d "$DLC/DefInjected" ] && cp -r "$DLC/DefInjected" "$STAGING_DIR/$DLC/Languages/Persian/"
+              [ -d "$DLC/Keyed" ] && cp -r "$DLC/Keyed" "$STAGING_DIR/$DLC/Languages/Persian/"
+              [ -d "$DLC/WordInfo" ] && cp -r "$DLC/WordInfo" "$STAGING_DIR/$DLC/Languages/Persian/"
+              [ -f "$DLC/LanguageInfo.xml" ] && cp "$DLC/LanguageInfo.xml" "$STAGING_DIR/$DLC/Languages/Persian/"
+            fi
+          done
+
+          echo "Workshop content staged successfully at $STAGING_DIR"
+          ls -la "$STAGING_DIR"
+
+      - name: Verify Staged Workshop Structure
+        run: |
+          STAGING_DIR="build/steam_workshop/danial.rtlpersiansupport"
+          test -f "$STAGING_DIR/About/About.xml" || { echo "Missing About/About.xml"; exit 1; }
+          test -f "$STAGING_DIR/About/Manifest.xml" || { echo "Missing About/Manifest.xml"; exit 1; }
+          test -f "$STAGING_DIR/Assemblies/RTL_Persian_Support.dll" || { echo "Missing compiled DLL"; exit 1; }
+          test -f "$STAGING_DIR/Vazirmatn.ttf" || { echo "Missing Vazirmatn.ttf"; exit 1; }
+          echo "All structural checks passed."
+
+      - name: Archive Workshop Package
+        run: |
+          cd build/steam_workshop
+          zip -r ../../rimworld-persian-workshop.zip danial.rtlpersiansupport/
+
+      - name: Upload Workshop Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: rimworld-persian-steam-workshop
+          path: rimworld-persian-workshop.zip
+          retention-days: 14
+
+  deploy-steam-workshop:
+    name: Deploy to Steam Workshop
+    runs-on: ubuntu-latest
+    needs: validate-and-package
+    if: github.event.inputs.dry_run != 'true'
+    steps:
+      - name: Download Workshop Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: rimworld-persian-steam-workshop
+          path: ./
+
+      - name: Extract Staged Workshop Package
+        run: |
+          unzip -q rimworld-persian-workshop.zip -d ./staged
+
+      - name: Check Steam Credentials
+        id: check_creds
+        env:
+          STEAM_USERNAME: ${{ secrets.STEAM_USERNAME }}
+          STEAM_CONFIG_VDF: ${{ secrets.STEAM_CONFIG_VDF }}
+          STEAM_PASSWORD: ${{ secrets.STEAM_PASSWORD }}
+        run: |
+          if [ -n "$STEAM_USERNAME" ] && ([ -n "$STEAM_CONFIG_VDF" ] || [ -n "$STEAM_PASSWORD" ]); then
+            echo "has_creds=true" >> $GITHUB_OUTPUT
+            echo "Steam credentials detected in secrets."
+          else
+            echo "has_creds=false" >> $GITHUB_OUTPUT
+            echo "::warning::Steam credentials (STEAM_USERNAME and STEAM_CONFIG_VDF / STEAM_PASSWORD) not found. Skipping live upload."
+          fi
+
+      - name: Deploy via SteamCMD
+        if: steps.check_creds.outputs.has_creds == 'true'
+        uses: game-ci/steam-deploy@v3
+        with:
+          username: ${{ secrets.STEAM_USERNAME }}
+          configVdf: ${{ secrets.STEAM_CONFIG_VDF }}
+          appId: 294100
+          buildDescription: ${{ github.event.inputs.changelog || github.event.release.name || 'Automated Persian Translation Release' }}
+          rootPath: ./staged/danial.rtlpersiansupport
+          workshopId: ${{ secrets.STEAM_WORKSHOP_ID }}

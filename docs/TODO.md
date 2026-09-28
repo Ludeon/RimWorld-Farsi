@@ -193,12 +193,12 @@ flowchart TD
 | **T202** | Phase 2 | P0 | Persian typography & ZWNJ validator | `tools/qa/check_persian_typography.py` | [x] Completed |
 | **T203** | Phase 2 | P1 | ReportString dot validator | `tools/qa/check_report_strings.py` | [x] Completed |
 | **T204** | Phase 2 | P1 | Wire QA linter suite into GitHub Actions workflow | `.github/workflows/reusable-testing.yml` | [x] Completed |
-| **T301** | Phase 3 | P1 | Vazirmatn font asset integration & sizing options | `mods/RTL_Persian_Support/` | [ ] Pending |
-| **T302** | Phase 3 | P2 | Steam Workshop automated publishing workflow | `.github/workflows/steam-workshop.yml` | [ ] Pending |
-| **T303** | Phase 3 | P1 | Enhanced multi-platform installers (Steam Deck / Flatpak) | `install.sh`, `install.bat` | [ ] Pending |
-| **T401** | Phase 4 | P1 | Deterministic AST placeholder CLI parser | `tools/parse_placeholder.py` | [ ] Pending |
-| **T402** | Phase 4 | P1 | AI Contributor Rules & System Specification | `AGENTS.md` | [ ] Pending |
-| **T403** | Phase 4 | P2 | Automated upstream DLC diff & stub generation tool | `tools/translation-tools/check_upstream_diff.py` | [ ] Pending |
+| **T301** | Phase 3 | P1 | Vazirmatn font asset integration & sizing options | `mods/RTL_Persian_Support/` | [x] Completed |
+| **T302** | Phase 3 | P2 | Steam Workshop automated publishing workflow | `.github/workflows/steam-workshop.yml` | [x] Completed |
+| **T303** | Phase 3 | P1 | Enhanced multi-platform installers (Steam Deck / Flatpak) | `install.sh`, `install.bat` | [x] Completed |
+| **T401** | Phase 4 | P1 | Deterministic AST placeholder CLI parser | `tools/parse_placeholder.py` | [x] Completed |
+| **T402** | Phase 4 | P1 | AI Contributor Rules & System Specification | `AGENTS.md` | [x] Completed |
+| **T403** | Phase 4 | P2 | Automated upstream DLC diff & stub generation tool | `tools/translation-tools/check_upstream_diff.py` | [x] Completed |
 
 ---
 

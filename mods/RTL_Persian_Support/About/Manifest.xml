@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+  <identifier>danial.rtlpersiansupport</identifier>
+  <version>1.6.0</version>
+  <dependencies>
+    <li>brrainz.harmony</li>
+  </dependencies>
+  <incompatibilities />
+  <loadBefore />
+  <loadAfter>
+    <li>brrainz.harmony</li>
+  </loadAfter>
+  <showCrossPromotions>false</showCrossPromotions>
+</Manifest>

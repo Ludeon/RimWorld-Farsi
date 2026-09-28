@@ -2,22 +2,40 @@
 @echo off
 chcp 65001 > nul
 setlocal enabledelayedexpansion
-title RimWorld Persian Translation Installer
+title RimWorld Persian (فارسی) Translation & RTL Engine Installer
 
 echo ======================================================================
 echo           RimWorld Persian (فارسی) Translation Installer
+echo               With Vazirmatn Font & RTL Support Engine
 echo ======================================================================
 echo.
 
-set "DEFAULT_PATH=%ProgramFiles(x86)%\Steam\steamapps\common\RimWorld"
 set "FLDR="
 
-if exist "!DEFAULT_PATH!\Data\Core" (
-    echo Auto-detected RimWorld at: !DEFAULT_PATH!
+:: Check common RimWorld installation paths
+for %%P in (
+    "%ProgramFiles(x86)%\Steam\steamapps\common\RimWorld"
+    "%ProgramFiles%\Steam\steamapps\common\RimWorld"
+    "D:\SteamLibrary\steamapps\common\RimWorld"
+    "E:\SteamLibrary\steamapps\common\RimWorld"
+    "F:\SteamLibrary\steamapps\common\RimWorld"
+    "C:\GOG Games\RimWorld"
+    "D:\GOG Games\RimWorld"
+    "C:\Games\RimWorld"
+    "D:\Games\RimWorld"
+) do (
+    if "!FLDR!"=="" (
+        if exist "%%~P\Data\Core" (
+            set "FLDR=%%~P"
+        )
+    )
+)
+
+if not "!FLDR!"=="" (
+    echo Auto-detected RimWorld at: !FLDR!
     set /p "USE_DEFAULT=Use this location? [Y/n]: "
-    if /i "!USE_DEFAULT!"=="" set "FLDR=!DEFAULT_PATH!"
-    if /i "!USE_DEFAULT!"=="y" set "FLDR=!DEFAULT_PATH!"
-    if /i "!USE_DEFAULT!"=="yes" set "FLDR=!DEFAULT_PATH!"
+    if /i "!USE_DEFAULT!"=="n" set "FLDR="
+    if /i "!USE_DEFAULT!"=="no" set "FLDR="
 )
 
 if "!FLDR!"=="" (
@@ -101,6 +119,7 @@ for %%M in (!MODULES!) do (
             del /q "!FLDR!\Data\%%M\Languages\!LANG_NAME!.tar" 2>nul
             del /q "!FLDR!\Data\%%M\Languages\Persian.tar" 2>nul
             del /q "!FLDR!\Data\%%M\Languages\Persian (فارسی).tar" 2>nul
+            del /q "!FLDR!\Data\%%M\Languages\Farsi.tar" 2>nul
             set /a INSTALLED_COUNT+=1
         ) else (
             echo [SKIPPED] %%M DLC not detected in game.
@@ -116,10 +135,21 @@ if !INSTALLED_COUNT! EQU 0 (
     exit /b 1
 )
 
+:: Install Harmony RTL mod if available in local files
+if exist "%~dp0mods\RTL_Persian_Support" (
+    echo.
+    echo [INFO] Installing RTL Persian Support mod (Vazirmatn font ^& RTL engine)...
+    rd /q /s "!FLDR!\Mods\RTL_Persian_Support" 2>nul
+    xcopy /s /e /i /y "%~dp0mods\RTL_Persian_Support" "!FLDR!\Mods\RTL_Persian_Support" >nul
+    echo   [OK] RTL Persian Support mod installed to !FLDR!\Mods\RTL_Persian_Support
+)
+
 echo.
 echo ======================================================================
 echo  Installation completed successfully! (!INSTALLED_COUNT! modules installed)
-echo  Launch RimWorld, go to Options -^> Language, and select Persian (فارسی).
+echo  1. Launch RimWorld.
+echo  2. Go to Options -^> Language, and select Persian (فارسی).
+echo  3. (Recommended) Under 'Mods', enable 'Persian RTL Support' for Vazirmatn font!
 echo ======================================================================
 echo.
 pause

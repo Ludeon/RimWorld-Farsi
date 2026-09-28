@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # ==============================================================================
-# RimWorld Persian Translation Installer for Linux & Steam Deck
+# RimWorld Persian Translation & RTL Support Installer
+# Native multi-platform installer for Linux, Steam Deck & macOS
 # ==============================================================================
 
 set -euo pipefail
@@ -12,16 +13,19 @@ CLR_YELLOW="\033[33m"
 CLR_BLUE="\033[34m"
 CLR_RED="\033[31m"
 CLR_CYAN="\033[36m"
+CLR_MAGENTA="\033[35m"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 LANG_NAME="Persian (فارسی)"
 MODULES=("Core" "Royalty" "Ideology" "Biotech" "Anomaly" "Odyssey")
 
-echo -e "${CLR_BOLD}======================================================================${CLR_RESET}"
-echo -e "${CLR_BOLD}${CLR_CYAN}    RimWorld Persian (فارسی) Translation Installer (Linux/Steam Deck)${CLR_RESET}"
-echo -e "${CLR_BOLD}======================================================================${CLR_RESET}\n"
+echo -e "${CLR_BOLD}${CLR_MAGENTA}======================================================================${CLR_RESET}"
+echo -e "${CLR_BOLD}${CLR_CYAN}    RimWorld Persian (فارسی) Translation & RTL Engine Installer${CLR_RESET}"
+echo -e "${CLR_BOLD}${CLR_CYAN}         Universal Linux, Steam Deck & Native Game Edition${CLR_RESET}"
+echo -e "${CLR_BOLD}${CLR_MAGENTA}======================================================================${CLR_RESET}\n"
 
 USE_LOCAL=false
+INSTALL_MOD=true
 GAME_PATH=""
 
 for arg in "$@"; do
@@ -29,11 +33,15 @@ for arg in "$@"; do
         --local|-l)
             USE_LOCAL=true
             ;;
+        --no-mod)
+            INSTALL_MOD=false
+            ;;
         --help|-h)
             echo "Usage: ./install.sh [OPTIONS] [GAME_PATH]"
             echo ""
             echo "Options:"
             echo "  -l, --local    Use local repository translation files instead of downloading latest release"
+            echo "  --no-mod       Install translation XML files only (skip Harmony RTL support mod)"
             echo "  -h, --help     Show this help message"
             exit 0
             ;;
@@ -45,17 +53,31 @@ for arg in "$@"; do
     esac
 done
 
-# Auto-detect common Linux Steam / Game paths
+# Comprehensive candidate search list for Linux, Steam Deck & Flatpak
 CANDIDATE_PATHS=(
     "$(pwd)"
     "${SCRIPT_DIR}"
+    # Standard Steam Linux
     "${HOME}/.steam/steam/steamapps/common/RimWorld"
     "${HOME}/.local/share/Steam/steamapps/common/RimWorld"
+    # Flatpak Steam (Default on immutable distros like SteamOS / Fedora Silverblue)
     "${HOME}/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/RimWorld"
+    "${HOME}/.var/app/com.valvesoftware.Steam/data/Steam/steamapps/common/RimWorld"
+    # DRM-free / Standalone / GOG / Heroic / Lutris
     "${HOME}/Games/RimWorld"
+    "${HOME}/Games/Heroic/RimWorld"
     "${HOME}/Documents/games/RimWorld"
     "${HOME}/GOG Games/RimWorld"
+    "${HOME}/.wine/drive_c/GOG Games/RimWorld"
+    "${HOME}/.wine/drive_c/Program Files (x86)/Steam/steamapps/common/RimWorld"
 )
+
+# Detect MicroSD and external storage paths on Steam Deck
+for sd in /run/media/*/*/steamapps/common/RimWorld /run/media/deck/*/steamapps/common/RimWorld /media/"${USER:-deck}"/*/steamapps/common/RimWorld; do
+    if [[ -d "$sd" ]]; then
+        CANDIDATE_PATHS+=("$sd")
+    fi
+done
 
 if [[ -z "$GAME_PATH" ]]; then
     for CANDIDATE in "${CANDIDATE_PATHS[@]}"; do
@@ -76,7 +98,7 @@ if [[ ! -d "${GAME_PATH}/Data/Core" ]]; then
     exit 1
 fi
 
-echo -e "Installing to: ${CLR_BLUE}${GAME_PATH}${CLR_RESET}\n"
+echo -e "Detected RimWorld installation at: ${CLR_BLUE}${GAME_PATH}${CLR_RESET}\n"
 
 TEMP_DIR=""
 cleanup() {
@@ -173,10 +195,11 @@ for MOD in "${MODULES[@]}"; do
 
             cp -r "${SRC_DIR}/"* "$DEST_DIR/"
 
-            # Purge cached .tar files so RimWorld loads the fresh XMLs
+            # Purge cached .tar files so RimWorld reloads fresh XML assets
             rm -f "${GAME_PATH}/Data/${MOD}/Languages/${LANG_NAME}.tar"
             rm -f "${GAME_PATH}/Data/${MOD}/Languages/Persian.tar"
             rm -f "${GAME_PATH}/Data/${MOD}/Languages/Persian (فارسی).tar"
+            rm -f "${GAME_PATH}/Data/${MOD}/Languages/Farsi.tar"
 
             echo -e "  ${CLR_GREEN}[OK]${CLR_RESET} ${MOD} installed."
             INSTALLED_COUNT=$((INSTALLED_COUNT + 1))
@@ -192,7 +215,22 @@ if [[ "$INSTALLED_COUNT" -eq 0 ]]; then
     exit 1
 fi
 
-echo -e "\n${CLR_BOLD}======================================================================${CLR_RESET}"
-echo -e "${CLR_BOLD}${CLR_GREEN}Installation completed successfully! (${INSTALLED_COUNT} modules installed)${CLR_RESET}"
-echo -e "Launch RimWorld, navigate to Options -> Language, and choose 'Persian (فارسی)'."
-echo -e "${CLR_BOLD}======================================================================${CLR_RESET}\n"
+# Install Harmony RTL Mod into Mods/ folder if requested
+MOD_SRC="${SCRIPT_DIR}/mods/RTL_Persian_Support"
+if [[ "$INSTALL_MOD" == true && -d "$MOD_SRC" ]]; then
+    echo -e "\n${CLR_CYAN}Installing RTL Persian Support mod (Vazirmatn font & Harmony engine)...${CLR_RESET}"
+    MOD_DEST="${GAME_PATH}/Mods/RTL_Persian_Support"
+    rm -rf "$MOD_DEST"
+    mkdir -p "$MOD_DEST"
+    cp -r "${MOD_SRC}/"* "$MOD_DEST/"
+    echo -e "  ${CLR_GREEN}[OK]${CLR_RESET} RTL Persian Support mod installed to: ${CLR_BLUE}${MOD_DEST}${CLR_RESET}"
+fi
+
+echo -e "\n${CLR_BOLD}${CLR_MAGENTA}======================================================================${CLR_RESET}"
+echo -e "${CLR_BOLD}${CLR_GREEN}   Installation completed successfully! (${INSTALLED_COUNT} modules installed)${CLR_RESET}"
+echo -e "   1. Launch RimWorld."
+echo -e "   2. Navigate to: Options -> Language -> Select 'Persian (فارسی)'."
+if [[ "$INSTALL_MOD" == true ]]; then
+    echo -e "   3. (Recommended) Under 'Mods', enable 'Persian RTL Support' for Vazirmatn font and RTL alignment."
+fi
+echo -e "${CLR_BOLD}${CLR_MAGENTA}======================================================================${CLR_RESET}\n"

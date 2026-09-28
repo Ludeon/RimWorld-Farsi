@@ -16,6 +16,17 @@ namespace RTL_Persian
         public static Font OriginalFont;
         private static ModContentPack _contentPack;
 
+        // Cached Font Assets
+        private static Font _vazirmatnFont;
+        private static Font _iranianSansFont;
+        private static Font _osFont;
+
+        // Cached Base Font Sizes for Scaling
+        private static int[] _baseFontSizes;
+        private static int[] _baseTextFieldFontSizes;
+        private static int[] _baseTextAreaFontSizes;
+        private static int[] _baseTextAreaReadOnlyFontSizes;
+
         // Flags to manage updates and safety
         public static bool dirty = true;
         public static bool suppressAnchorPatch = false;
@@ -42,7 +53,7 @@ namespace RTL_Persian
             // 3. Log Active Mods
             LogLoadedMods();
 
-            // 4. Load Font
+            // 4. Load Fonts
             LoadPersianFont();
 
             // 5. Apply Harmony Patches
@@ -63,81 +74,29 @@ namespace RTL_Persian
         {
             try
             {
-                LogFile("Loading Persian font...");
+                LogFile("Loading Persian fonts...");
 
-                // Method 1: Try loading IranianSans.ttf directly using Unity's Font path creation
-                string fontPath = Path.Combine(_contentPack.RootDir, "IranianSans.ttf");
-                if (File.Exists(fontPath))
+                // Method 1: Try loading Vazirmatn.ttf (modern UI typeface)
+                _vazirmatnFont = LoadFontFile("Vazirmatn.ttf");
+
+                // Method 2: Try loading IranianSans.ttf (classic typeface)
+                _iranianSansFont = LoadFontFile("IranianSans.ttf");
+
+                // Method 3: Try loading from AssetBundle if available
+                if (_vazirmatnFont == null && _iranianSansFont == null)
                 {
-                    try
-                    {
-                        MethodInfo createFontFromPath = typeof(Font).GetMethod("Internal_CreateFontFromPath", BindingFlags.NonPublic | BindingFlags.Static);
-                        if (createFontFromPath != null)
-                        {
-                            Font font = new Font();
-                            createFontFromPath.Invoke(null, new object[] { font, fontPath });
-                            PersianFont = font;
-                            LogFile($"Successfully loaded Persian font from TTF at {fontPath}");
-                        }
-                        else
-                        {
-                            LogFile("Internal_CreateFontFromPath method not found on UnityEngine.Font.");
-                        }
-                    }
-                    catch (Exception ex)
-                    {
-                        LogFile($"Internal_CreateFontFromPath failed: {ex.Message}");
-                    }
-                }
-                else
-                {
-                    LogFile($"IranianSans.ttf not found at {fontPath}");
+                    _vazirmatnFont = LoadFontFromAssetBundle("persianfont");
                 }
 
-                // Method 2: Try loading from AssetBundle if available
-                if (PersianFont == null)
-                {
-                    string bundlePath = Path.Combine(_contentPack.RootDir, "Resources", "persianfont");
-                    if (File.Exists(bundlePath))
-                    {
-                        try
-                        {
-                            AssetBundle bundle = AssetBundle.LoadFromFile(bundlePath);
-                            if (bundle != null)
-                            {
-                                PersianFont = bundle.LoadAllAssets<Font>().FirstOrDefault();
-                                bundle.Unload(false);
-                                LogFile("Persian font loaded from AssetBundle.");
-                            }
-                        }
-                        catch (Exception ex)
-                        {
-                            LogFile($"AssetBundle load failed: {ex.Message}");
-                        }
-                    }
-                }
+                // Method 4: Fallback to OS installed Persian / Arabic fonts
+                _osFont = LoadOSFont();
 
-                // Method 3: Fallback to OS installed Persian / Arabic fonts
-                if (PersianFont == null)
-                {
-                    try
-                    {
-                        string[] fontCandidates = new string[] { "Iranian Sans", "Tahoma", "Arial", "DejaVu Sans", "Segoe UI" };
-                        PersianFont = Font.CreateDynamicFontFromOSFont(fontCandidates, 16);
-                        if (PersianFont != null)
-                        {
-                            LogFile("Persian font dynamically created from OS fonts fallback.");
-                        }
-                    }
-                    catch (Exception ex)
-                    {
-                        LogFile($"OS font fallback failed: {ex.Message}");
-                    }
-                }
+                // Select active font according to user settings
+                UpdateSelectedFont();
 
                 if (PersianFont != null)
                 {
-                    LogFile($"Persian font ready: {PersianFont.name}");
+                    LogFile($"Active Persian font ready: {PersianFont.name}");
                 }
                 else
                 {
@@ -151,9 +110,160 @@ namespace RTL_Persian
             }
         }
 
+        private static Font LoadFontFile(string filename)
+        {
+            try
+            {
+                string fontPath = Path.Combine(_contentPack.RootDir, filename);
+                if (!File.Exists(fontPath))
+                {
+                    LogFile($"Font file {filename} not found at {fontPath}");
+                    return null;
+                }
+
+                MethodInfo createFontFromPath = typeof(Font).GetMethod("Internal_CreateFontFromPath", BindingFlags.NonPublic | BindingFlags.Static);
+                if (createFontFromPath != null)
+                {
+                    Font font = new Font();
+                    createFontFromPath.Invoke(null, new object[] { font, fontPath });
+                    font.name = Path.GetFileNameWithoutExtension(filename);
+                    LogFile($"Successfully loaded font from TTF at {fontPath}");
+                    return font;
+                }
+                else
+                {
+                    LogFile("Internal_CreateFontFromPath method not found on UnityEngine.Font.");
+                }
+            }
+            catch (Exception ex)
+            {
+                LogFile($"Internal_CreateFontFromPath failed for {filename}: {ex.Message}");
+            }
+            return null;
+        }
+
+        private static Font LoadFontFromAssetBundle(string bundleName)
+        {
+            try
+            {
+                string bundlePath = Path.Combine(_contentPack.RootDir, "Resources", bundleName);
+                if (File.Exists(bundlePath))
+                {
+                    AssetBundle bundle = AssetBundle.LoadFromFile(bundlePath);
+                    if (bundle != null)
+                    {
+                        Font font = bundle.LoadAllAssets<Font>().FirstOrDefault();
+                        bundle.Unload(false);
+                        LogFile($"Font loaded from AssetBundle {bundleName}");
+                        return font;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                LogFile($"AssetBundle {bundleName} load failed: {ex.Message}");
+            }
+            return null;
+        }
+
+        private static Font LoadOSFont()
+        {
+            try
+            {
+                string[] fontCandidates = new string[] { "Vazirmatn", "Iranian Sans", "Tahoma", "Arial", "DejaVu Sans", "Segoe UI" };
+                Font font = Font.CreateDynamicFontFromOSFont(fontCandidates, 16);
+                if (font != null)
+                {
+                    font.name = "OS_Dynamic_Persian";
+                    LogFile("Persian font dynamically created from OS fonts fallback.");
+                    return font;
+                }
+            }
+            catch (Exception ex)
+            {
+                LogFile($"OS font fallback failed: {ex.Message}");
+            }
+            return null;
+        }
+
+        public static void UpdateSelectedFont()
+        {
+            Mod_RTL_Persian_Support mod = LoadedModManager.GetMod<Mod_RTL_Persian_Support>();
+            PersianFontChoice choice = mod?.settings?.selectedFont ?? PersianFontChoice.Vazirmatn;
+
+            switch (choice)
+            {
+                case PersianFontChoice.IranianSans:
+                    PersianFont = _iranianSansFont ?? _vazirmatnFont ?? _osFont;
+                    break;
+                case PersianFontChoice.SystemDefault:
+                    PersianFont = _osFont ?? _vazirmatnFont ?? _iranianSansFont;
+                    break;
+                case PersianFontChoice.Vazirmatn:
+                default:
+                    PersianFont = _vazirmatnFont ?? _iranianSansFont ?? _osFont;
+                    break;
+            }
+        }
+
+        private static void CacheBaseFontSizes()
+        {
+            if (_baseFontSizes == null && Text.fontStyles != null)
+            {
+                _baseFontSizes = new int[Text.fontStyles.Length];
+                for (int i = 0; i < Text.fontStyles.Length; i++)
+                {
+                    _baseFontSizes[i] = Text.fontStyles[i]?.fontSize ?? 0;
+                }
+            }
+            if (_baseTextFieldFontSizes == null && Text.textFieldStyles != null)
+            {
+                _baseTextFieldFontSizes = new int[Text.textFieldStyles.Length];
+                for (int i = 0; i < Text.textFieldStyles.Length; i++)
+                {
+                    _baseTextFieldFontSizes[i] = Text.textFieldStyles[i]?.fontSize ?? 0;
+                }
+            }
+            if (_baseTextAreaFontSizes == null && Text.textAreaStyles != null)
+            {
+                _baseTextAreaFontSizes = new int[Text.textAreaStyles.Length];
+                for (int i = 0; i < Text.textAreaStyles.Length; i++)
+                {
+                    _baseTextAreaFontSizes[i] = Text.textAreaStyles[i]?.fontSize ?? 0;
+                }
+            }
+            if (_baseTextAreaReadOnlyFontSizes == null && Text.textAreaReadOnlyStyles != null)
+            {
+                _baseTextAreaReadOnlyFontSizes = new int[Text.textAreaReadOnlyStyles.Length];
+                for (int i = 0; i < Text.textAreaReadOnlyStyles.Length; i++)
+                {
+                    _baseTextAreaReadOnlyFontSizes[i] = Text.textAreaReadOnlyStyles[i]?.fontSize ?? 0;
+                }
+            }
+        }
+
+        private static void ApplyStyleFontsAndSizes(GUIStyle[] styles, int[] baseSizes, Font font, float scale)
+        {
+            if (styles == null) return;
+            for (int i = 0; i < styles.Length; i++)
+            {
+                if (styles[i] == null) continue;
+                if (font != null)
+                {
+                    styles[i].font = font;
+                }
+                if (baseSizes != null && i < baseSizes.Length && baseSizes[i] > 0)
+                {
+                    styles[i].fontSize = Mathf.RoundToInt(baseSizes[i] * scale);
+                }
+            }
+        }
+
         public static void ApplyChanges()
         {
             if (GUI.skin == null) return;
+
+            CacheBaseFontSizes();
 
             bool isPersian = LanguageDatabase.activeLanguage?.folderName == "Persian";
             LogFile($"Applying GUI changes. IsPersian: {isPersian}");
@@ -161,6 +271,7 @@ namespace RTL_Persian
             Mod_RTL_Persian_Support mod = LoadedModManager.GetMod<Mod_RTL_Persian_Support>();
             bool enableFont = mod == null || mod.settings.enablePersianFont;
             bool enableRTL = mod != null && mod.settings.enableRTLAlignment;
+            float fontScale = mod?.settings?.fontScale ?? 1.0f;
 
             if (isPersian)
             {
@@ -172,13 +283,17 @@ namespace RTL_Persian
                     GUI.skin.textArea.alignment = TextAnchor.UpperRight;
                 }
 
-                if (enableFont && PersianFont != null)
+                if (enableFont)
                 {
-                    if (OriginalFont == null && Text.fontStyles.Length > 0 && Text.fontStyles[0] != null)
+                    UpdateSelectedFont();
+                    if (PersianFont != null)
                     {
-                        OriginalFont = Text.fontStyles[0].font;
+                        if (OriginalFont == null && Text.fontStyles != null && Text.fontStyles.Length > 0 && Text.fontStyles[0] != null)
+                        {
+                            OriginalFont = Text.fontStyles[0].font;
+                        }
+                        SetGameFont(PersianFont, fontScale);
                     }
-                    SetGameFont(PersianFont);
                 }
             }
             else
@@ -190,27 +305,33 @@ namespace RTL_Persian
 
                 if (OriginalFont != null)
                 {
-                    SetGameFont(OriginalFont);
+                    SetGameFont(OriginalFont, 1.0f);
                 }
             }
         }
 
-        private static void SetGameFont(Font font)
+        private static readonly FieldInfo _fontsField = typeof(Text).GetField("fonts", BindingFlags.NonPublic | BindingFlags.Static);
+
+        private static void SetGameFont(Font font, float scale = 1.0f)
         {
             if (font == null) return;
 
-            for (int i = 0; i < Text.fontStyles.Length; i++)
+            if (_fontsField != null)
             {
-                if (Text.fontStyles[i] != null) Text.fontStyles[i].font = font;
+                Font[] fontsArr = (Font[])_fontsField.GetValue(null);
+                if (fontsArr != null)
+                {
+                    for (int i = 0; i < fontsArr.Length; i++)
+                    {
+                        fontsArr[i] = font;
+                    }
+                }
             }
-            for (int i = 0; i < Text.textFieldStyles.Length; i++)
-            {
-                if (Text.textFieldStyles[i] != null) Text.textFieldStyles[i].font = font;
-            }
-            for (int i = 0; i < Text.textAreaStyles.Length; i++)
-            {
-                if (Text.textAreaStyles[i] != null) Text.textAreaStyles[i].font = font;
-            }
+
+            ApplyStyleFontsAndSizes(Text.fontStyles, _baseFontSizes, font, scale);
+            ApplyStyleFontsAndSizes(Text.textFieldStyles, _baseTextFieldFontSizes, font, scale);
+            ApplyStyleFontsAndSizes(Text.textAreaStyles, _baseTextAreaFontSizes, font, scale);
+            ApplyStyleFontsAndSizes(Text.textAreaReadOnlyStyles, _baseTextAreaReadOnlyFontSizes, font, scale);
         }
 
         private static void InitDebugLog()
@@ -481,18 +602,30 @@ namespace RTL_Persian
         }
     }
 
+    // Font Choice Enum
+    public enum PersianFontChoice
+    {
+        Vazirmatn = 0,
+        IranianSans = 1,
+        SystemDefault = 2
+    }
+
     // Mod Settings
     public class ModSettings_RTL_Persian_Support : ModSettings
     {
         public bool enablePersianFont = true;
         public bool enableRTLAlignment = true;
         public bool enablePersianFixer = true;
+        public PersianFontChoice selectedFont = PersianFontChoice.Vazirmatn;
+        public float fontScale = 1.0f;
 
         public override void ExposeData()
         {
             Scribe_Values.Look(ref enablePersianFont, "enablePersianFont", true);
             Scribe_Values.Look(ref enableRTLAlignment, "enableRTLAlignment", true);
             Scribe_Values.Look(ref enablePersianFixer, "enablePersianFixer", true);
+            Scribe_Values.Look(ref selectedFont, "selectedFont", PersianFontChoice.Vazirmatn);
+            Scribe_Values.Look(ref fontScale, "fontScale", 1.0f);
         }
     }
 
@@ -510,9 +643,51 @@ namespace RTL_Persian
         {
             Listing_Standard listing = new Listing_Standard();
             listing.Begin(inRect);
+
             listing.CheckboxLabeled("Enable Persian font (default: Enabled)", ref settings.enablePersianFont);
             listing.CheckboxLabeled("Enable RTL text alignments (default: Enabled)", ref settings.enableRTLAlignment);
             listing.CheckboxLabeled("Enable Persian text fixing (letter shaping, default: Enabled)", ref settings.enablePersianFixer);
+
+            listing.Gap(12f);
+            listing.Label("Persian Typeface / قلم فارسی:");
+            if (listing.RadioButton("Vazirmatn (وزیرمتن - Modern UI, Recommended)", settings.selectedFont == PersianFontChoice.Vazirmatn))
+            {
+                if (settings.selectedFont != PersianFontChoice.Vazirmatn)
+                {
+                    settings.selectedFont = PersianFontChoice.Vazirmatn;
+                    RTL_Support.UpdateSelectedFont();
+                    RTL_Support.dirty = true;
+                }
+            }
+            if (listing.RadioButton("Iranian Sans (ایرانیان سنس - Classic)", settings.selectedFont == PersianFontChoice.IranianSans))
+            {
+                if (settings.selectedFont != PersianFontChoice.IranianSans)
+                {
+                    settings.selectedFont = PersianFontChoice.IranianSans;
+                    RTL_Support.UpdateSelectedFont();
+                    RTL_Support.dirty = true;
+                }
+            }
+            if (listing.RadioButton("System / OS Default (قلم سیستم)", settings.selectedFont == PersianFontChoice.SystemDefault))
+            {
+                if (settings.selectedFont != PersianFontChoice.SystemDefault)
+                {
+                    settings.selectedFont = PersianFontChoice.SystemDefault;
+                    RTL_Support.UpdateSelectedFont();
+                    RTL_Support.dirty = true;
+                }
+            }
+
+            listing.Gap(12f);
+            int scalePct = Mathf.RoundToInt(settings.fontScale * 100);
+            string scaleLabel = $"Font Scale: {scalePct}% (Steam Deck / Handheld: 110%-120%)";
+            float newScale = listing.SliderLabeled(scaleLabel, settings.fontScale, 0.8f, 1.4f, 0.5f);
+            if (Mathf.Abs(newScale - settings.fontScale) > 0.01f)
+            {
+                settings.fontScale = (float)Math.Round(newScale, 2);
+                RTL_Support.dirty = true;
+            }
+
             listing.End();
         }
 
