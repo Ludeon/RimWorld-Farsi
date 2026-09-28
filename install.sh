@@ -21,9 +21,31 @@ echo -e "${CLR_BOLD}============================================================
 echo -e "${CLR_BOLD}${CLR_CYAN}    RimWorld Persian (فارسی) Translation Installer (Linux/Steam Deck)${CLR_RESET}"
 echo -e "${CLR_BOLD}======================================================================${CLR_RESET}\n"
 
+USE_LOCAL=false
 GAME_PATH=""
 
-# Auto-detect common Linux Steam paths
+for arg in "$@"; do
+    case "$arg" in
+        --local|-l)
+            USE_LOCAL=true
+            ;;
+        --help|-h)
+            echo "Usage: ./install.sh [OPTIONS] [GAME_PATH]"
+            echo ""
+            echo "Options:"
+            echo "  -l, --local    Use local repository translation files instead of downloading latest release"
+            echo "  -h, --help     Show this help message"
+            exit 0
+            ;;
+        *)
+            if [[ -z "$GAME_PATH" ]]; then
+                GAME_PATH="$arg"
+            fi
+            ;;
+    esac
+done
+
+# Auto-detect common Linux Steam / Game paths
 CANDIDATE_PATHS=(
     "$(pwd)"
     "${SCRIPT_DIR}"
@@ -35,9 +57,7 @@ CANDIDATE_PATHS=(
     "${HOME}/GOG Games/RimWorld"
 )
 
-if [[ $# -gt 0 ]]; then
-    GAME_PATH="$1"
-else
+if [[ -z "$GAME_PATH" ]]; then
     for CANDIDATE in "${CANDIDATE_PATHS[@]}"; do
         if [[ -d "${CANDIDATE}/Data/Core" ]]; then
             GAME_PATH="${CANDIDATE}"
@@ -66,69 +86,98 @@ cleanup() {
 }
 trap cleanup EXIT
 
-SRC_BASE="${SCRIPT_DIR}"
+SRC_BASE=""
 
-# Check if local translation files exist, or download them from GitHub
-if [[ ! -d "${SRC_BASE}/Core" ]]; then
-    echo -e "${CLR_YELLOW}Translation files not found in: ${SRC_BASE}${CLR_RESET}"
-    echo -e "${CLR_CYAN}Downloading latest translation pack from GitHub...${CLR_RESET}"
+# If not forced to use local files, download latest processed release package from GitHub
+if [[ "$USE_LOCAL" != true ]]; then
+    echo -e "${CLR_CYAN}Checking for latest Persian translation release on GitHub...${CLR_RESET}"
 
-    TEMP_DIR="$(mktemp -d /tmp/rimworld_farsi_XXXXXX)"
-    DOWNLOAD_SUCCESS=false
-
-    DOWNLOAD_URLS=(
-        "https://github.com/Ludeon/RimWorld-Farsi/archive/refs/heads/beta.tar.gz"
-        "https://github.com/Ludeon/RimWorld-Farsi/archive/refs/heads/master.tar.gz"
-    )
-
+    RELEASE_JSON=""
     if command -v curl &>/dev/null; then
-        for URL in "${DOWNLOAD_URLS[@]}"; do
-            if curl -sSL "$URL" | tar -xz -C "$TEMP_DIR" --strip-components=1 2>/dev/null; then
-                DOWNLOAD_SUCCESS=true
-                break
-            fi
-        done
+        RELEASE_JSON=$(curl -sSL -H "User-Agent: RimWorld-Farsi-Installer" "https://api.github.com/repos/Ludeon/RimWorld-Farsi/releases/latest" 2>/dev/null || true)
     elif command -v wget &>/dev/null; then
-        for URL in "${DOWNLOAD_URLS[@]}"; do
-            if wget -qO- "$URL" | tar -xz -C "$TEMP_DIR" --strip-components=1 2>/dev/null; then
-                DOWNLOAD_SUCCESS=true
-                break
-            fi
-        done
+        RELEASE_JSON=$(wget -qO- --user-agent="RimWorld-Farsi-Installer" "https://api.github.com/repos/Ludeon/RimWorld-Farsi/releases/latest" 2>/dev/null || true)
     fi
 
-    if [[ "$DOWNLOAD_SUCCESS" != true ]] && command -v git &>/dev/null; then
-        if git clone --depth 1 -b beta https://github.com/Ludeon/RimWorld-Farsi.git "$TEMP_DIR" 2>/dev/null || \
-           git clone --depth 1 https://github.com/Ludeon/RimWorld-Farsi.git "$TEMP_DIR" 2>/dev/null; then
-            DOWNLOAD_SUCCESS=true
+    ZIP_URL=$(echo "$RELEASE_JSON" | grep -o 'https://[^"]*persian-language-[^"]*\.zip' | head -n 1 || true)
+
+    if [[ -n "$ZIP_URL" ]]; then
+        TEMP_DIR="$(mktemp -d /tmp/rimworld_farsi_XXXXXX)"
+        echo -e "Downloading latest release package: ${CLR_BLUE}${ZIP_URL}${CLR_RESET}"
+
+        DOWNLOADED=false
+        if command -v curl &>/dev/null; then
+            if curl -sSL "$ZIP_URL" -o "${TEMP_DIR}/release.zip"; then
+                DOWNLOADED=true
+            fi
+        elif command -v wget &>/dev/null; then
+            if wget -qO "${TEMP_DIR}/release.zip" "$ZIP_URL"; then
+                DOWNLOADED=true
+            fi
+        fi
+
+        if [[ "$DOWNLOADED" == true && -f "${TEMP_DIR}/release.zip" ]]; then
+            echo -e "Extracting translation files..."
+            EXTRACTED=false
+            if command -v unzip &>/dev/null; then
+                if unzip -q "${TEMP_DIR}/release.zip" -d "${TEMP_DIR}/extracted"; then
+                    EXTRACTED=true
+                fi
+            elif command -v python3 &>/dev/null; then
+                if python3 -m zipfile -e "${TEMP_DIR}/release.zip" "${TEMP_DIR}/extracted"; then
+                    EXTRACTED=true
+                fi
+            fi
+
+            if [[ "$EXTRACTED" == true && -d "${TEMP_DIR}/extracted" ]]; then
+                SRC_BASE="${TEMP_DIR}/extracted"
+                echo -e "${CLR_GREEN}Latest processed translation package downloaded and ready.${CLR_RESET}\n"
+            fi
         fi
     fi
+fi
 
-    if [[ "$DOWNLOAD_SUCCESS" != true || ! -d "${TEMP_DIR}/Core" ]]; then
-        echo -e "${CLR_RED}Error:${CLR_RESET} Failed to download translation files from GitHub." >&2
-        echo -e "Please ensure you have an active internet connection (curl, wget, or git), or" >&2
-        echo -e "download the full repository manually from: https://github.com/Ludeon/RimWorld-Farsi" >&2
+# Fallback to local translation repository if download was skipped or failed
+if [[ -z "$SRC_BASE" ]]; then
+    if [[ -d "${SCRIPT_DIR}/Core" ]]; then
+        echo -e "${CLR_YELLOW}Using local repository translation files from: ${SCRIPT_DIR}${CLR_RESET}\n"
+        SRC_BASE="${SCRIPT_DIR}"
+    else
+        echo -e "${CLR_RED}Error:${CLR_RESET} Failed to fetch release from GitHub and no local translation files found in: ${SCRIPT_DIR}" >&2
+        echo -e "Please check your internet connection or download manually from: https://github.com/Ludeon/RimWorld-Farsi/releases" >&2
         exit 1
     fi
-
-    SRC_BASE="$TEMP_DIR"
-    echo -e "${CLR_GREEN}Download completed successfully.${CLR_RESET}\n"
 fi
 
 INSTALLED_COUNT=0
 
 for MOD in "${MODULES[@]}"; do
     SRC_DIR="${SRC_BASE}/${MOD}"
+
+    # Handle nested module directories from build artifacts (e.g. Core/Core/DefInjected)
+    if [[ -d "${SRC_DIR}/${MOD}" && ( -d "${SRC_DIR}/${MOD}/DefInjected" || -d "${SRC_DIR}/${MOD}/Keyed" || -f "${SRC_DIR}/${MOD}/LanguageInfo.xml" ) ]]; then
+        SRC_DIR="${SRC_DIR}/${MOD}"
+    fi
+
     DEST_DIR="${GAME_PATH}/Data/${MOD}/Languages/${LANG_NAME}"
+    OLD_DEST_DIR="${GAME_PATH}/Data/${MOD}/Languages/Persian"
 
     if [[ -d "$SRC_DIR" ]]; then
         if [[ -d "${GAME_PATH}/Data/${MOD}" ]]; then
             echo -e "Installing module: ${CLR_CYAN}${MOD}${CLR_RESET}..."
+
+            # Overwrite previous installation completely
             rm -rf "$DEST_DIR"
+            rm -rf "$OLD_DEST_DIR"
             mkdir -p "$DEST_DIR"
+
             cp -r "${SRC_DIR}/"* "$DEST_DIR/"
+
+            # Purge cached .tar files so RimWorld loads the fresh XMLs
             rm -f "${GAME_PATH}/Data/${MOD}/Languages/${LANG_NAME}.tar"
             rm -f "${GAME_PATH}/Data/${MOD}/Languages/Persian.tar"
+            rm -f "${GAME_PATH}/Data/${MOD}/Languages/Persian (فارسی).tar"
+
             echo -e "  ${CLR_GREEN}[OK]${CLR_RESET} ${MOD} installed."
             INSTALLED_COUNT=$((INSTALLED_COUNT + 1))
         else
