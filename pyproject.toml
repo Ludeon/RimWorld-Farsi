@@ -26,6 +26,14 @@ dev = [
     "pip-audit>=2.0.0",
 ]
 
+[tool.black]
+line-length = 88
+target-version = ["py311", "py312", "py313"]
+
+[tool.isort]
+profile = "black"
+line_length = 88
+
 [tool.ruff]
 line-length = 88
 target-version = "py312"
