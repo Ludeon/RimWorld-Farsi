@@ -47,7 +47,7 @@ def run_qa_suite(
     print("======================================================================\n")
 
     # Gate 1: XML Well-formedness
-    print("\033[1m[Gate 1/4] Checking XML Well-formedness...\033[0m")
+    print("\033[1m[Gate 1/5] Checking XML Well-formedness...\033[0m")
     xml_files: list[Path] = []
     for dlc in active_dlcs:
         dlc_p = repo_root / dlc
@@ -69,7 +69,7 @@ def run_qa_suite(
         print(f"  \033[92m[PASS] All {len(xml_files)} XML translation files are well-formed.\033[0m\n")
 
     # Gate 2: Format Tokens & Placeholders
-    print("\033[1m[Gate 2/4] Checking Format Tokens & Placeholder Integrity...\033[0m")
+    print("\033[1m[Gate 2/5] Checking Format Tokens & Placeholder Integrity...\033[0m")
     placeholder_errs = check_all_placeholders(repo_root, dlcs=active_dlcs)
     if placeholder_errs:
         total_failures += len(placeholder_errs)
@@ -86,7 +86,7 @@ def run_qa_suite(
         print("  \033[92m[PASS] All positional tokens, named variables, and macros are valid.\033[0m\n")
 
     # Gate 3: Persian Typography & ZWNJ Rules
-    print("\033[1m[Gate 3/4] Checking Persian Typography, Codepoints & ZWNJ...\033[0m")
+    print("\033[1m[Gate 3/5] Checking Persian Typography, Codepoints & ZWNJ...\033[0m")
     typo_defects, files_fixed = check_all_typography(repo_root, dlcs=active_dlcs, auto_fix=auto_fix)
     if typo_defects and not auto_fix:
         total_failures += len(typo_defects)
@@ -105,7 +105,7 @@ def run_qa_suite(
         print("  \033[92m[PASS] All Persian characters, punctuation, and ZWNJ rules are valid.\033[0m\n")
 
     # Gate 4: ReportString Trailing Period Rules
-    print("\033[1m[Gate 4/4] Checking ReportString Trailing Periods...\033[0m")
+    print("\033[1m[Gate 4/5] Checking ReportString Trailing Periods...\033[0m")
     report_defects, rep_fixed = check_all_report_strings(repo_root, dlcs=active_dlcs, auto_fix=auto_fix)
     if report_defects and not auto_fix:
         total_failures += len(report_defects)
@@ -121,10 +121,32 @@ def run_qa_suite(
     else:
         print("  \033[92m[PASS] No reportString elements have trailing periods.\033[0m\n")
 
+    # Gate 5: Community Terminology Harmonization
+    print("\033[1m[Gate 5/5] Checking Community Terminology Harmonization...\033[0m")
+    from check_terminology import TerminologyChecker
+    term_checker = TerminologyChecker(root_dir=repo_root)
+    term_violations = term_checker.run_check(modules=active_dlcs, fix=auto_fix)
+    if term_violations and not auto_fix:
+        total_failures += len(term_violations)
+        print(f"  \033[91m[FAIL] Found {len(term_violations)} non-canonical terminology violation(s):\033[0m")
+        for v in term_violations[:15]:
+            rel_p = v.file_path.relative_to(repo_root) if v.file_path.is_relative_to(repo_root) else v.file_path
+            msg = f"Non-canonical term '{v.matched_text}' for {v.context_desc}. Recommended: '{v.replacement}'"
+            if github:
+                print(f"::error file={rel_p},line={v.line_number},title=Terminology Violation::{msg}")
+            else:
+                print(f"    - {rel_p}:{v.line_number} (<{v.tag_name}>): {msg}")
+        if len(term_violations) > 15:
+            print(f"    ... and {len(term_violations) - 15} more (run with --fix to repair)")
+    elif term_violations and auto_fix:
+        print(f"  \033[92m[PASS] Automatically harmonized {len(term_violations)} term(s).\033[0m\n")
+    else:
+        print("  \033[92m[PASS] 100% compliant with canonical glossary (AGENTS.md).\033[0m\n")
+
     elapsed = time.time() - start_time
     print("======================================================================")
     if total_failures == 0:
-        print(f"\033[92mQA RESULT: PASSED (All 4 gates passed in {elapsed:.2f}s)\033[0m")
+        print(f"\033[92mQA RESULT: PASSED (All 5 gates passed in {elapsed:.2f}s)\033[0m")
         print("======================================================================")
         return 0
     else:

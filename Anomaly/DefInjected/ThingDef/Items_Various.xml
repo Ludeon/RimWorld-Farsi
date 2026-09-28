@@ -16,7 +16,7 @@
   <!-- EN: Choose who should analyze this -->
   <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.guiLabelString>فرد تحلیل‌کننده را انتخاب کنید</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.guiLabelString>
   <!-- EN: Can be analyzed by a colonist. -->
-  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.inspectString>توسط کلونیست قابل تحلیل است.</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.inspectString>
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.inspectString>توسط استعمارگر قابل تحلیل است.</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.inspectString>
   <!-- EN: Analyze neural lump -->
   <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.jobString>تحلیل گره عصبی</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.jobString>
   <!-- EN: Analysis progress -->
@@ -39,7 +39,7 @@
   <!-- EN: Golden cube study complete -->
   <GoldenCube.comps.CompStudyUnlocks.studyNotes.1.label>مطالعه مکعب طلایی کامل شد</GoldenCube.comps.CompStudyUnlocks.studyNotes.1.label>
   <!-- EN: {PAWN_nameDef}'s investigation of the golden cube has revealed that it can be deactivated using an archotech shard. Doing so will destroy the cube, breaking its psychic hold over your colonists.\n\nHowever, the psychic whiplash from the cube's destruction will send any cube-interested people into a berserk rage. Those in caravans will abandon your colony entirely.\n\nSelect the golden cube to deactivate it. -->
-  <GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>بررسی‌های {PAWN_nameDef} نشان داده که می‌توان با استفاده از یک تکه آرکوتک مکعب طلایی را غیرفعال کرد. این کار مکعب را نابود کرده و سلطه روانی آن بر کلونیست‌هایتان را می‌شکند.\n\nبا این حال، شوک روانی ناشی از نابودی مکعب افراد علاقه‌مند به مکعب را به خشم و جنون می‌کشاند. افرادی که در کاروان‌ها هستند کلونی شما را به کلی ترک خواهند کرد.\n\nمکعب طلایی را برای غیرفعال کردن انتخاب کنید.</GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>
+  <GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>بررسی‌های {PAWN_nameDef} نشان داده که می‌توان با استفاده از یک تکه آرکوتک مکعب طلایی را غیرفعال کرد. این کار مکعب را نابود کرده و سلطه روانی آن بر استعمارگر‌هایتان را می‌شکند.\n\nبا این حال، شوک روانی ناشی از نابودی مکعب افراد علاقه‌مند به مکعب را به خشم و جنون می‌کشاند. افرادی که در کاروان‌ها هستند کلونی شما را به کلی ترک خواهند کرد.\n\nمکعب طلایی را برای غیرفعال کردن انتخاب کنید.</GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>
   <!-- EN: Destroy the golden cube, breaking its psychic hold. This will cause any cube-interested people to enter a temporary berserk rage. If they're in a caravan, they will be permanently lost.\n\nRequires 1 shard. -->
   <GoldenCube.comps.CompGoldenCube.activateDescString>مکعب طلایی را نابود کنید تا چنگال روانی آن شکسته شود. این کار سبب خشم موقت افراد وابسته به مکعب می‌شود. اگر در کاروان باشند، برای همیشه گم می‌شوند.\n\nنیازمند ۱ تکه آرکوتک.</GoldenCube.comps.CompGoldenCube.activateDescString>
   <!-- EN: Deactivate golden cube -->
@@ -68,7 +68,7 @@
   <!-- EN: Choose who should analyze this -->
   <GrayFleshSample.comps.CompAnalyzableBiosignature.guiLabelString>فرد تحلیل‌کننده را انتخاب کنید</GrayFleshSample.comps.CompAnalyzableBiosignature.guiLabelString>
   <!-- EN: Can be analyzed by a colonist. -->
-  <GrayFleshSample.comps.CompAnalyzableBiosignature.inspectString>توسط کلونیست قابل تحلیل است.</GrayFleshSample.comps.CompAnalyzableBiosignature.inspectString>
+  <GrayFleshSample.comps.CompAnalyzableBiosignature.inspectString>توسط استعمارگر قابل تحلیل است.</GrayFleshSample.comps.CompAnalyzableBiosignature.inspectString>
   <!-- EN: Analyze gray flesh sample -->
   <GrayFleshSample.comps.CompAnalyzableBiosignature.jobString>تحلیل نمونه گوشت خاکستری</GrayFleshSample.comps.CompAnalyzableBiosignature.jobString>
   <!-- EN: Analysis progress -->
@@ -99,13 +99,13 @@
   <!-- EN: Analyze... -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateLabelString>تحلیل...</RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateLabelString>
   <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with biosignature {BIOSIGNATURE}.\n\n{PAWN_pronoun} has learned more about this specific revenant's biology and its method of hiding from sight. Your colonists can now see this revenant when it is nearby.\n\nPerhaps you'll be able to find it and kill it while it sleeps. -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.completedLetter>{PAWN_nameDef} تحلیل تکه گوشت روونانت با مشخصه زیستی {BIOSIGNATURE} را به پایان رساند.\n\nاو درباره زیست‌شناسی این روونانت خاص و روش پنهان شدنش از دید آموخته است. کلونیست‌های شما اکنون می‌توانند این روونانت را در صورت نزدیک بودن ببینند.\n\nشاید بتوانید آن را بیابید و هنگام خواب از پای درآورید.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.completedLetter>
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.completedLetter>{PAWN_nameDef} تحلیل تکه گوشت روونانت با مشخصه زیستی {BIOSIGNATURE} را به پایان رساند.\n\nاو درباره زیست‌شناسی این روونانت خاص و روش پنهان شدنش از دید آموخته است. استعمارگر‌های شما اکنون می‌توانند این روونانت را در صورت نزدیک بودن ببینند.\n\nشاید بتوانید آن را بیابید و هنگام خواب از پای درآورید.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.completedLetter>
   <!-- EN: Analysis progress -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.completedLetterLabel>پیشرفت تحلیل</RevenantFleshChunk.comps.CompAnalyzableBiosignature.completedLetterLabel>
   <!-- EN: Choose who should analyze this -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.guiLabelString>فرد تحلیل‌کننده را انتخاب کنید</RevenantFleshChunk.comps.CompAnalyzableBiosignature.guiLabelString>
   <!-- EN: Can be analyzed by a colonist. -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.inspectString>توسط کلونیست قابل تحلیل است.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.inspectString>
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.inspectString>توسط استعمارگر قابل تحلیل است.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.inspectString>
   <!-- EN: Analyze revenant flesh chunk -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.jobString>تحلیل تکه گوشت روونانت</RevenantFleshChunk.comps.CompAnalyzableBiosignature.jobString>
   <!-- EN: Analysis progress -->
@@ -113,7 +113,7 @@
   <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with biosignature {BIOSIGNATURE}.\n\n{PAWN_pronoun} learned more about this particular revenant's biology and how to identify fluids it leaves behind.\n\nThis revenant will now leave a much longer trail of visible smudges when it flees.\n\nPerhaps you'll be able to find it and kill it while it sleeps. You can track it by smears it leaves behind, and reveal it with disruptor flares, explosives, EMP, firefoam, or fire. -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>{PAWN_nameDef} تحلیل تکه گوشت روونانت با مشخصه زیستی {BIOSIGNATURE} را به پایان رساند.\n\nاو درباره زیست‌شناسی این روونانت و شناسایی ترشحات برجای‌مانده از آن اطلاعات بیشتری کسب کرد.\n\nاین روونانت اکنون هنگام فرار رد پای طولانی‌تری از لکه‌های مرئی بر جای می‌گذارد.\n\nمی‌توانید با ردگیری لکه‌ها آن را یافته و با منورهای اخلال‌گر، مواد منفجره، EMP، فوم آتش‌نشانی یا آتش آشکارش کنید.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>
   <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with biosignature {BIOSIGNATURE}.\n\n{PAWN_pronoun} has learned more about this specific revenant's biology and the vocalizations it makes. Your colonists can now hear this revenant when it is nearby. If you go hunting the revenant and get close, you'll be notified which colonists can hear it.\n\nPerhaps you'll be able to find it and kill it while it sleeps. You can track it by smears it leaves behind, and reveal it with disruptor flares, explosives, EMP, firefoam, or fire. -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>{PAWN_nameDef} تحلیل تکه گوشت روونانت را به پایان رساند.\n\nاو درباره زیست‌شناسی این روونانت و صداهای تولیدی آن اطلاعات بیشتری به دست آورد. کلونیست‌های شما اکنون می‌توانند صدای این روونانت را در نزدیکی بشنوند. هنگام شکار اگر به آن نزدیک شوید، مطلع خواهید شد کدام کلونیست صدایش را می‌شنود.\n\nمی‌توانید با ردیابی ترشحات و استفاده از منورها یا آتش آن را آشکار سازید.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>{PAWN_nameDef} تحلیل تکه گوشت روونانت را به پایان رساند.\n\nاو درباره زیست‌شناسی این روونانت و صداهای تولیدی آن اطلاعات بیشتری به دست آورد. استعمارگر‌های شما اکنون می‌توانند صدای این روونانت را در نزدیکی بشنوند. هنگام شکار اگر به آن نزدیک شوید، مطلع خواهید شد کدام استعمارگر صدایش را می‌شنود.\n\nمی‌توانید با ردیابی ترشحات و استفاده از منورها یا آتش آن را آشکار سازید.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>
   <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with the previously studied biosignature {BIOSIGNATURE}.\n\nYour colonists can now see this revenant when it is nearby. Perhaps you'll be able to find it and kill it while it's sleeping. -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetter>{PAWN_nameDef} تحلیل تکه گوشت روونانت با مشخصه {BIOSIGNATURE} که قبلاً مطالعه شده بود را پایان داد.\n\nکلونیست‌های شما اکنون می‌توانند این روونانت را در نزدیکی ببینند. شاید بتوانید در خواب آن را نابود کنید.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetter>
   <!-- EN: Analysis complete -->

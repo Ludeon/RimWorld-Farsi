@@ -4,7 +4,7 @@
   <!-- EN: Uncontrolled mechs -->
   <AlertMechLacksOverseer>مکانیویدهای کنترل نشده</AlertMechLacksOverseer>
   <!-- EN: One or more of your mechanoids is not controlled. Connect your mechanoids to a mechanitor with sufficient bandwidth to control them.\n\nIf left uncontrolled for more than a day, a mechanoid could go feral. When this happens they will join {0} and become hostile to you. If one mechanoid goes feral, it will bring other nearby mechanoids with it.\n\nFeral mechanoids cannot be resurrected at a gestator when killed. -->
-  <AlertMechLacksOverseerDesc>یک یا چند مکانیوید شما کنترل نشده‌اند. مکانیویدهای خود را به یک مکانیتور با پهنای باند کافی برای کنترل آن‌ها متصل کنید.\n\nاگر بیش از یک روز کنترل نشده بمانند، یک مکانیوید می‌تواند وحشی شود. هنگامی که این اتفاق می‌افتد، آن‌ها به {0} می‌پیوندند و نسبت به شما خصمانه می‌شوند. اگر یک مکانیوید وحشی شود، مکانیویدهای نزدیک دیگر را نیز با خود می‌آورد.\n\nمکانیویدهای وحشی را نمی‌توان پس از کشته شدن در دستگاه رشد احیا کرد.</AlertMechLacksOverseerDesc>
+  <AlertMechLacksOverseerDesc>یک یا چند مکانوید شما کنترل نشده‌اند. مکانیویدهای خود را به یک مکانیتور با پهنای باند کافی برای کنترل آن‌ها متصل کنید.\n\nاگر بیش از یک روز کنترل نشده بمانند، یک مکانوید می‌تواند وحشی شود. هنگامی که این اتفاق می‌افتد، آن‌ها به {0} می‌پیوندند و نسبت به شما خصمانه می‌شوند. اگر یک مکانوید وحشی شود، مکانیویدهای نزدیک دیگر را نیز با خود می‌آورد.\n\nمکانیویدهای وحشی را نمی‌توان پس از کشته شدن در دستگاه رشد احیا کرد.</AlertMechLacksOverseerDesc>
   <!-- EN: The following mechanoids are uncontrolled -->
   <AlertMechLacksOverseerUncontrolled>مکانیویدهای زیر کنترل نشده‌اند</AlertMechLacksOverseerUncontrolled>
   <!-- EN: The following mechanoids are uncontrolled and could go feral at any moment -->
@@ -13,7 +13,7 @@
   <!-- EN: {0} is low on resources -->
   <AlertWarqueenHasLowResources>{0} منابع کمی دارد</AlertWarqueenHasLowResources>
   <!-- EN: One or more {0} are low on resources. They will be unable to produce mechs on command if they run out of resources. -->
-  <AlertWarqueenHasLowResourcesDesc>یک یا چند {0} منابع کمی دارند. اگر منابعشان تمام شود، قادر به تولید مکانیوید به دستور نخواهند بود.</AlertWarqueenHasLowResourcesDesc>
+  <AlertWarqueenHasLowResourcesDesc>یک یا چند {0} منابع کمی دارند. اگر منابعشان تمام شود، قادر به تولید مکانوید به دستور نخواهند بود.</AlertWarqueenHasLowResourcesDesc>
 
   <!-- EN: {PAWN} needs deathrest -->
   <AlertLowDeathrestPawn>{PAWN} نیاز به استراحت مرگ دارد</AlertLowDeathrestPawn>
@@ -30,14 +30,14 @@
   <!-- EN: Recharger full -->
   <AlertRechargerFull>شارژر پر است</AlertRechargerFull>
   <!-- EN: Some mech recharger(s) are storing their maximum number of toxic wastepacks. Mechs can't use these chargers until the toxic wastepacks are hauled away.\n\nSelect a colonist and right-click a recharger to unload it. -->
-  <AlertRechargerFullDesc>یک یا چند شارژر مکانیوید حداکثر تعداد بسته‌های زباله سمی خود را ذخیره کرده‌اند. مکانیویدها نمی‌توانند از این شارژرها استفاده کنند تا زمانی که بسته‌های زباله سمی حمل شوند.\n\nیک مستعمره‌نشین را انتخاب کرده و روی یک شارژر کلیک راست کنید تا آن را تخلیه کند.</AlertRechargerFullDesc>
+  <AlertRechargerFullDesc>یک یا چند شارژر مکانوید حداکثر تعداد بسته‌های زباله سمی خود را ذخیره کرده‌اند. مکانیویدها نمی‌توانند از این شارژرها استفاده کنند تا زمانی که بسته‌های زباله سمی حمل شوند.\n\nیک مستعمره‌نشین را انتخاب کرده و روی یک شارژر کلیک راست کنید تا آن را تخلیه کند.</AlertRechargerFullDesc>
 
   <!-- EN: Need mech rechargers -->
-  <AlertNeedMechChargers>نیاز به شارژرهای مکانیوید</AlertNeedMechChargers>
+  <AlertNeedMechChargers>نیاز به شارژرهای مکانوید</AlertNeedMechChargers>
   <!-- EN: You don't have rechargers for all your mechanoids. If a mech runs out of energy, it will fall into a dormant self-charging state and will recharge very slowly.\n\nBuild more of the following chargers:\n{0}\n\nNote: Only light mechanoids can use regular mech rechargers. Medium or heavier mechanoids require large mech rechargers. -->
-  <AlertNeedMechChargersDesc>شما برای تمام مکانیویدهای خود شارژر ندارید. اگر انرژی یک مکانیوید تمام شود، به حالت خاموشی خودکار فرو می‌رود و بسیار آهسته شارژ می‌شود.\n\nشارژرهای زیر را بیشتر بسازید:\n{0}\n\nتوجه: فقط مکانیویدهای سبک می‌توانند از شارژرهای مکانیوید معمولی استفاده کنند. مکانیویدهای متوسط یا سنگین‌تر نیاز به شارژرهای مکانیوید بزرگ دارند.</AlertNeedMechChargersDesc>
+  <AlertNeedMechChargersDesc>شما برای تمام مکانیویدهای خود شارژر ندارید. اگر انرژی یک مکانوید تمام شود، به حالت خاموشی خودکار فرو می‌رود و بسیار آهسته شارژ می‌شود.\n\nشارژرهای زیر را بیشتر بسازید:\n{0}\n\nتوجه: فقط مکانیویدهای سبک می‌توانند از شارژرهای مکانوید معمولی استفاده کنند. مکانیویدهای متوسط یا سنگین‌تر نیاز به شارژرهای مکانوید بزرگ دارند.</AlertNeedMechChargersDesc>
   <!-- EN: Research basic mechtech or higher to build rechargers. -->
-  <AlertNeedMechChargerBasicMechtech>برای ساخت شارژرها، فناوری پایه مکانیوید یا بالاتر را تحقیق کنید.</AlertNeedMechChargerBasicMechtech>
+  <AlertNeedMechChargerBasicMechtech>برای ساخت شارژرها، فناوری پایه مکانوید یا بالاتر را تحقیق کنید.</AlertNeedMechChargerBasicMechtech>
 
   <!-- EN: Reimplantation available -->
   <AlertReimplantationAvailable>کاشت مجدد موجود است</AlertReimplantationAvailable>
@@ -82,18 +82,18 @@
   <AlertPollutedTerrainDesc>یک فرد یا حیوان دچار تجمع سم شده و روی زمین آلوده قرار دارد. هر زمان که کسی روی زمین آلوده باشد، تجمع سم در بدن او به مرور زمان افزایش می‌یابد تا زمانی که بمیرد.\n\nاین افراد یا حیوانات تحت تأثیر قرار گرفته‌اند:\n\n{0}\n\nافراد را از زمین آلوده دور نگه دارید، یا راهی برای محافظت از آن‌ها در برابر اثرات آن پیدا کنید. برخی لباس‌ها، ایمپلنت‌ها و تغییرات ژنی می‌توانند از تجمع سم محافظت کنند. زمین آلوده را نمی‌توان با کفپوش پوشاند، اما می‌توان آن را با دست و روش‌های دیگر تمیز کرد.</AlertPollutedTerrainDesc>
 
   <!-- EN: Mechanoid missing part -->
-  <AlertMechMissingBodyPart>مکانیوید قطعه‌ای گم کرده است</AlertMechMissingBodyPart>
+  <AlertMechMissingBodyPart>مکانوید قطعه‌ای گم کرده است</AlertMechMissingBodyPart>
   <!-- EN: Mechanoids missing parts -->
   <AlertMechsMissingBodyPart>مکانیویدها قطعاتی گم کرده‌اند</AlertMechsMissingBodyPart>
   <!-- EN: One or more of your mechanoids are missing a body part. A mechanitor can repair lost parts.\n\nThe mechanoids with lost body parts are -->
-  <AlertMechMissingBodyPartDesc>یک یا چند مکانیوید شما قطعه‌ای از بدن خود را گم کرده‌اند. یک مکانیتور می‌تواند قطعات گم شده را تعمیر کند.\n\nمکانیویدهایی که قطعات بدن خود را گم کرده‌اند عبارتند از</AlertMechMissingBodyPartDesc>
+  <AlertMechMissingBodyPartDesc>یک یا چند مکانوید شما قطعه‌ای از بدن خود را گم کرده‌اند. یک مکانیتور می‌تواند قطعات گم شده را تعمیر کند.\n\nمکانیویدهایی که قطعات بدن خود را گم کرده‌اند عبارتند از</AlertMechMissingBodyPartDesc>
 
   <!-- EN: Mechanoid repair needed -->
-  <AlertMechNeedsRepair>نیاز به تعمیر مکانیوید</AlertMechNeedsRepair>
+  <AlertMechNeedsRepair>نیاز به تعمیر مکانوید</AlertMechNeedsRepair>
   <!-- EN: These mechanoids are damaged and need repair -->
   <AlertMechNeedsRepairDescPrefix>این مکانیویدها آسیب دیده‌اند و نیاز به تعمیر دارند</AlertMechNeedsRepairDescPrefix>
   <!-- EN: Order a mechanitor to repair them, or select the mech and turn on auto-repair. Repairing a mechanoid requires energy. If a mechanoid's energy is so low it can't move, someone must carry it to a recharger. -->
-  <AlertMechNeedsRepairDesc>به یک مکانیتور دستور دهید آن‌ها را تعمیر کند، یا مکانیوید را انتخاب کرده و تعمیر خودکار را روشن کنید. تعمیر مکانیوید نیاز به انرژی دارد. اگر انرژی یک مکانیوید آنقدر کم باشد که نتواند حرکت کند، کسی باید آن را به شارژر حمل کند.</AlertMechNeedsRepairDesc>
+  <AlertMechNeedsRepairDesc>به یک مکانیتور دستور دهید آن‌ها را تعمیر کند، یا مکانوید را انتخاب کرده و تعمیر خودکار را روشن کنید. تعمیر مکانوید نیاز به انرژی دارد. اگر انرژی یک مکانوید آنقدر کم باشد که نتواند حرکت کند، کسی باید آن را به شارژر حمل کند.</AlertMechNeedsRepairDesc>
   
   <!-- EN: {0} stopped -->
   <AlertToxifierGeneratorStopped>{0} متوقف شد</AlertToxifierGeneratorStopped>

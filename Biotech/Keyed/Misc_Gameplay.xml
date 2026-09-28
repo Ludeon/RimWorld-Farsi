@@ -22,9 +22,9 @@
   <!-- EN: tiles -->
   <TilesLower>کاشی</TilesLower>
   <!-- EN: 1 mech -->
-  <CaravanMech>۱ مکانیوید</CaravanMech>
+  <CaravanMech>۱ مکانوید</CaravanMech>
   <!-- EN: {0} mechs -->
-  <CaravanMechsCount>{0} مکانیوید</CaravanMechsCount>
+  <CaravanMechsCount>{0} مکانوید</CaravanMechsCount>
   <!-- EN: {BOSS} with {APPAREL} -->
   <BossWithApparel>{BOSS} با {APPAREL}</BossWithApparel>
   <!-- EN: Resulting from gene -->
@@ -52,7 +52,7 @@
   <!-- EN: bandwidth -->
   <BandwidthLower>پهنای باند</BandwidthLower>
   <!-- EN: A mechanitor can only oversee a mech if there is enough bandwidth to do so. Each mech consumes a different amount of bandwidth.\n\nGain more bandwidth by constructing band nodes and tuning the mechanitor to them, or by equipping special mechanitor apparel. -->
-  <BandwidthGizmoTip>یک مکانیوید فقط در صورتی می‌تواند تحت نظارت یک مکانیتور باشد که پهنای باند کافی برای این کار وجود داشته باشد. هر مکانیوید مقدار متفاوتی از پهنای باند را مصرف می‌کند.\n\nبا ساخت گره‌های باند و تنظیم مکانیتور روی آن‌ها، یا با تجهیز لباس‌های مخصوص مکانیتور، پهنای باند بیشتری به دست آورید.</BandwidthGizmoTip>
+  <BandwidthGizmoTip>یک مکانوید فقط در صورتی می‌تواند تحت نظارت یک مکانیتور باشد که پهنای باند کافی برای این کار وجود داشته باشد. هر مکانوید مقدار متفاوتی از پهنای باند را مصرف می‌کند.\n\nبا ساخت گره‌های باند و تنظیم مکانیتور روی آن‌ها، یا با تجهیز لباس‌های مخصوص مکانیتور، پهنای باند بیشتری به دست آورید.</BandwidthGizmoTip>
   <!-- EN: Control group -->
   <ControlGroup>گروه کنترل</ControlGroup>
   <!-- EN: Current mode -->
@@ -74,21 +74,21 @@
   <!-- EN: Removing {0} will change {1_labelShort}'s bandwidth from {2} to {3}. This will mean the following mechs will no longer be under control -->
   <DropThingBandwidthApparel>برداشتن {0} پهنای باند {1_labelShort} را از {2} به {3} تغییر می‌دهد. این به این معنی است که مکانیویدهای زیر دیگر تحت کنترل نخواهند بود</DropThingBandwidthApparel>
   <!-- EN: no mechs -->
-  <NoMechs>بدون مکانیوید</NoMechs>
+  <NoMechs>بدون مکانوید</NoMechs>
   <!-- EN: Group -->
   <Group>گروه</Group>
   <!-- EN: Groups -->
   <Groups>گروه‌ها</Groups>
   <!-- EN: Loading mech gestation resources -->
-  <LoadingMechGestator>در حال بارگیری منابع رشد مکانیوید</LoadingMechGestator>
+  <LoadingMechGestator>در حال بارگیری منابع رشد مکانوید</LoadingMechGestator>
   <!-- EN: Time left this cycle -->
   <GestatingInspect>زمان باقی‌مانده در این چرخه</GestatingInspect>
   <!-- EN: Initiating mech gestation cycle -->
-  <InitMechGestationCycle>در حال آغاز چرخه رشد مکانیوید</InitMechGestationCycle>
+  <InitMechGestationCycle>در حال آغاز چرخه رشد مکانوید</InitMechGestationCycle>
   <!-- EN: Initiating mech birth -->
-  <InitMechBirth>در حال آغاز تولد مکانیوید</InitMechBirth>
+  <InitMechBirth>در حال آغاز تولد مکانوید</InitMechBirth>
   <!-- EN: Mech energy -->
-  <MechEnergy>انرژی مکانیوید</MechEnergy>
+  <MechEnergy>انرژی مکانوید</MechEnergy>
   <!-- EN: Energy -->
   <Energy>انرژی</Energy>
   <!-- EN: energy -->
@@ -96,7 +96,7 @@
   <!-- EN: Bandwidth usage -->
   <BandwidthUsage>مصرف پهنای باند</BandwidthUsage>
   <!-- EN: Mech gestation bandwidth -->
-  <MechGestationBandwidthUsed>پهنای باند رشد مکانیوید</MechGestationBandwidthUsed>
+  <MechGestationBandwidthUsed>پهنای باند رشد مکانوید</MechGestationBandwidthUsed>
   <!-- EN: Cannot summon {0} threat -->
   <CannotSummon>نمی‌توان تهدید {0} را احضار کرد</CannotSummon>
   <!-- EN: {0} threat ready to summon -->
@@ -130,7 +130,7 @@
   <!-- EN: hemogen -->
   <Hemogen>هموژن</Hemogen>
   <!-- EN: Hemogen is a biological energy source derived from compounds in human blood. Baseliner humans produce it endogenously and consume it over time in their own internal balance. Some human xenotypes use it as a kind of fuel for specific abilities, while others must consume it to survive at all. -->
-  <HemogenDesc>هموژن یک منبع انرژی بیولوژیکی است که از ترکیبات موجود در خون انسان به دست می‌آید. انسان‌های بیس‌لاینر آن را به صورت درون‌زا تولید کرده و در تعادل داخلی خود به مرور زمان مصرف می‌کنند. برخی از زنوتایپ‌های انسانی از آن به عنوان نوعی سوخت برای توانایی‌های خاص استفاده می‌کنند، در حالی که برخی دیگر برای بقا باید آن را مصرف کنند.</HemogenDesc>
+  <HemogenDesc>هموژن یک منبع انرژی بیولوژیکی است که از ترکیبات موجود در خون انسان به دست می‌آید. انسان‌های بیس‌لاینر آن را به صورت درون‌زا تولید کرده و در تعادل داخلی خود به مرور زمان مصرف می‌کنند. برخی از گونه ژنتیکی‌های انسانی از آن به عنوان نوعی سوخت برای توانایی‌های خاص استفاده می‌کنند، در حالی که برخی دیگر برای بقا باید آن را مصرف کنند.</HemogenDesc>
   <!-- EN: deathrest capacity -->
   <DeathrestCapacity>ظرفیت استراحت مرگ</DeathrestCapacity>
   <!-- EN: This determines how many deathrest buildings a person can connect to while deathresting. Each deathrest building confers a specific benefit, so it's better to be able to connect to more of them.\n\nDeathrest capacity can be increased using deathrest capacity serums. These serums can be purchased from traders. -->
@@ -258,7 +258,7 @@
   <!-- EN: genes -->
   <Genes>ژن‌ها</Genes>
   <!-- EN: The genes associated with this xenotype. -->
-  <GenesDesc>ژن‌های مرتبط با این زنوتایپ.</GenesDesc>
+  <GenesDesc>ژن‌های مرتبط با این گونه ژنتیکی.</GenesDesc>
   <!-- EN: suppressed -->
   <Suppressed>سرکوب شده</Suppressed>
   <!-- EN: active -->
@@ -360,7 +360,7 @@
   <!-- EN: Implanting a xenogerm will put {PAWN_nameDef} in a coma as the xenogerm integrates itself. On average, this lasts for {COMADURATION}. The length of the coma is dependent on the doctor's medical skill and the quality of your medical facilities. -->
   <ImplantXenogermWarningDesc>کاشت ژن بیگانه {PAWN_nameDef} را در کما فرو می‌برد تا ژن بیگانه خود را ادغام کند. به طور متوسط، این کما {COMADURATION} طول می‌کشد. طول کما به مهارت پزشکی دکتر و کیفیت امکانات پزشکی شما بستگی دارد.</ImplantXenogermWarningDesc>
   <!-- EN: Additionally, implanting a xenogerm will overwrite existing xenogenes. {PAWN_nameDef}'s current xenotype is '{XENOTYPE}'. {PAWN_pronoun} has the following xenogenes:\n{XENOGENES} -->
-  <ImplantXenogermWarningOverwriteXenogenes>علاوه بر این، کاشت ژن بیگانه ژن‌های بیگانه موجود را بازنویسی می‌کند. زنوتایپ فعلی {PAWN_nameDef} '{XENOTYPE}' است. {PAWN_pronoun} دارای ژن‌های بیگانه زیر است:\n{XENOGENES}</ImplantXenogermWarningOverwriteXenogenes>
+  <ImplantXenogermWarningOverwriteXenogenes>علاوه بر این، کاشت ژن بیگانه ژن‌های بیگانه موجود را بازنویسی می‌کند. گونه ژنتیکی فعلی {PAWN_nameDef} '{XENOTYPE}' است. {PAWN_pronoun} دارای ژن‌های بیگانه زیر است:\n{XENOGENES}</ImplantXenogermWarningOverwriteXenogenes>
   <!-- EN: After implantation, {PAWN_nameDef} will have a metabolism value of {MET} and a food consumption multiplier of {CONSUMPTION}. -->
   <ImplantXenogermWarningNewMetabolism>پس از کاشت، {PAWN_nameDef} مقدار متابولیسم {MET} و ضریب مصرف غذا {CONSUMPTION} خواهد داشت.</ImplantXenogermWarningNewMetabolism>
   <!-- EN: Would you like to continue? -->
@@ -370,11 +370,11 @@
   <!-- EN: Cancel implanting this xenogerm into {PAWN_nameDef}. -->
   <CancelImplantingDesc>کاشت این ژن بیگانه در {PAWN_nameDef} را لغو کنید.</CancelImplantingDesc>
   <!-- EN: Xenotype -->
-  <Xenotype>زنوتایپ</Xenotype>
+  <Xenotype>گونه ژنتیکی</Xenotype>
   <!-- EN: unique -->
   <Unique>منحصر به فرد</Unique>
   <!-- EN: A unique human variant with a set of xenogenes that do not fall into any known xenotype. -->
-  <UniqueXenotypeDesc>یک گونه انسانی منحصر به فرد با مجموعه‌ای از ژن‌های بیگانه که در هیچ زنوتایپ شناخته شده‌ای قرار نمی‌گیرند.</UniqueXenotypeDesc>
+  <UniqueXenotypeDesc>یک گونه انسانی منحصر به فرد با مجموعه‌ای از ژن‌های بیگانه که در هیچ گونه ژنتیکی شناخته شده‌ای قرار نمی‌گیرند.</UniqueXenotypeDesc>
   <!-- EN: Factor for genetic metabolism -->
   <FactorForMetabolism>عامل متابولیسم ژنتیکی</FactorForMetabolism>
   <!-- EN: Progress -->
@@ -510,7 +510,7 @@
   <!-- EN: Power cell -->
   <MechPowerCell>سلول انرژی</MechPowerCell>
   <!-- EN: War urchins have a one-time power source. When the power cell runs out, the mechanoid dies. -->
-  <MechPowerCellTip>جوجه‌تیغی‌های جنگی یک منبع انرژی یک‌بار مصرف دارند. وقتی سلول انرژی تمام شود، مکانیوید می‌میرد.</MechPowerCellTip>
+  <MechPowerCellTip>جوجه‌تیغی‌های جنگی یک منبع انرژی یک‌بار مصرف دارند. وقتی سلول انرژی تمام شود، مکانوید می‌میرد.</MechPowerCellTip>
   
 
   <!-- Bossgroup -->
@@ -644,11 +644,11 @@
 
   <!-- Mech resurrection -->
   <!-- EN: Mech resurrection charges -->
-  <MechResurrectionCharges>شارژهای احیای مکانیوید</MechResurrectionCharges>
+  <MechResurrectionCharges>شارژهای احیای مکانوید</MechResurrectionCharges>
 
   <!-- Mechs -->
   <!-- EN: Mech stun pulse on death -->
-  <MechStunPulseWarning>پالس شوک مکانیوید هنگام مرگ</MechStunPulseWarning>
+  <MechStunPulseWarning>پالس شوک مکانوید هنگام مرگ</MechStunPulseWarning>
   <!-- EN: {PAWN_nameDef} is in self-shutdown from low energy. -->
   <IsLowEnergySelfShutdown>{PAWN_nameDef} به دلیل کمبود انرژی در حالت خاموشی خودکار است.</IsLowEnergySelfShutdown>
   

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="227" height="20" role="img" aria-label="RTL Engine: Vazirmatn + Harmony">
+  <linearGradient id="s" x2="0" y2="100%">
+    <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
+    <stop offset="1" stop-opacity=".1"/>
+  </linearGradient>
+  <clipPath id="r">
+    <rect width="227" height="20" rx="3" fill="#fff"/>
+  </clipPath>
+  <g clip-path="url(#r)">
+    <rect width="82" height="20" fill="#555"/>
+    <rect x="82" width="145" height="20" fill="#9b59b6"/>
+    <rect width="227" height="20" fill="url(#s)"/>
+  </g>
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <text aria-hidden="true" x="410.0" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)">RTL Engine</text>
+    <text x="410.0" y="140" transform="scale(.1)" fill="#fff">RTL Engine</text>
+    <text aria-hidden="true" x="1545.0" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)">Vazirmatn + Harmony</text>
+    <text x="1545.0" y="140" transform="scale(.1)" fill="#fff">Vazirmatn + Harmony</text>
+  </g>
+</svg>

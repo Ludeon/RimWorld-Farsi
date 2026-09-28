@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="سامانه جامع بومی‌سازی بازی ریم‌ورلد (RimWorld) به زبان فارسی؛ مهندسی متن راست‌به‌چپ (RTL)، قلم وزیرمتن، دروازه‌های کنترل کیفیت خودکار و پشتیبانی کامل از استیم دک بر اساس استاندارد PEP 2026.">
+  <meta name="keywords" content="RimWorld, Persian, Farsi, Localization, RTL, ریم‌ورلد, فارسی, ترجمه, وزیرمتن, مد, Ludeon">
+  <meta name="author" content="RimWorld Farsi Core Team">
+
+  <!-- Open Graph / Social Cards -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://Ludeon.github.io/RimWorld-Farsi/">
+  <meta property="og:title" content="ریم‌ورلد فارسی | سامانه جامع بومی‌سازی RimWorld Farsi">
+  <meta property="og:description" content="پوشش ۱۰۰ درصدی کلیه بسته‌های گسترش، مهندسی رندرینگ IMGUI با قلم وزیرمتن، زمین بازی گرامری آنلاین و راهنمای نصب سریع برای لینوکس و استیم دک.">
+  <meta property="og:image" content="badges/coverage.svg">
+
+  <title>ریم‌ورلد فارسی | پایگاه جامع بومی‌سازی و مستندات مهندسی RimWorld Farsi</title>
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪐</text></svg>">
+</head>
+<body>
+  <div class="bg-grid-pattern"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#overview" class="nav-brand" id="brandLogo">
+        <div class="nav-logo-icon">🪐</div>
+        <div class="nav-title-group">
+          <h1>ریم‌ورلد فارسی</h1>
+          <p class="font-latin">RimWorld Farsi Localization (PEP 2026)</p>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#overview" class="active">نمای کلی</a></li>
+          <li><a href="#playground">زمین بازی گرامری</a></li>
+          <li><a href="#glossary">واژه‌نامه مرجع</a></li>
+          <li><a href="#installation">راهنمای نصب</a></li>
+          <li><a href="#architecture">معماری دو لایه</a></li>
+          <li><a href="#documentation">اسناد و راهنماها</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn-icon" id="themeToggle" aria-label="تغییر پوسته تاریک و روشن">
+          <span id="themeIcon">🌙</span>
+        </button>
+        <a href="https://github.com/Ludeon/RimWorld-Farsi" target="_blank" rel="noopener noreferrer" class="btn-nav-github" id="githubRepoLink">
+          <span class="font-latin">GitHub</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="overview">
+      <div class="hero-pill">
+        <span>👑</span>
+        <span>استاندارد مرجع بومی‌سازی ریم‌ورلد (PEP 2026)</span>
+      </div>
+
+      <h1 class="hero-title">
+        بومی‌سازی فارسی ریم‌ورلد <br>
+        <span class="hero-gradient-text">RimWorld Farsi Localization</span>
+      </h1>
+
+      <p class="hero-subtitle">
+        پروژه پیشگام فارسی‌سازی بازی استراتژی ریم‌ورلد با پوشش ۱۰۰ درصدی تمام ۶ بسته بازی، حل ریشه‌ای محدودیت‌های نمایش راست‌به‌چپ (RTL)، تزریق مستقیم قلم وزیرمتن، ۵ دروازه کنترل کیفیت و سازگاری بی‌نقص با استیم دک.
+      </p>
+
+      <!-- Live Repository Badges -->
+      <div class="hero-badges">
+        <img src="badges/coverage.svg" alt="Translation Coverage 100%" class="hero-badge-img">
+        <img src="badges/qa_status.svg" alt="QA Gates 5/5 Passing" class="hero-badge-img">
+        <img src="badges/corpus.svg" alt="Corpus 327K Words" class="hero-badge-img">
+        <img src="badges/engine.svg" alt="Engine Dual Layer" class="hero-badge-img">
+      </div>
+
+      <div class="hero-cta">
+        <a href="#installation" class="btn btn-primary" id="heroInstallBtn">
+          <span>🚀</span>
+          <span>راهنمای نصب سریع</span>
+        </a>
+        <a href="#playground" class="btn btn-secondary" id="heroPlaygroundBtn">
+          <span>⚡</span>
+          <span>زمین بازی نشانگرها (Playground)</span>
+        </a>
+        <a href="#glossary" class="btn btn-secondary" id="heroGlossaryBtn">
+          <span>📖</span>
+          <span>واژه‌نامه رسمی</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Core Features Grid -->
+    <section class="section" id="features">
+      <div class="section-header">
+        <div class="section-badge">فناوری‌های متمایز</div>
+        <h2 class="section-title">ویژگی‌های شاخص پروژه</h2>
+        <p class="section-desc">طراحی شده بر مبنای آخرین الگوهای مهندسی نرم‌افزار در میان ۵۶ زبان فعال Ludeon Studios</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="card">
+          <div class="card-icon amber">🪐</div>
+          <h3 class="card-title">پوشش ۱۰۰ درصدی محتوا</h3>
+          <p class="card-desc">
+            ترجمه کامل ۱,۵۳۷ فایل XML شامل بازی پایه (Core) و هر پنج بسته گسترش رسمی (Royalty, Ideology, Biotech, Anomaly, Odyssey).
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon cyan">✨</div>
+          <h3 class="card-title">تایپوگرافی مدرن با وزیرمتن</h3>
+          <p class="card-desc">
+            تزریق داینامیک قلم زیبای «وزیرمتن» از طریق ماد هارمونی؛ ارتقای خوانایی متون طولانی و حل به هم ریختگی حروف جدا از هم در محیط IMGUI.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon emerald">🛡️</div>
+          <h3 class="card-title">۵ دروازه اعتبارسنجی خودکار (CI/CD)</h3>
+          <p class="card-desc">
+            کنترل یکپارچه متغیرهای جایگزین ({0} و {PAWN})، حذف حروف عربی (ك/ي)، تصحیح نیم‌فاصله‌ها و اعمال واژه‌نامه مرجع در گیت‌هاب اکشنز.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon indigo">🎮</div>
+          <h3 class="card-title">پشتیبانی کامل از Steam Deck</h3>
+          <p class="card-desc">
+            تنظیمات تغییر مقیاس قلم درون بازی (0.8x تا 1.4x) جهت جلوگیری از بریدگی متون در نمایشگرهای کوچک و اسکریپت نصب خودکار یک‌کلیکه.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive AST & Grammar Playground -->
+    <section class="section" id="playground">
+      <div class="section-header">
+        <div class="section-badge">ابزار تعاملی مترجمان و هوش مصنوعی</div>
+        <h2 class="section-title">زمین بازی نشانگرها و گرامر ریم‌ورلد</h2>
+        <p class="section-desc">
+          متن فارسی دارای نشانگرهای قالب‌بندی ریم‌ورلد را وارد کنید تا ساختار درختی نشانگرها، تایپوگرافی فارسی و رعایت نیم‌فاصله‌ها به صورت زنده ارزیابی شود.
+        </p>
+      </div>
+
+      <div class="playground-box">
+        <div class="playground-controls">
+          <span style="font-size: 0.88rem; font-weight: 600; color: var(--text-secondary); margin-left: 0.5rem;">نمونه‌های سریع:</span>
+          <button class="preset-chip" data-preset="gender">تفکیک جنسیت ({PAWN_gender})</button>
+          <button class="preset-chip" data-preset="pos">شاخص‌های موقعیتی ({0}, {1})</button>
+          <button class="preset-chip" data-preset="macro">اضافه دستوری ({lookup})</button>
+          <button class="preset-chip" data-preset="arabic_error">شناسایی خطای حروف عربی</button>
+          <button class="preset-chip" data-preset="zwnj_error">خطای نیم‌فاصله (ZWNJ)</button>
+        </div>
+
+        <div class="input-area">
+          <textarea class="playground-input" id="playgroundInput" placeholder="متن دارای نشانگرهای {...} یا جملات ترجمه ریم‌ورلد را اینجا بنویسید..." spellcheck="false">استعمارگر {0_nameDef} به {1_label} نگاه کرده و {PAWN_gender ? با او سخن گفت : به او پاسخ داد}.</textarea>
+        </div>
+
+        <div class="diagnostics-panel">
+          <!-- Tokens AST Tree -->
+          <div class="diag-card">
+            <div class="diag-header">
+              <div class="diag-title">
+                <span>🧩</span>
+                <span>نشانگرهای استخراج‌شده (AST Tokens)</span>
+              </div>
+              <span class="status-badge valid" id="grammarStatus">✅ معتبر</span>
+            </div>
+            <div class="tokens-list" id="tokensList">
+              <!-- Dynamically populated by app.js -->
+            </div>
+          </div>
+
+          <!-- Persian Typography & Linter Card -->
+          <div class="diag-card">
+            <div class="diag-header">
+              <div class="diag-title">
+                <span>✍️</span>
+                <span>تایپوگرافی و نگارش فارسی (Linter)</span>
+              </div>
+              <span class="status-badge valid" id="typographyStatus">✅ پاک</span>
+            </div>
+            <div id="typoAlerts">
+              <!-- Dynamically populated by app.js -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Searchable Lexicon / Glossary -->
+    <section class="section" id="glossary">
+      <div class="section-header">
+        <div class="section-badge">واژه‌نامه مرجع مصوب</div>
+        <h2 class="section-title">واژه‌نامه رسمی ریم‌ورلد فارسی</h2>
+        <p class="section-desc">جستجوی بلادرنگ در میان اصطلاحات مرجع بازی، عوارض جسمانی، ویژگی‌های شخصیتی و توانمندی‌ها</p>
+      </div>
+
+      <div class="search-bar-wrapper">
+        <input type="text" class="search-input" id="glossarySearch" placeholder="جستجو بر اساس نام انگلیسی، فارسی یا کاربرد در بازی...">
+        <span class="search-icon">🔍</span>
+      </div>
+
+      <div class="category-chips">
+        <button class="category-chip active" data-cat="all">همه اصطلاحات</button>
+        <button class="category-chip" data-cat="core">واژگان کلیدی پایه</button>
+        <button class="category-chip" data-cat="hediff">بیماری‌ها و عوارض (Hediffs)</button>
+        <button class="category-chip" data-cat="trait">ویژگی‌های شخصیتی (Traits)</button>
+        <button class="category-chip" data-cat="capacity">توانمندی‌ها (Capacities)</button>
+      </div>
+
+      <div class="table-wrapper">
+        <table class="lexicon-table">
+          <thead>
+            <tr>
+              <th>معادل رسمی فارسی</th>
+              <th>واژه انگلیسی منبع</th>
+              <th>دسته‌بندی</th>
+              <th>عملیات</th>
+            </tr>
+          </thead>
+          <tbody id="glossaryBody">
+            <!-- Dynamically populated by app.js -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Installation & Setup Guide -->
+    <section class="section" id="installation">
+      <div class="section-header">
+        <div class="section-badge">نصب آسان و بی‌دردسر</div>
+        <h2 class="section-title">راهنمای گام‌به‌گام نصب</h2>
+        <p class="section-desc">روش نصب مد و زبان فارسی را بر اساس سیستم‌عامل خود انتخاب نمایید</p>
+      </div>
+
+      <div class="tab-container">
+        <div class="tab-nav">
+          <button class="tab-btn active" data-tab="tab-steamdeck">🎮 کنسول استیم دک (Steam Deck)</button>
+          <button class="tab-btn" data-tab="tab-linux">🐧 توزیع‌های لینوکس</button>
+          <button class="tab-btn" data-tab="tab-windows">🪟 سیستم‌عامل ویندوز</button>
+          <button class="tab-btn" data-tab="tab-workshop">📦 کارگاه استیم (Steam Workshop)</button>
+        </div>
+
+        <!-- Steam Deck Tab -->
+        <div class="tab-content active" id="tab-steamdeck">
+          <div class="card">
+            <h3 class="card-title">نصب روی استیم دک با یک فرمان خودکار</h3>
+            <p class="card-desc">
+              وارد حالت Desktop Mode کنسول خود شوید، برنامه Terminal (Konsole) را باز کنید و دستور زیر را اجرا فرمایید. این اسکریپت پوشه‌های استیم، نسخه Flatpak و کارت حافظه MicroSD را به صورت خودکار شناسایی کرده و فایل‌های زبان را همراه با قلم وزیرمتن نصب می‌کند:
+            </p>
+            <div class="code-box">
+              <div class="code-header">
+                <span>Bash / Konsole</span>
+                <button class="btn-copy btn-code-copy" data-target="cmdSteamDeck">کپی دستور</button>
+              </div>
+              <div class="code-content" id="cmdSteamDeck">curl -sSL https://raw.githubusercontent.com/Ludeon/RimWorld-Farsi/beta/install.sh | bash</div>
+            </div>
+            <p style="margin-top: 1rem; font-size: 0.9rem; color: var(--text-secondary);">
+              پس از اجرای دستور، وارد بازی شده، در منوی <strong>Options</strong> زبان را روی <strong>Persian (فارسی)</strong> قرار دهید.
+            </p>
+          </div>
+        </div>
+
+        <!-- Linux Tab -->
+        <div class="tab-content" id="tab-linux">
+          <div class="card">
+            <h3 class="card-title">نصب دستی در لینوکس (Native / Proton)</h3>
+            <p class="card-desc">مخزن را دریافت کرده و اسکریپت هوشمند نصب‌کننده را با دسترسی اجرا نمایید:</p>
+            <div class="code-box">
+              <div class="code-header">
+                <span>Bash</span>
+                <button class="btn-copy btn-code-copy" data-target="cmdLinux">کپی دستور</button>
+              </div>
+              <div class="code-content" id="cmdLinux">git clone -b beta https://github.com/Ludeon/RimWorld-Farsi.git
+cd RimWorld-Farsi
+chmod +x install.sh
+./install.sh</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Windows Tab -->
+        <div class="tab-content" id="tab-windows">
+          <div class="card">
+            <h3 class="card-title">نصب در سیستم‌عامل ویندوز</h3>
+            <p class="card-desc">
+              مخزن را به صورت فایل فشرده ZIP دانلود نموده یا کلون کنید، سپس فایل <code>install.bat</code> را به صورت عادی اجرا فرمایید. برنامه پوشه پیش‌فرض استیم در درایوهای مختلف را اسکن کرده یا کادر انتخاب پوشه را باز می‌کند:
+            </p>
+            <div class="code-box">
+              <div class="code-header">
+                <span>CMD / PowerShell</span>
+                <button class="btn-copy btn-code-copy" data-target="cmdWindows">کپی دستور</button>
+              </div>
+              <div class="code-content" id="cmdWindows">install.bat</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Workshop Tab -->
+        <div class="tab-content" id="tab-workshop">
+          <div class="card">
+            <h3 class="card-title">اشتراک از طریق استیم ورک‌شاپ</h3>
+            <p class="card-desc">
+              در صورت ترجیح نصب ابری، می‌توانید مستقیماً به صفحه مود در استیم ورک‌شاپ رفته و دکمه Subscribe را فشار دهید تا با هر آپدیت جدید به صورت خودکار به‌روزرسانی شود.
+            </p>
+            <div style="margin-top: 1.25rem;">
+              <a href="https://steamcommunity.com/app/294100/workshop/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                مشاهده در استیم ورک‌شاپ
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Architecture Visualizer -->
+    <section class="section" id="architecture">
+      <div class="section-header">
+        <div class="section-badge">طراحی سیستمی مهندسی</div>
+        <h2 class="section-title">معماری دو لایه بومی‌سازی</h2>
+        <p class="section-desc">پوشش هم‌زمان برای بازیکنان بدون مد (Vanilla) و کاربران خواهان بالاترین سطح کیفیت (Harmony Mod)</p>
+      </div>
+
+      <div class="arch-grid">
+        <!-- Layer 1 -->
+        <div class="arch-layer-card layer-1">
+          <span class="layer-tag">لایه ۱: پیش‌پردازش آفلاین (بدون مد)</span>
+          <h3 class="card-title">Static BiDi Compilation</h3>
+          <p class="card-desc">
+            مناسب برای بازیکنانی که تمایلی به استفاده از مدهای C# ندارند. متن فارسی خام در مخزن توسط موتور پایتون به حروف متصل فرم‌های ارائه‌ای یونیکد (Presentation Forms-B) تبدیل شده و ترتیب کلمات معکوس می‌گردد.
+          </p>
+          <div class="pipeline-steps">
+            <div class="pipe-step">
+              <div class="step-num">۱</div>
+              <div>استخراج متون فارسی از فایل‌های ترجمه XML</div>
+            </div>
+            <div class="pipe-step">
+              <div class="step-num">۲</div>
+              <div>اتصال حروف و اعمال فرم‌های آغازی/میانی/پایانی</div>
+            </div>
+            <div class="pipe-step">
+              <div class="step-num">۳</div>
+              <div>معکوس‌سازی ترتیب کلمات برای سازگاری با موتور LTR</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Layer 2 -->
+        <div class="arch-layer-card layer-2">
+          <span class="layer-tag">لایه ۲: رهگیری بلادرنگ موتور با هارمونی</span>
+          <h3 class="card-title">Dynamic Harmony Injection</h3>
+          <p class="card-desc">
+            تجربه طلایی بازی ریم‌ورلد؛ مد C# اختصاصی ما متدهای رندرینگ IMGUI در کلاس‌های <code>Verse.Text</code> و <code>Widgets</code> را رهگیری کرده و قلم وزیرمتن را تزریق می‌کند.
+          </p>
+          <div class="pipeline-steps">
+            <div class="pipe-step">
+              <div class="step-num">۱</div>
+              <div>تزریق قلم برداری وزیرمتن با کش مقیاس‌پذیر High-DPI</div>
+            </div>
+            <div class="pipe-step">
+              <div class="step-num">۲</div>
+              <div>پردازش داینامیک نام‌ها، گزارش‌های نبرد و ایام سال</div>
+            </div>
+            <div class="pipe-step">
+              <div class="step-num">۳</div>
+              <div>اعمال قواعد اضافه و شمارش فارسی از طریق <code>LanguageWorker_Persian</code></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Documentation Library -->
+    <section class="section" id="documentation">
+      <div class="section-header">
+        <div class="section-badge">دانشنامه و مستندات فنی</div>
+        <h2 class="section-title">مرکز اسناد و راهنماها</h2>
+        <p class="section-desc">مستندات مرجع برای مترجمان، مهندسان نرم‌افزار، طراحان جهان داستانی و مدل‌های هوش مصنوعی</p>
+      </div>
+
+      <div class="docs-grid">
+        <a href="https://github.com/Ludeon/RimWorld-Farsi/blob/beta/docs/TODO.md" target="_blank" rel="noopener noreferrer" class="doc-link-card">
+          <div>
+            <h4>سند استاندارد PEP 2026</h4>
+            <p>مشخصات معماری جامع، برنامه راهبردی ۱۰ فازی و ماتریس تفصیلی تسک‌های پروژه بومی‌سازی ریم‌ورلد فارسی.</p>
+          </div>
+          <div class="doc-arrow">مطالعه سند استاندارد ←</div>
+        </a>
+
+        <a href="https://github.com/Ludeon/RimWorld-Farsi/blob/beta/docs/LORE_AND_STYLE_GUIDE.md" target="_blank" rel="noopener noreferrer" class="doc-link-card">
+          <div>
+            <h4>راهنمای جهان داستانی و لحن (Lore Bible)</h4>
+            <p>استانداردهای کیهانی سال ۵۵۰۰، تبیین مفهوم آرکوتک‌ها، دنیاهای درخشان/ابرشهری و تمایز لحن‌های درباری و دزدان دریایی.</p>
+          </div>
+          <div class="doc-arrow">مشاهده راهنمای داستانی ←</div>
+        </a>
+
+        <a href="https://github.com/Ludeon/RimWorld-Farsi/blob/beta/docs/TECHNICAL_CHALLENGES.md" target="_blank" rel="noopener noreferrer" class="doc-link-card">
+          <div>
+            <h4>تحلیل چالش‌های فنی رندرینگ IMGUI</h4>
+            <p>بررسی ریشه‌ای شکست متون RTL در یونیتی، باگ شکستن سطرها و راهکار دور زدن محدودیت‌های TextGenerator.</p>
+          </div>
+          <div class="doc-arrow">بررسی گزارش فنی ←</div>
+        </a>
+
+        <a href="https://github.com/Ludeon/RimWorld-Farsi/blob/beta/docs/DEVELOPER_WORKFLOW.md" target="_blank" rel="noopener noreferrer" class="doc-link-card">
+          <div>
+            <h4>راهنمای محیط توسعه و ابزارها</h4>
+            <p>راه‌اندازی محیط با ابزار فوق‌سریع uv، اجرای لینتر Ruff، چک تایپ‌استاتیک Mypy و تست‌های واحد با Pytest.</p>
+          </div>
+          <div class="doc-arrow">مشاهده راهنمای توسعه ←</div>
+        </a>
+
+        <a href="https://github.com/Ludeon/RimWorld-Farsi/blob/beta/docs/TRANSLATION_GUIDE.md" target="_blank" rel="noopener noreferrer" class="doc-link-card">
+          <div>
+            <h4>راهنمای گام‌به‌گام مترجمان</h4>
+            <p>دستورالعمل مشارکت و ارسال پول ریکوئست برای اعضای جامعه و ویرایش اصولی فایل‌های XML ترجمه.</p>
+          </div>
+          <div class="doc-arrow">ورود به راهنمای ترجمه ←</div>
+        </a>
+
+        <a href="https://github.com/Ludeon/RimWorld-Farsi/blob/beta/AGENTS.md" target="_blank" rel="noopener noreferrer" class="doc-link-card">
+          <div>
+            <h4>مشخصات عامل‌های هوش مصنوعی (AGENTS.md)</h4>
+            <p>قوانین سیستمی سخت‌گیرانه برای جفت‌برنامه‌نویسی با مدل‌های زبانی مانند Claude، GPT و Gemini.</p>
+          </div>
+          <div class="doc-arrow">مطالعه قوانین AI ←</div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="nav-container" style="flex-direction: column; gap: 1.5rem;">
+      <div class="footer-nav">
+        <a href="#overview">نمای کلی</a>
+        <a href="#playground">زمین بازی گرامری</a>
+        <a href="#glossary">واژه‌نامه رسمی</a>
+        <a href="#installation">راهنمای نصب</a>
+        <a href="#architecture">معماری دو لایه</a>
+        <a href="#documentation">اسناد و راهنماها</a>
+        <a href="https://github.com/Ludeon/RimWorld-Farsi/issues" target="_blank" rel="noopener noreferrer">گزارش باگ ترجمه</a>
+      </div>
+
+      <p>
+        پروژه بومی‌سازی <strong>ریم‌ورلد فارسی (RimWorld Farsi)</strong> بر اساس استاندارد معماری <strong>PEP 2026</strong>.
+      </p>
+      <p style="font-size: 0.8rem; color: var(--text-muted);">
+        بازی ریم‌ورلد اثر رسمی Ludeon Studios است. این پروژه تلاشی مستقل و متن‌باز توسط جامعه کاربران فارسی‌زبان می‌باشد. قلم این وب‌گاه: <span class="font-latin">Vazirmatn</span>.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Element -->
+  <div class="toast" id="appToast">متن کپی شد!</div>
+
+  <script src="app.js"></script>
+</body>
+</html>

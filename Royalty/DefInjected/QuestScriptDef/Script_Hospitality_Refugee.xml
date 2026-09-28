@@ -288,7 +288,7 @@
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>betrayalOfferRewardLetterLabel->پاداش خیانت: [factionOpponent_nameDef]</li>
-    <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] به شما قول پاداش داده است اگر [asker_nameDef] [otherMembers] را بکشید. [factionOpponent_pronoun] شنیده است که این کار انجام شده است و موارد زیر را از طریق دراپ پاد (مقدار کل [betrayalRewardMarketValue_money]) برای شما ارسال می‌کند:\n\n[betrayalRewards].\n\n[questOver]</li>
+    <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] به شما قول پاداش داده است اگر [asker_nameDef] [otherMembers] را بکشید. [factionOpponent_pronoun] شنیده است که این کار انجام شده است و موارد زیر را از طریق کپسول پرتاب (مقدار کل [betrayalRewardMarketValue_money]) برای شما ارسال می‌کند:\n\n[betrayalRewards].\n\n[questOver]</li>
     <li>betrayalOfferFailedBecauseRecruitedLetterLabel->پاداش خیانت پس گرفته شد</li>
     <li>betrayalOfferFailedBecauseRecruitedLetterText->[factionOpponent_nameDef] آموخته است که تمام اعضای بازمانده از [faction_name] به گروه شما ملحق شده اند! [factionOpponent_nameDef] می‌خواست همه اعضای [faction_name] بمیرند و بنابراین پیشنهاد [factionOpponent_possessive] را پس گرفت.</li>
     <li>betrayalOfferFailedLetterLabel->پاداش خیانت پس گرفته شد</li>

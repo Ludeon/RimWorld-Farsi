@@ -1,0 +1,9 @@
+title: RimWorld Farsi Localization | پروژه بومی‌سازی ریم‌ورلد به زبان فارسی
+description: سامانه جامع بومی‌سازی، اصلاح نمایش راست‌به‌چپ (RTL) و ابزارهای مهندسی زبان ریم‌ورلد فارسی (PEP 2026)
+url: "https://Ludeon.github.io"
+baseurl: "/RimWorld-Farsi"
+markdown: kramdown
+theme: null
+exclude:
+  - "scratch"
+  - ".venv"

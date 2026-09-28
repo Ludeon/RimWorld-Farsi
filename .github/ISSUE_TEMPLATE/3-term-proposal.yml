@@ -1,0 +1,35 @@
+name: 💡 پیشنهاد یا بازنگری واژه در واژه‌نامه (Terminology Proposal)
+description: پیشنهاد معادل فارسی برای واژه‌های جدید یا بازنگری در ترجمه اصطلاحات کلیدی بازی.
+title: "[Term]: "
+labels: ["terminology", "discussion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        واژه‌نامه مرجع ریم‌ورلد در فایل `AGENTS.md` ثبت شده است. برای حفظ هماهنگی، پیشنهادهای جدید در اینجا به بحث گذاشته می‌شوند.
+  - type: input
+    id: english_term
+    attributes:
+      label: اصطلاح انگلیسی (English Term)
+      placeholder: "e.g. Mechanoid, Archotech, Subcore, Biosculpter"
+    validations:
+      required: true
+  - type: input
+    id: proposed_translation
+    attributes:
+      label: معادل پیشنهادی فارسی (Proposed Persian Term)
+      placeholder: "e.g. مکانوید، آرکوتک، هسته فرعی، کپسول زیست‌تراش"
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: استدلال و زمینه کاربرد در بازی (Context & Rationale)
+      description: چرا این معادل بهتر است؟ در داستان و رخدادهای بازی چه نقشی دارد؟
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: معادل‌های دیگر بررسی شده (Alternative Candidates)
+      description: چه گزینه‌های دیگری وجود دارند که ممکن است در نظر گرفته شوند؟

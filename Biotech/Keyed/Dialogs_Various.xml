@@ -31,7 +31,7 @@
   <!-- EN: Any mechlord apparel -->
   <ApparelRequirementAnyMechlordApparel>هر لباس مک‌لردی</ApparelRequirementAnyMechlordApparel>
   <!-- EN: or any psycaster, prestige, or mechlord apparel -->
-  <ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>یا هر لباس سایکستر، پرستیژ یا مک‌لردی</ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>
+  <ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>یا هر لباس روان‌پیما، پرستیژ یا مک‌لردی</ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>
 
   <!-- Mech gestator -->
   <!-- EN: Gestation cycles completed -->
@@ -49,11 +49,11 @@
   <!-- EN: Assemble genes -->
   <AssembleGenes>مونتاژ ژن‌ها</AssembleGenes>
   <!-- EN: Create xenotype -->
-  <CreateXenotype>ایجاد زنوتایپ</CreateXenotype>
+  <CreateXenotype>ایجاد گونه ژنتیکی</CreateXenotype>
   <!-- EN: Select icon -->
   <SelectIcon>انتخاب نماد</SelectIcon>
   <!-- EN: The icon of this xenotype. -->
-  <SelectIconDesc>نماد این زنوتایپ.</SelectIconDesc>
+  <SelectIconDesc>نماد این گونه ژنتیکی.</SelectIconDesc>
   <!-- EN: Inspect the genes inside the {0_labelShort}. -->
   <InspectGenesDesc>ژن‌های داخل {0_labelShort} را بررسی کنید.</InspectGenesDesc>
   <!-- EN: Inspect the unborn baby's genes. -->
@@ -85,15 +85,15 @@
   <!-- EN: Germline genes are naturally-inherited genes which are in every cell in an organism's body and don't require any external support. They are passed from parent to child. -->
   <EndogenesDesc>ژن‌های خط ژرم ژن‌های طبیعی به ارث رسیده هستند که در هر سلول بدن یک ارگانیسم وجود دارند و به هیچ پشتیبانی خارجی نیاز ندارند. آن‌ها از والدین به فرزند منتقل می‌شوند.</EndogenesDesc>
   <!-- EN: Member xenotypes -->
-  <MemberXenotypeChances>شانس زنوتایپ اعضا</MemberXenotypeChances>
+  <MemberXenotypeChances>شانس گونه ژنتیکی اعضا</MemberXenotypeChances>
   <!-- EN: xenotype name -->
-  <XenotypeName>نام زنوتایپ</XenotypeName>
+  <XenotypeName>نام گونه ژنتیکی</XenotypeName>
   <!-- EN: Lock or unlock the xenotype's name. When locked, the xenotype name will not auto-regenerate when genepacks are added or removed. -->
-  <LockNameButtonDesc>نام زنوتایپ را قفل یا باز کنید. هنگامی که قفل باشد، نام زنوتایپ هنگام افزودن یا حذف بسته‌های ژنی به طور خودکار بازسازی نمی‌شود.</LockNameButtonDesc>
+  <LockNameButtonDesc>نام گونه ژنتیکی را قفل یا باز کنید. هنگامی که قفل باشد، نام گونه ژنتیکی هنگام افزودن یا حذف بسته‌های ژنی به طور خودکار بازسازی نمی‌شود.</LockNameButtonDesc>
   <!-- EN: Xenotype name lock is on. Xenotype name will not regenerate when adding or removing genepacks. -->
-  <LockNameOn>قفل نام زنوتایپ روشن است. نام زنوتایپ هنگام افزودن یا حذف بسته‌های ژنی بازسازی نمی‌شود.</LockNameOn>
+  <LockNameOn>قفل نام گونه ژنتیکی روشن است. نام گونه ژنتیکی هنگام افزودن یا حذف بسته‌های ژنی بازسازی نمی‌شود.</LockNameOn>
   <!-- EN: Xenotype name lock is off. Xenotype name will regenerate when adding or removing genepacks. -->
-  <LockNameOff>قفل نام زنوتایپ خاموش است. نام زنوتایپ هنگام افزودن یا حذف بسته‌های ژنی بازسازی می‌شود.</LockNameOff>
+  <LockNameOff>قفل نام گونه ژنتیکی خاموش است. نام گونه ژنتیکی هنگام افزودن یا حذف بسته‌های ژنی بازسازی می‌شود.</LockNameOff>
   <!-- EN: Creating xenogerm -->
   <CreatingXenogerm>در حال ایجاد ژن بیگانه</CreatingXenogerm>
   <!-- EN: This genepack is contained in an unpowered genebank. If added, production on the xenogerm will be suspended until power is restored. -->
@@ -111,9 +111,9 @@
   <!-- EN: You are currently combining a {XENOGERMNAME} xenogerm. If you start combining a new xenogerm, it will cancel your current xenogerm.\n\nAre you sure you want to continue? -->
   <ConfirmStartNewXenogerm>شما در حال حاضر در حال ترکیب یک ژن بیگانه {XENOGERMNAME} هستید. اگر شروع به ترکیب یک ژن بیگانه جدید کنید، ژن بیگانه فعلی شما لغو خواهد شد.\n\nآیا مطمئن هستید که می‌خواهید ادامه دهید؟</ConfirmStartNewXenogerm>
   <!-- EN: Select at least one gene to randomize a name for this xenotype. -->
-  <SelectAGeneToRandomizeName>حداقل یک ژن را انتخاب کنید تا نامی برای این زنوتایپ به صورت تصادفی ایجاد شود.</SelectAGeneToRandomizeName>
+  <SelectAGeneToRandomizeName>حداقل یک ژن را انتخاب کنید تا نامی برای این گونه ژنتیکی به صورت تصادفی ایجاد شود.</SelectAGeneToRandomizeName>
   <!-- EN: Select at least one gene to choose a name for this xenotype. -->
-  <SelectAGeneToChooseAName>حداقل یک ژن را انتخاب کنید تا نامی برای این زنوتایپ انتخاب کنید.</SelectAGeneToChooseAName>
+  <SelectAGeneToChooseAName>حداقل یک ژن را انتخاب کنید تا نامی برای این گونه ژنتیکی انتخاب کنید.</SelectAGeneToChooseAName>
 
   <!-- View genes -->
   <!-- EN: Inspect genes -->
@@ -133,13 +133,13 @@
   <!-- EN: Overridden by identical gene -->
   <OverriddenByIdenticalGene>بازنویسی شده توسط ژن یکسان</OverriddenByIdenticalGene>
   <!-- EN: More information is available on this xenotype's information screen. -->
-  <MoreInfoInInfoScreen>اطلاعات بیشتر در صفحه اطلاعات این زنوتایپ موجود است.</MoreInfoInInfoScreen>
+  <MoreInfoInInfoScreen>اطلاعات بیشتر در صفحه اطلاعات این گونه ژنتیکی موجود است.</MoreInfoInInfoScreen>
   <!-- EN: Takes effect after age -->
   <TakesEffectAfterAge>پس از سن اثر می‌گذارد</TakesEffectAfterAge>
 
   <!-- Xenotype editor -->
   <!-- EN: Xenotype editor -->
-  <XenotypeEditor>ویرایشگر زنوتایپ</XenotypeEditor>
+  <XenotypeEditor>ویرایشگر گونه ژنتیکی</XenotypeEditor>
   <!-- EN: Any (non-archite) -->
   <AnyNonArchite>هر (غیر آرکایت)</AnyNonArchite>
   <!-- EN: Selected genes -->
@@ -151,27 +151,27 @@
   <!-- EN: Genes are heritable -->
   <GenesAreInheritable>ژن‌ها قابل وراثت هستند</GenesAreInheritable>
   <!-- EN: Whether or not this xenotype can be passed on to children. -->
-  <GenesAreInheritableXenotypeDef>اینکه آیا این زنوتایپ می‌تواند به فرزندان منتقل شود یا خیر.</GenesAreInheritableXenotypeDef>
+  <GenesAreInheritableXenotypeDef>اینکه آیا این گونه ژنتیکی می‌تواند به فرزندان منتقل شود یا خیر.</GenesAreInheritableXenotypeDef>
   <!-- EN: All genes in this xenotype can be passed on to children. -->
-  <GenesAreInheritableDesc>تمام ژن‌های این زنوتایپ می‌توانند به فرزندان منتقل شوند.</GenesAreInheritableDesc>
+  <GenesAreInheritableDesc>تمام ژن‌های این گونه ژنتیکی می‌توانند به فرزندان منتقل شوند.</GenesAreInheritableDesc>
   <!-- EN: For each individual, one of the following genes will be randomly selected to be active -->
   <GeneWillBeRandomChosen>برای هر فرد، یکی از ژن‌های زیر به صورت تصادفی برای فعال شدن انتخاب می‌شود</GeneWillBeRandomChosen>
   <!-- EN: This gene is incompatible with other genes in this xenotype. Only one of these genes will be active -->
-  <GeneIncompatibleDesc>این ژن با ژن‌های دیگر در این زنوتایپ ناسازگار است. فقط یکی از این ژن‌ها فعال خواهد بود</GeneIncompatibleDesc>
+  <GeneIncompatibleDesc>این ژن با ژن‌های دیگر در این گونه ژنتیکی ناسازگار است. فقط یکی از این ژن‌ها فعال خواهد بود</GeneIncompatibleDesc>
   <!-- EN: Of the following genes, the left-most one will always apply and the others are suppressed -->
   <GeneLeftmostActive>از ژن‌های زیر، ژن سمت چپ همیشه اعمال می‌شود و بقیه سرکوب می‌شوند</GeneLeftmostActive>
   <!-- EN: Of the following genes, only one will apply and the others will be suppressed -->
   <GeneOneActive>از ژن‌های زیر، فقط یکی اعمال می‌شود و بقیه سرکوب می‌شوند</GeneOneActive>
   <!-- EN: Changing xenotype will randomize this colonist.\n\nContinue anyway? -->
-  <WarnChangingXenotypeWillRandomizePawn>تغییر زنوتایپ این مستعمره‌نشین را تصادفی می‌کند.\n\nبا این حال ادامه می‌دهید؟</WarnChangingXenotypeWillRandomizePawn>
+  <WarnChangingXenotypeWillRandomizePawn>تغییر گونه ژنتیکی این مستعمره‌نشین را تصادفی می‌کند.\n\nبا این حال ادامه می‌دهید؟</WarnChangingXenotypeWillRandomizePawn>
   <!-- EN: Delete this xenotype. -->
-  <DeleteThisXenotype>حذف این زنوتایپ.</DeleteThisXenotype>
+  <DeleteThisXenotype>حذف این گونه ژنتیکی.</DeleteThisXenotype>
   <!-- EN: Ignore restrictions -->
   <IgnoreRestrictions>نادیده گرفتن محدودیت‌ها</IgnoreRestrictions>
   <!-- EN: Created xenotypes have no biostat limits. Genes requiring archite capsules can be added. -->
-  <IgnoreRestrictionsDesc>زنوتایپ‌های ایجاد شده محدودیت بیواستات ندارند. ژن‌هایی که به کپسول‌های آرکایت نیاز دارند می‌توانند اضافه شوند.</IgnoreRestrictionsDesc>
+  <IgnoreRestrictionsDesc>گونه ژنتیکی‌های ایجاد شده محدودیت بیواستات ندارند. ژن‌هایی که به کپسول‌های آرکایت نیاز دارند می‌توانند اضافه شوند.</IgnoreRestrictionsDesc>
   <!-- EN: This xenotype breaks normal gameplay limits -->
-  <XenotypeBreaksLimits>این زنوتایپ محدودیت‌های عادی گیم‌پلی را می‌شکند</XenotypeBreaksLimits>
+  <XenotypeBreaksLimits>این گونه ژنتیکی محدودیت‌های عادی گیم‌پلی را می‌شکند</XenotypeBreaksLimits>
   <!-- EN: It contains archite genes and is inheritable, but archite genes are usually never inheritable. -->
   <XenotypeBreaksLimits_Archites>این شامل ژن‌های آرکایت است و قابل وراثت است، اما ژن‌های آرکایت معمولاً هرگز قابل وراثت نیستند.</XenotypeBreaksLimits_Archites>
   <!-- EN: {STAT} is {VALUE}, which exceeds the normal limit of {MAX}. -->
@@ -185,7 +185,7 @@
   <!-- EN: Colonists will always be within this developmental stage's age range when generated. -->
   <DevelopmentalAgeSelectionDesc>مستعمره‌نشینان هنگام تولید همیشه در محدوده سنی این مرحله رشد خواهند بود.</DevelopmentalAgeSelectionDesc>
   <!-- EN: Colonists will always carry the genes defined by this xenotype. -->
-  <XenotypeSelectionDesc>مستعمره‌نشینان همیشه ژن‌های تعریف شده توسط این زنوتایپ را حمل خواهند کرد.</XenotypeSelectionDesc>
+  <XenotypeSelectionDesc>مستعمره‌نشینان همیشه ژن‌های تعریف شده توسط این گونه ژنتیکی را حمل خواهند کرد.</XenotypeSelectionDesc>
   <!-- EN: Save and apply -->
   <SaveAndApply>ذخیره و اعمال</SaveAndApply>
   <!-- EN: Load custom -->
@@ -229,13 +229,13 @@
   <!-- EN: Weight class -->
   <MechWeightClass>رده وزنی</MechWeightClass>
   <!-- EN: The weight class of this mech. -->
-  <MechWeightClassExplanation>رده وزنی این مکانیوید.</MechWeightClassExplanation>
+  <MechWeightClassExplanation>رده وزنی این مکانوید.</MechWeightClassExplanation>
   <!-- EN: This mech's overseer is {0}. -->
-  <MechOverseer>ناظر این مکانیوید {0} است.</MechOverseer>
+  <MechOverseer>ناظر این مکانوید {0} است.</MechOverseer>
   <!-- EN: Work activities -->
   <MechWorkActivities>فعالیت‌های کاری</MechWorkActivities>
   <!-- EN: The work activities that can be performed by this mechanoid.\n\nThe following list details which work activities can be done within each work type -->
-  <MechWorkActivitiesExplanation>فعالیت‌های کاری که این مکانیوید می‌تواند انجام دهد.\n\nلیست زیر جزئیات فعالیت‌های کاری را که می‌توان در هر نوع کار انجام داد، نشان می‌دهد</MechWorkActivitiesExplanation>
+  <MechWorkActivitiesExplanation>فعالیت‌های کاری که این مکانوید می‌تواند انجام دهد.\n\nلیست زیر جزئیات فعالیت‌های کاری را که می‌توان در هر نوع کار انجام داد، نشان می‌دهد</MechWorkActivitiesExplanation>
   <!-- EN: Recharge settings -->
   <MechRechargeSettingsTitle>تنظیمات شارژ مجدد</MechRechargeSettingsTitle>
   <!-- EN: Change when mechanoids will start and stop charging.\n\nMechanoids with energy below this range will automatically seek out a recharger. They will stop charging once they reach the top of this range. These settings only apply in work mode. -->
@@ -243,21 +243,21 @@
   <!-- EN: Work skill -->
   <MechWorkSkill>مهارت کار</MechWorkSkill>
   <!-- EN: The skill level that this mechanoid acts with. -->
-  <MechWorkSkillDesc>سطح مهارتی که این مکانیوید با آن عمل می‌کند.</MechWorkSkillDesc>
+  <MechWorkSkillDesc>سطح مهارتی که این مکانوید با آن عمل می‌کند.</MechWorkSkillDesc>
   <!-- EN: Any mech -->
-  <AnyMech>هر مکانیوید</AnyMech>
+  <AnyMech>هر مکانوید</AnyMech>
   <!-- EN: Any human -->
   <AnyNonMech>هر انسانی</AnyNonMech>
   <!-- EN: Your caravan contains a mechanoid but not their overseer. You will have limited control over the mechanoid when you reach your destination. -->
-  <CaravanLacksMechMechanitorWarning>کاروان شما حاوی یک مکانیوید است اما ناظر آن نیست. هنگام رسیدن به مقصد، کنترل محدودی بر مکانیوید خواهید داشت.</CaravanLacksMechMechanitorWarning>
+  <CaravanLacksMechMechanitorWarning>کاروان شما حاوی یک مکانوید است اما ناظر آن نیست. هنگام رسیدن به مقصد، کنترل محدودی بر مکانوید خواهید داشت.</CaravanLacksMechMechanitorWarning>
   <!-- EN: Mechanoids -->
   <MechsSection>مکانیویدها</MechsSection>
 
   <!-- Pawn naming -->
   <!-- EN: Rename mech -->
-  <RenameMech>تغییر نام مکانیوید</RenameMech>
+  <RenameMech>تغییر نام مکانوید</RenameMech>
   <!-- EN: The mech's name is now {0}. -->
-  <MechGainsName>نام مکانیوید اکنون {0} است.</MechGainsName>
+  <MechGainsName>نام مکانوید اکنون {0} است.</MechGainsName>
 
   <!-- EN: {FATHER_nameDef} is {MOTHER_nameDef}'s {RELATION}. There's a {CHANCE} chance that the resulting baby will have genetic abnormalities due to inbreeding.\n\nAre you sure you want to continue? -->
   <FertilizeOvumInbredChance>{FATHER_nameDef} {RELATION} {MOTHER_nameDef} است. {CHANCE} شانس وجود دارد که نوزاد حاصل به دلیل همخونی ناهنجاری‌های ژنتیکی داشته باشد.\n\nآیا مطمئن هستید که می‌خواهید ادامه دهید؟</FertilizeOvumInbredChance>
@@ -298,7 +298,7 @@
 
 
   <!-- EN: Choose mech accent color -->
-  <ChooseMechAccentColor>انتخاب رنگ برجسته مکانیوید</ChooseMechAccentColor>
+  <ChooseMechAccentColor>انتخاب رنگ برجسته مکانوید</ChooseMechAccentColor>
 
   <!-- Faction specific comms overrides -->
   <!-- EN: {0} squeals a string of curses into the microphone and disconnects. -->

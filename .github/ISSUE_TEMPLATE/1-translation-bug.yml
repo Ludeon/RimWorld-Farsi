@@ -1,0 +1,49 @@
+name: 🐛 گزارش اشتباه ترجمه یا نگارش (Translation Bug)
+description: گزارش اشتباه ترجمه، اشکال دستوری، فاصله مجازی (ZWNJ) یا خطای نوشتاری در متن بازی.
+title: "[Bug]: "
+labels: ["translation", "bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        از گزارش شما برای بهبود ترجمه فارسی ریم‌ورلد سپاسگزاریم! لطفاً اطلاعات زیر را تکمیل فرمایید.
+  - type: dropdown
+    id: module
+    attributes:
+      label: بسته الحاقی یا ماژول بازی (Module / DLC)
+      description: متن مربوط به کدام بخش بازی است؟
+      options:
+        - Core (بازی پایه)
+        - Royalty (بسته سلطنتی)
+        - Ideology (بسته آیین‌ها)
+        - Biotech (بسته بیوتک)
+        - Anomaly (بسته ناهنجاری)
+        - Odyssey (نسخه ۱.۶)
+        - RTL Persian Support (ماد پیشتیبان)
+    validations:
+      required: true
+  - type: input
+    id: def_or_file
+    attributes:
+      label: نام فایل XML یا شناسه مورد (DefName / XML File)
+      description: در صورت اطلاع، نام فایل یا متغیر داخل بازی را بنویسید (مثلاً ThingDef/Items_Weapons.xml یا Gun_Autopistol).
+      placeholder: "e.g. Core/Keyed/Menus_Main.xml or ThingDef/Apparel.xml"
+  - type: textarea
+    id: current_text
+    attributes:
+      label: متن فعلی داخل بازی (Current In-Game Text)
+      description: متنی که هم‌اکنون به صورت اشتباه در بازی نمایش داده می‌شود.
+    validations:
+      required: true
+  - type: textarea
+    id: suggested_text
+    attributes:
+      label: پیشنهاد شما برای اصلاح (Suggested Translation)
+      description: متن پیشنهادی شما همراه با رعایت نیم‌فاصله‌ها و نگارش استاندارد.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: تصویر یا اسکرین‌شات از داخل بازی (Screenshot)
+      description: در صورت امکان اسکرین‌شات از محل نمایش متن در بازی را اینجا بچسبانید (Paste کنید).

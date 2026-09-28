@@ -10,7 +10,12 @@
 [![Type Checked: Mypy](https://img.shields.io/badge/type%20checked-mypy-blue.svg)](https://mypy-lang.org/)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 
-**[🇮🇷 مطالعه این راهنما به زبان فارسی (README_FA.md)](README_FA.md)**
+[![Translation Coverage](docs/badges/coverage.svg)](https://Ludeon.github.io/RimWorld-Farsi/)
+[![QA Status](docs/badges/qa_status.svg)](https://Ludeon.github.io/RimWorld-Farsi/)
+[![Corpus](docs/badges/corpus.svg)](https://Ludeon.github.io/RimWorld-Farsi/)
+[![Engine](docs/badges/engine.svg)](https://Ludeon.github.io/RimWorld-Farsi/)
+
+**[🌐 Official Documentation Portal (GitHub Pages)](https://Ludeon.github.io/RimWorld-Farsi/)** • **[🇮🇷 مطالعه این راهنما به زبان فارسی (README_FA.md)](README_FA.md)**
 
 </div>
 
@@ -26,11 +31,14 @@ Explore detailed documentation tailored to your needs:
 
 | Guide | Description | Target Audience |
 | :--- | :--- | :--- |
+| 🌐 **[Documentation Portal (GitHub Pages)](https://Ludeon.github.io/RimWorld-Farsi/)** | Interactive Web Portal with live grammar playground, searchable lexicon, and install guides. | Everyone |
+| 📜 **[PEP 2026: Roadmap & Architecture](docs/TODO.md)** | Strategic architectural specification, 10 implementation phases, and interactive task matrix. | Contributors & AI |
+| 🌌 **[Universe Lore & Style Guide](docs/LORE_AND_STYLE_GUIDE.md)** | Canonical Persian translations for world types, Archotechs, factions, and narrative tones. | Writers & Translators |
 | 📖 **[Translation Style Guide](docs/TRANSLATION_GUIDE.md)** | Persian typography (`ک`/`ی`), ZWNJ rules, format tokens (`{0}`), and official terminology glossary. | Translators & Reviewers |
 | 🧠 **[Technical Challenges & Engine Architecture](docs/TECHNICAL_CHALLENGES.md)** | Why Unity IMGUI lacks text meshes, RTL shaping failures, and the dual-layer solution ([Ludeon #11](https://github.com/Ludeon/RimWorld-ar/issues/11)). | Developers & Modders |
 | 🛠️ **[Developer Workflow & Tooling](docs/DEVELOPER_WORKFLOW.md)** | Setup with `uv`, pre-commit hooks, Ruff, Mypy, Pytest, and the `./tools/sync.sh` synchronization script. | Developers & Maintainers |
-| 📊 **[DLC Translation Progress](docs/TODO.md)** | Current line-by-line completion status across Core and all expansions. | Community |
 | 🤝 **[Contributing Guidelines](CONTRIBUTING.md)** | PR branching rules, commit standards, and step-by-step contribution paths. | Everyone |
+| 🤖 **[AI Contributor Specification (AGENTS.md)](AGENTS.md)** | Strict behavioral and linguistic rulebook for AI assistants (Gemini, Claude, GPT). | AI & Tooling |
 
 ---
 

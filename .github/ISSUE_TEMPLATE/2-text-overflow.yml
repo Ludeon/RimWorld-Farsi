@@ -1,0 +1,53 @@
+name: 📱 سرریز یا برش متن در رابط کاربری (Text Overflow / UI Clipping)
+description: گزارش بیرون‌زدگی متن از کادر، هم‌پوشانی دکمه‌ها یا برش خوردن خطوط (به ویژه روی استیم دک یا وضوح‌های خاص).
+title: "[UI Overflow]: "
+labels: ["ui-clipping", "steam-deck"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        گزارش خطاهای چیدمان رابط کاربری (IMGUI) به بهبود نمایش بازی در وضوح‌های مختلف (به‌ویژه 720p/800p استیم‌دک) کمک می‌کند.
+  - type: dropdown
+    id: resolution
+    attributes:
+      label: وضوح تصویر و دستگاه (Resolution & Platform)
+      options:
+        - Steam Deck (1280x800)
+        - 1080p (1920x1080)
+        - 1440p (2560x1440)
+        - 4K (3840x2160)
+        - سایر وضوح‌ها (Other)
+    validations:
+      required: true
+  - type: dropdown
+    id: font_used
+    attributes:
+      label: قلم فعال در تنظیمات ماد (Active Font)
+      options:
+        - Vazirmatn (وزیرمتن - پیش‌فرض)
+        - Iranian Sans (ایرانیان سنس)
+        - System Default (قلم سیستم)
+        - بدون ماد پشتیبان (Vanilla / Mod-Free)
+    validations:
+      required: true
+  - type: input
+    id: screen_location
+    attributes:
+      label: محل پنجره در بازی (Window / Dialog Name)
+      placeholder: "e.g. منوی ساخت و ساز (Architect Menu)، پنجره نیازهای پاون، تب پژوهش"
+    validations:
+      required: true
+  - type: textarea
+    id: issue_description
+    attributes:
+      label: شرح مشکل (Issue Description)
+      description: متن دقیقاً چگونه بریده شده یا هم‌پوشانی پیدا کرده است؟
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: اسکرین‌شات از صفحه بازی (Mandatory Screenshot)
+      description: لطفاً اسکرین‌شات از کادر بریده‌شده را در اینجا پیوست کنید.
+    validations:
+      required: true

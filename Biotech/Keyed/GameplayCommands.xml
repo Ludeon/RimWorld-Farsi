@@ -3,7 +3,7 @@
   <!-- EN: Auto-repair -->
   <CommandAutoRepair>تعمیر خودکار</CommandAutoRepair>
   <!-- EN: If active, a mechanitor will automatically repair this mechanoid. Repairing a mechanoid drains its energy. -->
-  <CommandAutoRepairDesc>اگر فعال باشد، یک مکانیتور به طور خودکار این مکانیوید را تعمیر می‌کند. تعمیر مکانیوید انرژی آن را تخلیه می‌کند.</CommandAutoRepairDesc>
+  <CommandAutoRepairDesc>اگر فعال باشد، یک مکانیتور به طور خودکار این مکانوید را تعمیر می‌کند. تعمیر مکانوید انرژی آن را تخلیه می‌کند.</CommandAutoRepairDesc>
 
   <!-- EN: {0_labelShort} is deathresting. -->
   <CommandDisabledDeathresting>{0_labelShort} در حال استراحت مرگ است.</CommandDisabledDeathresting>
@@ -16,7 +16,7 @@
   <!-- EN: Select overseer -->
   <CommandSelectOverseer>انتخاب ناظر</CommandSelectOverseer>
   <!-- EN: Select the mechanitor who is the overseer of this mech. -->
-  <CommandSelectOverseerDesc>مکانیتوری را که ناظر این مکانیوید است انتخاب کنید.</CommandSelectOverseerDesc>
+  <CommandSelectOverseerDesc>مکانیتوری را که ناظر این مکانوید است انتخاب کنید.</CommandSelectOverseerDesc>
   <!-- EN: No overseer. -->
   <CommandSelectOverseerDisabledDesc>بدون ناظر.</CommandSelectOverseerDisabledDesc>
 
@@ -26,9 +26,9 @@
   <CommandCancelExtractionDesc>فرآیند استخراج را لغو کنید. فرد موجود خارج خواهد شد.</CommandCancelExtractionDesc>
 
   <!-- EN: Summon mech threat... -->
-  <CommandCallBossgroup>احضار تهدید مکانیوید...</CommandCallBossgroup>
+  <CommandCallBossgroup>احضار تهدید مکانوید...</CommandCallBossgroup>
   <!-- EN: Summon an enemy leader mechanoid along with escorts.\n\nIf you defeat the leader mechanoid, it will drop a special chip which you can use to advance your own mechanoid technology.\n\nThere are three leader mechanoid types, each summoned a different way, each dropping a different type of chip. -->
-  <CommandCallBossgroupDesc>یک مکانیوید رهبر دشمن را همراه با اسکورت‌ها احضار کنید.\n\nاگر مکانیوید رهبر را شکست دهید، یک تراشه ویژه رها خواهد کرد که می‌توانید از آن برای پیشرفت فناوری مکانیوید خود استفاده کنید.\n\nسه نوع مکانیوید رهبر وجود دارد که هر کدام به روشی متفاوت احضار می‌شوند و هر کدام نوع متفاوتی از تراشه را رها می‌کنند.</CommandCallBossgroupDesc>
+  <CommandCallBossgroupDesc>یک مکانوید رهبر دشمن را همراه با اسکورت‌ها احضار کنید.\n\nاگر مکانوید رهبر را شکست دهید، یک تراشه ویژه رها خواهد کرد که می‌توانید از آن برای پیشرفت فناوری مکانوید خود استفاده کنید.\n\nسه نوع مکانوید رهبر وجود دارد که هر کدام به روشی متفاوت احضار می‌شوند و هر کدام نوع متفاوتی از تراشه را رها می‌کنند.</CommandCallBossgroupDesc>
 
   <!-- EN: Toggle auto load {0} -->
   <CommandAutoLoad>تغییر وضعیت بارگیری خودکار {0}</CommandAutoLoad>

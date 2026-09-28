@@ -1,0 +1,282 @@
+# RimWorld Farsi - Core Hediff Defs (Diseases & Implants)
+# Format: DefName: PersianLabel | EzāfehForm
+AcidBurn: اسید سوختگی | اسید سوختگی
+AlcoholAddiction: اعتیاد به الکل | اعتیاد به الکل
+AlcoholAddiction.stages.withdrawal: خروج | خروج
+AlcoholHigh: الکل | الکل
+AlcoholHigh.stages.blackout: خاموشی | خاموشی
+AlcoholHigh.stages.drunk: مست | مست
+AlcoholHigh.stages.hammered: چکش خورده | چکش خورده‌ی
+AlcoholHigh.stages.tipsy: بامزه | بامزه‌ی
+AlcoholHigh.stages.warm: گرم | گرم
+AlcoholTolerance: تحمل الکل | تحمل الکل
+AlcoholTolerance.stages.large: بزرگ | بزرگ
+AlcoholTolerance.stages.massive: عظیم | عظیم
+AlcoholTolerance.stages.small: کوچک | کوچک
+Alzheimers: آلزایمر | آلزایمر
+Alzheimers.stages.major-0: اصلی | اصلی
+Alzheimers.stages.major-1: اصلی | اصلی
+Alzheimers.stages.minor-0: جزئی | جزئی
+Alzheimers.stages.minor-1: جزئی | جزئی
+AmbrosiaAddiction: اعتیاد به آمبروزیا | اعتیاد به آمبروزیا ی
+AmbrosiaAddiction.stages.withdrawal: خروج | خروج
+AmbrosiaHigh: گرمای آمبروسیا | گرمای آمبروسیا ی
+AmbrosiaTolerance: تحمل آمبروسیا | تحمل آمبروسیا ی
+AmbrosiaTolerance.stages.large: بزرگ | بزرگ
+AmbrosiaTolerance.stages.massive: عظیم | عظیم
+AmbrosiaTolerance.stages.small: کوچک | کوچک
+Anesthetic: بیهوشی | بیهوشی
+Anesthetic.stages.sedated: آرام بخش | آرام بخش
+Anesthetic.stages.wearing_off: فرسوده شدن | فرسوده شدن
+Anesthetic.stages.woozy: بی حال | بی حال
+Animal_Flu: آنفولانزا | آنفولانزا ی
+Animal_Flu.stages.extreme: افراطی | افراطی
+Animal_Flu.stages.major: اصلی | اصلی
+Animal_Flu.stages.minor: جزئی | جزئی
+Animal_Plague: طاعون | طاعون
+Animal_Plague.stages.extreme-0: افراطی | افراطی
+Animal_Plague.stages.extreme-1: افراطی | افراطی
+Animal_Plague.stages.major: اصلی | اصلی
+Animal_Plague.stages.minor: جزئی | جزئی
+ArchotechArm: بازوی آرکوتک | بازوی آرکوتک
+ArchotechArm.comps.HediffComp_VerbGiver.tools.fist: مشت | مشت
+ArchotechEye: چشم آرکوتک | چشم آرکوتک
+ArchotechLeg: پا آرکوتک | پا آرکوتک
+Asthma: آسم | آسم
+Asthma.stages.major-0: اصلی | اصلی
+Asthma.stages.major-1: اصلی | اصلی
+Asthma.stages.minor: جزئی | جزئی
+BadBack: پشت بد | پشت بد
+BeamWound: پرتو سوختن | پرتو سوختن
+BionicArm: بازوی بیونیک | بازوی بیونیک
+BionicArm.comps.HediffComp_VerbGiver.tools.fist: مشت | مشت
+BionicEar: گوش بیونیک | گوش بیونیک
+BionicEye: چشم بیونیک | چشم بیونیک
+BionicHeart: قلب بیونیک | قلب بیونیک
+BionicJaw: فک بیونیک | فک بیونیک
+BionicLeg: پای بیونیک | پای بیونیک
+BionicSpine: ستون فقرات بیونیک | ستون فقرات بیونیک
+BionicStomach: معده بیونیک | معده بیونیک
+BionicTongue: زبان بیونیک | زبان بیونیک
+Bite: گاز گرفتن | گاز گرفتن
+Blindness: کوری | کوری
+BloodLoss: از دست دادن خون | از دست دادن خون
+BloodLoss.stages.extreme: افراطی | افراطی
+BloodLoss.stages.minor-0: جزئی | جزئی
+BloodLoss.stages.minor-1: جزئی | جزئی
+BloodLoss.stages.moderate: متوسط | متوسط
+BloodLoss.stages.severe: شدید | شدید
+BrainShock: شوک مغزی | شوک مغزی
+Bruise: کبودی | کبودی
+Burn: سوختن | سوختن
+Carcinoma: سرطان | سرطان
+Carcinoma.stages.extreme-0: افراطی | افراطی
+Carcinoma.stages.extreme-1: افراطی | افراطی
+Carcinoma.stages.major-0: اصلی | اصلی
+Carcinoma.stages.major-1: اصلی | اصلی
+Carcinoma.stages.minor-0: جزئی | جزئی
+Carcinoma.stages.minor-1: جزئی | جزئی
+Cataract: آب مروارید | آب مروارید
+CatatonicBreakdown: شکست کاتاتونیک | شکست کاتاتونیک
+ChemicalBurn: سوختگی شیمیایی | سوختگی شیمیایی
+ChemicalDamageModerate: آسیب شیمیایی | آسیب شیمیایی
+ChemicalDamageSevere: آسیب شیمیایی | آسیب شیمیایی
+Cirrhosis: سیروز | سیروز
+CochlearImplant: کاشت حلزون شنوایی | کاشت حلزون شنوایی
+CoveredInFirefoam: پوشیده از فوم آتش | پوشیده از فوم آتش
+Crack: کرک | کرک
+Crush: خرد کردن | خرد کردن
+CryptosleepSickness: بیماری cryptosleep | بیماری cryptosleep
+Cut: برش دادن | برش دادن
+DEV_Unburnable: غیر قابل سوختن | غیر قابل سوختن
+DeathAcidifier: اسیدی کننده مرگ | اسیدی کننده مرگ
+Decayed: اندام پوسیده | اندام پوسیده‌ی
+Dementia: زوال عقل | زوال عقل
+Denture: دندان مصنوعی | دندان مصنوعی
+DirtInEyes: خاک | خاک
+DrugOverdose: مصرف بیش از حد دارو | مصرف بیش از حد دارو ی
+DrugOverdose.stages.major: اصلی | اصلی
+DrugOverdose.stages.minor-0: جزئی | جزئی
+DrugOverdose.stages.minor-1: جزئی | جزئی
+ElectricalBurn: سوختگی الکتریکی | سوختگی الکتریکی
+ExecutionCut: برش دادن | برش دادن
+FibrousMechanites: مکانیک های فیبری | مکانیک های فیبری
+FibrousMechanites.stages.intense_pain: درد شدید | درد شدید
+FibrousMechanites.stages.mild_pain: درد خفیف | درد خفیف
+FlakeHigh: روی پوسته | روی پوسته‌ی
+Flu: آنفولانزا | آنفولانزا ی
+Flu.stages.extreme: افراطی | افراطی
+Flu.stages.major: اصلی | اصلی
+Flu.stages.minor: جزئی | جزئی
+FoodPoisoning: مسمومیت غذایی | مسمومیت غذایی
+FoodPoisoning.stages.initial: اولیه | اولیه‌ی
+FoodPoisoning.stages.major: اصلی | اصلی
+FoodPoisoning.stages.recovering: در حال بهبودی | در حال بهبودی
+Frail: ضعیف | ضعیف
+Frostbite: سرمازدگی | سرمازدگی
+GoJuiceAddiction: اعتیاد به آب میوه | اعتیاد به آب میوه‌ی
+GoJuiceAddiction.stages.withdrawal: خروج | خروج
+GoJuiceHigh: پر از آب میوه | پر از آب میوه‌ی
+GoJuiceTolerance: تحمل آب میوه | تحمل آب میوه‌ی
+GoJuiceTolerance.stages.large: بزرگ | بزرگ
+GoJuiceTolerance.stages.massive: عظیم | عظیم
+GoJuiceTolerance.stages.small: کوچک | کوچک
+GravelInEyes: سنگریزه | سنگریزه‌ی
+Gunshot: شلیک گلوله | شلیک گلوله‌ی
+GutWorms: کرم های روده | کرم های روده‌ی
+Hangover: خماری | خماری
+Hangover.stages.pounding: کوبیدن | کوبیدن
+Hangover.stages.slight: اندک | اندک
+Hangover.stages.strong: قوی | قوی
+HearingLoss: کاهش شنوایی | کاهش شنوایی
+HeartArteryBlockage: انسداد شریان | انسداد شریان
+HeartArteryBlockage.stages.extreme: افراطی | افراطی
+HeartArteryBlockage.stages.major-0: اصلی | اصلی
+HeartArteryBlockage.stages.major-1: اصلی | اصلی
+HeartArteryBlockage.stages.minor-0: جزئی | جزئی
+HeartArteryBlockage.stages.minor-1: جزئی | جزئی
+HeartAttack: حمله قلبی | حمله قلبی
+HeartAttack.stages.debilitating: ناتوان کننده | ناتوان کننده‌ی
+HeartAttack.stages.fatal: کشنده | کشنده‌ی
+HeartAttack.stages.painful: دردناک | دردناک
+Heatstroke: گرمازدگی | گرمازدگی
+Heatstroke.stages.extreme: افراطی | افراطی
+Heatstroke.stages.initial-0: اولیه | اولیه‌ی
+Heatstroke.stages.initial-1: اولیه | اولیه‌ی
+Heatstroke.stages.minor: جزئی | جزئی
+Heatstroke.stages.serious: جدی | جدی
+Hypothermia: هیپوترمی | هیپوترمی
+Hypothermia.stages.extreme: افراطی | افراطی
+Hypothermia.stages.minor: جزئی | جزئی
+Hypothermia.stages.serious: جدی | جدی
+Hypothermia.stages.shivering-0: لرزیدن | لرزیدن
+Hypothermia.stages.shivering-1: لرزیدن | لرزیدن
+HypothermicSlowdown: کاهش سرعت هیپوترمیک | کاهش سرعت هیپوترمیک
+HypothermicSlowdown.stages.extreme: افراطی | افراطی
+HypothermicSlowdown.stages.minor-0: جزئی | جزئی
+HypothermicSlowdown.stages.minor-1: جزئی | جزئی
+HypothermicSlowdown.stages.moderate: متوسط | متوسط
+HypothermicSlowdown.stages.serious: جدی | جدی
+Joywire: جوی‌وایر | جوی‌وایر
+LuciferiumAddiction: نیاز به لوسیفریوم | نیاز به لوسیفریوم
+LuciferiumAddiction.stages.unmet: برآورده نشده | برآورده نشده‌ی
+LuciferiumHigh: لوسیفریوم | لوسیفریوم
+LungRot: پوسیدگی ریه | پوسیدگی ریه‌ی
+LungRot.stages.extreme: افراطی | افراطی
+LungRot.stages.major: اصلی | اصلی
+LungRot.stages.minor: جزئی | جزئی
+LungRotExposure: قرار گرفتن در معرض پوسیدگی بوی بد | قرار گرفتن در معرض پوسیدگی بوی بد
+LungRotExposure.stages.major: اصلی | اصلی
+LungRotExposure.stages.minor: جزئی | جزئی
+LungRotExposure.stages.serious: جدی | جدی
+Malaria: مالاریا | مالاریا ی
+Malaria.stages.extreme: افراطی | افراطی
+Malaria.stages.major: اصلی | اصلی
+Malaria.stages.minor: جزئی | جزئی
+Malnutrition: سوء تغذیه | سوء تغذیه‌ی
+Malnutrition.stages.extreme: افراطی | افراطی
+Malnutrition.stages.minor: جزئی | جزئی
+Malnutrition.stages.moderate: متوسط | متوسط
+Malnutrition.stages.severe: شدید | شدید
+Malnutrition.stages.trivial: ناچیز | ناچیز
+Misc: زخم | زخم
+MissingBodyPart: بخشی از بدن گم شده | بخشی از بدن گم شده‌ی
+MudInEyes: گل و لای | گل و لای
+MuscleParasites: انگل های عضلانی | انگل های عضلانی
+OrganDecay: پوسیدگی اندام | پوسیدگی اندام
+OrganDecay.stages.extreme: افراطی | افراطی
+OrganDecay.stages.minor: جزئی | جزئی
+OrganDecay.stages.moderate: متوسط | متوسط
+OrganDecay.stages.severe: شدید | شدید
+Painstopper: ضد درد | ضد درد
+PegLeg: پای میخ | پای میخ
+PenoxycylineHigh: پنوکسی سیلین | پنوکسی سیلین
+Plague: طاعون | طاعون
+Plague.stages.extreme-0: افراطی | افراطی
+Plague.stages.extreme-1: افراطی | افراطی
+Plague.stages.major: اصلی | اصلی
+Plague.stages.minor: جزئی | جزئی
+PowerClaw: پنجه قدرت | پنجه قدرت
+PowerClaw.comps.HediffComp_VerbGiver.tools.claw: پنجه | پنجه‌ی
+Pregnant: حامله | حامله‌ی
+Pregnant.stages.earlystage: مرحله اولیه | مرحله اولیه‌ی
+Pregnant.stages.latestage: مرحله آخر | مرحله آخر
+Pregnant.stages.middlestage: مرحله میانی | مرحله میانی
+PsychicAmplifier: پیوند روانی | پیوند روانی
+PsychicComa: کمای روانی | کمای روانی
+PsychicHangover: خماری روانی | خماری روانی
+PsychicHangover.stages.buzzing: وزوز | وزوز
+PsychicHangover.stages.forming: تشکیل | تشکیل
+PsychicInvisibility: نامرئی روانی | نامرئی روانی
+PsychicShock: شوک روانی | شوک روانی
+PsychiteAddiction: اعتیاد به روان | اعتیاد به روان
+PsychiteAddiction.stages.withdrawal: خروج | خروج
+PsychiteTeaHigh: سرشار از چای روان | سرشار از چای روان
+PsychiteTolerance: تحمل روانی | تحمل روانی
+PsychiteTolerance.stages.large: بزرگ | بزرگ
+PsychiteTolerance.stages.massive: عظیم | عظیم
+PsychiteTolerance.stages.small: کوچک | کوچک
+ResurrectionPsychosis: روان پریشی رستاخیز | روان پریشی رستاخیز
+ResurrectionPsychosis.stages.advanced: پیشرفته | پیشرفته‌ی
+ResurrectionPsychosis.stages.catatonic: کاتاتونیک | کاتاتونیک
+ResurrectionPsychosis.stages.early-0: اوایل | اوایل
+ResurrectionPsychosis.stages.early-1: اوایل | اوایل
+ResurrectionPsychosis.stages.moderate: متوسط | متوسط
+ResurrectionPsychosis.stages.severe: شدید | شدید
+ResurrectionPsychosis.stages.total: کل | کل
+ResurrectionSickness: بیماری رستاخیز | بیماری رستاخیز
+SandInEyes: شن و ماسه | شن و ماسه‌ی
+Scaria: اسکاریا | اسکاریا ی
+ScariaInfection: عفونت اسکاریا | عفونت اسکاریا ی
+ScariaInfection.stages.extreme: افراطی | افراطی
+ScariaInfection.stages.major: اصلی | اصلی
+ScariaInfection.stages.minor: جزئی | جزئی
+Scratch: خراش | خراش
+SensoryMechanites: مکانیت های حسی | مکانیت های حسی
+SensoryMechanites.stages.intense_pain: درد شدید | درد شدید
+SensoryMechanites.stages.mild_pain: درد خفیف | درد خفیف
+Shredded: خرد شده | خرد شده‌ی
+SimpleProstheticArm: بازوی مصنوعی | بازوی مصنوعی
+SimpleProstheticArm.comps.HediffComp_VerbGiver.tools.fist: مشت | مشت
+SimpleProstheticHeart: قلب مصنوعی | قلب مصنوعی
+SimpleProstheticLeg: پای مصنوعی | پای مصنوعی
+SleepingSickness: بیماری خواب | بیماری خواب
+SleepingSickness.stages.extreme-0: افراطی | افراطی
+SleepingSickness.stages.extreme-1: افراطی | افراطی
+SleepingSickness.stages.major: اصلی | اصلی
+SleepingSickness.stages.minor-0: جزئی | جزئی
+SleepingSickness.stages.minor-1: جزئی | جزئی
+SmokeleafAddiction: وابستگی به برگ دود | وابستگی به برگ دود
+SmokeleafAddiction.stages.withdrawal: خروج | خروج
+SmokeleafHigh: سنگ زده روی برگ دود | سنگ زده روی برگ دود
+SmokeleafTolerance: تحمل برگ دود | تحمل برگ دود
+SmokeleafTolerance.stages.large: بزرگ | بزرگ
+SmokeleafTolerance.stages.massive: عظیم | عظیم
+SmokeleafTolerance.stages.small: کوچک | کوچک
+Stab: چاقو زدن | چاقو زدن
+Sterilized: استریل شده | استریل شده‌ی
+SurgicalCut: برش جراحی | برش جراحی
+ToxicBuildup: تجمع سمی | تجمع سمی
+ToxicBuildup.stages.extreme: افراطی | افراطی
+ToxicBuildup.stages.initial-0: اولیه | اولیه‌ی
+ToxicBuildup.stages.initial-1: اولیه | اولیه‌ی
+ToxicBuildup.stages.minor: جزئی | جزئی
+ToxicBuildup.stages.moderate: متوسط | متوسط
+ToxicBuildup.stages.serious: جدی | جدی
+TraumaSavant: دانشمند تروما | دانشمند تروما ی
+WakeUpAddiction: اعتیاد بیداری | اعتیاد بیداری
+WakeUpAddiction.stages.withdrawal: خروج | خروج
+WakeUpHigh: بالا در بیداری | بالا در بیداری
+WakeUpTolerance: تحمل بیداری | تحمل بیداری
+WakeUpTolerance.stages.large: بزرگ | بزرگ
+WakeUpTolerance.stages.massive: عظیم | عظیم
+WakeUpTolerance.stages.small: کوچک | کوچک
+WaterInEyes: آب | آب
+WoodenFoot: پای چوبی | پای چوبی
+WoodenHand: دست چوبی | دست چوبی
+WoundInfection: عفونت | عفونت
+WoundInfection.stages.extreme-0: افراطی | افراطی
+WoundInfection.stages.extreme-1: افراطی | افراطی
+WoundInfection.stages.major: اصلی | اصلی
+WoundInfection.stages.minor: جزئی | جزئی
+YayoHigh: بالا یایو | بالا یایو ی
