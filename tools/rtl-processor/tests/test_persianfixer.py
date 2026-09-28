@@ -316,3 +316,42 @@ class TestPerformance:
         # Should complete in less than 1 second
         assert processing_time < 1.0
         assert result != test_text
+
+
+class TestGrammarRules:
+    """Test cases for RimWorld grammar rules (RulePackDef entries with '->')."""
+
+    def test_rule_keyword_and_arrow_preserved(self):
+        """Test that the keyword and '->' operator are never reversed."""
+        rule_input = "placeEnd->انس"
+        result = reverse_text_and_contextualize(rule_input)
+
+        assert result.startswith("placeEnd->")
+        assert "dnEecalp" not in result
+        assert ">-" not in result
+        assert result != rule_input
+
+    def test_parameterized_rule_preserved(self):
+        """Test rules with parameters like (p=8) or (priority=1, uses=1)."""
+        rule_input = "r_deityName(p=8)->الله"
+        result = reverse_text_and_contextualize(rule_input)
+
+        assert result.startswith("r_deityName(p=8)->")
+        assert ")8=p(" not in result
+        assert ">-" not in result
+
+    def test_non_rtl_rule_unchanged(self):
+        """Test that English rules without RTL characters are completely untouched."""
+        rule_input = "placeEnd->az"
+        result = reverse_text_and_contextualize(rule_input)
+
+        assert result == rule_input
+
+    def test_rule_with_brackets(self):
+        """Test that grammar substitution tags in brackets are preserved in rule values."""
+        rule_input = "festivalName->جشن [chosenTheme]"
+        result = reverse_text_and_contextualize(rule_input)
+
+        assert result.startswith("festivalName->")
+        assert "[chosenTheme]" in result
+        assert ">-" not in result

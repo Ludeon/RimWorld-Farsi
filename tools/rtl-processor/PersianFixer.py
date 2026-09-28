@@ -78,7 +78,7 @@ NON_CONNECTING_LETTERS = "اأإآدذرزژوؤةى"
 ISOLATED_LETTERS = "ء"
 ALEF_VARIANTS = "اأإآ"
 RTL_CHAR_REGEX = r"[\u0600-\u06FF\u0590-\u05FF]"
-PLACEHOLDER_REGEX = r"{.*?}"
+PLACEHOLDER_REGEX = r"\{.*?\}|\[.*?\]"
 
 # --- Core Processing Logic ---
 
@@ -86,20 +86,13 @@ PLACEHOLDER_REGEX = r"{.*?}"
 def process_node(node: etree._Element) -> None:
     """
     Applies the full reversal and contextualization logic to an XML node's text.
+    Preserves RimWorld grammar rule definitions (containing '->').
     """
     content = node.text
     if not content or not re.search(RTL_CHAR_REGEX, content):
         return
 
-    # 1. Split text into words.
-    words = content.split()
-
-    # 2. Process each word: first reverse letters (if RTL), then contextualize.
-    processed_words = [_process_word(word) for word in words]
-
-    # 3. Reverse the order of the fully processed words and join them back.
-    processed_words.reverse()
-    node.text = " ".join(processed_words)
+    node.text = reverse_text_and_contextualize(content)
 
 
 def _process_word(word: str) -> str:
@@ -243,26 +236,52 @@ def _get_contextual_non_connecting(letter: str, prev_letter: str | None) -> str:
     return chr(base_code)  # Isolated
 
 
-# --- String Processing for Testing ---
+# --- String Processing ---
+
+
+def _reverse_and_contextualize_string(text: str) -> str:
+    """Reverses and contextualizes words in an RTL text string."""
+    words = text.split()
+    processed_words = [_process_word(word) for word in words]
+    processed_words.reverse()
+    return " ".join(processed_words)
 
 
 def reverse_text_and_contextualize(text: str) -> str:
     """
     Applies the full reversal and contextualization logic to a text string.
-    This is a testable wrapper around the core processing logic.
+    If the text defines a RimWorld grammar rule (contains '->'), the rule
+    keyword and '->' operator are preserved intact while only the rule
+    content (RHS) is reversed and contextualized.
     """
     if not text or not re.search(RTL_CHAR_REGEX, text):
         return text
 
-    # 1. Split text into words.
-    words = text.split()
+    lines = text.split("\n")
+    processed_lines = []
+    for line in lines:
+        if not line or not re.search(RTL_CHAR_REGEX, line):
+            processed_lines.append(line)
+            continue
 
-    # 2. Process each word: first reverse letters (if RTL), then contextualize.
-    processed_words = [_process_word(word) for word in words]
+        if "->" in line:
+            prefix, arrow, suffix = line.partition("->")
+            if re.search(RTL_CHAR_REGEX, suffix):
+                leading = suffix[: len(suffix) - len(suffix.lstrip())]
+                trailing = suffix[len(suffix.rstrip()) :]
+                reversed_val = _reverse_and_contextualize_string(suffix.strip())
+                processed_lines.append(
+                    f"{prefix}{arrow}{leading}{reversed_val}{trailing}"
+                )
+            else:
+                processed_lines.append(line)
+        else:
+            leading = line[: len(line) - len(line.lstrip())]
+            trailing = line[len(line.rstrip()) :]
+            reversed_val = _reverse_and_contextualize_string(line.strip())
+            processed_lines.append(f"{leading}{reversed_val}{trailing}")
 
-    # 3. Reverse the order of the fully processed words and join them back.
-    processed_words.reverse()
-    return " ".join(processed_words)
+    return "\n".join(processed_lines)
 
 
 # --- File and Directory Parsing ---
