@@ -120,6 +120,7 @@ To maintain mod compatibility and prevent gameplay bugs:
 - **Developer Mode & Debug Logs**: Kept in original English for technical troubleshooting.
 - **Keybinding Identifiers**: Retained to match physical keyboards.
 - **Original Credits**: Preserved to honor the game's creators.
+- **English Reference (`src/english/`)**: Original English game language files are mirrored under `src/english/` for upstream diffing and translation tooling (`tools/translation-tools/check_upstream_diff.py`).
 
 ---
 

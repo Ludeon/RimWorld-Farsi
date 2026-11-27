@@ -227,15 +227,18 @@ class UpstreamDiffEngine:
         return stubs_created
 
 
+DEFAULT_ENGLISH_DIR = Path(__file__).resolve().parent.parent.parent / "src" / "english"
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(
         description="RimWorld Upstream Translation Diff Engine & Stub Generator"
     )
     parser.add_argument(
         "--english-dir",
-        required=True,
         type=Path,
-        help="Path to English language source directory or game Data/ folder",
+        default=DEFAULT_ENGLISH_DIR,
+        help="Path to English language source directory or game Data/ folder (default: src/english)",
     )
     parser.add_argument(
         "--persian-dir",

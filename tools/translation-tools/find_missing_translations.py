@@ -8,6 +8,7 @@ to find missing or empty translations, outputting them in key==value format.
 
 from __future__ import annotations
 
+import argparse
 import sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -66,39 +67,53 @@ def find_xml_files(directory: Path | str) -> list[Path]:
     return sorted(dir_path.rglob("*.xml"))
 
 
+def resolve_english_dir(project_root: Path, explicit_dir: Path | None = None) -> Path:
+    """Resolve the English reference directory, preferring ``src/english``."""
+    if explicit_dir is not None:
+        return explicit_dir
+    src_english = project_root / "src" / "english"
+    if src_english.exists():
+        return src_english
+    return project_root / "english"
+
+
 def get_corresponding_persian_path(
-    english_path: Path | str, project_root: Path | None = None
+    english_path: Path | str,
+    project_root: Path | None = None,
+    english_dir: Path | None = None,
 ) -> Path:
     """Convert an English file path to its corresponding Persian path cross-platform.
 
     Args:
         english_path: Path to English XML file
         project_root: Optional root directory of the project
+        english_dir: Optional root directory of English reference files
 
     Returns:
         Corresponding Persian XML file path
     """
     path_obj = Path(english_path)
     if project_root is not None:
-        try:
-            rel = path_obj.relative_to(project_root / "english")
-            # 1. Official Ludeon layout: directly at project root (e.g. Core/DefInjected)
-            root_candidate = project_root / rel
-            if root_candidate.exists():
+        base_english = english_dir or resolve_english_dir(project_root)
+        for candidate_base in (base_english, project_root / "src" / "english", project_root / "english"):
+            try:
+                rel = path_obj.relative_to(candidate_base)
+                # 1. Official Ludeon layout: directly at project root (e.g. Core/DefInjected)
+                root_candidate = project_root / rel
+                if root_candidate.exists():
+                    return root_candidate
+                # 2. Legacy fallback: project_root / Data / rel
+                data_candidate = project_root / "Data" / rel
+                if data_candidate.exists():
+                    return data_candidate
                 return root_candidate
-            # 2. Legacy fallback: project_root / Data / rel
-            data_candidate = project_root / "Data" / rel
-            if data_candidate.exists():
-                return data_candidate
-            return root_candidate
-        except ValueError:
-            pass
+            except ValueError:
+                continue
 
     parts = list(path_obj.parts)
     if "english" in parts:
         idx = parts.index("english")
-        parts.pop(idx)  # Map english/<module> to <module>
-        return Path(*parts)
+        return Path(*parts[idx + 1 :])
     return path_obj
 
 
@@ -107,8 +122,25 @@ def main() -> None:
     script_dir = Path(__file__).resolve().parent
     project_root = script_dir.parent.parent
 
-    english_dir = project_root / "english"
-    output_file = project_root / "TranslationReport.txt"
+    parser = argparse.ArgumentParser(
+        description="Compare English reference XML files against Persian translations."
+    )
+    parser.add_argument(
+        "--english-dir",
+        type=Path,
+        default=None,
+        help="Path to English reference directory (default: src/english or english/)",
+    )
+    parser.add_argument(
+        "--output",
+        type=Path,
+        default=project_root / "TranslationReport.txt",
+        help="Output report file path (default: TranslationReport.txt)",
+    )
+    args = parser.parse_args()
+
+    english_dir = resolve_english_dir(project_root, args.english_dir)
+    output_file = args.output
 
     if not english_dir.exists():
         print(f"Error: English reference directory not found: {english_dir}")
@@ -138,7 +170,9 @@ def main() -> None:
         english_translations = parse_xml_file(english_file)
 
         # Get corresponding Persian file
-        persian_file = get_corresponding_persian_path(english_file, project_root)
+        persian_file = get_corresponding_persian_path(
+            english_file, project_root, english_dir
+        )
 
         # Parse Persian file
         persian_translations = parse_xml_file(persian_file)

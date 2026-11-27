@@ -104,6 +104,16 @@ Pulls modifications made in-game back into the repository tree:
 ./tools/sync.sh --gamepath "/path/to/RimWorld" --direction pull
 ```
 
+### English Reference Files (`src/english/`)
+Original English game files (`Keyed/`, `Strings/`, and Core `DefInjected/`) are stored under `src/english/<Module>/`. To refresh them after a RimWorld update or check upstream diffs:
+```bash
+# Refresh src/english/ from a local RimWorld Data/ folder
+python tools/translation-tools/sync_english.py --game-data-dir "/path/to/RimWorld/Data"
+
+# Compare Persian translations against src/english/
+python tools/translation-tools/check_upstream_diff.py
+```
+
 ---
 
 ## 6. One-Click Installers (`install.bat` & `install.sh`)
