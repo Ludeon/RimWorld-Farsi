@@ -275,7 +275,7 @@ namespace RTL_Persian
             }
         }
 
-        private static void ApplyStyleFontsAndSizes(GUIStyle[] styles, int[] baseSizes, Font font, float scale)
+        private static void ApplyStyleFontsAndSizes(GUIStyle[] styles, int[] baseSizes, Font font, float scale, int tinyDelta = 0)
         {
             if (styles == null) return;
             for (int i = 0; i < styles.Length; i++)
@@ -287,7 +287,9 @@ namespace RTL_Persian
                 }
                 if (baseSizes != null && i < baseSizes.Length && baseSizes[i] > 0)
                 {
-                    styles[i].fontSize = Mathf.RoundToInt(baseSizes[i] * scale);
+                    // Trim 1px on GameFont.Tiny (index 0) so wider Persian glyphs fit inside compact 75x75px gizmo buttons.
+                    int adjusted = Mathf.RoundToInt(baseSizes[i] * scale) + (i == 0 ? tinyDelta : 0);
+                    styles[i].fontSize = Mathf.Max(8, adjusted);
                 }
             }
         }
@@ -321,7 +323,7 @@ namespace RTL_Persian
                         {
                             OriginalFont = Text.fontStyles[0].font;
                         }
-                        SetGameFont(PersianFont, fontScale);
+                        SetGameFont(PersianFont, fontScale, -1);
                     }
                 }
             }
@@ -361,7 +363,7 @@ namespace RTL_Persian
             }
         }
 
-        private static void SetGameFont(Font font, float scale = 1.0f)
+        private static void SetGameFont(Font font, float scale = 1.0f, int tinyDelta = 0)
         {
             if (font == null) return;
 
@@ -377,10 +379,10 @@ namespace RTL_Persian
                 }
             }
 
-            ApplyStyleFontsAndSizes(Text.fontStyles, _baseFontSizes, font, scale);
-            ApplyStyleFontsAndSizes(Text.textFieldStyles, _baseTextFieldFontSizes, font, scale);
-            ApplyStyleFontsAndSizes(Text.textAreaStyles, _baseTextAreaFontSizes, font, scale);
-            ApplyStyleFontsAndSizes(Text.textAreaReadOnlyStyles, _baseTextAreaReadOnlyFontSizes, font, scale);
+            ApplyStyleFontsAndSizes(Text.fontStyles, _baseFontSizes, font, scale, tinyDelta);
+            ApplyStyleFontsAndSizes(Text.textFieldStyles, _baseTextFieldFontSizes, font, scale, tinyDelta);
+            ApplyStyleFontsAndSizes(Text.textAreaStyles, _baseTextAreaFontSizes, font, scale, tinyDelta);
+            ApplyStyleFontsAndSizes(Text.textAreaReadOnlyStyles, _baseTextAreaReadOnlyFontSizes, font, scale, tinyDelta);
 
             if (GUI.skin != null)
             {
