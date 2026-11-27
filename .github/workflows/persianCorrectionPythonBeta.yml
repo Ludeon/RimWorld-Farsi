@@ -608,57 +608,92 @@ jobs:
           done
 
       - name: Create GitHub Release
-        uses: softprops/action-gh-release@8a0cd651e5b2365bd64a854a3fa5dfc70e4875f3 # v3.0.4
-        with:
-          tag_name: ${{ needs.merge-modules.outputs.version-tag }}
-          name: Persian Language Pack ${{ needs.merge-modules.outputs.version-tag }}
-          generate_release_notes: false
-          body: |
-            **Compatibility:** RimWorld 1.6 (`Core`, `Royalty`, `Ideology`, `Biotech`, `Anomaly`, `Odyssey`)
-
-            <div dir="rtl">
-
-            ### راهنمای سریع نصب
-
-            1. فایل `autoinstall-windows.bat` (ویندوز) یا `autoinstall-linux.sh` (لینوکس، استیم‌دک و مک) را از ردیف اول جدول زیر دانلود و اجرا کنید *(روش پیشنهادی: دانلود و نصب خودکار)*؛ یا یکی از بسته‌های آفلاین جدول را دریافت کنید.
-            2. در منوی نصب گزینه مورد نظر خود را انتخاب کنید؛ گزینه همراه با ماد، بهترین کیفیت فونت و نمایش راست‌به‌چپ را ارائه می‌دهد.
-            3. بازی را اجرا کرده، در بخش **Mods** ماد `RTL Persian Support` را فعال کنید و زبان بازی را روی **Persian** قرار دهید.
-
-            </div>
-
-            ---
-
-            ### 📝 What's Changed
-            ${{ steps.changelog.outputs.changes }}
-
-            ${{ steps.changelog.outputs.prev_tag && format('**Full Changelog**: https://github.com/{0}/compare/{1}...{2}', github.repository, steps.changelog.outputs.prev_tag, needs.merge-modules.outputs.version-tag) || '' }}
-
-            ---
-            ### 📦 Downloads & Auto-Installers (Windows / Linux)
-            Download and run the **1-File Auto-Installer (Recommended)** for your OS, or grab an offline ZIP bundle containing `install-windows.bat` / `install-linux.sh`:
-
-            | Package | Windows | Linux / Steam Deck / macOS | Notes |
-            | :--- | :--- | :--- | :--- |
-            | **1-File Auto-Installer (Recommended)** | [`autoinstall-windows.bat`](https://github.com/${{ github.repository }}/releases/download/${{ needs.merge-modules.outputs.version-tag }}/autoinstall-windows.bat) | [`autoinstall-linux.sh`](https://github.com/${{ github.repository }}/releases/download/${{ needs.merge-modules.outputs.version-tag }}/autoinstall-linux.sh) | Interactive 1-click installer (auto-downloads & installs your chosen edition) |
-            | **With RTL Mod** | [`RimWorld-Farsi-With-RTL-Mod-${{ needs.merge-modules.outputs.version-tag }}-windows.zip`](https://github.com/${{ github.repository }}/releases/download/${{ needs.merge-modules.outputs.version-tag }}/RimWorld-Farsi-With-RTL-Mod-${{ needs.merge-modules.outputs.version-tag }}-windows.zip) | [`RimWorld-Farsi-With-RTL-Mod-${{ needs.merge-modules.outputs.version-tag }}-linux.zip`](https://github.com/${{ github.repository }}/releases/download/${{ needs.merge-modules.outputs.version-tag }}/RimWorld-Farsi-With-RTL-Mod-${{ needs.merge-modules.outputs.version-tag }}-linux.zip) | Raw UTF-8 UI + English `Strings/` + `RTL_Persian_Support` mod (`Vazirmatn` font & BiDi engine) |
-            | **Essential (No Mod)** | [`RimWorld-Farsi-Essential-${{ needs.merge-modules.outputs.version-tag }}-windows.zip`](https://github.com/${{ github.repository }}/releases/download/${{ needs.merge-modules.outputs.version-tag }}/RimWorld-Farsi-Essential-${{ needs.merge-modules.outputs.version-tag }}-windows.zip) | [`RimWorld-Farsi-Essential-${{ needs.merge-modules.outputs.version-tag }}-linux.zip`](https://github.com/${{ github.repository }}/releases/download/${{ needs.merge-modules.outputs.version-tag }}/RimWorld-Farsi-Essential-${{ needs.merge-modules.outputs.version-tag }}-linux.zip) | Pre-shaped offline Persian UI + English `Strings/` |
-            | **Full (No Mod)** | [`RimWorld-Farsi-Full-${{ needs.merge-modules.outputs.version-tag }}-windows.zip`](https://github.com/${{ github.repository }}/releases/download/${{ needs.merge-modules.outputs.version-tag }}/RimWorld-Farsi-Full-${{ needs.merge-modules.outputs.version-tag }}-windows.zip) | [`RimWorld-Farsi-Full-${{ needs.merge-modules.outputs.version-tag }}-linux.zip`](https://github.com/${{ github.repository }}/releases/download/${{ needs.merge-modules.outputs.version-tag }}/RimWorld-Farsi-Full-${{ needs.merge-modules.outputs.version-tag }}-linux.zip) | Pre-shaped full Persian translation |
-
-            <details>
-            <summary>🔍 Build Details & Integrity</summary>
-
-            - **Commit**: [${{ github.sha }}](https://github.com/${{ github.repository }}/commit/${{ github.sha }})
-            - **Build ID**: `${{ needs.merge-modules.outputs.build-id }}`
-            - Checksums are consolidated in [`SHA256SUMS.txt`](https://github.com/${{ github.repository }}/releases/download/${{ needs.merge-modules.outputs.version-tag }}/SHA256SUMS.txt) & [`MD5SUMS.txt`](https://github.com/${{ github.repository }}/releases/download/${{ needs.merge-modules.outputs.version-tag }}/MD5SUMS.txt), and all `.zip`, `.bat`, and `.sh` assets include Sigstore `.sig` signatures.
-            </details>
-          files: |
-            artifacts/*.zip
-            artifacts/*.bat
-            artifacts/*.sh
-            artifacts/SHA256SUMS.txt
-            artifacts/MD5SUMS.txt
-            artifacts/*.sig
-          draft: false
-          prerelease: ${{ needs.merge-modules.outputs.is-prerelease == 'true' }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG_NAME: ${{ needs.merge-modules.outputs.version-tag }}
+          BUILD_ID: ${{ needs.merge-modules.outputs.build-id }}
+          IS_PRERELEASE: ${{ needs.merge-modules.outputs.is-prerelease }}
+          CHANGES: ${{ steps.changelog.outputs.changes }}
+          PREV_TAG: ${{ steps.changelog.outputs.prev_tag }}
+          REPO: ${{ github.repository }}
+          COMMIT_SHA: ${{ github.sha }}
+        run: |
+          python3 - << 'PYEOF' > release_notes.md
+          import os
+          import textwrap
+
+          repo = os.environ["REPO"]
+          tag = os.environ["TAG_NAME"]
+          build_id = os.environ["BUILD_ID"]
+          commit_sha = os.environ["COMMIT_SHA"]
+          changes = os.environ.get("CHANGES", "").strip() or "- Translation updates and improvements."
+          prev_tag = os.environ.get("PREV_TAG", "").strip()
+
+          compare_line = (
+              f"**Full Changelog**: https://github.com/{repo}/compare/{prev_tag}...{tag}\n"
+              if prev_tag
+              else ""
+          )
+
+          body = textwrap.dedent("""\
+          **Compatibility:** RimWorld 1.6 (`Core`, `Royalty`, `Ideology`, `Biotech`, `Anomaly`, `Odyssey`)
+
+          <div dir="rtl">
+
+          ### راهنمای سریع نصب
+
+          1. فایل `autoinstall-windows.bat` (ویندوز) یا `autoinstall-linux.sh` (لینوکس، استیم‌دک و مک) را از ردیف اول جدول زیر دانلود و اجرا کنید *(روش پیشنهادی: دانلود و نصب خودکار)*؛ یا یکی از بسته‌های آفلاین جدول را دریافت کنید.
+          2. در منوی نصب گزینه مورد نظر خود را انتخاب کنید؛ گزینه همراه با ماد، بهترین کیفیت فونت و نمایش راست‌به‌چپ را ارائه می‌دهد.
+          3. بازی را اجرا کرده، در بخش **Mods** ماد `RTL Persian Support` را فعال کنید و زبان بازی را روی **Persian** قرار دهید.
+
+          </div>
+
+          ---
+
+          ### 📝 What's Changed
+          __CHANGES__
+
+          __COMPARE_LINE__
+          ---
+          ### 📦 Downloads & Auto-Installers (Windows / Linux)
+          Download and run the **1-File Auto-Installer (Recommended)** for your OS, or grab an offline ZIP bundle containing `install-windows.bat` / `install-linux.sh`:
+
+          | Package | Windows | Linux / Steam Deck / macOS | Notes |
+          | :--- | :--- | :--- | :--- |
+          | **1-File Auto-Installer (Recommended)** | [`autoinstall-windows.bat`](https://github.com/__REPO__/releases/download/__TAG__/autoinstall-windows.bat) | [`autoinstall-linux.sh`](https://github.com/__REPO__/releases/download/__TAG__/autoinstall-linux.sh) | Interactive 1-click installer (auto-downloads & installs your chosen edition) |
+          | **With RTL Mod** | [`RimWorld-Farsi-With-RTL-Mod-__TAG__-windows.zip`](https://github.com/__REPO__/releases/download/__TAG__/RimWorld-Farsi-With-RTL-Mod-__TAG__-windows.zip) | [`RimWorld-Farsi-With-RTL-Mod-__TAG__-linux.zip`](https://github.com/__REPO__/releases/download/__TAG__/RimWorld-Farsi-With-RTL-Mod-__TAG__-linux.zip) | Raw UTF-8 UI + English `Strings/` + `RTL_Persian_Support` mod (`Vazirmatn` font & BiDi engine) |
+          | **Essential (No Mod)** | [`RimWorld-Farsi-Essential-__TAG__-windows.zip`](https://github.com/__REPO__/releases/download/__TAG__/RimWorld-Farsi-Essential-__TAG__-windows.zip) | [`RimWorld-Farsi-Essential-__TAG__-linux.zip`](https://github.com/__REPO__/releases/download/__TAG__/RimWorld-Farsi-Essential-__TAG__-linux.zip) | Pre-shaped offline Persian UI + English `Strings/` |
+          | **Full (No Mod)** | [`RimWorld-Farsi-Full-__TAG__-windows.zip`](https://github.com/__REPO__/releases/download/__TAG__/RimWorld-Farsi-Full-__TAG__-windows.zip) | [`RimWorld-Farsi-Full-__TAG__-linux.zip`](https://github.com/__REPO__/releases/download/__TAG__/RimWorld-Farsi-Full-__TAG__-linux.zip) | Pre-shaped full Persian translation |
+
+          <details>
+          <summary>🔍 Build Details & Integrity</summary>
+
+          - **Commit**: [__COMMIT__](https://github.com/__REPO__/commit/__COMMIT__)
+          - **Build ID**: `__BUILD_ID__`
+          - Checksums are consolidated in [`SHA256SUMS.txt`](https://github.com/__REPO__/releases/download/__TAG__/SHA256SUMS.txt) & [`MD5SUMS.txt`](https://github.com/__REPO__/releases/download/__TAG__/MD5SUMS.txt), and all `.zip`, `.bat`, and `.sh` assets include Sigstore `.sig` signatures.
+          </details>
+          """)
+          rendered = (
+              body.replace("__REPO__", repo)
+              .replace("__TAG__", tag)
+              .replace("__BUILD_ID__", build_id)
+              .replace("__COMMIT__", commit_sha)
+              .replace("__CHANGES__", changes)
+              .replace("__COMPARE_LINE__", compare_line)
+          )
+          print(rendered.strip())
+          PYEOF
+
+          shopt -s nullglob
+          ASSETS=(artifacts/*.zip artifacts/*.bat artifacts/*.sh artifacts/SHA256SUMS.txt artifacts/MD5SUMS.txt artifacts/*.sig)
+          FLAGS=(--title "Persian Language Pack ${TAG_NAME}" --notes-file release_notes.md)
+          if [ "$IS_PRERELEASE" = "true" ]; then
+            FLAGS+=(--prerelease)
+          fi
+
+          if gh release view "$TAG_NAME" >/dev/null 2>&1; then
+            gh release edit "$TAG_NAME" "${FLAGS[@]}"
+            gh release upload "$TAG_NAME" "${ASSETS[@]}" --clobber
+          else
+            gh release create "$TAG_NAME" "${ASSETS[@]}" "${FLAGS[@]}"
+          fi
