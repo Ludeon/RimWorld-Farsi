@@ -581,19 +581,59 @@ jobs:
       - name: Generate release changelog
         id: changelog
         run: |
-          PREV_TAG=$(git tag --sort=-version:refname | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+(-beta\.[0-9]+)?$' | sed -n '2p')
-          if [ -n "$PREV_TAG" ]; then
-            echo "Generating changelog since $PREV_TAG"
-            LOG=$(git log "${PREV_TAG}..HEAD" --pretty=format:"- %s ([%h](https://github.com/${{ github.repository }}/commit/%H))" --no-merges)
-          else
-            echo "No previous tag found, listing recent commits"
-            LOG=$(git log -n 15 --pretty=format:"- %s ([%h](https://github.com/${{ github.repository }}/commit/%H))" --no-merges)
-          fi
+          PREV_TAG=$(git describe --tags --abbrev=0 HEAD^ 2>/dev/null || git tag --sort=-version:refname | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+(-beta\.[0-9]+)?$' | sed -n '2p' || true)
+          LOG=$(REPO="${{ github.repository }}" PREV_TAG="$PREV_TAG" python3 - << 'PYEOF'
+          import os, re, subprocess
 
-          if [ -z "$LOG" ]; then
-            LOG="- Translation updates and improvements."
-          fi
+          repo = os.environ["REPO"]
+          prev_tag = os.environ.get("PREV_TAG", "").strip()
+          rev_range = f"{prev_tag}..HEAD" if prev_tag else "-n 15 HEAD"
+          cmd = ["git", "log", "--first-parent", "--no-merges", "--pretty=format:%H%x09%h%x09%s"]
+          cmd += [rev_range] if prev_tag else ["-n", "20", "HEAD"]
+          out = subprocess.check_output(cmd, text=True, errors="replace")
 
+          noise_re = re.compile(
+              r"^(test try|update readme|update .*\.yml|chore\(release\):|fix\(ci\):|ci:)",
+              re.IGNORECASE,
+          )
+          buckets = {
+              "✨ Features & Enhancements": [],
+              "🐛 Bug Fixes": [],
+              "🔧 Translations & Maintenance": [],
+          }
+          seen = set()
+          for line in out.splitlines():
+              parts = line.split("\t", 2)
+              if len(parts) != 3:
+                  continue
+              full_sha, short_sha, subj = parts
+              subj = subj.strip()
+              if not subj or noise_re.match(subj):
+                  continue
+              norm = re.sub(r"[^a-z0-9]+", " ", subj.lower()).strip()
+              if norm in seen:
+                  continue
+              seen.add(norm)
+              entry = f"- {subj} ([{short_sha}](https://github.com/{repo}/commit/{full_sha}))"
+              low = subj.lower()
+              if low.startswith("feat"):
+                  buckets["✨ Features & Enhancements"].append(entry)
+              elif low.startswith("fix"):
+                  buckets["🐛 Bug Fixes"].append(entry)
+              else:
+                  buckets["🔧 Translations & Maintenance"].append(entry)
+
+          sections = []
+          for title, items in buckets.items():
+              if items:
+                  sections.append(f"#### {title}\n" + "\n".join(items[:15]))
+          if not sections:
+              sections.append("- Translation updates and improvements.")
+          print("\n\n".join(sections))
+          PYEOF
+          )
+
+          echo "prev_tag=${PREV_TAG}" >> $GITHUB_OUTPUT
           {
             echo "changes<<EOF"
             echo "$LOG"
@@ -616,7 +656,7 @@ jobs:
         with:
           tag_name: ${{ needs.merge-modules.outputs.version-tag }}
           name: Persian Language Pack ${{ needs.merge-modules.outputs.version-tag }}
-          generate_release_notes: true
+          generate_release_notes: false
           body: |
             ### 📝 What's Changed
             ${{ steps.changelog.outputs.changes }}
@@ -639,6 +679,8 @@ jobs:
             - **Build ID**: `${{ needs.merge-modules.outputs.build-id }}`
             - All `.zip`, `.bat`, and `.sh` assets include `.sha256`, `.md5`, and Sigstore `.sig` verification files.
             </details>
+
+            ${{ steps.changelog.outputs.prev_tag && format('**Full Changelog**: https://github.com/{0}/compare/{1}...{2}', github.repository, steps.changelog.outputs.prev_tag, needs.merge-modules.outputs.version-tag) || '' }}
           files: |
             artifacts/*.zip
             artifacts/*.bat
