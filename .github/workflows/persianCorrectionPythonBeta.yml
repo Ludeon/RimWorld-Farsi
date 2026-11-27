@@ -2,9 +2,10 @@ name: Persian Translation CI/CD
 
 on:
   push:
-    branches: [main]
+    branches: [main, master, beta]
     paths:
       - 'tools/**'
+      - 'src/english/**'
       - 'Core/**'
       - 'Royalty/**'
       - 'Ideology/**'
@@ -13,9 +14,10 @@ on:
       - 'Odyssey/**'
       - '.github/workflows/persianCorrectionPythonBeta.yml'
   pull_request:
-    branches: [main]
+    branches: [main, master, beta]
     paths:
       - 'tools/**'
+      - 'src/english/**'
       - 'Core/**'
       - 'Royalty/**'
       - 'Ideology/**'
@@ -233,6 +235,8 @@ jobs:
 
     outputs:
       artifact-name: ${{ steps.artifact.outputs.name }}
+      full-zip-name: ${{ steps.artifact.outputs.full_zip }}
+      essential-zip-name: ${{ steps.artifact.outputs.essential_zip }}
       build-id: ${{ steps.metadata.outputs.build-id }}
 
     steps:
@@ -264,6 +268,15 @@ jobs:
           done
 
           echo "✅ Module merging completed"
+
+      - name: Assemble Essential edition (English Strings/)
+        run: |
+          echo "🧩 Assembling Essential edition with English Strings/..."
+          python tools/translation-tools/build_essential.py \
+            --build-dir "${{ env.BUILD_DIR }}" \
+            --output-dir "${{ env.BUILD_DIR }}-essential" \
+            --english-dir "src/english"
+          echo "✅ Essential edition assembled"
 
       - name: Generate comprehensive build report
         id: metadata
@@ -362,7 +375,8 @@ jobs:
 
           KEY OUTPUTS
           -----------
-          - Persian language pack ZIP archive
+          - Full Persian language pack ZIP archive (with Persian Strings/)
+          - Essential Persian language pack ZIP archive (with English Strings/)
           - SHA256 and MD5 checksums
           - SLSA Level 3 provenance attestation
           - Sigstore cryptographic signatures
@@ -400,33 +414,53 @@ jobs:
           }
           EOF
 
-      - name: Create distribution package
+      - name: Create distribution packages (Full & Essential)
         id: artifact
         run: |
-          ARTIFACT_NAME="persian-language-${{ steps.metadata.outputs.build-id }}"
+          BUILD_ID="${{ steps.metadata.outputs.build-id }}"
+          ARTIFACT_NAME="persian-language-${BUILD_ID}"
+          FULL_ZIP="persian-language-full-${BUILD_ID}.zip"
+          ESSENTIAL_ZIP="persian-language-essential-${BUILD_ID}.zip"
+
           echo "name=$ARTIFACT_NAME" >> $GITHUB_OUTPUT
+          echo "full_zip=$FULL_ZIP" >> $GITHUB_OUTPUT
+          echo "essential_zip=$ESSENTIAL_ZIP" >> $GITHUB_OUTPUT
 
-          # Create optimized ZIP
-          cd ${{ env.BUILD_DIR }}
-          zip -r "../$ARTIFACT_NAME.zip" . --compression-method deflate
+          # Copy build reports into Essential package too
+          cp "${{ env.BUILD_DIR }}/reports.txt" "${{ env.BUILD_DIR }}-essential/reports.txt"
+          cp "${{ env.BUILD_DIR }}/build_info.json" "${{ env.BUILD_DIR }}-essential/build_info.json"
 
-          # Generate cryptographic hashes
-          sha256sum "../$ARTIFACT_NAME.zip" > "../$ARTIFACT_NAME.zip.sha256"
-          md5sum "../$ARTIFACT_NAME.zip" > "../$ARTIFACT_NAME.zip.md5"
+          # Create Full ZIP
+          (cd "${{ env.BUILD_DIR }}" && zip -r "../$FULL_ZIP" . --compression-method deflate)
+          sha256sum "$FULL_ZIP" > "${FULL_ZIP}.sha256"
+          md5sum "$FULL_ZIP" > "${FULL_ZIP}.md5"
 
-      - name: Attest build provenance
+          # Create Essential ZIP (Keyed/DefInjected in Persian, Strings/ in English)
+          (cd "${{ env.BUILD_DIR }}-essential" && zip -r "../$ESSENTIAL_ZIP" . --compression-method deflate)
+          sha256sum "$ESSENTIAL_ZIP" > "${ESSENTIAL_ZIP}.sha256"
+          md5sum "$ESSENTIAL_ZIP" > "${ESSENTIAL_ZIP}.md5"
+
+      - name: Attest Full package provenance
         uses: actions/attest-build-provenance@v2
         with:
-          subject-path: ${{ steps.artifact.outputs.name }}.zip
+          subject-path: ${{ steps.artifact.outputs.full_zip }}
+
+      - name: Attest Essential package provenance
+        uses: actions/attest-build-provenance@v2
+        with:
+          subject-path: ${{ steps.artifact.outputs.essential_zip }}
 
       - name: Upload build artifacts
         uses: actions/upload-artifact@v4
         with:
           name: ${{ steps.artifact.outputs.name }}
           path: |
-            ${{ steps.artifact.outputs.name }}.zip
-            ${{ steps.artifact.outputs.name }}.zip.sha256
-            ${{ steps.artifact.outputs.name }}.zip.md5
+            ${{ steps.artifact.outputs.full_zip }}
+            ${{ steps.artifact.outputs.full_zip }}.sha256
+            ${{ steps.artifact.outputs.full_zip }}.md5
+            ${{ steps.artifact.outputs.essential_zip }}
+            ${{ steps.artifact.outputs.essential_zip }}.sha256
+            ${{ steps.artifact.outputs.essential_zip }}.md5
             ${{ env.BUILD_DIR }}/reports.txt
           retention-days: 30
           if-no-files-found: error
@@ -466,7 +500,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     needs: merge-modules
-    if: (github.ref == 'refs/heads/main' && github.event_name == 'push') || (github.event_name == 'workflow_dispatch' && github.event.inputs.create_release == 'true')
+    if: ((github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master') && github.event_name == 'push') || (github.event_name == 'workflow_dispatch' && github.event.inputs.create_release == 'true')
 
     permissions:
       contents: write
@@ -569,7 +603,8 @@ jobs:
 
             - **Commit**: [${{ github.sha }}](https://github.com/${{ github.repository }}/commit/${{ github.sha }})
             - **Build ID**: `${{ needs.merge-modules.outputs.build-id }}`
-            - **Package**: `persian-language-${{ needs.merge-modules.outputs.build-id }}.zip` (Signed with Sigstore)
+            - **Full Package**: `${{ needs.merge-modules.outputs.full-zip-name }}` (Signed with Sigstore)
+            - **Essential Package (English `Strings/`)**: `${{ needs.merge-modules.outputs.essential-zip-name }}` (Signed with Sigstore)
             </details>
           files: artifacts/*
           draft: false
