@@ -23,7 +23,6 @@ permissions:
   contents: read
 
 env:
-  UV_CACHE_DIR: ~/.cache/uv
   TOOLS_DIR: tools/rtl-processor
 
 jobs:

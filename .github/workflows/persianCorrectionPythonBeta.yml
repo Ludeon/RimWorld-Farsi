@@ -90,7 +90,6 @@ concurrency:
 
 env:
   PYTHON_VERSION: ${{ github.event.inputs.python_version || '3.13' }}
-  UV_CACHE_DIR: ~/.cache/uv
   BUILD_DIR: Data
   TOOLS_DIR: tools/rtl-processor
 
