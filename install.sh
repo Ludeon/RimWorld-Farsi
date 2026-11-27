@@ -28,6 +28,16 @@ USE_LOCAL=false
 INSTALL_MOD=""
 EDITION=""
 GAME_PATH=""
+IS_PACKAGED_BUNDLE=false
+
+if [[ -f "${SCRIPT_DIR}/.release-edition" ]]; then
+    BUNDLED_EDITION=$(tr -d '[:space:]' < "${SCRIPT_DIR}/.release-edition")
+    if [[ "$BUNDLED_EDITION" == "essential" || "$BUNDLED_EDITION" == "full" || "$BUNDLED_EDITION" == "mod" ]]; then
+        EDITION="$BUNDLED_EDITION"
+        USE_LOCAL=true
+        IS_PACKAGED_BUNDLE=true
+    fi
+fi
 
 while [[ $# -gt 0 ]]; do
     case "$1" in
@@ -73,7 +83,7 @@ while [[ $# -gt 0 ]]; do
             shift
             ;;
         --help|-h)
-            echo "Usage: ./install.sh [OPTIONS] [GAME_PATH]"
+            echo "Usage: ./$(basename "$0") [OPTIONS] [GAME_PATH]"
             echo ""
             echo "Options:"
             echo "  -l, --local            Use local repository translation files instead of downloading latest release"
@@ -100,8 +110,8 @@ if [[ -z "$EDITION" ]]; then
     echo -e "  ${CLR_GREEN}[1] Essential${CLR_RESET}             (Standalone — Persian UI & gameplay, English Strings/, no mod)"
     echo -e "  ${CLR_CYAN}[2] Full${CLR_RESET}                  (Standalone — Complete Persian translation incl. Strings/, no mod)"
     echo -e "  ${CLR_MAGENTA}[3] Translation + RTL Mod${CLR_RESET} (Recommended with Mods — Vazirmatn font & dynamic RTL engine)"
-    read -r -p "Enter choice [1/2/3] (default: 1): " EDITION_CHOICE
-    case "${EDITION_CHOICE:-1}" in
+    read -r -p "Enter choice [1/2/3] (default: 3): " EDITION_CHOICE
+    case "${EDITION_CHOICE:-3}" in
         1|essential|Essential|e|E)
             EDITION="essential"
             ;;
@@ -129,7 +139,7 @@ fi
 
 echo -e "Selected option: ${CLR_BOLD}${EDITION}${CLR_RESET} (RTL Mod: ${CLR_BOLD}${INSTALL_MOD}${CLR_RESET})"
 
-# Comprehensive candidate search list for Linux, Steam Deck & Flatpak
+# Comprehensive candidate search list for Linux, Steam Deck & macOS
 CANDIDATE_PATHS=(
     "$(pwd)"
     "${SCRIPT_DIR}"
@@ -139,6 +149,8 @@ CANDIDATE_PATHS=(
     # Flatpak Steam (Default on immutable distros like SteamOS / Fedora Silverblue)
     "${HOME}/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/RimWorld"
     "${HOME}/.var/app/com.valvesoftware.Steam/data/Steam/steamapps/common/RimWorld"
+    # macOS Steam
+    "${HOME}/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app"
     # DRM-free / Standalone / GOG / Heroic / Lutris
     "${HOME}/Games/RimWorld"
     "${HOME}/Games/Heroic/RimWorld"
@@ -184,102 +196,142 @@ cleanup() {
 }
 trap cleanup EXIT
 
+fetch_url() {
+    local url="$1"
+    local out="${2:-}"
+    if command -v curl &>/dev/null; then
+        if [[ -n "$out" ]]; then
+            curl -fsSL -H "User-Agent: RimWorld-Farsi-Installer" "$url" -o "$out"
+        else
+            curl -fsSL -H "User-Agent: RimWorld-Farsi-Installer" "$url"
+        fi
+    elif command -v wget &>/dev/null; then
+        if [[ -n "$out" ]]; then
+            wget -qO "$out" --user-agent="RimWorld-Farsi-Installer" "$url"
+        else
+            wget -qO- --user-agent="RimWorld-Farsi-Installer" "$url"
+        fi
+    else
+        return 1
+    fi
+}
+
+extract_zip() {
+    local zip_file="$1"
+    local dest_dir="$2"
+    mkdir -p "$dest_dir"
+    if command -v unzip &>/dev/null; then
+        unzip -q "$zip_file" -d "$dest_dir"
+    elif command -v python3 &>/dev/null; then
+        python3 -m zipfile -e "$zip_file" "$dest_dir"
+    else
+        return 1
+    fi
+}
+
+find_release_zip_url() {
+    local edition="$1"
+    local rel_json
+    rel_json=$(fetch_url "https://api.github.com/repos/Ludeon/RimWorld-Farsi/releases?per_page=10" 2>/dev/null || true)
+    [[ -z "$rel_json" ]] && return 0
+
+    if command -v python3 &>/dev/null; then
+        EDITION="$edition" python3 -c '
+import json, os, sys
+ed = os.environ["EDITION"]
+releases = json.loads(sys.stdin.read())
+patterns = {
+    "mod": ["RimWorld-Farsi-With-RTL-Mod-", "-linux.zip"],
+    "essential": ["RimWorld-Farsi-Essential-", "-linux.zip", "persian-language-essential-"],
+    "full": ["RimWorld-Farsi-Full-", "-linux.zip", "persian-language-full-", "persian-language-"],
+}
+for rel in releases:
+    assets = [a.get("browser_download_url", "") for a in rel.get("assets", [])]
+    if ed == "mod":
+        for u in assets:
+            if "With-RTL-Mod-" in u and u.endswith("-linux.zip"):
+                print(u); sys.exit(0)
+    elif ed == "essential":
+        for u in assets:
+            if "RimWorld-Farsi-Essential-" in u and u.endswith("-linux.zip"):
+                print(u); sys.exit(0)
+        for u in assets:
+            if "persian-language-essential-" in u and u.endswith(".zip"):
+                print(u); sys.exit(0)
+    else:
+        for u in assets:
+            if "RimWorld-Farsi-Full-" in u and u.endswith("-linux.zip"):
+                print(u); sys.exit(0)
+        for u in assets:
+            if "persian-language-full-" in u and u.endswith(".zip"):
+                print(u); sys.exit(0)
+        for u in assets:
+            if "persian-language-" in u and "essential" not in u and u.endswith(".zip"):
+                print(u); sys.exit(0)
+' <<< "$rel_json" 2>/dev/null || true
+    else
+        if [[ "$edition" == "mod" ]]; then
+            echo "$rel_json" | grep -o 'https://[^"]*RimWorld-Farsi-With-RTL-Mod-[^"]*-linux\.zip' | head -n 1 || true
+        elif [[ "$edition" == "essential" ]]; then
+            echo "$rel_json" | grep -o 'https://[^"]*RimWorld-Farsi-Essential-[^"]*-linux\.zip' | head -n 1 || true
+        else
+            echo "$rel_json" | grep -o 'https://[^"]*RimWorld-Farsi-Full-[^"]*-linux\.zip' | head -n 1 || true
+        fi
+    fi
+}
+
 SRC_BASE=""
 MOD_SRC=""
+USED_LOCAL_SOURCE=false
 
-# Option 3 ('mod') prefers local raw UTF-8 repository + compiled RTL mod if available,
-# otherwise downloads the repository archive from GitHub so both raw UTF-8 XMLs and the mod are fetched.
-if [[ "$EDITION" == "mod" ]]; then
-    if [[ -d "${SCRIPT_DIR}/Core" && -d "${SCRIPT_DIR}/mods/RTL_Persian_Support" ]]; then
-        echo -e "${CLR_CYAN}Using local raw UTF-8 translation files and RTL Support mod from: ${SCRIPT_DIR}${CLR_RESET}\n"
-        SRC_BASE="${SCRIPT_DIR}"
+if [[ "$IS_PACKAGED_BUNDLE" == true ]]; then
+    echo -e "${CLR_GREEN}Detected pre-packaged '${EDITION}' release bundle at: ${SCRIPT_DIR}${CLR_RESET}\n"
+    SRC_BASE="${SCRIPT_DIR}"
+    USED_LOCAL_SOURCE=true
+    if [[ -d "${SCRIPT_DIR}/mods/RTL_Persian_Support" ]]; then
         MOD_SRC="${SCRIPT_DIR}/mods/RTL_Persian_Support"
-        USED_LOCAL_SOURCE=true
-    elif [[ "$USE_LOCAL" != true ]]; then
-        echo -e "${CLR_CYAN}Downloading raw translation & RTL Support mod package from GitHub...${CLR_RESET}"
-        TEMP_DIR="$(mktemp -d /tmp/rimworld_farsi_XXXXXX)"
-        ARCHIVE_URL="https://github.com/Ludeon/RimWorld-Farsi/archive/refs/heads/beta.zip"
-        DOWNLOADED=false
-        if command -v curl &>/dev/null; then
-            curl -sSL "$ARCHIVE_URL" -o "${TEMP_DIR}/repo.zip" && DOWNLOADED=true || true
-        elif command -v wget &>/dev/null; then
-            wget -qO "${TEMP_DIR}/repo.zip" "$ARCHIVE_URL" && DOWNLOADED=true || true
-        fi
-        if [[ "$DOWNLOADED" == true && -f "${TEMP_DIR}/repo.zip" ]]; then
-            if command -v unzip &>/dev/null; then
-                unzip -q "${TEMP_DIR}/repo.zip" -d "${TEMP_DIR}/extracted" || true
-            elif command -v python3 &>/dev/null; then
-                python3 -m zipfile -e "${TEMP_DIR}/repo.zip" "${TEMP_DIR}/extracted" || true
-            fi
-            REPO_SUBDIR=$(find "${TEMP_DIR}/extracted" -mindepth 1 -maxdepth 1 -type d | head -n 1 || true)
-            if [[ -n "$REPO_SUBDIR" && -d "${REPO_SUBDIR}/Core" ]]; then
-                SRC_BASE="$REPO_SUBDIR"
-                MOD_SRC="${REPO_SUBDIR}/mods/RTL_Persian_Support"
-                USED_LOCAL_SOURCE=true
-                echo -e "${CLR_GREEN}Downloaded raw translation and RTL Support mod package.${CLR_RESET}\n"
-            fi
-        fi
     fi
-fi
+elif [[ "$EDITION" == "mod" && -d "${SCRIPT_DIR}/Core" && -d "${SCRIPT_DIR}/mods/RTL_Persian_Support" ]]; then
+    echo -e "${CLR_CYAN}Using local raw UTF-8 translation files and RTL Support mod from: ${SCRIPT_DIR}${CLR_RESET}\n"
+    SRC_BASE="${SCRIPT_DIR}"
+    MOD_SRC="${SCRIPT_DIR}/mods/RTL_Persian_Support"
+    USED_LOCAL_SOURCE=true
+elif [[ "$USE_LOCAL" != true ]]; then
+    echo -e "${CLR_CYAN}Checking GitHub Releases for '${EDITION}' (-linux) package...${CLR_RESET}"
+    ZIP_URL=$(find_release_zip_url "$EDITION")
 
-# Standalone editions ('essential' / 'full'): download latest pre-processed release ZIP from GitHub unless --local
-if [[ -z "$SRC_BASE" && "$USE_LOCAL" != true ]]; then
-    echo -e "${CLR_CYAN}Checking for latest Persian translation release on GitHub...${CLR_RESET}"
-
-    RELEASE_JSON=""
-    if command -v curl &>/dev/null; then
-        RELEASE_JSON=$(curl -sSL -H "User-Agent: RimWorld-Farsi-Installer" "https://api.github.com/repos/Ludeon/RimWorld-Farsi/releases/latest" 2>/dev/null || true)
-    elif command -v wget &>/dev/null; then
-        RELEASE_JSON=$(wget -qO- --user-agent="RimWorld-Farsi-Installer" "https://api.github.com/repos/Ludeon/RimWorld-Farsi/releases/latest" 2>/dev/null || true)
-    fi
-
-    if [[ "$EDITION" == "essential" ]]; then
-        ZIP_URL=$(echo "$RELEASE_JSON" | grep -o 'https://[^"]*persian-language-essential-[^"]*\.zip' | head -n 1 || true)
-    else
-        ZIP_URL=$(echo "$RELEASE_JSON" | grep -o 'https://[^"]*persian-language-full-[^"]*\.zip' | head -n 1 || true)
-        if [[ -z "$ZIP_URL" ]]; then
-            ZIP_URL=$(echo "$RELEASE_JSON" | grep -o 'https://[^"]*persian-language-[0-9][^"]*\.zip' | head -n 1 || true)
-        fi
+    if [[ -z "$ZIP_URL" && "$EDITION" == "mod" ]]; then
+        ZIP_URL="https://github.com/Ludeon/RimWorld-Farsi/archive/refs/heads/beta.zip"
     fi
 
     if [[ -n "$ZIP_URL" ]]; then
         TEMP_DIR="$(mktemp -d /tmp/rimworld_farsi_XXXXXX)"
-        echo -e "Downloading latest release package: ${CLR_BLUE}${ZIP_URL}${CLR_RESET}"
-
-        DOWNLOADED=false
-        if command -v curl &>/dev/null; then
-            if curl -sSL "$ZIP_URL" -o "${TEMP_DIR}/release.zip"; then
-                DOWNLOADED=true
-            fi
-        elif command -v wget &>/dev/null; then
-            if wget -qO "${TEMP_DIR}/release.zip" "$ZIP_URL"; then
-                DOWNLOADED=true
-            fi
-        fi
-
-        if [[ "$DOWNLOADED" == true && -f "${TEMP_DIR}/release.zip" ]]; then
-            echo -e "Extracting translation files..."
-            EXTRACTED=false
-            if command -v unzip &>/dev/null; then
-                if unzip -q "${TEMP_DIR}/release.zip" -d "${TEMP_DIR}/extracted"; then
-                    EXTRACTED=true
-                fi
-            elif command -v python3 &>/dev/null; then
-                if python3 -m zipfile -e "${TEMP_DIR}/release.zip" "${TEMP_DIR}/extracted"; then
-                    EXTRACTED=true
-                fi
-            fi
-
-            if [[ "$EXTRACTED" == true && -d "${TEMP_DIR}/extracted" ]]; then
+        echo -e "Downloading package: ${CLR_BLUE}${ZIP_URL}${CLR_RESET}"
+        if fetch_url "$ZIP_URL" "${TEMP_DIR}/release.zip" && extract_zip "${TEMP_DIR}/release.zip" "${TEMP_DIR}/extracted"; then
+            if [[ -d "${TEMP_DIR}/extracted/Core" ]]; then
                 SRC_BASE="${TEMP_DIR}/extracted"
-                echo -e "${CLR_GREEN}Latest processed translation package downloaded and ready.${CLR_RESET}\n"
+            else
+                REPO_SUBDIR=$(find "${TEMP_DIR}/extracted" -mindepth 1 -maxdepth 1 -type d | head -n 1 || true)
+                if [[ -n "$REPO_SUBDIR" && -d "${REPO_SUBDIR}/Core" ]]; then
+                    SRC_BASE="$REPO_SUBDIR"
+                    USED_LOCAL_SOURCE=true
+                fi
+            fi
+
+            if [[ -n "$SRC_BASE" ]]; then
+                if [[ -f "${SRC_BASE}/.release-edition" ]]; then
+                    IS_PACKAGED_BUNDLE=true
+                fi
+                if [[ -d "${SRC_BASE}/mods/RTL_Persian_Support" ]]; then
+                    MOD_SRC="${SRC_BASE}/mods/RTL_Persian_Support"
+                fi
+                echo -e "${CLR_GREEN}Package downloaded and ready.${CLR_RESET}\n"
             fi
         fi
     fi
 fi
 
 # Fallback to local translation repository if download was skipped or failed
-USED_LOCAL_SOURCE="${USED_LOCAL_SOURCE:-false}"
 if [[ -z "$SRC_BASE" ]]; then
     if [[ -d "${SCRIPT_DIR}/Core" ]]; then
         echo -e "${CLR_YELLOW}Using local repository translation files from: ${SCRIPT_DIR}${CLR_RESET}\n"
@@ -287,10 +339,11 @@ if [[ -z "$SRC_BASE" ]]; then
         USED_LOCAL_SOURCE=true
     else
         echo -e "${CLR_RED}Error:${CLR_RESET} Failed to fetch release from GitHub and no local translation files found in: ${SCRIPT_DIR}" >&2
-        echo -e "Please check your internet connection or download manually from: https://github.com/Ludeon/RimWorld-Farsi/releases" >&2
+        echo -e "Please download manually from: https://github.com/Ludeon/RimWorld-Farsi/releases" >&2
         exit 1
     fi
 fi
+
 if [[ -z "$MOD_SRC" && -d "${SCRIPT_DIR}/mods/RTL_Persian_Support" ]]; then
     MOD_SRC="${SCRIPT_DIR}/mods/RTL_Persian_Support"
 fi
@@ -300,7 +353,7 @@ INSTALLED_COUNT=0
 for MOD in "${MODULES[@]}"; do
     SRC_DIR="${SRC_BASE}/${MOD}"
 
-    # Handle nested module directories from build artifacts (e.g. Core/Core/DefInjected)
+    # Handle nested module directories from legacy build artifacts
     if [[ -d "${SRC_DIR}/${MOD}" && ( -d "${SRC_DIR}/${MOD}/DefInjected" || -d "${SRC_DIR}/${MOD}/Keyed" || -f "${SRC_DIR}/${MOD}/LanguageInfo.xml" ) ]]; then
         SRC_DIR="${SRC_DIR}/${MOD}"
     fi
@@ -312,22 +365,21 @@ for MOD in "${MODULES[@]}"; do
         if [[ -d "${GAME_PATH}/Data/${MOD}" ]]; then
             echo -e "Installing module: ${CLR_CYAN}${MOD}${CLR_RESET}..."
 
-            # Overwrite previous installation completely
             rm -rf "$DEST_DIR"
             rm -rf "$OLD_DEST_DIR"
             mkdir -p "$DEST_DIR"
 
             cp -r "${SRC_DIR}/"* "$DEST_DIR/"
 
-            # In Essential or Mod mode from repo/archive, swap Strings/ with original English Strings/
-            if [[ ( "$EDITION" == "essential" || "$EDITION" == "mod" ) && "$USED_LOCAL_SOURCE" == true ]]; then
+            # Replace Strings/ with original English Strings/ when installing Essential or Mod from a repo checkout
+            if [[ "$IS_PACKAGED_BUNDLE" != true && "$USED_LOCAL_SOURCE" == true && ( "$EDITION" == "essential" || "$EDITION" == "mod" ) ]]; then
                 rm -rf "${DEST_DIR}/Strings"
                 if [[ -d "${SRC_BASE}/src/english/${MOD}/Strings" ]]; then
                     cp -r "${SRC_BASE}/src/english/${MOD}/Strings" "${DEST_DIR}/Strings"
                 fi
             fi
 
-            # Purge cached .tar files so RimWorld reloads fresh XML assets
+            # Purge cached .tar files so RimWorld loads loose XML assets
             rm -f "${GAME_PATH}/Data/${MOD}/Languages/${LANG_NAME}.tar"
             rm -f "${GAME_PATH}/Data/${MOD}/Languages/Persian.tar"
             rm -f "${GAME_PATH}/Data/${MOD}/Languages/Persian (فارسی).tar"
@@ -347,21 +399,32 @@ if [[ "$INSTALLED_COUNT" -eq 0 ]]; then
     exit 1
 fi
 
-# Install Harmony RTL Mod into Mods/ folder if requested
+# Install Harmony RTL Mod into Mods/ folder if selected
 if [[ "$INSTALL_MOD" == true && -n "$MOD_SRC" && -d "$MOD_SRC" ]]; then
     echo -e "\n${CLR_CYAN}Installing RTL Persian Support mod (Vazirmatn font & Harmony engine)...${CLR_RESET}"
     MOD_DEST="${GAME_PATH}/Mods/RTL_Persian_Support"
     rm -rf "$MOD_DEST"
     mkdir -p "$MOD_DEST"
     cp -r "${MOD_SRC}/"* "$MOD_DEST/"
+    # Bundled 0Harmony.dll means Workshop dependency tag is unnecessary in standalone installs
+    if [[ -f "${MOD_DEST}/Assemblies/0Harmony.dll" && -f "${MOD_DEST}/About/About.xml" ]] && command -v python3 &>/dev/null; then
+        python3 - "${MOD_DEST}/About/About.xml" << 'PYEOF'
+import pathlib, re, sys
+p = pathlib.Path(sys.argv[1])
+txt = p.read_text(encoding="utf-8")
+updated = re.sub(r"\s*<modDependencies>.*?</modDependencies>\s*", "\n    ", txt, flags=re.DOTALL)
+if updated != txt:
+    p.write_text(updated, encoding="utf-8")
+PYEOF
+    fi
     echo -e "  ${CLR_GREEN}[OK]${CLR_RESET} RTL Persian Support mod installed to: ${CLR_BLUE}${MOD_DEST}${CLR_RESET}"
 fi
 
 echo -e "\n${CLR_BOLD}${CLR_MAGENTA}======================================================================${CLR_RESET}"
-echo -e "${CLR_BOLD}${CLR_GREEN}   Installation completed successfully! (${INSTALLED_COUNT} modules, edition: ${EDITION})${CLR_RESET}"
+echo -e "${CLR_BOLD}${CLR_GREEN}   Installation completed successfully! (${INSTALLED_COUNT} modules, option: ${EDITION})${CLR_RESET}"
 echo -e "   1. Launch RimWorld."
 echo -e "   2. Navigate to: Options -> Language -> Select 'Persian (فارسی)'."
 if [[ "$INSTALL_MOD" == true ]]; then
-    echo -e "   3. (Recommended) Under 'Mods', enable 'Persian RTL Support' for Vazirmatn font and RTL alignment."
+    echo -e "   3. Under 'Mods', enable 'Persian RTL Support' for Vazirmatn font and RTL layout."
 fi
 echo -e "${CLR_BOLD}${CLR_MAGENTA}======================================================================${CLR_RESET}\n"

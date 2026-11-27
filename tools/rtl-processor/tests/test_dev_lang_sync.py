@@ -75,7 +75,9 @@ def test_push_dev_language_keeps_raw_utf8_and_sets_dev_language_info(
     ).read_text(encoding="utf-8")
     assert "<friendlyNameNative>Parsi (Dev Raw)</friendlyNameNative>" in lang_info
     assert "<friendlyNameEnglish>Parsi</friendlyNameEnglish>" in lang_info
-    assert "<languageWorkerClass>LanguageWorker_English</languageWorkerClass>" in lang_info
+    assert (
+        "<languageWorkerClass>LanguageWorker_English</languageWorkerClass>" in lang_info
+    )
 
 
 def test_pull_dev_language_protects_repo_metadata_and_wordinfo(tmp_path: Path) -> None:
@@ -92,9 +94,7 @@ def test_pull_dev_language_protects_repo_metadata_and_wordinfo(tmp_path: Path) -
         "<LanguageData />", encoding="utf-8"
     )
 
-    stats = dev_lang_sync.pull_dev_language(
-        repo, game, skip_strings=True, prune=True
-    )
+    stats = dev_lang_sync.pull_dev_language(repo, game, skip_strings=True, prune=True)
     assert stats.modules_synced == 1
     assert stats.files_pruned == 1
     assert len(stats.todo_tags) == 1
@@ -102,9 +102,13 @@ def test_pull_dev_language_protects_repo_metadata_and_wordinfo(tmp_path: Path) -
     # Protected files in repo must remain untouched
     repo_lang_info = (repo / "Core" / "LanguageInfo.xml").read_text(encoding="utf-8")
     assert "RTL_Persian.LanguageWorker_Persian" in repo_lang_info
-    assert (repo / "Core" / "WordInfo" / "ezafeh.txt").read_text(encoding="utf-8") == "خانه"
+    assert (repo / "Core" / "WordInfo" / "ezafeh.txt").read_text(
+        encoding="utf-8"
+    ) == "خانه"
     assert not (repo / "Core" / "Keyed" / "Obsolete.xml").exists()
-    assert "NewKey" in (repo / "Core" / "Keyed" / "Menus.xml").read_text(encoding="utf-8")
+    assert "NewKey" in (repo / "Core" / "Keyed" / "Menus.xml").read_text(
+        encoding="utf-8"
+    )
 
 
 def test_pull_preserve_eol_skips_crlf_only_rewrites(tmp_path: Path) -> None:

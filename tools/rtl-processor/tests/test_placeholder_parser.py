@@ -21,14 +21,14 @@ from tools.parse_placeholder import (
 )
 
 
-def test_parse_simple_literal():
+def test_parse_simple_literal() -> None:
     nodes = PlaceholderParser.parse_string("متن ساده بدون متغیر")
     assert len(nodes) == 1
     assert isinstance(nodes[0], LiteralNode)
     assert nodes[0].text == "متن ساده بدون متغیر"
 
 
-def test_parse_positional_variables():
+def test_parse_positional_variables() -> None:
     nodes = PlaceholderParser.parse_string("مورد {0} و {1_label}")
     assert len(nodes) == 4
     assert isinstance(nodes[1], PlaceholderNode)
@@ -40,7 +40,7 @@ def test_parse_positional_variables():
     assert nodes[3].subsymbol == "label"
 
 
-def test_parse_conditional_syntax():
+def test_parse_conditional_syntax() -> None:
     nodes = PlaceholderParser.parse_string("او {PAWN_gender ? مرد : زن} است.")
     assert len(nodes) == 3
     ph = nodes[1]
@@ -51,7 +51,7 @@ def test_parse_conditional_syntax():
     assert ph.if_false == "زن"
 
 
-def test_parse_macro_syntax():
+def test_parse_macro_syntax() -> None:
     nodes = PlaceholderParser.parse_string("نام: {lookup: {0_label}; ezafeh; 1}")
     assert len(nodes) == 2
     ph = nodes[1]
@@ -67,17 +67,17 @@ def test_parse_macro_syntax():
     assert ph.nested_placeholders[0].subsymbol == "label"
 
 
-def test_parse_unclosed_brace_raises():
+def test_parse_unclosed_brace_raises() -> None:
     with pytest.raises(PlaceholderParseError):
         PlaceholderParser.parse_string("متن خراب {0_label بدون بستن")
 
 
-def test_validate_text_clean():
+def test_validate_text_clean() -> None:
     errors = PlaceholderParser.validate_text("سلام {0_nameDef} به مستعمره!")
     assert len(errors) == 0
 
 
-def test_validate_text_invalid():
+def test_validate_text_invalid() -> None:
     errors = PlaceholderParser.validate_text("متن {PAWN_gender ? فقط_یک_طرف} ناقص")
     assert len(errors) == 1
     assert "Parse error" in errors[0]

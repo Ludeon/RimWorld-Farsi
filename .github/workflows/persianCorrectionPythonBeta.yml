@@ -6,6 +6,9 @@ on:
     paths:
       - 'tools/**'
       - 'src/english/**'
+      - 'mods/**'
+      - 'install.sh'
+      - 'install.bat'
       - 'Core/**'
       - 'Royalty/**'
       - 'Ideology/**'
@@ -18,6 +21,9 @@ on:
     paths:
       - 'tools/**'
       - 'src/english/**'
+      - 'mods/**'
+      - 'install.sh'
+      - 'install.bat'
       - 'Core/**'
       - 'Royalty/**'
       - 'Ideology/**'
@@ -51,6 +57,16 @@ on:
         required: false
         default: false
         type: boolean
+      is_prerelease:
+        description: 'Mark release as pre-release (beta)'
+        required: false
+        default: true
+        type: boolean
+      release_version:
+        description: 'Optional SemVer override (e.g. 0.4.0) or auto'
+        required: false
+        default: 'auto'
+        type: string
       enable_performance_benchmark:
         description: 'Run performance benchmarks'
         required: false
@@ -60,11 +76,6 @@ on:
         description: 'Run compliance and license scanning'
         required: false
         default: false
-        type: boolean
-      is_prerelease:
-        description: 'Mark release as pre-release (beta)'
-        required: false
-        default: true
         type: boolean
 
 concurrency:
@@ -235,18 +246,71 @@ jobs:
 
     outputs:
       artifact-name: ${{ steps.artifact.outputs.name }}
-      full-zip-name: ${{ steps.artifact.outputs.full_zip }}
-      essential-zip-name: ${{ steps.artifact.outputs.essential_zip }}
+      version-tag: ${{ steps.version.outputs.tag_name }}
+      is-prerelease: ${{ steps.version.outputs.is_prerelease }}
       build-id: ${{ steps.metadata.outputs.build-id }}
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Python Environment
         uses: ./.github/actions/setup-python-env
         with:
           python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Verify RTL Support mod runtime assets
+        run: |
+          test -f mods/RTL_Persian_Support/Assemblies/RTL_Persian_Support.dll || { echo "Missing RTL_Persian_Support.dll"; exit 1; }
+          test -f mods/RTL_Persian_Support/Assemblies/0Harmony.dll || { echo "Missing 0Harmony.dll"; exit 1; }
+          test -f mods/RTL_Persian_Support/Vazirmatn.ttf || { echo "Missing Vazirmatn.ttf"; exit 1; }
+          test -f mods/RTL_Persian_Support/IranianSans.ttf || { echo "Missing IranianSans.ttf"; exit 1; }
+          test -f mods/RTL_Persian_Support/About/About.xml || { echo "Missing About.xml"; exit 1; }
+          bash -n install.sh
+          echo "✅ RTL Support mod and installer assets verified"
+
+      - name: Determine release version tag
+        id: version
+        run: |
+          IS_PRE="false"
+          if [ "${{ github.ref }}" = "refs/heads/beta" ] || [ "${{ github.event.inputs.is_prerelease }}" = "true" ]; then
+            IS_PRE="true"
+          fi
+
+          OVERRIDE="${{ github.event.inputs.release_version || 'auto' }}"
+          OVERRIDE="${OVERRIDE#v}"
+
+          if [ -n "$OVERRIDE" ] && [ "$OVERRIDE" != "auto" ]; then
+            BASE_VER="$OVERRIDE"
+          else
+            LATEST_STABLE=$(git tag --sort=-version:refname | grep '^v[0-9]\+\.[0-9]\+\.[0-9]\+$' | head -1 | sed 's/^v//')
+            if [ -z "$LATEST_STABLE" ]; then
+              BASE_VER="0.4.0"
+            else
+              IFS='.' read -r major minor patch <<< "$LATEST_STABLE"
+              if [ "$patch" -ge 999 ]; then
+                BASE_VER="${major}.$((minor + 1)).0"
+              else
+                BASE_VER="${major}.${minor}.$((patch + 1))"
+              fi
+            fi
+          fi
+
+          if [ "$IS_PRE" = "true" ]; then
+            N=1
+            while git rev-parse "v${BASE_VER}-beta.${N}" >/dev/null 2>&1; do
+              N=$((N + 1))
+            done
+            TAG_NAME="v${BASE_VER}-beta.${N}"
+          else
+            TAG_NAME="v${BASE_VER}"
+          fi
+
+          echo "tag_name=${TAG_NAME}" >> $GITHUB_OUTPUT
+          echo "is_prerelease=${IS_PRE}" >> $GITHUB_OUTPUT
+          echo "Computed version tag: ${TAG_NAME} (prerelease=${IS_PRE})"
 
       - name: Download all module artifacts
         uses: actions/download-artifact@v4
@@ -414,53 +478,37 @@ jobs:
           }
           EOF
 
-      - name: Create distribution packages (Full & Essential)
+      - name: Create OS-labeled distribution packages (Windows & Linux, with Auto-Installers)
         id: artifact
         run: |
           BUILD_ID="${{ steps.metadata.outputs.build-id }}"
+          VERSION_TAG="${{ steps.version.outputs.tag_name }}"
           ARTIFACT_NAME="persian-language-${BUILD_ID}"
-          FULL_ZIP="persian-language-full-${BUILD_ID}.zip"
-          ESSENTIAL_ZIP="persian-language-essential-${BUILD_ID}.zip"
-
           echo "name=$ARTIFACT_NAME" >> $GITHUB_OUTPUT
-          echo "full_zip=$FULL_ZIP" >> $GITHUB_OUTPUT
-          echo "essential_zip=$ESSENTIAL_ZIP" >> $GITHUB_OUTPUT
 
-          # Copy build reports into Essential package too
           cp "${{ env.BUILD_DIR }}/reports.txt" "${{ env.BUILD_DIR }}-essential/reports.txt"
           cp "${{ env.BUILD_DIR }}/build_info.json" "${{ env.BUILD_DIR }}-essential/build_info.json"
 
-          # Create Full ZIP
-          (cd "${{ env.BUILD_DIR }}" && zip -r "../$FULL_ZIP" . --compression-method deflate)
-          sha256sum "$FULL_ZIP" > "${FULL_ZIP}.sha256"
-          md5sum "$FULL_ZIP" > "${FULL_ZIP}.md5"
+          python tools/translation-tools/package_release.py \
+            --repo-root . \
+            --full-build "${{ env.BUILD_DIR }}" \
+            --essential-build "${{ env.BUILD_DIR }}-essential" \
+            --output-dir release_dist \
+            --version-tag "${VERSION_TAG}"
 
-          # Create Essential ZIP (Keyed/DefInjected in Persian, Strings/ in English)
-          (cd "${{ env.BUILD_DIR }}-essential" && zip -r "../$ESSENTIAL_ZIP" . --compression-method deflate)
-          sha256sum "$ESSENTIAL_ZIP" > "${ESSENTIAL_ZIP}.sha256"
-          md5sum "$ESSENTIAL_ZIP" > "${ESSENTIAL_ZIP}.md5"
+          ls -lh release_dist/
 
-      - name: Attest Full package provenance
+      - name: Attest release archive provenance
         uses: actions/attest-build-provenance@v2
         with:
-          subject-path: ${{ steps.artifact.outputs.full_zip }}
-
-      - name: Attest Essential package provenance
-        uses: actions/attest-build-provenance@v2
-        with:
-          subject-path: ${{ steps.artifact.outputs.essential_zip }}
+          subject-path: 'release_dist/*.zip'
 
       - name: Upload build artifacts
         uses: actions/upload-artifact@v4
         with:
           name: ${{ steps.artifact.outputs.name }}
           path: |
-            ${{ steps.artifact.outputs.full_zip }}
-            ${{ steps.artifact.outputs.full_zip }}.sha256
-            ${{ steps.artifact.outputs.full_zip }}.md5
-            ${{ steps.artifact.outputs.essential_zip }}
-            ${{ steps.artifact.outputs.essential_zip }}.sha256
-            ${{ steps.artifact.outputs.essential_zip }}.md5
+            release_dist/*
             ${{ env.BUILD_DIR }}/reports.txt
           retention-days: 30
           if-no-files-found: error
@@ -519,46 +567,22 @@ jobs:
           name: ${{ needs.merge-modules.outputs.artifact-name }}
           path: artifacts/
 
-      - name: Determine next version
-        id: version
-        run: |
-          # Robust tag parsing with fallback handling
-          LATEST_TAG=$(git tag --sort=-version:refname | grep '^v[0-9]\+\.[0-9]\+\.[0-9]\+$' | head -1 | sed 's/^v//')
-
-          if [ -z "$LATEST_TAG" ]; then
-            echo "ℹ️  No valid semantic version tags found, starting with 1.0.0"
-            NEXT_VERSION="1.0.0"
-          else
-            # Validate version format and increment patch
-            if [[ "$LATEST_TAG" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
-              IFS='.' read -r major minor patch <<< "$LATEST_TAG"
-              # Handle patch overflow (optional)
-              if [ "$patch" -ge 999 ]; then
-                echo "⚠️  Patch version at limit, consider manual version bump"
-                NEXT_VERSION="$major.$minor.$patch"
-              else
-                NEXT_VERSION="$major.$minor.$((patch + 1))"
-              fi
-              echo "📋 Latest tag: v$LATEST_TAG, next version: v$NEXT_VERSION"
-            else
-              echo "⚠️  Invalid version format '$LATEST_TAG', falling back to 1.0.0"
-              NEXT_VERSION="1.0.0"
-            fi
-          fi
-          echo "next_version=$NEXT_VERSION" >> $GITHUB_OUTPUT
-
       - name: Create and push tag
         run: |
-          VERSION=${{ steps.version.outputs.next_version }}
+          TAG_NAME="${{ needs.merge-modules.outputs.version-tag }}"
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git tag "v$VERSION"
-          git push origin "v$VERSION"
+          if ! git rev-parse "$TAG_NAME" >/dev/null 2>&1; then
+            git tag "$TAG_NAME"
+            git push origin "$TAG_NAME"
+          else
+            echo "Tag $TAG_NAME already exists, skipping tag push"
+          fi
 
       - name: Generate release changelog
         id: changelog
         run: |
-          PREV_TAG=$(git tag --sort=-version:refname | grep '^v[0-9]\+\.[0-9]\+\.[0-9]\+$' | sed -n '2p')
+          PREV_TAG=$(git tag --sort=-version:refname | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+(-beta\.[0-9]+)?$' | sed -n '2p')
           if [ -n "$PREV_TAG" ]; then
             echo "Generating changelog since $PREV_TAG"
             LOG=$(git log "${PREV_TAG}..HEAD" --pretty=format:"- %s ([%h](https://github.com/${{ github.repository }}/commit/%H))" --no-merges)
@@ -583,31 +607,47 @@ jobs:
       - name: Sign release artifacts with Sigstore
         run: |
           cd artifacts
-          for file in *.zip; do
+          for file in *.zip *.bat *.sh; do
+            [ -f "$file" ] || continue
             cosign sign-blob --oidc-issuer https://token.actions.githubusercontent.com --yes "$file" > "$file.sig"
           done
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v${{ steps.version.outputs.next_version }}
-          name: Persian Language Pack v${{ steps.version.outputs.next_version }}
+          tag_name: ${{ needs.merge-modules.outputs.version-tag }}
+          name: Persian Language Pack ${{ needs.merge-modules.outputs.version-tag }}
           generate_release_notes: true
           body: |
             ### 📝 What's Changed
             ${{ steps.changelog.outputs.changes }}
 
             ---
+            ### 📦 Downloads & Auto-Installers (Windows / Linux)
+            Each ZIP archive already contains its matching OS auto-installer (`install-windows.bat` or `install-linux.sh`) for offline 1-click installation, or download a standalone `autoinstall-*` launcher:
+
+            | Package | Windows | Linux / Steam Deck / macOS | Notes |
+            | :--- | :--- | :--- | :--- |
+            | **With RTL Mod (Recommended)** | `RimWorld-Farsi-With-RTL-Mod-${{ needs.merge-modules.outputs.version-tag }}-windows.zip` | `RimWorld-Farsi-With-RTL-Mod-${{ needs.merge-modules.outputs.version-tag }}-linux.zip` | Raw UTF-8 UI + English `Strings/` + `RTL_Persian_Support` mod (`Vazirmatn` font & BiDi engine) |
+            | **Essential (No Mod)** | `RimWorld-Farsi-Essential-${{ needs.merge-modules.outputs.version-tag }}-windows.zip` | `RimWorld-Farsi-Essential-${{ needs.merge-modules.outputs.version-tag }}-linux.zip` | Pre-shaped offline Persian UI + English `Strings/` |
+            | **Full (No Mod)** | `RimWorld-Farsi-Full-${{ needs.merge-modules.outputs.version-tag }}-windows.zip` | `RimWorld-Farsi-Full-${{ needs.merge-modules.outputs.version-tag }}-linux.zip` | Pre-shaped full Persian translation |
+            | **1-File Auto-Installer** | `autoinstall-windows.bat` | `autoinstall-linux.sh` | Interactive 3-option online installer |
+
             <details>
             <summary>🔍 Build Details & Integrity</summary>
 
             - **Commit**: [${{ github.sha }}](https://github.com/${{ github.repository }}/commit/${{ github.sha }})
             - **Build ID**: `${{ needs.merge-modules.outputs.build-id }}`
-            - **Full Package**: `${{ needs.merge-modules.outputs.full-zip-name }}` (Signed with Sigstore)
-            - **Essential Package (English `Strings/`)**: `${{ needs.merge-modules.outputs.essential-zip-name }}` (Signed with Sigstore)
+            - All `.zip`, `.bat`, and `.sh` assets include `.sha256`, `.md5`, and Sigstore `.sig` verification files.
             </details>
-          files: artifacts/*
+          files: |
+            artifacts/*.zip
+            artifacts/*.bat
+            artifacts/*.sh
+            artifacts/*.sha256
+            artifacts/*.md5
+            artifacts/*.sig
           draft: false
-          prerelease: ${{ github.event.inputs.is_prerelease == 'true' }}
+          prerelease: ${{ needs.merge-modules.outputs.is-prerelease == 'true' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

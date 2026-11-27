@@ -12,17 +12,17 @@ sys.path.insert(0, str(REPO_ROOT / "tools" / "qa"))
 from check_terminology import TerminologyChecker
 
 
-def test_checker_detects_prohibited_terms(tmp_path: Path):
+def test_checker_detects_prohibited_terms(tmp_path: Path) -> None:
     mod_dir = tmp_path / "Core" / "Keyed"
     mod_dir.mkdir(parents=True)
     xml_file = mod_dir / "Test.xml"
     xml_file.write_text(
         '<?xml version="1.0" encoding="utf-8"?>\n'
-        '<LanguageData>\n'
-        '  <GoodTag>استعمارگر و مکانوید</GoodTag>\n'
-        '  <BadTag>کلونیست و مکانیوید</BadTag>\n'
-        '</LanguageData>\n',
-        encoding="utf-8"
+        "<LanguageData>\n"
+        "  <GoodTag>استعمارگر و مکانوید</GoodTag>\n"
+        "  <BadTag>کلونیست و مکانیوید</BadTag>\n"
+        "</LanguageData>\n",
+        encoding="utf-8",
     )
 
     checker = TerminologyChecker(root_dir=tmp_path)
@@ -34,16 +34,16 @@ def test_checker_detects_prohibited_terms(tmp_path: Path):
     assert "مکانیوید" in terms
 
 
-def test_checker_fixes_terms(tmp_path: Path):
+def test_checker_fixes_terms(tmp_path: Path) -> None:
     mod_dir = tmp_path / "Core" / "Keyed"
     mod_dir.mkdir(parents=True)
     xml_file = mod_dir / "Test.xml"
     xml_file.write_text(
         '<?xml version="1.0" encoding="utf-8"?>\n'
-        '<LanguageData>\n'
-        '  <BadTag>کلونیست و بلوپرینت</BadTag>\n'
-        '</LanguageData>\n',
-        encoding="utf-8"
+        "<LanguageData>\n"
+        "  <BadTag>کلونیست و بلوپرینت</BadTag>\n"
+        "</LanguageData>\n",
+        encoding="utf-8",
     )
 
     checker = TerminologyChecker(root_dir=tmp_path)

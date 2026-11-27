@@ -18,14 +18,18 @@ def test_create_essential_build_replaces_strings_with_english(tmp_path: Path) ->
     core_strings = build_dir / "Core" / "Strings" / "Words"
     core_keyed.mkdir(parents=True)
     core_strings.mkdir(parents=True)
-    (core_keyed / "Menus.xml").write_text("<LanguageData><OK>تایید</OK></LanguageData>", encoding="utf-8")
+    (core_keyed / "Menus.xml").write_text(
+        "<LanguageData><OK>تایید</OK></LanguageData>", encoding="utf-8"
+    )
     (core_strings / "Animals.txt").write_text("مافالو", encoding="utf-8")
     (core_strings / "ExtraPersianOnly.txt").write_text("اضافی", encoding="utf-8")
 
     # Biotech has no Persian Strings, only English Strings
     bio_keyed = build_dir / "Biotech" / "Keyed"
     bio_keyed.mkdir(parents=True)
-    (bio_keyed / "Alerts.xml").write_text("<LanguageData><A>ب</A></LanguageData>", encoding="utf-8")
+    (bio_keyed / "Alerts.xml").write_text(
+        "<LanguageData><A>ب</A></LanguageData>", encoding="utf-8"
+    )
 
     en_dir = tmp_path / "src" / "english"
     en_core_strings = en_dir / "Core" / "Strings" / "Words"
@@ -44,10 +48,18 @@ def test_create_essential_build_replaces_strings_with_english(tmp_path: Path) ->
     )
 
     assert counts == {"Core": 1, "Biotech": 1}
-    assert (out_dir / "Core" / "Keyed" / "Menus.xml").read_text(encoding="utf-8") == "<LanguageData><OK>تایید</OK></LanguageData>"
-    assert (out_dir / "Core" / "Strings" / "Words" / "Animals.txt").read_text(encoding="utf-8") == "muffalo"
-    assert not (out_dir / "Core" / "Strings" / "Words" / "ExtraPersianOnly.txt").exists()
-    assert (out_dir / "Biotech" / "Strings" / "Names" / "Mech_Unisex.txt").read_text(encoding="utf-8") == "Bot"
+    assert (out_dir / "Core" / "Keyed" / "Menus.xml").read_text(
+        encoding="utf-8"
+    ) == "<LanguageData><OK>تایید</OK></LanguageData>"
+    assert (out_dir / "Core" / "Strings" / "Words" / "Animals.txt").read_text(
+        encoding="utf-8"
+    ) == "muffalo"
+    assert not (
+        out_dir / "Core" / "Strings" / "Words" / "ExtraPersianOnly.txt"
+    ).exists()
+    assert (out_dir / "Biotech" / "Strings" / "Names" / "Mech_Unisex.txt").read_text(
+        encoding="utf-8"
+    ) == "Bot"
 
 
 def test_create_essential_build_handles_nested_module_layout(tmp_path: Path) -> None:
@@ -55,7 +67,9 @@ def test_create_essential_build_handles_nested_module_layout(tmp_path: Path) -> 
     nested_core = build_dir / "Core" / "Core"
     (nested_core / "Keyed").mkdir(parents=True)
     (nested_core / "Strings").mkdir(parents=True)
-    (nested_core / "Keyed" / "Misc.xml").write_text("<LanguageData />", encoding="utf-8")
+    (nested_core / "Keyed" / "Misc.xml").write_text(
+        "<LanguageData />", encoding="utf-8"
+    )
     (nested_core / "Strings" / "Old.txt").write_text("فارسی", encoding="utf-8")
 
     en_dir = tmp_path / "src" / "english"
@@ -71,4 +85,6 @@ def test_create_essential_build_handles_nested_module_layout(tmp_path: Path) -> 
 
     assert counts == {"Core": 1}
     assert not (out_dir / "Core" / "Core" / "Strings" / "Old.txt").exists()
-    assert (out_dir / "Core" / "Core" / "Strings" / "Names.txt").read_text(encoding="utf-8") == "Alice"
+    assert (out_dir / "Core" / "Core" / "Strings" / "Names.txt").read_text(
+        encoding="utf-8"
+    ) == "Alice"

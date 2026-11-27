@@ -12,30 +12,30 @@ sys.path.insert(0, str(REPO_ROOT / "tools" / "translation-tools"))
 from wordinfo_domains import DomainWordInfoExtractor, compute_ezafeh, normalize_persian
 
 
-def test_normalize_persian():
+def test_normalize_persian() -> None:
     assert normalize_persian("كتاب") == "کتاب"
     assert normalize_persian("عربي") == "عربی"
     assert normalize_persian("  سلام   دنیا  ") == "سلام دنیا"
 
 
-def test_compute_ezafeh():
+def test_compute_ezafeh() -> None:
     assert compute_ezafeh("غذا") == "غذا ی"
     assert compute_ezafeh("دارو") == "دارو ی"
-    assert compute_ezafeh("کلبه") == "کلبه\u200Cی"
+    assert compute_ezafeh("کلبه") == "کلبه\u200cی"
     assert compute_ezafeh("سرباز") == "سرباز"
 
 
-def test_domain_extraction(tmp_path: Path):
+def test_domain_extraction(tmp_path: Path) -> None:
     mod_dir = tmp_path / "Core" / "DefInjected" / "HediffDef"
     mod_dir.mkdir(parents=True)
     xml_file = mod_dir / "Injuries.xml"
     xml_file.write_text(
         '<?xml version="1.0" encoding="utf-8"?>\n'
-        '<LanguageData>\n'
-        '  <Cut.label>بریدگی</Cut.label>\n'
-        '  <Gunshot.label>زخم گلوله</Gunshot.label>\n'
-        '</LanguageData>\n',
-        encoding="utf-8"
+        "<LanguageData>\n"
+        "  <Cut.label>بریدگی</Cut.label>\n"
+        "  <Gunshot.label>زخم گلوله</Gunshot.label>\n"
+        "</LanguageData>\n",
+        encoding="utf-8",
     )
 
     extractor = DomainWordInfoExtractor(root_dir=tmp_path)

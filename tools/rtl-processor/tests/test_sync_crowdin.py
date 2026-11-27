@@ -13,7 +13,7 @@ sys.path.insert(0, str(REPO_ROOT / "tools" / "crowdin-sync"))
 from sync_crowdin import CrowdinSyncBridge
 
 
-def test_export_and_import_bundle(tmp_path: Path):
+def test_export_and_import_bundle(tmp_path: Path) -> None:
     repo_dir = tmp_path / "repo"
     export_dir = tmp_path / "export"
     import_dir = tmp_path / "import"
@@ -24,11 +24,11 @@ def test_export_and_import_bundle(tmp_path: Path):
     xml_file = mod_dir / "Test.xml"
     xml_file.write_text(
         '<?xml version="1.0" encoding="utf-8"?>\n'
-        '<LanguageData>\n'
-        '  <!-- EN: Hello World -->\n'
-        '  <Greeting>سلام دنیا</Greeting>\n'
-        '</LanguageData>\n',
-        encoding="utf-8"
+        "<LanguageData>\n"
+        "  <!-- EN: Hello World -->\n"
+        "  <Greeting>سلام دنیا</Greeting>\n"
+        "</LanguageData>\n",
+        encoding="utf-8",
     )
 
     bridge = CrowdinSyncBridge(repo_root=repo_dir)

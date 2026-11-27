@@ -142,4 +142,6 @@ def test_report_strings_check_and_fix(tmp_path: Path) -> None:
     new_content = test_file.read_text(encoding="utf-8")
     assert "<Eating.reportString>مصرف {0}</Eating.reportString>" in new_content
     # NonReport description should still have its period!
-    assert "<NonReport.description>یک توضیح معمولی.</NonReport.description>" in new_content
+    assert (
+        "<NonReport.description>یک توضیح معمولی.</NonReport.description>" in new_content
+    )

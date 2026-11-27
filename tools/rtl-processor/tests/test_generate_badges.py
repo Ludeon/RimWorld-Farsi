@@ -12,7 +12,7 @@ sys.path.insert(0, str(REPO_ROOT / "tools" / "qa"))
 from generate_badges import BadgeGenerator, make_svg_badge
 
 
-def test_make_svg_badge():
+def test_make_svg_badge() -> None:
     svg = make_svg_badge("TestLabel", "TestValue", "#2ecc71")
     assert "<svg" in svg
     assert "TestLabel" in svg
@@ -20,7 +20,7 @@ def test_make_svg_badge():
     assert "#2ecc71" in svg
 
 
-def test_badge_generator_runs(tmp_path: Path):
+def test_badge_generator_runs(tmp_path: Path) -> None:
     repo_dir = tmp_path / "repo"
     out_dir = tmp_path / "badges"
 
@@ -28,10 +28,10 @@ def test_badge_generator_runs(tmp_path: Path):
     core_keyed.mkdir(parents=True)
     (core_keyed / "Test.xml").write_text(
         '<?xml version="1.0" encoding="utf-8"?>\n'
-        '<LanguageData>\n'
-        '  <Tag>سلام دنیا</Tag>\n'
-        '</LanguageData>\n',
-        encoding="utf-8"
+        "<LanguageData>\n"
+        "  <Tag>سلام دنیا</Tag>\n"
+        "</LanguageData>\n",
+        encoding="utf-8",
     )
 
     gen = BadgeGenerator(repo_root=repo_dir)

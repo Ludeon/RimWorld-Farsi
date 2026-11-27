@@ -12,7 +12,7 @@ sys.path.insert(0, str(REPO_ROOT / "tools" / "translation-tools"))
 from check_upstream_diff import UpstreamDiffEngine
 
 
-def test_diff_engine_detects_missing_tags(tmp_path: Path):
+def test_diff_engine_detects_missing_tags(tmp_path: Path) -> None:
     en_dir = tmp_path / "en"
     fa_dir = tmp_path / "fa"
 
@@ -21,11 +21,11 @@ def test_diff_engine_detects_missing_tags(tmp_path: Path):
     en_file = en_keyed / "Test.xml"
     en_file.write_text(
         '<?xml version="1.0" encoding="utf-8"?>\n'
-        '<LanguageData>\n'
-        '  <TagOne>First English String</TagOne>\n'
-        '  <TagTwo>Second English String</TagTwo>\n'
-        '</LanguageData>\n',
-        encoding="utf-8"
+        "<LanguageData>\n"
+        "  <TagOne>First English String</TagOne>\n"
+        "  <TagTwo>Second English String</TagTwo>\n"
+        "</LanguageData>\n",
+        encoding="utf-8",
     )
 
     fa_keyed = fa_dir / "Core" / "Keyed"
@@ -33,11 +33,11 @@ def test_diff_engine_detects_missing_tags(tmp_path: Path):
     fa_file = fa_keyed / "Test.xml"
     fa_file.write_text(
         '<?xml version="1.0" encoding="utf-8"?>\n'
-        '<LanguageData>\n'
-        '  <!-- EN: First English String -->\n'
-        '  <TagOne>رشته اول فارسی</TagOne>\n'
-        '</LanguageData>\n',
-        encoding="utf-8"
+        "<LanguageData>\n"
+        "  <!-- EN: First English String -->\n"
+        "  <TagOne>رشته اول فارسی</TagOne>\n"
+        "</LanguageData>\n",
+        encoding="utf-8",
     )
 
     engine = UpstreamDiffEngine(english_dir=en_dir, persian_dir=fa_dir)
@@ -50,7 +50,7 @@ def test_diff_engine_detects_missing_tags(tmp_path: Path):
     assert diff.missing_tags[0].english_text == "Second English String"
 
 
-def test_diff_engine_generates_stubs(tmp_path: Path):
+def test_diff_engine_generates_stubs(tmp_path: Path) -> None:
     en_dir = tmp_path / "en"
     fa_dir = tmp_path / "fa"
 
@@ -58,22 +58,22 @@ def test_diff_engine_generates_stubs(tmp_path: Path):
     en_keyed.mkdir(parents=True)
     (en_keyed / "Test.xml").write_text(
         '<?xml version="1.0" encoding="utf-8"?>\n'
-        '<LanguageData>\n'
-        '  <TagA>String A</TagA>\n'
-        '  <TagB>String B</TagB>\n'
-        '</LanguageData>\n',
-        encoding="utf-8"
+        "<LanguageData>\n"
+        "  <TagA>String A</TagA>\n"
+        "  <TagB>String B</TagB>\n"
+        "</LanguageData>\n",
+        encoding="utf-8",
     )
 
     fa_keyed = fa_dir / "Core" / "Keyed"
     fa_keyed.mkdir(parents=True)
     (fa_keyed / "Test.xml").write_text(
         '<?xml version="1.0" encoding="utf-8"?>\n'
-        '<LanguageData>\n'
-        '  <!-- EN: String A -->\n'
-        '  <TagA>رشته آ</TagA>\n'
-        '</LanguageData>\n',
-        encoding="utf-8"
+        "<LanguageData>\n"
+        "  <!-- EN: String A -->\n"
+        "  <TagA>رشته آ</TagA>\n"
+        "</LanguageData>\n",
+        encoding="utf-8",
     )
 
     engine = UpstreamDiffEngine(english_dir=en_dir, persian_dir=fa_dir)
@@ -86,7 +86,7 @@ def test_diff_engine_generates_stubs(tmp_path: Path):
     assert "<!-- EN: String B -->" in updated_fa
 
 
-def test_diff_engine_ignores_comment_only_template_files(tmp_path: Path):
+def test_diff_engine_ignores_comment_only_template_files(tmp_path: Path) -> None:
     en_dir = tmp_path / "en"
     fa_dir = tmp_path / "fa"
 
@@ -94,9 +94,9 @@ def test_diff_engine_ignores_comment_only_template_files(tmp_path: Path):
     en_def.mkdir(parents=True)
     (en_def / "Example_Concepts.xml").write_text(
         '<?xml version="1.0" encoding="utf-8"?>\n'
-        '<LanguageData>\n'
-        '  <!-- <ExampleConcept.label>Example</ExampleConcept.label> -->\n'
-        '</LanguageData>\n',
+        "<LanguageData>\n"
+        "  <!-- <ExampleConcept.label>Example</ExampleConcept.label> -->\n"
+        "</LanguageData>\n",
         encoding="utf-8",
     )
 

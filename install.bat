@@ -2,16 +2,26 @@
 @echo off
 chcp 65001 > nul
 setlocal enabledelayedexpansion
-title RimWorld Persian (فارسی) Translation & RTL Engine Installer
+title RimWorld Persian (فارسی) Translation ^& RTL Engine Installer (Windows)
 
 echo ======================================================================
-echo           RimWorld Persian (فارسی) Translation Installer
-echo               With Vazirmatn Font & RTL Support Engine
+echo       RimWorld Persian (فارسی) Translation Installer (Windows)
+echo             With Vazirmatn Font ^& RTL Support Engine
 echo ======================================================================
 echo.
 
 set "EDITION="
 set "INSTALL_MOD="
+set "IS_PACKAGED_BUNDLE=0"
+
+if exist "%~dp0.release-edition" (
+    set /p BUNDLED_EDITION=<"%~dp0.release-edition"
+    set "BUNDLED_EDITION=!BUNDLED_EDITION: =!"
+    if /i "!BUNDLED_EDITION!"=="essential" set "EDITION=essential" & set "IS_PACKAGED_BUNDLE=1"
+    if /i "!BUNDLED_EDITION!"=="full" set "EDITION=full" & set "IS_PACKAGED_BUNDLE=1"
+    if /i "!BUNDLED_EDITION!"=="mod" set "EDITION=mod" & set "IS_PACKAGED_BUNDLE=1"
+)
+
 for %%A in (%*) do (
     if /i "%%~A"=="/essential" set "EDITION=essential"
     if /i "%%~A"=="--essential" set "EDITION=essential"
@@ -30,8 +40,8 @@ if "!EDITION!"=="" (
     echo   [1] Essential             ^(Standalone - Persian UI ^& gameplay, English Strings/, no mod^)
     echo   [2] Full                  ^(Standalone - Complete Persian translation incl. Strings/, no mod^)
     echo   [3] Translation + RTL Mod ^(Recommended with Mods - Vazirmatn font ^& dynamic RTL engine^)
-    set /p "ED_CHOICE=Enter choice [1/2/3] (default 1): "
-    if "!ED_CHOICE!"=="" set "ED_CHOICE=1"
+    set /p "ED_CHOICE=Enter choice [1/2/3] (default 3): "
+    if "!ED_CHOICE!"=="" set "ED_CHOICE=3"
     if "!ED_CHOICE!"=="1" (
         set "EDITION=essential"
     ) else if /i "!ED_CHOICE!"=="essential" (
@@ -121,45 +131,37 @@ set "SRC_BASE=%~dp0"
 set "MOD_SRC=%~dp0mods\RTL_Persian_Support"
 set "USED_REMOTE=0"
 
-if /i "!EDITION!"=="mod" (
-    if exist "%~dp0Core\Keyed" if exist "%~dp0mods\RTL_Persian_Support" (
-        echo [INFO] Using local raw UTF-8 translation files and RTL Support mod.
-    ) else (
-        echo [INFO] Downloading raw translation ^& RTL Support mod package from GitHub...
-        set "TEMP_ZIP=%TEMP%\rw_farsi_%RANDOM%.zip"
-        set "TEMP_DIR=%TEMP%\rw_farsi_%RANDOM%"
-        powershell -NoProfile -Command ^
-          "try {" ^
-          "  [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;" ^
-          "  Invoke-WebRequest -Uri 'https://github.com/Ludeon/RimWorld-Farsi/archive/refs/heads/beta.zip' -OutFile '!TEMP_ZIP!' -UseBasicParsing;" ^
-          "  Expand-Archive -Path '!TEMP_ZIP!' -DestinationPath '!TEMP_DIR!' -Force;" ^
-          "  Remove-Item '!TEMP_ZIP!' -Force;" ^
-          "  exit 0;" ^
-          "} catch { exit 1 }"
-        for /d %%D in ("!TEMP_DIR!\*") do (
-            if exist "%%~fD\Core" (
-                set "SRC_BASE=%%~fD\"
-                set "MOD_SRC=%%~fD\mods\RTL_Persian_Support"
-            )
-        )
-    )
+if "!IS_PACKAGED_BUNDLE!"=="1" (
+    echo [INFO] Detected pre-packaged '!EDITION!' release bundle. Installing offline...
+) else if /i "!EDITION!"=="mod" if exist "%~dp0Core\Keyed" if exist "%~dp0mods\RTL_Persian_Support" (
+    echo [INFO] Using local raw UTF-8 translation files and RTL Support mod.
 ) else (
-    echo [INFO] Checking for latest Persian translation release ^(!EDITION!^) on GitHub...
+    echo [INFO] Checking GitHub Releases for '!EDITION!' ^(-windows^) package...
     set "TEMP_ZIP=%TEMP%\rw_farsi_%RANDOM%.zip"
     set "TEMP_DIR=%TEMP%\rw_farsi_%RANDOM%"
 
     powershell -NoProfile -Command ^
       "try {" ^
       "  [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;" ^
-      "  $rel = Invoke-RestMethod -Uri 'https://api.github.com/repos/Ludeon/RimWorld-Farsi/releases/latest' -Headers @{'User-Agent'='RimWorld-Farsi-Installer'};" ^
-      "  if ('!EDITION!' -eq 'essential') {" ^
-      "    $asset = $rel.assets | Where-Object { $_.name -like 'persian-language-essential-*.zip' } | Select-Object -First 1;" ^
-      "  } else {" ^
-      "    $asset = $rel.assets | Where-Object { $_.name -like 'persian-language-full-*.zip' } | Select-Object -First 1;" ^
-      "    if (-not $asset) { $asset = $rel.assets | Where-Object { $_.name -like 'persian-language-*.zip' -and $_.name -notlike '*essential*' } | Select-Object -First 1 };" ^
+      "  $rels = Invoke-RestMethod -Uri 'https://api.github.com/repos/Ludeon/RimWorld-Farsi/releases?per_page=10' -Headers @{'User-Agent'='RimWorld-Farsi-Installer'};" ^
+      "  $url = $null;" ^
+      "  foreach ($rel in $rels) {" ^
+      "    $assets = $rel.assets;" ^
+      "    if ('!EDITION!' -eq 'mod') {" ^
+      "      $a = $assets | Where-Object { $_.name -like 'RimWorld-Farsi-With-RTL-Mod-*-windows.zip' } | Select-Object -First 1;" ^
+      "    } elseif ('!EDITION!' -eq 'essential') {" ^
+      "      $a = $assets | Where-Object { $_.name -like 'RimWorld-Farsi-Essential-*-windows.zip' } | Select-Object -First 1;" ^
+      "      if (-not $a) { $a = $assets | Where-Object { $_.name -like 'persian-language-essential-*.zip' } | Select-Object -First 1 };" ^
+      "    } else {" ^
+      "      $a = $assets | Where-Object { $_.name -like 'RimWorld-Farsi-Full-*-windows.zip' } | Select-Object -First 1;" ^
+      "      if (-not $a) { $a = $assets | Where-Object { $_.name -like 'persian-language-full-*.zip' } | Select-Object -First 1 };" ^
+      "      if (-not $a) { $a = $assets | Where-Object { $_.name -like 'persian-language-*.zip' -and $_.name -notlike '*essential*' } | Select-Object -First 1 };" ^
+      "    }" ^
+      "    if ($a) { $url = $a.browser_download_url; break }" ^
       "  }" ^
-      "  if (-not $asset) { throw 'Asset not found' };" ^
-      "  Invoke-WebRequest -Uri $asset.browser_download_url -OutFile '!TEMP_ZIP!' -UseBasicParsing;" ^
+      "  if (-not $url -and '!EDITION!' -eq 'mod') { $url = 'https://github.com/Ludeon/RimWorld-Farsi/archive/refs/heads/beta.zip' };" ^
+      "  if (-not $url) { throw 'Release asset not found' };" ^
+      "  Invoke-WebRequest -Uri $url -OutFile '!TEMP_ZIP!' -UseBasicParsing;" ^
       "  Expand-Archive -Path '!TEMP_ZIP!' -DestinationPath '!TEMP_DIR!' -Force;" ^
       "  Remove-Item '!TEMP_ZIP!' -Force;" ^
       "  exit 0;" ^
@@ -168,17 +170,28 @@ if /i "!EDITION!"=="mod" (
       "}"
 
     if exist "!TEMP_DIR!\Core" (
-        set "SRC_BASE=!TEMP_DIR!"
+        set "SRC_BASE=!TEMP_DIR!\"
         set "USED_REMOTE=1"
-        echo [INFO] Downloaded latest processed release translation package ^(!EDITION!^).
+        if exist "!TEMP_DIR!\mods\RTL_Persian_Support" set "MOD_SRC=!TEMP_DIR!\mods\RTL_Persian_Support"
+        if exist "!TEMP_DIR!\.release-edition" set "IS_PACKAGED_BUNDLE=1"
+        echo [INFO] Downloaded release package ^(!EDITION!^).
     ) else (
-        if not exist "!SRC_BASE!\Core" (
-            echo [ERROR] Failed to download latest release from GitHub and no local translation files found in !SRC_BASE!
-            echo Please download the latest package manually from: https://github.com/Ludeon/RimWorld-Farsi/releases
-            pause
-            exit /b 1
-        ) else (
-            echo [INFO] Using local repository translation files.
+        for /d %%D in ("!TEMP_DIR!\*") do (
+            if exist "%%~fD\Core" (
+                set "SRC_BASE=%%~fD\"
+                set "USED_REMOTE=0"
+                if exist "%%~fD\mods\RTL_Persian_Support" set "MOD_SRC=%%~fD\mods\RTL_Persian_Support"
+            )
+        )
+        if not exist "!SRC_BASE!Core" (
+            if not exist "%~dp0Core" (
+                echo [ERROR] Failed to download release from GitHub and no local translation files found.
+                echo Please download manually from: https://github.com/Ludeon/RimWorld-Farsi/releases
+                pause
+                exit /b 1
+            ) else (
+                echo [INFO] Falling back to local repository translation files.
+            )
         )
     )
 )
@@ -186,22 +199,22 @@ if /i "!EDITION!"=="mod" (
 set /a INSTALLED_COUNT=0
 
 for %%M in (!MODULES!) do (
-    set "MOD_SRC="
-    if exist "!SRC_BASE!\%%M\%%M\DefInjected" (
-        set "MOD_SRC=!SRC_BASE!\%%M\%%M"
-    ) else if exist "!SRC_BASE!\%%M\DefInjected" (
-        set "MOD_SRC=!SRC_BASE!\%%M"
-    ) else if exist "!SRC_BASE!\%%M\Languages" (
-        set "MOD_SRC=!SRC_BASE!\%%M"
+    set "MOD_SRC_DIR="
+    if exist "!SRC_BASE!%%M\%%M\DefInjected" (
+        set "MOD_SRC_DIR=!SRC_BASE!%%M\%%M"
+    ) else if exist "!SRC_BASE!%%M\DefInjected" (
+        set "MOD_SRC_DIR=!SRC_BASE!%%M"
+    ) else if exist "!SRC_BASE!%%M\Languages" (
+        set "MOD_SRC_DIR=!SRC_BASE!%%M"
     )
 
-    if defined MOD_SRC (
+    if defined MOD_SRC_DIR (
         if exist "!FLDR!\Data\%%M" (
             echo Installing %%M...
             rd /q /s "!FLDR!\Data\%%M\Languages\!LANG_NAME!" 2>nul
             rd /q /s "!FLDR!\Data\%%M\Languages\Persian" 2>nul
-            xcopy /s /e /i /y "!MOD_SRC!" "!FLDR!\Data\%%M\Languages\!LANG_NAME!" >nul
-            if "!USED_REMOTE!"=="0" (
+            xcopy /s /e /i /y "!MOD_SRC_DIR!" "!FLDR!\Data\%%M\Languages\!LANG_NAME!" >nul
+            if "!IS_PACKAGED_BUNDLE!"=="0" if "!USED_REMOTE!"=="0" (
                 if /i "!EDITION!"=="essential" (
                     rd /q /s "!FLDR!\Data\%%M\Languages\!LANG_NAME!\Strings" 2>nul
                     if exist "!SRC_BASE!src\english\%%M\Strings" (
@@ -239,6 +252,9 @@ if "!INSTALL_MOD!"=="1" if exist "!MOD_SRC!" (
     echo [INFO] Installing RTL Persian Support mod ^(Vazirmatn font ^& RTL engine^)...
     rd /q /s "!FLDR!\Mods\RTL_Persian_Support" 2>nul
     xcopy /s /e /i /y "!MOD_SRC!" "!FLDR!\Mods\RTL_Persian_Support" >nul
+    if exist "!FLDR!\Mods\RTL_Persian_Support\Assemblies\0Harmony.dll" if exist "!FLDR!\Mods\RTL_Persian_Support\About\About.xml" (
+        powershell -NoProfile -Command "$p='!FLDR!\Mods\RTL_Persian_Support\About\About.xml'; $c=Get-Content -Raw -Encoding UTF8 $p; $u=[regex]::Replace($c,'\s*<modDependencies>.*?</modDependencies>\s*',\"`r`n    \",'Singleline'); if($u -ne $c){[IO.File]::WriteAllText($p,$u,[Text.UTF8Encoding]::new($false))}"
+    )
     echo   [OK] RTL Persian Support mod installed to !FLDR!\Mods\RTL_Persian_Support
 )
 
