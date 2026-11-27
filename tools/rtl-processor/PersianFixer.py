@@ -98,10 +98,12 @@ def process_node(node: etree._Element) -> None:
 def _process_word(word: str) -> str:
     """
     Applies letter reversal (if needed) and contextualization to a single word.
+    Strips ZWNJ (U+200C) after shaping because Unity IMGUI's default font
+    renders U+200C as a visible vertical bar ('|').
     """
     reversed_word = _reverse_rtl_word_letters(word)
     contextualized_word = _contextualize_word(reversed_word)
-    return contextualized_word
+    return contextualized_word.replace("\u200c", "")
 
 
 def _reverse_rtl_word_letters(word: str) -> str:
@@ -247,12 +249,29 @@ def _reverse_and_contextualize_string(text: str) -> str:
     return " ".join(processed_words)
 
 
+def _process_segment(segment: str) -> str:
+    """Process a single line segment while preserving leading/trailing whitespace."""
+    if not segment or not re.search(RTL_CHAR_REGEX, segment):
+        return segment
+    leading = segment[: len(segment) - len(segment.lstrip())]
+    trailing = segment[len(segment.rstrip()) :]
+    reversed_val = _reverse_and_contextualize_string(segment.strip())
+    return f"{leading}{reversed_val}{trailing}"
+
+
+def _process_escaped_multiline(text: str) -> str:
+    """Process text containing RimWorld literal ``\\n`` line breaks segment by segment."""
+    return "\\n".join(_process_segment(seg) for seg in text.split("\\n"))
+
+
 def reverse_text_and_contextualize(text: str) -> str:
     """
     Applies the full reversal and contextualization logic to a text string.
     If the text defines a RimWorld grammar rule (contains '->'), the rule
     keyword and '->' operator are preserved intact while only the rule
     content (RHS) is reversed and contextualized.
+    Literal '\\n' sequences are preserved as line boundaries so paragraph
+    order remains top-to-bottom.
     """
     if not text or not re.search(RTL_CHAR_REGEX, text):
         return text
@@ -267,19 +286,13 @@ def reverse_text_and_contextualize(text: str) -> str:
         if "->" in line:
             prefix, arrow, suffix = line.partition("->")
             if re.search(RTL_CHAR_REGEX, suffix):
-                leading = suffix[: len(suffix) - len(suffix.lstrip())]
-                trailing = suffix[len(suffix.rstrip()) :]
-                reversed_val = _reverse_and_contextualize_string(suffix.strip())
                 processed_lines.append(
-                    f"{prefix}{arrow}{leading}{reversed_val}{trailing}"
+                    f"{prefix}{arrow}{_process_escaped_multiline(suffix)}"
                 )
             else:
                 processed_lines.append(line)
         else:
-            leading = line[: len(line) - len(line.lstrip())]
-            trailing = line[len(line.rstrip()) :]
-            reversed_val = _reverse_and_contextualize_string(line.strip())
-            processed_lines.append(f"{leading}{reversed_val}{trailing}")
+            processed_lines.append(_process_escaped_multiline(line))
 
     return "\n".join(processed_lines)
 

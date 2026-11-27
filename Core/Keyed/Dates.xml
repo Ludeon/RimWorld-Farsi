@@ -11,15 +11,15 @@
   <DateReadoutTip>روزهای سپری شده از زمان ورود شما: {0}\nچهارم فعلی: {4}\nفصل محلی: {2}\n\nسال به ۴ چهارم {3} روزه تقسیم می‌شود. چهارم‌ها در همه جا یکسان هستند، در حالی که فصل‌ها در مکان‌های مختلف متفاوتند.\n\nفصل‌های محلی برای هر چهارم:\n{5}</DateReadoutTip>
 
   <!-- EN: {0} of {1}, {2} -->
-  <FullDate>{0} از {1}, {2}</FullDate>
+  <FullDate>{0} {1}، {2}</FullDate>
   <!-- EN: {0} {1} {2} -->
   <ShortDate>{0} {1} {2}</ShortDate>
   <!-- EN: {0}, {1} -->
-  <MonthYearDate>{0}, {1}</MonthYearDate>
+  <MonthYearDate>{0}، {1}</MonthYearDate>
   <!-- EN: {0} of {1}, {2} -->
-  <DateReadout>{0} از {1}, {2}</DateReadout>
+  <DateReadout>{0} {1}، {2}</DateReadout>
   <!-- EN: {0} of {1} -->
-  <SeasonFullDate>{0} از {1}</SeasonFullDate>
+  <SeasonFullDate>{0} {1}</SeasonFullDate>
   <!-- EN: Whole year -->
   <WholeYear>تمام سال</WholeYear>
   

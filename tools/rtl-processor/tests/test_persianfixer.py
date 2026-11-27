@@ -355,3 +355,24 @@ class TestGrammarRules:
         assert result.startswith("festivalName->")
         assert "[chosenTheme]" in result
         assert ">-" not in result
+
+    def test_escaped_newlines_preserve_line_order(self):
+        """Test that RimWorld literal '\\n' breaks keep top-to-bottom segment order."""
+        text = "خط اول\\nخط دوم\\n\\n{0}"
+        result = reverse_text_and_contextualize(text)
+
+        parts = result.split("\\n")
+        assert len(parts) == 4
+        assert all("n\\" not in p for p in parts)
+        assert parts[2] == ""
+        assert parts[3] == "{0}"
+        assert parts[0] == reverse_text_and_contextualize("خط اول")
+        assert parts[1] == reverse_text_and_contextualize("خط دوم")
+
+    def test_zwnj_breaks_joining_and_is_stripped(self):
+        """Test that U+200C prevents letter joining and is removed so Unity doesn't render '|'."""
+        with_zwnj = reverse_text_and_contextualize("می‌توانند")
+        without_zwnj = reverse_text_and_contextualize("میتوانند")
+
+        assert "\u200c" not in with_zwnj
+        assert with_zwnj != without_zwnj

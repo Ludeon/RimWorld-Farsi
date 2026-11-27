@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: advanced gravtech -->
-  <AdvancedGravtech.label>gravtech پیشرفته</AdvancedGravtech.label>
+  <AdvancedGravtech.label>فناوری گرانشی پیشرفته</AdvancedGravtech.label>
   <!-- EN: Build advanced gravship parts. -->
   <AdvancedGravtech.description>ساخت قطعات پیشرفته کشتی.</AdvancedGravtech.description>
   <!-- EN:
@@ -17,7 +17,7 @@
   </AdvancedGravtech.generalRules.rulesStrings>
   
   <!-- EN: basic gravtech -->
-  <BasicGravtech.label>gravtech پایه</BasicGravtech.label>
+  <BasicGravtech.label>فناوری گرانشی پایه</BasicGravtech.label>
   <!-- EN: Build a gravship and use it to travel the planet. Without a grav anchor, launching a gravship will abandon your current map. -->
   <BasicGravtech.description>یک قایق بسازید و از آن برای سفر به سیاره استفاده کنید. بدون لنگر گراو، پرتاب یک کشتی گراو نقشه فعلی شما را رها می‌کند.</BasicGravtech.description>
   <!-- EN:
@@ -138,7 +138,7 @@
   </Shuttles.generalRules.rulesStrings>
   
   <!-- EN: standard gravtech -->
-  <StandardGravtech.label>gravtech استاندارد</StandardGravtech.label>
+  <StandardGravtech.label>فناوری گرانشی استاندارد</StandardGravtech.label>
   <!-- EN: Build complex gravship parts. -->
   <StandardGravtech.description>ساخت قطعات پیچیده کشتی.</StandardGravtech.description>
   <!-- EN: You now have the technology to build large thrusters. These require vacstone blocks which can be obtained from orbital asteroids.\n\nYou can travel to orbital locations using transport pods, shuttles, or a gravship. Make sure to equip your colonists with vacsuits or other advanced armors to survive in space. -->
