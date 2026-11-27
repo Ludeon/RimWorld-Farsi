@@ -135,19 +135,25 @@ def prepare_mod_edition_tree(repo_root: Path, dest_dir: Path) -> int:
     return copied
 
 
-def _write_checksums(file_path: Path) -> None:
-    """Generate ``.sha256`` and ``.md5`` checksum sidecars matching GNU coreutils output."""
-    data = file_path.read_bytes()
-    sha256 = hashlib.sha256(data).hexdigest()
-    md5 = hashlib.md5(data).hexdigest()
-    file_path.with_name(f"{file_path.name}.sha256").write_text(
-        f"{sha256}  {file_path.name}\n",
-        encoding="utf-8",
-    )
-    file_path.with_name(f"{file_path.name}.md5").write_text(
-        f"{md5}  {file_path.name}\n",
-        encoding="utf-8",
-    )
+def _write_consolidated_checksums(
+    output_dir: Path,
+    artifact_paths: list[Path],
+) -> tuple[Path, Path]:
+    """Generate consolidated ``SHA256SUMS.txt`` and ``MD5SUMS.txt`` files."""
+    sha256_lines: list[str] = []
+    md5_lines: list[str] = []
+    for file_path in sorted(artifact_paths, key=lambda p: p.name):
+        data = file_path.read_bytes()
+        sha256 = hashlib.sha256(data).hexdigest()
+        md5 = hashlib.md5(data).hexdigest()
+        sha256_lines.append(f"{sha256}  {file_path.name}")
+        md5_lines.append(f"{md5}  {file_path.name}")
+
+    sha256_path = output_dir / "SHA256SUMS.txt"
+    md5_path = output_dir / "MD5SUMS.txt"
+    sha256_path.write_text("\n".join(sha256_lines) + "\n", encoding="utf-8")
+    md5_path.write_text("\n".join(md5_lines) + "\n", encoding="utf-8")
+    return sha256_path, md5_path
 
 
 def _create_os_zip(
@@ -197,8 +203,6 @@ def _create_os_zip(
             doc_path = repo_root / doc_name
             if doc_path.is_file():
                 zf.write(doc_path, doc_name)
-
-    _write_checksums(zip_path)
 
 
 def package_all_releases(
@@ -262,11 +266,10 @@ def package_all_releases(
         shutil.copy2(repo_root / "install.bat", win_launcher)
         shutil.copy2(repo_root / "install.sh", linux_launcher)
         linux_launcher.chmod(0o755)
-        _write_checksums(win_launcher)
-        _write_checksums(linux_launcher)
         created["launcher_windows"] = win_launcher
         created["launcher_linux"] = linux_launcher
 
+        _write_consolidated_checksums(output_dir, list(created.values()))
         return created
     finally:
         if own_staging and work_staging.exists():

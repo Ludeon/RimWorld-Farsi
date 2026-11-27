@@ -94,13 +94,27 @@ def test_package_all_releases_structure_and_permissions(tmp_path: Path) -> None:
     assert len(outputs) == 8
     assert (out_dir / "autoinstall-windows.bat").is_file()
     assert (out_dir / "autoinstall-linux.sh").is_file()
-    assert (out_dir / "autoinstall-windows.bat.sha256").is_file()
+
+    # Check consolidated checksum manifests (and absence of per-file sidecars)
+    sha256_manifest = out_dir / "SHA256SUMS.txt"
+    md5_manifest = out_dir / "MD5SUMS.txt"
+    assert sha256_manifest.is_file()
+    assert md5_manifest.is_file()
+    assert not (out_dir / "autoinstall-windows.bat.sha256").exists()
+
+    sha_lines = sha256_manifest.read_text(encoding="utf-8").splitlines()
+    md5_lines = md5_manifest.read_text(encoding="utf-8").splitlines()
+    assert len(sha_lines) == 8
+    assert len(md5_lines) == 8
+    assert [line.split("  ", 1)[1] for line in sha_lines] == sorted(
+        path.name for path in outputs.values()
+    )
 
     # Check Mod Windows archive
     mod_win_zip = out_dir / "RimWorld-Farsi-With-RTL-Mod-v0.4.0-beta.1-windows.zip"
     assert mod_win_zip.is_file()
-    assert mod_win_zip.with_name(mod_win_zip.name + ".sha256").is_file()
-    assert mod_win_zip.with_name(mod_win_zip.name + ".md5").is_file()
+    assert not mod_win_zip.with_name(mod_win_zip.name + ".sha256").exists()
+    assert not mod_win_zip.with_name(mod_win_zip.name + ".md5").exists()
 
     with zipfile.ZipFile(mod_win_zip) as zf:
         names = set(zf.namelist())
