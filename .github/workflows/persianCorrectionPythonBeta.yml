@@ -660,12 +660,17 @@ jobs:
           name: Persian Language Pack ${{ needs.merge-modules.outputs.version-tag }}
           generate_release_notes: false
           body: |
-            **Compatibility / سازگاری:** RimWorld 1.6 (`Core`, `Royalty`, `Ideology`, `Biotech`, `Anomaly`, `Odyssey`)
+            **Compatibility:** RimWorld 1.6 (`Core`, `Royalty`, `Ideology`, `Biotech`, `Anomaly`, `Odyssey`)
 
-            ### راهنمای سریع نصب (فارسی)
-            ۱. اسکریپت **`autoinstall-windows.bat`** (ویندوز) یا **`autoinstall-linux.sh`** (لینوکس / استیم‌دک / مک) را از ردیف اول جدول زیر دانلود و اجرا کنید *(پیشنهادی: دانلود و نصب خودکار)*؛ یا یکی از بسته‌های آفلاین جدول را دریافت نمایید.
-            ۲. در منوی نصب گزینه مورد نظر را انتخاب کنید (نسخه همراه با ماد RTL بهترین کیفیت فونت و راست‌به‌چپ را دارد).
-            ۳. بازی را اجرا کرده، در بخش **Mods** ماد `RTL Persian Support` را فعال کنید و زبان بازی را روی **Persian (فارسی)** قرار دهید.
+            <div dir="rtl">
+
+            ### راهنمای سریع نصب
+
+            1. فایل `autoinstall-windows.bat` (ویندوز) یا `autoinstall-linux.sh` (لینوکس، استیم‌دک و مک) را از ردیف اول جدول زیر دانلود و اجرا کنید *(روش پیشنهادی: دانلود و نصب خودکار)*؛ یا یکی از بسته‌های آفلاین جدول را دریافت کنید.
+            2. در منوی نصب گزینه مورد نظر خود را انتخاب کنید؛ گزینه همراه با ماد، بهترین کیفیت فونت و نمایش راست‌به‌چپ را ارائه می‌دهد.
+            3. بازی را اجرا کرده، در بخش **Mods** ماد `RTL Persian Support` را فعال کنید و زبان بازی را روی **Persian** قرار دهید.
+
+            </div>
 
             ---
 
