@@ -623,13 +623,15 @@ jobs:
               else:
                   buckets["🔧 Translations & Maintenance"].append(entry)
 
-          sections = []
-          for title, items in buckets.items():
-              if items:
-                  sections.append(f"#### {title}\n" + "\n".join(items[:15]))
-          if not sections:
-              sections.append("- Translation updates and improvements.")
-          print("\n\n".join(sections))
+          ordered = (
+              buckets["✨ Features & Enhancements"]
+              + buckets["🐛 Bug Fixes"]
+              + buckets["🔧 Translations & Maintenance"]
+          )
+          if ordered:
+              print("\n".join(ordered[:4]))
+          else:
+              print("- Translation updates and improvements.")
           PYEOF
           )
 
@@ -661,8 +663,8 @@ jobs:
             **Compatibility / سازگاری:** RimWorld 1.6 (`Core`, `Royalty`, `Ideology`, `Biotech`, `Anomaly`, `Odyssey`)
 
             ### راهنمای سریع نصب (فارسی)
-            ۱. بسته **`RimWorld-Farsi-With-RTL-Mod-${{ needs.merge-modules.outputs.version-tag }}`** متناسب با سیستم‌عامل خود (ویندوز یا لینوکس/استیم‌دک/مک) را از جدول زیر دانلود و استخراج کنید (یا فقط اسکریپت `autoinstall-*` را دریافت و اجرا نمایید).
-            ۲. فایل `install-windows.bat` (در ویندوز) یا `./install-linux.sh` (در لینوکس) را اجرا کنید و گزینه نصب همراه با ماد RTL را انتخاب نمایید.
+            ۱. اسکریپت **`autoinstall-windows.bat`** (ویندوز) یا **`autoinstall-linux.sh`** (لینوکس / استیم‌دک / مک) را از ردیف اول جدول زیر دانلود و اجرا کنید *(پیشنهادی: دانلود و نصب خودکار)*؛ یا یکی از بسته‌های آفلاین جدول را دریافت نمایید.
+            ۲. در منوی نصب گزینه مورد نظر را انتخاب کنید (نسخه همراه با ماد RTL بهترین کیفیت فونت و راست‌به‌چپ را دارد).
             ۳. بازی را اجرا کرده، در بخش **Mods** ماد `RTL Persian Support` را فعال کنید و زبان بازی را روی **Persian (فارسی)** قرار دهید.
 
             ---
@@ -670,16 +672,18 @@ jobs:
             ### 📝 What's Changed
             ${{ steps.changelog.outputs.changes }}
 
+            ${{ steps.changelog.outputs.prev_tag && format('**Full Changelog**: https://github.com/{0}/compare/{1}...{2}', github.repository, steps.changelog.outputs.prev_tag, needs.merge-modules.outputs.version-tag) || '' }}
+
             ---
             ### 📦 Downloads & Auto-Installers (Windows / Linux)
-            Each ZIP archive already contains its matching OS auto-installer (`install-windows.bat` or `install-linux.sh`) for offline 1-click installation, or download a standalone `autoinstall-*` launcher:
+            Download and run the **1-File Auto-Installer (Recommended)** for your OS, or grab an offline ZIP bundle containing `install-windows.bat` / `install-linux.sh`:
 
             | Package | Windows | Linux / Steam Deck / macOS | Notes |
             | :--- | :--- | :--- | :--- |
-            | **With RTL Mod (Recommended)** | [`RimWorld-Farsi-With-RTL-Mod-${{ needs.merge-modules.outputs.version-tag }}-windows.zip`](https://github.com/${{ github.repository }}/releases/download/${{ needs.merge-modules.outputs.version-tag }}/RimWorld-Farsi-With-RTL-Mod-${{ needs.merge-modules.outputs.version-tag }}-windows.zip) | [`RimWorld-Farsi-With-RTL-Mod-${{ needs.merge-modules.outputs.version-tag }}-linux.zip`](https://github.com/${{ github.repository }}/releases/download/${{ needs.merge-modules.outputs.version-tag }}/RimWorld-Farsi-With-RTL-Mod-${{ needs.merge-modules.outputs.version-tag }}-linux.zip) | Raw UTF-8 UI + English `Strings/` + `RTL_Persian_Support` mod (`Vazirmatn` font & BiDi engine) |
+            | **1-File Auto-Installer (Recommended)** | [`autoinstall-windows.bat`](https://github.com/${{ github.repository }}/releases/download/${{ needs.merge-modules.outputs.version-tag }}/autoinstall-windows.bat) | [`autoinstall-linux.sh`](https://github.com/${{ github.repository }}/releases/download/${{ needs.merge-modules.outputs.version-tag }}/autoinstall-linux.sh) | Interactive 1-click installer (auto-downloads & installs your chosen edition) |
+            | **With RTL Mod** | [`RimWorld-Farsi-With-RTL-Mod-${{ needs.merge-modules.outputs.version-tag }}-windows.zip`](https://github.com/${{ github.repository }}/releases/download/${{ needs.merge-modules.outputs.version-tag }}/RimWorld-Farsi-With-RTL-Mod-${{ needs.merge-modules.outputs.version-tag }}-windows.zip) | [`RimWorld-Farsi-With-RTL-Mod-${{ needs.merge-modules.outputs.version-tag }}-linux.zip`](https://github.com/${{ github.repository }}/releases/download/${{ needs.merge-modules.outputs.version-tag }}/RimWorld-Farsi-With-RTL-Mod-${{ needs.merge-modules.outputs.version-tag }}-linux.zip) | Raw UTF-8 UI + English `Strings/` + `RTL_Persian_Support` mod (`Vazirmatn` font & BiDi engine) |
             | **Essential (No Mod)** | [`RimWorld-Farsi-Essential-${{ needs.merge-modules.outputs.version-tag }}-windows.zip`](https://github.com/${{ github.repository }}/releases/download/${{ needs.merge-modules.outputs.version-tag }}/RimWorld-Farsi-Essential-${{ needs.merge-modules.outputs.version-tag }}-windows.zip) | [`RimWorld-Farsi-Essential-${{ needs.merge-modules.outputs.version-tag }}-linux.zip`](https://github.com/${{ github.repository }}/releases/download/${{ needs.merge-modules.outputs.version-tag }}/RimWorld-Farsi-Essential-${{ needs.merge-modules.outputs.version-tag }}-linux.zip) | Pre-shaped offline Persian UI + English `Strings/` |
             | **Full (No Mod)** | [`RimWorld-Farsi-Full-${{ needs.merge-modules.outputs.version-tag }}-windows.zip`](https://github.com/${{ github.repository }}/releases/download/${{ needs.merge-modules.outputs.version-tag }}/RimWorld-Farsi-Full-${{ needs.merge-modules.outputs.version-tag }}-windows.zip) | [`RimWorld-Farsi-Full-${{ needs.merge-modules.outputs.version-tag }}-linux.zip`](https://github.com/${{ github.repository }}/releases/download/${{ needs.merge-modules.outputs.version-tag }}/RimWorld-Farsi-Full-${{ needs.merge-modules.outputs.version-tag }}-linux.zip) | Pre-shaped full Persian translation |
-            | **1-File Auto-Installer** | [`autoinstall-windows.bat`](https://github.com/${{ github.repository }}/releases/download/${{ needs.merge-modules.outputs.version-tag }}/autoinstall-windows.bat) | [`autoinstall-linux.sh`](https://github.com/${{ github.repository }}/releases/download/${{ needs.merge-modules.outputs.version-tag }}/autoinstall-linux.sh) | Interactive 3-option online installer |
 
             <details>
             <summary>🔍 Build Details & Integrity</summary>
@@ -688,8 +692,6 @@ jobs:
             - **Build ID**: `${{ needs.merge-modules.outputs.build-id }}`
             - Checksums are consolidated in [`SHA256SUMS.txt`](https://github.com/${{ github.repository }}/releases/download/${{ needs.merge-modules.outputs.version-tag }}/SHA256SUMS.txt) & [`MD5SUMS.txt`](https://github.com/${{ github.repository }}/releases/download/${{ needs.merge-modules.outputs.version-tag }}/MD5SUMS.txt), and all `.zip`, `.bat`, and `.sh` assets include Sigstore `.sig` signatures.
             </details>
-
-            ${{ steps.changelog.outputs.prev_tag && format('**Full Changelog**: https://github.com/{0}/compare/{1}...{2}', github.repository, steps.changelog.outputs.prev_tag, needs.merge-modules.outputs.version-tag) || '' }}
           files: |
             artifacts/*.zip
             artifacts/*.bat
