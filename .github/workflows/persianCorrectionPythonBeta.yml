@@ -2,35 +2,41 @@ name: Persian Translation CI/CD
 
 on:
   push:
-    branches: [main, master, beta]
+    branches: [master, beta]
     paths:
       - 'tools/**'
       - 'src/english/**'
       - 'mods/**'
       - 'install.sh'
       - 'install.bat'
+      - 'pyproject.toml'
       - 'Core/**'
       - 'Royalty/**'
       - 'Ideology/**'
       - 'Biotech/**'
       - 'Anomaly/**'
       - 'Odyssey/**'
+      - '.github/actions/**'
       - '.github/workflows/persianCorrectionPythonBeta.yml'
+      - '.github/workflows/reusable-*.yml'
   pull_request:
-    branches: [main, master, beta]
+    branches: [master, beta]
     paths:
       - 'tools/**'
       - 'src/english/**'
       - 'mods/**'
       - 'install.sh'
       - 'install.bat'
+      - 'pyproject.toml'
       - 'Core/**'
       - 'Royalty/**'
       - 'Ideology/**'
       - 'Biotech/**'
       - 'Anomaly/**'
       - 'Odyssey/**'
+      - '.github/actions/**'
       - '.github/workflows/persianCorrectionPythonBeta.yml'
+      - '.github/workflows/reusable-*.yml'
   workflow_dispatch:
     inputs:
       python_version:
@@ -80,7 +86,7 @@ on:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 env:
   PYTHON_VERSION: ${{ github.event.inputs.python_version || '3.13' }}
@@ -90,18 +96,15 @@ env:
 
 permissions:
   contents: read
-  actions: read
-  security-events: write
-  pull-requests: write
-  checks: write
-  id-token: write
-  attestations: write
 
 jobs:
   security:
     name: Security & Dependency Analysis
     if: github.event_name != 'workflow_dispatch' || github.event.inputs.enable_security_scan != 'false'
     uses: ./.github/workflows/reusable-security.yml
+    permissions:
+      contents: read
+      security-events: write
     with:
       enable_compliance: ${{ github.event.inputs.enable_compliance_checks == 'true' }}
 
@@ -109,6 +112,9 @@ jobs:
     name: Quality Assurance
     if: github.event_name != 'workflow_dispatch' || github.event.inputs.enable_qa != 'false'
     uses: ./.github/workflows/reusable-testing.yml
+    permissions:
+      contents: read
+    secrets: inherit
     with:
       python_versions: '["3.11", "3.12", "3.13"]'
       enable_benchmarks: ${{ github.event.inputs.enable_performance_benchmark == 'true' }}
@@ -122,9 +128,6 @@ jobs:
     if: needs.test.result != 'skipped'
     permissions:
       contents: read
-      actions: read
-      id-token: write
-      attestations: write
 
     outputs:
       module: ${{ matrix.module }}
@@ -148,7 +151,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
       - name: Setup Python Environment
         uses: ./.github/actions/setup-python-env
@@ -224,7 +227,7 @@ jobs:
           echo "✅ ${{ matrix.module }} XML validation completed in ${DURATION}s"
 
       - name: Upload module artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
           name: ${{ matrix.module }}-processed-${{ github.run_id }}
           path: |
@@ -236,8 +239,9 @@ jobs:
   merge-modules:
     name: Merge & Package
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-    needs: [build]
+    timeout-minutes: 15
+    needs: [build, security]
+    if: always() && needs.build.result == 'success' && (needs.security.result == 'success' || needs.security.result == 'skipped')
     permissions:
       contents: read
       actions: read
@@ -252,7 +256,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           fetch-depth: 0
 
@@ -261,28 +265,42 @@ jobs:
         with:
           python-version: ${{ env.PYTHON_VERSION }}
 
-      - name: Verify RTL Support mod runtime assets
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@67a3573c9a986a3f9c594539f4ab511d57bb3ce9 # v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Build & test RTL_Persian_Support mod from C# source
         run: |
+          dotnet build mods/RTL_Persian_Support/Source/RTL_Persian_Support.csproj -c Release -p:UseLocalManaged=false
+          dotnet test mods/RTL_Persian_Support/Tests/RTL_Persian_Support.Tests.csproj -c Release
           test -f mods/RTL_Persian_Support/Assemblies/RTL_Persian_Support.dll || { echo "Missing RTL_Persian_Support.dll"; exit 1; }
           test -f mods/RTL_Persian_Support/Assemblies/0Harmony.dll || { echo "Missing 0Harmony.dll"; exit 1; }
           test -f mods/RTL_Persian_Support/Vazirmatn.ttf || { echo "Missing Vazirmatn.ttf"; exit 1; }
           test -f mods/RTL_Persian_Support/IranianSans.ttf || { echo "Missing IranianSans.ttf"; exit 1; }
           test -f mods/RTL_Persian_Support/About/About.xml || { echo "Missing About.xml"; exit 1; }
           bash -n install.sh
-          echo "✅ RTL Support mod and installer assets verified"
+          echo "✅ RTL Support mod compiled cleanly and installer assets verified"
 
       - name: Determine release version tag
         id: version
+        env:
+          INPUT_IS_PRERELEASE: ${{ github.event.inputs.is_prerelease }}
+          INPUT_RELEASE_VERSION: ${{ github.event.inputs.release_version }}
         run: |
           IS_PRE="false"
-          if [ "${{ github.ref }}" = "refs/heads/beta" ] || [ "${{ github.event.inputs.is_prerelease }}" = "true" ]; then
+          if [ "${GITHUB_REF}" = "refs/heads/beta" ] || [ "${INPUT_IS_PRERELEASE}" = "true" ]; then
             IS_PRE="true"
           fi
 
-          OVERRIDE="${{ github.event.inputs.release_version || 'auto' }}"
+          OVERRIDE="${INPUT_RELEASE_VERSION:-auto}"
           OVERRIDE="${OVERRIDE#v}"
 
           if [ -n "$OVERRIDE" ] && [ "$OVERRIDE" != "auto" ]; then
+            if ! echo "$OVERRIDE" | grep -qE '^[0-9]+\.[0-9]+\.[0-9]+$'; then
+              echo "::error::Invalid SemVer override '$OVERRIDE'. Expected X.Y.Z"
+              exit 1
+            fi
             BASE_VER="$OVERRIDE"
           else
             LATEST_STABLE=$(git tag --sort=-version:refname | grep '^v[0-9]\+\.[0-9]\+\.[0-9]\+$' | head -1 | sed 's/^v//')
@@ -314,7 +332,7 @@ jobs:
           echo "Computed version tag: ${TAG_NAME} (prerelease=${IS_PRE})"
 
       - name: Download all module artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
         with:
           path: modules/
           # Retry logic for race conditions
@@ -345,139 +363,75 @@ jobs:
 
       - name: Generate comprehensive build report
         id: metadata
+        env:
+          INPUT_SECURITY: ${{ github.event.inputs.enable_security_scan || 'true' }}
+          INPUT_QA: ${{ github.event.inputs.enable_qa || 'true' }}
+          INPUT_BENCH: ${{ github.event.inputs.enable_performance_benchmark || 'false' }}
+          INPUT_COMPLIANCE: ${{ github.event.inputs.enable_compliance_checks || 'false' }}
+          INPUT_CREATE_REL: ${{ github.event.inputs.create_release || 'false' }}
+          INPUT_IS_PRE: ${{ github.event.inputs.is_prerelease || 'true' }}
+          SECURITY_RESULT: ${{ needs.security.result || 'not_run' }}
+          QA_RESULT: ${{ needs.test.result || 'not_run' }}
+          CTX_BRANCH: ${{ github.ref_name }}
+          CTX_WORKFLOW: ${{ github.workflow }}
+          CTX_ACTOR: ${{ github.actor }}
         run: |
-          BUILD_ID="${{ github.run_id }}-${{ github.run_attempt }}"
+          BUILD_ID="${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
           TIMESTAMP="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
           echo "build-id=$BUILD_ID" >> $GITHUB_OUTPUT
           echo "timestamp=$TIMESTAMP" >> $GITHUB_OUTPUT
 
-          # Calculate total durations from job outputs
-          TOTAL_TRANSLATION=0
-          TOTAL_VALIDATION=0
+          python3 - << 'PYEOF'
+          import json
+          import os
+          from pathlib import Path
 
-          # Create comprehensive reports.txt
-          cat > ${{ env.BUILD_DIR }}/reports.txt << 'EOF'
-          ========================================
-          PERSIAN LANGUAGE PACK BUILD REPORT
-          ========================================
+          build_dir = Path(os.environ["BUILD_DIR"])
+          build_dir.mkdir(parents=True, exist_ok=True)
+          req_path = Path(os.environ["TOOLS_DIR"]) / "requirements.txt"
+          req_text = req_path.read_text(encoding="utf-8") if req_path.is_file() else ""
+          ts = os.popen("date -u +'%Y-%m-%dT%H:%M:%SZ'").read().strip()
+          build_id = f"{os.environ['GITHUB_RUN_ID']}-{os.environ['GITHUB_RUN_ATTEMPT']}"
 
-          BUILD INFORMATION
-          -----------------
-          Build ID: ${{ github.run_id }}-${{ github.run_attempt }}
-          Commit: ${{ github.sha }}
-          Timestamp: $TIMESTAMP
-          Repository: ${{ github.repository }}
-          Workflow: ${{ github.workflow }}
-          Trigger: ${{ github.event_name }}
-          Branch: ${{ github.ref_name }}
-          Actor: ${{ github.actor }}
-          Run ID: ${{ github.run_id }}
-          Run Attempt: ${{ github.run_attempt }}
+          report = "\n".join([
+              "========================================",
+              "PERSIAN LANGUAGE PACK BUILD REPORT",
+              "========================================",
+              "",
+              f"Build ID: {build_id}",
+              f"Commit: {os.environ['GITHUB_SHA']}",
+              f"Timestamp: {ts}",
+              f"Repository: {os.environ['GITHUB_REPOSITORY']}",
+              f"Workflow: {os.environ['CTX_WORKFLOW']}",
+              f"Trigger: {os.environ['GITHUB_EVENT_NAME']}",
+              f"Branch: {os.environ['CTX_BRANCH']}",
+              f"Actor: {os.environ['CTX_ACTOR']}",
+              f"Python Version: {os.environ['PYTHON_VERSION']}",
+              f"Security Job: {os.environ['SECURITY_RESULT']}",
+              f"QA Job: {os.environ['QA_RESULT']}",
+              "",
+              req_text.strip(),
+              "",
+          ])
+          (build_dir / "reports.txt").write_text(report, encoding="utf-8")
 
-          CONFIGURATION
-          -------------
-          Python Version: ${{ env.PYTHON_VERSION }}
-          Enable Security Scan: ${{ github.event.inputs.enable_security_scan || 'true' }}
-          Enable QA: ${{ github.event.inputs.enable_qa || 'true' }}
-          Enable Performance Benchmark: ${{ github.event.inputs.enable_performance_benchmark || 'false' }}
-          Enable Compliance Checks: ${{ github.event.inputs.enable_compliance_checks || 'false' }}
-          Create Release: ${{ github.event.inputs.create_release || 'false' }}
-          Is Pre-release: ${{ github.event.inputs.is_prerelease || 'true' }}
-
-          DEPENDENCIES & TOOLS
-          -------------------
-          Python Packages (from requirements.txt):
-          EOF
-
-          # Add Python dependencies
-          if [ -f "${{ env.TOOLS_DIR }}/requirements.txt" ]; then
-            echo "Contents of requirements.txt:" >> ${{ env.BUILD_DIR }}/reports.txt
-            cat ${{ env.TOOLS_DIR }}/requirements.txt >> ${{ env.BUILD_DIR }}/reports.txt
-            echo "" >> ${{ env.BUILD_DIR }}/reports.txt
-          fi
-
-          cat >> ${{ env.BUILD_DIR }}/reports.txt << 'EOF'
-
-          GitHub Actions Used:
-          - actions/checkout@v4
-          - actions/setup-python (custom action)
-          - github/codeql-action/init@v3
-          - github/codeql-action/autobuild@v3
-          - github/codeql-action/analyze@v3
-          - actions/dependency-review-action@v4
-          - aquasecurity/trivy-action@v0.36.0
-          - actions/upload-artifact@v4
-          - actions/download-artifact@v4
-          - actions/attest-build-provenance@v2
-          - sigstore/cosign-installer@v3
-          - softprops/action-gh-release@v2
-          - codecov/codecov-action@v5
-
-          System Tools:
-          - Python ${{ env.PYTHON_VERSION }}
-          - pip, uv (package manager)
-          - lxml (XML processing)
-          - pytest (testing)
-          - mypy (type checking)
-          - ruff (linting)
-          - black (code formatting)
-          - isort (import sorting)
-          - pip-audit (security audit)
-          - pip-licenses (license checking)
-
-          PROCESSING STATISTICS
-          --------------------
-          Parallel Processing: Enabled
-          Modules Processed: Core, Biotech, Ideology, Royalty, Anomaly, Odyssey
-          Total Modules: 6
-
-          WORKFLOW EXECUTION SUMMARY
-          --------------------------
-          Security Job: ${{ needs.security.result || 'not_run' }}
-          QA Job: ${{ needs.test.result || 'not_run' }}
-          Build Jobs: Parallel execution across 6 modules
-          Merge & Package: ${{ job.status }}
-
-          KEY OUTPUTS
-          -----------
-          - Full Persian language pack ZIP archive (with Persian Strings/)
-          - Essential Persian language pack ZIP archive (with English Strings/)
-          - SHA256 and MD5 checksums
-          - SLSA Level 3 provenance attestation
-          - Sigstore cryptographic signatures
-          - Comprehensive build report (this file)
-
-          NOTES FOR FUTURE IMPROVEMENTS
-          -----------------------------
-          - Review any warnings in job logs
-          - Check code quality metrics in test results
-          - Monitor performance benchmarks if enabled
-          - Verify security scan results in Security tab
-          - Test language pack in RimWorld for any issues
-
-          ========================================
-          END OF REPORT
-          ========================================
-          EOF
-
-          # Also create the JSON for backward compatibility
-          cat > ${{ env.BUILD_DIR }}/build_info.json << EOF
-          {
-            "build_id": "$BUILD_ID",
-            "commit": "${{ github.sha }}",
-            "timestamp": "$TIMESTAMP",
-            "repository": "${{ github.repository }}",
-            "workflow": "${{ github.workflow }}",
-            "trigger": "${{ github.event_name }}",
-            "branch": "${{ github.ref_name }}",
-            "actor": "${{ github.actor }}",
-            "python_version": "${{ env.PYTHON_VERSION }}",
-            "run_id": "${{ github.run_id }}",
-            "run_attempt": "${{ github.run_attempt }}",
-            "parallel_processing": true,
-            "modules_processed": ["Core", "Biotech", "Ideology", "Royalty", "Anomaly", "Odyssey"]
+          info = {
+              "build_id": build_id,
+              "commit": os.environ["GITHUB_SHA"],
+              "timestamp": ts,
+              "repository": os.environ["GITHUB_REPOSITORY"],
+              "workflow": os.environ["CTX_WORKFLOW"],
+              "trigger": os.environ["GITHUB_EVENT_NAME"],
+              "branch": os.environ["CTX_BRANCH"],
+              "actor": os.environ["CTX_ACTOR"],
+              "python_version": os.environ["PYTHON_VERSION"],
+              "run_id": os.environ["GITHUB_RUN_ID"],
+              "run_attempt": os.environ["GITHUB_RUN_ATTEMPT"],
+              "parallel_processing": True,
+              "modules_processed": ["Core", "Biotech", "Ideology", "Royalty", "Anomaly", "Odyssey"],
           }
-          EOF
+          (build_dir / "build_info.json").write_text(json.dumps(info, indent=2) + "\n", encoding="utf-8")
+          PYEOF
 
       - name: Create OS-labeled distribution packages (Windows & Linux, with Auto-Installers)
         id: artifact
@@ -500,12 +454,13 @@ jobs:
           ls -lh release_dist/
 
       - name: Attest release archive provenance
-        uses: actions/attest-build-provenance@v2
+        if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+        uses: actions/attest-build-provenance@e8998f949152b193b063cb0ec769d69d929409be # v2
         with:
           subject-path: 'release_dist/*.zip'
 
       - name: Upload build artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
           name: ${{ steps.artifact.outputs.name }}
           path: release_dist/
@@ -547,28 +502,28 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     needs: merge-modules
-    if: ((github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master') && github.event_name == 'push') || (github.event_name == 'workflow_dispatch' && github.event.inputs.create_release == 'true')
+    if: (github.ref == 'refs/heads/master' && github.event_name == 'push') || (github.event_name == 'workflow_dispatch' && github.event.inputs.create_release == 'true')
 
     permissions:
       contents: write
       id-token: write
-      attestations: write
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           fetch-depth: 0
 
       - name: Download build artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
         with:
           name: ${{ needs.merge-modules.outputs.artifact-name }}
           path: artifacts/
 
       - name: Create and push tag
+        env:
+          TAG_NAME: ${{ needs.merge-modules.outputs.version-tag }}
         run: |
-          TAG_NAME="${{ needs.merge-modules.outputs.version-tag }}"
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           if ! git rev-parse "$TAG_NAME" >/dev/null 2>&1; then
@@ -643,7 +598,7 @@ jobs:
           } >> $GITHUB_OUTPUT
 
       - name: Install Cosign
-        uses: sigstore/cosign-installer@v3
+        uses: sigstore/cosign-installer@398d4b0eeef1380460a10c8013a76f728fb906ac # v3
 
       - name: Sign release artifacts with Sigstore
         run: |
@@ -654,7 +609,7 @@ jobs:
           done
 
       - name: Create GitHub Release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@3bb12739c298aeb8a4eeaf626c5b8d85266b0e65 # v2
         with:
           tag_name: ${{ needs.merge-modules.outputs.version-tag }}
           name: Persian Language Pack ${{ needs.merge-modules.outputs.version-tag }}

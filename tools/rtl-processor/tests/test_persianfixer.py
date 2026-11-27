@@ -38,7 +38,7 @@ class TestReverseTextAndContextualize:
             ("Hello سلام world دنیا", None),  # Should be different from input
         ],
     )
-    def test_basic_cases(self, input_text, expected):
+    def test_basic_cases(self, input_text: str, expected: str | None) -> None:
         """Test basic input cases."""
         result = reverse_text_and_contextualize(input_text)
         if expected is not None:
@@ -49,7 +49,7 @@ class TestReverseTextAndContextualize:
                 assert result != input_text
                 assert len(result) > 0
 
-    def test_persian_processing(self):
+    def test_persian_processing(self) -> None:
         """Test that Persian text is properly processed."""
         input_text = "سلام دنیا"
         result = reverse_text_and_contextualize(input_text)
@@ -61,7 +61,7 @@ class TestReverseTextAndContextualize:
         # Should maintain word count
         assert len(result.split()) == len(input_text.split())
 
-    def test_placeholder_preservation(self):
+    def test_placeholder_preservation(self) -> None:
         """Test that placeholders are preserved across text reversal."""
         test_cases = [
             "سلام {0} دنیا",
@@ -80,7 +80,7 @@ class TestReverseTextAndContextualize:
             # All placeholders should be preserved (order may change due to reversal)
             assert input_placeholders == result_placeholders
 
-    def test_mixed_content(self):
+    def test_mixed_content(self) -> None:
         """Test mixed English and Persian content."""
         input_text = "Hello سلام world دنیا test"
         result = reverse_text_and_contextualize(input_text)
@@ -93,7 +93,7 @@ class TestReverseTextAndContextualize:
         # Persian parts should be transformed
         assert result != input_text
 
-    def test_numbers_and_symbols(self):
+    def test_numbers_and_symbols(self) -> None:
         """Test handling of numbers and special characters."""
         input_text = "سلام 123 دنیا! @test#"
         result = reverse_text_and_contextualize(input_text)
@@ -102,7 +102,7 @@ class TestReverseTextAndContextualize:
         assert "!" in result
         assert "@test#" in result
 
-    def test_whitespace_handling(self):
+    def test_whitespace_handling(self) -> None:
         """Test proper whitespace handling."""
         test_cases = [
             "سلام   دنیا",  # Multiple spaces
@@ -117,7 +117,7 @@ class TestReverseTextAndContextualize:
             assert isinstance(result, str)
             assert len(result) > 0
 
-    def test_complex_persian_text(self):
+    def test_complex_persian_text(self) -> None:
         """Test complex Persian text with various characters."""
         input_text = (
             "این یک متن پارسی با کاراکترهای مختلف است: "
@@ -145,7 +145,7 @@ class TestReverseTextAndContextualize:
             "{TEST}",
         ],
     )
-    def test_various_placeholders(self, placeholder):
+    def test_various_placeholders(self, placeholder: str) -> None:
         """Test various placeholder formats."""
         input_text = f"سلام {placeholder} دنیا"
         result = reverse_text_and_contextualize(input_text)
@@ -157,7 +157,7 @@ class TestReverseTextAndContextualize:
 class TestInternalFunctions:
     """Test internal helper functions."""
 
-    def test_reverse_rtl_word_letters_basic(self):
+    def test_reverse_rtl_word_letters_basic(self) -> None:
         """Test basic RTL word letter reversal."""
         # Test Persian word
         result = _reverse_rtl_word_letters("سلام")
@@ -167,20 +167,20 @@ class TestInternalFunctions:
         result = _reverse_rtl_word_letters("hello")
         assert result == "hello"
 
-    def test_reverse_rtl_word_letters_with_placeholders(self):
+    def test_reverse_rtl_word_letters_with_placeholders(self) -> None:
         """Test RTL reversal with placeholders."""
         result = _reverse_rtl_word_letters("س{0}لام")
         assert "{0}" in result
         assert result != "س{0}لام"
 
-    def test_contextualize_word_basic(self):
+    def test_contextualize_word_basic(self) -> None:
         """Test basic word contextualization."""
         # Test word that should be contextualized
         result = _contextualize_word("مالس")  # reversed "سلام"
         assert result != "مالس"
         assert len(result) > 0
 
-    def test_process_word_integration(self):
+    def test_process_word_integration(self) -> None:
         """Test the complete word processing pipeline."""
         result = _process_word("سلام")
         assert result != "سلام"
@@ -190,7 +190,7 @@ class TestInternalFunctions:
         result = _process_word("hello")
         assert result == "hello"
 
-    def test_letter_map_completeness(self):
+    def test_letter_map_completeness(self) -> None:
         """Test that LETTER_MAP contains expected mappings."""
         expected_letters = "ءآأؤإابپةتثجچحخدذرزژسشصضطظعغفقکگلمنهویيئ"
 
@@ -207,7 +207,7 @@ class TestInternalFunctions:
 class TestRegexPatterns:
     """Test regex pattern constants."""
 
-    def test_rtl_char_regex(self):
+    def test_rtl_char_regex(self) -> None:
         """Test RTL character detection regex."""
         rtl_text = "سلام دنیا أ ب پ"
         english_text = "Hello world"
@@ -215,7 +215,7 @@ class TestRegexPatterns:
         assert re.search(RTL_CHAR_REGEX, rtl_text) is not None
         assert re.search(RTL_CHAR_REGEX, english_text) is None
 
-    def test_placeholder_regex(self):
+    def test_placeholder_regex(self) -> None:
         """Test placeholder detection regex."""
         text_with_placeholders = "سلام {0} دنیا {PAWN_nameDef} test"
         text_without = "سلام دنیا"
@@ -231,7 +231,7 @@ class TestRegexPatterns:
 class TestEdgeCases:
     """Test edge cases and error conditions."""
 
-    def test_empty_and_none_inputs(self):
+    def test_empty_and_none_inputs(self) -> None:
         """Test empty and None inputs."""
         assert reverse_text_and_contextualize("") == ""
 
@@ -239,7 +239,7 @@ class TestEdgeCases:
         result = reverse_text_and_contextualize(None)  # type: ignore
         assert result is None
 
-    def test_very_long_text(self):
+    def test_very_long_text(self) -> None:
         """Test processing of very long text."""
         long_text = "سلام " * 1000 + "دنیا"
         result = reverse_text_and_contextualize(long_text)
@@ -249,7 +249,7 @@ class TestEdgeCases:
         # Should contain presentation form characters (contextualized Persian)
         assert any("\ufb00" <= c <= "\ufeff" for c in result)
 
-    def test_special_characters(self):
+    def test_special_characters(self) -> None:
         """Test handling of special Unicode characters."""
         special_text = "سلام 🌟 دنیا 🔥 test"
         result = reverse_text_and_contextualize(special_text)
@@ -258,7 +258,7 @@ class TestEdgeCases:
         assert "🔥" in result
         assert "test" in result
 
-    def test_xml_like_content(self):
+    def test_xml_like_content(self) -> None:
         """Test processing of XML-like content."""
         xml_content = "<tag>سلام دنیا</tag>"
         result = reverse_text_and_contextualize(xml_content)
@@ -274,7 +274,7 @@ class TestEdgeCases:
 class TestIdempotency:
     """Test that functions are idempotent (stable output)."""
 
-    def test_double_processing(self):
+    def test_double_processing(self) -> None:
         """Test that processing twice gives same result as once."""
         input_text = "سلام دنیا {0} test"
 
@@ -284,7 +284,7 @@ class TestIdempotency:
         # Second processing should not change the result
         assert first_result == second_result
 
-    def test_word_level_idempotency(self):
+    def test_word_level_idempotency(self) -> None:
         """Test idempotency at word processing level."""
         word = "سلام"
 
@@ -298,7 +298,7 @@ class TestIdempotency:
 class TestPerformance:
     """Performance regression tests."""
 
-    def test_processing_speed(self):
+    def test_processing_speed(self) -> None:
         """Test that processing completes within reasonable time."""
         import time
 
@@ -321,7 +321,7 @@ class TestPerformance:
 class TestGrammarRules:
     """Test cases for RimWorld grammar rules (RulePackDef entries with '->')."""
 
-    def test_rule_keyword_and_arrow_preserved(self):
+    def test_rule_keyword_and_arrow_preserved(self) -> None:
         """Test that the keyword and '->' operator are never reversed."""
         rule_input = "placeEnd->انس"
         result = reverse_text_and_contextualize(rule_input)
@@ -331,7 +331,7 @@ class TestGrammarRules:
         assert ">-" not in result
         assert result != rule_input
 
-    def test_parameterized_rule_preserved(self):
+    def test_parameterized_rule_preserved(self) -> None:
         """Test rules with parameters like (p=8) or (priority=1, uses=1)."""
         rule_input = "r_deityName(p=8)->الله"
         result = reverse_text_and_contextualize(rule_input)
@@ -340,14 +340,14 @@ class TestGrammarRules:
         assert ")8=p(" not in result
         assert ">-" not in result
 
-    def test_non_rtl_rule_unchanged(self):
+    def test_non_rtl_rule_unchanged(self) -> None:
         """Test that English rules without RTL characters are completely untouched."""
         rule_input = "placeEnd->az"
         result = reverse_text_and_contextualize(rule_input)
 
         assert result == rule_input
 
-    def test_rule_with_brackets(self):
+    def test_rule_with_brackets(self) -> None:
         """Test that grammar substitution tags in brackets are preserved in rule values."""
         rule_input = "festivalName->جشن [chosenTheme]"
         result = reverse_text_and_contextualize(rule_input)
@@ -356,7 +356,7 @@ class TestGrammarRules:
         assert "[chosenTheme]" in result
         assert ">-" not in result
 
-    def test_escaped_newlines_preserve_line_order(self):
+    def test_escaped_newlines_preserve_line_order(self) -> None:
         """Test that RimWorld literal '\\n' breaks keep top-to-bottom segment order."""
         text = "خط اول\\nخط دوم\\n\\n{0}"
         result = reverse_text_and_contextualize(text)
@@ -369,7 +369,7 @@ class TestGrammarRules:
         assert parts[0] == reverse_text_and_contextualize("خط اول")
         assert parts[1] == reverse_text_and_contextualize("خط دوم")
 
-    def test_zwnj_breaks_joining_and_is_stripped(self):
+    def test_zwnj_breaks_joining_and_is_stripped(self) -> None:
         """Test that U+200C prevents letter joining and is removed so Unity doesn't render '|'."""
         with_zwnj = reverse_text_and_contextualize("می‌توانند")
         without_zwnj = reverse_text_and_contextualize("میتوانند")

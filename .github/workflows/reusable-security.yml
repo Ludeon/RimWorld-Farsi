@@ -16,47 +16,44 @@ jobs:
     permissions:
       contents: read
       security-events: write
-      pull-requests: write
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           fetch-depth: 0
 
       - name: Run CodeQL Analysis
-        uses: github/codeql-action/init@v3
+        uses: github/codeql-action/init@915412ff23e8b7659517e607487dbeae018f2934 # v4
         with:
           languages: python
           queries: security-and-quality
 
       - name: Autobuild
-        uses: github/codeql-action/autobuild@v3
+        uses: github/codeql-action/autobuild@915412ff23e8b7659517e607487dbeae018f2934 # v4
 
       - name: Perform CodeQL Analysis
-        uses: github/codeql-action/analyze@v3
+        uses: github/codeql-action/analyze@915412ff23e8b7659517e607487dbeae018f2934 # v4
         with:
           category: "/language:python"
 
       - name: Dependency Review
-        uses: actions/dependency-review-action@v4
+        uses: actions/dependency-review-action@bbc44d14a204704ccc493733616cd1e93a0321ec # v5.0.1
         if: github.event_name == 'pull_request'
 
       - name: Run Trivy vulnerability scan
-        uses: aquasecurity/trivy-action@v0.36.0
+        uses: aquasecurity/trivy-action@ed142fd0673e97e23eac54620cfb913e5ce36c25 # v0.36.0
         with:
           scan-type: 'fs'
-          scan-ref: 'tools/rtl-processor/'
+          scan-ref: '.'
           format: 'sarif'
           output: 'trivy-results.sarif'
           severity: 'CRITICAL,HIGH'
 
       - name: Upload Trivy scan results to GitHub Security tab
-        if: always()
-        uses: github/codeql-action/upload-sarif@v3
+        uses: github/codeql-action/upload-sarif@915412ff23e8b7659517e607487dbeae018f2934 # v4
         with:
           sarif_file: trivy-results.sarif
-        continue-on-error: true
 
       - name: License Compliance Check
         if: inputs.enable_compliance == true

@@ -96,9 +96,16 @@ while [[ $# -gt 0 ]]; do
             echo "  -h, --help             Show this help message"
             exit 0
             ;;
+        -*)
+            echo -e "${CLR_RED}Error:${CLR_RESET} Unknown option '$1'. Run with --help for usage." >&2
+            exit 1
+            ;;
         *)
             if [[ -z "$GAME_PATH" ]]; then
                 GAME_PATH="$1"
+            else
+                echo -e "${CLR_RED}Error:${CLR_RESET} Unexpected positional argument '$1'." >&2
+                exit 1
             fi
             shift
             ;;
@@ -149,8 +156,10 @@ CANDIDATE_PATHS=(
     # Flatpak Steam (Default on immutable distros like SteamOS / Fedora Silverblue)
     "${HOME}/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/RimWorld"
     "${HOME}/.var/app/com.valvesoftware.Steam/data/Steam/steamapps/common/RimWorld"
-    # macOS Steam
+    # macOS Steam & Standalone / GOG
     "${HOME}/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app"
+    "/Applications/RimWorld.app"
+    "${HOME}/Applications/RimWorld.app"
     # DRM-free / Standalone / GOG / Heroic / Lutris
     "${HOME}/Games/RimWorld"
     "${HOME}/Games/Heroic/RimWorld"
@@ -229,7 +238,41 @@ extract_zip() {
     fi
 }
 
-find_release_zip_url() {
+verify_sha256() {
+    local zip_file="$1"
+    local sum_file="$2"
+    local asset_name="$3"
+    local expected=""
+    local actual=""
+
+    expected=$(awk -v target="$asset_name" '$2 == target || $2 == "*" target {print $1; exit}' "$sum_file" || true)
+    [[ -z "$expected" ]] && expected=$(awk 'NF>=1 {print $1; exit}' "$sum_file" || true)
+    if [[ -z "$expected" ]]; then
+        echo -e "${CLR_RED}Error:${CLR_RESET} Could not find SHA-256 entry for '${asset_name}'." >&2
+        return 1
+    fi
+
+    if command -v sha256sum &>/dev/null; then
+        actual=$(sha256sum "$zip_file" | awk '{print $1}')
+    elif command -v shasum &>/dev/null; then
+        actual=$(shasum -a 256 "$zip_file" | awk '{print $1}')
+    elif command -v python3 &>/dev/null; then
+        actual=$(python3 -c 'import hashlib, sys; print(hashlib.sha256(open(sys.argv[1], "rb").read()).hexdigest())' "$zip_file")
+    else
+        echo -e "${CLR_YELLOW}Warning:${CLR_RESET} No SHA-256 tool found; skipping checksum verification."
+        return 0
+    fi
+
+    if [[ "${actual,,}" != "${expected,,}" ]]; then
+        echo -e "${CLR_RED}Error:${CLR_RESET} SHA-256 checksum mismatch for '${asset_name}'!" >&2
+        echo -e "  Expected: ${expected}" >&2
+        echo -e "  Actual:   ${actual}" >&2
+        return 1
+    fi
+    echo -e "${CLR_GREEN}[OK]${CLR_RESET} Verified SHA-256 checksum for ${asset_name}."
+}
+
+find_release_assets() {
     local edition="$1"
     local rel_json
     rel_json=$(fetch_url "https://api.github.com/repos/Ludeon/RimWorld-Farsi/releases?per_page=10" 2>/dev/null || true)
@@ -240,42 +283,51 @@ find_release_zip_url() {
 import json, os, sys
 ed = os.environ["EDITION"]
 releases = json.loads(sys.stdin.read())
-patterns = {
-    "mod": ["RimWorld-Farsi-With-RTL-Mod-", "-linux.zip"],
-    "essential": ["RimWorld-Farsi-Essential-", "-linux.zip", "persian-language-essential-"],
-    "full": ["RimWorld-Farsi-Full-", "-linux.zip", "persian-language-full-", "persian-language-"],
-}
 for rel in releases:
-    assets = [a.get("browser_download_url", "") for a in rel.get("assets", [])]
+    assets = {a.get("name", ""): a.get("browser_download_url", "") for a in rel.get("assets", [])}
+    chosen_name = ""
     if ed == "mod":
-        for u in assets:
-            if "With-RTL-Mod-" in u and u.endswith("-linux.zip"):
-                print(u); sys.exit(0)
+        for name in assets:
+            if "With-RTL-Mod-" in name and name.endswith("-linux.zip"):
+                chosen_name = name; break
     elif ed == "essential":
-        for u in assets:
-            if "RimWorld-Farsi-Essential-" in u and u.endswith("-linux.zip"):
-                print(u); sys.exit(0)
-        for u in assets:
-            if "persian-language-essential-" in u and u.endswith(".zip"):
-                print(u); sys.exit(0)
+        for pat in [("RimWorld-Farsi-Essential-", "-linux.zip"), ("persian-language-essential-", ".zip")]:
+            for name in assets:
+                if name.startswith(pat[0]) and name.endswith(pat[1]):
+                    chosen_name = name; break
+            if chosen_name:
+                break
     else:
-        for u in assets:
-            if "RimWorld-Farsi-Full-" in u and u.endswith("-linux.zip"):
-                print(u); sys.exit(0)
-        for u in assets:
-            if "persian-language-full-" in u and u.endswith(".zip"):
-                print(u); sys.exit(0)
-        for u in assets:
-            if "persian-language-" in u and "essential" not in u and u.endswith(".zip"):
-                print(u); sys.exit(0)
+        for name in assets:
+            if name.startswith("RimWorld-Farsi-Full-") and name.endswith("-linux.zip"):
+                chosen_name = name; break
+        if not chosen_name:
+            for name in assets:
+                if name.startswith("persian-language-full-") and name.endswith(".zip"):
+                    chosen_name = name; break
+        if not chosen_name:
+            for name in assets:
+                if name.startswith("persian-language-") and "essential" not in name and name.endswith(".zip"):
+                    chosen_name = name; break
+    if chosen_name:
+        sum_url = assets.get("SHA256SUMS.txt") or assets.get(f"{chosen_name}.sha256") or ""
+        print(f"{assets[chosen_name]}\t{sum_url}")
+        sys.exit(0)
 ' <<< "$rel_json" 2>/dev/null || true
     else
+        local zurl=""
         if [[ "$edition" == "mod" ]]; then
-            echo "$rel_json" | grep -o 'https://[^"]*RimWorld-Farsi-With-RTL-Mod-[^"]*-linux\.zip' | head -n 1 || true
+            zurl=$(echo "$rel_json" | grep -o 'https://[^"]*RimWorld-Farsi-With-RTL-Mod-[^"]*-linux\.zip' | head -n 1 || true)
         elif [[ "$edition" == "essential" ]]; then
-            echo "$rel_json" | grep -o 'https://[^"]*RimWorld-Farsi-Essential-[^"]*-linux\.zip' | head -n 1 || true
+            zurl=$(echo "$rel_json" | grep -o 'https://[^"]*RimWorld-Farsi-Essential-[^"]*-linux\.zip' | head -n 1 || true)
         else
-            echo "$rel_json" | grep -o 'https://[^"]*RimWorld-Farsi-Full-[^"]*-linux\.zip' | head -n 1 || true
+            zurl=$(echo "$rel_json" | grep -o 'https://[^"]*RimWorld-Farsi-Full-[^"]*-linux\.zip' | head -n 1 || true)
+        fi
+        if [[ -n "$zurl" ]]; then
+            local sumurl
+            sumurl=$(echo "$rel_json" | grep -o 'https://[^"]*SHA256SUMS\.txt' | head -n 1 || true)
+            [[ -z "$sumurl" ]] && sumurl="${zurl}.sha256"
+            printf '%s\t%s\n' "$zurl" "$sumurl"
         fi
     fi
 }
@@ -298,34 +350,57 @@ elif [[ "$EDITION" == "mod" && -d "${SCRIPT_DIR}/Core" && -d "${SCRIPT_DIR}/mods
     USED_LOCAL_SOURCE=true
 elif [[ "$USE_LOCAL" != true ]]; then
     echo -e "${CLR_CYAN}Checking GitHub Releases for '${EDITION}' (-linux) package...${CLR_RESET}"
-    ZIP_URL=$(find_release_zip_url "$EDITION")
+    ASSET_INFO=$(find_release_assets "$EDITION")
+    ZIP_URL="${ASSET_INFO%%$'\t'*}"
+    SUM_URL=""
+    if [[ "$ASSET_INFO" == *$'\t'* ]]; then
+        SUM_URL="${ASSET_INFO#*$'\t'}"
+    fi
 
     if [[ -z "$ZIP_URL" && "$EDITION" == "mod" ]]; then
+        echo -e "${CLR_YELLOW}Warning:${CLR_RESET} No pre-built release asset found; falling back to master source archive."
         ZIP_URL="https://github.com/Ludeon/RimWorld-Farsi/archive/refs/heads/master.zip"
     fi
 
     if [[ -n "$ZIP_URL" ]]; then
-        TEMP_DIR="$(mktemp -d /tmp/rimworld_farsi_XXXXXX)"
+        TEMP_DIR="$(mktemp -d "${TMPDIR:-/tmp}/rimworld_farsi_XXXXXX")"
+        ZIP_PATH="${TEMP_DIR}/release.zip"
+        ASSET_NAME="$(basename "$ZIP_URL")"
         echo -e "Downloading package: ${CLR_BLUE}${ZIP_URL}${CLR_RESET}"
-        if fetch_url "$ZIP_URL" "${TEMP_DIR}/release.zip" && extract_zip "${TEMP_DIR}/release.zip" "${TEMP_DIR}/extracted"; then
-            if [[ -d "${TEMP_DIR}/extracted/Core" ]]; then
-                SRC_BASE="${TEMP_DIR}/extracted"
-            else
-                REPO_SUBDIR=$(find "${TEMP_DIR}/extracted" -mindepth 1 -maxdepth 1 -type d | head -n 1 || true)
-                if [[ -n "$REPO_SUBDIR" && -d "${REPO_SUBDIR}/Core" ]]; then
-                    SRC_BASE="$REPO_SUBDIR"
-                    USED_LOCAL_SOURCE=true
+        if fetch_url "$ZIP_URL" "$ZIP_PATH"; then
+            SUM_OK=true
+            if [[ -n "$SUM_URL" ]]; then
+                SUM_PATH="${TEMP_DIR}/checksum.txt"
+                if fetch_url "$SUM_URL" "$SUM_PATH"; then
+                    if ! verify_sha256 "$ZIP_PATH" "$SUM_PATH" "$ASSET_NAME"; then
+                        SUM_OK=false
+                    fi
+                else
+                    echo -e "${CLR_RED}Error:${CLR_RESET} Failed to download checksum manifest '${SUM_URL}'." >&2
+                    SUM_OK=false
                 fi
             fi
 
-            if [[ -n "$SRC_BASE" ]]; then
-                if [[ -f "${SRC_BASE}/.release-edition" ]]; then
-                    IS_PACKAGED_BUNDLE=true
+            if [[ "$SUM_OK" == true ]] && extract_zip "$ZIP_PATH" "${TEMP_DIR}/extracted"; then
+                if [[ -d "${TEMP_DIR}/extracted/Core" ]]; then
+                    SRC_BASE="${TEMP_DIR}/extracted"
+                else
+                    REPO_SUBDIR=$(find "${TEMP_DIR}/extracted" -mindepth 1 -maxdepth 1 -type d | head -n 1 || true)
+                    if [[ -n "$REPO_SUBDIR" && -d "${REPO_SUBDIR}/Core" ]]; then
+                        SRC_BASE="$REPO_SUBDIR"
+                        USED_LOCAL_SOURCE=true
+                    fi
                 fi
-                if [[ -d "${SRC_BASE}/mods/RTL_Persian_Support" ]]; then
-                    MOD_SRC="${SRC_BASE}/mods/RTL_Persian_Support"
+
+                if [[ -n "$SRC_BASE" ]]; then
+                    if [[ -f "${SRC_BASE}/.release-edition" ]]; then
+                        IS_PACKAGED_BUNDLE=true
+                    fi
+                    if [[ -d "${SRC_BASE}/mods/RTL_Persian_Support" ]]; then
+                        MOD_SRC="${SRC_BASE}/mods/RTL_Persian_Support"
+                    fi
+                    echo -e "${CLR_GREEN}Package downloaded and ready.${CLR_RESET}\n"
                 fi
-                echo -e "${CLR_GREEN}Package downloaded and ready.${CLR_RESET}\n"
             fi
         fi
     fi
@@ -369,7 +444,9 @@ for MOD in "${MODULES[@]}"; do
             rm -rf "$OLD_DEST_DIR"
             mkdir -p "$DEST_DIR"
 
-            cp -r "${SRC_DIR}/"* "$DEST_DIR/"
+            if compgen -G "${SRC_DIR}/*" >/dev/null; then
+                cp -r "${SRC_DIR}/"* "$DEST_DIR/"
+            fi
 
             # Replace Strings/ with original English Strings/ when installing Essential or Mod from a repo checkout
             if [[ "$IS_PACKAGED_BUNDLE" != true && "$USED_LOCAL_SOURCE" == true && ( "$EDITION" == "essential" || "$EDITION" == "mod" ) ]]; then
@@ -405,7 +482,9 @@ if [[ "$INSTALL_MOD" == true && -n "$MOD_SRC" && -d "$MOD_SRC" ]]; then
     MOD_DEST="${GAME_PATH}/Mods/RTL_Persian_Support"
     rm -rf "$MOD_DEST"
     mkdir -p "$MOD_DEST"
-    cp -r "${MOD_SRC}/"* "$MOD_DEST/"
+    if compgen -G "${MOD_SRC}/*" >/dev/null; then
+        cp -r "${MOD_SRC}/"* "$MOD_DEST/"
+    fi
     # Bundled 0Harmony.dll means Workshop dependency tag is unnecessary in standalone installs
     if [[ -f "${MOD_DEST}/Assemblies/0Harmony.dll" && -f "${MOD_DEST}/About/About.xml" ]] && command -v python3 &>/dev/null; then
         python3 - "${MOD_DEST}/About/About.xml" << 'PYEOF'

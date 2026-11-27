@@ -76,7 +76,7 @@ namespace ArabicSupport
 				string arabicToIgnore = "";
 				foreach(string word in words)
 				{
-					if(char.IsLower(word.ToLower()[word.Length/2]))
+					if(!string.IsNullOrEmpty(word) && char.IsLower(word.ToLower()[word.Length/2]))
 					{
 						result += Fix(arabicToIgnore) + word + " ";
 						arabicToIgnore = "";
@@ -511,16 +511,23 @@ internal class ArabicFixerTool
 	
 	internal static void ReturnTashkeel(ref char[] letters, List<TashkeelLocation> tashkeelLocation)
 	{
-		Array.Resize(ref letters, letters.Length + tashkeelLocation.Count);
+		if (tashkeelLocation == null || tashkeelLocation.Count == 0)
+			return;
+
+		int originalLength = letters.Length;
+		int newLength = originalLength + tashkeelLocation.Count;
+		Array.Resize(ref letters, newLength);
 
 		for (int i = 0; i < tashkeelLocation.Count; i++) {
 			var tl = tashkeelLocation[i];
+			if (tl.position < 0) continue;
+			int targetPos = tl.position < letters.Length ? tl.position : letters.Length - 1;
 
-			for (int j = letters.Length - 1; j > tl.position; j--) {
+			for (int j = letters.Length - 1; j > targetPos; j--) {
 				letters[j] = letters[j - 1];
 			}
 			
-			letters[tl.position] = tl.tashkeel;
+			letters[targetPos] = tl.tashkeel;
 		}
 	}
 
@@ -590,13 +597,13 @@ internal class ArabicFixerTool
 					lettersFinal[i] = (char)(lettersOrigin[i] + 2);
 			}
 			
-			if (skip)
-				i++;
-			
-			//chaning numbers to hindu
-			if(useHinduNumbers) {
+			// Convert non-skipped digits to Hindi/Eastern Arabic if enabled
+			if (useHinduNumbers) {
 				lettersFinal[i] = (char)HandleInduNumber(lettersOrigin[i], lettersFinal[i]);
 			}
+
+			if (skip)
+				i++;
 			
 		}
 		

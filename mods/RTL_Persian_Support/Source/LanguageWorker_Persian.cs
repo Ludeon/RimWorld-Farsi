@@ -15,6 +15,17 @@ namespace RTL_Persian
         private const char ZWNJ = '\u200C'; // Zero-Width Non-Joiner (نیم‌فاصله)
         private const char Kasra = '\u0650'; // Persian Kasra for Ezāfeh (ـِ)
 
+        // Common singular Persian nouns naturally ending in "-ان" that must still be pluralized.
+        private static readonly HashSet<string> SingularAnNouns = new HashSet<string>(StringComparer.Ordinal)
+        {
+            "آسمان", "استخوان", "انسان", "ایوان", "باران", "بیمارستان",
+            "پیمان", "جان", "جریان", "جهان", "حیوان", "داستان",
+            "درمان", "دندان", "دوران", "دهان", "زبان", "زمان",
+            "زندان", "ساختمان", "طوفان", "عنوان", "فرمان", "قهرمان",
+            "کمان", "کیهان", "گلدان", "لیوان", "مکان", "میدان",
+            "نان", "نشان"
+        };
+
         /// <summary>
         /// Persian has no grammatical gender.
         /// </summary>
@@ -42,8 +53,8 @@ namespace RTL_Persian
                 return lookupPlural;
             }
 
-            // If already ends in plural marker:
-            if (str.EndsWith("ها") || str.EndsWith("ان"))
+            // If already ends in plural marker (except singular nouns naturally ending in "-ان"):
+            if (str.EndsWith("ها") || (str.EndsWith("ان") && !SingularAnNouns.Contains(str)))
                 return str;
 
             // Default Persian inanimate/general plural: word + ZWNJ + ها

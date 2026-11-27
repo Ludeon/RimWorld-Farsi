@@ -57,7 +57,9 @@ namespace RTL_Persian
         }
 
         private static readonly Dictionary<string, string> Cache = new Dictionary<string, string>();
+        private static readonly Queue<string> CacheOrder = new Queue<string>();
         private static readonly Dictionary<WrapCacheKey, string> WrapCache = new Dictionary<WrapCacheKey, string>();
+        private static readonly Queue<WrapCacheKey> WrapCacheOrder = new Queue<WrapCacheKey>();
         private const int MaxCacheSize = 8000;
         private const int MaxWrapCacheSize = 4000;
 
@@ -76,6 +78,7 @@ namespace RTL_Persian
             RegexOptions.Compiled
         );
 
+        [ThreadStatic]
         private static GUIContent _measureContent;
 
         public static void ClearCache()
@@ -83,10 +86,12 @@ namespace RTL_Persian
             lock (Cache)
             {
                 Cache.Clear();
+                CacheOrder.Clear();
             }
             lock (WrapCache)
             {
                 WrapCache.Clear();
+                WrapCacheOrder.Clear();
             }
         }
 
@@ -114,8 +119,19 @@ namespace RTL_Persian
 
             lock (Cache)
             {
-                if (Cache.Count >= MaxCacheSize) Cache.Clear();
-                Cache[text] = result;
+                if (!Cache.ContainsKey(text))
+                {
+                    if (Cache.Count >= MaxCacheSize)
+                    {
+                        int evictCount = MaxCacheSize / 10;
+                        while (evictCount-- > 0 && CacheOrder.Count > 0)
+                        {
+                            Cache.Remove(CacheOrder.Dequeue());
+                        }
+                    }
+                    Cache[text] = result;
+                    CacheOrder.Enqueue(text);
+                }
             }
 
             return result;
@@ -191,8 +207,19 @@ namespace RTL_Persian
 
             lock (WrapCache)
             {
-                if (WrapCache.Count >= MaxWrapCacheSize) WrapCache.Clear();
-                WrapCache[key] = result;
+                if (!WrapCache.ContainsKey(key))
+                {
+                    if (WrapCache.Count >= MaxWrapCacheSize)
+                    {
+                        int evictCount = MaxWrapCacheSize / 10;
+                        while (evictCount-- > 0 && WrapCacheOrder.Count > 0)
+                        {
+                            WrapCache.Remove(WrapCacheOrder.Dequeue());
+                        }
+                    }
+                    WrapCache[key] = result;
+                    WrapCacheOrder.Enqueue(key);
+                }
             }
 
             return result;
@@ -419,6 +446,8 @@ namespace RTL_Persian
                     bool innerIsRtl = ContainsArabicOrPersian(inner);
                     string fixedInner = FixInternalSingleLine(inner);
                     int idx = protectedTokens.Count;
+                    if (idx >= 0x7FF)
+                        return openTag + fixedInner + closeTag;
                     char marker = innerIsRtl ? (char)(0xE000 + idx) : (char)(0xE800 + idx);
                     protectedTokens.Add(new ProtectedToken(marker, openTag + fixedInner + closeTag));
                     return marker.ToString();
@@ -428,6 +457,8 @@ namespace RTL_Persian
                 working = AnyRichTagRegex.Replace(working, m =>
                 {
                     int idx = protectedTokens.Count;
+                    if (idx >= 0x7FF)
+                        return m.Value;
                     char marker = (char)(0xF000 + idx);
                     protectedTokens.Add(new ProtectedToken(marker, m.Value));
                     return marker.ToString();

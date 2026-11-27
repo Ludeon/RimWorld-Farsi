@@ -68,12 +68,14 @@ namespace RTL_Persian
                 return;
             }
 
-            // 2. Initialize Logging
-            InitDebugLog();
-            LogFile("RTL_Persian_Support initialized.");
-
-            // 3. Log Active Mods
-            LogLoadedMods();
+            // 2. Initialize Debug Logging only when explicitly enabled in mod settings
+            ModSettings_RTL_Persian_Support initSettings = GetModSettings();
+            if (initSettings != null && initSettings.enableDebugLogging)
+            {
+                InitDebugLog();
+                LogFile("RTL_Persian_Support initialized.");
+                LogLoadedMods();
+            }
 
             // 4. Load Fonts
             LoadPersianFont();
@@ -148,6 +150,11 @@ namespace RTL_Persian
                 {
                     Font font = new Font();
                     createFontFromPath.Invoke(null, new object[] { font, fontPath });
+                    if (font.material == null)
+                    {
+                        LogFile($"Font {filename} initialized with null material; ignoring.");
+                        return null;
+                    }
                     font.name = Path.GetFileNameWithoutExtension(filename);
                     LogFile($"Successfully loaded font from TTF at {fontPath}");
                     return font;
@@ -166,16 +173,16 @@ namespace RTL_Persian
 
         private static Font LoadFontFromAssetBundle(string bundleName)
         {
+            AssetBundle bundle = null;
             try
             {
                 string bundlePath = Path.Combine(_contentPack.RootDir, "Resources", bundleName);
                 if (File.Exists(bundlePath))
                 {
-                    AssetBundle bundle = AssetBundle.LoadFromFile(bundlePath);
+                    bundle = AssetBundle.LoadFromFile(bundlePath);
                     if (bundle != null)
                     {
                         Font font = bundle.LoadAllAssets<Font>().FirstOrDefault();
-                        bundle.Unload(false);
                         LogFile($"Font loaded from AssetBundle {bundleName}");
                         return font;
                     }
@@ -184,6 +191,10 @@ namespace RTL_Persian
             catch (Exception ex)
             {
                 LogFile($"AssetBundle {bundleName} load failed: {ex.Message}");
+            }
+            finally
+            {
+                bundle?.Unload(false);
             }
             return null;
         }
@@ -297,7 +308,6 @@ namespace RTL_Persian
 
             ModSettings_RTL_Persian_Support settings = GetModSettings();
             bool enableFont = settings == null || settings.enablePersianFont;
-            bool enableRTL = settings != null && settings.enableRTLAlignment;
             float fontScale = settings?.fontScale ?? 1.0f;
 
             if (isPersian)
@@ -438,7 +448,12 @@ namespace RTL_Persian
                         }
                     }
                 }
-                catch { }
+                catch (Exception ex)
+                {
+                    _logFilePath = null;
+                    Application.logMessageReceived -= HandleLog;
+                    Log.WarningOnce($"[RTL Support] Stopped file logging after write failure: {ex.Message}", 0x52544C01);
+                }
             }
         }
 
@@ -455,7 +470,11 @@ namespace RTL_Persian
                         writer.WriteLine($"[{DateTime.Now:HH:mm:ss}] [Info] {message}");
                     }
                 }
-                catch { }
+                catch (Exception ex)
+                {
+                    _logFilePath = null;
+                    Log.WarningOnce($"[RTL Support] Stopped file logging after write failure: {ex.Message}", 0x52544C02);
+                }
             }
         }
 
@@ -668,10 +687,11 @@ namespace RTL_Persian
             }
         }
 
-        [HarmonyPostfix]
-        public static void Postfix()
+        [HarmonyFinalizer]
+        public static Exception Finalizer(Exception __exception)
         {
             RTL_Support.suppressAnchorPatch = false;
+            return __exception;
         }
     }
 
@@ -689,10 +709,11 @@ namespace RTL_Persian
             }
         }
 
-        [HarmonyPostfix]
-        public static void Postfix()
+        [HarmonyFinalizer]
+        public static Exception Finalizer(Exception __exception)
         {
             RTL_Support.suppressMiddleLeftFlip = false;
+            return __exception;
         }
     }
 
@@ -764,6 +785,7 @@ namespace RTL_Persian
         public bool enablePersianFont = true;
         public bool enableRTLAlignment = true;
         public bool enablePersianFixer = true;
+        public bool enableDebugLogging = false;
         public PersianFontChoice selectedFont = PersianFontChoice.Vazirmatn;
         public float fontScale = 1.0f;
 
@@ -772,6 +794,7 @@ namespace RTL_Persian
             Scribe_Values.Look(ref enablePersianFont, "enablePersianFont", true);
             Scribe_Values.Look(ref enableRTLAlignment, "enableRTLAlignment", true);
             Scribe_Values.Look(ref enablePersianFixer, "enablePersianFixer", true);
+            Scribe_Values.Look(ref enableDebugLogging, "enableDebugLogging", false);
             Scribe_Values.Look(ref selectedFont, "selectedFont", PersianFontChoice.Vazirmatn);
             Scribe_Values.Look(ref fontScale, "fontScale", 1.0f);
         }
@@ -795,6 +818,7 @@ namespace RTL_Persian
             listing.CheckboxLabeled("Enable Persian font (default: Enabled)", ref settings.enablePersianFont);
             listing.CheckboxLabeled("Enable RTL text alignments (default: Enabled)", ref settings.enableRTLAlignment);
             listing.CheckboxLabeled("Enable Persian text fixing (letter shaping, default: Enabled)", ref settings.enablePersianFixer);
+            listing.CheckboxLabeled("Enable debug logging to error.log (default: Off, requires restart)", ref settings.enableDebugLogging);
 
             listing.Gap(12f);
             listing.Label("Persian Typeface / قلم فارسی:");

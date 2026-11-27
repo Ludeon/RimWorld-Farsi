@@ -60,6 +60,7 @@ ignore = ["E501"]
 
 [tool.mypy]
 python_version = "3.12"
+explicit_package_bases = true
 follow_imports = "silent"
 ignore_missing_imports = true
 warn_return_any = true
@@ -76,18 +77,6 @@ warn_unreachable = true
 strict_equality = true
 show_error_codes = true
 
-[[tool.mypy.overrides]]
-module = "lxml.*"
-ignore_missing_imports = true
-
-[[tool.mypy.overrides]]
-module = "_pytest.*"
-ignore_errors = true
-
-[[tool.mypy.overrides]]
-module = "test_persianfixer"
-disallow_untyped_defs = false
-
 [tool.pytest.ini_options]
 minversion = "6.0"
 addopts = "-ra -q"
@@ -97,7 +86,7 @@ python_classes = "Test*"
 python_functions = "test_*"
 
 [tool.coverage.run]
-source = ["tools/rtl-processor/PersianFixer"]
+source = ["tools"]
 omit = ["*/tests/*", "*/test_*.py"]
 
 [tool.coverage.report]

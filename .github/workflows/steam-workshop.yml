@@ -32,15 +32,15 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
       - name: Setup .NET SDK
-        uses: actions/setup-dotnet@v4
+        uses: actions/setup-dotnet@67a3573c9a986a3f9c594539f4ab511d57bb3ce9 # v4
         with:
           dotnet-version: '8.0.x'
 
       - name: Setup Python 3.12
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         with:
           python-version: '3.12'
           cache: 'pip'
@@ -54,16 +54,12 @@ jobs:
         run: |
           python tools/qa/run_qa.py --github
 
-      - name: Compile or Verify C# Harmony Assembly
+      - name: Build and Test C# Harmony Assembly
         run: |
-          MANAGED_DIR="${RIMWORLD_MANAGED_DIR:-$HOME/.steam/steam/steamapps/common/RimWorld/RimWorldLinux_Data/Managed}"
-          if [ -f "$MANAGED_DIR/Assembly-CSharp.dll" ]; then
-            dotnet build mods/RTL_Persian_Support/Source/RTL_Persian_Support.csproj -c Release -p:RimWorldManagedDir="$MANAGED_DIR"
-          else
-            echo "RimWorld Managed DLLs not present on CI runner; verifying pre-built assembly."
-            test -f mods/RTL_Persian_Support/Assemblies/RTL_Persian_Support.dll
-            test -f mods/RTL_Persian_Support/Assemblies/0Harmony.dll
-          fi
+          dotnet build mods/RTL_Persian_Support/Source/RTL_Persian_Support.csproj -c Release -p:UseLocalManaged=false
+          dotnet test mods/RTL_Persian_Support/Tests/RTL_Persian_Support.Tests.csproj -c Release
+          test -f mods/RTL_Persian_Support/Assemblies/RTL_Persian_Support.dll
+          test -f mods/RTL_Persian_Support/Assemblies/0Harmony.dll
 
       - name: Assemble Steam Workshop Content
         run: |
@@ -117,7 +113,7 @@ jobs:
           zip -r ../../rimworld-persian-workshop.zip danial.rtlpersiansupport/
 
       - name: Upload Workshop Artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
           name: rimworld-persian-steam-workshop
           path: rimworld-persian-workshop.zip
@@ -132,7 +128,7 @@ jobs:
     permissions: {}
     steps:
       - name: Download Workshop Artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
         with:
           name: rimworld-persian-steam-workshop
           path: ./
@@ -146,19 +142,19 @@ jobs:
         env:
           STEAM_USERNAME: ${{ secrets.STEAM_USERNAME }}
           STEAM_CONFIG_VDF: ${{ secrets.STEAM_CONFIG_VDF }}
-          STEAM_PASSWORD: ${{ secrets.STEAM_PASSWORD }}
+          STEAM_WORKSHOP_ID: ${{ secrets.STEAM_WORKSHOP_ID }}
         run: |
-          if [ -n "$STEAM_USERNAME" ] && ([ -n "$STEAM_CONFIG_VDF" ] || [ -n "$STEAM_PASSWORD" ]); then
+          if [ -n "$STEAM_USERNAME" ] && [ -n "$STEAM_CONFIG_VDF" ] && [ -n "$STEAM_WORKSHOP_ID" ]; then
             echo "has_creds=true" >> $GITHUB_OUTPUT
             echo "Steam credentials detected in secrets."
           else
             echo "has_creds=false" >> $GITHUB_OUTPUT
-            echo "::warning::Steam credentials (STEAM_USERNAME and STEAM_CONFIG_VDF / STEAM_PASSWORD) not found. Skipping live upload."
+            echo "::warning::Steam credentials (STEAM_USERNAME, STEAM_CONFIG_VDF, STEAM_WORKSHOP_ID) not found. Skipping live upload."
           fi
 
       - name: Deploy via SteamCMD
         if: steps.check_creds.outputs.has_creds == 'true'
-        uses: game-ci/steam-deploy@v3
+        uses: game-ci/steam-deploy@1c487ecde10efac6b6630e38978187c09497c427 # v3
         with:
           username: ${{ secrets.STEAM_USERNAME }}
           configVdf: ${{ secrets.STEAM_CONFIG_VDF }}

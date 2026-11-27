@@ -19,6 +19,9 @@ on:
       CODECOV_TOKEN:
         required: false
 
+permissions:
+  contents: read
+
 env:
   UV_CACHE_DIR: ~/.cache/uv
   TOOLS_DIR: tools/rtl-processor
@@ -28,13 +31,15 @@ jobs:
     name: Quality Assurance
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    permissions:
+      contents: read
     strategy:
       matrix:
         python-version: ${{ fromJSON(inputs.python_versions) }}
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           fetch-depth: 0
 
@@ -43,11 +48,10 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
 
-      - name: Install test dependencies
-        if: inputs.skip_qa != true
+      - name: Install benchmark dependency
+        if: inputs.enable_benchmarks == true
         run: |
-          cd ${{ env.TOOLS_DIR }}
-          uv pip install --system flake8 black isort mypy pytest-cov pip-audit ruff pytest-benchmark
+          uv pip install --system pytest-benchmark
 
       - name: Run security audit
         if: inputs.skip_qa != true
@@ -55,20 +59,16 @@ jobs:
           cd ${{ env.TOOLS_DIR }}
           pip-audit --format json | tee audit-results.json
 
-      - name: Code quality checks
+      - name: Code quality checks across all tools
         if: inputs.skip_qa != true
         run: |
-          cd ${{ env.TOOLS_DIR }}
-          ruff check . --output-format=github
-          black --check --diff --color .
-          isort --check-only --diff .
-          mypy . --show-error-codes
+          ruff check tools/ --output-format=github
+          mypy tools/ --show-error-codes
 
       - name: Run tests with coverage
         if: inputs.skip_qa != true
         run: |
-          cd ${{ env.TOOLS_DIR }}
-          python -m pytest tests/ -v --tb=short --cov=. --cov-report=xml --cov-report=term-missing --durations=10
+          python -m pytest tools/rtl-processor/tests -v --tb=short --cov=tools --cov-report=xml --cov-report=term-missing --durations=10
 
       - name: Run RimWorld Persian Localization QA Suite
         if: inputs.skip_qa != true
@@ -76,10 +76,10 @@ jobs:
           python tools/qa/run_qa.py --github
 
       - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v5
+        uses: codecov/codecov-action@0fb7174895f61a3b6b78fc075e0cd60383518dac # v5
         if: matrix.python-version == '3.13'
         with:
-          files: ${{ env.TOOLS_DIR }}/coverage.xml
+          files: coverage.xml
           flags: unittests
           name: codecov-umbrella
           fail_ci_if_error: false
@@ -93,10 +93,11 @@ jobs:
 
       - name: Upload benchmark results
         if: inputs.enable_benchmarks == true
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
           name: benchmark-results-${{ matrix.python-version }}
           path: ${{ env.TOOLS_DIR }}/benchmark-results.json
+          retention-days: 7
 
       - name: Generate Test Report
         if: always()

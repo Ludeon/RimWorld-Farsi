@@ -13,6 +13,7 @@ echo.
 set "EDITION="
 set "INSTALL_MOD="
 set "IS_PACKAGED_BUNDLE=0"
+set "USE_LOCAL=0"
 
 if exist "%~dp0.release-edition" (
     set /p BUNDLED_EDITION=<"%~dp0.release-edition"
@@ -22,18 +23,25 @@ if exist "%~dp0.release-edition" (
     if /i "!BUNDLED_EDITION!"=="mod" set "EDITION=mod" & set "IS_PACKAGED_BUNDLE=1"
 )
 
-for %%A in (%*) do (
-    if /i "%%~A"=="/essential" set "EDITION=essential"
-    if /i "%%~A"=="--essential" set "EDITION=essential"
-    if /i "%%~A"=="/full" set "EDITION=full"
-    if /i "%%~A"=="--full" set "EDITION=full"
-    if /i "%%~A"=="/mod" set "EDITION=mod"
-    if /i "%%~A"=="--mod" set "EDITION=mod"
-    if /i "%%~A"=="--with-mod" set "INSTALL_MOD=1"
-    if /i "%%~A"=="/with-mod" set "INSTALL_MOD=1"
-    if /i "%%~A"=="--no-mod" set "INSTALL_MOD=0"
-    if /i "%%~A"=="/no-mod" set "INSTALL_MOD=0"
-)
+:PARSE_ARGS
+if "%~1"=="" goto END_ARGS
+set "ARG=%~1"
+if /i "!ARG!"=="/essential" ( set "EDITION=essential" ) ^
+else if /i "!ARG!"=="--essential" ( set "EDITION=essential" ) ^
+else if /i "!ARG!"=="/full" ( set "EDITION=full" ) ^
+else if /i "!ARG!"=="--full" ( set "EDITION=full" ) ^
+else if /i "!ARG!"=="/mod" ( set "EDITION=mod" ) ^
+else if /i "!ARG!"=="--mod" ( set "EDITION=mod" ) ^
+else if /i "!ARG!"=="--local" ( set "USE_LOCAL=1" ) ^
+else if /i "!ARG!"=="/local" ( set "USE_LOCAL=1" ) ^
+else if /i "!ARG!"=="--with-mod" ( set "INSTALL_MOD=1" ) ^
+else if /i "!ARG!"=="/with-mod" ( set "INSTALL_MOD=1" ) ^
+else if /i "!ARG!"=="--no-mod" ( set "INSTALL_MOD=0" ) ^
+else if /i "!ARG!"=="/no-mod" ( set "INSTALL_MOD=0" ) ^
+else if not defined ARG_GAME_PATH ( set "ARG_GAME_PATH=!ARG!" )
+shift
+goto PARSE_ARGS
+:END_ARGS
 
 if "!EDITION!"=="" (
     echo Select installation option:
@@ -74,6 +82,9 @@ echo Selected option: !EDITION! ^(RTL Mod: !INSTALL_MOD!^)
 echo.
 
 set "FLDR="
+if defined ARG_GAME_PATH (
+    set "FLDR=!ARG_GAME_PATH!"
+)
 
 :: Check common RimWorld installation paths
 for %%P in (
@@ -130,26 +141,36 @@ set "MODULES=Core Royalty Ideology Biotech Anomaly Odyssey"
 set "SRC_BASE=%~dp0"
 set "MOD_SRC=%~dp0mods\RTL_Persian_Support"
 set "USED_REMOTE=0"
+set "TEMP_DIR="
 
 if "!IS_PACKAGED_BUNDLE!"=="1" (
     echo [INFO] Detected pre-packaged '!EDITION!' release bundle. Installing offline...
+) else if "!USE_LOCAL!"=="1" (
+    echo [INFO] Using local repository translation files (--local).
 ) else if /i "!EDITION!"=="mod" if exist "%~dp0Core\Keyed" if exist "%~dp0mods\RTL_Persian_Support" (
     echo [INFO] Using local raw UTF-8 translation files and RTL Support mod.
 ) else (
     echo [INFO] Checking GitHub Releases for '!EDITION!' ^(-windows^) package...
-    set "TEMP_ZIP=%TEMP%\rw_farsi_%RANDOM%.zip"
-    set "TEMP_DIR=%TEMP%\rw_farsi_%RANDOM%"
+    set "RW_RAND=!RANDOM!!RANDOM!"
+    set "TEMP_ZIP=%TEMP%\rw_farsi_!RW_RAND!.zip"
+    set "TEMP_DIR=%TEMP%\rw_farsi_!RW_RAND!"
+    set "RW_EDITION=!EDITION!"
+    set "RW_TEMP_ZIP=!TEMP_ZIP!"
+    set "RW_TEMP_DIR=!TEMP_DIR!"
 
     powershell -NoProfile -Command ^
       "try {" ^
       "  [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;" ^
+      "  $ed = $env:RW_EDITION;" ^
+      "  $zipPath = $env:RW_TEMP_ZIP;" ^
+      "  $destDir = $env:RW_TEMP_DIR;" ^
       "  $rels = Invoke-RestMethod -Uri 'https://api.github.com/repos/Ludeon/RimWorld-Farsi/releases?per_page=10' -Headers @{'User-Agent'='RimWorld-Farsi-Installer'};" ^
-      "  $url = $null;" ^
+      "  $url = $null; $sumUrl = $null; $assetName = $null;" ^
       "  foreach ($rel in $rels) {" ^
       "    $assets = $rel.assets;" ^
-      "    if ('!EDITION!' -eq 'mod') {" ^
+      "    if ($ed -eq 'mod') {" ^
       "      $a = $assets | Where-Object { $_.name -like 'RimWorld-Farsi-With-RTL-Mod-*-windows.zip' } | Select-Object -First 1;" ^
-      "    } elseif ('!EDITION!' -eq 'essential') {" ^
+      "    } elseif ($ed -eq 'essential') {" ^
       "      $a = $assets | Where-Object { $_.name -like 'RimWorld-Farsi-Essential-*-windows.zip' } | Select-Object -First 1;" ^
       "      if (-not $a) { $a = $assets | Where-Object { $_.name -like 'persian-language-essential-*.zip' } | Select-Object -First 1 };" ^
       "    } else {" ^
@@ -157,15 +178,37 @@ if "!IS_PACKAGED_BUNDLE!"=="1" (
       "      if (-not $a) { $a = $assets | Where-Object { $_.name -like 'persian-language-full-*.zip' } | Select-Object -First 1 };" ^
       "      if (-not $a) { $a = $assets | Where-Object { $_.name -like 'persian-language-*.zip' -and $_.name -notlike '*essential*' } | Select-Object -First 1 };" ^
       "    }" ^
-      "    if ($a) { $url = $a.browser_download_url; break }" ^
+      "    if ($a) {" ^
+      "      $url = $a.browser_download_url;" ^
+      "      $assetName = $a.name;" ^
+      "      $sumAsset = $assets | Where-Object { $_.name -eq 'SHA256SUMS.txt' } | Select-Object -First 1;" ^
+      "      if (-not $sumAsset) { $sumAsset = $assets | Where-Object { $_.name -eq ($assetName + '.sha256') } | Select-Object -First 1 };" ^
+      "      if ($sumAsset) { $sumUrl = $sumAsset.browser_download_url };" ^
+      "      break;" ^
+      "    }" ^
       "  }" ^
-      "  if (-not $url -and '!EDITION!' -eq 'mod') { $url = 'https://github.com/Ludeon/RimWorld-Farsi/archive/refs/heads/master.zip' };" ^
+      "  if (-not $url -and $ed -eq 'mod') { $url = 'https://github.com/Ludeon/RimWorld-Farsi/archive/refs/heads/master.zip' };" ^
       "  if (-not $url) { throw 'Release asset not found' };" ^
-      "  Invoke-WebRequest -Uri $url -OutFile '!TEMP_ZIP!' -UseBasicParsing;" ^
-      "  Expand-Archive -Path '!TEMP_ZIP!' -DestinationPath '!TEMP_DIR!' -Force;" ^
-      "  Remove-Item '!TEMP_ZIP!' -Force;" ^
+      "  Invoke-WebRequest -Uri $url -OutFile $zipPath -UseBasicParsing;" ^
+      "  if ($sumUrl) {" ^
+      "    $sumText = (Invoke-WebRequest -Uri $sumUrl -UseBasicParsing).Content;" ^
+      "    $expected = $null;" ^
+      "    foreach ($ln in ($sumText -split \"`r?`n\")) {" ^
+      "      if ($ln -match '^\s*([0-9a-fA-F]{64})\s+\*?(.+?)\s*$') {" ^
+      "        if ($Matches[2] -eq $assetName -or $sumUrl -like '*.sha256') { $expected = $Matches[1].ToLower(); break }" ^
+      "      }" ^
+      "    }" ^
+      "    if (-not $expected) { throw 'SHA-256 entry missing in checksum manifest' };" ^
+      "    $actual = (Get-FileHash -Algorithm SHA256 $zipPath).Hash.ToLower();" ^
+      "    if ($actual -ne $expected) { throw ('SHA-256 mismatch: expected ' + $expected + ' got ' + $actual) };" ^
+      "    Write-Host ('[OK] Verified SHA-256 checksum for ' + $assetName);" ^
+      "  }" ^
+      "  Expand-Archive -Path $zipPath -DestinationPath $destDir -Force;" ^
+      "  Remove-Item $zipPath -Force -ErrorAction SilentlyContinue;" ^
       "  exit 0;" ^
       "} catch {" ^
+      "  Write-Host ('[ERROR] ' + $_.Exception.Message);" ^
+      "  if ($env:RW_TEMP_ZIP -and (Test-Path $env:RW_TEMP_ZIP)) { Remove-Item $env:RW_TEMP_ZIP -Force -ErrorAction SilentlyContinue };" ^
       "  exit 1;" ^
       "}"
 
@@ -179,18 +222,20 @@ if "!IS_PACKAGED_BUNDLE!"=="1" (
         for /d %%D in ("!TEMP_DIR!\*") do (
             if exist "%%~fD\Core" (
                 set "SRC_BASE=%%~fD\"
-                set "USED_REMOTE=0"
+                set "USED_REMOTE=1"
                 if exist "%%~fD\mods\RTL_Persian_Support" set "MOD_SRC=%%~fD\mods\RTL_Persian_Support"
             )
         )
         if not exist "!SRC_BASE!Core" (
             if not exist "%~dp0Core" (
-                echo [ERROR] Failed to download release from GitHub and no local translation files found.
+                echo [ERROR] Failed to download or verify release from GitHub and no local translation files found.
                 echo Please download manually from: https://github.com/Ludeon/RimWorld-Farsi/releases
+                if defined TEMP_DIR if exist "!TEMP_DIR!" rd /q /s "!TEMP_DIR!" 2>nul
                 pause
                 exit /b 1
             ) else (
                 echo [INFO] Falling back to local repository translation files.
+                set "SRC_BASE=%~dp0"
             )
         )
     )
@@ -253,10 +298,13 @@ if "!INSTALL_MOD!"=="1" if exist "!MOD_SRC!" (
     rd /q /s "!FLDR!\Mods\RTL_Persian_Support" 2>nul
     xcopy /s /e /i /y "!MOD_SRC!" "!FLDR!\Mods\RTL_Persian_Support" >nul
     if exist "!FLDR!\Mods\RTL_Persian_Support\Assemblies\0Harmony.dll" if exist "!FLDR!\Mods\RTL_Persian_Support\About\About.xml" (
-        powershell -NoProfile -Command "$p='!FLDR!\Mods\RTL_Persian_Support\About\About.xml'; $c=Get-Content -Raw -Encoding UTF8 $p; $u=[regex]::Replace($c,'\s*<modDependencies>.*?</modDependencies>\s*',\"`r`n    \",'Singleline'); if($u -ne $c){[IO.File]::WriteAllText($p,$u,[Text.UTF8Encoding]::new($false))}"
+        set "RW_ABOUT_XML=!FLDR!\Mods\RTL_Persian_Support\About\About.xml"
+        powershell -NoProfile -Command "$p=$env:RW_ABOUT_XML; $c=Get-Content -Raw -Encoding UTF8 $p; $u=[regex]::Replace($c,'\s*<modDependencies>.*?</modDependencies>\s*',\"`r`n    \",'Singleline'); if($u -ne $c){[IO.File]::WriteAllText($p,$u,[Text.UTF8Encoding]::new($false))}"
     )
     echo   [OK] RTL Persian Support mod installed to !FLDR!\Mods\RTL_Persian_Support
 )
+
+if defined TEMP_DIR if exist "!TEMP_DIR!" rd /q /s "!TEMP_DIR!" 2>nul
 
 echo.
 echo ======================================================================
