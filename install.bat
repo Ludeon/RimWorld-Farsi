@@ -159,7 +159,7 @@ if "!IS_PACKAGED_BUNDLE!"=="1" (
       "    }" ^
       "    if ($a) { $url = $a.browser_download_url; break }" ^
       "  }" ^
-      "  if (-not $url -and '!EDITION!' -eq 'mod') { $url = 'https://github.com/Ludeon/RimWorld-Farsi/archive/refs/heads/beta.zip' };" ^
+      "  if (-not $url -and '!EDITION!' -eq 'mod') { $url = 'https://github.com/Ludeon/RimWorld-Farsi/archive/refs/heads/master.zip' };" ^
       "  if (-not $url) { throw 'Release asset not found' };" ^
       "  Invoke-WebRequest -Uri $url -OutFile '!TEMP_ZIP!' -UseBasicParsing;" ^
       "  Expand-Archive -Path '!TEMP_ZIP!' -DestinationPath '!TEMP_DIR!' -Force;" ^

@@ -301,7 +301,7 @@ elif [[ "$USE_LOCAL" != true ]]; then
     ZIP_URL=$(find_release_zip_url "$EDITION")
 
     if [[ -z "$ZIP_URL" && "$EDITION" == "mod" ]]; then
-        ZIP_URL="https://github.com/Ludeon/RimWorld-Farsi/archive/refs/heads/beta.zip"
+        ZIP_URL="https://github.com/Ludeon/RimWorld-Farsi/archive/refs/heads/master.zip"
     fi
 
     if [[ -n "$ZIP_URL" ]]; then

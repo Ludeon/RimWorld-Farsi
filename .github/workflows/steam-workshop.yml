@@ -50,9 +50,16 @@ jobs:
         run: |
           python tools/qa/run_qa.py --github
 
-      - name: Compile C# Harmony Assembly
+      - name: Compile or Verify C# Harmony Assembly
         run: |
-          dotnet build mods/RTL_Persian_Support/Source/RTL_Persian_Support.csproj -c Release
+          MANAGED_DIR="${RIMWORLD_MANAGED_DIR:-$HOME/.steam/steam/steamapps/common/RimWorld/RimWorldLinux_Data/Managed}"
+          if [ -f "$MANAGED_DIR/Assembly-CSharp.dll" ]; then
+            dotnet build mods/RTL_Persian_Support/Source/RTL_Persian_Support.csproj -c Release -p:RimWorldManagedDir="$MANAGED_DIR"
+          else
+            echo "RimWorld Managed DLLs not present on CI runner; verifying pre-built assembly."
+            test -f mods/RTL_Persian_Support/Assemblies/RTL_Persian_Support.dll
+            test -f mods/RTL_Persian_Support/Assemblies/0Harmony.dll
+          fi
 
       - name: Assemble Steam Workshop Content
         run: |
@@ -67,31 +74,24 @@ jobs:
           cp mods/RTL_Persian_Support/*.ttf "$STAGING_DIR/" 2>/dev/null || true
           cp mods/RTL_Persian_Support/README.txt "$STAGING_DIR/" 2>/dev/null || true
 
-          # 2. Package Languages into mod structure
-          mkdir -p "$STAGING_DIR/Languages/Persian"
+          # 2. Package Languages into mod structure (Essential: Persian DefInjected/Keyed + English Strings/)
+          mkdir -p "$STAGING_DIR/Languages/Persian (فارسی)"
           
-          # Copy DefInjected & Keyed from repo Core
-          if [ -d "Core/DefInjected" ]; then
-            cp -r Core/DefInjected "$STAGING_DIR/Languages/Persian/"
-          fi
-          if [ -d "Core/Keyed" ]; then
-            cp -r Core/Keyed "$STAGING_DIR/Languages/Persian/"
-          fi
-          if [ -d "Core/WordInfo" ]; then
-            cp -r Core/WordInfo "$STAGING_DIR/Languages/Persian/"
-          fi
-          if [ -f "Core/LanguageInfo.xml" ]; then
-            cp Core/LanguageInfo.xml "$STAGING_DIR/Languages/Persian/"
-          fi
+          [ -d "Core/DefInjected" ] && cp -r Core/DefInjected "$STAGING_DIR/Languages/Persian (فارسی)/"
+          [ -d "Core/Keyed" ] && cp -r Core/Keyed "$STAGING_DIR/Languages/Persian (فارسی)/"
+          [ -d "Core/WordInfo" ] && cp -r Core/WordInfo "$STAGING_DIR/Languages/Persian (فارسی)/"
+          [ -f "Core/LanguageInfo.xml" ] && cp Core/LanguageInfo.xml "$STAGING_DIR/Languages/Persian (فارسی)/"
+          [ -d "src/english/Core/Strings" ] && cp -r src/english/Core/Strings "$STAGING_DIR/Languages/Persian (فارسی)/"
 
           # Copy DLC translations if present
           for DLC in Royalty Ideology Biotech Anomaly Odyssey; do
             if [ -d "$DLC" ]; then
-              mkdir -p "$STAGING_DIR/$DLC/Languages/Persian"
-              [ -d "$DLC/DefInjected" ] && cp -r "$DLC/DefInjected" "$STAGING_DIR/$DLC/Languages/Persian/"
-              [ -d "$DLC/Keyed" ] && cp -r "$DLC/Keyed" "$STAGING_DIR/$DLC/Languages/Persian/"
-              [ -d "$DLC/WordInfo" ] && cp -r "$DLC/WordInfo" "$STAGING_DIR/$DLC/Languages/Persian/"
-              [ -f "$DLC/LanguageInfo.xml" ] && cp "$DLC/LanguageInfo.xml" "$STAGING_DIR/$DLC/Languages/Persian/"
+              mkdir -p "$STAGING_DIR/$DLC/Languages/Persian (فارسی)"
+              [ -d "$DLC/DefInjected" ] && cp -r "$DLC/DefInjected" "$STAGING_DIR/$DLC/Languages/Persian (فارسی)/"
+              [ -d "$DLC/Keyed" ] && cp -r "$DLC/Keyed" "$STAGING_DIR/$DLC/Languages/Persian (فارسی)/"
+              [ -d "$DLC/WordInfo" ] && cp -r "$DLC/WordInfo" "$STAGING_DIR/$DLC/Languages/Persian (فارسی)/"
+              [ -f "$DLC/LanguageInfo.xml" ] && cp "$DLC/LanguageInfo.xml" "$STAGING_DIR/$DLC/Languages/Persian (فارسی)/"
+              [ -d "src/english/$DLC/Strings" ] && cp -r "src/english/$DLC/Strings" "$STAGING_DIR/$DLC/Languages/Persian (فارسی)/"
             fi
           done
 

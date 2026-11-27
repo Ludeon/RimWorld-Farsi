@@ -295,6 +295,7 @@ jobs:
               else
                 BASE_VER="${major}.${minor}.$((patch + 1))"
               fi
+              BASE_VER=$(printf '%s\n%s\n' "0.4.0" "$BASE_VER" | sort -V | tail -n1)
             fi
           fi
 
