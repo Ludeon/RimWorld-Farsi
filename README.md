@@ -2,9 +2,9 @@
 
 <div align="center">
 
-[![RimWorld Version](https://img.shields.io/badge/RimWorld-1.5%2B-blue.svg?logo=steam)](https://rimworldgame.com/)
+[![RimWorld Version](https://img.shields.io/badge/RimWorld-1.5%20%7C%201.6-blue.svg?logo=steam)](https://rimworldgame.com/)
 [![Latest Release](https://img.shields.io/github/v/release/Ludeon/RimWorld-Farsi?color=success&logo=github)](https://github.com/Ludeon/RimWorld-Farsi/releases)
-[![CI/CD Pipeline](https://img.shields.io/github/actions/workflow/status/Ludeon/RimWorld-Farsi/persianCorrectionPythonBeta.yml?branch=main&label=CI%2FCD&logo=githubactions)](https://github.com/Ludeon/RimWorld-Farsi/actions)
+[![CI/CD Pipeline](https://img.shields.io/github/actions/workflow/status/Ludeon/RimWorld-Farsi/persianCorrectionPythonBeta.yml?branch=master&label=CI%2FCD&logo=githubactions)](https://github.com/Ludeon/RimWorld-Farsi/actions)
 [![Python Version](https://img.shields.io/badge/Python-3.11%20%7C%203.12%20%7C%203.13-3776AB.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![Code Style: Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 [![Type Checked: Mypy](https://img.shields.io/badge/type%20checked-mypy-blue.svg)](https://mypy-lang.org/)
@@ -15,7 +15,7 @@
 [![Corpus](docs/badges/corpus.svg)](https://Ludeon.github.io/RimWorld-Farsi/)
 [![Engine](docs/badges/engine.svg)](https://Ludeon.github.io/RimWorld-Farsi/)
 
-**[🌐 Official Documentation Portal (GitHub Pages)](https://Ludeon.github.io/RimWorld-Farsi/)** • **[🇮🇷 مطالعه این راهنما به زبان فارسی (README_FA.md)](README_FA.md)**
+**[🌐 Official Documentation Portal (GitHub Pages)](https://Ludeon.github.io/RimWorld-Farsi/)** • **[مطالعه این راهنما به زبان فارسی (README_FA.md)](README_FA.md)**
 
 </div>
 
@@ -44,26 +44,25 @@ Explore detailed documentation tailored to your needs:
 
 ## ⚡ Quick Start: 1-Click Installation
 
-### Method A: Automated Installers (Recommended)
+### Method A: 1-File Auto-Installer (Recommended)
 
-* **Windows**:
-  1. Download or clone this repository.
-  2. Double-click [`install.bat`](install.bat). It automatically detects your Steam/RimWorld installation, deploys translations, and purges cached `.tar` files.
-* **Linux / Steam Deck**:
-  1. Open terminal in the repository folder.
-  2. Run `./install.sh` (or `./install.sh "/path/to/RimWorld"`).
+Download only the standalone installer for your OS from the [Latest Release](https://github.com/Ludeon/RimWorld-Farsi/releases/latest) — it verifies SHA-256 checksums automatically and lets you pick between **With RTL Mod (Recommended)**, **Essential**, or **Full**:
+
+* **Windows:** Download and run `autoinstall-windows.bat` (or run [`install.bat`](install.bat) from a repository clone).
+* **Linux / Steam Deck / macOS:** Download and run `autoinstall-linux.sh` (`chmod +x autoinstall-linux.sh && ./autoinstall-linux.sh`), or run `./install.sh` from a repository clone.
 
 ---
 
-### Method B: Manual Installation (All Platforms)
+### Method B: Offline Release Packages & Manual Installation
 
-1. Download the latest release package (`persian.language.zip`) from [Releases](https://github.com/Ludeon/RimWorld-Farsi/releases).
-2. Locate your game directory:
-   * **Windows:** `C:\Program Files (x86)\Steam\steamapps\common\RimWorld\`
-   * **Linux:** `~/.steam/steam/steamapps/common/Rimworld/`
-   * **macOS:** `~/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app`
-3. Copy each module folder (`Core`, `Royalty`, `Ideology`, `Biotech`, `Anomaly`, `Odyssey`) into `<RimWorld>/Data/<DLC>/Languages/Persian (فارسی)`.
-4. Delete any existing `Persian (فارسی).tar` file in those folders so RimWorld loads the fresh XML files.
+1. Download your preferred OS-labeled archive from [Releases](https://github.com/Ludeon/RimWorld-Farsi/releases/latest):
+   * `RimWorld-Farsi-With-RTL-Mod-<version>-windows.zip` / `-linux.zip` — Raw UTF-8 UI + English `Strings/` + `RTL_Persian_Support` mod (`Vazirmatn` font & UAX #9 BiDi engine)
+   * `RimWorld-Farsi-Essential-<version>-windows.zip` / `-linux.zip` — Pre-shaped offline Persian UI + English `Strings/` (no mod required)
+   * `RimWorld-Farsi-Full-<version>-windows.zip` / `-linux.zip` — Pre-shaped complete Persian translation (no mod required)
+2. Extract the archive and run the bundled `install-windows.bat` or `./install-linux.sh`, **or** copy manually:
+   * Copy each module folder (`Core`, `Royalty`, `Ideology`, `Biotech`, `Anomaly`, `Odyssey`) into `<RimWorld>/Data/<DLC>/Languages/Persian (فارسی)`.
+   * If installing **With RTL Mod**, copy `mods/RTL_Persian_Support` into `<RimWorld>/Mods/RTL_Persian_Support` and enable it in the in-game **Mods** menu.
+   * Delete any cached `Persian (فارسی).tar` file inside those `Languages/` folders so RimWorld reloads loose XML files.
 
 ---
 
@@ -87,7 +86,7 @@ Explore detailed documentation tailored to your needs:
 | **Ideology DLC** | Supported | `Ideology/` | `<RimWorld>/Data/Ideology/Languages/Persian (فارسی)` |
 | **Biotech DLC** | Supported | `Biotech/` | `<RimWorld>/Data/Biotech/Languages/Persian (فارسی)` |
 | **Anomaly DLC** | Supported | `Anomaly/` | `<RimWorld>/Data/Anomaly/Languages/Persian (فارسی)` |
-| **Odyssey** | In Progress | `Odyssey/` | `<RimWorld>/Data/Odyssey/Languages/Persian (فارسی)` |
+| **Odyssey** | Supported | `Odyssey/` | `<RimWorld>/Data/Odyssey/Languages/Persian (فارسی)` |
 
 ---
 
@@ -107,7 +106,7 @@ RimWorld's UI is built on **Unity IMGUI**, which lacks text meshes and native co
 
 To overcome disconnected letters (`پ ا ر س ی` vs `پارسی`) and inverted reading orders, this repository employs a **dual-layer architecture**:
 1. **Static XML Presentation Forms Preprocessor (`tools/rtl-processor/`)**: Converts characters into Unicode Arabic Presentation Forms-B and inverts word order for pure vanilla compatibility without mod requirements.
-2. **Runtime Harmony Patch (`mods/RTL_Persian_Support/`)**: Intercepts `GUI.Label` and UI routines dynamically for procedural pawn names, combat logs, and font injection (`IranianSans.ttf`).
+2. **Runtime Harmony Patch (`mods/RTL_Persian_Support/`)**: Intercepts `Verse.Text` and `Widgets` IMGUI routines with a UAX #9 BiDi reorderer, width-aware wrapping (`FixForWidth`), and custom typeface injection (`Vazirmatn.ttf` default, `IranianSans.ttf` fallback).
 
 For a deep technical analysis, see **[docs/TECHNICAL_CHALLENGES.md](docs/TECHNICAL_CHALLENGES.md)**.
 

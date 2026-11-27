@@ -1,29 +1,20 @@
-# Persian RTL Support Mod Compilation Instructions
+# RTL_Persian_Support — Build & Packaging Instructions
 
-## To Fix the Errors:
+`RTL_Persian_Support` provides runtime Harmony patches for RimWorld (`1.5` & `1.6`), bundling **Vazirmatn** (`Vazirmatn.ttf`, default) and **Iranian Sans** (`IranianSans.ttf`, classic fallback), a standard `UAX #9` Unicode BiDi reorderer (`BidiReorder`), width-aware paragraph wrapping (`FixForWidth`), world-map feature shaping, and `LanguageWorker_Persian`.
 
-1. **Remove the current DLL:**
-   - Delete `mods/RTL_Persian_Support/Assemblies/RTL_Persian_Support.dll`
+## Building from Source (.NET SDK 8.0+)
 
-2. **Ensure Harmony DLL is present:**
-   - Download 0Harmony.dll from Harmony mod (steam://url/CommunityFilePage/2009463077)
-   - Place it in `mods/RTL_Persian_Support/Assemblies/`
+### Without Local Steam Assemblies (CI / Cross-Platform)
+Uses `Krafs.Rimworld.Ref` (`1.6.4871`) NuGet reference assemblies automatically when local RimWorld Managed DLLs are not found:
 
-3. **Create AssetBundle with Unity:**
-   - Install Unity Editor (version 2019.4 or higher)
-   - Create a new 2D project
-   - Import IranianSans.ttf into the Assets folder
-   - Select the font file in Inspector, set AssetBundle name to "persianfont"
-   - Build the AssetBundle (BuildPipeline.BuildAssetBundles)
-   - Copy the resulting "persianfont" file to `mods/RTL_Persian_Support/Resources/persianfont`
+```bash
+dotnet build mods/RTL_Persian_Support/Source/RTL_Persian_Support.csproj -c Release -p:UseLocalManaged=false
+dotnet test mods/RTL_Persian_Support/Tests/RTL_Persian_Support.Tests.csproj -c Release
+```
 
-4. **Compile the new C# code:**
-   - Use Visual Studio with RimWorld assemblies referenced
-   - Compile `mods/RTL_Persian_Support/Source/RTL_Support.cs`
-   - Output to `RTL_Persian_Support.dll` in Assemblies/
+### Against Local RimWorld Installation
+```bash
+dotnet build mods/RTL_Persian_Support/Source/RTL_Persian_Support.csproj -c Release -p:RimWorldManagedDir="/path/to/RimWorld/RimWorldLinux_Data/Managed"
+```
 
-5. **Test:**
-   - Start RimWorld in Persian language
-   - Check that UI is right-aligned and Iranian Sans font is used
-
-The new code handles RTL properly with dynamic font loading and GUI alignment.
+Or open `RimWorld-Farsi.sln` at the repository root in Visual Studio / Rider.

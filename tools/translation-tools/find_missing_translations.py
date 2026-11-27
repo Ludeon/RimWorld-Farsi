@@ -10,13 +10,14 @@ from __future__ import annotations
 
 import argparse
 import sys
-import xml.etree.ElementTree as ET
 from pathlib import Path
+
+import lxml.etree as ET
 
 
 def parse_xml_file(filepath: Path | str) -> dict[str, str]:
     """
-    Parse an XML file and return a dictionary of key-value pairs.
+    Parse an XML file safely and return a dictionary of key-value pairs.
 
     Args:
         filepath: Path to the XML file
@@ -25,8 +26,11 @@ def parse_xml_file(filepath: Path | str) -> dict[str, str]:
         Dictionary with keys as XML tag names and values as text content
     """
     try:
-        tree = ET.parse(filepath)
+        parser = ET.XMLParser(resolve_entities=False)
+        tree = ET.parse(str(filepath), parser)
         root = tree.getroot()
+        if root is None:
+            return {}
 
         # Skip LanguageInfo.xml files as they contain metadata, not translations
         if root.tag == "LanguageInfo":
@@ -34,16 +38,15 @@ def parse_xml_file(filepath: Path | str) -> dict[str, str]:
 
         translations: dict[str, str] = {}
         for child in root:
-            # Only process elements that have simple text content (no nested elements)
-            if len(child) == 0:  # len(child) == 0 means no child elements
-                # Strip whitespace and normalize
+            # Skip comments/processing instructions and nested elements
+            if isinstance(child.tag, str) and len(child) == 0:
                 key = child.tag.strip()
                 value = child.text.strip() if child.text is not None else ""
-                if key:  # Only add if key is not empty
+                if key:
                     translations[key] = value
 
         return translations
-    except ET.ParseError as e:
+    except ET.XMLSyntaxError as e:
         print(f"Warning: Could not parse {filepath}: {e}")
         return {}
     except FileNotFoundError:

@@ -72,19 +72,23 @@ pytest -v
 
 ---
 
-## 4. XML Translation Validation
+## 4. 5-Gate QA & XML Translation Validation
 
-Before committing translation changes or creating releases, run the automated XML validator to verify that all 1,500+ translation files are well-formed and parseable:
+Before committing translation changes or creating releases, run the unified 5-gate QA suite and XML validator:
 
 ```bash
-# Validate all XML files across all DLC modules
+# Run all 5 QA gates across all 1,500+ translation XML files
+python tools/qa/run_qa.py
+
+# Or validate XML syntax standalone
 python tools/rtl-processor/validate_xml.py
 ```
 
-The script verifies:
-- XML syntax and tag matching.
-- Absence of unclosed entities or malformed comments.
-- Accurate file count and module integrity.
+The suite verifies:
+- XML syntax and well-formedness.
+- Placeholder and gender macro integrity (`{0}`, `{PAWN_gender ? ...}`).
+- Persian codepoints (`ک`/`ی`), punctuation, and ZWNJ rules.
+- `reportString` trailing-period convention and `AGENTS.md` canonical terminology.
 
 ---
 
@@ -126,9 +130,9 @@ We provide zero-friction installer scripts for players:
 
 ## 7. CI/CD Architecture
 
-Every pull request and commit pushed to `main` or `beta` triggers automated GitHub Actions workflows:
-- **Lint & Format**: Runs Ruff and verifies code style.
-- **Type Checking**: Runs Mypy on `tools/`.
-- **Unit Tests**: Executes Pytest suite across Python 3.11, 3.12, and 3.13.
-- **XML Validation**: Validates all translation XML files in the repository.
-- **Release Packaging**: Automatically creates release archives when version tags are pushed.
+Every pull request and commit pushed to `master` or `beta` triggers automated GitHub Actions workflows:
+- **Lint & Format**: Runs Ruff and verifies code style across all `tools/`.
+- **Type Checking**: Runs `mypy tools/`.
+- **Unit Tests**: Executes Pytest suite across Python 3.11, 3.12, and 3.13 plus C# build & xUnit tests via `dotnet test`.
+- **QA & XML Validation**: Executes the 5-gate QA suite across all XML files in the repository.
+- **Release Packaging**: Automatically builds, attests (SLSA), signs (Sigstore), and publishes releases on `master`.

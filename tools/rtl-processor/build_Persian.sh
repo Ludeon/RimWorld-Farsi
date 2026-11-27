@@ -1,37 +1,38 @@
-#!/bin/sh
-if [ $# -eq 0 ] || [ $# -gt 2 ]; then
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+if [[ $# -eq 0 || $# -gt 2 ]]; then
   printf "Usage: build_Persian.sh <translation_directory_path> [<destination_path>]\n"
   exit 1
 fi
 
-trans_dir=$1
-dest_dir=$2
+trans_dir="$1"
+dest_dir="${2:-./Persian}"
 
-if ! [ -d "$trans_dir" ]; then
-  printf "Invalid translation directory path.\n"
+if [[ ! -d "$trans_dir" ]]; then
+  printf "Invalid translation directory path.\n" >&2
   exit 1
 fi
-if [ $# -eq 1 ]; then
-  printf "No destination path provided; creating corrected translation directory in current directory.\n"
-  dest_dir="./Persian"
+
+if [[ $# -eq 1 ]]; then
+  printf "No destination path provided; creating corrected translation directory in %s.\n" "$dest_dir"
 fi
 
-if [ -d "$dest_dir" ]; then
-  printf "Destination directory $dest_dir already exists. Overwrite it?(Y/N) "
-  read in
-  if [ "$in" != "Y" ] && [ "$in" != "y" ] && [ "$in" != "YES" ] && [ "$in" != "yes" ]; then
+if [[ -d "$dest_dir" ]]; then
+  printf "Destination directory %s already exists. Overwrite it?(Y/N) " "$dest_dir"
+  read -r answer
+  if [[ ! "$answer" =~ ^([Yy]|[Yy][Ee][Ss])$ ]]; then
     exit 1
   fi
 fi
 
 printf "Copying over Persian translation..."
-if [ -d "$dest_dir" ]; then rm -rf "$dest_dir"; fi
+rm -rf "$dest_dir"
 cp -r "$trans_dir" "$dest_dir"
 printf "done!\n"
 
 printf "\nRunning PersianFixer.py...\n"
-python3 PersianFixer.py "$dest_dir" || { printf "\n"; exit 1; }
+python3 "${SCRIPT_DIR}/PersianFixer.py" "$dest_dir"
 printf "done!\n"
-
-printf "Correction complete. Press any key to continue..."
-read -n1

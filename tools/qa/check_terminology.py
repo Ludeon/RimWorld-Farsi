@@ -69,7 +69,7 @@ class TerminologyChecker:
     def check_file(self, file_path: Path) -> list[TerminologyViolation]:
         violations: list[TerminologyViolation] = []
         try:
-            parser = ET.XMLParser(recover=True, remove_blank_text=True, resolve_entities=False)
+            parser = ET.XMLParser(remove_blank_text=True, resolve_entities=False)
             tree = ET.parse(str(file_path), parser)
             root = tree.getroot()
             if root is None:
@@ -97,16 +97,25 @@ class TerminologyChecker:
         return violations
 
     def fix_file(self, file_path: Path) -> int:
-        """Automatically replaces prohibited terms with canonical terms."""
+        """Replace prohibited terms in leaf XML text while preserving comments verbatim."""
         content = file_path.read_text(encoding="utf-8")
-        original = content
-        for regex, repl, _ in self.compiled_rules:
-            # For xenotype or combined options, choose primary canonical
-            clean_repl = repl.split(" / ")[0].strip()
-            content = regex.sub(clean_repl, content)
+        comment_or_leaf = re.compile(
+            r"(<!--[\s\S]*?-->)|(<([A-Za-z0-9_.\-]+)>)([^<]*)(</\3>)"
+        )
 
-        if content != original:
-            file_path.write_text(content, encoding="utf-8")
+        def _replace_match(match: re.Match[str]) -> str:
+            comment, open_tag, _, inner_text, close_tag = match.groups()
+            if comment is not None:
+                return comment
+            updated_text = inner_text
+            for regex, repl, _ in self.compiled_rules:
+                clean_repl = repl.split(" / ")[0].strip()
+                updated_text = regex.sub(clean_repl, updated_text)
+            return f"{open_tag}{updated_text}{close_tag}"
+
+        new_content = comment_or_leaf.sub(_replace_match, content)
+        if new_content != content:
+            file_path.write_text(new_content, encoding="utf-8")
             return 1
         return 0
 

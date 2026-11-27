@@ -20,19 +20,19 @@ We welcome two primary tracks of contributions:
 ## Track A: Translation Contributors
 
 ### 1. Structure of Translation Files
-All translation files are standard XML files organized by expansion at the repository root:
+All translation source files live in clean UTF-8 module folders directly at the repository root (and are deployed by installers into `<RimWorld>/Data/<DLC>/Languages/Persian (فارسی)/`):
 ```text
 RimWorld-Farsi/
-├── Core/Languages/Persian/        # Base game strings
-├── Royalty/Languages/Persian/     # Royalty DLC strings
-├── Ideology/Languages/Persian/    # Ideology DLC strings
-├── Biotech/Languages/Persian/     # Biotech DLC strings
-├── Anomaly/Languages/Persian/     # Anomaly DLC strings
-└── Odyssey/Languages/Persian/     # Odyssey expansion (WIP)
-    ├── DefInjected/               # Injected entity and item definitions
-    ├── Keyed/                     # UI, settings, menus, and gameplay prompts
-    ├── Strings/                   # Grammatical lists and procedural terms
-    └── Backstories/               # Colonist backstory histories
+├── Core/             # Base game strings
+├── Royalty/          # Royalty DLC strings
+├── Ideology/         # Ideology DLC strings
+├── Biotech/          # Biotech DLC strings
+├── Anomaly/          # Anomaly DLC strings
+└── Odyssey/          # Odyssey expansion strings
+    ├── DefInjected/  # Injected entity and item definitions
+    ├── Keyed/        # UI, settings, menus, and gameplay prompts
+    ├── Strings/      # Grammatical lookup lists and procedural terms
+    └── WordInfo/     # Pluralization and Ezāfeh lookup tables
 ```
 
 ### 2. Editing Translation Keys
@@ -60,9 +60,9 @@ The project maintains automated text processors, XML validators, and pre-commit 
 > - 🛠️ **[Developer Workflow & Tooling Guide](docs/DEVELOPER_WORKFLOW.md)**: Setup with `uv`, Ruff, Mypy, and Pytest.
 > - 🧠 **[Technical Challenges & Engine Details](docs/TECHNICAL_CHALLENGES.md)**: Unity IMGUI limitations, RTL text shaping, and Harmony architecture.
 Our tools run on modern Python (**3.11**, **3.12**, and **3.13**), adhering strictly to modern Python standards:
-- **PEP 8**: Code style and formatting enforced by `black`, `isort`, and `flake8` / `ruff`.
+- **PEP 8**: Code style, import sorting, and lint checks enforced via `ruff`.
 - **PEP 518 / PEP 621**: Standardized project metadata and build dependencies defined in [`pyproject.toml`](pyproject.toml).
-- **PEP 585 / PEP 604 / PEP 484**: Native built-in type hints (`dict`, `list`, `| None`) checked strictly with `mypy`.
+- **PEP 585 / PEP 604 / PEP 484**: Native built-in type hints (`dict`, `list`, `| None`) checked strictly with `mypy tools/`.
 
 ### 2. Setting Up Your Development Environment
 We recommend using [`uv`](https://github.com/astral-sh/uv) (or standard `venv`):
@@ -98,32 +98,31 @@ pytest
 # Run static type checking
 mypy tools/
 
-# Run XML syntax and schema validation across all modules
-python tools/rtl-processor/validate_xml.py
+# Run the full 5-gate localization QA suite (XML, placeholders, typography, reportString, terminology)
+python tools/qa/run_qa.py
 
 # Check pre-commit hooks across all files
 pre-commit run --all-files
 ```
 
-### 4. Syncing with Local Game Installation (`tools/sync.sh`)
-You can quickly synchronize translations between this repository and your local RimWorld game directory using `tools/sync.sh`:
+### 4. Syncing with Local Game Installation (`dev_lang_sync.py` & `tools/sync.sh`)
+You can test raw UTF-8 translations safely inside RimWorld via `dev_lang_sync.py` or sync modules directly with `tools/sync.sh`:
 
 ```bash
-# Push translations to your RimWorld installation
-./tools/sync.sh --gamepath "/path/to/RimWorld"
+# Push raw translations to a local Dev language slot (default: Parsi)
+python tools/translation-tools/dev_lang_sync.py push --game-path "/path/to/RimWorld"
 
 # Preview file transfers without modifying disk
 ./tools/sync.sh --gamepath "/path/to/RimWorld" --dry-run
-
-# Pull modified translations from your game installation back into the repo
-./tools/sync.sh --gamepath "/path/to/RimWorld" --direction pull
 ```
 
 ### 5. C# Mod Development (`mods/RTL_Persian_Support/`)
 The in-game patch mod uses **Harmony** to adjust bidirectional font layout in Unity:
-- Open [`RimWorld-Farsi.sln`](RimWorld-Farsi.sln) using Visual Studio 2022+ or Rider.
-- References RimWorld assembly files (`Assembly-CSharp.dll`, `UnityEngine.dll`) from your local RimWorld installation.
-- Maintain minimal performance overhead in Harmony transpilers/postfixes.
+- Open [`RimWorld-Farsi.sln`](RimWorld-Farsi.sln) using Visual Studio 2022+ or Rider, or build from the CLI without needing local Steam DLLs:
+```bash
+dotnet build mods/RTL_Persian_Support/Source/RTL_Persian_Support.csproj -c Release -p:UseLocalManaged=false
+dotnet test mods/RTL_Persian_Support/Tests/RTL_Persian_Support.Tests.csproj -c Release
+```
 
 ---
 

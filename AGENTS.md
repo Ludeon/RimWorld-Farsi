@@ -115,7 +115,7 @@ Maintain strict consistency with the following canonical translations:
 Before opening a pull request or submitting code changes, execute the following test suite:
 
 ```bash
-# 1. Run the unified 4-gate QA Linter suite
+# 1. Run the unified 5-gate QA Linter suite
 python tools/qa/run_qa.py
 
 # 2. Run unit tests

@@ -2,11 +2,12 @@
 """
 RimWorld Farsi Localization QA Suite Runner
 ============================================
-Unified executor for all localization quality gates:
+Unified executor for all 5 localization quality gates:
   1. XML Well-formedness & Validity
   2. Format Token & Placeholder Integrity
   3. Persian Typography, Authentic Unicode & ZWNJ Rules
   4. ReportString Period Rules
+  5. Canonical Community Terminology Harmonization
 """
 
 from __future__ import annotations
@@ -172,7 +173,7 @@ def main() -> int:
     parser.add_argument(
         "--fix",
         action="store_true",
-        help="Automatically fix repairable typography and reportString defects",
+        help="Automatically fix repairable typography, reportString, and terminology defects",
     )
     parser.add_argument(
         "--github",

@@ -306,7 +306,7 @@ def process_xml_file(file_path: str) -> None:
         logger.warning(f"Skipping non-XML file: {file_path}")
         return
 
-    parser = etree.XMLParser(remove_blank_text=False)
+    parser = etree.XMLParser(remove_blank_text=False, resolve_entities=False)
     try:
         with open(file_path, "rb") as f:
             doc = etree.parse(f, parser)
@@ -342,7 +342,7 @@ def process_directory(directory_path: str) -> None:
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python process_persian_final.py [file-path|directory-path]")
+        print("Usage: python PersianFixer.py [file-path|directory-path]")
         sys.exit(1)
 
     path = sys.argv[1]

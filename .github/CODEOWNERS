@@ -1,0 +1,9 @@
+# Default code owners for RimWorld-Farsi
+* @DanialPahlavan
+
+# CI/CD workflows, tooling, and runtime mod
+/.github/ @DanialPahlavan
+/tools/ @DanialPahlavan
+/mods/RTL_Persian_Support/ @DanialPahlavan
+/install.bat @DanialPahlavan
+/install.sh @DanialPahlavan

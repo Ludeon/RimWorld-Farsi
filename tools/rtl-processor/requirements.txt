@@ -1,13 +1,11 @@
 # Production dependencies
-lxml>=6.0.0
+lxml>=5.0.0
 
 # Testing dependencies
 pytest>=8.0.0
-pytest-cov>=7.0.0
+pytest-cov>=4.1.0
 
 # Code quality and development tools
-black>=25.0.0
-isort>=7.0.0
-flake8>=7.0.0
-mypy>=1.0.0
+ruff>=0.8.0
+mypy>=1.14.0
 pip-audit>=2.0.0

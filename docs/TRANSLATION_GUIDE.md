@@ -6,14 +6,14 @@ This guide establishes the linguistic, typographic, and technical standards for 
 
 ## 1. Directory & File Organization
 
-Translations in this repository mirror official Ludeon localization standards across each game module:
+Translations in this repository are organized by expansion directly at the repository root (and deployed to `<RimWorld>/Data/<Module>/Languages/Persian (فارسی)/` when installed):
 
 ```text
-<DLC_Folder>/Languages/Persian/
+<Module>/
 ├── DefInjected/     # Translations injected into game definitions (weapons, buildings, traits, items)
 ├── Keyed/           # User interface strings, settings, menus, dialog options, gameplay prompts
 ├── Strings/         # Grammatical lookup lists, name generators, procedural titles
-└── Backstories/     # Pawn biographical backstories (childhood, adulthood)
+└── WordInfo/        # Pluralization and Ezāfeh lookup tables
 ```
 
 ### Module Structure
@@ -22,7 +22,7 @@ Translations in this repository mirror official Ludeon localization standards ac
 - `Ideology/`: Ideoligions, memes, rituals, relics, roles.
 - `Biotech/`: Xenotypes, gene modding, mechanoids, reproduction.
 - `Anomaly/`: Dark entities, rituals, containment, psychological phenomena.
-- `Odyssey/`: Expansions currently in development.
+- `Odyssey/`: Gravship, orbital exploration, and Odyssey expansion content (100% translated).
 
 ---
 
@@ -80,7 +80,7 @@ Named tokens represent game entities. Keep their casing and syntax identical:
 RimWorld supports inline conditional grammar:
 ```xml
 <!-- Syntax: {PAWN_gender ? masculine_text : feminine_text} -->
-<ColonistEscaped>{PAWN_nameDef} توانست از زندان {PAWN_gender ? فرار کند : فرار کند}.</ColonistEscaped>
+<ColonistEscaped>{PAWN_nameDef} توانست از زندان {PAWN_gender ? بگریزد : فرار کند}.</ColonistEscaped>
 ```
 *Always preserve the internal delimiter `?` and `:` structure.*
 
@@ -96,28 +96,28 @@ Consistency is critical for an immersive translation. Refer to this standard glo
 
 | English Term | Standard Persian Translation | Notes / Context |
 | :--- | :--- | :--- |
-| **Colony** | مستعمره / کلونی | Context-dependent; "مستعمره" for official/lore, "کلونی" for concise UI |
-| **Colonist** | ساکن / مهاجر | Inhabitant of the colony |
-| **Pawn** | مهره / شخصیت | In-game character unit |
-| **Raid** | شبیخون / حمله | Enemy raid event |
-| **Ideoligion** | عقیده / آیین | Ideology expansion belief system |
-| **Meme** | انگاره / بن‌مایه | Core cultural meme in Ideology |
-| **Precept** | قاعده / باور | Ideological rule |
-| **Anomaly** | ناهنجاری | Anomaly DLC entity or event |
+| **Colony** | مستعمره | Colony settlement |
+| **Colonist** | استعمارگر / مستعمره‌نشین | Inhabitant of the colony (Avoid: کلونیست) |
+| **Pawn** | مهره / استعمارگر | In-game character unit |
+| **Raid** | حمله / یورش | Enemy raid event |
+| **Ideoligion** | آیین / باور | Ideology expansion belief system |
+| **Meme** | میم / انگاره | Core cultural meme in Ideology |
+| **Precept** | حکم / دستورالعمل | Ideological rule |
+| **Anomaly** | ناهنجاری / ماهیت ناشناخته | Anomaly DLC entity or event |
 | **Containment** | مهار / مهارسازی | Entity containment facility |
-| **Mood** | روحیّه | Colonist psychological state |
+| **Mood** | روحیه | Colonist psychological state |
 | **Mental Break** | فروپاشی روانی | Extreme distress state |
 | **Inspiration** | الهام | Positive colonist state |
-| **Psychic** | فراروانی | Psychic phenomenon / psylink |
-| **Mechanoid** | مکانوید | Robotic threat / controllable mech |
-| **Xenotype** | نژاد ژنتیکی / زنوتایپ | Biotech genetic variety |
+| **Psychic / Psycaster** | روانی / روان‌پیما | Psychic phenomenon / psylink (Avoid: سایکستر) |
+| **Mechanoid** | مکانوید | Robotic threat (Avoid: مچانوید، مکانیوید) |
+| **Xenotype** | گونه ژنتیکی / بیوتک | Biotech genetic variety (Avoid legacy literal loanwords) |
 
 ---
 
 ## 5. Review & Validation Checklist
 
 Before submitting a Pull Request with translations:
-1. [ ] **Validate XML Structure**: Run `python tools/rtl-processor/validate_xml.py` to ensure all XML tags are well-formed.
+1. [ ] **Run Unified 5-Gate QA Suite**: Run `python tools/qa/run_qa.py` to validate XML syntax, placeholders, Persian typography/ZWNJ, `reportString` periods, and terminology.
 2. [ ] **Verify Placeholders**: Ensure all `{0}`, `{1}`, `{PAWN_nameDef}` tokens are present and intact.
 3. [ ] **Check Character Encoding**: Verify that no Arabic `ك` or `ي` characters were accidentally introduced.
 4. [ ] **Review Tone**: Ensure translations read naturally in contemporary Persian without awkward word-for-word literal phrasing.

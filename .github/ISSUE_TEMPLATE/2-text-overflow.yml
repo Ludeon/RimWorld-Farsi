@@ -31,6 +31,13 @@ body:
     validations:
       required: true
   - type: input
+    id: game_and_pack_version
+    attributes:
+      label: نسخه بازی و بسته فارسی (RimWorld & Pack Version)
+      placeholder: "e.g. RimWorld 1.6 + v0.4.0 (With RTL Mod)"
+    validations:
+      required: true
+  - type: input
     id: screen_location
     attributes:
       label: محل پنجره در بازی (Window / Dialog Name)

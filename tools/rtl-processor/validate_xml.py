@@ -26,8 +26,9 @@ def validate_xml_file(file_path: str) -> tuple[bool, str]:
         return True, ""  # Skip non-XML files
 
     try:
+        parser = etree.XMLParser(resolve_entities=False)
         with open(file_path, "rb") as f:
-            etree.parse(f)
+            etree.parse(f, parser)
         return True, ""
     except etree.XMLSyntaxError as e:
         return False, str(e)

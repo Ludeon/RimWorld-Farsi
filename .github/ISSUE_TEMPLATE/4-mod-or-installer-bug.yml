@@ -1,0 +1,54 @@
+name: 🛠️ مشکل نصب‌کننده، ماد RTL یا ابزارها (Installer / Mod / Tooling Bug)
+description: گزارش خطا در اسکریپت‌های نصب (install.bat / install.sh)، کرش ماد RTL_Persian_Support یا باگ ابزارهای پایتون.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        برای گزارش مشکلات نصب، کرش یا رفتار غیرعادی در ماد `RTL_Persian_Support` یا ابزارهای خط فرمان از این فرم استفاده کنید.
+  - type: dropdown
+    id: component
+    attributes:
+      label: بخش دچار خطا (Component)
+      options:
+        - نصب‌کننده ویندوز (autoinstall-windows.bat / install.bat)
+        - نصب‌کننده لینوکس / استیم‌دک / مک (autoinstall-linux.sh / install.sh)
+        - ماد C# پشتیبان راست‌به‌چپ (RTL_Persian_Support)
+        - ابزارهای پایتون و QA (tools/)
+        - مستندات / سایت گیت‌هاب پیجز
+    validations:
+      required: true
+  - type: dropdown
+    id: edition
+    attributes:
+      label: نسخه بسته زبان (Release Edition)
+      options:
+        - With RTL Mod (همراه با ماد)
+        - Essential (بدون ماد)
+        - Full (کامل بدون ماد)
+        - کلون مستقیم از گیت (Repo Clone)
+    validations:
+      required: true
+  - type: input
+    id: version_info
+    attributes:
+      label: نسخه بازی و بسته فارسی (RimWorld & Pack Version)
+      placeholder: "e.g. RimWorld 1.6.4871 | Persian v0.4.0 | Windows 11 / SteamOS"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: شرح خطا و مراحل بازتولید (Description & Steps)
+      description: دقیقاً چه کاری انجام دادید و چه خطایی رخ داد؟
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: خروجی خطا یا بخشی از Player.log (Logs - Optional)
+      description: متن خطای ترمینال یا بخش مرتبط از فایل Player.log را در صورت وجود قرار دهید.
+      render: text
+    validations:
+      required: false

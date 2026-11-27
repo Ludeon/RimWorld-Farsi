@@ -1,0 +1,39 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.py]
+indent_style = space
+indent_size = 4
+
+[*.{cs,csproj,sln}]
+indent_style = space
+indent_size = 4
+
+[*.sln]
+end_of_line = crlf
+
+[*.{bat,cmd}]
+end_of_line = crlf
+indent_style = space
+indent_size = 4
+
+[*.sh]
+end_of_line = lf
+indent_style = space
+indent_size = 4
+
+[*.xml]
+indent_style = space
+indent_size = 2
+
+[*.{yml,yaml,json}]
+indent_style = space
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false

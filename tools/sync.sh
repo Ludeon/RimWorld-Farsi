@@ -199,7 +199,7 @@ for MODULE_NAME in "${KNOWN_MODULES[@]}"; do
     fi
 
     GAME_MODULE_DIR="${GAME_DATA_DIR}/${MODULE_NAME}"
-    GAME_PERSIAN_DIR="${GAME_MODULE_DIR}/Languages/Persian"
+    GAME_PERSIAN_DIR="${GAME_MODULE_DIR}/Languages/Persian (فارسی)"
 
     echo -e "${CLR_BOLD}Module: ${CLR_CYAN}${MODULE_NAME}${CLR_RESET}"
 
