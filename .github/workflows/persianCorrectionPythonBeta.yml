@@ -604,7 +604,7 @@ jobs:
           cd artifacts
           for file in *.zip *.bat *.sh; do
             [ -f "$file" ] || continue
-            cosign sign-blob --new-bundle-format=false --oidc-issuer https://token.actions.githubusercontent.com --output-signature "$file.sig" --yes "$file"
+            cosign sign-blob --yes --bundle "$file.sigstore.json" "$file"
           done
 
       - name: Create GitHub Release
@@ -670,7 +670,7 @@ jobs:
 
           - **Commit**: [__COMMIT__](https://github.com/__REPO__/commit/__COMMIT__)
           - **Build ID**: `__BUILD_ID__`
-          - Checksums are consolidated in [`SHA256SUMS.txt`](https://github.com/__REPO__/releases/download/__TAG__/SHA256SUMS.txt) & [`MD5SUMS.txt`](https://github.com/__REPO__/releases/download/__TAG__/MD5SUMS.txt), and all `.zip`, `.bat`, and `.sh` assets include Sigstore `.sig` signatures.
+          - Checksums are consolidated in [`SHA256SUMS.txt`](https://github.com/__REPO__/releases/download/__TAG__/SHA256SUMS.txt) & [`MD5SUMS.txt`](https://github.com/__REPO__/releases/download/__TAG__/MD5SUMS.txt), and all `.zip`, `.bat`, and `.sh` assets include Sigstore `.sigstore.json` bundles.
           </details>
           """)
           rendered = (
@@ -685,7 +685,7 @@ jobs:
           PYEOF
 
           shopt -s nullglob
-          ASSETS=(artifacts/*.zip artifacts/*.bat artifacts/*.sh artifacts/SHA256SUMS.txt artifacts/MD5SUMS.txt artifacts/*.sig)
+          ASSETS=(artifacts/*.zip artifacts/*.bat artifacts/*.sh artifacts/SHA256SUMS.txt artifacts/MD5SUMS.txt artifacts/*.sigstore.json)
           FLAGS=(--title "Persian Language Pack ${TAG_NAME}" --notes-file release_notes.md)
           if [ "$IS_PRERELEASE" = "true" ]; then
             FLAGS+=(--prerelease)
