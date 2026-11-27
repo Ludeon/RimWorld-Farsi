@@ -3,7 +3,7 @@
   <friendlyNameNative>پارسی</friendlyNameNative>
   <friendlyNameEnglish>Persian</friendlyNameEnglish>
   <canBeTiny>true</canBeTiny>
-  <languageWorkerClass>RTL_Persian.LanguageWorker_Persian</languageWorkerClass>
+  <languageWorkerClass>LanguageWorker_English</languageWorkerClass>
   <credits>
     <li Class="CreditRecord_Role">
       <roleKey>Credit_Translator</roleKey>

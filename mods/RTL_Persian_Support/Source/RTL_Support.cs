@@ -30,6 +30,28 @@ namespace RTL_Persian
         // Flags to manage updates and safety
         public static bool dirty = true;
         public static bool suppressAnchorPatch = false;
+        public static bool suppressMiddleLeftFlip = false;
+        private static Mod_RTL_Persian_Support _cachedMod;
+        private static Material _worldFeatureMaterial;
+        private static Font _worldFeatureMaterialFont;
+
+        public static ModSettings_RTL_Persian_Support GetModSettings()
+        {
+            if (_cachedMod == null)
+            {
+                _cachedMod = LoadedModManager.GetMod<Mod_RTL_Persian_Support>();
+            }
+            return _cachedMod?.settings;
+        }
+
+        public static bool IsPersianActive()
+        {
+            LoadedLanguage lang = LanguageDatabase.activeLanguage;
+            if (lang == null) return false;
+            return string.Equals(lang.folderName, "Persian", StringComparison.OrdinalIgnoreCase)
+                || string.Equals(lang.folderName, "Persian (فارسی)", StringComparison.OrdinalIgnoreCase)
+                || string.Equals(lang.info?.friendlyNameEnglish, "Persian", StringComparison.OrdinalIgnoreCase);
+        }
 
         // Debug Log Path
         private static string _logFilePath;
@@ -188,8 +210,8 @@ namespace RTL_Persian
 
         public static void UpdateSelectedFont()
         {
-            Mod_RTL_Persian_Support mod = LoadedModManager.GetMod<Mod_RTL_Persian_Support>();
-            PersianFontChoice choice = mod?.settings?.selectedFont ?? PersianFontChoice.Vazirmatn;
+            ModSettings_RTL_Persian_Support settings = GetModSettings();
+            PersianFontChoice choice = settings?.selectedFont ?? PersianFontChoice.Vazirmatn;
 
             switch (choice)
             {
@@ -265,24 +287,21 @@ namespace RTL_Persian
 
             CacheBaseFontSizes();
 
-            bool isPersian = LanguageDatabase.activeLanguage?.folderName == "Persian";
+            bool isPersian = IsPersianActive();
             LogFile($"Applying GUI changes. IsPersian: {isPersian}");
-
-            Mod_RTL_Persian_Support mod = LoadedModManager.GetMod<Mod_RTL_Persian_Support>();
-            bool enableFont = mod == null || mod.settings.enablePersianFont;
-            bool enableRTL = mod != null && mod.settings.enableRTLAlignment;
-            float fontScale = mod?.settings?.fontScale ?? 1.0f;
 
             if (isPersian)
             {
-                if (enableRTL)
-                {
-                    GUI.skin.label.alignment = TextAnchor.UpperRight;
-                    GUI.skin.button.alignment = TextAnchor.UpperRight;
-                    GUI.skin.textField.alignment = TextAnchor.UpperRight;
-                    GUI.skin.textArea.alignment = TextAnchor.UpperRight;
-                }
+                EnsurePersianLanguageWorker();
+            }
 
+            ModSettings_RTL_Persian_Support settings = GetModSettings();
+            bool enableFont = settings == null || settings.enablePersianFont;
+            bool enableRTL = settings != null && settings.enableRTLAlignment;
+            float fontScale = settings?.fontScale ?? 1.0f;
+
+            if (isPersian)
+            {
                 if (enableFont)
                 {
                     UpdateSelectedFont();
@@ -299,7 +318,7 @@ namespace RTL_Persian
             else
             {
                 GUI.skin.label.alignment = TextAnchor.UpperLeft;
-                GUI.skin.button.alignment = TextAnchor.UpperLeft;
+                GUI.skin.button.alignment = TextAnchor.MiddleCenter;
                 GUI.skin.textField.alignment = TextAnchor.UpperLeft;
                 GUI.skin.textArea.alignment = TextAnchor.UpperLeft;
 
@@ -311,6 +330,26 @@ namespace RTL_Persian
         }
 
         private static readonly FieldInfo _fontsField = typeof(Text).GetField("fonts", BindingFlags.NonPublic | BindingFlags.Static);
+        private static readonly FieldInfo _workerIntField = AccessTools.Field(typeof(LoadedLanguage), "workerInt");
+
+        public static void EnsurePersianLanguageWorker()
+        {
+            try
+            {
+                LoadedLanguage lang = LanguageDatabase.activeLanguage;
+                if (lang == null || _workerIntField == null) return;
+                object current = _workerIntField.GetValue(lang);
+                if (!(current is LanguageWorker_Persian))
+                {
+                    _workerIntField.SetValue(lang, new LanguageWorker_Persian());
+                    LogFile("Injected LanguageWorker_Persian at runtime.");
+                }
+            }
+            catch (Exception ex)
+            {
+                LogFile($"Failed to inject LanguageWorker_Persian: {ex.Message}");
+            }
+        }
 
         private static void SetGameFont(Font font, float scale = 1.0f)
         {
@@ -332,6 +371,27 @@ namespace RTL_Persian
             ApplyStyleFontsAndSizes(Text.textFieldStyles, _baseTextFieldFontSizes, font, scale);
             ApplyStyleFontsAndSizes(Text.textAreaStyles, _baseTextAreaFontSizes, font, scale);
             ApplyStyleFontsAndSizes(Text.textAreaReadOnlyStyles, _baseTextAreaReadOnlyFontSizes, font, scale);
+
+            if (GUI.skin != null)
+            {
+                GUI.skin.font = font;
+                GUI.skin.label.font = font;
+                GUI.skin.button.font = font;
+                GUI.skin.textField.font = font;
+                GUI.skin.textArea.font = font;
+            }
+        }
+
+        public static Material GetWorldFeatureMaterial()
+        {
+            if (PersianFont == null || PersianFont.material == null) return null;
+            if (_worldFeatureMaterial == null || _worldFeatureMaterialFont != PersianFont)
+            {
+                _worldFeatureMaterial = new Material(PersianFont.material);
+                _worldFeatureMaterial.renderQueue = 3610;
+                _worldFeatureMaterialFont = PersianFont;
+            }
+            return _worldFeatureMaterial;
         }
 
         private static void InitDebugLog()
@@ -458,15 +518,18 @@ namespace RTL_Persian
         {
             if (RTL_Support.suppressAnchorPatch) return;
 
-            if (LanguageDatabase.activeLanguage?.folderName == "Persian")
+            if (RTL_Support.IsPersianActive())
             {
-                Mod_RTL_Persian_Support mod = LoadedModManager.GetMod<Mod_RTL_Persian_Support>();
-                if (mod != null && mod.settings.enableRTLAlignment)
+                ModSettings_RTL_Persian_Support settings = RTL_Support.GetModSettings();
+                if (settings != null && settings.enableRTLAlignment)
                 {
                     switch (value)
                     {
                         case TextAnchor.UpperLeft: value = TextAnchor.UpperRight; break;
-                        case TextAnchor.MiddleLeft: value = TextAnchor.MiddleRight; break;
+                        case TextAnchor.MiddleLeft:
+                            if (!RTL_Support.suppressMiddleLeftFlip)
+                                value = TextAnchor.MiddleRight;
+                            break;
                         case TextAnchor.LowerLeft: value = TextAnchor.LowerRight; break;
                     }
                 }
@@ -531,19 +594,19 @@ namespace RTL_Persian
         }
     }
 
-    // Patch 5: Layout bounding box and line wrap calculations
+    // Patch 5: Layout bounding box and width-aware line wrap calculations
     [HarmonyPatch(typeof(Text), "CalcHeight")]
     public static class Patch_Text_CalcHeight
     {
         [HarmonyPrefix]
         public static void Prefix(ref string text, float width)
         {
-            if (LanguageDatabase.activeLanguage?.folderName == "Persian")
+            if (RTL_Support.IsPersianActive())
             {
-                Mod_RTL_Persian_Support mod = LoadedModManager.GetMod<Mod_RTL_Persian_Support>();
-                if (mod != null && mod.settings.enablePersianFixer)
+                ModSettings_RTL_Persian_Support settings = RTL_Support.GetModSettings();
+                if (settings != null && settings.enablePersianFixer)
                 {
-                    text = PersianFixer.Fix(text);
+                    text = PersianFixer.FixForWidth(text, width, Text.CurFontStyle);
                 }
             }
         }
@@ -555,10 +618,10 @@ namespace RTL_Persian
         [HarmonyPrefix]
         public static void Prefix(ref string text)
         {
-            if (LanguageDatabase.activeLanguage?.folderName == "Persian")
+            if (RTL_Support.IsPersianActive())
             {
-                Mod_RTL_Persian_Support mod = LoadedModManager.GetMod<Mod_RTL_Persian_Support>();
-                if (mod != null && mod.settings.enablePersianFixer)
+                ModSettings_RTL_Persian_Support settings = RTL_Support.GetModSettings();
+                if (settings != null && settings.enablePersianFixer)
                 {
                     text = PersianFixer.Fix(text);
                 }
@@ -566,37 +629,122 @@ namespace RTL_Persian
         }
     }
 
-    // Patch 6: Fix Text before drawing Widgets.Label
+    // Patch 6: Fix Text with width-aware wrapping before drawing Widgets.Label
+    // (Widgets.Label(Rect, TaggedString) and Widgets.ButtonText* all funnel here.)
     [HarmonyPatch(typeof(Widgets), "Label", new Type[] { typeof(Rect), typeof(string) })]
     public static class Patch_Widgets_Label
     {
         [HarmonyPrefix]
-        public static void Prefix(ref string label)
+        public static void Prefix(Rect rect, ref string label)
         {
-            if (LanguageDatabase.activeLanguage?.folderName == "Persian")
+            if (RTL_Support.IsPersianActive())
             {
-                Mod_RTL_Persian_Support mod = LoadedModManager.GetMod<Mod_RTL_Persian_Support>();
-                if (mod != null && mod.settings.enablePersianFixer)
+                ModSettings_RTL_Persian_Support settings = RTL_Support.GetModSettings();
+                if (settings != null && settings.enablePersianFixer)
                 {
-                    label = PersianFixer.Fix(label);
+                    label = PersianFixer.FixForWidth(label, rect.width, Text.CurFontStyle, rect.height);
                 }
             }
         }
     }
 
-    // Patch 7: Fix Text before drawing Widgets.ButtonText
-    [HarmonyPatch(typeof(Widgets), "ButtonText", new Type[] { typeof(Rect), typeof(string), typeof(bool), typeof(bool), typeof(bool), typeof(TextAnchor?) })]
-    public static class Patch_Widgets_ButtonText
+    // Patch 7: Protect Widgets.ButtonTextSubtle from right-edge clipping
+    // (ButtonTextSubtle adds textLeftMargin to rect.x without shrinking rect.width,
+    // so flipping MiddleLeft -> MiddleRight pushes labels past rect.xMax.)
+    [HarmonyPatch(typeof(Widgets), "ButtonTextSubtle")]
+    public static class Patch_Widgets_ButtonTextSubtle
     {
         [HarmonyPrefix]
         public static void Prefix(ref string label)
         {
-            if (LanguageDatabase.activeLanguage?.folderName == "Persian")
+            if (RTL_Support.IsPersianActive())
             {
-                Mod_RTL_Persian_Support mod = LoadedModManager.GetMod<Mod_RTL_Persian_Support>();
-                if (mod != null && mod.settings.enablePersianFixer)
+                RTL_Support.suppressAnchorPatch = true;
+                ModSettings_RTL_Persian_Support settings = RTL_Support.GetModSettings();
+                if (settings != null && settings.enablePersianFixer)
                 {
                     label = PersianFixer.Fix(label);
+                }
+            }
+        }
+
+        [HarmonyPostfix]
+        public static void Postfix()
+        {
+            RTL_Support.suppressAnchorPatch = false;
+        }
+    }
+
+    // Patch 8: Keep ModSummaryWindow DLC/Mod card labels MiddleLeft next to their icon
+    // (Ludeon calculates rect.width without subtracting itemListInnerMargin, so right-aligning overlaps adjacent cards.)
+    [HarmonyPatch(typeof(ModSummaryWindow), "DrawContents")]
+    public static class Patch_ModSummaryWindow_DrawContents
+    {
+        [HarmonyPrefix]
+        public static void Prefix()
+        {
+            if (RTL_Support.IsPersianActive())
+            {
+                RTL_Support.suppressMiddleLeftFlip = true;
+            }
+        }
+
+        [HarmonyPostfix]
+        public static void Postfix()
+        {
+            RTL_Support.suppressMiddleLeftFlip = false;
+        }
+    }
+
+    // Patch 9: Assign Vazirmatn font to WorldFeatureTextMesh_Legacy so world map labels have Persian shaping glyphs
+    [HarmonyPatch(typeof(RimWorld.Planet.WorldFeatureTextMesh_Legacy), "Init")]
+    public static class Patch_WorldFeatureTextMesh_Legacy_Init
+    {
+        private static readonly FieldInfo TextMeshField = AccessTools.Field(typeof(RimWorld.Planet.WorldFeatureTextMesh_Legacy), "textMesh");
+
+        [HarmonyPostfix]
+        public static void Postfix(RimWorld.Planet.WorldFeatureTextMesh_Legacy __instance)
+        {
+            if (!RTL_Support.IsPersianActive() || RTL_Support.PersianFont == null || TextMeshField == null)
+                return;
+
+            TextMesh tm = TextMeshField.GetValue(__instance) as TextMesh;
+            if (tm != null)
+            {
+                tm.font = RTL_Support.PersianFont;
+                MeshRenderer mr = tm.GetComponent<MeshRenderer>();
+                Material mat = RTL_Support.GetWorldFeatureMaterial();
+                if (mr != null && mat != null)
+                {
+                    mr.sharedMaterial = mat;
+                }
+            }
+        }
+    }
+
+    // Patch 10: Shape & reorder World Map feature names (Ocean, Lake, Mountains, etc.) on both Legacy and TMP backends
+    [HarmonyPatch]
+    public static class Patch_WorldFeatureTextMesh_SetText
+    {
+        [HarmonyTargetMethods]
+        public static System.Collections.Generic.IEnumerable<MethodBase> TargetMethods()
+        {
+            MethodBase legacy = AccessTools.PropertySetter(typeof(RimWorld.Planet.WorldFeatureTextMesh_Legacy), "Text");
+            if (legacy != null) yield return legacy;
+
+            MethodBase tmp = AccessTools.PropertySetter("RimWorld.Planet.WorldFeatureTextMesh_TextMeshPro:Text");
+            if (tmp != null) yield return tmp;
+        }
+
+        [HarmonyPrefix]
+        public static void Prefix(ref string value)
+        {
+            if (RTL_Support.IsPersianActive())
+            {
+                ModSettings_RTL_Persian_Support settings = RTL_Support.GetModSettings();
+                if (settings != null && settings.enablePersianFixer)
+                {
+                    value = PersianFixer.FixNoMarker(value);
                 }
             }
         }

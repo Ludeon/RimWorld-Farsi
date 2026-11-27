@@ -25,7 +25,7 @@ echo -e "${CLR_BOLD}${CLR_CYAN}         Universal Linux, Steam Deck & Native Gam
 echo -e "${CLR_BOLD}${CLR_MAGENTA}======================================================================${CLR_RESET}\n"
 
 USE_LOCAL=false
-INSTALL_MOD=true
+INSTALL_MOD=""
 EDITION=""
 GAME_PATH=""
 
@@ -33,6 +33,10 @@ while [[ $# -gt 0 ]]; do
     case "$1" in
         --local|-l)
             USE_LOCAL=true
+            shift
+            ;;
+        --with-mod)
+            INSTALL_MOD=true
             shift
             ;;
         --no-mod)
@@ -47,19 +51,23 @@ while [[ $# -gt 0 ]]; do
             EDITION="full"
             shift
             ;;
+        --mod|-m)
+            EDITION="mod"
+            shift
+            ;;
         --edition)
-            if [[ -n "${2:-}" && ( "$2" == "essential" || "$2" == "full" ) ]]; then
+            if [[ -n "${2:-}" && ( "$2" == "essential" || "$2" == "full" || "$2" == "mod" ) ]]; then
                 EDITION="$2"
                 shift 2
             else
-                echo -e "${CLR_RED}Error:${CLR_RESET} --edition requires 'essential' or 'full'." >&2
+                echo -e "${CLR_RED}Error:${CLR_RESET} --edition requires 'essential', 'full', or 'mod'." >&2
                 exit 1
             fi
             ;;
         --edition=*)
             EDITION="${1#*=}"
-            if [[ "$EDITION" != "essential" && "$EDITION" != "full" ]]; then
-                echo -e "${CLR_RED}Error:${CLR_RESET} --edition requires 'essential' or 'full'." >&2
+            if [[ "$EDITION" != "essential" && "$EDITION" != "full" && "$EDITION" != "mod" ]]; then
+                echo -e "${CLR_RED}Error:${CLR_RESET} --edition requires 'essential', 'full', or 'mod'." >&2
                 exit 1
             fi
             shift
@@ -69,10 +77,12 @@ while [[ $# -gt 0 ]]; do
             echo ""
             echo "Options:"
             echo "  -l, --local            Use local repository translation files instead of downloading latest release"
-            echo "  -e, --essential        Install Essential edition (Persian Keyed/DefInjected, English Strings/)"
-            echo "  -f, --full             Install Full edition (complete Persian translation including Strings/)"
-            echo "      --edition <TYPE>   Explicitly choose 'essential' or 'full'"
-            echo "  --no-mod               Install translation XML files only (skip Harmony RTL support mod)"
+            echo "  -e, --essential        Install Essential edition (Persian Keyed/DefInjected, English Strings/, standalone)"
+            echo "  -f, --full             Install Full edition (complete Persian translation including Strings/, standalone)"
+            echo "  -m, --mod              Install Translation + RTL Mod edition (raw UTF-8 + Vazirmatn font & Harmony RTL mod)"
+            echo "      --edition <TYPE>   Explicitly choose 'essential', 'full', or 'mod'"
+            echo "      --with-mod         Also install Harmony RTL support mod with standalone editions"
+            echo "      --no-mod           Skip Harmony RTL support mod"
             echo "  -h, --help             Show this help message"
             exit 0
             ;;
@@ -86,10 +96,11 @@ while [[ $# -gt 0 ]]; do
 done
 
 if [[ -z "$EDITION" ]]; then
-    echo -e "${CLR_BOLD}Select translation edition:${CLR_RESET}"
-    echo -e "  ${CLR_GREEN}[1] Essential${CLR_RESET} (Recommended — Persian UI & gameplay, original English Strings/)"
-    echo -e "  ${CLR_CYAN}[2] Full${CLR_RESET}      (Complete Persian translation including Strings/)"
-    read -r -p "Enter choice [1/2] (default: 1): " EDITION_CHOICE
+    echo -e "${CLR_BOLD}Select installation option:${CLR_RESET}"
+    echo -e "  ${CLR_GREEN}[1] Essential${CLR_RESET}             (Standalone — Persian UI & gameplay, English Strings/, no mod)"
+    echo -e "  ${CLR_CYAN}[2] Full${CLR_RESET}                  (Standalone — Complete Persian translation incl. Strings/, no mod)"
+    echo -e "  ${CLR_MAGENTA}[3] Translation + RTL Mod${CLR_RESET} (Recommended with Mods — Vazirmatn font & dynamic RTL engine)"
+    read -r -p "Enter choice [1/2/3] (default: 1): " EDITION_CHOICE
     case "${EDITION_CHOICE:-1}" in
         1|essential|Essential|e|E)
             EDITION="essential"
@@ -97,15 +108,26 @@ if [[ -z "$EDITION" ]]; then
         2|full|Full|f|F)
             EDITION="full"
             ;;
+        3|mod|Mod|m|M|rtl|RTL)
+            EDITION="mod"
+            ;;
         *)
-            echo -e "${CLR_RED}Error:${CLR_RESET} Invalid choice '${EDITION_CHOICE}'. Please enter 1 or 2." >&2
+            echo -e "${CLR_RED}Error:${CLR_RESET} Invalid choice '${EDITION_CHOICE}'. Please enter 1, 2, or 3." >&2
             exit 1
             ;;
     esac
     echo ""
 fi
 
-echo -e "Selected edition: ${CLR_BOLD}${EDITION}${CLR_RESET}"
+if [[ -z "$INSTALL_MOD" ]]; then
+    if [[ "$EDITION" == "mod" ]]; then
+        INSTALL_MOD=true
+    else
+        INSTALL_MOD=false
+    fi
+fi
+
+echo -e "Selected option: ${CLR_BOLD}${EDITION}${CLR_RESET} (RTL Mod: ${CLR_BOLD}${INSTALL_MOD}${CLR_RESET})"
 
 # Comprehensive candidate search list for Linux, Steam Deck & Flatpak
 CANDIDATE_PATHS=(
@@ -163,9 +185,45 @@ cleanup() {
 trap cleanup EXIT
 
 SRC_BASE=""
+MOD_SRC=""
 
-# If not forced to use local files, download latest processed release package from GitHub
-if [[ "$USE_LOCAL" != true ]]; then
+# Option 3 ('mod') prefers local raw UTF-8 repository + compiled RTL mod if available,
+# otherwise downloads the repository archive from GitHub so both raw UTF-8 XMLs and the mod are fetched.
+if [[ "$EDITION" == "mod" ]]; then
+    if [[ -d "${SCRIPT_DIR}/Core" && -d "${SCRIPT_DIR}/mods/RTL_Persian_Support" ]]; then
+        echo -e "${CLR_CYAN}Using local raw UTF-8 translation files and RTL Support mod from: ${SCRIPT_DIR}${CLR_RESET}\n"
+        SRC_BASE="${SCRIPT_DIR}"
+        MOD_SRC="${SCRIPT_DIR}/mods/RTL_Persian_Support"
+        USED_LOCAL_SOURCE=true
+    elif [[ "$USE_LOCAL" != true ]]; then
+        echo -e "${CLR_CYAN}Downloading raw translation & RTL Support mod package from GitHub...${CLR_RESET}"
+        TEMP_DIR="$(mktemp -d /tmp/rimworld_farsi_XXXXXX)"
+        ARCHIVE_URL="https://github.com/Ludeon/RimWorld-Farsi/archive/refs/heads/beta.zip"
+        DOWNLOADED=false
+        if command -v curl &>/dev/null; then
+            curl -sSL "$ARCHIVE_URL" -o "${TEMP_DIR}/repo.zip" && DOWNLOADED=true || true
+        elif command -v wget &>/dev/null; then
+            wget -qO "${TEMP_DIR}/repo.zip" "$ARCHIVE_URL" && DOWNLOADED=true || true
+        fi
+        if [[ "$DOWNLOADED" == true && -f "${TEMP_DIR}/repo.zip" ]]; then
+            if command -v unzip &>/dev/null; then
+                unzip -q "${TEMP_DIR}/repo.zip" -d "${TEMP_DIR}/extracted" || true
+            elif command -v python3 &>/dev/null; then
+                python3 -m zipfile -e "${TEMP_DIR}/repo.zip" "${TEMP_DIR}/extracted" || true
+            fi
+            REPO_SUBDIR=$(find "${TEMP_DIR}/extracted" -mindepth 1 -maxdepth 1 -type d | head -n 1 || true)
+            if [[ -n "$REPO_SUBDIR" && -d "${REPO_SUBDIR}/Core" ]]; then
+                SRC_BASE="$REPO_SUBDIR"
+                MOD_SRC="${REPO_SUBDIR}/mods/RTL_Persian_Support"
+                USED_LOCAL_SOURCE=true
+                echo -e "${CLR_GREEN}Downloaded raw translation and RTL Support mod package.${CLR_RESET}\n"
+            fi
+        fi
+    fi
+fi
+
+# Standalone editions ('essential' / 'full'): download latest pre-processed release ZIP from GitHub unless --local
+if [[ -z "$SRC_BASE" && "$USE_LOCAL" != true ]]; then
     echo -e "${CLR_CYAN}Checking for latest Persian translation release on GitHub...${CLR_RESET}"
 
     RELEASE_JSON=""
@@ -221,7 +279,7 @@ if [[ "$USE_LOCAL" != true ]]; then
 fi
 
 # Fallback to local translation repository if download was skipped or failed
-USED_LOCAL_SOURCE=false
+USED_LOCAL_SOURCE="${USED_LOCAL_SOURCE:-false}"
 if [[ -z "$SRC_BASE" ]]; then
     if [[ -d "${SCRIPT_DIR}/Core" ]]; then
         echo -e "${CLR_YELLOW}Using local repository translation files from: ${SCRIPT_DIR}${CLR_RESET}\n"
@@ -232,6 +290,9 @@ if [[ -z "$SRC_BASE" ]]; then
         echo -e "Please check your internet connection or download manually from: https://github.com/Ludeon/RimWorld-Farsi/releases" >&2
         exit 1
     fi
+fi
+if [[ -z "$MOD_SRC" && -d "${SCRIPT_DIR}/mods/RTL_Persian_Support" ]]; then
+    MOD_SRC="${SCRIPT_DIR}/mods/RTL_Persian_Support"
 fi
 
 INSTALLED_COUNT=0
@@ -258,11 +319,11 @@ for MOD in "${MODULES[@]}"; do
 
             cp -r "${SRC_DIR}/"* "$DEST_DIR/"
 
-            # In Essential mode from local repo, swap Strings/ with original English Strings/
-            if [[ "$EDITION" == "essential" && "$USED_LOCAL_SOURCE" == true ]]; then
+            # In Essential or Mod mode from repo/archive, swap Strings/ with original English Strings/
+            if [[ ( "$EDITION" == "essential" || "$EDITION" == "mod" ) && "$USED_LOCAL_SOURCE" == true ]]; then
                 rm -rf "${DEST_DIR}/Strings"
-                if [[ -d "${SCRIPT_DIR}/src/english/${MOD}/Strings" ]]; then
-                    cp -r "${SCRIPT_DIR}/src/english/${MOD}/Strings" "${DEST_DIR}/Strings"
+                if [[ -d "${SRC_BASE}/src/english/${MOD}/Strings" ]]; then
+                    cp -r "${SRC_BASE}/src/english/${MOD}/Strings" "${DEST_DIR}/Strings"
                 fi
             fi
 
@@ -287,8 +348,7 @@ if [[ "$INSTALLED_COUNT" -eq 0 ]]; then
 fi
 
 # Install Harmony RTL Mod into Mods/ folder if requested
-MOD_SRC="${SCRIPT_DIR}/mods/RTL_Persian_Support"
-if [[ "$INSTALL_MOD" == true && -d "$MOD_SRC" ]]; then
+if [[ "$INSTALL_MOD" == true && -n "$MOD_SRC" && -d "$MOD_SRC" ]]; then
     echo -e "\n${CLR_CYAN}Installing RTL Persian Support mod (Vazirmatn font & Harmony engine)...${CLR_RESET}"
     MOD_DEST="${GAME_PATH}/Mods/RTL_Persian_Support"
     rm -rf "$MOD_DEST"

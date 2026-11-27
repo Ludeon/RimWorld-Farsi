@@ -600,88 +600,361 @@ internal class ArabicFixerTool
 			
 		}
 		
-		//Return the Tashkeel to their places.
+		// Return the Tashkeel to their places.
 		if(showTashkeel && tashkeelLocation.Count > 0)
 			ReturnTashkeel(ref lettersFinal, tashkeelLocation);
 
 		internalStringBuilder.Clear();
 		internalStringBuilder.EnsureCapacity(lettersFinal.Length);
-		
-		List<char> numberList = null;
-		
-		void AddNumber(char value) {
-			if (numberList == null) {
-				numberList = new List<char>();
-			}
-			
-			numberList.Add(value);
-		}
-		
-		void AppendNumbers() {
-			if (numberList != null && numberList.Count > 0)
-			{
-				for (int j = 0; j < numberList.Count; j++)
-					internalStringBuilder.Append(numberList[numberList.Count - 1 - j]);
-				numberList.Clear();
-			}
-		}
-		
-		for (int i = lettersFinal.Length - 1; i >= 0; i--)
+
+		for (int i = 0; i < lettersFinal.Length; i++)
 		{
-			if (char.IsPunctuation(lettersFinal[i]) && i>0 && i < lettersFinal.Length-1 &&
-			    (char.IsPunctuation(lettersFinal[i-1]) || char.IsPunctuation(lettersFinal[i+1])))
+			char ch = lettersFinal[i];
+			if (ch != (char)0xFFFF && ch != '\u200C')
 			{
-				if (lettersFinal[i] == '(')
-					internalStringBuilder.Append(')');
-				else if (lettersFinal[i] == ')')
-					internalStringBuilder.Append('(');
-				else if (lettersFinal[i] == '[')
-					internalStringBuilder.Append(']');
-				else if (lettersFinal[i] == ']')
-					internalStringBuilder.Append('[');
-				else if (lettersFinal[i] != 0xFFFF)
-					internalStringBuilder.Append(lettersFinal[i]);
-			}
-			// For cases where english words and arabic are mixed. This allows for using arabic, english and numbers in one sentence.
-			else if(lettersFinal[i] == ' ' && i > 0 && i < lettersFinal.Length-1 &&
-			        (char.IsLower(lettersFinal[i-1]) || char.IsUpper(lettersFinal[i-1]) || char.IsNumber(lettersFinal[i-1])) &&
-			        (char.IsLower(lettersFinal[i+1]) || char.IsUpper(lettersFinal[i+1]) ||char.IsNumber(lettersFinal[i+1])))
-				
-			{
-				AddNumber(lettersFinal[i]);
-			}
-			
-			else if (char.IsNumber(lettersFinal[i]) || char.IsLower(lettersFinal[i]) ||
-			         char.IsUpper(lettersFinal[i]) || char.IsSymbol(lettersFinal[i]) ||
-			         char.IsPunctuation(lettersFinal[i]))// || lettersFinal[i] == '^') //)
-			{
-				
-				if (lettersFinal[i] == '(')
-					AddNumber(')');
-				else if (lettersFinal[i] == ')')
-					AddNumber('(');
-				else if (lettersFinal[i] == '[')
-					internalStringBuilder.Append(']');
-				else if (lettersFinal[i] == ']')
-					internalStringBuilder.Append('[');
-				else
-					AddNumber(lettersFinal[i]);
-			}
-			else if( (lettersFinal[i] >= (char)0xD800 && lettersFinal[i] <= (char)0xDBFF) ||
-			        (lettersFinal[i] >= (char)0xDC00 && lettersFinal[i] <= (char)0xDFFF))
-			{
-				AddNumber(lettersFinal[i]);
-			}
-			else {
-				AppendNumbers();
-				if (lettersFinal[i] != 0xFFFF)
-					internalStringBuilder.Append(lettersFinal[i]);
-				
+				internalStringBuilder.Append(ch);
 			}
 		}
-		AppendNumbers();
-		
-		return internalStringBuilder.ToString();
+
+		return BidiReorder.ReorderLogicalToVisual(internalStringBuilder.ToString());
+	}
+
+	internal static class BidiReorder
+	{
+		private enum BidiType : byte
+		{
+			L,
+			R,
+			EN,
+			ES,
+			ET,
+			CS,
+			NSM,
+			WS,
+			ON
+		}
+
+		private struct Cluster
+		{
+			public int Start;
+			public int Length;
+			public BidiType Type;
+			public byte Level;
+			public char BaseChar => _source[Start];
+			private string _source;
+
+			public Cluster(string source, int start, int length, BidiType type)
+			{
+				_source = source;
+				Start = start;
+				Length = length;
+				Type = type;
+				Level = 0;
+			}
+		}
+
+		private static bool IsNonSpacingMark(char c)
+		{
+			return (c >= '\u064B' && c <= '\u065F')
+				|| c == '\u0670'
+				|| (c >= '\uFC5E' && c <= '\uFC63')
+				|| (c >= '\uFE70' && c <= '\uFE7F' && IsTashkeelForm(c));
+		}
+
+		private static bool IsTashkeelForm(char c)
+		{
+			// Unicode Arabic Presentation Forms-B combining/tatweel diacritics live at 0xFE70..0xFE7F (even entries except 0xFE73)
+			return c == '\uFE70' || c == '\uFE72' || c == '\uFE74' || c == '\uFE76'
+				|| c == '\uFE78' || c == '\uFE7A' || c == '\uFE7C' || c == '\uFE7E';
+		}
+
+		private static bool IsDigitChar(char c)
+		{
+			return (c >= '0' && c <= '9')
+				|| (c >= '\u0660' && c <= '\u0669')
+				|| (c >= '\u06F0' && c <= '\u06F9');
+		}
+
+		private static bool IsRtlStrongChar(char c)
+		{
+			if (c >= '\uE000' && c <= '\uE7FF') return true;  // RTL RichText protected token
+			if (c >= '\uE800' && c <= '\uEFFF') return false; // LTR RichText protected token
+			if (c >= '\uFB50' && c <= '\uFEFC') return !IsTashkeelForm(c);
+			if (c >= '\u0600' && c <= '\u06FF')
+			{
+				if (IsDigitChar(c) || c == '\u060C' || c == '\u066A' || c == '\u066B' || c == '\u066C')
+					return false;
+				return true;
+			}
+			if (c >= '\u0750' && c <= '\u077F') return true;
+			return false;
+		}
+
+		private static BidiType ClassifyChar(char c)
+		{
+			if (c >= '\uE000' && c <= '\uE7FF') return BidiType.R;
+			if (c >= '\uE800' && c <= '\uEFFF') return BidiType.L;
+			if (c >= '\uF000' && c <= '\uF7FF') return BidiType.ON;
+			if (IsNonSpacingMark(c)) return BidiType.NSM;
+			if (IsDigitChar(c)) return BidiType.EN;
+			if (IsRtlStrongChar(c)) return BidiType.R;
+			if (char.IsWhiteSpace(c)) return BidiType.WS;
+			if (c == '+' || c == '-') return BidiType.ES;
+			if (c == '%' || c == '\u066A' || c == '°' || c == '$' || c == '#') return BidiType.ET;
+			if (c == '.' || c == ',' || c == ':' || c == '/' || c == '\u060C') return BidiType.CS;
+			if (char.IsLetter(c)) return BidiType.L;
+			return BidiType.ON;
+		}
+
+		private static bool IsOpenBracket(char c, out char expectedClose)
+		{
+			switch (c)
+			{
+				case '(': expectedClose = ')'; return true;
+				case '[': expectedClose = ']'; return true;
+				case '{': expectedClose = '}'; return true;
+				case '«': expectedClose = '»'; return true;
+				case '\u2039': expectedClose = '\u203A'; return true;
+				default: expectedClose = '\0'; return false;
+			}
+		}
+
+		private static bool IsCloseBracket(char c)
+		{
+			return c == ')' || c == ']' || c == '}' || c == '»' || c == '\u203A';
+		}
+
+		private static char MirrorChar(char c)
+		{
+			switch (c)
+			{
+				case '(': return ')';
+				case ')': return '(';
+				case '[': return ']';
+				case ']': return '[';
+				case '{': return '}';
+				case '}': return '{';
+				case '<': return '>';
+				case '>': return '<';
+				case '«': return '»';
+				case '»': return '«';
+				case '\u2039': return '\u203A';
+				case '\u203A': return '\u2039';
+				default: return c;
+			}
+		}
+
+		internal static string ReorderLogicalToVisual(string logical)
+		{
+			if (string.IsNullOrEmpty(logical)) return logical;
+
+			// 1. Group base chars + trailing NSM diacritics into clusters so reversing preserves mark attachment
+			var clusters = new List<Cluster>(logical.Length);
+			bool hasRtl = false;
+			for (int i = 0; i < logical.Length; )
+			{
+				int start = i;
+				BidiType baseType = ClassifyChar(logical[i]);
+				if (baseType == BidiType.R) hasRtl = true;
+				i++;
+				while (i < logical.Length && ClassifyChar(logical[i]) == BidiType.NSM)
+				{
+					i++;
+				}
+				if (baseType == BidiType.NSM)
+				{
+					baseType = clusters.Count > 0 ? clusters[clusters.Count - 1].Type : BidiType.ON;
+				}
+				clusters.Add(new Cluster(logical, start, i - start, baseType));
+			}
+
+			if (!hasRtl || clusters.Count <= 1)
+				return logical;
+
+			int n = clusters.Count;
+			var types = new BidiType[n];
+			for (int i = 0; i < n; i++) types[i] = clusters[i].Type;
+
+			const BidiType embedStrong = BidiType.R;
+
+			// 2. Keep unary signs (+/-) immediately attached before EN numbers (e.g. -5C, +15%)
+			for (int i = 0; i < n; i++)
+			{
+				if (types[i] == BidiType.ES && i + 1 < n && types[i + 1] == BidiType.EN)
+				{
+					if (i == 0 || (types[i - 1] != BidiType.EN && types[i - 1] != BidiType.L && types[i - 1] != BidiType.R))
+					{
+						types[i] = BidiType.EN;
+					}
+				}
+			}
+
+			// 3. W4: single ES or CS (excluding Arabic comma) strictly between two EN becomes EN (3.14, 10:30, 10-20)
+			for (int i = 1; i < n - 1; i++)
+			{
+				if ((types[i] == BidiType.ES || (types[i] == BidiType.CS && clusters[i].BaseChar != '\u060C'))
+					&& types[i - 1] == BidiType.EN && types[i + 1] == BidiType.EN)
+				{
+					types[i] = BidiType.EN;
+				}
+			}
+
+			// 4. W5: ET adjacent to EN becomes EN (e.g. 91%, +15°C, $100)
+			for (int i = 0; i < n; i++)
+			{
+				if (types[i] == BidiType.EN)
+				{
+					for (int j = i - 1; j >= 0 && types[j] == BidiType.ET; j--) types[j] = BidiType.EN;
+					for (int j = i + 1; j < n && types[j] == BidiType.ET; j++) types[j] = BidiType.EN;
+				}
+			}
+
+			// 5. W6: remaining separators/terminators become ON
+			for (int i = 0; i < n; i++)
+			{
+				if (types[i] == BidiType.ES || types[i] == BidiType.ET || types[i] == BidiType.CS)
+					types[i] = BidiType.ON;
+			}
+
+			// 6. W7: EN whose previous strong type is L becomes L (keeps "RimWorld 1.6" contiguous LTR)
+			BidiType lastStrong = embedStrong;
+			for (int i = 0; i < n; i++)
+			{
+				if (types[i] == BidiType.L || types[i] == BidiType.R)
+					lastStrong = types[i];
+				else if (types[i] == BidiType.EN && lastStrong == BidiType.L)
+					types[i] = BidiType.L;
+			}
+
+			// 7. N0: Unicode Bracket Pair Algorithm for matched brackets
+			var stack = new List<(int idx, char expectedClose)>(16);
+			var pairs = new List<(int openIdx, int closeIdx)>();
+			for (int i = 0; i < n; i++)
+			{
+				if (clusters[i].Length != 1) continue;
+				char ch = clusters[i].BaseChar;
+				if (IsOpenBracket(ch, out char expClose))
+				{
+					if (stack.Count < 63) stack.Add((i, expClose));
+				}
+				else if (IsCloseBracket(ch))
+				{
+					for (int s = stack.Count - 1; s >= 0; s--)
+					{
+						if (stack[s].expectedClose == ch)
+						{
+							pairs.Add((stack[s].idx, i));
+							stack.RemoveRange(s, stack.Count - s);
+							break;
+						}
+					}
+				}
+			}
+			pairs.Sort((a, b) => a.openIdx.CompareTo(b.openIdx));
+
+			foreach (var p in pairs)
+			{
+				bool hasR = false;
+				bool hasL = false;
+				for (int k = p.openIdx + 1; k < p.closeIdx; k++)
+				{
+					if (types[k] == BidiType.R || types[k] == BidiType.EN) hasR = true;
+					else if (types[k] == BidiType.L) hasL = true;
+				}
+
+				if (hasR)
+				{
+					types[p.openIdx] = BidiType.R;
+					types[p.closeIdx] = BidiType.R;
+				}
+				else if (hasL)
+				{
+					BidiType contextStrong = embedStrong;
+					for (int k = p.openIdx - 1; k >= 0; k--)
+					{
+						if (types[k] == BidiType.R || types[k] == BidiType.EN)
+						{
+							contextStrong = BidiType.R;
+							break;
+						}
+						if (types[k] == BidiType.L)
+						{
+							contextStrong = BidiType.L;
+							break;
+						}
+					}
+					types[p.openIdx] = contextStrong;
+					types[p.closeIdx] = contextStrong;
+				}
+			}
+
+			// 8. N1 & N2: resolve remaining WS / ON neutrals using surrounding strong (R/EN vs L) or paragraph direction
+			BidiType StrongForNeutral(BidiType bt) => (bt == BidiType.L) ? BidiType.L : (bt == BidiType.R || bt == BidiType.EN ? BidiType.R : BidiType.ON);
+			for (int i = 0; i < n; )
+			{
+				if (types[i] != BidiType.WS && types[i] != BidiType.ON)
+				{
+					i++;
+					continue;
+				}
+				int runStart = i;
+				while (i < n && (types[i] == BidiType.WS || types[i] == BidiType.ON)) i++;
+				int runEnd = i;
+
+				BidiType leftS = runStart > 0 ? StrongForNeutral(types[runStart - 1]) : embedStrong;
+				if (leftS == BidiType.ON) leftS = embedStrong;
+				BidiType rightS = runEnd < n ? StrongForNeutral(types[runEnd]) : embedStrong;
+				if (rightS == BidiType.ON) rightS = embedStrong;
+
+				BidiType resolved = (leftS == rightS) ? leftS : embedStrong;
+				for (int k = runStart; k < runEnd; k++) types[k] = resolved;
+			}
+
+			// 9. I1/I2: assign BiDi levels (Base RTL = 1 -> R:1, L/EN:2)
+			byte maxLevel = 1;
+			var clusterArr = clusters.ToArray();
+			for (int i = 0; i < n; i++)
+			{
+				byte lvl = (types[i] == BidiType.R) ? (byte)1 : (byte)2;
+				clusterArr[i].Level = lvl;
+				if (lvl > maxLevel) maxLevel = lvl;
+			}
+
+			// 10. L2: reverse maximal contiguous runs at each level from maxLevel down to 1
+			for (byte lvl = maxLevel; lvl >= 1; lvl--)
+			{
+				int i = 0;
+				while (i < n)
+				{
+					if (clusterArr[i].Level >= lvl)
+					{
+						int start = i;
+						while (i < n && clusterArr[i].Level >= lvl) i++;
+						Array.Reverse(clusterArr, start, i - start);
+					}
+					else
+					{
+						i++;
+					}
+				}
+			}
+
+			// 11. Emit characters, applying L4 mirroring for odd (RTL) level clusters
+			var sb = new StringBuilder(logical.Length);
+			for (int i = 0; i < n; i++)
+			{
+				var c = clusterArr[i];
+				if (c.Length == 1 && (c.Level & 1) == 1)
+				{
+					sb.Append(MirrorChar(c.BaseChar));
+				}
+				else
+				{
+					sb.Append(logical, c.Start, c.Length);
+				}
+			}
+			return sb.ToString();
+		}
 	}
 	
 	internal static ushort HandleInduNumber(ushort letterOrigin, ushort letterFinal) {
@@ -745,6 +1018,7 @@ internal class ArabicFixerTool
 
 		bool lettersThatCannotBeBeforeALeadingLetter = index == 0 
 			|| letters[index - 1] == ' ' 
+			|| letters[index - 1] == '\u200C' 
 				|| letters[index - 1] == '*' // ??? Remove?
 				|| letters[index - 1] == 'A' // ??? Remove?
 				|| char.IsPunctuation(letters[index - 1])
@@ -780,6 +1054,7 @@ internal class ArabicFixerTool
 
 		bool lettersThatCannotBeAfterLeadingLetter = index < letters.Length - 1 
 				&& letters[index + 1] != ' '
+				&& letters[index + 1] != '\u200C'
 				&& letters[index + 1] != '\n'
 				&& letters[index + 1] != '\r'
 				&& !char.IsPunctuation(letters[index + 1] )
@@ -802,6 +1077,7 @@ internal class ArabicFixerTool
 	{
 		bool lettersThatCannotBeBeforeAFinishingLetter = (index == 0) ? false : 
 				letters[index - 1] != ' '
+				&& letters[index - 1] != '\u200C'
 
 				&& letters[index - 1] != (int)IsolatedArabicLetters.Dal 
 				&& letters[index - 1] != (int)IsolatedArabicLetters.Thal
@@ -869,9 +1145,11 @@ internal class ArabicFixerTool
 				&& letters[index - 1] != '>' 
 				&& letters[index - 1] != '<' 
 				&& letters[index - 1] != ' ' 
+				&& letters[index - 1] != '\u200C' 
 				&& letters[index - 1] != '*';
 
 		bool lettersThatCannotBeAfterMiddleCharacters = (index < letters.Length - 1) && (letters[index + 1] != ' ' 
+			&& letters[index + 1] != '\u200C' 
 			&& letters[index + 1] != '\r' 
 			&& letters[index + 1] != (int)IsolatedArabicLetters.Hamza
 			&& !char.IsNumber(letters[index + 1])
