@@ -391,7 +391,7 @@
   <!-- EN: Surgical inspection results -->
   <LetterSurgicallyInspectedLabel>نتایج بازرسی جراحی</LetterSurgicallyInspectedLabel>
   <!-- EN: {DOCTOR_nameDef} performed an extensive surgical inspection of {PATIENT_nameDef}. -->
-  <LetterSurgicallyInspectedHeader>{DOCTOR_nameDef} یک بازرسی جراحی گسترده انجام داد.</LetterSurgicallyInspectedHeader>
+  <LetterSurgicallyInspectedHeader>{DOCTOR_nameDef} بازرسی جراحی گسترده‌ای روی {PATIENT_nameDef} انجام داد.</LetterSurgicallyInspectedHeader>
   <!-- EN: {DOCTOR_pronoun} says that {DOCTOR_pronoun} found no anomalies. However, a doctor may lie if it is in their own self-interest. -->
   <LetterSurgicallyInspectedNothing>{DOCTOR_pronoun} می‌گوید که هیچ چیز مشکوکی پیدا نکرده است.</LetterSurgicallyInspectedNothing>
   
@@ -443,9 +443,9 @@
   <!-- EN: Unnatural healing -->
   <LetterUnnaturalHealingLabel>درمان غیرطبیعی</LetterUnnaturalHealingLabel>
   <!-- EN: {CASTER_nameDef} has finished {CASTER_possessive} psychic healing on {PAWN_nameDef}. -->
-  <LetterUnnaturalHealing>{CASTER_nameDef} درمان غیرطبیعی خود را به پایان رسانده است.</LetterUnnaturalHealing>
+  <LetterUnnaturalHealing>{CASTER_nameDef} درمان روانی خود روی {PAWN_nameDef} را به پایان رسانده است.</LetterUnnaturalHealing>
   <!-- EN: However, something went terribly wrong.\n\n{PAWN_nameDef}'s arm split open as a violent growth emerged from {PAWN_possessive} body. {PAWN_possessive} arm has been replaced by a fleshy tentacle! -->
-  <LetterUnnaturalHealingTentacle>با این حال، اتفاق بسیار وحشتناکی افتاد.\n\nعضوی از بدن به یک شاخک جهش یافته است!</LetterUnnaturalHealingTentacle>
+  <LetterUnnaturalHealingTentacle>با این حال، اتفاق بسیار وحشتناکی افتاد.\n\nبازوی {PAWN_nameDef} شکافته شد و یک زائده خشن از بدنش بیرون زد. بازوی او با یک شاخک گوشتی جایگزین شده است!</LetterUnnaturalHealingTentacle>
   
   <!-- Transmutation ability -->
   <!-- EN: {PAWN_nameDef} has transmuted {ORIGINAL} into {TRANSMUTED}. -->
@@ -531,7 +531,7 @@
   <LetterCorpseReappeared>جسدی شبیه به {PAWN_nameDef} ظاهر شده است.</LetterCorpseReappeared>
   
   <!-- EN: The corpse resembling {PAWN_nameDef} has somehow gotten out of its {CONTAINER_labelShort}. -->
-  <MessageCorpseEscaped>جسد شبیه به {PAWN_nameDef} به نوعی ناپدید شده است.</MessageCorpseEscaped>
+  <MessageCorpseEscaped>جسد شبیه به {PAWN_nameDef} به نوعی از {CONTAINER_labelShort} خارج شده است.</MessageCorpseEscaped>
   <!-- EN: Failed to resurrect {PAWN_nameDef}. It simply does not respond. -->
   <MessageUnnaturalCorpseResurrect>تلاش برای احیای {PAWN_nameDef} ناموفق بود. بدن به سادگی واکنشی نشان نمی‌دهد.</MessageUnnaturalCorpseResurrect>
   <!-- EN: The unnatural corpse has caused {PAWN_nameDef} to faint. -->
@@ -553,12 +553,12 @@
   <!-- EN: Unnatural corpse study progress -->
   <UnnaturalCorpseStudyLetter>پیشرفت مطالعه جسد غیرطبیعی</UnnaturalCorpseStudyLetter>
   <!-- EN: Your investigation of the unnatural corpse has revealed more about the body. An archotech shard at its core psychically links it with {VICTIM_nameDef}. It will rebuild itself if destroyed, and teleport any distance to be near {VICTIM_nameDef}. \n\n{RESEARCHER_nameDef} thinks that there may be a way to permanently destroy the corpse but will need to study it further.\n\nStudy the corpse more to learn how to destroy it. -->
-  <UnnaturalCorpseStudyLetterDesc>تحقیقات شما درباره جسد غیرطبیعی اطلاعات جدیدی را آشکار کرده است.</UnnaturalCorpseStudyLetterDesc>
+  <UnnaturalCorpseStudyLetterDesc>تحقیقات شما درباره جسد غیرطبیعی جزئیات بیشتری را آشکار کرده است. یک تکه آرکوتک در هسته آن، این جسد را از نظر روانی به {VICTIM_nameDef} پیوند می‌دهد؛ در صورت نابودی خود را بازسازی کرده و برای نزدیک شدن به {VICTIM_nameDef} از هر فاصله‌ای تله‌پورت می‌کند.\n\n{RESEARCHER_nameDef} معتقد است راهی برای نابودی دائمی این جسد وجود دارد، اما به مطالعه بیشتری نیاز است.\n\nبرای یافتن راه نابودی آن، جسد را بیشتر مطالعه کنید.</UnnaturalCorpseStudyLetterDesc>
 
   <!-- EN: Unnatural corpse study complete -->
   <UnnaturalCorpseStudyCompletedLetter>مطالعه جسد غیرطبیعی تکمیل شد</UnnaturalCorpseStudyCompletedLetter>
   <!-- EN: Your investigation of the unnatural corpse has revealed how to safely remove the archotech shard. Doing so will stop it from psychically tormenting {VICTIM_nameDef}. However, it will also prevent further study of the corpse. -->
-  <UnnaturalCorpseStudyCompletedLetterDesc>بررسی شما روی جسد غیرطبیعی به پایان رسید. اکنون راه نابودی دائمی آن را می‌دانید.</UnnaturalCorpseStudyCompletedLetterDesc>
+  <UnnaturalCorpseStudyCompletedLetterDesc>بررسی شما روی جسد غیرطبیعی نشان داد چگونه تکه آرکوتک را به طور ایمن خارج کنید. انجام این کار مانع از عذاب روانی {VICTIM_nameDef} خواهد شد، اما امکان مطالعه بیشتر جسد را نیز متوقف می‌کند.</UnnaturalCorpseStudyCompletedLetterDesc>
 
   <!-- EN: Corpse shard -->
   <UnnaturalCorpseDeactivatedLetter>تکه آرکوتک جسد</UnnaturalCorpseDeactivatedLetter>
@@ -676,7 +676,7 @@
   <!-- EN: Floor etchings -->
   <LetterLabelFloorEtchings>حکاکی‌های کف</LetterLabelFloorEtchings>
   <!-- EN: {PAWN_nameDef} has managed to decipher the floor etchings.\n\n{RAMBLINGS}\n\nThey seem to indicate that an exit is somewhere {DIRECTION} of here. -->
-  <LetterFloorEtchings>{PAWN_nameDef} موفق شده است حکاکی‌های روی کف را رمزگشایی کند.</LetterFloorEtchings>
+  <LetterFloorEtchings>{PAWN_nameDef} موفق شده است حکاکی‌های روی کف را رمزگشایی کند.\n\n{RAMBLINGS}\n\nبه نظر می‌رسد نشان می‌دهند که یک خروجی در سمت {DIRECTION} اینجا قرار دارد.</LetterFloorEtchings>
 
   <!-- EN: Floor etchings -->
   <LetterLabelFloorEtchingRamblings>هذیان‌های حکاکی کف</LetterLabelFloorEtchingRamblings>
@@ -697,7 +697,7 @@
   <!-- EN: No available pawns. -->
   <MonolithActivateDisabledPawns>هیچ ساکنی در دسترس نیست.</MonolithActivateDisabledPawns>
   <!-- EN: The monolith's dark metallic surface is warm to the touch, and {PAWN_nameDef} thinks {PAWN_pronoun} can hear a faint hum emanating from inside. The lines on its dusty surface seem to squirm in unsettling patterns.\n\n{PAWN_nameDef} focuses on the shapes, trying to uncover their meaning.\n\nThe hum strengthens. The shapes begin to flow in {PAWN_nameDef}'s vision, but the surface isn't changing. Power begins to uncoil in the empty space all around. A black shape is forming in {PAWN_possessive} mind.\n\nThe Anomaly is stirring... -->
-  <VoidMonolithInvestigatedText>سطح فلزی تیره مونولیت در لمس گرم است...</VoidMonolithInvestigatedText>
+  <VoidMonolithInvestigatedText>سطح فلزی تیره مونولیت در لمس گرم است و {PAWN_nameDef} گمان می‌کند زمزمه‌ای ضعیف از درون آن می‌شنود. خطوط روی سطح غبارآلود آن در الگوهایی ناآرام‌کننده در هم می‌لولند.\n\n{PAWN_nameDef} بر شکل‌ها تمرکز می‌کند تا معنای آن‌ها را کشف کند.\n\nزمزمه اوج می‌گیرد. شکل‌ها در دید {PAWN_nameDef} شروع به جریان یافتن می‌کنند، اما سطح سنگ تغییر نمی‌کند. نیرویی در فضای خالی اطراف باز می‌شود و سایه‌ای سیاه در ذهنش شکل می‌گیرد.\n\nآنومالی در حال بیدار شدن است...</VoidMonolithInvestigatedText>
   <!-- EN: Keep focusing on the Anomaly -->
   <VoidMonolithInvestigate>ادامه تمرکز بر آنومالی</VoidMonolithInvestigate>
   <!-- EN: Walk away -->
