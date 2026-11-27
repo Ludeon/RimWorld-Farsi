@@ -83,8 +83,11 @@ class BadgeGenerator:
                                             todo_count += 1
                                         else:
                                             total_words += len(text.split())
-                        except Exception:
-                            pass
+                        except (ET.XMLSyntaxError, OSError) as exc:
+                            print(
+                                f"Warning: Could not parse {path}: {exc}",
+                                file=sys.stderr,
+                            )
 
         return {
             "total_files": total_files,
@@ -97,8 +100,14 @@ class BadgeGenerator:
         stats = self.gather_stats()
 
         # 1. Coverage Badge
-        cov_msg = "100% Complete" if stats["todo_count"] == 0 else f"{stats['todo_count']} TODOs"
-        cov_svg = make_svg_badge("Translation", cov_msg, "#2ecc71" if stats["todo_count"] == 0 else "#e67e22")
+        cov_msg = (
+            "100% Complete"
+            if stats["todo_count"] == 0
+            else f"{stats['todo_count']} TODOs"
+        )
+        cov_svg = make_svg_badge(
+            "Translation", cov_msg, "#2ecc71" if stats["todo_count"] == 0 else "#e67e22"
+        )
         cov_path = output_dir / "coverage.svg"
         cov_path.write_text(cov_svg, encoding="utf-8")
 

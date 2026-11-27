@@ -75,9 +75,16 @@ def get_generic_candidate_paths() -> list[Path]:
     if os.name == "nt":
         for drive in ("C:", "D:", "E:", "F:"):
             candidates.append(
-                Path(drive) / "Program Files (x86)" / "Steam" / "steamapps" / "common" / "RimWorld"
+                Path(drive)
+                / "Program Files (x86)"
+                / "Steam"
+                / "steamapps"
+                / "common"
+                / "RimWorld"
             )
-            candidates.append(Path(drive) / "SteamLibrary" / "steamapps" / "common" / "RimWorld")
+            candidates.append(
+                Path(drive) / "SteamLibrary" / "steamapps" / "common" / "RimWorld"
+            )
             candidates.append(Path(drive) / "GOG Games" / "RimWorld")
     return candidates
 
@@ -106,7 +113,9 @@ def save_local_game_path(repo_root: Path, game_path: Path) -> Path:
     """Persist ``game_path`` to the gitignored ``.rimworld-local.json`` file."""
     config_file = repo_root / LOCAL_CONFIG_FILENAME
     payload = {"game_path": str(game_path.resolve())}
-    config_file.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    config_file.write_text(
+        json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+    )
     return config_file
 
 
@@ -181,7 +190,9 @@ def push_dev_language(
 ) -> SyncStats:
     """Copy raw UTF-8 translation modules from ``repo_root`` to the game's dev language folder."""
     stats = SyncStats()
-    subdirs = tuple(d for d in SYNCABLE_SUBDIRS if not (skip_strings and d == "Strings"))
+    subdirs = tuple(
+        d for d in SYNCABLE_SUBDIRS if not (skip_strings and d == "Strings")
+    )
 
     for module in MODULES:
         src_mod = repo_root / module
@@ -231,11 +242,13 @@ def _find_todo_tags(xml_path: Path) -> list[str]:
     """Return line references for any ``>TODO<`` stubs inside ``xml_path``."""
     todos: list[str] = []
     try:
-        for idx, line in enumerate(xml_path.read_text(encoding="utf-8", errors="ignore").splitlines(), start=1):
+        for idx, line in enumerate(
+            xml_path.read_text(encoding="utf-8", errors="ignore").splitlines(), start=1
+        ):
             if re.search(r">\s*TODO\s*<", line):
                 todos.append(f"{xml_path.name}:{idx}: {line.strip()}")
-    except OSError:
-        pass
+    except OSError as exc:
+        print(f"Warning: Could not read {xml_path}: {exc}", file=sys.stderr)
     return todos
 
 
@@ -276,7 +289,9 @@ def pull_dev_language(
     Strictly protects ``LanguageInfo.xml``, ``WordInfo/``, and ``LangIcon.png`` in the repo.
     """
     stats = SyncStats()
-    subdirs = tuple(d for d in SYNCABLE_SUBDIRS if not (skip_strings and d == "Strings"))
+    subdirs = tuple(
+        d for d in SYNCABLE_SUBDIRS if not (skip_strings and d == "Strings")
+    )
 
     for module in MODULES:
         repo_mod = repo_root / module
@@ -295,15 +310,11 @@ def pull_dev_language(
 
             # Track relative files from game dev folder
             src_rel_files = {
-                p.relative_to(src_sub): p
-                for p in src_sub.rglob("*")
-                if p.is_file()
+                p.relative_to(src_sub): p for p in src_sub.rglob("*") if p.is_file()
             }
 
             if prune and repo_sub.is_dir():
-                repo_rel_files = [
-                    p for p in repo_sub.rglob("*") if p.is_file()
-                ]
+                repo_rel_files = [p for p in repo_sub.rglob("*") if p.is_file()]
                 for repo_file in repo_rel_files:
                     rel = repo_file.relative_to(repo_sub)
                     if rel not in src_rel_files:

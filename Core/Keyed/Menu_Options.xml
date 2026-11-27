@@ -23,7 +23,7 @@
   <!-- EN: Affects all ambient sounds, e.g. wind, insects. -->
   <AmbientVolumeTooltip>بر همه آواهای محیط تأثیر می‌گذارد، به عنوان مثال. باد، حشرات</AmbientVolumeTooltip>
   <!-- EN: Affects all interface sounds, e.g. button clicks, messages. -->
-  <UIVolumeTooltip>بر همه آواهای رابط تأثیر می‌گذارد، به عنوان مثال. کلیک دکمه‌ها، پیام ها</UIVolumeTooltip>
+  <UIVolumeTooltip>بر همه آواهای رابط تأثیر می‌گذارد، به عنوان مثال. کلیک دکمه‌ها، پیام‌ها</UIVolumeTooltip>
   <!-- EN: Anti-aliasing -->
   <Antialiasing>ضد آلیاسینگ</Antialiasing>
 
@@ -167,7 +167,7 @@
   <!-- EN: Restore all settings to default -->
   <RestoreToDefaultSettingsLabel>تمام تنظیمات را به حالت پیش فرض بازگردانید</RestoreToDefaultSettingsLabel>
   <!-- EN: Restore defaults -->
-  <RestoreToDefaultSettings>بازیابی پیش فرض ها</RestoreToDefaultSettings>
+  <RestoreToDefaultSettings>بازیابی پیش فرض‌ها</RestoreToDefaultSettings>
   <!-- EN: All settings have been reset. The game will now restart automatically. -->
   <ResetAndRestart>تمام تنظیمات بازنشانی شده است. اکنون بازی به طور خودکار مجدداً راه اندازی می‌شود.</ResetAndRestart>
   <!-- EN: All settings will be reset to the default and the game will be restarted. Unsaved progress will be lost,\n\nContinue? -->

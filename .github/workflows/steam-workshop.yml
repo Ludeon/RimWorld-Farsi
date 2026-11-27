@@ -16,6 +16,8 @@ on:
         default: false
         type: boolean
 
+permissions: {}
+
 concurrency:
   group: steam-workshop-${{ github.ref }}
   cancel-in-progress: true
@@ -25,6 +27,8 @@ jobs:
     name: Prepare & Verify Workshop Package
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    permissions:
+      contents: read
 
     steps:
       - name: Checkout repository
@@ -124,6 +128,8 @@ jobs:
     runs-on: ubuntu-latest
     needs: validate-and-package
     if: github.event.inputs.dry_run != 'true'
+    timeout-minutes: 15
+    permissions: {}
     steps:
       - name: Download Workshop Artifact
         uses: actions/download-artifact@v4

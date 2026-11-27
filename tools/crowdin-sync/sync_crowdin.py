@@ -60,7 +60,9 @@ class CrowdinSyncBridge:
 
                     strings_in_file: dict[str, dict[str, str]] = {}
                     try:
-                        parser = ET.XMLParser(recover=True, remove_blank_text=True, resolve_entities=False)
+                        parser = ET.XMLParser(
+                            recover=True, remove_blank_text=True, resolve_entities=False
+                        )
                         tree = ET.parse(str(file_path), parser)
                         xml_root = tree.getroot()
                         if xml_root is None:
@@ -86,11 +88,16 @@ class CrowdinSyncBridge:
                             json_out = output_dir / rel_path.with_suffix(".json")
                             json_out.parent.mkdir(parents=True, exist_ok=True)
                             json_out.write_text(
-                                json.dumps(strings_in_file, indent=2, ensure_ascii=False),
+                                json.dumps(
+                                    strings_in_file, indent=2, ensure_ascii=False
+                                ),
                                 encoding="utf-8",
                             )
                     except Exception as e:
-                        print(f"Warning: Failed to export {file_path}: {e}", file=sys.stderr)
+                        print(
+                            f"Warning: Failed to export {file_path}: {e}",
+                            file=sys.stderr,
+                        )
 
         return total_strings
 
@@ -99,7 +106,9 @@ class CrowdinSyncBridge:
         Imports translated JSON files from Crowdin/Weblate and writes back to XML.
         """
         if not input_dir.exists():
-            print(f"Error: Import directory does not exist: {input_dir}", file=sys.stderr)
+            print(
+                f"Error: Import directory does not exist: {input_dir}", file=sys.stderr
+            )
             return 0
 
         imported_strings = 0
@@ -112,10 +121,14 @@ class CrowdinSyncBridge:
                 target_xml = self.repo_root / rel_json.with_suffix(".xml")
 
                 try:
-                    data: dict[str, Any] = json.loads(json_path.read_text(encoding="utf-8"))
+                    data: dict[str, Any] = json.loads(
+                        json_path.read_text(encoding="utf-8")
+                    )
                     if not target_xml.exists():
                         target_xml.parent.mkdir(parents=True, exist_ok=True)
-                        lines = ['<?xml version="1.0" encoding="utf-8"?>\n<LanguageData>\n']
+                        lines = [
+                            '<?xml version="1.0" encoding="utf-8"?>\n<LanguageData>\n'
+                        ]
                         for tag, values in data.items():
                             en = values.get("en", "")
                             fa = values.get("fa", "")
@@ -136,9 +149,13 @@ class CrowdinSyncBridge:
                                 if new_fa and new_fa != "TODO":
                                     elem.text = new_fa
                                     imported_strings += 1
-                        tree.write(str(target_xml), encoding="utf-8", xml_declaration=True)
+                        tree.write(
+                            str(target_xml), encoding="utf-8", xml_declaration=True
+                        )
                 except Exception as e:
-                    print(f"Warning: Failed to import {json_path}: {e}", file=sys.stderr)
+                    print(
+                        f"Warning: Failed to import {json_path}: {e}", file=sys.stderr
+                    )
 
         return imported_strings
 
@@ -163,8 +180,11 @@ class CrowdinSyncBridge:
                                     if isinstance(elem.tag, str) and elem.text:
                                         stats["total_strings"] += 1
                                         stats["total_words"] += len(elem.text.split())
-                        except Exception:
-                            pass
+                        except (ET.XMLSyntaxError, OSError) as exc:
+                            print(
+                                f"Warning: Could not parse {path}: {exc}",
+                                file=sys.stderr,
+                            )
         return stats
 
 

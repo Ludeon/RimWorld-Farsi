@@ -17,14 +17,15 @@ import logging
 import os
 import re
 import sys
-import xml.etree.ElementTree as ET
 from pathlib import Path
+
+import lxml.etree as ET
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger("update_wordinfo")
 
-ZWNJ = "\u200C"  # Zero-Width Non-Joiner (نیم‌فاصله)
+ZWNJ = "\u200c"  # Zero-Width Non-Joiner (نیم‌فاصله)
 
 # Recognized DLC folders
 DEFAULT_DLCS = ["Core", "Royalty", "Ideology", "Biotech", "Anomaly", "Odyssey"]
@@ -95,11 +96,21 @@ def normalize_persian_text(text: str) -> str:
     return text
 
 
+def _strip_xml_comments(text: str) -> str:
+    """Remove XML comments (including multiline blocks) cleanly without fragile regexes."""
+    while "<!--" in text:
+        start = text.find("<!--")
+        end = text.find("-->", start + 4)
+        if end == -1:
+            return text[:start]
+        text = f"{text[:start]}{text[end + 3 :]}"
+    return text
+
+
 def clean_label(text: str) -> str:
-    """Clean label text, removing trailing punct or formatting tags."""
+    """Clean label text, removing comments, trailing punctuation, and extra spacing."""
+    text = _strip_xml_comments(text)
     text = normalize_persian_text(text)
-    # Remove XML comments or trailing punctuation
-    text = re.sub(r"<!--.*?-->", "", text).strip()
     text = text.rstrip(".:،؛!?؟")
     return text.lower()
 
@@ -174,14 +185,17 @@ def parse_definjected_labels(dlc_dir: Path) -> set[str]:
                 continue
             filepath = Path(root) / file
             try:
-                tree = ET.parse(filepath)
+                parser = ET.XMLParser(resolve_entities=False)
+                tree = ET.parse(str(filepath), parser)
                 for elem in tree.iter():
-                    if TARGET_TAG_PATTERNS.match(elem.tag):
+                    if isinstance(elem.tag, str) and TARGET_TAG_PATTERNS.match(
+                        elem.tag
+                    ):
                         val = clean_label(elem.text or "")
                         # Exclude format templates, grammar arrows, or empty strings
                         if val and "->" not in val and "{" not in val and len(val) < 60:
                             labels.add(val)
-            except Exception as e:
+            except (ET.XMLSyntaxError, OSError) as e:
                 logger.warning("Could not parse %s: %s", filepath, e)
 
     return labels
@@ -218,9 +232,7 @@ def write_table(file_path: Path, header_comment: str, entries: dict[str, str]) -
             f.write(f"{key};{val}\n")
 
 
-def update_dlc_wordinfo(
-    dlc_dir: Path, dry_run: bool = False
-) -> tuple[int, int, int]:
+def update_dlc_wordinfo(dlc_dir: Path, dry_run: bool = False) -> tuple[int, int, int]:
     """
     Process a single DLC folder:
     Extracts def labels, updates plural.txt and ezafeh.txt, and logs new words.
@@ -287,7 +299,9 @@ def update_dlc_wordinfo(
         if new_words:
             wordinfo_dir.mkdir(parents=True, exist_ok=True)
             with open(new_words_file, "w", encoding="utf-8") as f:
-                f.write(f"// New words detected in {dlc_name} needing translator review\n")
+                f.write(
+                    f"// New words detected in {dlc_name} needing translator review\n"
+                )
                 for w in sorted(new_words):
                     f.write(f"{w}\n")
 
@@ -338,8 +352,16 @@ def main() -> int:
             logger.warning("DLC folder not found: %s", dlc_path)
 
     logger.info("==================================================")
-    logger.info("Summary: %d labels scanned across %d modules", total_scanned, len(dlcs_to_process))
-    logger.info("New Plural entries: %d | New Ezāfeh entries: %d", total_new_plurals, total_new_ezafeh)
+    logger.info(
+        "Summary: %d labels scanned across %d modules",
+        total_scanned,
+        len(dlcs_to_process),
+    )
+    logger.info(
+        "New Plural entries: %d | New Ezāfeh entries: %d",
+        total_new_plurals,
+        total_new_ezafeh,
+    )
     if args.dry_run:
         logger.info("Dry run complete. No files were written.")
     else:

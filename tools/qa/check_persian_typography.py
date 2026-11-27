@@ -18,17 +18,19 @@ import sys
 from dataclasses import dataclass
 from pathlib import Path
 
-ZWNJ = "\u200C"
+ZWNJ = "\u200c"
 
 # Character replacements for normalization
 CHAR_REPLACEMENTS = {
     "\u0643": "ک",  # Arabic Kaf -> Persian Keheh
-    "\u064A": "ی",  # Arabic Yeh -> Persian Yeh
+    "\u064a": "ی",  # Arabic Yeh -> Persian Yeh
     "\u0649": "ی",  # Arabic Alef Maksura -> Persian Yeh
 }
 
-# Regex to find XML tag content: <tag>content</tag>
-XML_TAG_CONTENT_RE = re.compile(r"(<([A-Za-z0-9_.\-]+)>)(.*?)(</\2>)", re.DOTALL)
+# Match XML comments (left untouched) or leaf <tag>text</tag> nodes without nested child tags
+COMMENT_OR_LEAF_TAG_RE = re.compile(
+    r"(<!--[\s\S]*?-->)|(<([A-Za-z0-9_.\-]+)>)([^<]*)(</\3>)"
+)
 
 # Patterns for Persian punctuation in Persian contexts
 PERSIAN_QUESTION_RE = re.compile(r"([\u0600-\u06FF])\s*\?")
@@ -37,7 +39,9 @@ PERSIAN_SEMICOLON_RE = re.compile(r"([\u0600-\u06FF])\s*;(?![a-zA-Z0-9#]+;)")
 
 # ZWNJ patterns (verbal prefixes and plural suffix)
 PREFIX_MI_RE = re.compile(r"(^|[\s«\(])(می|نمی) ([آابپتثجچحخدذرزژسشصضطظعغفقکگلمنوهی])")
-SUFFIX_HA_RE = re.compile(r"([آابپتثجچحخدذرزژسشصضطظعغفقکگلمنوهی]) ها([\s،؛.!؟»\)\],]|$)")
+SUFFIX_HA_RE = re.compile(
+    r"([آابپتثجچحخدذرزژسشصضطظعغفقکگلمنوهی]) ها([\s،؛.!؟»\)\],]|$)"
+)
 
 
 @dataclass
@@ -122,12 +126,18 @@ def check_file_typography(
     new_content_chunks: list[str] = []
     last_end = 0
 
-    for match in XML_TAG_CONTENT_RE.finditer(content):
+    for match in COMMENT_OR_LEAF_TAG_RE.finditer(content):
         start, end = match.span()
-        open_tag, tag_name, inner_text, close_tag = match.groups()
+        comment, open_tag, tag_name, inner_text, close_tag = match.groups()
 
-        # Append preceding non-tag text (comments, headers, formatting)
+        # Append preceding non-tag text (XML headers, indentation)
         new_content_chunks.append(content[last_end:start])
+
+        if comment is not None:
+            # Preserve XML comments verbatim (never inspect or mutate <!-- EN: ... -->)
+            new_content_chunks.append(comment)
+            last_end = end
+            continue
 
         if inner_text and re.search(r"[\u0600-\u06FF]", inner_text):
             fixed_text = fix_typography_in_text(inner_text)
@@ -139,10 +149,16 @@ def check_file_typography(
                 msg = "Arabic character codepoints or non-standard typography found"
                 if any(k in inner_text for k in CHAR_REPLACEMENTS):
                     rule_name = "ARABIC_CHAR"
-                    msg = "Arabic character (ك/ي) detected. Use authentic Persian (ک/ی)."
-                elif PERSIAN_QUESTION_RE.search(inner_text) or PERSIAN_COMMA_RE.search(inner_text):
+                    msg = (
+                        "Arabic character (ك/ي) detected. Use authentic Persian (ک/ی)."
+                    )
+                elif PERSIAN_QUESTION_RE.search(inner_text) or PERSIAN_COMMA_RE.search(
+                    inner_text
+                ):
                     rule_name = "PUNCTUATION"
-                    msg = "English punctuation (?, ,) used in Persian context. Use (؟،)."
+                    msg = (
+                        "English punctuation (?, ,) used in Persian context. Use (؟،)."
+                    )
                 elif PREFIX_MI_RE.search(inner_text) or SUFFIX_HA_RE.search(inner_text):
                     rule_name = "ZWNJ"
                     msg = "Missing Zero-Width Non-Joiner (نیم‌فاصله) before plural or verb prefix."
@@ -240,19 +256,29 @@ def main() -> int:
     defects, fixed_count = check_all_typography(repo_root, dlcs, auto_fix=args.fix)
 
     if not defects:
-        print("\033[92m[OK] All Persian typography, characters, and ZWNJ rules are valid!\033[0m")
+        print(
+            "\033[92m[OK] All Persian typography, characters, and ZWNJ rules are valid!\033[0m"
+        )
         return 0
 
     if args.fix:
-        print(f"\033[92m[SUCCESS] Automatically repaired {len(defects)} defect(s) across {fixed_count} file(s)!\033[0m")
+        print(
+            f"\033[92m[SUCCESS] Automatically repaired {len(defects)} defect(s) across {fixed_count} file(s)!\033[0m"
+        )
         return 0
 
     print(f"\033[91m[ERROR] Found {len(defects)} typography defect(s):\033[0m\n")
 
     for d in defects[:40]:  # Limit output in CLI if many
-        rel_path = d.file.relative_to(repo_root) if d.file.is_relative_to(repo_root) else d.file
+        rel_path = (
+            d.file.relative_to(repo_root)
+            if d.file.is_relative_to(repo_root)
+            else d.file
+        )
         if args.github:
-            print(f"::error file={rel_path},line={d.line_num},title=Typography [{d.rule}]::{d.message}")
+            print(
+                f"::error file={rel_path},line={d.line_num},title=Typography [{d.rule}]::{d.message}"
+            )
         else:
             print(f"\033[93m{rel_path}:{d.line_num}\033[0m [\033[1m{d.rule}\033[0m]")
             print(f"  \033[91m{d.message}\033[0m")
@@ -261,7 +287,9 @@ def main() -> int:
             print()
 
     if len(defects) > 40:
-        print(f"\033[93m... and {len(defects) - 40} more defects (run with --fix to automatically resolve them).\033[0m")
+        print(
+            f"\033[93m... and {len(defects) - 40} more defects (run with --fix to automatically resolve them).\033[0m"
+        )
 
     return 1
 

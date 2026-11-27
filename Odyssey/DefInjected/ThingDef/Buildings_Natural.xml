@@ -46,7 +46,7 @@
   <!-- EN: The entrance to a cave network. It is possible to climb down into the caves below. -->
   <InsectLairEntrance.description>ورودی یک شبکه غار. امکان صعود به غارهای زیر وجود دارد.</InsectLairEntrance.description>
   <!-- EN: Cannot collapse -->
-  <InsectLairEntrance.comps.CompSealable.cannotSealLabel>نمی تواند فرو بریزد</InsectLairEntrance.comps.CompSealable.cannotSealLabel>
+  <InsectLairEntrance.comps.CompSealable.cannotSealLabel>نمی‌تواند فرو بریزد</InsectLairEntrance.comps.CompSealable.cannotSealLabel>
   <!-- EN: Collapsing the cave entrance is permanent. Anything or anyone left below will be lost forever.{0}\n\nAre you sure you want to continue? -->
   <InsectLairEntrance.comps.CompSealable.confirmSealText>ریزش ورودی غار دائمی است. هر چیزی یا هر کسی که در زیر باقی بماند برای همیشه از بین خواهد رفت.{0}\n\nآیا مطمئن هستید که می‌خواهید ادامه دهید؟</InsectLairEntrance.comps.CompSealable.confirmSealText>
   <!-- EN: Choose a colonist to permanently collapse the entrance. Anything or anyone left below will be lost forever. -->

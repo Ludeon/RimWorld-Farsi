@@ -2,20 +2,25 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Security fixes and integrity updates are actively provided for the latest release line (`v0.4.x`). Older versions are unsupported.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| Version | Supported |
+| ------- | --------- |
+| `v0.4.x` (`master` / latest release) | Supported |
+| `< v0.4.0` | Unsupported |
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+Please **do not** open a public GitHub Issue for security vulnerabilities in the installers (`install.bat`, `install.sh`), C# runtime mod (`RTL_Persian_Support`), Python tooling, or CI/CD workflows.
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+Instead, report vulnerabilities privately through:
+- **GitHub Security Advisories:** <https://github.com/Ludeon/RimWorld-Farsi/security/advisories/new>
+
+### What to Expect
+- **Acknowledgment:** Within 72 hours of submission.
+- **Triage & Assessment:** Within 7 days, including affected components and severity.
+- **Remediation & Disclosure:** Confirmed issues are patched on `beta` and released in the next `v0.4.x` security update with coordinated disclosure credit if desired.
+
+## Release Integrity Verification
+
+All official release artifacts include `SHA256SUMS.txt` / `MD5SUMS.txt` (or `.sha256` / `.md5` sidecars on older releases) alongside Sigstore Cosign `.sig` signatures generated in GitHub Actions with SLSA build provenance.

@@ -1177,7 +1177,7 @@
 
   <!-- Abilities -->
   <!-- EN: Cannot use {0} -->
-  <CannotUseAbility>نمی توان از {0} استفاده کرد</CannotUseAbility>
+  <CannotUseAbility>نمی‌توان از {0} استفاده کرد</CannotUseAbility>
   <!-- EN: Line of sight required -->
   <AbilityRequiresLOS>خط دید مورد نیاز است</AbilityRequiresLOS>
   <!-- EN: Neural heat gain -->
@@ -1195,7 +1195,7 @@
   <!-- EN: Target is out of range. -->
   <AbilityOutOfRange>هدف خارج از محدوده است.</AbilityOutOfRange>
   <!-- EN: Can't reach the target. -->
-  <AbilityCannotReachTarget>نمی توان به هدف رسید</AbilityCannotReachTarget>
+  <AbilityCannotReachTarget>نمی‌توان به هدف رسید</AbilityCannotReachTarget>
   <!-- EN: Not enough free space. -->
   <AbilityNotEnoughFreeSpace>فضای خالی کافی نیست</AbilityNotEnoughFreeSpace>
   <!-- EN: Must target an empty area. -->
@@ -1219,7 +1219,7 @@
   <!-- EN: {0_labelShort} is downed. -->
   <AbilityCantApplyDowned>{0_labelShort} از کار افتاده است.</AbilityCantApplyDowned>
   <!-- EN: Cannot use: {0} is asexual. -->
-  <AbilityCantApplyOnAsexual>نمی توان استفاده کرد: {0} غیرجنسی است.</AbilityCantApplyOnAsexual>
+  <AbilityCantApplyOnAsexual>نمی‌توان استفاده کرد: {0} غیرجنسی است.</AbilityCantApplyOnAsexual>
   <!-- EN: {PAWN_labelShort} has no healable injuries. -->
   <AbilityCannotCastNoHealableInjury>{PAWN_labelShort} هیچ آسیب قابل درمانی ندارد.</AbilityCannotCastNoHealableInjury>
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
@@ -1227,7 +1227,7 @@
   <!-- EN: {0_labelShort} is too young. -->
   <AbilityCantApplyTooYoung>{0_labelShort} خیلی جوان است.</AbilityCantApplyTooYoung>
   <!-- EN: Cannot target a baby. -->
-  <AbilityCantApplyOnBaby>نمی توان یک نوزاد را هدف قرار داد.</AbilityCantApplyOnBaby>
+  <AbilityCantApplyOnBaby>نمی‌توان یک نوزاد را هدف قرار داد.</AbilityCantApplyOnBaby>
   <!-- EN: Psyfocus cost per mental break intensity -->
   <PsyfocusCostPerMentalBreakIntensity>هزینه تمرکز روانی به ازای هر شدت استراحت ذهنی</PsyfocusCostPerMentalBreakIntensity>
   <!-- EN: {0_labelShort} is already inspired. -->

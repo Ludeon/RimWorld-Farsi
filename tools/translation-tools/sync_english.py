@@ -12,20 +12,23 @@ from __future__ import annotations
 import argparse
 import os
 import shutil
+import stat
 import sys
 from pathlib import Path
 
 MODULES = ("Core", "Royalty", "Ideology", "Biotech", "Anomaly", "Odyssey")
 DEFAULT_DEST_DIR = Path(__file__).resolve().parent.parent.parent / "src" / "english"
+_DIR_MODE = stat.S_IRUSR | stat.S_IWUSR | stat.S_IXUSR | stat.S_IRGRP | stat.S_IXGRP
+_FILE_MODE = stat.S_IRUSR | stat.S_IWUSR | stat.S_IRGRP
 
 
 def _normalize_permissions(directory: Path) -> int:
-    """Set standard directory (0755) and file (0644) permissions; return file count."""
+    """Strip world/execute bits cleanly (0750 dirs, 0640 files); return file count."""
     file_count = 0
     for root, _, files in os.walk(directory):
-        os.chmod(root, 0o755)
+        os.chmod(root, _DIR_MODE)
         for filename in files:
-            os.chmod(Path(root) / filename, 0o644)
+            os.chmod(Path(root) / filename, _FILE_MODE)
             file_count += 1
     return file_count
 

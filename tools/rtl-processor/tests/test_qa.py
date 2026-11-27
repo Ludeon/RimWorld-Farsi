@@ -145,3 +145,30 @@ def test_report_strings_check_and_fix(tmp_path: Path) -> None:
     assert (
         "<NonReport.description>یک توضیح معمولی.</NonReport.description>" in new_content
     )
+
+
+def test_typography_scans_leaf_tags_inside_languagedata_and_skips_comments(
+    tmp_path: Path,
+) -> None:
+    test_file = tmp_path / "menus.xml"
+    content = """<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: <Fake>او می رود و گزینه ها?</Fake> -->
+  <Options>گزینه ها</Options>
+  <Mods>مود ها</Mods>
+  <Valid>فایل‌های ترجمه</Valid>
+</LanguageData>
+"""
+    test_file.write_text(content, encoding="utf-8")
+
+    defects, modified = check_file_typography(test_file, auto_fix=False)
+    assert not modified
+    # Must catch BOTH leaf elements individually (not collapse <LanguageData> into 1 miss)
+    assert [d.line_num for d in defects] == [4, 5]
+
+    _, modified_fix = check_file_typography(test_file, auto_fix=True)
+    assert modified_fix
+    updated = test_file.read_text(encoding="utf-8")
+    assert "<!-- EN: <Fake>او می رود و گزینه ها?</Fake> -->" in updated
+    assert f"<Options>گزینه{ZWNJ}ها</Options>" in updated
+    assert f"<Mods>مود{ZWNJ}ها</Mods>" in updated
