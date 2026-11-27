@@ -507,9 +507,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: ${{ steps.artifact.outputs.name }}
-          path: |
-            release_dist/*
-            ${{ env.BUILD_DIR }}/reports.txt
+          path: release_dist/
           retention-days: 30
           if-no-files-found: error
 
