@@ -42,11 +42,11 @@ print_usage() {
     echo -e "  -h, --help                Display this help message\n"
     echo -e "${CLR_BOLD}Examples:${CLR_RESET}"
     echo -e "  # Sync translations from repo into game:"
-    echo -e "  $(basename "$0") --gamepath \"/home/dany/Documents/games/RimWorld\"\n"
+    echo -e "  $(basename "$0") --gamepath \"/path/to/RimWorld\"\n"
     echo -e "  # Preview changes without modifying files (Dry-run):"
-    echo -e "  $(basename "$0") --gamepath \"/home/dany/Documents/games/RimWorld\" --dry-run\n"
+    echo -e "  $(basename "$0") --gamepath \"/path/to/RimWorld\" --dry-run\n"
     echo -e "  # Pull modified translation files from game back into repo:"
-    echo -e "  $(basename "$0") --gamepath \"/home/dany/Documents/games/RimWorld\" --direction pull\n"
+    echo -e "  $(basename "$0") --gamepath \"/path/to/RimWorld\" --direction pull\n"
 }
 
 # --- Parse Arguments ---

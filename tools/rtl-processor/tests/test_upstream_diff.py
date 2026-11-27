@@ -84,3 +84,24 @@ def test_diff_engine_generates_stubs(tmp_path: Path):
     updated_fa = (fa_keyed / "Test.xml").read_text(encoding="utf-8")
     assert "<TagB>TODO</TagB>" in updated_fa
     assert "<!-- EN: String B -->" in updated_fa
+
+
+def test_diff_engine_ignores_comment_only_template_files(tmp_path: Path):
+    en_dir = tmp_path / "en"
+    fa_dir = tmp_path / "fa"
+
+    en_def = en_dir / "Core" / "DefInjected" / "ConceptDef"
+    en_def.mkdir(parents=True)
+    (en_def / "Example_Concepts.xml").write_text(
+        '<?xml version="1.0" encoding="utf-8"?>\n'
+        '<LanguageData>\n'
+        '  <!-- <ExampleConcept.label>Example</ExampleConcept.label> -->\n'
+        '</LanguageData>\n',
+        encoding="utf-8",
+    )
+
+    (fa_dir / "Core").mkdir(parents=True)
+    engine = UpstreamDiffEngine(english_dir=en_dir, persian_dir=fa_dir)
+    report = engine.diff_module("Core")
+    assert report.missing_tags_count == 0
+    assert report.file_diffs == []

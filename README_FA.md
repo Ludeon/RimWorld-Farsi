@@ -87,7 +87,7 @@
 ## 🖼️ پیش‌نمایش محیط بازی
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/87633f91-a012-4567-8f07-15aec21a4be2" alt="RimWorld Persian Translation Screenshot" width="850" />
+  <img src="docs/assets/preview.jpg" alt="RimWorld Persian Translation Screenshot" width="586" />
 </div>
 
 ---

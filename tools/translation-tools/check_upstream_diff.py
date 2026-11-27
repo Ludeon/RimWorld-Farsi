@@ -91,6 +91,9 @@ class UpstreamDiffEngine:
 
             # Iterate over elements and check preceding comments
             for elem in root.iter():
+                # Skip comments, processing instructions, and other non-element nodes
+                if not isinstance(elem.tag, str):
+                    continue
                 # Leaf element check: has text, no child elements
                 if len(elem) == 0 and elem.text is not None:
                     tag_name = elem.tag
@@ -143,9 +146,11 @@ class UpstreamDiffEngine:
             file_diff = FileDiff(relative_path=str(rel_path))
 
             if not fa_file.exists():
+                en_tags = self._extract_tags(en_file)
+                if not en_tags:
+                    continue
                 file_diff.is_new_file = True
                 report.new_files_count += 1
-                en_tags = self._extract_tags(en_file)
                 for tag, (en_text, _) in en_tags.items():
                     tag_diff = TagDiff(tag_path=tag, english_text=en_text, diff_type="missing")
                     file_diff.missing_tags.append(tag_diff)
