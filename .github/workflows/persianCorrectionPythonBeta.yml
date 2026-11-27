@@ -604,7 +604,7 @@ jobs:
           cd artifacts
           for file in *.zip *.bat *.sh; do
             [ -f "$file" ] || continue
-            cosign sign-blob --oidc-issuer https://token.actions.githubusercontent.com --yes "$file" > "$file.sig"
+            cosign sign-blob --new-bundle-format=false --oidc-issuer https://token.actions.githubusercontent.com --output-signature "$file.sig" --yes "$file"
           done
 
       - name: Create GitHub Release
