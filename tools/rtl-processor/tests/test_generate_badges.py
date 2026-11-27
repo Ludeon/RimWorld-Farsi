@@ -40,5 +40,10 @@ def test_badge_generator_runs(tmp_path: Path) -> None:
     assert len(badges) == 4
     assert (out_dir / "coverage.svg").exists()
     assert (out_dir / "qa_status.svg").exists()
+    assert "5/5 Passing" in (out_dir / "qa_status.svg").read_text(encoding="utf-8")
     assert (out_dir / "corpus.svg").exists()
     assert (out_dir / "engine.svg").exists()
+
+    # Failing QA state renders red Failed badge cleanly
+    gen.generate_all(output_dir=out_dir, qa_passing=False)
+    assert "Failed" in (out_dir / "qa_status.svg").read_text(encoding="utf-8")

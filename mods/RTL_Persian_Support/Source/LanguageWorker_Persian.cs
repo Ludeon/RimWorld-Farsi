@@ -47,18 +47,17 @@ namespace RTL_Persian
             if (count >= 0)
                 return str;
 
-            // Generic plural (count == -1):
-            if (TryLookupPluralForm(str, gender, out string lookupPlural, count))
-            {
-                return lookupPlural;
-            }
-
-            // If already ends in plural marker (except singular nouns naturally ending in "-ان"):
-            if (str.EndsWith("ها") || (str.EndsWith("ان") && !SingularAnNouns.Contains(str)))
-                return str;
-
-            // Default Persian inanimate/general plural: word + ZWNJ + ها
-            return str + ZWNJ + "ها";
+            // Generic plural (count == -1) with progressive KeyTail lookup + natural fallback:
+            return PersianWordLookupHelper.ResolveWithProgressiveTail(
+                str,
+                stem => TryLookupPluralForm(stem, gender, out string lookupPlural, count) ? lookupPlural : null,
+                stem =>
+                {
+                    if (stem.EndsWith("ها") || (stem.EndsWith("ان") && !SingularAnNouns.Contains(stem)))
+                        return stem;
+                    return stem + ZWNJ + "ها";
+                }
+            );
         }
 
         /// <summary>
@@ -126,20 +125,20 @@ namespace RTL_Persian
             if (string.Equals(functionName, "ezafeh", StringComparison.OrdinalIgnoreCase) && args.Count > 0)
             {
                 string word = args[0].Trim();
-                if (TryLookUp("ezafeh", word, 1, out string result, fullStringForReference))
-                {
-                    return result;
-                }
-
-                // Programmatic fallback for Ezāfeh:
-                if (word.EndsWith("ا") || word.EndsWith("و"))
-                    return word + "ی";
-                if (word.EndsWith("ه"))
-                    return word + ZWNJ + "ی";
-                if (word.EndsWith("ی"))
-                    return word + Kasra.ToString();
-
-                return word + Kasra.ToString();
+                return PersianWordLookupHelper.ResolveWithProgressiveTail(
+                    word,
+                    stem => TryLookUp("ezafeh", stem, 1, out string result, fullStringForReference) ? result : null,
+                    stem =>
+                    {
+                        if (stem.EndsWith("ا") || stem.EndsWith("و"))
+                            return stem + "ی";
+                        if (stem.EndsWith("ه"))
+                            return stem + ZWNJ + "ی";
+                        if (stem.EndsWith("ی"))
+                            return stem + Kasra.ToString();
+                        return stem + Kasra.ToString();
+                    }
+                );
             }
 
             return base.ResolveFunction(functionName, args, fullStringForReference);

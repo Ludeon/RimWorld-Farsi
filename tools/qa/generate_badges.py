@@ -95,7 +95,11 @@ class BadgeGenerator:
             "todo_count": todo_count,
         }
 
-    def generate_all(self, output_dir: Path) -> dict[str, Path]:
+    def generate_all(
+        self,
+        output_dir: Path,
+        qa_passing: bool | None = None,
+    ) -> dict[str, Path]:
         output_dir.mkdir(parents=True, exist_ok=True)
         stats = self.gather_stats()
 
@@ -111,8 +115,20 @@ class BadgeGenerator:
         cov_path = output_dir / "coverage.svg"
         cov_path.write_text(cov_svg, encoding="utf-8")
 
-        # 2. QA Gates Badge
-        qa_svg = make_svg_badge("QA Gates", "5/5 Passing", "#2ecc71")
+        # 2. QA Gates Badge (compute dynamically via run_qa when qa_passing is omitted)
+        if qa_passing is None:
+            try:
+                import run_qa
+
+                qa_ok = run_qa.run_qa_suite(self.repo_root) == 0
+            except Exception:
+                qa_ok = False
+        else:
+            qa_ok = qa_passing
+
+        qa_msg = "5/5 Passing" if qa_ok else "Failed"
+        qa_color = "#2ecc71" if qa_ok else "#e74c3c"
+        qa_svg = make_svg_badge("QA Gates", qa_msg, qa_color)
         qa_path = output_dir / "qa_status.svg"
         qa_path.write_text(qa_svg, encoding="utf-8")
 

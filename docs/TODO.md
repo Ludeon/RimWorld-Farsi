@@ -220,7 +220,7 @@ flowchart TD
   - Flags prohibited legacy terms and conflicting synonyms before merging pull requests.
 - **6.2. Crowdin & Weblate Two-Way Synchronization Bridge (`tools/crowdin-sync/sync_crowdin.py`)**:
   - CLI script inspired by Korean (`upload.mjs` / `prepare.mjs`) enabling casual web-based translation contributions.
-  - Automatically exports modified XML strings to Crowdin/Weblate API and pulls submitted strings down through the local 4-gate QA pipeline.
+  - Automatically exports modified XML strings to Crowdin/Weblate API and pulls submitted strings down through the local 5-gate QA pipeline.
 - **6.3. In-Game Live Translation Hot-Reload Engine (`mods/RTL_Persian_Support/Source/HotReload.cs`)**:
   - Dev-mode Harmony patch enabling hot-reloading of Persian XML files and font scales in real-time with a hotkey (e.g. `Ctrl + F5`) without restarting RimWorld.
   - Eliminates the 2-minute game reload cycle when testing UI translations on Steam Deck and Linux.
@@ -295,7 +295,7 @@ flowchart TD
 | **T101** | Phase 1 | P1 | Automated `WordInfo` extraction script | `tools/translation-tools/update_wordinfo.py` | [x] Completed |
 | **T102** | Phase 1 | P1 | Generate initial `plural.txt` and `ezafeh.txt` tables | `Core/WordInfo/` | [x] Completed |
 | **T103** | Phase 1 | P1 | Custom C# `LanguageWorker_Persian` | `mods/RTL_Persian_Support/Source/LanguageWorker_Persian.cs` | [x] Completed |
-| **T104** | Phase 1 | P2 | Update `LanguageInfo.xml` references across DLCs | `Core/LanguageInfo.xml` | [x] Completed |
+| **T104** | Phase 1 | P2 | Runtime `LanguageInfo.xml` / Persian `LanguageWorker` injection | `Core/LanguageInfo.xml`, `mods/RTL_Persian_Support/Source/RTL_Support.cs` | [x] Completed |
 | **T201** | Phase 2 | P0 | Placeholder & token integrity checker | `tools/qa/check_placeholders.py` | [x] Completed |
 | **T202** | Phase 2 | P0 | Persian typography & ZWNJ validator | `tools/qa/check_persian_typography.py` | [x] Completed |
 | **T203** | Phase 2 | P1 | ReportString dot validator | `tools/qa/check_report_strings.py` | [x] Completed |
@@ -315,14 +315,14 @@ flowchart TD
 | **T604** | Phase 6 | P2 | Dynamic Repository Health & Quality Badges | `tools/qa/generate_badges.py` | [x] Completed |
 | **T701** | Phase 7 | P1 | High-Performance Static Web Portal for GitHub Pages | `docs/index.html`, `docs/style.css`, `docs/app.js` | [x] Completed |
 | **T702** | Phase 7 | P1 | Interactive In-Browser Placeholder & Grammar Playground | `docs/app.js` | [x] Completed |
-| **T703** | Phase 7 | P1 | Searchable Web Lexicon & Def Terminology Explorer | `docs/app.js`, `docs/glossary.json` | [x] Completed |
+| **T703** | Phase 7 | P1 | Searchable Web Lexicon & Def Terminology Explorer | `docs/app.js` | [x] Completed |
 | **T704** | Phase 7 | P1 | GitHub Pages CI/CD Deployment Workflow & Configuration | `.github/workflows/deploy-pages.yml`, `docs/.nojekyll` | [x] Completed |
 | **T801** | Phase 8 | P2 | Combat Extended (CE) Persian Patch & Ballistics Glossary | `mods/Patches/CombatExtended/` | [ ] Planned |
 | **T802** | Phase 8 | P2 | Vanilla Expanded (VE) Framework Dynamic Patching | `mods/Patches/VanillaExpanded/` | [ ] Planned |
 | **T803** | Phase 8 | P2 | Automated Community Mod Localization Template Generator | `tools/translation-tools/mod_template_gen.py` | [ ] Planned |
-| **T901** | Phase 9 | P1 | Standalone Offline Distribution Release Packager | `tools/release/build_release_zips.py` | [ ] Planned |
-| **T902** | Phase 9 | P2 | SHA-256 Cryptographic Checksum Manifest Generator | `tools/release/generate_checksums.py` | [ ] Planned |
-| **T903** | Phase 9 | P2 | Semantic Release Notes & Delta Changelog Generator | `tools/release/generate_changelog.py` | [ ] Planned |
+| **T901** | Phase 9 | P1 | Standalone Offline Distribution Release Packager | `tools/translation-tools/package_release.py` | [x] Completed |
+| **T902** | Phase 9 | P2 | SHA-256 Cryptographic Checksum Manifest Generator | `tools/translation-tools/package_release.py`, `install.sh`, `install.bat` | [x] Completed |
+| **T903** | Phase 9 | P2 | Semantic Release Notes & Delta Changelog Generator | `.github/workflows/persianCorrectionPythonBeta.yml`, `CHANGELOG.md` | [x] Completed |
 | **T1001** | Phase 10 | P3 | Persian Audio Narration & Intro Voiceover Spec | `docs/AUDIO_NARRATION_SPEC.md` | [ ] Planned |
 | **T1002** | Phase 10 | P2 | Steam Workshop High-DPI Showcase & Banner Assets | `docs/media/` | [ ] Planned |
 

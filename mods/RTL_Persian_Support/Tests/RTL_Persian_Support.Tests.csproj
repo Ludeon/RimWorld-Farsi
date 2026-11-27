@@ -26,6 +26,7 @@
   <ItemGroup>
     <Compile Include="..\Source\ArabicSupport.cs" Link="Source\ArabicSupport.cs" />
     <Compile Include="..\Source\PersianFixer.cs" Link="Source\PersianFixer.cs" />
+    <Compile Include="..\Source\PersianWordLookupHelper.cs" Link="Source\PersianWordLookupHelper.cs" />
   </ItemGroup>
 
 </Project>
