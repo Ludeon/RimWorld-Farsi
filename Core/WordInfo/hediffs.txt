@@ -2,7 +2,7 @@
 # Format: DefName: PersianLabel | EzāfehForm
 AcidBurn: اسید سوختگی | اسید سوختگی
 AlcoholAddiction: اعتیاد به الکل | اعتیاد به الکل
-AlcoholAddiction.stages.withdrawal: خروج | خروج
+AlcoholAddiction.stages.withdrawal: ترک | ترک
 AlcoholHigh: الکل | الکل
 AlcoholHigh.stages.blackout: خاموشی | خاموشی
 AlcoholHigh.stages.drunk: مست | مست
@@ -19,7 +19,7 @@ Alzheimers.stages.major-1: اصلی | اصلی
 Alzheimers.stages.minor-0: جزئی | جزئی
 Alzheimers.stages.minor-1: جزئی | جزئی
 AmbrosiaAddiction: اعتیاد به آمبروزیا | اعتیاد به آمبروزیا ی
-AmbrosiaAddiction.stages.withdrawal: خروج | خروج
+AmbrosiaAddiction.stages.withdrawal: ترک | ترک
 AmbrosiaHigh: گرمای آمبروسیا | گرمای آمبروسیا ی
 AmbrosiaTolerance: تحمل آمبروسیا | تحمل آمبروسیا ی
 AmbrosiaTolerance.stages.large: بزرگ | بزرگ
@@ -103,7 +103,7 @@ ExecutionCut: برش دادن | برش دادن
 FibrousMechanites: مکانیک های فیبری | مکانیک های فیبری
 FibrousMechanites.stages.intense_pain: درد شدید | درد شدید
 FibrousMechanites.stages.mild_pain: درد خفیف | درد خفیف
-FlakeHigh: روی پوسته | روی پوسته‌ی
+FlakeHigh: نشئگی فلیک | نشئگی فلیک
 Flu: آنفولانزا | آنفولانزا ی
 Flu.stages.extreme: افراطی | افراطی
 Flu.stages.major: اصلی | اصلی
@@ -114,10 +114,10 @@ FoodPoisoning.stages.major: اصلی | اصلی
 FoodPoisoning.stages.recovering: در حال بهبودی | در حال بهبودی
 Frail: ضعیف | ضعیف
 Frostbite: سرمازدگی | سرمازدگی
-GoJuiceAddiction: اعتیاد به آب میوه | اعتیاد به آب میوه‌ی
-GoJuiceAddiction.stages.withdrawal: خروج | خروج
-GoJuiceHigh: پر از آب میوه | پر از آب میوه‌ی
-GoJuiceTolerance: تحمل آب میوه | تحمل آب میوه‌ی
+GoJuiceAddiction: اعتیاد به گو-جوس | اعتیاد به گو-جوس
+GoJuiceAddiction.stages.withdrawal: ترک | ترک
+GoJuiceHigh: نشئگی گو-جوس | نشئگی گو-جوس
+GoJuiceTolerance: تحمل گو-جوس | تحمل گو-جوس
 GoJuiceTolerance.stages.large: بزرگ | بزرگ
 GoJuiceTolerance.stages.massive: عظیم | عظیم
 GoJuiceTolerance.stages.small: کوچک | کوچک
@@ -209,10 +209,10 @@ PsychicHangover.stages.buzzing: وزوز | وزوز
 PsychicHangover.stages.forming: تشکیل | تشکیل
 PsychicInvisibility: نامرئی روانی | نامرئی روانی
 PsychicShock: شوک روانی | شوک روانی
-PsychiteAddiction: اعتیاد به روان | اعتیاد به روان
-PsychiteAddiction.stages.withdrawal: خروج | خروج
-PsychiteTeaHigh: سرشار از چای روان | سرشار از چای روان
-PsychiteTolerance: تحمل روانی | تحمل روانی
+PsychiteAddiction: اعتیاد به سایکایت | اعتیاد به سایکایت
+PsychiteAddiction.stages.withdrawal: ترک | ترک
+PsychiteTeaHigh: سرحالی چای سایکایت | سرحالی چای سایکایت
+PsychiteTolerance: تحمل سایکایت | تحمل سایکایت
 PsychiteTolerance.stages.large: بزرگ | بزرگ
 PsychiteTolerance.stages.massive: عظیم | عظیم
 PsychiteTolerance.stages.small: کوچک | کوچک
@@ -246,10 +246,10 @@ SleepingSickness.stages.extreme-1: افراطی | افراطی
 SleepingSickness.stages.major: اصلی | اصلی
 SleepingSickness.stages.minor-0: جزئی | جزئی
 SleepingSickness.stages.minor-1: جزئی | جزئی
-SmokeleafAddiction: وابستگی به برگ دود | وابستگی به برگ دود
-SmokeleafAddiction.stages.withdrawal: خروج | خروج
-SmokeleafHigh: سنگ زده روی برگ دود | سنگ زده روی برگ دود
-SmokeleafTolerance: تحمل برگ دود | تحمل برگ دود
+SmokeleafAddiction: وابستگی به اسموک‌لیف | وابستگی به اسموک‌لیف
+SmokeleafAddiction.stages.withdrawal: ترک | ترک
+SmokeleafHigh: نشئگی اسموک‌لیف | نشئگی اسموک‌لیف
+SmokeleafTolerance: تحمل اسموک‌لیف | تحمل اسموک‌لیف
 SmokeleafTolerance.stages.large: بزرگ | بزرگ
 SmokeleafTolerance.stages.massive: عظیم | عظیم
 SmokeleafTolerance.stages.small: کوچک | کوچک
@@ -264,10 +264,10 @@ ToxicBuildup.stages.minor: جزئی | جزئی
 ToxicBuildup.stages.moderate: متوسط | متوسط
 ToxicBuildup.stages.serious: جدی | جدی
 TraumaSavant: دانشمند تروما | دانشمند تروما ی
-WakeUpAddiction: اعتیاد بیداری | اعتیاد بیداری
-WakeUpAddiction.stages.withdrawal: خروج | خروج
-WakeUpHigh: بالا در بیداری | بالا در بیداری
-WakeUpTolerance: تحمل بیداری | تحمل بیداری
+WakeUpAddiction: اعتیاد به ویک-آپ | اعتیاد به ویک-آپ
+WakeUpAddiction.stages.withdrawal: ترک | ترک
+WakeUpHigh: سرحالی ویک-آپ | سرحالی ویک-آپ
+WakeUpTolerance: تحمل ویک-آپ | تحمل ویک-آپ
 WakeUpTolerance.stages.large: بزرگ | بزرگ
 WakeUpTolerance.stages.massive: عظیم | عظیم
 WakeUpTolerance.stages.small: کوچک | کوچک
@@ -279,4 +279,4 @@ WoundInfection.stages.extreme-0: افراطی | افراطی
 WoundInfection.stages.extreme-1: افراطی | افراطی
 WoundInfection.stages.major: اصلی | اصلی
 WoundInfection.stages.minor: جزئی | جزئی
-YayoHigh: بالا یایو | بالا یایو ی
+YayoHigh: نشئگی یایو | نشئگی یایو

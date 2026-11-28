@@ -719,6 +719,51 @@ namespace RTL_Persian
         }
     }
 
+    // Patch 8b: Keep Bill card title & repeat counter left-aligned inside their designated sub-rects
+    // so UpperRight doesn't collide with top-right suspend/copy/delete icons or +/- buttons.
+    [HarmonyPatch(typeof(Bill), "DoInterface")]
+    public static class Patch_Bill_DoInterface
+    {
+        public struct BillAnchorState
+        {
+            public bool Active;
+            public bool PrevSuppress;
+            public TextAnchor PrevAnchor;
+        }
+
+        [HarmonyPrefix]
+        public static void Prefix(out BillAnchorState __state)
+        {
+            if (RTL_Support.IsPersianActive())
+            {
+                __state = new BillAnchorState
+                {
+                    Active = true,
+                    PrevSuppress = RTL_Support.suppressAnchorPatch,
+                    PrevAnchor = Text.Anchor
+                };
+                RTL_Support.suppressAnchorPatch = true;
+                Text.Anchor = TextAnchor.UpperLeft;
+            }
+            else
+            {
+                __state = default;
+            }
+        }
+
+        [HarmonyFinalizer]
+        public static Exception Finalizer(Exception __exception, BillAnchorState __state)
+        {
+            if (__state.Active)
+            {
+                RTL_Support.suppressAnchorPatch = true;
+                Text.Anchor = __state.PrevAnchor;
+                RTL_Support.suppressAnchorPatch = __state.PrevSuppress;
+            }
+            return __exception;
+        }
+    }
+
     // Patch 9: Assign Vazirmatn font to WorldFeatureTextMesh_Legacy so world map labels have Persian shaping glyphs
     [HarmonyPatch(typeof(RimWorld.Planet.WorldFeatureTextMesh_Legacy), "Init")]
     public static class Patch_WorldFeatureTextMesh_Legacy_Init
